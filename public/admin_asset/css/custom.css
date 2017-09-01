@@ -1,0 +1,96 @@
+.login-form-box{
+	margin-top: 10%;
+	padding: 20px 40px 60px;
+}
+.login-page:before{
+	background: url(../images/bg4.jpg) no-repeat scroll 0 0 / cover transparent;
+}
+.admin-nav li a{
+    padding: 10px 20px;
+}
+.contacts-list{
+	max-height: 100%;
+}
+.info-verify{
+	-webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -ms-border-radius: 21px;
+    -o-border-radius: 21px;
+    border-radius: 21px;
+    color: #fff;
+    display: inline-block;
+    float: none;
+    font-size: 13px;
+    padding: 7px 16px;
+}
+.info-detail{
+	width: auto;
+}
+.widget .projects{
+	max-height: 100%;
+}
+.alert {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+.alert-success {
+    background-color: #dff0d8;
+    border: 1px solid #298c01;
+    color: #3c763d;
+}
+.alert-danger {
+    background-color: #fbeaea;
+    border: 1px solid #b30000;
+    color: #b70400;
+}
+span.error{
+	display: block;
+	font-size: 14px;
+    padding: 15px 0;
+    color: #960202;
+}
+.btn, .btn-large{
+	line-height: 28px;
+}
+.file-field .btn, .file-field .btn-large{
+	line-height: 38px;
+}
+.dropdown-content {
+    min-width: 250px;
+}
+table.intable th{
+	font-size: 14px;
+	text-transform: capitalize;
+	border-radius: 0;
+	background: #737373;
+	color: #fff;
+	padding: 15px;
+	line-height: 18px;
+}
+table.intable td{
+	font-size: 14px;
+	text-transform: capitalize;
+	padding: 15px;
+	line-height: 18px;
+}
+.form_del{
+    width: auto;
+}
+.slide_trigger, .form_del .btn{
+    padding: 0;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+.slide_trigger i, .form_del .btn i{
+    font-size: 16px;
+}
+.material-tooltip{
+    width: 40%;
+    line-height: 20px;
+    font-size: 14px;
+}
