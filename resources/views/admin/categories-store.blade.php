@@ -58,10 +58,10 @@
                             <div class="input-field col s3">
                                 <div class="switch">
                                     <label>
-                                      Off
+                                      No
                                       <input type="checkbox" name="featured" value="1">
                                       <span class="lever"></span>
-                                      On
+                                      Yes
                                     </label>
                                 </div>
                                 <label class="active">Set as featured brand/store</label>
@@ -100,9 +100,9 @@
                                           @endif
                                         </td>
                                         <td>
-                                            @if($store->type == "web")
+                                            @if($club->type == "web")
                                               {{"Website"}}
-                                            @elseif($store->type == "fb")
+                                            @elseif($club->type == "fb")
                                               {{"Facebook"}}
                                             @endif
                                         </td>

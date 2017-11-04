@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title', '- About Shoppre')
+@section('title', 'About | Shoppre - International Shipping Partner')
+@section('description', 'Know how Shoppre a parcel forwarding & international shipping services work for online shopping in India while ensuring fast service at unbelievably low prices.')
+@section('keywords', 'know how, shoppre, parcel forwarding, international shipping services, online shopping in india, fast service, dhl, fedex, dtdc')
 
 @section('content')
 
@@ -24,13 +26,13 @@
           </div>
           <div class="col-md-8 text-center">
             <div class="circle">
-              <a href="#">About<br>Shoppre</a>
+              <span>About<br>Shoppre</span>
             </div>
             <div class="circle">
-              <a href="#">Why<br>Shoppre</a>
+              <span>Why<br>Shoppre</span>
             </div>
             <div class="circle" style="padding-top: 25px;">
-              <a href="#">Our<br>Shopping<br>Partners</a>
+              <span>Our<br>Shopping<br>Partners</span>
             </div>
           </div>
           
@@ -86,7 +88,7 @@
         <div class="col-md-12">
         <h3>So what are you waiting for? Shopp <span class="text-orange">re</span>! Open your big box of happiness today!</h3>
         <p>All you need is a membership to get your Indian Shipping Address immediately!</p>
-        <a href="#" class="btn btn-shoppre">sign up for free</a>
+        <a href="{{route('customer.register')}}" class="btn btn-shoppre">sign up for free</a>
         </div>
       </div>
     </div>

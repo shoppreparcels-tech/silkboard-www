@@ -27,7 +27,7 @@
                                     <tr>
                                         <th>Title</th>
                                         <th style="width: 50px;"></th>
-                                        <th style="width: 50px;"></th>
+                                        <!-- <th style="width: 50px;"></th> -->
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -35,7 +35,7 @@
                                         <tr>
                                             <td>{{$page->title}}</td>
                                             <td><a href="{{route('admin.pages.edit', [$page->id])}}"><i class="ti-pencil-alt"></i></a></td>
-                                            <td><a href="#"><i class="ti-trash"></i></a></td>
+                                            <!-- <td><a href="#"><i class="ti-trash"></i></a></td> -->
                                         </tr>
                                     @endforeach
                                 </tbody>    

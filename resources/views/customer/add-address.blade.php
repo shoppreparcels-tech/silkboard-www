@@ -59,7 +59,7 @@
 								    	<select class="form-control select2" name="country">
 								    	<option>Select Country</option>
 								    	@foreach($countries as $country)
-								    		<option value="{{$country->name}}">{{$country->name}}</option>
+								    		<option value="{{$country->id}}">{{$country->name}}</option>
 								    	@endforeach
 								    	</select>
 								    	@if ($errors->has('country'))
@@ -105,6 +105,11 @@
 				                        <hr>
 					                </div>
 								  	<div class="form-group">
+								  		@php
+								  			if(isset(request()->redirect) && !empty(request()->redirect)){
+								  				echo '<input type="hidden" name="redirect" value="'.request()->redirect.'">';
+								  			}
+								  		@endphp
 								  		<button type="submit" class="btn btn-block btn-shoppre">Save Address</button>
 								  	</div>
 								</form>

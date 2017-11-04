@@ -19,10 +19,11 @@
                   <div class="alert alert-success">{{ session('message') }}</div>
               @endif
               <div class="box-grey">
-                <form class="form-horizontal" method="post" action="{{route('customer.ship.prefer.update')}}" enctype= multipart/form-data>
+                <form class="form-horizontal" method="post" action="{{route('customer.ship.prefer.update')}}">
                 {{ csrf_field() }}
                   <div class="section btm-border">
                     <h3>Default Shipping Address</h3>
+                    @if(!empty($address))
                     <div class="address">
                       <h6>{{$address->city}} Address</h6>
                       <address>
@@ -35,58 +36,31 @@
                       </address>
                       <a href="{{route('customer.address')}}" class="edit"><i class="fa fa-pencil"></i></a>
                     </div>
+                    @else
+                      <a href="{{route('customer.address.add')}}">+ Add A Shipping Address</a>
+                    @endif
                   </div>
                   <div class="section btm-border">
                     <h3>Log in options</h3>
                     <div class="form-group">
-                      <label for="additionalemail" class="col-sm-4 control-label">Additional email address (optional) </label>
-                      <div class="col-sm-6">
-                        <input type="email" name="email_alt" class="form-control" id="additionalemail" value="{{$settings->email_alt or ''}}">
-                        @if ($errors->has('email_alt'))
-                          <span class="error">{{ $errors->first('email_alt') }}</span>
-                        @endif
+                      <div class="checkbox">
+                        <label>
+                          @php
+                            $std_photo = (isset($settings->std_photo) && !empty($settings->std_photo)) ? "checked" : "";
+                          @endphp
+                          <input type="checkbox" name="std_photo" value="1" {{$std_photo}}>
+                          Take standard photos of item at login
+                        </label>
                       </div>
                     </div>
                     <div class="form-group">
                       <div class="checkbox">
                         <label>
                           @php
-                            $photo_login = (isset($settings->photo_login) && !empty($settings->photo_login)) ? "checked" : "";
+                            $advc_photo = (isset($settings->advc_photo) && !empty($settings->advc_photo)) ? "checked" : "";
                           @endphp
-                          <input type="checkbox" name="photo_login" value="1" {{$photo_login}}>
-                          Take photos of item at login*
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="section btm-border">
-                    <h3>Shipping Schedule Preference</h3>
-                    @php
-                      $hold = "checked";
-                      $auto = "";
-                      if(isset($settings->schedule) && !empty($settings->schedule)){
-                        if($settings->schedule == "auto"){
-                          $auto = "checked";
-                          $hold = "";
-                        }else{
-                          $hold = "checked";
-                          $auto = "";
-                        }
-                      }
-                    @endphp
-                    <div class="form-group">
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="schedule" value="hold" {{$hold}}>
-                          Hold
-                        </label>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="schedule" value="auto" {{$auto}}>
-                          Automatic
+                          <input type="checkbox" name="advc_photo" value="1" {{$advc_photo}}>
+                          Take advanced photos of item at login
                         </label>
                       </div>
                     </div>
@@ -100,7 +74,7 @@
                       <div class="checkbox">
                         <label>
                           <input type="checkbox" name="repack" value="1" {{$repack}}>
-                          Repackage your items*
+                          Repackage your items
                         </label>
                       </div>
                     </div>
@@ -111,7 +85,7 @@
                       <div class="checkbox">
                         <label>
                           <input type="checkbox" name="sticker" value="1" {{$sticker}}>
-                          Fragile Stickers*
+                          Fragile Stickers
                         </label>
                       </div>
                     </div>
@@ -122,7 +96,7 @@
                       <div class="checkbox">
                         <label>
                           <input type="checkbox" name="pack_extra" value="1" {{$pack_extra}}>
-                          Add extra packing material*
+                          Add extra packing material
                         </label>
                       </div>
                     </div>
@@ -137,18 +111,8 @@
                         </label>
                       </div>
                     </div>
-                    <div class="form-group">
-                      <label for="multipiece" class="col-sm-7 control-label">Maximum weight per box/ Multi-piece shipment (MPS) </label>
-                      <div class="col-sm-3">
-                        <input type="text" class="form-control" name="box_weight" id="multipiece" value="{{$settings->box_weight or ''}}">
-                        @if ($errors->has('box_weight'))
-                          <span class="error">{{ $errors->first('box_weight') }}</span>
-                        @endif
-                      </div>
-                      <small class="col-sm-2">1 kg is about 2.20462 pounds</small>
-                    </div>
                   </div>
-                  <div class="section btm-border">
+                  <div class="section btm-border" id="performa_invoice">
                     <h3>Performa Invoice Options</h3>
                     <div class="form-group">
                       <label for="taxid" class="col-sm-1 control-label">Tax ID </label>
@@ -180,27 +144,6 @@
                     </div>
                   </div>
                   <div class="section">
-                    <h3>Account Documents</h3>
-                    <div class="form-group">
-                      <label>Please upload any documents requested by Shoppre to validate your account (For example, your photo identification, etc.). Please do not upload invoices here. Seller invoices can be uploaded to your packages in My Locker.</label>
-                    </div>
-                    <div class="form-group">
-                      <span class="btn btn-shoppre btn-file">
-                        <label>Upload Document <i class="fa fa-upload"></i></label><input type="file" class="upload" name="documents[]" multiple>
-                      </span>
-                      <ul id="jquery_docs" class="ac_docs"></ul>
-                      <ul class="ac_docs">
-                        @if(!$docs->isEmpty())
-                          @foreach($docs as $doc)
-                            <li><a href="{{asset('uploads/account-documents')}}/{{$doc->document}}" class="doc">{{$doc->document}}</a><a href="{{route('customer.account-doc.delete', ['id'=>$doc->id])}}" class="trash"><i class="fa fa-trash"></i></a></li>
-                          @endforeach
-                        @endif
-                      </ul>
-                    </div>
-                    <div class="form-group">
-                      <label>Is this secure?</label>
-                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yes, all uploaded documents are held in our secure server, and are only available for viewing  when you are signed in to your account.</p>
-                    </div>
                     <div class="form-group">
                       <button type="submit" class="btn btn-primary pull-right">Update Changes</button>
                     </div>

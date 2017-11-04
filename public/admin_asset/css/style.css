@@ -1,76 +1,6 @@
-/*===================== TABLE OF CONTENT =======================
-1. Fonts
-2. General Styling
-3. Cross Browser Compatibility
-4. Topbar
-5. Side Menu
-6. Content Area
-7. Breadcrumb Bar
-8. Widgets
-9. Main Counter
-10. Am Charts
-11. Sparkline Chart
-12. Todays Tasks
-13. Donut Chart
-14. Projects
-15. Weather Forecast
-16. Social Activities
-17. Info Card
-18. Website Traffic
-19. Calendar
-20. Live Chat
-21. Activity Feed
-22. Contacts With Live Search
-23. Support Tickets
-24. Carousel Widget
-25. Status Update
-26. Timeline
-27. Admin Follows
-28. Source Table
-29. Country Map
-30. Review Table
-31. My Profile Widget
-32. Event Widget
-33. Mail Box
-34. Compose Mail
-35. Mail Open
-36. Login Page
-37. Error Page
-38. Forms
-39. Maps
-40. Sliders
-41. Accordions
-42. Icons
-43. Galleries
-44. Dynamic Gallery
-45. Extra Options
-46. Sortables
-47. Modals
-48. Material Icons Page
-49. Calculator
-50. SLICK CAROUSEL STYLING
-51. SIMPLE LIGHTBOX
-52. SCROLLBAR
-53. AM CHARTS
-54. RICKSHAW CHARTS
-55. FULL CALENDAR
-56. LIVE CHAT
-57. Multiple Emails
-58. Easy Editor
-59. Steps Form
-60. File Upload
-61. Tour
-62. Form Builder
-
-=============================================================*/
-
 /*=============== Fonts ===================*/
 @import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900');
 /*=============== General Styling ===================*/
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License:none (public domain)
-*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -218,6 +148,13 @@ a,
     -ms-border-radius:50%;
     -o-border-radius:50%;
     border-radius:50%;
+}
+input:not([type]):disabled+label, input:not([type])[readonly="readonly"]+label, input[type=text]:disabled+label, input[type=text][readonly="readonly"]+label, input[type=password]:disabled+label, input[type=password][readonly="readonly"]+label, input[type=email]:disabled+label, input[type=email][readonly="readonly"]+label, input[type=url]:disabled+label, input[type=url][readonly="readonly"]+label, input[type=time]:disabled+label, input[type=time][readonly="readonly"]+label, input[type=date]:disabled+label, input[type=date][readonly="readonly"]+label, input[type=datetime]:disabled+label, input[type=datetime][readonly="readonly"]+label, input[type=datetime-local]:disabled+label, input[type=datetime-local][readonly="readonly"]+label, input[type=tel]:disabled+label, input[type=tel][readonly="readonly"]+label, input[type=number]:disabled+label, input[type=number][readonly="readonly"]+label, input[type=search]:disabled+label, input[type=search][readonly="readonly"]+label, textarea.materialize-textarea:disabled+label, textarea.materialize-textarea[readonly="readonly"]+label{
+        color: rgba(0, 0, 0, 1);
+}
+input:not([type]):disabled, input:not([type])[readonly="readonly"], input[type=text]:disabled, input[type=text][readonly="readonly"], input[type=password]:disabled, input[type=password][readonly="readonly"], input[type=email]:disabled, input[type=email][readonly="readonly"], input[type=url]:disabled, input[type=url][readonly="readonly"], input[type=time]:disabled, input[type=time][readonly="readonly"], input[type=date]:disabled, input[type=date][readonly="readonly"], input[type=datetime]:disabled, input[type=datetime][readonly="readonly"], input[type=datetime-local]:disabled, input[type=datetime-local][readonly="readonly"], input[type=tel]:disabled, input[type=tel][readonly="readonly"], input[type=number]:disabled, input[type=number][readonly="readonly"], input[type=search]:disabled, input[type=search][readonly="readonly"], textarea.materialize-textarea:disabled, textarea.materialize-textarea[readonly="readonly"]{
+        color: rgba(0, 0, 0, 1);
+        border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
 }
 
 /*=============== Topbar ===================*/
@@ -565,6 +502,7 @@ body.active .sidemenu{left:-255px}
     float:left;
     height:100%;
     width:100%;
+    overflow: auto;
 }
 .admin{
     display:table;
@@ -617,7 +555,7 @@ nav.admin-nav{
     background:rgba(0, 0, 0, 0);
     box-shadow:none;
     float:left;
-    margin-top:40px;
+    margin-top:0px;
     width:100%;
 }
 .admin-nav > h6{
@@ -2463,19 +2401,21 @@ a.fc-more:hover{
     font-size:13px;
     padding:7px 16px;
 }
-.my-profile-widget > p{
-    font-size:14px;
-    margin:30px 0 20px;
-    padding:0 22px;
-    text-align:center;
+.my-profile-widget > p {
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
 }
-.my-profile-widget > a{
-    color:#a5a5a5;
-    float:left;
-    font-size:15px;
-    margin-bottom:25px;
-    text-align:center;
-    width:100%;
+.my-profile-widget p a{
+    color: #ffffff;
+    background: #2c313c;
+    padding: 15px 0;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
 }
 .my-profile-widget > .social-btns{
     float:left;
@@ -2720,7 +2660,6 @@ a.fc-more:hover{
     padding:30px;
 }
 form{
-    float:left;
     width:100%;
 }
 label{
@@ -2909,14 +2848,15 @@ pre{
     margin:0;
     width:100%;
 }
-
 .login-page .input-field{
     float:left;
     margin:0 0 10px;
     width:100%;
 }
-
-.login-form-box form{margin-top:80px}
+.login-form-box form{
+    margin-top: 80px;
+    float: left;
+}
 .login-form-box button{
     float:left;
     margin:20px 0 10px;

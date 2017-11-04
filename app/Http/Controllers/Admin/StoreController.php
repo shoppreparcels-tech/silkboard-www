@@ -22,7 +22,7 @@ class StoreController extends Controller
 
     public function index()
     {
-    	$stores = Store::all();
+    	$stores = Store::orderBy('created_at', 'desc')->paginate(20);
     	return view('admin.stores')->with(['stores'=>$stores]);
     }
 

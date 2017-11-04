@@ -15,15 +15,13 @@ class CreateShippingPreferencesTable extends Migration
     {
         Schema::create('shipping_preferences', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('customer_id');
-            $table->string('email_alt')->nullable();
-            $table->enum('photo_login', [1, 0])->nullable()->default(0);
-            $table->enum('schedule',['auto', 'hold'])->nullable()->default('hold');
+            $table->integer('custid');
+            $table->enum('std_photo', [1, 0])->nullable()->default(0);
+            $table->enum('advc_photo', [1, 0])->nullable()->default(0);
             $table->enum('repack', [1, 0])->nullable()->default(0);
             $table->enum('sticker', [1, 0])->nullable()->default(0);
             $table->enum('pack_extra', [1, 0])->nullable()->default(0);
             $table->enum('orginal_box', [1, 0])->nullable()->default(0);
-            $table->float('box_weight', 8, 2)->nullable();
             $table->string('tax_id')->nullable();
             $table->enum('personal', [1, 0])->nullable()->default(0);
             $table->enum('include_invoice', [1, 0])->nullable()->default(0);

@@ -1,12 +1,12 @@
 @extends('layout')
 
-@section('title', '- Shop Online | Ship Worldwide')
+@section('title', 'Shoppre - Shop Online from India and Ship Worldwide')
+@section('description', 'Shoppre is a parcel forwarding company which allows your packages to ship from India to worldwide starting at ₹466 only and reaches within 2-4 working days!')
+@section('keywords', 'parcel forwarding company, borderless shipping from india, personal shipping indian address, fast, cheap, hassle free, shoppre')
 
 @section('css_style')
 	<!-- Owl Carousel -->
   <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
-  <!-- Select2 -->
-  <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
   <!-- Magnific Popup -->
   <link rel="stylesheet" href="css/magnific-popup.css">
 @endsection
@@ -15,59 +15,100 @@
     <!-- Home Page Contents -->
     <section class="slider">
         <div class="slide">
-          <img src="{{asset('img/teaser_banner.jpg')}}" width="100%">
-          <div class="teaser_slide">
-            <h1>Borderless Shipping from <span class="text-orange">INDIA</span></h1>
-            <h2 class="text-orange">Starting @ Rs.466 Only*</h2>
-            <p>Fast, Cheap and Hassle Free</p>
+          <img src="{{asset('img/slider1.jpg')}}" width="100%">
+          <div class="caption-block">
+            <h2 class="text-orange">BORDERLESS SHIPPING FROM INDIA</h2>
+            <h3>Shop from India, Ship Worldwide!</h3>
+            <p>Door to Door Pickup and International & Domestic Delivery. <a href="#" class="text-orange">Schedule a Pickup</a></p>
             <p>Receive your FREE Personal Locker and Virtual Shipping Address in India!</p>
-            <a href="#" class="btn btn-shoppre">SIGN UP FOR FREE</a>
-            <a href="#" class="btn btn-shoppre">WATCH VIDEO <i class="glyphicon glyphicon-play-circle"></i></a>
+            <a href="{{route('customer.register')}}" class="btn btn-shoppre">Sign up for free</a>
+            <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-shoppre popup-youtube">Video <i class="glyphicon glyphicon-play-circle"></i></a>
+          </div>
+          <div class="bottom">
+            <p>Not all Indian Online Stores offer International Shipping</p>
           </div>
         </div>
     </section>
-    <section class="courier_white">
+    <section class="all-about">
       <div class="container">
-        <div class="col-sm-4">
-          <div class="square-box">
-            <h2>All About</h2>
-            <img src="{{asset('img/texture.png')}}">
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="square-box">
+              <h2>All About</h2>
+              <img src="{{asset('img/texture.png')}}">
+            </div>
+          </div>
+          <div class="col-sm-10">
+            <div class="parcel_logs">
+              <h3>Ship your Parcel through Shoppre’s trusted Courier Partners</h3>
+              <img src="{{asset('img/dhl.png')}}">
+              <img src="{{asset('img/fedex.png')}}">
+              <img src="{{asset('img/dtdc.png')}}">
+              <h4>Shoppre receives and ships over INR 10,00,000 worth in eCommerce purchases monthly!</h4>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <ul class="horline">
+            <li>
+              <h2>1000+</h2>
+              <h4>Indian Shopping Websites</h4>
+            </li>
+            <li>
+              <h2>220+</h2>
+              <h4>Countries Worldwide</h4>
+            </li>
+            <li>
+              <h2>2-4 Days</h2>
+              <h4>Average Delivery Time</h4>
+            </li>
+            
+            <li>
+              <h2>Save 60-80%</h2>
+              <h4>Storage, Consolidation &amp; Repackaging!</h4>
+            </li>
+          </ul>
+          <div class="text-center">
+            <a href="{{route('about')}}" class="btn btn-shoppre">Why You Will Love Us</a>
           </div>
         </div>
-        <div class="col-sm-8">
-          <div class="parcel_logs">
-            <h3>Ship your Parcel through Shoppre’s trusted Courier Partners</h3>
-            <img src="img/dhl.png">
-            <img src="img/fedex.png">
-            <img src="img/dtdc.png">
-          </div>
-        </div>
-        <div class="clearfix"></div>
-        <ul class="horline">
-          <li>
-            <h2>220+</h2>
-            <h4>Countries</h4>
-          </li>
-          <li>
-            <h2>2-4 Days</h2>
-            <h4>Average Delivery Time</h4>
-          </li>
-          <li>
-            <h2>1000+</h2>
-            <h4>Indian Shopping Websites</h4>
-          </li>
-          <li>
-            <h2>Save 60-80%</h2>
-            <h4>Storage, Consolidation &amp; Repackaging!</h4>
-          </li>
-        </ul>
-        <div class="text-center">
-          <a href="#" class="btn btn-shoppre">Why You Will Love Us</a>
-        </div>
-        
       </div>
     </section>
-    
+    <section class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-6">
+            <div class="service-content">
+              <div class="square-box">
+                <h2>Our</h2>
+                <h2 class="red">Services</h2>
+              </div>
+              <p class="head-text">We are passionate about delivering happiness through every box with the products you love from India!</p>
+              <ul>
+                <li>
+                  <h3>SHOP AND SHIP</h3>
+                  <h4>Always wanted to get products from India?</h4>
+                  <p>Sign up for free and get your own Indian shipping address. Shop from any Indian online store. Enjoy our storage facilities, get your purchases consolidated and delivered at your doorstep abroad.</p>
+                </li>
+                <li>
+                  <h3>PERSONAL SHOPPER</h3>
+                  <h4>Your International Credit Card isn’t accepted on some portals?</h4>
+                  <p>Simply provide us the product and merchant details; our Personal Shopper will purchase the items for you and get what you love!</p>
+                </li>
+                <li>
+                  <h3>SHOPPING GUIDE</h3>
+                  <h4>Don’t know where to shop the product that you need from?</h4>
+                  <p>We are there to help you through our various filters to select which portal you can shop your favorite product from.</p>
+                </li>
+              </ul>
+              <div class="clearfix"></div>
+              <div class="text-center">
+                <a href="{{route('services')}}" class="btn btn-shoppre">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="works">
       <div class="container">
         <div class="row">
@@ -79,32 +120,32 @@
             <ul class="works_flow">
               <li>
                 <h3>Join</h3>
-                <p>Sign up for free and get a personal shipping Indian address.</p>
+                <p>Sign up with Shoppre and receive your FREE Personal Locker with a Virtual Indian Shipping Address.</p>
               </li>
               <li>
                 <h3>Explore</h3>
-                <p>Find out your favorite online store in India.</p>
+                <p>Find out from which Indian Online store you can get your favorite product.</p>
               </li>
               <li>
-                <h3>shop</h3>
-                <p>Use that address to shop from any Indian shopping website.</p>
+                <h3>USE YOUR SHOPPRE ADDRESS</h3>
+                <p>Use your Shoppre Address to shop from ANY Indian Shopping Website.</p>
               </li>
               <li>
                 <h3>AVAIL BENEFITS</h3>
-                <p>In case any shopping portal doesn't accept your International credit card, our Personal Shopper will purchase the item for you using our Indian local credit card.</p>
+                <p>In case any online store doesn’t accept your International credit card, don’t worry! Our Personal Shopper will purchase the item for you using our Indian Local Credit Card.</p>
               </li>
               <li>
                 <h3>GET NOTIFIED</h3>
-                <p>Shoppre lets you know when your item reaches our facility. You can ship your item at your  convenience in just a click.</p>
+                <p>You can view, manage and track your shipments on your ShoppRe account, 24/7. We will notify you as soon as your package arrives at ShoppRe facility. You can ship your items at your convenience in just a click!</p>
               </li>
               <li>
                 <h3>RECEIVE &amp; ENJOY</h3>
-                <p>Save up to 60-80% by our consolidation, repackaging and storage services. Enjoy the discounted rates that we get with our trusted courier partners: DHL and FedEx.</p>
+                <p>Save up to 60-80% by our Consolidation, Repackaging and Storage services. Enjoy the special discounted rates that we get with our trusted courier partners like DHL, FedEx and more. Get your items in just 2-5 Days!</p>
               </li>
             </ul>
             <div class="clearfix"></div>
             <div class="text-center">
-              <a href="#" class="btn btn-shoppre">Learn More</a>
+              <a href="{{route('howitworks')}}" class="btn btn-shoppre">Learn More</a>
             </div>
           </div>
         </div>
@@ -146,109 +187,51 @@
               </div>
             </div>
             <div class="text-center">
-              <a href="#" class="btn btn-shoppre">Browse Categories</a>
+              <a href="{{route('stores')}}" class="btn btn-shoppre">Browse Categories</a>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="shipping-calculator">
+    <section class="pricing">
       <div class="container">
-        <div class="head">
-          <h2>Get Shipping Rates</h2>
-          <span>The chargeable weight is always the greater of the two :<br>
-            The actual or the volumetric weight.</span>
-          <small><a class="popup-modal" href="#vol_model">Learn how to calculate the Volumetric Weight</a></small>
-
-          <div id="vol_model" class="white-popup-block mfp-hide">
-            <h3>How To Calculate Volumetric Weight</h3>
-            <img src="{{asset('img/vol_calc.png')}}">
-            <a class="btn btn-close popup-modal-dismiss" href="#"><i class="fa fa-times"></i></a>
+        <div class="row">
+          <div class="square-box">
+            <h2 class="orange">Pricing</h2>
           </div>
-        </div>
-        <div class="col-sm-8 col-sm-offset-2">
-          <div class="block">
-            <h3>Shipping Calculator</h3>
-            <span id="calc_error">Sorry! No delivery options available in requested country. Please contact our support team for assistance.</span>
-            <form class="calc-form" id="shipping">
-              {{ csrf_field() }}
-              <div class="form-group">
-                <label class="col-sm-12">Where  do you want to send your package?</label>
-                <div class="col-sm-12">
-                  <select class="form-control select2" name="country">
-              <option value="">Select Country</option>
-                @foreach($countries as $country)
-                  <option value="{{$country->id}}">{{$country->name}}</option>
-                @endforeach
-            </select>
+          <div class="col-md-12">
+            <p class="head-text">We have heavily optimised our operations to give you the best deal. Our pricing makes us a favourite platform for Indian shoppers worldwide.</p>
+            <div class="pricing-terms">
+              <div class="col-sm-4">
+                <div class="desc_box">
+                  <div class="ico_box"></div>
+                  <h3>NO MEMBERSHIP <span class="orange">PLANS</span></h3>
+                  <p>Pay only as and when you use our services!</p>
                 </div>
-                <div class="clearfix"></div>
               </div>
-              <div class="form-group" >
-                <label class="col-sm-6 control-label" style="top: 8px;">What is your package type?</label>
-                <div class="col-sm-6">
-                  <div class="radio">
-                    <label class="checkbox-inline">
-                      <input type="radio" name="type" value="doc" checked>Document
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label class="checkbox-inline">
-                      <input type="radio" name="type" value="nondoc" >Non Document
-                    </label>
-                  </div>
+              <div class="col-sm-4">
+                <div class="desc_box">
+                  <div class="ico_box" style="background-position: 1px -73px;"></div>
+                  <h3>SHIPPING RATE <span class="orange">CALCULATOR</span></h3>
+                  <p>Find out how much it would cost you for shipping your favorite product to your home abroad.</p>
                 </div>
-                <div class="clearfix"></div>
               </div>
-              <div class="form-group">
-                <label class="col-sm-12 control-label">How much does your package weigh?</label>
-                <div class="col-sm-6">
-                  <input type="text" class="form-control" name="weight" placeholder="Enter Weight">
-                </div>
-                <div class="col-sm-6">
-                  <div class="radio">
-                    <label class="checkbox-inline">
-                      <input type="radio" name="unit" value="kg" checked>Kilograms
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label class="checkbox-inline">
-                      <input type="radio" name="unit" value="lbs" >Pounds
-                    </label>
-                  </div>
+              <div class="col-sm-4">
+                <div class="desc_box">
+                  <div class="ico_box" style="background-position: 1px -146px;"></div>
+                  <h3>COUNTRY <span class="orange">GUIDE</span></h3>
+                  <p>Find out helpful information with regards to your country, such as Shipping Costs, Duties and Taxes, Restricted Items, Current Exchange rates, Country Alerts, etc.</p>
                 </div>
               </div>
               <div class="clearfix"></div>
-              <div class="col-sm-12">
-                <button type="submit" class="btn btn-block btn-shoppre">get shipping rates</button>
-              </div>
-              <div class="clearfix"></div>
-            </form>
-            <div id="ship_result" class="calc-result">
-              <p class="info">Best carrier will be automatically chosen according to your country and weight of shipment. We use trusted courier services like DHL and DTDC</p>
-              <div class="result table-responsive">
-                <table class="table table-bordered">
-                  <tr>
-                    <td class="bg-white">Est. Shipping Cost</td>
-                    <td class="bg-white"><span id="ship_time"></span> Days</td>
-                    <td><i class="fa fa-rupee"></i> <span id="ship_cost"></span></td>
-                    <td><span class="striked"><i class="fa fa-rupee"></i> <span id="ship_oldcost"></span></span></td>
-                    <td class="discount"><span id="ship_disc"></span>% OFF</td>
-                  </tr>
-                </table>
-              </div>
-              <ul class="points">
-                <li>The rates displayed are exclusive of all the taxes and fuel surcharge as per the Government of india</li>
-                <li>You may need to pay duties or tax when your shipment arrives. The cost will depend based on your country's tax law.</li>
-                <li>Excludes oversized and palletized shipments.</li>
-              </ul>
             </div>
-            <div id="calc_load"></div>
+            <div class="text-center">
+              <a href="{{route('pricing')}}" class="btn btn-shoppre">Learn More</a>
+            </div>
           </div>
         </div>
-        <div class="clearfix"></div>
       </div>
-    </section>   
+    </section>
     <section class="testimonails">
       <div class="container">
         <div class="row">
@@ -260,20 +243,22 @@
           </div>
           <div class="col-sm-8">
             <div class="testimons owl-carousel">
+              @foreach($reviews as $review)
               <div class="item">
                 <div class="col-sm-3 text-center">
-                  <img src="{{asset('img/client.jpg')}}" class="img-circle">
+                  <img src="{{asset('uploads/country')}}/{{$review->country->flag}}" class="img-circle">
                 </div>
                 <div class="col-sm-9">
-                  <p>This is the first time I shopped from abroad. Shoppre is reliable and has excellent tracking feature.Thank you for such a great first experience.</p>
-                  <span class="name">Jessy Varghese</span>
-                  <span>United States</span>
+                  <p>{{$review->review}}</p>
+                  <span class="name">{{$review->person}}</span>
+                  <span>{{$review->country->name}}</span>
                 </div>
                 <div class="clearfix"></div>
               </div>
+              @endforeach
             </div>
             <div class="text-center">
-              <a href="#" class="btn orange">View All Shoppre Reviews</a>
+              <a href="{{route('reviews')}}" class="btn orange">View All Shoppre Reviews</a>
             </div>
           </div>
         </div>
@@ -285,7 +270,7 @@
           <div class="col-sm-12">
           <h3>So what are you waiting for? Shopp <span class="red">re</span>! Open your big box of happiness today!</h3>
           <p>All you need is a membership to get your Indian Shipping Address immediately!</p>
-          <a href="#" class="btn btn-shoppre">sign up for free</a>
+          <a href="{{route('customer.register')}}" class="btn btn-shoppre">sign up for free</a>
           </div>
         </div>
       </div>
@@ -294,86 +279,21 @@
 
 @section('js_script')
 	<!-- Owl Carousel -->
-  <script src="{{asset('js/owl.carousel.min.js')}}"></script>
-  <!-- Home -->
-  <script src="{{asset('js/home.js')}}"></script>
-
-  <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
-  <script type="text/javascript">
-    /* Magnific Popup */
-    $(document).ready(function() {
-        $(function () {
-            $('.popup-modal').magnificPopup({
-                type: 'inline',
-                preloader: false,
-                modal: true
-            });
-            $(document).on('click', '.popup-modal-dismiss', function (e) {
-                e.preventDefault();
-                $.magnificPopup.close();
-            });
-        });
-    });
-  </script>
-
-  <!-- Select2 -->
-    <script src="{{asset('js/select2.min.js')}}"></script>
+    <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+    <!-- Home -->
+    <script src="{{asset('js/home.js')}}"></script>
+    <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
     <script type="text/javascript">
-    $(document).ready(function() {
-      $(".select2").select2();
-    });
-  </script>
-  <script src="{{asset('js/validate.min.js')}}"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $( "#shipping" ).validate({
-        rules:
-            {
-                country:{required: true},
-                weight: {required: true},
-                unit: {required: true},
-            },
-            messages: 
-            {
-                country: { required: "Please select country"},
-                weight: { required: "Please enter weight to calculate."},
-                unit: { required: "Please select unit of weight."},
-            },
-            submitHandler: function(form) {
-                var country = $("select[name='country']").val();
-                var weight = $("input[name='weight']").val();
-                var unit = $("input[name='unit']:checked").val();
-                var type = $("input[name='type']:checked").val();
-                var token = $('input[name=_token]').val();
-                $("#calc_load").show();
-                $('#calc_error').hide();
-                $('#ship_result').hide();
-                jQuery.ajax({
-                    url: '/calculate-shipping',
-                    type : "POST",
-                    data:{ _token:token, country:country, weight:weight, unit:unit, type:type},
-                    success: function(data) {
+      $(document).ready(function() {
+        $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+          disableOn: 700,
+          type: 'iframe',
+          mainClass: 'mfp-fade',
+          removalDelay: 160,
+          preloader: false,
 
-                      $("#calc_load").hide();
-
-                      if (data.error == "1") {
-                        $('#calc_error').css('display', 'block');
-                      }else{
-                        
-                        $('#ship_oldcost').text(data.amount);
-                        var disamount = (data.discount / 100) * data.amount;
-                        var finalcost = Math.round(data.amount - disamount).toFixed(2);
-                        $('#ship_cost').text(finalcost);
-                        $('#ship_time').text(data.time);
-                        $('#ship_disc').text(data.discount);
-                        $('#ship_result').slideDown();
-                      }
-                    }
-                });
-
-                return false;
-            }, 
+          fixedContentPos: false
+        });
       });
-    });
-  </script>
+    </script>
 @endsection

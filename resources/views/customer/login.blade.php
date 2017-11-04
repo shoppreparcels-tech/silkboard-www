@@ -11,8 +11,8 @@
         <h3>Log in to Shoppre Account</h3>
         <div class="text-center">
           <div class="login-social">
-            <a href="#" class="facebook"><i class="fa fa-facebook"></i><span>Facebook</span></a>
-            <a href="#" class="google"><span>Google Plus</span><i class="fa fa-google-plus"></i></a>
+            <a href="{{route('customer.social.facebook')}}" class="facebook"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+            <a href="{{route('customer.social.google')}}" class="google"><span>Google Plus</span><i class="fa fa-google-plus"></i></a>
           </div>
         </div>
         @if (session('message'))
@@ -26,7 +26,7 @@
             </div>
         @endif
         <div class="col-sm-6">
-          <form class="login-form" role="form" method="POST" action="{{ route('customer.login.submit') }}">
+          <form class="login-form" id="form_login" role="form" method="POST" action="{{ route('customer.login.submit') }}">
             {{ csrf_field() }}
             <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
               <label for="">Email</label>
@@ -58,9 +58,7 @@
           <span class="login-bttm"><a href="{{route('customer.register')}}">Not a member? Register</a></span>
         </div>
         <div class="col-sm-6 text-center">
-          <a href="#">
-            <img src="{{asset('img/refer-friend.jpg')}}">
-          </a>
+            <img src="{{asset('img/refer-a-friend.png')}}">
         </div>
         <div class="clearfix"></div>
       </div>
@@ -68,4 +66,24 @@
   </div>
 </section>
 
+@endsection
+
+@section('js_script')
+<script src="{{asset('js/validate.min.js')}}"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $( "#form_login" ).validate({
+      rules:
+          {
+              email: {required: true, email:true},
+              password: {required: true},
+          },
+          messages: 
+          {
+              email: { required: "Enter email address", email: "Your email must be in the format of name@domain.com"},
+              password: { required: "Enter your password"},
+          },
+    });
+  });
+</script>
 @endsection

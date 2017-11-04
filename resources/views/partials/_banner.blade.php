@@ -2,38 +2,94 @@
     <div class="container">
       <div class="row">
         @if(Auth::guard('customer')->user()->email_verify == 'no')
-          <div class="alert alert-danger text-center" style="font-size: 20px;background: transparent;">Please verify your email address to view your shoppre locker address</div>
+          <div class="dash-pic unverify">
+            <div class="profile_progress">
+              <div class="loader"></div>
+            </div>
+            <h3>Please verify your email address to view your shoppre locker address</h3>
+          </div>
         @else
         <div class="col-sm-4">
           <div class="dash-complete">
             <h3>Awaiting your first Shipment!</h3>
-            <p>Your profile is 100% completed</p>
+            <p>Your profile is 75% completed</p>
             <div class="example">
               <div class="textProgress progress_bar">
-                  <div class="progress"><span class="percent">100%</span></div>
+                  <div class="progress"><span class="percent">75%</span></div>
               </div>
-              <input type="hidden" name="progress" id="progress_val" value="100">
+              <input type="hidden" name="progress" id="progress_val" value="75">
             </div>
           </div>
         </div>
         <div class="col-sm-8">
           <div class="dash-pic">
             <div class="profile_progress">
-              <div class="loader" style="width:100%;"></div>
+              <div class="loader" style="width:75%;"></div>
             </div>
           </div>
           <div class="dash-address">
-                <h3>{{Auth::guard('customer')->user()->name}}</h3>
-                <p>1st Floor, #181,</p>
-                <p>2nd Cross Rd, 7th Main,</p>
-                <p>Koramangala 1st Block,</p>
-                <p>Locker No: {{Auth::guard('customer')->user()->locker}}</p>
-                <p>Bengaluru 560034</p>
-                <p>Karnataka, India</p>
-                <p>+91 914 835 77 33</p>
+            <h3>{{Auth::guard('customer')->user()->name}}</h3>
+            <p>1st Floor, #181,</p>
+            <p>2nd Cross Rd, 7th Main,</p>
+            <p>Koramangala 1st Block,</p>
+            <p>Locker No: {{Auth::guard('customer')->user()->locker}}</p>
+            <p>Bengaluru 560034</p>
+            <p>Karnataka, India</p>
+            <p>+91 914 835 77 33</p>
           </div>
         </div>
         @endif
+
       </div>
     </div>
 </section>
+@if(Auth::guard('customer')->user()->email_verify == 'yes')
+<section class="dashnav">
+    <ul class="nav nav-pills nav-justified">
+      @if(url()->current() == route('customer.locker'))
+        <li class="active"><a href="{{route('customer.locker')}}">My Locker</a></li>
+      @else
+        <li><a href="{{route('customer.locker')}}">My Locker</a></li>
+      @endif
+
+      @if(url()->current() == route('customer.settings'))
+        <li class="active"><a href="{{route('customer.settings')}}">Account Settings</a></li>
+      @else
+        <li><a href="{{route('customer.settings')}}">Account Settings</a></li>
+      @endif
+
+      @if(url()->current() == route('personal.shopper'))
+        <li class="active"><a href="{{route('personal.shopper')}}">Personal Shopper</a></li>
+      @else
+        <li><a href="{{route('personal.shopper')}}">Personal Shopper</a></li>
+      @endif
+
+      @if(url()->current() == route('shipping.history'))
+        <li class="active"><a href="{{route('shipping.history')}}">Shipment History</a></li>
+      @else
+        <li><a href="{{route('shipping.history')}}">Shipment History</a></li>
+      @endif
+
+      @if(url()->current() == route('customer.stores.fav'))
+        <li class="active"><a href="{{route('customer.stores.fav')}}">My Favorite Stores</a></li>
+      @else
+        <li><a href="{{route('customer.stores.fav')}}">My Favorite Stores</a></li>
+      @endif
+
+      @if(url()->current() == route('customer.loyalty.points'))
+        <li class="active"><a href="{{route('customer.loyalty.points')}}">My Loyalty Points</a></li>
+      @else
+        <li><a href="{{route('customer.loyalty.points')}}">My Loyalty Points</a></li>
+      @endif
+
+      @if(url()->current() == route('customer.reffer.view'))
+        <li class="active"><a href="{{route('customer.reffer.view')}}">Reffer a Friend</a></li>
+      @else
+        <li><a href="{{route('customer.reffer.view')}}">Reffer a Friend</a></li>
+      @endif
+
+      <li><a href="/shipment-alerts/">Shipment Alerts</a></li>
+
+    </ul>
+</section>
+@endif

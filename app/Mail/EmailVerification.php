@@ -30,7 +30,7 @@ class EmailVerification extends Mailable
      */
     public function build()
     {
-        $from_mail = 'hello@shoppre.com';
+        $from_mail = 'notifications@cp.shoppre.com';
         $from_name = 'Shoppre';
         $subject = 'Acitvate Shoppre Account';
         $link = route('customer.verify', [$this->customer->email_token, $this->customer->email]);

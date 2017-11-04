@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
 
+use Auth;
 use App\Country;
 use App\ShippingRate;
 use App\Store;
@@ -13,15 +14,21 @@ use App\StoreCategory;
 use App\StoreCatClub;
 use App\FaqCategory;
 use App\Page;
+use App\FavoriteStore;
+use App\Review;
 
 use App\Mail\ContactEnquiry;
+use App\Mail\GetQuote;
 
 class PageController extends Controller
 {
     public function home()
     {
-        $countries = Country::orderBy('name', 'asc')->get();
-        return view('page.home')->with('countries', $countries);
+        $reviews = Review::orderBy('updated_at', 'desc')
+                            ->where('approve', '1')
+                            ->limit(10)
+                            ->get();
+        return view('page.home')->with(['reviews' => $reviews]);
     }
     public function about()
     {
@@ -50,7 +57,7 @@ class PageController extends Controller
             'msg_content' => 'required',
         ]);
 
-        Mail::to("web@greenpepperdigital.com")->send(new ContactEnquiry($request));
+        Mail::to("support@shoppre.com")->send(new ContactEnquiry($request));
         return redirect()->back()->with('message', 'Your enquiry has been submited.');
     }
     public function services()
@@ -65,18 +72,34 @@ class PageController extends Controller
     {
         $slug = $request->slug;
         $page = Page::where('slug', $slug)->first();
+        if(empty($page)) return abort(404);
         return view('page.view')->with('page', $page);
     }
     public function pricing()
     {
-        $countries = Country::orderBy('name', 'asc')->get();
-        return view('page.pricing')->with('countries', $countries);
+        $reviews = Review::orderBy('updated_at', 'desc')
+                            ->where('approve', '1')
+                            ->limit(10)
+                            ->get();
+        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+        return view('page.pricing')->with(['reviews' => $reviews, 'countries' => $countries]);
 
     }
     public function shipCalculate(Request $request)
     {
-        $country = Country::find($request->country);
         $weight = $request->weight;
+        $country = Country::find($request->country);
+        if (isset($request->length) && isset($request->width) && isset($request->height)) {
+            $volume = $request->length * $request->width * $request->height;
+            if ($request->scale == "in") {
+                $volume = $volume/2.54;
+            }
+            $volWeight = $volume/5000;
+            if ($volume > $volWeight) {
+                $weight = $volWeight;
+            }
+        }
+        
         $unit = $request->unit;
         $discount = $country->discount;
 
@@ -112,6 +135,22 @@ class PageController extends Controller
         }
     }
 
+    public function getQuote(Request $request)
+    {
+        $this->validate($request, [
+            'state' => 'required|max:250',
+            'city' => 'required|max:250',
+            'pin' => 'required',
+            'type' => 'required',
+            'weight' => 'required',
+            'unit' => 'required',
+            'email' => 'required|email|max:250',
+        ]);
+
+        $mail = Mail::to("support@shoppre.com")->send(new GetQuote($request));
+        return response()->json([ 'mail'=> $mail]);
+    }
+
     public function stores()
     {
         $categories = StoreCategory::orderBy('category', 'asc')->get();
@@ -130,6 +169,11 @@ class PageController extends Controller
                             ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
                             ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
                             ->get();
+
+        if (Auth::check()) {
+            $favs = FavoriteStore::where('custid', Auth::id())->pluck('clubid')->toArray();
+            return view('page.stores')->with(['categories'=>$categories, 'webs'=>$webs, 'fbs'=>$fbs, 'feats'=>$feats, 'favs'=>$favs]);
+        }
 
         return view('page.stores')->with(['categories'=>$categories, 'webs'=>$webs, 'fbs'=>$fbs, 'feats'=>$feats]);
     }
@@ -159,7 +203,38 @@ class PageController extends Controller
                             ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
                             ->get()
                             ->toArray();
+        if (Auth::check()) {
+            $stores['custid'] = true;
+            $stores['favs'] = FavoriteStore::where('custid', Auth::id())->pluck('clubid')->toArray();
+        }
 
         return response()->json(['stores'=>$stores]);
+    }
+
+    public function reviews()
+    {
+        $countries = Country::orderBy('name', 'asc')->get();
+        $reviews = Review::orderBy('updated_at', 'desc')->where('approve', '1')->paginate(10);
+        return view('page.reviews')->with(['countries'=>$countries, 'reviews'=>$reviews]);
+    }
+
+    public function submitReview(Request $request)
+    {
+        $this->validate($request, [
+            'person' => 'required|max:250',
+            'countrid' => 'required',
+            'review' => 'required',
+            'rating' => 'required',
+        ]);
+
+        $review = new Review;
+        $review->person = $request->person;
+        $review->countrid = $request->countrid;
+        $review->review = $request->review;
+        $review->rating = $request->rating;
+        $review->approve = '0';
+        $review->save();
+
+        return redirect()->back()->with('message', 'Success! Review has been submit for admin approval.');
     }
 }

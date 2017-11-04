@@ -7,6 +7,12 @@ use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\Controller;
 
 use App\Customer;
+use App\CustomerContact;
+use App\LoyaltyPoint;
+use App\RefferCode;
+use App\ShippingPreference;
+use App\ShopperBalance;
+
 use App\Mail\EmailVerification;
 
 class RegisterController extends Controller
@@ -25,16 +31,39 @@ class RegisterController extends Controller
 	public function submitRegister(Request $request)
 	{
 		$rules = array(
-			'name' => 'required|max:250',
+			'firstname' => 'required|max:250',
+			'lastname' => 'required|max:250',
 	        'email' => 'required|email|max:250|unique:customers',
 	        'password' => 'required|min:6|confirmed',
 	    );
 
     	$this->validate($request, $rules);
+
+    	$loyalPoints = 0;
+    	if (!empty($request->refferal)) {
+	    	$reffer = RefferCode::where('friend', $request->email)->where('code', $request->refferal)->first();
+	    	if (!empty($reffer)) {
+	    		$loyalPoints = 100;
+	    		$firendId = LoyaltyPoint::where('custid', $reffer->custid)->first()->id;
+
+	    		$friend = LoyaltyPoint::find($firendId);
+		        $friend->points += $loyalPoints;
+		        $friend->total += $loyalPoints;
+
+		        $friendLevel = $friend->level;
+		        if ($friend->total > 1000) {
+		        	$friendLevel = (int)($friend->total / 1000) + 1;
+		        }
+		        $friend->level = $friendLevel;
+		        $friend->save();
+	    	}else{
+	    		return redirect()->back()->with('error', 'You may entered an invalid refferal code. Try with another or proceed without.');
+	    	}
+	    }
 	    
 	    $customer = new Customer;
 
-	    $customer->name = $request->name;
+	    $customer->name = $request->firstname." ".$request->lastname;
 	    $customer->email = $request->email;
 	    $customer->password = bcrypt($request->password);
 
@@ -46,8 +75,27 @@ class RegisterController extends Controller
 	    while(!$user_code->isEmpty());
 
 	    $customer->locker = $code;
-
 	    $customer->save();
+
+	    $contact = new CustomerContact;
+	    $contact->customer_id = $customer->id;
+	    $contact->save();
+
+	    $loyalty = new LoyaltyPoint;
+        $loyalty->custid = $customer->id;
+        $loyalty->level = 1;
+        $loyalty->points = $loyalPoints;
+        $loyalty->total = $loyalPoints;
+        $loyalty->save();
+
+        $setting = new ShippingPreference;
+        $setting->custid = $customer->id;
+        $setting->save();
+
+        $balance = new ShopperBalance;
+        $balance->custid = $customer->id;
+        $balance->amount = 0;
+        $balance->save();
 
 	    $this->sendEmailVerification($request->email);
 
@@ -76,12 +124,12 @@ class RegisterController extends Controller
     		if ($customer->email_verify !== 'yes') {
     			if ($request->token == $customer->email_token) {
 	    			Customer::where('email', $request->email)->update(['email_token' => null, 'email_verify'=>'yes']);
-	    			return view('customer.verify')->with('message', 'Email address verified successfully.');
+	    			return redirect(route('customer.login'))->with('message', 'Email address verified successfully. Please login to continue.');
 	    		}else{
-	    			return view('customer.verify')->with('error', 'Email verification failed! Resend verfication link from your profile.');
+	    			return redirect(route('customer.login'))->with('error', 'Email verification failed! Resend verfication link from your profile.');
 	    		}
 			}else{
-				return view('customer.verify')->with('message', 'Your email address already verified.');
+				return redirect(route('customer.login'))->with('message', 'Your email address already been verified. Please login to continue.');
 			}
     	}
     }

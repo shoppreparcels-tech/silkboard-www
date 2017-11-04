@@ -61,6 +61,7 @@
                           <br style="clear: both;">
                           <hr style="margin: 25px 0;">
                           <div class="projects scroll">
+                            {{ $stores->links() }}
                             <div class="projects-table">
                               <table class="table">
                                 <thead>
@@ -129,6 +130,7 @@
                                 </tbody>    
                               </table>
                             </div>
+                            {{ $stores->links() }}
                           </div>  
                         </div>
 

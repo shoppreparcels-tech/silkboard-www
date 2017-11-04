@@ -19,9 +19,10 @@ class CreateAddressTable extends Migration
             $table->string('name');
             $table->text('line1');
             $table->text('line2')->nullable();
-            $table->string('country');
             $table->string('state');
             $table->string('city');
+            $table->string('country');
+            $table->string('countrid');
             $table->string('pin');
             $table->integer('code');
             $table->string('phone');

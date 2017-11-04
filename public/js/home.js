@@ -29,9 +29,21 @@ $( document ).ready(function() {
         responsiveClass:true,
         navText: '',
         autoplay: true,
-        autoplayTimeout: 1500,
-        items:1,
-        nav:true,
-        loop:true
+        autoplayTimeout: 2500,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:1,
+                nav:true
+            },
+            1000:{
+                items:1,
+                nav:true,
+                loop:true
+            }
+        }
     });
 });

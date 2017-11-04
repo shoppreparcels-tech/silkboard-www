@@ -1,0 +1,12 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class ShopperOrder extends Model
+{
+    public function requests(){
+    	return $this->hasMany('App\ShopperRequest','orderid');
+   	}
+}

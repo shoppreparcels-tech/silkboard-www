@@ -1,6 +1,20 @@
 @extends('layout')
 
-@section('title', '- Contact')
+@section('title', 'Contact | Shoppre - International Shipping Partner')
+@section('description', 'Have any questions or concerns? about your package or shipping services please call us at +91-8040944077 or start Live chat, Whatsapp with Team Shoppre.')
+@section('keywords', 'questions, concerns, about your package, shipping services, please call us, start live chat, whatsapp, team shoppre')
+
+@section('css_style')
+<style>
+  #map1,#map2 {
+    height: 180px;
+    width: 100%;
+   }
+   .infobox{}
+   .infobox h5{margin: 0;}
+   .infobox p{margin: 0;font-size: 12px;margin-top: 5px !important;}
+</style>
+@endsection
 
 @section('content')
   <section class="page_head">
@@ -16,22 +30,22 @@
       <div class="blox">
         <img src="img/contact1.png">
         <h4>Call</h4>
-        <span>+91 80 4094 4077</span>
+        <span><a href="tel:+91 80 4094 4077">+91 80 4094 4077</a></span>
       </div>
       <div class="blox">
         <img src="img/contact2.png">
         <h4>Whatsapp</h4>
-        <span>00971 52 7786 707</span>
+        <span><a href="https://api.whatsapp.com/send?phone=919148357733">+91 91 4835 7733</a></span>
       </div>
       <div class="blox">
         <img src="img/contact3.png">
         <h4>Email</h4>
-        <span>serviceteam@shoppre.com</span>
+        <span><a href="mailto:support@shoppre.com">support@shoppre.com</a></span>
       </div>
       <div class="blox">
         <img src="img/contact4.png">
         <h4>Live Chat</h4>
-        <span>Our Team is at your service 24/7</span>
+        <span><a href="https://www.facebook.com/messages/t/goshoppre">Our Team is at your service 24/7</a></span>
       </div>
       <div class="blox">
         <img src="img/contact5.png">
@@ -108,27 +122,27 @@
       <div class="col-sm-5">
         <div class="contact_loc">
           <h4>Our Office in India</h4>
-          <img src="img/map-1.png">
+          <div id="map1"></div>
           <p>IndianShoppre LLP, First Floor, No. 181, 2nd Cross Road, 7th Main, Koramangala 1st Block, Bengaluru I 560034, Karnataka, India</p>
           <hr>
           <h4>Our Office in U.A.E</h4>
-          <img src="img/map-2.png">
+          <div id="map2"></div>
           <p>Sephora Office, Mezzanine Floor, Flora Creek Hotel Apartments, Near Deira City Centre, Port Saeed | 119062 Dubai, UAE</p>
         </div>
         <div class="contact_social">
-          <a href="#">
+          <a href="https://www.facebook.com/goshoppre/" target="_blank">
             <img src="img/facebook.png">
             <span>Like Us</span>
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/shoppre_official/?hl=en" target="_blank">
             <img src="img/instagram.png">
             <span>Follow us</span>
           </a>
-          <a href="#">
+          <a href="https://twitter.com/Go_Shoppre" target="_blank">
             <img src="img/twitter.png">
             <span>Tweet to us</span>
           </a>
-          <a href="#">
+          <a href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw" target="_blank">
             <img src="img/youtube.png">
             <span>Watch our videos</span>
           </a>
@@ -136,4 +150,35 @@
       </div>
     </div>
   </section>
+@endsection
+
+@section('js_script')
+  <script>
+    var map1, map2;
+    function initialize() {
+        var LatLng1 = {lat: 12.9257893, lng: 77.6343453};
+        map1= new google.maps.Map(document.getElementById("map1"), {
+            zoom: 14,
+            center: LatLng1,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+        var marker1 = new google.maps.Marker({
+          position: LatLng1,
+          map: map1,
+        });
+        
+        var LatLng2 = {lat: 25.2534363, lng: 55.3282428};
+        map2 = new google.maps.Map(document.getElementById("map2"), {
+            zoom: 14,
+            center: LatLng2,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+        var marker2 = new google.maps.Marker({
+          position: LatLng2,
+          map: map2,
+        });
+        
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQzl11fjwwyiw_KRIV61HN7U-5HPPwmLQ&callback=initialize"></script>
 @endsection

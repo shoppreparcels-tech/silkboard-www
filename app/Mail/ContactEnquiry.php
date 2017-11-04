@@ -28,7 +28,7 @@ class ContactEnquiry extends Mailable
      */
     public function build()
     {
-        $from_mail = 'hello@shoppre.com';
+        $from_mail = 'notifications@cp.shoppre.com';
         $from_name = 'Shoppre';
         $subject = 'Contact Enquiry';
 

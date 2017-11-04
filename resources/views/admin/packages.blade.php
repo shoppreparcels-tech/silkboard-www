@@ -57,10 +57,28 @@
                                                             echo 'Upload Invoice';
                                                         break;
                                                         case 'review':
-                                                            echo 'Shoppre Review';
+                                                            echo 'In Review';
                                                         break;
                                                         case 'ship':
                                                             echo 'Ready to Ship';
+                                                        break;
+                                                        case 'request':
+                                                            echo 'Shipment Requested';
+                                                        break;
+                                                        case 'processing':
+                                                            echo 'Shipment Process';
+                                                        break;
+                                                        case 'dispatched':
+                                                            echo 'Dispatched';
+                                                        break;
+                                                        case 'delivered':
+                                                            echo 'Delivered';
+                                                        break;
+                                                        case 'abandoned':
+                                                            echo 'Abandoned';
+                                                        break;
+                                                        case 'splited':
+                                                            echo 'Splited';
                                                         break;
                                                     }
                                                 @endphp

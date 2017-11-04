@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title', '- Become A Partner')
+@section('title', 'FAQ | Shoppre - International Shipping Partner')
+@section('description', 'Frequently Asked Questions about Shoppre, international shipping services from India. More info such as membership plan, shipping rates, virtual address & App.')
+@section('keywords', 'frequently asked questions, membership plan, shipping rates, virtual address, app, account information, receipts')
 
 @section('content')
 

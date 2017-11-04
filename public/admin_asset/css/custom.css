@@ -94,3 +94,26 @@ table.intable td{
     line-height: 20px;
     font-size: 14px;
 }
+.pagination{
+    margin: 15px 0;
+}
+.pagination li{
+    border: 1px solid #eee;
+    margin: 2px;
+}
+.pagination li a{
+    display: block;
+    font-size: 12px;
+    padding: 14px 10px;
+    line-height: 0;
+}
+.pagination li.active span{
+    background: #ff2300;
+    color: #fff;
+}
+.pagination li span{
+    display: block;
+    font-size: 12px;
+    padding: 14px 10px;
+    line-height: 0;
+}

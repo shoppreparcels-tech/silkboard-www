@@ -41,10 +41,20 @@
                                     <span class="error">{{ $errors->first('amount') }}</span>
                                 @endif
                             </div>
+                            @php
+                                $couriers = array('DHL', 'FedEx', 'DTDC-FedEx', 'DTDC-DHL', 'DTDC-Self', 'DPD-Self', 'Airway Express Logistics', 'Mix');
+                            @endphp
                             <div class="input-field col s3">
                                 <select name="courier">
-                                    <option value="dtdc">DTDC</option>
-                                    <option value="dhl" selected>DHL</option>
+                                    @php
+                                        foreach($couriers as $courier){
+                                            if($courier == 'DTDC-FedEx'){
+                                                echo '<option selected>'.$courier.'</option>';
+                                            }else{
+                                                echo '<option>'.$courier.'</option>';
+                                            }
+                                        }
+                                    @endphp
                                 </select>
                                 <label>Courier</label>
                                 @if ($errors->has('courier'))
@@ -140,13 +150,15 @@
                                                 </div>
                                                 <div class="input-field col s3">
                                                     <select name="courier">
-                                                    @if($rate->courier  == "dtdc")
-                                                        <option value="dtdc" selected>DTDC</option>
-                                                        <option value="dhl">DHL</option>
-                                                    @else
-                                                        <option value="dtdc">DTDC</option>
-                                                        <option value="dhl" selected>DHL</option>
-                                                    @endif
+                                                    @php
+                                                        foreach($couriers as $courier){
+                                                            if($rate->courier  == $courier){
+                                                                echo '<option selected>'.$courier.'</option>';
+                                                            }else{
+                                                                echo '<option>'.$courier.'</option>';
+                                                            }
+                                                        }
+                                                    @endphp
                                                     </select>
                                                 </div>
                                                 <div class="input-field col s4">

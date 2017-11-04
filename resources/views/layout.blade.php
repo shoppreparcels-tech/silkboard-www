@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="shoppre" />
-    <meta name="description" content="Shop online from India. Ship Worldwide." />
+    <meta name="description" content="@yield('description')">
+    <meta name="keywords" content="@yield('keywords')">
     <link rel="shortcut icon" href="{{asset('img/favicon.png')}}">
       <link rel="icon" type="image/png" href="{{asset('img/favicon.png')}}" sizes="60x60">
     <title>Shoppre @yield('title')</title>
@@ -41,6 +41,20 @@
       $(document).ready(function(){
         var progress_val = $("#progress_val").val();
         $('.progress_bar').data("animated", false).textProgress(progress_val);
+      });
+    </script>
+    <script type="text/javascript">
+      $(function () {
+        $('.tooltipkey').tooltip({
+          'html' : true
+        })
+      })
+    </script>
+    <!-- li-Scroller -->
+    <script src="{{asset('js/liscroller.1.0.js')}}"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("ul#liticker").liScroll({travelocity: 0.05});
       });
     </script>
     @yield('js_script')

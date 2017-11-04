@@ -1,14 +1,16 @@
 @extends('layout')
 
-@section('title', '- Shipping Calculator | Pricing')
+@section('title', 'Pricing | Shipping Cost Calculator - Shoppre')
+@section('description', 'Get the right plan that suits your need and calculate your shipping costs from India to any country. Save upto 75% on shipping rates!')
+@section('keywords', 'calculate your shipping costs, from india to any country, save 75% on shipping rates, repackaging service, shipping calculator')
 
 @section('css_style')
-  <!-- Owl Carousel -->
-  <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
 	<!-- Select2 -->
 	<link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
   <!-- Magnific Popup -->
   <link rel="stylesheet" href="css/magnific-popup.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
 @endsection
 
 @section('content')
@@ -17,14 +19,17 @@
         <div class="pagebanner">
           <img src="{{asset('img/banner.jpg')}}" width="100%">
           <div class="banner-cap">
-            <h2>Pick Your</h2>
-            <h2 class="text-orange">Price &amp; Shipping Method</h2>
+            <h2>PRICING</h2>
+            <h2>THAT <span class="text-orange">NEVER</span> BUSTS YOUR WALLET</h2>
           </div>
         </div>
     </section>
 
     <section class="white-band">
-      <h2>Get the right <span class="text-orange">plan that suits your need,</span> find out why you should <span class="text-orange">choose shoppre,</span> and <span class="text-orange">calculate your shipping costs</span></h2>
+      <h2>Want something from India?</h2>
+      <h3>SHOP ONLINE WITH A SHOPPRE VIRTUAL ADDRESS AND PERSONAL LOCKER NUMBER!</h3>
+      <p>Tell us where you want to send your parcel and get <span class="text-orange">Upfront Pricing</span>; get your parcel in just 2-5 Days!</p>
+      <p>Save upto 60-80% on Shipping Costs, through <span class="text-orange">Shoppre’s Cost-saving Services!</span></p>
     </section>
 
     <section class="shipping-calculator">
@@ -41,9 +46,10 @@
             <a class="btn btn-close popup-modal-dismiss" href="#"><i class="fa fa-times"></i></a>
           </div>
         </div>
-        <div class="col-sm-8 col-sm-offset-2">
-          <div class="block">
-            <h3>Shipping Calculator</h3>
+        <div class="col-md-7">
+          <div class="calculator block">
+            <h3 class="text-red">INTERNATIONAL SHIPPING CALCULATOR</h3>
+            <h4>(From your Shoppre Locker in Bengaluru to your doorstep Abroad)</h4>
             <span id="calc_error">Sorry! No delivery options available in requested country. Please contact our support team for assistance.</span>
             <form class="calc-form" id="shipping">
               {{ csrf_field() }}
@@ -51,25 +57,25 @@
                 <label class="col-sm-12">Where  do you want to send your package?</label>
                 <div class="col-sm-12">
                   <select class="form-control select2" name="country">
-              <option value="">Select Country</option>
-                @foreach($countries as $country)
-                  <option value="{{$country->id}}">{{$country->name}}</option>
-                @endforeach
-            </select>
+                    <option value="">Select Country</option>
+                      @foreach($countries as $country)
+                        <option value="{{$country->id}}">{{$country->name}}</option>
+                      @endforeach
+                  </select>
                 </div>
                 <div class="clearfix"></div>
               </div>
-              <div class="form-group" >
-                <label class="col-sm-6 control-label" style="top: 8px;">What is your package type?</label>
-                <div class="col-sm-6">
+              <div class="form-group">
+                <label class="col-sm-5 control-label" style="top: 8px;">What is your package type?</label>
+                <div class="col-sm-7">
                   <div class="radio">
                     <label class="checkbox-inline">
-                      <input type="radio" name="type" value="doc" checked>Document
+                      <input type="radio" name="type" value="nondoc" checked>Non Document
                     </label>
                   </div>
                   <div class="radio">
                     <label class="checkbox-inline">
-                      <input type="radio" name="type" value="nondoc" >Non Document
+                      <input type="radio" name="type" value="doc" >Document
                     </label>
                   </div>
                 </div>
@@ -92,20 +98,51 @@
                     </label>
                   </div>
                 </div>
+                <div class="clearfix"></div>
               </div>
+              
+              <div class="form-group">
+                <label class="col-sm-8 control-label" style="top: 8px;">What are the dimensions of your package?</label>
+                <div class="col-sm-4">
+                  <div class="radio">
+                    <label class="checkbox-inline">
+                      <input type="radio" name="scale" value="cm" checked>cm
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label class="checkbox-inline">
+                      <input type="radio" name="scale" value="in" >in
+                    </label>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="form-group smallboxs">
+                <div class="col-sm-3">
+                  <input type="text" class="form-control" name="length"> <strong>Length</strong>
+                </div>
+                <div class="col-sm-3">
+                  <input type="text" class="form-control" name="width"> <strong>Width</strong>
+                </div>
+                <div class="col-sm-3">
+                  <input type="text" class="form-control" name="height"> <strong>Height</strong>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+
               <div class="clearfix"></div>
               <div class="col-sm-12">
-                <button type="submit" class="btn btn-block btn-shoppre">get shipping rates</button>
+                <button type="submit" class="btn btn-block btn-shoppre">GET UPFRONT SHIPPING RATES</button>
               </div>
               <div class="clearfix"></div>
             </form>
             <div id="ship_result" class="calc-result">
-              <p class="info">Best carrier will be automatically chosen according to your country and weight of shipment. We use trusted courier services like DHL and DTDC</p>
+              <h4 class="text-red">ESTIMATED SHIPPING COST*</h4>
+              <p class="info">Best carrier will be automatically chosen according to your country and weight of shipment. We use trusted courier services like DHL, FedEx and DTDC.</p>
               <div class="result table-responsive">
                 <table class="table table-bordered">
                   <tr>
-                    <td class="bg-white">Est. Shipping Cost</td>
-                    <td class="bg-white"><span id="ship_time"></span> Days</td>
+                    <td class="bg-white"><span id="ship_time"></span> Business Days <span class="text-red">**</span></td>
                     <td><i class="fa fa-rupee"></i> <span id="ship_cost"></span></td>
                     <td><span class="striked"><i class="fa fa-rupee"></i> <span id="ship_oldcost"></span></span></td>
                     <td class="discount"><span id="ship_disc"></span>% OFF</td>
@@ -113,38 +150,329 @@
                 </table>
               </div>
               <ul class="points">
-                <li>The rates displayed are exclusive of all the taxes and fuel surcharge as per the Government of india</li>
-                <li>You may need to pay duties or tax when your shipment arrives. The cost will depend based on your country's tax law.</li>
-                <li>Excludes oversized and palletized shipments.</li>
+                <li><span class="text-red">*</span> The chargeable weight is always the greater of the two: Volumetric or the Actual weight.</li>
+                <li><span class="text-red">*</span> The rates displayed are INCLUSIVE of the fuel surcharge and taxes within India.</li>
+                <li><span class="text-red">*</span> You may need to pay duties or tax when your shipment arrives, as per the import law of the receiving country.</li>
+                <li><span class="text-red">*</span> Excludes oversized and palletized shipments, and special products (liquids, homemade food, etc.)</li>
+                <li><span class="text-red">**</span> After dispatch from Shoppre facility. Does not apply to ship requests made after 3pm IST on Saturdays, or on holidays. Shipments that may require additional time include those containing items under review or hazardous materials, oversized packages or where additional export documentation is required.</li>
               </ul>
             </div>
             <div id="calc_load"></div>
           </div>
+
+          <div class="parcelsample">
+            <h5>Centimeter/Inch Conversion</h5>
+            <p>1 in = 2.54 cm <span>(1 cm = 0.3937 in)</span></p>
+            <h5>Kilogram/Pound Conversion</h5>
+            <p>1 lbs = 0.4536 Kg <span>(1 Kg = 2.2046 lbs)</span></p>
+            <h5>Parcel Sample :</h5>
+            <img src="{{asset('img/parcelsample.png')}}">
+          </div>
+
+        </div>
+        <div class="col-md-5">
+          <div class="getquote block">
+            <h3>DOMESTIC SHIPMENT</h3>
+            <h4>(From your Shoppre Locker in Bengaluru to any city in India)</h4>
+            <form class="quote-form calc-form" id="form_quote" method="post">
+              {{csrf_field()}}
+              <div class="form-group">
+                <label class="col-sm-12">Where  do you want to send your package?</label>
+                <div class="col-sm-12">
+                  <select class="form-control" name="state">
+                    <option value="">Select State</option>
+                      @php
+                        $states  = array (
+                         'AP' => 'Andhra Pradesh',
+                         'AR' => 'Arunachal Pradesh',
+                         'AS' => 'Assam',
+                         'BR' => 'Bihar',
+                         'CT' => 'Chhattisgarh',
+                         'GA' => 'Goa',
+                         'GJ' => 'Gujarat',
+                         'HR' => 'Haryana',
+                         'HP' => 'Himachal Pradesh',
+                         'JK' => 'Jammu & Kashmir',
+                         'JH' => 'Jharkhand',
+                         'KA' => 'Karnataka',
+                         'KL' => 'Kerala',
+                         'MP' => 'Madhya Pradesh',
+                         'MH' => 'Maharashtra',
+                         'MN' => 'Manipur',
+                         'ML' => 'Meghalaya',
+                         'MZ' => 'Mizoram',
+                         'NL' => 'Nagaland',
+                         'OR' => 'Odisha',
+                         'PB' => 'Punjab',
+                         'RJ' => 'Rajasthan',
+                         'SK' => 'Sikkim',
+                         'TN' => 'Tamil Nadu',
+                         'TR' => 'Tripura',
+                         'UK' => 'Uttarakhand',
+                         'UP' => 'Uttar Pradesh',
+                         'WB' => 'West Bengal',
+                         'AN' => 'Andaman & Nicobar',
+                         'CH' => 'Chandigarh',
+                         'DN' => 'Dadra and Nagar Haveli',
+                         'DD' => 'Daman & Diu',
+                         'DL' => 'Delhi',
+                         'LD' => 'Lakshadweep',
+                         'PY' => 'Puducherry',
+                        );
+                      @endphp
+                      @foreach($states as $state)
+                        <option value="{{$state}}">{{$state}}</option>
+                      @endforeach
+                  </select>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+
+              <div class="form-group">
+                <div class="col-sm-6">
+                  <label>City</label>
+                  <input type="text" name="city" class="form-control" placeholder="City">
+                </div>
+                <div class="col-sm-6">
+                  <label>Pin Code</label>
+                  <input type="text" name="pin" class="form-control" placeholder="PIN">
+                </div>
+                <div class="clearfix"></div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-sm-4 control-label">What is your package type?</label>
+                <div class="col-sm-8">
+                  <div class="radio">
+                    <label class="checkbox-inline">
+                      <input type="radio" name="type" value="nondoc" checked>Non Document
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label class="checkbox-inline">
+                      <input type="radio" name="type" value="doc" >Document
+                    </label>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-sm-12 control-label">How much does your package weigh?</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" name="weight" placeholder="Enter Weight">
+                </div>
+                <div class="col-sm-7">
+                  <div class="radio">
+                    <label class="checkbox-inline">
+                      <input type="radio" name="unit" value="kg" checked>Kilograms
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label class="checkbox-inline">
+                      <input type="radio" name="unit" value="lbs" >Pounds
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-8 control-label" style="top: 8px;">What are the dimensions of your package?</label>
+                <div class="col-sm-4">
+                  <div class="radio">
+                    <label class="checkbox-inline">
+                      <input type="radio" name="scale" value="cm" checked>cm
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label class="checkbox-inline">
+                      <input type="radio" name="scale" value="in" >in
+                    </label>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="form-group smallboxs">
+                <div class="col-sm-4">
+                  <input type="text" class="form-control" name="length"> <strong>Length</strong>
+                </div>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control" name="width"> <strong>Width</strong>
+                </div>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control" name="height"> <strong>Height</strong>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="form-group" style="margin-top: 8px;">
+                <label class="col-sm-12 control-label">Your Email Address</label>
+                <div class="col-sm-12">
+                  <input type="text" class="form-control" name="email" placeholder="Email Address">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <button type="submit" class="btn btn-block btn-shoppre" id="quote_submit">Get A Quote</button>
+                  <div id="quote_result">Your enquiry has been submited! Our team will contact you soon.</div>
+                  <div id="quote_error">Sorry! We can't process your request right now. Please try again later.</div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </form>
+
+            <div class="clearfix"></div>
+
+            <div id="quote_load" class="ajaxloader"></div>
+          </div>
+
+          <div class="block pickup">
+            <div class="text-center">
+              <h3>SCHEDULE A PICK-UP</h3>
+              <p>Where do you want to send package?</p>
+            </div>
+            <ul>
+              <h4>DOMESTIC SHIPMENT</h4>
+              <li>From any city in India to your Shoppre locker in Bengaluru</li>
+              <li>From any city in India to any other city in India</li>
+            </ul>
+            <ul>
+              <h4>INTERNATIONAL SHIPMENT</h4>
+              <li>From Bengaluru, directly to your doorstep abroad</li>
+              <li>From any city in India, directly to your doostep abroad</li>
+            </ul>
+            <a href="#" class="btn btn-block btn-shoppre">FILL THE FORM TO HEAR BACK FROM US</a>
+          </div>
+
         </div>
         <div class="clearfix"></div>
       </div>
-    </section>    
+    </section>
+
+    <section class="pricing_plans">
+      <div class="container">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="title">
+            <h1><span class="text-red">No</span> Membership Plans</h1>
+            <h2 class="text-orange">START SAVING UP TO 60-80% ON INTERNATIONAL SHIPPING RATES TODAY!</h2>
+            <p>All Shoppre members receive our world-class customer service and express door-to-door delivery options. </p>
+            <strong>Pay ONLY when you choose to use any of our services!</strong>
+          </div>
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <tr>
+                <th>Services</th>
+                <th class="text-center">Cost</th>
+              </tr>
+              <tr>
+                <td>Receive your own Indian Shipping Address & Personal Locker <a href="#" class="tooltipkey" title="Receive your own Indian Shipping Address & Personal Locker"><i class="fa fa-question-circle-o"></i></a></td>
+                <td class="cell-2">Free</td>
+              </tr>
+              <tr>
+                <td>Receive Parcels</td>
+                <td class="cell-2">Free</td>
+              </tr>
+              <tr>
+                <td>Shoppre Shipping Discount</td>
+                <td class="cell-2">Free</td>
+              </tr>
+              <tr>
+                <td>Service Tax in India</td>
+                <td class="cell-2">No Extra Service Tax</td>
+              </tr>
+              <tr>
+                <td>Package Consolidation </td>
+                <td class="cell-2">INR 100 per extra package <span>(not per extra item)</span></td>
+              </tr>
+              <tr>
+                <td>Package Repacking </td>
+                <td class="cell-2">Free</td>
+              </tr>
+              <tr>
+                <td>Package Storage </td>
+                <td class="cell-2">Free upto 20 days <span>(INR 100 for every extra day)</span></td>
+              </tr>
+              <tr>
+                <td>Package Photo Service </td>
+                <td class="cell-2">INR 100 (Basic Photos)<br>INR 500 (Additional Photos)</span></td>
+              </tr>
+              <tr>
+                <td>Personal Shopper Service</td>
+                <td class="cell-2"> 7% of the item value <span>(Minimum INR 200)</span></td>
+              </tr>
+              <tr>
+                <td>Pick-up Service</td>
+                <td class="cell-2">
+                  <span>From Bangalore:</span>
+                  INR 40/kg, Min INR 100    
+                  <span>From any other city in India:</span>
+                  INR 50/kg, Min INR 200
+                </td>
+              </tr>
+              <tr>
+                <td>Receive Mail (post)</td>
+                <td class="cell-2">INR 100 per document</td>
+              </tr>
+              <tr>
+                <td>Real-time Shipment Tracking</td>
+                <td class="cell-2">Free</td>
+              </tr>
+              <tr>
+                <td>Package Return Services</td>
+                <td class="cell-2">INR 100</td>
+              </tr>
+              <tr>
+                <td>Shipping Insurance</td>
+                <td class="cell-2">INR 30</td>
+              </tr>
+              <tr>
+                <td>Shipping Preferences</td>
+                <td class="cell-2"><a href="{{route('customer.ship.prefer')}}">Click here to know your options</a></td>
+              </tr>
+              <tr>
+                <td style="border-color: #ffffff;border-right-color: #87bc00;"></td>
+                <td style="padding: 0 !important;border-color: #87bc00;"><a href="{{route('customer.register')}}" class="btn btn-block">Sign up for free</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="price_cguide">
+      <div class="container">
+        <h2>Country Guides</h2>
+        <p>Each country has its own customs laws and the duties for diifferent types of goods and values are set locally.All our international courier partners must adhere to local customs legislation and will pay duties on the receiver’s behalf to clear shipments on aarival.The goods will be released to you upon the full repayment of any duties and taxes that were paid on your behalf.</p>
+        <h4>Find helpful information specific to your country, including :</h4>
+        <ul>
+          <li>Shipping costs</li>
+          <li>Duties and taxes</li>
+          <li>Restricted &amp; prohibited items</li>
+          <li>Current exchange rates</li>
+          <li>Typical transit times</li>
+          <li>Country alerts</li>
+        </ul>
+        <a href="#" class="btn btn-shoppre">Learn More</a>
+      </div>
+    </section>
     <section class="price_repacking">
       <div class="container">
-          <h2 class="text-orange">Our services which help you to reduce cost</h2>
-          <h3>repackaging service</h3>
+          <h2 class="text-orange">OUR SERVICES WHICH HELP YOU SAVE ON SHIPPING COSTS</h2>
+          <h3>REPACKING SERVICE</h3>
           <p>We repack individual shipments for free and help in reducing wasted space<br> which will allow you to  save over 20% on shipping charges.</p>
           <div class="col-sm-6 repack_box border">
-            <img src="img/repackage.png">
+            <img src="{{asset('img/repackage.png')}}">
             <h4>We only repack goods which :</h4>
             <ul>
               <li>Require added protection and security if it is inadequately  packed for  international shipping.</li>
               <li>Have high volumetric weight than the actual weight.</li>
               <li>We will repack each package to reduce the  weight, which will reduce your  shipping cost .Original package contents are not compromised by repackaging.</li>
-              <li>If you don't wish for your shipments to be repacked, you can set that preference in <a href="#" class="text-orange">your account</a>.</li>
+              <li>If you don't wish for your shipments to be repacked, you can set that preference in <a href="{{route('customer.ship.prefer')}}" class="text-orange">your account</a>.</li>
             </ul>
           </div>
           <div class="col-sm-6 repack_box">
-            <img src="img/repack_ex.png" style="width: 380px;">
+            <img src="{{asset('img/repack_ex.png')}}" style="width: 380px;">
             <h4>Repack example :</h4>
             <ul>
-              <li>Package from a store was shipped to the warehouse in a box 21x11x12 inches, representing a volumetric weight of 5kg.</li>
-              <li>After repackaging, the receipt dimensions were reduced to  (15x12x3 inches), representing a volumetric weight of 2kg.</li>
+              <li>Package from a store was shipped to the warehouse in a box 25x11x11 inches, representing a volumetric weight of 10kg.</li>
+              <li>After repackaging, the receipt dimensions were reduced to  ((21x10x10 inches), representing a volumetric weight of 7kg.</li>
               <li class="linone bold">Saving to the customer was 3kg. in shipping volumetric weight.</li>
             </ul>
           </div>
@@ -152,55 +480,39 @@
     </section>
     <section class="price_service">
         <div class="container">
-            <h2>Shoppre’s consolidation service</h2>
-            <h3>which helps you save on onternational shipping rates!</h3>
+            <h2>Shoppre's consolidation service</h2>
+            <!-- <h3>which helps you save on international shipping rates!</h3> -->
             <p>Combine your packages from multiple stores to one tracking number,<br>
-            and save upto 75% on shipping rates!</p>
-            <p>For Example</p>
-            <div class="col-sm-6 serv_sec border">
-              <h4>Shipping Directly from <a href="#" class="text-violet">most sellers</a></h4>
-              <div class="example">
-                <img src="img/pack-1.png">
-                <div class="info">
-                  <span>Weight : 0.5 Kg</span>
-                  <span>Shipping Cost : <i class="fa fa-rupee"></i> 550.00</span>
+            and save upto 60% - 80% on shipping rates!</p>
+            <p style="font-style: italic;font-size: 15px;">For example:</p>
+            <div class="col-sm-6">
+              <div class="serv_sec">
+                <h4>Shipping Directly from most sellers</h4>
+                <div class="example">
+                  <img src="{{asset('img/consolid1.png')}}">
                 </div>
+                <p class="result"><strong>Shipping each item abroad separately :<br>
+                Total Shipping Cost $60</strong></p>
               </div>
-              <div class="example">
-                <img src="img/pack-2.png">
-                <div class="info">
-                  <span>Weight : 0.5 Kg</span>
-                  <span>Shipping Cost : <i class="fa fa-rupee"></i> 550.00</span>
-                </div>
-              </div>
-              <div class="example">
-                <img src="img/pack-3.png">
-                <div class="info">
-                  <span>Weight : 0.5 Kg</span>
-                  <span>Shipping Cost : <i class="fa fa-rupee"></i> 550.00</span>
-                </div>
-              </div>
-              <p class="result">Shipping each ites abroad separately:<br>
-              <strong>Total Shipping Costs: <i class="fa fa-rupee"></i> 60.00</strong></p>
             </div>
-            <div class="col-sm-6 serv_sec">
-              <h4>shipping through <a href="#" class="text-violet">Shoppre.com</a></h4>
-              <div class="example">
-                <img src="img/repack_ex1.png">
-              </div>
-              <div class="example">
-                <img src="img/pack-4.png">
-                <div class="info">
-                  <span>Weight : 1.5 Kg</span>
-                  <span>Shipping Cost : <i class="fa fa-rupee"></i> 500.00</span>
+            <div class="col-sm-6">
+              <div class="serv_sec">
+                <h4>shipping through <a href="{{route('home')}}" class="text-orange">Shoppre.com</a></h4>
+                <div class="example">
+                  <img src="{{asset('img/consolid2.png')}}" style="max-width: 78%;">
                 </div>
+                <p class="result"><strong>Shipping all the items in ONE package:<br>
+                Total Shipping Costs : $15</strong></p>
               </div>
-              <p style="margin-top: 135px;" class="result">Shipping all items in ONE package:<br>
-              <strong>Total Shipping Costs: <i class="fa fa-rupee"></i>  1500.00</strong></p>
-              <p style="font-weight: 800;" class="text-orange">75% Less than Shipping Directly from Stores</p>
             </div>
             <div class="clearfix"></div>
-            <p class="boldlg" style="margin-top: 50px;font-size: 22px;">When packages are shipped individually, each package bears the burden of the first half kilo rate.<br><strong>But when you consolidate, you pay for the first half kilo only once!</strong></p>
+            <div class="serv_foot">
+              <h3 class="text-orange"><strong>67% Less</strong> than Shipping Directly from Stores</h3>
+              <div class="text-center">
+                <h4>When packages are shipped individually, each package bears the rate of the first kilo rate.<br><span class="text-orange">But when you consolidate, you pay for the first half kilo only once!</span></h4>
+                <p>Enjoy Shoppre's special discount rates with our trusted courier partners like DHL, FedEx, DTDC, etc.<br>thanks to our bulk shipment every month!</p>
+              </div>
+            </div>
         </div>
     </section>
     <section class="store-band">
@@ -212,28 +524,32 @@
     <section class="testimonails">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <div class="square-box">
               <h3>What Our</h3>
               <h2>Members <span class="orange">Say!</span></h2>
             </div>
           </div>
-          <div class="col-md-8">
+          <div class="col-sm-8">
             <div class="testimons owl-carousel">
+              @foreach($reviews as $review)
               <div class="item">
-                <div class="col-md-3 text-center">
-                  <img src="img/us_flag.jpg" class="img-circle">
+                <div class="col-sm-3 text-center">
+                  @if(!empty($review->country->flag))
+                  <img src="{{asset('uploads/country')}}/{{$review->country->flag}}" class="img-circle">
+                  @endif
                 </div>
-                <div class="col-md-9">
-                  <p>This is the first time I shopped from abroad. Shoppre is reliable and has excellent tracking feature.Thank you for such a great first experience.</p>
-                  <span class="name">Jessy Varghese</span>
-                  <span>United States</span>
+                <div class="col-sm-9">
+                  <p>{{$review->review}}</p>
+                  <span class="name">{{$review->person}}</span>
+                  <span>{{$review->country->name}}</span>
                 </div>
                 <div class="clearfix"></div>
               </div>
+              @endforeach
             </div>
             <div class="text-center">
-              <a href="#" class="btn orange">View All Shoppre Reviews</a>
+              <a href="{{route('reviews')}}" class="btn orange">View All Shoppre Reviews</a>
             </div>
           </div>
         </div>
@@ -246,7 +562,7 @@
           <div class="col-md-12">
           <h3>So what are you waiting for? Shopp <span class="red">re</span>! Open your big box of happiness today!</h3>
           <p>All you need is a membership to get your Indian Shipping Address immediately!</p>
-          <a href="#" class="btn btn-shoppre">sign up for free</a>
+          <a href="{{route('customer.register')}}" class="btn btn-shoppre">sign up for free</a>
           </div>
         </div>
       </div>
@@ -256,23 +572,6 @@
 @endsection
 
 @section('js_script')
-  <!-- Owl Carousel -->
-  <script src="{{asset('js/owl.carousel.min.js')}}"></script>
-  <script type="text/javascript">
-    $( document ).ready(function() {
-      $('.testimons').owlCarousel({
-          loop:true,
-          margin:10,
-          responsiveClass:true,
-          navText: '',
-          autoplay: true,
-          autoplayTimeout: 1500,
-          items:1,
-          nav:true,
-          loop:true
-      });
-  });
-  </script>
   <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
   <script type="text/javascript">
     /* Magnific Popup */
@@ -290,7 +589,6 @@
         });
     });
   </script>
-
 	<!-- Select2 -->
     <script src="{{asset('js/select2.min.js')}}"></script>
     <script type="text/javascript">
@@ -298,6 +596,38 @@
 			$(".select2").select2();
 		});
 	</script>
+
+  <!-- Owl Carousel -->
+  <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+  <script type="text/javascript">
+    $( document ).ready(function() {
+      $('.testimons').owlCarousel({
+          loop:true,
+          margin:10,
+          responsiveClass:true,
+          navText: '',
+          autoplay: true,
+          autoplayTimeout: 2500,
+          responsive:{
+              0:{
+                  items:1,
+                  nav:true
+              },
+              600:{
+                  items:1,
+                  nav:true
+              },
+              1000:{
+                  items:1,
+                  nav:true,
+                  loop:true
+              }
+          }
+      });
+    });
+  </script>
+
+
 	<script src="{{asset('js/validate.min.js')}}"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
@@ -319,6 +649,9 @@
 		            var weight = $("input[name='weight']").val();
 		            var unit = $("input[name='unit']:checked").val();
 		            var type = $("input[name='type']:checked").val();
+                var length = $("input[name='length']").val();
+                var width = $("input[name='width']").val();
+                var height = $("input[name='height']").val();
 		            var token = $('input[name=_token]').val();
 		            $("#calc_load").show();
 		            $('#calc_error').hide();
@@ -326,7 +659,7 @@
 		            jQuery.ajax({
 		                url: '/calculate-shipping',
 		                type : "POST",
-		                data:{ _token:token, country:country, weight:weight, unit:unit, type:type},
+		                data:{ _token:token, country:country, weight:weight, unit:unit, type:type, length:length, width:width, height:height},
 		                success: function(data) {
 
 		                	$("#calc_load").hide();
@@ -349,6 +682,56 @@
 		            return false;
 		        }, 
 			});
+
+
+
+      $( "#form_quote" ).validate({
+        rules:
+            {
+                state:{required: true},
+                city: {required: true},
+                pin: {required: true},
+                type: {required: true},
+                weight: {required: true},
+                unit: {required: true},
+                email: {required: true, email:true},
+            },
+            messages: 
+            {
+                state: { required: "Please select state"},
+                city: { required: "Please enter city"},
+                pin: { required: "Please enter PIN"},
+                weight: { required: "Enter package weight."},
+                email: { required: "Enter your email address to contact."},
+            },
+            submitHandler: function(form) {
+                $("#quote_load").show();
+                jQuery.ajax({
+                    url: '/qoute/submit',
+                    type : "POST",
+                    data:$("#form_quote").serialize(),
+
+                    success: function(data) {
+                      $('#form_quote')[0].reset();
+                      $("#quote_load").hide();
+                      $("#quote_submit").hide();
+                      $("#quote_result").show();
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                      $('#form_quote')[0].reset();
+                      $("#quote_load").hide();
+                      $("#quote_error").show();
+                      $("#quote_submit").hide();
+                      /*console.log(xhr.responseText);*/
+                    }
+                });
+
+                return false;
+            }, 
+      });
+
+
+
 		});
 	</script>
 

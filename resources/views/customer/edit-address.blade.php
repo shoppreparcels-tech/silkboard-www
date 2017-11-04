@@ -45,23 +45,6 @@
 						    </div>
 						</div>
 						<div class="form-group">
-						    <label class="col-sm-3 control-label">Country</label>
-						    <div class="col-sm-9">
-						    	<select class="form-control select2" name="country">
-						    	<option>Select Country</option>
-						    	@foreach($countries as $country)
-						    		@php
-						    			$select = ($country->name == $address->country) ? "selected" : "";
-						    		@endphp
-						    		<option value="{{$country->name}}" {{$select}}>{{$country->name}}</option>
-						    	@endforeach
-						    	</select>
-						    	@if ($errors->has('country'))
-		                            <span class="error">{{ $errors->first('country') }}</span>
-		                        @endif
-						    </div>
-						</div>
-						<div class="form-group">
 						    <label class="col-sm-3 control-label">State</label>
 						    <div class="col-sm-9">
 						    	<input type="text" class="form-control" name="state" value="{{$address->state or ''}}">
@@ -76,6 +59,23 @@
 						    	<input type="text" class="form-control" name="city" value="{{$address->city or ''}}">
 						    	@if ($errors->has('city'))
 		                            <span class="error">{{ $errors->first('city') }}</span>
+		                        @endif
+						    </div>
+						</div>
+						<div class="form-group">
+						    <label class="col-sm-3 control-label">Country</label>
+						    <div class="col-sm-9">
+						    	<select class="form-control select2" name="country">
+						    	<option>Select Country</option>
+						    	@foreach($countries as $country)
+						    		@php
+						    			$select = ($country->id == $address->countrid) ? "selected" : "";
+						    		@endphp
+						    		<option value="{{$country->id}}" {{$select}}>{{$country->name}}</option>
+						    	@endforeach
+						    	</select>
+						    	@if ($errors->has('country'))
+		                            <span class="error">{{ $errors->first('country') }}</span>
 		                        @endif
 						    </div>
 						</div>
