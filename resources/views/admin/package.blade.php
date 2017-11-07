@@ -172,6 +172,7 @@
                                     {{csrf_field()}}
                                     <select name="condition">
                                         <option value="arrived">Package Arrived</option>
+                                        <option value="action_req">Action Required</option>
                                     </select>
                                     <input type="hidden" name="packid" value="{{$package->id}}">
                                     <button type="submit" class="btn waves-effect waves-light green">Send Notification</button>

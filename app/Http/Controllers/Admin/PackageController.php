@@ -19,6 +19,7 @@ use App\PackageCharge;
 use App\LoyaltyPoint;
 
 use App\Mail\PackageArrived;
+use App\Mail\PackageAction;
 
 class PackageController extends Controller
 {
@@ -285,6 +286,11 @@ class PackageController extends Controller
                 case 'arrived':
                     Mail::to($customer->email)->send(new PackageArrived($customer, $package));
                     return redirect()->back()->with('message', 'Package arrival notification send to customer.');
+                break;
+
+                case 'action_req':
+                    Mail::to($customer->email)->send(new PackageAction());
+                    return redirect()->back()->with('message', 'Action required mail send to customer.');
                 break;
             }
         }else{
