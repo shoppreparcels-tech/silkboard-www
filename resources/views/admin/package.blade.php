@@ -164,9 +164,20 @@
                                     <span class="red"><i class="ti-mobile"></i> +{{$customer->code}} {{$customer->phone}}</span>
                                 @endif
                                 
-                                <p><strong>Shopper Balance : </strong>{{number_format($customer->balance->amount, 2, ".", "")}}</p>
+                                <p><strong>Shoppre Wallet : </strong>{{number_format($customer->balance->amount, 2, ".", "")}}</p>
                                 <p><strong>Loyalty Points : </strong>{{$customer->loyalty->points}}</p>
 
+                                <div class="col s12">
+                                    <form method="post" action="{{route('admin.package.mail')}}">
+                                    {{csrf_field()}}
+                                    <select name="condition">
+                                        <option value="arrived">Package Arrived</option>
+                                    </select>
+                                    <input type="hidden" name="packid" value="{{$package->id}}">
+                                    <button type="submit" class="btn waves-effect waves-light green">Send Notification</button>
+                                    </form>
+                                </div>
+                                <div style="clear: both;"></div>
                                 <p><a href="{{route('admin.customer.edit', [$customer->id])}}" target="_blank"><i class="ti-user"></i> View Profile</a></p>
                             </div>
                         </div>

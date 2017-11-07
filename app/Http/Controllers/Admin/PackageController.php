@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Mail;
 
 use Illuminate\Support\Facades\Session;
 use Auth;
@@ -16,6 +17,8 @@ use App\PackagePhoto;
 use App\PhotoRequest;
 use App\PackageCharge;
 use App\LoyaltyPoint;
+
+use App\Mail\PackageArrived;
 
 class PackageController extends Controller
 {
@@ -48,7 +51,6 @@ class PackageController extends Controller
     	]);
 
     	$package = new Package;
-
     	$customer = Customer::where('locker', $request->locker)->first();
     	$package->customer_id = $customer->id;
 
@@ -266,5 +268,29 @@ class PackageController extends Controller
         $charge->save();
 
         return redirect()->back()->with('message', 'Package level charges updated!');
+    }
+
+    public function mailerPackage(Request $request)
+    {
+        $this->validate($request, [
+            'packid' => 'required',
+            'condition' => 'required'
+        ]);
+
+        $package = Package::find($request->packid);
+        if (!empty($package)) {
+            $customer = Customer::find($package->customer_id);
+
+            switch ($request->condition) {
+                case 'arrived':
+                    Mail::to($customer->email)->send(new PackageArrived($customer, $package));
+                    return redirect()->back()->with('message', 'Package arrival notification send to customer.');
+                break;
+            }
+        }else{
+            return redirect()->route('admin.packages');
+        }
+
+        
     }
 }

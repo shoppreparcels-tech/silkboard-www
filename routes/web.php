@@ -20,8 +20,6 @@ Route::prefix('admin')->group(function(){
 	Route::get('/shopper/orders/canceled', 'Admin\ShopperController@canceledOrders')->name('admin.shopper.canceled');
 	Route::get('/shopper/orders/completed', 'Admin\ShopperController@completedOrders')->name('admin.shopper.completed');
 
-
-
 	Route::get('/shopper/orders/{orderid}', 'Admin\ShopperController@viewOrder')->name('admin.shopper.order');
 	Route::post('/shopper/orders/update', 'Admin\ShopperController@updateOrder')->name('admin.shopper.update');
 
@@ -91,10 +89,11 @@ Route::prefix('admin')->group(function(){
 
 	/*---- Packages ----------*/
 	Route::get('/packages', 'Admin\PackageController@packages')->name('admin.packages');
-	Route::get('/add-package', 'Admin\PackageController@addPackage')->name('admin.package.add');
-	Route::post('/add-package', 'Admin\PackageController@submitPackage')->name('admin.package.submit');
-	Route::get('/edit-package/id/{id}', 'Admin\PackageController@editPackage')->name('admin.package.edit');
-	Route::post('/update-package', 'Admin\PackageController@updatePackage')->name('admin.package.update');
+	Route::get('/package/add', 'Admin\PackageController@addPackage')->name('admin.package.add');
+	Route::post('/package/submit', 'Admin\PackageController@submitPackage')->name('admin.package.submit');
+	Route::get('/package/id/{id}', 'Admin\PackageController@editPackage')->name('admin.package.edit');
+	Route::post('/package/update', 'Admin\PackageController@updatePackage')->name('admin.package.update');
+	Route::post('/package/mailer', 'Admin\PackageController@mailerPackage')->name('admin.package.mail');
 
 	/*----- Pack Items -----*/
 	Route::post('/add-item', 'Admin\PackageController@submitItem')->name('admin.item.submit');
