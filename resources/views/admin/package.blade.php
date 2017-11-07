@@ -47,13 +47,6 @@
                         <div class="widget z-depth-1">
                         <form method="post" action="{{route('admin.package.update')}}">
                             {{ csrf_field() }}
-                            <div class="input-field col s12">
-                                <input type="text" class="validate" name="title" value="{{$package->title}}" required>
-                                <label class="active">Package Title</label>
-                                @if ($errors->has('title'))
-                                    <span class="error">{{ $errors->first('title') }}</span>
-                                @endif
-                            </div>
                             <div class="input-field col s6">
                                 <input type="text" class="validate" name="seller" value="{{$package->seller}}" required>
                                 <label class="active">Seller Name</label>

@@ -21,13 +21,6 @@
                         @endif
                         <form method="post" action="{{route('admin.package.submit')}}">
                             {{ csrf_field() }}
-                            <div class="input-field col s12">
-                                <input type="text" class="validate" name="title" value="{{ old('title') }}" required>
-                                <label  class="">Package Title</label>
-                                @if ($errors->has('title'))
-                                    <span class="error">{{ $errors->first('title') }}</span>
-                                @endif
-                            </div>
                             <div class="input-field col s6">
                                 <input type="text" class="validate" name="seller" value="{{ old('seller') }}" required>
                                 <label  class="">Seller Name</label>

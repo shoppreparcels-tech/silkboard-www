@@ -38,7 +38,6 @@ class PackageController extends Controller
     public function submitPackage(Request $request)
     {
     	$this->validate($request, [
-    		'title' => 'required',
     		'seller' => 'required',
     		'refference' => 'required',
     		'locker' => 'required',
@@ -61,7 +60,6 @@ class PackageController extends Controller
         while(!$checkOrder->isEmpty());
         $package->order_id = $order_id;
 
-    	$package->title = $request->title;
     	$package->seller = $request->seller;
     	$package->refference = $request->refference;
     	$package->locker = $request->locker;
@@ -122,6 +120,7 @@ class PackageController extends Controller
         }
         $items = PackageItem::where('packid', $package->id)->get();
         $invoice = PackageInvoice::where('packid', $package->id)->orderBy('updated_at', 'desc')->first();
+
         $customer = Customer::where('locker', $package->locker)->first();
         return view('admin.package')->with(['package'=>$package, 'customer'=>$customer, 'items'=>$items, 'invoice'=>$invoice]);
     }
@@ -129,7 +128,6 @@ class PackageController extends Controller
     public function updatePackage(Request $request)
     {
         $this->validate($request, [
-            'title' => 'required',
             'seller' => 'required',
             'refference' => 'required',
             'locker' => 'required',
@@ -144,7 +142,6 @@ class PackageController extends Controller
         $customer = Customer::where('locker', $request->locker)->first();
         if (!empty($customer)) {
             $package->customer_id = $customer->id;
-            $package->title = $request->title;
             $package->seller = $request->seller;
             $package->refference = $request->refference;
             $package->locker = $customer->locker;
