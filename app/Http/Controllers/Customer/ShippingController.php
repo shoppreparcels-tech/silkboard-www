@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Customer;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Mail;
 
 
 use Auth;
@@ -21,6 +22,8 @@ use App\LoyaltyPoint;
 use App\LoyaltyHistory;
 use App\ShipRequest;
 use App\ShipOption;
+
+use App\Mail\ShipmentRequested;
 
 class ShippingController extends Controller
 {
@@ -329,10 +332,15 @@ class ShippingController extends Controller
 
             Package::whereIn('id', $packids)->update(['status' => 'processing']);
 
+            $customer = Customer::find($custid);
+            Mail::to($customer->email)->send(new ShipmentRequested($packages, $address));
+
             $request->session()->put(['shipid'=>$shipment->id]);
 
             return redirect()->route('shipping.request.toreview');
 
+        }else{
+            return redirect()->route('customer.locker');
         }
         
     }

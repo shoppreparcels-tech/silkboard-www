@@ -29,13 +29,14 @@
           </div>
           <div class="dash-address">
             <h3>{{Auth::guard('customer')->user()->name}}</h3>
-            <p>1st Floor, #181,</p>
-            <p>2nd Cross Rd, 7th Main,</p>
-            <p>Koramangala 1st Block,</p>
-            <p>Locker No: {{Auth::guard('customer')->user()->locker}}</p>
-            <p>Bengaluru 560034</p>
-            <p>Karnataka, India</p>
-            <p>+91 914 835 77 33</p>
+            <p>Address Line 1: #{{Auth::guard('customer')->user()->locker}}, 1st Floor, #181,</p>
+            <p>Address Line 2: 2nd Cross Rd, 7th Main, Koramangala 1st Block,</p>
+            <p>City: Bengaluru </p>
+            <p>PIN Code: 560034 </p>
+            <p>State/Provice: Karnataka</p>
+            <p>Country:  India</p>
+            <p>Phone: +91 914 835 77 33 </p>
+            <p>Landmark:  Near to Seema English Nursery School</p>
           </div>
         </div>
         @endif
