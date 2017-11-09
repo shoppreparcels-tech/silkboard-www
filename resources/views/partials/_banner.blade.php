@@ -18,11 +18,11 @@
                 $compUrl = route('customer.settings');
               }else{
                 $percent = 100;
-                $compMsg = '';
+                $compMsg = 'Happy Shopping!';
+                $compUrl = 'javascript::void(0)';
               }
             @endphp
 
-            @if($percent != 100)
             <h3><a href="{{$compUrl}}">{{$compMsg}}</a></h3>
             <p>Your profile is {{$percent}}% completed</p>
             <div class="example">
@@ -31,7 +31,7 @@
               </div>
               <input type="hidden" name="progress" id="progress_val" value="{{$percent}}">
             </div>
-            @endif
+            
 
           </div>
         </div>

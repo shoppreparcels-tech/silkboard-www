@@ -4422,8 +4422,12 @@ td.customer_action p{
     padding-bottom: 15px;
 }
 .dash-history table th{
-    background: #464646;
-    color: #fff;
+    background: #f1f1f1;
+    color: #3a3838;
+    text-align: center;
+}
+.dash-history table td{
+    text-align: center;
 }
 
 /*========== Personal Shopper ==========*/

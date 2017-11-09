@@ -234,11 +234,9 @@ class ShippingController extends Controller
         ]);
         $packids = $request->packids;
         $address = Address::find($request->addressid);
-
         $shipping = $this->getEstimation($packids, $address->countrid);
 
         $packages = Package::where('customer_id', $custid)->whereIn('id', $packids)->get();
-
         if (!$packages->isEmpty()) {
 
             $toAddress = "";
@@ -273,7 +271,7 @@ class ShippingController extends Controller
 
             do
             {
-                $orderid = rand(100, 999)."-0".$custid."-".rand(1000, 9999);
+                $orderid = rand(100, 999)."-".$custid."-".rand(1000, 9999);
                 $checkReqst = ShipRequest::where('orderid', $orderid)->get();
             }
             while(!$checkReqst->isEmpty());
@@ -402,7 +400,7 @@ class ShippingController extends Controller
     {
         $id = Auth::id();
         $shipments = ShipRequest::where('custid', $id)->whereIn('shipstatus', ['inqueue', 'inreview', 'confirmation'])->get();
-        return view('customer.inqueue')->with('shipments', $shipments);
+        return view('customer.shipping.inqueue')->with('shipments', $shipments);
     }
 
     public function confirmShipment(Request $request)
@@ -533,7 +531,7 @@ class ShippingController extends Controller
             $packids = explode(",", $shipment->packids);
             Package::whereIn('id', $packids)->update(['status' => 'ship']);
         }
-        return redirect()->route('customer.locker');
+        return redirect()->route('customer.locker')->with('error', 'Ship request has been canceled!');
     }
 
     public function calcShipping($countrid, $weight, $type)
