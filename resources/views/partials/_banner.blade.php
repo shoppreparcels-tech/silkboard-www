@@ -11,20 +11,34 @@
         @else
         <div class="col-sm-4">
           <div class="dash-complete">
-            <h3>Awaiting your first Shipment!</h3>
-            <p>Your profile is 75% completed</p>
+            @php
+              if($complition['phone'] == 0){
+                $percent = 50;
+                $compMsg = 'Update your phone number!';
+                $compUrl = route('customer.settings');
+              }else{
+                $percent = 100;
+                $compMsg = '';
+              }
+            @endphp
+
+            @if($percent != 100)
+            <h3><a href="{{$compUrl}}">{{$compMsg}}</a></h3>
+            <p>Your profile is {{$percent}}% completed</p>
             <div class="example">
               <div class="textProgress progress_bar">
-                  <div class="progress"><span class="percent">75%</span></div>
+                  <div class="progress"><span class="percent">{{$percent}}%</span></div>
               </div>
-              <input type="hidden" name="progress" id="progress_val" value="75">
+              <input type="hidden" name="progress" id="progress_val" value="{{$percent}}">
             </div>
+            @endif
+
           </div>
         </div>
         <div class="col-sm-8">
           <div class="dash-pic">
             <div class="profile_progress">
-              <div class="loader" style="width:75%;"></div>
+              <div class="loader" style="width:{{$percent}}%;"></div>
             </div>
           </div>
           <div class="dash-address">

@@ -259,13 +259,13 @@
                 
               <ul class="dash-quick">
                 <li style="background-image:url({{asset('img/dashico1.png')}});"><a href="#">Country Guides</a></li>
-                <li style="background-image:url({{asset('img/dashico2.png')}});"><a href="#">Brands You Love</a></li>
-                <li style="background-image:url({{asset('img/dashico3.png')}});"><a href="#">Shipping Calculator</a></li>
-                <li style="background-image:url({{asset('img/dashico4.png')}});"><a href="#">Personal Shopper</a></li>
+                <li style="background-image:url({{asset('img/dashico2.png')}});"><a href="{{route('stores')}}">Brands You Love</a></li>
+                <li style="background-image:url({{asset('img/dashico3.png')}});"><a href="{{route('pricing')}}">Shipping Calculator</a></li>
+                <li style="background-image:url({{asset('img/dashico4.png')}});"><a href="{{route('personal.shopper')}}">Personal Shopper</a></li>
                 <li style="background-image:url({{asset('img/dashico5.png')}});"><a href="#">Exchange Rates</a></li>
-                <li style="background-image:url({{asset('img/dashico6.png')}});"><a href="#">Our Services</a></li>
-                <li style="background-image:url({{asset('img/dashico7.png')}});"><a href="#">Address Book</a></li>
-                <li style="background-image:url({{asset('img/dashico8.png')}});"><a href="#">Blogs</a></li>
+                <li style="background-image:url({{asset('img/dashico6.png')}});"><a href="{{route('services')}}">Our Services</a></li>
+                <li style="background-image:url({{asset('img/dashico7.png')}});"><a href="{{route('customer.address')}}">Address Book</a></li>
+                <li style="background-image:url({{asset('img/dashico8.png')}});"><a href="https://blog.shoppre.com" target="_blank">Blogs</a></li>
               </ul>
             </div>
           </div>
