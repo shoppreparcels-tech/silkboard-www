@@ -11,6 +11,7 @@ use App\ShipRequest;
 use App\Customer;
 use App\Package;
 use App\LoyaltyPoint;
+use App\ShipTracking;
 
 class ShippingController extends Controller
 {
@@ -218,8 +219,17 @@ class ShippingController extends Controller
                 $shipRqst->shipstatus = 'dispatched';
                 $shipRqst->paystatus = 'success';
 
-                $points = (int) ((10/100) * $shipRqst->amount);
+                if (empty($shipRqst->tracking)) {
+                    $tracking = new ShipTracking;
+                    $tracking->shipid = $shipRqst->id;
+                    $tracking->shipdate = date('Y-m-d');
+                    $tracking->box_nos = $shipRqst->count;
+                    $tracking->packweight = $shipRqst->weight;
+                    $tracking->packvalue = $shipRqst->value;
+                    $tracking->save();
+                }
 
+                $points = (int) ((10/100) * $shipRqst->amount);
                 $loyalid = LoyaltyPoint::where('custid', $shipRqst->custid)->first()->id;
                 $loyalty = LoyaltyPoint::find($loyalid);
                 $loyalty->points += $points;
@@ -247,6 +257,29 @@ class ShippingController extends Controller
         return redirect()->back()->with('message', 'Shipment Order Updated.');
     }
 
+    public function trackingUpdate(Request $request)
+    {
+        $this->validate($request, [
+            'shipdate' => 'required',
+            'carrier' => 'required',
+            'box_nos' => 'required',
+            'packweight' => 'required',
+            'packvalue' => 'required',
+            'trackid' => 'required',
+            'track_url' => 'required'
+        ]);
+
+        $tracking = ShipTracking::find($request->trackingid);
+        $tracking->shipdate = $request->shipdate;
+        $tracking->carrier = $request->carrier;
+        $tracking->box_nos = $request->box_nos;
+        $tracking->packweight = $request->packweight;
+        $tracking->packvalue = $request->packvalue;
+        $tracking->trackid = $request->trackid;
+        $tracking->track_url = $request->track_url;
+        $tracking->save();
+        return redirect()->back()->with('message', 'Tracking Information Updated.');
+    }
 
     public function calcShipping($countrid, $weight, $type)
     {
@@ -273,5 +306,27 @@ class ShippingController extends Controller
         }else{
             return false;
         }
+    }
+
+    public function mailerShipping(Request $request)
+    {
+        $this->validate($request, [
+            'shipid' => 'required',
+            'condition' => 'required'
+        ]);
+
+        $shipment = ShipRequest::find($request->packid);
+        if (!empty($shipment)) {
+            $customer = Customer::find($shipment->custid);
+            switch ($request->condition) {
+                case 'dispatched':
+                    Mail::to($customer->email)->send(new PackageArrived($customer, $shipment));
+                    return redirect()->back()->with('message', 'Package arrival notification send to customer.');
+                break;
+            }
+        }else{
+            return redirect()->route('admin.shipping');
+        }
+        
     }
 }

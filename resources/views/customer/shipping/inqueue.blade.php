@@ -15,6 +15,7 @@
                 @if(!$shipments->isEmpty())
                 <table class="table table-bordered">
                     <tr>
+                        <th></th>
                         <th>SENDING TO</th>
                         <th>SHIP REQUEST ID</th>
                         <th>REQUEST DATE</th>
@@ -26,9 +27,10 @@
                     @php ($i = 0)
                     @foreach ($shipments as $shipment)
                         <tr>
+                            <td><a class="slide_trigger" data-target="{{++$i}}" href="#" title="Edit"><i class="fa fa-angle-double-down"></i></a></td>
                             <td>{{$shipment->fullname}}</td>
                             <td>{{$shipment->orderid}}</td>
-                            <td>{{$shipment->created_at}}</td>
+                            <td>{{date('d M Y', strtotime($shipment->created_at))}}</td>
                             <td>{{$shipment->value}}</td>
                             <td>
                               @if($shipment->shipstatus == 'inreview')
@@ -51,18 +53,43 @@
                                     $diff = date_diff(new DateTime(date('Y-m-d H:i:s')), new DateTime($shipment->created_at));
                                     $hours = ($diff->y * 365.25 + $diff->m * 30 + $diff->d) * 24 + $diff->h + $diff->i/60;
 
-                                    if(floor($hours) <= 7){
+                                    if(ceil($hours) <= 1){
                                       echo '<a href="'.route('shipping.request.cancel', [$shipment->orderid]).'">Cancel</a>';
-                                      echo ' <a href="javascript::void(0)" class="tooltipkey" title="You can cancel your ship request with in 7 hours. Once The Shoppre Team has begun to prepare your shipment, and it can no longer be canceled online."><i class="fa fa-question-circle-o"></i></a>';
+                                      echo ' <a href="javascript::void(0)" class="tooltipkey" title="You can cancel your ship request with in 1 hour. Once The Shoppre Team has begun to prepare your shipment, and it can no longer be canceled online."><i class="fa fa-question-circle-o"></i></a>';
                                     }
 
                                   break;
                                   case 'confirmation':
-                                    echo '<a href="'.route('shipping.request.confirm', [$shipment->orderid]).'">Confirm Order</a>';
+                                    echo '<a href="'.route('shipping.request.confirm', [$shipment->orderid]).'">Submit Payment</a>';
                                   break;
                                 }
                               @endphp
                             </td>
+                        </tr>
+                        <tr id="slidedown_{{$i}}" style="display:none" class="queue_ext">
+                          <td colspan="8">
+                            <div class="col-sm-7">
+                              <address>
+                                <h4>SHIP TO:</h4>
+                                <p><strong>{{$shipment->fullname}}</strong></p>
+                                <p>{{$shipment->address}}</p>
+                                <p>PH: {{$shipment->phone}}</p>
+                              </address>
+                            </div>
+                            @if($shipment->finalamount != 0)
+                            <div class="col-sm-5">
+                              <div class="payinfo">
+                                <p><strong>Estimated Shipping</strong> <span class="pull-right"><i class="fa fa-rupee"></i> {{number_format(($shipment->estimated-$shipment->packlevel), 2, ".", "")}}</span></p>
+                                <p><strong>Package Level Charges</strong> <span class="pull-right"><i class="fa fa-rupee"></i> {{number_format($shipment->packlevel, 2, ".", "")}}</span></p>
+                                <p><strong>Coupon Reward</strong> <span class="pull-right">(-) <i class="fa fa-rupee"></i> {{number_format($shipment->coupon, 2, ".", "")}}</span></p>
+                                <p><strong>Loyalty Reward</strong> <span class="pull-right">(-) <i class="fa fa-rupee"></i> {{number_format($shipment->loyalty, 2, ".", "")}}</span></p>
+                                <hr>
+                                <p class="total"><strong>Total Cost</strong> <span class="pull-right"><i class="fa fa-rupee"></i> {{number_format($shipment->finalamount, 2, ".", "")}}</span></p>
+                              </div>
+                            </div>
+                            @endif
+
+                          </td>
                         </tr>
                     @endforeach
                 </table>
@@ -77,4 +104,14 @@
       </div>
     </section>
 
+@endsection
+
+@section('js_script')
+<script type="text/javascript">
+    $('.slide_trigger').click(function(e) {
+        e.preventDefault();
+        var target = $(this).attr('data-target');
+        $('#slidedown_'+target).slideToggle();
+    });
+</script>
 @endsection

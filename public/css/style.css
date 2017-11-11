@@ -1996,7 +1996,17 @@ section.register{
 .dash-orders{
     padding: 50px 0;
 }
-
+.dash-orders .subpaybtn{
+    display: block;
+    border: 1px solid #cadc88;
+    padding: 12px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #424242;
+    border-radius: 5px;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
 .order-top-left{
     width: 49%;
     display: inline-block;
@@ -4428,6 +4438,39 @@ td.customer_action p{
 }
 .dash-history table td{
     text-align: center;
+}
+.queue_ext td{
+    text-align: left !important;
+    padding: 15px 0 !important;
+}
+.queue_ext address{
+    margin: 0;
+    padding: 15px;
+}
+.queue_ext address h4{
+    margin: 0 0 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.queue_ext address p{
+    margin: 5px 0;
+    line-height: 18px;
+}
+.queue_ext .payinfo{}
+.queue_ext .payinfo p{
+    margin: 0 0 5px;
+}
+.queue_ext .payinfo p strong{}
+.queue_ext .payinfo p .pull-right{}
+.queue_ext .payinfo hr{
+    margin: 10px 0;
+}
+.queue_ext .payinfo p.total{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.dash-history .slide_trigger{
+    font-size: 20px;
 }
 
 /*========== Personal Shopper ==========*/

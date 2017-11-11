@@ -39,7 +39,7 @@
                                         <tr>
                                             <td>{{$shipment->orderid}}</td>
                                             <td>{{$shipment->weight}} Kg</td>
-                                            <td>INR {{number_format($shipment->amount, 2)}}</td>
+                                            <td>INR {{number_format($shipment->finalamount, 2)}}</td>
                                             <td>
                                               @php
                                                 switch($shipment->payoption){

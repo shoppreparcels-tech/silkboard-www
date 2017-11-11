@@ -49,6 +49,7 @@ class ProfileController extends Controller
                             ->get();
 
         $shipQueue = ShipRequest::where('custid', $id)->whereIn('shipstatus', ['inqueue', 'inreview', 'confirmation'])->get();
+        $shipConfirm = ShipRequest::where('custid', $id)->where('shipstatus', 'confirmation')->get();
 
         foreach ($ships as $ship) {
             $expireDays = 0;
@@ -65,7 +66,7 @@ class ProfileController extends Controller
 
         $survey = RegisterSurvey::where('custid', $id)->first();
 
-    	return view('customer.locker')->with(['customer'=>$customer, 'ships'=>$ships, 'reviews'=>$reviews, 'confirms'=>$confirms, 'packages'=>$packages, 'shipQueue'=>$shipQueue, 'countries'=>$countries, 'address'=>$address, 'survey'=>$survey]);
+    	return view('customer.locker')->with(['customer'=>$customer, 'ships'=>$ships, 'reviews'=>$reviews, 'confirms'=>$confirms, 'packages'=>$packages, 'shipQueue'=>$shipQueue, 'countries'=>$countries, 'address'=>$address, 'survey'=>$survey, 'shipConfirm'=>$shipConfirm]);
     }
 
     public function registerSurvey(Request $request)

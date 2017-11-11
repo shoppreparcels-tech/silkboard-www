@@ -17,7 +17,6 @@ class CreatePackagesTable extends Migration
             $table->increments('id');
             $table->integer('customer_id');
             $table->string('order_id');
-            $table->string('title');
             $table->enum('type', ['doc','nondoc']);
             $table->string('seller');
             $table->string('refference');

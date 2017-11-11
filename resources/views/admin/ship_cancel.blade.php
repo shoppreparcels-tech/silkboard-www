@@ -40,7 +40,7 @@
                                             <td>{{$shipment->orderid}}</td>
                                             <td>{{$shipment->weight}} Kg</td>
                                             <td>INR {{number_format($shipment->estimated, 2)}}</td>
-                                            <td>INR {{number_format($shipment->amount, 2)}}</td>
+                                            <td>INR {{number_format($shipment->finalamount, 2)}}</td>
                                             <td>{{$shipment->updated_at}}</td>
                                             <td><a href="{{route('admin.shipping.order', [$shipment->id])}}"><i class="ti-settings"></i></a></td>
                                         </tr>

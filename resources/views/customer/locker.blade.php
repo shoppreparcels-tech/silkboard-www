@@ -141,6 +141,11 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-8">
+            
+            @if(!$shipConfirm->isEmpty())
+              <h4 class="subpaybtn">Your shipment is ready. <a href="{{route('shipping.queue')}}">Submit Your Payment</a> Quickly in order to avoid storage fees. <a href="javascript::void(0)" class="tooltipkey" title="Your package is now ready to be shipped and your final charges have been updated.You get a free time period of 7 DAYS to submit your payment. You will incur a storage fee of INR 100/ day for your prepared parcel from the 8th day onwards, which you can view in your Shoppre Wallet."><i class="fa fa-question-circle-o"></i></a></h4>
+            @endif
+
             <div class="order-top-left">
               <h3>Packages in Locker {{Auth::guard('customer')->user()->locker}}</h3>
               <a href="{{route('customer.incoming')}}" class="btn btn-blue">Alert Shoppre about my incoming Packages (Optional)</a>

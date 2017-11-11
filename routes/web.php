@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -86,6 +85,8 @@ Route::prefix('admin')->group(function(){
 	Route::get('/shipping/canceled/', 'Admin\ShippingController@shipCanceled')->name('admin.shipping.cancel');
 	Route::get('/shipping/order/{id}', 'Admin\ShippingController@shipOrder')->name('admin.shipping.order');
 	Route::post('/shipping/order/update', 'Admin\ShippingController@orderUpdate')->name('admin.order.update');
+	Route::post('/shipping/mailer', 'Admin\ShippingController@mailerShipping')->name('admin.shipping.mail');
+	Route::post('/shipping/tracking/update', 'Admin\ShippingController@trackingUpdate')->name('admin.shipping.tracking');
 
 	/*---- Packages ----------*/
 	Route::get('/packages', 'Admin\PackageController@packages')->name('admin.packages');
@@ -162,7 +163,7 @@ Route::post('/shipping/request/finalship', 'Customer\ShippingController@finalShi
 Route::get('/shipping/request/response', 'Customer\ShippingController@responseShipment')->name('shipping.request.response');
 Route::get('/shipping/queue', 'Customer\ShippingController@shipQueue')->name('shipping.queue');
 Route::get('/shipping/history', 'Customer\ShippingController@shipHistory')->name('shipping.history');
-
+Route::get('/shipment/invoice/{orderid}', 'Customer\ShippingController@shipmentInvoice')->name('shipping.invoice');
 Route::get('/shipping/request/cancel/{orderid}', 'Customer\ShippingController@cancelRequest')->name('shipping.request.cancel');
 
 /*-------- Reffer A Friend --------*/

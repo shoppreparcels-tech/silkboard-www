@@ -321,7 +321,7 @@
 
         var addressid = $('input[name="addressid"]:checked').val();
 
-        $.redirect("/shipping/request/create",{
+        $.redirect("/shipping/request/redirect",{
           _token: token,
           packids: packids,
           repack: repack,
@@ -338,6 +338,43 @@
       }
     });
 
+    $("input:checkbox, input:radio").change(function() {
+      var i = 0;
+      var packids = [];
+      $("input[name='packids']").each(function() {
+          packids[i++] = this.value;
+      });
+
+      var token = $('input[name="_token"]').val();
+      var repack =  $("input[name='repack']").is(':checked') ? 1 : 0;
+      var sticker =  $("input[name='sticker']").is(':checked') ? 1 : 0;
+      var extrapack =  $("input[name='extrapack']").is(':checked') ? 1 : 0;
+      var original =  $("input[name='original']").is(':checked') ? 1 : 0;
+      var giftwrap =  $("input[name='giftwrap']").is(':checked') ? 1 : 0;
+      var giftnote =  $("input[name='giftnote']").is(':checked') ? 1 : 0;
+
+      var invoice_taxid = $("input[name='invoice_taxid']").val();
+      var invoice_personal =  $("input[name='invoice_personal']").val();
+      var invoice_include =  $("input[name='invoice_include']").val();
+
+      var addressid = $('input[name="addressid"]:checked').val();
+
+      $.redirect("/shipping/request/redirect",{
+        _token: token,
+        packids: packids,
+        repack: repack,
+        sticker: sticker,
+        extrapack: extrapack,
+        original: original,
+        giftwrap: giftwrap,
+        giftnote: giftnote,
+        invoice_taxid: invoice_taxid,
+        invoice_personal: invoice_personal,
+        invoice_include: invoice_include,
+        addressid : addressid
+      });
+
+    });
 
     $("#submit_shiprqst").click(function(e) {
       e.preventDefault();

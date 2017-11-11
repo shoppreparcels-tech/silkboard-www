@@ -54,7 +54,7 @@ class PromoController extends Controller
     	]);
 
     	$promo = PromoCode::find($request->promoid);
-
+        $promo->title = $request->title;
     	$promo->code = $request->code;
     	$promo->cashback = $request->cashback;
     	$promo->discount = $request->discount;

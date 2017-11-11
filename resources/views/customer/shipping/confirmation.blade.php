@@ -105,9 +105,11 @@
             <div class="col-sm-4">
               <div class="shipsidebar">
                   <div class="form-group">
-                    <input type="text" name="promocode" placeholder="Enter Promo Code" class="form-control">
+                    <input type="text" name="promocode" placeholder="Enter Promo Code" class="form-control" value="{{Request::get('promocode')}}">
+                    @if (session('promoerror'))
+                        <div class="alert-danger" style="font-size: 13px;border: 0;margin: 5px 0;">{{ session('promoerror') }}</div>
+                    @endif
                   </div>
-
                   <div class="dash-sidecost">
                     <p>Total Value <span class="pull-right">
                       <i class="fa fa-rupee"></i> 
@@ -133,17 +135,20 @@
                     <h3>Estimated Shipping: <span class="pull-right"><i class="fa fa-rupee"></i> <span class="estimated">{{number_format($estimated, 2, ".", "")}}</span></span></h3>
                   </div>
 
-
                   <ul>
                     <li>Estimated Shipping Charges : <span><i class="fa fa-rupee"></i> {{number_format($estimated, 2, ".", "")}}</span></li>
                     <li>Package Level Charges : <span><i class="fa fa-rupee"></i> {{number_format($shipment->packlevel, 2, ".", "")}}</span></li>
                     <li>Estimated Tax : <span><i class="fa fa-rupee"></i> {{number_format($payment['tax'], 2, ".", "")}}</span></li>
-                    <li>Coupon Discount : <span>(-) <i class="fa fa-rupee"></i> 0.00</span></li>
+                    <li>Coupon Discount : <span>(-) <i class="fa fa-rupee"></i> {{number_format($payment['coupon'], 2, ".", "")}}</span></li>
                     <li>Loyalty Rewards : <span>(-) <i class="fa fa-rupee"></i> {{number_format($payment['loyalty'], 2, ".", "")}}</span></li>
                   </ul>
                   <div class="checkbox">
                     <label>
-                      <input type="checkbox" name="insurance" value="1">
+                      @if(Request::get('insurance') == 1)
+                        <input type="checkbox" name="insurance" value="1" checked>
+                      @else
+                        <input type="checkbox" name="insurance" value="1">
+                      @endif
                       <span class="label">Protect your shipment with Shoppre insurance policy available for only <i class="fa fa-rupee"></i> 30.00</span>
                     </label>
                   </div>
@@ -176,6 +181,34 @@
         var target = $(this).attr('data-target');
         $('#'+target).slideToggle();
     });
+
+    $('input').keypress(function (e) {
+      if (e.which == 13) {
+        var token = $('input[name="_token"]').val();
+        var insurance =  $("input[name='insurance']").is(':checked') ? 1 : 0;
+        var promocode = $("input[name='promocode']").val();
+
+        $.redirect("",{
+          _token: token,
+          insurance: insurance,
+          promocode: promocode
+        }, 'GET');
+      }
+    });
+
+    $("input:checkbox").change(function() {
+      var token = $('input[name="_token"]').val();
+      var insurance =  $("input[name='insurance']").is(':checked') ? 1 : 0;
+      var promocode = $("input[name='promocode']").val();
+
+      $.redirect("",{
+        _token: token,
+        insurance: insurance,
+        promocode: promocode
+      }, 'GET');
+    });
+
+
     $("#submitship").click(function(e) {
       e.preventDefault();
       

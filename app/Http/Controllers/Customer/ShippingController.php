@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Mail;
 
 
 use Auth;
+use DateTime;
 use App\Customer;
 use App\ShippingPreference;
 use App\Address;
@@ -22,6 +23,8 @@ use App\LoyaltyPoint;
 use App\LoyaltyHistory;
 use App\ShipRequest;
 use App\ShipOption;
+use App\PromoCode;
+use App\ShipTracking;
 
 use App\Mail\ShipmentRequested;
 
@@ -121,7 +124,7 @@ class ShippingController extends Controller
     {
         $custid = Auth::id();
         $packids = $request->packids;
-        $packages = Package::where('customer_id', $custid)->whereIn('id', $packids)->get();
+        $packages = Package::where('customer_id', $custid)->where('status', 'ship')->whereIn('id', $packids)->get();
         if (!$packages->isEmpty()) {
 
             $options = array(
@@ -136,7 +139,16 @@ class ShippingController extends Controller
                 "invoice_include" => $request->invoice_include
             );
 
-            $request->session()->put(['packids' => $packids, 'options' => $options]);
+            if (isset($request->addressid)) {
+                $address = Address::find($request->addressid);
+                if (empty($address)) {
+                    $address = Address::where('cust_id', $custid)->where('default', 'yes')->first();
+                }
+            }else{
+                $address = Address::where('cust_id', $custid)->where('default', 'yes')->first();
+            }
+
+            $request->session()->put(['packids' => $packids, 'options' => $options, 'address' => $address]);
             return redirect()->route('shipping.request.create');
         
         }else{
@@ -150,8 +162,9 @@ class ShippingController extends Controller
         if ($request->session()->has('packids') && $request->session()->exists('packids')) {
             $packids = $request->session()->get('packids');
             $options = $request->session()->get('options');
+            $address = $request->session()->get('address');
 
-            $packages = Package::where('customer_id', $custid)->whereIn('id', $packids)->get();
+            $packages = Package::where('customer_id', $custid)->where('status', 'ship')->whereIn('id', $packids)->get();
 
             if (!$packages->isEmpty()) {
 
@@ -199,15 +212,6 @@ class ShippingController extends Controller
 
                 $charges['optsamt'] = $repack_amt + $sticker_amt + $extrapack_amt + $original_amt + $giftwrap_amt + $giftnote_amt;
 
-                if (isset($request->addressid)) {
-                    $address = Address::find($request->addressid);
-                    if (empty($address)) {
-                        $address = Address::where('cust_id', $custid)->where('default', 'yes')->first();
-                    }
-                }else{
-                    $address = Address::where('cust_id', $custid)->where('default', 'yes')->first();
-                }
-
                 $addresses = Address::where('cust_id', $custid)->get();
 
                 return view('customer.shipping.request')->with([
@@ -236,7 +240,7 @@ class ShippingController extends Controller
         $address = Address::find($request->addressid);
         $shipping = $this->getEstimation($packids, $address->countrid);
 
-        $packages = Package::where('customer_id', $custid)->whereIn('id', $packids)->get();
+        $packages = Package::where('customer_id', $custid)->where('status', 'ship')->whereIn('id', $packids)->get();
         if (!$packages->isEmpty()) {
 
             $toAddress = "";
@@ -412,9 +416,26 @@ class ShippingController extends Controller
             $packids = explode(",", $shipment->packids);
             $packages = Package::where('customer_id', $custid)->whereIn('id', $packids)->get();
 
-            $payment = array('tax' => 0, 'loyalty' => 0, 'amount' => 0);
-            $payment['tax'] = 0;
-            $payment['amount'] = $shipment->estimated + $payment['tax'];
+            $payment = array('tax' => 0, 'coupon' => 0, 'loyalty' => 0, 'amount' => 0);
+            $payment['amount'] = $shipment->estimated;
+
+            if ($request->insurance == '1') {
+                $payment['amount'] += 30.00;
+            }
+
+            if (isset($request->promocode) && !empty($request->promocode)) {
+                $promo = PromoCode::where('code', $request->promocode)->whereDate('validity', '>=', date('Y-m-d'))->first();
+                if (!empty($promo)) {
+                    if (!empty($promo->cashback)) {
+                        $payment['coupon'] = $promo->cashback;
+                    }elseif (!empty($promo->discount)) {
+                        $payment['coupon'] = ($promo->discount / 100) * $shipment->estimated;
+                    }
+                    $payment['amount'] -= $payment['coupon'];
+                }else{
+                    return redirect()->back()->with('promoerror', 'Invalid or Expired Promo Code Entered!');
+                }
+            }
 
             $points = LoyaltyPoint::where('custid', $custid)->pluck('points')->first();
             $rewards = 0;
@@ -518,8 +539,34 @@ class ShippingController extends Controller
     public function shipHistory()
     {
         $id = Auth::id();
-        $shipments = ShipRequest::where('custid', $id)->whereIn('shipstatus', ['dispatched', 'delivered', 'canceled'])->get();
+        $shipments = ShipRequest::where('custid', $id)->whereIn('shipstatus', ['dispatched', 'delivered', 'canceled'])->orderBy('updated_at', 'desc')->get();
+        foreach ($shipments as $shipment) {
+            if (empty($shipment->tracking)) {
+                $tracking = new ShipTracking;
+                $tracking->shipid = $shipment->id;
+                $tracking->shipdate = date('Y-m-d');
+                $tracking->box_nos = $shipment->count;
+                $tracking->packweight = $shipment->weight;
+                $tracking->packvalue = $shipment->value;
+                $tracking->save();
+            }
+        }
         return view('customer.shipping.history')->with('shipments', $shipments);
+    }
+
+    public function shipmentInvoice(Request $request)
+    {
+        $custid = Auth::id();
+        $orderid = $request->orderid;
+        $customer = Customer::find($custid);
+        $shipment = ShipRequest::where('custid', $custid)->where('orderid', $orderid)->first();
+        if (!empty($shipment)) {
+            $packids = explode(",", $shipment->packids);
+            $packages = Package::where('customer_id', $custid)->whereIn('id', $packids)->get();
+            return view('customer.shipping.invoice')->with(['shipment'=>$shipment, 'packages' => $packages]);
+        }else{
+            return redirect(route('customer.shipping.history'));
+        }
     }
 
     public function cancelRequest(Request $request)
@@ -527,11 +574,19 @@ class ShippingController extends Controller
         $custid = Auth::id();
         $shipment = ShipRequest::where('custid', $custid)->whereIn('shipstatus', ['inreview', 'inqueue'])->where('orderid', $request->orderid)->first();
         if (!empty($shipment)) {
-            ShipRequest::where('id', $shipment->id)->update(['shipstatus' => 'canceled']);
-            $packids = explode(",", $shipment->packids);
-            Package::whereIn('id', $packids)->update(['status' => 'ship']);
+            $diff = date_diff(new DateTime(date('Y-m-d H:i:s')), new DateTime($shipment->created_at));
+            $hours = ($diff->y * 365.25 + $diff->m * 30 + $diff->d) * 24 + $diff->h + $diff->i/60;
+            if(ceil($hours) <= 1){
+                ShipRequest::where('id', $shipment->id)->update(['shipstatus' => 'canceled']);
+                $packids = explode(",", $shipment->packids);
+                Package::whereIn('id', $packids)->update(['status' => 'ship']);
+                return redirect()->route('customer.locker')->with('error', 'Ship request has been canceled!');
+            }else{
+                return redirect()->route('customer.locker');
+            }
+        }else{
+            return redirect()->route('customer.locker');
         }
-        return redirect()->route('customer.locker')->with('error', 'Ship request has been canceled!');
     }
 
     public function calcShipping($countrid, $weight, $type)

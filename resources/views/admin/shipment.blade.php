@@ -16,7 +16,6 @@
 
         <div class="widgets-wrapper">
             <div class="row">
-                
                     <div class="col s8">
                         @if (session('message'))
                             <div class="alert alert-success text-center">
@@ -85,10 +84,6 @@
                                 </div>
 
                                 @if($shipment->shipstatus != 'inreview' )
-                                <div class="input-field col s6">
-                                    <input type="text" class="validate" value="{{$shipment->tax}}" disabled>
-                                    <label class="active">Tax Amount</label>
-                                </div>
 
                                 <div class="input-field col s6">
                                     <input type="text" class="validate" value="{{$shipment->coupon}}" disabled>
@@ -109,6 +104,7 @@
                                         <select name="shipstatus">
                                             <option {{$shipment->shipstatus === 'inreview' ? "selected" : ""}} value="inreview">Under Review</option>
                                             <option {{$shipment->shipstatus === 'confirmation' ? "selected" : ""}} value="confirmation">Customer Confirmation</option>
+                                            <option {{$shipment->shipstatus === 'canceled' ? "selected" : ""}} value="canceled">Cancel</option>
                                         </select>
                                     @elseif($shipment->shipstatus === 'confirmation')
                                         <select disabled>
@@ -152,10 +148,27 @@
                                 @if(!empty($customer->phone))
                                     <span class="red"><i class="ti-mobile"></i> +{{$customer->code}} {{$customer->phone}}</span>
                                 @endif
-                                <p><a href="#"><i class="ti-user"></i> View Profile</a></p>
+                                
+                                <p><strong>Shoppre Wallet : </strong>{{number_format($customer->balance->amount, 2, ".", "")}}</p>
+                                <p><strong>Loyalty Points : </strong>{{$customer->loyalty->points}}</p>
+
+                                <div class="col s12">
+                                    <form method="post" action="#">
+                                    {{csrf_field()}}
+                                    <select name="condition">
+                                        <option value="dispatched">Shipment Dispatched</option>
+                                        <option value="delivered">Shipment Delivered</option>
+                                    </select>
+                                    <input type="hidden" name="shipid" value="{{$shipment->id}}">
+                                    <button type="submit" class="btn waves-effect waves-light green">Send Notification</button>
+                                    </form>
+                                </div>
+                                <div style="clear: both;"></div>
+                                <p><a href="{{route('admin.customer.edit', [$customer->id])}}" target="_blank"><i class="ti-user"></i> View Profile</a></p>
                             </div>
                         </div>
 
+                        @if(!in_array($shipment->shipstatus, ['inreview', 'canceled']))
                         <div class="widget z-depth-1">
                             @php
                                 switch ($shipment->payoption) {
@@ -193,7 +206,77 @@
                                 <span>{{$paystatus}}</span>
                             </p>
                         </div>
+                        @endif
                     </div>
+
+                    @if(!empty($shipment->tracking))
+
+                    <div class="col s12">
+                        <div class="widget z-depth-2">
+                            <div class="widget-title">
+                                <h3>Shipment Tracking</h3>
+                                <p>Shipping tracking information</p>
+                            </div>
+                            <div class="projects-table">
+                                <form method="post" action="{{route('admin.shipping.tracking')}}">
+                                    {{csrf_field()}}
+                                    <table class="table">
+                                          <tr>
+                                            <td>
+                                                <div class="input-field">
+                                                    <input type="text" name="shipdate" class="validate" value="{{$shipment->tracking->shipdate}}" required>
+                                                    <label class="active">Ship Date</label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-field">
+                                                    <input type="text" name="carrier" class="validate" value="{{$shipment->tracking->carrier}}" required>
+                                                    <label class="active">Carrier</label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-field">
+                                                    <input type="text" name="box_nos" class="validate" value="{{$shipment->tracking->box_nos}}" required>
+                                                    <label class="active">No. of Boxes</label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-field">
+                                                    <input type="text" name="packweight" class="validate" value="{{$shipment->tracking->packweight}}" required>
+                                                    <label class="active">Package Weight</label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="input-field">
+                                                    <input type="text" name="packvalue" class="validate" value="{{$shipment->tracking->packvalue}}" required>
+                                                    <label class="active">Package Value</label>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                              <td colspan="2">
+                                                  <div class="input-field">
+                                                    <input type="text" name="trackid" class="validate" value="{{$shipment->tracking->trackid}}" required>
+                                                    <label class="active">Tracking ID</label>
+                                                </div>
+                                              </td>
+                                              <td colspan="2">
+                                                  <div class="input-field">
+                                                    <input type="text" name="track_url" class="validate" value="{{$shipment->tracking->track_url}}" required>
+                                                    <label class="active">Tracking URL</label>
+                                                </div>
+                                              </td>
+                                              <td>
+                                                  <input type="hidden" name="trackingid" value="{{$shipment->tracking->id}}">
+                                                  <button type="submit" class="btn waves-effect waves-light green">Update</button>
+                                              </td>
+                                          </tr>
+                                      </table>
+                                  </form>
+                            </div>
+                        </div>
+                    </div>
+                    @endif
 
                     @if($shipment->option)
                     @php
