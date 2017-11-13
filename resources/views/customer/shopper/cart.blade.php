@@ -44,7 +44,7 @@
                     <div class="col-sm-2 col-sm-offset-7 text-right">
                       <p>{{$order->requests()->count()}} items</p>
                       <p>Rs. {{number_format($order->totalprice, 2, ".", "")}}</p>
-                      <a href="#" class="delete">Delete All <i class="fa fa-trash"></i></a>
+                      <a href="{{route('personal.shopper.deleteorder', [$order->id])}}" class="delete">Delete All <i class="fa fa-trash"></i></a>
                     </div>
                     <div class="clearfix"></div>
                   </div>
@@ -62,10 +62,10 @@
                       @foreach($requests as $request)
                       <tr>
                         <td>
-                          <a href="#"><i class="fa fa-trash"></i><span>Delete</span></a>
+                          <a href="{{route('personal.shopper.deletereq', [$request->id])}}"><i class="fa fa-trash"></i><span>Delete</span></a>
                         </td>
                         <td>
-                          <a href="#"><i class="fa fa-pencil"></i><span>Edit</span></a>
+                          <a href="{{route('personal.shopper.edit', [$request->id])}}"><i class="fa fa-pencil"></i><span>Edit</span></a>
                         </td>
                         <td>
                           <p>{{$request->item_name}}</p>

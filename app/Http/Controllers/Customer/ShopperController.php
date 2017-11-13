@@ -122,6 +122,206 @@ class ShopperController extends Controller
     	return view('customer.shopper.cart')->with(['orders'=>$orders, 'cartCount' => $cartCount]);
     }
 
+    public function editOrder(Request $request)
+    {
+        $custid = Auth::id();
+        $cartCount = ShopperRequest::where('custid', Auth::id())->where('status', 'pending')->count();
+        $order = ShopperRequest::where('custid', $custid)->where('id', $request->reqid)->where('status', 'pending')->first();
+        return view('customer.shopper.editorder')->with(['cartCount' => $cartCount, 'order' => $order]);
+    }
+
+    public function updateOrder(Request $request)
+    {
+        $this->validate($request, [
+            'type' => 'required',
+            'qty' => 'required|integer|min:1',
+            'url' => 'required|url',
+            'item_name' => 'required|max:250',
+            'price' => 'required|numeric',
+            'unavail' => 'required',
+        ]);
+
+        $custid = Auth::id();
+        $checReq = ShopperRequest::where('custid', $custid)->where('id', $request->reqid)->first();
+        if (!empty($checReq)) {
+            $url = $request->url;
+            $domain = parse_url($url, PHP_URL_HOST);
+            if (preg_match('/(?P<domain>[a-z0-9][a-z0-9\-]{1,63}\.[a-z\.]{2,6})$/i', $domain, $regs)){
+                $newHost =  $regs['domain'];
+            }
+            $checkOrder = ShopperOrder::where('seller', $newHost)
+                                        ->where('custid', $custid)
+                                        ->where('status', 'pending')
+                                        ->first();
+
+            $oldurl = $checReq->url;
+            $olddomain = parse_url($oldurl, PHP_URL_HOST);
+            if (preg_match('/(?P<domain>[a-z0-9][a-z0-9\-]{1,63}\.[a-z\.]{2,6})$/i', $olddomain, $regs)){
+                $oldHost =  $regs['domain'];
+            }
+            $oldOrder = ShopperOrder::where('seller', $oldHost)
+                                        ->where('custid', $custid)
+                                        ->where('status', 'pending')
+                                        ->first();
+
+
+            if ($newHost == $oldHost) {
+                if (!empty($checkOrder)) {
+
+                    $orderid = $checkOrder->id;
+                    $shopOrder= ShopperOrder::find($orderid);
+
+                    $newqty = ($checkOrder->totalqty - $checReq->qty) + $request->qty;
+
+                    $price  = trim(str_replace(',', '', $request->price));
+                    $newprice = $checkOrder->totalprice - $checReq->totalprice;
+                    $newprice += $request->qty * $price;
+                    
+                    $shopOrder->totalprice = $newprice;
+                    $shopOrder->totalqty = $newqty;
+
+                    $pscost = (7 / 100) * $newprice;
+                    $pscost = round($pscost);
+                    if ($pscost < 200) { $pscost = 200; }
+                    $shopOrder->pscost = $pscost;
+                    $shopOrder->subtotal = $newprice + $pscost;
+                    $shopOrder->save();
+
+                }else{
+                    return redirect(route('personal.shopper.cart'));
+                }
+            }else{
+
+                $checkQty = $oldOrder->totalqty - $checReq->qty;
+                if ($checkQty <= 0) {
+                    ShopperOrder::find($oldOrder->id)->delete();
+                }
+
+                $udpateOrder = ShopperOrder::where('seller', $newHost)
+                                        ->where('custid', $custid)
+                                        ->where('status', 'pending')
+                                        ->first();
+
+                if (!empty($udpateOrder)) {
+
+                    $orderid = $udpateOrder->id;
+                    $shopOrder= ShopperOrder::find($orderid);
+
+                    $newqty = $udpateOrder->totalqty + $request->qty;
+                    $price  = trim(str_replace(',', '', $request->price));
+                    $newprice = $udpateOrder->totalprice;
+                    $newprice += $request->qty * $price;
+                    
+                    $shopOrder->totalprice = $newprice;
+                    $shopOrder->totalqty = $newqty;
+
+                    $pscost = (7 / 100) * $newprice;
+                    $pscost = round($pscost);
+                    if ($pscost < 200) { $pscost = 200; }
+                    $shopOrder->pscost = $pscost;
+                    $shopOrder->subtotal = $newprice + $pscost;
+                    $shopOrder->save();
+
+                }else{
+
+                    $shopOrder = new ShopperOrder;
+                    $shopOrder->custid = $custid;
+                    $shopOrder->seller = $newHost;
+                    do
+                    {
+                        $refnum = "P".$custid.rand(100, 999);
+                        $order_ref = ShopperOrder::where('refnum', $refnum)->get();
+                    }
+                    while(!$order_ref->isEmpty());
+
+                    $shopOrder->refnum = $refnum;
+                    $shopOrder->totalqty = $request->qty;
+                    $price  = trim(str_replace(',', '', $request->price));
+                    $totalprice = $request->qty * $price;
+                    $shopOrder->totalprice = $totalprice;
+
+                    $pscost = (7 / 100) * $totalprice;
+                    $pscost = round($pscost);
+                    if ($pscost < 200) { $pscost = 200; }
+                    $shopOrder->pscost = $pscost;
+                    
+                    $shopOrder->subtotal = $totalprice + $pscost;
+                    $shopOrder->status = 'pending';
+                    $shopOrder->save();
+                    $orderid = $shopOrder->id;
+                }
+            }
+
+            $shopReq = ShopperRequest::find($checReq->id);
+            $shopReq->orderid = $orderid;
+            $shopReq->type = $request->type;
+            $shopReq->qty = $request->qty;
+            $shopReq->url = $request->url;
+            $shopReq->item_num = $request->item_num;
+            $shopReq->item_name = $request->item_name;
+            $shopReq->item_color = $request->item_color;
+            $shopReq->item_size = $request->item_size;
+            $shopReq->price = $price;
+            $shopReq->totalprice = $price * $request->qty;
+            $shopReq->note = $request->note;
+            $shopReq->unavail = $request->unavail;
+            $shopReq->save();
+
+            return redirect(route('personal.shopper.cart'));
+
+        }else{
+            return redirect(route('personal.shopper.form'));
+        }
+    }
+
+    public function deleteReq(Request $request){
+        $custid = Auth::id();
+        $checReq = ShopperRequest::where('custid', $custid)->where('id', $request->reqid)->first();
+        if (!empty($checReq)) {
+
+            $oldurl = $checReq->url;
+            $olddomain = parse_url($oldurl, PHP_URL_HOST);
+            if (preg_match('/(?P<domain>[a-z0-9][a-z0-9\-]{1,63}\.[a-z\.]{2,6})$/i', $olddomain, $regs)){
+                $oldHost =  $regs['domain'];
+            }
+            $order = ShopperOrder::where('seller', $oldHost)
+                                        ->where('custid', $custid)
+                                        ->where('status', 'pending')
+                                        ->first();
+
+            $newqty = $order->totalqty - $checReq->qty;
+            $newprice = $order->totalprice - $checReq->totalprice;
+            if ($newqty <= 0) {
+                ShopperOrder::find($order->id)->delete();
+                ShopperRequest::find($checReq->id)->delete();
+            }else{
+
+                $shopOrder= ShopperOrder::find($order->id);
+                $shopOrder->totalprice = $newprice;
+                $shopOrder->totalqty = $newqty;
+                $shopOrder->save();
+                ShopperRequest::find($checReq->id)->delete();
+            }
+
+            return redirect(route('personal.shopper.cart'));
+        }else{
+            return redirect(route('personal.shopper.cart'));
+        }
+    }
+
+    public function deleteOrder(Request $request){
+        $custid = Auth::id();
+        $order = ShopperOrder::where('id', $request->orderid)->where('custid', $custid)->where('status', 'pending')->first();
+        if (!empty($order)) {
+            foreach ($order->requests as $orderReq) {
+                ShopperRequest::find($orderReq->id)->delete();
+            }
+            ShopperOrder::find($order->id)->delete();
+
+            return redirect(route('personal.shopper.cart'));
+        }
+    }
+
     public function shopperOptions()
     {
     	$custid = Auth::id();

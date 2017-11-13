@@ -185,6 +185,10 @@ Route::get('/personal-shopper', 'Customer\ShopperController@personalShopper')->n
 Route::get('/personal-shopper/order', 'Customer\ShopperController@orderForm')->name('personal.shopper.form');
 Route::post('/personal-shopper/submit', 'Customer\ShopperController@submitForm')->name('personal.shopper.submit');
 Route::get('/personal-shopper/cart', 'Customer\ShopperController@shopperCart')->name('personal.shopper.cart');
+Route::get('/personal-shopper/order/edit/{reqid}', 'Customer\ShopperController@editOrder')->name('personal.shopper.edit');
+Route::post('/personal-shopper/order/udpate', 'Customer\ShopperController@updateOrder')->name('personal.shopper.update');
+Route::get('/personal-shopper/req/delete/{reqid}', 'Customer\ShopperController@deleteReq')->name('personal.shopper.deletereq');
+Route::get('/personal-shopper/order/delete/{orderid}', 'Customer\ShopperController@deleteOrder')->name('personal.shopper.deleteorder');
 Route::get('/personal-shopper/history', 'Customer\ShopperController@shopperHistory')->name('personal.shopper.history');
 Route::get('/personal-shopper/options', 'Customer\ShopperController@shopperOptions')->name('personal.shopper.options');
 Route::post('/personal-shopper/options/submit', 'Customer\ShopperController@submitOptions')->name('personal.shopper.options.submit');
