@@ -40,13 +40,7 @@ class AdminController extends Controller
 
     public function customers()
     {
-    	$customers = Customer::orderBy('created_at', 'desc')->paginate(20);
-
-        $allCustomers = Customer::all();
-        foreach ($allCustomers as $eachCustomer) {
-            $this->checkProfileSet($eachCustomer->id);
-        }
-
+    	$customers = Customer::orderBy('created_at', 'desc')->paginate(100);
     	return view('admin.customers')->with('customers', $customers);
     }
 
