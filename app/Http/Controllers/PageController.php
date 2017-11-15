@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Customer;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Input;
 
 use Auth;
 use App\Country;
@@ -47,8 +49,7 @@ class PageController extends Controller
                 $customer->email_verify = 'yes';
 
                 $id = $customer->save();
-                $this->informDiscourse($customer);
-                $this->informMailtrain($customer);
+
                 if (Auth::loginUsingId($customer->id)) {
                     return redirect()->intended(route('customer.locker'));
                 }
