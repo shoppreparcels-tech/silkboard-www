@@ -36,7 +36,6 @@ class ProfileController extends Controller
     public function viewProfile()
     {
     	$id = Auth::id();
-        $this->checkProfileSet($id);
         $customer = Customer::find($id);
 
         $ships = Package::where('customer_id', $id)->where('status', 'ship')->get();
@@ -84,37 +83,6 @@ class ProfileController extends Controller
             return redirect()->route('customer.locker');
         }else{
             return redirect()->route('customer.locker');
-        }
-    }
-
-    public function checkProfileSet($custid)
-    {
-        if (empty(CustomerContact::where('customer_id', $custid)->first())) {
-            $contact = new CustomerContact;
-            $contact->customer_id = $custid;
-            $contact->save();
-        }
-        
-        if (empty(LoyaltyPoint::where('custid', $custid)->first())) {
-            $loyalty = new LoyaltyPoint;
-            $loyalty->custid = $custid;
-            $loyalty->level = 1;
-            $loyalty->points = 0;
-            $loyalty->total = 0;
-            $loyalty->save();
-        }
-
-        if (empty(ShippingPreference::where('custid', $custid)->first())) {
-            $setting = new ShippingPreference;
-            $setting->custid = $custid;
-            $setting->save();
-        }
-
-        if (empty(ShopperBalance::where('custid', $custid)->first())) {
-            $balance = new ShopperBalance;
-            $balance->custid = $custid;
-            $balance->amount = 0;
-            $balance->save();
         }
     }
 
