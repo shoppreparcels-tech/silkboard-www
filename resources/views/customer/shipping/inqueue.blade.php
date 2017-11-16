@@ -19,7 +19,6 @@
                         <th>SENDING TO</th>
                         <th>SHIP REQUEST ID</th>
                         <th>REQUEST DATE</th>
-                        <th>TOTAL VALUE</th>
                         <th>WEIGHT</th>
                         <th>PACKAGE COUNT</th>
                         <th></th>
@@ -31,7 +30,6 @@
                             <td>{{$shipment->fullname}}</td>
                             <td>{{$shipment->orderid}}</td>
                             <td>{{date('d M Y', strtotime($shipment->created_at))}}</td>
-                            <td>{{$shipment->value}}</td>
                             <td>
                               @if($shipment->shipstatus == 'inreview')
                                 In Review
