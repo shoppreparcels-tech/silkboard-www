@@ -124,9 +124,9 @@
                                 @endif
                             </div>
                             <div class="input-field col s6">
-                                @if($package->status == 'request')
+                                @if($package->status == 'processing')
                                     <select disabled="disabled">
-                                        <option>Shipment Process</option>
+                                        <option>In Shipment Process</option>
                                     </select>
                                 @else
                                     <select name="status">

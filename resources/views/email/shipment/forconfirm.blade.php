@@ -1,32 +1,45 @@
 <table width="100%" style="font-family:Arial,sans-serif;font-size:14px;">
    <tbody>
       <tr>
-        <td valign="middle">
-            <p><strong>Dear Customer,</strong></p>
-            <p>We received a package for you, however, it did not include a merchant invoice, or the invoice did not show the value of the merchandise. This information is required by customs, and we will need you to enter the value before we can ship your package.</p>
+         <td valign="middle">
+         <p><strong>Dear Customer,</strong></p>
+         <p><strong>Please see the final shipment details of the order placed.</strong></p>
+         <br>
+         @if(!empty($shipment))
+         <table border="1" style="border-collapse: collapse;font-size: 14px;width: 100%;max-width: 650px;text-align: left;">
+            <thead>
+                <tr>
+                    <th style="padding: 10px;">Shipment Order #</th>
+                    <th style="padding: 10px;">Weight(Kg)</th>
+                    <th style="padding: 10px;">Est.cost</th>
+                    <th style="padding: 10px;">Shipment status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding: 5px;">{{$shipment->orderid}}</td>
+                    <td style="padding: 5px;">{{$shipment->weight}} Kg</td>
+                    <td style="padding: 5px;">Rs. {{$shipment->estimated}}</td>
+                    <td style="padding: 5px;">Confirm your order</td>
+                </tr>
+            </tbody>    
+         </table>
+         <br>
+         @endif
+            <br>
+            <p>Sign in to your Shoppre account and view your <a href="{{route('shipping.queue')}}" target="_blank">Queue</a> and confirm your order at the earliest</p>
 
-            <p>You can find the value of your purchases on the invoice or order confirmation you received from the merchant. To enter your merchandise values: </p>
-            <ol>
-                <li>Visit your <a href="{{route('customer.locker')}}">Action Required</a> tab</li>
-                <li>Select <strong>Provide Item Values</strong></li>
-                <li>Enter the price you paid for the item(s) in the field provided</li>
-            </ol>
-            <p>Please note, <strong>you will not be able to select this package for shipping until you have entered the purchase value.</strong></p>
+            Best regards, 
             <br>
-            <p>Thank you for trusting Shoppre with your purchases from India. Please forward your invoice or attach your invoice for this order when you contact us.</p>
-            <br>
-            <p>Best regards, 
-            <br>Your Team at Shoppre</p>
-            <br>
-            <p><strong>Share the love:</strong> <a target="_blank" href="{{route('customer.reffer.view')}}">Invite friends</a> to shop from India with Shoppre.</p>
-            <p><strong>Shop and save:</strong> Know where to find your favorite products by <a target="_blank" href="{{route('stores')}}">browsing through the category</a> list we have.</p>
-            <p>
+            Your Team at Shoppre
+            <br><br>
             Note:This is a system alert message. Please do not reply to this email
-            </p>
+            <br>
             <p>
             <a href="tel:+91 80 4049 4077">+91 80 4049 4077</a> | <a href="mailto:support@shoppre.com">support@shoppre.com</a> | <a href="https://www.google.co.in/maps/place/Shoppre.com+-+Your+Global+Shipping+Partner/@12.925805,77.6332563,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae146191401f95:0x1cf2770c1532d7d1!8m2!3d12.9257998!4d77.635445"> #181, 1st Floor, 2nd Cross Rd, 1st Block Koramangala, Bengaluru, Karnataka 560034</a>
             </p>
-        </td>
+         </p>
+         </td>
       </tr>
       <tr>
         <td valign="top">

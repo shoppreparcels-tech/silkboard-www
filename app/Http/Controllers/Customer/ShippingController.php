@@ -27,6 +27,8 @@ use App\PromoCode;
 use App\ShipTracking;
 
 use App\Mail\ShipmentRequested;
+use App\Mail\ShipmentConfirmed;
+use App\Mail\ShipmentDispatched;
 
 class ShippingController extends Controller
 {
@@ -335,7 +337,7 @@ class ShippingController extends Controller
             Package::whereIn('id', $packids)->update(['status' => 'processing']);
 
             $customer = Customer::find($custid);
-            Mail::to($customer->email)->send(new ShipmentRequested($packages, $address));
+            Mail::to($customer->email)->bcc('support@shoppre.com')->send(new ShipmentRequested($packages, $address));
 
             $request->session()->put(['shipid'=>$shipment->id]);
 
@@ -515,6 +517,10 @@ class ShippingController extends Controller
             }
 
             $request->session()->put(['shipid' => $shipment->id]);
+
+            $customer = Customer::find($custid);
+            Mail::to($customer->email)->bcc('support@shoppre.com')->send(new ShipmentConfirmed());
+
             return redirect()->route('shipping.request.response');
         }
     }

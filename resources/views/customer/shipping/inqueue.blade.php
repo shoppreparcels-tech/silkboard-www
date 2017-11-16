@@ -55,7 +55,7 @@
 
                                     if(ceil($hours) <= 1){
                                       echo '<a href="'.route('shipping.request.cancel', [$shipment->orderid]).'">Cancel</a>';
-                                      echo ' <a href="javascript::void(0)" class="tooltipkey" title="You can cancel your ship request with in 1 hour. Once The Shoppre Team has begun to prepare your shipment, and it can no longer be canceled online."><i class="fa fa-question-circle-o"></i></a>';
+                                      echo ' <a href="javascript::void(0)" class="tooltipkey" title="We offer a one-hour window to cancel your shipping order. Once the shipping process is initiated, you won\'t be able to cancel your order."><i class="fa fa-question-circle-o"></i></a>';
                                     }
 
                                   break;

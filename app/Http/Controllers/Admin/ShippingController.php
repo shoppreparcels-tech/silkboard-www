@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Mail;
 
 use App\Country;
 use App\ShippingRate;
@@ -12,6 +13,11 @@ use App\Customer;
 use App\Package;
 use App\LoyaltyPoint;
 use App\ShipTracking;
+
+use App\Mail\ShipmentForConfirm;
+use App\Mail\ShipmentReceived;
+use App\Mail\ShipmentDispatched;
+use App\Mail\ShipmentDelivered;
 
 class ShippingController extends Controller
 {
@@ -245,6 +251,7 @@ class ShippingController extends Controller
             break;
             case 'delivered':
                 $shipRqst->shipstatus = 'delivered';
+                Package::whereIn('id', $packids)->update(['status' => 'delivered']);
             break;
             case 'canceled':
                 $shipRqst->shipstatus = 'canceled';
@@ -315,13 +322,25 @@ class ShippingController extends Controller
             'condition' => 'required'
         ]);
 
-        $shipment = ShipRequest::find($request->packid);
+        $shipment = ShipRequest::find($request->shipid);
         if (!empty($shipment)) {
             $customer = Customer::find($shipment->custid);
             switch ($request->condition) {
+                case 'confirmation':
+                    Mail::to($customer->email)->send(new ShipmentForConfirm($shipment));
+                    return redirect()->back()->with('message', 'Confirmation mail send to customer.');
+                break;
+                case 'received':
+                    Mail::to($customer->email)->send(new ShipmentReceived());
+                    return redirect()->back()->with('message', 'Payment notification send to customer.');
+                break;
                 case 'dispatched':
-                    Mail::to($customer->email)->send(new PackageArrived($customer, $shipment));
-                    return redirect()->back()->with('message', 'Package arrival notification send to customer.');
+                    Mail::to($customer->email)->send(new ShipmentDispatched($shipment));
+                    return redirect()->back()->with('message', 'Shipment dispatched notification send to customer.');
+                break;
+                case 'delivered':
+                    Mail::to($customer->email)->send(new ShipmentDelivered($shipment));
+                    return redirect()->back()->with('message', 'Shipment delivered notification send to customer.');
                 break;
             }
         }else{

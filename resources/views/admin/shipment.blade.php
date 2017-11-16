@@ -153,9 +153,11 @@
                                 <p><strong>Loyalty Points : </strong>{{$customer->loyalty->points}}</p>
 
                                 <div class="col s12">
-                                    <form method="post" action="#">
+                                    <form method="post" action="{{route('admin.shipping.mail')}}">
                                     {{csrf_field()}}
                                     <select name="condition">
+                                        <option value="confirmation">Shipment Confirmation</option>
+                                        <option value="received">Payment Received</option>
                                         <option value="dispatched">Shipment Dispatched</option>
                                         <option value="delivered">Shipment Delivered</option>
                                     </select>
