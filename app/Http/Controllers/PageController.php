@@ -24,6 +24,41 @@ class PageController extends Controller
 {
     public function home()
     {
+        $email = Input::get("email");
+         if (isset($email)) {
+            $user = Customer::where('email', '=', $email)->first();
+ 
+             if (empty($user)) {
+                $customer = new Customer;
+                 $name = Input::get("name");
+                 if ($name) {
+                     $customer->name = $name;
+                 }
+ 
+                 $customer->email = $email;
+                 $customer->password = bcrypt($email);
+ 
+                 do {
+                     $code = 'SHPR' . rand(10, 99) . "-" . rand(100, 999);
+                     $user_code = Customer::where('locker', $code)->get();
+                 } while (!$user_code->isEmpty());
+ 
+                 $customer->locker = $code;
+                 $customer->email_verify = 'yes';
+ 
+                  $id = $customer->save();
+                 $this->informDiscourse($customer);
+                 $this->informMailtrain($customer);
+                 if (Auth::loginUsingId($customer->id)) {
+                     return redirect()->intended(route('customer.locker'));
+                 }
+             }
+ 
+             if (Auth::loginUsingId($user->id)) {
+                 return redirect()->intended(route('customer.locker'));
+            }
+             exit;
+         }
        
         $reviews = Review::orderBy('updated_at', 'desc')
                             ->where('approve', '1')
