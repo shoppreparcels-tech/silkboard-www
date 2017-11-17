@@ -98,7 +98,7 @@
       @endif
 
       @if(url()->current() == route('customer.reffer.view'))
-        <li class="active"><a href="{{route('customer.reffer.view')}}">Reffer a Friend</a></li>
+        <li class="active"><a href="{{route('customer.reffer.view')}}">Refer a Friend</a></li>
       @else
         <li><a href="{{route('customer.reffer.view')}}">Reffer a Friend</a></li>
       @endif

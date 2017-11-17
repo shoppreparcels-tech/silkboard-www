@@ -140,7 +140,15 @@ class ShippingController extends Controller
 
     public function shipments()
     {
-        $shipments = ShipRequest::orderBy('updated_at', 'desc')->get();
+        $query = ShipRequest::query();
+        if (isset($request->search) && !empty($request->search)) {
+            $keyword = $request->search;
+            $query->orWhere('fullname', 'like', '%'.$keyword.'%')
+                    ->orWhere('orderid', 'like', '%'.$keyword.'%')
+                    ->orWhere('shipstatus', 'like', '%'.$keyword.'%');
+        }
+
+        $shipments = $query->orderBy('updated_at', 'desc')->paginate(100);
         return view('admin.shipments')->with('shipments', $shipments);
     }
 

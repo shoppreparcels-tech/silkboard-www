@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', ' - Reffer A Friend')
+@section('title', ' - Refer A Friend')
 
 @section('content')
 
@@ -8,7 +8,7 @@
 
 	<section class="dash_reffer">
       <div class="container">
-        <h2>Reffer A Friend</h2>
+        <h2>Refer A Friend</h2>
         <div class="content">
           <img src="{{asset('img/refferafriend.jpg')}}" width="100%">
           <div class="reffer_form">

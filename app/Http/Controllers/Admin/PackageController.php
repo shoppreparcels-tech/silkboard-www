@@ -36,8 +36,7 @@ class PackageController extends Controller
             $query->orWhere('order_id', 'like', '%'.$keyword.'%')
                                 ->orWhere('seller', 'like', '%'.$keyword.'%')
                                 ->orWhere('refference', 'like', '%'.$keyword.'%')
-                                ->orWhere('locker', 'like', '%'.$keyword.'%')
-                                ->get();
+                                ->orWhere('locker', 'like', '%'.$keyword.'%');
         }
 
         $packages = $query->orderBy('updated_at', 'desc')->paginate(20);

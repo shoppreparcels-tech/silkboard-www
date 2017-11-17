@@ -173,7 +173,7 @@ Route::get('/shipment/invoice/{orderid}', 'Customer\ShippingController@shipmentI
 Route::get('/shipping/request/cancel/{orderid}', 'Customer\ShippingController@cancelRequest')->name('shipping.request.cancel');
 
 /*-------- Reffer A Friend --------*/
-Route::get('/reffer-a-friend', 'Customer\ProfileController@refferAfriend')->name('customer.reffer.view');
+Route::get('/refer-a-friend', 'Customer\ProfileController@refferAfriend')->name('customer.reffer.view');
 Route::post('/reffer-submit', 'Customer\ProfileController@refferSubmit')->name('customer.reffer.submit');
 
 /*-------- Loyalty Points ---------*/

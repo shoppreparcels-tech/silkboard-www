@@ -35,7 +35,7 @@
                             </form>
                         </div>
 
-                        {{ $packages->links() }}
+                        {{ $packages->appends(Request::except('page'))->links() }}
 
                         <div class="projects scroll">
                             <div class="projects-table">

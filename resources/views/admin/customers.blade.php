@@ -5,7 +5,7 @@
     <div class="content-area">
         <div class="breadcrumb-bar">
             <div class="page-title">
-                <h1>Customer Profiles ({{$customers->count()}})</h1>
+                <h1>Customer Profiles</h1>
                 <span>Add, Edit and Remove Users</span>
             </div>
         </div><!-- Breadcrumb Bar -->
@@ -20,8 +20,23 @@
                                     {{ session('error') }}
                                 </div>
                             @endif
+
+                            <div class="col s12">
+                                <form method="get" action="{{route('admin.customers')}}">
+                                    {{csrf_field()}}
+                                    <div class="input-field col s10">
+                                        <input type="text" name="search" class="validate" value="{{Request::get('search')}}">
+                                        <label class="">Search Profiles</label>
+                                    </div>
+                                    <div class="input-field col s2">
+                                        <button type="submit" class="btn btn-large waves-effect waves-light green lighten-2">Search</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                            {{ $customers->appends(Request::except('page'))->links() }}
+
                             <div class="projects scroll">
-                                {{ $customers->links() }}
                                 <div class="projects-table">
                                   <table class="table">
                                     <thead>

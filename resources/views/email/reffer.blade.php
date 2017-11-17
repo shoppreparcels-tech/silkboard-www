@@ -5,9 +5,9 @@
          <p>Hello,</p>
          <p>Greetings from Shoppre!</p>
          <br>
-         <p>{{$customer}} reffered you to shoppre.com</p>
+         <p>{{$customer}} referred you to shoppre.com</p>
          <blockquote style="font-size: 18px;font-style: italic;">{{$friendmsg}}</blockquote>
-         <p>Find Refferal Code Below</p>
+         <p>Find Referral Code Below</p>
          <h2>{{$code}}</h2>
          <br>
          <p>

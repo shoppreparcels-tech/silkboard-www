@@ -104,7 +104,7 @@
             <div class="dash-rightside">
               <div style="position: relative;" id="shipcost">
                   <div class="dash-sidecost">
-                    <p>Shopper Wallet <a href="javascript::void(0)" class="tooltipkey" title="Shoppre can add or deduct cash from your account depending on the situation. If the amount is positive, it means that you own this much money, and this amount will be deducted from the final charges. If the amount is negative, it means that this amount will be added to the final charges."><i class="fa fa-question-circle-o"></i></a> 
+                    <p>Shoppre Wallet <a href="javascript::void(0)" class="tooltipkey" title="Shoppre can add or deduct cash from your account depending on the situation. If the amount is positive, it means that you own this much money, and this amount will be deducted from the final charges. If the amount is negative, it means that this amount will be added to the final charges."><i class="fa fa-question-circle-o"></i></a> 
                       <span class="pull-right">
                       <i class="fa fa-rupee"></i> 
                       <span>{{number_format($customer->balance->amount, 2, ".", "")}}</span>
@@ -123,7 +123,7 @@
                     <div class="checkbox">
                       <label>
                         <input type="checkbox" name="sticker" value="1">
-                        <span class="label">Fragile stikers <a href="javascript::void(0)" class="tooltipkey" title="Quality packaging is key when it comes to preventing damage. You can click on this option if you need a ‘FRAGILE’ sticker on the packaging of your vulnerable shipments. We may prompt you via email if we feel that your items are fragile. Fragile stickers will be applied to boxes on every shipment at a cost of INR 100 per shipment."><i class="fa fa-question-circle-o"></i></a></span>
+                        <span class="label">Fragile stickers <a href="javascript::void(0)" class="tooltipkey" title="Quality packaging is key when it comes to preventing damage. You can click on this option if you need a ‘FRAGILE’ sticker on the packaging of your vulnerable shipments. We may prompt you via email if we feel that your items are fragile. Fragile stickers will be applied to boxes on every shipment at a cost of INR 100 per shipment."><i class="fa fa-question-circle-o"></i></a></span>
                       </label>
                     </div>
                     <div class="checkbox">
@@ -157,7 +157,7 @@
                     <div class="checkbox">
                       <label>
                         <input type="checkbox" name="invoice_personal">
-                        <span class="label">Mart items for personal use only</span>
+                        <span class="label">Mark items for personal use only</span>
                       </label>
                     </div>
                     <div class="checkbox">

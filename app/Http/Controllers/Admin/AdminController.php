@@ -38,9 +38,18 @@ class AdminController extends Controller
         return redirect()->route('admin.login');
     }
 
-    public function customers()
+    public function customers(Request $request)
     {
-    	$customers = Customer::orderBy('created_at', 'desc')->paginate(100);
+        $query = Customer::query();
+        if (isset($request->search) && !empty($request->search)) {
+            $keyword = $request->search;
+            $query->orWhere('name', 'like', '%'.$keyword.'%')
+                                ->orWhere('email', 'like', '%'.$keyword.'%')
+                                ->orWhere('phone', 'like', '%'.$keyword.'%')
+                                ->orWhere('locker', 'like', '%'.$keyword.'%');
+        }
+
+    	$customers = $query->orderBy('created_at', 'desc')->paginate(100);
     	return view('admin.customers')->with('customers', $customers);
     }
 
