@@ -1,11 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Customer;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
-
+use Illuminate\Support\Facades\Input;
 use Auth;
 use App\Country;
 use App\ShippingRate;
