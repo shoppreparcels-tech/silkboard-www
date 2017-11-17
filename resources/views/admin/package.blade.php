@@ -1,6 +1,5 @@
 @extends('admin.layout')
 
-
 @section('css_style')
 <style type="text/css">
     .btn-floating i{

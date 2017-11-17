@@ -90,6 +90,9 @@ Route::prefix('admin')->group(function(){
 
 	/*---- Packages ----------*/
 	Route::get('/packages', 'Admin\PackageController@packages')->name('admin.packages');
+	Route::get('/packages/inreview', 'Admin\PackageController@packagesInreview')->name('admin.packages.inreview');
+	Route::get('/packages/customer-action', 'Admin\PackageController@packagesInAction')->name('admin.packages.inaction');
+	Route::get('/packages/ready-to-ship', 'Admin\PackageController@packagesReady')->name('admin.packages.ready');
 	Route::get('/package/add', 'Admin\PackageController@addPackage')->name('admin.package.add');
 	Route::post('/package/submit', 'Admin\PackageController@submitPackage')->name('admin.package.submit');
 	Route::get('/package/id/{id}', 'Admin\PackageController@editPackage')->name('admin.package.edit');

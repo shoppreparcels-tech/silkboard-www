@@ -28,10 +28,39 @@ class PackageController extends Controller
         $this->middleware('auth:admin');
     }
     
-    public function packages()
+    public function packages(Request $request)
     {
-        $packages = Package::with('items')->orderBy('updated_at', 'desc')->get();
-    	return view('admin.packages')->with('packages', $packages);
+        $query = Package::query();
+        if (isset($request->search) && !empty($request->search)) {
+            $keyword = $request->search;
+            $query->orWhere('order_id', 'like', '%'.$keyword.'%')
+                                ->orWhere('seller', 'like', '%'.$keyword.'%')
+                                ->orWhere('refference', 'like', '%'.$keyword.'%')
+                                ->orWhere('locker', 'like', '%'.$keyword.'%')
+                                ->get();
+        }
+
+        $packages = $query->orderBy('updated_at', 'desc')->paginate(20);
+
+    	return view('admin.package.all')->with('packages', $packages);
+    }
+
+    public function packagesInreview()
+    {
+        $packages = Package::where('status', 'review')->orderBy('updated_at', 'desc')->paginate(20);
+        return view('admin.package.inreview')->with('packages', $packages);
+    }
+
+    public function packagesInAction()
+    {
+        $packages = Package::whereIn('status', ['values', 'invoice'])->orderBy('updated_at', 'desc')->paginate(20);
+        return view('admin.package.inaction')->with('packages', $packages);
+    }
+
+    public function packagesReady()
+    {
+        $packages = Package::where('status', 'ship')->orderBy('updated_at', 'desc')->paginate(20);
+        return view('admin.package.ready')->with('packages', $packages);
     }
 
     public function addPackage()

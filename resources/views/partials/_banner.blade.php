@@ -47,7 +47,7 @@
             <p>Address Line 2: 2nd Cross Rd, 7th Main, Koramangala 1st Block,</p>
             <p>City: Bengaluru </p>
             <p>PIN Code: 560034 </p>
-            <p>State/Provice: Karnataka</p>
+            <p>State/Province: Karnataka</p>
             <p>Country:  India</p>
             <p>Phone: +91 914 835 77 33 </p>
             <p>Landmark:  Near to Seema English Nursery School</p>

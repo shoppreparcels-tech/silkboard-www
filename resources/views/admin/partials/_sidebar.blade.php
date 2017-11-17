@@ -23,7 +23,10 @@
           <li><a class="waves-effect" href="#"><i class="ti-archive pink darken-4"></i> Packages</a>
             <ul>
               <li><a href="{{route('admin.package.add')}}">Add Package</a></li>
-              <li><a href="{{route('admin.packages')}}">View Packages</a></li>
+              <li><a href="{{route('admin.packages.inreview')}}">In Review</a></li>
+              <li><a href="{{route('admin.packages.inaction')}}">Action Required</a></li>
+              <li><a href="{{route('admin.packages.ready')}}">Ready to Ship</a></li>
+              <li><a href="{{route('admin.packages')}}">All Packages</a></li>
             </ul>
           </li>
           <li><a class="waves-effect" href="#"><i class="ti-shopping-cart-full blue darken-3"></i> Shipments</a>
