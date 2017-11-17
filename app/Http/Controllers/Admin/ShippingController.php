@@ -138,7 +138,7 @@ class ShippingController extends Controller
         return redirect()->back()->with('message', 'Shipping Rates Updated.');
     }
 
-    public function shipments()
+    public function shipments(Request $request)
     {
         $query = ShipRequest::query();
         if (isset($request->search) && !empty($request->search)) {
