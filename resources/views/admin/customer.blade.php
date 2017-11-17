@@ -107,6 +107,8 @@
                         <div class="input-field col s12">
                             <input type="hidden" name="id" value="{{$customer->id}}">
                             <button type="submit" class="btn waves-effect waves-light green darken-2">Update</button>
+                            
+                            <a href="{{route('admin.customer.access', [$customer->id])}}" class="btn waves-effect waves-light amber darken-4" target="_blank">Access Customer Account</a>
                         </div>
                     </form>
                     </div>

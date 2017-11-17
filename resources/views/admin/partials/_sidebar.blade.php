@@ -14,7 +14,12 @@
         <h6>Menu</h6>
         <ul>
           <li><a class="waves-effect" href="{{route('admin.dashboard')}}"><i class="ti-home red lighten-1"></i> Dashboard</a></li>
-          <li><a class="waves-effect" href="{{route('admin.customers')}}"><i class="ti-user green lighten-1"></i> Customers</a></li>
+          <li><a class="waves-effect" href="#"><i class="ti-user green lighten-1"></i>Customers</a>
+            <ul>
+              <li><a href="{{route('admin.customer.add')}}">Add Customer</a></li>
+              <li><a href="{{route('admin.customers')}}">Customer Profiles</a></li>
+            </ul>
+          </li>
           <li><a class="waves-effect" href="#"><i class="ti-archive pink darken-4"></i> Packages</a>
             <ul>
               <li><a href="{{route('admin.package.add')}}">Add Package</a></li>

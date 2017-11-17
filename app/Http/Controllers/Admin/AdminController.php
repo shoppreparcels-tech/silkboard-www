@@ -44,6 +44,63 @@ class AdminController extends Controller
     	return view('admin.customers')->with('customers', $customers);
     }
 
+    public function addCustomer()
+    {
+        $countries = Country::all();
+        return view('admin.customer_add')->with(['countries'=>$countries]);
+    }
+
+    public function submitCustomer(Request $request)
+    {
+        $rules = array(
+            'name' => 'required|max:250',
+            'email' => 'required|email|max:250|unique:customers',
+        );
+
+        $this->validate($request, $rules);
+
+        $password = 'shoppre@570';
+
+        $customer = new Customer;
+        $customer->name = $request->name;
+        $customer->email = $request->email;
+        $customer->phone = $request->phone;
+        $customer->password = bcrypt($password);
+
+        do
+        {
+            $code = 'SHPR'.rand(10, 99)."-".rand(100, 999);
+            $user_code = Customer::where('locker', $code)->get();
+        }
+        while(!$user_code->isEmpty());
+        $customer->locker = $code;
+
+        $customer->email_verify = ($request->email_verify == '1') ? 'yes' : 'no';
+        $customer->save();
+
+        $contact = new CustomerContact;
+        $contact->customer_id = $customer->id;
+        $contact->save();
+
+        $loyalty = new LoyaltyPoint;
+        $loyalty->custid = $customer->id;
+        $loyalty->level = 1;
+        $loyalty->points = 0;
+        $loyalty->total = 0;
+        $loyalty->save();
+
+        $setting = new ShippingPreference;
+        $setting->custid = $customer->id;
+        $setting->save();
+
+        $balance = new ShopperBalance;
+        $balance->custid = $customer->id;
+        $balance->amount = 0;
+        $balance->save();
+
+        return redirect()->route('admin.customer.edit', [$customer->id]);
+    }
+
     public function editCustomer(Request $request)
     {
     	$customer = Customer::find($request->id);
@@ -179,5 +236,16 @@ class AdminController extends Controller
     {
         $orders = IncomingOrder::orderBy('created_at', 'desc')->get();
         return view('admin.incoming')->with('orders', $orders);
+    }
+
+    public function accessAccount(Request $request)
+    {
+        $customer = Customer::find($request->id);
+        if (!empty($customer)) {
+            $check = Auth::guard('customer')->loginUsingId($customer->id);
+            return redirect()->route('customer.locker');
+        }else{
+            return redirect()->route('admin.dashboard');
+        }
     }
 }

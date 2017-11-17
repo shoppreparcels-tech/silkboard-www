@@ -111,11 +111,14 @@ Route::prefix('admin')->group(function(){
 
 	/*---- Customers ---------*/
 	Route::get('/customers', 'Admin\AdminController@customers')->name('admin.customers');
+	Route::get('/customer/add', 'Admin\AdminController@addCustomer')->name('admin.customer.add');
+	Route::post('/customer/submit', 'Admin\AdminController@submitCustomer')->name('admin.customer.submit');
 	Route::get('/customer/{id}', 'Admin\AdminController@editCustomer')->name('admin.customer.edit');
 	Route::post('/customer/update', 'Admin\AdminController@updateCustomer')->name('admin.customer.update');
 	Route::post('/customer/loyalty/misc', 'Admin\AdminController@submitMisc')->name('admin.customer.misc');
 	Route::get('/customer/loyalty/misc/remove/{miscid}', 'Admin\AdminController@removeMisc')->name('admin.customer.misc.remove');
 	Route::get('/customer/delete/{id}', 'Admin\AdminController@deleteCustomer')->name('admin.customer.delete');
+	Route::get('/customer/acccess/{id}', 'Admin\AdminController@accessAccount')->name('admin.customer.access');
 
 	/*---- Admin Login -------*/
 	Route::post('/login', 'Admin\LoginController@login')->name('admin.login.submit');

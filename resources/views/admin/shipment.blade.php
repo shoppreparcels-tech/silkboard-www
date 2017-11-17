@@ -153,6 +153,10 @@
                                 <p><strong>Loyalty Points : </strong>{{$customer->loyalty->points}}</p>
 
                                 <div class="col s12">
+                                    <a href="{{route('admin.customer.access', [$customer->id])}}" class="btn waves-effect waves-light amber darken-4" target="_blank">Access Customer Account</a>
+                                </div>
+
+                                <div class="col s12">
                                     <form method="post" action="{{route('admin.shipping.mail')}}">
                                     {{csrf_field()}}
                                     <select name="condition">

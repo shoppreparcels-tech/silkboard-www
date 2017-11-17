@@ -128,6 +128,10 @@
                                     <select disabled="disabled">
                                         <option>In Shipment Process</option>
                                     </select>
+                                @elseif($package->status == 'delivered')
+                                    <select disabled="disabled">
+                                        <option>Delivered</option>
+                                    </select>
                                 @else
                                     <select name="status">
                                         <option {{$package->status === 'values' ? "selected" : ""}} value="values">Customer Action</option>
@@ -166,6 +170,10 @@
                                 
                                 <p><strong>Shoppre Wallet : </strong>{{number_format($customer->balance->amount, 2, ".", "")}}</p>
                                 <p><strong>Loyalty Points : </strong>{{$customer->loyalty->points}}</p>
+
+                                <div class="col s12">
+                                    <a href="{{route('admin.customer.access', [$customer->id])}}" class="btn waves-effect waves-light amber darken-4" target="_blank">Access Customer Account</a>
+                                </div>
 
                                 <div class="col s12">
                                     <form method="post" action="{{route('admin.package.mail')}}">
