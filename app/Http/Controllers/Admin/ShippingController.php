@@ -148,7 +148,7 @@ class ShippingController extends Controller
                     ->orWhere('shipstatus', 'like', '%'.$keyword.'%');
         }
 
-        $shipments = $query->orderBy('updated_at', 'desc')->paginate(100);
+        $shipments = $query->orderBy('updated_at', 'desc')->paginate(20);
         return view('admin.shipments')->with('shipments', $shipments);
     }
 
