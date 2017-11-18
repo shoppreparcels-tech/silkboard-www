@@ -136,7 +136,7 @@ class PackageController extends Controller
     {
       $package_id = $request->id;
       $result = Package::destroy($package_id);
-        return redirect(route('admin.packages'))->with('message', 'Success! New package added to list.');
+        return redirect(route('admin.packages'))->with('error', 'Success! Package deleted successfully.');
     }
 
     public function editPackage(Request $request)
@@ -149,7 +149,8 @@ class PackageController extends Controller
         $invoice = PackageInvoice::where('packid', $package->id)->orderBy('updated_at', 'desc')->first();
 
         $customer = Customer::where('locker', $package->locker)->first();
-        return view('admin.package')->with(['package'=>$package, 'customer'=>$customer, 'items'=>$items, 'invoice'=>$invoice]);
+        return view('admin.package')->with(['package'=>$package, 'customer'=>$customer,
+            'items'=>$items, 'invoice'=>$invoice]);
     }
 
     public function updatePackage(Request $request)
