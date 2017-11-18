@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\softDeletes;
 class Package extends Model
 {
     use SoftDeletes;
+    protected $softDelete = true;
 
     protected $dates = ['deleted_at'];
 
@@ -26,5 +27,4 @@ class Package extends Model
    	public function charges(){
     	return $this->hasOne('App\PackageCharge','packid');
    	}
-
 }
