@@ -112,17 +112,6 @@ class PackageController extends Controller
         if ($request->type == 'doc') {
             $charges->doc = 100.00;
         }
-        if ($request->liquid == '1') {
-            if ($weight < 5) {
-                $charges->liquid = 1000.00;
-            }
-            if ($weight >= 5 && $weight <= 10) {
-                $charges->liquid = 1500.00;
-            }
-            if ($weight > 10) {
-                $charges->liquid = 2500.00;
-            }
-        }
         $charges->save();
 
         if ($request->sellerfeat == '1') {

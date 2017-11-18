@@ -23,7 +23,12 @@
                     <strong>{{$ship->seller}}</strong><br>
                     {{$ship->refference}}
                 </td>
-                <td>{{$ship->order_id}}</td>
+                <td>
+                    {{$ship->order_id}}
+                    @if($ship->liquid == "1")
+                        <span class="spcl_tag">Special Item</span>
+                    @endif
+                </td>
                 <td>
                     @php
                         $expire = strtotime($ship->received.' + 20 days');

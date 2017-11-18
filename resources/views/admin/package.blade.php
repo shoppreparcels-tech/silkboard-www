@@ -426,28 +426,21 @@
                                         <span class="error">{{ $errors->first('pickup') }}</span>
                                     @endif
                                 </div>
-                                <div class="input-field col s4">
+                                <div class="input-field col s2">
                                     <input type="text" class="validate" name="doc" value="{{$charges->doc}}">
                                     <label class="active">Receive Mail</label>
                                     @if ($errors->has('doc'))
                                         <span class="error">{{ $errors->first('doc') }}</span>
                                     @endif
                                 </div>
-                                <div class="input-field col s4">
-                                    <input type="text" class="validate" name="liquid" value="{{$charges->liquid}}">
-                                    <label class="active">Liquid/Semi-Liquid Clearance</label>
-                                    @if ($errors->has('liquid'))
-                                        <span class="error">{{ $errors->first('liquid') }}</span>
-                                    @endif
-                                </div>
-                                <div class="input-field col s4">
+                                <div class="input-field col s3">
                                     <input type="text" class="validate" name="basic_photo" value="{{$charges->basic_photo}}">
                                     <label class="active">Basic Photos</label>
                                     @if ($errors->has('basic_photo'))
                                         <span class="error">{{ $errors->first('basic_photo') }}</span>
                                     @endif
                                 </div>
-                                <div class="input-field col s4">
+                                <div class="input-field col s3">
                                     <input type="text" class="validate" name="advnc_photo" value="{{$charges->advnc_photo}}">
                                     <label class="active">Advanced Photos</label>
                                     @if ($errors->has('advnc_photo'))

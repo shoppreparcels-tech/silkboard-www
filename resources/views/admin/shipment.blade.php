@@ -310,7 +310,7 @@
                                             @endphp
                                           </td>
                                           <td>Repack items</td>
-                                          <td>{{$option->repack_amt}}</td>
+                                          <td>{{number_format($option->repack_amt, 2, ".", "")}}</td>
                                       </tr>
                                       <tr>
                                           <td class="text-center">
@@ -320,7 +320,7 @@
                                             @endphp
                                           </td>
                                           <td>Fragile stikers</td>
-                                          <td>{{$option->sticker_amt}}</td>
+                                          <td>{{number_format($option->sticker_amt, 2, ".", "")}}</td>
                                       </tr>
                                       <tr>
                                           <td class="text-center">
@@ -330,7 +330,7 @@
                                             @endphp
                                           </td>
                                           <td>Add extra packing material</td>
-                                          <td>{{$option->extrapack_amt}}</td>
+                                          <td>{{number_format($option->extrapack_amt, 2, ".", "")}}</td>
                                       </tr>
                                       <tr>
                                           <td class="text-center">
@@ -340,7 +340,8 @@
                                             @endphp
                                           </td>
                                           <td>Ship original boxes</td>
-                                          <td>{{$option->original_amt}}</td>
+                                          <td>
+                                          {{number_format($option->original_amt, 2, ".", "")}}</td>
                                       </tr>
                                       <tr>
                                           <td class="text-center">
@@ -351,7 +352,55 @@
                                           </td>
                                           <td>Package consolidation</td>
                                           <td>
-                                            {{$option->consolid_amt}}
+                                            {{number_format($option->consolid_amt, 2, ".", "")}}
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="text-center">
+                                            @php
+                                              $marking  = ($option->giftwrap == 1) ? '<i class="ti-check"></i>' : '<i class="ti-close"></i>';
+                                              echo $marking;
+                                            @endphp
+                                          </td>
+                                          <td>Gift Wrap</td>
+                                          <td>
+                                            {{number_format($option->giftwrap_amt, 2, ".", "")}}
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="text-center">
+                                            @php
+                                              $marking  = ($option->giftnote == 1) ? '<i class="ti-check"></i>' : '<i class="ti-close"></i>';
+                                              echo $marking;
+                                            @endphp
+                                          </td>
+                                          <td>Gift Note</td>
+                                          <td>
+                                            {{number_format($option->giftnote_amt, 2, ".", "")}}
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="text-center">
+                                            @php
+                                              $marking  = ($option->insurance == 1) ? '<i class="ti-check"></i>' : '<i class="ti-close"></i>';
+                                              echo $marking;
+                                            @endphp
+                                          </td>
+                                          <td>Insurance</td>
+                                          <td>
+                                            {{number_format($option->insurance_amt, 2, ".", "")}}
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="text-center">
+                                            @php
+                                              $marking  = ($option->liquid == 1) ? '<i class="ti-check"></i>' : '<i class="ti-close"></i>';
+                                              echo $marking;
+                                            @endphp
+                                          </td>
+                                          <td>Liquid</td>
+                                          <td>
+                                            {{number_format($option->liquid_amt, 2, ".", "")}}
                                           </td>
                                       </tr>
                                   </table>

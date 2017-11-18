@@ -242,16 +242,16 @@
                         <li>Receive Mail <a href="javascript::void(0)" class="tooltipkey" title="Shoppre charges an additional amount of INR 100 for receiving a package which is considered as a document (2 kg and below). Shipping charges of Documents slightly vary from that of Non-documents."><i class="fa fa-question-circle-o"></i></a> <span class="pull-right">0.00
                         @endif
 
-                        @if($charges['liquid'] > 0)
-                        <li class="active">Liquid Clearance Charge <span class="pull-right">{{number_format($charges['liquid'], 2, ".", "")}}</span></li>
-                        @else
-                        <li>Liquid Clearance Charge <span class="pull-right">0.00</span></li>
-                        @endif
-
                         @if($charges['address'] > 0)
                         <li class="active">Address Correction <a href="javascript::void(0)" class="tooltipkey" title="Please take extra care to make sure that you have entered the correct address while making an International Shipment. The courier will charge an additional fee (between INR 3000 to INR 7000) to your Shoppre account if you update your address after the shipment has left our facility. Many couriers charge this fee after delivery, so you may see it charged to your account post-shipment. "><i class="fa fa-question-circle-o"></i></a> <span class="pull-right">{{number_format($charges['address'], 2, ".", "")}}</span></li>
                         @else
                         <li>Address Correction <a href="javascript::void(0)" class="tooltipkey" title="Please take extra care to make sure that you have entered the correct address while making an International Shipment. The courier will charge an additional fee (between INR 3000 to INR 7000) to your Shoppre account if you update your address after the shipment has left our facility. Many couriers charge this fee after delivery, so you may see it charged to your account post-shipment. "><i class="fa fa-question-circle-o"></i></a> <span class="pull-right">0.00</span></li>
+                        @endif
+
+                        @if($options['liquid'] == '1')
+                        <li class="active">Clearance Charge <span class="pull-right">To Be Calculated</span></li>
+                        @else
+                        <li>Clearance Charge <span class="pull-right">0.00</span></li>
                         @endif
 
                         <li class="active"><h4>Total Package Level Charges <span class="pull-right">{{number_format(array_sum($charges), 2, ".", "")}}</span></h4></li>
@@ -263,6 +263,7 @@
                       <h3 class="title">Shipping Charges</h3>
                       <p class="text-center"><strong>To be estimated after we pack your items</strong></p>
                       {{csrf_field()}}
+                      <input type="hidden" name="liquid" value="{{$options['liquid']}}">
                       <input type="hidden" name="invoice_taxid" value="{{$options['invoice_taxid']}}">
                       <input type="hidden" name="invoice_personal" value="{{$options['invoice_personal']}}">
                       <input type="hidden" name="invoice_include" value="{{$options['invoice_include']}}">
@@ -315,6 +316,7 @@
         var giftwrap =  $("input[name='giftwrap']").is(':checked') ? 1 : 0;
         var giftnote =  $("input[name='giftnote']").is(':checked') ? 1 : 0;
 
+        var liquid = $("input[name='liquid']").val();
         var invoice_taxid = $("input[name='invoice_taxid']").val();
         var invoice_personal =  $("input[name='invoice_personal']").val();
         var invoice_include =  $("input[name='invoice_include']").val();
@@ -330,6 +332,7 @@
           original: original,
           giftwrap: giftwrap,
           giftnote: giftnote,
+          liquid: liquid,
           invoice_taxid: invoice_taxid,
           invoice_personal: invoice_personal,
           invoice_include: invoice_include,
@@ -353,6 +356,7 @@
       var giftwrap =  $("input[name='giftwrap']").is(':checked') ? 1 : 0;
       var giftnote =  $("input[name='giftnote']").is(':checked') ? 1 : 0;
 
+      var liquid = $("input[name='liquid']").val();
       var invoice_taxid = $("input[name='invoice_taxid']").val();
       var invoice_personal =  $("input[name='invoice_personal']").val();
       var invoice_include =  $("input[name='invoice_include']").val();
@@ -368,6 +372,7 @@
         original: original,
         giftwrap: giftwrap,
         giftnote: giftnote,
+        liquid: liquid,
         invoice_taxid: invoice_taxid,
         invoice_personal: invoice_personal,
         invoice_include: invoice_include,
@@ -398,6 +403,7 @@
         var giftwrap =  $("input[name='giftwrap']").is(':checked') ? 1 : 0;
         var giftnote =  $("input[name='giftnote']").is(':checked') ? 1 : 0;
 
+        var liquid = $("input[name='liquid']").val();
         var invoice_taxid = $("input[name='invoice_taxid']").val();
         var invoice_personal =  $("input[name='invoice_personal']").val();
         var invoice_include =  $("input[name='invoice_include']").val();
@@ -413,6 +419,7 @@
           original: original,
           giftwrap: giftwrap,
           giftnote: giftnote,
+          liquid: liquid,
           invoice_taxid: invoice_taxid,
           invoice_personal: invoice_personal,
           invoice_include: invoice_include,

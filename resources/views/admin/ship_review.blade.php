@@ -5,7 +5,7 @@
     <div class="content-area">
         <div class="breadcrumb-bar">
             <div class="page-title">
-                <h1>Shipment Requests - Options</h1>
+                <h1>Shipment Requests - In Review</h1>
                 <span>View Shipments Under Review</span>
             </div>
         </div>
@@ -36,31 +36,6 @@
                                 <tbody>
                                     @foreach ($shipments as $shipment)
                                         <tr>
-                                            <!-- @php
-                                              $option = $shipment->option;
-                                              $OptsReq = array();
-                                              $OptsCost = 0;
-                                              if($option->repack == 1){
-                                                $OptsReq[] = "Repack Items";
-                                                $OptsCost += $option->repack_amt;
-                                              }
-                                              if($option->sticker == 1){
-                                                $OptsReq[] = "Fragile Stickers";
-                                                $OptsCost += $option->sticker_amt;
-                                              }
-                                              if($option->extrapack == 1){
-                                                $OptsReq[] = "Add extra packing material";
-                                                $OptsCost += $option->extrapack_amt;
-                                              }
-                                              if($option->original == 1){
-                                                $OptsReq[] = "Ship original boxes";
-                                                $OptsCost += $option->original_amt;
-                                              }
-                                              if($option->consolid == 1){
-                                                $OptsReq[] = "Package consolidation";
-                                                $OptsCost += $option->consolid_amt;
-                                              }
-                                            @endphp -->
                                             <td>{{$shipment->orderid}}</td>
                                             <td>{{$shipment->fullname}}</td>
                                             <td>{{$shipment->address}}</td>
