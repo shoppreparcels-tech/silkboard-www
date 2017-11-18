@@ -128,6 +128,15 @@ class ShippingController extends Controller
         $packids = $request->packids;
         $packages = Package::where('customer_id', $custid)->where('status', 'ship')->whereIn('id', $packids)->get();
         if (!$packages->isEmpty()) {
+            foreach ($packages as $pack) {
+                $checkLiquid[$pack->id] = ($pack->liquid == "1") ? "1" : "0";
+            }
+
+            if (count(array_intersect(array('1', '0'), $checkLiquid)) == 2) {
+                return redirect()->back()->with('error', 'Packages containing special items must be chosen and shipped separately');
+            }else{
+                $liquid = (in_array("1", $checkLiquid)) ? "1" : "0";
+            }
 
             $options = array(
                 "repack" => $request->repack,
@@ -136,6 +145,7 @@ class ShippingController extends Controller
                 "original" => $request->original,
                 "giftwrap" => $request->giftwrap,
                 "giftnote" => $request->giftnote,
+                "liquid" => $liquid,
                 "invoice_taxid" => $request->invoice_taxid,
                 "invoice_personal" => $request->invoice_personal,
                 "invoice_include" => $request->invoice_include
@@ -175,7 +185,7 @@ class ShippingController extends Controller
                     $consolid_amt = count($packids) * 100.00;
                 }
 
-                $charges = array('storage' => 0, 'photo' => 0, 'pickup' => 0, 'handling' => 0, 'doc' => 0, 'liquid' => 0, 'address' => 0, 'consolid' => $consolid_amt, 'optsamt' => 0);
+                $charges = array('storage' => 0, 'photo' => 0, 'pickup' => 0, 'handling' => 0, 'doc' => 0, 'address' => 0, 'consolid' => $consolid_amt, 'optsamt' => 0);
 
                 $weight = 0;
                 foreach ($packages as $pack) {
@@ -186,7 +196,6 @@ class ShippingController extends Controller
                     $charges['pickup'] += $charge->pickup;
                     $charges['handling'] += $charge->handling;
                     $charges['doc'] += $charge->doc;
-                    $charges['liquid'] += $charge->liquid;
                     $charges['address'] = $charge->address;
                 }
                 
@@ -295,6 +304,7 @@ class ShippingController extends Controller
             $shipOption->original = $request->original;
             $shipOption->giftwrap = $request->giftwrap;
             $shipOption->giftnote = $request->giftnote;
+            $shipOption->liquid = $request->liquid;
             
             $shipOption->repack_amt = ($request->repack == 1) ? 100.00 : 0 ;
             $shipOption->sticker_amt = ($request->sticker == 1) ? 100.00 : 0 ;
@@ -323,15 +333,30 @@ class ShippingController extends Controller
                 }
             }
 
+            if ($request->liquid == '1') {
+                if ($shipping['weight'] < 5) {
+                    $shipOption->liquid_amt = 1000.00;
+                }
+                if ($shipping['weight'] >= 5 && $shipping['weight'] <= 10) {
+                    $shipOption->liquid_amt = 1500.00;
+                }
+                if ($shipping['weight'] > 10) {
+                    $shipOption->liquid_amt = 2500.00;
+                }
+            }
+
             $shipOption->profoma_taxid = $request->invoice_taxid;
             $shipOption->profoma_personal = $request->invoice_personal;
             $shipOption->invoice_include = $request->invoice_include;
             $shipOption->save();
 
             $optsamt = $shipOption->repack_amt + $shipOption->sticker_amt + $shipOption->extrapack_amt + $shipOption->original_amt + $shipOption->giftwrap_amt + $shipOption->giftnote_amt;
+            $packlevel += $optsamt;
+            $packlevel += $shipOption->liquid_amt;
+            
             
             $updateShip = ShipRequest::find($shipment->id);
-            $updateShip->packlevel += $optsamt;
+            $updateShip->packlevel = $packlevel;
             $updateShip->save();
 
             Package::whereIn('id', $packids)->update(['status' => 'processing']);

@@ -1906,6 +1906,15 @@ section.register{
     border: 0;
 }
 /*------- Dashboard --------*/
+span.spcl_tag{
+    display: inline-block;
+    text-align: center;
+    font-size: 11px;
+    border: 1px solid #f2d162;
+    margin-left: 5px;
+    color: #b72c0b;
+    padding: 5px
+}
 .dash-pic.unverify{
     display: block;
     text-align: center;

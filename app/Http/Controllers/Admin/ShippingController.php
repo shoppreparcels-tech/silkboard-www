@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Mail;
 use App\Country;
 use App\ShippingRate;
 use App\ShipRequest;
+use App\ShipOption;
 use App\Customer;
 use App\Package;
 use App\LoyaltyPoint;
@@ -206,7 +207,27 @@ class ShippingController extends Controller
         $shipRqst->address = $request->address;
         $shipRqst->phone = $request->phone;
         $shipRqst->weight = $request->weight;
-        $shipRqst->packlevel = $request->packlevel;
+
+        $packlevel = $request->packlevel;
+        $shipOption = ShipOption::find($shipRqst->option->id);
+
+        if ($shipOption->liquid == '1') {
+            $packlevel -= $shipOption->liquid_amt;
+
+            if ($request->weight < 5) {
+                $shipOption->liquid_amt = 1000.00;
+            }
+            if ($request->weight >= 5 && $request->weight <= 10) {
+                $shipOption->liquid_amt = 1500.00;
+            }
+            if ($request->weight > 10) {
+                $shipOption->liquid_amt = 2500.00;
+            }
+        }
+        $shipOption->save();
+
+        $packlevel += $shipOption->liquid_amt;
+        $shipRqst->packlevel = $packlevel;
 
         $packids = explode(",", $shipRqst->packids);
         $types = Package::whereIn('id', $packids)->pluck('type')->toArray();
