@@ -26,4 +26,5 @@ class Package extends Model
    	public function charges(){
     	return $this->hasOne('App\PackageCharge','packid');
    	}
+
 }
