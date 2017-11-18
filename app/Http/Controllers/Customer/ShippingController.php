@@ -351,8 +351,7 @@ class ShippingController extends Controller
             $shipOption->save();
 
             $optsamt = $shipOption->repack_amt + $shipOption->sticker_amt + $shipOption->extrapack_amt + $shipOption->original_amt + $shipOption->giftwrap_amt + $shipOption->giftnote_amt;
-            $packlevel = 0;
-            $packlevel += $optsamt;
+            $packlevel = $optsamt;
             $packlevel += $shipOption->liquid_amt;
             
             
