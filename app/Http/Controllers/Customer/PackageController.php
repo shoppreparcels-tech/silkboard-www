@@ -143,6 +143,7 @@ class PackageController extends Controller
     	foreach ($request->qty as $key => $value) {
             $items[$key]['qty'] = $value;
         }
+
         foreach ($items as $key => $item) {
             $total = $item['price'] * $item['qty'];
             PackageItem::where('id', $key)
