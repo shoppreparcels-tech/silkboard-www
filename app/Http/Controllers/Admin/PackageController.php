@@ -143,6 +143,13 @@ class PackageController extends Controller
     	return redirect(route('admin.packages'))->with('message', 'Success! New package added to list.');
     }
 
+    public function deletePackage(Request $request)
+    {
+      $package_id = $request->id;
+      $result = Package::destroy($package_id);
+        return redirect(route('admin.packages'))->with('message', 'Success! New package added to list.');
+    }
+
     public function editPackage(Request $request)
     {
         $package = Package::find($request->id);

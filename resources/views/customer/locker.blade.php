@@ -187,12 +187,9 @@
             </div>
           </div>
         </div>
-
       </div>
     </section>
-
     @endif
-
 @endsection
 
 @section('js_script')

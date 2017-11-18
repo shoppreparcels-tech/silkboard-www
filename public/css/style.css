@@ -506,6 +506,9 @@ section.services{
 .red{
     color: #ed1c24;
 }
+.color_text{
+    color: #fff;
+}
 .services .service-content{
     margin-top: 15px;
 }
