@@ -106,7 +106,7 @@
                   </ul>
                   <p>Savings Tip: <br>
                   - Let us know which packages to consolidate to ensure you get the biggest savings on shipping costs.<br>
-                  - Request extra packaging material, fragile stickers and a variety of other <a href="#">packing options</a>.</p>
+                  - Request extra packaging material, fragile stickers and a variety of other <a href="{{route('customer.ship.prefer')}}">packing options</a>.</p>
               </div>
               <div class="item_img" style="top: 23%;">
                 <img src="{{asset('img/how5.png')}}">
