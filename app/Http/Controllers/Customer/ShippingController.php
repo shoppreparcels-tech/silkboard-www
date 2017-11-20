@@ -188,7 +188,7 @@ class ShippingController extends Controller
 
                 $consolid_amt = 0;
                 if(count($packids) > 1){
-                    $consolid_amt = count($packids) * 100.00;
+                    $consolid_amt = (count($packids)-1) * 100.00;
                 }
 
                 $charges = array('storage' => 0, 'photo' => 0, 'pickup' => 0, 'handling' => 0, 'doc' => 0, 'address' => 0, 'consolid' => $consolid_amt, 'optsamt' => 0);
@@ -317,7 +317,7 @@ class ShippingController extends Controller
 
             if(count($packids) > 1){
                 $shipOption->consolid = '1';
-                $shipOption->consolid_amt = count($packids) * 100.00;
+                $shipOption->consolid_amt = (count($packids)-1) * 100.00;
             }
 
             $shipOption->giftwrap_amt = ($request->giftwrap == 1) ? 100.00 : 0 ;
