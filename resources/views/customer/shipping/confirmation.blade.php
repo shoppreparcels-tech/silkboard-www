@@ -148,7 +148,6 @@
                         <p>Gift wrap <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->giftwrap_amt, 2, ".", "")}}</span></p>
                         <p>Gift note <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->giftnote_amt, 2, ".", "")}}</span></p>
                         <p>Package consolidation <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->consolid_amt, 2, ".", "")}}</span></p>
-                        <p>Insurance <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->insurance_amt, 2, ".", "")}}</span></p>
                         <p>Clearance Charge <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->liquid_amt, 2, ".", "")}}</span></p>
                     </div>
                   @endif
