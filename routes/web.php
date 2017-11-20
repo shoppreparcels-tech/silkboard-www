@@ -95,12 +95,10 @@ Route::prefix('admin')->group(function(){
 	Route::get('/packages/ready-to-ship', 'Admin\PackageController@packagesReady')->name('admin.packages.ready');
 	Route::get('/package/add', 'Admin\PackageController@addPackage')->name('admin.package.add');
 	Route::post('/package/submit', 'Admin\PackageController@submitPackage')->name('admin.package.submit');
+	Route::get('/package/delete/{id}', 'Admin\PackageController@deletePackage')->name('admin.package.delete');
 	Route::get('/package/id/{id}', 'Admin\PackageController@editPackage')->name('admin.package.edit');
-	Route::get('/package/id/{id}/delete', 'Admin\PackageController@deletePackage')->name('admin.package.delete');
 	Route::post('/package/update', 'Admin\PackageController@updatePackage')->name('admin.package.update');
 	Route::post('/package/mailer', 'Admin\PackageController@mailerPackage')->name('admin.package.mail');
-
-
 
 	/*----- Pack Items -----*/
 	Route::post('/add-item', 'Admin\PackageController@submitItem')->name('admin.item.submit');
@@ -139,13 +137,6 @@ Route::prefix('admin')->group(function(){
 Route::post('/package-invoice', 'Customer\PackageController@invoicePackage')->name('customer.invoice.upload');
 Route::post('/confirm-package', 'Customer\PackageController@valueConfirm')->name('customer.values.confirm');
 Route::post('/package/value/change', 'Customer\PackageController@changeValues')->name('customer.values.change');
-
-/*---- Packages ----------*/
-
-Route::get('/customers/package/add', 'Customer\PackageController@addPackage')->name('customer.package.add');
-Route::post('/customers/package/submit', 'Customer\PackageController@submitPackage')->name('customer.package.submit');
-Route::get('/customers/package/id/{id}', 'Customer\PackageController@editPackage')->name('customer.package.edit');
-Route::post('/customers/package/update', 'Customer\PackageController@updatePackage')->name('customer.package.update');
 
 /*-------- Photo Request ------*/
 Route::post('/photos/standard/request', 'Customer\PackageController@requestStdPhotos')->name('customer.photos.standard.request');
@@ -194,6 +185,7 @@ Route::get('/favorite-stores', 'Customer\StoreController@favStores')->name('cust
 Route::post('/store/favorite/add', 'Customer\StoreController@addFavorite');
 Route::post('/store/favorite/remove', 'Customer\StoreController@removeFavorite');
 Route::post('/store/favorite/sort', 'Customer\StoreController@sortFavorite');
+
 
 /*--------- Personal Shopper ---------*/
 Route::get('/personal-shopper', 'Customer\ShopperController@personalShopper')->name('personal.shopper');

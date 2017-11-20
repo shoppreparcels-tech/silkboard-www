@@ -7,7 +7,9 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
 
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\File;
 use Auth;
+
 
 use App\Package;
 use App\Customer;
@@ -134,9 +136,25 @@ class PackageController extends Controller
 
     public function deletePackage(Request $request)
     {
-      $package_id = $request->id;
-      $result = Package::destroy($package_id);
-        return redirect(route('admin.packages'))->with('error', 'Success! Package deleted successfully.');
+      $packid = $request->id;
+      $package = Package::where('id', $packid)->whereIn('status', ['ship', 'review'])->first();
+      if (!empty($package)) {
+
+        PackageCharge::where('packid', $package->id)->delete();
+        PackageInvoice::where('packid', $package->id)->delete();
+        PackageItem::where('packid', $package->id)->delete();
+        PackagePhoto::where('packid', $package->id)->delete();
+        PhotoRequest::where('packid', $package->id)->delete();
+
+        File::deleteDirectory(public_path().'/uploads/packages/standard/'.$package->id);
+        File::deleteDirectory(public_path().'/uploads/packages/advanced/'.$package->id);
+
+        Package::destroy($package->id);
+        return redirect()->back()->with('error', 'Package deleted successfully.');
+
+      }else{
+        return redirect()->route('admin.packages');
+      }
     }
 
     public function editPackage(Request $request)
@@ -149,8 +167,7 @@ class PackageController extends Controller
         $invoice = PackageInvoice::where('packid', $package->id)->orderBy('updated_at', 'desc')->first();
 
         $customer = Customer::where('locker', $package->locker)->first();
-        return view('admin.package')->with(['package'=>$package, 'customer'=>$customer,
-            'items'=>$items, 'invoice'=>$invoice]);
+        return view('admin.package')->with(['package'=>$package, 'customer'=>$customer, 'items'=>$items, 'invoice'=>$invoice]);
     }
 
     public function updatePackage(Request $request)

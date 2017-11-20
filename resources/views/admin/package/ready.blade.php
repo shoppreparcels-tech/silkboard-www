@@ -49,6 +49,7 @@
                                         <th>Date Received</th>
                                         <th>Status</th>
                                         <th></th>
+                                        <th></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -99,7 +100,8 @@
                                                     }
                                                 @endphp
                                             </td>
-                                            <td><a href="{{route('admin.package.edit', [$package->id])}}"><i class="ti-settings"></i></a></td>
+                                            <td><a href="{{route('admin.package.edit', [$package->id])}}" class="green-text"><i class="ti-angle-double-right"></i></a></td>
+                                            <td><a href="{{route('admin.package.delete', [$package->id])}}" class="red-text text-darken-4"><i class="ti-trash"></i></a></td>
                                         </tr>
                                         <tr id="slidedown_{{$package->id}}" style="display:none">
                                             <td colspan="7">

@@ -19,121 +19,6 @@ class PackageController extends Controller
     {
         $this->middleware('auth:customer');
     }
-
-    public function addPackage()
-    {
-        return view('customer.package-add');
-    }
-
-    public function submitPackage(Request $request)
-    {
-        $this->validate($request, [
-            'seller' => 'required',
-            'refference' => 'required',
-            'locker' => 'required',
-            'type' => 'required',
-            'price' => 'required',
-            'weight' => 'required',
-            'received' => 'required|date'
-        ]);
-
-        $package = new Package;
-        $customer = Customer::where('locker', $request->locker)->first();
-        $package->customer_id = $customer->id;
-
-        do
-        {
-            $order_id = 'PCKG-'.rand(100, 999).$customer->id.rand(1000, 9999);
-            $checkOrder = Package::where('order_id', $order_id)->get();
-        }
-        while(!$checkOrder->isEmpty());
-        $package->order_id = $order_id;
-
-        $package->seller = $request->seller;
-        $package->refference = $request->refference;
-        $package->locker = $request->locker;
-        $package->type = $request->type;
-        $package->weight = $request->weight;
-        $package->price = $request->price;
-        $package->received = date('Y-m-d', strtotime($request->received));
-        $package->liquid = $request->liquid;
-        $package->sellerfeat = $request->sellerfeat;
-
-        $package->status = 'ship';
-        $package->review = 'Review package values, items, charges and photos';
-        $package->save();
-
-        $weight = $package->weight;
-
-        $charges = new PackageCharge;
-        $charges->packid = $package->id;
-        if ($request->type == 'doc') {
-            $charges->doc = 100.00;
-        }
-        if ($request->liquid == '1') {
-            if ($weight < 5) {
-                $charges->liquid = 1000.00;
-            }
-            if ($weight >= 5 && $weight <= 10) {
-                $charges->liquid = 1500.00;
-            }
-            if ($weight > 10) {
-                $charges->liquid = 2500.00;
-            }
-        }
-        $charges->save();
-
-        if ($request->sellerfeat == '1') {
-            $points = 100;
-            $loyalid = LoyaltyPoint::where('custid', $customer->id)->first()->id;
-            $loyalty = LoyaltyPoint::find($loyalid);
-            $loyalty->points += $points;
-            $loyalty->total += $points;
-
-            $level = $loyalty->level;
-            if ($loyalty->total > 1000) {
-                $level = (int)($loyalty->total / 1000) + 1;
-            }
-
-            $loyalty->level = $level;
-            $loyalty->save();
-        }
-
-        $id = Auth::id();
-        $customer = Customer::find($id);
-
-        $ships = Package::where('customer_id', $id)->where('status', 'ship')->get();
-        $reviews = Package::where('customer_id', $id)->where('status', 'review')->get();
-        $confirms = Package::with('items')->where('customer_id', $id)
-            ->whereIn('status', ['invoice', 'values'])
-            ->get();
-        $packages = Package::where('customer_id', $id)
-            ->whereIn('status', ['ship','review','invoice','values'])
-            ->get();
-
-        $shipQueue = ShipRequest::where('custid', $id)->whereIn('shipstatus', ['inqueue', 'inreview', 'confirmation'])->get();
-        $shipConfirm = ShipRequest::where('custid', $id)->where('shipstatus', 'confirmation')->get();
-
-        foreach ($ships as $ship) {
-            $expireDays = 0;
-            $expire = strtotime($ship->received.' + 20 days');
-            if(time() > $expire){
-                $expireDays = floor((time() - $expire) / (60 * 60 * 24)) + 1;
-                $storageCost = $expireDays * 100;
-                PackageCharge::where('packid', $ship->id)->update([ 'storage' => $storageCost ]);
-            }
-        }
-
-        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
-        $address = Address::where('cust_id', $id)->where('default', 'yes')->first();
-
-        $survey = RegisterSurvey::where('custid', $id)->first();
-
-        return view('customer.locker')->with(['customer'=>$customer, 'ships'=>$ships,
-            'reviews'=>$reviews, 'confirms'=>$confirms, 'packages'=>$packages, 'shipQueue'=>$shipQueue,
-            'countries'=>$countries, 'address'=>$address, 'survey'=>$survey, 'shipConfirm'=>$shipConfirm]);
-
-    }
     
     public function valueConfirm(Request $request)
     {
@@ -143,7 +28,6 @@ class PackageController extends Controller
     	foreach ($request->qty as $key => $value) {
             $items[$key]['qty'] = $value;
         }
-
         foreach ($items as $key => $item) {
             $total = $item['price'] * $item['qty'];
             PackageItem::where('id', $key)

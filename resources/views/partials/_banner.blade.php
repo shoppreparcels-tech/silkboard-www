@@ -54,6 +54,7 @@
           </div>
         </div>
         @endif
+
       </div>
     </div>
 </section>
@@ -65,12 +66,6 @@
       @else
         <li><a href="{{route('customer.locker')}}">My Locker</a></li>
       @endif
-
-      {{--@if(url()->current() == route('customer.package.add'))--}}
-      {{--<li class="active"><a href="{{route('customer.package.add')}}">Add Package</a></li>--}}
-      {{--@else--}}
-          {{--<li><a href="{{route('customer.package.add')}}">Add Package</a></li>--}}
-      {{--@endif--}}
 
       @if(url()->current() == route('customer.settings'))
         <li class="active"><a href="{{route('customer.settings')}}">Account Settings</a></li>

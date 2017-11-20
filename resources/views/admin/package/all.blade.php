@@ -100,15 +100,11 @@
                                                     }
                                                 @endphp
                                             </td>
+                                            <td><a href="{{route('admin.package.edit', [$package->id])}}" class="green-text"><i class="ti-angle-double-right"></i></a></td>
                                             <td>
-                                                <a href="{{route('admin.package.edit', [$package->id])}}">
-                                                    <i class="ti-settings"></i>
-                                                </a>
-                                            </td>
-                                            <td>
-                                                <a href="{{route('admin.package.delete', [$package->id])}}">
-                                                    <i class="ti-trash"></i>
-                                                </a>
+                                                @if(in_array($package->status, ['ship', 'review']))
+                                                <a href="{{route('admin.package.delete', [$package->id])}}" class="red-text text-darken-4"><i class="ti-trash"></i></a>
+                                                @endif
                                             </td>
                                         </tr>
                                         <tr id="slidedown_{{$package->id}}" style="display:none">
@@ -141,7 +137,7 @@
                             </div>
                           </div>  
 
-                          {{ $packages->links() }}
+                          {{ $packages->appends(Request::except('page'))->links() }}
 
                         </div>
                     </div>

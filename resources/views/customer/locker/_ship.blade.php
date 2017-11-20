@@ -279,10 +279,14 @@
                                 <a href="#" class="photo_nxt" data-type="advanced" data-pack="{{$ship->id}}">Request Advanced photos for <i class="fa fa-rupee"></i> 500.00</a>
                             @endif
                         </div>
+                            
                         @endif
+                        
                         <a class="btn btn-close popup-modal-dismiss" href="#"><i class="fa fa-times"></i></a>
                         <div class="ajaxloader"></div>
                     </div>
+
+
                 </td>
             </tr>
         @endforeach

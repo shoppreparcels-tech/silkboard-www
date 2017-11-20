@@ -155,9 +155,15 @@ class ShippingController extends Controller
                 $address = Address::find($request->addressid);
                 if (empty($address)) {
                     $address = Address::where('cust_id', $custid)->where('default', 'yes')->first();
+                    if (empty($address)) {
+                        return redirect()->route('customer.address')->with('error', 'Ship request required address to proceed!');
+                    }
                 }
             }else{
                 $address = Address::where('cust_id', $custid)->where('default', 'yes')->first();
+                if (empty($address)) {
+                    return redirect()->route('customer.address')->with('error', 'Ship request required address to proceed!');
+                }
             }
 
             $request->session()->put(['packids' => $packids, 'options' => $options, 'address' => $address]);
