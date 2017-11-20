@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title', '-'.ucwords(strtolower($page->title)))
+@section('title', $page->metatitle)
+@section('description', $page->metadesc)
+@section('keywords', $page->metakeyword)
 
 @section('content')
 

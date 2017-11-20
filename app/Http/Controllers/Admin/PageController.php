@@ -34,6 +34,9 @@ class PageController extends Controller
     	$page->title = $request->title;
     	$page->slug = $request->slug;
     	$page->content = $request->content;
+        $page->metatitle = $request->metatitle;
+        $page->metadesc = $request->metadesc;
+        $page->metakeyword = $request->metakeyword;
     	$page->save();
     	return redirect(route('admin.pages'))->with('message', 'Success! New page added.');
     }
@@ -54,6 +57,9 @@ class PageController extends Controller
     	$page->title = $request->title;
     	$page->slug = $request->slug;
     	$page->content = $request->content;
+        $page->metatitle = $request->metatitle;
+        $page->metadesc = $request->metadesc;
+        $page->metakeyword = $request->metakeyword;
     	$page->save();
     	return redirect(route('admin.pages'))->with('message', 'Success! Page has been updated.');
     }

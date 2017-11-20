@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title', '- Our Services')
+@section('title', 'Shoppre Services - Shop Online From India. Ship Worldwide')
+@section('description', 'Enjoy a fast and worry-free shipping experience with Shoppre’s industry-leading expertise, and unmatched member service. Simply Sign-up and Buy Now!')
+@section('keywords', 'fast, worry-free shipping experience, industry-leading expertise, unmatched member service, simply sign-up, buy now')
 
 @section('content')
 

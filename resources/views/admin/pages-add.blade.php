@@ -42,6 +42,27 @@
                                 @endif
                             </div>
                             <div class="input-field col s12">
+                                <textarea name="metatitle" class="materialize-textarea">{{ old('metatitle') }}</textarea>
+                                <label class="active">Meta Title</label>
+                                @if ($errors->has('metatitle'))
+                                    <span class="error">{{ $errors->first('metatitle') }}</span>
+                                @endif
+                            </div>
+                            <div class="input-field col s12">
+                                <textarea name="metadesc" class="materialize-textarea">{{ old('metadesc') }}</textarea>
+                                <label class="active">Meta Description</label>
+                                @if ($errors->has('metadesc'))
+                                    <span class="error">{{ $errors->first('metadesc') }}</span>
+                                @endif
+                            </div>
+                            <div class="input-field col s12">
+                                <textarea name="metakeyword" class="materialize-textarea">{{ old('metakeyword') }}</textarea>
+                                <label class="active">Meta Keywords</label>
+                                @if ($errors->has('metakeyword'))
+                                    <span class="error">{{ $errors->first('metakeyword') }}</span>
+                                @endif
+                            </div>
+                            <div class="input-field col s12">
                                 <button type="submit" class="btn waves-effect waves-light red lighten-2">Submit</button>
                             </div>
                         </form>   
