@@ -363,43 +363,51 @@
                 <th class="text-center">Cost</th>
               </tr>
               <tr>
-                <td>Receive your own Indian Shipping Address & Personal Locker <a href="#" class="tooltipkey" title="Receive your own Indian Shipping Address & Personal Locker"><i class="fa fa-question-circle-o"></i></a></td>
+                <td>Receive your own Indian Shipping Address & Personal Locker <a href="#" class="tooltipkey" title="Receive your own Locker space in Bengaluru as soon as you sign up with Shoppre! Use the Shipping Address given to you to shop from ANY Indian Online Store."><i class="fa fa-question-circle-o"></i></a></td>
                 <td class="cell-2">Free</td>
               </tr>
               <tr>
-                <td>Receive Parcels</td>
+                <td>Receive Parcels <a href="#" class="tooltipkey" title="All your purchases from various Indian Stores arrive to your Shoppre Address. It is absolutely free for Shoppre to login all your parcels into your locker and to your account."><i class="fa fa-question-circle-o"></i></a></td>
                 <td class="cell-2">Free</td>
               </tr>
               <tr>
-                <td>Shoppre Shipping Discount</td>
+                <td>Shoppre Shipping Discount <a href="#" class="tooltipkey" title="Shoppre’s long term partnership with trusted courier companies like DHL, FedEx, DTDC and more, gives us amazing shipping rates thanks to our bulk shipments every month. This means more savings for you as our customer! (Extra Shipping Discounts apply if you choose Shoppre as your Shipping Partner)."><i class="fa fa-question-circle-o"></i></a></td>
                 <td class="cell-2">Free</td>
               </tr>
               <tr>
-                <td>Service Tax in India</td>
+                <td>Service Tax in India <a href="#" class="tooltipkey" title="You do not have to pay any extra Sales Tax in India. Our rates are inclusive of fuel surcharge and tax in India. However, you might have to check the import rules of your country to know if you have to pay any cash amount to your carrier at the time of receving your parcel."><i class="fa fa-question-circle-o"></i></a></td>
                 <td class="cell-2">No Extra Service Tax</td>
               </tr>
               <tr>
-                <td>Package Consolidation </td>
+                <td>Package Consolidation <a href="#" class="tooltipkey" title="Shoppre’s packing experts will combine multiple packages into one, for maximum shipping cost savings. This way, you have to pay for the first half kg rate (which is the most expensive rate) only once. At times, some of your package that arrives at our facility might contain more than 1 item. While preparing your final shipment, we charge only per package, and not per item. "><i class="fa fa-question-circle-o"></i></a></td>
                 <td class="cell-2">INR 100 per extra package <span>(not per extra item)</span></td>
               </tr>
               <tr>
-                <td>Package Repacking </td>
+                <td>Package Repacking <a href="#" class="tooltipkey" title="We usually repack all the necessary items (items which arrive at our facility in big boxes) in order to reduce the dimensional weight for FREE of cost (except Shoe Boxes which you will have to choose separately to discard)."><i class="fa fa-question-circle-o"></i></a> </td>
                 <td class="cell-2">Free</td>
               </tr>
               <tr>
-                <td>Package Storage </td>
+                <td>Package Storage <a href="#" class="tooltipkey" title="Purchases are securely housed in our facility, allowing time for multiple package delivery and maximum consolidation savings. "><i class="fa fa-question-circle-o"></i></a> </td>
                 <td class="cell-2">Free upto 20 days <span>(INR 100 for every extra day)</span></td>
               </tr>
               <tr>
-                <td>Package Photo Service </td>
+                <td>Package Photo Service  <a href="#" class="tooltipkey" title="Basic Photos: We take upto 5 Basic photographs of all your items. Additional Photos: You can also request upto 10 Additional Photos (incase you want some more details or if you want to inspect if the items are not damaged).Scan Documents: We can scan your documents (2 kgs and below) for a cost of INR 40/page (minimum INR 100)."><i class="fa fa-question-circle-o"></i></a></td>
                 <td class="cell-2">INR 100 (Basic Photos)<br>INR 500 (Additional Photos)</span></td>
               </tr>
               <tr>
-                <td>Personal Shopper Service</td>
+                <td>Personal Shopper Service <a href="#" class="tooltipkey" title="Shoppre’s Personal Shopper Team will purchase the items on your behalf incase some Indian Websites does not accept International Card Payment, or requires you to register with an active Indian Mobile number. Personal Shopper orders with more than 15 items per online seller will incur an INR 50 per item cost for every item over 15. "><i class="fa fa-question-circle-o"></i></a></td>
                 <td class="cell-2"> 7% of the item value <span>(Minimum INR 200)</span></td>
               </tr>
               <tr>
-                <td>Pick-up Service</td>
+                <td>Special Package Clearance Fee <a href="#" class="tooltipkey" title="Any Package which requires Special Handling will be prompted via email to you. All liquids/ semi-liquids/ homemade food/ medicines/ ayurvedic products/ dangerous goods like nail polish,  etc. will incur a customs clearance charge.The costs might not be limited to the given cost for all cases (for eg, in cases of shipping heavy weight objects or heavy volume dangerous goods such as paints, etc.) - costs could vary, and we shall inform you via email. "><i class="fa fa-question-circle-o"></i></a></td>
+                <td class="cell-2">
+                  > 5 kg = INR 1000/Shipment <br>
+                  5 - 10 kg = INR 1500/Shipment <br>
+                  < 10 kg = INR 2500/Shipment 
+                </td>
+              </tr>
+              <tr>
+                <td>Pick-up Service <a href="#" class="tooltipkey" title="You can request Shoppre to pick-up your items from any city in India!"><i class="fa fa-question-circle-o"></i></a></td>
                 <td class="cell-2">
                   <span>From Bangalore:</span>
                   INR 40/kg, Min INR 100    
@@ -408,23 +416,23 @@
                 </td>
               </tr>
               <tr>
-                <td>Receive Mail (post)</td>
+                <td>Receive Mail (post) <a href="#" class="tooltipkey" title="Shoppre charges an additional amount of INR 100 for receiving a package which is considered as a document (2 kg and below). Shipping charges of Documents slightly vary from that of Non-documents."><i class="fa fa-question-circle-o"></i></a></td>
                 <td class="cell-2">INR 100 per document</td>
               </tr>
               <tr>
-                <td>Real-time Shipment Tracking</td>
+                <td>Real-time Shipment Tracking <a href="#" class="tooltipkey" title="You will receive carrier tracking information as soon as your package leaves the Shoppre facility."><i class="fa fa-question-circle-o"></i></a></td>
                 <td class="cell-2">Free</td>
               </tr>
               <tr>
-                <td>Package Return Services</td>
+                <td>Package Return Services <a href="#" class="tooltipkey" title="Once the item arrives at our facility, if you feel the item is not as per your expectation or is damaged, it can be exchanged/returned to the seller (as per the seller exchange/return policy). You will be responsible for all return shipping fees as well (if needed). If it has to be couriered to sender’s destination by Shoppre, charges as per domestic shipping rates will be considered."><i class="fa fa-question-circle-o"></i></a></td>
                 <td class="cell-2">INR 100</td>
               </tr>
               <tr>
-                <td>Shipping Insurance</td>
+                <td>Shoppre Shipping Guarantee <a href="#" class="tooltipkey" title="Insure your shipment upto a total value of INR 6000 for only INR 30. Check out our FAQ for more details."><i class="fa fa-question-circle-o"></i></a></td>
                 <td class="cell-2">INR 30</td>
               </tr>
               <tr>
-                <td>Shipping Preferences</td>
+                <td>Shipping Preferences <a href="#" class="tooltipkey" title="Shoppre gives you various shipping preference options to choose from!"><i class="fa fa-question-circle-o"></i></a></td>
                 <td class="cell-2"><a href="{{route('customer.ship.prefer')}}">Click here to know your options</a></td>
               </tr>
               <tr>

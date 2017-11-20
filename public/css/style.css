@@ -506,9 +506,6 @@ section.services{
 .red{
     color: #ed1c24;
 }
-.color_text{
-    color: #fff;
-}
 .services .service-content{
     margin-top: 15px;
 }
@@ -3274,7 +3271,7 @@ section.loyalty{
 }
 .pricing_plans table td.cell-2{
     text-align: center;
-    padding: 0 !important;
+    padding: 5px !important;
     width: 280px;
 }
 .pricing_plans table td.cell-2 span{
