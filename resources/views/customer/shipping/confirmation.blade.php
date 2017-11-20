@@ -110,6 +110,7 @@
                         <div class="alert-danger" style="font-size: 13px;border: 0;margin: 5px 0;">{{ session('promoerror') }}</div>
                     @endif
                   </div>
+                  
                   <div class="dash-sidecost">
                     <p>Total Value <span class="pull-right">
                       <i class="fa fa-rupee"></i> 
@@ -135,8 +136,24 @@
                     <h3>Estimated Shipping: <span class="pull-right"><i class="fa fa-rupee"></i> <span class="estimated">{{number_format($estimated, 2, ".", "")}}</span></span></h3>
                   </div>
 
+                  @if($shipment->option)
+                    @php
+                        $option = $shipment->option;
+                    @endphp
+                    <div class="dash-sidecost">
+                        <p>Discard shoe boxes <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->repack_amt, 2, ".", "")}}</span></p>
+                        <p>Fragile stikers <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->sticker_amt, 2, ".", "")}}</span></p>
+                        <p>Extra packing material <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->extrapack_amt, 2, ".", "")}}</span></p>
+                        <p>Ship in original boxes <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->original_amt, 2, ".", "")}}</span></p>
+                        <p>Gift wrap <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->giftwrap_amt, 2, ".", "")}}</span></p>
+                        <p>Gift note <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->giftnote_amt, 2, ".", "")}}</span></p>
+                        <p>Package consolidation <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->consolid_amt, 2, ".", "")}}</span></p>
+                        <p>Insurance <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->insurance_amt, 2, ".", "")}}</span></p>
+                        <p>Clearance Charge <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->liquid_amt, 2, ".", "")}}</span></p>
+                    </div>
+                  @endif
+
                   <ul>
-                    <li>Estimated Shipping Charges : <span><i class="fa fa-rupee"></i> {{number_format($estimated, 2, ".", "")}}</span></li>
                     <li>Package Level Charges : <span><i class="fa fa-rupee"></i> {{number_format($shipment->packlevel, 2, ".", "")}}</span></li>
                     <li>Estimated Tax : <span><i class="fa fa-rupee"></i> {{number_format($payment['tax'], 2, ".", "")}}</span></li>
                     <li>Coupon Discount : <span>(-) <i class="fa fa-rupee"></i> {{number_format($payment['coupon'], 2, ".", "")}}</span></li>

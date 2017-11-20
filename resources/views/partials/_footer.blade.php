@@ -27,7 +27,7 @@
         <div class="col-sm-3">
           <ul class="foot_menu">
             <li><a href="{{route('about')}}">About Shoppre</a></li>
-            <li><a href="#">Career's at shoppre.com</a></li>
+            <li><a href="#">Careers at Shoppre.com</a></li>
             <li><a href="{{route('contact')}}">Contact us</a></li>
             <li><a href="https://blog.shoppre.com/" target="_blank">Blogs</a></li>
             <li><a href="/terms-and-conditions">Terms & Conditions</a></li>

@@ -260,8 +260,7 @@ class ShippingController extends Controller
         $packages = Package::where('customer_id', $custid)->where('status', 'ship')->whereIn('id', $packids)->get();
         if (!$packages->isEmpty()) {
 
-            $toAddress = "";
-            $toAddress .= $address->line1;
+            $toAddress = $address->line1;
             if (!empty($address->line2)) {
                 $toAddress .= ", ".$address->line2;
             }

@@ -100,7 +100,7 @@
                   <h3>get notified</h3>
                   <strong>You will be notified via email as soon as your order is received at Shoppre’s facility. View, manage and ship all your packages from multiple stores on your Shoppre’s online account, 24/7.</strong>
                   <ul>
-                    <li>We check the item condition and make sureit is not damaged.</li>
+                    <li>We check the item condition and make sure it is not damaged.</li>
                     <li>We weigh and take down the box dimensions.</li>
                     <li>We Prepare any international documents needed to parcel forward the shipment.</li>
                   </ul>

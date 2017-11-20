@@ -19,7 +19,7 @@
 @section('content')
   <section class="page_head">
       <div class="pagebanner">
-        <img src="img/banner2.jpg" width="100%">
+        <img src="{{asset('img/banner2.jpg')}}" width="100%">
         <div class="banner-cap">
           <h2>Contact <span class="text-orange">Us</span></h2>
         </div>
@@ -28,27 +28,22 @@
   <section class="contact_ico">
     <div class="container">
       <div class="blox">
-        <img src="img/contact1.png">
+        <img src="{{asset('img/contact1.png')}}">
         <h4>Call</h4>
         <span><a href="tel:+91 80 4094 4077">+91 80 4094 4077</a></span>
       </div>
       <div class="blox">
-        <img src="img/contact2.png">
-        <h4>Whatsapp</h4>
-        <span><a href="https://api.whatsapp.com/send?phone=919148357733">+91 91 4835 7733</a></span>
-      </div>
-      <div class="blox">
-        <img src="img/contact3.png">
+        <img src="{{asset('img/contact3.png')}}">
         <h4>Email</h4>
         <span><a href="mailto:support@shoppre.com">support@shoppre.com</a></span>
       </div>
       <div class="blox">
-        <img src="img/contact4.png">
+        <img src="{{asset('img/contact4.png')}}">
         <h4>Live Chat</h4>
         <span><a href="https://www.facebook.com/messages/t/goshoppre">Our Team is at your service 24/7</a></span>
       </div>
       <div class="blox">
-        <img src="img/contact5.png">
+        <img src="{{asset('img/contact5.png')}}">
         <h4>Hours</h4>
         <span>Monday - Friday<br>
         9:00 AM - 5:00 PM IST<br>
