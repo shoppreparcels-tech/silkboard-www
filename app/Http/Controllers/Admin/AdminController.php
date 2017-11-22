@@ -50,6 +50,10 @@ class AdminController extends Controller
         }
 
     	$customers = $query->orderBy('created_at', 'desc')->paginate(100);
+
+        foreach ($customers as $customer) {
+            $this->checkProfileSet($customer->id);
+        }
     	return view('admin.customers')->with('customers', $customers);
     }
 

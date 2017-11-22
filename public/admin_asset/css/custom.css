@@ -22,6 +22,7 @@
     float: none;
     font-size: 13px;
     padding: 7px 16px;
+    white-space: nowrap;
 }
 .info-detail{
 	width: auto;
