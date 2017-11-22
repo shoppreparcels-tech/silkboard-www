@@ -48,6 +48,7 @@
                                         <th>Final Cost</th>
                                         <th>Status</th>
                                         <th width="50px"></th>
+                                        <th width="50px"></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -85,7 +86,8 @@
                                                 }
                                               @endphp
                                             </td>
-                                            <td><a href="{{route('admin.shipping.order', [$shipment->id])}}"><i class="ti-settings"></i></a></td>
+                                            <td><a href="{{route('admin.shipping.order', [$shipment->id])}}" class="green-text"><i class="ti-angle-double-right"></i></a></td>
+                                            <td><a href="{{route('admin.shipping.delete', [$shipment->id])}}" class="red-text"><i class="ti-trash"></i></a></td>
                                         </tr>
                                     @endforeach
                                 </tbody>    

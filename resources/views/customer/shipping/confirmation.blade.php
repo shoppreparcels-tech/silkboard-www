@@ -93,8 +93,32 @@
                   <div class="edit">
                     <div class="radio">
                       <label>
+                        @if($payment['payoption'] == 'wire')
                         <input type="radio" name="payoption" value="wire" checked>
+                        @else
+                        <input type="radio" name="payoption" value="wire">
+                        @endif
                         <span class="label">Wire transfer/money order</span>
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        @if($payment['payoption'] == 'paypal')
+                        <input type="radio" name="payoption" value="paypal" checked>
+                        @else
+                        <input type="radio" name="payoption" value="paypal">
+                        @endif
+                        <span class="label">Paypal (10% Extra Charge)</span>
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        @if($payment['payoption'] == 'paytm')
+                        <input type="radio" name="payoption" value="paytm" checked>
+                        @else
+                        <input type="radio" name="payoption" value="paytm">
+                        @endif
+                        <span class="label">Paytm (3% Extra Charge)</span>
                       </label>
                     </div>
                   </div>
@@ -203,24 +227,28 @@
         var token = $('input[name="_token"]').val();
         var insurance =  $("input[name='insurance']").is(':checked') ? 1 : 0;
         var promocode = $("input[name='promocode']").val();
+        var payoption = $("input[name='payoption']:checked").val();
 
         $.redirect("",{
           _token: token,
           insurance: insurance,
-          promocode: promocode
+          promocode: promocode,
+          payoption: payoption
         }, 'GET');
       }
     });
 
-    $("input:checkbox").change(function() {
+    $("input:checkbox, input:radio").change(function() {
       var token = $('input[name="_token"]').val();
       var insurance =  $("input[name='insurance']").is(':checked') ? 1 : 0;
       var promocode = $("input[name='promocode']").val();
+      var payoption = $("input[name='payoption']:checked").val();
 
       $.redirect("",{
         _token: token,
         insurance: insurance,
-        promocode: promocode
+        promocode: promocode,
+        payoption: payoption
       }, 'GET');
     });
 
@@ -231,7 +259,7 @@
       var token = $('input[name="_token"]').val();
       var shipid =  $("input[name='shipid']").val();
       var insurance =  $("input[name='insurance']").is(':checked') ? 1 : 0;
-      var payoption =  $("input[name='payoption']").val();
+      var payoption =  $("input[name='payoption']:checked").val();
 
       $.redirect("/shipping/request/finalship",{
         _token: token,

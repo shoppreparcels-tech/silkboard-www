@@ -145,6 +145,7 @@ class ShippingController extends Controller
                 "original" => $request->original,
                 "giftwrap" => $request->giftwrap,
                 "giftnote" => $request->giftnote,
+                "giftnote_txt" => $request->giftnote_txt,
                 "liquid" => $liquid,
                 "invoice_taxid" => $request->invoice_taxid,
                 "invoice_personal" => $request->invoice_personal,
@@ -309,6 +310,7 @@ class ShippingController extends Controller
             $shipOption->original = $request->original;
             $shipOption->giftwrap = $request->giftwrap;
             $shipOption->giftnote = $request->giftnote;
+            $shipOption->giftnote_txt = $request->giftnote_txt;
             $shipOption->liquid = $request->liquid;
             
             $shipOption->repack_amt = ($request->repack == 1) ? 100.00 : 0 ;
@@ -362,6 +364,7 @@ class ShippingController extends Controller
             
             $updateShip = ShipRequest::find($shipment->id);
             $updateShip->packlevel = $packlevel;
+            $updateShip->estimated += $packlevel;
             $updateShip->save();
 
             Package::whereIn('id', $packids)->update(['status' => 'processing']);
@@ -448,7 +451,7 @@ class ShippingController extends Controller
             $packids = explode(",", $shipment->packids);
             $packages = Package::where('customer_id', $custid)->whereIn('id', $packids)->get();
 
-            $payment = array('tax' => 0, 'coupon' => 0, 'loyalty' => 0, 'amount' => 0);
+            $payment = array('tax' => 0, 'coupon' => 0, 'loyalty' => 0, 'amount' => 0, 'payoption'=> 'wire');
             $payment['amount'] = $shipment->estimated;
 
             if ($request->insurance == '1') {
@@ -478,6 +481,24 @@ class ShippingController extends Controller
 
             $payment['loyalty'] = $rewards;
             $payment['amount'] -=  $payment['loyalty'];
+
+            switch ($request->payoption) {
+                case 'wire':
+                    $payment['payoption'] = 'wire';
+                    break;
+                case 'paypal':
+                    $payment['payoption'] = 'paypal';
+                    $payment['amount'] += (10/100) * $payment['amount'];
+                    break;
+                case 'paytm':
+                    $payment['payoption'] = 'paytm';
+                    $payment['amount'] += (3/100) * $payment['amount'];
+                    break;
+
+                default:
+                    $payment['payoption'] = 'wire';
+                    break;
+            }
 
             return view('customer.shipping.confirmation')->with([
                 'shipment'=>$shipment,
@@ -515,15 +536,26 @@ class ShippingController extends Controller
 
             switch ($request->payoption) {
                 case 'wire':
-                        $payoption = 'wire';
-                        $paystatus = 'pending';
+                    $payoption = 'wire';
+                    $paystatus = 'pending';
                     break;
-                
+                case 'paypal':
+                    $payoption = 'paypal';
+                    $paystatus = 'pending';
+                    $payment['finalamount'] += (10/100) * $payment['finalamount'];
+                    break;
+                case 'paytm':
+                    $payoption = 'paytm';
+                    $paystatus = 'pending';
+                    $payment['finalamount'] += (3/100) * $payment['finalamount'];
+                    break;
+
                 default:
-                        $payoption = '';
-                        $paystatus = "unauthorized";
+                    $payoption = 'unauthorized';
+                    $paystatus = 'unauthorized';
                     break;
             }
+
             
             $shipment->coupon = 0;
             $shipment->loyalty = $payment['loyalty'];
@@ -549,7 +581,9 @@ class ShippingController extends Controller
             $request->session()->put(['shipid' => $shipment->id]);
 
             $customer = Customer::find($custid);
-            Mail::to($customer->email)->bcc('support@shoppre.com')->send(new ShipmentConfirmed());
+            $finalShipment = ShipRequest::find($shipid);
+
+            Mail::to($customer->email)->bcc('support@shoppre.com')->send(new ShipmentConfirmed($finalShipment));
 
             return redirect()->route('shipping.request.response');
         }
@@ -558,12 +592,11 @@ class ShippingController extends Controller
     public function responseShipment(Request $request)
     {
         if ($request->session()->has('shipid') && $request->session()->exists('shipid')) {
-            $shipid = $request->session()->pull('shipid');
+            $shipid = $request->session()->get('shipid');
             $custid = Auth::id();
             $shipment = ShipRequest::find($shipid);
             if (!empty($shipment) && $shipment->custid == $custid) {
-                $options = ShipOption::where('shipid', $shipment->id)->first();
-                return view('customer.shipping.response')->with(['shipment'=>$shipment, 'options' => $options]);
+                return view('customer.shipping.response')->with(['shipment'=>$shipment]);
             }else{
                 return redirect()->route('customer.locker');
             }

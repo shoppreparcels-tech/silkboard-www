@@ -8,108 +8,35 @@
 
 @section('content')
 
-    <section class="ship_response">
+    <section class="ship_response toreview">
       <div class="container">
         <div class="row">
           <div class="col-sm-8">
             <div class="longblock">
-              <h4 class="title">Ship Request Response</h4>
+              <h4 class="title">Thank you for creating your Ship Request!</h4>
 
-              <h3 class="success">Success! You have completed your ship request</h3>
-              <p class="confirm">An email confirmation of your request has been sent to your mail address. You can view your ship request in <a href="{{route('shipping.queue')}}">Queue</a></p>
+              <h3 class="success">Hello there! :)</h3>
+              <p>We are excited to start preparing your parcel!</p>
+              <p>Kindly note that you can no longer change the selection of your packages, Shipping Options and Delivery Address.</p>
+              <p>Shoppre might take up to a maximum period of 24 Hours to pack your items, weigh your parcel and update your shipment totals.</p>
+              <p>We usually try to get back to you with your Final Shipment Charges as soon as possible, unless during peak hours or some of your parcels which are put on hold due to its special handling requirement, and hence we might take additional time to notify you and get your approval in certain cases.</p>
+                
+              <h4>You shall be notified via email when your packages are ready to be shipped from the Shoppre facility. You can now view your shipment in the <a href="{{route('shipping.queue')}}">Queue</a>.</h4>
 
-              <div class="col-sm-6">
-                <div class="splitbox">
+              <i>P.S. Cancel your shipment right now if you wish to do so, before we start processing your shipment.</i>
+
+              <p class="text-orange">Please remember that once your package is ready to be shipped and your final cost is updated, KINDLY SUBMIT YOUR PAYMENT WITHIN 7 DAYS. From the 8th day, your parcel will start accumulating Storage fees of INR 100/day which you can view in your Shoppre wallet.</p>
+
+              <div class="splitbox">
+                  <h3>Shipment Details:</h3>
+                  <p># {{$shipment->orderid}}</p>
+                  <hr>
                   <h3>Sent to:</h3>
                   <h4>{{$shipment->fullname}}</h4>
                   <p>{{$shipment->address}}</p>
                   <strong>Phone: {{$shipment->phone}}</strong>
-                </div>
               </div>
-              <div class="col-sm-6">
-                <div class="splitbox">
-                  <h3>Shipment Details:</h3>
-                  <p># {{$shipment->orderid}}</p>
-                </div>
-              </div>
-              <div class="clearfix"></div>
-
-              @if(isset($options) && !empty($options))
-                <div class="col-sm-12">
-                    <h4>Shipment Options Requested:</h4>
-                    <div class="table-responsive">
-                      <table class="table table-bordered">
-                          <tr>
-                              <th width="50px;"></th>
-                              <th>Options</th>
-                              <th>Cost</th>
-                          </tr>
-                          <tr>
-                              <td class="text-center">
-                                @php
-                                  $marking  = ($options->repack == 1) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-times"></i>';
-                                  echo $marking;
-                                @endphp
-                              </td>
-                              <td>Repack items</td>
-                              <td>{{$options->repack_amt}}</td>
-                          </tr>
-                          <tr>
-                              <td class="text-center">
-                                @php
-                                  $marking  = ($options->sticker == 1) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-times"></i>';
-                                  echo $marking;
-                                @endphp
-                              </td>
-                              <td>Fragile stikers</td>
-                              <td>{{$options->sticker_amt}}</td>
-                          </tr>
-                          <tr>
-                              <td class="text-center">
-                                @php
-                                  $marking  = ($options->extrapack == 1) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-times"></i>';
-                                  echo $marking;
-                                @endphp
-                              </td>
-                              <td>Add extra packing material</td>
-                              <td>{{$options->extrapack_amt}}</td>
-                          </tr>
-                          <tr>
-                              <td class="text-center">
-                                @php
-                                  $marking  = ($options->original == 1) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-times"></i>';
-                                  echo $marking;
-                                @endphp
-                              </td>
-                              <td>Ship original boxes</td>
-                              <td>{{$options->original_amt}}</td>
-                          </tr>
-                          <tr>
-                              <td class="text-center">
-                                @php
-                                  $marking  = ($options->consolid == 1) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-times"></i>';
-                                  echo $marking;
-                                @endphp
-                              </td>
-                              <td>Package consolidation</td>
-                              <td>
-                                {{$options->consolid_amt}}
-                              </td>
-                          </tr>
-                      </table>
-                    </div>
-                </div>
-
-              @endif
-              <div class="clearfix"></div>
-              <div class="ship_points"> 
-                <h4>What's Next</h4>
-                <ul>
-                  <li>Our shipping experts will make every effort to process your shipment within 24 hours.</li>
-                  <li>We will send you tracking information by email when shipment leaves shoppre.</li>
-                  <li>You can view shipped packages currently in transit in you history.</li>
-                </ul>
-              </div>
+              
             </div>
           </div>
           <div class="col-sm-4">

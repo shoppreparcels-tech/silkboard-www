@@ -203,6 +203,8 @@ class ShippingController extends Controller
         ]);
 
         $shipRqst = ShipRequest::find($request->shipid);
+        $packids = explode(",", $shipRqst->packids);
+
         $shipRqst->fullname = $request->fullname;
         $shipRqst->address = $request->address;
         $shipRqst->phone = $request->phone;
@@ -229,7 +231,7 @@ class ShippingController extends Controller
         $packlevel += $shipOption->liquid_amt;
         $shipRqst->packlevel = $packlevel;
 
-        $packids = explode(",", $shipRqst->packids);
+        /*
         $types = Package::whereIn('id', $packids)->pluck('type')->toArray();
         $packtype = in_array("nondoc", $types) ? 'nondoc' : 'doc';
 
@@ -238,6 +240,11 @@ class ShippingController extends Controller
         $subtotal = $this->calcShipping($country->id, $request->weight, $packtype);
         $discount = ($country->discount / 100) * $subtotal;
         $estimated = ($subtotal -  $discount) + $request->packlevel;
+        */
+
+        $subtotal = $request->subtotal;
+        $discount = $request->discount;
+        $estimated = ($subtotal -  $discount) + $packlevel;
 
         $shipRqst->subtotal = $subtotal;
         $shipRqst->discount = $discount;
@@ -376,5 +383,24 @@ class ShippingController extends Controller
             return redirect()->route('admin.shipping');
         }
         
+    }
+
+    public function deleteShipping(Request $request)
+    {
+      $shipid = $request->id;
+      $shipment = ShipRequest::find( $shipid);
+      if (!empty($shipment)) {
+        $packids = explode(",", $shipment->packids);
+        Package::whereIn('id', $packids)->update(['status' => 'ship']);
+
+        ShipOption::where('shipid', $shipment->id)->delete();
+        ShipTracking::where('shipid', $shipment->id)->delete();
+
+        ShipRequest::destroy($shipment->id);
+        return redirect()->back()->with('error', 'Shipment deleted successfully.');
+        
+      }else{
+        return redirect()->route('admin.packages');
+      }
     }
 }

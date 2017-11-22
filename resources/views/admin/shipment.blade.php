@@ -67,11 +67,11 @@
                                     <label class="active">Total Item Value</label>
                                 </div>
                                 <div class="input-field col s6">
-                                    <input type="text" class="validate" value="{{$shipment->subtotal}}" disabled>
+                                    <input type="text" class="validate" value="{{$shipment->subtotal}}" name="subtotal" required>
                                     <label class="active">Subtotal</label>
                                 </div>
                                 <div class="input-field col s6">
-                                    <input type="text" class="validate" value="{{$shipment->discount}}" disabled>
+                                    <input type="text" class="validate" value="{{$shipment->discount}}" name="discount" required>
                                     <label class="active">Country Discount</label>
                                 </div>
                                 <div class="input-field col s6">
@@ -83,7 +83,7 @@
                                     <label class="active">Estimated Charge</label>
                                 </div>
 
-                                @if($shipment->shipstatus != 'inreview' )
+                                @if($shipment->shipstatus != 'inreview' &&  $shipment->shipstatus != 'confirmation')
 
                                 <div class="input-field col s6">
                                     <input type="text" class="validate" value="{{$shipment->coupon}}" disabled>
@@ -180,6 +180,12 @@
                                 switch ($shipment->payoption) {
                                     case 'wire':
                                         $payoption = 'Wire Transfer / Money Order';
+                                    break;
+                                    case 'paypal':
+                                        $payoption = 'PAYPAL';
+                                    break;
+                                    case 'paytm':
+                                        $payoption = 'PAYTM';
                                     break;
                                     case 'pending':
                                         $payoption = 'Pending';

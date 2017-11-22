@@ -87,6 +87,7 @@ Route::prefix('admin')->group(function(){
 	Route::post('/shipping/order/update', 'Admin\ShippingController@orderUpdate')->name('admin.order.update');
 	Route::post('/shipping/mailer', 'Admin\ShippingController@mailerShipping')->name('admin.shipping.mail');
 	Route::post('/shipping/tracking/update', 'Admin\ShippingController@trackingUpdate')->name('admin.shipping.tracking');
+	Route::get('/shipping/delete/{id}', 'Admin\ShippingController@deleteShipping')->name('admin.shipping.delete');
 
 	/*---- Packages ----------*/
 	Route::get('/packages', 'Admin\PackageController@packages')->name('admin.packages');

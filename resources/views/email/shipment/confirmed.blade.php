@@ -7,6 +7,27 @@
                 <br>
                 <p>Please note that your shipment will be dispatched within 24 hours after the payment is received. While Making payment kindly put your name with locker number for Reference.</p>
 
+                <p><strong>Please see the final shipment details of the order placed.</strong></p>
+                @if(!empty($shipment))
+                <table border="1" style="border-collapse: collapse;font-size: 14px;width: 100%;max-width: 650px;text-align: left;">
+                    <thead>
+                        <tr>
+                            <th style="padding: 10px;">Shipment Order #</th>
+                            <th style="padding: 10px;">Weight(Kg)</th>
+                            <th style="padding: 10px;">Final Shipping Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 5px;">{{$shipment->orderid}}</td>
+                            <td style="padding: 5px;">{{$shipment->weight}} Kg</td>
+                            <td style="padding: 5px;">INR. {{number_format($shipment->finalamount, 2, ".", "")}}</td>
+                        </tr>
+                    </tbody>    
+                </table>
+                <br>
+                @endif
+
                 Best regards, 
                 <br>
                 Your Team at Shoppre

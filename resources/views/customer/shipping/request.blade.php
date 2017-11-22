@@ -177,6 +177,9 @@
                           <span class="label">Gift note</span>
                         </label>
                       </div>
+                      @if($options['giftnote'] == '1')
+                      <textarea class="form-control" rows="4" name="giftnote_txt" placeholder="Enter Your Gift Note Description">{{$options['giftnote_txt']}}</textarea>
+                      @endif
                     </div>
 
                     <div class="shiprightbox">
@@ -316,6 +319,7 @@
         var giftwrap =  $("input[name='giftwrap']").is(':checked') ? 1 : 0;
         var giftnote =  $("input[name='giftnote']").is(':checked') ? 1 : 0;
 
+        var giftnote_txt = $("textarea[name='giftnote_txt']").val();
         var liquid = $("input[name='liquid']").val();
         var invoice_taxid = $("input[name='invoice_taxid']").val();
         var invoice_personal =  $("input[name='invoice_personal']").val();
@@ -332,6 +336,7 @@
           original: original,
           giftwrap: giftwrap,
           giftnote: giftnote,
+          giftnote_txt: giftnote_txt,
           liquid: liquid,
           invoice_taxid: invoice_taxid,
           invoice_personal: invoice_personal,
@@ -356,6 +361,7 @@
       var giftwrap =  $("input[name='giftwrap']").is(':checked') ? 1 : 0;
       var giftnote =  $("input[name='giftnote']").is(':checked') ? 1 : 0;
 
+      var giftnote_txt = $("textarea[name='giftnote_txt']").val();
       var liquid = $("input[name='liquid']").val();
       var invoice_taxid = $("input[name='invoice_taxid']").val();
       var invoice_personal =  $("input[name='invoice_personal']").val();
@@ -372,6 +378,7 @@
         original: original,
         giftwrap: giftwrap,
         giftnote: giftnote,
+        giftnote_txt: giftnote_txt,
         liquid: liquid,
         invoice_taxid: invoice_taxid,
         invoice_personal: invoice_personal,
@@ -403,6 +410,7 @@
         var giftwrap =  $("input[name='giftwrap']").is(':checked') ? 1 : 0;
         var giftnote =  $("input[name='giftnote']").is(':checked') ? 1 : 0;
 
+        var giftnote_txt = $("textarea[name='giftnote_txt']").val();
         var liquid = $("input[name='liquid']").val();
         var invoice_taxid = $("input[name='invoice_taxid']").val();
         var invoice_personal =  $("input[name='invoice_personal']").val();
@@ -419,6 +427,7 @@
           original: original,
           giftwrap: giftwrap,
           giftnote: giftnote,
+          giftnote_txt: giftnote_txt,
           liquid: liquid,
           invoice_taxid: invoice_taxid,
           invoice_personal: invoice_personal,

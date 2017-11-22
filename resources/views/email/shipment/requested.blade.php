@@ -22,7 +22,7 @@
                     <td style="padding: 5px;">{{date("j F Y", strtotime($package->received))}}</td>
                     <td style="padding: 5px;">{{$package->seller}}</td>
                     <td style="padding: 5px;">{{$package->weight}}</td>
-                    <td style="padding: 5px;">{{$package->refference}}</td>
+                    <td style="padding: 5px;">{{$package->order_id}}</td>
                 </tr>
                 @endforeach
             </tbody>    
