@@ -36,14 +36,14 @@ return [
     ],
 
     'google' => [
-        'client_id' => '1003526071106-te950m8onqqas7ugevb4jh55adt0hneu.apps.googleusercontent.com',
-        'client_secret' => '8rHIEq3pOu3pNNyDQPlxjU5p',
+        'client_id' => '256563167024-d4dcpoa2k5a6tv5qg821abglpfq0up4a.apps.googleusercontent.com',
+        'client_secret' => 'MLy-dVmIkUYmsbKoyuX90BnF',
         'redirect' => env('APP_URL').'/social/callback/google',
     ],
 
     'facebook' => [
-        'client_id' => '1366672926789123',
-        'client_secret' => 'dd42ae107d8502a58e2b0c4e3c45f270',
+        'client_id' => '651881328327888',
+        'client_secret' => 'fb95c9b1ba41edb4320a3a59a6a1de6a',
         'redirect' => env('APP_URL').'/social/callback/facebook',
     ],
 
