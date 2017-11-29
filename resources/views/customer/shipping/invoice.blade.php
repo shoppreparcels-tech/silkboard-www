@@ -113,7 +113,7 @@
                 <td colspan="4">
                     <table>
                         <tr>
-                            <td>
+                            <td width="30%">
                                 <h3 style="margin:0 0 0px">Ship To:</h3>
                                 <strong>{{$shipment->fullname}}</strong><br>
                                 {{$shipment->address}}<br>
@@ -143,34 +143,149 @@
               <td>INR {{number_format($package->price, 2, ".", "")}}</td>
               <td>{{$package->weight}} Kg.</td>
             </tr>
+            @php
+                $charges = array('storage' => 0, 'photo' => 0, 'pickup' => 0, 'handling' => 0, 'doc' => 0, 'address' => 0);
+                $charges['storage'] += $package->charges->storage;
+                $charges['photo'] += $package->charges->basic_photo + $package->charges->advnc_photo;
+                $charges['pickup'] += $package->charges->pickup;
+                $charges['handling'] += $package->charges->handling;
+                $charges['doc'] += $package->charges->doc;
+                $charges['address'] = $package->charges->address;
+            @endphp
             @endforeach
+
             <tr class="item">
               <td colspan="2"></td>
               <td>Estimated Shipping :</td>
               <td>INR {{number_format(($shipment->estimated-$shipment->packlevel), 2, ".", "")}}</td>
             </tr>
+            @if($charges['storage'] > 0)
             <tr class="item">
               <td colspan="2"></td>
-              <td colspan="">Package Level Charges :</td>
-              <td>INR {{number_format($shipment->packlevel, 2, ".", "")}}</td>
-            </tr>
-            @if($shipment->option->insurance == '1')
-            <tr class="item">
-              <td colspan="2"></td>
-              <td colspan="">Insurance :</td>
-              <td>INR {{number_format($shipment->option->insurance_amt, 2, ".", "")}}</td>
+              <td>Additional Storage Fee :</td>
+              <td>INR {{number_format($charges['storage'], 2, ".", "")}}</td>
             </tr>
             @endif
+            @if($charges['photo'] > 0)
             <tr class="item">
               <td colspan="2"></td>
-              <td colspan="">Coupon Reward :</td>
-              <td>(-)INR {{number_format($shipment->coupon, 2, ".", "")}}</td>
+              <td>Photo Charges :</td>
+              <td>INR {{number_format($charges['photo'], 2, ".", "")}}</td>
             </tr>
+            @endif
+            @if($charges['pickup'] > 0)
             <tr class="item">
               <td colspan="2"></td>
-              <td colspan="">Loyalty Reward :</td>
-              <td>(-)INR {{number_format($shipment->loyalty, 2, ".", "")}}</td>
+              <td>Pick-up Service :</td>
+              <td>INR {{number_format($charges['pickup'], 2, ".", "")}}</td>
             </tr>
+            @endif
+            @if($charges['handling'] > 0)
+            <tr class="item">
+              <td colspan="2"></td>
+              <td>Special Handling Fee :</td>
+              <td>INR {{number_format($charges['handling'], 2, ".", "")}}</td>
+            </tr>
+            @endif
+            @if($charges['doc'] > 0)
+            <tr class="item">
+              <td colspan="2"></td>
+              <td>Receive Mail :</td>
+              <td>INR {{number_format($charges['doc'], 2, ".", "")}}</td>
+            </tr>
+            @endif
+            @if($charges['address'] > 0)
+            <tr class="item">
+              <td colspan="2"></td>
+              <td>Address Correction :</td>
+              <td>INR {{number_format($charges['address'], 2, ".", "")}}</td>
+            </tr>
+            @endif
+
+            @if($shipment->option)
+
+            @php
+                $option = $shipment->option;
+            @endphp
+
+                @if($option->repack_amt > 0)
+                <tr class="item">
+                  <td colspan="2"></td>
+                  <td>Discard shoe boxes :</td>
+                  <td>INR {{number_format($option->repack_amt, 2, ".", "")}}</td>
+                </tr>
+                @endif
+                @if($option->sticker_amt > 0)
+                <tr class="item">
+                  <td colspan="2"></td>
+                  <td>Fragile stikers :</td>
+                  <td>INR {{number_format($option->sticker_amt, 2, ".", "")}}</td>
+                </tr>
+                @endif
+                @if($option->extrapack_amt > 0)
+                <tr class="item">
+                  <td colspan="2"></td>
+                  <td>Extra packing material :</td>
+                  <td>INR {{number_format($option->extrapack_amt, 2, ".", "")}}</td>
+                </tr>
+                @endif
+                @if($option->original_amt > 0)
+                <tr class="item">
+                  <td colspan="2"></td>
+                  <td>Ship in original boxes :</td>
+                  <td>INR {{number_format($option->original_amt, 2, ".", "")}}</td>
+                </tr>
+                @endif
+                @if($option->giftwrap_amt > 0)
+                <tr class="item">
+                  <td colspan="2"></td>
+                  <td>Gift wrap :</td>
+                  <td>INR {{number_format($option->giftwrap_amt, 2, ".", "")}}</td>
+                </tr>
+                @endif
+                @if($option->giftnote_amt > 0)
+                <tr class="item">
+                  <td colspan="2"></td>
+                  <td>Gift note :</td>
+                  <td>INR {{number_format($option->giftnote_amt, 2, ".", "")}}</td>
+                </tr>
+                @endif
+                @if($option->consolid_amt > 0)
+                <tr class="item">
+                  <td colspan="2"></td>
+                  <td>Package consolidation :</td>
+                  <td>INR {{number_format($option->consolid_amt, 2, ".", "")}}</td>
+                </tr>
+                @endif
+                @if($option->liquid_amt > 0)
+                <tr class="item">
+                  <td colspan="2"></td>
+                  <td>Clearance Charge :</td>
+                  <td>INR {{number_format($option->liquid_amt, 2, ".", "")}}</td>
+                </tr>
+                @endif
+                @if($option->insurance_amt > 0)
+                <tr class="item">
+                  <td colspan="2"></td>
+                  <td>Clearance Charge :</td>
+                  <td>INR {{number_format($option->insurance_amt, 2, ".", "")}}</td>
+                </tr>
+                @endif
+            @endif
+            @if($shipment->coupon > 0)
+            <tr class="item">
+              <td colspan="2"></td>
+              <td>Clearance Charge :</td>
+              <td>INR {{number_format($shipment->coupon, 2, ".", "")}}</td>
+            </tr>
+            @endif
+            @if($shipment->loyalty > 0)
+            <tr class="item">
+              <td colspan="2"></td>
+              <td>Loyalty Reward :</td>
+              <td>INR {{number_format($shipment->loyalty, 2, ".", "")}}</td>
+            </tr>
+            @endif
             <tr class="total">
               <td colspan="2"></td>
               <td colspan="">Total Cost :</td>

@@ -32,7 +32,7 @@
               <span>Why<br>Shoppre</span>
             </div>
             <div class="circle" style="padding-top: 25px;">
-              <span>Our<br>Shopping<br>Partners</span>
+              <span>Our<br>Shipping<br>Partners</span>
             </div>
           </div>
           

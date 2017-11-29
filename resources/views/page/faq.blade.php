@@ -63,7 +63,7 @@
         <h3>Please note, this FAQ is subject to updates</h3>
         <p>Please check back from time to time for the latest information.</p>
         <h3>Still Have Questions? </h3>
-        <a href="#" class="btn btn-shoppre">Contact Us</a>
+        <a href="{{route('contact')}}" class="btn btn-shoppre">Contact Us</a>
       </div>
     </div>
   </section>

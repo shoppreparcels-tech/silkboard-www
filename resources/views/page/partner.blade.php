@@ -20,7 +20,7 @@
               <img src="img/ico1.png">
               <div class="content">
                 <h3>Grow Your Business</h3>
-                <p>Partner with MyUS and benefit from global eCommerce growth</p>
+                <p>Partner with Shoppre and benefit from global eCommerce growth</p>
               </div>
             </div>
           </div>

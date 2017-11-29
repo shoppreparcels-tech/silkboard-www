@@ -67,8 +67,12 @@ class SocialAuthController extends Controller
         return Socialite::driver('facebook')->redirect();
     }
 
-    public function callbackFacebook()
+    public function callbackFacebook(Request $request)
     {
+    	if (isset($request->error_code) && $request->error_code == 200) {
+    		return redirect(route('customer.register'))->with('error', 'Facebook login process canceled.');
+    	}
+
         $socialUser = Socialite::driver('facebook')->user();
         if (!empty($socialUser->email)) {
         	$checkProfile = Customer::where('email', $socialUser->email)->first();

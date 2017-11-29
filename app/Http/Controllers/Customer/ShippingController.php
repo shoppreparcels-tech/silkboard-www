@@ -370,7 +370,7 @@ class ShippingController extends Controller
             Package::whereIn('id', $packids)->update(['status' => 'processing']);
 
             $customer = Customer::find($custid);
-            Mail::to($customer->email)->bcc('support@shoppre.com')->send(new ShipmentRequested($packages, $address));
+            Mail::to($customer->email)->send(new ShipmentRequested($packages, $address));
 
             $request->session()->put(['shipid'=>$shipment->id]);
 
@@ -583,7 +583,7 @@ class ShippingController extends Controller
             $customer = Customer::find($custid);
             $finalShipment = ShipRequest::find($shipid);
 
-            Mail::to($customer->email)->bcc('support@shoppre.com')->send(new ShipmentConfirmed($finalShipment));
+            Mail::to($customer->email)->send(new ShipmentConfirmed($finalShipment));
 
             return redirect()->route('shipping.request.response');
         }

@@ -43,6 +43,8 @@
                                 switch($shipment->shipstatus){
                                   case 'inqueue':
                                     echo 'Processing';
+                                    echo '<br>';
+                                    echo '<a href="'.route('shipping.invoice', [$shipment->orderid]).'" target="_blank">Invoice</a>';
                                   break;
                                   case 'inreview':
                                     echo 'In Review';

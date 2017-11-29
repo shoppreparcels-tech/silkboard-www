@@ -136,7 +136,7 @@
                                         <option {{$package->status === 'values' ? "selected" : ""}} value="values">Customer Action</option>
                                         <option {{$package->status === 'invoice' ? "selected" : ""}} value="invoice">Upload Invoice</option>
                                         <option {{$package->status === 'review' ? "selected" : ""}} value="review">Under Review</option>
-                                        <option {{$package->status === 'ship' ? "selected" : ""}} value="ship">Read To Ship</option>
+                                        <option {{$package->status === 'ship' ? "selected" : ""}} value="ship">Ready To Ship</option>
                                     </select>
                                 @endif
                                 

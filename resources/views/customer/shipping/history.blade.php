@@ -26,9 +26,18 @@
                     @foreach ($shipments as $shipment)
                         <tr>
                             <td><a class="slide_trigger" data-target="{{++$i}}" href="#" title="Edit"><i class="fa fa-angle-double-down"></i></a></td>
-                            <td>{{date('d M Y', strtotime($shipment->tracking->shipdate))}}</td>
                             <td>
-                              Shipped {{$shipment->tracking->box_nos}} Parcel(s) via: {{$shipment->tracking->carrier}} to {{$shipment->location->iso}} {{$shipment->tracking->packweight}} Kg Tracking# <a href="{{$shipment->tracking->track_url}}" target="_blank">{{$shipment->tracking->trackid}}</a>
+                              @if($shipment->tracking->shipdate)
+                                {{date('d M Y', strtotime($shipment->tracking->shipdate))}}</td>
+                              @else
+                                {{date('d M Y', strtotime($shipment->updated_at))}}</td>
+                              @endif
+                            <td>
+                              @if($shipment->tracking->trackid)
+                                Shipped {{$shipment->tracking->box_nos}} Parcel(s) via: {{$shipment->tracking->carrier}} to {{$shipment->location->iso}} {{$shipment->tracking->packweight}} Kg Tracking# <a href="{{$shipment->tracking->track_url}}" target="_blank">{{$shipment->tracking->trackid}}</a>
+                              @else
+                                Tracking# {{$shipment->orderid}}
+                              @endif
                             </td>
                             <td><i class="fa fa-rupee"></i>  
                               @php

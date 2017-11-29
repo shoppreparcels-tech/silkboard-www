@@ -25,6 +25,9 @@
                         </tr>
                     </tbody>    
                 </table>
+                <a href="{{route('shipping.invoice', [$shipment->orderid])}}" style="display: block;padding: 10px;border: 1px solid #067b7a;
+                    width: 150px;margin-top: 15px;text-align: center;background: #4CAF50;
+                    text-decoration: none;color: #fff;font-size: 18px;">View Invoice</a>
                 <br>
                 @endif
 

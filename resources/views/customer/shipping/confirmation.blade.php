@@ -74,6 +74,15 @@
                                   </table>
                               </td>
                           </tr>
+                          @php
+                            $charges = array('storage' => 0, 'photo' => 0, 'pickup' => 0, 'handling' => 0, 'doc' => 0, 'address' => 0);
+                            $charges['storage'] += $package->charges->storage;
+                            $charges['photo'] += $package->charges->basic_photo + $package->charges->advnc_photo;
+                            $charges['pickup'] += $package->charges->pickup;
+                            $charges['handling'] += $package->charges->handling;
+                            $charges['doc'] += $package->charges->doc;
+                            $charges['address'] = $package->charges->address;
+                          @endphp
                           @endforeach
                           <tr class="totalbtm">
                             <td></td>
@@ -160,22 +169,56 @@
                     <h3>Estimated Shipping: <span class="pull-right"><i class="fa fa-rupee"></i> <span class="estimated">{{number_format($estimated, 2, ".", "")}}</span></span></h3>
                   </div>
 
-                  @if($shipment->option)
-                    @php
-                        $option = $shipment->option;
-                    @endphp
-                    <div class="dash-sidecost">
-                        <p>Discard shoe boxes <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->repack_amt, 2, ".", "")}}</span></p>
-                        <p>Fragile stikers <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->sticker_amt, 2, ".", "")}}</span></p>
-                        <p>Extra packing material <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->extrapack_amt, 2, ".", "")}}</span></p>
-                        <p>Ship in original boxes <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->original_amt, 2, ".", "")}}</span></p>
-                        <p>Gift wrap <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->giftwrap_amt, 2, ".", "")}}</span></p>
-                        <p>Gift note <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->giftnote_amt, 2, ".", "")}}</span></p>
-                        <p>Package consolidation <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->consolid_amt, 2, ".", "")}}</span></p>
-                        <p>Clearance Charge <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->liquid_amt, 2, ".", "")}}</span></p>
-                    </div>
-                  @endif
+                  
+                  <div class="dash-sidecost">
+                      @if($charges['storage'] > 0)
+                        <p>Additional Storage Fee :<span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($charges['storage'], 2, ".", "")}}</span></p>
+                      @endif
+                      @if($charges['photo'] > 0)
+                      <p>Photo Charges :<span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($charges['photo'], 2, ".", "")}}</span></p>
+                      @endif
+                      @if($charges['pickup'] > 0)
+                      <p>Pick-up Service :<span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($charges['pickup'], 2, ".", "")}}</span></p>
+                      @endif
+                      @if($charges['handling'] > 0)
+                      <p>Special Handling Fee :<span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($charges['handling'], 2, ".", "")}}</span></p>
+                      @endif
+                      @if($charges['doc'] > 0)
+                      <p>Receive Mail :<span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($charges['doc'], 2, ".", "")}}</span></p>
+                      @endif
+                      @if($charges['address'] > 0)
+                      <p>Address Correction :<span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($charges['address'], 2, ".", "")}}</span></p>
+                      @endif
 
+                      @php
+                        $option = $shipment->option;
+                      @endphp
+
+                      @if($option->repack_amt > 0)
+                      <p>Discard shoe boxes <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->repack_amt, 2, ".", "")}}</span></p>
+                      @endif
+                      @if($option->sticker_amt > 0)
+                      <p>Fragile stikers <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->sticker_amt, 2, ".", "")}}</span></p>
+                      @endif
+                      @if($option->extrapack_amt > 0)
+                      <p>Extra packing material <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->extrapack_amt, 2, ".", "")}}</span></p>
+                      @endif
+                      @if($option->original_amt > 0)
+                      <p>Ship in original boxes <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->original_amt, 2, ".", "")}}</span></p>
+                      @endif
+                      @if($option->giftwrap_amt > 0)
+                      <p>Gift wrap <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->giftwrap_amt, 2, ".", "")}}</span></p>
+                      @endif
+                      @if($option->giftnote_amt > 0)
+                      <p>Gift note <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->giftnote_amt, 2, ".", "")}}</span></p>
+                      @endif
+                      @if($option->consolid_amt > 0)
+                      <p>Package consolidation <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->consolid_amt, 2, ".", "")}}</span></p>
+                      @endif
+                      @if($option->liquid_amt > 0)
+                      <p>Clearance Charge <span class="pull-right"><i class="fa fa-rupee"></i>  {{number_format($option->liquid_amt, 2, ".", "")}}</span></p>
+                      @endif
+                  </div>
                   <ul>
                     <li>Package Level Charges : <span><i class="fa fa-rupee"></i> {{number_format($shipment->packlevel, 2, ".", "")}}</span></li>
                     <li>Estimated Tax : <span><i class="fa fa-rupee"></i> {{number_format($payment['tax'], 2, ".", "")}}</span></li>
