@@ -180,7 +180,7 @@
                       </label>
                     </div>
                     <div class="form-group" style="margin: 10px 0;">
-                      <div style="padding: 0;margin-right: 2px;max-width: 50px;display: inline-block;">
+                      <div style="padding: 0;margin-right: 2px;max-width: 65px;display: inline-block;">
                         <input type="text" class="form-control" id="maxweight" name="maxweight" value="{{$customer->preference->maxweight}}" placeholder="(in kg)">
                       </div>
                       <label for="maxweight" class="" style="display: inline-block;width: 70%;vertical-align: top;font-weight: 600;">Maximum weight per package (in kg) <a href="javascript::void(0)" class="tooltipkey" title="" data-original-title="Choose this option if you would like to restrict a Maximum weight of individual boxes in a shipment. Shoppre will split your shipment into multiple boxes not exceeding this box weight limit (whenever possible), at the same cost of splitting a package (INR 200 per new package created)*.<br>
