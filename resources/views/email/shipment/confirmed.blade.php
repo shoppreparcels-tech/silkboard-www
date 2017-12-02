@@ -25,6 +25,11 @@
                         </tr>
                     </tbody>    
                 </table>
+
+                <p>Incase of Wire Transer, please remember to submit your Payment within 7 DAYS of receiving this email.</p>
+                <p>Also note that it might take upto 24 Hours to reflect your payment into Shoppre's account.</p>
+                <p>From the 8th day, your parcel will start accumulating Storage fees of INR 100/day which you can view in your Shoppre wallet.</p>
+                
                 <a href="{{route('shipping.invoice', [$shipment->orderid])}}" style="display: block;padding: 10px;border: 1px solid #067b7a;
                     width: 150px;margin-top: 15px;text-align: center;background: #4CAF50;
                     text-decoration: none;color: #fff;font-size: 18px;">View Invoice</a>

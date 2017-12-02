@@ -30,7 +30,7 @@ class CreateShipRequestsTable extends Migration
             $table->float('discount', 8, 2)->nullable();
             $table->float('packlevel', 8, 2);
             $table->float('estimated', 8, 2);
-            $table->float('tax', 8, 2)->nullable();
+            $table->float('wallet', 8, 2)->nullable();
             $table->float('coupon', 8, 2)->nullable();
             $table->float('loyalty', 8, 2)->nullable();
             $table->float('featured', 8, 2)->nullable();

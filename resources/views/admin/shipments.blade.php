@@ -68,11 +68,14 @@
                                                   case 'confirmation':
                                                     echo 'For Customer Confirmation';
                                                   break;
+                                                  case 'inreview':
+                                                    echo 'In Review';
+                                                  break;
                                                   case 'inqueue':
                                                     echo 'In Queue';
                                                   break;
-                                                  case 'inreview':
-                                                    echo 'In Review';
+                                                  case 'received':
+                                                    echo 'Payment Received';
                                                   break;
                                                   case 'dispatched':
                                                     echo 'Dispatched';

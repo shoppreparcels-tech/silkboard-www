@@ -26,10 +26,10 @@ class AddressController extends Controller
 	public function addAddress()
 	{
 		$countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
-        if (Address::where('cust_id', Auth::id())->count() < 5) {
+        if (Address::where('cust_id', Auth::id())->count() < 10) {
             return view('customer.add-address')->with('countries', $countries);
         }else{
-            return redirect(route('customer.address'))->with('error', 'You can add only 5 entries to your address book');
+            return redirect(route('customer.address'))->with('error', 'You can add only 10 entries to your address book');
         }
 	}
 

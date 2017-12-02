@@ -4,11 +4,12 @@
             <td valign="middle">
                 <p><strong>Dear Customer,</strong></p>
                 <p><strong>We are happy to know that your shipment was delivered on {{date("j F Y", strtotime($shipment->updated_at))}}.</strong></p>
+                <p>You can view your invoice <a href="{{route('shipping.invoice', [$shipment->orderid])}}" target="_blank">Here</a></p>
                 <p>Shoppre is dedicated to providing an enjoyable, affordable and personalized shipping experience to consumers who love to shop from India. We rely on customers like you to give us feedback on what we are doing right, and what we could do better.</p>
                 <p><strong>Please click the link below to complete a short, one-minute confidential survey about this shipment</strong>. Your opinions will help shape our future decisions, and allow us to maintain our position as the industry leader.</p>
                 <p>Earn 50 loyalty points by answering this quick 3 question survey!</p>
                 <p><strong><a href="http://www.questionpro.com/a/TakeSurvey?tt=7fY3hs4JuAI=" target="_blank">Start Survey</a></strong></p>
-                <p>Earn another 50 loyalty points by giving a quick review on Google/Facebook:</p>
+                <p>Earn another 100 loyalty points by giving a quick review on both Google and Facebook each.</p>
                 <p><a href="https://goo.gl/Hfqj8r" target="_blank">Google Review Here</a> / <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">Facebook Review Here</a></p>
 
                 Thank You, 

@@ -114,13 +114,14 @@
                     <table>
                         <tr>
                             <td width="30%">
-                                <h3 style="margin:0 0 0px">Ship To:</h3>
+                                <h3 style="margin:0 0 0px">SHIPPED TO</h3>
                                 <strong>{{$shipment->fullname}}</strong><br>
                                 {{$shipment->address}}<br>
                                 PH: {{$shipment->phone}}
                             </td>
                             
                             <td>
+                                <h3 style="margin:0 0 0px">YOUR SHOPPRE ADDRESS</h3>
                                 INDIANSHOPPRE LLP<br>
                                 #181, 1st Floor,<br>2nd Cross Rd, 1st Block Koramangala,<br> Bengaluru, Karnataka 560034<br>
                                 Phone : +91 80 4094 4077<br>
@@ -267,7 +268,7 @@
                 @if($option->insurance_amt > 0)
                 <tr class="item">
                   <td colspan="2"></td>
-                  <td>Clearance Charge :</td>
+                  <td>Insurance :</td>
                   <td>INR {{number_format($option->insurance_amt, 2, ".", "")}}</td>
                 </tr>
                 @endif
@@ -275,7 +276,7 @@
             @if($shipment->coupon > 0)
             <tr class="item">
               <td colspan="2"></td>
-              <td>Clearance Charge :</td>
+              <td>Coupon Discount :</td>
               <td>INR {{number_format($shipment->coupon, 2, ".", "")}}</td>
             </tr>
             @endif
@@ -284,6 +285,13 @@
               <td colspan="2"></td>
               <td>Loyalty Reward :</td>
               <td>INR {{number_format($shipment->loyalty, 2, ".", "")}}</td>
+            </tr>
+            @endif
+            @if($shipment->wallet > 0)
+            <tr class="item">
+              <td colspan="2"></td>
+              <td>Wallet Amount :</td>
+              <td>INR {{number_format($shipment->wallet, 2, ".", "")}}</td>
             </tr>
             @endif
             <tr class="total">

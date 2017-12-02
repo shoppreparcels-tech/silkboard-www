@@ -31,7 +31,6 @@
         @if(!$promos->isEmpty())
         <div class="promoscroll">
           <ul id="liticker">
-
             @foreach($promos as $promo)
             <li>{{$promo->title}} - <span>{{$promo->code}}</span></li>
             @endforeach

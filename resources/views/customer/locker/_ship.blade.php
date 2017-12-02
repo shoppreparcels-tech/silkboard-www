@@ -123,7 +123,7 @@
                                     @endphp
                                     </div>
                                     @if($advc_photo_check == "yes")
-                                    <a href="#" class="btn btn-advc" data-pack="{{$ship->id}}">View Advanced Photos</a>
+                                    <a href="#" class="btn btn-advc" data-pack="{{$ship->id}}">View Additional Photos</a>
                                     @endif
                                 </div>
                                 @if($advc_photo_check == "yes")
@@ -174,7 +174,7 @@
                                             }
                                         @endphp
                                         </div>
-                                        <a href="#" class="btn btn-advc" data-pack="{{$ship->id}}">View Advanced Photos</a>
+                                        <a href="#" class="btn btn-advc" data-pack="{{$ship->id}}">View Additional Photos</a>
                                     </div>
 
                                     @endif
@@ -204,8 +204,8 @@
                                     <img src="{{asset('img/advnc_photo.png')}}">
                                 </div>
                                 <div class="col-sm-9">
-                                    <h3>Advanced Photos - <i class="fa fa-rupee"></i> 500.00</h3>
-                                    <p>Order up 20 high-resolution photos of your content to confirm color, condition and item details</p>
+                                    <h3>Additional Photos - <i class="fa fa-rupee"></i> 500.00</h3>
+                                    <p>Order up 10 high-resolution photos of your content to confirm color, condition and item details</p>
                                     <a href="#" class="btn btn-shoppre photo_nxt" data-type="advanced" data-pack="{{$ship->id}}">Request Now</a>
                                 </div>
                                 <div class="clearfix"></div>
@@ -246,7 +246,7 @@
                                 <img src="{{asset('img/advnc_photo.png')}}">
                             </div>
                             <div class="col-sm-9">
-                                <h3>Advanced Photos - <i class="fa fa-rupee"></i> 500.00</h3>
+                                <h3>Additional Photos - <i class="fa fa-rupee"></i> 500.00</h3>
                                 <form class="advancedreq_form">
                                     {{csrf_field()}}
                                     <div class="form-group">
@@ -273,10 +273,10 @@
 
                             <div class="owl-carousel owl-theme owl-ajax"></div>
                             @if($advc_photo_check == 'yes')
-                                <a href="#" class="btn btn-advc" data-pack="{{$ship->id}}">View Advanced Photos</a>
+                                <a href="#" class="btn btn-advc" data-pack="{{$ship->id}}">View Additional Photos</a>
                             @else
                                 <p>Need Additional Photos?</p>
-                                <a href="#" class="photo_nxt" data-type="advanced" data-pack="{{$ship->id}}">Request Advanced photos for <i class="fa fa-rupee"></i> 500.00</a>
+                                <a href="#" class="photo_nxt" data-type="advanced" data-pack="{{$ship->id}}">Request Additional photos for <i class="fa fa-rupee"></i> 500.00</a>
                             @endif
                         </div>
                             

@@ -42,7 +42,6 @@ class ShippingController extends Controller
     	$id = Auth::id();
     	$settings = ShippingPreference::where('custid', $id)->first();
     	$address = Address::where('cust_id', $id)->where('default', 'yes')->first();
-
     	return view('customer.ship-preference')->with(['settings'=>$settings, 'address'=>$address]);
     }
 
@@ -56,6 +55,9 @@ class ShippingController extends Controller
         $setting->sticker = $request->sticker;
         $setting->pack_extra = $request->pack_extra;
         $setting->orginal_box = $request->orginal_box;
+        $setting->maxweight = $request->maxweight;
+        $setting->giftwrap = $request->giftwrap;
+        $setting->giftnote = $request->giftnote;
         $setting->tax_id = $request->tax_id;
         $setting->personal = $request->personal;
         $setting->include_invoice = $request->include_invoice;
@@ -147,6 +149,7 @@ class ShippingController extends Controller
                 "giftnote" => $request->giftnote,
                 "giftnote_txt" => $request->giftnote_txt,
                 "liquid" => $liquid,
+                "maxweight" => $request->maxweight,
                 "invoice_taxid" => $request->invoice_taxid,
                 "invoice_personal" => $request->invoice_personal,
                 "invoice_include" => $request->invoice_include
@@ -231,13 +234,15 @@ class ShippingController extends Controller
                 $charges['optsamt'] = $repack_amt + $sticker_amt + $extrapack_amt + $original_amt + $giftwrap_amt + $giftnote_amt;
 
                 $addresses = Address::where('cust_id', $custid)->get();
+                $customer = Customer::find($custid);
 
                 return view('customer.shipping.request')->with([
                     'packages' => $packages, 
                     'address' => $address,
                     'addresses' => $addresses, 
                     'options' => $options, 
-                    'charges' => $charges
+                    'charges' => $charges,
+                    'customer' => $customer
                 ]);
 
             }else{
@@ -312,6 +317,7 @@ class ShippingController extends Controller
             $shipOption->giftnote = $request->giftnote;
             $shipOption->giftnote_txt = $request->giftnote_txt;
             $shipOption->liquid = $request->liquid;
+            $shipOption->maxweight = $request->maxweight;
             
             $shipOption->repack_amt = ($request->repack == 1) ? 100.00 : 0 ;
             $shipOption->sticker_amt = ($request->sticker == 1) ? 100.00 : 0 ;
@@ -438,21 +444,25 @@ class ShippingController extends Controller
     public function shipQueue()
     {
         $id = Auth::id();
-        $shipments = ShipRequest::where('custid', $id)->whereIn('shipstatus', ['inqueue', 'inreview', 'confirmation'])->get();
+        $shipments = ShipRequest::where('custid', $id)->whereIn('shipstatus', ['inqueue', 'inreview', 'received','confirmation'])->get();
         return view('customer.shipping.inqueue')->with('shipments', $shipments);
     }
 
     public function confirmShipment(Request $request)
     {
         $custid = Auth::id();
+        $customer = Customer::find($custid);
         $shipment = ShipRequest::where('custid', $custid)->where('orderid', $request->orderid)->where('shipstatus', 'confirmation')->first();
 
         if ($shipment) {
             $packids = explode(",", $shipment->packids);
             $packages = Package::where('customer_id', $custid)->whereIn('id', $packids)->get();
 
-            $payment = array('tax' => 0, 'coupon' => 0, 'loyalty' => 0, 'amount' => 0, 'payoption'=> 'wire');
+            $payment = array('wallet' => 0, 'coupon' => 0, 'loyalty' => 0, 'amount' => 0, 'payoption'=> 'wire');
             $payment['amount'] = $shipment->estimated;
+
+            $payment['wallet'] = $customer->balance->amount;
+            $payment['amount'] -= $payment['wallet'];
 
             if ($request->insurance == '1') {
                 $payment['amount'] += 30.00;
@@ -514,12 +524,13 @@ class ShippingController extends Controller
     public function finalShipRequest(Request $request)
     {
         $custid = Auth::id();
+        $customer = Customer::find($custid);
         $shipid = $request->shipid;
         $shipment = ShipRequest::find($shipid);
 
         if (!empty($shipment) && $shipment->custid == $custid) {
 
-            $payment = array('tax' => 0, 'loyalty' => 0, 'finalamount' => $shipment->estimated);
+            $payment = array('coupon' => 0, 'loyalty' => 0, 'finalamount' => $shipment->estimated);
 
             $points = LoyaltyPoint::where('custid', $custid)->pluck('points')->first();
             while ( $points  >= 1000 ) {
@@ -532,6 +543,26 @@ class ShippingController extends Controller
                 $payment['finalamount'] += 30.00;
 
                 ShipOption::where('shipid', $shipid)->update(['insurance' => '1', 'insurance_amt' => '30.00']);
+            }
+
+            if (isset($request->promocode) && !empty($request->promocode)) {
+                $promo = PromoCode::where('code', $request->promocode)->whereDate('validity', '>=', date('Y-m-d'))->first();
+                if (!empty($promo)) {
+                    if (!empty($promo->cashback)) {
+                        $payment['coupon'] = $promo->cashback;
+                    }elseif (!empty($promo->discount)) {
+                        $payment['coupon'] = ($promo->discount / 100) * $shipment->estimated;
+                    }
+                    $payment['finalamount'] -= $payment['coupon'];
+                }
+            }
+
+            $wallet = $customer->balance->amount;
+            $walletBalance = 0;
+            $payment['finalamount'] -= $wallet;
+            if ($payment['finalamount'] < 0) {
+                $payment['finalamount'] = 0;
+                $walletBalance = abs($payment['finalamount']);
             }
 
             switch ($request->payoption) {
@@ -555,15 +586,17 @@ class ShippingController extends Controller
                     $paystatus = 'unauthorized';
                     break;
             }
-
             
-            $shipment->coupon = 0;
+            $shipment->coupon = $payment['coupon'];
+            $shipment->wallet = ($wallet - $walletBalance);
             $shipment->loyalty = $payment['loyalty'];
             $shipment->finalamount = $payment['finalamount'];
             $shipment->payoption = $payoption;
             $shipment->paystatus = $paystatus;
             $shipment->shipstatus = 'inqueue';
             $shipment->save();
+
+            ShopperBalance::where('custid', $custid)->update(['amount' => $walletBalance]);
 
             if ($payment['loyalty'] >= 100) {
                 $hispoints = $payment['loyalty'] * 10;
@@ -649,7 +682,7 @@ class ShippingController extends Controller
                 ShipRequest::where('id', $shipment->id)->update(['shipstatus' => 'canceled']);
                 $packids = explode(",", $shipment->packids);
                 Package::whereIn('id', $packids)->update(['status' => 'ship']);
-                return redirect()->route('customer.locker')->with('error', 'Ship request has been canceled!');
+                return redirect()->route('customer.locker')->with('error', 'Ship request has been cancelled!');
             }else{
                 return redirect()->route('customer.locker');
             }

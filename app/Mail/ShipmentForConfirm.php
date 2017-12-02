@@ -30,7 +30,7 @@ class ShipmentForConfirm extends Mailable
     {
         $from_mail = 'notifications@cp.shoppre.com';
         $from_name = 'SHOPPRE.com';
-        $subject = 'Shipment Ready for confirmation';
+        $subject = 'Submit Payment | Your shipment is packed and weighed';
 
         return $this->view('email.shipment.forconfirm')
             ->from($from_mail, $from_name)

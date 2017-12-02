@@ -10,7 +10,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-              <h3>Shipments in Queue</h3>
+              <h3>Shipment History</h3>
               <div class="table-responsive">
                 @if(!$shipments->isEmpty())
                 <table class="table table-bordered">

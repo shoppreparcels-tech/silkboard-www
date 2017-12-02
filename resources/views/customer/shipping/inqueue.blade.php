@@ -11,6 +11,18 @@
         <div class="row">
           <div class="col-sm-12">
               <h3>Shipments in Queue</h3>
+              @php
+                $allStatus = $shipments->pluck('shipstatus')->toArray();
+              @endphp
+              
+              @if(in_array('inreview', $allStatus))
+              <div class="alert alert-warning" role="alert"> <strong>Shoppre</strong> team members are currently preparing your shipment(s). No action is required on your part, and you will be notified when your shipment(s) <strong>is packed and weighed</strong>. Past shipments can be viewed in your <a href="{{route('shipping.history')}}" class="alert-link">History</a>.</div>
+              @endif
+
+              @if(in_array('confirmation', $allStatus))
+              <div class="alert alert-warning" role="alert">Kindly Submit your Payment within 7 DAYS after you have received Shoppre's email titled "Submit Payment | Your Shipment is packed and weighed". From the 8th day, your parcel will start accumulating Storage fees of INR 100/day which you can view in your Shoppre wallet.</div>
+              @endif
+
               <div class="table-responsive">
                 @if(!$shipments->isEmpty())
                 <table class="table table-bordered">
@@ -21,7 +33,7 @@
                         <th>REQUEST DATE</th>
                         <th>WEIGHT</th>
                         <th>PACKAGE COUNT</th>
-                        <th></th>
+                        <th>STATUS</th>
                     </tr>
                     @php ($i = 0)
                     @foreach ($shipments as $shipment)
@@ -38,14 +50,9 @@
                               @endif
                             </td>
                             <td>{{$shipment->count}}</td>
-                            <td>
+                            <td style="max-width: 200px;">
                               @php
                                 switch($shipment->shipstatus){
-                                  case 'inqueue':
-                                    echo 'Processing';
-                                    echo '<br>';
-                                    echo '<a href="'.route('shipping.invoice', [$shipment->orderid]).'" target="_blank">Invoice</a>';
-                                  break;
                                   case 'inreview':
                                     echo 'In Review';
                                     echo '<br>';
@@ -54,11 +61,23 @@
                                     $hours = ($diff->y * 365.25 + $diff->m * 30 + $diff->d) * 24 + $diff->h + $diff->i/60;
 
                                     if(ceil($hours) <= 1){
-                                      echo '<a href="'.route('shipping.request.cancel', [$shipment->orderid]).'">Cancel</a>';
-                                      echo ' <a href="javascript::void(0)" class="tooltipkey" title="We offer a one-hour window to cancel your shipping order. Once the shipping process is initiated, you won\'t be able to cancel your order."><i class="fa fa-question-circle-o"></i></a>';
+                                      echo '<a href="'.route('shipping.request.cancel', [$shipment->orderid]).'">Cancel Shipment</a>';
+                                      echo ' <a href="javascript::void(0)" class="tooltipkey" title="Shoppre offers a one-hour window to cancel your shipping order. Once your parcel has been prepared, you can no longer cancel your shipment. The status will change to Submit Payment."><i class="fa fa-question-circle-o"></i></a>';
                                     }
-
                                   break;
+
+                                  case 'inqueue':
+                                    echo 'Awaiting Payment';
+                                    echo '<br><small>It might take upto 24 Hours to reflect your payments into our account.</small>';
+                                    
+                                  break;
+
+                                  case 'received':
+                                    echo 'Payment Received';
+                                    echo '<br>';
+                                    echo '<a href="'.route('shipping.invoice', [$shipment->orderid]).'" target="_blank">Invoice</a>';
+                                  break;
+
                                   case 'confirmation':
                                     echo '<a href="'.route('shipping.request.confirm', [$shipment->orderid]).'">Submit Payment</a>';
                                   break;
@@ -70,7 +89,7 @@
                           <td colspan="8">
                             <div class="col-sm-7">
                               <address>
-                                <h4>SHIP TO:</h4>
+                                <h4>Shipping Address:</h4>
                                 <p><strong>{{$shipment->fullname}}</strong></p>
                                 <p>{{$shipment->address}}</p>
                                 <p>PH: {{$shipment->phone}}</p>

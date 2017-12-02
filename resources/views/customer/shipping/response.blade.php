@@ -20,7 +20,7 @@
                 @if($shipment->payoption == "wire")
                 <div class="col-sm-12">
                   <div class="wireoption">
-                    <p class="info">We will dispatch your shipment after payment received in below bank account.</p>
+                    <p class="info">We will dispatch your shipment upon the confirmation of your payment to the below bank account. Please note that Wire Transfer via Western Union is not possible at the moment</p>
                     <h4>Account Name: INDIANSHOPPRE LLP</h4>
                     <p>Account Number: 917020057881967</p>
                     <p>Branch: Bangalore</p>
@@ -63,129 +63,10 @@
                   </div>
                 </div>
                 <div class="clearfix"></div>
-
-                <p>AFTER your payment has been confirmed, our shipping experts will make every effort to process your shipment within 24 hours. An email with your tracking information will be sent to you as soon as your parcels have been dispatched.</p>
-
-                @if($shipment->option)
-                @php
-                    $option = $shipment->option;
-                @endphp
-                  <div class="col-sm-6">
-                      <h4>Shipment Options:</h4>
-                      <div class="table-responsive">
-
-                        <table class="table table-bordered">
-                          <tr>
-                              <th width="50px;"></th>
-                              <th>Options</th>
-                              <th>Cost</th>
-                          </tr>
-                          <tr>
-                              <td class="text-center">
-                                @php
-                                  $marking  = ($option->repack == 1) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-times"></i>';
-                                  echo $marking;
-                                @endphp
-                              </td>
-                              <td>Repack items</td>
-                              <td>{{number_format($option->repack_amt, 2, ".", "")}}</td>
-                          </tr>
-                          <tr>
-                              <td class="text-center">
-                                @php
-                                  $marking  = ($option->sticker == 1) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-times"></i>';
-                                  echo $marking;
-                                @endphp
-                              </td>
-                              <td>Fragile stikers</td>
-                              <td>{{number_format($option->sticker_amt, 2, ".", "")}}</td>
-                          </tr>
-                          <tr>
-                              <td class="text-center">
-                                @php
-                                  $marking  = ($option->extrapack == 1) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-times"></i>';
-                                  echo $marking;
-                                @endphp
-                              </td>
-                              <td>Add extra packing material</td>
-                              <td>{{number_format($option->extrapack_amt, 2, ".", "")}}</td>
-                          </tr>
-                          <tr>
-                              <td class="text-center">
-                                @php
-                                  $marking  = ($option->original == 1) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-times"></i>';
-                                  echo $marking;
-                                @endphp
-                              </td>
-                              <td>Ship original boxes</td>
-                              <td>
-                              {{number_format($option->original_amt, 2, ".", "")}}</td>
-                          </tr>
-                          <tr>
-                              <td class="text-center">
-                                @php
-                                  $marking  = ($option->consolid == 1) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-times"></i>';
-                                  echo $marking;
-                                @endphp
-                              </td>
-                              <td>Package consolidation</td>
-                              <td>
-                                {{number_format($option->consolid_amt, 2, ".", "")}}
-                              </td>
-                          </tr>
-                          <tr>
-                              <td class="text-center">
-                                @php
-                                  $marking  = ($option->giftwrap == 1) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-times"></i>';
-                                  echo $marking;
-                                @endphp
-                              </td>
-                              <td>Gift Wrap</td>
-                              <td>
-                                {{number_format($option->giftwrap_amt, 2, ".", "")}}
-                              </td>
-                          </tr>
-                          <tr>
-                              <td class="text-center">
-                                @php
-                                  $marking  = ($option->giftnote == 1) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-times"></i>';
-                                  echo $marking;
-                                @endphp
-                              </td>
-                              <td>Gift Note</td>
-                              <td>
-                                {{number_format($option->giftnote_amt, 2, ".", "")}}
-                              </td>
-                          </tr>
-                          <tr>
-                              <td class="text-center">
-                                @php
-                                  $marking  = ($option->insurance == 1) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-times"></i>';
-                                  echo $marking;
-                                @endphp
-                              </td>
-                              <td>Insurance</td>
-                              <td>
-                                {{number_format($option->insurance_amt, 2, ".", "")}}
-                              </td>
-                          </tr>
-                          <tr>
-                              <td class="text-center">
-                                @php
-                                  $marking  = ($option->liquid == 1) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-times"></i>';
-                                  echo $marking;
-                                @endphp
-                              </td>
-                              <td>Liquid</td>
-                              <td>
-                                {{number_format($option->liquid_amt, 2, ".", "")}}
-                              </td>
-                          </tr>
-                      </table>
-                      </div>
-                  </div>
-                @endif
-
+                <div role="alert" class="alert alert-warning text-center">
+                  <h4>AFTER your payment has been confirmed, our shipping experts will make every effort to process your shipment within 24 hours.</h4>
+                  <p>An email with your tracking information will be sent to you as soon as your parcels have been dispatched.</p>
+                </div>
               <div class="clearfix"></div>
               <div class="ship_points"> 
                 <h4>What's Next</h4>

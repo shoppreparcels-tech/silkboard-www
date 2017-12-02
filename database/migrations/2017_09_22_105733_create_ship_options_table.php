@@ -35,6 +35,11 @@ class CreateShipOptionsTable extends Migration
             $table->float('insurance_amt', 8, 2)->nullable();
             $table->enum('liquid', [0, 1])->default(0)->nullable();
             $table->float('liquid_amt', 8, 2)->default(0)->nullable();
+
+            $table->enum('overweight', [0, 1])->default(0)->nullable();
+            $table->float('overweight_amt', 8, 2)->default(0)->nullable();
+            $table->string('maxweight')->nullable();
+            
             $table->string('profoma_taxid')->nullable();
             $table->enum('profoma_personal', [1,0])->default(0)->nullable();
             $table->enum('invoice_include', [1,0])->default(0)->nullable();

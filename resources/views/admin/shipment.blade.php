@@ -94,6 +94,10 @@
                                     <label class="active">Loyalty Reward</label>
                                 </div>
                                 <div class="input-field col s6">
+                                    <input type="text" class="validate" value="{{$shipment->wallet}}" disabled>
+                                    <label class="active">Wallet Amount Used</label>
+                                </div>
+                                <div class="input-field col s6">
                                     <input type="text" class="validate" value="{{$shipment->finalamount}}" disabled>
                                     <label class="active">Final Amount</label>
                                 </div>
@@ -117,6 +121,7 @@
                                     @else
                                         <select name="shipstatus">
                                             <option {{$shipment->shipstatus === 'inqueue' ? "selected" : ""}} value="inqueue">In Queue</option>
+                                            <option {{$shipment->shipstatus === 'received' ? "selected" : ""}} value="received">Payment Received</option>
                                             <option {{$shipment->shipstatus === 'dispatched' ? "selected" : ""}} value="dispatched">Dispatched</option>
                                             <option {{$shipment->shipstatus === 'delivered' ? "selected" : ""}} value="delivered">Delivered</option>
                                             <option {{$shipment->shipstatus === 'canceled' ? "selected" : ""}} value="canceled">Canceled</option>
@@ -160,10 +165,31 @@
                                     <form method="post" action="{{route('admin.shipping.mail')}}">
                                     {{csrf_field()}}
                                     <select name="condition">
-                                        <option value="confirmation">Shipment Confirmation</option>
+                                        
+                                        @if(in_array('for_confirm', $shipmails))
+                                        <option disabled>Shipment For Confirmation</option>
+                                        @else
+                                        <option value="confirmation">Shipment For Confirmation</option>
+                                        @endif
+
+                                        @if(in_array('pay_received', $shipmails))
+                                        <option disabled>Payment Received</option>
+                                        @else
                                         <option value="received">Payment Received</option>
+                                        @endif
+
+                                        @if(in_array('ship_dispatched', $shipmails))
+                                        <option disabled>Shipment Dispatched</option>
+                                        @else
                                         <option value="dispatched">Shipment Dispatched</option>
+                                        @endif
+
+                                        @if(in_array('ship_delivered', $shipmails))
+                                        <option disabled>Shipment Delivered</option>
+                                        @else
                                         <option value="delivered">Shipment Delivered</option>
+                                        @endif
+
                                     </select>
                                     <input type="hidden" name="shipid" value="{{$shipment->id}}">
                                     <button type="submit" class="btn waves-effect waves-light green">Send Notification</button>
@@ -380,7 +406,7 @@
                                               echo $marking;
                                             @endphp
                                           </td>
-                                          <td>Gift Note</td>
+                                          <td>Gift Note<p style="margin: 5px 0;font-size: 14px;font-style: italic;">{{$option->giftnote_txt}}</p></td>
                                           <td>
                                             {{number_format($option->giftnote_amt, 2, ".", "")}}
                                           </td>
@@ -407,6 +433,48 @@
                                           <td>Liquid</td>
                                           <td>
                                             {{number_format($option->liquid_amt, 2, ".", "")}}
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="text-center">
+                                            @php
+                                              $marking  = ($option->overweight == 1) ? '<i class="ti-check"></i>' : '<i class="ti-close"></i>';
+                                              echo $marking;
+                                            @endphp
+                                          </td>
+                                          <td>Overweight</td>
+                                          <td>
+                                            {{number_format($option->overweight_amt, 2, ".", "")}}
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="text-center">
+                                            @php
+                                              $marking  = ($option->profoma_personal == 1) ? '<i class="ti-check"></i>' : '<i class="ti-close"></i>';
+                                              echo $marking;
+                                            @endphp
+                                          </td>
+                                          <td colspan="2">Mark as personal use only</td>
+                                      </tr>
+                                      <tr>
+                                          <td class="text-center">
+                                            @php
+                                              $marking  = ($option->invoice_include == 1) ? '<i class="ti-check"></i>' : '<i class="ti-close"></i>';
+                                              echo $marking;
+                                            @endphp
+                                          </td>
+                                          <td colspan="2">Include a printed profoma invoice</td>
+                                      </tr>
+                                      <tr>
+                                          <td colspan="2">Maximum Weight</td>
+                                          <td>
+                                            {{$option->maxweight}} Kg
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td colspan="2">Profoma Invoice TAX ID</td>
+                                          <td>
+                                            {{$option->profoma_taxid}}
                                           </td>
                                       </tr>
                                   </table>

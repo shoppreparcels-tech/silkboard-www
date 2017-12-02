@@ -12,10 +12,14 @@
         <div class="col-sm-4">
           <div class="dash-complete">
             @php
-              if($complition['phone'] == 0){
+              if($completion['phone'] == 0){
                 $percent = 50;
                 $compMsg = 'Update your phone number!';
                 $compUrl = route('customer.settings');
+              }elseif($completion['address'] == 0){
+                $percent = 75;
+                $compMsg = 'Add your default shipping address!';
+                $compUrl = route('customer.address');
               }else{
                 $percent = 100;
                 $compMsg = 'Happy Shopping!';
@@ -31,8 +35,6 @@
               </div>
               <input type="hidden" name="progress" id="progress_val" value="{{$percent}}">
             </div>
-            
-
           </div>
         </div>
         <div class="col-sm-8">

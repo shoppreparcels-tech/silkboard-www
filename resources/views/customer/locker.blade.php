@@ -104,7 +104,12 @@
             <div class="dash-rightside">
               <div style="position: relative;" id="shipcost">
                   <div class="dash-sidecost">
-                    <p>Shoppre Wallet <a href="javascript::void(0)" class="tooltipkey" title="Shoppre can add or deduct cash from your account depending on the situation. If the amount is positive, it means that you own this much money, and this amount will be deducted from the final charges. If the amount is negative, it means that this amount will be added to the final charges."><i class="fa fa-question-circle-o"></i></a> 
+                    <p>Shoppre Wallet <a href="javascript::void(0)" class="tooltipkey" title="Shoppre can add or deduct cash from your Shoppre Wallet depending on the situation.<br>
+                    For eg: Your Personal Shopper balance will be settled here in your Shoppre Wallet.<br>
+                    - If the amount is positive, it means that you own this much cash, 
+                    and this amount will be deducted from the final charges.<br>
+                    - If the amount is negative, it means that this amount will be 
+                    added to the final charges."><i class="fa fa-question-circle-o"></i></a> 
                       <span class="pull-right">
                       <i class="fa fa-rupee"></i> 
                       <span>{{number_format($customer->balance->amount, 2, ".", "")}}</span>
@@ -116,53 +121,93 @@
                     <h4>Packing Options</h4>
                     <div class="checkbox">
                       <label>
+                        @if($customer->preference->repack == 1)
+                        <input type="checkbox" name="repack" value="1" checked>
+                        @else
                         <input type="checkbox" name="repack" value="1">
+                        @endif
                         <span class="label">Discard shoe boxes <a href="javascript::void(0)" class="tooltipkey" title="We repack all the necessary items (items which arrive at our facility in big boxes) for FREE of cost (except Shoe Boxes which we do not discard). Discarding shoe boxes before your shipment is packed can help reduce the dimensional weight of your shipment in some cases. A charge of INR 100 per shipment will be incurred to discard shoe boxes)."><i class="fa fa-question-circle-o"></i></a> </span>
                       </label>
                     </div>
                     <div class="checkbox">
                       <label>
+                        @if($customer->preference->sticker == 1)
+                        <input type="checkbox" name="sticker" value="1" checked>
+                        @else
                         <input type="checkbox" name="sticker" value="1">
+                        @endif
                         <span class="label">Fragile stickers <a href="javascript::void(0)" class="tooltipkey" title="Quality packaging is key when it comes to preventing damage. You can click on this option if you need a ‘FRAGILE’ sticker on the packaging of your vulnerable shipments. We may prompt you via email if we feel that your items are fragile. Fragile stickers will be applied to boxes on every shipment at a cost of INR 100 per shipment."><i class="fa fa-question-circle-o"></i></a></span>
                       </label>
                     </div>
                     <div class="checkbox">
                       <label>
+                        @if($customer->preference->pack_extra == 1)
+                        <input type="checkbox" name="extrapack" value="1" checked>
+                        @else
                         <input type="checkbox" name="extrapack" value="1">
+                        @endif
                         <span class="label">Add extra packing material <a href="javascript::void(0)" class="tooltipkey" title="Additional protective packaging will be added to every shipment at the cost given below:<br> 100rs until 10kg<br>200rs for 10-20kg<br>300rs for above 20kg"><i class="fa fa-question-circle-o"></i></a></span>
                       </label>
                     </div>
                     <div class="checkbox">
                       <label>
+                        @if($customer->preference->orginal_box == 1)
+                        <input type="checkbox" name="original" value="1" checked>
+                        @else
                         <input type="checkbox" name="original" value="1">
+                        @endif
                         <span class="label">Ship in original boxes (do not repack) <a href="javascript::void(0)" class="tooltipkey" title="We usually repack all the necessary items (items which arrive at our facility in big boxes) in order to reduce the dimensional weight for FREE of cost (except Shoe Boxes). You can choose this option to ship your packages in the original shipping boxes in which they were received."><i class="fa fa-question-circle-o"></i></a></span>
                       </label>
                     </div>
                     <div class="checkbox">
                       <label>
+                        @if($customer->preference->giftwrap == 1)
+                        <input type="checkbox" name="giftwrap" value="1" checked>
+                        @else
                         <input type="checkbox" name="giftwrap" value="1">
+                        @endif
                         <span class="label">Gift wrap <a href="javascript::void(0)" class="tooltipkey" title="We can gift wrap your items at a cost of INR 100/- per package. However, please note that the gift wrapped item will be placed in another box before it is being shipped and that box cannot be wrapped."><i class="fa fa-question-circle-o"></i></a></span>
                       </label>
                     </div>
                     <div class="checkbox">
                       <label>
+                        @if($customer->preference->giftnote == 1)
+                        <input type="checkbox" name="giftnote" value="1" checked>
+                        @else
                         <input type="checkbox" name="giftnote" value="1">
+                        @endif
                         <span class="label">Gift note <a href="javascript::void(0)" class="tooltipkey" title="We can write a gift note and place it inside your package at a cost of INR 50/- per package."><i class="fa fa-question-circle-o"></i></a></span>
                       </label>
                     </div>
+                    <div class="form-group" style="margin: 10px 0;">
+                      <div style="padding: 0;margin-right: 2px;max-width: 50px;display: inline-block;">
+                        <input type="text" class="form-control" id="maxweight" name="maxweight" value="{{$customer->preference->maxweight}}" placeholder="(in kg)">
+                      </div>
+                      <label for="maxweight" class="" style="display: inline-block;width: 70%;vertical-align: top;font-weight: 600;">Maximum weight per package (in kg) <a href="javascript::void(0)" class="tooltipkey" title="" data-original-title="Choose this option if you would like to restrict a Maximum weight of individual boxes in a shipment. Shoppre will split your shipment into multiple boxes not exceeding this box weight limit (whenever possible), at the same cost of splitting a package (INR 200 per new package created)*.<br>
+                      <i>Please note that a shipment which weighs more than 30kg will be considered as a commercial shipment and will incur a custom clearance cost of INR 2500.</i><br>
+                      <small>*Charges may be lesser for Membership Partners, and Loyalty Members (Silver and above).</small>"><i class="fa fa-question-circle-o"></i></a> </label>
+                    </div>
                     <h4>Profoma Invoice Options</h4>
                     <div class="form-group taxid">
-                      TAX ID: <input type="text" class="form-control" name="invoice_taxid">
+                      TAX ID: <input type="text" class="form-control" name="invoice_taxid" value="{{$customer->preference->tax_id}}">
                     </div>
                     <div class="checkbox">
                       <label>
-                        <input type="checkbox" name="invoice_personal">
+                        @if($customer->preference->personal == 1)
+                        <input type="checkbox" name="invoice_personal" value="1" checked>
+                        @else
+                        <input type="checkbox" name="invoice_personal" value="1">
+                        @endif
                         <span class="label">Mark items for personal use only</span>
                       </label>
                     </div>
                     <div class="checkbox">
                       <label>
-                        <input type="checkbox" name="invoice_include">
+                        @if($customer->preference->include_invoice == 1)
+                        <input type="checkbox" name="invoice_include" value="1" checked>
+                        @else
+                        <input type="checkbox" name="invoice_include" value="1">
+                        @endif
                         <span class="label">Please include a printed profoma invoice with in my shipment</span>
                       </label>
                     </div>
@@ -303,6 +348,7 @@
             var giftwrap =  $("input[name='giftwrap']").is(':checked') ? 1 : 0;
             var giftnote =  $("input[name='giftnote']").is(':checked') ? 1 : 0;
 
+            var maxweight = $("input[name='maxweight']").val();
             var invoice_taxid = $("input[name='invoice_taxid']").val();
             var invoice_personal =  $("input[name='invoice_personal']").is(':checked') ? 1 : 0;
             var invoice_include =  $("input[name='invoice_include']").is(':checked') ? 1 : 0;
@@ -316,6 +362,7 @@
               original: original,
               giftwrap: giftwrap,
               giftnote: giftnote,
+              maxweight: maxweight,
               invoice_taxid: invoice_taxid,
               invoice_personal: invoice_personal,
               invoice_include: invoice_include

@@ -50,10 +50,6 @@ class AdminController extends Controller
         }
 
     	$customers = $query->orderBy('created_at', 'desc')->paginate(100);
-
-        foreach ($customers as $customer) {
-            $this->checkProfileSet($customer->id);
-        }
     	return view('admin.customers')->with('customers', $customers);
     }
 
@@ -119,7 +115,6 @@ class AdminController extends Controller
     	$customer = Customer::find($request->id);
         $countries = Country::all();
     	if (!empty($customer)) {
-            $this->checkProfileSet($customer->id);
     		return view('admin.customer')->with(['customer'=>$customer, 'countries'=>$countries]);
     	}else{
     		return redirect()->route('admin.customers')->with('error', 'Customer profile doesn\'t exists!');

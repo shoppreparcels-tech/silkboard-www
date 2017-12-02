@@ -14,6 +14,7 @@ use App\Customer;
 use App\Package;
 use App\LoyaltyPoint;
 use App\ShipTracking;
+use App\ShipMail;
 
 use App\Mail\ShipmentForConfirm;
 use App\Mail\ShipmentReceived;
@@ -189,7 +190,8 @@ class ShippingController extends Controller
         $customer = Customer::find($shipment->custid);
         $packids = explode(",", $shipment->packids);
         $packages = Package::whereIn('id', $packids)->get();
-        return view('admin.shipment')->with(['shipment'=>$shipment, 'customer'=>$customer, 'packages' => $packages]);
+        $shipmails = ShipMail::where('shipid', $shipment->id)->get()->pluck('condition')->toArray();
+        return view('admin.shipment')->with(['shipment'=>$shipment, 'customer'=>$customer, 'packages' => $packages, 'shipmails' => $shipmails]);
     }
 
     public function orderUpdate(Request $request)
@@ -226,12 +228,31 @@ class ShippingController extends Controller
                 $shipOption->liquid_amt = 2500.00;
             }
         }
+
+        if ($shipOption->overweight == '1') {
+            $packlevel -= $shipOption->overweight_amt;
+            if ($request->weight > 30) {
+                $shipOption->overweight_amt = 2500.00;
+            }else{
+                $shipOption->overweight = '0';
+                $shipOption->overweight_amt = 0;
+            }
+        }else{
+            if ($request->weight > 30) {
+                $shipOption->overweight = '1';
+                $shipOption->overweight_amt = 2500.00;
+            }else{
+                $shipOption->overweight = '0';
+                $shipOption->overweight_amt = 0;
+            }
+        }
+
         $shipOption->save();
 
         $packlevel += $shipOption->liquid_amt;
+        $packlevel += $shipOption->overweight_amt;
         $shipRqst->packlevel = $packlevel;
-
-        /*
+        
         $types = Package::whereIn('id', $packids)->pluck('type')->toArray();
         $packtype = in_array("nondoc", $types) ? 'nondoc' : 'doc';
 
@@ -240,11 +261,10 @@ class ShippingController extends Controller
         $subtotal = $this->calcShipping($country->id, $request->weight, $packtype);
         $discount = ($country->discount / 100) * $subtotal;
         $estimated = ($subtotal -  $discount) + $request->packlevel;
-        */
 
-        $subtotal = $request->subtotal;
+        /*$subtotal = $request->subtotal;
         $discount = $request->discount;
-        $estimated = ($subtotal -  $discount) + $packlevel;
+        $estimated = ($subtotal -  $discount) + $packlevel;*/
 
         $shipRqst->subtotal = $subtotal;
         $shipRqst->discount = $discount;
@@ -257,21 +277,11 @@ class ShippingController extends Controller
             case 'inqueue':
                 $shipRqst->shipstatus = 'inqueue';
             break;
-            case 'dispatched':
-                $shipRqst->shipstatus = 'dispatched';
+            case 'received':
+                $shipRqst->shipstatus = 'received';
                 $shipRqst->paystatus = 'success';
 
-                if (empty($shipRqst->tracking)) {
-                    $tracking = new ShipTracking;
-                    $tracking->shipid = $shipRqst->id;
-                    $tracking->shipdate = date('Y-m-d');
-                    $tracking->box_nos = $shipRqst->count;
-                    $tracking->packweight = $shipRqst->weight;
-                    $tracking->packvalue = $shipRqst->value;
-                    $tracking->save();
-                }
-
-                $points = (int) ((10/100) * $shipRqst->amount);
+                $points = (int) ((10/100) * $shipRqst->finalamount);
                 $loyalid = LoyaltyPoint::where('custid', $shipRqst->custid)->first()->id;
                 $loyalty = LoyaltyPoint::find($loyalid);
                 $loyalty->points += $points;
@@ -283,6 +293,20 @@ class ShippingController extends Controller
                 }
                 $loyalty->level = $level;
                 $loyalty->save();
+
+            break;
+            case 'dispatched':
+                $shipRqst->shipstatus = 'dispatched';
+
+                if (empty($shipRqst->tracking)) {
+                    $tracking = new ShipTracking;
+                    $tracking->shipid = $shipRqst->id;
+                    $tracking->shipdate = date('Y-m-d');
+                    $tracking->box_nos = $shipRqst->count;
+                    $tracking->packweight = $shipRqst->weight;
+                    $tracking->packvalue = $shipRqst->value;
+                    $tracking->save();
+                }
 
             break;
             case 'delivered':
@@ -360,25 +384,41 @@ class ShippingController extends Controller
 
         $shipment = ShipRequest::find($request->shipid);
         if (!empty($shipment)) {
+
             $customer = Customer::find($shipment->custid);
+
+            $mailCondition = "";
+
             switch ($request->condition) {
                 case 'confirmation':
                     Mail::to($customer->email)->send(new ShipmentForConfirm($shipment));
-                    return redirect()->back()->with('message', 'Confirmation mail send to customer.');
+                    $message = 'Confirmation mail send to customer.';
+                    $mailCondition = "for_confirm";
                 break;
                 case 'received':
                     Mail::to($customer->email)->send(new ShipmentReceived());
-                    return redirect()->back()->with('message', 'Payment notification send to customer.');
+                    $message = 'Payment notification send to customer.';
+                    $mailCondition = "pay_received";
                 break;
                 case 'dispatched':
                     Mail::to($customer->email)->send(new ShipmentDispatched($shipment));
-                    return redirect()->back()->with('message', 'Shipment dispatched notification send to customer.');
+                    $message = 'Shipment dispatched notification send to customer.';
+                    $mailCondition = "ship_dispatched";
                 break;
                 case 'delivered':
                     Mail::to($customer->email)->send(new ShipmentDelivered($shipment));
-                    return redirect()->back()->with('message', 'Shipment delivered notification send to customer.');
+                    $message = 'Shipment delivered notification send to customer.';
+                    $mailCondition = "ship_delivered";
                 break;
             }
+
+            $shipMail = new ShipMail;
+            $shipMail->shipid = $shipment->id;
+            $shipMail->condition = $mailCondition;
+            $shipMail->save();
+
+            return redirect()->back()->with('message', $message);
+
         }else{
             return redirect()->route('admin.shipping');
         }

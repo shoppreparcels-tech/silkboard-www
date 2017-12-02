@@ -20,7 +20,7 @@
                     <td style="padding: 5px;">{{$shipment->orderid}}</td>
                     <td style="padding: 5px;">{{$shipment->weight}} Kg</td>
                     <td style="padding: 5px;">Rs. {{$shipment->estimated}}</td>
-                    <td style="padding: 5px;">Confirm your order</td>
+                    <td style="padding: 5px;">Submit Payment</td>
                 </tr>
             </tbody>    
          </table>
@@ -28,6 +28,8 @@
          @endif
             <br>
             <p>Sign in to your Shoppre account and view your <a href="{{route('shipping.queue')}}" target="_blank">Queue</a> and confirm your order at the earliest</p>
+            <p>Kindly Submit your Payment within 7 DAYS of receiving this email. <br>
+            From the 8th day, your parcel will start accumulating Storage fees INR 100/day which you can view in your Shoppre wallet.</p>
 
             Best regards, 
             <br>

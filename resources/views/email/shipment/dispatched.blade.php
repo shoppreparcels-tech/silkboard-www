@@ -33,13 +33,14 @@
                 </tbody>    
              </table>
          @endif
-            <br>
+            <p>You have rightfully earned Shoppre Loyalty Points simply by making a shipment! To know more about Loyalty Points <a href="{{route('customer.loyalty.points')}}"  target="_blank">Click Here</a>.</p>
             <p><strong>Ship-to address:</strong></p>
             <p>
                 <strong>{{$shipment->fullname}}</strong><br>
                 {{$shipment->address}}<br>
                 {{$shipment->phone}}
             </p>
+            <p>You can now view your Shipment under <a href="{{route('shipping.history')}}"  target="_blank">Shipment History</a></p>
             <p>The airway bill number is <strong>{{$tracking->trackid}}</strong>. You can use this <a href="{{$tracking->track_url}}" target="_blank">link</a> to track the package. Please note that tracking will be available only within the next 24 hours.</p>
             <p>Thank you for shipping your purchases with Shoppre! We will keep you posted about the tracking details of the shipment. For additional questions about your shipment, you may reply to this mail.</p>
             Best regards, 

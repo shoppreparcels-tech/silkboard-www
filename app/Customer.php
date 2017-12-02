@@ -27,6 +27,9 @@ class Customer extends Authenticatable
         'password', 'remember_token', 'email_token'
     ];
 
+    public function preference(){
+        return $this->hasOne('App\ShippingPreference','custid');
+    }
     public function contact(){
         return $this->hasOne('App\CustomerContact','customer_id');
     }

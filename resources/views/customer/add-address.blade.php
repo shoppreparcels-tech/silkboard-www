@@ -20,7 +20,7 @@
                     			<div class="title">
                     				<h2 class="text-center">Add New Shipping Address</h2>
                     			</div>
-                    			<form method="post" action="{{route('customer.address.submit')}}">
+                    			<form method="post" action="{{route('customer.address.submit')}}" id="addressform">
 									{{ csrf_field() }}
 									<div class="form-group">
 									    <label class="control-label">Name</label>
@@ -57,7 +57,7 @@
 									<div class="form-group">
 									    <label class="control-label">Country</label>
 								    	<select class="form-control select2" name="country">
-								    	<option>Select Country</option>
+								    	<option value="">Select Country</option>
 								    	@foreach($countries as $country)
 								    		<option value="{{$country->id}}">{{$country->name}}</option>
 								    	@endforeach
@@ -78,7 +78,7 @@
 									    <div class="row">
 									    	<div class="col-sm-4">
 										    	<select class="select2 form-control" name="code">
-										    	<option>Country Code</option>
+										    	<option value="">Country Code</option>
 										    	@foreach($countries as $country)
 										    		<option value="{{$country->phonecode}}">{{$country->iso}}(+{{$country->phonecode}})</option>
 										    	@endforeach
@@ -129,6 +129,33 @@
     <script type="text/javascript">
 		$(document).ready(function() {
 		  $(".select2").select2();
+		});
+	</script>
+	<script src="{{asset('js/validate.min.js')}}"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		    $( "#addressform" ).validate({
+		        rules:
+	            {
+	                name:{required: true},
+	                line1: {required: true},
+	                city: {required: true},
+	                state: {required: true},
+	                country: {required: true},
+	                code: {required: true},
+	                phone: {required: true},
+	            },
+	            messages: 
+	            {
+	                name: { required: "Enter Your Name"},
+	                line1: { required: "Address line 1 required"},
+	                city: { required: "Please enter city"},
+	                state: { required: "Please enter state"},
+	                country: { required: "Please select your country"},
+	                code: { required: "Phone country code required"},
+	                phone: { required: "Please enter your contact number"},
+	            },
+		    });
 		});
 	</script>
 @endsection

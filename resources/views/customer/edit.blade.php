@@ -68,7 +68,7 @@
 	                <hr>
 	                <h3>Phone Numbers</h3>
 	                <div class="form-group">
-	                  <label class="col-sm-2 control-label">Primary *</label>
+	                  <label class="col-sm-2 control-label">Primary</label>
 	                  <div class="col-sm-2">
 	                    <select class="form-control select2" name="code">
 		                    <option value="">Select Option</option>

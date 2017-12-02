@@ -3863,7 +3863,7 @@ input[type=file]:focus, input[type=checkbox]:focus, input[type=radio]:focus {
 }
 .ship-preference .control-label, .ship-preference label{
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     padding: 0;
     top: 5px;
@@ -4467,6 +4467,11 @@ td.customer_action p{
 }
 .dash-history table td{
     text-align: center;
+}
+.dash-history .alert{
+    font-size: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 .queue_ext td{
     text-align: left !important;
