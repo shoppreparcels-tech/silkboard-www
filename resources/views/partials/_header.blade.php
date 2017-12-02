@@ -14,7 +14,7 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li><a href="{{route('about')}}">About Shoppre</a></li>
-          <li><a href="{{route('partner')}}">Become a Partner</a></li>
+          <li><a href="javascript::void(0)">Become a Partner</a></li>
           <li><a href="{{route('faq')}}">FAQ</a></li>
           <li><a href="http://blog.shoppre.com/" target="_blank">Blogs</a></li>
         </ul>
