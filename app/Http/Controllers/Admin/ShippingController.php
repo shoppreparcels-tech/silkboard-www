@@ -435,6 +435,7 @@ class ShippingController extends Controller
 
         ShipOption::where('shipid', $shipment->id)->delete();
         ShipTracking::where('shipid', $shipment->id)->delete();
+        ShipMail::where('shipid', $shipment->id)->delete();
 
         ShipRequest::destroy($shipment->id);
         return redirect()->back()->with('error', 'Shipment deleted successfully.');
