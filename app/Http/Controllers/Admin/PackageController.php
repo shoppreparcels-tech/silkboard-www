@@ -305,7 +305,6 @@ class PackageController extends Controller
         $charge->handling = $request->handling;
         $charge->pickup = $request->pickup;
         $charge->doc = $request->doc;
-        $charge->liquid = $request->liquid;
         $charge->basic_photo = $request->basic_photo;
         $charge->advnc_photo = $request->advnc_photo;
         $charge->save();

@@ -334,11 +334,13 @@
       var shipid =  $("input[name='shipid']").val();
       var insurance =  $("input[name='insurance']").is(':checked') ? 1 : 0;
       var payoption =  $("input[name='payoption']:checked").val();
+      var promocode = $("input[name='promocode']").val();
 
       $.redirect("/shipping/request/finalship",{
         _token: token,
         shipid: shipid,
         insurance: insurance,
+        promocode: promocode,
         payoption: payoption
       }); 
     });

@@ -115,6 +115,8 @@
 <script type="text/javascript">
     jQuery('.datetimepicker').datetimepicker({
         timepicker:false,
+        scrollMonth: false,
+        scrollInput: false,
         format:'Y-m-d'
     });
 </script>

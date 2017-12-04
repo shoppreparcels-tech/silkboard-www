@@ -363,7 +363,7 @@ class ShippingController extends Controller
             $shipOption->invoice_include = $request->invoice_include;
             $shipOption->save();
 
-            $optsamt = $shipOption->repack_amt + $shipOption->sticker_amt + $shipOption->extrapack_amt + $shipOption->original_amt + $shipOption->giftwrap_amt + $shipOption->giftnote_amt;
+            $optsamt = $shipOption->repack_amt + $shipOption->sticker_amt + $shipOption->extrapack_amt + $shipOption->original_amt + $shipOption->giftwrap_amt + $shipOption->giftnote_amt + $shipOption->consolid_amt;
             $packlevel = $optsamt;
             $packlevel += $shipOption->liquid_amt;
             
@@ -642,17 +642,6 @@ class ShippingController extends Controller
     {
         $id = Auth::id();
         $shipments = ShipRequest::where('custid', $id)->whereIn('shipstatus', ['dispatched', 'delivered', 'canceled'])->orderBy('updated_at', 'desc')->get();
-        foreach ($shipments as $shipment) {
-            if (empty($shipment->tracking)) {
-                $tracking = new ShipTracking;
-                $tracking->shipid = $shipment->id;
-                $tracking->shipdate = date('Y-m-d');
-                $tracking->box_nos = $shipment->count;
-                $tracking->packweight = $shipment->weight;
-                $tracking->packvalue = $shipment->value;
-                $tracking->save();
-            }
-        }
         return view('customer.shipping.history')->with('shipments', $shipments);
     }
 

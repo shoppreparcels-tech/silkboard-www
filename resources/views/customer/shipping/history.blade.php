@@ -27,13 +27,13 @@
                         <tr>
                             <td><a class="slide_trigger" data-target="{{++$i}}" href="#" title="Edit"><i class="fa fa-angle-double-down"></i></a></td>
                             <td>
-                              @if($shipment->tracking->shipdate)
+                              @if(!empty($shipment->tracking))
                                 {{date('d M Y', strtotime($shipment->tracking->shipdate))}}</td>
                               @else
                                 {{date('d M Y', strtotime($shipment->updated_at))}}</td>
                               @endif
                             <td>
-                              @if($shipment->tracking->trackid)
+                              @if(!empty($shipment->tracking))
                                 Shipped {{$shipment->tracking->box_nos}} Parcel(s) via: {{$shipment->tracking->carrier}} to {{$shipment->location->iso}} {{$shipment->tracking->packweight}} Kg Tracking# <a href="{{$shipment->tracking->track_url}}" target="_blank">{{$shipment->tracking->trackid}}</a>
                               @else
                                 Tracking# {{$shipment->orderid}}

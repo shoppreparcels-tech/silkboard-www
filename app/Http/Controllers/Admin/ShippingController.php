@@ -430,13 +430,14 @@ class ShippingController extends Controller
       $shipid = $request->id;
       $shipment = ShipRequest::find( $shipid);
       if (!empty($shipment)) {
-        $packids = explode(",", $shipment->packids);
-        Package::whereIn('id', $packids)->update(['status' => 'ship']);
-
+        if ($shipment->shipstatus != 'canceled') {
+            $packids = explode(",", $shipment->packids);
+            Package::whereIn('id', $packids)->update(['status' => 'ship']);
+        }
         ShipOption::where('shipid', $shipment->id)->delete();
         ShipTracking::where('shipid', $shipment->id)->delete();
         ShipMail::where('shipid', $shipment->id)->delete();
-
+        
         ShipRequest::destroy($shipment->id);
         return redirect()->back()->with('error', 'Shipment deleted successfully.');
         

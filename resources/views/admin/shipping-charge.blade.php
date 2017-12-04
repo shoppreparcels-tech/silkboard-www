@@ -126,11 +126,7 @@
                                         @endif
                                         </td>
                                         <td>
-                                            <form method="post" action="{{route('admin.shipping.delete')}}" class="form_del">
-                                                {{ csrf_field() }}
-                                                <input type="hidden" name="rate" value="{{$rate->id}}">
-                                                <button type="submit" class="btn red"><i class="ti-trash"></i></button>
-                                            </form>
+                                            
                                             <a href="#" class="btn slide_trigger" data-target="slidedown_{{$rate->id}}"><i class="ti-pencil-alt"></i></a>
                                         </td>
                                     </tr>
