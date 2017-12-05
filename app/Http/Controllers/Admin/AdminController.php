@@ -16,6 +16,8 @@ use App\LoyaltyMisc;
 use App\ShippingPreference;
 use App\ShopperBalance;
 use App\IncomingOrder;
+use App\Package;
+use App\ShipRequest;
 
 
 class AdminController extends Controller
@@ -27,7 +29,10 @@ class AdminController extends Controller
 
     public function index()
     {
-    	return view('admin.index');
+        $customers = Customer::all();
+        $packages = Package::all();
+        $shipments = ShipRequest::all();
+    	return view('admin.index')->with(['customers' => $customers, 'packages' => $packages, 'shipments' => $shipments]);
     }
 
     public function logout(Request $request)

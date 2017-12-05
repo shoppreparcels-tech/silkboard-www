@@ -120,11 +120,11 @@
                                         </select>
                                     @else
                                         <select name="shipstatus">
-                                            <option {{$shipment->shipstatus === 'inqueue' ? "selected" : ""}} value="inqueue">In Queue</option>
-                                            <option {{$shipment->shipstatus === 'received' ? "selected" : ""}} value="received">Payment Received</option>
-                                            <option {{$shipment->shipstatus === 'dispatched' ? "selected" : ""}} value="dispatched">Dispatched</option>
-                                            <option {{$shipment->shipstatus === 'delivered' ? "selected" : ""}} value="delivered">Delivered</option>
-                                            <option {{$shipment->shipstatus === 'canceled' ? "selected" : ""}} value="canceled">Canceled</option>
+                                            <option {{$shipment->shipstatus === 'inqueue' ? "selected disabled" : ""}} value="inqueue">In Queue</option>
+                                            <option {{$shipment->shipstatus === 'received' ? "selected disabled" : ""}} value="received">Payment Received</option>
+                                            <option {{$shipment->shipstatus === 'dispatched' ? "selected disabled" : ""}} value="dispatched">Dispatched</option>
+                                            <option {{$shipment->shipstatus === 'delivered' ? "selected disabled" : ""}} value="delivered">Delivered</option>
+                                            <option {{$shipment->shipstatus === 'canceled' ? "selected disabled" : ""}} value="canceled">Canceled</option>
                                         </select>
                                     @endif
                                     <label>Shipment Status</label>

@@ -178,8 +178,18 @@
                                     <form method="post" action="{{route('admin.package.mail')}}">
                                     {{csrf_field()}}
                                     <select name="condition">
+                                        @if(in_array('arrived', $packmails))
+                                        <option value="" disabled>Package Arrived</option>
+                                        @else
                                         <option value="arrived">Package Arrived</option>
+                                        @endif
+
+                                        @if(in_array('action_req', $packmails))
+                                        <option value="" disabled>Action Required</option>
+                                        @else
                                         <option value="action_req">Action Required</option>
+                                        @endif
+                                        
                                     </select>
                                     <input type="hidden" name="packid" value="{{$package->id}}">
                                     <button type="submit" class="btn waves-effect waves-light green">Send Notification</button>

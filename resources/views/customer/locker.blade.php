@@ -81,7 +81,7 @@
               <ul class="nav nav-tabs nav-justified" role="tablist">
                 <li role="presentation" class="active"><a href="#ship" aria-controls="ship" role="tab" data-toggle="tab">Ready to send <span class="badge" style="background:#de4535">{{$ships->count()}}</a></li>
                 <li role="presentation"><a href="#review" aria-controls="review" role="tab" data-toggle="tab">In Review <span class="badge" style="background:#0cbb1a">{{$reviews->count()}}</span></a></li>
-                <li role="presentation"><a href="#action" aria-controls="action" role="tab" data-toggle="tab">Action <span class="badge" style="background:#0ebbc2">{{$confirms->count()}}</span></a></li>
+                <li role="presentation"><a href="#action" aria-controls="action" role="tab" data-toggle="tab">Action Required<span class="badge" style="background:#0ebbc2">{{$confirms->count()}}</span></a></li>
                 <li role="presentation"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">View All <span class="badge">{{$packages->count()}}</span></a></li>
               </ul>
               <div class="tab-content">

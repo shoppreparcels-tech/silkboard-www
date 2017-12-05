@@ -19,6 +19,7 @@ use App\PackagePhoto;
 use App\PhotoRequest;
 use App\PackageCharge;
 use App\LoyaltyPoint;
+use App\PackageMail;
 
 use App\Mail\PackageArrived;
 use App\Mail\PackageAction;
@@ -167,7 +168,8 @@ class PackageController extends Controller
         $invoice = PackageInvoice::where('packid', $package->id)->orderBy('updated_at', 'desc')->first();
 
         $customer = Customer::where('locker', $package->locker)->first();
-        return view('admin.package')->with(['package'=>$package, 'customer'=>$customer, 'items'=>$items, 'invoice'=>$invoice]);
+        $packmails = PackageMail::where('packid', $package->id)->get()->pluck('condition')->toArray();
+        return view('admin.package')->with(['package'=>$package, 'customer'=>$customer, 'items'=>$items, 'invoice'=>$invoice, 'packmails' => $packmails]);
     }
 
     public function updatePackage(Request $request)
@@ -321,19 +323,31 @@ class PackageController extends Controller
 
         $package = Package::find($request->packid);
         if (!empty($package)) {
+
+            $mailCondition = "";
             $customer = Customer::find($package->customer_id);
 
             switch ($request->condition) {
                 case 'arrived':
                     Mail::to($customer->email)->send(new PackageArrived($customer, $package));
-                    return redirect()->back()->with('message', 'Package arrival notification send to customer.');
+                    $message = 'Package arrival notification send to customer.';
+                    $mailCondition = "arrived";
                 break;
 
                 case 'action_req':
                     Mail::to($customer->email)->send(new PackageAction());
-                    return redirect()->back()->with('message', 'Action required mail send to customer.');
+                    $message = 'Action required mail send to customer.';
+                    $mailCondition = "action_req";
                 break;
             }
+
+            $packMail = new PackageMail;
+            $packMail->packid = $package->id;
+            $packMail->condition = $mailCondition;
+            $packMail->save();
+
+            return redirect()->back()->with('message', $message);
+
         }else{
             return redirect()->route('admin.packages');
         }

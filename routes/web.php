@@ -168,6 +168,7 @@ Route::post('/shipping/request/submit', 'Customer\ShippingController@submitShipm
 Route::get('/shipping/request/toreview', 'Customer\ShippingController@responseToReview')->name('shipping.request.toreview');
 Route::get('/shipping/request/confirm/{orderid}', 'Customer\ShippingController@confirmShipment')->name('shipping.request.confirm');
 Route::post('/shipping/request/finalship', 'Customer\ShippingController@finalShipRequest')->name('shipping.request.final');
+
 Route::get('/shipping/request/response', 'Customer\ShippingController@responseShipment')->name('shipping.request.response');
 Route::get('/shipping/queue', 'Customer\ShippingController@shipQueue')->name('shipping.queue');
 Route::get('/shipping/history', 'Customer\ShippingController@shipHistory')->name('shipping.history');
