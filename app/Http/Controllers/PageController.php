@@ -95,7 +95,7 @@ class PageController extends Controller
                 $volume = $volume/2.54;
             }
             $volWeight = $volume/5000;
-            if ($volume > $volWeight) {
+            if ($volWeight > $weight) {
                 $weight = $volWeight;
             }
         }
