@@ -143,7 +143,6 @@ Route::post('/package/value/change', 'Customer\PackageController@changeValues')-
 Route::post('/photos/standard/request', 'Customer\PackageController@requestStdPhotos')->name('customer.photos.standard.request');
 Route::post('/photos/advanced/request', 'Customer\PackageController@requestAdvncPhotos')->name('customer.photos.advanced.request');
 
-
 /*------ Address Book ------*/
 Route::get('/address-book', 'Customer\AddressController@addressBook')->name('customer.address');
 Route::get('/add-address', 'Customer\AddressController@addAddress')->name('customer.address.add');
@@ -158,6 +157,14 @@ Route::post('/shipping-preferences', 'Customer\ShippingController@updatePreferen
 Route::get('/account-documents', 'Customer\ShippingController@accountDocs')->name('customer.account.docs');
 Route::post('/account-documents', 'Customer\ShippingController@submitDocs')->name('customer.account.docs.submit');
 Route::get('/account-doc-delete/id/{id}', 'Customer\ShippingController@deleteAccountDoc')->name('customer.account.docs.delete');
+
+/*------- Payment Gateway ---------*/
+// Show payment form
+Route::get('/payment/add-funds/paypal', 'Customer\PaypalController@showForm');
+// Post payment details for store/process API request
+Route::post('/payment/add-funds/paypal', 'Customer\PaypalController@store')->name('payment.paypal.submit');
+// Handle status
+Route::get('/payment/add-funds/paypal/status', 'Customer\PaypalController@getPaymentStatus');
 
 /*------- Ship Request ------------*/
 Route::post('/shipping/request/calculation', 'Customer\ShippingController@ajaxCalculation')->name('shipping.packages.calc.ajax');
