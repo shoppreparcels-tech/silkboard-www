@@ -76,9 +76,9 @@
       @endif
 
       @if(url()->current() == route('personal.shopper'))
-        <li class="active"><a href="{{route('personal.shopper')}}">Personal Shopper</a></li>
+        <li class="active"><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">Personal Shopper</a></li>
       @else
-        <li><a href="{{route('personal.shopper')}}">Personal Shopper</a></li>
+        <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">Personal Shopper</a></li>
       @endif
 
       @if(url()->current() == route('shipping.history'))

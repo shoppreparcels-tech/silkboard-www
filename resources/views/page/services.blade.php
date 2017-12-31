@@ -38,7 +38,7 @@
             <div class="infobox">
               <h4>GIFT YOUR LOVED ONES LIVING OUTSIDE INDIA</h4>
               <p>Simply sign up and buy your favorite product from ANY Indian website, and gift your near and dear ones outside India!</p>
-              <a href="{{route('customer.register')}}" class="btn btn-shoppre">Sign up for free</a>
+              <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-shoppre">Sign up for free</a>
             </div>
             <div class="infobox">
               <h4>SHOPPRE’S UPFRONT SHIPPING RATES. 60-80% DISCOUNTED CARRIER RATES</h4>
@@ -66,12 +66,12 @@
             <div class="infobox">
               <h4>YOUR PERSONAL SHOPPER</h4>
               <p>Simply provide us the product and Seller details, our Personal Shopper will purchase the item on your behalf, using our Indian Local Card!</p>
-              <a href="{{route('personal.shopper')}}" class="btn btn-shoppre">Learn more about Personal Shopper</a>
+              <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper" class="btn btn-shoppre">Learn more about Personal Shopper</a>
             </div>
             <div class="infobox">
               <h4>GIFT YOUR LOVED ONES LIVING IN INDIA</h4>
               <p>Simply sign up and use Shoppre’s Personal Shopper to buy your favorite product from ANY Indian website, and gift your loved ones in India!</p>
-              <a href="{{route('customer.register')}}" class="btn btn-shoppre">Sign up for free</a>
+              <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-shoppre">Sign up for free</a>
             </div>
         </div>
       </div>

@@ -433,11 +433,11 @@
               </tr>
               <tr>
                 <td>Shipping Preferences <a href="#" class="tooltipkey" title="Shoppre gives you various shipping preference options to choose from!"><i class="fa fa-question-circle-o"></i></a></td>
-                <td class="cell-2"><a href="{{route('customer.ship.prefer')}}">Click here to know your options</a></td>
+                <td class="cell-2"><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/shipping-preferences">Click here to know your options</a></td>
               </tr>
               <tr>
                 <td style="border-color: #ffffff;border-right-color: #87bc00;"></td>
-                <td style="padding: 0 !important;border-color: #87bc00;"><a href="{{route('customer.register')}}" class="btn btn-block">Sign up for free</a></td>
+                <td style="padding: 0 !important;border-color: #87bc00;"><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-block">Sign up for free</a></td>
               </tr>
             </table>
           </div>
@@ -472,7 +472,7 @@
               <li>Require added protection and security if it is inadequately  packed for  international shipping.</li>
               <li>Have high volumetric weight than the actual weight.</li>
               <li>We will repack each package to reduce the  weight, which will reduce your  shipping cost .Original package contents are not compromised by repackaging.</li>
-              <li>If you don't wish for your shipments to be repacked, you can set that preference in <a href="{{route('customer.ship.prefer')}}" class="text-orange">your account</a>.</li>
+              <li>If you don't wish for your shipments to be repacked, you can set that preference in <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/shipping-preferences" class="text-orange">your account</a>.</li>
             </ul>
           </div>
           <div class="col-sm-6 repack_box">
@@ -570,7 +570,7 @@
           <div class="col-md-12">
           <h3>So what are you waiting for? Shopp <span class="red">re</span>! Open your big box of happiness today!</h3>
           <p>All you need is a membership to get your Indian Shipping Address immediately!</p>
-          <a href="{{route('customer.register')}}" class="btn btn-shoppre">sign up for free</a>
+          <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-shoppre">sign up for free</a>
           </div>
         </div>
       </div>
