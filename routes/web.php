@@ -70,11 +70,11 @@ Route::prefix('admin')->group(function(){
 	/*Route::post('/shipping/country/delete/{id}', 'Admin\ShippingController@deleteCountry')->name('admin.country.delete');*/
 
 	/*---- Shipping Charges --------*/
-	Route::get('/shipping/charges/', 'Admin\ShippingController@charges')->name('admin.shipping.charges');
-	Route::get('/shipping/charge/{country}', 'Admin\ShippingController@shipCharge')->name('admin.shipping.charge');
-	Route::post('/shipping/submit', 'Admin\ShippingController@shippingRate')->name('admin.shipping.submit');
-	Route::post('/shipping/delete', 'Admin\ShippingController@deleteRate')->name('admin.shipping.delete');
-	Route::post('/shipping/update', 'Admin\ShippingController@updateRate')->name('admin.shipping.update');
+	Route::get('/shippingrate/charges/', 'Admin\ShippingController@charges')->name('admin.shippingrates');
+	Route::get('/shippingrate/{country}', 'Admin\ShippingController@shipCharge')->name('admin.shippingrate');
+	Route::post('/shippingrate/submit', 'Admin\ShippingController@shippingRate')->name('admin.shippingrate.submit');
+	Route::get('/shippingrate/delete/{rate}', 'Admin\ShippingController@deleteRate')->name('admin.shippingrate.delete');
+	Route::post('/shippingrate/update', 'Admin\ShippingController@updateRate')->name('admin.shippingrate.update');
 
 	/*------ Shipments ---------*/
 	Route::get('/shipments', 'Admin\ShippingController@shipments')->name('admin.shipping');

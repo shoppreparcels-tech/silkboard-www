@@ -17,7 +17,7 @@
                     @if (session('message'))
                         <div class="alert alert-success">{{ session('message') }}</div>
                     @endif
-                    <form method="post" action="{{route('admin.shipping.submit')}}">
+                    <form method="post" action="{{route('admin.shippingrate.submit')}}">
                         {{ csrf_field() }}
                             <input type="hidden" name="country" value="{{$country->id}}">
                             <div class="input-field col s3">
@@ -109,6 +109,7 @@
                                         <th>Delivery</th>
                                         <th>Rate</th>
                                         <th></th>
+                                        <th width="50px"></th>
                                     </tr>
                                     @foreach($rates as $rate)
                                     <tr>
@@ -126,14 +127,16 @@
                                         @endif
                                         </td>
                                         <td>
-                                            
                                             <a href="#" class="btn slide_trigger" data-target="slidedown_{{$rate->id}}"><i class="ti-pencil-alt"></i></a>
+                                        </td>
+                                        <td class="red">
+                                            <a href="{{route('admin.shippingrate.delete', [$rate->id])}}"><i class="ti-trash white-text"></i></a>
                                         </td>
                                     </tr>
 
                                     <tr id="slidedown_{{$rate->id}}" style="display:none">
                                         <td colspan="8">
-                                            <form method="post" action="{{route('admin.shipping.update')}}">
+                                            <form method="post" action="{{route('admin.shippingrate.update')}}">
                                             {{ csrf_field() }}
                                                 <div class="input-field col s3">
                                                     <input type="text" class="validate" name="min" value="{{$rate->min}}" autofocus required>

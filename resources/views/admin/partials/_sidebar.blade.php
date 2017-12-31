@@ -42,7 +42,7 @@
           <li><a class="waves-effect" href="{{route('admin.incoming.orders')}}"><i class="ti-truck orange dark"></i> Incoming Orders</a></li>
           <li><a class="waves-effect" href="#"><i class="ti-map-alt blue dark"></i> Shipping Charges</a>
             <ul>
-              <li><a href="{{route('admin.shipping.charges')}}">Shipping Charges</a></li>
+              <li><a href="{{route('admin.shippingrates')}}">Shipping Charges</a></li>
               <li><a href="{{route('admin.country.list')}}">Countries</a></li>
             </ul>
           </li>

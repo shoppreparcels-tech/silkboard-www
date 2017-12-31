@@ -258,13 +258,13 @@ class ShippingController extends Controller
 
         $country = Country::find($shipRqst->country);
 
-        $subtotal = $this->calcShipping($country->id, $request->weight, $packtype);
+        /*$subtotal = $this->calcShipping($country->id, $request->weight, $packtype);
         $discount = ($country->discount / 100) * $subtotal;
-        $estimated = ($subtotal -  $discount) + $request->packlevel;
+        $estimated = ($subtotal -  $discount) + $request->packlevel;*/
 
-        /*$subtotal = $request->subtotal;
+        $subtotal = $request->subtotal;
         $discount = $request->discount;
-        $estimated = ($subtotal -  $discount) + $packlevel;*/
+        $estimated = ($subtotal -  $discount) + $packlevel;
 
         $shipRqst->subtotal = $subtotal;
         $shipRqst->discount = $discount;
@@ -391,22 +391,22 @@ class ShippingController extends Controller
 
             switch ($request->condition) {
                 case 'confirmation':
-                    Mail::to($customer->email)->send(new ShipmentForConfirm($shipment));
+                    Mail::to($customer->email)->bcc('support@shoppre.com')->send(new ShipmentForConfirm($shipment));
                     $message = 'Confirmation mail send to customer.';
                     $mailCondition = "for_confirm";
                 break;
                 case 'received':
-                    Mail::to($customer->email)->send(new ShipmentReceived());
+                    Mail::to($customer->email)->bcc('support@shoppre.com')->send(new ShipmentReceived($shipment));
                     $message = 'Payment notification send to customer.';
                     $mailCondition = "pay_received";
                 break;
                 case 'dispatched':
-                    Mail::to($customer->email)->send(new ShipmentDispatched($shipment));
+                    Mail::to($customer->email)->bcc('support@shoppre.com')->send(new ShipmentDispatched($shipment));
                     $message = 'Shipment dispatched notification send to customer.';
                     $mailCondition = "ship_dispatched";
                 break;
                 case 'delivered':
-                    Mail::to($customer->email)->send(new ShipmentDelivered($shipment));
+                    Mail::to($customer->email)->bcc('support@shoppre.com')->send(new ShipmentDelivered($shipment));
                     $message = 'Shipment delivered notification send to customer.';
                     $mailCondition = "ship_delivered";
                 break;

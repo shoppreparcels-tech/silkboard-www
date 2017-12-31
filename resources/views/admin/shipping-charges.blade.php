@@ -31,7 +31,7 @@
                                     <tr>
                                         <td>{{++$i}}</td>
                                         <td>{{$country->name}}</td>
-                                        <td><a href="{{route('admin.shipping.charge', [$country->iso])}}">View</a></td>
+                                        <td><a href="{{route('admin.shippingrate', [$country->iso])}}">View</a></td>
                                     </tr>
                                     @endforeach
                                 </table>

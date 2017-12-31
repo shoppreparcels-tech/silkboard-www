@@ -21,7 +21,7 @@
             <h3>Shop from India, Ship Worldwide!</h3>
             <p>Door to Door Pickup and International & Domestic Delivery. <a href="https://goo.gl/h1jKr8" class="text-orange" target="_blank">Schedule a Pickup</a></p>
             <p>Receive your FREE Personal Locker and Virtual Shipping Address in India!</p>
-            <a href="{{route('customer.register')}}" class="btn btn-shoppre">Sign up for free</a>
+            <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">Sign up for free</a>
             <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-shoppre popup-youtube">Video <i class="glyphicon glyphicon-play-circle"></i></a>
           </div>
           <div class="bottom">
@@ -270,7 +270,7 @@
           <div class="col-sm-12">
           <h3>So what are you waiting for? Shopp <span class="red">re</span>! Open your big box of happiness today!</h3>
           <p>All you need is a membership to get your Indian Shipping Address immediately!</p>
-          <a href="{{route('customer.register')}}" class="btn btn-shoppre">sign up for free</a>
+          <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">sign up for free</a>
           </div>
         </div>
       </div>

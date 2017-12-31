@@ -3,7 +3,27 @@
         <tr>
             <td valign="middle">
                 <p><strong>Dear Customer,</strong></p>
-                <p>This is to inform you that we have received the payment from your end via wire transfer.</p>
+                @php
+                    switch ($shipment->payoption) {
+                        case 'wire':
+                            $payoption = 'Wire Transfer / Money Order';
+                        break;
+                        case 'paypal':
+                            $payoption = 'PAYPAL';
+                        break;
+                        case 'paytm':
+                            $payoption = 'PAYTM';
+                        break;
+                        case 'pending':
+                            $payoption = 'Pending';
+                        break;
+                        default:
+                            $payoption = '';
+                        break;
+                    }
+                @endphp
+                
+                <p>This is to inform you that we have received the payment from your end via {{$payoption}}.</p>
                 <p>The shipment will be dispatched within the next 24 hours. Will keep you posted on the same.</p>
                 <p>Any questions? <a href="{{route('contact')}}">Contact Us</a>.</p>
                 <br>

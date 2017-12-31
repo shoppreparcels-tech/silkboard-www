@@ -5828,7 +5828,7 @@ ul.newsticker li span{
         padding: 0;
     }
     .login-social a {
-        font-size: 16px;
+        font-size: 14px;
         display: block;
         border-radius: 0 !important;
         margin: 5px !important;
@@ -6263,5 +6263,23 @@ ul.newsticker li span{
         overflow: scroll;
         margin-bottom: 15px;
         border-bottom: 1px solid #fff;
+    }
+    .transcontain .whitebox{
+        width: 95%;
+    }
+    .transcontain .whitebox h3{
+        font-size: 20px;
+    }
+    .transcontain .whitebox p{
+        font-size: 14px;
+    }
+    .transcontain .whitebox form.surveyform{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .transcontain .whitebox form.surveyform .btn{
+        margin-top: 5px;
+        font-size: 12px;
+        padding: 8px 15px;
     }
 }

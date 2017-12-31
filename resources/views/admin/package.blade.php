@@ -300,7 +300,7 @@
                                         <div class="file-field input-field col s10">
                                             <div class="btn">
                                                 <span>Uploads</span>
-                                                <input type="file" name="photos[]" multiple="multiple">
+                                                <input type="file" name="photos[]" multiple="multiple"  accept="image/*" capture="camera">
                                             </div>
                                             <div class="file-path-wrapper">
                                                 <input class="file-path validate" type="text">
@@ -361,7 +361,7 @@
                                         <div class="file-field input-field col s10">
                                             <div class="btn">
                                                 <span>Uploads</span>
-                                                <input type="file" name="photos[]" multiple="multiple">
+                                                <input type="file" name="photos[]" multiple="multiple"  accept="image/*" capture="camera">
                                             </div>
                                             <div class="file-path-wrapper">
                                                 <input class="file-path validate" type="text">

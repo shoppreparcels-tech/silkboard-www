@@ -363,20 +363,25 @@ class ShippingController extends Controller
             $shipOption->invoice_include = $request->invoice_include;
             $shipOption->save();
 
-            $optsamt = $shipOption->repack_amt + $shipOption->sticker_amt + $shipOption->extrapack_amt + $shipOption->original_amt + $shipOption->giftwrap_amt + $shipOption->giftnote_amt + $shipOption->consolid_amt;
-            $packlevel = $optsamt;
+            $packlevel = $shipment->packlevel;
+            $packlevel += $shipOption->repack_amt + $shipOption->sticker_amt + $shipOption->extrapack_amt + $shipOption->original_amt + $shipOption->giftwrap_amt + $shipOption->giftnote_amt + $shipOption->consolid_amt;
+            
             $packlevel += $shipOption->liquid_amt;
             
-            
             $updateShip = ShipRequest::find($shipment->id);
+
+            $estimated = $updateShip->estimated;
+            $estimated -= $shipment->packlevel;
+            $estimated += $packlevel;
+
             $updateShip->packlevel = $packlevel;
-            $updateShip->estimated += $packlevel;
+            $updateShip->estimated = $estimated;
             $updateShip->save();
 
             Package::whereIn('id', $packids)->update(['status' => 'processing']);
 
             $customer = Customer::find($custid);
-            Mail::to($customer->email)->send(new ShipmentRequested($packages, $address));
+            Mail::to($customer->email)->bcc('support@shoppre.com')->send(new ShipmentRequested($packages, $address));
 
             $request->session()->put(['shipid'=>$shipment->id]);
 
@@ -616,7 +621,7 @@ class ShippingController extends Controller
             $customer = Customer::find($custid);
             $finalShipment = ShipRequest::find($shipid);
 
-            Mail::to($customer->email)->send(new ShipmentConfirmed($finalShipment));
+            Mail::to($customer->email)->bcc('support@shoppre.com')->send(new ShipmentConfirmed($finalShipment));
 
             return redirect()->route('shipping.request.response');
         }

@@ -46,11 +46,11 @@
                                                   case 'wire':
                                                     echo 'Wire transfer/Money order';
                                                   break;
-                                                  case 'card':
-                                                    echo 'Credit Card/Debit Card';
+                                                  case 'paypal':
+                                                    echo 'PAYPAL';
                                                   break;
-                                                  case 'netbank':
-                                                    echo 'Net Banking';
+                                                  case 'paytm':
+                                                    echo 'PAYTM';
                                                   break;
                                                 }
                                               @endphp

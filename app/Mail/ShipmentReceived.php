@@ -16,9 +16,9 @@ class ShipmentReceived extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($shipment)
     {
-        //
+        $this->shipment = $shipment;
     }
 
     /**
@@ -35,6 +35,7 @@ class ShipmentReceived extends Mailable
         return $this->view('email.shipment.received')
             ->from($from_mail, $from_name)
             ->replyTo($from_mail, $from_name)
-            ->subject($subject);
+            ->subject($subject)
+            ->with(['shipment' => $this->shipment]);
     }
 }

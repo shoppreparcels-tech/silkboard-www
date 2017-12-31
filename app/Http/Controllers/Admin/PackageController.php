@@ -82,8 +82,12 @@ class PackageController extends Controller
     		'received' => 'required|date'
     	]);
 
-    	$package = new Package;
     	$customer = Customer::where('locker', $request->locker)->first();
+        if (empty($customer)) {
+            return redirect()->back()->with('error', 'Invalid Locker Number Entered!');
+        }
+
+        $package = new Package;
     	$package->customer_id = $customer->id;
 
         do
@@ -329,13 +333,13 @@ class PackageController extends Controller
 
             switch ($request->condition) {
                 case 'arrived':
-                    Mail::to($customer->email)->send(new PackageArrived($customer, $package));
+                    Mail::to($customer->email)->bcc('support@shoppre.com')->send(new PackageArrived($customer, $package));
                     $message = 'Package arrival notification send to customer.';
                     $mailCondition = "arrived";
                 break;
 
                 case 'action_req':
-                    Mail::to($customer->email)->send(new PackageAction());
+                    Mail::to($customer->email)->bcc('support@shoppre.com')->send(new PackageAction());
                     $message = 'Action required mail send to customer.';
                     $mailCondition = "action_req";
                 break;
