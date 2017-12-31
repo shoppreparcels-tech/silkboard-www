@@ -9,7 +9,7 @@
     <meta name="keywords" content="@yield('keywords')">
     <link rel="shortcut icon" href="{{asset('img/favicon.png')}}">
       <link rel="icon" type="image/png" href="{{asset('img/favicon.png')}}" sizes="60x60">
-    <title>Shoppre @yield('title')</title>
+    <title>@yield('title')</title>
     <!-- Bootstrap -->
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- Font Awesome -->
