@@ -7,8 +7,8 @@
 @section('content')
   <section class="timeline">
       <div class="container">
-          <h1> India to {{$country}}</h1>
-          <br></br>
+          <h1>Shipping from india to {{$country}}</h1>
+          <br>
           <h4>Ship from India to {{$country}}. Shoppre offers DOOR TO DOOR courier to {{$country}} from ANY part of India. The charges are cheapest in India for sending courier to {{$country}} . This is by a courier company which is the best in industry for parcel services to {{$country}} .</h4>
       </div>
 
