@@ -7,7 +7,6 @@
 @section('content')
   <section class="timeline">
       <div class="container">
-
       </div>
   </section>
 @endsection
