@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'How Does it Works | Shoppre - International Shipping Partner')
-@section('description', 'Learn more how Our personal Shoppre service manages and ship your packages from multiple Indian stores and delivered to your country in just 2 to 4 days!')
-@section('keywords', 'learn more, our personal shoppre service, manages, ship your packages, multiple indian stores, delivered to your country')
+@section('title',  'Shipping From India To '.ucfirst(trans($country)).'- Courier Services To '.ucfirst(trans($country)))
+@section('description', 'Shoppre offers Door to Door courier service to ' .ucfirst(trans($country)). 'from any part of India. The charges are cheapest in India for sending courier to' .ucfirst(trans($country)).'. Sign Up Now!')
+@section('keywords', 'ship your packages, delivered to your country, parcel services to '.ucfirst(trans($country)).', sending courier to ' .ucfirst(trans($country)).', shipping')
 
 @section('content')
   <section class="timeline">

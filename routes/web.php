@@ -17,5 +17,6 @@ Route::post('/stores/sort', 'PageController@sortStores')->name('stores.sort');
 Route::get('/reviews', 'PageController@reviews')->name('reviews');
 Route::post('/reviews/submit', 'PageController@submitReview')->name('reviews.submit');
 Route::get('/shipping-from-india-to-{country}', 'PageController@urlTarget')->name('urlTarget');
+Route::get('/shipping-from-india-to-{country}', 'PageController@urlTarget')->name('urlTarget');
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');
