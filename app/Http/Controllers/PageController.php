@@ -22,6 +22,12 @@ use App\Mail\GetQuote;
 
 class PageController extends Controller
 {
+    public function urlTarget(Request $request)
+    {
+        $country = $request->country;
+        return view('page.url-target')->with(['country' => $country]);
+    }
+
     public function home()
     {
         $reviews = Review::orderBy('updated_at', 'desc')
