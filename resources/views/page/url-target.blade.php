@@ -7,10 +7,9 @@
 @section('content')
   <section class="timeline">
       <div class="container">
-          <h1>Shipping from india to {{$country}}</h1>
+          <h1>Shipping from India to {{ucfirst(trans($country))}}</h1>
           <br>
-          <h4>Ship from India to {{$country}}. Shoppre offers DOOR TO DOOR courier to {{$country}} from ANY part of India. The charges are cheapest in India for sending courier to {{$country}} . This is by a courier company which is the best in industry for parcel services to {{$country}} .</h4>
+          <h4>Ship from India to {{ucfirst(trans($country))}}. Shoppre offers DOOR TO DOOR courier to {{ucfirst(trans($country))}} from ANY part of India. The charges are cheapest in India for sending courier to {{ucfirst(trans($country))}} . This is by a courier company which is the best in industry for parcel services to {{ucfirst(trans($country))}} .</h4>
       </div>
-
   </section>
 @endsection
