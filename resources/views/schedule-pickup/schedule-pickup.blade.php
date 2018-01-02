@@ -72,7 +72,7 @@
                     <div class="col-sm-6">
                         <div class="form-group">
                             <label>Size Of The Package If You Are Aware( Length, Breadth and Height ) :</label>
-                            <input type="text" class="form-control" placeholder="Enter first name" name="size_of_package(optional)" required/>
+                            <input type="text" class="form-control" placeholder="Enter package size" name="size_of_package(optional)" required/>
                             <div class="clearfix"></div>
                         </div>
                     </div>

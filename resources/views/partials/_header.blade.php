@@ -20,6 +20,8 @@
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
+          <li class="padding_li1" href="mailto:support@shoppre.com"><i class="fa fa-envelope icon_margen"></i>support@shoppre.com</li>
+          <li class="padding_li2" href="tel:+91-80 4094 4077"><i class="fa fa-mobile icon_margen"></i>+91 80 4094 4077</li>
           @if(Auth::guard('customer')->check())
             <li><a href="{{route('customer.locker')}}"><i class="fa fa-user"></i> {{Auth::guard('customer')->user()->name}}</a></li>
             <li><a href="{{route('customer.logout')}}"><i class="fa fa-sign-out"></i> Logout</a></li>
@@ -63,6 +65,7 @@
           <li><a href="{{route('stores')}}">Browse Categories</a></li>
           <li><a href="{{route('pricing')}}">Pricing</a></li>
           <li><a href="{{route('contact')}}">Contact us</a></li>
+          <li><a href="#">Feedback</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

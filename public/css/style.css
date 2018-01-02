@@ -33,10 +33,31 @@ body{
     display: none;
 }
 
+.icon_margen{
+    margin-right: 5px;
+}
+
+.padding_li1
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:#fff;
+    margin-right: 17px;
+}
+
+.padding_li2
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:#fff;
+    margin-right: 17px;
+}
+
 img {
     vertical-align: top;
     max-width: 100%;
 }
+
 a {
     color: #ff691e;
     text-decoration: none;
