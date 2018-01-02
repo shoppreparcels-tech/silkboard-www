@@ -5,7 +5,7 @@
 ' from any part of India. The charges are cheapest in India for sending courier to' .ucfirst(trans($country)).'. Sign Up Now!')
 @section('keywords', 'ship your packages, delivered to your country, parcel services to '.ucfirst(trans($country)).',
 sending courier to ' .ucfirst(trans($country)).', shipping')
-<meta name="robots" content="noydir, noodp"/>
+
 @section('content')
   <section class="timeline">
       <div class="container">
