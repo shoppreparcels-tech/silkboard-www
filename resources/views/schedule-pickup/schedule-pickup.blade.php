@@ -64,7 +64,7 @@
                             <label>Weight Of Package <span class="mendatory_fields">*</span> :</label>
                             <input type="text" class="form-control" placeholder="Enter package weight" name="package_weight" required/>
                             @if ($errors->has('package_weight'))
-                                <span class="error">{{ $errors->first('package_weight') }}</span>
+                                <span class="error">{{ $errors->first('package_weight')}}</span>
                             @endif
                             <div class="clearfix"></div>
                         </div>
@@ -72,7 +72,7 @@
                     <div class="col-sm-6">
                         <div class="form-group">
                             <label>Size Of The Package If You Are Aware( Length, Breadth and Height ) :</label>
-                            <input type="text" class="form-control" placeholder="Enter first name" name="size_of_package" required/>
+                            <input type="text" class="form-control" placeholder="Enter first name" name="size_of_package(optional)" required/>
                             <div class="clearfix"></div>
                         </div>
                     </div>
