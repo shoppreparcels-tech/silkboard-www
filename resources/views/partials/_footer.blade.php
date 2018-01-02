@@ -17,7 +17,7 @@
             <li><a href="{{route('howitworks')}}">How Shoppre Works</a></li>
             <li><a href="{{route('services')}}">Our Services</a></li>
             <li><a href="{{route('pricing')}}">Shipping and Pricing for your country</a></li>
-            <li><a href="https://myaccount.shoppre.com/loyalty-points">Shoppre Loyalty Points</a></li>
+            <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/loyalty-points">Shoppre Loyalty Points</a></li>
             {{--<li><a href="javascript::void(0)">Country Guides</a></li>--}}
             <li><a href="{{route('stores')}}">Browse Categories</a></li>
             <li><a href="javascript::void(0)">Become a Partner</a></li>
