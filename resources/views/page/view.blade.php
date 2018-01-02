@@ -17,7 +17,7 @@
   <section class="page_view">
     <div class="container">
       <div class="col-md-12">
-          {!!$page->content!!}
+
       </div>
     </div>
   </section>
