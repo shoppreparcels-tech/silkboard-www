@@ -24,8 +24,10 @@ class PageController extends Controller
 {
     public function urlTarget(Request $request)
     {
-        $country = $request->country;
-        return view('page.url-target')->with(['country' => $country]);
+        $destination = $request->destination;
+        $source = $request->source;
+        $content = $request->contents;
+        return view('page.url-target')->with(['source' => $source,'content'=>$content,'destination'=>$destination]);
     }
 
     public function home()
