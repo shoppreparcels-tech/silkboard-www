@@ -21,5 +21,6 @@ Route::get('/{initial}-{content}-from-{source}-to-{destination}', 'PageControlle
 Route::get('/schedule-pickup', 'SchedulePickupController@index')->name('schedulePickup.Index');
 Route::post('/schedule-pickup', 'SchedulePickupController@submit')->name('schedulePickup.Submit');
 Route::get('/schedule-pickup/confirm', 'SchedulePickupController@confirm')->name('schedulePickup.confirmPickup');
+Route::get('/email-design', 'PageController@checkEmail')->name('checkemail');
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');

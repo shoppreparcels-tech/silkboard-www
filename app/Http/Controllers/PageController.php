@@ -25,19 +25,18 @@ use App\Http\Controllers\SchedulePickup;
 
 class PageController extends Controller
 {
-    public function urlTargetShipping(Request $request)
+
+    public function checkEmail()
     {
-        $destination = $request->destination;
-        $source = $request->source;
-        $content = $request->contents;
-        return view('page.url-target')->with(['source' => $source,'content'=>$content,'destination'=>$destination]);
+       
+     return view('email.schedule-pickup');
     }
-    public function urlTargetSend(Request $request)
+
+    public function urlTarget(Request $request)
     {
         $destination = $request->destination;
         $source = $request->source;
         $content = $request->contents;
-        $initial = $request->initial;
         return view('page.url-target')->with(['source' => $source,'content'=>$content,'destination'=>$destination]);
     }
 

@@ -70,7 +70,7 @@
                             <table style="box-sizing: border-box; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
                                <tr>
                         <td valign="top" width="500" style="color:#666666;font-size:23px;text-align:left;padding: 10px 10px 20px 5px;line-height:20px;color: #5e5e5f;>
-                            <p style="font-size: 34px;color: #1f2533;">Dear {{$data->fist_name}} {{$data->fist_name}},</p>                
+                            <p style="font-size: 34px;color: #1f2533;">Dear {{$data->fist_name}} {{data->fist_name}},</p>                
                         </td>
                       </tr>
                                 <tr>
@@ -78,13 +78,14 @@
                                         <p style="font-size: 16px;color: #1f2533;"> Shoppre team had recieved your schedule pickup request and As processed it . Our team will get back to you on the same. If you have any queries please contact us through  <u>support@shoppre.com</u> . 
                              </p>
                                     </td>
-                                </tr>    
-
-                                <tr>
+                                </tr>   
+                   
                                  <tr>
                                    <br>
                                     <br>
                                    <br>
+                                 </tr>
+                                 <tr>
                                   <td valign="top">
                                     <table cellpadding="0" cellspacing="0" width="600" border="2" align="center">
                                       <thead>
