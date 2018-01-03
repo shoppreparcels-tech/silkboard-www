@@ -64,7 +64,52 @@
                         </tr>
                     </table>
                 </div>
-                <table class="main" style="box-sizing: border-box; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #f2f2f2; border: 1px solid #e9e9e9; border-radius: 3px;" width="100%">                    
+                <table class="main" style="box-sizing: border-box; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #f2f2f2; border: 1px solid #e9e9e9; border-radius: 3px;" width="100%">
+                    <tr>
+                        <td class="wrapper" style="box-sizing: border-box; font-size: 14px; vertical-align: top; font-family: 'Source Sans Pro', Helvetica, Arial, 'Lucida Grande', sans-serif; padding: 0;" valign="top">
+                            <table style="box-sizing: border-box; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+                               <tr>
+                        <td valign="top" width="500" style="color:#666666;font-size:23px;text-align:left;padding: 10px 10px 20px 5px;line-height:20px;color: #5e5e5f;>
+                            <p style="font-size: 34px;color: #1f2533;">Dear {{data->fist_name}} {{data->fist_name}},</p>                
+                        </td>
+                      </tr>
+                                <tr>
+                                    <td class="padder-md" style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top; padding: 10px;" valign="top">
+                                        <p style="font-size: 16px;color: #1f2533;"> Shoppre team had recieved your schedule pickup request and As processed it . Our team will get back to you on the same. If you have any queries please contact us through  <u>support@shoppre.com</u> . 
+                             </p>
+                                    </td>
+                                </tr>    
+
+                                <tr>
+                                 <tr>
+                                   <br>
+                                    <br>
+                                   <br>
+                                  <td valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="600" border="2" align="center">
+                                      <thead>
+                                      <tr>
+                                       <th>Pickup Address</th>
+                                       <th>Destination Address</th>
+                                       <th>Package Dimentions</th>
+                                       <th>Package Weight</th>                       
+                                      </tr>
+                                      </thead>
+                                      <tbody>
+                                      <tr>
+                                       <td>
+                                        {{data->pickup_address}}
+                                       </td>
+                                       <td> 
+                                        {{data->dest_address}}
+                                       </td>
+                                       <td>{{data->size_of_package}}</td>
+                                       <td>1{{data->package_weight}} kg.</td>
+                                     </tr>
+                                    </tbody>
+                                  </table>
+                                  </td>
+                                </tr> 
                                   <tr>
                                     <td class="padder-md" style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top; padding: 10px;" valign="top">
                                       <br>
