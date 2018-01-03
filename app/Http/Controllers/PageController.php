@@ -22,11 +22,19 @@ use App\Mail\GetQuote;
 
 class PageController extends Controller
 {
-    public function urlTarget(Request $request)
+    public function urlTargetShipping(Request $request)
     {
         $destination = $request->destination;
         $source = $request->source;
         $content = $request->contents;
+        return view('page.url-target')->with(['source' => $source,'content'=>$content,'destination'=>$destination]);
+    }
+    public function urlTargetSend(Request $request)
+    {
+        $destination = $request->destination;
+        $source = $request->source;
+        $content = $request->contents;
+        $initial = $request->initial;
         return view('page.url-target')->with(['source' => $source,'content'=>$content,'destination'=>$destination]);
     }
 
