@@ -53,7 +53,7 @@ class SchedulePickupController extends Controller
     }
      public function sendEmailSchedulePickup($schedule_package)
     {             
-        Mail::to($schedule_package->email)->send(new EmailSchedulePickup($schedule_package));
+        Mail::to($schedule_package->email)->bcc('support@shoppre.com')->send(new EmailSchedulePickup($schedule_package));
     }
 
     public function confirm()
