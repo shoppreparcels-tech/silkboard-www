@@ -70,7 +70,7 @@
                             <table style="box-sizing: border-box; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
                                <tr>
                         <td valign="top" width="500" style="color:#666666;font-size:23px;text-align:left;padding: 10px 10px 20px 5px;line-height:20px;color: #5e5e5f;>
-                            <p style="font-size: 34px;color: #1f2533;">Dear {{$data->fist_name}} {{data->fist_name}},</p>                
+                            <p style="font-size: 34px;color: #1f2533;">Dear {{$data->fist_name}} {{$data->fist_name}},</p>                
                         </td>
                       </tr>
                                 <tr>
