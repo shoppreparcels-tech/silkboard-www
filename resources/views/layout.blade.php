@@ -25,7 +25,7 @@
     <link href="{{asset('css/txtProgress.min.css')}}" rel="stylesheet">
     @yield('css_style')
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
-
+    <meta name="msvalidate.01" content="0E25F147AD9B658B4418A996E97D0D7D" />
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

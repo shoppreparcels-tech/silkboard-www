@@ -15,7 +15,7 @@ sending courier to ' .ucfirst(trans($destination)).', shipping')
               {{ucfirst(trans($destination))}} from ANY part of India. The charges are cheapest in {{ucfirst(trans($source))}} for sending
               courier to {{ucfirst(trans($destination))}} . This is by a courier company which is the best in industry
               for parcel services to {{ucfirst(trans($destination))}} .</h4>
-          <br></div>br>
+          <br></div><br>
           <div class="col-sm-10">
            <div class="parcel_logs">
           <h3>Ship your Parcel through Shoppre’s trusted Courier Partners</h3>
