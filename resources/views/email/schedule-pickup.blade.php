@@ -69,8 +69,8 @@
                         <td class="wrapper" style="box-sizing: border-box; font-size: 14px; vertical-align: top; font-family: 'Source Sans Pro', Helvetica, Arial, 'Lucida Grande', sans-serif; padding: 0;" valign="top">
                             <table style="box-sizing: border-box; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
                                <tr>
-                        <td valign="top" width="500" style="color:#666666;font-size:23px;text-align:left;padding: 10px 10px 20px 5px;line-height:20px;color: #5e5e5f;>
-                            <p style="font-size: 34px;color: #1f2533;">Dear {{$data->first_name}} {{$data->first_name}},</p>                
+                        <td valign="top" width="500" font="23px" style="color:#666666;font-size:23px;text-align:left;padding: 10px 10px 20px 5px;line-height:20px;color: #5e5e5f;>
+                            <p style="font-size: 34px;color: #1f2533;"><font size="23"> Dear {{$data->first_name}} {{$data->last_name}},</font></p>                
                         </td>
                       </tr>
                                 <tr>
