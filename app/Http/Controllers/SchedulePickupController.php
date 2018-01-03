@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\SchedulePickup;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use App\Mail\EmailSchedulePickup;
 
 use Auth;
 
@@ -45,7 +46,14 @@ class SchedulePickupController extends Controller
         $schedule_package->special_items = $special_items;
 
         $schedule_package->save();
+
+        $this->sendEmailSchedulePickup($schedule_package);
+
         return redirect(route('schedulePickup.confirmPickup'));
+    }
+     public function sendEmailSchedulePickup($schedule_package)
+    {             
+        Mail::to($schedule_package->email)->send(new EmailSchedulePickup($schedule_package));
     }
 
     public function confirm()

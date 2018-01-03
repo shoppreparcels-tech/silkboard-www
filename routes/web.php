@@ -16,7 +16,7 @@ Route::get('/browse-categories', 'PageController@stores')->name('stores');
 Route::post('/stores/sort', 'PageController@sortStores')->name('stores.sort');
 Route::get('/reviews', 'PageController@reviews')->name('reviews');
 Route::post('/reviews/submit', 'PageController@submitReview')->name('reviews.submit');
-Route::get('/{contents}-from-{source}-to-{destination}', 'PageController@urlTarget')->name('urlTarget');
+Route::get('/sipping/{contents}-from-{source}-to-{destination}', 'PageController@urlTarget')->name('urlTarget');
 Route::get('/schedule-pickup', 'SchedulePickupController@index')->name('schedulePickup.Index');
 Route::post('/schedule-pickup', 'SchedulePickupController@submit')->name('schedulePickup.Submit');
 Route::get('/schedule-pickup/confirm', 'SchedulePickupController@confirm')->name('schedulePickup.confirmPickup');

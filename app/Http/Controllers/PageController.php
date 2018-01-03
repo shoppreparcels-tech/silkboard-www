@@ -19,6 +19,9 @@ use App\Review;
 
 use App\Mail\ContactEnquiry;
 use App\Mail\GetQuote;
+use App\Http\Controllers\SchedulePickup;
+
+
 
 class PageController extends Controller
 {
