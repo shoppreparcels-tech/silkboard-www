@@ -48,6 +48,15 @@ class PageController extends Controller
         $initial = $request->initial;
         return view('page.url-target')->with(['source' => $source,'content'=>$content,'destination'=>$destination]);
     }
+    public function urlTargetContent(Request $request)
+    {
+        $destination = $request->destination;
+        $source = $request->source;
+        $cprefix = $request->cprefix;
+        $cpostfix = $request->cpostfix;
+        $initial = $request->initial;
+        return view('page.url-target')->with(['source' => $source,'destination'=>$destination]);
+    }
 
     public function home()
     {
