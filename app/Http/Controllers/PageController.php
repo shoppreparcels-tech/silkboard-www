@@ -22,15 +22,15 @@ use App\Mail\GetQuote;
 use App\Http\Controllers\SchedulePickup;
 
 
-
 class PageController extends Controller
 {
 
-    public function checkEmail()
-    {
-       
-     return view('email.schedule-pickup');
-    }
+   public function countryList()
+   {
+     $country_list = Country::orderBy('name','asc')->get();
+     echo $country_list;
+     exit;
+   }
 
     public function urlTargetShipping(Request $request)
     {

@@ -51,8 +51,8 @@
           <div class="clearfix"></div>
           <ul class="horline">
             <li>
-              <h2>1000+</h2>
-              <h4>Indian Shopping Websites</h4>
+              <a href="{{route('stores')}}"><h2>1000+</h2>
+              <h4>Indian Shopping Websites</h4></a>
             </li>
             <li>
               <h2>220+</h2>
@@ -61,8 +61,7 @@
             <li>
               <h2>2-4 Days</h2>
               <h4>Average Delivery Time</h4>
-            </li>
-            
+            </li>            
             <li>
               <h2>Save 60-80%</h2>
               <h4>Storage, Consolidation &amp; Repackaging!</h4>
@@ -275,6 +274,30 @@
           </div>
         </div>
       </div>
+      <hr>
+      <div class="container">
+      <div class="mdl-grid mdl-grid--no-spacing">
+        <h6 class="mdl-cell mdl-cell--12-col footer__popularDestiHeading"></h6>
+        <div class="mdl-cell mdl-cell--12-col">
+            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'india','destination'=>'usa'])}}" 
+              class="footer__destiLinks text_font">Ship from India / </a>
+            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'bengaluru','destination'=>'usa'])}}" 
+              class="footer__destiLinks text_font">Ship from Bengaluru / </a>
+            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'delhi','destination'=>'usa'])}}" 
+              class="footer__destiLinks text_font">Ship from Delhi / </a>
+            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'jaipur','destination'=>'usa'])}}" 
+              class="footer__destiLinks text_font">Ship from Jaipur / </a>
+            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'mumbai','destination'=>'usa'])}}" 
+              class="footer__destiLinks text_font">Ship from Mumbai / </a>
+            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'hyderabad','destination'=>'usa'])}}" 
+              class="footer__destiLinks text_font">Ship from Hyderabad / </a>
+            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'chennai','destination'=>'usa'])}}"
+              class="footer__destiLinks text_font">Ship from Chennai / </a>
+            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'kochi','destination'=>'usa'])}}" 
+              class="footer__destiLinks text_font">Ship from Kochi</a>                  
+        </div>
+      </div>
+    </div>
     </section>
 @endsection
 
