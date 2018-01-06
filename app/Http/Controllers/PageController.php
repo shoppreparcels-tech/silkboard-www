@@ -27,9 +27,8 @@ class PageController extends Controller
 
    public function countryList()
    {
-     $country_list = Country::orderBy('name','asc')->get();
-     echo $country_list;
-     exit;
+     $countries = Country::orderBy('name','asc')->get();
+       return view('page.country-list')->with(['countries' => $countries]);
    }
 
     public function urlTargetShipping(Request $request)
@@ -39,7 +38,6 @@ class PageController extends Controller
         $initial = $request->initial;
         return view('page.url-target')->with(['source' => $source,'destination'=>$destination]);
     }
-
     public function urlTargetSend(Request $request)
     {
         $destination = $request->destination;
@@ -57,7 +55,6 @@ class PageController extends Controller
         $initial = $request->initial;
         return view('page.url-target')->with(['source' => $source,'destination'=>$destination]);
     }
-
     public function home()
     {
         $reviews = Review::orderBy('updated_at', 'desc')

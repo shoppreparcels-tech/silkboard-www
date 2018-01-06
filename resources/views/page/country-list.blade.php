@@ -1,23 +1,70 @@
 @extends('layout')
 
-@section('title',  'Shipping From India To World Wide))
-@section('description', 'Shoppre offers Door to Door courier service to Anywhere in the world. Sign Up Now!')
-@section('keywords', 'ship your packages, delivered to your country, parcel services to World Wide)
+@section('title', 'Browse Categories: List of Top Indian Shopping Sites | Shoppre')
+@section('description', 'Shop from list of Top Indian Shopping Sites, Facebook & Instagram Sellers. Save by combining multiple packages into one and get it shipped to your country.')
+@section('keywords', 'shop, list of top indian shopping sites, facebook, instagram sellers, multiple packages, shipped to your country')
 
 @section('content')
-  <section class="timeline">
-      <div class="container-fluid">
-          <h1>Shipping from india to world wide</h1>
-          <br> 
-          <div class="col-sm-10">
-           <div class="parcel_logs">
-          <h3>Ship your Parcel through Shoppre’s trusted Courier Partners</h3>
-          <img src="{{asset('img/dhl.png')}}">
-          <img src="{{asset('img/fedex.png')}}">
-          <img src="{{asset('img/dtdc.png')}}">
-          <h4>Shoppre receives and ships over INR 10,00,000 worth in eCommerce purchases monthly!</h4>
-           </div>
-          </div>
-      </div>
-  </section>
+
+    {{--<section class="page_head">--}}
+        {{--<div class="pagebanner">--}}
+            {{--<img src="{{asset('img/teaser_banner.jpg')}}" width="100%">--}}
+            {{--<div class="banner-cap">--}}
+                {{--<h2>Ship</h2>--}}
+                {{--<h2 class="text-orange">World Wide</h2>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
+
+    <section class="sellers">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="seller_tab">
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade in active">
+                                @foreach($countries as $country)
+                                    <div class="col-sm-2">
+                                        <div class="seller_box">
+                                            @php
+                                                $logo = (!empty($country->flag)) ? $country->flag : 'brand-logo.png';
+                                            @endphp
+                                            <span class="brand_logo" style="background-image: url('{{asset('img/flags')}}/{{$logo}}');"></span>
+                                            <span><h3>{{$country->name}}</h3>  <a href="#" class="btn btn-shoppre">More Info</a></span>
+                                            {{--@if(Auth::check())--}}
+                                                {{--@if(in_array($country->id, $cid))--}}
+                                                    {{--<a href="#" class="myfavstore active" data-clubid="{{$cid->id}}"><i class="bookmark-icon"></i></a>--}}
+                                                {{--@else--}}
+                                                    {{--<a href="#" class="myfavstore" data-clubid="{{$cid->id}}"><i class="bookmark-icon"></i></a>--}}
+                                                {{--@endif--}}
+                                            {{--@endif--}}
+                                        </div>
+                                    </div>
+                                @endforeach
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="ajaxload"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="signup_free">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>So what are you waiting for? Shopp <span class="red">re</span>! Open your big box of happiness today!</h3>
+                    <p>All you need is a membership to get your Indian Shipping Address immediately!</p>
+                    <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-shoppre">sign up for free</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+@endsection
+
+@section('js_script')
+    <script type="text/javascript" src="{{asset('js/store.js')}}"></script>
 @endsection

@@ -23,5 +23,7 @@ Route::get('/schedule-pickup', 'SchedulePickupController@index')->name('schedule
 Route::post('/schedule-pickup', 'SchedulePickupController@submit')->name('schedulePickup.Submit');
 Route::get('/schedule-pickup/confirm', 'SchedulePickupController@confirm')->name('schedulePickup.confirmPickup');
 Route::get('/countries', 'PageController@countryList')->name('countryList');
-
+Route::get('/feedback', 'FeedbackController@index')->name('feedback.Index');
+Route::post('/feedback/submit', 'FeedbackController@submit')->name('feedback.submit');
+Route::get('/feedback/confirm', 'FeedbackController@confirm')->name('feedback.confirm');
 Route::get('/{slug}', 'PageController@viewPage')->name('page');
