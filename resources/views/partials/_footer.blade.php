@@ -20,7 +20,7 @@
             <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/loyalty-points">Shoppre Loyalty Points</a></li>
             {{--<li><a href="javascript::void(0)">Country Guides</a></li>--}}
             <li><a href="{{route('stores')}}">Browse Categories</a></li>
-            <li><a href="javascript::void(0)">Become a Partner</a></li>
+            <li><a href="{{route('partner')}}">Become a Partner</a></li>
             <li><a href="{{route('reviews')}}">Shoppre Reviews</a></li>
           </ul>
         </div>

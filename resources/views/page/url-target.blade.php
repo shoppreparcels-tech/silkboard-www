@@ -17,7 +17,7 @@ sending courier to ' .ucfirst(trans($destination)).', shipping')
               for parcel services to {{ucfirst(trans($destination))}} .</h4>
 
       </div>
-          <div class="container">
+        <!--   <div class="container">
 
       <table class="table table-striped">
           <div class="col-md-8 col-sm-offset-2">
@@ -27,21 +27,20 @@ sending courier to ' .ucfirst(trans($destination)).', shipping')
           <tr>
               <th>No</th>
               <th>Weight</th>
-              <th>Type</th>
-              <th>Cost</th>
+              <th>Non-Document(Cost)</th>
+               <th>Document(Cost)</th>
           </tr>
           </thead>
           <tbody>
           <tr>
-              <td>id</td>
-              <td>Doe</td>
               <td>1</td>
-              <td>1</td>
+              <td>10</td>
+              <td>10254</td>
+              <td>11254</td>
           </tr>
           </tbody>
       </table>
-
-   </div>
+   </div> -->
   </section>
       <section class="timeline">
           <div class="container">

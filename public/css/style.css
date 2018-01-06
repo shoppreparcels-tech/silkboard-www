@@ -713,7 +713,7 @@ input[type=file]:focus, input[type=checkbox]:focus, input[type=radio]:focus{outl
 .seller_tab .nav-tabs>li.active>a:hover{cursor:default;}
 .seller_tab{padding-bottom:25px;}
 .seller_tab .seller_box{position:relative;display:block;width:100%;text-align:center;padding-top:15px;}
-.seller_tab .seller_box span.brand_logo{display:block;padding:15px;height:100px;background-color:#ece3e3;background-repeat:no-repeat;background-position:center;background-size:125px;}
+.seller_tab .seller_box span.brand_logo{display:block;padding:15px;height:100px;cursor: pointer;background-color:#ece3e3;background-repeat:no-repeat;background-position:center;background-size:125px;}
 .seller_tab .seller_box span img{width:100%;}
 .seller_tab .seller_box a{display:block;color:#555;font-size:14px;margin:10px 0 10px;text-transform:uppercase;}
 .seller_tab .seller_box a i.bookmark-icon{display:inline-block;content:"";width:24px;height:24px;background-image:url(../img/bookmark.png);background-size:contain;background-repeat:no-repeat;margin-bottom:-8px;background-position:center;position:absolute;top:24px;left:5px;}

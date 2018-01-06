@@ -339,7 +339,7 @@
               <li>From Bengaluru, directly to your doorstep abroad</li>
               <li>From any city in India, directly to your doostep abroad</li>
             </ul>
-            <a href="https://goo.gl/h1jKr8" class="btn btn-block btn-shoppre" target="_blank">FILL THE FORM TO HEAR BACK FROM US</a>
+            <a href="{{route('schedulePickup.Index')}}" class="btn btn-block btn-shoppre">FILL THE FORM TO HEAR BACK FROM US</a>
           </div>
 
         </div>

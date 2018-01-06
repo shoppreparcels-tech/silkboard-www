@@ -6,19 +6,10 @@
 
 @section('content')
 
-    {{--<section class="page_head">--}}
-        {{--<div class="pagebanner">--}}
-            {{--<img src="{{asset('img/teaser_banner.jpg')}}" width="100%">--}}
-            {{--<div class="banner-cap">--}}
-                {{--<h2>Ship</h2>--}}
-                {{--<h2 class="text-orange">World Wide</h2>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</section>--}}
-
     <section class="sellers">
         <div class="container-fluid">
             <div class="row">
+              <div class="col-md-4 col-sm-12 col-md-offset-4 col-sm-offset-0"><h1>Ship Your Item World Wide</h1></div>
                 <div class="col-md-12">
                     <div class="seller_tab">
                         <div class="tab-content">
@@ -29,15 +20,8 @@
                                             @php
                                                 $logo = (!empty($country->flag)) ? $country->flag : 'brand-logo.png';
                                             @endphp
-                                            <span class="brand_logo" style="background-image: url('{{asset('img/flags')}}/{{$logo}}');"></span>
-                                            <span><h3>{{$country->name}}</h3>  <a href="#" class="btn btn-shoppre">More Info</a></span>
-                                            {{--@if(Auth::check())--}}
-                                                {{--@if(in_array($country->id, $cid))--}}
-                                                    {{--<a href="#" class="myfavstore active" data-clubid="{{$cid->id}}"><i class="bookmark-icon"></i></a>--}}
-                                                {{--@else--}}
-                                                    {{--<a href="#" class="myfavstore" data-clubid="{{$cid->id}}"><i class="bookmark-icon"></i></a>--}}
-                                                {{--@endif--}}
-                                            {{--@endif--}}
+                                            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'india','destination'=>ucfirst(trans($country->name))])}}"><span class="brand_logo" style="background-image: url('{{asset('img/flags')}}/{{$logo}}');"></span>
+                                            <h5>{{$country->name}}</h3></a>                                           
                                         </div>
                                     </div>
                                 @endforeach

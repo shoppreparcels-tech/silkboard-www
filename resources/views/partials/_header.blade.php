@@ -1,8 +1,8 @@
 <header>
   <div class="mo_login">
     @if(!Auth::guard('customer')->check())
-    <a href="https://myaccount.shoppre.com/login"><i class="fa fa-unlock-alt"></i> Login</a>
-    <a href="https://myaccount.shoppre.com/register"><i class="fa fa-user"></i> Signup</a>
+    <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login"><i class="fa fa-unlock-alt"></i> Login</a>
+    <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register"><i class="fa fa-user"></i> Signup</a>
     @else
     <a href="{{route('customer.locker')}}"><i class="fa fa-user"></i> My Locker</a>
     <a href="{{route('customer.logout')}}"><i class="fa fa-lock"></i> Logout</a>
@@ -14,7 +14,7 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li><a href="{{route('about')}}">About Shoppre</a></li>
-          <li><a href="javascript::void(0)">Become a Partner</a></li>
+          <li><a href="{{route('partner')}}">Become a Partner</a></li>
           <li><a href="{{route('faq')}}">FAQ</a></li>
           <li><a href="http://blog.shoppre.com/" target="_blank">Blogs</a></li>
         </ul>
@@ -26,8 +26,8 @@
             <li><a href="{{route('customer.locker')}}"><i class="fa fa-user"></i> {{Auth::guard('customer')->user()->name}}</a></li>
             <li><a href="{{route('customer.logout')}}"><i class="fa fa-sign-out"></i> Logout</a></li>
           @else
-            <li><a href="https://myaccount.shoppre.com/login"><i class="fa fa-unlock-alt"></i> Login</a></li>
-            <li><a href="https://myaccount.shoppre.com/register"><i class="fa fa-user"></i> Sign up</a></li>
+            <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login"><i class="fa fa-unlock-alt"></i> Login</a></li>
+            <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register"><i class="fa fa-user"></i> Sign up</a></li>
           @endif
         </ul>
         @if(!$promos->isEmpty())

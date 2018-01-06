@@ -55,10 +55,10 @@
               <h4>Indian Shopping Websites</h4></a>
             </li>
             <li>
-              {{--<a href="{{route('countries')}}">--}}
+              <a href="{{route('countryList')}}">
               <h2>220+</h2>
               <h4>Countries Worldwide</h4>
-              {{--</a>--}}
+            </a>
             </li>
             <li>
               <h2>2-4 Days</h2>

@@ -27,7 +27,8 @@ class PageController extends Controller
 
    public function countryList()
    {
-     $countries = Country::orderBy('name','asc')->get();
+       $countries = Country::orderBy('name','asc')->get();
+
        return view('page.country-list')->with(['countries' => $countries]);
    }
 
