@@ -10,7 +10,7 @@
         <div class="pagebanner">
           <img src="img/banner1.jpg" width="100%">
           <div class="banner-cap">
-            <h2>Our <span class="text-orange">Privacy Policy</span></h2>
+            <h2>Our Pricacy Policy</span></h2>
           </div>
         </div>
     </section>
