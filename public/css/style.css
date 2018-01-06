@@ -3,9 +3,10 @@
 .img_align{text-align:center;}
 .mendatory_fields{color:red;}
 .other_item_box{display:none;}
+.policy-paragraph{text-align:justify;font-size: 16px;}
 .icon_margen{margin-right:5px;}
-.padding_li1{padding-top:15px;padding-bottom:15px;color:#fff;margin-right:17px;}
-.padding_li2{padding-top:15px;padding-bottom:15px;color:#fff;margin-right:17px;}
+.padding_li1{padding-top:15px;padding-bottom:15px;color:#fff;margin-right:17px;cursor:pointer;}
+.padding_li2{padding-top:15px;padding-bottom:15px;color:#fff;margin-right:17px;cursor:pointer;}
 img{vertical-align:top;max-width:100%;}
 a{color:#ff691e;text-decoration:none;font-weight:600;}
 a:hover, a:focus{text-decoration:none;border:none;outline:none;}

@@ -29,10 +29,10 @@
             <li><a href="{{route('about')}}">About Shoppre</a></li>
             {{--<li><a href="#">Careers at Shoppre.com</a></li>--}}
             <li><a href="{{route('contact')}}">Contact us</a></li>
-            <li><a href="https://blog.shoppre.com/" target="_blank">Blogs</a></li>
-            <li><a href="/terms-and-conditions">Terms & Conditions</a></li>
-            <li><a href="/privacy-policy/">Privacy Policy</a></li>
-            <li><a href="/refund-and-cancellation-policy">Refund & Cancellation Policy</a>
+            <li><a href="https://blog.shoppre.com" target="_blank">Blogs</a></li>
+            <li><a href="{{route('termsAndConditions')}}">Terms & Conditions</a></li>
+            <li><a href="{{route('privacyPolicy')}}">Privacy Policy</a></li>
+            <li><a href="{{route('refundAndCancellation')}}">Refund & Cancellation Policy</a>
             <li><a href="{{route('faq')}}">FAQ</a></li>
           </ul>
         </div>

@@ -279,7 +279,7 @@
       <hr>
       <div class="container">
       <div class="mdl-grid mdl-grid--no-spacing">
-        <h6 class="mdl-cell mdl-cell--12-col footer__popularDestiHeading"></h6>
+        <h4 class="mdl-cell mdl-cell--12-col footer__popularDestiHeading">Ship your Package From Various Places In India</h4>
         <div class="mdl-cell mdl-cell--12-col">
             <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'india','destination'=>'usa'])}}" 
               class="footer__destiLinks text_font">Ship from India / </a>
@@ -300,7 +300,29 @@
         </div>
       </div>
     </div>
-    </section>
+     <hr>
+     <div class="container">
+      <div class="mdl-grid mdl-grid--no-spacing">
+        <h4 class="mdl-cell mdl-cell--12-col footer__popularDestiHeading"> Schedule Your Pickup From Various Places In India</h4>
+        <div class="mdl-cell mdl-cell--12-col">
+            <a href="{{route('schedulePickup.Index')}}" 
+              class="footer__destiLinks text_font">Schedule pickup from Bangalore / </a>           
+            <a href="{{route('schedulePickup.Index')}}" 
+              class="footer__destiLinks text_font">Schedule pickup from Delhi / </a>
+            <a href="{{route('schedulePickup.Index')}}" 
+              class="footer__destiLinks text_font">Schedule pickup from Jaipur / </a>
+            <a href="{{route('schedulePickup.Index')}}" 
+              class="footer__destiLinks text_font">Schedule pickup from Mumbai / </a>
+            <a href="{{route('schedulePickup.Index')}}" 
+              class="footer__destiLinks text_font">Schedule pickup from Hyderabad / </a>
+            <a href="{{route('schedulePickup.Index')}}"
+              class="footer__destiLinks text_font">Schedule pickup from Chennai / </a>
+            <a href="{{route('schedulePickup.Index')}}" 
+              class="footer__destiLinks text_font">Schedule pickup from Kochi</a>                  
+        </div>
+      </div>
+    </div>
+    </section>   
 @endsection
 
 @section('js_script')

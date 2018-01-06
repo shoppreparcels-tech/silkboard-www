@@ -24,6 +24,25 @@ use App\Http\Controllers\SchedulePickup;
 
 class PageController extends Controller
 {
+     public function refundAndCancellation()
+    {
+     return view('page.refund-and-cancellation');
+    }
+
+     public function privacyPolicy()
+    {
+     return view('page.privacy-policy');
+    }
+
+    public function termsAndConditions()
+    {
+     return view('page.terms-and-conditions');
+    }
+   
+    public function consolidationService()
+    {
+        return view('page.consolidation');
+    }
 
    public function countryList()
    {
