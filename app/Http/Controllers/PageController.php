@@ -56,15 +56,26 @@ class PageController extends Controller
         $destination = $request->destination;
         $source = $request->source;
         $initial = $request->initial;
-        return view('page.url-target')->with(['source' => $source,'destination'=>$destination]);
+        $title = ucwords($initial)." From ".ucwords($source)." To ".ucwords($destination). " - Courier Services To ".ucwords($destination);
+        $description = "Shoppre offers Door to Door courier service to " .ucwords($destination).
+         " from any part of ".ucwords($source) .". The charges are cheapest in " .ucwords($source)."for sending courier to ".ucwords($destination).". Sign Up Now!";
+        $keywords = "ship your packages, delivered to your country, parcel services to ".ucwords($destination).",
+              sending courier to ".ucwords($destination).", shipping";                
+        return view('page.url-target')->with(['source' => $source,'destination'=>$destination,'title'=>$title,'description'=>$description,'keywords'=>$keywords]);
     }
     public function urlTargetSend(Request $request)
     {
         $destination = $request->destination;
         $source = $request->source;
-        $content = $request->contents;
+        $content = $request->content;
         $initial = $request->initial;
-        return view('page.url-target')->with(['source' => $source,'content'=>$content,'destination'=>$destination]);
+        $title = ucwords($initial)." ".ucwords($content)." From ".ucwords($source)." To ".ucwords($destination)." - ".ucwords($content)." Delivery ".ucwords($destination).".";
+        $description = ucwords($initial)." "."rakhi, chocolates, sweets, cookies, dress, birthday gifts and more to your friends and family, get delivered to " .ucwords($destination).
+         " from ".ucwords($source) .".";
+        $keywords = ucwords($initial)." ".ucwords($content).", delivery ".ucwords($content)." to ".ucwords($destination).",
+              gift overseas";
+          
+        return view('page.url-target')->with(['source' => $source,'content'=>$content,'destination'=>$destination,'title'=>$title,'description'=>$description,'keywords'=>$keywords]);
     }
     public function urlTargetContent(Request $request)
     {
@@ -73,7 +84,12 @@ class PageController extends Controller
         $cprefix = $request->cprefix;
         $cpostfix = $request->cpostfix;
         $initial = $request->initial;
-        return view('page.url-target')->with(['source' => $source,'destination'=>$destination]);
+        $title = ucwords($initial)." ".ucwords($cprefix)." ".ucwords($cpostfix)." From ".ucwords($source)." To ".ucwords($destination).". - " .ucwords($initial)." ".ucwords($cprefix)." To ".ucwords($destination);
+        $description = ucwords($initial)." ".ucwords($cprefix)." ".ucwords($cpostfix)." From ".ucwords($source)." To ".ucwords($destination).". "."Shoppre offers door to door express delivery service for all your " .ucwords($cprefix)." ".ucwords($cpostfix).
+         " at lowest shipping rates. Send Now!";
+        $keywords = ucwords($initial)." ".ucwords($cprefix)." ".ucwords($cpostfix).", shipping ".ucwords($cprefix)." ".ucwords($cpostfix).", parcel ".ucwords($cprefix)." ".ucwords($cpostfix);
+
+        return view('page.url-target')->with(['source' => $source,'destination'=>$destination,'title'=>$title,'description'=>$description,'keywords'=>$keywords]);
     }
     public function home()
     {
