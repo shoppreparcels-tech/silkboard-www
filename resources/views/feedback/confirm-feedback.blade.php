@@ -1,8 +1,9 @@
 @extends('layout')
 
-@section('title', 'Submit Feedback')
-@section('description', 'Learn more how Our personal Shoppre service manages and ship your packages from multiple Indian stores and delivered to your country in just 2 to 4 days!')
-@section('keywords', 'learn more, our personal shoppre service, manages, ship your packages, multiple indian stores, delivered to your country')
+@section('title', 'Thank you for your Feedback - Shoppre.com')
+@section('description', 'Thank you for your Feedback.')
+
+@section('robots', 'noindex, nofollow')
 
 @section('content')
     <section class="timeline">

@@ -13,6 +13,7 @@ a:hover, a:focus{text-decoration:none;border:none;outline:none;}
 span.error{display:block;color:#f50000;padding:5px 0;font-size:14px;font-style:italic;}
 .btn.focus, .btn:focus, .btn:hover{outline:none;}
 .noshow{display:none !important;}
+.head_color{color: chocolate;}
 .form-control{border-radius:0;border-color:#dedede;}
 .select2-container--default .select2-selection--single{border-radius:0;border-color:#dedede;}
 .select2-container--default .select2-selection--single:focus{outline:0;}

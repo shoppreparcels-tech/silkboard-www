@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Shoppre Services - Shop Online From India. Ship Worldwide')
-@section('description', 'Enjoy a fast and worry-free shipping experience with Shoppre’s industry-leading expertise, and unmatched member service. Simply Sign-up and Buy Now!')
-@section('keywords', 'fast, worry-free shipping experience, industry-leading expertise, unmatched member service, simply sign-up, buy now')
+@section('title', 'Privacy Policy | Shoppre - International Shipping Partner')
+@section('description', 'Welcome to Shoppre Privacy Policy. Shoppre.com is dedicated to protecting the privacy of your personal information. Visit what types of information we collect it & why')
+@section('keywords', 'shoppre privacy policy, personal information, information we collect, why, third parties, information sharing, disclosure')
 
 @section('content')
 

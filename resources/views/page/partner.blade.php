@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', '- Become A Partner')
-
+@section('title', 'Become A Partner - Partner With Us - Shoppre Shipping Services')
+@section('description', 'Partner with Shoppre to grow your eCommerce business, with our Free & Premium advertising campaigns. Gaining access to global shoppers in 220+ countries.')
 @section('content')
 
     <section class="page_head">

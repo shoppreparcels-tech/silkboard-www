@@ -121,28 +121,40 @@
           <div class="col-md-12">
             <ul class="works_flow">
               <li>
+                <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">
                 <h3>Join</h3>
                 <p>Sign up with Shoppre and receive your FREE Personal Locker with a Virtual Indian Shipping Address.</p>
+                </a>
               </li>
               <li>
+                <a href="{{route('stores')}}">
                 <h3>Explore</h3>
                 <p>Find out from which Indian Online store you can get your favorite product.</p>
+                </a>
               </li>
               <li>
+                <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/locker">
                 <h3>USE YOUR SHOPPRE ADDRESS</h3>
                 <p>Use your Shoppre Address to shop from ANY Indian Shopping Website.</p>
+              </a>
               </li>
               <li>
+                <a href="{{route('stores')}}">
                 <h3>AVAIL BENEFITS</h3>
                 <p>In case any online store doesn’t accept your International credit card, don’t worry! Our Personal Shopper will purchase the item for you using our Indian Local Credit Card.</p>
+              </a>
               </li>
               <li>
+               <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/locker">
                 <h3>GET NOTIFIED</h3>
                 <p>You can view, manage and track your shipments on your ShoppRe account, 24/7. We will notify you as soon as your package arrives at ShoppRe facility. You can ship your items at your convenience in just a click!</p>
+                </a>
               </li>
               <li>
+               <a href="{{route('consolidationService')}}">
                 <h3>RECEIVE &amp; ENJOY</h3>
                 <p>Save up to 60-80% by our Consolidation, Repackaging and Storage services. Enjoy the special discounted rates that we get with our trusted courier partners like DHL, FedEx and more. Get your items in just 2-5 Days!</p>
+              </a>
               </li>
             </ul>
             <div class="clearfix"></div>

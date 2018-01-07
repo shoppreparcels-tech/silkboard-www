@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Browse Categories: List of Top Indian Shopping Sites | Shoppre')
-@section('description', 'Shop from list of Top Indian Shopping Sites, Facebook & Instagram Sellers. Save by combining multiple packages into one and get it shipped to your country.')
-@section('keywords', 'shop, list of top indian shopping sites, facebook, instagram sellers, multiple packages, shipped to your country')
+@section('title', 'List Of Countries | Shipping Information From Indian - Shoppre.com')
+@section('description', 'We've built a list of countries with pricing, contact details and address of shipping service from India. Ship your item Worldwide!')
+@section('keywords', 'list, countries, shipping, worldwide, pricing, service, india, address')
 
 @section('content')
 

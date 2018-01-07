@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Schedule your pickup')
-@section('description', 'Learn more how Our personal Shoppre service manages and ship your packages from multiple Indian stores and delivered to your country in just 2 to 4 days!')
-@section('keywords', 'learn more, our personal shoppre service, manages, ship your packages, multiple indian stores, delivered to your country')
+@section('title', 'Schedule Your Package Pickup Online with Shoppre - Schedule A Pickup')
+@section('description', 'Need to Schedule a package pickup online? Schedule your parcel quickly with Shoppre from your home or office and we'll deliver for you within 2-5 business days.')
+@section('keywords', 'terms and conditions, set of rules and guidelines user must agree, following guidelines, website, mobile app')
 
 @section('content')
     <section class="timeline">

@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Feedback')
-@section('description', 'Learn more how Our personal Shoppre service manages and ship your packages from multiple Indian stores and delivered to your country in just 2 to 4 days!')
-@section('keywords', 'learn more, our personal shoppre service, manages, ship your packages, multiple indian stores, delivered to your country')
+@section('title', 'Shoppre.com - Member Feedback Form | Shoppre')
+@section('description', 'How we are doing? Regarding your most recent shipment received through Shoppre.com, please leave your feedback, suggestion and provide us more information.')
+@section('keywords', 'shipment, suggestion, feedback, information, form')
 @section('css_style')
     <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/star-rating.min.css')}}" rel="stylesheet"/>

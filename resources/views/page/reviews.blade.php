@@ -1,6 +1,9 @@
 @extends('layout')
 
-@section('title', '- Shoppre Reviews')
+@section('title', 'Shoppre Member Ratings & Reviews - Shoppre Customer Reviews')
+
+@section('description', 'Read our latest Review & Ratings showcasing the excellent service and ship on time. Shoppre members love our top-rated service and how easy and worry-free we make shopping and shipping from INDIA')
+@section('keywords', 'review, rating, member, customer, shipping, shopping, service, india')
 
 @section('css_style')
 <!-- Select2 -->
@@ -40,8 +43,7 @@
       <div class="container">
         <div class="col-md-8">
           <div class="list">
-            <h3>Recent Reviews</h3>
-            
+            <h3>Latest Reviews</h3>            
             @foreach($reviews as $review)
             <div class="blox">
               <h4>By <span>{{$review->person}}</span> on {{date('j F, Y', strtotime($review->created_at))}}</h4>

@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Browse Categories: List of Top Indian Shopping Sites | Shoppre')
-@section('description', 'Shop from list of Top Indian Shopping Sites, Facebook & Instagram Sellers. Save by combining multiple packages into one and get it shipped to your country.')
-@section('keywords', 'shop, list of top indian shopping sites, facebook, instagram sellers, multiple packages, shipped to your country')
+@section('title', 'Shoppre Consolidation Service - Save On Shipping Costs')
+@section('description', 'Shoppre help in reducing Shipping cost by Combining your packages from multiple stores to one tracking number, and save upto 60% - 80% on shipping rates!')
+@section('keywords', 'shoppre, consolidation service, save on shipping costs, multiple stores, packages')
 
 @section('content')
 

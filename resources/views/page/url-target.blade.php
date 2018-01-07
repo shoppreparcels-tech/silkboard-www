@@ -13,31 +13,38 @@
               {{ucfirst(trans($destination))}} from ANY part of India. The charges are cheapest in {{ucfirst(trans($source))}} for sending
               courier to {{ucfirst(trans($destination))}} . This is by a courier company which is the best in industry
               for parcel services to {{ucfirst(trans($destination))}} .</h4>
-
       </div>
-        <!--   <div class="container">
-
-      <table class="table table-striped">
-          <div class="col-md-8 col-sm-offset-2">
-          <h3>Pricing details from {{ucfirst(trans($source))}} to {{ucfirst(trans($destination))}}</h3>
-          </div>
-          <thead>
-          <tr>
-              <th>No</th>
-              <th>Weight</th>
-              <th>Non-Document(Cost)</th>
-               <th>Document(Cost)</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-              <td>1</td>
-              <td>10</td>
-              <td>10254</td>
-              <td>11254</td>
-          </tr>
-          </tbody>
-      </table>
+       <div class="container">
+        <!-- <div class="col-sm-6">
+          @php
+          $key = 1;
+          @endphp
+        </div>
+         <div class="col-md-6 ">
+          <table class="table table-striped">         
+              <h3 class="head_color">Pricing details from {{ucfirst(trans($source))}} to {{ucfirst(trans($destination))}}</h3>              
+              <thead>
+              <tr>
+                  <th>No</th>
+                  <th>Weight(In Kg.)</th>
+                  <th>Price</th>
+                  <th>Type</th>
+              </tr>
+              </thead>
+              <tbody>
+             @foreach($prices as $price)
+              <tr>
+                  <td>{{$key}}</td>
+                  <td>{{$price->min}} - {{$price->max}}</td>
+                  <td>{{$price->amount}}</td>
+                  <td>{{$price->item_type}}</td>
+              </tr>
+              @php
+              $key = $key+1;
+              @endphp
+              @endforeach
+              </tbody>
+          </table>
    </div> -->
   </section>
       <section class="timeline">

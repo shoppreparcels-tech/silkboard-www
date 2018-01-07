@@ -56,12 +56,18 @@ class PageController extends Controller
         $destination = $request->destination;
         $source = $request->source;
         $initial = $request->initial;
+        $country = Country::where('slug',$destination)->first();   
+        $prices = ShippingRate::where('min','<=',1.5 )
+                               ->where('max','<=',2.0)
+                               ->where('country_id',$country->id)->get();  
+                         
         $title = ucwords($initial)." From ".ucwords($source)." To ".ucwords($destination). " - Courier Services To ".ucwords($destination);
         $description = "Shoppre offers Door to Door courier service to " .ucwords($destination).
          " from any part of ".ucwords($source) .". The charges are cheapest in " .ucwords($source)."for sending courier to ".ucwords($destination).". Sign Up Now!";
         $keywords = "ship your packages, delivered to your country, parcel services to ".ucwords($destination).",
               sending courier to ".ucwords($destination).", shipping";                
-        return view('page.url-target')->with(['source' => $source,'destination'=>$destination,'title'=>$title,'description'=>$description,'keywords'=>$keywords]);
+        return view('page.url-target')->with(['source' => $source,'destination'=>$destination,'title'=>$title,'description'=>$description,'keywords'=>$keywords,
+            'prices'=>$prices]);
     }
     public function urlTargetSend(Request $request)
     {

@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Shoppre Services - Shop Online From India. Ship Worldwide')
-@section('description', 'Enjoy a fast and worry-free shipping experience with Shoppre’s industry-leading expertise, and unmatched member service. Simply Sign-up and Buy Now!')
-@section('keywords', 'fast, worry-free shipping experience, industry-leading expertise, unmatched member service, simply sign-up, buy now')
+@section('title', 'Terms And Conditions | Shoppre - Shipping From India')
+@section('description', 'Terms and Conditions by Shoppre that applies to user must agree to adhere to the following guidelines when using this Website or Mobile App.')
+@section('keywords', 'terms and conditions, set of rules and guidelines user must agree, following guidelines, website, mobile app')
 
 @section('content')
 
