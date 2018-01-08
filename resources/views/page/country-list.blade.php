@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title', 'List Of Countries | Shipping Information From Indian - Shoppre.com')
-@section('description', 'We've built a list of countries with pricing, contact details and address of shipping service from India. Ship your item Worldwide!')
+@section('description', 'We have built a list of countries with pricing, contact details and address of shipping service from India. Ship your item Worldwide!')
 @section('keywords', 'list, countries, shipping, worldwide, pricing, service, india, address')
 
 @section('content')
@@ -21,7 +21,7 @@
                                                 $logo = (!empty($country->flag)) ? $country->flag : 'brand-logo.png';
                                             @endphp
                                             <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'india','destination'=>ucfirst(trans($country->name))])}}"><span class="brand_logo" style="background-image: url('{{asset('img/flags')}}/{{$logo}}');"></span>
-                                            <h5>{{$country->name}}</h3></a>                                           
+                                            <h5>{{$country->name}}</h5></a>
                                         </div>
                                     </div>
                                 @endforeach
