@@ -31,7 +31,7 @@ class EmailFeedback extends Mailable
      */
     public function build()
     {
-        $from_mail = 'notifications@cp.shoppre.com';
+        $from_mail = 'pickups@cp.shoppre.com';
         $from_name = 'Shoppre';
         $subject = 'Feedback';
 

@@ -70,12 +70,12 @@
                             <table style="box-sizing: border-box; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
                                <tr>
                         <td valign="top" width="500" style="color:#666666;font-size:23px;text-align:left;padding: 10px 10px 20px 5px;line-height:20px;color: #5e5e5f;>
-                            <p style="color: #1f2533;"><font size="5"> Dear {{$data->first_name}} {{$data->last_name}},</font></p>                
+                            <p style=color: #1f2533;"><font size="5"> Dear {{$data->person}},</font></p>
                         </td>
                       </tr>
                                 <tr>
                                     <td class="padder-md" style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top; padding: 10px;" valign="top">
-                                        <p style="font-size: 16px;color: #1f2533;"> Thank you for your Valuable words about us   <u>support@shoppre.com</u> .
+                                        <p style="font-size: 16px;color: #1f2533;"> Congratulations! You have won 50 Shoppre loyalty points for giving valuable feedback to us & we will use the same to improve ourselves. Keep taking part in all our activities and accumulate your shoppre loyalty points!    <u>support@shoppre.com</u> .
                              </p>
                                         <p style="font-size: 16px;color: #1f2533;">  Thank you , have a great day. 
                                        </p>
