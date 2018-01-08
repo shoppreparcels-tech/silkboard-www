@@ -66,7 +66,7 @@
           <li><a href="{{route('stores')}}">Browse Categories</a></li>
           <li><a href="{{route('pricing')}}">Price Calculator</a></li>         
           <li><a href="{{route('contact')}}">Contact us</a></li>
-          <li><a href="https://goo.gl/NJtYMY" target="_blank">Feedback</a></li>
+          <li><a href="{{route('feedback.Index')}}">Feedback</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

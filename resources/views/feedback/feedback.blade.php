@@ -16,12 +16,11 @@
        <div class="col-md-4 col-sm-offset-5">
            <br/>
            <font color="#663399">
-
             <h1>Feedback Form</h1>
            </font>
         </div>
-   <br/>
-        <font size="4">
+        <br/>
+
         <div class="container" style="background-color: whitesmoke">
             <form class="form-horizontal" method="post" action="{{route('feedback.submit')}}">
                 {{ csrf_field() }}
@@ -158,7 +157,7 @@
                 </div>
             </form>
         </div>
-        </font>
+
 
     </section>
 @endsection

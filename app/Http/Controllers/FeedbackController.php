@@ -6,12 +6,11 @@ use App\Feedback;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\EmailFeedback;
-
-
 use Auth;
 
 class FeedbackController extends Controller
 {
+
     public function index()
     {
         return view('feedback.feedback');
