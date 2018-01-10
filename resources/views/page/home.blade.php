@@ -21,9 +21,10 @@
             <h3>Shop from India, Ship Worldwide!</h3>
             <p>Door to Door Pickup and International & Domestic Delivery.
             <p>Receive your FREE Personal Locker and Virtual Shipping Address in India!</p>
-            <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">Sign up for free</a>
+           
             <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-shoppre popup-youtube">Video <i class="glyphicon glyphicon-play-circle"></i></a>
             <a href="{{route('schedulePickup.Index')}}" class="btn btn-shoppre">Schedule a Pickup</a>
+             <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">Get Virtual Address & Start Shopping</a>
           </div>
           <div class="bottom">
             <p>Not all Indian Online Stores offer International Shipping</p>

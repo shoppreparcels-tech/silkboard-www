@@ -2,6 +2,135 @@
 .schedule-container{border:1px solid;padding:4%;border-radius:6px;margin-top:3%;}
 .img_align{text-align:center;}
 .mendatory_fields{color:red;}
+
+
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+.head_color{
+  color : white !important;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+.cal_padding
+{
+    padding-left: 5%;
+}
+.section-border
+{
+    border-top: 1px solid lightgray;
+}
+
+.cal_block
+{
+    position: relative;
+    display: block;
+    margin: 16px auto;
+    background: #fff;
+    padding: 30px 60px 8px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px #ccc;
+}
+
+.content_space
+{
+    margin-top: 1%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.banned_items_fonts
+{
+    font-size: 15px;
+    text-align: justify;
+}
+.locker_fonts
+{
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+.home_made
+{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.home_made
+{
+  padding-top: 3%;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+.htag_align
+{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#contentQuickLinks {
+    background-color: #e8e8e8;
+    float: left;
+    text-align: right;
+    width: 100%;
+    border-bottom: 1px solid #b28032;
+    padding: 6px 0 2px 0;
+    }
+
+.quickLinksItem {
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    color:#ff691e;
+}
+
+.quickLinksWidth{
+    width: 100%;
+}
+
+.quickLinks {
+    font-size: .9em;
+    text-transform: capitalize;
+    padding: 0;
+}
+
+.quicLinksJumpTo {
+    color: #4e3423;
+    display: block;
+    float: left;
+    font-size: 1.0em;
+    font-weight: 700;
+    height: 25px;
+    padding: 0 6px 0 6px;
+}
+
+.quickLinksItem a {
+    color: #4e4e44;
+    font-size: 1.0em;
+    margin: 0 6px 4px 8px;
+}
+
 .other_item_box{display:none;}
 .policy-paragraph{text-align:justify;font-size: 16px;}
 .icon_margen{margin-right:5px;}
@@ -67,7 +196,7 @@ header .mo_login a:nth-child(2){border-left:1px solid #fff;}
 .slider .slide .caption-block h3{margin:0px 0 20px;font-size:20px;font-weight:700;}
 .slider .slide .caption-block p{margin:0;}
 .slider .slide .btn{margin:10px 5px 0;padding:10px 25px;}
-.btn-shoppre{background:#fe9611;color:#fff;border-radius:0;text-transform:uppercase;font-weight:600;font-size:12px;padding:8px 20px;}
+.btn-shoppre{background:#fe9611;color:#fff;border-radius:0;text-transform:uppercase;font-weight:600;font-size:14px;padding:8px 20px;}
 .slider .slide .bottom{position:absolute;bottom:10px;left:35px;}
 .slider .slide .bottom p{font-weight:700;color:#fff;font-size:16px;}
 .text-orange{color:#fe9611 !important;}
@@ -239,7 +368,8 @@ section.signup_free{padding:80px 0;text-align:center;}
 .faq_contact .btn-shoppre{font-size:20px;padding:8px 40px;font-weight:400;}
 .how_white{padding:40px 0;text-align:center;}
 .how_white p{font-size:18px;}
-.timeline{padding:35px 0 180px;background:url(../img/dark-gray-stripe.jpg);}
+.timeline{padding:35px 0 180px;}
+.timeline1{padding:4px 0 90px;}
 .timeline .blox{display:block;clear:both;}
 .timeline .story-block{display:block;position:relative;width:92.5%;background:#fff;padding:45px 50px;margin:85px 0 0;-webkit-border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;border-radius:5px 5px 5px 5px;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out;box-shadow:0px 3px 7px 0px #c1c1c1;}
 .timeline .story-block .item_content{text-align:left;}
@@ -638,6 +768,8 @@ section.loyalty{padding:80px 0;}
 .price_cguide ul li::before{position:absolute;content:"";width:8px;height:8px;background:#000;top:15px;left:-10px;}
 .price_cguide .btn-shoppre{margin-top:20px;padding:10px 50px;}
 .price_repacking{padding:80px 0;}
+.price_repacking_margin{padding:26px 0;}
+.prohibited_item{font-size:17px;text-align:justify;}
 .price_repacking h2{text-align:center;text-transform:uppercase;font-weight:800;font-size:26px;}
 .price_repacking h3{text-align:center;text-transform:uppercase;font-weight:800;font-size:20px;margin:30px 0 15px;}
 .price_repacking p{text-align:center;font-size:16px;font-weight:600;margin:25px auto;}

@@ -589,9 +589,9 @@
 		            var weight = $("input[name='weight']").val();
 		            var unit = $("input[name='unit']:checked").val();
 		            var type = $("input[name='type']:checked").val();
-                var length = $("input[name='length']").val();
-                var width = $("input[name='width']").val();
-                var height = $("input[name='height']").val();
+                    var length = $("input[name='length']").val();
+                    var width = $("input[name='width']").val();
+                    var height = $("input[name='height']").val();
 		            var token = $('input[name=_token]').val();
 		            $("#calc_load").show();
 		            $('#calc_error').hide();
@@ -600,14 +600,12 @@
 		                url: '/calculate-shipping',
 		                type : "POST",
 		                data:{ _token:token, country:country, weight:weight, unit:unit, type:type, length:length, width:width, height:height},
-		                success: function(data) {
-
+		                success: function(data){
 		                	$("#calc_load").hide();
-
 		                	if (data.error == "1") {
 		                		$('#calc_error').css('display', 'block');
-		                	}else{
-		                		
+		                	}
+		                	else{
                         $('#ship_oldcost').text(data.amount);
                         var disamount = (data.discount / 100) * data.amount;
                         var finalcost = Math.round(data.amount - disamount).toFixed(2);

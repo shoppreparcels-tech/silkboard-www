@@ -30,8 +30,11 @@ Route::get('/feedback/confirm', 'FeedbackController@confirm')->name('feedback.co
 Route::get('/consolidation-service', 'PageController@consolidationService')->name('consolidationService');
 
 Route::get('/{initial}-from-{source}-to-{destination}', 'PageController@urlTargetShipping')->name('urlTargetShipping');
-Route::get('/{initial}-{content}-from-{source}-to-{destination}', 'PageController@urlTargetSend')->name('urlTargetSend');
+Route::get('/{initial}-{contents}-from-{source}-to-{destination}', 'PageController@urlTargetSend')->name('urlTargetSend');
 Route::get('/{initial}-{cprefix}-{cpostfix}-from-{source}-to-{destination}', 'PageController@urlTargetContent')->name('urlTargetContent');
+
+Route::get('/chat-email', 'PageController@chatMailIndex')->name('chatMail.index');
+Route::post('/chat-email', 'PageController@chatMailSent')->name('chatMail.sent');
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');
 

@@ -16,11 +16,12 @@
        <div class="col-md-4 col-sm-offset-5">
            <br/>
            <font color="#663399">
+
             <h1>Feedback Form</h1>
            </font>
         </div>
-        <br/>
-
+   <br/>
+        <font size="4">
         <div class="container" style="background-color: whitesmoke">
             <form class="form-horizontal" method="post" action="{{route('feedback.submit')}}">
                 {{ csrf_field() }}
@@ -41,7 +42,7 @@
                         <div class="col-md-8 col-sm-offset-2">
                             <div class="form-group">
                                 <label>Email ID *</label>
-                                <input type="text" class="form-control" name="email" placeholder="Enter Your Name">
+                                <input type="text" class="form-control" name="email" placeholder="Enter Your Email">
                                 @if ($errors->has('email'))
                                     <span class="error">{{ $errors->first('email') }}</span>
                                 @endif
@@ -157,7 +158,7 @@
                 </div>
             </form>
         </div>
-
+        </font>
 
     </section>
 @endsection
