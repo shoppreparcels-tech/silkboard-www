@@ -51,7 +51,7 @@
                             <div class="form-group">
                                 <label>Mobile Number</label>
                                 <div class="rating-star">
-                                    <input class="form-control" type="text"  name="mobile">
+                                    <input class="form-control" type="text" placeholder="Enter Customer Mobile" name="mobile">
                                 </div>
                                 <div class="clearfix"></div>
                             </div>

@@ -18,45 +18,45 @@
 
         <div id="contentQuickLinks" class="noPrint">
             <p class="quicLinksJumpTo">
-                Jump to:
+                Goto:
             </p>
             <ul class="quickLinks quickLinksWidth">
-                <li class="quickLinksItem"><a class="link" data-toggle="tab" href="#non-document">
+                <li class="quickLinksItem"><a class="link"  href="#non-document">
                         Non-Document</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link" data-toggle="tab" href="#document">
+                <li class="quickLinksItem"><a class="link"  href="#document">
                         Document</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link" data-toggle="tab" href="#home-made-food-items">
+                <li class="quickLinksItem"><a class="link"  href="#home_made_products">
                         Home Made Food Items</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link" data-toggle="tab" href="#branded-packaged-food-items">
+                <li class="quickLinksItem"><a class="link"  href="#branded_food_items">
                         Branded & Packaged Food</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link" data-toggle="tab" href="#liquid">
+                <li class="quickLinksItem"><a class="link"  href="#liquid">
                         Liquid</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link" data-toggle="tab" href="#pickups">
+                <li class="quickLinksItem"><a class="link"  href="#schedule-pickup">
                         Pickups</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link" data-toggle="tab" href="#personal-shopper">
+                <li class="quickLinksItem"><a class="link"  href="#personal-shopper">
                         Personal Shopper</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link" data-toggle="tab" href="#locker-facility">
+                <li class="quickLinksItem"><a class="link"  href="#locker-facility">
                         Locker Facility</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link" data-toggle="tab" href="#consolidation">
+                <li class="quickLinksItem"><a class="link"  href="#consolidation">
                         Consolidation & Repackaging</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link" data-toggle="tab" href="#restricted-items">
+                <li class="quickLinksItem"><a class="link"  href="#restricted-items">
                         Restricted Items</a></li>
             </ul>
         </div>
         <br/>
     </div>
 
+    <div id="non-document">
     <section class="service-sec yellow">
-        <div id="non-document">
             <div class="container-fluid">
               <div class="container">
                   <h4>
@@ -90,16 +90,14 @@
                         @endforeach
                         </tbody>
                     </table>
-                    <div class="text-center">
-                        <a href="{{route('pricing')}}" class="btn btn-shoppre">More Detail</a>
-                    </div>
                 </div>
                 <div class="col-md-5 cal_padding">
                     <div class="col-md-12">
                         <div class="calculator cal_block">
                             <h3 class="text-red">INTERNATIONAL SHIPPING CALCULATOR</h3>
                             <h4>(From your Shoppre Locker in Bengaluru to your doorstep Abroad)</h4>
-                            <span id="calc_error">Sorry! No delivery options available in requested country. Please contact our support team for assistance.</span>
+                            <span id="calc_error">Sorry! No delivery options available in requested country. Please
+                                contact our support team for assistance.</span>
                             <form class="calc-form" id="shipping">
                                 {{ csrf_field() }}
                                 <div class="form-group">
@@ -108,7 +106,9 @@
                                         <select class="form-control select2" name="country">
                                             <option value="">Select Country</option>
                                             @foreach($countries as $country)
-                                                <option value="{{$country->id}}" {{$country->id == 226 ? 'selected' : ""}}>{{$country->name}}</option>
+                                                <option value="{{$country->id}}"{{$country->name == $destination ? 'selected' : ""}}>
+                                                    {{$country->name}}
+                                                </option>
                                             @endforeach
                                         </select>
                                     </div>
@@ -133,7 +133,8 @@
                                 <div class="form-group">
                                     <label class="col-sm-12 control-label">How much does your package weigh?</label>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control" value="1" name="weight" placeholder="Enter Weight">
+                                        <input type="text" class="form-control" value="1" name="weight"
+                                               placeholder="Enter Weight">
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="radio">
@@ -151,7 +152,9 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="col-sm-8 control-label" style="top: 8px;">What are the dimensions of your package?</label>
+                                    <label class="col-sm-8 control-label" style="top: 8px;">What are the dimensions of
+                                        your package?
+                                    </label>
                                     <div class="col-sm-4">
                                         <div class="radio">
                                             <label class="checkbox-inline">
@@ -181,29 +184,43 @@
 
                                 <div class="clearfix"></div>
                                 <div class="col-sm-12">
-                                    <button type="submit" class="btn btn-block btn-shoppre">GET UPFRONT SHIPPING RATES</button>
+                                    <button type="submit" class="btn btn-block btn-shoppre">
+                                        GET UPFRONT SHIPPING RATES
+                                    </button>
                                 </div>
                                 <div class="clearfix"></div>
                             </form>
                             <div id="ship_result" class="calc-result">
                                 <h4 class="text-red">ESTIMATED SHIPPING COST*</h4>
-                                <p class="info">Best carrier will be automatically chosen according to your country and weight of shipment. We use trusted courier services like DHL, FedEx and DTDC.</p>
+                                <p class="info">Best carrier will be automatically chosen according to your country
+                                    and weight of shipment. We use trusted courier services like DHL,
+                                    FedEx and DTDC.</p>
                                 <div class="result table-responsive">
                                     <table class="table table-bordered">
                                         <tr>
-                                            <td class="bg-white"><span id="ship_time"></span> Business Days <span class="text-red">**</span></td>
+                                            <td class="bg-white"><span id="ship_time"></span> Business Days
+                                                <span class="text-red">**</span></td>
                                             <td><i class="fa fa-rupee"></i> <span id="ship_cost"></span></td>
-                                            <td><span class="striked"><i class="fa fa-rupee"></i> <span id="ship_oldcost"></span></span></td>
+                                            <td><span class="striked"><i class="fa fa-rupee"></i>
+                                                    <span id="ship_oldcost"></span></span></td>
                                             <td class="discount"><span id="ship_disc"></span>% OFF</td>
                                         </tr>
                                     </table>
                                 </div>
                                 <ul class="points">
-                                    <li><span class="text-red">*</span> The chargeable weight is always the greater of the two: Volumetric or the Actual weight.</li>
-                                    <li><span class="text-red">*</span> The rates displayed are INCLUSIVE of the fuel surcharge and taxes within India.</li>
-                                    <li><span class="text-red">*</span> You may need to pay duties or tax when your shipment arrives, as per the import law of the receiving country.</li>
-                                    <li><span class="text-red">*</span> Excludes oversized and palletized shipments, and special products (liquids, homemade food, etc.)</li>
-                                    <li><span class="text-red">**</span> After dispatch from Shoppre facility. Does not apply to ship requests made after 3pm IST on Saturdays, or on holidays. Shipments that may require additional time include those containing items under review or hazardous materials, oversized packages or where additional export documentation is required.</li>
+                                    <li><span class="text-red">*</span> The chargeable weight is always the greater of
+                                        the two: Volumetric or the Actual weight.</li>
+                                    <li><span class="text-red">*</span> The rates displayed are INCLUSIVE of the
+                                        fuel surcharge and taxes within India.</li>
+                                    <li><span class="text-red">*</span> You may need to pay duties or tax when your
+                                        shipment arrives, as per the import law of the receiving country.</li>
+                                    <li><span class="text-red">*</span> Excludes oversized and palletized shipments,
+                                        and special products (liquids, homemade food, etc.)</li>
+                                    <li><span class="text-red">**</span> After dispatch from Shoppre facility. Does
+                                        not apply to ship requests made after 3pm IST on Saturdays, or on holidays.
+                                        Shipments that may require additional time include those containing items
+                                        under review or hazardous materials, oversized packages or where additional
+                                        export documentation is required.</li>
                                 </ul>
                             </div>
                             <div id="calc_load"></div>
@@ -220,10 +237,10 @@
                        </div>
                     </div>
                 </div>
-            </div>
     </section>
-    <section class="service-sec">
-        <div id="document">
+    </div>
+    <div id="document">
+      <section class="service-sec">
             <div class="container">
                 <div class="col-md-10">
                     <table class="table table-striped">
@@ -244,18 +261,15 @@
                         @endforeach
                         </tbody>
                     </table>
-                    <div class="text-center">
-                        <a href="{{route('pricing')}}" class="btn btn-shoppre">More Detail</a>
-                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="service-sec yellow">
+       </section>
+    </div>
+    <div id="home_made_products">
+       <section class="service-sec yellow">
         <h3 class="htag_align">Send your home made items to {{ucfirst(trans($destination))}}</h3>
-        <div id="document">
             <div class="container">
-                <div class="col-md-6 ">
+                <div class="col-md-6">
                     <img src="img/homemade.jpg">
                 </div>
                 <div class="col-md-6">
@@ -269,32 +283,32 @@
                         made food products abroad.</p>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="service-sec">
-        <h3 class="htag_align">Send branded food items to {{ucfirst(trans($destination))}}</h3>
-        <div id="branded-packaged-food-items">
-            <div class="container">
-                <div class="col-md-6">
-                    <h4>Ship branded food items to worldwide</h4>
-                    <p>Shoppre has created a brand by itself by specializing as an exclusive international
-                        courier service provider for Sending Branded food products worldwide.Customers staying
-                        abroad need not have to feel deprived of enjoying the Indian food/delicacies now. All a
-                        customer has to do is either mail us all their International Branded food product
-                        requirements at support@shoppre.com or visit our website and fill in one of the pickup
-                        request forms and we precisely assure that we will either purchase your required Branded
-                        food products or pickup from your near and dear ones, or from your desired given address
-                        and dispatch it safely to your preferred destination anywhere around the globe.</p>
+      </section>
+    </div>
+    <div id="branded_food_items">
+        <section class="service-sec" >
+            <h3 class="htag_align">Send branded food items to {{ucfirst(trans($destination))}}</h3>
+                <div class="container">
+                    <div class="col-md-6">
+                        <h4>Ship branded food items to worldwide</h4>
+                        <p>Shoppre has created a brand by itself by specializing as an exclusive international
+                            courier service provider for Sending Branded food products worldwide.Customers staying
+                            abroad need not have to feel deprived of enjoying the Indian food/delicacies now. All a
+                            customer has to do is either mail us all their International Branded food product
+                            requirements at support@shoppre.com or visit our website and fill in one of the pickup
+                            request forms and we precisely assure that we will either purchase your required Branded
+                            food products or pickup from your near and dear ones, or from your desired given address
+                            and dispatch it safely to your preferred destination anywhere around the globe.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/branded-food-items.jpg">
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="img/branded-food-items.jpg">
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
+    <div id="liquid">
     <section class="service-sec yellow">
         <h3 class="htag_align">Send liquid/semi-liquid to {{ucfirst(trans($destination))}}</h3>
-        <div id="liquid">
             <div class="container">
                 <div class="col-md-5">
                     <img src="img/liquid.jpg">
@@ -306,17 +320,155 @@
                         parcels may be any of the following product types – Oil, Shampoos, Lotions.</p>
                 </div>
             </div>
-        </div>
     </section>
-
-    {{--<section class="service-sec yellow">--}}
-    {{--<div class="tab-pane" id="pickups">--}}
-
+    </div>
+    {{--<div id="schedule-pickup">--}}
+        {{--<section class="service-sec">--}}
+            {{--<h3 class="htag_align">Schedule Your Pickup</h3>--}}
+            {{--<div class="container">--}}
+                {{--<div class="schedule-container">--}}
+                    {{--<form class="form-horizontal" id="schedule-pickup">--}}
+                        {{--{{ csrf_field() }}--}}
+                        {{--<div class="row">--}}
+                            {{--<div class="col-sm-6">--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<label>Firstname <span class="mendatory_fields">*</span> :</label>--}}
+                                    {{--<input type="text" class="form-control" placeholder="Enter first name" name="first_name" />--}}
+                                    {{--<div class="clearfix"></div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-sm-6">--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<label>Lastname <span class="mendatory_fields">*</span> :</label>--}}
+                                    {{--<input type="text" class="form-control" placeholder="Enter last name" name="last_name" />--}}
+                                    {{--<div class="clearfix"></div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="row">--}}
+                            {{--<div class="col-sm-6">--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<label>Email <span class="mendatory_fields">*</span> :</label>--}}
+                                    {{--<input type="text" class="form-control" placeholder="Enter email" name="email"/>--}}
+                                    {{--<div class="clearfix"></div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-sm-6">--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<label>Mobile <span class="mendatory_fields">*</span> :</label>--}}
+                                    {{--<input type="text" class="form-control" placeholder="Enter mobile" name="mobile" />--}}
+                                    {{--<div class="clearfix"></div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="row">--}}
+                            {{--<div class="col-sm-6">--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<label>Weight Of Package <span class="mendatory_fields">*</span> :</label>--}}
+                                    {{--<input type="text" class="form-control" placeholder="Enter package weight" name="package_weight" />--}}
+                                    {{--<div class="clearfix"></div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-sm-6">--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<label>Size Of The Package If You Are Aware( Length, Breadth and Height ) :</label>--}}
+                                    {{--<input type="text" class="form-control" placeholder="Enter package size (optional)" name="size_of_package" />--}}
+                                    {{--<div class="clearfix"></div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="row">--}}
+                            {{--<div class="col-sm-12">--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<label>Pickup Address <span class="mendatory_fields">*</span> :</label>--}}
+                                    {{--<input type="text" class="form-control" placeholder="Enter pickup address" name="pickup_address" />--}}
+                                    {{--<div class="clearfix"></div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="row">--}}
+                            {{--<div class="col-sm-12">--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<label>Destination Address <span class="mendatory_fields">*</span> :</label>--}}
+                                    {{--<input type="text" class="form-control" placeholder="Enter destination address"--}}
+                                           {{--name="dest_address" required/>--}}
+                                    {{--<div class="clearfix"></div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="row">--}}
+                            {{--<div class="col-sm-12">--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<label>Items Of The Package <span class="mendatory_fields">*</span> :</label>--}}
+                                    {{--<input type="text" class="form-control" placeholder="Enter Package Items"--}}
+                                           {{--name="package_items" required/>--}}
+                                    {{--<div class="clearfix"></div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="row">--}}
+                            {{--<div class="col-sm-12">--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<label>Does It Contains The Following:</label>--}}
+                                    {{--<br>--}}
+                                    {{--<input type="checkbox" name="home_made" value="Home Made Food items"/> Home Made Food--}}
+                                    {{--items<br>--}}
+                                    {{--<input type="checkbox" name="branded_food_items" value="Branded Food items"/> Branded Food--}}
+                                    {{--items<br>--}}
+                                    {{--<input type="checkbox" name="liquid_items" value="Liquid items"/> Liquid items<br>--}}
+                                    {{--<input type="checkbox" name="medicine_items"--}}
+                                           {{--value="Medicines - Allopathy/Ayurvedic/Homeopathic"/>--}}
+                                    {{--Medicines - Allopathy/Ayurvedic/Homeopathic<br>--}}
+                                    {{--<input type="checkbox" name="other" value="Other"/> Other<br>--}}
+                                    {{--<div class="clearfix"></div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="other_item_box">--}}
+                            {{--<div class="row">--}}
+                                {{--<div class="col-sm-12">--}}
+                                    {{--<div class="form-group">--}}
+                                        {{--<label>Other Item Detail <span class="mendatory_fields">*</span> :</label>--}}
+                                        {{--<input type="text" class="form-control" placeholder="Enter Other Item Detail"--}}
+                                               {{--name="other_items"/>--}}
+                                        {{--<div class="clearfix"></div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="row">--}}
+                            {{--<div class="col-sm-12">--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<label>Amount Transfer Option <span class="mendatory_fields">*</span>:</label>--}}
+                                    {{--<br>--}}
+                                    {{--<input type="radio" name="payment_option" value="shoppre_account"> Transferwise.com or Bank--}}
+                                    {{--Transer--}}
+                                    {{--Name: INDIANSHOPPRE LLP , Account<br>&nbsp; &nbsp;&nbsp;&nbsp; Number: 917020057881967 , IFS--}}
+                                    {{--Code: UTIB0000009 ,--}}
+                                    {{--MICR Code:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 560211002 , <u>E-mail ID:--}}
+                                        {{--support@shoppre.com </u>, Swift Code: AXISINBB009<br>--}}
+                                    {{--<input type="radio" name="payment_option" value="paypal" > PayPal - 10% Extra ---}}
+                                    {{--support@shoppre.com<br>--}}
+                                    {{--<input type="radio" name="payment_option" value="paytm" > Paytm - 3% Extra - 9148357733--}}
+                                    {{--<div class="clearfix"></div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="row">--}}
+                            {{--<div class="col-md-4 col-sm-offset-4">--}}
+                                {{--<button type="submit" class="btn btn-block btn-shoppre">Confirm Pickup</button>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="clearfix"></div>--}}
+                    {{--</form>--}}
+                    {{--<div id="pickup_load"></div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</section>--}}
     {{--</div>--}}
-    {{--</section>--}}
+    <div id="personal-shopper">
     <section class="service-sec">
         <h3 class="htag_align">Use Personal Shopper Service To Purchse Your Items</h3>
-        <div id="personal-shopper">
             <div class="container">
                 <div class="col-md-4">
                     <img src="img/services1.png">
@@ -334,10 +486,10 @@
                     <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">Sign up for free</a>
                 </div>
             </div>
-        </div>
     </section>
+    </div>
+    <div id="locker-facility">
     <section class="service-sec yellow">
-        <div id="locker-facility">
             <div class="container locker_fonts">
                 <h2>Free storage upto 20 days</h2>
                 <p>
@@ -348,13 +500,13 @@
                     which saves you money on international shipping.
                 </p>
             </div>
-        </div>
     </section>
+    </div>
     <div id="consolidation">
         <section class="price_repacking_margin">
             <div class="container">
                 <h2 class="text-orange">OUR SERVICES WHICH HELP YOU SAVE ON SHIPPING COSTS</h2>
-                <h3>REPACKING SERVICE</h3>
+                <h3 class="packing_align"><u>REPACKING SERVICE</u></h3>
                 <p>We repack individual shipments for free and help in reducing wasted space<br> which will allow
                     you to save over 20% on shipping charges.</p>
                 <div class="col-sm-6 repack_box border">
@@ -422,7 +574,8 @@
                 <h3 class="text-orange"><strong>67% Less</strong> than Shipping Directly from Stores</h3>
                 <div class="text-center">
                     <h4>When packages are shipped individually, each package bears the rate of the first kilo
-                        rate.<br><span class="text-orange">But when you consolidate, you pay for the first half kilo only once!</span>
+                        rate.<br><span class="text-orange">But when you consolidate, you pay for the first half kilo
+                            only once!</span>
                     </h4>
                     <p>Enjoy Shoppre's special discount rates with our trusted courier partners like DHL, FedEx,
                         DTDC, etc.<br>thanks to our bulk shipment every month!</p>
@@ -430,6 +583,41 @@
             </div>
         </div>
     </section>
+    <div id="restricted-items">
+        <section class="service-sec yellow">
+            <div class="container locker_fonts">
+                <h2 class="packing_align">Restricted items</h2>
+                <ol>
+                    <li>Currency</li>
+                    <li>Dangerous goods</li>
+                    <li>Precious & Semi-Precious Items</li>
+                    <li>Commodities banned by Law at any given time without prior notice</li>
+                    <li>Any shipment which would be likely to cause damage, or delay to equipment, personnel or
+                        other shipments.</li>
+                    <li>Any item whose carriage is prohibited by any law, statute or regulations of the country of
+                        origin or destination, or of any country through which the shipment may transit.</li>
+                    <li>Perishable Food items</li>
+                    <li>Live animals & plants</li>
+                </ol>
+                <p>
+                    Any items as may from time to time be notified by Shoppre to be restricted and/or banned and/or
+                    dangerous and/or prohibited for carriage from time to time (such items include but are not limited
+                    to radio-active, incendiary, corrosive or flammable substances, hazardous chemicals, explosives,
+                    firearms or parts thereof and ammunition, firecrackers, cyanides, precipitates, gold and silver
+                    ore, bullion, precious metals and stones, jewelry, semi-precious stones including commercial
+                    carbons or industrial diamonds, currency (paper or coin) of any nationality, securities
+                    (including stocks and bonds, share certificates and blank signed share transfer forms),
+                    coupons, stamps, negotiable instruments in bearer form, cashier's cheques, travellers’
+                    cheques, money orders, passports, credit/debit/ATM cards, antiques, works of art, lottery
+                    tickets and gambling devices, livestock, fish, insects, animals, plants and plant material,
+                    human corpses, organs or body parts, blood, urine and other liquid diagnostic specimens,
+                    hazardous or bio-medical waste, wet ice, pornographic materials, contraband, narcotics and
+                    psychotropic substances, fragile glassware, crockery, bone china, shipments to post office
+                    box addresses, etc.).
+                </p>
+            </div>
+        </section>
+    </div>
     <section class="timeline1">
         <div class="container">
             <div class="col-sm-10">
@@ -446,16 +634,17 @@
 @endsection
 
 @section('js_script')
-    <!-- Select2 -->
-    <script src="{{asset('js/select2.min.js')}}"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".select2").select2();
-        });
-    </script>
+    {{--<!-- Select2 -->--}}
+    {{--<script src="{{asset('js/select2.min.js')}}"></script>--}}
+    {{--<script type="text/javascript">--}}
+        {{--$(document).ready(function() {--}}
+            {{--$(".select2").select2();--}}
+        {{--});--}}
+    {{--</script>--}}
     <script src="{{asset('js/validate.min.js')}}"></script>
     <script type="text/javascript">
         $(document).ready(function(){
+
             $( "#shipping" ).validate({
                 rules:
                     {
@@ -485,14 +674,11 @@
                         url: '/calculate-shipping',
                         type : "POST",
                         data:{ _token:token, country:country, weight:weight, unit:unit, type:type, length:length, width:width, height:height},
-                        success: function(data) {
-
+                        success: function(data){
                             $("#calc_load").hide();
-
-                            if (data.error == "1") {
+                            if (data.error == "1"){
                                 $('#calc_error').css('display', 'block');
                             }else{
-
                                 $('#ship_oldcost').text(data.amount);
                                 var disamount = (data.discount / 100) * data.amount;
                                 var finalcost = Math.round(data.amount - disamount).toFixed(2);
@@ -503,8 +689,72 @@
                             }
                         }
                     });
-
                     return false;
+                }
+            });
+
+            // $( "#schedule-pickup" ).validate({
+            //     rules:
+            //         {
+            //             first_name:{required: true},
+            //             last_name: {required: true},
+            //             email: {required: true},
+            //             // mobile: {required: true},
+            //             // package_weight: {required: true},
+            //             // pickup_address: {required: true},
+            //             // dest_address: {required: true},
+            //             // package_items: {required: true},
+            //             // payment_option: {required: true}
+            //         },
+            //     messages:
+            //         {
+            //             first_name: { required: "Please enter first name"},
+            //             last_name: { required: "Please enter last name"},
+            //             email: { required: "Please enter email"}
+            //             // mobile: { required: "Please enter mobile"},
+            //             // package_weight: { required: "Please package weight"},
+            //             // pickup_address: { required: "Please enter pickup address."},
+            //             // dest_address: { required: "Please enter destination address."},
+            //             // package_items: { required: "Please enter package items."},
+            //             // payment_option: { required: "Please select payment option."}
+            //         },
+            //     submitHandler: function(form){
+            //         var fname = $("select[name='fname']").val();
+            //         var lname = $("input[name='lname']").val();
+            //         var email = $("input[name='email']").val();
+            //         // var mobile = $("input[name='mobile']").val();
+            //         // var package_weight = $("input[name='package_weight']").val();
+            //         // var pickup_address = $("input[name='pickup_address']").val();
+            //         // var dest_address = $("input[name='dest_address']").val();
+            //         // var package_items = $("input[name='package_items']").val();
+            //         // var other_items = $("input[name='other_items']").val();
+            //         // var payment_option = $("input[name='payment_option']:checked").val();
+            //         var token = $('input[name=_token]').val();
+            //         $("#pickup_load").show();
+            //         jQuery.ajax({
+            //             url: '/schedule-pickup/request',
+            //             type : "POST",
+            //             // data:{ _token:token, fname:fname, lname:lname, email:email},
+            //             // data:{ _token:token, fname:fname, lname:lname, email:email, mobile:mobile,
+            //             //     pack_weight:package_weight, pickup_address:pickup_address, dest_address:dest_address,
+            //             //     pack_items:package_items,other_items:other_items,payment_option:payment_option
+            //             // },
+            //             success: function(data){
+            //                 console.log(data);
+            //                 $("#pickup_load").hide();
+            //             }
+            //         });
+            //         return false;
+            //     }
+            // });
+
+            $('input[name="other"]').click(function () {
+
+                if (this.checked) {
+                    $(".other_item_box").css("display","block");
+                }
+                else {
+                    $(".other_item_box").css("display","none");
                 }
             });
         });

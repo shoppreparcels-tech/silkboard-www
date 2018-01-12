@@ -616,12 +616,9 @@
 		                	}
 		                }
 		            });
-
 		            return false;
-		        }, 
+		        }
 			});
-
-
 
       $( "#form_quote" ).validate({
         rules:
@@ -663,12 +660,9 @@
                       /*console.log(xhr.responseText);*/
                     }
                 });
-
                 return false;
-            }, 
+            }
       });
-
-
 
 		});
 	</script>

@@ -37,7 +37,6 @@
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-NRL4B6X');</script>
     <!-- End Google Tag Manager -->
-
   </head>
   <body>
 
@@ -118,7 +117,6 @@
             s0.parentNode.insertBefore(s1, s0);
         })();
     </script>
-
 
     @yield('js_script')
   </body>

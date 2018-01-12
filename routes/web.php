@@ -23,12 +23,12 @@ Route::post('/reviews/submit', 'PageController@submitReview')->name('reviews.sub
 Route::get('/schedule-pickup', 'SchedulePickupController@index')->name('schedulePickup.Index');
 Route::post('/schedule-pickup', 'SchedulePickupController@submit')->name('schedulePickup.Submit');
 Route::get('/schedule-pickup/confirm', 'SchedulePickupController@confirm')->name('schedulePickup.confirmPickup');
+Route::post('/schedule-pickup/request', 'SchedulePickupController@pickupByAjex')->name('schedulePickup.byAjex');
 Route::get('/countries', 'PageController@countryList')->name('countryList');
 Route::get('/feedback', 'FeedbackController@index')->name('feedback.Index');
 Route::post('/feedback/submit', 'FeedbackController@submit')->name('feedback.submit');
 Route::get('/feedback/confirm', 'FeedbackController@confirm')->name('feedback.confirm');
 Route::get('/consolidation-service', 'PageController@consolidationService')->name('consolidationService');
-
 Route::get('/{initial}-from-{source}-to-{destination}', 'PageController@urlTargetShipping')->name('urlTargetShipping');
 Route::get('/{initial}-{contents}-from-{source}-to-{destination}', 'PageController@urlTargetSend')->name('urlTargetSend');
 Route::get('/{initial}-{cprefix}-{cpostfix}-from-{source}-to-{destination}', 'PageController@urlTargetContent')->name('urlTargetContent');

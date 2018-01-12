@@ -26,6 +26,11 @@ use App\Http\Controllers\SchedulePickup;
 
 class PageController extends Controller
 {
+    public function pickupByAjex(Request $request)
+    {
+        return response()->json([ 'error'=>'0', 'request'=> $request]);
+    }
+
     public function chatMailSent(Request $request)
     {
         $body = $request->all();
@@ -47,12 +52,12 @@ class PageController extends Controller
            return view('chat-email.chat-email');
     }
 
-     public function refundAndCancellation()
+    public function refundAndCancellation()
     {
      return view('page.refund-and-cancellation');
     }
 
-     public function privacyPolicy()
+    public function privacyPolicy()
     {
      return view('page.privacy-policy');
     }
@@ -67,12 +72,12 @@ class PageController extends Controller
         return view('page.consolidation');
     }
 
-   public function countryList()
-   {
+    public function countryList()
+    {
        $countries = Country::orderBy('name','asc')->get();
 
        return view('page.country-list')->with(['countries' => $countries]);
-   }
+    }
 
     public function urlTargetShipping(Request $request)
     {
