@@ -24,6 +24,7 @@
            
             <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-shoppre popup-youtube">Video <i class="glyphicon glyphicon-play-circle"></i></a>
             <a href="{{route('schedulePickup.Index')}}" class="btn btn-shoppre">Schedule a Pickup</a>
+            <br>
              <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">Get Virtual Address & Start Shopping</a>
           </div>
           <div class="bottom">
@@ -211,11 +212,9 @@
     <section class="pricing">
       <div class="container">
         <div class="row">
-          <div class="square-box">
-            <h2 class="orange">Pricing</h2>
-          </div>
+            <h2 class="shipping-head">Shipping From India - Pricing</h2>
           <div class="col-md-12">
-            <p class="head-text">We have heavily optimised our operations to give you the best deal. Our pricing makes us a favourite platform for Indian shoppers worldwide.</p>
+            <p class="head-text-content">We have heavily optimised our operations to give you the best deal. Our pricing makes us a favourite platform for Indian shoppers worldwide.</p>
             <div class="pricing-terms">
               <div class="col-sm-4">
                 <div class="desc_box">
@@ -261,12 +260,12 @@
               @foreach($reviews as $review)
               <div class="item">
                 <div class="col-sm-3 text-center">
-                  <img src="{{asset('uploads/country')}}/{{$review->country->flag}}" class="img-circle">
+                  <img src="{{asset('img/flags')}}/{{$review->country->flag}}" class="img-circle">
                 </div>
                 <div class="col-sm-9">
                   <p>{{$review->review}}</p>
                   <span class="name">{{$review->person}}</span>
-                  <span>{{$review->country->name}}</span>
+                  <span>{{$review->country->flag}}</span>
                 </div>
                 <div class="clearfix"></div>
               </div>

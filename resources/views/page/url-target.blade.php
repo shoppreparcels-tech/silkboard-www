@@ -9,7 +9,7 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <a class="navbar-brand" href="http://www.shoppre.test">
-                <img src="http://www.shoppre.test/img/logo.png">
+                <img src="https://www.shoppre.com/img/logo.png">
             </a>
         </div>
         </div><!-- /.container-fluid -->
@@ -21,56 +21,57 @@
                 Goto:
             </p>
             <ul class="quickLinks quickLinksWidth">
-                <li class="quickLinksItem"><a class="link"  href="#non-document">
+                <li class="quickLinksItem"><a class="link" href="#non-document">
                         Non-Document</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link"  href="#document">
+                <li class="quickLinksItem"><a class="link" href="#document">
                         Document</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link"  href="#home_made_products">
+                <li class="quickLinksItem"><a class="link" href="#home_made_products">
                         Home Made Food Items</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link"  href="#branded_food_items">
+                <li class="quickLinksItem"><a class="link" href="#branded_food_items">
                         Branded & Packaged Food</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link"  href="#liquid">
+                <li class="quickLinksItem"><a class="link" href="#liquid">
                         Liquid</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link"  href="#schedule-pickup">
+                <li class="quickLinksItem"><a class="link" href="#schedule-pickup">
                         Pickups</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link"  href="#personal-shopper">
+                <li class="quickLinksItem"><a class="link" href="#personal-shopper">
                         Personal Shopper</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link"  href="#locker-facility">
+                <li class="quickLinksItem"><a class="link" href="#locker-facility">
                         Locker Facility</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link"  href="#consolidation">
+                <li class="quickLinksItem"><a class="link" href="#consolidation">
                         Consolidation & Repackaging</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link"  href="#restricted-items">
-                        Restricted Items</a></li>
+                <li class="quickLinksItem"><a class="link" href="#restricted-items">
+                        Restricted Items</a>
+                </li>
             </ul>
         </div>
         <br/>
     </div>
 
     <div id="non-document">
-    <section class="service-sec yellow">
+        <section class="service-sec yellow">
             <div class="container-fluid">
-              <div class="container">
-                  <h4>
-                      Ship from {{ucfirst(trans($source))}} to {{ucfirst(trans($destination))}}. Shoppre offers DOOR
-                      TO DOOR courier to
-                      {{ucfirst(trans($destination))}} from ANY part of India. The charges are cheapest
-                      in {{ucfirst(trans($source))}} for sending
-                      courier to {{ucfirst(trans($destination))}} . This is by a courier company which is the best in
-                      industry
-                      for parcel services to {{ucfirst(trans($destination))}}.
-                  </h4>
-                  <br>
-                  <h2>{{$title}}</h2>
-              </div>
+                <div class="container">
+                    <h4>
+                        Ship from {{ucfirst(trans($source))}} to {{ucfirst(trans($destination))}}. Shoppre offers DOOR
+                        TO DOOR courier to
+                        {{ucfirst(trans($destination))}} from ANY part of India. The charges are cheapest
+                        in {{ucfirst(trans($source))}} for sending
+                        courier to {{ucfirst(trans($destination))}} . This is by a courier company which is the best in
+                        industry
+                        for parcel services to {{ucfirst(trans($destination))}}.
+                    </h4>
+                    <br>
+                    <h2>{{$title}}</h2>
+                </div>
                 <div class="col-md-5 col-md-offset-1">
                     <table class="table table-striped">
                         <h3 class="head_color">Pricing details from {{ucfirst(trans($source))}}
@@ -101,7 +102,7 @@
                             <form class="calc-form" id="shipping">
                                 {{ csrf_field() }}
                                 <div class="form-group">
-                                    <label class="col-sm-12">Where  do you want to send your package?</label>
+                                    <label class="col-sm-12">Where do you want to send your package?</label>
                                     <div class="col-sm-12">
                                         <select class="form-control select2" name="country">
                                             <option value="">Select Country</option>
@@ -115,7 +116,8 @@
                                     <div class="clearfix"></div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-5 control-label" style="top: 8px;">What is your package type?</label>
+                                    <label class="col-sm-5 control-label" style="top: 8px;">What is your package
+                                        type?</label>
                                     <div class="col-sm-7">
                                         <div class="radio">
                                             <label class="checkbox-inline">
@@ -124,7 +126,7 @@
                                         </div>
                                         <div class="radio">
                                             <label class="checkbox-inline">
-                                                <input type="radio" name="type" value="doc" >Document
+                                                <input type="radio" name="type" value="doc">Document
                                             </label>
                                         </div>
                                     </div>
@@ -144,7 +146,7 @@
                                         </div>
                                         <div class="radio">
                                             <label class="checkbox-inline">
-                                                <input type="radio" name="unit" value="lbs" >Pounds
+                                                <input type="radio" name="unit" value="lbs">Pounds
                                             </label>
                                         </div>
                                     </div>
@@ -163,7 +165,7 @@
                                         </div>
                                         <div class="radio">
                                             <label class="checkbox-inline">
-                                                <input type="radio" name="scale" value="in" >in
+                                                <input type="radio" name="scale" value="in">in
                                             </label>
                                         </div>
                                     </div>
@@ -191,7 +193,7 @@
                                 <div class="clearfix"></div>
                             </form>
                             <div id="ship_result" class="calc-result">
-                                <h4 class="text-red">ESTIMATED SHIPPING COST*</h4>
+                                <h4 class="text-red margin_cost">ESTIMATED SHIPPING COST*</h4>
                                 <p class="info">Best carrier will be automatically chosen according to your country
                                     and weight of shipment. We use trusted courier services like DHL,
                                     FedEx and DTDC.</p>
@@ -209,18 +211,23 @@
                                 </div>
                                 <ul class="points">
                                     <li><span class="text-red">*</span> The chargeable weight is always the greater of
-                                        the two: Volumetric or the Actual weight.</li>
+                                        the two: Volumetric or the Actual weight.
+                                    </li>
                                     <li><span class="text-red">*</span> The rates displayed are INCLUSIVE of the
-                                        fuel surcharge and taxes within India.</li>
+                                        fuel surcharge and taxes within India.
+                                    </li>
                                     <li><span class="text-red">*</span> You may need to pay duties or tax when your
-                                        shipment arrives, as per the import law of the receiving country.</li>
+                                        shipment arrives, as per the import law of the receiving country.
+                                    </li>
                                     <li><span class="text-red">*</span> Excludes oversized and palletized shipments,
-                                        and special products (liquids, homemade food, etc.)</li>
+                                        and special products (liquids, homemade food, etc.)
+                                    </li>
                                     <li><span class="text-red">**</span> After dispatch from Shoppre facility. Does
                                         not apply to ship requests made after 3pm IST on Saturdays, or on holidays.
                                         Shipments that may require additional time include those containing items
                                         under review or hazardous materials, oversized packages or where additional
-                                        export documentation is required.</li>
+                                        export documentation is required.
+                                    </li>
                                 </ul>
                             </div>
                             <div id="calc_load"></div>
@@ -234,13 +241,13 @@
                             <h5>Parcel Sample :</h5>
                             <img src="{{asset('img/parcelsample.png')}}">
                         </div>
-                       </div>
                     </div>
                 </div>
-    </section>
+            </div>
+        </section>
     </div>
     <div id="document">
-      <section class="service-sec">
+        <section class="service-sec">
             <div class="container">
                 <div class="col-md-10">
                     <table class="table table-striped">
@@ -263,11 +270,11 @@
                     </table>
                 </div>
             </div>
-       </section>
+        </section>
     </div>
     <div id="home_made_products">
-       <section class="service-sec yellow">
-        <h3 class="htag_align">Send your home made items to {{ucfirst(trans($destination))}}</h3>
+        <section class="service-sec yellow">
+            <h3 class="htag_align">Send your home made items to {{ucfirst(trans($destination))}}</h3>
             <div class="container">
                 <div class="col-md-6">
                     <img src="img/homemade.jpg">
@@ -283,32 +290,32 @@
                         made food products abroad.</p>
                 </div>
             </div>
-      </section>
+        </section>
     </div>
     <div id="branded_food_items">
-        <section class="service-sec" >
+        <section class="service-sec">
             <h3 class="htag_align">Send branded food items to {{ucfirst(trans($destination))}}</h3>
-                <div class="container">
-                    <div class="col-md-6">
-                        <h4>Ship branded food items to worldwide</h4>
-                        <p>Shoppre has created a brand by itself by specializing as an exclusive international
-                            courier service provider for Sending Branded food products worldwide.Customers staying
-                            abroad need not have to feel deprived of enjoying the Indian food/delicacies now. All a
-                            customer has to do is either mail us all their International Branded food product
-                            requirements at support@shoppre.com or visit our website and fill in one of the pickup
-                            request forms and we precisely assure that we will either purchase your required Branded
-                            food products or pickup from your near and dear ones, or from your desired given address
-                            and dispatch it safely to your preferred destination anywhere around the globe.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="img/branded-food-items.jpg">
-                    </div>
+            <div class="container">
+                <div class="col-md-6">
+                    <h4>Ship branded food items to worldwide</h4>
+                    <p>Shoppre has created a brand by itself by specializing as an exclusive international
+                        courier service provider for Sending Branded food products worldwide.Customers staying
+                        abroad need not have to feel deprived of enjoying the Indian food/delicacies now. All a
+                        customer has to do is either mail us all their International Branded food product
+                        requirements at support@shoppre.com or visit our website and fill in one of the pickup
+                        request forms and we precisely assure that we will either purchase your required Branded
+                        food products or pickup from your near and dear ones, or from your desired given address
+                        and dispatch it safely to your preferred destination anywhere around the globe.</p>
                 </div>
+                <div class="col-md-6">
+                    <img src="img/branded-food-items.jpg">
+                </div>
+            </div>
         </section>
     </div>
     <div id="liquid">
-    <section class="service-sec yellow">
-        <h3 class="htag_align">Send liquid/semi-liquid to {{ucfirst(trans($destination))}}</h3>
+        <section class="service-sec yellow">
+            <h3 class="htag_align">Send liquid/semi-liquid to {{ucfirst(trans($destination))}}</h3>
             <div class="container">
                 <div class="col-md-5">
                     <img src="img/liquid.jpg">
@@ -320,27 +327,29 @@
                         parcels may be any of the following product types – Oil, Shampoos, Lotions.</p>
                 </div>
             </div>
-    </section>
+        </section>
     </div>
     {{--<div id="schedule-pickup">--}}
         {{--<section class="service-sec">--}}
             {{--<h3 class="htag_align">Schedule Your Pickup</h3>--}}
             {{--<div class="container">--}}
                 {{--<div class="schedule-container">--}}
-                    {{--<form class="form-horizontal" id="schedule-pickup">--}}
+                    {{--<form class="form-horizontal" id="pickup">--}}
                         {{--{{ csrf_field() }}--}}
                         {{--<div class="row">--}}
                             {{--<div class="col-sm-6">--}}
                                 {{--<div class="form-group">--}}
                                     {{--<label>Firstname <span class="mendatory_fields">*</span> :</label>--}}
-                                    {{--<input type="text" class="form-control" placeholder="Enter first name" name="first_name" />--}}
+                                    {{--<input type="text" class="form-control" placeholder="Enter first name"--}}
+                                           {{--name="first_name"/>--}}
                                     {{--<div class="clearfix"></div>--}}
                                 {{--</div>--}}
                             {{--</div>--}}
                             {{--<div class="col-sm-6">--}}
                                 {{--<div class="form-group">--}}
                                     {{--<label>Lastname <span class="mendatory_fields">*</span> :</label>--}}
-                                    {{--<input type="text" class="form-control" placeholder="Enter last name" name="last_name" />--}}
+                                    {{--<input type="text" class="form-control" placeholder="Enter last name"--}}
+                                           {{--name="last_name"/>--}}
                                     {{--<div class="clearfix"></div>--}}
                                 {{--</div>--}}
                             {{--</div>--}}
@@ -356,7 +365,7 @@
                             {{--<div class="col-sm-6">--}}
                                 {{--<div class="form-group">--}}
                                     {{--<label>Mobile <span class="mendatory_fields">*</span> :</label>--}}
-                                    {{--<input type="text" class="form-control" placeholder="Enter mobile" name="mobile" />--}}
+                                    {{--<input type="text" class="form-control" placeholder="Enter mobile" name="mobile"/>--}}
                                     {{--<div class="clearfix"></div>--}}
                                 {{--</div>--}}
                             {{--</div>--}}
@@ -365,14 +374,16 @@
                             {{--<div class="col-sm-6">--}}
                                 {{--<div class="form-group">--}}
                                     {{--<label>Weight Of Package <span class="mendatory_fields">*</span> :</label>--}}
-                                    {{--<input type="text" class="form-control" placeholder="Enter package weight" name="package_weight" />--}}
+                                    {{--<input type="text" class="form-control" placeholder="Enter package weight"--}}
+                                           {{--name="package_weight"/>--}}
                                     {{--<div class="clearfix"></div>--}}
                                 {{--</div>--}}
                             {{--</div>--}}
                             {{--<div class="col-sm-6">--}}
                                 {{--<div class="form-group">--}}
                                     {{--<label>Size Of The Package If You Are Aware( Length, Breadth and Height ) :</label>--}}
-                                    {{--<input type="text" class="form-control" placeholder="Enter package size (optional)" name="size_of_package" />--}}
+                                    {{--<input type="text" class="form-control" placeholder="Enter package size (optional)"--}}
+                                           {{--name="size_of_package"/>--}}
                                     {{--<div class="clearfix"></div>--}}
                                 {{--</div>--}}
                             {{--</div>--}}
@@ -381,7 +392,8 @@
                             {{--<div class="col-sm-12">--}}
                                 {{--<div class="form-group">--}}
                                     {{--<label>Pickup Address <span class="mendatory_fields">*</span> :</label>--}}
-                                    {{--<input type="text" class="form-control" placeholder="Enter pickup address" name="pickup_address" />--}}
+                                    {{--<input type="text" class="form-control" placeholder="Enter pickup address"--}}
+                                           {{--name="pickup_address"/>--}}
                                     {{--<div class="clearfix"></div>--}}
                                 {{--</div>--}}
                             {{--</div>--}}
@@ -401,7 +413,7 @@
                                 {{--<div class="form-group">--}}
                                     {{--<label>Items Of The Package <span class="mendatory_fields">*</span> :</label>--}}
                                     {{--<input type="text" class="form-control" placeholder="Enter Package Items"--}}
-                                           {{--name="package_items" required/>--}}
+                                           {{--name="package_items" />--}}
                                     {{--<div class="clearfix"></div>--}}
                                 {{--</div>--}}
                             {{--</div>--}}
@@ -411,9 +423,11 @@
                                 {{--<div class="form-group">--}}
                                     {{--<label>Does It Contains The Following:</label>--}}
                                     {{--<br>--}}
-                                    {{--<input type="checkbox" name="home_made" value="Home Made Food items"/> Home Made Food--}}
+                                    {{--<input type="checkbox" name="home_made" value="Home Made Food items"/> Home Made--}}
+                                    {{--Food--}}
                                     {{--items<br>--}}
-                                    {{--<input type="checkbox" name="branded_food_items" value="Branded Food items"/> Branded Food--}}
+                                    {{--<input type="checkbox" name="branded_food_items" value="Branded Food items"/>--}}
+                                    {{--Branded Food--}}
                                     {{--items<br>--}}
                                     {{--<input type="checkbox" name="liquid_items" value="Liquid items"/> Liquid items<br>--}}
                                     {{--<input type="checkbox" name="medicine_items"--}}
@@ -441,15 +455,18 @@
                                 {{--<div class="form-group">--}}
                                     {{--<label>Amount Transfer Option <span class="mendatory_fields">*</span>:</label>--}}
                                     {{--<br>--}}
-                                    {{--<input type="radio" name="payment_option" value="shoppre_account"> Transferwise.com or Bank--}}
+                                    {{--<input type="radio" name="payment_option" value="shoppre_account"> Transferwise.com--}}
+                                    {{--or Bank--}}
                                     {{--Transer--}}
-                                    {{--Name: INDIANSHOPPRE LLP , Account<br>&nbsp; &nbsp;&nbsp;&nbsp; Number: 917020057881967 , IFS--}}
+                                    {{--Name: INDIANSHOPPRE LLP , Account<br>&nbsp; &nbsp;&nbsp;&nbsp; Number:--}}
+                                    {{--917020057881967 , IFS--}}
                                     {{--Code: UTIB0000009 ,--}}
                                     {{--MICR Code:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 560211002 , <u>E-mail ID:--}}
                                         {{--support@shoppre.com </u>, Swift Code: AXISINBB009<br>--}}
-                                    {{--<input type="radio" name="payment_option" value="paypal" > PayPal - 10% Extra ---}}
+                                    {{--<input type="radio" name="payment_option" value="paypal"> PayPal - 10% Extra ---}}
                                     {{--support@shoppre.com<br>--}}
-                                    {{--<input type="radio" name="payment_option" value="paytm" > Paytm - 3% Extra - 9148357733--}}
+                                    {{--<input type="radio" name="payment_option" value="paytm"> Paytm - 3% Extra ---}}
+                                    {{--9148357733--}}
                                     {{--<div class="clearfix"></div>--}}
                                 {{--</div>--}}
                             {{--</div>--}}
@@ -467,8 +484,8 @@
         {{--</section>--}}
     {{--</div>--}}
     <div id="personal-shopper">
-    <section class="service-sec">
-        <h3 class="htag_align">Use Personal Shopper Service To Purchse Your Items</h3>
+        <section class="service-sec">
+            <h3 class="htag_align">Use Personal Shopper Service To Purchse Your Items</h3>
             <div class="container">
                 <div class="col-md-4">
                     <img src="img/services1.png">
@@ -486,10 +503,10 @@
                     <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">Sign up for free</a>
                 </div>
             </div>
-    </section>
+        </section>
     </div>
     <div id="locker-facility">
-    <section class="service-sec yellow">
+        <section class="service-sec yellow">
             <div class="container locker_fonts">
                 <h2>Free storage upto 20 days</h2>
                 <p>
@@ -500,7 +517,7 @@
                     which saves you money on international shipping.
                 </p>
             </div>
-    </section>
+        </section>
     </div>
     <div id="consolidation">
         <section class="price_repacking_margin">
@@ -593,9 +610,11 @@
                     <li>Precious & Semi-Precious Items</li>
                     <li>Commodities banned by Law at any given time without prior notice</li>
                     <li>Any shipment which would be likely to cause damage, or delay to equipment, personnel or
-                        other shipments.</li>
+                        other shipments.
+                    </li>
                     <li>Any item whose carriage is prohibited by any law, statute or regulations of the country of
-                        origin or destination, or of any country through which the shipment may transit.</li>
+                        origin or destination, or of any country through which the shipment may transit.
+                    </li>
                     <li>Perishable Food items</li>
                     <li>Live animals & plants</li>
                 </ol>
@@ -634,31 +653,31 @@
 @endsection
 
 @section('js_script')
-    {{--<!-- Select2 -->--}}
-    {{--<script src="{{asset('js/select2.min.js')}}"></script>--}}
-    {{--<script type="text/javascript">--}}
-        {{--$(document).ready(function() {--}}
-            {{--$(".select2").select2();--}}
-        {{--});--}}
-    {{--</script>--}}
+    <!-- Select2 -->
+    <script src="{{asset('js/select2.min.js')}}"></script>
+    <script type="text/javascript">
+    // $(document).ready(function() {
+    // $(".select2").select2();
+    // });
+    </script>
     <script src="{{asset('js/validate.min.js')}}"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
+        $(document).ready(function () {
 
-            $( "#shipping" ).validate({
+            $("#shipping").validate({
                 rules:
                     {
-                        country:{required: true},
+                        country: {required: true},
                         weight: {required: true},
-                        unit: {required: true},
+                        unit: {required: true}
                     },
                 messages:
                     {
-                        country: { required: "Please select country"},
-                        weight: { required: "Please enter weight to calculate."},
-                        unit: { required: "Please select unit of weight."},
+                        country: {required: "Please select country"},
+                        weight: {required: "Please enter weight to calculate."},
+                        unit: {required: "Please select unit of weight."}
                     },
-                submitHandler: function(form) {
+                submitHandler: function (form) {
                     var country = $("select[name='country']").val();
                     var weight = $("input[name='weight']").val();
                     var unit = $("input[name='unit']:checked").val();
@@ -672,13 +691,22 @@
                     $('#ship_result').hide();
                     jQuery.ajax({
                         url: '/calculate-shipping',
-                        type : "POST",
-                        data:{ _token:token, country:country, weight:weight, unit:unit, type:type, length:length, width:width, height:height},
-                        success: function(data){
+                        type: "POST",
+                        data: {
+                            _token: token,
+                            country: country,
+                            weight: weight,
+                            unit: unit,
+                            type: type,
+                            length: length,
+                            width: width,
+                            height: height
+                        },
+                        success: function (data) {
                             $("#calc_load").hide();
-                            if (data.error == "1"){
+                            if (data.error == "1") {
                                 $('#calc_error').css('display', 'block');
-                            }else{
+                            }else {
                                 $('#ship_oldcost').text(data.amount);
                                 var disamount = (data.discount / 100) * data.amount;
                                 var finalcost = Math.round(data.amount - disamount).toFixed(2);
@@ -693,70 +721,83 @@
                 }
             });
 
-            // $( "#schedule-pickup" ).validate({
-            //     rules:
-            //         {
-            //             first_name:{required: true},
-            //             last_name: {required: true},
-            //             email: {required: true},
-            //             // mobile: {required: true},
-            //             // package_weight: {required: true},
-            //             // pickup_address: {required: true},
-            //             // dest_address: {required: true},
-            //             // package_items: {required: true},
-            //             // payment_option: {required: true}
-            //         },
-            //     messages:
-            //         {
-            //             first_name: { required: "Please enter first name"},
-            //             last_name: { required: "Please enter last name"},
-            //             email: { required: "Please enter email"}
-            //             // mobile: { required: "Please enter mobile"},
-            //             // package_weight: { required: "Please package weight"},
-            //             // pickup_address: { required: "Please enter pickup address."},
-            //             // dest_address: { required: "Please enter destination address."},
-            //             // package_items: { required: "Please enter package items."},
-            //             // payment_option: { required: "Please select payment option."}
-            //         },
-            //     submitHandler: function(form){
-            //         var fname = $("select[name='fname']").val();
-            //         var lname = $("input[name='lname']").val();
-            //         var email = $("input[name='email']").val();
-            //         // var mobile = $("input[name='mobile']").val();
-            //         // var package_weight = $("input[name='package_weight']").val();
-            //         // var pickup_address = $("input[name='pickup_address']").val();
-            //         // var dest_address = $("input[name='dest_address']").val();
-            //         // var package_items = $("input[name='package_items']").val();
-            //         // var other_items = $("input[name='other_items']").val();
-            //         // var payment_option = $("input[name='payment_option']:checked").val();
-            //         var token = $('input[name=_token]').val();
-            //         $("#pickup_load").show();
-            //         jQuery.ajax({
-            //             url: '/schedule-pickup/request',
-            //             type : "POST",
-            //             // data:{ _token:token, fname:fname, lname:lname, email:email},
-            //             // data:{ _token:token, fname:fname, lname:lname, email:email, mobile:mobile,
-            //             //     pack_weight:package_weight, pickup_address:pickup_address, dest_address:dest_address,
-            //             //     pack_items:package_items,other_items:other_items,payment_option:payment_option
-            //             // },
-            //             success: function(data){
-            //                 console.log(data);
-            //                 $("#pickup_load").hide();
-            //             }
-            //         });
-            //         return false;
-            //     }
-            // });
+            $("#pickup").validate({
+                rules:
+                    {
+                        first_name: {required: true},
+                        last_name: {required: true},
+                        email: {required: true},
+                        mobile: {required: true},
+                        package_weight: {required: true},
+                        pickup_address: {required: true},
+                        dest_address: {required: true},
+                        package_items: {required: true},
+                        payment_option: {required: true}
+                    },
+                    messages:
+                    {
+                        first_name: {required: "Please enter first name"},
+                        last_name: {required: "Please enter last name"},
+                        email: {required: "Please enter email"},
+                        mobile: {required: "Please enter mobile"},
+                        package_weight: {required: "Please enter package weight"},
+                        pickup_address: {required: "Please enter pickup address"},
+                        dest_address: {required: "Please enter destination address"},
+                        package_items: {required: "Please enter package items"},
+                        payment_option: {required: "Please select payment option"}
+                    },
+
+                    submitHandler: function (form) {
+                    var fname = $("input[name='first_name']").val();
+                    var lname = $("input[name='last_name']").val();
+                    var email = $("input[name='email']").val();
+                    var mobile = $("input[name='mobile']").val();
+                    var package_weight = $("input[name='package_weight']").val();
+                    var pickup_address = $("input[name='pickup_address']").val();
+                    var dest_address = $("input[name='dest_address']").val();
+                    var package_items = $("input[name='package_items']").val();
+                    var pay_options = $("input[name='payment_option']:checked").val();
+                    var home_made = $("input[name='home_made']:checked").val();
+                    var branded_items = $("input[name='branded_food_items']:checked").val();
+                    var liquid_items = $("input[name='liquid_items']:checked").val();
+                    var medicine_items = $("input[name='medicine_items']:checked").val();
+                    var other_items = $("input[name='other']:checked").val();
+                    var other_ = $("input[name='other_items']").val();
+
+                    var token = $('input[name=_token]').val();
+                    jQuery.ajax({
+                        url: '/schedule-pickup/ajexRequest',
+                        type: "POST",
+                        data: {
+                            _token: token,
+                            first_name: fname,
+                            last_name:lname,
+                            email:email,
+                            mobile:mobile,
+                            package_weight:package_weight,
+                            pickup_address:pickup_address,
+                            dest_address:dest_address,
+                            package_items:package_items,
+                            payment_option:pay_options
+                        },
+                        success: function (data){
+                           console.log(data);
+                        }
+                    });
+                }
+            });
 
             $('input[name="other"]').click(function () {
 
                 if (this.checked) {
-                    $(".other_item_box").css("display","block");
+                    $(".other_item_box").css("display", "block");
                 }
                 else {
-                    $(".other_item_box").css("display","none");
+                    $(".other_item_box").css("display", "none");
                 }
             });
         });
     </script>
+
+
 @endsection

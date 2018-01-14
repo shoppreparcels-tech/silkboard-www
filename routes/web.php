@@ -23,7 +23,7 @@ Route::post('/reviews/submit', 'PageController@submitReview')->name('reviews.sub
 Route::get('/schedule-pickup', 'SchedulePickupController@index')->name('schedulePickup.Index');
 Route::post('/schedule-pickup', 'SchedulePickupController@submit')->name('schedulePickup.Submit');
 Route::get('/schedule-pickup/confirm', 'SchedulePickupController@confirm')->name('schedulePickup.confirmPickup');
-Route::post('/schedule-pickup/request', 'SchedulePickupController@pickupByAjex')->name('schedulePickup.byAjex');
+Route::post('/schedule-pickup/ajexRequest', 'PageController@pickupByAjex')->name('schedulePickup.byAjex');
 Route::get('/countries', 'PageController@countryList')->name('countryList');
 Route::get('/feedback', 'FeedbackController@index')->name('feedback.Index');
 Route::post('/feedback/submit', 'FeedbackController@submit')->name('feedback.submit');
@@ -35,6 +35,7 @@ Route::get('/{initial}-{cprefix}-{cpostfix}-from-{source}-to-{destination}', 'Pa
 
 Route::get('/chat-email', 'PageController@chatMailIndex')->name('chatMail.index');
 Route::post('/chat-email', 'PageController@chatMailSent')->name('chatMail.sent');
+Route::get('/chat-email/confirm', 'PageController@chatMailConfirm')->name('chatMail.confirm');
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');
 

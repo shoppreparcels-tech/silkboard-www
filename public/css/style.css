@@ -26,6 +26,11 @@
     border-top: 1px solid lightgray;
 }
 
+.margin_cost
+{
+    margin-left: 15px;
+}
+
 .packing_align
 {
     text-align: center;
@@ -132,10 +137,31 @@
     padding: 0 6px 0 6px;
 }
 
+.head-text-content
+{
+    font-size: 18px !important;
+    width: 70% !important;
+    margin: 10px 37px 20px 163px !important;
+}
+
 .quickLinksItem a {
     color: #4e4e44;
     font-size: 1.0em;
     margin: 0 6px 4px 8px;
+}
+
+
+.shipping-head
+{
+    text-transform: uppercase;
+    font-size: 52px;
+    font-weight: 900;
+    margin: 0px;
+    letter-spacing: -1px;
+    position: relative;
+    z-index: 2;
+    font-family: 'Myriad Pro';
+    color: #fe9611;
 }
 
 .other_item_box{display:none;}
@@ -157,7 +183,7 @@ span.error{display:block;color:#f50000;padding:5px 0;font-size:14px;font-style:i
 .alert{font-weight:600;}
 .alert-danger{background:#fff;border:0;border-bottom:1px solid #e81f00;color:#e81f00;border-radius:0;padding-left:0;}
 .alert-success{background:#fff;border:0;border-bottom:1px solid #02ad10;color:#02ad10;border-radius:0;padding-left:0;}
-label.error{color:#ea0606;font-weight:400;font-size:12px;margin-top:5px;}
+label.error{color:#ea0606;font-weight:400;font-size:15px;margin-top:5px;}
 .form-control:focus{border-color:#fe9611;box-shadow:none;}
 .owl-carousel .owl-dots{text-align:center;margin:10px 0 0;}
 .owl-carousel .owl-dot{border:2px solid #ccc;width:10px;height:10px;border-radius:50%;display:inline-block;margin:0;margin-right:5px}

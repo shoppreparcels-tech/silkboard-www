@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')">
-    @if(Request::url() ==='https://www.shoppre.com/schedule-pickup/confirm' || Request::url() === 'https://www.shoppre.com/feedback/confirm')
+    @if(Request::url() ==='https://www.shoppre.com/schedule-pickup/confirm' || Request::url() === 'https://www.shoppre.com/feedback/confirm' || Request::url() === 'http://www.shoppre.test/chat-email' || Request::url() === 'http://www.shoppre.test/chat-email/confirm')
     <meta name="robots" content="@yield('robots')"/> 
     @else
      <meta name="robots" content="noydir, noodp"/>
@@ -44,9 +44,29 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRL4B6X"
                     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+  {{--@php--}}
+
+   {{--if(isset($_SERVER['HTTP_REFERER']))--}}
+    {{--{--}}
+    {{--$ref = $_SERVER['HTTP_REFERER'];--}}
+    {{--}--}}
+    {{--else--}}
+    {{--{--}}
+        {{--$ref = "code";--}}
+    {{--}--}}
+  {{--@endphp--}}
+
+  {{--<script type="text/javascript">--}}
+    {{--var code = '<?php echo $ref;?>';--}}
+    {{--console.log('refrer',code);--}}
+    {{--if(!localStorage)--}}
+    {{--{--}}
+        {{--localStorage.refrer = code;--}}
+    {{--}--}}
+  {{--</script>--}}
 
     @include('partials._header')
-    
+
 
     @yield('content')
 

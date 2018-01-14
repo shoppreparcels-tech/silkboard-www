@@ -26,9 +26,14 @@ use App\Http\Controllers\SchedulePickup;
 
 class PageController extends Controller
 {
+    public function chatMailConfirm()
+    {
+        return view('chat-email.confirm-chat-email');
+    }
+
     public function pickupByAjex(Request $request)
     {
-        return response()->json([ 'error'=>'0', 'request'=> $request]);
+        return response()->json([ 'error'=>'0', 'request'=> $request->first_name]);
     }
 
     public function chatMailSent(Request $request)
@@ -38,8 +43,7 @@ class PageController extends Controller
         $chat_email = new ChatEmail($body);
         $result = $chat_email->save();
         $this->sendChatEmail($chat_email);
-        return view('chat-email.confirm-chat-email');
-
+        return redirect(route('chatMail.confirm'));
     }
 
     public function sendChatEmail($chatData)
@@ -86,36 +90,44 @@ class PageController extends Controller
         $initial = $request->initial;
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
         $country = Country::where('slug',$destination)->first();
-        
-        $prices_non_doc = ShippingRate::where('min','<=',1.5 )
-                               ->where('max','<=',2.0)
-                               ->where('item_type','=','nondoc')
-                               ->where('country_id',$country->id)->get();  
 
-        foreach ($prices_non_doc as $key => $field)
-         {
-              $disamount = ($country->discount / 100) * $field->amount; 
-              $prices_non_doc[$key]['amount'] = $disamount;
-         } 
+        if($country)
+        {
+            $prices_non_doc = ShippingRate::where('min','<=',1.5 )
+                ->where('max','<=',2.0)
+                ->where('item_type','=','nondoc')
+                ->where('country_id',$country->id)->get();
 
-        $prices_doc = ShippingRate::where('min','<=',1.5 )
-                               ->where('max','<=',2.0)
-                               ->where('item_type','=','doc')
-                               ->where('country_id',$country->id)->get();   
-         foreach ($prices_doc as $key => $field)
-         {
-             $disamount = ($country->discount / 100) * $field->amount; 
-              $prices_doc[$key]['amount'] = $disamount;
-         }                                             
-                         
-        $title = ucwords($initial)." From ".ucwords($source)." To ".ucwords($destination). " - Courier Services To ".ucwords($destination);
-        $description = "Shoppre offers Door to Door courier service to " .ucwords($destination).
-         " from any part of ".ucwords($source) .". The charges are cheapest in " .ucwords($source)."for sending courier to ".ucwords($destination).". Sign Up Now!";
-        $keywords = "ship your packages, delivered to your country, parcel services to ".ucwords($destination).",
-              sending courier to ".ucwords($destination).", shipping";                
-        return view('page.url-target')->with(['source' => $source,'destination'=>$country->name,'title'=>$title,'description'=>$description,'keywords'=>$keywords,
-            'prices_non_doc'=>$prices_non_doc,'prices_doc'=>$prices_doc,'countries'=>$countries]);
+            foreach ($prices_non_doc as $key => $field)
+            {
+                $disamount = ($country->discount / 100) * $field->amount;
+                $prices_non_doc[$key]['amount'] = $disamount;
+            }
+
+            $prices_doc = ShippingRate::where('min','<=',1.5 )
+                ->where('max','<=',2.0)
+                ->where('item_type','=','doc')
+                ->where('country_id',$country->id)->get();
+            foreach ($prices_doc as $key => $field)
+            {
+                $disamount = ($country->discount / 100) * $field->amount;
+                $prices_doc[$key]['amount'] = $disamount;
+            }
+
+            $title = ucwords($initial)." From ".ucwords($source)." To ".ucwords($destination). " - Courier Services To ".ucwords($destination);
+            $description = "Shoppre offers Door to Door courier service to " .ucwords($destination).
+                " from any part of ".ucwords($source) .". The charges are cheapest in " .ucwords($source)."for sending courier to ".ucwords($destination).". Sign Up Now!";
+            $keywords = "ship your packages, delivered to your country, parcel services to ".ucwords($destination).",
+              sending courier to ".ucwords($destination).", shipping";
+            return view('page.url-target')->with(['source' => $source,'destination'=>$country->name,'title'=>$title,'description'=>$description,'keywords'=>$keywords,
+                'prices_non_doc'=>$prices_non_doc,'prices_doc'=>$prices_doc,'countries'=>$countries]);
+        }
+        else
+        {
+         return redirect(route('home'));
+        }
     }
+
     public function urlTargetSend(Request $request)
     {
         $destination = $request->destination;
@@ -124,34 +136,42 @@ class PageController extends Controller
         $initial = $request->initial;
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
         $country = Country::where('slug',$destination)->first();
-        $prices_non_doc = ShippingRate::where('min','<=',1.5 )
-                               ->where('max','<=',2.0)
-                               ->where('item_type','=','nondoc')
-                               ->where('country_id',$country->id)->get();  
-        foreach ($prices_non_doc as $key => $field)
-         {            
-              $disamount = ($country->discount / 100) * $field->amount; 
-              $prices_non_doc[$key]['amount'] = $disamount;
-         } 
+        if($country) {
+            $prices_non_doc = ShippingRate::where('min', '<=', 1.5)
+                ->where('max', '<=', 2.0)
+                ->where('item_type', '=', 'nondoc')
+                ->where('country_id', $country->id)->get();
+            foreach ($prices_non_doc as $key => $field) {
+                $disamount = ($country->discount / 100) * $field->amount;
+                $prices_non_doc[$key]['amount'] = $disamount;
+            }
 
-        $prices_doc = ShippingRate::where('min','<=',1.5 )
-                               ->where('max','<=',2.0)
-                               ->where('item_type','=','doc')
-                               ->where('country_id',$country->id)->get();   
-         foreach ($prices_doc as $key => $field)
-         {
-             $disamount = ($country->discount / 100) * $field->amount; 
-              $prices_doc[$key]['amount'] = $disamount;
-         }     
-        $title = ucwords($initial)." ".ucwords($content)." From ".ucwords($source)." To ".ucwords($destination)." - ".ucwords($content)." Delivery ".ucwords($destination).".";
-        $description = ucwords($initial)." "."rakhi, chocolates, sweets, cookies, dress, birthday gifts and more to your friends and family, get delivered to " .ucwords($destination).
-         " from ".ucwords($source) .".";
-        $keywords = ucwords($initial)." ".ucwords($content).", delivery ".ucwords($content)." to ".ucwords($destination).",
+            $prices_doc = ShippingRate::where('min', '<=', 1.5)
+                ->where('max', '<=', 2.0)
+                ->where('item_type', '=', 'doc')
+                ->where('country_id', $country->id)->get();
+
+            foreach ($prices_doc as $key => $field) {
+                $disamount = ($country->discount / 100) * $field->amount;
+                $prices_doc[$key]['amount'] = $disamount;
+            }
+
+
+            $title = ucwords($initial) . " " . ucwords($content) . " From " . ucwords($source) . " To " . ucwords($destination) . " - " . ucwords($content) . " Delivery " . ucwords($destination) . ".";
+            $description = ucwords($initial) . " " . "rakhi, chocolates, sweets, cookies, dress, birthday gifts and more to your friends and family, get delivered to " . ucwords($destination) .
+                " from " . ucwords($source) . ".";
+            $keywords = ucwords($initial) . " " . ucwords($content) . ", delivery " . ucwords($content) . " to " . ucwords($destination) . ",
               gift overseas";
-          
-        return view('page.url-target')->with(['source' => $source,'content'=>$content,'destination'=>$destination,
-            'title'=>$title,'description'=>$description,'keywords'=>$keywords,
-            'prices_non_doc'=>$prices_non_doc,'prices_doc'=>$prices_doc,'countries'=>$countries]);
+
+            return view('page.url-target')->with(['source' => $source, 'content' => $content, 'destination' => $destination,
+                'title' => $title, 'description' => $description, 'keywords' => $keywords,
+                'prices_non_doc' => $prices_non_doc, 'prices_doc' => $prices_doc, 'countries' => $countries]);
+        }
+        else
+        {
+            return redirect(route('home'));
+        }
+
     }
     public function urlTargetContent(Request $request)
     {
@@ -162,39 +182,50 @@ class PageController extends Controller
         $initial = $request->initial;
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
         $country = Country::where('slug',$destination)->first();
-        $prices_non_doc = ShippingRate::where('min','<=',1.5 )
-                               ->where('max','<=',2.0)
-                               ->where('item_type','=','nondoc')
-                               ->where('country_id',$country->id)->get();  
-       foreach ($prices_non_doc as $key => $field)
-         {            
-              $disamount = ($country->discount / 100) * $field->amount; 
-              $prices_non_doc[$key]['amount'] = $disamount;
-         } 
+        if($country) {
+            $prices_non_doc = ShippingRate::where('min', '<=', 1.5)
+                ->where('max', '<=', 2.0)
+                ->where('item_type', '=', 'nondoc')
+                ->where('country_id', $country->id)->get();
+            foreach ($prices_non_doc as $key => $field) {
+                $disamount = ($country->discount / 100) * $field->amount;
+                $prices_non_doc[$key]['amount'] = $disamount;
+            }
 
-        $prices_doc = ShippingRate::where('min','<=',1.5 )
-                               ->where('max','<=',2.0)
-                               ->where('item_type','=','doc')
-                               ->where('country_id',$country->id)->get();   
-         foreach ($prices_doc as $key => $field)
-         {
-             $disamount = ($country->discount / 100) * $field->amount; 
-              $prices_doc[$key]['amount'] = $disamount;
-         }     
-        $title = ucwords($initial)." ".ucwords($cprefix)." ".ucwords($cpostfix)." From ".ucwords($source)." To ".ucwords($destination).". - " .ucwords($initial)." ".ucwords($cprefix)." To ".ucwords($destination);
-        $description = ucwords($initial)." ".ucwords($cprefix)." ".ucwords($cpostfix)." From ".ucwords($source)." To ".ucwords($destination).". "."Shoppre offers door to door express delivery service for all your " .ucwords($cprefix)." ".ucwords($cpostfix).
-         " at lowest shipping rates. Send Now!";
-        $keywords = ucwords($initial)." ".ucwords($cprefix)." ".ucwords($cpostfix).", shipping ".ucwords($cprefix)." ".ucwords($cpostfix).", parcel ".ucwords($cprefix)." ".ucwords($cpostfix);
+            $prices_doc = ShippingRate::where('min', '<=', 1.5)
+                ->where('max', '<=', 2.0)
+                ->where('item_type', '=', 'doc')
+                ->where('country_id', $country->id)->get();
+            foreach ($prices_doc as $key => $field) {
+                $disamount = ($country->discount / 100) * $field->amount;
+                $prices_doc[$key]['amount'] = $disamount;
+            }
+            $title = ucwords($initial) . " " . ucwords($cprefix) . " " . ucwords($cpostfix) . " From " . ucwords($source) . " To " . ucwords($destination) . ". - " . ucwords($initial) . " " . ucwords($cprefix) . " To " . ucwords($destination);
+            $description = ucwords($initial) . " " . ucwords($cprefix) . " " . ucwords($cpostfix) . " From " . ucwords($source) . " To " . ucwords($destination) . ". " . "Shoppre offers door to door express delivery service for all your " . ucwords($cprefix) . " " . ucwords($cpostfix) .
+                " at lowest shipping rates. Send Now!";
+            $keywords = ucwords($initial) . " " . ucwords($cprefix) . " " . ucwords($cpostfix) . ", shipping " . ucwords($cprefix) . " " . ucwords($cpostfix) . ", parcel " . ucwords($cprefix) . " " . ucwords($cpostfix);
 
-        return view('page.url-target')->with(['source' => $source,'destination'=>$destination,'title'=>$title,
-            'description'=>$description,'keywords'=>$keywords,'prices_non_doc'=>$prices_non_doc,
-            'prices_doc'=>$prices_doc,'countries'=>$countries]);
+            return view('page.url-target')->with(['source' => $source, 'destination' => $destination, 'title' => $title,
+                'description' => $description, 'keywords' => $keywords, 'prices_non_doc' => $prices_non_doc,
+                'prices_doc' => $prices_doc, 'countries' => $countries]);
+        }
+        else
+        {
+            return redirect(route('home'));
+        }
     }
     public function home()
     {
+        if(isset($_SERVER['HTTP_REFERER']))
+        {
+        $refercode = $_SERVER['HTTP_REFERER'];
+        echo $refercode;
+        exit;
+        }
+
         $reviews = Review::orderBy('updated_at', 'desc')
                             ->where('approve', '1')
-                            ->limit(10)
+                            ->limit(5)
                             ->get();
         return view('page.home')->with(['reviews' => $reviews]);
     }

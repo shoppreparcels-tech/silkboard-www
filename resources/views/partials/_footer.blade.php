@@ -16,12 +16,12 @@
           <ul class="foot_menu">
             <li><a href="{{route('howitworks')}}">How Shoppre Works</a></li>
             <li><a href="{{route('services')}}">Our Services</a></li>
-            <li><a href="{{route('pricing')}}">Shipping and Pricing for your country</a></li>
             <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/loyalty-points">Shoppre Loyalty Points</a></li>
             {{--<li><a href="javascript::void(0)">Country Guides</a></li>--}}
             <li><a href="{{route('stores')}}">Browse Categories</a></li>
             <li><a href="{{route('partner')}}">Become a Partner</a></li>
             <li><a href="{{route('reviews')}}">Shoppre Reviews</a></li>
+            <li><a href="{{route('pricing')}}">Shipping and Pricing for your country</a></li>
           </ul>
         </div>
         <div class="col-sm-3">
@@ -29,11 +29,12 @@
             <li><a href="{{route('about')}}">About Shoppre</a></li>
             {{--<li><a href="#">Careers at Shoppre.com</a></li>--}}
             <li><a href="{{route('contact')}}">Contact us</a></li>
-            <li><a href="https://blog.shoppre.com" target="_blank">Blogs</a></li>
+            {{--<li><a href="https://blog.shoppre.com" target="_blank">Blogs</a></li>--}}
+            <li><a href="{{route('feedback.Index')}}">Feedback</a></li>
             <li><a href="{{route('termsAndConditions')}}">Terms & Conditions</a></li>
             <li><a href="{{route('privacyPolicy')}}">Privacy Policy</a></li>
             <li><a href="{{route('refundAndCancellation')}}">Refund & Cancellation Policy</a>
-            <li><a href="{{route('faq')}}">FAQ</a></li>
+            <li><a href="https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch">Install Shoppre Chrome Extension</a></li>
           </ul>
         </div>
         <div class="col-sm-2">
@@ -54,7 +55,7 @@
     <div class="container">
       <div class="row">
           <div class="col-sm-6">
-            <p class="copy">&copy; 2017, All Rights Reserved - by Shoppre</p>
+            <p class="copy">&copy; 2018, All Rights Reserved - by Shoppre</p>
           </div>
           <div class="col-sm-6">
             <div class="terms">
