@@ -216,12 +216,12 @@ class PageController extends Controller
     }
     public function home()
     {
-        if(isset($_SERVER['HTTP_REFERER']))
-        {
-        $refercode = $_SERVER['HTTP_REFERER'];
-        echo $refercode;
-        exit;
-        }
+//        if(isset($_SERVER['HTTP_REFERER']))
+//        {
+//        $refercode = $_SERVER['HTTP_REFERER'];
+//        echo $refercode;
+//        exit;
+//        }
 
         $reviews = Review::orderBy('updated_at', 'desc')
                             ->where('approve', '1')
