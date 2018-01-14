@@ -44,26 +44,7 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRL4B6X"
                     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  {{--@php--}}
 
-   {{--if(isset($_SERVER['HTTP_REFERER']))--}}
-    {{--{--}}
-    {{--$ref = $_SERVER['HTTP_REFERER'];--}}
-    {{--}--}}
-    {{--else--}}
-    {{--{--}}
-        {{--$ref = "code";--}}
-    {{--}--}}
-  {{--@endphp--}}
-
-  {{--<script type="text/javascript">--}}
-    {{--var code = '<?php echo $ref;?>';--}}
-    {{--console.log('refrer',code);--}}
-    {{--if(!localStorage)--}}
-    {{--{--}}
-        {{--localStorage.refrer = code;--}}
-    {{--}--}}
-  {{--</script>--}}
 
     @include('partials._header')
 
