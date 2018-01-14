@@ -222,7 +222,6 @@ class PageController extends Controller
 //        echo $refercode;
 //        exit;
 //        }
-
         $reviews = Review::orderBy('updated_at', 'desc')
                             ->where('approve', '1')
                             ->limit(5)
