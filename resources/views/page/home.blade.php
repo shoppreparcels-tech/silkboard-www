@@ -265,7 +265,7 @@
                 <div class="col-sm-9">
                   <p>{{$review->review}}</p>
                   <span class="name">{{$review->person}}</span>
-                  <span>{{$review->country->flag}}</span>
+                  <span>{{$review->country->name}}</span>
                 </div>
                 <div class="clearfix"></div>
               </div>
