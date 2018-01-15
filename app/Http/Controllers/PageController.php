@@ -26,6 +26,8 @@ use App\Http\Controllers\SchedulePickup;
 
 class PageController extends Controller
 {
+
+
     public function chatMailConfirm()
     {
         return view('chat-email.confirm-chat-email');

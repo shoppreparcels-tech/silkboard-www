@@ -33,9 +33,13 @@ Route::get('/{initial}-from-{source}-to-{destination}', 'PageController@urlTarge
 Route::get('/{initial}-{contents}-from-{source}-to-{destination}', 'PageController@urlTargetSend')->name('urlTargetSend');
 Route::get('/{initial}-{cprefix}-{cpostfix}-from-{source}-to-{destination}', 'PageController@urlTargetContent')->name('urlTargetContent');
 
+Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('schedulePickup.mail');
+
 Route::get('/chat-email', 'PageController@chatMailIndex')->name('chatMail.index');
 Route::post('/chat-email', 'PageController@chatMailSent')->name('chatMail.sent');
 Route::get('/chat-email/confirm', 'PageController@chatMailConfirm')->name('chatMail.confirm');
+Route::get('/schedule-pickup/list', 'SchedulePickupController@pickupList')->name('schedulePickup.List');
+Route::get('/schedule-pickup/{id}', 'SchedulePickupController@pickupView')->name('schedulePickup.View');
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');
 

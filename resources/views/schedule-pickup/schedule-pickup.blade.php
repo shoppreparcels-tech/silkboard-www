@@ -72,7 +72,7 @@
                     <div class="col-sm-6">
                         <div class="form-group">
                             <label>Size Of The Package If You Are Aware( Length, Breadth and Height ) :</label>
-                            <input type="text" class="form-control" placeholder="Enter package size" name="size_of_package(optional)" required/>
+                            <input type="text" class="form-control" placeholder="Enter package size (optional)" name="size_of_package" />
                             <div class="clearfix"></div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <label>Other Item Detail <span class="mendatory_fields">*</span> :</label>
+                                <label>Other Item Detail:</label>
                                 <input type="text" class="form-control" placeholder="Enter Other Item Detail"
                                        name="other_items"/>
                                 @if ($errors->has('other_items'))

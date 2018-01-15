@@ -11,6 +11,30 @@ use Auth;
 
 class SchedulePickupController extends Controller
 {
+    public function detail()
+    {
+        return view('schedule-pickup.pickup-detail');
+    }
+    public function pickupView(Request $request)
+    {
+      $pickup_id = $request->id;
+      $pickup_details = SchedulePickup::where('id',$pickup_id)->first();
+//      echo $pickup_details;
+//      exit;
+        return view('schedule-pickup.pickup-detail')->with(['pickup_details' => $pickup_details]);
+    }
+
+    public function pickupList()
+    {
+        $pickups = SchedulePickup::orderBy('id','desc')->get();
+        return view('schedule-pickup.schedule-pickup-list')->with(['pickups' => $pickups]);
+    }
+
+    public function mail()
+    {
+        return view('email.schedule-pickup');
+    }
+
     public function index()
     {
         return view('schedule-pickup.schedule-pickup');

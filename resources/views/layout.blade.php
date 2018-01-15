@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')">
-    @if(Request::url() ==='https://www.shoppre.com/schedule-pickup/confirm' || Request::url() === 'https://www.shoppre.com/feedback/confirm' || Request::url() === 'http://www.shoppre.test/chat-email' || Request::url() === 'http://www.shoppre.test/chat-email/confirm')
-    <meta name="robots" content="@yield('robots')"/> 
+    @if(Request::url() ==='https://www.shoppre.com/schedule-pickup/confirm' || Request::url() === 'https://www.shoppre.com/feedback/confirm' || Request::url() === 'https://www.shoppre.com/chat-email' || Request::url() === 'https://www.shoppre.com/chat-email/confirm' || Request::url() === 'https://www.shoppre.com/schedule-pickup/list')
+    <meta name="robots" content="@yield('robots')"/>
     @else
      <meta name="robots" content="noydir, noodp"/>
     @endif
@@ -20,6 +20,7 @@
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css">
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -27,6 +28,8 @@
     <![endif]-->
     <!-- Progress Circle -->
     <link href="{{asset('css/txtProgress.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style1.css')}}" rel="stylesheet">
+    <link href="{{asset('css/print.css')}}" rel="stylesheet">
     @yield('css_style')
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
     <meta name="msvalidate.01" content="0E25F147AD9B658B4418A996E97D0D7D" />
@@ -57,6 +60,8 @@
     <script src="{{asset('js/jquery.min.js')}}"></script>
     <script src="{{asset('js/bootstrap.min.js')}}"></script>
     <script src="{{asset('js/txtProgress.min.js')}}"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.jqueryui.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
         var progress_val = $("#progress_val").val();
@@ -118,7 +123,6 @@
             s0.parentNode.insertBefore(s1, s0);
         })();
     </script>
-
     @yield('js_script')
   </body>
 </html>
