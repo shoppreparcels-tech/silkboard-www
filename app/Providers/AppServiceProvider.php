@@ -22,7 +22,6 @@ class AppServiceProvider extends ServiceProvider
         $promos = PromoCode::where('featured', '1')->whereDate('validity', '>=', date('Y-m-d'))->get();
         View::share('promos', $promos);
     }
-
     /**
      * Register any application services.
      *
