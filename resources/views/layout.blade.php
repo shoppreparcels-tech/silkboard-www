@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')">
-    @if(Request::url() ==='https://www.shoppre.com/schedule-pickup/confirm' || Request::url() === 'https://www.shoppre.com/feedback/confirm' || Request::url() === 'https://www.shoppre.com/chat-email' || Request::url() === 'https://www.shoppre.com/chat-email/confirm' || Request::url() === 'https://www.shoppre.com/schedule-pickup/list')
+    @if(Request::url() ==='https://www.shoppre.com/schedule-pickup/confirm' || Request::url() === 'https://www.shoppre.com/feedback/confirm' || Request::url() === 'https://www.shoppre.com/chat-email' || Request::url() === 'https://www.shoppre.com/chat-email/confirm' || Request::url() === 'https://www.shoppre.com/shipments' || Request::url() === 'https://www.shoppre.com/offer')
     <meta name="robots" content="@yield('robots')"/>
     @else
      <meta name="robots" content="noydir, noodp"/>
@@ -48,6 +48,13 @@
                     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
+
+     <script>
+      if(!localStorage.referer) {
+          localStorage.referer =  "<?php echo isset($_SERVER['HTTP_REFERER'])? $_SERVER['HTTP_REFERER'] : 'no-referrer'  ?>";
+          localStorage.firstVisit = window.location.href;
+      }
+     </script>
 
     @include('partials._header')
 
@@ -108,21 +115,58 @@
         fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=437389746641326&ev=PageView&noscript=1" /></noscript>
+  <script type="text/javascript">
 
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-        @if(Auth::guard('customer')->check())
-            Tawk_API.visitor = { name  : '{{Auth::user()->name}}', email : '{{Auth::user()->email}}' };
-        @endif
-        (function () {
-            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/{{ Auth::guard('customer')->check() ? "59d72784c28eca75e4624678" : "58dab24ff97dd14875f5a8a9" }}/default';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script>
+      var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+      @if(Auth::guard('customer')->check())
+          Tawk_API.visitor = { name  : '{{Auth::user()->name}}', email : '{{Auth::user()->email}}' };
+      @endif
+      (function () {
+          var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+          s1.async = true;
+          s1.src = 'https://embed.tawk.to/{{ Auth::guard('customer')->check() ? "59d72784c28eca75e4624678" : "58dab24ff97dd14875f5a8a9" }}/default';
+          s1.charset = 'UTF-8';
+          s1.setAttribute('crossorigin', '*');
+          s0.parentNode.insertBefore(s1, s0);
+      })();
+  </script>
+  <script>
+  Tawk_API = Tawk_API || {}; Tawk_API.onPrechatSubmit = function(data){
+      var referrer = localStorage.referer;
+      var first_visit = localStorage.firstVisit;
+          $.ajax({
+              url: '/api/leads',
+              type: "POST",
+              data: {
+                  referrer:referrer,
+                  first_visit:first_visit,
+                  first_name: data[0].answer,
+                  last_name: data[1].answer,
+                  email:data[2].answer,
+                  phone:data[3].answer
+              },
+              success: function (data){
+                  console.log(data);
+                  $.ajax({
+                      url: '/api/leads/tawkto',
+                      type: "POST",
+                      data: {
+                          referer: localStorage.referer,
+                          first_visit: localStorage.firstVisit,
+                          first_name: data[0].answer,
+                          last_name: data[1].answer,
+                          email:data[2].answer,
+                          phone:data[3].answer,
+                          question:data[4].answer,
+                      },
+                      success: function (data) {
+                          console.log(data);
+                      }
+                  });
+              }
+          });
+   };
+  </script>
     @yield('js_script')
   </body>
 </html>

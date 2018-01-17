@@ -1,6 +1,7 @@
 <?php
 
 /*------ Pages ---------*/
+
 Route::get('/', 'PageController@home')->name('home');
 Route::get('/about', 'PageController@about')->name('about');
 Route::get('/partner', 'PageController@partner')->name('partner');
@@ -20,6 +21,15 @@ Route::post('/stores/sort', 'PageController@sortStores')->name('stores.sort');
 Route::get('/reviews', 'PageController@reviews')->name('reviews');
 Route::post('/reviews/submit', 'PageController@submitReview')->name('reviews.submit');
 
+Route::get('/login', 'Customer\LoginController@login')->name('customer.login');
+Route::post('/login', 'Customer\LoginController@submitLogin')->name('customer.login.submit');
+Route::get('/logout', 'Customer\ProfileController@logout')->name('customer.logout');
+
+Route::get('/social/oauth/google', 'Customer\SocialAuthController@redirectGoogle')->name('customer.social.google');
+Route::get('/social/callback/google', 'Customer\SocialAuthController@callbackGoogle');
+Route::get('/social/oauth/facebook', 'Customer\SocialAuthController@redirectFacebook')->name('customer.social.facebook');
+Route::get('/social/callback/facebook', 'Customer\SocialAuthController@callbackFacebook');
+
 Route::get('/schedule-pickup', 'SchedulePickupController@index')->name('schedulePickup.Index');
 Route::post('/schedule-pickup', 'SchedulePickupController@submit')->name('schedulePickup.Submit');
 Route::get('/schedule-pickup/confirm', 'SchedulePickupController@confirm')->name('schedulePickup.confirmPickup');
@@ -34,12 +44,15 @@ Route::get('/{initial}-{contents}-from-{source}-to-{destination}', 'PageControll
 Route::get('/{initial}-{cprefix}-{cpostfix}-from-{source}-to-{destination}', 'PageController@urlTargetContent')->name('urlTargetContent');
 
 Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('schedulePickup.mail');
+//Route::post('/api/leads', 'PageController@leads')->name('leads');
+
+Route::get('/offer', 'PageController@offers')->name('offers');
 
 Route::get('/chat-email', 'PageController@chatMailIndex')->name('chatMail.index');
 Route::post('/chat-email', 'PageController@chatMailSent')->name('chatMail.sent');
 Route::get('/chat-email/confirm', 'PageController@chatMailConfirm')->name('chatMail.confirm');
-Route::get('/schedule-pickup/list', 'SchedulePickupController@pickupList')->name('schedulePickup.List');
-Route::get('/schedule-pickup/{id}', 'SchedulePickupController@pickupView')->name('schedulePickup.View');
+Route::get('/shipments', 'SchedulePickupDetailController@pickupList')->name('schedulePickup.List');
+Route::get('/shipment/{id}', 'SchedulePickupDetailController@pickupView')->name('schedulePickup.View');
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');
 

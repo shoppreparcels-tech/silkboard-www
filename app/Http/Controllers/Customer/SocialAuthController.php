@@ -67,10 +67,10 @@ class SocialAuthController extends Controller
 	        $this->checkProfileSet($custid);
 	        Auth::loginUsingId($custid);
 
-	        return redirect()->route('customer.locker');
+	        return redirect()->route('schedulePickup.List');
 
         }else{
-        	return redirect(route('customer.register'))->with('error', 'Sorry, Now we are unable to login/register using Google API. Try again after sometime!');
+        	return redirect(route('customer.login'))->with('error', 'Sorry, Now we are unable to login/register using Google API. Try again after sometime!');
         }
     }
 
@@ -82,7 +82,7 @@ class SocialAuthController extends Controller
     public function callbackFacebook(Request $request)
     {
     	if (isset($request->error_code) && $request->error_code == 200) {
-    		return redirect(route('customer.register'))->with('error', 'Facebook login process canceled.');
+    		return redirect(route('customer.login'))->with('error', 'Facebook login process canceled.');
     	}
 
         $socialUser = Socialite::driver('facebook')->user();
@@ -129,10 +129,10 @@ class SocialAuthController extends Controller
 	        $this->checkProfileSet($custid);
 	        Auth::loginUsingId($custid);
 
-	        return redirect()->route('customer.locker');
+	        return redirect()->route('schedulePickup.List');
 
         }else{
-        	return redirect(route('customer.register'))->with('error', 'Sorry, Now we are unable to login/register using Facebook API. Try again after sometime!');
+        	return redirect(route('customer.login'))->with('error', 'Sorry, Now we are unable to login/register using Facebook API. Try again after sometime!');
         }
     }
 

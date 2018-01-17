@@ -4,7 +4,7 @@
     <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login"><i class="fa fa-unlock-alt"></i> Login</a>
     <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register"><i class="fa fa-user"></i> Signup</a>
     @else
-    <a href="{{route('customer.locker')}}"><i class="fa fa-user"></i> My Locker</a>
+    {{--<a href="{{route('customer.locker')}}"><i class="fa fa-user"></i> My Locker</a>--}}
     <a href="{{route('customer.logout')}}"><i class="fa fa-lock"></i> Logout</a>
     @endif
     <div class="clearfix"></div>
@@ -23,7 +23,8 @@
           <li class="padding_li1" href="mailto:support@shoppre.com"><i class="fa fa-envelope icon_margen"></i>support@shoppre.com</li>
           <li class="padding_li2" href="tel:+91-80 4094 4077"><i class="fa fa-mobile icon_margen"></i>+91 80 4094 4077</li>
           @if(Auth::guard('customer')->check())
-            <li><a href="{{route('customer.locker')}}"><i class="fa fa-user"></i> {{Auth::guard('customer')->user()->name}}</a></li>
+            {{--<li><a href="{{route('customer.locker')}}"><i class="fa fa-user"></i> {{Auth::guard('customer')->user()->name}}</a></li>--}}
+            <li><a href="javascript:void(0)"><i class="fa fa-user"></i> {{Auth::guard('customer')->user()->name}}</a></li>
             <li><a href="{{route('customer.logout')}}"><i class="fa fa-sign-out"></i> Logout</a></li>
           @else
             <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login"><i class="fa fa-unlock-alt"></i> Login</a></li>

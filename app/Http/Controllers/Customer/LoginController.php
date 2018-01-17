@@ -8,14 +8,10 @@ use Auth;
 
 class LoginController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('guest:customer');
-    }
 
 	public function login()
 	{
-		return view('customer.login');
+		return view('page.login');
 	}
 
 	public function submitLogin(Request $request)
@@ -25,10 +21,11 @@ class LoginController extends Controller
     		'password' => 'required|min:6',
     	]);
 
-    	if (Auth::guard('customer')->attempt(['email'=>$request->email, 'password'=>$request->password], $request->remember)) {
-    		return redirect()->intended(route('customer.locker'));
+    	if(Auth::guard('customer')->attempt(['email'=>$request->email,
+            'password'=>$request->password], $request->remember)) {
+    		return redirect()->intended(route('schedulePickup.List'));
     	}
-    	
-    	return redirect()->back()->with('error_message', 'Your email/password combination was incorrect')->withInput($request->only('email', 'remember'));
+    	return redirect()->back()->with('error_message', 'Your email/password combination was incorrect')
+            ->withInput($request->only('email', 'remember'));
 	}
 }
