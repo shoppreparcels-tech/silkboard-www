@@ -4,7 +4,7 @@
 .mendatory_fields{color:red;}
 
 /*--coupon code--*/
-.coupon {
+.coupon_cashback {
     border: 5px dotted #bbb;
     width: 80%;
     border-radius: 15px;
@@ -13,12 +13,6 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-.container {
-    padding: 2px 16px;
-    background-color: #f1f1f1;
-}
-
 .promo {
     background: #ccc;
     padding: 3px;

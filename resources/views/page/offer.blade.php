@@ -9,15 +9,14 @@
     <link href="{{asset('css/star-rating.min.css')}}" rel="stylesheet"/>
 @endsection
 @section('content')
-            <div class="coupon">
+            <div class="coupon_cashback">
                 <div class="container-fluid">
-                    <h3>Join with us and ship Worlwide</h3>
+                    <h3>Join us and ship Worldwide</h3>
                 </div>
                 <img src="/img/how.jpg" alt="Avatar" style="width:100%;">
                 <div class="left-space">
                     <h2><b>10% Cashback</b></h2>
-                    <p>Use this promo code and get 10% cashback.</p>
-                    <p>Use Promo Code: <span class="promo">KOR-BLR-A</span></p>
+                    <p>Use Promo Code: <span class="promo">KOR-BLR-A</span>  to avail 10% Cashback</p>
                 </div>
             </div>
 @endsection
