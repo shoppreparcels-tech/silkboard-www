@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')">
-    @if(Request::url() ==='https://www.shoppre.com/schedule-pickup/confirm' || Request::url() === 'https://www.shoppre.com/feedback/confirm' || Request::url() === 'https://www.shoppre.com/chat-email' || Request::url() === 'https://www.shoppre.com/chat-email/confirm' || Request::url() === 'https://www.shoppre.com/shipments' || Request::url() === 'https://www.shoppre.com/offer')
+    @if(Request::url() ==='https://www.shoppre.com/schedule-pickup/confirm' || Request::url() === 'https://www.shoppre.com/feedback/confirm' || Request::url() === 'https://www.shoppre.com/chat-email' || Request::url() === 'https://www.shoppre.com/chat-email/confirm' || Request::url() === 'https://www.shoppre.com/shipments' || Request::url() === 'https://www.shoppre.com/offer'|| Request::url() === 'https://www.shoppre.com/newsoffer')
     <meta name="robots" content="@yield('robots')"/>
     @else
      <meta name="robots" content="noydir, noodp"/>
@@ -170,9 +170,9 @@
       };
   </script>
   <script>
-      if(window.location.href == "http://www.shoppre.test/offer" || window.location.href == "http://www.shoppre.test/newsoffer")
+      if(window.location.href == "https://www.shoppre.com/offer" || window.location.href == "https://www.shoppre.com/newsoffer")
       {
-          if(!localStorage.newsUrlVisit && window.location.href == "http://www.shoppre.test/newsoffer")
+          if(!localStorage.newsUrlVisit && window.location.href == "https://www.shoppre.com/newsoffer")
           {
               console.log("News Enter");
               var newsUser =  "New User";
@@ -180,7 +180,7 @@
               var coupon_news = "KOR-BLR-N";
               storecustomer(newsUser,localStorage.newsUrlVisit,coupon_news);
           }
-          else if(!localStorage.airUrlVisit && window.location.href == "http://www.shoppre.test/offer")
+          else if(!localStorage.airUrlVisit && window.location.href == "https://www.shoppre.com/offer")
           {
               console.log("Airport Enter");
               var airUser =  "New User";
