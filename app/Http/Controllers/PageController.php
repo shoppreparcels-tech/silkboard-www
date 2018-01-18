@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\FlyerUsers;
 use App\Mail\EmailChat;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -26,21 +27,25 @@ use App\Http\Controllers\SchedulePickup;
 
 class PageController extends Controller
 {
+    public function saveFlyerUser(Request $request)
+    {
+        $flyer_user = new FlyerUsers();
+        $flyer_user->name = $request->username;
+        $flyer_user->coupon_code = $request->coupon;
+        $flyer_user->url = $request->url;
+        $result = $flyer_user->save();
+        return response()->json([ 'error'=>'0', 'apistatus'=> "Api Success"]);
+    }
+
     public function newspaper(Request $request)
     {
         $coupon_code = "KOR-BLR-N";
-//        $ip = $request->ip();
-//        echo $ip;
-//        exit;
-        return view('offers.offer')->with(["coupon_code"=>$coupon_code]);;
+        return view('offers.offer')->with(["coupon_code"=>$coupon_code]);
     }
 
     public function airport(Request $request)
     {
         $coupon_code = "KOR-BLR-A";
-//        $ip = $request->ip();
-//        echo $ip;
-//        exit;
         return view('offers.offer')->with(["coupon_code"=>$coupon_code]);
     }
 

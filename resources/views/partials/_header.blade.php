@@ -17,6 +17,7 @@
           <li><a href="{{route('partner')}}">Become a Partner</a></li>
           <li><a href="{{route('faq')}}">FAQ</a></li>
           <li><a href="http://blog.shoppre.com/" target="_blank">Blogs</a></li>
+          <li><a href="javascript:void(0)" id="btnApi">Api Test</a></li>
         </ul>
 
         <ul class="nav navbar-nav navbar-right">

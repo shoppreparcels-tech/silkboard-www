@@ -56,6 +56,7 @@
       }
      </script>
 
+
     @include('partials._header')
 
 
@@ -115,6 +116,7 @@
         fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=437389746641326&ev=PageView&noscript=1" /></noscript>
+
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
       var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
@@ -123,7 +125,7 @@
           name  : '{{Auth::user()->name . ' - ' . Auth::user()->id}}',
           email : '{{Auth::user()->name}}'
       };
-      @endif;
+      @endif
       (function () {
           var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
           s1.async = true;
@@ -134,71 +136,91 @@
       })();
   </script>
   <!--End of Tawk.to Script-->
-  {{--<script>--}}
-  {{--Tawk_API = Tawk_API || {}; Tawk_API.onPrechatSubmit = function(data){--}}
-      {{--var referrer = localStorage.referer;--}}
-      {{--var first_visit = localStorage.firstVisit;--}}
-          {{--$.ajax({--}}
-              {{--url: '/api/leads',--}}
-              {{--type: "POST",--}}
-              {{--data: {--}}
-                  {{--referrer:referrer,--}}
-                  {{--first_visit:first_visit,--}}
-                  {{--first_name: data[0].answer,--}}
-                  {{--last_name: data[1].answer,--}}
-                  {{--email:data[2].answer,--}}
-                  {{--phone:data[3].answer--}}
-              {{--},--}}
-              {{--success: function (data){--}}
-                  {{--console.log(data);--}}
-                  {{--// $.ajax({--}}
-                  {{--//     url: '/api/leads/tawkto',--}}
-                  {{--//     type: "POST",--}}
-                  {{--//     data: {--}}
-                  {{--//         referer: localStorage.referer,--}}
-                  {{--//         first_visit: localStorage.firstVisit,--}}
-                  {{--//         name: data[0].answer,--}}
-                  {{--//         email:data[1].answer,--}}
-                  {{--//         phone:data[2].answer,--}}
-                  {{--//         question:data[3].answer--}}
-                  {{--//     },--}}
-                  {{--//     success: function (data) {--}}
-                  {{--//         console.log(data);--}}
-                  {{--//     }--}}
-                  {{--// });--}}
+  <script>
+      Tawk_API = Tawk_API || {}; Tawk_API.onPrechatSubmit = function(data){
+          var referrer = localStorage.referer;
+          var first_visit = localStorage.firstVisit;
+          $.ajax({
+              url: '/api/leads',
+              type: "POST",
+              data: {
+                  referrer:referrer,
+                  first_visit:first_visit,
+                  first_name: data[0].answer,
+                  last_name: data[1].answer,
+                  email:data[2].answer,
+                  phone:data[3].answer
+              },
+              success: function (data){
+                  console.log(data);
+                  var settings = {
+                      "async": true,
+                      "crossDomain": true,
+                      "url": "https://leads.shoppre.com/api/leads",
+                      "method": "POST",
+                      "headers": {
+                          "token": "230958jdfsdf89ujie",
+                          "content-type": "application/x-www-form-urlencoded",
+                          "cache-control": "no-cache"
+                      },
+                      "data":{
+                          "email":data[1].answer,
+                          "name": data[0].answer,
+                          "tags": data[3].answer,
+                          "company": "company1",
+                          "address": "address",
+                          "city": "city",
+                          "postal_code": "1234",
+                          "username": data[1].answer,
+                          "phone":data[2].answer,
+                          "team_id":1
+                      }
+                  };
 
-                  {{--var settings = {--}}
-                      {{--"async": true,--}}
-                      {{--"crossDomain": true,--}}
-                      {{--"url": "http://leads.shoppre.com/api/leads",--}}
-                      {{--"method": "POST",--}}
-                      {{--"headers": {--}}
-                          {{--"token": "230958jdfsdf89ujie",--}}
-                          {{--"content-type": "application/x-www-form-urlencoded",--}}
-                          {{--"cache-control": "no-cache",--}}
-                          {{--"postman-token": "afd94395-baf7-a63f-6af0-7e37fc2b3235"--}}
-                      {{--},--}}
-                      {{--"data": {--}}
-                          {{--"email":data[1].answer,--}}
-                          {{--"name": data[0].answer,--}}
-                          {{--"tags": data[3].answer,--}}
-                          {{--"company": "company1",--}}
-                          {{--"address": "address",--}}
-                          {{--"city": "city",--}}
-                          {{--"postal_code": "1234",--}}
-                          {{--"username": "manjeshx",--}}
-                          {{--"phone":data[2].answer,--}}
-                          {{--"team_id":1--}}
-                      {{--}--}}
-                  {{--};--}}
+                  $.ajax(settings).done(function (response) {
+                      console.log('fff',response);
+                  });
+              }
+          });
+      };
+  </script>
 
-                  {{--$.ajax(settings).done(function (response) {--}}
-                      {{--console.log('fff',response);--}}
-                  {{--});--}}
-              {{--}--}}
-          {{--});--}}
-   {{--};--}}
-  {{--</script>--}}
+  <script>
+      if(window.location.href == "http://www.shoppre.test/offer" || window.location.href == "http://www.shoppre.test/newsoffer")
+      {
+          if(!localStorage.newsUrlVisit && window.location.href == "http://www.shoppre.test/newsoffer")
+          {
+              console.log("News Enter");
+              var newsUser =  "New User";
+              localStorage.newsUrlVisit = window.location.href;
+              var coupon_news = "KOR-BLR-N";
+              storecustomer(newsUser,localStorage.newsUrlVisit,coupon_news);
+          }
+          else if(!localStorage.airUrlVisit && window.location.href == "http://www.shoppre.test/offer")
+          {
+              console.log("Airport Enter");
+              var airUser =  "New User";
+              localStorage.airUrlVisit = window.location.href;
+              var coupon_air = "KOR-BLR-A";
+              storecustomer(airUser,localStorage.airUrlVisit,coupon_air);
+          }
+      }
+
+      function storecustomer(user,url,coupon) {
+          $.ajax({
+              url: '/api/offers',
+              type: "POST",
+              data: {
+                  username: user,
+                  url:url,
+                  coupon: coupon
+              },
+              success: function (data) {
+                  console.log(data);
+              }
+          });
+      }
+  </script>
     @yield('js_script')
   </body>
 </html>
