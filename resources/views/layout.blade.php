@@ -161,7 +161,6 @@
                           "address": "address",
                           "city": "city",
                           "postal_code": "1234",
-
                           "phone":data[2].answer,
                           "team_id": SALES
                       }

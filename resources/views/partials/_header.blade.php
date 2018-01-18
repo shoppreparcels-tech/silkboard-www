@@ -48,15 +48,6 @@
           </div>
         </div>
         @endif
-        {{--@if(!$announcements->isEmpty())--}}
-          {{--<div class="announcescroll">--}}
-            {{--<ul id="liticker" style="width:100%;">--}}
-              {{--@foreach($announcements as $anounce)--}}
-                {{--<li> <span>{{$anounce->message}}</span></li>--}}
-              {{--@endforeach--}}
-            {{--</ul>--}}
-          {{--</div>--}}
-        {{--@endif--}}
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
