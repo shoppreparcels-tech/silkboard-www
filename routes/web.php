@@ -46,7 +46,8 @@ Route::get('/{initial}-{cprefix}-{cpostfix}-from-{source}-to-{destination}', 'Pa
 Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('schedulePickup.mail');
 //Route::post('/api/leads', 'PageController@leads')->name('leads');
 
-Route::get('/offer', 'PageController@offers')->name('offers');
+Route::get('/offer', 'PageController@airport')->name('airportOffers');
+Route::get('/newsoffer', 'PageController@newspaper')->name('newspaperOffers');
 
 Route::get('/chat-email', 'PageController@chatMailIndex')->name('chatMail.index');
 Route::post('/chat-email', 'PageController@chatMailSent')->name('chatMail.sent');

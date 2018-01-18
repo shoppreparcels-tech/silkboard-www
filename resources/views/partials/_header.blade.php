@@ -40,6 +40,22 @@
           </ul>
         </div>
         @endif
+        @if(isset($announcements))
+        <div class="announcescroll">
+          <div class="message_announce">
+            <marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" direction="left"><span class="text_deco">{{$announcements->message}}</span></marquee>
+          </div>
+        </div>
+        @endif
+        {{--@if(!$announcements->isEmpty())--}}
+          {{--<div class="announcescroll">--}}
+            {{--<ul id="liticker" style="width:100%;">--}}
+              {{--@foreach($announcements as $anounce)--}}
+                {{--<li> <span>{{$anounce->message}}</span></li>--}}
+              {{--@endforeach--}}
+            {{--</ul>--}}
+          {{--</div>--}}
+        {{--@endif--}}
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>

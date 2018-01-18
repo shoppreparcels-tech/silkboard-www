@@ -26,10 +26,22 @@ use App\Http\Controllers\SchedulePickup;
 
 class PageController extends Controller
 {
-
-    public function offers()
+    public function newspaper(Request $request)
     {
-        return view('page.offer');
+        $coupon_code = "KOR-BLR-N";
+//        $ip = $request->ip();
+//        echo $ip;
+//        exit;
+        return view('offers.offer')->with(["coupon_code"=>$coupon_code]);;
+    }
+
+    public function airport(Request $request)
+    {
+        $coupon_code = "KOR-BLR-A";
+//        $ip = $request->ip();
+//        echo $ip;
+//        exit;
+        return view('offers.offer')->with(["coupon_code"=>$coupon_code]);
     }
 
     public function chatMailConfirm()
