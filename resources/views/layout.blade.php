@@ -140,6 +140,7 @@
           var referrer = localStorage.referer;
           var first_visit = localStorage.firstVisit;
                   console.log(data);
+                  var SALES = 1;
                   var settings = {
                       "async": true,
                       "crossDomain": true,
@@ -152,15 +153,17 @@
                       },
                       "data":{
                           "email":data[1].answer,
+                          "username": data[1].answer,
                           "name": data[0].answer,
-                          "tags": data[3].answer,
+                          "body": data[3].answer,
+                          "tags": 'tawk',
                           "company": "company1",
                           "address": "address",
                           "city": "city",
                           "postal_code": "1234",
-                          "username": data[1].answer,
+
                           "phone":data[2].answer,
-                          "team_id":1
+                          "team_id": SALES
                       }
                   };
 
