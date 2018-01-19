@@ -76,7 +76,7 @@ class PageController extends Controller
 
     public function chatMailIndex()
     {
-           return view('chat-email.chat-email');
+      return view('chat-email.chat-email');
     }
 
     public function refundAndCancellation()

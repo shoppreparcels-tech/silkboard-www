@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Shoppre.com - Member Feedback Form | Shoppre')
+@section('title', 'Campaign')
 @section('description', 'How we are doing? Regarding your most recent shipment received through Shoppre.com, please leave your feedback, suggestion and provide us more information.')
 @section('keywords', 'shipment, suggestion, feedback, information, form')
 @section('robots', 'noindex, nofollow')
@@ -47,9 +47,9 @@
                         <div class="row">
                             <div class="col-md-8 col-sm-offset-2">
                                 <div class="form-group">
-                                    <label>Coupon Begain Date</label>
+                                    <label>Coupon Begin Date</label>
                                     <div class="rating-star">
-                                        <input class="form-control" type="date"  placeholder="{{$campaign->begain_date}}" name="begain_date" required>
+                                        <input class="form-control" type="date"  placeholder="{{$campaign->begin_date}}" name="begin_date" required>
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>
@@ -58,7 +58,7 @@
                         <div class="row">
                             <div class="col-md-8 col-sm-offset-2">
                                 <div class="form-group">
-                                    <label>Coupon Begain Date</label>
+                                    <label>Coupon End Date</label>
                                     <div class="rating-star">
                                         <input class="form-control" type="date" placeholder="{{$campaign->end_date}}" name="end_date" required>
                                     </div>

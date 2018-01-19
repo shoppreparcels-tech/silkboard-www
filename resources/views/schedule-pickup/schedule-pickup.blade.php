@@ -61,8 +61,8 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="form-group">
-                            <label>Weight Of Package <span class="mendatory_fields">*</span> :</label>
-                            <input type="text" class="form-control" placeholder="Enter package weight" name="package_weight" required/>
+                            <label>Weight Of Package(in kg)<span class="mendatory_fields">*</span> :</label>
+                            <input type="number" class="form-control" placeholder="Enter package weight" name="package_weight" required/>
                             @if ($errors->has('package_weight'))
                                 <span class="error">{{ $errors->first('package_weight')}}</span>
                             @endif

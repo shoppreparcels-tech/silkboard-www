@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Schedule Your Package Pickup Online with Shoppre - Schedule A Pickup')
+@section('title', 'Campaigns')
 @section('description', 'Need to Schedule a package pickup online? Schedule your parcel quickly with Shoppre from your home or office and we will deliver for you within 2-5 business days.')
 @section('keywords', 'terms and conditions, set of rules and guidelines user must agree, following guidelines, website, mobile app')
 @section('robots', 'noindex, nofollow')
@@ -9,7 +9,6 @@
         <div class="col-md-4 col-sm-offset-5">
             <br/>
             <font color="#663399">
-
                 <h1>Campaigns List</h1>
             </font>
         </div>
@@ -31,7 +30,7 @@
                                 <th>Id</th>
                                 <th>Name</th>
                                 <th>Coupon Code</th>
-                                <th>Begain Date</th>
+                                <th>Begin Date</th>
                                 <th>End Date</th>
                                 <th>Metabase</th>
                                 <th>Github</th>
@@ -43,7 +42,7 @@
                                 <th>Id</th>
                                 <th>Name</th>
                                 <th>Coupon Code</th>
-                                <th>Begain Date</th>
+                                <th>Begin Date</th>
                                 <th>End Date</th>
                                 <th>Metabase</th>
                                 <th>Github</th>
@@ -56,10 +55,10 @@
                                 <td>{{$campaign->id}}</td>
                                 <td>{{$campaign->name}}</td>
                                 <td>{{$campaign->coupon_code}}</td>
-                                <td>{{$campaign->begain_date}}</td>
+                                <td>{{$campaign->begin_date}}</td>
                                 <td>{{$campaign->end_date}}</td>
-                                <td><a href="https://pulse.shoppre.com/dashboard/322?id={{$campaign->id}}" class="btn btn-shoppre">View</a></td>
-                                <td><a href="https://pulse.shoppre.com/dashboard/322?id={{$campaign->github_issue_id}}" class="btn btn-shoppre">View</a></td>
+                                <td><a href="https://pulse.shoppre.com/dashboard/322?id={{$campaign->id}}" target="_blank" class="btn btn-shoppre">View</a></td>
+                                <td><a href="https://pulse.shoppre.com/dashboard/322?id={{$campaign->github_issue_id}}" target="_blank" class="btn btn-shoppre">View</a></td>
                                 <td><a href="{{route('campaign.edit',['id'=>$campaign->id])}}" class="btn btn-shoppre">Edit</a></td>
                             </tr>
                             @endforeach

@@ -60,11 +60,12 @@ class CampaignController extends Controller
 
     public function index()
     {
-          $campaigns = Campaign::orderBy('id','desc')->get();
+          $campaigns = Campaign::orderBy('id','desc')
+//                       ->join('customers', 'customers.id', '=', 'campaigns.customer_id')
+//                       ->select('customers.name as cname', 'campaigns.name', 'campaigns.coupon_code','campaigns.begin_date')
+                       ->get();
 //          echo $campaigns;
 //          exit;
           return view('campaign.list')->with(['campaigns'=>$campaigns]);
     }
-
-
 }

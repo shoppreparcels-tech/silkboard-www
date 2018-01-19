@@ -4,7 +4,7 @@
     <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login"><i class="fa fa-unlock-alt"></i> Login</a>
     <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register"><i class="fa fa-user"></i> Signup</a>
     @else
-    {{--<a href="{{route('customer.locker')}}"><i class="fa fa-user"></i> My Locker</a>--}}
+    <a href="javascript:void(0)"><i class="fa fa-user"></i> My Locker</a>
     <a href="{{route('customer.logout')}}"><i class="fa fa-lock"></i> Logout</a>
     @endif
     <div class="clearfix"></div>
@@ -17,7 +17,6 @@
           <li><a href="{{route('partner')}}">Become a Partner</a></li>
           <li><a href="{{route('faq')}}">FAQ</a></li>
           <li><a href="http://blog.shoppre.com/" target="_blank">Blogs</a></li>
-          <li><a href="javascript:void(0)" id="btnApi">Api Test</a></li>
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
