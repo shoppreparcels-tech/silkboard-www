@@ -46,16 +46,27 @@ class CampaignController extends Controller
 
     public function submit(Request $request)
     {
-        $body = $request->all();
-        unset($body['_token']);
-        $campaign = new Campaign($body);
-        $campaign->save();
-        return redirect(route('campaign.index'));
+//        $this->validate($request, [
+//            'file' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+//        ]);
+//        $body = $request->all();
+//        unset($body['_token']);
+//        $campaign = new Campaign($body);
+        if($request->hasFile('photos')) {
+            $file = $request->file('photos');
+            echo  $file;
+            exit;
+//                $destinationPath = "/campaigns/";
+//                $filename = "IMG-".uniqid().'.'.$file->getClientOriginalExtension();
+//                $file->move(public_path(). $destinationPath, $filename);
+        }
     }
 
     public function create(Request $request)
     {
-        return view('campaign.create');
+        $customers = Customer::orderBy('id','desc')->get();
+
+        return view('campaign.create')->with(['customers'=>$customers]);
     }
 
     public function index()

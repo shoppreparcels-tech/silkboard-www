@@ -11,9 +11,6 @@
 @section('content')
     <section class="timeline  section-border">
     <br/>
-        <br/>
-        <br/>
-        <br/>
         <div class="col-md-4 col-sm-offset-5">
            <br/>
            <font color="#663399">
@@ -26,6 +23,20 @@
             <form class="form-horizontal" method="post" action="{{route('campaign.submit')}}">
                 {{ csrf_field() }}
                 <div class="feedback-container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-offset-2">
+                            <div class="form-group">
+                                <label>Employee Name *</label>
+                            <select class="form-control select2" name="country" required>
+                                <option value="">Select Employee</option>
+                                @foreach($customers as $customer)
+                                    <option value="{{$customer->id}}">{{$customer->name}}({{$customer->id}})</option>
+                                @endforeach
+                            </select>
+                          </div>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
                     <div class="row">
                         <div class="col-md-8 col-sm-offset-2">
                             <div class="form-group">
@@ -66,6 +77,31 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-md-8 col-sm-offset-2">
+                            <div class="form-group">
+                                <label>Campaign Type *</label>
+                                <select class="form-control select2" name="campaign_type" >
+                                    <option value="">Select Campaign</option>
+                                        <option value="login">Login</option>
+                                        <option value="flyer">Flyer</option>
+                                </select>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8 col-sm-offset-2">
+                            <div class="form-group">
+                                <label>Campaign Image</label>
+                                <input type="file" name="photos" class="form-control">
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="row">
                         <div class="col-md-8 col-sm-offset-2">
                             <div class="form-group">
@@ -75,6 +111,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="col-md-4 col-sm-offset-4">
                             <button type="submit" class="btn btn-block btn-shoppre">Submit</button>
