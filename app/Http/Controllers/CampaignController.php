@@ -3,34 +3,43 @@
 namespace App\Http\Controllers;
 
 use App\Campaign;
-use App\FirstVisit;
-use App\HttpReferrer;
-use App\Mail\EmailChat;
-use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Mail;
-
+use App\CampaignEmployees;
+use App\CampaignStatistics;
 use Auth;
 use App\Customer;
-use App\CustomerContact;
-use App\LoyaltyPoint;
-use App\RefferCode;
-use App\ShippingPreference;
-use App\ShopperBalance;
-use App\Mail\EmailVerification;
-
+use Illuminate\Http\Request;
 
 class CampaignController extends Controller
 {
 
+    public function campaignDetail(Request $request)
+    {
+
+        $currenturl = \URL::full();
+        $campaign_detail = Campaign::where('slug',$request->cname)->first();
+        $campaign_employee = CampaignEmployees::where('campaign_id',$campaign_detail->id)
+                                                ->where('employee_id',$request->eid)
+                                                ->first();
+        $campaign_statistics = new CampaignStatistics();
+        if($campaign_employee)
+        {
+            $campaign_statistics->name = $campaign_detail->name;
+            $campaign_statistics->coupon_code = $campaign_detail->coupon_code;
+            $campaign_statistics->url = $currenturl;
+            $campaign_statistics->campaign_id = $campaign_detail->id;
+            $campaign_statistics->employee_id = $request->eid;
+            $result =  $campaign_statistics->save();
+        }
+        return view('campaign.campaign-detail')->with(['campaign_detail'=>$campaign_detail]);
+    }
 
     public function editSubmit(Request $request)
     {
-        $campaign = Campaign::where('id',$request->hdn_campaign_id)->first();
+        $campaign = Campaign::where('id', $request->hdn_campaign_id)->first();
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');
-            $name = time().'.'.$image->getClientOriginalExtension();
+            $name = time() . '.' . $image->getClientOriginalExtension();
             $destinationPath = public_path('./img/campaigns');
             $image->move($destinationPath, $name);
             $campaign->image = $name;
@@ -55,11 +64,11 @@ class CampaignController extends Controller
 
     public function edit(Request $request)
     {
-        $customers = Customer::orderBy('id','desc')->get();
-        $campaign = Campaign::where('id',$request->id)->first();
+        $customers = Customer::orderBy('id', 'desc')->get();
+        $campaign = Campaign::where('id', $request->id)->first();
 //          echo $campaigns;
 //          exit;
-        return view('campaign.edit')->with(['campaign'=>$campaign,'customers'=>$customers]);
+        return view('campaign.edit')->with(['campaign' => $campaign, 'customers' => $customers]);
     }
 
     public function submit(Request $request)
@@ -70,14 +79,12 @@ class CampaignController extends Controller
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');
-            $name = time().'.'.$image->getClientOriginalExtension();
+            $name = time() . '.' . $image->getClientOriginalExtension();
             $destinationPath = public_path('./img/campaigns');
             $image->move($destinationPath, $name);
             $campaign->image = $name;
             $campaign->save();
-        }
-        else
-        {
+        } else {
             $campaign->save();
         }
         return redirect(route('campaign.index'));
@@ -85,19 +92,19 @@ class CampaignController extends Controller
 
     public function create(Request $request)
     {
-        $customers = Customer::orderBy('id','desc')->get();
+        $customers = Customer::orderBy('id', 'desc')->get();
 
-        return view('campaign.create')->with(['customers'=>$customers]);
+        return view('campaign.create')->with(['customers' => $customers]);
     }
 
     public function index()
     {
-          $campaigns = Campaign::orderBy('id','desc')
+        $campaigns = Campaign::orderBy('id', 'desc')
 //                       ->join('customers', 'customers.id', '=', 'campaigns.customer_id')
 //                       ->select('customers.name as cname', 'campaigns.name', 'campaigns.coupon_code','campaigns.begin_date')
-                       ->get();
+            ->get();
 //          echo $campaigns;
 //          exit;
-          return view('campaign.list')->with(['campaigns'=>$campaigns]);
+        return view('campaign.list')->with(['campaigns' => $campaigns]);
     }
 }

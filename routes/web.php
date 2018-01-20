@@ -46,8 +46,10 @@ Route::get('/{initial}-{cprefix}-{cpostfix}-from-{source}-to-{destination}', 'Pa
 Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('schedulePickup.mail');
 //Route::post('/api/leads', 'PageController@leads')->name('leads');
 
-Route::get('/offer', 'PageController@airport')->name('airportOffers');
-Route::get('/newsoffer', 'PageController@newspaper')->name('newspaperOffers');
+Route::get('/campaign/{cname}/{eid}', 'CampaignController@campaignDetail')->name('campaignDetail');
+
+//Route::get('/offer', 'PageController@airport')->name('airportOffers');
+//Route::get('/newsoffer', 'PageController@newspaper')->name('newspaperOffers');
 
 Route::get('/chat-email', 'PageController@chatMailIndex')->name('chatMail.index');
 Route::post('/chat-email', 'PageController@chatMailSent')->name('chatMail.sent');
@@ -60,7 +62,6 @@ Route::get('/campaign/create', 'CampaignController@create')->name('campaign.crea
 Route::post('/campaign/create', 'CampaignController@submit')->name('campaign.submit');
 Route::get('/campaign/edit/{id}', 'CampaignController@edit')->name('campaign.edit');
 Route::post('/campaign/edit', 'CampaignController@editSubmit')->name('campaign.editSubmit');
-
 Route::post('home/login', 'Customer\LoginController@homeLogin')->name('homeLogin');
 Route::post('home/signup', 'Customer\RegisterController@homeSignup')->name('homeSignup');
 

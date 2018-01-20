@@ -91,6 +91,14 @@
                         @endforeach
                         </tbody>
                     </table>
+                    <div class="parcelsample">
+                        <h5>Centimeter/Inch Conversion</h5>
+                        <p>1 in = 2.54 cm <span>(1 cm = 0.3937 in)</span></p>
+                        <h5>Kilogram/Pound Conversion</h5>
+                        <p>1 lbs = 0.4536 Kg <span>(1 Kg = 2.2046 lbs)</span></p>
+                        <h5>Parcel Sample :</h5>
+                        <img src="{{asset('img/parcelsample.png')}}">
+                    </div>
                 </div>
                 <div class="col-md-5 cal_padding">
                     <div class="col-md-12">
@@ -231,15 +239,6 @@
                                 </ul>
                             </div>
                             <div id="calc_load"></div>
-                        </div>
-
-                        <div class="parcelsample">
-                            <h5>Centimeter/Inch Conversion</h5>
-                            <p>1 in = 2.54 cm <span>(1 cm = 0.3937 in)</span></p>
-                            <h5>Kilogram/Pound Conversion</h5>
-                            <p>1 lbs = 0.4536 Kg <span>(1 Kg = 2.2046 lbs)</span></p>
-                            <h5>Parcel Sample :</h5>
-                            <img src="{{asset('img/parcelsample.png')}}">
                         </div>
                     </div>
                 </div>

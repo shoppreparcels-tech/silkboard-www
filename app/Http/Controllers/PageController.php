@@ -27,27 +27,6 @@ use App\Http\Controllers\SchedulePickup;
 
 class PageController extends Controller
 {
-    public function saveFlyerUser(Request $request)
-    {
-        $flyer_user = new FlyerUsers();
-        $flyer_user->name = $request->username;
-        $flyer_user->coupon_code = $request->coupon;
-        $flyer_user->url = $request->url;
-        $result = $flyer_user->save();
-        return response()->json([ 'error'=>'0', 'apistatus'=> "Api Success"]);
-    }
-
-    public function newspaper(Request $request)
-    {
-        $coupon_code = "KOR-BLR-N";
-        return view('offers.offer')->with(["coupon_code"=>$coupon_code]);
-    }
-
-    public function airport(Request $request)
-    {
-        $coupon_code = "KOR-BLR-A";
-        return view('offers.offer')->with(["coupon_code"=>$coupon_code]);
-    }
 
     public function chatMailConfirm()
     {

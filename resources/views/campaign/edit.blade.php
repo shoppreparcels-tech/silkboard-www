@@ -69,7 +69,7 @@
                                     <label>Coupon Begin Date</label>
                                     <div class="rating-star">
                                         <input class="form-control" type="text"
-                                               placeholder="{{$campaign->begin_date}}" onfocus="(this.type='date')" name="begin_date" required>
+                                               placeholder="{{$campaign->begin_date}}" onfocus="(this.type='date')" name="begin_date" >
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>
@@ -81,7 +81,7 @@
                                     <label>Coupon End Date</label>
                                     <div class="rating-star">
                                         <input class="form-control" type="text"
-                                               placeholder="{{$campaign->end_date}}" onfocus="(this.type='date')" name="end_date" required>
+                                               placeholder="{{$campaign->end_date}}" onfocus="(this.type='date')" name="end_date" >
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>

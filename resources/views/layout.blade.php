@@ -343,39 +343,39 @@
         });
     };
 </script>
-<script>
-    if (window.location.href == "https://www.shoppre.com/offer" || window.location.href == "https://www.shoppre.com/newsoffer") {
-        if (!localStorage.newsUrlVisit && window.location.href == "https://www.shoppre.com/newsoffer") {
-            console.log("News Enter");
-            var newsUser = "New User";
-            localStorage.newsUrlVisit = window.location.href;
-            var coupon_news = "KOR-BLR-N";
-            storecustomer(newsUser, localStorage.newsUrlVisit, coupon_news);
-        }
-        else if (!localStorage.airUrlVisit && window.location.href == "https://www.shoppre.com/offer") {
-            console.log("Airport Enter");
-            var airUser = "New User";
-            localStorage.airUrlVisit = window.location.href;
-            var coupon_air = "KOR-BLR-A";
-            storecustomer(airUser, localStorage.airUrlVisit, coupon_air);
-        }
-    }
+{{--<script>--}}
+    {{--if (window.location.href == "https://www.shoppre.com/offer" || window.location.href == "https://www.shoppre.com/newsoffer") {--}}
+        {{--if (!localStorage.newsUrlVisit && window.location.href == "https://www.shoppre.com/newsoffer") {--}}
+            {{--console.log("News Enter");--}}
+            {{--var newsUser = "New User";--}}
+            {{--localStorage.newsUrlVisit = window.location.href;--}}
+            {{--var coupon_news = "KOR-BLR-N";--}}
+            {{--storecustomer(newsUser, localStorage.newsUrlVisit, coupon_news);--}}
+        {{--}--}}
+        {{--else if (!localStorage.airUrlVisit && window.location.href == "https://www.shoppre.com/offer") {--}}
+            {{--console.log("Airport Enter");--}}
+            {{--var airUser = "New User";--}}
+            {{--localStorage.airUrlVisit = window.location.href;--}}
+            {{--var coupon_air = "KOR-BLR-A";--}}
+            {{--storecustomer(airUser, localStorage.airUrlVisit, coupon_air);--}}
+        {{--}--}}
+    {{--}--}}
 
-    function storecustomer(user, url, coupon) {
-        $.ajax({
-            url: '/api/offers',
-            type: "POST",
-            data: {
-                username: user,
-                url: url,
-                coupon: coupon
-            },
-            success: function (data) {
-                console.log(data);
-            }
-        });
-    }
-</script>
+    {{--function storecustomer(user, url, coupon) {--}}
+        {{--$.ajax({--}}
+            {{--url: '/api/offers',--}}
+            {{--type: "POST",--}}
+            {{--data: {--}}
+                {{--username: user,--}}
+                {{--url: url,--}}
+                {{--coupon: coupon--}}
+            {{--},--}}
+            {{--success: function (data) {--}}
+                {{--console.log(data);--}}
+            {{--}--}}
+        {{--});--}}
+    {{--}--}}
+{{--</script>--}}
 @yield('js_script')
 </body>
 </html>
