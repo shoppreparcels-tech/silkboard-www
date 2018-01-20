@@ -81,7 +81,7 @@
                             class="fa fa-google-plus"></i></a>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 col-sm-offset-3">
             <form class="login-form" role="form" method="POST" action="{{route('homeLogin')}}" novalidate="novalidate">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <div class="form-group ">
@@ -104,13 +104,13 @@
                 </div>
                 <button type="submit" class="btn btn-block btn-shoppre">Sign in to your account</button>
             </form>
-            <span class="login-bttm"><a href="https://myaccount.shoppre.com/forgot-password">Forgot my password. Please remind me.</a></span>
+            {{--<span class="login-bttm"><a href="https://myaccount.shoppre.com/forgot-password">Forgot my password. Please remind me.</a></span>--}}
             <span class="login-bttm"><a href="javascript:void(0)"
                                         id="btn_signup_popup">Not a member? Register</a></span>
         </div>
-        <div class="col-sm-6 text-center">
-            <img src="https://myaccount.shoppre.com/img/refer-a-friend.png">
-        </div>
+        {{--<div class="col-sm-6 text-center">--}}
+            {{--<img src="https://myaccount.shoppre.com/img/refer-a-friend.png">--}}
+        {{--</div>--}}
         <div class="clearfix"></div>
     </div>
     <div class="register-box-popup">
@@ -173,12 +173,12 @@
                            name="password_confirmation" required="" aria-required="true">
                 </div>
             </div>
-            <div class="form-group">
-                <div class="input-group">
-                    <div class="input-group-addon"><i class="fa fa-tag"></i></div>
-                    <input type="text" class="form-control" name="refferal" placeholder="Referral Code (Optional)">
-                </div>
-            </div>
+            {{--<div class="form-group">--}}
+                {{--<div class="input-group">--}}
+                    {{--<div class="input-group-addon"><i class="fa fa-tag"></i></div>--}}
+                    {{--<input type="text" class="form-control" name="refferal" placeholder="Referral Code (Optional)">--}}
+                {{--</div>--}}
+            {{--</div>--}}
             <div class="form-group">
                 <button type="submit" class="btn btn-shoppre btn-block">Sign Up</button>
             </div>
