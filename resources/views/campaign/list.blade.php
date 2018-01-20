@@ -32,6 +32,7 @@
                                 <th>Coupon Code</th>
                                 <th>Begin Date</th>
                                 <th>End Date</th>
+                                <th>Image</th>
                                 <th>Metabase</th>
                                 <th>Github</th>
                                 <th>Edit</th>
@@ -44,6 +45,7 @@
                                 <th>Coupon Code</th>
                                 <th>Begin Date</th>
                                 <th>End Date</th>
+                                <th>Image</th>
                                 <th>Metabase</th>
                                 <th>Github</th>
                                 <th>Edit</th>
@@ -57,6 +59,7 @@
                                 <td>{{$campaign->coupon_code}}</td>
                                 <td>{{$campaign->begin_date}}</td>
                                 <td>{{$campaign->end_date}}</td>
+                                <td><img src="/img/campaigns/{{$campaign->image}}" width="100" height="100" alt=""></td>
                                 <td><a href="https://pulse.shoppre.com/dashboard/322?id={{$campaign->id}}" target="_blank" class="btn btn-shoppre">View</a></td>
                                 <td><a href="https://pulse.shoppre.com/dashboard/322?id={{$campaign->github_issue_id}}" target="_blank" class="btn btn-shoppre">View</a></td>
                                 <td><a href="{{route('campaign.edit',['id'=>$campaign->id])}}" class="btn btn-shoppre">Edit</a></td>

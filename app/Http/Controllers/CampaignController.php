@@ -27,39 +27,60 @@ class CampaignController extends Controller
     public function editSubmit(Request $request)
     {
         $campaign = Campaign::where('id',$request->hdn_campaign_id)->first();
-        $campaign->name = $request->name;
-        $campaign->coupon_code = $request->coupon_code;
-        $campaign->begain_date = $request->begain_date;
-        $campaign->end_date = $request->end_date;
-        $campaign->comment = $request->comment;
-        $campaign->save();
+
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+            $name = time().'.'.$image->getClientOriginalExtension();
+            $destinationPath = public_path('./img/campaigns');
+            $image->move($destinationPath, $name);
+            $campaign->image = $name;
+            $campaign->name = $request->name;
+            $campaign->coupon_code = $request->coupon_code;
+            $campaign->begain_date = $request->begain_date;
+            $campaign->end_date = $request->end_date;
+            $campaign->comment = $request->comment;
+            $campaign->save();
+        }
+        else
+        {
+            $campaign->name = $request->name;
+            $campaign->coupon_code = $request->coupon_code;
+            $campaign->begain_date = $request->begain_date;
+            $campaign->end_date = $request->end_date;
+            $campaign->comment = $request->comment;
+            $campaign->save();
+        }
         return redirect(route('campaign.index'));
     }
 
     public function edit(Request $request)
     {
+        $customers = Customer::orderBy('id','desc')->get();
         $campaign = Campaign::where('id',$request->id)->first();
 //          echo $campaigns;
 //          exit;
-        return view('campaign.edit')->with(['campaign'=>$campaign]);
+        return view('campaign.edit')->with(['campaign'=>$campaign,'customers'=>$customers]);
     }
 
     public function submit(Request $request)
     {
-//        $this->validate($request, [
-//            'file' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
-//        ]);
-//        $body = $request->all();
-//        unset($body['_token']);
-//        $campaign = new Campaign($body);
-        if($request->hasFile('photos')) {
-            $file = $request->file('photos');
-            echo  $file;
-            exit;
-//                $destinationPath = "/campaigns/";
-//                $filename = "IMG-".uniqid().'.'.$file->getClientOriginalExtension();
-//                $file->move(public_path(). $destinationPath, $filename);
+        $body = $request->all();
+        unset($body['_token']);
+        $campaign = new Campaign($body);
+
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+            $name = time().'.'.$image->getClientOriginalExtension();
+            $destinationPath = public_path('./img/campaigns');
+            $image->move($destinationPath, $name);
+            $campaign->image = $name;
+            $campaign->save();
         }
+        else
+        {
+            $campaign->save();
+        }
+        return redirect(route('campaign.index'));
     }
 
     public function create(Request $request)

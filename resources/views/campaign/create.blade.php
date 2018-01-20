@@ -20,14 +20,14 @@
       <br/>
         <font size="4">
         <div class="container"  style="background-color: whitesmoke">
-            <form class="form-horizontal" method="post" action="{{route('campaign.submit')}}">
+            <form class="form-horizontal" method="post" action="{{route('campaign.submit')}}" enctype="multipart/form-data">
                 {{ csrf_field() }}
                 <div class="feedback-container">
                     <div class="row">
                         <div class="col-md-8 col-sm-offset-2">
                             <div class="form-group">
                                 <label>Employee Name *</label>
-                            <select class="form-control select2" name="country" required>
+                            <select class="form-control select2" name="customer_id" required>
                                 <option value="">Select Employee</option>
                                 @foreach($customers as $customer)
                                     <option value="{{$customer->id}}">{{$customer->name}}({{$customer->id}})</option>
@@ -82,31 +82,29 @@
                         <div class="col-md-8 col-sm-offset-2">
                             <div class="form-group">
                                 <label>Campaign Type *</label>
-                                <select class="form-control select2" name="campaign_type" >
+                                <select class="form-control select2" name="type" >
                                     <option value="">Select Campaign</option>
-                                        <option value="login">Login</option>
+                                        <option value="login" >Login</option>
                                         <option value="flyer">Flyer</option>
                                 </select>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                     </div>
-
-                    <div class="row">
-                        <div class="col-md-8 col-sm-offset-2">
-                            <div class="form-group">
-                                <label>Campaign Image</label>
-                                <input type="file" name="photos" class="form-control">
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="row">
                         <div class="col-md-8 col-sm-offset-2">
                             <div class="form-group">
                                 <label>Comment</label>
                                 <input type="text" class="form-control" name="comment" placeholder="Enter Comment">
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-sm-offset-2">
+                            <div class="form-group">
+                                <label>Campaign Image</label>
+                                <input type="file" name="image"  class="form-control">
                                 <div class="clearfix"></div>
                             </div>
                         </div>
