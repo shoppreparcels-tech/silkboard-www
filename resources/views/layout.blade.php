@@ -69,127 +69,126 @@
 
 @include('partials._header')
 <!----popup code  -->
-{{--<div id="loginScreen">--}}
-    {{--<div class="login-box-popup">--}}
-        {{--<a class="lbtnclose" href="javascript:void(0)" id="btn_close_login">X</a>--}}
-        {{--<h3>Log in to Shoppre Account</h3>--}}
-        {{--<div class="text-center">--}}
-            {{--<div class="login-social">--}}
-                {{--<a href="https://myaccount.shoppre.com/social/oauth/facebook" class="facebook"><i--}}
-                            {{--class="fa fa-facebook"></i><span>Facebook</span></a>--}}
-                {{--<a href="https://myaccount.shoppre.com/social/oauth/google" class="google"><span>Google Plus</span><i--}}
-                            {{--class="fa fa-google-plus"></i></a>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-        {{--<div class="col-sm-6">--}}
-            {{--<form class="login-form" id="form_login" role="form" method="POST"--}}
-                  {{--action="https://myaccount.shoppre.com/login" novalidate="novalidate">--}}
-                {{--<div class="form-group ">--}}
-                    {{--<label for="">Email</label>--}}
-                    {{--<input type="email" class="form-control valid" placeholder="Enter your email address" name="email_id"--}}
-                           {{--value="" required="" autofocus="" aria-required="true" aria-invalid="false">--}}
-                {{--</div>--}}
-                {{--<div class="form-group ">--}}
-                    {{--<label for="">Password</label>--}}
-                    {{--<input type="password" class="form-control valid" placeholder="Enter your password" name="l_password"--}}
-                           {{--required="" aria-required="true" aria-invalid="false">--}}
-                {{--</div>--}}
-                {{--<div class="checkbox">--}}
-                    {{--<label>--}}
-                        {{--<input type="checkbox" name="remember">--}}
-                        {{--<span class="label">Remember Me <small>(Not recommended for public computers)</small></span>--}}
-                    {{--</label>--}}
-                {{--</div>--}}
-                {{--<button type="submit" class="btn btn-block btn-shoppre">Sign in to your account</button>--}}
-            {{--</form>--}}
-            {{--<span class="login-bttm"><a href="https://myaccount.shoppre.com/forgot-password">Forgot my password. Please remind me.</a></span>--}}
-            {{--<span class="login-bttm"><a href="javascript:void(0)" id="btn_signup_popup">Not a member? Register</a></span>--}}
-        {{--</div>--}}
-        {{--<div class="col-sm-6 text-center">--}}
-            {{--<img src="https://myaccount.shoppre.com/img/refer-a-friend.png">--}}
-        {{--</div>--}}
-        {{--<div class="clearfix"></div>--}}
-    {{--</div>--}}
-
-    {{--<div class="register-box-popup">--}}
-        {{--<a class="lbtnclose" href="javascript:void(0)" id="btn_close_signup">X</a>--}}
-        {{--<h3>SIGN UP WITH</h3>--}}
-        {{--<div class="text-center">--}}
-            {{--<div class="login-social">--}}
-                {{--<a href="https://myaccount.shoppre.com/social/oauth/facebook" class="facebook"><i--}}
-                            {{--class="fa fa-facebook"></i><span>Facebook</span></a>--}}
-                {{--<a href="https://myaccount.shoppre.com/social/oauth/google" class="google"><span>Google Plus</span><i--}}
-                            {{--class="fa fa-google-plus"></i></a>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-        {{--<span class="or_separate">OR</span>--}}
-        {{--<h3>CREATE AN ACCOUNT</h3>--}}
-        {{--<form class="register-form" id="form_register" role="form" method="POST"--}}
-              {{--action="https://myaccount.shoppre.com/register" novalidate="novalidate">--}}
-            {{--<input type="hidden" name="_token" value="Q0zX6JSAK3DUa8lNgCmwyTXP4ZVav2rKafVzIWg4">--}}
-            {{--<div class="col-sm-6">--}}
-                {{--<div class="row">--}}
-                    {{--<div class="form-group ">--}}
-                        {{--<div class="input-group">--}}
-                            {{--<div class="input-group-addon"><i class="fa fa-address-card"></i></div>--}}
-                            {{--<input type="text" class="form-control" name="firstname" value="" placeholder="First Name *"--}}
-                                   {{--required="" autofocus="" aria-required="true">--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            {{--<div class="col-sm-6">--}}
-                {{--<div class="row">--}}
-                    {{--<div class="form-group ">--}}
-                        {{--<div class="input-group">--}}
-                            {{--<div class="input-group-addon"><i class="fa fa-address-card"></i></div>--}}
-                            {{--<input type="text" class="form-control" name="lastname" value="" placeholder="Last Name *"--}}
-                                   {{--required="" aria-required="true">--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            {{--<div class="clearfix"></div>--}}
-            {{--<div class="form-group ">--}}
-                {{--<div class="input-group">--}}
-                    {{--<div class="input-group-addon"><i class="fa fa-envelope"></i></div>--}}
-                    {{--<input type="text" class="form-control" name="email" value="" placeholder="Email *" required=""--}}
-                           {{--aria-required="true">--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            {{--<div class="form-group ">--}}
-                {{--<div class="input-group">--}}
-                    {{--<div class="input-group-addon"><i class="fa fa-lock"></i></div>--}}
-                    {{--<input type="password" class="form-control" placeholder="Password *" name="password" required=""--}}
-                           {{--aria-required="true">--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            {{--<div class="form-group ">--}}
-                {{--<div class="input-group">--}}
-                    {{--<div class="input-group-addon"><i class="fa fa-lock"></i></div>--}}
-                    {{--<input type="password" class="form-control" placeholder="Reconfirm Password *"--}}
-                           {{--name="password_confirmation" required="" aria-required="true">--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            {{--<div class="form-group">--}}
-                {{--<div class="input-group">--}}
-                    {{--<div class="input-group-addon"><i class="fa fa-tag"></i></div>--}}
-                    {{--<input type="text" class="form-control" name="refferal" placeholder="Referral Code (Optional)">--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            {{--<div class="form-group">--}}
-                {{--<button type="submit" class="btn btn-shoppre btn-block">Sign Up</button>--}}
-            {{--</div>--}}
-        {{--</form>--}}
-        {{--<span class="register-bttm" id="btn_login_popup">Already a member? <a href="javascript:void(0)">Sign in</a> here!</span>--}}
-    {{--</div>--}}
-{{--</div>--}}
-{{--<div id="cover">--}}
-{{--</div>--}}
+<div id="loginScreen">
+    <div class="login-box-popup">
+        <a class="lbtnclose" href="javascript:void(0)" id="btn_close_login">X</a>
+        <h3>Log in to Shoppre Account</h3>
+        <div class="text-center">
+            <div class="login-social">
+                <a href="https://myaccount.shoppre.com/social/oauth/facebook" class="facebook"><i
+                            class="fa fa-facebook"></i><span>Facebook</span></a>
+                <a href="https://myaccount.shoppre.com/social/oauth/google" class="google"><span>Google Plus</span><i
+                            class="fa fa-google-plus"></i></a>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <form class="login-form" role="form" method="POST" action="{{route('homeLogin')}}" novalidate="novalidate">
+                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                <div class="form-group ">
+                    <label for="">Email</label>
+                    <input type="email" class="form-control valid" placeholder="Enter your email address"
+                           name="email_id"
+                           value="" required="" autofocus="" aria-required="true" aria-invalid="false">
+                </div>
+                <div class="form-group ">
+                    <label for="">Password</label>
+                    <input type="password" class="form-control valid" placeholder="Enter your password"
+                           name="l_password"
+                           required="" aria-required="true" aria-invalid="false">
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="remember_me">
+                        <span class="label">Remember Me <small>(Not recommended for public computers)</small></span>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-block btn-shoppre">Sign in to your account</button>
+            </form>
+            <span class="login-bttm"><a href="https://myaccount.shoppre.com/forgot-password">Forgot my password. Please remind me.</a></span>
+            <span class="login-bttm"><a href="javascript:void(0)"
+                                        id="btn_signup_popup">Not a member? Register</a></span>
+        </div>
+        <div class="col-sm-6 text-center">
+            <img src="https://myaccount.shoppre.com/img/refer-a-friend.png">
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="register-box-popup">
+        <a class="lbtnclose" href="javascript:void(0)" id="btn_close_signup">X</a>
+        <h3>SIGN UP WITH</h3>
+        <div class="text-center">
+            <div class="login-social">
+                <a href="https://myaccount.shoppre.com/social/oauth/facebook" class="facebook"><i
+                            class="fa fa-facebook"></i><span>Facebook</span></a>
+                <a href="https://myaccount.shoppre.com/social/oauth/google" class="google"><span>Google Plus</span><i
+                            class="fa fa-google-plus"></i></a>
+            </div>
+        </div>
+        <span class="or_separate">OR</span>
+        <h3>CREATE AN ACCOUNT</h3>
+        <form class="register-form" role="form" method="POST"
+              action="{{route('homeSignup')}}" novalidate="novalidate">
+            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="form-group ">
+                        <div class="input-group">
+                            <div class="input-group-addon"><i class="fa fa-address-card"></i></div>
+                            <input type="text" class="form-control" name="firstname" value="" placeholder="First Name *"
+                                   required="" autofocus="" aria-required="true">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="form-group ">
+                        <div class="input-group">
+                            <div class="input-group-addon"><i class="fa fa-address-card"></i></div>
+                            <input type="text" class="form-control" name="lastname" value="" placeholder="Last Name *"
+                                   required="" aria-required="true">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="form-group ">
+                <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+                    <input type="text" class="form-control" name="email" value="" placeholder="Email *" required=""
+                           aria-required="true">
+                </div>
+            </div>
+            <div class="form-group ">
+                <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-lock"></i></div>
+                    <input type="password" class="form-control" placeholder="Password *" name="password" required=""
+                           aria-required="true">
+                </div>
+            </div>
+            <div class="form-group ">
+                <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-lock"></i></div>
+                    <input type="password" class="form-control" placeholder="Reconfirm Password *"
+                           name="password_confirmation" required="" aria-required="true">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-tag"></i></div>
+                    <input type="text" class="form-control" name="refferal" placeholder="Referral Code (Optional)">
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-shoppre btn-block">Sign Up</button>
+            </div>
+        </form>
+        <span class="register-bttm" id="btn_login_popup">Already a member? <a href="javascript:void(0)">Sign in</a> here!</span>
+    </div>
+</div>
+<div id="cover">
+</div>
 <!----popup code  -->
-
-
-
 @yield('content')
 
 @include('partials._footer')
@@ -201,79 +200,45 @@
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.jqueryui.min.js"></script>
 <script src="{{asset('js/validate.min.js')}}"></script>
 
-{{--<script>--}}
-    {{--$(document).ready(function () {--}}
+<script>
+    $(document).ready(function () {
 
-        {{--$("#form_login").validate({--}}
-            {{--rules:--}}
-                {{--{--}}
-                    {{--email:{required: true},--}}
-                    {{--password:{required: true},--}}
-                {{--},--}}
-            {{--messages:--}}
-                {{--{--}}
-                    {{--email: {required: "Please enter email"},--}}
-                    {{--password: {required: "Please enter mobile"},--}}
-                {{--},--}}
-            {{--submitHandler: function (form) {--}}
-                {{--var email = $("input[name='email_id']").val();--}}
-                {{--var password = $("input[name='l_password']").val();--}}
+        $("#btn_close_login").click(function () {
+            localStorage.popupClose = "close";
+            $(".login-box-popup").css("display", "none");
+            $(".register-box-popup").css("display", "none");
+            $("#cover").css("display", "none");
+        });
 
-                {{--var token = $('input[name=_token]').val();--}}
-                {{--jQuery.ajax({--}}
-                    {{--url: 'api/login',--}}
-                    {{--type: "POST",--}}
-                    {{--data: {--}}
-                        {{--email:email,--}}
-                        {{--password:password--}}
-                    {{--},--}}
-                    {{--success: function (data){--}}
-                        {{--console.log(data);--}}
-                        {{--localStorage.popupClose = "close";--}}
-                        {{--$(".login-box-popup").css("display","none");--}}
-                        {{--$(".register-box-popup").css("display","none");--}}
-                        {{--$("#cover").css("display","none");--}}
-                        {{--window.location.reload();--}}
-                    {{--}--}}
-                {{--});--}}
-            {{--}--}}
-        {{--});--}}
-        {{----}}
-        {{--$("#btn_close_login").click(function () {--}}
-            {{--localStorage.popupClose = "close";--}}
-            {{--$(".login-box-popup").css("display","none");--}}
-            {{--$(".register-box-popup").css("display","none");--}}
-            {{--$("#cover").css("display","none");--}}
-        {{--});--}}
+        $("#btn_close_signup").click(function () {
+            localStorage.popupClose = "close";
+            $(".login-box-popup").css("display", "none");
+            $(".register-box-popup").css("display", "none");
+            $("#cover").css("display", "none");
+        });
 
-        {{--$("#btn_close_signup").click(function () {--}}
-            {{--localStorage.popupClose = "close";--}}
-            {{--$(".login-box-popup").css("display","none");--}}
-            {{--$(".register-box-popup").css("display","none");--}}
-            {{--$("#cover").css("display","none");--}}
-        {{--});--}}
-        {{----}}
-        {{--$("#btn_signup_popup").click(function () {--}}
-            {{--$(".login-box-popup").css("display","none");--}}
-            {{--$(".register-box-popup").css("display","block");--}}
-        {{--});--}}
+        $("#btn_signup_popup").click(function () {
+            $(".login-box-popup").css("display", "none");
+            $(".register-box-popup").css("display", "block");
+        });
 
-        {{--$("#btn_login_popup").click(function () {--}}
-            {{--$(".login-box-popup").css("display","block");--}}
-            {{--$(".register-box-popup").css("display","none");--}}
-        {{--});--}}
-        {{--if(!localStorage.popupClose)--}}
-        {{--{--}}
-            {{--var t = setTimeout(popupFunction, 6000);--}}
-        {{--}--}}
+        $("#btn_login_popup").click(function () {
+            $(".login-box-popup").css("display", "block");
+            $(".register-box-popup").css("display", "none");
+        });
 
-        {{--function popupFunction() {--}}
-            {{--$(".login-box-popup").css("display","block");--}}
-            {{--$("#cover").css("display","block");--}}
-        {{--}--}}
-    {{--});--}}
+        if (!localStorage.popupClose){
+            var t = setTimeout(popupFunction, 6000);
+        }
 
-{{--</script>--}}
+        function popupFunction(){
+            localStorage.popupClose = "close";
+            $(".login-box-popup").css("display", "block");
+            $("#cover").css("display", "block");
+        }
+    });
+
+</script>
 
 <script type="text/javascript">
     $(document).ready(function () {

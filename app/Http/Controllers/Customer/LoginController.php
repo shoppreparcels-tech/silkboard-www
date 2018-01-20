@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Customer;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Auth;
-use Illuminate\Support\Facades\URL;
+use Illuminate\Support\Facades\Route;
 
 
 class LoginController extends Controller
@@ -13,46 +13,35 @@ class LoginController extends Controller
 
     public function homeLogin(Request $request)
     {
-        if ($request->ajax()) {
-            if (Auth::guard('customer')->attempt(['email' => $request->email,
-                'password' => $request->password], $request->remember)) {
-                 $request->session()->regenerate();
-                return response()->json([ 'error'=>'0', 'message'=> "success"]);
-            }
-        }
-        else
+        $this->validate($request, [
+            'email_id' => 'required|email',
+            'l_password' => 'required|min:6',
+        ]);
+
+        if (Auth::guard('customer')->attempt(['email' => $request->email_id,
+            'password' => $request->l_password], $request->remember_me))
         {
-            return response()->json([ 'error'=>'0', 'message'=> "failed"]);
+            echo "<script> localStorage.popupClose = \"close\";</script>";
+            return redirect()->intended(route('home'));
         }
-
-// return response()->json([ 'error'=>'0', 'request'=> $response]);
-
-//        if ($request->ajax()) {
-//            return response()->json([
-//                'auth' => $auth,
-//                'intended' => URL::route('home')
-//            ]);
-//        } else {
-//            return redirect()->intended(URL::route('about'));
-//        }
-       // return response()->json([ 'error'=>'0', 'request'=> $request->email]);
+        return redirect()->back()->with('error_message', 'Your email/password combination was incorrect')
+            ->withInput($request->only('email', 'remember'));
     }
 
-	public function submitLogin(Request $request)
-	{
-		$this->validate($request, [
-    		'email' => 'required|email',
-    		'password' => 'required|min:6',
-    	]);
+    public function submitLogin(Request $request)
+    {
+        $this->validate($request, [
+            'email' => 'required|email',
+            'password' => 'required|min:6',
+        ]);
 
-    	if(Auth::guard('customer')->attempt(['email'=>$request->email,
-            'password'=>$request->password], $request->remember))
-    	{
-    		return redirect()->intended(route('schedulePickup.List'));
-    	}
-    	return redirect()->back()->with('error_message', 'Your email/password combination was incorrect')
+        if (Auth::guard('customer')->attempt(['email' => $request->email,
+            'password' => $request->password], $request->remember)) {
+            return redirect()->intended(route('schedulePickup.List'));
+        }
+        return redirect()->back()->with('error_message', 'Your email/password combination was incorrect')
             ->withInput($request->only('email', 'remember'));
-	}
+    }
 
     public function login()
     {

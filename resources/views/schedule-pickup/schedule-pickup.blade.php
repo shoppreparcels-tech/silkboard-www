@@ -6,9 +6,6 @@
 
 @section('content')
     <section class="timeline">
-        {{--<div class="col-sm-4 col-sm-offset-4">--}}
-        {{--<h3>Schedule Your Pickup</h3>--}}
-        {{--</div>--}}
         <div class="container ">
             <h3>Schedule Your Pickup</h3>
             <div class="schedule-container">

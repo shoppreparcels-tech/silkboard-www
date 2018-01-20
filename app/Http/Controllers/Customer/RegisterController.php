@@ -12,7 +12,7 @@ use App\LoyaltyPoint;
 use App\RefferCode;
 use App\ShippingPreference;
 use App\ShopperBalance;
-
+use Auth;
 use App\Mail\EmailVerification;
 
 class RegisterController extends Controller
@@ -22,6 +22,87 @@ class RegisterController extends Controller
 		$this->middleware('guest:customer', ['except' => ['verifyEmail', 'sendEmailVerification'] ]
 			);
 	}
+
+
+    public function homeSignup(Request $request)
+    {
+        $rules = array(
+            'firstname' => 'required|max:250',
+            'lastname' => 'required|max:250',
+            'email' => 'required|email|max:250|unique:customers',
+            'password' => 'required|min:6|confirmed',
+        );
+
+        $this->validate($request, $rules);
+
+        $loyalPoints = 0;
+        if (!empty($request->refferal)) {
+            $reffer = RefferCode::where('friend', $request->email)->where('code', $request->refferal)->first();
+            if (!empty($reffer)) {
+                $loyalPoints = 100;
+                $firendId = LoyaltyPoint::where('custid', $reffer->custid)->first()->id;
+
+                $friend = LoyaltyPoint::find($firendId);
+                $friend->points += $loyalPoints;
+                $friend->total += $loyalPoints;
+
+                $friendLevel = $friend->level;
+                if ($friend->total > 1000) {
+                    $friendLevel = (int)($friend->total / 1000) + 1;
+                }
+                $friend->level = $friendLevel;
+                $friend->save();
+            }else{
+                return redirect()->back()->with('error', 'You may entered an invalid refferal code. Try with another or proceed without.');
+            }
+        }
+
+        $customer = new Customer;
+
+        $customer->name = $request->firstname." ".$request->lastname;
+        $customer->email = $request->email;
+        $customer->password = bcrypt($request->password);
+
+        do
+        {
+            $code = 'SHPR'.rand(10, 99)."-".rand(100, 999);
+            $user_code = Customer::where('locker', $code)->get();
+        }
+        while(!$user_code->isEmpty());
+
+        $customer->locker = $code;
+        $customer->email_verify = "yes";
+        $customer->save();
+
+        $contact = new CustomerContact;
+        $contact->customer_id = $customer->id;
+        $contact->save();
+
+        $loyalty = new LoyaltyPoint;
+        $loyalty->custid = $customer->id;
+        $loyalty->level = 1;
+        $loyalty->points = $loyalPoints;
+        $loyalty->total = $loyalPoints;
+        $loyalty->save();
+
+        $setting = new ShippingPreference;
+        $setting->custid = $customer->id;
+        $setting->save();
+
+        $balance = new ShopperBalance;
+        $balance->custid = $customer->id;
+        $balance->amount = 0;
+        $balance->save();
+
+        if (Auth::guard('customer')->attempt(['email' => $request->email,
+            'password' => $request->password], '')) {
+            return redirect()->intended(route('home'));
+        }
+        else
+        {
+            return redirect()->intended(route('login'));
+        }
+    }
 
 	public function register()
 	{
@@ -99,7 +180,7 @@ class RegisterController extends Controller
 
 	    $this->sendEmailVerification($request->email);
 
-	    return redirect(route('customer.login'))->with('message', 'You need to confirm your account. We have sent you an activation code, please check your email.');
+	    return redirect(route('home'))->with('message', 'You need to confirm your account. We have sent you an activation code, please check your email.');
 	}
 
 	private function generateToken($email)
