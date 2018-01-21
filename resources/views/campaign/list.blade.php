@@ -62,7 +62,7 @@
                                 <td><img src="/img/campaigns/{{$campaign->image}}" width="100" height="100" alt=""></td>
                                 <td><a href="https://pulse.shoppre.com/dashboard/322?id={{$campaign->id}}" target="_blank" class="btn btn-shoppre">View</a></td>
                                 <td><a href="https://pulse.shoppre.com/dashboard/322?id={{$campaign->github_issue_id}}" target="_blank" class="btn btn-shoppre">View</a></td>
-                                <td><a href="{{route('campaign.edit',['id'=>$campaign->id])}}" class="btn btn-shoppre">Edit</a></td>
+                                <td><a href="{{route('campaignEdit',['id'=>$campaign->id])}}" class="btn btn-shoppre">Edit</a></td>
                             </tr>
                             @endforeach
                             </tbody>

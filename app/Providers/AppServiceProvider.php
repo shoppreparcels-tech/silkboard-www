@@ -22,8 +22,8 @@ class AppServiceProvider extends ServiceProvider
         View::composer('*', 'App\Http\ViewComposers\GlobalComposer');
 //        $promos = PromoCode::where('featured', '1')->whereDate('validity', '>=', date('Y-m-d'))->get();
 //        $announcements = Announcement::where('featured', '1')->whereDate('validity', '>=', date('Y-m-d'))->first();
-        $campaign = Campaign::where('type', 'login')->first();
-        View::share(['campaign'=>$campaign]);
+//        $campaign = Campaign::where('type', 'login')->first();
+//        View::share(['campaign'=>$campaign]);
     }
     /**
      * Register any application services.

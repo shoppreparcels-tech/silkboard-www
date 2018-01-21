@@ -15,7 +15,8 @@ class CampaignController extends Controller
     public function campaignDetail(Request $request)
     {
 
-        $currenturl = \URL::full();
+         $cname = $request->cname;
+
         $campaign_detail = Campaign::where('slug',$request->cname)->first();
         $campaign_employee = CampaignEmployees::where('campaign_id',$campaign_detail->id)
                                                 ->where('employee_id',$request->eid)
@@ -25,11 +26,11 @@ class CampaignController extends Controller
         {
             $campaign_statistics->name = $campaign_detail->name;
             $campaign_statistics->coupon_code = $campaign_detail->coupon_code;
-            $campaign_statistics->url = $currenturl;
+
             $campaign_statistics->campaign_id = $campaign_detail->id;
             $campaign_statistics->employee_id = $request->eid;
             $result =  $campaign_statistics->save();
-        }
+      }
         return view('campaign.campaign-detail')->with(['campaign_detail'=>$campaign_detail]);
     }
 
@@ -62,12 +63,10 @@ class CampaignController extends Controller
         return redirect(route('campaign.index'));
     }
 
-    public function edit(Request $request)
+    public function editCampaign(Request $request)
     {
         $customers = Customer::orderBy('id', 'desc')->get();
         $campaign = Campaign::where('id', $request->id)->first();
-//          echo $campaigns;
-//          exit;
         return view('campaign.edit')->with(['campaign' => $campaign, 'customers' => $customers]);
     }
 
