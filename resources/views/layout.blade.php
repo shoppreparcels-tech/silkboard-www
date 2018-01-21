@@ -110,12 +110,12 @@
             <span class="login-bttm"><a href="javascript:void(0)"
                                         id="btn_signup_popup">Not a member? Register</a></span>
         </div>
-        @if($campaign->image)
+        {{--@if($campaign->image)--}}
 
-        <div class="col-sm-6 text-center">
-            <img src="/img/campaigns/{{$campaign->image}}">
-        </div>
-        @endif
+        {{--<div class="col-sm-6 text-center">--}}
+            {{--<img src="/img/campaigns/{{$campaign->image}}">--}}
+        {{--</div>--}}
+        {{--@endif--}}
         <div class="clearfix"></div>
     </div>
     <div class="register-box-popup">
