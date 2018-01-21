@@ -30,7 +30,7 @@ class CampaignController extends Controller
             $campaign_statistics->campaign_id = $campaign_detail->id;
             $campaign_statistics->employee_id = $request->eid;
             $result =  $campaign_statistics->save();
-      }
+        }
         return view('campaign.campaign-detail')->with(['campaign_detail'=>$campaign_detail]);
     }
 
