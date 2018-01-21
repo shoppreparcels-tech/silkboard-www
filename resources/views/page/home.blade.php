@@ -63,7 +63,7 @@
             </a>
             </li>
             <li>
-              <h2>2-4 Days</h2>
+              <h2>2-5 Days</h2>
               <h4>Average Delivery Time</h4>
             </li>            
             <li>

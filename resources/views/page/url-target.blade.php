@@ -247,6 +247,7 @@
     </div>
     <div id="document">
         <section class="service-sec">
+            <h3 class="htag_align">Non-document Prices for {{ucfirst(trans($destination))}}</h3>
             <div class="container">
                 <div class="col-md-10">
                     <table class="table table-striped">

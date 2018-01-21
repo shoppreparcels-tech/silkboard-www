@@ -47,7 +47,7 @@
             </div>
             <div class="infobox">
               <h4>PACKAGE RETURN SERVICES</h4>
-              <p>Shop without worry! We are happy to help with product returns to US stores if your goods arrive at MyUS damaged, are not what you expected, or the wrong size or color.</p>
+              <p>Shop without worry! We are happy to help with product returns to Indian stores if your goods arrive at Shoppre damaged, are not what you expected, or the wrong size or color.</p>
               <a href="{{route('faq')}}" class="btn btn-shoppre">Learn more about return services</a>
             </div>
         </div>
