@@ -93,7 +93,6 @@ class CampaignController extends Controller
     public function create(Request $request)
     {
         $customers = Customer::orderBy('id', 'desc')->get();
-
         return view('campaign.create')->with(['customers' => $customers]);
     }
 

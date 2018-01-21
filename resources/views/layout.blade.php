@@ -31,8 +31,12 @@
     <link href="{{asset('css/style1.css')}}" rel="stylesheet">
     <link href="{{asset('css/print.css')}}" rel="stylesheet">
     @yield('css_style')
+
+
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
     <meta name="msvalidate.01" content="0E25F147AD9B658B4418A996E97D0D7D"/>
+    <!-- Schema markup -->
+    @yield('schema_markup')
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || [];
@@ -65,8 +69,6 @@
         localStorage.firstVisit = window.location.href;
     }
 </script>
-
-
 @include('partials._header')
 <!----popup code  -->
 <div id="loginScreen">
@@ -81,7 +83,7 @@
                             class="fa fa-google-plus"></i></a>
             </div>
         </div>
-        <div class="col-sm-6 col-sm-offset-3">
+        <div class="col-sm-6">
             <form class="login-form" role="form" method="POST" action="{{route('homeLogin')}}" novalidate="novalidate">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <div class="form-group ">
@@ -108,9 +110,9 @@
             <span class="login-bttm"><a href="javascript:void(0)"
                                         id="btn_signup_popup">Not a member? Register</a></span>
         </div>
-        {{--<div class="col-sm-6 text-center">--}}
-            {{--<img src="https://myaccount.shoppre.com/img/refer-a-friend.png">--}}
-        {{--</div>--}}
+        <div class="col-sm-6 text-center">
+            <img src="/img/campaigns/{{$campaign->image}}">
+        </div>
         <div class="clearfix"></div>
     </div>
     <div class="register-box-popup">

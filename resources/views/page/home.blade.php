@@ -11,6 +11,11 @@
   <link rel="stylesheet" href="css/magnific-popup.css">
 @endsection
 
+<!-- schema markup -->
+@section('schema_markup')
+
+@endsection
+
 @section('content')
     <!-- Home Page Contents -->
     <section class="slider">
