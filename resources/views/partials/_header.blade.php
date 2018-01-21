@@ -68,23 +68,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                {{--@if(Auth::guard('customer')->check())--}}
-                    {{--<a href="" class="nav-icon icon-size"><i class="fa fa-user-circle"></i></a>--}}
-                {{--@else--}}
-                    {{--<a href="" class="nav-icon icon-size">{{Auth::guard('customer')->user()->name or ''}}</a>--}}
-                {{--@endif--}}
-                @if(Auth::guard('customer')->check())
-                    <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/locker" class="nav-icon icon-size">
-                        {{Auth::guard('customer')->user()->name}}
-                    </a>
-                @else
-                    <a href="{{route('customer.login')}}" class="nav-icon icon-size"><i class="fa fa-user-circle"></i></a>
-                @endif
+                    {{--@if(Auth::guard('customer')->check())--}}
+                        {{--<button  class="nav-icon icon-size">--}}
+                            {{--{{Auth::guard('customer')->user()->name}}--}}
+                        {{--</button>--}}
+                    {{--@else--}}
+                        {{--<button class="nav-icon icon-size"><i class="fa fa-user-circle"></i></button>--}}
+                    {{--@endif--}}
                 <a class="navbar-brand" href="{{route('home')}}">
                     <img src="{{asset('img/logo.png')}}" alt="Shoppre - Borderless Shipping From India">
                 </a>
             </div>
-
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{route('home')}}">Home</a></li>
