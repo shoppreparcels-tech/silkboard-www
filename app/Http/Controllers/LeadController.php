@@ -75,6 +75,7 @@ class LeadController extends Controller
         $http_referrer = new HttpReferrer();
         $http_referrer->url = $request->referrer;
         $http_referrer->created_by = $customer->id;
+        $http_referrer->visitor_id = $customer->id;
         $http_referrer->save();
 
         $customer_detail = new Customer();
@@ -88,14 +89,5 @@ class LeadController extends Controller
         $first_visit->save();
 //      $this->sendEmailVerification($request->email);
         return "Success Registration";
-    }
-
-    public function tawkto(Request $request)
-    {
-//        http_referrer->id = id compo->findOrCreat({ url: })
-//        firstVisit->id
-        // return "hello";
-//        return response()->json([ 'error'=>'0', 'request'=> $request]);
-         return "Success twakto";
     }
 }

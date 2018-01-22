@@ -17,8 +17,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('/leads', 'LeadController@create')->name('leads');
-Route::post('/leads/tawkto', 'LeadController@tawkto')->name('tawkto');
+Route::post('/leads/signup', 'LeadController@create')->name('leads.signup');
 
 Route::post('/offers', 'PageController@saveFlyerUser')->name('flyerUser');
 

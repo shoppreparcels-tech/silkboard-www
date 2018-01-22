@@ -23,7 +23,7 @@
         <br/>
         <font size="4">
             <div class="container"  style="background-color: whitesmoke">
-                <form class="form-horizontal" method="post" action="{{route('campaign.submit')}}" enctype="multipart/form-data">
+                <form class="form-horizontal" method="post" action="{{route('campaign.editSubmit')}}" enctype="multipart/form-data">
                     {{ csrf_field() }}
                     <div class="feedback-container">
                         <div class="row">

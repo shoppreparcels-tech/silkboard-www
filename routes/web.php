@@ -57,7 +57,7 @@ Route::get('/chat-email/confirm', 'PageController@chatMailConfirm')->name('chatM
 Route::get('/shipments', 'SchedulePickupDetailController@pickupList')->name('schedulePickup.List');
 Route::get('/shipment/{id}', 'SchedulePickupDetailController@pickupView')->name('schedulePickup.View');
 
-Route::get('/campaigns', 'CampaignController@index')->name('campaign.index');
+Route::get('/campaigns/list', 'CampaignController@index')->name('campaign.index');
 Route::get('/campaign/create', 'CampaignController@create')->name('campaign.create');
 Route::post('/campaign/create', 'CampaignController@submit')->name('campaign.submit');
 Route::get('/campaigns/edit/{id}', 'CampaignController@editCampaign')->name('campaignEdit');

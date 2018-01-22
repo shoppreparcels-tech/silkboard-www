@@ -9,6 +9,6 @@ class HttpReferrer extends Model
     //
 
 
-    protected $fillable = ['url', 'created_by'];
+    protected $fillable = ['url', 'created_by','visitor_id'];
 }
 

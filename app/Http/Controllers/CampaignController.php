@@ -37,7 +37,27 @@ class CampaignController extends Controller
     public function editSubmit(Request $request)
     {
         $campaign = Campaign::where('id', $request->hdn_campaign_id)->first();
+        $begin_date = "";
+        $end_date = "";
+        if($request->begin_date == "")
+        {
+            $begin_date = $campaign->begin_date;
+        }
+        else
+        {
+            $begin_date = $request->begin_date;
+        }
 
+        if($request->end_date == "")
+        {
+            $end_date = $campaign->end_date;
+        }
+        else
+        {
+            $end_date = $request->end_date;
+        }
+
+//
         if ($request->hasFile('image')) {
             $image = $request->file('image');
             $name = time() . '.' . $image->getClientOriginalExtension();
@@ -46,8 +66,8 @@ class CampaignController extends Controller
             $campaign->image = $name;
             $campaign->name = $request->name;
             $campaign->coupon_code = $request->coupon_code;
-            $campaign->begain_date = $request->begain_date;
-            $campaign->end_date = $request->end_date;
+            $campaign->begin_date = $begin_date;
+            $campaign->end_date = $end_date;
             $campaign->comment = $request->comment;
             $campaign->save();
         }
@@ -55,8 +75,8 @@ class CampaignController extends Controller
         {
             $campaign->name = $request->name;
             $campaign->coupon_code = $request->coupon_code;
-            $campaign->begain_date = $request->begain_date;
-            $campaign->end_date = $request->end_date;
+            $campaign->begin_date = $begin_date;
+            $campaign->end_date = $end_date;
             $campaign->comment = $request->comment;
             $campaign->save();
         }

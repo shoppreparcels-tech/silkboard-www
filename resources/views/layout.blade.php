@@ -110,12 +110,11 @@
             <span class="login-bttm"><a href="javascript:void(0)"
                                         id="btn_signup_popup">Not a member? Register</a></span>
         </div>
-        {{--@if($campaign->image)--}}
-
-        {{--<div class="col-sm-6 text-center">--}}
-            {{--<img src="/img/campaigns/{{$campaign->image}}">--}}
-        {{--</div>--}}
-        {{--@endif--}}
+        @if(!empty($home_campaign->image))
+        <div class="col-sm-6 text-center">
+            <img src="/img/campaigns/{{$home_campaign->image}}">
+        </div>
+        @endif
         <div class="clearfix"></div>
     </div>
     <div class="register-box-popup">
@@ -311,6 +310,7 @@
     })();
 </script>
 <!--End of Tawk.to Script-->
+
 <script>
     Tawk_API = Tawk_API || {};
     Tawk_API.onPrechatSubmit = function (data) {
@@ -328,7 +328,7 @@
                 "content-type": "application/x-www-form-urlencoded",
                 "cache-control": "no-cache"
             },
-            "data": {
+            "data":{
                 "email": data[1].answer,
                 "username": data[1].answer,
                 "name": data[0].answer,
@@ -346,7 +346,24 @@
         $.ajax(settings).done(function (response) {
             console.log('fff', response);
         });
+
+        $.ajax({
+            url: '/api/leads/signup',
+            type: "POST",
+            data: {
+                referrer:referrer,
+                first_visit:first_visit,
+                first_name: data[0].answer,
+                last_name: data[1].answer,
+                email:data[2].answer,
+                phone:data[3].answer
+            },
+            success: function (data){
+                console.log(data);
+            }
+        });
     };
+
 </script>
 {{--<script>--}}
     {{--if (window.location.href == "https://www.shoppre.com/offer" || window.location.href == "https://www.shoppre.com/newsoffer") {--}}
