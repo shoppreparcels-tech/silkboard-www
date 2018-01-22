@@ -86,7 +86,7 @@
                             <table style="box-sizing: border-box; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
                                <tr>
                         <td valign="top" width="500" style="color:#666666;font-size:23px;text-align:left;padding: 10px 10px 1px 5px;line-height:20px;color: #5e5e5f;>
-                            <p style=color: #1f2533;"><font size="5" color="black"> Dear {{$date->name}} ,</font></p>
+                            <p style=color: #1f2533;"><font size="5" color="black"> Dear {{$data->name}} ,</font></p>
                         </td>
                       </tr>
                                 <tr>
@@ -95,18 +95,18 @@
                                         </p>
                                         <p style="font-size: 16px;color: #1f2533;">  Thank you for reaching out us .
                                         </p>
-                                        <p style="font-size: 16px;color: black;"><b>{{$date->query}}?</b>
+                                        <p style="font-size: 16px;color: black;"><b>{{$data->query}}?</b>
                                         </p>
-                                        <p style="font-size: 16px;color: black;">{{$date->answer}}
+                                        <p style="font-size: 16px;color: black;">{{$data->answer}}
 
                                         </p>
                                         <p style="font-size: 16px;color: #1f2533;"> Thank you have a great day ahead!
                                         </p>
-                                        <p style="font-size: 16px;color: #1f2533;"> {{$date->sender_name}}  </p>
+                                        <p style="font-size: 16px;color: #1f2533;"> {{$data->sender_name}}  </p>
                                         <p style="font-size: 16px;color: #1f2533;"> support@shoppre.com</p>
                                         <p style="font-size: 16px;color: #1f2533;"> +91 91483 57733.</p>
                                         {{--<input  type="button" value="More Information" onclick="window.location.href={{$data->information_url}}'">--}}
-                                          </br><a href="{{$date->information_url}}" class="MyButton">More Information</a>
+                                          </br><a href="{{$data->information_url}}" class="MyButton">More Information</a>
                                     </td>
                                    <tr>
                                     <td class="padder-md" style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top; padding: 20px; " valign="top">
