@@ -89,7 +89,8 @@
                                         <p style="font-size: 16px;color: #1f2533;">  {{$data->sender_name}}  </p>
                                         <p style="font-size: 16px;color: #1f2533;"> support@shoppre.com</p>
                                         <p style="font-size: 16px;color: #1f2533;"> +91 91483 57733.</p>
-                                        <input class="MyButton" type="button" value="More Information" onclick="window.location.href='{{$data->information_url}}'">
+                                        {{--<input  type="button" value="More Information" onclick="window.location.href={{$data->information_url}}'">--}}
+                                        <a href="{{$data->information_url}}" class="MyButton">More Information</a>
                                    <tr>
                                     <td class="padder-md" style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top; padding: 20px; " valign="top">
                                     </td>
@@ -114,7 +115,7 @@
     </tr>
 </table>
 <style>
-    input.MyButton {
+   .MyButton {
         width: 250px;
         padding: 15px;
         cursor: pointer;
@@ -125,7 +126,7 @@
         border: 4px solid #4173A9;
         border-radius: 10px;
     }
-    input.MyButton:hover {
+    .MyButton:hover {
         color: #ffff00;
         background:#4173A9;
         border: 4px solid #4173A9;
