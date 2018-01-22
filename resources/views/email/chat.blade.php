@@ -106,7 +106,7 @@
                                         <p style="font-size: 16px;color: #1f2533;"> support@shoppre.com</p>
                                         <p style="font-size: 16px;color: #1f2533;"> +91 91483 57733.</p>
                                         {{--<input  type="button" value="More Information" onclick="window.location.href={{$data->information_url}}'">--}}
-                                          </br><a href="{{$data->information_url}}" class="MyButton">More Information</a>
+                                          <br><br><br><a href="{{$data->information_url}}" class="MyButton">More Information</a>
                                     </td>
                                    <tr>
                                     <td class="padder-md" style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top; padding: 20px; " valign="top">
