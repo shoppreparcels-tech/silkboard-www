@@ -447,7 +447,7 @@ section.pricing{text-align:center;padding:80px 0;}
 .pricing .square-box{width:30%;margin:auto;z-index:1;}
 .pricing .square-box:before{width:60%;height:200%;top:-60%;left:44%;}
 .pricing .head-text{margin-top:55px;font-size:18px;width:70%;margin:55px auto;}
-.white-popup-block{display:block;max-width:750px;background:#fff;padding:25px;margin:auto;}
+.white-popup-block{display:none;max-width:750px;background:#fff;padding:25px;margin:auto;}
 #vol_model{position:relative;padding:15px 60px 30px;}
 #vol_model h3{text-align:center;color:#fe9611;font-weight:700;margin:10px 0 0;}
 #vol_model .btn-close{position:absolute;top:0;right:0;font-size:18px;color:#555;}
@@ -889,6 +889,7 @@ section.loyalty{padding:80px 0;}
 .calc-result .result table td.discount{color:#fff900;}
 .calc-result ul.points{list-style:none;padding-left:15px;}
 .calc-result ul.points li{font-size:13px;font-style:italic;margin-bottom:5px;}
+#customer_ship_result{display:block;margin:0;top:-10px;position:absolute;left:0;top:98%;background:#fff;width:100%;height:64%;box-shadow:1px 5px 10px #ccc;}
 #ship_result{display:none;margin:0;top:-10px;position:absolute;left:0;top:98%;background:#fff;width:100%;height:64%;box-shadow:1px 5px 10px #ccc;}
 .shipping-calculator #ship_result h4{margin:0 15px 15px;text-align:left;font-weight:700;}
 #calc_error{display:none;border-bottom:1px solid #ff0a0a;padding:15px;color:#bf0000;font-size:16px;text-align:center;margin:15px;}
@@ -1447,6 +1448,12 @@ footer .infolinks{padding:20px 0;text-align:center;}
 .contact_ico{padding:30px 0;}
 .timeline .blox{margin:0 0 0 70px;}
 }
+.pricing-url
+{
+    padding-left: 15px;
+    padding-bottom: 13px;
+}
+
 @media only screen and (max-width:480px){.navbar-default .nav li a{font-size:12px;}
 .navbar-default .nav li{padding:5px;}
 .head-text-content {font-size: 18px !important;width: 100% !important;margin: 10px 37px 20px 0px !important;}

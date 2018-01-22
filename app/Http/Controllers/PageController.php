@@ -27,6 +27,57 @@ use App\Http\Controllers\SchedulePickup;
 
 class PageController extends Controller
 {
+    public function customerPricing(Request $request)
+    {
+        $item_type = $request->type;
+        $weight = $request->weight;
+        $country_id = $request->dest;
+
+        $country = Country::find($country_id);
+
+        $unit = $request->unit;
+        $discount = $country->discount;
+
+        $type = $request->weight <= 2 ? $item_type : 'nondoc';
+
+        if ($weight <= 300) {
+            $rate = ShippingRate::where('country_id', $country->id)
+                ->where('item_type', $type)
+                ->where('min', '<', $weight)
+                ->where('max', '>=', $weight)
+                ->first();
+        }
+        else
+        {
+            $rate = ShippingRate::where('country_id', $country->id)
+                ->where('item_type', $type)
+                ->where('min', '<', $weight)
+                ->where('max', '=', 0)
+                ->first();
+        }
+
+        $reviews = Review::orderBy('updated_at', 'desc')
+            ->where('approve', '1')
+            ->limit(10)
+            ->get();
+
+        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+
+        if (!empty($rate)) {
+            $amount = $rate->rate_type == "fixed" ? $rate->amount : $rate->amount * $weight;
+
+            $amount = number_format($amount, 2, '.', '');
+            $time = $rate->timerange;
+
+            $disamount = ($discount / 100) * $amount;
+            $final_amount = round(($amount - $disamount),2);
+
+            return view('page.customer-pricing')->with(['reviews' => $reviews, 'countries' => $countries,
+                'time'=> $time, 'amount'=>$amount, 'discount'=>$discount,'final_amount'=>$final_amount,
+                'weight'=>$weight,'item_type'=>$item_type,'country_id'=>$country_id]);
+        }
+    }
+
     public function newPricing()
     {
         $reviews = Review::orderBy('updated_at', 'desc')

@@ -64,6 +64,8 @@ Route::post('home/login', 'Customer\LoginController@homeLogin')->name('homeLogin
 Route::post('home/signup', 'Customer\RegisterController@homeSignup')->name('homeSignup');
 
 Route::get('/new-pricing', 'PageController@newPricing')->name('newPricing');
+Route::get('/customer-pricing', 'PageController@customerPricing')->name('customerPricing');
+
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');
 

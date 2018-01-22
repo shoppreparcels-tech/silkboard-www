@@ -38,9 +38,9 @@
         <div class="container">
             <div class="head">
                 <h2>Get Shipping Rates</h2>
-                <span>The chargeable weight is always the greater of the two :<br>
-            The actual or the volumetric weight.</span>
-                <small><a class="popup-modal" href="#vol_model">Learn how to calculate the Volumetric Weight</a></small>
+                {{--<span>The chargeable weight is always the greater of the two :<br>--}}
+            {{--The actual or the volumetric weight.</span>--}}
+                {{--<small><a class="popup-modal" href="#vol_model">Learn how to calculate the Volumetric Weight</a></small>--}}
 
                 <div id="vol_model" class="white-popup-block mfp-hide">
                     <h3>How To Calculate Volumetric Weight</h3>
@@ -61,7 +61,9 @@
                                 <select class="form-control select2" name="country">
                                     <option value="">Select Country</option>
                                     @foreach($countries as $country)
-                                        <option value="{{$country->id}}" {{$country->id == 226 ? 'selected' : ""}}>{{$country->name}}</option>
+                                        <option value="{{$country->id}}"
+                                                {{$country->id == $country_id ? 'selected' : ""}}>{{$country->name}}
+                                        </option>
                                     @endforeach
                                 </select>
                             </div>
@@ -72,12 +74,14 @@
                             <div class="col-sm-7">
                                 <div class="radio">
                                     <label class="checkbox-inline">
-                                        <input type="radio" name="type" value="nondoc" checked>Non Document
+                                        <input type="radio" name="type" value="nondoc"
+                                                {{$item_type == 'nondoc' ? 'checked' : ""}}>Non Document
                                     </label>
                                 </div>
                                 <div class="radio">
                                     <label class="checkbox-inline">
-                                        <input type="radio" name="type" value="doc">Document
+                                        <input type="radio" name="type" value="doc"
+                                                {{$item_type == 'doc' ? 'checked' : ""}}>Document
                                     </label>
                                 </div>
                             </div>
@@ -86,7 +90,7 @@
                         <div class="form-group">
                             <label class="col-sm-12 control-label">How much does your package weigh?</label>
                             <div class="col-sm-6">
-                                <input type="text" class="form-control" value="1" name="weight"
+                                <input type="text" class="form-control" value="{{$weight or 1}}" name="weight"
                                        placeholder="Enter Weight">
                             </div>
                             <div class="col-sm-6">
@@ -140,6 +144,42 @@
                         </div>
                         <div class="clearfix"></div>
                     </form>
+                    <div id="customer_ship_result" class="calc-result">
+                        <label class="pricing-url"><span id="pricing_url"></span></label>
+                        <h4 class="text-red">ESTIMATED SHIPPING COST*</h4>
+                        <p class="info">Best carrier will be automatically chosen according to your country and weight
+                            of shipment. We use trusted courier services like DHL, FedEx and DTDC.</p>
+                        <div class="result table-responsive">
+                            <table class="table table-bordered">
+                                <tr>
+                                    <td class="bg-white">{{$time}} Business Days <span
+                                                class="text-red">**</span></td>
+                                    <td><i class="fa fa-rupee"></i> {{$final_amount}}</td>
+                                    <td><span class="striked"><i class="fa fa-rupee"></i> {{$amount}}</span></td>
+                                    <td class="discount">{{$discount}}% OFF</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <ul class="points">
+                            <li><span class="text-red">*</span> The chargeable weight is always the greater of the two:
+                                Volumetric or the Actual weight.
+                            </li>
+                            <li><span class="text-red">*</span> The rates displayed are INCLUSIVE of the fuel surcharge
+                                and taxes within India.
+                            </li>
+                            <li><span class="text-red">*</span> You may need to pay duties or tax when your shipment
+                                arrives, as per the import law of the receiving country.
+                            </li>
+                            <li><span class="text-red">*</span> Excludes oversized and palletized shipments, and special
+                                products (liquids, homemade food, etc.)
+                            </li>
+                            <li><span class="text-red">**</span> After dispatch from Shoppre facility. Does not apply to
+                                ship requests made after 3pm IST on Saturdays, or on holidays. Shipments that may
+                                require additional time include those containing items under review or hazardous
+                                materials, oversized packages or where additional export documentation is required.
+                            </li>
+                        </ul>
+                    </div>
                     <div id="ship_result" class="calc-result">
                         <label class="pricing-url"><span id="pricing_url"></span></label>
                         <h4 class="text-red">ESTIMATED SHIPPING COST*</h4>
@@ -179,7 +219,6 @@
                     </div>
                     <div id="calc_load"></div>
                 </div>
-
                 <div class="parcelsample">
                     <h5>Centimeter/Inch Conversion</h5>
                     <p>1 in = 2.54 cm <span>(1 cm = 0.3937 in)</span></p>
@@ -696,6 +735,7 @@
                                 $('#ship_time').text(data.time);
                                 $('#pricing_url').text(url);
                                 $('#ship_disc').text(data.discount);
+                                $('#customer_ship_result').css('display','none');
                                 $('#ship_result').slideDown();
                             }
                         }
