@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Auth;
 use Illuminate\Support\Facades\Route;
+use App\Campaign;
 
 
 class LoginController extends Controller
@@ -45,6 +46,7 @@ class LoginController extends Controller
 
     public function login()
     {
-        return view('page.login');
+        $campaign_image = Campaign::where('type', 'login')->first();
+        return view('page.login')->with(['campaign_image'=>$campaign_image]);
     }
 }

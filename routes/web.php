@@ -65,5 +65,7 @@ Route::post('/campaign/edit', 'CampaignController@editSubmit')->name('campaign.e
 Route::post('home/login', 'Customer\LoginController@homeLogin')->name('homeLogin');
 Route::post('home/signup', 'Customer\RegisterController@homeSignup')->name('homeSignup');
 
+Route::get('/new-pricing', 'PageController@newPricing')->name('newPricing');
+
 Route::get('/{slug}', 'PageController@viewPage')->name('page');
 

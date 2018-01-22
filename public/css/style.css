@@ -1458,6 +1458,11 @@ footer .infolinks{padding:20px 0;text-align:center;}
     /*@media (min-width:961px)  {.display-icon{display: none;}}*/
     /*@media (min-width:1025px) {.display-icon{display: none;}}*/
     /*@media (min-width:1281px) {.display-icon{display: none;}}*/
+
+ .class_pointer
+ {
+     cursor: pointer;
+ }
 .slider .slide .caption-block{margin-left: 0px;top:0;left:0;width:100%;height:100%;text-align:center;padding-top:8px;background:url(../img/mo_slidebg.png) no-repeat #6a1050;background-size:cover;}
 .slider .slide .caption-block h2{font-size:22px;}
 .slider .slide .btn-shoppre{margin-top:5px;}

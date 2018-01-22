@@ -112,7 +112,9 @@
         </div>
         @if(!empty($home_campaign->image))
         <div class="col-sm-6 text-center">
+            <a class="class_pointer" href="{{route('campaignDetail',['cname'=>$home_campaign->slug,'eid'=>111])}}">
             <img src="/img/campaigns/{{$home_campaign->image}}">
+            </a>
         </div>
         @endif
         <div class="clearfix"></div>

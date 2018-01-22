@@ -27,6 +27,15 @@ use App\Http\Controllers\SchedulePickup;
 
 class PageController extends Controller
 {
+    public function newPricing()
+    {
+        $reviews = Review::orderBy('updated_at', 'desc')
+            ->where('approve', '1')
+            ->limit(10)
+            ->get();
+        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+        return view('page.new-pricing')->with(['reviews' => $reviews, 'countries' => $countries]);
+    }
 
     public function chatMailConfirm()
     {
@@ -291,12 +300,23 @@ class PageController extends Controller
         $country = Country::find($request->country);
         if (isset($request->length) && isset($request->width) && isset($request->height)) {
             $volume = $request->length * $request->width * $request->height;
+//            if ($request->scale == "in") {
+//                $volume = $volume/2.54;
+//            }
+//            $volWeight = $volume/5000;
+//            if ($volWeight > $weight) {
+//                $weight = $volWeight;
+//            }
             if ($request->scale == "in") {
-                $volume = $volume/2.54;
+                $d_weight = $volume/305;
             }
-            $volWeight = $volume/5000;
-            if ($volWeight > $weight) {
-                $weight = $volWeight;
+            else
+            {
+                $d_weight = $volume/5000;
+            }
+
+            if ($d_weight > $weight) {
+                $weight = $d_weight;
             }
         }
         

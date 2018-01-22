@@ -70,9 +70,12 @@
                         {{--<span class="login-bttm"><a href="#">Forgot my password. Please remind me.</a></span>--}}
                         {{--<span class="login-bttm"><a href="#">Not a member? Register</a></span>--}}
                     </div>
-                    <div class="col-sm-6 text-center">
-                        <img src="{{asset('img/refer-a-friend.png')}}">
-                    </div>
+                    @if(!empty($campaign_image->image))
+                        <div class="col-sm-6 text-center">
+                            <a class="class_pointer" href="{{route('campaignDetail',['cname'=>$campaign_image->slug,'eid'=>111])}}">
+                                <img src="/img/campaigns/{{$campaign_image->image}}" /></a>
+                        </div>
+                    @endif
                     <div class="clearfix"></div>
                 </div>
             </div>
