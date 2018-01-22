@@ -16,12 +16,11 @@
        <div class="col-md-4 col-sm-offset-5">
            <br/>
            <font color="#663399">
-
             <h1>Feedback Form</h1>
            </font>
         </div>
-   <br/>
-        <font size="4">
+        <br/>
+
         <div class="container" style="background-color: whitesmoke">
             <form class="form-horizontal" method="post" action="{{route('feedback.submit')}}">
                 {{ csrf_field() }}
@@ -30,7 +29,7 @@
                         <div class="col-md-8 col-sm-offset-2">
                             <div class="form-group">
                                 <label>Name *</label>
-                                <input type="text" class="form-control" name="person" placeholder="Enter Your Name">
+                                <input type="text" class="form-control" name="person" placeholder="Enter Your Name" required/>
                                 @if ($errors->has('person'))
                                     <span class="error">{{ $errors->first('person') }}</span>
                                 @endif
@@ -42,7 +41,7 @@
                         <div class="col-md-8 col-sm-offset-2">
                             <div class="form-group">
                                 <label>Email ID *</label>
-                                <input type="text" class="form-control" name="email" placeholder="Enter Your Email">
+                                <input type="text" class="form-control" name="email" placeholder="Enter Your Email" required/>
                                 @if ($errors->has('email'))
                                     <span class="error">{{ $errors->first('email') }}</span>
                                 @endif
@@ -55,7 +54,7 @@
                             <div class="form-group">
                                 <label>Customer service team was very helpful *</label>
                                 <div class="rating-star">
-                                    <input id="input-rate" type="text" class="rated" name="customer_service">
+                                    <input id="input-rate" type="text" class="rated" name="customer_service" required/>
                                 </div>
                                 @if ($errors->has('customer_service'))
                                     <span class="error">{{ $errors->first('customer_service') }}</span>
@@ -69,7 +68,7 @@
                             <div class="form-group">
                                 <label>The amount of time it took my shipment to arrive met my expectations *</label>
                                 <div class="rating-star">
-                                    <input id="input-rate" type="text" class="rated" name="arrive_expectation">
+                                    <input id="input-rate" type="text" class="rated" name="arrive_expectation" required/>
                                 </div>
                                 <div class="clearfix"></div>
                                 @if ($errors->has('arrive_expectation'))
@@ -83,7 +82,7 @@
                             <div class="form-group">
                                 <label>The packing and shipping materials adequately protected my items during shipment *</label>
                                 <div class="rating-star">
-                                    <input id="input-rate" type="text" class="rated" name="protected_shipment">
+                                    <input id="input-rate" type="text" class="rated" name="protected_shipment" required/>
                                 </div>
                                 @if ($errors->has('protected_shipment'))
                                     <span class="error">{{ $errors->first('protected_shipment') }}</span>
@@ -97,7 +96,7 @@
                             <div class="form-group">
                                 <label>I was satisfied with the appearance and condition of the package *</label>
                                 <div class="rating-star">
-                                    <input id="input-rate" type="text" class="rated" name="package_condition">
+                                    <input id="input-rate" type="text" class="rated" name="package_condition" required/>
                                 </div>
                                 @if ($errors->has('package_condition'))
                                     <span class="error">{{ $errors->first('package_condition') }}</span>
@@ -111,7 +110,7 @@
                             <div class="form-group">
                                 <label>It was easy to use Shoppre.com services *</label>
                                 <div class="rating-star">
-                                    <input id="input-rate" type="text" class="rated" name="easy_service">
+                                    <input id="input-rate" type="text" class="rated" name="easy_service" required/>
                                 </div>
                                 @if ($errors->has('easy_service'))
                                     <span class="error">{{ $errors->first('easy_service') }}</span>
@@ -125,7 +124,7 @@
                             <div class="form-group">
                                 <label>How would you rate your overall level of satisfaction with us? *</label>
                                 <div class="rating-star">
-                                    <input id="input-rate" type="text" class="rated" name="overall_level_of_satisfaction">
+                                    <input id="input-rate" type="text" class="rated" name="overall_level_of_satisfaction" required/>
                                 </div>
                                 @if ($errors->has('overall_level_of_satisfaction'))
                                     <span class="error">{{ $errors->first('overall_level_of_satisfaction') }}</span>
@@ -158,7 +157,7 @@
                 </div>
             </form>
         </div>
-        </font>
+
 
     </section>
 @endsection

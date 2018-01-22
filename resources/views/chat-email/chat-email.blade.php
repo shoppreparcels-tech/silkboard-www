@@ -50,7 +50,16 @@
                     <div class="row">
                         <div class="col-md-8 col-sm-offset-2">
                             <div class="form-group">
-                                <label>Mobile Number</label>
+                                <label>Email Subject *</label>
+                                <input type="text" class="form-control" name="email_subject" placeholder="Enter Email subject" required>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-sm-offset-2">
+                            <div class="form-group">
+                                <label>Mobile Number </label>
                                 <div class="rating-star">
                                     <input class="form-control" type="text" placeholder="Enter Customer Mobile" name="mobile">
                                 </div>
@@ -61,7 +70,7 @@
                     <div class="row">
                         <div class="col-md-8 col-sm-offset-2">
                             <div class="form-group">
-                                <label>Date Of Chat</label>
+                                <label>Date Of Chat *</label>
                                 <div class="rating-star">
                                     <input class="form-control" type="date"  name="chat_date" required>
                                 </div>
@@ -72,10 +81,39 @@
                     <div class="row">
                         <div class="col-md-8 col-sm-offset-2">
                             <div class="form-group">
-                                <label>Enter Message</label>
+                                <label>Query *</label>
                                 <div class="rating-star">
-                                    <textarea rows="4" name="message" cols="80" placeholder="Enter Message here..."></textarea>
+                                    <textarea class="form-control" rows="4" name="query" cols="80" placeholder="Enter Query here..."></textarea>
                                 </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-sm-offset-2">
+                            <div class="form-group">
+                                <label>Answer *</label>
+                                <div class="rating-star">
+                                    <textarea class="form-control" rows="4" name="answer" cols="80" placeholder="Enter Answer here..."></textarea>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-sm-offset-2">
+                            <div class="form-group">
+                                <label>Sender Name *</label>
+                                <input type="text" class="form-control" name="sender_name" placeholder="Enter Sender Name" required>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-sm-offset-2">
+                            <div class="form-group">
+                                <label>Information URL</label>
+                                <input type="text" class="form-control" name="information_url" placeholder="Enter URL " required>
                                 <div class="clearfix"></div>
                             </div>
                         </div>

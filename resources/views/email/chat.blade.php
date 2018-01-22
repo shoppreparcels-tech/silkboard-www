@@ -52,8 +52,8 @@
 <table class="body" style="box-sizing: border-box; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background-color: #f6f6f6;" width="100%" bgcolor="#f6f6f6">
     <tr>
         <td style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top;" valign="top"></td>
-        <td class="container" style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top; display: block; Margin: 0 auto !important; max-width: 677px; padding: 10px; width: 677px;"  valign="top">
-            <div class="content" style="box-sizing: border-box; display: block; margin: 0 auto; max-width: 613px; padding: 0px; font-family: 'Source Sans Pro', Helvetica, Arial, 'Lucida Grande', sans-serif !important;">
+        <td class="container" style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top; display: block; Margin: 0 auto !important; max-width: 811px; padding: 10px; width: 802px;"  valign="top">
+            <div class="content" style="box-sizing: border-box; display: block; margin: 0 auto;max-width: 762px;; padding: 0px; font-family: 'Source Sans Pro', Helvetica, Arial, 'Lucida Grande', sans-serif !important;">
                 <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;"></span>
                 <div class="action-header bg-primary padder-sm" style="box-sizing: border-box; width: 100%; padding: 10px !important; background-color: #4173A9;">
                     <table style="box-sizing: border-box; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
@@ -70,18 +70,27 @@
                             <table style="box-sizing: border-box; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
                                <tr>
                         <td valign="top" width="500" style="color:#666666;font-size:23px;text-align:left;padding: 10px 10px 1px 5px;line-height:20px;color: #5e5e5f;>
-                            <p style=color: #1f2533;"><font size="5"> Dear {{$data->name}},</font></p>
+                            <p style=color: #1f2533;"><font size="5" color="black"> Dear {{$data->name}}  ,</font></p>
                         </td>
                       </tr>
                                 <tr>
                                     <td class="padder-md" style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top; padding: 10px;" valign="top">
-                                        <p style="font-size: 16px;color: #1f2533;"> {{$data->message}}<u> support@shoppre.com</u> .
-                                     </p>
-                                        <p style="font-size: 16px;color: #1f2533;">  Thank you , have a great day. 
-                                       </p>
-                                    </td>
-                                </tr>
-                                <tr>
+                                        <p style="font-size: 16px;color: #1f2533;">  Greetings!
+                                        </p>
+                                        <p style="font-size: 16px;color: #1f2533;">  Thank you for reaching out us .
+                                        </p>
+                                        <p style="font-size: 16px;color: black;"><b>{{$data->query}}?</b>
+                                        </p>
+                                        <p style="font-size: 16px;color: black;"> {{$data->answer}}
+
+                                        </p>
+                                        <p style="font-size: 16px;color: #1f2533;"> Thank you have a great day ahead!
+                                        </p>
+                                        <p style="font-size: 16px;color: #1f2533;">  {{$data->sender_name}}  </p>
+                                        <p style="font-size: 16px;color: #1f2533;"> support@shoppre.com</p>
+                                        <p style="font-size: 16px;color: #1f2533;"> +91 91483 57733.</p>
+                                        <input class="MyButton" type="button" value="More Information" onclick="window.location.href='{{$data->information_url}}'">
+                                   <tr>
                                     <td class="padder-md" style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top; padding: 20px; " valign="top">
                                     </td>
                                 </tr>                
@@ -93,7 +102,7 @@
                     <table style="box-sizing: border-box; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; color: #999999; font-size: 12px;" width="100%">
                         <tr style="color: #999999; font-size: 12px;">
                             <td class="align-center" style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; vertical-align: top; font-size: 12px; color: #999999; text-align: center; padding: 20px 0;" valign="top" align="center">
-                                <p style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: normal; margin: 0; margin-bottom: 15px; color: #999999; font-size: 12px;"><a href="https://www.shoppre.com" style="box-sizing: border-box; text-decoration: none; color: #999999; font-size: 12px;">Visit Shoppre.com</a>
+                                <p style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: normal; margin: 0; margin-bottom: 15px; color: #999999; font-size: 12px;"><a href="https://www.shoppre.com" style="box-sizing: border-box; text-decoration: none; color: #999999; font-size: 12px;"><font size="3" color="purple">Visit Shoppre.com</font></a>
                                 </p>
                             </td>
                         </tr>
@@ -104,6 +113,24 @@
         <td style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top;" valign="top"></td>
     </tr>
 </table>
+<style>
+    input.MyButton {
+        width: 250px;
+        padding: 15px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 150%;
+        background: #4173A9;
+        color: #fff;
+        border: 4px solid #4173A9;
+        border-radius: 10px;
+    }
+    input.MyButton:hover {
+        color: #ffff00;
+        background:#4173A9;
+        border: 4px solid #4173A9;
+    }
+</style>
 
 </body>
 </html>

@@ -54,7 +54,7 @@
   <section class="bottom">
     <div class="container">
       <div class="row">
-          <div class="col-sm-6">
+        <div class="col-sm-6">
             <p class="copy">&copy; 2018, All Rights Reserved - by Shoppre</p>
           </div>
           <div class="col-sm-6">

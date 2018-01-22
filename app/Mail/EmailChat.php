@@ -32,7 +32,7 @@ class EmailChat extends Mailable
     {
         $from_mail = 'support@shoppre.com';
         $from_name = 'Shoppre';
-        $subject = 'Shoppre.com - Delivering Happiness';
+        $subject = $this->data->email_subject;
 
         return $this->view('email.chat')
                     ->from($from_mail, $from_name)

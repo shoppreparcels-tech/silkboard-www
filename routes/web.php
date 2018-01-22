@@ -42,12 +42,10 @@ Route::get('/consolidation-service', 'PageController@consolidationService')->nam
 Route::get('/{initial}-from-{source}-to-{destination}', 'PageController@urlTargetShipping')->name('urlTargetShipping');
 Route::get('/{initial}-{contents}-from-{source}-to-{destination}', 'PageController@urlTargetSend')->name('urlTargetSend');
 Route::get('/{initial}-{cprefix}-{cpostfix}-from-{source}-to-{destination}', 'PageController@urlTargetContent')->name('urlTargetContent');
-
 Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('schedulePickup.mail');
 //Route::post('/api/leads', 'PageController@leads')->name('leads');
 
 Route::get('/campaign/{cname}/{eid}', 'CampaignController@campaignDetail')->name('campaignDetail');
-
 //Route::get('/offer', 'PageController@airport')->name('airportOffers');
 //Route::get('/newsoffer', 'PageController@newspaper')->name('newspaperOffers');
 

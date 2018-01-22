@@ -86,7 +86,6 @@ class PageController extends Controller
     {
         return view('page.consolidation');
     }
-
     public function countryList()
     {
        $countries = Country::orderBy('name','asc')->get();
