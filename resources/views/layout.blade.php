@@ -399,7 +399,7 @@
                 url: url,
                 coupon: coupon
             },
-            success: function (data) {
+            success: function (data){
                 console.log(data);
             }
         });
