@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\CampaignStatistics;
 use App\FlyerUsers;
 use App\Mail\EmailChat;
 use Illuminate\Http\Request;
@@ -27,6 +28,24 @@ use App\Http\Controllers\SchedulePickup;
 
 class PageController extends Controller
 {
+    public function saveFlyerUser(Request $request)
+    {
+        $emp_id = 616;
+        $campaign_id = 2;
+        $name = "Flyer";
+        $channel = "newspaper";
+        $campaign_data = new CampaignStatistics();
+        $campaign_data->name = $name;
+        $campaign_data->coupon_code = $request->coupon;
+        $campaign_data->url = $request->url;
+        $campaign_data->campaign_id = $campaign_id;
+        $campaign_data->employee_id = $emp_id;
+        $campaign_data->channel = $channel;
+        $result = $campaign_data->save();
+
+        return response()->json([ 'error'=>'0', 'message'=>'Success']);
+    }
+
     public function customerPricing(Request $request)
     {
         $item_type = $request->type;
@@ -80,12 +99,15 @@ class PageController extends Controller
 
     public function newPricing()
     {
-        $reviews = Review::orderBy('updated_at', 'desc')
-            ->where('approve', '1')
-            ->limit(10)
-            ->get();
-        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
-        return view('page.new-pricing')->with(['reviews' => $reviews, 'countries' => $countries]);
+//        $mac = shell_exec("arp -a ".escapeshellarg($_SERVER['REMOTE_ADDR'])." | grep -o -E '(:xdigit:{1,2}:){5}:xdigit:{1,2}'");
+          echo "mac".$_SERVER['REMOTE_ADDR'];
+          exit;
+//        $reviews = Review::orderBy('updated_at', 'desc')
+//            ->where('approve', '1')
+//            ->limit(10)
+//            ->get();
+//        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+//        return view('page.new-pricing')->with(['reviews' => $reviews, 'countries' => $countries]);
     }
 
     public function chatMailConfirm()

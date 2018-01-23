@@ -490,6 +490,10 @@ section.pricing{text-align:center;padding:80px 0;}
 .pricing-terms .desc_box h3{font-size:16px;text-transform:uppercase;font-weight:800;}
 .pricing-terms .desc_box p{font-size:14px;color:#636262;}
 .pricing .btn-shoppre{padding:8px 35px;}
+.exp_date
+{
+    color: red;
+}
 section.testimonails{padding:80px 0;background:url('../img/testimonials.jpg') no-repeat top center;background-size:cover;}
 .testimonails .square-box{z-index:1;margin-top:25%;}
 .testimonails .square-box h2, .testimonails .square-box h3{color:#fff;}

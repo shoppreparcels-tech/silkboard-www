@@ -15,22 +15,23 @@ class CampaignController extends Controller
     public function campaignDetail(Request $request)
     {
 
-         $cname = $request->cname;
+        $cname = $request->cname;
+        $url = $request->fullUrl();
 
         $campaign_detail = Campaign::where('slug',$request->cname)->first();
-        $campaign_employee = CampaignEmployees::where('campaign_id',$campaign_detail->id)
-                                                ->where('employee_id',$request->eid)
-                                                ->first();
-        $campaign_statistics = new CampaignStatistics();
-        if($campaign_employee)
-        {
-            $campaign_statistics->name = $campaign_detail->name;
-            $campaign_statistics->coupon_code = $campaign_detail->coupon_code;
-
-            $campaign_statistics->campaign_id = $campaign_detail->id;
-            $campaign_statistics->employee_id = $request->eid;
-            $result =  $campaign_statistics->save();
-        }
+//        $campaign_employee = CampaignEmployees::where('campaign_id',$campaign_detail->id)
+//                                                ->where('employee_id',$request->eid)
+//                                                ->first();
+//        $campaign_statistics = new CampaignStatistics();
+//        if($campaign_employee)
+//        {
+//            $campaign_statistics->name = $campaign_detail->name;
+//            $campaign_statistics->coupon_code = $campaign_detail->coupon_code;
+//            $campaign_statistics->campaign_id = $campaign_detail->id;
+//            $campaign_statistics->employee_id = $request->eid;
+//            $campaign_statistics->url = $url;
+//            $result =  $campaign_statistics->save();
+//        }
         return view('campaign.campaign-detail')->with(['campaign_detail'=>$campaign_detail]);
     }
 
