@@ -38,15 +38,6 @@
         <div class="container">
             <div class="head">
                 <h2>Get Shipping Rates</h2>
-                {{--<span>The chargeable weight is always the greater of the two :<br>--}}
-            {{--The actual or the volumetric weight.</span>--}}
-                {{--<small><a class="popup-modal" href="#vol_model">Learn how to calculate the Volumetric Weight</a></small>--}}
-
-                <div id="vol_model" class="white-popup-block mfp-hide">
-                    <h3>How To Calculate Volumetric Weight</h3>
-                    <img src="{{asset('img/vol_calc.png')}}">
-                    <a class="btn btn-close popup-modal-dismiss" href="#"><i class="fa fa-times"></i></a>
-                </div>
             </div>
             <div class="col-md-7">
                 <div class="calculator block">

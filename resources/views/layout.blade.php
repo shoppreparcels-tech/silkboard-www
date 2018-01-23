@@ -36,8 +36,8 @@
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
     <meta name="msvalidate.01" content="0E25F147AD9B658B4418A996E97D0D7D"/>
     <!-- Schema markup -->
-    @yield('schema_markup')
-    <!-- Google Tag Manager -->
+@yield('schema_markup')
+<!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
@@ -70,131 +70,154 @@
     }
 </script>
 @include('partials._header')
-<!----popup code  -->
-<div id="loginScreen">
-    <div class="login-box-popup">
-        <a class="lbtnclose" href="javascript:void(0)" id="btn_close_login">X</a>
-        <h3>Log in to Shoppre Account</h3>
-        <div class="text-center">
-            <div class="login-social">
-                <a href="https://myaccount.shoppre.com/social/oauth/facebook" class="facebook"><i
-                            class="fa fa-facebook"></i><span>Facebook</span></a>
-                <a href="https://myaccount.shoppre.com/social/oauth/google" class="google"><span>Google Plus</span><i
-                            class="fa fa-google-plus"></i></a>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <form class="login-form" role="form" method="POST" action="{{route('homeLogin')}}" novalidate="novalidate">
-                <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                <div class="form-group ">
-                    <label for="">Email</label>
-                    <input type="email" class="form-control valid" placeholder="Enter your email address"
-                           name="email_id"
-                           value="" required="" autofocus="" aria-required="true" aria-invalid="false">
+<div class="container">
+    <!-- Trigger the modal with a button -->
+    {{--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>--}}
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" id="btnClosePopup" class="close">&times;</button>
                 </div>
-                <div class="form-group ">
-                    <label for="">Password</label>
-                    <input type="password" class="form-control valid" placeholder="Enter your password"
-                           name="l_password"
-                           required="" aria-required="true" aria-invalid="false">
-                </div>
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox" name="remember_me">
-                        <span class="label">Remember Me <small>(Not recommended for public computers)</small></span>
-                    </label>
-                </div>
-                <button type="submit" class="btn btn-block btn-shoppre">Sign in to your account</button>
-            </form>
-            {{--<span class="login-bttm"><a href="https://myaccount.shoppre.com/forgot-password">Forgot my password. Please remind me.</a></span>--}}
-            <span class="login-bttm"><a href="javascript:void(0)"
-                                        id="btn_signup_popup">Not a member? Register</a></span>
-        </div>
-        @if(!empty($home_campaign->image))
-        <div class="col-sm-6 text-center">
-            <a class="class_pointer" href="{{route('campaignDetail',['cname'=>$home_campaign->slug,'eid'=>111])}}">
-            <img src="/img/campaigns/{{$home_campaign->image}}">
-            </a>
-        </div>
-        @endif
-        <div class="clearfix"></div>
-    </div>
-    <div class="register-box-popup">
-        <a class="lbtnclose" href="javascript:void(0)" id="btn_close_signup">X</a>
-        <h3>SIGN UP WITH</h3>
-        <div class="text-center">
-            <div class="login-social">
-                <a href="https://myaccount.shoppre.com/social/oauth/facebook" class="facebook"><i
-                            class="fa fa-facebook"></i><span>Facebook</span></a>
-                <a href="https://myaccount.shoppre.com/social/oauth/google" class="google"><span>Google Plus</span><i
-                            class="fa fa-google-plus"></i></a>
-            </div>
-        </div>
-        <span class="or_separate">OR</span>
-        <h3>CREATE AN ACCOUNT</h3>
-        <form class="register-form" role="form" method="POST"
-              action="{{route('homeSignup')}}" novalidate="novalidate">
-            <input type="hidden" name="_token" value="{{ csrf_token() }}">
-            <div class="col-sm-6">
-                <div class="row">
-                    <div class="form-group ">
-                        <div class="input-group">
-                            <div class="input-group-addon"><i class="fa fa-address-card"></i></div>
-                            <input type="text" class="form-control" name="firstname" value="" placeholder="First Name *"
-                                   required="" autofocus="" aria-required="true">
+                <div class="modal-body">
+                    <div class="login-content">
+                        <h3 class="head-tag">Log in to Shoppre Account</h3>
+                        <div class="text-center">
+                            <div class="login-social">
+                                <a href="https://myaccount.shoppre.com/social/oauth/facebook" class="facebook"><i
+                                            class="fa fa-facebook"></i><span>Facebook</span></a>
+                                <a href="https://myaccount.shoppre.com/social/oauth/google"
+                                   class="google"><span>Google Plus</span><i
+                                            class="fa fa-google-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <form class="login-form" role="form" method="POST" action="{{route('homeLogin')}}"
+                                  novalidate="novalidate">
+                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                <div class="form-group ">
+                                    <label for="">Email</label>
+                                    <input type="email" class="form-control valid"
+                                           placeholder="Enter your email address"
+                                           name="email_id"
+                                           value="" required="" autofocus="" aria-required="true" aria-invalid="false">
+                                </div>
+                                <div class="form-group ">
+                                    <label for="">Password</label>
+                                    <input type="password" class="form-control valid" placeholder="Enter your password"
+                                           name="l_password"
+                                           required="" aria-required="true" aria-invalid="false">
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="remember_me">
+                                        <span class="label">Remember Me <small>(Not recommended for public computers)</small></span>
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn btn-block btn-shoppre">Sign in to your account</button>
+                            </form>
+                            {{--<span class="login-bttm"><a href="https://myaccount.shoppre.com/forgot-password">Forgot my password. Please remind me.</a></span>--}}
+                            <span class="login-bttm"><a href="javascript:void(0)"
+                                                        id="btn_signup_popup">Not a member? Register</a></span>
+                        </div>
+                        <div class="col-sm-6">
+                            @if(!empty($home_campaign->image))
+                                <a class="class_pointer"
+                                   href="{{route('campaignDetail',['cname'=>$home_campaign->slug,'eid'=>111])}}">
+                                    <img src="/img/campaigns/{{$home_campaign->image}}">
+                                </a>
+                            @endif
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="row">
-                    <div class="form-group ">
-                        <div class="input-group">
-                            <div class="input-group-addon"><i class="fa fa-address-card"></i></div>
-                            <input type="text" class="form-control" name="lastname" value="" placeholder="Last Name *"
-                                   required="" aria-required="true">
+                    <div class="signup-content">
+                        <h3 class="head-tag">SIGN UP WITH</h3>
+                        <div class="text-center">
+                            <div class="login-social">
+                                <a href="https://myaccount.shoppre.com/social/oauth/facebook" class="facebook"><i
+                                            class="fa fa-facebook"></i><span>Facebook</span></a>
+                                <a href="https://myaccount.shoppre.com/social/oauth/google" class="google"><span>Google Plus</span><i
+                                            class="fa fa-google-plus"></i></a>
+                            </div>
                         </div>
+                        <span class="or_separate">OR</span>
+                        <h3>CREATE AN ACCOUNT</h3>
+                        <form class="register-form" role="form" method="POST"
+                              action="{{route('homeSignup')}}" novalidate="novalidate">
+                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="form-group ">
+                                        <div class="input-group">
+                                            <div class="input-group-addon"><i class="fa fa-address-card"></i></div>
+                                            <input type="text" class="form-control" name="firstname" value=""
+                                                   placeholder="First Name *"
+                                                   required="" autofocus="" aria-required="true">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="form-group ">
+                                        <div class="input-group">
+                                            <div class="input-group-addon"><i class="fa fa-address-card"></i></div>
+                                            <input type="text" class="form-control" name="lastname" value=""
+                                                   placeholder="Last Name *"
+                                                   required="" aria-required="true">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group ">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+                                    <input type="text" class="form-control" name="email" value="" placeholder="Email *"
+                                           required=""
+                                           aria-required="true">
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><i class="fa fa-lock"></i></div>
+                                    <input type="password" class="form-control" placeholder="Password *" name="password"
+                                           required=""
+                                           aria-required="true">
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><i class="fa fa-lock"></i></div>
+                                    <input type="password" class="form-control" placeholder="Reconfirm Password *"
+                                           name="password_confirmation" required="" aria-required="true">
+                                </div>
+                            </div>
+                            {{--<div class="form-group">--}}
+                            {{--<div class="input-group">--}}
+                            {{--<div class="input-group-addon"><i class="fa fa-tag"></i></div>--}}
+                            {{--<input type="text" class="form-control" name="refferal"--}}
+                            {{--placeholder="Referral Code (Optional)">--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            <div class="form-group content-padding">
+                                <button type="submit" class="btn btn-shoppre btn-block">Sign Up</button>
+                            </div>
+                        </form>
+                        <span class="register-bttm" id="btn_login_popup">Already a member? <a href="javascript:void(0)">Sign in</a> here!</span>
                     </div>
                 </div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="form-group ">
-                <div class="input-group">
-                    <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-                    <input type="text" class="form-control" name="email" value="" placeholder="Email *" required=""
-                           aria-required="true">
+                <div class="modal-footer">
+
                 </div>
             </div>
-            <div class="form-group ">
-                <div class="input-group">
-                    <div class="input-group-addon"><i class="fa fa-lock"></i></div>
-                    <input type="password" class="form-control" placeholder="Password *" name="password" required=""
-                           aria-required="true">
-                </div>
-            </div>
-            <div class="form-group ">
-                <div class="input-group">
-                    <div class="input-group-addon"><i class="fa fa-lock"></i></div>
-                    <input type="password" class="form-control" placeholder="Reconfirm Password *"
-                           name="password_confirmation" required="" aria-required="true">
-                </div>
-            </div>
-            {{--<div class="form-group">--}}
-                {{--<div class="input-group">--}}
-                    {{--<div class="input-group-addon"><i class="fa fa-tag"></i></div>--}}
-                    {{--<input type="text" class="form-control" name="refferal" placeholder="Referral Code (Optional)">--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            <div class="form-group">
-                <button type="submit" class="btn btn-shoppre btn-block">Sign Up</button>
-            </div>
-        </form>
-        <span class="register-bttm" id="btn_login_popup">Already a member? <a href="javascript:void(0)">Sign in</a> here!</span>
+
+        </div>
     </div>
 </div>
-<div id="cover">
-</div>
-<!----popup code  -->
+
 @yield('content')
 
 @include('partials._footer')
@@ -209,38 +232,28 @@
 <script>
     $(document).ready(function () {
 
-        $("#btn_close_login").click(function () {
+        $("#btnClosePopup").click(function () {
             localStorage.popupClose = "close";
-            $(".login-box-popup").css("display", "none");
-            $(".register-box-popup").css("display", "none");
-            $("#cover").css("display", "none");
-        });
-
-        $("#btn_close_signup").click(function () {
-            localStorage.popupClose = "close";
-            $(".login-box-popup").css("display", "none");
-            $(".register-box-popup").css("display", "none");
-            $("#cover").css("display", "none");
+            $('#myModal').modal('hide');
         });
 
         $("#btn_signup_popup").click(function () {
-            $(".login-box-popup").css("display", "none");
-            $(".register-box-popup").css("display", "block");
+            $(".login-content").css("display", "none");
+            $(".signup-content").css("display", "block");
         });
 
         $("#btn_login_popup").click(function () {
-            $(".login-box-popup").css("display", "block");
-            $(".register-box-popup").css("display", "none");
+            $(".login-content").css("display", "block");
+            $(".signup-content").css("display", "none");
         });
 
-        if (!localStorage.popupClose){
+        if (!localStorage.popupClose) {
             var t = setTimeout(popupFunction, 6000);
         }
 
-        function popupFunction(){
-            localStorage.popupClose = "close";
-            $(".login-box-popup").css("display", "block");
-            $("#cover").css("display", "block");
+        function popupFunction() {
+            // localStorage.popupClose = "close";
+            $('#myModal').modal('show');
         }
     });
 
@@ -330,7 +343,7 @@
                 "content-type": "application/x-www-form-urlencoded",
                 "cache-control": "no-cache"
             },
-            "data":{
+            "data": {
                 "email": data[1].answer,
                 "username": data[1].answer,
                 "name": data[0].answer,
@@ -353,14 +366,14 @@
             url: '/api/leads/signup',
             type: "POST",
             data: {
-                referrer:referrer,
-                first_visit:first_visit,
+                referrer: referrer,
+                first_visit: first_visit,
                 first_name: data[0].answer,
                 last_name: data[1].answer,
-                email:data[2].answer,
-                phone:data[3].answer
+                email: data[2].answer,
+                phone: data[3].answer
             },
-            success: function (data){
+            success: function (data) {
                 console.log(data);
             }
         });
@@ -368,37 +381,37 @@
 
 </script>
 {{--<script>--}}
-    {{--if (window.location.href == "https://www.shoppre.com/offer" || window.location.href == "https://www.shoppre.com/newsoffer") {--}}
-        {{--if (!localStorage.newsUrlVisit && window.location.href == "https://www.shoppre.com/newsoffer") {--}}
-            {{--console.log("News Enter");--}}
-            {{--var newsUser = "New User";--}}
-            {{--localStorage.newsUrlVisit = window.location.href;--}}
-            {{--var coupon_news = "KOR-BLR-N";--}}
-            {{--storecustomer(newsUser, localStorage.newsUrlVisit, coupon_news);--}}
-        {{--}--}}
-        {{--else if (!localStorage.airUrlVisit && window.location.href == "https://www.shoppre.com/offer") {--}}
-            {{--console.log("Airport Enter");--}}
-            {{--var airUser = "New User";--}}
-            {{--localStorage.airUrlVisit = window.location.href;--}}
-            {{--var coupon_air = "KOR-BLR-A";--}}
-            {{--storecustomer(airUser, localStorage.airUrlVisit, coupon_air);--}}
-        {{--}--}}
-    {{--}--}}
+{{--if (window.location.href == "https://www.shoppre.com/offer" || window.location.href == "https://www.shoppre.com/newsoffer") {--}}
+{{--if (!localStorage.newsUrlVisit && window.location.href == "https://www.shoppre.com/newsoffer") {--}}
+{{--console.log("News Enter");--}}
+{{--var newsUser = "New User";--}}
+{{--localStorage.newsUrlVisit = window.location.href;--}}
+{{--var coupon_news = "KOR-BLR-N";--}}
+{{--storecustomer(newsUser, localStorage.newsUrlVisit, coupon_news);--}}
+{{--}--}}
+{{--else if (!localStorage.airUrlVisit && window.location.href == "https://www.shoppre.com/offer") {--}}
+{{--console.log("Airport Enter");--}}
+{{--var airUser = "New User";--}}
+{{--localStorage.airUrlVisit = window.location.href;--}}
+{{--var coupon_air = "KOR-BLR-A";--}}
+{{--storecustomer(airUser, localStorage.airUrlVisit, coupon_air);--}}
+{{--}--}}
+{{--}--}}
 
-    {{--function storecustomer(user, url, coupon) {--}}
-        {{--$.ajax({--}}
-            {{--url: '/api/offers',--}}
-            {{--type: "POST",--}}
-            {{--data: {--}}
-                {{--username: user,--}}
-                {{--url: url,--}}
-                {{--coupon: coupon--}}
-            {{--},--}}
-            {{--success: function (data) {--}}
-                {{--console.log(data);--}}
-            {{--}--}}
-        {{--});--}}
-    {{--}--}}
+{{--function storecustomer(user, url, coupon) {--}}
+{{--$.ajax({--}}
+{{--url: '/api/offers',--}}
+{{--type: "POST",--}}
+{{--data: {--}}
+{{--username: user,--}}
+{{--url: url,--}}
+{{--coupon: coupon--}}
+{{--},--}}
+{{--success: function (data) {--}}
+{{--console.log(data);--}}
+{{--}--}}
+{{--});--}}
+{{--}--}}
 {{--</script>--}}
 @yield('js_script')
 </body>
