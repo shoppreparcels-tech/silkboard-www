@@ -9,14 +9,14 @@
         <div class="col-md-4 col-sm-offset-5">
             <br/>
             <font color="#663399">
-                <h1>Campaigns List</h1>
+                <h1>Channels List</h1>
             </font>
         </div>
         <div class="col-md-2">
             <br/>
             <br/>
             <br/>
-            <a href="{{route('campaign.create')}}" class="btn btn-shoppre">+ Create Campaign</a>
+            <a href="{{route('channelCreate',['camp_id'=>$campaign_id])}}" class="btn btn-shoppre">+ Create Channel</a>
             <br/>
             <br/>
         </div>
@@ -28,42 +28,33 @@
                             <thead>
                             <tr>
                                 <th>Id</th>
-                                <th>Name</th>
-                                <th>Coupon Code</th>
-                                <th>Begin Date</th>
-                                <th>End Date</th>
-                                <th>Image</th>
-                                <th>Metabase</th>
-                                <th>Github</th>
-                                <th>Edit</th>
+                                <th>Campaign Id</th>
+                                <th>Channel</th>
+                                <th>Employee Id</th>
+                                <th>Shorten Url</th>
+                                <th>Created At</th>
                             </tr>
                             </thead>
                             <tfoot>
                             <tr>
                                 <th>Id</th>
-                                <th>Name</th>
-                                <th>Coupon Code</th>
-                                <th>Begin Date</th>
-                                <th>End Date</th>
-                                <th>Image</th>
-                                <th>Metabase</th>
-                                <th>Github</th>
-                                <th>Edit</th>
+                                <th>Campaign Id</th>
+                                <th>Channel</th>
+                                <th>Employee Id</th>
+                                <th>Shorten Url</th>
+                                <th>Created At</th>
                             </tr>
                             </tfoot>
                             <tbody>
-                            @foreach($campaigns as $campaign)
+                            @foreach($channels as $channel)
                             <tr class="data_font">
-                                <td>{{$campaign->id}}</td>
-                                <td>{{$campaign->name}}</td>
-                                <td>{{$campaign->coupon_code}}</td>
-                                <td>{{$campaign->begin_date}}</td>
-                                <td>{{$campaign->end_date}}</td>
-                                <td><img src="/img/campaigns/{{$campaign->image}}" width="100" height="100" alt=""></td>
-                                <td><a href="https://pulse.shoppre.com/dashboard/322?id={{$campaign->id}}" target="_blank" class="btn btn-shoppre">View</a></td>
-                                <td><a href="https://pulse.shoppre.com/dashboard/322?id={{$campaign->github_issue_id}}" target="_blank" class="btn btn-shoppre">View</a></td>
-                                <td><a href="{{route('campaignEdit',['id'=>$campaign->id])}}" class="btn btn-shoppre">Edit</a></td>
-                                <td><a href="{{route('channelList',['id'=>$campaign->id])}}" class="btn btn-shoppre">Add channel</a></td>
+                                <td>{{$channel->id}}</td>
+                                <td>{{$channel->campaign_id}}</td>
+                                <td>{{$channel->channel}}</td>
+                                <td>{{$channel->employee_id}}</td>
+                                <td>{{$channel->shorten_url}}</td>
+                                <td>{{$channel->created_at}}</td>
+                                {{--<td><a href="{{route('campaignEdit',['id'=>$campaign->id])}}" class="btn btn-shoppre">Edit</a></td>--}}
                             </tr>
                             @endforeach
                             </tbody>

@@ -46,6 +46,10 @@ Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('sche
 //Route::post('/api/leads', 'PageController@leads')->name('leads');
 
 Route::get('/campaign/{cname}/{eid}', 'CampaignController@campaignDetail')->name('campaignDetail');
+Route::get('/campaign/{cname}/{channel}/{eid}', 'CampaignController@campaignDetailChannel')->name('campaignDetailChannel');
+Route::get('/campaigns/channel/{camp_id}', 'CampaignController@channelList')->name('channelList');
+Route::get('/campaigns/channel/new/create/{camp_id}', 'CampaignController@channelCreate')->name('channelCreate');
+Route::post('/campaign/channel/new/create/{camp_id}', 'CampaignController@channelSubmit')->name('channelSubmit');
 //Route::get('/offer', 'PageController@airport')->name('airportOffers');
 //Route::get('/newsoffer', 'PageController@newspaper')->name('newspaperOffers');
 

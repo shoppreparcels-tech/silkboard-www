@@ -12,6 +12,54 @@ use Illuminate\Http\Request;
 class CampaignController extends Controller
 {
 
+    public function channelSubmit(Request $request)
+    {
+//        $url = "https://www.shoppre.com/"
+//        $gurl = "https://www.googleapis.com/urlshortener/v1/url?key=" . $GLOBALS['google_key'];
+//        $url  = json_encode(array("longUrl" => $url));
+//        $ch   = curl_init();
+//        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+//        curl_setopt($ch, CURLOPT_POST, 1);
+//        curl_setopt($ch, CURLOPT_URL, $gurl);
+//        curl_setopt($ch, CURLOPT_POSTFIELDS, $url);
+//        curl_setopt($ch, CURLOPT_HTTPHEADER, array("Accept: appliaction/json", "Content-Type: application/json"));
+//
+//        $r = json_decode(curl_exec($ch));
+//        return $r->id;
+//      $campaign_employee = new CampaignEmployees();
+//        $campaign_employee->campaign_id	 = $request->campaign_id;
+//        $campaign_employee->channel = $request->channel;
+//        $campaign_employee->employee_id = $request->employee_id;
+//        $campaign_employee->shorten_url ='';
+//        $result = $campaign_employee->save();
+//        echo $result;
+//        exit;
+    }
+    public function channelCreate(Request $request)
+    {
+        $campaign_id = $request->camp_id;
+        $campaigns = Campaign::orderBy('id','desc')->get();
+        $customers = Customer::orderBy('id', 'desc')->get();
+        return view('campaign.channel-create')->with(['campaigns'=>$campaigns,
+            'customers'=>$customers,'campaign_id'=>$campaign_id]);
+    }
+
+    public function channelList(Request $request)
+    {
+      $campaign_id = $request->camp_id;
+      $channels = CampaignEmployees::where('campaign_id',2)->get();
+      return view('campaign.channel-list')->with(['channels'=>$channels,'campaign_id'=>$campaign_id]);
+    }
+
+    public function campaignDetailChannel(Request $request)
+    {
+        $cname = $request->cname;
+        $url = $request->fullUrl();
+
+        $campaign_detail = Campaign::where('slug',$request->cname)->first();
+
+        return view('campaign.campaign-detail')->with(['campaign_detail'=>$campaign_detail]);
+    }
     public function campaignDetail(Request $request)
     {
 
@@ -19,19 +67,7 @@ class CampaignController extends Controller
         $url = $request->fullUrl();
 
         $campaign_detail = Campaign::where('slug',$request->cname)->first();
-//        $campaign_employee = CampaignEmployees::where('campaign_id',$campaign_detail->id)
-//                                                ->where('employee_id',$request->eid)
-//                                                ->first();
-//        $campaign_statistics = new CampaignStatistics();
-//        if($campaign_employee)
-//        {
-//            $campaign_statistics->name = $campaign_detail->name;
-//            $campaign_statistics->coupon_code = $campaign_detail->coupon_code;
-//            $campaign_statistics->campaign_id = $campaign_detail->id;
-//            $campaign_statistics->employee_id = $request->eid;
-//            $campaign_statistics->url = $url;
-//            $result =  $campaign_statistics->save();
-//        }
+
         return view('campaign.campaign-detail')->with(['campaign_detail'=>$campaign_detail]);
     }
 
