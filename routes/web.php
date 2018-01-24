@@ -50,8 +50,7 @@ Route::get('/campaign/{cname}/{channel}/{eid}', 'CampaignController@campaignDeta
 Route::get('/campaigns/channel/{camp_id}', 'CampaignController@channelList')->name('channelList');
 Route::get('/campaigns/channel/new/create/{camp_id}', 'CampaignController@channelCreate')->name('channelCreate');
 Route::post('/campaign/channel/new/create/{camp_id}', 'CampaignController@channelSubmit')->name('channelSubmit');
-//Route::get('/offer', 'PageController@airport')->name('airportOffers');
-//Route::get('/newsoffer', 'PageController@newspaper')->name('newspaperOffers');
+
 
 Route::get('/chat-email', 'PageController@chatMailIndex')->name('chatMail.index');
 Route::post('/chat-email', 'PageController@chatMailSent')->name('chatMail.sent');
