@@ -124,6 +124,7 @@
                                             <tr>
                                                 <th>Pickup Address</th>
                                                 <th>Destination Address</th>
+                                                <th>Mobile Number</th>
                                                 <th>Package Dimentions</th>
                                                 <th>Package Items</th>
                                                 <th>Special Items</th>
@@ -138,6 +139,7 @@
                                                 <td>
                                                     {{$data->dest_address}}
                                                 </td>
+                                                <td>{{$data->mobile}}</td>
                                                 <td>{{$data->size_of_package}}</td>
                                                 <td><p>{{$data->package_items}}</p></td>
                                                 <td><p>{{$data->special_items}}</p></td>
