@@ -49,6 +49,7 @@
                                     <option value="email">Email</option>
                                     <option value="linkedin">Linked In</option>
                                     <option value="twitter">Twitter</option>
+                                    <option value="website">Website</option>
                                 </select>
                             </div>
                         </div>
