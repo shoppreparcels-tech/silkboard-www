@@ -11,10 +11,6 @@ use Auth;
 
 class SchedulePickupDetailController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth:customer');
-    }
 
     public function detail()
     {
