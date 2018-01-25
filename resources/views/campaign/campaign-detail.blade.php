@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'Shoppre.com - Member Feedback Form | Shoppre')
-@section('description', 'How we are doing? Regarding your most recent shipment received through Shoppre.com, please leave your feedback, suggestion and provide us more information.')
+@section('title', 'Shoppre Offers')
+@section('description', 'Use this promo code to avail your offer')
 @section('keywords', 'shipment, suggestion, feedback, information, form')
 @section('robots', 'noindex, nofollow')
 @section('css_style')
