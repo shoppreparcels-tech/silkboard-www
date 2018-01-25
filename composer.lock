@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96e00119496ff24027c6fc99376ddd76",
+    "content-hash": "fc512ef6025db36a96053f4cf7d0ea10",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -418,6 +418,49 @@
                 }
             ],
             "time": "2015-04-20T18:58:01+00:00"
+        },
+        {
+            "name": "laravel-junkies/url-shortener",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-junkies/url-shortener.git",
+                "reference": "1608c33643b23b75004ca285702b8fd6a3064703"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-junkies/url-shortener/zipball/1608c33643b23b75004ca285702b8fd6a3064703",
+                "reference": "1608c33643b23b75004ca285702b8fd6a3064703",
+                "shasum": ""
+            },
+            "require": {
+                "tobymaxham/url-shortener": "2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaraJunkie\\Url\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "TobyMaxham",
+                    "email": "git2016@maxham.de"
+                }
+            ],
+            "description": "The official UX9 URL Shortener API for Laravel Users.",
+            "homepage": "http://ux9.de",
+            "keywords": [
+                "shortener",
+                "tobymaxham",
+                "url",
+                "ux9"
+            ],
+            "time": "2016-03-24T22:25:33+00:00"
         },
         {
             "name": "laravel/framework",
@@ -2357,6 +2400,104 @@
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "time": "2016-09-20T12:50:39+00:00"
+        },
+        {
+            "name": "tobymaxham/url-shortener",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TobyMaxham/ux9-api.git",
+                "reference": "407c7743a2f8c9674ea975e8afbd994177d96a13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TobyMaxham/ux9-api/zipball/407c7743a2f8c9674ea975e8afbd994177d96a13",
+                "reference": "407c7743a2f8c9674ea975e8afbd994177d96a13",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TobyMaxham\\Ux9\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "TobyMaxham",
+                    "email": "git2016@maxham.de",
+                    "homepage": "http://maxham.de",
+                    "role": "Development"
+                }
+            ],
+            "description": "The offical UX9 URL Shortener API.",
+            "homepage": "http://ux9.de",
+            "keywords": [
+                "shortener",
+                "tobymaxham",
+                "url",
+                "ux9"
+            ],
+            "time": "2016-03-24T00:15:30+00:00"
+        },
+        {
+            "name": "tzsk/shorten-url",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tzsk/shorten-url.git",
+                "reference": "00385ebc8ebe7cc204f9b96f287daf205f4b57f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tzsk/shorten-url/zipball/00385ebc8ebe7cc204f9b96f287daf205f4b57f7",
+                "reference": "00385ebc8ebe7cc204f9b96f287daf205f4b57f7",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.1",
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0||~5.0",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tzsk\\ShortenUrl\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kazi Mainuddin Ahmed",
+                    "email": "mailtokmahmed@gmail.com",
+                    "homepage": "https://tzsk.github.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Google URL Shortener and Expander for Laravel 5.1 and Above.",
+            "homepage": "https://github.com/tzsk/shorten-url",
+            "keywords": [
+                "shorten-url",
+                "tzsk"
+            ],
+            "time": "2017-10-03T13:10:32+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

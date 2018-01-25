@@ -7,11 +7,13 @@
     "require": {
         "php": ">=5.6.4",
         "guzzlehttp/guzzle": "~6.0",
+        "laravel-junkies/url-shortener": "^1.0",
         "laravel/framework": "5.4.*",
         "laravel/socialite": "^3.0",
         "laravel/tinker": "~1.0",
         "mbarwick83/shorty": "^2.0",
-        "paypal/rest-api-sdk-php": "*"
+        "paypal/rest-api-sdk-php": "*",
+        "tzsk/shorten-url": "^1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

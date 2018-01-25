@@ -6,7 +6,17 @@
 @section('robots', 'noindex, nofollow')
 @section('content')
     <section class="timeline">
-        <div class="col-md-4 col-sm-offset-5">
+        <div class="col-md-1 col-md-offset-1">
+            <br/>
+            <br/>
+            <br/>
+            <a href="{{route('campaign.index')}}" class="btn btn-shoppre">
+                Back
+            </a>
+            <br/>
+            <br/>
+        </div>
+        <div class="col-md-4 col-sm-offset-4">
             <br/>
             <font color="#663399">
                 <h1>Channels List</h1>
