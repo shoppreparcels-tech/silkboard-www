@@ -28,7 +28,7 @@
                             <div class="form-group">
                                 <label>Campaign Name *</label>
                             <select class="form-control select2" name="campaign_id" required>
-                                <option value="">Select Employee</option>
+                                <option value="">Select Campaign</option>
                                 @foreach($campaigns as $campaign)
                                     <option value="{{$campaign->id}}">{{$campaign->name}}({{$campaign->id}})</option>
                                 @endforeach
