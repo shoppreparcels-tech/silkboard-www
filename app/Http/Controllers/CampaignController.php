@@ -8,33 +8,49 @@ use App\CampaignStatistics;
 use Auth;
 use App\Customer;
 use Illuminate\Http\Request;
+use App\GoogleShorten;
+use Mbarwick83\Shorty\Facades\Shorty;
+
 
 class CampaignController extends Controller
 {
-
     public function channelSubmit(Request $request)
     {
-//        $url = "https://www.shoppre.com/"
-//        $gurl = "https://www.googleapis.com/urlshortener/v1/url?key=" . $GLOBALS['google_key'];
-//        $url  = json_encode(array("longUrl" => $url));
-//        $ch   = curl_init();
-//        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-//        curl_setopt($ch, CURLOPT_POST, 1);
-//        curl_setopt($ch, CURLOPT_URL, $gurl);
-//        curl_setopt($ch, CURLOPT_POSTFIELDS, $url);
-//        curl_setopt($ch, CURLOPT_HTTPHEADER, array("Accept: appliaction/json", "Content-Type: application/json"));
-//
-//        $r = json_decode(curl_exec($ch));
-//        return $r->id;
-//      $campaign_employee = new CampaignEmployees();
+
+        $myurl = "https://www.shoppre.com/aboutus";
+
+        $short = Shorty::shorten($myurl);
+
+//        $api = new GoogleShorten\GoogleUrl('AIzaSyA-q8Qz-818FQFHITwTqFti00SNlNzyhjU');
+
+        echo "Shorten Url".$short;
+
+//        echo $api->decode('http://goo.gl/mR2d');
+//        $campaign_employee = new CampaignEmployees();
 //        $campaign_employee->campaign_id	 = $request->campaign_id;
 //        $campaign_employee->channel = $request->channel;
 //        $campaign_employee->employee_id = $request->employee_id;
 //        $campaign_employee->shorten_url ='';
 //        $result = $campaign_employee->save();
-//        echo $result;
-//        exit;
+
+        exit;
     }
+
+    function shorten($url) {
+        $key = "AIzaSyA-q8Qz-818FQFHITwTqFti00SNlNzyhjU";
+        $gurl = "https://www.googleapis.com/urlshortener/v1/url?key=AIzaSyA-q8Qz-818FQFHITwTqFti00SNlNzyhjU";
+        $url  = json_encode(array("longUrl" => $url));
+        $ch   = curl_init();
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_URL, $gurl);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $url);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array("Accept: appliaction/json", "Content-Type: application/json"));
+
+        $r = json_decode(curl_exec($ch));
+        return $r->id;
+    }
+
     public function channelCreate(Request $request)
     {
         $campaign_id = $request->camp_id;

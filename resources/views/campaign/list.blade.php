@@ -36,6 +36,7 @@
                                 <th>Metabase</th>
                                 <th>Github</th>
                                 <th>Edit</th>
+                                <th>Add</th>
                             </tr>
                             </thead>
                             <tfoot>
@@ -49,6 +50,7 @@
                                 <th>Metabase</th>
                                 <th>Github</th>
                                 <th>Edit</th>
+                                <th>Add</th>
                             </tr>
                             </tfoot>
                             <tbody>
@@ -63,7 +65,7 @@
                                 <td><a href="https://pulse.shoppre.com/dashboard/322?id={{$campaign->id}}" target="_blank" class="btn btn-shoppre">View</a></td>
                                 <td><a href="https://pulse.shoppre.com/dashboard/322?id={{$campaign->github_issue_id}}" target="_blank" class="btn btn-shoppre">View</a></td>
                                 <td><a href="{{route('campaignEdit',['id'=>$campaign->id])}}" class="btn btn-shoppre">Edit</a></td>
-                                <td><a href="{{route('channelList',['id'=>$campaign->id])}}" class="btn btn-shoppre">Add channel</a></td>
+                                <td><a href="{{route('channelList',['camp_id'=>$campaign->id])}}" class="btn btn-shoppre">Add channel</a></td>
                             </tr>
                             @endforeach
                             </tbody>

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0fdf5620d9c2f55859784bec50fc90a4",
+    "content-hash": "96e00119496ff24027c6fc99376ddd76",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -818,6 +818,55 @@
                 "twitter"
             ],
             "time": "2016-08-17T00:36:58+00:00"
+        },
+        {
+            "name": "mbarwick83/shorty",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mbarwick83/shorty.git",
+                "reference": "6757437a84727b86ba9c16fc053a565c0a6f2e6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mbarwick83/shorty/zipball/6757437a84727b86ba9c16fc053a565c0a6f2e6f",
+                "reference": "6757437a84727b86ba9c16fc053a565c0a6f2e6f",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.1",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mbarwick83\\Shorty\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Barwick",
+                    "email": "mike@barwickandco.com"
+                }
+            ],
+            "description": "Google Url Shortener API Package for Laravel 5.1",
+            "homepage": "https://github.com/mbarwick83/shorty",
+            "keywords": [
+                "api",
+                "google",
+                "laravel",
+                "shortener",
+                "url"
+            ],
+            "time": "2017-11-02T19:38:17+00:00"
         },
         {
             "name": "monolog/monolog",
