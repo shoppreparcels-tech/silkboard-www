@@ -1283,7 +1283,13 @@ textarea{max-width:100%;}
 .payresponse h2{font-size:32px;}
 .payresponse .wireoption{width:auto;display:inline-block;padding:25px;border:1px solid #fe9625;margin:15px 0;}
 .promoscroll{float:right;width:300px;margin-right:40px;position:relative;}
-.announcescroll{float:right;width:690px;margin-right:40px;position:relative;}
+.announcescroll
+{
+    float: right;
+    width: 600px;
+    margin-right: 13px;
+    position: relative;
+}
 .tickercontainer{width:100%;margin:0;padding:0;overflow:hidden;background-color:rgba(141, 15, 79, 0.54);-webkit-transform:skew(20deg);-moz-transform:skew(20deg);-o-transform:skew(20deg);transform:skew(20deg);border-left:10px solid #fe9625;}
 .tickercontainer .mask{position:relative;left:0;top:0;overflow:hidden;width:100%;}
 ul.newsticker{position:relative;list-style-type:none;margin:0;padding:0;}
