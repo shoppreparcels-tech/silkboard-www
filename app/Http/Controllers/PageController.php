@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\CampaignStatistics;
+use App\CountryCities;
 use App\FlyerUsers;
 use App\Mail\EmailChat;
 use Illuminate\Http\Request;
@@ -175,7 +176,11 @@ class PageController extends Controller
         $initial = $request->initial;
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
         $country = Country::where('slug',$destination)->first();
-
+        if(!$country)
+        {
+            $city = CountryCities::where('slug',$destination)->first();
+            $country = Country::find($city->country_id);
+        }
         if($country)
         {
             $prices_non_doc = ShippingRate::where('min','<=',1.5 )
@@ -221,12 +226,17 @@ class PageController extends Controller
         $initial = $request->initial;
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
         $country = Country::where('slug',$destination)->first();
-        if($country) {
+        if(!$country)
+        {
+            $city = CountryCities::where('slug',$destination)->first();
+            $country = Country::find($city->country_id);
+        }
+        if($country){
             $prices_non_doc = ShippingRate::where('min', '<=', 1.5)
                 ->where('max', '<=', 2.0)
                 ->where('item_type', '=', 'nondoc')
                 ->where('country_id', $country->id)->get();
-            foreach ($prices_non_doc as $key => $field) {
+            foreach ($prices_non_doc as $key => $field){
                 $disamount = ($country->discount / 100) * $field->amount;
                 $prices_non_doc[$key]['amount'] = $disamount;
             }
@@ -240,7 +250,6 @@ class PageController extends Controller
                 $disamount = ($country->discount / 100) * $field->amount;
                 $prices_doc[$key]['amount'] = $disamount;
             }
-
 
             $title = ucwords($initial) . " " . ucwords($content) . " From " . ucwords($source) . " To " . ucwords($destination) . " - " . ucwords($content) . " Delivery " . ucwords($destination) . ".";
             $description = ucwords($initial) . " " . "rakhi, chocolates, sweets, cookies, dress, birthday gifts and more to your friends and family, get delivered to " . ucwords($destination) .
@@ -267,12 +276,17 @@ class PageController extends Controller
         $initial = $request->initial;
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
         $country = Country::where('slug',$destination)->first();
+        if(!$country)
+        {
+            $city = CountryCities::where('slug',$destination)->first();
+            $country = Country::find($city->country_id);
+        }
         if($country) {
             $prices_non_doc = ShippingRate::where('min', '<=', 1.5)
                 ->where('max', '<=', 2.0)
                 ->where('item_type', '=', 'nondoc')
                 ->where('country_id', $country->id)->get();
-            foreach ($prices_non_doc as $key => $field) {
+            foreach ($prices_non_doc as $key => $field){
                 $disamount = ($country->discount / 100) * $field->amount;
                 $prices_non_doc[$key]['amount'] = $disamount;
             }
