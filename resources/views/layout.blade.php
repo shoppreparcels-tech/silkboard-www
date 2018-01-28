@@ -41,7 +41,7 @@
     <meta property="al:android:package" content="com.shoppre.play" />
     <meta property="al:android:app_name" content="Shoppre - International Shipping from India" />
     <meta name="msvalidate.01" content="0E25F147AD9B658B4418A996E97D0D7D"/>
-    <!-- Schema markup -->
+    
 @yield('schema_markup')
 <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
