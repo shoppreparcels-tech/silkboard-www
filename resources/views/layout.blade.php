@@ -34,6 +34,12 @@
 
 
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link rel="publisher" href="https://plus.google.com/101070316798366909776/">
+    <meta name="google-play-app" content="app-id=com.shoppre.play" />
+    <meta property="fb:app_id" content="1819630241632764" />
+    <meta property="al:android:url" content="https://www.shoppre.com/" />
+    <meta property="al:android:package" content="com.shoppre.play" />
+    <meta property="al:android:app_name" content="Shoppre - International Shipping from India" />
     <meta name="msvalidate.01" content="0E25F147AD9B658B4418A996E97D0D7D"/>
     <!-- Schema markup -->
 @yield('schema_markup')
