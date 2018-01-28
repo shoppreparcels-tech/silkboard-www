@@ -9,6 +9,40 @@
 <!-- Select2 -->
 <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
 <link href="{{asset('css/star-rating.min.css')}}" rel="stylesheet"/>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Shoppre",
+  "alternateName": "Borderless Shipping From India, Shoppre.com",
+  "url": "https://www.shoppre.com/",
+  "logo": "https://www.shoppre.com/img/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91 80409 44077",
+    "contactType": "customer service"
+  },
+  "sameAs": [
+    "https://www.facebook.com/goshoppre",
+    "https://twitter.com/Go_Shoppre",
+    "https://plus.google.com/+SHOPPRECOM",
+    "https://www.instagram.com/shoppre_official",
+    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+    "https://www.linkedin.com/company/17945446",
+    "https://in.pinterest.com/shoppre",
+    "https://play.google.com/store/apps/details?id=com.shoppre.play",          
+    "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
+  ],
+  "aggregateRating": {
+    "@type" : "AggregateRating",
+    "bestRating": "5",
+    "ratingValue" : "4.9",
+    "reviewCount" : "10",
+    "worstRating" : 3.5
+  }
+}
+</script>
+
 @endsection
 
 @section('content')
