@@ -1,14 +1,14 @@
 <header>
-    {{--<div class="mo_login">--}}
-    {{--@if(!Auth::guard('customer')->check())--}}
-    {{--<a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login"><i class="fa fa-unlock-alt"></i> Login</a>--}}
-    {{--<a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register"><i class="fa fa-user"></i> Signup</a>--}}
-    {{--@else--}}
-    {{--<a href="javascript:void(0)"><i class="fa fa-user"></i> My Locker</a>--}}
-    {{--<a href="{{route('customer.logout')}}"><i class="fa fa-lock"></i> Logout</a>--}}
-    {{--@endif--}}
-    {{--<div class="clearfix"></div>--}}
-    {{--</div>--}}
+    <div class="mo_login">
+    @if(!Auth::guard('customer')->check())
+    <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login"><i class="fa fa-unlock-alt"></i> Login</a>
+    <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register"><i class="fa fa-user"></i> Signup</a>
+    @else
+    <a href="javascript:void(0)"><i class="fa fa-user"></i> My Locker</a>
+    <a href="{{route('customer.logout')}}"><i class="fa fa-lock"></i> Logout</a>
+    @endif
+    <div class="clearfix"></div>
+    </div>
     <nav class="navbar navbar-top">
         <div class="container-fluid">
             <div class="collapse navbar-collapse">
