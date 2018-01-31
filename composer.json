@@ -13,6 +13,7 @@
         "laravel/tinker": "~1.0",
         "mbarwick83/shorty": "^2.0",
         "paypal/rest-api-sdk-php": "*",
+        "sentry/sentry-laravel": "^0.8.0",
         "tzsk/shorten-url": "^1.0"
     },
     "require-dev": {

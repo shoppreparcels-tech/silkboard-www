@@ -179,6 +179,8 @@ return [
         /*=== Socialite Service Provider ===*/
         Laravel\Socialite\SocialiteServiceProvider::class,
 
+        Sentry\SentryLaravel\SentryLaravelServiceProvider::class,
+
     ],
 
     /*
@@ -228,5 +230,6 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+        'Sentry' => Sentry\SentryLaravel\SentryFacade::class,
     ],
 ];
