@@ -179,7 +179,10 @@ class PageController extends Controller
         if(!$country)
         {
             $city = CountryCities::where('slug',$destination)->first();
-            $country = Country::find($city->country_id);
+            if ($city)
+            {
+                $country = Country::find($city->country_id);
+            }
         }
         if($country)
         {
@@ -229,7 +232,10 @@ class PageController extends Controller
         if(!$country)
         {
             $city = CountryCities::where('slug',$destination)->first();
-            $country = Country::find($city->country_id);
+            if ($city)
+            {
+                $country = Country::find($city->country_id);
+            }
         }
         if($country){
             $prices_non_doc = ShippingRate::where('min', '<=', 1.5)
@@ -265,7 +271,6 @@ class PageController extends Controller
         {
             return redirect(route('home'));
         }
-
     }
     public function urlTargetContent(Request $request)
     {
@@ -279,7 +284,10 @@ class PageController extends Controller
         if(!$country)
         {
             $city = CountryCities::where('slug',$destination)->first();
-            $country = Country::find($city->country_id);
+            if ($city)
+            {
+                $country = Country::find($city->country_id);
+            }
         }
         if($country) {
             $prices_non_doc = ShippingRate::where('min', '<=', 1.5)
