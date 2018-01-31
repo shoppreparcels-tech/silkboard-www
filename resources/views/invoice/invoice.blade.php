@@ -32,14 +32,6 @@
 
   </div>
   <table id="items">
-    {{--<tr>--}}
-      {{--<th>Item</th>--}}
-      {{--<th>Description</th>--}}
-      {{--<th>Unit Cost</th>--}}
-      {{--<th>Quantity</th>--}}
-      {{--<th>Price</th>--}}
-    {{--</tr>--}}
-
     <tr id="hiderow">
       <td colspan="5" style="text-align: center;"><h3>Proforma Invoice</h3></td>
     </tr>
