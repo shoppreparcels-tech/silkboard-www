@@ -95,6 +95,7 @@ class CampaignController extends Controller
             $campaign->image = $name;
             $campaign->name = $request->name;
             $campaign->coupon_code = $request->coupon_code;
+            $campaign->cashback = $request->cashback;
             $campaign->begin_date = $begin_date;
             $campaign->end_date = $end_date;
             $campaign->comment = $request->comment;
@@ -104,6 +105,7 @@ class CampaignController extends Controller
         {
             $campaign->name = $request->name;
             $campaign->coupon_code = $request->coupon_code;
+            $campaign->cashback = $request->cashback;
             $campaign->begin_date = $begin_date;
             $campaign->end_date = $end_date;
             $campaign->comment = $request->comment;

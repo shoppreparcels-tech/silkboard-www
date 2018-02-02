@@ -18,16 +18,16 @@
                 @endif
                 @if(!empty($campaign_detail->coupon_code))
                 <div class="left-space">
-                    <h2><b>14% Cashback</b></h2>
+                    <h2><b>{{$campaign_detail->cashback}}% Cashback</b></h2>
                     <p>Use Promo Code: <span class="promo">{{$campaign_detail->coupon_code}}</span>
-                        to avail 14% Cashback
+                        to avail {{$campaign_detail->cashback}}% Cashback
                     </p>
                     @if(!empty($campaign_detail->end_date))
                     <h4>Expires On: <span class="exp_date">{{date('d-m-Y', strtotime($campaign_detail->end_date))}}</span></h4>
                     @endif
                     <h3>Terms and conditions for promo code:</h3>
                     <ul class="left-space">
-                        <li>Get 14% cashback.</li>
+                        <li>Get {{$campaign_detail->cashback}}% cashback.</li>
                         <li>Cashback Will be used in next shipment.</li>
                     </ul>
                 </div>
@@ -38,7 +38,7 @@
     <!-- Select2 -->
     <script src="{{asset('js/select2.min.js')}}"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
+        $(document).ready(function (){
             $(".select2").select2();
         });
     </script>

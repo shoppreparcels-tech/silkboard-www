@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Campaign extends Model
 {
     //
-    protected $fillable = ['customer_id', 'name', 'comment', 'github_url', 'coupon_code','type', 'image', 'begin_date', 'end_date'];
+    protected $fillable = ['customer_id', 'name', 'comment', 'github_url', 'coupon_code','cashback','type', 'image', 'begin_date', 'end_date'];
 }

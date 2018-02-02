@@ -58,6 +58,15 @@
                     <div class="row">
                         <div class="col-md-8 col-sm-offset-2">
                             <div class="form-group">
+                                <label>Cashback(%)</label>
+                                <input type="text" class="form-control" name="cashback" placeholder="Enter Cashback Value">
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-sm-offset-2">
+                            <div class="form-group">
                                 <label>Coupon Begin Date</label>
                                 <div class="rating-star">
                                     <input class="form-control" type="date"  name="begin_date" >
