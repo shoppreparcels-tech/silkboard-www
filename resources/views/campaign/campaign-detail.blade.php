@@ -18,16 +18,16 @@
                 @endif
                 @if(!empty($campaign_detail->coupon_code))
                 <div class="left-space">
-                    <h2><b>10% Cashback</b></h2>
+                    <h2><b>14% Cashback</b></h2>
                     <p>Use Promo Code: <span class="promo">{{$campaign_detail->coupon_code}}</span>
-                        to avail 10% Cashback
+                        to avail 14% Cashback
                     </p>
                     @if(!empty($campaign_detail->end_date))
                     <h4>Expires On: <span class="exp_date">{{date('d-m-Y', strtotime($campaign_detail->end_date))}}</span></h4>
                     @endif
                     <h3>Terms and conditions for promo code:</h3>
                     <ul class="left-space">
-                        <li>Get 10% cashback.</li>
+                        <li>Get 14% cashback.</li>
                         <li>Cashback Will be used in next shipment.</li>
                     </ul>
                 </div>
