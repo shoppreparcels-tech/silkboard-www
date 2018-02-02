@@ -22,6 +22,7 @@
             <li><a href="{{route('partner')}}">Become a Partner</a></li>
             <li><a href="{{route('reviews')}}">Shoppre Reviews</a></li>
             <li><a href="{{route('pricing')}}">Shipping and Pricing for your country</a></li>
+            <li><a href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>
           </ul>
         </div>
         <div class="col-sm-3">
