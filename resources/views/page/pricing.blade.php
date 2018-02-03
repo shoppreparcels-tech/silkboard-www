@@ -480,7 +480,7 @@
                             <td>Package Return Services <a href="#" class="tooltipkey"
                                                            title="Once the item arrives at our facility, if you feel the item is not as per your expectation or is damaged, it can be exchanged/returned to the seller (as per the seller exchange/return policy). You will be responsible for all return shipping fees as well (if needed). If it has to be couriered to sender’s destination by Shoppre, charges as per domestic shipping rates will be considered."><i
                                             class="fa fa-question-circle-o"></i></a></td>
-                            <td class="cell-2">INR 100</td>
+                            <td class="cell-2">INR 400</td>
                         </tr>
                         <tr>
                             <td>Shoppre Shipping Guarantee <a href="#" class="tooltipkey"

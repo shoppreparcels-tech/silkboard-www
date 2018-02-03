@@ -23,7 +23,8 @@
         <br/>
         <font size="4">
             <div class="container"  style="background-color: whitesmoke">
-                <form class="form-horizontal" method="post" action="{{route('campaign.editSubmit')}}" enctype="multipart/form-data">
+                <form class="form-horizontal" method="post" action="{{route('campaign.editSubmit')}}"
+                      enctype="multipart/form-data">
                     {{ csrf_field() }}
                     <div class="feedback-container">
                         <div class="row">
@@ -79,7 +80,8 @@
                                     <label>Coupon Begin Date</label>
                                     <div class="rating-star">
                                         <input class="form-control" type="text"
-                                               placeholder="{{$campaign->begin_date}}" onfocus="(this.type='date')" name="begin_date" >
+                                               placeholder="{{$campaign->begin_date}}" onfocus="(this.type='date')"
+                                               name="begin_date" >
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>
@@ -91,7 +93,8 @@
                                     <label>Coupon End Date</label>
                                     <div class="rating-star">
                                         <input class="form-control" type="text"
-                                               placeholder="{{$campaign->end_date}}" onfocus="(this.type='date')" name="end_date" >
+                                               placeholder="{{$campaign->end_date}}" onfocus="(this.type='date')"
+                                               name="end_date" >
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>
@@ -113,8 +116,12 @@
                                     <label>Campaign Type *</label>
                                     <select class="form-control select2" name="type" >
                                         <option value="">Select Campaign</option>
-                                        <option value="login" {{$campaign->type == "login" ? 'selected' : ""}}>Login</option>
-                                        <option value="flyer" {{$customer->id == "flyer" ? 'selected' : ""}}>Flyer</option>
+                                        <option value="login" {{$campaign->type == "login" ? 'selected' : ""}}>
+                                            Login
+                                        </option>
+                                        <option value="flyer" {{$customer->id == "flyer" ? 'selected' : ""}}>
+                                            Flyer
+                                        </option>
                                     </select>
                                 </div>
                                 <div class="clearfix"></div>
