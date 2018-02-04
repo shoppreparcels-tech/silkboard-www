@@ -3,10 +3,10 @@
 @section('title', 'Shoppre Offers')
 @section('description', 'Use this promo code to avail your offer')
 @section('keywords', 'shipment, suggestion, feedback, information, form')
-@section('robots', 'noindex, nofollow')
+
 @section('css_style')
     <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
-    <link href="{{asset('css/star-rating.min.css')}}" rel="stylesheet"/>
+    <meta name="robots" content="noindex,nofollow"/>
 @endsection
 @section('content')
             <div class="coupon_cashback">

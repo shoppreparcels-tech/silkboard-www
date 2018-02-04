@@ -17,7 +17,6 @@
             <li><a href="{{route('howitworks')}}">How Shoppre Works</a></li>
             <li><a href="{{route('services')}}">Our Services</a></li>
             <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/loyalty-points">Shoppre Loyalty Points</a></li>
-            {{--<li><a href="javascript::void(0)">Country Guides</a></li>--}}
             <li><a href="{{route('stores')}}">Browse Categories</a></li>
             <li><a href="{{route('partner')}}">Become a Partner</a></li>
             <li><a href="{{route('reviews')}}">Shoppre Reviews</a></li>
@@ -28,9 +27,7 @@
         <div class="col-sm-3">
           <ul class="foot_menu">
             <li><a href="{{route('about')}}">About Shoppre</a></li>
-            {{--<li><a href="#">Careers at Shoppre.com</a></li>--}}
             <li><a href="{{route('contact')}}">Contact us</a></li>
-            {{--<li><a href="https://blog.shoppre.com" target="_blank">Blogs</a></li>--}}
             <li><a href="{{route('feedback.Index')}}">Feedback</a></li>
             <li><a href="{{route('termsAndConditions')}}">Terms & Conditions</a></li>
             <li><a href="{{route('privacyPolicy')}}">Privacy Policy</a></li>

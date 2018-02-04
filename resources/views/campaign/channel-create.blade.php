@@ -3,10 +3,11 @@
 @section('title', 'Campaign')
 @section('description', 'How we are doing? Regarding your most recent shipment received through Shoppre.com, please leave your feedback, suggestion and provide us more information.')
 @section('keywords', 'shipment, suggestion, feedback, information, form')
-@section('robots', 'noindex, nofollow')
+
 @section('css_style')
     <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/star-rating.min.css')}}" rel="stylesheet"/>
+    <meta name="robots" content="noindex,nofollow"/>
 @endsection
 @section('content')
     <section class="timeline  section-border">

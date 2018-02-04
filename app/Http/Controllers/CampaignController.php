@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Campaign;
 use App\CampaignEmployees;
-use App\CampaignStatistics;
 use Auth;
 use App\Customer;
 use Illuminate\Http\Request;
@@ -86,7 +85,6 @@ class CampaignController extends Controller
             $end_date = $request->end_date;
         }
 
-//
         if ($request->hasFile('image')) {
             $image = $request->file('image');
             $name = time() . '.' . $image->getClientOriginalExtension();
@@ -149,11 +147,7 @@ class CampaignController extends Controller
     public function index()
     {
         $campaigns = Campaign::orderBy('id', 'desc')
-//                       ->join('customers', 'customers.id', '=', 'campaigns.customer_id')
-//                       ->select('customers.name as cname', 'campaigns.name', 'campaigns.coupon_code','campaigns.begin_date')
             ->get();
-//          echo $campaigns;
-//          exit;
         return view('campaign.list')->with(['campaigns' => $campaigns]);
     }
 }
