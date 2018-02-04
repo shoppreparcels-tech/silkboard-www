@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Shoppre - Shop Online from India and Ship Worldwide')
-@section('description', 'Shoppre is a parcel forwarding company which allows your packages to ship from India to worldwide starting at ₹466 only and reaches within 2-4 working days!')
-@section('keywords', 'parcel forwarding company, borderless shipping from india, personal shipping indian address, fast, cheap, hassle free, shoppre')
+@section('title', 'Borderless Shipping: Parcel Delivery | Courier Services | Shoppre India')
+@section('description', 'Shoppre leading provider of parcel delivery company in India. Shipping your items to worldwide & reaches within 2-5 working days, save 60-80% on shipping cost.')
+@section('keywords', 'parcel forwarding company, borderless shipping from india, personal shipping indian address, parcel delivery, courier services, shoppre')
 
 @section('css_style')
 	<!-- Owl Carousel -->
