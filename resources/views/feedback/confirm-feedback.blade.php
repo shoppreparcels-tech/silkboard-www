@@ -3,7 +3,10 @@
 @section('title', 'Thank you for your Feedback - Shoppre.com')
 @section('description', 'Thank you for your Feedback.')
 
-@section('robots', 'noindex, nofollow')
+@section('css_style')
+    <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
+    <meta name="robots" content="noindex,nofollow"/>
+@endsection
 
 @section('content')
     <section class="timeline">

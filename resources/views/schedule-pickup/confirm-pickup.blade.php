@@ -2,7 +2,10 @@
 
 @section('title', 'Confirm Schedule Pickup - Shoppre.com')
 @section('description', 'Your pickup request completed Successfully.')
-@section('robots', 'noindex, nofollow')
+@section('css_style')
+    <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
+    <meta name="robots" content="noindex,nofollow"/>
+@endsection
 
 @section('content')
     <section class="timeline">

@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')">
-    @if(Request::url() ==='https://www.shoppre.com/schedule-pickup/confirm' || Request::url() === 'https://www.shoppre.com/feedback/confirm' || Request::url() === 'https://www.shoppre.com/chat-email' || Request::url() === 'https://www.shoppre.com/chat-email/confirm' || Request::url() === 'https://www.shoppre.com/shipments' || Request::url() === 'https://www.shoppre.com/campaigns')
-        <meta name="robots" content="@yield('robots')"/>
-    @else
-        <meta name="robots" content="noydir, noodp"/>
-    @endif
+    {{--@if(Request::url() ==='https://www.shoppre.com/schedule-pickup/confirm' || Request::url() === 'https://www.shoppre.com/feedback/confirm' || Request::url() === 'https://www.shoppre.com/chat-email' || Request::url() === 'https://www.shoppre.com/chat-email/confirm' || Request::url() === 'https://www.shoppre.com/shipments' || Request::url() === 'https://www.shoppre.com/campaigns')--}}
+        {{--<meta name="robots" content="@yield('robots')"/>--}}
+    {{--@else--}}
+        {{--<meta name="robots" content="noydir, noodp"/>--}}
+    {{--@endif--}}
     <meta name="keywords" content="@yield('keywords')">
     <link rel="shortcut icon" href="{{asset('img/favicon.png')}}">
     <link rel="icon" type="image/png" href="{{asset('img/favicon.png')}}" sizes="60x60">
