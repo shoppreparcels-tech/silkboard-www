@@ -1,18 +1,142 @@
 @extends('layout')
 
-@section('title', 'Shoppre - Shop Online from India and Ship Worldwide')
-@section('description', 'Shoppre is a parcel forwarding company which allows your packages to ship from India to worldwide starting at ₹466 only and reaches within 2-4 working days!')
-@section('keywords', 'parcel forwarding company, borderless shipping from india, personal shipping indian address, fast, cheap, hassle free, shoppre')
+@section('title', 'Borderless Shipping: Parcel Delivery | Courier Services | Shoppre India')
+@section('description', 'Shoppre leading provider of parcel delivery company in India. Shipping your items to worldwide & reaches within 2-5 working days, save 60-80% on shipping cost.')
+@section('keywords', 'parcel forwarding company, borderless shipping from india, personal shipping indian address, parcel delivery, courier services, shoppre')
 
 @section('css_style')
 	<!-- Owl Carousel -->
   <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
   <!-- Magnific Popup -->
   <link rel="stylesheet" href="css/magnific-popup.css">
+  <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "name": "Borderless Shipping: Parcel Delivery & Courier Services | Shoppre India",
+    "description": "Shoppre leading provider of parcel delivery company in India. Shipping your items to worldwide & reaches within 2-5 working days, save 60-80% on shipping cost.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shoppre.com/img/logo.png",
+        "width": "878",
+        "height": "264" 
+    },
+    "url": "https://www.shoppre.com/",
+    "mainEntityOfPage": "https://www.shoppre.com",
+    "inLanguage": "en_IN",
+    "headline": "Borderless Shipping: Parcel Delivery & Courier Services | Shoppre India",
+    "keywords": "Borderless Shipping From India, Shipping Partner, Parcel Delivery, Courier Services",
+    "copyrightYear": "2018",
+    "author": {
+        "@type": "Organization",
+        "name": "Shoppre",
+        "url": "https://www.shoppre.com",
+        "sameAs": ["https://twitter.com/Go_Shoppre","https://www.facebook.com/goshoppre","https://plus.google.com/+SHOPPRECOM","https://www.linkedin.com/company/17945446","https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw","https://www.instagram.com/shoppre_official","https://www.pinterest.com/shoppre","https://play.google.com/store/apps/details?id=com.shoppre.play", "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"],
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.shoppre.com/img/logo.png",
+            "height": "264",
+            "width": "878" 
+        },
+        "telephone": "+91 80409 44077",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "#181, 1st Floor, 2nd Cross Rd,
+1st Block Koramangala",
+            "addressLocality": "Bengaluru",
+            "addressRegion": "Karnataka",
+            "postalCode": "560034",
+            "addressCountry": "IN" 
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Shoppre.com",
+            "hasMap": "https://www.google.co.in/maps/place/Shoppre.com+-+Your+Global+Shipping+Partner/",
+            "telephone": "+91 80409 44077",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "12.9257998",
+                "longitude": "77.6332563" 
+                   }
+            }
+       }
+  }     
+       
+</script>
+ 
+ <script type="application/ld+json">
+ { "@context": "http://schema.org",
+ "@type": "Organization",
+ "name": "Shoppre",
+ "legalName" : "IndianShoppre LLP",
+ "url": "https://www.shoppre.com",
+ "logo": "https://www.shoppre.com/img/logo.png",
+ "foundingDate": "2016",
+ "founders": [
+ {
+ "@type": "Person",
+ "name": "Saira Asif Hassan"
+ },
+ {
+ "@type": "Person",
+ "name": "Nikkitha Shanker"
+ } ],
+ "address": {
+ "@type": "PostalAddress",
+ "streetAddress": "No.181, 1st Floor, 2nd Cross Rd, 1st Block Koramangala",
+ "addressLocality": "Bengaluru",
+ "addressRegion": "Karnataka",
+ "postalCode": "560034",
+ "addressCountry": "IN"
+ },
+ "contactPoint": {
+ "@type": "ContactPoint",
+ "contactType": "customer support",
+ "telephone": "[+918040944077]",
+ "email": "support@shoppre.com"
+ },
+ "sameAs": [ 
+    "https://www.facebook.com/goshoppre",
+    "https://twitter.com/Go_Shoppre",
+    "https://plus.google.com/+SHOPPRECOM",
+    "https://www.instagram.com/shoppre_official",
+    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+    "https://www.linkedin.com/company/17945446",
+    "https://in.pinterest.com/shoppre",
+    "https://play.google.com/store/apps/details?id=com.shoppre.play",                   "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
+ ]}
+</script>
+
+<script type='application/ld+json'> 
+{
+  "@context": "http://www.schema.org",
+  "@type": "Website",
+  "name": "Shoppre",
+  "alternateName": "Borderless Shipping From India, Shoppre.com",
+  "url": "https://www.shoppre.com",
+  "image": "https://www.shoppre.com/img/logo.png",
+  "description": "Shoppre leading provider of parcel delivery company in India. Shipping your items to worldwide & reaches within 2-5 working days, save 60-80% on shipping cost.",
+    "sameAs": [
+    "https://www.facebook.com/goshoppre/",
+    "https://twitter.com/Go_Shoppre",
+    "https://plus.google.com/+SHOPPRECOM",
+    "https://www.instagram.com/shoppre_official",
+    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+    "https://www.linkedin.com/company/17945446",
+    "https://in.pinterest.com/shoppre",
+    "https://play.google.com/store/apps/details?id=com.shoppre.play",   
+    "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
+  ]
+}
+ </script>
+
+
 @endsection
 
 <!-- schema markup -->
 @section('schema_markup')
+
+
 
 @endsection
 
