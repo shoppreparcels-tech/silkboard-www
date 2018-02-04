@@ -9,12 +9,7 @@
   <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
   <!-- Magnific Popup -->
   <link rel="stylesheet" href="css/magnific-popup.css">
-@endsection
-
-<!-- schema markup -->
-@section('schema_markup')
-
-<script type="application/ld+json">
+  <script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebPage",
@@ -68,6 +63,12 @@
   }     
        
 </script>
+@endsection
+
+<!-- schema markup -->
+@section('schema_markup')
+
+
 
 @endsection
 
