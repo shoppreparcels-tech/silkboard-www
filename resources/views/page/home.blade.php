@@ -63,16 +63,6 @@
   }     
        
 </script>
-
-<script type='application/ld+json'> 
-{
-  "@context": "http://www.schema.org",
-  "@type": "WebSite",
-  "name": "Shoppre",
-  "alternateName": "Shipping From India",
-  "url": "https://www.shoppre.com/"
-}
- </script>
  
  <script type="application/ld+json">
  { "@context": "http://schema.org",
