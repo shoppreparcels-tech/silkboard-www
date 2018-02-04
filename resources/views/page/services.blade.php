@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Shoppre Services - Shop Online From India. Ship Worldwide')
-@section('description', 'Enjoy a fast and worry-free shipping experience with Shoppre industry-leading expertise, and unmatched member service. Simply Sign-up and Buy Now!')
-@section('keywords', 'fast, worry-free shipping experience, industry-leading expertise, unmatched member service, simply sign-up, buy now')
+@section('title', 'Shoppre Services | Personal Shopper | Shop & Ship Worldwide')
+@section('description', 'Enjoy fast and worry-free shipping experience. Our Personal Shopper will purchase the item on your behalf, using our Indian local card. Sign-up, Buy & Ship Now!')
+@section('keywords', 'fast, worry-free shipping experience, personal shopper, ship worldwide, simply sign-up, buy now')
 
 @section('content')
 
