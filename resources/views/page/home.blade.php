@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title', 'Borderless Shipping: Parcel Delivery | Courier Services | Shoppre India')
-@section('description', 'Shoppre India's leading provider of parcel delivery company. Shipping your items to worldwide & reaches within 2-5 working days, save 60-80% on shipping cost.')
+@section('description', 'Shoppre Indias leading provider of parcel delivery company. Shipping your items to worldwide & reaches within 2-5 working days, save 60-80% on shipping cost.')
 @section('keywords', 'parcel forwarding company, borderless shipping from india, personal shipping indian address, courier services, parcel delivery, shoppre')
 
 @section('css_style')
