@@ -51,6 +51,7 @@
                                     <option value="linkedin">Linked In</option>
                                     <option value="twitter">Twitter</option>
                                     <option value="website">Website</option>
+                                    <option value="instagram">Instagram</option>
                                 </select>
                             </div>
                         </div>
