@@ -40,7 +40,7 @@
                     <div class="promoscroll">
                         <ul id="liticker">
                             @foreach($promos as $promo)
-                                <li><a href="https://goo.gl/5Wy35T" target="_blank">{{$promo->title}} - <span>{{$promo->code}}</span></a></li>
+                                <li><a href="{{$promo->url}}" target="_blank">{{$promo->title}} - <span>{{$promo->code}}</span></a></li>
                             @endforeach
                         </ul>
                     </div>
