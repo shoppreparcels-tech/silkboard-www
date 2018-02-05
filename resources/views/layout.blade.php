@@ -7,31 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')">
-    {{--@if(Request::url() ==='https://www.shoppre.com/schedule-pickup/confirm' || Request::url() === 'https://www.shoppre.com/feedback/confirm' || Request::url() === 'https://www.shoppre.com/chat-email' || Request::url() === 'https://www.shoppre.com/chat-email/confirm' || Request::url() === 'https://www.shoppre.com/shipments' || Request::url() === 'https://www.shoppre.com/campaigns')--}}
-        {{--<meta name="robots" content="@yield('robots')"/>--}}
-    {{--@else--}}
-        {{--<meta name="robots" content="noydir, noodp"/>--}}
-    {{--@endif--}}
     <meta name="keywords" content="@yield('keywords')">
     <link rel="shortcut icon" href="{{asset('img/favicon.png')}}">
     <link rel="icon" type="image/png" href="{{asset('img/favicon.png')}}" sizes="60x60">
-
     <!-- Bootstrap -->
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css">
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- Progress Circle -->
     <link href="{{asset('css/txtProgress.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/style1.css')}}" rel="stylesheet">
     <link href="{{asset('css/print.css')}}" rel="stylesheet">
     @yield('css_style')
-
 
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
     <link rel="publisher" href="https://plus.google.com/101070316798366909776/">

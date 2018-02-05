@@ -23,12 +23,17 @@
                         to avail {{$campaign_detail->cashback}}% Cashback
                     </p>
                     @if(!empty($campaign_detail->end_date))
-                    <h4>Expires On: <span class="exp_date">{{date('d-m-Y', strtotime($campaign_detail->end_date))}}</span></h4>
+                    <h4>Expires On: <span class="exp_date">{{date('d-m-Y', strtotime($campaign_detail->end_date))}}
+                        </span></h4>
                     @endif
                     <h3>Terms and conditions for promo code:</h3>
                     <ul class="left-space">
                         <li>Get {{$campaign_detail->cashback}}% cashback.</li>
-                        <li>Cashback Will be used in next shipment.</li>
+                        <li>Maximum cash back that can be availed by a customer is Rs. 1000.</li>
+                        <li>This offer cannot be clubbed with any other offer.</li>
+                        <li>The cash back would be credited in your Shoppre wallet within 24 hours once shipment
+                            delivered.</li>
+                        <li>A customer can avail this offer only once during the offer period.</li>
                     </ul>
                 </div>
                 @endif
