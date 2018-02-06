@@ -393,7 +393,7 @@
                                 <a href="#" class="tooltipkey" title="Receive your own Locker space in
                                 Bengaluru as soon as you sign up with Shoppre! Use the Shipping Address
                                 given to you to shop from ANY Indian Online Store.">
-                                    <i>class="fa fa-question-circle-o"></i>
+                                    <i class="fa fa-question-circle-o"></i>
                                 </a>
                             </td>
                             <td class="cell-2">Free</td>
