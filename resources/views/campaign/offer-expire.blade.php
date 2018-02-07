@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title', 'Shoppre Offers')
-@section('description', 'Use this promo code to avail your offer')
+@section('description', 'This offer is not available')
 @section('keywords', 'shipment, suggestion, feedback, information, form')
 
 @section('css_style')
