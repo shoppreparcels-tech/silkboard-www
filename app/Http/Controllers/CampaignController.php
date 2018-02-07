@@ -8,10 +8,16 @@ use Auth;
 use App\Customer;
 use Illuminate\Http\Request;
 use App\GoogleUrl\GoogleShortUrl;
+use Carbon\Carbon;
 
 
 class CampaignController extends Controller
 {
+    public function expireOffer()
+    {
+             return view('campaign.offer-expire');
+    }
+
     public function channelSubmit(Request $request)
     {
         $campaign = Campaign::find($request->campaign_id);
@@ -22,7 +28,7 @@ class CampaignController extends Controller
         $campaign_employee->channel = $request->channel;
         $campaign_employee->employee_id = $request->employee_id;
         $campaign_employee->actual_url = $myurl;
-        $campaign_employee->shorten_url =$short_url;
+        $campaign_employee->shorten_url = $short_url;
         $result = $campaign_employee->save();
         return redirect(route('channelList',['camp_id'=>$request->campaign_id]));
     }
@@ -46,20 +52,33 @@ class CampaignController extends Controller
     {
         $cname = $request->cname;
         $url = $request->fullUrl();
+        $today_date = Carbon::now();
 
         $campaign_detail = Campaign::where('slug',$request->cname)->first();
-
-        return view('campaign.campaign-detail')->with(['campaign_detail'=>$campaign_detail]);
+        if($campaign_detail->end_date >= $today_date)
+        {
+            return view('campaign.campaign-detail')->with(['campaign_detail'=>$campaign_detail]);
+        }
+        else
+        {
+            return redirect(route('offerExpire'));
+        }
     }
     public function campaignDetail(Request $request)
     {
-
         $cname = $request->cname;
         $url = $request->fullUrl();
+        $today_date = Carbon::now();
 
         $campaign_detail = Campaign::where('slug',$request->cname)->first();
-
-        return view('campaign.campaign-detail')->with(['campaign_detail'=>$campaign_detail]);
+        if($campaign_detail->end_date >= $today_date)
+        {
+            return view('campaign.campaign-detail')->with(['campaign_detail'=>$campaign_detail]);
+        }
+        else
+        {
+            return redirect(route('offerExpire'));
+        }
     }
 
     public function editSubmit(Request $request)

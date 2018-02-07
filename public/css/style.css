@@ -13,9 +13,23 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.promo {
+
+.promo
+{
     background: #ccc;
     padding: 3px;
+}
+
+.head_color_ex
+{
+    color: red;
+}
+
+.head_align
+{
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 10%;
 }
 
 .expire {
