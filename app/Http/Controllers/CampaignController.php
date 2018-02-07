@@ -55,7 +55,7 @@ class CampaignController extends Controller
         $today_date = Carbon::now();
 
         $campaign_detail = Campaign::where('slug',$request->cname)->first();
-        if($campaign_detail->end_date >= $today_date)
+        if($campaign_detail->end_date >= $today_date->subDays(1))
         {
             return view('campaign.campaign-detail')->with(['campaign_detail'=>$campaign_detail]);
         }
@@ -71,7 +71,7 @@ class CampaignController extends Controller
         $today_date = Carbon::now();
 
         $campaign_detail = Campaign::where('slug',$request->cname)->first();
-        if($campaign_detail->end_date >= $today_date)
+        if($campaign_detail->end_date >= $today_date->subDays(1))
         {
             return view('campaign.campaign-detail')->with(['campaign_detail'=>$campaign_detail]);
         }
