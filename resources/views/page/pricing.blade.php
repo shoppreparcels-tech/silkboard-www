@@ -474,7 +474,7 @@
                                     <i class="fa fa-question-circle-o"></i>
                                 </a>
                             </td>
-                            <td class="cell-2">Free upto 20 days <span>(INR 100 for every extra day)</span></td>
+                            <td class="cell-2">Free upto 20 days <span>(INR 50 for every extra day)</span></td>
                         </tr>
                         <tr>
                             <td>Package Photo Service
