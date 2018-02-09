@@ -22,7 +22,12 @@ class AppServiceProvider extends ServiceProvider
         View::composer('*', 'App\Http\ViewComposers\GlobalComposer');
         $promos = PromoCode::where('featured', '1')->whereDate('validity', '>=', date('Y-m-d'))->get();
         $announcements = Announcement::where('featured', '1')->whereDate('validity', '>=', date('Y-m-d'))->first();
-        $home_campaign = Campaign::where('type', 'login')->first();
+        $home_campaign = Campaign::orderBy('name','desc')
+        ->join('campaign_employees','campaigns.id','=','campaign_employees.campaign_id' )
+        ->where('campaign_employees.channel','=','website')
+        ->where('type', 'login')->first();
+//        echo $home_campaign;
+//        exit;
         View::share(['promos'=>$promos,'announcements'=>$announcements,'home_campaign'=>$home_campaign]);
     }
     /**
