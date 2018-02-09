@@ -486,7 +486,7 @@
                                                          Documents: We can scan your documents (2 kgs and below)
                                                           for a cost of INR 40/page (minimum INR 100).">
                                     <i class="fa fa-question-circle-o"></i></a></td>
-                            <td class="cell-2">INR 100 (Basic Photos)<br><span>INR 500 (Additional Photos)</span></td>
+                            <td class="cell-2">INR 50 (Basic Photos)<br><span>INR 500 (Additional Photos)</span></td>
                         </tr>
                         <tr>
                             <td>Personal Shopper Service
