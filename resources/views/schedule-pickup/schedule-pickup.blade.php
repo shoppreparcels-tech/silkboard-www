@@ -49,7 +49,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label label-padding">Phone</label>
+                            <label class="control-label label-padding">Phone<span class="mendatory_fields">*</span></label>
                             <div class="row">
                                 <div class="col-sm-2">
                                     <select class="select2 form-control" name="phone_code" required>
@@ -254,9 +254,9 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <label>State <span class="mendatory_fields">*</span> :</label>
+                                <label>State :</label>
                                 <input type="text" class="form-control" placeholder="Enter State"
-                                       name="dc_state" required/>
+                                       name="dc_state" />
                                 <div class="clearfix"></div>
                             </div>
                         </div>
@@ -285,7 +285,7 @@
                             </div>
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <label class="control-label ">Phone</label>
+                                <label class="control-label ">Phone <span class="mendatory_fields">*</span> </label>
                                 <div class="row">
                                     <div class="col-sm-4">
                                         <select class="select2 form-control" name="dc_phone_code" required>
@@ -299,7 +299,7 @@
                                     </div>
                                     <div class="col-sm-8 ">
                                         <input type="text" class="form-control" name="dc_contact_no"
-                                               placeholder="Phone Number">
+                                               placeholder="Phone Number" required>
                                     </div>
                                 </div>
                             </div>
