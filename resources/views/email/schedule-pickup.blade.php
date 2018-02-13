@@ -134,10 +134,14 @@
                                             <tbody>
                                             <tr>
                                                 <td>
-                                                    {{$data->pickup_address}}
+                                                    {{$data->pc_fname}} {{$data->pc_lname}}<br>
+                                                    {{$data->pc_street}},{{$data->pc_city}},<br>
+                                                    {{$data->pc_state}}-{{$data->pc_pincode}}
                                                 </td>
                                                 <td>
-                                                    {{$data->dest_address}}
+                                                    {{$data->dc_fname}} {{$data->dc_lname}}<br>
+                                                    {{$data->dc_street}},{{$data->dc_city}},<br>
+                                                    {{$data->dc_state}}-{{$data->dc_pincode}}
                                                 </td>
                                                 <td>{{$data->mobile}}</td>
                                                 <td>{{$data->size_of_package}}</td>

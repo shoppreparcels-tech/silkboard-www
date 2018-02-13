@@ -22,13 +22,13 @@
 
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
     <link rel="publisher" href="https://plus.google.com/101070316798366909776/">
-    <meta name="google-play-app" content="app-id=com.shoppre.play" />
-    <meta property="fb:app_id" content="1819630241632764" />
-    <meta property="al:android:url" content="https://www.shoppre.com/" />
-    <meta property="al:android:package" content="com.shoppre.play" />
-    <meta property="al:android:app_name" content="Shoppre - International Shipping from India" />
+    <meta name="google-play-app" content="app-id=com.shoppre.play"/>
+    <meta property="fb:app_id" content="1819630241632764"/>
+    <meta property="al:android:url" content="https://www.shoppre.com/"/>
+    <meta property="al:android:package" content="com.shoppre.play"/>
+    <meta property="al:android:app_name" content="Shoppre - International Shipping from India"/>
     <meta name="msvalidate.01" content="0E25F147AD9B658B4418A996E97D0D7D"/>
-    
+
 @yield('schema_markup')
 <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
@@ -65,9 +65,9 @@
 @include('partials._header')
 <div class="container">
     <!-- Trigger the modal with a button -->
-    {{--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>--}}
+{{--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>--}}
 
-    <!-- Modal -->
+<!-- Modal -->
     <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <!-- Modal content-->
@@ -107,7 +107,9 @@
                                 <div class="checkbox">
                                     <label>
                                         <input type="checkbox" name="remember_me">
-                                        <span class="label">Remember Me <small>(Not recommended for public computers)</small></span>
+                                        <span class="label">
+                                            Remember Me <small>(Not recommended for public computers)</small>
+                                        </span>
                                     </label>
                                 </div>
                                 <button type="submit" class="btn btn-block btn-shoppre">Sign in to your account</button>
@@ -246,7 +248,7 @@
         }
 
         function popupFunction() {
-           localStorage.popupClose = "close";
+            localStorage.popupClose = "close";
             $('#myModal').modal('show');
         }
     });
@@ -393,7 +395,7 @@
                 url: url,
                 coupon: coupon
             },
-            success: function (data){
+            success: function (data) {
                 console.log(data);
             }
         });

@@ -35,9 +35,34 @@
 .expire {
     color: red;
 }
+
 .left-space
 {
     padding-left: 2%;
+}
+
+.box-size
+{
+    padding-left: 0px;
+    width: 32.333333%;
+}
+
+.head-align
+{
+    margin-left: -15px;
+    color: brown;
+    padding-bottom: 2%;
+}
+
+.label-align
+{
+    margin-left: 1px !important;
+}
+
+.label-padding
+{
+    padding-top: 5px;
+    margin-left: 16px;
 }
 
 /*--coupon code--*/

@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Country;
 use App\SchedulePickup;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\EmailSchedulePickup;
+use App\States;
 
 use Auth;
 
@@ -18,7 +20,9 @@ class SchedulePickupController extends Controller
 
     public function index()
     {
-        return view('schedule-pickup.schedule-pickup');
+        $countries = Country::orderBy('name','asc')->get();
+        $states = States::orderBy('name','asc')->get();
+        return view('schedule-pickup.schedule-pickup')->with(['countries'=>$countries,'states'=>$states]);
     }
 
     public function submit(Request $request)
@@ -42,6 +46,10 @@ class SchedulePickupController extends Controller
         if($request->medicine_items)
         {
             $special_items = $special_items.$request->medicine_items.",";
+        }
+        if($request->electronics)
+        {
+            $special_items = $special_items.$request->electronics.",";
         }
         if($request->other)
         {

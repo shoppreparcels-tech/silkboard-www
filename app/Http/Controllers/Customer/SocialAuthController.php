@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Customer;
 
+use App\GoogleUrl\GoogleShortUrl;
+use App\ShipMail;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -60,17 +62,21 @@ class SocialAuthController extends Controller
 		        $balance->save();
 
 			    $custid = $customer->id;
-	        }else{
+	        }
+	        else
+	        {
 	        	$custid = $checkProfile->id;
 	        }
 
 	        $this->checkProfileSet($custid);
 	        Auth::loginUsingId($custid);
-
 	        return redirect()->route('schedulePickup.List');
 
-        }else{
-        	return redirect(route('customer.login'))->with('error', 'Sorry, Now we are unable to login/register using Google API. Try again after sometime!');
+        }
+        else
+        {
+        	 return redirect(route('customer.login'))->with('error', 'Sorry, Now we are unable to login/register
+        	 using Google API. Try again after sometime!');
         }
     }
 
@@ -122,7 +128,8 @@ class SocialAuthController extends Controller
 		        $balance->save();
 
 			    $custid = $customer->id;
-	        }else{
+	        }
+	        else{
 	        	$custid = $checkProfile->id;
 	        }
 
