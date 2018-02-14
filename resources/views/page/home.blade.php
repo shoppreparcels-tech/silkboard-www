@@ -141,7 +141,6 @@
 @endsection
 
 @section('content')
-  <input type="button" value="Check Email" id="check_mail" class="btn-shoppre">
     <!-- Home Page Contents -->
     <section class="slider">
         <div class="slide">
