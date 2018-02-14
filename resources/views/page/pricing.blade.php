@@ -517,9 +517,9 @@
                                 </a>
                             </td>
                             <td class="cell-2">
-                                > 5 kg = INR 1000/Shipment <br>
+                                < 5 kg = INR 1000/Shipment <br>
                                 5 - 10 kg = INR 1500/Shipment <br>
-                                < 10 kg = INR 2500/Shipment
+                                > 10 kg = INR 2500/Shipment
                             </td>
                         </tr>
                         <tr>
