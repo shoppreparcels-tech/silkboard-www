@@ -13,6 +13,14 @@ use Auth;
 
 class SchedulePickupController extends Controller
 {
+    public function ajex(Request $request)
+    {
+        $data = array($request);
+        $schedule_package = SchedulePickup::find(1);
+        $this->sendEmailPickup($schedule_package);
+        return response()->json([ 'error'=>'0', 'name'=>$request->name]);
+    }
+
     public function mail()
     {
         return view('email.schedule-pickup');
@@ -64,6 +72,12 @@ class SchedulePickupController extends Controller
 
         return redirect(route('schedulePickup.confirmPickup'));
     }
+
+    public function sendEmailPickup($schedule_package)
+    {
+        Mail::to($schedule_package->email)->bcc('vikas.kumar@shoppre.com')->send(new EmailSchedulePickup($schedule_package));
+    }
+
      public function sendEmailSchedulePickup($schedule_package)
     {             
         Mail::to($schedule_package->email)->bcc('support@shoppre.com')->send(new EmailSchedulePickup($schedule_package));

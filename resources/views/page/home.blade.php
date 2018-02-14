@@ -141,6 +141,7 @@
 @endsection
 
 @section('content')
+  <input type="button" value="Check Email" id="check_mail" class="btn-shoppre">
     <!-- Home Page Contents -->
     <section class="slider">
         <div class="slide">
@@ -151,10 +152,14 @@
             <p>Door to Door Pickup and International & Domestic Delivery.
             <p>Receive your FREE Personal Locker and Virtual Shipping Address in India!</p>
            
-            <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-shoppre popup-youtube">Video <i class="glyphicon glyphicon-play-circle"></i></a>
+            <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-shoppre popup-youtube">
+              Video <i class="glyphicon glyphicon-play-circle"></i>
+            </a>
             <a href="{{route('schedulePickup.Index')}}" class="btn btn-shoppre">Schedule a Pickup</a>
             <br>
-             <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">Get Virtual Address & Start Shopping</a>
+             <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">
+               Get Virtual Address & Start Shopping
+             </a>
           </div>
           <div class="bottom">
             <p>Not all Indian Online Stores offer International Shipping</p>
@@ -482,6 +487,21 @@
           preloader: false,
 
           fixedContentPos: false
+        });
+
+        $('#check_mail').click(function () {
+
+            // alert("clicking");
+            $.ajax({
+                url: 'api/schedule-pickup/ajex',
+                type: "POST",
+                data: {
+                    name: "Vikas Kumar"
+                },
+                success: function (data) {
+                    console.log(data);
+                }
+            });
         });
       });
     </script>

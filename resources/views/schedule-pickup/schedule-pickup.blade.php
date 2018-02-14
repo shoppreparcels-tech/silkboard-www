@@ -81,7 +81,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="form-group">
+                            <div class="form-group label-align">
                                 <label>Lastname <span class="mendatory_fields">*</span> :</label>
                                 <input type="text" class="form-control" placeholder="Enter last name"
                                        name="pc_lname" required/>
@@ -105,7 +105,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="form-group">
+                            <div class="form-group label-align">
                                 <label>City <span class="mendatory_fields">*</span> :</label>
                                 <input type="text" class="form-control" placeholder="Enter City"
                                        name="pc_city" required/>
@@ -123,7 +123,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="form-group">
+                            <div class="form-group label-align">
                                 <label>Pincode <span class="mendatory_fields">*</span> :</label>
                                 <input type="text" class="form-control" placeholder="Enter Pincode"
                                        name="pc_pincode" required/>
@@ -153,7 +153,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="form-group">
+                            <div class="form-group label-align">
                                 <label>Size Of The Package If You Are Aware( Length, Breadth and Height ) :</label>
                                 <input type="text" class="form-control" placeholder="Enter package size (optional)"
                                        name="size_of_package"/>
@@ -225,7 +225,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="form-group">
+                            <div class="form-group label-align">
                                 <label>Lastname <span class="mendatory_fields">*</span> :</label>
                                 <input type="text" class="form-control" placeholder="Enter last name"
                                        name="dc_lname" required/>
@@ -243,7 +243,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="form-group">
+                            <div class="form-group label-align">
                                 <label>Pincode <span class="mendatory_fields">*</span> :</label>
                                 <input type="text" class="form-control" placeholder="Enter Pincode"
                                        name="dc_pincode" required/>
@@ -261,7 +261,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="form-group">
+                            <div class="form-group label-align">
                                 <label>City <span class="mendatory_fields">*</span> :</label>
                                 <input type="text" class="form-control" placeholder="Enter City"
                                        name="dc_city" required/>
@@ -284,7 +284,7 @@
                                 </div>
                             </div>
                         <div class="col-sm-6">
-                            <div class="form-group">
+                            <div class="form-group label-align">
                                 <label class="control-label ">Phone <span class="mendatory_fields">*</span> </label>
                                 <div class="row">
                                     <div class="col-sm-4">
@@ -331,11 +331,10 @@
                     </div>
                     <div class="row">
                         <div class="col-md-4 col-sm-offset-4">
-                            <button type="submit" class="btn btn-block btn-shoppre">Confirm Pickup</button>
+                            <button type="submit"  class="btn btn-block btn-shoppre">Confirm Pickup</button>
                         </div>
                     </div>
                     <div class="clearfix"></div>
-
                 </form>
             </div>
         </div>
