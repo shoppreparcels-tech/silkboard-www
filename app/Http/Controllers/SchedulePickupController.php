@@ -13,7 +13,7 @@ use Auth;
 
 class SchedulePickupController extends Controller
 {
-    public function ajex(Request $request)
+    public function submit(Request $request)
     {
 
         $special_items = "";
@@ -65,45 +65,45 @@ class SchedulePickupController extends Controller
         return view('schedule-pickup.schedule-pickup')->with(['countries'=>$countries,'states'=>$states]);
     }
 
-    public function submit(Request $request)
-    {
-        $special_items = "";
-        $body = $request->all();
-        unset($body['_token']);
-        $schedule_package = new SchedulePickup($body);
-        if($request->home_made)
-        {
-            $special_items = $special_items.$request->home_made.",";
-        }
-        if($request->branded_food_items)
-        {
-            $special_items = $special_items.$request->branded_food_items.",";
-        }
-        if($request->liquid_items)
-        {
-            $special_items = $special_items.$request->liquid_items.",";
-        }
-        if($request->medicine_items)
-        {
-            $special_items = $special_items.$request->medicine_items.",";
-        }
-        if($request->electronics)
-        {
-            $special_items = $special_items.$request->electronics.",";
-        }
-        if($request->other)
-        {
-            $special_items = $special_items.$request->other.",";
-        }
-
-        $schedule_package->special_items = $special_items;
-
-        $schedule_package->save();
-
-        $this->sendEmailSchedulePickup($schedule_package);
-
-        return redirect(route('schedulePickup.confirmPickup'));
-    }
+//    public function submit(Request $request)
+//    {
+//        $special_items = "";
+//        $body = $request->all();
+//        unset($body['_token']);
+//        $schedule_package = new SchedulePickup($body);
+//        if($request->home_made)
+//        {
+//            $special_items = $special_items.$request->home_made.",";
+//        }
+//        if($request->branded_food_items)
+//        {
+//            $special_items = $special_items.$request->branded_food_items.",";
+//        }
+//        if($request->liquid_items)
+//        {
+//            $special_items = $special_items.$request->liquid_items.",";
+//        }
+//        if($request->medicine_items)
+//        {
+//            $special_items = $special_items.$request->medicine_items.",";
+//        }
+//        if($request->electronics)
+//        {
+//            $special_items = $special_items.$request->electronics.",";
+//        }
+//        if($request->other)
+//        {
+//            $special_items = $special_items.$request->other.",";
+//        }
+//
+//        $schedule_package->special_items = $special_items;
+//
+//        $schedule_package->save();
+//
+//        $this->sendEmailSchedulePickup($schedule_package);
+//
+//        return redirect(route('schedulePickup.confirmPickup'));
+//    }
 
     public function sendEmailPickup($schedule_package)
     {
