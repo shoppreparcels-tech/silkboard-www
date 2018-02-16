@@ -3,6 +3,11 @@
 .img_align{text-align:center;}
 .mendatory_fields{color:red;}
 
+.btn-shoppre-padding
+{
+    padding-top: 13%;
+}
+
 /*--coupon code--*/
 .coupon_cashback {
     border: 5px dotted #bbb;
@@ -13,6 +18,8 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+#schedule_load{position:absolute;display:none;top:4%;left:0;width:100%;height:100%;z-index:9;background:url(../img/spinner1.gif) no-repeat center rgba(255, 255, 255, 0.7);background-size:60px;}
 
 .promo
 {

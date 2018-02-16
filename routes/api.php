@@ -20,4 +20,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::post('/leads/signup', 'LeadController@create')->name('leads.signup');
 
 Route::post('/campaign/newaspaper', 'PageController@saveFlyerUser')->name('flyerUser');
-Route::post('/schedule-pickup/ajex', 'SchedulePickupController@ajex')->name('schedulePickup.ajex');
+Route::post('/schedule-pickup/submit', 'SchedulePickupController@submit')->name('schedulePickup.submit');
