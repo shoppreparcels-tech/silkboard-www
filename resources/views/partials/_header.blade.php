@@ -75,7 +75,7 @@
                         {{--<button class="nav-icon icon-size"><i class="fa fa-user-circle"></i></button>--}}
                     {{--@endif--}}
                 <a class="navbar-brand" href="{{route('home')}}">
-                    <img src="{{asset('img/logo.png')}}" alt="Shoppre - Borderless Shipping From India">
+                    <img src="https://myaccount.shoppre.com/img/logo.png" alt="Shoppre - Borderless Shipping From India">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
