@@ -3,6 +3,31 @@
 @section('title', $title )
 @section('description', $description)
 @section('keywords', $keywords)
+@section('css_style')
+   <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name" : "Shoppre",
+  "url": "https://www.shoppre.com/",
+  "alternateName": "shoppre.com",
+  "logo": "https://www.shoppre.com/img/logo.png",
+  "sameAs" : [
+  "https://www.facebook.com/goshoppre/",
+  "https://twitter.com/Go_Shoppre",
+  "https://plus.google.com/+SHOPPRECOM",
+  "https://www.instagram.com/shoppre_official"
+  ],
+  "aggregateRating": {
+    "@type" : "AggregateRating",
+    "bestRating": "5",
+    "ratingValue" : "4.9",
+    "reviewCount" : "10",
+    "worstRating" : 3.5
+  }
+}
+</script>
+@endsection
 
 @section('content')
 
