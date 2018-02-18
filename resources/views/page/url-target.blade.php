@@ -8,7 +8,7 @@
 
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <a class="navbar-brand" href="http://www.shoppre.test">
+            <a class="navbar-brand" href="https://www.shoppre.com">
                 <img src="https://www.shoppre.com/img/logo.png">
             </a>
         </div>
