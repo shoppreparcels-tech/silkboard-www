@@ -33,7 +33,7 @@ class PageController extends Controller
     	$page = new Page;
     	$page->title = $request->title;
     	$page->slug = $request->slug;
-    	$page->content = $request->content;
+    	$page->content = $request->contents;
         $page->metatitle = $request->metatitle;
         $page->metadesc = $request->metadesc;
         $page->metakeyword = $request->metakeyword;
@@ -56,7 +56,7 @@ class PageController extends Controller
     	$page = Page::find($request->pageid);
     	$page->title = $request->title;
     	$page->slug = $request->slug;
-    	$page->content = $request->content;
+    	$page->content = $request->contents;
         $page->metatitle = $request->metatitle;
         $page->metadesc = $request->metadesc;
         $page->metakeyword = $request->metakeyword;

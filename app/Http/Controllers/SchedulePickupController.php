@@ -8,11 +8,25 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\EmailSchedulePickup;
 use App\States;
+use App\Mail\EmailTest;
 
 use Auth;
 
 class SchedulePickupController extends Controller
 {
+
+    public function testEmail()
+    {
+     return view('page.test-email');
+    }
+
+    public function testEmailSubmit(Request $request)
+    {
+      $name = $request->name;
+      $this->sendTestEmail($name);
+      return response()->json([ 'error'=>'0', 'message'=>'success']);
+    }
+
     public function submit(Request $request)
     {
 
@@ -49,13 +63,8 @@ class SchedulePickupController extends Controller
 
         $schedule_package->save();
 
-//        $this->sendEmailSchedulePickup($schedule_package);
+        $this->sendEmailSchedulePickup($schedule_package);
         return response()->json([ 'error'=>'0', 'message'=>'success']);
-    }
-
-    public function mail()
-    {
-        return view('email.schedule-pickup');
     }
 
     public function index()
@@ -105,10 +114,12 @@ class SchedulePickupController extends Controller
 //        return redirect(route('schedulePickup.confirmPickup'));
 //    }
 
-    public function sendEmailPickup($schedule_package)
+
+    public function sendTestEmail($name)
     {
-        Mail::to($schedule_package->email)->bcc('vikas.kumar@shoppre.com')->send(new EmailSchedulePickup($schedule_package));
+        Mail::to('vikasjson@gmail.com')->send(new EmailTest($name));
     }
+
 
      public function sendEmailSchedulePickup($schedule_package)
     {             

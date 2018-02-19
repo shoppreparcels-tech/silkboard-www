@@ -68,6 +68,8 @@ Route::post('home/login', 'Customer\LoginController@homeLogin')->name('homeLogin
 Route::post('home/signup', 'Customer\RegisterController@homeSignup')->name('homeSignup');
 
 
+Route::get('test-email', 'SchedulePickupController@testEmail')->name('testEmail');
+
 
 Route::get('offer/expire', 'CampaignController@expireOffer')->name('offerExpire');
 
