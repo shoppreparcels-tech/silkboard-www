@@ -22,7 +22,7 @@
                                         <h4><strong>Customer Detail:</strong></h4>
                                         <strong>Name:</strong> {{$pickup_details->first_name}} {{$pickup_details->last_name}}<br>
                                         <strong>Mobile:</strong> {{$pickup_details->mobile}} <br>
-                                        <strong>Email:</strong> {{$pickup_details->email}}
+                                        <strong>Email:</strong> {{$pickup_details->user_email}}
                                     </address>
                                 </div>
                                 <div class="col-xs-3 col-xs-offset-6 text-right">
