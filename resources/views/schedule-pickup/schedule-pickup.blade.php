@@ -62,11 +62,8 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label>Email <span class="mendatory_fields">*</span> :</label>
-                                <input type="email" class="form-control" placeholder="Enter email" name="email_id"
+                                <input type="email" class="form-control" placeholder="Enter email" name="user_email"
                                        />
-                                @if ($errors->has('email'))
-                                    <span class="error">{{ $errors->first('mobile') }}</span>
-                                @endif
                                 <div class="clearfix"></div>
                             </div>
                         </div>
@@ -386,7 +383,7 @@
                     {
                         first_name: {required: true},
                         last_name: {required: true},
-                        email_id: {required: true},
+                        user_email: {required: true},
                         phone_code: {required: true},
                         mobile: {required: true},
                         no_of_packages: {required: true},
@@ -412,7 +409,7 @@
                     {
                         first_name: {required: 'Please Enter First Name'},
                         last_name: {required: 'Please Enter Last Name'},
-                        email_id: {required: 'Please Enter Email'},
+                        user_email: {required: 'Please Enter Email'},
                         phone_code: {required: 'Please Select Phone Code'},
                         mobile: {required: 'Please Enter Mobile No.'},
                         no_of_packages: {required: 'Please Enter No of Packages'},
@@ -437,7 +434,7 @@
                 submitHandler: function (form) {
                     var f_name = $("input[name='first_name']").val();
                     var l_name = $("input[name='last_name']").val();
-                    var email = $("input[name='email_id']").val();
+                    var email = $("input[name='user_email']").val();
                     var phone_code = $("select[name='phone_code']").val();
                     var mobile = $("input[name='mobile']").val();
                     var no_of_packages = $("input[name='no_of_packages']").val();
@@ -480,7 +477,7 @@
                             _token: token,
                             first_name: f_name ,
                             last_name: l_name ,
-                            email_id: email ,
+                            user_email: email ,
                             phone_code: phone_code ,
                             mobile: mobile,
                             no_of_packages: no_of_packages,
