@@ -28,7 +28,9 @@
                                 <div class="col-xs-3 col-xs-offset-6 text-right">
                                     <address>
                                         <h4><strong>Pickup Address:</strong><br></h4>
-                                        {{$pickup_details->pickup_address}}
+                                        {{$pickup_details->pc_fname}} {{$pickup_details->pc_lname}}<br>
+                                        {{$pickup_details->pc_street}},{{$pickup_details->pc_city}},<br>
+                                        {{$pickup_details->pc_state}}-{{$pickup_details->pc_pincode}}
                                     </address>
                                 </div>
                             </div>
@@ -36,7 +38,9 @@
                                 <div class="col-xs-3">
                                     <address>
                                         <h4><strong>Destination Address:</strong><br></h4>
-                                        {{$pickup_details->dest_address}}
+                                        {{$pickup_details->dc_fname}} {{$pickup_details->dc_lname}}<br>
+                                        {{$pickup_details->dc_street}},{{$pickup_details->dc_city}},<br>
+                                        {{$pickup_details->dc_state}}-{{$pickup_details->dc_pincode}}
                                     </address>
                                 </div>
                                 <div class="col-xs-3 col-xs-offset-6 text-right">

@@ -18,7 +18,7 @@ class EmailSchedulePickup extends Mailable
      *
      * @return void
      */
-    public function __construct(SchedulePickup $SchedulePickup)
+    public function __construct($SchedulePickup)
     {
         $this->data = $SchedulePickup;
     }
