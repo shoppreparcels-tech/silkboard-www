@@ -52,7 +52,7 @@
                             <tr class="data_font">
                                 <td>{{$pickup->id}}</td>
                                 <td>{{$pickup->first_name}} {{$pickup->last_name}}</td>
-                                <td>{{$pickup->email}}</td>
+                                <td>{{$pickup->email_id}}</td>
                                 <td>{{$pickup->created_at}}</td>
                                 <td>{{$pickup->package_weight}}</td>
                                 <td>{{$pickup->package_items}}</td>
