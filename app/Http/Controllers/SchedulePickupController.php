@@ -61,9 +61,9 @@ class SchedulePickupController extends Controller
 
         $schedule_package->special_items = $special_items;
 
-//        $schedule_package->save();
+         $schedule_package->save();
 
-//       $this->sendEmailPickup($schedule_package);
+          $this->sendEmailPickup($schedule_package);
 //        $send_mail = new EmailSend();
 //        $send_mail->sendEmailTo($schedule_package);
         return response()->json([ 'error'=>'0', 'message'=>$request->user_email]);
@@ -125,7 +125,7 @@ class SchedulePickupController extends Controller
 
      public function sendEmailPickup($schedule_package)
     {
-        Mail::to('vikasjson@gmail.com')->send(new EmailSchedulePickup($schedule_package));
+        Mail::to($schedule_package->user_email)->send(new EmailSchedulePickup($schedule_package));
     }
 
     public function confirm()
