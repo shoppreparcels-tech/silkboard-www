@@ -61,12 +61,12 @@ class SchedulePickupController extends Controller
 
         $schedule_package->special_items = $special_items;
 
-        $schedule_package->save();
+//        $schedule_package->save();
 
-       $this->sendEmailPickup($schedule_package);
+//       $this->sendEmailPickup($schedule_package);
 //        $send_mail = new EmailSend();
 //        $send_mail->sendEmailTo($schedule_package);
-        return response()->json([ 'error'=>'0', 'message'=>$schedule_package->email]);
+        return response()->json([ 'error'=>'0', 'message'=>$schedule_package->email_id]);
     }
 
     public function index()
