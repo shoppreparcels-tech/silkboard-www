@@ -52,7 +52,7 @@
             <p>State/Province: Karnataka</p>
             <p>Country:  India</p>
             <p>Phone: +91 914 835 77 33 </p>
-            <p>Landmark:  Near to Seema English Nursery School</p>
+            <p>Landmark:  Near Seema English Nursery School</p>
           </div>
         </div>
         @endif
