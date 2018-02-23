@@ -26,8 +26,8 @@ class AppServiceProvider extends ServiceProvider
         ->join('campaign_employees','campaigns.id','=','campaign_employees.campaign_id' )
         ->where('campaign_employees.channel','=','website')
         ->where('type', 'login')->first();
-//        echo $home_campaign;
-//        exit;
+//       echo $home_campaign;
+//       exit;
         View::share(['promos'=>$promos,'announcements'=>$announcements,'home_campaign'=>$home_campaign]);
     }
     /**
