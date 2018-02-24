@@ -73,7 +73,6 @@
                                             </tr>
                                             </thead>
                                             <tbody>
-                                            <!-- foreach ($order->lineItems as $line) or some such thing here -->
                                             <tr>
                                                 <td>{{$pickup_details->package_weight}}</td>
                                                 <td class="text-center">{{$pickup_details->size_of_package}}</td>
