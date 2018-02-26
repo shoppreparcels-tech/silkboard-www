@@ -45,15 +45,15 @@
                         </ul>
                     </div>
                 @endif
-                @if(isset($announcements))
-                    <div class="announcescroll">
-                        <div class="message_announce">
-                            <marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();"
-                                     direction="left"><span class="text_deco">{{$announcements->message}}</span>
-                            </marquee>
-                        </div>
-                    </div>
-                @endif
+                {{--@if(isset($announcements))--}}
+                    {{--<div class="announcescroll">--}}
+                        {{--<div class="message_announce">--}}
+                            {{--<marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();"--}}
+                                     {{--direction="left"><span class="text_deco">{{$announcements->message}}</span>--}}
+                            {{--</marquee>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--@endif--}}
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
