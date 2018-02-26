@@ -40,7 +40,7 @@
                     <div class="promoscroll">
                         <ul id="liticker">
                             @foreach($promos as $promo)
-                                <li><a href="{{$promo->url}}" target="_blank">{{$promo->title}} - <span>{{$promo->code}}</span></a></li>
+                                <li><a href="{{'campaignDetail'}}" target="_blank">{{$promo->title}} - <span>{{$promo->code}}</span></a></li>
                             @endforeach
                         </ul>
                     </div>
@@ -85,6 +85,7 @@
                     <li><a href="{{route('services')}}">Our Services</a></li>
                     <li><a href="{{route('howitworks')}}">How Shoppre Works</a></li>
                     <li><a href="{{route('consolidationService')}}">Consolidation Service</a></li>
+                    <li><a href="{{route('personalShopper')}}">How Personal Shopper Works</a></li>
                     {{--<li><a href="{{route('stores')}}">Browse Categories</a></li>--}}
                     <li><a href="{{route('pricing')}}">Price Calculator</a></li>
                     <li><a href="{{route('contact')}}">Contact us</a></li>
