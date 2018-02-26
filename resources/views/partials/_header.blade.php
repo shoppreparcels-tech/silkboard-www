@@ -40,7 +40,7 @@
                     <div class="promoscroll">
                         <ul id="liticker">
                             @foreach($promos as $promo)
-                                <li><a href="{{route('campaign.index')}}" target="_blank">{{$promo->title}} - <span>{{$promo->code}}</span></a></li>
+                                <li><a href="{{$promo->route('services')}}" target="_blank">{{$promo->title}} - <span>{{$promo->code}}</span></a></li>
                             @endforeach
                         </ul>
                     </div>
