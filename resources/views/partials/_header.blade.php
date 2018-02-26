@@ -40,7 +40,7 @@
                     <div class="promoscroll">
                         <ul id="liticker">
                             @foreach($promos as $promo)
-                                <li><a href="https://www.shoppre.com/campaign/holi/website/1633" target="_blank">{{$promo->title}} - <span>{{$promo->code}}</span></a></li>
+                                <li><a href="{{"https://goo.gl/3i8AJH "}}" target="_blank">{{$promo->title}} - <span>{{$promo->code}}</span></a></li>
                             @endforeach
                         </ul>
                     </div>
@@ -95,4 +95,3 @@
         </div><!-- /.container-fluid -->
     </nav>
 </header>
-
