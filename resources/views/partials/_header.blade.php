@@ -40,20 +40,20 @@
                     <div class="promoscroll">
                         <ul id="liticker">
                             @foreach($promos as $promo)
-                                <li><a href= "https://goo.gl/3i8AJH " target="_blank">{{$promo->title}} - <span>{{$promo->code}}</span></a></li>
+                                <li><a href="{{$promo->url}}" target="_blank">{{$promo->title}} - <span>{{$promo->code}}</span></a></li>
                             @endforeach
                         </ul>
                     </div>
                 @endif
-                {{--@if(isset($announcements))--}}
-                    {{--<div class="announcescroll">--}}
-                        {{--<div class="message_announce">--}}
-                            {{--<marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();"--}}
-                                     {{--direction="left"><span class="text_deco">{{$announcements->message}}</span>--}}
-                            {{--</marquee>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--@endif--}}
+                @if(isset($announcements))
+                    <div class="announcescroll">
+                        <div class="message_announce">
+                            <marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();"
+                                     direction="left"><span class="text_deco">{{$announcements->message}}</span>
+                            </marquee>
+                        </div>
+                    </div>
+                @endif
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
