@@ -48,6 +48,7 @@ class GetQuote extends Mailable
                 'width' => $this->quote->width,
                 'height' => $this->quote->height,
                 'email' => $this->quote->email,
+                'mobile' => $this->quote->mobile,
         ]);
     }
 }

@@ -71,7 +71,6 @@ Route::get('offer/expire', 'CampaignController@expireOffer')->name('offerExpire'
 
 Route::get('/new-pricing', 'PageController@newPricing')->name('newPricing');
 Route::get('/customer-pricing', 'PageController@customerPricing')->name('customerPricing');
-
 Route::get('/invoice', 'InvoiceController@index')->name('invoice');
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');

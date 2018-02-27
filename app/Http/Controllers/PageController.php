@@ -410,7 +410,6 @@ class PageController extends Controller
             {
                 $d_weight = $volume/5000;
             }
-
             if ($d_weight > $weight) {
                 $weight = $d_weight;
             }
@@ -439,7 +438,7 @@ class PageController extends Controller
                                 ->first();
         }
 
-        if (!empty($rate)) {
+        if (!empty($rate)){
             $amount = $rate->rate_type == "fixed" ? $rate->amount : $rate->amount * $weight;
 
             $amount = number_format($amount, 2, '.', '');

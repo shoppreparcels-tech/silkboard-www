@@ -148,15 +148,16 @@
           <div class="caption-block">
             <h2 class="text-orange">BORDERLESS SHIPPING FROM INDIA</h2>
             <h3>Shop from India, Ship Worldwide!</h3>
-            <p>Door to Door Pickup and International & Domestic Delivery.
-            <p>Receive your FREE Personal Locker and Virtual Shipping Address in India!</p>
-           
-            <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-shoppre popup-youtube">
+            <ul>
+              <li><p>Door to Door Pickup and International & Domestic Delivery.</p></li>
+              <li><p>Receive your FREE Personal Locker and Virtual Shipping Address in India!</p></li>
+            </ul>
+            <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-home-transparent popup-youtube">
               Video <i class="glyphicon glyphicon-play-circle"></i>
             </a>
-            <a href="{{route('schedulePickup.Index')}}" class="btn btn-shoppre">Schedule a Pickup</a>
+            <a href="{{route('schedulePickup.Index')}}" class="btn btn-home-transparent">Schedule a Pickup</a>
             <br>
-             <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">
+             <a href="https://myaccount.shoppre.com/register" class="btn btn-home">
                Get Virtual Address & Start Shopping
              </a>
           </div>

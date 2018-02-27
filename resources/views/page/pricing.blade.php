@@ -329,6 +329,12 @@
                                 <input type="text" class="form-control" name="email" placeholder="Email Address">
                             </div>
                         </div>
+                        <div class="form-group" style="margin-top: 8px;">
+                            <label class="col-sm-12 control-label">Your Mobile Number</label>
+                            <div class="col-sm-12">
+                                <input type="text" class="form-control" name="mobile" placeholder="Mobile Number">
+                            </div>
+                        </div>
                         <div class="form-group">
                             <div class="col-sm-12">
                                 <button type="submit" class="btn btn-block btn-shoppre" id="quote_submit">Get A Quote
@@ -810,6 +816,7 @@
                         weight: {required: true},
                         unit: {required: true},
                         email: {required: true, email: true},
+                        mobile: {required: true}
                     },
                 messages:
                     {
@@ -818,6 +825,7 @@
                         pin: {required: "Please enter PIN"},
                         weight: {required: "Enter package weight."},
                         email: {required: "Enter your email address to contact."},
+                        mobile: { required: "Enter your mobile number to contact."}
                     },
                 submitHandler: function (form) {
                     $("#quote_load").show();
