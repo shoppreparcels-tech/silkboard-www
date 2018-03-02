@@ -18,9 +18,9 @@
                 @endif
                 @if(!empty($campaign_detail->coupon_code))
                 <div class="left-space">
-                    <h2><b>{{$campaign_detail->cashback}}% Off</b></h2>
+                    <h2><b>{{$campaign_detail->cashback}}% Cashback</b></h2>
                     <p>Use Promo Code: <span class="promo">{{$campaign_detail->coupon_code}}</span>
-                        to avail {{$campaign_detail->cashback}}% Off
+                        to avail {{$campaign_detail->cashback}}% Cashback
                     </p>
                     @if(!empty($campaign_detail->end_date))
                     <h4>Expires On: <span class="exp_date">{{date('d-m-Y', strtotime($campaign_detail->end_date))}}
@@ -28,12 +28,11 @@
                     @endif
                     <h3>Terms and conditions for promo code:</h3>
                     <ul class="left-space">
-                        <li>Get {{$campaign_detail->cashback}}% Off.</li>
-                        <li>Maximum Off that can be availed by a customer is Rs. 1000.</li>
+                        <li>Get {{$campaign_detail->cashback}}% off.</li>
+                        <li>Maximum amount that can be availed by a customer is Rs. 1000.</li>
                         <li>This offer cannot be clubbed with any other offer.</li>
-                        {{--<li>The cash back would be credited in your Shoppre wallet within 24 hours once shipment--}}
-                            {{--delivered.</li>--}}
                         <li>A customer can avail this offer only once during the offer period.</li>
+                        <li>The discount is available only on the shipping charge.</li>
                     </ul>
                 </div>
                 @endif
