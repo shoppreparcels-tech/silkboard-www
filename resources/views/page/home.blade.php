@@ -144,7 +144,7 @@
     <!-- Home Page Contents -->
     <section class="slider">
         <div class="slide">
-          <img src="{{asset('img/slider001.jpg')}}" width="100%">
+          <img src="{{asset('img/slider1.jpg')}}" width="100%">
           <div class="caption-block">
             <h2 class="text-orange">BORDERLESS SHIPPING FROM INDIA</h2>
             <h3>Shop from India, Ship Worldwide!</h3>
