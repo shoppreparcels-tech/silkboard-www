@@ -52,6 +52,7 @@
                                     <option value="twitter">Twitter</option>
                                     <option value="website">Website</option>
                                     <option value="instagram">Instagram</option>
+				    <option value="google">Google Post</option>
                                 </select>
                             </div>
                         </div>
