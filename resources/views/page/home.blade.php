@@ -144,20 +144,18 @@
     <!-- Home Page Contents -->
     <section class="slider">
         <div class="slide">
-          <img src="{{asset('img/slider1.jpg')}}" width="100%">
+          <img src="{{asset('https://myaccount.shoppre.com/img/slider1.jpg')}}" width="100%">
           <div class="caption-block">
             <h2 class="text-orange">BORDERLESS SHIPPING FROM INDIA</h2>
             <h3>Shop from India, Ship Worldwide!</h3>
-            <ul>
-              <li><p>Door to Door Pickup and International & Domestic Delivery.</p></li>
-              <li><p>Receive your FREE Personal Locker and Virtual Shipping Address in India!</p></li>
-            </ul>
-            <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-home-transparent popup-youtube">
+            <p>Door to Door Pickup and International & Domestic Delivery.</p>
+            <p>Receive your FREE Personal Locker and Virtual Shipping Address in India!</p>
+            <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-shoppre popup-youtube">
               Video <i class="glyphicon glyphicon-play-circle"></i>
             </a>
-            <a href="{{route('schedulePickup.Index')}}" class="btn btn-home-transparent">Schedule a Pickup</a>
+            <a href="{{route('schedulePickup.Index')}}" class="btn btn-shoppre">Schedule a Pickup</a>
             <br>
-             <a href="https://myaccount.shoppre.com/register" class="btn btn-home">
+             <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">
                Get Virtual Address & Start Shopping
              </a>
           </div>
@@ -487,21 +485,6 @@
           preloader: false,
 
           fixedContentPos: false
-        });
-
-        $('#check_mail').click(function () {
-
-            // alert("clicking");
-            $.ajax({
-                url: 'api/schedule-pickup/ajex',
-                type: "POST",
-                data: {
-                    name: "Vikas Kumar"
-                },
-                success: function (data) {
-                    console.log(data);
-                }
-            });
         });
       });
     </script>
