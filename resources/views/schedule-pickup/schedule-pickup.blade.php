@@ -328,7 +328,7 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <label>Amount Transfer Option <span class="mendatory_fields">*</span>:</label>
+                                <label>Amount Transfer Options <span class="mendatory_fields"></span>:</label>
                                 <br>
                                 <input type="radio" name="payment_option" value="shoppre_account"  >
                                 Transferwise.com or Bank
@@ -340,7 +340,7 @@
                                     support@shoppre.com </u>, Swift Code: AXISINBB009<br>
                                 <input type="radio" name="payment_option" value="paypal"> PayPal - 10% Extra -
                                 support@shoppre.com<br>
-                                <input type="radio" name="payment_option" value="paytm"> Paytm - 3% Extra - 9148357733
+                                <input type="radio" name="payment_option" value="paytm"> Paytm - {{env('PAYTM_CHARGE')}}% Extra - 9148357733
                                 <div class="clearfix"></div>
                                 @if ($errors->has('payment_option'))
                                     <span class="error">{{ $errors->first('payment_option') }}</span>
