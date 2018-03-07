@@ -38,7 +38,9 @@
                                 <div class="col-xs-3">
                                     <address>
                                         <h4><strong>Destination Address:</strong><br></h4>
-                                        {{$pickup_details->dc_fname}} {{$pickup_details->dc_lname}}<br>
+                                        <strong>Name:</strong> {{$pickup_details->dc_fname}} {{$pickup_details->dc_lname}}<br>
+                                        <strong>Mobile:</strong> {{$pickup_details->dc_contact_no}} <br>
+                                        <strong>Address:</strong><br>
                                         {{$pickup_details->dc_street}},{{$pickup_details->dc_city}},<br>
                                         {{$pickup_details->dc_state}}-{{$pickup_details->dc_pincode}}
                                     </address>
