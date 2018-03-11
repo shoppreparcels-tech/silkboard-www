@@ -362,7 +362,7 @@ class PageController extends Controller
             'msg_content' => 'required',
         ]);
 
-        Mail::to("support@shoppre.com")->send(new ContactEnquiry($request));
+        Mail::to("support@shoppre.com")->bcc('aloak@shoppre.com')->send(new ContactEnquiry($request));
         return view('page.confirm-contact-us');
     }
     public function services()
