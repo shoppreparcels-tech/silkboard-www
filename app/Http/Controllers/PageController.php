@@ -157,7 +157,7 @@ class PageController extends Controller
     {
      return view('page.terms-and-conditions');
     }
-   
+
     public function consolidationService()
     {
         return view('page.consolidation');
@@ -414,7 +414,7 @@ class PageController extends Controller
                 $weight = $d_weight;
             }
         }
-        
+
         $unit = $request->unit;
         $discount = $country->discount;
 
@@ -423,29 +423,41 @@ class PageController extends Controller
         if ($unit === "lbs") {
             $weight = $weight * 0.45;
         }
+        $IS_BELOW_300 = $weight <= 300;
+        $rates = ShippingRate::
+        select('shipping_rates.rate_type',
+          'shipping_rates.amount',
+          'shipping_rates.timerange',
+          'shipping_rates.partner_id',
+          'partners.name as partner_name')
+          ->join('partners', 'shipping_rates.partner_id', '=', 'partners.id')
+          ->where('country_id', $country->id)
+          ->where('item_type', $type)
+          ->where('min', '<', $weight)
+          ->where('max', $IS_BELOW_300 ? '>=' : '=',  $IS_BELOW_300 ? $weight : 0)
+          ->get();
 
-        if ($weight <= 300) {
-            $rate = ShippingRate::where('country_id', $country->id)
-                                ->where('item_type', $type)
-                                ->where('min', '<', $weight)
-                                ->where('max', '>=', $weight)
-                                ->first();
-        }else{
-            $rate = ShippingRate::where('country_id', $country->id)
-                                ->where('item_type', $type)
-                                ->where('min', '<', $weight)
-                                ->where('max', '=', 0)
-                                ->first();
-        }
+        if (!empty($rates)){
+          $prices = [];
 
-        if (!empty($rate)){
+          foreach($rates as $rate) {
             $amount = $rate->rate_type == "fixed" ? $rate->amount : $rate->amount * $weight;
 
             $amount = number_format($amount, 2, '.', '');
-            $time = $rate->timerange;
 
-            return response()->json([ 'error'=>'0', 'time'=> $time, 'amount'=>$amount, 'discount'=>$discount ]);
-        }else{
+            array_push($prices, [
+              'time' => $rate->timerange,
+              'amount' => $amount,
+              'discount'=> $discount,
+              'partner_name'=> $rate->partner_name,
+              ]);
+          }
+          return response()->json([
+            'error'=>'0',
+            'prices' => $prices,
+          ]);
+
+        } else {
             return response()->json(['error'=>'1']);
         }
     }

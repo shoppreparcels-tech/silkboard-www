@@ -140,23 +140,17 @@
                         </div>
                         <div class="clearfix"></div>
                     </form>
-                    <div id="ship_result" class="calc-result">
-                        <h4 class="text-red">ESTIMATED SHIPPING COST*</h4>
-                        <p class="info">Best carrier will be automatically chosen according to your country and weight
-                            of shipment. We use trusted courier services like DHL, FedEx and DTDC.</p>
-                        <div class="result table-responsive">
-                            <table class="table table-bordered">
-                                <tr>
-                                    <td class="bg-white"><span id="ship_time"></span> Business Days <span
-                                                class="text-red">**</span></td>
-                                    <td><i class="fa fa-rupee"></i> <span id="ship_cost"></span></td>
-                                    <td><span class="striked"><i class="fa fa-rupee"></i> <span
-                                                    id="ship_oldcost"></span></span></td>
-                                    <td class="discount"><span id="ship_disc"></span>% OFF</td>
-                                </tr>
-                            </table>
-                        </div>
-                        <ul class="points">
+          <div id="ship_result" class="calc-result">
+            <h4 class="text-red">ESTIMATED SHIPPING COST*</h4>
+            <p class="info">Best carrier will be automatically chosen according to your country and weight
+              of shipment. We use trusted courier services like DHL, FedEx and DTDC.</p>
+            <div class="result table-responsive">
+              <table class="table table-bordered" id="prices">
+              </table>
+            </div>
+
+
+            <ul class="points">
                             <li><span class="text-red">*</span> The chargeable weight is always the greater of the two:
                                 Volumetric or the Actual weight.
                             </li>
@@ -785,23 +779,41 @@
                             height: height,
                             scale: box_scale
                         },
-                        success: function (data) {
+                        success: function (res) {
                             $("#calc_load").hide();
-                            console.log(data);
-                            if (data.error == "1") {
-                                $('#calc_error').css('display', 'block');
-                            }
-                            else {
-                                $('#ship_oldcost').text(data.amount);
-                                var disamount = (data.discount / 100) * data.amount;
-                                var finalcost = Math.round(data.amount - disamount).toFixed(2);
-                                $('#ship_cost').text(finalcost);
-                                $('#ship_time').text(data.time);
-                                $('#ship_disc').text(data.discount);
+
+                            if (res.error == "1") {
+                              $('#calc_error').css('display', 'block');
+                            } else {
+                              var html = "";
+                              res.prices.map(function(price) {
+
+                                html += ' <tr> ' +
+                                '<td>' + price.partner_name+ '</td>' +
+                                ' <td class="bg-white">' +
+                                ' <span>' + price.time+ '</span> Business Days' +
+                                ' <span class="text-red">**</span>' +
+                                ' </td>' +
+                                '<td>' +
+                                '<i class="fa fa-rupee"></i> <span>' + (price.discount/100) * price.amount+ '</span>' +
+                                ' </td>' +
+                                ' <td>' +
+                                '<span class="striked">' +
+                                '<i class="fa fa-rupee"></i>' +
+                                ' <span>' +  price.amount+ '</span>' +
+                                '</span>' +
+                                ' </td>' +
+                                '<td class="discount">' +
+                                ' <span>' + price.discount + '</span>% OFF' +
+                                '</td>' +
+                                ' </tr>';
+
+                                $('#prices').html(html);
                                 $('#ship_result').slideDown();
+                              });
                             }
-                        }
-                    });
+                          }
+                        });
                     return false;
                 }
             });
