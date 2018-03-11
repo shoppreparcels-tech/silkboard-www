@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.shoppre.com/sitemap.xml
+sitemap: https://www.shoppre.com/sitemap.xml

@@ -363,7 +363,7 @@ class PageController extends Controller
         ]);
 
         Mail::to("support@shoppre.com")->send(new ContactEnquiry($request));
-        return redirect()->back()->with('message', 'Your enquiry has been submited.');
+        return view('page.confirm-contact-us');
     }
     public function services()
     {

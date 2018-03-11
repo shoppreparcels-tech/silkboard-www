@@ -87,7 +87,7 @@
                     <li><a href="{{route('services')}}">Our Services</a></li>
                     <li><a href="{{route('howitworks')}}">How Shoppre Works</a></li>
                     <li><a href="{{route('consolidationService')}}">Consolidation Service</a></li>
-                    <li><a href="{{route('howitworks')}}">How Personal Shopper Works</a></li>
+                    {{--<li><a href="{{route('howitworks')}}">How Personal Shopper Works</a></li>--}}
                     {{--<li><a href="{{route('stores')}}">Browse Categories</a></li>--}}
                     <li><a href="{{route('pricing')}}">Price Calculator</a></li>
                     <li><a href="https://myaccount.shoppre.com/direct/payment">Make Payment</a></li>
