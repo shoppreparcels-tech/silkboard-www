@@ -549,11 +549,11 @@
                                                        title="Shoppre charges an additional amount of INR 100 for
                                                        receiving a package which is considered as a document
                                                        (2 kg and below). Shipping charges of Documents slightly vary
-                                                        from that of Non-documents.">
+                                                        from that of Non-documents.As of now the same is FREE of cost. ">
                                     <i class="fa fa-question-circle-o"></i>
                                 </a>
                             </td>
-                            <td class="cell-2">Free</td>
+                            <td class="cell-2"><strike>INR 100</strike>  Free </td>
                         </tr>
                         <tr>
                             <td>Real-time Shipment Tracking
