@@ -553,7 +553,7 @@
                                     <i class="fa fa-question-circle-o"></i>
                                 </a>
                             </td>
-                            <td class="cell-2">INR 100 per document</td>
+                            <td class="cell-2">Free</td>
                         </tr>
                         <tr>
                             <td>Real-time Shipment Tracking
