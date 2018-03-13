@@ -19,7 +19,7 @@
         "@type": "ImageObject",
         "url": "https://www.shoppre.com/img/logo.png",
         "width": "878",
-        "height": "264" 
+        "height": "264"
     },
     "url": "https://www.shoppre.com/",
     "mainEntityOfPage": "https://www.shoppre.com",
@@ -36,7 +36,7 @@
             "@type": "ImageObject",
             "url": "https://www.shoppre.com/img/logo.png",
             "height": "264",
-            "width": "878" 
+            "width": "878"
         },
         "telephone": "+91 80409 44077",
         "address": {
@@ -46,7 +46,7 @@
             "addressLocality": "Bengaluru",
             "addressRegion": "Karnataka",
             "postalCode": "560034",
-            "addressCountry": "IN" 
+            "addressCountry": "IN"
         },
         "location": {
             "@type": "Place",
@@ -56,14 +56,14 @@
             "geo": {
                 "@type": "GeoCoordinates",
                 "latitude": "12.9257998",
-                "longitude": "77.6332563" 
+                "longitude": "77.6332563"
                    }
             }
        }
-  }     
-       
+  }
+
 </script>
- 
+
  <script type="application/ld+json">
  { "@context": "http://schema.org",
  "@type": "Organization",
@@ -95,7 +95,7 @@
  "telephone": "[+918040944077]",
  "email": "support@shoppre.com"
  },
- "sameAs": [ 
+ "sameAs": [
     "https://www.facebook.com/goshoppre",
     "https://twitter.com/Go_Shoppre",
     "https://plus.google.com/+SHOPPRECOM",
@@ -107,7 +107,7 @@
  ]}
 </script>
 
-<script type='application/ld+json'> 
+<script type='application/ld+json'>
 {
   "@context": "http://www.schema.org",
   "@type": "Website",
@@ -124,7 +124,7 @@
     "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
     "https://www.linkedin.com/company/17945446",
     "https://in.pinterest.com/shoppre",
-    "https://play.google.com/store/apps/details?id=com.shoppre.play",   
+    "https://play.google.com/store/apps/details?id=com.shoppre.play",
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
   ]
 }
@@ -398,6 +398,7 @@
                   <p>{{$review->review}}</p>
                   <span class="name">{{$review->person}}</span>
                   <span>{{$review->country->name}}</span>
+                  <span>{{$review->source}}</span>
                 </div>
                 <div class="clearfix"></div>
               </div>
