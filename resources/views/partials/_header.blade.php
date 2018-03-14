@@ -17,7 +17,7 @@
                     <li><a href="{{route('partner')}}">Become a Partner</a></li>
                     <li><a href="{{route('faq')}}">FAQ</a></li>
                     <li><a href="http://blog.shoppre.com/" target="_blank">Blogs</a></li>
-                    <li><a href="https://www.quora.com/topic/Shoppre-com" target="_blank">Ask Questins</a></li>
+                    <li><a href="https://www.quora.com/topic/Shoppre-com" target="_blank">Ask Questions</a></li>
 
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
