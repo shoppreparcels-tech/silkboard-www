@@ -21,11 +21,9 @@
 
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="padding_li1" href="mailto:support@shoppre.com"><i class="fa fa-envelope icon_margen"></i>support@shoppre.com
-                    </li>
-                    <li class="padding_li2" href="tel:+91-80 4094 4077"><i class="fa fa-mobile icon_margen"></i>+91 80
-                        4094 4077
-                    </li>
+                    {{--<li class="padding_li1" href="mailto:support@shoppre.com">support@shoppre.com</li>--}}
+                    <li class="padding_li_top"><a href="mailto:support@shoppre.com"><i class="fa fa-envelope icon_margen"></i>support@shoppre.com</a></li>
+                    <li class="padding_li_top"><a href="tel:+91-80 4094 4077"><i class="fa fa-mobile icon_margen"></i>+91 804094 4077</a></li>
                     @if(Auth::guard('customer')->check())
                         {{--<li><a href="{{route('customer.locker')}}"><i class="fa fa-user"></i> {{Auth::guard('customer')->user()->name}}</a></li>--}}
                         <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/locker"><i
