@@ -81,11 +81,16 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{route('home')}}">Home</a></li>
                     <li class="hidden-sm hidden-md hidden-lg"><a href="{{route('about')}}">About Shoppre</a></li>
-                    <li><a href="{{route('services')}}">Our Services</a></li>
+                      <li><button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">
+                                  <strong>OUR SERVICES</strong> <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu">
+                                  <li><a href="{{route('services')}}">Our Services</a></li>
+                                  <li><a href="{{route('consolidationService')}}">Consolidation Service</a></li>
+                                  {{--<li><a href="{{route('howitworks')}}">How Personal Shopper Works</a></li>--}}
+                                  <li><a href="{{route('stores')}}">Browse Categories</a></li>
+                              </ul></li>
                     <li><a href="{{route('howitworks')}}">How Shoppre Works</a></li>
-                    <li><a href="{{route('consolidationService')}}">Consolidation Service</a></li>
-                    {{--<li><a href="{{route('howitworks')}}">How Personal Shopper Works</a></li>--}}
-                    {{--<li><a href="{{route('stores')}}">Browse Categories</a></li>--}}
                     <li><a href="{{route('pricing')}}">Price Calculator</a></li>
                     {{--<li><a href="https://myaccount.shoppre.com/direct/payment">Make Payment</a></li>--}}
                     <li><a href="{{route('contact')}}">Contact us</a></li>
