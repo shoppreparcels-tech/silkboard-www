@@ -18,7 +18,6 @@
                     <li><a href="{{route('faq')}}">FAQ</a></li>
                     <li><a href="http://blog.shoppre.com/" target="_blank">Blogs</a></li>
                     <li><a href="https://www.quora.com/topic/Shoppre-com" target="_blank">Ask Questions</a></li>
-
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     {{--<li class="padding_li1" href="mailto:support@shoppre.com">support@shoppre.com</li>--}}
