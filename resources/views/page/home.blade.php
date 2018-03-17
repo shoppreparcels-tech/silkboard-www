@@ -6,9 +6,30 @@
 
 @section('css_style')
 	<!-- Owl Carousel -->
-  <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
-  <!-- Magnific Popup -->
-  <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <meta property="og:title" content="Start Shipping with Shoppre | India's Best Shipping Partner" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Shoppre your International Shipping Partner. Shop from any Indian online store & ship to your doorstep. Save up to 60-80% on shipping with Shoppre package consolidation service. Sign up now!" />
+    <meta property="og:url" content="https://www.shoppre.com" />
+    <meta property="og:image" content="https://www.shoppre.com/shoppre-international-shipping-partner-india.jpg" />
+    <meta property="og:site_name" content="Shoppre" />
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@Go_Shoppre" />
+    <meta name="twitter:title" content="Start Shipping with Shoppre | India's Best Shipping Partner" />
+    <meta name="twitter:description" content="Shoppre your International Shipping Partner. Shop from any Indian online store & ship to your doorstep. Save up to 60-80% on shipping with Shoppre package consolidation service. Sign up now!" />
+    <meta name="twitter:image" content="https://www.shoppre.com/shoppre-international-shipping-partner-india.jpg" />
+
+
+    <meta name="twitter:app:country" content="IN" />
+    <meta name="twitter:app:name:googleplay" content="Shoppre - International Shipping from India" />
+    <meta name="twitter:app:id:googleplay" content="com.shoppre.play" />
+    <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/" />
+
   <script type="application/ld+json">
 {
     "@context": "http://schema.org",

@@ -124,7 +124,6 @@
         {{--<td style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top;" valign="top"></td>--}}
     {{--</tr>--}}
 {{--</table>--}}
-
 {{--</body>--}}
 {{--</html>--}}
 
