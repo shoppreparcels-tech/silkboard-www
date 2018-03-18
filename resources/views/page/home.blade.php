@@ -14,7 +14,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:description" content="Shoppre your International Shipping Partner. Shop from any Indian online store & ship to your doorstep. Save up to 60-80% on shipping with Shoppre package consolidation service. Sign up now!" />
     <meta property="og:url" content="https://www.shoppre.com" />
-    <meta property="og:image" content="https://www.shoppre.com/shoppre-international-shipping-partner-india.jpg" />
+    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
     <meta property="og:site_name" content="Shoppre" />
 
 
@@ -22,7 +22,7 @@
     <meta name="twitter:site" content="@Go_Shoppre" />
     <meta name="twitter:title" content="Start Shipping with Shoppre | India's Best Shipping Partner" />
     <meta name="twitter:description" content="Shoppre your International Shipping Partner. Shop from any Indian online store & ship to your doorstep. Save up to 60-80% on shipping with Shoppre package consolidation service. Sign up now!" />
-    <meta name="twitter:image" content="https://www.shoppre.com/shoppre-international-shipping-partner-india.jpg" />
+    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
 
 
     <meta name="twitter:app:country" content="IN" />
