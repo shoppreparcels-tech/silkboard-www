@@ -165,7 +165,7 @@
     <!-- Home Page Contents -->
     <section class="slider">
         <div class="slide">
-          <img src="{{asset('https://www.shoppre.com/img/easter.jpg')}}" width="100%">
+          <img src="{{asset('https://www.shoppre.com/img/easter.png')}}" width="100%">
           <div class="caption-block">
             <h2 class="text-orange">BORDERLESS SHIPPING FROM INDIA</h2>
             <h3>Shop from India, Ship Worldwide!</h3>
