@@ -1373,7 +1373,7 @@ textarea{max-width:100%;}
     margin-right: 13px;
     position: relative;
 }
-.tickercontainer{width:100%;margin:0;padding:0;overflow:hidden;background-color:rgba(141, 15, 79, 0.54);-webkit-transform:skew(20deg);-moz-transform:skew(20deg);-o-transform:skew(20deg);transform:skew(20deg);border-left:10px solid #fe9625;}
+.tickercontainer{margin:0;padding:0;overflow:hidden;background-color:rgba(141, 15, 79, 0.54);-webkit-transform:skew(20deg);-moz-transform:skew(20deg);-o-transform:skew(20deg);transform:skew(20deg);border-left:10px solid #fe9625;}
 .tickercontainer .mask{position:relative;left:0;top:0;overflow:hidden;width:100%;}
 ul.newsticker{position:relative;list-style-type:none;margin:0;padding:0;}
 ul.newsticker li{float:left;margin:0 25px;padding:15px 0;font-size:14px;color:#fff;font-weight:700;text-transform:uppercase;cursor:pointer;-webkit-transform:skew(-20deg);-moz-transform:skew(-20deg);-o-transform:skew(-20deg);transform:skew(-20deg);}
