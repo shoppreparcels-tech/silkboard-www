@@ -168,7 +168,7 @@
           <img src="{{asset('https://www.shoppre.com/img/easter.png')}}" width="100%">
           <div class="caption-block">
             <h2 class="text-orange">BORDERLESS SHIPPING FROM INDIA</h2>
-            <h3>Shop from India, Ship Worldwide!</h3>
+            <h3 style="margin-top: -8px !important;">Shop from India, Ship Worldwide!</h3>
             <p>Door to Door Pickup and International & Domestic Delivery.</p>
             <p>Receive your FREE Personal Locker and Virtual Shipping Address in India!</p>
               <br>
@@ -176,8 +176,8 @@
               Video <i class="glyphicon glyphicon-play-circle"></i>
             </a>
             <a href="{{route('schedulePickup.Index')}}" class="btn-home-transparent">Schedule a Pickup</a>
-            <br>
-              <br>
+            <br/>
+            <br/>
              <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">
                Get Virtual Address & Start Shopping
              </a>
@@ -220,7 +220,7 @@
             <li>
               <h2>2-5 Days</h2>
               <h4>Average Delivery Time</h4>
-            </li>            
+            </li>
             <li>
               <h2>Save 60-80%</h2>
               <h4>Storage, Consolidation &amp; Repackaging!</h4>
@@ -449,22 +449,22 @@
       <div class="mdl-grid mdl-grid--no-spacing">
         <h4 class="mdl-cell mdl-cell--12-col footer__popularDestiHeading">Ship your Package From Various Places In India</h4>
         <div class="mdl-cell mdl-cell--12-col">
-            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'india','destination'=>'usa'])}}" 
+            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'india','destination'=>'usa'])}}"
               class="footer__destiLinks text_font">Ship from India / </a>
-            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'bengaluru','destination'=>'usa'])}}" 
+            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'bengaluru','destination'=>'usa'])}}"
               class="footer__destiLinks text_font">Ship from Bengaluru / </a>
-            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'delhi','destination'=>'usa'])}}" 
+            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'delhi','destination'=>'usa'])}}"
               class="footer__destiLinks text_font">Ship from Delhi / </a>
-            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'jaipur','destination'=>'usa'])}}" 
+            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'jaipur','destination'=>'usa'])}}"
               class="footer__destiLinks text_font">Ship from Jaipur / </a>
-            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'mumbai','destination'=>'usa'])}}" 
+            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'mumbai','destination'=>'usa'])}}"
               class="footer__destiLinks text_font">Ship from Mumbai / </a>
-            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'hyderabad','destination'=>'usa'])}}" 
+            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'hyderabad','destination'=>'usa'])}}"
               class="footer__destiLinks text_font">Ship from Hyderabad / </a>
             <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'chennai','destination'=>'usa'])}}"
               class="footer__destiLinks text_font">Ship from Chennai / </a>
-            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'kochi','destination'=>'usa'])}}" 
-              class="footer__destiLinks text_font">Ship from Kochi</a>                  
+            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'kochi','destination'=>'usa'])}}"
+              class="footer__destiLinks text_font">Ship from Kochi</a>
         </div>
       </div>
     </div>
@@ -473,24 +473,24 @@
       <div class="mdl-grid mdl-grid--no-spacing">
         <h4 class="mdl-cell mdl-cell--12-col footer__popularDestiHeading"> Schedule Your Pickup From Various Places In India</h4>
         <div class="mdl-cell mdl-cell--12-col">
-            <a href="{{route('schedulePickup.Index')}}" 
-              class="footer__destiLinks text_font">Schedule pickup from Bangalore / </a>           
-            <a href="{{route('schedulePickup.Index')}}" 
+            <a href="{{route('schedulePickup.Index')}}"
+              class="footer__destiLinks text_font">Schedule pickup from Bangalore / </a>
+            <a href="{{route('schedulePickup.Index')}}"
               class="footer__destiLinks text_font">Schedule pickup from Delhi / </a>
-            <a href="{{route('schedulePickup.Index')}}" 
+            <a href="{{route('schedulePickup.Index')}}"
               class="footer__destiLinks text_font">Schedule pickup from Jaipur / </a>
-            <a href="{{route('schedulePickup.Index')}}" 
+            <a href="{{route('schedulePickup.Index')}}"
               class="footer__destiLinks text_font">Schedule pickup from Mumbai / </a>
-            <a href="{{route('schedulePickup.Index')}}" 
+            <a href="{{route('schedulePickup.Index')}}"
               class="footer__destiLinks text_font">Schedule pickup from Hyderabad / </a>
             <a href="{{route('schedulePickup.Index')}}"
               class="footer__destiLinks text_font">Schedule pickup from Chennai / </a>
-            <a href="{{route('schedulePickup.Index')}}" 
-              class="footer__destiLinks text_font">Schedule pickup from Kochi</a>                  
+            <a href="{{route('schedulePickup.Index')}}"
+              class="footer__destiLinks text_font">Schedule pickup from Kochi</a>
         </div>
       </div>
     </div>
-    </section>   
+    </section>
 @endsection
 
 @section('js_script')
