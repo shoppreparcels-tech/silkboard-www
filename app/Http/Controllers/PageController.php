@@ -333,6 +333,7 @@ class PageController extends Controller
                             ->where('approve', '1')
                             ->limit(5)
                             ->get();
+
         return view('page.home')->with(['reviews' => $reviews]);
     }
     public function about()

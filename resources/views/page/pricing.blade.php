@@ -641,7 +641,7 @@
                             <div class="item">
                                 <div class="col-sm-3 text-center">
                                     @if(!empty($review->country->flag))
-                                        <img src="{{asset('uploads/country')}}/{{$review->country->flag}}"
+                                        <img src="{{asset('img/flags')}}/{{$review->country->flag}}"
                                              class="img-circle">
                                     @endif
                                 </div>

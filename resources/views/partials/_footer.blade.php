@@ -15,10 +15,10 @@
         <div class="col-sm-3">
           <ul class="foot_menu">
             <li><a href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>
+            <li><a href="http://blog.shoppre.com/" target="_blank">Blogs</a></li>
             <li><a href="{{route('services')}}">Our Services</a></li>
             <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/loyalty-points">Shoppre Loyalty Points</a></li>
             <li><a href="{{route('stores')}}">Browse Categories</a></li>
-            <li><a href="https://goo.gl/forms/fEYWqUJjfguCjqif1">Become a Partner</a></li>
             <li><a href="{{route('reviews')}}">Shoppre Reviews</a></li>
             <li><a href="{{route('howitworks')}}">How Personal Shopper Works</a></li>
             <li><a href="{{route('pricing')}}">Shipping and Pricing for your country</a></li>
