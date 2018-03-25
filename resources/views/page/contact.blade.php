@@ -40,7 +40,7 @@
       <div class="blox">
         <img src="{{asset('img/contact4.png')}}">
         <h4>Live Chat</h4>
-        <span><a href="https://www.facebook.com/messages/t/goshoppre">Our Team is at your service 24/7</a></span>
+        <span><a href="https://tawk.to/chat/59d72784c28eca75e4624678/default/?$_tawk_popout=true" target="_blank">Our Team is at your service 24/7</a></span>
       </div>
       <div class="blox">
         <img src="{{asset('img/contact5.png')}}">
@@ -161,7 +161,7 @@
           position: LatLng1,
           map: map1,
         });
-        
+
         var LatLng2 = {lat: 25.2534363, lng: 55.3282428};
         map2 = new google.maps.Map(document.getElementById("map2"), {
             zoom: 14,
@@ -172,7 +172,7 @@
           position: LatLng2,
           map: map2,
         });
-        
+
     }
   </script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQzl11fjwwyiw_KRIV61HN7U-5HPPwmLQ&callback=initialize"></script>
