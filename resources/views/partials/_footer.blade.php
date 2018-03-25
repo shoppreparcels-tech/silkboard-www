@@ -18,7 +18,7 @@
             <li><a href="{{route('services')}}">Our Services</a></li>
             <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/loyalty-points">Shoppre Loyalty Points</a></li>
             <li><a href="{{route('stores')}}">Browse Categories</a></li>
-            <li><a href="{{route('partner')}}">Become a Partner</a></li>
+            <li><a href="https://goo.gl/forms/fEYWqUJjfguCjqif1">Become a Partner</a></li>
             <li><a href="{{route('reviews')}}">Shoppre Reviews</a></li>
             <li><a href="{{route('howitworks')}}">How Personal Shopper Works</a></li>
             <li><a href="{{route('pricing')}}">Shipping and Pricing for your country</a></li>
@@ -47,23 +47,23 @@
           </div>
         </div>
         <div class="clearfix"></div>
-      </div>  
+      </div>
     </div>
   </section>
   <section class="bottom">
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-            <p class="copy">&copy; 2018, All Rights Reserved - by Shoppre</p>
+          <p class="copy">&copy; 2018, All Rights Reserved - by Shoppre</p>
+        </div>
+        <div class="col-sm-6">
+          <div class="terms">
+            <a href="/terms-and-conditions">Terms &amp; conditions</a>
+            <span>|</span>
+            <a href="/privacy-policy/">Privacy policy</a>
           </div>
-          <div class="col-sm-6">
-            <div class="terms">
-              <a href="/terms-and-conditions">Terms &amp; conditions</a>
-              <span>|</span>
-              <a href="/privacy-policy/">Privacy policy</a>
-            </div>
-          </div>
-          <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
       </div>
     </div>
   </section>

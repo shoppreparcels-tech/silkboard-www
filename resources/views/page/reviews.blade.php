@@ -1,5 +1,4 @@
 @extends('layout')
-
 @section('title', 'Shoppre Member Ratings & Reviews - Shoppre Customer Reviews')
 
 @section('description', 'Read our latest Review & Ratings showcasing the excellent service and ship on time. Shoppre members love our top-rated service and how easy and worry-free we make shopping and shipping from INDIA')
@@ -84,6 +83,7 @@
               <input class="rating rated" value="{{$review->rating}}">
               <p>{{$review->review}}</p>
               <i>- {{$review->country->name}}</i>
+              <i>- {{$review->source}}</i>
             </div>
             @endforeach
 

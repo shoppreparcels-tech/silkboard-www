@@ -6,9 +6,30 @@
 
 @section('css_style')
 	<!-- Owl Carousel -->
-  <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
-  <!-- Magnific Popup -->
-  <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <meta property="og:title" content="Start Shipping with Shoppre | India's Best Shipping Partner" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Shoppre your International Shipping Partner. Shop from any Indian online store & ship to your doorstep. Save up to 60-80% on shipping with Shoppre package consolidation service. Sign up now!" />
+    <meta property="og:url" content="https://www.shoppre.com" />
+    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
+    <meta property="og:site_name" content="Shoppre" />
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@Go_Shoppre" />
+    <meta name="twitter:title" content="Start Shipping with Shoppre | India's Best Shipping Partner" />
+    <meta name="twitter:description" content="Shoppre your International Shipping Partner. Shop from any Indian online store & ship to your doorstep. Save up to 60-80% on shipping with Shoppre package consolidation service. Sign up now!" />
+    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
+
+
+    <meta name="twitter:app:country" content="IN" />
+    <meta name="twitter:app:name:googleplay" content="Shoppre - International Shipping from India" />
+    <meta name="twitter:app:id:googleplay" content="com.shoppre.play" />
+    <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/" />
+
   <script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -19,7 +40,7 @@
         "@type": "ImageObject",
         "url": "https://www.shoppre.com/img/logo.png",
         "width": "878",
-        "height": "264" 
+        "height": "264"
     },
     "url": "https://www.shoppre.com/",
     "mainEntityOfPage": "https://www.shoppre.com",
@@ -36,7 +57,7 @@
             "@type": "ImageObject",
             "url": "https://www.shoppre.com/img/logo.png",
             "height": "264",
-            "width": "878" 
+            "width": "878"
         },
         "telephone": "+91 80409 44077",
         "address": {
@@ -46,7 +67,7 @@
             "addressLocality": "Bengaluru",
             "addressRegion": "Karnataka",
             "postalCode": "560034",
-            "addressCountry": "IN" 
+            "addressCountry": "IN"
         },
         "location": {
             "@type": "Place",
@@ -56,14 +77,14 @@
             "geo": {
                 "@type": "GeoCoordinates",
                 "latitude": "12.9257998",
-                "longitude": "77.6332563" 
+                "longitude": "77.6332563"
                    }
             }
        }
-  }     
-       
+  }
+
 </script>
- 
+
  <script type="application/ld+json">
  { "@context": "http://schema.org",
  "@type": "Organization",
@@ -95,7 +116,7 @@
  "telephone": "[+918040944077]",
  "email": "support@shoppre.com"
  },
- "sameAs": [ 
+ "sameAs": [
     "https://www.facebook.com/goshoppre",
     "https://twitter.com/Go_Shoppre",
     "https://plus.google.com/+SHOPPRECOM",
@@ -107,7 +128,7 @@
  ]}
 </script>
 
-<script type='application/ld+json'> 
+<script type='application/ld+json'>
 {
   "@context": "http://www.schema.org",
   "@type": "Website",
@@ -124,7 +145,7 @@
     "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
     "https://www.linkedin.com/company/17945446",
     "https://in.pinterest.com/shoppre",
-    "https://play.google.com/store/apps/details?id=com.shoppre.play",   
+    "https://play.google.com/store/apps/details?id=com.shoppre.play",
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
   ]
 }
@@ -144,17 +165,19 @@
     <!-- Home Page Contents -->
     <section class="slider">
         <div class="slide">
-          <img src="{{asset('https://myaccount.shoppre.com/img/slider1.jpg')}}" width="100%">
+          <img src="{{asset('https://www.shoppre.com/img/easter.png')}}" width="100%">
           <div class="caption-block">
             <h2 class="text-orange">BORDERLESS SHIPPING FROM INDIA</h2>
             <h3>Shop from India, Ship Worldwide!</h3>
             <p>Door to Door Pickup and International & Domestic Delivery.</p>
             <p>Receive your FREE Personal Locker and Virtual Shipping Address in India!</p>
-            <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-shoppre popup-youtube">
+              <br>
+            <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn-home-transparent popup-youtube">
               Video <i class="glyphicon glyphicon-play-circle"></i>
             </a>
-            <a href="{{route('schedulePickup.Index')}}" class="btn btn-shoppre">Schedule a Pickup</a>
+            <a href="{{route('schedulePickup.Index')}}" class="btn-home-transparent">Schedule a Pickup</a>
             <br>
+              <br>
              <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">
                Get Virtual Address & Start Shopping
              </a>
@@ -398,6 +421,7 @@
                   <p>{{$review->review}}</p>
                   <span class="name">{{$review->person}}</span>
                   <span>{{$review->country->name}}</span>
+                  <span>{{$review->source}}</span>
                 </div>
                 <div class="clearfix"></div>
               </div>
