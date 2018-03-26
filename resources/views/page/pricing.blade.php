@@ -789,7 +789,7 @@
                               res.prices.map(function(price) {
 
                                 html += ' <tr> ' +
-                                '<td>' + price.partner_name+ '</td>' +
+                                // '<td>' + price.partner_name+ '</td>' +
                                 ' <td class="bg-white">' +
                                 ' <span>' + price.time+ '</span> Business Days' +
                                 ' <span class="text-red">**</span>' +
