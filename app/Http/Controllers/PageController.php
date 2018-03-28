@@ -162,6 +162,10 @@ class PageController extends Controller
     {
         return view('page.consolidation');
     }
+    public function personalShopper()
+    {
+        return view('page.personal-shopper');
+    }
     public function countryList()
     {
        $countries = Country::orderBy('name','asc')->get();
@@ -428,10 +432,10 @@ class PageController extends Controller
         $rates = ShippingRate::
         select('shipping_rates.rate_type',
           'shipping_rates.amount',
-          'shipping_rates.timerange',
-          'shipping_rates.partner_id',
-          'partners.name as partner_name')
-          ->join('partners', 'shipping_rates.partner_id', '=', 'partners.id')
+          'shipping_rates.timerange')
+//          'shipping_rates.partner_id',
+//          'partners.name as partner_name')
+//          ->join('partners', 'shipping_rates.partner_id', '=', 'partners.id')
           ->where('country_id', $country->id)
           ->where('item_type', $type)
           ->where('min', '<', $weight)
@@ -450,7 +454,7 @@ class PageController extends Controller
               'time' => $rate->timerange,
               'amount' => $amount,
               'discount'=> $discount,
-              'partner_name'=> $rate->partner_name,
+//              'partner_name'=> $rate->partner_name,
               ]);
           }
           return response()->json([

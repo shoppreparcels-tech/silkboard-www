@@ -547,7 +547,7 @@
                                     <i class="fa fa-question-circle-o"></i>
                                 </a>
                             </td>
-                            <td class="cell-2"><strike>INR 100</strike>  Free </td>
+                            <td class="cell-2"><strike>INR 100</strike> Free </td>
                         </tr>
                         <tr>
                             <td>Real-time Shipment Tracking
@@ -795,7 +795,7 @@
                                 ' <span class="text-red">**</span>' +
                                 ' </td>' +
                                 '<td>' +
-                                '<i class="fa fa-rupee"></i> <span>' + (price.discount/100) * price.amount+ '</span>' +
+                                '<i class="fa fa-rupee"></i> <span>' + ((100-price.discount)/100) * price.amount+ '</span>' +
                                 ' </td>' +
                                 ' <td>' +
                                 '<span class="striked">' +
