@@ -445,29 +445,29 @@
         </div>
       </div>
       <hr>
-      <div class="container">
-      <div class="mdl-grid mdl-grid--no-spacing">
-        <h4 class="mdl-cell mdl-cell--12-col footer__popularDestiHeading">Ship your Package From Various Places In India</h4>
-        <div class="mdl-cell mdl-cell--12-col">
-            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'india','destination'=>'usa'])}}"
-              class="footer__destiLinks text_font">Ship from India / </a>
-            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'bengaluru','destination'=>'usa'])}}"
-              class="footer__destiLinks text_font">Ship from Bengaluru / </a>
-            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'delhi','destination'=>'usa'])}}"
-              class="footer__destiLinks text_font">Ship from Delhi / </a>
-            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'jaipur','destination'=>'usa'])}}"
-              class="footer__destiLinks text_font">Ship from Jaipur / </a>
-            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'mumbai','destination'=>'usa'])}}"
-              class="footer__destiLinks text_font">Ship from Mumbai / </a>
-            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'hyderabad','destination'=>'usa'])}}"
-              class="footer__destiLinks text_font">Ship from Hyderabad / </a>
-            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'chennai','destination'=>'usa'])}}"
-              class="footer__destiLinks text_font">Ship from Chennai / </a>
-            <a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'kochi','destination'=>'usa'])}}"
-              class="footer__destiLinks text_font">Ship from Kochi</a>
-        </div>
-      </div>
-    </div>
+      {{--<div class="container">--}}
+      {{--<div class="mdl-grid mdl-grid--no-spacing">--}}
+        {{--<h4 class="mdl-cell mdl-cell--12-col footer__popularDestiHeading">Ship your Package From Various Places In India</h4>--}}
+        {{--<div class="mdl-cell mdl-cell--12-col">--}}
+            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'india','destination'=>'usa'])}}"--}}
+              {{--class="footer__destiLinks text_font">Ship from India / </a>--}}
+            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'bengaluru','destination'=>'usa'])}}"--}}
+              {{--class="footer__destiLinks text_font">Ship from Bengaluru / </a>--}}
+            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'delhi','destination'=>'usa'])}}"--}}
+              {{--class="footer__destiLinks text_font">Ship from Delhi / </a>--}}
+            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'jaipur','destination'=>'usa'])}}"--}}
+              {{--class="footer__destiLinks text_font">Ship from Jaipur / </a>--}}
+            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'mumbai','destination'=>'usa'])}}"--}}
+              {{--class="footer__destiLinks text_font">Ship from Mumbai / </a>--}}
+            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'hyderabad','destination'=>'usa'])}}"--}}
+              {{--class="footer__destiLinks text_font">Ship from Hyderabad / </a>--}}
+            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'chennai','destination'=>'usa'])}}"--}}
+              {{--class="footer__destiLinks text_font">Ship from Chennai / </a>--}}
+            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'kochi','destination'=>'usa'])}}"--}}
+              {{--class="footer__destiLinks text_font">Ship from Kochi</a>--}}
+        {{--</div>--}}
+      {{--</div>--}}
+    {{--</div>--}}
      <hr>
      <div class="container">
       <div class="mdl-grid mdl-grid--no-spacing">

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\SchedulePickup;
+use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\EmailSchedulePickup;
