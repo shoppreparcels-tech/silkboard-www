@@ -444,7 +444,7 @@
           </div>
         </div>
       </div>
-      <hr>
+      {{--<hr>--}}
       {{--<div class="container">--}}
       {{--<div class="mdl-grid mdl-grid--no-spacing">--}}
         {{--<h4 class="mdl-cell mdl-cell--12-col footer__popularDestiHeading">Ship your Package From Various Places In India</h4>--}}
