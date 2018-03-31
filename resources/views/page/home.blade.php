@@ -187,6 +187,7 @@
           </div>
         </div>
     </section>
+
     <section class="all-about">
       <div class="container">
         <div class="row">
@@ -232,6 +233,7 @@
         </div>
       </div>
     </section>
+
     <section class="services">
       <div class="container">
         <div class="row">
@@ -268,6 +270,7 @@
         </div>
       </div>
     </section>
+
     <section class="works">
       <div class="container">
         <div class="row">
@@ -322,6 +325,7 @@
         </div>
       </div>
     </section>
+
     <section class="brandslove">
       <div class="container">
         <div class="row">
@@ -364,6 +368,7 @@
         </div>
       </div>
     </section>
+
     <section class="pricing">
       <div class="container">
         <div class="row">
@@ -401,39 +406,41 @@
         </div>
       </div>
     </section>
-    <section class="testimonails">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="square-box">
-              <h3>What Our</h3>
-              <h2>Members <span class="orange">Say!</span></h2>
-            </div>
-          </div>
-          <div class="col-sm-8">
-            <div class="testimons owl-carousel">
-              @foreach($reviews as $review)
-              <div class="item">
-                <div class="col-sm-3 text-center">
-                  <img src="{{asset('img/flags')}}/{{$review->country->flag}}" class="img-circle">
-                </div>
-                <div class="col-sm-9">
-                  <p>{{$review->review}}</p>
-                  <span class="name">{{$review->person}}</span>
-                  <span>{{$review->country->name}}</span>
-                  <span>{{$review->source}}</span>
-                </div>
-                <div class="clearfix"></div>
-              </div>
-              @endforeach
-            </div>
-            <div class="text-center">
-              <a href="{{route('reviews')}}" class="btn orange">View All Shoppre Reviews</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
+    {{--<section class="testimonails">--}}
+      {{--<div class="container">--}}
+        {{--<div class="row">--}}
+          {{--<div class="col-sm-4">--}}
+            {{--<div class="square-box">--}}
+              {{--<h3>What Our</h3>--}}
+              {{--<h2>Members <span class="orange">Say!</span></h2>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+          {{--<div class="col-sm-8">--}}
+            {{--<div class="testimons owl-carousel">--}}
+              {{--@foreach($reviews as $review)--}}
+              {{--<div class="item">--}}
+                {{--<div class="col-sm-3 text-center">--}}
+                  {{--<img src="{{asset('img/flags')}}/{{$review->country->flag}}" class="img-circle">--}}
+                {{--</div>--}}
+                {{--<div class="col-sm-9">--}}
+                  {{--<p>{{$review->review}}</p>--}}
+                  {{--<span class="name">{{$review->person}}</span>--}}
+                  {{--<span>{{$review->country->name}}</span>--}}
+                  {{--<span>{{$review->source}}</span>--}}
+                {{--</div>--}}
+                {{--<div class="clearfix"></div>--}}
+              {{--</div>--}}
+              {{--@endforeach--}}
+            {{--</div>--}}
+            {{--<div class="text-center">--}}
+              {{--<a href="{{route('reviews')}}" class="btn orange">View All Shoppre Reviews</a>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+      {{--</div>--}}
+    {{--</section>--}}
+
     <section class="signup_free">
       <div class="container">
         <div class="row">
@@ -491,6 +498,7 @@
       </div>
     </div>
     </section>
+
 @endsection
 
 @section('js_script')

@@ -325,21 +325,18 @@ class PageController extends Controller
             return redirect(route('home'));
         }
     }
-    public function home()
-    {
-//        if(isset($_SERVER['HTTP_REFERER']))
-//        {
-//        $refercode = $_SERVER['HTTP_REFERER'];
-//        echo $refercode;
-//        exit;
-//        }
+
+    public function home() {
         $reviews = Review::orderBy('updated_at', 'desc')
                             ->where('approve', '1')
                             ->limit(5)
                             ->get();
 
-        return view('page.home')->with(['reviews' => $reviews]);
+        return view('page.home')->with([
+            'reviews' => $reviews
+        ]);
     }
+
     public function about()
     {
         return view('page.about');

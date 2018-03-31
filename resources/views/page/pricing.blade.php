@@ -635,29 +635,29 @@
                         <h2>Members <span class="orange">Say!</span></h2>
                     </div>
                 </div>
-                <div class="col-sm-8">
-                    <div class="testimons owl-carousel">
-                        @foreach($reviews as $review)
-                            <div class="item">
-                                <div class="col-sm-3 text-center">
-                                    @if(!empty($review->country->flag))
-                                        <img src="{{asset('img/flags')}}/{{$review->country->flag}}"
-                                             class="img-circle">
-                                    @endif
-                                </div>
-                                <div class="col-sm-9">
-                                    <p>{{$review->review}}</p>
-                                    <span class="name">{{$review->person}}</span>
-                                    <span>{{$review->country->name}}</span>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        @endforeach
-                    </div>
-                    <div class="text-center">
-                        <a href="{{route('reviews')}}" class="btn orange">View All Shoppre Reviews</a>
-                    </div>
-                </div>
+                {{--<div class="col-sm-8">--}}
+                    {{--<div class="testimons owl-carousel">--}}
+                        {{--@foreach($reviews as $review)--}}
+                            {{--<div class="item">--}}
+                                {{--<div class="col-sm-3 text-center">--}}
+                                    {{--@if(!empty($review->country->flag))--}}
+                                        {{--<img src="{{asset('img/flags')}}/{{$review->country->flag}}"--}}
+                                             {{--class="img-circle">--}}
+                                    {{--@endif--}}
+                                {{--</div>--}}
+                                {{--<div class="col-sm-9">--}}
+                                    {{--<p>{{$review->review}}</p>--}}
+                                    {{--<span class="name">{{$review->person}}</span>--}}
+                                    {{--<span>{{$review->country->name}}</span>--}}
+                                {{--</div>--}}
+                                {{--<div class="clearfix"></div>--}}
+                            {{--</div>--}}
+                        {{--@endforeach--}}
+                    {{--</div>--}}
+                    {{--<div class="text-center">--}}
+                        {{--<a href="{{route('reviews')}}" class="btn orange">View All Shoppre Reviews</a>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
             </div>
         </div>
     </section>
