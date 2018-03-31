@@ -15,7 +15,7 @@ class CreateStoreCatClubsTable extends Migration
     {
         Schema::create('store_cat_clubs', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('cat_id');
+            $table->integer('category_id');
             $table->integer('store_id');
             $table->text('url');
             $table->smallInteger('rank');

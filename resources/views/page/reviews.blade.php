@@ -76,7 +76,7 @@
       <div class="container">
         <div class="col-md-8">
           <div class="list">
-            <h3>Latest Reviews</h3>            
+            <h3>Latest Reviews</h3>
             @foreach($reviews as $review)
             <div class="blox">
               <h4>By <span>{{$review->person}}</span> on {{date('j F, Y', strtotime($review->created_at))}}</h4>

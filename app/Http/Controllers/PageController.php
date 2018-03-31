@@ -483,17 +483,17 @@ class PageController extends Controller
     public function stores()
     {
         $categories = StoreCategory::orderBy('category', 'asc')->get();
-        $webs = StoreCatClub::where('cat_id', 1)
+        $webs = StoreCatClub::where('category_id', 1)
                             ->where('type', 'web')
                             ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
                             ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
                             ->get();
-        $fbs = StoreCatClub::where('cat_id', 1)
+        $fbs = StoreCatClub::where('category_id', 1)
                             ->where('type', 'fb')
                             ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
                             ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
                             ->get();
-        $feats = StoreCatClub::where('cat_id', 1)
+        $feats = StoreCatClub::where('category_id', 1)
                             ->where('featured', 1)
                             ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
                             ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
@@ -512,21 +512,21 @@ class PageController extends Controller
         $cat = $request->cat;
         $stores = array();
 
-        $stores['web'] = StoreCatClub::where('cat_id', $cat)
+        $stores['web'] = StoreCatClub::where('category_id', $cat)
                             ->where('type', 'web')
                             ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
                             ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
                             ->get()
                             ->toArray();
 
-        $stores['fb'] = StoreCatClub::where('cat_id', $cat)
+        $stores['fb'] = StoreCatClub::where('category_id', $cat)
                             ->where('type', 'fb')
                             ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
                             ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
                             ->get()
                             ->toArray();
 
-        $stores['feat'] = StoreCatClub::where('cat_id', $cat)
+        $stores['feat'] = StoreCatClub::where('category_id', $cat)
                             ->where('featured', 1)
                             ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
                             ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
