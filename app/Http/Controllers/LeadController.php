@@ -44,7 +44,7 @@ class LeadController extends Controller
         $setting->customer_id = $customer->id;
         $setting->save();
         $balance = new ShopperBalance;
-        $balance->custid = $customer->id;
+        $balance->customer_id = $customer->id;
         $balance->amount = 0;
         $balance->save();
 
