@@ -4,11 +4,7 @@ namespace App\Http\Controllers;
 
 use App\FirstVisit;
 use App\HttpReferrer;
-use App\Mail\EmailChat;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Mail;
-
 use Auth;
 use App\Customer;
 use App\CustomerContact;
@@ -16,33 +12,13 @@ use App\LoyaltyPoint;
 use App\RefferCode;
 use App\ShippingPreference;
 use App\ShopperBalance;
-use App\Mail\EmailVerification;
+
 
 
 class LeadController extends Controller
 {
     public function create(Request $request)
     {
-//        $loyalPoints = 0;
-//        if (!empty($request->refferal)) {
-//            $reffer = RefferCode::where('friend', $request->email)->where('code', $request->refferal)->first();
-//            if (!empty($reffer)) {
-//                $loyalPoints = 100;
-//                $firendId = LoyaltyPoint::where('custid', $reffer->custid)->first()->id;
-//                $friend = LoyaltyPoint::find($firendId);
-//                $friend->points += $loyalPoints;
-//                $friend->total += $loyalPoints;
-//                $friendLevel = $friend->level;
-//                if ($friend->total > 1000) {
-//                    $friendLevel = (int)($friend->total / 1000) + 1;
-//                }
-//                $friend->level = $friendLevel;
-//                $friend->save();
-//            }else{
-//                return redirect()->back()->with('error', 'You may entered an invalid refferal code. Try with another or proceed without.');
-//            }
-//        }
-
         $customer = new Customer;
         $customer->name = $request->first_name." ".$request->last_name;
         $customer->email = $request->email;
@@ -87,7 +63,7 @@ class LeadController extends Controller
         $first_visit->url = $request->first_visit;
         $first_visit->customer_id = $customer->id;
         $first_visit->save();
-//      $this->sendEmailVerification($request->email);
+
         return "Success Registration";
     }
 }
