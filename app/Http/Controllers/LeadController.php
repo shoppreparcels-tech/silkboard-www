@@ -35,13 +35,13 @@ class LeadController extends Controller
         $contact->customer_id = $customer->id;
         $contact->save();
         $loyalty = new LoyaltyPoint;
-        $loyalty->custid = $customer->id;
+        $loyalty->customer_id = $customer->id;
         $loyalty->level = 1;
         $loyalty->points = 0;
         $loyalty->total = 0;
         $loyalty->save();
         $setting = new ShippingPreference;
-        $setting->custid = $customer->id;
+        $setting->customer_id = $customer->id;
         $setting->save();
         $balance = new ShopperBalance;
         $balance->custid = $customer->id;
