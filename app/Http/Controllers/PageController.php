@@ -3,8 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\CampaignStatistics;
-use App\CountryCities;
-use App\FlyerUsers;
+use App\City;
 use App\Mail\EmailChat;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -24,13 +23,10 @@ use App\ChatEmail;
 
 use App\Mail\ContactEnquiry;
 use App\Mail\GetQuote;
-use App\Http\Controllers\SchedulePickup;
 
 
 class PageController extends Controller
 {
-
-
     public function saveFlyerUser(Request $request)
     {
         $emp_id = 616;
@@ -182,7 +178,7 @@ class PageController extends Controller
         $country = Country::where('slug',$destination)->first();
         if(!$country)
         {
-            $city = CountryCities::where('slug',$destination)->first();
+            $city = City::where('slug',$destination)->first();
             if ($city)
             {
                 $country = Country::find($city->country_id);
@@ -235,7 +231,7 @@ class PageController extends Controller
         $country = Country::where('slug',$destination)->first();
         if(!$country)
         {
-            $city = CountryCities::where('slug',$destination)->first();
+            $city = City::where('slug',$destination)->first();
             if ($city)
             {
                 $country = Country::find($city->country_id);
@@ -287,7 +283,7 @@ class PageController extends Controller
         $country = Country::where('slug',$destination)->first();
         if(!$country)
         {
-            $city = CountryCities::where('slug',$destination)->first();
+            $city = City::where('slug',$destination)->first();
             if ($city)
             {
                 $country = Country::find($city->country_id);
