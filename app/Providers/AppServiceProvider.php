@@ -19,7 +19,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
 
-        View::composer('*', 'App\Http\ViewComposers\GlobalComposer');
+
 
         $promos = PromoCode::where('featured', '1')
             ->whereDate('validity', '>=', date('Y-m-d'))
