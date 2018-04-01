@@ -244,7 +244,7 @@
         });
 
         if (!localStorage.popupClose) {
-            var t = setTimeout(popupFunction, 6000);
+            // var t = setTimeout(popupFunction, 6000);
         }
 
         function popupFunction() {
