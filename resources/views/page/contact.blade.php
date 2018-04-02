@@ -45,9 +45,7 @@
       <div class="blox">
         <img src="{{asset('img/contact5.png')}}">
         <h4>Hours</h4>
-        <span>Monday - Friday<br>
-        9:00 AM - 5:00 PM IST<br>
-        GMT -05:00</span>
+        <span>Monday - Sunday<br>service 24/7</span>
       </div>
     </div>
   </section>
