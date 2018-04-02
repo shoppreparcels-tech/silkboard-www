@@ -74,8 +74,8 @@
                                     <select class="select2 form-control" name="phone_code"  >
                                         <option value="">Country Code</option>
                                         @foreach($countries as $country)
-                                            <option value="{{$country->phonecode}}">{{$country->iso}}
-                                                (+{{$country->phonecode}})
+                                            <option value="{{$country->phone_code}}">{{$country->iso}}
+                                                (+{{$country->phone_code}})
                                             </option>
                                         @endforeach
                                     </select>
@@ -310,8 +310,8 @@
                                         <select class="select2 form-control" name="dc_phone_code"  >
                                             <option value="">Country Code</option>
                                             @foreach($countries as $country)
-                                                <option value="{{$country->phonecode}}">{{$country->iso}}
-                                                    (+{{$country->phonecode}})
+                                                <option value="{{$country->phone_code}}">{{$country->iso}}
+                                                    (+{{$country->phone_code}})
                                                 </option>
                                             @endforeach
                                         </select>

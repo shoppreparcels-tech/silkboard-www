@@ -14,7 +14,7 @@ class AddDiscountToCountriesTable extends Migration
     public function up()
     {
         Schema::table('countries', function (Blueprint $table) {
-            $table->smallInteger('discount')->after('phonecode')->default(60)->nullable();
+            $table->smallInteger('discount')->after('phone_code')->default(60)->nullable();
         });
     }
 
