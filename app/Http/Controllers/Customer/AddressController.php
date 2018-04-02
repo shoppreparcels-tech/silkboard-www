@@ -57,7 +57,7 @@ class AddressController extends Controller
     	$address->state = $request->state;
     	$address->city = $request->city;
         $address->country = $country->name;
-        $address->countrid = $country->id;
+        $address->country_id = $country->id;
     	$address->pin = $request->pin;
     	$address->code = $request->code;
     	$address->phone = $request->phone;
@@ -115,7 +115,7 @@ class AddressController extends Controller
     	$address->state = $request->state;
     	$address->city = $request->city;
         $address->country = $country->name;
-        $address->countrid = $country->id;
+        $address->country_id = $country->id;
     	$address->pin = $request->pin;
     	$address->code = $request->code;
     	$address->phone = $request->phone;

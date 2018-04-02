@@ -19,8 +19,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
 
-
-
         $promos = PromoCode::where('featured', '1')
             ->whereDate('validity', '>=', date('Y-m-d'))
             ->get();
