@@ -547,14 +547,14 @@ class PageController extends Controller
     {
         $this->validate($request, [
             'person' => 'required|max:250',
-            'countrid' => 'required',
+            'country_id' => 'required',
             'review' => 'required',
             'rating' => 'required',
         ]);
 
         $review = new Review;
         $review->person = $request->person;
-        $review->countrid = $request->countrid;
+        $review->country_id = $request->country_id;
         $review->review = $request->review;
         $review->rating = $request->rating;
         $review->approve = '0';

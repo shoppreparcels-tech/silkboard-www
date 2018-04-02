@@ -106,14 +106,14 @@
               </div>
               <div class="form-group">
                 <label>Country *</label>
-                <select class="form-control select2" name="countrid">
+                <select class="form-control select2" name="country_id">
                   <option value="">Select Country</option>
                     @foreach($countries as $country)
                       <option value="{{$country->id}}">{{$country->name}}</option>
                     @endforeach
                 </select>
-                @if ($errors->has('countrid'))
-                    <span class="error">{{ $errors->first('countrid') }}</span>
+                @if ($errors->has('country_id'))
+                    <span class="error">{{ $errors->first('country_id') }}</span>
                 @endif
               </div>
               <div class="form-group">
