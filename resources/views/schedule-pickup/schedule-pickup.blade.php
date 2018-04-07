@@ -38,8 +38,8 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label>First Name <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter first name" name="first_name"
-                                       />
+                                <input type="text" class="form-control" placeholder="Enter first name"
+                                       name="first_name"/>
                                 @if ($errors->has('first_name'))
                                     <span class="error">{{ $errors->first('first_name') }}</span>
                                 @endif
@@ -49,8 +49,8 @@
                         <div class="col-sm-6">
                             <div class="form-group label-align">
                                 <label>Last Name <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter last name" name="last_name"
-                                        />
+                                <input type="text" class="form-control" placeholder="Enter last name"
+                                       name="last_name"/>
                                 @if ($errors->has('last_name'))
                                     <span class="error">{{ $errors->first('last_name') }}</span>
                                 @endif
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                     </div>
-                    <h4 class="head-align"><u>PICK-UP ADDRESS :</u></h4>
+                    <h4 class="head-align"><u> PICK-UP ADDRESS :</u></h4>
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="form-group">
@@ -152,11 +152,19 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-sm-12">
+                        <div class="col-sm-6">
                             <div class="form-group">
                                 <label>Mobile <span class="mendatory_fields">*</span> :</label>
                                 <input type="text" class="form-control" placeholder="Enter Mobile"
                                        name="pc_contact_no"  />
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group label-align">
+                                <label>Email :</label>
+                                <input type="text" class="form-control" placeholder="Enter Email"
+                                       name="pc_email"  />
                                 <div class="clearfix"></div>
                             </div>
                         </div>
@@ -340,11 +348,23 @@
                                     support@shoppre.com </u>, Swift Code: AXISINBB009<br>
                                 <input type="radio" name="payment_option" value="paypal"> PayPal - 10% Extra -
                                 support@shoppre.com<br>
-                                <input type="radio" name="payment_option" value="paytm"> Paytm - {{env('PAYTM_CHARGE')}}% Extra - 9148357733
+                                <input type="radio" name="payment_option" value="paytm">
+                                Paytm - {{env('PAYTM_CHARGE')}}% Extra - 9148357733
+                                <br>
+                                <input type="radio" name="payment_option" value="card"> Debit/Credit Card
                                 <div class="clearfix"></div>
                                 @if ($errors->has('payment_option'))
                                     <span class="error">{{ $errors->first('payment_option') }}</span>
                                 @endif
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>Comment <span class="mendatory_fields"></span>:</label>
+                                <input type="text" name="comment" class="form-control"
+                                       placeholder="Enter Any Extra Comment ......." />
                             </div>
                         </div>
                     </div>
@@ -456,6 +476,7 @@
                     var pc_city = $("input[name='pc_city']").val();
                     var pc_state = $("select[name='pc_state']").val();
                     var pc_contact_no = $("input[name='pc_contact_no']").val();
+                    var pc_email = $("input[name='pc_email']").val();
                     var dc_fname = $("input[name='dc_fname']").val();
                     var dc_lname = $("input[name='dc_lname']").val();
                     var dc_street = $("input[name='dc_street']").val();
@@ -465,6 +486,7 @@
                     var dc_pincode = $("input[name='dc_pincode']").val();
                     var dc_phone_code = $("select[name='dc_phone_code']").val();
                     var dc_contact_no = $("input[name='dc_contact_no']").val();
+                    var comment = $("input[name='comment']").val();
 
                         // alert(email);
 
@@ -499,6 +521,7 @@
                             pc_pincode:pc_pincode,
                             pc_state: pc_state,
                             pc_contact_no: pc_contact_no,
+                            pc_email: pc_email,
                             dc_fname: dc_fname,
                             dc_lname: dc_lname,
                             dc_street: dc_street,
@@ -507,7 +530,8 @@
                             dc_country: dc_country,
                             dc_pincode: dc_pincode,
                             dc_phone_code: dc_phone_code,
-                            dc_contact_no: dc_contact_no
+                            dc_contact_no: dc_contact_no,
+                            comment: comment
                         },
                         success: function (data){
                             $("#schedule_load").hide();
