@@ -12,7 +12,9 @@
 
     <meta property="og:title" content="Start Shipping with Shoppre | India's Best Shipping Partner" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Shoppre your International Shipping Partner. Shop from any Indian online store & ship to your doorstep. Save up to 60-80% on shipping with Shoppre package consolidation service. Sign up now!" />
+    <meta property="og:description" content="Shoppre your International Shipping Partner.
+     Shop from any Indian online store & ship to your doorstep. Save up to 60-80%
+      on shipping with Shoppre package consolidation service. Sign up now!" />
     <meta property="og:url" content="https://www.shoppre.com" />
     <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
     <meta property="og:site_name" content="Shoppre" />
@@ -21,7 +23,9 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@Go_Shoppre" />
     <meta name="twitter:title" content="Start Shipping with Shoppre | India's Best Shipping Partner" />
-    <meta name="twitter:description" content="Shoppre your International Shipping Partner. Shop from any Indian online store & ship to your doorstep. Save up to 60-80% on shipping with Shoppre package consolidation service. Sign up now!" />
+    <meta name="twitter:description" content="Shoppre your International Shipping Partner.
+     Shop from any Indian online store & ship to your doorstep. Save up to 60-80% on shipping
+      with Shoppre package consolidation service. Sign up now!" />
     <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
 
 
@@ -35,7 +39,8 @@
     "@context": "http://schema.org",
     "@type": "WebPage",
     "name": "Borderless Shipping: Parcel Delivery & Courier Services | Shoppre India",
-    "description": "Shoppre leading provider of parcel delivery company in India. Shipping your items to worldwide & reaches within 2-5 working days, save 60-80% on shipping cost.",
+    "description": "Shoppre leading provider of parcel delivery company in India.
+     Shipping your items to worldwide & reaches within 2-5 working days, save 60-80% on shipping cost.",
     "image": {
         "@type": "ImageObject",
         "url": "https://www.shoppre.com/img/logo.png",
@@ -52,7 +57,15 @@
         "@type": "Organization",
         "name": "Shoppre",
         "url": "https://www.shoppre.com",
-        "sameAs": ["https://twitter.com/Go_Shoppre","https://www.facebook.com/goshoppre","https://plus.google.com/+SHOPPRECOM","https://www.linkedin.com/company/17945446","https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw","https://www.instagram.com/shoppre_official","https://www.pinterest.com/shoppre","https://play.google.com/store/apps/details?id=com.shoppre.play", "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"],
+        "sameAs": ["https://twitter.com/Go_Shoppre",
+        "https://www.facebook.com/goshoppre",
+        "https://plus.google.com/+SHOPPRECOM",
+        "https://www.linkedin.com/company/17945446",
+        "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+        "https://www.instagram.com/shoppre_official",
+        "https://www.pinterest.com/shoppre",
+        "https://play.google.com/store/apps/details?id=com.shoppre.play",
+         "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"],
         "image": {
             "@type": "ImageObject",
             "url": "https://www.shoppre.com/img/logo.png",
@@ -124,7 +137,8 @@
     "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
     "https://www.linkedin.com/company/17945446",
     "https://in.pinterest.com/shoppre",
-    "https://play.google.com/store/apps/details?id=com.shoppre.play",                   "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
+    "https://play.google.com/store/apps/details?id=com.shoppre.play",
+    "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
  ]}
 </script>
 
@@ -136,7 +150,8 @@
   "alternateName": "Borderless Shipping From India, Shoppre.com",
   "url": "https://www.shoppre.com",
   "image": "https://www.shoppre.com/img/logo.png",
-  "description": "Shoppre leading provider of parcel delivery company in India. Shipping your items to worldwide & reaches within 2-5 working days, save 60-80% on shipping cost.",
+  "description": "Shoppre leading provider of parcel delivery company in India.
+  Shipping your items to worldwide & reaches within 2-5 working days, save 60-80% on shipping cost.",
     "sameAs": [
     "https://www.facebook.com/goshoppre/",
     "https://twitter.com/Go_Shoppre",
@@ -165,7 +180,7 @@
     <!-- Home Page Contents -->
     <section class="slider">
         <div class="slide">
-          <img src="{{asset('https://myaccount.shoppre.com/img/slider1.jpg')}}" width="100%">
+          <img src="{{asset('/img/000.jpg')}}" width="100%">
           <div class="caption-block">
             <h2 class="text-orange">BORDERLESS SHIPPING FROM INDIA</h2>
             <h3 style="margin-top: -8px !important;">Shop from India, Ship Worldwide!</h3>
@@ -243,22 +258,31 @@
                 <h2>Our</h2>
                 <h2 class="red">Services</h2>
               </div>
-              <p class="head-text">We are passionate about delivering happiness through every box with the products you love from India!</p>
+              <p class="head-text">We are passionate about delivering happiness through every box with the
+                  products you love from India!
+              </p>
               <ul>
                 <li>
                   <h3>SHOP AND SHIP</h3>
                   <h4>Always wanted to get products from India?</h4>
-                  <p>Sign up for free and get your own Indian shipping address. Shop from any Indian online store. Enjoy our storage facilities, get your purchases consolidated and delivered at your doorstep abroad.</p>
+                  <p>Sign up for free and get your own Indian shipping address. Shop
+                      from any Indian online store. Enjoy our storage facilities,
+                      get your purchases consolidated and delivered at your doorstep abroad.
+                  </p>
                 </li>
                 <li>
                   <h3>PERSONAL SHOPPER</h3>
                   <h4>Your International Credit Card isn’t accepted on some portals?</h4>
-                  <p>Simply provide us the product and merchant details; our Personal Shopper will purchase the items for you and get what you love!</p>
+                  <p>Simply provide us the product and merchant details;
+                      our Personal Shopper will purchase the items for you and get what you love!
+                  </p>
                 </li>
                 <li>
                   <h3>SHOPPING GUIDE</h3>
                   <h4>Don’t know where to shop the product that you need from?</h4>
-                  <p>We are there to help you through our various filters to select which portal you can shop your favorite product from.</p>
+                  <p>We are there to help you through our various filters
+                      to select which portal you can shop your favorite product from.
+                  </p>
                 </li>
               </ul>
               <div class="clearfix"></div>
@@ -283,37 +307,48 @@
               <li>
                 <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">
                 <h3>Join</h3>
-                <p>Sign up with Shoppre and receive your FREE Personal Locker with a Virtual Indian Shipping Address.</p>
+                <p>Sign up with Shoppre and receive your FREE Personal Locker with a Virtual Indian
+                    Shipping Address.
+                </p>
                 </a>
               </li>
               <li>
                 <a href="{{route('stores')}}">
                 <h3>Explore</h3>
-                <p>Find out from which Indian Online store you can get your favorite product.</p>
+                <p>Find out from which Indian Online store you can get your favorite product.
+                </p>
                 </a>
               </li>
               <li>
                 <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/locker">
                 <h3>USE YOUR SHOPPRE ADDRESS</h3>
-                <p>Use your Shoppre Address to shop from ANY Indian Shopping Website.</p>
+                <p>Use your Shoppre Address to shop from ANY Indian Shopping Website.
+                </p>
               </a>
               </li>
               <li>
                 <a href="{{route('stores')}}">
                 <h3>AVAIL BENEFITS</h3>
-                <p>In case any online store doesn’t accept your International credit card, don’t worry! Our Personal Shopper will purchase the item for you using our Indian Local Credit Card.</p>
+                <p>In case any online store doesn’t accept your International credit card, don’t worry! Our Personal
+                    Shopper will purchase the item for you using our Indian Local Credit Card.</p>
               </a>
               </li>
               <li>
                <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/locker">
                 <h3>GET NOTIFIED</h3>
-                <p>You can view, manage and track your shipments on your ShoppRe account, 24/7. We will notify you as soon as your package arrives at ShoppRe facility. You can ship your items at your convenience in just a click!</p>
+                <p>You can view, manage and track your shipments on your ShoppRe account, 24/7. We will notify you
+                    as soon as your package arrives at ShoppRe facility. You can ship your items at your
+                    convenience in just a click!
+                </p>
                 </a>
               </li>
               <li>
                <a href="{{route('consolidationService')}}">
                 <h3>RECEIVE &amp; ENJOY</h3>
-                <p>Save up to 60-80% by our Consolidation, Repackaging and Storage services. Enjoy the special discounted rates that we get with our trusted courier partners like DHL, FedEx and more. Get your items in just 2-5 Days!</p>
+                <p>Save up to 60-80% by our Consolidation, Repackaging and Storage services. Enjoy the special
+                    discounted rates that we get with our trusted courier partners like DHL, FedEx and more.
+                    Get your items in just 2-5 Days!
+                </p>
               </a>
               </li>
             </ul>
@@ -374,7 +409,9 @@
         <div class="row">
             <h2 class="shipping-head">Shipping From India - Pricing</h2>
           <div class="col-md-12">
-            <p class="head-text-content">We have heavily optimised our operations to give you the best deal. Our pricing makes us a favourite platform for Indian shoppers worldwide.</p>
+            <p class="head-text-content">We have heavily optimised our operations to give you the best deal.
+                Our pricing makes us a favourite platform for Indian shoppers worldwide.
+            </p>
             <div class="pricing-terms">
               <div class="col-sm-4">
                 <div class="desc_box">
@@ -394,7 +431,9 @@
                 <div class="desc_box">
                   <div class="ico_box" style="background-position: 1px -146px;"></div>
                   <h3>COUNTRY <span class="orange">GUIDE</span></h3>
-                  <p>Find out helpful information with regards to your country, such as Shipping Costs, Duties and Taxes, Restricted Items, Current Exchange rates, Country Alerts, etc.</p>
+                  <p>Find out helpful information with regards to your country, such as Shipping Costs, Duties
+                      and Taxes, Restricted Items, Current Exchange rates, Country Alerts, etc.
+                  </p>
                 </div>
               </div>
               <div class="clearfix"></div>
@@ -445,7 +484,10 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-          <h3>So what are you waiting for? Shopp <span class="red">re</span>! Open your big box of happiness today!</h3>
+          <h3>
+              So what are you waiting for? Shopp
+              <span class="red">re</span>! Open your big box of happiness today!
+          </h3>
           {{--<p>All you need is a membership to get your Indian Shipping Address immediately!</p>--}}
           <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">sign up for free</a>
           </div>
@@ -478,7 +520,9 @@
      <hr>
      <div class="container">
       <div class="mdl-grid mdl-grid--no-spacing">
-        <h4 class="mdl-cell mdl-cell--12-col footer__popularDestiHeading"> Schedule Your Pickup From Various Places In India</h4>
+        <h4 class="mdl-cell mdl-cell--12-col footer__popularDestiHeading"> Schedule Your Pickup From
+            Various Places In India
+        </h4>
         <div class="mdl-cell mdl-cell--12-col">
             <a href="{{route('schedulePickup.Index')}}"
               class="footer__destiLinks text_font">Schedule pickup from Bangalore / </a>
