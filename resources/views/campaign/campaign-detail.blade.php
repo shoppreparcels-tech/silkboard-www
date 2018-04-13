@@ -26,6 +26,9 @@
                     <h4>Expires On: <span class="exp_date">{{date('d-m-Y', strtotime($campaign_detail->end_date))}}
                         </span></h4>
                     @endif
+                  <div class="text-center">
+                    <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-shoppre">Claim Offer</a>
+                  </div>
                     <h3>Terms and conditions for promo code:</h3>
                     <ul class="left-space">
                         <li>Get {{$campaign_detail->cashback}}% off.</li>
