@@ -372,28 +372,28 @@
             <h2 class="brands-head">Not sure where to shop from?</h2>
             <div class="brands owl-carousel">
               <div class="item">
-                <a href="#"><img src="{{asset('img/brands/amazon.png')}}"></a>
+                <a href="https://www.amazon.in/" target="_blank"><img src="{{asset('img/brands/amazon.png')}}"></a>
               </div>
               <div class="item">
-                <a href="#"><img src="{{asset('img/brands/flipkart.png')}}"></a>
+                <a href="https://www.flipkart.com/" target="_blank"><img src="{{asset('img/brands/flipkart.png')}}"></a>
               </div>
               <div class="item">
-                <a href="#"><img src="{{asset('img/brands/abof.png')}}"></a>
+                <a href="https://www.abof.com/"><img src="{{asset('img/brands/abof.png')}}"></a>
               </div>
               <div class="item">
-                <a href="#"><img src="{{asset('img/brands/chumbak.png')}}"></a>
+                <a href="https://www.chumbak.com/" target="_blank"><img src="{{asset('img/brands/chumbak.png')}}"></a>
               </div>
               <div class="item">
-                <a href="#"><img src="{{asset('img/brands/jabong.png')}}"></a>
+                <a href="https://www.jabong.com/" target="_blank"><img src="{{asset('img/brands/jabong.png')}}"></a>
               </div>
               <div class="item">
-                <a href="#"><img src="{{asset('img/brands/myntra.png')}}"></a>
+                <a href="https://www.myntra.com/" target="_blank"><img src="{{asset('img/brands/myntra.png')}}"></a>
               </div>
               <div class="item">
-                <a href="#"><img src="{{asset('img/brands/pepperfry.png')}}"></a>
+                <a href="https://www.pepperfry.com/" target="_blank"><img src="{{asset('img/brands/pepperfry.png')}}"></a>
               </div>
               <div class="item">
-                <a href="#"><img src="{{asset('img/brands/snapdeal.png')}}"></a>
+                <a href="https://www.snapdeal.com/" target="_blank"><img src="{{asset('img/brands/snapdeal.png')}}"></a>
               </div>
             </div>
             <div class="text-center">
