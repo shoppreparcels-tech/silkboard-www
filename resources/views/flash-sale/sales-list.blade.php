@@ -160,7 +160,7 @@
                                             {{$sale->name}} {{$sale->slug}} <Offer></Offer></a></div>
                                     <div class="fl fw pos product_img" style="margin-left:0px !important; " id="secProductImgOffer0-0">
                                         <br>
-                                        <a href="#"><img
+                                        <a href="{{route('flash-sale.mi5A.index')}}"><img
                                                 alt="Mi J7 Max 32GB Black Mobile"
                                                 src="/img/mi2.jpeg"
                                                 id="imgProductBannerImg0-0">

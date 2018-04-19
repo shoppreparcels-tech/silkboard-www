@@ -7,7 +7,16 @@
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>Redmi 5A Flash Sale at 12th Apr - Mi India</title>
+    <title>Redmi 5A Flash Sale on 20th April - Shoppre UAE</title>
+    <meta name="description" content="Signup now and Enter a chance to win Redmi 5A phone" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Redmi 5A Flash Sale on 20th April - Shoppre UAE" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Shoppre your International Shipping Partner. Signup now and Enter a chance to win Redmi 5A phone" />
+    <meta property="og:url" content="https://www.shoppre.com" />
+    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
+    <meta property="og:site_name" content="Shoppre" />
+
     <link rel="stylesheet" href="/mi_assets/s01.appmifile.com/css/in/openbuy/indexdf94.css?d0dd1eb">
     <script type="text/javascript" async=""
             src="http://s02.appmifile.com/stat/jquery.statData.min.sgp.js?d=2018415"></script>
@@ -548,17 +557,23 @@
             <h3 class="J_pageTitle">Sale starts from 12 pm on 20th Apr <span id="sale_timer"></span></h3>
             <div class="links">
                 <ul class="clearfix">
-                    {{--<li>--}}
-                    {{--<a href="{{route('flash-sale.invite-friend')}}" title="Invite Friends"--}}
-                    {{--data-stat-id="379642aae40ac069">--}}
-                    {{--Invite Friends--}}
-                    {{--</a>--}}
-                    {{--</li>--}}
+                    <li>
+                        <a href="https://www.shoppre.com/" title="shoppre"
+                           data-stat-id="379642aae40ac069">
+                            Go to Shoppre.com
+                        </a>
+                    </li>
                     <li>
                         <a
                             href="https://www.facebook.com/notes/shoppre-uae/shoppre-sports-day-malayali-mums-premier-league/2050243925195857/"
                            target="_blank" title="Event rules" data-stat-id="97837ae6b26a6d74">
                             Event rules
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login?continue=mi" title="Sign in"
+                           data-stat-id="379642aae40ac069">
+                            Sign In
                         </a>
                     </li>
                 </ul>
