@@ -517,9 +517,10 @@
                                 </a>
                             </td>
                             <td class="cell-2">
-                                < 5 kg = INR 1000/Shipment <br>
-                                5 - 10 kg = INR 1500/Shipment <br>
-                                > 10 kg = INR 2500/Shipment
+                                0.5 kg to 5 kg  = INR 1150/Shipment <br>
+                                5 kg to 10 kg   = INR 1650/Shipment <br>
+                                10 kg to 15 kg  = INR 2750/Shipment <br>
+                                Above 15kg 	    = INR 3150/Shipment
                             </td>
                         </tr>
                         <tr>

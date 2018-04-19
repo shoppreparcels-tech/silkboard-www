@@ -13,13 +13,6 @@ use Auth;
 class SchedulePickupController extends Controller
 {
 
-    public function testEmailSubmit(Request $request)
-    {
-      $name = $request->name;
-      $this->sendTestEmail($name);
-      return response()->json([ 'error'=>'0', 'message'=>'success']);
-    }
-
     public function submit(Request $request)
     {
 

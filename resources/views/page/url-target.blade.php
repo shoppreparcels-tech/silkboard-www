@@ -1,4 +1,4 @@
-@extends('layout1')
+@extends('layout-url-landing')
 
 @section('title', $title )
 @section('description', $description)

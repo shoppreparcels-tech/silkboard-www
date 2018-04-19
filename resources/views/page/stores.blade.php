@@ -59,7 +59,7 @@
                       @foreach($webs as $web)
                         <div class="col-sm-3">
                           <div class="seller_box">
-                            @php 
+                            @php
                               $logo = (!empty($web->logo)) ? $web->logo : 'brand-logo.png';
                             @endphp
                             <a href="{{$web->url}}" target="_blank" title="{{$web->name}}"><span class="brand_logo" style="background-image: url('{{asset('uploads/stores')}}/{{$logo}}');"></span></a>
@@ -84,7 +84,7 @@
                       @foreach($fbs as $fb)
                         <div class="col-sm-3">
                           <div class="seller_box">
-                            @php 
+                            @php
                               $logo = (!empty($fb->logo)) ? $fb->logo : 'brand-logo.png';
                             @endphp
                             <a href="{{$fb->url}}" target="_blank" title="{{$fb->name}}"><span class="brand_logo" style="background-image: url('{{asset('uploads/stores')}}/{{$logo}}');"></span></a>
@@ -105,7 +105,7 @@
                       @foreach($feats as $feat)
                         <div class="col-sm-3">
                           <div class="seller_box">
-                            @php 
+                            @php
                               $logo = (!empty($feat->logo)) ? $feat->logo : 'brand-logo.png';
                             @endphp
                             <a href="{{$feat->url}}" target="_blank" title="{{$feat->name}}"><span class="brand_logo" style="background-image: url('{{asset('uploads/stores')}}/{{$logo}}');"></span></a>
@@ -129,7 +129,7 @@
           </div>
         </div>
     </section>
-    
+
     <section class="signup_free">
       <div class="container">
         <div class="row">

@@ -20,14 +20,14 @@ class SchedulePickupDetailController extends Controller
 
     public function pickupView(Request $request)
     {
-      $pickup_id = $request->id;
-      $pickup_details = SchedulePickup::where('id',$pickup_id)->first();
-      return view('schedule-pickup.pickup-detail')->with(['pickup_details' => $pickup_details]);
+        $pickup_id = $request->id;
+        $pickup_details = SchedulePickup::where('id', $pickup_id)->first();
+        return view('schedule-pickup.pickup-detail')->with(['pickup_details' => $pickup_details]);
     }
 
     public function pickupList()
     {
-        $pickups = SchedulePickup::orderBy('id','desc')->get();
+        $pickups = SchedulePickup::orderBy('id', 'desc')->get();
         return view('schedule-pickup.schedule-pickup-list')->with(['pickups' => $pickups]);
     }
 }

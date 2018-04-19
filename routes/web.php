@@ -21,13 +21,10 @@ Route::post('/stores/sort', 'PageController@sortStores')->name('stores.sort');
 Route::get('/reviews', 'PageController@reviews')->name('reviews');
 Route::post('/reviews/submit', 'PageController@submitReview')->name('reviews.submit');
 
-Route::get('/login', 'Customer\LoginController@login')->name('customer.login');
-Route::post('/login', 'Customer\LoginController@submitLogin')->name('customer.login.submit');
-Route::get('/logout', 'Customer\ProfileController@logout')->name('customer.logout');
-
 Route::get('/social/oauth/google', 'Customer\SocialAuthController@redirectGoogle')->name('customer.social.google');
 Route::get('/social/callback/google', 'Customer\SocialAuthController@callbackGoogle');
-Route::get('/social/oauth/facebook', 'Customer\SocialAuthController@redirectFacebook')->name('customer.social.facebook');
+Route::get('/social/oauth/facebook', 'Customer\SocialAuthController@redirectFacebook')
+    ->name('customer.social.facebook');
 Route::get('/social/callback/facebook', 'Customer\SocialAuthController@callbackFacebook');
 
 Route::get('/schedule-pickup', 'SchedulePickupController@index')->name('schedulePickup.Index');
@@ -40,17 +37,37 @@ Route::post('/feedback/submit', 'FeedbackController@submit')->name('feedback.sub
 Route::get('/feedback/confirm', 'FeedbackController@confirm')->name('feedback.confirm');
 Route::get('/consolidation-service', 'PageController@consolidationService')->name('consolidationService');
 Route::get('/{initial}-from-{source}-to-{destination}', 'PageController@urlTargetShipping')->name('urlTargetShipping');
-Route::get('/{initial}-{contents}-from-{source}-to-{destination}', 'PageController@urlTargetSend')->name('urlTargetSend');
+Route::get('/{initial}-{contents}-from-{source}-to-{destination}', 'PageController@urlTargetSend')
+    ->name('urlTargetSend');
 Route::get('/{initial}-{cprefix}-{cpostfix}-from-{source}-to-{destination}', 'PageController@urlTargetContent')
     ->name('urlTargetContent');
 Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('schedulePickup.mail');
-//Route::post('/api/leads', 'PageController@leads')->name('leads');
+
+/*-------- Flash Sale ------*/
+
+Route::get('/mi.com', 'FlashSaleController@sales')->name('flash-sale.sales.list');
+Route::get('/mi.com/redmi5A', 'FlashSaleController@index')->name('flash-sale.mi5A.index');
+Route::get('/mi.com/redmi5A/detail', 'FlashSaleController@mi5ADetail')->name('flash-sale.mi5A.sale');
+Route::get('/invite-friend', 'FlashSaleController@invite')->name('flash-sale.invite-friend');
+Route::post('/invite-friend/send-invitation', 'FlashSaleController@sendInvitation')->name('flash-sale.sendInvitation');
+Route::get('/send-otp', 'FlashSaleController@sendOtp')->name('flash-sale.otp');
+Route::get('/success', 'FlashSaleController@sendOtp')->name('flash-sale.otp');
+
+/*-------- campaign ------*/
 
 Route::get('/campaign/{cname}/{eid}', 'CampaignController@campaignDetail')->name('campaignDetail');
-Route::get('/campaign/{cname}/{channel}/{eid}', 'CampaignController@campaignDetailChannel')->name('campaignDetailChannel');
+Route::get('/campaign/{cname}/{channel}/{eid}', 'CampaignController@campaignDetailChannel')
+    ->name('campaignDetailChannel');
 Route::get('/campaigns/channel/{camp_id}', 'CampaignController@channelList')->name('channelList');
 Route::get('/campaigns/channel/new/create/{camp_id}', 'CampaignController@channelCreate')->name('channelCreate');
 Route::post('/campaign/channel/new/create/{camp_id}', 'CampaignController@channelSubmit')->name('channelSubmit');
+
+/*-------- login/sign up ------*/
+Route::get('/login', 'Customer\LoginController@login')->name('customer.login');
+Route::post('/login/submit', 'Customer\LoginController@submitLogin')->name('customer.login.submit');
+Route::get('/login/register', 'Customer\LoginController@login')->name('customer.register');
+Route::post('/login/submit', 'Customer\LoginController@submitLogin')->name('customer.login.submit');
+Route::get('/register', 'Customer\RegisterController@register')->name('customer.register');
 
 
 Route::get('/chat-email', 'PageController@chatMailIndex')->name('chatMail.index');

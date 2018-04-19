@@ -17,7 +17,18 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.footer_img{
 
+    height: 364px;
+    margin-bottom: 3%;
+    background: url(//i01.appmifile.com/webfile/globalimg/mobile/2017/inredmi5a/pc-overview-10.jpg) 50% 0 no-repeat;
+    background-size: 100%;
+}
+/*.model_otp{*/
+    /*height: 282px !important;*/
+    /*left: 58% !important;*/
+    /*width: 600px !important;*/
+/*}*/
 .navbar-default .nav li >ul.dropdown-menu li
 {
     padding-top: 0px;
@@ -489,6 +500,17 @@ header .mo_login a:nth-child(2){border-left:1px solid #fff;}
 .square-box *{position:relative;z-index:2;}
 section.all-about{padding:50px 0;}
 .all-about .square-box{margin-top:15px;max-width:350px;}
+.warehousePop .modal-body input {
+    width: 100% !important;
+}
+
+.warehousePop {
+    height:  420px !important;
+}
+
+.register-form .btn-shoppre {
+    padding: 0px 0 !important;
+}
 .all-about .square-box h2{font-size:34px;}
 .all-about .square-box img{max-width:185px;}
 .all-about .square-box:before{width:170px;height:120px;border:8px solid #efecec;top:-25px;left:60px;z-index:1;}
@@ -512,6 +534,13 @@ section.services{padding:35px 0;background:url('../img/service.jpg') no-repeat;b
 .services .square-box h2{font-size:44px;line-height:46px;}
 .services .square-box h2.red{color:#ed1c24;font-size:58px;margin-top:0px;}
 .orange{color:#fe9611;}
+.page-header {
+    margin: 0px 0 20px !important;
+}
+.btn-wrap
+{
+    padding-top: 10%;
+}
 .red{color:#ed1c24;}
 .services .service-content{margin-top:15px;}
 .services .service-content p.head-text{font-size:18px;text-align:center;font-weight:700;clear:both;display:block;}

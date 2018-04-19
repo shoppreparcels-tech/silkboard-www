@@ -3,9 +3,9 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Campaign extends Model
 {
-    protected $fillable = ['customer_id', 'name', 'comment', 'github_url', 'coupon_code','cashback','type',
-        'image', 'begin_date', 'end_date'];
+    use SoftDeletes;
 }

@@ -42,7 +42,7 @@ class PageController extends Controller
         $campaign_data->channel = $channel;
         $result = $campaign_data->save();
 
-        return response()->json([ 'error'=>'0', 'message'=>'Success']);
+        return response()->json(['error' => '0', 'message' => 'Success']);
     }
 
     public function customerPricing(Request $request)
@@ -64,9 +64,7 @@ class PageController extends Controller
                 ->where('min', '<', $weight)
                 ->where('max', '>=', $weight)
                 ->first();
-        }
-        else
-        {
+        } else {
             $rate = ShippingRate::where('country_id', $country->id)
                 ->where('item_type', $type)
                 ->where('min', '<', $weight)
@@ -88,19 +86,19 @@ class PageController extends Controller
             $time = $rate->timerange;
 
             $disamount = ($discount / 100) * $amount;
-            $final_amount = round(($amount - $disamount),2);
+            $final_amount = round(($amount - $disamount), 2);
 
             return view('page.customer-pricing')->with(['reviews' => $reviews, 'countries' => $countries,
-                'time'=> $time, 'amount'=>$amount, 'discount'=>$discount,'final_amount'=>$final_amount,
-                'weight'=>$weight,'item_type'=>$item_type,'country_id'=>$country_id]);
+                'time' => $time, 'amount' => $amount, 'discount' => $discount, 'final_amount' => $final_amount,
+                'weight' => $weight, 'item_type' => $item_type, 'country_id' => $country_id]);
         }
     }
 
     public function newPricing()
     {
 //        $mac = shell_exec("arp -a ".escapeshellarg($_SERVER['REMOTE_ADDR'])." | grep -o -E '(:xdigit:{1,2}:){5}:xdigit:{1,2}'");
-          echo "mac".$_SERVER['REMOTE_ADDR'];
-          exit;
+        echo "mac" . $_SERVER['REMOTE_ADDR'];
+        exit;
 //        $reviews = Review::orderBy('updated_at', 'desc')
 //            ->where('approve', '1')
 //            ->limit(10)
@@ -116,7 +114,7 @@ class PageController extends Controller
 
     public function pickupByAjex(Request $request)
     {
-        return response()->json([ 'error'=>'0', 'request'=> $request->first_name]);
+        return response()->json(['error' => '0', 'request' => $request->first_name]);
     }
 
     public function chatMailSent(Request $request)
@@ -136,37 +134,39 @@ class PageController extends Controller
 
     public function chatMailIndex()
     {
-      return view('chat-email.chat-email');
+        return view('chat-email.chat-email');
     }
 
     public function refundAndCancellation()
     {
-     return view('page.refund-and-cancellation');
+        return view('page.refund-and-cancellation');
     }
 
     public function privacyPolicy()
     {
-     return view('page.privacy-policy');
+        return view('page.privacy-policy');
     }
 
     public function termsAndConditions()
     {
-     return view('page.terms-and-conditions');
+        return view('page.terms-and-conditions');
     }
 
     public function consolidationService()
     {
         return view('page.consolidation');
     }
+
     public function personalShopper()
     {
         return view('page.personal-shopper');
     }
+
     public function countryList()
     {
-       $countries = Country::orderBy('name','asc')->get();
+        $countries = Country::orderBy('name', 'asc')->get();
 
-       return view('page.country-list')->with(['countries' => $countries]);
+        return view('page.country-list')->with(['countries' => $countries]);
     }
 
     public function urlTargetShipping(Request $request)
@@ -175,49 +175,42 @@ class PageController extends Controller
         $source = $request->source;
         $initial = $request->initial;
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
-        $country = Country::where('slug',$destination)->first();
-        if(!$country)
-        {
-            $city = City::where('slug',$destination)->first();
-            if ($city)
-            {
+        $country = Country::where('slug', $destination)->first();
+        if (!$country) {
+            $city = City::where('slug', $destination)->first();
+            if ($city) {
                 $country = Country::find($city->country_id);
             }
         }
-        if($country)
-        {
-            $prices_non_doc = ShippingRate::where('min','<=',1.5 )
-                ->where('max','<=',2.0)
-                ->where('item_type','=','nondoc')
-                ->where('country_id',$country->id)->get();
+        if ($country) {
+            $prices_non_doc = ShippingRate::where('min', '<=', 1.5)
+                ->where('max', '<=', 2.0)
+                ->where('item_type', '=', 'nondoc')
+                ->where('country_id', $country->id)->get();
 
-            foreach ($prices_non_doc as $key => $field)
-            {
+            foreach ($prices_non_doc as $key => $field) {
                 $disamount = ($country->discount / 100) * $field->amount;
                 $prices_non_doc[$key]['amount'] = $disamount;
             }
 
-            $prices_doc = ShippingRate::where('min','<=',1.5 )
-                ->where('max','<=',2.0)
-                ->where('item_type','=','doc')
-                ->where('country_id',$country->id)->get();
-            foreach ($prices_doc as $key => $field)
-            {
+            $prices_doc = ShippingRate::where('min', '<=', 1.5)
+                ->where('max', '<=', 2.0)
+                ->where('item_type', '=', 'doc')
+                ->where('country_id', $country->id)->get();
+            foreach ($prices_doc as $key => $field) {
                 $disamount = ($country->discount / 100) * $field->amount;
                 $prices_doc[$key]['amount'] = $disamount;
             }
 
-            $title = ucwords($initial)." From ".ucwords($source)." To ".ucwords($destination). " - Courier Services To ".ucwords($destination);
-            $description = "Shoppre offers Door to Door courier service to " .ucwords($destination).
-                " from any part of ".ucwords($source) .". The charges are cheapest in " .ucwords($source)."for sending courier to ".ucwords($destination).". Sign Up Now!";
-            $keywords = "ship your packages, delivered to your country, parcel services to ".ucwords($destination).",
-              sending courier to ".ucwords($destination).", shipping";
-            return view('page.url-target')->with(['source' => $source,'destination'=>$country->name,'title'=>$title,'description'=>$description,'keywords'=>$keywords,
-                'prices_non_doc'=>$prices_non_doc,'prices_doc'=>$prices_doc,'countries'=>$countries]);
-        }
-        else
-        {
-         return redirect(route('home'));
+            $title = ucwords($initial) . " From " . ucwords($source) . " To " . ucwords($destination) . " - Courier Services To " . ucwords($destination);
+            $description = "Shoppre offers Door to Door courier service to " . ucwords($destination) .
+                " from any part of " . ucwords($source) . ". The charges are cheapest in " . ucwords($source) . "for sending courier to " . ucwords($destination) . ". Sign Up Now!";
+            $keywords = "ship your packages, delivered to your country, parcel services to " . ucwords($destination) . ",
+              sending courier to " . ucwords($destination) . ", shipping";
+            return view('page.url-target')->with(['source' => $source, 'destination' => $country->name, 'title' => $title, 'description' => $description, 'keywords' => $keywords,
+                'prices_non_doc' => $prices_non_doc, 'prices_doc' => $prices_doc, 'countries' => $countries]);
+        } else {
+            return redirect(route('home'));
         }
     }
 
@@ -228,21 +221,19 @@ class PageController extends Controller
         $content = $request->contents;
         $initial = $request->initial;
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
-        $country = Country::where('slug',$destination)->first();
-        if(!$country)
-        {
-            $city = City::where('slug',$destination)->first();
-            if ($city)
-            {
+        $country = Country::where('slug', $destination)->first();
+        if (!$country) {
+            $city = City::where('slug', $destination)->first();
+            if ($city) {
                 $country = Country::find($city->country_id);
             }
         }
-        if($country){
+        if ($country) {
             $prices_non_doc = ShippingRate::where('min', '<=', 1.5)
                 ->where('max', '<=', 2.0)
                 ->where('item_type', '=', 'nondoc')
                 ->where('country_id', $country->id)->get();
-            foreach ($prices_non_doc as $key => $field){
+            foreach ($prices_non_doc as $key => $field) {
                 $disamount = ($country->discount / 100) * $field->amount;
                 $prices_non_doc[$key]['amount'] = $disamount;
             }
@@ -266,12 +257,11 @@ class PageController extends Controller
             return view('page.url-target')->with(['source' => $source, 'content' => $content, 'destination' => $destination,
                 'title' => $title, 'description' => $description, 'keywords' => $keywords,
                 'prices_non_doc' => $prices_non_doc, 'prices_doc' => $prices_doc, 'countries' => $countries]);
-        }
-        else
-        {
+        } else {
             return redirect(route('home'));
         }
     }
+
     public function urlTargetContent(Request $request)
     {
         $destination = $request->destination;
@@ -280,21 +270,19 @@ class PageController extends Controller
         $cpostfix = $request->cpostfix;
         $initial = $request->initial;
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
-        $country = Country::where('slug',$destination)->first();
-        if(!$country)
-        {
-            $city = City::where('slug',$destination)->first();
-            if ($city)
-            {
+        $country = Country::where('slug', $destination)->first();
+        if (!$country) {
+            $city = City::where('slug', $destination)->first();
+            if ($city) {
                 $country = Country::find($city->country_id);
             }
         }
-        if($country) {
+        if ($country) {
             $prices_non_doc = ShippingRate::where('min', '<=', 1.5)
                 ->where('max', '<=', 2.0)
                 ->where('item_type', '=', 'nondoc')
                 ->where('country_id', $country->id)->get();
-            foreach ($prices_non_doc as $key => $field){
+            foreach ($prices_non_doc as $key => $field) {
                 $disamount = ($country->discount / 100) * $field->amount;
                 $prices_non_doc[$key]['amount'] = $disamount;
             }
@@ -315,18 +303,17 @@ class PageController extends Controller
             return view('page.url-target')->with(['source' => $source, 'destination' => $destination, 'title' => $title,
                 'description' => $description, 'keywords' => $keywords, 'prices_non_doc' => $prices_non_doc,
                 'prices_doc' => $prices_doc, 'countries' => $countries]);
-        }
-        else
-        {
+        } else {
             return redirect(route('home'));
         }
     }
 
-    public function home() {
+    public function home()
+    {
         $reviews = Review::orderBy('updated_at', 'desc')
-                            ->where('approve', '1')
-                            ->limit(5)
-                            ->get();
+            ->where('approve', '1')
+            ->limit(5)
+            ->get();
 
         return view('page.home')->with([
             'reviews' => $reviews
@@ -337,19 +324,23 @@ class PageController extends Controller
     {
         return view('page.about');
     }
+
     public function partner()
     {
         return view('page.partner');
     }
+
     public function faq()
     {
         $categories = FaqCategory::all();
         return view('page.faq')->with('categories', $categories);
     }
+
     public function contact()
     {
         return view('page.contact');
     }
+
     public function submitContact(Request $request)
     {
         $this->validate($request, [
@@ -363,31 +354,36 @@ class PageController extends Controller
         Mail::to("support@shoppre.com")->bcc('aloak@shoppre.com')->send(new ContactEnquiry($request));
         return view('page.confirm-contact-us');
     }
+
     public function services()
     {
         return view('page.services');
     }
+
     public function howitworks()
     {
         return view('page.howitworks');
     }
+
     public function viewPage(Request $request)
     {
         $slug = $request->slug;
         $page = Page::where('slug', $slug)->first();
-        if(empty($page)) return abort(404);
+        if (empty($page)) return abort(404);
         return view('page.view')->with('page', $page);
     }
+
     public function pricing()
     {
         $reviews = Review::orderBy('updated_at', 'desc')
-                            ->where('approve', '1')
-                            ->limit(10)
-                            ->get();
+            ->where('approve', '1')
+            ->limit(10)
+            ->get();
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
         return view('page.pricing')->with(['reviews' => $reviews, 'countries' => $countries]);
 
     }
+
     public function shipCalculate(Request $request)
     {
         $weight = $request->weight;
@@ -402,11 +398,9 @@ class PageController extends Controller
 //                $weight = $volWeight;
 //            }
             if ($request->scale == "in") {
-                $d_weight = $volume/305;
-            }
-            else
-            {
-                $d_weight = $volume/5000;
+                $d_weight = $volume / 305;
+            } else {
+                $d_weight = $volume / 5000;
             }
             if ($d_weight > $weight) {
                 $weight = $d_weight;
@@ -424,39 +418,39 @@ class PageController extends Controller
         $IS_BELOW_300 = $weight <= 300;
         $rates = ShippingRate::
         select('shipping_rates.rate_type',
-          'shipping_rates.amount',
-          'shipping_rates.timerange')
+            'shipping_rates.amount',
+            'shipping_rates.timerange')
 //          'shipping_rates.partner_id',
 //          'partners.name as partner_name')
 //          ->join('partners', 'shipping_rates.partner_id', '=', 'partners.id')
-          ->where('country_id', $country->id)
-          ->where('item_type', $type)
-          ->where('min', '<', $weight)
-          ->where('max', $IS_BELOW_300 ? '>=' : '=',  $IS_BELOW_300 ? $weight : 0)
-          ->get();
+            ->where('country_id', $country->id)
+            ->where('item_type', $type)
+            ->where('min', '<', $weight)
+            ->where('max', $IS_BELOW_300 ? '>=' : '=', $IS_BELOW_300 ? $weight : 0)
+            ->get();
 
-        if (!empty($rates)){
-          $prices = [];
+        if (!empty($rates)) {
+            $prices = [];
 
-          foreach($rates as $rate) {
-            $amount = $rate->rate_type == "fixed" ? $rate->amount : $rate->amount * $weight;
+            foreach ($rates as $rate) {
+                $amount = $rate->rate_type == "fixed" ? $rate->amount : $rate->amount * $weight;
 
-            $amount = number_format($amount, 2, '.', '');
+                $amount = number_format($amount, 2, '.', '');
 
-            array_push($prices, [
-              'time' => $rate->timerange,
-              'amount' => $amount,
-              'discount'=> $discount,
+                array_push($prices, [
+                    'time' => $rate->timerange,
+                    'amount' => $amount,
+                    'discount' => $discount,
 //              'partner_name'=> $rate->partner_name,
-              ]);
-          }
-          return response()->json([
-            'error'=>'0',
-            'prices' => $prices,
-          ]);
+                ]);
+            }
+            return response()->json([
+                'error' => '0',
+                'prices' => $prices,
+            ]);
 
         } else {
-            return response()->json(['error'=>'1']);
+            return response()->json(['error' => '1']);
         }
     }
 
@@ -473,34 +467,34 @@ class PageController extends Controller
         ]);
 
         $mail = Mail::to("support@shoppre.com")->send(new GetQuote($request));
-        return response()->json([ 'mail'=> $mail]);
+        return response()->json(['mail' => $mail]);
     }
 
     public function stores()
     {
         $categories = StoreCategory::orderBy('category', 'asc')->get();
         $webs = StoreCatClub::where('category_id', 1)
-                            ->where('type', 'web')
-                            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
-                            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
-                            ->get();
+            ->where('type', 'web')
+            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
+            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
+            ->get();
         $fbs = StoreCatClub::where('category_id', 1)
-                            ->where('type', 'fb')
-                            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
-                            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
-                            ->get();
+            ->where('type', 'fb')
+            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
+            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
+            ->get();
         $feats = StoreCatClub::where('category_id', 1)
-                            ->where('featured', 1)
-                            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
-                            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
-                            ->get();
+            ->where('featured', 1)
+            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
+            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
+            ->get();
 
         if (Auth::check()) {
             $favs = FavoriteStore::where('custid', Auth::id())->pluck('clubid')->toArray();
-            return view('page.stores')->with(['categories'=>$categories, 'webs'=>$webs, 'fbs'=>$fbs, 'feats'=>$feats, 'favs'=>$favs]);
+            return view('page.stores')->with(['categories' => $categories, 'webs' => $webs, 'fbs' => $fbs, 'feats' => $feats, 'favs' => $favs]);
         }
 
-        return view('page.stores')->with(['categories'=>$categories, 'webs'=>$webs, 'fbs'=>$fbs, 'feats'=>$feats]);
+        return view('page.stores')->with(['categories' => $categories, 'webs' => $webs, 'fbs' => $fbs, 'feats' => $feats]);
     }
 
     public function sortStores(Request $request)
@@ -509,38 +503,38 @@ class PageController extends Controller
         $stores = array();
 
         $stores['web'] = StoreCatClub::where('category_id', $cat)
-                            ->where('type', 'web')
-                            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
-                            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
-                            ->get()
-                            ->toArray();
+            ->where('type', 'web')
+            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
+            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
+            ->get()
+            ->toArray();
 
         $stores['fb'] = StoreCatClub::where('category_id', $cat)
-                            ->where('type', 'fb')
-                            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
-                            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
-                            ->get()
-                            ->toArray();
+            ->where('type', 'fb')
+            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
+            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
+            ->get()
+            ->toArray();
 
         $stores['feat'] = StoreCatClub::where('category_id', $cat)
-                            ->where('featured', 1)
-                            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
-                            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
-                            ->get()
-                            ->toArray();
+            ->where('featured', 1)
+            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
+            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
+            ->get()
+            ->toArray();
         if (Auth::check()) {
             $stores['custid'] = true;
             $stores['favs'] = FavoriteStore::where('custid', Auth::id())->pluck('clubid')->toArray();
         }
 
-        return response()->json(['stores'=>$stores]);
+        return response()->json(['stores' => $stores]);
     }
 
     public function reviews()
     {
         $countries = Country::orderBy('name', 'asc')->get();
         $reviews = Review::orderBy('updated_at', 'desc')->where('approve', '1')->paginate(10);
-        return view('page.reviews')->with(['countries'=>$countries, 'reviews'=>$reviews]);
+        return view('page.reviews')->with(['countries' => $countries, 'reviews' => $reviews]);
     }
 
     public function submitReview(Request $request)
