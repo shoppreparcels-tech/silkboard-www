@@ -155,6 +155,7 @@
                                             <p style="font-size: 16px;">Name: {{$firstname}}{{$lastname}}</p>
                                             <p style="font-size: 16px;">Email: {{$email}}</p>
                                             <p style="font-size: 16px;">Locker ID: {{$locker}}</p>
+                                            <p style="font-size: 16px;">Phone:  {{$phone}}</p>
                                             <p style="font-size: 16px;">Country: {{$country}}</p>
                                             <p style="font-size: 16px;">Reason: {{$reason}}</p>
                                             <p style="font-size: 16px;">Message: {{$msg_content}}</p></td>

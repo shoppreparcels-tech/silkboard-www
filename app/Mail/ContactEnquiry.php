@@ -41,6 +41,7 @@ class ContactEnquiry extends Mailable
                 'lastname' => $this->contact->lastname,
                 'email' => $this->contact->email,
                 'locker' => $this->contact->locker,
+                'phone' => $this->contact->phone,
                 'country' => $this->contact->country,
                 'reason' => $this->contact->reason,
                 'msg_content' => $this->contact->msg_content,

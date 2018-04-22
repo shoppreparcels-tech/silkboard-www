@@ -89,6 +89,14 @@
                 <input type="text" class="form-control" placeholder="My Locker(optional)" name="locker">
               </div>
             </div>
+
+              <div class="form-group">
+                  <div class="input-group">
+                      <div class="input-group-addon"><img src="img/phone-512.png"></div>
+                      <input type="number" class="form-control " placeholder="Contact Number" name="phone">
+                  </div>
+              </div>
+
             <div class="form-group">
               <div class="input-group">
                 <div class="input-group-addon"><img src="img/country.png"></div>

@@ -348,6 +348,7 @@ class PageController extends Controller
             'lastname' => 'required|max:250',
             'email' => 'required|email|max:250',
             'country' => 'required',
+            'phone' => 'required',
             'msg_content' => 'required',
         ]);
 
