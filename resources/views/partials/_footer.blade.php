@@ -27,6 +27,7 @@
         <div class="col-sm-3">
           <ul class="foot_menu">
             <li><a href="{{route('about')}}">About Shoppre</a></li>
+            <li><a href="{{route('faq')}}">FAQ</a></li>
             <li><a href="https://myaccount.shoppre.com/direct/payment">Make Payment</a></li>
             <li><a href="{{route('feedback.Index')}}">Feedback</a></li>
             <li><a href="{{route('contact')}}">Contact us</a></li>

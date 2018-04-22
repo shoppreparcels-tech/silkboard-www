@@ -605,7 +605,7 @@
                     12.7cm (5) HD display<br>13MP rear camera with PDAF<br>3000mAh battery, quad-core Snapdragon 425<br>Dual
                     SIM + dedicated microSD slot </p>
                 <div class="more" style="margin-bottom: 105px;">
-                    <a href="{{route('flash-sale.mi5A.sale')}}" data-stat-id="b13854a4c6aa5bb0">Learn more &gt;</a>
+                    <a href="{{route('flash-sale.mi5A.sale')}}" data-stat-id="b13854a4c6aa5bb0" target="_blank">Learn more &gt;</a>
                 </div>
 
                 <div class="links">
