@@ -20,7 +20,7 @@
             <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/loyalty-points">Shoppre Loyalty Points</a></li>
             <li><a href="{{route('stores')}}">Browse Categories</a></li>
             <li><a href="{{route('reviews')}}">Shoppre Reviews</a></li>
-            <li><a href="{{route('howitworks')}}">How Personal Shopper Works</a></li>
+            <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">How Personal Shopper Works</a></li>
             <li><a href="{{route('pricing')}}">Shipping and Pricing for your country</a></li>
           </ul>
         </div>
