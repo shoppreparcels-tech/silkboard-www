@@ -338,7 +338,8 @@ class PageController extends Controller
 
     public function contact()
     {
-        return view('page.contact');
+        $countries = Country::orderBy('name', 'asc')->get();
+        return view('page.contact')->with('countries', $countries);
     }
 
     public function submitContact(Request $request)
@@ -347,11 +348,10 @@ class PageController extends Controller
             'firstname' => 'required|max:250',
             'lastname' => 'required|max:250',
             'email' => 'required|email|max:250',
-            'country' => 'required',
+//            'country' => 'required',
             'phone' => 'required',
             'msg_content' => 'required',
         ]);
-
         Mail::to("support@shoppre.com")->bcc('aloak@shoppre.com')->send(new ContactEnquiry($request));
         return view('page.confirm-contact-us');
     }
