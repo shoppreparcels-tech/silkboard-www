@@ -151,7 +151,8 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td valign="top" width="500" style="background-color:#ffffff;color:#666666;font-size:15px;text-align:left;padding: 20px 10px 20px 30px;line-height:20px;color: #5e5e5f;border: 1px solid #eee;">
+                                        <td
+                                        valign="top" width="500" style="background-color:#ffffff;color:#666666;font-size:15px;text-align:left;padding: 20px 10px 20px 30px;line-height:20px;color: #5e5e5f;border: 1px solid #eee;">
                                             <p style="font-size: 16px;">Name: {{$firstname}} {{$lastname}}</p>
                                             <p style="font-size: 16px;">Email: {{$email}}</p>
                                             <p style="font-size: 16px;">Locker ID: {{$locker}}</p>

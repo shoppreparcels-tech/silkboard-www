@@ -12,7 +12,10 @@
     <meta name="robots" content="index, follow" />
     <meta property="og:title" content="Redmi 5A Flash Sale on 20th April - Shoppre UAE" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Shoppre your International Shipping Partner. Signup now and Enter a chance to win Redmi 5A phone" />
+    <meta
+        property="og:description"
+        content="Shoppre your International Shipping Partner. Signup now and Enter a chance to win Redmi 5A phone"
+    />
     <meta property="og:url" content="https://www.shoppre.com" />
     <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
     <meta property="og:site_name" content="Shoppre" />
@@ -558,21 +561,30 @@
             <div class="links">
                 <ul class="clearfix">
                     <li>
-                        <a href="https://www.shoppre.com/" title="shoppre"
-                           data-stat-id="379642aae40ac069">
+                        <a
+                            href="https://www.shoppre.com/"
+                            title="shoppre"
+                            data-stat-id="379642aae40ac069"
+                        >
                             Go to Shoppre.com
                         </a>
                     </li>
                     <li>
                         <a
                             href="https://www.facebook.com/notes/shoppre-uae/shoppre-sports-day-malayali-mums-premier-league/2050243925195857/"
-                           target="_blank" title="Event rules" data-stat-id="97837ae6b26a6d74">
+                            target="_blank"
+                            title="Event rules"
+                            data-stat-id="97837ae6b26a6d74"
+                        >
                             Event rules
                         </a>
                     </li>
                     <li>
-                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login?continue=mi" title="Sign in"
-                           data-stat-id="379642aae40ac069">
+                        <a
+                            href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login?continue=mi"
+                            title="Sign in"
+                            data-stat-id="379642aae40ac069"
+                        >
                             Sign In
                         </a>
                     </li>

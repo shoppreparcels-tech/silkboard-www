@@ -101,7 +101,15 @@
     </section>
     <div class="service-band2">
       <h2>For Business</h2>
-      <h4><a href="https://goo.gl/forms/fEYWqUJjfguCjqif1" class="text-orange">Become a Partner</a> with Shoppre, and discover amazing opportunites. </h4>
+      <h4>
+          <a
+              href="https://goo.gl/forms/fEYWqUJjfguCjqif1"
+              class="text-orange"
+          >
+              Become a Partner
+          </a>
+          with Shoppre, and discover amazing opportunites.
+      </h4>
     </div>
     <section class="signup_free violet-grade">
       <div class="container">
@@ -114,5 +122,5 @@
         </div>
       </div>
     </section>
-    
+
 @endsection
