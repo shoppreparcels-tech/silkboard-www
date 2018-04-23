@@ -184,7 +184,7 @@
           <div class="caption-block">
             <h2 class="text-orange">BORDERLESS SHIPPING FROM INDIA</h2>
             <h3 style="margin-top: -8px !important;">Shop from India, Ship Worldwide!</h3>
-            <p>Door to Door Pickup and International & Domestic Delivery.</p>
+            <p>Door to Door Pickup and International Delivery.</p>
             <p>Receive your FREE Personal Locker and Virtual Shipping Address in India!</p>
               <br>
             <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-shoppre popup-youtube">
