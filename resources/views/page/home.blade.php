@@ -327,7 +327,7 @@
               </a>
               </li>
               <li>
-                <a href="{{route('stores')}}">
+                <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">
                 <h3>AVAIL BENEFITS</h3>
                 <p>In case any online store doesn’t accept your International credit card, don’t worry! Our Personal
                     Shopper will purchase the item for you using our Indian Local Credit Card.</p>

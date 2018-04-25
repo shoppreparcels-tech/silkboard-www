@@ -73,7 +73,7 @@
         <h2>International Shipping Partners</h2>
         <div class="whitebox">
             <p>Our influence and bulk shipping volume have allowed Shoppre to build long-term partnerships with every major global shipper, including DHL, FedEx and DTDC. As our partners, these global shippers provide Shoppre with the lowest possible rates, fastest delivery times and best shipping solutions.</p>
-            <a href="{{route('partner')}}" class="btn btn-shoppre">Become a Partner</a>
+            <a href="https://goo.gl/forms/fEYWqUJjfguCjqif1" class="btn btn-shoppre">Become a Partner</a>
         </div>
       </div>
       <div class="col-sm-4 rightside">

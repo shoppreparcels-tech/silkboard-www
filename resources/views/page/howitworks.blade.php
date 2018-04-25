@@ -65,7 +65,7 @@
               <div class="item_content">
                   <h3>USE YOUR SHOPPRE ADDRESS</h3>
                   <strong>Shop your favorite product from ANY Indian Store, and at the time of check out, use your Shoppre address as your “Ship to Address”.</strong>
-                  <p>Savings Tip: If you know the weight of your item, simply use the <a href="{{route('pricing')}}">Shipping Calculator</a> to find out the Shipping cost to your country. Also, our <a href="#">Country Guides</a> give you specific information related to your country such as Duties and Taxes, Restricted Items, Currency Converter, etc.</p>
+                  <p>Savings Tip: If you know the weight of your item, simply use the <a href="{{route('pricing')}}">Shipping Calculator</a> to find out the Shipping cost to your country.</p>
               </div>
               <div class="item_img">
                 <img src="{{asset('img/how3.png')}}">
@@ -122,7 +122,7 @@
             <div class="story-block story-right">
               <div class="item_content">
                   <h3>receive and enjoy</h3>
-                  <strong>Save up to 60-80% by our <a href="{{route('services')}}">Consolidation, Repackaging and Storage Services!</a> Track your shipment as soon as your order is dispatched! Most Shoppre members worldwide receive their packages in just 2 to 5 days!</strong>
+                  <strong>Save up to 60-80% by our <a href="{{route('consolidationService')}}">Consolidation, Repackaging and Storage Services!</a> Track your shipment as soon as your order is dispatched! Most Shoppre members worldwide receive their packages in just 2 to 5 days!</strong>
                   <p>Enjoy the special discounted rates that we get with our trusted courier partners like DHL, FedEx and more, thanks to our bulk volume of shipment.</p>
                   <p>Savings Tip:<br>
                   We give you 20 days of FREE Storage! Simply wait until you have multiple packages in your suite and we will consolidate your packages into one shipment and save you up to 80%!</p>
