@@ -91,14 +91,65 @@
             </div>
             <div class="form-group">
               <div class="input-group">
-                <div class="input-group-addon"><img src="img/country.png"></div>
-                <input type="text" class="form-control" placeholder="Select Country" name="country">
+                  <div class="input-group-addon"><img src="img/country.png"></div>
+                  <select class="form-control select2" name="country">
+                      <option value="">Select Country</option>
+                      @foreach($countries as $country)
+                          <option value="{{$country->name}}">{{$country->name}}</option>
+                      @endforeach
+                  </select>
               </div>
             </div>
+
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-addon"><img src="img/phone-512.png"></div>
+                <input type="number" class="form-control " placeholder="Contact Number" name="phone">
+              </div>
+            </div>
+
             <div class="form-group">
               <div class="input-group">
                 <div class="input-group-addon"><img src="img/reason.png"></div>
-                <input type="text" class="form-control" placeholder="Select Reason" name="reason">
+                <select class="form-control select2" name="reason">
+                    <option value="Select Reason">Select Reason</option>
+                    <option value="Can't I sign into my account">Can't I sign into my account
+                    <option value="Can you ship Dangerous Goods?">Can you ship Dangerous Goods?
+                    <option value="Can you buy goods for me?">Can you buy goods for me?
+                    <option value="Can I shop from any website I want?"> Can I shop from any website I
+                        want?
+                    <option value="Do you offer a pick up service?"> Do you offer a pick up service?
+                    <option value="How do I apply for a membership?">How do I apply for a membership?
+                    <option value="How do I cancel my account?"> How do I cancel my account?
+                    <option value="How do I cancel my shipment request?">How do I cancel my shipment
+                        request?
+                    <option value="How do I place a Personal Shopper order?">How do I place a Personal
+                        Shopper order?
+                    <option value="How can I purchase items online?">How can I purchase items online?
+                    <option value="How do I partner with Shoppre.com?">How do I partner with
+                        Shoppre.com?
+                    <option value="How do I track my package?"> How do I track my package?
+                    <option value="How Much do you Charge for Shipping?">How Much do you Charge for
+                        Shipping?
+                    <option value="What are my payment options?">What are my payment options?
+                    <option value="What are the Personal Shopper works?">What are the Personal Shopper
+                        works?
+                    <option value="What are the Personal Shopper Fees?"> What are the Personal Shopper
+                        Fees?
+                    <option value="When am I charged for duties and taxes?"> When am I charged for
+                        duties and taxes?
+                    <option value="Why am I not able to create a ship request?"> Why am I not able to
+                        create a ship request?
+                    <option value="What carriers do you ship with?"> What carriers do you ship with?
+                    <option value="What if I entered my address wrong?"> What if I entered my address
+                        wrong?
+                    <option value="Where is my package?">Where is my package?
+                    <option value="What is the consolidation process?">What is the consolidation
+                        process?
+                    <option value="Why was my registration unsuccessful?">Why was my registration
+                        unsuccessful?
+                    <option value="Other Help?"> Other Help?
+                </select>
               </div>
             </div>
             <div class="form-group textarea">

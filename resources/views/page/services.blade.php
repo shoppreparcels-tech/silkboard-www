@@ -101,7 +101,15 @@
     </section>
     <div class="service-band2">
       <h2>For Business</h2>
-      <h4><a href="#" class="text-orange">Become a Partner</a> with Shoppre, and discover amazing opportunites. </h4>
+      <h4>
+          <a
+              href="https://goo.gl/forms/fEYWqUJjfguCjqif1"
+              class="text-orange"
+          >
+              Become a Partner
+          </a>
+          with Shoppre, and discover amazing opportunites.
+      </h4>
     </div>
     <section class="signup_free violet-grade">
       <div class="container">
@@ -109,10 +117,10 @@
           <div class="col-md-12">
           <h3>So what are you waiting for? Shopp <span class="text-orange">re</span>! Open your big box of happiness today!</h3>
           <p>All you need is a membership to get your Indian Shipping Address immediately!</p>
-          <a href="#" class="btn btn-shoppre">sign up for free</a>
+          <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-shoppre">sign up for free</a>
           </div>
         </div>
       </div>
     </section>
-    
+
 @endsection

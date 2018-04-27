@@ -20,13 +20,14 @@
             <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/loyalty-points">Shoppre Loyalty Points</a></li>
             <li><a href="{{route('stores')}}">Browse Categories</a></li>
             <li><a href="{{route('reviews')}}">Shoppre Reviews</a></li>
-            <li><a href="{{route('howitworks')}}">How Personal Shopper Works</a></li>
+            <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">How Personal Shopper Works</a></li>
             <li><a href="{{route('pricing')}}">Shipping and Pricing for your country</a></li>
           </ul>
         </div>
         <div class="col-sm-3">
           <ul class="foot_menu">
             <li><a href="{{route('about')}}">About Shoppre</a></li>
+            <li><a href="{{route('faq')}}">FAQ</a></li>
             <li><a href="https://myaccount.shoppre.com/direct/payment">Make Payment</a></li>
             <li><a href="{{route('feedback.Index')}}">Feedback</a></li>
             <li><a href="{{route('contact')}}">Contact us</a></li>

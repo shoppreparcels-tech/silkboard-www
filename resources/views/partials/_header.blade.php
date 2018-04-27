@@ -17,7 +17,7 @@
                     <li><a href="https://goo.gl/forms/fEYWqUJjfguCjqif1">Become a Partner</a></li>
                     <li><a href="{{route('faq')}}">FAQ</a></li>
                     <li><a href="https://www.quora.com/search?q=shoppre.com" target="_blank">Ask Questions</a></li>
-                    <li><a href="{{route('flash-sale.mi5A.index')}}" target="_blank">Flash Sale</a></li>
+                    {{--<li><a href="{{route('flash-sale.sales.list')}}" target="_blank">Flash Sale</a></li>--}}
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     {{--<li class="padding_li1" href="mailto:support@shoppre.com">support@shoppre.com</li>--}}
@@ -79,7 +79,7 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{route('flash-sale.mi5A.index')}}" target="_blank">Flash Sale</a></li>
+                    {{--<li><a href="{{route('flash-sale.mi5A.index')}}" target="_blank">Flash Sale</a></li>--}}
                     <li><a href="{{route('home')}}">Home</a></li>
                     <li class="hidden-sm hidden-md hidden-lg"><a href="{{route('about')}}">About Shoppre</a></li>
                       <li><button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">
@@ -88,7 +88,7 @@
                               <ul class="dropdown-menu">
                                   <li><a href="{{route('services')}}">Shoppre Services</a></li>
                                   <li><a href="{{route('consolidationService')}}">Consolidation Service</a></li>
-                                  {{--<li><a href="{{route('howitworks')}}">How Personal Shopper Works</a></li>--}}
+                                  <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">How Personal Shopper Works</a></li>
                                   <li><a href="{{route('stores')}}">Browse Categories</a></li>
                               </ul></li>
                     <li><a href="{{route('howitworks')}}">How Shoppre Works</a></li>
