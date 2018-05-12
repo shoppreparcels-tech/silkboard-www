@@ -182,7 +182,7 @@
         <div class="slide">
           <img src="https://myaccount.shoppre.com/img/slider1.jpg" width="100%">
           <div class="caption-block">
-            <h2 class="text-orange">INTERNATIONAL SHIPPING FROM INDIA <br>STARTS AT <i class="fa fa-inr"></i>999</h2>
+            <h2 class="text-orange">INTERNATIONAL SHIPPING FROM INDIA <br>STARTS AT <i class="fa fa-inr"></i>690</h2>
             <h3 style="margin-top: -8px !important;">Shop from India, Ship Worldwide!</h3>
             <p>Door to Door Pickup and International Delivery.</p>
             <p>Receive your FREE Personal Locker and Virtual Shipping Address in India!</p>
