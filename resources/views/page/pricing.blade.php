@@ -575,17 +575,17 @@
                             </td>
                             <td class="cell-2">INR 400</td>
                         </tr>
-                        <tr>
-                            <td>Shoppre Shipping Guarantee
-                                <a href="#" class="tooltipkey"
-                                                            title="Insure your shipment upto a total value of INR
-                                                            6000 for only INR 30. Check out our FAQ for more
-                                                            details.">
-                                    <i class="fa fa-question-circle-o"></i>
-                                </a>
-                            </td>
-                            <td class="cell-2">INR 30</td>
-                        </tr>
+                        {{--<tr>--}}
+                            {{--<td>Shoppre Shipping Guarantee--}}
+                                {{--<a href="#" class="tooltipkey"--}}
+                                                            {{--title="Insure your shipment upto a total value of INR--}}
+                                                            {{--6000 for only INR 30. Check out our FAQ for more--}}
+                                                            {{--details.">--}}
+                                    {{--<i class="fa fa-question-circle-o"></i>--}}
+                                {{--</a>--}}
+                            {{--</td>--}}
+                            {{--<td class="cell-2">INR 30</td>--}}
+                        {{--</tr>--}}
                         <tr>
                             <td>Shipping Preferences
                                 <a href="#" class="tooltipkey"

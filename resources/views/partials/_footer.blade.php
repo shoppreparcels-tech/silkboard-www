@@ -18,6 +18,7 @@
             <li><a href="http://blog.shoppre.com/" target="_blank">Blogs</a></li>
             <li><a href="{{route('services')}}">Our Services</a></li>
             <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/loyalty-points">Shoppre Loyalty Points</a></li>
+            <li><a href="{{route('cguide.index')}}">Country Guides</a></li>
             <li><a href="{{route('stores')}}">Browse Categories</a></li>
             <li><a href="{{route('reviews')}}">Shoppre Reviews</a></li>
             <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">How Personal Shopper Works</a></li>

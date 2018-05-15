@@ -1844,3 +1844,425 @@ section.sellers{padding:15px 0;}
 .transcontain .whitebox form.surveyform{width:100%;margin:10px auto;}
 .transcontain .whitebox form.surveyform .btn{margin-top:5px;font-size:12px;padding:8px 15px;}
 }
+
+
+/*======= Country Guide ========*/
+section.select_cguide{
+    padding: 50px 0;
+}
+.select_cguide h3{
+    margin: 0 0 30px;
+    font-size: 23px;
+    text-align: center;
+}
+.select_cguide .infoitems{
+    padding: 0;
+    list-style-type: square;
+    list-style-position: inside;
+}
+.select_cguide .infoitems li{
+    float: left;
+    width: 33%;
+    margin: 0 0 10px;
+    font-size: 16px;
+}
+.select_cguide #country_select{
+    clear: both;
+    display: block;
+    margin: 25px auto;
+    width: 50%;
+}
+.select_cguide #country_select .select2-container--default .select2-selection--single {
+    height: 45px;
+    border: 1px solid #dcdbdb;
+    background: #ebe4e4;
+}
+.select_cguide #country_select .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 44px;
+}
+.select_cguide #country_select .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 12px;
+    right: 8px;
+}
+.cguide_head {
+    background-image: url(../img/banner_cguide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cguide_head .left_head{
+    background-image: url(../img/cguide_left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    display: block;
+    width: 50%;
+    padding: 50px;
+}
+.cguide_head .left_head h2{
+    font-family: 'Myriad Pro';
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+    margin: 0;
+    line-height: 42px;
+}
+.cguide_head .left_head h3{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.cguide_head .left_head p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-top: 10px;
+}
+section.cguide_icos{
+    padding: 50px 0;
+}
+.cguide_icos ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.cguide_icos li{
+    display: inline-block;
+    margin: -2px;
+    text-align: center;
+    border-left: 1px solid #ccc;
+    padding: 10px 50px;
+}
+.cguide_icos li:first-child{
+    border-left: 0;
+}
+.cguide_icos li img{
+    display: block;
+    margin: auto;
+}
+.cguide_icos li strong{
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+}
+section.cguide_reviews{
+    padding: 50px 0;
+    background-image: url('../img/cguide_reviews.jpg');
+}
+.cguide_reviews h2{
+    margin: 0 0 35px;
+    text-align: center;
+    font-size: 24px;
+}
+.cguide_reviews .item {
+    background-image: url(../img/comma_black.png);
+}
+.cguide_reviews .item .img-circle{
+    border-radius: 0;
+    border: 0;
+    height: auto;
+    width: 80%;
+}
+.cguide_reviews .item p, .cguide_reviews .item span{
+    color: #000;
+}
+.cguide_reviews .item span.name:before{
+    background: #000;
+}
+.cguide_reviews .item .btn{
+    margin-top: 10px;
+}
+
+section.cguide_blocks{
+    padding: 50px 0;
+}
+.cguide_blocks article{
+    border-bottom: 2px dotted #555;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.cguide_blocks article:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.cguide_blocks article h2{
+    margin: 0 0 20px;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.cguide_blocks article h2 img{
+    width: 65px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.cguide_blocks article aside{
+    background: #fe9611;
+    color: #fff;
+    padding: 25px;
+}
+.cguide_blocks article aside h3{
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+}
+section.cguide_video{
+    max-width: 1366px;
+    margin: auto;
+}
+.cguide_video aside{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background: url('../img/cguide_watch.jpg') no-repeat center;
+}
+.cguide_video aside a{
+    background: url(../img/cguide_video.png) no-repeat top;
+    display: block;
+    width: 90px;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 100px;
+    background-size: contain;
+    text-align: center;
+    color: #fff;
+}
+.cguide_video article{
+    float: left;
+    max-width: 66%;
+    margin: 50px 50px 30px;
+}
+.cguide_video article h3{
+    margin: 0 0 30px;
+    font-size: 24px;
+    line-height: 34px;
+    border-bottom: 2px dotted #fff;
+    padding-bottom: 30px;
+}
+section.cguide_stores{
+    padding: 50px 0;
+}
+.cguide_stores h2{
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+}
+.cguide_stores p{
+    margin: 0;
+}
+.cguide_stores .btn{
+    margin: 20px 0;
+    text-transform: none;
+    font-size: 16px;
+}
+section.cguide_warning{
+    background: #faefd4;
+    padding: 50px 0 0;
+}
+.cguide_warning .container{
+    background: url(../img/cguide_warning.png) no-repeat right 113%;
+    padding-bottom: 50px;
+}
+.cguide_warning h2{
+    margin: 0 0 30px;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.cguide_warning p{
+    text-align: center;
+    font-size: 16px;
+}
+.cguide_warning ul{
+    display: inline-block;
+    margin: 30px 0;
+    vertical-align: top;
+    margin-left: 90px;
+}
+.cguide_warning ul li{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.shipping-calculator .block.xchange_rate{
+    padding: 30px;
+}
+.shipping-calculator .block.xchange_rate h3{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.shipping-calculator .block.xchange_rate p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.shipping-calculator .block.xchange_rate strong{
+    display: block;
+    margin: 0 0 5px;
+}
+.shipping-calculator .block.xchange_rate .ratebox{
+    display: block;
+    border: 2px solid #ccc;
+    width: 75px;
+    height: 45px;
+    margin-left: -15px;
+    text-align: center;
+    padding-top: 10px;
+}
+.shipping-calculator .block.xchange_rate form{
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 480px){
+    .pagebanner .banner-cap h2 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    section.select_cguide {
+        padding: 30px 0;
+    }
+    .select_cguide h3 {
+        margin: 0 0 15px;
+        font-size: 18px;
+    }
+    .select_cguide .infoitems li {
+        float: none;
+        width: 100%;
+        font-size: 14px;
+    }
+    .select_cguide #country_select {
+        margin: 15px auto;
+        width: 100%;
+    }
+    .cguide_head .left_head {
+        width: 100%;
+        background-position: center;
+        padding: 15px;
+        background-size: 130%;
+    }
+    .cguide_head .left_head h2{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .cguide_head .left_head h3{
+        font-size: 12px;
+        margin: 5px 0 0px;
+    }
+    section.cguide_icos {
+        padding: 30px 0;
+    }
+    .cguide_icos li{
+        border-left: 0;
+        border-bottom: 1px solid #ccc;
+        padding: 25px 0;
+        display: block;
+    }
+    .cguide_icos li:last-child{
+        border-bottom: 0;
+    }
+    section.cguide_reviews{
+        padding: 15px 0;
+    }
+    .cguide_reviews h2 {
+        margin: 0 0 15px;
+        font-size: 18px;
+    }
+    .cguide_reviews .item {
+        background-position: left top;
+    }
+    section.cguide_blocks {
+        padding: 15px 0;
+    }
+    .cguide_blocks article h2 img {
+        width: 50px;
+        display: block;
+        margin: auto;
+    }
+    .cguide_blocks article h2 {
+        margin: 0 0 10px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 18px;
+    }
+    .cguide_blocks article aside {
+        padding: 10px;
+    }
+    .cguide_blocks article aside h3 {
+        margin: 0 0 5px;
+        font-size: 14px;
+    }
+    .cguide_blocks article {
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+    }
+    .cguide_video aside{
+        width: 100%;
+    }
+    .cguide_video article {
+        max-width: 100%;
+        margin: 15px;
+    }
+    .cguide_video article h3 {
+        margin: 0 0 15px;
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+    section.cguide_stores {
+        padding: 15px 0;
+    }
+    .cguide_stores h2 {
+        margin: 0 0 10px;
+        font-size: 16px;
+    }
+    section.cguide_warning {
+        padding: 15px 0 0;
+    }
+    .cguide_warning h2 {
+        margin: 0 0 5px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .cguide_warning p {
+        font-size: 12px;
+    }
+    .cguide_warning ul {
+        margin: 0;
+    }
+    .cguide_warning ul li {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .cguide_warning .container {
+        padding-bottom: 0px;
+        background-size: 65px;
+        background-position: 109% 104%;
+    }
+    .shipping-calculator .block.xchange_rate {
+        padding: 10px;
+    }
+    .shipping-calculator .block.xchange_rate h3 {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .shipping-calculator .block.xchange_rate p {
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .shipping-calculator .block.xchange_rate .ratebox {
+        width: 100%;
+        margin-left: 0;
+    }
+    .shipping-calculator .block.xchange_rate form {
+        margin-bottom: 0;
+    }
+}

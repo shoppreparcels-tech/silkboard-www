@@ -90,5 +90,9 @@ Route::get('/new-pricing', 'PageController@newPricing')->name('newPricing');
 Route::get('/customer-pricing', 'PageController@customerPricing')->name('customerPricing');
 Route::get('/invoice', 'InvoiceController@index')->name('invoice');
 
+Route::get('/country-guide/', 'CountryGuideController@countryGuide')->name('cguide.index');
+Route::get('/country/{iso}', 'CountryGuideController@show')->name('cguide.view');
+Route::post('/calculate/exchange-rate', 'CountryGuideController@exchangeCalculate')->name('xchange.calc');
+
 Route::get('/{slug}', 'PageController@viewPage')->name('page');
 
