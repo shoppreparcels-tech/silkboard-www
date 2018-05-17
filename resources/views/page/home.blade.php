@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Borderless Shipping: Parcel Delivery | Courier Services | Shoppre India')
-@section('description', 'Shoppre leading provider of parcel delivery company in India. Shipping your items to worldwide & reaches within 2-5 working days, save 60-80% on shipping cost.')
-@section('keywords', 'parcel forwarding company, borderless shipping from india, personal shipping indian address, parcel delivery, courier services, shoppre')
+@section('title', 'International Shipping From India & Package Forwarding Services')
+@section('description', 'Shoppre online international shipping company. We provide pickup anywhere from India, door-to-door delivery service and 20 Days free storage. Signup now!')
+@section('keywords', 'parcel forwarding company, borderless shipping, international from india, personal shipping indian address, parcel delivery, courier services, shoppre')
 
 @section('css_style')
 	<!-- Owl Carousel -->
@@ -183,6 +183,7 @@
           <img src="https://myaccount.shoppre.com/img/slider1.jpg" width="100%">
           <div class="caption-block">
             <h2 class="text-orange">INTERNATIONAL SHIPPING FROM INDIA <br>STARTS AT &nbsp&nbsp<i class="fa fa-inr"></i>690</h2>
+            <h3 style="margin-top: -8px !important;">We Do Flipkart International Delivery</h3>
             <h3 style="margin-top: -8px !important;">Shop from India, Ship Worldwide!</h3>
             <p>Door to Door Pickup and International Delivery.</p>
             <p>Receive your FREE Personal Locker and Virtual Shipping Address in India!</p>
@@ -215,9 +216,9 @@
           <div class="col-sm-10">
             <div class="parcel_logs">
               <h3>Ship your Parcel through Shoppre’s trusted Courier Partners</h3>
-              <img src="{{asset('img/dhl.png')}}">
-              <img src="{{asset('img/fedex.png')}}">
-              <img src="{{asset('img/dtdc.png')}}">
+                <a href="{{route('partner')}}"><img src="{{asset('img/dhl.png')}}"></a>
+                <a href="#"><img src="{{asset('img/fedex.png')}}"></a>
+                <a href="#"><img src="{{asset('img/dtdc.png')}}"></a>
               <h4>Shoppre receives and ships over INR 10,00,000 worth in eCommerce purchases monthly!</h4>
             </div>
           </div>
@@ -229,7 +230,7 @@
             </li>
             <li>
               <a href="{{route('countryList')}}">
-              <h2>220+</h2>
+              <h2>236+</h2>
               <h4>Countries Worldwide</h4>
             </a>
             </li>

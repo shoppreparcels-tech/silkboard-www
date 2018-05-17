@@ -53,6 +53,8 @@ Route::post('/invite-friend/send-invitation', 'FlashSaleController@sendInvitatio
 Route::get('/send-otp', 'FlashSaleController@sendOtp')->name('flash-sale.otp');
 Route::get('/success', 'FlashSaleController@sendOtp')->name('flash-sale.otp');
 
+/*-------- partners ------*/
+Route::get('/partners/dhl', 'Partner\PartnerController@index')->name('partner');
 /*-------- campaign ------*/
 
 Route::get('/campaign/{cname}/{eid}', 'CampaignController@campaignDetail')->name('campaignDetail');
