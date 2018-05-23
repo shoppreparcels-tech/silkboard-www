@@ -180,7 +180,7 @@
     <!-- Home Page Contents -->
     <section class="slider">
         <div class="slide">
-          <img src="{{asset('img/ramadan.png')}}" width="100%">
+          <img src="{{asset('img/ramadan.jpg')}}" width="100%">
           <div class="caption-block">
             <h2 class="text-orange">INTERNATIONAL SHIPPING FROM INDIA <br>STARTS AT &nbsp&nbsp<i class="fa fa-inr"></i>690</h2>
             <h3 style="margin-top: -8px !important;">We Do Flipkart International Delivery</h3>
