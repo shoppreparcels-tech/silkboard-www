@@ -302,80 +302,9 @@
 </script>
 <noscript><img height="1" width="1" style="display:none"
                src="https://www.facebook.com/tr?id=437389746641326&ev=PageView&noscript=1"/></noscript>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-    @if(Auth::guard('customer')->check())
-        Tawk_API.visitor = {
-        name: '{{Auth::user()->name . ' - ' . Auth::user()->id}}',
-        email: '{{Auth::user()->name}}'
-    };
-    @endif;
-    (function () {
-        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = 'https://embed.tawk.to/{{ Auth::guard('customer')->check() ? "59d72784c28eca75e4624678" : "58dab24ff97dd14875f5a8a9" }}/default';
-        s1.charset = 'UTF-8';
-        s1.setAttribute('crossorigin', '*');
-        s0.parentNode.insertBefore(s1, s0);
-    })();
-</script>
-<!--End of Tawk.to Script-->
-
-<script>
-    Tawk_API = Tawk_API || {};
-    Tawk_API.onPrechatSubmit = function (data) {
-        var referrer = localStorage.referer;
-        var first_visit = localStorage.firstVisit;
-        console.log(data);
-        var SALES = 1;
-        var settings = {
-            "async": true,
-            "crossDomain": true,
-            "url": "https://leads.shoppre.com/api/leads",
-            "method": "POST",
-            "headers": {
-                "token": "230958jdfsdf89ujie",
-                "content-type": "application/x-www-form-urlencoded",
-                "cache-control": "no-cache"
-            },
-            "data": {
-                "email": data[1].answer,
-                "username": data[1].answer,
-                "name": data[0].answer,
-                "body": data[3].answer,
-                "tags": 'tawk',
-                "company": "company1",
-                "address": "address",
-                "city": "city",
-                "postal_code": "1234",
-                "phone": data[2].answer,
-                "team_id": SALES
-            }
-        };
-
-        $.ajax(settings).done(function (response) {
-            console.log('fff', response);
-        });
-
-        $.ajax({
-            url: '/api/leads/signup',
-            type: "POST",
-            data: {
-                referrer: referrer,
-                first_visit: first_visit,
-                first_name: data[0].answer,
-                last_name: data[1].answer,
-                email: data[2].answer,
-                phone: data[3].answer
-            },
-            success: function (data) {
-                console.log(data);
-            }
-        });
-    };
-
-</script>
+<!-- Start of shoppre-international-shipping-courier Zendesk Widget script -->
+<script>/*<![CDATA[*/window.zE||(function(e,t,s){var n=window.zE=window.zEmbed=function(){n._.push(arguments)}, a=n.s=e.createElement(t),r=e.getElementsByTagName(t)[0];n.set=function(e){ n.set._.push(e)},n._=[],n.set._=[],a.async=true,a.setAttribute("charset","utf-8"), a.src="https://static.zdassets.com/ekr/asset_composer.js?key="+s, n.t=+new Date,a.type="text/javascript",r.parentNode.insertBefore(a,r)})(document,"script","2ab4b736-3ac8-4f95-8b6f-e2c9d6325182");/*]]>*/</script>
+<!-- End of shoppre-international-shipping-courier Zendesk Widget script -->
 <script>
     if (window.location.href == "https://www.shoppre.com/campaign/flyer/616") {
         if (!localStorage.newsUrlVisit) {
