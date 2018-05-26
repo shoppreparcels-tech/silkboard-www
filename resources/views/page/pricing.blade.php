@@ -168,6 +168,8 @@
                                 require additional time include those containing items under review or hazardous
                                 materials, oversized packages or where additional export documentation is required.
                             </li>
+                            <li><span class="text-red">**</span> For electronics items , INR 500 will be charged additionally.
+                            </li>
                         </ul>
                     </div>
                     <div id="calc_load"></div>
