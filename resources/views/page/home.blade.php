@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'International Shipping From India & Package Forwarding Services')
+@section('title', 'India's leading Shipping, Courier & Package Forwarding Services for DHL & Flipkart International Delivery · Shoppre')
 @section('description', 'Shoppre online international shipping company. We provide pickup anywhere from India, door-to-door delivery service and 20 Days free storage. Signup now!')
-@section('keywords', 'parcel forwarding company, borderless shipping, international from india, personal shipping indian address, parcel delivery, courier services, shoppre')
+@section('keywords', 'flipkart international delivery, parcel forwarding company, borderless shipping, international from india, personal shipping indian address, parcel delivery, courier services, shoppre')
 
 @section('css_style')
 	<!-- Owl Carousel -->
@@ -12,9 +12,7 @@
 
     <meta property="og:title" content="Start Shipping with Shoppre | India's Best Shipping Partner" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Shoppre your International Shipping Partner.
-     Shop from any Indian online store & ship to your doorstep. Save up to 60-80%
-      on shipping with Shoppre package consolidation service. Sign up now!" />
+    <meta property="og:description" content="Shoppre your International Shipping Partner. Shop from any Indian online store & ship to your doorstep. Save up to 60-80% on shipping with Shoppre package consolidation service. Sign up now!" />
     <meta property="og:url" content="https://www.shoppre.com" />
     <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
     <meta property="og:site_name" content="Shoppre" />
@@ -23,9 +21,7 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@Go_Shoppre" />
     <meta name="twitter:title" content="Start Shipping with Shoppre | India's Best Shipping Partner" />
-    <meta name="twitter:description" content="Shoppre your International Shipping Partner.
-     Shop from any Indian online store & ship to your doorstep. Save up to 60-80% on shipping
-      with Shoppre package consolidation service. Sign up now!" />
+    <meta name="twitter:description" content="Shoppre your International Shipping Partner. Shop from any Indian online store & ship to your doorstep. Save up to 60-80% on shipping with Shoppre package consolidation service. Sign up now!" />
     <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
 
 
@@ -180,7 +176,7 @@
     <!-- Home Page Contents -->
     <section class="slider">
         <div class="slide">
-          <img src="{{asset('img/ramadan.jpg')}}" width="100%">
+          <img src="https://myaccount.shoppre.com/img/slider1.jpg" width="100%">
           <div class="caption-block">
             <h2 class="text-orange">INTERNATIONAL SHIPPING FROM INDIA <br>STARTS AT &nbsp&nbsp<i class="fa fa-inr"></i>690</h2>
             <h3 style="margin-top: -8px !important;">We Do Flipkart International Delivery</h3>
