@@ -84,7 +84,7 @@
                             <div class="clearfix"></div>
                         </div>
                         <div class="form-group">
-                            <label class="col-sm-12 control-label">How much does your package weigh?</label>
+                            <label class="col-sm-12 control-label">How much does your package weight?</label>
                             <div class="col-sm-6">
                                 <input type="text" class="form-control" value="1" name="weight"
                                        placeholder="Enter Weight">
@@ -135,8 +135,8 @@
                         </div>
 
                         <div class="clearfix"></div>
-                        <div class="col-sm-12">
-                            <button type="submit" class="btn btn-block btn-shoppre">GET UPFRONT SHIPPING RATES</button>
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <button type="submit" class="btn btn-block btn-shoppre"><font size="4px"><strong>ESTIMATE</strong></font></button>
                         </div>
                         <div class="clearfix"></div>
                     </form>
