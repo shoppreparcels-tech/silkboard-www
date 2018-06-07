@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'India's leading Shipping, Courier & Package Forwarding Services for DHL & Flipkart International Delivery · Shoppre')
+@section('title', 'India\'s leading Shipping, Courier & Package Forwarding Services for DHL & Flipkart International Delivery · Shoppre')
 @section('description', 'Shoppre online international shipping company. We provide pickup anywhere from India, door-to-door delivery service and 20 Days free storage. Signup now!')
 @section('keywords', 'flipkart international delivery, parcel forwarding company, borderless shipping, international from india, personal shipping indian address, parcel delivery, courier services, shoppre')
 
