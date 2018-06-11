@@ -16,8 +16,8 @@
                     <li><a href="{{route('about')}}">About Shoppre</a></li>
                     <li><a href="https://goo.gl/forms/fEYWqUJjfguCjqif1">Become a Partner</a></li>
                     <li><a href="{{route('faq')}}">FAQ</a></li>
-                    <li><a href="https://www.quora.com/search?q=shoppre.com" target="_blank">Ask Questions</a></li>
-                    <li><a href="https://shoppre-international-shipping-courier.zendesk.com/" target="_blank">Help</a></li>
+                    {{--<li><a href="https://www.quora.com/search?q=shoppre.com" target="_blank">Ask Questions</a></li>--}}
+                    {{--<li><a href="https://shoppre-international-shipping-courier.zendesk.com/" target="_blank">Help</a></li>--}}
                     {{--<li><a href="{{route('flash-sale.sales.list')}}" target="_blank">Flash Sale</a></li>--}}
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -87,10 +87,11 @@
                                   <strong>SERVICES</strong> <span class="caret"></span>
                               </button>
                               <ul class="dropdown-menu">
-                                  <li><a href="{{route('services')}}">Shoppre Services</a></li>
-                                  <li><a href="{{route('consolidationService')}}">Consolidation Service</a></li>
-                                  <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">How Personal Shopper Works</a></li>
-                                  <li><a href="{{route('stores')}}">Browse Categories</a></li>
+                                  <li><a href="{{route('services')}}">Shop and Ship</a></li>
+                                  <li><a href="{{route('consolidationService')}}">Repacking & Consolidation</a></li>
+                                  <li><a href="{{route('schedulePickup.Index')}}">Schedule a Pickup</a></li>
+                                  <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">Personal Shopper</a></li>
+                                  <li><a href="{{route('stores')}}">Indian Online Shops</a></li>
                               </ul></li>
                     <li><a href="{{route('howitworks')}}">How Shoppre Works</a></li>
                     <li><a href="{{route('pricing')}}">Price Calculator</a></li>
