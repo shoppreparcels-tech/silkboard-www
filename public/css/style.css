@@ -1644,7 +1644,7 @@ footer .infolinks{padding:20px 0;text-align:center;}
 @media only screen and (max-width:480px){.navbar-default .nav li a{font-size:12px;}
 .navbar-default .nav li{padding:5px;}
 .head-text-content {font-size: 18px !important;width: 100% !important;margin: 10px 37px 20px 0px !important;}
-.slider .slide{min-height:231px}
+.slider .slide{min-height: 301px;}
     #display-login-icon{display: none !important;}
     /*@media (min-width:320px)  {.display-icon{display: none;}}*/
     /*@media (min-width:481px)  {.display-icon{display: none;}}*/
