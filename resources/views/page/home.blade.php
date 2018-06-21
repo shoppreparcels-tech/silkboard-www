@@ -176,13 +176,26 @@
     <!-- Home Page Contents -->
     <section class="slider">
         <div class="slide">
-          <img src="https://myaccount.shoppre.com/img/slider1.jpg" width="100%">
+          <img src="img/03.jpg" width="100%">
           <div class="caption-block">
-            <h2 class="text-orange">INTERNATIONAL SHIPPING FROM INDIA <br>STARTS AT &nbsp&nbsp<i class="fa fa-inr"></i>690</h2>
-            <h3 style="margin-top: -8px !important;">We Do Flipkart International Delivery</h3>
-            <h3 style="margin-top: -8px !important;">Shop from India, Ship Worldwide!</h3>
-            <p>Door to Door Pickup and International Delivery.</p>
-            <p>Receive your FREE Personal Locker and Virtual Shipping Address in India!</p>
+            <h2 class="text-orange">Myntra Sale 22-25th June<br>Shipping Starts at &nbsp
+                <i class="fa fa-inr"></i>690
+            </h2>
+              <br>
+            <h4 style="margin-top: -8px !important;">Shop Myntra 50-80% Off & Ship with ShoppRe <br>
+            </h4>
+              <h5 style="margin-top: -8px !important;">
+                  USA | UAE | AUS | Canada | 220+ Countries
+              </h5>
+              {{--<h5 >Shoes, T-Shirts, Dresses, Party Wear, Casual Wear, Tops, Bags, Jeans, Shirts.--}}
+            {{--</h5>--}}
+              <ul style="margin-left: 18px;">
+                  <li>Get your FREE Personal Locker & Indian Shipping Address</li>
+                  <li>Door to Door Pickup and International Delivery.</li>
+
+              </ul>
+            <p></p>
+            <p></p>
               <br>
             <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-shoppre popup-youtube">
               Video <i class="glyphicon glyphicon-play-circle"></i>
@@ -212,9 +225,9 @@
           <div class="col-sm-10">
             <div class="parcel_logs">
               <h3>Ship your Parcel through Shoppre’s trusted Courier Partners</h3>
-                <a href="{{route('partner')}}"><img src="{{asset('img/dhl.png')}}"></a>
-                <a href="#"><img src="{{asset('img/fedex.png')}}"></a>
-                <a href="#"><img src="{{asset('img/dtdc.png')}}"></a>
+                <a href="{{route('dhl.index')}}"><img src="{{asset('img/dhl.png')}}"></a>
+                <a href="javascript:void(0)"><img src="{{asset('img/fedex.png')}}"></a>
+                <a href="javascript:void(0)"><img src="{{asset('img/dtdc.png')}}"></a>
               <h4>Shoppre receives and ships over INR 10,00,000 worth in eCommerce purchases monthly!</h4>
             </div>
           </div>
@@ -245,7 +258,6 @@
         </div>
       </div>
     </section>
-
     <section class="services">
       <div class="container">
         <div class="row">

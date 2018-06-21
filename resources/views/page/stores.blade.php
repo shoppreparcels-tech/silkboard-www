@@ -62,7 +62,11 @@
                             @php
                               $logo = (!empty($web->logo)) ? $web->logo : 'brand-logo.png';
                             @endphp
-                            <a href="{{$web->url}}" target="_blank" title="{{$web->name}}"><span class="brand_logo" style="background-image: url('{{asset('uploads/stores')}}/{{$logo}}');"></span></a>
+                            <a href="{{$web->url}}" target="_blank" title="{{$web->name}}">
+                                <span class="brand_logo"
+                                       style="background-image: url('{{asset('uploads/stores')}}/{{$logo}}');">
+                                </span>
+                            </a>
                             @if(Auth::check())
                               @if(in_array($web->id, $favs))
                               <a href="#" class="myfavstore active" data-clubid="{{$web->id}}"><i class="bookmark-icon"></i></a>

@@ -43,6 +43,10 @@ Route::get('/{initial}-{cprefix}-{cpostfix}-from-{source}-to-{destination}', 'Pa
     ->name('urlTargetContent');
 Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('schedulePickup.mail');
 
+/*-------- Dhl Shipments ------*/
+Route::get('/dhl', 'ShippingPartnerController@index')->name('dhl.index');
+Route::get('/dhl/shipment/{id}', 'ShippingPartnerController@view')->name('dhl.view');
+
 /*-------- Flash Sale ------*/
 
 Route::get('/mi.com', 'FlashSaleController@sales')->name('flash-sale.sales.list');

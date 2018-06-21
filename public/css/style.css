@@ -541,6 +541,38 @@ section.services{padding:35px 0;background:url('../img/service.jpg') no-repeat;b
 {
     padding-top: 10%;
 }
+.shipment_card
+{
+    min-height: 50px;
+    border: 1px solid burlywood;
+    border-radius: 3px;
+    margin: 5px 0 8px 0;
+}
+.shipping_detail
+{
+    border: 1px solid burlywood;
+    border-radius: 4px;
+    margin: 7px 0 7px 0;
+    padding: 2%;
+}
+.package_items
+{
+    border: 1px solid gray;
+    padding: 0 10px 0 25px;;
+}
+.package_photos
+{
+    border: 1px solid gray;
+    padding: 0 10px 0 25px;
+}
+.top_seller_heading
+{
+    margin-top: 2%;
+}
+.heading_color
+{
+    color: green;
+}
 .red{color:#ed1c24;}
 .services .service-content{margin-top:15px;}
 .services .service-content p.head-text{font-size:18px;text-align:center;font-weight:700;clear:both;display:block;}
