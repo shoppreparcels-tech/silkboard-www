@@ -178,11 +178,11 @@
         <div class="slide">
           <img src="img/03.jpg" width="100%">
           <div class="caption-block">
-            <h2 class="text-orange">Myntra Sale 22-25th June<br>Shipping Starts at &nbsp
+            <h2 class="text-orange">International Shipping From India <br> Starts at &nbsp
                 <i class="fa fa-inr"></i>690
             </h2>
               <br>
-            <h4 style="margin-top: -8px !important;">Shop Myntra 50-80% Off & Ship with ShoppRe <br>
+            <h4 style="margin-top: -8px !important;">Shop From Indian Stores & Ship with ShoppRe <br>           
             </h4>
               <h5 style="margin-top: -8px !important;">
                   USA | UAE | AUS | Canada | 220+ Countries
