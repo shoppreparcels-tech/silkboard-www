@@ -176,7 +176,7 @@
     <!-- Home Page Contents -->
     <section class="slider">
         <div class="slide">
-          <img src="img/03.jpg" width="100%">
+          <img src="https://myaccount.shoppre.com/img/slider1.jpg" width="100%">
           <div class="caption-block">
             <h2 class="text-orange">International Shipping From India <br> Starts at &nbsp
                 <i class="fa fa-inr"></i>690
