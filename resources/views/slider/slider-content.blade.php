@@ -54,9 +54,9 @@
         //responsive code begin
         //you can remove responsive code if you don't want the slider scales while window resizes
         function ScaleSlider() {
-            var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
-            if (parentWidth)
-                jssor_slider1.$ScaleWidth(Math.min(parentWidth, 1400));
+            var bodyWidth = document.body.clientWidth;
+            if (bodyWidth)
+                jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1920));
             else
                 window.setTimeout(ScaleSlider, 30);
         }
@@ -65,7 +65,7 @@
         $(window).bind("load", ScaleSlider);
         $(window).bind("resize", ScaleSlider);
         $(window).bind("orientationchange", ScaleSlider);
-        //responsive code end
+       //responsive code end
     });
 </script>
 <!-- Jssor Slider Begin -->
