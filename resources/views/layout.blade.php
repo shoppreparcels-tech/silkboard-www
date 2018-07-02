@@ -16,8 +16,15 @@
     <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css">
     <link href="{{asset('css/txtProgress.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/algolia.css')}}" rel="stylesheet">
     <link href="{{asset('css/style1.css')}}" rel="stylesheet">
     <link href="{{asset('css/print.css')}}" rel="stylesheet">
+    <script src="{{asset('js/jquery.min.js')}}"></script>
+
+    <script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script src="//cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+    <script src="{{asset('js/slider-js/jssor.js')}}"></script>
+    <script src="{{asset('js/slider-js/jssor.slider.js')}}"></script>
     @yield('css_style')
 
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
@@ -191,13 +198,6 @@
                                            name="password_confirmation" required="" aria-required="true">
                                 </div>
                             </div>
-                            {{--<div class="form-group">--}}
-                            {{--<div class="input-group">--}}
-                            {{--<div class="input-group-addon"><i class="fa fa-tag"></i></div>--}}
-                            {{--<input type="text" class="form-control" name="refferal"--}}
-                            {{--placeholder="Referral Code (Optional)">--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
                             <div class="form-group content-padding">
                                 <button type="submit" class="btn btn-shoppre btn-block">Sign Up</button>
                             </div>
@@ -209,7 +209,6 @@
 
                 </div>
             </div>
-
         </div>
     </div>
 </div>
@@ -218,7 +217,7 @@
 
 @include('partials._footer')
 
-<script src="{{asset('js/jquery.min.js')}}"></script>
+
 <script src="{{asset('js/bootstrap.min.js')}}"></script>
 <script src="{{asset('js/txtProgress.min.js')}}"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
@@ -317,7 +316,7 @@
   attribution="setup_tool"
   page_id="1819630241632764">
 </div>
-    
+
 <!-- Start of shoppre-international-shipping-courier Zendesk Widget script -->
 <script>/*<![CDATA[*/window.zE||(function(e,t,s){var n=window.zE=window.zEmbed=function(){n._.push(arguments)}, a=n.s=e.createElement(t),r=e.getElementsByTagName(t)[0];n.set=function(e){ n.set._.push(e)},n._=[],n.set._=[],a.async=true,a.setAttribute("charset","utf-8"), a.src="https://static.zdassets.com/ekr/asset_composer.js?key="+s, n.t=+new Date,a.type="text/javascript",r.parentNode.insertBefore(a,r)})(document,"script","2ab4b736-3ac8-4f95-8b6f-e2c9d6325182");/*]]>*/</script>
 <!-- End of shoppre-international-shipping-courier Zendesk Widget script -->

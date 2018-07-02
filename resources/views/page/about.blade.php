@@ -6,7 +6,7 @@
 
 @section('content')
 
-	<section class="page_head">
+  <section class="page_head">
     <div class="pagebanner">
       <img src="img/banner1.jpg" width="100%">
       <div class="banner-cap">
@@ -35,7 +35,7 @@
               <span>Our<br>Shipping<br>Partners</span>
             </div>
           </div>
-          
+
       </div>
     </div>
   </section>

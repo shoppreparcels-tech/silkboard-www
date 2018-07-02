@@ -40,7 +40,7 @@
       <div class="blox">
         <img src="{{asset('img/contact4.png')}}">
         <h4>Live Chat</h4>
-        <span><a href="https://tawk.to/chat/59d72784c28eca75e4624678/default/?$_tawk_popout=true" target="_blank">Our Team is at your service 24/7</a></span>
+        <span><a href="http://v2.zopim.com/widget/livechat.html?key=WMWUM4as7ltiMKHbRXiFRw3imdMiLtAV" target="_blank">Our Team is at your service 24/7</a></span>
       </div>
       <div class="blox">
         <img src="{{asset('img/contact5.png')}}">

@@ -174,44 +174,47 @@
 
 @section('content')
     <!-- Home Page Contents -->
-    <section class="slider">
-        <div class="slide">
-          <img src="https://myaccount.shoppre.com/img/slider1.jpg" width="100%">
-          <div class="caption-block">
-            <h2 class="text-orange">International Shipping From India <br> Starts at &nbsp
-                <i class="fa fa-inr"></i>690
-            </h2>
-              <br>
-            <h4 style="margin-top: -8px !important;">Shop From Indian Stores & Ship with ShoppRe <br>           
-            </h4>
-              <h5 style="margin-top: -8px !important;">
-                  USA | UAE | AUS | Canada | 220+ Countries
-              </h5>
+    <section>
+     @include('slider.slider-content')
+    </section>
+    {{--<section class="slider">--}}
+        {{--<div class="slide">--}}
+          {{--<img src="img/03.jpg" width="100%">--}}
+          {{--<div class="caption-block">--}}
+            {{--<h2 class="text-orange">Myntra Sale 22-25th June<br>Shipping Starts at &nbsp--}}
+                {{--<i class="fa fa-inr"></i>690--}}
+            {{--</h2>--}}
+              {{--<br>--}}
+            {{--<h4 style="margin-top: -8px !important;">Shop Myntra 50-80% Off & Ship with ShoppRe <br>--}}
+            {{--</h4>--}}
+              {{--<h5 style="margin-top: -8px !important;">--}}
+                  {{--USA | UAE | AUS | Canada | 220+ Countries--}}
+              {{--</h5>--}}
               {{--<h5 >Shoes, T-Shirts, Dresses, Party Wear, Casual Wear, Tops, Bags, Jeans, Shirts.--}}
             {{--</h5>--}}
-              <ul style="margin-left: 18px;">
-                  <li>Get your FREE Personal Locker & Indian Shipping Address</li>
-                  <li>Door to Door Pickup and International Delivery.</li>
+              {{--<ul style="margin-left: 18px;">--}}
+                  {{--<li>Get your FREE Personal Locker & Indian Shipping Address</li>--}}
+                  {{--<li>Door to Door Pickup and International Delivery.</li>--}}
 
-              </ul>
-            <p></p>
-            <p></p>
-              <br>
-            <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-shoppre popup-youtube">
-              Video <i class="glyphicon glyphicon-play-circle"></i>
-            </a>
-            <a href="{{route('schedulePickup.Index')}}" class="btn btn-shoppre">Schedule a Pickup</a>
-            <br/>
-            <br/>
-             <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">
-               Get Virtual Address & Start Shopping
-             </a>
-          </div>
-          <div class="bottom">
-            <p>Not all Indian Online Stores offer International Shipping</p>
-          </div>
-        </div>
-    </section>
+              {{--</ul>--}}
+            {{--<p></p>--}}
+            {{--<p></p>--}}
+              {{--<br>--}}
+            {{--<a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-shoppre popup-youtube">--}}
+              {{--Video <i class="glyphicon glyphicon-play-circle"></i>--}}
+            {{--</a>--}}
+            {{--<a href="{{route('schedulePickup.Index')}}" class="btn btn-shoppre">Schedule a Pickup</a>--}}
+            {{--<br/>--}}
+            {{--<br/>--}}
+             {{--<a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">--}}
+               {{--Get Virtual Address & Start Shopping--}}
+             {{--</a>--}}
+          {{--</div>--}}
+          {{--<div class="bottom">--}}
+            {{--<p>Not all Indian Online Stores offer International Shipping</p>--}}
+          {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
 
     <section class="all-about">
       <div class="container">

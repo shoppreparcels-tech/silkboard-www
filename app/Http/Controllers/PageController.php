@@ -27,6 +27,8 @@ use App\Mail\GetQuote;
 
 class PageController extends Controller
 {
+
+
     public function saveFlyerUser(Request $request)
     {
         $emp_id = 616;

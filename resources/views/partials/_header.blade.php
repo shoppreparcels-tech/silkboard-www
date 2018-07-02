@@ -36,24 +36,40 @@
                                 Sign up</a></li>
                     @endif
                 </ul>
-                @if(!$promos->isEmpty())
-                    <div class="promoscroll">
-                        <ul id="liticker">
-                            @foreach($promos as $promo)
-                                <li><a href="{{$promo->url}}" target="_blank">{{$promo->title}} - <span>{{$promo->code}}</span></a></li>
-                            @endforeach
-                        </ul>
-                    </div>
-                @endif
-                @if(isset($announcements))
-                    <div class="announcescroll">
-                        <div class="message_announce">
-                            <marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();"
-                                     direction="left"><span class="text_deco">{{$announcements->message}}</span>
-                            </marquee>
-                        </div>
-                    </div>
-                @endif
+                {{--<form novalidate="novalidate" onsubmit="return false;" class="searchbox">--}}
+                    {{--<div role="search" class="searchbox__wrapper">--}}
+                        {{--<input id="search-input" type="search" name="search" placeholder="Search for a question"--}}
+                               {{--autocomplete="off" required="required" class="searchbox__input">--}}
+                        {{--<button type="submit" title="Submit your search query." class="searchbox__submit" >--}}
+                            {{--<svg role="img" aria-label="Search">--}}
+                                {{--<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#sbx-icon-search-13"></use>--}}
+                            {{--</svg>--}}
+                        {{--</button>--}}
+                        {{--<button type="reset" title="Clear the search query." class="searchbox__reset hide">--}}
+                            {{--<svg role="img" aria-label="Reset">--}}
+                                {{--<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#sbx-icon-clear-3"></use>--}}
+                            {{--</svg>--}}
+                        {{--</button>--}}
+                    {{--</div>--}}
+                {{--</form>--}}
+                {{--@if(!$promos->isEmpty())--}}
+                    {{--<div class="promoscroll">--}}
+                        {{--<ul id="liticker">--}}
+                            {{--@foreach($promos as $promo)--}}
+                                {{--<li><a href="{{$promo->url}}" target="_blank">{{$promo->title}} - <span>{{$promo->code}}</span></a></li>--}}
+                            {{--@endforeach--}}
+                        {{--</ul>--}}
+                    {{--</div>--}}
+                {{--@endif--}}
+                {{--@if(isset($announcements))--}}
+                    {{--<div class="announcescroll">--}}
+                        {{--<div class="message_announce">--}}
+                            {{--<marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();"--}}
+                                     {{--direction="left"><span class="text_deco">{{$announcements->message}}</span>--}}
+                            {{--</marquee>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--@endif--}}
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
@@ -102,4 +118,6 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
+    <script src="./js/algolia/algolia.js"></script>
 </header>
+

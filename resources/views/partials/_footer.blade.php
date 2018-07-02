@@ -16,13 +16,14 @@
           <ul class="foot_menu">
             <li><a href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>
             <li><a href="http://blog.shoppre.com/" target="_blank">Blogs</a></li>
+            <li><a href="{{route('story.index')}}">Story</a></li>
             <li><a href="{{route('services')}}">Our Services</a></li>
             <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/loyalty-points">Shoppre Loyalty Points</a></li>
             <li><a href="{{route('cguide.index')}}">Country Guides</a></li>
             <li><a href="{{route('stores')}}">Browse Categories</a></li>
             <li><a href="{{route('reviews')}}">Shoppre Reviews</a></li>
             <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">How Personal Shopper Works</a></li>
-            <li><a href="{{route('pricing')}}">Shipping and Pricing for your country</a></li>
+            {{--<li><a href="{{route('pricing')}}">Shipping and Pricing for your country</a></li>--}}
           </ul>
         </div>
         <div class="col-sm-3">

@@ -47,6 +47,10 @@ Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('sche
 Route::get('/dhl', 'ShippingPartnerController@index')->name('dhl.index');
 Route::get('/dhl/shipment/{id}', 'ShippingPartnerController@view')->name('dhl.view');
 
+/*-------- shoppre story ------*/
+Route::get('/story', 'StoryController@index')->name('story.index');
+Route::get('/story/{id}', 'StoryController@view')->name('story.detail');
+
 /*-------- Flash Sale ------*/
 
 Route::get('/mi.com', 'FlashSaleController@sales')->name('flash-sale.sales.list');
