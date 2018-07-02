@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <center>
-                    <img src="{{env('APP_URL').'/uploads/story/'.$story->id.'/'.$story -> image}}"
+                    <img src="{{'https://myaccount.shoppre.com/uploads/story/'.$story->id.'/'.$story -> image}}"
                          style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;">
                         <div class="story_content">
                             <h3>{{$story->sub_title}}</h3>
