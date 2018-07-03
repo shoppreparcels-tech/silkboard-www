@@ -49,7 +49,7 @@ Route::get('/dhl/shipment/{id}', 'ShippingPartnerController@view')->name('dhl.vi
 
 /*-------- shoppre story ------*/
 Route::get('/stories', 'StoryController@index')->name('story.index');
-Route::get('/story/{id}', 'StoryController@view')->name('story.detail');
+Route::get('/story/{slug}', 'StoryController@view')->name('story.detail');
 
 /*-------- Flash Sale ------*/
 

@@ -38,7 +38,7 @@
                             </p>
                             <div class="news-carousel__item-data">
                                 <center>
-                                    <a href="{{route('story.detail',['id'=>$story->id])}}"
+                                    <a href="{{route('story.detail',['slug'=>$story->slug])}}"
                                        class="btn btn btn-shoppre" style="min-height: 30px;padding-top: 5px;">
                                         More >>>
                                     </a>
