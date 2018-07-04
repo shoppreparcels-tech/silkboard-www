@@ -25,7 +25,7 @@
     <script src="//cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
     <script src="{{asset('js/slider-js/jssor.js')}}"></script>
     <script src="{{asset('js/slider-js/jssor.slider.js')}}"></script>
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="../manifest.json" />
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     @yield('css_style')
 
