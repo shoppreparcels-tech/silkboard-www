@@ -85,14 +85,16 @@
     <!-- Slides Container -->
     <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1400px; height: 380px; overflow: hidden;">
         <div>
-            <a href="https://www.shoppre.com/schedule-pickup?utm_source=hp-slider" target="_blank">
+            <a href="https://www.shoppre.com/schedule-pickup?hp-slider-pickup" target="_blank">
                 <img u="image" src="/img/slider-images/img/landscape/pickup-from-india.jpg"
                      alt="pickup from india shoppre"/>
             </a>
         </div>
         <div>
-            <img u="image" src="/img/slider-images/img/landscape/shop-ship-from-india.jpg"
+            <a href="https://bit.ly/2MPu5PQ" target="_blank">
+            <img u="image" src="/img/slider-images/img/landscape/fifa-flipkart-shoppre.jpg"
             alt="shop and ship from india"/>
+            </a>
         </div>
         <div>
             <img u="image" src="/img/slider-images/img/landscape/shoppre-shipping.jpg"

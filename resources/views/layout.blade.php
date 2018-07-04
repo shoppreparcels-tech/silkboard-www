@@ -25,6 +25,8 @@
     <script src="//cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
     <script src="{{asset('js/slider-js/jssor.js')}}"></script>
     <script src="{{asset('js/slider-js/jssor.slider.js')}}"></script>
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     @yield('css_style')
 
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
@@ -37,6 +39,22 @@
     <meta name="msvalidate.01" content="0E25F147AD9B658B4418A996E97D0D7D"/>
 
 @yield('schema_markup')
+<!-- One Signal -->
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+                appId: "c82867d8-e484-4fd9-9193-10f95a6291b7",
+                autoRegister: false,
+                notifyButton: {
+                    enable: true,
+                },
+            });
+        });
+    </script>
+
+    <!-- End one signal -->
+
 <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || [];
