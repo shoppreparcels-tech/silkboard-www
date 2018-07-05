@@ -11,6 +11,8 @@
     <link rel="shortcut icon" href="{{asset('img/favicon.png')}}">
     <link rel="icon" type="image/png" href="{{asset('img/favicon.png')}}" sizes="60x60">
     <!-- Bootstrap -->
+    <link rel="manifest" href="/manifest.json" />
+
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
@@ -20,13 +22,11 @@
     <link href="{{asset('css/style1.css')}}" rel="stylesheet">
     <link href="{{asset('css/print.css')}}" rel="stylesheet">
     <script src="{{asset('js/jquery.min.js')}}"></script>
-
     <script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
     <script src="//cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
     <script src="{{asset('js/slider-js/jssor.js')}}"></script>
     <script src="{{asset('js/slider-js/jssor.slider.js')}}"></script>
-    <link rel="manifest" href="../manifest.json" />
-    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+
     @yield('css_style')
 
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
@@ -40,11 +40,12 @@
 
 @yield('schema_markup')
 <!-- One Signal -->
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     <script>
         var OneSignal = window.OneSignal || [];
         OneSignal.push(function() {
             OneSignal.init({
-                appId: "c82867d8-e484-4fd9-9193-10f95a6291b7",
+                appId: "73b01947-ee7a-4ad8-a263-970d72bee3b6",
                 autoRegister: false,
                 notifyButton: {
                     enable: true,
@@ -52,7 +53,6 @@
             });
         });
     </script>
-
     <!-- End one signal -->
 
 <!-- Google Tag Manager -->
@@ -234,8 +234,6 @@
 @yield('content')
 
 @include('partials._footer')
-
-
 <script src="{{asset('js/bootstrap.min.js')}}"></script>
 <script src="{{asset('js/txtProgress.min.js')}}"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
