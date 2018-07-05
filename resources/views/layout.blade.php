@@ -38,6 +38,21 @@
     <meta property="al:android:app_name" content="Shoppre - International Shipping from India"/>
     <meta name="msvalidate.01" content="0E25F147AD9B658B4418A996E97D0D7D"/>
 
+    <!-- Facebook Messanger icon alignment -->
+    <style>
+        .fb_dialog.fb_dialog_advanced.fb_customer_chat_bubble_animated_no_badge.fb_customer_chat_bubble_pop_in {
+            right: initial !important;
+            left: 62pt !important;
+            z-index: 9999999 !important;
+        }
+        .fb-customerchat.fb_invisible_flow.fb_iframe_widget iframe {
+            right: initial !important;
+            left: 18pt !important;
+        }
+    </style>
+
+    <!-- End Facebook Messanger Icon Alignment -->
+
 @yield('schema_markup')
 <!-- One Signal -->
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
@@ -367,7 +382,7 @@
 window.zESettings = {
   webWidget: {
     position: {
-     horizontal: 'left',
+     horizontal: 'right',
       vertical: 'bottom'
     }
   }
