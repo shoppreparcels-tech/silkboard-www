@@ -229,8 +229,8 @@
             <div class="parcel_logs">
               <h3>Ship your Parcel through Shoppre’s trusted Courier Partners</h3>
                 <a href="{{route('dhl.index')}}"><img src="{{asset('img/dhl.png')}}"></a>
-                <a href="javascript:void(0)"><img src="{{asset('img/fedex.png')}}"></a>
-                <a href="javascript:void(0)"><img src="{{asset('img/dtdc.png')}}"></a>
+                <a href="{{route('fedex.index')}}"><img src="{{asset('img/fedex.png')}}"></a>
+                <a href="{{route('dtdc.index')}}"><img src="{{asset('img/dtdc.png')}}"></a>
               <h4>Shoppre receives and ships over INR 10,00,000 worth in eCommerce purchases monthly!</h4>
             </div>
           </div>

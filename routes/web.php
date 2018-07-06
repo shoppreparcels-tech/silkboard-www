@@ -44,8 +44,16 @@ Route::get('/{initial}-{cprefix}-{cpostfix}-from-{source}-to-{destination}', 'Pa
 Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('schedulePickup.mail');
 
 /*-------- Dhl Shipments ------*/
-Route::get('/dhl', 'ShippingPartnerController@index')->name('dhl.index');
-Route::get('/dhl/shipment/{id}', 'ShippingPartnerController@view')->name('dhl.view');
+Route::get('/dhl', 'ShippingPartnerController@dhlIndex')->name('dhl.index');
+Route::get('/dhl/shipment/{id}', 'ShippingPartnerController@dhlShipmentDetail')->name('dhl.view');
+
+/*-------- Fedex Shipments ------*/
+Route::get('/fedex', 'ShippingPartnerController@fedexIndex')->name('fedex.index');
+Route::get('/fedex/shipment/{id}', 'ShippingPartnerController@fedexShipmentDetail')->name('fedex.view');
+
+/*-------- Dtdc Shipments ------*/
+Route::get('/dtdc', 'ShippingPartnerController@dtdcIndex')->name('dtdc.index');
+Route::get('/dtdc/shipment/{id}', 'ShippingPartnerController@dtdcShipmentDetail')->name('dtdc.view');
 
 /*-------- shoppre story ------*/
 Route::get('/stories', 'StoryController@index')->name('story.index');

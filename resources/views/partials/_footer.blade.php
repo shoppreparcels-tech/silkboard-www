@@ -8,7 +8,7 @@
           </div>
           <div class="contact_info">
             <span><i class="glyphicon glyphicon-earphone"></i><strong><a href="tel:+91-80 4094 4077">+91 80 4094 4077</a> </strong></span>
-            <span><i class="glyphicon glyphicon-envelope"></i><strong><a href="mailto:support@shoppre.com">support@shoppre.com</a></strong></span>
+            <span><i class="glyphicon glyphicon-envelope"></i><strong><a href="mailto:support@shoppre.com">social.shoppre@gmail.com</a></strong></span>
             <span><i class="glyphicon glyphicon-map-marker"></i><strong>#181, 1st Floor, 2nd Cross Rd,<br> 1st Block Koramangala,<br> Bengaluru - 560034</strong></span>
           </div>
         </div>
