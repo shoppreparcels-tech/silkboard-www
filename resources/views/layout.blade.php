@@ -10,6 +10,18 @@
     <meta name="keywords" content="@yield('keywords')">
     <link rel="shortcut icon" href="{{asset('img/favicon.png')}}">
     <link rel="icon" type="image/png" href="{{asset('img/favicon.png')}}" sizes="60x60">
+
+    <meta http-equiv="Cache-Control" content="public">
+    <meta http-equiv="Cache-Control" content="max-age=3600">
+    <meta http-equiv="Cache-Control" content="must-revalidate">
+    <meta http-equiv="Expires" content="public">
+    <meta http-equiv="Expires" content="mon, 28 sep 2015 14:30:00 GMT">
+    <meta http-equiv="Expires" content="must-revalidate">
+    <meta http-equiv="Last-Modified" content="public">
+    <meta http-equiv="Last-Modified" content="fri, 01 may 2015 14:30:00 GMT">
+    <meta http-equiv="Last-Modified" content="must-revalidate">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <!-- Bootstrap -->
     <link rel="manifest" href="/manifest.json" />
 
