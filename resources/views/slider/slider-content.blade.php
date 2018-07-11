@@ -85,23 +85,29 @@
     <!-- Slides Container -->
     <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1400px; height: 380px; overflow: hidden;">
         <div>
-            <a href="https://www.shoppre.com/schedule-pickup?hp-slider-pickup" target="_blank">
-                <img u="image" src="/img/slider-images/img/landscape/pickup-from-india.jpg"
+            <a href="https://bit.ly/2MPu5PQ" target="_blank">
+                <img u="image" src="/img/slider-images/img/landscape/shoppre-amazon-prime.jpg"
                      alt="pickup from india shoppre"/>
             </a>
         </div>
         <div>
             <a href="https://bit.ly/2MPu5PQ" target="_blank">
-            <img u="image" src="/img/slider-images/img/landscape/fifa-flipkart-shoppre.jpg"
-            alt="shop and ship from india"/>
+                <img u="image" src="/img/slider-images/img/landscape/fifa-flipkart-shoppre.jpg"
+                     alt="shop and ship from india"/>
             </a>
         </div>
         <div>
-            <img u="image" src="/img/slider-images/img/landscape/shoppre-shipping.jpg"
-            alt="international shipping from india"/>
+            <a href="https://www.shoppre.com/schedule-pickup?hp-slider-pickup" target="_blank">
+                <img u="image" src="/img/slider-images/img/landscape/pickup-from-india.jpg"
+                     alt="pickup from india shoppre"/>
+            </a>
         </div>
+        {{--<div>--}}
+            {{--<img u="image" src="/img/slider-images/img/landscape/shoppre-shipping.jpg"--}}
+            {{--alt="international shipping from india"/>--}}
+        {{--</div>--}}
         <div>
-            <a href="https://myaccount.shoppre.com/locker">
+            <a href="https://myaccount.shoppre.com/locker?homeslider" target="_blank">
             <img u="image" src="/img/slider-images/img/landscape/indian-local-virtual-shipping-address.jpg"
                  alt="international shipping addres in india"/>
             </a>

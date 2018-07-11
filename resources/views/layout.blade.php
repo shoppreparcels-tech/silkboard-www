@@ -319,65 +319,65 @@
     });
 </script>
 
-<!-- Facebook Pixel Code -->
-<script>
-    !function (f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function () {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = '2.0';
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s)
-    }(window,
-        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '437389746641326'); // Insert your pixel ID here.
-    fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-               src="https://www.facebook.com/tr?id=437389746641326&ev=PageView&noscript=1"/></noscript>
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+{{--<!-- Facebook Pixel Code -->--}}
+{{--<script>--}}
+    {{--!function (f, b, e, v, n, t, s) {--}}
+        {{--if (f.fbq) return;--}}
+        {{--n = f.fbq = function () {--}}
+            {{--n.callMethod ?--}}
+                {{--n.callMethod.apply(n, arguments) : n.queue.push(arguments)--}}
+        {{--};--}}
+        {{--if (!f._fbq) f._fbq = n;--}}
+        {{--n.push = n;--}}
+        {{--n.loaded = !0;--}}
+        {{--n.version = '2.0';--}}
+        {{--n.queue = [];--}}
+        {{--t = b.createElement(e);--}}
+        {{--t.async = !0;--}}
+        {{--t.src = v;--}}
+        {{--s = b.getElementsByTagName(e)[0];--}}
+        {{--s.parentNode.insertBefore(t, s)--}}
+    {{--}(window,--}}
+        {{--document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');--}}
+    {{--fbq('init', '437389746641326'); // Insert your pixel ID here.--}}
+    {{--fbq('track', 'PageView');--}}
+{{--</script>--}}
+{{--<noscript><img height="1" width="1" style="display:none"--}}
+               {{--src="https://www.facebook.com/tr?id=437389746641326&ev=PageView&noscript=1"/></noscript>--}}
+{{--<!-- Load Facebook SDK for JavaScript -->--}}
+{{--<div id="fb-root"></div>--}}
+{{--<script>(function(d, s, id) {--}}
+  {{--var js, fjs = d.getElementsByTagName(s)[0];--}}
+  {{--if (d.getElementById(id)) return;--}}
+  {{--js = d.createElement(s); js.id = id;--}}
+  {{--js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';--}}
+  {{--fjs.parentNode.insertBefore(js, fjs);--}}
+{{--}(document, 'script', 'facebook-jssdk'));</script>--}}
 
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution="setup_tool"
-  page_id="1819630241632764">
-</div>
+{{--<!-- Your customer chat code -->--}}
+{{--<div class="fb-customerchat"--}}
+  {{--attribution="setup_tool"--}}
+  {{--page_id="1819630241632764">--}}
+{{--</div>--}}
 
 
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/58dab24ff97dd14875f5a8a9/default';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-    })();
-</script>
+{{--<script type="text/javascript">--}}
+    {{--var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();--}}
+    {{--(function(){--}}
+        {{--var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];--}}
+        {{--s1.async=true;--}}
+        {{--s1.src='https://embed.tawk.to/58dab24ff97dd14875f5a8a9/default';--}}
+        {{--s1.charset='UTF-8';--}}
+        {{--s1.setAttribute('crossorigin','*');--}}
+        {{--s0.parentNode.insertBefore(s1,s0);--}}
+    {{--})();--}}
+{{--</script>--}}
 <!--End of Tawk.to Script-->
 
-{{--<!-- Start of shoppre-international-shipping-courier Zendesk Widget script -->--}}
-{{--<script>/*<![CDATA[*/window.zE||(function(e,t,s){var n=window.zE=window.zEmbed=function(){n._.push(arguments)}, a=n.s=e.createElement(t),r=e.getElementsByTagName(t)[0];n.set=function(e){ n.set._.push(e)},n._=[],n.set._=[],a.async=true,a.setAttribute("charset","utf-8"), a.src="https://static.zdassets.com/ekr/asset_composer.js?key="+s, n.t=+new Date,a.type="text/javascript",r.parentNode.insertBefore(a,r)})(document,"script","2ab4b736-3ac8-4f95-8b6f-e2c9d6325182");/*]]>*/</script>--}}
-{{--<!-- End of shoppre-international-shipping-courier Zendesk Widget script -->--}}
+<!-- Start of shoppre-international-shipping-courier Zendesk Widget script -->
+<script>/*<![CDATA[*/window.zE||(function(e,t,s){var n=window.zE=window.zEmbed=function(){n._.push(arguments)}, a=n.s=e.createElement(t),r=e.getElementsByTagName(t)[0];n.set=function(e){ n.set._.push(e)},n._=[],n.set._=[],a.async=true,a.setAttribute("charset","utf-8"), a.src="https://static.zdassets.com/ekr/asset_composer.js?key="+s, n.t=+new Date,a.type="text/javascript",r.parentNode.insertBefore(a,r)})(document,"script","2ab4b736-3ac8-4f95-8b6f-e2c9d6325182");/*]]>*/</script>
+<!-- End of shoppre-international-shipping-courier Zendesk Widget script -->
 
 <script>
     if (window.location.href == "https://www.shoppre.com/campaign/flyer/616") {
