@@ -103,7 +103,7 @@
       <h2>For Business</h2>
       <h4>
           <a
-              href="https://goo.gl/forms/fEYWqUJjfguCjqif1"
+              href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32"
               class="text-orange"
           >
               Become a Partner

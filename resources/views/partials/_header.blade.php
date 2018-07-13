@@ -14,7 +14,7 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="{{route('about')}}">About Shoppre</a></li>
-                    <li><a href="https://goo.gl/forms/fEYWqUJjfguCjqif1">Become a Partner</a></li>
+                    <li><a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32">Become a Partner</a></li>
                     <li><a href="{{route('faq')}}">FAQ</a></li>
                     {{--<li><a href="https://www.quora.com/search?q=shoppre.com" target="_blank">Ask Questions</a></li>--}}
                     {{--<li><a href="https://shoppre-international-shipping-courier.zendesk.com/" target="_blank">Help</a></li>--}}
