@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'India\'s leading Shipping, Courier & Package Forwarding Services for DHL & Flipkart International Delivery · Shoppre')
-@section('description', 'Shoppre online international shipping company. We provide pickup anywhere from India, door-to-door delivery service and 20 Days free storage. Signup now!')
-@section('keywords', 'flipkart international delivery, parcel forwarding company, borderless shipping, international from india, personal shipping indian address, parcel delivery, courier services, shoppre')
+@section('title', 'ShoppRe.com - Shop Indian Stores & Ship Internationally | Courier Service')
+@section('description', 'Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India&#039;s #1 international courier, shipping and consolidation company.')
+@section('keywords', 'shop and ship, courier service, shoppre, consolidation company, indian store, ship internationally')
 
 @section('css_style')
 	<!-- Owl Carousel -->
@@ -10,9 +10,9 @@
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <meta property="og:title" content="Start Shipping with Shoppre | India\'s Best Shipping Partner" />
+    <meta property="og:title" content="Shop and Ship with ShoppRe | International Courier & Consolidation Services" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Shoppre your International Shipping Partner. Shop from any Indian online store & ship to your doorstep. Save up to 60-80% on shipping with Shoppre package consolidation service. Sign up now!" />
+    <meta property="og:description" content="Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India's #1 international courier, shipping and consolidation company." />
     <meta property="og:url" content="https://www.shoppre.com" />
     <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
     <meta property="og:site_name" content="Shoppre" />
@@ -20,8 +20,8 @@
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@Go_Shoppre" />
-    <meta name="twitter:title" content="Start Shipping with Shoppre | India\'s Best Shipping Partner" />
-    <meta name="twitter:description" content="Shoppre your International Shipping Partner. Shop from any Indian online store & ship to your doorstep. Save up to 60-80% on shipping with Shoppre package consolidation service. Sign up now!" />
+    <meta name="twitter:title" content="Shop and Ship with ShoppRe | International Courier & Consolidation Services" />
+    <meta name="twitter:description" content="Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India's #1 international courier, shipping and consolidation company." />
     <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
 
 
@@ -34,9 +34,9 @@
 {
     "@context": "http://schema.org",
     "@type": "WebPage",
-    "name": "Borderless Shipping: Parcel Delivery & Courier Services | Shoppre India",
-    "description": "Shoppre leading provider of parcel delivery company in India.
-     Shipping your items to worldwide & reaches within 2-5 working days, save 60-80% on shipping cost.",
+    "name": "Borderless Shipping, Shopping from India, Parcel Delivery, Courier Services, ShoppRe",
+    "description": "ShoppRe leading provider of parcel delivery, international courier & consolidation company from India.
+     Shipping your items to worldwide & reaches within 2-5 working days, save 60-80% on shipping cost",
     "image": {
         "@type": "ImageObject",
         "url": "https://www.shoppre.com/img/logo.png",
