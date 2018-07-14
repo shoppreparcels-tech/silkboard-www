@@ -140,21 +140,7 @@
                         <div class="clearfix"></div>
                     </form>
           <div id="ship_result" class="calc-result">
-              <div class="row button_row">
-                  <div class="col-sm-4 col-sm-offset-1">
-                      <a href="{{route('schedulePickup.Index')}}"
-                         class="btn btn-block btn-shoppre">
-                          Schedule a Pickup
-                      </a>
-                  </div>
-                  <div class="col-sm-5 col-sm-offset-1">
-                      <a href="https://myaccount.shoppre.com/register" target="_blank"
-                         class="btn btn-block btn-shoppre-red">
-                          Get Your Virtual Address
-                      </a>
-                  </div>
-              </div>
-            <h4 class="text-red">ESTIMATED SHIPPING COST*</h4>
+           <h4 class="text-red">ESTIMATED SHIPPING COST*</h4>
             <p class="info">Best carrier will be automatically chosen according to your country and weight
               of shipment. We use trusted courier services like DHL, FedEx and DTDC.</p>
             <div class="result table-responsive">
