@@ -161,6 +161,20 @@
               <table class="table table-bordered" id="prices">
               </table>
             </div>
+              <div class="row button_row">
+                  <div class="col-sm-4 col-sm-offset-1">
+                      <a href="{{route('schedulePickup.Index')}}"
+                         class="btn btn-block btn-shoppre">
+                          Schedule a Pickup
+                      </a>
+                  </div>
+                  <div class="col-sm-5 col-sm-offset-1">
+                      <a href="https://myaccount.shoppre.com/register" target="_blank"
+                         class="btn btn-block btn-shoppre-red">
+                          Get Free Virtual Address
+                      </a>
+                  </div>
+              </div>
             <ul class="points">
                             <li><span class="text-red">*</span> The chargeable weight is always the greater of the two:
                                 Volumetric or the Actual weight.
@@ -171,8 +185,8 @@
                             <li><span class="text-red">*</span> You may need to pay duties or tax when your shipment
                                 arrives, as per the import law of the receiving country.
                             </li>
-                            <li><span class="text-red">*</span> Excludes oversized and palletized shipments, and special
-                                products (liquids, homemade food, etc.)
+                            <li><span class="text-red">*</span> <a href="#special_address" class="list-color">Excludes oversized and palletized shipments, and special
+                                products (liquids, homemade food, etc.)</a>
                             </li>
                             <li><span class="text-red">**</span> After dispatch from Shoppre facility. Does not apply to
                                 ship requests made after 3pm IST on Saturdays, or on holidays. Shipments that may
@@ -510,7 +524,7 @@
                             <td class="cell-2"> 7% of the item value <span>(Minimum INR 200)</span></td>
                         </tr>
                         <tr>
-                            <td>Special Package Clearance Fee
+                            <td id="special_address">Special Package Clearance Fee
                                 <a href="#" class="tooltipkey"
                                                          title="Any Package which requires Special Handling
                                                          will be prompted via email to you. All liquids/
