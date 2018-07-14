@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="logo">
-            <img src="/img/logo.png">
+            <img src="/img/original-logo.png">
           </div>
           <div class="contact_info">
             <span><i class="glyphicon glyphicon-earphone"></i><strong><a href="tel:+91-80 4094 4077">+91 80 4094 4077</a> </strong></span>

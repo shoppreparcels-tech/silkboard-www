@@ -8,7 +8,7 @@
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')">
     @if(Request::url() ==='https://www.shoppre.com/schedule-pickup/confirm' || Request::url() === 'https://www.shoppre.com/feedback/confirm')
-    <meta name="robots" content="@yield('robots')"/> 
+    <meta name="robots" content="@yield('robots')"/>
     @else
      <meta name="robots" content="noydir, noodp"/>
     @endif
@@ -45,7 +45,7 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRL4B6X"
                     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  
+
 
     @yield('content')
 
@@ -76,7 +76,7 @@
         $("ul#liticker").liScroll({travelocity: 0.05});
       });
     </script>
-    
+
     <!-- Facebook Pixel Code -->
     <script>
         !function (f, b, e, v, n, t, s) {
@@ -102,22 +102,24 @@
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=437389746641326&ev=PageView&noscript=1" /></noscript>
 
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-        @if(Auth::guard('customer')->check())
-            Tawk_API.visitor = { name  : '{{Auth::user()->name}}', email : '{{Auth::user()->email}}' };
-        @endif
-        (function () {
-            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/{{ Auth::guard('customer')->check() ? "59d72784c28eca75e4624678" : "58dab24ff97dd14875f5a8a9" }}/default';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script>
+    {{--<script type="text/javascript">--}}
+        {{--var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();--}}
+        {{--@if(Auth::guard('customer')->check())--}}
+            {{--Tawk_API.visitor = { name  : '{{Auth::user()->name}}', email : '{{Auth::user()->email}}' };--}}
+        {{--@endif--}}
+        {{--(function () {--}}
+            {{--var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];--}}
+            {{--s1.async = true;--}}
+            {{--s1.src = 'https://embed.tawk.to/{{ Auth::guard('customer')->check() ? "59d72784c28eca75e4624678" : "58dab24ff97dd14875f5a8a9" }}/default';--}}
+            {{--s1.charset = 'UTF-8';--}}
+            {{--s1.setAttribute('crossorigin', '*');--}}
+            {{--s0.parentNode.insertBefore(s1, s0);--}}
+        {{--})();--}}
+    {{--</script>--}}
 
-
+  <!-- Start of shoppre-international-shipping-courier Zendesk Widget script -->
+  <script>/*<![CDATA[*/window.zE||(function(e,t,s){var n=window.zE=window.zEmbed=function(){n._.push(arguments)}, a=n.s=e.createElement(t),r=e.getElementsByTagName(t)[0];n.set=function(e){ n.set._.push(e)},n._=[],n.set._=[],a.async=true,a.setAttribute("charset","utf-8"), a.src="https://static.zdassets.com/ekr/asset_composer.js?key="+s, n.t=+new Date,a.type="text/javascript",r.parentNode.insertBefore(a,r)})(document,"script","2ab4b736-3ac8-4f95-8b6f-e2c9d6325182");/*]]>*/</script>
+  <!-- End of shoppre-international-shipping-courier Zendesk Widget script -->
     @yield('js_script')
   </body>
 </html>

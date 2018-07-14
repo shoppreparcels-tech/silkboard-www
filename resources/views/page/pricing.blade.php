@@ -84,7 +84,7 @@
                             <div class="clearfix"></div>
                         </div>
                         <div class="form-group">
-                            <label class="col-sm-12 control-label">How much does your package weight?</label>
+                            <label class="col-sm-12 control-label">How much does your package weight? </label>
                             <div class="col-sm-6">
                                 <input type="text" class="form-control" value="1" name="weight"
                                        placeholder="Enter Weight">
@@ -106,7 +106,7 @@
 
                         <div class="form-group">
                             <label class="col-sm-8 control-label" style="top: 8px;">What are the dimensions of your
-                                package?</label>
+                                package? (Optional)</label>
                             <div class="col-sm-4">
                                 <div class="radio">
                                     <label class="checkbox-inline">
@@ -133,14 +133,27 @@
                             </div>
                             <div class="clearfix"></div>
                         </div>
-
                         <div class="clearfix"></div>
                         <div class="col-sm-6 col-sm-offset-3">
-                            <button type="submit" class="btn btn-block btn-shoppre"><font size="4px"><strong>ESTIMATE</strong></font></button>
+                            <button type="submit" class="btn btn-block btn-shoppre-red margin_btn"><font size="4px"><strong>ESTIMATE</strong></font></button>
                         </div>
                         <div class="clearfix"></div>
                     </form>
           <div id="ship_result" class="calc-result">
+              <div class="row button_row">
+                  <div class="col-sm-4 col-sm-offset-1">
+                      <a href="{{route('schedulePickup.Index')}}"
+                         class="btn btn-block btn-shoppre">
+                          Schedule a Pickup
+                      </a>
+                  </div>
+                  <div class="col-sm-5 col-sm-offset-1">
+                      <a href="https://myaccount.shoppre.com/register" target="_blank"
+                         class="btn btn-block btn-shoppre-red">
+                          Get Your Virtual Address
+                      </a>
+                  </div>
+              </div>
             <h4 class="text-red">ESTIMATED SHIPPING COST*</h4>
             <p class="info">Best carrier will be automatically chosen according to your country and weight
               of shipment. We use trusted courier services like DHL, FedEx and DTDC.</p>
@@ -148,8 +161,6 @@
               <table class="table table-bordered" id="prices">
               </table>
             </div>
-
-
             <ul class="points">
                             <li><span class="text-red">*</span> The chargeable weight is always the greater of the two:
                                 Volumetric or the Actual weight.
@@ -174,7 +185,6 @@
                     </div>
                     <div id="calc_load"></div>
                 </div>
-
                 <div class="parcelsample">
                     <h5>Centimeter/Inch Conversion</h5>
                     <p>1 in = 2.54 cm <span>(1 cm = 0.3937 in)</span></p>
@@ -183,12 +193,10 @@
                     <h5>Parcel Sample :</h5>
                     <img src="{{asset('img/parcelsample.png')}}">
                 </div>
-
             </div>
             <div class="col-md-5">
                 <div class="getquote block">
                     <h3>DOMESTIC SHIPMENT</h3>
-                    <h4>(From your Shoppre Locker in Bengaluru to any city in India)</h4>
                     <form class="quote-form calc-form" id="form_quote" method="post">
                         {{csrf_field()}}
                         <div class="form-group">
@@ -365,8 +373,7 @@
                         <li>From Bengaluru, directly to your doorstep abroad</li>
                         <li>From any city in India, directly to your doostep abroad</li>
                     </ul>
-                    <a href="{{route('schedulePickup.Index')}}" class="btn btn-block btn-shoppre">FILL THE FORM TO HEAR
-                        BACK FROM US</a>
+                    <a href="{{route('schedulePickup.Index')}}" class="btn btn-block btn-shoppre">Schedule A Pickup</a>
                 </div>
 
             </div>
