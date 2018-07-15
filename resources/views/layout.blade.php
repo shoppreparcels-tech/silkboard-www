@@ -66,20 +66,23 @@
     <!-- End Facebook Messanger Icon Alignment -->
 
 @yield('schema_markup')
+
 <!-- One Signal -->
-    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-    <script>
-        var OneSignal = window.OneSignal || [];
-        OneSignal.push(function() {
-            OneSignal.init({
-                appId: "73b01947-ee7a-4ad8-a263-970d72bee3b6",
-                autoRegister: false,
-                notifyButton: {
-                    enable: true,
-                },
-            });
-        });
-    </script>
+
+    {{--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>--}}
+    {{--<script>--}}
+        {{--var OneSignal = window.OneSignal || [];--}}
+        {{--OneSignal.push(function() {--}}
+            {{--OneSignal.init({--}}
+                {{--appId: "73b01947-ee7a-4ad8-a263-970d72bee3b6",--}}
+                {{--autoRegister: false,--}}
+                {{--notifyButton: {--}}
+                    {{--enable: true,--}}
+                {{--},--}}
+            {{--});--}}
+        {{--});--}}
+    {{--</script>--}}
+
     <!-- End one signal -->
 <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
