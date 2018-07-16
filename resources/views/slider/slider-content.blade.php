@@ -91,21 +91,15 @@
             </a>
         </div>
         <div>
-            <a href="https://bit.ly/2MPu5PQ" target="_blank">
-                <img u="image" src="/img/slider-images/img/landscape/fifa-flipkart-shoppre.jpg"
-                     alt="shop and ship from india"/>
-            </a>
-        </div>
-        <div>
             <a href="https://www.shoppre.com/schedule-pickup?hp-slider-pickup" target="_blank">
                 <img u="image" src="/img/slider-images/img/landscape/pickup-from-india.jpg"
                      alt="pickup from india shoppre"/>
             </a>
         </div>
-        {{--<div>--}}
-            {{--<img u="image" src="/img/slider-images/img/landscape/shoppre-shipping.jpg"--}}
-            {{--alt="international shipping from india"/>--}}
-        {{--</div>--}}
+        <div>
+            <img u="image" src="/img/slider-images/img/landscape/shoppre-shipping.jpg"
+            alt="international shipping from india"/>
+        </div>
         <div>
             <a href="https://myaccount.shoppre.com/locker?homeslider" target="_blank">
             <img u="image" src="/img/slider-images/img/landscape/indian-local-virtual-shipping-address.jpg"
