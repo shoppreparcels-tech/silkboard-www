@@ -86,8 +86,8 @@
     <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1400px; height: 380px; overflow: hidden;">
         <div>
             <a href="https://www.shoppre.com/schedule-pickup?hp-slider-pickup" target="_blank">
-                <img u="image" src="/img/slider-images/img/landscape/pickup-from-india.jpg"
-                     alt="pickup from india shoppre"/>
+                <img u="image" src="/img/slider-images/img/landscape/pickup-from-india.png"
+                     alt="pickup Courier from india shoppre"/>
             </a>
         </div>
         <div>

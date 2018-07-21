@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'ShoppRe.com - Shop Indian Stores & Ship Internationally | Courier Service')
+@section('title', 'ShoppRe - Shop Indian Stores & Ship Internationally | Courier Service')
 @section('description', 'Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India&#039;s #1 international courier, shipping and consolidation company.')
 @section('keywords', 'shop and ship, courier service, shoppre, consolidation company, indian store, ship internationally')
 
@@ -228,9 +228,9 @@
           <div class="col-sm-10">
             <div class="parcel_logs">
               <h3>Ship your Parcel through Shoppre’s trusted Courier Partners</h3>
-                <a href="{{route('dhl.index')}}"><img src="{{asset('img/dhl.png')}}"></a>
-                <a href="{{route('fedex.index')}}"><img src="{{asset('img/fedex.png')}}"></a>
-                <a href="{{route('dtdc.index')}}"><img src="{{asset('img/dtdc.png')}}"></a>
+                <a href="{{route('dhl.index')}}"><img src="{{asset('img/dhl.png')}}" alt="DHL ShoppRe Shipping"></a>
+                <a href="{{route('fedex.index')}}"><img src="{{asset('img/fedex.png')}}" alt="FEDEX ShoppRe Shipping"></a>
+                <a href="{{route('dtdc.index')}}"><img src="{{asset('img/dtdc.png')}}" alt="DTDC ShoppRe Shipping"></a>
               <h4>Shoppre receives and ships over INR 10,00,000 worth in eCommerce purchases monthly!</h4>
             </div>
           </div>
@@ -384,28 +384,28 @@
             <h2 class="brands-head">Not sure where to shop from?</h2>
             <div class="brands owl-carousel">
               <div class="item">
-                <a href="https://www.amazon.in/" target="_blank"><img src="{{asset('img/brands/amazon.png')}}"></a>
+                <a href="https://www.amazon.in/" target="_blank"><img src="{{asset('img/brands/amazon.png')}}" alt="Amazon India ShoppRe Shipping"></a>
               </div>
               <div class="item">
-                <a href="https://www.flipkart.com/" target="_blank"><img src="{{asset('img/brands/flipkart.png')}}"></a>
+                <a href="https://www.flipkart.com/" target="_blank"><img src="{{asset('img/brands/flipkart.png')}}" alt="Flipkart India ShoppRe Shipping"></a>
               </div>
               <div class="item">
-                <a href="https://www.abof.com/"><img src="{{asset('img/brands/abof.png')}}"></a>
+                <a href="https://www.abof.com/"><img src="{{asset('img/brands/abof.png')}}" alt="Abof India ShoppRe Shipping"></a>
               </div>
               <div class="item">
-                <a href="https://www.chumbak.com/" target="_blank"><img src="{{asset('img/brands/chumbak.png')}}"></a>
+                <a href="https://www.chumbak.com/" target="_blank"><img src="{{asset('img/brands/chumbak.png')}}" alt="Chumbak India ShoppRe Shipping"></a>
               </div>
               <div class="item">
-                <a href="https://www.jabong.com/" target="_blank"><img src="{{asset('img/brands/jabong.png')}}"></a>
+                <a href="https://www.jabong.com/" target="_blank"><img src="{{asset('img/brands/jabong.png')}}" alt="Jabong India ShoppRe Shipping"></a>
               </div>
               <div class="item">
-                <a href="https://www.myntra.com/" target="_blank"><img src="{{asset('img/brands/myntra.png')}}"></a>
+                <a href="https://www.myntra.com/" target="_blank"><img src="{{asset('img/brands/myntra.png')}}" alt="Myntra India ShoppRe Shipping"></a>
               </div>
               <div class="item">
-                <a href="https://www.pepperfry.com/" target="_blank"><img src="{{asset('img/brands/pepperfry.png')}}"></a>
+                <a href="https://www.pepperfry.com/" target="_blank"><img src="{{asset('img/brands/pepperfry.png')}}" alt="PepperFry India ShoppRe Shipping"></a>
               </div>
               <div class="item">
-                <a href="https://www.snapdeal.com/" target="_blank"><img src="{{asset('img/brands/snapdeal.png')}}"></a>
+                <a href="https://www.snapdeal.com/" target="_blank"><img src="{{asset('img/brands/snapdeal.png')}}" alt="SnapDeal India ShoppRe Shipping"></a>
               </div>
             </div>
             <div class="text-center">
@@ -419,7 +419,7 @@
     <section class="pricing">
       <div class="container">
         <div class="row">
-            <h2 class="shipping-head">Shipping From India - Pricing</h2>
+            <h1 class="shipping-head">Shipping From India to Worldwide</h1>
           <div class="col-md-12">
             <p class="head-text-content">We have heavily optimised our operations to give you the best deal.
                 Our pricing makes us a favourite platform for Indian shoppers worldwide.

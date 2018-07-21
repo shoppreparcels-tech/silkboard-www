@@ -1,4 +1,5 @@
 @extends('layout')
+@extends('add-sense')
 
 @section('title', 'Browse Categories: List of Top Indian Shopping Sites | Shoppre')
 @section('description', 'Shop from list of Top Indian Shopping Sites, Facebook & Instagram Sellers. Save by combining multiple packages into one and get it shipped to your country.')
