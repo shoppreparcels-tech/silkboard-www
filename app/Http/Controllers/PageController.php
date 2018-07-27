@@ -558,4 +558,21 @@ class PageController extends Controller
 
         return redirect()->back()->with('message', 'Success! Review has been submit for admin approval.');
     }
+
+    public function indianVirtual()
+    {
+        return view('page.indian-virtual-address');
+    }
+    public function shopFromIndia()
+    {
+        return view('page.shop-india-ship-worldwide');
+    }
+    public function sellerShipping()
+    {
+        return view('page.sellers-shipping');
+    }
+    public function shopper()
+    {
+        return view('page.personal-shopper');
+    }
 }

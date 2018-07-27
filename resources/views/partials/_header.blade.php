@@ -103,11 +103,14 @@
                                   <strong>SERVICES</strong> <span class="caret"></span>
                               </button>
                               <ul class="dropdown-menu">
-                                  <li><a href="{{route('services')}}">Shop and Ship</a></li>
-                                  <li><a href="{{route('consolidationService')}}">Repacking & Consolidation</a></li>
+                                  <li><a href="{{route('services')}}">Overview</a></li>
+                                  <li><a href="{{route('shopFromIndia')}}">Shop and Ship</a></li>
                                   <li><a href="{{route('schedulePickup.Index')}}">Schedule a Pickup</a></li>
+                                  <li><a href="{{route('consolidationService')}}">Repacking & Consolidation</a></li>
                                   <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">Personal Shopper</a></li>
                                   <li><a href="{{route('stores')}}">Indian Online Shops</a></li>
+                                  <li><a href="{{route('indianVirtual')}}">Virtual Address</a></li>
+                                  <li><a href="{{route('sellerShipping')}}">Sellers Shipping</a></li>
                               </ul></li>
                     <li><a href="{{route('howitworks')}}">How Shoppre Works</a></li>
                     <li><a href="{{route('pricing')}}">Price Calculator</a></li>

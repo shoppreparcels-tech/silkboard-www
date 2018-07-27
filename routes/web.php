@@ -112,5 +112,9 @@ Route::get('/country-guide/', 'CountryGuideController@countryGuide')->name('cgui
 Route::get('/country/{iso}', 'CountryGuideController@show')->name('cguide.view');
 Route::post('/calculate/exchange-rate', 'CountryGuideController@exchangeCalculate')->name('xchange.calc');
 
-Route::get('/{slug}', 'PageController@viewPage')->name('page');
 
+Route::get('/indian-virtual-address', 'PageController@indianVirtual')->name('indianVirtual');
+Route::get('/shop-from-india-ship-worldwide', 'PageController@shopFromIndia')->name('shopFromIndia');
+Route::get('/sellers-shipping', 'PageController@sellerShipping')->name('sellerShipping');
+Route::get('/personal-shopper', 'PageController@shopper')->name('shopper');
+Route::get('/{slug}', 'PageController@viewPage')->name('page');
