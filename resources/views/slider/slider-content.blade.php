@@ -104,6 +104,12 @@
                  alt="international shipping addres in india"/>
             </a>
         </div>
+        <div>
+            <a href="https://goo.gl/MLkYBb" target="_blank">
+            <img u="image" src="/img/slider-images/img/landscape/friendship-day-shipping-offer.png"
+                 alt="friendship-day-shipping-offer"/>
+            </a>
+        </div>
     </div>
     <!-- Bullet Navigator Skin Begin -->
     <style>

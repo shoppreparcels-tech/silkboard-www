@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Partner | Shoppre - International Shipping Partner')
-@section('description', 'Know how Shoppre a parcel forwarding & international shipping services work for online shopping in India while ensuring fast service at unbelievably low prices.')
-@section('keywords', 'know how, shoppre, parcel forwarding, international shipping services, online shopping in india, fast service, dhl, fedex, dtdc')
+@section('title', 'DTDC | International & Domestic Courier Services - ShoppRe Partner')
+@section('description', 'DTDC is the international & domestic courier delivery and shipping partner of ShoppRe. Find the top products shipped with DTDC at great prices.')
+@section('keywords', 'dtdc, shipping, courier, parcel, indian partner')
 
 @section('content')
     <div class="container">
