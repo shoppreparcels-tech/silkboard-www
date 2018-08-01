@@ -142,7 +142,7 @@ class CampaignController extends Controller
     {
         $body = $request->all();
         unset($body['_token']);
-        $campaign = new Campaign($body);
+        $campaign = new Campaign();
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');
@@ -150,6 +150,13 @@ class CampaignController extends Controller
             $destinationPath = public_path('./img/campaigns');
             $image->move($destinationPath, $name);
             $campaign->image = $name;
+            $campaign->customer_id = $request->customer_id;
+            $campaign->name = $request->name;
+            $campaign->coupon_code = $request->coupon_code;
+            $campaign->cashback = $request->cashback;
+            $campaign->begin_date = $request->begin_date;
+            $campaign->type = $request->type;
+            $campaign->comment = $request->comment;
             $campaign->save();
         } else {
             $campaign->save();
