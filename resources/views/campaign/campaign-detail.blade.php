@@ -1,12 +1,12 @@
 @extends('layout')
 
-@section('title', 'Shoppre Offers')
+@section('title', 'ShoppRe Offers')
 @section('description', 'Use this promo code to avail your offer')
 @section('keywords', 'shipment, suggestion, feedback, information, form')
 
 @section('css_style')
     <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
-    <meta name="robots" content="noindex,nofollow"/>
+    <meta name="robots" content="noindex,follow"/>
 @endsection
 @section('content')
             <div class="coupon_cashback">
@@ -18,9 +18,9 @@
                 @endif
                 @if(!empty($campaign_detail->coupon_code))
                 <div class="left-space">
-                    <h2><b>{{$campaign_detail->cashback}}% Cashback</b></h2>
+                    <h2><b>{{$campaign_detail->cashback}}% Discount</b></h2>
                     <p>Use Promo Code: <span class="promo">{{$campaign_detail->coupon_code}}</span>
-                        to avail {{$campaign_detail->cashback}}% Cashback
+                        to avail {{$campaign_detail->cashback}}% Discount
                     </p>
                     @if(!empty($campaign_detail->end_date))
                     <h4>Expires On: <span class="exp_date">{{date('d-m-Y', strtotime($campaign_detail->end_date))}}
@@ -36,6 +36,8 @@
                         <li>This offer cannot be clubbed with any other offer.</li>
                         <li>A customer can avail this offer only once during the offer period.</li>
                         <li>The discount is available only on the shipping charge.</li>
+                        <li>This offer is applicable only for International Shipments.</li>
+                        <li>Clearance charges is applicable for Special items (liquids, semi liquids/cosmetics, medicines, oils, homemade food items).</li>
                     </ul>
                 </div>
                 @endif
