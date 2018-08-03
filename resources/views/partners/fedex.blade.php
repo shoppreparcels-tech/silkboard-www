@@ -30,28 +30,30 @@
                 $datediff = $delivered - $dispatched;
                 $delivery_days = round($datediff / (60 * 60 * 24));
             @endphp
-            <div class="shipment_card">
-                <div class="row">
-                    <div class="col-md-12" style="padding-left: 35px">
-                        <a href="{{route('fedex.view',['id' => $shipment->id])}}">
-                            <h4><b> To {{$shipment->country}} </b></h4>
-                        </a>
-                        <div class="row">
-                            <div class="col-md-2">
-                                <h5>Weight :&nbsp{{$shipment->weight}} kg.</h5>
-                            </div>
-                            <div class="col-md-3">
-                                <h5>Total Charge : INR &nbsp{{$shipment->final_amount}}</h5>
-                            </div>
-                            @if( $delivery_days > 0 )
-                                <div class="col-md-3">
-                                    <h5>Delivered In : &nbsp{{$delivery_days}} Days</h5>
+            @if(!empty($dispatched) )
+                <div class="shipment_card">
+                    <div class="row">
+                        <div class="col-md-12" style="padding-left: 35px">
+                            <a href="{{route('fedex.view',['id' => $shipment->id])}}">
+                                <h4><b> To {{$shipment->country}} </b></h4>
+                            </a>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5>Weight :&nbsp{{$shipment->weight}} kg.</h5>
                                 </div>
-                            @endif
+                                <div class="col-md-3">
+                                    <h5>Total Charge : INR &nbsp{{$shipment->final_amount}}</h5>
+                                </div>
+                                @if( $delivery_days > 0 )
+                                    <div class="col-md-3">
+                                        <h5>Delivered In : &nbsp{{$delivery_days}} Days</h5>
+                                    </div>
+                                @endif
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            @endif
         @endforeach
         <center>
             {{ $shipments->appends(Request::except('page'))->links() }} {{-- For Pagination--}}
