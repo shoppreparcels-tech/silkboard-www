@@ -376,7 +376,6 @@
                     <div class="clearfix"></div>
                 </form>
             </div>
-
         </div>
     </section>
     <div id="schedule_load"></div>
@@ -535,7 +534,8 @@
                         },
                         success: function (data){
                             $("#schedule_load").hide();
-                            $('#scheduleModel').modal('show');
+                            // $('#scheduleModel').modal('show');
+                            window.location.replace("https://www.shoppre.com/schedule-pickup/confirm");
                             console.log(data);
                         }
                     });
