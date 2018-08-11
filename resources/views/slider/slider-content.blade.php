@@ -86,7 +86,7 @@
     <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1400px; height: 380px; overflow: hidden;">
         <div>
             <a href="https://myaccount.shoppre.com/login?indday-slider" target="_blank">
-                <img u="image" src="/img/slider-images/img/landscape/indday.png"
+                <img u="image" src="/img/slider-images/img/landscape/5.png"
                      alt="indday"/>
             </a>
         </div>
