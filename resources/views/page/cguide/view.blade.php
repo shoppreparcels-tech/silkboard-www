@@ -20,7 +20,7 @@
   @else
     <section class="cguide_head">
   @endif
-	
+
     <div class="left_head">
       <h2>SHOP FROM INDIA, SHIP TO <br><span class="text-orange">{{$country->name}}</span> THROUGH SHOPPRE</h2>
       <h3>Here is everything you need to know.</h3>
@@ -152,7 +152,7 @@
                 </div>
                 <div class="clearfix"></div>
               </div>
-              
+
               <div class="form-group">
                 <label class="col-sm-8 control-label" style="top: 8px;">What are the dimensions of your package? (Optional)</label>
                 <div class="col-sm-4">
@@ -345,7 +345,7 @@
       @else
       <p>Shopping at any  Indian online store is easy with help from Shoppre. Become a member, receive a Shoppre address with a Personal Locker and ship items from Indian sellers to our distribution center. Once we receive your purchase, we will help you export everything right to your doorstep.</p>
       @endif
-      
+
     </article>
     <div class="clearfix"></div>
   </section>
@@ -421,7 +421,7 @@
                 weight: {required: true},
                 unit: {required: true},
             },
-            messages: 
+            messages:
             {
                 country: { required: "Please select country"},
                 weight: { required: "Please enter weight to calculate."},
@@ -432,6 +432,7 @@
                 var weight = $("input[name='weight']").val();
                 var unit = $("input[name='unit']:checked").val();
                 var type = $("input[name='type']:checked").val();
+                var box_scale = $("input[name='scale']:checked").val();
                 var length = $("input[name='length']").val();
                 var width = $("input[name='width']").val();
                 var height = $("input[name='height']").val();
@@ -442,28 +443,37 @@
                 jQuery.ajax({
                     url: '/calculate-shipping',
                     type : "POST",
-                    data:{ _token:token, country:country, weight:weight, unit:unit, type:type, length:length, width:width, height:height},
+                    data:{
+                        _token:token,
+                        country:country,
+                        weight:weight,
+                        unit:unit,
+                        type:type,
+                        length:length,
+                        width:width,
+                        height:height,
+                        scale: box_scale
+                    },
                     success: function(data) {
-
                       $("#calc_load").hide();
 
                       if (data.error == "1") {
                         $('#calc_error').css('display', 'block');
                       }else{
-                        
-                        $('#ship_oldcost').text(data.amount);
-                        var disamount = (data.discount / 100) * data.amount;
-                        var finalcost = Math.round(data.amount - disamount).toFixed(2);
-                        $('#ship_cost').text(finalcost);
-                        $('#ship_time').text(data.time);
-                        $('#ship_disc').text(data.discount);
-                        $('#ship_result').slideDown();
+                          data.prices.map(function(price) {
+                              $('#ship_oldcost').text(price.amount);
+                              var disamount = ((100-price.discount) / 100) * price.amount;
+                              var finalcost = Math.round(price.amount - disamount).toFixed(2);
+                              $('#ship_cost').text(price.amount - disamount);
+                              $('#ship_time').text(price.time);
+                              $('#ship_disc').text(price.discount);
+                              $('#ship_result').slideDown();
+                          });
                       }
                     }
                 });
-
                 return false;
-            }, 
+            }
       });
     });
   </script>

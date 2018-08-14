@@ -15,20 +15,20 @@
         <div class="col-sm-3">
           <ul class="foot_menu">
             <li><a href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>
-            <li><a href="http://blog.shoppre.com/" target="_blank">Blogs</a></li>
+            <li><a href="https://medium.com/@shoppre/from-india-with-love-shipping-shoppre-8be96618a38f" target="_blank">Blog</a></li>
             <li><a href="{{route('story.index')}}">Stories</a></li>
             <li><a href="{{route('services')}}">Our Services</a></li>
             <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/loyalty-points">Shoppre Loyalty Points</a></li>
             <li><a href="{{route('cguide.index')}}">Country Guides</a></li>
             <li><a href="{{route('stores')}}">Browse Categories</a></li>
-            <li><a href="{{route('reviews')}}">Shoppre Reviews</a></li>
+            <li><a href="{{route('reviews')}}">ShoppRe Reviews</a></li>
             <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">How Personal Shopper Works</a></li>
             {{--<li><a href="{{route('pricing')}}">Shipping and Pricing for your country</a></li>--}}
           </ul>
         </div>
         <div class="col-sm-3">
           <ul class="foot_menu">
-            <li><a href="{{route('about')}}">About Shoppre</a></li>
+            <li><a href="{{route('about')}}">About ShoppRe</a></li>
             <li><a href="{{route('faq')}}">FAQ</a></li>
             <li><a href="https://myaccount.shoppre.com/direct/payment">Make Payment</a></li>
             <li><a href="{{route('feedback.Index')}}">Feedback</a></li>
@@ -57,13 +57,13 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <p class="copy">&copy; 2018, All Rights Reserved - by Shoppre</p>
+          <p class="copy">&copy; 2018, All Rights Reserved - by ShoppRe.com™</p>
         </div>
         <div class="col-sm-6">
           <div class="terms">
-            <a href="/terms-and-conditions">Terms &amp; conditions</a>
+            <a href="/terms-and-conditions">Terms &amp; Conditions</a>
             <span>|</span>
-            <a href="/privacy-policy/">Privacy policy</a>
+            <a href="/privacy-policy/">Privacy Policy</a>
           </div>
         </div>
         <div class="clearfix"></div>
