@@ -13,7 +13,9 @@
                     <h3>Join us and ship Worldwide</h3>
                 </div>
                 @if(!empty($campaign_detail->image))
-                    <img src="/img/campaigns/{{$campaign_detail->image}}" alt="Avatar" style="width:100%;">
+                    <a href="{{$campaign_detail->image != null ? $campaign_detail->hyper_link : ' '}}" target="_blank">
+                        <img src="/img/campaigns/{{$campaign_detail->image}}" alt="Avatar" style="width:100%;">
+                    </a>
                 @endif
                 @if(!empty($campaign_detail->coupon_code))
                     <div class="left-space">
