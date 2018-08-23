@@ -14,7 +14,7 @@
                 </div>
                 @if(!empty($campaign_detail->image))
                     <a href="{{$campaign_detail->image != null ? $campaign_detail->hyper_link : ' '}}" target="_blank">
-                        <img src="/img/campaigns/{{$campaign_detail->image}}" alt="Avatar" style="width:100%;">
+                        <img src="/img/campaigns/{{$campaign_detail->image}}" alt="Avatar" style="width:100%;height:350px">
                     </a>
                 @endif
                 @if(!empty($campaign_detail->coupon_code))
@@ -57,7 +57,7 @@
                                     <th>USA</th>
                                     <th>Germany</th>
                                     <th>Canada</th>
-                                    <th>Ausrtalia</th>
+                                    <th>Australia</th>
                                 </tr>
                                 </thead>
                                 <tbody>
