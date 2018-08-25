@@ -84,11 +84,9 @@
 
     <!-- Slides Container -->
     <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1400px; height: 380px; overflow: hidden;">
-        <div>
-            <a href="#" >
+        <div>           
                 <img u="image" src="/img/slider-images/img/landscape/onam.jpg"
-                     alt="Onam"/>
-            </a>
+                     alt="Onam"/>            
         </div>
         <div>
             <a href="https://www.shoppre.com/campaign/rakhi2/email/3625" target="_blank">
