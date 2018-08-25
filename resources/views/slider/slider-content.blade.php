@@ -86,6 +86,12 @@
     <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1400px; height: 380px; overflow: hidden;">
         <div>
             <a href="https://www.shoppre.com/campaign/rakhi2/email/3625" target="_blank">
+                <img u="image" src="/img/slider-images/img/landscape/onam.jpg"
+                     alt="Onam"/>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.shoppre.com/campaign/rakhi2/email/3625" target="_blank">
                 <img u="image" src="/img/slider-images/img/landscape/rakhi.png"
                      alt="indday"/>
             </a>
