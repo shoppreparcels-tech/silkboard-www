@@ -85,7 +85,7 @@
     <!-- Slides Container -->
     <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1400px; height: 380px; overflow: hidden;">
         <div>
-            <a href="#" target="_blank">
+            <a href="#" >
                 <img u="image" src="/img/slider-images/img/landscape/onam.jpg"
                      alt="Onam"/>
             </a>
