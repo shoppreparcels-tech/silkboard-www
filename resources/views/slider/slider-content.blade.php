@@ -89,12 +89,6 @@
                      alt="Onam"/>            
         </div>
         <div>
-            <a href="https://www.shoppre.com/campaign/rakhi2/email/3625" target="_blank">
-                <img u="image" src="/img/slider-images/img/landscape/rakhi.png"
-                     alt="indday"/>
-            </a>
-        </div>
-        <div>
             <a href="https://www.shoppre.com/schedule-pickup?hp-slider-pickup" target="_blank">
                 <img u="image" src="/img/slider-images/img/landscape/pickup-from-india.png"
                      alt="pickup Courier from india shoppre"/>
