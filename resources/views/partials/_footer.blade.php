@@ -67,7 +67,7 @@
             <span>|</span>
             <a href="https://portal.productboard.com/shoppre">Give Feedback, New Ideas, Feature Requests, Complaints</a>
              <span>|</span>
-            <a href="https://portal.productboard.com/shoppre">What's New</a>
+            <a href="https://portal.productboard.com/shoppre/tabs/1-launched">What's New</a>
           </div>
         </div>
         <div class="clearfix"></div>
