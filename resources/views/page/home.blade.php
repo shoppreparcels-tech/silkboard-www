@@ -228,9 +228,12 @@
           <div class="col-sm-10">
             <div class="parcel_logs">
               <h3>Ship your Parcel through Shoppre’s trusted Courier Partners</h3>
-                <a href="{{route('dhl.index')}}"><img src="{{asset('img/dhl.png')}}" alt="DHL ShoppRe Shipping"></a>
-                <a href="{{route('fedex.index')}}"><img src="{{asset('img/fedex.png')}}" alt="FEDEX ShoppRe Shipping"></a>
-                <a href="{{route('dtdc.index')}}"><img src="{{asset('img/dtdc.png')}}" alt="DTDC ShoppRe Shipping"></a>
+                {{--<a href="{{route('dhl.index')}}"><img src="{{asset('img/dhl.png')}}" alt="DHL ShoppRe Shipping"></a>--}}
+                {{--<a href="{{route('fedex.index')}}"><img src="{{asset('img/fedex.png')}}" alt="FEDEX ShoppRe Shipping"></a>--}}
+                {{--<a href="{{route('dtdc.index')}}"><img src="{{asset('img/dtdc.png')}}" alt="DTDC ShoppRe Shipping"></a>--}}
+                <a class="carrier_font_size" href="{{route('dhl.index')}}">DHL, </a>
+                <a class="carrier_font_size" href="{{route('fedex.index')}}">FEDEX, </a>
+                <a class="carrier_font_size" href="{{route('dtdc.index')}}">DTDC</a>
               <h4>Shoppre receives and ships over INR 10,00,000 worth in eCommerce purchases monthly!</h4>
             </div>
           </div>

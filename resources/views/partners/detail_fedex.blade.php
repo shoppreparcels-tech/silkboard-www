@@ -9,7 +9,7 @@
         <div class="shipping_detail">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="/../img/fedex.png" alt="">
+                    <a class="carrier_font_size" href="javascript:void(0)">FEDEX</a>
                 </div>
             </div>
             <br>

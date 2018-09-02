@@ -9,7 +9,7 @@
         <div class="shipping_detail">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="/../img/dhl.png" alt="">
+                    <a class="carrier_font_size" href="javascript:void(0)">DHL</a>
                 </div>
             </div>
             <br>

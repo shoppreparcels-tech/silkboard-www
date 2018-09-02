@@ -7,7 +7,7 @@
 @section('content')
     <div class="container">
         <center>
-            <img src="img/dtdc.jpg" alt="">
+            <a class="carrier_font_size" href="javascript:void(0)">DTDC</a>
         </center>
         <h2> Shipments we sent across the Globe </h2>
         @foreach($shipments as $shipment)
