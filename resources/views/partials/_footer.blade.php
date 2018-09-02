@@ -64,6 +64,10 @@
             <a href="/terms-and-conditions">Terms &amp; Conditions</a>
             <span>|</span>
             <a href="/privacy-policy/">Privacy Policy</a>
+            <span>|</span>
+            <a href="https://portal.productboard.com/shoppre">Give Feedback, New Ideas, Feature Requests, Complaints</a>
+             <span>|</span>
+            <a href="https://portal.productboard.com/shoppre">What's New</a>
           </div>
         </div>
         <div class="clearfix"></div>
