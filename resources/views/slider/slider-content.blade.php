@@ -84,10 +84,12 @@
 
     <!-- Slides Container -->
     <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1400px; height: 380px; overflow: hidden;">
-       <!-- <div>           
-                <img u="image" src="/img/slider-images/img/landscape/onam.jpg"
-                     alt="Onam"/>            
-        </div> -->
+        <div>
+            <a href="http://bit.ly/save-on-international-shipping" target="_blank">
+                <img u="image" src="/img/slider-images/img/landscape/international-shipping-shoppre.png"
+                     alt="international-shipping-shoppre"/>
+            </a>
+        </div>
         <div>
             <a href="https://www.shoppre.com/schedule-pickup?hp-slider-pickup" target="_blank">
                 <img u="image" src="/img/slider-images/img/landscape/pickup-from-india.png"
