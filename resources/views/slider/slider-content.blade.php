@@ -85,6 +85,12 @@
     <!-- Slides Container -->
     <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1400px; height: 380px; overflow: hidden;">
         <div>
+            <a href="https://www.shoppre.com/pricing" target="_blank">
+                <img u="image" src="/img/slider-images/img/landscape/ganesh.jpg"
+                     alt="international-shipping-shoppre"/>
+            </a>
+        </div>
+        <div>
             <a href="http://bit.ly/save-on-international-shipping" target="_blank">
                 <img u="image" src="/img/slider-images/img/landscape/international-shipping-shoppre.png"
                      alt="international-shipping-shoppre"/>
@@ -95,7 +101,7 @@
                 <img u="image" src="/img/slider-images/img/landscape/pickup-from-india.png"
                      alt="pickup Courier from india shoppre"/>
             </a>
-        </div>        
+        </div>
         <div>
             <a href="https://myaccount.shoppre.com/locker?homeslider" target="_blank">
             <img u="image" src="/img/slider-images/img/landscape/indian-local-virtual-shipping-address.jpg"
