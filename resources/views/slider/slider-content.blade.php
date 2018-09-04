@@ -95,15 +95,7 @@
                 <img u="image" src="/img/slider-images/img/landscape/pickup-from-india.png"
                      alt="pickup Courier from india shoppre"/>
             </a>
-        </div>
-        <div>
-            <img u="image" src="/img/slider-images/img/landscape/how-to-shop-ship-from-india-online-shoppre.jpg"
-                 alt="how to shop and ship from india ShoppRe"/>
-        </div>
-        <div>
-            <img u="image" src="/img/slider-images/img/landscape/shoppre-shipping.jpg"
-            alt="international shipping from india"/>
-        </div>
+        </div>        
         <div>
             <a href="https://myaccount.shoppre.com/locker?homeslider" target="_blank">
             <img u="image" src="/img/slider-images/img/landscape/indian-local-virtual-shipping-address.jpg"
