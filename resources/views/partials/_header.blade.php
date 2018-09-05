@@ -107,13 +107,33 @@
                                   <li><a href="{{route('shopFromIndia')}}">Shop and Ship</a></li>
                                   <li><a href="{{route('schedulePickup.Index')}}">Schedule a Pickup</a></li>
                                   <li><a href="{{route('consolidationService')}}">Repacking & Consolidation</a></li>
-                                  <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">Personal Shopper</a></li>
+                                  <li><a href="https://www.shoppre.com/services/personal-shopper-service-india" target="_blank">Personal Shopper</a></li>
                                   <li><a href="{{route('stores')}}">Indian Online Shops</a></li>
                                   <li><a href="{{route('indianVirtual')}}">Virtual Address</a></li>
                                   <li><a href="{{route('sellerShipping')}}">Sellers Shipping</a></li>
                               </ul></li>
                     <li><a href="{{route('howitworks')}}">How Shoppre Works</a></li>
                     <li><a href="{{route('pricing')}}">Price Calculator</a></li>
+                    <li><button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">
+                            <strong>OFFERS</strong> <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.shoppre.com/offers/ganesh-chaturthi-shipping-offers-from-india/"
+                                   target="_blank">
+                                    Ganesh Chaturthi
+                                </a>
+                            </li>
+                            <li><a href="https://www.shoppre.com/offers/send-durga-puja-gifts-from-india-ship-internationally/"
+                                   target="_blank">Durga Puja
+                                </a>
+                            </li>
+                            <li><a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/"
+                                   target="_blank" >
+                                    Save Upto 80%
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                     {{--<li><a href="https://myaccount.shoppre.com/direct/payment">Make Payment</a></li>--}}
                     <li><a href="{{route('contact')}}">Contact us</a></li>
                     {{--<li><a href="{{route('feedback.Index')}}">Feedback</a></li>--}}

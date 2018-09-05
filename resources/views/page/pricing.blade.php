@@ -27,10 +27,12 @@
 
     <section class="white-band">
         <h2>Want something from India?</h2>
-        <h3>SHOP ONLINE WITH A SHOPPRE VIRTUAL ADDRESS AND PERSONAL LOCKER NUMBER!</h3>
+        <h3>SHOP ONLINE WITH A <a class="anchor-color" href="https://www.shoppre.com/services/virtual-address-in-india/"
+            target="_blank">SHOPPRE VIRTUAL ADDRESS</a> AND PERSONAL LOCKER NUMBER!</h3>
         <p>Tell us where you want to send your parcel and get <span class="text-orange">Upfront Pricing</span>; get your
             parcel in just 2-5 Days!</p>
-        <p>Save upto 60-80% on Shipping Costs, through <span class="text-orange">Shoppre’s Cost-saving Services!</span>
+        <p><a class="anchor-color" href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india"
+              target="_blank">Save upto 60-80% on Shipping Costs </a>, through <span class="text-orange">Shoppre’s Cost-saving Services!</span>
         </p>
     </section>
 
