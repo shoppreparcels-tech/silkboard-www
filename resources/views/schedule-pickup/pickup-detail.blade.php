@@ -21,7 +21,7 @@
                                     <address>
                                         <h4><strong>Customer Detail:</strong></h4>
                                         <strong>Name:</strong> {{$pickup_details->first_name}} {{$pickup_details->last_name}}<br>
-                                        <strong>Mobile:</strong> {{$pickup_details->mobile}} <br>
+                                        <strong>Mobile:</strong> + {{$pickup_details->phone_code}} - {{$pickup_details->mobile}} <br>
                                         <strong>Email:</strong> {{$pickup_details->user_email}}
                                     </address>
                                 </div>
@@ -30,6 +30,7 @@
                                         <h4><strong>Pickup Address:</strong><br></h4>
                                         {{$pickup_details->pc_fname}} {{$pickup_details->pc_lname}}<br>
                                         {{$pickup_details->pc_street}},{{$pickup_details->pc_city}},<br>
+                                        {{$pickup_details->pc_contact_no}},<br>
                                         {{$pickup_details->pc_state}}-{{$pickup_details->pc_pincode}}
                                     </address>
                                 </div>
@@ -39,7 +40,7 @@
                                     <address>
                                         <h4><strong>Destination Address:</strong><br></h4>
                                         <strong>Name:</strong> {{$pickup_details->dc_fname}} {{$pickup_details->dc_lname}}<br>
-                                        <strong>Mobile:</strong> {{$pickup_details->dc_contact_no}} <br>
+                                        <strong>Mobile:</strong> + {{$pickup_details->dc_phone_code}} - {{$pickup_details->dc_contact_no}} <br>
                                         <strong>Address:</strong><br>
                                         {{$pickup_details->dc_street}},{{$pickup_details->dc_city}},<br>
                                         {{$pickup_details->dc_state}}-{{$pickup_details->dc_pincode}}
