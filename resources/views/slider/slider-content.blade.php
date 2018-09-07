@@ -85,8 +85,8 @@
     <!-- Slides Container -->
     <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1400px; height: 380px; overflow: hidden;">
         <div>
-            <a href="https://www.shoppre.com/pricing" target="_blank">
-                <img u="image" src="/img/slider-images/img/landscape/ganesh.jpg"
+            <a href="https://www.shoppre.com/offers/ganesh-chaturthi-shipping-offers-from-india/" target="_blank">
+                <img u="image" src="/img/slider-images/img/landscape/Ganesh Chaturthi_Home Page Slider.jpg"
                      alt="international-shipping-shoppre"/>
             </a>
         </div>
