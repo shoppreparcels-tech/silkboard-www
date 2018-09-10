@@ -52,15 +52,15 @@
                         {{--</button>--}}
                     {{--</div>--}}
                 {{--</form>--}}
-                @if(!$promos->isEmpty())
-                    <div class="promoscroll">
-                        <ul id="liticker">
-                            @foreach($promos as $promo)
-                                <li><a href="{{$promo->url}}" target="_blank">{{$promo->title}} - <span>{{$promo->code}}</span></a></li>
-                            @endforeach
-                        </ul>
-                    </div>
-                @endif
+                {{--@if(!$promos->isEmpty())--}}
+                    {{--<div class="promoscroll">--}}
+                        {{--<ul id="liticker">--}}
+                            {{--@foreach($promos as $promo)--}}
+                                {{--<li><a href="{{$promo->url}}" target="_blank">{{$promo->title}} - <span>{{$promo->code}}</span></a></li>--}}
+                            {{--@endforeach--}}
+                        {{--</ul>--}}
+                    {{--</div>--}}
+                {{--@endif--}}
                 @if(isset($announcements))
                     <div class="announcescroll">
                         <div class="message_announce">
