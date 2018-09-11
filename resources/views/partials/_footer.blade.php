@@ -1,77 +1,107 @@
-<footer>
-  <section class="infolinks">
+<footer  style="background-color: #11273b;">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="logo">
-            <img src="/img/original-logo.png">
-          </div>
-          <div class="contact_info">
-            <span><i class="glyphicon glyphicon-earphone"></i><strong><a href="tel:+91-80 4094 4077">+91 80 4094 4077</a> </strong></span>
-            <span><i class="glyphicon glyphicon-envelope"></i><strong><a href="mailto:support@shoppre.com">support@shoppre.com</a></strong></span>
-            <span><i class="glyphicon glyphicon-map-marker"></i><strong>#181, 1st Floor, 2nd Cross Rd,<br> 1st Block Koramangala,<br> Bengaluru - 560034</strong></span>
-          </div>
+        <div class="row footer-container">
+            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
+                <ul class="nav-ul">
+                    <li><a class="footer-a"  href="{{route('about')}}">About Us</a></li>
+                    <li><a class="footer-a"  href="#">What's New</a></li>
+                    <li><a class="footer-a"  href="{{route('story.index')}}">Our Story</a></li>
+                    <li><a class="footer-a"  href="#">Coustomer Reviws</a></li>
+                    <li><a class="footer-a"  href="{{route('contact')}}">Contact Us</a></li>
+                    <li><a class="footer-a"  href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Carrer</a></li>
+                    <li><a class="footer-a"  href="http://blog.shoppre.com/" target="_blank">Blog</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
+                <ul class="nav-ul">
+                    <li><a class="footer-a"  href="{{route('services')}}">Services</a></li>
+                    <li><a class="footer-a"  href="{{route('cguide.index')}}">Country Guide</a></li>
+                    <li><a class="footer-a"  href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank">Become Partner</a></li>
+                    <li><a class="footer-a"  href="{{route('faq')}}">FAQ</a></li>
+                    <li><a class="footer-a"  href="{{route('termsAndConditions')}}">Terms & Conditions</a></li>
+                    <li><a class="footer-a"  href="{{route('privacyPolicy')}}">Privacy Policy</a></li>
+                    <li><a class="footer-a"  href="{{route('refundAndCancellation')}}">Refund & Cancellation Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+                <ul class="nav-ul">
+                    <li>
+                        <a class="footer-a"  href="#">
+                            <i class="glyphicon glyphicon-earphone"></i> CALL US
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-a"  href="tel:+91-80 4094 4077">+918040944077</a>
+                    </li>
+                    <li>
+                        <a class="footer-a"  href="#">
+                            <i class="glyphicon glyphicon-envelope"></i>
+                            SUPPORT EMAIL
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-a"  href="mailto:support@shoppre.com">support@shoppre.com</a>
+                    </li>
+                    <li>
+                        <a class="footer-a"  href="#">CONNECT ON</a><br>
+                        <a class="footer-a"  href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw">
+                            <img class="img-connect" src="{{asset('new_assets/img/svg_image/ic_social_google.svg')}}">
+                        </a>
+                        <a class="footer-a"  href="https://www.facebook.com/goshoppre/">
+                            <img class="img-connect" src="{{asset('new_assets/img/svg_image/ic_social_faceboook.svg')}}">
+                        </a>
+                        <a class="footer-a"  href="https://twitter.com/Go_Shoppre">
+                            <img class="img-connect" src="{{asset('new_assets/img/svg_image/ic_social_twitter.svg')}}">
+                        </a>
+                        <a class="footer-a"  href="https://www.instagram.com/shoppre_official/?hl=en">
+                            <img class="img-connect" src="{{asset('new_assets/img/svg_image/ic_social_instagram.svg')}}">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+                <div class="div-btn">
+                    <div class="col-md-2 col-lg-2 col-xs-2 col-sm-2" style="margin-top: 14px;">
+                        <img class="img-footer" src="{{asset('new_assets/img/svg_image/ic_footer_calculator.svg')}}">
+                    </div>
+                    <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10" style="margin-top: 14px;" >
+                        <a class="p-btn-name" href="https://www.shoppre.com/pricing">Price Calculator</a>
+                        <p class="p-best-price">Guarenteed best price</p>
+                    </div>
+                </div>
+
+                <div class="div-btn1">
+                    <div class="col-md-2 col-lg-2 col-xs-2 col-sm-2" style="margin-top: 14px;">
+                        <img class="img-footer" src="{{asset('new_assets/img/svg_image/ic_footer_courier.svg')}}">
+                    </div>
+                    <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10" style="margin-top: 14px;" >
+                        <a class="p-btn-name" href="{{route('schedulePickup.Index')}}">Courier Abroad</a>
+                        <p class="p-best-price1">Schedule a Pickup</p>
+                    </div>
+                </div>
+
+                <div class="div-btn1">
+                    <div class="col-md-2 col-lg-2 col-xs-2 col-sm-2" style="margin-top: 14px;">
+                        <img class="img-footer" src="{{asset('new_assets/img/svg_image/ic_footer_shop_ship.svg')}}">
+                    </div>
+                    <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10" style="margin-top: 14px;" >
+                        <a class="p-btn-name"  href="{{route('shopFromIndia')}}">Shop & Ship</a>
+                        <p class="p-best-price1">Explore Stores now </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-3">
-          <ul class="foot_menu">
-            <li><a href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>
-            <li><a href="https://medium.com/@shoppre/from-india-with-love-shipping-shoppre-8be96618a38f" target="_blank">Blog</a></li>
-            <li><a href="{{route('story.index')}}">Stories</a></li>
-            <li><a href="{{route('services')}}">Our Services</a></li>
-            <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/loyalty-points">Shoppre Loyalty Points</a></li>
-            <li><a href="{{route('cguide.index')}}">Country Guides</a></li>
-            <li><a href="{{route('stores')}}">Browse Categories</a></li>
-            <li><a href="{{route('reviews')}}">ShoppRe Reviews</a></li>
-            <li><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">How Personal Shopper Works</a></li>
-            {{--<li><a href="{{route('pricing')}}">Shipping and Pricing for your country</a></li>--}}
-          </ul>
+
+        <div class="container row-divider"></div>
+
+        <div class="row">
+            <center>
+                <a href="{{route('home')}}"><img class="img-footer-logo" alt="Company" src="{{asset('new_assets/img/svg_image/logo.svg')}}"></a>
+                <p class="footer-a p-footer">© 2018, All Rights Reserved - by ShoppRe.com™ </p>
+            </center>
         </div>
-        <div class="col-sm-3">
-          <ul class="foot_menu">
-            <li><a href="{{route('about')}}">About ShoppRe</a></li>
-            <li><a href="{{route('faq')}}">FAQ</a></li>
-            <li><a href="https://myaccount.shoppre.com/direct/payment">Make Payment</a></li>
-            <li><a href="{{route('feedback.Index')}}">Feedback</a></li>
-            <li><a href="{{route('contact')}}">Contact us</a></li>
-            <li><a href="{{route('termsAndConditions')}}">Terms & Conditions</a></li>
-            <li><a href="{{route('privacyPolicy')}}">Privacy Policy</a></li>
-            <li><a href="{{route('refundAndCancellation')}}">Refund & Cancellation Policy</a>
-            <li><a href="https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch">Install Shoppre Chrome Extension</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-2">
-          <div class="foot_social">
-            <h3>Share the love!</h3>
-            <a href="https://www.facebook.com/goshoppre/" target="_blank"><i class="fa fa-facebook-square"></i></a>
-            <a href="https://twitter.com/Go_Shoppre" target="_blank"><i class="fa fa-twitter-square"></i></a>
-            <a href="https://www.instagram.com/shoppre_official/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw" target="_blank"><i class="fa fa-youtube"></i></a>
-            <a href="https://goo.gl/jTfUjf" target="_blank" class="footer-google-logo"><img src="{{asset('img/playstore.png')}}"></a>
-          </div>
-        </div>
-        <div class="clearfix"></div>
-      </div>
+
     </div>
-  </section>
-  <section class="bottom">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <p class="copy">&copy; 2018, All Rights Reserved - by ShoppRe.com™</p>
-        </div>
-        <div class="col-sm-6">
-          <div class="terms">
-            <a href="/terms-and-conditions">Terms &amp; Conditions</a>
-            <span>|</span>
-            <a href="/privacy-policy/">Privacy Policy</a>
-            <span>|</span>
-            <a href="https://portal.productboard.com/shoppre">Give Feedback, New Ideas, Feature Requests, Complaints</a>
-             <span>|</span>
-            <a href="https://portal.productboard.com/shoppre/tabs/1-launched">What's New</a>
-          </div>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
-  </section>
 </footer>

@@ -1,0 +1,250 @@
+ /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l              (normal)
+        .jssora12r              (normal)
+        .jssora12l:hover        (normal mouseover)
+        .jssora12r:hover        (normal mouseover)
+        .jssora12ldn            (mousedown)
+        .jssora12rdn            (mousedown)
+        */
+.jssora12l, .jssora12r, .jssora12ldn, .jssora12rdn {
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    background: url(../img/slider-images/img/landscape/a12.png) no-repeat;
+    overflow: hidden;
+}
+
+.jssora12l {
+    background-position: -16px -37px;
+}
+
+.jssora12r {
+    background-position: -75px -37px;
+}
+
+.jssora12l:hover {
+    background-position: -136px -37px;
+}
+
+.jssora12r:hover {
+    background-position: -195px -37px;
+}
+
+.jssora12ldn {
+    background-position: -256px -37px;
+}
+
+.jssora12rdn {
+    background-position: -315px -37px;
+}
+
+
+/* jssor slider bullet navigator skin 05 css */
+/*
+.jssorb05 div           (normal)
+.jssorb05 div:hover     (normal mouseover)
+.jssorb05 .av           (active)
+.jssorb05 .av:hover     (active mouseover)
+.jssorb05 .dn           (mousedown)
+*/
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    background: url(/home/pulse/Desktop/home_page/img/stores/b05.png) no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.jssorb05 div {
+    background-position: -7px -7px;
+}
+
+.jssorb05 div:hover, .jssorb05 .av:hover {
+    background-position: -37px -7px;
+}
+
+.jssorb05 .av {
+    background-position: -67px -7px;
+}
+
+.jssorb05 .dn, .jssorb05 .dn:hover {
+    background-position: -97px -7px;
+}
+
+.div-load{
+    position: absolute; 
+    top: 0px; 
+    left: 0px;
+}
+
+.div-laod-inner{
+    filter: alpha(opacity=70); 
+    opacity:0.7; 
+    position: absolute; 
+    display: block;
+    background-color: #000000; 
+    top: 0px; 
+    left: 0px;
+    width: 100%;
+    height:100%;
+}
+.div-load-background{
+    position: absolute; 
+    display: block; 
+    background: url(../img/loading.gif) no-repeat center center;
+    top: 0px; 
+    left: 0px;
+    width: 100%;
+    height:100%;
+}
+
+.div-carosal{
+    position: relative;
+    top: 10px; 
+    left: 0px; 
+    width: 600px; 
+    height: 130px; 
+    overflow: hidden; 
+    border-radius: 0 0 20px;
+    background-image: linear-gradient(258deg, #ff7e5e 0%, #ff8191 100%);
+}
+
+.slides{
+    cursor: move; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    width: 1400px; 
+    height: 380px; 
+    overflow: hidden;    
+}
+
+.btn-slider{
+    position: absolute;
+     bottom: 16px; 
+     right: 6px;
+}
+
+.btn-prototype{
+    position: : absolute;
+    width: 10px; 
+    height: 10px;
+}
+
+
+
+/*image hover effects*/
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+/*.container{
+  padding: 1em 0;
+  float: left;
+  width: 50%;
+}
+@media screen and (max-width: 640px){
+  .container{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .container{
+    width: 33.33333%;
+  }
+}*/
+
+.container .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+/*.content-image{
+  width: 100%;
+}*/
+/*
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}*/
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.fadeIn-right{
+  left: 80%;
+}

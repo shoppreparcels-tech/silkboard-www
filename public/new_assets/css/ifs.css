@@ -1,0 +1,100 @@
+
+.box-ifs{
+ height: 59px;
+ width: 59px;
+ margin-top: 20px; 
+  border: 1px solid #929ca5;
+}
+
+#step1{
+	/*margin-left:20px;*/
+}
+.box:hover{
+    box-shadow: 0 -1px 30px rgba(103, 117, 130, 0.17);
+    background-color: #ffffff;
+}
+
+.box-ifs-container{
+	/*width: 679px;*/
+	/*height: 400px;*/
+	/*box-shadow: 0 0 10px rgba(146, 156, 165, 0.1);*/
+	/*background-color: #ffffff; */
+	/*margin:13px 0 0 24px;	*/
+}
+
+.div-ifs-register{
+	/*width: 26%;*/
+	width: 166px;
+	height: 166px;	
+	border-radius: 100px;
+	border: 3px solid rgba(146, 156, 165, 0.2);
+	/*background-color: #ffffff;*/
+}
+
+.p-ifs-margin-h{
+	margin-top: 92px;
+}
+
+.p-ifs-margin-d{
+	margin-bottom: 94px;
+}
+
+.img-ifs-v_addres{
+	margin-bottom: 85px;
+    width: 90%;
+    margin-left: 15px;
+}
+
+.btn-ifs-free-v-a{
+	width: 300px;
+    height: 50px;
+	border-radius: 30px;
+	background-color: #e85151;
+	margin:24px 0 72px 0;	
+}
+  
+.img-ifs-card{
+	margin-top:30px; 
+
+}
+
+.btn-get-assisted{
+	margin: 80px 0 150px 0;
+	width: 300px;
+	height: 50px;
+	border-radius: 30px;
+	background-color: #e85151;
+}
+
+.img-priyamani-shopping{
+	/*width: 100%;*/
+	/*margin: -106px 0 0 -152px;*/
+	float: left;
+}
+
+.img-star-m{
+	    margin-top: 7px;
+}
+
+.row-ifs-m{
+	margin-top: 34px
+}
+
+.div-ifs-cal{
+	height: 179px;
+	margin-bottom: 110px;
+	margin-top: 110px;
+	box-shadow: 0 10px 50px rgba(17, 39, 59, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.btn-ifs-estimate{
+	color: #fff;
+    font-weight: 600;
+    height: 50px;
+    width: 100%;
+    border-radius: 60px;
+    background-color: #e85151;
+    margin-top: -10px;
+}

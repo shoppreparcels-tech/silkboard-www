@@ -11,14 +11,10 @@
     <link rel="shortcut icon" href="{{asset('img/favicon.png')}}">
     <link rel="icon" type="image/png" href="{{asset('img/favicon.png')}}" sizes="60x60">
 
-    <!-- Style -->
-
+    <!-- Bootstrap -->
     <link rel="manifest" href="/manifest.json" />
 
-    {{--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >--}}
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css">
@@ -27,13 +23,10 @@
     <link href="{{asset('css/style1.css')}}" rel="stylesheet">
     <link href="{{asset('css/print.css')}}" rel="stylesheet">
     <script src="{{asset('js/jquery.min.js')}}"></script>
-
-    {{--<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">--}}
-
-    <link rel="stylesheet" href="{{asset('new_assets/css/bootstrap.min.css')}}" >
-    <link rel="stylesheet" href="{{asset('new_assets/css/style.css')}}" >
-    <link rel="stylesheet" href="{{asset('new_assets/css/select2.min.css')}}" >
-    <link rel="stylesheet" href="{{asset('new_assets/css/star-rating.min.css')}}" >
+    <script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script src="//cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+    <script src="{{asset('js/slider-js/jssor.js')}}"></script>
+    <script src="{{asset('js/slider-js/jssor.slider.js')}}"></script>
 
     @yield('css_style')
 
@@ -65,22 +58,22 @@
 
 <!-- One Signal -->
 
-{{--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>--}}
-{{--<script>--}}
-{{--var OneSignal = window.OneSignal || [];--}}
-{{--OneSignal.push(function() {--}}
-{{--OneSignal.init({--}}
-{{--appId: "73b01947-ee7a-4ad8-a263-970d72bee3b6",--}}
-{{--autoRegister: false,--}}
-{{--notifyButton: {--}}
-{{--enable: true,--}}
-{{--},--}}
-{{--});--}}
-{{--});--}}
-{{--</script>--}}
+    {{--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>--}}
+    {{--<script>--}}
+        {{--var OneSignal = window.OneSignal || [];--}}
+        {{--OneSignal.push(function() {--}}
+            {{--OneSignal.init({--}}
+                {{--appId: "73b01947-ee7a-4ad8-a263-970d72bee3b6",--}}
+                {{--autoRegister: false,--}}
+                {{--notifyButton: {--}}
+                    {{--enable: true,--}}
+                {{--},--}}
+            {{--});--}}
+        {{--});--}}
+    {{--</script>--}}
 
-<!-- End one signal -->
-    <!-- Google Tag Manager -->
+    <!-- End one signal -->
+<!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
@@ -95,7 +88,6 @@
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-NRL4B6X');</script>
     <!-- End Google Tag Manager -->
-
 </head>
 <body>
 
@@ -105,6 +97,16 @@
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
+
+<!-- End Google ad sens (noscript) -->
+{{--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>--}}
+{{--<script>--}}
+    {{--(adsbygoogle = window.adsbygoogle || []).push({--}}
+        {{--google_ad_client: "ca-pub-6813554619790449",--}}
+        {{--enable_page_level_ads: true--}}
+    {{--});--}}
+{{--</script>--}}
+<!-- End Google ad sens (noscript) -->
 
 <script>
     if (!localStorage.referer) {
@@ -131,10 +133,10 @@
                         <div class="text-center">
                             <div class="login-social">
                                 <a href="https://myaccount.shoppre.com/social/oauth/facebook" class="facebook"><i
-                                        class="fa fa-facebook"></i><span>Facebook</span></a>
+                                            class="fa fa-facebook"></i><span>Facebook</span></a>
                                 <a href="https://myaccount.shoppre.com/social/oauth/google"
                                    class="google"><span>Google Plus</span><i
-                                        class="fa fa-google-plus"></i></a>
+                                            class="fa fa-google-plus"></i></a>
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -183,9 +185,9 @@
                         <div class="text-center">
                             <div class="login-social">
                                 <a href="https://myaccount.shoppre.com/social/oauth/facebook" class="facebook"><i
-                                        class="fa fa-facebook"></i><span>Facebook</span></a>
+                                            class="fa fa-facebook"></i><span>Facebook</span></a>
                                 <a href="https://myaccount.shoppre.com/social/oauth/google" class="google"><span>Google Plus</span><i
-                                        class="fa fa-google-plus"></i></a>
+                                            class="fa fa-google-plus"></i></a>
                             </div>
                         </div>
                         <span class="or_separate">OR</span>
@@ -259,16 +261,11 @@
 @yield('content')
 
 @include('partials._footer')
-
 <script src="{{asset('js/bootstrap.min.js')}}"></script>
 <script src="{{asset('js/txtProgress.min.js')}}"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.jqueryui.min.js"></script>
 <script src="{{asset('js/validate.min.js')}}"></script>
-
-<script src="{{asset('new_assets/js/star-rating.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('new_assets/js/select2.min.js')}}"></script>
-
 
 <script>
     $(document).ready(function () {
@@ -324,57 +321,57 @@
 
 {{--<!-- Facebook Pixel Code -->--}}
 {{--<script>--}}
-{{--!function (f, b, e, v, n, t, s) {--}}
-{{--if (f.fbq) return;--}}
-{{--n = f.fbq = function () {--}}
-{{--n.callMethod ?--}}
-{{--n.callMethod.apply(n, arguments) : n.queue.push(arguments)--}}
-{{--};--}}
-{{--if (!f._fbq) f._fbq = n;--}}
-{{--n.push = n;--}}
-{{--n.loaded = !0;--}}
-{{--n.version = '2.0';--}}
-{{--n.queue = [];--}}
-{{--t = b.createElement(e);--}}
-{{--t.async = !0;--}}
-{{--t.src = v;--}}
-{{--s = b.getElementsByTagName(e)[0];--}}
-{{--s.parentNode.insertBefore(t, s)--}}
-{{--}(window,--}}
-{{--document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');--}}
-{{--fbq('init', '437389746641326'); // Insert your pixel ID here.--}}
-{{--fbq('track', 'PageView');--}}
+    {{--!function (f, b, e, v, n, t, s) {--}}
+        {{--if (f.fbq) return;--}}
+        {{--n = f.fbq = function () {--}}
+            {{--n.callMethod ?--}}
+                {{--n.callMethod.apply(n, arguments) : n.queue.push(arguments)--}}
+        {{--};--}}
+        {{--if (!f._fbq) f._fbq = n;--}}
+        {{--n.push = n;--}}
+        {{--n.loaded = !0;--}}
+        {{--n.version = '2.0';--}}
+        {{--n.queue = [];--}}
+        {{--t = b.createElement(e);--}}
+        {{--t.async = !0;--}}
+        {{--t.src = v;--}}
+        {{--s = b.getElementsByTagName(e)[0];--}}
+        {{--s.parentNode.insertBefore(t, s)--}}
+    {{--}(window,--}}
+        {{--document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');--}}
+    {{--fbq('init', '437389746641326'); // Insert your pixel ID here.--}}
+    {{--fbq('track', 'PageView');--}}
 {{--</script>--}}
 {{--<noscript><img height="1" width="1" style="display:none"--}}
-{{--src="https://www.facebook.com/tr?id=437389746641326&ev=PageView&noscript=1"/></noscript>--}}
+               {{--src="https://www.facebook.com/tr?id=437389746641326&ev=PageView&noscript=1"/></noscript>--}}
 {{--<!-- Load Facebook SDK for JavaScript -->--}}
 {{--<div id="fb-root"></div>--}}
 {{--<script>(function(d, s, id) {--}}
-{{--var js, fjs = d.getElementsByTagName(s)[0];--}}
-{{--if (d.getElementById(id)) return;--}}
-{{--js = d.createElement(s); js.id = id;--}}
-{{--js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';--}}
-{{--fjs.parentNode.insertBefore(js, fjs);--}}
+  {{--var js, fjs = d.getElementsByTagName(s)[0];--}}
+  {{--if (d.getElementById(id)) return;--}}
+  {{--js = d.createElement(s); js.id = id;--}}
+  {{--js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';--}}
+  {{--fjs.parentNode.insertBefore(js, fjs);--}}
 {{--}(document, 'script', 'facebook-jssdk'));</script>--}}
 
 {{--<!-- Your customer chat code -->--}}
 {{--<div class="fb-customerchat"--}}
-{{--attribution="setup_tool"--}}
-{{--page_id="1819630241632764">--}}
+  {{--attribution="setup_tool"--}}
+  {{--page_id="1819630241632764">--}}
 {{--</div>--}}
 
 
 <!--Start of Tawk.to Script-->
 {{--<script type="text/javascript">--}}
-{{--var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();--}}
-{{--(function(){--}}
-{{--var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];--}}
-{{--s1.async=true;--}}
-{{--s1.src='https://embed.tawk.to/58dab24ff97dd14875f5a8a9/default';--}}
-{{--s1.charset='UTF-8';--}}
-{{--s1.setAttribute('crossorigin','*');--}}
-{{--s0.parentNode.insertBefore(s1,s0);--}}
-{{--})();--}}
+    {{--var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();--}}
+    {{--(function(){--}}
+        {{--var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];--}}
+        {{--s1.async=true;--}}
+        {{--s1.src='https://embed.tawk.to/58dab24ff97dd14875f5a8a9/default';--}}
+        {{--s1.charset='UTF-8';--}}
+        {{--s1.setAttribute('crossorigin','*');--}}
+        {{--s0.parentNode.insertBefore(s1,s0);--}}
+    {{--})();--}}
 {{--</script>--}}
 <!--End of Tawk.to Script-->
 
@@ -409,163 +406,18 @@
 
 </script>
 <script type="text/JavaScript">
-    window.zESettings = {
-        webWidget: {
-            position: {
-                horizontal: 'right',
-                vertical: 'bottom'
-            }
-        }
-    };
-</script>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        //rotation speed and timer
-        var speed = 5000;
-
-        var run = setInterval(rotate, speed);
-        var slides = $('.slide');
-        var container = $('#slides ul');
-        var elm = container.find(':first-child').prop("tagName");
-        var item_width = container.width();
-        var previous = 'prev'; //id of previous button
-        var next = 'next'; //id of next button
-        slides.width(item_width); //set the slides to the correct pixel width
-        container.parent().width(item_width);
-        container.width(slides.length * item_width); //set the slides container to the correct total width
-        container.find(elm + ':first').before(container.find(elm + ':last'));
-        resetSlides();
-
-
-        //if user clicked on prev button
-
-        $('#buttons a').click(function (e) {
-            //slide the item
-
-            if (container.is(':animated')) {
-                return false;
-            }
-            if (e.target.id == previous) {
-                container.stop().animate({
-                    'left': 0
-                }, 1500, function () {
-                    container.find(elm + ':first').before(container.find(elm + ':last'));
-                    resetSlides();
-                });
-            }
-
-            if (e.target.id == next) {
-                container.stop().animate({
-                    'left': item_width * -2
-                }, 1500, function () {
-                    container.find(elm + ':last').after(container.find(elm + ':first'));
-                    resetSlides();
-                });
-            }
-
-            //cancel the link behavior
-            return false;
-
-        });
-
-        //if mouse hover, pause the auto rotation, otherwise rotate it
-        container.parent().mouseenter(function () {
-            clearInterval(run);
-        }).mouseleave(function () {
-            run = setInterval(rotate, speed);
-        });
-
-
-        function resetSlides() {
-            //and adjust the container so current is in the frame
-            container.css({
-                'left': -1 * item_width
-            });
-        }
-
-    });
-    //a simple function to click next link
-    //a timer will call this function, and the rotation will begin
-
-    function rotate() {
-        $('#next').click();
+window.zESettings = {
+  webWidget: {
+    position: {
+     horizontal: 'right',
+      vertical: 'bottom'
     }
+  }
+};
 </script>
-
-<script>
-    $(".rated").rating({
-        'size':'xs',
-        'min' : 0,
-        'max' : 5,
-        'step' : 1,
-        'displayOnly' : true,
-        'showClear' : false,
-        'showCaption' : false
-    });
-
-    $("#input-rate").rating({
-        'size':'sm',
-        'min' : 0,
-        'max' : 5,
-        'step' : 1,
-        'showClear' : false,
-        'showCaption' : false
-    });
-</script>
-<!-- Select2 -->
-
-<script type="text/javascript">
-    $(document).ready(function() {
-        $(".select2").select2();
-    });
-</script>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $(".select2").select2();
-    });
-</script>
-
-{{--<script type="text/javascript">--}}
-    {{--var $iframe = $('iframe'),--}}
-        {{--$videoLink = $('.video-link'),--}}
-        {{--playerTemplate = '<div class="player"><div class="player__video"><div class="video-filler"></div><button class="video-close">&times;</button><iframe class="video-iframe" src="{{$iframe}}" frameborder="0" allowfullscreen></iframe></div><div/>';--}}
-
-
-    {{--$videoLink.on('click', function(e) {--}}
-        {{--var localTemplate = '',--}}
-            {{--videoWidth = parseInt($(this).data('width')),--}}
-            {{--videoHeight = parseInt($(this).data('height')),--}}
-            {{--videoAspect = ( videoHeight / videoWidth ) * 100,--}}
-            {{--// elements--}}
-            {{--$player = null,--}}
-            {{--$video = null,--}}
-            {{--$close = null,--}}
-            {{--$iframe = null;--}}
-
-        {{--e.preventDefault();--}}
-
-        {{--localTemplate = playerTemplate.replace('{{$iframe}}', $(this).prop('href'));--}}
-
-        {{--$player = $(localTemplate);--}}
-
-        {{--$player--}}
-            {{--.find('.video-filler')--}}
-            {{--.css('padding-top', videoAspect + '%');--}}
-
-        {{--$close = $player--}}
-            {{--.find('.video-close')--}}
-            {{--.on('click', function() {--}}
-                {{--$(this).off().closest('.player').hide().remove();--}}
-            {{--});--}}
-
-        {{--$player.appendTo('body').addClass('js--show-video');--}}
-    {{--});--}}
-{{--</script>--}}
 <!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4601740.js"></script>
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4601740.js"></script>
 <!-- End of HubSpot Embed Code -->
 @yield('js_script')
-
 </body>
 </html>

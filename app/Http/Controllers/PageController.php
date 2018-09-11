@@ -29,6 +29,11 @@ class PageController extends Controller
 {
 
 
+    public function icsIndex()
+    {
+        return view('page.ics');
+    }
+
     public function saveFlyerUser(Request $request)
     {
         $emp_id = 616;
@@ -317,7 +322,7 @@ class PageController extends Controller
             ->limit(5)
             ->get();
 
-        return view('page.home')->with([
+        return view('page.home_new')->with([
             'reviews' => $reviews
         ]);
     }

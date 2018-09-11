@@ -9,7 +9,7 @@
     <section class="sellers">
         <div class="container-fluid">
             <div class="row">
-              <div class="col-md-4 col-sm-12 col-md-offset-4 col-sm-offset-0"><h1>Ship Your Item World Wide</h1></div>
+              <center><div class="col-md-5 col-sm-12 col-md-offset-5 col-sm-offset-0"><h1>Ship Your Item World Wide</h1></div></center>
                 <div class="col-md-12">
                     <div class="seller_tab">
                         <div class="tab-content">
