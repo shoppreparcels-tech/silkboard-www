@@ -144,14 +144,6 @@ header::after{
     margin-left: auto;
 }
 
-.div-img-pr1{
-    background-image:url(../new_assets/img/images/image_priyamani_mobile.png);
-    height: 378px;
-    width: 140px;
-    background-repeat: no-repeat;
-    float: right;
-    margin-top: -445px;
-}
 #mobile-img{
     display: none;
 }
@@ -176,6 +168,15 @@ header::after{
     font-size: 22px;
     font-weight: 400;
     /*letter-spacing: 1.8px;*/
+}
+
+.rating-xs{
+    font-size: 10px !important;
+}
+
+.rating-stars{
+    margin-left: 11px !important;
+    margin-top: -17px !important;
 }
 
 .h4{
