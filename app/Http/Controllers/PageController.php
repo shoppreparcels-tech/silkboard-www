@@ -322,18 +322,6 @@ class PageController extends Controller
         ]);
     }
 
-    public function home_new()
-    {
-        $reviews = Review::orderBy('updated_at', 'desc')
-            ->where('approve', '1')
-            ->limit(5)
-            ->get();
-
-        return view('page.home_new')->with([
-            'reviews' => $reviews
-        ]);
-    }
-
     public function about()
     {
         return view('page.about');

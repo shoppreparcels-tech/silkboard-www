@@ -199,7 +199,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h1 class="h1 p-color-cement-dark p-seller">Are you a Seller? <br>
-                Save more on shipping.</h>
+                Save more on shipping.</h1>
                 <p class="h2 p-color-cement"> <span class="h2" style="color: #507dbc;"> Start your FREE 30 Day Trial</span> to know how much you can save monthly on regular shipping</p>
                 <div class="col-md-12">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -212,3 +212,4 @@
         </div>
     </div>
 </section>
+@endsection

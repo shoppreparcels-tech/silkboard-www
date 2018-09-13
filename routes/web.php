@@ -3,7 +3,6 @@
 /*------ Pages ---------*/
 
 Route::get('/', 'PageController@home')->name('home');
-Route::get('/home_new', 'PageController@home_new')->name('home_new');
 Route::get('/about', 'PageController@about')->name('about');
 Route::get('/partner', 'PageController@partner')->name('partner');
 Route::get('/faq', 'PageController@faq')->name('faq');
