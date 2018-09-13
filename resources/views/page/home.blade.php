@@ -5,32 +5,34 @@
 @section('keywords', 'shop and ship, courier service, shoppre, consolidation company, indian store, ship internationally')
 
 @section('css_style')
-	<!-- Owl Carousel -->
+    <!-- Owl Carousel -->
     <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <meta property="og:title" content="Shop and Ship with ShoppRe | International Courier & Consolidation Services" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India's #1 international courier, shipping and consolidation company." />
-    <meta property="og:url" content="https://www.shoppre.com" />
-    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
-    <meta property="og:site_name" content="Shoppre" />
+    <meta property="og:title" content="Shop and Ship with ShoppRe | International Courier & Consolidation Services"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description"
+          content="Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India's #1 international courier, shipping and consolidation company."/>
+    <meta property="og:url" content="https://www.shoppre.com"/>
+    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
+    <meta property="og:site_name" content="Shoppre"/>
 
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@Go_Shoppre" />
-    <meta name="twitter:title" content="Shop and Ship with ShoppRe | International Courier & Consolidation Services" />
-    <meta name="twitter:description" content="Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India's #1 international courier, shipping and consolidation company." />
-    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@Go_Shoppre"/>
+    <meta name="twitter:title" content="Shop and Ship with ShoppRe | International Courier & Consolidation Services"/>
+    <meta name="twitter:description"
+          content="Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India's #1 international courier, shipping and consolidation company."/>
+    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
 
 
-    <meta name="twitter:app:country" content="IN" />
-    <meta name="twitter:app:name:googleplay" content="Shoppre - International Shipping from India" />
-    <meta name="twitter:app:id:googleplay" content="com.shoppre.play" />
-    <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/" />
+    <meta name="twitter:app:country" content="IN"/>
+    <meta name="twitter:app:name:googleplay" content="Shoppre - International Shipping from India"/>
+    <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
+    <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebPage",
@@ -92,9 +94,13 @@
        }
   }
 
-</script>
 
- <script type="application/ld+json">
+
+
+
+    </script>
+
+    <script type="application/ld+json">
  { "@context": "http://schema.org",
  "@type": "Organization",
  "name": "Shoppre",
@@ -136,9 +142,13 @@
     "https://play.google.com/store/apps/details?id=com.shoppre.play",
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
  ]}
-</script>
 
-<script type='application/ld+json'>
+
+
+
+    </script>
+
+    <script type='application/ld+json'>
 {
   "@context": "http://www.schema.org",
   "@type": "Website",
@@ -160,423 +170,804 @@
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
   ]
 }
- </script>
 
 
-@endsection
-
-<!-- schema markup -->
-@section('schema_markup')
 
 
+    </script>
 
 @endsection
 
 @section('content')
-    <!-- Home Page Contents -->
+    <main class="div-main" role="main">
+        <div class="container">
+            <div class="col-md-6  col-lg-6  col-sm-12 col-xs-12 ">
+                <div class="col-md-12 col-sm-10 col-xs-10  col-lg-12 div-main-row">
+                    <strong>
+                        <h1 class="h1 p-color-white" style="margin-bottom: 39px;">International Shipping
+                            starting at just <span class="p-color-red">*₹399</span>
+                        </h1>
+                    </strong>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12  col-lg-6 div-shop-ship">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                                <center>
+                                    <p class="p-ship-shop-courier"> Shop From ANY <br>
+                                        Indian Store;<br>
+                                        We'll Ship It to <br>
+                                        Your Doorsteps!</p>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <center>
+                                <button type="button" class="btn-shop-ship">SHOP & SHIP</button>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 div-courier">
+                        <div class="div-courier-text">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <center>
+                                        <b><p class="p-ship-shop-courier">Need to send a <br>
+                                                package from India? <br>
+                                                We ship to 220+ <br>
+                                                countries.</p></b>
+                                    </center>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <center>
+                                    <button type="button" href="https://www.shoppre.com/schedule-pickup" target="_blank"
+                                            class="btn-courier">COURIER NOW!
+                                    </button>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-img-pr1"></div>
+                </div>
+                <div class="row">
+                    {{--<div class="col-md-1">--}}
+                    {{--<img class="img-demo" src="{{asset('new_assets/img/svg_image/ic_watch_now.svg')}}">--}}
+                    {{--</div>--}}
+                    {{--<div class="col-md-4">--}}
+                    {{--<a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=3s" target="_blank"--}}
+                    {{--class="p-demo-text"><b>&nbsp;Watch a Demo</b></a>--}}
+                    {{--</div>--}}
+
+                    {{--<div class="div-demo-row">--}}
+                        {{--<div class="col-md-1 col-lg-1">--}}
+                            {{--<img class="img-demo" src="{{asset('new_assets/img/svg_image/ic_watch_now.svg')}}">--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-4">--}}
+                            {{--<a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=3s" target="_blank"--}}
+                               {{--class="p-demo-text"><b>Watch a Demo</b></a>--}}
+                        {{--</div>--}}
+
+
+                        {{--<div class="col-md-1 col-lg-1">--}}
+                            {{--<img class="img-demo" src="{{asset('new_assets/img/svg_image/ic_contact_header.svg')}}">--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-6 col-lg-6">--}}
+                            {{--<a href="tel:+91-80 4094 4077"><p class="p-support-text">&nbsp;&nbsp;Call Now +91--}}
+                                    {{--914-835-7733</p></a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+
+
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12  div-demo-row">
+                        <div class="col-md-5 col-sm-5 col-xs-5">
+                            <img class="img-demo" src="{{asset('new_assets/img/svg_image/ic_watch_now.svg')}}">
+                            <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=3s" target="_blank"
+                               class="p-demo-text"><b>&nbsp;Watch a Demo</b></a>
+                        </div>
+
+                        <div class="col-md-7 col-sm-7 col-xs-7 ">
+                            <img class="img-demo"
+                                 src="{{asset('new_assets/img/svg_image/ic_contact_header.svg')}}"><b><a
+                                    href="tel:+91-80 4094 4077"><p class="p-support-text">&nbsp;Call Now +91
+                                        914-835-7733</p></a></b>
+                        </div>
+                    </div>
+                    <div class="div-piyamani-mobile-img">
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 ">
+                <div class="col-md-12 div-backgroud-img ">
+                    <img class="img-priyamani" src="{{asset('new_assets/img/images/image_header@2x.png')}}">
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <!-- Main container -->
+
     <section>
-     @include('slider.slider-content')
-    </section>
-    {{--<section class="slider">--}}
-        {{--<div class="slide">--}}
-          {{--<img src="img/03.jpg" width="100%">--}}
-          {{--<div class="caption-block">--}}
-            {{--<h2 class="text-orange">Myntra Sale 22-25th June<br>Shipping Starts at &nbsp--}}
-                {{--<i class="fa fa-inr"></i>690--}}
-            {{--</h2>--}}
-              {{--<br>--}}
-            {{--<h4 style="margin-top: -8px !important;">Shop Myntra 50-80% Off & Ship with ShoppRe <br>--}}
-            {{--</h4>--}}
-              {{--<h5 style="margin-top: -8px !important;">--}}
-                  {{--USA | UAE | AUS | Canada | 220+ Countries--}}
-              {{--</h5>--}}
-              {{--<h5 >Shoes, T-Shirts, Dresses, Party Wear, Casual Wear, Tops, Bags, Jeans, Shirts.--}}
-            {{--</h5>--}}
-              {{--<ul style="margin-left: 18px;">--}}
-                  {{--<li>Get your FREE Personal Locker & Indian Shipping Address</li>--}}
-                  {{--<li>Door to Door Pickup and International Delivery.</li>--}}
-
-              {{--</ul>--}}
-            {{--<p></p>--}}
-            {{--<p></p>--}}
-              {{--<br>--}}
-            {{--<a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik" class="btn btn-shoppre popup-youtube">--}}
-              {{--Video <i class="glyphicon glyphicon-play-circle"></i>--}}
-            {{--</a>--}}
-            {{--<a href="{{route('schedulePickup.Index')}}" class="btn btn-shoppre">Schedule a Pickup</a>--}}
-            {{--<br/>--}}
-            {{--<br/>--}}
-             {{--<a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">--}}
-               {{--Get Virtual Address & Start Shopping--}}
-             {{--</a>--}}
-          {{--</div>--}}
-          {{--<div class="bottom">--}}
-            {{--<p>Not all Indian Online Stores offer International Shipping</p>--}}
-          {{--</div>--}}
-        {{--</div>--}}
-    {{--</section>--}}
-
-    <section class="all-about">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-2">
-            <div class="square-box">
-              <h2>All About</h2>
-              <img src="{{asset('img/texture.png')}}">
+        <div class="container">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 60px;">
+                <center>
+                    <h1 class="h1 p-color-cement-dark div-margin">About us </h1>
+                    <p class="h2 p-color-cement">Our trusted partners <span class="p-color-red"><a
+                                href="{{route('dhl.index')}}">DHL</a>,<a
+                                href="{{route('fedex.index')}}">DTDC</a></span> and <span class="p-color-red"><a
+                                href="{{route('dtdc.index')}}">Fedex</a></span> help us <br> sail smoth all the way to
+                        your destination, wherever it is! </p>
+                </center>
             </div>
-          </div>
-          <div class="col-sm-10">
-            <div class="parcel_logs">
-              <h3>Ship your Parcel through Shoppre’s trusted Courier Partners</h3>
-                {{--<a href="{{route('dhl.index')}}"><img src="{{asset('img/dhl.png')}}" alt="DHL ShoppRe Shipping"></a>--}}
-                {{--<a href="{{route('fedex.index')}}"><img src="{{asset('img/fedex.png')}}" alt="FEDEX ShoppRe Shipping"></a>--}}
-                {{--<a href="{{route('dtdc.index')}}"><img src="{{asset('img/dtdc.png')}}" alt="DTDC ShoppRe Shipping"></a>--}}
-                <a class="carrier_font_size" href="{{route('dhl.index')}}">DHL, </a>
-                <a class="carrier_font_size" href="{{route('fedex.index')}}">FEDEX, </a>
-                <a class="carrier_font_size" href="{{route('dtdc.index')}}">DTDC</a>
-              <h4>Shoppre receives and ships over INR 10,00,000 worth in eCommerce purchases monthly!</h4>
-            </div>
-          </div>
-          <div class="clearfix"></div>
-          <ul class="horline">
-            <li>
-              <a href="{{route('stores')}}"><h2>1000+</h2>
-              <h4>Indian Shopping Websites</h4></a>
-            </li>
-            <li>
-              <a href="{{route('countryList')}}">
-              <h2>236+</h2>
-              <h4>Countries Worldwide</h4>
-            </a>
-            </li>
-            <li>
-              <h2>2-5 Days</h2>
-              <h4>Average Delivery Time</h4>
-            </li>
-            <li>
-              <h2>Save 60-80%</h2>
-              <h4>Storage, Consolidation &amp; Repackaging!</h4>
-            </li>
-          </ul>
-          <div class="text-center">
-            <a href="{{route('about')}}" class="btn btn-shoppre">Why You Will Love Us</a>
-          </div>
         </div>
-      </div>
-    </section>
-    <section class="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-6">
-            <div class="service-content">
-              <div class="square-box">
-                <h2>Our</h2>
-                <h2 class="red">Services</h2>
-              </div>
-              <p class="head-text">We are passionate about delivering happiness through every box with the
-                  products you love from India!
-              </p>
-              <ul>
-                <li>
-                  <h3>SHOP AND SHIP</h3>
-                  <h4>Always wanted to get products from India?</h4>
-                  <p>Sign up for free and get your own Indian shipping address. Shop
-                      from any Indian online store. Enjoy our storage facilities,
-                      get your purchases consolidated and delivered at your doorstep abroad.
-                  </p>
-                </li>
-                <li>
-                  <h3>PERSONAL SHOPPER</h3>
-                  <h4>Your International Credit Card isn’t accepted on some portals?</h4>
-                  <p>Simply provide us the product and merchant details;
-                      our Personal Shopper will purchase the items for you and get what you love!
-                  </p>
-                </li>
-                <li>
-                  <h3>SHOPPING GUIDE</h3>
-                  <h4>Don’t know where to shop the product that you need from?</h4>
-                  <p>We are there to help you through our various filters
-                      to select which portal you can shop your favorite product from.
-                  </p>
-                </li>
-              </ul>
-              <div class="clearfix"></div>
-              <div class="text-center">
-                <a href="{{route('services')}}" class="btn btn-shoppre">Learn More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
-    <section class="works">
-      <div class="container">
-        <div class="row">
-          <div class="square-box">
-            <h2>how shoppre</h2>
-            <h2 class="orange">works</h2>
-          </div>
-          <div class="col-md-12">
-            <ul class="works_flow">
-              <li>
-                <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">
-                <h3>Join</h3>
-                <p>Sign up with Shoppre and receive your FREE Personal Locker with a Virtual Indian
-                    Shipping Address.
-                </p>
-                </a>
-              </li>
-              <li>
-                <a href="{{route('stores')}}">
-                <h3>Explore</h3>
-                <p>Find out from which Indian Online store you can get your favorite product.
-                </p>
-                </a>
-              </li>
-              <li>
-                <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/locker">
-                <h3>USE YOUR SHOPPRE ADDRESS</h3>
-                <p>Use your Shoppre Address to shop from ANY Indian Shopping Website.
-                </p>
-              </a>
-              </li>
-              <li>
-                <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">
-                <h3>AVAIL BENEFITS</h3>
-                <p>In case any online store doesn’t accept your International credit card, don’t worry! Our Personal
-                    Shopper will purchase the item for you using our Indian Local Credit Card.</p>
-              </a>
-              </li>
-              <li>
-               <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/locker">
-                <h3>GET NOTIFIED</h3>
-                <p>You can view, manage and track your shipments on your ShoppRe account, 24/7. We will notify you
-                    as soon as your package arrives at ShoppRe facility. You can ship your items at your
-                    convenience in just a click!
-                </p>
-                </a>
-              </li>
-              <li>
-               <a href="{{route('consolidationService')}}">
-                <h3>RECEIVE &amp; ENJOY</h3>
-                <p>Save up to 60-80% by our Consolidation, Repackaging and Storage services. Enjoy the special
-                    discounted rates that we get with our trusted courier partners like DHL, FedEx and more.
-                    Get your items in just 2-5 Days!
-                </p>
-              </a>
-              </li>
-            </ul>
-            <div class="clearfix"></div>
-            <div class="text-center">
-              <a href="{{route('howitworks')}}" class="btn btn-shoppre">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- shoppre benifits -->
+    <section>
+        <div class="container" style="padding-left: 15px; padding-right: 15px;">
+            <div class="div-benifits">
+                <div class="row div-benifits-margin">
+                    <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 ">
+                        <center>
+                            <a href="{{route('stores')}}">
+                                <img class="img-benifits img-responsive"
+                                     src="{{asset('new_assets/img/svg_image/online-shop.svg')}}">
+                                <p class="online-text">&nbsp;1000+</p>
+                                <p class="online-text-words">Shop From Indian <br>Online Stores </p>
+                            </a>
+                        </center>
+                    </div>
+                    <div class="col-md-3 col-md-3 col-lg-3 col-sm-6 col-xs-6">
+                        <center>
+                            <a href="{{route('countryList')}}">
+                                <img class="img-benifits img-responsive"
+                                     src="{{asset('new_assets/img/svg_image/earth-globe.svg')}}">
+                                <p class="online-text">&nbsp;220+</p>
+                                <p class="online-text-words">Ship to Countries <br>Around the World </p>
+                            </a>
+                        </center>
+                    </div>
+                    <div class="col-md-3 col-md-3 col-lg-3 col-sm-6 col-xs-6">
+                        <center>
+                            <img class="img-benifits img-responsive"
+                                 src="{{asset('new_assets/img/svg_image/time-passing.svg')}}">
+                            <p class="online-text">&nbsp;2-5 Days</p>
+                            <p class="online-text-words">Worldwide Average <br> Delivery Time </p>
+                        </center>
+                    </div>
+                    <div class="col-md-3 col-md-3 col-lg-3 col-sm-6 col-xs-6">
+                        <center>
+                            <img class="img-benifits img-responsive"
+                                 src="{{asset('new_assets/img/svg_image/ic_box.svg')}}">
+                            <p class="online-text">Save Up to 80%</p>
+                            <p class="online-text-words">By Storing, Consolidating <br>& Repackging! </p>
+                        </center>
+                    </div>
 
-    <section class="brandslove">
-      <div class="container">
-        <div class="row">
-          <div class="square-box">
-            <h3>Brands</h3>
-            <h2>You <span class="red">Love!</span></h2>
-          </div>
-          <div class="col-md-12">
-            <h2 class="brands-head">Not sure where to shop from?</h2>
-            <div class="brands owl-carousel">
-              <div class="item">
-                <a href="https://www.amazon.in/" target="_blank"><img src="{{asset('img/brands/amazon.png')}}" alt="Amazon India ShoppRe Shipping"></a>
-              </div>
-              <div class="item">
-                <a href="https://www.flipkart.com/" target="_blank"><img src="{{asset('img/brands/flipkart.png')}}" alt="Flipkart India ShoppRe Shipping"></a>
-              </div>
-              <div class="item">
-                <a href="https://www.abof.com/"><img src="{{asset('img/brands/abof.png')}}" alt="Abof India ShoppRe Shipping"></a>
-              </div>
-              <div class="item">
-                <a href="https://www.chumbak.com/" target="_blank"><img src="{{asset('img/brands/chumbak.png')}}" alt="Chumbak India ShoppRe Shipping"></a>
-              </div>
-              <div class="item">
-                <a href="https://www.jabong.com/" target="_blank"><img src="{{asset('img/brands/jabong.png')}}" alt="Jabong India ShoppRe Shipping"></a>
-              </div>
-              <div class="item">
-                <a href="https://www.myntra.com/" target="_blank"><img src="{{asset('img/brands/myntra.png')}}" alt="Myntra India ShoppRe Shipping"></a>
-              </div>
-              <div class="item">
-                <a href="https://www.pepperfry.com/" target="_blank"><img src="{{asset('img/brands/pepperfry.png')}}" alt="PepperFry India ShoppRe Shipping"></a>
-              </div>
-              <div class="item">
-                <a href="https://www.snapdeal.com/" target="_blank"><img src="{{asset('img/brands/snapdeal.png')}}" alt="SnapDeal India ShoppRe Shipping"></a>
-              </div>
-            </div>
-            <div class="text-center">
-              <a href="{{route('stores')}}" class="btn btn-shoppre">Browse Categories</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="pricing">
-      <div class="container">
-        <div class="row">
-            <h1 class="shipping-head">Shipping From India to Worldwide</h1>
-          <div class="col-md-12">
-            <p class="head-text-content">We have heavily optimised our operations to give you the best deal.
-                Our pricing makes us a favourite platform for Indian shoppers worldwide.
-            </p>
-            <div class="pricing-terms">
-              <div class="col-sm-4">
-                <div class="desc_box">
-                  <div class="ico_box"></div>
-                  <h3>NO MEMBERSHIP <span class="orange">PLANS</span></h3>
-                  <p>Pay only as and when you use our services!</p>
                 </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="desc_box">
-                  <div class="ico_box" style="background-position: 1px -73px;"></div>
-                  <h3>SHIPPING RATE <span class="orange">CALCULATOR</span></h3>
-                  <p>Find out how much it would cost you for shipping your favorite product to your home abroad.</p>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="desc_box">
-                  <div class="ico_box" style="background-position: 1px -146px;"></div>
-                  <h3>COUNTRY <span class="orange">GUIDE</span></h3>
-                  <p>Find out helpful information with regards to your country, such as Shipping Costs, Duties
-                      and Taxes, Restricted Items, Current Exchange rates, Country Alerts, etc.
-                  </p>
-                </div>
-              </div>
-              <div class="clearfix"></div>
             </div>
-            <div class="text-center">
-              <a href="{{route('pricing')}}" class="btn btn-shoppre">Learn More</a>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
+    <!-- shoppre benifits -->
 
-    {{--<section class="testimonails">--}}
-      {{--<div class="container">--}}
-        {{--<div class="row">--}}
-          {{--<div class="col-sm-4">--}}
-            {{--<div class="square-box">--}}
-              {{--<h3>What Our</h3>--}}
-              {{--<h2>Members <span class="orange">Say!</span></h2>--}}
-            {{--</div>--}}
-          {{--</div>--}}
-          {{--<div class="col-sm-8">--}}
-            {{--<div class="testimons owl-carousel">--}}
-              {{--@foreach($reviews as $review)--}}
-              {{--<div class="item">--}}
-                {{--<div class="col-sm-3 text-center">--}}
-                  {{--<img src="{{asset('img/flags')}}/{{$review->country->flag}}" class="img-circle">--}}
-                {{--</div>--}}
-                {{--<div class="col-sm-9">--}}
-                  {{--<p>{{$review->review}}</p>--}}
-                  {{--<span class="name">{{$review->person}}</span>--}}
-                  {{--<span>{{$review->country->name}}</span>--}}
-                  {{--<span>{{$review->source}}</span>--}}
-                {{--</div>--}}
-                {{--<div class="clearfix"></div>--}}
-              {{--</div>--}}
-              {{--@endforeach--}}
-            {{--</div>--}}
-            {{--<div class="text-center">--}}
-              {{--<a href="{{route('reviews')}}" class="btn orange">View All Shoppre Reviews</a>--}}
-            {{--</div>--}}
-          {{--</div>--}}
-        {{--</div>--}}
-      {{--</div>--}}
-    {{--</section>--}}
+    <!-- Need in future -->
 
-    <section class="signup_free">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-          <h3>
-              So what are you waiting for? Shopp
-              <span class="red">re</span>! Open your big box of happiness today!
-          </h3>
-          {{--<p>All you need is a membership to get your Indian Shipping Address immediately!</p>--}}
-          <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">sign up for free</a>
-          </div>
-        </div>
-      </div>
-      {{--<hr>--}}
-      {{--<div class="container">--}}
-      {{--<div class="mdl-grid mdl-grid--no-spacing">--}}
-        {{--<h4 class="mdl-cell mdl-cell--12-col footer__popularDestiHeading">Ship your Package From Various Places In India</h4>--}}
-        {{--<div class="mdl-cell mdl-cell--12-col">--}}
-            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'india','destination'=>'usa'])}}"--}}
-              {{--class="footer__destiLinks text_font">Ship from India / </a>--}}
-            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'bengaluru','destination'=>'usa'])}}"--}}
-              {{--class="footer__destiLinks text_font">Ship from Bengaluru / </a>--}}
-            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'delhi','destination'=>'usa'])}}"--}}
-              {{--class="footer__destiLinks text_font">Ship from Delhi / </a>--}}
-            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'jaipur','destination'=>'usa'])}}"--}}
-              {{--class="footer__destiLinks text_font">Ship from Jaipur / </a>--}}
-            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'mumbai','destination'=>'usa'])}}"--}}
-              {{--class="footer__destiLinks text_font">Ship from Mumbai / </a>--}}
-            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'hyderabad','destination'=>'usa'])}}"--}}
-              {{--class="footer__destiLinks text_font">Ship from Hyderabad / </a>--}}
-            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'chennai','destination'=>'usa'])}}"--}}
-              {{--class="footer__destiLinks text_font">Ship from Chennai / </a>--}}
-            {{--<a href="{{route('urlTargetShipping',['initial'=>'shipping','source'=>'kochi','destination'=>'usa'])}}"--}}
-              {{--class="footer__destiLinks text_font">Ship from Kochi</a>--}}
-        {{--</div>--}}
-      {{--</div>--}}
+    {{--<section class="div-price-cal">--}}
+    {{--<div class="container">--}}
+    {{--<div class="container">--}}
+    {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">--}}
+    {{--<center>--}}
+    {{--<p class="h1 p-color-white" style="margin-top:64px;">Price Calculator  </p>--}}
+    {{--<p class="h2 p-color-white">Calculate & get estimate your shipping cost, we're upfont  about it! </p>--}}
+    {{--</center>--}}
     {{--</div>--}}
-     <hr>
-     <div class="container">
-      <div class="mdl-grid mdl-grid--no-spacing">
-        <h4 class="mdl-cell mdl-cell--12-col footer__popularDestiHeading"> Schedule Your Pickup From
-            Various Places In India
-        </h4>
-        <div class="mdl-cell mdl-cell--12-col">
-            <a href="{{route('schedulePickup.Index')}}"
-              class="footer__destiLinks text_font">Schedule pickup from Bangalore / </a>
-            <a href="{{route('schedulePickup.Index')}}"
-              class="footer__destiLinks text_font">Schedule pickup from Delhi / </a>
-            <a href="{{route('schedulePickup.Index')}}"
-              class="footer__destiLinks text_font">Schedule pickup from Jaipur / </a>
-            <a href="{{route('schedulePickup.Index')}}"
-              class="footer__destiLinks text_font">Schedule pickup from Mumbai / </a>
-            <a href="{{route('schedulePickup.Index')}}"
-              class="footer__destiLinks text_font">Schedule pickup from Hyderabad / </a>
-            <a href="{{route('schedulePickup.Index')}}"
-              class="footer__destiLinks text_font">Schedule pickup from Chennai / </a>
-            <a href="{{route('schedulePickup.Index')}}"
-              class="footer__destiLinks text_font">Schedule pickup from Kochi</a>
+    {{--</div>--}}
+    {{--<div class="container div-cal-white-background">--}}
+    {{--<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-cal-margin-top">--}}
+    {{--<div class="col-md-2 col-md-offset-1 col-lg-2  col-lg-offset-1 col-xs-6  col-xs-offset-2 col-sm-6 col-sm-offset-2">--}}
+    {{--<img class="img-international img-responsive" src="{{asset('new_assets/img/svg_image/ic_price_international.svg')}}">--}}
+    {{--</div>--}}
+    {{--<div class="col-md-9 col-lg-9 col-xs-6 col-sm-6">--}}
+    {{--<p class="p-int-text">Ineternational Shipping </p>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-cal-margin-top">--}}
+    {{--<div class="col-md-2 col-md-offset-1 col-lg-2  col-lg-offset-1 col-xs-6  col-xs-offset-1 col-sm-6 col-sm-offset-1">--}}
+    {{--<img class="img-international img-responsive" src="{{asset('new_assets/img/svg_image/ic_price_dometic.svg')}}">--}}
+    {{--</div>--}}
+    {{--<div class="col-md-9 col-lg-9 col-xs-6 col-sm-6">--}}
+    {{--<p class="domestic-img-text">Domestic Shipping </p>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1  col-sm-6 col-xs-6 div-border-int "></div>--}}
+    {{--<div class="col-lg-5  col-md-5  col-sm-6 col-xs-6 div-border-dom "></div>--}}
+
+    {{--<div class=" row div-cal-country" >--}}
+    {{--<div class="col-md-3  col-lg-3  col-sm-12 col-xs-12 col-lg-3">--}}
+    {{--<div class="col-md-8 col-md-offset-4 col-lg-8 col-lg-offset-4 col-xs-12  col-sm-12">--}}
+    {{--<div class="row">--}}
+    {{--<label class="lable-from" >From</label>--}}
+    {{--</div>--}}
+    {{--<div class="row">--}}
+    {{--<input class="select-from  option-text-from" type="text" name="fname" value="  India" disabled>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+
+    {{--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 col-sm-12 col-xs-12" id="destination" >--}}
+    {{--<div class="col-md-11 col-lg-11 col-xs-12 col-sm-12">--}}
+    {{--<div class="row">--}}
+    {{--<label class="lable-from" >Destination (Country)</label>--}}
+    {{--</div>--}}
+    {{--<div class="row">--}}
+    {{--<input class="select-destination option-text-dest" type="text" name="fname" placeholder="  eg. USA, UK, Australia...">--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--<div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-12 col-xs-12">--}}
+    {{--<button class="btn-estimate" id="estimate">Get An Estimate</button>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--<div class="container">--}}
+
+    {{--</div>--}}
+
+    {{--<div class="container div-container-margin">--}}
+    {{--<div class="col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2 col-xs-12  col-sm-12 div-offer">--}}
+    {{--<div class="offer-margin">--}}
+    {{--<div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-4 col-xs-4">--}}
+    {{--<img class="img-offer img-responsive" src="{{asset('new_assets/img/svg_image/ic_offer_red.svg')}}">--}}
+    {{--</div>--}}
+    {{--<div class="col-md-7">--}}
+    {{--<p class="running-text">running</p>--}}
+    {{--<p class="offer-text">Offers</p>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+
+    {{--<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 div-carosal">--}}
+    {{--<div id="carousel">--}}
+    {{--<div id="slides">--}}
+    {{--<ul>--}}
+    {{--<li class="slide">--}}
+    {{--<p class="h3 p-color-white p-slider ">RAKSHA BANDHAN Special</p>--}}
+    {{--<p>--}}
+    {{--<span class="h2 p-color-white p-slider">Send a Rakhi abroad at Rs.349/- only!</span>--}}
+    {{--</p>--}}
+
+    {{--</li>--}}
+    {{--<li class="slide">--}}
+    {{--<p class="h3 p-color-white p-slider">OVNAM Special</p>--}}
+    {{--<p>--}}
+    {{--<span class="h2 p-color-white p-slider">Send a Rakhi abroad at Rs.349/- only!</span>--}}
+    {{--</p>--}}
+    {{--</li>--}}
+    {{--</ul>--}}
+    {{--</div>--}}
+    {{--<div class="btn-bar">--}}
+    {{--<div id="buttons">--}}
+    {{--<a  id="prev" href="javascript:void(0)"> < </a>--}}
+    {{--<a  id="next" href="javascript:void(0)"> > </a>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+
+    {{--</div>--}}
+
+    {{--</section>--}}
+
+
+    <!-- Our Services -->
+
+    <section>
+        <div class="container ">
+            <div class="div-margin">
+                <center>
+                    <h1 class="h1 p-color-cement-dark">Our Services</h1>
+                    <p class="h2 p-color-cement">Ever wonder how do we make it all happen? Trust us, We <br>
+                        strategize around your needs!</p>
+                </center>
+            </div>
+            <div class="container">
+                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                    <center>
+                        <img class="img-shop-ship img-responsive"
+                             src="{{asset('new_assets/img/svg_image/ic_service_shopandship.svg')}}">
+                        <div class="ship-right-border">
+                            <p class="h2 p-color-red ">Shop & Ship</p>
+                            <p class="h5 p-color-cement">Sign up for FREE and get your own local, virtual
+                                shipping address; <br> shop around on Indian online stores; store your purchases in <br>
+                                your PERSONAL LOCKER & conslidate; we'll repackage & ship <br> them to your doorsteps
+                            </p>
+                            <div class=" btn-our-shop-ship">
+                                <center>
+                                    <a class="h5 p-color-white " href="{{route('shopFromIndia')}}">Learn More</a>
+                                </center>
+                            </div>
+                        </div>
+
+                    </center>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                    <center>
+                        <img class="img-shop-ship img-responsive"
+                             src="{{asset('new_assets/img/svg_image/ic_service_truck.svg')}}">
+                        <p class="h2 p-courier-h">Courier Service
+                        <p class="h5 p-color-cement p-line-height">Schedule a Pickup, we'll come to you in 24 hours &
+                            <br> get your package delivered to the destination in 2-5 <br>
+                            business days!</p>
+
+                        <div class=" btn-our-courier">
+                            <center>
+                                <a class="h5" href="{{route('shopFromIndia')}}">Learn More</a>
+                            </center>
+                        </div>
+
+                    </center>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+    </section>
+
+    <!-- Start whatcanYouship section -->
+    <section>
+        <div class="container-fluid">
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-margin">
+                <center>
+                    <p class="h1 p-color-cement-dark">Take a Walk Around Your Favorite Stores</p>
+                    <p class="h2 p-color-cement ">Browse through popular stores, take your pick, shop & get it delivered
+                        to your virtual <br>address; we'll ship it to your destination abroad!</p>
+                </center>
+            </div>
+        </div>
+
+
+        <div class="container-fluid div-margin" style="margin-bottom: 60px;margin-left: 35px;">
+            <center>
+                <div class="row">
+                    {{--@php--}}
+                    {{--$stores = array("flipkart","amazon","ajio","jabong","jabong","homeshop","snapdeal")--}}
+                    {{--@endphp--}}
+
+                    <a href="https://www.flipkart.com/" target="_blank">
+                        <div class="col-md-2 col-lg-2 col-xs-3 col-sm-3  div-stores-img">
+                            <img class="img-responsive img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_flipkart.png')}}">
+                        </div>
+                    </a>
+                    <a href="https://www.amazon.in/" target="_blank">
+                        <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_amazon.png')}}">
+                        </div>
+                    </a>
+                    <a href="https://www.ajio.com/" target="_blank">
+                        <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_ajio.png')}}">
+                        </div>
+                    </a>
+                    <a href="https://www.jabong.com/" target="_blank">
+                        <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_jabong.png')}}">
+                        </div>
+                    </a>
+                    <a href="https://www.homeshop18.com/" target="_blank">
+                        <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_homeshop.png')}}">
+                        </div>
+                    </a>
+                    <a href="https://www.snapdeal.com/" target="_blank">
+                        <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_snapdeal.png')}}">
+                        </div>
+                    </a>
+                    <a href="https://www.myntra.com/">
+                        <div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_myntra.png')}}">
+                        </div>
+                    </a>
+                    <a href="https://www.snapdeal.com/">
+                        <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_snapdeal.png')}}">
+                        </div>
+                    </a>
+
+
+                    <a href="https://www.amazon.in/" target="_blank">
+                        <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_amazon.png')}}">
+                        </div>
+                    </a>
+                    <a href="https://www.ajio.com/" target="_blank">
+                        <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_ajio.png')}}">
+                        </div>
+                    </a>
+                    <a href="https://www.jabong.com/" target="_blank">
+                        <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_jabong.png')}}">
+                        </div>
+                    </a>
+                    <a href="https://www.homeshop18.com/" target="_blank">
+                        <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_homeshop.png')}}">
+                        </div>
+                    </a>
+                    <a href="https://www.snapdeal.com/" target="_blank">
+                        <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_snapdeal.png')}}">
+                        </div>
+                    </a>
+                    <a href="https://www.myntra.com/">
+                        <div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_myntra.png')}}">
+                        </div>
+                    </a>
+                    <a href="https://www.snapdeal.com/">
+                        <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_snapdeal.png')}}">
+                        </div>
+                    </a>
+                    <a href="https://www.snapdeal.com/">
+                        <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('new_assets/img/stores/store_snapdeal.png')}}">
+                        </div>
+                    </a>
+
+                </div>
+
+                {{--<div class="row">--}}
+                {{--<a href="https://www.myntra.com/">--}}
+                {{--<div class="col-md-1 col-lg-1 col-xs-3 col-sm-3 div-stores-img">--}}
+                {{--<img class="img-responsive img-stores"--}}
+                {{--src="{{asset('new_assets/img/stores/store_myntra.png')}}">--}}
+                {{--</div>--}}
+                {{--</a>--}}
+                {{--<a href="https://www.shopclues.com/">--}}
+                {{--<div class="col-md-1 col-lg-1  col-xs-3 col-sm-3  div-stores-img">--}}
+                {{--<img class="img-responsive img-stores"--}}
+                {{--src="{{asset('new_assets/img/stores/store_shopclues.png')}}">--}}
+                {{--</div>--}}
+                {{--</a>--}}
+                {{--<a href="https://www.snapdeal.com/">--}}
+                {{--<div class="col-md-1 col-lg-1  col-xs-3 col-sm-3 div-stores-img">--}}
+                {{--<img class="img-responsive img-stores"--}}
+                {{--src="{{asset('new_assets/img/stores/store_snapdeal.png')}}">--}}
+                {{--</div>--}}
+                {{--</a>--}}
+                {{--<a href="https://www.myntra.com/">--}}
+                {{--<div class="col-md-1  col-lg-1  col-xs-3 col-sm-3   div-stores-img">--}}
+                {{--<img class="img-responsive img-stores"--}}
+                {{--src="{{asset('new_assets/img/stores/store_flipkart@2x.png')}}">--}}
+                {{--</div>--}}
+                {{--</a>--}}
+                {{--<a href="https://www.flipkart.com/">--}}
+                {{--<div class="col-md-1  col-lg-1 col-xs-3 col-sm-3   div-stores-img">--}}
+                {{--<img class="img-stores" src="{{asset('new_assets/img/stores/store_amazon@2x.png')}}">--}}
+                {{--</div>--}}
+                {{--</a>--}}
+                {{--<a href="https://www.ajio.com/">--}}
+                {{--<div class="col-md-1 col-lg-1 col-xs-3 col-sm-3  div-stores-img">--}}
+                {{--<img class="img-responsive img-stores"--}}
+                {{--src="{{asset('new_assets/img/stores/store_ajio.png')}}">--}}
+                {{--</div>--}}
+                {{--</a>--}}
+                {{--<a href="https://www.snapdeal.com/" target="_blank">--}}
+                {{--<div class="col-md-1 col-lg-1 col-xs-2 col-sm-2 div-stores-img">--}}
+                {{--<img class="img-responsive img-stores"--}}
+                {{--src="{{asset('new_assets/img/stores/store_snapdeal.png')}}">--}}
+                {{--</div>--}}
+                {{--</a>--}}
+                {{--<a href="https://www.homeshop18.com/" target="_blank">--}}
+                {{--<div class="col-md-1  col-lg-1  col-xs-3 col-sm-3  div-stores-img">--}}
+                {{--<img class="img-responsive img-stores"--}}
+                {{--src="{{asset('new_assets/img/stores/store_homeshop.png')}}">--}}
+                {{--</div>--}}
+                {{--</a>--}}
+                {{--</div>--}}
+            </center>
+            <div class="div-find-more-stores">
+
+                <center>
+                    <h5 class="h5 p-color-cement p-store-margin">Browse Through <br> & Shop From</h5>
+                    <h2 class="h2 p-color-red">Top Stores</h2>
+                    <a href="#">
+                        <div class="arrow arrow--right"></div>
+                        <hr style="width: 93px;height: 0;border: 2px solid tomato;margin-top: -18px;">
+                    </a>
+                </center>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Start whatcanYouship section end-->
+    <section class="div-fluid">
+        <div class="container">
+            <center>
+                <p class="h1 p-color-white p-h-margin-customer">What Our Customers Think About Us</p>
+                <p class="h2 p-wondring">Wondring what our fellow customers are raving aobut? Read some real</p>
+            </center>
+            <div class="col-md-12 col-lg-12 div-review">
+                <div class="col-md-12" style="margin-top: 40px ;padding-top: 10px;">
+                    {{--<div class="row">--}}
+                    <div class="col-md-2  div-inner-review">
+                        <div class="row div-img-row">
+                            <img class=" img-review img-circle" src="{{asset('new_assets/img/images/23.jpg')}}">
+                            <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Aswathy Revi</p>
+                            <input class="rating rated" value="5">
+                        </div>
+                        <div class="row">
+                            <i class="quots-t ">
+                                <img src="{{asset('new_assets/img/svg_image/qoute_up.svg')}}">
+                            </i>
+                        </div>
+                        <div class="row ">
+                            <p class=" p-reviews">Shoppre did a fantastic job in delivering a gift to my husband
+                                who is working in Doha, Qatar.
+                                Even though i was very skeptical about their service in the beginning, I'm so
+                                glad that they proved me wrong!!
+                                Thank you shoppre for your hassle free service!</p>
+                        </div>
+                        <div class="row">
+                                      <span class="quots-b">
+                                        <img src="{{asset('new_assets/img/svg_image/qoute_down.svg')}}">
+                                      </span>
+                        </div>
+                    </div>
+                    <div class="col-md-2 div-inner-review">
+                        <div class="row div-img-row">
+                            <img class=" img-review img-circle" src="{{asset('new_assets/img/images/9.jpg')}}">
+                            <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Sudeep Sagar</p>
+                            <input class="rating rated" value="5">
+                        </div>
+                        <div class="row">
+                            <i class="quots-t ">
+                                <img src="{{asset('new_assets/img/svg_image/qoute_up.svg')}}">
+                            </i>
+                        </div>
+                        <div class="row">
+                            <p class="p-reviews">Amazing and very fast service. They told me it would reach
+                                within 5 working days but it actually
+                                reached with in 3 working days. I'm very much satisfied with shoppre
+                                service.</p>
+                        </div>
+                        <div class="row">
+                                      <span class="quots-b">
+                                        <img src="{{asset('new_assets/img/svg_image/qoute_down.svg')}}">
+                                      </span>
+                        </div>
+                    </div>
+                    <div class="col-md-2 div-inner-review">
+                        <div class="row div-img-row">
+                            <img class=" img-review img-circle" src="{{asset('new_assets/img/images/6.jpg')}}">
+                            <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Anirudh Lal</p>
+                            <input class="rating rated" value="5">
+                        </div>
+                        <div class="row">
+                            <i class="quots-t ">
+                                <img src="{{asset('new_assets/img/svg_image/qoute_up.svg')}}">
+                            </i>
+                        </div>
+                        <div class="row">
+                            <p class="p-reviews">Shoppre did a fantastic job in delivering a gift to my husband
+                                who is working in Doha, Qatar.
+                                Even though i was very skeptical about their service in the beginning, I'm so
+                                glad that they proved me wrong!!
+                                Thank you shoppre for your hassle free service!</p>
+                        </div>
+                        <div class="row">
+                                  <span class="quots-b">
+                                    <img src="{{asset('new_assets/img/svg_image/qoute_down.svg')}}">
+                                  </span>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-md-offset-1  div-inner-review">
+                        <center>
+                            <div class="row div-img-row">
+                                <img class="img-google-logo "
+                                     src="{{asset('new_assets/img/svg_image/ic_google.svg')}}">
+                                <p class="p-google-review">Reviews</p>
+                            </div>
+                            <div class="row">
+                                <img src="{{asset('new_assets/img/images/rating_google.png')}}">
+                            </div>
+                            <div class="row-between-reviews"></div>
+                            <div class="row">
+                                <img class="img-facebook-logo"
+                                     src="{{asset('new_assets/img/images/Facebook_Logo@2x.png')}}">
+                                <p class="p-facebook-review">Reviews</p>
+                            </div>
+                            <div class="row">
+                                <img class="img-facebook-r"
+                                     src="{{asset('new_assets/img/images/rating_facebook.png')}}">
+                            </div>
+                        </center>
+
+                    </div>
+                    {{--</div>--}}
+
+                    <div class="row" style="margin-bottom: 16px;">
+                        <div class="col-md-12 ">
+                            <!-- <a href="javascript:void(0)"><span class="read-more-review"> Read more reviews </span></a> -->
+                            <a href="javascript:void(0)"><span class="h4 p-color-red"> Read more reviews </span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            {{--<div class="container">--}}
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="margin-top:50px;">
+                <p class="h2" style="color: #929ca5;"> Our Recent Deliveries (live) </p>
+            </div>
+            {{--</div>--}}
+
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-card-holder">
+                <div class="col-md-1 col-lg-1 card col-xs-10 col-sm-10">
+                    <div class="div-recent-inner">
+                        <div class="row">
+                            <img class="img-card" src="{{asset('new_assets/img/images/9.jpg')}}">
+                            <img class="img-card-status" src="{{asset('new_assets/img/svg_image/ic_delivered.svg')}}">
+                        </div>
+
+                        <div class="row">
+                            <p class="p-destination">United States</p>
+                        </div>
+                        <div class="row">
+                            <p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-1 col-lg-1 card card-margin col-xs-10 col-sm-10">
+                    <div class="div-recent-inner">
+                        <div class="row">
+                            <img class="img-card" src="{{asset('new_assets/img/images/9.jpg')}}">
+                            <img class="img-card-status" src="{{asset('new_assets/img/svg_image/ic_delivered.svg')}}">
+                        </div>
+
+                        <div class="row">
+                            <p class="p-destination">United States</p>
+                        </div>
+                        <div class="row">
+                            <p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-1 col-lg-1  card card-margin col-xs-10 col-sm-10">
+                    <div class="div-recent-inner">
+                        <div class="row">
+                            <img class="img-card" src="{{asset('new_assets/img/images/9.jpg')}}">
+                            <img class="img-card-status" src="{{asset('new_assets/img/svg_image/ic_delivered.svg')}}">
+                        </div>
+
+                        <div class="row">
+                            <p class="p-destination">United States</p>
+                        </div>
+                        <div class="row">
+                            <p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-1  col-lg-1 card card-margin col-xs-10 col-sm-10">
+                    <div class="div-recent-inner">
+                        <div class="row">
+                            <img class="img-card" src="{{asset('new_assets/img/images/9.jpg')}}">
+                            <img class="img-card-status" src="{{asset('new_assets/img/svg_image/ic_delivered.svg')}}">
+                        </div>
+
+                        <div class="row">
+                            <p class="p-destination">United States</p>
+                        </div>
+                        <div class="row">
+                            <p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-1  col-lg-1  card card-margin col-xs-10 col-sm-10">
+                    <div class="div-recent-inner">
+                        <div class="row">
+                            <img class="img-card" src="{{asset('new_assets/img/images/9.jpg')}}">
+                            <img class="img-card-status" src="{{asset('new_assets/img/svg_image/ic_delivered.svg')}}">
+                        </div>
+
+                        <div class="row">
+                            <p class="p-destination">United States</p>
+                        </div>
+                        <div class="row">
+                            <p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" style="margin-top: 60px;">
+            <center>
+                <p class="h1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
+                <p class="h2 p-doorstep-des">You've got no reason to wait around any longer, just come shopp Re!</p>
+                <button class="btn-login-doorstep h3 p-color-white">Sign Up for FREE</button>
+            </center>
+
+            <div class="col-md-12 col-lg-12">
+                <center>
+                    <p class="p-payment-method">Payment Methods We Accept</p>
+                </center>
+            </div>
+            <div class="col-md-12 col-lg-12">
+                <div class="col-md-6">
+                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border ">
+                        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
+                            <img class="img-card-transfer" src="{{asset('new_assets/img/svg_image/credit-card.svg')}}">
+                        </div>
+                        <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12">
+                            <p class="p-payment-text">Credit/Debit Cards</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border">
+                        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
+                            <img class="img-card-transfer"
+                                 src="{{asset('new_assets/img/svg_image/ic_payment_bank.svg')}}">
+                        </div>
+                        <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12">
+                            <p class="p-payment-text">Wire Transfer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border">
+                        <center>
+                            <img class="img-paytm" src="{{asset('new_assets/img/svg_image/ic_payment_paypal.svg')}}">
+                        </center>
+
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6">
+                        <center>
+                            <img class="img-paytm" src="{{asset('new_assets/img/svg_image/ic_payment_paytm.svg')}}">
+                        </center>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 @endsection
 
-@section('js_script')
-	<!-- Owl Carousel -->
-    <script src="{{asset('js/owl.carousel.min.js')}}"></script>
-    <!-- Home -->
-    <script src="{{asset('js/home.js')}}"></script>
-    <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-          disableOn: 700,
-          type: 'iframe',
-          mainClass: 'mfp-fade',
-          removalDelay: 160,
-          preloader: false,
 
-          fixedContentPos: false
-        });
-      });
-    </script>
-@endsection

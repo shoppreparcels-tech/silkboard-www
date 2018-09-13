@@ -6,13 +6,11 @@ use App\CampaignStatistics;
 use App\City;
 use App\Mail\EmailChat;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
 
 use Auth;
 use App\Country;
 use App\ShippingRate;
-use App\Store;
 use App\StoreCategory;
 use App\StoreCatClub;
 use App\FaqCategory;
@@ -28,6 +26,10 @@ use App\Mail\GetQuote;
 class PageController extends Controller
 {
 
+    public function icsIndex()
+    {
+        return view('page.ics');
+    }
 
     public function saveFlyerUser(Request $request)
     {
