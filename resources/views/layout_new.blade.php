@@ -30,7 +30,7 @@
 
     @yield('css_style')
 
-    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    {{--<link href="{{asset('css/style.css')}}" rel="stylesheet">--}}
     <link rel="publisher" href="https://plus.google.com/101070316798366909776/">
     <meta name="google-play-app" content="app-id=com.shoppre.play"/>
     <meta property="fb:app_id" content="1819630241632764"/>
@@ -116,10 +116,6 @@
 </script>
 @include('partials._header')
 <div class="container">
-    <!-- Trigger the modal with a button -->
-{{--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>--}}
-
-<!-- Modal -->
     <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <!-- Modal content-->
@@ -166,7 +162,7 @@
                                 </div>
                                 <button type="submit" class="btn btn-block btn-shoppre">Sign in to your account</button>
                             </form>
-                            {{--<span class="login-bttm"><a href="https://myaccount.shoppre.com/forgot-password">Forgot my password. Please remind me.</a></span>--}}
+                            <span class="login-bttm"><a href="https://myaccount.shoppre.com/forgot-password">Forgot my password. Please remind me.</a></span>
                             <span class="login-bttm"><a href="javascript:void(0)"
                                                         id="btn_signup_popup">Not a member? Register</a></span>
                         </div>

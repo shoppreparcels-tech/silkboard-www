@@ -4655,7 +4655,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     width: 22px;
     height: 2px;
     border-radius: 1px
-    margin-top:15px !important; 
+    margin-top:15px !important;
 }
 
 .navbar-toggle .icon-bar + .icon-bar {
@@ -6779,10 +6779,10 @@ button.close {
     font-size: 20px;
     color: #fff;
     text-align: center;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-    background-color: rgba(0, 0, 0, 0);
+    /*text-shadow: 0 1px 2px rgba(0, 0, 0, .6);*/
+    /*background-color: rgba(0, 0, 0, 0);*/
     filter: alpha(opacity=50);
-    opacity: .5
+    opacity: -0.5
 }
 
 .carousel-control.left {
@@ -6806,11 +6806,16 @@ button.close {
 }
 
 .carousel-control:focus, .carousel-control:hover {
-    color: #fff;
-    text-decoration: none;
-    filter: alpha(opacity=90);
-    outline: 0;
-    opacity: .9
+    /*color: #fff;*/
+    /*text-decoration: none;*/
+    /*filter: alpha(opacity=90);*/
+    /*outline: 0;*/
+    /*opacity: .9*/
+    box-shadow: 0 0 60px rgba(17, 39, 59, 0.1);
+
+    border-radius: 15px;
+    border: 1px solid rgba(146, 156, 165, 0.2);
+    background-color: #ffffff;
 }
 
 .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {

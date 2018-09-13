@@ -29,11 +29,6 @@ class PageController extends Controller
 {
 
 
-    public function icsIndex()
-    {
-        return view('page.ics');
-    }
-
     public function saveFlyerUser(Request $request)
     {
         $emp_id = 616;
@@ -316,6 +311,18 @@ class PageController extends Controller
     }
 
     public function home()
+    {
+        $reviews = Review::orderBy('updated_at', 'desc')
+            ->where('approve', '1')
+            ->limit(5)
+            ->get();
+
+        return view('page.home')->with([
+            'reviews' => $reviews
+        ]);
+    }
+
+    public function home_new()
     {
         $reviews = Review::orderBy('updated_at', 'desc')
             ->where('approve', '1')

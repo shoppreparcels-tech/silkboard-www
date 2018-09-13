@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 686.258 387.802">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        filter: url(#image_background);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc857"/>
+      <stop offset="1" stop-color="#ff878b"/>
+    </linearGradient>
+    <filter id="image_background" x="0" y="0" width="686.258" height="387.802" filterUnits="userSpaceOnUse">
+      <feOffset dx="-50" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#ff878b" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="image_background-2" data-name="image_background" class="cls-1" d="M-23.3,114.383C6.261,78.571,33.293,73.338,111.28,34.983s119.464-91.847,191.1-110.352c115.351-29.8,144.557,13.186,170.721,61.136s101.557,99.555,108.16,169.551S473.1,302.6,473.1,302.6H-9.573S-101.284,208.875-23.3,114.383Z" transform="translate(104.72 85.2)"/>
+  </g>
+</svg>
