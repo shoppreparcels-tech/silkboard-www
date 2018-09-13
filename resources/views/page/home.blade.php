@@ -8,7 +8,7 @@
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
 
     <meta property="og:title" content="Shop and Ship with ShoppRe | International Courier & Consolidation Services"/>
     <meta property="og:type" content="website"/>
@@ -233,46 +233,22 @@
                     <div class="div-img-pr1"></div>
                 </div>
                 <div class="row">
-                    {{--<div class="col-md-1">--}}
-                    {{--<img class="img-demo" src="{{asset('new_assets/img/svg_image/ic_watch_now.svg')}}">--}}
-                    {{--</div>--}}
-                    {{--<div class="col-md-4">--}}
-                    {{--<a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=3s" target="_blank"--}}
-                    {{--class="p-demo-text"><b>&nbsp;Watch a Demo</b></a>--}}
-                    {{--</div>--}}
-
-                    {{--<div class="div-demo-row">--}}
-                        {{--<div class="col-md-1 col-lg-1">--}}
-                            {{--<img class="img-demo" src="{{asset('new_assets/img/svg_image/ic_watch_now.svg')}}">--}}
-                        {{--</div>--}}
-                        {{--<div class="col-md-4">--}}
-                            {{--<a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=3s" target="_blank"--}}
-                               {{--class="p-demo-text"><b>Watch a Demo</b></a>--}}
-                        {{--</div>--}}
-
-
-                        {{--<div class="col-md-1 col-lg-1">--}}
-                            {{--<img class="img-demo" src="{{asset('new_assets/img/svg_image/ic_contact_header.svg')}}">--}}
-                        {{--</div>--}}
-                        {{--<div class="col-md-6 col-lg-6">--}}
-                            {{--<a href="tel:+91-80 4094 4077"><p class="p-support-text">&nbsp;&nbsp;Call Now +91--}}
-                                    {{--914-835-7733</p></a>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-
-
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12  div-demo-row">
                         <div class="col-md-5 col-sm-5 col-xs-5">
-                            <img class="img-demo" src="{{asset('new_assets/img/svg_image/ic_watch_now.svg')}}">
+                            <img class="img-demo" src="{{asset('img/svg_image/ic_watch_now.svg')}}">
                             <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=3s" target="_blank"
                                class="p-demo-text"><b>&nbsp;Watch a Demo</b></a>
                         </div>
-
                         <div class="col-md-7 col-sm-7 col-xs-7 ">
                             <img class="img-demo"
-                                 src="{{asset('new_assets/img/svg_image/ic_contact_header.svg')}}"><b><a
-                                    href="tel:+91-80 4094 4077"><p class="p-support-text">&nbsp;Call Now +91
-                                        914-835-7733</p></a></b>
+                                 src="{{asset('img/svg_image/ic_contact_header.svg')}}">
+                            <b>
+                                <a href="tel:+91-80 4094 4077">
+                                    <p class="p-support-text">
+                                        &nbsp;Call Now +91 914-835-7733
+                                    </p>
+                                </a>
+                            </b>
                         </div>
                     </div>
                     <div class="div-piyamani-mobile-img">
@@ -284,7 +260,7 @@
 
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 ">
                 <div class="col-md-12 div-backgroud-img ">
-                    <img class="img-priyamani" src="{{asset('new_assets/img/images/image_header@2x.png')}}">
+                    <img class="img-priyamani" src="{{asset('img/images/image_header@2x.png')}}">
                 </div>
             </div>
 
@@ -307,7 +283,6 @@
             </div>
         </div>
     </section>
-
     <!-- shoppre benifits -->
     <section>
         <div class="container" style="padding-left: 15px; padding-right: 15px;">
@@ -317,7 +292,7 @@
                         <center>
                             <a href="{{route('stores')}}">
                                 <img class="img-benifits img-responsive"
-                                     src="{{asset('new_assets/img/svg_image/online-shop.svg')}}">
+                                     src="{{asset('img/svg_image/online-shop.svg')}}">
                                 <p class="online-text">&nbsp;1000+</p>
                                 <p class="online-text-words">Shop From Indian <br>Online Stores </p>
                             </a>
@@ -327,7 +302,7 @@
                         <center>
                             <a href="{{route('countryList')}}">
                                 <img class="img-benifits img-responsive"
-                                     src="{{asset('new_assets/img/svg_image/earth-globe.svg')}}">
+                                     src="{{asset('img/svg_image/earth-globe.svg')}}">
                                 <p class="online-text">&nbsp;220+</p>
                                 <p class="online-text-words">Ship to Countries <br>Around the World </p>
                             </a>
@@ -336,7 +311,7 @@
                     <div class="col-md-3 col-md-3 col-lg-3 col-sm-6 col-xs-6">
                         <center>
                             <img class="img-benifits img-responsive"
-                                 src="{{asset('new_assets/img/svg_image/time-passing.svg')}}">
+                                 src="{{asset('img/svg_image/time-passing.svg')}}">
                             <p class="online-text">&nbsp;2-5 Days</p>
                             <p class="online-text-words">Worldwide Average <br> Delivery Time </p>
                         </center>
@@ -344,7 +319,7 @@
                     <div class="col-md-3 col-md-3 col-lg-3 col-sm-6 col-xs-6">
                         <center>
                             <img class="img-benifits img-responsive"
-                                 src="{{asset('new_assets/img/svg_image/ic_box.svg')}}">
+                                 src="{{asset('img/svg_image/ic_box.svg')}}">
                             <p class="online-text">Save Up to 80%</p>
                             <p class="online-text-words">By Storing, Consolidating <br>& Repackging! </p>
                         </center>
@@ -371,7 +346,7 @@
     {{--<div class="container div-cal-white-background">--}}
     {{--<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-cal-margin-top">--}}
     {{--<div class="col-md-2 col-md-offset-1 col-lg-2  col-lg-offset-1 col-xs-6  col-xs-offset-2 col-sm-6 col-sm-offset-2">--}}
-    {{--<img class="img-international img-responsive" src="{{asset('new_assets/img/svg_image/ic_price_international.svg')}}">--}}
+    {{--<img class="img-international img-responsive" src="{{asset('img/svg_image/ic_price_international.svg')}}">--}}
     {{--</div>--}}
     {{--<div class="col-md-9 col-lg-9 col-xs-6 col-sm-6">--}}
     {{--<p class="p-int-text">Ineternational Shipping </p>--}}
@@ -379,7 +354,7 @@
     {{--</div>--}}
     {{--<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-cal-margin-top">--}}
     {{--<div class="col-md-2 col-md-offset-1 col-lg-2  col-lg-offset-1 col-xs-6  col-xs-offset-1 col-sm-6 col-sm-offset-1">--}}
-    {{--<img class="img-international img-responsive" src="{{asset('new_assets/img/svg_image/ic_price_dometic.svg')}}">--}}
+    {{--<img class="img-international img-responsive" src="{{asset('img/svg_image/ic_price_dometic.svg')}}">--}}
     {{--</div>--}}
     {{--<div class="col-md-9 col-lg-9 col-xs-6 col-sm-6">--}}
     {{--<p class="domestic-img-text">Domestic Shipping </p>--}}
@@ -423,7 +398,7 @@
     {{--<div class="col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2 col-xs-12  col-sm-12 div-offer">--}}
     {{--<div class="offer-margin">--}}
     {{--<div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-4 col-xs-4">--}}
-    {{--<img class="img-offer img-responsive" src="{{asset('new_assets/img/svg_image/ic_offer_red.svg')}}">--}}
+    {{--<img class="img-offer img-responsive" src="{{asset('img/svg_image/ic_offer_red.svg')}}">--}}
     {{--</div>--}}
     {{--<div class="col-md-7">--}}
     {{--<p class="running-text">running</p>--}}
@@ -474,14 +449,15 @@
                 <center>
                     <h1 class="h1 p-color-cement-dark">Our Services</h1>
                     <p class="h2 p-color-cement">Ever wonder how do we make it all happen? Trust us, We <br>
-                        strategize around your needs!</p>
+                        strategize around your needs!
+                    </p>
                 </center>
             </div>
             <div class="container">
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                     <center>
                         <img class="img-shop-ship img-responsive"
-                             src="{{asset('new_assets/img/svg_image/ic_service_shopandship.svg')}}">
+                             src="{{asset('img/svg_image/ic_service_shopandship.svg')}}">
                         <div class="ship-right-border">
                             <p class="h2 p-color-red ">Shop & Ship</p>
                             <p class="h5 p-color-cement">Sign up for FREE and get your own local, virtual
@@ -500,7 +476,7 @@
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                     <center>
                         <img class="img-shop-ship img-responsive"
-                             src="{{asset('new_assets/img/svg_image/ic_service_truck.svg')}}">
+                             src="{{asset('img/svg_image/ic_service_truck.svg')}}">
                         <p class="h2 p-courier-h">Courier Service
                         <p class="h5 p-color-cement p-line-height">Schedule a Pickup, we'll come to you in 24 hours &
                             <br> get your package delivered to the destination in 2-5 <br>
@@ -541,49 +517,49 @@
                     <a href="https://www.flipkart.com/" target="_blank">
                         <div class="col-md-2 col-lg-2 col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_flipkart.png')}}">
+                                 src="{{asset('img/stores/store_flipkart.png')}}">
                         </div>
                     </a>
                     <a href="https://www.amazon.in/" target="_blank">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_amazon.png')}}">
+                                 src="{{asset('img/stores/store_amazon.png')}}">
                         </div>
                     </a>
                     <a href="https://www.ajio.com/" target="_blank">
                         <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_ajio.png')}}">
+                                 src="{{asset('img/stores/store_ajio.png')}}">
                         </div>
                     </a>
                     <a href="https://www.jabong.com/" target="_blank">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_jabong.png')}}">
+                                 src="{{asset('img/stores/store_jabong.png')}}">
                         </div>
                     </a>
                     <a href="https://www.homeshop18.com/" target="_blank">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_homeshop.png')}}">
+                                 src="{{asset('img/stores/store_homeshop.png')}}">
                         </div>
                     </a>
                     <a href="https://www.snapdeal.com/" target="_blank">
                         <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_snapdeal.png')}}">
+                                 src="{{asset('img/stores/store_snapdeal.png')}}">
                         </div>
                     </a>
                     <a href="https://www.myntra.com/">
                         <div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_myntra.png')}}">
+                                 src="{{asset('img/stores/store_myntra.png')}}">
                         </div>
                     </a>
                     <a href="https://www.snapdeal.com/">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_snapdeal.png')}}">
+                                 src="{{asset('img/stores/store_snapdeal.png')}}">
                         </div>
                     </a>
 
@@ -591,49 +567,49 @@
                     <a href="https://www.amazon.in/" target="_blank">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_amazon.png')}}">
+                                 src="{{asset('img/stores/store_amazon.png')}}">
                         </div>
                     </a>
                     <a href="https://www.ajio.com/" target="_blank">
                         <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_ajio.png')}}">
+                                 src="{{asset('img/stores/store_ajio.png')}}">
                         </div>
                     </a>
                     <a href="https://www.jabong.com/" target="_blank">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_jabong.png')}}">
+                                 src="{{asset('img/stores/store_jabong.png')}}">
                         </div>
                     </a>
                     <a href="https://www.homeshop18.com/" target="_blank">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_homeshop.png')}}">
+                                 src="{{asset('img/stores/store_homeshop.png')}}">
                         </div>
                     </a>
                     <a href="https://www.snapdeal.com/" target="_blank">
                         <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_snapdeal.png')}}">
+                                 src="{{asset('img/stores/store_snapdeal.png')}}">
                         </div>
                     </a>
                     <a href="https://www.myntra.com/">
                         <div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_myntra.png')}}">
+                                 src="{{asset('img/stores/store_myntra.png')}}">
                         </div>
                     </a>
                     <a href="https://www.snapdeal.com/">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_snapdeal.png')}}">
+                                 src="{{asset('img/stores/store_snapdeal.png')}}">
                         </div>
                     </a>
                     <a href="https://www.snapdeal.com/">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('new_assets/img/stores/store_snapdeal.png')}}">
+                                 src="{{asset('img/stores/store_snapdeal.png')}}">
                         </div>
                     </a>
 
@@ -643,48 +619,48 @@
                 {{--<a href="https://www.myntra.com/">--}}
                 {{--<div class="col-md-1 col-lg-1 col-xs-3 col-sm-3 div-stores-img">--}}
                 {{--<img class="img-responsive img-stores"--}}
-                {{--src="{{asset('new_assets/img/stores/store_myntra.png')}}">--}}
+                {{--src="{{asset('img/stores/store_myntra.png')}}">--}}
                 {{--</div>--}}
                 {{--</a>--}}
                 {{--<a href="https://www.shopclues.com/">--}}
                 {{--<div class="col-md-1 col-lg-1  col-xs-3 col-sm-3  div-stores-img">--}}
                 {{--<img class="img-responsive img-stores"--}}
-                {{--src="{{asset('new_assets/img/stores/store_shopclues.png')}}">--}}
+                {{--src="{{asset('img/stores/store_shopclues.png')}}">--}}
                 {{--</div>--}}
                 {{--</a>--}}
                 {{--<a href="https://www.snapdeal.com/">--}}
                 {{--<div class="col-md-1 col-lg-1  col-xs-3 col-sm-3 div-stores-img">--}}
                 {{--<img class="img-responsive img-stores"--}}
-                {{--src="{{asset('new_assets/img/stores/store_snapdeal.png')}}">--}}
+                {{--src="{{asset('img/stores/store_snapdeal.png')}}">--}}
                 {{--</div>--}}
                 {{--</a>--}}
                 {{--<a href="https://www.myntra.com/">--}}
                 {{--<div class="col-md-1  col-lg-1  col-xs-3 col-sm-3   div-stores-img">--}}
                 {{--<img class="img-responsive img-stores"--}}
-                {{--src="{{asset('new_assets/img/stores/store_flipkart@2x.png')}}">--}}
+                {{--src="{{asset('img/stores/store_flipkart@2x.png')}}">--}}
                 {{--</div>--}}
                 {{--</a>--}}
                 {{--<a href="https://www.flipkart.com/">--}}
                 {{--<div class="col-md-1  col-lg-1 col-xs-3 col-sm-3   div-stores-img">--}}
-                {{--<img class="img-stores" src="{{asset('new_assets/img/stores/store_amazon@2x.png')}}">--}}
+                {{--<img class="img-stores" src="{{asset('img/stores/store_amazon@2x.png')}}">--}}
                 {{--</div>--}}
                 {{--</a>--}}
                 {{--<a href="https://www.ajio.com/">--}}
                 {{--<div class="col-md-1 col-lg-1 col-xs-3 col-sm-3  div-stores-img">--}}
                 {{--<img class="img-responsive img-stores"--}}
-                {{--src="{{asset('new_assets/img/stores/store_ajio.png')}}">--}}
+                {{--src="{{asset('img/stores/store_ajio.png')}}">--}}
                 {{--</div>--}}
                 {{--</a>--}}
                 {{--<a href="https://www.snapdeal.com/" target="_blank">--}}
                 {{--<div class="col-md-1 col-lg-1 col-xs-2 col-sm-2 div-stores-img">--}}
                 {{--<img class="img-responsive img-stores"--}}
-                {{--src="{{asset('new_assets/img/stores/store_snapdeal.png')}}">--}}
+                {{--src="{{asset('img/stores/store_snapdeal.png')}}">--}}
                 {{--</div>--}}
                 {{--</a>--}}
                 {{--<a href="https://www.homeshop18.com/" target="_blank">--}}
                 {{--<div class="col-md-1  col-lg-1  col-xs-3 col-sm-3  div-stores-img">--}}
                 {{--<img class="img-responsive img-stores"--}}
-                {{--src="{{asset('new_assets/img/stores/store_homeshop.png')}}">--}}
+                {{--src="{{asset('img/stores/store_homeshop.png')}}">--}}
                 {{--</div>--}}
                 {{--</a>--}}
                 {{--</div>--}}
@@ -716,13 +692,13 @@
                     {{--<div class="row">--}}
                     <div class="col-md-2  div-inner-review">
                         <div class="row div-img-row">
-                            <img class=" img-review img-circle" src="{{asset('new_assets/img/images/23.jpg')}}">
+                            <img class=" img-review img-circle" src="{{asset('img/images/23.jpg')}}">
                             <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Aswathy Revi</p>
                             <input class="rating rated" value="5">
                         </div>
                         <div class="row">
                             <i class="quots-t ">
-                                <img src="{{asset('new_assets/img/svg_image/qoute_up.svg')}}">
+                                <img src="{{asset('img/svg_image/qoute_up.svg')}}">
                             </i>
                         </div>
                         <div class="row ">
@@ -734,19 +710,19 @@
                         </div>
                         <div class="row">
                                       <span class="quots-b">
-                                        <img src="{{asset('new_assets/img/svg_image/qoute_down.svg')}}">
+                                        <img src="{{asset('img/svg_image/qoute_down.svg')}}">
                                       </span>
                         </div>
                     </div>
                     <div class="col-md-2 div-inner-review">
                         <div class="row div-img-row">
-                            <img class=" img-review img-circle" src="{{asset('new_assets/img/images/9.jpg')}}">
+                            <img class=" img-review img-circle" src="{{asset('img/images/9.jpg')}}">
                             <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Sudeep Sagar</p>
                             <input class="rating rated" value="5">
                         </div>
                         <div class="row">
                             <i class="quots-t ">
-                                <img src="{{asset('new_assets/img/svg_image/qoute_up.svg')}}">
+                                <img src="{{asset('img/svg_image/qoute_up.svg')}}">
                             </i>
                         </div>
                         <div class="row">
@@ -757,19 +733,19 @@
                         </div>
                         <div class="row">
                                       <span class="quots-b">
-                                        <img src="{{asset('new_assets/img/svg_image/qoute_down.svg')}}">
+                                        <img src="{{asset('img/svg_image/qoute_down.svg')}}">
                                       </span>
                         </div>
                     </div>
                     <div class="col-md-2 div-inner-review">
                         <div class="row div-img-row">
-                            <img class=" img-review img-circle" src="{{asset('new_assets/img/images/6.jpg')}}">
+                            <img class=" img-review img-circle" src="{{asset('img/images/6.jpg')}}">
                             <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Anirudh Lal</p>
                             <input class="rating rated" value="5">
                         </div>
                         <div class="row">
                             <i class="quots-t ">
-                                <img src="{{asset('new_assets/img/svg_image/qoute_up.svg')}}">
+                                <img src="{{asset('img/svg_image/qoute_up.svg')}}">
                             </i>
                         </div>
                         <div class="row">
@@ -781,7 +757,7 @@
                         </div>
                         <div class="row">
                                   <span class="quots-b">
-                                    <img src="{{asset('new_assets/img/svg_image/qoute_down.svg')}}">
+                                    <img src="{{asset('img/svg_image/qoute_down.svg')}}">
                                   </span>
                         </div>
                     </div>
@@ -789,21 +765,21 @@
                         <center>
                             <div class="row div-img-row">
                                 <img class="img-google-logo "
-                                     src="{{asset('new_assets/img/svg_image/ic_google.svg')}}">
+                                     src="{{asset('img/svg_image/ic_google.svg')}}">
                                 <p class="p-google-review">Reviews</p>
                             </div>
                             <div class="row">
-                                <img src="{{asset('new_assets/img/images/rating_google.png')}}">
+                                <img src="{{asset('img/images/rating_google.png')}}">
                             </div>
                             <div class="row-between-reviews"></div>
                             <div class="row">
                                 <img class="img-facebook-logo"
-                                     src="{{asset('new_assets/img/images/Facebook_Logo@2x.png')}}">
+                                     src="{{asset('img/images/Facebook_Logo@2x.png')}}">
                                 <p class="p-facebook-review">Reviews</p>
                             </div>
                             <div class="row">
                                 <img class="img-facebook-r"
-                                     src="{{asset('new_assets/img/images/rating_facebook.png')}}">
+                                     src="{{asset('img/images/rating_facebook.png')}}">
                             </div>
                         </center>
 
@@ -830,8 +806,8 @@
                 <div class="col-md-1 col-lg-1 card col-xs-10 col-sm-10">
                     <div class="div-recent-inner">
                         <div class="row">
-                            <img class="img-card" src="{{asset('new_assets/img/images/9.jpg')}}">
-                            <img class="img-card-status" src="{{asset('new_assets/img/svg_image/ic_delivered.svg')}}">
+                            <img class="img-card" src="{{asset('img/images/9.jpg')}}">
+                            <img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">
                         </div>
 
                         <div class="row">
@@ -847,8 +823,8 @@
                 <div class="col-md-1 col-lg-1 card card-margin col-xs-10 col-sm-10">
                     <div class="div-recent-inner">
                         <div class="row">
-                            <img class="img-card" src="{{asset('new_assets/img/images/9.jpg')}}">
-                            <img class="img-card-status" src="{{asset('new_assets/img/svg_image/ic_delivered.svg')}}">
+                            <img class="img-card" src="{{asset('img/images/9.jpg')}}">
+                            <img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">
                         </div>
 
                         <div class="row">
@@ -864,8 +840,8 @@
                 <div class="col-md-1 col-lg-1  card card-margin col-xs-10 col-sm-10">
                     <div class="div-recent-inner">
                         <div class="row">
-                            <img class="img-card" src="{{asset('new_assets/img/images/9.jpg')}}">
-                            <img class="img-card-status" src="{{asset('new_assets/img/svg_image/ic_delivered.svg')}}">
+                            <img class="img-card" src="{{asset('img/images/9.jpg')}}">
+                            <img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">
                         </div>
 
                         <div class="row">
@@ -881,8 +857,8 @@
                 <div class="col-md-1  col-lg-1 card card-margin col-xs-10 col-sm-10">
                     <div class="div-recent-inner">
                         <div class="row">
-                            <img class="img-card" src="{{asset('new_assets/img/images/9.jpg')}}">
-                            <img class="img-card-status" src="{{asset('new_assets/img/svg_image/ic_delivered.svg')}}">
+                            <img class="img-card" src="{{asset('img/images/9.jpg')}}">
+                            <img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">
                         </div>
 
                         <div class="row">
@@ -898,8 +874,8 @@
                 <div class="col-md-1  col-lg-1  card card-margin col-xs-10 col-sm-10">
                     <div class="div-recent-inner">
                         <div class="row">
-                            <img class="img-card" src="{{asset('new_assets/img/images/9.jpg')}}">
-                            <img class="img-card-status" src="{{asset('new_assets/img/svg_image/ic_delivered.svg')}}">
+                            <img class="img-card" src="{{asset('img/images/9.jpg')}}">
+                            <img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">
                         </div>
 
                         <div class="row">
@@ -932,7 +908,7 @@
                 <div class="col-md-6">
                     <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border ">
                         <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
-                            <img class="img-card-transfer" src="{{asset('new_assets/img/svg_image/credit-card.svg')}}">
+                            <img class="img-card-transfer" src="{{asset('img/svg_image/credit-card.svg')}}">
                         </div>
                         <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12">
                             <p class="p-payment-text">Credit/Debit Cards</p>
@@ -942,7 +918,7 @@
                     <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border">
                         <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
                             <img class="img-card-transfer"
-                                 src="{{asset('new_assets/img/svg_image/ic_payment_bank.svg')}}">
+                                 src="{{asset('img/svg_image/ic_payment_bank.svg')}}">
                         </div>
                         <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12">
                             <p class="p-payment-text">Wire Transfer</p>
@@ -952,14 +928,14 @@
                 <div class="col-md-6">
                     <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border">
                         <center>
-                            <img class="img-paytm" src="{{asset('new_assets/img/svg_image/ic_payment_paypal.svg')}}">
+                            <img class="img-paytm" src="{{asset('img/svg_image/ic_payment_paypal.svg')}}">
                         </center>
 
                     </div>
 
                     <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6">
                         <center>
-                            <img class="img-paytm" src="{{asset('new_assets/img/svg_image/ic_payment_paytm.svg')}}">
+                            <img class="img-paytm" src="{{asset('img/svg_image/ic_payment_paytm.svg')}}">
                         </center>
 
                     </div>

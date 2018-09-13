@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #44b773;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="ic_delivered" transform="translate(-312 -4361)">
+    <circle id="_6" data-name="6" class="cls-1" cx="12" cy="12" r="12" transform="translate(312 4361)"/>
+    <path id="checkmark" class="cls-2" d="M2294.786,1153.413a.618.618,0,0,1-.436-.179l-2.732-2.7a.606.606,0,0,1,0-.864.621.621,0,0,1,.872,0l2.3,2.271,5.465-5.4a.621.621,0,0,1,.872,0,.606.606,0,0,1,0,.864l-5.9,5.835A.618.618,0,0,1,2294.786,1153.413Z" transform="translate(-1972.751 3223)"/>
+  </g>
+</svg>

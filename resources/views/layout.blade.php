@@ -30,10 +30,12 @@
 
     {{--<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">--}}
 
-    <link rel="stylesheet" href="{{asset('new_assets/css/bootstrap.min.css')}}" >
-    <link rel="stylesheet" href="{{asset('new_assets/css/style.css')}}" >
-    <link rel="stylesheet" href="{{asset('new_assets/css/select2.min.css')}}" >
-    <link rel="stylesheet" href="{{asset('new_assets/css/star-rating.min.css')}}" >
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}" >
+    <link rel="stylesheet" href="{{asset('css/style.css')}}" >
+    <link rel="stylesheet" href="{{asset('css/select2.min.css')}}" >
+    <link rel="stylesheet" href="{{asset('css/star-rating.min.css')}}" >
+    <link rel="stylesheet" href="{{asset('css/ics.css')}}" >
+    <link rel="stylesheet" href="{{asset('css/ifs.css')}}" >
 
     @yield('css_style')
 
@@ -266,8 +268,8 @@
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.jqueryui.min.js"></script>
 <script src="{{asset('js/validate.min.js')}}"></script>
 
-<script src="{{asset('new_assets/js/star-rating.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('new_assets/js/select2.min.js')}}"></script>
+<script src="{{asset('js/star-rating.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('js/select2.min.js')}}"></script>
 
 
 <script>
