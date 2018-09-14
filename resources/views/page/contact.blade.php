@@ -103,7 +103,7 @@
 
             <div class="form-group">
               <div class="input-group">
-                <div class="input-group-addon"><img src="img/phone-512.png"></div>
+                <div class="input-group-addon"><img src="img/phone-512.png" style="height: 23px;"></div>
                 <input type="number" class="form-control " placeholder="Contact Number" name="phone">
               </div>
             </div>

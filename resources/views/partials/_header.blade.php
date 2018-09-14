@@ -35,12 +35,12 @@
                                 Register
                             </a>
                         </li>
-                        <li class="nav-li"><a class="nav-a" href="javascript:void(0)"><span class="glyphicon glyphicon-search gly-search"></span></a> </li>
-                        <li class="nav-li">
-                            <a class="" href="javascript:void(0)">
-                                <img class="img-menu" src="{{asset('new_assets/img/svg_image/menu.svg')}}">
-                            </a>
-                        </li>
+                        {{--<li class="nav-li"><a class="nav-a" href="javascript:void(0)"><span class="glyphicon glyphicon-search gly-search"></span></a> </li>--}}
+                        {{--<li class="nav-li">--}}
+                            {{--<a class="" href="javascript:void(0)">--}}
+                                {{--<img class="img-menu" src="{{asset('new_assets/img/svg_image/menu.svg')}}">--}}
+                            {{--</a>--}}
+                        {{--</li>--}}
 
                     </ul>
                 </div> <!-- /.navbar-collapse -->

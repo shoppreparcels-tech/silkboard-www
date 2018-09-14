@@ -46,6 +46,7 @@ Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('sche
 /*-------- ICS ------*/
 
 Route::get('/ics', 'PageController@icsIndex')->name('ics.index');
+Route::get('/ifs', 'PageController@ifsIndex')->name('ifs.index');
 
 /*-------- Dhl Shipments ------*/
 Route::get('/dhl', 'ShippingPartnerController@dhlIndex')->name('dhl.index');

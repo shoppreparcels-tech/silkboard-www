@@ -184,7 +184,7 @@
             <div class="col-md-6  col-lg-6  col-sm-12 col-xs-12 ">
                 <div class="col-md-12 col-sm-10 col-xs-10  col-lg-12 div-main-row">
                     <strong>
-                        <h1 class="h1 p-color-white" style="margin-bottom: 39px;">International Shipping
+                        <h1 class="header1 p-color-white" style="margin-bottom: 39px;">International Shipping
                             starting at just <span class="p-color-red">*₹399</span>
                         </h1>
                     </strong>
@@ -273,8 +273,8 @@
         <div class="container">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 60px;">
                 <center>
-                    <h1 class="h1 p-color-cement-dark div-margin">About us </h1>
-                    <p class="h2 p-color-cement">Our trusted partners <span class="p-color-red"><a
+                    <h1 class="header1 p-color-cement-dark div-margin">About us </h1>
+                    <p class="header2 p-color-cement">Our trusted partners <span class="p-color-red"><a
                                 href="{{route('dhl.index')}}">DHL</a>,<a
                                 href="{{route('fedex.index')}}">DTDC</a></span> and <span class="p-color-red"><a
                                 href="{{route('dtdc.index')}}">Fedex</a></span> help us <br> sail smoth all the way to
@@ -338,8 +338,8 @@
     {{--<div class="container">--}}
     {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">--}}
     {{--<center>--}}
-    {{--<p class="h1 p-color-white" style="margin-top:64px;">Price Calculator  </p>--}}
-    {{--<p class="h2 p-color-white">Calculate & get estimate your shipping cost, we're upfont  about it! </p>--}}
+    {{--<p class="header1 p-color-white" style="margin-top:64px;">Price Calculator  </p>--}}
+    {{--<p class="header2 p-color-white">Calculate & get estimate your shipping cost, we're upfont  about it! </p>--}}
     {{--</center>--}}
     {{--</div>--}}
     {{--</div>--}}
@@ -412,16 +412,16 @@
     {{--<div id="slides">--}}
     {{--<ul>--}}
     {{--<li class="slide">--}}
-    {{--<p class="h3 p-color-white p-slider ">RAKSHA BANDHAN Special</p>--}}
+    {{--<p class="header3 p-color-white p-slider ">RAKSHA BANDHAN Special</p>--}}
     {{--<p>--}}
-    {{--<span class="h2 p-color-white p-slider">Send a Rakhi abroad at Rs.349/- only!</span>--}}
+    {{--<span class="header2 p-color-white p-slider">Send a Rakhi abroad at Rs.349/- only!</span>--}}
     {{--</p>--}}
 
     {{--</li>--}}
     {{--<li class="slide">--}}
-    {{--<p class="h3 p-color-white p-slider">OVNAM Special</p>--}}
+    {{--<p class="header3 p-color-white p-slider">OVNAM Special</p>--}}
     {{--<p>--}}
-    {{--<span class="h2 p-color-white p-slider">Send a Rakhi abroad at Rs.349/- only!</span>--}}
+    {{--<span class="header2 p-color-white p-slider">Send a Rakhi abroad at Rs.349/- only!</span>--}}
     {{--</p>--}}
     {{--</li>--}}
     {{--</ul>--}}
@@ -447,8 +447,8 @@
         <div class="container ">
             <div class="div-margin">
                 <center>
-                    <h1 class="h1 p-color-cement-dark">Our Services</h1>
-                    <p class="h2 p-color-cement">Ever wonder how do we make it all happen? Trust us, We <br>
+                    <h1 class="header1 p-color-cement-dark">Our Services</h1>
+                    <p class="header2 p-color-cement">Ever wonder how do we make it all happen? Trust us, We <br>
                         strategize around your needs!
                     </p>
                 </center>
@@ -459,14 +459,14 @@
                         <img class="img-shop-ship img-responsive"
                              src="{{asset('img/svg_image/ic_service_shopandship.svg')}}">
                         <div class="ship-right-border">
-                            <p class="h2 p-color-red ">Shop & Ship</p>
-                            <p class="h5 p-color-cement">Sign up for FREE and get your own local, virtual
+                            <p class="header2 p-color-red ">Shop & Ship</p>
+                            <p class="header5 p-color-cement">Sign up for FREE and get your own local, virtual
                                 shipping address; <br> shop around on Indian online stores; store your purchases in <br>
                                 your PERSONAL LOCKER & conslidate; we'll repackage & ship <br> them to your doorsteps
                             </p>
                             <div class=" btn-our-shop-ship">
                                 <center>
-                                    <a class="h5 p-color-white " href="{{route('shopFromIndia')}}">Learn More</a>
+                                    <a class="header5 p-color-white " href="{{route('shopFromIndia')}}">Learn More</a>
                                 </center>
                             </div>
                         </div>
@@ -477,8 +477,8 @@
                     <center>
                         <img class="img-shop-ship img-responsive"
                              src="{{asset('img/svg_image/ic_service_truck.svg')}}">
-                        <p class="h2 p-courier-h">Courier Service
-                        <p class="h5 p-color-cement p-line-height">Schedule a Pickup, we'll come to you in 24 hours &
+                        <p class="header2 p-courier-h">Courier Service
+                        <p class="header5 p-color-cement p-line-height">Schedule a Pickup, we'll come to you in 24 hours &
                             <br> get your package delivered to the destination in 2-5 <br>
                             business days!</p>
 
@@ -499,8 +499,8 @@
         <div class="container-fluid">
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-margin">
                 <center>
-                    <p class="h1 p-color-cement-dark">Take a Walk Around Your Favorite Stores</p>
-                    <p class="h2 p-color-cement ">Browse through popular stores, take your pick, shop & get it delivered
+                    <p class="header1 p-color-cement-dark">Take a Walk Around Your Favorite Stores</p>
+                    <p class="header2 p-color-cement ">Browse through popular stores, take your pick, shop & get it delivered
                         to your virtual <br>address; we'll ship it to your destination abroad!</p>
                 </center>
             </div>
@@ -615,61 +615,12 @@
 
                 </div>
 
-                {{--<div class="row">--}}
-                {{--<a href="https://www.myntra.com/">--}}
-                {{--<div class="col-md-1 col-lg-1 col-xs-3 col-sm-3 div-stores-img">--}}
-                {{--<img class="img-responsive img-stores"--}}
-                {{--src="{{asset('img/stores/store_myntra.png')}}">--}}
-                {{--</div>--}}
-                {{--</a>--}}
-                {{--<a href="https://www.shopclues.com/">--}}
-                {{--<div class="col-md-1 col-lg-1  col-xs-3 col-sm-3  div-stores-img">--}}
-                {{--<img class="img-responsive img-stores"--}}
-                {{--src="{{asset('img/stores/store_shopclues.png')}}">--}}
-                {{--</div>--}}
-                {{--</a>--}}
-                {{--<a href="https://www.snapdeal.com/">--}}
-                {{--<div class="col-md-1 col-lg-1  col-xs-3 col-sm-3 div-stores-img">--}}
-                {{--<img class="img-responsive img-stores"--}}
-                {{--src="{{asset('img/stores/store_snapdeal.png')}}">--}}
-                {{--</div>--}}
-                {{--</a>--}}
-                {{--<a href="https://www.myntra.com/">--}}
-                {{--<div class="col-md-1  col-lg-1  col-xs-3 col-sm-3   div-stores-img">--}}
-                {{--<img class="img-responsive img-stores"--}}
-                {{--src="{{asset('img/stores/store_flipkart@2x.png')}}">--}}
-                {{--</div>--}}
-                {{--</a>--}}
-                {{--<a href="https://www.flipkart.com/">--}}
-                {{--<div class="col-md-1  col-lg-1 col-xs-3 col-sm-3   div-stores-img">--}}
-                {{--<img class="img-stores" src="{{asset('img/stores/store_amazon@2x.png')}}">--}}
-                {{--</div>--}}
-                {{--</a>--}}
-                {{--<a href="https://www.ajio.com/">--}}
-                {{--<div class="col-md-1 col-lg-1 col-xs-3 col-sm-3  div-stores-img">--}}
-                {{--<img class="img-responsive img-stores"--}}
-                {{--src="{{asset('img/stores/store_ajio.png')}}">--}}
-                {{--</div>--}}
-                {{--</a>--}}
-                {{--<a href="https://www.snapdeal.com/" target="_blank">--}}
-                {{--<div class="col-md-1 col-lg-1 col-xs-2 col-sm-2 div-stores-img">--}}
-                {{--<img class="img-responsive img-stores"--}}
-                {{--src="{{asset('img/stores/store_snapdeal.png')}}">--}}
-                {{--</div>--}}
-                {{--</a>--}}
-                {{--<a href="https://www.homeshop18.com/" target="_blank">--}}
-                {{--<div class="col-md-1  col-lg-1  col-xs-3 col-sm-3  div-stores-img">--}}
-                {{--<img class="img-responsive img-stores"--}}
-                {{--src="{{asset('img/stores/store_homeshop.png')}}">--}}
-                {{--</div>--}}
-                {{--</a>--}}
-                {{--</div>--}}
             </center>
             <div class="div-find-more-stores">
 
                 <center>
-                    <h5 class="h5 p-color-cement p-store-margin">Browse Through <br> & Shop From</h5>
-                    <h2 class="h2 p-color-red">Top Stores</h2>
+                    <h5 class="header5 p-color-cement p-store-margin">Browse Through <br> & Shop From</h5>
+                    <h2 class="header2 p-color-red">Top Stores</h2>
                     <a href="#">
                         <div class="arrow arrow--right"></div>
                         <hr style="width: 93px;height: 0;border: 2px solid tomato;margin-top: -18px;">
@@ -684,8 +635,8 @@
     <section class="div-fluid">
         <div class="container">
             <center>
-                <p class="h1 p-color-white p-h-margin-customer">What Our Customers Think About Us</p>
-                <p class="h2 p-wondring">Wondring what our fellow customers are raving aobut? Read some real</p>
+                <p class="header1 p-color-white p-h-margin-customer">What Our Customers Think About Us</p>
+                <p class="header2 p-wondring">Wondring what our fellow customers are raving aobut? Read some real</p>
             </center>
             <div class="col-md-12 col-lg-12 div-review">
                 <div class="col-md-12" style="margin-top: 40px ;padding-top: 10px;">
@@ -789,114 +740,113 @@
                     <div class="row" style="margin-bottom: 16px;">
                         <div class="col-md-12 ">
                             <!-- <a href="javascript:void(0)"><span class="read-more-review"> Read more reviews </span></a> -->
-                            <a href="javascript:void(0)"><span class="h4 p-color-red"> Read more reviews </span></a>
+                            <a href="javascript:void(0)"><span class="header4 p-color-red"> Read more reviews </span></a>
                         </div>
                     </div>
                 </div>
             </div>
 
-
-            {{--<div class="container">--}}
-            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="margin-top:50px;">
-                <p class="h2" style="color: #929ca5;"> Our Recent Deliveries (live) </p>
-            </div>
+            {{--later this block going to enable  --}}
+            {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="margin-top:50px;">--}}
+                {{--<p class="header2 " style="color: #929ca5;"> Our Recent Deliveries (live) </p>--}}
             {{--</div>--}}
 
-            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-card-holder">
-                <div class="col-md-1 col-lg-1 card col-xs-10 col-sm-10">
-                    <div class="div-recent-inner">
-                        <div class="row">
-                            <img class="img-card" src="{{asset('img/images/9.jpg')}}">
-                            <img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">
-                        </div>
+            {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-card-holder">--}}
+                {{--<div class="col-md-1 col-lg-1 card col-xs-10 col-sm-10">--}}
+                    {{--<div class="div-recent-inner">--}}
+                        {{--<div class="row">--}}
+                            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
+                            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
+                        {{--</div>--}}
 
-                        <div class="row">
-                            <p class="p-destination">United States</p>
-                        </div>
-                        <div class="row">
-                            <p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                        {{--<div class="row">--}}
+                            {{--<p class="p-destination">United States</p>--}}
+                        {{--</div>--}}
+                        {{--<div class="row">--}}
+                            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
+                            {{--</p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
 
-                <div class="col-md-1 col-lg-1 card card-margin col-xs-10 col-sm-10">
-                    <div class="div-recent-inner">
-                        <div class="row">
-                            <img class="img-card" src="{{asset('img/images/9.jpg')}}">
-                            <img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">
-                        </div>
+                {{--<div class="col-md-1 col-lg-1 card card-margin col-xs-10 col-sm-10">--}}
+                    {{--<div class="div-recent-inner">--}}
+                        {{--<div class="row">--}}
+                            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
+                            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
+                        {{--</div>--}}
 
-                        <div class="row">
-                            <p class="p-destination">United States</p>
-                        </div>
-                        <div class="row">
-                            <p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                        {{--<div class="row">--}}
+                            {{--<p class="p-destination">United States</p>--}}
+                        {{--</div>--}}
+                        {{--<div class="row">--}}
+                            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
+                            {{--</p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
 
-                <div class="col-md-1 col-lg-1  card card-margin col-xs-10 col-sm-10">
-                    <div class="div-recent-inner">
-                        <div class="row">
-                            <img class="img-card" src="{{asset('img/images/9.jpg')}}">
-                            <img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">
-                        </div>
+                {{--<div class="col-md-1 col-lg-1  card card-margin col-xs-10 col-sm-10">--}}
+                    {{--<div class="div-recent-inner">--}}
+                        {{--<div class="row">--}}
+                            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
+                            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
+                        {{--</div>--}}
 
-                        <div class="row">
-                            <p class="p-destination">United States</p>
-                        </div>
-                        <div class="row">
-                            <p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                        {{--<div class="row">--}}
+                            {{--<p class="p-destination">United States</p>--}}
+                        {{--</div>--}}
+                        {{--<div class="row">--}}
+                            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
+                            {{--</p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
 
-                <div class="col-md-1  col-lg-1 card card-margin col-xs-10 col-sm-10">
-                    <div class="div-recent-inner">
-                        <div class="row">
-                            <img class="img-card" src="{{asset('img/images/9.jpg')}}">
-                            <img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">
-                        </div>
+                {{--<div class="col-md-1  col-lg-1 card card-margin col-xs-10 col-sm-10">--}}
+                    {{--<div class="div-recent-inner">--}}
+                        {{--<div class="row">--}}
+                            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
+                            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
+                        {{--</div>--}}
 
-                        <div class="row">
-                            <p class="p-destination">United States</p>
-                        </div>
-                        <div class="row">
-                            <p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                        {{--<div class="row">--}}
+                            {{--<p class="p-destination">United States</p>--}}
+                        {{--</div>--}}
+                        {{--<div class="row">--}}
+                            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
+                            {{--</p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
 
-                <div class="col-md-1  col-lg-1  card card-margin col-xs-10 col-sm-10">
-                    <div class="div-recent-inner">
-                        <div class="row">
-                            <img class="img-card" src="{{asset('img/images/9.jpg')}}">
-                            <img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">
-                        </div>
+                {{--<div class="col-md-1  col-lg-1  card card-margin col-xs-10 col-sm-10">--}}
+                    {{--<div class="div-recent-inner">--}}
+                        {{--<div class="row">--}}
+                            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
+                            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
+                        {{--</div>--}}
 
-                        <div class="row">
-                            <p class="p-destination">United States</p>
-                        </div>
-                        <div class="row">
-                            <p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        {{--<div class="row">--}}
+                            {{--<p class="p-destination">United States</p>--}}
+                        {{--</div>--}}
+                        {{--<div class="row">--}}
+                            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
+                            {{--</p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--later this block going to enable  --}}
         </div>
     </section>
 
     <section>
         <div class="container" style="margin-top: 60px;">
             <center>
-                <p class="h1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
-                <p class="h2 p-doorstep-des">You've got no reason to wait around any longer, just come shopp Re!</p>
-                <button class="btn-login-doorstep h3 p-color-white">Sign Up for FREE</button>
+                <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
+                <p class="header2 p-doorstep-des">You've got no reason to wait around any longer, just come shopp Re!</p>
+                <button class="btn-login-doorstep header3 p-color-white">Sign Up for FREE</button>
             </center>
 
             <div class="col-md-12 col-lg-12">

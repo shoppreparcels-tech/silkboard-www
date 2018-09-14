@@ -86,9 +86,6 @@
 }
 
 .div-courier-cal {
-    /*width: 1119px;*/
-    height: 179px;
-    /*height: auto;*/
     box-shadow: 0 10px 50px rgba(17, 39, 59, 0.1);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -151,9 +148,6 @@ a:hover, a:focus {
 
 .tab .nav-tabs li a:after {
     content: "";
-    /*width: 7px;
-    height: 7px;*/
-    /*border-radius: 50%;*/
     background: #507dbc;
     margin: 0 auto;
     position: absolute;
@@ -197,7 +191,7 @@ a:hover, a:focus {
 
 /*tabs for calculate*/
 
-.div-courier-cal [type="text"] {
+.div-courier-cal[type="text"] {
 
     width: 100%;
     padding: 15px;
@@ -208,6 +202,7 @@ a:hover, a:focus {
     border: 1px solid rgba(146, 156, 165, 0.2);
     background-color: #ffffff;
     margin-top: 10px;
+    padding-left: 30%;
 }
 
 .div-courier-cal [type="button"] {

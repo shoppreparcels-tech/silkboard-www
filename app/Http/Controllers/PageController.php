@@ -31,6 +31,12 @@ class PageController extends Controller
         return view('page.ics');
     }
 
+    public function ifsIndex()
+    {
+        return view('page.ifs');
+    }
+
+
     public function saveFlyerUser(Request $request)
     {
         $emp_id = 616;

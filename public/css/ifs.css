@@ -2,7 +2,7 @@
 .box-ifs{
  height: 59px;
  width: 59px;
- margin-top: 20px; 
+ margin-top: 20px;
   border: 1px solid #929ca5;
 }
 
@@ -14,18 +14,10 @@
     background-color: #ffffff;
 }
 
-.box-ifs-container{
-	/*width: 679px;*/
-	/*height: 400px;*/
-	/*box-shadow: 0 0 10px rgba(146, 156, 165, 0.1);*/
-	/*background-color: #ffffff; */
-	/*margin:13px 0 0 24px;	*/
-}
-
 .div-ifs-register{
 	/*width: 26%;*/
 	width: 166px;
-	height: 166px;	
+	height: 166px;
 	border-radius: 100px;
 	border: 3px solid rgba(146, 156, 165, 0.2);
 	/*background-color: #ffffff;*/
@@ -50,11 +42,11 @@
     height: 50px;
 	border-radius: 30px;
 	background-color: #e85151;
-	margin:24px 0 72px 0;	
+	margin:24px 0 72px 0;
 }
-  
+
 .img-ifs-card{
-	margin-top:30px; 
+	margin-top:30px;
 
 }
 
@@ -65,6 +57,7 @@
 	border-radius: 30px;
 	background-color: #e85151;
 }
+
 
 .img-priyamani-shopping{
 	/*width: 100%;*/
@@ -81,14 +74,24 @@
 }
 
 .div-ifs-cal{
-	height: 179px;
 	margin-bottom: 110px;
 	margin-top: 110px;
 	box-shadow: 0 10px 50px rgba(17, 39, 59, 0.1);
     border-radius: 15px;
     background-color: #ffffff;
 }
-
+.div-ifs-cal [type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    color: #11273b;
+    font-weight: 600;
+    border: 1px solid rgba(146, 156, 165, 0.2);
+    background-color: #ffffff;
+    margin-top: 10px;
+    padding-left: 30%;
+}
 .btn-ifs-estimate{
 	color: #fff;
     font-weight: 600;

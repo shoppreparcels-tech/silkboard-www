@@ -153,54 +153,41 @@ header::after{
     margin-top: 95px;
 }
 
-.h1{
+.header1{
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.8px;
 }
 
-.h2{
+.header2{
     font-size: 24px;
     font-weight: 700;
-    /*letter-spacing: 1.8px;*/
 }
-.h3{
+.header3{
     font-size: 22px;
     font-weight: 400;
-    /*letter-spacing: 1.8px;*/
 }
-
-.rating-xs{
-    font-size: 10px !important;
-}
-
-.rating-stars{
-    margin-left: 11px !important;
-    margin-top: -17px !important;
-}
-
-.h4{
+.header4{
     font-size: 18px;
     font-weight: 700;
-    /*letter-spacing: 1.8px;*/
 }
 
-.h5{
+.header5{
     font-size: 16px;
     font-weight: 700;
 }
 
-h6{
+header6{
     font-size: 14px;
     font-weight: 700;
 }
 
-h7{
+header7{
     font-size: 12px;
     font-weight: 700;
 }
 
-h8{
+header8{
     font-size: 10px;
     font-weight: 700;
 }
@@ -700,10 +687,6 @@ a#prev:hover, a#next:hover {
     background-color: #ffffff;
 }
 
-/*.div-img-stores{*/
-/*margin: 62px 32px 110px 32px;*/
-/*}*/
-
 .div-stores-img{
     width: 225px;
     height: 200px;
@@ -785,7 +768,14 @@ a#prev:hover, a#next:hover {
 .div-inner-review{
     margin-left: 23px;
 }
+.rating-xs{
+    font-size: 10px !important;
+}
 
+.rating-stars{
+    margin-left: 11px !important;
+    margin-top: -17px !important;
+}
 .div-inner-review:hover{
     box-shadow: 0 0 60px rgba(17, 39, 59, 0.1);
     border: 1px solid rgba(146, 156, 165, 0.06);
@@ -1093,23 +1083,49 @@ a#prev:hover, a#next:hover {
         display: none;
     }
 
+    .header1{
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 1.8px;
+    }
+
+    .header2{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .header3{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .header4{
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .header5{
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    header6{
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    header7{
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    header8{
+        font-size: 10px;
+        font-weight: 700;
+    }
+
     .h1{
         font-size: 22px;
         letter-spacing: 0px
 
-    }
-
-    .h2{
-        font-size: 14px;
-        letter-spacing: 0px;
-    }
-
-    .h3{
-        font-size: 12px;
-    }
-
-    .h4{
-        font-size: 10px;
     }
 
     .div-main-row	{
