@@ -656,7 +656,7 @@
         <div class="container">
             <center>
                 <p class="header1 p-color-white p-h-margin-customer">What Our Customers Think About Us</p>
-                <p class="header2 p-wondring">Wondering what our fellow customers are raving about? Read some real</p>
+                <p class="header2 p-wondring">Wondering what our fellow customers are raving about? <br> Read some real</p>
             </center>
             <div class="col-md-12 col-lg-12 div-review">
                 <div class="col-md-12" style="margin-top: 40px ;padding-top: 10px;">
@@ -866,8 +866,7 @@
         <div class="container" style="margin-top: 60px;">
             <center>
                 <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
-                <p class="header2 p-doorstep-des">You've got no reason to wait around any longer, just come shopp
-                    Re!</p>
+                <p class="header2 p-doorstep-des">You've got no reason to wait around any longer, just come ShoppRe!</p>
                 <a href="https://myaccount.shoppre.com/register" target="_blank">
                     <div class="btn-login-doorstep header3 p-color-white">
                         <p>
