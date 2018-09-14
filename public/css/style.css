@@ -7770,7 +7770,9 @@ ul.newsticker li span {
     }
 
     .navbar-brand img, .navbar-default .nav li {
-        padding: 10px
+        padding: 10px;
+        height: 59px;
+        width: 160px;
     }
 
     .navbar-toggle {
