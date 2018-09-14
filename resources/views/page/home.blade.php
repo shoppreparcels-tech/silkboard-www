@@ -741,19 +741,18 @@
                             </div>
                             <div class="row-between-reviews"></div>
                             <div class="row">
+                                <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
                                 <img class="img-facebook-logo"
                                      src="{{asset('img/images/Facebook_Logo@2x.png')}}">
                                 <p class="p-facebook-review">Reviews</p>
+                                </a>
                             </div>
                             <div class="row">
                                 <img class="img-facebook-r"
                                      src="{{asset('img/images/rating_facebook.png')}}">
                             </div>
                         </center>
-
                     </div>
-                    {{--</div>--}}
-
                     <div class="row" style="margin-bottom: 16px;">
                         <div class="col-md-12 ">
                             <!-- <a href="javascript:void(0)"><span class="read-more-review"> Read more reviews </span></a> -->

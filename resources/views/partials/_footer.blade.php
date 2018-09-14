@@ -4,9 +4,10 @@
             <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
                 <ul class="nav-ul">
                     <li><a class="footer-a"  href="{{route('about')}}">About Us</a></li>
-                    <li><a class="footer-a"  href="#">What's New</a></li>
+                    {{--This is is required--}}
+                    {{--<li><a class="footer-a"  href="#">What's New</a></li>--}}
                     <li><a class="footer-a"  href="{{route('story.index')}}">Our Story</a></li>
-                    <li><a class="footer-a"  href="#">Customer Reviews</a></li>
+                    <li><a class="footer-a"  href="{{route('reviews')}}">Customer Reviews</a></li>
                     <li><a class="footer-a"  href="{{route('contact')}}">Contact Us</a></li>
                     <li><a class="footer-a"  href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Carrier</a></li>
                     <li><a class="footer-a"  href="http://blog.shoppre.com/" target="_blank">Blog</a></li>
@@ -27,21 +28,18 @@
             <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
                 <ul class="nav-ul">
                     <li>
-                        <a class="footer-a"  href="#">
+                        <a class="footer-a"  href="tel:+91-80 4094 4077">
                             <i class="glyphicon glyphicon-earphone"></i> CALL US
+                            <br>
+                            <span class="span-color">+918040944077</span>
                         </a>
                     </li>
                     <li>
-                        <a class="footer-a"  href="tel:+91-80 4094 4077">+918040944077</a>
-                    </li>
-                    <li>
-                        <a class="footer-a"  href="#">
+                        <a class="footer-a" href="mailto:support@shoppre.com">
                             <i class="glyphicon glyphicon-envelope"></i>
                             SUPPORT EMAIL
+                            <span class="span-color">support@shoppre.com</span>
                         </a>
-                    </li>
-                    <li>
-                        <a class="footer-a"  href="mailto:support@shoppre.com">support@shoppre.com</a>
                     </li>
                     <li>
                         <a class="footer-a"  href="#">CONNECT ON</a><br>
@@ -63,33 +61,39 @@
 
             <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
                 <div class="div-btn">
+                    <a class="p-btn-name" href="{{route('pricing')}}">
                     <div class="col-md-2 col-lg-2 col-xs-2 col-sm-2" style="margin-top: 14px;">
                         <img class="img-footer" src="{{asset('new_assets/img/svg_image/ic_footer_calculator.svg')}}">
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10" style="margin-top: 14px;" >
-                        <a class="p-btn-name" href="https://www.shoppre.com/pricing">Price Calculator</a>
+                        <span class="span-color">Price Calculator</span>
                         <p class="p-best-price">Guaranteed best price</p>
                     </div>
+                    </a>
                 </div>
 
                 <div class="div-btn1">
+                    <a class="p-btn-name" href="{{route('schedulePickup.Index')}}">
                     <div class="col-md-2 col-lg-2 col-xs-2 col-sm-2" style="margin-top: 14px;">
                         <img class="img-footer" src="{{asset('new_assets/img/svg_image/ic_footer_courier.svg')}}">
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10" style="margin-top: 14px;" >
-                        <a class="p-btn-name" href="{{route('schedulePickup.Index')}}">Courier Abroad</a>
+                        <span class="span-color">Courier Abroad</span>
                         <p class="p-best-price1">Schedule a Pickup</p>
                     </div>
+                    </a>
                 </div>
 
                 <div class="div-btn1">
+                    <a href="{{route('shopFromIndia')}}">
                     <div class="col-md-2 col-lg-2 col-xs-2 col-sm-2" style="margin-top: 14px;">
                         <img class="img-footer" src="{{asset('new_assets/img/svg_image/ic_footer_shop_ship.svg')}}">
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10" style="margin-top: 14px;" >
-                        <a class="p-btn-name"  href="{{route('shopFromIndia')}}">Shop & Ship</a>
+                        <span class="span-color">Shop & Ship</span>
                         <p class="p-best-price1">Explore Stores now </p>
                     </div>
+                    </a>
                 </div>
             </div>
         </div>

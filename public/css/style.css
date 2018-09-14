@@ -661,6 +661,10 @@ a#prev:hover, a#next:hover {
     /*line-height: 40px;*/
 }
 
+.span-color {
+    color: #ffffff;
+}
+
 .padder-bottom
 {
     margin-bottom: 21px;
