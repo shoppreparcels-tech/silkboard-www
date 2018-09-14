@@ -247,12 +247,12 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12  div-demo-row">
-                        <div class="col-md-5 col-sm-5 col-xs-5">
+                        <div class="col-md-5 col-sm-5 col-xs-5 video-tab">
                             <img class="img-demo" src="{{asset('img/svg_image/ic_watch_now.svg')}}">
                             <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=3s" target="_blank"
                                class="p-demo-text"><b>&nbsp;Watch a Demo</b></a>
                         </div>
-                        <div class="col-md-7 col-sm-7 col-xs-7 ">
+                        <div class="col-md-7 col-sm-7 col-xs-7 video-tab">
                             <img class="img-demo"
                                  src="{{asset('img/svg_image/ic_contact_header.svg')}}">
                             <b>
@@ -486,7 +486,6 @@
                                     </div>
                                 </a>
                             </center>
-
                     </center>
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
