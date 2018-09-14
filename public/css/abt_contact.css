@@ -1,0 +1,277 @@
+.no-padding{padding:0px}
+.heading-section{
+    background-color: #11273b;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.padding-bottom{
+    padding-bottom:2em
+}
+
+.heading-section h1  {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    margin:0px;
+}
+.heading-section h2  {
+    color: #929ca5;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom:20px
+}
+.story-section{
+    padding-top:5em;
+    padding-bottom:5em;
+}
+.story-text h3{
+    color: #507dbc;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 12px;
+    padding-bottom: 20px;
+}
+.story-text p{
+    color: #677582;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.45px;
+}
+.story-image img{
+    /*mission-text*/
+
+}
+.mission-section{
+    background-color: #11273b;
+    opacity: 0.6;
+    background-image: url("../../public/img/images/image_contact@2x.png");
+    height: 600px;
+    /*position: fixed;*/
+}
+.mission-text{
+    padding-top: 15em;
+}
+.mission-text p{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.45px;
+}
+.mission-text h3{
+    color: #fdf699;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 12px;
+}
+.vision-text{padding-top: 5em;}
+.vision-text h3{
+    color: #507dbc;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 12px;
+    padding-bottom:20px
+}
+.vision-text p{
+    color: #677582;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.45px;
+}
+.vision-image img{
+
+}
+.delivery-section{
+    background-color: #fafafb;
+    text-align:center
+}
+.delivery-section h3{
+    color: #11273b;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+}
+.delivery-section h4{
+    color: #929ca5;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 500;
+}
+.signup-btn{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #e85151;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top:2em
+}
+.mission-section,.vision-section,.delivery-section,.contact-details-section,.location-feedback{
+    padding-top:5em;
+    padding-bottom:5em
+}
+.faq-list li{
+    color: #929ca5;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.faqlink-div,.no-padding-leftright{
+padding:15px 0px
+}
+.border-bottom{
+    border-bottom: solid 1px #929ca5;
+}
+.faq-link{
+    color: #11273b;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+}
+.blue-link{
+    color: #507dbc;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+}
+.contact-details-section{
+    background-color: #507dbc;
+
+}
+.phone-detail img{
+    width: 100%;
+    max-width: 180px;
+}
+.contact-details{
+    padding-top:3em;
+}
+.contact-details p,.contact-details i{
+    color: #fdf699;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.contact-details i{
+    padding-right:10px
+}
+.contact-details h4{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.address-details h4,.feedback-form h4{
+    color: #507dbc;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom:1em;
+}
+.address-details h5{
+    color: #507dbc;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.address-details p{
+    color: #11273b;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+}
+.address-details ul li{
+    padding:2px
+}
+.location-feedback{
+    background-color: #fafafb;
+}
+.feedback-form .form-control{
+    border-color: #cfdadd;
+
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+
+    border-radius: 0px;
+    box-shadow: none;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+.feedback-form form{
+    box-shadow: 0 0 20px rgba(17, 39, 59, 0.05);
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 30px 30px;
+}
+.red{
+    color:red
+}
+.feedback-form label{
+    color: #d83646;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    /* Text style for "Contact Pe" */
+    color: #12273b;
+}
+.feedback-form  .signup-btn{
+    width: 200px;
+}
+.under-line{
+    padding:20px 0px
+}
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+
+}
+.search-bar{
+    box-shadow: 10px 17px 24px rgba(17, 39, 59, 0.05);
+    background: #fff;
+    position: relative;
+    top: -22px;
+    border-radius: 50px;
+
+}
+.search-bar-input{
+    border:none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #929ca5;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+.search-bar-input:focus{
+    box-shadow: none;
+}
+.search-bar i{
+    padding-left: 10px;
+    font-size: 15px;
+}

@@ -7,7 +7,7 @@
 @section('content')
     <section class="header">
         <div class="container">
-            <div style="margin-top:120px">
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                 <center>
                     <a class="video-link" href="https://www.youtube.com/embed/ONaPq2L-MRg?html5=1" data-width="700"
                        data-height="800">
