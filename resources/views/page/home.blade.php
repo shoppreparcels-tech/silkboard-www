@@ -186,7 +186,7 @@
                 <div class="col-md-12 col-sm-10 col-xs-10  col-lg-12 div-main-row">
                     <strong>
                         <h1 class="header1 p-color-white" style="margin-bottom: 39px;">International Shipping
-                            starting at just <span class="p-color-red">*₹399</span>
+                            starting at just <span class="p-color-red">*₹690</span>
                         </h1>
                     </strong>
                 </div>
@@ -282,7 +282,7 @@
                 <center>
                     <h1 class="header1 p-color-cement-dark div-margin">About us </h1>
                     <p class="header2 p-color-cement">Our trusted partners <span class="p-color-red"><a
-                                href="{{route('dhl.index')}}">DHL</a>,&nbsp; <a
+                                href="{{route('dhl.index')}}">DHL</a>,&nbsp;<a
                                 href="{{route('fedex.index')}}">DTDC</a></span> and <span class="p-color-red"><a
                                 href="{{route('dtdc.index')}}">FedEx</a></span> help us <br> sail smooth all the way to
                         your destination, wherever it is! </p>
@@ -317,18 +317,22 @@
                     </div>
                     <div class="col-md-3 col-md-3 col-lg-3 col-sm-6 col-xs-6">
                         <center>
-                            <img class="img-benifits img-responsive"
-                                 src="{{asset('img/svg_image/time-passing.svg')}}">
-                            <p class="online-text">&nbsp;2-5 Days</p>
-                            <p class="online-text-words">Worldwide Average <br> Delivery Time </p>
+                            <a href="{{route('dhl.index')}}">
+                                <img class="img-benifits img-responsive"
+                                     src="{{asset('img/svg_image/time-passing.svg')}}">
+                                <p class="online-text">&nbsp;3-6 Days</p>
+                                <p class="online-text-words">Worldwide Average <br> Delivery Time </p>
+                            </a>
                         </center>
                     </div>
                     <div class="col-md-3 col-md-3 col-lg-3 col-sm-6 col-xs-6">
                         <center>
-                            <img class="img-benifits img-responsive"
-                                 src="{{asset('img/svg_image/ic_box.svg')}}">
-                            <p class="online-text">Save Up to 80%</p>
-                            <p class="online-text-words">By Storing, Consolidating <br>& Repackging! </p>
+                            <a href="{{route('consolidationService')}}">
+                                <img class="img-benifits img-responsive"
+                                     src="{{asset('img/svg_image/ic_box.svg')}}">
+                                <p class="online-text">Save Up to 80%</p>
+                                <p class="online-text-words">By Storing, Consolidating <br>& Repackging! </p>
+                            </a>
                         </center>
                     </div>
 
@@ -569,10 +573,10 @@
                                  src="{{asset('img/stores/store_myntra.png')}}">
                         </div>
                     </a>
-                    <a href="https://www.snapdeal.com/">
+                    <a href="https://www.shoppersstop.com/">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('img/stores/store_snapdeal.png')}}">
+                                 src="{{asset('img/stores/shopperstop.png')}}">
                         </div>
                     </a>
 
@@ -580,7 +584,7 @@
                     <a href="https://www.limeroad.com/" target="_blank">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('img/stores/lime.png')}}">
+                                 src="{{asset('img/stores/limeroad-logo1.jpg')}}">
                         </div>
                     </a>
                     <a href="https://www.infibeam.com/" target="_blank">
@@ -631,12 +635,12 @@
             </center>
             <a href="{{route('stores')}}">
             <div class="div-find-more-stores">
-                <center>
-                    <h5 class="header5 p-color-cement p-store-margin">Browse Through <br> & Shop From</h5>
-                    <h2 class="header2 p-color-red">Top Stores</h2>
+                    <center>
+                        <h5 class="header5 p-color-cement p-store-margin">Browse Through <br> & Shop From</h5>
+                        <h2 class="header2 p-color-red">Top Stores</h2>
                         <div class="arrow arrow--right"></div>
                         <hr style="width: 93px;height: 0;border: 2px solid tomato;margin-top: -18px;">
-                </center>
+                    </center>
             </div>
             </a>
         </div>
