@@ -35,12 +35,12 @@ class PageController extends Controller
     {
         return view('page.ifs');
     }
-    public function aboutindex()
+    public function aboutIndex()
     {
         return view('page.about-new');
     }
 
-    public function contactindex()
+    public function contactIndex()
     {
         return view('page.contact-new');
     }

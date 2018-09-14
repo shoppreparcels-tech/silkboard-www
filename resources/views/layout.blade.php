@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="{{asset('css/star-rating.min.css')}}" >
     <link rel="stylesheet" href="{{asset('css/ics.css')}}" >
     <link rel="stylesheet" href="{{asset('css/ifs.css')}}" >
-    <link rel="stylesheet" href="{{asset('css/abt_contact.css')}}" >
+    <link rel="stylesheet" href="{{asset('css/about_contact.css')}}" >
 
     @yield('css_style')
 
