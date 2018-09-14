@@ -267,16 +267,12 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 ">
                 <div class="col-md-12 div-backgroud-img ">
                     <img class="img-priyamani" src="{{asset('img/images/image_header@2x.png')}}">
                 </div>
             </div>
-
         </div>
-
     </main>
     <!-- Main container -->
 
@@ -497,7 +493,7 @@
                             <br> get your package delivered to the destination in 2-5 <br>
                             business days!</p>
                         <center>
-                            <a href="{{route('ics.index')}}">
+                            <a href="{{route('schedulePickup.Index')}}">
                                 <div class="h5 btn-our-courier btn-font-size">
                                     <p>
                                         Learn More
@@ -633,17 +629,16 @@
                 </div>
 
             </center>
+            <a href="{{route('stores')}}">
             <div class="div-find-more-stores">
-
                 <center>
                     <h5 class="header5 p-color-cement p-store-margin">Browse Through <br> & Shop From</h5>
                     <h2 class="header2 p-color-red">Top Stores</h2>
-                    <a href="#">
                         <div class="arrow arrow--right"></div>
                         <hr style="width: 93px;height: 0;border: 2px solid tomato;margin-top: -18px;">
-                    </a>
                 </center>
             </div>
+            </a>
         </div>
     </section>
 
@@ -736,7 +731,9 @@
                                 <p class="p-google-review">Reviews</p>
                             </div>
                             <div class="row">
+                                <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,," target="_blank">
                                 <img src="{{asset('img/images/rating_google.png')}}">
+                            </a>
                             </div>
                             <div class="row-between-reviews"></div>
                             <div class="row">
@@ -756,7 +753,7 @@
                     <div class="row" style="margin-bottom: 16px;">
                         <div class="col-md-12 ">
                             <!-- <a href="javascript:void(0)"><span class="read-more-review"> Read more reviews </span></a> -->
-                            <a href="javascript:void(0)"><span
+                            <a href="{{route('reviews')}}"><span
                                     class="header4 p-color-red"> Read more reviews </span></a>
                         </div>
                     </div>
@@ -863,15 +860,20 @@
             <center>
                 <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
                 <p class="header2 p-doorstep-des">You've got no reason to wait around any longer, just come shopp Re!</p>
-                <button class="btn-login-doorstep header3 p-color-white">Sign Up for FREE</button>
+                <a href="https://myaccount.shoppre.com/register" target="_blank">
+                    <div class="btn-login-doorstep header3 p-color-white">
+                        <p>
+                            Sign Up for FREE
+                        </p>
+                    </div>
+                </a>
             </center>
-
             <div class="col-md-12 col-lg-12">
                 <center>
                     <p class="p-payment-method">Payment Methods We Accept</p>
                 </center>
             </div>
-            <div class="col-md-12 col-lg-12">
+            <div class="col-md-12 col-lg-12 padder-bottom">
                 <div class="col-md-6">
                     <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border ">
                         <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
@@ -897,14 +899,12 @@
                         <center>
                             <img class="img-paytm" src="{{asset('img/svg_image/ic_payment_paypal.svg')}}">
                         </center>
-
                     </div>
 
                     <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6">
                         <center>
                             <img class="img-paytm" src="{{asset('img/svg_image/ic_payment_paytm.svg')}}">
                         </center>
-
                     </div>
                 </div>
             </div>

@@ -26,12 +26,12 @@
                         <li class="nav-li"><a class="nav-a" href="javascript:void(0)">Offers</a></li>
                         <li class="nav-li"><a class="nav-a" href="{{route('contact')}}">Support</a></li>
                         <li class="nav-li">
-                        <a class="nav-a login-link" href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login">
+                        <a class="nav-a login-link" target="_blank" href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login">
                             Login
                         </a>
                         </li>
                         <li class="nav-li btn-register">
-                            <a class="nav-a btn-register-text " href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">
+                            <a class="nav-a btn-register-text" target="_blanks" href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">
                                 Register
                             </a>
                         </li>

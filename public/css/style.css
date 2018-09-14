@@ -664,6 +664,7 @@ a#prev:hover, a#next:hover {
 .padder-bottom
 {
     margin-bottom: 21px;
+    margin-left: 4%;
 }
 
 .btn-our-shop-ship{
@@ -949,6 +950,7 @@ a#prev:hover, a#next:hover {
     border-radius: 30px;
     background-color: #e85151;
     margin: 66px 0 246px 0;
+    padding-top: 10px;
 }
 
 
