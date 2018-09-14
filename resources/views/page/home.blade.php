@@ -656,7 +656,7 @@
         <div class="container">
             <center>
                 <p class="header1 p-color-white p-h-margin-customer">What Our Customers Think About Us</p>
-                <p class="header2 p-wondring">Wondering what our fellow customers are raving about? <br> Read some real</p>
+                <p class="header2 p-wondring">Wondering what our fellow customers are raving about? <br> Read some real reviews.</p>
             </center>
             <div class="col-md-12 col-lg-12 div-review">
                 <div class="col-md-12" style="margin-top: 40px ;padding-top: 10px;">
