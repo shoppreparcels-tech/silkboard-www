@@ -186,7 +186,9 @@
                 <div class="col-md-12 col-sm-10 col-xs-10  col-lg-12 div-main-row">
                     <strong>
                         <h1 class="header1 p-color-white" style="margin-bottom: 39px;">International Shipping
-                            starting at just <span class="p-color-red">*₹690!</span>
+
+                            starting at just <span class="p-color-red">*₹690</span><span style="color: #ffffff">!</span>
+
                         </h1>
                     </strong>
                 </div>
@@ -327,7 +329,7 @@
                     </div>
                     <div class="col-md-3 col-md-3 col-lg-3 col-sm-6 col-xs-6">
                         <center>
-                            <a href="{{route('consolidationService')}}">
+                            <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
                                 <img class="img-benifits img-responsive"
                                      src="{{asset('img/svg_image/ic_box.svg')}}">
                                 <p class="online-text">Save Up to 80%</p>
@@ -576,7 +578,7 @@
                     <a href="https://www.shoppersstop.com/">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('img/stores/shopperstop.png')}}">
+                                 src="{{asset('img/stores/shoppersstop-logo.png')}}">
                         </div>
                     </a>
 
@@ -765,94 +767,94 @@
 
             {{--later this block going to enable  --}}
             {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="margin-top:50px;">--}}
-                {{--<p class="header2 " style="color: #929ca5;"> Our Recent Deliveries (live) </p>--}}
+            {{--<p class="header2 " style="color: #929ca5;"> Our Recent Deliveries (live) </p>--}}
             {{--</div>--}}
 
             {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-card-holder">--}}
-                {{--<div class="col-md-1 col-lg-1 card col-xs-10 col-sm-10">--}}
-                    {{--<div class="div-recent-inner">--}}
-                        {{--<div class="row">--}}
-                            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
-                            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
-                        {{--</div>--}}
+            {{--<div class="col-md-1 col-lg-1 card col-xs-10 col-sm-10">--}}
+            {{--<div class="div-recent-inner">--}}
+            {{--<div class="row">--}}
+            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
+            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
+            {{--</div>--}}
 
-                        {{--<div class="row">--}}
-                            {{--<p class="p-destination">United States</p>--}}
-                        {{--</div>--}}
-                        {{--<div class="row">--}}
-                            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
-                            {{--</p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
+            {{--<div class="row">--}}
+            {{--<p class="p-destination">United States</p>--}}
+            {{--</div>--}}
+            {{--<div class="row">--}}
+            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
+            {{--</p>--}}
+            {{--</div>--}}
+            {{--</div>--}}
+            {{--</div>--}}
 
-                {{--<div class="col-md-1 col-lg-1 card card-margin col-xs-10 col-sm-10">--}}
-                    {{--<div class="div-recent-inner">--}}
-                        {{--<div class="row">--}}
-                            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
-                            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
-                        {{--</div>--}}
+            {{--<div class="col-md-1 col-lg-1 card card-margin col-xs-10 col-sm-10">--}}
+            {{--<div class="div-recent-inner">--}}
+            {{--<div class="row">--}}
+            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
+            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
+            {{--</div>--}}
 
-                        {{--<div class="row">--}}
-                            {{--<p class="p-destination">United States</p>--}}
-                        {{--</div>--}}
-                        {{--<div class="row">--}}
-                            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
-                            {{--</p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
+            {{--<div class="row">--}}
+            {{--<p class="p-destination">United States</p>--}}
+            {{--</div>--}}
+            {{--<div class="row">--}}
+            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
+            {{--</p>--}}
+            {{--</div>--}}
+            {{--</div>--}}
+            {{--</div>--}}
 
-                {{--<div class="col-md-1 col-lg-1  card card-margin col-xs-10 col-sm-10">--}}
-                    {{--<div class="div-recent-inner">--}}
-                        {{--<div class="row">--}}
-                            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
-                            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
-                        {{--</div>--}}
+            {{--<div class="col-md-1 col-lg-1  card card-margin col-xs-10 col-sm-10">--}}
+            {{--<div class="div-recent-inner">--}}
+            {{--<div class="row">--}}
+            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
+            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
+            {{--</div>--}}
 
-                        {{--<div class="row">--}}
-                            {{--<p class="p-destination">United States</p>--}}
-                        {{--</div>--}}
-                        {{--<div class="row">--}}
-                            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
-                            {{--</p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
+            {{--<div class="row">--}}
+            {{--<p class="p-destination">United States</p>--}}
+            {{--</div>--}}
+            {{--<div class="row">--}}
+            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
+            {{--</p>--}}
+            {{--</div>--}}
+            {{--</div>--}}
+            {{--</div>--}}
 
-                {{--<div class="col-md-1  col-lg-1 card card-margin col-xs-10 col-sm-10">--}}
-                    {{--<div class="div-recent-inner">--}}
-                        {{--<div class="row">--}}
-                            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
-                            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
-                        {{--</div>--}}
+            {{--<div class="col-md-1  col-lg-1 card card-margin col-xs-10 col-sm-10">--}}
+            {{--<div class="div-recent-inner">--}}
+            {{--<div class="row">--}}
+            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
+            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
+            {{--</div>--}}
 
-                        {{--<div class="row">--}}
-                            {{--<p class="p-destination">United States</p>--}}
-                        {{--</div>--}}
-                        {{--<div class="row">--}}
-                            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
-                            {{--</p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
+            {{--<div class="row">--}}
+            {{--<p class="p-destination">United States</p>--}}
+            {{--</div>--}}
+            {{--<div class="row">--}}
+            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
+            {{--</p>--}}
+            {{--</div>--}}
+            {{--</div>--}}
+            {{--</div>--}}
 
-                {{--<div class="col-md-1  col-lg-1  card card-margin col-xs-10 col-sm-10">--}}
-                    {{--<div class="div-recent-inner">--}}
-                        {{--<div class="row">--}}
-                            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
-                            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
-                        {{--</div>--}}
+            {{--<div class="col-md-1  col-lg-1  card card-margin col-xs-10 col-sm-10">--}}
+            {{--<div class="div-recent-inner">--}}
+            {{--<div class="row">--}}
+            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
+            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
+            {{--</div>--}}
 
-                        {{--<div class="row">--}}
-                            {{--<p class="p-destination">United States</p>--}}
-                        {{--</div>--}}
-                        {{--<div class="row">--}}
-                            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
-                            {{--</p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
+            {{--<div class="row">--}}
+            {{--<p class="p-destination">United States</p>--}}
+            {{--</div>--}}
+            {{--<div class="row">--}}
+            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
+            {{--</p>--}}
+            {{--</div>--}}
+            {{--</div>--}}
+            {{--</div>--}}
             {{--</div>--}}
             {{--later this block going to enable  --}}
         </div>
@@ -862,7 +864,8 @@
         <div class="container" style="margin-top: 60px;">
             <center>
                 <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
-                <p class="header2 p-doorstep-des">You've got no reason to wait around any longer, just come shopp Re!</p>
+                <p class="header2 p-doorstep-des">You've got no reason to wait around any longer, just come shopp
+                    Re!</p>
                 <a href="https://myaccount.shoppre.com/register" target="_blank">
                     <div class="btn-login-doorstep header3 p-color-white">
                         <p>

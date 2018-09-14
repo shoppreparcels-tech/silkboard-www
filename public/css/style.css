@@ -1042,17 +1042,15 @@ a#prev:hover, a#next:hover {
     border: 1px solid #173149;
 }
 
-
 .div-btn{
-    background-color: #e85151;
-}
-.div-btn,
-.div-btn1{
     width: 261px;
     height: 60px;
     border-radius: 5px;
     border: 1px solid #173149;
     margin-bottom: 20px;
+}
+.div-btn:hover {
+    background-color: #e85151;
 }
 
 .img-footer{

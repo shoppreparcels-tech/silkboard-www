@@ -72,7 +72,7 @@
                     </a>
                 </div>
 
-                <div class="div-btn1">
+                <div class="div-btn">
                     <a class="p-btn-name" href="{{route('schedulePickup.Index')}}">
                     <div class="col-md-2 col-lg-2 col-xs-2 col-sm-2" style="margin-top: 14px;">
                         <img class="img-footer" src="{{asset('new_assets/img/svg_image/ic_footer_courier.svg')}}">
@@ -84,7 +84,7 @@
                     </a>
                 </div>
 
-                <div class="div-btn1">
+                <div class="div-btn">
                     <a href="{{route('shopFromIndia')}}">
                     <div class="col-md-2 col-lg-2 col-xs-2 col-sm-2" style="margin-top: 14px;">
                         <img class="img-footer" src="{{asset('new_assets/img/svg_image/ic_footer_shop_ship.svg')}}">
