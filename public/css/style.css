@@ -767,7 +767,7 @@ a#prev:hover, a#next:hover {
 }
 .div-fluid{
     background-color: #11273b;
-    margin-top: -314px;
+/*     margin-top: -314px; */
     padding-bottom: 120px;
 }
 .ship-right-border{
