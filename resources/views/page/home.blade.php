@@ -283,8 +283,8 @@
                     <h1 class="header1 p-color-cement-dark div-margin">About us </h1>
                     <p class="header2 p-color-cement">Our trusted partners <span class="p-color-red"><a
                                 href="{{route('dhl.index')}}">DHL</a>,&nbsp;<a
-                                href="{{route('fedex.index')}}">DTDC</a></span> and <span class="p-color-red"><a
-                                href="{{route('dtdc.index')}}">FedEx</a></span> help us <br> sail smooth all the way to
+                                href="{{route('dtdc.index')}}">DTDC</a></span> and <span class="p-color-red"><a
+                                href="{{route('fedex.index')}}">FedEx</a></span> help us <br> sail smooth all the way to
                         your destination, wherever it is! </p>
                 </center>
             </div>
@@ -878,37 +878,44 @@
             </div>
             <div class="col-md-12 col-lg-12 padder-bottom">
                 <div class="col-md-6">
-                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border ">
-                        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
-                            <img class="img-card-transfer" src="{{asset('img/svg_image/credit-card.svg')}}">
-                        </div>
-                        <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12">
-                            <p class="p-payment-text">Credit/Debit Cards</p>
-                        </div>
+                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border">
+                        <a href="https://www.shoppre.com/credit-debit-cards/">
+                            <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
+                                <img class="img-card-transfer" src="{{asset('img/svg_image/credit-card.svg')}}">
+                            </div>
+                            <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12">
+                                <p class="p-payment-text">Credit/Debit Cards</p>
+                            </div>
+                        </a>
                     </div>
 
                     <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border">
-                        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
-                            <img class="img-card-transfer"
-                                 src="{{asset('img/svg_image/ic_payment_bank.svg')}}">
-                        </div>
-                        <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12">
-                            <p class="p-payment-text">Wire Transfer</p>
-                        </div>
+                        <a href="https://www.shoppre.com/wire-transfer/">
+                            <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
+                                <img class="img-card-transfer"
+                                     src="{{asset('img/svg_image/ic_payment_bank.svg')}}">
+                            </div>
+                            <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12">
+                                <p class="p-payment-text">Wire Transfer</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border">
-                        <center>
-                            <img class="img-paytm" src="{{asset('img/svg_image/ic_payment_paypal.svg')}}">
-                        </center>
-                    </div>
-
-                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6">
-                        <center>
-                            <img class="img-paytm" src="{{asset('img/svg_image/ic_payment_paytm.svg')}}">
-                        </center>
-                    </div>
+                    <a href="https://www.shoppre.com/paypal/">
+                        <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border">
+                            <center>
+                                <img class="img-paytm" src="{{asset('img/svg_image/ic_payment_paypal.svg')}}">
+                            </center>
+                        </div>
+                    </a>
+                    <a href="https://www.shoppre.com/paytm/">
+                        <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6">
+                            <center>
+                                <img class="img-paytm" src="{{asset('img/svg_image/ic_payment_paytm.svg')}}">
+                            </center>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

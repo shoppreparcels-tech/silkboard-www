@@ -27,6 +27,10 @@
     margin: 0
 }
 
+.navbar {
+    margin-bottom: 0px !important;
+}
+
 .header{
     background-color: #11273b;
 }
@@ -91,8 +95,8 @@ header::after{
 
 
 .nav-a:hover::before{
-    width: 70%;
-    align-content: center;
+    /*width: 70%;*/
+    /*align-content: center;*/
 }
 
 .login-link{
@@ -2162,7 +2166,8 @@ label.error {
 }
 
 .navbar-brand img {
-    height: 60px
+    height: 50px;
+    width: 160px;
 }
 
 .navbar-default {
@@ -4120,6 +4125,11 @@ section.register {
     background: #f7f7f7
 }
 
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
 .register-form .input-group-addon i {
     position: relative;
     top: 12px
@@ -4229,9 +4239,9 @@ span.spcl_tag {
     margin: 0 auto
 }
 
-.nav > li > a:focus, .nav > li > a:hover {
-    background-color: #fe9611
-}
+/*.nav > li > a:focus, .nav > li > a:hover {*/
+    /*background-color: #fe9611*/
+/*}*/
 
 .navbar-top .navbar-right li a {
     font-size: 12px;

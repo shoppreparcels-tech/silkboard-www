@@ -23,7 +23,7 @@
                         <li class="nav-li"><a class="nav-a" href="{{route('about')}}">About us</a></li>
                         <li class="nav-li"><a class="nav-a" href="{{route('services')}}">Services</a></li>
                         <li class="nav-li"><a class="nav-a" href="{{route('pricing')}}">Price Calculator</a></li>
-                        <li class="nav-li"><a class="nav-a" href="javascript:void(0)">Offers</a></li>
+                        <li class="nav-li"><a class="nav-a" href="https://www.shoppre.com/offers/send-durga-puja-gifts-from-india-ship-internationally/" target="_blank">Offers</a></li>
                         <li class="nav-li"><a class="nav-a" href="{{route('contact')}}">Support</a></li>
                         <li class="nav-li">
                         <a class="nav-a login-link" target="_blank" href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login">
