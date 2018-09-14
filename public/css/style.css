@@ -39,7 +39,7 @@ header::after{
 
 .logo{
     width: 155px;
-    height: 45px;
+    height: 40px;
     margin: 0px 0px 12px 0px;
 }
 
@@ -93,6 +93,10 @@ header::after{
 .nav-a:hover::before{
     width: 70%;
     align-content: center;
+}
+
+.login-link{
+    margin-left:100px;
 }
 
 .btn-register-text{

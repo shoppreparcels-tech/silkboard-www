@@ -13,7 +13,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="{{route('home')}}">
-                        <img class="logo" src="{{asset('new_assets/img/svg_image/logo.svg')}}" alt="ShoppRe">
+                        <img class="logo" src="{{asset('/img/images/shoppre-logo.png')}}" alt="ShoppRe">
                     </a>
                 </div>
             </div>
