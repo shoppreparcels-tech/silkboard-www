@@ -243,6 +243,9 @@ header8{
     background-color: #507dbc;
     color: #ffffff;
 }
+.btn-font-size{
+    font-size: 15px !important;
+}
 
 .btn-shop-ship,
 .btn-courier{
@@ -256,6 +259,8 @@ header8{
     font-weight: 600;
     letter-spacing: 0.7px;
     text-transform: uppercase;
+    display: inline-block;
+    padding-top: 14px;
 }
 
 
@@ -656,18 +661,22 @@ a#prev:hover, a#next:hover {
     /*line-height: 40px;*/
 }
 
+.padder-bottom
+{
+    margin-bottom: 21px;
+}
 
 .btn-our-shop-ship{
     background-color: #e85151;
     margin-top: 28px;
-    padding-top: 13px;
+    padding-top: 16px;
 }
 
 .btn-our-courier{
     border: 1px solid #507dbc;
     margin-top: 44px;
     color: #507dbc;
-    padding-top: 13px;
+    padding-top: 15px;
 }
 
 .btn-our-shop-ship,

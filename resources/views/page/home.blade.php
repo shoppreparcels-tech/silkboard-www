@@ -98,6 +98,8 @@
 
 
 
+
+
     </script>
 
     <script type="application/ld+json">
@@ -146,6 +148,8 @@
 
 
 
+
+
     </script>
 
     <script type='application/ld+json'>
@@ -170,9 +174,6 @@
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
   ]
 }
-
-
-
 
     </script>
 
@@ -204,8 +205,13 @@
                         </div>
                         <div class="row">
                             <center>
-                                <a class="btn-shop-ship" href="">SHOP & SHIP</a>
-                                {{--<button type="button" class="btn-shop-ship">SHOP & SHIP</button>--}}
+                                <a href="{{route('shopFromIndia')}}">
+                                    <div class="btn-shop-ship">
+                                        <p>
+                                            SHOP & SHIP
+                                        </p>
+                                    </div>
+                                </a>
                             </center>
                         </div>
                     </div>
@@ -224,10 +230,13 @@
 
                             <div class="row">
                                 <center>
-                                    <a class="btn-courier" href="">COURIER NOW!</a>
-                                    {{--<button type="button" href="https://www.shoppre.com/schedule-pickup" target="_blank"--}}
-                                            {{--class="btn-courier">COURIER NOW!--}}
-                                    {{--</button>--}}
+                                    <a href="{{route('schedulePickup.Index')}}">
+                                        <div class="btn-courier">
+                                            <p>
+                                                COURIER NOW!
+                                            </p>
+                                        </div>
+                                    </a>
                                 </center>
                             </div>
                         </div>
@@ -466,13 +475,16 @@
                                 shipping address; <br> shop around on Indian online stores; store your purchases in <br>
                                 your PERSONAL LOCKER & conslidate; we'll repackage & ship <br> them to your doorsteps
                             </p>
-                            <div class=" btn-our-shop-ship">
-                                <center>
-                                    <a class="header5 p-color-white " href="{{route('shopFromIndia')}}">Learn More</a>
-                                </center>
-                            </div>
+                            <center>
+                                <a href="{{route('shopFromIndia')}}">
+                                    <div class="h5 btn-our-shop-ship header5 p-color-white">
+                                        <p>
+                                            Learn More
+                                        </p>
+                                    </div>
+                                </a>
+                            </center>
                         </div>
-
                     </center>
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
@@ -480,29 +492,32 @@
                         <img class="img-shop-ship img-responsive"
                              src="{{asset('img/svg_image/ic_service_truck.svg')}}">
                         <p class="header2 p-courier-h">Courier Service
-                        <p class="header5 p-color-cement p-line-height">Schedule a Pickup, we'll come to you in 24 hours &
+                        <p class="header5 p-color-cement p-line-height">Schedule a Pickup, we'll come to you in 24 hours
+                            &
                             <br> get your package delivered to the destination in 2-5 <br>
                             business days!</p>
-
-                        <div class=" btn-our-courier">
-                            <center>
-                                <a class="h5" href="{{route('shopFromIndia')}}">Learn More</a>
-                            </center>
-                        </div>
-
+                        <center>
+                            <a href="{{route('ics.index')}}">
+                                <div class="h5 btn-our-courier btn-font-size">
+                                    <p>
+                                        Learn More
+                                    </p>
+                                </div>
+                            </a>
+                        </center>
                     </center>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Start whatcanYouship section -->
     <section>
         <div class="container-fluid">
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-margin">
                 <center>
                     <p class="header1 p-color-cement-dark">Take a Walk Around Your Favorite Stores</p>
-                    <p class="header2 p-color-cement ">Browse through popular stores, take your pick, shop & get it delivered
+                    <p class="header2 p-color-cement ">Browse through popular stores, take your pick, shop & get it
+                        delivered
                         to your virtual <br>address; we'll ship it to your destination abroad!</p>
                 </center>
             </div>
@@ -741,7 +756,8 @@
                     <div class="row" style="margin-bottom: 16px;">
                         <div class="col-md-12 ">
                             <!-- <a href="javascript:void(0)"><span class="read-more-review"> Read more reviews </span></a> -->
-                            <a href="javascript:void(0)"><span class="header4 p-color-red"> Read more reviews </span></a>
+                            <a href="javascript:void(0)"><span
+                                    class="header4 p-color-red"> Read more reviews </span></a>
                         </div>
                     </div>
                 </div>
@@ -894,7 +910,6 @@
             </div>
         </div>
     </section>
-
 @endsection
 
 
