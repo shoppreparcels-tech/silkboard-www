@@ -204,7 +204,8 @@
                         </div>
                         <div class="row">
                             <center>
-                                <button type="button" class="btn-shop-ship">SHOP & SHIP</button>
+                                <a class="btn-shop-ship" href="">SHOP & SHIP</a>
+                                {{--<button type="button" class="btn-shop-ship">SHOP & SHIP</button>--}}
                             </center>
                         </div>
                     </div>
@@ -223,9 +224,10 @@
 
                             <div class="row">
                                 <center>
-                                    <button type="button" href="https://www.shoppre.com/schedule-pickup" target="_blank"
-                                            class="btn-courier">COURIER NOW!
-                                    </button>
+                                    <a class="btn-courier" href="">COURIER NOW!</a>
+                                    {{--<button type="button" href="https://www.shoppre.com/schedule-pickup" target="_blank"--}}
+                                            {{--class="btn-courier">COURIER NOW!--}}
+                                    {{--</button>--}}
                                 </center>
                             </div>
                         </div>
@@ -275,9 +277,9 @@
                 <center>
                     <h1 class="header1 p-color-cement-dark div-margin">About us </h1>
                     <p class="header2 p-color-cement">Our trusted partners <span class="p-color-red"><a
-                                href="{{route('dhl.index')}}">DHL</a>,<a
+                                href="{{route('dhl.index')}}">DHL</a>,&nbsp; <a
                                 href="{{route('fedex.index')}}">DTDC</a></span> and <span class="p-color-red"><a
-                                href="{{route('dtdc.index')}}">Fedex</a></span> help us <br> sail smoth all the way to
+                                href="{{route('dtdc.index')}}">FedEx</a></span> help us <br> sail smooth all the way to
                         your destination, wherever it is! </p>
                 </center>
             </div>
@@ -564,52 +566,52 @@
                     </a>
 
 
-                    <a href="https://www.amazon.in/" target="_blank">
+                    <a href="https://www.limeroad.com/" target="_blank">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('img/stores/store_amazon.png')}}">
+                                 src="{{asset('img/stores/lime.png')}}">
                         </div>
                     </a>
-                    <a href="https://www.ajio.com/" target="_blank">
+                    <a href="https://www.infibeam.com/" target="_blank">
                         <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('img/stores/store_ajio.png')}}">
+                                 src="{{asset('img/stores/infi.png')}}">
                         </div>
                     </a>
-                    <a href="https://www.jabong.com/" target="_blank">
+                    <a href="https://www.shopclues.com/" target="_blank">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('img/stores/store_jabong.png')}}">
+                                 src="{{asset('img/stores/shoper.png')}}">
                         </div>
                     </a>
-                    <a href="https://www.homeshop18.com/" target="_blank">
+                    <a href="https://www.pepperfry.com/" target="_blank">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('img/stores/store_homeshop.png')}}">
+                                 src="{{asset('img/stores/pepperfry.png')}}">
                         </div>
                     </a>
-                    <a href="https://www.snapdeal.com/" target="_blank">
+                    <a href="https://paytm.com/" target="_blank">
                         <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('img/stores/store_snapdeal.png')}}">
+                                 src="{{asset('img/stores/paytm.png')}}">
                         </div>
                     </a>
-                    <a href="https://www.myntra.com/">
+                    <a href="https://www.nykaa.com/">
                         <div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('img/stores/store_myntra.png')}}">
+                                 src="{{asset('img/stores/nykka.jpg')}}">
                         </div>
                     </a>
-                    <a href="https://www.snapdeal.com/">
+                    <a href="https://www.koovs.com/">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('img/stores/store_snapdeal.png')}}">
+                                 src="{{asset('img/stores/koous.png')}}">
                         </div>
                     </a>
-                    <a href="https://www.snapdeal.com/">
+                    <a href="https://www.ebay.com/">
                         <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('img/stores/store_snapdeal.png')}}">
+                                 src="{{asset('img/stores/ebay.png')}}">
                         </div>
                     </a>
 
@@ -636,7 +638,7 @@
         <div class="container">
             <center>
                 <p class="header1 p-color-white p-h-margin-customer">What Our Customers Think About Us</p>
-                <p class="header2 p-wondring">Wondring what our fellow customers are raving aobut? Read some real</p>
+                <p class="header2 p-wondring">Wondering what our fellow customers are raving about? Read some real</p>
             </center>
             <div class="col-md-12 col-lg-12 div-review">
                 <div class="col-md-12" style="margin-top: 40px ;padding-top: 10px;">
@@ -655,7 +657,7 @@
                         <div class="row ">
                             <p class=" p-reviews">Shoppre did a fantastic job in delivering a gift to my husband
                                 who is working in Doha, Qatar.
-                                Even though i was very skeptical about their service in the beginning, I'm so
+                                Even though I was very skeptical about their service in the beginning, I'm so
                                 glad that they proved me wrong!!
                                 Thank you shoppre for your hassle free service!</p>
                         </div>
@@ -700,11 +702,10 @@
                             </i>
                         </div>
                         <div class="row">
-                            <p class="p-reviews">Shoppre did a fantastic job in delivering a gift to my husband
-                                who is working in Doha, Qatar.
-                                Even though i was very skeptical about their service in the beginning, I'm so
-                                glad that they proved me wrong!!
-                                Thank you shoppre for your hassle free service!</p>
+                            <p class="p-reviews">Extremely reliable shipping/courier agents.
+                                Miss Tanuja who had continuously worked for
+                                my shipping to U.S, even after facing hiccups with Dhl, Tanuja had
+                                a secondary plan, and made the shipping happen.  </p>
                         </div>
                         <div class="row">
                                   <span class="quots-b">

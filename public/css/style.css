@@ -695,8 +695,9 @@ a#prev:hover, a#next:hover {
 }
 
 .img-stores{
-    width: 160px;
-    height: 140px;
+    width: 150px;
+    height: 116px;
+    margin-top: 34px;
 }
 
 .div-find-more-stores{

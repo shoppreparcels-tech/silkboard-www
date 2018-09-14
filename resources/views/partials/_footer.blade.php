@@ -6,9 +6,9 @@
                     <li><a class="footer-a"  href="{{route('about')}}">About Us</a></li>
                     <li><a class="footer-a"  href="#">What's New</a></li>
                     <li><a class="footer-a"  href="{{route('story.index')}}">Our Story</a></li>
-                    <li><a class="footer-a"  href="#">Coustomer Reviws</a></li>
+                    <li><a class="footer-a"  href="#">Customer Reviews</a></li>
                     <li><a class="footer-a"  href="{{route('contact')}}">Contact Us</a></li>
-                    <li><a class="footer-a"  href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Carrer</a></li>
+                    <li><a class="footer-a"  href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Carrier</a></li>
                     <li><a class="footer-a"  href="http://blog.shoppre.com/" target="_blank">Blog</a></li>
                 </ul>
             </div>
@@ -68,7 +68,7 @@
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10" style="margin-top: 14px;" >
                         <a class="p-btn-name" href="https://www.shoppre.com/pricing">Price Calculator</a>
-                        <p class="p-best-price">Guarenteed best price</p>
+                        <p class="p-best-price">Guaranteed best price</p>
                     </div>
                 </div>
 

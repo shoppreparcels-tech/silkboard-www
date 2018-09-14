@@ -21,7 +21,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-left">
                         <li class="nav-li"><a class="nav-a" href="{{route('about')}}">About us</a></li>
-                        <li class="nav-li"><a class="nav-a" href="{{route('services')}}">Sevices</a></li>
+                        <li class="nav-li"><a class="nav-a" href="{{route('services')}}">Services</a></li>
                         <li class="nav-li"><a class="nav-a" href="{{route('pricing')}}">Price Calculator</a></li>
                         <li class="nav-li"><a class="nav-a" href="javascript:void(0)">Offers</a></li>
                         <li class="nav-li"><a class="nav-a" href="{{route('contact')}}">Support</a></li>
