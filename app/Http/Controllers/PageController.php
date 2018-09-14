@@ -35,7 +35,15 @@ class PageController extends Controller
     {
         return view('page.ifs');
     }
+    public function aboutindex()
+    {
+        return view('page.about-new');
+    }
 
+    public function contactindex()
+    {
+        return view('page.contact-new');
+    }
 
     public function saveFlyerUser(Request $request)
     {
