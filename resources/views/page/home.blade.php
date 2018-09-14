@@ -186,7 +186,7 @@
                 <div class="col-md-12 col-sm-10 col-xs-10  col-lg-12 div-main-row">
                     <strong>
                         <h1 class="header1 p-color-white" style="margin-bottom: 39px;">International Shipping
-                            starting at just <span class="p-color-red">*₹690</span>
+                            starting at just <span class="p-color-red">*₹690!</span>
                         </h1>
                     </strong>
                 </div>
