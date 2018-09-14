@@ -79,7 +79,7 @@
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10" style="margin-top: 14px;" >
                         <span class="span-color">Courier Abroad</span>
-                        <p class="p-best-price1">Schedule a Pickup</p>
+                        <p class="p-best-price">Schedule a Pickup</p>
                     </div>
                     </a>
                 </div>
@@ -91,7 +91,7 @@
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10" style="margin-top: 14px;" >
                         <span class="span-color">Shop & Ship</span>
-                        <p class="p-best-price1">Explore Stores now </p>
+                        <p class="p-best-price">Explore Stores now </p>
                     </div>
                     </a>
                 </div>
