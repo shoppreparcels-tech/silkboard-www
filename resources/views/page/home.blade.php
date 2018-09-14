@@ -590,7 +590,7 @@
                     <a href="https://www.infibeam.com/" target="_blank">
                         <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('img/stores/infi.png')}}">
+                                 src="{{asset('img/stores/infibeam.jpg')}}">
                         </div>
                     </a>
                     <a href="https://www.shopclues.com/" target="_blank">
@@ -608,7 +608,7 @@
                     <a href="https://paytm.com/" target="_blank">
                         <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
                             <img class="img-responsive img-stores"
-                                 src="{{asset('img/stores/paytm.png')}}">
+                                 src="{{asset('img/stores/paytm2.jpeg')}}">
                         </div>
                     </a>
                     <a href="https://www.nykaa.com/">
