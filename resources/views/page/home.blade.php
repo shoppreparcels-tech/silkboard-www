@@ -906,7 +906,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
                     <a href="https://www.shoppre.com/paypal/">
                         <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border">
                             <center>

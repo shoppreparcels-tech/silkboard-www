@@ -1390,8 +1390,8 @@ a#prev:hover, a#next:hover {
         margin-top: 20px;
     }
 
-    .ship-right-border{
-        border-right: 0px;
+    .ship-left-border{
+        border-left: 0px;
     }
     .img-stores{
         width: 58px;
@@ -1399,7 +1399,7 @@ a#prev:hover, a#next:hover {
     }
 
     .div-fluid{
-        margin-top:-210px;
+        /*margin-top:-210px;*/
     }
     .quots-t,
     .quots-b{
@@ -1442,6 +1442,9 @@ a#prev:hover, a#next:hover {
     .img-paypal{
         margin-top: 31px;
     }
+    .padder-bottom{
+        margin-bottom: 21px;
+    }
 
     .footer-a {
         font-size: 10px;
@@ -1454,7 +1457,7 @@ a#prev:hover, a#next:hover {
     }
 
     .div-btn{
-        margin-top: 60px
+        margin-top: 14px;
     }
     .p-footer{
         font-size: 12px;
