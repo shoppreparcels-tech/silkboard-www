@@ -42,7 +42,8 @@
                         </a>
                     </li>
                     <li>
-                        <a class="footer-a"  href="#">CONNECT ON</a><br>
+                        {{--<a class="footer-a"  href="#">CONNECT ON</a><br>--}}
+                        <p class="footer-a" style=" margin-bottom: -15px;">CONNECT ON</p><br>
                         <a class="footer-a"  href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw">
                             <img class="img-connect" src="{{asset('new_assets/img/svg_image/ic_social_google.svg')}}">
                         </a>
