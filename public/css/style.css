@@ -44,7 +44,7 @@ header::after{
 .logo{
     width: 155px;
     height: 40px;
-    margin: 0px 0px 12px 0px;
+    margin-top: 13px;
 }
 
 
@@ -770,8 +770,8 @@ a#prev:hover, a#next:hover {
 /*     margin-top: -314px; */
     padding-bottom: 120px;
 }
-.ship-right-border{
-    border-right:2px solid #507dbc;
+.ship-left-border{
+    border-left:1px solid #507dbc;
     padding: 0px;
 }
 
@@ -1212,7 +1212,7 @@ a#prev:hover, a#next:hover {
     }
     .div-backgroud-img{
         display: none;
-        margin: 0px 0px 0px 0px;
+        /*margin: 0px 0px 0px 0px;*/
     }
 
     .img-benifits{

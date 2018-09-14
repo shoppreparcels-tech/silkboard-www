@@ -17,7 +17,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-9 " style="margin-top: -12px;">
+            <div class="col-md-9 ">
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-left">
                         <li class="nav-li"><a class="nav-a" href="{{route('about')}}">About us</a></li>

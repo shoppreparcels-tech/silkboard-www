@@ -471,7 +471,7 @@
                     <center>
                         <img class="img-shop-ship img-responsive"
                              src="{{asset('img/svg_image/ic_service_shopandship.svg')}}">
-                        <div class="ship-right-border">
+
                             <p class="header2 p-color-red ">Shop & Ship</p>
                             <p class="header5 p-color-cement">Sign up for FREE and get your own local, virtual
                                 shipping address; <br> shop around on Indian online stores; store your purchases in <br>
@@ -486,18 +486,20 @@
                                     </div>
                                 </a>
                             </center>
-                        </div>
+
                     </center>
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                     <center>
                         <img class="img-shop-ship img-responsive"
                              src="{{asset('img/svg_image/ic_service_truck.svg')}}">
+                        <div class="ship-left-border">
                         <p class="header2 p-courier-h">Courier Service
                         <p class="header5 p-color-cement p-line-height">Schedule a Pickup, we'll come to you in 24 hours
                             &
                             <br> get your package delivered to the destination in 2-5 <br>
                             business days!</p>
+                        </div>
                         <center>
                             <a href="{{route('schedulePickup.Index')}}">
                                 <div class="h5 btn-our-courier btn-font-size">
