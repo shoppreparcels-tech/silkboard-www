@@ -100,6 +100,7 @@
 
 
 
+
     </script>
 
     <script type="application/ld+json">
@@ -150,6 +151,7 @@
 
 
 
+
     </script>
 
     <script type='application/ld+json'>
@@ -175,6 +177,7 @@
   ]
 }
 
+
     </script>
 
 @endsection
@@ -194,7 +197,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-6 col-sm-12 col-xs-12  col-lg-6 div-shop-ship">
+                    <div class="col-md-6 col-sm-12 col-xs-12  col-lg-6 div-shop-ship" id="shop-ship">
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
                                 <center>
@@ -208,7 +211,7 @@
                         <div class="row">
                             <center>
                                 <a href="{{route('shopFromIndia')}}">
-                                    <div class="btn-shop-ship">
+                                    <div class="btn-shop-ship" id="btn-shop-ship">
                                         <p>
                                             SHOP & SHIP
                                         </p>
@@ -217,7 +220,7 @@
                             </center>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 div-courier">
+                    <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 div-courier" id="courier">
                         <div class="div-courier-text">
                             <div class="row">
                                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -233,7 +236,7 @@
                             <div class="row">
                                 <center>
                                     <a href="{{route('schedulePickup.Index')}}">
-                                        <div class="btn-courier">
+                                        <div class="btn-courier" id="btn-courier">
                                             <p>
                                                 COURIER NOW!
                                             </p>
@@ -257,9 +260,9 @@
                                  src="{{asset('img/svg_image/ic_contact_header.svg')}}">
                             <b>
                                 <a href="tel:+91-80 4094 4077">
-                                    <p class="p-support-text">
-                                        &nbsp;Call Now +91 914-835-7733
-                                    </p>
+                                    <b><p class="p-support-text">
+                                            &nbsp;+91 914-835-7733
+                                        </p></b>
                                 </a>
                             </b>
                         </div>
@@ -280,7 +283,7 @@
 
     <section>
         <div class="container">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 60px;">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 30px;">
                 <center>
                     <h1 class="header1 p-color-cement-dark div-margin">About us </h1>
                     <p class="header2 p-color-cement">Our trusted partners <span class="p-color-red"><a
@@ -472,20 +475,20 @@
                         <img class="img-shop-ship img-responsive"
                              src="{{asset('img/svg_image/ic_service_shopandship.svg')}}">
 
-                            <p class="header2 p-color-red ">Shop & Ship</p>
-                            <p class="header5 p-color-cement">Sign up for FREE and get your own local, virtual
-                                shipping address; <br> shop around on Indian online stores; store your purchases in <br>
-                                your PERSONAL LOCKER & conslidate; we'll repackage & ship <br> them to your doorsteps
-                            </p>
-                            <center>
-                                <a href="{{route('shopFromIndia')}}">
-                                    <div class="h5 btn-our-shop-ship header5 p-color-white">
-                                        <p>
-                                            Learn More
-                                        </p>
-                                    </div>
-                                </a>
-                            </center>
+                        <p class="header2 p-color-red ">Shop & Ship</p>
+                        <p class="header5 p-color-cement">Sign up for FREE and get your own local, virtual
+                            shipping address; <br> shop around on Indian online stores; store your purchases in <br>
+                            your PERSONAL LOCKER & conslidate; we'll repackage & ship <br> them to your doorsteps
+                        </p>
+                        <center>
+                            <a href="{{route('shopFromIndia')}}">
+                                <div class="btn-our-shop-ship header5">
+                                    <p>
+                                        Learn More
+                                    </p>
+                                </div>
+                            </a>
+                        </center>
                     </center>
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
@@ -493,15 +496,16 @@
                         <img class="img-shop-ship img-responsive"
                              src="{{asset('img/svg_image/ic_service_truck.svg')}}">
                         <div class="ship-left-border">
-                        <p class="header2 p-courier-h">Courier Service
-                        <p class="header5 p-color-cement p-line-height">Schedule a Pickup, we'll come to you in 24 hours
-                            &
-                            <br> get your package delivered to the destination in 2-5 <br>
-                            business days!</p>
+                            <p class="header2 p-courier-h">Courier Service
+                            <p class="header5 p-color-cement p-line-height">Schedule a Pickup, we'll come to you in 24
+                                hours
+                                &
+                                <br> get your package delivered to the destination in 2-5 <br>
+                                business days!</p>
                         </div>
                         <center>
                             <a href="{{route('schedulePickup.Index')}}">
-                                <div class="h5 btn-our-courier btn-font-size">
+                                <div class="h5 btn-our-courier btn-font-size" id="btn-our-courier">
                                     <p>
                                         Learn More
                                     </p>
@@ -515,138 +519,138 @@
     </section>
     <!-- Start whatcanYouship section -->
     {{--<section>--}}
-        {{--<div class="container-fluid">--}}
-            {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-margin">--}}
-                {{--<center>--}}
-                    {{--<p class="header1 p-color-cement-dark">Take a Walk Around Your Favorite Stores</p>--}}
-                    {{--<p class="header2 p-color-cement ">Browse through popular stores, take your pick, shop & get it--}}
-                        {{--delivered--}}
-                        {{--to your virtual <br>address; we'll ship it to your destination abroad!</p>--}}
-                {{--</center>--}}
-            {{--</div>--}}
-        {{--</div>--}}
+    {{--<div class="container-fluid">--}}
+    {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-margin">--}}
+    {{--<center>--}}
+    {{--<p class="header1 p-color-cement-dark">Take a Walk Around Your Favorite Stores</p>--}}
+    {{--<p class="header2 p-color-cement ">Browse through popular stores, take your pick, shop & get it--}}
+    {{--delivered--}}
+    {{--to your virtual <br>address; we'll ship it to your destination abroad!</p>--}}
+    {{--</center>--}}
+    {{--</div>--}}
+    {{--</div>--}}
 
 
-        {{--<div class="container-fluid div-margin" style="margin-bottom: 60px;margin-left: 35px;">--}}
-            {{--<center>--}}
-                {{--<div class="row">--}}
-                    {{--@php--}}
-                    {{--$stores = array("flipkart","amazon","ajio","jabong","jabong","homeshop","snapdeal")--}}
-                    {{--@endphp--}}
+    {{--<div class="container-fluid div-margin" style="margin-bottom: 60px;margin-left: 35px;">--}}
+    {{--<center>--}}
+    {{--<div class="row">--}}
+    {{--@php--}}
+    {{--$stores = array("flipkart","amazon","ajio","jabong","jabong","homeshop","snapdeal")--}}
+    {{--@endphp--}}
 
-                    {{--<a href="https://www.flipkart.com/" target="_blank">--}}
-                        {{--<div class="col-md-2 col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
-                            {{--<img class="img-responsive img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/store_flipkart.png')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
-                    {{--<a href="https://www.amazon.in/" target="_blank">--}}
-                        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-                            {{--<img class="img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/store_amazon.png')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
-                    {{--<a href="https://www.ajio.com/" target="_blank">--}}
-                        {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
-                            {{--<img class="img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/store_ajio.png')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
-                    {{--<a href="https://www.jabong.com/" target="_blank">--}}
-                        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-                            {{--<img class="img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/store_jabong.png')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
-                    {{--<a href="https://www.homeshop18.com/" target="_blank">--}}
-                        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-                            {{--<img class="img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/store_homeshop.png')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
-                    {{--<a href="https://www.snapdeal.com/" target="_blank">--}}
-                        {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
-                            {{--<img class="img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/store_snapdeal.png')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
-                    {{--<a href="https://www.myntra.com/">--}}
-                        {{--<div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">--}}
-                            {{--<img class="img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/store_myntra.png')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
-                    {{--<a href="https://www.shoppersstop.com/">--}}
-                        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">--}}
-                            {{--<img class="img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/shoppersstop-logo.png')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
+    {{--<a href="https://www.flipkart.com/" target="_blank">--}}
+    {{--<div class="col-md-2 col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
+    {{--<img class="img-responsive img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/store_flipkart.png')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
+    {{--<a href="https://www.amazon.in/" target="_blank">--}}
+    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
+    {{--<img class="img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/store_amazon.png')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
+    {{--<a href="https://www.ajio.com/" target="_blank">--}}
+    {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
+    {{--<img class="img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/store_ajio.png')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
+    {{--<a href="https://www.jabong.com/" target="_blank">--}}
+    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
+    {{--<img class="img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/store_jabong.png')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
+    {{--<a href="https://www.homeshop18.com/" target="_blank">--}}
+    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
+    {{--<img class="img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/store_homeshop.png')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
+    {{--<a href="https://www.snapdeal.com/" target="_blank">--}}
+    {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
+    {{--<img class="img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/store_snapdeal.png')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
+    {{--<a href="https://www.myntra.com/">--}}
+    {{--<div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">--}}
+    {{--<img class="img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/store_myntra.png')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
+    {{--<a href="https://www.shoppersstop.com/">--}}
+    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">--}}
+    {{--<img class="img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/shoppersstop-logo.png')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
 
 
-                    {{--<a href="https://www.limeroad.com/" target="_blank">--}}
-                        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-                            {{--<img class="img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/limeroad-logo1.jpg')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
-                    {{--<a href="https://www.infibeam.com/" target="_blank">--}}
-                        {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
-                            {{--<img class="img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/infibeam.jpg')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
-                    {{--<a href="https://www.shopclues.com/" target="_blank">--}}
-                        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-                            {{--<img class="img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/shoper.png')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
-                    {{--<a href="https://www.pepperfry.com/" target="_blank">--}}
-                        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-                            {{--<img class="img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/pepperfry.png')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
-                    {{--<a href="https://paytm.com/" target="_blank" id="hidestore" >--}}
-                        {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
-                            {{--<img class="img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/paytm2.jpeg')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
-                    {{--<a href="https://www.nykaa.com/" target="_blank" id="hidestore">--}}
-                        {{--<div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">--}}
-                            {{--<img class="img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/nykka.jpg')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
-                    {{--<a href="https://www.koovs.com/" target="_blank" id="hidestore">--}}
-                        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">--}}
-                            {{--<img class="img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/koous.png')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
-                    {{--<a href="https://www.ebay.com/" target="_blank"  id="hidestore">--}}
-                        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">--}}
-                            {{--<img class="img-responsive img-stores"--}}
-                                 {{--src="{{asset('img/stores/ebay.png')}}">--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
+    {{--<a href="https://www.limeroad.com/" target="_blank">--}}
+    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
+    {{--<img class="img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/limeroad-logo1.jpg')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
+    {{--<a href="https://www.infibeam.com/" target="_blank">--}}
+    {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
+    {{--<img class="img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/infibeam.jpg')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
+    {{--<a href="https://www.shopclues.com/" target="_blank">--}}
+    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
+    {{--<img class="img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/shoper.png')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
+    {{--<a href="https://www.pepperfry.com/" target="_blank">--}}
+    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
+    {{--<img class="img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/pepperfry.png')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
+    {{--<a href="https://paytm.com/" target="_blank" id="hidestore" >--}}
+    {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
+    {{--<img class="img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/paytm2.jpeg')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
+    {{--<a href="https://www.nykaa.com/" target="_blank" id="hidestore">--}}
+    {{--<div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">--}}
+    {{--<img class="img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/nykka.jpg')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
+    {{--<a href="https://www.koovs.com/" target="_blank" id="hidestore">--}}
+    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">--}}
+    {{--<img class="img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/koous.png')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
+    {{--<a href="https://www.ebay.com/" target="_blank"  id="hidestore">--}}
+    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">--}}
+    {{--<img class="img-responsive img-stores"--}}
+    {{--src="{{asset('img/stores/ebay.png')}}">--}}
+    {{--</div>--}}
+    {{--</a>--}}
 
-                {{--</div>--}}
+    {{--</div>--}}
 
-            {{--</center>--}}
-            {{--<a href="{{route('stores')}}">--}}
-            {{--<div class="div-find-more-stores">--}}
-                    {{--<center>--}}
-                        {{--<h5 class="header5 p-color-cement p-store-margin">Browse Through <br> & Shop From</h5>--}}
-                        {{--<h2 class="header2 p-color-red">Top Stores</h2>--}}
-                        {{--<div class="arrow arrow--right"></div>--}}
-                        {{--<hr style="width: 93px;height: 0;border: 2px solid tomato;margin-top: -18px;">--}}
-                    {{--</center>--}}
-            {{--</div>--}}
-            {{--</a>--}}
-        {{--</div>--}}
+    {{--</center>--}}
+    {{--<a href="{{route('stores')}}">--}}
+    {{--<div class="div-find-more-stores">--}}
+    {{--<center>--}}
+    {{--<h5 class="header5 p-color-cement p-store-margin">Browse Through <br> & Shop From</h5>--}}
+    {{--<h2 class="header2 p-color-red">Top Stores</h2>--}}
+    {{--<div class="arrow arrow--right"></div>--}}
+    {{--<hr style="width: 93px;height: 0;border: 2px solid tomato;margin-top: -18px;">--}}
+    {{--</center>--}}
+    {{--</div>--}}
+    {{--</a>--}}
+    {{--</div>--}}
     {{--</section>--}}
 
 
@@ -655,12 +659,14 @@
         <div class="container">
             <center>
                 <p class="header1 p-color-white p-h-margin-customer">What Our Customers Think About Us</p>
-                <p class="header2 p-wondring">Wondering what our fellow customers are raving about? <br> Read some real reviews.</p>
+                <p class="header2 p-wondring">Wondering what our fellow customers are raving about? <br> Read some real
+                    reviews.</p>
             </center>
-            <div class="col-md-12 col-lg-12 div-review">
-                <div class="col-md-12" style="margin-top: 40px ;padding-top: 10px;">
-                    {{--<div class="row">--}}
-                    <div class="col-md-2  div-inner-review">
+        </div>
+        <div class="container div-review">
+            <div class="col-md-7 col-lg-7" style="margin-top: 20px">
+                <div class="row">
+                    <div class="col-md-3  div-inner-review">
                         <div class="row div-img-row">
                             <img class=" img-review img-circle" src="{{asset('img/images/23.jpg')}}">
                             <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Aswathy Revi</p>
@@ -684,7 +690,7 @@
                                       </span>
                         </div>
                     </div>
-                    <div class="col-md-2 div-inner-review">
+                    <div class="col-md-3 div-inner-review">
                         <div class="row div-img-row">
                             <img class=" img-review img-circle" src="{{asset('img/images/9.jpg')}}">
                             <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Sudeep Sagar</p>
@@ -707,7 +713,7 @@
                                       </span>
                         </div>
                     </div>
-                    <div class="col-md-2 div-inner-review">
+                    <div class="col-md-3 div-inner-review">
                         <div class="row div-img-row">
                             <img class=" img-review img-circle" src="{{asset('img/images/6.jpg')}}">
                             <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Anirudh Lal</p>
@@ -722,7 +728,7 @@
                             <p class="p-reviews">Extremely reliable shipping/courier agents.
                                 Miss Tanuja who had continuously worked for
                                 my shipping to U.S, even after facing hiccups with Dhl, Tanuja had
-                                a secondary plan, and made the shipping happen.  </p>
+                                a secondary plan, and made the shipping happen. </p>
                         </div>
                         <div class="row">
                                   <span class="quots-b">
@@ -730,139 +736,140 @@
                                   </span>
                         </div>
                     </div>
-                    <div class="col-md-5 col-md-offset-1  div-inner-review">
-                        <center>
-                            <div class="row div-img-row">
-                                <img class="img-google-logo "
-                                     src="{{asset('img/svg_image/ic_google.svg')}}">
-                                <p class="p-google-review">Reviews</p>
-                            </div>
-                            <div class="row">
-                                <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,," target="_blank">
-                                <img src="{{asset('img/images/rating_google.png')}}">
-                            </a>
-                            </div>
-                            <div class="row-between-reviews"></div>
-                            <div class="row">
-                                <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
-                                <img class="img-facebook-logo"
-                                     src="{{asset('img/images/Facebook_Logo@2x.png')}}">
-                                <p class="p-facebook-review">Reviews</p>
-                                </a>
-                            </div>
-                            <div class="row">
-                                <img class="img-facebook-r"
-                                     src="{{asset('img/images/rating_facebook.png')}}">
-                            </div>
-                        </center>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 " style=" margin: 16px 0 16px 11px;">
+                        <!-- <a href="javascript:void(0)"><span class="read-more-review"> Read more reviews </span></a> -->
+                        <a href="{{route('reviews')}}"><span
+                                class="header4 p-color-red" id="readmore"> Read more reviews </span></a>
                     </div>
-                    <div class="row" style="margin-bottom: 16px;">
-                        <div class="col-md-12 ">
-                            <!-- <a href="javascript:void(0)"><span class="read-more-review"> Read more reviews </span></a> -->
-                            <a href="{{route('reviews')}}"><span
-                                    class="header4 p-color-red"> Read more reviews </span></a>
-                        </div>
-                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-5 col-lg-5" style="padding-left: 50px;">
+                <div class="row div-img-row">
+                    <img class="img-google-logo "
+                         src="{{asset('img/svg_image/ic_google.svg')}}">
+                    <p class="p-google-review">Reviews</p>
+                </div>
+                <div class="row">
+                    <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
+                       target="_blank">
+                        <img src="{{asset('img/images/rating_google.png')}}">
+                    </a>
+                </div>
+                <div class="row-between-reviews"></div>
+                <div class="row">
+                    <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
+                        <img class="img-facebook-logo"
+                             src="{{asset('img/images/Facebook_Logo@2x.png')}}">
+                        <p class="p-facebook-review">Reviews</p>
+                    </a>
+                </div>
+                <div class="row">
+                    <img class="img-facebook-r"
+                         src="{{asset('img/images/rating_facebook.png')}}">
                 </div>
             </div>
 
-            {{--later this block going to enable  --}}
-            {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="margin-top:50px;">--}}
-            {{--<p class="header2 " style="color: #929ca5;"> Our Recent Deliveries (live) </p>--}}
-            {{--</div>--}}
 
-            {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-card-holder">--}}
-            {{--<div class="col-md-1 col-lg-1 card col-xs-10 col-sm-10">--}}
-            {{--<div class="div-recent-inner">--}}
-            {{--<div class="row">--}}
-            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
-            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
-            {{--</div>--}}
-
-            {{--<div class="row">--}}
-            {{--<p class="p-destination">United States</p>--}}
-            {{--</div>--}}
-            {{--<div class="row">--}}
-            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
-            {{--</p>--}}
-            {{--</div>--}}
-            {{--</div>--}}
-            {{--</div>--}}
-
-            {{--<div class="col-md-1 col-lg-1 card card-margin col-xs-10 col-sm-10">--}}
-            {{--<div class="div-recent-inner">--}}
-            {{--<div class="row">--}}
-            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
-            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
-            {{--</div>--}}
-
-            {{--<div class="row">--}}
-            {{--<p class="p-destination">United States</p>--}}
-            {{--</div>--}}
-            {{--<div class="row">--}}
-            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
-            {{--</p>--}}
-            {{--</div>--}}
-            {{--</div>--}}
-            {{--</div>--}}
-
-            {{--<div class="col-md-1 col-lg-1  card card-margin col-xs-10 col-sm-10">--}}
-            {{--<div class="div-recent-inner">--}}
-            {{--<div class="row">--}}
-            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
-            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
-            {{--</div>--}}
-
-            {{--<div class="row">--}}
-            {{--<p class="p-destination">United States</p>--}}
-            {{--</div>--}}
-            {{--<div class="row">--}}
-            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
-            {{--</p>--}}
-            {{--</div>--}}
-            {{--</div>--}}
-            {{--</div>--}}
-
-            {{--<div class="col-md-1  col-lg-1 card card-margin col-xs-10 col-sm-10">--}}
-            {{--<div class="div-recent-inner">--}}
-            {{--<div class="row">--}}
-            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
-            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
-            {{--</div>--}}
-
-            {{--<div class="row">--}}
-            {{--<p class="p-destination">United States</p>--}}
-            {{--</div>--}}
-            {{--<div class="row">--}}
-            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
-            {{--</p>--}}
-            {{--</div>--}}
-            {{--</div>--}}
-            {{--</div>--}}
-
-            {{--<div class="col-md-1  col-lg-1  card card-margin col-xs-10 col-sm-10">--}}
-            {{--<div class="div-recent-inner">--}}
-            {{--<div class="row">--}}
-            {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
-            {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
-            {{--</div>--}}
-
-            {{--<div class="row">--}}
-            {{--<p class="p-destination">United States</p>--}}
-            {{--</div>--}}
-            {{--<div class="row">--}}
-            {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
-            {{--</p>--}}
-            {{--</div>--}}
-            {{--</div>--}}
-            {{--</div>--}}
-            {{--</div>--}}
-            {{--later this block going to enable  --}}
         </div>
+        {{--later this block going to enable  --}}
+        {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="margin-top:50px;">--}}
+        {{--<p class="header2 " style="color: #929ca5;"> Our Recent Deliveries (live) </p>--}}
+        {{--</div>--}}
+
+        {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-card-holder">--}}
+        {{--<div class="col-md-1 col-lg-1 card col-xs-10 col-sm-10">--}}
+        {{--<div class="div-recent-inner">--}}
+        {{--<div class="row">--}}
+        {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
+        {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
+        {{--</div>--}}
+
+        {{--<div class="row">--}}
+        {{--<p class="p-destination">United States</p>--}}
+        {{--</div>--}}
+        {{--<div class="row">--}}
+        {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
+        {{--</p>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+
+        {{--<div class="col-md-1 col-lg-1 card card-margin col-xs-10 col-sm-10">--}}
+        {{--<div class="div-recent-inner">--}}
+        {{--<div class="row">--}}
+        {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
+        {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
+        {{--</div>--}}
+
+        {{--<div class="row">--}}
+        {{--<p class="p-destination">United States</p>--}}
+        {{--</div>--}}
+        {{--<div class="row">--}}
+        {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
+        {{--</p>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+
+        {{--<div class="col-md-1 col-lg-1  card card-margin col-xs-10 col-sm-10">--}}
+        {{--<div class="div-recent-inner">--}}
+        {{--<div class="row">--}}
+        {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
+        {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
+        {{--</div>--}}
+
+        {{--<div class="row">--}}
+        {{--<p class="p-destination">United States</p>--}}
+        {{--</div>--}}
+        {{--<div class="row">--}}
+        {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
+        {{--</p>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+
+        {{--<div class="col-md-1  col-lg-1 card card-margin col-xs-10 col-sm-10">--}}
+        {{--<div class="div-recent-inner">--}}
+        {{--<div class="row">--}}
+        {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
+        {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
+        {{--</div>--}}
+
+        {{--<div class="row">--}}
+        {{--<p class="p-destination">United States</p>--}}
+        {{--</div>--}}
+        {{--<div class="row">--}}
+        {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
+        {{--</p>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+
+        {{--<div class="col-md-1  col-lg-1  card card-margin col-xs-10 col-sm-10">--}}
+        {{--<div class="div-recent-inner">--}}
+        {{--<div class="row">--}}
+        {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
+        {{--<img class="img-card-status" src="{{asset('img/svg_image/ic_delivered.svg')}}">--}}
+        {{--</div>--}}
+
+        {{--<div class="row">--}}
+        {{--<p class="p-destination">United States</p>--}}
+        {{--</div>--}}
+        {{--<div class="row">--}}
+        {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
+        {{--</p>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--later this block going to enable  --}}
     </section>
 
     <section>
-        <div class="container" style="margin-top: 60px;">
+        <div class="container" style="margin-top: 30px;">
             <center>
                 <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
                 <p class="header2 p-doorstep-des">You've got no reason to wait around any longer, just come ShoppRe!</p>
@@ -874,7 +881,8 @@
                     </div>
                 </a>
             </center>
-            <div  class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style=" height: 2px;background-color: rgba(146, 156, 165, 0.1); margin-top: -60px"></div>
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12"
+                 style=" height: 2px;background-color: rgba(146, 156, 165, 0.1); margin-top: -30px"></div>
             <div class="col-md-12 col-lg-12">
                 <center>
                     <p class="p-payment-method">Payment Methods We Accept</p>
@@ -882,7 +890,7 @@
             </div>
             <div class="col-md-12 col-lg-12 padder-bottom">
                 <div class="col-md-6">
-                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border">
+                    <div class="col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-6 col-sm-6 div-border">
                         <a href="https://www.shoppre.com/credit-debit-cards/">
                             <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
                                 <img class="img-card-transfer" src="{{asset('img/svg_image/credit-card.svg')}}">
@@ -893,7 +901,7 @@
                         </a>
                     </div>
 
-                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border">
+                    <div class="col-md-5 col-lg-5 col-xs-6 col-sm-6 div-border">
                         <a href="https://www.shoppre.com/wire-transfer/">
                             <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
                                 <img class="img-card-transfer"
@@ -907,14 +915,14 @@
                 </div>
                 <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
                     <a href="https://www.shoppre.com/paypal/">
-                        <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border">
+                        <div class="col-md-4 col-lg-4 col-xs-6 col-sm-6 div-border">
                             <center>
                                 <img class="img-paytm" src="{{asset('img/svg_image/ic_payment_paypal.svg')}}">
                             </center>
                         </div>
                     </a>
                     <a href="https://www.shoppre.com/paytm/">
-                        <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6">
+                        <div class="col-md-4 col-lg-4 col-xs-6 col-sm-6">
                             <center>
                                 <img class="img-paytm" src="{{asset('img/svg_image/ic_payment_paytm.svg')}}">
                             </center>
@@ -924,6 +932,46 @@
             </div>
         </div>
     </section>
+
+@section('js_script')
+    {{-- required this block for next vertion --}}
+    {{--<script>--}}
+    {{--$(document).ready(function(){--}}
+    {{--$("#shop-ship").hover(function(){--}}
+    {{--$("#courier").css("background-color", "#e85151");--}}
+    {{--$("#courier").css("transition", "0.5s");--}}
+    {{--$("#btn-courier").css("background-color", "#ffffff");--}}
+    {{--$("#btn-shop-ship").css("background-color", "#507dbc");--}}
+
+    {{--$(this).css("background-color", "#507dbc");--}}
+    {{--}, function(){--}}
+    {{--$(this).css("background-color", "#e85151");--}}
+    {{--$("#courier").css("background-color", "#507dbc");--}}
+    {{--$("#btn-courier").css("background-color", "#507dbc");--}}
+    {{--$("#btn-shop-ship").css("background-color", "#ffffff");--}}
+
+    {{--});--}}
+
+
+    {{--$("#courier").hover(function(){--}}
+
+    {{--$("#shop-ship").css("background-color", "#507dbc");--}}
+    {{--$("#shop-ship").css("transition", "0.5s");--}}
+    {{--$("#btn-shop-ship").css("background-color", "#507dbc");--}}
+    {{--$("#courier").css("background-color", "#ffffff");--}}
+
+    {{--$(this).css("background-color", "#e85151");--}}
+    {{--}, function(){--}}
+    {{--$(this).css("background-color", "#507dbc");--}}
+    {{--$("#shop-ship").css("background-color", "#e85151");--}}
+    {{--$("#btn-shop-ship").css("background-color", "#ffffff");--}}
+    {{--$("#courier").css("background-color", "#507dbc");--}}
+    {{--});--}}
+    {{--});--}}
+    {{--</script>--}}
+    {{-- required this block --}}
+@endsection
+
 @endsection
 
 

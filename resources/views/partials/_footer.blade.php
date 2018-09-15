@@ -104,7 +104,7 @@
         <div class="row">
             <center>
                 <a href="{{route('home')}}"><img class="img-footer-logo" alt="Company" src="{{asset('/img/images/shoppre-logo.png')}}"></a>
-                <p class="footer-a p-footer">© 2018, All Rights Reserved - by ShoppRe.com™ </p>
+                <p class="footer-rights p-footer">© 2018, All Rights Reserved - by <span class="footer-a">ShoppRe.com™</span> </p>
             </center>
         </div>
 

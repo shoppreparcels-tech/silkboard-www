@@ -12,7 +12,7 @@
 
 .body{
     margin: 0;
-    font-family: Montserrat;
+    font-family: Montserrat !important;
 
 }
 
@@ -74,14 +74,16 @@ header::after{
 }
 
 .nav a:hover{
-    color: #929ca5;
+    color: #ffffff;
     text-decoration: none;
 }
 
 /*a:hover{
   text-decoration: none;
 }*/
-
+.icon-bar {
+    background-color: #ffffff !important;
+}
 .nav-a::before{
     content: '';
     display: block;
@@ -120,8 +122,14 @@ header::after{
     height: 30px;
     border-radius: 30px;
     background-color: #e85151;
+    opacity: 60%;
 }
 
+btn-register-text:hover{
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.6);
+}
 
 .gly-search{
     width: 17px;
@@ -164,7 +172,7 @@ header::after{
 .header1{
     font-size: 36px;
     font-weight: 700;
-    letter-spacing: 1.8px;
+    /*letter-spacing: 1.8px;*/
 }
 
 .header2{
@@ -238,7 +246,7 @@ header8{
     color: #ffffff;
     font-size: 18px;
     font-weight: 700;
-    letter-spacing: 0.9px;
+    /*letter-spacing: 0.9px;*/
     margin-top: 86px;
 }
 
@@ -264,10 +272,22 @@ header8{
     margin: 23px 30px  0px  13px ;
     font-size: 14px;
     font-weight: 600;
-    letter-spacing: 0.7px;
+    /*letter-spacing: 0.7px;*/
     text-transform: uppercase;
     display: inline-block;
     padding-top: 14px;
+    margin-left: 26px;
+}
+
+.btn-shop-ship:hover{
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+}
+.btn-courier:hover {
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
 }
 
 
@@ -679,25 +699,45 @@ a#prev:hover, a#next:hover {
 }
 
 .btn-our-shop-ship{
-    background-color: #e85151;
     margin-top: 28px;
     padding-top: 16px;
+    border: 1px solid #507dbc;
+    background-color:#ffffff;
 }
 
 .btn-our-courier{
     border: 1px solid #507dbc;
     margin-top: 44px;
-    color: #507dbc;
     padding-top: 15px;
 }
 
 .btn-our-shop-ship,
 .btn-our-courier{
+    border: 1px solid #507dbc;
     width: 306px;
     height: 50px;
     border-radius: 50px;
     margin-bottom: 138px;
+    color: #507dbc;
 
+}
+
+.btn-our-shop-ship:hover{
+    background-color: #e85151;
+    color: white;
+    border: none;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+
+}
+.btn-our-courier:hover {
+    background-color: #e85151;
+    color: white;
+    border: none;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
 }
 
 
@@ -767,7 +807,7 @@ a#prev:hover, a#next:hover {
 .div-fluid{
     background-color: #11273b;
 /*     margin-top: -314px; */
-    padding-bottom: 120px;
+    padding-bottom: 80px;
 }
 .ship-left-border{
     border-left:1px solid #507dbc;
@@ -789,6 +829,7 @@ a#prev:hover, a#next:hover {
 
 .div-inner-review{
     margin-left: 23px;
+    border: 1px solid rgba(146, 156, 165, 0.06);
 }
 .rating-xs{
     font-size: 10px !important;
@@ -798,11 +839,11 @@ a#prev:hover, a#next:hover {
     margin-left: 11px !important;
     margin-top: -17px !important;
 }
-.div-inner-review:hover{
-    box-shadow: 0 0 60px rgba(17, 39, 59, 0.1);
-    border: 1px solid rgba(146, 156, 165, 0.06);
-    background-color: #ffffff;
-}
+/*.div-inner-review:hover{*/
+    /*box-shadow: 0 0 60px rgba(17, 39, 59, 0.1);*/
+    /*border: 1px solid rgba(146, 156, 165, 0.06);*/
+    /*background-color: #ffffff;*/
+/*}*/
 .p-name{
     color: #11273b;
     font-size: 12px;
@@ -850,7 +891,9 @@ a#prev:hover, a#next:hover {
     width: 23px;
     height: 20px;
 }
-
+#readmore:hover{
+    text-decoration-line: underline;
+}
 .p-reviews{
     color: #677582;
     font-size: 14px;
@@ -865,12 +908,14 @@ a#prev:hover, a#next:hover {
     font-size: 18px;
     font-weight: 500;
     margin-top: 2px;
+    margin-left: -8px;
+
 }
 .p-facebook-review{
     color: #507dbc;
     font-size: 18px;
     font-weight: 500;
-    margin-top: 6px;
+    margin-top: 10px;
 }
 
 .row-between-reviews{
@@ -960,7 +1005,7 @@ a#prev:hover, a#next:hover {
     height: 50px;
     border-radius: 30px;
     background-color: #e85151;
-    margin: 79px 0 137px 0;
+    margin: 45px 0 150px 0;
     padding-top: 10px;
 }
 
@@ -994,7 +1039,7 @@ a#prev:hover, a#next:hover {
     margin-top: 6px;
 }
 
-.
+
     /*Delivering joy to your doorsteps*/
     /*footer*/
 .row-footer{
@@ -1026,6 +1071,12 @@ a#prev:hover, a#next:hover {
     color: #929ca5;
 
 }
+ .footer-rights{
+     font-size: 14px;
+     font-weight: 600;
+     line-height: 30px;
+     color: #929ca5;
+ }
 
 .footer-a:hover{
     color: #ffffff;
@@ -1175,6 +1226,7 @@ a#prev:hover, a#next:hover {
         float: right;
         margin-top: -390px;
         margin-right: -15px;
+        overflow: hidden;
     }
 
     .div-shop-ship,
@@ -1184,6 +1236,7 @@ a#prev:hover, a#next:hover {
         border-radius: 20px;
         margin-left: 10px;
     }
+
 
     .p-ship-shop-courier{
         font-size: 12px;
@@ -1413,9 +1466,6 @@ a#prev:hover, a#next:hover {
         height: 51px;
     }
 
-    .div-fluid{
-        /*margin-top:-210px;*/
-    }
     .quots-t,
     .quots-b{
         width: 13px;
