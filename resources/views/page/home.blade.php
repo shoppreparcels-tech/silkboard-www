@@ -301,7 +301,7 @@
             </div>
         </div>
     </section>
-    <!-- shoppre benifits -->
+
     <section>
         <div class="container" style="padding-left: 15px; padding-right: 15px;">
             <div class="div-benifits">
@@ -535,89 +535,92 @@
             </center>
             {{--</div>--}}
         </div>
-        <div class="container">
-            <a href="https://www.flipkart.com/" target="_blank">
-                <div class="col-md-2 col-lg-2 col-xs-3 col-sm-3  div-stores-img">
-                    <center>
-                        <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/store_flipkart.png')}}">
-                    </center>
-                </div>
-            </a>
-            <a href="https://www.amazon.in/" target="_blank">
-                <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
-                    <center>
-                        <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/store_amazon.png')}}">
-                    </center>
+        <div class="container" style="padding-right: 15px ;padding-left:15px; ">
+            <center>
+                <a href="https://www.flipkart.com/" target="_blank">
+                    <div class="col-md-2 col-lg-2 col-xs-3 col-sm-3  div-stores-img">
+                        <center>
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('img/stores/store_flipkart.png')}}">
+                        </center>
+                    </div>
+                </a>
+                <a href="https://www.amazon.in/" target="_blank">
+                    <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
+                        <center>
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('img/stores/store_amazon.png')}}">
+                        </center>
 
-                </div>
-            </a>
-            <a href="https://www.ajio.com/" target="_blank">
-                <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
-                    <center>
-                        <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/store_ajio.png')}}">
-                    </center>
-                </div>
-            </a>
-            <a href="https://www.jabong.com/" target="_blank">
-                <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
-                    <center>
-                        <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/store_jabong.png')}}">
-                    </center>
-                </div>
-            </a>
-            <a href="https://www.homeshop18.com/" target="_blank">
-                <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
-                    <center>
-                        <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/store_homeshop.png')}}">
-                    </center>
-                </div>
-            </a>
-            <a href="https://www.snapdeal.com/" target="_blank">
-                <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
-                    <center>
-                        <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/store_snapdeal.png')}}">
-                    </center>
-                </div>
-            </a>
-            <a href="https://www.myntra.com/">
-                <div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">
-                    <center>
-                        <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/store_myntra.png')}}">
-                    </center>
-                </div>
-            </a>
+                    </div>
+                </a>
+                <a href="https://www.ajio.com/" target="_blank">
+                    <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
+                        <center>
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('img/stores/store_ajio.png')}}">
+                        </center>
+                    </div>
+                </a>
+                <a href="https://www.jabong.com/" target="_blank">
+                    <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
+                        <center>
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('img/stores/store_jabong.png')}}">
+                        </center>
+                    </div>
+                </a>
+                <a href="https://www.homeshop18.com/" target="_blank">
+                    <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
+                        <center>
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('img/stores/store_homeshop.png')}}">
+                        </center>
+                    </div>
+                </a>
+                <a href="https://www.snapdeal.com/" target="_blank">
+                    <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
+                        <center>
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('img/stores/store_snapdeal.png')}}">
+                        </center>
+                    </div>
+                </a>
+                <a href="https://www.myntra.com/">
+                    <div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">
+                        <center>
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('img/stores/store_myntra.png')}}">
+                        </center>
+                    </div>
+                </a>
 
-            <a href="https://www.ebay.com/" target="_blank" id="hidestore">
-                <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">
-                    <img class="img-responsive img-stores"
-                         src="{{asset('img/stores/ebay.png')}}">
-                </div>
-            </a>
+                <a href="https://www.ebay.com/" target="_blank" id="hidestore">
+                    <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">
+                        <img class="img-responsive img-stores"
+                             src="{{asset('img/stores/ebay.png')}}">
+                    </div>
+                </a>
 
 
-            <a href="https://www.limeroad.com/" target="_blank">
-                <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
-                    <center>
-                        <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/limeroad-logo1.jpg')}}">
-                    </center>
-                </div>
-            </a>
-            <a href="https://www.infibeam.com/" target="_blank">
-                <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
-                    <center>
-                        <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/infibeam.jpg')}}">
-                    </center>
-                </div>
-            </a>
+                <a href="https://www.limeroad.com/" target="_blank">
+                    <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
+                        <center>
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('img/stores/limeroad-logo1.jpg')}}">
+                        </center>
+                    </div>
+                </a>
+                <a href="https://www.infibeam.com/" target="_blank">
+                    <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
+                        <center>
+                            <img class="img-responsive img-stores"
+                                 src="{{asset('img/stores/infibeam.jpg')}}">
+                        </center>
+                    </div>
+                </a>
+            </center>
+
         </div>
         <div class="container">
             <center>
