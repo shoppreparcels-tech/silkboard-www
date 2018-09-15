@@ -289,6 +289,11 @@ header8{
     -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
     box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
 }
+.btn-browse-stores:hover{
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+}
 
 
 .div-backgroud-img {
@@ -758,7 +763,7 @@ a#prev:hover, a#next:hover {
 .img-stores{
     width: 150px;
     height: 116px;
-    margin-top: 34px;
+    margin-top: 20px;
 }
 
 .div-find-more-stores{
@@ -772,6 +777,16 @@ a#prev:hover, a#next:hover {
     position: relative;
     top: -359px;
     margin-right: 95px;
+}
+.btn-browse-stores {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #e85151;
+    margin-bottom: 50px;
+    top:-30px;
+    padding-top: 14px;
+    position: relative;
 }
 
 .div-find-more-stores:hover{
@@ -1443,6 +1458,17 @@ a#prev:hover, a#next:hover {
         border: 1px solid #f1f1f1;
         background-color: #ffffff;
     }
+
+    .btn-browse-stores {
+        width: 200px;
+        height: 40px;
+        border-radius: 30px;
+        background-color: #e85151;
+        margin-bottom: 40px;
+        top:-10px;
+        padding-top: 10px;
+        position: relative;
+    }
     .div-find-more-stores{
         width: 203px;
         height: 140px;
@@ -1622,7 +1648,8 @@ a, a:focus, a:hover {
 }
 
 body {
-    font-family: 'Nunito Sans', sans-serif;
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: Montserrat !important;
     font-size: 14px;
     background: 0 0;
     color: #000;

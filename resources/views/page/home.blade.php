@@ -101,6 +101,8 @@
 
 
 
+
+
     </script>
 
     <script type="application/ld+json">
@@ -152,6 +154,8 @@
 
 
 
+
+
     </script>
 
     <script type='application/ld+json'>
@@ -176,6 +180,8 @@
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
   ]
 }
+
+
 
 
     </script>
@@ -518,140 +524,235 @@
         </div>
     </section>
     <!-- Start whatcanYouship section -->
-    {{--<section>--}}
-    {{--<div class="container-fluid">--}}
-    {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-margin">--}}
-    {{--<center>--}}
-    {{--<p class="header1 p-color-cement-dark">Take a Walk Around Your Favorite Stores</p>--}}
-    {{--<p class="header2 p-color-cement ">Browse through popular stores, take your pick, shop & get it--}}
-    {{--delivered--}}
-    {{--to your virtual <br>address; we'll ship it to your destination abroad!</p>--}}
-    {{--</center>--}}
-    {{--</div>--}}
-    {{--</div>--}}
+    <section style="background-color: #f2f6fb; padding-bottom: 100px">
+        <div class="container" style="padding-top: 60px">
+            {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-margin">--}}
+            <center>
+                <p class="header1 p-color-cement-dark">Take a Walk Around Your Favorite Stores</p>
+                <p class="header2 p-color-cement ">Browse through popular stores, take your pick, shop & get it
+                    delivered
+                    to your virtual <br>address; we'll ship it to your destination abroad!</p>
+            </center>
+            {{--</div>--}}
+        </div>
+        <div class="container">
+            <a href="https://www.flipkart.com/" target="_blank">
+                <div class="col-md-2 col-lg-2 col-xs-3 col-sm-3  div-stores-img">
+                    <center>
+                        <img class="img-responsive img-stores"
+                             src="{{asset('img/stores/store_flipkart.png')}}">
+                    </center>
+                </div>
+            </a>
+            <a href="https://www.amazon.in/" target="_blank">
+                <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
+                    <center>
+                        <img class="img-responsive img-stores"
+                             src="{{asset('img/stores/store_amazon.png')}}">
+                    </center>
+
+                </div>
+            </a>
+            <a href="https://www.ajio.com/" target="_blank">
+                <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
+                    <center>
+                        <img class="img-responsive img-stores"
+                             src="{{asset('img/stores/store_ajio.png')}}">
+                    </center>
+                </div>
+            </a>
+            <a href="https://www.jabong.com/" target="_blank">
+                <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
+                    <center>
+                        <img class="img-responsive img-stores"
+                             src="{{asset('img/stores/store_jabong.png')}}">
+                    </center>
+                </div>
+            </a>
+            <a href="https://www.homeshop18.com/" target="_blank">
+                <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
+                    <center>
+                        <img class="img-responsive img-stores"
+                             src="{{asset('img/stores/store_homeshop.png')}}">
+                    </center>
+                </div>
+            </a>
+            <a href="https://www.snapdeal.com/" target="_blank">
+                <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
+                    <center>
+                        <img class="img-responsive img-stores"
+                             src="{{asset('img/stores/store_snapdeal.png')}}">
+                    </center>
+                </div>
+            </a>
+            <a href="https://www.myntra.com/">
+                <div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">
+                    <center>
+                        <img class="img-responsive img-stores"
+                             src="{{asset('img/stores/store_myntra.png')}}">
+                    </center>
+                </div>
+            </a>
+
+            <a href="https://www.ebay.com/" target="_blank" id="hidestore">
+                <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">
+                    <img class="img-responsive img-stores"
+                         src="{{asset('img/stores/ebay.png')}}">
+                </div>
+            </a>
 
 
-    {{--<div class="container-fluid div-margin" style="margin-bottom: 60px;margin-left: 35px;">--}}
-    {{--<center>--}}
-    {{--<div class="row">--}}
-    {{--@php--}}
-    {{--$stores = array("flipkart","amazon","ajio","jabong","jabong","homeshop","snapdeal")--}}
-    {{--@endphp--}}
+            <a href="https://www.limeroad.com/" target="_blank">
+                <div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">
+                    <center>
+                        <img class="img-responsive img-stores"
+                             src="{{asset('img/stores/limeroad-logo1.jpg')}}">
+                    </center>
+                </div>
+            </a>
+            <a href="https://www.infibeam.com/" target="_blank">
+                <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
+                    <center>
+                        <img class="img-responsive img-stores"
+                             src="{{asset('img/stores/infibeam.jpg')}}">
+                    </center>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <center>
+                <a href="{{route('stores')}}" target="_blank">
+                    <div class=" btn-browse-stores  header5 p-color-white">
+                        <b><p>Browse Stores</p></b>
+                    </div>
+                </a>
+            </center>
+        </div>
 
-    {{--<a href="https://www.flipkart.com/" target="_blank">--}}
-    {{--<div class="col-md-2 col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
-    {{--<img class="img-responsive img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/store_flipkart.png')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
-    {{--<a href="https://www.amazon.in/" target="_blank">--}}
-    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-    {{--<img class="img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/store_amazon.png')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
-    {{--<a href="https://www.ajio.com/" target="_blank">--}}
-    {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
-    {{--<img class="img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/store_ajio.png')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
-    {{--<a href="https://www.jabong.com/" target="_blank">--}}
-    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-    {{--<img class="img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/store_jabong.png')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
-    {{--<a href="https://www.homeshop18.com/" target="_blank">--}}
-    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-    {{--<img class="img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/store_homeshop.png')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
-    {{--<a href="https://www.snapdeal.com/" target="_blank">--}}
-    {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
-    {{--<img class="img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/store_snapdeal.png')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
-    {{--<a href="https://www.myntra.com/">--}}
-    {{--<div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">--}}
-    {{--<img class="img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/store_myntra.png')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
-    {{--<a href="https://www.shoppersstop.com/">--}}
-    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">--}}
-    {{--<img class="img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/shoppersstop-logo.png')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
+        {{--in next iteration it will going to be improve--}}
+        {{--<div class="container-fluid div-margin" style="margin-bottom: 60px;margin-left: 35px;">--}}
+        {{--<center>--}}
+        {{--<div class="row">--}}
+        {{--@php--}}
+        {{--$stores = array("flipkart","amazon","ajio","jabong","jabong","homeshop","snapdeal")--}}
+        {{--@endphp--}}
+
+        {{--<a href="https://www.flipkart.com/" target="_blank">--}}
+        {{--<div class="col-md-2 col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
+        {{--<img class="img-responsive img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/store_flipkart.png')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--<a href="https://www.amazon.in/" target="_blank">--}}
+        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
+        {{--<img class="img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/store_amazon.png')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--<a href="https://www.ajio.com/" target="_blank">--}}
+        {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
+        {{--<img class="img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/store_ajio.png')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--<a href="https://www.jabong.com/" target="_blank">--}}
+        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
+        {{--<img class="img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/store_jabong.png')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--<a href="https://www.homeshop18.com/" target="_blank">--}}
+        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
+        {{--<img class="img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/store_homeshop.png')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--<a href="https://www.snapdeal.com/" target="_blank">--}}
+        {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
+        {{--<img class="img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/store_snapdeal.png')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--<a href="https://www.myntra.com/">--}}
+        {{--<div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">--}}
+        {{--<img class="img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/store_myntra.png')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--<a href="https://www.shoppersstop.com/">--}}
+        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">--}}
+        {{--<img class="img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/shoppersstop-logo.png')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
 
 
-    {{--<a href="https://www.limeroad.com/" target="_blank">--}}
-    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-    {{--<img class="img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/limeroad-logo1.jpg')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
-    {{--<a href="https://www.infibeam.com/" target="_blank">--}}
-    {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
-    {{--<img class="img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/infibeam.jpg')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
-    {{--<a href="https://www.shopclues.com/" target="_blank">--}}
-    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-    {{--<img class="img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/shoper.png')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
-    {{--<a href="https://www.pepperfry.com/" target="_blank">--}}
-    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-    {{--<img class="img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/pepperfry.png')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
-    {{--<a href="https://paytm.com/" target="_blank" id="hidestore" >--}}
-    {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
-    {{--<img class="img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/paytm2.jpeg')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
-    {{--<a href="https://www.nykaa.com/" target="_blank" id="hidestore">--}}
-    {{--<div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">--}}
-    {{--<img class="img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/nykka.jpg')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
-    {{--<a href="https://www.koovs.com/" target="_blank" id="hidestore">--}}
-    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">--}}
-    {{--<img class="img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/koous.png')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
-    {{--<a href="https://www.ebay.com/" target="_blank"  id="hidestore">--}}
-    {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">--}}
-    {{--<img class="img-responsive img-stores"--}}
-    {{--src="{{asset('img/stores/ebay.png')}}">--}}
-    {{--</div>--}}
-    {{--</a>--}}
+        {{--<a href="https://www.limeroad.com/" target="_blank">--}}
+        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
+        {{--<img class="img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/limeroad-logo1.jpg')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--<a href="https://www.infibeam.com/" target="_blank">--}}
+        {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
+        {{--<img class="img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/infibeam.jpg')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--<a href="https://www.shopclues.com/" target="_blank">--}}
+        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
+        {{--<img class="img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/shoper.png')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--<a href="https://www.pepperfry.com/" target="_blank">--}}
+        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
+        {{--<img class="img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/pepperfry.png')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--<a href="https://paytm.com/" target="_blank" id="hidestore">--}}
+        {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
+        {{--<img class="img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/paytm2.jpeg')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--<a href="https://www.nykaa.com/" target="_blank" id="hidestore">--}}
+        {{--<div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">--}}
+        {{--<img class="img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/nykka.jpg')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--<a href="https://www.koovs.com/" target="_blank" id="hidestore">--}}
+        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">--}}
+        {{--<img class="img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/koous.png')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--<a href="https://www.ebay.com/" target="_blank" id="hidestore">--}}
+        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">--}}
+        {{--<img class="img-responsive img-stores"--}}
+        {{--src="{{asset('img/stores/ebay.png')}}">--}}
+        {{--</div>--}}
+        {{--</a>--}}
 
-    {{--</div>--}}
+        {{--</div>--}}
 
-    {{--</center>--}}
-    {{--<a href="{{route('stores')}}">--}}
-    {{--<div class="div-find-more-stores">--}}
-    {{--<center>--}}
-    {{--<h5 class="header5 p-color-cement p-store-margin">Browse Through <br> & Shop From</h5>--}}
-    {{--<h2 class="header2 p-color-red">Top Stores</h2>--}}
-    {{--<div class="arrow arrow--right"></div>--}}
-    {{--<hr style="width: 93px;height: 0;border: 2px solid tomato;margin-top: -18px;">--}}
-    {{--</center>--}}
-    {{--</div>--}}
-    {{--</a>--}}
-    {{--</div>--}}
-    {{--</section>--}}
+        {{--</center>--}}
+        {{--<a href="{{route('stores')}}">--}}
+        {{--<div class="div-find-more-stores">--}}
+        {{--<center>--}}
+        {{--<h5 class="header5 p-color-cement p-store-margin">Browse Through <br> & Shop From</h5>--}}
+        {{--<h2 class="header2 p-color-red">Top Stores</h2>--}}
+        {{--<div class="arrow arrow--right"></div>--}}
+        {{--<hr style="width: 93px;height: 0;border: 2px solid tomato;margin-top: -18px;">--}}
+        {{--</center>--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--</div>--}}
+        {{--in next iteration it will going to be improve--}}
+
+    </section>
 
 
     <!-- Start whatcanYouship section end-->
@@ -725,7 +826,7 @@
                             </i>
                         </div>
                         <div class="row">
-                            <p class="p-reviews">Extremely reliable shipping/courier agents.
+                                <p class="p-reviews">Extremely reliable shipping/courier agents.
                                 Miss Tanuja who had continuously worked for
                                 my shipping to U.S, even after facing hiccups with Dhl, Tanuja had
                                 a secondary plan, and made the shipping happen. </p>
@@ -774,6 +875,7 @@
 
 
         </div>
+
         {{--later this block going to enable  --}}
         {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="margin-top:50px;">--}}
         {{--<p class="header2 " style="color: #929ca5;"> Our Recent Deliveries (live) </p>--}}
