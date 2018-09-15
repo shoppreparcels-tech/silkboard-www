@@ -181,7 +181,7 @@ btn-register-text:hover{
 }
 .header3{
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 700;
 }
 .header4{
     font-size: 18px;
@@ -300,12 +300,14 @@ header8{
     background-image: url("../../new_assets/img/svg_image/image_background.svg");
     background-repeat: no-repeat;
     float: right;
-    position: relative;
-    margin: 313px -147px 0 0;
+    position: absolute;
+    margin: 264px 0px 0 110px;
+    /*position: relative;*/
+    /*margin: 313px -147px 0 0;*/
 }
 
 .img-priyamani{
-    margin: -269px 0px -21px -325px;
+    margin: -269px 0px -13px -325px;
     height: 604px;
     /*width: 100%;*/
 }
@@ -688,8 +690,8 @@ a#prev:hover, a#next:hover {
 
 .p-courier-h{
     color: #507dbc;
-    font-size: 24px;
-    font-weight: 700;
+    /*font-size: 24px;*/
+    /*font-weight: 700;*/
     /*line-height: 40px;*/
 }
 
@@ -712,7 +714,7 @@ a#prev:hover, a#next:hover {
 
 .btn-our-courier{
     border: 1px solid #507dbc;
-    margin-top: 44px;
+    margin-top: 47px;
     padding-top: 15px;
 }
 
