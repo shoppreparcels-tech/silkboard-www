@@ -790,7 +790,10 @@ a#prev:hover, a#next:hover {
     box-shadow: 0 0 60px rgba(17, 39, 59, 0.1);
 
 }
-
+.stores-padding{
+    padding-right: 15px ;
+    padding-left:15px;
+}
 .arrow {
     position: relative;
     display: inline-block;
@@ -876,12 +879,13 @@ a#prev:hover, a#next:hover {
 .img-google-logo{
     width: 148px;
     height: 50px;
-    margin-left: -15px;
+    margin-left: -9px;
 }
 
 .img-facebook-logo{
     width: 147px;
     height: 30px;
+    padding-left: 10px;
 }
 
 .img-facebook-r{
@@ -928,6 +932,7 @@ a#prev:hover, a#next:hover {
     font-size: 18px;
     font-weight: 500;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .row-between-reviews{
@@ -1447,6 +1452,9 @@ a#prev:hover, a#next:hover {
         width: 320px;
         height: 480px;
         overflow: hidden;
+    }
+    .stores-padding{
+      padding-left: 50px;
     }
 
     .div-stores-img{

@@ -535,9 +535,9 @@
             </center>
             {{--</div>--}}
         </div>
-        <div class="container" style="padding-right: 15px ;padding-left:15px; ">
+        <div class="container stores-padding">
             <center>
-                <a href="https://www.flipkart.com/" target="_blank">
+                <a href="https://www.flipkart.com/" target="_blank" >
                     <div class="col-md-2 col-lg-2 col-xs-3 col-sm-3  div-stores-img">
                         <center>
                             <img class="img-responsive img-stores"
@@ -856,7 +856,7 @@
                          src="{{asset('img/svg_image/ic_google.svg')}}">
                     <p class="p-google-review">Reviews</p>
                 </div>
-                <div class="row">
+                <div class="row" style="padding-left: 9px">
                     <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
                        target="_blank">
                         <img src="{{asset('img/images/rating_google.png')}}">
