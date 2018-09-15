@@ -283,7 +283,7 @@
 
     <section>
         <div class="container">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 30px;">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 20px;">
                 <center>
                     <h1 class="header1 p-color-cement-dark div-margin">About us </h1>
                     <p class="header2 p-color-cement">Our trusted partners <span class="p-color-red"><a
@@ -507,7 +507,7 @@
                             <a href="{{route('schedulePickup.Index')}}">
                                 <div class="h5 btn-our-courier btn-font-size" id="btn-our-courier">
                                     <p>
-                                        Learn More
+                                        Schedule Pickup
                                     </p>
                                 </div>
                             </a>
@@ -664,7 +664,7 @@
             </center>
         </div>
         <div class="container div-review">
-            <div class="col-md-7 col-lg-7" style="margin-top: 20px">
+            <div class="col-md-8 col-lg-8" style="margin-top: 20px">
                 <div class="row">
                     <div class="col-md-3  div-inner-review">
                         <div class="row div-img-row">
@@ -746,7 +746,7 @@
                 </div>
 
             </div>
-            <div class="col-md-5 col-lg-5" style="padding-left: 50px;">
+            <div class="col-md-4 col-lg-4" style="padding-left: 30px;">
                 <div class="row div-img-row">
                     <img class="img-google-logo "
                          src="{{asset('img/svg_image/ic_google.svg')}}">
