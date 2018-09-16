@@ -99,9 +99,9 @@
             </div>
         </div>
 
-        <div class="container row-divider"></div>
+        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 row-divider"></div>
 
-        <div class="container">
+        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
             <center>
                 <a href="{{route('home')}}"><img class="img-footer-logo" alt="Company" src="{{asset('/img/images/shoppre-logo.png')}}"></a>
                 <p class="footer-rights p-footer">© 2018, All Rights Reserved - by <span class="footer-a">ShoppRe.com™</span> </p>

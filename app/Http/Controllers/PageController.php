@@ -44,6 +44,10 @@ class PageController extends Controller
     {
         return view('page.contact-new');
     }
+    public function offersIndex()
+    {
+        return view('page.offers-new');
+    }
 
     public function saveFlyerUser(Request $request)
     {

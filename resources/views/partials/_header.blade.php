@@ -3,7 +3,7 @@
 <header class="header" role="banner">
     <nav class="navbar ">
         <div class="container">
-            <div class="col-md-3 ">
+            {{--<div class="col-md-3 ">--}}
                 <div class="navbar-header ">
                     <button type="button" class="navbar-toggle collapsed nav-icon-right" data-toggle="collapse"
                             data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -16,10 +16,10 @@
                         <img class="logo" src="{{asset('/img/images/shoppre-logo.png')}}" alt="ShoppRe">
                     </a>
                 </div>
-            </div>
-            <div class="col-md-9 ">
+            {{--</div>--}}
+            {{--<div class="col-md-9 ">--}}
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-left">
+                    <ul class="nav navbar-nav navbar-right">
                         <li class="nav-li"><a class="nav-a" href="{{route('about')}}">About us</a></li>
                         <li class="nav-li"><a class="nav-a" href="{{route('services')}}">Services</a></li>
                         <li class="nav-li"><a class="nav-a" href="{{route('pricing')}}">Price Calculator</a></li>
@@ -44,7 +44,7 @@
 
                     </ul>
                 </div> <!-- /.navbar-collapse -->
-            </div>
+            {{--</div>--}}
         </div><!-- /.container-->
     </nav>
 </header>

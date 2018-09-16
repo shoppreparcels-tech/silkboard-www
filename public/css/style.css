@@ -16,11 +16,13 @@
 
 }
 
-.container{
-    /*border: 1px solid red;*/
-    padding-left: 0;
-    padding-right: 0;
-}
+/*p{*/
+    /*text-align: center;*/
+/*}*/
+
+/*.container{*/
+    /*border: 1px solid red;   */
+/*}*/
 
 .content-wrap{
     max-width: 950px;
@@ -47,7 +49,9 @@ header::after{
     margin-top: 5px;
 }
 
-
+#stars{
+    display: none;
+}
 .navbar-toggle .icon-bar {
     background-color: #fe9625;
     height: 3px;
@@ -166,13 +170,16 @@ btn-register-text:hover{
 
 
 .div-main-row{
-    margin-top: 59px;
+    margin-top: 63px;
+}
+.header-text-margin{
+    margin-bottom: 36px;
 }
 
 .header1{
     font-size: 36px;
     font-weight: 700;
-    /*letter-spacing: 1.8px;*/
+    letter-spacing: 1.8px;
 }
 
 .header2{
@@ -231,6 +238,7 @@ header8{
 }
 .div-courier{
     background-color: #507dbc;
+    margin-left: 20px;
 
 }
 
@@ -239,7 +247,7 @@ header8{
     width: 240px;
     height: 300px;
     border-radius: 30px;
-    margin-left: 22px;
+    /*margin-left: 22px;*/
 }
 
 .p-ship-shop-courier{
@@ -247,7 +255,7 @@ header8{
     font-size: 18px;
     font-weight: 700;
     /*letter-spacing: 0.9px;*/
-    margin-top: 86px;
+    margin-top: 72px;
 }
 
 .btn-shop-ship{
@@ -301,21 +309,24 @@ header8{
     background-repeat: no-repeat;
     float: right;
     position: absolute;
-    margin: 264px 0px 0 110px;
+    /*margin: 264px 0px 0 110px;*/
+    margin: 313px 0px 0 110px;
 }
 
 .img-priyamani{
-    margin: -269px 0px -13px -325px;
-    height: 604px;
+    /*margin: -269px 0px -13px -325px;*/
+    /*height: 604px;*/
+    margin: -224px 0px -13px -258px;
+    height: 563px;
     /*width: 100%;*/
 }
 
-div-margin{
+.div-margin{
     margin-top: 60px;
 }
 
 .div-demo-row{
-    margin-top: 60px;
+    margin-top: 112px;;
 }
 
 .img-demo{
@@ -375,6 +386,12 @@ div-margin{
     font-size: 28px;
     font-weight: 800;
     /*margin-top: 12px;*/
+}
+
+.p-save-upto{
+    color: #677582;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .online-text-words{
@@ -702,7 +719,7 @@ a#prev:hover, a#next:hover {
 
 .btn-our-shop-ship{
     margin-top: 28px;
-    padding-top: 16px;
+    padding-top: 12px;
     border: 1px solid #507dbc;
     background-color:#ffffff;
 }
@@ -710,7 +727,7 @@ a#prev:hover, a#next:hover {
 .btn-our-courier{
     border: 1px solid #507dbc;
     margin-top: 47px;
-    padding-top: 15px;
+    padding-top: 13px;
 }
 
 .btn-our-shop-ship,
@@ -1149,6 +1166,13 @@ a#prev:hover, a#next:hover {
     height: 64px;
 }
 
+#number
+{
+    display: block;
+}
+#callnow{
+    display: none;
+}
 
 /*footer*/
 
@@ -1194,7 +1218,7 @@ a#prev:hover, a#next:hover {
     }
 
     .header2{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 700;
     }
     .header3{
@@ -1233,46 +1257,72 @@ a#prev:hover, a#next:hover {
     }
 
     .div-main-row	{
-        margin: 37px 0 71px 0px;
+        margin-top: 37px;
+        margin-left: -20px;
+
     }
+    .header-text-margin{
+        margin-bottom: 30px;
+    }
+    /*.container{*/
+        /*padding-left: 15px;*/
+        /*padding-right: 15px;*/
+    /*}*/
+
     .div-piyamani-mobile-img{
         background-image: url(../../new_assets/img/images/image_priyamani_mobile.png);
-        height: 378px;
-        width: 140px;
+        height: 400px;
+        width: 108px;
         background-repeat: no-repeat;
         float: right;
-        margin-top: -390px;
-        /*margin-right: -15px;*/
+        margin-top: -329px;
+        margin-bottom: -66px;
         overflow: hidden;
     }
 
     .div-shop-ship,
     .div-courier{
         width: 140px;
-        height: 190px;
+        height: 180px;
         border-radius: 20px;
-        margin-left: 10px;
+        margin-left: 13px;
+    }
+    .navbar-toggle {
+    margin-right: 0!important;
     }
 
-
+    #number
+    {
+        display: none;
+    }
+    #callnow{
+        display: block;
+    }
     .p-ship-shop-courier{
         font-size: 12px;
         font-weight: 600;
         letter-spacing: 0.7px;
-        margin-top: 35px;
+        margin-top: 25px;
     }
 
     .btn-shop-ship{
-        margin-top: 40px;
+        width: 141px;
+        height: 38px;
+        border-radius: 20px;
+        margin-top: 39px ;
+        font-size: 10px;
+        font-weight: 600;
+        margin-left: 0px;
     }
-    .btn-shop-ship,
+
     .btn-courier{
         width: 141px;
         height: 38px;
         border-radius: 20px;
+        margin-top: 21px;
         font-size: 10px;
         font-weight: 600;
-        letter-spacing: 0.6px;
+
         margin-left: 0px;
     }
 
@@ -1281,20 +1331,22 @@ a#prev:hover, a#next:hover {
         float: left;
         width: 20px;
         height: 21px;
-        margin-top: 1px;
+        margin-top: -2px;
     }
-    .p-demo-text,
+    .p-demo-text{
+        font-size: 12px;font-weight: 900;
+    }
     .p-support-text{
         font-size: 9px; margin-bottom: 0px;
+    }
+    .div-demo-row{
+        margin-top: 44px;
     }
 
     .img-text{
         font-size: 10px;
     }
 
-    .div-main-row{
-        margin: 0 0 0 0;
-    }
     .div-backgroud-img{
         display: none;
         /*margin: 0px 0px 0px 0px;*/
@@ -1318,9 +1370,13 @@ a#prev:hover, a#next:hover {
     .online-text{
         font-size: 16px;
     }
+    .p-save-upto {
+        font-size: 10px;
+    }
+
     .online-text-words {
         font-size: 10px;
-        margin-top: 0px;
+        margin-top: -16px;
 
     }
 
@@ -1440,6 +1496,7 @@ a#prev:hover, a#next:hover {
     .btn-our-courier{
         width: 240px;
         height: 40px;
+        padding-top: 8px;
         margin-bottom:61px;
     }
     .div-Stores-header{
@@ -1470,10 +1527,17 @@ a#prev:hover, a#next:hover {
         border-radius: 30px;
         background-color: #e85151;
         margin-bottom: 40px;
-        top:-10px;
+        top:-21px;
         padding-top: 10px;
         position: relative;
     }
+    #reviews{
+        display: none;
+    }
+    #stars{
+        display: block;
+    }
+
     .div-find-more-stores{
         width: 203px;
         height: 140px;
@@ -1505,7 +1569,9 @@ a#prev:hover, a#next:hover {
     .p-reviews{
         font-size: 10px;
     }
-
+    #reviews-img{
+        margin-left: 30px;
+    }
     /*.div-card-holder{*/
     /*margin-bottom: 69px;*/
     /*margin-left: -15px;*/
@@ -2250,7 +2316,8 @@ label.error {
 
 .navbar-brand {
     height: 60px;
-    padding: 3px 15px;
+    /*padding: 3px 15px;*/
+    padding: 3px;
     line-height: 0;
     margin-left: 0 !important
 }
@@ -2264,8 +2331,9 @@ label.error {
 }
 
 .navbar-brand img {
-    height: 50px;
-    width: 160px;
+    width: 155px;
+    height: 45px;
+    float: left;
 }
 
 .navbar-default {
@@ -7853,8 +7921,10 @@ ul.newsticker li span {
 
     .navbar-brand img, .navbar-default .nav li {
         padding: 10px;
-        height: 59px;
-        width: 160px;
+        height: 49px;
+        width: 119px;
+        /*width: 83px;*/
+        /*height: 24px;*/
     }
 
     .navbar-toggle {

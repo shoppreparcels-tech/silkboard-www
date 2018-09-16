@@ -103,6 +103,8 @@
 
 
 
+
+
     </script>
 
     <script type="application/ld+json">
@@ -156,6 +158,8 @@
 
 
 
+
+
     </script>
 
     <script type='application/ld+json'>
@@ -184,26 +188,28 @@
 
 
 
+
+
     </script>
 
 @endsection
 
 @section('content')
     <main class="div-main" role="main">
-        <div class="container">
+        <div class="container" style="padding-left: 0px ; padding-right: 0px">
             <div class="col-md-6  col-lg-6  col-sm-12 col-xs-12 ">
-                <div class="col-md-12 col-sm-10 col-xs-10  col-lg-12 div-main-row">
+                <div class="col-md-12 col-sm-12 col-xs-12  col-lg-12 div-main-row">
                     <strong>
-                        <h1 class="header1 p-color-white" style="margin-bottom: 39px;">International Shipping
+                        <b><h1 class="header1 p-color-white header-text-margin" style="font-family: Montserrat;">
+                                International Shipping
+                                starting at just <span class="p-color-red">*₹690</span><span
+                                    style="color: #ffffff">!</span>
 
-                            starting at just <span class="p-color-red">*₹690</span><span style="color: #ffffff">!</span>
-
-                        </h1>
+                            </h1></b>
                     </strong>
                 </div>
-
                 <div class="row">
-                    <div class="col-md-6 col-sm-12 col-xs-12  col-lg-6 div-shop-ship" id="shop-ship">
+                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 div-shop-ship" id="shop-ship">
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
                                 <center>
@@ -252,52 +258,75 @@
                             </div>
                         </div>
                     </div>
-                    <div class="div-img-pr1"></div>
+
                 </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12  div-demo-row">
-                        <div class="col-md-5 col-sm-5 col-xs-5 video-tab">
+                <div class="row" style="margin-left: -32px;">
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-demo-row">
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab">
                             <img class="img-demo" src="{{asset('img/svg_image/ic_watch_now.svg')}}">
                             <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=3s" target="_blank"
                                class="p-demo-text"><b>&nbsp;Watch a Demo</b></a>
                         </div>
-                        <div class="col-md-7 col-sm-7 col-xs-7 video-tab">
-                            <img class="img-demo"
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="number">
+                            <img class="img-demo" id="img-cal"
                                  src="{{asset('img/svg_image/ic_contact_header.svg')}}">
                             <b>
                                 <a href="tel:+91-80 4094 4077">
-                                    <b><p class="p-support-text">
+                                    <b>
+                                        <p class="p-support-text" id="p-numer">
                                             &nbsp;+91 914-835-7733
-                                        </p></b>
+                                        </p>
+                                    </b>
+                                </a>
+                            </b>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="callnow">
+                            <img class="img-demo" id="img-cal1"
+                                 src="{{asset('img/svg_image/ic_contact_header1.svg')}}">
+                            <b>
+                                <a href="tel:+91-80 4094 4077">
+                                    <b>
+                                        <p class="p-demo-text"
+                                           style="font-size: 12px ; font-weight: 900;padding-left: 2px">
+                                            &nbsp;&nbsp;Call Now
+                                        </p>
+                                    </b>
                                 </a>
                             </b>
                         </div>
                     </div>
-                    <div class="div-piyamani-mobile-img">
-
-                    </div>
                 </div>
             </div>
+
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 ">
                 <div class="col-md-12 div-backgroud-img ">
                     <img class="img-priyamani" src="{{asset('img/images/image_header@2x.png')}}">
                 </div>
             </div>
+            <div class="div-piyamani-mobile-img"></div>
         </div>
     </main>
     <!-- Main container -->
 
     <section>
         <div class="container">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 20px;">
+            <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                 <center>
                     <h1 class="header1 p-color-cement-dark div-margin">About us </h1>
-                    <p class="header2 p-color-cement">Our trusted partners <span class="p-color-red"><a
+                </center>
+            </div>
+
+            <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+                <center>
+
+                    <p class="header2 p-color-cement" style="text-align: center">Our trusted partners <span
+                            class="p-color-red"><a
                                 href="{{route('dhl.index')}}">DHL</a>,&nbsp;<a
                                 href="{{route('dtdc.index')}}">DTDC</a></span> and <span class="p-color-red"><a
-                                href="{{route('fedex.index')}}">FedEx</a></span> help us <br> sail smooth all the way to
+                                href="{{route('fedex.index')}}">FedEx</a></span> help us sail smooth all the way to
                         your destination, wherever it is! </p>
                 </center>
+
             </div>
         </div>
     </section>
@@ -341,7 +370,7 @@
                             <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
                                 <img class="img-benifits img-responsive"
                                      src="{{asset('img/svg_image/ic_box.svg')}}">
-                                <p class="online-text">Save Up to 80%</p>
+                                <p class="online-text" style="margin-left: -1px;">Save Up to 80%</p>
                                 <p class="online-text-words">By Storing, Consolidating <br>& Repackging! </p>
                             </a>
                         </center>
@@ -470,57 +499,55 @@
             <div class="div-margin">
                 <center>
                     <h1 class="header1 p-color-cement-dark">Our Services</h1>
-                    <p class="header2 p-color-cement">Ever wonder how do we make it all happen? Trust us, We <br>
+                    <p class="header2 p-color-cement">Ever wonder how do we make it all happen? Trust us, We
                         strategize around your needs!
                     </p>
                 </center>
             </div>
-            <div class="container">
-                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                    <center>
-                        <img class="img-shop-ship img-responsive"
-                             src="{{asset('img/svg_image/ic_service_shopandship.svg')}}">
+            {{--<div class="container">--}}
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <center>
+                    <img class="img-shop-ship img-responsive"
+                         src="{{asset('img/svg_image/ic_service_shopandship.svg')}}">
 
-                        <p class="header3 p-color-red ">Shop & Ship</p>
-                        <p class="header5 p-color-cement">Sign up for FREE and get your own local, virtual
-                            shipping address; <br> shop around on Indian online stores; store your purchases in <br>
-                            your PERSONAL LOCKER & conslidate; we'll repackage & ship <br> them to your doorsteps
-                        </p>
-                        <center>
-                            <a href="{{route('shopFromIndia')}}">
-                                <div class="btn-our-shop-ship header5">
-                                    <p>
-                                        Learn More
-                                    </p>
-                                </div>
-                            </a>
-                        </center>
-                    </center>
-                </div>
-                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                    <center>
-                        <img class="img-shop-ship img-responsive"
-                             src="{{asset('img/svg_image/ic_service_truck.svg')}}">
-                        <div class="ship-left-border">
-                            <p class="header3 p-courier-h">Courier Service
-                            <p class="header5 p-color-cement p-line-height">Schedule a Pickup, we'll come to you in 24
-                                hours
-                                &
-                                <br> get your package delivered to the destination in 2-5 <br>
-                                business days!</p>
+                    <p class="header3 p-color-red ">Shop & Ship</p>
+                    <p class="header5 p-color-cement">Sign up for FREE and get your own local, virtual
+                        shipping address; shop around on Indian online stores; store your purchases in
+                        your PERSONAL LOCKER & conslidate; we'll repackage & ship them to your doorsteps
+                    </p>
+                    {{--<center>--}}
+                    <a href="{{route('shopFromIndia')}}">
+                        <div class="btn-our-shop-ship header5">
+                            <p>
+                                Learn More
+                            </p>
                         </div>
-                        <center>
-                            <a href="{{route('schedulePickup.Index')}}">
-                                <div class="header5 btn-our-courier btn-font-size" id="btn-our-courier">
-                                    <p>
-                                        Schedule Pickup
-                                    </p>
-                                </div>
-                            </a>
-                        </center>
-                    </center>
-                </div>
+                    </a>
+                    {{--</center>--}}
+                </center>
             </div>
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <center>
+                    <img class="img-shop-ship img-responsive"
+                         src="{{asset('img/svg_image/ic_service_truck.svg')}}">
+                    <div class="ship-left-border">
+                        <p class="header3 p-courier-h">Courier Service
+                        <p class="header5 p-color-cement p-line-height">Schedule a Pickup, we'll come to you in 24
+                            hours & get your package delivered to the destination in 2-5
+                            <br> business days!</p>
+                    </div>
+                    <center>
+                        <a href="{{route('schedulePickup.Index')}}">
+                            <div class="header5 btn-our-courier btn-font-size" id="btn-our-courier">
+                                <p>
+                                    Schedule Pickup
+                                </p>
+                            </div>
+                        </a>
+                    </center>
+                </center>
+            </div>
+            {{--</div>--}}
         </div>
     </section>
     <!-- Start whatcanYouship section -->
@@ -537,7 +564,7 @@
         </div>
         <div class="container stores-padding">
             <center>
-                <a href="https://www.flipkart.com/" target="_blank" >
+                <a href="https://www.flipkart.com/" target="_blank">
                     <div class="col-md-2 col-lg-2 col-xs-3 col-sm-3  div-stores-img">
                         <center>
                             <img class="img-responsive img-stores"
@@ -763,119 +790,124 @@
         <div class="container">
             <center>
                 <p class="header1 p-color-white p-h-margin-customer">What Our Customers Think About Us</p>
-                <p class="header2 p-wondring">Wondering what our fellow customers are raving about? <br> Read some real
+                <p class="header2 p-wondring">Wondering what our fellow customers are raving about? Read some real
                     reviews.</p>
             </center>
         </div>
-        <div class="container div-review">
-            <div class="col-md-8 col-lg-8" style="margin-top: 20px">
-                <div class="row">
-                    <div class="col-md-3  div-inner-review">
-                        <div class="row div-img-row">
-                            <img class=" img-review img-circle" src="{{asset('img/images/23.jpg')}}">
-                            <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Aswathy Revi</p>
-                            <input class="rating rated" value="5">
+        <div class="container">
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-review">
+                <div class="col-md-8 col-lg-8" style="margin-top: 20px">
+                    <div class="row" style="margin-left: -36px">
+                        <div class="col-md-3  div-inner-review">
+                            <div class="row div-img-row" id="reviews-img">
+                                <img class=" img-review img-circle" src="{{asset('img/images/23.jpg')}}">
+                                <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Aswathy Revi</p>
+                                <img style="padding-left: 12px;" id="stars" src="{{asset('img/svg_image/stars.svg')}}">
+                                <input class="rating rated" value="5">
+                            </div>
+                            <div class="row" id="reviews">
+                                <i class="quots-t ">
+                                    <img src="{{asset('img/svg_image/qoute_up.svg')}}">
+                                </i>
+                            </div>
+                            <div class="row" id="reviews">
+                                <p class=" p-reviews">Shoppre did a fantastic job in delivering a gift to my husband
+                                    who is working in Doha, Qatar.
+                                    Even though I was very skeptical about their service in the beginning, I'm so
+                                    glad that they proved me wrong!!
+                                    Thank you shoppre for your hassle free service!</p>
+                            </div>
+                            <div class="row" id="reviews">
+                          <span class="quots-b">
+                            <img src="{{asset('img/svg_image/qoute_down.svg')}}">
+                          </span>
+                            </div>
                         </div>
-                        <div class="row">
-                            <i class="quots-t ">
-                                <img src="{{asset('img/svg_image/qoute_up.svg')}}">
-                            </i>
+                        <div class="col-md-3 div-inner-review" >
+                            <div class="row div-img-row" id="reviews-img">
+                                <img class=" img-review img-circle" src="{{asset('img/images/9.jpg')}}">
+                                <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Sudeep Sagar</p>
+                                <img style="padding-left: 12px;" id="stars" src="{{asset('img/svg_image/stars.svg')}}">
+                                <input class="rating rated" value="5">
+                            </div>
+                            <div class="row" id="reviews">
+                                <i class="quots-t ">
+                                    <img src="{{asset('img/svg_image/qoute_up.svg')}}">
+                                </i>
+                            </div>
+                            <div class="row" id="reviews">
+                                <p class="p-reviews">Amazing and very fast service. They told me it would reach
+                                    within 5 working days but it actually
+                                    reached with in 3 working days. I'm very much satisfied with shoppre
+                                    service.</p>
+                            </div>
+                            <div class="row" id="reviews">
+                              <span class="quots-b">
+                                <img src="{{asset('img/svg_image/qoute_down.svg')}}">
+                              </span>
+                            </div>
                         </div>
-                        <div class="row ">
-                            <p class=" p-reviews">Shoppre did a fantastic job in delivering a gift to my husband
-                                who is working in Doha, Qatar.
-                                Even though I was very skeptical about their service in the beginning, I'm so
-                                glad that they proved me wrong!!
-                                Thank you shoppre for your hassle free service!</p>
-                        </div>
-                        <div class="row">
-                                      <span class="quots-b">
-                                        <img src="{{asset('img/svg_image/qoute_down.svg')}}">
-                                      </span>
-                        </div>
-                    </div>
-                    <div class="col-md-3 div-inner-review">
-                        <div class="row div-img-row">
-                            <img class=" img-review img-circle" src="{{asset('img/images/9.jpg')}}">
-                            <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Sudeep Sagar</p>
-                            <input class="rating rated" value="5">
-                        </div>
-                        <div class="row">
-                            <i class="quots-t ">
-                                <img src="{{asset('img/svg_image/qoute_up.svg')}}">
-                            </i>
-                        </div>
-                        <div class="row">
-                            <p class="p-reviews">Amazing and very fast service. They told me it would reach
-                                within 5 working days but it actually
-                                reached with in 3 working days. I'm very much satisfied with shoppre
-                                service.</p>
-                        </div>
-                        <div class="row">
-                                      <span class="quots-b">
-                                        <img src="{{asset('img/svg_image/qoute_down.svg')}}">
-                                      </span>
-                        </div>
-                    </div>
-                    <div class="col-md-3 div-inner-review">
-                        <div class="row div-img-row">
-                            <img class=" img-review img-circle" src="{{asset('img/images/6.jpg')}}">
-                            <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Anirudh Lal</p>
-                            <input class="rating rated" value="5">
-                        </div>
-                        <div class="row">
-                            <i class="quots-t ">
-                                <img src="{{asset('img/svg_image/qoute_up.svg')}}">
-                            </i>
-                        </div>
-                        <div class="row">
+                        <div class="col-md-3 div-inner-review">
+                            <div class="row div-img-row" id="reviews-img">
+                                <img class=" img-review img-circle" src="{{asset('img/images/6.jpg')}}">
+                                <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Anirudh Lal</p>
+                                <img style="padding-left: 12px;" id="stars" src="{{asset('img/svg_image/stars.svg')}}">
+                                <input class="rating rated" value="5">
+                            </div>
+                            <div class="row">
+                                <i class="quots-t " id="reviews">
+                                    <img src="{{asset('img/svg_image/qoute_up.svg')}}">
+                                </i>
+                            </div>
+                            <div class="row" id="reviews">
                                 <p class="p-reviews">Extremely reliable shipping/courier agents.
-                                Miss Tanuja who had continuously worked for
-                                my shipping to U.S, even after facing hiccups with Dhl, Tanuja had
-                                a secondary plan, and made the shipping happen. </p>
-                        </div>
-                        <div class="row">
+                                    Miss Tanuja who had continuously worked for
+                                    my shipping to U.S, even after facing hiccups with Dhl, Tanuja had
+                                    a secondary plan, and made the shipping happen. </p>
+                            </div>
+                            <div class="row" id="reviews">
                                   <span class="quots-b">
                                     <img src="{{asset('img/svg_image/qoute_down.svg')}}">
                                   </span>
+                            </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-12 " style=" margin: 16px 0 16px 11px;">
+                            <!-- <a href="javascript:void(0)"><span class="read-more-review"> Read more reviews </span></a> -->
+                            <a href="{{route('reviews')}}"><span
+                                    class="header4 p-color-red" id="readmore"> Read more reviews </span></a>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="row">
-                    <div class="col-md-12 " style=" margin: 16px 0 16px 11px;">
-                        <!-- <a href="javascript:void(0)"><span class="read-more-review"> Read more reviews </span></a> -->
-                        <a href="{{route('reviews')}}"><span
-                                class="header4 p-color-red" id="readmore"> Read more reviews </span></a>
+                <div class="col-md-4 col-lg-4" style="padding-left: 30px;">
+                    <div class="row div-img-row">
+                        <img class="img-google-logo "
+                             src="{{asset('img/svg_image/ic_google.svg')}}">
+                        <p class="p-google-review">Reviews</p>
+                    </div>
+                    <div class="row" style="padding-left: 9px">
+                        <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
+                           target="_blank">
+                            <img src="{{asset('img/images/rating_google.png')}}">
+                        </a>
+                    </div>
+                    <div class="row-between-reviews"></div>
+                    <div class="row">
+                        <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
+                            <img class="img-facebook-logo"
+                                 src="{{asset('img/images/Facebook_Logo@2x.png')}}">
+                            <p class="p-facebook-review">Reviews</p>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <img class="img-facebook-r"
+                             src="{{asset('img/images/rating_facebook.png')}}">
                     </div>
                 </div>
 
             </div>
-            <div class="col-md-4 col-lg-4" style="padding-left: 30px;">
-                <div class="row div-img-row">
-                    <img class="img-google-logo "
-                         src="{{asset('img/svg_image/ic_google.svg')}}">
-                    <p class="p-google-review">Reviews</p>
-                </div>
-                <div class="row" style="padding-left: 9px">
-                    <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
-                       target="_blank">
-                        <img src="{{asset('img/images/rating_google.png')}}">
-                    </a>
-                </div>
-                <div class="row-between-reviews"></div>
-                <div class="row">
-                    <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
-                        <img class="img-facebook-logo"
-                             src="{{asset('img/images/Facebook_Logo@2x.png')}}">
-                        <p class="p-facebook-review">Reviews</p>
-                    </a>
-                </div>
-                <div class="row">
-                    <img class="img-facebook-r"
-                         src="{{asset('img/images/rating_facebook.png')}}">
-                </div>
-            </div>
-
 
         </div>
 

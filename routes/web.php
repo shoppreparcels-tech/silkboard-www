@@ -49,6 +49,7 @@ Route::get('/ics', 'PageController@icsIndex')->name('ics.index');
 Route::get('/ifs', 'PageController@ifsIndex')->name('ifs.index');
 Route::get('/about-new', 'PageController@aboutIndex')->name('about-new.index');
 Route::get('/contact-new', 'PageController@contactIndex')->name('contact-new.index');
+Route::get('/offers-new', 'PageController@offersIndex')->name('offers-new.index');
 
 /*-------- Dhl Shipments ------*/
 Route::get('/dhl', 'ShippingPartnerController@dhlIndex')->name('dhl.index');
