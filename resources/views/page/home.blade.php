@@ -526,6 +526,7 @@
                     {{--</center>--}}
                 </center>
             </div>
+            <div class="col-xs-12 col-sm-12" id="hrline"></div>
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                 <center>
                     <img class="img-shop-ship img-responsive"
@@ -551,7 +552,7 @@
         </div>
     </section>
     <!-- Start whatcanYouship section -->
-    <section style="background-color: #f2f6fb; padding-bottom: 100px">
+    <section style="background-color: #f2f6fb; padding-bottom: 30px">
         <div class="container" style="padding-top: 60px">
             {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-margin">--}}
             <center>
@@ -638,7 +639,7 @@
                         </center>
                     </div>
                 </a>
-                <a href="https://www.infibeam.com/" target="_blank">
+                <a href="https://www.infibeam.com/" target="_blank" id="store-hide">
                     <div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">
                         <center>
                             <img class="img-responsive img-stores"
@@ -802,8 +803,8 @@
                             <div class="row div-img-row" id="reviews-img">
                                 <img class=" img-review img-circle" src="{{asset('img/images/23.jpg')}}">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Aswathy Revi</p>
-                                <img style="padding-left: 12px;" id="stars" src="{{asset('img/svg_image/stars.svg')}}">
-                                <input class="rating rated" value="5">
+{{--                                <img style="padding-left: 12px;" id="stars" src="{{asset('img/svg_image/stars.svg')}}">--}}
+                                <input class="rating rated" value="5" id="stars-rate">
                             </div>
                             <div class="row" id="reviews">
                                 <i class="quots-t ">
@@ -827,8 +828,8 @@
                             <div class="row div-img-row" id="reviews-img">
                                 <img class=" img-review img-circle" src="{{asset('img/images/9.jpg')}}">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Sudeep Sagar</p>
-                                <img style="padding-left: 12px;" id="stars" src="{{asset('img/svg_image/stars.svg')}}">
-                                <input class="rating rated" value="5">
+{{--                                <img style="padding-left: 12px;" id="stars" src="{{asset('img/svg_image/stars.svg')}}">--}}
+                                <input class="rating rated" value="5" id="stars-rate">
                             </div>
                             <div class="row" id="reviews">
                                 <i class="quots-t ">
@@ -851,8 +852,8 @@
                             <div class="row div-img-row" id="reviews-img">
                                 <img class=" img-review img-circle" src="{{asset('img/images/6.jpg')}}">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Anirudh Lal</p>
-                                <img style="padding-left: 12px;" id="stars" src="{{asset('img/svg_image/stars.svg')}}">
-                                <input class="rating rated" value="5">
+{{--                                <img style="padding-left: 12px;" id="stars" src="{{asset('img/svg_image/stars.svg')}}">--}}
+                                <input class="rating rated" value="5" id="stars-rate">
                             </div>
                             <div class="row">
                                 <i class="quots-t " id="reviews">
@@ -873,7 +874,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12 " style=" margin: 16px 0 16px 11px;">
+                        <div class="col-md-12 " style=" margin: 16px 0 16px -13px;">
                             <!-- <a href="javascript:void(0)"><span class="read-more-review"> Read more reviews </span></a> -->
                             <a href="{{route('reviews')}}"><span
                                     class="header4 p-color-red" id="readmore"> Read more reviews </span></a>
@@ -881,7 +882,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-4 col-lg-4" style="padding-left: 30px;">
+                <div class="col-md-4 col-lg-4" style="padding-left: 5px;">
                     <div class="row div-img-row">
                         <img class="img-google-logo "
                              src="{{asset('img/svg_image/ic_google.svg')}}">
@@ -893,7 +894,7 @@
                             <img src="{{asset('img/images/rating_google.png')}}">
                         </a>
                     </div>
-                    <div class="row-between-reviews"></div>
+                    <div class="row-between-reviews" id="hrline1"></div>
                     <div class="row">
                         <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
                             <img class="img-facebook-logo"
@@ -1006,7 +1007,7 @@
     </section>
 
     <section>
-        <div class="container" style="margin-top: 30px;">
+        <div class="container" style="margin-top: 60px;">
             <center>
                 <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
                 <p class="header2 p-doorstep-des">You've got no reason to wait around any longer, just come ShoppRe!</p>
@@ -1018,8 +1019,7 @@
                     </div>
                 </a>
             </center>
-            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12"
-                 style=" height: 2px;background-color: rgba(146, 156, 165, 0.1); margin-top: -30px"></div>
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 hr-line-payment-method"></div>
             <div class="col-md-12 col-lg-12">
                 <center>
                     <p class="p-payment-method">Payment Methods We Accept</p>
@@ -1027,30 +1027,30 @@
             </div>
             <div class="col-md-12 col-lg-12 padder-bottom">
                 <div class="col-md-6">
-                    <div class="col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-6 col-sm-6 div-border">
+                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border">
                         <a href="https://www.shoppre.com/credit-debit-cards/">
                             <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
                                 <img class="img-card-transfer" src="{{asset('img/svg_image/credit-card.svg')}}">
                             </div>
                             <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12">
-                                <p class="p-payment-text">Credit/Debit Cards</p>
+                                <p class="p-payment-text">&nbsp;Credit/Debit Cards</p>
                             </div>
                         </a>
                     </div>
 
                     <div class="col-md-5 col-lg-5 col-xs-6 col-sm-6 div-border">
                         <a href="https://www.shoppre.com/wire-transfer/">
-                            <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
+                            <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
                                 <img class="img-card-transfer"
                                      src="{{asset('img/svg_image/ic_payment_bank.svg')}}">
                             </div>
                             <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12">
-                                <p class="p-payment-text">Wire Transfer</p>
+                                <p class="p-payment-text">&nbsp;&nbsp; Wire Transfer</p>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+                <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12" id="margin-bottom-paypal">
                     <a href="https://www.shoppre.com/paypal/">
                         <div class="col-md-4 col-lg-4 col-xs-6 col-sm-6 div-border">
                             <center>
