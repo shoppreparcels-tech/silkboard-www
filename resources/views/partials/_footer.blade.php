@@ -78,7 +78,7 @@
                         <img class="img-footer" src="{{asset('new_assets/img/svg_image/ic_footer_courier.svg')}}">
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10" style="margin-top: 14px;" >
-                        <span class="span-color">Courier Abroad</span>
+                        <span class="span-color">Career Abroad</span>
                         <p class="p-best-price" id="p-best-price">Schedule a Pickup</p>
                     </div>
                     </a>
