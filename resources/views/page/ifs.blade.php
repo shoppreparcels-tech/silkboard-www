@@ -213,7 +213,7 @@
                     </div>
                 </center>
             </div>
-            <div class="col-xs-12 col-sm-12 mobile-images">
+            <div class="col-xs-12 col-sm-12 mobile-images" >
                 <center>
                     <img class="img-responsive " id="mobile-image1"  src="img/svg_image/step1.svg">
                     <img class="img-responsive " id="mobile-image2" style="width: 80%;display: none;" src="img/svg_image/step_2.svg">
@@ -221,59 +221,68 @@
                 </center>
             </div>
         </div>
+
+
         {{--mobile view--}}
 
-        <div class="container" >
-            <center>
-                <button class="btn h4 p-color-white btn-ifs-free-v-a">Get Free Virtual Address</button>
-            </center>
-        </div>
+        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">
+            <div class="container" >
+                <center>
+                    <button class="btn h4 p-color-white btn-ifs-free-v-a">Get Free Virtual Address</button>
+                </center>
+            </div>
+        </a>
 
     </section>
 
-    {{--<section style="background-color: #fafafb;">--}}
-    {{--<div class="container">--}}
-    {{--<center>--}}
-    {{--<h1 class="header1 p-color-cement-dark">Personal Shopper</h1>--}}
-    {{--<h3 class="header2 p-color-cement">Don't know how to purchase? Hire an expart and allow him to <br>--}}
-    {{--purchase--}}
-    {{--on behalf of you </h3>--}}
-    {{--</center>--}}
-    {{--</div>--}}
-
-    {{--<div class="container" style="margin-top: 60px">--}}
-    {{--<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">--}}
-    {{--<div class="col-md-2 col-lg-2 img-ifs-card ">--}}
-    {{--<img class="img " src="img/svg_image/4-layers.svg">--}}
-    {{--</div>--}}
-    {{--<div class="col-md-10 col-lg-10 img-ifs-card">--}}
-    {{--<h4 class="header4 p-color-cement-dark">Store does't accept your <br> International Credit cards?--}}
-    {{--</h4>--}}
-    {{--</div>--}}
 
 
-    {{--<div class="col-md-2 col-lg-2  img-ifs-card">--}}
-    {{--<img class="img" src="img/svg_image/4-layers1.svg">--}}
-    {{--</div>--}}
-    {{--<div class="col-md-10 col-lg-10 img-ifs-card">--}}
-    {{--<h4 class="header4 p-color-cement-dark">Store does't accept your <br> International Credit cards?--}}
-    {{--</h4>--}}
-    {{--</div>--}}
-    {{--<div class="col-md-2 col-lg-2  img-ifs-card">--}}
-    {{--<img class="img" src="img/svg_image/4-layers2.svg">--}}
-    {{--</div>--}}
-    {{--<div class="col-md-10 col-lg-10 img-ifs-card">--}}
-    {{--<h4 class="header4 p-color-cement-dark">Store does't accept your <br> International Credit cards?--}}
-    {{--</h4>--}}
-    {{--</div>--}}
+    <section style="background-color: #fafafb;">
+        <div class="container" style="padding-top: 60px" >
+            <center>
+                <h1 class="header1 p-color-cement-dark">Personal Shopper</h1>
+                <h3 class="header2 p-color-cement">Don't know how to purchase? Hire an expart and allow him to <br>
+                    purchase
+                    on behalf of you </h3>
+            </center>
+        </div>
 
-    {{--<button class="btn btn-get-assisted h4 p-color-white">Get Assisted</button>--}}
-    {{--</div>--}}
-    {{--<div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 ">--}}
-    {{--<img class="img-responsive img-priyamani-shopping" src="img/images/priyamani_shopping.png">--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</section>--}}
+        <div class="container" >
+            <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
+                    <img class="img " src="img/svg_image/4-layers.svg">
+                </div>
+                <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
+                    <h4 class="header4 p-color-cement-dark">Store does't accept your <br> International Credit cards?
+                    </h4>
+                </div>
+
+
+                <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
+                    <img class="img" src="img/svg_image/4-layers1.svg">
+                </div>
+                <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
+                    <h4 class="header4 p-color-cement-dark">Store does't accept your <br> International Credit cards?
+                    </h4>
+                </div>
+                <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
+                    <img class="img" src="img/svg_image/4-layers2.svg">
+                </div>
+                <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
+                    <h4 class="header4 p-color-cement-dark">Store does't accept your <br> International Credit cards?
+                    </h4>
+                </div>
+                 <div class="col-sm-12 col-xs-12" id="img-shopping-mobile">
+                     <img class="img-priyamani-shopping" src="img/images/priyamani_shopping.png">
+                 </div>
+                <button class="btn btn-get-assisted h4 p-color-white">Get Assisted</button>
+            </div>
+             <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 " id="img-shopping">
+              <img class="img-priyamani-shopping" src="img/images/priyamani_shopping.png">
+            </div>
+
+        </div>
+    </section>
     {{--<section>--}}
     {{--<div class="container" style="margin-top: 63px; margin-bottom: 30px;">--}}
     {{--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">--}}

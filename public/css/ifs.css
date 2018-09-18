@@ -50,7 +50,7 @@
     display: none;
 }
 .mobile-images{
-    margin-top: 50px;
+    padding-top: 50px;
     padding-bottom: 30px;
     -webkit-transition: width 2s;
     transition: width 0.8s;
@@ -73,13 +73,21 @@
 	margin: 80px 0 150px 0;
 	width: 300px;
 	height: 50px;
-	border-radius: 30px;
+	border-radius: 30px !important;
 	background-color: #e85151;
 }
-
+.btn-get-assisted1{
+    margin: -20px  0 0 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 30px !important;
+    background-color: #e85151;
+    position:relative;
+    z-index: 9999;
+}
 
 .img-priyamani-shopping{
-	/*width: 100%;*/
+	width: 125%;
 	/*margin: -106px 0 0 -152px;*/
 	float: left;
 }
@@ -121,6 +129,9 @@
     margin-top: -10px;
 }
 
+#img-shopping-mobile{
+    display: none;
+}
 
 /*video*/
 .YouTubePopUp-Wrap{
@@ -259,6 +270,39 @@ body.logged-in .YouTubePopUp-Wrap{
     }
     #div-container{
         display: none;
+    }
+
+    .btn-ifs-free-v-a{
+        width: 200px;
+        height: 40px;
+        border-radius: 30px !important;
+        background-color: #e85151;
+        margin:24px 0 72px 0;
+    }
+
+    .btn-get-assisted {
+        width: 230px;
+        margin-left: 27px;
+        margin-top: 0px;
+        height: 37px;
+        border-radius: 30px !important;
+        background-color: #e85151;
+    }
+
+    .img-priyamani-shopping{
+        width: 180%;
+        /*margin-left: -9em;*/
+        float: right;
+        overflow: hidden;
+        padding-left: 148px;
+
+        /*overflow-scrolling: revert;*/
+    }
+    #img-shopping{
+        display: none;
+    }
+    #img-shopping-mobile{
+        display: block;
     }
 }
 
