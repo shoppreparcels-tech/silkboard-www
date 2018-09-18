@@ -253,6 +253,30 @@ body.logged-in .YouTubePopUp-Wrap{
     .YouTubePopUp-Content{
         max-width:90%;
     }
+    #img-shopping{
+        display: none;
+    }
+    #img-shopping-mobile{
+        display: block;
+    }
+
+    .btn-get-assisted {
+        width: 230px;
+        margin-left: 20%;
+        margin-top: 0px;
+        height: 37px;
+        border-radius: 30px !important;
+        background-color: #e85151;
+    }
+
+    .img-priyamani-shopping{
+        width: 180%;
+        /*margin-left: 10em;*/
+        float: right;
+        overflow: hidden;
+        padding-left: 373px
+    }
+
 }
 
 @media all and (max-width: 600px) and (min-width: 10px){
@@ -295,9 +319,8 @@ body.logged-in .YouTubePopUp-Wrap{
         float: right;
         overflow: hidden;
         padding-left: 148px;
-
-        /*overflow-scrolling: revert;*/
     }
+
     #img-shopping{
         display: none;
     }

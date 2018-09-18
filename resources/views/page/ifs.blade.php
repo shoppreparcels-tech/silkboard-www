@@ -275,7 +275,12 @@
                  <div class="col-sm-12 col-xs-12" id="img-shopping-mobile">
                      <img class="img-priyamani-shopping" src="img/images/priyamani_shopping.png">
                  </div>
-                <button class="btn btn-get-assisted h4 p-color-white">Get Assisted</button>
+                <a href="https://myaccount.shoppre.com/personal-shopper">
+                    <div class="btn btn-get-assisted h4 p-color-white">
+                        Get Assisted
+                    </div>
+                </a>
+
             </div>
              <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 " id="img-shopping">
               <img class="img-priyamani-shopping" src="img/images/priyamani_shopping.png">
@@ -283,6 +288,7 @@
 
         </div>
     </section>
+
     {{--<section>--}}
     {{--<div class="container" style="margin-top: 63px; margin-bottom: 30px;">--}}
     {{--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">--}}

@@ -547,7 +547,7 @@
                     <div class="ship-left-border">
                         <p class="header3 p-courier-h">ShoppRe Courier
                         <p class="header5 p-color-cement p-line-height">Schedule a Pickup, we'll come to you in 24
-                            hours & get your package delivered to the destination in 2-5
+                            hours & get your package delivered to the destination in 3-6
                             <br> business days!</p>
                     </div>
                     <center>
