@@ -183,16 +183,17 @@ btn-register-text:hover{
 }
 
 .header2{
-    font-size: 17px;
-    font-weight: 700;
-}
-.header3{
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 400;
+}
+
+.header3{
+    font-size: 20px;
+    font-weight: 400;
 }
 .header4{
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .header5{
@@ -202,7 +203,7 @@ btn-register-text:hover{
 
 header6{
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 header7{
@@ -1191,6 +1192,7 @@ a#prev:hover, a#next:hover {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+
     .logo{
         width: 83px;
         height: 24px;
@@ -1243,17 +1245,17 @@ a#prev:hover, a#next:hover {
         font-weight: 700;
     }
 
-    header6{
+    .header6{
         font-size: 12px;
         font-weight: 700;
     }
 
-    header7{
+    .header7{
         font-size: 12px;
         font-weight: 700;
     }
 
-    header8{
+    .header8{
         font-size: 10px;
         font-weight: 700;
     }
@@ -1278,13 +1280,13 @@ a#prev:hover, a#next:hover {
     /*}*/
 
     .div-piyamani-mobile-img{
-        background-image: url(../../new_assets/img/images/image_priyamani_mobile.png);
-        height: 400px;
-        width: 108px;
+        background-image: url(../../new_assets/img/images/image_priyamani_mobile3.png);
+        height: 340px;
+        width: 151px;
         background-repeat: no-repeat;
         float: right;
-        margin-top: -329px;
-        margin-bottom: -66px;
+        margin-top: -364px;
+        /*margin-bottom: -66px;*/
         overflow: hidden;
     }
 

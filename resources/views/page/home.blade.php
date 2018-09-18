@@ -198,7 +198,7 @@
     <main class="div-main" role="main">
         <div class="container" style="padding-left: 0px ; padding-right: 0px">
             <div class="col-md-6  col-lg-6  col-sm-12 col-xs-12 ">
-                <div class="col-md-12 col-sm-12 col-xs-12  col-lg-12 div-main-row">
+                <div class="col-md-12 col-sm-11 col-xs-11  col-lg-12 div-main-row">
                     <strong>
                         <b><h1 class="header1 p-color-white header-text-margin" style="font-family: Montserrat;">
                                 International Shipping
@@ -287,7 +287,7 @@
                                 <a href="tel:+91-80 4094 4077">
                                     <b>
                                         <p class="p-demo-text"
-                                           style="font-size: 12px ; font-weight: 900;padding-left: 2px">
+                                           style="font-size: 12px ; font-weight: 900;padding-left: 20px">
                                             &nbsp;&nbsp;Call Now
                                         </p>
                                     </b>
@@ -319,11 +319,24 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                 <center>
 
-                    <p class="header2 p-color-cement" style="text-align: center">Our trusted partners <span
-                            class="p-color-red"><a
-                                href="{{route('dhl.index')}}">DHL</a>,&nbsp;<a
-                                href="{{route('dtdc.index')}}">DTDC</a></span> and <span class="p-color-red"><a
-                                href="{{route('fedex.index')}}">FedEx</a></span> help us sail smooth all the way to
+                    <p class="header2 p-color-cement" style="text-align: center">Our trusted partners
+                        <span class="p-color-red">
+                            <a href="{{route('dhl.index')}}">
+                                DHL
+                            </a>
+                        </span>
+                        and
+                        <span class="p-color-red">
+                            <a href="{{route('dtdc.index')}}">
+                                DTDC
+                            </a>
+                        </span>
+                        {{--<span class="p-color-red">--}}
+                            {{--<a href="{{route('fedex.index')}}">--}}
+                                {{--FedEx--}}
+                            {{--</a>--}}
+                        {{--</span> --}}
+                        help us sail smooth all the way to
                         your destination, wherever it is! </p>
                 </center>
 
@@ -532,7 +545,7 @@
                     <img class="img-shop-ship img-responsive"
                          src="{{asset('img/svg_image/ic_service_truck.svg')}}">
                     <div class="ship-left-border">
-                        <p class="header3 p-courier-h">Courier Service
+                        <p class="header3 p-courier-h">ShoppRe Courier
                         <p class="header5 p-color-cement p-line-height">Schedule a Pickup, we'll come to you in 24
                             hours & get your package delivered to the destination in 2-5
                             <br> business days!</p>
@@ -541,7 +554,7 @@
                         <a href="{{route('schedulePickup.Index')}}">
                             <div class="header5 btn-our-courier btn-font-size" id="btn-our-courier">
                                 <p>
-                                    Schedule Pickup
+                                    Schedule a Pickup
                                 </p>
                             </div>
                         </a>

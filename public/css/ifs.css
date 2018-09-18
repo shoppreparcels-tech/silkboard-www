@@ -3,7 +3,7 @@
  height: 59px;
  width: 59px;
  margin-top: 20px;
-  border: 1px solid #929ca5;
+ border: 1px solid #929ca5;
 }
 
 #step1{
@@ -40,9 +40,28 @@
 .btn-ifs-free-v-a{
 	width: 300px;
     height: 50px;
-	border-radius: 30px;
+	border-radius: 30px !important;
 	background-color: #e85151;
 	margin:24px 0 72px 0;
+}
+
+.mobile-view{
+    background-color: #fafafb;
+    display: none;
+}
+.mobile-images{
+    margin-top: 50px;
+    padding-bottom: 30px;
+    -webkit-transition: width 2s;
+    transition: width 0.8s;
+    background-color: #ffffff;
+}
+
+
+.btn-ifs-free-v-a:hover{
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
 }
 
 .img-ifs-card{
@@ -233,6 +252,14 @@ body.logged-in .YouTubePopUp-Wrap{
     .YouTubePopUp-Close{
         bottom:362px;
     }
+
+    #mobile-view{
+        /*clear: both;*/
+        display: block;
+    }
+    #div-container{
+        display: none;
+    }
 }
 
 @media all and (max-width: 480px) and (min-width: 10px){
@@ -242,6 +269,12 @@ body.logged-in .YouTubePopUp-Wrap{
 
     .YouTubePopUp-Close{
         bottom:262px;
+    }
+    #mobile-view{
+        display: block;
+    }
+    #div-container{
+        display: none;
     }
 }
 /*video*/

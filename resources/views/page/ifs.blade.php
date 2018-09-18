@@ -35,10 +35,10 @@
         }
 
         /*.div-step1:hover {*/
-            /*width: 679px;*/
-            /*height: 400px;*/
-            /*box-shadow: 0 0 10px rgba(146, 156, 165, 0.1);*/
-            /*background-color: #ffffff;*/
+        /*width: 679px;*/
+        /*height: 400px;*/
+        /*box-shadow: 0 0 10px rgba(146, 156, 165, 0.1);*/
+        /*background-color: #ffffff;*/
 
         /*}*/
 
@@ -49,6 +49,7 @@
             background-color: #ffffff;
 
         }
+
         .div-step3:hover {
             width: 679px;
             height: 400px;
@@ -89,14 +90,15 @@
             <div style="margin: 77px 0 13px  0 ;">
                 <center>
                     <h2 class="header1 p-color-cement-dark">How it Works?</h2>
-                    <p class="p-color-cement" style="font-size: 18px;font-weight: 500;">We receive your order at our
+                    <p class="header4 p-color-cement">We receive your order at our
                         branch and can provide Storage,<br>
                         Repackaging and Consolidation Service to send at your abroad address</p>
                 </center>
             </div>
         </div>
 
-        <div class="container" id="div-container" style="background-color: #fafafb;padding-left: 0px;padding-right: 0px">
+        <div class="container" id="div-container"
+             style="background-color: #fafafb;padding-left: 0px;padding-right: 0px">
             <div class="col-md-4 col-lg-4  div-step1">
                 <div class="box-ifs" id="step1">
                     <center>
@@ -105,18 +107,18 @@
                 </div>
                 <div class="" id="image1" style="margin-top: -94px;">
                     <center>
-                        <h3 class=" p-color-cement-dark" style="font-size: 18px;font-weight: 700; margin-top: 36px;">Get
+                        <h3 class=" p-color-cement-dark header4" style="margin-top: 36px;">Get
                             a Free Virtual
                             Address</h3>
                     </center>
                     <img class="img-responsive img-ifs-v_addres " style="margin-top:50px;"
                          src="img/svg_image/step1.svg">
                 </div>
-                <div class="" style="padding: 0;display: none;" id="text1" >
-                    <h3 class=" p-color-cement-dark p-ifs-margin-h"
-                        style="font-size:18px;font-weight: 700;text-align: center " id="step-register">Register</h3>
-                    <p class=" p-color-cement p-ifs-margin-d"
-                       style="font-size: 14px;font-weight: 500;text-align: center" id="step-register">
+                <div class="" style="padding: 0;display: none;" id="text1">
+                    <h3 class="header4 p-color-cement-dark p-ifs-margin-h"
+                        style="text-align: center " id="step-register">Register</h3>
+                    <p class="header6 p-color-cement p-ifs-margin-d"
+                       style="text-align: center" id="step-register">
                         Registre with us and get free virtual address, free 20 days locker storage service per order
                     </p>
                 </div>
@@ -124,7 +126,7 @@
 
 
             <div class="col-md-4 col-lg-4  div-step2">
-                <div class="box-ifs" id="step2">
+                <div class="box-ifs" id="step2" style="margin-left: 70px">
                     <center>
                         <p class="header4 p-color-cement"><span id="number2">2</span> <br> STEP </p>
                     </center>
@@ -132,7 +134,7 @@
 
                 <div class="" id="image2" style="display: none ;margin-top: -94px;">
                     <center>
-                        <h3 class=" p-color-cement-dark" style="font-size: 18px;font-weight: 700; margin-top: 36px;">
+                        <h3 class=" p-color-cement-dark header4" style="margin-top: 36px;">
                             Purchase Products
                         </h3>
                     </center>
@@ -141,10 +143,10 @@
                 </div>
 
                 <div class="" style="padding: 0" id="text2">
-                    <h3 class=" p-color-cement-dark p-ifs-margin-h"
-                        style="font-size:18px;font-weight: 700;text-align: center " id="step-register">Purchase</h3>
-                    <p class=" p-color-cement p-ifs-margin-d"
-                       style="font-size: 14px;font-weight: 500;text-align: center" id="step-register">
+                    <h3 class="header4 p-color-cement-dark p-ifs-margin-h"
+                        style="text-align: center " id="step-register">Purchase</h3>
+                    <p class="header6 p-color-cement p-ifs-margin-d"
+                       style="text-align: center" id="step-register">
                         Purchase any product from your favourite indian online store and use your
                         locker address for item delivery.
                     </p>
@@ -153,7 +155,7 @@
 
 
             <div class="col-md-4 col-lg-4  div-step3">
-                <div class="box-ifs" id="step3">
+                <div class="box-ifs" id="step3" style="margin-left: 70px">
                     <center>
                         <p class="header4 p-color-cement"><span id="number3">3</span><br> STEP </p>
                     </center>
@@ -161,28 +163,67 @@
 
                 <div class="" id="image3" style="display: none ;margin-top: -94px;">
                     <center>
-                        <h3 class=" p-color-cement-dark" style="font-size: 18px;font-weight: 700; margin-top: 36px;">Receive your package </h3>
+                        <h3 class=" p-color-cement-dark" style="font-size: 18px;font-weight: 700; margin-top: 36px;">
+                            Receive your package </h3>
                     </center>
                     <img class="img-responsive img-ifs-v_addres " style="margin-top: 20px;"
                          src="img/svg_image/step3.svg">
                 </div>
 
                 <div class="" style="padding: 0" id="text3">
-                    <h3 class=" p-color-cement-dark p-ifs-margin-h"
-                        style="font-size:18px;font-weight: 700;text-align: center " id="step-register">Receive</h3>
-                    <p class=" p-color-cement p-ifs-margin-d"
-                       style="font-size: 14px;font-weight: 500;text-align: center" id="step-register">
-                        We will ship your product to your  abroad address  with upto 80% less  delivery
-                        cost.  Enjoy!
+                    <h3 class="header4 p-color-cement-dark p-ifs-margin-h"
+                        style="text-align: center " id="step-register">Receive</h3>
+                    <p class="header6 p-color-cement p-ifs-margin-d"
+                       style="text-align: center" id="step-register">
+                        We will ship your product to your abroad address with upto 80% less delivery
+                        cost. Enjoy!
                     </p>
                 </div>
-
             </div>
-
-
         </div>
 
-        <div class="container">
+
+        {{--mobile view--}}
+
+        <div class="container mobile-view" id="mobile-view">
+            <div class="col-sm-4 col-xs-4">
+                <center>
+                    <div class="box-ifs" style="border-color: red !important;" id="mobile-step1">
+                        <center>
+                            <p class="header4 p-color-cement"><span style=" color: red" id="m-number1">1</span> <br> STEP </p>
+                        </center>
+                    </div>
+                </center>
+            </div>
+            <div class="col-sm-4 col-xs-4">
+                <center>
+                    <div class="box-ifs" id="mobile-step2">
+                        <center>
+                            <p class="header4 p-color-cement"><span id="m-number2">2</span> <br> STEP </p>
+                        </center>
+                    </div>
+                </center>
+            </div>
+            <div class="col-sm-4 col-xs-4">
+                <center>
+                    <div class="box-ifs" id="mobile-step3" >
+                        <center>
+                            <p class="header4 p-color-cement"><span id="m-number3">3</span><br> STEP </p>
+                        </center>
+                    </div>
+                </center>
+            </div>
+            <div class="col-xs-12 col-sm-12 mobile-images">
+                <center>
+                    <img class="img-responsive " id="mobile-image1"  src="img/svg_image/step1.svg">
+                    <img class="img-responsive " id="mobile-image2" style="width: 80%;display: none;" src="img/svg_image/step_2.svg">
+                    <img class="img-responsive " id="mobile-image3" style="width: 80%;display: none;" src="img/svg_image/step3.svg">
+                </center>
+            </div>
+        </div>
+        {{--mobile view--}}
+
+        <div class="container" >
             <center>
                 <button class="btn h4 p-color-white btn-ifs-free-v-a">Get Free Virtual Address</button>
             </center>
@@ -194,7 +235,8 @@
     {{--<div class="container">--}}
     {{--<center>--}}
     {{--<h1 class="header1 p-color-cement-dark">Personal Shopper</h1>--}}
-    {{--<h3 class="header2 p-color-cement">Don't know how to purchase? Hire an expart and allow him to <br> purchase--}}
+    {{--<h3 class="header2 p-color-cement">Don't know how to purchase? Hire an expart and allow him to <br>--}}
+    {{--purchase--}}
     {{--on behalf of you </h3>--}}
     {{--</center>--}}
     {{--</div>--}}
@@ -205,7 +247,8 @@
     {{--<img class="img " src="img/svg_image/4-layers.svg">--}}
     {{--</div>--}}
     {{--<div class="col-md-10 col-lg-10 img-ifs-card">--}}
-    {{--<h4 class="header4 p-color-cement-dark">Store does't accept your <br> International Credit cards? </h4>--}}
+    {{--<h4 class="header4 p-color-cement-dark">Store does't accept your <br> International Credit cards?--}}
+    {{--</h4>--}}
     {{--</div>--}}
 
 
@@ -213,13 +256,15 @@
     {{--<img class="img" src="img/svg_image/4-layers1.svg">--}}
     {{--</div>--}}
     {{--<div class="col-md-10 col-lg-10 img-ifs-card">--}}
-    {{--<h4 class="header4 p-color-cement-dark">Store does't accept your <br> International Credit cards? </h4>--}}
+    {{--<h4 class="header4 p-color-cement-dark">Store does't accept your <br> International Credit cards?--}}
+    {{--</h4>--}}
     {{--</div>--}}
     {{--<div class="col-md-2 col-lg-2  img-ifs-card">--}}
     {{--<img class="img" src="img/svg_image/4-layers2.svg">--}}
     {{--</div>--}}
     {{--<div class="col-md-10 col-lg-10 img-ifs-card">--}}
-    {{--<h4 class="header4 p-color-cement-dark">Store does't accept your <br> International Credit cards? </h4>--}}
+    {{--<h4 class="header4 p-color-cement-dark">Store does't accept your <br> International Credit cards?--}}
+    {{--</h4>--}}
     {{--</div>--}}
 
     {{--<button class="btn btn-get-assisted h4 p-color-white">Get Assisted</button>--}}
@@ -520,14 +565,14 @@
             $('.div-step1').hover(function () {
                     $('#image1').show();
                     $("#text1").hide();
-                    $("#step1").css({'border-color':'red'})
-                    $("#number1").css({'color':'red'})
+                    $("#step1").css({'border-color': 'red'})
+                    $("#number1").css({'color': 'red'})
                 },
                 function () {
                     $('#image1').show();
                     $("#text1").hide();
-                    $("#step1").css({'border-color':'#929ca5'})
-                    $("#number1").css({'color':'#929ca5'})
+                    $("#step1").css({'border-color': '#929ca5'})
+                    $("#number1").css({'color': '#929ca5'})
                 });
         });
     </script>
@@ -536,23 +581,27 @@
             $('.div-step2').hover(function () {
                     $('#image2').show();
                     $("#text2").hide();
-                    $("#step2").css({'border-color':'red'})
-                    $("#number2").css({'color':'red'})
-                    $(".div-step1").css({'height':'400px','width':'228px','background-color':'#fafafb'})
-                    $("#step1").css({'border-color':'#929ca5'})
+                    $("#step2").css({'border-color': 'red'})
+                    $("#number2").css({'color': 'red'})
+                    $(".div-step1").css({'height': '400px', 'width': '228px', 'background-color': '#fafafb'})
+                    $("#step1").css({'border-color': '#929ca5'})
                     $('#image1').hide();
                     $("#text1").show();
+                    $("#step1").css({'margin-left': '70px'})
+                    $("#step3").css({'margin-left': '70px'})
                     /*background-color: #fafafb;*/
                 },
                 function () {
                     $('#image2').hide();
                     $("#text2").show();
-                    $("#step2").css({'border-color':'#929ca5'})
-                    $("#number2").css({'color':'#929ca5'})
-                    $(".div-step1").css({'height':'400px','width':'679px','background-color':'#ffffff'})
-                    $("#step1").css({'border-color':'red'})
+                    $("#step2").css({'border-color': '#929ca5'})
+                    $("#number2").css({'color': '#929ca5'})
+                    $(".div-step1").css({'height': '400px', 'width': '679px', 'background-color': '#ffffff'})
+                    $("#step1").css({'border-color': 'red'})
                     $('#image1').show();
                     $("#text1").hide();
+                    $("#step1").css({'margin-left': '0'})
+                    $("#step3").css({'margin-left': '70px'})
                 });
         });
     </script>
@@ -561,23 +610,102 @@
             $('.div-step3').hover(function () {
                     $('#image3').show();
                     $("#text3").hide();
-                    $("#step3").css({'border-color':'red'})
-                    $("#number3").css({'color':'red'})
-                    $(".div-step1").css({'height':'400px','width':'228px','background-color':'#fafafb'})
-                    $("#div-container").css({'background-color':'#ffffff'})
-                    $("#step1").css({'border-color':'#929ca5'})
+                    $("#step3").css({'border-color': 'red'})
+                    $("#number3").css({'color': 'red'})
+                    $(".div-step1").css({'height': '400px', 'width': '228px', 'background-color': '#fafafb'})
+                    $("#div-container").css({'background-color': '#ffffff'})
+                    $("#step1").css({'border-color': '#929ca5'})
                     $('#image1').hide();
                     $("#text1").show();
+                    $("#step1").css({'margin-left': '70px'})
+                    $("#step2").css({'margin-left': '70px'})
                 },
                 function () {
                     $('#image3').hide();
                     $("#text3").show();
-                    $("#step3").css({'border-color':'#929ca5'})
-                    $("#number3").css({'color':'#929ca5'})
-                    $(".div-step1").css({'height':'400px','width':'679px','background-color':'#ffffff'})
-                    $("#step1").css({'border-color':'red'})
+                    $("#step3").css({'border-color': '#929ca5'})
+                    $("#number3").css({'color': '#929ca5'})
+                    $(".div-step1").css({'height': '400px', 'width': '679px', 'background-color': '#ffffff'})
+                    $("#step1").css({'border-color': 'red'})
                     $('#image1').show();
                     $("#text1").hide();
+                    $("#step1").css({'margin-left': '0'})
+                    $("#step2").css({'margin-left': '70px'})
+                });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#mobile-step1').hover(function () {
+                    $('#mobile-image1').show();
+                    $("#mobile-image2").hide();
+                    $("#mobile-image3").hide();
+                    // $("#mobile-step2").css({'border-color': '#929ca5'})
+                    // $("#mobile-step3").css({'border-color': '#929ca5'})
+                },
+                function () {
+                    $('#mobile-image1').show();
+                    $("#mobile-image2").hide();
+                    $("#mobile-image3").hide();
+                    // $("#mobile-step2").css({'border-color': '#929ca5'})
+                    // $("#mobile-step3").css({'border-color': '#929ca5'})
+
+                });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#mobile-step2').hover(function () {
+                    $('#mobile-image1').hide();
+                    $("#mobile-image2").show();
+                    $("#mobile-image3").hide();
+                    $("#m-number2").css({'color': 'red'})
+                    $("#m-number3").css({'color': '#929ca5'})
+                    $("#m-number1").css({'color': '#929ca5'})
+                    $("#mobile-step2").css({'border-color': 'red'})
+                    $("#mobile-step1").css({'border-color': '#929ca5'})
+                    $("#mobile-step3").css({'border-color': '#929ca5'})
+                },
+                function () {
+                    $('#mobile-image1').show();
+                    $("#mobile-image2").hide();
+                    $("#mobile-image3").hide();
+                    $("#m-number2").css({'color': '#929ca5'})
+                    $("#m-number3").css({'color': '#929ca5'})
+                    $("#m-number1").css({'color': 'red'})
+                    $("#mobile-step2").css({'border-color': '#929ca5'})
+                    $("#mobile-step1").css({'border-color': 'red'})
+                    $("#mobile-step3").css({'border-color': '#929ca5'})
+
+                });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#mobile-step3').hover(function () {
+                    $('#mobile-image1').hide();
+                    $("#mobile-image2").hide();
+                    $("#mobile-image3").show();
+                    $("#m-number2").css({'color': '#929ca5'})
+                    $("#m-number3").css({'color': 'red'})
+                    $("#m-number1").css({'color': '#929ca5'})
+                    $("#mobile-step3").css({'border-color': 'red'})
+                    $("#mobile-step1").css({'border-color': '#929ca5'})
+                    $("#mobile-step2").css({'border-color': '#929ca5'})
+                },
+                function () {
+                    $('#mobile-image1').show();
+                    $("#mobile-image2").hide();
+                    $("#mobile-image3").hide();
+                    $("#m-number2").css({'color': '#929ca5'})
+                    $("#m-number3").css({'color': '#929ca5'})
+                    $("#m-number1").css({'color': 'red'})
+                    $("#mobile-step2").css({'border-color': '#929ca5'})
+                    $("#mobile-step1").css({'border-color': 'red'})
+                    $("#mobile-step3").css({'border-color': '#929ca5'})
+
                 });
         });
     </script>
