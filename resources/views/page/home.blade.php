@@ -371,7 +371,7 @@
                                 <img class="img-benifits img-responsive"
                                      src="{{asset('img/svg_image/ic_box.svg')}}">
                                 <p class="online-text" style="margin-left: -1px;">Save Up to 80%</p>
-                                <p class="online-text-words">By Storing, Consolidating <br>& Repackging! </p>
+                                <p class="online-text-words">By Storing, Consolidating <br>& Repackaging! </p>
                             </a>
                         </center>
                     </div>
