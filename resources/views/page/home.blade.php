@@ -312,7 +312,7 @@
         <div class="container">
             <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                 <center>
-                    <h1 class="header1 p-color-cement-dark div-margin">About us </h1>
+                    <h1 class="header1 p-color-cement-dark div-margin">About Us </h1>
                 </center>
             </div>
 
@@ -336,7 +336,7 @@
                                 {{--FedEx--}}
                             {{--</a>--}}
                         {{--</span> --}}
-                        help us sail smooth all the way to
+                       more help us sail smooth all the way to
                         your destination, wherever it is! </p>
                 </center>
 
@@ -512,7 +512,7 @@
             <div class="div-margin">
                 <center>
                     <h1 class="header1 p-color-cement-dark">Our Services</h1>
-                    <p class="header2 p-color-cement">Ever wonder how do we make it all happen? Trust us, We
+                    <p class="header2 p-color-cement">Ever wonder how do we make it all happen? Trust us, we
                         strategize around your needs!
                     </p>
                 </center>
@@ -526,7 +526,7 @@
                     <p class="header3 p-color-red ">Shop & Ship</p>
                     <p class="header5 p-color-cement">Sign up for FREE and get your own local, virtual
                         shipping address; shop around on Indian online stores; store your purchases in
-                        your PERSONAL LOCKER & conslidate; we'll repackage & ship them to your doorsteps
+                        your PERSONAL LOCKER & conslidate; we'll repackage & ship them to your doorsteps!
                     </p>
                     {{--<center>--}}
                     <a href="{{route('shopFromIndia')}}">
@@ -1067,7 +1067,7 @@
                     <a href="https://www.shoppre.com/paypal/">
                         <div class="col-md-4 col-lg-4 col-xs-6 col-sm-6 div-border">
                             <center>
-                                <img class="img-paytm" src="{{asset('img/svg_image/ic_payment_paypal.svg')}}">
+                                <img class="img-paytm img-paytm-margin" src="{{asset('img/svg_image/ic_payment_paypal.svg')}}">
                             </center>
                         </div>
                     </a>

@@ -20,7 +20,7 @@
             {{--<div class="col-md-9 ">--}}
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="nav-li"><a class="nav-a" href="{{route('about')}}">About us</a></li>
+                        <li class="nav-li"><a class="nav-a" href="{{route('about')}}">About Us</a></li>
                         <li class="nav-li"><a class="nav-a" href="{{route('services')}}">Services</a></li>
                         <li class="nav-li"><a class="nav-a" href="{{route('pricing')}}">Price Calculator</a></li>
                         <li class="nav-li"><a class="nav-a" href="https://www.shoppre.com/offers/send-durga-puja-gifts-from-india-ship-internationally/" target="_blank">Offers</a></li>

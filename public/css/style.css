@@ -1073,6 +1073,9 @@ a#prev:hover, a#next:hover {
     width: 135px;
     float: left;
 }
+.img-paytm-margin{
+    margin-left: -33px;
+}
 
 .p-payment-text{
     color: #11273b;
@@ -1634,6 +1637,9 @@ a#prev:hover, a#next:hover {
         height: 22px;
         width: 94px;
         float: left;
+    }
+    .img-paytm-margin{
+        margin-left: 0;
     }
     .p-payment-text{
         font-size: 12px;
