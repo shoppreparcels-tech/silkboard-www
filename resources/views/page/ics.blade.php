@@ -31,7 +31,6 @@
                         <li role="presentation">
                             <a href="#Domestic" aria-controls="profile" role="tab" data-toggle="tab">Domestic</a>
                         </li>
-
                     </ul>
                     <!-- Tab panes -->
                     <div class="tab-content tabs">

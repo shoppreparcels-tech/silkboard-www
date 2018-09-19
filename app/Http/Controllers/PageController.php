@@ -35,6 +35,7 @@ class PageController extends Controller
     {
         return view('page.ifs');
     }
+
     public function aboutIndex()
     {
         return view('page.about-new');
@@ -44,6 +45,7 @@ class PageController extends Controller
     {
         return view('page.contact-new');
     }
+
     public function offersIndex()
     {
         return view('page.offers-new');
@@ -555,7 +557,7 @@ class PageController extends Controller
     public function reviews()
     {
         $countries = Country::orderBy('name', 'asc')->get();
-        $reviews = Review::orderBy('updated_at', 'desc')->where('approve', '1')->paginate(10);
+        $reviews = Review::orderBy('updated_at', 'desc')->where('approve', '1')->limit(5)->get();
         return view('page.reviews')->with(['countries' => $countries, 'reviews' => $reviews]);
     }
 

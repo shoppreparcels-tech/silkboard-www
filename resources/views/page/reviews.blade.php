@@ -5,10 +5,28 @@
 @section('keywords', 'review, rating, member, customer, shipping, shopping, service, india')
 
 @section('css_style')
-<!-- Select2 -->
-<link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
-<link href="{{asset('css/star-rating.min.css')}}" rel="stylesheet"/>
-<script type="application/ld+json">
+    <!-- Select2 -->
+    <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/star-rating.min.css')}}" rel="stylesheet"/>
+
+    <style>
+
+        .rating-xl {
+            font-size: 23px;
+        }
+
+        .form-control {
+            height: 41px;
+        }
+
+        label {
+            float: left;
+            margin-left: 4px;
+        }
+
+    </style>
+
+    <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Organization",
@@ -29,7 +47,7 @@
     "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
     "https://www.linkedin.com/company/17945446",
     "https://in.pinterest.com/shoppre",
-    "https://play.google.com/store/apps/details?id=com.shoppre.play",          
+    "https://play.google.com/store/apps/details?id=com.shoppre.play",
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
   ],
   "aggregateRating": {
@@ -40,135 +58,201 @@
     "worstRating" : 3.5
   }
 }
-</script>
+
+
+
+
+
+
+    </script>
 
 @endsection
 
 @section('content')
 
-	<section class="page_head">
-      <div class="pagebanner">
-        <img src="img/banner1.jpg" width="100%">
-        <div class="banner-cap">
-          <h2>Member <span class="text-orange">Reviews</span></h2>
+    <section class="header">
+        <div class="container header-padder-top">
+            <center>
+                <p class="reviews-header p-color-white">Customer Reviews</p>
+                <p class="review-content-font-size p-color-cement header-margin-bottom">Our members loves our top-rated
+                    service
+                    and how easy and worry
+                    <br>free we make shopping and shipping from INDIA
+                </p>
+            </center>
         </div>
-      </div>
-  </section>
-
-  <section class="reviews_head">
-    <div class="container">
-      <div class="col-md-8 col-md-offset-2">
-        <h2>What members are saying about <span class="text-orange">Shoppre</span></h2>
-        <p>Our members love our top-rated service and how easy and worry-free we make shopping and shipping from INDIA</p>
-
-        @if (session('message'))
-          <div class="alert alert-success">{{ session('message') }}</div>
-        @endif
-        @if (session('error'))
-            <div class="alert alert-danger">{{ session('error') }}</div>
-        @endif
-
-      </div>
-    </div>
-  </section>
-
-  <section class="reviews">
-      <div class="container">
-        <div class="col-md-8">
-          <div class="list">
-            <h3>Latest Reviews</h3>
-            @foreach($reviews as $review)
-            <div class="blox">
-              <h4>By <span>{{$review->person}}</span> on {{date('j F, Y', strtotime($review->created_at))}}</h4>
-              <input class="rating rated" value="{{$review->rating}}">
-              <p>{{$review->review}}</p>
-              <i>- {{$review->country->name}}</i>
-              <i>- {{$review->source}}</i>
+    </section>
+    <section>
+        <center>
+            <div class="container section-social-reviews">
+                <center>
+                    @if (session('message'))
+                        <div class="alert alert-success">{{ session('message') }}</div>
+                    @endif
+                </center>
+                <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,," target="_blank">
+                    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 ">
+                        <img src="{{asset('img/reviews/review-google.png')}}" alt="Google Reviews">
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
+                    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                        <img src="{{asset('img/reviews/review-facebook.png')}}" alt="Facebook Reviews">
+                    </div>
+                </a>
+                    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                        <img src="{{asset('img/reviews/review-shoppre.png')}}" alt="Shoppre Reviews">
+                    </div>
             </div>
-            @endforeach
+        </center>
+    </section>
 
-            <div class="clearfix"></div>
-
-            {{ $reviews->links() }}
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="review_form">
-            <h3>Leave your own feedback</h3>
-            <form method="post" action="{{route('reviews.submit')}}">
-              {{csrf_field()}}
-              <div class="form-group">
-                <label>Name *</label>
-                <input type="text" class="form-control" name="person" placeholder="Enter Your Name">
-                @if ($errors->has('person'))
-                    <span class="error">{{ $errors->first('person') }}</span>
-                @endif
-              </div>
-              <div class="form-group">
-                <label>Country *</label>
-                <select class="form-control select2" name="country_id">
-                  <option value="">Select Country</option>
-                    @foreach($countries as $country)
-                      <option value="{{$country->id}}">{{$country->name}}</option>
-                    @endforeach
-                </select>
-                @if ($errors->has('country_id'))
-                    <span class="error">{{ $errors->first('country_id') }}</span>
-                @endif
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" rows="8" name="review" placeholder="Comments & Tips"></textarea>
-                @if ($errors->has('review'))
-                    <span class="error">{{ $errors->first('review') }}</span>
-                @endif
-              </div>
-              <div class="form-group">
-                <label>Rating *</label>
-                <div class="rating-star">
-                  <input id="input-rate" type="text" class="rating" name="rating">
+    <section style="background-color: #fafafb">
+        <center>
+            <div class="container-fluid" style="padding-left: 4%;padding-right: 4%">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-submit-review">
+                    <center>
+                        <p class="margin-bottom-div">Leave Your Feedback</p>
+                    </center>
+                    <form method="post" action="{{route('reviews.submit')}}">
+                        {{csrf_field()}}
+                        <div class="row margin-bottom-div">
+                            <div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4 col-sm-12 col-xs-12">
+                                <div class="form-group rating-star-left-margin">
+                                    <div class="rating-star rating-xl">
+                                        <input id="input-rate" type="text" class="rating" name="rating">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-lg-4 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
+                                <div class="form-group">
+                                    <label>Contact Person Full Name <span class="mendatory_fields">*</span></label>
+                                    <input id="input-rate" type="text" name="person" placeholder="enter name" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                                <div class="form-group">
+                                    <label>Country <span class="mendatory_fields">*</span></label>
+                                    <select class="form-control" name="country_id">
+                                        <option value="">Select Country</option>
+                                        @foreach($countries as $country)
+                                            <option value="{{$country->id}}">{{$country->name}}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
+                                <div class="form-group">
+                                    <label>Comment <span class="mendatory_fields">*</span></label>
+                                    <textarea class="form-control" rows="4" name="review" placeholder="enter comment">
+                                    </textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <center>
+                            <div class="row row-padding">
+                                <input type="submit" class="btn-review-submit header5" value="Submit"/>
+                            </div>
+                        </center>
+                    </form>
                 </div>
-                @if ($errors->has('rating'))
-                    <span class="error">{{ $errors->first('rating') }}</span>
-                @endif
-              </div>
-              <div class="form-group">
-                <button type="submit" class="btn btn-block btn-shoppre">Submit Feedback</button>
-              </div>
-            </form>
-          </div>
+
+                <div>
+                    <div class="row">
+                        @foreach($reviews as $review)
+                        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 inner-review">
+                                <div class="row div-img-row">
+
+                                    <div class="col-md-1 col-lg-1 col-sm-1 col-xs-1">
+                                        <img class=" img-review img-circle" src="{{asset('img/images/23.jpg')}}">
+                                    </div>
+                                    <div class="col-md-5 col-lg-5 col-sm-4 col-xs-4">
+                                        <p class="p-name-font-weight">&nbsp;&nbsp;&nbsp;&nbsp;{{$review->person}} </p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-5 col-sm-7 col-xs-7 rating-padding-left">
+                                        <img src="{{asset('img/rating-star.png')}}">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <i class="quots-t ">
+                                        <img src="{{asset('img/svg_image/qoute_up.svg')}}">
+                                    </i>
+                                </div>
+                                <div class="row">
+                                    <p class=" p-reviews">{{$review->review}}!</p>
+                                </div>
+                                <div class="row">
+                          <span class="quots-b">
+                            <img src="{{asset('img/svg_image/qoute_down.svg')}}">
+                          </span>
+                                </div>
+                            </div>
+                        </div>
+                        @endforeach
+                    </div>
+                    {{--<a href="#">--}}
+                        {{--<div class="btn-more-review header5">--}}
+                            {{--<p>--}}
+                                {{--Load More--}}
+                            {{--</p>--}}
+                        {{--</div>--}}
+                    {{--</a>--}}
+                </div>
+            </div>
+        </center>
+    </section>
+
+    <section style="background-color: #fafafb">
+        <div class="container-fluid padder-top-review">
+            <center>
+                <p class="review-heading">
+                    Delivering Joy to Your Doorsteps</p>
+                <p class="header2 p-doorstep-des">You've got no reason to wait around any longer, just come ShoppRe!</p>
+                <a href="https://myaccount.shoppre.com/register" target="_blank">
+                    <div class="btn-signup-review header3 p-color-white">
+                        <p>
+                            Sign Up for FREE
+                        </p>
+                    </div>
+                </a>
+            </center>
         </div>
-      </div>
     </section>
 
 @endsection
 
 @section('js_script')
-<script src="{{asset('js/star-rating.min.js')}}" type="text/javascript"></script>
-<script>
-  $(".rated").rating({
-    'size':'xs',
-    'min' : 0,
-    'max' : 5,
-    'step' : 1,
-    'displayOnly' : true,
-    'showClear' : false,
-    'showCaption' : false
-  });
+    <script src="{{asset('js/star-rating.min.js')}}" type="text/javascript"></script>
+    <script>
+        $(".rated").rating({
+            'size': 'lg',
+            'min': 0,
+            'max': 5,
+            'step': 1,
+            'displayOnly': true,
+            'showClear': false,
+            'showCaption': false
+        });
 
-  $("#input-rate").rating({
-    'size':'sm',
-    'min' : 0,
-    'max' : 5,
-    'step' : 1,
-    'showClear' : false,
-    'showCaption' : false
-  });
-</script>
-<!-- Select2 -->
-<script src="{{asset('js/select2.min.js')}}"></script>
-<script type="text/javascript">
-  $(document).ready(function() {
-    $(".select2").select2();
-  });
-</script>
+        $("#input-rate").rating({
+            'size': 'lg',
+            'min': 0,
+            'max': 5,
+            'step': 1,
+            'showClear': false,
+            'showCaption': false
+        });
+    </script>
+    <!-- Select2 -->
+    <script src="{{asset('js/select2.min.js')}}"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".select2").select2();
+        });
+    </script>
 @endsection

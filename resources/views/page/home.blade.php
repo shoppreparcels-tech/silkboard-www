@@ -854,7 +854,8 @@
                                 <p class="p-reviews">Amazing and very fast service. They told me it would reach
                                     within 5 working days but it actually
                                     reached with in 3 working days. I'm very much satisfied with shoppre
-                                    service.</p>
+                                    service.
+                                </p>
                             </div>
                             <div class="row" id="reviews">
                               <span class="quots-b">
@@ -1021,7 +1022,7 @@
     </section>
 
     <section>
-        <div class="container" style="margin-top: 60px;">
+        <div class="container" style="margin-top: 60px;padding-bottom: 20px;">
             <center>
                 <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
                 <p class="header2 p-doorstep-des">You've got no reason to wait around any longer, just come ShoppRe!</p>

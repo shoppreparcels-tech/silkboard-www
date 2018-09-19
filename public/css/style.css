@@ -101,6 +101,33 @@ header::after{
     /*align-content: center;*/
 }
 
+.reviews-header {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 1.8px;
+}
+
+.review-content-font-size {
+   font-size: 16px;
+}
+
+.section-social-reviews {
+    padding-top: 7%;
+    padding-bottom: 20%;
+}
+
+.header-margin-bottom
+{
+    margin-bottom: 6%;
+}
+
+.header-padder-top{
+    padding-top: 2%;
+}
+
 .login-link{
     margin-left:100px;
 }
@@ -1145,6 +1172,94 @@ a#prev:hover, a#next:hover {
     color: #fdf699;
 }
 
+.p-name-font-weight {
+    color: #11273b;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 7px;
+    margin-left: 21px;
+}
+
+.rating-padding-left {
+    padding-top: 8px;
+    float: right;
+}
+
+.btn-review-submit {
+    border: 1px solid #e85151;
+    width: 306px;
+    background-color: #e85151;
+    height: 50px;
+    border-radius: 50px;
+    margin-bottom: 53px;
+    color: #ffffff;
+}
+.btn-more-review {
+    border: 1px solid #507dbc;
+    width: 191px;
+    height: 37px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    color: #507dbc;
+    padding-top: 8px;
+    margin-top: 4%;
+}
+
+.padder-top-review {
+    padding-top: 3%;
+}
+
+.review-heading {
+    color: #11273b;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.btn-signup-review {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #e85151;
+    margin: 45px 0 91px 0;
+    padding-top: 10px;
+}
+
+.rating-star-left-margin {
+    margin-left: -13px;
+}
+
+.top-padder {
+    margin-top: 2%;
+}
+
+.inner-review {
+    border: 1px solid rgba(146, 156, 165, 0.06);
+    background-color: #ffffff;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    max-height: 342px;
+    min-height: 342px;
+    margin-top: 27px
+}
+
+.row-padding {
+    padding-top: 2%;
+}
+
+.div-submit-review {
+    box-shadow: 0 10px 50px rgba(17, 39, 59, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin: -170px 0 10px 0;
+    padding-top: 4%;
+    margin-bottom: 4%;
+}
+
+.margin-bottom-div {
+    margin-bottom: 3%;
+}
+
 .img-footer{
     /*margin-left: 17px;*/
     width: 35px;
@@ -1194,6 +1309,10 @@ a#prev:hover, a#next:hover {
     .logo{
         width: 83px;
         height: 24px;
+    }
+
+    .mobile-review-section {
+
     }
 
     .navbar-nav>li>a {
@@ -1253,12 +1372,15 @@ a#prev:hover, a#next:hover {
         font-weight: 700;
     }
 
+    .container-padding-submit-review {
+        padding-right: 4% !important;
+        padding-left: 4% !important;
+    }
+
     .header8{
         font-size: 10px;
         font-weight: 700;
     }
-
-
 
     .div-main-row	{
         margin-top: 37px;
