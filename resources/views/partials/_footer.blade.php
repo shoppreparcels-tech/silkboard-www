@@ -37,7 +37,7 @@
                     <li>
                         <a class="footer-a" href="mailto:support@shoppre.com" style="padding-top:40px; ">
                             <i class="glyphicon glyphicon-envelope"></i>
-                            SUPPORT EMAIL <br>
+                            SUPPORT <br>
                             <span class="span-color" style="font-size: 12px;margin-top:30px;">support@shoppre.com</span>
                         </a>
                     </li>
@@ -78,7 +78,7 @@
                         <img class="img-footer" src="{{asset('new_assets/img/svg_image/ic_footer_courier.svg')}}">
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10" style="margin-top: 14px;" >
-                        <span class="span-color">Careers Abroad</span>
+                        <span class="span-color">Courier Abroad</span>
                         <p class="p-best-price" id="p-best-price">Schedule a Pickup</p>
                     </div>
                     </a>
@@ -91,7 +91,7 @@
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10" style="margin-top: 14px;" >
                         <span class="span-color">Shop & Ship</span>
-                        <p class="p-best-price" id="p-best-price">Explore Stores now </p>
+                        <p class="p-best-price" id="p-best-price">Go Visit the Stores Now </p>
                     </div>
                     </a>
                 </div>

@@ -325,12 +325,13 @@
                                 DHL
                             </a>
                         </span>
-                        and
+                        ,
                         <span class="p-color-red">
                             <a href="{{route('dtdc.index')}}">
                                 DTDC
                             </a>
                         </span>
+                        &
                         {{--<span class="p-color-red">--}}
                             {{--<a href="{{route('fedex.index')}}">--}}
                                 {{--FedEx--}}

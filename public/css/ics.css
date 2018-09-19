@@ -1,85 +1,4 @@
 
-*,
-*::before,
-*::after {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-/* --- */
-.video-link {
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 4px;
-    margin-top: 120px;
-}
-
-/* --- */
-.player {
-    position: relative;
-    z-index: 1;
-    top: 0px;
-    left: 35%;
-    width: 30%;
-    height: 0%;
-    background: rgba(0, 0, 0, 1);
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, .65) 0%, rgba(0, 0, 0, 1) 100%);
-    background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, .65) 0%, rgba(0, 0, 0, 1) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(0, 0, 0, .65) 0%, rgba(0, 0, 0, 1) 100%);
-    background: radial-gradient(center, ellipse cover, rgba(0, 0, 0, .65) 0%, rgba(0, 0, 0, 1) 100%);
-
-    opacity: 0;
-    -webkit-transition: opacity 0.3s ease-in-out;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.player__video {
-    position: relative;
-    top: 100%;
-    left: 100%;
-    width: auto;
-    max-width: 75%;
-    background-color: #fff;
-    box-shadow: 0 0 50px rgba(0, 0, 0, .95);
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.js--show-video {
-    opacity: 1;
-}
-
-.video-filler {
-    display: block;
-    width: 100%;
-}
-
-.video-close {
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    right: -30px;
-    padding: 5px 10px;
-    border: none;
-    outline: none;
-    border-radius: 0 50% 50% 0;
-    cursor: pointer;
-    font-size: 24px;
-    color: #000;
-    background-color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, .75);
-}
-
-.video-iframe {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 10px solid #fff;
-}
-
 .btn-vid-img {
     width: 80px;
     height: 80px;
@@ -256,6 +175,8 @@ a:hover, a:focus {
     color: #fff;
     font-weight: 600;
     float: left;
+    padding-top: 10px;
+    padding-left: 11px;
     background-image: linear-gradient(196deg, #5ace89 0%, #44b773 100%);
 }
 
