@@ -303,34 +303,70 @@
         </div>
 
 
-        <div class="container">
+        <div class="container" style=" padding-top:20px;padding-bottom: 50px">
             {{--<div class="row">--}}
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bhoechie-tab-container">
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 bhoechie-tab-menu">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ifs-tab-container">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ifs-tab-menu">
                     <div class="list-group">
                         <a href="#" class="list-group-item active text-center">
-                            <h5 class="header5 ">Personal Shopper</h5>
+                            <div class="div-radio-btn">
+                            <label class="radio header5" >
+                                <input type="radio" checked="checked" name="is_company">
+                                <span class="checkround"></span>
+                            </label>
+                            </div>
+                            <h5 class="header5 li-header ">Personal Shopper</h5>
                         </a>
                         <a href="#" class="list-group-item text-center">
-                            <h5 class="header5">20-Day Free Storage</h5>
+                            <div class="div-radio-btn">
+                                <label class="radio header5">
+                                    <input type="radio" name="is_company">
+                                    <span class="checkround"></span>
+                                </label>
+                            </div>
+                            <h5 class="header5 li-header" >20-Day Free Storage</h5>
                         </a>
                         <a href="#" class="list-group-item text-center">
-                            <h5 class="header5">Consolidation</h5>
+                            <div class="div-radio-btn">
+                            <label class="radio header5">
+                                <input type="radio" name="is_company">
+                                <span class="checkround"></span>
+                            </label>
+                            </div>
+                            <h5 class="header5 li-header" >Consolidation</h5>
                         </a>
                         <a href="#" class="list-group-item text-center">
-                            <h5 class="header5">Repackaging</h5>
+                            <div class="div-radio-btn">
+                            <label class="radio header5">
+                                <input type="radio" name="is_company">
+                                <span class="checkround"></span>
+                            </label>
+                            </div>
+                            <h5 class="header5 li-header" >Repackaging</h5>
                         </a>
                         <a href="#" class="list-group-item text-center">
-                            <h5 class="header5 ">Affordable Rates</h5>
+                            <div class="div-radio-btn">
+                            <label class="radio header5">
+                                <input type="radio" name="is_company">
+                                <span class="checkround"></span>
+                            </label>
+                            </div>
+                            <h5 class="header5 li-header" >Affordable Rates</h5>
                         </a>
                         <a href="#" class="list-group-item text-center">
-                            <h5 class="header5">24/7 Customer Support</h5>
+                            <div class="div-radio-btn">
+                            <label class="radio header5">
+                                <input type="radio" name="is_company">
+                                <span class="checkround"></span>
+                            </label>
+                            </div>
+                            <h5 class="header5 li-header">24/7 Customer Support</h5>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bhoechie-tab"
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 ifs-tab"
                      style="padding-left: 0px;padding-right: 0px;">
-                    <div class="bhoechie-tab-content active">
+                    <div class="ifs-tab-content active">
                         <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12" style="margin-bottom: 113px;">
                             <center>
                                 <h4 class="header4 p-color-cement-dark" style="font-weight: 900 !important;"> An expert
@@ -346,22 +382,37 @@
                             </center>
 
                         </div>
-                        <div class="col-md-6 col-lg-6 col-sm-6 col-sm-offset-2 col-xs-6 col-xs-offset-2">
+                        <div class="col-md-4 col-lg-4 col-sm-6  col-xs-4 ">
                             <ul id="ifs-li">
-                                <li><p class="header7 p-color-cement" style="margin: -35px 0 11px -20px;">Order for
-                                        you</p></li>
-                                <li><p class="header7 p-color-cement" style="margin: -35px 0 11px -20px;">Pay for
-                                        you</p></li>
-                                <li><p class="header7 p-color-cement" style="margin: -35px 0 11px -20px;">Recieved your
-                                        Order</p></li>
-                                <li><p class="header7 p-color-cement" style="margin: -35px 0 11px -20px;">
-                                        Repack/Consolidate and send it to your</p></li>
-                                <li><p class="header7 p-color-cement" style="margin: -35px 0 11px -20px;">Abroad
-                                        Address</p></li>
+                                <li>
+                                    <p class="header7 p-color-cement" style="margin: -35px 0 11px -20px;">
+                                        Order for you
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="header7 p-color-cement" style="margin: -35px 0 11px -20px;">
+                                        Pay for you
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="header7 p-color-cement" style="margin: -35px 0 11px -20px;">
+                                        Recieved your Order
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="header7 p-color-cement" style="margin: -35px 0 11px -20px;">
+                                        Repack/Consolidate and send it to your
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="header7 p-color-cement" style="margin: -35px 0 11px -20px;">
+                                        Abroad Address
+                                    </p>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="bhoechie-tab-content">
+                    <div class="ifs-tab-content">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <center>
                                 <h3 class="header4 p-color-cement-dark"
@@ -370,7 +421,7 @@
                         </div>
                         <div class="col-md-9 col-lg-9 col-sm-9 col-xs-9">
                             <center>
-                                <img class="img-responsive " style="height: 350px;"
+                                <img class="img-responsive " style="height: 250px;"
                                      src="img/svg_image/image_benefit_003.svg">
                             </center>
                         </div>
@@ -382,12 +433,12 @@
                         </div>
                     </div>
 
-                    <div class="bhoechie-tab-content">
+                    <div class="ifs-tab-content">
                         <div class="col-md-6 col-lg-6 col-sm-5 col-xs-5">
                             <center>
                                 <h4 class="header4 p-color-cement-dark" style="font-weight: 900 !important;">Before
                                     Consolidation</h4>
-                                <img class="img-responsive " style="height: 330px;"
+                                <img class="img-responsive " style="height: 256px;"
                                      src="img/svg_image/image_benefit_002A.svg">
                             </center>
                         </div>
@@ -404,15 +455,15 @@
                             <center>
                                 <h4 class="header4 p-color-cement-dark" style="font-weight: 900 !important;">After
                                     Consolidation</h4>
-                                <img class="img-responsive " style="height: 330px;"
+                                <img class="img-responsive " style="height: 256px;"
                                      src="img/svg_image/image_benefit_002B.svg">
                             </center>
                         </div>
                     </div>
 
 
-                    <div class="bhoechie-tab-content">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 50px;">
+                    <div class="ifs-tab-content">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 29px;">
                             <center>
                                 <h3 class="header4 p-color-cement-dark"
                                     style="text-align: center;font-weight: 900!important;">Re-packaging</h3>
@@ -436,7 +487,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="bhoechie-tab-content">
+                    <div class="ifs-tab-content">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 50px;">
                             <center>
                                 <h3 class="header4 p-color-cement-dark"
@@ -444,7 +495,7 @@
                             </center>
                         </div>
                         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                            <img class="img-responsive "
+                            <img class="img-responsive " style="    height: 180px;"
                                  src="img/svg_image/image_benefit_005.svg">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
@@ -457,7 +508,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="bhoechie-tab-content">
+                    <div class="ifs-tab-content">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 20px;">
                             <center>
                                 <h3 class="header4 p-color-cement-dark"
@@ -466,13 +517,13 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                             <center>
-                                <img class="img-responsive " style=" height: 200px;margin-top: 17%;"
+                                <img class="img-responsive " style=" height: 200px;margin-top: 6%;"
                                      src="img/svg_image/image_benefit_006.svg">
                             </center>
 
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                            <p class="header7 p-color-cement" style="text-align: left;margin-top:38%; ">
+                            <p class="header7 p-color-cement" style="text-align: left;margin-top:24%; ">
                                 Have any queries? Our FAQs don't cover it? But our 24/7 support will! <br>
                                 If you need any assistance with making a shipment or sending a courier, our professionals will help you along every step of the way.
                             </p>
@@ -482,99 +533,45 @@
             </div>
             {{--</div>--}}
         </div>
-
-
-        {{--<div class="container">--}}
-        {{--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">--}}
-        {{--<div class="row row-ifs-m">--}}
-        {{--<div class="col-md-1 col-lg-1 col-sm-2 col-xs-2">--}}
-        {{--<center>--}}
-        {{--<img class="img-star-m" src="img/svg_image/btn_option.svg">--}}
-        {{--</center>--}}
-
-        {{--</div>--}}
-        {{--<div class="col-md-10 col-lg-10 col-sm-10 col-xs-10">--}}
-        {{--<h4 class="header4 p-color-red"> Shopping Assistance</h4>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--<div class="row row-ifs-m">--}}
-        {{--<div class="col-md-1 col-lg-1 col-sm-2 col-xs-2">--}}
-        {{--<center>--}}
-        {{--<img class="img-star-m" src="img/svg_image/star.svg">--}}
-        {{--</center>--}}
-
-        {{--</div>--}}
-        {{--<div class="col-md-10 col-lg-10 col-sm-10 col-xs-10">--}}
-        {{--<h4 class="header4 p-color-cement"> Shopping Assistance</h4>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--<div class="row row-ifs-m">--}}
-        {{--<div class="col-md-1 col-lg-1 col-sm-2 col-xs-2">--}}
-        {{--<center>--}}
-        {{--<img class="img-star-m" src="img/svg_image/star.svg">--}}
-        {{--</center>--}}
-
-        {{--</div>--}}
-        {{--<div class="col-md-10 col-lg-10 col-sm-10 col-xs-10">--}}
-        {{--<h4 class="header4 p-color-cement"> Shopping Assistance</h4>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--<div class="row row-ifs-m">--}}
-        {{--<div class="col-md-1 col-lg-1 col-sm-2 col-xs-2">--}}
-        {{--<center>--}}
-        {{--<img class="img-star-m" src="img/svg_image/star.svg">--}}
-        {{--</center>--}}
-
-        {{--</div>--}}
-        {{--<div class="col-md-10 col-lg-10 col-sm-10 col-xs-10">--}}
-        {{--<h4 class="header4 p-color-cement"> Shopping Assistance</h4>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--<div class="row row-ifs-m">--}}
-        {{--<div class="col-md-1 col-lg-1 col-sm-2 col-xs-2">--}}
-        {{--<center>--}}
-        {{--<img class="img-star-m" src="img/svg_image/star.svg">--}}
-        {{--</center>--}}
-
-        {{--</div>--}}
-        {{--<div class="col-md-10 col-lg-10 col-sm-10 col-xs-10">--}}
-        {{--<h4 class="header4 p-color-cement"> Shopping Assistance</h4>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-
-        {{--</div>--}}
-        {{--<div class="col-md-9 col-lg-9" style="height: 400px;background-color: #ffffff; margin-bottom:100px">--}}
-        {{--<center>--}}
-        {{--<p class="header4" style="color: green"> We will purchase product for you</p>--}}
-        {{--</center>--}}
-        {{--</div>--}}
-
-        {{--</div>--}}
     </section>
 
 
-    {{--<section>--}}
-    {{--<div class="container">--}}
-    {{--<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">--}}
-    {{--<img class="img-responsive img-shipments" src="img/images/back.png">--}}
-    {{--</div>--}}
-    {{--<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">--}}
-    {{--<h1 class="header1 p-color-cement-dark p-seller">Are you a Seller? <br>--}}
-    {{--Save more on shipping.</h1>--}}
-    {{--<p class="header2 p-color-cement"><span class="header2"--}}
-    {{--style="color: #507dbc;"> Start your FREE 30 Day Trial</span> to--}}
-    {{--know how much you can save monthly on regular shipping</p>--}}
-    {{--<div class="col-md-12">--}}
-    {{--<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">--}}
-    {{--<button class="btn h4 btn-request-cal-back">Request Callback</button>--}}
-    {{--</div>--}}
-    {{--<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">--}}
-    {{--<button class="btn h4 btn-courier-know">Know more</button>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</section>--}}
+    <section>
+        <div class="container">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img class="img-responsive img-shipments" src="img/images/back.png">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <h1 class="header1 p-color-cement-dark p-seller">Are you a Seller? <br>
+                    Save more on shipping.</h1>
+                <p class="header3 p-color-cement" style=" margin-left: 26px;">
+                    <span class="header2" style="color: #507dbc;"> Start your FREE 30 Day Trial</span> to
+                    know how much you can save monthly on regular shipping</p>
+                <div class="col-md-12">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <a href="">
+                            <div class="btn-request-cal-back" style="padding-top:.1%">
+                                <center>
+                                    <h2 class="header6">Request Callback</h2>
+                                </center>
+                            </div>
+                        </a>
+                        {{--<button class="btn h4 btn-request-cal-back">Request Callback</button>--}}
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <a href="">
+                        <div class="btn-courier-know" style="padding-top:.1%">
+                            <center>
+                                <h2 class="header6">Know more</h2>
+                            </center>
+                        </div>
+                        {{--<button class="btn h4 btn-courier-know">Know more</button>--}}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     {{--<section style="background-color: #e85151;">--}}
@@ -879,14 +876,33 @@
 
     <script>
         $(document).ready(function () {
-            $("div.bhoechie-tab-menu>div.list-group>a").hover(function (e) {
+            $("div.ifs-tab-menu>div.list-group>a").hover(function (e) {
                 e.preventDefault();
                 $(this).siblings('a.active').removeClass("active");
                 $(this).addClass("active");
                 var index = $(this).index();
-                $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
-                $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
+                $("div.ifs-tab>div.ifs-tab-content").removeClass("active");
+                $("div.ifs-tab>div.ifs-tab-content").eq(index).addClass("active");
             });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#mobile-step3').hover(function () {
+                    $('#mobile-image1').hide();
+                    $("#mobile-image2").hide();
+                    $("#mobile-image3").show();
+                    $("#m-number2").css({'color': '#929ca5'})
+                    $("#m-number3").css({'color': 'red'})
+
+                },
+                function () {
+                    $("#mobile-image2").hide();
+                    $("#mobile-image3").hide();
+
+
+
+                });
         });
     </script>
 @endsection
