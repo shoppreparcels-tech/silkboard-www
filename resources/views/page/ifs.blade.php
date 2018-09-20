@@ -771,7 +771,7 @@
 
 
     <section>
-        <div class="container">
+        <div class="container" style="padding-bottom: 30px">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <img class="img-responsive img-shipments1" src="img/images/back_ifs@2x.png">
             </div>
