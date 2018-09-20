@@ -41,14 +41,13 @@
                 <center>
                     <h2 class="header1 p-color-cement-dark">How it Works?</h2>
                     <p class="header4 p-color-cement">We receive your order at our
-                        branch and can provide Storage,<br>
+                        shoppre facility and can provide Storage,<br>
                         Repackaging and Consolidation Service to send at your abroad address</p>
                 </center>
             </div>
         </div>
 
-        <div class="container" id="div-container"
-             style="background-color: #fafafb;padding-left: 0px;padding-right: 0px">
+        <div class="container" id="div-container">
             <div class="col-md-4 col-lg-4  div-step1">
                 <div class="box-ifs" id="step1">
                     <center>
@@ -69,7 +68,7 @@
                         style="text-align: center " id="step-register">Register</h3>
                     <p class="header6 p-color-cement p-ifs-margin-d"
                        style="text-align: center" id="step-register">
-                        Registre with us and get free virtual address, free 20 days locker storage service per order
+                        Register with us and get free virtual address, free 20 days locker storage service per order
                     </p>
                 </div>
             </div>
@@ -97,8 +96,8 @@
                         style="text-align: center " id="step-register">Purchase</h3>
                     <p class="header6 p-color-cement p-ifs-margin-d"
                        style="text-align: center" id="step-register">
-                        Purchase any product from your favourite indian online store and use your
-                        locker address for item delivery.
+                        Purchase any product from your favourite indian store and use your
+                        locker virtual address for item delivery.
                     </p>
                 </div>
             </div>
@@ -194,7 +193,7 @@
         <div class="container" style="padding-top: 60px">
             <center>
                 <h1 class="header1 p-color-cement-dark">Personal Shopper</h1>
-                <h3 class="header2 p-color-cement">Don't know how to purchase? Hire an expart and allow him to <br>
+                <h3 class="header2 p-color-cement">Don't know how to purchase? Hire an expert and allow them to <br>
                     purchase
                     on behalf of you </h3>
             </center>
@@ -206,7 +205,7 @@
                     <img class="img " src="img/svg_image/4-layers.svg">
                 </div>
                 <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
-                    <h4 class="header4 p-color-cement-dark">Store does't accept your <br> International Credit cards?
+                    <h4 class="header5 p-color-cement-dark">Store does't accept your <br> International Credit cards?
                     </h4>
                 </div>
 
@@ -215,14 +214,14 @@
                     <img class="img" src="img/svg_image/4-layers1.svg">
                 </div>
                 <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
-                    <h4 class="header4 p-color-cement-dark">Store does't accept your <br> International Credit cards?
+                    <h4 class="header5 p-color-cement-dark">Don't have Indian number to <br> verify your order?
                     </h4>
                 </div>
                 <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
                     <img class="img" src="img/svg_image/4-layers2.svg">
                 </div>
                 <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
-                    <h4 class="header4 p-color-cement-dark">Store does't accept your <br> International Credit cards?
+                    <h4 class="header5 p-color-cement-dark">Don't have an Indian address?
                     </h4>
                 </div>
                 <div class="col-sm-12 col-xs-12" id="img-shopping-mobile">
@@ -296,20 +295,18 @@
         <div class="container">
             <center>
                 <h1 class="header1 p-color-cement-dark">Benefits</h1>
-                <h2 class="header2 p-color-cement"> We will recived your order at our branch and can provide Storage,
+                <h2 class="header2 p-color-cement"> We will receive your order at our shoppre facility and can provide Storage,
                     <br>
                     Repackaging and Consolidation service to send at your abroad address.</h2>
             </center>
         </div>
 
-
-        <div class="container" style=" padding-top:20px;padding-bottom: 50px">
-            {{--<div class="row">--}}
+        <div class="container" style=" padding-top:20px;padding-bottom: 50px" id="ifs-benefits-desktop">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ifs-tab-container">
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ifs-tab-menu">
                     <div class="list-group">
                         <a href="#" class="list-group-item active text-center">
-                            <div class="div-radio-btn">
+                            <div class="div-radio-btn" id="div-radio-btn1">
                             <label class="radio header5" >
                                 <input type="radio" checked="checked" name="is_company">
                                 <span class="checkround"></span>
@@ -318,7 +315,7 @@
                             <h5 class="header5 li-header ">Personal Shopper</h5>
                         </a>
                         <a href="#" class="list-group-item text-center">
-                            <div class="div-radio-btn">
+                            <div class="div-radio-btn" id="div-radio-btn2">
                                 <label class="radio header5">
                                     <input type="radio" name="is_company">
                                     <span class="checkround"></span>
@@ -327,7 +324,7 @@
                             <h5 class="header5 li-header" >20-Day Free Storage</h5>
                         </a>
                         <a href="#" class="list-group-item text-center">
-                            <div class="div-radio-btn">
+                            <div class="div-radio-btn" id="div-radio-btn3">
                             <label class="radio header5">
                                 <input type="radio" name="is_company">
                                 <span class="checkround"></span>
@@ -336,7 +333,7 @@
                             <h5 class="header5 li-header" >Consolidation</h5>
                         </a>
                         <a href="#" class="list-group-item text-center">
-                            <div class="div-radio-btn">
+                            <div class="div-radio-btn" id="div-radio-btn3">
                             <label class="radio header5">
                                 <input type="radio" name="is_company">
                                 <span class="checkround"></span>
@@ -345,7 +342,7 @@
                             <h5 class="header5 li-header" >Repackaging</h5>
                         </a>
                         <a href="#" class="list-group-item text-center">
-                            <div class="div-radio-btn">
+                            <div class="div-radio-btn" id="div-radio-btn5">
                             <label class="radio header5">
                                 <input type="radio" name="is_company">
                                 <span class="checkround"></span>
@@ -354,7 +351,7 @@
                             <h5 class="header5 li-header" >Affordable Rates</h5>
                         </a>
                         <a href="#" class="list-group-item text-center">
-                            <div class="div-radio-btn">
+                            <div class="div-radio-btn" id="div-radio-btn6">
                             <label class="radio header5">
                                 <input type="radio" name="is_company">
                                 <span class="checkround"></span>
@@ -364,48 +361,47 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 ifs-tab"
-                     style="padding-left: 0px;padding-right: 0px;">
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 ifs-tab">
                     <div class="ifs-tab-content active">
-                        <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12" style="margin-bottom: 113px;">
+                        <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12" style="margin-bottom: 70px;">
                             <center>
-                                <h4 class="header4 p-color-cement-dark" style="font-weight: 900 !important;"> An expert
-                                    will assigned to purchase for you</h4>
+                                <h4 class="header4 p-color-cement-dark ifs-font-weight" > An expert
+                                    will be assigned to purchase for you</h4>
                             </center>
                         </div>
 
 
-                        <div class="col-md-6 col-lg-6 col-sm-4 col-xs-4">
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
                             <center>
-                                <img class="img-responsive " style="height: 200px;margin-top: -41px;"
+                                <img class="img-responsive ifs-image1"
                                      src="img/svg_image/image_benefit_001.svg">
                             </center>
 
                         </div>
-                        <div class="col-md-4 col-lg-4 col-sm-6  col-xs-4 ">
+                        <div class="col-md-4 col-lg-4 col-sm-6 col-xs-6 " >
                             <ul id="ifs-li">
                                 <li>
-                                    <p class="header7 p-color-cement" style="margin: -35px 0 11px -20px;">
+                                    <p class="header7 p-color-cement ifs-p-1" >
                                         Order for you
                                     </p>
                                 </li>
                                 <li>
-                                    <p class="header7 p-color-cement" style="margin: -35px 0 11px -20px;">
+                                    <p class="header7 p-color-cement ifs-p-1" >
                                         Pay for you
                                     </p>
                                 </li>
                                 <li>
-                                    <p class="header7 p-color-cement" style="margin: -35px 0 11px -20px;">
+                                    <p class="header7 p-color-cement ifs-p-1" >
                                         Recieved your Order
                                     </p>
                                 </li>
                                 <li>
-                                    <p class="header7 p-color-cement" style="margin: -35px 0 11px -20px;">
+                                    <p class="header7 p-color-cement ifs-p-1" >
                                         Repack/Consolidate and send it to your
                                     </p>
                                 </li>
                                 <li>
-                                    <p class="header7 p-color-cement" style="margin: -35px 0 11px -20px;">
+                                    <p class="header7 p-color-cement ifs-p-1" >
                                         Abroad Address
                                     </p>
                                 </li>
@@ -415,19 +411,18 @@
                     <div class="ifs-tab-content">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <center>
-                                <h3 class="header4 p-color-cement-dark"
-                                    style="text-align: center;font-weight: 900!important;">20-Day Free Storage</h3>
+                                <h3 class="header4 p-color-cement-dark ifs-font-weight">20-Day Free Storage</h3>
                             </center>
                         </div>
                         <div class="col-md-9 col-lg-9 col-sm-9 col-xs-9">
                             <center>
-                                <img class="img-responsive " style="height: 250px;"
+                                <img class="img-responsive ifs-image2 "
                                      src="img/svg_image/image_benefit_003.svg">
                             </center>
                         </div>
                         <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
                             <p class="header7 p-color-cement" style="text-align: left;margin-top:50%; ">
-                                All your order will be store 20 days. You need ship all items from your locker within
+                                All your order can be stored free for 20 days. You need ship all items from your locker within
                                 days.
                             </p>
                         </div>
@@ -436,16 +431,15 @@
                     <div class="ifs-tab-content">
                         <div class="col-md-6 col-lg-6 col-sm-5 col-xs-5">
                             <center>
-                                <h4 class="header4 p-color-cement-dark" style="font-weight: 900 !important;">Before
+                                <h4 class="header4 p-color-cement-dark ifs-font-weight" >Before
                                     Consolidation</h4>
-                                <img class="img-responsive " style="height: 256px;"
+                                <img class="img-responsive ifs-img3"
                                      src="img/svg_image/image_benefit_002A.svg">
                             </center>
                         </div>
                         <div class="col-md-2 col-lg-2 col-sm-1 col-xs-1">
-                            <p class="header8" style="color: #507dbc; font-weight: 900; margin-top: 167%">Save upto <br>
-                                <span class="header1"
-                                      style="color: #507dbc;line-height:23px  ;font-weight:900">80%</span>
+                            <p class="header8 p-ifs-img" >Save upto <br>
+                                <span class="header1 p-ifs-img-percent" >80%</span>
                             </p>
                             <p class="header8 p-color-cement">
                                 on international <br> Shipping
@@ -453,9 +447,9 @@
                         </div>
                         <div class="col-md-4 col-lg-4 col-sm-2 col-xs-2">
                             <center>
-                                <h4 class="header4 p-color-cement-dark" style="font-weight: 900 !important;">After
+                                <h4 class="header4 p-color-cement-dark ifs-font-weight" >After
                                     Consolidation</h4>
-                                <img class="img-responsive " style="height: 256px;"
+                                <img class="img-responsive ifs-img3"
                                      src="img/svg_image/image_benefit_002B.svg">
                             </center>
                         </div>
@@ -465,8 +459,7 @@
                     <div class="ifs-tab-content">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 29px;">
                             <center>
-                                <h3 class="header4 p-color-cement-dark"
-                                    style="text-align: center;font-weight: 900!important;">Re-packaging</h3>
+                                <h3 class="header4 p-color-cement-dark ifs-font-weight">Re-packaging</h3>
                             </center>
                         </div>
                         <div class="col-md-8 col-lg-8 col-sm-8 col-xs-8">
@@ -474,7 +467,7 @@
                                  src="img/svg_image/image_benefit_004.svg">
                         </div>
                         <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
-                            <p class="header7 p-color-cement" style="text-align: left;margin-top:10%; ">
+                            <p class="header7 p-color-cement p-ifs-img4">
                                 Package from a store was shipped to the warehouse in a box 25x11x11 inches, representing
                                 a volumetric weight of 10kg.
                                 <br>
@@ -490,16 +483,16 @@
                     <div class="ifs-tab-content">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 50px;">
                             <center>
-                                <h3 class="header4 p-color-cement-dark"
-                                    style="text-align: center;font-weight: 900!important;">Affordable Rates</h3>
+                                <h3 class="header4 p-color-cement-dark ifs-font-weight"
+                                    >Affordable Rates</h3>
                             </center>
                         </div>
                         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                            <img class="img-responsive " style="    height: 180px;"
+                            <img class="img-responsive ifs-img5"
                                  src="img/svg_image/image_benefit_005.svg">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                            <p class="header7 p-color-cement" style="text-align: left;margin-top:22%; ">
+                            <p class="header7 p-color-cement p-ifs-img5" >
                                 Did you know that the first 0.5 KG costs the most to ship? <br><br>
                                 With our 20-day FREE storage and consolidation services,
                                 you can shop around all you want and ship it to your ShoppRe address.
@@ -511,19 +504,19 @@
                     <div class="ifs-tab-content">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 20px;">
                             <center>
-                                <h3 class="header4 p-color-cement-dark"
-                                    style="text-align: center;font-weight: 900!important;">24/7 Customer Support</h3>
+                                <h3 class="header4 p-color-cement-dark ifs-font-weight"
+                                    >24/7 Customer Support</h3>
                             </center>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                             <center>
-                                <img class="img-responsive " style=" height: 200px;margin-top: 6%;"
+                                <img class="img-responsive ifs-img-6"
                                      src="img/svg_image/image_benefit_006.svg">
                             </center>
 
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                            <p class="header7 p-color-cement" style="text-align: left;margin-top:24%; ">
+                            <p class="header7 p-color-cement p-ifs-img6">
                                 Have any queries? Our FAQs don't cover it? But our 24/7 support will! <br>
                                 If you need any assistance with making a shipment or sending a courier, our professionals will help you along every step of the way.
                             </p>
@@ -531,15 +524,256 @@
                     </div>
                 </div>
             </div>
-            {{--</div>--}}
         </div>
+
+        {{--mobile view--}}
+        <div class="container" id="ifs-benefits-mobile">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default active">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Personal Shopper
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <center>
+                                <div class="row">
+                                    <h4 class="header6 p-color-cement-dark ifs-font-weight" > An expert
+                                        will be assigned to purchase for you</h4>
+                                </div>
+                                <div class="row">
+                                    <img class="img-responsive ifs-image1" style="margin-top: 30px;"
+                                         src="img/svg_image/image_benefit_001.svg">
+                                </div>
+                            </center>
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12 " style="padding-left:10%">
+                                    <ul>
+                                        <li>
+                                            <p class="header7 p-color-cement " >
+                                                Order for you
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="header7 p-color-cement " >
+                                                Pay for you
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="header7 p-color-cement " >
+                                                Recieved your Order
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="header7 p-color-cement " >
+                                                Repack/Consolidate and send it to your
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="header7 p-color-cement " >
+                                                Abroad Address
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                20-Day Free Storage
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+
+                           <div class="row">
+                               <center>
+                                   <h3 class="header4 p-color-cement-dark ifs-font-weight">20-Day Free Storage</h3>
+                               </center>
+                           </div>
+                            <div class="row" style="padding-left: 10px; padding-right: 10px;">
+                                <center>
+                                    <img class="img-responsive ifs-image2 "
+                                         src="img/svg_image/image_benefit_003.svg">
+                                </center>
+                            </div>
+                            <div class="row">
+                                <p class="header7 p-color-cement" style="text-align: center;margin-top:20px ;">
+                                    All your order can be stored free for 20 days. You need ship all items from your locker within
+                                    days.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Consolidation
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-6">
+                                    <center>
+                                        <h4 class="header6 p-color-cement-dark ifs-font-weight" >Before
+                                            Consolidation</h4>
+                                        <img class="img-responsive ifs-img3"
+                                             src="img/svg_image/image_benefit_002A.svg">
+                                    </center>
+                                </div>
+                                <div class="col-sm-6 col-xs-6">
+                                   <center>
+                                       <h4 class="header6 p-color-cement-dark ifs-font-weight" >After
+                                           Consolidation</h4>
+                                       <img class="img-responsive" style="height:180px;margin-top: 50px"
+                                            src="img/svg_image/image_benefit_002B.svg">
+                                   </center>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <center>
+                                    <p class="header8 p-color-cement " >Save upto <br>
+                                        <span class="header1 p-ifs-img-percent " >80%</span>
+                                    </p>
+                                    <p class="header8 p-color-cement">
+                                        on international <br> Shipping
+                                    </p>
+                                </center>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Repackaging
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                           <div class="row">
+                               <center>
+                                   <h3 class="header4 p-color-cement-dark ifs-font-weight">Re-packaging</h3>
+                               </center>
+                           </div>
+                            <div class="row">
+                                <center>
+                                    <img class="img-responsive "
+                                         src="img/svg_image/image_benefit_004.svg">
+                                </center>
+                            </div>
+                            <div class="row">
+                                <center>
+                                    <p class="header7 p-color-cement p-ifs-img4" style="text-align: center !important;margin-top: 20px !important;">
+                                        Package from a store was shipped to the warehouse in a box 25x11x11 inches, representing
+                                        a volumetric weight of 10kg.
+                                        <br>
+                                        <br>
+                                        After repackaging, the receipt dimensions were reduced to ((21x10x10 inches),
+                                        representing a volumetric weight of 7kg.
+                                        <br>
+                                        <br>
+                                        <span style="color: #507dbc;">Saving to the customer was 3kg. in shipping volumetric weight.</span>
+                                    </p>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Affordable Rates
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                           <div class="row">
+                               <center>
+                                   <h3 class="header4 p-color-cement-dark ifs-font-weight">
+                                       Affordable Rates
+                                   </h3>
+                               </center>
+                           </div>
+                            <div class="row">
+                                <center>
+                                    <img class="img-responsive ifs-img5"
+                                         src="img/svg_image/image_benefit_005.svg">
+                                </center>
+                            </div>
+                            <div class="row">
+                                <p class="header7 p-color-cement p-ifs-img5" style="text-align: center !important; margin-top: 20px !important;">
+                                    Did you know that the first 0.5 KG costs the most to ship? <br><br>
+                                    With our 20-day FREE storage and consolidation services,
+                                    you can shop around all you want and ship it to your ShoppRe address.
+                                    We'll consolidate all of them and repackage them into one,
+                                    saving you up to 80% in shipping costs!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                24/7 Customer Support
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                           <div class="row">
+                               <center>
+                                   <h3 class="header4 p-color-cement-dark ifs-font-weight">
+                                       24/7 Customer Support
+                                   </h3>
+                               </center>
+                           </div>
+                            <div class="row">
+                                <center>
+                                    <img class="img-responsive ifs-img-6" style="margin-top: 10px;"
+                                         src="img/svg_image/image_benefit_006.svg">
+                                </center>
+                            </div>
+                            <div class="row">
+                                <p class="header7 p-color-cement p-ifs-img6" style="text-align: center !important;margin-top: 10px !important;">
+                                    Have any queries? Our FAQs don't cover it? But our 24/7 support will! <br>
+                                    If you need any assistance with making a shipment or sending a courier, our professionals will help you along every step of the way.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{--mobile view--}}
     </section>
 
 
     <section>
         <div class="container">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive img-shipments" src="img/images/back.png">
+                <img class="img-responsive img-shipments1" src="img/images/back_ifs@2x.png">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="header1 p-color-cement-dark p-seller">Are you a Seller? <br>
@@ -549,7 +783,7 @@
                     know how much you can save monthly on regular shipping</p>
                 <div class="col-md-12">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="">
+                        <a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank">
                             <div class="btn-request-cal-back" style="padding-top:.1%">
                                 <center>
                                     <h2 class="header6">Request Callback</h2>
@@ -558,16 +792,19 @@
                         </a>
                         {{--<button class="btn h4 btn-request-cal-back">Request Callback</button>--}}
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="">
-                        <div class="btn-courier-know" style="padding-top:.1%">
-                            <center>
-                                <h2 class="header6">Know more</h2>
-                            </center>
-                        </div>
+
+                    {{--this block is required --}}
+                    {{--<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">--}}
+                        {{--<a href="">--}}
+                        {{--<div class="btn-courier-know" style="padding-top:.1%">--}}
+                            {{--<center>--}}
+                                {{--<h2 class="header6">Know more</h2>--}}
+                            {{--</center>--}}
+                        {{--</div>--}}
                         {{--<button class="btn h4 btn-courier-know">Know more</button>--}}
-                        </a>
-                    </div>
+                        {{--</a>--}}
+                    {{--</div>--}}
+                    {{--this block is required --}}
                 </div>
             </div>
         </div>
@@ -887,22 +1124,12 @@
         });
     </script>
     <script>
-        $(document).ready(function () {
-            $('#mobile-step3').hover(function () {
-                    $('#mobile-image1').hide();
-                    $("#mobile-image2").hide();
-                    $("#mobile-image3").show();
-                    $("#m-number2").css({'color': '#929ca5'})
-                    $("#m-number3").css({'color': 'red'})
-
-                },
-                function () {
-                    $("#mobile-image2").hide();
-                    $("#mobile-image3").hide();
-
-
-
-                });
-        });
+        $(".panel-heading").parent('.panel').hover(
+            function() {
+                $(this).children('.collapse').collapse('show');
+            }, function() {
+                $(this).children('.collapse').collapse('hide');
+            }
+        );
     </script>
 @endsection

@@ -404,7 +404,7 @@ body.logged-in .YouTubePopUp-Wrap{
     height: 18px;
     border-radius: 100%;
     border: 1px solid red;
-    /*display: none;*/
+
 }
 /*radio buttons*/
 
@@ -529,7 +529,62 @@ div.ifs-tab div.ifs-tab-content:not(.active){
     margin-top: -26px;
 }
 
+.ifs-font-weight{
+   font-weight: 900 !important;
+}
 
+.ifs-image1{
+    height: 200px;
+    margin-top: -41px;
+}
+.ifs-image2{
+    height: 250px;
+}
+.p-ifs-img{
+    color: #507dbc;
+    font-weight: 900;
+    margin-top: 167%
+}
+.p-ifs-img-percent{
+    color: #507dbc;
+    line-height:23px;
+    font-weight:900;
+}
+
+.ifs-img3{
+    height: 256px;
+}
+
+.p-ifs-img4{
+    text-align:left;
+    margin-top:10%;
+}
+.ifs-img5{
+    height: 180px;
+}
+.p-ifs-img5{
+    text-align: left;
+    margin-top:22%;
+}
+.ifs-img-6{
+    height: 200px;
+}
+.p-ifs-img6{
+    text-align: left;
+    margin-top:24%;
+}
+
+.ifs-p-1{
+    margin: -35px 0 11px -20px;
+}
+
+.img-shipments1{
+    margin: 40px 0 40px 0;
+}
+
+#ifs-benefits-mobile{
+    display: none;
+}
 
 
 @media all and (max-width: 768px) and (min-width: 10px){
@@ -560,6 +615,19 @@ div.ifs-tab div.ifs-tab-content:not(.active){
         overflow: hidden;
         padding-left: 373px
     }
+    .p-ifs-img{
+        color: #507dbc;
+        font-weight: 900;
+        /*margin-top: 167%*/
+    }
+    .p-ifs-img5{
+        text-align: center;
+        margin-top:5%;
+    }
+    .p-ifs-img6{
+        text-align: center;
+        margin-top:2%;
+    }
 
 }
 
@@ -577,6 +645,10 @@ div.ifs-tab div.ifs-tab-content:not(.active){
     }
     #div-container{
         display: none;
+        background-color: #fafafb;
+        padding-left: 0px;
+        padding-right: 0px
+
     }
 
     .btn-ifs-free-v-a{
@@ -621,6 +693,44 @@ div.ifs-tab div.ifs-tab-content:not(.active){
         padding-top: 10px;
         padding-left: 11px;
         background-image: linear-gradient(196deg, #5ace89 0%, #44b773 100%);
+    }
+
+    #ifs-li{
+        list-style: none; /* Remove HTML bullets */
+        /*padding-left: 50px;*/
+        margin: 0;
+    }
+
+    .ifs-image1{
+        height: 100px;
+        /*margin-top: -41px;*/
+    }
+    .p-ifs-img{
+        color: #507dbc;
+        font-weight: 900;
+        /*margin-top: 167%*/
+    }
+    .p-ifs-img4{
+        text-align:center;
+        margin-top:1%;
+    }
+
+    .ifs-img5{
+        height: 100px;
+    }
+    .p-ifs-img5{
+        text-align: center;
+        margin-top:5%;
+    }
+    .p-ifs-img6{
+        text-align: center;
+        margin-top:2%;
+    }
+    #ifs-benefits-mobile{
+        display: block;
+    }
+    #ifs-benefits-desktop{
+        display: none;
     }
 }
 
