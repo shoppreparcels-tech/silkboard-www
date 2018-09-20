@@ -55,10 +55,18 @@
     </section>
     <section class="delivery-section">
         <div class="container">
+            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">
+                <div class="btn signup-btn">
+                    <center>
+                        Sign Up for FREE
+                    </center>
+                </div>
+            </a>
+
             <div class="row">
                 <h3>Delivering Joy to Your Doorsteps</h3>
                 <h4>You've got no reason to wait around any longer, just come Shopp Re!</h4>
-                <button class="btn signup-btn" href="#">Sign Up for FREE</button>
+                <button class="btn signup-btn" href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">Sign Up for FREE</button>
             </div>
         </div>
     </section>
