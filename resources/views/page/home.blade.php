@@ -196,11 +196,11 @@
 
 @section('content')
     <main class="div-main" role="main">
-        <div class="container" style="padding-left: 0px ; padding-right: 0px">
-            <div class="col-md-6  col-lg-6  col-sm-12 col-xs-12 ">
+        <div class="container div-padding">
+            <div class="col-md-6  col-lg-6  col-sm-12 col-xs-12" >
                 <div class="col-md-12 col-sm-11 col-xs-11  col-lg-12 div-main-row">
                     <strong>
-                        <b><h1 class="header1 p-color-white header-text-margin" style="font-family: Montserrat;">
+                        <b><h1 class="header1 p-color-white header-text-margin" >
                                 International Shipping
                                 starting at just <span class="p-color-red">*₹690</span><span
                                     style="color: #ffffff">!</span>
@@ -208,7 +208,7 @@
                             </h1></b>
                     </strong>
                 </div>
-                <div class="row">
+                <div class="row" style="margin-left: 0px;margin-right: 0px;">
                     <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 div-shop-ship" id="shop-ship">
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
@@ -258,8 +258,8 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
+
                 <div class="row" style="margin-left: -32px;">
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-demo-row">
                         <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab">
@@ -267,7 +267,7 @@
                             <a href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=3s" target="_blank"
                                class="p-demo-text"><b>&nbsp;Watch a Demo</b></a>
                         </div>
-                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="number">
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="number" style="padding-left: 0;">
                             <img class="img-demo" id="img-cal"
                                  src="{{asset('img/svg_image/ic_contact_header.svg')}}">
                             <b>
@@ -303,7 +303,7 @@
                     <img class="img-priyamani" src="{{asset('img/images/image_header@2x.png')}}">
                 </div>
             </div>
-            <div class="div-piyamani-mobile-img"></div>
+            <div class="div-priyamani-mobile-img"></div>
         </div>
     </main>
     <!-- Main container -->
@@ -566,11 +566,11 @@
         </div>
     </section>
     <!-- Start whatcanYouship section -->
-    <section style="background-color: #f2f6fb; padding-bottom: 30px">
-        <div class="container" style="padding-top: 60px">
+    <section style="background-color: #f2f6fb;">
+        <div class="container">
             {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-margin">--}}
             <center>
-                <p class="header1 p-color-cement-dark">Take a Walk Around Your Favorite Stores</p>
+                <p class="header1 p-color-cement-dark div-margin">Take a Walk Around Your Favorite Stores</p>
                 <p class="header2 p-color-cement ">Browse through popular stores, take your pick, shop & get it
                     delivered
                     to your virtual <br>address; we'll ship it to your destination abroad!</p>
@@ -674,129 +674,6 @@
             </center>
         </div>
 
-        {{--in next iteration it will going to be improve--}}
-        {{--<div class="container-fluid div-margin" style="margin-bottom: 60px;margin-left: 35px;">--}}
-        {{--<center>--}}
-        {{--<div class="row">--}}
-        {{--@php--}}
-        {{--$stores = array("flipkart","amazon","ajio","jabong","jabong","homeshop","snapdeal")--}}
-        {{--@endphp--}}
-
-        {{--<a href="https://www.flipkart.com/" target="_blank">--}}
-        {{--<div class="col-md-2 col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
-        {{--<img class="img-responsive img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/store_flipkart.png')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--<a href="https://www.amazon.in/" target="_blank">--}}
-        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-        {{--<img class="img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/store_amazon.png')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--<a href="https://www.ajio.com/" target="_blank">--}}
-        {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
-        {{--<img class="img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/store_ajio.png')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--<a href="https://www.jabong.com/" target="_blank">--}}
-        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-        {{--<img class="img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/store_jabong.png')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--<a href="https://www.homeshop18.com/" target="_blank">--}}
-        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-        {{--<img class="img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/store_homeshop.png')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--<a href="https://www.snapdeal.com/" target="_blank">--}}
-        {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
-        {{--<img class="img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/store_snapdeal.png')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--<a href="https://www.myntra.com/">--}}
-        {{--<div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">--}}
-        {{--<img class="img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/store_myntra.png')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--<a href="https://www.shoppersstop.com/">--}}
-        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">--}}
-        {{--<img class="img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/shoppersstop-logo.png')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-
-
-        {{--<a href="https://www.limeroad.com/" target="_blank">--}}
-        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-        {{--<img class="img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/limeroad-logo1.jpg')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--<a href="https://www.infibeam.com/" target="_blank">--}}
-        {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
-        {{--<img class="img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/infibeam.jpg')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--<a href="https://www.shopclues.com/" target="_blank">--}}
-        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-        {{--<img class="img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/shoper.png')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--<a href="https://www.pepperfry.com/" target="_blank">--}}
-        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3  div-stores-img">--}}
-        {{--<img class="img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/pepperfry.png')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--<a href="https://paytm.com/" target="_blank" id="hidestore">--}}
-        {{--<div class="col-md-2  col-lg-2 col-xs-3 col-sm-3  div-stores-img">--}}
-        {{--<img class="img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/paytm2.jpeg')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--<a href="https://www.nykaa.com/" target="_blank" id="hidestore">--}}
-        {{--<div class="col-md-2  col-lg-2 col-xs-2 col-sm-2 div-stores-img">--}}
-        {{--<img class="img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/nykka.jpg')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--<a href="https://www.koovs.com/" target="_blank" id="hidestore">--}}
-        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">--}}
-        {{--<img class="img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/koous.png')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--<a href="https://www.ebay.com/" target="_blank" id="hidestore">--}}
-        {{--<div class="col-md-2  col-lg-2  col-xs-3 col-sm-3 div-stores-img">--}}
-        {{--<img class="img-responsive img-stores"--}}
-        {{--src="{{asset('img/stores/ebay.png')}}">--}}
-        {{--</div>--}}
-        {{--</a>--}}
-
-        {{--</div>--}}
-
-        {{--</center>--}}
-        {{--<a href="{{route('stores')}}">--}}
-        {{--<div class="div-find-more-stores">--}}
-        {{--<center>--}}
-        {{--<h5 class="header5 p-color-cement p-store-margin">Browse Through <br> & Shop From</h5>--}}
-        {{--<h2 class="header2 p-color-red">Top Stores</h2>--}}
-        {{--<div class="arrow arrow--right"></div>--}}
-        {{--<hr style="width: 93px;height: 0;border: 2px solid tomato;margin-top: -18px;">--}}
-        {{--</center>--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--</div>--}}
-        {{--in next iteration it will going to be improve--}}
-
     </section>
 
 
@@ -817,8 +694,9 @@
                             <div class="row div-img-row" id="reviews-img">
                                 <img class=" img-review img-circle" src="{{asset('img/images/23.jpg')}}">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Aswathy Revi</p>
-{{--                                <img style="padding-left: 12px;" id="stars" src="{{asset('img/svg_image/stars.svg')}}">--}}
-                                <input class="rating rated" value="5" id="stars-rate">
+                                <img style="padding-left: 12px;" src="{{asset('img/svg_image/stars.svg')}}">
+                                {{-- id="stars"--}}
+                                {{--<input class="rating rated" value="5" id="stars-rate">--}}
                             </div>
                             <div class="row" id="reviews">
                                 <i class="quots-t ">
@@ -842,8 +720,8 @@
                             <div class="row div-img-row" id="reviews-img">
                                 <img class=" img-review img-circle" src="{{asset('img/images/9.jpg')}}">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Sudeep Sagar</p>
-{{--                                <img style="padding-left: 12px;" id="stars" src="{{asset('img/svg_image/stars.svg')}}">--}}
-                                <input class="rating rated" value="5" id="stars-rate">
+                                <img style="padding-left: 12px;"  src="{{asset('img/svg_image/stars.svg')}}">
+                                {{--<input class="rating rated" value="5" id="stars-rate">--}}
                             </div>
                             <div class="row" id="reviews">
                                 <i class="quots-t ">
@@ -867,8 +745,8 @@
                             <div class="row div-img-row" id="reviews-img">
                                 <img class=" img-review img-circle" src="{{asset('img/images/6.jpg')}}">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Anirudh Lal</p>
-{{--                                <img style="padding-left: 12px;" id="stars" src="{{asset('img/svg_image/stars.svg')}}">--}}
-                                <input class="rating rated" value="5" id="stars-rate">
+                                <img style="padding-left: 12px;" src="{{asset('img/svg_image/stars.svg')}}">
+                                {{--<input class="rating rated" value="5" id="stars-rate">--}}
                             </div>
                             <div class="row">
                                 <i class="quots-t " id="reviews">
@@ -892,7 +770,7 @@
                         <div class="col-md-12 " style=" margin: 16px 0 16px -13px;">
                             <!-- <a href="javascript:void(0)"><span class="read-more-review"> Read more reviews </span></a> -->
                             <a href="{{route('reviews')}}"><span
-                                    class="header4 p-color-red" id="readmore"> Read more reviews </span></a>
+                                    class="header6 p-color-red" id="readmore"> Read more reviews </span></a>
                         </div>
                     </div>
 
@@ -927,7 +805,7 @@
 
         </div>
 
-        {{--later this block going to enable  --}}
+        {{--this block Required --}}
         {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="margin-top:50px;">--}}
         {{--<p class="header2 " style="color: #929ca5;"> Our Recent Deliveries (live) </p>--}}
         {{--</div>--}}
@@ -1018,7 +896,7 @@
         {{--</div>--}}
         {{--</div>--}}
         {{--</div>--}}
-        {{--later this block going to enable  --}}
+        {{--this block Required  --}}
     </section>
 
     <section>
@@ -1027,7 +905,7 @@
                 <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
                 <p class="header2 p-doorstep-des">You've got no reason to wait around any longer, just come ShoppRe!</p>
                 <a href="https://myaccount.shoppre.com/register" target="_blank">
-                    <div class="btn-login-doorstep header3 p-color-white">
+                    <div class="btn-login-doorstep header5 p-color-white">
                         <p>
                             Sign Up for FREE
                         </p>
@@ -1083,6 +961,14 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section>
+        <div class="container div-got-top">
+            <a href="#" style="float: right">
+                <img  class="img-goto-top" src="{{asset('img/svg_image/btn_goto_top.svg')}}" alt="">
+            </a>
+        </div>
+
     </section>
 
 @section('js_script')
