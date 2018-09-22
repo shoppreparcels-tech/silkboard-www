@@ -294,102 +294,6 @@ body.logged-in .YouTubePopUp-Wrap {
 .text-center {
     text-align: left !important;
 }
-
-/*radio buttons*/
-.radio {
-
-    display: block;
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    /*font-size: 20px;*/
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
-}
-
-/* Hide the browser's default radio button */
-.radio input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
-
-/* Create a custom radio button */
-.checkround {
-    position: absolute;
-    /*top: -1px;*/
-    /*left: 0;*/
-    /*height: 20px;*/
-    /*width: 20px;*/
-    /*!*background-color: #fff ;*!*/
-    /*border-color:#f8204f;*/
-    /*border-style:solid;*/
-    /*border-width:2px;*/
-    /*border-radius: 50%;*/
-
-    margin-top: -8px;
-    left: 2px;
-    /*top: 2px;*/
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    /*background:#f8204f;*/
-    background: red;
-}
-
-/* When the radio button is checked, add a blue background */
-
-.radio input:checked ~ .checkround {
-    /*background-color: #fff;*/
-}
-
-/* Create the indicator (the dot/circle - hidden when not checked) */
-.checkround:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-/* Show the indicator (dot/circle) when checked */
-.radio input:hover ~ .checkround:after {
-    display: block;
-}
-
-/* Style the indicator (dot/circle) */
-.radio .checkround:after {
-    /*left: 2px;*/
-    /*top: 2px;*/
-    /*width: 12px;*/
-    /*height: 12px;*/
-    /*border-radius: 50%;*/
-    /*!*background:#f8204f;*!*/
-    /*background:red;*/
-}
-
-.li-header {
-    color: #677582 !important;
-    margin-left: 26px;
-    margin-top: -18px;
-}
-
-.li-header:hover {
-    color: red !important;
-}
-
-.div-radio-btn {
-    margin-top: -2px;
-    width: 18px;
-    height: 18px;
-    border-radius: 100%;
-    border: 1px solid red;
-
-}
-
-/*radio buttons*/
-
 /*tabs*/
 
 /*  ifs tab */
@@ -579,6 +483,7 @@ div.ifs-tab div.ifs-tab-content:not(.active) {
         max-width: 90%;
     }
 
+
     #img-shopping {
         display: none;
     }
@@ -670,7 +575,9 @@ div.ifs-tab div.ifs-tab-content:not(.active) {
         height: 307px !important;
     }
 
+
     .div-step2:hover {
+
         width: 634px !important;
         height: 307px !important;
     }
@@ -764,6 +671,15 @@ div.ifs-tab div.ifs-tab-content:not(.active) {
     .p-support-text {
         margin-left: -59px;
     }
+    .img-demo {
+        margin-left: 14px;
+    }
+    .img-cal{
+        margin-left: -87px;
+    }
+    .p-support-text {
+        margin-left: -59px;
+    }
 
     .div-priyamani-mobile-img {
         background-image: url(../../new_assets/img/images/image_priyamani_mobile3.png);
@@ -773,8 +689,7 @@ div.ifs-tab div.ifs-tab-content:not(.active) {
         float: right;
         margin-top: -391px;
         overflow: hidden;
-
-    }
+  }
     .div-fluid {
         padding-bottom: 31px;
     }
