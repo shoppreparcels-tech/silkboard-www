@@ -28,7 +28,7 @@ class ShipmentDelivered extends Mailable
      */
     public function build()
     {
-        $from_mail = 'notifications@cp.shoppre.com';
+        $from_mail = 'no-reply@cp.shoppre.com';
         $from_name = 'SHOPPRE.com';
         $subject = 'Shipment delivered | Earn 100 loyalty points';
 

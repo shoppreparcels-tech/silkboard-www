@@ -1,0 +1,96 @@
+.body {
+    background-color: #fafafb;
+}
+.h5 {
+    font-size:12pt;
+    line-height:1.5em;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.Running Of {
+    width: 126px;
+    height: 19px;
+}
+
+.boxofScroll {
+    width: 340px;
+    height: 290px;
+    margin-right: 10px;
+}
+
+.divOverFlow {
+    overflow-y: hidden;
+    display: block;
+}
+
+.EcomBox {
+    /* Style for "box01" */
+    width: 270px;
+    height: 160px;
+    box-shadow: 0 0 8px rgba(195, 199, 204, 0.2);
+    border: 1px solid #fafafb;
+    background-color: #ffffff;
+    padding: 24px;
+}
+
+.FlatOffer {
+    /* Style for "FLAT 20% O" */
+    width: 142px;
+    height: 19px;
+    color: #507dbc;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.FlatOfferDuration {
+    /* Style for "2 day left" */
+    width: 65px;
+    height: 17px;
+    color: #929ca5;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ecomSmallBox {
+    width: 150px;
+    height: 116px;
+}
+
+.delivery {
+    background-color: #fafafb;
+}
+
+.deliveryDoor {
+    color: #11273b;
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.deliverySlogan {
+    color: #929ca5;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.signUp {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #e85151;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px;
+    margin:70px auto;
+}
+
+.signUpText {
+    width: 139px;
+    height: 19px;
+}

@@ -585,10 +585,10 @@ class PageController extends Controller
     {
         return view('page.indian-virtual-address');
     }
-    public function shopFromIndia()
-    {
-        return view('page.shop-india-ship-worldwide');
-    }
+//    public function shopFromIndia()
+//    {
+//        return view('page.shop-india-ship-worldwide');
+//    }
     public function sellerShipping()
     {
         return view('page.sellers-shipping');

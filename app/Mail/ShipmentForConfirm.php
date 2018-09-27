@@ -28,7 +28,7 @@ class ShipmentForConfirm extends Mailable
      */
     public function build()
     {
-        $from_mail = 'notifications@cp.shoppre.com';
+        $from_mail = 'no-reply@cp.shoppre.com';
         $from_name = 'SHOPPRE.com';
         $subject = 'Submit Payment | Your shipment is packed and weighed';
 

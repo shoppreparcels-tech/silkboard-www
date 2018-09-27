@@ -31,12 +31,13 @@
     {{--<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">--}}
 
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}" >
-    <link rel="stylesheet" href="{{asset('css/style.css')}}" >
+    <link rel="stylesheet" href="{{asset('css/New_style.css')}}" >
     <link rel="stylesheet" href="{{asset('css/select2.min.css')}}" >
     <link rel="stylesheet" href="{{asset('css/star-rating.min.css')}}" >
     <link rel="stylesheet" href="{{asset('css/ics.css')}}" >
     <link rel="stylesheet" href="{{asset('css/ifs.css')}}" >
     <link rel="stylesheet" href="{{asset('css/about_contact.css')}}" >
+    <link rel="stylesheet" href="{{asset('css/offers.css')}}" >
 
     @yield('css_style')
 

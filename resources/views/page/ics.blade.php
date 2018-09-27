@@ -10,7 +10,7 @@
             <center>
                 <a class="video-link" href="https://www.youtube.com/embed/ONaPq2L-MRg?html5=1" data-width="700"
                    data-height="800">
-                    <img class="btn-vid-img" src="{{asset('img/svg_image/btn.svg')}}">
+                    <img class="btn-vid-img" src="{{asset('svg')}}">
                 </a>
                 <h1 class="header1  p-color-white">Courier Service</h1>
                 <p class="header2 p-color-cement" style="margin-bottom: 115px;">We ship Domestic and Internationally</p>
@@ -119,7 +119,7 @@
                     </div>
                     <div>
                         <center>
-                            <img class="img-responsive  img-process" src="{{asset('img/svg_image/shipments.svg')}}">
+                            <img class="img-responsive  img-process" src="{{asset('svg')}}">
                             <h2 class="header3 p-color-cement-dark">Shipments</h2>
                             <p class="header5 p-color-cement">
                                 Purchase any product from <br> your favourite indian
@@ -180,23 +180,23 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                    <img class="img-responsive img-courier-review-g" src="{{asset('img/svg_image/ic_google.svg')}}">
+                    <img class="img-responsive img-courier-review-g" src="{{asset('google-reviews-shipping-service-bengaluru.svg')}}">
                     <p class="header4" style="color: #e85151;">Reviews</p>
                 </div>
 
                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                    <img class="img-responsive " src="{{asset('img/images/rating_google.png')}}">
+                    <img class="img-responsive " src="{{asset('google-rating-shipping-service-bengaluru.png')}}">
                 </div>
             </div>
             <div class="col-lg-5 col-md-5  col-sm-12 col-xs-12">
                 <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-xs-4">
-                    <img class="img-responsive img-courier-review-f" src="{{asset('img/images/Facebook_Logo@2x.png')}}">
+                    <img class="img-responsive img-courier-review-f" src="{{asset('facebook-reviews-shipping-service.png')}}">
                     <p class="header4" style="color: #507dbc;">Reviews</p>
                 </div>
 
                 <div class="col-lg-7 col-md-7 col-sm-8 col-xs-8">
                     <img class="img-responsive img-facebook-r" style="margin-top: -15px;"
-                         src="{{asset('img/images/rating_facebook.png')}}">
+                         src="{{asset('facebook-rating-shipping-service.png')}}">
                 </div>
             </div>
 

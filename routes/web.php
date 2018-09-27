@@ -46,8 +46,8 @@ Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('sche
 /*-------- ICS ------*/
 
 Route::get('/ics', 'PageController@icsIndex')->name('ics.index');
-Route::get('/ifs', 'PageController@ifsIndex')->name('ifs.index');
-Route::get('/about-new', 'PageController@aboutIndex')->name('about-new.index');
+Route::get('/shop-from-india-ship-worldwide', 'PageController@ifsIndex')->name('ifs.index');
+//Route::get('/about-new', 'PageController@aboutIndex')->name('about-new.index');
 Route::get('/contact-new', 'PageController@contactIndex')->name('contact-new.index');
 Route::get('/offers-new', 'PageController@offersIndex')->name('offers-new.index');
 
@@ -122,7 +122,7 @@ Route::post('/calculate/exchange-rate', 'CountryGuideController@exchangeCalculat
 
 
 Route::get('/indian-virtual-address', 'PageController@indianVirtual')->name('indianVirtual');
-Route::get('/shop-from-india-ship-worldwide', 'PageController@shopFromIndia')->name('shopFromIndia');
+//Route::get('/shop-from-india-ship-worldwide', 'PageController@shopFromIndia')->name('shopFromIndia');
 Route::get('/sellers-shipping', 'PageController@sellerShipping')->name('sellerShipping');
 Route::get('/personal-shopper', 'PageController@shopper')->name('shopper');
 Route::get('/{slug}', 'PageController@viewPage')->name('page');

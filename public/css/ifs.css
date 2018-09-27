@@ -1,4 +1,4 @@
-/*video*/
+
 .YouTubePopUp-Wrap {
     position: fixed;
     width: 100%;
@@ -103,7 +103,7 @@ body.logged-in .YouTubePopUp-Wrap {
     margin: auto 0;
     width: 24px;
     height: 24px;
-    background: url(../../new_assets/img/images/close.png) no-repeat;
+    background: url(../../img/images/close.png) no-repeat;
     background-size: 24px 24px;
     -webkit-background-size: 24px 24px;
     -moz-background-size: 24px 24px;
@@ -291,9 +291,106 @@ body.logged-in .YouTubePopUp-Wrap {
 
 }
 
-.text-center {
-    text-align: left !important;
+#ifs-benefits-desktop{
+    padding-top:20px;padding-bottom: 50px
 }
+
+/*radio buttons*/
+.radio-ifs {
+
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    /*font-size: 20px;*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+/* Hide the browser's default radio button */
+.radio-ifs input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkround {
+    position: absolute;
+    /*top: -1px;*/
+    /*left: 0;*/
+    /*height: 20px;*/
+    /*width: 20px;*/
+    /*/*background-color: #fff ;*/
+    /*border-color:#f8204f;*/
+    /*border-style:solid;*/
+    /*border-width:2px;*/
+    /*border-radius: 50%;*/
+
+    margin-top: 2px;
+    left: 2px;
+    /*top: 2px;*/
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    /*background:#f8204f;*/
+    background: red;
+}
+
+/* When the radio button is checked, add a blue background */
+
+.radio-ifs input:checked ~ .checkround {
+    /*background-color: #fff;*/
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkround:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-ifs input:hover ~ .checkround:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-ifs .checkround:after {
+    /*left: 2px;*/
+    /*top: 2px;*/
+    /*width: 12px;*/
+    /*height: 12px;*/
+    /*border-radius: 50%;*/
+    /*/*background:#f8204f;*/
+    /*background:red;*/
+}
+
+.li-header {
+    color: #677582 !important;
+    margin-left: 26px;
+    margin-top: -18px;
+    text-align: left;
+}
+
+.li-header:hover {
+    color: red !important;
+}
+
+.div-radio-btn {
+    margin-top: -2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    border: 1px solid red;
+
+}
+
+/*radio buttons*/
+
 /*tabs*/
 
 /*  ifs tab */
@@ -478,6 +575,32 @@ div.ifs-tab div.ifs-tab-content:not(.active) {
     display: none;
 }
 
+
+
+
+/*media quireis*/
+@media only screen and (max-width: 1024px) {
+    .p-ifs-img4 {
+        margin-top: -1%;
+    }
+    .img-priyamani-shopping {
+        height: 506px;
+        margin: 26px 0 0 -152px;
+        float: left;
+    }
+    .p-seller {
+        margin: 204px 0 0 24px;
+    }
+    .li-header {
+        margin-left: 23px;
+    }
+    #mobile-view {
+        display: none;
+    }
+    #div-container{
+        display: block;
+    }
+}
 @media all and (max-width: 768px) and (min-width: 10px) {
     .YouTubePopUp-Content {
         max-width: 90%;
@@ -528,133 +651,11 @@ div.ifs-tab div.ifs-tab-content:not(.active) {
     .section-3 {
         padding-top: 40px;
     }
-
-}
-
-@media only screen and (max-width: 667px) {
-
-    .p-ifs-img4 {
-        margin-top: 0%;
-    }
-
-    .div-step1 {
-        width: 634px;
-        height: 307px;
-    }
-
-    .div-step1:hover {
-        width: 634px !important;
-        height: 307px !important;
-    }
-
-    .div-step2:hover {
-        width: 634px !important;
-        height: 307px !important;
-    }
-
-    .div-step3:hover {
-        width: 634px !important;
-        height: 307px !important;
-    }
-
-}
-
-@media only screen and (min-width: 600px) and (max-width: 684px) {
-
-    .p-ifs-img4 {
-        margin-top: 0%;
-    }
-
-    .div-step1 {
-        width: 634px;
-        height: 307px;
-    }
-
-    .div-step1:hover {
-        width: 634px !important;
-        height: 307px !important;
+    #Re-packaging{
+        margin-top: -10px;
     }
 
 
-    .div-step2:hover {
-
-        width: 634px !important;
-        height: 307px !important;
-    }
-
-    .div-step3:hover {
-        width: 634px !important;
-        height: 307px !important;
-    }
-
-    #hrline {
-        margin-left: 65px;
-    }
-
-    .div-stores-img {
-        width: 212px;
-        height: 160px;
-    }
-}
-
-@media only screen and (max-width: 667px) {
-    .div-shop-ship, .div-courier {
-        width: 225px;
-        height: 285px;
-    }
-
-    .div-stores-img {
-        width: 205px;
-        height: 175px;
-    }
-}
-
-@media only screen and (max-width: 734px) {
-
-    .p-ifs-img4 {
-        margin-top: 0%;
-    }
-
-    .div-priyamani-mobile-img {
-        background-image: url(../../new_assets/img/images/image_priyamani_mobile3.png);
-        height: 340px;
-        width: 148px;
-        background-repeat: no-repeat;
-        float: right;
-        margin-top: -391px;
-        overflow: hidden;
-
-    }
-
-    #img-cal {
-        margin-left: -77px;
-    }
-
-    .p-support-text {
-        margin-left: -44px;
-    }
-
-    .div-stores-img {
-        width: 210px;
-        height: 161px;
-    }
-
-    #hidestore {
-        display: none;
-    }
-
-    #hrline {
-        width: 500px;
-        margin-left: 94px;
-    }
-
-    .img-demo {
-        margin-left: 20px;
-    }
-
-    .hr-line-payment-method {
-        margin-left: 100px;
-    }
 }
 
 @media only screen and (max-width: 736px) {
@@ -662,37 +663,7 @@ div.ifs-tab div.ifs-tab-content:not(.active) {
     .p-ifs-img4 {
         margin-top: 0%;
     }
-    .img-demo {
-        margin-left: 14px;
-    }
-    .img-cal{
-        margin-left: -87px;
-    }
-    .p-support-text {
-        margin-left: -59px;
-    }
-    .img-demo {
-        margin-left: 14px;
-    }
-    .img-cal{
-        margin-left: -87px;
-    }
-    .p-support-text {
-        margin-left: -59px;
-    }
 
-    .div-priyamani-mobile-img {
-        background-image: url(../../new_assets/img/images/image_priyamani_mobile3.png);
-        height: 340px;
-        width: 148px;
-        background-repeat: no-repeat;
-        float: right;
-        margin-top: -391px;
-        overflow: hidden;
-  }
-    .div-fluid {
-        padding-bottom: 31px;
-    }
 }
 
 @media only screen and (max-width: 734px) {
@@ -701,59 +672,75 @@ div.ifs-tab div.ifs-tab-content:not(.active) {
         margin-top: 0%;
     }
 
-    #hrline {
-        margin-left: 45px;
-    }
 
-    .img-demo {
-        margin-left: 20px;
-    }
-
-    .btn-browse-stores {
-        margin-left: -11px;
-    }
-    .div-fluid {
-        padding-bottom: 31px;
-    }
 }
 
-@media only screen and (max-width: 768px) {
+
+
+@media only screen and (max-width: 667px) {
 
     .p-ifs-img4 {
-        margin-top: -3%;
+        margin-top: 0%;
     }
-    .div-priyamani-mobile-img {
-        background-image: url(../../new_assets/img/images/image_priyamani_mobile3.png);
-        height: 340px;
-        width: 148px;
-        background-repeat: no-repeat;
-        float: right;
-        margin-top: -391px;
-        overflow: hidden;
 
+    .div-step1 {
+        width: 634px;
+        height: 307px;
     }
+
+    .div-step1:hover {
+        width: 634px !important;
+        height: 307px !important;
+    }
+
+
+    .div-step2:hover {
+
+        width: 634px !important;
+        height: 307px !important;
+    }
+
+    .div-step3:hover {
+        width: 634px !important;
+        height: 307px !important;
+    }
+
+}
+@media only screen and (max-width: 667px) {
+
 }
 
-@media only screen and (max-width: 1024px) {
+/*@media only screen and (min-width: 600px) and (max-width: 684px) {*/
 
-    .p-ifs-img4 {
-        margin-top: -1%;
-    }
+    /*.p-ifs-img4 {*/
+        /*margin-top: 0%;*/
+    /*}*/
 
-    .img-priyamani-shopping {
-        height: 565px;
-        margin: -17px 0 0 -257px;
-        float: left;
-    }
+    /*.div-step1 {*/
+        /*width: 634px;*/
+        /*height: 307px;*/
+    /*}*/
 
-    .div-btn {
-        width: 229px !important;
-        height: 60px;
-        border-radius: 5px;
-        border: 1px solid #173149;
-        margin-bottom: 20px;
-    }
-}
+    /*.div-step1:hover {*/
+        /*width: 634px !important;*/
+        /*height: 307px !important;*/
+    /*}*/
+
+    /*.div-step2:hover {*/
+        /*width: 634px !important;*/
+        /*height: 307px !important;*/
+    /*}*/
+
+    /*.div-step3:hover {*/
+        /*width: 634px !important;*/
+        /*height: 307px !important;*/
+    /*}*/
+
+    /*!*#hrline {*!*/
+        /*!*margin-left: 65px;*!*/
+    /*!*}*!*/
+
+
 
 @media all and (max-width: 600px) and (min-width: 10px) {
     .YouTubePopUp-Content iframe {
@@ -870,23 +857,19 @@ div.ifs-tab div.ifs-tab-content:not(.active) {
     #ifs-benefits-desktop {
         display: none;
     }
+    .p-seller {
+        margin: -11px 0 0 24px;
+    }
 }
 
-@media all and (max-width: 412px) and (min-width: 10px) {
-    #hrline {
-        margin-left: 84px
-    }
-
-    #hidestore {
-        display: none;
-    }
+@media all and (max-width: 412px)  {
 
 }
 
 /*video*/
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-width: 320px) {
     .YouTubePopUp-Content iframe {
         height: 220px !important;
     }
@@ -911,140 +894,12 @@ div.ifs-tab div.ifs-tab-content:not(.active) {
         border-radius: 30px !important;
         background-color: #e85151;
     }
+    .p-seller {
+        margin: -11px 0 0 24px;
+    }
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width: 321px) {
+@media only screen and (max-width: 321px) {
 
 }
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 320px) {
-
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-
-}
-
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-
-}
-
-/**********
-iPad 3
-**********/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width: 1224px) {
-
-}
-
-/* Large screens ----------- */
-@media only screen  and (min-width: 1824px) {
-
-}
-
-/* iPhone 4 ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* iPhone 5 ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-/* iPhone 6 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-    #img-shopping {
-        display: none;
-    }
-
-    #img-shopping-mobile {
-        display: block;
-    }
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-    #img-shopping {
-        display: none;
-    }
-
-    #img-shopping-mobile {
-        display: block;
-    }
-}
-
-/* iPhone 6+ ----------- */
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-    #img-shopping {
-        display: none;
-    }
-
-    #img-shopping-mobile {
-        display: block;
-    }
-
-    .p-ifs-img4 {
-        margin-top: 0%;
-    }
-
-    #hrline {
-        margin-left: 84px;
-    }
-}
-
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-/* Samsung Galaxy S3 ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-/* Samsung Galaxy S4 ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
-
-}
-
-/* Samsung Galaxy S5 ----------- */
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-
-}
-
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
-
-}
-

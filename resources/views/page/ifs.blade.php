@@ -19,7 +19,7 @@
                 <center>
                     <p style="margin-top:170px;">
                         <a class="bla-1" href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=5s">
-                            <img class="btn-vid-img" src="img/svg_image/btn.svg">
+                            <img class="btn-vid-img" src="img/svg/btn.svg">
                         </a>
 
                     </p>
@@ -61,7 +61,7 @@
                             Address</h3>
                     </center>
                     <img class="img-responsive img-ifs-v_addres " style="margin-top:50px;"
-                         src="img/svg_image/step1.svg">
+                         src="img/svg/step1.svg">
                 </div>
                 <div class="" style="padding: 0;display: none;" id="text1">
                     <h3 class="header4 p-color-cement-dark p-ifs-margin-h"
@@ -88,7 +88,7 @@
                         </h3>
                     </center>
                     <img class="img-responsive img-ifs-v_addres " style="margin-top: 20px;"
-                         src="img/svg_image/step_2.svg">
+                         src="img/svg/step_2.svg">
                 </div>
 
                 <div class="" style="padding: 0" id="text2">
@@ -116,7 +116,7 @@
                             Receive your package </h3>
                     </center>
                     <img class="img-responsive img-ifs-v_addres " style="margin-top: 20px;"
-                         src="img/svg_image/step3.svg">
+                         src="img/svg/step3.svg">
                 </div>
 
                 <div class="" style="padding: 0" id="text3">
@@ -165,11 +165,11 @@
             </div>
             <div class="col-xs-12 col-sm-12 mobile-images">
                 <center>
-                    <img class="img-responsive " id="mobile-image1" src="img/svg_image/step1.svg">
+                    <img class="img-responsive " id="mobile-image1" src="img/svg/step1.svg">
                     <img class="img-responsive " id="mobile-image2" style="width: 80%;display: none;"
-                         src="img/svg_image/step_2.svg">
+                         src="img/svg/step_2.svg">
                     <img class="img-responsive " id="mobile-image3" style="width: 80%;display: none;"
-                         src="img/svg_image/step3.svg">
+                         src="img/svg/step3.svg">
                 </center>
             </div>
         </div>
@@ -208,7 +208,7 @@
             <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                 <div class="row">
                     <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
-                        <img class="img " src="img/svg_image/4-layers.svg">
+                        <img class="img " src="img/svg/4-layers.svg">
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
                         <h4 class="header5 p-color-cement-dark">Store does't accept your <br> International Credit
@@ -218,14 +218,14 @@
 
 
                     <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
-                        <img class="img" src="img/svg_image/4-layers1.svg">
+                        <img class="img" src="img/svg/4-layers1.svg">
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
                         <h4 class="header5 p-color-cement-dark">Don't have Indian number to <br> verify your order?
                         </h4>
                     </div>
                     <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
-                        <img class="img" src="img/svg_image/4-layers2.svg">
+                        <img class="img" src="img/svg/4-layers2.svg">
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
                         <h4 class="header5 p-color-cement-dark">Don't have an Indian address?
@@ -280,23 +280,23 @@
     {{--</div>--}}
     {{--<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">--}}
     {{--<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">--}}
-    {{--<img class="img-responsive img-courier-review-g" src="img/svg_image/ic_google.svg">--}}
+    {{--<img class="img-responsive img-courier-review-g" src="img/svg/google-reviews-shipping-service-bengaluru.svg">--}}
     {{--<p class="header6" style="color: #e85151;">Reviews</p>--}}
     {{--</div>--}}
 
     {{--<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">--}}
-    {{--<img class="img-responsive " src="img/images/rating_google.png">--}}
+    {{--<img class="img-responsive " src="img/images/google-rating-shipping-service-bengaluru.png">--}}
     {{--</div>--}}
     {{--</div>--}}
     {{--<div class="col-lg-5 col-md-5  col-sm-12 col-xs-12">--}}
     {{--<div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-xs-4">--}}
-    {{--<img class="img-responsive img-courier-review-f" src="img/images/Facebook_Logo@2x.png">--}}
+    {{--<img class="img-responsive img-courier-review-f" src="img/images/facebook-reviews-shipping-service.png">--}}
     {{--<p class="header6" style="color: #507dbc; line-height: 30px">Reviews</p>--}}
     {{--</div>--}}
 
     {{--<div class="col-lg-7 col-md-7 col-sm-8 col-xs-8">--}}
     {{--<img class="img-responsive img-facebook-r" style="margin-top: -15px;"--}}
-    {{--src="img/images/rating_facebook.png">--}}
+    {{--src="img/images/facebook-rating-shipping-service.png">--}}
     {{--</div>--}}
     {{--</div>--}}
 
@@ -317,13 +317,13 @@
 
         </div>
 
-        <div class="container" style=" padding-top:20px;padding-bottom: 50px" id="ifs-benefits-desktop">
+        <div class="container benefits" id="ifs-benefits-desktop">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ifs-tab-container">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ifs-tab-menu">
                     <div class="list-group">
                         <a href="#" class="list-group-item active text-center">
                             <div class="div-radio-btn" id="div-radio-btn1">
-                                <label class="radio header5">
+                                <label class="radio-ifs header5">
                                     <input type="radio" checked="checked" name="is_company">
                                     <span class="checkround"></span>
                                 </label>
@@ -332,7 +332,7 @@
                         </a>
                         <a href="#" class="list-group-item text-center">
                             <div class="div-radio-btn" id="div-radio-btn2">
-                                <label class="radio header5">
+                                <label class="radio-ifs header5">
                                     <input type="radio" name="is_company">
                                     <span class="checkround"></span>
                                 </label>
@@ -341,7 +341,7 @@
                         </a>
                         <a href="#" class="list-group-item text-center">
                             <div class="div-radio-btn" id="div-radio-btn3">
-                                <label class="radio header5">
+                                <label class="radio-ifs header5">
                                     <input type="radio" name="is_company">
                                     <span class="checkround"></span>
                                 </label>
@@ -350,7 +350,7 @@
                         </a>
                         <a href="#" class="list-group-item text-center">
                             <div class="div-radio-btn" id="div-radio-btn3">
-                                <label class="radio header5">
+                                <label class="radio-ifs header5">
                                     <input type="radio" name="is_company">
                                     <span class="checkround"></span>
                                 </label>
@@ -359,7 +359,7 @@
                         </a>
                         <a href="#" class="list-group-item text-center">
                             <div class="div-radio-btn" id="div-radio-btn5">
-                                <label class="radio header5">
+                                <label class="radio-ifs header5">
                                     <input type="radio" name="is_company">
                                     <span class="checkround"></span>
                                 </label>
@@ -368,7 +368,7 @@
                         </a>
                         <a href="#" class="list-group-item text-center">
                             <div class="div-radio-btn" id="div-radio-btn6">
-                                <label class="radio header5">
+                                <label class="radio-ifs header5">
                                     <input type="radio" name="is_company">
                                     <span class="checkround"></span>
                                 </label>
@@ -390,7 +390,7 @@
                         <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
                             <center>
                                 <img class="img-responsive ifs-image1"
-                                     src="img/svg_image/image_benefit_001.svg">
+                                     src="img/svg/image_benefit_001.svg">
                             </center>
 
                         </div>
@@ -433,7 +433,7 @@
                         <div class="col-md-9 col-lg-9 col-sm-8 col-xs-8">
                             <center>
                                 <img class="img-responsive ifs-image2 "
-                                     src="img/svg_image/image_benefit_003.svg">
+                                     src="img/svg/image_benefit_003.svg">
                             </center>
                         </div>
                         <div class="col-md-2 col-lg-2 col-sm-4 col-xs-4">
@@ -451,7 +451,7 @@
                                 <h4 class="header4 p-color-cement-dark ifs-font-weight">Before
                                     Consolidation</h4>
                                 <img class="img-responsive ifs-img3"
-                                     src="img/svg_image/image_benefit_002A.svg">
+                                     src="img/svg/image_benefit_002A.svg">
                             </center>
                         </div>
                         <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2" style="margin-top: 20%">
@@ -467,7 +467,7 @@
                                 <h4 class="header4 p-color-cement-dark ifs-font-weight">After
                                     Consolidation</h4>
                                 <img class="img-responsive ifs-img3"
-                                     src="img/svg_image/image_benefit_002B.svg">
+                                     src="img/svg/image_benefit_002B.svg">
                             </center>
                         </div>
                     </div>
@@ -480,8 +480,8 @@
                             </center>
                         </div>
                         <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
-                            <img class="img-responsive "
-                                 src="img/svg_image/image_benefit_004.svg">
+                            <img class="img-responsive" id="Re-packaging"
+                                 src="img/svg/image_benefit_004.svg">
                         </div>
                         <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                             <p class="header7 p-color-cement p-ifs-img4">
@@ -505,7 +505,7 @@
                         </div>
                         <div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
                             <img class="img-responsive ifs-img5"
-                                 src="img/svg_image/image_benefit_005.svg">
+                                 src="img/svg/image_benefit_005.svg">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <p class="header7 p-color-cement p-ifs-img5">
@@ -527,7 +527,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                             <center>
                                 <img class="img-responsive ifs-img-6"
-                                     src="img/svg_image/image_benefit_006.svg">
+                                     src="img/svg/image_benefit_006.svg">
                             </center>
 
                         </div>
@@ -565,7 +565,7 @@
                                 </div>
                                 <div class="row">
                                     <img class="img-responsive ifs-image1" style="margin-top: 30px;"
-                                         src="img/svg_image/image_benefit_001.svg">
+                                         src="img/svg/image_benefit_001.svg">
                                 </div>
                             </center>
                             <div class="row">
@@ -623,7 +623,7 @@
                             <div class="row" style="padding-left: 10px; padding-right: 10px;">
                                 <center>
                                     <img class="img-responsive ifs-image2 "
-                                         src="img/svg_image/image_benefit_003.svg">
+                                         src="img/svg/image_benefit_003.svg">
                                 </center>
                             </div>
                             <div class="row">
@@ -654,7 +654,7 @@
                                         <h4 class="header6 p-color-cement-dark ifs-font-weight">Before
                                             Consolidation</h4>
                                         <img class="img-responsive ifs-img3"
-                                             src="img/svg_image/image_benefit_002A.svg">
+                                             src="img/svg/image_benefit_002A.svg">
                                     </center>
                                 </div>
                                 <div class="col-sm-6 col-xs-6">
@@ -662,7 +662,7 @@
                                         <h4 class="header6 p-color-cement-dark ifs-font-weight">After
                                             Consolidation</h4>
                                         <img class="img-responsive" style="height:180px;margin-top: 50px"
-                                             src="img/svg_image/image_benefit_002B.svg">
+                                             src="img/svg/image_benefit_002B.svg">
                                     </center>
                                 </div>
                             </div>
@@ -700,7 +700,7 @@
                             <div class="row">
                                 <center>
                                     <img class="img-responsive "
-                                         src="img/svg_image/image_benefit_004.svg">
+                                         src="img/svg/image_benefit_004.svg">
                                 </center>
                             </div>
                             <div class="row">
@@ -745,7 +745,7 @@
                             <div class="row">
                                 <center>
                                     <img class="img-responsive ifs-img5"
-                                         src="img/svg_image/image_benefit_005.svg">
+                                         src="img/svg/image_benefit_005.svg">
                                 </center>
                             </div>
                             <div class="row">
@@ -783,7 +783,7 @@
                             <div class="row">
                                 <center>
                                     <img class="img-responsive ifs-img-6" style="margin-top: 10px;"
-                                         src="img/svg_image/image_benefit_006.svg">
+                                         src="img/svg/image_benefit_006.svg">
                                 </center>
                             </div>
                             <div class="row">
@@ -922,7 +922,7 @@
                     $("#text1").hide();
                     $("#step1").css({'border-color': '#929ca5'})
                     $("#number1").css({'color': '#929ca5'})
-                    $(".div-step1").css({'height': '634px', 'width':'307px'})
+                    $(".div-step1").css({'height': '400px', 'width':'634px'})
                 });
         });
     </script>
@@ -952,7 +952,7 @@
                     $("#text1").hide();
                     $("#step1").css({'margin-left': '0'})
                     $("#step3").css({'margin-left': '70px'})
-                    $(".div-step1").css({'height': '307px', 'width':'634px'})
+                    $(".div-step1").css({'height': '400px', 'width':'634px'})
                 });
         });
     </script>
@@ -982,7 +982,7 @@
                     $("#text1").hide();
                     $("#step1").css({'margin-left': '0'})
                     $("#step2").css({'margin-left': '70px'})
-                    $(".div-step1").css({'height': '307px', 'width':'634px'})
+                    $(".div-step1").css({'height': '400px', 'width':'634px'})
                 });
         });
     </script>

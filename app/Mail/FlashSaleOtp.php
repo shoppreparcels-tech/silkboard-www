@@ -31,7 +31,7 @@ class FlashSaleOtp extends Mailable
      */
     public function build()
     {
-        $from_mail = 'notifications@cp.shoppre.com';
+        $from_mail = 'no-reply@cp.shoppre.com';
         $from_name = 'Shoppre';
         $subject = 'Welcome to Shoppre Flash! - One Time Password';
 

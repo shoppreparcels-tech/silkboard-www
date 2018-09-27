@@ -73,10 +73,9 @@
     <section class="header">
         <div class="container header-padder-top">
             <center>
-                <p class="reviews-header p-color-white">Customer Reviews</p>
-                <p class="review-content-font-size p-color-cement header-margin-bottom">Our members loves our top-rated
-                    service
-                    and how easy and worry
+                <p class="header1 p-color-white">Customer Reviews</p>
+                <p class="header4 p-color-cement header-margin-bottom">Our members loves our top-rated
+                    service and how easy and worry
                     <br>free we make shopping and shipping from INDIA
                 </p>
             </center>
@@ -91,16 +90,18 @@
                     @endif
                 </center>
                 <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,," target="_blank">
-                    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 ">
+                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 reviews-page-review-google" >
                         <img src="{{asset('img/reviews/review-google.png')}}" alt="Google Reviews">
                     </div>
                 </a>
+                <div class="col-xs-12 col-sm-12 div-review-hr"></div>
                 <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
-                    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 reviews-page-review-fb">
                         <img src="{{asset('img/reviews/review-facebook.png')}}" alt="Facebook Reviews">
                     </div>
                 </a>
-                    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                <div class="col-xs-12 col-sm-12 div-review-hr"></div>
+                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 reviews-page-review-shoppre">
                         <img src="{{asset('img/reviews/review-shoppre.png')}}" alt="Shoppre Reviews">
                     </div>
             </div>
@@ -165,14 +166,15 @@
                     <div class="row">
                         @foreach($reviews as $review)
                         <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 inner-review">
+                            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 inner-review ">
                                 <div class="row div-img-row">
 
                                     <div class="col-md-1 col-lg-1 col-sm-1 col-xs-1">
-                                        <img class=" img-review img-circle" src="{{asset('img/images/23.jpg')}}">
+                                        <div class=" img-review img-circle Avatar Avatar--color0">{{$review->person}}</div>
+{{--                                        <img class=" img-review img-circle" src="{{asset('img/images/23.jpg')}}">--}}
                                     </div>
                                     <div class="col-md-5 col-lg-5 col-sm-4 col-xs-4">
-                                        <p class="p-name-font-weight">&nbsp;&nbsp;&nbsp;&nbsp;{{$review->person}} </p>
+                                        {{--<p class="p-name-font-weight">&nbsp;&nbsp;&nbsp;&nbsp;{{$review->person}} </p>--}}
                                     </div>
                                     <div class="col-md-5 col-lg-5 col-sm-7 col-xs-7 rating-padding-left">
                                         <img src="{{asset('img/rating-star.png')}}">
@@ -180,15 +182,15 @@
                                 </div>
                                 <div class="row">
                                     <i class="quots-t ">
-                                        <img src="{{asset('img/svg_image/qoute_up.svg')}}">
+                                        <img src="{{asset('img/svg/qoute_up.svg')}}">
                                     </i>
                                 </div>
                                 <div class="row">
                                     <p class=" p-reviews">{{$review->review}}!</p>
                                 </div>
                                 <div class="row">
-                          <span class="quots-b">
-                            <img src="{{asset('img/svg_image/qoute_down.svg')}}">
+                          <span class="quots-b" >
+                            <img src="{{asset('img/svg/qoute_down.svg')}}" >
                           </span>
                                 </div>
                             </div>
@@ -210,11 +212,11 @@
     <section style="background-color: #fafafb">
         <div class="container-fluid padder-top-review">
             <center>
-                <p class="review-heading">
+                <p class="header1 p-color-cement-dark">
                     Delivering Joy to Your Doorsteps</p>
                 <p class="header2 p-doorstep-des">You've got no reason to wait around any longer, just come ShoppRe!</p>
                 <a href="https://myaccount.shoppre.com/register" target="_blank">
-                    <div class="btn-signup-review header3 p-color-white">
+                    <div class="btn-signup-review header5 p-color-white">
                         <p>
                             Sign Up for FREE
                         </p>
@@ -255,4 +257,19 @@
             $(".select2").select2();
         });
     </script>
+
+     <script type="text/javascript">
+
+         $(document).ready(function () {
+             var text = '';
+             var arr = "Dhananjaya Ks".split(' ');
+             for(i=0;i<arr.length;i++) {
+                 text += arr[i].substr(0,1)
+             }
+
+         });
+     </script>
+
+
+
 @endsection

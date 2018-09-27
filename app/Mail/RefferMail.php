@@ -30,7 +30,7 @@ class RefferMail extends Mailable
      */
     public function build()
     {
-        $from_mail = 'notifications@cp.shoppre.com';
+        $from_mail = 'no-reply@cp.shoppre.com';
         $from_name = 'Shoppre';
         $subject = 'Reffer A Friend - Refferal Code';
 

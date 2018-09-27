@@ -113,22 +113,22 @@
                         <ul class="list-inline list-unstyled">
                             <li>
                                 <a  href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw">
-                                    <img src="{{asset('new_assets/img/svg_image/ic_social_google.svg')}}">
+                                    <img src="{{asset('shoppre-youtube-video.svg')}}">
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.facebook.com/goshoppre/">
-                                    <img class="img-connect" src="{{asset('new_assets/img/svg_image/ic_social_faceboook.svg')}}">
+                                    <img class="img-connect" src="{{asset('go-shoppre-faceboook.svg')}}">
                                 </a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/Go_Shoppre">
-                                    <img class="img-connect" src="{{asset('new_assets/img/svg_image/ic_social_twitter.svg')}}">
+                                    <img class="img-connect" src="{{asset('shoppre-twitter.svg')}}">
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/shoppre_official/?hl=en">
-                                    <img class="img-connect" src="{{asset('new_assets/img/svg_image/ic_social_instagram.svg')}}">
+                                    <img class="img-connect" src="{{asset('shoppre-instagram.svg')}}">
                                 </a>
                             </li>
                         </ul>

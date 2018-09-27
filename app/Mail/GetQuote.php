@@ -28,7 +28,7 @@ class GetQuote extends Mailable
      */
     public function build()
     {
-        $from_mail = 'notifications@cp.shoppre.com';
+        $from_mail = 'no-reply@cp.shoppre.com';
         $from_name = 'Shoppre';
         $subject = 'Get A Quote';
 

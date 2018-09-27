@@ -1,0 +1,3546 @@
+.border-solid {
+    border: solid 1px;
+}
+
+.body {
+    margin: 0;
+    font-family: Montserrat !important;
+
+}
+
+/*.container {*/
+/*border: 1px solid red;*/
+/*}*/
+
+/*NAV BAR ICON DESING*/
+.navbar-toggle {
+    border-radius: 0;
+    z-index: 1
+}
+
+.navbar-toggle .icon-bar {
+    transition: .5s ease;
+}
+
+.navbar-toggle.collapsed .icon-bar:nth-child(2) {
+    transform: rotate(0) translateY(0) translateX(0);
+}
+
+.navbar-toggle.collapsed .icon-bar:nth-child(3) {
+    opacity: 1
+}
+
+.navbar-toggle.collapsed .icon-bar:nth-child(4) {
+    transform: rotate(0) translateY(0) translateX(0);
+}
+
+.navbar-toggle .icon-bar:nth-child(2) {
+    transform: rotate(-50deg) translateY(3px) translateX(-2px);
+}
+
+.navbar-toggle .icon-bar:nth-child(3) {
+    opacity: 0
+}
+
+.navbar-toggle .icon-bar:nth-child(4) {
+    transform: rotate(40deg) translateY(-7px) translateX(-4px);
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+}
+
+.header {
+    background-color: #11273b;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    width: 155px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: -4px;
+}
+
+#stars {
+    display: none;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fe9625;
+    height: 2px;
+    padding-top: 2px;
+}
+
+.nav-ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-li {
+    margin: 14px 0px 0px -1px;
+
+}
+
+.navbar-container ul li a {
+    font-family: Montserrat;
+    font-size: 14px;
+    /*line-height: 12px;*/
+    text-decoration: none;
+    font-weight: 600;
+    color: #929ca5;
+}
+
+.navbar-container ul li a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar-container ul li.btn-register a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px;
+    opacity: 1;
+}
+
+.navbar-container ul li.btn-register a:hover {
+    /*opacity: 0.7;*/
+}
+
+/*a:hover{
+  text-decoration: none;
+}*/
+.icon-bar {
+    background-color: #ffffff !important;
+}
+
+.nav-a::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #929ca5;
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    transition: all ease-in-out 2000ms;
+}
+
+.nav-a:hover::before {
+    /*width: 70%;*/
+    /*align-content: center;*/
+}
+
+
+/*.reviews-header {*/
+    /*color: #ffffff;*/
+    /*font-family: Montserrat;*/
+    /*font-size: 36px;*/
+    /*font-weight: 600;*/
+    /*line-height: 40px;*/
+    /*letter-spacing: 1.8px;*/
+/*}*/
+
+/*.review-content-font-size {*/
+    /*font-size: 16px;*/
+/*}*/
+
+.section-social-reviews {
+    padding-top: 7%;
+    padding-bottom: 20%;
+}
+.section-social-reviews > img{
+    width: 100%;
+    max-width: 120%;
+}
+
+.header-margin-bottom {
+    margin-bottom: 6%;
+}
+
+.header-padder-top {
+    padding-top: 2%;
+}
+
+.login-link {
+    margin-left: 100px;
+}
+
+.left-ul, .register-ul {
+    margin-top: 15px
+}
+
+.btn-register {
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color: #e85151;
+    transition: 0.6s;
+
+}
+
+.btn-register-text {
+
+    /*filter: Alpha(opacity=50);*/
+}
+.btn-hover:hover{
+    /*opacity: 0.6;*/
+    /*color: #ffffff;*/
+    background-color: #C83B3B;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);
+}
+
+/*.btn-register:hover {*/
+    /*opacity: 0.6;*/
+    /*color: #ffffff;*/
+    /*-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);*/
+    /*-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);*/
+    /*box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);*/
+/*}*/
+
+.gly-search {
+    width: 17px;
+    height: 16px;
+    color: #ffffff;
+}
+
+.gly-menu-hamburger {
+    width: 17px;
+    height: 16px;
+    color: #ffffff;
+}
+
+.img-menu {
+    width: 17px;
+    height: 16px;
+}
+
+/*first section*/
+.div-main {
+    background-image: linear-gradient(180deg, #11273b 0%, #11273b 100%);
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#mobile-img {
+    display: none;
+}
+
+.div-main-row {
+    margin-top: 60px;
+}
+
+.header-text-margin {
+    margin-bottom: 36px;
+    margin-left: -15px;
+}
+
+.header1 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.header2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.header3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.header6 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header7 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.header8 {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.p-color-white {
+    color: #ffffff;
+}
+
+.p-color-red {
+    color: #e85151;
+}
+
+.p-color-cement-dark {
+    color: #11273b;
+}
+
+.p-color-cement {
+    color: #677582;
+
+}
+
+.div-shop-ship {
+    background-color: #e85151;
+
+}
+
+.div-courier {
+    background-color: #507dbc;
+    margin-left: 20px;
+
+}
+
+.div-shop-ship,
+.div-courier {
+    width: 240px;
+    height: 300px;
+    border-radius: 30px;
+    padding-top: 45px;
+}
+
+.p-ship-shop-courier {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    /*letter-spacing: 0.9px;*/
+
+}
+
+.btn-shop-ship {
+    background-color: #ffffff;
+    color: #e85151;
+}
+
+.btn-courier {
+    background-color: #507dbc;
+    color: #ffffff;
+}
+
+.btn-font-size {
+    font-size: 15px;
+}
+
+.btn-shop-ship,
+.btn-courier {
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    margin: 23px 30px 0px 13px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-top: 14px;
+    margin-left: 26px;
+    /*opacity: 0.6;*/
+    transition: 0.6s;
+}
+
+.btn-courier {
+    margin-top: 48px
+}
+
+.btn-shop-ship:hover {
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    /*opacity: 0.6;*/
+    /*border: 1px solid #E9C46A;*/
+    background-color: #FDF699;
+}
+
+.btn-courier:hover {
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    background-color: #FDF699;
+    color: #507dbc;
+}
+
+.btn-browse-stores:hover {
+    background-color: #C83B3B;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.div-backgroud-img {
+    background-image: url("../../img/svg/shoppre-background.svg");
+    background-repeat: no-repeat;
+    float: right;
+    position: absolute;
+    margin: 358px 0px 0 75px;
+}
+
+.img-priyamani {
+    margin: -219px 0px -13px -256px;
+    height: 563px;
+}
+
+.div-priyamani-mobile-img {
+    background-image: url(../../img/images/priyamani-shoppre-brand-ambassador.png);
+    height: 340px;
+    width: 148px;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: -391px;
+    overflow: hidden;
+    display: none;
+
+}
+
+.div-margin {
+    margin-top: 60px;
+}
+
+.div-demo-row {
+    margin-top: 112px;
+    padding-left: 21px;
+    padding-bottom: 14px;
+}
+
+.call-now-text {
+    font-size: 12px;
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+.img-demo {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: -4px;
+    margin-top: -6px;
+}
+
+.p-demo-text {
+    /*height: 20px;*/
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+    margin-left: 6px;
+}
+
+.p-support-text {
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+    color: #929ca5;
+}
+
+.div-support {
+    margin: 0px 0px 0px 0px;
+    color: #929ca5;
+}
+
+.div-benifits {
+    border-radius: 30px;
+    border: 1px solid rgba(146, 156, 165, 0.2);
+    background-color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.div-benifits-margin {
+    margin: 87px 0 97px 0;
+}
+
+.img-benifits {
+    width: 80px;
+    height: 81px;
+}
+
+.online-text {
+    height: 34px;
+    color: #11273b;
+    font-size: 28px;
+    font-weight: 800;
+    /*margin-top: 12px;*/
+}
+
+.p-save-upto {
+    color: #677582;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.online-text-words {
+    color: #677582;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.partners-text {
+    color: #11273b;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.courier-partner-text {
+    color: #677582;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.div-price-cal {
+    background-color: #e85151;
+}
+
+.div-cal-white-background {
+    box-shadow: 0 3px 60px rgba(0, 0, 0, 0.16);
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin-top: 70px;
+    position: relative;
+}
+
+.div-cal-margin-top {
+    margin-top: 61px;
+}
+
+.img-international {
+    width: 56px;
+    height: 31px;
+    float: left;
+
+}
+
+.p-int-text {
+    color: #e85151;
+
+}
+
+.domestic-img-text {
+    color: #677582;
+}
+
+.domestic-img-text,
+.p-int-text {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: -33px;
+}
+
+.div-price-cal-inner {
+    box-shadow: 0 3px 60px rgba(0, 0, 0, 0.16);
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin-top: 70px;
+}
+
+.div-inter {
+    margin: 61px 0px 38px 0px;
+}
+
+.p-price {
+    color: #e85151;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 61px 0px 38px 0px;
+}
+
+.div-border-int {
+    height: 1px;
+    border: 1px solid #e85151;
+    margin-bottom: 48px;
+}
+
+.div-border-dom {
+    height: 1px;
+    border: 1px solid rgba(146, 156, 165, 0.2);
+    margin-bottom: 48px;
+}
+
+.div-cal-country {
+    margin: 48px 0 93px 0;
+}
+
+.lable-from {
+    color: #677582;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+
+.select-from,
+.select-destination[type="text"] {
+    margin: 14px 0 0 0;
+    width: 300px;
+    height: 50px;
+    border: 1px solid rgba(146, 156, 165, 0.5);
+    background-color: #ffffff;
+}
+
+.option-text-from {
+    color: #e85151;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+
+#destination {
+    padding-left: 40px;
+}
+
+.option-text-dest {
+    /*width: 184px;
+    height: 17px;*/
+    color: #929ca5;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+
+.btn-estimate {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    /*line-height: 40px;	*/
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: #e85151;
+    margin: 39px 0 0 0;
+}
+
+.div-container-margin {
+    margin-bottom: 117px;
+}
+
+.div-offer {
+    width: 260px;
+    height: 146px;
+    border-radius: 0 0 0 23px;
+    background-color: #fdf699;
+    /*margin-bottom: 117px;	*/
+}
+
+.offer-margin {
+    margin: 40px 0 39px 0;
+    margin-top: 40px;
+}
+
+.img-offer {
+    width: 60px;
+    height: 62px;
+
+}
+
+.running-text {
+    color: #507dbc;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -20px;
+}
+
+.offer-text {
+    color: #e85151;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-left: -20px;
+}
+
+/*carousel*/
+
+.div-carosal {
+    width: 600px;
+    height: 130px;
+    border-radius: 0 0 20px;
+    background-image: linear-gradient(258deg, #ff7e5e 0%, #ff8191 100%);
+}
+
+#carousel {
+    position: relative;
+    margin: 0 auto;
+}
+
+#slides {
+    overflow: hidden;
+    position: relative;
+}
+
+#slides ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#slides li {
+    float: left;
+    position: relative;
+}
+
+.p-slider {
+    letter-spacing: 2.8px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.div-btn-slider {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    opacity: 0.4;
+}
+
+.btn-bar {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.btn-prev-next {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    opacity: 0.4;
+}
+
+#buttons {
+    background-color: #ffffff;
+    opacity: 0.4;
+    padding: 0 0 0px 0;
+    margin-bottom: -25px;
+}
+
+#buttons a {
+    display: block;
+    font-size: 50px;
+    float: left;
+    outline: 0;
+    color: #fdf699;
+    text-decoration: none;
+    display: block;
+}
+
+a#prev:hover, a#next:hover {
+    color: #FFF;
+    text-shadow: .5px 0px #b14943;
+}
+
+/*carousel*/
+
+/*Our service*/
+
+.our-service-header {
+    color: #11273b;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 62px 0px 0px 0px;
+}
+
+.our-service-text {
+    color: #11273b;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 9px 0px 0px 0px;
+}
+
+.img-shop-ship {
+    width: 160px;
+    height: 160px;
+    margin: 21px 0px 34px 0px;
+}
+
+.p-line-height {
+    /*line-height: 26px;*/
+    margin-left: 10px;
+}
+
+.p-shop-ship-des {
+    color: #11273b;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.p-courier-h {
+    color: #507dbc;
+}
+
+.span-color {
+    color: #ffffff;
+}
+
+.padder-bottom {
+    margin-bottom: 21px;
+    margin-left: 4%;
+}
+
+.btn-our-shop-ship {
+    padding-top: 12px;
+    border: 1px solid  #e85151;
+    /*background-color: #e85151;*/
+    color: #e85151;
+}
+
+.btn-our-courier {
+    border: 1px solid #507dbc;
+    padding-top: 13px;
+    color: #507dbc;
+}
+
+.btn-our-shop-ship,
+.btn-our-courier {
+    margin-top: 28px;
+    width: 306px;
+    height: 50px;
+    border-radius: 50px;
+    margin-bottom: 70px;
+    transition: 0.6s;
+    /*opacity: 1;*/
+}
+
+.btn-our-shop-ship:hover {
+    background-color: #C83B3B;
+    color: white;
+    border: none;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+.btn-our-courier:hover {
+    /*background-color: #e85151;*/
+    background-color:#507dbc;
+    color: white;
+    border: none;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+#hrline {
+    display: none;
+    border: 1px solid rgba(146, 156, 165, 0.3);
+}
+
+.div-stores {
+    width: 1200px;
+    height: 600px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.div-stores-img {
+    width: 225px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    background-color: #ffffff;
+    display: table;
+}
+
+.online-stores {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.img-stores {
+    width: 100%;
+    max-width: 150px;
+}
+
+.div-find-more-stores {
+    width: 245px;
+    height: 320px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: 1px solid rgba(146, 156, 165, 0.2);
+    float: right;
+    margin-right: 15px;
+    position: relative;
+    top: -359px;
+    margin-right: 95px;
+}
+
+.btn-browse-stores {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #e85151;
+    margin-bottom: 50px;
+    top: -30px;
+    padding-top: 14px;
+    position: relative;
+    margin-left: -13px;
+    transition: 0.6s;
+}
+
+.div-find-more-stores:hover {
+    box-shadow: 0 0 60px rgba(17, 39, 59, 0.1);
+
+}
+
+.arrow {
+    position: relative;
+    display: inline-block;
+    margin: 1px 0 0 134px;
+    padding: 12px;
+    box-shadow: 4px -4px 0 0 tomato inset;
+}
+
+.arrow--right {
+    transform: rotate(225deg);
+    right: 25px;
+}
+
+.p-store-margin {
+    margin-top: 100px;
+}
+
+/*What our coustomr thing about*/
+
+.div-Stores-header {
+    margin-top: 108px;
+}
+
+.div-stores-margin {
+    margin-bottom: 110px;
+}
+
+.div-fluid {
+    background-color: #11273b;
+    /*     margin-top: -314px; */
+    padding-bottom: 80px;
+}
+
+.ship-left-border {
+    border-left: 1px solid #507dbc;
+    padding: 0px;
+}
+
+.p-h-margin-customer {
+    margin-top: 60px;
+}
+
+.p-wondring {
+    color: #929ca5;
+    margin: 0 0 18px 0;
+}
+
+.div-review {
+    background-color: #ffffff;
+}
+
+.div-inner-review {
+    margin-left: 23px;
+    border: 1px solid rgba(146, 156, 165, 0.06);
+}
+
+.rating-xs {
+    font-size: 10px !important;
+}
+
+.rating-stars {
+    margin-left: 11px !important;
+    margin-top: -17px !important;
+}
+
+/*.div-inner-review:hover{*/
+/*box-shadow: 0 0 60px rgba(17, 39, 59, 0.1);*/
+/*border: 1px solid rgba(146, 156, 165, 0.06);*/
+/*background-color: #ffffff;*/
+/*}*/
+.p-name {
+    color: #11273b;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 7px;
+}
+
+.img-stars {
+    padding-left: 12px;
+}
+
+.div-img-row {
+    margin: 15px 0 15px 6px;
+}
+
+.img-review {
+    float: left;
+    width: 51px;
+    height: 51px;
+    box-shadow: 0 5px 20px rgba(17, 39, 59, 0.2);
+}
+
+.img-google-logo {
+    width: 148px;
+    height: 50px;
+    margin-left: -12px;
+    margin-top: 38px;
+}
+
+.img-facebook-logo {
+    width: 147px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.img-facebook-r {
+    width: 202px;
+    height: 70px;
+    margin-top: -16px;
+
+}
+
+.quots-t {
+    float: left;
+    margin-left: 20px;
+}
+
+.quots-b {
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.quots-t,
+.quots-b {
+    width: 18px;
+    height: 20px;
+}
+
+#readmore:hover {
+    text-decoration-line: underline;
+}
+
+.p-reviews {
+    color: #677582;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: left;
+    padding: 7px 8px 0 18px;
+}
+
+.p-google-review {
+    margin-top: -10px;
+    margin-left: -12px;
+
+}
+
+.p-facebook-review {
+    /*margin-top: 10px;*/
+    margin-left: 10px;
+}
+
+.p-google-review,
+.p-facebook-review {
+    color: #507dbc;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.row-between-reviews {
+    width: 74px;
+    height: 1px;
+    border: 1px solid rgba(146, 156, 165, 0.3);
+    margin: 20px 0 20px 0;
+}
+
+.read-more-review {
+    color: #e85151;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.p-recent-delivery {
+    color: #929ca5;
+    margin-left: -12px;
+}
+
+.div-card-holder {
+    height: 140px;
+    overflow: hidden;
+    padding-top: 6px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 215px;
+    height: 132px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-margin {
+    margin-left: 15px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-card {
+    float: left;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+    clip-path: circle();
+    margin-left: 20px;
+}
+
+.img-card-status {
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 11px
+}
+
+.div-recent-inner {
+    margin-top: 20px;
+}
+
+.p-destination {
+    color: #11273b;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px 0px 4px 25px
+}
+
+.p-wait-rate {
+    color: #929ca5;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 0px 0px 25px;
+}
+
+/*What our coustomr thing about*/
+/*Delivering joy to your doorsteps*/
+.p-doorstep-des {
+    color: #929ca5;
+}
+
+.hr-line-payment-method {
+    width: 1135px;
+    height: 2px;
+    background-color: rgba(146, 156, 165, 0.1);
+    margin-top: -25px
+}
+
+.btn-login-doorstep {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #e85151;
+    margin: 45px 0 90px 0;
+    padding-top: 15px;
+    transition: 0.6s;
+}
+.btn-login-doorstep:hover {
+    background-color: #C83B3B;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.div-border {
+    border-right: 2px solid #fe9611;
+}
+
+.p-payment-method {
+    color: #677582;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.img-payment-methods{
+    width: 100%;
+    height: 63px;
+    float: left;
+}
+
+.img-card-transfer {
+    width: 36px;
+    height: 36px;
+    float: left;
+    margin-left: 13px;
+}
+
+.img-paytm {
+    height: 36px;
+    width: 135px;
+    float: left;
+}
+
+.img-paytm-margin {
+    margin-left: -33px;
+}
+
+.p-payment-text {
+    color: #11273b;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.div-got-top {
+    height: 3px;
+}
+
+.img-goto-top {
+    height: 83px;
+    width: 62px;
+    margin-top: -42px;
+}
+
+/*Delivering joy to your doorsteps*/
+/*footer*/
+.row-footer {
+
+    background-color: #11273b;
+}
+
+.footer-container {
+    margin-top: 70px;
+}
+
+.footer-ul {
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-menu {
+    margin-top: 10px;
+    padding: 0
+}
+
+.footer-a {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #929ca5;
+
+}
+
+.footer-rights {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 10px;
+    color: #929ca5;
+}
+
+.footer-a:hover {
+    color: #ffffff;
+}
+
+.img-connect {
+    width: 30px;
+    height: 30px;
+}
+
+.row-divider {
+    margin-top: 70px;
+    height: 0;
+    border: 1px solid #173149;
+}
+
+.div-btn {
+    width: 261px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #173149;
+    margin-bottom: 20px;
+}
+
+.div-btn:hover {
+    background-color: #e85151;
+    color: #fdf699;
+}
+
+.p-name-font-weight {
+    color: #11273b;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 7px;
+    margin-left: 21px;
+}
+
+.rating-padding-left {
+    padding-top: 8px;
+    float: right;
+}
+
+.btn-review-submit {
+    border: 1px solid #e85151;
+    width: 306px;
+    background-color: #e85151;
+    height: 50px;
+    border-radius: 50px;
+    margin-bottom: 53px;
+    color: #ffffff;
+}
+.btn-review-submit:hover{
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+}
+.div-review-hr{
+    display: none;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 2px;
+    background-color: rgba(146, 156, 165, 0.1)
+}
+
+.Avatar {
+    align-items: center;
+    background: center/cover #d5dce0;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.2);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    vertical-align: top;
+}
+.Avatar--color0 {
+    background-color: #aa62e3;
+    color: #fff;
+    font-size: 9px;
+}
+
+.btn-more-review {
+    border: 1px solid #507dbc;
+    width: 191px;
+    height: 37px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    color: #507dbc;
+    padding-top: 8px;
+    margin-top: 4%;
+}
+
+.padder-top-review {
+    padding-top: 3%;
+}
+
+
+.btn-signup-review {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #e85151;
+    margin: 45px 0 91px 0;
+    padding-top: 10px;
+}
+
+.btn-signup-review:hover {
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+}
+
+.rating-star-left-margin {
+    margin-left: -13px;
+}
+
+.top-padder {
+    margin-top: 2%;
+}
+
+.inner-review {
+    border: 1px solid rgba(146, 156, 165, 0.06);
+    background-color: #ffffff;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    max-height: 342px;
+    min-height: 342px;
+    margin-top: 27px
+}
+
+.row-padding {
+    padding-top: 2%;
+}
+
+.div-submit-review {
+    box-shadow: 0 10px 50px rgba(17, 39, 59, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin: -170px 0 10px 0;
+    padding-top: 4%;
+    margin-bottom: 4%;
+}
+
+.margin-bottom-div {
+    margin-bottom: 3%;
+}
+
+.img-footer {
+    margin-top: 0px;
+    width: 35px;
+    height: 35px;
+}
+.img-footer1 {
+    margin-top: 14px;
+    width: 35px;
+    height: 35px;
+}
+.img-footer2 {
+    margin-top: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+.p-btn-name {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.p-best-price1 {
+    color: #929ca5;
+}
+
+.p-best-price {
+    color: #fdf699;
+}
+
+.p-best-price1,
+.p-best-price {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.img-footer-logo {
+    margin: 56px 0 26px 0;
+    width: 221px;
+    height: 64px;
+}
+
+#number {
+    display: block;
+}
+
+#callnow {
+    display: none;
+}
+
+.div-footer-btn {
+    margin-top: 14px;
+}
+
+.footer-social-media {
+    /*margin-top:30px;*/
+}
+
+.footer-social-media-font1 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: Montserrat;
+    color: #929ca5;
+}
+
+.footer-social-media-font {
+    font-size: 12px;
+    letter-spacing: 1.8px;
+}
+
+/*footer*/
+
+
+/*Offer page starting*/
+
+/*Offer page Ending*/
+
+
+/*Media queries*/
+/* Extra small devices (phones, 600px and down) */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1024px) {
+    .div-shop-ship,
+    .div-courier {
+        width: 217px;
+        height: 300px;
+        border-radius: 30px;
+        padding-top: 45px;
+        /* margin-left: 22px; */
+    }
+
+    .btn-shop-ship, .btn-courier {
+        margin-left: 18px;
+    }
+    .btn-our-courier,
+    .btn-courier {
+        margin-top: 25px;
+    }
+
+    .div-backgroud-img {
+        margin: 423px 0px 0 6px;
+    }
+
+    .img-priyamani {
+        margin: -176px 0px -13px -184px;
+        height: 455px;
+    }
+
+    .online-text {
+        height: 24px;
+        font-size: 24px;
+    }
+
+    .btn-our-courier {
+        /*margin-top: 71px;*/
+    }
+
+    .div-store-padding {
+        padding-left: 40px;
+    }
+
+    #store-hide,
+    #hidestore {
+        display: none;
+    }
+
+    .img-stars {
+        padding-left: 61px;
+        margin-top: -17px;
+    }
+
+    .p-name {
+        font-size: 8px;
+        margin-top: 17px;
+    }
+
+    .p-reviews {
+        font-size: 10px;
+    }
+
+    .quots-t, .quots-b {
+        width: 13px;
+        height: 20px;
+    }
+    .div-border {
+        border-right: 2px solid #fe9611;
+    }
+    .img-card-transfer {
+        margin-left: 5px;
+    }
+
+    .hr-line-payment-method {
+        width: 947px;
+
+    }
+
+    .p-payment-text {
+        font-size: 16px;
+        margin-left: 4px;
+    }
+
+    .p-line-height {
+        margin-left: 4px;
+    }
+
+    .div-btn {
+        width: 229px
+    }
+    /*reviews page starting*/
+    .btn-signup-review {
+        padding-top: 14px;
+    }
+    /*reviews page ending*/
+}
+
+@media only screen and (max-width: 800px) {
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding: 3px 3px;
+    }
+    .logo {
+        margin-left: -22px;
+    }
+    .navbar-container ul li a {
+        font-size: 14px;
+    }
+    .btn-register {
+        margin-top: -1px;
+    }
+    .div-backgroud-img{
+        display:none;
+    }
+
+    .header1 {
+        font-size: 45px;
+    }
+    .header2 {
+        font-size: 26px;
+        font-weight: 400;
+    }
+    .header3 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .div-priyamani-mobile-img {
+        background-image: url(../../img/images/priyamani-shoppre-brand-ambassador.png);
+        height: 405px;
+        width: 229px;
+        background-repeat: no-repeat;
+        float: right;
+        margin-top: -457px;
+        overflow: hidden;
+        display: block;
+    }
+    .div-demo-row {
+        margin-top: 47px;
+        padding-left: 21px;
+        padding-bottom: 19px;
+    }
+    #img-cal{
+        margin-left: -101px;
+    }
+    #p-numer{
+        margin-left: -73px;
+    }
+    .online-text {
+        font-size: 27px;
+    }
+    .online-text-words {
+        font-size: 17px;
+    }
+    .ship-left-border {
+        border-left:none;
+    }
+    #store-hide{
+        display: block;
+    }
+    .p-name {
+        font-size: 15px;
+        margin-top: 9px;
+    }
+    .img-stars {
+        padding-left: 21px;
+        margin-top: -9px;
+    }
+    .quots-t, .quots-b {
+        width: 19px;
+        height: 20px;
+    }
+    .p-reviews {
+        font-size: 20px;
+    }
+    .div-border{
+        border: none;
+    }
+    .img-paytm{
+        margin-top: 20px;
+    }
+
+    .div-stores-img {
+        height: 100%;
+    }
+    /*.no-padding{*/
+        /*margin-left: 18%;*/
+    /*}*/
+}
+@media only screen and (max-width: 768px) {
+
+    .header1 {
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+    }
+
+    .header2 {
+        font-size: 20px;
+    }
+
+    .navbar-brand img {
+        width: 99px;
+        height: 52px;
+    }
+
+    /*.nav > li > a {*/
+        /*padding: 17px 5px;*/
+    /*}*/
+    .nav > li > a {
+        padding: 6px 5px;
+    }
+
+    .navbar-container ul li a {
+        font-size: 12px;
+    }
+
+    .navbar-container ul li.btn-register a {
+        font-size: 12px;
+    }
+
+    #img-cal {
+        margin-left: -125px;
+    }
+
+    #p-numer {
+        margin-left: -86px;
+    }
+
+    .div-backgroud-img {
+        display: none;
+    }
+
+    .div-priyamani-mobile-img {
+        width: 260px;
+        display: block;
+    }
+
+    .img-benifits {
+        margin-top: 15px;
+    }
+
+    .btn-our-courier {
+        /*margin-top: 29px;*/
+    }
+
+    #hidestore {
+        display: none;
+    }
+    #btn-courier{
+        margin-top: 48px;
+    }
+    .btn-our-shop-ship, .btn-our-courier {
+        margin-bottom: 60px;
+    }
+
+    .div-store-padding {
+        padding-left: 40px;
+    }
+
+    .div-benifits-margin {
+        margin: 40px 0 45px 0;
+    }
+
+    .p-name {
+        font-size: 14px;
+    }
+
+    .img-stars {
+        padding-left: 16px;
+        margin-top: -8px;
+    }
+
+    .quots-t, .quots-b {
+        width: 17px;
+    }
+
+    .p-reviews {
+        font-size: 11px;
+    }
+
+    .div-main-row {
+        margin-top: 20px;
+    }
+    .ship-left-border {
+        border-left: 0px;
+    }
+
+    #hrline {
+        display: block;
+        width: 500px;
+        margin-left: 100px;
+    }
+    .btn-login-doorstep {
+        margin: 45px 0 94px 0;
+    }
+    .hr-line-payment-method {
+        width: 500px;
+        margin-left: 100px;
+        height: 2px;
+    }
+
+    .p-payment-text {
+        margin-left: -15px;
+
+    }
+    .div-border {
+        border-right: none;
+    }
+    .img-paypal-margin {
+        margin-top: 21px;
+        margin-left: 39px;
+    }
+
+    .img-card-transfer {
+        margin-left: 65px;
+    }
+
+    .p-payment-text {
+        margin-left: 50px;
+    }
+
+    .img-paytm-margin {
+        margin-left: 35px;
+        margin-top: 22px;
+    }
+
+    .footer-container {
+        margin-top: 50px;
+    }
+
+    .div-footer-margin {
+        margin-top: 40px;
+    }
+
+    .row-divider {
+        margin-top: 50px;
+    }
+    /*reviews page starting*/
+    .section-social-reviews{
+        margin-bottom: 70px;
+    }
+    .btn-signup-review {
+        padding-top: 13px;
+    }
+    /*reviews page Ending*/
+
+}
+
+@media only screen and (max-width: 736px) {
+    .nav-a {
+
+    }
+
+    .div-backgroud-img {
+        display: none;
+    }
+
+    .div-priyamani-mobile-img {
+        width: 234px;
+        display: block;
+    }
+
+    .div-demo-row {
+        margin-top: 56px;
+    }
+
+    .img-demo {
+        margin-left: 12px;
+    }
+
+    #img-cal {
+        margin-left: -95px;
+    }
+
+    .div-stores-img {
+        width: 216px;
+        height: 180px;
+    }
+
+    .btn-browse-stores {
+        margin-left: 5px;
+    }
+
+    #hrline {
+        display: block;
+        width: 500px;
+        margin-left: 100px;
+    }
+
+    .hr-line-payment-method {
+        width: 500px;
+        margin-left: 100px;
+        height: 2px;
+    }
+
+    .btn-login-doorstep {
+        margin: 45px 0 98px 0;
+    }
+
+    .img-card-transfer {
+        margin-left: 8px;
+    }
+
+    .padder-bottom {
+        margin-bottom: 21px;
+        margin-left: 17%;
+    }
+
+    .p-payment-text {
+        margin-left: 1px;
+    }
+
+    .img-paytm-margin {
+        margin-left: -26px;
+    }
+
+    .img-paypal-margin {
+        margin-left: -21px;
+    }
+    #store-hide{
+        display: none;
+    }
+       /*review page starting*/
+
+    .reviews-page-review-google{
+        margin-left: -195px;
+        padding-bottom: 60px;
+    }
+    .div-review-hr{
+        display: block;
+    }
+    .reviews-page-review-shoppre,
+    .reviews-page-review-fb{
+        margin: 60px 0px 60px -228px;
+    }
+
+       /*review page ending*/
+
+}
+
+
+@media only screen and(max-width: 734px) {
+    #hrline {
+        display: block;
+        width: 500px;
+        margin-left: 81px;
+    }
+    #store-hide{
+        display: none;
+    }
+}
+@media only screen and (max-width: 684px) {
+
+    .header1 {
+        font-size: 25px;
+    }
+
+    .header2 {
+        font-size: 18px;
+    }
+
+    .header3 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .div-shop-ship, .div-courier {
+        width: 198px;
+        height: 276px;
+    }
+
+    .btn-shop-ship, .btn-courier {
+        margin-left: 12px;
+        width: 166px;
+        height: 42px;
+    }
+
+    .div-backgroud-img {
+        display: none;
+    }
+
+    .div-priyamani-mobile-img {
+        width: 224px;
+        margin-top: -355px;
+    }
+
+    .div-stores-img {
+        width: 196px;
+        height: 154px;
+    }
+
+    .div-btn {
+        width: 261px;
+    }
+
+    .img-footer {
+        margin-top: 3px;
+    }
+
+    #hrline {
+        display: block;
+        width: 500px;
+        margin-left: 70px
+    }
+
+    .hr-line-payment-method {
+        width: 500px;
+        margin-left: 65px;
+        height: 2px;
+    }
+
+    .p-payment-text {
+        margin-left: 0px;
+    }
+    #store-hide{
+        display: none;
+    }
+    .reviews-page-review-google {
+        margin-left: -159px;
+    }
+    .reviews-page-review-shoppre, .reviews-page-review-fb {
+        margin: 60px 0px 60px -180px;
+    }
+
+}
+
+@media only screen and (max-width: 667px) {
+    .header1 {
+        font-size: 25px;
+    }
+
+    .header2 {
+        font-size: 18px;
+    }
+
+    .header3 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .div-shop-ship, .div-courier {
+        width: 182px;
+        height: 262px;
+        padding-top: 35px;
+    }
+
+    .btn-shop-ship, .btn-courier {
+        margin-left: 12px;
+        width: 156px;
+        height: 41px;
+        margin: 5px 30px 0px 13px;
+        padding-top: 10px;
+    }
+
+    #btn-courier {
+        margin-top: 29px;
+    }
+
+    .div-backgroud-img {
+        display: none;
+    }
+
+    .div-priyamani-mobile-img {
+        width: 224px;
+        margin-top: -355px;
+    }
+
+    #hrline {
+        margin-left: 60px;
+    }
+
+    .p-payment-text {
+        margin-left: -1px;
+    }
+    /*review page starting*/
+
+    .reviews-page-review-google {
+        margin-left: -160px;
+    }
+    .reviews-page-review-shoppre,
+    .reviews-page-review-fb {
+        margin: 60px 0px 60px -186px;
+    }
+
+    /*review page Ending*/
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .logo {
+        width: 83px;
+        height: 24px;
+    }
+    .navbar-toggle {
+        margin-right: 0;
+    }
+    .mobile-review-section {
+
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 6px;
+    }
+
+    .login-link {
+        margin-left: 0px;
+    }
+    .navbar-toggle {
+        margin-top: 15px;
+    }
+
+    #mobile-img {
+        display: block;
+    }
+
+    .img-menu {
+        display: none;
+    }
+
+    .header1 {
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 1.8px;
+    }
+
+    .header2 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    /*.header3 {*/
+        /*font-size: 14px;*/
+        /*font-weight: 400;*/
+    /*}*/
+
+    .header4 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .header5 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .header6 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .header7 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .container-padding-submit-review {
+        padding-right: 4% !important;
+        padding-left: 4% !important;
+    }
+
+    .header8 {
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .div-main-row {
+        margin-top: 37px;
+        margin-left: -20px;
+
+    }
+
+    .header-text-margin {
+        margin-bottom: 60px;
+    }
+
+    .div-priyamani-mobile-img {
+        background-image: url(../../img/images/priyamani-shoppre-brand-ambassador.png);
+        height: 345px;
+        width: 253px;
+        background-repeat: no-repeat;
+        float: right;
+        margin-top: -357px;
+        overflow: hidden;
+    }
+    #img-cal1{
+        margin-left: -107px;
+    }
+    .call-now-text{
+        margin-left: -110px;
+    }
+
+
+    .div-shop-ship,
+    .div-courier {
+        width: 140px;
+        height: 180px;
+        border-radius: 20px;
+        margin-left: 13px;
+    }
+    #btn-courier {
+        margin-top: 2px;
+    }
+
+    #number {
+        display: none;
+    }
+
+    #callnow {
+        display: block;
+    }
+
+    .p-ship-shop-courier {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+        margin-top: -11px;
+        line-height: 15px;
+    }
+
+    .btn-shop-ship {
+        width: 141px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 0px;
+        font-size: 10px;
+        font-weight: 600;
+        margin-left: 0px;
+    }
+
+    .btn-shop-ship, .btn-courier {
+        opacity: 1
+    }
+
+    .btn-courier {
+        width: 141px;
+        height: 38px;
+        border-radius: 20px;
+        margin-top: 2px;
+        font-size: 10px;
+        font-weight: 600;
+
+        margin-left: 0px;
+    }
+    .p-line-height {
+        /*line-height: 26px;*/
+        margin-left: 0px;
+    }
+    .img-demo,
+    .img-support {
+        float: left;
+        width: 20px;
+        height: 21px;
+        margin-top: -2px;
+        margin-left: 0px;
+    }
+
+    .p-demo-text {
+        font-size: 12px;
+        font-weight: 900;
+    }
+
+    .p-support-text {
+        font-size: 9px;
+        margin-bottom: 0px;
+    }
+
+    .div-demo-row {
+        margin-top: 44px;
+        padding-left: 35px;
+
+    }
+    .img-facebook-r {
+        margin-bottom: 15px;
+    }
+
+    .img-text {
+        font-size: 10px;
+    }
+
+    .div-backgroud-img {
+        display: none;
+        /*margin: 0px 0px 0px 0px;*/
+    }
+
+    /*.img-benifits {*/
+        /*width: 40px;*/
+        /*height: 29px;*/
+    /*}*/
+
+    /*.div-benifits {*/
+        /*!*border-radius:0px;*!*/
+        /*border: none;*/
+        /*!*margin-top: 102px;*!*/
+        /*!*margin-bottom: 62px;*!*/
+    /*}*/
+
+    /*.div-benifits-margin {*/
+        /*margin: 30px 0 20px 0;*/
+    /*}*/
+
+    /*.online-text {*/
+        /*font-size: 16px;*/
+    /*}*/
+
+    /*.p-save-upto {*/
+        /*font-size: 10px;*/
+    /*}*/
+
+    /*.online-text-words {*/
+        /*font-size: 10px;*/
+        /*margin-top: -16px;*/
+
+    /*}*/
+
+    .div-cal-white-background {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .domestic-img-text,
+    .p-int-text {
+        font-size: 12px;
+        font-weight: 600;
+        text-align: justify-all;
+        margin-left: 0px;
+    }
+
+    .div-cal-white-background {
+        margin-top: 5px;
+    }
+
+    .div-cal-margin-top {
+        margin-top: 27px;
+    }
+
+    .lable-from {
+        margin-top: 10px;
+    }
+
+    #destination {
+        padding-left: 15px;
+    }
+
+    .div-border-dom {
+        margin-bottom: 20px
+    }
+
+    #hrline {
+        display: block;
+        border: 1px solid rgba(146, 156, 165, 0.3);
+        width: 200px;
+        margin-left: 178px;
+    }
+    #store-hide{
+      display: block;
+    }
+    .div-store-padding {
+        padding-left: 70px;
+    }
+    .div-cal-country {
+        margin: 20px 0 93px 0;
+    }
+
+    .select-from,
+    .select-destination[type="text"] {
+        width: 240px;
+        height: 40px;
+    }
+
+    .btn-estimate {
+        color: #ffffff;
+        font-size: 10px;
+        font-weight: 700;
+        width: 240px;
+        height: 40px;
+        border-radius: 60px;
+        background-color: #e85151;
+        margin-top: 30px;
+    }
+
+    .div-cal-white-background {
+        width: 290px;
+        height: 405px;
+        border-radius: 20px 20px 0 0;
+        background-color: #ffffff;
+    }
+
+    .div-cal-margin-top {
+        margin-top: 28px;
+    }
+
+    .div-offer {
+        width: 290px;
+        height: 60px;
+        background-color: #fdf699;
+        margin-left: -5px;
+        border-radius: 0 0 0 0px;
+    }
+
+    .div-border-int,
+    .div-border-int {
+        margin-bottom: 27px
+    }
+
+    .img-offer {
+        width: 30px;
+        height: 30px;
+    }
+
+    .running-text {
+        font-size: 10px;
+    }
+
+    .offer-text {
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .offer-margin {
+        margin: 10px 0 10px 0;
+    }
+
+    .div-carosal {
+        width: 290px;
+        height: 125px;
+        border-radius: 0 0 20px 20px;
+        background-image: linear-gradient(247deg, #ff7e5e 0%, #ff8191 100%);
+        margin-left: -5px;
+    }
+
+    .p-slider {
+        letter-spacing: 0px;
+        margin-left: 0px;
+    }
+
+    .img-shop-ship {
+        width: 101px;
+        height: 100px;
+        margin: 52px 0 22px 0;
+    }
+
+    .p-line-height {
+        line-height: 18px;
+    }
+
+    .btn-our-shop-ship,
+    .btn-our-courier {
+        width: 240px;
+        height: 40px;
+        padding-top: 8px;
+        margin-bottom: 61px;
+    }
+
+    .div-Stores-header {
+        margin-top: 49px
+    }
+
+    .div-stores-margin {
+        margin-bottom: 68px;
+    }
+
+    .div-stores {
+        width: 320px;
+        height: 480px;
+        overflow: hidden;
+    }
+
+    .stores-padding {
+        padding-left: 50px;
+    }
+
+    /*#store-hide{*/
+    /*display: none;*/
+    /*}*/
+    .div-stores-img {
+        width: 81px;
+        height: 72px;
+        border: 1px solid #f1f1f1;
+        background-color: #ffffff;
+    }
+
+    .btn-browse-stores {
+        width: 200px;
+        height: 40px;
+        border-radius: 30px;
+        background-color: #e85151;
+        margin-bottom: 40px;
+        top: -21px;
+        padding-top: 10px;
+        position: relative;
+        margin-left: -8px !important;
+    }
+
+    #reviews {
+        display: none;
+    }
+
+    #stars {
+        display: block;
+    }
+
+    .div-fluid {
+        padding-bottom: 31px;
+    }
+
+    /*#stars-rate{*/
+    /*display: none;*/
+    /*}*/
+    #hrline1 {
+        display: none;
+    }
+
+    .img-facebook-logo {
+        margin-top: 56px;
+        padding-left: 11px;
+    }
+
+    .div-find-more-stores {
+        width: 203px;
+        height: 140px;
+        box-shadow: 0 0 60px rgba(17, 39, 59, 0.1);
+        border-radius: 10px;
+        border: 1px solid rgba(146, 156, 165, 0.2);
+        background-color: #ffffff;
+        position: relative;
+        margin-top: 78px;
+        margin-right: 73px;
+    }
+
+    .p-store-margin {
+        margin-top: 20px;
+    }
+
+    .ship-left-border {
+        border-left: 0px;
+    }
+
+    .img-stores {
+        width: 58px;
+        height: 51px;
+    }
+
+    .quots-t,
+    .quots-b {
+        width: 13px;
+        height: 15px;
+    }
+
+    .p-reviews {
+        font-size: 10px;
+    }
+
+    #reviews-img {
+        margin-left: -4px;
+    }
+
+    /*.div-card-holder{*/
+    /*margin-bottom: 69px;*/
+    /*margin-left: -15px;*/
+    /*}*/
+    .hr-line-payment-method {
+        width: 307px;
+        margin-left: 130px;
+    }
+
+    .p-payment-method {
+        font-size: 18px;
+        margin-bottom: 23px;
+    }
+    #p-wire-transfer{
+        margin-left: -64px;
+    }
+    .img-paypal-margin {
+        margin-left: -9px;
+    }
+
+    #margin-bottom-paypal {
+        margin-bottom: 42px;
+    }
+
+    .btn-login-doorstep {
+        width: 240px;
+        height: 40px;
+        margin: 18px 0 100px 0;
+        padding-top: 10px;
+    }
+
+    .div-border {
+        border-right: none;
+    }
+
+    .div-p {
+        margin: 0 0 45px 0px;;
+    }
+
+    .img-card-transfer {
+        margin-left: -15px;
+    }
+
+    .img-paytm {
+        height: 22px;
+        width: 94px;
+        float: left;
+    }
+
+    .img-paytm-margin {
+        margin-left: 0;
+    }
+
+    .p-payment-text {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .img-paypal {
+        margin-top: 31px;
+    }
+
+    .padder-bottom {
+        margin-bottom: 42px;
+    }
+
+    .footer-a {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 12px;
+    }
+
+    .footer-container {
+        margin: 57px 0 57px 0;
+    }
+
+    .div-btn {
+        margin-top: 14px;
+    }
+
+    .row-divider {
+        /*margin-top:-15px;*/
+    }
+
+    .img-footer-logo {
+        width: 172px;
+        height: 50px;
+        margin: 56px 0 17px 0;
+    }
+
+    .footer-rights {
+        font-size: 10px;
+    }
+
+    .img-process {
+        margin-top: 0px;
+    }
+
+    .btn-request {
+        width: 200px;
+        height: 40px;
+
+    }
+
+    .p-seller {
+        margin: 0 0 0 24px;
+    }
+
+    .ul-margin {
+        margin-left: 20px;
+    }
+
+    .btn-ifs-estimate {
+        color: #ffffff;
+        font-size: 10px;
+        font-weight: 700;
+        width: 240px;
+        height: 40px;
+        border-radius: 60px;
+        background-color: #e85151;
+        margin-top: 30px;
+    }
+    .div-btn {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .logo {
+        width: 83px;
+        height: 24px;
+        margin-left: -16px;
+        marggin-top:0px;
+    }
+
+    .nav-a {
+        font-size: 13px
+    }
+    .list-inline>li {
+        padding-left: 8px;
+    }
+    .navbar-nav > li > a {
+        padding-top: 15px;
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+
+    .navbar-container ul li a {
+        font-size: 14px;
+    }
+    .navbar-toggle {
+        margin-top: 15px;
+    }
+
+    .btn-register {
+        width: 75px;
+        height: 24px;
+        border-radius: 30px;
+        background-color: #e85151;
+        padding-left: 9px;
+        padding-top: 2px;
+    }
+
+    .navbar-container ul li.btn-register a {
+
+        padding: 0px 0px;
+        font-size: 13px;
+    }
+
+    .left-ul, .register-ul {
+        margin-top: 7px;
+    }
+
+    .register-ul li {
+        display: inline-block;
+    }
+
+    .navbar-toggle {
+        margin-top: 15px
+    }
+
+    .p-ship-shop-courier {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+        margin-top: -10px;
+        line-height: 15px;
+    }
+
+    .btn-shop-ship {
+        width: 141px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 0px;
+        font-size: 10px;
+        font-weight: 600;
+        margin-left: 0px;
+    }
+
+    .btn-shop-ship, .btn-courier {
+        opacity: 1
+    }
+
+    #btn-courier {
+        margin-top: 2px;
+    }
+
+    .btn-courier {
+        width: 141px;
+        height: 38px;
+        border-radius: 20px;
+        margin-top: 2px;
+        font-size: 10px;
+        font-weight: 600;
+        margin-left: 0px;
+    }
+
+    #hrline {
+        margin-left: 85px;
+        width: 200px;
+    }
+
+    #reviews {
+        display: none;
+    }
+
+    #stars {
+        display: block;
+    }
+
+    .div-fluid {
+        padding-bottom: 31px;
+    }
+
+    /*#stars-rate{*/
+    /*display: none;*/
+    /*}*/
+    #hrline1 {
+        display: none;
+    }
+
+    .img-facebook-logo {
+        margin-top: 56px;
+        padding-left: 11px;
+    }
+
+    .div-find-more-stores {
+        width: 203px;
+        height: 140px;
+        box-shadow: 0 0 60px rgba(17, 39, 59, 0.1);
+        border-radius: 10px;
+        border: 1px solid rgba(146, 156, 165, 0.2);
+        background-color: #ffffff;
+        position: relative;
+        margin-top: 78px;
+        margin-right: 73px;
+    }
+
+    .img-paytm {
+        height: 22px;
+        width: 94px;
+        float: left;
+    }
+
+    .img-paytm-margin {
+        margin-left: 0;
+    }
+
+    .p-payment-text {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .img-paypal {
+        margin-top: 31px;
+    }
+
+    .padder-bottom {
+        margin-bottom: 42px;
+    }
+
+    .img-card-transfer {
+        margin-left: -19px;
+    }
+    .div-btn {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .navbar-toggle .icon-bar+.icon-bar {
+        margin-top: 2px;
+    }
+    .navbar-toggle {
+        margin-top: 15px;
+    }
+    .list-inline>li {
+        padding-left: 9px;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #fe9625;
+        height: 1px;
+        padding-top: 2px;
+    }
+    .navbar-toggle .icon-bar:nth-child(2) {
+        transform: rotate(-45deg) translateY(0px) translateX(1px);
+    }
+    .div-backgroud-img {
+        display: none;
+    }
+
+    .header1 {
+        font-size: 26px;
+    }
+
+    .header2 {
+        font-size: 17px;
+    }
+    .header-text-margin{
+        margin-left: 2px;
+    }
+    .div-shop-ship{
+        margin-left: -4px;
+    }
+    .div-shop-ship,
+    .div-courier {
+        width: 140px;
+        height: 180px;
+        border-radius: 20px;
+        margin-left: 13px;
+    }
+
+    .navbar-toggle {
+        margin-right: 0;
+    }
+    .p-line-height {
+        /*line-height: 26px;*/
+        margin-left: 0px;
+    }
+
+    #number {
+        display: none;
+    }
+
+    #callnow {
+        display: block;
+    }
+
+    .p-ship-shop-courier {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+        margin-top: -11px;
+        line-height: 15px;
+    }
+
+    .btn-shop-ship {
+        width: 141px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 1px;
+        font-size: 10px;
+        font-weight: 600;
+        margin-left: 0px;
+    }
+
+    .btn-shop-ship, .btn-courier {
+        opacity: 1
+    }
+
+    .btn-courier {
+        width: 141px;
+        height: 38px;
+        border-radius: 20px;
+        margin-top: 2px;
+        font-size: 10px;
+        font-weight: 600;
+        margin-left: 0px;
+    }
+
+    .img-demo,
+    .img-support {
+        float: left;
+        width: 20px;
+        height: 21px;
+        margin-top: -2px;
+        margin-left: 20px;
+    }
+
+    .p-demo-text {
+        font-size: 12px;
+        font-weight: 900;
+    }
+
+    .p-support-text {
+        font-size: 9px;
+        margin-bottom: 0px;
+    }
+
+    .div-demo-row {
+        margin-top: 44px;
+        padding-left: 15px;
+
+    }
+
+    .img-text {
+        font-size: 10px;
+    }
+
+    .div-backgroud-img {
+        display: none;
+    }
+
+    .div-main-row {
+        margin-left: -4px;
+    }
+
+    #img-cal1 {
+        margin-left: -17px;
+    }
+
+    .call-now-text {
+        font-size: 12px;
+        font-weight: 900;
+        padding-left: 20px;
+        margin-left: -24px;
+    }
+
+    .div-priyamani-mobile-img {
+        width: 148px;
+        margin-top: -377px;
+    }
+    .img-benifits {
+        width: 55px;
+        height: 55px;
+    }
+    .online-text {
+        height: 17px;
+        font-size: 18px;
+    }
+
+    #hrline {
+        margin-left: 90px;
+        width: 200px;
+    }
+
+    .div-Stores-header {
+        margin-top: 49px
+    }
+
+    .div-stores-margin {
+        margin-bottom: 68px;
+    }
+
+    .div-stores {
+        width: 320px;
+        height: 480px;
+        overflow: hidden;
+    }
+
+    .stores-padding {
+        padding-left: 50px;
+    }
+
+    #store-hide{
+     display: block;
+    }
+    .div-stores-img {
+        width: 100px;
+        height: 80px;
+        border: 1px solid #f1f1f1;
+        background-color: #ffffff;
+    }
+
+    .btn-browse-stores {
+        width: 200px;
+        height: 40px;
+        border-radius: 30px;
+        background-color: #e85151;
+        margin-bottom: 40px;
+        top: -21px;
+        padding-top: 10px;
+        position: relative;
+        margin-left: -8px;
+    }
+
+    .div-store-padding {
+        padding-left: 49px;
+    }
+
+    .hr-line-payment-method {
+        width: 200px;
+        margin-left: 85px;
+    }
+    .p-name {
+        margin-top: 4px;
+    }
+
+    #reviews {
+        display: none;
+    }
+
+    #stars {
+        display: block;
+    }
+
+    .div-fluid {
+        padding-bottom: 31px;
+    }
+    #reviews-img {
+        margin-left: -6px;
+    }
+    /*#stars-rate{*/
+    /*display: none;*/
+    /*}*/
+    #hrline1 {
+        display: none;
+    }
+
+    .img-facebook-logo {
+        margin-top: 56px;
+        padding-left: 11px;
+    }
+
+    .div-find-more-stores {
+        width: 203px;
+        height: 140px;
+        box-shadow: 0 0 60px rgba(17, 39, 59, 0.1);
+        border-radius: 10px;
+        border: 1px solid rgba(146, 156, 165, 0.2);
+        background-color: #ffffff;
+        position: relative;
+        margin-top: 78px;
+        margin-right: 73px;
+    }
+
+    .img-paytm {
+        height: 22px;
+        width: 94px;
+        float: left;
+    }
+
+    .img-paytm-margin {
+        margin-left: -72px;
+    }
+
+    .p-payment-text {
+        font-size: 12px;
+        text-align: center;
+        margin-left: -51px;
+    }
+
+    .img-paypal {
+        margin-top: 31px;
+    }
+
+    .padder-bottom {
+        margin-bottom: 42px;
+    }
+
+    .img-card-transfer {
+        margin-left: -41px;
+    }
+    #p-wire-transfer{
+        margin-left: -12px  ;
+    }
+
+    #img-card-margin{
+        margin-left: -2px;
+    }
+    .img-paypal-margin {
+         margin-left: -43px;
+    }
+    .img-goto-top {
+        height: 46px;
+        width: 38px;
+        margin-top: -20px;
+    }
+    .div-btn {
+        width: 100%;
+    }
+
+    /*reviews page starting*/
+
+    .rating-padding-left {
+        padding-top: 0px;
+        margin-top: -42px;
+    }
+    .reviews-page-review-google {
+        margin-left: -50px;
+    }
+    .reviews-page-review-shoppre,
+    .reviews-page-review-fb {
+        margin: 60px 0px 60px -80px;
+    }
+    /*reviews page ending*/
+
+}
+
+@media only screen and (max-width: 412px) {
+    .div-backgroud-img {
+        display: none;
+    }
+    .online-text {
+        height: 17px;
+        font-size: 17px;
+    }
+    #hrline {
+        margin-left: 86px;
+    }
+    .p-line-height {
+        /*line-height: 26px;*/
+        margin-left: 0px;
+    }
+    .div-stores-img {
+        width: 98px;
+    }
+    .div-store-padding {
+        padding-left: 50px;
+    }
+    .btn-browse-stores {
+        margin-left: 6px;
+    }
+    .p-payment-text {
+        margin-left: -39px;
+    }
+    #p-wire-transfer {
+        margin-left: -2px;
+    }
+    .div-shop-ship{
+        margin-left: -4px;
+    }
+    .hr-line-payment-method {
+        width: 200px;
+        margin-left: 80px;
+    }
+    .img-paypal-margin {
+        margin-left: -29px;
+    }
+    #store-hide{
+        display: block;
+    }
+    .div-btn {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 384px) {
+    #hrline {
+        margin-left: 67px;
+    }
+    .hr-line-payment-method {
+        width: 200px;
+        margin-left: 67px;
+    }
+    .div-btn {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .list-inline>li {
+        padding-left: 8px;
+    }
+    .header3 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .online-text {
+        height: 17px;
+        font-size: 15px;
+    }
+    .online-text-words {
+        font-size: 12px;
+    }
+    .p-ship-shop-courier {
+        font-size: 12px;
+    }
+
+    .p-ship-shop-courier {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+        margin-top: -23px;
+        line-height: 15px;
+    }
+    .btn-shop-ship {
+        width: 139px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 0px;
+        font-size: 10px;
+        font-weight: 600;
+        margin-left: 0px;
+    }
+    .btn-courier {
+        width: 139px;
+        height: 38px;
+        border-radius: 20px;
+        margin-top: 2px;
+        font-size: 10px;
+        font-weight: 600;
+        margin-left: 0px;
+    }
+    .shop-ship-btn-name{
+        margin-top: 0px
+    }
+    .div-backgroud-img {
+        display: none;
+    }
+    .ship-left-border {
+         border-left: 0px;
+     }
+    .navbar-toggle {
+        margin-top: 15px;
+    }
+    #row-padding-shop{
+        margin-left: -15px;
+    }
+    .div-shop-ship{
+        margin-left: -4px;
+    }
+
+    #hrline {
+        margin-left: 65px;
+    }
+    .div-store-padding {
+        padding-left: 35px;
+    }
+    .p-payment-text {
+        font-size: 11px;
+    }
+    .hr-line-payment-method {
+        width: 200px;
+        margin-left: 62px;
+    }
+    .img-paypal-margin {
+        margin-left: -27px;
+    }
+    .img-goto-top {
+        height: 78px;
+        width: 33px;
+        margin-top: -39px;
+    }
+    .div-btn {
+        width: 100%;
+    }
+    .img-demo, .img-support {
+        margin-left: 6px;
+    }
+    /*reviews page starting*/
+    .reviews-page-review-google {
+        margin-left: -24px;
+    }
+    .reviews-page-review-shoppre, .reviews-page-review-fb {
+        margin: 60px 0px 60px -48px;
+    }
+
+    /*reviews page  Ending*/
+
+    /*aboutUs page starting*/
+
+    /*aboutUs page Ending*/
+
+    /*contact page starting*/
+    .border-bottom {
+        border-bottom: none;
+    }
+    /*contact page ending*/
+}
+
+@media only screen and (max-width: 360px) {
+    .header1 {
+        font-size: 24px;
+    }
+    .header2 {
+        font-size: 16px;
+    }
+    .header3 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .div-priyamani-mobile-img {
+        width: 148px;
+        margin-top: -382px;
+    }
+    #img-cal1 {
+        margin-left: 0px;
+    }
+    .p-demo-text {
+        font-size: 11px;
+    }
+    .call-now-text {
+        font-size: 11px;
+
+    }
+    .p-line-height {
+        /*line-height: 26px;*/
+        margin-left: 0px;
+    }
+    .img-benifits {
+        width: 45px;
+        height: 45px;
+    }
+    .online-text {
+        height: 11px;
+        font-size: 16px;
+    }
+    .div-btn {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 320px) {
+
+    .navbar-container ul li a {
+        font-size: 12px;
+    }
+    .navbar-container ul li.btn-register a {
+        padding: 1px 0px;
+        font-size: 12px;
+    }
+    .navbar-toggle {
+        margin-top: 15px;
+    }
+    .btn-register {
+        width: 60px;
+        height: 24px;
+
+    }
+    .list-inline>li {
+        padding-left: 5px;
+    }
+    .navbar-toggle .icon-bar {
+        width: 17px;
+    }
+    .navbar-toggle .icon-bar {
+        padding-top: 2px;
+    }
+    .navbar-toggle .icon-bar:nth-child(2) {
+        transform: rotate(-41deg) translateY(5px) translateX(1px);
+    }
+    .navbar-toggle .icon-bar:nth-child(4) {
+        transform: rotate(40deg) translateY(-6px) translateX(0px);
+    }
+    .header1 {
+        font-size: 19px;
+    }
+    .header2 {
+        font-size: 15px;
+    }
+    .header3 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .header5 {
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .p-ship-shop-courier {
+        line-height: 13px;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .btn-shop-ship,
+    .btn-courier {
+        width: 100%;
+        height: 33px;
+        margin-top: 3px;
+    }
+    .div-shop-ship,
+    .div-courier {
+        width: 118px;
+        height: 162px;
+    }
+    /*#btn-courier {*/
+        /*margin-top: 15px;*/
+    /*}*/
+    .p-line-height {
+        /*line-height: 26px;*/
+        margin-left: 0px;
+    }
+
+    #img-cal1 {
+        margin-left: 6px;
+    }
+    .p-demo-text {
+        font-size: 10px;
+         margin-left: 1px;
+    }
+    .call-now-text {
+        font-size: 9px;
+    }
+    .img-benifits {
+        width: 58px;
+        height: 70px;
+    }
+    .online-text {
+        height: 17px;
+        font-size: 13px;
+    }
+    .online-text-words {
+        font-size: 10px;
+    }
+    .header3 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .header5 {
+        font-size: 10px;
+        font-weight: 700;
+    }
+    #hrline {
+        margin-left: 36px;
+    }
+    .div-stores-img {
+        width: 113px;
+    }
+    #hidestore,
+    #store-hide{
+        display: block;
+    }
+    .btn-font-size {
+        font-size: 13px;
+    }
+    .btn-browse-stores {
+        width: 143px;
+        height: 34px;
+    }
+    #reviews-img {
+        margin-left: -4px;
+    }
+    .img-card-transfer {
+        width: 26px;
+        height: 27px;
+    }
+    .hr-line-payment-method {
+        width: 200px;
+        margin-left: 35px;
+    }
+    .div-store-padding {
+        padding-left: 40px;
+    }
+    .img-goto-top {
+        height: 70px;
+        width: 40px;
+        margin-top: -34px;
+    }
+    .div-btn {
+        width: 100%;
+    }
+    .btn-login-doorstep {
+        padding-top: 13px;
+    }
+    .img-facebook-r {
+        margin-bottom: 15px;
+    }
+
+    /*contact page starting*/
+    .border-bottom {
+        border: none;
+    }
+    /*contact page ending*/
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/*@media only screen and (min-width: 992px) {*/
+    /*.h1 {*/
+        /*font-size: 27px;*/
+    /*}*/
+/*}*/
+

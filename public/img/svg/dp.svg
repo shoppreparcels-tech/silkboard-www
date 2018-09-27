@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f9f9f9;
+      }
+
+      .cls-2 {
+        fill: #929ca5;
+      }
+    </style>
+  </defs>
+  <g id="dp" transform="translate(-633 -852)">
+    <circle id="circle01" class="cls-1" cx="50" cy="50" r="50" transform="translate(633 852)"/>
+    <g id="Group_568" data-name="Group 568">
+      <path id="Path_1023" data-name="Path 1023" class="cls-2" d="M111.4,16.667c3.789,0,6.861-3.731,6.861-8.333S117.248,0,111.4,0s-6.861,3.731-6.861,8.333S107.607,16.667,111.4,16.667Z" transform="translate(571.564 885)"/>
+      <path id="Path_1024" data-name="Path 1024" class="cls-2" d="M41.9,300.516c0-.281,0-.079,0,0Z" transform="translate(628.105 613.875)"/>
+      <path id="Path_1025" data-name="Path 1025" class="cls-2" d="M308.085,301.741c0-.077,0-.533,0,0Z" transform="translate(387.833 612.869)"/>
+      <path id="Path_1026" data-name="Path 1026" class="cls-2" d="M67.811,189.488c-.127-8.018-1.174-10.3-9.187-11.748a4.8,4.8,0,0,1-3.757,1.437,4.8,4.8,0,0,1-3.757-1.437c-7.925,1.43-9.036,3.681-9.182,11.488-.012.637-.018.671-.02.6,0,.139,0,.4,0,.842,0,0,1.908,3.846,12.958,3.846s12.958-3.846,12.958-3.846c0-.287,0-.487,0-.623A5.157,5.157,0,0,1,67.811,189.488Z" transform="translate(628.093 724.566)"/>
+    </g>
+  </g>
+</svg>
