@@ -1076,7 +1076,8 @@
     </script>
     <script>
         $.ajax({
-            url: "http://ip-api.com/json",
+            url: "https://api.myip.com",
+            crossDomain: true,
             type: 'GET',
             dataType: 'json',
             success: function(res) {
