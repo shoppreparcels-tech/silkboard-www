@@ -23,12 +23,12 @@
                     <div class="pull-right">
                         <ul class="nav navbar-nav list-inline list-unstyled register-ul">
                             <li>
-                                <a class="nav-a" target="_blank" href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login">
+                                <a class="nav-a" target="_blank" href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login?src=menu">
                                     Login
                                 </a>
                             </li>
                             <li class="btn-register btn-hover">
-                                <a class="nav-a" target="_blanks" href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">
+                                <a class="nav-a" target="_blanks" href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu">
                                     Register
                                 </a>
                             </li>

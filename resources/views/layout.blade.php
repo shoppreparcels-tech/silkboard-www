@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="shoppre" ng-controller="IndexController">
 <head>
     <!-- Meta -->
     <meta charset="utf-8">
@@ -36,7 +36,6 @@
     <link rel="stylesheet" href="{{asset('css/star-rating.min.css')}}" >
     <link rel="stylesheet" href="{{asset('css/ics.css')}}" >
     <link rel="stylesheet" href="{{asset('css/ifs.css')}}" >
-    <link rel="stylesheet" href="{{asset('css/about_contact.css')}}" >
     <link rel="stylesheet" href="{{asset('css/offers.css')}}" >
 
     @yield('css_style')
@@ -68,22 +67,26 @@
 @yield('schema_markup')
 
 <!-- One Signal -->
-
-{{--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>--}}
-{{--<script>--}}
-{{--var OneSignal = window.OneSignal || [];--}}
-{{--OneSignal.push(function() {--}}
-{{--OneSignal.init({--}}
-{{--appId: "73b01947-ee7a-4ad8-a263-970d72bee3b6",--}}
-{{--autoRegister: false,--}}
-{{--notifyButton: {--}}
-{{--enable: true,--}}
-{{--},--}}
-{{--});--}}
-{{--});--}}
-{{--</script>--}}
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        if(localStorage.userinfo) {
+            var OneSignal = window.OneSignal || [];
+            OneSignal.push(function() {
+                OneSignal.sendTag("key",JSON.parse(localStorage.userinfo).id);
+                OneSignal.init({
+                    appId: "b7792635-0674-4e60-bef9-66d31b818a92",
+                    allowLocalhostAsSecureOrigin: true,
+                    autoRegister: true,
+                    notifyButton: {
+                        enable: false,
+                    },
+                });
+            });
+        }
+    </script>
 
 <!-- End one signal -->
+
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || [];
@@ -270,8 +273,43 @@
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.jqueryui.min.js"></script>
 <script src="{{asset('js/validate.min.js')}}"></script>
 
+<script src="{{asset('js/angular.min.js')}}"></script>
+<script src="{{asset('js/ui-bootstrap-tpls-2.5.0.min.js')}}"></script>
+
 <script src="{{asset('js/star-rating.min.js')}}" type="text/javascript"></script>
 <script src="{{asset('js/select2.min.js')}}"></script>
+
+<!-- Angular Script -->
+<script>
+    angular.module('shoppre', ['ui.bootstrap']);
+
+    function IndexController ($scope, $http) {
+        $scope.Faqs = {
+            select: function($item) {
+                window.location.href = '{{route("faq")}}';
+            },
+            get: function (search) {
+                return $http
+                    .get('/faq/search', {
+                        params: {
+                            q: search,
+                        }
+                    })
+                    .then(function (response) {
+                        console.log(response);
+                        return response.data.questions;
+                    });
+            },
+            noResults: false,
+            loadingFaqs: false,
+        };
+    }
+
+    angular.module('shoppre')
+        .controller('IndexController', IndexController);
+
+</script>
+
 <script type="text/javascript">
     jQuery(function () {
         jQuery("a.bla-1").YouTubePopUp();

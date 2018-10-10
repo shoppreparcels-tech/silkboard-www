@@ -23,7 +23,7 @@
                         <table id="example" class="display" cellspacing="0" width="100%">
                             <thead>
                             <tr>
-                                <th>Id</th>
+                                <th>Shipment Id </th>
                                 <th>Name</th>
                                 <th>Email</th>
                                 <th>Receive Date</th>
@@ -36,7 +36,7 @@
                             </thead>
                             <tfoot>
                             <tr>
-                                <th>Id</th>
+                                <th>Shipment Id</th>
                                 <th>Name</th>
                                 <th>Email</th>
                                 <th>Receive Date</th>
@@ -50,7 +50,11 @@
                             <tbody>
                             @foreach($pickups as $pickup)
                             <tr class="data_font">
-                                <td>{{$pickup->id}}</td>
+                                <td><a href="{{$pickup->asana_url}}" target="_blank" style="color: cadetblue;">{{$pickup->id}}</a>
+                                    <input type="text" class="form-control txtAsanaLink" value="{{$pickup->asana_url}}"
+                                           data-id="{{$pickup->id}}" id="txt_asana_{{$pickup->id}}" style="display: none">
+                                    <i class="glyphicon glyphicon-edit btnEdit" data-id="{{$pickup->id}}" style="cursor: pointer;"></i>
+                                </td>
                                 <td>{{$pickup->first_name}} {{$pickup->last_name}}</td>
                                 <td>{{$pickup->user_email}}</td>
                                 <td>{{$pickup->created_at}}</td>
@@ -65,6 +69,7 @@
                         </table>
                         <div class="clearfix"></div>
                     </div>
+                <div id="calc_load"></div>
             </div>
         </font>
     </section>
@@ -77,6 +82,46 @@
         $(document).ready(function () {
             $('#example').DataTable({
                 "order": [[ 0, "desc" ]]
+            });
+
+            $(".btnEdit").click(function () {
+                // this will query for the clicked toggle
+                var $toggle = $(this);
+
+                // build the target form id
+                var id = "#txt_asana_" + $toggle.data('id');
+
+                $(id).css("width", "400px");
+                $(id).toggle();
+                $(id).focus();
+            });
+
+            $('.txtAsanaLink').keypress(function (e) {
+                var key = e.which;
+                if(key == 13)  // the enter key code
+                {
+                    $("#calc_load").show();
+                    var asana_url = $(this).val();
+                    var pickup_id = $(this).data('id');
+                    // build the target form id
+                    // alert('Shipment id:'+pickup_id+'Value:'+inputVal);
+                    jQuery.ajax({
+                        url: '/schedule-pickup/asana-tracking',
+                        type: "POST",
+                        data: {
+                            pickup_id: pickup_id,
+                            asana_url: asana_url,
+                        },
+                        success: function (res) {
+                            $("#calc_load").hide();
+                            if (res.error == "1") {
+                                alert('Error !');
+                            } else {
+                                $("#txt_asana_" +pickup_id).hide();
+                            }
+                        }
+                    });
+                }
             });
         });
     </script>

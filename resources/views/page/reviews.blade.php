@@ -89,8 +89,9 @@
                         <div class="alert alert-success">{{ session('message') }}</div>
                     @endif
                 </center>
-                <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,," target="_blank">
-                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 reviews-page-review-google" >
+                <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
+                   target="_blank">
+                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 reviews-page-review-google">
                         <img src="{{asset('img/reviews/review-google.png')}}" alt="Google Reviews">
                     </div>
                 </a>
@@ -101,9 +102,12 @@
                     </div>
                 </a>
                 <div class="col-xs-12 col-sm-12 div-review-hr"></div>
-                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 reviews-page-review-shoppre">
+                <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 reviews-page-review-shoppre">
+                    <a href="#reviews">
                         <img src="{{asset('img/reviews/review-shoppre.png')}}" alt="Shoppre Reviews">
-                    </div>
+                    </a>
+
+                </div>
             </div>
         </center>
     </section>
@@ -130,7 +134,8 @@
                             <div class="col-md-4 col-lg-4 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
                                 <div class="form-group">
                                     <label>Contact Person Full Name <span class="mendatory_fields">*</span></label>
-                                    <input id="input-rate" type="text" name="person" placeholder="enter name" class="form-control"/>
+                                    <input id="input-rate" type="text" name="person" placeholder="enter name"
+                                           class="form-control"/>
                                 </div>
                             </div>
                             <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
@@ -162,47 +167,59 @@
                     </form>
                 </div>
 
-                <div>
+                <div id="reviews">
                     <div class="row">
                         @foreach($reviews as $review)
-                        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 inner-review ">
-                                <div class="row div-img-row">
-
-                                    <div class="col-md-1 col-lg-1 col-sm-1 col-xs-1">
-                                        <div class=" img-review img-circle Avatar Avatar--color0">{{$review->person}}</div>
-{{--                                        <img class=" img-review img-circle" src="{{asset('img/images/23.jpg')}}">--}}
+                            <a href="{{ url('reviews/'.$review->slug) }}"  class="nounderline" ></a>
+                            <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 inner-review ">
+                                    <div class="row div-img-row">
+                                        <div class="col-md-1 col-lg-1 col-sm-1 col-xs-1">
+                                            <div
+                                                class=" img-review img-circle Avatar Avatar--color0">{{$review->person}}</div>
+                                            {{-- <img class=" img-review img-circle" src="{{asset('img/images/23.jpg')}}">--}}
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 col-sm-4 col-xs-4">
+                                            {{--<p class="p-name-font-weight">&nbsp;&nbsp;&nbsp;&nbsp;{{$review->person}} </p>--}}
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 col-sm-7 col-xs-7 rating-padding-left">
+                                            {{--<img src="img/rating-star.png" alt="">--}}
+                                            <img src="{{asset('img/rating-star.png')}}" alt="">
+                                        </div>
                                     </div>
-                                    <div class="col-md-5 col-lg-5 col-sm-4 col-xs-4">
-                                        {{--<p class="p-name-font-weight">&nbsp;&nbsp;&nbsp;&nbsp;{{$review->person}} </p>--}}
+                                    <div class="row">
+                                        <i class="quots-t ">
+                                            <img src="{{asset('img/svg/qoute_up.svg')}}" alt="">
+                                        </i>
                                     </div>
-                                    <div class="col-md-5 col-lg-5 col-sm-7 col-xs-7 rating-padding-left">
-                                        <img src="{{asset('img/rating-star.png')}}">
+                                    <div class="row">
+                                        <p class=" p-reviews">{{$review->review}}!</p>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <i class="quots-t ">
-                                        <img src="{{asset('img/svg/qoute_up.svg')}}">
-                                    </i>
-                                </div>
-                                <div class="row">
-                                    <p class=" p-reviews">{{$review->review}}!</p>
-                                </div>
-                                <div class="row">
-                          <span class="quots-b" >
-                            <img src="{{asset('img/svg/qoute_down.svg')}}" >
+                                    <div class="row">
+                          <span class="quots-b">
+                            <img src="{{asset('img/svg/qoute_down.svg')}}" alt="">
                           </span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                         @endforeach
                     </div>
-                    {{--<a href="#">--}}
-                        {{--<div class="btn-more-review header5">--}}
-                            {{--<p>--}}
-                                {{--Load More--}}
-                            {{--</p>--}}
-                        {{--</div>--}}
+                    <div id="remove-row">
+                        <center>
+                            <button class="btn-more-review header5" id="btn-more" data-id="{{ $review->id }}">
+                                Load More
+                            </button>
+                        </center>
+
+                    </div>
+
+
+                    {{--<a href="">--}}
+                    {{--<div class="btn-more-review header5">--}}
+                    {{--<p>--}}
+                    {{--Load More--}}
+                    {{--</p>--}}
+                    {{--</div>--}}
                     {{--</a>--}}
                 </div>
             </div>
@@ -258,17 +275,31 @@
         });
     </script>
 
-     <script type="text/javascript">
 
-         $(document).ready(function () {
-             var text = '';
-             var arr = "Dhananjaya Ks".split(' ');
-             for(i=0;i<arr.length;i++) {
-                 text += arr[i].substr(0,1)
-             }
-
-         });
-     </script>
+    <script>
+        $(document).ready(function () {
+            $(document).on('click', '#btn-more', function () {
+                var id = $(this).data('id');
+                $("#btn-more").html("Loading....");
+                $.ajax({
+                    url: '/more-reviews',
+                    method: "POST",
+                    data: {id: id, _token: "{{csrf_token()}}"},
+                    dataType: "text",
+                    success: function (data) {
+                        debugger;
+                        if (data != '') {
+                            // $('#remove-row').remove();
+                            $('#reviews').append(data);
+                        }
+                        else {
+                            $('#btn-more').html("No Data");
+                        }
+                    }
+                });
+            });
+        });
+    </script>
 
 
 

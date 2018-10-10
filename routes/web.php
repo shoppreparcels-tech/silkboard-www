@@ -6,6 +6,7 @@ Route::get('/', 'PageController@home')->name('home');
 Route::get('/about', 'PageController@about')->name('about');
 Route::get('/partner', 'PageController@partner')->name('partner');
 Route::get('/faq', 'PageController@faq')->name('faq');
+Route::get('/faq/search', 'PageController@faqSearch')->name('faq.search');
 Route::get('/contact', 'PageController@contact')->name('contact');
 Route::post('/contact/submit', 'PageController@submitContact')->name('contact.submit');
 Route::get('/terms-and-conditions', 'PageController@termsAndConditions')->name('termsAndConditions');
@@ -20,6 +21,7 @@ Route::get('/browse-categories', 'PageController@stores')->name('stores');
 Route::post('/stores/sort', 'PageController@sortStores')->name('stores.sort');
 Route::get('/reviews', 'PageController@reviews')->name('reviews');
 Route::post('/reviews/submit', 'PageController@submitReview')->name('reviews.submit');
+Route::post('/more-reviews', 'PageController@moreReviews')->name('morereviews');
 
 Route::get('/social/oauth/google', 'Customer\SocialAuthController@redirectGoogle')->name('customer.social.google');
 Route::get('/social/callback/google', 'Customer\SocialAuthController@callbackGoogle');
@@ -30,6 +32,8 @@ Route::get('/social/callback/facebook', 'Customer\SocialAuthController@callbackF
 Route::get('/schedule-pickup', 'SchedulePickupController@index')->name('schedulePickup.Index');
 Route::post('/schedule-pickup', 'SchedulePickupController@submit')->name('schedulePickup.Submit');
 Route::get('/schedule-pickup/confirm', 'SchedulePickupController@confirm')->name('schedulePickup.confirmPickup');
+Route::post('/schedule-pickup/asana-tracking', 'SchedulePickupController@asanaTracking')
+    ->name('schedulePickup.asana.tracking');
 Route::post('/schedule-pickup/ajexRequest', 'PageController@pickupByAjex')->name('schedulePickup.byAjex');
 Route::get('/countries', 'PageController@countryList')->name('countryList');
 Route::get('/feedback', 'FeedbackController@index')->name('feedback.Index');
@@ -48,8 +52,8 @@ Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('sche
 Route::get('/ics', 'PageController@icsIndex')->name('ics.index');
 Route::get('/shop-from-india-ship-worldwide', 'PageController@ifsIndex')->name('ifs.index');
 //Route::get('/about-new', 'PageController@aboutIndex')->name('about-new.index');
-Route::get('/contact-new', 'PageController@contactIndex')->name('contact-new.index');
 Route::get('/offers-new', 'PageController@offersIndex')->name('offers-new.index');
+Route::get('/pricing1', 'PageController@pricing1')->name('pricing1');
 
 /*-------- Dhl Shipments ------*/
 Route::get('/dhl', 'ShippingPartnerController@dhlIndex')->name('dhl.index');

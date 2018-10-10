@@ -491,7 +491,7 @@ span.error {
 .btn {
     border: 0;
     border-radius: 0;
-    padding: 0 12px
+    padding: 0 11px
 }
 
 .alert-danger, .alert-success {
@@ -570,10 +570,10 @@ label.error {
 
 .tooltipkey {
     position: relative;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0 2px;
     top: 1px;
-    color: #6b6b6b;
+    color: #337ab7;
     text-align: center
 }
 
@@ -3917,7 +3917,7 @@ section.loyalty {
 
 .calc-form .form-control {
     height: 40px;
-    border: 2px solid #e1ddc4;
+    /*border: 2px solid #e1ddc4;*/
     border-radius: 0
 }
 

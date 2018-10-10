@@ -5,25 +5,15 @@
 @section('keywords', 'questions, concerns, about your package, shipping services, please call us, start live chat, whatsapp, team shoppre')
 
 @section('css_style')
-    <style>
-        #map1, #map2 {
-            height: 180px;
-            width: 100%;
-        }
-
-        .infobox {
-        }
-
-        .infobox h5 {
-            margin: 0;
-        }
-
-        .infobox p {
-            margin: 0;
-            font-size: 12px;
-            margin-top: 5px !important;
-        }
-    </style>
+<style>
+  #map1,#map2 {
+    height: 180px;
+    width: 100%;
+   }
+   .infobox{}
+   .infobox h5{margin: 0;}
+   .infobox p{margin: 0;font-size: 12px;margin-top: 5px !important;}
+</style>
 @endsection
 
 @section('content')
@@ -39,14 +29,12 @@
         <div class="container">
             <div class="row padding-bottom">
                 <center>
-                    <h1 class="header1 p-color-white">Contact Customer Service & Support</h1>
+                    <h1 class="header1 p-color-white">Contact Support</h1>
                     <h2 class="header2 p-color-cement">Have a question? Consult our shipping FAQ. We are dedicated to
                         making our members happy, so<br>
                         your online account management tools and these FAQ resources are available 24/7.
 
                     </h2>
-                    {{--<div class="col-md-10 col-md-offset-2 padding-bottom">--}}
-                    {{--</div>--}}
                 </center>
 
             </div>
@@ -54,7 +42,7 @@
 
     </section>
     <section class="faq-section">
-        <div class="container">
+        <div class="container" ng-controller="IndexController">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12" id="custom-search-input">
                     <div class="input-group search-bar">
@@ -62,25 +50,40 @@
                                 <button class="btn btn-info btn-lg" type="button">
                                     <i class="glyphicon glyphicon-search"></i>
                                 </button>
-                            </span><input type="text" class="form-control input-lg  search-bar-input"
-                                          placeholder="Can't find your answer? Search Shoppre">
+                            </span>
+
+                        {{--<input type="text" style="height: 50px;width: 500px;  border-radius: 60px">--}}
+
+                        <input
+                           type="text"
+                           class="form-control input-lg  search-bar-input"
+                           name="faq"
+                           placeholder="Can't find your answer? Search Shoppre"
+                           ng-model="Faq.model"
+                           uib-typeahead="faq.question for faq in Faqs.get($viewValue)"
+                           typeahead-loading="Faqs.loadingFaqs"
+                           typeahead-no-results="Faqs.noResults"
+                           typeahead-on-select='Faqs.select($item)'
+                           typeahead-wait-ms="10"
+                           autocomplete="off"
+                        />
 
                     </div>
                 </div>
                 <div class="col-md-9 col-md-offset-2 col-sm-12 col-xs-12 border-bottom">
                     <ul class="list-unstyled faq-list">
-                        <li>Do you provide a Membership Plan?</li>
-                        <li>Is the address provided by Shoppre, a PO Box address?</li>
-                        <li>Why was my Registration Unsuccessful?</li>
-                        <li>How do I use my address?</li>
-                        <li>Why Choose Shoppre?</li>
-                        <li>What couriers do you use to send my merchandise and documents?</li>
-                        <li>How can I get my package(s) shipped?</li>
-                        <li>How does repacking save me money?</li>
-                        <li>What is consolidation, and how does it help me save?</li>
-                        <li>Will Shoppre forward my packages to me when I am traveling?</li>
-                        <li>How does repacking save me money?</li>
-                        <li>What is consolidation, and how does it help me save?</li>
+                        <li><a href="{{route('faq')}}">Do you provide a Membership Plan?</a></li>
+                        <li><a href="{{route('faq')}}">Is the address provided by Shoppre, a PO Box address?</a></li>
+                        <li><a href="{{route('faq')}}">Why was my Registration Unsuccessful?</a></li>
+                        <li><a href="{{route('faq')}}">How do I use my address?</a></li>
+                        <li><a href="{{route('faq')}}">Why Choose Shoppre?</a></li>
+                        <li><a href="{{route('faq')}}">What couriers do you use to send my merchandise and documents?</a></li>
+                        <li><a href="{{route('faq')}}">How can I get my package(s) shipped?</a></li>
+                        <li><a href="{{route('faq')}}">How does repacking save me money?</a></li>
+                        <li><a href="{{route('faq')}}">What is consolidation, and how does it help me save?</a></li>
+                        <li><a href="{{route('faq')}}">Will Shoppre forward my packages to me when I am traveling?</a></li>
+                        <li><a href="{{route('faq')}}">How does repacking save me money?</a></li>
+                        <li><a href="{{route('faq')}}">What is consolidation, and how does it help me save?</a></li>
                     </ul>
 
                 </div>
@@ -88,104 +91,122 @@
             <div class="row">
                 <div class="col-md-9 col-md-offset-2 faqlink-div">
                     <a href="{{route('faq')}}" class="faq-link" target="_blank">View All FAQ's</a>
-                    <a href="#" class="faq-link pull-right">Still Need Help?</a>
+                    <a href="#contact-support" class="faq-link pull-right">Still Need Help?</a>
                 </div>
             </div>
+
         </div>
     </section>
 
     <section class="contact-details-section">
+        <div class="container " id="contact-support">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
+                    <div class="div-phone">
+                        <center>
+                            <img src="{{asset('img/svg/phone.svg')}}" id="phone">
+                            <p class="header6 p-color-white ">Didn't find the answer you need Contact us!</p>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
+                    <p class="header7">
+                        <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
+                    <h2 class="header2 p-color-white">+91 80 4094 4077</h2>
+
+                </div>
+
+                <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align ">
+                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
+                    <h2 class="header2 p-color-white">support@shoppre.com</h2>
+
+                </div>
+
+                <div
+                    class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details pull-right contact-text-align">
+                    <p class="header7">
+                        <i class="fa fa-envelope" aria-hidden="true">
+                        </i>Live Chat</p>
+                    <h2 class="header2 p-color-white">Chat Now</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="location-feedback">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 phone-detail">
-                    <img src="{{asset('img/images/phone.png')}}">
-                </div>
-                <div class="col-md-3 contact-details">
-                    <p class=""><i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <h4>+91 80 4094 4077</h4>
-                </div>
-                <div class="col-md-3 contact-details">
-                    <p class=""><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
-                    <h4>support@shoppre.com</h4>
-                </div>
-                <div class="col-md-3 contact-details text-right">
-                    <p class=""><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
-                    <h4>Chat Now</h4>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="contact_ico">
-        <div class="container">
-            <div class="blox">
-                <img src="{{asset('img/contact1.png')}}">
-                <h4>Call</h4>
-                <span><a href="tel:+91 80 4094 4077">+91 80 4094 4077</a></span>
-            </div>
-            <div class="blox">
-                <img src="{{asset('img/contact3.png')}}">
-                <h4>Email</h4>
-                <span><a href="mailto:support@shoppre.com">support@shoppre.com</a></span>
-            </div>
-            <div class="blox">
-                <img src="{{asset('img/contact4.png')}}">
-                <h4>Live Chat</h4>
-                <span><a href="http://v2.zopim.com/widget/livechat.html?key=WMWUM4as7ltiMKHbRXiFRw3imdMiLtAV"
-                         target="_blank">Our Team is at your service 24/7</a></span>
-            </div>
-            <div class="blox">
-                <img src="{{asset('img/contact5.png')}}">
-                <h4>Hours</h4>
-                <span>Monday - Sunday<br>service 24/7</span>
-            </div>
-        </div>
-    </section>
-    <section class="contact_us">
-        <div class="container">
-            <div class="col-sm-7">
-                @if (session('message'))
-                    <div class="alert alert-success">
-                        {{ session('message') }}
+                <div class="col-md-3">
+                    <div class="no-padding address-details">
+                        <h4>Locations</h4>
+                        <span class="under-line"><img src="{{asset('img/images/line.png')}}"></span>
+                        <h5>BANGALORE - INDIA</h5>
+                        <p> IndianShoppre LLP,
+                            First Floor, <br>No. 181, 2nd Cross Road,
+                            7th Main, Koramangala 1st Block, Bengaluru - 560034,
+                            Karnataka, India</p>
                     </div>
-                @endif
-                @if (session('error'))
-                    <div class="alert alert-danger">
-                        {{ session('error') }}
+                    <span class="under-line"><img src="{{asset('img/images/line.png')}}"></span>
+                    <div class="no-padding address-details">
+                        <h5>DUBAI - U.A.E</h5>
+                        <p> Sephora Office, Mezzanine Floor,
+                            Flora Creek Hotel Apartments,
+                            Near Deira City Centre,
+                            Port Saeed - 119062
+                            Dubai, UAE</p>
                     </div>
-                @endif
-                <div class="contact_form">
-                    <form class="form-horizontal" method="post" action="{{route('contact.submit')}}">
+                    <span class="under-line"><img src="{{asset('img/images/line.png')}}"></span>
+                    <div class="no-padding address-details">
+                        <h5>Connect us on</h5>
+                        <ul class="list-inline list-unstyled">
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw">
+                                    <img class="img-connect" src="{{asset('img/svg/shoppre-youtube-video.svg')}}">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/goshoppre/">
+                                    <img class="img-connect" src="{{asset('img/svg/go-shoppre-faceboook.svg')}}">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/Go_Shoppre">
+                                    <img class="img-connect" src="{{asset('img/svg/shoppre-twitter.svg')}}">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/shoppre_official/?hl=en">
+                                    <img class="img-connect" src="{{asset('img/svg/shoppre-instagram.svg')}}">
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-md-9 feedback-form">
+                    <h4>Request Callback</h4>
+                    @if (session('message'))
+                        <div class="alert alert-success">
+                            {{ session('message') }}
+                        </div>
+                    @endif
+                    @if (session('error'))
+                        <div class="alert alert-danger">
+                            {{ session('error') }}
+                        </div>
+                    @endif
+                    <form method="post" action="{{route('contact.submit')}}">
                         {{ csrf_field() }}
-                        <div class="form-group">
-                            <div class="input-group">
-                                <div class="input-group-addon"><img src="img/name.png"></div>
-                                <input type="text" class="form-control" placeholder="First Name" name="firstname">
+                        <div class="form-group pull-in clearfix">
+                            <div class="col-sm-6 no-padding">
+                                <label>Full Name <i class="red">*</i></label>
+                                <input type="text" class="form-control" placeholder="enter name" name="firstname" required>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <div class="input-group-addon"><img src="img/name.png"></div>
-                                <input type="text" class="form-control" placeholder="Last Name" name="lastname">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <div class="input-group-addon"><img src="img/mail.png"></div>
-                                <input type="email" class="form-control" placeholder="Email" name="email">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <div class="input-group-addon"><img src="img/locker.png"></div>
-                                <input type="text" class="form-control" placeholder="My Locker(optional)" name="locker">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <div class="input-group-addon"><img src="img/country.png"></div>
-                                <select class="form-control select2" name="country">
+                            <div class="col-sm-6 contact-text-padding">
+                                <label>Country</label>
+                                <select class="form-control m-b " name="country">
                                     <option value="">Select Country</option>
                                     @foreach($countries as $country)
                                         <option value="{{$country->name}}">{{$country->name}}</option>
@@ -193,19 +214,22 @@
                                 </select>
                             </div>
                         </div>
+                        <div class="form-group pull-in clearfix">
+                            <div class="col-sm-6 no-padding">
+                                <div class="no-padding"><label>Mobile Number<i class="red">*</i></label></div>
+                                <input type="text" class="form-control" placeholder="enter mobile number" name="phone" required>
 
-                        <div class="form-group">
-                            <div class="input-group">
-                                <div class="input-group-addon"><img src="img/phone-512.png" style="height: 23px;"></div>
-                                <input type="number" class="form-control " placeholder="Contact Number" name="phone">
+                            </div>
+                            <div class="col-sm-6 contact-text-padding">
+                                <label>Email Address<i class="red">*</i></label>
+                                <input type="email" class="form-control" placeholder="Enter email address" name="email" required>
                             </div>
                         </div>
-
-                        <div class="form-group">
-                            <div class="input-group">
-                                <div class="input-group-addon"><img src="img/reason.png"></div>
-                                <select class="form-control select2" name="reason">
-                                    <option value="Select Reason">Select Reason</option>
+                        <div class="form-group pull-in clearfix">
+                            <div class="col-sm-6 no-padding">
+                                <label>What is Reason / Issue? <i class="red">*</i></label>
+                                <select class="form-control m-b"  name="reason" required>
+                                    <option value="Select Reason">select reason/issue from the list</option>
                                     <option value="Can't I sign into my account">Can't I sign into my account
                                     <option value="Can you ship Dangerous Goods?">Can you ship Dangerous Goods?
                                     <option value="Can you buy goods for me?">Can you buy goods for me?
@@ -244,83 +268,26 @@
                                     <option value="Other Help?"> Other Help?
                                 </select>
                             </div>
-                        </div>
-                        <div class="form-group textarea">
-                            <textarea type="text" rows="6" class="form-control" placeholder="Enter Your Message"
-                                      name="msg_content"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <button type="submit" class="btn btn-shoppre">Send Message</button>
+                            <div class="col-sm-6 contact-text-padding ">
+                                <label>Locker No. (optional)</label>
+                                <input type="text" class="form-control" placeholder="enter Locker number" name="locker">
                             </div>
+
                         </div>
+
+                        <div class="form-group">
+                            <label>Write your message</label>
+                            <textarea class="form-control" rows="6" placeholder="Write your concern" name="msg_content"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-contact-submit">Submit</button>
                     </form>
-                </div>
-            </div>
-            <div class="col-sm-5">
-                <div class="contact_loc">
-                    <h4>Our Office in India</h4>
-                    <div id="map1"></div>
-                    <p>IndianShoppre LLP, First Floor, No. 181, 2nd Cross Road, 7th Main, Koramangala 1st Block,
-                        Bengaluru I 560034, Karnataka, India</p>
-                    <hr>
-                    <h4>Our Office in U.A.E</h4>
-                    <div id="map2"></div>
-                    <p>Sephora Office, Mezzanine Floor, Flora Creek Hotel Apartments, Near Deira City Centre, Port Saeed
-                        | 119062 Dubai, UAE</p>
-                </div>
-                <div class="contact_social">
-                    <a href="https://www.facebook.com/goshoppre/" target="_blank">
-                        <img src="img/facebook.png">
-                        <span>Like Us</span>
-                    </a>
-                    <a href="https://www.instagram.com/shoppre_official/?hl=en" target="_blank">
-                        <img src="img/instagram.png">
-                        <span>Follow us</span>
-                    </a>
-                    <a href="https://twitter.com/Go_Shoppre" target="_blank">
-                        <img src="img/twitter.png">
-                        <span>Tweet to us</span>
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw" target="_blank">
-                        <img src="img/youtube.png">
-                        <span>Watch our videos</span>
-                    </a>
                 </div>
             </div>
         </div>
     </section>
+
 @endsection
 
 @section('js_script')
-    <script>
-        var map1, map2;
 
-        function initialize() {
-            var LatLng1 = {lat: 12.9257893, lng: 77.6343453};
-            map1 = new google.maps.Map(document.getElementById("map1"), {
-                zoom: 14,
-                center: LatLng1,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            });
-            var marker1 = new google.maps.Marker({
-                position: LatLng1,
-                map: map1,
-            });
-
-            var LatLng2 = {lat: 25.2534363, lng: 55.3282428};
-            map2 = new google.maps.Map(document.getElementById("map2"), {
-                zoom: 14,
-                center: LatLng2,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            });
-            var marker2 = new google.maps.Marker({
-                position: LatLng2,
-                map: map2,
-            });
-
-        }
-    </script>
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQzl11fjwwyiw_KRIV61HN7U-5HPPwmLQ&callback=initialize"></script>
 @endsection

@@ -14,6 +14,7 @@ use App\ShippingRate;
 use App\StoreCategory;
 use App\StoreCatClub;
 use App\FaqCategory;
+use App\Faq;
 use App\Page;
 use App\FavoriteStore;
 use App\Review;
@@ -50,7 +51,16 @@ class PageController extends Controller
     {
         return view('page.offers-new');
     }
+    public function pricing1()
+    {
+        $reviews = Review::orderBy('updated_at', 'desc')
+            ->where('approve', '1')
+            ->limit(10)
+            ->get();
+        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+        return view('page.pricing1')->with(['reviews' => $reviews, 'countries' => $countries]);
 
+    }
     public function saveFlyerUser(Request $request)
     {
         $emp_id = 616;
@@ -196,6 +206,9 @@ class PageController extends Controller
     public function urlTargetShipping(Request $request)
     {
         $destination = $request->destination;
+        if ($destination == 'usa') {
+            $destination = 'united-states';
+        }
         $source = $request->source;
         $initial = $request->initial;
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
@@ -241,6 +254,9 @@ class PageController extends Controller
     public function urlTargetSend(Request $request)
     {
         $destination = $request->destination;
+        if ($destination == 'usa') {
+            $destination = 'united-states';
+        }
         $source = $request->source;
         $content = $request->contents;
         $initial = $request->initial;
@@ -289,6 +305,9 @@ class PageController extends Controller
     public function urlTargetContent(Request $request)
     {
         $destination = $request->destination;
+        if ($destination == 'usa') {
+            $destination = 'united-states';
+        }
         $source = $request->source;
         $cprefix = $request->cprefix;
         $cpostfix = $request->cpostfix;
@@ -360,6 +379,18 @@ class PageController extends Controller
         return view('page.faq')->with('categories', $categories);
     }
 
+    public function faqSearch(Request $request) {
+
+        $query = Faq::query();
+        if (isset($request->q) && !empty($request->q)) {
+            $keyword = $request->q;
+            $query->where('question', 'like', '%' . $keyword . '%')
+                ->select(['question']);
+        }
+        $questions = $query->get();
+        return response()->json(['questions' => $questions]);
+    }
+
     public function contact()
     {
         $countries = Country::orderBy('name', 'asc')->get();
@@ -368,13 +399,15 @@ class PageController extends Controller
 
     public function submitContact(Request $request)
     {
+
         $this->validate($request, [
             'firstname' => 'required|max:250',
-            'lastname' => 'required|max:250',
+//            'lastname' => 'required|max:250',
             'email' => 'required|email|max:250',
             'phone' => 'required',
             'msg_content' => 'required',
         ]);
+//        echo ('inside');exit;
         Mail::to("support@shoppre.com")->bcc('aloak@shoppre.com')->send(new ContactEnquiry($request));
         return view('page.confirm-contact-us');
     }
@@ -411,7 +444,14 @@ class PageController extends Controller
     public function shipCalculate(Request $request)
     {
         $weight = $request->weight;
-        $country = Country::find($request->country);
+        if ($request->origin == 'home_page') {
+            $country = Country::where('name','like', '%' . $request->country . '%')
+                       ->select(['id','discount'])
+                       ->first();
+        } else {
+            $country = Country::find($request->country);
+        }
+
         if (isset($request->length) && isset($request->width) && isset($request->height)) {
             $volume = $request->length * $request->width * $request->height;
 //            if ($request->scale == "in") {
@@ -557,9 +597,69 @@ class PageController extends Controller
     public function reviews()
     {
         $countries = Country::orderBy('name', 'asc')->get();
-        $reviews = Review::orderBy('updated_at', 'desc')->where('approve', '1')->limit(5)->get();
+        $reviews = Review::orderBy('updated_at', 'desc')->where('approve', '1')->limit(12)->get();
         return view('page.reviews')->with(['countries' => $countries, 'reviews' => $reviews]);
     }
+
+
+    public function moreReviews(Request $request)
+    {
+        $output = '';
+        $id = $request->id;
+
+        $reviews = Review::where('id','<',$id)->orderBy('updated_at', 'desc')->where('approve', '1')->limit(5)->get();
+
+        if (!$reviews->isEmpty()) {
+
+            $url = url('reviews/' . $reviews->slug);
+            $body = substr(strip_tags($reviews->body), 0, 500);
+            $body .= strlen(strip_tags($reviews->body)) > 500 ? "..." : "";
+            foreach ($reviews as $review)
+            {
+                $output .= ' <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12" >
+                                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 inner-review " >
+                                    <div class="row div-img-row" >
+                                        <div class="col-md-1 col-lg-1 col-sm-1 col-xs-1" >
+                                            <div  class=" img-review img-circle Avatar Avatar--color0" >{{$review->person}}</div >
+                                        </div >
+                                        <div class="col-md-5 col-lg-5 col-sm-4 col-xs-4" >
+                                            {{--<p class="p-name-font-weight" >&nbsp;&nbsp;&nbsp;&nbsp;{{$review->person}} </p > --}}
+                                        </div >
+                                        <div class="col-md-5 col-lg-5 col-sm-7 col-xs-7 rating-padding-left" >
+                                            <img src="img/rating-star.png" alt="">
+                                        </div >
+                                    </div >
+                                    <div class="row" >
+                                        <i class="quots-t " >
+                                            <img src = "img/svg/qoute_up.svg">
+                                        </i >
+                                    </div >
+                                    <div class="row" >
+                                        <p class=" p-reviews" >{{$review->review}}!</p >
+                                    </div >
+                                    <div class="row" >
+                                      <span class="quots-b" >
+                                        <img src = "img/svg/qoute_down.svg" >
+                                      </span >
+                                    </div >
+                                </div >
+                            </div >' ;
+            }
+
+            $output .= '<div id="remove-row">
+                            <center>
+                            <button class="btn-more-review header5" id="btn-more" data-id="{{ $review->id }}">
+                                Load More
+                            </button>
+                          </center>
+                        </div>';
+
+            echo $output;
+        }
+    }
+
+    //    load more reviews
+
 
     public function submitReview(Request $request)
     {
@@ -593,6 +693,7 @@ class PageController extends Controller
     {
         return view('page.sellers-shipping');
     }
+
     public function shopper()
     {
         return view('page.personal-shopper');

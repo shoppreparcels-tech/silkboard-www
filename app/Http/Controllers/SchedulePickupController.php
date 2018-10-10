@@ -7,11 +7,22 @@ use App\SchedulePickup;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\EmailSchedulePickup;
+use App\Asana\AsanaTaskOperations;
 use App\States;
 use Auth;
 
 class SchedulePickupController extends Controller
 {
+
+    public function asanaTracking(Request $request) {
+
+        if (!empty($request->pickup_id)) {
+            $schedule_pickup = SchedulePickup::where('id', '=', $request->pickup_id)->first();
+            $schedule_pickup->asana_url = $request->asana_url;
+            $schedule_pickup->save();
+            return response()->json([ 'error'=>'0', 'message'=>'success']);
+        }
+    }
 
     public function submit(Request $request)
     {
@@ -47,7 +58,14 @@ class SchedulePickupController extends Controller
 
         $schedule_package->special_items = $special_items;
 
-         $schedule_package->save();
+        $name = $request->first_name.' '.$request->last_name;
+        $commnet = "Pickup request from ".$request->pc_city." to ".$request->dc_city;
+
+        $response = AsanaTaskOperations::createTask($name, $commnet);
+        $phpArray = json_decode($response,true);
+        $schedule_package->asana_url = "https://app.asana.com/0/819867433809220/".$phpArray['data']['id'];
+
+        $schedule_package->save();
 
           $this->sendEmailPickup($schedule_package);
         return response()->json([ 'error'=>'0', 'message'=>$request->user_email]);

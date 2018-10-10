@@ -792,6 +792,7 @@
                             scale: box_scale
                         },
                         success: function (res) {
+                            console.log(res);
                             $("#calc_load").hide();
 
                             if (res.error == "1") {

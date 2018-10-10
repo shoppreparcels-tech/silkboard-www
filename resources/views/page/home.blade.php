@@ -184,8 +184,8 @@
                 <div class="col-md-12 col-sm-11 col-xs-11  col-lg-12 div-main-row">
                     <strong>
                         <b><h1 class="header1 p-color-white header-text-margin">
-                                International Shipping from India
-                                starting <br> at just <span class="p-color-red">*₹690</span><span
+                                International Shipping from India <span id="country"></span>
+                                starting <br> at just <span class="p-color-red">*₹<span id="prices"></span></span><span
                                     style="color: #ffffff">!</span>
 
                             </h1></b>
@@ -210,7 +210,7 @@
                                 <a href="{{route('ifs.index')}}">
                                     <div class="btn-shop-ship" id="btn-shop-ship">
                                         <p class="shop-ship-btn-name">
-                                            SHOP & SHIP
+                                            {{--SHOP & SHIP--}}
                                         </p>
                                     </div>
                                 </a>
@@ -1007,6 +1007,7 @@
         </div>
 
     </section>
+    @endsection
 
 @section('js_script')
     {{-- required this block for next vertion --}}
@@ -1073,8 +1074,57 @@
             });
         }
     </script>
-@endsection
-
+    <script>
+        $.ajax({
+            url: "http://ip-api.com/json",
+            type: 'GET',
+            dataType: 'json',
+            success: function(res) {
+                var country = res.country;
+                var destination = '';
+                var destination_country = 'United Arab Emirates';
+                if (country != 'India')
+                {
+                    var destination = 'to '+ country;
+                    destination_country = country;
+                }
+                var weight = 0.5;
+                var unit = 'kg';
+                var type = 'nondoc';
+                var box_scale = '';
+                var length = '';
+                var width = '';
+                var height = '';
+                jQuery.ajax({
+                    url: '/calculate-shipping',
+                    type: "POST",
+                    data: {
+                        country: destination_country,
+                        weight: weight,
+                        unit: unit,
+                        type: type,
+                        length: length,
+                        width: width,
+                        height: height,
+                        scale: box_scale,
+                        origin: 'home_page',
+                    },
+                    success: function (res) {
+                        console.log(res);
+                        if (res.error == "1") {
+                        } else {
+                            var final_price = "";
+                            res.prices.map(function(price) {
+                                final_price = Math.round(((100-price.discount)/100) * price.amount);
+                                $('#prices').text(final_price);
+                                $("#country").text(destination);
+                            });
+                        }
+                    }
+                });
+            }
+        });
+    </script>
 @endsection
 
 
