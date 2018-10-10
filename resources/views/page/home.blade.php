@@ -184,11 +184,17 @@
                 <div class="col-md-12 col-sm-11 col-xs-11  col-lg-12 div-main-row">
                     <strong>
                         <b><h1 class="header1 p-color-white header-text-margin">
-                                International Shipping from India <span id="country"></span>
-                                starting <br> at just <span class="p-color-red">*₹<span id="prices"></span></span><span
+                                International Shipping from India
+                                starting <br> at just <span class="p-color-red">*₹690</span><span
                                     style="color: #ffffff">!</span>
 
                             </h1></b>
+                        {{--<b><h1 class="header1 p-color-white header-text-margin">--}}
+                                {{--International Shipping from India <span id="country"></span>--}}
+                                {{--starting <br> at just <span class="p-color-red">*₹<span id="prices"></span></span><span--}}
+                                    {{--style="color: #ffffff">!</span>--}}
+
+                            {{--</h1></b>--}}
                     </strong>
                 </div>
                 <div class="row" style="margin-left: 0px;margin-right: 0px;" id="row-padding-shop">
