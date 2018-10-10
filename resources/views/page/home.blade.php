@@ -1,8 +1,8 @@
 @extends('layout')
 
 @section('title', 'ShoppRe - Shop Indian Stores & Ship Internationally | Courier Service')
-@section('description', 'Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India&#039;s #1 international courier, shipping and consolidation company.')
-@section('keywords', 'shop and ship, courier service, shoppre, consolidation company, indian store, ship internationally')
+@section('description', 'Sign Up for Indian Address. Shop your favorite Indian store and Ship Internationally. India&#039;s #1 international courier, shipping and consolidation company.')
+@section('keywords', 'shop and ship, courier service, shoppre, consolidation company, indian store, ship internationally, dhl, dtdc, cheapest package forwarding')
 
 @section('css_style')
     <!-- Owl Carousel -->
@@ -23,7 +23,7 @@
     <meta name="twitter:site" content="@Go_Shoppre"/>
     <meta name="twitter:title" content="Shop and Ship with ShoppRe | International Courier & Consolidation Services"/>
     <meta name="twitter:description"
-          content="Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India's #1 international courier, shipping and consolidation company."/>
+          content="Sign Up for Indian Address. Shop your favorite Indian store and Ship Internationally. India's #1 international courier, shipping and consolidation company."/>
     <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
 
 
@@ -210,7 +210,7 @@
                                 <a href="{{route('ifs.index')}}">
                                     <div class="btn-shop-ship" id="btn-shop-ship">
                                         <p class="shop-ship-btn-name">
-                                            {{--SHOP & SHIP--}}
+                                            SHOP & SHIP
                                         </p>
                                     </div>
                                 </a>

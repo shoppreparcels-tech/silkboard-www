@@ -1,9 +1,8 @@
 @extends('layout')
 
-@section('title', 'ShoppRe - Shop Indian Stores & Ship Internationally | Courier Service')
-@section('description', 'Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India&#039;s #1 international courier, shipping and consolidation company.')
-@section('keywords', 'shop and ship, courier service, shoppre, consolidation company, indian store, ship internationally')
-
+@section('title', 'Shop & Ship | Personal Shopper | International Shipping From India - ShoppRe.com')
+@section('description', 'ShoppRe an international shipping service that allows you to shop from India, and delivery to your doorstep with 20-day FREE storage & consolidation services.')
+@section('keywords', 'shop and ship, personal shopper, storage, repackaging, consolidation service, ship from india to usa, shop from india to usa')
 
 
 @section('css_style')
@@ -41,8 +40,8 @@
                 <center>
                     <h2 class="header1 p-color-cement-dark">How it Works?</h2>
                     <p class="header4 p-color-cement">We receive your order at our
-                        shoppre facility and can provide Storage,<br>
-                        Repackaging and Consolidation Service to send at your abroad address</p>
+                        ShoppRe facility and can provide Storage,<br>
+                        Repackaging and <a href="https://www.shoppre.com/consolidation-service">Consolidation Service</a> to send at your abroad address</p>
                 </center>
             </div>
         </div>
@@ -61,7 +60,7 @@
                             Address</h3>
                     </center>
                     <img class="img-responsive img-ifs-v_addres " style="margin-top:50px;"
-                         src="img/svg/step1.svg">
+                         src="img/svg/virtual-address-india.svg" alt="get a free virtual address">
                 </div>
                 <div class="" style="padding: 0;display: none;" id="text1">
                     <h3 class="header4 p-color-cement-dark p-ifs-margin-h"
@@ -88,7 +87,7 @@
                         </h3>
                     </center>
                     <img class="img-responsive img-ifs-v_addres " style="margin-top: 20px;"
-                         src="img/svg/step_2.svg">
+                         src="img/svg/indian-online-shoppping-store.svg" alt="purchase from indian online stores">
                 </div>
 
                 <div class="" style="padding: 0" id="text2">
@@ -116,7 +115,7 @@
                             Receive your package </h3>
                     </center>
                     <img class="img-responsive img-ifs-v_addres " style="margin-top: 20px;"
-                         src="img/svg/step3.svg">
+                         src="img/svg/receive-your-package.svg" alt="receive your package from india">
                 </div>
 
                 <div class="" style="padding: 0" id="text3">
@@ -165,11 +164,11 @@
             </div>
             <div class="col-xs-12 col-sm-12 mobile-images">
                 <center>
-                    <img class="img-responsive " id="mobile-image1" src="img/svg/step1.svg">
+                    <img class="img-responsive " id="mobile-image1" src="img/svg/virtual-address-india.svg" alt="get a free virtual address">
                     <img class="img-responsive " id="mobile-image2" style="width: 80%;display: none;"
-                         src="img/svg/step_2.svg">
+                         src="img/svg/indian-online-shoppping-store.svg" alt="purchase from indian online stores">
                     <img class="img-responsive " id="mobile-image3" style="width: 80%;display: none;"
-                         src="img/svg/step3.svg">
+                         src="img/svg/receive-your-package.svg" alt="receive your package from india">
                 </center>
             </div>
         </div>
@@ -208,7 +207,7 @@
             <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                 <div class="row">
                     <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
-                        <img class="img " src="img/svg/4-layers.svg">
+                        <img class="img " src="img/svg/international-credit-card-shopping.svg" alt="international credit card shopping">
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
                         <h4 class="header5 p-color-cement-dark">Store does't accept your <br> International Credit
@@ -218,14 +217,14 @@
 
 
                     <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
-                        <img class="img" src="img/svg/4-layers1.svg">
+                        <img class="img" src="img/svg/indian-phone-number.svg" alt="indian number">
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
                         <h4 class="header5 p-color-cement-dark">Don't have Indian number to <br> verify your order?
                         </h4>
                     </div>
                     <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
-                        <img class="img" src="img/svg/4-layers2.svg">
+                        <img class="img" src="img/svg/indian-address-shopping.svg" alt="indian address for shopping">
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
                         <h4 class="header5 p-color-cement-dark">Don't have an Indian address?
@@ -248,7 +247,7 @@
 
             </div>
             <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 " id="img-shopping">
-                <img class=" img-priyamani-shopping" src="img/images/image_personal_shopper_001@2x.png">
+                <img class=" img-priyamani-shopping" src="img/images/personal-shopper-service.png" alt="personal shopper service in india">
             </div>
 
         </div>
@@ -258,7 +257,7 @@
 
     <section>
         <div class="container" style="margin-top: 50px;margin-bottom: 50px;">
-            <img class="img-responsive " src="img/images/ifs_reviews.png">
+            <img class="img-responsive " src="img/images/shop-and-ship-reviews.png" alt="shoppre reviews">
         </div>
     </section>
 
@@ -390,7 +389,7 @@
                         <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
                             <center>
                                 <img class="img-responsive ifs-image1"
-                                     src="img/svg/image_benefit_001.svg">
+                                     src="img/svg/personal-shopping-india.svg" alt="personal shopper in india">
                             </center>
 
                         </div>
@@ -433,7 +432,7 @@
                         <div class="col-md-9 col-lg-9 col-sm-8 col-xs-8">
                             <center>
                                 <img class="img-responsive ifs-image2 "
-                                     src="img/svg/image_benefit_003.svg">
+                                     src="img/svg/20-days-free-storage-shipping.svg" alt="20 days free storage shopping">
                             </center>
                         </div>
                         <div class="col-md-2 col-lg-2 col-sm-4 col-xs-4">
@@ -451,7 +450,7 @@
                                 <h4 class="header4 p-color-cement-dark ifs-font-weight">Before
                                     Consolidation</h4>
                                 <img class="img-responsive ifs-img3"
-                                     src="img/svg/image_benefit_002A.svg">
+                                     src="img/svg/before-consolidation.svg" alt="consolidation shipping services">
                             </center>
                         </div>
                         <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2" style="margin-top: 20%">
@@ -467,7 +466,7 @@
                                 <h4 class="header4 p-color-cement-dark ifs-font-weight">After
                                     Consolidation</h4>
                                 <img class="img-responsive ifs-img3"
-                                     src="img/svg/image_benefit_002B.svg">
+                                     src="img/svg/after-consolidation.svg" alt="consolidation shipping india">
                             </center>
                         </div>
                     </div>
@@ -481,7 +480,7 @@
                         </div>
                         <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                             <img class="img-responsive" id="Re-packaging"
-                                 src="img/svg/image_benefit_004.svg">
+                                 src="img/svg/repacking-shipping.svg" alt="shopping with shoppre repacking service">
                         </div>
                         <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                             <p class="header7 p-color-cement p-ifs-img4">
@@ -505,7 +504,7 @@
                         </div>
                         <div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
                             <img class="img-responsive ifs-img5"
-                                 src="img/svg/image_benefit_005.svg">
+                                 src="img/svg/affordable-shipping-rates.svg" alt="affordable international shipping rates">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <p class="header7 p-color-cement p-ifs-img5">
@@ -527,7 +526,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                             <center>
                                 <img class="img-responsive ifs-img-6"
-                                     src="img/svg/image_benefit_006.svg">
+                                     src="img/svg/customer-support-shipping.svg" alt="customer support shoppre">
                             </center>
 
                         </div>
@@ -565,7 +564,7 @@
                                 </div>
                                 <div class="row">
                                     <img class="img-responsive ifs-image1" style="margin-top: 30px;"
-                                         src="img/svg/image_benefit_001.svg">
+                                         src="img/svg/personal-shopping-india.svg" alt="personal shopper in india">
                                 </div>
                             </center>
                             <div class="row">
@@ -623,7 +622,7 @@
                             <div class="row" style="padding-left: 10px; padding-right: 10px;">
                                 <center>
                                     <img class="img-responsive ifs-image2 "
-                                         src="img/svg/image_benefit_003.svg">
+                                         src="img/svg/20-days-free-storage-shipping.svg" alt="20 days free storage shopping">
                                 </center>
                             </div>
                             <div class="row">
@@ -654,7 +653,7 @@
                                         <h4 class="header6 p-color-cement-dark ifs-font-weight">Before
                                             Consolidation</h4>
                                         <img class="img-responsive ifs-img3"
-                                             src="img/svg/image_benefit_002A.svg">
+                                             src="img/svg/before-consolidation.svg" alt="consolidation shipping services">
                                     </center>
                                 </div>
                                 <div class="col-sm-6 col-xs-6">
@@ -662,7 +661,7 @@
                                         <h4 class="header6 p-color-cement-dark ifs-font-weight">After
                                             Consolidation</h4>
                                         <img class="img-responsive" style="height:180px;margin-top: 50px"
-                                             src="img/svg/image_benefit_002B.svg">
+                                             src="img/svg/after-consolidation.svg" alt="consolidation shipping india">
                                     </center>
                                 </div>
                             </div>
@@ -700,7 +699,7 @@
                             <div class="row">
                                 <center>
                                     <img class="img-responsive "
-                                         src="img/svg/image_benefit_004.svg">
+                                         src="img/svg/repacking-shipping.svg" alt="shopping with shoppre repacking service">
                                 </center>
                             </div>
                             <div class="row">
@@ -745,7 +744,7 @@
                             <div class="row">
                                 <center>
                                     <img class="img-responsive ifs-img5"
-                                         src="img/svg/image_benefit_005.svg">
+                                         src="img/svg/affordable-shipping-rates.svg" alt="affordable international shipping rates">
                                 </center>
                             </div>
                             <div class="row">
@@ -783,7 +782,7 @@
                             <div class="row">
                                 <center>
                                     <img class="img-responsive ifs-img-6" style="margin-top: 10px;"
-                                         src="img/svg/image_benefit_006.svg">
+                                         src="img/svg/customer-support-shipping.svg" alt="customer support shoppre">
                                 </center>
                             </div>
                             <div class="row">
@@ -807,7 +806,7 @@
     <section>
         <div class="container" style="padding-bottom: 30px">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive img-shipments1" src="img/images/back_ifs@2x.png">
+                <img class="img-responsive img-shipments1" src="img/images/seller-shipping-shoppre.png" alt="seller shipping on shoppre">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="header1 p-color-cement-dark p-seller">Are you a Seller? <br>
