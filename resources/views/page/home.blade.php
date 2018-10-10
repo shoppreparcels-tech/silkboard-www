@@ -1077,7 +1077,9 @@
     <script>
         $.ajax({
             url: "https://api.myip.com",
-            crossDomain: true,
+            headers: {
+                'Access-Control-Allow-Origin': '*'
+            },
             type: 'GET',
             dataType: 'json',
             success: function(res) {
