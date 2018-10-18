@@ -9,7 +9,7 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-color: #ffffff;
-    /*margin: -89px 0 10px 0;*/
+    padding-bottom: 50px;
 }
 
 .div-shop-ship-tabs{
@@ -100,7 +100,7 @@ a:hover, a:focus {
     /*padding: 20px;*/
     background: #fff;
     font-size: 14px;
-    color: #a09d9d;
+    color: #677582;
     line-height: 26px;
 }
 
@@ -158,8 +158,8 @@ a:hover, a:focus {
 }
 
 .btn-cal-shop-ship {
-    width: 109px;
-    height: 22px;
+    width: 130px;
+    height: 35px;
     background-color: #11273b;
     color: #929ca5;
     font-family: Montserrat;
@@ -187,13 +187,14 @@ a:hover, a:focus {
 }
 
 .btn-cal-courier {
-    width: 109px;
-    height: 22px;
+    width: 130px;
+    height: 35px;
     background-color: #11273b;
     color: #929ca5;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 400;
+    margin-left: 30%;
 }
 
 /*arrow*/
@@ -205,7 +206,7 @@ a:hover, a:focus {
 
 .arrow_box:after, .arrow_box:before {
     bottom: 100%;
-    left: 50%;
+    left: 25%;
     border: solid transparent;
     content: " ";
     height: 0;
@@ -217,8 +218,8 @@ a:hover, a:focus {
 .arrow_box:after {
     border-color: rgba(255, 255, 255, 0);
     border-bottom-color: #fff;
-    border-width: 20px;
-    margin-left: 30px;
+    border-width: 10px;
+    margin-left: 40px;
 }
 
 .arrow_box:before {
@@ -256,6 +257,29 @@ a:hover, a:focus {
     border-radius: 60px;
     background-color: #e85151;
     margin-top: 10px;
+}
+
+.header h1 span{
+    color: #fdf699
+}
+.header-ifs-p{
+    margin-top:170px;
+}
+.header-ifs-p1{
+    margin-bottom: 115px;
+}
+.section-seller{
+    padding-bottom: 30px
+}
+.seller-p{
+    margin-left: 26px;
+}
+.seller-p span{
+    color: #507dbc;
+}
+.ifs-font-weight1{
+    margin-left: -40px;
+    margin-top: -30px;
 }
 
 .btn-info {
@@ -322,6 +346,8 @@ a:hover, a:focus {
     height: 418px;
     border: 1px solid rgba(146, 156, 165, 0.1);
     background-color: #fafafb;
+    padding-left: 3em;
+    margin-top: 40px
 }
 
 .div-volumetric-weight {
@@ -413,6 +439,7 @@ a:hover, a:focus {
 .membership-feature-text-margin{
     margin-top: 165px;
 }
+
 .btn-membership-plans-yearly:hover {
     background-color: #e85151;
     color: #ffffff;
@@ -491,7 +518,7 @@ a:hover, a:focus {
     border-radius: 60px !important;
     background-color: #e85151;
     margin: 20px 0 20px 0;
-    padding: 10px 30px;
+    padding: 10px 20px;
 }
 
 .p-service-tax {
@@ -602,6 +629,7 @@ a:hover, a:focus {
     background-color: #507dbc;
     margin-top: 28px;
     color: #ffffff;
+    padding-top:.1%
 }
 
 .btn-courier-know {
@@ -655,12 +683,98 @@ a:hover, a:focus {
     margin-top: 1px;
     padding: 4px;
 }
-.works_flow li, img {
+.div-monthly-plans img{
     margin-top: 30px;
+}
+#final-price{
+    color: #507dbc
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .arrow_box:after, .arrow_box:before {
+        bottom: 100%;
+        left: 16%;
+    }
+    .btn-membership-plans-monthly {
+        margin-left: 22.3em;
+    }
+
+    .div-volumetric-weight-img {
+        width: 360px;
+    }
+    .txt-length {
+        width: 37px;
+        height: 31px;
+    }
+    .btn-puls-minus {
+        font-size: 20px;
+    }
+    #weight-option-padding{
+      padding-left: 20px;
+    }
+    .btn-price-cal-sounds-good, .btn-price-cal-v-address {
+        width: 230px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+}
+@media only screen and (max-width: 768px) {
+    #Price-cal{
+        display: none;
+    }
+    .div-country-guide-information {
+        width: 220px;
+        height: 250px;
+        padding-left: 2em;
+        padding-top: 1em;
+    }
+    #final-price{
+        margin-left: 16px;
+    }
+    .text-final-price-margin {
+        margin-left: 20px;
+    }
+    .price-cal-desktop{
+      display: none;
+    }
+    .price-cal-mobile{
+        display: block;
+    }
+    .view-all-features {
+        margin-top: 91px;
+    }
+    .btn-plans-seller {
+        margin: 9px 0 20px 0;
+    }
+    .btn-membership-plans-monthly {
+        margin-left: 14.3em;
+    }
+
+}
+@media only screen and (max-width: 736px) {
+
+}
+@media only screen and(max-width: 734px) {
+
+}
+@media only screen and (max-width: 684px) {
+
+}
+@media only screen and (max-width: 667px) {
+
+}
+@media only screen and (max-width: 640px) {
+
+}
+@media only screen and (max-width: 603px) {
+
 }
 @media only screen and (max-width: 600px) {
     .div-shop-ship-tabs{
-     padding-left: 0px;
+        padding-left: 0px;
     }
     #Price-cal {
         display: none;
@@ -696,10 +810,10 @@ a:hover, a:focus {
         color: #ffffff;
     }
     /*.btn-price-cal-v-address a:hover {*/
-        /*-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);*/
-        /*-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);*/
-        /*box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);*/
-        /*color: #ffffff;*/
+    /*-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);*/
+    /*-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);*/
+    /*box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);*/
+    /*color: #ffffff;*/
     /*}*/
     #price-cal-btn-margin{
         margin-top: 20px;
@@ -739,9 +853,9 @@ a:hover, a:focus {
     .view-all-features{
         font-weight: 500;
         margin-top: 0px;
-        margin-bottom: 62px;
+        margin-bottom: 46px;
     }
-    .works_flow li, img {
+    .div-monthly-plans img{
         margin-top: 20px;
     }
     .membership-text-margin{
@@ -754,7 +868,8 @@ a:hover, a:focus {
         margin-top: 0px;
     }
     .btn-plans-seller {
-        padding: 10px 20px;
+        padding: 11px 12px;
+        margin-top: 20px;
     }
     .div-features-contents div{
         padding-top: 5px;
@@ -767,7 +882,39 @@ a:hover, a:focus {
         margin-left: 10px;
     }
     /*.div-plan-box div{*/
-        /*padding-top: 10px;*/
-        /*padding-bottom: 10px;*/
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
     /*}*/
+}
+@media only screen and (max-width: 568px) {
+
+}
+@media only screen and (max-width: 480px) {
+
+}
+@media only screen and (max-width: 460px) {
+
+}
+
+@media only screen and (max-width: 414px) {
+
+}
+
+@media only screen and (max-width: 412px) {
+
+}
+
+@media only screen and (max-width: 384px) {
+
+}
+
+@media only screen and (max-width: 375px) {
+
+}
+
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 320px) {
+
 }

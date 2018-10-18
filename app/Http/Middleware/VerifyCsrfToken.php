@@ -15,6 +15,6 @@ class VerifyCsrfToken extends BaseVerifier
         '/pricing/*',
         '/calculate-shipping',
         '/schedule-pickup/asana-tracking',
-
+        '/country-specific'
     ];
 }

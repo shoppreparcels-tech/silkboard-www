@@ -21,4 +21,5 @@ Route::post('/leads/signup', 'LeadController@create')->name('leads.signup');
 
 Route::post('/campaign/newaspaper', 'PageController@saveFlyerUser')->name('flyerUser');
 Route::post('/schedule-pickup/submit', 'SchedulePickupController@submit')->name('schedulePickup.submit');
+Route::post('/subscribe', 'PageController@createSubscriber')->name('subscribe');
 

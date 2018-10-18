@@ -462,9 +462,8 @@
                       }else{
                           data.prices.map(function(price) {
                               $('#ship_oldcost').text(price.amount);
-                              var disamount = ((100-price.discount) / 100) * price.amount;
-                              var finalcost = Math.round(price.amount - disamount).toFixed(2);
-                              $('#ship_cost').text(price.amount - disamount);
+                              var finalcost = Math.round(((100-price.discount)/100) * price.amount).toFixed(2);
+                              $('#ship_cost').text(finalcost);
                               $('#ship_time').text(price.time);
                               $('#ship_disc').text(price.discount);
                               $('#ship_result').slideDown();

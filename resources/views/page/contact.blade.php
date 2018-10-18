@@ -1,30 +1,57 @@
 @extends('layout')
 
-@section('title', 'Contact | Shoppre - International Shipping Partner')
-@section('description', 'Have any questions or concerns? about your package or shipping services please call us at +91-8040944077 or start Live chat, Whatsapp with Team Shoppre.')
-@section('keywords', 'questions, concerns, about your package, shipping services, please call us, start live chat, whatsapp, team shoppre')
+@section('title', 'Contact Support | Customer Care 24*7 | Shipping FAQ - ShoppRe.com')
+@section('description', 'Have any questions or concerns? about your purchase or shipping services. Contact our customer care or chat specialists & FAQ resources are available 24*7.')
+@section('keywords', 'about your package, shipping services, helpline number, start live chat, shipping faq, team shoppre')
 
 @section('css_style')
-<style>
-  #map1,#map2 {
-    height: 180px;
-    width: 100%;
-   }
-   .infobox{}
-   .infobox h5{margin: 0;}
-   .infobox p{margin: 0;font-size: 12px;margin-top: 5px !important;}
-</style>
+    <meta property="og:title" content="Customer Support ShoppRe | International Courier & Consolidation Services"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="Have any questions or concerns? about your purchase or shipping services. Contact our customer care or chat specialists & FAQ resources are available 24*7"/>
+    <meta property="og:url" content="https://www.shoppre.com/contact"/>
+    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
+    <meta property="og:site_name" content="ShoppRe"/>
+
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@Go_Shoppre"/>
+    <meta name="twitter:title" content="Customer Support ShoppRe | International Courier & Consolidation Services"/>
+    <meta name="twitter:description" content="Have any questions or concerns? about your purchase or shipping services. Contact our customer care or chat specialists & FAQ resources are available 24*7"/>
+    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
+
+
+    <meta name="twitter:app:country" content="IN"/>
+    <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
+    <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
+    <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
+
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "https://www.shoppre.com/contact",
+  "logo": "https://www.shoppre.com/img/images/shoppre-logo.png",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+91-8040944077",
+    "contactType": "customer service"
+  }]
+}
+
+</script>
+
+    <span itemscope itemtype="http://schema.org/Organization">
+  <link itemprop="url" href="https://www.shoppre.com">
+  <a itemprop="sameAs" href="https://www.facebook.com/goshoppre">FB</a>
+  <a itemprop="sameAs" href="https://twitter.com/Go_Shoppre">Twitter</a>
+  <a itemprop="sameAs" href="https://www.instagram.com/shoppre_official">Instagram</a>
+ <a itemprop="sameAs" href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw">YouTube</a>
+</span>
+
+
 @endsection
 
 @section('content')
-    {{--<section class="page_head">--}}
-    {{--<div class="pagebanner">--}}
-    {{--<img src="{{asset('img/banner2.jpg')}}" width="100%">--}}
-    {{--<div class="banner-cap">--}}
-    {{--<h2>Contact <span class="text-orange">Us</span></h2>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</section>--}}
     <section class="heading-section">
         <div class="container">
             <div class="row padding-bottom">
@@ -52,8 +79,6 @@
                                 </button>
                             </span>
 
-                        {{--<input type="text" style="height: 50px;width: 500px;  border-radius: 60px">--}}
-
                         <input
                            type="text"
                            class="form-control input-lg  search-bar-input"
@@ -73,15 +98,15 @@
                 <div class="col-md-9 col-md-offset-2 col-sm-12 col-xs-12 border-bottom">
                     <ul class="list-unstyled faq-list">
                         <li><a href="{{route('faq')}}">Do you provide a Membership Plan?</a></li>
-                        <li><a href="{{route('faq')}}">Is the address provided by Shoppre, a PO Box address?</a></li>
+                        <li><a href="{{route('faq')}}">Is the address provided by ShoppRe, a PO Box address?</a></li>
                         <li><a href="{{route('faq')}}">Why was my Registration Unsuccessful?</a></li>
                         <li><a href="{{route('faq')}}">How do I use my address?</a></li>
-                        <li><a href="{{route('faq')}}">Why Choose Shoppre?</a></li>
+                        <li><a href="{{route('faq')}}">Why Choose ShoppRe?</a></li>
                         <li><a href="{{route('faq')}}">What couriers do you use to send my merchandise and documents?</a></li>
                         <li><a href="{{route('faq')}}">How can I get my package(s) shipped?</a></li>
                         <li><a href="{{route('faq')}}">How does repacking save me money?</a></li>
                         <li><a href="{{route('faq')}}">What is consolidation, and how does it help me save?</a></li>
-                        <li><a href="{{route('faq')}}">Will Shoppre forward my packages to me when I am traveling?</a></li>
+                        <li><a href="{{route('faq')}}">Will ShoppRe forward my packages to me when I am traveling?</a></li>
                         <li><a href="{{route('faq')}}">How does repacking save me money?</a></li>
                         <li><a href="{{route('faq')}}">What is consolidation, and how does it help me save?</a></li>
                     </ul>
@@ -105,7 +130,7 @@
                     <div class="div-phone">
                         <center>
                             <img src="{{asset('img/svg/phone.svg')}}" id="phone">
-                            <p class="header6 p-color-white ">Didn't find the answer you need Contact us!</p>
+                            <p class="header6 p-color-white ">Didn't find the answer you need? Contact us!</p>
                         </center>
                     </div>
                 </div>
@@ -113,22 +138,22 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <h2 class="header2 p-color-white">+91 80 4094 4077</h2>
+                        <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
                 <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align ">
                     <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
-                    <h2 class="header2 p-color-white">support@shoppre.com</h2>
+                     <a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>
 
                 </div>
 
-                <div
-                    class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details pull-right contact-text-align">
+                <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details pull-right contact-text-align">
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
                         </i>Live Chat</p>
-                    <h2 class="header2 p-color-white">Chat Now</h2>
+                        <a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#" class="header2 p-color-white">Chat Now</a>
+
                 </div>
             </div>
         </div>

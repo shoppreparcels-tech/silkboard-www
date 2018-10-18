@@ -74,9 +74,8 @@
         <div class="container header-padder-top">
             <center>
                 <p class="header1 p-color-white">Customer Reviews</p>
-                <p class="header4 p-color-cement header-margin-bottom">Our members loves our top-rated
-                    service and how easy and worry
-                    <br>free we make shopping and shipping from INDIA
+                <p class="header4 p-color-cement header-margin-bottom">Our customers love our top-rated
+                    service and how easy & worry-free<br> we make shopping and shipping from INDIA!
                 </p>
             </center>
         </div>
@@ -133,7 +132,7 @@
                         <div class="row">
                             <div class="col-md-4 col-lg-4 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
                                 <div class="form-group">
-                                    <label>Contact Person Full Name <span class="mendatory_fields">*</span></label>
+                                    <label>Your Name <span class="mendatory_fields">*</span></label>
                                     <input id="input-rate" type="text" name="person" placeholder="enter name"
                                            class="form-control"/>
                                 </div>

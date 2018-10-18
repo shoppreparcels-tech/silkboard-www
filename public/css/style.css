@@ -624,18 +624,12 @@ label.error {
     margin-left: 0 !important
 }
 
-.navbar-nav {
-    margin-left: -15px
-}
+/*.navbar-nav {*/
+    /*margin-left: -15px*/
+/*}*/
 
 .text_font {
     font-size: 17px
-}
-
-.navbar-brand img {
-    width: 155px;
-    height: 45px;
-    float: left;
 }
 
 .navbar-default {
@@ -6224,7 +6218,7 @@ ul.newsticker li span {
     .navbar-brand img, .navbar-default .nav li {
         padding: 10px;
         height: 49px;
-        width: 100%;
+         /*width: 100%;*/
         /*width: 83px;*/
         /*height: 24px;*/
     }

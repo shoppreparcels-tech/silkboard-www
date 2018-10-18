@@ -53,7 +53,7 @@ Route::get('/ics', 'PageController@icsIndex')->name('ics.index');
 Route::get('/shop-from-india-ship-worldwide', 'PageController@ifsIndex')->name('ifs.index');
 //Route::get('/about-new', 'PageController@aboutIndex')->name('about-new.index');
 Route::get('/offers-new', 'PageController@offersIndex')->name('offers-new.index');
-Route::get('/pricing1', 'PageController@pricing1')->name('pricing1');
+Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
 
 /*-------- Dhl Shipments ------*/
 Route::get('/dhl', 'ShippingPartnerController@dhlIndex')->name('dhl.index');
@@ -70,6 +70,9 @@ Route::get('/dtdc/shipment/{id}', 'ShippingPartnerController@dtdcShipmentDetail'
 /*-------- shoppre story ------*/
 Route::get('/stories', 'StoryController@index')->name('story.index');
 Route::get('/story/{slug}', 'StoryController@view')->name('story.detail');
+
+/*-------- Country Specific ------*/
+Route::get('/country-specific', 'PageController@getCountry')->name('home.country-specific');
 
 /*-------- Flash Sale ------*/
 
@@ -103,7 +106,7 @@ Route::get('/register', 'Customer\RegisterController@register')->name('customer.
 Route::get('/chat-email', 'PageController@chatMailIndex')->name('chatMail.index');
 Route::post('/chat-email', 'PageController@chatMailSent')->name('chatMail.sent');
 Route::get('/chat-email/confirm', 'PageController@chatMailConfirm')->name('chatMail.confirm');
-Route::get('/shipments', 'SchedulePickupDetailController@pickupList')->name('schedulePickup.List');
+//Route::get('/shipments', 'SchedulePickupDetailController@pickupList')->name('schedulePickup.List');
 Route::get('/shipment/{id}', 'SchedulePickupDetailController@pickupView')->name('schedulePickup.View');
 
 Route::get('/campaigns', 'CampaignController@index')->name('campaign.index');

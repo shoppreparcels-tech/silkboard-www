@@ -7,6 +7,269 @@
     font-family: Montserrat !important;
 
 }
+/*mega menu css*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+
+.navbar-inverse {
+    background-color: #11273b !important;
+    border: none !important;
+}
+.navbar-inverse .navbar-nav>li>a {
+   color: #929ca5 !important;
+}
+.navbar-inverse .navbar-toggle {
+    border-color:#11273b !important;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color:#11273b !important;
+}
+.navbar-collapse.in {
+    overflow-y: hidden !important;
+}
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #11273b !important;
+
+}
+
+.navbar-brand img {
+    width: 155px;
+    height: 45px;
+    float: left;
+}
+.li-login{
+    margin-left: 17px;
+}
+.navbar-header-login>ul>li{
+    font-size: 14px;
+    width: 70px;
+    display: none;
+    float: right;
+    padding-top: 2px;
+    padding-left: 5px;
+    margin-top: 8px;
+
+}
+.navbar-header-login>ul>li>a{
+    color: #929ca5;
+}
+.new-menu-register{
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #e85151;
+    transition: 0.6s;
+}
+
+.new-menu-register:hover{
+    background-color: #C83B3B;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);
+}
+
+.mega-dropdown {
+    position: static !important;
+}
+.navbar-nav {
+    padding-top: 20px;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.dropdown-menu {
+    left:0;
+}
+.dropdown-header {
+    padding-left: 0 !important
+}
+.mega-dropdown-menu > li > ul {
+    padding: 0;
+    margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+    list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+    display: block;
+    color: #222;
+    padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+    text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+    font-size: 18px;
+    /*color: #ff3546;*/
+    padding: 5px 60px 5px 5px;
+    line-height: 30px;
+}
+.mega-dropdown-menu-about {
+    padding: 20px 0px;
+    width: 50%;
+    box-shadow: none;
+    margin-left: 12em;
+    -webkit-box-shadow: none;
+}
+.mega-menu-padding-left{
+    padding-left: 30px;
+}
+.mega-menu-header-text{
+    font-size: 16px;
+    color: #507dbc;
+    margin-top: 20px;
+    font-weight: 900;
+    padding-left: 10px
+}
+.div-header-devider{
+    width: 50px;
+    border: 2px solid #507dbc;
+    margin: 5px 0 10px 0;
+}
+.about-menu-links{
+    list-style: none;
+    text-decoration: none;
+    padding: 20px;
+}
+.about-menu-links li{
+    padding-top: 10px;
+}
+.about-menu-links li a:hover{
+    color: #e85151;
+}
+.div-megamenu-hover-effects{
+    transition: 0.6s;
+}
+.div-megamenu-hover-effects:hover{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f7f7f7;
+    padding-left: 20px;
+    margin-left: -20px;
+    /*margin-top: 20px;*/
+}
+.mega-menu-hyperlinks{
+    color: #e85151;
+    font-size: 14px ;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.mega-menu-hyperlinks:hover{
+    color: #e85151;
+    text-decoration: underline;
+}
+.carousel-control {
+    width: 30px;
+    height: 30px;
+    top: -35px;
+
+}
+.left.carousel-control {
+    right: 30px;
+    left: inherit;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+    font-size: 12px;
+    background-color: #fff;
+    line-height: 30px;
+    text-shadow: none;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+/*searchtext box*/
+
+.container-search{
+    width:300px;
+    margin-top: 5px;
+    /*display: block;*/
+}
+
+.searchbox{
+    position:relative;
+    min-width:50px;
+    width:0%;
+    height:50px;
+    float:right;
+    overflow:hidden;
+
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    transition: width 0.3s;
+}
+
+.searchbox-input{
+    top:0;
+    right:0;
+    border:0;
+    outline:0;
+    background:#ffffff;
+    width:100%;
+    height:30px;
+    margin:0;
+    padding:0px 35px 0px 20px;
+    font-size:20px;
+    color:#929ca5;
+    border-radius:30px;
+}
+.searchbox-input::-webkit-input-placeholder {
+    color: #929ca5;
+}
+.searchbox-input:-moz-placeholder {
+    color: #929ca5;
+
+}
+.searchbox-input::-moz-placeholder {
+    color: #929ca5;
+}
+.searchbox-input:-ms-input-placeholder {
+    color: #929ca5;
+}
+
+.searchbox-icon,
+.searchbox-submit{
+    width:50px;
+    height:30px;
+    display:block;
+    position:absolute;
+    top:0;
+    font-family:verdana;
+    font-size:22px;
+    right:0;
+    padding:0;
+    margin:0;
+    border:0;
+    outline:0;
+    /*line-height:50px;*/
+    text-align:center;
+    cursor:pointer;
+    color:#FFFFFF;
+    background:#11273b;
+
+}
+
+.searchbox-open{
+    width:100%;
+}
+/*searchtext box*/
+
+
+/*@media (max-width: 767px)*/
+
+/*mega menu css*/
 
 /*.container {*/
 /*border: 1px solid red;*/
@@ -142,19 +405,6 @@ header::after {
     /*align-content: center;*/
 }
 
-/*.reviews-header {*/
-/*color: #ffffff;*/
-/*font-family: Montserrat;*/
-/*font-size: 36px;*/
-/*font-weight: 600;*/
-/*line-height: 40px;*/
-/*letter-spacing: 1.8px;*/
-/*}*/
-
-/*.review-content-font-size {*/
-/*font-size: 16px;*/
-/*}*/
-
 .section-social-reviews {
     padding-top: 7%;
     padding-bottom: 20%;
@@ -190,13 +440,10 @@ header::after {
 }
 
 .btn-register-text {
-
     /*filter: Alpha(opacity=50);*/
 }
 
 .btn-hover:hover {
-    /*opacity: 0.6;*/
-    /*color: #ffffff;*/
     background-color: #C83B3B;
     -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);
     -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);
@@ -227,7 +474,9 @@ header::after {
     width: 17px;
     height: 16px;
 }
-
+.mega-menu-international strong{
+    font-style: italic;
+}
 /*first section*/
 .div-main {
     background-image: linear-gradient(180deg, #11273b 0%, #11273b 100%);
@@ -329,15 +578,69 @@ header::after {
     border-radius: 30px;
     padding-top: 45px;
 }
+/*mobile version*/
+.div-shop-ship1, .div-courier1 {
+    width: 160px;
+    height: 155px;
+    border-radius: 20px;
+}
+.div-shop-ship1 {
+    background-color: #e85151;
+    margin-left: 15px;
+}
+.div-courier1 {
+    background-color: #507dbc;
+    margin-left: 10px;
+}
 
+.btn-shop-ship1 {
+    background-color: #ffffff;
+    color: #e85151;
+}
+
+.btn-courier1 {
+    background-color: #507dbc;
+    color: #ffffff;
+}
+.btn-shop-ship1,
+.btn-courier1 {
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-top: 10px;
+
+    transition: 0.6s;
+}
+.btn-shop-ship1:hover {
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    /*opacity: 0.6;*/
+    /*border: 1px solid #E9C46A;*/
+    background-color: #FDF699;
+}
+
+.btn-courier1:hover {
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    background-color: #FDF699;
+    color: #507dbc;
+}
+/*mobile version*/
 .p-ship-shop-courier {
     color: #ffffff;
     font-size: 16px;
     font-weight: 700;
     line-height: 25px;
     /*letter-spacing: 0.9px;*/
-
 }
+
 
 .btn-shop-ship {
     background-color: #ffffff;
@@ -372,6 +675,10 @@ header::after {
 
 .btn-courier {
     margin-top: 48px
+}
+
+.div-video-margin{
+    margin-top: 30px;
 }
 
 .btn-shop-ship:hover {
@@ -410,8 +717,32 @@ header::after {
     margin: -219px 0px -13px -256px;
     height: 563px;
 }
+#desktop-version{
+  display: block;
+}
+#mobile-version{
+    display: none;
+}
+.div-mobile-background-img{
+    /*width: 360px;*/
+    width: 100%;
+    height: 268.56px;
+    background-color: linear-gradient(#ff7e5e 0%, #ff8191 100%);
+    background-image: url(../../img/svg/mobile-background.svg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
 
 .div-priyamani-mobile-img {
+
+    /*width: 224px;*/
+    /*margin-top: -150px;*/
+    /*margin-left: 149px;*/
+    /*position: absolute;*/
+
+
     background-image: url(../../img/images/priyamani-shoppre-brand-ambassador.png);
     height: 340px;
     width: 148px;
@@ -1054,7 +1385,7 @@ a#prev:hover, a#next:hover {
 
 .p-reviews {
     color: #677582;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
     font-style: italic;
     text-align: left;
@@ -1235,9 +1566,9 @@ a#prev:hover, a#next:hover {
 }
 
 .img-goto-top {
-    height: 83px;
+    /*height: 83px;*/
     width: 62px;
-    margin-top: -42px;
+    margin-top: -29px;
 }
 
 /*Delivering joy to your doorsteps*/
@@ -1417,20 +1748,22 @@ a#prev:hover, a#next:hover {
     min-height: 342px;
     margin-top: 27px
 }
+
 .rating-container .filled-stars {
     color: #ffc850 !important;
 }
-.star:hover{
+
+.star:hover {
     transform: rotate(-15deg) scale(1.3);
 }
 
 .form-control:focus {
     border-color: #507dbc !important;
 }
-#items td.total-value textarea:focus, #items td.total-value textarea:hover, .delete:hover, textarea:focus, textarea:hover{
-    background-color: white!important;
-}
 
+#items td.total-value textarea:focus, #items td.total-value textarea:hover, .delete:hover, textarea:focus, textarea:hover {
+    background-color: white !important;
+}
 
 .row-padding {
     padding-top: 2%;
@@ -1488,9 +1821,9 @@ a#prev:hover, a#next:hover {
 }
 
 .img-footer-logo {
-    margin: 56px 0 26px 0;
-    width: 221px;
-    height: 64px;
+    margin: 20px 0 10px 0;
+    width: 155px;
+    height: 45px;
 }
 
 #number {
@@ -1507,6 +1840,57 @@ a#prev:hover, a#next:hover {
 
 .footer-social-media {
     /*margin-top:30px;*/
+}
+
+.mail-section {
+    background-color: #102436;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.div-footer-mail-subscripton {
+    width: 660px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    padding: 5px;
+    float: right;
+    margin-top: 13px;
+}
+
+.btn-email-subscription {
+    width: 260px;
+    height: 40px;
+    border-radius: 50px !important;
+    background-color: #507dbc;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.txt-subscription {
+    width: 380px;
+    height: 39px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 10px;
+}
+
+#btn-mobile-mail {
+    display: none;
+}
+
+.img-flag-desktop img {
+    margin-top: -55px;
+}
+
+.img-mobile-flag {
+    height: 50px;
+    display: none;
+}
+
+.img-arrow {
+    margin-top: 2px;
+    /*margin-left: 130px;*/
 }
 
 .footer-social-media-font1 {
@@ -1528,8 +1912,8 @@ a#prev:hover, a#next:hover {
 
 /*Offer page Ending*/
 
-
 /*contactus page starting*/
+
 .no-padding {
     padding: 0px
 }
@@ -1657,6 +2041,11 @@ a#prev:hover, a#next:hover {
     padding-top: 5em;
     padding-bottom: 5em
 }
+.contact-details-section a:hover{
+    text-decoration: none;
+    color: #ffffff;
+
+}
 
 .faq-list li a {
     color: #929ca5;
@@ -1696,14 +2085,15 @@ a#prev:hover, a#next:hover {
 
 }
 
-.div-phone{
+.div-phone {
     width: 200px;
     height: 200px;
     border-radius: 40px 40px 0;
     border: 2px solid #fdf699;
 }
+
 .div-phone img {
-    margin-top:20px;
+    margin-top: 20px;
     width: 60%;
     max-width: 180px;
 }
@@ -1719,9 +2109,11 @@ a#prev:hover, a#next:hover {
     text-transform: uppercase;
 
 }
-.contact-text-align{
+
+.contact-text-align {
     text-align: left;
 }
+
 .contact-details i {
     padding-right: 10px
 }
@@ -1805,7 +2197,6 @@ a#prev:hover, a#next:hover {
     color: #12273b;
 }
 
-
 .under-line {
     padding: 20px 0px
 }
@@ -1837,9 +2228,10 @@ a#prev:hover, a#next:hover {
     font-family: Montserrat;
     font-size: 14px;
 }
-.dropdown-menu {
-    width: 887px ;
-}
+
+/*.dropdown-menu {*/
+    /*width: 887px;*/
+/*}*/
 
 .search-bar-input:focus {
     box-shadow: none;
@@ -1850,7 +2242,7 @@ a#prev:hover, a#next:hover {
     font-size: 15px;
 }
 
-.btn-contact-submit{
+.btn-contact-submit {
     width: 210px;
     color: #ffffff;
     height: 50px;
@@ -1860,18 +2252,27 @@ a#prev:hover, a#next:hover {
     background-color: #e85151;
     transition: 0.6s;
 }
-.btn-contact-submit:hover{
+
+.btn-contact-submit:hover {
     -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
     background-color: #C83B3B;
 }
+
 /*contactus page starting*/
 /*Media queries*/
 /* Extra small devices (phones, 600px and down) */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1024px) {
+    .container-search{
+        display: none;
+    }
+    .about-menu-links {
+        padding: 10px;
+        padding-top: 21px;
+    }
     .div-shop-ship,
     .div-courier {
         width: 217px;
@@ -1891,12 +2292,12 @@ a#prev:hover, a#next:hover {
     }
 
     .div-backgroud-img {
-        margin: 423px 0px 0 6px;
+        margin: 454px 0px 0 6px;
     }
 
     .img-priyamani {
-        margin: -176px 0px -13px -184px;
-        height: 455px;
+        margin: -164px 0px -13px -184px;
+        height: 451px;
     }
 
     .online-text {
@@ -1961,6 +2362,22 @@ a#prev:hover, a#next:hover {
     .div-btn {
         width: 229px
     }
+    .img-goto-top {
+        width: 50px;
+        margin-top: -21px;
+    }
+    .div-footer-mail-subscripton {
+        width: 548px;
+    }
+    .txt-subscription {
+        width: 330px
+    }
+    .btn-email-subscription {
+        width: 197px;
+    }
+    .img-payment-methods {
+        height: 86px;
+    }
 
     /*reviews page starting*/
     .btn-signup-review {
@@ -1969,12 +2386,13 @@ a#prev:hover, a#next:hover {
 
     /*reviews page ending*/
     /*contact page starting*/
-    .dropdown-menu {
+    .dropdown-menu1 {
         width: 703px;
         font-size: 13px;
         text-overflow: ellipsis;
         overflow: hidden;
     }
+
     /*contact page starting*/
 }
 
@@ -1998,6 +2416,9 @@ a#prev:hover, a#next:hover {
     }
 
     .div-backgroud-img {
+        display: none;
+    }
+    #header-menu{
         display: none;
     }
 
@@ -2093,6 +2514,27 @@ a#prev:hover, a#next:hover {
 }
 
 @media only screen and (max-width: 768px) {
+
+    .navbar-brand img{
+        height: 50px;
+        margin-top: -5px;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color:#ffffff;
+    }
+    .mega-dropdown-menu-about {
+        width: 70%;
+        margin-left: 6em;
+    }
+    .mega-menu-padding-left{
+        padding-left: 30px;
+    }
+    .new-menu-register {
+        margin-top: 0px;
+    }
+    .mega-dropdown-menu .dropdown-header {
+        font-size: 16px;
+    }
 
     .header1 {
         font-size: 30px;
@@ -2197,7 +2639,7 @@ a#prev:hover, a#next:hover {
     #hrline {
         display: block;
         width: 500px;
-        margin-left: 100px;
+        margin-left: 115px;
     }
 
     .btn-login-doorstep {
@@ -2240,6 +2682,9 @@ a#prev:hover, a#next:hover {
     .footer-container {
         margin-top: 50px;
     }
+    .img-payment-methods {
+        height: 100px;
+    }
 
     .div-footer-margin {
         margin-top: 40px;
@@ -2248,7 +2693,15 @@ a#prev:hover, a#next:hover {
     .row-divider {
         margin-top: 50px;
     }
-
+    .img-flag-desktop{
+     display: none;
+    }
+    .img-mobile-flag{
+        display: block;
+    }
+    .div-footer-mail-subscripton {
+        margin-right: 82px;
+    }
     /*reviews page starting*/
     .section-social-reviews {
         margin-bottom: 70px;
@@ -2259,7 +2712,6 @@ a#prev:hover, a#next:hover {
     }
 
     /*reviews page Ending*/
-
     /*contact page starting*/
     .div-phone {
         border: none;
@@ -2267,32 +2719,39 @@ a#prev:hover, a#next:hover {
         margin-left: 260px;
         border-bottom: 2px solid #fdf699;
     }
+
     .border-bottom {
         border: none;
     }
-    .contact-text-padding{
+
+    .contact-text-padding {
         padding-left: 15px;
         padding-right: 15px;
 
     }
+
     .btn-contact-submit {
         margin-left: 0px;
         height: 40px
     }
+
     .contact-text-align {
         text-align: center;
     }
-    .faqlink-div{
+
+    .faqlink-div {
         padding-right: 15px;
         padding-left: 15px;
     }
-    .dropdown-menu {
+
+    .dropdown-menu1 {
         width: 680px;
         margin-left: -20px;
         overflow: hidden;
         font-size: 12px;
         text-overflow: ellipsis;
     }
+
     /*contact page ending*/
 
 }
@@ -2301,9 +2760,24 @@ a#prev:hover, a#next:hover {
     .nav-a {
 
     }
+    #header-ul{
+        display: none;
+    }
+    .navbar-header-login>ul>li{
+        display: block;
+        margin-top: 2px;
+    }
+
+    .mega-dropdown-menu-about {
+        width: 100%;
+        margin-left: 0em;
+    }
 
     .div-backgroud-img {
         display: none;
+    }
+    .new-menu-register{
+        height: 25px;
     }
 
     .div-priyamani-mobile-img {
@@ -2347,6 +2821,10 @@ a#prev:hover, a#next:hover {
     .btn-login-doorstep {
         margin: 45px 0 98px 0;
     }
+    .img-payment-methods {
+        height: 130px;
+        padding-top: 13px;
+    }
 
     .img-card-transfer {
         margin-left: 8px;
@@ -2370,7 +2848,14 @@ a#prev:hover, a#next:hover {
     }
 
     #store-hide {
-        display: none;
+        display: block;
+    }
+    .img-goto-top {
+        width: 40px;
+        margin-top: -8px;
+    }
+    .div-footer-mail-subscripton {
+        margin-right: 70px;
     }
 
     /*review page starting*/
@@ -2390,13 +2875,14 @@ a#prev:hover, a#next:hover {
 
     /*review page ending*/
     /*contact page starting*/
-    .dropdown-menu {
+    .dropdown-menu1 {
         width: 650px;
         font-size: 12px;
         overflow: hidden;
         text-overflow: ellipsis;
         margin-left: -20px;
     }
+
     /*contact page starting*/
     .div-phone {
         border: none;
@@ -2404,26 +2890,32 @@ a#prev:hover, a#next:hover {
         margin-left: 245px;
         border-bottom: 2px solid #fdf699;
     }
+
     .border-bottom {
         border: none;
     }
-    .contact-text-padding{
+
+    .contact-text-padding {
         padding-left: 0px;
         padding-right: 0px;
         margin-top: 10px;
 
     }
+
     .btn-contact-submit {
         margin-left: 0px;
         height: 40px
     }
+
     .contact-text-align {
         text-align: center;
     }
-    .faqlink-div{
+
+    .faqlink-div {
         padding-right: 15px;
         padding-left: 15px;
     }
+
     /*contact page ending*/
     /*contact page ending*/
 }
@@ -2438,31 +2930,50 @@ a#prev:hover, a#next:hover {
     #store-hide {
         display: none;
     }
-    .contact-text-padding{
+
+    .contact-text-padding {
         padding-left: 0px;
         padding-right: 0px;
     }
+
     .div-phone {
         border: none;
         border-radius: 0px;
         margin-left: 245px;
         border-bottom: 2px solid #fdf699;
     }
+
     .mission-text {
         padding-top: 0;
     }
+
     .vision-text {
         padding-top: 0;
     }
+
     .mission-section, .vision-section, .delivery-section, .contact-details-section, .location-feedback {
         padding-bottom: 0;
     }
-    .dropdown-menu {
+
+    .dropdown-menu1 {
         width: 700px;
         margin-left: -50px;
         font-size: 12px;
         text-overflow: ellipsis;
         overflow: hidden;
+    }
+
+    .img-flag-desktop {
+        display: none;
+    }
+
+    .img-mobile-flag {
+        height: 50px;
+        display: block;
+    }
+
+    .div-footer-mail-subscripton {
+        margin-right: 14px;
     }
 }
 
@@ -2531,7 +3042,7 @@ a#prev:hover, a#next:hover {
     }
 
     #store-hide {
-        display: none;
+        display: block;
     }
 
     .reviews-page-review-google {
@@ -2541,12 +3052,16 @@ a#prev:hover, a#next:hover {
     .reviews-page-review-shoppre, .reviews-page-review-fb {
         margin: 60px 0px 60px -180px;
     }
-    .dropdown-menu {
+
+    .dropdown-menu1 {
         width: 615px;
         margin-left: -30px;
         font-size: 12px;
         overflow: hidden;
         text-overflow: ellipsis;
+    }
+    .div-footer-mail-subscripton {
+        margin-right: 50px;
     }
 
 }
@@ -2599,6 +3114,15 @@ a#prev:hover, a#next:hover {
     .p-payment-text {
         margin-left: -1px;
     }
+    #store-hide {
+        display: block;
+    }
+    .img-payment-methods {
+        height: 114px;
+    }
+    .div-footer-mail-subscripton {
+        margin-right: 36px;
+    }
 
     /*review page starting*/
     .reviews-page-review-google {
@@ -2612,6 +3136,64 @@ a#prev:hover, a#next:hover {
 
     /*review page Ending*/
 
+}
+
+@media only screen and (max-width: 640px) {
+    .navbar-brand img {
+        width: 151px;
+        height: 52px;
+    }
+    .div-stores-img {
+        width: 189px;
+        height: 154px;
+    }
+    .div-footer-mail-subscripton {
+        margin-right: 25px;
+    }
+}
+
+@media only screen and (max-width: 603px) {
+    .navbar-brand img {
+        width: 184px;
+        height: 55px;
+    }
+    .navbar-toggle {
+        padding: 13px 10px;
+    }
+    .navbar-header-login>ul>li {
+        display: block;
+        margin-top: 7px;
+    }
+
+    .div-priyamani-mobile-img {
+        width: 183px;
+        margin-top: -447px;
+    }
+
+    #img-cal {
+        margin-left: -70px;
+    }
+    #hrline {
+        display: block;
+        width: 300px;
+    }
+    #hrline {
+        margin-left: 124px;
+    }
+    .div-stores-img {
+        width: 170px;
+        height: 154px;
+    }
+    .hr-line-payment-method {
+        width: 300px;
+        margin-left: 126px;
+    }
+    .img-payment-methods {
+        height: 102px;
+    }
+    .div-footer-mail-subscripton {
+        margin-right: 6px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -3217,6 +3799,42 @@ a#prev:hover, a#next:hover {
 
 }
 
+@media only screen and (max-width: 568px) {
+    .navbar-toggle {
+        margin-top: 8px;
+    }
+    .div-main-row {
+        margin-left: 12px;
+    }
+    .div-priyamani-mobile-img{
+        width: 234px;
+        margin-top: -374px;
+    }
+    #p-demo-text-cal{
+        margin-left: -80px;
+    }
+    #hrline {
+        margin-left: 159px;
+    }
+    .div-stores-img {
+        width: 134px;
+        height: 79px;
+    }
+    .img-stores {
+        /*width: 81px;*/
+        height: 78px;
+    }
+    .div-footer-mail-subscripton {
+        margin-right: 0px;
+    }
+    .div-footer-mail-subscripton {
+        width: 528px;
+    }
+    .btn-email-subscription {
+        width: 174px;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     .logo {
         width: 83px;
@@ -3383,9 +4001,110 @@ a#prev:hover, a#next:hover {
     }
 }
 
+@media only screen and (max-width: 460px) {
+    .navbar-header-login>ul>li {
+        display: block;
+        margin-top: 10px;
+    }
+    .navbar-brand img {
+        width: 140px;
+    }
+    .navbar-toggle {
+        margin-top: 12px;
+    }
+    .mega-menu-padding-left {
+        padding-left: 16px;
+    }
+
+    .div-main-row {
+        margin-left: 9px;
+    }
+    .div-priyamani-mobile-img {
+        width: 206px;
+        margin-top: -446px;
+        /*width: 150px;*/
+        /*margin-top: -369px;*/
+    }
+    .div-shop-ship1, .div-courier1 {
+        width: 203px;
+    }
+    #mobile-version{
+        display: block;
+    }
+    #desktop-version{
+        display: none;
+    }
+    .div-mobile-background-img {
+        height: 331.56px;
+    }
+    .div-video-margin{
+        margin-top: 30px;
+    }
+    #img-cal1 {
+        margin-left: 54px;
+        /*margin-left: 18px;*/
+    }
+    #row-padding-shop1{
+        margin-top: 100px;
+    }
+    .p-demo-text {
+        /*margin-left: 3px;*/
+        margin-left: -43px;
+    }
+    .online-text {
+        font-size: 20px;
+    }
+    .img-benifits {
+        width: 61px;
+        height: 61px;
+    }
+    #hrline {
+        margin-left: 107px;
+    }
+    .div-stores-img {
+        width: 175px;
+        height: 89px;
+    }
+    #store-hide {
+        display: none;
+    }
+    .div-store-padding {
+        padding-left: 48px;
+    }
+    .hr-line-payment-method {
+        width: 222px;
+        margin-left: 90px;
+    }
+    .img-payment-methods {
+        height: 76px;
+    }
+    .div-footer-mail-subscripton {
+        width: 411px;
+    }
+    .div-footer-mail-subscripton {
+        margin-right: 4px;
+    }
+    #btn-desktop-mail{
+        display: none;
+    }
+    #btn-mobile-mail{
+        display: block;
+    }
+    .btn-email-subscription {
+        width: 50px;
+    }
+}
+
 @media only screen and (max-width: 414px) {
     .navbar-toggle .icon-bar + .icon-bar {
         margin-top: 2px;
+    }
+    .mega-menu-padding-left {
+        padding-left: 10px;
+    }
+    .navbar-header-login>ul>li {
+        display: block;
+        margin-top: 8px;
     }
 
     .navbar-toggle {
@@ -3411,7 +4130,7 @@ a#prev:hover, a#next:hover {
     }
 
     .header1 {
-        font-size: 26px;
+        font-size: 23px;
     }
 
     .header2 {
@@ -3432,6 +4151,18 @@ a#prev:hover, a#next:hover {
         height: 180px;
         border-radius: 20px;
         margin-left: 13px;
+    }
+    .div-shop-ship1, .div-courier1 {
+        width: 160px;
+    }
+    #row-padding-shop1{
+        margin-top: 0px;
+    }
+    .div-video-margin {
+        margin-top: 50px;
+    }
+    .div-mobile-background-img {
+        height: 297.56px;
     }
 
     .navbar-toggle {
@@ -3489,7 +4220,10 @@ a#prev:hover, a#next:hover {
         width: 20px;
         height: 21px;
         margin-top: -2px;
-        margin-left: 20px;
+        /*margin-left: 20px;*/
+    }
+    .p-demo-text {
+        margin-left: -35px;
     }
 
     .p-demo-text {
@@ -3503,8 +4237,8 @@ a#prev:hover, a#next:hover {
     }
 
     .div-demo-row {
-        margin-top: 44px;
-        padding-left: 15px;
+        /*margin-top: 44px;*/
+        /*padding-left: 15px;*/
 
     }
 
@@ -3518,10 +4252,11 @@ a#prev:hover, a#next:hover {
 
     .div-main-row {
         margin-left: -4px;
+        padding-bottom: 60px;
     }
 
     #img-cal1 {
-        margin-left: -17px;
+        margin-left: 17px;
     }
 
     .call-now-text {
@@ -3532,8 +4267,10 @@ a#prev:hover, a#next:hover {
     }
 
     .div-priyamani-mobile-img {
-        width: 148px;
-        margin-top: -377px;
+        width: 180px;
+        margin-top: -445px;
+        /*width: 148px;*/
+        /*margin-top: -377px;*/
     }
 
     .img-benifits {
@@ -3644,6 +4381,9 @@ a#prev:hover, a#next:hover {
         margin-top: 78px;
         margin-right: 73px;
     }
+    .img-payment-methods {
+        height: 68px;
+    }
 
     .img-paytm {
         height: 22px;
@@ -3688,11 +4428,41 @@ a#prev:hover, a#next:hover {
     .img-goto-top {
         height: 46px;
         width: 38px;
-        margin-top: -20px;
+        margin-top: -13px;
     }
 
     .div-btn {
         width: 100%;
+    }
+    #btn-mobile-mail {
+        display: block;
+    }
+
+    #btn-desktop-mail {
+        display: none;
+    }
+
+    .btn-email-subscription {
+        width: 50px;
+    }
+
+    .div-footer-mail-subscripton {
+        width: 350px;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .txt-subscription {
+        width: 270px;
+    }
+
+    .img-flag-desktop {
+        display: none;
+    }
+
+    .img-mobile-flag {
+        height: 50px;
+        display: block;
     }
 
     /*reviews page starting*/
@@ -3718,32 +4488,39 @@ a#prev:hover, a#next:hover {
         margin-left: 85px;
         border-bottom: 2px solid #fdf699;
     }
+
     .border-bottom {
         border: none;
     }
-    .contact-text-padding{
+
+    .contact-text-padding {
         padding-left: 0px;
         padding-right: 0px;
         margin-top: 10px;
     }
+
     .btn-contact-submit {
         margin-left: 0px;
         height: 40px
     }
+
     .contact-text-align {
         text-align: center;
     }
-    .faqlink-div{
+
+    .faqlink-div {
         padding-right: 15px;
         padding-left: 15px;
     }
-    .dropdown-menu {
+
+    .dropdown-menu1 {
         font-size: 10px;
         width: 363px;
         margin-left: -40px;
         overflow: hidden;
         text-overflow: ellipsis;
     }
+
     /*contact page ending*/
     /*contactpage starting*/
 
@@ -3753,7 +4530,27 @@ a#prev:hover, a#next:hover {
     .div-backgroud-img {
         display: none;
     }
-
+    #row-padding-shop1 {
+        margin-top: 0;
+    }
+    .div-video-margin {
+        margin-top: 50px;
+    }
+    .div-mobile-background-img {
+        height: 296.56px;
+    }
+    .img-demo{
+        margin-left: 0px;
+    }
+    #img-cal1 {
+        margin-left: 5px;
+    }
+    .p-demo-text {
+        margin-left: -34px;
+    }
+    .div-shop-ship1, .div-courier1 {
+        width: 160px;
+    }
     .online-text {
         height: 17px;
         font-size: 17px;
@@ -3808,6 +4605,7 @@ a#prev:hover, a#next:hover {
     .div-btn {
         width: 100%;
     }
+
     /*contact page starting*/
     .div-phone {
         border: none;
@@ -3815,25 +4613,31 @@ a#prev:hover, a#next:hover {
         margin-left: 74px;
         border-bottom: 2px solid #fdf699;
     }
+
     .border-bottom {
         border: none;
     }
-    .contact-text-padding{
+
+    .contact-text-padding {
         padding-left: 0px;
         padding-right: 0px;
         margin-top: 10px;
     }
+
     .btn-contact-submit {
         margin-left: 45px;
     }
+
     .contact-text-align {
         text-align: center;
     }
-    .faqlink-div{
+
+    .faqlink-div {
         padding-right: 15px;
         padding-left: 15px;
     }
-    .dropdown-menu {
+
+    .dropdown-menu1 {
         width: 368px;
         margin-left: -43px;
         font-size: 10px;
@@ -3841,18 +4645,24 @@ a#prev:hover, a#next:hover {
         text-overflow: ellipsis;
         padding-left: 0;
     }
-    /*contact page ending*/
+    .img-payment-methods {
+        height: 67px;
+    }
 
+    /*contact page ending*/
     /*about page starting*/
     .mission-text {
         padding-top: 0;
     }
+
     .vision-text {
         padding-top: 0;
     }
+
     .mission-section, .vision-section, .delivery-section, .contact-details-section, .location-feedback {
         padding-bottom: 0;
     }
+
     /*about page Ending*/
 }
 
@@ -3884,6 +4694,12 @@ a#prev:hover, a#next:hover {
     .online-text {
         height: 17px;
         font-size: 15px;
+    }
+    #img-cal1 {
+        margin-left: 20px;
+    }
+    .img-demo {
+        margin-left: 0px;
     }
 
     .online-text-words {
@@ -3921,6 +4737,27 @@ a#prev:hover, a#next:hover {
         font-weight: 600;
         margin-left: 0px;
     }
+    #mobile-version{
+        display: block;
+    }
+    #desktop-version{
+        display: none;
+    }
+    .div-shop-ship1, .div-courier1 {
+        width: 160px;
+    }
+    #row-padding-shop1 {
+        margin-top: 0px;
+    }
+    .p-demo-text {
+        margin-left: -25px;
+    }
+    .div-mobile-background-img {
+        height: 268.56px;
+    }
+    .div-video-margin {
+        margin-top: 50px;
+    }
 
     .shop-ship-btn-name {
         margin-top: 0px
@@ -3935,7 +4772,7 @@ a#prev:hover, a#next:hover {
     }
 
     .navbar-toggle {
-        margin-top: 15px;
+        margin-top: 10px;
     }
 
     #row-padding-shop {
@@ -3951,7 +4788,7 @@ a#prev:hover, a#next:hover {
     }
 
     .div-store-padding {
-        padding-left: 35px;
+        padding-left:26px;
     }
 
     .p-payment-text {
@@ -3970,7 +4807,7 @@ a#prev:hover, a#next:hover {
     .img-goto-top {
         height: 78px;
         width: 33px;
-        margin-top: -39px;
+        margin-top: -25px;
     }
 
     .div-btn {
@@ -3978,7 +4815,40 @@ a#prev:hover, a#next:hover {
     }
 
     .img-demo, .img-support {
-        margin-left: 6px;
+        margin-left: -8px;
+    }
+    .img-payment-methods {
+        height: 61px;
+    }
+    #btn-mobile-mail {
+        display: block;
+    }
+
+    #btn-desktop-mail {
+        display: none;
+    }
+
+    .btn-email-subscription {
+        width: 50px;
+    }
+
+    .div-footer-mail-subscripton {
+        width: 350px;
+        float: left;
+        margin-left: -10px;
+    }
+
+    .txt-subscription {
+        width: 270px;
+    }
+
+    .img-flag-desktop {
+        display: none;
+    }
+
+    .img-mobile-flag {
+        height: 50px;
+        display: block;
     }
 
     /*reviews page starting*/
@@ -3995,12 +4865,15 @@ a#prev:hover, a#next:hover {
     .mission-text {
         padding-top: 0;
     }
+
     .vision-text {
         padding-top: 0;
     }
+
     .mission-section, .vision-section, .delivery-section, .contact-details-section, .location-feedback {
         padding-bottom: 0;
     }
+
     /*aboutUs page Ending*/
     /*contact page starting*/
     .border-bottom {
@@ -4013,36 +4886,43 @@ a#prev:hover, a#next:hover {
         margin-left: 74px;
         border-bottom: 2px solid #fdf699;
     }
+
     .contact-text-align {
         text-align: center;
     }
+
     .contact-text-align {
         text-align: center;
     }
-    .contact-text-padding{
+
+    .contact-text-padding {
         padding-left: 0px;
         padding-right: 0px;
         margin-top: 10px;
     }
+
     .btn-contact-submit {
         margin-left: 32px;
     }
+
     .contact-text-align {
         text-align: center;
     }
-    .faqlink-div{
+
+    .faqlink-div {
         padding-right: 15px;
         padding-left: 15px;
     }
 
-    .dropdown-menu {
+    .dropdown-menu1 {
         width: 330px;
         margin-left: -43px;
         font-size: 10px;
         overflow: hidden;
         text-overflow: ellipsis;
-        padding-left: 0;
+        padding-left: 51px;
     }
+
     /*contact page ending*/
 }
 
@@ -4059,12 +4939,20 @@ a#prev:hover, a#next:hover {
         font-size: 18px;
         font-weight: 600;
     }
-
-    .div-priyamani-mobile-img {
-        width: 148px;
-        margin-top: -382px;
+    .div-mobile-background-img {
+        height: 268.56px;
     }
-
+    .div-priyamani-mobile-img {
+        width: 179px;
+        margin-top: -425px;
+    }
+    /*.div-priyamani-mobile-img {*/
+        /*width: 148px;*/
+        /*margin-top: -382px;*/
+    /*}*/
+    .div-shop-ship1 {
+        margin-left: 8px;
+    }
     #img-cal1 {
         margin-left: 0px;
     }
@@ -4096,22 +4984,36 @@ a#prev:hover, a#next:hover {
     .div-btn {
         width: 100%;
     }
+    .img-payment-methods {
+        height: 58px;
+    }
+    .div-footer-mail-subscripton {
+        width: 336px;
+    }
+    .txt-subscription {
+        width: 265px;
+    }
+
     /*contact page starting*/
-    .contact-text-padding{
+    .contact-text-padding {
         padding-left: 0px;
         padding-right: 0px;
         margin-top: 10px;
     }
+
     .btn-contact-submit {
         margin-left: 32px;
     }
+
     .contact-text-align {
         text-align: center;
     }
-    .faqlink-div{
+
+    .faqlink-div {
         padding-right: 15px;
         padding-left: 15px;
     }
+
     /*contact page ending*/
 }
 
@@ -4119,6 +5021,9 @@ a#prev:hover, a#next:hover {
 
     .navbar-container ul li a {
         font-size: 12px;
+    }
+    .navbar-brand img {
+        width: 110px;
     }
 
     .navbar-container ul li.btn-register a {
@@ -4192,7 +5097,34 @@ a#prev:hover, a#next:hover {
         width: 118px;
         height: 162px;
     }
-
+    .div-shop-ship1 {
+        margin-left: 5px;
+    }
+    .div-shop-ship1, .div-courier1 {
+        width: 142px;
+    }
+    .btn-shop-ship1, .btn-courier1 {
+        width: 143px;
+    }
+    .btn-shop-ship1{
+        margin-top: -20px;
+    }
+    #row-padding-shop1 {
+        margin-top: 0px;
+    }
+    #btn-courier1 {
+        margin-top: 7px;
+    }
+    .div-mobile-background-img {
+        height: 228.80px;
+    }
+    .div-priyamani-mobile-img {
+        width: 148px;
+        margin-top: -382px;
+    }
+    .text-call-now{
+        margin-left: 30px;
+    }
     /*#btn-courier {*/
     /*margin-top: 15px;*/
     /*}*/
@@ -4206,8 +5138,8 @@ a#prev:hover, a#next:hover {
     }
 
     .p-demo-text {
-        font-size: 10px;
-        margin-left: 1px;
+        font-size: 9px;
+        margin-left: -16px;
     }
 
     .call-now-text {
@@ -4281,7 +5213,7 @@ a#prev:hover, a#next:hover {
     .img-goto-top {
         height: 70px;
         width: 40px;
-        margin-top: -34px;
+        margin-top: 34px;
     }
 
     .div-btn {
@@ -4303,36 +5235,56 @@ a#prev:hover, a#next:hover {
         margin-left: 36px;
         border-bottom: 2px solid #fdf699;
     }
+
     .border-bottom {
         border: none;
     }
-    .contact-text-padding{
+
+    .contact-text-padding {
         padding-left: 0px;
         padding-right: 0px;
         margin-top: 10px;
     }
+
     .btn-contact-submit {
         margin-left: 0px;
         height: 40px
     }
+
     .contact-text-align {
         text-align: center;
     }
-    .faqlink-div{
+    .img-payment-methods {
+        height: 51px;
+    }
+    .img-goto-top {
+        margin-top: -21px;
+    }
+    .faqlink-div {
         padding-right: 15px;
         padding-left: 15px;
     }
+    .div-footer-mail-subscripton {
+        width: 292px;
+    }
+    .txt-subscription {
+        width: 220px;
+    }
+
     /*contact page ending*/
     /* about page starting */
     .mission-text {
         padding-top: 0;
     }
+
     .vision-text {
         padding-top: 0;
     }
+
     .mission-section, .vision-section, .delivery-section, .contact-details-section, .location-feedback {
         padding-bottom: 0;
     }
+
     /* about page Ending*/
 }
 

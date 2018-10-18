@@ -16,18 +16,15 @@
         <div class="container">
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                 <center>
-                    <p style="margin-top:170px;">
+                    <p class="header-ifs-p">
                         <a class="bla-1" href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=5s">
-                            <img class="btn-vid-img" src="img/svg/btn.svg">
+                            <img class="btn-vid-img" src="{{asset('img/svg/btn.svg')}}">
                         </a>
 
                     </p>
-                    <h1 class="header1 p-color-white">What is Shop & Ship?</h1>
-                    <p class="header2 p-color-cement" style="margin-bottom: 115px;">We receive your order at our
-                        branch
-                        and
-                        can provide Storage,<br> Repackaging and Consolidation Service to send at your abroad
-                        address
+                    <h1 class="header1 p-color-white">What is <span>Shop & Ship?</span></h1>
+                    <p class="header2 p-color-cement header-ifs-p1">Ship your purchases to us; we'll store, consolidate,
+                        <br> repackage & ship them to WHEREVER you are!
                     </p>
                 </center>
             </div>
@@ -35,13 +32,14 @@
     </section>
 
     <section>
-        <div class="container">
+        <div class="container" id="how-it-works">
             <div style="margin: 77px 0 13px  0 ;">
                 <center>
                     <h2 class="header1 p-color-cement-dark">How it Works?</h2>
-                    <p class="header4 p-color-cement">We receive your order at our
-                        ShoppRe facility and can provide Storage,<br>
-                        Repackaging and <a href="https://www.shoppre.com/consolidation-service">Consolidation Service</a> to send at your abroad address</p>
+                    <p class="header4 p-color-cement">We receive your orders at our facility; store it in a FREE, safe locker;
+                        <br>
+                        <a href="https://www.shoppre.com/consolidation-service"> consolidate</a>, repackage & send them off as one to your destination.<br>
+                         {{--<a href="https://www.shoppre.com/consolidation-service">Consolidation Service</a> to send at your abroad address</p>--}}
                 </center>
             </div>
         </div>
@@ -60,14 +58,16 @@
                             Address</h3>
                     </center>
                     <img class="img-responsive img-ifs-v_addres " style="margin-top:50px;"
-                         src="img/svg/virtual-address-india.svg" alt="get a free virtual address">
+
+                         src="{{asset('img/svg/virtual-address-india.svg')}}" alt="get a free virtual address">
+
                 </div>
                 <div class="" style="padding: 0;display: none;" id="text1">
                     <h3 class="header4 p-color-cement-dark p-ifs-margin-h"
-                        style="text-align: center " id="step-register">Register</h3>
+                        style="text-align: center " id="step-register">Sign Up</h3>
                     <p class="header6 p-color-cement p-ifs-margin-d"
                        style="text-align: center" id="step-register">
-                        Register with us and get free virtual address, free 20 days locker storage service per order
+                        Register with us and get a FREE virtual address with 20-day FREE storage facility.
                     </p>
                 </div>
             </div>
@@ -83,11 +83,13 @@
                 <div class="" id="image2" style="display: none ;margin-top: -94px;">
                     <center>
                         <h3 class=" p-color-cement-dark header4" style="margin-top: 36px;">
-                            Purchase Products
+                            Shop
                         </h3>
                     </center>
                     <img class="img-responsive img-ifs-v_addres " style="margin-top: 20px;"
-                         src="img/svg/indian-online-shoppping-store.svg" alt="purchase from indian online stores">
+
+                         src="{{asset('img/svg/indian-online-shoppping-store.svg')}}" alt="purchase from indian online stores">
+
                 </div>
 
                 <div class="" style="padding: 0" id="text2">
@@ -112,10 +114,11 @@
                 <div class="" id="image3" style="display: none ;margin-top: -94px;">
                     <center>
                         <h3 class=" p-color-cement-dark" style="font-size: 18px;font-weight: 700; margin-top: 36px;">
-                            Receive your package </h3>
+                            Get It Delivered! </h3>
                     </center>
                     <img class="img-responsive img-ifs-v_addres " style="margin-top: 20px;"
-                         src="img/svg/receive-your-package.svg" alt="receive your package from india">
+                         src="{{asset('img/svg/receive-your-package.svg')}}" alt="receive your package from india">
+
                 </div>
 
                 <div class="" style="padding: 0" id="text3">
@@ -164,11 +167,11 @@
             </div>
             <div class="col-xs-12 col-sm-12 mobile-images">
                 <center>
-                    <img class="img-responsive " id="mobile-image1" src="img/svg/virtual-address-india.svg" alt="get a free virtual address">
+                    <img class="img-responsive " id="mobile-image1" src="{{asset('img/svg/virtual-address-india.svg')}}" alt="get a free virtual address">
                     <img class="img-responsive " id="mobile-image2" style="width: 80%;display: none;"
-                         src="img/svg/indian-online-shoppping-store.svg" alt="purchase from indian online stores">
+                         src="{{asset('img/svg/indian-online-shoppping-store.svg')}}" alt="purchase from indian online stores">
                     <img class="img-responsive " id="mobile-image3" style="width: 80%;display: none;"
-                         src="img/svg/receive-your-package.svg" alt="receive your package from india">
+                         src="{{asset('img/svg/receive-your-package.svg')}}" alt="receive your package from india">
                 </center>
             </div>
         </div>
@@ -181,7 +184,7 @@
                 <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">
                     <div class=" btn h4 p-color-white btn-ifs-free-v-a">
                         <center>
-                            Get Free Virtual Address
+                            Get a Free Virtual Address
                         </center>
                     </div>
                 </a>
@@ -193,13 +196,11 @@
 
 
 
-    <section style="background-color: #fafafb;">
+    <section style="background-color: #fafafb;" id="personal-shopper">
         <div class="container section-3">
             <center>
                 <h1 class="header1 p-color-cement-dark">Personal Shopper</h1>
-                <h3 class="header2 p-color-cement">Don't know how to purchase? Hire an expert and allow them to <br>
-                    purchase
-                    on behalf of you </h3>
+                <h3 class="header2 p-color-cement">Payment hassles at checkout? No worries! <br>Hire one of our experts to shop for you! </h3>
             </center>
         </div>
 
@@ -207,38 +208,39 @@
             <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                 <div class="row">
                     <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
-                        <img class="img " src="img/svg/international-credit-card-shopping.svg" alt="international credit card shopping">
+                        <img class="img " src="{{asset('img/svg/international-credit-card-shopping.svg')}}" alt="international credit card shopping">
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
-                        <h4 class="header5 p-color-cement-dark">Store does't accept your <br> International Credit
-                            cards?
+                        <h4 class="header6 p-color-cement-dark">Store does't accept your <br> International card/Debit Card?
                         </h4>
                     </div>
 
 
                     <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
-                        <img class="img" src="img/svg/indian-phone-number.svg" alt="indian number">
+                        <img class="img" src="{{asset('img/svg/indian-phone-number.svg')}}" alt="indian number">
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
-                        <h4 class="header5 p-color-cement-dark">Don't have Indian number to <br> verify your order?
+                        <h4 class="header6 p-color-cement-dark">Don't have an Indian phone number
+                            to <br> verify your order?
                         </h4>
                     </div>
                     <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
-                        <img class="img" src="img/svg/indian-address-shopping.svg" alt="indian address for shopping">
+                        <img class="img" src="{{asset('img/svg/indian-address-shopping.svg')}}" alt="indian address for shopping">
+
                     </div>
                     <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
-                        <h4 class="header5 p-color-cement-dark">Don't have an Indian address?
+                        <h4 class="header6 p-color-cement-dark">Don't have an Indian address?
                         </h4>
                     </div>
                     <div class="col-sm-12 col-xs-12" id="img-shopping-mobile">
-                        <img class="img-responsive " src="img/images/image06_v2.png">
+                        <img class="img-responsive " src="{{asset('img/images/image06_v2.png')}}">
                     </div>
                 </div>
                 <div class="row">
                     <center>
                         <a href="https://myaccount.shoppre.com/personal-shopper">
                             <div class="btn btn-get-assisted p-color-white">
-                                Get Assisted
+                                Ask For Assistance
                             </div>
                         </a>
                     </center>
@@ -247,7 +249,7 @@
 
             </div>
             <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 " id="img-shopping">
-                <img class=" img-priyamani-shopping" src="img/images/personal-shopper-service.png" alt="personal shopper service in india">
+                <img class=" img-priyamani-shopping" src="{{asset('img/images/personal-shopper-service.png')}}" alt="personal shopper service in india">
             </div>
 
         </div>
@@ -257,7 +259,8 @@
 
     <section>
         <div class="container" style="margin-top: 50px;margin-bottom: 50px;">
-            <img class="img-responsive " src="img/images/shop-and-ship-reviews.png" alt="shoppre reviews">
+            <img class="img-responsive " src="{{asset('img/images/shop-and-ship-reviews.png')}}" alt="shoppre reviews">
+
         </div>
     </section>
 
@@ -307,10 +310,8 @@
         <div class="container">
             <div class="col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
                 <center>
-                    <h1 class="header1 p-color-cement-dark">Benefits</h1>
-                    <h2 class="header2 p-color-cement"> We will receive your order at our shoppre facility and can
-                        provide Storage,
-                        Repackaging and Consolidation service to send at your abroad address.</h2>
+                    <h1 class="header1 p-color-cement-dark">What Do We Offer That Make Us Special?</h1>
+                    <h2 class="header2 p-color-cement"> From 20-day FREE storage to consolidation services; we come with tailor-made benefits, all to save you money, time & efforts</h2>
                 </center>
             </div>
 
@@ -389,11 +390,12 @@
                         <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
                             <center>
                                 <img class="img-responsive ifs-image1"
-                                     src="img/svg/personal-shopping-india.svg" alt="personal shopper in india">
+                                     src="{{asset('img/svg/personal-shopping-india.svg')}}" alt="personal shopper in india">
                             </center>
 
                         </div>
                         <div class="col-md-4 col-lg-4 col-sm-6  col-xs-6  ">
+                            <h4 class="header4 p-color-cement-dark ifs-font-weight ifs-font-weight1" >who will;</h4>
                             <ul id="ifs-li">
                                 <li>
                                     <p class="header7 p-color-cement ifs-p-1">
@@ -407,17 +409,17 @@
                                 </li>
                                 <li>
                                     <p class="header7 p-color-cement ifs-p-1">
-                                        Recieved your Order
+                                        Recieve your Order
                                     </p>
                                 </li>
                                 <li>
                                     <p class="header7 p-color-cement ifs-p-1">
-                                        Repack/Consolidate and send it to your
+                                        Consolidate & Repackage them
                                     </p>
                                 </li>
                                 <li>
                                     <p class="header7 p-color-cement ifs-p-1">
-                                        Abroad Address
+                                        Dispatch as one to the destination
                                     </p>
                                 </li>
                             </ul>
@@ -426,20 +428,18 @@
                     <div class="ifs-tab-content">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <center>
-                                <h3 class="header4 p-color-cement-dark ifs-font-weight">20-Day Free Storage</h3>
+                                <h3 class="header4 p-color-cement-dark ifs-font-weight">20-Day Free Storage Facility</h3>
                             </center>
                         </div>
                         <div class="col-md-9 col-lg-9 col-sm-8 col-xs-8">
                             <center>
                                 <img class="img-responsive ifs-image2 "
-                                     src="img/svg/20-days-free-storage-shipping.svg" alt="20 days free storage shopping">
+                                     src="{{asset('img/svg/20-days-free-storage-shipping.svg')}}" alt="20 days free storage shopping">
                             </center>
                         </div>
                         <div class="col-md-2 col-lg-2 col-sm-4 col-xs-4">
                             <p class="header7 p-color-cement" style="text-align: left;margin-top:50%; ">
-                                All your order can be stored free for 20 days. You need ship all items from your locker
-                                within
-                                days.
+                                Shop as much you want for 20 days; we'll store them all in your locker for FREE!
                             </p>
                         </div>
                     </div>
@@ -447,10 +447,9 @@
                     <div class="ifs-tab-content">
                         <div class="col-md-6 col-lg-6 col-sm-5 col-xs-5">
                             <center>
-                                <h4 class="header4 p-color-cement-dark ifs-font-weight">Before
-                                    Consolidation</h4>
+                                <h4 class="header4 p-color-cement-dark ifs-font-weight">Individual Shipments</h4>
                                 <img class="img-responsive ifs-img3"
-                                     src="img/svg/before-consolidation.svg" alt="consolidation shipping services">
+                                     src="{{asset('img/svg/before-consolidation.svg')}}" alt="consolidation shipping services">
                             </center>
                         </div>
                         <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2" style="margin-top: 20%">
@@ -458,15 +457,14 @@
                                 <span class="header1 p-ifs-img-percent">80%</span>
                             </p>
                             <p class="header8 p-color-cement">
-                                on international <br> Shipping
+                                on International <br> Shipping
                             </p>
                         </div>
                         <div class="col-md-4 col-lg-4 col-sm-5 col-xs-5">
                             <center>
-                                <h4 class="header4 p-color-cement-dark ifs-font-weight">After
-                                    Consolidation</h4>
+                                <h4 class="header4 p-color-cement-dark ifs-font-weight"> Consolidated Shipment</h4>
                                 <img class="img-responsive ifs-img3"
-                                     src="img/svg/after-consolidation.svg" alt="consolidation shipping india">
+                                     src="{{asset('img/svg/after-consolidation.svg')}}" alt="consolidation shipping india">
                             </center>
                         </div>
                     </div>
@@ -475,24 +473,24 @@
                     <div class="ifs-tab-content">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 29px;">
                             <center>
-                                <h3 class="header4 p-color-cement-dark ifs-font-weight">Re-packaging</h3>
+                                <h3 class="header4 p-color-cement-dark ifs-font-weight">Repackaging</h3>
                             </center>
                         </div>
                         <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                             <img class="img-responsive" id="Re-packaging"
-                                 src="img/svg/repacking-shipping.svg" alt="shopping with shoppre repacking service">
+                                 src="{{asset('img/svg/repacking-shipping.svg')}}" alt="shopping with shoppre repacking service">
                         </div>
                         <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                             <p class="header7 p-color-cement p-ifs-img4">
-                                Package from a store was shipped to the warehouse in a box 25x11x11 inches, representing
+                                Package from a store was shipped to ShoppRe warehouse in a box with 25x11x11 inch dimension, representing
                                 a volumetric weight of 10kg.
                                 <br>
                                 <br>
-                                After repackaging, the receipt dimensions were reduced to ((21x10x10 inches),
+                                After repackaging, the dimensions were reduced to ((21x10x10 inches),
                                 representing a volumetric weight of 7kg.
                                 <br>
                                 <br>
-                                <span style="color: #507dbc;">Saving to the customer was 3kg. in shipping volumetric weight.</span>
+                                <span style="color: #507dbc;">Saving the customer the shipping cost of 3 kg. of volumetric weight!</span>
                             </p>
                         </div>
                     </div>
@@ -504,7 +502,7 @@
                         </div>
                         <div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
                             <img class="img-responsive ifs-img5"
-                                 src="img/svg/affordable-shipping-rates.svg" alt="affordable international shipping rates">
+                                 src="{{asset('img/svg/affordable-shipping-rates.svg')}}" alt="affordable international shipping rates">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <p class="header7 p-color-cement p-ifs-img5">
@@ -526,13 +524,13 @@
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                             <center>
                                 <img class="img-responsive ifs-img-6"
-                                     src="img/svg/customer-support-shipping.svg" alt="customer support shoppre">
+                                     src="{{asset('img/svg/customer-support-shipping.svg')}}" alt="customer support shoppre">
                             </center>
 
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <p class="header7 p-color-cement p-ifs-img6">
-                                Have any queries? Our FAQs don't cover it? But our 24/7 support will! <br>
+                                Have any queries? Our FAQs don't cover it? But our 24/7 support will! <br> <br>
                                 If you need any assistance with making a shipment or sending a courier, our
                                 professionals will help you along every step of the way.
                             </p>
@@ -564,11 +562,12 @@
                                 </div>
                                 <div class="row">
                                     <img class="img-responsive ifs-image1" style="margin-top: 30px;"
-                                         src="img/svg/personal-shopping-india.svg" alt="personal shopper in india">
+                                         src="{{asset('img/svg/personal-shopping-india.svg')}}" alt="personal shopper in india">
                                 </div>
                             </center>
                             <div class="row">
                                 <div class="col-sm-12 col-xs-12 " style="padding-left:10%">
+                                    <h4 class="header4 p-color-cement-dark ifs-font-weight" >who will;</h4>
                                     <ul>
                                         <li>
                                             <p class="header7 p-color-cement ">
@@ -582,17 +581,17 @@
                                         </li>
                                         <li>
                                             <p class="header7 p-color-cement ">
-                                                Recieved your Order
+                                                Recieve your Order
                                             </p>
                                         </li>
                                         <li>
                                             <p class="header7 p-color-cement ">
-                                                Repack/Consolidate and send it to your
+                                                Consolidate & Repackage them
                                             </p>
                                         </li>
                                         <li>
                                             <p class="header7 p-color-cement ">
-                                                Abroad Address
+                                               Dispatch as one to the destination
                                             </p>
                                         </li>
                                     </ul>
@@ -607,7 +606,7 @@
                         <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                20-Day Free Storage
+                                20-Day Free Storage Facility
                             </a>
                         </h4>
                     </div>
@@ -616,20 +615,18 @@
 
                             <div class="row">
                                 <center>
-                                    <h3 class="header4 p-color-cement-dark ifs-font-weight">20-Day Free Storage</h3>
+                                    <h3 class="header4 p-color-cement-dark ifs-font-weight">20-Day Free Storage Facility</h3>
                                 </center>
                             </div>
                             <div class="row" style="padding-left: 10px; padding-right: 10px;">
                                 <center>
                                     <img class="img-responsive ifs-image2 "
-                                         src="img/svg/20-days-free-storage-shipping.svg" alt="20 days free storage shopping">
+                                         src="{{asset('img/svg/20-days-free-storage-shipping.svg')}}" alt="20 days free storage shopping">
                                 </center>
                             </div>
                             <div class="row">
                                 <p class="header7 p-color-cement" style="text-align: center;margin-top:20px ;">
-                                    All your order can be stored free for 20 days. You need ship all items from your
-                                    locker within
-                                    days.
+                                    Shop as much you want for 20 days; we'll store them all in your locker for FREE!
                                 </p>
                             </div>
                         </div>
@@ -650,18 +647,16 @@
                             <div class="row">
                                 <div class="col-sm-6 col-xs-6">
                                     <center>
-                                        <h4 class="header6 p-color-cement-dark ifs-font-weight">Before
-                                            Consolidation</h4>
+                                        <h4 class="header6 p-color-cement-dark ifs-font-weight">Individual Shipments</h4>
                                         <img class="img-responsive ifs-img3"
-                                             src="img/svg/before-consolidation.svg" alt="consolidation shipping services">
+                                             src="{{asset('img/svg/before-consolidation.svg')}}" alt="consolidation shipping services">
                                     </center>
                                 </div>
                                 <div class="col-sm-6 col-xs-6">
                                     <center>
-                                        <h4 class="header6 p-color-cement-dark ifs-font-weight">After
-                                            Consolidation</h4>
+                                        <h4 class="header6 p-color-cement-dark ifs-font-weight"> Consolidated Shipment</h4>
                                         <img class="img-responsive" style="height:180px;margin-top: 50px"
-                                             src="img/svg/after-consolidation.svg" alt="consolidation shipping india">
+                                             src="{{asset('img/svg/after-consolidation.svg')}}" alt="consolidation shipping india">
                                     </center>
                                 </div>
                             </div>
@@ -671,7 +666,7 @@
                                         <span class="header1 p-ifs-img-percent ">80%</span>
                                     </p>
                                     <p class="header8 p-color-cement">
-                                        on international <br> Shipping
+                                        on International <br> Shipping
                                     </p>
                                 </center>
 
@@ -693,29 +688,29 @@
                         <div class="panel-body">
                             <div class="row">
                                 <center>
-                                    <h3 class="header4 p-color-cement-dark ifs-font-weight">Re-packaging</h3>
+                                    <h3 class="header4 p-color-cement-dark ifs-font-weight">Repackaging</h3>
                                 </center>
                             </div>
                             <div class="row">
                                 <center>
                                     <img class="img-responsive "
-                                         src="img/svg/repacking-shipping.svg" alt="shopping with shoppre repacking service">
+                                         src="{{asset('img/svg/repacking-shipping.svg')}}" alt="shopping with shoppre repacking service">
                                 </center>
                             </div>
                             <div class="row">
                                 <center>
                                     <p class="header7 p-color-cement p-ifs-img4"
                                        style="text-align: center !important;margin-top: 20px !important;">
-                                        Package from a store was shipped to the warehouse in a box 25x11x11 inches,
+                                        Package from a store was shipped to ShoppRe warehouse in a box 25x11x11 inch dimension,
                                         representing
                                         a volumetric weight of 10kg.
                                         <br>
                                         <br>
-                                        After repackaging, the receipt dimensions were reduced to ((21x10x10 inches),
+                                        After repackaging, the dimensions were reduced to ((21x10x10 inches),
                                         representing a volumetric weight of 7kg.
                                         <br>
                                         <br>
-                                        <span style="color: #507dbc;">Saving to the customer was 3kg. in shipping volumetric weight.</span>
+                                        <span style="color: #507dbc;">Saving the customer the shipping cost of 3 kg. of volumetric weight!</span>
                                     </p>
                                 </center>
                             </div>
@@ -744,7 +739,7 @@
                             <div class="row">
                                 <center>
                                     <img class="img-responsive ifs-img5"
-                                         src="img/svg/affordable-shipping-rates.svg" alt="affordable international shipping rates">
+                                         src="{{asset('img/svg/affordable-shipping-rates.svg')}}" alt="affordable international shipping rates">
                                 </center>
                             </div>
                             <div class="row">
@@ -782,13 +777,13 @@
                             <div class="row">
                                 <center>
                                     <img class="img-responsive ifs-img-6" style="margin-top: 10px;"
-                                         src="img/svg/customer-support-shipping.svg" alt="customer support shoppre">
+                                         src="{{asset('img/svg/customer-support-shipping.svg')}}" alt="customer support shoppre">
                                 </center>
                             </div>
                             <div class="row">
                                 <p class="header7 p-color-cement p-ifs-img6"
                                    style="text-align: center !important;margin-top: 10px !important;">
-                                    Have any queries? Our FAQs don't cover it? But our 24/7 support will! <br>
+                                    Have any queries? Our FAQs don't cover it? But our 24/7 support will! <br> <br>
                                     If you need any assistance with making a shipment or sending a courier, our
                                     professionals will help you along every step of the way.
                                 </p>
@@ -803,27 +798,25 @@
     </section>
 
 
-    <section>
-        <div class="container" style="padding-bottom: 30px">
+    <section class="section-seller">
+        <div class="container">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive img-shipments1" src="img/images/seller-shipping-shoppre.png" alt="seller shipping on shoppre">
+                <img class="img-responsive img-shipments1" src="{{asset('img/images/seller-shipping-shoppre.png')}}" alt="seller shipping on shoppre">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <h1 class="header1 p-color-cement-dark p-seller">Are you a Seller? <br>
-                    Save more on shipping.</h1>
-                <p class="header3 p-color-cement" style=" margin-left: 26px;">
-                    <span class="header2" style="color: #507dbc;"> Start your FREE 30 Day Trial</span> to
-                    know how much you can save monthly on regular shipping</p>
+                <h1 class="header1 p-color-cement-dark p-seller">Are you an ambitious Seller?
+                    Save up more on shipping.</h1> <br>
+                <p class="header3 p-color-cement seller-p">
+                    <span class="header2"> Start Your 30-Day FREE Trial </span>  to see for yourself; how much you can save to help your business!</p>
                 <div class="col-md-12">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank">
-                            <div class="btn-request-cal-back" style="padding-top:.1%">
+                            <div class="btn-request-cal-back">
                                 <center>
                                     <h2 class="header6">Request Callback</h2>
                                 </center>
                             </div>
                         </a>
-                        {{--<button class="btn h4 btn-request-cal-back">Request Callback</button>--}}
                     </div>
 
                     {{--this block is required --}}

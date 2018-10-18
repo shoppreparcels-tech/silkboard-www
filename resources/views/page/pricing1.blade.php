@@ -17,7 +17,7 @@
         </div>
         <div class="container div-shop-ship-tabs">
             <button class="btn btn-cal-shop-ship" onclick="openCal('shop&ship')">Shop & Ship</button>
-            <button class="btn btn-cal-courier" style="margin-left: 30%;" onclick="openCal('Courier')">Courier</button>
+            <button class="btn btn-cal-courier"  onclick="openCal('Courier')">Courier</button>
         </div>
     </section>
 
@@ -44,7 +44,7 @@
                                     <div class="row">
                                         <div class="col-md-7 col-sm-12 no-padding" style="margin-top: 20px">
                                             <label class="header6 p-color-cement">Where do you want to send your
-                                                package?</label>
+                                                package to?</label>
                                             <select class="form-control select2" name="country">
                                                 <option value="">Select Country</option>
                                                 @foreach($countries as $country)
@@ -84,8 +84,8 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <label class="col-sm-12 control-label no-padding">What is the Weight of your
-                                            package(in kg)? <span style="color:red">*</span> </label>
+                                        <label class="col-sm-12 control-label no-padding">What is the weight of your
+                                            package (in kg)? <span style="color:red">*</span> </label>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-7 no-padding">
@@ -96,7 +96,7 @@
                                                 <span id="aplus" class="btn-puls-minus inc-value">+</span>
                                             </div>
                                         </div>
-                                        <div class="col-md-3 col-sm-3 no-padding">
+                                        <div class="col-md-3 col-sm-3 no-padding" id="weight-option-padding">
                                             <div class="radio">
                                                 <label class="checkbox-inline header7 p-color-cement">
                                                     <input class="radio-pricing" type="radio" name="unit" value="kg"
@@ -114,11 +114,11 @@
                                         <div class=" col-md-8 col-sm-12 div-dimension">
                                             <div class="div-volumetric-weight">
                                                 <center>
-                                                    <p class="header7">Volumetric Weight(Optional)</p>
+                                                    <p class="header7">Volumetric Weight (Optional)</p>
                                                 </center>
                                             </div>
                                             <div class="row">
-                                                <div class="col-sm-4">
+                                                <div class="col-sm-5">
                                                     <div class="radio">
                                                         <label class="checkbox-inline header6 p-color-cement">
                                                             <input class="radio-pricing" type="radio" name="scale"
@@ -244,7 +244,7 @@
                                                 </center>
                                             </div>
                                             <div class="row">
-                                                <div class="col-sm-4">
+                                                <div class="col-sm-5">
                                                     <div class="radio">
                                                         <label class="checkbox-inline header6 p-color-cement">
                                                             <input class="radio-pricing" type="radio" name="scale"
@@ -306,7 +306,7 @@
 
 
                 <div class="col-md-5 col-sm-12" id="Price-cal">
-                    <div class="div-volumetric-weight-img" style="padding-left: 3em; margin-top: 40px">
+                    <div class="div-volumetric-weight-img" >
                         <p class="header6" style="color:#507dbc; margin-top: 30px">
                             <a href="#" class="tooltipkey" title="Receive your own Locker space in
                                 Bengaluru as soon as you sign up with Shoppre! Use the Shipping Address
@@ -314,11 +314,11 @@
                                 <i class="fa fa-question-circle-o"></i>
                             </a>
                             How to calculate volumetric weight</p>
-                        <p class="header7 p-color-cement" style="text-align: left">Centimeter/Inch Conversion</p>
-                        <h4 class="header6 p-color-cement-dark" style="text-align: left">1 in =2.54 cm (1 cm=03937
+                        <p class="header7 p-color-cement" >Centimeter/Inch Conversion</p>
+                        <h4 class="header6 p-color-cement-dark" >1 in =2.54 cm (1 cm=03937
                             in) </h4>
-                        <p class="header7 p-color-cement" style="text-align: left">Kilogram/Pound Conversion</p>
-                        <h4 class="header6 p-color-cement-dark" style="text-align: left">1 in =2.54 cm (1 cm=03937
+                        <p class="header7 p-color-cement" >Kilogram/Pound Conversion</p>
+                        <h4 class="header6 p-color-cement-dark" >1 in =2.54 cm (1 cm=03937
                             in) </h4>
 
                         <h5 class="header7" style="color:#507dbc; margin-top: 30px">Courier Sample:</h5>
@@ -326,11 +326,11 @@
                     </div>
 
                 </div>
-                <div class="col-md-12 col-sm-12 no-padding" style="margin-top: 50px; padding-bottom: 10em; display: none"
+                <div class="col-md-12 col-sm-12 no-padding" style="margin-top: 50px; display: none;"
                      id="price-cal">
-                    <div class="col-md-8 col-sm-12">
+                    <div class="col-md-8 col-sm-8 col-xs-12">
                         <div class="row">
-                            <div class="col-md-8 col-sm-4 col-xs-6">
+                            <div class="col-md-8 col-sm-8 col-xs-6">
                                 <h6 class="header6 p-color-cement"><span style="color:red">*</span> Estimated Cost <a
                                         href="#" class="tooltipkey" title="Receive your own Locker space in
                                 Bengaluru as soon as you sign up with Shoppre! Use the Shipping Address
@@ -343,8 +343,8 @@
                                 {{--</table>--}}
                                 {{--</div>--}}
                                 <div class="row">
-                                    <div class="col-sm-3 col-xs-12 ">
-                                        <h1 class="header1" style="color: #507dbc" id="final-price">₹</h1>
+                                    <div class="col-sm-3 col-xs-12 no-padding ">
+                                        <h1 class="header1" id="final-price">₹</h1>
 
                                     </div>
                                     <div class="col-sm-8 col-xs-12 text-final-price-margin">
@@ -366,50 +366,49 @@
                         <div class="row">
                             <div class="col-sm-12 col-md-12" style="margin-top: 20px;">
                                 <p class="header6 " style="color: #929ca5;"><span style="color: red">*</span>For
-                                    electoronics
+                                    electronics
                                     items,
                                     INR 500 will be charged additionally.</p>
-                                <p class="header6 " style="color: #929ca5;"><span style="color: red">*</span>For Custom,
+                                <p class="header6 " style="color: #929ca5;"><span style="color: red">*</span>For Customs Clearance,
                                     INR 200
                                     will
                                     be charged additionally.</p>
 
-                                <p class="header6" style="color: #929ca5;">Cost may vary based on actual volumetric
-                                    weight. <br>Best
-                                    carrier will be automatically chosen according to your country
-                                    and weight of shippment. We use trusted courier like DHL and DTDC.</p>
+                                <p class="header6" style="color: #929ca5;">Costs may vary based on the volumetric
+                                    weight. <br>The
+                                    courier will be chosen according to your destination
+                                    & the weight of the shipment. We're teamed up with the most trusted couriers such as DHL & DTDC.</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-5 col-sm-12" id="price-cal-btn-margin">
+                            <div class="col-md-5 col-sm-6 col-xs-12" id="price-cal-btn-margin">
                                 <a class="btn btn-price-cal-v-address" href="https://myaccount.shoppre.com/register">Get
                                     a
                                     Virtual Address</a>
                             </div>
-                            <div class="col-md-5 col-sm-12" id="price-cal-btn-margin">
+                            <div class="col-md-5 col-sm-6 col-xs-12" id="price-cal-btn-margin">
                                 <a class="btn btn-price-cal-sounds-good" href="">Learn More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12" id="price-cal-btn-margin">
+                    <div class="col-md-4 col-sm-4 col-xs-12" id="price-cal-btn-margin">
                         <div class="div-country-guide-information">
                             <h6 class="header6 p-color-cement">Tools</h6>
                             <ul>
                                 <li><a href="https://www.xe.com/currencyconverter/" target="_blank">Currency Conversion</a></li>
                                 <li><a href="{{route('cguide.index')}}">Country Guide</a></li>
-                                <li><a href="{{route('cguide.index')}}">Duties and Taxes</a></li>
-                                <li><a href="{{route('cguide.index')}}">Restricted & prohibited items</a></li>
-                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdL11DQD_pOS2tBNXWaI0d8ryZ4DD0foA-Z7ZR0f0hUG3qpSg/viewform">Seller Membership</a></li>
+                                <li><a href="{{route('cguide.index')}}">Duties & Taxes</a></li>
+                                <li><a href="{{route('cguide.index')}}">Restricted & prohibited Items</a></li>
+                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdL11DQD_pOS2tBNXWaI0d8ryZ4DD0foA-Z7ZR0f0hUG3qpSg/viewform">Seller Membership Plans</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-12 no-padding" style="margin-top: 30px; font-weight: 900">
                         <center>
                             <h1 class="header2 p-color-cement-dark">Membership Plans</h1>
-                            <p class="header6 p-color-cement">Membership planes are designed specially for people to
-                                have
-                                bulk frequency of
-                                <br>purchase or sending courires worldwide. </p>
+                            <p class="header6 p-color-cement">Our plans are tailor-made to help different categories of
+                                <br> our customers shop frequently from India & save up on shipping costs only the way.
+                            </p>
                             {{--<button class="btn btn-membership-plans-monthly" type="button">Monthly</button>--}}
                             {{--<button class="btn btn-membership-plans-yearly" type="button">Yearly</button>--}}
                         </center>
@@ -444,16 +443,81 @@
                                             </div>
                                             <div class="no-padding" style="background-color: #ffffff;">
                                                 <h6 class="header6">
-                                                    Package Repacking
+                                                    Package Repackaging
                                                 </h6>
                                             </div>
                                             <div class="no-padding">
                                                 <h6 class="header6 " >
-                                                    Package Photo Service</h6>
+                                                    Photo Update</h6>
+                                            </div>
+                                            <div class="no-padding" id="view-more-plans">
+                                               <div class="no-padding">
+                                                   <h6 class="header6">
+                                                       Package Storage
+                                                   </h6>
+                                               </div>
+                                                <div class="no-padding">
+                                                    <h6 class="header6">
+                                                        Document scan
+                                                    </h6>
+                                                </div>
+                                                 <div class="no-padding">
+                                                     <h6 class="header6">
+                                                         Receive mail
+                                                     </h6>
+                                                 </div>
+
+                                                  <div class="no-padding">
+                                                      <h6 class="header6">
+                                                          Shoppre Shipping Discount
+                                                      </h6>
+                                                  </div>
+                                                  <div class="no-padding">
+                                                      <h6 class="header6">
+                                                          Additional Addresses
+                                                      </h6>
+                                                  </div>
+                                                   <div class="no-padding">
+                                                       <h6 class="header6">
+                                                           Special Clearance Charges
+                                                       </h6>
+                                                   </div>
+                                                   <div class="no-padding">
+                                                       <h6 class="header6">
+                                                           Real Time Shipment Tracking
+                                                       </h6>
+                                                   </div>
+
+                                                   <div class="">
+                                                       <h6 class="header6">
+                                                           Use Bangalore as a HUB for your business to manage inventory
+                                                       </h6>
+                                                   </div>
+                                                   <div class="no-padding">
+                                                       <h6 class="header6">
+                                                           Pick up Charges
+                                                       </h6>
+                                                   </div>
+                                                    <div class="no-padding">
+                                                        <h6 class="header6">
+                                                            GST (Service Tax)
+                                                        </h6>
+                                                    </div>
+                                                   <div class="no-padding">
+                                                       <h6 class="header6">
+                                                           Package Return Service
+                                                       </h6>
+                                                   </div>
+                                                   <div class="no-padding">
+                                                       <h6 class="header6">
+                                                           Personal Shopper Service
+                                                       </h6>
+                                                   </div>
                                             </div>
                                             <div class="no-padding view-all-features" >
                                                 <h6 class="header6 ">
-                                                    Veiw All Features</h6>
+                                                    View All Features
+                                                </h6>
                                             </div>
 
                                         </center>
@@ -462,10 +526,10 @@
                                     <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                         <center>
                                             <img  src="{{asset('img/svg/indivdual.svg')}}" alt="">
-                                            <h6 class="header6 p-mem-plans-box">Individual</h6>
+                                            <h6 class="header6 p-mem-plans-box">For Individual Shoppers</h6>
                                             <h1 class="header1 p-mem-plans-box membership-text-margin">
                                                 Free</h1>
-                                            <h6 class="header6 text-forever">FOREVER</h6>
+                                            <h6 class="header6 text-forever">Lifelong</h6>
                                             <div class="text-nochange-margin">
                                                 <h5 class="header6  ">
                                                     No change</h5>
@@ -473,32 +537,32 @@
 
                                             <div class="no-padding div-package-charges">
                                                 <h5 class="header6 ">
-                                                    100Rs per package</h5>
+                                                    100 Rs. per package</h5>
                                             </div>
                                             <div class="no-padding">
                                                 <h5 class="header6 ">
-                                                    Yes</h5>
+                                                    Free</h5>
                                             </div>
                                             <div class="no-padding div-package-charges1" >
                                                 <h5 class="header6 " >
-                                                    50Rs Per Photo</h5>
+                                                    50 Rs. Per Photo</h5>
                                             </div>
                                             <div class="no-padding">
                                                 <h7 class="header6 view-feature-text">
-                                                    Veiw Features
+                                                    View Features
                                                 </h7>
                                             </div>
 
                                             <div class=" btn-plans-individual-wholeseller" >
                                                 <a href="https://myaccount.shoppre.com/register"
-                                                   style="color: #507dbc;">Get Free Address</a>
+                                                   style="color: #507dbc;">Get a Free Address</a>
                                             </div>
                                         </center>
                                     </div>
                                     <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                         <center>
                                             <img src="{{asset('img/svg/seller.svg')}}" alt="">
-                                            <h6 class="header6 p-mem-plans-box">Seller</h6>
+                                            <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
                                             <h1 class="header1 p-mem-plans-box membership-text-margin">
                                                 ₹500/-</h1>
                                             <h6 class="header6 text-forever ">PER MONTH</h6>
@@ -508,33 +572,33 @@
                                             </div>
                                             <div class="no-padding div-package-charges">
                                                 <h5 class="header6 ">
-                                                    50Rs per package</h5>
+                                                    50 Rs. per package</h5>
                                             </div>
                                             <div class="no-padding">
-                                            <h5 class="header6 " >
-                                                Yes</h5>
+                                                <h5 class="header6 " >
+                                                    Free</h5>
                                             </div>
                                             <div class="no-padding div-package-charges1">
                                                 <h5 class="header6 ">
-                                                    10Rs Per Photo
+                                                    10 Rs. Per Photo
                                                 </h5>
                                             </div>
                                             <div class="no-padding">
                                                 <h7 class="header6 view-feature-text">
-                                                    Veiw Features
+                                                    View Features
                                                 </h7>
                                             </div>
 
                                             {{--<a href="" class="btn-plans-seller">Start Trial</a>--}}
                                             {{--<button class="btn btn-plans-seller">Start Trial</button>--}}
-                                            <button class="btn btn-plans-seller">Coming Soon</button>
+                                            <button class="btn btn-plans-seller">Request Callback</button>
                                         </center>
 
                                     </div>
                                     <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                         <center>
                                             <img src="{{asset('img/svg/wholseller.svg')}}" alt="">
-                                            <h6 class="header6 p-mem-plans-box">Wholeseller</h6>
+                                            <h6 class="header6 p-mem-plans-box">For Wholesalers</h6>
                                             <h1 class="header1 p-mem-plans-box membership-text-margin">
                                                 ₹1599/-</h1>
                                             <h6 class="header6 text-forever">PER MONTH</h6>
@@ -544,29 +608,29 @@
                                             </div>
                                             <div class="no-padding div-package-charges">
                                                 <h5 class="header6">
-                                                    10Rs per package</h5>
+                                                    10 Rs. per package</h5>
                                             </div>
                                             <div class="no-padding">
-                                            <h5 class="header6"  >
-                                                Yes
-                                            </h5>
+                                                <h5 class="header6"  >
+                                                    Free
+                                                </h5>
                                             </div>
                                             <div class="no-padding div-package-charges1">
                                                 <h5 class="header6">
                                                     Free
                                                 </h5>
                                             </div>
-                                             <div class="no-padding">
-                                                 <h7 class="header6 view-feature-text">
-                                                     Veiw Features</h7>
-                                             </div>
+                                            <div class="no-padding">
+                                                <h7 class="header6 view-feature-text">
+                                                    View Features</h7>
+                                            </div>
                                             <div class=" btn-plans-individual-wholeseller">
                                                 <a href="https://myaccount.shoppre.com/register"
-                                                   style="color: #507dbc;">Coming Soon</a>
+                                                   style="color: #507dbc;">Request Callback</a>
                                             </div>
                                             {{--<a href="" class="btn-plans-individual-wholeseller" style="padding: 10px 30px">Start Trial</a>--}}
                                             {{--<button class="btn-plans-individual-wholeseller">Start Trial</button>--}}
-                                            {{--<button class="btn-plans-individual-wholeseller">Coming Soon</button>--}}
+                                            {{--<button class="btn-plans-individual-wholeseller">Request Callback</button>--}}
                                         </center>
 
                                     </div>
@@ -591,7 +655,7 @@
                                             </div>
                                             <div class="no-padding" style="background-color: #ffffff;">
                                                 <h6 class="header6">
-                                                    Package Repacking
+                                                    Package Repackaging
                                                 </h6>
                                             </div>
                                             <div class="no-padding">
@@ -600,7 +664,7 @@
                                             </div>
                                             <div class="no-padding view-all-features" >
                                                 <h6 class="header6 ">
-                                                    Veiw All Features</h6>
+                                                    View All Features</h6>
                                             </div>
 
                                         </center>
@@ -609,10 +673,10 @@
                                     <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                         <center>
                                             <img  src="{{asset('img/svg/indivdual.svg')}}" alt="">
-                                            <h6 class="header6 p-mem-plans-box">Individual</h6>
+                                            <h6 class="header6 p-mem-plans-box">For Individual Shoppers</h6>
                                             <h1 class="header1 p-mem-plans-box membership-text-margin">
                                                 Free</h1>
-                                            <h6 class="header6 text-forever">FOREVER</h6>
+                                            <h6 class="header6 text-forever">Lifelong</h6>
                                             <div class="text-nochange-margin">
                                                 <h5 class="header6  ">
                                                     No change</h5>
@@ -620,32 +684,32 @@
 
                                             <div class="no-padding div-package-charges">
                                                 <h5 class="header6 ">
-                                                    100Rs per package</h5>
+                                                    100 Rs. per package</h5>
                                             </div>
                                             <div class="no-padding">
                                                 <h5 class="header6 ">
-                                                    Yes</h5>
+                                                    Free</h5>
                                             </div>
                                             <div class="no-padding div-package-charges1" >
                                                 <h5 class="header6 " >
-                                                    50Rs Per Photo</h5>
+                                                    50 Rs. Per Photo</h5>
                                             </div>
                                             <div class="no-padding">
                                                 <h7 class="header6 view-feature-text">
-                                                    Veiw Features
+                                                    View Features
                                                 </h7>
                                             </div>
 
                                             <div class=" btn-plans-individual-wholeseller" >
                                                 <a href="https://myaccount.shoppre.com/register"
-                                                   style="color: #507dbc;">Get Free Address</a>
+                                                   style="color: #507dbc;">Get a Free Address</a>
                                             </div>
                                         </center>
                                     </div>
                                     <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                         <center>
                                             <img src="{{asset('img/svg/seller.svg')}}" alt="">
-                                            <h6 class="header6 p-mem-plans-box">Seller</h6>
+                                            <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
                                             <h1 class="header1 p-mem-plans-box membership-text-margin">
                                                 ₹450/-</h1>
                                             <h6 class="header6 text-forever ">PER MONTH</h6>
@@ -655,33 +719,33 @@
                                             </div>
                                             <div class="no-padding div-package-charges">
                                                 <h5 class="header6 ">
-                                                    50Rs per package</h5>
+                                                    50 Rs. per package</h5>
                                             </div>
                                             <div class="no-padding">
                                                 <h5 class="header6 " >
-                                                    Yes</h5>
+                                                    Free</h5>
                                             </div>
                                             <div class="no-padding div-package-charges1">
                                                 <h5 class="header6 ">
-                                                    10Rs Per Photo
+                                                    10 Rs. Per Photo
                                                 </h5>
                                             </div>
                                             <div class="no-padding">
                                                 <h7 class="header6 view-feature-text">
-                                                    Veiw Features
+                                                    View Features
                                                 </h7>
                                             </div>
 
                                             {{--<a href="" class="btn-plans-seller">Start Trial</a>--}}
                                             {{--<button class="btn btn-plans-seller">Start Trial</button>--}}
-                                            <button class="btn btn-plans-seller">Coming Soon</button>
+                                            <button class="btn btn-plans-seller">Request Callback</button>
                                         </center>
 
                                     </div>
                                     <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                         <center>
                                             <img src="{{asset('img/svg/wholseller.svg')}}" alt="">
-                                            <h6 class="header6 p-mem-plans-box">Wholeseller</h6>
+                                            <h6 class="header6 p-mem-plans-box">For Wholesalers</h6>
                                             <h1 class="header1 p-mem-plans-box membership-text-margin">
                                                 ₹1499/-</h1>
                                             <h6 class="header6 text-forever">PER MONTH</h6>
@@ -691,11 +755,11 @@
                                             </div>
                                             <div class="no-padding div-package-charges">
                                                 <h5 class="header6">
-                                                    10Rs per package</h5>
+                                                    10 Rs. per package</h5>
                                             </div>
                                             <div class="no-padding">
                                                 <h5 class="header6"  >
-                                                    Yes
+                                                    Free
                                                 </h5>
                                             </div>
                                             <div class="no-padding div-package-charges1">
@@ -705,15 +769,15 @@
                                             </div>
                                             <div class="no-padding">
                                                 <h7 class="header6 view-feature-text">
-                                                    Veiw Features</h7>
+                                                    View Features</h7>
                                             </div>
                                             <div class=" btn-plans-individual-wholeseller">
                                                 <a href="https://myaccount.shoppre.com/register"
-                                                   style="color: #507dbc;">Coming Soon</a>
+                                                   style="color: #507dbc;">Request Callback</a>
                                             </div>
                                             {{--<a href="" class="btn-plans-individual-wholeseller" style="padding: 10px 30px">Start Trial</a>--}}
                                             {{--<button class="btn-plans-individual-wholeseller">Start Trial</button>--}}
-                                            {{--<button class="btn-plans-individual-wholeseller">Coming Soon</button>--}}
+                                            {{--<button class="btn-plans-individual-wholeseller">Request Callback</button>--}}
                                         </center>
 
                                     </div>
@@ -738,7 +802,7 @@
                                         </div>
                                         <div class="no-padding" style="background-color: #ffffff;">
                                             <h6 class="header6">
-                                                Package Repacking
+                                                Package Repackaging
                                             </h6>
                                         </div>
                                         <div class="no-padding">
@@ -747,17 +811,17 @@
                                         </div>
                                         <div class="no-padding view-all-features" >
                                             <h6 class="header6 ">
-                                                Veiw All Features</h6>
+                                                View All Features</h6>
                                         </div>
 
                                     </div>
                                     <div class="col-xs-7 no-padding div-monthly-plans div-plan-box">
                                         <center>
                                             <img  src="{{asset('img/svg/indivdual.svg')}}" alt="">
-                                            <h6 class="header6 p-mem-plans-box">Individual</h6>
+                                            <h6 class="header6 p-mem-plans-box">For Individual Shoppers</h6>
                                             <h1 class="header1 p-mem-plans-box membership-text-margin">
                                                 Free</h1>
-                                            <h6 class="header6 text-forever">FOREVER</h6>
+                                            <h6 class="header6 text-forever">Lifelong</h6>
                                             <div class="text-nochange-margin" style="padding:5px 5px">
                                                 <h5 class="header6  ">
                                                     No change</h5>
@@ -765,29 +829,29 @@
 
                                             <div class="no-padding div-package-charges" style="padding:11px 12px">
                                                 <h5 class="header6 ">
-                                                    100Rs per package</h5>
+                                                    100 Rs. per package</h5>
                                             </div>
                                             <div class="no-padding" style="padding:5px 1px">
                                                 <h5 class="header6 ">
-                                                    Yes</h5>
+                                                    Free</h5>
                                             </div>
                                             <div class="no-padding div-package-charges1" style="padding-top: 15px; padding-bottom: 12px;">
                                                 <h5 class="header6 " >
-                                                    50Rs Per Photo</h5>
+                                                    50 Rs. Per Photo</h5>
                                             </div>
                                             <div class="no-padding">
                                                 <h7 class="header6 view-feature-text" >
-                                                    Veiw Features
+                                                    View Features
                                                 </h7>
                                             </div>
 
                                             <div class=" btn-plans-individual-wholeseller" >
                                                 <a href="https://myaccount.shoppre.com/register"
-                                                   style="color: #507dbc;">Get Free Address</a>
+                                                   style="color: #507dbc;">Get a Free Address</a>
                                             </div>
 
                                             {{--<button class="btn-plans-individual-wholeseller"  href="">Sign Up</button>--}}
-                                            {{--<button class="btn-plans-individual-wholeseller">Coming Soon</button>--}}
+                                            {{--<button class="btn-plans-individual-wholeseller">Request Callback</button>--}}
                                         </center>
 
                                     </div>
@@ -809,7 +873,7 @@
                                         </div>
                                         <div class="no-padding" style="background-color: #ffffff;">
                                             <h6 class="header6">
-                                                Package Repacking
+                                                Package Repackaging
                                             </h6>
                                         </div>
                                         <div class="no-padding">
@@ -818,7 +882,7 @@
                                         </div>
                                         <div class="no-padding view-all-features" >
                                             <h6 class="header6 ">
-                                                Veiw All Features</h6>
+                                                View All Features</h6>
                                         </div>
 
 
@@ -826,7 +890,7 @@
                                     <div class="col-xs-7 no-padding div-monthly-plans div-plan-box">
                                         <center>
                                             <img src="{{asset('img/svg/seller.svg')}}" alt="">
-                                            <h6 class="header6 p-mem-plans-box">Seller</h6>
+                                            <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
                                             <h1 class="header1 p-mem-plans-box membership-text-margin">
                                                 ₹500/-</h1>
                                             <h6 class="header6 text-forever ">PER MONTH</h6>
@@ -836,26 +900,26 @@
                                             </div>
                                             <div class="no-padding div-package-charges" style="padding:11px 12px">
                                                 <h5 class="header6 ">
-                                                    50Rs per package</h5>
+                                                    50 Rs. per package</h5>
                                             </div>
                                             <div class="no-padding">
                                                 <h5 class="header6 " style="padding:5px 1px" >
-                                                    Yes</h5>
+                                                    Free</h5>
                                             </div>
                                             <div class="no-padding div-package-charges1" style="padding: 14px 12px;">
                                                 <h5 class="header6 ">
-                                                    10Rs Per Photo
+                                                    10 Rs. Per Photo
                                                 </h5>
                                             </div>
                                             <div class="no-padding">
                                                 <h7 class="header6 view-feature-text">
-                                                    Veiw Features
+                                                    View Features
                                                 </h7>
                                             </div>
 
                                             {{--<a href="" class="btn-plans-seller">Start Trial</a>--}}
                                             {{--<button class="btn btn-plans-seller">Start Trial</button>--}}
-                                            <button class="btn btn-plans-seller">Coming Soon</button>
+                                            <button class="btn btn-plans-seller">Request Callback</button>
                                         </center>
 
                                     </div>
@@ -877,7 +941,7 @@
                                         </div>
                                         <div class="no-padding" style="background-color: #ffffff;">
                                             <h6 class="header6">
-                                                Package Repacking
+                                                Package Repackaging
                                             </h6>
                                         </div>
                                         <div class="no-padding">
@@ -886,7 +950,7 @@
                                         </div>
                                         <div class="no-padding view-all-features" >
                                             <h6 class="header6 ">
-                                                Veiw All Features</h6>
+                                                View All Features</h6>
                                         </div>
 
 
@@ -894,7 +958,7 @@
                                     <div class="col-xs-7 no-padding div-monthly-plans div-plan-box">
                                         <center>
                                             <img src="{{asset('img/svg/wholseller.svg')}}" alt="">
-                                            <h6 class="header6 p-mem-plans-box">Wholeseller</h6>
+                                            <h6 class="header6 p-mem-plans-box">For Wholesalers</h6>
                                             <h1 class="header1 p-mem-plans-box membership-text-margin">
                                                 ₹1599/-</h1>
                                             <h6 class="header6 text-forever">PER MONTH</h6>
@@ -904,11 +968,11 @@
                                             </div>
                                             <div class="no-padding div-package-charges" style="padding:11px 12px">
                                                 <h5 class="header6">
-                                                    10Rs per package</h5>
+                                                    10 Rs. per package</h5>
                                             </div>
                                             <div class="no-padding" style="padding:5px 1px">
                                                 <h5 class="header6"  >
-                                                    Yes
+                                                    Free
                                                 </h5>
                                             </div>
                                             <div class="no-padding div-package-charges1" style="padding: 14px 12px;">
@@ -918,15 +982,15 @@
                                             </div>
                                             <div class="no-padding">
                                                 <h7 class="header6 view-feature-text">
-                                                    Veiw Features</h7>
+                                                    View Features</h7>
                                             </div>
                                             <div class=" btn-plans-individual-wholeseller">
                                                 <a href="https://myaccount.shoppre.com/register"
-                                                   style="color: #507dbc;">Coming Soon</a>
+                                                   style="color: #507dbc;">Request Callback</a>
                                             </div>
                                             {{--<a href="" class="btn-plans-individual-wholeseller" style="padding: 10px 30px">Start Trial</a>--}}
                                             {{--<button class="btn-plans-individual-wholeseller">Start Trial</button>--}}
-                                            {{--<button class="btn-plans-individual-wholeseller">Coming Soon</button>--}}
+                                            {{--<button class="btn-plans-individual-wholeseller">Request Callback</button>--}}
                                         </center>
 
                                     </div>
@@ -950,7 +1014,7 @@
                                         </div>
                                         <div class="no-padding" style="background-color: #ffffff;">
                                             <h6 class="header6">
-                                                Package Repacking
+                                                Package Repackaging
                                             </h6>
                                         </div>
                                         <div class="no-padding">
@@ -959,17 +1023,17 @@
                                         </div>
                                         <div class="no-padding view-all-features" >
                                             <h6 class="header6 ">
-                                                Veiw All Features</h6>
+                                                View All Features</h6>
                                         </div>
 
                                     </div>
                                     <div class="col-xs-7 no-padding div-monthly-plans div-plan-box">
                                         <center>
                                             <img  src="{{asset('img/svg/indivdual.svg')}}" alt="">
-                                            <h6 class="header6 p-mem-plans-box">Individual</h6>
+                                            <h6 class="header6 p-mem-plans-box">For Individual Shoppers</h6>
                                             <h1 class="header1 p-mem-plans-box membership-text-margin">
                                                 Free</h1>
-                                            <h6 class="header6 text-forever">FOREVER</h6>
+                                            <h6 class="header6 text-forever">Lifelong</h6>
                                             <div class="text-nochange-margin" style="padding:5px 5px">
                                                 <h5 class="header6  ">
                                                     No change</h5>
@@ -977,29 +1041,29 @@
 
                                             <div class="no-padding div-package-charges" style="padding:11px 12px">
                                                 <h5 class="header6 ">
-                                                    100Rs per package</h5>
+                                                    100 Rs. per package</h5>
                                             </div>
                                             <div class="no-padding" style="padding:5px 1px">
                                                 <h5 class="header6 ">
-                                                    Yes</h5>
+                                                    Free</h5>
                                             </div>
                                             <div class="no-padding div-package-charges1" style="padding-top: 15px; padding-bottom: 12px;">
                                                 <h5 class="header6 " >
-                                                    50Rs Per Photo</h5>
+                                                    50 Rs. Per Photo</h5>
                                             </div>
                                             <div class="no-padding">
                                                 <h7 class="header6 view-feature-text" >
-                                                    Veiw Features
+                                                    View Features
                                                 </h7>
                                             </div>
 
                                             <div class=" btn-plans-individual-wholeseller" >
                                                 <a href="https://myaccount.shoppre.com/register"
-                                                   style="color: #507dbc;">Get Free Address</a>
+                                                   style="color: #507dbc;">Get a Free Address</a>
                                             </div>
 
                                             {{--<button class="btn-plans-individual-wholeseller"  href="">Sign Up</button>--}}
-                                            {{--<button class="btn-plans-individual-wholeseller">Coming Soon</button>--}}
+                                            {{--<button class="btn-plans-individual-wholeseller">Request Callback</button>--}}
                                         </center>
 
                                     </div>
@@ -1021,7 +1085,7 @@
                                         </div>
                                         <div class="no-padding" style="background-color: #ffffff;">
                                             <h6 class="header6">
-                                                Package Repacking
+                                                Package Repackaging
                                             </h6>
                                         </div>
                                         <div class="no-padding">
@@ -1030,7 +1094,7 @@
                                         </div>
                                         <div class="no-padding view-all-features" >
                                             <h6 class="header6 ">
-                                                Veiw All Features</h6>
+                                                View All Features</h6>
                                         </div>
 
 
@@ -1038,7 +1102,7 @@
                                     <div class="col-xs-7 no-padding div-monthly-plans div-plan-box">
                                         <center>
                                             <img src="{{asset('img/svg/seller.svg')}}" alt="">
-                                            <h6 class="header6 p-mem-plans-box">Seller</h6>
+                                            <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
                                             <h1 class="header1 p-mem-plans-box membership-text-margin">
                                                 ₹450/-</h1>
                                             <h6 class="header6 text-forever ">PER MONTH</h6>
@@ -1048,26 +1112,26 @@
                                             </div>
                                             <div class="no-padding div-package-charges" style="padding:11px 12px">
                                                 <h5 class="header6 ">
-                                                    50Rs per package</h5>
+                                                    50 Rs. per package</h5>
                                             </div>
                                             <div class="no-padding">
                                                 <h5 class="header6 " style="padding:5px 1px" >
-                                                    Yes</h5>
+                                                    Free</h5>
                                             </div>
                                             <div class="no-padding div-package-charges1" style="padding: 14px 12px;">
                                                 <h5 class="header6 ">
-                                                    10Rs Per Photo
+                                                    10 Rs. Per Photo
                                                 </h5>
                                             </div>
                                             <div class="no-padding">
                                                 <h7 class="header6 view-feature-text">
-                                                    Veiw Features
+                                                    View Features
                                                 </h7>
                                             </div>
 
                                             {{--<a href="" class="btn-plans-seller">Start Trial</a>--}}
                                             {{--<button class="btn btn-plans-seller">Start Trial</button>--}}
-                                            <button class="btn btn-plans-seller">Coming Soon</button>
+                                            <button class="btn btn-plans-seller">Request Callback</button>
                                         </center>
 
                                     </div>
@@ -1089,7 +1153,7 @@
                                         </div>
                                         <div class="no-padding" style="background-color: #ffffff;">
                                             <h6 class="header6">
-                                                Package Repacking
+                                                Package Repackaging
                                             </h6>
                                         </div>
                                         <div class="no-padding">
@@ -1098,7 +1162,7 @@
                                         </div>
                                         <div class="no-padding view-all-features" >
                                             <h6 class="header6 ">
-                                                Veiw All Features</h6>
+                                                View All Features</h6>
                                         </div>
 
 
@@ -1106,7 +1170,7 @@
                                     <div class="col-xs-7 no-padding div-monthly-plans div-plan-box">
                                         <center>
                                             <img src="{{asset('img/svg/wholseller.svg')}}" alt="">
-                                            <h6 class="header6 p-mem-plans-box">Wholeseller</h6>
+                                            <h6 class="header6 p-mem-plans-box">For Wholesalers</h6>
                                             <h1 class="header1 p-mem-plans-box membership-text-margin">
                                                 ₹1499/-</h1>
                                             <h6 class="header6 text-forever">PER MONTH</h6>
@@ -1116,11 +1180,11 @@
                                             </div>
                                             <div class="no-padding div-package-charges" style="padding:11px 12px">
                                                 <h5 class="header6">
-                                                    10Rs per package</h5>
+                                                    10 Rs. per package</h5>
                                             </div>
                                             <div class="no-padding" style="padding:5px 1px">
                                                 <h5 class="header6"  >
-                                                    Yes
+                                                    Free
                                                 </h5>
                                             </div>
                                             <div class="no-padding div-package-charges1" style="padding: 14px 12px;">
@@ -1130,23 +1194,27 @@
                                             </div>
                                             <div class="no-padding">
                                                 <h7 class="header6 view-feature-text">
-                                                    Veiw Features</h7>
+                                                    View Features</h7>
                                             </div>
                                             <div class=" btn-plans-individual-wholeseller">
                                                 <a href="https://myaccount.shoppre.com/register"
-                                                   style="color: #507dbc;">Coming Soon</a>
+                                                   style="color: #507dbc;">Request Callback</a>
                                             </div>
                                             {{--<a href="" class="btn-plans-individual-wholeseller" style="padding: 10px 30px">Start Trial</a>--}}
                                             {{--<button class="btn-plans-individual-wholeseller">Start Trial</button>--}}
-                                            {{--<button class="btn-plans-individual-wholeseller">Coming Soon</button>--}}
+                                            {{--<button class="btn-plans-individual-wholeseller">Request Callback</button>--}}
                                         </center>
 
                                     </div>
                                 </div>
                             </section>
                         </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 " style="margin-top: 30px">
+                            <center>
+                                <p class="header6 p-color-cement">Indian Seller, looking to widen your reach? Check out our <a href="#">Indian Seller Membership Plans </a></p>
+                            </center>
 
-
+                        </div>
                     </div>
                 </div>
                 <div id="calc_load"></div>

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\CampaignStatistics;
 use App\City;
 use App\Mail\EmailChat;
+use App\Mail\EmailSubscriber;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -61,6 +62,87 @@ class PageController extends Controller
         return view('page.pricing1')->with(['reviews' => $reviews, 'countries' => $countries]);
 
     }
+
+    public function createSubscriber(Request $req)
+    {
+//        echo 'hi';exit;
+        $id = Auth::id();
+        $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
+        $list_id='551f00fe3c';
+        $auth = base64_encode( 'user:'.$apikey );
+        $email = $req->email;
+        $data = array(
+            'apikey'        => $apikey,
+            'email_address' => $email,
+            'status'        => 'subscribed'
+        );
+
+        $json_data = json_encode($data);
+        try {
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, 'https://us19.api.mailchimp.com/3.0/lists/'. $list_id.'/members/');
+            curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json',
+                'Authorization: Basic '.$auth));
+            curl_setopt($ch, CURLOPT_USERAGENT, 'PHP-MCAPI/2.0');
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+            curl_setopt($ch, CURLOPT_POST, true);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);
+            $result = curl_exec($ch);
+
+        // this code is required for next iteration
+            return response()->json([
+                'message' => 'success'
+            ]);
+//            $this->sendEmailtoSubscriber($email);
+
+        }
+        catch(Exception $e)
+        {
+            return response()->json([
+                'message' => 'error'
+            ]);
+        }
+    }
+    public function sendEmailtoSubscriber($email){
+            Mail::to($email)
+                ->bcc(['support@shoppre.com'])
+                ->send(new EmailSubscriber($email));
+
+    }
+
+
+    public function getCountry() {
+        $curl = curl_init();
+
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => "https://api.myip.com/",
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "GET",
+            CURLOPT_HTTPHEADER => array(
+                "cache-control: no-cache",
+                "postman-token: 616f5043-e64a-3446-aef2-4bd5a92ccb03"
+            ),
+        ));
+
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+
+        curl_close($curl);
+
+        if ($err) {
+            echo "cURL Error #:" . $err;
+        } else {
+            echo $response;
+        }
+    }
+
+
     public function saveFlyerUser(Request $request)
     {
         $emp_id = 616;
