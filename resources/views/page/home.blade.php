@@ -185,45 +185,48 @@
 
 @section('content')
     <main class="div-main" role="main">
-        <div class="container no-padding" style="background-color: #102436; padding-top:20px;padding-bottom: 20px "
+
+        <div class="container header-menu-home-page"
              id="header-menu">
             <div class="col-md-2">
                 <a href="{{route('ifs.index')}}" class="header6 p-color-cement">
-                    <div style="padding: 5px">
-                        <img src="{{asset('img/svg/header-shop-ship.svg')}}" style="margin-top: -10px"
+                    <div>
+                        <img src="{{asset('img/svg/header-shop-ship.svg')}}" class="header-menu-img"
                              alt="personal shopper">
-                        <span class="header6 p-color-cement"> Shop and Ship</span>
+                        <span class="p-color-cement"> Shop and Ship</span>
 
                     </div>
                 </a>
             </div>
-            <div class="col-md-2" style="padding: 5px">
+
+            <div class="col-md-2">
                 <a href="{{route('ifs.index')}}/#how-it-works">
-                    <img src="{{asset('img/svg/header-p-shopper.svg')}}" alt="" style="margin-top: -10px">
+                    <img src="{{asset('img/svg/header-p-shopper.svg')}}" alt="" class="header-menu-img">
                     <span class="header6 p-color-cement">Personal Shoppre</span>
                 </a>
             </div>
-            <div class="col-md-2" style="padding: 5px">
+            <div class="col-md-2" >
                 <a href="{{route('ifs.index')}}/#personal-shopper" class="header6 p-color-cement">
-                    <img src="{{asset('img/svg/header-schedule-pickup.svg')}}" alt="" style="margin-top: -10px">
+                    <img src="{{asset('img/svg/header-schedule-pickup.svg')}}" alt="" class="header-menu-img">
                     <span class="header6 p-color-cement">Schedule Pickup</span>
                 </a>
             </div>
-            <div class="col-md-2" style="padding: 5px">
+            <div class="col-md-2" >
                 <a href="{{route('stores')}}" class="header6 p-color-cement">
-                    <img src="{{asset('img/svg/header-stores.svg')}}" alt="" style="margin-top: -10px">
+                    <img src="{{asset('img/svg/header-stores.svg')}}" alt="" class="header-menu-img">
                     <span class="header6 p-color-cement">Browse Stores</span>
                 </a>
             </div>
-            <div class="col-md-2" style="padding: 5px">
-                <a href="" class="header6 p-color-cement">
-                    <img src="{{asset('img/svg/partner-with-us.svg')}}" alt="" style="margin-top: -10px">
+            <div class="col-md-2">
+                <a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank" class="header6 p-color-cement">
+                    <img src="{{asset('img/svg/partner-with-us.svg')}}" alt="" class="header-menu-img">
                     <span class="header6 p-color-cement">Partner With Us</span>
                 </a>
             </div>
-            <div class="col-md-2" style="padding: 5px">
-                <a href="" class="header6 p-color-cement">
-                    <img src="{{asset('img/svg/partner-with-us.svg')}}" alt="" style="margin-top: -10px">
+            <div class="col-md-2" >
+                <a href="https://www.shoppre.com/offers/send-durga-puja-gifts-from-india-ship-internationally/" target="_blank" class="header6 p-color-cement">
+                    <img src="{{asset('img/svg/partner-with-us.svg')}}" alt="" class="header-menu-img">
+
                     <span class="header6 p-color-cement"> Offers and Deals</span>
                 </a>
             </div>
@@ -858,7 +861,9 @@
                                 {{--<img class=" img-review img-circle" src="{{asset('img/images/23.jpg')}}">--}}
                                 <img class=" img-review img-circle" src="{{asset('img/svg/034-woman-8.svg')}}">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Still Syma</p>
-                                <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;USA</p>
+
+                                <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;USA</p>
+
                                 <img class="img-stars" src="{{asset('img/svg/stars.svg')}}">
                                 {{-- id="stars"--}}
                                 {{--<input class="rating rated" value="5" id="stars-rate">--}}
@@ -885,7 +890,9 @@
                                 {{--                                <img class=" img-review img-circle" src="{{asset('img/images/9.jpg')}}">--}}
                                 <img class=" img-review img-circle" src="{{asset('img/svg/040-man-11.svg')}}">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Sudeep Sagar</p>
-                                <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;UAE</p>
+
+                                <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UAE</p>
+
                                 <img class="img-stars" src="{{asset('img/svg/stars.svg')}}">
                                 {{--<input class="rating rated" value="5" id="stars-rate">--}}
                             </div>
@@ -912,7 +919,9 @@
                                 {{--<img class=" img-review img-circle" src="{{asset('img/images/6.jpg')}}">--}}
                                 <img class=" img-review img-circle" src="{{asset('img/svg/001-man.svg')}}">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Anirudh Lal</p>
-                                <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;India</p>
+
+                                <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;India</p>
+
                                 <img class="img-stars" src="{{asset('img/svg/stars.svg')}}">
                                 {{--<input class="rating rated" value="5" id="stars-rate">--}}
                             </div>

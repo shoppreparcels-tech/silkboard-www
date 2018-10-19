@@ -221,7 +221,9 @@ body {
     height:30px;
     margin:0;
     padding:0px 35px 0px 20px;
-    font-size:20px;
+
+    font-size:16px;
+
     color:#929ca5;
     border-radius:30px;
 }
@@ -495,6 +497,17 @@ header::after {
 
 .div-main-row {
     margin-top: 60px;
+}
+.header-menu-home-page{
+    background-color: #102436;
+    padding-top:20px;
+    padding-bottom: 20px
+}
+.header-menu-home-page img{
+    margin-top: -10px;
+}
+.header-menu-home-page div{
+    padding: 5px;
 }
 
 .header-text-margin {
@@ -1326,9 +1339,15 @@ a#prev:hover, a#next:hover {
     font-weight: 500;
     margin-top: 7px;
 }
-
+.p-name1 {
+    color: #11273b;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: -9px;
+}
 .img-stars {
-    padding-left: 12px;
+    padding-left: 62px;
+    margin-top: -6px;
 }
 
 .div-img-row {
@@ -2266,6 +2285,11 @@ a#prev:hover, a#next:hover {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1024px) {
+
+    .header6 {
+        font-size: 11px;
+    }
+
     .container-search{
         display: none;
     }
@@ -2297,7 +2321,9 @@ a#prev:hover, a#next:hover {
 
     .img-priyamani {
         margin: -164px 0px -13px -184px;
-        height: 451px;
+
+        height: 412px;
+
     }
 
     .online-text {
@@ -2320,7 +2346,7 @@ a#prev:hover, a#next:hover {
 
     .img-stars {
         padding-left: 61px;
-        margin-top: -17px;
+        margin-top: -9px;
     }
 
     .p-name {
@@ -2518,6 +2544,7 @@ a#prev:hover, a#next:hover {
     .navbar-brand img{
         height: 50px;
         margin-top: -5px;
+
     }
     .navbar-nav .open .dropdown-menu {
         background-color:#ffffff;
@@ -2616,7 +2643,7 @@ a#prev:hover, a#next:hover {
     }
 
     .img-stars {
-        padding-left: 16px;
+        padding-left: 65px;
         margin-top: -8px;
     }
 
