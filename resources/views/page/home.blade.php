@@ -202,7 +202,8 @@
             <div class="col-md-2">
                 <a href="{{route('ifs.index')}}/#how-it-works">
                     <img src="{{asset('img/svg/header-p-shopper.svg')}}" alt="" class="header-menu-img">
-                    <span class="header6 p-color-cement">Personal Shoppre</span>
+
+                    <span class="header6 p-color-cement">Personal Shopper</span>
                 </a>
             </div>
             <div class="col-md-2" >
