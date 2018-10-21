@@ -207,7 +207,7 @@
                 </a>
             </div>
             <div class="col-md-2" >
-                <a href="{{route('ifs.index')}}/#personal-shopper" class="header6 p-color-cement">
+                <a href="{{route('schedulePickup.Index')}}" class="header6 p-color-cement">
                     <img src="{{asset('img/svg/header-schedule-pickup.svg')}}" alt="" class="header-menu-img">
                     <span class="header6 p-color-cement">Schedule Pickup</span>
                 </a>
