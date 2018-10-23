@@ -8,13 +8,13 @@
                 <center>
                     <img class="img-mobile-flag" src="{{asset('img/svg/mail-box.svg')}}" alt="">
                     <h3 class="header3 p-color-white">Join our Mailing List</h3>
-                    <h6 class="header6 p-color-cement">First Worldwide Indian Shop & Ship Community</h6>
+                    <h6 class="header6 p-color-cement">The First Worldwide Indian Shop & Ship Community</h6>
                 </center>
             </div>
             <div class="col-md-7 col-lg-7  div-footer-mail-subscripton">
                 <form class="" id="subscribe" role="form" method="POST">
                     {{csrf_field()}}
-                    <input class="txt-subscription form-group" placeholder="   enter your email" name="email"  type="email" required>
+                    <input class="txt-subscription form-group" placeholder="   Enter your E-mail Id" name="email"  type="email" required>
                     <button type="submit" class="btn btn-email-subscription pull-right " id="btn-desktop-mail">
                         Subscribe <img class="img-arrow pull-right" src="{{asset('img/svg/arrow.svg')}}" alt="">
                     </button>
@@ -78,7 +78,7 @@
                         </a>
                     </li>
                     <li>
-                        <p class="footer-social-media-font1 footer-social-media">CONNECT ON</p><br>
+                        <p class="footer-social-media-font1 footer-social-media">CONNECT ON</p>
                         <a class="footer-a" href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw">
                             <img class="img-connect" src="{{asset('img/svg/shoppre-youtube-video.svg')}}"
                                  alt="shoppre youtube video">

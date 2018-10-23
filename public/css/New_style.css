@@ -749,13 +749,6 @@ header::after {
 }
 
 .div-priyamani-mobile-img {
-
-    /*width: 224px;*/
-    /*margin-top: -150px;*/
-    /*margin-left: 149px;*/
-    /*position: absolute;*/
-
-
     background-image: url(../../img/images/priyamani-shoppre-brand-ambassador.png);
     height: 340px;
     width: 148px;
@@ -765,6 +758,11 @@ header::after {
     overflow: hidden;
     display: none;
 
+}
+
+.form-horizontal .form-group {
+     margin-right: 0px!important;
+     margin-left: 0px!important;
 }
 
 .div-margin {

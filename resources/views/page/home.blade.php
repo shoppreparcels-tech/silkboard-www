@@ -93,13 +93,6 @@
             }
        }
   }
-
-
-
-
-
-
-
     </script>
 
     <script type="application/ld+json">
@@ -144,12 +137,6 @@
     "https://play.google.com/store/apps/details?id=com.shoppre.play",
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
  ]}
-
-
-
-
-
-
     </script>
 
     <script type='application/ld+json'>
@@ -173,65 +160,58 @@
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
   ]
 }
-
-
-
-
-
-
-    </script>
+</script>
 
 @endsection
 
 @section('content')
     <main class="div-main" role="main">
+        {{--this block is required for next iteration--}}
+        {{--<div class="container header-menu-home-page"--}}
+             {{--id="header-menu">--}}
+            {{--<div class="col-md-2">--}}
+                {{--<a href="{{route('ifs.index')}}" class="header6 p-color-cement">--}}
+                    {{--<div>--}}
+                        {{--<img src="{{asset('img/svg/header-shop-ship.svg')}}" class="header-menu-img"--}}
+                             {{--alt="personal shopper">--}}
+                        {{--<span class="p-color-cement"> Shop and Ship</span>--}}
 
-        <div class="container header-menu-home-page"
-             id="header-menu">
-            <div class="col-md-2">
-                <a href="{{route('ifs.index')}}" class="header6 p-color-cement">
-                    <div>
-                        <img src="{{asset('img/svg/header-shop-ship.svg')}}" class="header-menu-img"
-                             alt="personal shopper">
-                        <span class="p-color-cement"> Shop and Ship</span>
+                    {{--</div>--}}
+                {{--</a>--}}
+            {{--</div>--}}
 
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-md-2">
-                <a href="{{route('ifs.index')}}/#how-it-works">
-                    <img src="{{asset('img/svg/header-p-shopper.svg')}}" alt="" class="header-menu-img">
-
-                    <span class="header6 p-color-cement">Personal Shopper</span>
-                </a>
-            </div>
-            <div class="col-md-2" >
-                <a href="{{route('schedulePickup.Index')}}" class="header6 p-color-cement">
-                    <img src="{{asset('img/svg/header-schedule-pickup.svg')}}" alt="" class="header-menu-img">
-                    <span class="header6 p-color-cement">Schedule Pickup</span>
-                </a>
-            </div>
-            <div class="col-md-2" >
-                <a href="{{route('stores')}}" class="header6 p-color-cement">
-                    <img src="{{asset('img/svg/header-stores.svg')}}" alt="" class="header-menu-img">
-                    <span class="header6 p-color-cement">Browse Stores</span>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank" class="header6 p-color-cement">
-                    <img src="{{asset('img/svg/partner-with-us.svg')}}" alt="" class="header-menu-img">
-                    <span class="header6 p-color-cement">Partner With Us</span>
-                </a>
-            </div>
-            <div class="col-md-2" >
-                <a href="https://www.shoppre.com/offers/send-durga-puja-gifts-from-india-ship-internationally/" target="_blank" class="header6 p-color-cement">
-                    <img src="{{asset('img/svg/partner-with-us.svg')}}" alt="" class="header-menu-img">
-
-                    <span class="header6 p-color-cement"> Offers and Deals</span>
-                </a>
-            </div>
-        </div>
+            {{--<div class="col-md-2">--}}
+                {{--<a href="{{route('ifs.index')}}/#how-it-works">--}}
+                    {{--<img src="{{asset('img/svg/header-p-shopper.svg')}}" alt="" class="header-menu-img">--}}
+                    {{--<span class="header6 p-color-cement">Personal Shopper</span>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-2" >--}}
+                {{--<a href="{{route('schedulePickup.Index')}}" class="header6 p-color-cement">--}}
+                    {{--<img src="{{asset('img/svg/header-schedule-pickup.svg')}}" alt="" class="header-menu-img">--}}
+                    {{--<span class="header6 p-color-cement">Schedule Pickup</span>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-2" >--}}
+                {{--<a href="{{route('stores')}}" class="header6 p-color-cement">--}}
+                    {{--<img src="{{asset('img/svg/header-stores.svg')}}" alt="" class="header-menu-img">--}}
+                    {{--<span class="header6 p-color-cement">Browse Stores</span>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-2">--}}
+                {{--<a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank" class="header6 p-color-cement">--}}
+                    {{--<img src="{{asset('img/svg/partner-with-us.svg')}}" alt="" class="header-menu-img">--}}
+                    {{--<span class="header6 p-color-cement">Partner With Us</span>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-2" >--}}
+                {{--<a href="https://www.shoppre.com/offers/send-durga-puja-gifts-from-india-ship-internationally/" target="_blank" class="header6 p-color-cement">--}}
+                    {{--<img src="{{asset('img/svg/partner-with-us.svg')}}" alt="" class="header-menu-img">--}}
+                    {{--<span class="header6 p-color-cement"> Offers and Deals</span>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--this block is required for next iteration--}}
         <div class="container no-padding">
             <div class="col-md-6  col-lg-6  col-sm-12 col-xs-12 no-padding">
                 <div class="col-md-12 col-sm-11 col-xs-11  col-lg-12 div-main-row">

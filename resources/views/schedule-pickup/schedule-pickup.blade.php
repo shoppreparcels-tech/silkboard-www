@@ -67,27 +67,32 @@
                                 <div class="clearfix"></div>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label class="control-label label-padding">Phone<span class="mendatory_fields">*</span></label>
-                            <div class="row">
-                                <div class="col-sm-2">
-                                    <select class="select2 form-control" name="phone_code"  >
-                                        <option value="">Country Code</option>
-                                        @foreach($countries as $country)
-                                            <option value="{{$country->phone_code}}">{{$country->iso}}
-                                                (+{{$country->phone_code}})
-                                            </option>
-                                        @endforeach
-                                    </select>
-                                    @if ($errors->has('code'))
-                                        <span class="error">{{ $errors->first('code') }}</span>
-                                    @endif
-                                </div>
-                                <div class="col-sm-4 box-size">
-                                    <input type="text" class="form-control" name="mobile" placeholder="Phone Number"  >
+
+                        <div class="col-sm-6">
+                            <div class="form-group label-align">
+                                <label class="control-label">Phone<span class="mendatory_fields">*</span></label>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <select class="select2 form-control " name="phone_code" >
+                                            <option value="">Country Code</option>
+                                            @foreach($countries as $country)
+                                                <option value="{{$country->phone_code}}">{{$country->iso}}
+                                                    (+{{$country->phone_code}})
+                                                </option>
+                                            @endforeach
+                                        </select>
+                                        @if ($errors->has('code'))
+                                            <span class="error">{{ $errors->first('code') }}</span>
+                                        @endif
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="sch-mobile-number" name="mobile" placeholder="Phone Number"  >
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                     <h4 class="head-align"><u> PICK-UP ADDRESS :</u></h4>
                     <div class="row">
@@ -325,7 +330,7 @@
                                         </select>
                                     </div>
                                     <div class="col-sm-8 ">
-                                        <input type="text" class="form-control" name="dc_contact_no"
+                                        <input type="text" class="form-control" id="sch-mobile-number" name="dc_contact_no"
                                                placeholder="Phone Number"  >
                                     </div>
                                 </div>

@@ -38,16 +38,45 @@
   }]
 }
 
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness",
+        "image": "https://www.shoppre.com/img/images/shoppre-logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "No.181, 1st Floor 2nd Cross Rd",
+        "addressLocality": "1st Block Koramangala",
+        "addressRegion": "Bengaluru, Karnataka",
+        "postalCode": "560034",
+        "addressCountry": "India"
+      },
+      "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "12.9257998",
+    "longitude": "77.635445"
+     },
+      "description": "International Shipping, Domestic Courier Service and Parcel Forwarding India",
+      "name": "ShoppRe.com - Your Global Shipping Partner From INDIA",
+      "telephone": "080 4094 4077",
+                "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+   ]
+ }
 </script>
-
-    <span itemscope itemtype="http://schema.org/Organization">
-  <link itemprop="url" href="https://www.shoppre.com">
-  <a itemprop="sameAs" href="https://www.facebook.com/goshoppre">FB</a>
-  <a itemprop="sameAs" href="https://twitter.com/Go_Shoppre">Twitter</a>
-  <a itemprop="sameAs" href="https://www.instagram.com/shoppre_official">Instagram</a>
- <a itemprop="sameAs" href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw">YouTube</a>
-</span>
-
 
 @endsection
 

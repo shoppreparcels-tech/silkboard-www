@@ -1,13 +1,30 @@
 @extends('layout')
-@section('title', 'Shoppre Member Ratings & Reviews - Shoppre Customer Reviews')
-
-@section('description', 'Read our latest Review & Ratings showcasing the excellent service and ship on time. Shoppre members love our top-rated service and how easy and worry-free we make shopping and shipping from INDIA')
-@section('keywords', 'review, rating, member, customer, shipping, shopping, service, india')
+@section('title', 'Customer Reviews & Ratings | Leave Your Feedback - ShoppRe.com')
+@section('description', 'Read our latest Reviews & Ratings showcasing the excellent service, ship on time & quality of shipment. Share feedback about your shipping experiences with us.')
+@section('keywords', 'reviews, ratings, customer, shipping, shopping, service, india')
 
 @section('css_style')
     <!-- Select2 -->
     <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/star-rating.min.css')}}" rel="stylesheet"/>
+
+    <meta property="og:title" content="Customer Reviews & Ratings | ShoppRe.com "/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="Read our latest Review & Ratings showcasing the excellent service, ship on time & quality of shipment. Please share your feedback about your recent shopping and shipping experiences with us."/>
+    <meta property="og:url" content="https://www.shoppre.com/reviews"/>
+    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
+    <meta property="og:site_name" content="ShoppRe.com"/>
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@Go_Shoppre"/>
+    <meta name="twitter:title" content="Customer Reviews & Ratings | ShoppRe.com"/>
+    <meta name="twitter:description" content="Read our latest Review & Ratings showcasing the excellent service, ship on time & quality of shipment. Please share your feedback about your recent shopping and shipping experiences with us."/>
+    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
+
+    <meta name="twitter:app:country" content="IN"/>
+    <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
+    <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
+    <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 
     <style>
 
@@ -30,9 +47,9 @@
 {
   "@context": "http://schema.org",
   "@type": "Organization",
-  "name": "Shoppre",
-  "alternateName": "Borderless Shipping From India, Shoppre.com",
-  "url": "https://www.shoppre.com/",
+  "name": "ShoppRe",
+  "alternateName": "International Shipping From India, ShoppRe.com",
+  "url": "https://www.shoppre.com/reviews",
   "logo": "https://www.shoppre.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
@@ -45,26 +62,23 @@
     "https://plus.google.com/+SHOPPRECOM",
     "https://www.instagram.com/shoppre_official",
     "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
-    "https://www.linkedin.com/company/17945446",
+    "https://www.linkedin.com/company/shoppre.com",
     "https://in.pinterest.com/shoppre",
+    "https://goo.gl/maps/UkSfQL4hFB52",
     "https://play.google.com/store/apps/details?id=com.shoppre.play",
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
   ],
   "aggregateRating": {
     "@type" : "AggregateRating",
     "bestRating": "5",
-    "ratingValue" : "4.9",
-    "reviewCount" : "10",
-    "worstRating" : 3.5
+    "ratingValue" : "4.8",
+    "reviewCount" : "110",
+    "worstRating" : 3.0
   }
 }
 
-
-
-
-
-
     </script>
+
 
 @endsection
 
@@ -75,7 +89,7 @@
             <center>
                 <p class="header1 p-color-white">Customer Reviews</p>
                 <p class="header4 p-color-cement header-margin-bottom">Our customers love our top-rated
-                    service and how easy & worry-free<br> we make shopping and shipping from INDIA!
+                    service and how easy & worry-free<br> we make <a href="{{route('ifs.index')}}">shopping and shipping from INDIA</a>!
                 </p>
             </center>
         </div>
@@ -116,7 +130,7 @@
             <div class="container-fluid" style="padding-left: 4%;padding-right: 4%">
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-submit-review">
                     <center>
-                        <p class="margin-bottom-div">Leave Your Feedback</p>
+                        <p class="margin-bottom-div header1">Leave Your Feedback</p>
                     </center>
                     <form method="post" action="{{route('reviews.submit')}}">
                         {{csrf_field()}}

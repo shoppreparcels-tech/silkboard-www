@@ -30,17 +30,17 @@
 
     {{--<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">--}}
 
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}" >
-    <link rel="stylesheet" href="{{asset('css/New_style.css')}}" >
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
+    <link rel="stylesheet" href="{{asset('css/New_style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
     <link rel="stylesheet" href="{{asset('css/select2.min.css')}}" >
     <link rel="stylesheet" href="{{asset('css/star-rating.min.css')}}" >
-    <link rel="stylesheet" href="{{asset('css/ics.css')}}" >
-    <link rel="stylesheet" href="{{asset('css/ifs.css')}}" >
-    <link rel="stylesheet" href="{{asset('css/offers.css')}}" >
+    <link rel="stylesheet" href="{{asset('css/ics.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
+    <link rel="stylesheet" href="{{asset('css/ifs.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
+    <link rel="stylesheet" href="{{asset('css/offers.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
 
     @yield('css_style')
 
-    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" rel="stylesheet">
     <link rel="publisher" href="https://plus.google.com/101070316798366909776/">
     <meta name="google-play-app" content="app-id=com.shoppre.play"/>
     <meta property="fb:app_id" content="1819630241632764"/>
@@ -49,20 +49,7 @@
     <meta property="al:android:app_name" content="Shoppre - International Shipping from India"/>
     <meta name="msvalidate.01" content="0E25F147AD9B658B4418A996E97D0D7D"/>
 
-    <!-- Facebook Messanger icon alignment -->
-    <style>
-        .fb_dialog.fb_dialog_advanced.fb_customer_chat_bubble_animated_no_badge.fb_customer_chat_bubble_pop_in {
-            right: initial !important;
-            left: 62pt !important;
-            z-index: 9999999 !important;
-        }
-        .fb-customerchat.fb_invisible_flow.fb_iframe_widget iframe {
-            right: initial !important;
-            left: 18pt !important;
-        }
-    </style>
 
-    <!-- End Facebook Messanger Icon Alignment -->
 
 @yield('schema_markup')
 

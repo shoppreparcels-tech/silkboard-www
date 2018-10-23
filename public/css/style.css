@@ -2430,6 +2430,9 @@ section.login {
     position: relative;
     top: -4px
 }
+#sch-mobile-number{
+    margin-top: 0px;
+}
 
 .login-social a i {
     font-size: 22px
@@ -3906,7 +3909,8 @@ section.loyalty {
 .calc-form label {
     font-weight: 700;
     font-size: 14px;
-    margin-bottom: 3px
+    margin-bottom: 3px;
+    padding-left: 0px;
 }
 
 .calc-form .form-control {
@@ -6226,7 +6230,9 @@ ul.newsticker li span {
     /*.navbar-toggle {*/
         /*margin-top: 15px*/
     /*}*/
-
+    #sch-mobile-number{
+        margin-top: 20px;
+    }
     .slider .slide .caption-block {
         text-align: left;
         top: 30%
@@ -6811,6 +6817,9 @@ ul.newsticker li span {
     .class_pointer {
         cursor: pointer
     }
+    .head-align {
+        margin-left: 32px;
+    }
 
     .slider .slide .caption-block {
         margin-left: 0;
@@ -6823,6 +6832,10 @@ ul.newsticker li span {
         background: url(../img/mo_slidebg.png) no-repeat #6a1050;
         background-size: cover
     }
+    #sch-mobile-number{
+        margin-top: 20px;
+    }
+
 
     .slider .slide .caption-block h2 {
         font-size: 22px
@@ -7603,9 +7616,9 @@ ul.newsticker li span {
         float: none
     }
 
-    .select2-container {
-        margin: 5px 0
-    }
+    /*.select2-container {*/
+        /*margin-left: 15px;*/
+    /*}*/
 
     .accnt_settings .tab-pane {
         padding: 15px
