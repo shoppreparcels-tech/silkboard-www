@@ -149,7 +149,7 @@ body {
 }
 
 .head-align {
-    margin-left: -15px;
+    /*margin-left: -15px;*/
     color: brown;
     padding-bottom: 2%
 }
@@ -3910,7 +3910,7 @@ section.loyalty {
     font-weight: 700;
     font-size: 14px;
     margin-bottom: 3px;
-    padding-left: 0px;
+    /*padding-left: 0px;*/
 }
 
 .calc-form .form-control {
@@ -3921,7 +3921,8 @@ section.loyalty {
 
 .calc-form .radio {
     display: inline-block;
-    margin: 10px 15px 0 0
+    margin: 10px 15px 0 0;
+    /*margin: 10px 15px 0 15px*/
 }
 
 .calc-form .btn-shoppre {
@@ -6817,9 +6818,11 @@ ul.newsticker li span {
     .class_pointer {
         cursor: pointer
     }
-    .head-align {
-        margin-left: 32px;
-    }
+
+    /*.head-align {*/
+        /*margin-left: 32px;*/
+    /*}*/
+
 
     .slider .slide .caption-block {
         margin-left: 0;

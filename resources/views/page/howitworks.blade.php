@@ -1,9 +1,51 @@
 @extends('layout')
 
-@section('title', 'How Does it Works | Shoppre - International Shipping Partner')
-@section('description', 'Learn more how Our personal Shoppre service manages and ship your packages from multiple Indian stores and delivered to your country in just 2 to 4 days!')
-@section('keywords', 'learn more, our personal shoppre service, manages, ship your packages, multiple indian stores, delivered to your country')
+@section('title', 'How Does ShoppRe Works - How to Shop & Ship from India | ShoppRe.com')
+@section('description', 'Sign Up & receive your own Personal Locker with Virtual Indian Shipping Address. Buy product from any Indian stores; Store, Consolidate, Repack & Ship worldwide')
+@section('keywords', 'how does shoppre works, our personal shoppre service, ship your packages, multiple indian stores, ship from india')
 
+<meta property="og:title" content="How Does ShoppRe Works and How to Shop & Ship from India"/>
+<meta property="og:type" content="website"/>
+<meta property="og:description" content="Sign Up for Free & receive your own Personal Locker with Virtual Indian Shipping Address. Buy your favorite product from any Indian stores; Store, Consolidate, Repack & Ship worldwide"/>
+<meta property="og:url" content="https://www.shoppre.com/how-it-works"/>
+<meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
+<meta property="og:site_name" content="ShoppRe.com"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@Go_Shoppre"/>
+<meta name="twitter:title" content="How Does ShoppRe Works and How to Shop & Ship from India"/>
+<meta name="twitter:description" content="Sign Up for Free & receive your own Personal Locker with Virtual Indian Shipping Address. Buy your favorite product from any Indian stores; Store, Consolidate, Repack & Ship worldwide"/>
+<meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
+
+<meta name="twitter:app:country" content="IN"/>
+<meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
+<meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
+<meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
+
+
+<script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "Website",
+  "name": "ShoppRe",
+  "alternateName": "How Does ShoppRe Works, How to Shop and Ship from India",
+  "url": "https://www.shoppre.com/how-it-works/",
+  "image": "https://www.shoppre.com/img/logo.png",
+  "description": "Sign Up for Free & receive your own Personal Locker with Virtual Indian Shipping Address. Buy your favorite product from any Indian stores; Store your purchases up to 20 days of free storage, Consolidate, Repack & Ship worldwide from India.",
+    "sameAs": [
+    "https://www.facebook.com/goshoppre/",
+    "https://twitter.com/Go_Shoppre",
+    "https://plus.google.com/+SHOPPRECOM",
+    "https://www.instagram.com/shoppre_official",
+    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+    "https://www.linkedin.com/company/shoppre.com",
+    "https://in.pinterest.com/shoppre",
+    "https://goo.gl/maps/uuZy4tMs8582",
+    "https://play.google.com/store/apps/details?id=com.shoppre.play",
+    "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
+  ]
+}
+</script>
 @section('content')
 
   <section class="page_head">
@@ -17,7 +59,7 @@
   <section class="how_white">
     <div class="container">
       <div class="col-sm-8 col-sm-offset-2">
-        <p>At <span class="text-orange">Shoppre</span>, we are the experts at maximizing members’ savings. Shoppre premier package consolidation combines multiple packages into one, saving our members millions on international shipping charges.</p>
+          <p>At <span class="text-orange">ShoppRe</span>, we are the experts at maximizing members’ savings. ShoppRe premier package consolidation combines multiple packages into one, saving our members millions on <a href="{{route('pricing')}}">international shipping charges.</a></p>
       </div>
     </div>
   </section>
@@ -150,5 +192,5 @@
       </div>
     </div>
   </section>
-    
+
 @endsection

@@ -12,7 +12,7 @@
     padding-bottom: 50px;
 }
 
-.div-shop-ship-tabs{
+.div-shop-ship-tabs {
     padding-left: 15%;
     padding-bottom: 30px
 }
@@ -120,7 +120,6 @@ a:hover, a:focus {
     /*padding-left: 20px*/
 }
 
-
 .txt-weight {
     border: none;
     height: 36px;
@@ -167,9 +166,10 @@ a:hover, a:focus {
     font-weight: 400;
 }
 
-#price-cal-btn-margin .btn{
+#price-cal-btn-margin .btn {
     padding: 0 11px;
 }
+
 .btn-cal-shop-ship:hover {
     color: #ffffff;
 }
@@ -259,25 +259,31 @@ a:hover, a:focus {
     margin-top: 10px;
 }
 
-.header h1 span{
+.header h1 span {
     color: #fdf699
 }
-.header-ifs-p{
-    margin-top:170px;
+
+.header-ifs-p {
+    margin-top: 170px;
 }
-.header-ifs-p1{
+
+.header-ifs-p1 {
     margin-bottom: 115px;
 }
-.section-seller{
+
+.section-seller {
     padding-bottom: 30px
 }
-.seller-p{
+
+.seller-p {
     margin-left: 26px;
 }
-.seller-p span{
+
+.seller-p span {
     color: #507dbc;
 }
-.ifs-font-weight1{
+
+.ifs-font-weight1 {
     margin-left: -40px;
     margin-top: -30px;
 }
@@ -374,6 +380,105 @@ a:hover, a:focus {
     margin-bottom: 77px;
 }
 
+.div-monthly-plans div:nth-child(odd) {
+    background: #fafafb;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.div-monthly-plans div:nth-child(even) {
+    background: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.price-cal-membership {
+    margin-top: 30px;
+    font-weight: 900;
+}
+
+#view-more-plans {
+    display: none;
+}
+
+#view-more-plans1 {
+    display: none;
+}
+
+#view-more-plans2 {
+    display: none;
+}
+
+#view-more-plans3 {
+    display: none;
+}
+
+#less-features {
+    display: none;
+}
+
+.header-padder-top {
+    padding-bottom: 70px
+}
+
+.price-cal-country {
+    margin-top: 20px
+}
+
+.p-country-guide span {
+    margin-left: 20px
+}
+
+.control-label span {
+    color: red;
+}
+
+.div-pric-cal-estimate {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tab-pane:first-child {
+    margin-top: 20px
+}
+
+#Domestic {
+    padding-top: 20px;
+}
+
+.div-volumetric-weight-img :first-child {
+    color: #507dbc;
+    margin-top: 30px;
+
+}
+
+.div-volumetric-weight-img h6 {
+    color: #507dbc;
+    margin-top: 30px
+}
+
+.div-volumetric-weight-img img {
+    width: 65%;
+}
+
+#price-cal-slide-down {
+    margin-top: 50px;
+    display: none;
+}
+
+.price-cal-instruction p {
+    color: #929ca5;
+}
+
+.price-cal-instruction span {
+    color: red;
+}
+
+.div-padding-sp_charges {
+    padding-top: 53px !important;
+    padding-bottom: 53px !important;
+}
+
 .div-country-guide-information {
     width: 300px;
     height: 269px;
@@ -387,7 +492,7 @@ a:hover, a:focus {
     list-style: none;
 }
 
-.div-country-guide-information ul li{
+.div-country-guide-information ul li {
     text-decoration: none;
     color: #507dbc;
     padding-top: 10px;
@@ -395,7 +500,8 @@ a:hover, a:focus {
     font-weight: 600;
 
 }
-.div-country-guide-information a{
+
+.div-country-guide-information a {
     color: #507dbc;
 }
 
@@ -419,7 +525,7 @@ a:hover, a:focus {
     line-height: 50px;
 }
 
-.btn-membership-plans-monthly,.btn-membership-plans-yearly {
+.btn-membership-plans-monthly, .btn-membership-plans-yearly {
     width: 160px;
     height: 40px;
     background-color: #fafafb;
@@ -427,18 +533,23 @@ a:hover, a:focus {
     transition: 0.6s;
     color: #929ca5;
 }
-.btn-membership-plans-monthly{
+
+.btn-membership-plans-monthly {
     border-radius: 5px 0 0 5px !important;
     margin-left: 29.3em;
 }
+
 .btn-membership-plans-yearly {
     border-radius: 0 5px 5px 0 !important;
 
 }
-.membership-text-margin{
+
+.membership-text-margin {
     margin-top: 45px
 }
+
 .membership-feature-text-margin{
+
     margin-top: 200px;
 }
 
@@ -455,6 +566,7 @@ a:hover, a:focus {
 .wrapper ul {
     list-style: none;
 }
+
 .tabs li {
     float: left;
     /*width: 20%;*/
@@ -477,7 +589,6 @@ a:hover, a:focus {
     color: #ffffff;
 }
 
-
 .btn-membership-plans-monthly.active {
     background-image: none;
     outline: 0;
@@ -487,7 +598,7 @@ a:hover, a:focus {
     box-shadow: none;
 }
 
-.btn-membership-plans-yearly.active{
+.btn-membership-plans-yearly.active {
     background-image: none;
     outline: 0;
     background-color: #e85151;
@@ -499,6 +610,11 @@ a:hover, a:focus {
 .div-monthly-plans {
     border: 1px solid rgba(146, 156, 165, 0.2);
     background-color: #ffffff;
+}
+
+.div-monthly-plans:hover {
+    box-shadow: 0 0 20px rgba(232, 81, 81, 0.1);
+    border: 1px solid #e85151;
 }
 
 .btn-plans-individual-wholeseller {
@@ -620,7 +736,7 @@ a:hover, a:focus {
     background-color: #507dbc;
     margin-top: 28px;
     color: #ffffff;
-    padding-top:.1%
+    padding-top: .1%
 }
 
 .btn-courier-know {
@@ -632,45 +748,56 @@ a:hover, a:focus {
     color: #e85151;
     margin-top: 28px;
 }
-.text-final-price-margin{
+
+.text-final-price-margin {
     margin-top: 32px;
 }
-.price-cal-mobile{
+
+.price-cal-mobile {
     display: none;
     padding-bottom: 30px;
 }
-.view-all-features{
+
+.view-all-features {
     color: #929ca5;
     font-weight: 500;
-    margin-top:67px;
+    margin-top: 67px;
+
 }
 
-.div-monthly-plans h5{
+.div-monthly-plans h5 {
     color: #11273b;
     font-weight: 500;
 }
-.div-monthly-plans h6{
+
+.div-monthly-plans h6 {
     /*color: #507dbc;*/
     font-weight: 900;
 }
-.view-feature-text{
+
+.view-feature-text {
     color: #929ca5;
-    margin:20px 30px;
+    margin: 20px 30px;
     transition: 0.6s;
 }
-.view-feature-text:hover{
-    color: #507dbc;
 
+.view-feature-text:hover{
+    margin:20px 30px;   
+    color: #507dbc;
 }
 
-.text-forever{
+.text-forever {
     font-weight: 900;
     color: #929ca5;
 }
-.text-nochange-margin{
+
+.text-nochange-margin {
     margin-top: 41px;
 }
-.div-package-charges{
+
+.div-package-charges {
+
+
     padding: 8px;
 }
 
@@ -679,10 +806,12 @@ a:hover, a:focus {
     margin-top: 1px;
     padding: 4px;
 }
-.div-monthly-plans img{
+
+.div-monthly-plans img {
     margin-top: 30px;
 }
-#final-price{
+
+#final-price {
     color: #507dbc
 }
 
@@ -692,6 +821,7 @@ a:hover, a:focus {
         bottom: 100%;
         left: 16%;
     }
+
     .btn-membership-plans-monthly {
         margin-left: 22.3em;
     }
@@ -699,16 +829,20 @@ a:hover, a:focus {
     .div-volumetric-weight-img {
         width: 360px;
     }
+
     .txt-length {
         width: 37px;
         height: 31px;
     }
+
     .btn-puls-minus {
         font-size: 20px;
     }
-    #weight-option-padding{
-      padding-left: 20px;
+
+    #weight-option-padding {
+        padding-left: 20px;
     }
+
     .btn-price-cal-sounds-good, .btn-price-cal-v-address {
         width: 230px;
     }
@@ -717,10 +851,12 @@ a:hover, a:focus {
 @media only screen and (max-width: 800px) {
 
 }
+
 @media only screen and (max-width: 768px) {
-    #Price-cal{
+    #Price-cal {
         display: none;
     }
+
     .div-country-guide-information {
         width: 300px;
         height: 250px;
@@ -729,51 +865,66 @@ a:hover, a:focus {
         margin-bottom: 50px;
         margin-top: 30px;
     }
-    #final-price{
+
+    #final-price {
         margin-left: 16px;
     }
+
     .text-final-price-margin {
         margin-left: 20px;
     }
-    .price-cal-desktop{
-      display: none;
+
+    .price-cal-desktop {
+        display: none;
     }
-    .price-cal-mobile{
+
+    .price-cal-mobile {
         display: block;
     }
+
     .view-all-features {
         margin-top: 91px;
     }
+
     .btn-plans-seller {
         margin: 9px 0 20px 0;
     }
+
     .btn-membership-plans-monthly {
         margin-left: 14.3em;
     }
 
 }
+
 @media only screen and (max-width: 736px) {
 
 }
+
 @media only screen and(max-width: 734px) {
 
 }
+
 @media only screen and (max-width: 684px) {
 
 }
+
 @media only screen and (max-width: 667px) {
 
 }
+
 @media only screen and (max-width: 640px) {
 
 }
+
 @media only screen and (max-width: 603px) {
 
 }
+
 @media only screen and (max-width: 600px) {
-    .div-shop-ship-tabs{
+    .div-shop-ship-tabs {
         padding-left: 0px;
     }
+
     #Price-cal {
         display: none;
     }
@@ -798,15 +949,19 @@ a:hover, a:focus {
     .txt-length {
         width: 20px;
     }
+
     .div-estimat-amount-devider {
         width: 270px;
     }
-    .price-cal-btn-margin a:hover{
+
+    .price-cal-btn-margin a:hover {
         -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
         -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
         box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
         color: #ffffff;
     }
+
+
     /*.btn-price-cal-v-address a:hover {*/
     /*-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);*/
     /*-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);*/
@@ -817,73 +972,96 @@ a:hover, a:focus {
         bottom: 100%;
         left: 0%;
     }
+
+
     .btn-cal-courier {
         margin-left: 20%
     }
-    #price-cal-btn-margin{
+
+    #price-cal-btn-margin {   
         margin-top: 20px;
     }
-    .txt-pincode{
+
+    .txt-pincode {
         height: 35px;
         width: 140px;
     }
-    .text-final-price-margin{
+
+    .text-final-price-margin {
         margin-top: -4px;
         /*margin-left: 17px;*/
     }
+
     .div-country-guide-information {
         margin-left: 0em;
     }
-    .btn-membership-plans-monthly,.btn-membership-plans-yearly {
+
+    .btn-membership-plans-monthly, .btn-membership-plans-yearly {
         width: 150px;
     }
-    .btn-membership-plans-monthly{
+
+    .btn-membership-plans-monthly {
         margin-left: 1em;
     }
-    .price-cal-mobile{
+
+    .price-cal-mobile {
         display: block;
     }
-    .price-cal-desktop{
+
+    .price-cal-desktop {
         display: none;
     }
+
     .btn-plans-individual-wholeseller {
         width: 142px;
     }
-    .btn-plans-seller{
+
+    .btn-plans-seller {
         width: 142px;
     }
-    .tabgroup div{
+
+    .tabgroup div {
         padding: 0px;
     }
-    .view-all-features{
+
+    .view-all-features {
         font-weight: 500;
         margin-top: 0px;
-        margin-bottom: 17px;
+        margin-bottom: 30px;
+
     }
-    .div-monthly-plans img{
+
+    .div-monthly-plans img {
         margin-top: 20px;
     }
-    .membership-text-margin{
+
+    .membership-text-margin {
         margin-top: 15px
     }
+
     .membership-feature-text-margin {
         margin-top: 119px;
     }
-    .text-nochange-margin{
+
+    .text-nochange-margin {
         margin-top: 0px;
     }
+
     .btn-plans-seller {
         padding: 11px 12px;
         margin-top: 9px;
     }
-    .div-features-contents div{
+
+    .div-features-contents div {
         padding-top: 5px;
         padding-bottom: 5px;
     }
-    .div-features-contents h6{
+
+    .div-features-contents h6 {
         margin-left: 10px;
     }
-    .div-features-contents h4{
+
+    .div-features-contents h4 {
         margin-left: 10px;
     }
 
@@ -892,12 +1070,15 @@ a:hover, a:focus {
     /*padding-bottom: 10px;*/
     /*}*/
 }
+
 @media only screen and (max-width: 568px) {
 
 }
+
 @media only screen and (max-width: 480px) {
 
 }
+
 @media only screen and (max-width: 460px) {
 
 }
@@ -921,6 +1102,7 @@ a:hover, a:focus {
 @media only screen and (max-width: 360px) {
 
 }
+
 @media only screen and (max-width: 320px) {
 
 }
