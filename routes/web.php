@@ -53,6 +53,7 @@ Route::get('/ics', 'PageController@icsIndex')->name('ics.index');
 Route::get('/shop-from-india-ship-worldwide', 'PageController@ifsIndex')->name('ifs.index');
 //Route::get('/about-new', 'PageController@aboutIndex')->name('about-new.index');
 Route::get('/offers-new', 'PageController@offersIndex')->name('offers-new.index');
+Route::get('/diwali-offer', 'PageController@diwali')->name('diwali');
 Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
 
 /*-------- Dhl Shipments ------*/

@@ -124,6 +124,9 @@
             display: none;
         }
 
+        .how-to-calculate .modal-content {
+            border-radius: 0px !important;
+        }
     </style>
 
 @endsection
@@ -194,7 +197,7 @@
                                 for each country as well while you're at it!">
                                                         <i class="fa fa-question-circle-o"></i>
                                                     </a>
-                                                    Country Guide <span class="header7 p-color-red price-cal-country">Offers(3)</span>
+                                                    Country Guide <a href="https://www.shoppre.com/offers/flames-shopping-season-sale-india-shipping-offer/" target="_blank"><span class="header7 p-color-red price-cal-country">Offers</span></a>
                                                 </p>
 
                                             </div>
@@ -428,21 +431,87 @@
                     </div>
                     <div class="col-md-5 col-sm-12" id="Price-cal">
                         <div class="div-volumetric-weight-img">
-                            <p class="header6">
-                                <a href="#" class="tooltipkey" title="The shipping cost for your courier is estimated based on whichever is greater for your package;
+                            <div class="row">
+                                <p class="header6" data-toggle="modal" data-target="#myModal-calculate">
+                                    <a href="#" class="tooltipkey" title="The shipping cost for your courier is estimated based on whichever is greater for your package;
                                             either its volumetric weight or the actual weight. Here is how we can calculate the volumetric weight of your package.">
-                                    <i class="fa fa-question-circle-o"></i>
-                                </a>
-                                How to calculate volumetric weight</p>
-                            <p class="header7 p-color-cement">Centimeter/Inch Conversion</p>
-                            <h4 class="header6 p-color-cement-dark">1 in =2.54 cm (1 cm=03937
-                                in) </h4>
-                            <p class="header7 p-color-cement">Kilogram/Pound Conversion</p>
-                            <h4 class="header6 p-color-cement-dark">1 in =2.54 cm (1 cm=03937
-                                in) </h4>
+                                        <i class="fa fa-question-circle-o"></i>
+                                    </a>
+                                    How to calculate volumetric weight</p>
 
-                            <h6 class="header7">Courier Sample:</h6>
-                            <img src="{{asset('img/images/parcelsample.png')}}" alt="">
+                                <p class="header7 p-color-cement">Centimeter to Inch Conversion</p>
+                                <h4 class="header6 p-color-cement-dark">1 in = 2.54 cm (1 cm = 03937
+                                    in) </h4>
+                                <p class="header7 p-color-cement">Kilogram to Pound Conversion</p>
+                                <h4 class="header6 p-color-cement-dark">1 lbs = 0.4536 Kg (1 Kg = 2.2046 lbs) </h4>
+
+                                <h6 class="header7">Courier Sample:</h6>
+                                <img src="{{asset('img/images/parcelsample.png')}}" alt="">
+                            </div>
+                            <div class="row">
+                                <br>
+                                <br>
+                                <a href="#" data-toggle="modal" data-target="#myModal-calculate">Learn how to
+                                    calculate</a>
+                                {{--<button type="button" class="btn btn-info btn-lg" style="margin-left: -40px;" data-toggle="modal" data-target="#myModal-calculate">Learn how to calculate</button>--}}
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="container how-to-calculate">
+                        <div class="modal fade" id="myModal-calculate" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <center>
+                                            <h4 class="header4 p-color-cement modal-title">How To Calculate Volumetric
+                                                Weight</h4>
+                                        </center>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="{{asset('/img/vol_calc.png')}}" style="width: 100%;" alt="">
+                                    </div>
+                                    {{--<div class="modal-footer">--}}
+                                    {{--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>--}}
+                                    {{--</div>--}}
+                                </div>
+                                </div>
+                            </div>
+                            <div class="div-estimat-amount-devider"></div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12" style="margin-top: 20px;">
+                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">**</span>
+                                        Pickup charges 100 </p>
+                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
+                                        The
+                                        rates displayed are INCLUSIVE of the fuel surcharge and taxes within</p>
+                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
+                                        For
+                                        electronics items , INR 500 will be charged additionally.</p>
+                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
+                                        Excludes oversized and palletized shipments, and special products (liquids,
+                                        homemade food, etc.)</p>
+                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">**</span>
+                                        After
+                                        dispatch from Shoppre facility. Does not apply to ship requests made after
+                                        3pm
+                                        IST on Saturdays, or on holidays. Shipments that may require additional time
+                                        include those containing items under review or hazardous materials,
+                                        oversized
+                                        packages or where additional export documentation is required.</p>
+
+                                    <p class="header8" style="color: #929ca5;">The
+                                        courier will be chosen according to your destination
+                                        & the weight of the shipment. We're teamed up with the most trusted couriers
+                                        such as
+                                        DHL & DTDC.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-12 col-sm-12 no-padding "
@@ -901,8 +970,6 @@ is based upon whichever is greater for your package; either its volumetric weigh
 
             </div>
         </div>
-
-
         {{--<div class="container div-courier-cal ">--}}
         {{--<div class="cal arrow_box" id="shop&ship">--}}
 
@@ -1005,7 +1072,6 @@ is based upon whichever is greater for your package; either its volumetric weigh
 
             </div>
         </div>
-
         <div class="container" id="shop-membership-plans">
             <div class="col-sm-12 col-md-12 no-padding price-cal-membership">
                 <center>
@@ -3391,8 +3457,8 @@ is based upon whichever is greater for your package; either its volumetric weigh
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12 " style="margin-top: 30px">
                     {{--<center>--}}
-                        {{--<p class="header6 p-color-cement">Indian Seller, looking to widen your reach? Check out--}}
-                            {{--our <a href="#">Indian Seller Membership Plans </a></p>--}}
+                    {{--<p class="header6 p-color-cement">Indian Seller, looking to widen your reach? Check out--}}
+                    {{--our <a href="#">Indian Seller Membership Plans </a></p>--}}
                     {{--</center>--}}
 
                 </div>

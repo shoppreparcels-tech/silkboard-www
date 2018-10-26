@@ -1,0 +1,344 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-diwali-landing-page {
+    background-image: url("../../img/images/overlay1.png");
+    /*height: 100%;*/
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*.btn {*/
+    /*display: inline-block;*/
+    /*padding: 6px 50px;*/
+    /*margin-bottom: 0;*/
+    /*font-size: 12pt;*/
+    /*font-weight: normal;*/
+    /*line-height: 1.42857143;*/
+    /*text-align: center;*/
+    /*white-space: nowrap;*/
+    /*vertical-align: middle;*/
+    /*-ms-touch-action: manipulation;*/
+    /*touch-action: manipulation;*/
+    /*cursor: pointer;*/
+    /*-webkit-user-select: none;*/
+    /*-moz-user-select: none;*/
+    /*-ms-user-select: none;*/
+    /*user-select: none;*/
+    /*background-image: none;*/
+    /*border: 1px solid transparent;*/
+    /*border-radius: 70px;*/
+/*}*/
+
+/*.btn:focus,*/
+/*.btn:active:focus,*/
+/*.btn.active:focus,*/
+/*.btn.focus,*/
+/*.btn:active.focus,*/
+/*.btn.active.focus {*/
+    /*outline: thin dotted;*/
+
+    /*outline: 5px auto -webkit-focus-ring-color;*/
+    /*outline-offset: -2px;*/
+/*}*/
+
+/*.btn:hover,*/
+/*.btn:focus,*/
+/*.btn.focus {*/
+    /*color: #ffd800;*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*.btn:active,*/
+/*.btn.active {*/
+    /*background-image: none;*/
+    /*outline: 0;*/
+    /*-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);*/
+    /*box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);*/
+/*}*/
+
+/*.btn.disabled,*/
+/*.btn[disabled],*/
+/*fieldset[disabled] .btn {*/
+    /*cursor: not-allowed;*/
+    /*filter: alpha(opacity=65);*/
+    /*-webkit-box-shadow: none;*/
+    /*box-shadow: none;*/
+    /*opacity: .65;*/
+/*}*/
+
+.btn-shoppre {
+    width: 210px;
+    height: 50px;
+    box-shadow: 0 5px 15px rgba(232, 81, 81, 0.3);
+    border-radius: 60px !important;
+    background-image: radial-gradient(undefined undefinedpx at, #ffa661 0%, #e85151 100%);
+    color: #fff;
+}
+
+.contactTop {
+    width: 196px;
+    height: 25px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.shoppingKart {
+    height: 50px;
+    padding: 8px 0px;
+    /*border: 1px solid #f1f1f1;*/
+    /*background-color: #ffffff;*/
+}
+
+.offerDescHeader {
+    color: #677582;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.offerDesc {
+    color: #677582;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.offerDesc ul {
+    padding-left: 20px;
+}
+.offerDesc ul li {
+    color: #507dbc;
+    font-size: 16px;
+}
+
+.support {
+    height: 20px;
+    color: #fdf699;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    line-height: 20px;
+}
+
+.shop {
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    color: #677582;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 25px;
+}
+
+.grabOff {
+    width: 83px;
+    height: 24px;
+    color: #ffffff;
+    font-family: Bahnschrift;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.formtext {
+    width: 82px;
+    height: 18px;
+    color: #d83646;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #12273b;
+}
+
+.couponcodediwl {
+    width: 185px;
+    height: 42px;
+    color: #fdf699;
+    font-family: Bahnschrift;
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 2.6px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+
+.startingfrom {
+    /* Style for "Starting f" */
+    width: 411px;
+    height: 61px;
+    color: #fdf699;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 1.8px;
+    line-height: 61px;
+    /* Text style for "Starting f" */
+    color: #ffffff;
+}
+
+.offerprice {
+    color: #c1c8ce;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 61px;
+    text-decoration: #e85151 line-through;
+}
+
+.formFrame {
+    padding: 20px 20px;
+    box-shadow: 0 0 20px rgba(17, 39, 59, 0.05);
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #677582;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 35px;
+}
+
+.rowdetails {
+    height: 80px;
+    border-radius: 15px 15px 0 0;
+    background-color: #fafafb;
+    padding: 30px 0;
+    color: #000;
+    margin-top: 30px;
+}
+
+.startsvalid {
+    color: #677582;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.startsValidValue {
+    color: #507dbc;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 12px;
+}
+
+.shopContainer {
+    box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+    /*padding: 10px;*/
+    margin-top: -400px;
+}
+
+.saveupto {
+    width: 337px;
+    height: 61px;
+    color: #fdf699;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    line-height: 61px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.shopFrom {
+    width: 456px;
+    height: 126px;
+    color: #ffffff;
+    font-family: "DIN Black Alternate";
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: 2.75px;
+    line-height: 61px;
+}
+
+.valid {
+    width: 229px;
+    height: 30px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    line-height: 30px;
+}
+
+.enqDiwalioffer {
+    width: 256px;
+    height: 42px;
+    text-shadow: 0 0 3px #fdf699;
+    color: #fdf699;
+    font-family: Bahnschrift;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.btn-contactus {
+    display: inline-block;
+    padding: 6px 50px;
+    margin-bottom: 0;
+    font-size: 12pt;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: solid 2px #ffd800;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 30px;
+}
+
+.lblWithglyph {
+    color: #fdf699;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.lblWithoutGlyph {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}

@@ -333,7 +333,7 @@
                             <img class="img-demo" id="img-cal1" src="{{asset('img/svg/ic_contact_header1.svg')}}">
                             <a href="tel:+91-80 4094 4077">
                                 <p class="p-demo-text text-call-now" id="p-demo-text-cal">
-                                    &nbsp;&nbsp;Call Now
+                                    &nbsp;Call Now
                                 </p>
                             </a>
                         </div>

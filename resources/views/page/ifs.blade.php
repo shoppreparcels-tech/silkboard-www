@@ -20,11 +20,12 @@
         }
 
         #image1 img {
-            margin-top: 110px;
+            margin-top: 80px;
+            margin-left: 37px;
         }
 
         #image1 h3 {
-            margin-top: 36px;
+            margin-top: 60px;
         }
 
         #how-it-works div {
@@ -51,18 +52,25 @@
         }
 
         #image2 h3 {
-            margin-top: 36px;
+            margin-top: 60px;
+        }
+        #image2 img {
+            margin-top: 10px;
+            margin-left: 40px;
         }
 
         #image3 {
             display: none;
             margin-top: -94px;
         }
+        #image3 img{
+            margin-top: 30px;
+            margin-left: 45px;
+        }
 
         #image3 h3 {
-            font-size: 18px;
-            font-weight: 700;
-            margin-top: 36px;
+
+            margin-top: 60px;
         }
 
         #mobile-image2 {
@@ -74,7 +82,13 @@
             width: 80%;
             display: none;
         }
-
+        .step-font-weight{
+            font-weight: 900;
+            line-height: 1;
+        }
+        .p-shoper-section{
+            padding-top: 100px;
+        }
 
     </style>
 @endsection
@@ -117,12 +131,13 @@
             <div class="col-md-4 col-lg-4  div-step1">
                 <div class="box-ifs" id="step1">
                     <center>
-                        <p class="header4 p-color-cement"><span id="number1">1</span> <br> STEP </p>
+                        <span class="header1 p-color-cement step-font-weight" id="number1">1</span>
+                        <p class="header7 p-color-cement step-font-weight" >STEP </p>
                     </center>
                 </div>
-                <div class="" id="image1" style="">
+                <div class="" id="image1">
                     <center>
-                        <h3 class=" p-color-cement-dark header4">Get
+                        <h3 class=" p-color-cement-dark header4 step-font-weight" >Get
                             a Free Virtual
                             Address</h3>
                     </center>
@@ -144,13 +159,14 @@
             <div class="col-md-4 col-lg-4  div-step2">
                 <div class="box-ifs" id="step2">
                     <center>
-                        <p class="header4 p-color-cement"><span id="number2">2</span> <br> STEP </p>
+                        <span class="header1 p-color-cement step-font-weight" id="number2">2</span>
+                        <p class="header7 p-color-cement step-font-weight" >STEP </p>
                     </center>
                 </div>
 
                 <div class="" id="image2">
                     <center>
-                        <h3 class=" p-color-cement-dark header4">
+                        <h3 class=" p-color-cement-dark header4 step-font-weight" >
                             Shop
                         </h3>
                     </center>
@@ -175,13 +191,14 @@
             <div class="col-md-4 col-lg-4  div-step3">
                 <div class="box-ifs" id="step3">
                     <center>
-                        <p class="header4 p-color-cement"><span id="number3">3</span><br> STEP </p>
+                        <span class="header1 p-color-cement step-font-weight" id="number3">3</span>
+                        <p class="header7 p-color-cement step-font-weight">STEP </p>
                     </center>
                 </div>
 
                 <div class="" id="image3">
                     <center>
-                        <h3 class=" p-color-cement-dark">
+                        <h3 class="header4 p-color-cement-dark step-font-weight">
                             Get It Delivered! </h3>
                     </center>
                     <img class="img-responsive img-ifs-v_addres "
@@ -209,7 +226,7 @@
                 <center>
                     <div class="box-ifs" style="border-color: red !important;" id="mobile-step1">
                         <center>
-                            <p class="header4 p-color-cement"><span style=" color: red" id="m-number1">1</span> <br>
+                            <p class="header4 p-color-cement"><span class="p-color-red" id="m-number1">1</span> <br>
                                 STEP </p>
                         </center>
                     </div>
@@ -252,7 +269,7 @@
         <div class="container">
             <center>
                 <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">
-                    <div class=" btn h4 p-color-white btn-ifs-free-v-a">
+                    <div class=" btn header4 p-color-white btn-ifs-free-v-a">
                         <center>
                             Get a Free Virtual Address
                         </center>
@@ -276,7 +293,7 @@
         </div>
 
         <div class="container">
-            <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 p-shoper-section">
                 <div class="row">
                     <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
                         <img class="img " src="{{asset('img/svg/international-credit-card-shopping.svg')}}"
@@ -366,7 +383,7 @@
                     </div>
 
                     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                        <img class="img-responsive " src="img/images/google-rating-shipping-service-bengaluru.png">
+                        <img class="img-responsive " style="margin-top: 5px;" src="img/images/google-rating-shipping-service-bengaluru.png">
                     </div>
                 </div>
             </a>

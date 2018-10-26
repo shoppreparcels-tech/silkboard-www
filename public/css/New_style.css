@@ -48,11 +48,11 @@ body {
 }
 .navbar-header-login>ul>li{
     font-size: 14px;
-    width: 85px;
+    width: 81px;
     display: none;
     float: right;
     padding-top: 2px;
-    padding-left: 11px;
+    padding-left: 7px;
     margin-top: 8px;
 
 }
@@ -1317,9 +1317,9 @@ a#prev:hover, a#next:hover {
     border: 1px solid rgba(146, 156, 165, 0.06);
 }
 
-.rating-xs {
-    font-size: 10px !important;
-}
+/*.rating-xs {*/
+    /*font-size: 10px !important;*/
+/*}*/
 
 .rating-stars {
     margin-left: 11px !important;
@@ -4951,6 +4951,9 @@ a#prev:hover, a#next:hover {
     }
 
     /*contact page ending*/
+    .p-shoper-section {
+        padding-top: 10px;
+    }
 }
 
 @media only screen and (max-width: 360px) {

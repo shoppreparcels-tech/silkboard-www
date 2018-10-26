@@ -32,7 +32,10 @@ class PageController extends Controller
     {
         return view('page.ics');
     }
-
+    public function diwali()
+    {
+        return view('page.diwali-landing');
+    }
     public function ifsIndex()
     {
         return view('page.ifs');

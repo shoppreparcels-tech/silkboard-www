@@ -350,11 +350,12 @@ a:hover, a:focus {
 
 .div-volumetric-weight-img {
     width: 391px;
-    height: 418px;
+    /*height: 418px;*/
     border: 1px solid rgba(146, 156, 165, 0.1);
     background-color: #fafafb;
     padding-left: 3em;
-    margin-top: 40px
+    margin-top: 40px;
+    padding-bottom: 10px;
 }
 
 .div-volumetric-weight {
@@ -374,7 +375,10 @@ a:hover, a:focus {
     border: 1px solid #e9c46a;
     margin-bottom: 15px;
 }
-
+.modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,.2)!important;
+}
 .div-process {
     background-color: #ffffff;
     margin-bottom: 77px;
@@ -496,7 +500,7 @@ a:hover, a:focus {
 
 .div-volumetric-weight-img :first-child {
     color: #507dbc;
-    margin-top: 30px;
+    margin-top: 10px;
 
 }
 

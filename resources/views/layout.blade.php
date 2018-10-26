@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="{{asset('css/ics.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
     <link rel="stylesheet" href="{{asset('css/ifs.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
     <link rel="stylesheet" href="{{asset('css/offers.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
+    <link rel="stylesheet" href="{{asset('css/diwali.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
 
     @yield('css_style')
 
@@ -112,7 +113,6 @@
     <!-- Modal -->
     <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
-
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
