@@ -34,7 +34,7 @@
                     <li class="li"><a class="footer-a" href="https://blog.shoppre.com/" target="_blank">Blog</a></li>
                     <li class="li"><a class="footer-a" href="{{route('story.index')}}">Our Story</a></li>
                     <li class="li"><a class="footer-a" href="{{route('contact')}}">Contact Us</a></li>
-                    <li class="li"><a class="footer-a" href="https://medium.com/@shoppre">What's New</a></li>
+                    <li class="li"><a class="footer-a" href="https://www.shoppre.com/customer-complaint-form/">Complaints</a></li>
                     <li class="li"><a class="footer-a" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN"
                                       target="_blank">Careers</a></li>
                     <li class="li"><a class="footer-a" href="{{route('reviews')}}">Customer Reviews</a></li>

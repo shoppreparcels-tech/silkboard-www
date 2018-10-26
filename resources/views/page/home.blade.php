@@ -93,6 +93,10 @@
             }
        }
   }
+
+
+
+
     </script>
 
     <script type="application/ld+json">
@@ -137,6 +141,10 @@
     "https://play.google.com/store/apps/details?id=com.shoppre.play",
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
  ]}
+
+
+
+
     </script>
 
     <script type='application/ld+json'>
@@ -160,7 +168,22 @@
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
   ]
 }
-</script>
+
+
+
+
+    </script>
+
+    <style>
+        .div-shop-ship1 > div {
+            padding-top: 10px;
+            padding-bottom: 10px
+        }
+
+        .div-shop-ship1 > div > p {
+            text-align: center
+        }
+    </style>
 
 @endsection
 
@@ -168,48 +191,48 @@
     <main class="div-main" role="main">
         {{--this block is required for next iteration--}}
         {{--<div class="container header-menu-home-page"--}}
-             {{--id="header-menu">--}}
-            {{--<div class="col-md-2">--}}
-                {{--<a href="{{route('ifs.index')}}" class="header6 p-color-cement">--}}
-                    {{--<div>--}}
-                        {{--<img src="{{asset('img/svg/header-shop-ship.svg')}}" class="header-menu-img"--}}
-                             {{--alt="personal shopper">--}}
-                        {{--<span class="p-color-cement"> Shop and Ship</span>--}}
+        {{--id="header-menu">--}}
+        {{--<div class="col-md-2">--}}
+        {{--<a href="{{route('ifs.index')}}" class="header6 p-color-cement">--}}
+        {{--<div>--}}
+        {{--<img src="{{asset('img/svg/header-shop-ship.svg')}}" class="header-menu-img"--}}
+        {{--alt="personal shopper">--}}
+        {{--<span class="p-color-cement"> Shop and Ship</span>--}}
 
-                    {{--</div>--}}
-                {{--</a>--}}
-            {{--</div>--}}
+        {{--</div>--}}
+        {{--</a>--}}
+        {{--</div>--}}
 
-            {{--<div class="col-md-2">--}}
-                {{--<a href="{{route('ifs.index')}}/#how-it-works">--}}
-                    {{--<img src="{{asset('img/svg/header-p-shopper.svg')}}" alt="" class="header-menu-img">--}}
-                    {{--<span class="header6 p-color-cement">Personal Shopper</span>--}}
-                {{--</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-2" >--}}
-                {{--<a href="{{route('schedulePickup.Index')}}" class="header6 p-color-cement">--}}
-                    {{--<img src="{{asset('img/svg/header-schedule-pickup.svg')}}" alt="" class="header-menu-img">--}}
-                    {{--<span class="header6 p-color-cement">Schedule Pickup</span>--}}
-                {{--</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-2" >--}}
-                {{--<a href="{{route('stores')}}" class="header6 p-color-cement">--}}
-                    {{--<img src="{{asset('img/svg/header-stores.svg')}}" alt="" class="header-menu-img">--}}
-                    {{--<span class="header6 p-color-cement">Browse Stores</span>--}}
-                {{--</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-2">--}}
-                {{--<a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank" class="header6 p-color-cement">--}}
-                    {{--<img src="{{asset('img/svg/partner-with-us.svg')}}" alt="" class="header-menu-img">--}}
-                    {{--<span class="header6 p-color-cement">Partner With Us</span>--}}
-                {{--</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-2" >--}}
-                {{--<a href="https://www.shoppre.com/offers/send-durga-puja-gifts-from-india-ship-internationally/" target="_blank" class="header6 p-color-cement">--}}
-                    {{--<img src="{{asset('img/svg/partner-with-us.svg')}}" alt="" class="header-menu-img">--}}
-                    {{--<span class="header6 p-color-cement"> Offers and Deals</span>--}}
-                {{--</a>--}}
-            {{--</div>--}}
+        {{--<div class="col-md-2">--}}
+        {{--<a href="{{route('ifs.index')}}/#how-it-works">--}}
+        {{--<img src="{{asset('img/svg/header-p-shopper.svg')}}" alt="" class="header-menu-img">--}}
+        {{--<span class="header6 p-color-cement">Personal Shopper</span>--}}
+        {{--</a>--}}
+        {{--</div>--}}
+        {{--<div class="col-md-2" >--}}
+        {{--<a href="{{route('schedulePickup.Index')}}" class="header6 p-color-cement">--}}
+        {{--<img src="{{asset('img/svg/header-schedule-pickup.svg')}}" alt="" class="header-menu-img">--}}
+        {{--<span class="header6 p-color-cement">Schedule Pickup</span>--}}
+        {{--</a>--}}
+        {{--</div>--}}
+        {{--<div class="col-md-2" >--}}
+        {{--<a href="{{route('stores')}}" class="header6 p-color-cement">--}}
+        {{--<img src="{{asset('img/svg/header-stores.svg')}}" alt="" class="header-menu-img">--}}
+        {{--<span class="header6 p-color-cement">Browse Stores</span>--}}
+        {{--</a>--}}
+        {{--</div>--}}
+        {{--<div class="col-md-2">--}}
+        {{--<a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank" class="header6 p-color-cement">--}}
+        {{--<img src="{{asset('img/svg/partner-with-us.svg')}}" alt="" class="header-menu-img">--}}
+        {{--<span class="header6 p-color-cement">Partner With Us</span>--}}
+        {{--</a>--}}
+        {{--</div>--}}
+        {{--<div class="col-md-2" >--}}
+        {{--<a href="https://www.shoppre.com/offers/send-durga-puja-gifts-from-india-ship-internationally/" target="_blank" class="header6 p-color-cement">--}}
+        {{--<img src="{{asset('img/svg/partner-with-us.svg')}}" alt="" class="header-menu-img">--}}
+        {{--<span class="header6 p-color-cement"> Offers and Deals</span>--}}
+        {{--</a>--}}
+        {{--</div>--}}
         {{--</div>--}}
         {{--this block is required for next iteration--}}
         <div class="container no-padding">
@@ -235,8 +258,8 @@
                 <div class="div-mobile-background-img no-padding" id="mobile-version">
                     <div class="row" style="margin-left: 0px;margin-right: 0px;" id="row-padding-shop1">
                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 no-padding div-shop-ship1" id="shop-ship">
-                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12" style="padding-top: 10px;padding-bottom: 10px">
-                                <p class="header6 p-color-white"style="text-align: center">
+                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                                <p class="header6 p-color-white">
                                     Shop From Any
                                     Indian Store; Get It to a FREE
                                     Indian Virtual Address;
@@ -258,13 +281,11 @@
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 no-padding div-courier1" id="courier">
                             <div class="div-courier-text">
-                                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12" style="padding-top: 10px;padding-bottom: 10px">
-                                    <p class="header6 p-color-white"style="text-align: center">
-                                        Schedule a Pickup
-                                        For Your Courier
-                                        From Anywhere in India;
-                                        We ship to 220+
-                                        countries!
+                                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12"
+                                     style="padding-top: 10px;padding-bottom: 10px">
+                                    <p class="header6 p-color-white" style="text-align: center">
+                                        Schedule a Pickup for Your Courier From Anywhere in India; We'll Come Pick It Up
+                                        in 24 Hours!
                                     </p>
                                 </div>
 
@@ -282,51 +303,43 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-video-margin">
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab">
+                            <center>
+                                <p>
+                                    <img class="img-demo" src="{{asset('img/svg/ic_watch_now.svg')}}">
+                                    <a class="bla-1 p-demo-text" style="color: #ffffff"
+                                       href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=3s" target="_blank"
+                                    >&nbsp;&nbsp;&nbsp;&nbsp;Watch a Demo</a>
+                                </p>
+                            </center>
 
-
-                    {{--<div class="row" style="margin-left: -32px;">--}}
-                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-video-margin">
-                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab">
-                               <center>
-                                   <p>
-                                       <img class="img-demo" src="{{asset('img/svg/ic_watch_now.svg')}}">
-                                       <a class="bla-1 p-demo-text" style="color: #ffffff"
-                                          href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=3s" target="_blank"
-                                       >&nbsp;Watch a Demo</a>
-                                   </p>
-                               </center>
-
-                            </div>
-                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="number"
-                                 style="padding-left: 0;">
-                                <img class="img-demo" id="img-cal"
-                                     src="{{asset('img/svg/ic_contact_header.svg')}}">
-                                <b>
-                                    <a href="tel:+91-80 4094 4077">
-                                        <b>
-                                            <p class="p-support-text" id="p-numer">
-                                                &nbsp;+91 914-835-7733
-                                            </p>
-                                        </b>
-                                    </a>
-                                </b>
-                            </div>
-                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="callnow">
-                                <img class="img-demo" id="img-cal1"
-                                     src="{{asset('img/svg/ic_contact_header1.svg')}}">
-                                <b>
-                                    <a href="tel:+91-80 4094 4077">
-                                        <b>
-                                            <p class="p-demo-text text-call-now" id="p-demo-text-cal">
-                                                Call Now
-                                            </p>
-                                        </b>
-                                    </a>
-                                </b>
-                            </div>
                         </div>
-                    {{--</div>--}}
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="number"
+                             style="padding-left: 0;">
+                            <img class="img-demo" id="img-cal"
+                                 src="{{asset('img/svg/ic_contact_header.svg')}}">
+                            <b>
+                                <a href="tel:+91-80 4094 4077">
+                                    <b>
+                                        <p class="p-support-text" id="p-numer">
+                                            &nbsp;+91 914-835-7733
+                                        </p>
+                                    </b>
+                                </a>
+                            </b>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="callnow">
+                            <img class="img-demo" id="img-cal1" src="{{asset('img/svg/ic_contact_header1.svg')}}">
+                            <a href="tel:+91-80 4094 4077">
+                                <p class="p-demo-text text-call-now" id="p-demo-text-cal">
+                                    &nbsp;&nbsp;Call Now
+                                </p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
+
                 <div id="desktop-version">
                     <div class="row" style="margin-left: 0px;margin-right: 0px;" id="row-padding-shop">
                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 div-shop-ship" id="shop-ship">

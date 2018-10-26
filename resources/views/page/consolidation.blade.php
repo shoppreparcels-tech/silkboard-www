@@ -1,8 +1,52 @@
 @extends('layout')
 
-@section('title', 'Shoppre Consolidation Service - Save On Shipping Costs')
-@section('description', 'Shoppre help in reducing Shipping cost by Combining your packages from multiple stores to one tracking number, and save upto 60% - 80% on shipping rates!')
-@section('keywords', 'shoppre, consolidation service, save on shipping costs, multiple stores, packages')
+@section('title', 'What is Package Consolidation & How to Save on Shipping Costs? - ShoppRe.com')
+@section('description', 'ShoppRe package consolidation service helps in combining your packages purchased from multiple Indian stores into one shipment and saving upto 60-80% on shipping costs.')
+@section('keywords', 'shoppre, consolidation service, save on shipping costs, multiple stores, combine packages')
+
+@section('css_style')
+    <meta property="og:title" content="What is ShoppRe Package Consolidation & How to Save on Shipping Costs?"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="ShoppRe package consolidation service helps in combining your packages purchased from multiple Indian stores into one shipment and saving upto 60-80% on shipping costs."/>
+    <meta property="og:url" content="https://www.shoppre.com/consolidation-service"/>
+    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
+    <meta property="og:site_name" content="ShoppRe.com"/>
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@Go_Shoppre"/>
+    <meta name="twitter:title" content="What is ShoppRe Package Consolidation & How to Save on Shipping Costs?"/>
+    <meta name="twitter:description" content="ShoppRe package consolidation service helps in combining your packages purchased from multiple Indian stores into one shipment and saving upto 60-80% on shipping costs."/>
+    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
+
+    <meta name="twitter:app:country" content="IN"/>
+    <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
+    <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
+    <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
+
+    <script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "Website",
+  "name": "ShoppRe",
+  "alternateName": "What Is ShoppRe Package Consolidation",
+  "url": "https://www.shoppre.com/consolidation-service",
+  "image": "https://www.shoppre.com/img/logo.png",
+  "description": "ShoppRe package consolidation service helps in combining your packages purchased from multiple Indian stores into one shipment and saving upto 60-80% on international and domestic shipping costs.",
+    "sameAs": [
+    "https://www.facebook.com/goshoppre/",
+    "https://twitter.com/Go_Shoppre",
+    "https://plus.google.com/+SHOPPRECOM",
+    "https://www.instagram.com/shoppre_official",
+    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+    "https://www.linkedin.com/company/shoppre.com",
+    "https://in.pinterest.com/shoppre",
+    "https://goo.gl/maps/uuZy4tMs8582",
+    "https://play.google.com/store/apps/details?id=com.shoppre.play",
+    "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
+  ]
+}
+</script>
+@endsection
 
 @section('content')
 
@@ -51,7 +95,7 @@
             </div>
             <div class="col-sm-6">
               <div class="serv_sec">
-                <h4>shipping through <a href="{{route('home')}}" class="text-orange">Shoppre.com</a></h4>
+                <h4>shipping through <a href="{{route('home')}}" class="text-orange">ShoppRe.com</a></h4>
                 <div class="example">
                   <img src="{{asset('img/consolid2.png')}}" style="max-width: 78%;">
                 </div>
@@ -64,7 +108,7 @@
               <h3 class="text-orange"><strong>67% Less</strong> than Shipping Directly from Stores</h3>
               <div class="text-center">
                 <h4>When packages are shipped individually, each package bears the rate of the first kilo rate.<br><span class="text-orange">But when you consolidate, you pay for the first half kilo only once!</span></h4>
-                <p>Enjoy Shoppre's special discount rates with our trusted courier partners like DHL, FedEx, DTDC, etc.<br>thanks to our bulk shipment every month!</p>
+                <p>Enjoy ShoppRe's special discount rates with our trusted courier partners like DHL, DTDC, etc.<br>thanks to our bulk shipment every month!</p>
               </div>
             </div>
         </div>
@@ -72,7 +116,8 @@
     <section class="store-band">
       <div class="container">
         <h2>free storage upto 20 days</h2>
-        <p>In an effort to maximise consolidation, we will store your packages for 20 days for free. That gives you time to shop and ship your items to our warehouse,Allowing for more packages to be consolidated which saves you money on international shipping costs.</p>
+          <p>In an effort to maximise consolidation, we will store your packages for 20 days for free. That gives you time to
+              <a href="{{route('ifs.index')}}">shop and ship</a> your items to our warehouse, allowing for more packages to be consolidated which saves you money on <a href="{{route('pricing')}}">international shipping costs</a>.</p>
       </div>
     </section>
 @endsection

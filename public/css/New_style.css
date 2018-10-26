@@ -48,11 +48,11 @@ body {
 }
 .navbar-header-login>ul>li{
     font-size: 14px;
-    width: 70px;
+    width: 85px;
     display: none;
     float: right;
     padding-top: 2px;
-    padding-left: 5px;
+    padding-left: 11px;
     margin-top: 8px;
 
 }
@@ -78,7 +78,7 @@ body {
     position: static !important;
 }
 .navbar-nav {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .mega-dropdown-menu {
     padding: 20px 0px;
@@ -1524,7 +1524,7 @@ a#prev:hover, a#next:hover {
     height: 50px;
     border-radius: 30px;
     background-color: #e85151;
-    margin: 45px 0 90px 0;
+    margin: 45px 0 45px 0;
     padding-top: 15px;
     transition: 0.6s;
 }
@@ -1940,6 +1940,8 @@ a#prev:hover, a#next:hover {
     text-align: center;
     padding-bottom: 25px;
     padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .padding-bottom {
@@ -1978,7 +1980,7 @@ a#prev:hover, a#next:hover {
 .mission-section {
     /*background-color: #11273b;*/
     /*/*opacity: 0.6;*/
-    background-image: url("../../img/images/yousuf-ali-priyamani.png");
+    background-image: url("../../img/images/mustafa-raj.png");
     height: 600px;
     background-attachment: fixed;
     background-position: center;
@@ -3338,7 +3340,7 @@ a#prev:hover, a#next:hover {
     }
 
     #btn-courier {
-        margin-top: 2px;
+        margin-top: 0px;
     }
 
     #number {
@@ -3939,9 +3941,6 @@ a#prev:hover, a#next:hover {
         opacity: 1
     }
 
-    #btn-courier {
-        margin-top: 2px;
-    }
 
     .btn-courier {
         width: 141px;
@@ -4762,6 +4761,9 @@ a#prev:hover, a#next:hover {
         font-weight: 600;
         margin-left: 0px;
     }
+    .btn-shop-ship1, .btn-courier1 {
+        width: 170px;
+    }
     #mobile-version{
         display: block;
     }
@@ -4769,16 +4771,16 @@ a#prev:hover, a#next:hover {
         display: none;
     }
     .div-shop-ship1, .div-courier1 {
-        width: 160px;
+        width: 170px;
     }
     #row-padding-shop1 {
         margin-top: 0px;
     }
     .p-demo-text {
-        margin-left: -25px;
+        margin-left: -20px;
     }
     .div-mobile-background-img {
-        height: 268.56px;
+        height: 279.56px;
     }
     .div-video-margin {
         margin-top: 50px;
@@ -4813,7 +4815,7 @@ a#prev:hover, a#next:hover {
     }
 
     .div-store-padding {
-        padding-left:26px;
+        padding-left:40px;
     }
 
     .p-payment-text {
@@ -4840,7 +4842,7 @@ a#prev:hover, a#next:hover {
     }
 
     .img-demo, .img-support {
-        margin-left: -8px;
+        margin-left: 0px;
     }
     .img-payment-methods {
         height: 61px;
@@ -5123,7 +5125,7 @@ a#prev:hover, a#next:hover {
         height: 162px;
     }
     .div-shop-ship1 {
-        margin-left: 5px;
+        margin-left: 14px;
     }
     .div-shop-ship1, .div-courier1 {
         width: 142px;
@@ -5131,7 +5133,7 @@ a#prev:hover, a#next:hover {
     .btn-shop-ship1, .btn-courier1 {
         width: 143px;
     }
-    .btn-shop-ship1{
+    .btn-shop-ship1,#btn-courier {
         margin-top: -20px;
     }
     #row-padding-shop1 {
@@ -5141,7 +5143,7 @@ a#prev:hover, a#next:hover {
         margin-top: 7px;
     }
     .div-mobile-background-img {
-        height: 228.80px;
+        height: 238.8px;
     }
     .div-priyamani-mobile-img {
         width: 148px;
