@@ -1,2 +1,12 @@
 User-agent: *
-Disallow: /
+Disallow:
+Disallow: /dhl?page=*
+Disallow: /dhl/shipment/*
+Disallow: /fedex?page=*
+Disallow: /fedex/shipment/*
+Disallow: /dtdc?page=*
+Disallow: /dtdc/shipment/*
+Disallow: /reviews?page=*
+Disallow: /index.php/pricing
+
+sitemap: https://www.shoppre.com/sitemap.xml
