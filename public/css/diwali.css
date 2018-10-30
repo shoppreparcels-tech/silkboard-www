@@ -72,15 +72,16 @@ body {
     /*box-shadow: none;*/
     /*opacity: .65;*/
 /*}*/
+/*!**/
 
-.btn-shoppre {
-    width: 210px;
-    height: 50px;
-    box-shadow: 0 5px 15px rgba(232, 81, 81, 0.3);
-    border-radius: 60px !important;
-    background-image: radial-gradient(undefined undefinedpx at, #ffa661 0%, #e85151 100%);
-    color: #fff;
-}
+/*.btn-shoppre {*/
+    /*width: 210px;*/
+    /*height: 50px;*/
+    /*box-shadow: 0 5px 15px rgba(232, 81, 81, 0.3);*/
+    /*border-radius: 60px !important;*/
+    /*background-image: radial-gradient(undefined undefinedpx at, #ffa661 0%, #e85151 100%);*/
+    /*color: #fff;*/
+/*}*/
 
 .contactTop {
     width: 196px;
@@ -277,16 +278,16 @@ body {
     line-height: 61px;
 }
 
-.valid {
-    width: 229px;
-    height: 30px;
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.7px;
-    line-height: 30px;
-}
+/*.valid {*/
+    /*width: 229px;*/
+    /*height: 30px;*/
+    /*color: #ffffff;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-size: 14px;*/
+    /*font-weight: 500;*/
+    /*letter-spacing: 0.7px;*/
+    /*line-height: 30px;*/
+/*}*/
 
 .enqDiwalioffer {
     width: 256px;
