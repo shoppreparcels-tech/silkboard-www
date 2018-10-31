@@ -222,7 +222,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="https://www.shoppre.com/offers/flames-shopping-season-sale-india-shipping-offer/" target="_blank">Offers</a></li>
+                    <li><a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/" target="_blank">Offers</a></li>
                     <li><a href="{{route('pricing')}}">Price Calculator</a></li>
                     <li><a href="{{route('contact')}}">Support</a></li>
                     <li>

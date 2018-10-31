@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'Indian Virtual Address - ShoppRe')
-@section('description', 'Indian virtual address for shopping and shipping internationally')
+@section('title', 'Get Your Own Free Indian Virtual Shipping Address - ShoppRe.com')
+@section('description', 'Get your own free Indian virtual address for shopping any Indian online stores and ship to your doorsteps, delivered in 3-6 days. Sign Up Now!')
 @section('keywords', 'virtual address')
 
 @section('css_style')

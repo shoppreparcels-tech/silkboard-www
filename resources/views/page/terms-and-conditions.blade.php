@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'Terms And Conditions | Shoppre - Shipping From India')
-@section('description', 'Terms and Conditions by Shoppre that applies to user must agree to adhere to the following guidelines when using this Website or Mobile App.')
+@section('title', 'International Shipping ShoppRe.com | Terms of Service & Conditions')
+@section('description', 'Terms and Conditions by ShoppRe that applies to user must agree to adhere to the following guidelines when using this Website or Mobile App.')
 @section('keywords', 'terms and conditions, set of rules and guidelines user must agree, following guidelines, website, mobile app')
 
 @section('content')
@@ -10,12 +10,12 @@
         <div class="pagebanner">
           <img src="img/banner1.jpg" width="100%">
           <div class="banner-cap">
-            <h2>Our Terms And Conditions</span></h2>
+            <h2><span>Our Terms And Conditions</span></h2>
           </div>
         </div>
     </section>
 <section class="service-sec">
-      <div class="container">      
+      <div class="container">
         <div class="col-md-12">
             <h1> Terms And Conditions </h1>
             <p class="policy-paragraph">
@@ -27,7 +27,7 @@
                 <br>
                 Membership starts the day the Member's application is received by Shoppre.com.
                 <br>
-                The Member represents and warrants that he/she is responsible for complying with all known applicable export and import control laws and regulations in the order and receipt of merchandise and mail under the terms of this Agreement. 
+                The Member represents and warrants that he/she is responsible for complying with all known applicable export and import control laws and regulations in the order and receipt of merchandise and mail under the terms of this Agreement.
 
             </p>
             <h3>I. USER GUIDELINES</h3>
@@ -58,7 +58,7 @@
                 Please do not post any personal information, as that term is defined in the Privacy Policy, on publicly accessible areas of the Website. If you elect to post any information to publicly-accessible areas of the Website, you hereby grant to Shoppre.com a perpetual, worldwide, irrevocable, fully-paid-up, royalty-free, nonexclusive license to use, reproduce, copy, modify, publish, distribute, perform, display, and create derivative works from such information (in whole or part) for any reason whatsoever.
                 </p>
             </p>
-             <h3>II. TERMS OF SERVICE</h3>          
+             <h3>II. TERMS OF SERVICE</h3>
             <p class="policy-paragraph">
                 Shoppre.com will provide the Member with a Locker number at the Shoppre facility in India at which the Member can have mail and/or merchandise delivered prior to export.
                 <br>
@@ -67,16 +67,16 @@
                 Members accept that freight forwarders and/or carriers reserve the right to open and/or inspect every shipment tendered to forwarders and/or carriers on behalf of an Shoppre Member.
 
             </p>
-             <h3>III. COMPLIANCE WITH LAWS</h3>  
-             <h3>A. Compliance with Export and Import Laws</h3>  
-             <p class="policy-paragraph"> 
-                The Member represents and warrants that (a) the recipient of any items consolidated by Shoppre.com is the end user of any and all merchandise and mail that the Member has requested be exported                
+             <h3>III. COMPLIANCE WITH LAWS</h3>
+             <h3>A. Compliance with Export and Import Laws</h3>
+             <p class="policy-paragraph">
+                The Member represents and warrants that (a) the recipient of any items consolidated by Shoppre.com is the end user of any and all merchandise and mail that the Member has requested be exported
                 through a freight forwarder or carrier to the recipient's address, or, if the Member is reselling the merchandise, the Member can identify the end users and provide Shoppre.com with any requested information on such end users, (b) any and all merchandise and mail that the Member requests be consolidated by Shoppre.com will be used in the country to which the Member requests shipment, and (c) the Member will not re-export the merchandise and mail to a different destination. The Member may not return to India or resell in or into India any food products or dietary supplements it receives through Shoppre.com, and the Member shall require any recipients of the food products or dietary supplements to adhere to the same requirements. Shoppre.com reserves the right to request that the Member or the recipient of an item, as applicable, sign documents
                 confirming the end use or end user of any item exported through a freight forwarder or carrier by Shoppre.com.
                 <br>
                 If you are a reseller, you agree to be bound by the following terms:
                 <br>
-                1.As a condition of your membership with Shoppre.com, you agree to be bound by all terms and conditions of Shoppre.com. 
+                1.As a condition of your membership with Shoppre.com, you agree to be bound by all terms and conditions of Shoppre.com.
                 <br>
                 The Shoppre.com Terms & Conditions are subject to change  at any time.
                 <br>
@@ -84,7 +84,7 @@
 
              </p>
              <h3>B. Prohibited and Restricted Items</h3>
-             <p class="policy-paragraph"> 
+             <p class="policy-paragraph">
                 The following list is a non-exclusive sampling of items that are restricted, cannot be shipped or, depending on your destination country, may either require an import license, additional documentation and/or cause problems and delays during the customs review of your shipment:
                 <ul class="policy-paragraph">
 
@@ -107,7 +107,7 @@
                   <li>The Member understands and agrees that any software and/or data residing on used computer equipment or other electronic storage device is the sole responsibility of the Member. Department of Commerce and any requirements pertaining to the shipping of any such software and/or data to any country to, from, through or over which the Member's shipment may be carried. Member also understands that Shoppre.com is not responsible for the loss of any software and/or data.</li>
                   <li>The Member acknowledges that Shoppre.com will not directly or indirectly, participate in any way in any transaction involving any commodity, software or technology (hereinafter collectively referred to as "item") exported or to be exported from India that is subject to the ITAR or that would require an export license under the EAR, except in instances where the item subject to the EAR is eligible for an export license exception that has been approved for use by Shoppre.com. The Member also acknowledges that Shoppre.com does not allow for the use of exemptions under the ITAR. Additional information about the items that you can and cannot have processed by Shoppre.com is available on our Prohibited and Restricted Items page.</li>
                   <li>The Member is responsible for confirming that prohibited items listed in the Shoppre.com Prohibited and Restricted Item page are not sent to Shoppre.com. See Prohibited Items Guide for more information. Shoppre.com reserves the right to return packages to the sender(s) for any reason, to provide packages (and information concerning the same) to government authorities, or to otherwise discard packages (including by selling forfeited items with the sales proceeds going to charity).</li>
-                                  
+
                 </ul>
                 <p class="policy-paragraph">
                     Additional information is available on our Prohibited and Restricted Items page.
@@ -128,7 +128,7 @@
                 <li>Sudan</li>
                 <li>Syria</li>
                 <li>Libya</li>
-                <li>Ukraine: Crimea Region</li>                 
+                <li>Ukraine: Crimea Region</li>
              </ol>
              <h3>D. Fraud Prevention</h3>
              <p class="policy-paragraph">
@@ -138,7 +138,7 @@
                        <li>You may not use the Website for multi-level marketing, pyramid schemes, receiving checks and/money orders, or other business practices easily subject to abuse. </li>
                        <li>You represent, warrant, and covenant that all information you provide to Shoppre.com is accurate and complies with all applicable local, state, and federal laws and regulations, including any information regarding the value or export classification of merchandise. </li>
                        <li>You are solely liable for such information and for maintaining all records as required under law. You may be subject to civil or criminal penalties by the Indian Government for making false or fraudulent statements with respect to such information.</li>
-                      
+
                     </ul>
                 </p>
 
@@ -153,7 +153,7 @@
                     </ul>
                 </p>
                 <h3>V. INDEMNIFICATION</h3>
-                <p class="policy-paragraph"> 
+                <p class="policy-paragraph">
                     The Member agrees that he/she will remain liable for and indemnify, defend, and hold harmless Shoppre.com and its shareholders, officers, directors, agents, partners, employees and independent contractors, at all times from the date hereof, from and against any and all claims, actions, damages, awards, liabilities, losses (including consequential losses), judgments, penalties, interest, fines, expenses, and/or other costs (including attorneys' charges and court costs) arising by reason of the execution hereof or the consummation of the transactions contemplated hereby, including without limitation those arising from or relating to:
                     <ul>
                         <li>any negligent action or omission of Member or any of the Member's employees, contractors, agents or any other person acting under Member's supervision or control prior to, as of, or following the date hereof;</li>
@@ -178,6 +178,6 @@
                 </p>
         </div>
       </div>
-    </section>    
-    
+    </section>
+
     @endsection

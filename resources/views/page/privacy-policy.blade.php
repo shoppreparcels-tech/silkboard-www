@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'Privacy Policy | Shoppre - International Shipping Partner')
-@section('description', 'Welcome to Shoppre Privacy Policy. Shoppre.com is dedicated to protecting the privacy of your personal information. Visit what types of information we collect it & why')
+@section('title', 'Privacy Policy | ShoppRe.com - Global Shipping Partner From India')
+@section('description', 'ShoppRe privacy policy is dedicated to protect the personal information which applies to all users of our websites, apps, features or other services worldwide.')
 @section('keywords', 'shoppre privacy policy, personal information, information we collect, why, third parties, information sharing, disclosure')
 
 @section('content')
@@ -10,13 +10,13 @@
         <div class="pagebanner">
           <img src="img/banner1.jpg" width="100%">
           <div class="banner-cap">
-            <h2>Our Privacy Policy</span></h2>
+            <h2><span>Our Privacy Policy</span></h2>
           </div>
         </div>
     </section>
 
     <section class="service-sec">
-      <div class="container">      
+      <div class="container">
         <div class="col-md-12">
         	<h1>PRIVACY NOTICE AND PRIVACY POLICY</h1>
             <p class="policy-paragraph">
@@ -45,7 +45,7 @@
             </p>
             <h3>How We Use the Information We Collect</h3>
             <h3>We use personal and non-personal information:</h3>
-            <p class="policy-paragraph"> 
+            <p class="policy-paragraph">
                 <ol class="policy-paragraph">
                 	<li>To determine how much traffic the Website receives, to statistically analyze Website usage, to diagnose problems with our server, to improve Website content, to customize the Website's content, layout and services, and to otherwise provide the Website to you and other users;</li>
                 	<li>To process payments and complete transactions;</li>
@@ -60,8 +60,8 @@
 					We may retain the content of any emails or messages you send us, and your name, your email address, and our response in order to handle any follow-up questions you may have. We may also use this information to measure how effectively we address your concerns.
 					</p>
             </p>
-            <h3>Information Sharing and Disclosure to Third Parties</h3>           
-            <p class="policy-paragraph"> 
+            <h3>Information Sharing and Disclosure to Third Parties</h3>
+            <p class="policy-paragraph">
 				Non-Personal Information. Because non-personal information does not identify who you are, we may share or disclose such information without restriction. For example, we may share or disclose non-personal information with our affiliates, suppliers, employees and agents, other businesses, and the government.
 				Personal Information. Shoppre.com may share or disclose your personal information:
 				<ol>
@@ -75,17 +75,17 @@
 					<li>For any other purpose with your consent.</li>
 
 				</ol>
-				<p class="policy-paragraph"> 
+				<p class="policy-paragraph">
 					Shoppre.com will not share or disclose your personal information except in accordance with this Privacy Policy without providing you with notice.
 				</p>
             </p>
             <h3>Transfer of Personal Information to India</h3>
-            <p class="policy-paragraph"> 
+            <p class="policy-paragraph">
 					Shoppre.com is based in India. By providing your personal information and by using the Website, if you are located in a country other than India, you expressly consent to the transfer of your personal information to India where data protection laws may not be considered adequate when compared with the data security laws in your country, or may not be as stringent as such laws. You also expressly consent to the disclosure to third parties of your personal information which is transferred to India in accordance with this Privacy Policy and the Terms and Conditions. Shoppre.com may use third party service providers, as mentioned in this Privacy Policy, which may be located in India or elsewhere in the world. By providing your personal information and by accessing or using the Website, you expressly consent to the transfer of your personal information to such third party service providers, wherever they may be located.
 				</p>
 
 				<h3>Your Choices</h3>
-				 <p class="policy-paragraph"> 
+				 <p class="policy-paragraph">
 				 	Upon written request and verification of your identity, we will provide you with your personal information in our possession. You may request such information by contacting us as described below. You may also update or correct your personal information in our possession by contacting us as described below or by updating your information through the Website.
 				 	<br>
 					Please note that if you request we delete your information that deletion may not happen immediately. We may retain your personal information subject to our reasonable business or legal requirements to do so, including, for example, to comply with requests from law enforcement.

@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'FAQ | Shoppre - International Shipping Partner')
-@section('description', 'Frequently Asked Questions about Shoppre, international shipping services from India. More info such as membership plan, shipping rates, virtual address & App.')
+@section('title', 'FAQ - International Shipping | Shopping at Indian Stores | ShoppRe')
+@section('description', 'Learn more about ShoppRe, International shipping services from India, shopping at Indian stores, shipping rates, virtual address, courier delivery & more.')
 @section('keywords', 'frequently asked questions, membership plan, shipping rates, virtual address, app, account information, receipts')
 
 @section('content')
@@ -10,7 +10,7 @@
       <div class="pagebanner">
         <img src="img/banner1.jpg" width="100%">
         <div class="banner-cap">
-          <h2>Frequently Asked Questions - Shoppre</h2>
+          <h2>Frequently Asked Questions - ShoppRe</h2>
         </div>
       </div>
   </section>

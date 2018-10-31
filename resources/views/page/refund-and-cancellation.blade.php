@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'Refund And Cancellation Policy - Shoppre')
-@section('description', 'Please read the refund policy, conditions carefully before making shipping, handling charges, membership dues, return fees, storage charges and any optional services.')
+@section('title', 'Refund & Cancellation Policy - ShoppRe.com International Shipping ')
+@section('description', 'Please read the refund policy, conditions carefully before making shipping, personal shopper & membership fees; return and storage charges & any optional services.')
 @section('keywords', 'refund policy, conditions, shipping, handling charges, membership dues, return fees, storage charges')
 
 @section('content')
@@ -16,7 +16,7 @@
     </section>
 
     <section class="service-sec">
-      <div class="container">      
+      <div class="container">
         <div class="col-md-12">
         	<h1>Refund And Cancellation Policy</h1>
             <p class="policy-paragraph">
@@ -37,7 +37,7 @@
 				Either party may cancel the Membership Agreement with written notice (via email, fax, letter, or, to the extent provided by the Shoppre.com website, online). Each Member, as collateral security for the prompt and complete payment and performance when due (whether at stated maturity, by acceleration or otherwise) of any amounts owed to Shoppre.com by such Member, whether under these Terms and Conditions or otherwise (the "Secured Obligations"), hereby mortgages, pledges and hypothecates to Shoppre.com and grants to Shoppre.com a lien on and security interest in, all of its right, title and interest into and under any and all packages shipped by such Member to Shoppre.com.
 				<br>
 				<br>
-				 
+
 				Without limiting the generality of the foregoing, Shoppre.com may, without demand of performance or other demand, presentment, protest, advertisement or notice of any kind (except any notice required by law referred to below) to or upon a Member or any other person (all and each of which demands, defenses, advertisements and notices are hereby waived to the extent permitted by law), during the continuance of any account delinquency (personally or through its agents or attorneys):
                   <ol class="policy-paragraph">
                   		<li>
@@ -45,39 +45,39 @@
                   	</li>
                   		<li>Collect, receive, appropriate and realize upon any such packages and</li>
                   		<li>Sell, assign, convey, transfer, grant option or options to purchase and deliver any such packages, in one or more parcels at public or private sale or sales, at any exchange, broker's board or office of Shoppre.com or elsewhere upon such terms and conditions as it may deem advisable and at such prices as it may deem best, for cash or on credit or for future delivery without assumption of any credit risk, in each case, subject to applicable non-waivable laws.</li>
-                  </ol>				
+                  </ol>
 				<br>
- 
+
 				<p class="policy-paragraph">
 					Title to any items that cannot be exported after arrival at the Shoppre.com facility will be forfeited by the Member. Shoppre.com will have the option of returning all such forfeited packages/mail to the sender(s) and/or of discarding the items, including by:
 				</p>
 				<ol class="policy-paragraph">
 					<li>Selling any items not returned to the seller and then providing the proceeds of such sales to charity,</li>
 					<li>Destroying such items, or</li>
-					<li>providing such items to a government official.</li>									
-				</ol>	
-				<p class="policy-paragraph">			
+					<li>providing such items to a government official.</li>
+				</ol>
+				<p class="policy-paragraph">
 				The Member agrees and acknowledges that he/she shall purchase any and all merchandise from Sellers in a manner that:
 			    </p>
 
 				<ol class="policy-paragraph">
 					<li>Transfers title to the Member prior to the time that the merchandise is received at the Shoppre warehouse and </li>
 					<li>in accordance with risk of loss terms that provide either that the buyer or the Member bears the full costs and risks of moving the goods from the buyer's location to the Shoppre warehouse.</li>
-				</ol>			
+				</ol>
 				<h4>Monthly membership charges (for resellers) are non-refundable.</h4>
 				<br>
 				 <p class="policy-paragraph">
 				Each package received by Shoppre.com with an incomplete, incorrect, or old address that can be associated with a Member will be assessed a charge consistent with Shoppre.com's current schedule of fees. Members should ensure that all merchants and sellers mark all packages with the complete and accurate address, including the Member's unique Locker number that has been assigned for consolidation purposes. All packages received with incomplete, incorrect, or old addresses that cannot be associated with a Member will be returned to the Sender or discarded.
 			    </p>
-				<br>				
+				<br>
 				<p class="policy-paragraph">
 				All invoices past due for more than twenty (20) days will be assessed a flat fee plus a percentage per month late charge consistent with Shoppre.com's current schedule of fees. Personal Shopper orders past due for more than fifteen (15) days will be assessed a flat fee plus a percentage per month late charge, consistent with Shoppre.com's current schedule of fees, for each 20 day period that an order remains past due.
 			    </p>
-				<br>				
+				<br>
 				<p class="policy-paragraph">
 				The Member's Shoppre.com Locker number is to be used only for package consolidation purposes. The Member will not represent the Shoppre.com Locker number as its address for any purpose other than as the address to which packages may be delivered prior to export, including, but not limited to, representing that its Shoppre.com Locker number is the address of the Member's place of business or residence. Failure to comply with this requirement may result in the cancellation of the Member's Shoppre.com account.
 			    </p>
-				<br>				
+				<br>
 				<p class="policy-paragraph">
 				The Member is solely responsible for complying with any terms and conditions of sale that may be imposed by the seller of the merchandise. The Member acknowledges that Shoppre.com is not responsible for any action taken by the seller with respect to the Member's order as a result of the seller's terms and conditions of sale.
 			    </p>

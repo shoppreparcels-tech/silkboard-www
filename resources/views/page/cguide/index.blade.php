@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'Country Guides | Shoppre - International Shipping Partner')
-@section('description', 'Know how Shoppre a parcel forwarding & international shipping services work for online shopping in India while ensuring fast service at unbelievably low prices.')
+@section('title', 'Country Guides: Learn about 220 Countries | Pricing, Duty & Tax')
+@section('description', 'Get Latest helpful information on shipments specific to your country including Shipping Cost, Duties and Taxes, Prohibited Items, Transit Time & Country alerts.')
 @section('keywords', 'know how, shoppre, parcel forwarding, international shipping services, online shopping in india, fast service, dhl, fedex, dtdc')
 
 @section('css_style')
@@ -68,7 +68,7 @@
     $(document).ready(function() {
       $(".select2").select2();
     });
-    
+
     $("#select_iso").change(function(){
       if ($(this).val().length != 0) {
         window.location = "/country/"+$(this).val();

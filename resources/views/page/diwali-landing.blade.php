@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', '')
+@section('title', 'Diwali 2018 Offer')
 @section('description', '')
 @section('keywords', '')
 
@@ -158,18 +158,16 @@
                     season of light taking over the darkness, we have a rather cool offer in store for you to
                     get yourself and your loved ones ready for the celebrations.</p>
                 <br>
-                <p class="header4 p-color-cement">We offer 18% OFF the shipping costs of
+                <p class="header4 p-color-cement">We offer 15% OFF the shipping costs of
                     international shipments for up to Rs.300, which you
-                    can avail by using the Coupon Code DIWL18 when you checkout. Consider it a little something
+                    can avail by using the Coupon Code DIWL15 when you checkout. Consider it a little something
                     from us for this Diwali and don’t hesitate to shop around for Indian ethnic wear or send
                     your greetings off to your loved ones abroad.</p> <br>
 
                 <div class="offerDesc">
                     <h5> What Else Do You Get Out of Our Offer? </h5><br>
                     <ul>
-                        <li>431932
-                            Store your goods here at our facility for 20 days for FREE!
-                        </li>
+                        <li>Store your goods here at our facility for 20 days for FREE! </li>
                         <li>Get online Support 24/7</li>
                         <li>Get up to 80% OFF in shipping costs on top of the seasonal offer</li>
                         <li>A quick delivery within 3-6 days!”</li>
@@ -179,7 +177,7 @@
         </div>
     </section>
     <section style="background-color: #fafafb; margin-top: 10px">
-        <div class="container">
+        <div class="container" style="padding-top: 30px;">
             <center>
                 <h1 class="header1 p-color-cement-dark">How it Works</h1>
             </center>
@@ -231,10 +229,9 @@
         </div>
     </section>
 
-
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
-            <div class="row">
+            <div class="col-md-12">
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="div-phone">
                         <center>
@@ -270,7 +267,6 @@
             </div>
         </div>
     </section>
-
 
     <section class="d-contact-section-desktop">
         <div class="container " id="contact-support">

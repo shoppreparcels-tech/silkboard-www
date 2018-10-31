@@ -3432,29 +3432,6 @@ a#prev:hover, a#next:hover {
         /*margin: 0px 0px 0px 0px;*/
     }
 
-    /*.img-benifits {*/
-    /*width: 40px;*/
-    /*height: 29px;*/
-    /*}*/
-    /*.div-benifits {*/
-    /*!*border-radius:0px;*!*/
-    /*border: none;*/
-    /*!*margin-top: 102px;*!*/
-    /*!*margin-bottom: 62px;*!*/
-    /*}*/
-    /*.div-benifits-margin {*/
-    /*margin: 30px 0 20px 0;*/
-    /*}*/
-    /*.online-text {*/
-    /*font-size: 16px;*/
-    /*}*/
-    /*.p-save-upto {*/
-    /*font-size: 10px;*/
-    /*}*/
-    /*.online-text-words {*/
-    /*font-size: 10px;*/
-    /*margin-top: -16px;*/
-    /*}*/
     .div-cal-white-background {
         margin-left: 10px;
         margin-right: 10px;
@@ -4915,7 +4892,7 @@ a#prev:hover, a#next:hover {
     .div-phone {
         border: none;
         border-radius: 0px;
-        margin-left: 74px;
+        margin-left: 45px;
         border-bottom: 2px solid #fdf699;
     }
 
@@ -4959,6 +4936,7 @@ a#prev:hover, a#next:hover {
     .p-shoper-section {
         padding-top: 10px;
     }
+
 }
 
 @media only screen and (max-width: 360px) {
@@ -5267,7 +5245,7 @@ a#prev:hover, a#next:hover {
     .div-phone {
         border: none;
         border-radius: 0px;
-        margin-left: 36px;
+        margin-left: 10px;
         border-bottom: 2px solid #fdf699;
     }
 
@@ -5321,6 +5299,8 @@ a#prev:hover, a#next:hover {
     }
 
     /* about page Ending*/
+
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

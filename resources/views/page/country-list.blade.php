@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'List Of Countries | Shipping Information From Indian - Shoppre.com')
-@section('description', 'We have built a list of countries with pricing, contact details and address of shipping service from India. Ship your item Worldwide!')
+@section('title', 'Country List | Shipping Information India to Worldwide - ShoppRe')
+@section('description', 'List of countries with pricing, latest import or export restrictions, contact details and address of shipping service from India & Ship your items Worldwide.')
 @section('keywords', 'list, countries, shipping, worldwide, pricing, service, india, address')
 
 @section('content')

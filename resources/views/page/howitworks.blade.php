@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'How Does ShoppRe Works - How to Shop & Ship from India | ShoppRe.com')
+@section('title', 'How Does ShoppRe Works - How to Shop & Ship from India | ShoppRe')
 @section('description', 'Sign Up & receive your own Personal Locker with Virtual Indian Shipping Address. Buy product from any Indian stores; Store, Consolidate, Repack & Ship worldwide')
 @section('keywords', 'how does shoppre works, our personal shoppre service, ship your packages, multiple indian stores, ship from india')
 
@@ -51,7 +51,7 @@
   ]
 }
     </script>
-    
+
 @endsection
 @section('content')
 
