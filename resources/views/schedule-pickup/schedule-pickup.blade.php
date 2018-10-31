@@ -38,7 +38,7 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label>First Name <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter first name"
+                                <input type="text" class="form-control" placeholder="Enter First Name"
                                        name="first_name"/>
                                 @if ($errors->has('first_name'))
                                     <span class="error">{{ $errors->first('first_name') }}</span>
@@ -49,7 +49,7 @@
                         <div class="col-sm-6">
                             <div class="form-group label-align">
                                 <label>Last Name <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter last name"
+                                <input type="text" class="form-control" placeholder="Enter Last Name"
                                        name="last_name"/>
                                 @if ($errors->has('last_name'))
                                     <span class="error">{{ $errors->first('last_name') }}</span>
@@ -62,7 +62,7 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label>Email <span class="mendatory_fields">*</span> :</label>
-                                <input type="email" class="form-control" placeholder="Enter email" name="user_email"
+                                <input type="email" class="form-control" placeholder="Enter Email" name="user_email"
                                        />
                                 <div class="clearfix"></div>
                             </div>
@@ -99,7 +99,7 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label>First Name <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter first name"
+                                <input type="text" class="form-control" placeholder="Enter First Name"
                                        name="pc_fname"  />
                                 <div class="clearfix"></div>
                             </div>
@@ -107,7 +107,7 @@
                         <div class="col-sm-6">
                             <div class="form-group label-align">
                                 <label>Last Name<span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter last name"
+                                <input type="text" class="form-control" placeholder="Enter Last Name"
                                        name="pc_lname"  />
                                 <div class="clearfix"></div>
                             </div>
@@ -179,7 +179,7 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label>Weight Of Package(in kg)<span class="mendatory_fields">*</span> :</label>
-                                <input type="number" class="form-control" placeholder="Enter package weight"
+                                <input type="number" class="form-control" placeholder="Enter Package Weight"
                                        name="package_weight"  />
                                 <div class="clearfix"></div>
                             </div>
@@ -187,7 +187,7 @@
                         <div class="col-sm-6">
                             <div class="form-group label-align">
                                 <label>Size Of The Package If You Are Aware( Length, Breadth and Height ) :</label>
-                                <input type="text" class="form-control" placeholder="Enter package size"
+                                <input type="text" class="form-control" placeholder="Enter Package Size"
                                        name="size_of_package"/>
                                 <div class="clearfix"></div>
                             </div>
@@ -251,7 +251,7 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label>Firstname <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter first name"
+                                <input type="text" class="form-control" placeholder="Enter First Name"
                                        name="dc_fname"  />
                                 <div class="clearfix"></div>
                             </div>
@@ -259,7 +259,7 @@
                         <div class="col-sm-6">
                             <div class="form-group label-align">
                                 <label>Lastname <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter last name"
+                                <input type="text" class="form-control" placeholder="Enter Last Name"
                                        name="dc_lname"  />
                                 <div class="clearfix"></div>
                             </div>
@@ -269,7 +269,7 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label>Street <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Plaese Enter Street"
+                                <input type="text" class="form-control" placeholder="Please Enter Street"
                                        name="dc_street"  />
                                 <div class="clearfix"></div>
                             </div>

@@ -375,15 +375,16 @@ a:hover, a:focus {
     border: 1px solid #e9c46a;
     margin-bottom: 15px;
 }
+
 .modal-content {
-    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
-    box-shadow: 0 5px 15px rgba(0,0,0,.2)!important;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2) !important;
 }
+
 .div-process {
     background-color: #ffffff;
     margin-bottom: 77px;
 }
-
 
 /*.div-monthly-plans div:nth-child(odd) {*/
 /*background: #fafafb;*/
@@ -396,7 +397,6 @@ a:hover, a:focus {
 /*padding-top: 5px;*/
 /*padding-bottom: 5px;*/
 /*}*/
-
 
 .price-cal-membership {
     margin-top: 30px;
@@ -435,11 +435,9 @@ a:hover, a:focus {
     display: none;
 }
 
-
 #less-features {
     display: none;
 }
-
 
 #less-features1 {
     display: none;
@@ -594,6 +592,7 @@ a:hover, a:focus {
     font-weight: 900;
     transition: 0.6s;
     color: #929ca5;
+    padding-top: 10px;
 }
 
 .btn-membership-plans-monthly {
@@ -610,7 +609,7 @@ a:hover, a:focus {
     margin-top: 45px
 }
 
-.membership-feature-text-margin{
+.membership-feature-text-margin {
 
     margin-top: 200px;
 }
@@ -646,12 +645,10 @@ a:hover, a:focus {
 /*!*background: #f7f7f7;*!*/
 /*}*/
 
-
 /*.tabs a:hover, active {*/
 /*!*background-color: #e85151;*!*/
 /*color: #ffffff;*/
 /*}*/
-
 
 .btn-membership-plans-monthly.active {
     background-image: none;
@@ -693,7 +690,7 @@ a:hover, a:focus {
     background-color: #ffffff;
 }
 
-.btn-plans-individual-wholeseller>a{
+.btn-plans-individual-wholeseller > a {
     color: #507dbc;
 }
 
@@ -706,9 +703,11 @@ a:hover, a:focus {
     margin: 20px 0 20px 0;
     padding: 10px 20px;
 }
-.btn-plans-seller a{
+
+.btn-plans-seller a {
     color: #ffffff;
 }
+
 .btn-plans-seller:hover {
     background-color: #C83B3B;
     color: white;
@@ -858,7 +857,6 @@ a:hover, a:focus {
 
     margin-top: 81px;
 
-
 }
 
 .div-monthly-plans h5 {
@@ -877,7 +875,7 @@ a:hover, a:focus {
     transition: 0.6s;
 }
 
-.view-feature-text:hover{
+.view-feature-text:hover {
     /*margin:20px 50px;*/
     color: #507dbc;
 }
@@ -892,7 +890,6 @@ a:hover, a:focus {
 }
 
 .div-package-charges {
-
 
     padding: 8px;
 }
@@ -914,10 +911,24 @@ a:hover, a:focus {
 #final-price1 {
     color: #507dbc
 }
+#mobile-view-more-plans, #mobile-view-more-plans1, #mobile-view-more-plans2, #mobile-view-more-plans3, #mobile-view-more-plans4, #mobile-view-more-plans5
+,#mobile-less-features,#mobile-less-features1,
+#mobile-less-features2, #mobile-less-features3, #mobile-less-features4,#mobile-less-features5{
+display: none;
+}
 
 #price-cal-btn-margin {
     padding-top: 20px;
     padding-bottom: 30px;
+}
+
+.courier-mem-plan-img {
+    margin-top: 45px
+}
+
+.div-padding-sp_charges1 {
+    padding-top: 45px ;
+    padding-bottom: 50px ;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -979,7 +990,6 @@ a:hover, a:focus {
         margin-left: 16px;
     }
 
-
     .text-final-price-margin {
         margin-left: 20px;
     }
@@ -1035,11 +1045,9 @@ a:hover, a:focus {
         padding-left: 0px;
     }
 
-
     .div-review1 {
         margin-left: 13px;
     }
-
 
     #Price-cal {
         display: none;
@@ -1077,7 +1085,6 @@ a:hover, a:focus {
         color: #ffffff;
     }
 
-
     /*.btn-price-cal-v-address a:hover {*/
     /*-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);*/
     /*-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);*/
@@ -1089,11 +1096,9 @@ a:hover, a:focus {
         left: 0%;
     }
 
-
     .btn-cal-courier {
         margin-left: 20%
     }
-
 
     #price-cal-btn-margin {
         padding-top: 20px;
@@ -1140,14 +1145,14 @@ a:hover, a:focus {
     }
 
     /*.tabgroup div {*/
-        /*padding: 0px;*/
+    /*padding: 0px;*/
     /*}*/
-
     .view-all-features {
         font-weight: 500;
         margin-top: 49px;
 
     }
+
     .div-backgroud-price-cal1 {
         margin-bottom: 11px;
     }
@@ -1185,8 +1190,13 @@ a:hover, a:focus {
     .div-features-contents h4 {
         margin-left: 10px;
     }
+
     .btn-plans-individual-wholeseller {
         padding: 10px 4px;
+    }
+
+    .courier-mem-plan-img {
+        margin-top: 6px;
     }
 
     /*.div-plan-box div{*/

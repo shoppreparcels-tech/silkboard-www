@@ -1,7 +1,6 @@
-.heading-section {
+.b-heading-section {
     background-color: #11273b;
     text-align: center;
-    padding-bottom: 25px;
     padding-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
@@ -197,7 +196,7 @@ stroes-ul li a:hover{
     font-size: 30px;
 }
 
-.radio-button-blue input[type="checkbox"], .sellers input[type="radio"]{
+.radio-button-blue input[type="checkbox"], #stores-radio input[type="radio"]{
     position: absolute;
     right: 9000px;
 }

@@ -7,7 +7,7 @@
 
 @section('content')
 
-    <section class="heading-section">
+    <section class="b-heading-section">
         <div class="container">
             <div class="row padding-bottom">
                 <center>
@@ -66,7 +66,7 @@
 
 
     <section class="sellers">
-        <div class="container">
+        <div class="container" id="stores-radio">
             <div class="row">
                 <div class="col-md-4 hidden-sm hidden-xs" class="">
                     <form class="browse_form">

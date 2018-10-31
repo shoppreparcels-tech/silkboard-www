@@ -93,7 +93,7 @@
     <!-- End Google Tag Manager -->
 
 </head>
-<body>
+<body class="body">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript>

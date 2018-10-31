@@ -5,6 +5,12 @@
 .body {
     margin: 0;
     font-family: Montserrat !important;
+    /*background-image: url('../../img/images/diwali-box-add.png');*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*!*background-position: 1% 50%;*!*/
+    /*background-position: left;*/
+    /*!*z-index: 99999;*!*/
 
 }
 /*mega menu css*/

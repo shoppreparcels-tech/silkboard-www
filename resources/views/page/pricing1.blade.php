@@ -99,11 +99,6 @@
             border: 1px solid rgba(146, 156, 165, 0.2);
         }
 
-        .div-padding-sp_charges1 {
-            padding-top: 45px !important;
-            padding-bottom: 50px !important;
-        }
-
         .div-backgroud-price-cal {
             background-color: #fafafb;
             padding-top: 5px;
@@ -210,16 +205,16 @@
                                                 <label class="checkbox-inline">
                                                     <input class="radio-pricing header6 p-color-cement-dark"
                                                            type="radio"
-                                                           name="type" value="doc"
-                                                           checked>Document
+                                                           name="type" value="nondoc" checked
+                                                    >Non-Document Package
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label class="checkbox-inline">
                                                     <input class="radio-pricing header6 p-color-cement-dark"
                                                            type="radio"
-                                                           name="type" value="nondoc"
-                                                    >Non-Document Package
+                                                           name="type" value="doc"
+                                                    >Document
                                                 </label>
                                             </div>
                                         </div>
@@ -282,7 +277,7 @@
                                                     <div
                                                         class="col-md-4 col-sm-4 col-xs-4 div-price-cal-length-padding">
                                                         <h6 class="header7 p-color-cement">Length (in cm)</h6>
-                                                        <div class="col-sm-12 no-padding div-price-cal-length">
+                                                        <div class="col-sm-12  div-price-cal-length">
                                                         <span id="aminus"
                                                               class="btn btn-puls-minus dec-value no-padding">-</span>
                                                             <input type="text" class="txt-length" name="length"
@@ -294,7 +289,7 @@
                                                     <div
                                                         class="col-md-4 col-sm-4 col-xs-4 div-price-cal-length-padding">
                                                         <h6 class="header7 p-color-cement">Width (in cm)</h6>
-                                                        <div class="col-sm-12 no-padding div-price-cal-length">
+                                                        <div class="col-sm-12 div-price-cal-length">
                                                     <span id="aminus"
                                                           class="btn btn-puls-minus dec-value no-padding">-</span>
                                                             <input type="text" class="txt-length" name="width"
@@ -306,10 +301,11 @@
                                                     <div
                                                         class="col-md-4 col-sm-4  col-xs-4 div-price-cal-length-padding">
                                                         <h6 class="header7 p-color-cement">Height (in cm)</h6>
-                                                        <div class="col-sm-12 no-padding div-price-cal-length">
+                                                        <div class="col-sm-12  div-price-cal-length">
                                                     <span id="aminus"
                                                           class="btn btn-puls-minus dec-value no-padding">-</span>
-                                                            <input type="text" class="txt-length" value="0">
+                                                            <input type="text" class="txt-length" name="height"
+                                                                   value="0">
                                                             <span id="aplus"
                                                                   class="btn btn-puls-minus inc-value no-padding">+</span>
                                                         </div>
@@ -352,16 +348,16 @@
                                                 <label class="checkbox-inline">
                                                     <input class="radio-pricing header6 p-color-cement-dark"
                                                            type="radio"
-                                                           name="type" value="doc" checked
-                                                    >Documents
+                                                           name="type" value="nondoc" checked
+                                                    >Non-Document Package
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label class="checkbox-inline">
                                                     <input class="radio-pricing header6 p-color-cement-dark"
                                                            type="radio"
-                                                           name="type" value="nondoc"
-                                                    >Non-Document Package
+                                                           name="type" value="doc"
+                                                    >Documents
                                                 </label>
                                             </div>
                                         </div>
@@ -494,8 +490,10 @@
                                     <h6 class="header6 p-color-cement"><span class="p-color-red">*</span> Estimated
                                         Cost
                                         <a
-                                            href="#" class="tooltipkey" title="The shipping cost for your courier is estimated to the maximum accuracy, based on our pricing policies and
-is based upon whichever is greater for your package; either its volumetric weight or the actual weight">
+                                            href="#" class="tooltipkey" title="The shipping cost for your courier is
+                                                 estimated to the maximum accuracy, based on our pricing policies and
+                                                     is based upon whichever is greater for your package;
+                                                 either its volumetric weight or the actual weight">
                                             <i class="fa fa-question-circle-o"></i></a></h6>
                                     <div class="row">
                                         <div class="col-sm-3 col-xs-12 no-padding ">
@@ -632,16 +630,16 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                                 <label class="checkbox-inline">
                                                     <input class="radio-pricing header6 p-color-cement-dark"
                                                            type="radio"
-                                                           name="type" value="doc"
-                                                           checked>Document
+                                                           name="type" value="nondoc" checked
+                                                    >Non-Document Package
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label class="checkbox-inline">
                                                     <input class="radio-pricing header6 p-color-cement-dark"
                                                            type="radio"
-                                                           name="type" value="nondoc"
-                                                    >Non-Document Package
+                                                           name="type" value="doc"
+                                                    >Document
                                                 </label>
                                             </div>
                                         </div>
@@ -704,7 +702,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                                     <div
                                                         class="col-md-4 col-sm-4 col-xs-4 div-price-cal-length-padding">
                                                         <h6 class="header7 p-color-cement">Length (in cm)</h6>
-                                                        <div class="col-sm-12 no-padding div-price-cal-length">
+                                                        <div class="col-sm-12 div-price-cal-length">
                                                         <span id="aminus"
                                                               class="btn btn-puls-minus dec-value no-padding">-</span>
                                                             <input type="text" class="txt-length" name="length"
@@ -714,9 +712,9 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                                         </div>
                                                     </div>
                                                     <div
-                                                        class="col-md-4 col-sm-4 col-xs-4 div-price-cal-length-padding">
+                                                        class="col-md-4 col-sm-4 col-xs-4 no-padding div-price-cal-length-padding">
                                                         <h6 class="header7 p-color-cement">Width (in cm)</h6>
-                                                        <div class="col-sm-12 no-padding div-price-cal-length">
+                                                        <div class="col-sm-12  div-price-cal-length">
                                                     <span id="aminus"
                                                           class="btn btn-puls-minus dec-value no-padding">-</span>
                                                             <input type="text" class="txt-length" name="width"
@@ -728,10 +726,11 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                                     <div
                                                         class="col-md-4 col-sm-4  col-xs-4 div-price-cal-length-padding">
                                                         <h6 class="header7 p-color-cement">Height (in cm)</h6>
-                                                        <div class="col-sm-12 no-padding div-price-cal-length">
+                                                        <div class="col-sm-12 div-price-cal-length">
                                                     <span id="aminus"
                                                           class="btn btn-puls-minus dec-value no-padding">-</span>
-                                                            <input type="text" class="txt-length" value="0">
+                                                            <input type="text" class="txt-length" name="height"
+                                                                   value="0">
                                                             <span id="aplus"
                                                                   class="btn btn-puls-minus inc-value no-padding">+</span>
                                                         </div>
@@ -774,16 +773,16 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                                 <label class="checkbox-inline">
                                                     <input class="radio-pricing header6 p-color-cement-dark"
                                                            type="radio"
-                                                           name="type" value="doc" checked
-                                                    >Documents
+                                                           name="type" value="nondoc" checked
+                                                    >Non-Document Package
                                                 </label>
                                             </div>
                                             <div class="radio">
                                                 <label class="checkbox-inline">
                                                     <input class="radio-pricing header6 p-color-cement-dark"
                                                            type="radio"
-                                                           name="type" value="nondoc"
-                                                    >Non-Document Package
+                                                           name="type" value="doc"
+                                                    >Documents
                                                 </label>
                                             </div>
                                         </div>
@@ -1024,7 +1023,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                 <div class="col-md-4 col-sm-6 col-xs-7 no-padding courier-membership-plans">
                     <center>
                         <div class="courier-membership-plans no-padding">
-                            <img src="{{asset('img/svg/indivdual.svg')}}" alt="" style="margin-top: 45px">
+                            <img src="{{asset('img/svg/indivdual.svg')}}" alt="" class="courier-mem-plan-img">
                             <h6 class="header6 p-mem-plans-box">Individual</h6>
                             <h1 class="header1 p-mem-plans-box membership-text-margin">Free</h1>
                             <h6 class="header6 text-forever" style="margin-bottom: 15px;">FOREVER</h6>
@@ -2605,7 +2604,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                                 <i class="fa fa-question-circle-o"></i></a>
                                         </h6>
                                     </div>
-                                    <div class="no-padding" id="mobile-view-more-plans">
+                                    <div class="no-padding" id="mobile-view-more-plans2">
                                         <div class="div-backgroud-price-cal1">
                                             <h6 class="header6">
                                                 Storage
@@ -2761,9 +2760,9 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                     </div>
                                     <div class="div-backgroud-price-cal1 view-all-features view-more-feature">
                                         {{--<h6 class="header6 ">--}}
-                                        <label class="header6 view-feature-text" for="" id="view-more-feature">View
+                                        <label class="header6 view-feature-text" for="" id="mobile-view-more-feature2">View
                                             All Features</label>
-                                        <label class="header6 view-feature-text" for="" id="less-features">Less
+                                        <label class="header6 view-feature-text" for="" id="mobile-less-features2">Less
                                             Features</label>
                                         {{--</h6>--}}
                                     </div>
@@ -2794,7 +2793,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                             ₹10 Per Photo
                                         </h5>
                                     </div>
-                                    <div class="no-padding" id="view-more-plans2">
+                                    <div class="no-padding" id="mobile-view-more-plans3">
                                         <div class="div-backgroud-price-cal1">
                                             <h5 class="header6">
                                                 Free upto 30 days
@@ -2868,10 +2867,10 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                         </div>
                                     </div>
                                     <div class="div-backgroud-price-cal1 view-more-feature">
-                                        <label class="header6 view-feature-text" for="" id="view-more-feature2">View
+                                        <label class="header6 view-feature-text" for="" id="mobile-view-more-feature3">View
                                             Features
                                         </label>
-                                        <label class="header6 view-feature-text" for="" id="less-features2">Less
+                                        <label class="header6 view-feature-text" for="" id="mobile-less-features3">Less
                                             Features
                                         </label>
                                     </div>
@@ -2943,7 +2942,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                                 <i class="fa fa-question-circle-o"></i></a>
                                         </h6>
                                     </div>
-                                    <div class="no-padding" id="view-more-plans">
+                                    <div class="no-padding" id="mobile-view-more-plans4">
                                         <div class="div-backgroud-price-cal1">
                                             <h6 class="header6">
                                                 Storage
@@ -3099,9 +3098,9 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                     </div>
                                     <div class="div-backgroud-price-cal1 view-all-features view-more-feature">
                                         {{--<h6 class="header6 ">--}}
-                                        <label class="header6 view-feature-text" for="" id="view-more-feature">View
+                                        <label class="header6 view-feature-text" for="" id="mobile-view-more-feature4">View
                                             All Features</label>
-                                        <label class="header6 view-feature-text" for="" id="less-features">Less
+                                        <label class="header6 view-feature-text" for="" id="mobile-less-features4">Less
                                             Features</label>
                                         {{--</h6>--}}
                                     </div>
@@ -3133,7 +3132,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                             Free
                                         </h5>
                                     </div>
-                                    <div class="no-padding" id="view-more-plans3">
+                                    <div class="no-padding" id="mobile-view-more-plans5">
                                         <div class="div-backgroud-price-cal1">
                                             <h5 class="header6">
                                                 Free upto 30 days
@@ -3208,9 +3207,9 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                         </div>
                                     </div>
                                     <div class="div-backgroud-price-cal1 view-more-feature">
-                                        <label class="header6 view-feature-text" for="" id="view-more-feature3">View
+                                        <label class="header6 view-feature-text" for="" id="mobile-view-more-feature5">View
                                             Features</label>
-                                        <label class="header6 view-feature-text" for="" id="less-features3">Less
+                                        <label class="header6 view-feature-text" for="" id="mobile-less-features5">Less
                                             Features</label>
                                     </div>
 
@@ -3524,6 +3523,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                             scale: box_scale
                         },
                         success: function (res) {
+                            console.log(res);
                             $("#calc_load").hide();
 
                             if (res.error == "1") {
