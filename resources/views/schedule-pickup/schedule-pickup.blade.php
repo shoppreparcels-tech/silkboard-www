@@ -141,7 +141,7 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label>Street <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Plaese Enter Street"
+                                <input type="text" class="form-control" placeholder="Please Enter Street"
                                        name="pc_street"  />
                                 <div class="clearfix"></div>
                             </div>

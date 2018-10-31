@@ -197,7 +197,10 @@
                                 for each country as well while you're at it!">
                                                         <i class="fa fa-question-circle-o"></i>
                                                     </a>
-                                                    Country Guide <a href="https://www.shoppre.com/offers/flames-shopping-season-sale-india-shipping-offer/" target="_blank"><span class="header7 p-color-red price-cal-country">Offers</span></a>
+                                                    Country Guide <a
+                                                        href="https://www.shoppre.com/offers/flames-shopping-season-sale-india-shipping-offer/"
+                                                        target="_blank"><span
+                                                            class="header7 p-color-red price-cal-country">Offers</span></a>
                                                 </p>
 
                                             </div>
@@ -395,14 +398,14 @@
                                         </div>
                                         <div class="row" style="margin-top: 8px;">
                                             <label class="col-sm-12 control-label">Your E-mail Address</label>
-                                            <div class="col-sm-12 no-padding">
+                                            <div class="col-sm-10 no-padding">
                                                 <input type="text" class="form-control" name="email"
                                                        placeholder="Enter a valid E-mail Id">
                                             </div>
                                         </div>
                                         <div class="row" style="margin-top: 8px;">
                                             <label class="col-sm-12 control-label">Contact Number</label>
-                                            <div class="col-sm-12 no-padding">
+                                            <div class="col-sm-10 no-padding">
                                                 <input type="text" class="form-control" name="mobile"
                                                        placeholder="Enter a valid phone Number">
                                             </div>
@@ -457,7 +460,6 @@
 
                             </div>
 
-
                         </div>
 
                     </div>
@@ -476,40 +478,10 @@
                                     <div class="modal-body">
                                         <img src="{{asset('/img/vol_calc.png')}}" style="width: 100%;" alt="">
                                     </div>
-                                    {{--<div class="modal-footer">--}}
-                                    {{--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>--}}
-                                    {{--</div>--}}
-                                </div>
-                                </div>
-                            </div>
-                            <div class="div-estimat-amount-devider"></div>
-                            <div class="row">
-                                <div class="col-sm-12 col-md-12" style="margin-top: 20px;">
-                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">**</span>
-                                        Pickup charges 100 </p>
-                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
-                                        The
-                                        rates displayed are INCLUSIVE of the fuel surcharge and taxes within</p>
-                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
-                                        For
-                                        electronics items , INR 500 will be charged additionally.</p>
-                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
-                                        Excludes oversized and palletized shipments, and special products (liquids,
-                                        homemade food, etc.)</p>
-                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">**</span>
-                                        After
-                                        dispatch from Shoppre facility. Does not apply to ship requests made after
-                                        3pm
-                                        IST on Saturdays, or on holidays. Shipments that may require additional time
-                                        include those containing items under review or hazardous materials,
-                                        oversized
-                                        packages or where additional export documentation is required.</p>
-
-                                    <p class="header8" style="color: #929ca5;">The
-                                        courier will be chosen according to your destination
-                                        & the weight of the shipment. We're teamed up with the most trusted couriers
-                                        such as
-                                        DHL & DTDC.</p>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -647,7 +619,10 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                 for each country as well while you're at it!">
                                                         <i class="fa fa-question-circle-o"></i>
                                                     </a>
-                                                    Country Guide <span class="header7 p-color-red price-cal-country">Offers(3)</span>
+                                                    Country Guide <a
+                                                        href="https://www.shoppre.com/offers/flames-shopping-season-sale-india-shipping-offer/"
+                                                        target="_blank"><span
+                                                            class="header7 p-color-red price-cal-country">Offers</span></a>
                                                 </p>
 
                                             </div>
@@ -845,14 +820,14 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                         </div>
                                         <div class="row" style="margin-top: 8px;">
                                             <label class="col-sm-12 control-label">Your E-mail Address</label>
-                                            <div class="col-sm-12 no-padding">
+                                            <div class="col-sm-10 no-padding">
                                                 <input type="text" class="form-control" name="email"
                                                        placeholder="Enter a valid E-mail Id">
                                             </div>
                                         </div>
                                         <div class="row" style="margin-top: 8px;">
                                             <label class="col-sm-12 control-label">Contact Number</label>
-                                            <div class="col-sm-12 no-padding">
+                                            <div class="col-sm-10 no-padding">
                                                 <input type="text" class="form-control" name="mobile"
                                                        placeholder="Enter a valid phone Number">
                                             </div>
@@ -881,21 +856,32 @@ is based upon whichever is greater for your package; either its volumetric weigh
                     </div>
                     <div class="col-md-5 col-sm-12" id="Price-cal">
                         <div class="div-volumetric-weight-img">
-                            <p class="header6">
-                                <a href="#" class="tooltipkey" title="The shipping cost for your courier is estimated based on whichever is greater for your package;
+                            <div class="row">
+                                <p class="header6" data-toggle="modal" data-target="#myModal-calculate">
+                                    <a href="#" class="tooltipkey" title="The shipping cost for your courier is estimated based on whichever is greater for your package;
                                             either its volumetric weight or the actual weight. Here is how we can calculate the volumetric weight of your package.">
-                                    <i class="fa fa-question-circle-o"></i>
-                                </a>
-                                How to calculate volumetric weight</p>
-                            <p class="header7 p-color-cement">Centimeter/Inch Conversion</p>
-                            <h4 class="header6 p-color-cement-dark">1 in =2.54 cm (1 cm=03937
-                                in) </h4>
-                            <p class="header7 p-color-cement">Kilogram/Pound Conversion</p>
-                            <h4 class="header6 p-color-cement-dark">1 in =2.54 cm (1 cm=03937
-                                in) </h4>
+                                        <i class="fa fa-question-circle-o"></i>
+                                    </a>
+                                    How to calculate volumetric weight</p>
 
-                            <h6 class="header7">Courier Sample:</h6>
-                            <img src="{{asset('img/images/parcelsample.png')}}" alt="">
+                                <p class="header7 p-color-cement">Centimeter to Inch Conversion</p>
+                                <h4 class="header6 p-color-cement-dark">1 in = 2.54 cm (1 cm = 03937
+                                    in) </h4>
+                                <p class="header7 p-color-cement">Kilogram to Pound Conversion</p>
+                                <h4 class="header6 p-color-cement-dark">1 lbs = 0.4536 Kg (1 Kg = 2.2046 lbs) </h4>
+
+                                <h6 class="header7">Courier Sample:</h6>
+                                <img src="{{asset('img/images/parcelsample.png')}}" alt="">
+                            </div>
+                            <div class="row">
+                                <br>
+                                <br>
+                                <a href="#" data-toggle="modal" data-target="#myModal-calculate">Learn how to
+                                    calculate</a>
+                                {{--<button type="button" class="btn btn-info btn-lg" style="margin-left: -40px;" data-toggle="modal" data-target="#myModal-calculate">Learn how to calculate</button>--}}
+
+                            </div>
+
                         </div>
                     </div>
                     <div class="col-md-12 col-sm-12 no-padding"
@@ -1038,10 +1024,10 @@ is based upon whichever is greater for your package; either its volumetric weigh
                 <div class="col-md-4 col-sm-6 col-xs-7 no-padding courier-membership-plans">
                     <center>
                         <div class="courier-membership-plans no-padding">
-                            <img src="{{asset('img/svg/indivdual.svg')}}" alt="">
+                            <img src="{{asset('img/svg/indivdual.svg')}}" alt="" style="margin-top: 45px">
                             <h6 class="header6 p-mem-plans-box">Individual</h6>
                             <h1 class="header1 p-mem-plans-box membership-text-margin">Free</h1>
-                            <h6 class="header6 text-forever" style="margin-bottom: 60px;">FOREVER</h6>
+                            <h6 class="header6 text-forever" style="margin-bottom: 15px;">FOREVER</h6>
                         </div>
 
 
@@ -1102,7 +1088,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                     </div>
 
                                     <div class="p-service-tax div-backgroud-price-cal1">
-                                        <h5 class="header6 ">
+                                        <h6 class="header6 ">
                                             GST (Service Tax)
                                             <a href="#" class="tooltipkey"
                                                title="You do not have to pay any extra Sales Tax in India.
@@ -1112,7 +1098,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                                    time of receving your package."><i
                                                     class="fa fa-question-circle-o"></i>
                                             </a>
-                                        </h5>
+                                        </h6>
                                     </div>
                                     <div class="no-padding div-backgroud-price-cal">
                                         <h6 class="header6">
@@ -1667,7 +1653,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                     </div>
 
                                     <div class="p-service-tax div-backgroud-price-cal1">
-                                        <h5 class="header6 ">
+                                        <h6 class="header6 ">
                                             GST (Service Tax)
                                             <a href="#" class="tooltipkey"
                                                title="You do not have to pay any extra Sales Tax in India.
@@ -1677,7 +1663,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                                    time of receving your package."><i
                                                     class="fa fa-question-circle-o"></i>
                                             </a>
-                                        </h5>
+                                        </h6>
                                     </div>
                                     <div class="no-padding div-backgroud-price-cal">
                                         <h6 class="header6">
@@ -2231,7 +2217,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                     </div>
 
                                     <div class="p-service-tax div-backgroud-price-cal1">
-                                        <h5 class="header6 ">
+                                        <h6 class="header6 ">
                                             GST (Service Tax)
                                             <a href="#" class="tooltipkey"
                                                title="You do not have to pay any extra Sales Tax in India.
@@ -2241,7 +2227,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                                    time of receving your package."><i
                                                     class="fa fa-question-circle-o"></i>
                                             </a>
-                                        </h5>
+                                        </h6>
                                     </div>
                                     <div class="no-padding div-backgroud-price-cal">
                                         <h6 class="header6">
@@ -2282,7 +2268,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                                 <i class="fa fa-question-circle-o"></i></a>
                                         </h6>
                                     </div>
-                                    <div class="no-padding" id="view-more-plans">
+                                    <div class="no-padding" id="mobile-view-more-plans">
                                         <div class="div-backgroud-price-cal1">
                                             <h6 class="header6">
                                                 Storage
@@ -2438,15 +2424,13 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                     </div>
                                     <div class="div-backgroud-price-cal1 view-all-features view-more-feature">
                                         {{--<h6 class="header6 ">--}}
-                                        <label class="header6 view-feature-text" for="" id="view-more-feature">View
+                                        <label class="header6 view-feature-text" for="" id="mobile-view-more-feature">View
                                             All Features</label>
-                                        <label class="header6 view-feature-text" for="" id="less-features">Less
+                                        <label class="header6 view-feature-text" for="" id="mobile-less-features">Less
                                             Features</label>
                                         {{--</h6>--}}
                                     </div>
-
                                 </center>
-
                             </div>
                             <div class="col-xs-7 no-padding div-monthly-plans div-plan-box">
                                 <center>
@@ -2460,7 +2444,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                             No Extra Charge</h5>
                                     </div>
 
-                                    <div class="div-backgroud-price-cal div-package-charges">
+                                    <div class="div-backgroud-price-cal div-package-charges" style="padding-top: 13px;padding-bottom: 13px;">
                                         <h5 class="header6 ">
                                             ₹100 Per Package</h5>
                                     </div>
@@ -2472,7 +2456,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                         <h5 class="header6 ">
                                             ₹50 Per Photo</h5>
                                     </div>
-                                    <div class="no-padding" id="view-more-plans1">
+                                    <div class="no-padding" id="mobile-view-more-plans1">
                                         <div class="div-backgroud-price-cal1">
                                             <h5 class="header6">
                                                 Free upto 20 days
@@ -2545,19 +2529,19 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                         </div>
                                     </div>
                                     <div class="div-backgroud-price-cal1 view-more-feature">
-                                        {{--<h7 class="header6 view-feature-text">--}}
-                                        <label class="header6 view-feature-text" for="" id="view-more-feature1">View
-                                            Features</label>
-                                        <label class="header6 view-feature-text" for="" id="less-features1">Less
-                                            Features</label>
-                                        {{--</h7>--}}
+                                        <label class="header6 view-feature-text" for="" id="mobile-view-more-feature1">View
+                                            Features
+                                        </label>
+                                        <label class="header6 view-feature-text" for="" id="mobile-less-features1">Less
+                                            Features
+                                        </label>
                                     </div>
 
                                     <div class=" btn-plans-individual-wholeseller">
-                                        <a href="https://myaccount.shoppre.com/register">Get a Free Address</a>
+                                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">Get a Free
+                                            Address</a>
                                     </div>
-                                    {{--<button type="submit" class=" btn-plans-individual-wholeseller">Get a Free Address--}}
-                                    {{--</button>--}}
+
                                 </center>
 
                             </div>
@@ -2570,7 +2554,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                     </div>
 
                                     <div class="p-service-tax div-backgroud-price-cal1">
-                                        <h5 class="header6 ">
+                                        <h6 class="header6 ">
                                             GST (Service Tax)
                                             <a href="#" class="tooltipkey"
                                                title="You do not have to pay any extra Sales Tax in India.
@@ -2580,7 +2564,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                                    time of receving your package."><i
                                                     class="fa fa-question-circle-o"></i>
                                             </a>
-                                        </h5>
+                                        </h6>
                                     </div>
                                     <div class="no-padding div-backgroud-price-cal">
                                         <h6 class="header6">
@@ -2621,7 +2605,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                                 <i class="fa fa-question-circle-o"></i></a>
                                         </h6>
                                     </div>
-                                    <div class="no-padding" id="view-more-plans">
+                                    <div class="no-padding" id="mobile-view-more-plans">
                                         <div class="div-backgroud-price-cal1">
                                             <h6 class="header6">
                                                 Storage
@@ -2797,7 +2781,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                     <div class="div-backgroud-price-cal1 text-nochange-margin">
                                         <h5 class="header6">No Extra Charge</h5>
                                     </div>
-                                    <div class="div-backgroud-price-cal div-package-charges">
+                                    <div class="div-backgroud-price-cal div-package-charges" style="padding-top: 13px;padding-bottom: 13px;">
                                         <h5 class="header6 ">
                                             ₹50 Per Package</h5>
                                     </div>
@@ -2884,15 +2868,18 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                         </div>
                                     </div>
                                     <div class="div-backgroud-price-cal1 view-more-feature">
-                                        {{--<h7 class="header6 view-feature-text">--}}
                                         <label class="header6 view-feature-text" for="" id="view-more-feature2">View
-                                            Features</label>
+                                            Features
+                                        </label>
                                         <label class="header6 view-feature-text" for="" id="less-features2">Less
-                                            Features</label>
-                                        {{--</h7>--}}
+                                            Features
+                                        </label>
                                     </div>
-
-                                    <button class="btn btn-plans-seller">Request Callback</button>
+                                    <div class="btn btn-plans-seller">
+                                        <a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32">
+                                            Request Callback
+                                        </a>
+                                    </div>
                                 </center>
 
                             </div>
@@ -2905,7 +2892,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                     </div>
 
                                     <div class="p-service-tax div-backgroud-price-cal1">
-                                        <h5 class="header6 ">
+                                        <h6 class="header6 ">
                                             GST (Service Tax)
                                             <a href="#" class="tooltipkey"
                                                title="You do not have to pay any extra Sales Tax in India.
@@ -2915,7 +2902,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                                    time of receving your package."><i
                                                     class="fa fa-question-circle-o"></i>
                                             </a>
-                                        </h5>
+                                        </h6>
                                     </div>
                                     <div class="no-padding div-backgroud-price-cal">
                                         <h6 class="header6">
@@ -3132,7 +3119,7 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                     <div class="div-backgroud-price-cal1 text-nochange-margin">
                                         <h5 class="header6 ">No Extra Charge</h5>
                                     </div>
-                                    <div class="div-backgroud-price-cal div-package-charges">
+                                    <div class="div-backgroud-price-cal div-package-charges" style="padding-top: 13px;padding-bottom: 13px;">
                                         <h5 class="header6">
                                             ₹10 Per Package</h5>
                                     </div>
@@ -3227,13 +3214,10 @@ is based upon whichever is greater for your package; either its volumetric weigh
                                             Features</label>
                                     </div>
 
-                                    {{--</div>--}}
-                                    {{--<div class=" btn-plans-individual-wholeseller">--}}
-                                    {{--<a href="https://myaccount.shoppre.com/register"--}}
-                                    {{--style="color: #507dbc;">Request Callback</a>--}}
-                                    {{--</div>--}}
-                                    <button type="submit" class="btn-plans-individual-wholeseller">Request Callback
-                                    </button>
+
+                                    <div class=" btn-plans-individual-wholeseller">
+                                        <a href="https://goo.gl/forms/vVviixAScNRIkegF3">Request Callback</a>
+                                    </div>
                                 </center>
 
                             </div>

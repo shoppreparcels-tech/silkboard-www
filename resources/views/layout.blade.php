@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="{{asset('css/ifs.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
     <link rel="stylesheet" href="{{asset('css/offers.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
     <link rel="stylesheet" href="{{asset('css/diwali.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
+    <link rel="stylesheet" href="{{asset('css/stores-new.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
 
     @yield('css_style')
 
@@ -657,6 +658,39 @@
     });
 </script>
 
+<script>
+    $(document).ready(function () {
+        $("#subscribe").validate({
+            rules:
+                {
+                    email: {required: true}
+                },
+            messages:
+                {
+                    // email: {required: 'Please enter your email id'}
+                },
+            submitHandler: function (form) {
+                debugger;
+                var email = $("input[name='email']").val();
+                var token = $('input[name=_token]').val();
+                jQuery.ajax({
+                    url: 'api/subscribe',
+                    type: "POST",
+                    data: {
+                        _token: token,
+                        email: email,
+                    },
+                    success: function (data) {
+                        console.log(data);
+                        $('#myModal').modal('show');
+                        $('.txt-subscription').val('');
+                    }
+                })
+            }
+        });
+
+    });
+</script>
 <script>
     $(document).ready(function () {
         $("#subscribe").validate({

@@ -112,7 +112,7 @@
                            type="text"
                            class="form-control input-lg  search-bar-input"
                            name="faq"
-                           placeholder="Can't find your answer? Search Shoppre"
+                           placeholder="Can't find your answer? Search ShoppRe"
                            ng-model="Faq.model"
                            uib-typeahead="faq.question for faq in Faqs.get($viewValue)"
                            typeahead-loading="Faqs.loadingFaqs"
@@ -181,7 +181,8 @@
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
                         </i>Live Chat</p>
-                        <a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#" class="header2 p-color-white">Chat Now</a>
+                        {{--<a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#" class="header2 p-color-white">Chat Now</a>--}}
+                        <a href="http://v2.zopim.com/widget/livechat.html?key=WMWUM4as7ltiMKHbRXiFRw3imdMiLtAV" target="_blank" class="header2 p-color-white">Chat Now</a>
 
                 </div>
             </div>

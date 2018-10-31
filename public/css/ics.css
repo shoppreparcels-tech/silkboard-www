@@ -815,7 +815,7 @@ a:hover, a:focus {
     background-color: #507dbc;
     margin-top: 28px;
     color: #ffffff;
-    padding-top: .1%
+    padding-top: 15px;
 
 }
 
@@ -878,7 +878,7 @@ a:hover, a:focus {
 }
 
 .view-feature-text:hover{
-    margin:20px 30px;
+    /*margin:20px 50px;*/
     color: #507dbc;
 }
 
@@ -1132,21 +1132,24 @@ a:hover, a:focus {
     }
 
     .btn-plans-individual-wholeseller {
-        width: 142px;
+        width: 162px;
     }
 
     .btn-plans-seller {
         width: 142px;
     }
 
-    .tabgroup div {
-        padding: 0px;
-    }
+    /*.tabgroup div {*/
+        /*padding: 0px;*/
+    /*}*/
 
     .view-all-features {
         font-weight: 500;
-        margin-top: 0px;
-        margin-bottom: 50px;
+        margin-top: 49px;
+
+    }
+    .div-backgroud-price-cal1 {
+        margin-bottom: 11px;
     }
 
     .div-monthly-plans img {
@@ -1162,7 +1165,7 @@ a:hover, a:focus {
     }
 
     .text-nochange-margin {
-        margin-top: 0px;
+        margin-top: -7px;
     }
 
     .btn-plans-seller {
@@ -1181,6 +1184,9 @@ a:hover, a:focus {
 
     .div-features-contents h4 {
         margin-left: 10px;
+    }
+    .btn-plans-individual-wholeseller {
+        padding: 10px 4px;
     }
 
     /*.div-plan-box div{*/
@@ -1214,7 +1220,11 @@ a:hover, a:focus {
 }
 
 @media only screen and (max-width: 375px) {
+    .view-all-features {
+        font-weight: 500;
+        margin-top: 49px;
 
+    }
 }
 
 @media only screen and (max-width: 360px) {

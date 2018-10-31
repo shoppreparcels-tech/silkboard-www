@@ -269,7 +269,7 @@
         <div class="container">
             <center>
                 <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">
-                    <div class=" btn header4 p-color-white btn-ifs-free-v-a">
+                    <div class=" btn header6 p-color-white btn-ifs-free-v-a">
                         <center>
                             Get a Free Virtual Address
                         </center>
@@ -330,7 +330,7 @@
                 <div class="row">
                     <center>
                         <a href="https://myaccount.shoppre.com/personal-shopper">
-                            <div class="btn btn-get-assisted p-color-white">
+                            <div class="btn header6 btn-get-assisted p-color-white">
                                 Ask For Assistance
                             </div>
                         </a>
@@ -934,10 +934,11 @@
                 <div class="col-md-12">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank">
-                            <div class="btn-request-cal-back">
+                            <div class="btn-request-cal-back header6">
                                 <center>
-                                    <h2 class="header6">Request Callback</h2>
+                                    Request Callback
                                 </center>
+
                             </div>
                         </a>
                     </div>

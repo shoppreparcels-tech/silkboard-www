@@ -4,36 +4,102 @@ body {
     margin: 0;
     padding: 0;
 }
+/*.header1{*/
+    /*font-size: 36px;*/
+    /*font-weight: 700;*/
+    /*letter-spacing: 1.8px;*/
+/*}*/
+
+/*.header2{*/
+    /*font-size: 24px;*/
+    /*font-weight: 400;*/
+    /*!*letter-spacing: 1.8px;*!*/
+/*}*/
+
+/*.header3{*/
+    /*font-size: 22px;*/
+    /*font-weight: 700;*/
+    /*!*letter-spacing: 1.8px;*!*/
+/*}*/
+
+/*.header4{*/
+    /*font-size: 20px;*/
+    /*font-weight: 700;*/
+/*}*/
+/*.header5{*/
+    /*font-size: 18px;*/
+    /*font-weight: 700;*/
+/*}*/
+/*.header6{*/
+    /*font-size: 16px;*/
+    /*font-weight: 700;*/
+/*}*/
+/*.header7{*/
+    /*font-size: 14px;*/
+    /*font-weight: 700;*/
+/*}*/
+/*.header8{*/
+    /*font-size: 12px;*/
+    /*font-weight: 700;*/
+/*}*/
+/*.no-padding{*/
+    /*padding-left: 0;*/
+    /*padding-right: 0;*/
+/*}*/
+
+
+/*.p-color-white{*/
+    /*color: #ffffff;*/
+/*}*/
+
+/*.p-color-cement{*/
+    /*color:  #677582;*/
+/*}*/
+
+/*.p-color-cement-dark{*/
+    /*color:#11273b ;*/
+/*}*/
+
+/*.p-color-red{*/
+    /*color:  #929ca5;*/
+/*}*/
+
 
 .bg-diwali-landing-page {
     background-image: url("../../img/images/overlay1.png");
     /*height: 100%;*/
     height: 1000px;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #fafafb;
+    padding-top: 60px;
+
+
+
 }
 
 /*.btn {*/
-    /*display: inline-block;*/
-    /*padding: 6px 50px;*/
-    /*margin-bottom: 0;*/
-    /*font-size: 12pt;*/
-    /*font-weight: normal;*/
-    /*line-height: 1.42857143;*/
-    /*text-align: center;*/
-    /*white-space: nowrap;*/
-    /*vertical-align: middle;*/
-    /*-ms-touch-action: manipulation;*/
-    /*touch-action: manipulation;*/
-    /*cursor: pointer;*/
-    /*-webkit-user-select: none;*/
-    /*-moz-user-select: none;*/
-    /*-ms-user-select: none;*/
-    /*user-select: none;*/
-    /*background-image: none;*/
-    /*border: 1px solid transparent;*/
-    /*border-radius: 70px;*/
+/*display: inline-block;*/
+/*padding: 6px 50px;*/
+/*margin-bottom: 0;*/
+/*font-size: 12pt;*/
+/*font-weight: normal;*/
+/*line-height: 1.42857143;*/
+/*text-align: center;*/
+/*white-space: nowrap;*/
+/*vertical-align: middle;*/
+/*-ms-touch-action: manipulation;*/
+/*touch-action: manipulation;*/
+/*cursor: pointer;*/
+/*-webkit-user-select: none;*/
+/*-moz-user-select: none;*/
+/*-ms-user-select: none;*/
+/*user-select: none;*/
+/*background-image: none;*/
+/*border: 1px solid transparent;*/
+/*border-radius: 70px;*/
 /*}*/
 
 /*.btn:focus,*/
@@ -42,46 +108,62 @@ body {
 /*.btn.focus,*/
 /*.btn:active.focus,*/
 /*.btn.active.focus {*/
-    /*outline: thin dotted;*/
+/*outline: thin dotted;*/
 
-    /*outline: 5px auto -webkit-focus-ring-color;*/
-    /*outline-offset: -2px;*/
+/*outline: 5px auto -webkit-focus-ring-color;*/
+/*outline-offset: -2px;*/
 /*}*/
 
 /*.btn:hover,*/
 /*.btn:focus,*/
 /*.btn.focus {*/
-    /*color: #ffd800;*/
-    /*text-decoration: none;*/
+/*color: #ffd800;*/
+/*text-decoration: none;*/
 /*}*/
 
 /*.btn:active,*/
 /*.btn.active {*/
-    /*background-image: none;*/
-    /*outline: 0;*/
-    /*-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);*/
-    /*box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);*/
+/*background-image: none;*/
+/*outline: 0;*/
+/*-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);*/
+/*box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);*/
 /*}*/
 
 /*.btn.disabled,*/
 /*.btn[disabled],*/
 /*fieldset[disabled] .btn {*/
-    /*cursor: not-allowed;*/
-    /*filter: alpha(opacity=65);*/
-    /*-webkit-box-shadow: none;*/
-    /*box-shadow: none;*/
-    /*opacity: .65;*/
+/*cursor: not-allowed;*/
+/*filter: alpha(opacity=65);*/
+/*-webkit-box-shadow: none;*/
+/*box-shadow: none;*/
+/*opacity: .65;*/
 /*}*/
-/*!**/
 
-/*.btn-shoppre {*/
-    /*width: 210px;*/
-    /*height: 50px;*/
-    /*box-shadow: 0 5px 15px rgba(232, 81, 81, 0.3);*/
-    /*border-radius: 60px !important;*/
-    /*background-image: radial-gradient(undefined undefinedpx at, #ffa661 0%, #e85151 100%);*/
-    /*color: #fff;*/
-/*}*/
+.btn-d-activate-coupon {
+    width: 210px;
+    height: 50px;
+    font-weight: 600;
+    background: #fe9611;
+    font-size: 14px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 15px rgba(232, 81, 81, 0.3);
+    border-radius: 60px !important;
+    background-image: radial-gradient(undefined undefinedpx at , #ffa661 0%, #e85151 100%);
+}
+
+.btn-d-signup {
+    width: 210px;
+    height: 50px;
+    background: #fe9611;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px 20px;
+    box-shadow: 0 5px 15px rgba(232, 81, 81, 0.3);
+    border-radius: 60px !important;
+    background-image: radial-gradient(undefined undefinedpx at , #ffa661 0%, #e85151 100%);
+}
 
 .contactTop {
     width: 196px;
@@ -90,7 +172,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 500;
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;*/
     line-height: 20px;
 }
 
@@ -101,6 +183,7 @@ body {
 .shoppingKart {
     height: 50px;
     padding: 8px 0px;
+    width: 100%;
     /*border: 1px solid #f1f1f1;*/
     /*background-color: #ffffff;*/
 }
@@ -221,7 +304,7 @@ body {
 }
 
 .rowdetails {
-    height: 80px;
+    /*height: 80px;*/
     border-radius: 15px 15px 0 0;
     background-color: #fafafb;
     padding: 30px 0;
@@ -251,7 +334,9 @@ body {
     border-radius: 15px;
     background-color: #ffffff;
     /*padding: 10px;*/
-    margin-top: -400px;
+    margin-top: -360px;
+    padding-left: 0px;
+    padding-right: 0px
 }
 
 .saveupto {
@@ -342,4 +427,186 @@ body {
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
+}
+
+.diwali-stores {
+    box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.d-stores-box {
+    width: 164px;
+    height: 60px;
+    border: 1px solid #f1f1f1;
+    background-color: #ffffff;
+    display: table;
+}
+
+.d-online-stores {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.d-contact-div {
+    width: 220px;
+    height: 50px;
+    border-radius: 40px 40px 0;
+    padding: 10px;
+    border: 2px solid #fdf699;
+}
+
+.d-contact-div img {
+    height: 30px;
+    width: 30px;
+}
+#d-contcat a:hover{
+    color: #ffffff;
+}
+.contact-support a{
+    color: #ffffff;
+}
+.header-spacing{
+    letter-spacing: 2.75px;
+}
+.p-color-yellow{
+    color: #fdf699
+}
+.header-landing-page{
+    font-size: 55px;
+    font-weight: 900;
+}
+.div-diwali-coupon{
+    border:2px #fdf699;border-style: dashed;border-radius: 5px;
+}
+.div-diwali-coupon:nth-child(2) {
+    padding-top: 11px;
+}
+.coupan-code{
+    font-size: 55px;color: #fdf699;font-weight: 900; padding-left: 25px;
+}
+.diwali-img{
+    width: 100%;
+    margin-left: 15px;
+}
+.offer-description{
+    padding: 50px;
+}
+.offer-description h4,h5,p{
+    font-weight: 600;
+}
+.text-center h1{
+    font-weight: 900;
+
+}
+.d-contact-img-desktop {
+    display: block;
+}
+.d-contact-img {
+    display: none;
+}
+
+.diwali-offer-img{
+    margin-left: 10px;
+}
+
+.d-contact-section-desktop{
+    background-color: #507dbc;padding-top: 3em;padding-bottom: 3em ;margin-bottom: -11px;
+}
+.d-contact-details-section {
+   display: none;
+    background-color: #507dbc;
+    margin-bottom: -10px;
+}
+#diwali-couponcode2{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .shopContainer {
+
+        margin-top:-200px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .diwali-form-img{
+        /*padding-top: 50px;*/
+    }
+    .bg-diwali-landing-page {
+        height: 1100px;
+        width: 100%;
+    }
+    .header-landing-page {
+        font-size: 32px;
+    }
+
+    .header-spacing {
+        letter-spacing: -0.25px;
+    }
+    .d-contact-img {
+        display: block;
+    }
+    .d-contact-img-desktop {
+        display: none;
+    }
+    .coupan-code {
+        font-size: 34px
+    }
+    .div-diwali-coupon {
+        margin-bottom: 40px;
+    }
+    .d-stores-box {
+        width: 110px;
+        height: 66px;
+    }
+    .startsvalid{
+        margin-bottom: 20px;
+    }
+    .d-contact-details-section{
+        display: block;
+    }
+    .d-contact-section-desktop{
+        display: none;
+    }
+    .offer-description {
+        padding: 30px;
+    }
+    .diwali-offer-img{
+        margin-left: 5px;
+    }
+
+}
+@media only screen and (min-width: 375px) {
+    .shopContainer {
+        margin-top: -130px;
+    }
+    .d-stores-box {
+        width: 110px;
+        height: 66px;
+    }
+    .diwali-offer-img {
+        margin-left: 1px;
+    }
+    .diwali-form-img {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    .shopContainer {
+        margin-top: -130px;
+    }
+    /*.d-stores-box {*/
+        /*width: 90px;*/
+        /*height: 66px;*/
+    /*}*/
+    .diwali-offer-img {
+        margin-left: 1px;
+    }
+    .diwali-form-img {
+        padding-right: 0;
+        padding-left: 0;
+    }
 }

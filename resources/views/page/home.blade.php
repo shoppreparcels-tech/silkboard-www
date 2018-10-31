@@ -856,7 +856,7 @@
                                 <img class=" img-review img-circle" src="{{asset('img/svg/034-woman-8.svg')}}">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Still Syma</p>
 
-                                <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;USA</p>
+                                <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USA</p>
 
                                 <img class="img-stars" src="{{asset('img/svg/stars.svg')}}">
                                 {{-- id="stars"--}}

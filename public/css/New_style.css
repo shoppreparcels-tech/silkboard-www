@@ -573,6 +573,11 @@ header::after {
 
 }
 
+.p-color-blue {
+    color: #507dbc;
+
+}
+
 .div-shop-ship {
     background-color: #e85151;
 
@@ -2118,7 +2123,7 @@ a#prev:hover, a#next:hover {
 }
 
 .contact-details {
-    padding-top: 5em;
+    padding-top: 3em;
 }
 
 .contact-details p, .contact-details i {

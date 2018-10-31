@@ -36,6 +36,32 @@ class PageController extends Controller
     {
         return view('page.diwali-landing');
     }
+    public function storeNew()
+
+    {$categories = StoreCategory::orderBy('category', 'asc')->get();
+        $webs = StoreCatClub::where('category_id', 1)
+            ->where('type', 'web')
+            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
+            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
+            ->get();
+        $fbs = StoreCatClub::where('category_id', 1)
+            ->where('type', 'fb')
+            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
+            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
+            ->get();
+        $feats = StoreCatClub::where('category_id', 1)
+            ->where('featured', 1)
+            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
+            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
+            ->get();
+
+        if (Auth::check()) {
+            $favs = FavoriteStore::where('custid', Auth::id())->pluck('clubid')->toArray();
+            return view('page.stores-new')->with(['categories' => $categories, 'webs' => $webs, 'fbs' => $fbs, 'feats' => $feats, 'favs' => $favs]);
+        }
+
+        return view('page.stores-new')->with(['categories' => $categories, 'webs' => $webs, 'fbs' => $fbs, 'feats' => $feats]);
+    }
     public function ifsIndex()
     {
         return view('page.ifs');
@@ -108,6 +134,53 @@ class PageController extends Controller
             ]);
         }
     }
+
+    public function diwaliCoupon(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
+        $list_id = '458f84e53e';
+        $auth = base64_encode('user:' . $apikey);
+        $email = $req->email;
+        $name = $req->name;
+        $contact = $req->contact_no;
+        $data = array(
+            'apikey' => $apikey,
+            'email_address' => $email,
+            'status' => 'subscribed',
+            'merge_fields' => array(
+                'FNAME' => $name,
+                'LNAME' => '',
+                'PHONE' => $contact
+            )
+        );
+        $json_data = json_encode($data);
+        try {
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, 'https://us19.api.mailchimp.com/3.0/lists/' . $list_id . '/members/');
+            curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json',
+                'Authorization: Basic ' . $auth));
+            curl_setopt($ch, CURLOPT_USERAGENT, 'PHP-MCAPI/2.0');
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+            curl_setopt($ch, CURLOPT_POST, true);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);
+            $result = curl_exec($ch);
+
+            // this code is required for next iteration
+            return response()->json([
+                'message' => $result
+            ]);
+//            $this->sendEmailtoSubscriber($email);
+
+        } catch (Exception $e) {
+            return response()->json([
+                'message' => $result
+            ]);
+        }
+    }
+
     public function sendEmailtoSubscriber($email){
             Mail::to($email)
                 ->bcc(['support@shoppre.com'])
