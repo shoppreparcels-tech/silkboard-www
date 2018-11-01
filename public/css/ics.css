@@ -322,6 +322,7 @@ a:hover, a:focus {
     background-color: #ffffff;
     color: #25283d;
     font-size: 24px;
+    margin-left: 10px;
 }
 
 .div-dimension {
@@ -534,9 +535,11 @@ a:hover, a:focus {
     color: red;
 }
 
-.div-padding-sp_charges {
-    padding-top: 53px !important;
-    padding-bottom: 53px !important;
+.div-padding-sp-charges {
+    padding-top: 53px;
+    padding-bottom: 53px ;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .div-country-guide-information {
@@ -926,9 +929,21 @@ display: none;
     margin-top: 45px
 }
 
-.div-padding-sp_charges1 {
+.div-padding-sp-charges1 {
     padding-top: 45px ;
     padding-bottom: 50px ;
+}
+
+.shop-ship-tab-content {
+    background-color: #ffffff;  
+   padding: 10px;
+}
+
+.courier-pickup-charge{
+    background-color: #fafafb;
+    padding-top: 18px;padding-bottom: 17px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -974,7 +989,7 @@ display: none;
     }
 
     .div-country-guide-information {
-        width: 300px;
+        width: 290px;
         height: 250px;
         padding-left: 2em;
         padding-top: 2em;
@@ -1041,6 +1056,14 @@ display: none;
 }
 
 @media only screen and (max-width: 600px) {
+
+    .header-padder-top {
+        padding-bottom: 0;
+        padding-top: 10%;
+    }
+    div.shop-ship-tab-content {
+        padding-left: 0;
+    }
     .div-shop-ship-tabs {
         padding-left: 0px;
     }
@@ -1084,13 +1107,15 @@ display: none;
         box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
         color: #ffffff;
     }
+    .div-padding-sp-charges1 {
+        padding-top: 45px;
+        padding-bottom: 29px;
+    }
+    .courier-pickup-charge{
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
 
-    /*.btn-price-cal-v-address a:hover {*/
-    /*-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);*/
-    /*-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);*/
-    /*box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);*/
-    /*color: #ffffff;*/
-    /*}*/
     .arrow_box:after, .arrow_box:before {
         bottom: 100%;
         left: 0%;
@@ -1116,10 +1141,6 @@ display: none;
         /*margin-left: 17px;*/
     }
 
-    .div-country-guide-information {
-        margin-left: -2.5em;
-    }
-
     .btn-membership-plans-monthly, .btn-membership-plans-yearly {
         width: 150px;
     }
@@ -1134,6 +1155,10 @@ display: none;
 
     .price-cal-desktop {
         display: none;
+    }
+    .div-padding-sp-charges {
+        padding-top: 40px ;
+        padding-bottom: 42px ;
     }
 
     .btn-plans-individual-wholeseller {
@@ -1198,6 +1223,10 @@ display: none;
     .courier-mem-plan-img {
         margin-top: 6px;
     }
+    #price-cal-slide-down {
+        padding: 0;
+    }
+
 
     /*.div-plan-box div{*/
     /*padding-top: 10px;*/

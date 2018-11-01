@@ -11,7 +11,6 @@
     /*!*background-position: 1% 50%;*!*/
     /*background-position: left;*/
     /*!*z-index: 99999;*!*/
-
 }
 /*mega menu css*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
@@ -3794,7 +3793,7 @@ a#prev:hover, a#next:hover {
     }
 
     .ul-margin {
-        margin-left: 20px;
+        margin-left: -18px;
     }
 
     .btn-ifs-estimate {

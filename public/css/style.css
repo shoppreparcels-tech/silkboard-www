@@ -3908,7 +3908,7 @@ section.loyalty {
 
 .calc-form label {
     font-weight: 700;
-    font-size: 14px;
+    /*font-size: 14px;*/
     margin-bottom: 3px;
     /*padding-left: 0px;*/
 }

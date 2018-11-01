@@ -73,13 +73,6 @@
             border-right: 10px solid transparent;
         }
 
-        div.shop-ship-tab-content {
-            background-color: #ffffff;
-            /* border: 1px solid #eeeeee; */
-            padding-left: 20px;
-            padding-top: 10px;
-        }
-
         div.shop-ship-tab div.shop-ship-tab-content:not(.active) {
             display: none;
         }
@@ -135,7 +128,6 @@
         </div>
 
         <div class="container no-padding">
-            {{--<div class="">--}}
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 shop-ship">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 shop-ship-menu">
                     <div class="list-group">
@@ -149,13 +141,12 @@
                     </div>
                 </div>
             </div>
-            {{--</div>--}}
         </div>
     </section>
 
-    <section>
+    <section style="margin-bottom: 30px">
         <div class="container div-courier-cal no-padding ">
-            <div class="container shop-ship-tab ">
+            <div class="container shop-ship-tab" style="padding-bottom: 20px">
                 <div class="shop-ship-tab-content active">
                     <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12 no-padding">
                         <span id="calc_error">Sorry! No delivery options available in requested country. Please contact our support team for assistance.</span>
@@ -165,7 +156,8 @@
                                     <a href="#International" aria-controls="home" role="tab"
                                        data-toggle="tab">International</a>
                                 </li>
-                                <li role="presentation">
+
+                                <li role="presentation" style=" margin-left: 5em;">
                                     <a href="#Domestic" aria-controls="profile" role="tab"
                                        data-toggle="tab">Domestic</a>
                                 </li>
@@ -174,7 +166,7 @@
                                 <div role="tabpanel" class="tab-pane fade in active" id="International">
                                     <form class="calc-form" id="shipping">
                                         {{ csrf_field() }}
-                                        <div class="row">
+                                        <div class="col-xs-12 col-md-12 no-padding">
                                             <div class="col-md-7 col-sm-12 no-padding price-cal-country">
                                                 <label class="header6 p-color-cement">Where do you want to send your
                                                     package to?</label>
@@ -189,7 +181,7 @@
                                             <div class="col-md-5 col-sm-12 ">
                                                 <p class="header7 p-country-guide ">
                                                     <a href="#" class="tooltipkey" title="We ship to 220+ countries! Want to find out if your country is one of them? Check out the specific discounts we offer
-                                for each country as well while you're at it!">
+                                                         for each country as well while you're at it!">
                                                         <i class="fa fa-question-circle-o"></i>
                                                     </a>
                                                     Country Guide <a
@@ -200,30 +192,30 @@
 
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="col-md-12 col-xs-12 no-padding">
                                             <div class="radio">
-                                                <label class="checkbox-inline">
-                                                    <input class="radio-pricing header6 p-color-cement-dark"
+                                                <label class="checkbox-inline header6">
+                                                    <input class="radio-pricing  p-color-cement-dark"
                                                            type="radio"
                                                            name="type" value="nondoc" checked
                                                     >Non-Document Package
                                                 </label>
                                             </div>
                                             <div class="radio">
-                                                <label class="checkbox-inline">
-                                                    <input class="radio-pricing header6 p-color-cement-dark"
+                                                <label class="checkbox-inline header6">
+                                                    <input class="radio-pricing p-color-cement-dark"
                                                            type="radio"
                                                            name="type" value="doc"
                                                     >Document
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <label class="col-sm-12 control-label no-padding">What is the weight of
+                                        <div class="col-md-12 col-xs-12 no-padding">
+                                            <label class="control-label header6 ">What is the weight of
                                                 your
                                                 package (in Kg)? <span>*</span> </label>
                                         </div>
-                                        <div class="row">
+                                        <div class="col-md-12 col-xs-12 no-padding">
                                             <div class="col-md-6 col-sm-6 col-xs-7 no-padding">
                                                 <div class="div-text-box">
                                                     <span id="aminus" class="btn-puls-minus dec-value">-</span>
@@ -248,7 +240,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="col-xs-12 col-md-12 no-padding">
                                             <div class=" col-md-8 col-sm-12 div-dimension">
                                                 <div class="div-volumetric-weight">
                                                     <center>
@@ -274,10 +266,9 @@
                                                     </div>
                                                 </div>
                                                 <div class="row">
-                                                    <div
-                                                        class="col-md-4 col-sm-4 col-xs-4 div-price-cal-length-padding">
+                                                    <div class="col-md-4 col-sm-4 col-xs-4 div-price-cal-length-padding">
                                                         <h6 class="header7 p-color-cement">Length (in cm)</h6>
-                                                        <div class="col-sm-12  div-price-cal-length">
+                                                        <div class="col-sm-12 no-padding  div-price-cal-length">
                                                         <span id="aminus"
                                                               class="btn btn-puls-minus dec-value no-padding">-</span>
                                                             <input type="text" class="txt-length" name="length"
@@ -286,8 +277,7 @@
                                                                   class="btn btn-puls-minus inc-value no-padding">+</span>
                                                         </div>
                                                     </div>
-                                                    <div
-                                                        class="col-md-4 col-sm-4 col-xs-4 div-price-cal-length-padding">
+                                                    <div class="col-md-4 col-sm-4 col-xs-4 div-price-cal-length-padding">
                                                         <h6 class="header7 p-color-cement">Width (in cm)</h6>
                                                         <div class="col-sm-12 div-price-cal-length">
                                                     <span id="aminus"
@@ -298,31 +288,26 @@
                                                                   class="btn btn-puls-minus inc-value no-padding">+</span>
                                                         </div>
                                                     </div>
-                                                    <div
-                                                        class="col-md-4 col-sm-4  col-xs-4 div-price-cal-length-padding">
+                                                    <div class="col-md-4 col-sm-4  col-xs-4 div-price-cal-length-padding">
                                                         <h6 class="header7 p-color-cement">Height (in cm)</h6>
-                                                        <div class="col-sm-12  div-price-cal-length">
-                                                    <span id="aminus"
-                                                          class="btn btn-puls-minus dec-value no-padding">-</span>
-                                                            <input type="text" class="txt-length" name="height"
-                                                                   value="0">
-                                                            <span id="aplus"
-                                                                  class="btn btn-puls-minus inc-value no-padding">+</span>
+                                                        <div class="col-sm-12 no-padding  div-price-cal-length">
+                                                         <span class="btn btn-puls-minus dec-value no-padding" id="aminus" >-</span>
+                                                            <input type="text" class="txt-length" name="height"  value="0">
+                                                            <span id="aplus" class="btn btn-puls-minus inc-value no-padding">+</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row div-pric-cal-estimate">
-                                            <button type="submit" class="btn btn-pricing-estimate header6">ESTIMATE
-                                            </button>
+                                        <div class="col-xs-12 col-md-12 no-padding div-pric-cal-estimate">
+                                            <button type="submit" class="btn btn-pricing-estimate header6">ESTIMATE</button>
                                         </div>
                                     </form>
                                 </div>
                                 <div role="tabpanel" class="tab-pane fade" id="Domestic">
                                     <form class="quote-form calc-form" id="form_quote" method="post">
                                         {{csrf_field()}}
-                                        <div class="row">
+                                        <div class="col-md-12 col-xs-12 no-padding">
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
                                                 <label class="header7 p-color-cement">Pickup Location-Pin
                                                     code</label>
@@ -331,7 +316,7 @@
                                                 <label class="header7 p-color-cement">Destination-Pincode</label>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="col-xs-12 col-md-12 no-padding">
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
                                                 <input class="header6 p-color-cement txt-pincode" type="text"
                                                        name="pin"
@@ -343,7 +328,7 @@
                                                        placeholder=" Enter pincode">
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="col-md-12 col-xs-12 no-padding">
                                             <div class="radio">
                                                 <label class="checkbox-inline">
                                                     <input class="radio-pricing header6 p-color-cement-dark"
@@ -361,12 +346,12 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="col-xs-12 col-md-12 no-padding">
                                             <label class="col-sm-12 control-label no-padding">What is the Weight of
                                                 your
                                                 package (Kg)? <span>*</span> </label>
                                         </div>
-                                        <div class="row">
+                                        <div class="col-md-12 col-xs-12 no-padding">
                                             <div class="col-md-6 col-sm-6 col-xs-7 no-padding">
                                                 <div class="div-text-box">
                                                     <span id="aminus" class="btn-puls-minus dec-value">-</span>
@@ -392,21 +377,21 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row" style="margin-top: 8px;">
-                                            <label class="col-sm-12 control-label">Your E-mail Address</label>
+                                        <div class="col-xs-12 col-md-12 no-padding" style="margin-top: 8px;">
+                                            <label class="header6 control-label">Your E-mail Address</label>
                                             <div class="col-sm-10 no-padding">
                                                 <input type="text" class="form-control" name="email"
                                                        placeholder="Enter a valid E-mail Id">
                                             </div>
                                         </div>
-                                        <div class="row" style="margin-top: 8px;">
-                                            <label class="col-sm-12 control-label">Contact Number</label>
+                                        <div class="col-md-12 col-xs-12 no-padding" style="margin-top: 8px;">
+                                            <label class=" col-md-12 no-padding header6 control-label">Contact Number</label>
                                             <div class="col-sm-10 no-padding">
                                                 <input type="text" class="form-control" name="mobile"
                                                        placeholder="Enter a valid phone Number">
                                             </div>
                                         </div>
-                                        <div class="row div-pric-cal-estimate">
+                                        <div class="col-xs-12 col-md-12 no-padding div-pric-cal-estimate">
                                             <div class="col-sm-12 no-padding">
                                                 <button type="submit"
                                                         class="btn btn-pricing-estimate no-padding header6"
@@ -482,9 +467,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 col-sm-12 no-padding "
-                         id="price-cal-slide-down">
-                        <div class="col-md-8 col-sm-8 col-xs-12 no-padding">
+                    <div class="col-md-12 col-sm-12 no-padding col-xs-12 " id="price-cal-slide-down">
+                        <div class="col-md-8 col-sm-8 col-xs-12">
                             <div class="row">
                                 <div class="col-md-8 col-sm-8 col-xs-6">
                                     <h6 class="header6 p-color-cement"><span class="p-color-red">*</span> Estimated
@@ -590,7 +574,7 @@
                                     <a href="#International1" aria-controls="home" role="tab"
                                        data-toggle="tab">International</a>
                                 </li>
-                                <li role="presentation">
+                                <li role="presentation" style=" margin-left: 5em;">
                                     <a href="#Domestic1" aria-controls="profile" role="tab"
                                        data-toggle="tab">Domestic</a>
                                 </li>
@@ -599,8 +583,8 @@
                                 <div role="tabpanel" class="tab-pane fade in active" id="International1">
                                     <form class="calc-form" id="shipping1">
                                         {{ csrf_field() }}
-                                        <div class="row">
-                                            <div class="col-md-7 col-sm-12 no-padding price-cal-country">
+                                        <div class="col-md-12 col-xs-12 no-padding">
+                                            <div class="col-md-7 col-sm-12 col-xs-12 no-padding price-cal-country">
                                                 <label class="header6 p-color-cement">Where do you want to send your
                                                     package to?</label>
                                                 <select class="form-control select2" name="country">
@@ -614,7 +598,7 @@
                                             <div class="col-md-5 col-sm-12 ">
                                                 <p class="header7 p-country-guide ">
                                                     <a href="#" class="tooltipkey" title="We ship to 220+ countries! Want to find out if your country is one of them? Check out the specific discounts we offer
-                                for each country as well while you're at it!">
+                                                         for each country as well while you're at it!">
                                                         <i class="fa fa-question-circle-o"></i>
                                                     </a>
                                                     Country Guide <a
@@ -625,35 +609,35 @@
 
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="col-md-12 col-xs-12 no-padding">
                                             <div class="radio">
-                                                <label class="checkbox-inline">
-                                                    <input class="radio-pricing header6 p-color-cement-dark"
+                                                <label class="checkbox-inline header6 p-color-cement">
+                                                    <input class="radio-pricing "
                                                            type="radio"
                                                            name="type" value="nondoc" checked
                                                     >Non-Document Package
                                                 </label>
                                             </div>
                                             <div class="radio">
-                                                <label class="checkbox-inline">
-                                                    <input class="radio-pricing header6 p-color-cement-dark"
+                                                <label class="checkbox-inline header6 p-color-cement">
+                                                    <input class="radio-pricing "
                                                            type="radio"
                                                            name="type" value="doc"
                                                     >Document
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <label class="col-sm-12 control-label no-padding">What is the weight of
+                                        <div class="col-xs-12 col-md-12 no-padding">
+                                            <label class="col-sm-12 control-label no-padding header6">What is the weight of
                                                 your
                                                 package (in Kg)? <span>*</span> </label>
                                         </div>
-                                        <div class="row">
+                                        <div class="col-md-12 col-xs-12 no-padding">
                                             <div class="col-md-6 col-sm-6 col-xs-7 no-padding">
                                                 <div class="div-text-box">
                                                     <span id="aminus" class="btn-puls-minus dec-value">-</span>
                                                     <input type="text" id="adnum" class="txt-weight" value="1"
-                                                           name="weight">
+                                                           name="weight1">
                                                     <span id="aplus" class="btn-puls-minus inc-value">+</span>
                                                 </div>
                                             </div>
@@ -673,7 +657,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="col-xs-12 col-md-12 no-padding">
                                             <div class=" col-md-8 col-sm-12 div-dimension">
                                                 <div class="div-volumetric-weight">
                                                     <center>
@@ -699,55 +683,48 @@
                                                     </div>
                                                 </div>
                                                 <div class="row">
-                                                    <div
-                                                        class="col-md-4 col-sm-4 col-xs-4 div-price-cal-length-padding">
+                                                    <div class="col-md-4 col-sm-4 col-xs-4 div-price-cal-length-padding">
                                                         <h6 class="header7 p-color-cement">Length (in cm)</h6>
-                                                        <div class="col-sm-12 div-price-cal-length">
+                                                        <div class="col-sm-12 no-padding  div-price-cal-length">
                                                         <span id="aminus"
                                                               class="btn btn-puls-minus dec-value no-padding">-</span>
-                                                            <input type="text" class="txt-length" name="length"
+                                                            <input type="text" class="txt-length" name="length1"
                                                                    value="0">
                                                             <span id="aplus"
                                                                   class="btn btn-puls-minus inc-value no-padding">+</span>
                                                         </div>
                                                     </div>
-                                                    <div
-                                                        class="col-md-4 col-sm-4 col-xs-4 no-padding div-price-cal-length-padding">
+                                                    <div class="col-md-4 col-sm-4 col-xs-4 div-price-cal-length-padding">
                                                         <h6 class="header7 p-color-cement">Width (in cm)</h6>
                                                         <div class="col-sm-12  div-price-cal-length">
                                                     <span id="aminus"
                                                           class="btn btn-puls-minus dec-value no-padding">-</span>
-                                                            <input type="text" class="txt-length" name="width"
+                                                            <input type="text" class="txt-length" name="width1"
                                                                    value="0">
                                                             <span id="aplus"
                                                                   class="btn btn-puls-minus inc-value no-padding">+</span>
                                                         </div>
                                                     </div>
-                                                    <div
-                                                        class="col-md-4 col-sm-4  col-xs-4 div-price-cal-length-padding">
+                                                    <div class="col-md-4 col-sm-4  col-xs-4 div-price-cal-length-padding">
                                                         <h6 class="header7 p-color-cement">Height (in cm)</h6>
-                                                        <div class="col-sm-12 div-price-cal-length">
-                                                    <span id="aminus"
-                                                          class="btn btn-puls-minus dec-value no-padding">-</span>
-                                                            <input type="text" class="txt-length" name="height"
-                                                                   value="0">
-                                                            <span id="aplus"
-                                                                  class="btn btn-puls-minus inc-value no-padding">+</span>
+                                                        <div class="col-sm-12 no-padding  div-price-cal-length">
+                                                            <span class="btn btn-puls-minus dec-value no-padding" id="aminus" >-</span>
+                                                            <input type="text" class="txt-length" name="height1"  value="0">
+                                                            <span id="aplus" class="btn btn-puls-minus inc-value no-padding">+</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row div-pric-cal-estimate">
-                                            <button type="submit" class="btn btn-pricing-estimate header6">ESTIMATE
-                                            </button>
+                                        <div class="col-md-12 col-xs-12 no-padding div-pric-cal-estimate">
+                                            <button type="submit" class="btn btn-pricing-estimate header6">ESTIMATE</button>
                                         </div>
                                     </form>
                                 </div>
                                 <div role="tabpanel" class="tab-pane fade" id="Domestic1">
                                     <form class="quote-form calc-form" id="form_quote1" method="post">
                                         {{csrf_field()}}
-                                        <div class="row">
+                                        <div class="col-xs-12 col-md-12 no-padding">
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
                                                 <label class="header7 p-color-cement">Pickup Location-Pin
                                                     code</label>
@@ -756,7 +733,7 @@
                                                 <label class="header7 p-color-cement">Destination-Pincode</label>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="col-md-12 col-xs-12 no-padding">
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
                                                 <input class="header6 p-color-cement txt-pincode" type="text"
                                                        name="pin"
@@ -768,30 +745,30 @@
                                                        placeholder=" Enter pincode">
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="col-xs-12 col-md-12 no-padding">
                                             <div class="radio">
-                                                <label class="checkbox-inline">
-                                                    <input class="radio-pricing header6 p-color-cement-dark"
+                                                <label class="checkbox-inline header6  p-color-cement">
+                                                    <input class="radio-pricing "
                                                            type="radio"
                                                            name="type" value="nondoc" checked
                                                     >Non-Document Package
                                                 </label>
                                             </div>
                                             <div class="radio">
-                                                <label class="checkbox-inline">
-                                                    <input class="radio-pricing header6 p-color-cement-dark"
+                                                <label class="checkbox-inline header6 p-color-cement">
+                                                    <input class="radio-pricing "
                                                            type="radio"
                                                            name="type" value="doc"
                                                     >Documents
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="col-md-12 col-xs-12 no-padding">
                                             <label class="col-sm-12 control-label no-padding">What is the Weight of
                                                 your
                                                 package (Kg)? <span>*</span> </label>
                                         </div>
-                                        <div class="row">
+                                        <div class="col-xs-12 col-md-12 no-padding">
                                             <div class="col-md-6 col-sm-6 col-xs-7 no-padding">
                                                 <div class="div-text-box">
                                                     <span id="aminus" class="btn-puls-minus dec-value">-</span>
@@ -817,21 +794,21 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row" style="margin-top: 8px;">
-                                            <label class="col-sm-12 control-label">Your E-mail Address</label>
+                                        <div class="col-md-12 col-xs-12 no-padding" style="margin-top: 8px;">
+                                            <label class="control-label header6">Your E-mail Address</label>
                                             <div class="col-sm-10 no-padding">
                                                 <input type="text" class="form-control" name="email"
                                                        placeholder="Enter a valid E-mail Id">
                                             </div>
                                         </div>
-                                        <div class="row" style="margin-top: 8px;">
-                                            <label class="col-sm-12 control-label">Contact Number</label>
+                                        <div class="col-xs-12 col-md-12 no-padding" style="margin-top: 8px;">
+                                            <label class="col-sm-12 col-xs-12 no-padding control-label header6">Contact Number</label>
                                             <div class="col-sm-10 no-padding">
                                                 <input type="text" class="form-control" name="mobile"
                                                        placeholder="Enter a valid phone Number">
                                             </div>
                                         </div>
-                                        <div class="row div-pric-cal-estimate">
+                                        <div class="col-xs-12 col-md-12 no-padding div-pric-cal-estimate">
                                             <div class="col-sm-12 no-padding">
                                                 <button type="submit"
                                                         class="btn btn-pricing-estimate no-padding header6"
@@ -883,9 +860,8 @@
 
                         </div>
                     </div>
-                    <div class="col-md-12 col-sm-12 no-padding"
-                         id="price-cal-slide-down1">
-                        <div class="col-md-8 col-sm-8 col-xs-12 no-padding">
+                    <div class="col-md-12 col-sm-12 col-xs-12 no-padding" id="price-cal-slide-down1">
+                        <div class="col-md-8 col-sm-8 col-xs-12 no-padding ">
                             <div class="row">
                                 <div class="col-md-8 col-sm-8 col-xs-6">
                                     <h6 class="header6 p-color-cement"><span class="p-color-red">*</span> Estimated
@@ -955,15 +931,9 @@
 
             </div>
         </div>
-        {{--<div class="container div-courier-cal ">--}}
-        {{--<div class="cal arrow_box" id="shop&ship">--}}
 
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--<div class="cal" id="Courier">--}}
-
-
-        {{--</div>--}}
+    </section>
+    <section role="membership">
         <div class="container" id="courier-membership-plans">
             <div class="col-sm-12 col-md-12 no-padding price-cal-membership">
                 <center>
@@ -980,10 +950,9 @@
                                 Features
                             </h4>
                         </div>
-                        {{--<div class="" style="bacKground-color: #fafafb"></div>--}}
 
 
-                        <div class="div-padding-sp_charges1">
+                        <div class="div-padding-sp-charges1">
                             <h6 class="header6">
                                 Special Clearance Charges
                                 <a href="#" class="tooltipkey"
@@ -1003,7 +972,7 @@
                         </div>
 
 
-                        <div class="no-padding div-backgroud-price-cal" style="padding-top: 18px;padding-bottom: 17px;">
+                        <div class="courier-pickup-charge" >
                             <h6 class="header6">
                                 Pickup Charges
                                 <a href="#" class="tooltipkey"
@@ -1049,12 +1018,8 @@
                                    style="color: #507dbc;background-color: #ffffff">Schedule a Pickup</a>
                             </div>
                         </div>
-
-                        {{--<button type="submit" class=" btn-plans-individual-wholeseller">Get a Free Address--}}
-                        {{--</button>--}}
                     </center>
                 </div>
-
             </div>
         </div>
         <div class="container" id="shop-membership-plans">
@@ -1196,7 +1161,7 @@
                                                     <i class="fa fa-question-circle-o"></i></a>
                                             </h6>
                                         </div>
-                                        <div class="div-backgroud-price-cal div-padding-sp_charges">
+                                        <div class="div-padding-sp-charges" style="background-color: #fafafb">
                                             <h6 class="header6">
                                                 Special Clearance Charges
                                                 <a href="#" class="tooltipkey"
@@ -1761,7 +1726,7 @@
                                                     <i class="fa fa-question-circle-o"></i></a>
                                             </h6>
                                         </div>
-                                        <div class="div-backgroud-price-cal div-padding-sp_charges">
+                                        <div class="div-padding-sp-charges" style="background-color: #fafafb">
                                             <h6 class="header6">
                                                 Special Clearance Charges
                                                 <a href="#" class="tooltipkey"
@@ -2325,7 +2290,7 @@
                                                     <i class="fa fa-question-circle-o"></i></a>
                                             </h6>
                                         </div>
-                                        <div class="div-backgroud-price-cal div-padding-sp_charges">
+                                        <div class="div-padding-sp-charges" style="background-color: #fafafb">
                                             <h6 class="header6">
                                                 Special Clearance Charges
                                                 <a href="#" class="tooltipkey"
@@ -2366,7 +2331,7 @@
                                             </h6>
                                         </div>
                                         <div class="div-backgroud-price-cal1"
-                                             style="padding-top: 43px;padding-bottom: 43px;">
+                                             style="padding-top: 37px;padding-bottom: 38px;">
                                             <h6 class="header6">
                                                 Pickup Charges
                                                 <a href="#" class="tooltipkey"
@@ -2378,7 +2343,7 @@
                                         </div>
 
                                         <div class="div-backgroud-price-cal"
-                                             style="padding-top: 30px;padding-bottom: 30px;">
+                                             style="padding-top: 27px;padding-bottom: 28px;">
                                             <h6 class="header6">
                                                 Package Returns
                                                 <a href="#" class="tooltipkey"
@@ -2391,7 +2356,7 @@
                                                 </a>
                                             </h6>
                                         </div>
-                                        <div class="div-backgroud-price-cal1">
+                                        <div class="div-backgroud-price-cal1" style="padding-top: 11px;padding-bottom: 10px;">
                                             <h6 class="header6">
                                                 Personal Shopper
                                                 <a href="#" class="tooltipkey"
@@ -2421,13 +2386,11 @@
                                             </h6>
                                         </div>
                                     </div>
-                                    <div class="div-backgroud-price-cal1 view-all-features view-more-feature">
-                                        {{--<h6 class="header6 ">--}}
+                                    <div class="div-backgroud-price-cal1 view-all-features view-more-feature mobile-view1">
                                         <label class="header6 view-feature-text" for="" id="mobile-view-more-feature">View
                                             All Features</label>
                                         <label class="header6 view-feature-text" for="" id="mobile-less-features">Less
                                             Features</label>
-                                        {{--</h6>--}}
                                     </div>
                                 </center>
                             </div>
@@ -2461,7 +2424,7 @@
                                                 Free upto 20 days
                                             </h5>
                                         </div>
-                                        <div class="div-backgroud-price-cal">
+                                        <div class="div-backgroud-price-cal" style="padding-top: 15px;padding-bottom: 16px;">
                                             <h5 class="header6">
                                                 ₹100 Per Page
                                             </h5>
@@ -2471,12 +2434,12 @@
                                                 Free
                                             </h5>
                                         </div>
-                                        <div class="div-backgroud-price-cal">
+                                        <div class="div-backgroud-price-cal" style="padding-top: 13px;padding-bottom: 13px;">
                                             <h5 class="header6 ">
                                                 Country Discount
                                             </h5>
                                         </div>
-                                        <div class="div-backgroud-price-cal1">
+                                        <div class="div-backgroud-price-cal1" style="padding-top: 12px;padding-bottom: 12px;">
                                             <h5 class="header6">
                                                 Upto 5 addresses
                                             </h5>
@@ -2494,7 +2457,7 @@
                                             </h5>
                                         </div>
                                         <div class="div-backgroud-price-cal"
-                                             style="padding-bottom: 13px; padding-top: 12px;">
+                                             style="padding-bottom: 20px; padding-top: 20px;">
                                             <h5 class="header6">
                                                 Free
                                             </h5>
@@ -2512,11 +2475,11 @@
                                         </div>
                                         <div class="div-backgroud-price-cal1">
                                             <h5 class="header6 p-color-cement">
-                                                7% of the item value (Min ₹200)
+                                                7% of the item value <br> (Min ₹200)
                                             </h5>
                                         </div>
                                         <div class="div-backgroud-price-cal"
-                                             style="padding-top: 20px;padding-bottom: 20px;">
+                                             style="padding-top: 43px;padding-bottom: 43px;">
                                             <h5 class="header6 p-color-cement">
                                                 Free
                                             </h5>
@@ -2540,10 +2503,9 @@
                                         <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">Get a Free
                                             Address</a>
                                     </div>
-
                                 </center>
-
                             </div>
+
                             <div class="col-xs-5 no-padding div-monthly-plans">
                                 <center>
                                     <div class="div-backgroud-price-cal">
@@ -2662,7 +2624,7 @@
                                                     <i class="fa fa-question-circle-o"></i></a>
                                             </h6>
                                         </div>
-                                        <div class="div-backgroud-price-cal div-padding-sp_charges">
+                                        <div class="div-padding-sp-charges" style="background-color: #fafafb">
                                             <h6 class="header6">
                                                 Special Clearance Charges
                                                 <a href="#" class="tooltipkey"
@@ -2703,7 +2665,7 @@
                                             </h6>
                                         </div>
                                         <div class="div-backgroud-price-cal1"
-                                             style="padding-top: 43px;padding-bottom: 43px;">
+                                             style="padding-top: 37px;padding-bottom: 38px;">
                                             <h6 class="header6">
                                                 Pickup Charges
                                                 <a href="#" class="tooltipkey"
@@ -2715,7 +2677,7 @@
                                         </div>
 
                                         <div class="div-backgroud-price-cal"
-                                             style="padding-top: 30px;padding-bottom: 30px;">
+                                             style="padding-top: 27px;padding-bottom: 28px;">
                                             <h6 class="header6">
                                                 Package Returns
                                                 <a href="#" class="tooltipkey"
@@ -2728,7 +2690,7 @@
                                                 </a>
                                             </h6>
                                         </div>
-                                        <div class="div-backgroud-price-cal1">
+                                        <div class="div-backgroud-price-cal1" style="padding-top: 11px;padding-bottom: 10px;">
                                             <h6 class="header6">
                                                 Personal Shopper
                                                 <a href="#" class="tooltipkey"
@@ -2758,15 +2720,12 @@
                                             </h6>
                                         </div>
                                     </div>
-                                    <div class="div-backgroud-price-cal1 view-all-features view-more-feature">
-                                        {{--<h6 class="header6 ">--}}
+                                    <div class="div-backgroud-price-cal1 view-all-features view-more-feature mobile-view2">
                                         <label class="header6 view-feature-text" for="" id="mobile-view-more-feature2">View
                                             All Features</label>
                                         <label class="header6 view-feature-text" for="" id="mobile-less-features2">Less
                                             Features</label>
-                                        {{--</h6>--}}
                                     </div>
-
                                 </center>
 
                             </div>
@@ -2799,7 +2758,7 @@
                                                 Free upto 30 days
                                             </h5>
                                         </div>
-                                        <div class="div-backgroud-price-cal">
+                                        <div class="div-backgroud-price-cal" style="padding-top: 15px;padding-bottom: 16px;">
                                             <h5 class="header6">
                                                 ₹40 Per Page
                                             </h5>
@@ -2809,12 +2768,12 @@
                                                 Free
                                             </h5>
                                         </div>
-                                        <div class="div-backgroud-price-cal">
+                                        <div class="div-backgroud-price-cal" >
                                             <h5 class="header6 ">
                                                 Country Discount + 5% Discount
                                             </h5>
                                         </div>
-                                        <div class="div-backgroud-price-cal1">
+                                        <div class="div-backgroud-price-cal1" style="padding-top: 14px;padding-bottom: 14px;">
                                             <h5 class="header6">
                                                 Unlimited
                                             </h5>
@@ -2832,7 +2791,7 @@
                                             </h5>
                                         </div>
                                         <div class="div-backgroud-price-cal"
-                                             style="padding-bottom: 13px; padding-top: 12px;">
+                                             style="padding-bottom: 20px; padding-top: 21px;">
                                             <h5 class="header6">
                                                 Free
                                             </h5>
@@ -2851,11 +2810,11 @@
                                         </div>
                                         <div class="div-backgroud-price-cal1">
                                             <h5 class="header6 p-color-cement">
-                                                7% of the item value (Min ₹200)
+                                                7% of the item <br> value (Min ₹200)
                                             </h5>
                                         </div>
                                         <div class="div-backgroud-price-cal"
-                                             style="padding-top: 20px;padding-bottom: 20px;">
+                                             style="padding-top: 43px;padding-bottom: 43px;">
                                             <h5 class="header6 p-color-cement">
                                                 Free
                                             </h5>
@@ -2880,7 +2839,6 @@
                                         </a>
                                     </div>
                                 </center>
-
                             </div>
                             <div class="col-xs-5 no-padding div-monthly-plans">
                                 <center>
@@ -3000,7 +2958,7 @@
                                                     <i class="fa fa-question-circle-o"></i></a>
                                             </h6>
                                         </div>
-                                        <div class="div-backgroud-price-cal div-padding-sp_charges">
+                                        <div class="div-padding-sp-charges" style="background-color: #fafafb">
                                             <h6 class="header6">
                                                 Special Clearance Charges
                                                 <a href="#" class="tooltipkey"
@@ -3041,7 +2999,7 @@
                                             </h6>
                                         </div>
                                         <div class="div-backgroud-price-cal1"
-                                             style="padding-top: 43px;padding-bottom: 43px;">
+                                             style="padding-top: 37px;padding-bottom: 38px;">
                                             <h6 class="header6">
                                                 Pickup Charges
                                                 <a href="#" class="tooltipkey"
@@ -3053,7 +3011,7 @@
                                         </div>
 
                                         <div class="div-backgroud-price-cal"
-                                             style="padding-top: 30px;padding-bottom: 30px;">
+                                             style="padding-top: 27px;padding-bottom: 28px;">
                                             <h6 class="header6">
                                                 Package Returns
                                                 <a href="#" class="tooltipkey"
@@ -3066,7 +3024,7 @@
                                                 </a>
                                             </h6>
                                         </div>
-                                        <div class="div-backgroud-price-cal1">
+                                        <div class="div-backgroud-price-cal1" style="padding-top: 11px;padding-bottom: 10px;">
                                             <h6 class="header6">
                                                 Personal Shopper
                                                 <a href="#" class="tooltipkey"
@@ -3096,15 +3054,12 @@
                                             </h6>
                                         </div>
                                     </div>
-                                    <div class="div-backgroud-price-cal1 view-all-features view-more-feature">
-                                        {{--<h6 class="header6 ">--}}
+                                    <div class="div-backgroud-price-cal1 view-all-features view-more-feature mobile-view3">
                                         <label class="header6 view-feature-text" for="" id="mobile-view-more-feature4">View
                                             All Features</label>
                                         <label class="header6 view-feature-text" for="" id="mobile-less-features4">Less
                                             Features</label>
-                                        {{--</h6>--}}
                                     </div>
-
                                 </center>
 
                             </div>
@@ -3143,7 +3098,7 @@
                                                 ₹41 Per Page
                                             </h5>
                                         </div>
-                                        <div class="div-backgroud-price-cal1">
+                                        <div class="div-backgroud-price-cal1" style="padding-top: 15px;padding-bottom: 16px;">
                                             <h5 class="header6">
                                                 Free
                                             </h5>
@@ -3153,7 +3108,7 @@
                                                 Country Discount + 7% Discount
                                             </h5>
                                         </div>
-                                        <div class="div-backgroud-price-cal1">
+                                        <div class="div-backgroud-price-cal1" style="padding-top: 14px;padding-bottom: 14px;">
                                             <h5 class="header6">
                                                 Unlimited
                                             </h5>
@@ -3166,13 +3121,13 @@
                                             <h5 class="header6 p-color-cement">Above 15 Kg -> ₹3150</h5>
                                             <span class="header8 p-color-cement">*Weight in Kg per shipment</span>
                                         </div>
-                                        <div class="div-backgroud-price-cal1">
+                                        <div class="div-backgroud-price-cal1" >
                                             <h5 class="header6">
                                                 Free
                                             </h5>
                                         </div>
                                         <div class="div-backgroud-price-cal"
-                                             style="padding-bottom: 13px; padding-top: 12px;">
+                                             style="padding-bottom: 21px; padding-top: 20px;">
                                             <h5 class="header6">
                                                 Free
                                             </h5>
@@ -3191,11 +3146,11 @@
                                         </div>
                                         <div class="div-backgroud-price-cal1">
                                             <h5 class="header6 p-color-cement">
-                                                7% of the item value (Min ₹200)
+                                                7% of the item <br> value (Min ₹200)
                                             </h5>
                                         </div>
                                         <div class="div-backgroud-price-cal"
-                                             style="padding-top: 20px;padding-bottom: 20px;">
+                                             style="padding-top: 43px;padding-bottom: 43px;">
                                             <h5 class="header6 p-color-cement">
                                                 Free
                                             </h5>
@@ -3584,13 +3539,13 @@
                     },
                 submitHandler: function (form) {
                     var country = $("select[name='country']").val();
-                    var weight = $("input[name='weight']").val();
+                    var weight = $("input[name='weight1']").val();
                     var unit = $("input[name='unit']:checked").val();
                     var type = $("input[name='type']:checked").val();
                     var box_scale = $("input[name='scale']:checked").val();
-                    var length = $("input[name='length']").val();
-                    var width = $("input[name='width']").val();
-                    var height = $("input[name='height']").val();
+                    var length = $("input[name='length1']").val();
+                    var width = $("input[name='width1']").val();
+                    var height = $("input[name='height1']").val();
                     var token = $('input[name=_token]').val();
                     $("#calc_load").show();
                     $('#calc_error').hide();
@@ -3870,11 +3825,69 @@
             $(".view-all-features").css('margin-top', '81px');
 
         });
-    </script>
-    <script>
 
+        $('#mobile-view-more-feature, #mobile-view-more-feature1').click(function () {
+            $("#mobile-view-more-plans").slideDown();
+            $("#mobile-view-more-plans1").slideDown();
+            $("#mobile-view-more-feature").css('display', 'none');
+            $("#mobile-view-more-feature1").css('display', 'none');
+            $("#mobile-less-features").css('display', 'block');
+            $("#mobile-less-features1").css("display", 'block');
+            $(".mobile-view1").css('margin-top', '60px');
+
+        });
+        $("#mobile-less-features, #mobile-less-features1").click(function () {
+            $("#mobile-view-more-plans").slideUp();
+            $("#mobile-view-more-plans1").slideUp();
+            $("#mobile-view-more-feature").css('display', 'block');
+            $("#mobile-view-more-feature1").css('display', 'block');
+            $("#mobile-less-features").css('display', 'none');
+            $("#mobile-less-features1").css("display", 'none');
+            $(".mobile-view1").css('margin-top', '49px');
+
+        });
+        $('#mobile-view-more-feature2, #mobile-view-more-feature3').click(function () {
+            $("#mobile-view-more-plans2").slideDown();
+            $("#mobile-view-more-plans3").slideDown();
+            $("#mobile-view-more-feature2").css('display', 'none');
+            $("#mobile-view-more-feature3").css('display', 'none');
+            $("#mobile-less-features2").css('display', 'block');
+            $("#mobile-less-features3").css("display", 'block');
+            $(".mobile-view2").css('margin-top', '62px');
+
+        });
+        $("#mobile-less-features2, #mobile-less-features3").click(function () {
+            $("#mobile-view-more-plans2").slideUp();
+            $("#mobile-view-more-plans3").slideUp();
+            $("#mobile-view-more-feature2").css('display', 'block');
+            $("#mobile-view-more-feature3").css('display', 'block');
+            $("#mobile-less-features2").css('display', 'none');
+            $("#mobile-less-features3").css("display", 'none');
+            $(".mobile-view2").css('margin-top', '49px');
+
+        });
+
+        $('#mobile-view-more-feature4, #mobile-view-more-feature5').click(function () {
+            $("#mobile-view-more-plans4").slideDown();
+            $("#mobile-view-more-plans5").slideDown();
+            $("#mobile-view-more-feature4").css('display', 'none');
+            $("#mobile-view-more-feature5").css('display', 'none');
+            $("#mobile-less-features4").css('display', 'block');
+            $("#mobile-less-features5").css("display", 'block');
+            $(".mobile-view3").css('margin-top', '62px');
+
+        });
+        $("#mobile-less-features4, #mobile-less-features5").click(function () {
+            $("#mobile-view-more-plans4").slideUp();
+            $("#mobile-view-more-plans5").slideUp();
+            $("#mobile-view-more-feature4").css('display', 'block');
+            $("#mobile-view-more-feature5").css('display', 'block');
+            $("#mobile-less-features4").css('display', 'none');
+            $("#mobile-less-features5").css("display", 'none');
+            $(".mobile-view3").css('margin-top', '49px');
+
+        });
     </script>
-    year-more-view
     <script>
         $(document).ready(function () {
             $("div.shop-ship-menu>div.list-group>a").click(function (e) {
