@@ -384,7 +384,7 @@ class PageController extends Controller
                 ->where('country_id', $country->id)->get();
 
             foreach ($prices_non_doc as $key => $field) {
-                $disamount = ($country->discount / 100) * $field->amount;
+                $disamount = ((100 - $country->discount) / 100) * $field->amount;
                 $prices_non_doc[$key]['amount'] = $disamount;
             }
 
@@ -393,7 +393,7 @@ class PageController extends Controller
                 ->where('item_type', '=', 'doc')
                 ->where('country_id', $country->id)->get();
             foreach ($prices_doc as $key => $field) {
-                $disamount = ($country->discount / 100) * $field->amount;
+                $disamount = ((100 - $country->discount) / 100) * $field->amount;
                 $prices_doc[$key]['amount'] = $disamount;
             }
 
@@ -432,7 +432,7 @@ class PageController extends Controller
                 ->where('item_type', '=', 'nondoc')
                 ->where('country_id', $country->id)->get();
             foreach ($prices_non_doc as $key => $field) {
-                $disamount = ($country->discount / 100) * $field->amount;
+                $disamount = ((100 - $country->discount) / 100) * $field->amount;
                 $prices_non_doc[$key]['amount'] = $disamount;
             }
 
@@ -442,7 +442,7 @@ class PageController extends Controller
                 ->where('country_id', $country->id)->get();
 
             foreach ($prices_doc as $key => $field) {
-                $disamount = ($country->discount / 100) * $field->amount;
+                $disamount = ((100 - $country->discount) / 100) * $field->amount;
                 $prices_doc[$key]['amount'] = $disamount;
             }
 
@@ -484,7 +484,7 @@ class PageController extends Controller
                 ->where('item_type', '=', 'nondoc')
                 ->where('country_id', $country->id)->get();
             foreach ($prices_non_doc as $key => $field) {
-                $disamount = ($country->discount / 100) * $field->amount;
+                $disamount = ((100 - $country->discount) / 100) * $field->amount;
                 $prices_non_doc[$key]['amount'] = $disamount;
             }
 
@@ -493,7 +493,7 @@ class PageController extends Controller
                 ->where('item_type', '=', 'doc')
                 ->where('country_id', $country->id)->get();
             foreach ($prices_doc as $key => $field) {
-                $disamount = ($country->discount / 100) * $field->amount;
+                $disamount = ((100 - $country->discount) / 100) * $field->amount;
                 $prices_doc[$key]['amount'] = $disamount;
             }
             $title = ucwords($initial) . " " . ucwords($cprefix) . " " . ucwords($cpostfix) . " From " . ucwords($source) . " To " . ucwords($destination) . ". - " . ucwords($initial) . " " . ucwords($cprefix) . " To " . ucwords($destination);

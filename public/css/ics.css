@@ -6,10 +6,9 @@
 
 .div-courier-cal {
     box-shadow: 0 10px 50px rgba(17, 39, 59, 0.1);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-radius: 15px;
     background-color: #ffffff;
-    padding-bottom: 50px;
+    margin-top: -100px;
 }
 
 .div-shop-ship-tabs {
@@ -129,7 +128,8 @@ a:hover, a:focus {
 
 .cal-text-box {
     width: 100%;
-    padding: 15px;
+    height: 50px;
+    /*padding: 15px;*/
     margin: 5px 0 22px 0;
     border: none;
     color: #11273b;
@@ -137,7 +137,7 @@ a:hover, a:focus {
     border: 1px solid rgba(146, 156, 165, 0.2);
     background-color: #ffffff;
     margin-top: 10px;
-    padding-left: 30%;
+    padding-left: 10%;
 }
 
 .radio-pricing {
@@ -264,7 +264,7 @@ a:hover, a:focus {
 }
 
 .header-ifs-p {
-    margin-top: 170px;
+    margin-top: 50px;
 }
 
 .header-ifs-p1 {
@@ -385,6 +385,7 @@ a:hover, a:focus {
 .div-process {
     background-color: #ffffff;
     margin-bottom: 77px;
+    margin-top: 50px;
 }
 
 /*.div-monthly-plans div:nth-child(odd) {*/
@@ -637,22 +638,6 @@ a:hover, a:focus {
     padding: 0;
 }
 
-/*.tabs a {*/
-/*display: block;*/
-/*text-align: center;*/
-/*text-decoration: none;*/
-/*text-transform: uppercase;*/
-/*color: #929ca5;*/
-/*padding: 12px 0;*/
-/*!*border-bottom: 2px solid #677582;*!*/
-/*!*background: #f7f7f7;*!*/
-/*}*/
-
-/*.tabs a:hover, active {*/
-/*!*background-color: #e85151;*!*/
-/*color: #ffffff;*/
-/*}*/
-
 .btn-membership-plans-monthly.active {
     background-image: none;
     outline: 0;
@@ -743,12 +728,18 @@ a:hover, a:focus {
     background-color: #ffffff;
     border: 1px solid red;
 }
+#number1{
+    color: red;
+}
+#ics-box1, #ics-box2, #ics-box3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .box-steps {
     height: 40px;
     width: 40px;
     border: 1px solid #929ca5;
-    margin-top: 44px;
     text-transform: uppercase;
 }
 
@@ -759,13 +750,21 @@ a:hover, a:focus {
 }
 
 .btn-request {
-    width: 100%;
+    width: 20%;
     height: 50px;
-    border-radius: 30px;
+    border-radius: 30px !important;
     background-color: #e85151;
     color: #ffffff;
     font-size: 16px;
     margin: 24px 0 79px 0;
+    padding-top: 13px;
+}
+.btn-request:hover {
+    color: #fff;
+    background-color: #C83B3B;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);
 }
 
 .div-review1 {
@@ -813,12 +812,11 @@ a:hover, a:focus {
 .btn-request-cal-back {
     height: 50px;
     width: 100%;
-    border-radius: 30px;
+    border-radius: 30px !important;
     background-color: #507dbc;
     margin-top: 28px;
     color: #ffffff;
-    padding-top: 15px;
-
+    padding-top: 13px;
 }
 
 .btn-request-cal-back:hover {
@@ -837,11 +835,20 @@ a:hover, a:focus {
 .btn-courier-know {
     height: 50px;
     width: 100%;
-    border-radius: 30px;
-    border: 1px solid #e85151;
-    background-color: #ffffff;
+    border-radius: 30px !important;
+    border: 1px solid #e85151 !important;
     color: #e85151;
     margin-top: 28px;
+    padding-top: 13px;
+    transition: 0.6ms;
+}
+
+.btn-courier-know:hover {
+    color: white;
+    background-color: #C83B3B;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);
 }
 
 .text-final-price-margin {
@@ -935,7 +942,7 @@ display: none;
 }
 
 .shop-ship-tab-content {
-    background-color: #ffffff;  
+    background-color: #ffffff;
    padding: 10px;
 }
 
@@ -1120,7 +1127,9 @@ display: none;
         bottom: 100%;
         left: 0%;
     }
-
+    .btn-request {
+        width: 60%;
+    }
     .btn-cal-courier {
         margin-left: 20%
     }

@@ -300,7 +300,7 @@
     <div id="home_made_products">
         <section class="service-sec yellow">
             <h3 class="htag_align">Send your home made items to {{ucfirst(trans($destination))}}</h3>
-            <div class="container">
+            <div style=" height: 295px;">
                 <div class="col-md-6">
                     <img src="img/homemade.jpg">
                 </div>
@@ -318,9 +318,9 @@
         </section>
     </div>
     <div id="branded_food_items">
-        <section class="service-sec">
+        <section class="service-sec yellow">
             <h3 class="htag_align">Send branded food items to {{ucfirst(trans($destination))}}</h3>
-            <div class="container">
+            <div style=" height: 450px;">
                 <div class="col-md-6">
                     <h4>Ship branded food items to worldwide</h4>
                     <p>Shoppre has created a brand by itself by specializing as an exclusive international
@@ -333,7 +333,7 @@
                         and dispatch it safely to your preferred destination anywhere around the globe.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="img/branded-food-items.jpg">
+                    <img style=" height: 490px;" src="img/branded-food-items.jpg">
                 </div>
             </div>
         </section>
@@ -341,9 +341,9 @@
     <div id="liquid">
         <section class="service-sec yellow">
             <h3 class="htag_align">Send liquid/semi-liquid to {{ucfirst(trans($destination))}}</h3>
-            <div class="container">
+            <div style=" height: 490px;">
                 <div class="col-md-5">
-                    <img src="img/liquid.jpg">
+                    <img style=" height: 490px;" src="img/liquid.jpg">
                 </div>
                 <div class="col-md-5">
                     <h4>Ship liquid/semi-liquid items to worldwide</h4>
@@ -732,12 +732,11 @@
                             if (data.error == "1") {
                                 $('#calc_error').css('display', 'block');
                             }else {
-                                $('#ship_oldcost').text(data.amount);
-                                var disamount = (data.discount / 100) * data.amount;
-                                var finalcost = Math.round(data.amount - disamount).toFixed(2);
+                                $('#ship_oldcost').text(data.prices[0].amount);
+                                var finalcost = Math.round(((100-data.prices[0].discount)/100) * data.prices[0].amount).toFixed(2);
                                 $('#ship_cost').text(finalcost);
-                                $('#ship_time').text(data.time);
-                                $('#ship_disc').text(data.discount);
+                                $('#ship_time').text(data.prices[0].time);
+                                $('#ship_disc').text(data.prices[0].discount);
                                 $('#ship_result').slideDown();
                             }
                         }

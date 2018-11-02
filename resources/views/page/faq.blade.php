@@ -4,6 +4,9 @@
 @section('description', 'Learn more about ShoppRe, International shipping services from India, shopping at Indian stores, shipping rates, virtual address, courier delivery & more.')
 @section('keywords', 'frequently asked questions, membership plan, shipping rates, virtual address, app, account information, receipts')
 
+@section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/faq" />
+@endsection
 @section('content')
 
   <section class="page_head">

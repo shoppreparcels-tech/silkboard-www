@@ -180,13 +180,12 @@
                                             </div>
                                             <div class="col-md-5 col-sm-12 ">
                                                 <p class="header7 p-country-guide ">
-                                                    <a href="#" class="tooltipkey" title="We ship to 220+ countries! Want to find out if your country is one of them? Check out the specific discounts we offer
+                                                    <a href="{{route('cguide.index')}}" class="tooltipkey" title="We ship to 220+ countries! Want to find out if your country is one of them? Check out the specific discounts we offer
                                                          for each country as well while you're at it!">
                                                         <i class="fa fa-question-circle-o"></i>
                                                     </a>
-                                                    Country Guide <a
-                                                        href="https://www.shoppre.com/offers/flames-shopping-season-sale-india-shipping-offer/"
-                                                        target="_blank"><span
+                                                    Country Guide
+                                                    <a href="https://www.shoppre.com/offers/flames-shopping-season-sale-india-shipping-offer/"><span
                                                             class="header7 p-color-red price-cal-country">Offers</span></a>
                                                 </p>
 
@@ -206,7 +205,7 @@
                                                     <input class="radio-pricing p-color-cement-dark"
                                                            type="radio"
                                                            name="type" value="doc"
-                                                    >Document
+                                                           Width (in cm)                             >Document
                                                 </label>
                                             </div>
                                         </div>
@@ -218,10 +217,12 @@
                                         <div class="col-md-12 col-xs-12 no-padding">
                                             <div class="col-md-6 col-sm-6 col-xs-7 no-padding">
                                                 <div class="div-text-box">
-                                                    <span id="aminus" class="btn-puls-minus dec-value">-</span>
+                                                    {{--<span id="aminus" class="btn-puls-minus dec-value">-</span>--}}
+                                                    <span id="aminus" class="btn btn-puls-minus dec-value no-padding">-</span>
                                                     <input type="text" id="adnum" class="txt-weight" value="1"
                                                            name="weight">
-                                                    <span id="aplus" class="btn-puls-minus inc-value">+</span>
+                                                    <span id="aplus" class="btn btn-puls-minus inc-value no-padding">+</span>
+                                                    {{--<span id="aplus" class="btn-puls-minus inc-value">+</span>--}}
                                                 </div>
                                             </div>
                                             <div class="col-md-3 col-sm-3 no-padding" id="weight-option-padding">
@@ -279,7 +280,7 @@
                                                     </div>
                                                     <div class="col-md-4 col-sm-4 col-xs-4 div-price-cal-length-padding">
                                                         <h6 class="header7 p-color-cement">Width (in cm)</h6>
-                                                        <div class="col-sm-12 div-price-cal-length">
+                                                        <div class="col-sm-12 no-padding div-price-cal-length">
                                                     <span id="aminus"
                                                           class="btn btn-puls-minus dec-value no-padding">-</span>
                                                             <input type="text" class="txt-length" name="width"
@@ -320,12 +321,12 @@
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
                                                 <input class="header6 p-color-cement txt-pincode" type="text"
                                                        name="pin"
-                                                       placeholder=" Enter pincode">
+                                                       placeholder=" Enter pincode" required>
                                             </div>
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
                                                 <input class="header6 p-color-cement txt-pincode" type="text"
                                                        name="pincode-from"
-                                                       placeholder=" Enter pincode">
+                                                       placeholder=" Enter pincode" required>
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-xs-12 no-padding">
@@ -354,10 +355,12 @@
                                         <div class="col-md-12 col-xs-12 no-padding">
                                             <div class="col-md-6 col-sm-6 col-xs-7 no-padding">
                                                 <div class="div-text-box">
-                                                    <span id="aminus" class="btn-puls-minus dec-value">-</span>
+                                                    <span id="aminus" class="btn btn-puls-minus dec-value no-padding">-</span>
+                                                    {{--<span id="aminus" class="btn-puls-minus dec-value">-</span>--}}
                                                     <input type="text" id="adnum" class="txt-weight" value="1"
                                                            name="weight">
-                                                    <span id="aplus" class="btn-puls-minus inc-value">+</span>
+                                                    {{--<span id="aplus" class="btn-puls-minus inc-value">+</span>--}}
+                                                    <span id="aplus" class="btn btn-puls-minus inc-value no-padding">+</span>
                                                 </div>
                                             </div>
                                             <div class="col-md-3 col-sm-3 no-padding">
@@ -635,10 +638,10 @@
                                         <div class="col-md-12 col-xs-12 no-padding">
                                             <div class="col-md-6 col-sm-6 col-xs-7 no-padding">
                                                 <div class="div-text-box">
-                                                    <span id="aminus" class="btn-puls-minus dec-value">-</span>
+                                                    <span id="aminus" class="btn btn-puls-minus dec-value no-padding">-</span>
                                                     <input type="text" id="adnum" class="txt-weight" value="1"
                                                            name="weight1">
-                                                    <span id="aplus" class="btn-puls-minus inc-value">+</span>
+                                                    <span id="aplus" class="btn btn-puls-minus inc-value no-padding">+</span>
                                                 </div>
                                             </div>
                                             <div class="col-md-3 col-sm-3 no-padding" id="weight-option-padding">
@@ -696,7 +699,7 @@
                                                     </div>
                                                     <div class="col-md-4 col-sm-4 col-xs-4 div-price-cal-length-padding">
                                                         <h6 class="header7 p-color-cement">Width (in cm)</h6>
-                                                        <div class="col-sm-12  div-price-cal-length">
+                                                        <div class="col-sm-12 no-padding div-price-cal-length">
                                                     <span id="aminus"
                                                           class="btn btn-puls-minus dec-value no-padding">-</span>
                                                             <input type="text" class="txt-length" name="width1"
@@ -737,12 +740,12 @@
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
                                                 <input class="header6 p-color-cement txt-pincode" type="text"
                                                        name="pin"
-                                                       placeholder=" Enter pincode">
+                                                       placeholder=" Enter pincode" required>
                                             </div>
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
                                                 <input class="header6 p-color-cement txt-pincode" type="text"
                                                        name="pincode-from"
-                                                       placeholder=" Enter pincode">
+                                                       placeholder=" Enter pincode" required>
                                             </div>
                                         </div>
                                         <div class="col-xs-12 col-md-12 no-padding">
@@ -771,10 +774,13 @@
                                         <div class="col-xs-12 col-md-12 no-padding">
                                             <div class="col-md-6 col-sm-6 col-xs-7 no-padding">
                                                 <div class="div-text-box">
-                                                    <span id="aminus" class="btn-puls-minus dec-value">-</span>
+                                                    {{--<span id="aminus" class="btn-puls-minus dec-value">-</span>--}}
+                                                    <span id="aminus" class="btn btn-puls-minus dec-value no-padding">-</span>
                                                     <input type="text" id="adnum" class="txt-weight" value="1"
                                                            name="weight">
-                                                    <span id="aplus" class="btn-puls-minus inc-value">+</span>
+                                                    {{--<span id="aplus" class="btn-puls-minus inc-value">+</span>--}}
+                                                    <span id="aplus" class="btn btn-puls-minus inc-value no-padding">+</span>
+
                                                 </div>
                                             </div>
                                             <div class="col-md-3 col-sm-3 no-padding">

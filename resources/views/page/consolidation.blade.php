@@ -5,6 +5,7 @@
 @section('keywords', 'shoppre, consolidation service, save on shipping costs, multiple stores, combine packages')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/consolidation-service" />
     <meta property="og:title" content="What is ShoppRe Package Consolidation & How to Save on Shipping Costs?"/>
     <meta property="og:type" content="website"/>
     <meta property="og:description" content="ShoppRe package consolidation service helps in combining your packages purchased from multiple Indian stores into one shipment and saving upto 60-80% on shipping costs."/>

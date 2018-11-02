@@ -54,7 +54,7 @@ Route::get('/shop-from-india-ship-worldwide', 'PageController@ifsIndex')->name('
 //Route::get('/about-new', 'PageController@aboutIndex')->name('about-new.index');
 Route::get('/offers-new', 'PageController@offersIndex')->name('offers-new.index');
 Route::get('/diwali-offer', 'PageController@diwali')->name('diwali');
-Route::get('/stores-new', 'PageController@storeNew')->name('stores1');
+Route::get('/indian-online-stores', 'PageController@storeNew')->name('stores1');
 Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
 
 /*-------- Dhl Shipments ------*/

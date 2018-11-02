@@ -4,6 +4,9 @@
 @section('description', 'Terms and Conditions by ShoppRe that applies to user must agree to adhere to the following guidelines when using this Website or Mobile App.')
 @section('keywords', 'terms and conditions, set of rules and guidelines user must agree, following guidelines, website, mobile app')
 
+@section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/terms-and-conditions">
+@endsection
 @section('content')
 
     <section class="page_head">

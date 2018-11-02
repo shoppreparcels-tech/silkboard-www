@@ -5,6 +5,7 @@
 @section('keywords', 'shop and ship, courier service, shoppre, consolidation company, indian store, ship internationally, dhl, dtdc, cheapest package forwarding')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com" />
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
     <!-- Magnific Popup -->

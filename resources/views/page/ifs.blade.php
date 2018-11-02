@@ -6,6 +6,7 @@
 
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/shop-from-india-ship-worldwide" />
     <style>
         .box-ifs {
             /*margin-left: 70px*/

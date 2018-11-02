@@ -4,7 +4,7 @@
 @section('keywords', 'reviews, ratings, customer, shipping, shopping, service, india')
 
 @section('css_style')
-    <!-- Select2 -->
+    <link rel="canonical" href="https://www.shoppre.com/reviews">
     <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/star-rating.min.css')}}" rel="stylesheet"/>
 

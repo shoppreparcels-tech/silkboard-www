@@ -4,6 +4,9 @@
 @section('description', 'List of countries with pricing, latest import or export restrictions, contact details and address of shipping service from India & Ship your items Worldwide.')
 @section('keywords', 'list, countries, shipping, worldwide, pricing, service, india, address')
 
+@section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/countries" />
+@endsection
 @section('content')
 
     <section class="sellers">

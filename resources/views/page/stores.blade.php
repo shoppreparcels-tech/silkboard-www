@@ -5,6 +5,9 @@
 @section('description', 'Shop from list of Top Indian Shopping Sites, Facebook & Instagram Sellers. Save by combining multiple packages into one and get it shipped to your country.')
 @section('keywords', 'shop, list of top indian shopping sites, facebook, instagram sellers, multiple packages, shipped to your country')
 
+@section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/indian-online-stores" />
+@endsection
 @section('content')
 
 	 <section class="page_head">

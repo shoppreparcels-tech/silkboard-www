@@ -1,10 +1,11 @@
 @extends('layout')
 
-@section('title', 'Pricing | Shipping Cost Calculator - Shoppre')
+@section('title', 'Pricing | Shipping Cost Calculator - ShoppRe')
 @section('description', 'Get the right plan that suits your need and calculate your shipping costs from India to any country. Save upto 75% on shipping rates!')
 @section('keywords', 'calculate your shipping costs, from india to any country, save 75% on shipping rates, repackaging service, shipping calculator')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/pricing" />
     <!-- Select2 -->
     <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
     <!-- Magnific Popup -->

@@ -4,6 +4,10 @@
 @section('description', 'ShoppRe privacy policy is dedicated to protect the personal information which applies to all users of our websites, apps, features or other services worldwide.')
 @section('keywords', 'shoppre privacy policy, personal information, information we collect, why, third parties, information sharing, disclosure')
 
+
+@section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/privacy-policy" />
+@endsection
 @section('content')
 
     <section class="page_head">

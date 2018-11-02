@@ -6,6 +6,7 @@
 
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/how-it-works" />
     <meta property="og:title" content="How Does ShoppRe Works and How to Shop & Ship from India"/>
     <meta property="og:type" content="website"/>
     <meta property="og:description"

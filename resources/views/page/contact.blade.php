@@ -5,6 +5,7 @@
 @section('keywords', 'about your package, shipping services, helpline number, start live chat, shipping faq, team shoppre')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/contact" />
     <meta property="og:title" content="Customer Support ShoppRe | International Courier & Consolidation Services"/>
     <meta property="og:type" content="website"/>
     <meta property="og:description" content="Have any questions or concerns? about your purchase or shipping services. Contact our customer care or chat specialists & FAQ resources are available 24*7"/>

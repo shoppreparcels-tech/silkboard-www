@@ -124,6 +124,10 @@ body.logged-in .YouTubePopUp-Wrap {
 #step1 {
     /*margin-left:20px;*/
 }
+#ics-box1{
+    box-shadow: 0 -1px 30px rgba(103, 117, 130, 0.17);
+    background-color: #ffffff;
+}
 
 .box:hover {
     box-shadow: 0 -1px 30px rgba(103, 117, 130, 0.17);

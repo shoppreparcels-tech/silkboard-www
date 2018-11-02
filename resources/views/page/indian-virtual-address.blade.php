@@ -5,7 +5,7 @@
 @section('keywords', 'virtual address')
 
 @section('css_style')
-    <!-- Select2 -->
+    <link rel="canonical" href="https://www.shoppre.com/indian-virtual-address" />
     <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="css/magnific-popup.css">

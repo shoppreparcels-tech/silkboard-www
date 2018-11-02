@@ -4,6 +4,9 @@
 @section('description', 'Please read the refund policy, conditions carefully before making shipping, personal shopper & membership fees; return and storage charges & any optional services.')
 @section('keywords', 'refund policy, conditions, shipping, handling charges, membership dues, return fees, storage charges')
 
+@section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/refund-and-cancellation-policy" />
+@endsection
 @section('content')
 
     <section class="page_head">
