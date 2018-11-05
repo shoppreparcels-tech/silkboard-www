@@ -28,6 +28,7 @@
     <link href="{{asset('css/print.css')}}" rel="stylesheet">
     <script src="{{asset('js/jquery.min.js')}}"></script>
 
+
     {{--<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">--}}
 
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
@@ -39,6 +40,7 @@
     <link rel="stylesheet" href="{{asset('css/offers.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
     <link rel="stylesheet" href="{{asset('css/diwali.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
     <link rel="stylesheet" href="{{asset('css/stores-new.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
+
 
     @yield('css_style')
 

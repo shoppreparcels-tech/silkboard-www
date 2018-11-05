@@ -514,7 +514,7 @@
                                         weight.</p>
                                     <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
                                         The
-                                        rates displayed are INCLUSIVE of the fuel surcharge and taxes within</p>
+                                        rates displayed are INCLUSIVE of the fuel surcharge and taxes within India</p>
                                     <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
                                         For
                                         electronics items , INR 500 will be charged additionally.</p>
@@ -901,7 +901,7 @@
                                         Pickup charges 100 </p>
                                     <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
                                         The
-                                        rates displayed are INCLUSIVE of the fuel surcharge and taxes within</p>
+                                        rates displayed are INCLUSIVE of the fuel surcharge and taxes within India</p>
                                     <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
                                         For
                                         electronics items , INR 500 will be charged additionally.</p>
@@ -1392,7 +1392,7 @@
                                     <img src="{{asset('img/svg/seller.svg')}}" alt="">
                                     <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
                                     <h1 class="header1 p-mem-plans-box membership-text-margin">
-                                        ₹599/-</h1>
+                                        ₹700/-</h1>
                                     <h6 class="header6 text-forever ">PER MONTH</h6>
                                     <div class="div-backgroud-price-cal1 text-nochange-margin">
                                         <h5 class="header6">No Extra Charge</h5>
@@ -1531,7 +1531,7 @@
                                         </div>
                                         <div class="div-backgroud-price-cal">
                                             <h5 class="header6">
-                                                ₹41 Per Page
+                                                ₹40 Per Page
                                             </h5>
                                         </div>
                                         <div class="div-backgroud-price-cal1">
@@ -1956,7 +1956,7 @@
                                     <img src="{{asset('img/svg/seller.svg')}}" alt="">
                                     <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
                                     <h1 class="header1 p-mem-plans-box membership-text-margin">
-                                        ₹7188/-</h1>
+                                         ₹6750/- </h1>
                                     <h6 class="header6 text-forever ">PER YEAR</h6>
                                     <div class="div-backgroud-price-cal1 text-nochange-margin">
                                         <h5 class="header6">No Extra Charge</h5>
@@ -2094,7 +2094,7 @@
                                         </div>
                                         <div class="div-backgroud-price-cal">
                                             <h5 class="header6">
-                                                ₹41 Per Page
+                                                ₹40 Per Page
                                             </h5>
                                         </div>
                                         <div class="div-backgroud-price-cal1">
@@ -2740,7 +2740,7 @@
                                     <img src="{{asset('img/svg/seller.svg')}}" alt="">
                                     <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
                                     <h1 class="header1 p-mem-plans-box membership-text-margin">
-                                        ₹599/-</h1>
+                                        ₹700/-</h1>
                                     <h6 class="header6 text-forever ">PER MONTH</h6>
                                     <div class="div-backgroud-price-cal1 text-nochange-margin">
                                         <h5 class="header6">No Extra Charge</h5>
@@ -3101,7 +3101,7 @@
                                         </div>
                                         <div class="div-backgroud-price-cal">
                                             <h5 class="header6">
-                                                ₹41 Per Page
+                                                ₹40 Per Page
                                             </h5>
                                         </div>
                                         <div class="div-backgroud-price-cal1" style="padding-top: 15px;padding-bottom: 16px;">

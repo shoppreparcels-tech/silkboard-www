@@ -185,31 +185,31 @@
             <div class="row text-center">
                 <br/><br/>
                 <div class="col-sm-4">
-                    <div class="panel img-rounded">
+                    <div class="panel ">
                         <br/><br/>
                         <img src="{{asset('img/svg/d-step1.svg')}}" alt="">
                         <br/><br/>
                         <h1 class="header3 p-color-cement">STEP 1</h1>
                         <br/>
-                        <h1 class="header3 p-color-cement">Get a FREE Idian virtual Address,<br> sit back & shop around.
+                        <h1 class="header3 p-color-cement">Get a FREE Indian virtual Address,<br> sit back & shop around.
                         </h1>
                         <br/>
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="panel img-rounded">
+                    <div class="panel ">
                         <br/><br/>
                         <img src="{{asset('img/svg/d-step2.svg')}}" alt="">
                         <br/><br/>
                         <h1 class="header3 p-color-cement">STEP 2</h1>
                         <br>
-                        <h1 class="header3 p-color-cement">Shop from any Indain,<br> online store.</h1>
+                        <h1 class="header3 p-color-cement">Shop from any Indian,<br> online store.</h1>
                         <br>
 
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="panel img-rounded">
+                    <div class="panel ">
                         <br/><br/>
                         <img src="{{asset('img/svg/d-step3.svg')}}" alt="">
                         <br/><br/>

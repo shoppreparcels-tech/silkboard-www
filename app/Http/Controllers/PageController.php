@@ -32,9 +32,18 @@ class PageController extends Controller
     {
         return view('page.ics');
     }
+
     public function diwali()
     {
         return view('page.diwali-landing');
+    }
+    public function icsLandingPage()
+    {
+        return view('page.ics-landing');
+    }
+    public function ifsLandingPage()
+    {
+        return view('page.personal-shoper');
     }
     public function storeNew()
 
@@ -61,6 +70,10 @@ class PageController extends Controller
         }
 
         return view('page.stores-new')->with(['categories' => $categories, 'webs' => $webs, 'fbs' => $fbs, 'feats' => $feats]);
+    }
+    public function award()
+    {
+        return view('page.award');
     }
     public function ifsIndex()
     {

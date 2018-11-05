@@ -433,7 +433,60 @@
     display: none;
 }
 
+/*!*ICS LANDING PAGE*!*/
+.bg-ics-landing-page {
+    background-image: url("../../img/images/overlay1.png");
+    /*height: 100%;*/
+    height: 560px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fafafb;
+    padding-top: 60px;
+}
+.div-ics-coupon-parent{
+    box-shadow: 0 0 36px rgba(146, 156, 165, 0.2);
+    border: 2px dashed #e85151;
+    background-color: #ffffff;
+    height: 178px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.div-ics-coupon {
+    border: 2px dashed #e9c46a;
+    border-radius: 5px;
+}
+.div-ics-prodcts{box-shadow: 0 0 10px rgba(80, 125, 188, 0.1);border-radius: 10px;background-color: #ffffff;}
+.div-ics-prodcts ul{text-decoration: none; list-style: none; padding-top: 20px}
+.div-ics-prodcts img{width: 30px;height: 40px;}
+.div-ics-prodcts ul li{padding-top:0px;color: #224464;font-family: Bahnschrift;font-size: 22px;font-weight: 400}
+/*!*ICS LANDING PAGE*!*/
+
+/*ifs-landing-page*/
+.product-courier{background-color: #fafafb;border-bottom: 1px solid rgba(180, 211, 255, 0.3);}
+.div-form-get-quote{padding-top: 30px;padding-bottom: 30px}
+.div-form-get-quote img{width: 30% ;margin-bottom: 30px}
+.div-ics-border-btm{border-bottom: 1px solid rgba(180, 211, 255, 0.3); padding-top: 70px;padding-bottom: 30px }
+.btn-ifs-l-assisted {width: 300px;height: 50px;color: #ffffff;border-radius: 30px !important; background-color: #e85151; padding-top: 13px !important;transition: 0.6s;color:#fff }
+.btn-ifs-l-assisted:hover {background-color: #C83B3B;color: white;border: none;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);}
+.div-lets-ps{box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 20px;background-color: #fafafb;margin-top: -368px;padding-top: 50px }
+.div-lets-ps div a{color: #507dbc;font-family: Montserrat;font-size: 15px;font-weight: 700;}
+.div-lets-ps div a:hover{color: #507dbc;text-decoration:underline }
+.div-lets-ps div button{box-shadow: 0 5px 15px rgba(232, 81, 81, 0.3);border-radius: 60px;background: #fe9611;opacity: 1; height: 50px}
+.div-lets-ps div button:hover{color:#fff;opacity: 0.8}
+.product-courier{background-color: #fafafb;margin-top: 30px}
+/*.product-courier>div{border-bottom: 1px solid rgba(180, 211, 255, 0.3);padding-top: 30px;}*/
+.product-courier a{width: 300px;height: 50px;border-radius: 30px;background-color: #e85151; color: white;padding: 15px}
+.product-courier a:hover{background-color: #C83B3B;color: white;border: none;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);}
+.ps-img-rounded{height:400px}
+.div-btn-padding{padding-top: 30px;}
+/*ifs-landing-page*/
+
 @media only screen and (max-width: 600px) {
+
+    .div-btn-padding{padding-top: 0px;margin-left: -12px;}
+    .img-rounded {height: 300px;}
 
     .shopContainer {
         margin-top: -200px;
@@ -472,7 +525,7 @@
     .div-diwali-coupon {
         margin-bottom: 40px;
     }
-  
+
     .d-stores-box {
         width: 110px;
         height: 66px;
@@ -497,6 +550,10 @@
     .diwali-offer-img {
         margin-left: 5px;
     }
+    /*ics landig page*/
+    .div-ics-prodcts img{width: 15px;height: 20px;}
+    .div-ics-prodcts ul li{padding-top:10px;font-size: 13px;}
+    /*ics landig page*/
 
 }
 

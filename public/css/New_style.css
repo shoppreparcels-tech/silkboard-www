@@ -5,18 +5,30 @@
 .body {
     margin: 0;
     font-family: Montserrat !important;
-    /*background-image: url('../../img/images/diwali-box-add.png');*/
-    /*background-repeat: no-repeat;*/
-    /*background-attachment: fixed;*/
-    /*!*background-position: 1% 50%;*!*/
-    /*background-position: left;*/
-    /*!*z-index: 99999;*!*/
+
+}
+
+.add-left-img{
+    background-image: url('../../img/images/diwali-box-add.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-position: 1% 50%;*/
+    background-position: left;
+    /*z-index: 99999;*/
+}
+.add-right-img{
+    background-image: url('../../img/images/diwali-box-add.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-position: 1% 50%;*/
+    background-position: right;
+    /*z-index: 99999;*/
 }
 /*mega menu css*/
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-body {
-    font-family: 'Open Sans', 'sans-serif';
-}
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);*/
+/*body {*/
+    /*font-family: 'Open Sans', 'sans-serif';*/
+/*}*/
 
 
 .navbar-inverse {
@@ -196,7 +208,7 @@ body {
 /*searchtext box*/
 
 .container-search{
-    width:300px;
+    width:270px;
     margin-top: 5px;
     /*display: block;*/
 }
@@ -1872,7 +1884,7 @@ a#prev:hover, a#next:hover {
 .mail-section {
     background-color: #102436;
     padding-top: 20px;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
 }
 
 .div-footer-mail-subscripton {
@@ -4460,7 +4472,7 @@ a#prev:hover, a#next:hover {
     .div-footer-mail-subscripton {
         width: 350px;
         float: left;
-        margin-left: 10px;
+        margin-left: -8px;
     }
 
     .txt-subscription {
@@ -4621,10 +4633,12 @@ a#prev:hover, a#next:hover {
     .div-phone {
         border: none;
         border-radius: 0px;
-        margin-left: 74px;
+        margin-left: 36px;
         border-bottom: 2px solid #fdf699;
     }
-
+    .div-phone img {
+        margin-left: -40px;
+    }
     .border-bottom {
         border: none;
     }
@@ -4849,7 +4863,7 @@ a#prev:hover, a#next:hover {
     .div-footer-mail-subscripton {
         width: 350px;
         float: left;
-        margin-left: -10px;
+        margin-left: -3px;
     }
 
     .txt-subscription {

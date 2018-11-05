@@ -54,7 +54,6 @@
             <div class="col-sm-4 padding-top-bottom-100 no-border-inmobile">
                 <div class=" img-rounded">
                     <p class=" p-color-cement padding-bottom-15" style="font-weight: 900">STEP 3</p>
-
                     <img src="{{asset('img/svg/d-step3.svg')}}" alt="">
                     <h4>Ship to Doorsteps</h4>
                     <p class="  description-p p-color-cement"> We will ship your products from you your doorsteps in
