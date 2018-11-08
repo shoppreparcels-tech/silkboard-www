@@ -37,17 +37,25 @@ class PageController extends Controller
     {
         return view('page.diwali-landing');
     }
+
     public function icsLandingPage()
     {
         return view('page.ics-landing');
     }
+
     public function ifsLandingPage()
     {
         return view('page.personal-shoper');
     }
-    public function storeNew()
 
-    {$categories = StoreCategory::orderBy('category', 'asc')->get();
+    public function seller()
+    {
+        return view('page.become-partner');
+    }
+
+    public function storeNew()
+    {
+        $categories = StoreCategory::orderBy('category', 'asc')->get();
         $webs = StoreCatClub::where('category_id', 1)
             ->where('type', 'web')
             ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
@@ -71,10 +79,12 @@ class PageController extends Controller
 
         return view('page.stores-new')->with(['categories' => $categories, 'webs' => $webs, 'fbs' => $fbs, 'feats' => $feats]);
     }
+
     public function award()
     {
         return view('page.award');
     }
+
     public function ifsIndex()
     {
         return view('page.ifs');
@@ -94,7 +104,7 @@ class PageController extends Controller
     {
         return view('page.offers-new');
     }
-    public function pricing1()
+    public function pricingOld()
     {
         $reviews = Review::orderBy('updated_at', 'desc')
             ->where('approve', '1')

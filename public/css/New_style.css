@@ -2604,7 +2604,7 @@ a#prev:hover, a#next:hover {
     /*padding: 17px 5px;*/
     /*}*/
     .nav > li > a {
-        padding: 6px 5px;
+        padding: 10px 5px;
     }
 
     .navbar-container ul li a {

@@ -41,7 +41,6 @@
     <link rel="stylesheet" href="{{asset('css/diwali.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
     <link rel="stylesheet" href="{{asset('css/stores-new.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
 
-
     @yield('css_style')
 
     <link href="{{asset('css/style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" rel="stylesheet">

@@ -9,7 +9,6 @@
     <link rel="canonical" href="https://www.shoppre.com/shop-from-india-ship-worldwide" />
 @endsection
 @section('content')
-
     <section class="b-heading-section">
         <div class="container">
             <div class="row padding-bottom">

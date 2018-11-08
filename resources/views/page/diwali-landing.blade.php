@@ -267,7 +267,6 @@
             </div>
         </div>
     </section>
-
     <section class="d-contact-section-desktop">
         <div class="container " id="contact-support">
             <div class="row" id="d-contcat">
