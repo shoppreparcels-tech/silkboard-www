@@ -3909,7 +3909,7 @@ section.loyalty {
 .calc-form label {
     font-weight: 700;
     /*font-size: 14px;*/
-    margin-bottom: 3px;
+    margin-bottom: 10px;
     /*padding-left: 0px;*/
 }
 
@@ -4101,7 +4101,7 @@ section.loyalty {
 
 .quote-form label {
     font-weight: 700;
-    font-size: 12px;
+    /*font-size: 12px;*/
     margin-bottom: 2px
 }
 

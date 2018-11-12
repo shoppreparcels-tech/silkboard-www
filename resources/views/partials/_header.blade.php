@@ -222,7 +222,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="https://www.shoppre.com/offers/diwali-shopping-and-courier-from-india-shipping-offer/" target="_blank">Offers <sup class="p-color-red" style="font-size: 8px">New</sup> </a></li>
+                    <li><a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/" target="_blank">Offers <sup class="p-color-red" style="font-size: 8px" id="offer">New</sup> </a></li>
                     <li><a href="{{route('pricing')}}">Price Calculator</a></li>
                     <li><a href="{{route('contact')}}">Support</a></li>
                     <li>

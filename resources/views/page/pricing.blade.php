@@ -7,6 +7,12 @@
 @section('css_style')
     <style>
         {{--table--}}
+        .padding-bottom{
+            padding-bottom: 10px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
         #customers {
             font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
             border-collapse: collapse;
@@ -172,11 +178,10 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 shop-ship">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 shop-ship-menu">
                     <div class="list-group">
-                        <a href="#" class="col-md-6 col-xs-6 list-group-item1 active text-center header4">
+                        <a href="#" class="col-md-6 col-xs-6 list-group-item1 active text-center header2">
                             Shop & Ship
                         </a>
-
-                        <a href="#" class="col-md-6 col-xs-6 list-group-item1 text-center header4">
+                        <a href="#" class="col-md-6 col-xs-6 list-group-item1 text-center header2">
                             Courier
                         </a>
                     </div>
@@ -190,9 +195,15 @@
             <div class="container shop-ship-tab" style="padding-bottom: 20px">
                 <div class="shop-ship-tab-content active">
                     <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12 no-padding">
+                        <div class="col-sm-10">
+                            <br>
+                            <label class="header6 p-color-blue">
+                                Shop From Any Indian Store; Get It to a FREE Indian Virtual  Address; We'll Ship It to Your Doorsteps!
+                            </label>
+                        </div>
                         <span id="calc_error">Sorry! No delivery options available in requested country. Please contact our support team for assistance.</span>
                         <div class="tab" role="tabpanel">
-                            <ul class="nav nav-tabs ul-margin" role="tablist">
+                            <ul class="nav nav-tabs" role="tablist">
                                 <li role="presentation" class="active">
                                     <a href="#International" aria-controls="home" role="tab"
                                        data-toggle="tab">International</a>
@@ -204,13 +215,15 @@
                                 </li>
                             </ul>
                             <div class="tab-content tabs">
-                                <div role="tabpanel" class="tab-pane fade in active" id="International">
+                                <div role="tabpanel" class="tab-pane fade in active padding-bottom" id="International">
                                     <form class="calc-form" id="shipping">
                                         {{ csrf_field() }}
                                         <div class="col-xs-12 col-md-12 no-padding">
-                                            <div class="col-md-7 col-sm-12 no-padding price-cal-country">
-                                                <label class="header6 p-color-cement">Where do you want to send your
-                                                    package to?</label>
+                                            <div class="col-md-6 col-sm-12 no-padding padding-bottom">
+                                                <label class="header6 p-color-cement">
+                                                    Where do you want to send your
+                                                    package to?
+                                                </label>
                                                 <select class="form-control select2" name="country">
                                                     <option value="">Select Country</option>
                                                     @foreach($countries as $country)
@@ -232,7 +245,7 @@
 
                                             </div>
                                         </div>
-                                        <div class="col-md-12 col-xs-12 no-padding">
+                                        <div class="col-md-12 col-xs-12 padding-bottom">
                                             <div class="radio">
                                                 <label class="checkbox-inline header6">
                                                     <input class="radio-pricing  p-color-cement-dark"
@@ -250,18 +263,18 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 col-xs-12 no-padding">
-                                            <label class="control-label header6 ">What is the weight of
+                                        <div class="col-md-12 col-xs-12 padding-bottom">
+                                            <label class="control-label header6 ">What is the Weight of
                                                 your
-                                                package? <span>*</span> </label>
+                                                Package? <span>*</span> </label>
                                         </div>
-                                        <div class="col-md-12 col-xs-12 no-padding">
+                                        <div class="col-md-12 col-xs-12 padding-bottom">
                                             <div class="col-md-6 col-sm-6 col-xs-6 no-padding">
                                                 <div class="div-text-box">
                                                     {{--<span id="aminus" class="btn-puls-minus dec-value">-</span>--}}
                                                     <span id="aminus"
                                                           class="btn btn-puls-minus dec-value no-padding">-</span>
-                                                    <input type="text" id="adnum" class="txt-weight" value="1"
+                                                    <input type="text" id="adnum" class="txt-weight" value="0.5"
                                                            name="weight">
                                                     <span id="aplus"
                                                           class="btn btn-puls-minus inc-value no-padding">+</span>
@@ -284,7 +297,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xs-12 col-md-12 no-padding">
+                                        <div class="col-xs-12 col-md-12 padding-bottom">
                                             <div class=" col-md-8 col-sm-12 div-dimension">
                                                 <div class="div-volumetric-weight">
                                                     <center>
@@ -349,7 +362,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xs-12 col-md-12 no-padding div-pric-cal-estimate">
+                                        <div class="col-xs-12 col-md-12 div-pric-cal-estimate padding-bottom">
                                             <button type="submit" class="btn btn-pricing-estimate header6">ESTIMATE
                                             </button>
                                         </div>
@@ -358,28 +371,28 @@
                                 <div role="tabpanel" class="tab-pane fade" id="Domestic">
                                     <form class="quote-form calc-form" id="form_quote" method="post">
                                         {{csrf_field()}}
-                                        <div class="col-md-12 col-xs-12 no-padding">
+                                        <div class="col-md-12 col-xs-12 padding-bottom">
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
-                                                <label class="header7 p-color-cement">Pickup Location-Pin
+                                                <label class="p-color-cement header6">Pickup Location-Pin
                                                     code</label>
                                             </div>
                                             <div class="col-md-4 col-sm-6  col-xs-6 no-padding">
-                                                <label class="header7 p-color-cement">Destination-Pincode</label>
+                                                <label class="p-color-cement header6">Destination-Pincode</label>
                                             </div>
                                         </div>
-                                        <div class="col-xs-12 col-md-12 no-padding">
+                                        <div class="col-xs-12 col-md-12 padding-bottom">
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
                                                 <input class="header6 p-color-cement txt-pincode" type="text"
                                                        name="pin"
-                                                       placeholder=" Enter pincode" required>
+                                                       placeholder=" Enter Pincode" required>
                                             </div>
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
                                                 <input class="header6 p-color-cement txt-pincode" type="text"
                                                        name="pincode-from"
-                                                       placeholder=" Enter pincode" required>
+                                                       placeholder=" Enter Pincode" required>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 col-xs-12 no-padding">
+                                        <div class="col-md-12 col-xs-12 padding-bottom">
                                             <div class="radio">
                                                 <label class="checkbox-inline">
                                                     <input class="radio-pricing header6 p-color-cement-dark"
@@ -397,18 +410,18 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="col-xs-12 col-md-12 no-padding">
-                                            <label class="col-sm-12 control-label no-padding">What is the Weight of
+                                        <div class="col-xs-12 col-md-12 padding-bottom">
+                                            <label class="col-sm-12 control-label no-padding header6">What is the Weight of
                                                 your
-                                                package (Kg)? <span>*</span> </label>
+                                                Package? <span>*</span> </label>
                                         </div>
-                                        <div class="col-md-12 col-xs-12 no-padding">
+                                        <div class="col-md-12 col-xs-12 padding-bottom">
                                             <div class="col-md-6 col-sm-6 col-xs-7 no-padding">
                                                 <div class="div-text-box">
                                                     <span id="aminus"
                                                           class="btn btn-puls-minus dec-value no-padding">-</span>
                                                     {{--<span id="aminus" class="btn-puls-minus dec-value">-</span>--}}
-                                                    <input type="text" id="adnum" class="txt-weight" value="1"
+                                                    <input type="text" id="adnum" class="txt-weight" value="0.5"
                                                            name="weight">
                                                     {{--<span id="aplus" class="btn-puls-minus inc-value">+</span>--}}
                                                     <span id="aplus"
@@ -432,22 +445,22 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xs-12 col-md-12 no-padding" style="margin-top: 8px;">
-                                            <label class="header6 control-label">Your E-mail Address</label>
+                                        <div class="col-xs-12 col-md-12 padding-bottom">
+                                            <label class="header6 control-label ">Your E-mail Address</label>
                                             <div class="col-sm-10 no-padding">
                                                 <input type="text" class="form-control" name="email"
                                                        placeholder="Enter a valid E-mail Id">
                                             </div>
                                         </div>
-                                        <div class="col-md-12 col-xs-12 no-padding" style="margin-top: 8px;">
+                                        <div class="col-md-12 col-xs-12 no-padding">
                                             <label class=" col-md-12 no-padding header6 control-label">Contact
                                                 Number</label>
                                             <div class="col-sm-10 no-padding">
                                                 <input type="text" class="form-control" name="mobile"
-                                                       placeholder="Enter a valid phone Number">
+                                                       placeholder="Enter a valid Phone Number">
                                             </div>
                                         </div>
-                                        <div class="col-xs-12 col-md-12 no-padding div-pric-cal-estimate">
+                                        <div class="col-xs-12 col-md-12 padding-bottom div-pric-cal-estimate">
                                             <div class="col-sm-12 no-padding">
                                                 <button type="submit"
                                                         class="btn btn-pricing-estimate no-padding header6"
@@ -484,7 +497,7 @@
                                         <i class="fa fa-question-circle-o"></i>
                                     </a>
                                     <a href="{{route('cguide.index')}}" target="_blank" class="header7 p-color-blue">Country Guide</a>
-                                    <a href="https://www.shoppre.com/offers/flames-shopping-season-sale-india-shipping-offer/" target="_blank"><span
+                                    <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/" target="_blank"><span
                                             class="header7 p-color-red price-cal-country">Offers</span></a>
                                 </p>
                                 <p class="header7 p-color-cement">Centimeter to Inch Conversion</p>
@@ -569,20 +582,22 @@
                             <div class="div-estimat-amount-devider"></div>
                             <div class="row">
                                 <div class="col-sm-12 col-md-12" style="margin-top: 20px;">
-                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
+                                    <p class="header7 p-color-cement"><span class="p-color-red">*</span>
                                         The
                                         chargeable weight is always the greater of the two: Volumetric or the Actual
                                         weight.</p>
-                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
+                                    <p class="header7 p-color-cement"><span class="p-color-red">*</span>
                                         The
                                         rates displayed are INCLUSIVE of the fuel surcharge and taxes within India</p>
-                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
+                                    <p class="header7 p-color-cement"><span class="p-color-red">*</span>
                                         For
-                                        electronics items , INR 500 will be charged additionally.</p>
-                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
-                                        Excludes oversized and palletized shipments, and special products (liquids,
-                                        homemade food, etc.)</p>
-                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">**</span>
+                                        electronics items,<a href="https://www.shoppre.com/parcel-forwarding/guidelines-for-shipping-electronics-items-from-india/"> additional charges are applicable</a>.</p>
+                                    <p class="header7 p-color-cement"><span class="p-color-red">*</span>
+                                        Excludes oversized and palletized shipments, and <a href="#special-products">special products (liquids,
+                                            homemade food, etc.)</a><a href="#" class="tooltipkey" title="Learn More Below">
+                                            <i class="fa fa-question-circle-o"></i>
+                                        </a></p>
+                                    <p class="header7 p-color-cement"><span class="p-color-red">**</span>
                                         After
                                         dispatch from Shoppre facility. Does not apply to ship requests made after
                                         3pm
@@ -591,7 +606,7 @@
                                         oversized
                                         packages or where additional export documentation is required.</p>
 
-                                    <p class="header8" style="color: #929ca5;">The
+                                    <p class="header7 p-color-cement">The
                                         courier will be chosen according to your destination
                                         & the weight of the shipment. We're teamed up with the most trusted couriers
                                         such as
@@ -631,20 +646,26 @@
 
                 <div class="shop-ship-tab-content">
                     <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12 no-padding">
+                        <div class="col-sm-10">
+                            <br>
+                            <label class="header6 p-color-red">
+                                Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!
+                            </label>
+                        </div>
                         <span id="calc_error">Sorry! No delivery options available in requested country. Please contact our support team for assistance.</span>
                         <div class="tab" role="tabpanel">
                             <ul class="nav nav-tabs ul-margin" role="tablist">
-                                <li role="presentation" class="active">
+                                <li role="presentation" >
                                     <a href="#International1" aria-controls="home" role="tab"
                                        data-toggle="tab">International</a>
                                 </li>
-                                <li role="presentation tab-int-domestic">
+                                <li role="presentation tab-int-domestic" class="active">
                                     <a href="#Domestic1" aria-controls="profile" role="tab"
                                        data-toggle="tab">Domestic</a>
                                 </li>
                             </ul>
                             <div class="tab-content tabs">
-                                <div role="tabpanel" class="tab-pane fade in active" id="International1">
+                                <div role="tabpanel" class="tab-pane fade " id="International1">
                                     <form class="calc-form" id="shipping1">
                                         {{ csrf_field() }}
                                         <div class="col-md-12 col-xs-12 no-padding">
@@ -692,10 +713,10 @@
                                             </div>
                                         </div>
                                         <div class="col-xs-12 col-md-12 no-padding">
-                                            <label class="col-sm-12 control-label no-padding header6">What is the weight
+                                            <label class="col-sm-12 control-label no-padding header6">What is the Weight
                                                 of
                                                 your
-                                                package? <span>*</span> </label>
+                                                Package? <span>*</span> </label>
                                         </div>
                                         <div class="col-md-12 col-xs-12 no-padding">
                                             <div class="col-md-6 col-sm-6 col-xs-6 no-padding">
@@ -795,31 +816,31 @@
                                         </div>
                                     </form>
                                 </div>
-                                <div role="tabpanel" class="tab-pane fade" id="Domestic1">
+                                <div role="tabpanel" class="tab-pane fade in active" id="Domestic1">
                                     <form class="quote-form calc-form" id="form_quote1" method="post">
                                         {{csrf_field()}}
-                                        <div class="col-xs-12 col-md-12 no-padding">
-                                            <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
-                                                <label class="header7 p-color-cement">Pickup Location-Pin
+                                        <div class="col-xs-12 col-md-12 price-cal-country padding-bottom">
+                                            <div class="col-md-4 col-sm-6 col-xs-6 no-padding ">
+                                                <label class="header6 p-color-cement">Pickup Location-Pin
                                                     code</label>
                                             </div>
                                             <div class="col-md-4 col-sm-6  col-xs-6 no-padding">
-                                                <label class="header7 p-color-cement">Destination-Pincode</label>
+                                                <label class="header6 p-color-cement">Destination-Pincode</label>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 col-xs-12 no-padding">
+                                        <div class="col-md-12 col-xs-12 padding-bottom ">
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
                                                 <input class="header6 p-color-cement txt-pincode" type="text"
                                                        name="pin"
-                                                       placeholder=" Enter pincode" required>
+                                                       placeholder=" Enter Pincode" required>
                                             </div>
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
                                                 <input class="header6 p-color-cement txt-pincode" type="text"
                                                        name="pincode-from"
-                                                       placeholder=" Enter pincode" required>
+                                                       placeholder=" Enter Pincode" required>
                                             </div>
                                         </div>
-                                        <div class="col-xs-12 col-md-12 no-padding">
+                                        <div class="col-xs-12 col-md-12 padding-bottom">
                                             <div class="radio">
                                                 <label class="checkbox-inline header6  p-color-cement">
                                                     <input class="radio-pricing "
@@ -837,12 +858,12 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 col-xs-12 no-padding">
-                                            <label class="col-sm-12 control-label no-padding">What is the Weight of
+                                        <div class="col-md-12 col-xs-12 padding-bottom">
+                                            <label class="col-sm-12 control-label no-padding header6">What is the Weight of
                                                 your
-                                                package (Kg)? <span>*</span> </label>
+                                                Package? <span>*</span> </label>
                                         </div>
-                                        <div class="col-xs-12 col-md-12 no-padding">
+                                        <div class="col-xs-12 col-md-12 padding-bottom">
                                             <div class="col-md-6 col-sm-6 col-xs-7 no-padding">
                                                 <div class="div-text-box">
                                                     {{--<span id="aminus" class="btn-puls-minus dec-value">-</span>--}}
@@ -856,7 +877,7 @@
 
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 col-sm-3 no-padding">
+                                            <div class="col-md-3 col-sm-3 padding-bottom">
                                                 <div class="radio">
                                                     <label class="checkbox-inline header7 p-color-cement">
                                                         <input class="radio-pricing" type="radio" name="unit"
@@ -873,23 +894,23 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 col-xs-12 no-padding" style="margin-top: 8px;">
+                                        <div class="col-md-12 col-xs-12 padding-bottom">
                                             <label class="control-label header6">Your E-mail Address</label>
                                             <div class="col-sm-10 no-padding">
                                                 <input type="text" class="form-control" name="email"
                                                        placeholder="Enter a valid E-mail Id">
                                             </div>
                                         </div>
-                                        <div class="col-xs-12 col-md-12 no-padding" style="margin-top: 8px;">
+                                        <div class="col-xs-12 col-md-12 padding-bottom">
                                             <label class="col-sm-12 col-xs-12 no-padding control-label header6">Contact
                                                 Number</label>
                                             <div class="col-sm-10 no-padding">
                                                 <input type="text" class="form-control" name="mobile"
-                                                       placeholder="Enter a valid phone Number">
+                                                       placeholder="Enter a valid Phone Number">
                                             </div>
                                         </div>
                                         <div class="col-xs-12 col-md-12 no-padding div-pric-cal-estimate">
-                                            <div class="col-sm-12 no-padding">
+                                            <div class="col-sm-12 padding-bottom">
                                                 <button type="submit"
                                                         class="btn btn-pricing-estimate no-padding header6"
                                                         id="quote_submit">Get An Estimate
@@ -925,7 +946,7 @@
                                         <i class="fa fa-question-circle-o"></i>
                                     </a>
                                     <a href="{{route('cguide.index')}}" target="_blank" class="header7 p-color-blue">Country Guide</a>
-                                    <a href="https://www.shoppre.com/offers/flames-shopping-season-sale-india-shipping-offer/" target="_blank"><span
+                                    <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/" target="_blank"><span
                                             class="header7 p-color-red price-cal-country">Offers</span></a>
                                 </p>
 
@@ -980,18 +1001,18 @@
                             <div class="div-estimat-amount-devider"></div>
                             <div class="row">
                                 <div class="col-sm-12 col-md-12" style="margin-top: 20px;">
-                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">**</span>
-                                        Pickup charges 100 </p>
-                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
+                                    <p class="header7 p-color-cement "><span class="p-color-red">*</span>
+                                        <a href="#pickup-charges" class="header7">Pickup charges will be additional</a> </p>
+                                    <p class="header7 p-color-cement" ><span class="p-color-red">*</span>
                                         The
                                         rates displayed are INCLUSIVE of the fuel surcharge and taxes within India</p>
-                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
+                                    <p class="header7 p-color-cement "><span class="p-color-red">*</span>
                                         For
-                                        electronics items , INR 500 will be charged additionally.</p>
-                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">*</span>
-                                        Excludes oversized and palletized shipments, and special products (liquids,
-                                        homemade food, etc.)</p>
-                                    <p class="header8 " style="color: #929ca5;"><span class="p-color-red">**</span>
+                                        electronics items,<a href="https://www.shoppre.com/parcel-forwarding/guidelines-for-shipping-electronics-items-from-india/"> additional charges are applicable</a> .</p>
+                                    <p class="header7 p-color-cement "><span class="p-color-red">*</span>
+                                        Excludes oversized and palletized shipments, and <a href="#special-items">special products (liquids,
+                                            homemade food, etc.)</a></p>
+                                    <p class="header7 p-color-cement "><span class="p-color-red">**</span>
                                         After
                                         dispatch from Shoppre facility. Does not apply to ship requests made after
                                         3pm
@@ -1000,7 +1021,7 @@
                                         oversized
                                         packages or where additional export documentation is required.</p>
 
-                                    <p class="header8" style="color: #929ca5;">The
+                                    <p class="header7 p-color-cement" >The
                                         courier will be chosen according to your destination
                                         & the weight of the shipment. We're teamed up with the most trusted couriers
                                         such as
@@ -1033,16 +1054,15 @@
                 <div class="col-md-8 col-md-offset-2 col-xs-12 no-padding">
                     <table id="customers">
                         <tr>
-                            <th class="col-md-4 col-xs-6"> Features</th>
+                            <th class="col-md-4 col-xs-6"> <h3 class="header3 p-color-cement-dark">Features</h3> </th>
                             <th class="col-md-4 col-xs-6">
                                 <img src="{{asset('img/svg/indivdual.svg')}}" alt=""> <br>
-                                <h6 class="header6 p-mem-plans-box">For Individual Shoppers</h6>
-                                <h1 class="header1 p-mem-plans-box membership-text-margin">Free</h1>
+                                <h1 class="header1 p-mem-plans-box">Free</h1>
                                 <h6 class="header6 text-forever">LIFELONG</h6>
                             </th>
                         <tr>
                         <tr>
-                            <td>Special Clearance Charges<a href="#" class="tooltipkey"
+                            <td id="special-items">Special Clearance Charges<a href="#" class="tooltipkey"
                                                             title="Any Package which requires Special Handling
                                                          will be prompted to you via email. All liquids/
                                                          semi-liquids/ homemade food/ medicines/ ayurvedic
@@ -1056,7 +1076,7 @@
                                     <i class="fa fa-question-circle-o"></i>
                                 </a></td>
                             <td>
-                                <h5 class="header6 p-color-cement">0.5 - 5 Kg ->₹1392.4 </h5>
+                                <h5 class="header6 p-color-cement">0.5 - 5 Kg -> ₹1392.4 </h5>
                                 <h5 class="header6 p-color-cement">5 - 10 Kg -> ₹3009</h5>
                                 <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹5369</h5>
                                 <h5 class="header6 p-color-cement">Above 15 Kg -> ₹7729</h5>
@@ -1064,7 +1084,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td id="pickup-charges">
                                 <h6 class="header6">
                                     Pickup Charges
                                     <a href="#" class="tooltipkey"
@@ -1074,10 +1094,10 @@
                                     </a>
                                 </h6>
                             </td>
-                            <td><h5 class="header6 p-color-cement">0.5 - 5 Kg ->₹1392.4 </h5>
-                                <h5 class="header6 p-color-cement">5 - 10 Kg -> ₹3009</h5>
-                                <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹5369</h5>
-                                <h5 class="header6 p-color-cement">Above 15 Kg -> ₹7729</h5>
+                            <td><h5 class="header6 p-color-cement">40/Kg in Bangalore,</h5>
+                                <h5 class="header6 p-color-cement">Min ₹100</h5>
+                                <h5 class="header6 p-color-cement">50/Kg Outside Bangalore,</h5>
+                                <h5 class="header6 p-color-cement">Min ₹200</h5>
                                 <span class="header8 p-color-cement">*Weight in Kg per shipment</span>
                             </td>
                         </tr>
@@ -1093,84 +1113,6 @@
                         </tr>
                     </table>
                 </div>
-
-                {{--<div class="col-md-4 col-md-offset-2 col-sm-6 col-xs-5 no-padding courier-membership-plans">--}}
-                    {{--<center>--}}
-                        {{--<div class="no-padding div-backgroud-price-cal">--}}
-                            {{--<h4 class="header2 p-color-cement membership-feature-text-margin">--}}
-                                {{--Features--}}
-                            {{--</h4>--}}
-                        {{--</div>--}}
-
-
-                        {{--<div class="div-padding-sp-charges1">--}}
-                            {{--<h6 class="header6">--}}
-                                {{--Special Clearance Charges--}}
-                                {{--<a href="#" class="tooltipkey"--}}
-                                   {{--title="Any Package which requires Special Handling--}}
-                                                         {{--will be prompted to you via email. All liquids/--}}
-                                                         {{--semi-liquids/ homemade food/ medicines/ ayurvedic--}}
-                                                         {{--products/ dangerous goods like nail polish,  etc.--}}
-                                                         {{--will incur a customs clearance charge.The costs might--}}
-                                                         {{--not be limited to the given cost for all cases (for--}}
-                                                         {{--eg, in cases of shipping heavy weight objects or--}}
-                                                         {{--heavy volume dangerous goods such as paints, etc.) ---}}
-                                                         {{--costs could vary, and will keep you posted via--}}
-                                                         {{--email. ">--}}
-                                    {{--<i class="fa fa-question-circle-o"></i>--}}
-                                {{--</a>--}}
-                            {{--</h6>--}}
-                        {{--</div>--}}
-
-
-                        {{--<div class="courier-pickup-charge">--}}
-                            {{--<h6 class="header6">--}}
-                                {{--Pickup Charges--}}
-                                {{--<a href="#" class="tooltipkey"--}}
-                                   {{--title="You can schedule pickup for your courier with us--}}
-                                                   {{--from ANYWHERE in India!">--}}
-                                    {{--<i class="fa fa-question-circle-o"></i>--}}
-                                {{--</a>--}}
-                            {{--</h6>--}}
-                        {{--</div>--}}
-                        {{--<div class="no-padding" style="padding-top: 40px;padding-bottom: 40px;">--}}
-
-                        {{--</div>--}}
-
-                    {{--</center>--}}
-
-                {{--</div>--}}
-                {{--<div class="col-md-4 col-sm-6 col-xs-7 no-padding courier-membership-plans">--}}
-                    {{--<center>--}}
-                        {{--<div class="courier-membership-plans no-padding">--}}
-                            {{--<img src="{{asset('img/svg/indivdual.svg')}}" alt="" class="courier-mem-plan-img">--}}
-                            {{--<h6 class="header6 p-mem-plans-box">Individual</h6>--}}
-                            {{--<h1 class="header1 p-mem-plans-box membership-text-margin">Free</h1>--}}
-                            {{--<h6 class="header6 text-forever" style="margin-bottom: 15px;">FOREVER</h6>--}}
-                        {{--</div>--}}
-
-
-                        {{--<div class="no-padding">--}}
-                            {{--<h5 class="header6 p-color-cement">0.5 - 5 Kg ->₹1392.4 </h5>--}}
-                            {{--<h5 class="header6 p-color-cement">5 - 10 Kg -> ₹3009</h5>--}}
-                            {{--<h5 class="header6 p-color-cement">10 - 15 Kg -> ₹5369</h5>--}}
-                            {{--<h5 class="header6 p-color-cement">Above 15 Kg -> ₹7729</h5>--}}
-                            {{--<span class="header8 p-color-cement">*Weight in Kg per shipment</span>--}}
-                        {{--</div>--}}
-
-                        {{--<div class="no-padding div-backgroud-price-cal">--}}
-                            {{--<h5 class="header6 p-color-cement">40/Kg in Bangalore,Min ₹100</h5>--}}
-                            {{--<h5 class="header6 p-color-cement">50/Kg outside Bangalore,Min ₹200</h5>--}}
-                        {{--</div>--}}
-
-                        {{--<div>--}}
-                            {{--<div class=" btn-plans-individual-wholeseller" style="padding-top: 8px">--}}
-                                {{--<a href="{{route('schedulePickup.Index')}}"--}}
-                                   {{--style="color: #507dbc;background-color: #ffffff">Schedule a Pickup</a>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</center>--}}
-                {{--</div>--}}
             </div>
         </div>
         <div class="container" id="shop-membership-plans">
@@ -1204,27 +1146,24 @@
                                     <div class="p-service-tax div-backgroud-price-cal1">
                                         <h6 class="header6 ">
                                             GST (Service Tax)
-                                            <a href="#" class="tooltipkey"
-                                               title="You do not have to pay any extra Sales Tax in India.
-                    Our rates are inclusive of fuel surcharge and taxes.
-                    However, you might have to check the import rules of your country
-                    to know if you have to pay any fee to your courier at the
-                    time of receving your package."><i
-                                                    class="fa fa-question-circle-o"></i>
+                                            <a href="#" class="tooltipkey" title="" data-original-title="You do not have to pay any extra Sales Tax in India.
+                                                   Our rates are inclusive of fuel surcharge and taxes.
+                                                   However, you might have to check the import rules of your country
+                                                   to know if you have to pay any fee to your courier at the
+                                                   time of receving your package."><i class="fa fa-question-circle-o"></i>
                                             </a>
                                         </h6>
                                     </div>
                                     <div class="no-padding div-backgroud-price-cal">
                                         <h6 class="header6">
                                             Package Consolidation
-                                            <a href="#" class="tooltipkey"
-                                               title="ShoppRe’s packing experts will
-                    combine multiple packages into one, for saving the maximum in shipping costs.
-                    This way, you only have to pay for the first half kg rate
-                    (which is the most expensive rate) once. At times, some of
-                    your packages might contain more than
-                    1 item. While preparing your final shipment, we only charge per
-                    package, not per item. ">
+                                            <a href="#" class="tooltipkey" title="" data-original-title="ShoppRe’s packing experts will
+                                                   combine multiple packages into one, for saving the maximum in shipping costs.
+                                                   This way, you only have to pay for the first half kg rate
+                                                   (which is the most expensive rate) once. At times, some of
+                                                   your packages might contain more than
+                                                   1 item. While preparing your final shipment, we only charge per
+                                                   package, not per item. ">
                                                 <i class="fa fa-question-circle-o"></i>
                                             </a>
                                         </h6>
@@ -1232,12 +1171,11 @@
                                     <div class="div-backgroud-price-cal1 ">
                                         <h6 class="header6">
                                             Repackaging
-                                            <a href="#" class="tooltipkey"
-                                               title="We usually repackage all the necessary
-                    items (items which arrive at our facility in
-                    boxes with extra space left) in order to reduce the dimensional weight,
-                    for FREE of cost (except Shoe Boxes which you will have
-                    to choose separately to discard).">
+                                            <a href="#" class="tooltipkey" title="" data-original-title="We usually repackage all the necessary
+                                                  items (items which arrive at our facility in
+                                                  boxes with extra space left) in order to reduce the dimensional weight,
+                                                  for FREE of cost (except Shoe Boxes which you will have
+                                                   to choose separately to discard).">
                                                 <i class="fa fa-question-circle-o"></i>
                                             </a>
                                         </h6>
@@ -1245,11 +1183,10 @@
                                     <div class="div-backgroud-price-cal">
                                         <h6 class="header6 ">
                                             Photo Updates
-                                            <a href="#" class="tooltipkey"
-                                               title="Basic Photos: We take up to 5 Basic photographs of all
-                    your items. Additional Photos: You can request up to 10
-                    Additional Photos (in case you want to some more details or if
-                    you want to inspect your purchases in more detail).">
+                                            <a href="#" class="tooltipkey" title="" data-original-title="Basic Photos: We take up to 5 Basic photographs of all
+                                                         your items. Additional Photos: You can request up to 10
+                                                         Additional Photos (in case you want to some more details or if
+                                                         you want to inspect your purchases in more detail).">
                                                 <i class="fa fa-question-circle-o"></i></a>
                                         </h6>
                                     </div>
@@ -1257,10 +1194,9 @@
                                         <div class="div-backgroud-price-cal1">
                                             <h6 class="header6">
                                                 Storage
-                                                <a href="#" class="tooltipkey"
-                                                   title="Purchases are securely housed in our facility,
-                    allowing time for multiple packages to be delivered & thereby saving up the maximum through
-                    consolidation. ">
+                                                <a href="#" class="tooltipkey" title="" data-original-title="Purchases are securely housed in our facility,
+                                                  allowing time for multiple packages to be delivered &amp; thereby saving up the maximum through
+                                                  consolidation. ">
                                                     <i class="fa fa-question-circle-o"></i>
                                                 </a>
                                             </h6>
@@ -1268,21 +1204,19 @@
                                         <div class="div-backgroud-price-cal">
                                             <h6 class="header6">
                                                 Scanned Copies of Documents
-                                                <a
-                                                    href="#" class="tooltipkey" title="
-                    Documents scan: We scan documents ( for up to 2 kgs and below)
-                    for a cost of ₹40/page (minimum ₹100).">
+                                                <a href="#" class="tooltipkey" title="" data-original-title="
+                                                         Documents scan: We scan documents ( for up to 2 kgs and below)
+                                                          for a cost of ₹40/page (minimum ₹100).">
                                                     <i class="fa fa-question-circle-o"></i></a>
                                             </h6>
                                         </div>
                                         <div class="div-backgroud-price-cal1">
                                             <h6 class="header6">
                                                 E-mail Updates
-                                                <a href="#" class="tooltipkey"
-                                                   title="We charge an additional amount of ₹100 for
-                    receiving a package which, can be classified as a document
-                    (for up to 2 kg). Shipping charges for Documents slightly vary
-                    from that of Non-documents. As of now this service is made available FREE of cost.">
+                                                <a href="#" class="tooltipkey" title="" data-original-title="We charge an additional amount of ₹100 for
+                                                       receiving a package which, can be classified as a document
+                                                       (for up to 2 kg). Shipping charges for Documents slightly vary
+                                                        from that of Non-documents. As of now this service is made available FREE of cost.">
                                                     <i class="fa fa-question-circle-o"></i>
                                                 </a>
                                             </h6>
@@ -1291,13 +1225,12 @@
                                         <div class="div-backgroud-price-cal">
                                             <h6 class="header6">
                                                 Discounts on Shipping
-                                                <a href="#" class="tooltipkey"
-                                                   title="ShoppRe’s long term partnership with
-                    trusted courier companies like DHL, DTDC
-                    and more, gives us amazing shipping rates, thanks
-                    to our bulk shipments every month. This means more
-                    savings for you as our customer! (Extra Shipping Discounts
-                    apply if you choose ShoppRe as your Shipping Partner).">
+                                                <a href="#" class="tooltipkey" title="" data-original-title="ShoppRe’s long term partnership with
+                                                 trusted courier companies like DHL, DTDC
+                                                 and more, gives us amazing shipping rates, thanks
+                                                 to our bulk shipments every month. This means more
+                                                 savings for you as our customer! (Extra Shipping Discounts
+                                                 apply if you choose ShoppRe as your Shipping Partner).">
                                                     <i class="fa fa-question-circle-o"></i>
                                                 </a>
                                             </h6>
@@ -1305,26 +1238,24 @@
                                         <div class="div-backgroud-price-cal1">
                                             <h6 class="header6">
                                                 Shipping Addresses
-                                                <a
-                                                    href="#" class="tooltipkey" title=" Add multiple destination addresses in your address book.
-                    Choose the address to which you wish to send every time you create a ship request.">
+                                                <a href="#" class="tooltipkey" title="" data-original-title=" Add multiple destination addresses in your address book.
+                                                    Choose the address to which you wish to send every time you create a ship request.">
                                                     <i class="fa fa-question-circle-o"></i></a>
                                             </h6>
                                         </div>
                                         <div class="div-padding-sp-charges" style="background-color: #fafafb">
                                             <h6 class="header6">
                                                 Special Clearance Charges
-                                                <a href="#" class="tooltipkey"
-                                                   title="Any Package which requires Special Handling
-                    will be prompted to you via email. All liquids/
-                    semi-liquids/ homemade food/ medicines/ ayurvedic
-                    products/ dangerous goods like nail polish,  etc.
-                    will incur a customs clearance charge.The costs might
-                    not be limited to the given cost for all cases (for
-                    eg, in cases of shipping heavy weight objects or
-                    heavy volume dangerous goods such as paints, etc.) -
-                    costs could vary, and will keep you posted via
-                    email. ">
+                                                <a href="#" class="tooltipkey" title="" data-original-title="Any Package which requires Special Handling
+                                                         will be prompted to you via email. All liquids/
+                                                         semi-liquids/ homemade food/ medicines/ ayurvedic
+                                                         products/ dangerous goods like nail polish,  etc.
+                                                         will incur a customs clearance charge.The costs might
+                                                         not be limited to the given cost for all cases (for
+                                                         eg, in cases of shipping heavy weight objects or
+                                                         heavy volume dangerous goods such as paints, etc.) -
+                                                         costs could vary, and will keep you posted via
+                                                         email. ">
                                                     <i class="fa fa-question-circle-o"></i>
                                                 </a>
                                             </h6>
@@ -1332,47 +1263,40 @@
                                         <div class="div-backgroud-price-cal1">
                                             <h6 class="header6">
                                                 Real Time Tracking
-                                                <a href="#" class="tooltipkey"
-                                                   title="As soon as we dispatch your shipment to the courier you'll receive an update to help you track the same.">
+                                                <a href="#" class="tooltipkey" title="" data-original-title="As soon as we dispatch your shipment to the courier you'll receive an update to help you track the same.">
                                                     <i class="fa fa-question-circle-o"></i>
                                                 </a>
                                             </h6>
                                         </div>
 
-                                        <div class="div-backgroud-price-cal"
-                                             style="padding-bottom: 13px; padding-top: 13px">
+                                        <div class="div-backgroud-price-cal" style="padding-bottom: 13px; padding-top: 13px">
                                             <h6 class="header6">
                                                 Set Up a Local Hub for Your Business
-                                                <a
-                                                    href="#" class="tooltipkey" title="If you are a seller sourcing products
-                    from India and sell globally, use Shoppre as your Hub in India.
-                    Source the products from different parts of India,
-                    manage inventory through Shoppre and ship globally anywhere in 3-6 days.">
+                                                <a href="#" class="tooltipkey" title="" data-original-title="If you are a seller sourcing products
+                                                    from India and sell globally, use Shoppre as your Hub in India.
+                                                    Source the products from different parts of India,
+                                                    manage inventory through Shoppre and ship globally anywhere in 3-6 days.">
                                                     <i class="fa fa-question-circle-o"></i></a>
                                             </h6>
                                         </div>
-                                        <div class="div-backgroud-price-cal1"
-                                             style="padding-top: 43px;padding-bottom: 43px;">
+                                        <div class="div-backgroud-price-cal1" style="padding-top: 43px;padding-bottom: 43px;">
                                             <h6 class="header6">
                                                 Pickup Charges
-                                                <a href="#" class="tooltipkey"
-                                                   title="You can schedule pickup for your courier with us
-                    from ANYWHERE in India!">
+                                                <a href="#" class="tooltipkey" title="" data-original-title="You can schedule pickup for your courier with us
+                                                   from ANYWHERE in India!">
                                                     <i class="fa fa-question-circle-o"></i>
                                                 </a>
                                             </h6>
                                         </div>
 
-                                        <div class="div-backgroud-price-cal"
-                                             style="padding-top: 30px;padding-bottom: 30px;">
+                                        <div class="div-backgroud-price-cal" style="padding-top: 30px;padding-bottom: 30px;">
                                             <h6 class="header6">
                                                 Package Returns
-                                                <a href="#" class="tooltipkey"
-                                                   title="Once your purchase(s) arrive at our facility, if you feel
-                    any item is not as per your expectation or is damaged,
-                    it can be exchanged/returned to the seller (as per the
-                    seller's exchange/return policy). It will be couriered back to the seller by us; for which
-                    you will be charged as per the domestic shipping rates.">
+                                                <a href="#" class="tooltipkey" title="" data-original-title="Once your purchase(s) arrive at our facility, if you feel
+                                                           any item is not as per your expectation or is damaged,
+                                                           it can be exchanged/returned to the seller (as per the
+                                                           seller's exchange/return policy). It will be couriered back to the seller by us; for which
+                                                           you will be charged as per the domestic shipping rates.">
                                                     <i class="fa fa-question-circle-o"></i>
                                                 </a>
                                             </h6>
@@ -1380,19 +1304,18 @@
                                         <div class="div-backgroud-price-cal1">
                                             <h6 class="header6">
                                                 Personal Shopper
-                                                <a href="#" class="tooltipkey"
-                                                   title="Our Personal Shopper will do the purchase for you in case if the Websites don't
-                    accept your international card Payment, or asking for an active Indian number which you don't have. Personal Shopper orders
-                    with more than 15 items per online seller, will incur an ₹50/ item for every item over 15. ">
+                                                <a href="#" class="tooltipkey" title="" data-original-title="Our Personal Shopper will do the purchase for you in case if the Websites don't
+                                                         accept your international card Payment, or asking for an active Indian number which you don't have. Personal Shopper orders
+                                                         with more than 15 items per online seller, will incur an ₹50/ item for every item over 15. ">
                                                     <i class="fa fa-question-circle-o"></i></a>
                                             </h6>
                                         </div>
                                         <div class="div-backgroud-price-cal">
                                             <h6 class="header6" style="line-height: 22px">
-                                                Receive your own Indian Virtual Shipping Address & Personal Locker
-                                                <a href="#" class="tooltipkey" title="Receive your own FREE locker space in
-                    Bengaluru as soon as you sign up with Shoppre! Use the Shipping Address
-                    given to you to shop from ANY Indian Online Store and to ship your purchases to.">
+                                                Receive your own Indian Virtual Shipping Address &amp; Personal Locker
+                                                <a href="#" class="tooltipkey" title="" data-original-title="Receive your own FREE locker space in
+                                Bengaluru as soon as you sign up with Shoppre! Use the Shipping Address
+                                given to you to shop from ANY Indian Online Store and to ship your purchases to.">
                                                     <i class="fa fa-question-circle-o"></i>
                                                 </a>
                                             </h6>
@@ -1400,20 +1323,19 @@
                                         <div class="div-backgroud-price-cal1">
                                             <h6 class="header6">
                                                 Receive Parcels
-                                                <a href="#" class="tooltipkey"
-                                                   title="We receive your packages here at our facility, log them into your lockers and account; all this without charging your anything extra!">
+                                                <a href="#" class="tooltipkey" title="" data-original-title="We receive your packages here at our facility, log them into your lockers and account; all this without charging your anything extra!">
                                                     <i class="fa fa-question-circle-o"></i>
                                                 </a>
                                             </h6>
                                         </div>
                                     </div>
                                     <div class="div-backgroud-price-cal1 view-all-features view-more-feature">
-                                        <h6 class="header6 ">
-                                            <label class="header6 view-feature-text" for="" id="view-more-feature">View
-                                                All Features</label>
-                                            <label class="header6 view-feature-text" for="" id="less-features">Less
-                                                Features</label>
-                                        </h6>
+
+                                        <label class="header6 view-feature-text" for="" id="view-more-feature">View
+                                            All Features</label>
+                                        <label class="header6 view-feature-text" for="" id="less-features">Less
+                                            Features</label>
+
                                     </div>
 
                                 </center>
@@ -1875,7 +1797,7 @@
                                                     <i class="fa fa-question-circle-o"></i></a>
                                             </h6>
                                         </div>
-                                        <div class="div-padding-sp-charges" style="background-color: #fafafb">
+                                        <div class="div-padding-sp-charges div-backgroud-price-cal" id="special-products">
                                             <h6 class="header6">
                                                 Special Clearance Charges
                                                 <a href="#" class="tooltipkey"
@@ -1971,7 +1893,7 @@
                                             </h6>
                                         </div>
                                     </div>
-                                    <div class="div-backgroud-price-cal1 view-all-features view-more-feature">
+                                    <div class="div-backgroud-price-cal1 view-all-features view-more-feature" >
                                         <label class="header6 view-feature-text " for="" id="year-more-view">View
                                             All Features</label>
                                         <label class="header6 view-feature-text year-less-view" for=""
@@ -2144,7 +2066,7 @@
                                             </h5>
                                         </div>
                                         <div class="div-backgroud-price-cal">
-                                            <h5 class="header6 p-color-cement"> 0.5 - 5 Kg ->₹1150</h5>
+                                            <h5 class="header6 p-color-cement"> 0.5 - 5 Kg -> ₹1150</h5>
                                             <h5 class="header6 p-color-cement"> 5 - 10 Kg -> ₹1650</h5>
                                             <h5 class="header6 p-color-cement"> 10 - 15 Kg -> ₹2750</h5>
                                             <h5 class="header6 p-color-cement"> Above 15 Kg -> ₹3150</h5>
@@ -3989,8 +3911,9 @@
     <script>
         $(document).ready(function () {
             $('.inc-value').click(function () {
-                var x = $(this).parent().find('input[type="text"]').val();
-                x++;
+                var x = parseFloat($(this).parent().find('input[type="text"]').val());
+                x= x + 0.5;
+                // x++;
 
                 if (x > 100) {
                     $(this).parent().find('input[type="text"]').attr('disabled', true);
@@ -4002,8 +3925,9 @@
 
             $('.dec-value').click(function () {
                 $(this).parent().find('input[type="text"]').attr('disabled', false);
-                var x = $(this).parent().find('input[type="text"]').val();
-                x--;
+                var x = parseFloat($(this).parent().find('input[type="text"]').val());
+                x=x -0.5;
+                // x--;
 
                 if (x < 0) {
                     $(this).parent().find('input[type="text"]').attr('disabled', true);
@@ -4055,7 +3979,7 @@
             $("#less-features1").css('display', 'block');
             $("#less-features2").css('display', 'block');
             $("#less-features3").css({"display": "block"});
-            $(".view-all-features").css('margin-top', '84px');
+            $(".view-all-features").css('margin-top', '79px');
 
         });
         $("#less-features, #less-features1, #less-features2, #less-features3").click(function () {
@@ -4071,7 +3995,7 @@
             $("#less-features1").css('display', 'none');
             $("#less-features2").css('display', 'none');
             $("#less-features3").css('display', 'none');
-            $(".view-all-features").css('margin-top', '86px');
+            $(".view-all-features").css('margin-top', '81px');
 
         });
         $("#year-more-view, #year-more-view1, #year-more-view2, #year-more-view3").click(function () {
@@ -4087,7 +4011,7 @@
             $("#year-less-view1").css('display', 'block');
             $("#year-less-view2").css('display', 'block');
             $("#year-less-view3").css({"display": "block"});
-            $(".view-all-features").css('margin-top', '84px');
+            $(".view-all-features").css('margin-top', '79px');
 
         });
         $("#year-less-view, #year-less-view1, #year-less-view2, #year-less-view3").click(function () {
@@ -4103,7 +4027,7 @@
             $("#year-less-view1").css('display', 'none');
             $("#year-less-view2").css('display', 'none');
             $("#year-less-view3").css('display', 'none');
-            $(".view-all-features").css('margin-top', '86px');
+            $(".view-all-features").css('margin-top', '81px');
 
         });
 

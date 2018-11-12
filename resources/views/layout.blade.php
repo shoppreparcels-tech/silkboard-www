@@ -783,6 +783,13 @@
             $('.searchbox-icon').css('display','block');
         }
     }
+    $(document).ready(function() {
+        setInterval(function() {
+            $('#offer').animate( {Color: 'red' }, 300)
+                .animate( { Color: 'green' }, 300);
+        }, 1000);
+
+    });
 </script>
 
 <!-- Start of HubSpot Embed Code -->

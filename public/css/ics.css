@@ -322,7 +322,7 @@ a:hover, a:focus {
     background-color: #ffffff;
     color: #25283d;
     font-size: 24px;
-    margin-left: 0px;
+    margin-left: 12px;
 }
 
 .div-dimension {
@@ -474,7 +474,7 @@ a:hover, a:focus {
 }
 
 .price-cal-country {
-    margin-top: 20px
+    margin-top: 10px
 }
 
 .p-country-guide span {
@@ -867,8 +867,7 @@ a:hover, a:focus {
 .view-all-features {
     color: #929ca5;
     font-weight: 500;
-    margin-top: 66px;
-
+    margin-top: 81px;
 }
 
 .div-monthly-plans h5 {

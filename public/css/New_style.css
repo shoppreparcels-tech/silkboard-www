@@ -3805,7 +3805,7 @@ a#prev:hover, a#next:hover {
     }
 
     .ul-margin {
-        margin-left: -18px;
+        /*margin-left: -18px;*/
     }
 
     .btn-ifs-estimate {
