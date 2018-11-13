@@ -58,7 +58,7 @@ Route::get('/diwali-offer', 'PageController@diwali')->name('diwali');
 Route::get('/send-international-courier-from-india', 'PageController@icsLandingPage')->name('ics.landing');
 Route::get('/personal-shopper-india', 'PageController@ifsLandingPage')->name('ifs.landing');
 Route::get('/indian-online-stores', 'PageController@storeNew')->name('stores1');
-Route::get('/international-shipping-calculator', 'PageController@pricingOld')->name('pricing1');
+Route::get('/international-shipping-calculator', 'PageController@pricingOld')->name('pricing.old');
 Route::get('/seller-partner', 'PageController@seller')->name('seller');
 
 /*-------- Dhl Shipments ------*/

@@ -111,7 +111,7 @@ class PageController extends Controller
             ->limit(10)
             ->get();
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
-        return view('page.pricing1')->with(['reviews' => $reviews, 'countries' => $countries]);
+        return view('page.pricing-old')->with(['reviews' => $reviews, 'countries' => $countries]);
 
     }
 

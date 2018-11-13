@@ -6,7 +6,6 @@
 
 @section('css_style')
     <style>
-        {{--table--}}
         .padding-bottom{
             padding-bottom: 10px;
             padding-left: 0;
@@ -648,7 +647,7 @@
                     <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12 no-padding">
                         <div class="col-sm-10">
                             <br>
-                            <label class="header6 p-color-red">
+                            <label class="header6 p-color-blue">
                                 Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!
                             </label>
                         </div>

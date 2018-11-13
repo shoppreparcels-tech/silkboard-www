@@ -45,7 +45,7 @@
                 <ul class="nav-ul">
 
                     <li class="li"><a class="footer-a" href="{{route('cguide.index')}}">Country Guide</a></li>
-                    <li class="li"><a class="footer-a" href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank">Become
+                    <li class="li"><a class="footer-a" href="https://www.shoppre.com/sellers-shipping" target="_blank">Become
                            a Partner</a></li>
                     <li class="li"><a class="footer-a" href="{{route('faq')}}">FAQ</a></li>
                     <li class="li"><a class="footer-a" href="{{route('termsAndConditions')}}">Terms & Conditions</a>

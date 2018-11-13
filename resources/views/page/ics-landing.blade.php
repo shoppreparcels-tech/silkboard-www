@@ -7,11 +7,31 @@
 
 @section('css_style')
     <style>
-    .bg-ics-landing-page .container>div{padding: 20px;margin-bottom: 3em}
-    .d-header-text{font-size: 40px;font-weight: 900}
-    .d-header-text1{font-family:Montserrat - Italic;font-style: italic;line-height: 26px; margin-top: 25px}
-    .box-steps p{line-height: 1;}
-    .box-steps p span{font-size: 22px;font-weight: 900;}
+        .bg-ics-landing-page .container > div {
+            padding: 20px;
+            margin-bottom: 3em
+        }
+
+        .d-header-text {
+            font-size: 40px;
+            font-weight: 900
+        }
+
+        .d-header-text1 {
+            font-family: Montserrat -Italic;
+            font-style: italic;
+            line-height: 26px;
+            margin-top: 25px
+        }
+
+        .box-steps p {
+            line-height: 1;
+        }
+
+        .box-steps p span {
+            font-size: 22px;
+            font-weight: 900;
+        }
     </style>
 
 @endsection
@@ -29,7 +49,7 @@
             </div>
 
             <div class="col-sm-7 col-xs-12">
-                <h1 class="p-color-white header-spacing d-header-text" >International Courier
+                <h1 class="p-color-white header-spacing d-header-text">International Courier
                     <br></h1>
                 <h1 class="header1 p-color-white header-spacing">Starting @₹695/-</h1>
 
@@ -37,17 +57,17 @@
                     to courier parcel to abroad or with in India? <br>
                     We ship to 265 countries. Our trusted courier partners DHL,<br> DTDC and more help us sail smooth
                     all the way to your<br> destination, where ever it is!</p>
-                <div class="col-md-8 div-ics-coupon-parent">
-                    <h3 class="header4 p-color-red text-center">Diwali Offer Running</h3>
-                    <div class="col-md-12 col-xs-12 div-ics-coupon">
-                        <div class="col-md-3 col-xs-3">
-                            <h3 class="header4 p-color-cement">COUPON: <br>CODE:</h3>
-                        </div>
-                        <div class="col-md-8 col-xs-8">
-                            <h1 class="coupan-code">DIWL15</h1>
-                        </div>
-                    </div>
-                </div>
+                {{--<div class="col-md-8 div-ics-coupon-parent">--}}
+                {{--<h3 class="header4 p-color-red text-center">Diwali Offer Running</h3>--}}
+                {{--<div class="col-md-12 col-xs-12 div-ics-coupon">--}}
+                {{--<div class="col-md-3 col-xs-3">--}}
+                {{--<h3 class="header4 p-color-cement">COUPON: <br>CODE:</h3>--}}
+                {{--</div>--}}
+                {{--<div class="col-md-8 col-xs-8">--}}
+                {{--<h1 class="coupan-code">DIWL15</h1>--}}
+                {{--</div>--}}
+                {{--</div>--}}
+                {{--</div>--}}
 
             </div>
 
@@ -55,7 +75,7 @@
                 <form action="" method="post" id="diwali_coupon">
                     {{csrf_field()}}
                     <div class="formFrame div-form-get-quote" id="diwali-couponcode1">
-                        <h1 class="header2 p-color-blue" style="margin-bottom: 30px">Get a Quote</h1>
+                        <h1 class="header2 p-color-blue" style="margin-bottom: 30px">Request a call back</h1>
                         <div class="form-group">
                             <label>Full Name <span class="p-color-red">*</span></label>
                             <input type="text" name="Name" class="form-control"
@@ -83,7 +103,8 @@
                             <center>
                                 <img src="{{asset('img/svg/request-sent.svg')}}" alt="">
                                 <h6 class="header5 p-color-blue">Request Sent!</h6>
-                                <h5 class="header5 p-color-cement">Just One More Step To start <br>using Personal Shopper!</h5>
+                                <h5 class="header5 p-color-cement">Just One More Step To start <br>using Personal
+                                    Shopper!</h5>
                             </center>
 
                         </div>
@@ -100,6 +121,13 @@
 
     <section class="product-courier ">
         <div class="container no-padding div-ics-border-btm">
+
+            <center>
+                <h1 class="header1 p-color-cement-dark" >
+                    Ship all over the world - USA, UAE, UK, Europe, Australia, New Zealand, Canada, Middle East & 200 other
+                    countries.
+                </h1>
+            </center>
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <img class="img-responsive" src="{{asset('img/images/ics-box-packing.png')}}" alt="">
             </div>
@@ -183,7 +211,7 @@
                         <img src="{{asset('img/svg/ics-time.svg')}}" alt="">
                         <br/>
                         <h1 class="header5 p-color-cement">3-6 Day Delivery</h1>
-                       <br>
+                        <br>
                     </div>
                 </div>
                 <br/><br/>
@@ -222,7 +250,7 @@
                 <div class="col-md-4 col-lg-4 col-sm-6 col-sm-6 box" id="ics-box2">
                     <div class="box-steps" id="steps">
                         <center>
-                            <p class="header8 p-color-cement" ><span id="number2">2</span><br> step</p>
+                            <p class="header8 p-color-cement"><span id="number2">2</span><br> step</p>
                         </center>
                     </div>
                     <div>
@@ -272,7 +300,8 @@
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="header1  p-color-cement-dark">Are you a Seller? <br>
                     Save more on shipping.</h1>
-                <p class="header2 p-color-cement"><span class="header2 p-color-blue"> Start your FREE 30 Day Trial</span>
+                <p class="header2 p-color-cement"><span
+                        class="header2 p-color-blue"> Start your FREE 30 Day Trial</span>
                     to know how much you can save monthly on regular shipping</p>
                 <div class="col-md-12">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
