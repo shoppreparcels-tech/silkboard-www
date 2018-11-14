@@ -10,7 +10,8 @@
 
     <meta property="og:title" content="Customer Reviews & Ratings | ShoppRe.com "/>
     <meta property="og:type" content="website"/>
-    <meta property="og:description" content="Read our latest Review & Ratings showcasing the excellent service, ship on time & quality of shipment. Please share your feedback about your recent shopping and shipping experiences with us."/>
+    <meta property="og:description"
+          content="Read our latest Review & Ratings showcasing the excellent service, ship on time & quality of shipment. Please share your feedback about your recent shopping and shipping experiences with us."/>
     <meta property="og:url" content="https://www.shoppre.com/reviews"/>
     <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
     <meta property="og:site_name" content="ShoppRe.com"/>
@@ -18,7 +19,8 @@
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@Go_Shoppre"/>
     <meta name="twitter:title" content="Customer Reviews & Ratings | ShoppRe.com"/>
-    <meta name="twitter:description" content="Read our latest Review & Ratings showcasing the excellent service, ship on time & quality of shipment. Please share your feedback about your recent shopping and shipping experiences with us."/>
+    <meta name="twitter:description"
+          content="Read our latest Review & Ratings showcasing the excellent service, ship on time & quality of shipment. Please share your feedback about your recent shopping and shipping experiences with us."/>
     <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
 
     <meta name="twitter:app:country" content="IN"/>
@@ -77,6 +79,15 @@
   }
 }
 
+
+
+
+
+
+
+
+
+
     </script>
 
 
@@ -88,8 +99,9 @@
         <div class="container header-padder-top">
             <center>
                 <p class="header1 p-color-white">Customer Reviews</p>
-                <p class="header4 p-color-cement header-margin-bottom">Our customers love our top-rated
-                    service and how easy & worry-free<br> we make <a href="{{route('ifs.index')}}">shopping and shipping from INDIA</a>!
+                <p class="header2 p-color-cement header-margin-bottom">Our customers love our top-rated
+                    service and how easy & worry-free<br> we make <a href="{{route('ifs.index')}}">shopping and shipping
+                        from INDIA</a>!
                 </p>
             </center>
         </div>
@@ -126,78 +138,93 @@
     </section>
 
     <section style="background-color: #fafafb">
-        <center>
-            <div class="container-fluid" style="padding-left: 4%;padding-right: 4%">
-                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-submit-review">
-                    <center>
-                        <p class="margin-bottom-div header1">Leave Your Feedback</p>
-                    </center>
-                    <form method="post" action="{{route('reviews.submit')}}">
-                        {{csrf_field()}}
-                        <div class="row margin-bottom-div">
-                            <div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4 col-sm-12 col-xs-12">
-                                <div class="form-group rating-star-left-margin">
-                                    <div class="rating-star rating-xl">
-                                        <input id="input-rate" type="text" class="rating" name="rating">
-                                    </div>
+        <div class="container">
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-submit-review">
+                <center>
+                    <p class="margin-bottom-div header1">Leave Your Feedback</p>
+                </center>
+                <form method="post" action="{{route('reviews.submit')}}">
+                    {{csrf_field()}}
+                    <div class="row margin-bottom-div">
+                        <div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4 col-sm-12 col-xs-12">
+                            <div class="form-group rating-star-left-margin">
+                                <div class="rating-star rating-xl">
+                                    <input id="input-rate" type="text" class="rating" name="rating">
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-4 col-lg-4 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
-                                <div class="form-group">
-                                    <label>Your Name <span class="mendatory_fields">*</span></label>
-                                    <input id="input-rate" type="text" name="person" placeholder="enter name"
-                                           class="form-control"/>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                                <div class="form-group">
-                                    <label>Country <span class="mendatory_fields">*</span></label>
-                                    <select class="form-control" name="country_id">
-                                        <option value="">Select Country</option>
-                                        @foreach($countries as $country)
-                                            <option value="{{$country->id}}">{{$country->name}}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-lg-4 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label>Your Name <span class="mendatory_fields">*</span></label>
+                                <input id="input-rate" type="text" name="person" placeholder="enter name"
+                                       class="form-control"/>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
-                                <div class="form-group">
-                                    <label>Comment <span class="mendatory_fields">*</span></label>
-                                    <textarea class="form-control" rows="4" name="review" placeholder="enter comment">
+                        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label>Country <span class="mendatory_fields">*</span></label>
+                                <select class="form-control" name="country_id">
+                                    <option value="">Select Country</option>
+                                    @foreach($countries as $country)
+                                        <option value="{{$country->id}}">{{$country->name}}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label>Comment <span class="mendatory_fields">*</span></label>
+                                <textarea class="form-control" rows="4" name="review" placeholder="enter comment">
                                     </textarea>
-                                </div>
                             </div>
                         </div>
-                        <center>
-                            <div class="row row-padding">
-                                <input type="submit" class="btn-review-submit header5" value="Submit"/>
-                            </div>
-                        </center>
-                    </form>
-                </div>
+                    </div>
+                    <center>
+                        <div class="row row-padding">
+                            <input type="submit" class="btn-review-submit header5" value="Submit"/>
+                        </div>
+                    </center>
+                </form>
+            </div>
+        </div>
+        <center>
+            @php
+                $index=0;
+                $colors = array("#fc91ad", "#aa62e3", "#2b78dc", "#6558ee", "#fd4e13", "#e5213b", "#94ba2b");
 
-                <div id="reviews">
+            @endphp
+            <div class="container-fluid" style="padding-left: 4%;padding-right: 4%">
+                <div id="reviews-more">
                     <div class="row">
                         @foreach($reviews as $review)
-                            <a href="{{ url('reviews/'.$review->slug) }}"  class="nounderline" ></a>
+                            @php
+                                $color= $colors[$index];
+                                $pname = $review->person;
+                                $firstname = explode(" ", $pname);
+                                $fl = substr($firstname[0], 0, 1);
+                                $sfl = substr($firstname[1], 0, 1);
+                                $index++;
+                            @endphp
                             <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 inner-review ">
                                     <div class="row div-img-row">
-                                        <div class="col-md-1 col-lg-1 col-sm-1 col-xs-1">
-                                            <div
-                                                class=" img-review img-circle Avatar Avatar--color0">{{$review->person}}</div>
-                                            {{-- <img class=" img-review img-circle" src="{{asset('img/images/23.jpg')}}">--}}
+                                        <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3 no-padding">
+                                            <div class=" img-review img-circle " style="background-color: {{$color}};padding-top: 15px">
+                                                <center>
+                                                    <p style="text-transform: uppercase"> {{$fl}} {{$sfl}}</p>
+                                                </center>
+                                            </div>
                                         </div>
-                                        <div class="col-md-5 col-lg-5 col-sm-4 col-xs-4">
-                                            {{--<p class="p-name-font-weight">&nbsp;&nbsp;&nbsp;&nbsp;{{$review->person}} </p>--}}
+                                        <div class="col-md-5 col-lg-5 col-sm-6 col-xs-6">
+                                            <p class="pull-left p-name-font-weight">{{$review->person}}
+                                                <br>{{$review->name}} </p>
                                         </div>
-                                        <div class="col-md-5 col-lg-5 col-sm-7 col-xs-7 rating-padding-left">
-                                            {{--<img src="img/rating-star.png" alt="">--}}
-                                            <img src="{{asset('img/rating-star.png')}}" alt="">
+                                        <div class="col-md-4 col-lg-4 col-sm-3 col-xs-3 pull-right">
+                                            <img src="{{asset('img/rating-star.png')}}" style="margin-top: 11px" alt="">
                                         </div>
                                     </div>
                                     <div class="row">
@@ -206,7 +233,7 @@
                                         </i>
                                     </div>
                                     <div class="row">
-                                        <p class=" p-reviews">{{$review->review}}!</p>
+                                        <p class=" p-reviews">{{substr($review->review, '0','500')}}!</p>
                                     </div>
                                     <div class="row">
                           <span class="quots-b">
@@ -223,9 +250,7 @@
                                 Load More
                             </button>
                         </center>
-
                     </div>
-
 
                     {{--<a href="">--}}
                     {{--<div class="btn-more-review header5">--}}
@@ -297,13 +322,16 @@
                 $.ajax({
                     url: '/more-reviews',
                     method: "POST",
-                    data: {id: id, _token: "{{csrf_token()}}"},
-                    dataType: "text",
+                    data: {
+                        id: id,
+                        _token: "{{csrf_token()}}"
+                    },
                     success: function (data) {
+                        console.log(data);
                         debugger;
                         if (data != '') {
-                            // $('#remove-row').remove();
-                            $('#reviews').append(data);
+                            $('#remove-row').remove();
+                            $('#reviews-more').append(data);
                         }
                         else {
                             $('#btn-more').html("No Data");

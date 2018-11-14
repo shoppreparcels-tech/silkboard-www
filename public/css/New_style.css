@@ -1681,8 +1681,8 @@ a#prev:hover, a#next:hover {
     color: #11273b;
     font-size: 12px;
     font-weight: 600;
-    margin-top: 7px;
-    margin-left: 21px;
+    margin-top: 11px;
+    margin-left: -15px;
 }
 
 .rating-padding-left {
@@ -4861,9 +4861,9 @@ a#prev:hover, a#next:hover {
     }
 
     .div-footer-mail-subscripton {
-        width: 350px;
+        width: 340px;
         float: left;
-        margin-left: -3px;
+        margin-left: -5px;
     }
 
     .txt-subscription {
@@ -4885,7 +4885,7 @@ a#prev:hover, a#next:hover {
     }
 
     .reviews-page-review-shoppre, .reviews-page-review-fb {
-        margin: 60px 0px 60px -48px;
+        margin: 60px 0px 60px -10px;
     }
 
     /*reviews page  Ending*/

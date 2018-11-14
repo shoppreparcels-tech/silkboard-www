@@ -82,6 +82,7 @@ class PageController extends Controller
 
     public function award()
     {
+//        print('hi');exit;
         return view('page.award');
     }
 
@@ -104,7 +105,8 @@ class PageController extends Controller
     {
         return view('page.offers-new');
     }
-    public function pricingOld()
+
+    public function pricing1()
     {
         $reviews = Review::orderBy('updated_at', 'desc')
             ->where('approve', '1')
@@ -117,24 +119,23 @@ class PageController extends Controller
 
     public function createSubscriber(Request $req)
     {
-//        echo 'hi';exit;
         $id = Auth::id();
         $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
-        $list_id='551f00fe3c';
-        $auth = base64_encode( 'user:'.$apikey );
+        $list_id = '551f00fe3c';
+        $auth = base64_encode('user:' . $apikey);
         $email = $req->email;
         $data = array(
-            'apikey'        => $apikey,
+            'apikey' => $apikey,
             'email_address' => $email,
-            'status'        => 'subscribed'
+            'status' => 'subscribed'
         );
 
         $json_data = json_encode($data);
         try {
             $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, 'https://us19.api.mailchimp.com/3.0/lists/'. $list_id.'/members/');
+            curl_setopt($ch, CURLOPT_URL, 'https://us19.api.mailchimp.com/3.0/lists/' . $list_id . '/members/');
             curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json',
-                'Authorization: Basic '.$auth));
+                'Authorization: Basic ' . $auth));
             curl_setopt($ch, CURLOPT_USERAGENT, 'PHP-MCAPI/2.0');
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($ch, CURLOPT_TIMEOUT, 10);
@@ -143,15 +144,13 @@ class PageController extends Controller
             curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);
             $result = curl_exec($ch);
 
-        // this code is required for next iteration
+            // this code is required for next iteration
             return response()->json([
                 'message' => 'success'
             ]);
 //            $this->sendEmailtoSubscriber($email);
 
-        }
-        catch(Exception $e)
-        {
+        } catch (Exception $e) {
             return response()->json([
                 'message' => 'error'
             ]);
@@ -204,15 +203,17 @@ class PageController extends Controller
         }
     }
 
-    public function sendEmailtoSubscriber($email){
-            Mail::to($email)
-                ->bcc(['support@shoppre.com'])
-                ->send(new EmailSubscriber($email));
+    public function sendEmailtoSubscriber($email)
+    {
+        Mail::to($email)
+            ->bcc(['support@shoppre.com'])
+            ->send(new EmailSubscriber($email));
 
     }
 
 
-    public function getCountry() {
+    public function getCountry()
+    {
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
@@ -560,7 +561,8 @@ class PageController extends Controller
         return view('page.faq')->with('categories', $categories);
     }
 
-    public function faqSearch(Request $request) {
+    public function faqSearch(Request $request)
+    {
 
         $query = Faq::query();
         if (isset($request->q) && !empty($request->q)) {
@@ -626,9 +628,9 @@ class PageController extends Controller
     {
         $weight = $request->weight;
         if ($request->origin == 'home_page') {
-            $country = Country::where('name','like', '%' . $request->country . '%')
-                       ->select(['id','discount'])
-                       ->first();
+            $country = Country::where('name', 'like', '%' . $request->country . '%')
+                ->select(['id', 'discount'])
+                ->first();
         } else {
             $country = Country::find($request->country);
         }
@@ -778,35 +780,60 @@ class PageController extends Controller
     public function reviews()
     {
         $countries = Country::orderBy('name', 'asc')->get();
-        $reviews = Review::orderBy('updated_at', 'desc')->where('approve', '1')->limit(12)->get();
+        $reviews = Review::orderBy('id', 'desc')
+            ->where('approve', '1')
+            ->select('reviews.*', 'countries.name', 'countries.iso3')
+            ->join('countries', 'countries.id', '=', 'reviews.country_id')
+            ->limit(6)
+            ->get();
+
         return view('page.reviews')->with(['countries' => $countries, 'reviews' => $reviews]);
     }
 
 
     public function moreReviews(Request $request)
     {
+
         $output = '';
         $id = $request->id;
+        $index = 0;
+        $colors = array("#fc91ad", "#aa62e3", "#2b78dc", "#6558ee", "#fd4e13", "#e5213b", "#94ba2b");
 
-        $reviews = Review::where('id','<',$id)->orderBy('updated_at', 'desc')->where('approve', '1')->limit(5)->get();
+        $reviews = Review::orderBy('reviews.id', 'desc')
+            ->where('reviews.id', '<', $id)
+            ->where('reviews.approve', '1')
+            ->select('reviews.*', 'countries.name', 'countries.iso3')
+            ->join('countries', 'countries.id', '=', 'reviews.country_id')
+            ->limit(6)->get();
 
         if (!$reviews->isEmpty()) {
+            foreach ($reviews as $review) {
+                $color = $colors[$index];
+                $index++;
+                $sfl = null;
+                $pname = $review->person;
+                $firstname = explode(" ", $pname);
+                $fl = substr($firstname[0], 0, 1);
+                if (sizeof($firstname) > 1) {
+                    $sfl = substr($firstname[1], 0, 1);
+                }
 
-            $url = url('reviews/' . $reviews->slug);
-            $body = substr(strip_tags($reviews->body), 0, 500);
-            $body .= strlen(strip_tags($reviews->body)) > 500 ? "..." : "";
-            foreach ($reviews as $review)
-            {
-                $output .= ' <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12" >
+
+                $output .= ' <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 " >
                                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 inner-review " >
                                     <div class="row div-img-row" >
-                                        <div class="col-md-1 col-lg-1 col-sm-1 col-xs-1" >
-                                            <div  class=" img-review img-circle Avatar Avatar--color0" >{{$review->person}}</div >
+                                        <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3 no-padding">                                          
+                                          <div class=" img-review img-circle "style="background-color: ' . $color . ';padding-top: 15px">
+                                            <cneter>
+                                               <p style="text-transform: uppercase">' . $fl . ' ' . $sfl . '</p>
+                                            </cneter>
+                                           
+                                          </div>
                                         </div >
-                                        <div class="col-md-5 col-lg-5 col-sm-4 col-xs-4" >
-                                            {{--<p class="p-name-font-weight" >&nbsp;&nbsp;&nbsp;&nbsp;{{$review->person}} </p > --}}
+                                        <div class="col-md-5 col-lg-5 col-sm-6 col-xs-6 no-padding" >                                          
+                                          <p class="pull-left p-name-font-weight">' . $review->person . ' <br> ' . $review->name . '  </p>
                                         </div >
-                                        <div class="col-md-5 col-lg-5 col-sm-7 col-xs-7 rating-padding-left" >
+                                        <div class="col-md-4 col-lg-4 col-sm-3 col-xs-3 pull-right " style="margin-top: 11px" >
                                             <img src="img/rating-star.png" alt="">
                                         </div >
                                     </div >
@@ -815,8 +842,8 @@ class PageController extends Controller
                                             <img src = "img/svg/qoute_up.svg">
                                         </i >
                                     </div >
-                                    <div class="row" >
-                                        <p class=" p-reviews" >{{$review->review}}!</p >
+                                    <div class="row" >                                              
+                                        <p class=" p-reviews" >' . substr($review->review, '0', '550') . '!</p >                          
                                     </div >
                                     <div class="row" >
                                       <span class="quots-b" >
@@ -824,17 +851,16 @@ class PageController extends Controller
                                       </span >
                                     </div >
                                 </div >
-                            </div >' ;
+                            </div >';
             }
 
             $output .= '<div id="remove-row">
                             <center>
-                            <button class="btn-more-review header5" id="btn-more" data-id="{{ $review->id }}">
+                            <button class="btn-more-review header5" id="btn-more" data-id=" ' . $review->id . ' ">
                                 Load More
                             </button>
                           </center>
                         </div>';
-
             echo $output;
         }
     }

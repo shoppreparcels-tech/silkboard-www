@@ -24,3 +24,4 @@ Route::post('/schedule-pickup/submit', 'SchedulePickupController@submit')->name(
 Route::post('/subscribe', 'PageController@createSubscriber')->name('subscribe');
 Route::post('/diwali-offer', 'PageController@diwaliCoupon')->name('diwali');
 
+

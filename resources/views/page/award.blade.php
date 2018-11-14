@@ -1,12 +1,36 @@
 @extends('layout')
 
-@section('title', 'award')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'ShoppRe Awards 2018 | Best Online Shops, Shoppers, Courier & Seller')
+@section('description', 'ShoppRe Awards 2018 is not a gaudy celebration of our success which is clearly shown in the numbers & charts, but a gentle reminder of how far we have yet to go')
+@section('keywords', 'awards, couriers, shoppers, sellers, favorite, shipper, online shops, uae, usa, australia, canada')
 
 @section('css_style')
     <link rel="stylesheet" href="{{asset('css/animations.css')}}" >
     <link rel="stylesheet" href="{{asset('css/award.css')}}">
+    <script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "Website",
+  "name": "ShoppRe Awards 2018",
+  "alternateName": "The First Worldwide Indian Shop and Ship Community",
+  "url": "https://www.shoppre.com/2018-annual-awards-international-shipping-shopping",
+  "image": "https://www.shoppre.com/img/logo.png",
+  "description": "ShoppRe Awards 2018 - Best-selling online shops, couriers partners, our favorite shoppers and favorite sellers. International Shipping From India",
+    "sameAs": [
+    "https://www.facebook.com/goshoppre/",
+    "https://twitter.com/Go_Shoppre",
+    "https://plus.google.com/+SHOPPRECOM",
+    "https://www.instagram.com/shoppre_official",
+    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+    "https://www.linkedin.com/company/shoppre.com",
+    "https://in.pinterest.com/shoppre",
+    "https://goo.gl/maps/uuZy4tMs8582",
+    "https://play.google.com/store/apps/details?id=com.shoppre.play",
+    "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
+  ]
+}
+
+    </script>
 @endsection
 @section('content')
     <section class="award-body">
@@ -35,18 +59,17 @@
                                         the best<br/>
                                         <span>sellout</span>
                                     </div><!-- /.ic-award -->
-                                    Abhinav Mishra, USA
+                                   Myntra.com
                                 </div><!-- /.white-lft -->
                             </div><!-- /.col-sm-6 -->
                             <div class="col-sm-6">
                                 <div class="white-rgt animated bounceInRight">
                                     <img src="{{asset('img/images/human-pic.png')}}">
                                     <div class="ic-award">
-                                        the coming<br/>
+                                        the up & coming<br/>
                                         <span>seller</span>
                                     </div><!-- /.ic-award -->
-                                    Abhishek Sircar<br/>
-                                    Shilpa Pandey, India
+                                    Lakshmi, India
                                 </div><!-- /.white-rgt -->
                             </div><!-- /.col-sm-6 -->
                         </div><!-- /.col-sm-7 -->
@@ -65,7 +88,7 @@
                                 <div class="white-lft animated bounceInLeft">
                                     <img src="{{asset('img/images/human-pic.png')}}">
                                     <div class="ic-award">
-                                        best new<br/>
+                                       Uprising<br/>
                                         <span>partner</span>
                                     </div><!-- /.ic-award -->
                                     Rahul Thambi, DHL
@@ -78,7 +101,7 @@
                                         most trusted<br/>
                                         <span>courier</span>
                                     </div><!-- /.ic-award -->
-                                    Rahul Thambi, DHL
+                                    Shobha, DTDC
                                 </div><!-- /.white-rgt -->
                             </div><!-- /.col-sm-6 -->
                         </div><!-- /.col-sm-7 -->
@@ -97,8 +120,8 @@
                     <div class="box-yllw text-center animated fadeInDownShort">
                         <img src="{{asset('img/images/ic_award_01.png')}}" class="img-space-top">
                         <div class="fav-ic-award">
-                            the best<br/>
-                            <span>seller</span>
+                            {{--the best<br/>--}}
+                            <span> SHIPPER</span>
                         </div>
                         <div class="divider40"></div>
                         <img src="{{asset('img/images/circle01.png')}}" class="img-space">
@@ -118,8 +141,8 @@
                         <div class="divider40"></div>
                         <img src="{{asset('img/images/circle01.png')}}" class="img-space">
 
-                        <p>Ateeq Sachina<br/>
-                            <span>India</span></p>
+                        <p>Angela Thunder<br/>
+                            <span>Hawaii</span></p>
                     </div><!-- /.box-prple -->
                 </div><!-- /.col-sm-4 -->
 
@@ -127,16 +150,31 @@
                     <div class="box-sky text-center animated fadeInDownShort">
                         <img src="{{asset('img/images/ic_award_01.png')}}" class="img-space-top">
                         <div class="fav-ic-award">
-                            SUPREME<br/>
-                            <span>PERSONAL
-              SHOPPER</span>
+                            THE BEST<br/>
+                            <span>PERSONAL SHOPPER</span>
                         </div>
                         <div class="divider10"></div>
                         <img src="{{asset('img/images/circle01.png')}}" class="img-space">
 
-                        <p>Ateeq Sachina<br/>
-                            <span>India</span></p>
+                        <p> Javier Fisherman<br/>
+                            <span>Bolivia</span></p>
                     </div><!-- /.box-sky -->
+                </div><!-- /.col-sm-4 -->
+
+                <div class="divider100"></div>
+                <div class="col-sm-4 col-sm-offset-4">
+                    <div class="box-yllw text-center animated fadeInDownShort">
+                        <img src="{{asset('img/images/ic_award_01.png')}}" class="img-space-top">
+                        <div class="fav-ic-award">
+                            ETHNIC<br/>
+                            <span> SHIPPER</span>
+                        </div>
+                        <div class="divider40"></div>
+                        <img src="{{asset('img/images/circle01.png')}}" class="img-space">
+
+                        <p>Anupama Madhavan<br/>
+                            <span>UAE</span></p>
+                    </div><!-- /.box-yllw -->
                 </div><!-- /.col-sm-4 -->
 
                 <div class="divider100"></div>
@@ -151,8 +189,8 @@
                         <div class="divider40"></div>
                         <img src="{{asset('img/images/circle01.png')}}" class="img-space">
 
-                        <p>Ateeq Sachina<br/>
-                            <span>India</span></p>
+                        <p>Israel<br/>
+                            <span>Nigeria</span></p>
                     </div><!-- /.box-pnk -->
                 </div><!-- /.col-sm-4 -->
 
@@ -166,8 +204,8 @@
                         <div class="divider40"></div>
                         <img src="{{asset('img/images/circle01.png')}}" class="img-space">
 
-                        <p>Ateeq Sachina<br/>
-                            <span>India</span></p>
+                        <p>Sheefa Krishna Kumar<br/>
+                            <span>UAE</span></p>
                     </div><!-- /.box-dark -->
                 </div><!-- /.col-sm-4 -->
 
@@ -181,10 +219,44 @@
                         <div class="divider40"></div>
                         <img src="{{asset('img/images/circle01.png')}}" class="img-space">
 
-                        <p>Ateeq Sachina<br/>
-                            <span>India</span></p>
+                        <p>Asuka<br/>
+                            <span> Japan</span></p>
                     </div><!-- /.box-violt -->
                 </div><!-- /.col-sm-4 -->
+
+                <div class="divider100"></div>
+                <h2 class='animated growIn' data-id='1'>Our Favorite Sellers</h2>
+                <div class="divider100"></div>
+                <div class="col-sm-4">
+                    <div class="box-sky text-center animated fadeInDownShort">
+                        <img src="{{asset('img/images/ic_award_01.png')}}" class="img-space-top">
+                        <div class="fav-ic-award">
+                            THE BEST<br/>
+                            <span>SELLER</span>
+                        </div>
+                        <div class="divider10"></div>
+                        <img src="{{asset('img/images/circle01.png')}}" class="img-space">
+
+                        <p> Abhinav Mishra<br/>
+                            <span>USA</span></p>
+                    </div><!-- /.box-sky -->
+                </div><!-- /.col-sm-4 -->
+
+                <div class="col-sm-4 col-sm-offset-4">
+                    <div class="box-pnk text-center animated fadeInUpShort">
+                        <img src="{{asset('img/images/ic_award_01.png')}}" class="img-space-top">
+                        <div class="fav-ic-award">
+                            up coming<br/>
+                            <span>SELLER</span>
+                        </div>
+                        <div class="divider40"></div>
+                        <img src="{{asset('img/images/circle01.png')}}" class="img-space">
+
+                        <p>Shilpa Pandey<br/>
+                            <span>India</span></p>
+                    </div><!-- /.box-pnk -->
+                </div><!-- /.col-sm-4 -->
+
             </div><!-- /.container -->
 
             <div class="clearfix"></div>
@@ -199,7 +271,7 @@
                         <div class="col-sm-3 no-pad">
                             <div class="white-box text-center animated bounceIn">
                                 <div class="middle">
-                                  <span><img src="{{asset('img/images/pie-chart.png')}}">
+                                  <span><img src="{{asset('img/images/chart1.png')}}" class="award-img">
                                     <p>Indian Stores</p> </span>
                                 </div><!-- /.middle -->
                             </div><!-- /.white-box -->
@@ -209,7 +281,7 @@
                         <div class="col-sm-3 no-pad">
                             <div class="white-box text-center animated bounceIn">
                                 <div class="middle">
-                                    <span><img src="{{asset('img/images/pie-chart.png')}}">
+                                    <span><img src="{{asset('img/images/chart2.png')}}" class="award-img">
                                     <p>Product Categories</p>
                                     </span>
                                 </div><!-- /.middle -->
@@ -220,7 +292,7 @@
                         <div class="col-sm-3 no-pad">
                             <div class="white-box text-center animated bounceIn">
                                 <div class="middle">
-                                    <span><img src="{{asset('img/images/pie-chart.png')}}">
+                                    <span><img src="{{asset('img/images/chart3.png')}}" class="award-img">
                                         <p>Countries We're Popular In</p>
                                     </span>
                                 </div><!-- /.middle -->
@@ -230,7 +302,8 @@
                         <div class="col-sm-3 no-pad">
                             <div class="white-box text-center animated bounceIn">
                                 <div class="middle">
-                                    <span><img src="{{asset('img/images/pie-chart.png')}}">
+{{--                                    <span><img src="{{asset('img/images/pie-chart.png')}}">--}}
+                                    <span><img src="{{asset('img/images/chart4.png')}}" class="award-img">
                                          <p>International Couriers</p>
                                     </span>
                                 </div><!-- /.middle -->
@@ -265,11 +338,9 @@
                         <div class="rvw-rgt fl animated bounceInRight">
                             <img src="{{asset('img/images/ic_smile_03.png')}}" class="zoomoutheader">
                             <div class="divider40"></div>
-                            <p>"Working with Shoppre help me to reach
-                                products for my business that otherwise would
-                                be impossible."<br/>
+                            <p>"Amazing and very fast service.They told me it would reach within 5 working days but it actually reached within 3 working days."<br/>
                             <div class="divider10"></div>
-                            <span>- Javier Fisherman, Bolivia</span></p>
+                            <span>- Sudeep Sagar, India</span></p>
                         </div>
 
                     </div>
