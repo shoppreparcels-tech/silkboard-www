@@ -6,70 +6,84 @@
 @section('keywords', 'shop, list of top indian shopping sites, facebook, instagram sellers, multiple packages, shipped to your country')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/shop-from-india-ship-worldwide" />
+    <link rel="canonical" href="https://www.shoppre.com/shop-from-india-ship-worldwide"/>
 @endsection
 @section('content')
     <section class="b-heading-section">
         <div class="container">
             <div class="row padding-bottom">
                 <center>
-                    <h1 class="header1 p-color-white">Indian Online Stores</h1>
-                    <h2 class="header2 p-color-cement">Who are we? What we do? What We Strive For? </h2>
-
+                    <h1 class="header1 p-color-white">Keep Track of Indian Online Stores!</h1>
+                    <h2 class="header2 p-color-cement">Browse through the hottest of Indian online stores, shop as much
+                        as you
+                        <br>like & ship in your purchases in just 3 steps. </h2>
                 </center>
-
             </div>
-
-        </div>
         </div>
 
     </section>
-
-    <div class="container steps-container">
-        <div class=" steps-row">
-            <div class="col-sm-4 padding-top-bottom-100">
-                <div class=" img-rounded">
-                    <p class="p-color-cement padding-bottom-15" style="font-weight: 900">STEP 1</p>
-                    <img src="{{asset('img/svg/d-step1.svg')}}" alt="">
-                    <h4>Your Shipping Address</h4>
-                    <p class="description-p  p-color-cement">#181, 2nd Cross Rd,7th Main, Koramangala<br>
-                        1st Block, Bengaluru-560034,<br>
-                        Karnataka, India.</p>
-
+    <section role="steps">
+        <div class="container steps-container">
+            <div class=" steps-row">
+                <div class="col-sm-4 padding-top-bottom-100">
+                    <div class=" img-rounded">
+                        <p class="p-color-cement padding-bottom-15" style="font-weight: 900">STEP 1</p>
+                        <img src="{{asset('img/svg/d-step1.svg')}}" alt="">
+                        <h4>Your FREE Shipping Address</h4>
+                        <p class="description-p  p-color-cement">#181, 2nd Cross Rd,7th Main, Koramangala<br>
+                            1st Block, Bengaluru-560034,<br>
+                            Karnataka, India.
+                        </p>
+                    </div>
+                    <div class=" img-rounded" style="display: none">
+                        <p class="p-color-cement padding-bottom-15" style="font-weight: 900">STEP 1</p>
+                        <img src="{{asset('img/svg/d-step1.svg')}}" alt="">
+                        <h4>Get a FREE Virtual Address</h4>
+                        <p class="description-p  p-color-cement">Sign up to get a FREE virtual address along with a
+                            personal
+                            locker; get your purchases delivered to us, we’ll take care of the rest!
+                        </p>
+                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">Sign Up now</a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-4 border-bottom-red padding-top-bottom-100 ">
-                <div class="img-rounded">
-                    <p class=" p-color-cement padding-bottom-15">STEP 2</p>
-                    <img src="{{asset('img/svg/d-step2.svg')}}" alt="">
-                    <h4>Purchase Order</h4>
-                    <p class=" description-p  p-color-cement">Purchase from 1000+ online stores
-                        and add virtual locker address as delivery address
-                    </p>
-
-
+                <div class="col-sm-4 border-bottom-red padding-top-bottom-100 ">
+                    <div class="img-rounded">
+                        <p class=" p-color-cement padding-bottom-15">STEP 2</p>
+                        <img src="{{asset('img/svg/d-step2.svg')}}" alt="">
+                        <h4>Shop Around</h4>
+                        <p class=" description-p  p-color-cement">Purchase from 1000+ online stores
+                            and add virtual locker address as delivery address
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-4 padding-top-bottom-100 no-border-inmobile">
-                <div class=" img-rounded">
-                    <p class=" p-color-cement padding-bottom-15" style="font-weight: 900">STEP 3</p>
-                    <img src="{{asset('img/svg/d-step3.svg')}}" alt="">
-                    <h4>Ship to Doorsteps</h4>
-                    <p class="  description-p p-color-cement"> We will ship your products from you your doorsteps in
-                        just 3 to 6 days!</p>
-
-
+                <div class="col-sm-4 padding-top-bottom-100 " id="mobile-step2">
+                    <div class="img-rounded">
+                        <p class=" p-color-cement padding-bottom-15">STEP 2</p>
+                        <img src="{{asset('img/svg/d-step2.svg')}}" alt="">
+                        <h4>Shop Around</h4>
+                        <p class=" description-p  p-color-cement">Purchase from 1000+ online stores
+                            and add virtual locker address as delivery address
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 padding-top-bottom-100 no-border-inmobile">
+                    <div class=" img-rounded">
+                        <p class=" p-color-cement padding-bottom-15" style="font-weight: 900">STEP 3</p>
+                        <img src="{{asset('img/svg/d-step3.svg')}}" alt="">
+                        <h4>@ Your Doorsteps</h4>
+                        <p class="  description-p p-color-cement">
+                            We will ship your products from you your doorsteps in
+                            just 3 to 6 days!
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-
-
+    </section>
     <section class="sellers">
         <div class="container" id="stores-radio">
             <div class="row">
-                <div class="col-md-4 hidden-sm hidden-xs" class="">
+                <div class="col-md-4 hidden-sm hidden-xs">
                     <form class="browse_form">
                         <ul>
                             <h3 class="category-heading">POPULAR CATEGORIES</h3>
@@ -138,24 +152,17 @@
                     </form>
                 </div>
                 {{-- MOBILE CATEGORIES --}}
-                {{--<div class="col-md-4 visible-sm visible-xs" class="">--}}
-                {{--<!-- Trigger the modal with a button -->--}}
-
-
-
-
-                {{--</div>--}}
 
                 <div class="col-md-8">
                     <div class="row search-bar-row">
-                        <div class="visible-xs xol-xs-2 category-toggle-div">
+                        <div class="visible-xs col-xs-2 category-toggle-div">
                             <button type="button" class="btn btn-info btn-md mobile-category-toggle" data-toggle="modal"
                                     data-target="#categoryModal">
                                 <span class="glyphicon glyphicon-align-justify"></span>
                             </button>
 
                         </div>
-                        <div class="col-md-7 col-sm-12 col-xs-10 col-xs-offset-2" id="custom-search-input">
+                        <div class="col-md-7 col-sm-10 col-xs-10" id="custom-search-input">
                             <div class="input-group search-bar">
                             <span class="input-group-btn">
                                 <button class="btn btn-info btn-lg" type="button">
@@ -179,7 +186,7 @@
 
                             </div>
                         </div>
-                        <div class="col-md-5 no-padding stroes-ul">
+                        <div class="col-md-5 col-xs-12 col-sm-12 no-padding stroes-ul">
                             <ul class="list-inline list-unstyled">
                                 <li role="presentation" class="active"><a href="#web" aria-controls="web" role="tab"
                                                                           data-toggle="tab">Online Stores</a></li>

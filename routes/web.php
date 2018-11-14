@@ -60,7 +60,7 @@ Route::get('/personal-shopper-india', 'PageController@ifsLandingPage')->name('if
 Route::get('/indian-online-stores', 'PageController@storeNew')->name('stores1');
 
 Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
-Route::post('/more-reviews', 'PageController@moreReviews')->name('reviews');
+Route::post('/more-reviews', 'PageController@moreReviews')->name('more.reviews');
 
 Route::get('/seller-partner', 'PageController@seller')->name('seller');
 

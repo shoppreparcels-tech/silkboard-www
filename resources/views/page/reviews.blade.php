@@ -161,7 +161,7 @@
                         <div class="col-md-4 col-lg-4 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Your Name <span class="mendatory_fields">*</span></label>
-                                <input id="input-rate" type="text" name="person" placeholder="enter name"
+                                <input id="input-rate" type="text" name="person" placeholder="Enter name"
                                        class="form-control"/>
                             </div>
                         </div>

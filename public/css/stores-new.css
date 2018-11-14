@@ -32,6 +32,9 @@
     border-bottom:solid 4px #e85151;
     padding-bottom: 96px!important;
 }
+#mobile-step2{
+    display: none;
+}
 .padding-top-bottom-100{
     padding: 80px 15px 80px 15px;
 }
@@ -296,7 +299,7 @@ MEDIA QUERIES*/
         position:relative;
         top:inherit;
         position: relative;
-        bottom: 45px;
+        bottom: 100px;
         padding-left: 0px;
         margin-bottom: 0px;
         padding-right:0px;
@@ -304,8 +307,11 @@ MEDIA QUERIES*/
     .border-bottom-red{
         display: none;
     }
+    #mobile-step2{
+        display: block;
+    }
     .padding-top-bottom-100{
-        padding: 40px 0px 40px 0px;
+        padding: 40px 0px 0px 0px;
         border-bottom: solid 1px #ccc;
     }
     .category-navbar{
@@ -338,8 +344,7 @@ MEDIA QUERIES*/
     }
 
     #custom-search-input, .category-toggle-div{
-        float: left;
-
+        /*float: left;*/
     }
     .seller-box-heart{
         font-size: 11px;
@@ -348,8 +353,8 @@ MEDIA QUERIES*/
        background: #fff;
        height: 40px;
        position: relative;
-       top: 20px;
-       left: 15px;
+       top: -20px;
+       /*left: 15px;*/
     }
    .no-border-inmobile{
        border-bottom:none
@@ -359,5 +364,8 @@ MEDIA QUERIES*/
 @media screen and (max-width: 600px) {
     section.sellers{
         padding-top: 0em!important;
+    }
+    .b-heading-section {
+        padding-bottom: 8em;
     }
 }

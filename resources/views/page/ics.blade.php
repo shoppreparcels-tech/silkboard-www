@@ -5,19 +5,25 @@
 @section('keywords', 'shop and ship, courier service, shoppre, consolidation company, indian store, ship internationally')
 
 @section('css_style')
+    <style>
+        .div-padding-bottom{
+            padding-bottom: 8%;
+        }
+    </style>
 
 @endsection
 @section('content')
     <section class="header">
-        <div class="container">
+        <div class="container div-padding-bottom">
             <center>
                 <p class="header-ifs-p">
                     <a class="bla-1" href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=5s">
                         <img class="btn-vid-img" src="{{asset('img/svg/btn.svg')}}">
                     </a>
                 </p>
-                <h1 class="header1  p-color-white">Courier Service</h1>
-                <p class="header2 p-color-cement" style="margin-bottom: 170px;">We ship Domestic and Internationally</p>
+                <h1 class="header1  p-color-white">ShoppRe Courier</h1>
+                <p class="header2 p-color-cement">One-stop destination for all your courier needs; domestic & international.
+                    <br> We ship to 220+ countries around the world!</p>
 
             </center>
         </div>
@@ -42,19 +48,19 @@
                             <div class="col-lg-12 col-md-12 ">
                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                     <input class="text-box-margin cal-text-box" type="text" name=""
-                                           placeholder="From India">
+                                           placeholder=" Pickup From">
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                     <input class="text-box-margin cal-text-box" type="text" name=""
-                                           placeholder="To  United States">
+                                           placeholder=" Destination">
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                     <input class="text-box-margin cal-text-box" type="text" name=""
-                                           placeholder="Weight(kg)">
+                                           placeholder="Weight of the Package (in Kg.)">
 
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 div-courier-cal-margin">
-                                    <button type="button" class="btn btn-pricing-estimate" id="International" style="margin-top: 13px;">Get An Estiamate</button>
+                                    <button type="button" class="btn btn-pricing-estimate" id="International" style="margin-top: 13px;">Get a FREE Estimate</button>
                                 </div>
                             </div>
 
@@ -62,16 +68,16 @@
                         <div role="tabpanel" class="tab-pane fade" id="Domestic">
                             <div class="col-lg-12 col-md-12 ">
                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                    <input class="text-box-margin cal-text-box" type="text" name="" placeholder="From City  ">
+                                    <input class="text-box-margin cal-text-box" type="text" name="" placeholder="  From ">
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                    <input class="text-box-margin cal-text-box" type="text" name="" placeholder="To  City">
+                                    <input class="text-box-margin cal-text-box" type="text" name="" placeholder="  To ">
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                    <input class="text-box-margin cal-text-box" type="text" name=""placeholder="Weight(kg)">
+                                    <input class="text-box-margin cal-text-box" type="text" name=""placeholder="Weight of the Package (in Kg.)">
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 div-courier-cal-margin">
-                                    <button type="button" class="btn btn-pricing-estimate" id="International" style="margin-top: 13px;">Get An Estiamate</button>
+                                    <button type="button" class="btn btn-pricing-estimate" id="International" style="margin-top: 13px;">Get a FREE Estimate</button>
                                 </div>
                             </div>
                         </div>
@@ -84,9 +90,8 @@
     <section>
         <div class="container div-process">
             <center>
-                <h1 class="header1  p-color-cement-dark">Our Process</h1>
-                <p class="header2 p-color-cement">We will recived your order at our branch and can provide storage,<br>
-                    Repackaging and consoldation services to send at abroad address.</p>
+                <h1 class="header1  p-color-cement-dark">How Does Our Courier Work?</h1>
+                <p class="header2 p-color-cement">Schedule a Pickup from ANY part of India; we’ll come to your doorsteps,<br> get your package & ship it off to the destination in 24 hours.</p>
             </center>
         </div>
 
@@ -102,11 +107,9 @@
                     <div>
                         <center>
                             <img class="img-responsive img-process" src="{{asset('img/svg/pic_up.svg')}}">
-                            <h2 class="header3 p-color-cement-dark">Pickup Package</h2>
+                            <h2 class="header3 p-color-cement-dark">Schedule a Pickup</h2>
                             <p class="header5 p-color-cement">
-                                Purchase any product from your favourite indian
-                                online store and use your locker address for item
-                                delivery
+                                After getting your FREE estimate, fill in the order form accordingly and submit it to schedule your pickup.
                             </p>
                         </center>
                     </div>
@@ -122,11 +125,9 @@
                     <div>
                         <center>
                             <img class="img-responsive  img-process" src="{{asset('img/svg/shipments.svg')}}">
-                            <h2 class="header3 p-color-cement-dark">Shipments</h2>
+                            <h2 class="header3 p-color-cement-dark">We’ll Pick It Up</h2>
                             <p class="header5 p-color-cement">
-                                Purchase any product from  your favourite indian
-                                online store and use your locker address for item
-                                delivery
+                                Within 48 hours of you making the request, we’ll come to your doorsteps to pickup your package(s).
                             </p>
                         </center>
 
@@ -142,11 +143,9 @@
                     <div>
                         <center>
                             <img class="img-process" src="{{asset('img/svg/deliver_package.svg')}}">
-                            <h2 class="header3 p-color-cement-dark">Deliver Package</h2>
+                            <h2 class="header3 p-color-cement-dark">Dispatch in 24 Hours</h2>
                             <p class="header5 p-color-cement">
-                                Purchase any product from your favourite indian
-                                online store and use your locker address for item
-                                delivery
+                                We’ll complete the documentation & dispatch your package(s) to one of our courier partners as soon as possible.
                             </p>
                         </center>
 
@@ -216,10 +215,11 @@
                 <img class="img-responsive img-shipments" src="{{asset('img/images/back.png')}}">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <h1 class="header1  p-color-cement-dark p-seller">Are you a Seller? <br>
-                    Save more on shipping.</h1>
-                <p class="header2 p-color-cement"><span class="header2" style="color: #507dbc;"> Start your FREE 30 Day Trial</span>
-                    to know how much you can save monthly on regular shipping</p>
+                <h1 class="header1 p-color-cement-dark p-seller">Are you an ambitious Seller?
+                    Save up more on shipping.</h1> <br>
+                <p class="header3 p-color-cement seller-p">
+                    <span class="header2"> Start Your 30-Day FREE Trial </span> to see for yourself; how much you can
+                    save to help your business!</p>
                 <div class="col-md-12">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdL11DQD_pOS2tBNXWaI0d8ryZ4DD0foA-Z7ZR0f0hUG3qpSg/viewform" class="btn btn-request-cal-back">Request Callback</a>
