@@ -43,6 +43,10 @@
             margin-left: 4px;
         }
 
+        .r-img {
+            width: 100%;
+        }
+
     </style>
 
     <script type="application/ld+json">
@@ -80,14 +84,6 @@
 }
 
 
-
-
-
-
-
-
-
-
     </script>
 
 
@@ -107,34 +103,41 @@
         </div>
     </section>
     <section>
-        <center>
-            <div class="container section-social-reviews">
-                <center>
-                    @if (session('message'))
-                        <div class="alert alert-success">{{ session('message') }}</div>
-                    @endif
-                </center>
-                <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
-                   target="_blank">
-                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 reviews-page-review-google">
-                        <img src="{{asset('img/reviews/review-google.png')}}" alt="Google Reviews">
-                    </div>
-                </a>
-                <div class="col-xs-12 col-sm-12 div-review-hr"></div>
-                <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
-                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 reviews-page-review-fb">
-                        <img src="{{asset('img/reviews/review-facebook.png')}}" alt="Facebook Reviews">
-                    </div>
-                </a>
-                <div class="col-xs-12 col-sm-12 div-review-hr"></div>
-                <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 reviews-page-review-shoppre">
-                    <a href="#reviews">
-                        <img src="{{asset('img/reviews/review-shoppre.png')}}" alt="Shoppre Reviews">
-                    </a>
+        <div class="container section-social-reviews">
+            <center>
+                @if (session('message'))
+                    <div class="alert alert-success">{{ session('message') }}</div>
+                @endif
+            </center>
 
-                </div>
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+                <center>
+                    <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
+                       target="_blank">
+                        <img src="{{asset('img/reviews/review-google.png')}}" class="r-img" alt="Google Reviews">
+                    </a>
+                </center>
             </div>
-        </center>
+
+            <div class="col-xs-12 col-sm-12 div-review-hr"></div>
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+                <center>
+                    <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
+                        <img src="{{asset('img/reviews/review-facebook.png')}}" class="r-img" alt="Facebook Reviews">
+                    </a>
+                </center>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 div-review-hr"></div>
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 ">
+                <center>
+                    <a href="#reviews">
+                        <img src="{{asset('img/reviews/review-shoppre.png')}}" class="r-img" alt="Shoppre Reviews">
+                    </a>
+                </center>
+
+            </div>
+        </div>
     </section>
 
     <section style="background-color: #fafafb">
@@ -198,8 +201,8 @@
 
             @endphp
             <div class="container-fluid" style="padding-left: 4%;padding-right: 4%">
-                <div id="reviews-more">
-                    <div class="row">
+                <div>
+                    <div class="row" id="reviews-more">
                         @foreach($reviews as $review)
                             @php
                                 $color= $colors[$index];
@@ -213,7 +216,8 @@
                                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 inner-review ">
                                     <div class="row div-img-row">
                                         <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3 no-padding">
-                                            <div class=" img-review img-circle " style="background-color: {{$color}};padding-top: 15px">
+                                            <div class=" img-review img-circle "
+                                                 style="background-color: {{$color}};padding-top: 15px">
                                                 <center>
                                                     <p style="text-transform: uppercase"> {{$fl}} {{$sfl}}</p>
                                                 </center>
@@ -236,9 +240,9 @@
                                         <p class=" p-reviews">{{substr($review->review, '0','500')}}!</p>
                                     </div>
                                     <div class="row">
-                          <span class="quots-b">
-                            <img src="{{asset('img/svg/qoute_down.svg')}}" alt="">
-                          </span>
+                                      <span class="quots-b">
+                                         <img src="{{asset('img/svg/qoute_down.svg')}}" alt="">
+                                      </span>
                                     </div>
                                 </div>
                             </div>
@@ -252,13 +256,6 @@
                         </center>
                     </div>
 
-                    {{--<a href="">--}}
-                    {{--<div class="btn-more-review header5">--}}
-                    {{--<p>--}}
-                    {{--Load More--}}
-                    {{--</p>--}}
-                    {{--</div>--}}
-                    {{--</a>--}}
                 </div>
             </div>
         </center>

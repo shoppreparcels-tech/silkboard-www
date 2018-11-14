@@ -819,7 +819,7 @@ class PageController extends Controller
                 }
 
 
-                $output .= ' <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 " >
+                $output .= '<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 " >
                                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 inner-review " >
                                     <div class="row div-img-row" >
                                         <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3 no-padding">                                          
