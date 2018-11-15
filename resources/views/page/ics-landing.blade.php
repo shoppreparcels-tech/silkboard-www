@@ -1,7 +1,6 @@
 @extends('layout')
 
-
-@section('title', 'International courier Services')
+@section('title', 'ICS Landing Page')
 @section('description', '')
 @section('keywords', '')
 
@@ -72,7 +71,7 @@
             </div>
 
             <div class="col-sm-5 col-xs-12" style="padding-top: 50px">
-                <form action="" method="post" id="diwali_coupon">
+                <form action="" method="post" id="ics_lp">
                     {{csrf_field()}}
                     <div class="formFrame div-form-get-quote" id="diwali-couponcode1">
                         <h1 class="header2 p-color-blue" style="margin-bottom: 30px">Request a call back</h1>
@@ -103,8 +102,8 @@
                             <center>
                                 <img src="{{asset('img/svg/request-sent.svg')}}" alt="">
                                 <h6 class="header5 p-color-blue">Request Sent!</h6>
-                                <h5 class="header5 p-color-cement">Just One More Step To start <br>using Personal
-                                    Shopper!</h5>
+                                <h5 class="header5 p-color-cement">Just One More Step To start <br>scheduling your
+                                    courier</h5>
                             </center>
 
                         </div>
@@ -404,7 +403,7 @@
 @section('js_script')
     <script>
         $(document).ready(function () {
-            $("#diwali_coupon").validate({
+            $("#ics_lp").validate({
                 rules:
                     {
                         email: {required: true}

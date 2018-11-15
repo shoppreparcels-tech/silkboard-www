@@ -7,6 +7,31 @@
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/shop-from-india-ship-worldwide" />
+
+    <meta property="og:title" content="Shop from India and Ship Worldwide with ShoppRe.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/shop-from-india-ship-worldwide"/>
+    <meta property="og:image" content="{{asset('img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}"/>
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
+    <meta property="og:image:alt" content="ShoppRe online shopping and parcel forwarding from India" />
+    <meta property="og:description" content="ShoppRe an online shopping site in India and international shipping service that allows you to shop from India, and delivery to your doorstep with 20-day Free storage and consolidation services."/>
+    <meta property="og:site_name" content="ShoppRe: Online Shopping Site in India"/>
+
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="Go_Shoppre" />
+    <meta name="twitter:title" content="Shop from India and Ship Worldwide with ShoppRe.com" />
+    <meta name="twitter:description" content="ShoppRe an online shopping site in India and international shipping service that allows you to shop from India, and delivery to your doorstep with 20-day Free storage and consolidation services." />
+    <meta name="twitter:image" content="{{asset('img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}" />
+    <meta name="twitter:image:alt" content="ShoppRe online shopping and parcel forwarding from India"/>
+
+
+    <meta name="twitter:app:country" content="IN"/>
+    <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
+    <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
+    <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
+
     <style>
         .box-ifs {
             /*margin-left: 70px*/
@@ -962,65 +987,6 @@
     </section>
 
 
-    {{--<section style="background-color: #e85151;">--}}
-    {{--<div class="container">--}}
-    {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-ifs-cal">--}}
-    {{--<div class="tab" role="tabpanel">--}}
-    {{--<!-- Nav tabs -->--}}
-    {{--<ul class="nav nav-tabs ul-margin" role="tablist">--}}
-    {{--<li role="presentation" class="active">--}}
-    {{--<a href="#International" aria-controls="home" role="tab" data-toggle="tab">International</a>--}}
-    {{--</li>--}}
-    {{--<li role="presentation">--}}
-    {{--<a href="#Domestic" aria-controls="profile" role="tab" data-toggle="tab">Domestic</a>--}}
-    {{--</li>--}}
-
-    {{--</ul>--}}
-    {{--<!-- Tab panes -->--}}
-    {{--<div class="tab-content tabs">--}}
-    {{--<div role="tabpanel" class="tab-pane fade in active" id="International">--}}
-    {{--<div class="col-lg-12 col-md-12 ">--}}
-    {{--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">--}}
-    {{--<input class="text-box-margin" type="text" name="" placeholder="From India">--}}
-    {{--</div>--}}
-    {{--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">--}}
-    {{--<input class="text-box-margin" type="text" name=""--}}
-    {{--placeholder="    To  United States">--}}
-    {{--</div>--}}
-    {{--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">--}}
-    {{--<input class="text-box-margin" type="text" name="" placeholder="Weight(kg)">--}}
-
-    {{--</div>--}}
-    {{--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 div-courier-cal-margin">--}}
-    {{--<button class="btn-ifs-estimate" type="button" id="International">Get An Estiamate--}}
-    {{--</button>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-
-    {{--</div>--}}
-    {{--<div role="tabpanel" class="tab-pane fade" id="Domestic">--}}
-    {{--<div class="col-lg-12 col-md-12 ">--}}
-    {{--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">--}}
-    {{--<input class="text-box-margin" type="text" name="" placeholder="From City">--}}
-    {{--</div>--}}
-    {{--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">--}}
-    {{--<input class="text-box-margin" type="text" name="" placeholder="To  City">--}}
-    {{--</div>--}}
-    {{--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">--}}
-    {{--<input class="text-box-margin" type="text" name="" placeholder=" Weight(kg)">--}}
-
-    {{--</div>--}}
-    {{--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 div-courier-cal-margin">--}}
-    {{--<button class="btn-ifs-estimate" type="button" id="International">Get An Estiamate--}}
-    {{--</button>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</section>--}}
 @endsection
 
 @section('js_script')

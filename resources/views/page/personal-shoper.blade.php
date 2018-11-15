@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', 'Internation parcel forwording ShoppRe!')
+@section('title', 'Personal Shopper Landing Page')
 @section('description', '')
 @section('keywords', '')
 
@@ -37,7 +37,6 @@
 
 @endsection
 @section('content')
-
     <section class="ps-section" id="personal-shopper">
         <div class="container">
             <div class="col-md-12">
@@ -141,7 +140,7 @@
             </div>
             <div class=" col-md-5 col-sm-5 col-xs-12">
                 <h1 class="header2 p-color-blue h-req-assist">Request Free Assistance</h1>
-                <form action="" method="post " id="diwali_coupon">
+                <form action="" method="post " id="personal_shopper">
                     {{csrf_field()}}
                     <div class="formFrame div-form-get-quote" id="diwali-couponcode1">
                         <div class="form-group">
@@ -469,11 +468,12 @@
             </div>
         </div>
     </section>
+@endsection
 
 @section('js_script')
     <script>
         $(document).ready(function () {
-            $("#diwali_coupon").validate({
+            $("#personal_shopper").validate({
                 rules:
                     {
                         email: {required: true}
@@ -551,6 +551,6 @@
         });
     </script>
 @endsection
-@endsection
+
 
 

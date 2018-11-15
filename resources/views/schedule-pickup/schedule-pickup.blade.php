@@ -1,11 +1,32 @@
 @extends('layout')
 
 @section('title', 'Schedule A Pickup - Schedule Your Package Pickup Online | ShoppRe')
-@section('description', 'Need to Schedule a package pickup online? Schedule your parcel quickly with Shoppre from your home or office and we will deliver for you within 2-5 business days.')
-@section('keywords', 'terms and conditions, set of rules and guidelines user must agree, following guidelines, website, mobile app')
+@section('description', 'Need to Schedule a package pickup online? Schedule your parcel quickly with Shoppre from your home or office and we will deliver for you within 3-6 business days.')
+@section('keywords', 'package india, parcel service, schedule pickup, send food, courier services near me, delivery items, shipping rates')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/schedule-pickup" />
+    <meta property="og:title" content="Schedule A Package Pickup with ShoppRe.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/schedule-pickup"/>
+    <meta property="og:image" content="{{asset('img/images/schedule-pickup-package-in-india.jpg')}}"/>
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
+    <meta property="og:image:alt" content="ShoppRe online shipping and international courier from India" />
+    <meta property="og:description" content="Need to Schedule a package pickup online? Schedule your parcel quickly with ShoppRe from your home or office and we will deliver for you within 3-6 business days."/>
+    <meta property="og:site_name" content="ShoppRe: Online Shipping Site in India"/>
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="Go_Shoppre" />
+    <meta name="twitter:title" content="{{asset('img/images/schedule-pickup-package-in-india.jpg')}}" />
+    <meta name="twitter:description" content="Need to Schedule a package pickup online? Schedule your parcel quickly with ShoppRe from your home or office and we will deliver for you within 3-6 business days." />
+    <meta name="twitter:image" content="schedule-pickup-package-in-india.jpg" />
+    <meta name="twitter:image:alt" content="ShoppRe online shipping and international courier from India"/>
+
+    <meta name="twitter:app:country" content="IN"/>
+    <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
+    <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
+    <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 @endsection
 @section('content')
     <section class="timeline">

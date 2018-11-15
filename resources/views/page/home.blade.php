@@ -13,20 +13,20 @@
 
     <meta property="og:title" content="Shop and Ship with ShoppRe | International Courier & Consolidation Services"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:description"
-          content="Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India's #1 international courier, shipping and consolidation company."/>
     <meta property="og:url" content="https://www.shoppre.com"/>
     <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
+    <meta property="og:image:width" content="2506">
+    <meta property="og:image:height" content="1312">
+    <meta property="og:image:alt" content="ShoppRe international shipping and parcel forwarding from India" />
+    <meta property="og:description" content="Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India's #1 international courier, shipping, consolidation and parcel forwarding company."/>
     <meta property="og:site_name" content="ShoppRe"/>
 
-
-    <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:site" content="@Go_Shoppre"/>
-    <meta name="twitter:title" content="Shop and Ship with ShoppRe | International Courier & Consolidation Services"/>
-    <meta name="twitter:description"
-          content="Sign Up for Indian Address. Shop your favorite Indian store and Ship Internationally. India's #1 international courier, shipping and consolidation company."/>
-    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
-
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="Go_Shoppre" />
+    <meta name="twitter:title" content="Shop and Ship with ShoppRe | International Courier & Consolidation Services" />
+    <meta name="twitter:description" content="Sign Up for Indian Address. Shop your favorite Indian store and Ship Internationally. India's #1 international courier, shipping, consolidation and parcel forwarding company." />
+    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
+    <meta name="twitter:image:alt" content="ShoppRe International Parcel Forwarding from India"/>
 
     <meta name="twitter:app:country" content="IN"/>
     <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
