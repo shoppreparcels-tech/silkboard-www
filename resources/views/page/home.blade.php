@@ -467,12 +467,7 @@
                 <center>
 
                     <p class="header2 p-color-cement" style="text-align: center">Our trusted partners
-                        <span class="p-color-red">
-                            <a href="{{route('dhl.index')}}">
-                                DHL
-                            </a>
-                        </span>
-                        ,
+                        <span class="p-color-red"><a href="{{route('dhl.index')}}">DHL</a></span>,
                         <span class="p-color-red">
                             <a href="{{route('dtdc.index')}}">
                                 DTDC

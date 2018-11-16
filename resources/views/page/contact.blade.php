@@ -86,10 +86,9 @@
         <div class="container">
             <div class="row padding-bottom">
                 <center>
-                    <h1 class="header1 p-color-white">Contact Support</h1>
-                    <h2 class="header2 p-color-cement">Have a question? Consult our shipping FAQ. We are dedicated to
-                        making our members happy, so<br>
-                        your online account management tools and these FAQ resources are available 24/7.
+                    <h1 class="header1 p-color-white">We're Here for Support!</h1>
+                    <h2 class="header2 p-color-cement">Have a question? Check out our FAQs here. We believe in being there for
+                        <br>our customers 24/7; you can access your account & refer to these FAQs all day long..
 
                     </h2>
                 </center>
@@ -113,7 +112,7 @@
                            type="text"
                            class="form-control input-lg  search-bar-input"
                            name="faq"
-                           placeholder="Can't find your answer? Search ShoppRe"
+                           placeholder="What type of issue are you facing with us?"
                            ng-model="Faq.model"
                            uib-typeahead="faq.question for faq in Faqs.get($viewValue)"
                            typeahead-loading="Faqs.loadingFaqs"
@@ -130,14 +129,13 @@
                         <li><a href="{{route('faq')}}">Do you provide a Membership Plan?</a></li>
                         <li><a href="{{route('faq')}}">Is the address provided by ShoppRe, a PO Box address?</a></li>
                         <li><a href="{{route('faq')}}">Why was my Registration Unsuccessful?</a></li>
-                        <li><a href="{{route('faq')}}">How do I use my address?</a></li>
+                        <li><a href="{{route('faq')}}">How do I use my virtual address?</a></li>
                         <li><a href="{{route('faq')}}">Why Choose ShoppRe?</a></li>
-                        <li><a href="{{route('faq')}}">What couriers do you use to send my merchandise and documents?</a></li>
+                        <li><a href="{{route('faq')}}">What couriers do you use to send my package(s)?</a></li>
                         <li><a href="{{route('faq')}}">How can I get my package(s) shipped?</a></li>
-                        <li><a href="{{route('faq')}}">How does repacking save me money?</a></li>
-                        <li><a href="{{route('faq')}}">What is consolidation, and how does it help me save?</a></li>
+                        <li><a href="{{route('faq')}}">How does your repackaging service save?</a></li>
+                        <li><a href="{{route('faq')}}">What is consolidation, and how does it help me   save up?</a></li>
                         <li><a href="{{route('faq')}}">Will ShoppRe forward my packages to me when I am traveling?</a></li>
-                        <li><a href="{{route('faq')}}">How does repacking save me money?</a></li>
                         <li><a href="{{route('faq')}}">What is consolidation, and how does it help me save?</a></li>
                     </ul>
 

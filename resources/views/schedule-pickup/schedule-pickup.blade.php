@@ -18,11 +18,10 @@
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="Go_Shoppre" />
-    <meta name="twitter:title" content="{{asset('img/images/schedule-pickup-package-in-india.jpg')}}" />
+    <meta name="twitter:title" content="Schedule A Package Pickup with ShoppRe.com" />
     <meta name="twitter:description" content="Need to Schedule a package pickup online? Schedule your parcel quickly with ShoppRe from your home or office and we will deliver for you within 3-6 business days." />
-    <meta name="twitter:image" content="schedule-pickup-package-in-india.jpg" />
+    <meta name="twitter:image" content="{{asset('img/images/schedule-pickup-package-in-india.jpg')}}" />
     <meta name="twitter:image:alt" content="ShoppRe online shipping and international courier from India"/>
-
     <meta name="twitter:app:country" content="IN"/>
     <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
     <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
