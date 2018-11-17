@@ -53,9 +53,9 @@
                 <h1 class="header1 p-color-white header-spacing">Starting @₹695/-</h1>
 
                 <p class="p-color-white header5 d-header-text1">Want
-                    to courier parcel to abroad or with in India? <br>
-                    We ship to 265 countries. Our trusted courier partners DHL,<br> DTDC and more help us sail smooth
-                    all the way to your<br> destination, where ever it is!</p>
+                    to courier something abroad from India?<br>
+                    We ship to 265 countries & our trusted courier partners DHL,<br> DTDC & more help us sail smooth
+                    all the way to your<br> destination, wherever it is</p>
                 {{--<div class="col-md-8 div-ics-coupon-parent">--}}
                 {{--<h3 class="header4 p-color-red text-center">Diwali Offer Running</h3>--}}
                 {{--<div class="col-md-12 col-xs-12 div-ics-coupon">--}}
@@ -74,11 +74,11 @@
                 <form action="" method="post" id="ics_lp">
                     {{csrf_field()}}
                     <div class="formFrame div-form-get-quote" id="diwali-couponcode1">
-                        <h1 class="header2 p-color-blue" style="margin-bottom: 30px">Request a call back</h1>
+                        <h1 class="header2 p-color-blue" style="margin-bottom: 30px">Request a Callback</h1>
                         <div class="form-group">
                             <label>Full Name <span class="p-color-red">*</span></label>
                             <input type="text" name="Name" class="form-control"
-                                   placeholder="Enter the Name Here" required>
+                                   placeholder="Enter Here" required>
                         </div>
                         <div class="form-group">
                             <label>Contact Number<span class="p-color-red">*</span></label>
@@ -91,7 +91,7 @@
                                    placeholder="Enter a valid E-mail ID" required>
                         </div>
                         <div class="form-group text-center">
-                            <button type="submit" name="btnActivate" class="btn btn-d-activate-coupon"> Get a Quote
+                            <button type="submit" name="btnActivate" class="btn btn-d-activate-coupon"> GET A FREE ESTIMATE
                             </button>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
 
             <center>
                 <h1 class="header1 p-color-cement-dark" >
-                    Ship all over the world - USA, UAE, UK, Europe, Australia, New Zealand, Canada, Middle East & 200 other
+                    We ship all over the world -To the USA, UAE, UK, Europe, Australia, New Zealand, Canada, Middle East & 200 other
                     countries.
                 </h1>
             </center>
@@ -133,10 +133,9 @@
             <div class="col-md-6 col-sm-12 col-xs-12 " style="padding-top: 50px">
                 <div class="row no-padding">
                     <center>
-                        <h1 class="header1 p-color-cement-dark">Products you can courier</h1>
-                        <p class="header2 p-color-cement">We will recived your order at our branch and can provide
-                            storage,
-                            Repackaging and consoldation services to send at abroad address.</p>
+                        <h1 class="header1 p-color-cement-dark">What You Can Get Us to Courier?</h1>
+                        <p class="header6 p-color-cement">From Kids’ toys to commercial equipment, we are well-prepared to ship anything under the sun,
+                            that follow the international & country-specific shipping regulations. These are some of the goods that we frequently ship for our customers </p>
                     </center>
                 </div>
                 <div class=" col-md-12 col-xs-12 div-ics-prodcts">
@@ -144,20 +143,20 @@
                         <ul>
                             <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Medicine</li>
                             <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt=""> Documents</li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt=""> Personal goods</li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt=""> Sports Equipments</li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt=""> Home made foods</li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt=""> Art work</li>
+                            {{--<li><img src="{{asset('img/svg/Ellipse.svg')}}" alt=""> Personal goods</li>--}}
+                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt=""> Sports Equipment</li>
+                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt=""> Homemade foods</li>
+                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt=""> Artwork</li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-xs-6 no-padding">
                         <ul style="text-decoration: none; list-style: none">
                             <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Corporate Gifts</li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Childrens Toys</li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Handicraft Items</li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Mobiles</li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Puja Items</li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">& Many More Products</li>
+                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Children's Toys</li>
+                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Handicraft </li>
+                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Mobile/Cell Phones</li>
+                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Religious Items</li>
+                            <li>& Many More Products</li>
                         </ul>
                     </div>
                 </div>
@@ -168,9 +167,7 @@
             <div class="container">
                 <center>
                     <h1 class="header1  p-color-cement-dark">Features</h1>
-                    <p class="header2 p-color-cement">We will recived your order at our branch and can provide
-                        storage,<br>
-                        Repackaging and consoldation services to send at abroad address.</p>
+                    <p class="header2 p-color-cement">Get a FREE estimate for your courier, and schedule a pickup with us. We’ll come to your doorsteps to pick it up within 48 hours, and will dispatch it within the next 24 hours.Our courier partners are known to reach your destination in 3-6 days, wherever in the world it is!’</p>
                 </center>
             </div>
             <br>
@@ -181,7 +178,7 @@
                 <div class="col-sm-3">
                     <div class="panel "><br>
                         <img src="{{asset('img/svg/d-step3.svg')}}" style="height: 70px" alt="">
-                        <h1 class="header5 p-color-cement">Doorstep</h1>
+                        <h1 class="header5 p-color-cement">Door-to-Door Delivery</h1>
                         <br/>
 
                     </div>
@@ -191,7 +188,7 @@
                         <br>
                         <img src="{{asset('img/svg/save80.svg')}}" alt="">
                         <br/>
-                        <h1 class="header5 p-color-cement">Save up to 80%</h1>
+                        <h1 class="header5 p-color-cement">Country-specific Discount</h1>
                         <br>
                     </div>
                 </div>
@@ -209,7 +206,7 @@
                         <br/>
                         <img src="{{asset('img/svg/ics-time.svg')}}" alt="">
                         <br/>
-                        <h1 class="header5 p-color-cement">3-6 Day Delivery</h1>
+                        <h1 class="header5 p-color-cement">24-hour Dispatch</h1>
                         <br>
                     </div>
                 </div>

@@ -20,30 +20,41 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
     <!-- Font Awesome -->
-    <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
+    {{--<link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">--}}
+    {{--<link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css">--}}
+    {{--<link href="{{asset('css/txtProgress.min.css')}}" rel="stylesheet">--}}
+    {{--<link href="{{asset('css/algolia.css')}}" rel="stylesheet">--}}
+    {{--<link href="{{asset('css/style1.css')}}" rel="stylesheet">--}}
+    {{--<link href="{{asset('css/print.css')}}" rel="stylesheet">--}}
+    {{--<script src="{{asset('js/jquery.min.js')}}"></script>--}}
+
+    <link href="{{env('CLOUD_FRONT_URL')}}/css/font-awesome.min.css'" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css">
-    <link href="{{asset('css/txtProgress.min.css')}}" rel="stylesheet">
-    <link href="{{asset('css/algolia.css')}}" rel="stylesheet">
-    <link href="{{asset('css/style1.css')}}" rel="stylesheet">
-    <link href="{{asset('css/print.css')}}" rel="stylesheet">
-    <script src="{{asset('js/jquery.min.js')}}"></script>
+    <link href="{{env('CLOUD_FRONT_URL')}}/css/txtProgress.min.css" rel="stylesheet">
+    <link href="{{env('CLOUD_FRONT_URL')}}/css/algolia.css" rel="stylesheet">
+    <link href="{{env('CLOUD_FRONT_URL')}}/css/style1.css" rel="stylesheet">
+    <link href="{{env('CLOUD_FRONT_URL')}}/css/print.css" rel="stylesheet">
+    <script src="{{env('CLOUD_FRONT_URL')}}/js/jquery.min.js"></script>
 
 
-    {{--<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">--}}
 
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
-    <link rel="stylesheet" href="{{asset('css/New_style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
-    <link rel="stylesheet" href="{{asset('css/select2.min.css')}}" >
-    <link rel="stylesheet" href="{{asset('css/star-rating.min.css')}}" >
-    <link rel="stylesheet" href="{{asset('css/ics.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
-    <link rel="stylesheet" href="{{asset('css/ifs.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
-    <link rel="stylesheet" href="{{asset('css/offers.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
-    <link rel="stylesheet" href="{{asset('css/diwali.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
-    <link rel="stylesheet" href="{{asset('css/stores-new.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
+
+    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/New_style.css" >
+    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/select2.min.css" >
+    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/star-rating.min.css" >
+    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/ics.css" >
+    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/ifs.css" >
+    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/offers.css" >
+    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/diwali.css" >
+    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/stores-new.css" >
+
 
     @yield('css_style')
 
-    <link href="{{asset('css/style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" rel="stylesheet">
+
+    <link href="{{env('CLOUD_FRONT_URL')}}/css/style.css" rel="stylesheet">
+
     <link rel="publisher" href="https://plus.google.com/101070316798366909776/">
     <meta name="google-play-app" content="app-id=com.shoppre.play"/>
     <meta property="fb:app_id" content="1819630241632764"/>
@@ -111,7 +122,6 @@
 </script>
 @include('partials._header')
 <div class="container">
-
     <!-- Modal -->
     <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
@@ -132,160 +142,31 @@
         </div>
     </div>
 
-<!-- Modal -->
-    {{--<div id="myModal" class="modal fade" role="dialog">--}}
-        {{--<div class="modal-dialog">--}}
-            {{--<!-- Modal content-->--}}
-            {{--<div class="modal-content">--}}
-                {{--<div class="modal-header">--}}
-                    {{--<button type="button" id="btnClosePopup" class="close">&times;</button>--}}
-                {{--</div>--}}
-                {{--<div class="modal-body">--}}
-                    {{--<div class="login-content">--}}
-                        {{--<h3 class="head-tag">Log in to Shoppre Account</h3>--}}
-                        {{--<div class="text-center">--}}
-                            {{--<div class="login-social">--}}
-                                {{--<a href="https://myaccount.shoppre.com/social/oauth/facebook" class="facebook"><i--}}
-                                        {{--class="fa fa-facebook"></i><span>Facebook</span></a>--}}
-                                {{--<a href="https://myaccount.shoppre.com/social/oauth/google"--}}
-                                   {{--class="google"><span>Google Plus</span><i--}}
-                                        {{--class="fa fa-google-plus"></i></a>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-sm-6">--}}
-                            {{--<form class="login-form" role="form" method="POST" action="{{route('homeLogin')}}"--}}
-                                  {{--novalidate="novalidate">--}}
-                                {{--<input type="hidden" name="_token" value="{{ csrf_token() }}">--}}
-                                {{--<div class="form-group ">--}}
-                                    {{--<label for="">Email</label>--}}
-                                    {{--<input type="email" class="form-control valid"--}}
-                                           {{--placeholder="Enter your email address"--}}
-                                           {{--name="email_id"--}}
-                                           {{--value="" required="" autofocus="" aria-required="true" aria-invalid="false">--}}
-                                {{--</div>--}}
-                                {{--<div class="form-group ">--}}
-                                    {{--<label for="">Password</label>--}}
-                                    {{--<input type="password" class="form-control valid" placeholder="Enter your password"--}}
-                                           {{--name="l_password"--}}
-                                           {{--required="" aria-required="true" aria-invalid="false">--}}
-                                {{--</div>--}}
-                                {{--<div class="checkbox">--}}
-                                    {{--<label>--}}
-                                        {{--<input type="checkbox" name="remember_me">--}}
-                                        {{--<span class="label">--}}
-                                            {{--Remember Me <small>(Not recommended for public computers)</small>--}}
-                                        {{--</span>--}}
-                                    {{--</label>--}}
-                                {{--</div>--}}
-                                {{--<button type="submit" class="btn btn-block btn-shoppre">Sign in to your account</button>--}}
-                            {{--</form>--}}
-                            {{--<span class="login-bttm"><a href="https://myaccount.shoppre.com/forgot-password">Forgot my password. Please remind me.</a></span>--}}
-                            {{--<span class="login-bttm"><a href="javascript:void(0)"--}}
-                                                        {{--id="btn_signup_popup">Not a member? Register</a></span>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-sm-6">--}}
-                            {{--@if(!empty($home_campaign->image))--}}
-                                {{--<a class="class_pointer"--}}
-                                   {{--href="{{route('campaignDetailChannel',['cname'=>$home_campaign->slug,--}}
-                                   {{--'eid'=>$home_campaign->employee_id,'channel'=>$home_campaign->channel])}}">--}}
-                                    {{--<img src="/img/campaigns/{{$home_campaign->image}}">--}}
-                                {{--</a>--}}
-                            {{--@endif--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="signup-content">--}}
-                        {{--<h3 class="head-tag">SIGN UP WITH</h3>--}}
-                        {{--<div class="text-center">--}}
-                            {{--<div class="login-social">--}}
-                                {{--<a href="https://myaccount.shoppre.com/social/oauth/facebook" class="facebook"><i--}}
-                                        {{--class="fa fa-facebook"></i><span>Facebook</span></a>--}}
-                                {{--<a href="https://myaccount.shoppre.com/social/oauth/google" class="google"><span>Google Plus</span><i--}}
-                                        {{--class="fa fa-google-plus"></i></a>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                        {{--<span class="or_separate">OR</span>--}}
-                        {{--<h3>CREATE AN ACCOUNT</h3>--}}
-                        {{--<form class="register-form" role="form" method="POST"--}}
-                              {{--action="{{route('homeSignup')}}" novalidate="novalidate">--}}
-                            {{--<input type="hidden" name="_token" value="{{ csrf_token() }}">--}}
-                            {{--<div class="col-sm-6">--}}
-                                {{--<div class="row">--}}
-                                    {{--<div class="form-group ">--}}
-                                        {{--<div class="input-group">--}}
-                                            {{--<div class="input-group-addon"><i class="fa fa-address-card"></i></div>--}}
-                                            {{--<input type="text" class="form-control" name="firstname" value=""--}}
-                                                   {{--placeholder="First Name *"--}}
-                                                   {{--required="" autofocus="" aria-required="true">--}}
-                                        {{--</div>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="col-sm-6">--}}
-                                {{--<div class="row">--}}
-                                    {{--<div class="form-group ">--}}
-                                        {{--<div class="input-group">--}}
-                                            {{--<div class="input-group-addon"><i class="fa fa-address-card"></i></div>--}}
-                                            {{--<input type="text" class="form-control" name="lastname" value=""--}}
-                                                   {{--placeholder="Last Name *"--}}
-                                                   {{--required="" aria-required="true">--}}
-                                        {{--</div>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="clearfix"></div>--}}
-                            {{--<div class="form-group ">--}}
-                                {{--<div class="input-group">--}}
-                                    {{--<div class="input-group-addon"><i class="fa fa-envelope"></i></div>--}}
-                                    {{--<input type="text" class="form-control" name="email" value="" placeholder="Email *"--}}
-                                           {{--required=""--}}
-                                           {{--aria-required="true">--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="form-group ">--}}
-                                {{--<div class="input-group">--}}
-                                    {{--<div class="input-group-addon"><i class="fa fa-lock"></i></div>--}}
-                                    {{--<input type="password" class="form-control" placeholder="Password *" name="password"--}}
-                                           {{--required=""--}}
-                                           {{--aria-required="true">--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="form-group ">--}}
-                                {{--<div class="input-group">--}}
-                                    {{--<div class="input-group-addon"><i class="fa fa-lock"></i></div>--}}
-                                    {{--<input type="password" class="form-control" placeholder="Reconfirm Password *"--}}
-                                           {{--name="password_confirmation" required="" aria-required="true">--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="form-group content-padding">--}}
-                                {{--<button type="submit" class="btn btn-shoppre btn-block">Sign Up</button>--}}
-                            {{--</div>--}}
-                        {{--</form>--}}
-                        {{--<span class="register-bttm" id="btn_login_popup">Already a member? <a href="javascript:void(0)">Sign in</a> here!</span>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="modal-footer">--}}
 
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
 </div>
 
 @yield('content')
 
 @include('partials._footer')
-
-<script src="{{asset('js/bootstrap.min.js')}}"></script>
-<script src="{{asset('js/txtProgress.min.js')}}"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.jqueryui.min.js"></script>
-<script src="{{asset('js/validate.min.js')}}"></script>
 
-<script src="{{asset('js/angular.min.js')}}"></script>
-<script src="{{asset('js/ui-bootstrap-tpls-2.5.0.min.js')}}"></script>
+{{--<script src="{{asset('js/bootstrap.min.js')}}"></script>--}}
+{{--<script src="{{asset('js/txtProgress.min.js')}}"></script>--}}
+{{--<script src="{{asset('js/validate.min.js')}}"></script>--}}
+{{--<script src="{{asset('js/angular.min.js')}}"></script>--}}
+{{--<script src="{{asset('js/ui-bootstrap-tpls-2.5.0.min.js')}}"></script>--}}
+{{--<script src="{{asset('js/star-rating.min.js')}}" type="text/javascript"></script>--}}
+{{--<script src="{{asset('js/select2.min.js')}}"></script>--}}
 
-<script src="{{asset('js/star-rating.min.js')}}" type="text/javascript"></script>
-<script src="{{asset('js/select2.min.js')}}"></script>
+
+<script src="{{env('CLOUD_FRONT_URL')}}/js/bootstrap.min.js'"></script>
+<script src="{{env('CLOUD_FRONT_URL')}}/js/txtProgress.min.js"></script>
+<script src="{{env('CLOUD_FRONT_URL')}}/js/validate.min.js"></script>
+<script src="{{env('CLOUD_FRONT_URL')}}/js/angular.min.js"></script>
+<script src="{{env('CLOUD_FRONT_URL')}}/js/ui-bootstrap-tpls-2.5.0.min.js"></script>
+<script src="{{env('CLOUD_FRONT_URL')}}/js/star-rating.min.js" type="text/javascript"></script>
+<script src="{{env('CLOUD_FRONT_URL')}}/js/select2.min.js"></script>
 
 <!-- Angular Script -->
 <script>
