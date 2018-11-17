@@ -28,32 +28,33 @@
     {{--<link href="{{asset('css/print.css')}}" rel="stylesheet">--}}
     {{--<script src="{{asset('js/jquery.min.js')}}"></script>--}}
 
-    <link href="{{env('CLOUD_FRONT_URL')}}/css/font-awesome.min.css'" rel="stylesheet">
+    <link href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/font-awesome.min.css" rel="stylesheet">
+    {{--<link href="{{env('CLOUD_FRONT_URL')}}/css/font-awesome.min.css'" rel="stylesheet">--}}
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css">
-    <link href="{{env('CLOUD_FRONT_URL')}}/css/txtProgress.min.css" rel="stylesheet">
-    <link href="{{env('CLOUD_FRONT_URL')}}/css/algolia.css" rel="stylesheet">
-    <link href="{{env('CLOUD_FRONT_URL')}}/css/style1.css" rel="stylesheet">
-    <link href="{{env('CLOUD_FRONT_URL')}}/css/print.css" rel="stylesheet">
-    <script src="{{env('CLOUD_FRONT_URL')}}/js/jquery.min.js"></script>
+    <link href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/txtProgress.min.css" rel="stylesheet">
+    <link href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/algolia.css" rel="stylesheet">
+    <link href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/style1.css" rel="stylesheet">
+    <link href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/print.css" rel="stylesheet">
+    <script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/jquery.min.js"></script>
 
 
 
 
-    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/New_style.css" >
-    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/select2.min.css" >
-    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/star-rating.min.css" >
-    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/ics.css" >
-    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/ifs.css" >
-    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/offers.css" >
-    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/diwali.css" >
-    <link rel="stylesheet" href="{{env('CLOUD_FRONT_URL')}}/css/stores-new.css" >
+    <link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/New_style.css" >
+    <link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/select2.min.css" >
+    <link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/star-rating.min.css" >
+    <link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/ics.css" >
+    <link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/ifs.css" >
+    <link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/offers.css" >
+    <link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/diwali.css" >
+    <link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/stores-new.css" >
 
 
     @yield('css_style')
 
 
-    <link href="{{env('CLOUD_FRONT_URL')}}/css/style.css" rel="stylesheet">
+    <link href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/style.css" rel="stylesheet">
 
     <link rel="publisher" href="https://plus.google.com/101070316798366909776/">
     <meta name="google-play-app" content="app-id=com.shoppre.play"/>
@@ -160,13 +161,14 @@
 {{--<script src="{{asset('js/select2.min.js')}}"></script>--}}
 
 
-<script src="{{env('CLOUD_FRONT_URL')}}/js/bootstrap.min.js'"></script>
-<script src="{{env('CLOUD_FRONT_URL')}}/js/txtProgress.min.js"></script>
-<script src="{{env('CLOUD_FRONT_URL')}}/js/validate.min.js"></script>
-<script src="{{env('CLOUD_FRONT_URL')}}/js/angular.min.js"></script>
-<script src="{{env('CLOUD_FRONT_URL')}}/js/ui-bootstrap-tpls-2.5.0.min.js"></script>
-<script src="{{env('CLOUD_FRONT_URL')}}/js/star-rating.min.js" type="text/javascript"></script>
-<script src="{{env('CLOUD_FRONT_URL')}}/js/select2.min.js"></script>
+<script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/bootstrap.min.js"></script>
+{{--<script src="{{env('CLOUD_FRONT_URL')}}/js/bootstrap.min.js"></script>--}}
+<script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/txtProgress.min.js"></script>
+<script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/validate.min.js"></script>
+<script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/angular.min.js"></script>
+<script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/ui-bootstrap-tpls-2.5.0.min.js"></script>
+<script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/star-rating.min.js" type="text/javascript"></script>
+<script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/select2.min.js"></script>
 
 <!-- Angular Script -->
 <script>
