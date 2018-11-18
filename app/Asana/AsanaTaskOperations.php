@@ -35,7 +35,7 @@ class AsanaTaskOperations
             CURLOPT_POSTFIELDS => "notes=$comment&name=$customer_name
             &workspace=413352110377780&projects=875224685950696",
             CURLOPT_HTTPHEADER => array(
-                "authorization: Bearer 0/5cb44866cd7f8faf38e257d62a7ea366",
+                "authorization: Bearer 0/76d37fb13148c2dfa9999734bfcdbb1e",
                 "cache-control: no-cache",
                 "content-type: application/x-www-form-urlencoded",
                 "postman-token: 90ce5bfe-3ac9-9f51-ab0d-1c52f1fe313e"
