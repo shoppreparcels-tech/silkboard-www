@@ -107,6 +107,12 @@
     <section>
         <div class="container div-lets-ps">
             <div class="col-md-7 col-sm-7 col-xs-12 ">
+                <p>
+                    <a class="bla-1" href="https://www.youtube.com/watch?v=q5R63gFUREk">
+                        <img src="{{asset('img/svg/btn.svg')}}" style="height: 30px">
+                    </a>
+
+                </p>
                 <h2 class="header2 p-color-cement-dark">Let <span class="p-color-red">ShoppRe</span> <br> Do the
                     Shopping for you!</h2>
                 <p class="header5 p-color-cement">
