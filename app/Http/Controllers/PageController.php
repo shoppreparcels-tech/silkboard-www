@@ -52,6 +52,12 @@ class PageController extends Controller
     {
         return view('page.become-partner');
     }
+    public function faqNew()
+    {
+        $categories = FaqCategory::all();
+//        print json_encode($categories);exit;
+        return view('page.faq-new')->with('categories', $categories);
+    }
 
     public function storeNew()
     {

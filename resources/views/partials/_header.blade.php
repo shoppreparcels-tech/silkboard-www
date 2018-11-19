@@ -227,7 +227,7 @@
                     <li><a href="{{route('contact')}}">Support</a></li>
                     <li>
                         <div class="container-search">
-                            <form class="searchbox" action="http://ship.shoppre.com">
+                            <form class="searchbox" action="https://ship.shoppre.com">
                                 <input type="search" placeholder="Search......" name="s"  class="searchbox-input" onkeyup="buttonUp();" required>
                                 <input type="submit" class="searchbox-submit">
                                 <span class="searchbox-icon"><i class="fa fa-search" aria-hidden="true"></i></span>
