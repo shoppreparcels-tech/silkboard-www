@@ -488,7 +488,7 @@
                 <div class="row div-benifits-margin">
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 ">
                         <center>
-                            <a href="{{route('stores')}}">
+                            <a href="{{route('stores1')}}">
                                 <img class="img-benifits img-responsive"
                                      src="{{asset('img/svg/shop-from-indian-online-stores.svg')}}"
                                      alt="shop from indian online stores shoppre">
@@ -822,7 +822,7 @@
         </div>
         <div class="container">
             <center>
-                <a href="{{route('stores')}}" target="_blank">
+                <a href="{{route('stores1')}}" target="_blank">
                     <div class=" btn-browse-stores  header5 p-color-white">
                         <b><p>Browse Stores</p></b>
                     </div>
@@ -850,7 +850,7 @@
                             <div class="row div-img-row" id="reviews-img">
                                 {{--<img class=" img-review img-circle" src="{{asset('img/images/23.jpg')}}">--}}
                                 <img class=" img-review img-circle" src="{{asset('img/svg/034-woman-8.svg')}}">
-                                <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Still Syma</p>
+                                <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Jigyasa Singh</p>
 
                                 <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USA</p>
 
@@ -864,10 +864,9 @@
                                 </i>
                             </div>
                             <div class="row" id="reviews">
-                                <p class=" p-reviews">I had a bad start with Shoppre, but they made things right. I'm
-                                    very happy with the items I was able to order. I do still think the shipping is too
-                                    high, but I"m happy with how things turned out. Very kind crew, who really cared
-                                    about my experience and opinions. I'm a convert! Thanks guys!!</p>
+                                <p class=" p-reviews">I am really happy with my delivery time. Wow just took 3 days to reach from India to New JERSEY.
+                                    AMAMZING CUSTOMER SUPPORT TOO. GO AHEAD WITH THIS FOR INTERNATIONAL SHIPMENT DELIVERIES.
+                                    V GOOD SERICE</p>
                             </div>
                             <div class="row" id="reviews">
                           <span class="quots-b">

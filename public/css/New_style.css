@@ -746,7 +746,7 @@ header::after {
 }
 
 .img-priyamani {
-    margin: -219px 0px -13px -256px;
+    margin: -225px 0px -13px -256px;
     height: 563px;
 }
 #desktop-version{
@@ -1949,6 +1949,9 @@ a#prev:hover, a#next:hover {
 /*Offer page Ending*/
 
 /*contactus page starting*/
+.faq-section{
+    background-color: #FAFAFB;
+}
 
 .no-padding {
     padding: 0px

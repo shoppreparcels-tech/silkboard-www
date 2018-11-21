@@ -1,11 +1,56 @@
 @extends('layout')
 
-@section('title', 'Pricing | Shipping Cost Calculator - Shoppre')
-@section('description', 'Get the right plan that suits your need and calculate your shipping costs from India to any country. Save upto 75% on shipping rates!')
-@section('keywords', 'calculate your shipping costs, from india to any country, save 75% on shipping rates, repackaging service, shipping calculator')
+@section('title', 'International Shipping | ShoppRe Price Calculator & Membership Plans')
+@section('description', 'Get the right membership plan that suits your need and calculate your shipping costs from India to your country. Save upto 80% on shipping rates. Estimate Now!')
+@section('keywords', 'calculate your shipping costs, international shipping calculator, shoppre pricing, membership plans, individual shoppers, global sellers,  wholesalers')
 
 @section('css_style')
-    <style>
+    <meta property="og:title" content="How to Estimate Your International Shipping Cost?"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/pricing"/>
+    <meta property="og:image" content="{{asset('img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}"/>
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
+    <meta property="og:image:alt" content="ShoppRe international shipping Price Calculator" />
+    <meta property="og:description" content="How much will it cost to ship your package from India to your country? Use ShoppRe Shipping Price Calculator to find out, and choose the best Membership Plans."/>
+    <meta property="og:site_name" content="ShoppRe Online Shipping Site in India"/>
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="Go_Shoppre" />
+    <meta name="twitter:title" content="Shop from India and Ship Worldwide with ShoppRe.com" />
+    <meta name="twitter:description" content="How much will it cost to ship your package from India to your country? Use ShoppRe Shipping Price Calculator to find out, and choose the best Membership Plans." />
+    <meta name="twitter:image" content="{{asset('img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}" />
+    <meta name="twitter:image:alt" content="ShoppRe international shipping Price Calculator"/>
+
+    <meta name="twitter:app:country" content="IN"/>
+    <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
+    <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
+    <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
+
+    <script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "Website",
+  "name": "ShoppRe Shipping Price Calculator",
+  "alternateName": "ShoppRe International Shipping",
+  "url": "https://www.shoppre.com/pricing",
+  "image": "https://www.shoppre.com/img/logo.png",
+  "description": "Get the right membership plan that suits your need and calculate your shipping costs from India to your country. Save upto 80% on shipping rates. Estimate Now!",
+    "sameAs": [
+    "https://www.facebook.com/goshoppre/",
+    "https://twitter.com/Go_Shoppre",
+    "https://plus.google.com/+SHOPPRECOM",
+    "https://www.instagram.com/shoppre_official",
+    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+    "https://www.linkedin.com/company/shoppre.com",
+    "https://in.pinterest.com/shoppre",
+    "https://goo.gl/maps/uuZy4tMs8582",
+    "https://play.google.com/store/apps/details?id=com.shoppre.play",
+    "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
+  ]
+}
+</script>
+<style>
         .padding-bottom{
             padding-bottom: 10px;
             padding-left: 0;

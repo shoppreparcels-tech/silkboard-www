@@ -64,7 +64,7 @@
     @yield('css_style')
 
 
-    <link href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/style.css" rel="stylesheet">
+    {{--<link href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/style.css" rel="stylesheet">--}}
 
     <link rel="publisher" href="https://plus.google.com/101070316798366909776/">
     <meta name="google-play-app" content="app-id=com.shoppre.play"/>
@@ -186,7 +186,7 @@
 
     function IndexController ($scope, $http) {
         $scope.Faqs = {
-            select: function($item) {
+            select: function ($item) {
                 window.location.href = '{{route("faq")}}';
             },
             get: function (search) {
@@ -204,7 +204,30 @@
             noResults: false,
             loadingFaqs: false,
         };
+
+        $scope.Store = {
+            select: function($item) {
+                var href = ($item.name);
+                window.open('https://' + href, '_blank');
+            },
+            get: function (search) {
+                return $http
+                    .get('/store/search', {
+                        params: {
+                            q: search,
+                        }
+                    })
+                    .then(function (response) {
+                        console.log(response);
+                        return response.data.name;
+                    });
+            },
+            noResults: false,
+            loadingStore: false,
+        };
+
     }
+
 
     angular.module('shoppre')
         .controller('IndexController', IndexController);
@@ -449,7 +472,6 @@
     $(document).ready(function () {
         //rotation speed and timer
         var speed = 5000;
-
         var run = setInterval(rotate, speed);
         var slides = $('.slide');
         var container = $('#slides ul');
@@ -462,13 +484,9 @@
         container.width(slides.length * item_width); //set the slides container to the correct total width
         container.find(elm + ':first').before(container.find(elm + ':last'));
         resetSlides();
-
-
         //if user clicked on prev button
-
         $('#buttons a').click(function (e) {
             //slide the item
-
             if (container.is(':animated')) {
                 return false;
             }

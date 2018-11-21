@@ -7,6 +7,7 @@ Route::get('/about', 'PageController@about')->name('about');
 Route::get('/partner', 'PageController@partner')->name('partner');
 Route::get('/faq', 'PageController@faq')->name('faq');
 Route::get('/faq/search', 'PageController@faqSearch')->name('faq.search');
+Route::get('/store/search', 'PageController@storeSearch')->name('store.search');
 Route::get('/contact', 'PageController@contact')->name('contact');
 Route::post('/contact/submit', 'PageController@submitContact')->name('contact.submit');
 Route::get('/terms-and-conditions', 'PageController@termsAndConditions')->name('termsAndConditions');

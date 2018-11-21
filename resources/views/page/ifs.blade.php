@@ -18,14 +18,12 @@
     <meta property="og:description" content="ShoppRe an online shopping site in India and international shipping service that allows you to shop from India, and delivery to your doorstep with 20-day Free storage and consolidation services."/>
     <meta property="og:site_name" content="ShoppRe: Online Shopping Site in India"/>
 
-
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="Go_Shoppre" />
     <meta name="twitter:title" content="Shop from India and Ship Worldwide with ShoppRe.com" />
     <meta name="twitter:description" content="ShoppRe an online shopping site in India and international shipping service that allows you to shop from India, and delivery to your doorstep with 20-day Free storage and consolidation services." />
     <meta name="twitter:image" content="{{asset('img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}" />
     <meta name="twitter:image:alt" content="ShoppRe online shopping and parcel forwarding from India"/>
-
 
     <meta name="twitter:app:country" content="IN"/>
     <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
@@ -125,7 +123,7 @@
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                 <center>
                     <p class="header-ifs-p">
-                        <a class="bla-1" href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=5s">
+                        <a class="bla-1" href="https://www.youtube.com/watch?v=eFop4beZmOk">
                             <img class="btn-vid-img" src="{{asset('img/svg/btn.svg')}}">
                         </a>
 

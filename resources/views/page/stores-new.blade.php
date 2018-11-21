@@ -1,12 +1,12 @@
 @extends('layout')
 @extends('add-sense')
 
-@section('title', 'Browse Categories: List of Top Indian Shopping Sites | Shoppre')
+@section('title', 'Browse Categories: List of Top Indian Shopping Sites | ShoppRe')
 @section('description', 'Shop from list of Top Indian Shopping Sites, Facebook & Instagram Sellers. Save by combining multiple packages into one and get it shipped to your country.')
 @section('keywords', 'shop, list of top indian shopping sites, facebook, instagram sellers, multiple packages, shipped to your country')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/shop-from-india-ship-worldwide"/>
+    <link rel="canonical" href="https://www.shoppre.com/indian-online-stores"/>
 @endsection
 @section('content')
     <section class="b-heading-section">
@@ -173,15 +173,16 @@
                                 <input
                                     type="text"
                                     class="form-control input-lg  search-bar-input"
-                                    name="faq"
+                                    name="store"
                                     placeholder="Search your store"
-                                    ng-model="Faq.model"
-                                    uib-typeahead="faq.question for faq in Faqs.get($viewValue)"
-                                    typeahead-loading="Faqs.loadingFaqs"
-                                    typeahead-no-results="Faqs.noResults"
-                                    typeahead-on-select='Faqs.select($item)'
+                                    ng-model="Store.model"
+                                    uib-typeahead="store.name for store in Store.get($viewValue)"
+                                    typeahead-loading="Store.loadingFaqs"
+                                    typeahead-no-results="Store.noResults"
+                                    typeahead-on-select='Store.select($item)'
                                     typeahead-wait-ms="10"
                                     autocomplete="off"
+                                    id="stores"
                                 />
 
                             </div>

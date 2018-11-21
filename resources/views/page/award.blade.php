@@ -153,10 +153,9 @@
                             THE BEST<br/>
                             <span>PERSONAL SHOPPER</span>
                         </div>
-                        <div class="divider10"></div>
-                        <img src="{{asset('img/images/circle01.png')}}" class="img-space">
-
-                        <p> Javier Fisherman<br/>
+                        {{--<div class="divider10"></div>--}}
+                        <img src="{{asset('img/images/javier.png')}}" class="img-space">
+                        <p class="img-space-p"> Javier Fisherman<br/>
                             <span>Bolivia</span></p>
                     </div><!-- /.box-sky -->
                 </div><!-- /.col-sm-4 -->
@@ -169,10 +168,9 @@
                             ETHNIC<br/>
                             <span> SHIPPER</span>
                         </div>
-                        <div class="divider40"></div>
-                        <img src="{{asset('img/images/circle01.png')}}" class="img-space">
-
-                        <p>Anupama Madhavan<br/>
+                        {{--<div class="divider40"></div>--}}
+                        <img src="{{asset('img/images/anupama.png')}}" class="img-space">
+                        <p class="img-space-p">Anupama Madhavan<br/>
                             <span>UAE</span></p>
                     </div><!-- /.box-yllw -->
                 </div><!-- /.col-sm-4 -->
@@ -186,10 +184,10 @@
                             AWARD FOR<br/>
                             <span>SOCIAL CAUSE</span>
                         </div>
-                        <div class="divider40"></div>
-                        <img src="{{asset('img/images/circle01.png')}}" class="img-space">
+                        {{--<div class="divider40"></div>--}}
+                        <img src="{{asset('img/images/israel.png')}}" class="img-space">
 
-                        <p>Israel<br/>
+                        <p class="img-space-p">Israel<br/>
                             <span>Nigeria</span></p>
                     </div><!-- /.box-pnk -->
                 </div><!-- /.col-sm-4 -->
@@ -201,10 +199,9 @@
                             FAVOURITE<br/>
                             <span>SHIPPER</span>
                         </div>
-                        <div class="divider40"></div>
-                        <img src="{{asset('img/images/circle01.png')}}" class="img-space">
-
-                        <p>Sheefa Krishna Kumar<br/>
+                        {{--<div class="divider40"></div>--}}
+                        <img src="{{asset('img/images/sheefa.png')}}" class="img-space">
+                        <p class="img-space-p">Sheefa Krishna Kumar<br/>
                             <span>UAE</span></p>
                     </div><!-- /.box-dark -->
                 </div><!-- /.col-sm-4 -->

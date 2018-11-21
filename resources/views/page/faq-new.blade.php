@@ -9,15 +9,6 @@
 
 @endsection
 @section('content')
-
-    {{--<section class="page_head">--}}
-    {{--<div class="pagebanner">--}}
-    {{--<img src="img/banner1.jpg" width="100%">--}}
-    {{--<div class="banner-cap">--}}
-    {{--<h2>Frequently Asked Questions - ShoppRe</h2>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</section>--}}
     <section class="bannerfaq text-center clrwhite">
         <div class="container">
             <center>
@@ -29,645 +20,116 @@
 
         </div>
     </section>
-
-
-
-    <section class="faq_content">
-        <div class="container">
-            <div class="col-sm-8 col-sm-offset-2">
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-                    @foreach($categories as $category)
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab">
-                                <h4 class="panel-title">
-                                    <a role="button" data-toggle="collapse" data-parent="#accordion"
-                                       href="#cat_{{$category->id}}" aria-expanded="true">
-                                        {{$category->heading}}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="cat_{{$category->id}}" class="panel-collapse collapse">
-                                <div class="panel-body nested">
-                                    @foreach($category->faqs as $faq)
-                                        <div class="panel">
-                                            <div class="panel-heading nested" role="tab">
-                                                <h4 class="panel-title">
-                                                    <a role="button" data-toggle="collapse" href="#faq_{{$faq->id}}"
-                                                       aria-expanded="true">
-                                                        {{$faq->question}}
-                                                    </a>
-                                                </h4>
-                                            </div>
-                                            <div id="faq_{{$faq->id}}" class="panel-collapse collapse">
-                                                <div class="panel-body">
-                                                    {!!$faq->answer!!}
-                                                </div>
-                                            </div>
-                                        </div>
-                                    @endforeach
-
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
-
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="accsec">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <form action="" class="search-form">
-                        <div class="search-bar">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                            <input class="input-text" type="text" name="srch1"
-                                   placeholder="Can't find your answer? Search ShoppRe">
+                    <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12" id="custom-search-input">
+                        <div class="input-group search-bar">
+                            <span class="input-group-btn">
+                                <button class="btn btn-info btn-lg" type="button">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </span>
+
+                            <input
+                                type="text"
+                                class="form-control input-lg  search-bar-input"
+                                name="faq"
+                                placeholder="What type of issue are you facing with us?"
+                                ng-model="Faq.model"
+                                uib-typeahead="faq.question for faq in Faqs.get($viewValue)"
+                                typeahead-loading="Faqs.loadingFaqs"
+                                typeahead-no-results="Faqs.noResults"
+                                typeahead-on-select='Faqs.select($item)'
+                                typeahead-wait-ms="10"
+                                autocomplete="off"
+                            />
+
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
-        <h4 class="header4 p-color-cement">CATEGORY</h4>
-        <br/>
-        @php
-            $count=0;
-        @endphp
-        @foreach($categories as $category)
-            <div class="container" style="margin-top:50px;">
-                <div id="container">
-                    <div id="parentVerticalTab">
-                        <ul class="resp-tabs-list hor_1">
-                            {{--<li id="">Registration and Membership&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right mobhide"--}}
-                            {{--aria-hidden="true"></i></li>--}}
-                            <li>
-                                <a role="button" data-toggle="collapse" data-parent="#accordion"
-                                   href="#cat_{{$category->id}}" aria-expanded="true">
-                                    {{$category->heading}}
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="resp-tabs-container hor_1">
+
+        <div class="container">
+            <div id="container">
+                <h3 class="header4 p-color-cement-dark">CATEGORY</h3>
+                <br/>
+                <div id="parentVerticalTab">
+                    <ul class="resp-tabs-list hor_1">
+                        @foreach($categories as $category)
+                            <li>{{$category->heading}}&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right mobhide"
+                                                                           aria-hidden="true"></i></li>
+                        @endforeach
+                    </ul>
+                    <div class="resp-tabs-container hor_1">
+                        @foreach($categories as $category)
                             <div>
-                                <div class="panel-group" id="accordion">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Do
-                                                    you provide a Membership Plan?
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapseOne" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
+                                @foreach($category->faqs as $faq)
+                                    <div class="panel-group" id="accordion">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion"
+                                                       href="#faq_{{$faq->id}}">{{$faq->question}}</a>
+                                                </h4>
+                                            </div>
+                                            <div id="faq_{{$faq->id}}" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <a href="{{route('faq.new')}}/{{$faq->question}}" style="color: black" >{!!$faq->answer!!}</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                @endforeach
                             </div>
-                            <div>
-                                <div class="panel-group" id="accordion">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse2" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse3" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse4" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse5" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse6" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse7" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse8" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse9" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse10" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse11" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse12" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse13" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse14">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse14" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse15">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse15" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse16">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse16" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse17">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse17" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse18">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse18" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse19">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse19" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse20">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse20" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse21">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse21" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse22">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse22" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse23">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse23" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="panel-group" id="accordion">
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse24">Is
-                                                    the
-                                                    address provided by Shoppre, a PO Box address?</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse24" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="pull-right padrt18">Still need help?</p>
-                        </div>
-
+                        @endforeach
+                        <p class="pull-right padrt18 p-color-red">Still need help?</p>
                     </div>
 
                 </div>
             </div>
-            $count= $count+1;
-        @endforeach
-
-
+        </div>
     </section>
+    <section class="contact-details-section">
+        <div class="container " id="contact-support">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
+                    <div class="div-phone">
+                        <center>
+                            <img src="{{asset('img/svg/phone.svg')}}" id="phone">
+                            <p class="header6 p-color-white ">Didn't find the answer you need? Contact us!</p>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
+                    <p class="header7">
+                        <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
+                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+
+                </div>
+
+                <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align ">
+                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
+                    <a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>
+
+                </div>
+
+                <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details pull-right contact-text-align">
+                    <p class="header7">
+                        <i class="fa fa-envelope" aria-hidden="true">
+                        </i>Live Chat</p>
+                    {{--<a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#" class="header2 p-color-white">Chat Now</a>--}}
+                    <a href="http://v2.zopim.com/widget/livechat.html?key=WMWUM4as7ltiMKHbRXiFRw3imdMiLtAV" target="_blank" class="header2 p-color-white">Chat Now</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 @endsection
 @section('js_script')

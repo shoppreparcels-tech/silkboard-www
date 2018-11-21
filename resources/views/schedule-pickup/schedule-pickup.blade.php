@@ -191,7 +191,7 @@
                         <div class="col-sm-6">
                             <div class="form-group label-align">
                                 <label>Email :</label>
-                                <input type="text" class="form-control" placeholder="Enter Email"
+                                <input type="email" class="form-control" placeholder="Enter Email"
                                        name="pc_email"  />
                                 <div class="clearfix"></div>
                             </div>
@@ -457,7 +457,7 @@
                         first_name: {required: 'Please Enter First Name'},
                         last_name: {required: 'Please Enter Last Name'},
                         user_email: {required: 'Please Enter Email'},
-                        phone_code: {required: 'Please Select Phone Code'},
+                        phone_code: {required: 'Select Phone Code'},
                         mobile: {required: 'Please Enter Mobile No.'},
                         no_of_packages: {required: 'Please Enter No of Packages'},
                         package_weight: {required: 'Please Enter Package Weight'},
@@ -475,7 +475,7 @@
                         dc_city: {required: 'Please Enter City'},
                         dc_country: {required: 'Please Select Country'},
                         dc_pincode: {required: 'Please Enter Pincode'},
-                        dc_phone_code: {required: 'Please Select Phone Code'},
+                        dc_phone_code: {required: 'Select Phone Code'},
                         dc_contact_no: {required: 'Please Enter Contact Number'}
                     },
                 submitHandler: function (form) {

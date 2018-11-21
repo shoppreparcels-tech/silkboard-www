@@ -126,10 +126,10 @@
                 </div>
                 <div class="col-md-9 col-md-offset-2 col-sm-12 col-xs-12 border-bottom">
                     <ul class="list-unstyled faq-list">
-                        <li><a href="{{route('faq')}}">Do you provide a Membership Plan?</a></li>
+                        <li><a href="{{route('faq.new')}}/#parentVerticalTab1">Do you provide a Membership Plan?</a></li>
                         <li><a href="{{route('faq')}}">Is the address provided by ShoppRe, a PO Box address?</a></li>
                         <li><a href="{{route('faq')}}">Why was my Registration Unsuccessful?</a></li>
-                        <li><a href="{{route('faq')}}">How do I use my virtual address?</a></li>
+                        <li><a href="{{route('faq.new')}}/#parentVerticalTab2">How do I use my virtual address?</a></li>
                         <li><a href="{{route('faq')}}">Why Choose ShoppRe?</a></li>
                         <li><a href="{{route('faq')}}">What couriers do you use to send my package(s)?</a></li>
                         <li><a href="{{route('faq')}}">How can I get my package(s) shipped?</a></li>

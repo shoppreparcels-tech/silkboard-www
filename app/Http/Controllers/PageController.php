@@ -20,6 +20,7 @@ use App\Page;
 use App\FavoriteStore;
 use App\Review;
 use App\ChatEmail;
+use App\Store;
 
 use App\Mail\ContactEnquiry;
 use App\Mail\GetQuote;
@@ -578,6 +579,18 @@ class PageController extends Controller
         }
         $questions = $query->get();
         return response()->json(['questions' => $questions]);
+    }
+
+    public function storeSearch(Request $request)
+    {
+        $query = Store::query();
+        if (isset($request->q) && !empty($request->q)) {
+            $keyword = $request->q;
+            $query->where('name', 'like', '%' . $keyword . '%')
+                ->select(['name']);
+        }
+        $questions = $query->get();
+        return response()->json(['name' => $questions]);
     }
 
     public function contact()
