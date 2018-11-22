@@ -53,6 +53,14 @@ class PageController extends Controller
     {
         return view('page.become-partner');
     }
+    public function radioContest()
+    {
+        return view('page.radio-contest');
+    }
+    public function radioTermsConditions()
+    {
+        return view('page.radio-terms-conditions');
+    }
     public function faqNew()
     {
         $categories = FaqCategory::all();

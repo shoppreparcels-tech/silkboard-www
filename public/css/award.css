@@ -127,6 +127,7 @@ div.middle{display: table;height: 320px;width: 100%;text-align: center;}
 .around-world p.wht-txt{color: #ffffff;font-size: 16px;font-weight: 500;}
 .around-world p.wht-txt span{color: #fdf699;}
 .btn-red{border-radius: 30px;background-color: #e85151; border:0;width: 300px;height: 50px; margin: 0}
+.img-illustrator{width: 35%;}
 
 @media (min-width: 768px) and (max-width: 1024px) {
 body{overflow-x: hidden;}

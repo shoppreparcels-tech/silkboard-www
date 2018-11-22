@@ -72,6 +72,21 @@
   <priority>0.50</priority>
 </url>
 <url>
+    <loc>https://www.shoppre.com/2018-annual-awards-international-shipping-shopping</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.50</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/sellers-shipping</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.50</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/partner</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.50</priority>
+</url>
+<url>
   <loc>https://www.shoppre.com/country-guide</loc>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>

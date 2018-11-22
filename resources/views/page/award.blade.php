@@ -1,12 +1,35 @@
 @extends('layout')
 
-@section('title', 'ShoppRe Awards 2018 | Best Online Shops, Shoppers, Courier & Seller')
+@section('title', 'ShoppRe Awards 2018 | Best Online Shops, Shippers, Courier & Seller')
 @section('description', 'ShoppRe Awards 2018 is not a gaudy celebration of our success which is clearly shown in the numbers & charts, but a gentle reminder of how far we have yet to go')
 @section('keywords', 'awards, couriers, shoppers, sellers, favorite, shipper, online shops, uae, usa, australia, canada')
 
 @section('css_style')
     <link rel="stylesheet" href="{{asset('css/animations.css')}}" >
     <link rel="stylesheet" href="{{asset('css/award.css')}}">
+
+    <meta property="og:title" content="ShoppRe Awards 2018: Best Online Shops, Shoppers, Shipper, Courier & Seller"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/2018-annual-awards-international-shipping-shopping"/>
+    <meta property="og:image" content="{{asset('img/images/shoppre-awards-shipping-india-2018.png')}}"/>
+    <meta property="og:image:width" content="1206">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="ShoppRe International Awards" />
+    <meta property="og:description" content="ShoppRe Awards 2018 is not a gaudy celebration of our success which is clearly shown in the numbers and charts, but a gentle reminder of how far we have yet to go."/>
+    <meta property="og:site_name" content="ShoppRe Online Shipping Site in India"/>
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="Go_Shoppre" />
+    <meta name="twitter:title" content="ShoppRe Awards 2018: Best Online Shops, Shoppers, Shipper, Courier & Seller" />
+    <meta name="twitter:description" content="ShoppRe Awards 2018 is not a gaudy celebration of our success which is clearly shown in the numbers and charts, but a gentle reminder of how far we have yet to go." />
+    <meta name="twitter:image" content="{{asset('img/images/shoppre-awards-shipping-india-2018.png')}}" />
+    <meta name="twitter:image:alt" content="ShoppRe International Awards"/>
+
+    <meta name="twitter:app:country" content="IN"/>
+    <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
+    <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
+    <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
+
     <script type='application/ld+json'>
 {
   "@context": "http://www.schema.org",
@@ -54,7 +77,7 @@
                         <div class="col-sm-12  col-md-7 col-sm-push-2 text-center animatedParent">
                             <div class="col-sm-6">
                                 <div class="white-lft animated bounceInLeft">
-                                    <img src="{{asset('img/images/human-pic.png')}}">
+                                    <img src="{{asset('/img/svg/001-man.svg')}}" class="img-illustrator">
                                     <div class="ic-award">
                                         the best<br/>
                                         <span>sellout</span>
@@ -64,7 +87,7 @@
                             </div><!-- /.col-sm-6 -->
                             <div class="col-sm-6">
                                 <div class="white-rgt animated bounceInRight">
-                                    <img src="{{asset('img/images/human-pic.png')}}">
+                                    <img src="{{asset('/img/svg/001-man.svg')}}" class="img-illustrator">
                                     <div class="ic-award">
                                         the up & coming<br/>
                                         <span>seller</span>
@@ -86,7 +109,7 @@
                         <div class="col-sm-12  col-md-7 col-sm-push-2 text-center animatedParent">
                             <div class="col-sm-6">
                                 <div class="white-lft animated bounceInLeft">
-                                    <img src="{{asset('img/images/human-pic.png')}}">
+                                    <img src="{{asset('/img/svg/001-man.svg')}}" class="img-illustrator">
                                     <div class="ic-award">
                                        Uprising<br/>
                                         <span>partner</span>
@@ -96,7 +119,7 @@
                             </div><!-- /.col-sm-6 -->
                             <div class="col-sm-6">
                                 <div class="white-rgt animated bounceInRight">
-                                    <img src="{{asset('img/images/human-pic.png')}}">
+                                    <img src="{{asset('/img/svg/001-man.svg')}}" class="img-illustrator">
                                     <div class="ic-award">
                                         most trusted<br/>
                                         <span>courier</span>
@@ -112,7 +135,7 @@
 
         <div class="container-fluid animatedParent" data-sequence='1000' id="a">
 
-            <h2 class='animated growIn' data-id='1'>Our Favorite Shoppers</h2>
+            <h2 class='animated growIn' data-id='1'>Our Favorite Shippers</h2>
             <div class="divider100"></div>
             <div class="container animatedParent">
 
@@ -120,11 +143,11 @@
                     <div class="box-yllw text-center animated fadeInDownShort">
                         <img src="{{asset('img/images/ic_award_01.png')}}" class="img-space-top">
                         <div class="fav-ic-award">
-                            {{--the best<br/>--}}
+                            the best<br/>
                             <span> SHIPPER</span>
                         </div>
                         <div class="divider40"></div>
-                        <img src="{{asset('img/images/circle01.png')}}" class="img-space">
+                        <img src="{{asset('/img/svg/001-man.svg')}}" class="img-space img-illustrator">
 
                         <p>Ateeq Sachina<br/>
                             <span>India</span></p>
@@ -139,7 +162,7 @@
                             <span>SHIPPER</span>
                         </div>
                         <div class="divider40"></div>
-                        <img src="{{asset('img/images/circle01.png')}}" class="img-space">
+                        <img src="{{asset('/img/svg/034-woman-8.svg')}}" class="img-space img-illustrator">
 
                         <p>Angela Thunder<br/>
                             <span>Hawaii</span></p>
@@ -214,7 +237,7 @@
                             <span>SHIPPER</span>
                         </div>
                         <div class="divider40"></div>
-                        <img src="{{asset('img/images/circle01.png')}}" class="img-space">
+                        <img src="{{asset('/img/svg/034-woman-8.svg')}}" class="img-space img-illustrator">
 
                         <p>Asuka<br/>
                             <span> Japan</span></p>
@@ -232,7 +255,7 @@
                             <span>SELLER</span>
                         </div>
                         <div class="divider10"></div>
-                        <img src="{{asset('img/images/circle01.png')}}" class="img-space">
+                        <img src="{{asset('/img/svg/001-man.svg')}}" class="img-space img-illustrator">
 
                         <p> Abhinav Mishra<br/>
                             <span>USA</span></p>
@@ -241,13 +264,13 @@
 
                 <div class="col-sm-4 col-sm-offset-4">
                     <div class="box-pnk text-center animated fadeInUpShort">
-                        <img src="{{asset('img/images/ic_award_01.png')}}" class="img-space-top">
+                        <img src="{{asset('img/images/ic_award_01.png')}}" class="img-space-top img-illustrator">
                         <div class="fav-ic-award">
                             up coming<br/>
                             <span>SELLER</span>
                         </div>
                         <div class="divider40"></div>
-                        <img src="{{asset('img/images/circle01.png')}}" class="img-space">
+                        <img src="{{asset('/img/svg/034-woman-8.svg')}}" class="img-space img-illustrator">
 
                         <p>Shilpa Pandey<br/>
                             <span>India</span></p>

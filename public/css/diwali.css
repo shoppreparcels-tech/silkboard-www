@@ -479,13 +479,19 @@
 .product-courier a:hover{background-color: #C83B3B;color: white;border: none;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);}
 .ps-img-rounded{height:400px}
 .div-btn-padding{padding-top: 30px;}
+.btn-activate-coupon:hover{background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);color: #fff;}
+.div-lets-t-c {box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 20px;background-color: #fafafb;margin-top: -368px;padding-top: 50px;}
+/*.div-iframe {position: center;width: 57%;height: 0;padding-bottom: 56.25%;}*/
+.video {width:560px ;height:315px;}
+
 /*ifs-landing-page*/
 
 @media only screen and (max-width: 600px) {
 
     .div-btn-padding{padding-top: 0px;margin-left: -12px;}
     .img-rounded {height: 300px;}
-
+    /*.div-iframe {width: 100%;}*/
+    .video {width:300px ;height:315px;}
     .shopContainer {
         margin-top: -200px;
         padding-right: 15px;

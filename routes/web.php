@@ -61,6 +61,9 @@ Route::get('/personal-shopper-india', 'PageController@ifsLandingPage')->name('if
 Route::get('/indian-online-stores', 'PageController@storeNew')->name('stores1');
 Route::get('/faq-new', 'PageController@faqNew')->name('faq.new');
 
+Route::get('/radcon', 'PageController@radioContest')->name('radio');
+Route::get('/radcon-tc', 'PageController@radioTermsConditions')->name('radio.tc');
+
 Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
 Route::post('/more-reviews', 'PageController@moreReviews')->name('more.reviews');
 
