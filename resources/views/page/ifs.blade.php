@@ -402,12 +402,12 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 div-ifs-google-reviews">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                         <img class="img-responsive img-courier-review-g"
-                             src="img/svg/google-reviews-shipping-service-bengaluru.svg">
+                             src="{{asset('img/svg/google-reviews-shipping-service-bengaluru.svg')}}">
                         <p class="header6" style="color: #e85151;">Reviews</p>
                     </div>
 
                     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                        <img class="img-responsive " style="margin-top: 5px;" src="img/images/google-rating-shipping-service-bengaluru.png">
+                        <img class="img-responsive " style="margin-top: 5px;" src="{{asset('img/images/google-rating-shipping-service-bengaluru.png')}}">
                     </div>
                 </div>
             </a>
@@ -415,13 +415,13 @@
                 <div class="col-lg-5 col-md-5  col-sm-12 col-xs-12">
                     <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-xs-4">
                         <img class="img-responsive img-courier-review-f"
-                             src="img/images/facebook-reviews-shipping-service.png">
+                             src="{{asset('img/images/facebook-reviews-shipping-service.png')}}">
                         <p class="header6" style="color: #507dbc; line-height: 30px">Reviews</p>
                     </div>
 
                     <div class="col-lg-7 col-md-7 col-sm-8 col-xs-8">
                         <img class="img-responsive img-facebook-r" style="margin-top: -15px;"
-                             src="img/images/facebook-rating-shipping-service.png">
+                             src="{{asset('img/images/facebook-rating-shipping-service.png')}}">
                     </div>
                 </div>
             </a>

@@ -1547,10 +1547,10 @@
                                             </h5>
                                         </div>
                                         <div class="div-backgroud-price-cal">
-                                            <h5 class="header6 p-color-cement"> 0.5 - 5 Kg ->₹1150</h5>
-                                            <h5 class="header6 p-color-cement"> 5 - 10 Kg -> ₹1650</h5>
-                                            <h5 class="header6 p-color-cement"> 10 - 15 Kg -> ₹2750</h5>
-                                            <h5 class="header6 p-color-cement"> Above 15 Kg -> ₹3150</h5>
+                                            <h5 class="header6 p-color-cement">0.5 - 5 Kg ->₹1392.4 </h5>
+                                            <h5 class="header6 p-color-cement">5 - 10 Kg -> ₹3009</h5>
+                                            <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹5369</h5>
+                                            <h5 class="header6 p-color-cement">Above 15 Kg -> ₹7729</h5>
                                             <span class="header8 p-color-cement">*Weight in Kg per shipment</span>
                                         </div>
                                         <div class="div-backgroud-price-cal1">
@@ -1660,11 +1660,10 @@
                                             </h5>
                                         </div>
                                         <div class="div-backgroud-price-cal">
-                                            <h5 class="header6 p-color-cement">
-                                                0.5 - 5 Kg ->₹1150</h5>
-                                            <h5 class="header6 p-color-cement"> 5 - 10 Kg -> ₹1650</h5>
-                                            <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹2750</h5>
-                                            <h5 class="header6 p-color-cement">Above 15 Kg -> ₹3150</h5>
+                                            <h5 class="header6 p-color-cement">0.5 - 5 Kg ->₹1392.4 </h5>
+                                            <h5 class="header6 p-color-cement">5 - 10 Kg -> ₹3009</h5>
+                                            <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹5369</h5>
+                                            <h5 class="header6 p-color-cement">Above 15 Kg -> ₹7729</h5>
                                             <span class="header8 p-color-cement">*Weight in Kg per shipment</span>
                                         </div>
                                         <div class="div-backgroud-price-cal1">
@@ -2110,10 +2109,10 @@
                                             </h5>
                                         </div>
                                         <div class="div-backgroud-price-cal">
-                                            <h5 class="header6 p-color-cement"> 0.5 - 5 Kg -> ₹1150</h5>
-                                            <h5 class="header6 p-color-cement"> 5 - 10 Kg -> ₹1650</h5>
-                                            <h5 class="header6 p-color-cement"> 10 - 15 Kg -> ₹2750</h5>
-                                            <h5 class="header6 p-color-cement"> Above 15 Kg -> ₹3150</h5>
+                                            <h5 class="header6 p-color-cement">0.5 - 5 Kg ->₹1392.4 </h5>
+                                            <h5 class="header6 p-color-cement">5 - 10 Kg -> ₹3009</h5>
+                                            <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹5369</h5>
+                                            <h5 class="header6 p-color-cement">Above 15 Kg -> ₹7729</h5>
                                             <span class="header8 p-color-cement">*Weight in Kg per shipment</span>
                                         </div>
                                         <div class="div-backgroud-price-cal1">
@@ -2222,11 +2221,10 @@
                                             </h5>
                                         </div>
                                         <div class="div-backgroud-price-cal">
-                                            <h5 class="header6 p-color-cement">
-                                                0.5 - 5 Kg ->₹1150</h5>
-                                            <h5 class="header6 p-color-cement"> 5 - 10 Kg -> ₹1650</h5>
-                                            <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹2750</h5>
-                                            <h5 class="header6 p-color-cement">Above 15 Kg -> ₹3150</h5>
+                                            <h5 class="header6 p-color-cement">0.5 - 5 Kg ->₹1392.4 </h5>
+                                            <h5 class="header6 p-color-cement">5 - 10 Kg -> ₹3009</h5>
+                                            <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹5369</h5>
+                                            <h5 class="header6 p-color-cement">Above 15 Kg -> ₹7729</h5>
                                             <span class="header8 p-color-cement">*Weight in Kg per shipment</span>
                                         </div>
                                         <div class="div-backgroud-price-cal1">
@@ -2415,7 +2413,7 @@
                                             <i class="fa fa-question-circle-o"></i>
                                         </a></td>
                                     <td>
-                                        <h5 class="header6 p-color-cement">0.5 - 5 Kg ->₹1392.4 </h5>
+                                        <h5 class="header6 p-color-cement">0.5 - 5 Kg -> ₹1392.4 </h5>
                                         <h5 class="header6 p-color-cement">5 - 10 Kg -> ₹3009</h5>
                                         <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹5369</h5>
                                         <h5 class="header6 p-color-cement">Above 15 Kg -> ₹7729</h5>
@@ -2639,10 +2637,10 @@
                                             <i class="fa fa-question-circle-o"></i>
                                         </a></td>
                                     <td>
-                                        <h5 class="header6 p-color-cement">0.5 - 5 Kg ->₹1150 </h5>
-                                        <h5 class="header6 p-color-cement">5 - 10 Kg -> ₹1650</h5>
-                                        <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹2750</h5>
-                                        <h5 class="header6 p-color-cement">Above 15 Kg -> ₹3150</h5>
+                                        <h5 class="header6 p-color-cement">0.5 - 5 Kg -> ₹1392.4 </h5>
+                                        <h5 class="header6 p-color-cement">5 - 10 Kg -> ₹3009</h5>
+                                        <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹5369</h5>
+                                        <h5 class="header6 p-color-cement">Above 15 Kg -> ₹7729</h5>
                                         <span class="header8 p-color-cement">*Weight in Kg per shipment</span>
                                     </td>
                                 </tr>
@@ -2861,10 +2859,10 @@
                                             <i class="fa fa-question-circle-o"></i>
                                         </a></td>
                                     <td>
-                                        <h5 class="header6 p-color-cement">0.5 - 5 Kg ->₹1150 </h5>
-                                        <h5 class="header6 p-color-cement">5 - 10 Kg -> ₹1650</h5>
-                                        <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹2750</h5>
-                                        <h5 class="header6 p-color-cement">Above 15 Kg -> ₹3150</h5>
+                                        <h5 class="header6 p-color-cement">0.5 - 5 Kg -> ₹1392.4 </h5>
+                                        <h5 class="header6 p-color-cement">5 - 10 Kg -> ₹3009</h5>
+                                        <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹5369</h5>
+                                        <h5 class="header6 p-color-cement">Above 15 Kg -> ₹7729</h5>
                                         <span class="header8 p-color-cement">*Weight in Kg per shipment</span>
                                     </td>
                                 </tr>
@@ -3310,10 +3308,10 @@
                                             <i class="fa fa-question-circle-o"></i>
                                         </a></td>
                                     <td>
-                                        <h5 class="header6 p-color-cement">0.5 - 5 Kg ->₹1150 </h5>
-                                        <h5 class="header6 p-color-cement">5 - 10 Kg -> ₹1650</h5>
-                                        <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹2750</h5>
-                                        <h5 class="header6 p-color-cement">Above 15 Kg -> ₹3150</h5>
+                                        <h5 class="header6 p-color-cement">0.5 - 5 Kg -> ₹1392.4 </h5>
+                                        <h5 class="header6 p-color-cement">5 - 10 Kg -> ₹3009</h5>
+                                        <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹5369</h5>
+                                        <h5 class="header6 p-color-cement">Above 15 Kg -> ₹7729</h5>
                                         <span class="header8 p-color-cement">*Weight in Kg per shipment</span>
                                     </td>
                                 </tr>
@@ -3532,10 +3530,10 @@
                                             <i class="fa fa-question-circle-o"></i>
                                         </a></td>
                                     <td>
-                                        <h5 class="header6 p-color-cement">0.5 - 5 Kg ->₹1150 </h5>
-                                        <h5 class="header6 p-color-cement">5 - 10 Kg -> ₹1650</h5>
-                                        <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹2750</h5>
-                                        <h5 class="header6 p-color-cement">Above 15 Kg -> ₹3150</h5>
+                                        <h5 class="header6 p-color-cement">0.5 - 5 Kg -> ₹1392.4 </h5>
+                                        <h5 class="header6 p-color-cement">5 - 10 Kg -> ₹3009</h5>
+                                        <h5 class="header6 p-color-cement">10 - 15 Kg -> ₹5369</h5>
+                                        <h5 class="header6 p-color-cement">Above 15 Kg -> ₹7729</h5>
                                         <span class="header8 p-color-cement">*Weight in Kg per shipment</span>
                                     </td>
                                 </tr>
