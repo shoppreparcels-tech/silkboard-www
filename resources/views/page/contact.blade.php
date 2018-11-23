@@ -157,7 +157,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="div-phone">
                         <center>
-                            <img src="{{asset('img/svg/phone.svg')}}" id="phone">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Didn't find the answer you need? Contact us!</p>
                         </center>
                     </div>
@@ -194,14 +194,14 @@
                 <div class="col-md-3">
                     <div class="no-padding address-details">
                         <h4>Locations</h4>
-                        <span class="under-line"><img src="{{asset('img/images/line.png')}}"></span>
+                        <span class="under-line"><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/line.png"></span>
                         <h5>BANGALORE - INDIA</h5>
                         <p> IndianShoppre LLP,
                             First Floor, <br>No. 181, 2nd Cross Road,
                             7th Main, Koramangala 1st Block, Bengaluru - 560034,
                             Karnataka, India</p>
                     </div>
-                    <span class="under-line"><img src="{{asset('img/images/line.png')}}"></span>
+                    <span class="under-line"><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/line.png"></span>
                     <div class="no-padding address-details">
                         <h5>DUBAI - U.A.E</h5>
                         <p> Sephora Office, Mezzanine Floor,
@@ -210,28 +210,28 @@
                             Port Saeed - 119062
                             Dubai, UAE</p>
                     </div>
-                    <span class="under-line"><img src="{{asset('img/images/line.png')}}"></span>
+                    <span class="under-line"><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/line.png"></span>
                     <div class="no-padding address-details">
                         <h5>Connect us on</h5>
                         <ul class="list-inline list-unstyled">
                             <li>
                                 <a href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw">
-                                    <img class="img-connect" src="{{asset('img/svg/shoppre-youtube-video.svg')}}">
+                                    <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-youtube-video.svg">
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.facebook.com/goshoppre/">
-                                    <img class="img-connect" src="{{asset('img/svg/go-shoppre-faceboook.svg')}}">
+                                    <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/go-shoppre-faceboook.svg">
                                 </a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/Go_Shoppre">
-                                    <img class="img-connect" src="{{asset('img/svg/shoppre-twitter.svg')}}">
+                                    <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-twitter.svg">
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/shoppre_official/?hl=en">
-                                    <img class="img-connect" src="{{asset('img/svg/shoppre-instagram.svg')}}">
+                                    <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-instagram.svg">
                                 </a>
                             </li>
 

@@ -18,7 +18,7 @@
             <center>
                 <p class="header-ifs-p">
                     <a class="bla-1" href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=5s">
-                        <img class="btn-vid-img" src="{{asset('img/svg/btn.svg')}}">
+                        <img class="btn-vid-img" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/btn.svg">
                     </a>
                 </p>
                 <h1 class="header1  p-color-white">ShoppRe Courier</h1>
@@ -106,7 +106,7 @@
                     </div>
                     <div>
                         <center>
-                            <img class="img-responsive img-process" src="{{asset('img/svg/pic_up.svg')}}">
+                            <img class="img-responsive img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pic_up.svg">
                             <h2 class="header3 p-color-cement-dark">Schedule a Pickup</h2>
                             <p class="header5 p-color-cement">
                                 After getting your FREE estimate, fill in the order form accordingly and submit it to schedule your pickup.
@@ -124,7 +124,7 @@
                     </div>
                     <div>
                         <center>
-                            <img class="img-responsive  img-process" src="{{asset('img/svg/shipments.svg')}}">
+                            <img class="img-responsive  img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shipments.svg">
                             <h2 class="header3 p-color-cement-dark">We’ll Pick It Up</h2>
                             <p class="header5 p-color-cement">
                                 Within 48 hours of you making the request, we’ll come to your doorsteps to pickup your package(s).
@@ -142,7 +142,7 @@
                     </div>
                     <div>
                         <center>
-                            <img class="img-process" src="{{asset('img/svg/deliver_package.svg')}}">
+                            <img class="img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/deliver_package.svg">
                             <h2 class="header3 p-color-cement-dark">Dispatch in 24 Hours</h2>
                             <p class="header5 p-color-cement">
                                 We’ll complete the documentation & dispatch your package(s) to one of our courier partners as soon as possible.
@@ -182,12 +182,12 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 div-ifs-google-reviews">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                         <img class="img-responsive img-courier-review-g"
-                             src="img/svg/google-reviews-shipping-service-bengaluru.svg">
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/svg/google-reviews-shipping-service-bengaluru.svg">
                         <p class="header6" style="color: #e85151;">Reviews</p>
                     </div>
 
                     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                        <img class="img-responsive " style="margin-top: 5px;" src="img/images/google-rating-shipping-service-bengaluru.png">
+                        <img class="img-responsive " style="margin-top: 5px;" src="{{env('AWS_CLOUD_FRONT')}}/img/images/google-rating-shipping-service-bengaluru.png">
                     </div>
                 </div>
             </a>
@@ -195,13 +195,13 @@
                 <div class="col-lg-5 col-md-5  col-sm-12 col-xs-12">
                     <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-xs-4">
                         <img class="img-responsive img-courier-review-f"
-                             src="img/images/facebook-reviews-shipping-service.png">
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-reviews-shipping-service.png">
                         <p class="header6" style="color: #507dbc; line-height: 30px">Reviews</p>
                     </div>
 
                     <div class="col-lg-7 col-md-7 col-sm-8 col-xs-8">
                         <img class="img-responsive img-facebook-r" style="margin-top: -15px;"
-                             src="img/images/facebook-rating-shipping-service.png">
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-rating-shipping-service.png">
                     </div>
                 </div>
             </a>
@@ -212,7 +212,7 @@
     <section>
         <div class="container" style="margin-top: 62px;">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive img-shipments" src="{{asset('img/images/back.png')}}">
+                <img class="img-responsive img-shipments" src="{{env('AWS_CLOUD_FRONT')}}/img/images/back.png">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="header1 p-color-cement-dark p-seller">Are you an ambitious Seller?

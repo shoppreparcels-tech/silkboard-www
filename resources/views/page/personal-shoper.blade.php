@@ -41,10 +41,10 @@
         <div class="container">
             <div class="col-md-12">
                 <a href="tel:+91-80 4094 4077" class="pull-right d-contact-img-desktop">
-                    <img src="{{asset('img/images/d-contact-img1.png')}}" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">
                 </a>
                 <a href="tel:+91-80 4094 4077" class="d-contact-img pull-right">
-                    <img src="{{asset('img/images/d-contact-img2.png')}}" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">
                 </a>
             </div>
         </div>
@@ -57,7 +57,7 @@
 
                 {{--<div class="row">--}}
                 <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card no-padding">
-                    <img class="img " src="{{asset('img/svg/international-credit-card-shopping.svg')}}"
+                    <img class="img " src="{{env('AWS_CLOUD_FRONT')}}/img/svg/international-credit-card-shopping.svg"
                          alt="international credit card shopping">
                 </div>
                 <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card no-padding">
@@ -68,7 +68,7 @@
 
 
                 <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card no-padding">
-                    <img class="img" src="{{asset('img/svg/indian-phone-number.svg')}}" alt="indian number">
+                    <img class="img" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indian-phone-number.svg" alt="indian number">
                 </div>
                 <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card no-padding">
                     <h4 class="header6 p-color-cement">Don't have an Indian phone number
@@ -76,7 +76,7 @@
                     </h4>
                 </div>
                 <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card no-padding">
-                    <img class="img" src="{{asset('img/svg/indian-address-shopping.svg')}}"
+                    <img class="img" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indian-address-shopping.svg"
                          alt="indian address for shopping">
 
                 </div>
@@ -85,7 +85,7 @@
                     </h4>
                 </div>
                 <div class="col-sm-12 col-xs-12 no-padding" id="img-shopping-mobile">
-                    <img class="img-responsive " src="{{asset('img/images/image06_v2.png')}}">
+                    <img class="img-responsive " src="{{env('AWS_CLOUD_FRONT')}}/img/images/image06_v2.png">
                 </div>
                 {{--</div>--}}
                 <div class="col-md-12 col-xs-12 div-btn-padding">
@@ -99,7 +99,7 @@
 
             </div>
             <div class="col-md-7 col-lg-7 col-sm-7 col-xs-12 no-padding " id="img-shopping" >
-                <img class=" " src="{{asset('img/images/psp.png')}}"
+                <img class=" " src="{{env('AWS_CLOUD_FRONT')}}/img/images/psp.png"
                      alt="personal shopper service in india">
             </div>
         </div>
@@ -109,7 +109,7 @@
             <div class="col-md-7 col-sm-7 col-xs-12 ">
                 <p>
                     <a class="bla-1" href="https://www.youtube.com/watch?v=q5R63gFUREk">
-                        <img src="{{asset('img/svg/btn.svg')}}" style="height: 30px">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/btn.svg" style="height: 30px">
                     </a>
 
                 </p>
@@ -124,14 +124,14 @@
                 <br>
                 <h5 class="header5 p-color-cement-dark">How Does a Personal Shopper Help?</h5>
                 <p class="header5 p-color-cement">
-                    <img src="{{asset('img/svg/dot.svg')}}" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/dot.svg" alt="">
                     <span class="p-color-cement-dark">We’ll Pay For You:</span> You can place your order on your own,
                     and get
                     it delivered to us; we’ll pay for it on your behalf.International Credit card / Paypal.
 
                 </p>
                 <p class="header5 p-color-cement">
-                    <img src="{{asset('img/svg/dot.svg')}}" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/dot.svg" alt="">
                     <span class="p-color-cement-dark"> We’ll Shop For You:</span> All you have to do is, let us know
                     what you intend to buy; we’ll make the purchase for you.
 
@@ -173,7 +173,7 @@
                     <div class="formFrame  div-form-get-quote" id="diwali-couponcode2">
                         <div class="row">
                             <center>
-                                <img src="{{asset('img/svg/request-sent.svg')}}" alt="" >
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/request-sent.svg" alt="" >
                                 <h6 class="header5 p-color-blue">Request Sent!</h6>
                                 <h5 class="header5 p-color-cement">Just One More Step To start <br>using Personal
                                     Shopper!</h5>
@@ -205,7 +205,7 @@
                     <div class="panel ps-img-rounded">
                         <center>
                             <br/>
-                            <img src="{{asset('img/svg/shop-product.svg')}}" alt="">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-product.svg" alt="">
                             <br/>
                             <br/>
                             <span class="p-color-blue">Step1</span>
@@ -222,7 +222,7 @@
                 <div class="col-sm-3">
                     <div class="panel ps-img-rounded">
                         <br/>
-                        <img src="{{asset('img/svg/pay-receive.svg')}}" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pay-receive.svg" alt="">
                         <br/>
                         <br/>
                         <span class="p-color-blue" >Step2</span>
@@ -238,7 +238,7 @@
                 <div class="col-sm-3">
                     <div class="panel ps-img-rounded">
                         <br>
-                        <img src="{{asset('img/svg/save80.svg')}}" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" alt="">
                         <br/>
                         <br/>
                         <span class="p-color-blue">Step3</span>
@@ -254,7 +254,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="panel ps-img-rounded"><br>
-                        <img src="{{asset('img/svg/d-step3.svg')}}" style="height: 70px" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
                         <br>
                         <br/>
                         <span class="p-color-blue" >Step4</span>
@@ -291,7 +291,7 @@
                     <div class="panel ps-img-rounded">
                         <center>
                             <br/>
-                            <img src="{{asset('img/svg/shop-product.svg')}}" alt="">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-product.svg" alt="">
                             <br/>
                             <br/>
                             <span class="p-color-blue" >Step1</span>
@@ -308,7 +308,7 @@
                 <div class="col-sm-3">
                     <div class="panel ps-img-rounded">
                         <br/>
-                        <img src="{{asset('img/svg/pay-receive.svg')}}" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pay-receive.svg" alt="">
                         <br/>
                         <br/>
                         <span class="p-color-blue" >Step2</span>
@@ -326,7 +326,7 @@
                 <div class="col-sm-3">
                     <div class="panel ps-img-rounded">
                         <br>
-                        <img src="{{asset('img/svg/save80.svg')}}" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" alt="">
                         <br/>
                         <br/>
                         <span class="p-color-blue" >Step3</span>
@@ -342,7 +342,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="panel ps-img-rounded"><br>
-                        <img src="{{asset('img/svg/d-step3.svg')}}" style="height: 70px" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
                         <br>
                         <br/>
                         <span class="p-color-blue" >Step4</span>
@@ -371,7 +371,7 @@
     <section style="margin-bottom: 50px">
         <div class="container" style="margin-top: 62px;">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive img-shipments" src="{{asset('img/images/ics-tailor.png')}}">
+                <img class="img-responsive img-shipments" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-tailor.png">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="header1  p-color-cement-dark">Are you a Seller? <br>
@@ -396,7 +396,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="div-phone">
                         <center>
-                            <img src="{{asset('img/svg/phone.svg')}}" id="phone">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Didn't find the answer you need? Contact us!</p>
                         </center>
                     </div>
@@ -436,14 +436,14 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 " style="display: none">
                     <div class="div-phone">
                         <center>
-                            <img src="{{asset('img/svg/phone.svg')}}" id="phone">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Contact Our <br>Support Team </p>
                         </center>
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="d-contact-div">
-                        <img src="{{asset('img/svg/phone.svg')}}" id="phone">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                         <p class="header6 p-color-white " style="margin-left: 51px;margin-top: -36px;">Contact Our <br>Support
                             Team </p>
                     </div>

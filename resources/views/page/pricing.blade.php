@@ -8,7 +8,7 @@
     <meta property="og:title" content="How to Estimate Your International Shipping Cost?"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://www.shoppre.com/pricing"/>
-    <meta property="og:image" content="{{asset('img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}"/>
+    <meta property="og:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}"/>
     <meta property="og:image:width" content="2160">
     <meta property="og:image:height" content="1216">
     <meta property="og:image:alt" content="ShoppRe international shipping Price Calculator" />
@@ -19,7 +19,7 @@
     <meta name="twitter:site" content="Go_Shoppre" />
     <meta name="twitter:title" content="Shop from India and Ship Worldwide with ShoppRe.com" />
     <meta name="twitter:description" content="How much will it cost to ship your package from India to your country? Use ShoppRe Shipping Price Calculator to find out, and choose the best Membership Plans." />
-    <meta name="twitter:image" content="{{asset('img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}" />
+    <meta name="twitter:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}" />
     <meta name="twitter:image:alt" content="ShoppRe international shipping Price Calculator"/>
 
     <meta name="twitter:app:country" content="IN"/>
@@ -551,7 +551,7 @@
                                 <h4 class="header6 p-color-cement-dark">1 lbs = 0.4536 Kg (1 Kg = 2.2046 lbs) </h4>
 
                                 <h6 class="header7">Courier Sample:</h6>
-                                <img src="{{asset('img/images/parcelsample.png')}}" alt="">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/parcelsample.png" alt="">
                             </div>
                             <div class="row">
                                 <br>
@@ -578,7 +578,7 @@
                                         </center>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="{{asset('/img/vol_calc.png')}}" style="width: 100%;" alt="">
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}//img/vol_calc.png" style="width: 100%;" alt="">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Close
@@ -618,7 +618,7 @@
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-6">
                                     <img class="img-responsive pull-right"
-                                         src="{{asset('img/images/m-benefits.png')}}"
+                                         src="{{env('AWS_CLOUD_FRONT')}}/img/images/m-benefits.png"
                                          alt="">
                                 </div>
 
@@ -1001,7 +1001,7 @@
                                 <h4 class="header6 p-color-cement-dark">1 lbs = 0.4536 Kg (1 Kg = 2.2046 lbs) </h4>
 
                                 <h6 class="header7">Courier Sample:</h6>
-                                <img src="{{asset('img/images/parcelsample.png')}}" alt="">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/parcelsample.png" alt="">
                             </div>
                             <div class="row">
                                 <br>
@@ -1100,7 +1100,7 @@
                         <tr>
                             <th class="col-md-4 col-xs-6"> <h3 class="header3 p-color-cement-dark">Features</h3> </th>
                             <th class="col-md-4 col-xs-6">
-                                <img src="{{asset('img/svg/indivdual.svg')}}" alt=""> <br>
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indivdual.svg" alt=""> <br>
                                 <h1 class="header1 p-mem-plans-box">Free</h1>
                                 <h6 class="header6 text-forever">LIFELONG</h6>
                             </th>
@@ -1387,7 +1387,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                 <center>
-                                    <img src="{{asset('img/svg/indivdual.svg')}}" alt="">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indivdual.svg" alt="">
                                     <h6 class="header6 p-mem-plans-box">For Individual Shoppers</h6>
                                     <h1 class="header1 p-mem-plans-box membership-text-margin">
                                         Free</h1>
@@ -1499,7 +1499,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                 <center>
-                                    <img src="{{asset('img/svg/seller.svg')}}" alt="">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/seller.svg" alt="">
                                     <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
                                     <h1 class="header1 p-mem-plans-box membership-text-margin">
                                         ₹700/-</h1>
@@ -1611,7 +1611,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                 <center>
-                                    <img src="{{asset('img/svg/wholseller.svg')}}" alt="">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wholseller.svg" alt="">
                                     <h6 class="header6 p-mem-plans-box">For Wholesalers</h6>
                                     <h1 class="header1 p-mem-plans-box membership-text-margin">
                                         ₹1599/-</h1>
@@ -1949,7 +1949,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                 <center>
-                                    <img src="{{asset('img/svg/indivdual.svg')}}" alt="">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indivdual.svg" alt="">
                                     <h6 class="header6 p-mem-plans-box">For Individual Shoppers</h6>
                                     <h1 class="header1 p-mem-plans-box membership-text-margin">
                                         Free</h1>
@@ -2061,7 +2061,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                 <center>
-                                    <img src="{{asset('img/svg/seller.svg')}}" alt="">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/seller.svg" alt="">
                                     <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
                                     <h1 class="header1 p-mem-plans-box membership-text-margin">
                                         ₹6750/- </h1>
@@ -2172,7 +2172,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                 <center>
-                                    <img src="{{asset('img/svg/wholseller.svg')}}" alt="">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wholseller.svg" alt="">
                                     <h6 class="header6 p-mem-plans-box">For Wholesalers</h6>
                                     <h1 class="header1 p-mem-plans-box membership-text-margin">
                                         ₹19188/-</h1>
@@ -2299,7 +2299,7 @@
                                 <tr>
                                     <th class="col-xs-5"> <h1 class="header1">Features</h1></th>
                                     <th col="col-xs-7">
-                                        <img src="{{asset('img/svg/indivdual.svg')}}" alt=""> <br>
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indivdual.svg" alt=""> <br>
                                         <h6 class="header6 p-mem-plans-box">For Individual Shoppers</h6>
                                         <h1 class="header1 p-mem-plans-box membership-text-margin">Free</h1>
                                         <h6 class="header6 text-forever">LIFELONG</h6>
@@ -2524,7 +2524,7 @@
                                 <tr>
                                     <th class="col-xs-5"> <h1 class="header1">Features</h1></th>
                                     <th col="col-xs-7">
-                                        <img src="{{asset('img/svg/seller.svg')}}" alt="">
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/seller.svg" alt="">
                                         <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
                                         <h1 class="header1 p-mem-plans-box membership-text-margin">₹700/-</h1>
                                         <h6 class="header6 text-forever ">PER MONTH</h6>
@@ -2746,7 +2746,7 @@
                                 <tr>
                                     <th class="col-xs-5"> <h1 class="header1">Features</h1></th>
                                     <th col="col-xs-7">
-                                        <img src="{{asset('img/svg/wholseller.svg')}}" alt="">
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wholseller.svg" alt="">
                                         <h6 class="header6 p-mem-plans-box">For Wholesalers</h6>
                                         <h1 class="header1 p-mem-plans-box membership-text-margin">₹1599/-</h1>
                                         <h6 class="header6 text-forever">PER MONTH</h6>
@@ -2970,7 +2970,7 @@
                                 <tr>
                                     <th class="col-xs-5"><h1 class="header1"> Features</h1></th>
                                     <th col="col-xs-7">
-                                        <img src="{{asset('img/svg/indivdual.svg')}}" alt=""> <br>
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indivdual.svg" alt=""> <br>
                                         <h6 class="header6 p-mem-plans-box">For Individual Shoppers</h6>
                                         <h1 class="header1 p-mem-plans-box membership-text-margin">Free</h1>
                                         <h6 class="header6 text-forever">LIFELONG</h6>
@@ -3195,7 +3195,7 @@
                                 <tr>
                                     <th class="col-xs-5"><h1 class="header1"> Features</h1></th>
                                     <th col="col-xs-7">
-                                        <img src="{{asset('img/svg/seller.svg')}}" alt="">
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/seller.svg" alt="">
                                         <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
                                         <h1 class="header1 p-mem-plans-box membership-text-margin">₹6750/-</h1>
                                         <h6 class="header6 text-forever ">PER YEAR</h6>
@@ -3417,7 +3417,7 @@
                                 <tr>
                                     <th class="col-xs-5"><h1 class="header1"> Features</h1></th>
                                     <th col="col-xs-7">
-                                        <img src="{{asset('img/svg/wholseller.svg')}}" alt="">
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wholseller.svg" alt="">
                                         <h6 class="header6 p-mem-plans-box">For Wholesalers</h6>
                                         <h1 class="header1 p-mem-plans-box membership-text-margin">₹19188/-</h1>
                                         <h6 class="header6 text-forever">PER YEAR</h6>
@@ -3654,7 +3654,7 @@
 @endsection
 
 @section('js_script')
-    <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{env('AWS_CLOUD_FRONT')}}/js/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript">
         /* Magnific Popup */
         $(document).ready(function () {
@@ -3672,7 +3672,7 @@
         });
     </script>
     <!-- Select2 -->
-    <script src="{{asset('js/select2.min.js')}}"></script>
+    <script src="{{env('AWS_CLOUD_FRONT')}}/js/select2.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $(".select2").select2();
@@ -3680,7 +3680,7 @@
     </script>
 
 
-    <script src="{{asset('js/validate.min.js')}}"></script>
+    <script src="{{env('AWS_CLOUD_FRONT')}}/js/validate.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $("#shipping").validate({

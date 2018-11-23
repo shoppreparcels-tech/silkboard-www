@@ -40,10 +40,10 @@
         <div class="container">
             <div class="col-md-12">
                 <a href="tel:+91-80 4094 4077" class="pull-right d-contact-img-desktop">
-                    <img src="{{asset('img/images/d-contact-img1.png')}}" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">
                 </a>
                 <a href="tel:+91-80 4094 4077" class="d-contact-img pull-right">
-                    <img src="{{asset('img/images/d-contact-img2.png')}}" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">
                 </a>
             </div>
 
@@ -100,7 +100,7 @@
                         <h1 class="header2 p-color-blue">Get a Quote</h1>
                         <div class="row">
                             <center>
-                                <img src="{{asset('img/svg/request-sent.svg')}}" alt="">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/request-sent.svg" alt="">
                                 <h6 class="header5 p-color-blue">Request Sent!</h6>
                                 <h5 class="header5 p-color-cement">Just One More Step To start <br>scheduling your
                                     courier</h5>
@@ -128,7 +128,7 @@
                 </h1>
             </center>
             <div class="col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive" src="{{asset('img/images/ics-box-packing.png')}}" alt="">
+                <img class="img-responsive" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-box-packing.png" alt="">
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 " style="padding-top: 50px">
                 <div class="row no-padding">
@@ -141,21 +141,21 @@
                 <div class=" col-md-12 col-xs-12 div-ics-prodcts">
                     <div class="col-md-6 col-xs-6 no-padding">
                         <ul>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Medicine</li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt=""> Documents</li>
-                            {{--<li><img src="{{asset('img/svg/Ellipse.svg')}}" alt=""> Personal goods</li>--}}
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt=""> Sports Equipment</li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt=""> Homemade foods</li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt=""> Artwork</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Medicine</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Documents</li>
+                            {{--<li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg')}}" alt=""> Personal goods</li>--}}
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Sports Equipment</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Homemade foods</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Artwork</li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-xs-6 no-padding">
                         <ul style="text-decoration: none; list-style: none">
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Corporate Gifts</li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Children's Toys</li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Handicraft </li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Mobile/Cell Phones</li>
-                            <li><img src="{{asset('img/svg/Ellipse.svg')}}" alt="">Religious Items</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Corporate Gifts</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Children's Toys</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Handicraft </li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Mobile/Cell Phones</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Religious Items</li>
                             <li>& Many More Products</li>
                         </ul>
                     </div>
@@ -177,7 +177,7 @@
                 <br/><br/>
                 <div class="col-sm-3">
                     <div class="panel "><br>
-                        <img src="{{asset('img/svg/d-step3.svg')}}" style="height: 70px" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
                         <h1 class="header5 p-color-cement">Door-to-Door Delivery</h1>
                         <br/>
 
@@ -186,7 +186,7 @@
                 <div class="col-sm-3">
                     <div class="panel ">
                         <br>
-                        <img src="{{asset('img/svg/save80.svg')}}" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" alt="">
                         <br/>
                         <h1 class="header5 p-color-cement">Country-specific Discount</h1>
                         <br>
@@ -195,7 +195,7 @@
                 <div class="col-sm-3">
                     <div class="panel">
                         <br/>
-                        <img src="{{asset('img/svg/support24.svg')}}" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/support24.svg" alt="">
                         <br/>
                         <h1 class="header5 p-color-cement">24/7 Support</h1>
                         <br>
@@ -204,7 +204,7 @@
                 <div class="col-sm-3">
                     <div class="panel">
                         <br/>
-                        <img src="{{asset('img/svg/ics-time.svg')}}" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ics-time.svg" alt="">
                         <br/>
                         <h1 class="header5 p-color-cement">24-hour Dispatch</h1>
                         <br>
@@ -232,7 +232,7 @@
                     </div>
                     <div>
                         <center>
-                            <img class="img-responsive img-process" src="{{asset('img/svg/pic_up.svg')}}">
+                            <img class="img-responsive img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pic_up.svg">
                             <h2 class="header3 p-color-cement-dark">Pickup Package</h2>
                             <p class="header5 p-color-cement">
                                 Purchase any product from your favourite indian
@@ -251,7 +251,7 @@
                     </div>
                     <div>
                         <center>
-                            <img class="img-responsive  img-process" src="{{asset('img/svg/shipments.svg')}}">
+                            <img class="img-responsive  img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shipments.svg">
                             <h2 class="header3 p-color-cement-dark">Shipments</h2>
                             <p class="header5 p-color-cement">
                                 Purchase any product from your favourite indian
@@ -270,7 +270,7 @@
                     </div>
                     <div>
                         <center>
-                            <img class="img-process" src="{{asset('img/svg/deliver_package.svg')}}">
+                            <img class="img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/deliver_package.svg">
                             <h2 class="header3 p-color-cement-dark">Deliver Package</h2>
                             <p class="header5 p-color-cement">
                                 Purchase any product from your favourite indian
@@ -291,7 +291,7 @@
     <section style="margin-bottom: 50px">
         <div class="container" style="margin-top: 62px;">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive img-shipments" src="{{asset('img/images/ics-tailor.png')}}">
+                <img class="img-responsive img-shipments" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-tailor.png">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="header1  p-color-cement-dark">Are you a Seller? <br>
@@ -317,7 +317,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="div-phone">
                         <center>
-                            <img src="{{asset('img/svg/phone.svg')}}" id="phone">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Didn't find the answer you need? Contact us!</p>
                         </center>
                     </div>
@@ -357,14 +357,14 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 " style="display: none">
                     <div class="div-phone">
                         <center>
-                            <img src="{{asset('img/svg/phone.svg')}}" id="phone">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Contact Our <br>Support Team </p>
                         </center>
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="d-contact-div">
-                        <img src="{{asset('img/svg/phone.svg')}}" id="phone">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                         <p class="header6 p-color-white " style="margin-left: 51px;margin-top: -36px;">Contact Our <br>Support
                             Team </p>
                     </div>

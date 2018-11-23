@@ -14,7 +14,6 @@
     <!-- Style -->
 
     <link rel="manifest" href="/manifest.json" />
-
     {{--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >--}}
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
@@ -22,28 +21,29 @@
     <!-- Font Awesome -->
     <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css">
-    <link href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/txtProgress.min.css" rel="stylesheet">
-    <link href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/algolia.css" rel="stylesheet">
-    <link href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/style1.css" rel="stylesheet">
-    <link href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/print.css" rel="stylesheet">
-    <script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/jquery.min.js"></script>
+
+    <link href="{{env('AWS_CLOUD_FRONT')}}/css/txtProgress.min.css" rel="stylesheet">
+    <link href="{{env('AWS_CLOUD_FRONT')}}/css/algolia.css" rel="stylesheet">
+    <link href="{{env('AWS_CLOUD_FRONT')}}/css/style1.css" rel="stylesheet">
+    <link href="{{env('AWS_CLOUD_FRONT')}}/css/print.css" rel="stylesheet">
+    <script src="{{env('AWS_CLOUD_FRONT')}}/js/jquery.min.js"></script>
 
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('css/New_style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
-{{--    <link rel="stylesheet" href="{{asset('css/select2.min.css')}}" >--}}
-{{--    <link rel="stylesheet" href="{{asset('css/star-rating.min.css')}}" >--}}
-    <link rel="stylesheet" href="{{asset('css/ics.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
-    <link rel="stylesheet" href="{{asset('css/ifs.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
-    <link rel="stylesheet" href="{{asset('css/offers.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
-    <link rel="stylesheet" href="{{asset('css/diwali.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
-    <link rel="stylesheet" href="{{asset('css/stores-new.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" >
-    <link href="{{asset('css/style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" rel="stylesheet">
-    <link href="{{asset('css/faq.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?>" rel="stylesheet">
-
+    <link rel="stylesheet" href="{{asset('css/New_style.css')}}" >
+{{--<link rel="stylesheet" href="{{asset('css/select2.min.css')}}" >--}}
+{{--<link rel="stylesheet" href="{{asset('css/star-rating.min.css')}}" >--}}
+    <link rel="stylesheet" href="{{asset('css/ics.css')}}">
+    <link rel="stylesheet" href="{{asset('css/ifs.css')}}">
+    <link rel="stylesheet" href="{{asset('css/offers.css')}}">
+    <link rel="stylesheet" href="{{asset('css/diwali.css')}}">
+    <link rel="stylesheet" href="{{asset('css/stores-new.css')}}" >
+    <link rel="stylesheet" href="{{asset('css/style.css')}}" >
+    <link rel="stylesheet" href="{{asset('css/faq.css')}}">
 
     {{--<link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/bootstrap.min.css" >--}}
-    <link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/select2.min.css" >
-    <link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/star-rating.min.css" >
+    <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/select2.min.css" >
+    <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/star-rating.min.css" >
+
 
     @yield('css_style')
 
@@ -133,8 +133,6 @@
 
         </div>
     </div>
-
-
 </div>
 
 @yield('content')
@@ -143,22 +141,14 @@
 <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.jqueryui.min.js"></script>
 
-{{--<script src="{{asset('js/bootstrap.min.js')}}"></script>--}}
-{{--<script src="{{asset('js/txtProgress.min.js')}}"></script>--}}
-{{--<script src="{{asset('js/validate.min.js')}}"></script>--}}
-{{--<script src="{{asset('js/angular.min.js')}}"></script>--}}
-{{--<script src="{{asset('js/ui-bootstrap-tpls-2.5.0.min.js')}}"></script>--}}
-{{--<script src="{{asset('js/star-rating.min.js')}}" type="text/javascript"></script>--}}
-{{--<script src="{{asset('js/select2.min.js')}}"></script>--}}
-
 <script src="{{asset('js/easyResponsiveTabs.js')}}"></script>
-<script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/bootstrap.min.js"></script>
-<script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/txtProgress.min.js"></script>
-<script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/validate.min.js"></script>
-<script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/angular.min.js"></script>
-<script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/ui-bootstrap-tpls-2.5.0.min.js"></script>
-<script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/star-rating.min.js" type="text/javascript"></script>
-<script src="https://d2njzkuk16ywue.cloudfront.net/cdn/js/select2.min.js"></script>
+<script src="{{env('AWS_CLOUD_FRONT')}}/js/bootstrap.min.js"></script>
+<script src="{{env('AWS_CLOUD_FRONT')}}/js/txtProgress.min.js"></script>
+<script src="{{env('AWS_CLOUD_FRONT')}}/js/validate.min.js"></script>
+<script src="{{env('AWS_CLOUD_FRONT')}}/js/angular.min.js"></script>
+<script src="{{env('AWS_CLOUD_FRONT')}}/js/ui-bootstrap-tpls-2.5.0.min.js"></script>
+<script src="{{env('AWS_CLOUD_FRONT')}}/js/star-rating.min.js" type="text/javascript"></script>
+<script src="{{env('AWS_CLOUD_FRONT')}}/js/select2.min.js"></script>
 
 <!-- Angular Script -->
 <script>

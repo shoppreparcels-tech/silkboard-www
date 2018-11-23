@@ -7,9 +7,9 @@
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com" />
     <!-- Owl Carousel -->
-    <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/owl.carousel.min.css">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/magnific-popup.css">
 
     <meta property="og:title" content="Shop and Ship with ShoppRe | International Courier & Consolidation Services"/>
     <meta property="og:type" content="website"/>
@@ -196,7 +196,7 @@
         {{--<div class="col-md-2">--}}
         {{--<a href="{{route('ifs.index')}}" class="header6 p-color-cement">--}}
         {{--<div>--}}
-        {{--<img src="{{asset('img/svg/header-shop-ship.svg')}}" class="header-menu-img"--}}
+        {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-shop-ship.svg" class="header-menu-img"--}}
         {{--alt="personal shopper">--}}
         {{--<span class="p-color-cement"> Shop and Ship</span>--}}
 
@@ -206,31 +206,31 @@
 
         {{--<div class="col-md-2">--}}
         {{--<a href="{{route('ifs.index')}}/#how-it-works">--}}
-        {{--<img src="{{asset('img/svg/header-p-shopper.svg')}}" alt="" class="header-menu-img">--}}
+        {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-p-shopper.svg" alt="" class="header-menu-img">--}}
         {{--<span class="header6 p-color-cement">Personal Shopper</span>--}}
         {{--</a>--}}
         {{--</div>--}}
         {{--<div class="col-md-2" >--}}
         {{--<a href="{{route('schedulePickup.Index')}}" class="header6 p-color-cement">--}}
-        {{--<img src="{{asset('img/svg/header-schedule-pickup.svg')}}" alt="" class="header-menu-img">--}}
+        {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-schedule-pickup.svg" alt="" class="header-menu-img">--}}
         {{--<span class="header6 p-color-cement">Schedule Pickup</span>--}}
         {{--</a>--}}
         {{--</div>--}}
         {{--<div class="col-md-2" >--}}
         {{--<a href="{{route('stores')}}" class="header6 p-color-cement">--}}
-        {{--<img src="{{asset('img/svg/header-stores.svg')}}" alt="" class="header-menu-img">--}}
+        {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-stores.svg" alt="" class="header-menu-img">--}}
         {{--<span class="header6 p-color-cement">Browse Stores</span>--}}
         {{--</a>--}}
         {{--</div>--}}
         {{--<div class="col-md-2">--}}
         {{--<a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank" class="header6 p-color-cement">--}}
-        {{--<img src="{{asset('img/svg/partner-with-us.svg')}}" alt="" class="header-menu-img">--}}
+        {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/partner-with-us.svg" alt="" class="header-menu-img">--}}
         {{--<span class="header6 p-color-cement">Partner With Us</span>--}}
         {{--</a>--}}
         {{--</div>--}}
         {{--<div class="col-md-2" >--}}
         {{--<a href="https://www.shoppre.com/offers/send-durga-puja-gifts-from-india-ship-internationally/" target="_blank" class="header6 p-color-cement">--}}
-        {{--<img src="{{asset('img/svg/partner-with-us.svg')}}" alt="" class="header-menu-img">--}}
+        {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/partner-with-us.svg" alt="" class="header-menu-img">--}}
         {{--<span class="header6 p-color-cement"> Offers and Deals</span>--}}
         {{--</a>--}}
         {{--</div>--}}
@@ -308,7 +308,7 @@
                         <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab">
                             <center>
                                 <p>
-                                    <img class="img-demo" src="{{asset('img/svg/ic_watch_now.svg')}}">
+                                    <img class="img-demo" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_watch_now.svg">
                                     <a class="bla-1 p-demo-text" style="color: #ffffff"
                                        href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=3s" target="_blank"
                                     >&nbsp;&nbsp;&nbsp;&nbsp;Watch a Demo</a>
@@ -319,7 +319,7 @@
                         <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="number"
                              style="padding-left: 0;">
                             <img class="img-demo" id="img-cal"
-                                 src="{{asset('img/svg/ic_contact_header.svg')}}">
+                                 src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header.svg">
                             <b>
                                 <a href="tel:+91-80 4094 4077">
                                     <b>
@@ -331,7 +331,7 @@
                             </b>
                         </div>
                         <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="callnow">
-                            <img class="img-demo" id="img-cal1" src="{{asset('img/svg/ic_contact_header1.svg')}}">
+                            <img class="img-demo" id="img-cal1" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header1.svg">
                             <a href="tel:+91-80 4094 4077">
                                 <p class="p-demo-text text-call-now" id="p-demo-text-cal">
                                     &nbsp;Call Now
@@ -402,7 +402,7 @@
                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-demo-row">
                             <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab">
                                 <p>
-                                    <img class="img-demo" src="{{asset('img/svg/ic_watch_now.svg')}}">
+                                    <img class="img-demo" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_watch_now.svg">
                                     <a class="bla-1 p-demo-text" style="color: #ffffff"
                                        href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=3s" target="_blank"
                                     >&nbsp;Watch a Demo</a>
@@ -411,7 +411,7 @@
                             <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="number"
                                  style="padding-left: 0;">
                                 <img class="img-demo" id="img-cal"
-                                     src="{{asset('img/svg/ic_contact_header.svg')}}">
+                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header.svg">
                                 <b>
                                     <a href="tel:+91-80 4094 4077">
                                         <b>
@@ -424,7 +424,7 @@
                             </div>
                             <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="callnow">
                                 <img class="img-demo" id="img-cal1"
-                                     src="{{asset('img/svg/ic_contact_header1.svg')}}">
+                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header1.svg">
                                 <b>
                                     <a href="tel:+91-80 4094 4077">
                                         <b>
@@ -443,7 +443,7 @@
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 ">
                 <div class="col-md-12 div-backgroud-img ">
                     <img class="img-priyamani"
-                         src="{{asset('img/images/priyamani-shoppre-international-shipping.png')}}"
+                         src="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-shoppre-international-shipping.png"
                          alt="priyamani shoppre shipping">
                 </div>
             </div>
@@ -490,7 +490,7 @@
                         <center>
                             <a href="{{route('stores1')}}">
                                 <img class="img-benifits img-responsive"
-                                     src="{{asset('img/svg/shop-from-indian-online-stores.svg')}}"
+                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-from-indian-online-stores.svg"
                                      alt="shop from indian online stores shoppre">
                                 <p class="online-text">&nbsp;1000+</p>
                                 <p class="online-text-words">Shop From Indian <br>Online Stores </p>
@@ -501,7 +501,7 @@
                         <center>
                             <a href="{{route('countryList')}}">
                                 <img class="img-benifits img-responsive"
-                                     src="{{asset('img/svg/ship-worldwide-from-india.svg')}}"
+                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ship-worldwide-from-india.svg"
                                      alt="ship to 220 countries worldwide">
                                 <p class="online-text">&nbsp;220+</p>
                                 <p class="online-text-words">Ship to Countries <br>Around the World </p>
@@ -512,7 +512,7 @@
                         <center>
                             <a href="{{route('dhl.index')}}">
                                 <img class="img-benifits img-responsive"
-                                     src="{{asset('img/svg/3-6-days-delivery-worldwide.svg')}}"
+                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/3-6-days-delivery-worldwide.svg"
                                      alt="3 to 6 days worldwide delivery">
                                 <p class="online-text">&nbsp;3-6 Days</p>
                                 <p class="online-text-words">Worldwide Average <br> Delivery Time </p>
@@ -523,7 +523,7 @@
                         <center>
                             <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
                                 <img class="img-benifits img-responsive"
-                                     src="{{asset('img/svg/save-upto-80-shipping.svg')}}"
+                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save-upto-80-shipping.svg"
                                      alt="save up to 80% on international shipping">
                                 <p class="online-text" style="margin-left: -1px;">Save Up to 80%</p>
                                 <p class="online-text-words">By Storing, Consolidating <br>& Repackaging! </p>
@@ -552,7 +552,7 @@
     {{--<div class="container div-cal-white-background">--}}
     {{--<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-cal-margin-top">--}}
     {{--<div class="col-md-2 col-md-offset-1 col-lg-2  col-lg-offset-1 col-xs-6  col-xs-offset-2 col-sm-6 col-sm-offset-2">--}}
-    {{--<img class="img-international img-responsive" src="{{asset('img/svg/ic_price_international.svg')}}">--}}
+    {{--<img class="img-international img-responsive" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_price_international.svg')}}">--}}
     {{--</div>--}}
     {{--<div class="col-md-9 col-lg-9 col-xs-6 col-sm-6">--}}
     {{--<p class="p-int-text">Ineternational Shipping </p>--}}
@@ -560,7 +560,7 @@
     {{--</div>--}}
     {{--<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-cal-margin-top">--}}
     {{--<div class="col-md-2 col-md-offset-1 col-lg-2  col-lg-offset-1 col-xs-6  col-xs-offset-1 col-sm-6 col-sm-offset-1">--}}
-    {{--<img class="img-international img-responsive" src="{{asset('img/svg/ic_price_dometic.svg')}}">--}}
+    {{--<img class="img-international img-responsive" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_price_dometic.svg')}}">--}}
     {{--</div>--}}
     {{--<div class="col-md-9 col-lg-9 col-xs-6 col-sm-6">--}}
     {{--<p class="domestic-img-text">Domestic Shipping </p>--}}
@@ -604,7 +604,7 @@
     {{--<div class="col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2 col-xs-12  col-sm-12 div-offer">--}}
     {{--<div class="offer-margin">--}}
     {{--<div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-4 col-xs-4">--}}
-    {{--<img class="img-offer img-responsive" src="{{asset('img/svg/ic_offer_red.svg')}}">--}}
+    {{--<img class="img-offer img-responsive" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_offer_red.svg')}}">--}}
     {{--</div>--}}
     {{--<div class="col-md-7">--}}
     {{--<p class="running-text">running</p>--}}
@@ -663,7 +663,7 @@
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                 <center>
                     <img class="img-shop-ship img-responsive"
-                         src="{{asset('img/svg/shop-india-and-ship-internationally.svg')}}"
+                         src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-india-and-ship-internationally.svg"
                          alt="shop india and ship internationally">
 
                     <p class="header3 p-color-red ">Shop & Ship</p>
@@ -687,7 +687,7 @@
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                 <center>
                     <img class="img-shop-ship img-responsive"
-                         src="{{asset('img/svg/schedule-a-pickup-courier.svg')}}" alt="schedule a pickup courier">
+                         src="{{env('AWS_CLOUD_FRONT')}}/img/svg/schedule-a-pickup-courier.svg" alt="schedule a pickup courier">
                     <div class="ship-left-border">
                         <p class="header3 p-courier-h">ShoppRe Courier
                         <p class="header5 p-color-cement p-line-height">Schedule a Pickup from ANY part of India, our
@@ -726,7 +726,7 @@
                 <div class=" col-xs-3 div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/flipkart-international-shopping.png')}}"
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/flipkart-international-shopping.png"
                              alt="flipkart.com international delivery shipping">
                     </center>
                 </div>
@@ -735,7 +735,7 @@
                 <div class="col-xs-3   div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/amazon-india-shopping.png')}}"
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/amazon-india-shopping.png"
                              alt="amazon.in international delivery shipping">
                     </center>
 
@@ -745,7 +745,7 @@
                 <div class="col-xs-3  div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/ajio-online-shopping.png')}}"
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/ajio-online-shopping.png"
                              alt="ajio.com free delivery shipping">
                     </center>
                 </div>
@@ -754,7 +754,7 @@
                 <div class=" col-xs-3  div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/jabong-online-fashion-shopping.png')}}"
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/jabong-online-fashion-shopping.png"
                              alt="jabong.com shipping international">
                     </center>
                 </div>
@@ -763,7 +763,7 @@
                 <div class="  col-xs-3  div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/homeshop-18-shopping-company.png')}}"
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/homeshop-18-shopping-company.png"
                              alt="homeshop18.com best deal shopping shipping">
                     </center>
                 </div>
@@ -772,7 +772,7 @@
                 <div class="col-xs-3 div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/snapdeal-indian-e-commerce-company.png')}}"
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/snapdeal-indian-e-commerce-company.png"
                              alt="snapdeal.com indian e-commerce company">
                     </center>
                 </div>
@@ -781,7 +781,7 @@
                 <div class="col-xs-2 div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/myntra-express-delivery-globe.png')}}"
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/myntra-express-delivery-globe.png"
                              alt="myntra.com fashion express delivery globe">
                     </center>
                 </div>
@@ -791,7 +791,7 @@
                 <div class=" col-xs-3 div-stores-img" id="hidestore">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/ebay-india-multinational-e-commerce.png')}}"
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/ebay-india-multinational-e-commerce.png"
                              alt="ebay.in online shopping site in india">
                     </center>
 
@@ -803,7 +803,7 @@
                 <div class="col-xs-3 div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/limeroad-online-shopping-offers.png')}} "
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/limeroad-online-shopping-offers.png"
                              alt="limeroad.com shipping from india">
                     </center>
                 </div>
@@ -812,7 +812,7 @@
                 <div class="col-xs-3 div-stores-img" id="store-hide">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{asset('img/stores/infibeam-latest-deals-shopping.png')}}"
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/infibeam-latest-deals-shopping.png"
                              alt="infibeam.com latest deals on shopping">
                     </center>
                 </div>
@@ -848,19 +848,19 @@
                     <div class="row" style="margin-left: -36px">
                         <div class="col-md-3  div-inner-review">
                             <div class="row div-img-row" id="reviews-img">
-                                {{--<img class=" img-review img-circle" src="{{asset('img/images/23.jpg')}}">--}}
-                                <img class=" img-review img-circle" src="{{asset('img/svg/034-woman-8.svg')}}">
+                                {{--<img class=" img-review img-circle" src="{{env('AWS_CLOUD_FRONT')}}/img/images/23.jpg')}}">--}}
+                                <img class=" img-review img-circle" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/034-woman-8.svg">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Jigyasa Singh</p>
 
                                 <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USA</p>
 
-                                <img class="img-stars" src="{{asset('img/svg/stars.svg')}}">
+                                <img class="img-stars" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/stars.svg">
                                 {{-- id="stars"--}}
                                 {{--<input class="rating rated" value="5" id="stars-rate">--}}
                             </div>
                             <div class="row" id="reviews">
                                 <i class="quots-t ">
-                                    <img src="{{asset('img/svg/qoute_up.svg')}}">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_up.svg">
                                 </i>
                             </div>
                             <div class="row" id="reviews">
@@ -870,24 +870,24 @@
                             </div>
                             <div class="row" id="reviews">
                           <span class="quots-b">
-                            <img src="{{asset('img/svg/qoute_down.svg')}}">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_down.svg">
                           </span>
                             </div>
                         </div>
                         <div class="col-md-3 div-inner-review">
                             <div class="row div-img-row" id="reviews-img">
-                                {{--                                <img class=" img-review img-circle" src="{{asset('img/images/9.jpg')}}">--}}
-                                <img class=" img-review img-circle" src="{{asset('img/svg/040-man-11.svg')}}">
+                                {{--                                <img class=" img-review img-circle" src="{{env('AWS_CLOUD_FRONT')}}/img/images/9.jpg">--}}
+                                <img class=" img-review img-circle" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/040-man-11.svg">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Sudeep Sagar</p>
 
                                 <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UAE</p>
 
-                                <img class="img-stars" src="{{asset('img/svg/stars.svg')}}">
+                                <img class="img-stars" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/stars.svg">
                                 {{--<input class="rating rated" value="5" id="stars-rate">--}}
                             </div>
                             <div class="row" id="reviews">
                                 <i class="quots-t ">
-                                    <img src="{{asset('img/svg/qoute_up.svg')}}">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_up.svg">
                                 </i>
                             </div>
                             <div class="row" id="reviews">
@@ -899,24 +899,24 @@
                             </div>
                             <div class="row" id="reviews">
                               <span class="quots-b">
-                                <img src="{{asset('img/svg/qoute_down.svg')}}">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_down.svg">
                               </span>
                             </div>
                         </div>
                         <div class="col-md-3 div-inner-review">
                             <div class="row div-img-row" id="reviews-img">
-                                {{--<img class=" img-review img-circle" src="{{asset('img/images/6.jpg')}}">--}}
-                                <img class=" img-review img-circle" src="{{asset('img/svg/001-man.svg')}}">
+                                {{--<img class=" img-review img-circle" src="{{env('AWS_CLOUD_FRONT')}}/img/images/6.jpg">--}}
+                                <img class=" img-review img-circle" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/001-man.svg">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Anirudh Lal</p>
 
                                 <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;India</p>
 
-                                <img class="img-stars" src="{{asset('img/svg/stars.svg')}}">
+                                <img class="img-stars" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/stars.svg">
                                 {{--<input class="rating rated" value="5" id="stars-rate">--}}
                             </div>
                             <div class="row">
                                 <i class="quots-t " id="reviews">
-                                    <img src="{{asset('img/svg/qoute_up.svg')}}">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_up.svg">
                                 </i>
                             </div>
                             <div class="row" id="reviews">
@@ -927,7 +927,7 @@
                             </div>
                             <div class="row" id="reviews">
                                   <span class="quots-b">
-                                    <img src="{{asset('img/svg/qoute_down.svg')}}">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_down.svg">
                                   </span>
                             </div>
                         </div>
@@ -946,14 +946,14 @@
                        target="_blank">
                         <div class="row div-img-row">
                             <img class="img-google-logo "
-                                 src="{{asset('img/svg/google-reviews-shipping-service-bengaluru.svg')}}"
+                                 src="{{env('AWS_CLOUD_FRONT')}}/img/svg/google-reviews-shipping-service-bengaluru.svg"
                                  alt="google reviews cheap international shipping from india">
                             <p class="p-google-review">Reviews</p>
                         </div>
                         <div class="row" style="padding-left: 4px ;margin-top: -20px;">
                             <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
                                target="_blank">
-                                <img src="{{asset('img/images/google-rating-shipping-service-bengaluru.png')}}"
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/google-rating-shipping-service-bengaluru.png"
                                      alt="google rating cheap international shipping from india">
                             </a>
                         </div>
@@ -963,14 +963,14 @@
                         <div class="row">
                             <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
                                 <img class="img-facebook-logo"
-                                     src="{{asset('img/images/facebook-reviews-shipping-service.png')}}"
+                                     src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-reviews-shipping-service.png"
                                      alt="facebook goshoppre reviews international parcel delicery from india">
                                 <p class="p-facebook-review">Reviews</p>
                             </a>
                         </div>
                         <div class="row">
                             <img class="img-facebook-r"
-                                 src="{{asset('img/images/facebook-rating-shipping-service.png')}}"
+                                 src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-rating-shipping-service.png"
                                  alt="facebook goshoppre rating international parcel delicery from india">
                         </div>
                     </a>
@@ -989,8 +989,8 @@
         {{--<div class="col-md-1 col-lg-1 card col-xs-10 col-sm-10">--}}
         {{--<div class="div-recent-inner">--}}
         {{--<div class="row">--}}
-        {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
-        {{--<img class="img-card-status" src="{{asset('img/svg/ic_delivered.svg')}}">--}}
+        {{--<img class="img-card" src="{{env('AWS_CLOUD_FRONT')}}/img/images/9.jpg">--}}
+        {{--<img class="img-card-status" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_delivered.svg">--}}
         {{--</div>--}}
 
         {{--<div class="row">--}}
@@ -1006,8 +1006,8 @@
         {{--<div class="col-md-1 col-lg-1 card card-margin col-xs-10 col-sm-10">--}}
         {{--<div class="div-recent-inner">--}}
         {{--<div class="row">--}}
-        {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
-        {{--<img class="img-card-status" src="{{asset('img/svg/ic_delivered.svg')}}">--}}
+        {{--<img class="img-card" src="{{env('AWS_CLOUD_FRONT')}}/img/images/9.jpg">--}}
+        {{--<img class="img-card-status" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_delivered.svg">--}}
         {{--</div>--}}
 
         {{--<div class="row">--}}
@@ -1023,8 +1023,8 @@
         {{--<div class="col-md-1 col-lg-1  card card-margin col-xs-10 col-sm-10">--}}
         {{--<div class="div-recent-inner">--}}
         {{--<div class="row">--}}
-        {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
-        {{--<img class="img-card-status" src="{{asset('img/svg/ic_delivered.svg')}}">--}}
+        {{--<img class="img-card" src="{{env('AWS_CLOUD_FRONT')}}/img/images/9.jpg">--}}
+        {{--<img class="img-card-status" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_delivered.svg">--}}
         {{--</div>--}}
 
         {{--<div class="row">--}}
@@ -1040,8 +1040,8 @@
         {{--<div class="col-md-1  col-lg-1 card card-margin col-xs-10 col-sm-10">--}}
         {{--<div class="div-recent-inner">--}}
         {{--<div class="row">--}}
-        {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
-        {{--<img class="img-card-status" src="{{asset('img/svg/ic_delivered.svg')}}">--}}
+        {{--<img class="img-card" src="{{env('AWS_CLOUD_FRONT')}}/img/images/9.jpg">--}}
+        {{--<img class="img-card-status" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_delivered.svg">--}}
         {{--</div>--}}
 
         {{--<div class="row">--}}
@@ -1057,8 +1057,8 @@
         {{--<div class="col-md-1  col-lg-1  card card-margin col-xs-10 col-sm-10">--}}
         {{--<div class="div-recent-inner">--}}
         {{--<div class="row">--}}
-        {{--<img class="img-card" src="{{asset('img/images/9.jpg')}}">--}}
-        {{--<img class="img-card-status" src="{{asset('img/svg/ic_delivered.svg')}}">--}}
+        {{--<img class="img-card" src="{{env('AWS_CLOUD_FRONT')}}/img/images/9.jpg">--}}
+        {{--<img class="img-card-status" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_delivered.svg">--}}
         {{--</div>--}}
 
         {{--<div class="row">--}}
@@ -1098,19 +1098,19 @@
         </div>
         <div class="container">
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding ">
-                <img class="img-payment-methods" src="{{asset('img/svg/credit-debit-card-courier-shipping.svg')}}"
+                <img class="img-payment-methods" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/credit-debit-card-courier-shipping.svg"
                      alt="credit debit card courier from india">
             </div>
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding">
                 <img class="img-payment-methods"
-                     src="{{asset('img/svg/wire-transfer.svg')}}" alt="wire transfer pay online shipping">
+                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wire-transfer.svg" alt="wire transfer pay online shipping">
             </div>
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding">
-                <img class="img-payment-methods" src="{{asset('img/svg/paypal-pay-online.svg')}}"
+                <img class="img-payment-methods" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paypal-pay-online.svg"
                      alt="paypal online courier parcel">
             </div>
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding">
-                <img class="img-payment-methods" src="{{asset('img/svg/paytm-payment-system-and-digital-wallet.svg')}}"
+                <img class="img-payment-methods" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paytm-payment-system-and-digital-wallet.svg"
                      alt="paytm e-commerce digital wallet ">
             </div>
         </div>
@@ -1119,7 +1119,7 @@
         {{--<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border no-padding">--}}
         {{--<a href="https://www.shoppre.com/credit-debit-cards/">--}}
         {{--<div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 no-padding">--}}
-        {{--<img class="img-card-transfer" src="{{asset('img/svg/credit-debit-card-courier-shipping.svg')}}" alt="credit debit card courier from india">--}}
+        {{--<img class="img-card-transfer" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/credit-debit-card-courier-shipping.svg" alt="credit debit card courier from india">--}}
         {{--</div>--}}
         {{--<div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 no-padding">--}}
         {{--<p class="p-payment-text">&nbsp;Credit/Debit Cards</p>--}}
@@ -1131,7 +1131,7 @@
         {{--<a href="https://www.shoppre.com/wire-transfer/">--}}
         {{--<div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 no-padding">--}}
         {{--<img class="img-card-transfer" id="img-card-margin"--}}
-        {{--src="{{asset('img/svg/wire-transfer.svg')}}" alt="wire transfer pay online shipping">--}}
+        {{--src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wire-transfer.svg" alt="wire transfer pay online shipping">--}}
         {{--</div>--}}
         {{--<div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 no-padding">--}}
         {{--<p class="p-payment-text" id="p-wire-transfer">&nbsp;&nbsp; Wire Transfer</p>--}}
@@ -1143,14 +1143,14 @@
         {{--<a href="https://www.shoppre.com/paypal/">--}}
         {{--<div class="col-md-4 col-lg-4 col-xs-6 col-sm-6 div-border">--}}
         {{--<center>--}}
-        {{--<img class="img-paytm img-paytm-margin" src="{{asset('img/svg/paypal-pay-online.svg')}}" alt="paypal online courier parcel">--}}
+        {{--<img class="img-paytm img-paytm-margin" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paypal-pay-online.svg" alt="paypal online courier parcel">--}}
         {{--</center>--}}
         {{--</div>--}}
         {{--</a>--}}
         {{--<a href="https://www.shoppre.com/paytm/">--}}
         {{--<div class="col-md-4 col-lg-4 col-xs-6 col-sm-6">--}}
         {{--<center>--}}
-        {{--<img class="img-paytm img-paypal-margin" src="{{asset('img/svg/paytm-payment-system-and-digital-wallet.svg')}}" alt="paytm e-commerce digital wallet ">--}}
+        {{--<img class="img-paytm img-paypal-margin" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paytm-payment-system-and-digital-wallet.svg" alt="paytm e-commerce digital wallet ">--}}
         {{--</center>--}}
         {{--</div>--}}
         {{--</a>--}}
@@ -1161,7 +1161,7 @@
     <section>
         <div class="container div-got-top">
             <a href="#" style="float: right">
-                <img class="img-goto-top" id="back-to-top" src="{{asset('img/svg/gototop.svg')}}"
+                <img class="img-goto-top" id="back-to-top" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/gototop.svg"
                      alt="gototop shipping">
             </a>
         </div>

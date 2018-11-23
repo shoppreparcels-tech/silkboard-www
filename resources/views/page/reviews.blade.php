@@ -5,8 +5,8 @@
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/reviews">
-    <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
-    <link href="{{asset('css/star-rating.min.css')}}" rel="stylesheet"/>
+    <link href="{{env('AWS_CLOUD_FRONT')}}/css/select2.min.css" rel="stylesheet">
+    <link href="{{env('AWS_CLOUD_FRONT')}}/css/star-rating.min.css" rel="stylesheet"/>
 
     <meta property="og:title" content="Customer Reviews & Ratings | ShoppRe.com "/>
     <meta property="og:type" content="website"/>
@@ -114,7 +114,7 @@
                 <center>
                     <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
                        target="_blank">
-                        <img src="{{asset('img/reviews/review-google.png')}}" class="r-img" alt="Google Reviews">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/reviews/review-google.png" class="r-img" alt="Google Reviews">
                     </a>
                 </center>
             </div>
@@ -123,7 +123,7 @@
             <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
                 <center>
                     <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
-                        <img src="{{asset('img/reviews/review-facebook.png')}}" class="r-img" alt="Facebook Reviews">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/reviews/review-facebook.png" class="r-img" alt="Facebook Reviews">
                     </a>
                 </center>
             </div>
@@ -132,7 +132,7 @@
             <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 ">
                 <center>
                     <a href="#reviews">
-                        <img src="{{asset('img/reviews/review-shoppre.png')}}" class="r-img" alt="Shoppre Reviews">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/reviews/review-shoppre.png" class="r-img" alt="Shoppre Reviews">
                     </a>
                 </center>
 
@@ -228,12 +228,12 @@
                                                 <br>{{$review->name}} </p>
                                         </div>
                                         <div class="col-md-4 col-lg-4 col-sm-3 col-xs-3 pull-right">
-                                            <img src="{{asset('img/rating-star.png')}}" style="margin-top: 11px" alt="">
+                                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/rating-star.png" style="margin-top: 11px" alt="">
                                         </div>
                                     </div>
                                     <div class="row">
                                         <i class="quots-t ">
-                                            <img src="{{asset('img/svg/qoute_up.svg')}}" alt="">
+                                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_up.svg" alt="">
                                         </i>
                                     </div>
                                     <div class="row">
@@ -241,7 +241,7 @@
                                     </div>
                                     <div class="row">
                                       <span class="quots-b">
-                                         <img src="{{asset('img/svg/qoute_down.svg')}}" alt="">
+                                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_down.svg" alt="">
                                       </span>
                                     </div>
                                 </div>
@@ -281,7 +281,7 @@
 @endsection
 
 @section('js_script')
-    <script src="{{asset('js/star-rating.min.js')}}" type="text/javascript"></script>
+    <script src="{{env('AWS_CLOUD_FRONT')}}/js/star-rating.min.js" type="text/javascript"></script>
     <script>
         $(".rated").rating({
             'size': 'lg',
@@ -303,7 +303,7 @@
         });
     </script>
     <!-- Select2 -->
-    <script src="{{asset('js/select2.min.js')}}"></script>
+    <script src="{{env('AWS_CLOUD_FRONT')}}/js/select2.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $(".select2").select2();

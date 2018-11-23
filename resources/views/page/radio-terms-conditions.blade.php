@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', 'Personal Shopper Landing Page')
+@section('title', 'Radio TC Landing Page')
 @section('description', '')
 @section('keywords', '')
 
@@ -60,10 +60,10 @@
         <div class="container">
             <div class="col-md-12">
                 <a href="tel:+91-80 4094 4077" class="pull-right d-contact-img-desktop">
-                    <img src="{{asset('img/images/d-contact-img1.png')}}" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">
                 </a>
                 <a href="tel:+91-80 4094 4077" class="d-contact-img pull-right">
-                    <img src="{{asset('img/images/d-contact-img2.png')}}" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">
                 </a>
             </div>
         </div>
@@ -74,12 +74,12 @@
                 <h2 class="header2 p-color-cement-dark"><span class="p-color-red">ShoppRe</span> <br> Terms &
                     Conditions!</h2>
                 <p class="header5 p-color-cement">
-                    <img src="{{asset('img/svg/dot.svg')}}" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/dot.svg" alt="">
                     Using ShoppRe's Personal Shopper Service, purchase form ANY Indian Online Shop worth INR 7,000.
 
                 </p>
                 <p class="header5 p-color-cement">
-                    <img src="{{asset('img/svg/dot.svg')}}" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/dot.svg" alt="">
                     How to do? <br>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Fill the order form <br>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Add your items to the cart <br>
@@ -88,16 +88,16 @@
 
                 </p>
                 <p class="header5 p-color-cement">
-                    <img src="{{asset('img/svg/dot.svg')}}" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/dot.svg" alt="">
                     The cart value should not increase beyond INR 7,000
                 </p>
                 <p class="header5 p-color-cement">
-                    <img src="{{asset('img/svg/dot.svg')}}" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/dot.svg" alt="">
                     Items should not include cosmetics, medicines, liquids/semi liquids, electronics, food items or any
                     restricted items.
                 </p>
                 <p class="header5 p-color-cement">
-                    <img src="{{asset('img/svg/dot.svg')}}" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/dot.svg" alt="">
                     Shipping Charges upto 5Kg will be FREE. Standard charges will apply above 5 Kg.
                 </p>
                 <br>
@@ -131,7 +131,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="div-phone">
                         <center>
-                            <img src="{{asset('img/svg/phone.svg')}}" id="phone">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Didn't find the answer you need? Contact us!</p>
                         </center>
                     </div>
@@ -169,14 +169,14 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 " style="display: none">
                     <div class="div-phone">
                         <center>
-                            <img src="{{asset('img/svg/phone.svg')}}" id="phone">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Contact Our <br>Support Team </p>
                         </center>
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="d-contact-div">
-                        <img src="{{asset('img/svg/phone.svg')}}" id="phone">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                         <p class="header6 p-color-white " style="margin-left: 51px;margin-top: -36px;">Contact Our <br>Support
                             Team </p>
                     </div>

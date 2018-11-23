@@ -2,11 +2,11 @@
     <section class="mail-section">
         <div class="container ">
             <div class="no-padding col-md-1 col-sm-1 col-xs-4 img-flag-desktop">
-                <img src="{{asset('img/svg/mail-box.svg')}}" alt="">
+                <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/mail-box.svg" alt="">
             </div>
             <div class="col-md-4 col-lg-4 col-xs-12 no-padding">
                 <center>
-                    <img class="img-mobile-flag" src="{{asset('img/svg/mail-box.svg')}}" alt="">
+                    <img class="img-mobile-flag" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/mail-box.svg" alt="">
                     <h3 class="header3 p-color-white">Join our Mailing List</h3>
                     <h6 class="header6 p-color-cement">The First Worldwide Indian Shop & Ship Community</h6>
                 </center>
@@ -16,10 +16,10 @@
                     {{csrf_field()}}
                     <input class="txt-subscription form-group" placeholder="   Enter your E-mail Id" name="email"  type="email" required>
                     <button type="submit" class="btn btn-email-subscription pull-right " id="btn-desktop-mail">
-                        Subscribe <img class="img-arrow pull-right" src="{{asset('img/svg/arrow.svg')}}" alt="">
+                        Subscribe <img class="img-arrow pull-right" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/arrow.svg" alt="">
                     </button>
                     <button type="submit" class="btn btn-email-subscription pull-right" id="btn-mobile-mail">
-                        <img class="img-arrow pull-right" src="{{asset('img/svg/arrow.svg')}}" alt="">
+                        <img class="img-arrow pull-right" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/arrow.svg" alt="">
                     </button>
                 </form>
             </div>
@@ -80,19 +80,19 @@
                     <li>
                         <p class="footer-social-media-font1 footer-social-media">CONNECT ON</p>
                         <a class="footer-a" href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw">
-                            <img class="img-connect" src="{{asset('img/svg/shoppre-youtube-video.svg')}}"
+                            <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-youtube-video.svg"
                                  alt="shoppre youtube video">
                         </a>
                         <a class="footer-a" href="https://www.facebook.com/goshoppre/">
-                            <img class="img-connect" src="{{asset('img/svg/go-shoppre-faceboook.svg')}}"
+                            <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/go-shoppre-faceboook.svg"
                                  alt="goshoppre facebook">
                         </a>
                         <a class="footer-a" href="https://twitter.com/Go_Shoppre">
-                            <img class="img-connect" src="{{asset('img/svg/shoppre-twitter.svg')}}"
+                            <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-twitter.svg"
                                  alt="@Go_Shoppre twitter">
                         </a>
                         <a class="footer-a" href="https://www.instagram.com/shoppre_official/?hl=en">
-                            <img class="img-connect" src="{{asset('img/svg/shoppre-instagram.svg')}}"
+                            <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-instagram.svg"
                                  alt="shoppre_officia instagram">
                         </a>
                     </li>
@@ -103,7 +103,7 @@
                 <div class="div-btn">
                     <a class="p-btn-name" href="{{route('pricing')}}">
                         <div class="col-md-2 col-lg-2 col-xs-2 col-sm-2">
-                            <img class="img-footer1" src="{{asset('img/svg/shipping-price-calculator.svg')}}"
+                            <img class="img-footer1" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shipping-price-calculator.svg"
                                  alt="international shipping pricing calculator">
                         </div>
                         <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 div-footer-btn">
@@ -116,7 +116,7 @@
                 <div class="div-btn">
                     <a class="p-btn-name" href="{{route('schedulePickup.Index')}}">
                         <div class="col-md-2 col-lg-2 col-xs-2 col-sm-2">
-                            <img class="img-footer2" src="{{asset('img/svg/sending-courier-abroad.svg')}}"
+                            <img class="img-footer2" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/sending-courier-abroad.svg"
                                  alt="send courier abroad from india">
                         </div>
                         <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 div-footer-btn">
@@ -129,7 +129,7 @@
                 <div class="div-btn" id="div-btn">
                     <a href="{{route('ifs.index')}}">
                         <div class="col-md-2 col-lg-2 col-xs-2 col-sm-2 div-footer-btn">
-                            <img class="img-footer" src="{{asset('img/svg/shop-and-ship-india.svg')}}"
+                            <img class="img-footer" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-and-ship-india.svg"
                                  alt="shop and ship india">
                         </div>
                         <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 div-footer-btn">
@@ -146,7 +146,7 @@
     <section style="background-color: #102436;margin-top:80px;">
         <div class="container" style="padding-bottom: 20px;">
             <center>
-                <a href="{{route('home')}}"><img class="img-footer-logo" src="{{asset('/img/images/shoppre-logo.png')}}"
+                <a href="{{route('home')}}"><img class="img-footer-logo" src="{{env('AWS_CLOUD_FRONT')}}/img/images/shoppre-logo.png"
                                                  alt="shoppre.com - your global shipping partner from india"></a>
                 <p class="footer-rights">© 2018, All Rights Reserved - by <a class="footer-a" href="#">ShoppRe.com™</a>
                 </p>

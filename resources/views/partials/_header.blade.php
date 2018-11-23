@@ -23,7 +23,7 @@
                     </ul>
                 </div>
                 <a class="navbar-brand" href="{{route('home')}}">
-                    <img class="logo" src="{{asset('/img/images/shoppre-logo.png')}}" alt="ShoppRe">
+                    <img class="logo" src="{{env('AWS_CLOUD_FRONT')}}/img/images/shoppre-logo.png" alt="ShoppRe">
                 </a>
             </div>
 
@@ -51,22 +51,22 @@
                                             <a class="footer-a"
                                                href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw">
                                                 <img class="img-connect"
-                                                     src="{{asset('img/svg/shoppre-youtube-video.svg')}}"
+                                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-youtube-video.svg"
                                                      alt="shoppre youtube video">
                                             </a>
                                             <a class="footer-a" href="https://www.facebook.com/goshoppre/">
                                                 <img class="img-connect"
-                                                     src="{{asset('img/svg/go-shoppre-faceboook.svg')}}"
+                                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/go-shoppre-faceboook.svg"
                                                      alt="goshoppre facebook">
                                             </a>
                                             <a class="footer-a" href="https://twitter.com/Go_Shoppre">
-                                                <img class="img-connect" src="{{asset('img/svg/shoppre-twitter.svg')}}"
+                                                <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-twitter.svg"
                                                      alt="@Go_Shoppre twitter">
                                             </a>
                                             <a class="footer-a"
                                                href="https://www.instagram.com/shoppre_official/?hl=en">
                                                 <img class="img-connect"
-                                                     src="{{asset('img/svg/shoppre-instagram.svg')}}"
+                                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-instagram.svg"
                                                      alt="shoppre_officia instagram">
                                             </a>
                                         </li>
@@ -187,7 +187,7 @@
                                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdL11DQD_pOS2tBNXWaI0d8ryZ4DD0foA-Z7ZR0f0hUG3qpSg/viewform" class="mega-menu-hyperlinks" target="_blank">Register Now</a>
                                     </div>
 
-                                    <img src="{{asset('img/svg/ic_plane.svg')}}" alt="">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_plane.svg" alt="">
                                     {{--this carousel block is required--}}
                                     {{--<li class="dropdown-header"--}}
                                         {{--style="font-size: 16px;color: #507dbc; text-decoration: underline;margin-top: 20px; font-weight: 900">--}}

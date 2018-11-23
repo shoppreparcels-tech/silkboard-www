@@ -84,56 +84,56 @@
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
-                                    <img src="img/offers-image/box2.png" class="boxofScroll"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box2.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
-                                    <img src="img/offers-image/box1.png" class="boxofScroll"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box1.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
-                                    <img src="img/offers-image/box2.png" class="boxofScroll"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box2.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
-                                    <img src="img/offers-image/box1.png" class="boxofScroll"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box1.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
-                                    <img src="img/offers-image/box2.png" class="boxofScroll"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box2.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
-                                    <img src="img/offers-image/box1.png" class="boxofScroll"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box1.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
-                                    <img src="img/offers-image/box2.png" class="boxofScroll"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box2.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
-                                    <img src="img/offers-image/box1.png" class="boxofScroll"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box1.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
@@ -244,7 +244,7 @@
                                 <div class="FlatOfferDuration">
                                     2 Day Left
                                 </div>
-                                <img src="img/offers-image/boxCompany.png"/>
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/boxCompany.png"/>
                             </div>
                         </div>
                     </center>
@@ -259,7 +259,7 @@
                                 <div class="FlatOfferDuration">
                                     2 Day Left
                                 </div>
-                                <img src="img/offers-image/boxCompany.png"/>
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/boxCompany.png"/>
                             </div>
                         </div>
                     </center>
@@ -273,37 +273,37 @@
             <br/>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/offers-image/shoppreDeals1.png"/>
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/shoppreDeals1.png"/>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/offers-image/shoppreDeals2.png"/>
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/shoppreDeals2.png"/>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/offers-image/shoppreDeals3.png"/>
-                </div>
-            </div>
-            <br/>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="img/offers-image/shoppreDeals4.png"/>
-                </div>
-                <div class="col-md-4">
-                    <img src="img/offers-image/shoppreDeals1.png"/>
-                </div>
-                <div class="col-md-4">
-                    <img src="img/offers-image/shoppreDeals2.png"/>
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/shoppreDeals3.png"/>
                 </div>
             </div>
             <br/>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/offers-image/shoppreDeals3.png"/>
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/shoppreDeals4.png"/>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/offers-image/shoppreDeals4.png"/>
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/shoppreDeals1.png"/>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/offers-image/shoppreDeals1.png"/>
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/shoppreDeals2.png"/>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/shoppreDeals3.png"/>
+                </div>
+                <div class="col-md-4">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/shoppreDeals4.png"/>
+                </div>
+                <div class="col-md-4">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/shoppreDeals1.png"/>
                 </div>
             </div>
             <br/>
