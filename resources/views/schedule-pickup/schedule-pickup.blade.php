@@ -51,7 +51,11 @@
                     </div>
                 </div>
             </div>
-            <h3>Schedule Your Pickup</h3>
+            <h3>Schedule Your Pickup - <span style="color: red;font-size: 16px;">
+                    <a class="bla-1" href="https://www.youtube.com/watch?v=lQi4Io_WH70">
+                        Watch Video To Know More
+                    </a>
+                </span></h3>
             <div class="schedule-container">
                 <form class="form-horizontal" id="form-pickup">
                     {{--<form class="form-horizontal" method="post" action="{{route('schedulePickup.Submit')}}">--}}
