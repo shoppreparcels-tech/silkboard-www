@@ -10,6 +10,47 @@ use App\CountryGuide;
 
 class CountryGuideController extends Controller
 {
+    public function cGuide(Request $request){
+
+        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+        return view('page.cguide.cguide')->with([ 'countries' => $countries ]);
+    }
+
+    public function showCguide(Request $request)
+    {
+        $iso = $request->iso;
+        $country = Country::where('iso', $iso)->first();
+        if (!empty($country)) {
+
+            $countries = Country::orderBy('name', 'asc')
+                ->where('shipping', '1')->get();
+
+            $guide = CountryGuide::where('country_id', $country->id)
+                ->first();
+
+            $reviews = Review::where('country_id', $country->id)
+                ->where('approve', '1')
+                ->orderBy('updated_at', 'desc')
+                ->paginate(10);
+
+            $from_to = "INR_".$country->currency;
+            $jsondata = file_get_contents("http://free.currencyconverterapi.com/api/v3/convert?q=$from_to&compact=ultra");
+
+            $xchange_rate = number_format(json_decode($jsondata)->$from_to, 3, '.', '');
+//             print json_encode($guide);exit;
+            return view('page.cguide.cguide')
+                ->with([
+                    'country' => $country,
+                    'countries' => $countries,
+                    'reviews' => $reviews,
+                    'guide' => $guide,
+                    'xchange_rate' => $xchange_rate
+                ]);
+        }
+
+        return redirect()->route('cguide.cguide');
+    }
+
 	public function countryGuide()
 	{
 		$countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
@@ -19,9 +60,7 @@ class CountryGuideController extends Controller
 	public function show(Request $request)
 	{
 		$iso = $request->iso;
-
 		$country = Country::where('iso', $iso)->first();
-
 		if (!empty($country)) {
 
 			$countries = Country::orderBy('name', 'asc')
@@ -37,7 +76,7 @@ class CountryGuideController extends Controller
 
 			$from_to = "INR_".$country->currency;
 			$jsondata = file_get_contents("http://free.currencyconverterapi.com/api/v3/convert?q=$from_to&compact=ultra");
-			
+
 			$xchange_rate = number_format(json_decode($jsondata)->$from_to, 3, '.', '');
 
 			return view('page.cguide.view')
@@ -49,7 +88,7 @@ class CountryGuideController extends Controller
                     'xchange_rate' => $xchange_rate
                 ]);
 		}
-		
+
 		return redirect()->route('cguide.index');
 	}
 

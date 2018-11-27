@@ -139,6 +139,10 @@ Route::get('/invoice', 'InvoiceController@index')->name('invoice');
 
 Route::get('/country-guide/', 'CountryGuideController@countryGuide')->name('cguide.index');
 Route::get('/country/{iso}', 'CountryGuideController@show')->name('cguide.view');
+
+Route::get('/cguide/', 'CountryGuideController@cGuide')->name('cguide.cguide');
+Route::get('/cguide/{iso}', 'CountryGuideController@showCguide')->name('cguide.cguide');
+
 Route::post('/calculate/exchange-rate', 'CountryGuideController@exchangeCalculate')->name('xchange.calc');
 
 

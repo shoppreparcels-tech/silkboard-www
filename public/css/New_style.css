@@ -738,7 +738,7 @@ header::after {
 }
 
 .div-backgroud-img {
-    background-image: url("../../img/svg/shoppre-background.svg");
+    background-image: url("https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/shoppre-background.svg");
     background-repeat: no-repeat;
     float: right;
     position: absolute;
@@ -760,7 +760,7 @@ header::after {
     width: 100%;
     height: 268.56px;
     background-color: linear-gradient(#ff7e5e 0%, #ff8191 100%);
-    background-image: url(../../img/svg/mobile-background.svg);
+    background-image: url(https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/mobile-background.svg);
     background-repeat: no-repeat;
     overflow: hidden;
     display: block;
@@ -768,7 +768,7 @@ header::after {
 }
 
 .div-priyamani-mobile-img {
-    background-image: url(../../img/images/priyamani-shoppre-brand-ambassador.png);
+    background-image: url(https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/priyamani-shoppre-brand-ambassador.png);
     height: 340px;
     width: 148px;
     background-repeat: no-repeat;

@@ -3951,36 +3951,6 @@
     </script>
 
     <script>
-        $(document).ready(function () {
-            $('.inc-value').click(function () {
-                var x = parseFloat($(this).parent().find('input[type="text"]').val());
-                x= x + 0.5;
-                // x++;
-
-                if (x > 100) {
-                    $(this).parent().find('input[type="text"]').attr('disabled', true);
-                }
-                else {
-                    $(this).parent().find('input[type="text"]').val(x);
-                }
-            });
-
-            $('.dec-value').click(function () {
-                $(this).parent().find('input[type="text"]').attr('disabled', false);
-                var x = parseFloat($(this).parent().find('input[type="text"]').val());
-                x=x -0.5;
-                // x--;
-
-                if (x < 0) {
-                    $(this).parent().find('input[type="text"]').attr('disabled', true);
-                }
-                else {
-                    $(this).parent().find('input[type="text"]').val(x);
-                }
-            });
-        });
-    </script>
-    <script>
         $('.tabgroup > div').hide();
         $('.tabgroup > div:first-of-type').show();
         $('.tabs a').click(function (e) {
