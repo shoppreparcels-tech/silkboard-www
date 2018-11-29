@@ -1,13 +1,57 @@
 @extends('layout')
 @extends('add-sense')
 
-@section('title', 'Browse Categories: List of Top Indian Shopping Sites | ShoppRe')
+@section('title', 'Browse Categories: List of Top Indian Shopping Sites | ShoppRe.com')
 @section('description', 'Shop from list of Top Indian Shopping Sites, Facebook & Instagram Sellers. Save by combining multiple packages into one and get it shipped to your country.')
 @section('keywords', 'shop, list of top indian shopping sites, facebook, instagram sellers, multiple packages, shipped to your country')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/indian-online-stores"/>
+
+    <meta property="og:title" content=" Top Indian Online Shopping Sites 2019"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/indian-online-stores"/>
+    <meta property="og:image" content="https://www.shoppre.com/img/images/personal-shopper-service.png"/>
+    <meta property="og:image:width" content="2224">
+    <meta property="og:image:height" content="1250">
+    <meta property="og:image:alt" content="ShoppRe Indian Online Shopping Stores" />
+    <meta property="og:description" content="Shop from list of Top Indian Shopping Sites, Facebook & Instagram Sellers. Save by combining multiple packages into one and get it shipped to your country."/>
+    <meta property="og:site_name" content="ShoppRe Online Shipping Sites in India"/>
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="Go_Shoppre" />
+    <meta name="twitter:title" content="Top Online Shopping Sites in India 2019" />
+    <meta name="twitter:description" content="Shop from list of Top Indian Shopping Sites, Facebook & Instagram Sellers. Save by combining multiple packages into one and get it shipped to your country." />
+    <meta name="twitter:image" content="https://www.shoppre.com/img/images/personal-shopper-service.png" />
+    <meta name="twitter:image:alt" content="ShoppRe international shipping Price Calculator"/>
+
+    <meta name="twitter:app:country" content="IN"/>
+    <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
+    <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
+    <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
+
+    <script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "Website",
+  "name": "ShoppRe Top Indian Shopping Sites",
+  "alternateName": "ShoppRe International Shipping",
+  "url": "https://www.shoppre.com/indian-online-stores",
+  "image": "https://www.shoppre.com/img/logo.png",
+  "description": "Shop from the list of Top Indian Online Shopping Stores, Facebook & Instagram Sellers. Shop as much as you like and Ship in your purchases by combining multiple packages into one and get it shipped to your country, delivered in 3-6 days.",
+    "sameAs": [
+    "https://www.facebook.com/goshoppre/",
+    "https://twitter.com/Go_Shoppre",
+    "https://plus.google.com/+SHOPPRECOM",
+    "https://www.instagram.com/shoppre_official",
+    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+    "https://www.linkedin.com/company/shoppre.com",
+    "https://in.pinterest.com/shoppre",
+    "https://play.google.com/store/apps/details?id=com.shoppre.play"
+  ]
+}
 @endsection
+
 @section('content')
     <section class="b-heading-section">
         <div class="container">
