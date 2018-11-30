@@ -65,8 +65,8 @@
                 <ul class="nav-ul">
                     <li>
                         <i class="footer-social-media-font1 glyphicon glyphicon-earphone">&nbsp;CALL US</i> <br>
-                        <a class="footer-a footer-social-media" href="tel:+91-914 835 7733">
-                            <span class="span-color footer-social-media footer-social-media-font">+91</span>
+                        <a class="footer-a footer-social-media" href="tel:+91-80 4094 4077">
+                            <span class="span-color footer-social-media footer-social-media-font">+918040944077</span>
                         </a>
                     </li>
                     <li>
