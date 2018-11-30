@@ -321,7 +321,7 @@
                             <img class="img-demo" id="img-cal"
                                  src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header.svg">
                             <b>
-                                <a href="tel:+91-80 4094 4077">
+                                <a href="tel:+91-914 835 7733">
                                     <b>
                                         <p class="p-support-text" id="p-numer">
                                             &nbsp;+91 914-835-7733
@@ -1287,6 +1287,7 @@
                     }
                 });
             }
+
         });
     </script>
 @endsection

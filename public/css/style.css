@@ -6222,15 +6222,9 @@ ul.newsticker li span {
 
     .navbar-brand img, .navbar-default .nav li {
         padding: 10px;
-        height: 49px;
-         /*width: 100%;*/
-        /*width: 83px;*/
-        /*height: 24px;*/
+        /*height: 49px;        */
     }
 
-    /*.navbar-toggle {*/
-        /*margin-top: 15px*/
-    /*}*/
     #sch-mobile-number{
         margin-top: 20px;
     }
