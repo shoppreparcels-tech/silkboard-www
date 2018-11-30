@@ -56,10 +56,11 @@
                                 <div class="rating-star">
                                     <input id="input-rate" type="text" class="rating" name="customer_service" required/>
                                 </div>
+                                <div class="clearfix"></div>
                                 @if ($errors->has('customer_service'))
                                     <span class="error">{{ $errors->first('customer_service') }}</span>
                                 @endif
-                                <div class="clearfix"></div>
+
                             </div>
                         </div>
                     </div>

@@ -155,13 +155,12 @@
 @section('js_script')
 <script type="text/javascript" src="{{asset('js/store.js')}}"></script>
 <script>
-    window.onload = function(){
-        debugger;
-        if(window.location.href=="{{route('stores')}}"){
-            window.location.href = "{{route('stores1')}}";
-
+     (function () {
+        if (window.location.href=="{{route('stores')}}"){
+          return  window.location.href = "{{route('stores1')}}";
         }
-    }
+
+    })();
 
 </script>
 @endsection

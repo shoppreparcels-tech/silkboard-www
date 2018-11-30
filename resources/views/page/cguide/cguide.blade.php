@@ -15,7 +15,8 @@
     .section-cguide-m .select2-container--default .select2-selection--single .select2-selection__rendered {color: #fdf699 !important;font-size: 22px !important;line-height: 34px;}
     .section-cguide-t {background-color: #fafafb;}
     .section-cguide-t .container-tab {background-color: #ffffff;border-radius: 20px;}
-    .section-cguide-t .container .div-img {width: 358px;height: 260px;box-shadow: 0 0 20px rgba(17, 39, 59, 0.05);border-radius: 10px;background-color: #ffffff;}
+    .section-cguide-t .container .div-img {width:350px;box-shadow: 0 0 20px rgba(17, 39, 59, 0.05);border-radius: 10px;background-color: #ffffff;padding-top: 10px;padding-bottom: 10px}
+    .section-cguide-t .container .div-img img{width:100%}
     .section-cguide-t .padding-left {padding-left: 30px;}
     /*.section-cguide-t .tab{border-bottom: 1px solid rgba(146, 156, 165, 0.2);}*/
     .section-cguide-t .tab .nav-tabs {border-bottom: none;position: relative;}
@@ -40,9 +41,8 @@
 
 
     @media only screen and (max-width: 600px) {
-        .section-cguide-t .tab .nav-tabs li {
-            margin-right: 15px;
-        }
+        .section-cguide-t .tab .nav-tabs li {margin-right: 15px;}
+        .section-cguide-t .container .div-img {width:300px;margin-top: 15px;}
     }
 
 </style>
@@ -394,7 +394,8 @@
                                 <section class="cguide_blocks">
                                     @if(!empty($guide->dutytax))
                                         <article>
-                                            <h2><img src="{{asset('img/cguide_box1.png')}}"> Duties and Taxes</h2>
+                                            {{--<h2><img src="{{asset('img/cguide_box1.png')}}"> Duties and Taxes</h2>--}}
+                                            <h4 class="header4 p-color-cement-dark"> Duties and Taxes</h4>
                                             <div class="col-md-8">
                                                 {!! $guide->dutytax !!}
                                             </div>
@@ -491,67 +492,38 @@
             </center>
             <br>
             <br>
-            <div class="col-md-4 col-xs-12 div-img">
+            <div class="col-md-4 col-xs-12 ">
+                <div class="div-img">
+                    <center>
+                        <h5 class="header5 p-color-cement-dark">Browse Indian Stores</h5>
+                    </center>
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/c-shoping-online-indian-stores.png" alt="">
+                </div>
 
             </div>
-            <div class="col-md-4 col-xs-12 div-img">
-
+            <div class="col-md-4 col-xs-12 ">
+                <div class="div-img">
+                    <center>
+                        <h5 class="header5 p-color-cement-dark">Send Courier</h5>
+                    </center>
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/c-g-courier.png" alt="">
+                </div>
             </div>
-            <div class="col-md-4 col-xs-12 div-img">
-
+            <div class="col-md-4 col-xs-12">
+                <div class="div-img">
+                    <center>
+                        <h5 class="header5 p-color-cement-dark">Personal Shopper</h5>
+                    </center>
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/c-g-shoping.png" alt="">
+                </div>
             </div>
 
         </div>
+        <br>
+        <br>
+        <br>
     </section>
 
-
-    {{--<section class="page_head">--}}
-    {{--<div class="pagebanner">--}}
-    {{--<img src="{{asset('img/banner2.jpg')}}" width="100%">--}}
-    {{--<div class="banner-cap">--}}
-    {{--<h2>Shoppre delivers to <span class="text-orange">220+</span></h2>--}}
-    {{--<h2><span class="text-orange">countries</span> around the globe!</h2>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</section>--}}
-
-    {{--<section class="select_cguide">--}}
-    {{--<div class="container">--}}
-    {{--<div class="col-md-8 col-md-offset-2">--}}
-    {{--<h3>Find helpful information specific to your country, including :</h3>--}}
-    {{--<ul class="infoitems">--}}
-    {{--<li>Shipping costs</li>--}}
-    {{--<li>Duties and taxes</li>--}}
-    {{--<li>Restricted & prohibited items</li>--}}
-    {{--<li>Current exchange rates</li>--}}
-    {{--<li>Typical transit times</li>--}}
-    {{--<li>Country alerts</li>--}}
-    {{--</ul>--}}
-    {{--<div class="clearfix"></div>--}}
-    {{--<form id="country_select">--}}
-    {{--{{ csrf_field() }}--}}
-    {{--<select class="form-control select2" name="country" id="select_iso">--}}
-    {{--<option value="">Select Country</option>--}}
-    {{--@foreach($countries as $country)--}}
-    {{--<option value="{{$country->iso}}">{{$country->name}}</option>--}}
-    {{--@endforeach--}}
-    {{--</select>--}}
-    {{--</form>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</section>--}}
-
-    {{--<section class="signup_free violet-grade">--}}
-    {{--<div class="container">--}}
-    {{--<div class="row">--}}
-    {{--<div class="col-md-12">--}}
-    {{--<h3>So what are you waiting for? Shopp <span class="text-orange">re</span>! Open your big box of happiness today!</h3>--}}
-    {{--<p>Simply login to get your Personal Indian Shipping Address immediately!</p>--}}
-    {{--<a href="{{route('customer.register')}}" class="btn btn-shoppre">sign up for free</a>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</section>--}}
 
 @endsection
 
