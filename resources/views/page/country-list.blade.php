@@ -8,9 +8,8 @@
     <link rel="canonical" href="https://www.shoppre.com/countries" />
 @endsection
 @section('content')
-
     <section class="sellers">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
               <center><div class="col-md-5 col-sm-12 col-md-offset-5 col-sm-offset-0"><h1>Ship Your Item World Wide</h1></div></center>
                 <div class="col-md-12">

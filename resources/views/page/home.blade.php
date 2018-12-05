@@ -190,52 +190,52 @@
 
 @section('content')
     <main class="div-main" role="main">
-        {{--this block is required for next iteration--}}
-        {{--<div class="container header-menu-home-page"--}}
-        {{--id="header-menu">--}}
-        {{--<div class="col-md-2">--}}
-        {{--<a href="{{route('ifs.index')}}" class="header6 p-color-cement">--}}
-        {{--<div>--}}
-        {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-shop-ship.svg" class="header-menu-img"--}}
-        {{--alt="personal shopper">--}}
-        {{--<span class="p-color-cement"> Shop and Ship</span>--}}
+        <div class="container header-menu-home-page"
+             id="header-menu">
+            <div class="col-md-2">
+                <a href="{{route('ifs.index')}}" class="header6 p-color-cement">
+                    <div>
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-shop-ship.svg" class="header-menu-img"
+                             alt="personal shopper">
+                        <span class="p-color-cement"> Shop and Ship</span>
 
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--</div>--}}
+                    </div>
+                </a>
+            </div>
 
-        {{--<div class="col-md-2">--}}
-        {{--<a href="{{route('ifs.index')}}/#how-it-works">--}}
-        {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-p-shopper.svg" alt="" class="header-menu-img">--}}
-        {{--<span class="header6 p-color-cement">Personal Shopper</span>--}}
-        {{--</a>--}}
-        {{--</div>--}}
-        {{--<div class="col-md-2" >--}}
-        {{--<a href="{{route('schedulePickup.Index')}}" class="header6 p-color-cement">--}}
-        {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-schedule-pickup.svg" alt="" class="header-menu-img">--}}
-        {{--<span class="header6 p-color-cement">Schedule Pickup</span>--}}
-        {{--</a>--}}
-        {{--</div>--}}
-        {{--<div class="col-md-2" >--}}
-        {{--<a href="{{route('stores')}}" class="header6 p-color-cement">--}}
-        {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-stores.svg" alt="" class="header-menu-img">--}}
-        {{--<span class="header6 p-color-cement">Browse Stores</span>--}}
-        {{--</a>--}}
-        {{--</div>--}}
-        {{--<div class="col-md-2">--}}
-        {{--<a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank" class="header6 p-color-cement">--}}
-        {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/partner-with-us.svg" alt="" class="header-menu-img">--}}
-        {{--<span class="header6 p-color-cement">Partner With Us</span>--}}
-        {{--</a>--}}
-        {{--</div>--}}
-        {{--<div class="col-md-2" >--}}
-        {{--<a href="https://www.shoppre.com/offers/send-durga-puja-gifts-from-india-ship-internationally/" target="_blank" class="header6 p-color-cement">--}}
-        {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/partner-with-us.svg" alt="" class="header-menu-img">--}}
-        {{--<span class="header6 p-color-cement"> Offers and Deals</span>--}}
-        {{--</a>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--this block is required for next iteration--}}
+            <div class="col-md-2">
+                <a href="{{route('ifs.index')}}/#how-it-works">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-p-shopper.svg" alt="" class="header-menu-img">
+                    <span class="header6 p-color-cement">Personal Shopper</span>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="{{route('schedulePickup.Index')}}" class="header6 p-color-cement">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-schedule-pickup.svg" alt=""
+                         class="header-menu-img">
+                    <span class="header6 p-color-cement">Schedule Pickup</span>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="{{route('stores')}}" class="header6 p-color-cement">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-stores.svg" alt="" class="header-menu-img">
+                    <span class="header6 p-color-cement">Browse Stores</span>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank" class="header6 p-color-cement">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/partner-with-us.svg" alt="" class="header-menu-img">
+                    <span class="header6 p-color-cement">Partner With Us</span>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="https://www.shoppre.com/offers/send-durga-puja-gifts-from-india-ship-internationally/"
+                   target="_blank" class="header6 p-color-cement">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/partner-with-us.svg" alt="" class="header-menu-img">
+                    <span class="header6 p-color-cement"> Offers and Deals</span>
+                </a>
+            </div>
+        </div>
         <div class="container no-padding">
             <div class="col-md-6  col-lg-6  col-sm-12 col-xs-12 no-padding">
                 <div class="col-md-12 col-sm-11 col-xs-11  col-lg-12 div-main-row">
@@ -321,10 +321,11 @@
                             <img class="img-demo" id="img-cal"
                                  src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header.svg">
                             <b>
-                                <a href="tel:+91-914 835 7733">
+                                <a href="tel:+91-8277919191">
+
                                     <b>
                                         <p class="p-support-text" id="p-numer">
-                                            &nbsp;+91 914-835-7733
+                                            &nbsp;+91 8277-919191
                                         </p>
                                     </b>
                                 </a>
@@ -413,10 +414,10 @@
                                 <img class="img-demo" id="img-cal"
                                      src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header.svg">
                                 <b>
-                                    <a href="tel:+91-80 4094 4077">
+                                    <a href="tel:+91-8277919191">
                                         <b>
                                             <p class="p-support-text" id="p-numer">
-                                                &nbsp;+91 914-835-7733
+                                                &nbsp;&nbsp;+91 8277-919191
                                             </p>
                                         </b>
                                     </a>

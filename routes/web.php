@@ -54,7 +54,7 @@ Route::get('/ics', 'PageController@icsIndex')->name('ics.index');
 Route::get('/2018-annual-awards-international-shipping-shopping', 'PageController@award')->name('award.index');
 Route::get('/shop-from-india-ship-worldwide', 'PageController@ifsIndex')->name('ifs.index');
 //Route::get('/about-new', 'PageController@aboutIndex')->name('about-new.index');
-Route::get('/offers-new', 'PageController@offersIndex')->name('offers-new.index');
+Route::get('/offers', 'PageController@offersIndex')->name('offers-new.index');
 Route::get('/diwali-offer', 'PageController@diwali')->name('diwali');
 Route::get('/send-international-courier-from-india', 'PageController@icsLandingPage')->name('ics.landing');
 Route::get('/personal-shopper-india', 'PageController@ifsLandingPage')->name('ifs.landing');
@@ -141,6 +141,8 @@ Route::get('/country-guide/', 'CountryGuideController@countryGuide')->name('cgui
 Route::get('/country/{iso}', 'CountryGuideController@show')->name('cguide.view');
 
 Route::get('/cguide/', 'CountryGuideController@cGuide')->name('cguide.cguide');
+Route::get('/cguide/countries', 'CountryGuideController@cGuideCountries')->name('cguide.cguideCountries');
+
 Route::get('/cguide/{iso}', 'CountryGuideController@showCguide')->name('cguide.cguide');
 
 Route::post('/calculate/exchange-rate', 'CountryGuideController@exchangeCalculate')->name('xchange.calc');

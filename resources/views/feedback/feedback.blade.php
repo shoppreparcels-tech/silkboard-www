@@ -139,10 +139,10 @@
                             <div class="form-group">
                                 <label>Did you have to pay any customs duty at the time of receiving the shipment?</label><br>
                                 <div class="col-md-2">
-                                    <input type="radio" name="customs" value="0">&nbsp;No
+                                    <input type="radio" name="customs" value="no">&nbsp;No
                                 </div>
                                 <div class="col-md-2">
-                                    <input type="radio" name="customs" value="1">&nbsp;Yes
+                                    <input type="radio" name="customs" value="yes">&nbsp;Yes
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
@@ -152,7 +152,7 @@
                         <div class="col-md-8 col-sm-offset-2">
                             <div class="form-group">
                                 <label>Do you have any suggestions for improvement? </label>
-                                <input type="text" class="form-control" name="suggestions" placeholder="Enter Your Name">
+                                <input type="text" class="form-control" name="suggestions" placeholder="suggestions">
                                 @if ($errors->has('suggestions'))
                                     <span class="error">{{ $errors->first('suggestions') }}</span>
                                 @endif

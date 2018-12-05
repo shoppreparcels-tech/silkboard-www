@@ -1,62 +1,43 @@
 @extends('layout')
 
-@section('title', 'Contact | Shoppre - International Shipping Partner')
-@section('description', 'Have any questions or concerns? about your package or shipping services please call us at +91-8040944077 or start Live chat, Whatsapp with Team Shoppre.')
-@section('keywords', 'questions, concerns, about your package, shipping services, please call us, start live chat, whatsapp, team shoppre')
+@section('title', 'ShoppRe Offers, Wallet Cashback, Discounts & Ecommerce Sale | ShoppRe.com')
+@section('description', 'Running & upcoming ShoppRe offers, discount, cashback and ecommerce sale on Personal Shopper, International Courier and Parcel Forwarding from India.')
+@section('keywords', 'cashback, discounts, coupons, promo codes, vouchers, shopping, shipping, ecommerce deals, wallet')
 
 @section('css_style')
+    <meta property="og:title" content="ShoppRe Offers, Wallet Cashback & Discounts | ShoppRe.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/offers"/>
+    <meta property="og:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg"/>
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
+    <meta property="og:image:alt" content="ShoppRe Indian Online Shopping Stores Offers" />
+    <meta property="og:description" content="Running & upcoming ShoppRe offers, discount, cashback and ecommerce sale on Personal Shopper, International Courier and Parcel Forwarding from India."/>
+    <meta property="og:site_name" content="ShoppRe Online Shipping Sites in India"/>
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="Go_Shoppre" />
+    <meta name="twitter:title" content="ShoppRe Offers, Wallet Cashback & Discounts | ShoppRe.com" />
+    <meta name="twitter:description" content="Running & upcoming ShoppRe offers, discount, cashback and ecommerce sale on Personal Shopper, International Courier and Parcel Forwarding from India." />
+    <meta name="twitter:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg" />
+    <meta name="twitter:image:alt" content="ShoppRe international shipping offers"/>
+
+    <meta name="twitter:app:country" content="IN"/>
+    <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
+    <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
+    <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
+
     <style>
-        .MultiCarousel {
-            float: left;
-            overflow: hidden;
-            padding: 15px;
-            width: 100%;
-            position: relative;
-        }
-
-        .MultiCarousel .MultiCarousel-inner {
-            transition: 1s ease all;
-            float: left;
-        }
-
-        .MultiCarousel .MultiCarousel-inner .item {
-            float: left;
-        }
-
-        .MultiCarousel .MultiCarousel-inner .item > div {
-            text-align: center;
-            padding: 10px;
-            margin: 0px;
-            background: #f1f1f1;
-            color: #666;
-        }
-
-        .MultiCarousel .leftLst, .MultiCarousel .rightLst {
-            position: absolute;
-            border-radius: 50%;
-            top: calc(50% - 20px);
-        }
-
-        .MultiCarousel .leftLst {
-            left: 0;
-        }
-
-        .MultiCarousel .rightLst {
-            right: 0;
-        }
-
-        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
-            pointer-events: none;
-            background: #ccc;
-        }
-
-        .delivery img {
-            width: 100%
-        }
-
-        .text-transform-u {
-            text-transform: uppercase
-        }
+        .MultiCarousel {float: left;overflow: hidden;padding: 15px;width: 100%;position: relative;}
+        .MultiCarousel .MultiCarousel-inner {transition: 1s ease all;float: left;}
+        .MultiCarousel .MultiCarousel-inner .item {float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div {text-align: center;padding: 10px;margin: 0px;background: #f1f1f1;color: #666;}
+        .MultiCarousel .leftLst, .MultiCarousel .rightLst {position: absolute;border-radius: 50%;top: calc(50% - 20px);}
+        .MultiCarousel .leftLst {left: 0;}
+        .MultiCarousel .rightLst {right: 0;}
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {pointer-events: none;background: #ccc;}
+        .delivery img {width: 100%}
+        .text-transform-u {text-transform: uppercase}
     </style>
 @endsection
 
@@ -64,11 +45,10 @@
     <section class="heading-section">
         <div class="container">
             <div class="row">
-                <h1 class="header1 p-color-white">Offers</h1>
-                <div class="col-md-8 col-md-offset-2 padding-bottom">
-                    <h2 class="header2 p-color-cement">Our members love our top-rated service and how easy and worry
-                        <br>
-                        free we make shopping and shipping from INDIA
+                <h1 class="header1 p-color-white">ShoppRe Shopping and Shipping Offers</h1>
+                <div class="col-md-12 padding-bottom">
+                    <h2 class="header2 p-color-cement">Know more about the latest ShoppRe Offers, Discounts, Coupons, Wallet Cashback,
+                        Promo Codes and Ecommerce deals for all your Shopping and Shipping needs from India.
                     </h2>
                 </div>
             </div>
@@ -84,7 +64,14 @@
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box2.png" class="boxofScroll"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box2.png" class="boxofScroll" alt="save upto 80% international shipping cost from india"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="https://www.shoppre.com/offers/50-percent-offer-on-your-first-international-shipment/" target="_blank">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/offer-first-international-shipment.png" class="boxofScroll" alt="Offer first international shipment"/>
                                 </a>
                             </div>
                         </div>
@@ -95,13 +82,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box2.png" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
+
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
@@ -152,8 +133,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">The Black Friday sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">23rd Nov, 12 noon</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Shopping Days</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">6th to 8th DEC 2018</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.flipkart.com/redmi-note6-pro-coming-soon-d931m-h6wj-store?otracker=hp_bannerads_3_deskt-homep-3bcff_15-11-2018-slot-2-2AM%2Bto%2BEOD_8KUN09FBQPJY"
                                    target="_blank">

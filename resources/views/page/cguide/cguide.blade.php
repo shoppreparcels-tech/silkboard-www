@@ -465,8 +465,59 @@
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="Reviews">
+                        @php
+                            $index=0;
+                            $colors = array("#fc91ad", "#aa62e3", "#2b78dc", "#6558ee", "#fd4e13", "#e5213b", "#94ba2b");
+                        @endphp
                         <div class="col-lg-12 col-md-12 ">
-
+                            <div>
+                                {{--<div class="row" id="reviews-more">--}}
+                                    {{--@foreach($reviews as $review)--}}
+                                        {{--@php--}}
+                                        {{--$color= $colors[$index];--}}
+                                        {{--$pname = $review->person;--}}
+                                        {{--$firstname = explode(" ", $pname);--}}
+                                        {{--$fl = substr($firstname[0], 0, 1);--}}
+                                        {{--$sfl = substr($firstname[1], 0, 1);--}}
+                                        {{--$index++;--}}
+                                        {{--@endphp--}}
+                                        {{--<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">--}}
+                                            {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 inner-review ">--}}
+                                                {{--<div class="row div-img-row">--}}
+                                                    {{--<div class="col-md-2 col-lg-2 col-sm-3 col-xs-3 no-padding">--}}
+                                                        {{--<div class=" img-review img-circle "--}}
+                                                             {{--style="background-color: red;padding-top: 15px">--}}
+                                                            {{--<center>--}}
+                                                                {{--<p style="text-transform: uppercase"> {{$fl}} {{$sfl}}</p>--}}
+                                                            {{--</center>--}}
+                                                        {{--</div>--}}
+                                                    {{--</div>--}}
+                                                    {{--<div class="col-md-5 col-lg-5 col-sm-6 col-xs-6">--}}
+                                                        {{--<p class="pull-left p-name-font-weight">{{$review->person}}--}}
+                                                            {{--<br>{{$review->name}} </p>--}}
+                                                    {{--</div>--}}
+                                                    {{--<div class="col-md-4 col-lg-4 col-sm-3 col-xs-3 pull-right">--}}
+                                                        {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/rating-star.png" style="margin-top: 11px" alt="">--}}
+                                                    {{--</div>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="row">--}}
+                                                    {{--<i class="quots-t ">--}}
+                                                        {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_up.svg" alt="">--}}
+                                                    {{--</i>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="row">--}}
+                                                    {{--<p class=" p-reviews">{{substr($review->review, '0','500')}}!</p>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="row">--}}
+                                      {{--<span class="quots-b">--}}
+                                         {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_down.svg" alt="">--}}
+                                      {{--</span>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                    {{--@endforeach--}}
+                                {{--</div>--}}
+                            </div>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="SaveMore">

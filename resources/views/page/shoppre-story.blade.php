@@ -28,7 +28,7 @@
                     <div style="border: 1px solid gray;padding: 16px 10px 16px 10px;">
                         <img src="{{'https://myaccount.shoppre.com/uploads/story/'.$story->id.'/'.$story -> image}}"
                              alt="{{$story -> image}}"
-                             style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;">
+                             style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;width: 100%">
                         <div class="news-carousel__item-body">
                             <h3 class="news-carousel__item-title">
                                 {{ $story->title }}

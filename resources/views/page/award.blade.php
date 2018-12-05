@@ -266,7 +266,7 @@
                     <div class="box-pnk text-center animated fadeInUpShort">
                         <img src="{{asset('img/images/ic_award_01.png')}}" class="img-space-top img-illustrator">
                         <div class="fav-ic-award">
-                            up coming<br/>
+                            up & coming<br/>
                             <span>SELLER</span>
                         </div>
                         <div class="divider40"></div>

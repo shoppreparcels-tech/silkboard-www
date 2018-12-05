@@ -19,6 +19,7 @@ class FeedbackController extends Controller
 
     public function submit(Request $request)
     {
+
         $this->validate($request, [
             'person' => 'required|max:250',
             'email' => 'required|max:250',
@@ -39,6 +40,7 @@ class FeedbackController extends Controller
         $feedback->package_condition = $request->package_condition;
         $feedback->easy_service = $request->easy_service;
         $feedback->overall_level_of_satisfaction = $request->overall_level_of_satisfaction;
+        $feedback->custom_duty = $request->customs;
         $feedback->suggestions = $request->suggestions;
         $feedback->save();
 

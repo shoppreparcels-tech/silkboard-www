@@ -44,7 +44,7 @@
         }
 
         #image1 img {
-            margin-top: 80px;
+            /*margin-top: 80px;*/
             margin-left: 37px;
         }
 
@@ -166,7 +166,7 @@
                             Address</h3>
                     </center>
                     <img class="img-responsive img-ifs-v_addres "
-                         src="{{env('AWS_CLOUD_FRONT')}}/img/svg/virtual-address-india.svg" alt="get a free virtual address">
+                         src="{{env('AWS_CLOUD_FRONT')}}/img/images/virtual-address-india.jpg" alt="get a free virtual address">
 
                 </div>
                 <div class="" id="text1">
@@ -195,7 +195,7 @@
                         </h3>
                     </center>
                     <img class="img-responsive img-ifs-v_addres "
-                         src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indian-online-shoppping-store.svg"
+                         src="{{env('AWS_CLOUD_FRONT')}}/img/images/indian-online-shoppping-store.jpg"
                          alt="purchase from indian online stores">
 
                 </div>
@@ -226,7 +226,7 @@
                             Get It Delivered! </h3>
                     </center>
                     <img class="img-responsive img-ifs-v_addres "
-                         src="{{env('AWS_CLOUD_FRONT')}}/img/svg/receive-your-package.svg" alt="receive your package from india">
+                         src="{{env('AWS_CLOUD_FRONT')}}/img/images/receive-your-package.jpg" alt="receive your package from india">
 
                 </div>
 
