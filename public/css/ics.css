@@ -339,7 +339,8 @@ a:hover, a:focus {
     border-radius: 60px !important;
     background-color: #e85151;
     transition: 0.6s;
-    margin-top: 30px;
+    margin-top: 15px;
+    padding: 10px;
 }
 
 .btn-pricing-estimate:hover {

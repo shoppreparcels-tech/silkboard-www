@@ -6,31 +6,12 @@
 
 @section('css_style')
     <style>
-        .bg-ics-landing-page .container > div {
-            padding: 20px;
-            margin-bottom: 3em
-        }
-
-        .d-header-text {
-            font-size: 40px;
-            font-weight: 900
-        }
-
-        .d-header-text1 {
-            font-family: Montserrat -Italic;
-            font-style: italic;
-            line-height: 26px;
-            margin-top: 25px
-        }
-
-        .box-steps p {
-            line-height: 1;
-        }
-
-        .box-steps p span {
-            font-size: 22px;
-            font-weight: 900;
-        }
+        .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
+        .d-header-text {font-size: 40px;font-weight: 900}
+        .d-header-text1 {font-family: Montserrat -Italic;font-style: italic;line-height: 26px;margin-top: 25px}
+        .box-steps p {line-height: 1;}
+        .box-steps p span {font-size: 22px;font-weight: 900;}
+        #packing:hover{display: none}
     </style>
 
 @endsection
@@ -128,12 +109,13 @@
                 </h1>
             </center>
             <div class="col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-box-packing.png" alt="">
+                <img class="img-responsive" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-box-packing.png" alt="" id="packing">
+                <img class="img-responsive" src="{{asset('/img/images/ics-box-packed.png')}}" alt="" id="packed" style="display: none">
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 " style="padding-top: 50px">
                 <div class="row no-padding">
                     <center>
-                        <h1 class="header1 p-color-cement-dark">What You Can Get Us to Courier?</h1>
+                        <h2 class="header2 p-color-cement-dark font-weight-900">What You Can Get Us to Courier?</h2>
                         <p class="header6 p-color-cement">From Kids’ toys to commercial equipment, we are well-prepared to ship anything under the sun,
                             that follow the international & country-specific shipping regulations. These are some of the goods that we frequently ship for our customers </p>
                     </center>
@@ -398,6 +380,18 @@
     </section>
 
 @section('js_script')
+    <script>
+        $(document).ready(function () {
+             $('#packing').mouseover(function () {
+                 $("#packing").css({"display": "none"});
+                 $("#packed").css({"display": "block"});
+             });
+            $("#packed").mouseout(function () {
+                $("#packing").css({"display": "block" ,"transition":"0.2s"});
+                $("#packed").css({"display": "none"});
+            })
+        })
+    </script>
     <script>
         $(document).ready(function () {
             $("#ics_lp").validate({

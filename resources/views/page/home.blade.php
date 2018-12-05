@@ -190,48 +190,46 @@
 
 @section('content')
     <main class="div-main" role="main">
-        <div class="container header-menu-home-page"
-             id="header-menu">
+        <div class="container header-menu-home-page"id="header-menu">
             <div class="col-md-2">
                 <a href="{{route('ifs.index')}}" class="header6 p-color-cement">
                     <div>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-shop-ship.svg" class="header-menu-img"
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shopandservice.svg" class="header-menu-img"
                              alt="personal shopper">
                         <span class="p-color-cement"> Shop and Ship</span>
-
                     </div>
                 </a>
             </div>
 
             <div class="col-md-2">
                 <a href="{{route('ifs.index')}}/#how-it-works">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-p-shopper.svg" alt="" class="header-menu-img">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/personal_shopper.svg" alt="How it Works" class="header-menu-img">
                     <span class="header6 p-color-cement">Personal Shopper</span>
                 </a>
             </div>
             <div class="col-md-2">
                 <a href="{{route('schedulePickup.Index')}}" class="header6 p-color-cement">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-schedule-pickup.svg" alt=""
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/schedule_pickpup.svg" alt="Schedule Pickup"
                          class="header-menu-img">
                     <span class="header6 p-color-cement">Schedule Pickup</span>
                 </a>
             </div>
             <div class="col-md-2">
-                <a href="{{route('stores')}}" class="header6 p-color-cement">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/header-stores.svg" alt="" class="header-menu-img">
+                <a href="{{route('stores1')}}" class="header6 p-color-cement">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/browse_stores.svg" alt="Indian online stores" class="header-menu-img">
                     <span class="header6 p-color-cement">Browse Stores</span>
                 </a>
             </div>
             <div class="col-md-2">
                 <a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank" class="header6 p-color-cement">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/partner-with-us.svg" alt="" class="header-menu-img">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/prtner_with_us.svg" alt="Partner With Us" class="header-menu-img">
                     <span class="header6 p-color-cement">Partner With Us</span>
                 </a>
             </div>
             <div class="col-md-2">
-                <a href="https://www.shoppre.com/offers/send-durga-puja-gifts-from-india-ship-internationally/"
+                <a href="https://www.shoppre.com/offers"
                    target="_blank" class="header6 p-color-cement">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/partner-with-us.svg" alt="" class="header-menu-img">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/offfer.svg" alt="Offers" class="header-menu-img">
                     <span class="header6 p-color-cement"> Offers and Deals</span>
                 </a>
             </div>
@@ -245,7 +243,6 @@
                         {{--International Shipping from India <span id="country"></span>--}}
                         {{--starting <br> at just <span class="p-color-red">*₹<span id="prices"></span></span><span--}}
                         {{--style="color: #ffffff">!</span>--}}
-
                         {{--</h1></b>--}}
 
                         <b><h1 class="header1 p-color-white header-text-margin">

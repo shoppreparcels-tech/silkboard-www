@@ -515,6 +515,7 @@ header::after {
 }
 .header-menu-home-page img{
     margin-top: -10px;
+    width: 20%;
 }
 .header-menu-home-page div{
     padding: 5px;

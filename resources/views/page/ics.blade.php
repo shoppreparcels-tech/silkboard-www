@@ -48,7 +48,7 @@
                             <div class="col-lg-12 col-md-12 ">
                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                     <input class="text-box-margin cal-text-box" type="text" name=""
-                                           placeholder=" Pickup From">
+                                           placeholder=" India" disabled>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                     <input class="text-box-margin cal-text-box" type="text" name=""
@@ -60,7 +60,7 @@
 
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 div-courier-cal-margin">
-                                    <button type="button" class="btn btn-pricing-estimate" id="International" style="margin-top: 13px;">Get a FREE Estimate</button>
+                                    <a href="{{route('pricing')}}" class="btn btn-pricing-estimate" id="International">Get a FREE Estimate</a>
                                 </div>
                             </div>
 
@@ -68,7 +68,7 @@
                         <div role="tabpanel" class="tab-pane fade" id="Domestic">
                             <div class="col-lg-12 col-md-12 ">
                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                    <input class="text-box-margin cal-text-box" type="text" name="" placeholder="  From ">
+                                    <input class="text-box-margin cal-text-box" type="text" name="" placeholder="  From India ">
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                     <input class="text-box-margin cal-text-box" type="text" name="" placeholder="  To ">
@@ -77,7 +77,7 @@
                                     <input class="text-box-margin cal-text-box" type="text" name=""placeholder="Weight of the Package (in Kg.)">
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 div-courier-cal-margin">
-                                    <button type="button" class="btn btn-pricing-estimate" id="International" style="margin-top: 13px;">Get a FREE Estimate</button>
+                                    <a href="{{route('pricing')}}" class="btn btn-pricing-estimate" id="International">Get a FREE Estimate</a>
                                 </div>
                             </div>
                         </div>

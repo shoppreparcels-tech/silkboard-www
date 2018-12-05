@@ -77,48 +77,26 @@
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box1.png" class="boxofScroll"/>
+                                <a href="https://www.shoppre.com/offers/christmas-offer-on-international-shipment-courier-from-india/">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/christmas-offer-shoppre.png" class="boxofScroll" alt="christmas offer"/>
                                 </a>
                             </div>
                         </div>
 
                         <div class="item">
                             <div class="pad15">
-                                <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
+                                <a href="#">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box1.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
+                                <a href="#">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box2.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box1.png" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box2.png" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box1.png" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
-
                     </div>
                     <button class="btn btn-primary leftLst"><</button>
                     <button class="btn btn-primary rightLst">></button>
@@ -127,7 +105,7 @@
         </div>
         <div class="container">
             <br/>
-            <h3 class="header3 p-color-cement-dark font-weight-900">Ecommerce Details</h3>
+            <h3 class="header3 p-color-cement-dark font-weight-900">Ecommerce Sales</h3>
             <br/>
             <div class="row">
                 <div class="col-md-3 col-xs-12">
@@ -136,7 +114,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Shopping Days</h4>
                             <h5 class="header6 p-color-cement font-weight-900">6th to 8th DEC 2018</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/redmi-note6-pro-coming-soon-d931m-h6wj-store?otracker=hp_bannerads_3_deskt-homep-3bcff_15-11-2018-slot-2-2AM%2Bto%2BEOD_8KUN09FBQPJY"
+                                <a href="https://www.flipkart.com/"
                                    target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
