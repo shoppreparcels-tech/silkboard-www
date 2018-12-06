@@ -32,8 +32,8 @@
     <link rel="stylesheet" href="{{asset('css/New_style.css')}}" >
 {{--<link rel="stylesheet" href="{{asset('css/select2.min.css')}}" >--}}
 {{--<link rel="stylesheet" href="{{asset('css/star-rating.min.css')}}" >--}}
-    <link rel="stylesheet" href="{{asset('css/ics.css')}}">
-    <link rel="stylesheet" href="{{asset('css/ifs.css')}}">
+    <link rel="stylesheet" href="{{asset('css/ics.css')}}"?<?php echo date('l jS \of F Y h:i:s A'); ?>>
+    <link rel="stylesheet" href="{{asset('css/ifs.css')}}"?<?php echo date('l jS \of F Y h:i:s A'); ?>>
     <link rel="stylesheet" href="{{asset('css/offers.css')}}">
     <link rel="stylesheet" href="{{asset('css/diwali.css')}}">
     <link rel="stylesheet" href="{{asset('css/stores-new.css')}}" >

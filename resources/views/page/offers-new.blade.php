@@ -78,7 +78,7 @@
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/offers/christmas-offer-on-international-shipment-courier-from-india/">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/christmas-offer-shoppre.png" class="boxofScroll" alt="christmas offer"/>
+                                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/offers-image/christmas-offer-shoppre.png" class="boxofScroll" alt="christmas offer"/>
                                 </a>
                             </div>
                         </div>

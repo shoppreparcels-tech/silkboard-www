@@ -81,7 +81,7 @@
                                     <li><a class="header6 p-color-cement-dark" href="{{route('story.index')}}">Our Story</a></li>
                                     <li><a class="header6 p-color-cement-dark" href="https://www.linkedin.com/company/shoppre.com/" >Our Team</a></li>
                                     <li><a class="header6 p-color-cement-dark" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" >Careers</a></li>
-                                    <li><a class="header6 p-color-cement-dark" href="{{route('reviews')}}">Customer Reviews</a></li>
+                                    <li><a class="header6 p-color-cement-dark" href="{{route('award.index')}}">Awards</a></li>
                                 </ul>
                             </li>
                         </ul>
