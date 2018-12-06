@@ -184,7 +184,8 @@
     <script>
         $(document).ready(function () {
             $("#Coupon-code").focusout(function () {
-                var coupon_code = $("input[name='CouponCode']").val();
+                var coupon_code = $("input[name='CouponCode']").val().toUpperCase();
+                console.log(coupon_code);
                 if (coupon_code!=="RADCON"){
                     alert("Invalid Coupon Code ",coupon_code);
                     $("#Coupon-code").val("");
