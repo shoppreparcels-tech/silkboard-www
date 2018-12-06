@@ -302,8 +302,8 @@
                                 <p>
                                     <img class="img-demo" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_watch_now.svg">
                                     <a class="bla-1 p-demo-text" style="color: #ffffff"
-                                       href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=3s" target="_blank"
-                                    >&nbsp;&nbsp;&nbsp;&nbsp;Watch a Demo</a>
+                                       href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank"
+                                    >&nbsp;&nbsp;&nbsp;&nbsp;Watch Video</a>
                                 </p>
                             </center>
 
@@ -397,8 +397,8 @@
                                 <p>
                                     <img class="img-demo" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_watch_now.svg">
                                     <a class="bla-1 p-demo-text" style="color: #ffffff"
-                                       href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=3s" target="_blank"
-                                    >&nbsp;Watch a Demo</a>
+                                       href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank"
+                                    >&nbsp;Watch Video</a>
                                 </p>
                             </div>
                             <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="number"

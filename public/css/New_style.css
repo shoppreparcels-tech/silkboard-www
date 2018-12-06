@@ -211,7 +211,7 @@
 /*searchtext box*/
 
 .container-search{
-    width:270px;
+    /*width:270px;*/
     margin-top: 5px;
     /*display: block;*/
 }
@@ -3253,7 +3253,7 @@ a#prev:hover, a#next:hover {
 }
 
 @media only screen and (max-width: 600px) {
-
+    .register-free{padding: 10px 25px 10px;}
     .logo {
         width: 83px;
         height: 24px;

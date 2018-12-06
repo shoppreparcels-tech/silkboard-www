@@ -268,7 +268,7 @@ a:hover, a:focus {
 }
 
 .header-ifs-p1 {
-    margin-bottom: 115px;
+    margin-bottom: 50px;
 }
 
 .section-seller {
@@ -1168,7 +1168,6 @@ a:hover, a:focus {
 }
 
 @media only screen and (max-width: 600px) {
-
     .header-padder-top {
         padding-bottom: 0;
         padding-top: 10%;

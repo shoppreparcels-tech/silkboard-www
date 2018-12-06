@@ -240,7 +240,7 @@
                         <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login?src=menu">Login</a>
                     </li>
                     <li class="new-menu-register">
-                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Register</a>
+                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Sign Up Free</a>
                     </li>
 
                 </ul>

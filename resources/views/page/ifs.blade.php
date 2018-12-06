@@ -31,89 +31,32 @@
     <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 
     <style>
-        .box-ifs {
-            /*margin-left: 70px*/
+        .header .container{padding-bottom: 50px}
+        .box-ifs {/*margin-left: 70px*/}
+        .box-ifs p {font-weight: 900;}
+        #image1 {margin-top: -94px;}
+        #image1 img {/*margin-top: 80px;*/margin-left: 60px;}
+        #image1 h3 {margin-top: 60px;}
+        #how-it-works div {margin: 77px 0 13px 0;}
+        #text1 {padding: 0;display: none;}
+        #step-register {text-align: center;font-weight: 900;}
+        #step2 {margin-left: 70px}
+        #image2 {display: none;margin-top: -94px;}
+        #image2 h3 {margin-top: 60px;}
+        #image2 img {margin-top: 16px;margin-left: 40px;}
+        #image3 {display: none;margin-top: -94px;}
+        #image3 img{margin-top: 30px;margin-left: 45px;}
+        #image3 h3 {margin-top: 60px;}
+        #mobile-image2 {width: 80%;display: none;}
+        #mobile-image3 {width: 80%;display: none;}
+        .step-font-weight{font-weight: 900;line-height: 1;}
+        .p-shoper-section{padding-top: 100px;}
+        .register-free{border-radius: 12px;background-color: #e85151;transition: 0.6s;padding: 10px 50px 10px;;color: #fff;}
+        .register-free:hover{background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);color: #fff}
+        .register-free:focus{background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);color: #fff}
+        @media only screen and (max-width: 600px) {
+            .register-free {padding: 10px 25px 10px;}
         }
-
-        .box-ifs p {
-            font-weight: 900;
-        }
-
-        #image1 {
-            margin-top: -94px;
-        }
-
-        #image1 img {
-            /*margin-top: 80px;*/
-            margin-left: 60px;
-        }
-
-        #image1 h3 {
-            margin-top: 60px;
-        }
-
-        #how-it-works div {
-            margin: 77px 0 13px 0;
-        }
-
-        #text1 {
-            padding: 0;
-            display: none;
-        }
-
-        #step-register {
-            text-align: center;
-            font-weight: 900;
-        }
-
-        #step2 {
-            margin-left: 70px
-        }
-
-        #image2 {
-            display: none;
-            margin-top: -94px;
-        }
-
-        #image2 h3 {
-            margin-top: 60px;
-        }
-        #image2 img {
-            margin-top: 16px;
-            margin-left: 40px;
-        }
-
-        #image3 {
-            display: none;
-            margin-top: -94px;
-        }
-        #image3 img{
-            margin-top: 30px;
-            margin-left: 45px;
-        }
-
-        #image3 h3 {
-
-            margin-top: 60px;
-        }
-
-        #mobile-image2 {
-            width: 80%;
-            display: none;
-        }
-
-        #mobile-image3 {
-            width: 80%;
-            display: none;
-        }
-        .step-font-weight{
-            font-weight: 900;
-            line-height: 1;
-        }
-        .p-shoper-section{
-            padding-top: 100px;
-        }
-
     </style>
 @endsection
 
@@ -130,8 +73,8 @@
                     </p>
                     <h1 class="header1 p-color-white">What is <span>Shop & Ship?</span></h1>
                     <p class="header2 p-color-cement header-ifs-p1">Ship your purchases to us; we'll store, consolidate,
-                        <br> repackage & ship them to WHEREVER you are!
-                    </p>
+                        <br> repackage & ship them to WHEREVER you are! </p>
+                    <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" class="register-free">Sign Up for FREE with ShoppRe</a>
                 </center>
             </div>
         </div>
@@ -276,13 +219,13 @@
             </div>
             <div class="col-xs-12 col-sm-12 mobile-images">
                 <center>
-                    <img class="img-responsive " id="mobile-image1" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/virtual-address-india.svg"
+                    <img class="img-responsive " id="mobile-image1" src="{{env('AWS_CLOUD_FRONT')}}/img/images/M-virtual-address-india.jpg"
                          alt="get a free virtual address">
                     <img class="img-responsive " id="mobile-image2"
-                         src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indian-online-shoppping-store.svg"
+                         src="{{env('AWS_CLOUD_FRONT')}}/img/images/M-indian-online-shoppping-store.jpg"
                          alt="purchase from indian online stores">
                     <img class="img-responsive " id="mobile-image3"
-                         src="{{env('AWS_CLOUD_FRONT')}}/img/svg/receive-your-package.svg" alt="receive your package from india">
+                         src="{{env('AWS_CLOUD_FRONT')}}/img/images/M-receive-your-package.jpg" alt="receive your package from india">
                 </center>
             </div>
         </div>
@@ -347,6 +290,15 @@
                         <h4 class="header6 p-color-cement-dark">Don't have an Indian address?
                         </h4>
                     </div>
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 img-ifs-card">
+                        <p>
+                            <img class="" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/btn.svg" style="width: 40px;margin-top: -10px;">
+                            <a class="bla-1" href="https://www.youtube.com/watch?v=eFop4beZmOk">
+                                <span class="p-color-cement-dark header6" style="margin-top: 5px"> &nbsp;&nbsp;&nbsp;&nbsp;Watch Video</span>
+                            </a>
+
+                        </p>
+                    </div>
                     <div class="col-sm-12 col-xs-12" id="img-shopping-mobile">
                         <img class="img-responsive " src="{{env('AWS_CLOUD_FRONT')}}/img/images/image06_v2.png">
                     </div>
@@ -359,6 +311,7 @@
                             </div>
                         </a>
                     </center>
+
                 </div>
 
 

@@ -61,24 +61,27 @@
 
 @yield('schema_markup')
 
+    <!--mailchimp RM-->
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/8f7212d51aa9533c4788ccf05/2a914120f0c71f0c8738d91cf.js");</script>
+    <!--mailchimp RM-->
 <!-- One Signal -->
-    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-    <script>
-        if(localStorage.userinfo) {
-            var OneSignal = window.OneSignal || [];
-            OneSignal.push(function() {
-                OneSignal.sendTag("key",JSON.parse(localStorage.userinfo).id);
-                OneSignal.init({
-                    appId: "b7792635-0674-4e60-bef9-66d31b818a92",
-                    allowLocalhostAsSecureOrigin: true,
-                    autoRegister: true,
-                    notifyButton: {
-                        enable: false,
-                    },
-                });
-            });
-        }
-    </script>
+    {{--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>--}}
+    {{--<script>--}}
+        {{--if(localStorage.userinfo) {--}}
+            {{--var OneSignal = window.OneSignal || [];--}}
+            {{--OneSignal.push(function() {--}}
+                {{--OneSignal.sendTag("key",JSON.parse(localStorage.userinfo).id);--}}
+                {{--OneSignal.init({--}}
+                    {{--appId: "b7792635-0674-4e60-bef9-66d31b818a92",--}}
+                    {{--allowLocalhostAsSecureOrigin: true,--}}
+                    {{--autoRegister: true,--}}
+                    {{--notifyButton: {--}}
+                        {{--enable: false,--}}
+                    {{--},--}}
+                {{--});--}}
+            {{--});--}}
+        {{--}--}}
+    {{--</script>--}}
 
 <!-- End one signal -->
 
@@ -215,40 +218,31 @@
 
 <script>
     (function ($) {
-
         $.fn.YouTubePopUp = function (options) {
-
             var YouTubePopUpOptions = $.extend({
                 autoplay: 1
             }, options);
 
             $(this).on('click', function (e) {
-
                 var youtubeLink = $(this).attr("href");
-
                 if (youtubeLink.match(/(youtube.com)/)) {
                     var split_c = "v=";
                     var split_n = 1;
                 }
-
                 if (youtubeLink.match(/(youtu.be)/) || youtubeLink.match(/(vimeo.com\/)+[0-9]/)) {
                     var split_c = "/";
                     var split_n = 3;
                 }
-
                 if (youtubeLink.match(/(vimeo.com\/)+[a-zA-Z]/)) {
                     var split_c = "/";
                     var split_n = 5;
                 }
 
                 var getYouTubeVideoID = youtubeLink.split(split_c)[split_n];
-
                 var cleanVideoID = getYouTubeVideoID.replace(/(&)+(.*)/, "");
-
                 if (youtubeLink.match(/(youtu.be)/) || youtubeLink.match(/(youtube.com)/)) {
                     var videoEmbedLink = "https://www.youtube.com/embed/" + cleanVideoID + "?autoplay=" + YouTubePopUpOptions.autoplay + "";
                 }
-
                 if (youtubeLink.match(/(vimeo.com\/)+[0-9]/) || youtubeLink.match(/(vimeo.com\/)+[a-zA-Z]/)) {
                     var videoEmbedLink = "https://player.vimeo.com/video/" + cleanVideoID + "?autoplay=" + YouTubePopUpOptions.autoplay + "";
                 }
@@ -276,7 +270,6 @@
                 e.preventDefault();
 
             });
-
             $(document).keyup(function (e) {
 
                 if (e.keyCode == 27) {
@@ -450,9 +443,9 @@
 <script>
     if (window.location.href == "https://www.shoppre.com/campaign/flyer/616") {
         if (!localStorage.newsUrlVisit) {
-            console.log("News Enter");
+            // console.log("News Enter");
             localStorage.newsUrlVisit = window.location.href;
-            var coupon_news = "KOR-BLR-N";
+            // var coupon_news = "KOR-BLR-N";
             var url = window.location.href;
             storecustomer(localStorage.newsUrlVisit, coupon_news);
         }
@@ -642,7 +635,7 @@
                         email: email,
                     },
                     success: function (data) {
-                        console.log(data);
+                        // console.log(data);
                         $('#myModal').modal('show');
                         $('.txt-subscription').val('');
                     }
