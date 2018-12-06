@@ -45,7 +45,7 @@
 
         #image1 img {
             /*margin-top: 80px;*/
-            margin-left: 37px;
+            margin-left: 60px;
         }
 
         #image1 h3 {
@@ -79,7 +79,7 @@
             margin-top: 60px;
         }
         #image2 img {
-            margin-top: 10px;
+            margin-top: 16px;
             margin-left: 40px;
         }
 

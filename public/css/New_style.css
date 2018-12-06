@@ -2441,6 +2441,9 @@ a#prev:hover, a#next:hover {
         text-overflow: ellipsis;
         overflow: hidden;
     }
+    .div-add{
+        display: none;
+    }
 
     /*contact page starting*/
 }

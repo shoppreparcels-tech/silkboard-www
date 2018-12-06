@@ -7,39 +7,15 @@
 
 @section('css_style')
     <style>
-        .ps-section {
-            background-color: #11273b;
-            height: 500px
-        }
-
-        .ps-section .container > div {
-            padding: 20px;
-            margin-bottom: 3em
-        }
-
-        .ps-section .container > div h1 {
-            font-weight: 900;
-        }
-        .ps-section .container > #img-shopping  {
-            padding-top: 150px
-        }
-        .ps-section .container > #img-shopping img {
-            width: 596px;height: 365px;
-        }
-        .h-req-assist{
-            margin-bottom: 30px
-        }
-        .product-courier span{
-            font-weight: 900;
-        }
-        .btn-activate-coupon{
-            height: 50px;
-            width: 50%;
-            border-radius: 30px;
-            color: #fff;
-            background-color: #e85151;
-            transition: 0.6s;
-        }
+        .ps-section {background-color: #11273b;height: 500px}
+        .ps-section .container > div {padding: 20px;margin-bottom: 3em}
+        .ps-section .container > div h1 {font-weight: 900;}
+        .ps-section .container > #img-shopping  {padding-top: 150px}
+        .ps-section .container > #img-shopping img {width: 596px;height: 365px;}
+        .h-req-assist{margin-bottom: 30px}
+        .product-courier span{font-weight: 900;}
+        .btn-activate-coupon{height: 50px;width: 50%;border-radius: 30px;color: #fff;background-color: #e85151;transition: 0.6s;}
+        .txt-caps{text-transform: uppercase}
 
 
     </style>
@@ -91,7 +67,7 @@
                         </div>
                         <div class="form-group">
                             <label>Coupon Code<span class="p-color-red">*</span></label>
-                            <input type="text" name="CouponCode" class="form-control" id="Coupon-code"
+                            <input type="text" name="CouponCode" class="form-control txt-caps" id="Coupon-code"
                                    placeholder="Enter Coupon Code" required>
                         </div>
                         <div class="form-group text-center">

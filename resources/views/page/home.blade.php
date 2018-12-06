@@ -33,7 +33,7 @@
     <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
     <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebPage",
@@ -74,8 +74,7 @@
         "telephone": "+91 80409 44077",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "#181, 1st Floor, 2nd Cross Rd,
-1st Block Koramangala",
+            "streetAddress": "#181, 1st Floor, 2nd Cross Rd,1st Block Koramangala",
             "addressLocality": "Bengaluru",
             "addressRegion": "Karnataka",
             "postalCode": "560034",
@@ -94,13 +93,9 @@
             }
        }
   }
+</script>
 
-
-
-
-    </script>
-
-    <script type="application/ld+json">
+<script type="application/ld+json">
  { "@context": "http://schema.org",
  "@type": "Organization",
  "name": "ShoppRe",
@@ -146,9 +141,9 @@
 
 
 
-    </script>
+</script>
 
-    <script type='application/ld+json'>
+<script type='application/ld+json'>
 {
   "@context": "http://www.schema.org",
   "@type": "Website",
@@ -169,20 +164,18 @@
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
   ]
 }
-
-
-
-
-    </script>
+</script>
 
     <style>
-        .div-shop-ship1 > div {
-            padding-top: 10px;
-            padding-bottom: 10px
+        .div-shop-ship1 > div {padding-top: 10px;padding-bottom: 10px}
+        .div-shop-ship1 > div > p {text-align: center}
+        .div-main .div-add{position:fixed;margin-top: 20%;z-index: 1}
+        .div-main .div-add1{position:relative; float: right}
+        @media only screen and (max-width: 1024px) {
+            .div-add {display: none;}
         }
-
-        .div-shop-ship1 > div > p {
-            text-align: center
+        @media only screen and (max-width: 1280px) {
+            .div-add {display: none;}
         }
     </style>
 
@@ -190,51 +183,52 @@
 
 @section('content')
     <main class="div-main" role="main">
-        {{--<div class="container header-menu-home-page"id="header-menu">--}}
-            {{--<div class="col-md-2">--}}
-                {{--<a href="{{route('ifs.index')}}" class="header6 p-color-cement">--}}
-                    {{--<div>--}}
-                        {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/shopandservice.svg" class="header-menu-img"--}}
-                             {{--alt="personal shopper">--}}
-                        {{--<span class="p-color-cement"> Shop and Ship</span>--}}
-                    {{--</div>--}}
-                {{--</a>--}}
-            {{--</div>--}}
+        <div class="div-add no-padding pull-right"><img src="{{asset('/img/offers-image/xmas-offer-starts.png')}}" alt="" class="pull-right"></div>
+        {{--<div class="div-add1 pull-right"><img src="{{asset('/img/offers-image/xmas-offer.png')}}" alt=""></div>--}}
+        <div class="container header-menu-home-page"id="header-menu">
+            <div class="col-md-2">
+                <a href="{{route('ifs.index')}}" class="header6 p-color-cement">
+                    <div>
+                        <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/shopandservice.svg" class="header-menu-img"
+                             alt="personal shopper">
+                        <span class="p-color-cement"> Shop and Ship</span>
+                    </div>
+                </a>
+            </div>
 
-            {{--<div class="col-md-2">--}}
-                {{--<a href="{{route('ifs.index')}}/#how-it-works">--}}
-                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/personal_shopper.svg" alt="How it Works" class="header-menu-img">--}}
-                    {{--<span class="header6 p-color-cement">Personal Shopper</span>--}}
-                {{--</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-2">--}}
-                {{--<a href="{{route('schedulePickup.Index')}}" class="header6 p-color-cement">--}}
-                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/schedule_pickpup.svg" alt="Schedule Pickup"--}}
-                         {{--class="header-menu-img">--}}
-                    {{--<span class="header6 p-color-cement">Schedule Pickup</span>--}}
-                {{--</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-2">--}}
-                {{--<a href="{{route('stores1')}}" class="header6 p-color-cement">--}}
-                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/browse_stores.svg" alt="Indian online stores" class="header-menu-img">--}}
-                    {{--<span class="header6 p-color-cement">Browse Stores</span>--}}
-                {{--</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-2">--}}
-                {{--<a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank" class="header6 p-color-cement">--}}
-                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/prtner_with_us.svg" alt="Partner With Us" class="header-menu-img">--}}
-                    {{--<span class="header6 p-color-cement">Partner With Us</span>--}}
-                {{--</a>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-2">--}}
-                {{--<a href="https://www.shoppre.com/offers"--}}
-                   {{--target="_blank" class="header6 p-color-cement">--}}
-                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/offfer.svg" alt="Offers" class="header-menu-img">--}}
-                    {{--<span class="header6 p-color-cement"> Offers and Deals</span>--}}
-                {{--</a>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-
+            <div class="col-md-2">
+                <a href="{{route('ifs.index')}}/#how-it-works">
+                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/personal_shopper.svg" alt="How it Works" class="header-menu-img">
+                    <span class="header6 p-color-cement">Personal Shopper</span>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="{{route('schedulePickup.Index')}}" class="header6 p-color-cement">
+                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/schedule_pickpup.svg" alt="Schedule Pickup"
+                         class="header-menu-img">
+                    <span class="header6 p-color-cement">Schedule Pickup</span>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="{{route('stores1')}}" class="header6 p-color-cement">
+                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/browse_stores.svg" alt="Indian online stores" class="header-menu-img">
+                    <span class="header6 p-color-cement">Browse Stores</span>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank" class="header6 p-color-cement">
+                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/prtner_with_us.svg" alt="Partner With Us" class="header-menu-img">
+                    <span class="header6 p-color-cement">Partner With Us</span>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="https://www.shoppre.com/offers"
+                   target="_blank" class="header6 p-color-cement">
+                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/offfer.svg" alt="Offers" class="header-menu-img">
+                    <span class="header6 p-color-cement"> Offers and Deals</span>
+                </a>
+            </div>
+        </div>
         <div class="container no-padding">
             <div class="col-md-6  col-lg-6  col-sm-12 col-xs-12 no-padding">
                 <div class="col-md-12 col-sm-11 col-xs-11  col-lg-12 div-main-row">
