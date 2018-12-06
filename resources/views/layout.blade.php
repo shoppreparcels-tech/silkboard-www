@@ -223,7 +223,7 @@
                 autoplay: 1
             }, options);
 
-            $(this).on('click', function (e) {
+            $(this).on('mouseover', function (e) {
                 var youtubeLink = $(this).attr("href");
                 if (youtubeLink.match(/(youtube.com)/)) {
                     var split_c = "v=";
