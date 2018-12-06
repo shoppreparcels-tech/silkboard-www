@@ -29,16 +29,18 @@
     <script src="{{env('AWS_CLOUD_FRONT')}}/js/jquery.min.js"></script>
 
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('css/New_style.css')}}" >
+    <link rel="stylesheet" href="{{asset('css/New_style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
 {{--<link rel="stylesheet" href="{{asset('css/select2.min.css')}}" >--}}
 {{--<link rel="stylesheet" href="{{asset('css/star-rating.min.css')}}" >--}}
-    <link rel="stylesheet" href="{{asset('css/ics.css')}}"?<?php echo date('l jS \of F Y h:i:s A'); ?>>
-    <link rel="stylesheet" href="{{asset('css/ifs.css')}}"?<?php echo date('l jS \of F Y h:i:s A'); ?>>
-    <link rel="stylesheet" href="{{asset('css/offers.css')}}">
-    <link rel="stylesheet" href="{{asset('css/diwali.css')}}">
-    <link rel="stylesheet" href="{{asset('css/stores-new.css')}}" >
-    <link rel="stylesheet" href="{{asset('css/style.css')}}" >
-    <link rel="stylesheet" href="{{asset('css/faq.css')}}">
+
+    <link rel="stylesheet" href="{{asset('css/ics.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/ifs.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/offers.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/diwali.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/stores-new.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> " >
+    <link rel="stylesheet" href="{{asset('css/style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> " >
+    <link rel="stylesheet" href="{{asset('css/faq.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+
 
     {{--<link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/bootstrap.min.css" >--}}
     <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/select2.min.css" >

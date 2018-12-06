@@ -190,50 +190,51 @@
 
 @section('content')
     <main class="div-main" role="main">
-        <div class="container header-menu-home-page"id="header-menu">
-            <div class="col-md-2">
-                <a href="{{route('ifs.index')}}" class="header6 p-color-cement">
-                    <div>
-                        <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/shopandservice.svg" class="header-menu-img"
-                             alt="personal shopper">
-                        <span class="p-color-cement"> Shop and Ship</span>
-                    </div>
-                </a>
-            </div>
+        {{--<div class="container header-menu-home-page"id="header-menu">--}}
+            {{--<div class="col-md-2">--}}
+                {{--<a href="{{route('ifs.index')}}" class="header6 p-color-cement">--}}
+                    {{--<div>--}}
+                        {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/shopandservice.svg" class="header-menu-img"--}}
+                             {{--alt="personal shopper">--}}
+                        {{--<span class="p-color-cement"> Shop and Ship</span>--}}
+                    {{--</div>--}}
+                {{--</a>--}}
+            {{--</div>--}}
 
-            <div class="col-md-2">
-                <a href="{{route('ifs.index')}}/#how-it-works">
-                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/personal_shopper.svg" alt="How it Works" class="header-menu-img">
-                    <span class="header6 p-color-cement">Personal Shopper</span>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a href="{{route('schedulePickup.Index')}}" class="header6 p-color-cement">
-                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/schedule_pickpup.svg" alt="Schedule Pickup"
-                         class="header-menu-img">
-                    <span class="header6 p-color-cement">Schedule Pickup</span>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a href="{{route('stores1')}}" class="header6 p-color-cement">
-                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/browse_stores.svg" alt="Indian online stores" class="header-menu-img">
-                    <span class="header6 p-color-cement">Browse Stores</span>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank" class="header6 p-color-cement">
-                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/prtner_with_us.svg" alt="Partner With Us" class="header-menu-img">
-                    <span class="header6 p-color-cement">Partner With Us</span>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a href="https://www.shoppre.com/offers"
-                   target="_blank" class="header6 p-color-cement">
-                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/offfer.svg" alt="Offers" class="header-menu-img">
-                    <span class="header6 p-color-cement"> Offers and Deals</span>
-                </a>
-            </div>
-        </div>
+            {{--<div class="col-md-2">--}}
+                {{--<a href="{{route('ifs.index')}}/#how-it-works">--}}
+                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/personal_shopper.svg" alt="How it Works" class="header-menu-img">--}}
+                    {{--<span class="header6 p-color-cement">Personal Shopper</span>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-2">--}}
+                {{--<a href="{{route('schedulePickup.Index')}}" class="header6 p-color-cement">--}}
+                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/schedule_pickpup.svg" alt="Schedule Pickup"--}}
+                         {{--class="header-menu-img">--}}
+                    {{--<span class="header6 p-color-cement">Schedule Pickup</span>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-2">--}}
+                {{--<a href="{{route('stores1')}}" class="header6 p-color-cement">--}}
+                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/browse_stores.svg" alt="Indian online stores" class="header-menu-img">--}}
+                    {{--<span class="header6 p-color-cement">Browse Stores</span>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-2">--}}
+                {{--<a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank" class="header6 p-color-cement">--}}
+                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/prtner_with_us.svg" alt="Partner With Us" class="header-menu-img">--}}
+                    {{--<span class="header6 p-color-cement">Partner With Us</span>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-2">--}}
+                {{--<a href="https://www.shoppre.com/offers"--}}
+                   {{--target="_blank" class="header6 p-color-cement">--}}
+                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/offfer.svg" alt="Offers" class="header-menu-img">--}}
+                    {{--<span class="header6 p-color-cement"> Offers and Deals</span>--}}
+                {{--</a>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+
         <div class="container no-padding">
             <div class="col-md-6  col-lg-6  col-sm-12 col-xs-12 no-padding">
                 <div class="col-md-12 col-sm-11 col-xs-11  col-lg-12 div-main-row">
