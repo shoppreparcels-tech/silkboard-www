@@ -171,6 +171,18 @@
         .div-shop-ship1 > div > p {text-align: center}
         .div-main .div-add{position:fixed;margin-top: 20%;z-index: 1}
         .div-main .div-add1{position:relative; float: right}
+        #mask {position:absolute;left:0;top:0;z-index:9000;background-color:#000;display:none;}
+        #boxes .window {position:absolute;left:0;top:0;height:200px;display:none;z-index:9999;padding:20px;border-radius: 15px;text-align: center;}
+        #boxes #dialog {height:auto;padding:10px;background-color:#ffffff;font-family: 'Segoe UI Light', sans-serif;font-size: 15pt;}
+        .maintext{text-align: center;font-family: "Segoe UI", sans-serif;text-decoration: none;}
+        body{background: url('bg.jpg');}
+        #lorem{font-family: "Segoe UI", sans-serif;font-size: 12pt;text-align: left;}
+        #popupfoot{font-family: "Segoe UI", sans-serif;font-size: 16pt;padding: 10px 20px;}
+        #popupfoot a{text-decoration: none;}
+        .div-popup-title{top: 199.5px; left: 551.5px; display: none;background-color: #507dbc}
+        .agree:hover{background-color: #D1D1D1;}
+        .popupoption:hover{background-color:#D1D1D1;color: green;}
+        .popupoption2:hover{color: red;}
         @media only screen and (max-width: 1024px) {
             .div-add {display: none;}
         }
@@ -183,6 +195,18 @@
 
 @section('content')
     <main class="div-main" role="main">
+        {{--<div id="boxes">--}}
+            {{--<div id="dialog" class="window div-popup-title">--}}
+                {{--<h1 class="header1 p-color-white font-weight-900"> Avail Your Discount Today!</h1>--}}
+                {{--<div id="lorem">--}}
+                    {{--<p>Shoppre.com</p>--}}
+                {{--</div>--}}
+                {{--<div id="popupfoot"> <a href="#" class="close agree">Login</a> | <a class="agree"style="color:red;" href="http://www.cartoonnetwork.com/">Register</a> </div>--}}
+            {{--</div>--}}
+            {{--<div style="width: 1478px; font-size: 32pt; color:white; height: 602px; display: none; opacity: 0.8;" id="mask"></div>--}}
+        {{--</div>--}}
+
+
         <div class="div-add no-padding pull-right"><img src="{{asset('/img/offers-image/xmas-offer-starts.png')}}" alt="" class="pull-right"></div>
         {{--<div class="div-add1 pull-right"><img src="{{asset('/img/offers-image/xmas-offer.png')}}" alt=""></div>--}}
         <div class="container header-menu-home-page"id="header-menu">
@@ -242,7 +266,7 @@
 
                         <b><h1 class="header1 p-color-white header-text-margin">
                                 International Shipping from India
-                                starting <br> at just <span class="p-color-red">*₹690</span><span
+                                starting at just <span class="p-color-red">*₹690</span><span
                                     style="color: #ffffff">!</span>
 
                             </h1></b>
@@ -396,7 +420,7 @@
                             <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab">
                                 <p>
                                     <img class="img-demo" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_watch_now.svg">
-                                    <a class="bla-1 p-demo-text" style="color: #ffffff"
+                                    <a class="bla-1 p-demo-text"  style="color: #ffffff"
                                        href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank"
                                     >&nbsp;Watch Video</a>
                                 </p>
@@ -528,120 +552,7 @@
             </div>
         </div>
     </section>
-    <!-- shoppre benifits -->
-
-    <!-- Need in future -->
-
-    {{--<section class="div-price-cal">--}}
-    {{--<div class="container">--}}
-    {{--<div class="container">--}}
-    {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">--}}
-    {{--<center>--}}
-    {{--<p class="header1 p-color-white" style="margin-top:64px;">Price Calculator  </p>--}}
-    {{--<p class="header2 p-color-white">Calculate & get estimate your shipping cost, we're upfont  about it! </p>--}}
-    {{--</center>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--<div class="container div-cal-white-background">--}}
-    {{--<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-cal-margin-top">--}}
-    {{--<div class="col-md-2 col-md-offset-1 col-lg-2  col-lg-offset-1 col-xs-6  col-xs-offset-2 col-sm-6 col-sm-offset-2">--}}
-    {{--<img class="img-international img-responsive" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_price_international.svg')}}">--}}
-    {{--</div>--}}
-    {{--<div class="col-md-9 col-lg-9 col-xs-6 col-sm-6">--}}
-    {{--<p class="p-int-text">Ineternational Shipping </p>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-cal-margin-top">--}}
-    {{--<div class="col-md-2 col-md-offset-1 col-lg-2  col-lg-offset-1 col-xs-6  col-xs-offset-1 col-sm-6 col-sm-offset-1">--}}
-    {{--<img class="img-international img-responsive" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_price_dometic.svg')}}">--}}
-    {{--</div>--}}
-    {{--<div class="col-md-9 col-lg-9 col-xs-6 col-sm-6">--}}
-    {{--<p class="domestic-img-text">Domestic Shipping </p>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1  col-sm-6 col-xs-6 div-border-int "></div>--}}
-    {{--<div class="col-lg-5  col-md-5  col-sm-6 col-xs-6 div-border-dom "></div>--}}
-
-    {{--<div class=" row div-cal-country" >--}}
-    {{--<div class="col-md-3  col-lg-3  col-sm-12 col-xs-12 col-lg-3">--}}
-    {{--<div class="col-md-8 col-md-offset-4 col-lg-8 col-lg-offset-4 col-xs-12  col-sm-12">--}}
-    {{--<div class="row">--}}
-    {{--<label class="lable-from" >From</label>--}}
-    {{--</div>--}}
-    {{--<div class="row">--}}
-    {{--<input class="select-from  option-text-from" type="text" name="fname" value="  India" disabled>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-
-    {{--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 col-sm-12 col-xs-12" id="destination" >--}}
-    {{--<div class="col-md-11 col-lg-11 col-xs-12 col-sm-12">--}}
-    {{--<div class="row">--}}
-    {{--<label class="lable-from" >Destination (Country)</label>--}}
-    {{--</div>--}}
-    {{--<div class="row">--}}
-    {{--<input class="select-destination option-text-dest" type="text" name="fname" placeholder="  eg. USA, UK, Australia...">--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--<div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-12 col-xs-12">--}}
-    {{--<button class="btn-estimate" id="estimate">Get An Estimate</button>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--<div class="container">--}}
-
-    {{--</div>--}}
-
-    {{--<div class="container div-container-margin">--}}
-    {{--<div class="col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2 col-xs-12  col-sm-12 div-offer">--}}
-    {{--<div class="offer-margin">--}}
-    {{--<div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-4 col-xs-4">--}}
-    {{--<img class="img-offer img-responsive" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_offer_red.svg')}}">--}}
-    {{--</div>--}}
-    {{--<div class="col-md-7">--}}
-    {{--<p class="running-text">running</p>--}}
-    {{--<p class="offer-text">Offers</p>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-
-    {{--<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 div-carosal">--}}
-    {{--<div id="carousel">--}}
-    {{--<div id="slides">--}}
-    {{--<ul>--}}
-    {{--<li class="slide">--}}
-    {{--<p class="header3 p-color-white p-slider ">RAKSHA BANDHAN Special</p>--}}
-    {{--<p>--}}
-    {{--<span class="header2 p-color-white p-slider">Send a Rakhi abroad at Rs.349/- only!</span>--}}
-    {{--</p>--}}
-
-    {{--</li>--}}
-    {{--<li class="slide">--}}
-    {{--<p class="header3 p-color-white p-slider">OVNAM Special</p>--}}
-    {{--<p>--}}
-    {{--<span class="header2 p-color-white p-slider">Send a Rakhi abroad at Rs.349/- only!</span>--}}
-    {{--</p>--}}
-    {{--</li>--}}
-    {{--</ul>--}}
-    {{--</div>--}}
-    {{--<div class="btn-bar">--}}
-    {{--<div id="buttons">--}}
-    {{--<a  id="prev" href="javascript:void(0)"> < </a>--}}
-    {{--<a  id="next" href="javascript:void(0)"> > </a>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-
-    {{--</div>--}}
-
-    {{--</section>--}}
-
-
-    <!-- Our Services -->
-
+    {{--commented code placed homepage folder shoppre benifits--}}
     <section>
         <div class="container ">
             <div class="div-margin">
@@ -822,10 +733,8 @@
                 </a>
             </center>
         </div>
-
+    {{--commented code placed in homepage folder review--}}
     </section>
-
-
     <!-- Start whatcanYouship section end-->
     <section class="div-fluid">
         <div class="container">
@@ -973,100 +882,8 @@
 
         </div>
 
-        {{--this block Required --}}
-        {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="margin-top:50px;">--}}
-        {{--<p class="header2 " style="color: #929ca5;"> Our Recent Deliveries (live) </p>--}}
-        {{--</div>--}}
 
-        {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-card-holder">--}}
-        {{--<div class="col-md-1 col-lg-1 card col-xs-10 col-sm-10">--}}
-        {{--<div class="div-recent-inner">--}}
-        {{--<div class="row">--}}
-        {{--<img class="img-card" src="{{env('AWS_CLOUD_FRONT')}}/img/images/9.jpg">--}}
-        {{--<img class="img-card-status" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_delivered.svg">--}}
-        {{--</div>--}}
-
-        {{--<div class="row">--}}
-        {{--<p class="p-destination">United States</p>--}}
-        {{--</div>--}}
-        {{--<div class="row">--}}
-        {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
-        {{--</p>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-
-        {{--<div class="col-md-1 col-lg-1 card card-margin col-xs-10 col-sm-10">--}}
-        {{--<div class="div-recent-inner">--}}
-        {{--<div class="row">--}}
-        {{--<img class="img-card" src="{{env('AWS_CLOUD_FRONT')}}/img/images/9.jpg">--}}
-        {{--<img class="img-card-status" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_delivered.svg">--}}
-        {{--</div>--}}
-
-        {{--<div class="row">--}}
-        {{--<p class="p-destination">United States</p>--}}
-        {{--</div>--}}
-        {{--<div class="row">--}}
-        {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
-        {{--</p>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-
-        {{--<div class="col-md-1 col-lg-1  card card-margin col-xs-10 col-sm-10">--}}
-        {{--<div class="div-recent-inner">--}}
-        {{--<div class="row">--}}
-        {{--<img class="img-card" src="{{env('AWS_CLOUD_FRONT')}}/img/images/9.jpg">--}}
-        {{--<img class="img-card-status" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_delivered.svg">--}}
-        {{--</div>--}}
-
-        {{--<div class="row">--}}
-        {{--<p class="p-destination">United States</p>--}}
-        {{--</div>--}}
-        {{--<div class="row">--}}
-        {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
-        {{--</p>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-
-        {{--<div class="col-md-1  col-lg-1 card card-margin col-xs-10 col-sm-10">--}}
-        {{--<div class="div-recent-inner">--}}
-        {{--<div class="row">--}}
-        {{--<img class="img-card" src="{{env('AWS_CLOUD_FRONT')}}/img/images/9.jpg">--}}
-        {{--<img class="img-card-status" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_delivered.svg">--}}
-        {{--</div>--}}
-
-        {{--<div class="row">--}}
-        {{--<p class="p-destination">United States</p>--}}
-        {{--</div>--}}
-        {{--<div class="row">--}}
-        {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
-        {{--</p>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-
-        {{--<div class="col-md-1  col-lg-1  card card-margin col-xs-10 col-sm-10">--}}
-        {{--<div class="div-recent-inner">--}}
-        {{--<div class="row">--}}
-        {{--<img class="img-card" src="{{env('AWS_CLOUD_FRONT')}}/img/images/9.jpg">--}}
-        {{--<img class="img-card-status" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_delivered.svg">--}}
-        {{--</div>--}}
-
-        {{--<div class="row">--}}
-        {{--<p class="p-destination">United States</p>--}}
-        {{--</div>--}}
-        {{--<div class="row">--}}
-        {{--<p class="p-wait-rate">1.6 kg <span>|</span> ₹ 5696 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today--}}
-        {{--</p>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--this block Required  --}}
     </section>
-
     <section style="padding-bottom: 30px">
         <div class="container" style="margin-top: 60px;padding-bottom: 20px;">
             <center>
@@ -1107,48 +924,7 @@
                      alt="paytm e-commerce digital wallet ">
             </div>
         </div>
-        {{--<div class="col-md-12 col-lg-12 padder-bottom">--}}
-        {{--<div class="col-md-6 no-padding">--}}
-        {{--<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 div-border no-padding">--}}
-        {{--<a href="https://www.shoppre.com/credit-debit-cards/">--}}
-        {{--<div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 no-padding">--}}
-        {{--<img class="img-card-transfer" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/credit-debit-card-courier-shipping.svg" alt="credit debit card courier from india">--}}
-        {{--</div>--}}
-        {{--<div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 no-padding">--}}
-        {{--<p class="p-payment-text">&nbsp;Credit/Debit Cards</p>--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--</div>--}}
-
-        {{--<div class="col-md-5 col-lg-5 col-xs-6 col-sm-6 div-border no-padding">--}}
-        {{--<a href="https://www.shoppre.com/wire-transfer/">--}}
-        {{--<div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 no-padding">--}}
-        {{--<img class="img-card-transfer" id="img-card-margin"--}}
-        {{--src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wire-transfer.svg" alt="wire transfer pay online shipping">--}}
-        {{--</div>--}}
-        {{--<div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 no-padding">--}}
-        {{--<p class="p-payment-text" id="p-wire-transfer">&nbsp;&nbsp; Wire Transfer</p>--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--<div class="col-md-6 col-lg-6 col-xs-12 col-sm-12" id="margin-bottom-paypal">--}}
-        {{--<a href="https://www.shoppre.com/paypal/">--}}
-        {{--<div class="col-md-4 col-lg-4 col-xs-6 col-sm-6 div-border">--}}
-        {{--<center>--}}
-        {{--<img class="img-paytm img-paytm-margin" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paypal-pay-online.svg" alt="paypal online courier parcel">--}}
-        {{--</center>--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--<a href="https://www.shoppre.com/paytm/">--}}
-        {{--<div class="col-md-4 col-lg-4 col-xs-6 col-sm-6">--}}
-        {{--<center>--}}
-        {{--<img class="img-paytm img-paypal-margin" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paytm-payment-system-and-digital-wallet.svg" alt="paytm e-commerce digital wallet ">--}}
-        {{--</center>--}}
-        {{--</div>--}}
-        {{--</a>--}}
-        {{--</div>--}}
-        {{--</div>--}}
+       {{--commented code placed in homepage folder--}}
 
     </section>
     <section>
@@ -1163,42 +939,51 @@
 @endsection
 
 @section('js_script')
-    {{-- required this block for next vertion --}}
-    {{--<script>--}}
-    {{--$(document).ready(function(){--}}
-    {{--$("#shop-ship").hover(function(){--}}
-    {{--$("#courier").css("background-color", "#e85151");--}}
-    {{--$("#courier").css("transition", "0.5s");--}}
-    {{--$("#btn-courier").css("background-color", "#ffffff");--}}
-    {{--$("#btn-shop-ship").css("background-color", "#507dbc");--}}
+    <script>
+        $(document).ready(function() {
 
-    {{--$(this).css("background-color", "#507dbc");--}}
-    {{--}, function(){--}}
-    {{--$(this).css("background-color", "#e85151");--}}
-    {{--$("#courier").css("background-color", "#507dbc");--}}
-    {{--$("#btn-courier").css("background-color", "#507dbc");--}}
-    {{--$("#btn-shop-ship").css("background-color", "#ffffff");--}}
+            var id = '#dialog';
 
-    {{--});--}}
+            //Get the screen height and width
+            var maskHeight = $(document).height();
+            var maskWidth = $(window).width();
 
+            //Set heigth and width to mask to fill up the whole screen
+            $('#mask').css({'width':maskWidth,'height':maskHeight});
 
-    {{--$("#courier").hover(function(){--}}
+            //transition effect
+            $('#mask').fadeIn(500);
+            $('#mask').fadeTo("slow",0.9);
 
-    {{--$("#shop-ship").css("background-color", "#507dbc");--}}
-    {{--$("#shop-ship").css("transition", "0.5s");--}}
-    {{--$("#btn-shop-ship").css("background-color", "#507dbc");--}}
-    {{--$("#courier").css("background-color", "#ffffff");--}}
+            //Get the window height and width
+            var winH = $(window).height();
+            var winW = $(window).width();
 
-    {{--$(this).css("background-color", "#e85151");--}}
-    {{--}, function(){--}}
-    {{--$(this).css("background-color", "#507dbc");--}}
-    {{--$("#shop-ship").css("background-color", "#e85151");--}}
-    {{--$("#btn-shop-ship").css("background-color", "#ffffff");--}}
-    {{--$("#courier").css("background-color", "#507dbc");--}}
-    {{--});--}}
-    {{--});--}}
-    {{--</script>--}}
-    {{-- required this block --}}
+            //Set the popup window to center
+            $(id).css('top',  winH/2-$(id).height()/2);
+            $(id).css('left', winW/2-$(id).width()/2);
+
+            //transition effect
+            $(id).fadeIn(2000);
+
+            //if close button is clicked
+            $('.window .close').click(function (e) {
+                //Cancel the link behavior
+                e.preventDefault();
+
+                $('#mask').hide();
+                $('.window').hide();
+            });
+
+            //if mask is clicked
+            $('#mask').click(function () {
+                $(this).hide();
+                $('.window').hide();
+            });
+
+        });
+    </script>
+
     <script>
         if ($('#back-to-top').length) {
             var scrollTrigger = 100, // px

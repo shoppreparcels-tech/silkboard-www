@@ -13,9 +13,10 @@
 
     <!-- Style -->
 
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="/manifest.json"/>
     {{--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >--}}
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
     <!-- Font Awesome -->
@@ -30,25 +31,33 @@
 
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/New_style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-{{--<link rel="stylesheet" href="{{asset('css/select2.min.css')}}" >--}}
-{{--<link rel="stylesheet" href="{{asset('css/star-rating.min.css')}}" >--}}
+    {{--<link rel="stylesheet" href="{{asset('css/select2.min.css')}}" >--}}
+    {{--<link rel="stylesheet" href="{{asset('css/star-rating.min.css')}}" >--}}
 
     <link rel="stylesheet" href="{{asset('css/ics.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
     <link rel="stylesheet" href="{{asset('css/ifs.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
     <link rel="stylesheet" href="{{asset('css/offers.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
     <link rel="stylesheet" href="{{asset('css/diwali.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/stores-new.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> " >
-    <link rel="stylesheet" href="{{asset('css/style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> " >
+    <link rel="stylesheet" href="{{asset('css/stores-new.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
     <link rel="stylesheet" href="{{asset('css/faq.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
 
 
     {{--<link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/bootstrap.min.css" >--}}
-    <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/select2.min.css" >
-    <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/star-rating.min.css" >
+    <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/select2.min.css">
+    <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/star-rating.min.css">
 
 
     @yield('css_style')
-
+    <style>
+        .btn-reg-popup {
+            background-color: rgb(255, 255, 255);
+            padding: 10px 20px;
+            margin-top: 50px;
+            color: rgb(74, 144, 226);
+            border-radius: 30px;
+        }
+    </style>
     <link rel="publisher" href="https://plus.google.com/101070316798366909776/">
     <meta name="google-play-app" content="app-id=com.shoppre.play"/>
     <meta property="fb:app_id" content="1819630241632764"/>
@@ -58,30 +67,31 @@
     <meta name="msvalidate.01" content="0E25F147AD9B658B4418A996E97D0D7D"/>
 
 
-
 @yield('schema_markup')
 
+<!--mailchimp RM-->
+    <script id="mcjs">!function (c, h, i, m, p) {
+            m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
+        }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/8f7212d51aa9533c4788ccf05/2a914120f0c71f0c8738d91cf.js");</script>
     <!--mailchimp RM-->
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/8f7212d51aa9533c4788ccf05/2a914120f0c71f0c8738d91cf.js");</script>
-    <!--mailchimp RM-->
-<!-- One Signal -->
-    {{--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>--}}
-    {{--<script>--}}
-        {{--if(localStorage.userinfo) {--}}
-            {{--var OneSignal = window.OneSignal || [];--}}
-            {{--OneSignal.push(function() {--}}
-                {{--OneSignal.sendTag("key",JSON.parse(localStorage.userinfo).id);--}}
-                {{--OneSignal.init({--}}
-                    {{--appId: "b7792635-0674-4e60-bef9-66d31b818a92",--}}
-                    {{--allowLocalhostAsSecureOrigin: true,--}}
-                    {{--autoRegister: true,--}}
-                    {{--notifyButton: {--}}
-                        {{--enable: false,--}}
-                    {{--},--}}
-                {{--});--}}
-            {{--});--}}
-        {{--}--}}
-    {{--</script>--}}
+    <!-- One Signal -->
+{{--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>--}}
+{{--<script>--}}
+{{--if(localStorage.userinfo) {--}}
+{{--var OneSignal = window.OneSignal || [];--}}
+{{--OneSignal.push(function() {--}}
+{{--OneSignal.sendTag("key",JSON.parse(localStorage.userinfo).id);--}}
+{{--OneSignal.init({--}}
+{{--appId: "b7792635-0674-4e60-bef9-66d31b818a92",--}}
+{{--allowLocalhostAsSecureOrigin: true,--}}
+{{--autoRegister: true,--}}
+{{--notifyButton: {--}}
+{{--enable: false,--}}
+{{--},--}}
+{{--});--}}
+{{--});--}}
+{{--}--}}
+{{--</script>--}}
 
 <!-- End one signal -->
 
@@ -138,6 +148,47 @@
 
         </div>
     </div>
+    <div id="myModal-offer" class="modal fade" role="dialog">
+        <div class="modal-dialog" style="top:250px;border-radius: 10px!important;">
+            <!-- Modal content-->
+            <div class="modal-content" style="background-color: #507dbc;">
+                <div class="modal-header">
+                    <button type="button" class="close" style="color: #fff" data-dismiss="modal">&times;</button>
+                    <center>
+                        <h4 class="header2 p-color-white font-weight-900">Avail Your Discount Today!</h4>
+                    </center>
+                </div>
+                <div class="" style="padding:0px;">
+                    <center>
+                        <p class="header6 p-color-white font-weight-900">Sign Up and Get *50% OFF <br>
+                            On Your First Time Shipment</p>
+                    </center>
+                    <br>
+                    <div class="col-md-12 col-xs-12 no-padding" style="background-color: rgb(255, 253, 221);">
+                        <center>
+                            <p class="header6 font-weight-900" style="color: rgb(74, 144, 226)">use coupon code:</p>
+                            <h2 style="color: rgb(245, 166, 35);font-size: 23px;text-align: center; font-weight: 900">
+                                FRST50</h2>  <br>
+                        </center>
+                    </div>
+                    <div style="padding-top: 50px !important;">
+                        <center>
+
+                        </center>
+                    </div>
+
+                </div>
+                <div class="modal-footer" style="    margin-top: 86px!important;padding-bottom: 38px!important;">
+                    <center>
+                        {{--<button type="button" class="" data-dismiss="modal" style="margin-top: 50px;background-color: #507dbc;"></button>--}}
+                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" class="btn-reg-popup" >Sign Up Now! </a>
+
+                    </center>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </div>
 
 @yield('content')
@@ -159,7 +210,7 @@
 <script>
     angular.module('shoppre', ['ui.bootstrap']);
 
-    function IndexController ($scope, $http) {
+    function IndexController($scope, $http) {
         $scope.Faqs = {
             select: function ($item) {
                 window.location.href = '{{route("faq")}}';
@@ -181,7 +232,7 @@
         };
 
         $scope.Store = {
-            select: function($item) {
+            select: function ($item) {
                 var href = ($item.name);
                 window.open('https://' + href, '_blank');
             },
@@ -208,7 +259,11 @@
         .controller('IndexController', IndexController);
 
 </script>
-
+<script type="text/javascript">
+    $(window).on('load', function () {
+        $('#myModal-offer').modal('show');
+    });
+</script>
 <script type="text/javascript">
     jQuery(function () {
         jQuery("a.bla-1").YouTubePopUp();
@@ -223,7 +278,7 @@
                 autoplay: 1
             }, options);
 
-            $(this).on('mouseover', function (e) {
+            $(this).on('click', function (e) {
                 var youtubeLink = $(this).attr("href");
                 if (youtubeLink.match(/(youtube.com)/)) {
                     var split_c = "v=";
@@ -317,7 +372,7 @@
     $(document).ready(function () {
         $('.inc-value').click(function () {
             var x = parseFloat($(this).parent().find('input[type="text"]').val());
-            x= x + 0.5;
+            x = x + 0.5;
             // x++;
 
             if (x > 100) {
@@ -331,7 +386,7 @@
         $('.dec-value').click(function () {
             $(this).parent().find('input[type="text"]').attr('disabled', false);
             var x = parseFloat($(this).parent().find('input[type="text"]').val());
-            x=x -0.5;
+            x = x - 0.5;
             // x--;
 
             if (x < 0) {
@@ -422,13 +477,22 @@
 <!--End of Tawk.to Script-->
 
 <!-- Start of shoppre-international-shipping-courier Zendesk Widget script -->
-<script>/*<![CDATA[*/window.zE||(function(e,t,s){var n=window.zE=window.zEmbed=function(){n._.push(arguments)}, a=n.s=e.createElement(t),r=e.getElementsByTagName(t)[0];n.set=function(e){ n.set._.push(e)},n._=[],n.set._=[],a.async=true,a.setAttribute("charset","utf-8"), a.src="https://static.zdassets.com/ekr/asset_composer.js?key="+s, n.t=+new Date,a.type="text/javascript",r.parentNode.insertBefore(a,r)})(document,"script","2ab4b736-3ac8-4f95-8b6f-e2c9d6325182");/*]]>*/</script>
+<script>/*<![CDATA[*/
+    window.zE || (function (e, t, s) {
+        var n = window.zE = window.zEmbed = function () {
+            n._.push(arguments)
+        }, a = n.s = e.createElement(t), r = e.getElementsByTagName(t)[0];
+        n.set = function (e) {
+            n.set._.push(e)
+        }, n._ = [], n.set._ = [], a.async = true, a.setAttribute("charset", "utf-8"), a.src = "https://static.zdassets.com/ekr/asset_composer.js?key=" + s, n.t = +new Date, a.type = "text/javascript", r.parentNode.insertBefore(a, r)
+    })(document, "script", "2ab4b736-3ac8-4f95-8b6f-e2c9d6325182");
+    /*]]>*/</script>
 
 <!-- Zendex form autofill if user is login -->
 <script type="text/javascript">
     if (localStorage.userinfo) {
         user = JSON.parse(localStorage.userinfo);
-        zE(function() {
+        zE(function () {
             zE.identify({
                 name: user.name,
                 email: user.email,
@@ -548,33 +612,33 @@
 
 <script>
     $(".rated").rating({
-        'size':'xs',
-        'min' : 0,
-        'max' : 5,
-        'step' : 1,
-        'displayOnly' : true,
-        'showClear' : false,
-        'showCaption' : false
+        'size': 'xs',
+        'min': 0,
+        'max': 5,
+        'step': 1,
+        'displayOnly': true,
+        'showClear': false,
+        'showCaption': false
     });
 
     $("#input-rate").rating({
-        'size':'sm',
-        'min' : 0,
-        'max' : 5,
-        'step' : 1,
-        'showClear' : false,
-        'showCaption' : false
+        'size': 'sm',
+        'min': 0,
+        'max': 5,
+        'step': 1,
+        'showClear': false,
+        'showCaption': false
     });
 </script>
 <!-- Select2 -->
 
 <script type="text/javascript">
-    $(document).ready(function() {
+    $(document).ready(function () {
         $(".select2").select2();
     });
 </script>
 <script type="text/javascript">
-    $(document).ready(function() {
+    $(document).ready(function () {
         $(".select2").select2();
     });
 </script>
@@ -647,29 +711,29 @@
 </script>
 {{--this block is required --}}
 {{--<script>--}}
-    {{--$(document).ready(function(){--}}
-        {{--$(".dropdown").hover(--}}
-            {{--function() {--}}
-                {{--$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");--}}
-                {{--$(this).toggleClass('open');--}}
-            {{--},--}}
-            {{--function() {--}}
-                {{--$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");--}}
-                {{--$(this).toggleClass('open');--}}
-            {{--}--}}
-        {{--);--}}
-    {{--});--}}
+{{--$(document).ready(function(){--}}
+{{--$(".dropdown").hover(--}}
+{{--function() {--}}
+{{--$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");--}}
+{{--$(this).toggleClass('open');--}}
+{{--},--}}
+{{--function() {--}}
+{{--$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");--}}
+{{--$(this).toggleClass('open');--}}
+{{--}--}}
+{{--);--}}
+{{--});--}}
 {{--</script>--}}
 {{--this block is required --}}
 
 <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
         var submitIcon = $('.searchbox-icon');
         var inputBox = $('.searchbox-input');
         var searchBox = $('.searchbox');
         var isOpen = false;
-        submitIcon.click(function(){
-            if(isOpen == false){
+        submitIcon.click(function () {
+            if (isOpen == false) {
                 searchBox.addClass('searchbox-open');
                 inputBox.focus();
                 isOpen = true;
@@ -679,34 +743,36 @@
                 isOpen = false;
             }
         });
-        submitIcon.mouseup(function(){
+        submitIcon.mouseup(function () {
             return false;
         });
-        searchBox.mouseup(function(){
+        searchBox.mouseup(function () {
             return false;
         });
-        $(document).mouseup(function(){
-            if(isOpen == true){
-                $('.searchbox-icon').css('display','block');
+        $(document).mouseup(function () {
+            if (isOpen == true) {
+                $('.searchbox-icon').css('display', 'block');
                 submitIcon.click();
                 $('.searchbox-input').val('');
             }
         });
     });
-    function buttonUp(){
+
+    function buttonUp() {
         var inputVal = $('.searchbox-input').val();
         inputVal = $.trim(inputVal).length;
-        if( inputVal !== 0){
-            $('.searchbox-icon').css('display','block');
+        if (inputVal !== 0) {
+            $('.searchbox-icon').css('display', 'block');
         } else {
             $('.searchbox-input').val('');
-            $('.searchbox-icon').css('display','block');
+            $('.searchbox-icon').css('display', 'block');
         }
     }
-    $(document).ready(function() {
-        setInterval(function() {
-            $('#offer').animate( {Color: 'red' }, 300)
-                .animate( { Color: 'green' }, 300);
+
+    $(document).ready(function () {
+        setInterval(function () {
+            $('#offer').animate({Color: 'red'}, 300)
+                .animate({Color: 'green'}, 300);
         }, 1000);
 
     });

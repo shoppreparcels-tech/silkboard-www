@@ -1407,7 +1407,7 @@
                                     </div>
                                     <div class="div-backgroud-price-cal div-package-charges1">
                                         <h5 class="header6 ">
-                                            ₹50 Per Photo</h5>
+                                            <strike> ₹50</strike> ₹20 Per Photo</h5>
                                     </div>
                                     <div class="no-padding" id="view-more-plans1">
                                         <div class="div-backgroud-price-cal1">
@@ -1969,7 +1969,7 @@
                                     </div>
                                     <div class="div-backgroud-price-cal div-package-charges1">
                                         <h5 class="header6 ">
-                                            ₹50 Per Photo</h5>
+                                            <strike> ₹50</strike> ₹20 Per Photo</h5>
                                     </div>
                                     <div class="no-padding" id="view-more-plans5">
                                         <div class="div-backgroud-price-cal1">
@@ -2349,7 +2349,7 @@
                                                          Additional Photos (in case you want to some more details or if
                                                          you want to inspect your purchases in more detail).">
                                             <i class="fa fa-question-circle-o"></i></a></td>
-                                    <td><h6 class="p-color-cement header6">₹50 Per Photo</h6></td>
+                                    <td><h6 class="p-color-cement header6"><strike> ₹50</strike> ₹20 Per Photo</h6></td>
                                 </tr>
 
                                 <tr>
@@ -3020,7 +3020,7 @@
                                                          Additional Photos (in case you want to some more details or if
                                                          you want to inspect your purchases in more detail).">
                                             <i class="fa fa-question-circle-o"></i></a></td>
-                                    <td><h6 class="p-color-cement header6">₹50 Per Photo</h6></td>
+                                    <td><h6 class="p-color-cement header6"><strike> ₹50</strike> ₹20 Per Photo</h6></td>
                                 </tr>
 
                                 <tr>

@@ -38,6 +38,10 @@ class PageController extends Controller
     {
         return view('page.diwali-landing');
     }
+    public function christmas()
+    {
+        return view('page.christmas-landing');
+    }
 
     public function icsLandingPage()
     {
