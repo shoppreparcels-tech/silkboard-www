@@ -184,6 +184,7 @@
                         <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" class="btn-reg-popup" >Sign Up Now! </a>
 
                     </center>
+                    <p class="pull-right header8 p-color-cement-dark" style="margin-top: 30px">*Maximum amount that can be availed by a customer is ₹200/-.</p>
                 </div>
             </div>
 
