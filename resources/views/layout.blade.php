@@ -160,13 +160,13 @@
                 </div>
                 <div class="" style="padding:0px;">
                     <center>
-                        <p class="header6 p-color-white font-weight-900">Sign Up and Get *50% OFF <br>
-                            On Your First Time Shipment</p>
+                        <p class="font-weight-900" style="color: rgb(255, 214, 146);font-size: 16px">Sign Up and Get <span class="p-color-white">*50%</span> OFF <br>
+                            On Your <span class="p-color-white">First Time Shipment</span></p>
                     </center>
                     <br>
                     <div class="col-md-12 col-xs-12 no-padding" style="background-color: rgb(255, 253, 221);">
                         <center>
-                            <p class="header6 font-weight-900" style="color: rgb(74, 144, 226)">use coupon code:</p>
+                            <p class="header6 font-weight-900" style="color: rgb(74, 144, 226);margin-top: 10px">Use coupon code:</p>
                             <h2 style="color: rgb(245, 166, 35);font-size: 23px;text-align: center; font-weight: 900">
                                 FRST50</h2>  <br>
                         </center>
@@ -178,13 +178,13 @@
                     </div>
 
                 </div>
-                <div class="modal-footer" style="    margin-top: 86px!important;padding-bottom: 38px!important;">
+                <div class="modal-footer" style="    margin-top: 86px!important;">
                     <center>
                         {{--<button type="button" class="" data-dismiss="modal" style="margin-top: 50px;background-color: #507dbc;"></button>--}}
                         <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" class="btn-reg-popup" >Sign Up Now! </a>
 
                     </center>
-                    <p class="pull-right header8 p-color-cement-dark" style="margin-top: 30px">*Maximum amount that can be availed by a customer is ₹200/-.</p>
+                    <p class="pull-right header8 p-color-white" style="margin-top: 40px">*Maximum amount that can be availed by a customer is ₹200/-.</p>
                 </div>
             </div>
 
