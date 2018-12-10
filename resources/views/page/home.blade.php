@@ -207,7 +207,7 @@
         {{--</div>--}}
 
 
-        <div class="div-add no-padding pull-right"><img src="{{asset('/img/offers-image/xmas-offer-starts.png')}}" alt="" class="pull-right"></div>
+        <div class="div-add no-padding pull-right"><a href="{{'offers'}}"><img src="{{asset('/img/offers-image/xmas-offer-starts.png')}}" alt="" class="pull-right"></a></div>
         {{--<div class="div-add1 pull-right"><img src="{{asset('/img/offers-image/xmas-offer.png')}}" alt=""></div>--}}
         <div class="container header-menu-home-page"id="header-menu">
             <div class="col-md-2">

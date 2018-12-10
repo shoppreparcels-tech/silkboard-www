@@ -74,7 +74,7 @@
                     <h1 class="header1 p-color-white">What is <span>Shop & Ship?</span></h1>
                     <p class="header2 p-color-cement header-ifs-p1">Ship your purchases to us; we'll store, consolidate,
                         <br> repackage & ship them to WHEREVER you are! </p>
-                    <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" class="register-free">Sign Up for FREE with ShoppRe</a>
+                    <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" class="register-free">Sign Up & Receive FREE Virtual Address</a>
                 </center>
             </div>
         </div>

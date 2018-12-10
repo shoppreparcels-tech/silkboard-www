@@ -1,18 +1,17 @@
 @extends('layout')
 
 
-@section('title', 'Christmas 2018 Offer')
+@section('title', '2018 Has Run Its Course!')
 @section('description', '')
 @section('keywords', '')
 
 @section('css_style')
     <style>
-      .bg-christmas-landing-page {background-image: url("../../img/images/background_xmas.png");height: 813px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
+      .bg-christmas-landing-page {background-image: url("../../img/images/background_newyear.png");height: 813px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
       .bg-christmas-landing-page .div-snow{padding-top: 189px;}
       .bg-christmas-landing-page .div-snow img{position: absolute;}
-      .bg-christmas-landing-page .div-newyear{padding-top: 173px;}
-      .bg-christmas-landing-page .div-newyear img{margin-left: -69px;position: absolute;}
-
+      .bg-christmas-landing-page .div-newyear{padding-top: 155px;}
+      .bg-christmas-landing-page .div-newyear img{margin-left: -139px;position: absolute;}
       .textbox-email{width: 358px;height: 50px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);border-radius: 25px!important;background-color: #ffffff;border: 0;padding-left:9% }
       .btn-grab-offer{width: 180px;height: 40px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 60px;background-color: #e85151;color: #fff;transition: 0.6s}
       .btn-grab-offer:hover{color: #fff;background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);}
@@ -29,70 +28,70 @@
       .chris-benefits ul li{color: #224464;font-family: Bahnschrift;font-size: 18px;font-weight: 400;text-align: left;padding-top: 15px;}
       .chris-benefits ul li img{margin-top: 9px;}
       .text-center div{ padding-top: 20px}
-      .santa-mobile{display: none}
+      .img-new-year{display: none}
       .chris-benefits .panel{box-shadow: 0 2px 10px rgba(0,0,0,.05) !important;}
       .chris-benefits .panel ul li span{margin-left: 15px;}
       #contact-support{padding-bottom: 30px;}
-       @media only screen and (max-width: 600px) {
-           .textbox-email {width: 330px;}
-           .div-snow{display: none;}
-           .div-newyear{display: none;}
-           .christmas-service {margin-top: -290px;}
-           .christmas-service .c-image {padding: 0px}
-           .santa-mobile{display: block;width: 140px;}
-           .c-image{display: none}
-           .txt-align{text-align: center}
-           .chris-benefits ul li{font-size: 16px};
-       }
+      @media only screen and (max-width: 600px) {
+          .textbox-email {width: 330px;}
+          .div-snow{display: none;}
+          .div-newyear{display: none;}
+          .christmas-service {margin-top: -260px;}
+          .c-image{display: none}
+          .txt-align{text-align: center}
+          .img-new-year{display: block;width: 240px;}
+          .chris-benefits ul li{font-size: 16px};
+      }
     </style>
 
 @endsection
 @section('content')
     <section class="bg-christmas-landing-page">
         <div class="container no-padding">
-            <div class="col-md-2 div-snow">
-                <img src="{{asset('img/images/snowman.png')}}" alt="">
-            </div>
-            <div class="col-md-8 col-xs-12 no-padding">
-                <center>
-                    <img src="{{asset('img/images/santa.png')}}" alt="" class="santa-mobile">
-                    <h1 class="p-color-white header-spacing header1 ">CHRISTMAS IS HERE!</h1>
-                    <h2 class="header2 p-color-white header-spacing">All Set for Christmas Shopping? We can help you out here.</h2>
-                    <h4 class="header4 p-color-cement font-weight-900">Save up to 80% on international shipping + Get an additional 15% for this Christmas!</h4>
-                    <form action=""  method="post" id="diwali_coupon">
-                        {{csrf_field()}}
-                        <div class="" id="diwali-couponcode1">
-                            <div class="form-group">
-                                <input type="email" name="email" class="textbox-email"
-                                       placeholder="Enter a valid E-mail ID" required>
-                            </div>
-                            <div class="form-group text-center">
-                                <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900">Grab the Offer!</button>
-                            </div>
-                        </div>
+           <div class="col-md-2 div-snow">
+               <img src="{{asset('img/images/snowman.png')}}" alt="">
+           </div>
+           <div class="col-md-8 col-xs-12 no-padding">
+               <center>
+                   <img src="{{asset('img/images/newyear_image.png')}}" alt="" class="img-new-year">
+                   <h1 class="p-color-white header-spacing header1 ">2018 Has Run Its Course!</h1>
+                   <h2 class="header2 p-color-white header-spacing font-weight-900"> Ready to Welcome 2019?</h2>
+                   <h4 class="header4 p-color-cement font-weight-900">Save up to 80% on international shipping + Get an additional 15% for this Christmas!</h4>
+                   <form action=""  method="post" id="diwali_coupon">
+                       {{csrf_field()}}
+                       <div class="" id="diwali-couponcode1">
+                           <div class="form-group">
+                               <input type="email" name="email" class="textbox-email"
+                                      placeholder="Enter a valid E-mail ID" required>
+                           </div>
+                           <div class="form-group text-center">
+                               <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900">Grab the Offer!</button>
+                           </div>
+                       </div>
 
-                        {{--<div class="formFrame" id="diwali-couponcode2">--}}
-                            {{--<div class="">--}}
-                                {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-congratulation.png" alt="" style="width: 100%">--}}
-                            {{--</div>--}}
-                            {{--<div class="">--}}
-                                {{--<center>--}}
-                                    {{--<h6 class="header5 p-color-blue">Congratulations!</h6>--}}
-                                    {{--<h5 class="header5 p-color-cement">Just One More Step To Use <br>Your Coupon!</h5>--}}
-                                {{--</center>--}}
-                            {{--</div>--}}
-                            {{--<div class="text-center">--}}
-                                {{--<a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-d-signup">Sign Up</a>--}}
-                                {{--<button type="submit" name="btnActivate" class="btn btn-shoppre">Sign Up</button>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    </form>
-                    <h3 class="header4" style="color: #8eadc8;">*From 10th Dec to 15th Dec 2018</h3>
-                </center>
-            </div>
+                       {{--<div class="formFrame" id="diwali-couponcode2">--}}
+                       {{--<div class="">--}}
+                       {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-congratulation.png" alt="" style="width: 100%">--}}
+                       {{--</div>--}}
+                       {{--<div class="">--}}
+                       {{--<center>--}}
+                       {{--<h6 class="header5 p-color-blue">Congratulations!</h6>--}}
+                       {{--<h5 class="header5 p-color-cement">Just One More Step To Use <br>Your Coupon!</h5>--}}
+                       {{--</center>--}}
+                       {{--</div>--}}
+                       {{--<div class="text-center">--}}
+                       {{--<a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-d-signup">Sign Up</a>--}}
+                       {{--<button type="submit" name="btnActivate" class="btn btn-shoppre">Sign Up</button>--}}
+                       {{--</div>--}}
+                       {{--</div>--}}
+                   </form>
+                   <h6 class="header6">*From 10th Dec to 15th Dec 2018</h6>
+               </center>
+           </div>
             <div class="col-md-2 div-newyear">
-                <img src="{{asset('img/images/santa.png')}}" alt="">
+                <img src="{{asset('img/images/newyear_image.png')}}" alt="">
             </div>
+
         </div>
     </section>
     <section >
@@ -101,8 +100,8 @@
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Good News Again! This offer is valid on all our services!</h2>
                 </div>
-                <div class="col-md-2 col-md-offset-1 col-xs-12">
-                    <a href="tel:+91-80 4094 4077" class="c-image">
+                <div class="col-md-2 col-md-offset-2  col-xs-12">
+                    <a href="tel:+91-80 4094 4077" class="pull-right c-image">
                         <img src="{{asset('/img/images/christmas-contact.png')}}" alt="">
                     </a>
                 </div>
@@ -112,14 +111,20 @@
                     <div class="shopandship ">
                         <h2>Shop & Ship</h2>
                         <br/>
-                        <p>Shop From Any Indian Store; Get It to a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
+                        <p>Purchase products from any <br>
+                            Indian online store such as <br>
+                            Amazon.in, Flipkart & Myntra; and. <br>
+                            Set Cash on Delivery</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
                         <h2>Personal Shopper</h2>
                         <br>
-                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You!</p>
+                        <p>Purchase products from any <br>
+                            Indian online store such as <br>
+                            Amazon.in, Flipkart & Myntra; and. <br>
+                            Set Cash on Delivery</p>
 
                     </div>
                 </div>
@@ -127,7 +132,10 @@
                     <div class="ic">
                         <h2>Personal Shopper</h2>
                         <br>
-                        <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
+                        <p>Purchase products from any <br>
+                            Indian online store such as <br>
+                            Amazon.in, Flipkart & Myntra; and. <br>
+                            Set Cash on Delivery</p>
 
                     </div>
                 </div>
@@ -135,18 +143,16 @@
 
             <div class=" col-md-12 offer-description">
                 <h5 class="header5 p-color-cement">OFFER DESCRIPTION:</h5> <br>
-                <h4 class="header4 p-color-cement"> Ho Ho Ho! Let Us Swoop Down the Chimney This Christmas to Bring You Sheer Joy!</h4>
+                <h4 class="header4 p-color-cement">Why Not Make Use of the Year End Sales & Get Ready for the New Year's?</h4>
                 <br>
-                <p class="header4 p-color-cement">While the whole world is lighting Christmas trees, going Christmas shopping, or decorating their homes with the best of Christmas villages; we'd love it if you would like us to be a part of it all! May it be Christmas shopping to grab a hold of all the CRAZY sale prices or sending your greetings off to a loved one abroad who might be missing home more than ever now; we're here for you with the best shipping costs you can get from the Indian market.</p>
+                <p class="header4 p-color-cement">2018 is on its last stretch and everyone's busy running around with their last-year resolutions! Let us get ready for another year with open heart and clean baggage. We're here to help you be a new 'You' for the New Year's.</p>
                 <br>
-                <p class="header4 p-color-cement">You get an 80% lesser shipping cost with our top-of-the-line package consolidation services on top of which, you can avail a sweet 15% OFF as a Christmas Gift from us.
-                </p> <br>
+                <p class="header4 p-color-cement">Here's how; you get an 80% lesser shipping cost with our top-of-the-line package consolidation services on top of which, you can avail a sweet 15% OFF - a little something from us to start off your New Year with.</p> <br>
 
                 <div class="offerDesc">
                     <h5> What Else Do You Get Out of Our Offer? </h5><br>
                     <ul>
                         <li>A FREE Indian Virtual Address to ship your packages to </li>
-                        {{--<li>Store your goods here at our facility for 20 days for FREE! </li>--}}
                         <li>Get online Support 24/7</li>
                         <li>A quick delivery within 3-6 days!</li>
                     </ul>
@@ -287,6 +293,7 @@
                 </div>
             </div>
         </div>
+        <br>
     </section>
 @endsection
 

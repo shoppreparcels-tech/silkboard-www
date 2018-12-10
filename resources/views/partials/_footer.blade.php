@@ -45,14 +45,13 @@
                 <ul class="nav-ul">
 
                     <li class="li"><a class="footer-a" href="{{route('cguide.index')}}">Country Guide</a></li>
-                    <li class="li"><a class="footer-a" href="https://www.shoppre.com/sellers-shipping" target="_blank">Become
-                           a Partner</a></li>
+                    <li class="li"><a class="footer-a" href="https://www.shoppre.com/sellers-shipping" target="_blank">Become a Partner</a></li>
                     <li class="li"><a class="footer-a" href="{{route('faq')}}">FAQ</a></li>
                     <li class="li"><a class="footer-a" href="{{route('termsAndConditions')}}">Terms & Conditions</a>
                     </li>
                     <li class="li"><a class="footer-a" href="{{route('privacyPolicy')}}">Privacy Policy</a></li>
                     <li class="li"><a class="footer-a" href="{{route('refundAndCancellation')}}">Refund & Cancellation
-                            Policy</a></li>
+                            Policies</a></li>
                     <li class="li"><a class="footer-a" href="https://in.hotjar.com/s?siteId=623115&surveyId=65096">Earn
                             1000 Loyalty Points</a></li>
                     <li class="li"><a class="footer-a"
@@ -70,7 +69,7 @@
                         </a>
                     </li>
                     <li>
-                        <i class="footer-social-media-font1 glyphicon glyphicon-envelope">&nbsp;SUPPORT</i>
+                        <i class="footer-social-media-font1 glyphicon glyphicon-envelope">&nbsp;EMAIL US</i>
                         <br>
                         <a class="footer-a" href="mailto:support@shoppre.com footer-social-media">
                             <span

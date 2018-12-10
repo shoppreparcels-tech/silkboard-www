@@ -42,6 +42,10 @@ class PageController extends Controller
     {
         return view('page.christmas-landing');
     }
+    public function newyear()
+    {
+        return view('page.newyear-landing');
+    }
 
     public function icsLandingPage()
     {

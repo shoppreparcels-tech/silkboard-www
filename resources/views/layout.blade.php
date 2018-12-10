@@ -50,13 +50,10 @@
 
     @yield('css_style')
     <style>
-        .btn-reg-popup {
-            background-color: rgb(255, 255, 255);
-            padding: 10px 20px;
-            margin-top: 50px;
-            color: rgb(74, 144, 226);
-            border-radius: 30px;
-        }
+        .btn-reg-popup {background-color: rgb(255, 255, 255);padding: 10px 20px;margin-top: 50px;color: rgb(74, 144, 226);border-radius: 30px;}
+        .modal-pop{top:170px;border-radius: 10px!important;}
+        .modal-pop-content{background-color: #507dbc;}
+        .modal-pop-content .no-padding p{color: rgb(255, 214, 146);font-size: 16px}
     </style>
     <link rel="publisher" href="https://plus.google.com/101070316798366909776/">
     <meta name="google-play-app" content="app-id=com.shoppre.play"/>
@@ -149,18 +146,18 @@
         </div>
     </div>
     <div id="myModal-offer" class="modal fade" role="dialog">
-        <div class="modal-dialog" style="top:250px;border-radius: 10px!important;">
+        <div class="modal-dialog modal-pop" >
             <!-- Modal content-->
-            <div class="modal-content" style="background-color: #507dbc;">
+            <div class="modal-content modal-pop-content">
                 <div class="modal-header">
-                    <button type="button" class="close" style="color: #fff" data-dismiss="modal">&times;</button>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <center>
                         <h4 class="header2 p-color-white font-weight-900">Avail Your Discount Today!</h4>
                     </center>
                 </div>
-                <div class="" style="padding:0px;">
+                <div class="no-padding">
                     <center>
-                        <p class="font-weight-900" style="color: rgb(255, 214, 146);font-size: 16px">Sign Up and Get <span class="p-color-white">*50%</span> OFF <br>
+                        <p class="font-weight-900">Sign Up and Get <span class="p-color-white">*50%</span> OFF <br>
                             On Your <span class="p-color-white">First Time Shipment</span></p>
                     </center>
                     <br>
@@ -178,11 +175,9 @@
                     </div>
 
                 </div>
-                <div class="modal-footer" style="    margin-top: 86px!important;">
+                <div class="modal-footer" style="margin-top: 86px!important;">
                     <center>
-                        {{--<button type="button" class="" data-dismiss="modal" style="margin-top: 50px;background-color: #507dbc;"></button>--}}
-                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" class="btn-reg-popup" >Sign Up Now! </a>
-
+                        <a href="http://bit.ly/SHPR-Signup" class="btn-reg-popup" >Sign Up Now! </a>
                     </center>
                     <p class="pull-right header8 p-color-white" style="margin-top: 40px">*Maximum amount that can be availed by a customer is ₹200/-.</p>
                 </div>

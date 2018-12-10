@@ -7,32 +7,13 @@
 
 @section('css_style')
     <style>
-        .ps-section {
-            background-color: #11273b;
-            height: 1000px
-        }
-
-        .ps-section .container > div {
-            padding: 20px;
-            margin-bottom: 3em
-        }
-
-        .ps-section .container > div h1 {
-            font-weight: 900;
-        }
-        .ps-section .container > #img-shopping  {
-            padding-top: 150px
-        }
-        .ps-section .container > #img-shopping img {
-            width: 596px;height: 365px;
-        }
-        .h-req-assist{
-            margin-bottom: 30px
-        }
-        .product-courier span{
-            font-weight: 900;
-        }
-
+        .ps-section {background-color: #11273b;height: 1000px}
+        .ps-section .container > div {padding: 20px;margin-bottom: 3em}
+        .ps-section .container > div h1 {font-weight: 900;}
+        .ps-section .container > #img-shopping{padding-top: 150px}
+        .ps-section .container > #img-shopping img {width: 596px;height: 365px;}
+        .h-req-assist{margin-bottom: 30px}
+        .product-courier span{font-weight: 900;}
     </style>
 
 @endsection
