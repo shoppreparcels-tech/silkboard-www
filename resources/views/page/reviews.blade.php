@@ -29,23 +29,10 @@
     <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 
     <style>
-
-        .rating-xl {
-            font-size: 23px;
-        }
-
-        .form-control {
-            height: 41px;
-        }
-
-        label {
-            float: left;
-            margin-left: 4px;
-        }
-
-        .r-img {
-            width: 100%;
-        }
+        .rating-xl {font-size: 23px;}
+        .form-control {height: 41px;}
+         label {float: left;margin-left: 4px;}
+        .r-img {width: 100%;}
 
     </style>
 

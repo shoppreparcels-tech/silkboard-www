@@ -21,8 +21,24 @@ class AsanaTaskOperations
        // Write custom code here
     }
 
-    public static function createTask($customer_name, $comment) {
+    public static function createTask($customer_name, $comment, $form) {
         $curl = curl_init();
+        $Bearer="";
+        $project_id="";
+        $workspace_id="";
+        if ($form=="S"){
+            $project_id="875224685950696";
+            $workspace_id="413352110377780";
+            $Bearer = "0/76d37fb13148c2dfa9999734bfcdbb1e";
+        }elseif($form=="L"){
+            $project_id="939744786724687";
+            $workspace_id="413352110377780";
+            $Bearer = "0/b1b8a7e730f8b006467e383e96cb1ef5";
+        }elseif($form=="E"){
+            $project_id="942090929966760";
+            $workspace_id="413352110377780";
+            $Bearer = "0/b1b8a7e730f8b006467e383e96cb1ef5";
+        }
 
         curl_setopt_array($curl, array(
             CURLOPT_URL => "https://app.asana.com/api/1.0/tasks",
@@ -33,9 +49,9 @@ class AsanaTaskOperations
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
             CURLOPT_CUSTOMREQUEST => "POST",
             CURLOPT_POSTFIELDS => "notes=$comment&name=$customer_name
-            &workspace=413352110377780&projects=875224685950696",
+            &workspace=$workspace_id&projects=$project_id",
             CURLOPT_HTTPHEADER => array(
-                "authorization: Bearer 0/76d37fb13148c2dfa9999734bfcdbb1e",
+                "authorization: Bearer $Bearer",
                 "cache-control: no-cache",
                 "content-type: application/x-www-form-urlencoded",
                 "postman-token: 90ce5bfe-3ac9-9f51-ab0d-1c52f1fe313e"
@@ -44,7 +60,6 @@ class AsanaTaskOperations
 
         $response = curl_exec($curl);
         $err = curl_error($curl);
-
         curl_close($curl);
 
         if ($err) {

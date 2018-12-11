@@ -6,6 +6,7 @@ use App\Feedback;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\EmailFeedback;
+use App\Asana\mailChimpTaskOperations;
 
 
 use Auth;
@@ -31,6 +32,10 @@ class FeedbackController extends Controller
             'overall_level_of_satisfaction' => 'required',
 
         ]);
+        $commnet = "Feeadback Person: ".$request->person."\n Email: ".$request->email."\n Suggestions :".$request->suggestions;
+//        print json_encode($commnet);exit;
+        mailChimpTaskOperations::createTask($request->person, $commnet, "E");
+
         $feedback = new Feedback();
         $feedback->person = $request->person;
         $feedback->email = $request->email;
@@ -50,7 +55,7 @@ class FeedbackController extends Controller
     }
     public function sendEmailFeedback($feedback)
     {
-        Mail::to($feedback->email)->bcc('support@shoppre.com')->send(new EmailFeedback($feedback));
+        Mail::to($feedback->email)->bcc('aloak@shoppre.com')->send(new EmailFeedback($feedback));
     }
 
     public function confirm()

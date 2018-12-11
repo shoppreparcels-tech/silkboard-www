@@ -7,7 +7,7 @@ use App\SchedulePickup;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\EmailSchedulePickup;
-use App\Asana\AsanaTaskOperations;
+use App\Asana\mailChimpTaskOperations;
 use App\States;
 use Auth;
 
@@ -26,7 +26,6 @@ class SchedulePickupController extends Controller
 
     public function submit(Request $request)
     {
-
         $special_items = "";
         $body = $request->all();
         unset($body['_token']);
@@ -60,11 +59,9 @@ class SchedulePickupController extends Controller
 
         $name = $request->first_name.' '.$request->last_name;
         $commnet = "Pickup request from ".$request->pc_city." to ".$request->dc_city;
-
-        $response = AsanaTaskOperations::createTask($name, $commnet);
+        $response = mailChimpTaskOperations::createTask($name, $commnet, "S");
         $phpArray = json_decode($response,true);
         $schedule_package->asana_url = "https://app.asana.com/0/819867433809220/".$phpArray['data']['id'];
-
         $schedule_package->save();
 
           $this->sendEmailPickup($schedule_package);

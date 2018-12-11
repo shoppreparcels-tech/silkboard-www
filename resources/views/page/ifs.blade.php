@@ -54,8 +54,12 @@
         .register-free{border-radius: 12px;background-color: #e85151;transition: 0.6s;padding: 10px 50px 10px;;color: #fff;}
         .register-free:hover{background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);color: #fff}
         .register-free:focus{background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);color: #fff}
+        .div-play-btn{padding-top: 20px;}
+        .div-play-btn img{width: 40px;margin-top: -10px;}
+        .div-play-btn a span{margin-top: 5px}
         @media only screen and (max-width: 600px) {
-            .register-free {padding: 10px 25px 10px;}
+            .register-free {padding: 10px 9px 10px;}
+            .div-play-btn{padding-top: 10px;}
         }
     </style>
 @endsection
@@ -290,11 +294,13 @@
                         <h4 class="header6 p-color-cement-dark">Don't have an Indian address?
                         </h4>
                     </div>
-                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 img-ifs-card">
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 img-ifs-card div-play-btn" >
                         <p>
-                            <img class="" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/btn.svg" style="width: 40px;margin-top: -10px;">
                             <a class="bla-1" href="https://www.youtube.com/watch?v=eFop4beZmOk">
-                                <span class="p-color-cement-dark header6" style="margin-top: 5px"> &nbsp;&nbsp;&nbsp;&nbsp;Watch Video</span>
+                                <img class="" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/btn.svg" style="">
+                            </a>
+                            <a class="bla-1" href="https://www.youtube.com/watch?v=eFop4beZmOk">
+                                <span class="p-color-cement-dark header6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Watch Video</span>
                             </a>
 
                         </p>

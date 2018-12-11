@@ -100,8 +100,9 @@
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Good News Again! This offer is valid on all our services!</h2>
                 </div>
-                <div class="col-md-2 col-md-offset-2  col-xs-12">
-                    <a href="tel:+91-80 4094 4077" class="pull-right c-image">
+                <div class="col-md-2 col-md-offset-1 col-xs-12">
+                    <a href="tel:+91-80 4094 4077" class="c-image">
+
                         <img src="{{asset('/img/images/christmas-contact.png')}}" alt="">
                     </a>
                 </div>
@@ -111,31 +112,24 @@
                     <div class="shopandship ">
                         <h2>Shop & Ship</h2>
                         <br/>
-                        <p>Purchase products from any <br>
-                            Indian online store such as <br>
-                            Amazon.in, Flipkart & Myntra; and. <br>
-                            Set Cash on Delivery</p>
+                        <p>Shop From Any Indian Store; Get It to a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
+
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
                         <h2>Personal Shopper</h2>
                         <br>
-                        <p>Purchase products from any <br>
-                            Indian online store such as <br>
-                            Amazon.in, Flipkart & Myntra; and. <br>
-                            Set Cash on Delivery</p>
+                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You!</p>
+
 
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ic">
-                        <h2>Personal Shopper</h2>
+                        <h2>International Courier</h2>
                         <br>
-                        <p>Purchase products from any <br>
-                            Indian online store such as <br>
-                            Amazon.in, Flipkart & Myntra; and. <br>
-                            Set Cash on Delivery</p>
+                        <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
 
                     </div>
                 </div>

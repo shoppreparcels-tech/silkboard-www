@@ -19,41 +19,44 @@
         <br/>
         <font size="4">
             <div class="container-fluid" style="background-color: whitesmoke">
-                    <div class="feedback-container">
-                        <table id="example" class="display" cellspacing="0" width="100%">
-                            <thead>
-                            <tr>
-                                <th>Shipment Id </th>
-                                <th>Name</th>
-                                <th>Email</th>
-                                <th>Receive Date</th>
-                                <th>Weight</th>
-                                <th>Package Items</th>
-                                <th>Special Items</th>
-                                <th>Other Items</th>
-                                <th>View</th>
-                            </tr>
-                            </thead>
-                            <tfoot>
-                            <tr>
-                                <th>Shipment Id</th>
-                                <th>Name</th>
-                                <th>Email</th>
-                                <th>Receive Date</th>
-                                <th>Weight</th>
-                                <th>Package Items</th>
-                                <th>Special Items</th>
-                                <th>Other Items</th>
-                                <th>View</th>
-                            </tr>
-                            </tfoot>
-                            <tbody>
-                            @foreach($pickups as $pickup)
+                <div class="feedback-container">
+                    <table id="example" class="display" cellspacing="0" width="100%">
+                        <thead>
+                        <tr>
+                            <th>Shipment Id</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Receive Date</th>
+                            <th>Weight</th>
+                            <th>Package Items</th>
+                            <th>Special Items</th>
+                            <th>Other Items</th>
+                            <th>View</th>
+                        </tr>
+                        </thead>
+                        <tfoot>
+                        <tr>
+                            <th>Shipment Id</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Receive Date</th>
+                            <th>Weight</th>
+                            <th>Package Items</th>
+                            <th>Special Items</th>
+                            <th>Other Items</th>
+                            <th>View</th>
+                        </tr>
+                        </tfoot>
+                        <tbody>
+                        @foreach($pickups as $pickup)
                             <tr class="data_font">
-                                <td><a href="{{$pickup->asana_url}}" target="_blank" style="color: cadetblue;">{{$pickup->id}}</a>
+                                <td><a href="{{$pickup->asana_url}}" target="_blank"
+                                       style="color: cadetblue;">{{$pickup->id}}</a>
                                     <input type="text" class="form-control txtAsanaLink" value="{{$pickup->asana_url}}"
-                                           data-id="{{$pickup->id}}" id="txt_asana_{{$pickup->id}}" style="display: none">
-                                    <i class="glyphicon glyphicon-edit btnEdit" data-id="{{$pickup->id}}" style="cursor: pointer;"></i>
+                                           data-id="{{$pickup->id}}" id="txt_asana_{{$pickup->id}}"
+                                           style="display: none">
+                                    <i class="glyphicon glyphicon-edit btnEdit" data-id="{{$pickup->id}}"
+                                       style="cursor: pointer;"></i>
                                 </td>
                                 <td>{{$pickup->first_name}} {{$pickup->last_name}}</td>
                                 <td>{{$pickup->user_email}}</td>
@@ -62,13 +65,14 @@
                                 <td>{{$pickup->package_items}}</td>
                                 <td>{{$pickup->special_items}}</td>
                                 <td>{{$pickup->other_items}}</td>
-                                <td><a href="{{route('schedulePickup.View',['id'=>$pickup->id])}}" class="btn btn-shoppre">View</a></td>
+                                <td><a href="{{route('schedulePickup.View',['id'=>$pickup->id])}}"
+                                       class="btn btn-shoppre">View</a></td>
                             </tr>
-                            @endforeach
-                            </tbody>
-                        </table>
-                        <div class="clearfix"></div>
-                    </div>
+                        @endforeach
+                        </tbody>
+                    </table>
+                    <div class="clearfix"></div>
+                </div>
                 <div id="calc_load"></div>
             </div>
         </font>
@@ -81,7 +85,7 @@
         /* Magnific Popup */
         $(document).ready(function () {
             $('#example').DataTable({
-                "order": [[ 0, "desc" ]]
+                "order": [[0, "desc"]]
             });
 
             $(".btnEdit").click(function () {
@@ -98,7 +102,7 @@
 
             $('.txtAsanaLink').keypress(function (e) {
                 var key = e.which;
-                if(key == 13)  // the enter key code
+                if (key == 13)  // the enter key code
                 {
                     $("#calc_load").show();
                     var asana_url = $(this).val();
@@ -117,7 +121,7 @@
                             if (res.error == "1") {
                                 alert('Error !');
                             } else {
-                                $("#txt_asana_" +pickup_id).hide();
+                                $("#txt_asana_" + pickup_id).hide();
                             }
                         }
                     });

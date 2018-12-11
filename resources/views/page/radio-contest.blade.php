@@ -209,7 +209,7 @@
                     var coupon_code = $("input[name='CouponCode']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api/diwali-offer',
+                        url: 'api/radcon',
                         type: "POST",
                         data: {
                             _token: token,

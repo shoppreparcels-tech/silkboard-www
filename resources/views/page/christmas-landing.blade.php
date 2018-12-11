@@ -125,7 +125,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="ic">
-                        <h2>Personal Shopper</h2>
+                        <h2>International Courier</h2>
                         <br>
                         <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
 

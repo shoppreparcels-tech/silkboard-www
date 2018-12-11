@@ -518,9 +518,7 @@
                     var dc_phone_code = $("select[name='dc_phone_code']").val();
                     var dc_contact_no = $("input[name='dc_contact_no']").val();
                     var comment = $("input[name='comment']").val();
-
                         // alert(email);
-
                     var token = $('input[name=_token]').val();
                     $("#schedule_load").show();
                     jQuery.ajax({
@@ -567,7 +565,7 @@
                         success: function (data){
                             $("#schedule_load").hide();
                             // $('#scheduleModel').modal('show');
-                            window.location.replace("https://www.shoppre.com/schedule-pickup/confirm");
+                            window.location.replace("{{route('schedulePickup.confirmPickup')}}");
                             console.log(data);
                         }
                     });

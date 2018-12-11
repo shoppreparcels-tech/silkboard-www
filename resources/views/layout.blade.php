@@ -257,7 +257,7 @@
 </script>
 <script type="text/javascript">
     $(window).on('load', function () {
-        $('#myModal-offer').modal('show');
+        // $('#myModal-offer').modal('show');
     });
 </script>
 <script type="text/javascript">

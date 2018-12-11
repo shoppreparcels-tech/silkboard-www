@@ -51,161 +51,35 @@
 }
 </script>
 <style>
-        .padding-bottom{
-            padding-bottom: 10px;
-            padding-left: 0;
-            padding-right: 0;
-        }
-
-        #customers {
-            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        .tr-hide {
-            display: none;
-        }
-
-        .tr-hide1 {
-            display: none;
-        }
-
-        .tr-hide2 {
-            display: none;
-        }
-
-        #customers td, #customers th {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: center;
-        }
-
-        #customers tr:nth-child(odd) {
-            background-color: #fafafb;
-        }
-
-        #customers tr:hover {
-            background-color: #fff;
-        }
-
-        #customers th {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            /*background-color: #4CAF50;*/
-            color: #11273b;
-        }
-
+        .padding-bottom{padding-bottom: 10px;padding-left: 0;padding-right: 0;}
+        #customers {font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;border-collapse: collapse;width: 100%;}
+        .tr-hide {display: none;}
+        .tr-hide1 {display: none;}
+        .tr-hide2 {display: none;}
+        #customers td, #customers th {border: 1px solid #ddd;padding: 8px;text-align: center;}
+        #customers tr:nth-child(odd) {background-color: #fafafb;}
+        #customers tr:hover {background-color: #fff;}
+        #customers th {padding-top: 12px;padding-bottom: 12px;/*background-color: #4CAF50;*/color: #11273b;}
         {{--table--}}
-        div.shop-ship {
-            z-index: 10;
-            background-color: #11273b;
-            color: #fff;
-            padding: 0 !important;
-            border-radius: 4px;
-            -moz-border-radius: 4px;
-            margin-top: 20px;
-            filter: alpha(opacity=97);
-        }
-
-        div.shop-ship-menu {
-            padding-right: 0;
-            padding-left: 0;
-            padding-bottom: 0;
-        }
-
-        div.shop-ship-menu div.list-group {
-            margin-bottom: 0;
-        }
-
-        div.shop-ship-menu div.list-group > a {
-            margin-bottom: 0;
-        }
-
-        div.shop-ship-menu div.list-group > a .glyphicon,
-        div.shop-ship-menu div.list-group > a .fa {
-            color: #5A55A3;
-        }
-
-        div.shop-ship-menu div.list-group > a:first-child {
-            border-top-right-radius: 0;
-            -moz-border-top-right-radius: 0;
-        }
-
-        div.shop-ship-menu div.list-group > a:last-child {
-            border-bottom-right-radius: 0;
-            -moz-border-bottom-right-radius: 0;
-        }
-
+        div.shop-ship {z-index: 10;background-color: #11273b;color: #fff;padding: 0 !important;border-radius: 4px;-moz-border-radius: 4px;margin-top: 20px;filter: alpha(opacity=97);}
+        div.shop-ship-menu {padding-right: 0;padding-left: 0;padding-bottom: 0;}
+        div.shop-ship-menu div.list-group {margin-bottom: 0;}
+        div.shop-ship-menu div.list-group > a {margin-bottom: 0;}
+        div.shop-ship-menu div.list-group > a .glyphicon, div.shop-ship-menu div.list-group > a .fa {color: #5A55A3;}
+        div.shop-ship-menu div.list-group > a:first-child {border-top-right-radius: 0;-moz-border-top-right-radius: 0;}
+        div.shop-ship-menu div.list-group > a:last-child {border-bottom-right-radius: 0;-moz-border-bottom-right-radius: 0;}
         div.shop-ship-menu div.list-group > a.active,
         div.shop-ship-menu div.list-group > a.active .glyphicon,
-        div.shop-ship-menu div.list-group > a.active .fa {
-            background-color: #11273b;
-            /*background-image: #5A55A3;*/
-            color: #ffffff;
-        }
-
-        div.shop-ship-menu div.list-group > a:hover {
-            color: #ffffff;
-        }
-
-        div.shop-ship-menu div.list-group > a.active:after {
-            content: '';
-            position: absolute;
-            /*left: 100%;
-            top: 50%;*/
-            top: 100%;
-            right: 50%;
-            /*margin-top: -13px;*/
-            border-left: 0;
-            border-bottom: 13px solid transparent;
-            border-top: 13px solid #11273b;
-            border-left: 10px solid transparent;
-            border-right: 10px solid transparent;
-        }
-
-        div.shop-ship-tab div.shop-ship-tab-content:not(.active) {
-            display: none;
-        }
-
-        .list-group-item1 {
-            position: relative;
-            display: block;
-            padding: 15px 15px;
-            margin-bottom: -1px;
-            background-color: #11273b;
-            border: 1px solid #ddd;
-            border: none !important;
-            color: #677582;
-        }
-
-        .courier-membership-plans div {
-            border: 1px solid rgba(146, 156, 165, 0.2);
-        }
-
-        .div-backgroud-price-cal {
-            background-color: #fafafb;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            padding-left: 0;
-            padding-right: 0;
-        }
-
-        .div-backgroud-price-cal1 {
-            background-color: #ffffff;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            padding-left: 0;
-            padding-right: 0;
-        }
-
-        #courier-membership-plans {
-            display: none;
-        }
-
-        .how-to-calculate .modal-content {
-            border-radius: 0px !important;
-        }
+        div.shop-ship-menu div.list-group > a.active .fa {background-color: #11273b;/*background-image: #5A55A3;*/color: #ffffff;}
+        div.shop-ship-menu div.list-group > a:hover {color: #ffffff;}
+        div.shop-ship-menu div.list-group > a.active:after {content: '';position: absolute;/*left: 100%;top: 50%;*/top: 100%;right: 50%;/*margin-top: -13px;*/border-left: 0;border-bottom: 13px solid transparent;border-top: 13px solid #11273b;border-left: 10px solid transparent;border-right: 10px solid transparent;}
+        div.shop-ship-tab div.shop-ship-tab-content:not(.active) {display: none;}
+        .list-group-item1 {position: relative;display: block;padding: 15px 15px;margin-bottom: -1px;background-color: #11273b;border: 1px solid #ddd;border: none !important;color: #677582;}
+        .courier-membership-plans div {border: 1px solid rgba(146, 156, 165, 0.2);}
+        .div-backgroud-price-cal {background-color: #fafafb;padding-top: 5px;padding-bottom: 5px;padding-left: 0;padding-right: 0;}
+        .div-backgroud-price-cal1 {background-color: #ffffff;padding-top: 5px;padding-bottom: 5px;padding-left: 0;padding-right: 0;}
+        #courier-membership-plans {display: none;}
+        .how-to-calculate .modal-content {border-radius: 0px !important;}
     </style>
 
 @endsection
@@ -417,8 +291,7 @@
                                         {{csrf_field()}}
                                         <div class="col-md-12 col-xs-12 padding-bottom">
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
-                                                <label class="p-color-cement header6">Pickup Location-Pin
-                                                    code</label>
+                                                <label class="p-color-cement header6">Pickup Location-Pincode</label>
                                             </div>
                                             <div class="col-md-4 col-sm-6  col-xs-6 no-padding">
                                                 <label class="p-color-cement header6">Destination-Pincode</label>
@@ -428,11 +301,11 @@
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
                                                 <input class="header6 p-color-cement txt-pincode" type="text"
                                                        name="pin"
-                                                       placeholder=" Enter Pincode" required>
+                                                       placeholder="Enter Pincode" required>
                                             </div>
                                             <div class="col-md-4 col-sm-6 col-xs-6 no-padding">
                                                 <input class="header6 p-color-cement txt-pincode" type="text"
-                                                       name="pincode-from"
+                                                       name="pincode"
                                                        placeholder=" Enter Pincode" required>
                                             </div>
                                         </div>
@@ -464,10 +337,8 @@
                                                 <div class="div-text-box">
                                                     <span id="aminus"
                                                           class="btn btn-puls-minus dec-value no-padding">-</span>
-                                                    {{--<span id="aminus" class="btn-puls-minus dec-value">-</span>--}}
                                                     <input type="text" id="adnum" class="txt-weight" value="0.5"
                                                            name="weight">
-                                                    {{--<span id="aplus" class="btn-puls-minus inc-value">+</span>--}}
                                                     <span id="aplus"
                                                           class="btn btn-puls-minus inc-value no-padding">+</span>
                                                 </div>
@@ -3678,8 +3549,6 @@
             $(".select2").select2();
         });
     </script>
-
-
     <script src="{{env('AWS_CLOUD_FRONT')}}/js/validate.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
@@ -3863,6 +3732,7 @@
                         state: {required: true},
                         city: {required: true},
                         pin: {required: true},
+                        pincode: {required: true},
                         type: {required: true},
                         weight: {required: true},
                         unit: {required: true},
@@ -3873,7 +3743,8 @@
                     {
                         state: {required: "Please select state"},
                         city: {required: "Please enter city"},
-                        pin: {required: "Please enter PIN"},
+                        pin: {required: "Please enter pickup location PIN"},
+                        pincode: {required: "Please enter destination location PIN"},
                         weight: {required: "Enter package weight."},
                         email: {required: "Enter your email address to contact."},
                         mobile: {required: "Enter your mobile number to contact."}
@@ -3884,8 +3755,9 @@
                         url: '/qoute/submit',
                         type: "POST",
                         data: $("#form_quote").serialize(),
-
                         success: function (data) {
+                            console.log(data);
+                            debugger;
                             $('#form_quote')[0].reset();
                             $("#quote_load").hide();
                             $("#quote_submit").hide();
@@ -3966,7 +3838,6 @@
         });
 
     </script>
-
     <script>
         function openCal(cityName) {
             var i;

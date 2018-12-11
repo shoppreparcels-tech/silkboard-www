@@ -21,7 +21,8 @@ use App\FavoriteStore;
 use App\Review;
 use App\ChatEmail;
 use App\Store;
-
+use App\Asana\AsanaTaskOperations;
+use App\Mailchimp\mailChimpTaskOperations;
 use App\Mail\ContactEnquiry;
 use App\Mail\GetQuote;
 
@@ -105,7 +106,6 @@ class PageController extends Controller
 
     public function award()
     {
-//        print('hi');exit;
         return view('page.award');
     }
 
@@ -154,6 +154,11 @@ class PageController extends Controller
         );
 
         $json_data = json_encode($data);
+        $commnet = "Enquiry from footer subscriber email: ".$email;
+        AsanaTaskOperations::createTask($email, $commnet, "E");
+//        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+
+
         try {
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, 'https://us19.api.mailchimp.com/3.0/lists/' . $list_id . '/members/');
@@ -189,6 +194,9 @@ class PageController extends Controller
         $email = $req->email;
         $name = $req->name;
         $contact = $req->contact_no;
+        $commnet = "lead from diwali landing page email ".$email."\n contact No: ".$contact;
+        AsanaTaskOperations::createTask($name, $commnet, "L");
+
         $data = array(
             'apikey' => $apikey,
             'email_address' => $email,
@@ -200,32 +208,84 @@ class PageController extends Controller
             )
         );
         $json_data = json_encode($data);
-        try {
-            $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, 'https://us19.api.mailchimp.com/3.0/lists/' . $list_id . '/members/');
-            curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json',
-                'Authorization: Basic ' . $auth));
-            curl_setopt($ch, CURLOPT_USERAGENT, 'PHP-MCAPI/2.0');
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-            curl_setopt($ch, CURLOPT_POST, true);
-            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-            curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);
-            $result = curl_exec($ch);
-
-            // this code is required for next iteration
-            return response()->json([
-                'message' => $result
-            ]);
-//            $this->sendEmailtoSubscriber($email);
-
-        } catch (Exception $e) {
-            return response()->json([
-                'message' => $result
-            ]);
-        }
+        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
     }
+    public function icsLandingPageSubmit(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
+        $list_id = '458f84e53e';
+        $auth = base64_encode('user:' . $apikey);
+        $email = $req->email;
+        $name = $req->name;
+        $contact = $req->contact_no;
+        $commnet = "lead from send-international-courier-from-india landing page email ".$email."\n contact No: ".$contact."\n Name :".$name;
+        AsanaTaskOperations::createTask($name, $commnet, "L");
 
+        $data = array(
+            'apikey' => $apikey,
+            'email_address' => $email,
+            'status' => 'subscribed',
+            'merge_fields' => array(
+                'FNAME' => $name,
+                'LNAME' => '',
+                'PHONE' => $contact
+            )
+        );
+        $json_data = json_encode($data);
+        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+    }
+    public function psLandingPageSubmit(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
+        $list_id = '458f84e53e';
+        $auth = base64_encode('user:' . $apikey);
+        $email = $req->email;
+        $name = $req->name;
+        $contact = $req->contact_no;
+        $commnet = "lead from personal-shopper-india landing page email ".$email."\n contact No: ".$contact."\n Name :".$name;
+        AsanaTaskOperations::createTask($name, $commnet, "L");
+
+        $data = array(
+            'apikey' => $apikey,
+            'email_address' => $email,
+            'status' => 'subscribed',
+            'merge_fields' => array(
+                'FNAME' => $name,
+                'LNAME' => '',
+                'PHONE' => $contact
+            )
+        );
+        $json_data = json_encode($data);
+        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+    }
+    public function radconSubmit(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
+        $list_id = '458f84e53e';
+        $auth = base64_encode('user:' . $apikey);
+        $email = $req->email;
+        $name = $req->name;
+        $contact = $req->contact_no;
+        $coupon = $req->coupon_code;
+        $commnet = "lead from radcon landing page email ".$email."\n contact No: ".$contact."\n Coupon No :".$coupon;
+        AsanaTaskOperations::createTask($name, $commnet, "L");
+
+        $data = array(
+            'apikey' => $apikey,
+            'email_address' => $email,
+            'status' => 'subscribed',
+            'merge_fields' => array(
+                'FNAME' => $name,
+                'LNAME' => '',
+                'PHONE' => $contact
+            )
+        );
+        $json_data = json_encode($data);
+        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+    }
     public function sendEmailtoSubscriber($email)
     {
         Mail::to($email)
@@ -617,7 +677,6 @@ class PageController extends Controller
 
     public function submitContact(Request $request)
     {
-
         $this->validate($request, [
             'firstname' => 'required|max:250',
 //            'lastname' => 'required|max:250',
@@ -625,8 +684,11 @@ class PageController extends Controller
             'phone' => 'required',
             'msg_content' => 'required',
         ]);
-//        echo ('inside');exit;
-        Mail::to("support@shoppre.com")->bcc('aloak@shoppre.com')->send(new ContactEnquiry($request));
+
+        $commnet = "Contact page: Email: ".$request->email."\n Contact No: ".$request->phone."\n Reason: ".$request->reason."\n Locker No: ".$request->locker."\n Query: ".$request->locker;
+        AsanaTaskOperations::createTask($request->firstname, $commnet, "E");
+
+        Mail::to("leads@shoppre.com")->bcc('aloak@shoppre.com')->send(new ContactEnquiry($request));
         return view('page.confirm-contact-us');
     }
 
@@ -738,17 +800,22 @@ class PageController extends Controller
 
     public function getQuote(Request $request)
     {
-        $this->validate($request, [
-            'state' => 'required|max:250',
-            'city' => 'required|max:250',
-            'pin' => 'required',
-            'type' => 'required',
-            'weight' => 'required',
-            'unit' => 'required',
-            'email' => 'required|email|max:250',
-        ]);
-
-        $mail = Mail::to("support@shoppre.com")->send(new GetQuote($request));
+//        $this->validate($request, [
+//            'state' => 'required|max:250',
+//            'city' => 'required|max:250',
+//            'pin' => 'required',
+//            'type' => 'required',
+//            'weight' => 'required',
+//            'unit' => 'required',
+//            'email' => 'required|email|max:250',
+//        ]);
+        $pincodeF= $request->pin;
+        $pincodeT= $request->pincode;
+        $contact= $request->mobile;
+        $email= $request->email;
+        $commnet = "Enquiry from pricing calculator page Pickup Location pin-code : ". $pincodeF."\n Destination pin-code : ".$pincodeT."\n contact number : ".$contact;
+        AsanaTaskOperations::createTask($email, $commnet, "E");
+        $mail = Mail::to("leads@shoppre.com")->send(new GetQuote($request));
         return response()->json(['mail' => $mail]);
     }
 
@@ -905,13 +972,15 @@ class PageController extends Controller
 
     public function submitReview(Request $request)
     {
+
         $this->validate($request, [
             'person' => 'required|max:250',
             'country_id' => 'required',
             'review' => 'required',
             'rating' => 'required',
         ]);
-
+        $commnet = "Reviews : ".$request->review."\n Rating ".$request->rating."\n Country id :".$request->country_id;
+        AsanaTaskOperations::createTask($request->person, $commnet, "E");
         $review = new Review;
         $review->person = $request->person;
         $review->country_id = $request->country_id;
