@@ -58,6 +58,7 @@ Route::get('/offers', 'PageController@offersIndex')->name('offers-new.index');
 Route::get('/diwali-offer', 'PageController@diwali')->name('diwali');
 Route::get('/christmas-offer', 'PageController@christmas')->name('christmas');
 Route::get('/new-year-offer', 'PageController@newyear')->name('christmas');
+Route::get('/university-offer', 'PageController@university')->name('university');
 Route::get('/send-international-courier-from-india', 'PageController@icsLandingPage')->name('ics.landing');
 Route::get('/personal-shopper-india', 'PageController@ifsLandingPage')->name('ifs.landing');
 Route::get('/indian-online-stores', 'PageController@storeNew')->name('stores1');

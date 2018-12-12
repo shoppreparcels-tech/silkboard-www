@@ -47,6 +47,10 @@ class PageController extends Controller
     {
         return view('page.newyear-landing');
     }
+    public function university()
+    {
+        return view('page.university-landing');
+    }
 
     public function icsLandingPage()
     {

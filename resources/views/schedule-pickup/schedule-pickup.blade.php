@@ -58,7 +58,6 @@
                 </span></h3>
             <div class="schedule-container">
                 <form class="form-horizontal" id="form-pickup">
-                    {{--<form class="form-horizontal" method="post" action="{{route('schedulePickup.Submit')}}">--}}
                     {{ csrf_field() }}
                     <h4 class="head-align"><u>YOUR CONTACT DETAILS :</u></h4>
                     <div class="row">
