@@ -11,7 +11,6 @@ use Illuminate\Http\Request;
 class ShippingPartnerController extends Controller
 {
 
-
     public function dtdcIndex()
     {
         $shipments = ShipRequest::orderBy('ship_requests.id', 'asc')
@@ -123,6 +122,20 @@ class ShippingPartnerController extends Controller
             ->where('ship_requests.shipping_status', '=', 'delivered')
             ->paginate(20);
         return view('partners.dhl')->with(['shipments' => $shipments]);
+    }
+    public function dhlIndexNew()
+    {
+        $shipments = ShipRequest::orderBy('ship_requests.id', 'asc')
+            ->with('tracking')
+            ->select(['ship_requests.id', 'ship_requests.payment_gateway_name', 'ship_requests.city',
+                'ship_requests.weight', 'ship_requests.final_amount', 'ship_requests.full_name as customer_name',
+                'countries.name as country', 'ship_trackings.carrier'])
+            ->join('ship_trackings', 'ship_trackings.ship_request_id', '=', 'ship_requests.id')
+            ->join('countries', 'countries.id', '=', 'ship_requests.country')
+            ->where('ship_trackings.carrier', '=', 'dhl')
+            ->where('ship_requests.shipping_status', '=', 'delivered')
+            ->paginate(20);
+        return view('partners.dhl-new')->with(['shipments' => $shipments]);
     }
 
     public function dhlShipmentDetail(Request $req)

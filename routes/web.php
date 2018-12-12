@@ -74,6 +74,7 @@ Route::get('/seller-partner', 'PageController@seller')->name('seller');
 
 /*-------- Dhl Shipments ------*/
 Route::get('/dhl', 'ShippingPartnerController@dhlIndex')->name('dhl.index');
+Route::get('/dhl-new', 'ShippingPartnerController@dhlIndexNew')->name('dhlnew.index');
 Route::get('/dhl/shipment/{id}', 'ShippingPartnerController@dhlShipmentDetail')->name('dhl.view');
 
 /*-------- Fedex Shipments ------*/
