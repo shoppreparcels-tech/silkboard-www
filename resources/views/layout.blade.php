@@ -205,7 +205,6 @@
 <!-- Angular Script -->
 <script>
     angular.module('shoppre', ['ui.bootstrap']);
-
     function IndexController($scope, $http) {
         $scope.Faqs = {
             select: function ($item) {
@@ -266,7 +265,6 @@
         jQuery("a.bla-2").YouTubePopUp({autoplay: 0}); // Disable autoplay
     });
 </script>
-
 <script>
     (function ($) {
         $.fn.YouTubePopUp = function (options) {
@@ -334,20 +332,16 @@
     }(jQuery));
 
 </script>
-
 <script>
     $(document).ready(function () {
-
         $("#btnClosePopup").click(function () {
             localStorage.popupClose = "close";
             $('#myModal').modal('hide');
         });
-
         $("#btn_signup_popup").click(function () {
             $(".login-content").css("display", "none");
             $(".signup-content").css("display", "block");
         });
-
         $("#btn_login_popup").click(function () {
             $(".login-content").css("display", "block");
             $(".signup-content").css("display", "none");
@@ -483,7 +477,6 @@
         }, n._ = [], n.set._ = [], a.async = true, a.setAttribute("charset", "utf-8"), a.src = "https://static.zdassets.com/ekr/asset_composer.js?key=" + s, n.t = +new Date, a.type = "text/javascript", r.parentNode.insertBefore(a, r)
     })(document, "script", "2ab4b736-3ac8-4f95-8b6f-e2c9d6325182");
     /*]]>*/</script>
-
 <!-- Zendex form autofill if user is login -->
 <script type="text/javascript">
     if (localStorage.userinfo) {
@@ -499,7 +492,6 @@
 </script>
 
 <!-- End of shoppre-international-shipping-courier Zendesk Widget script -->
-
 <script>
     if (window.location.href == "https://www.shoppre.com/campaign/flyer/616") {
         if (!localStorage.newsUrlVisit) {
@@ -633,11 +625,7 @@
         $(".select2").select2();
     });
 </script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $(".select2").select2();
-    });
-</script>
+
 
 <script>
     $(document).ready(function () {
@@ -663,39 +651,6 @@
                     },
                     success: function (data) {
                         console.log(data);
-                        $('#myModal').modal('show');
-                        $('.txt-subscription').val('');
-                    }
-                })
-            }
-        });
-
-    });
-</script>
-<script>
-    $(document).ready(function () {
-        $("#subscribe").validate({
-            rules:
-                {
-                    email: {required: true}
-                },
-            messages:
-                {
-                    // email: {required: 'Please enter your email id'}
-                },
-            submitHandler: function (form) {
-
-                var email = $("input[name='email']").val();
-                var token = $('input[name=_token]').val();
-                jQuery.ajax({
-                    url: 'api/subscribe',
-                    type: "POST",
-                    data: {
-                        _token: token,
-                        email: email,
-                    },
-                    success: function (data) {
-                        // console.log(data);
                         $('#myModal').modal('show');
                         $('.txt-subscription').val('');
                     }

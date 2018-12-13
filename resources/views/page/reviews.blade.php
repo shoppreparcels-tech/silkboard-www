@@ -29,10 +29,15 @@
     <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 
     <style>
+        .ligth-background{background-color: #fafafb}
+         .header .container p a{color: #E9C46A }
         .rating-xl {font-size: 23px;}
         .form-control {height: 41px;}
          label {float: left;margin-left: 4px;}
         .r-img {width: 100%;}
+        .img-circle {padding-top: 9px;}
+        .img-circle p{text-transform: uppercase;color: #fff;font-size: 25px;}
+        .rating-container .filled-stars {color: #E9C46A !important; }
 
     </style>
 
@@ -72,19 +77,16 @@
 
 
     </script>
-
-
 @endsection
 
 @section('content')
-
     <section class="header">
         <div class="container header-padder-top">
             <center>
                 <p class="header1 p-color-white">Customer Reviews</p>
                 <p class="header2 p-color-cement header-margin-bottom">Our customers love our top-rated
                     service and how easy & worry-free<br> we make <a href="{{route('ifs.index')}}">shopping and shipping
-                        from INDIA</a>!
+                        from INDIA!</a>
                 </p>
             </center>
         </div>
@@ -126,8 +128,7 @@
             </div>
         </div>
     </section>
-
-    <section style="background-color: #fafafb">
+    <section class="ligth-background">
         <div class="container">
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-submit-review">
                 <center>
@@ -202,17 +203,16 @@
                             <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 inner-review ">
                                     <div class="row div-img-row">
-                                        <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3 no-padding">
-                                            <div class=" img-review img-circle "
-                                                 style="background-color: {{$color}};padding-top: 15px">
+                                        <div class="col-md-1 col-sm-2 col-xs-2 no-padding">
+                                            <div class=" img-review img-circle "style="background-color: {{$color}};">
                                                 <center>
-                                                    <p style="text-transform: uppercase"> {{$fl}} {{$sfl}}</p>
+                                                    <p>{{$fl}}</p>
                                                 </center>
                                             </div>
                                         </div>
-                                        <div class="col-md-5 col-lg-5 col-sm-6 col-xs-6">
+                                        <div class="col-md-6 col-sm-7 col-xs-7">
                                             <p class="pull-left p-name-font-weight">{{$review->person}}
-                                                <br>{{$review->name}} </p>
+                                                <br><span style="color:#677582 ">{{$review->name}}</span> </p>
                                         </div>
                                         <div class="col-md-4 col-lg-4 col-sm-3 col-xs-3 pull-right">
                                             <img src="{{env('AWS_CLOUD_FRONT')}}/img/rating-star.png" style="margin-top: 11px" alt="">
@@ -268,7 +268,6 @@
 @endsection
 
 @section('js_script')
-    <script src="{{env('AWS_CLOUD_FRONT')}}/js/star-rating.min.js" type="text/javascript"></script>
     <script>
         $(".rated").rating({
             'size': 'lg',
@@ -289,15 +288,6 @@
             'showCaption': false
         });
     </script>
-    <!-- Select2 -->
-    <script src="{{env('AWS_CLOUD_FRONT')}}/js/select2.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(".select2").select2();
-        });
-    </script>
-
-
     <script>
         $(document).ready(function () {
             $(document).on('click', '#btn-more', function () {

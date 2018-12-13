@@ -198,7 +198,7 @@ class PageController extends Controller
         $email = $req->email;
         $name = $req->name;
         $contact = $req->contact_no;
-        $commnet = "lead from diwali landing page email ".$email."\n contact No: ".$contact;
+        $commnet = "Lead from diwali landing page email ".$email."\n contact No: ".$contact;
         AsanaTaskOperations::createTask($name, $commnet, "L");
 
         $data = array(
@@ -223,7 +223,7 @@ class PageController extends Controller
         $email = $req->email;
         $name = $req->name;
         $contact = $req->contact_no;
-        $commnet = "lead from send-international-courier-from-india landing page email ".$email."\n contact No: ".$contact."\n Name :".$name;
+        $commnet = "Lead from send-international-courier-from-india landing page email ".$email."\n contact No: ".$contact."\n Name :".$name;
         AsanaTaskOperations::createTask($name, $commnet, "L");
 
         $data = array(
@@ -248,7 +248,7 @@ class PageController extends Controller
         $email = $req->email;
         $name = $req->name;
         $contact = $req->contact_no;
-        $commnet = "lead from personal-shopper-india landing page email ".$email."\n contact No: ".$contact."\n Name :".$name;
+        $commnet = "Lead from personal-shopper-india landing page email ".$email."\n contact No: ".$contact."\n Name :".$name;
         AsanaTaskOperations::createTask($name, $commnet, "L");
 
         $data = array(
@@ -274,7 +274,7 @@ class PageController extends Controller
         $name = $req->name;
         $contact = $req->contact_no;
         $coupon = $req->coupon_code;
-        $commnet = "lead from radcon landing page email ".$email."\n contact No: ".$contact."\n Coupon No :".$coupon;
+        $commnet = "Lead from radcon landing page email ".$email."\n contact No: ".$contact."\n Coupon No :".$coupon;
         AsanaTaskOperations::createTask($name, $commnet, "L");
 
         $data = array(
@@ -289,6 +289,26 @@ class PageController extends Controller
         );
         $json_data = json_encode($data);
         mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+    }
+    public function christmasSubmit(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
+        $list_id = '458f84e53e';
+        $auth = base64_encode('user:' . $apikey);
+        $email = $req->email;
+        $commnet = "Lead from christmas landing page email ".$email;
+        AsanaTaskOperations::createTask($email, $commnet, "L");
+    }
+    public function universitySubmit(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
+        $list_id = '458f84e53e';
+        $auth = base64_encode('user:' . $apikey);
+        $email = $req->email;
+        $commnet = "Lead from university landing page email ".$email;
+        AsanaTaskOperations::createTask($email, $commnet, "L");
     }
     public function sendEmailtoSubscriber($email)
     {
@@ -692,7 +712,7 @@ class PageController extends Controller
         $commnet = "Contact page: Email: ".$request->email."\n Contact No: ".$request->phone."\n Reason: ".$request->reason."\n Locker No: ".$request->locker."\n Query: ".$request->locker;
         AsanaTaskOperations::createTask($request->firstname, $commnet, "E");
 
-        Mail::to("leads@shoppre.com")->bcc('aloak@shoppre.com')->send(new ContactEnquiry($request));
+        Mail::to("Leads@shoppre.com")->bcc('aloak@shoppre.com')->send(new ContactEnquiry($request));
         return view('page.confirm-contact-us');
     }
 
@@ -819,7 +839,7 @@ class PageController extends Controller
         $email= $request->email;
         $commnet = "Enquiry from pricing calculator page Pickup Location pin-code : ". $pincodeF."\n Destination pin-code : ".$pincodeT."\n contact number : ".$contact;
         AsanaTaskOperations::createTask($email, $commnet, "E");
-        $mail = Mail::to("leads@shoppre.com")->send(new GetQuote($request));
+        $mail = Mail::to("Leads@shoppre.com")->send(new GetQuote($request));
         return response()->json(['mail' => $mail]);
     }
 
@@ -923,20 +943,20 @@ class PageController extends Controller
                 if (sizeof($firstname) > 1) {
                     $sfl = substr($firstname[1], 0, 1);
                 }
-
+//                <p>' . $fl . ' ' . $sfl . '</p>
 
                 $output .= '<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 " >
                                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 inner-review " >
                                     <div class="row div-img-row" >
-                                        <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3 no-padding">                                          
-                                          <div class=" img-review img-circle "style="background-color: ' . $color . ';padding-top: 15px">
+                                        <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 no-padding">                                          
+                                          <div class=" img-review img-circle "style="background-color: ' . $color . ';">
                                             <cneter>
-                                               <p style="text-transform: uppercase">' . $fl . ' ' . $sfl . '</p>
+                                               <p>'. $fl .'</p>
                                             </cneter>
                                            
                                           </div>
                                         </div >
-                                        <div class="col-md-5 col-lg-5 col-sm-6 col-xs-6 no-padding" >                                          
+                                        <div class="col-md-5 col-lg-5 col-sm-7 col-xs-7" >                                          
                                           <p class="pull-left p-name-font-weight">' . $review->person . ' <br> ' . $review->name . '  </p>
                                         </div >
                                         <div class="col-md-4 col-lg-4 col-sm-3 col-xs-3 pull-right " style="margin-top: 11px" >

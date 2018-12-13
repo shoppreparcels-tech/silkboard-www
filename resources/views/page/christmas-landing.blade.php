@@ -70,24 +70,8 @@
                                 <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900">Grab the Offer!</button>
                             </div>
                         </div>
-
-                        {{--<div class="formFrame" id="diwali-couponcode2">--}}
-                            {{--<div class="">--}}
-                                {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-congratulation.png" alt="" style="width: 100%">--}}
-                            {{--</div>--}}
-                            {{--<div class="">--}}
-                                {{--<center>--}}
-                                    {{--<h6 class="header5 p-color-blue">Congratulations!</h6>--}}
-                                    {{--<h5 class="header5 p-color-cement">Just One More Step To Use <br>Your Coupon!</h5>--}}
-                                {{--</center>--}}
-                            {{--</div>--}}
-                            {{--<div class="text-center">--}}
-                                {{--<a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-d-signup">Sign Up</a>--}}
-                                {{--<button type="submit" name="btnActivate" class="btn btn-shoppre">Sign Up</button>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
                     </form>
-                    <h3 class="header4" style="color: #8eadc8;">*From 10th Dec to 15th Dec 2018</h3>
+                    <h3 class="header4" style="color: #8eadc8;">*From 10th Dec to 26th Dec 2018</h3>
                 </center>
             </div>
             <div class="col-md-2 div-newyear">
@@ -146,7 +130,6 @@
                     <h5> What Else Do You Get Out of Our Offer? </h5><br>
                     <ul>
                         <li>A FREE Indian Virtual Address to ship your packages to </li>
-                        {{--<li>Store your goods here at our facility for 20 days for FREE! </li>--}}
                         <li>Get online Support 24/7</li>
                         <li>A quick delivery within 3-6 days!</li>
                     </ul>
@@ -197,9 +180,6 @@
                         </ul>
                     </div>
                 </div>
-                {{--<div class="text-center">--}}
-                {{--<a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-d-signup">Sign Up</a>--}}
-                {{--</div>--}}
                 <br/><br/>
             </div>
         </div>
@@ -305,23 +285,18 @@
                 submitHandler: function (form) {
                     debugger;
                     var email = $("input[name='email']").val();
-                    var name = $("input[name='Name']").val();
-                    var contact_no = $("input[name='ContactNumber']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api/diwali-offer',
+                        url: 'api/christmas',
                         type: "POST",
                         data: {
                             _token: token,
                             email: email,
-                            name: name,
-                            contact_no: contact_no,
                         },
                         success: function (data) {
                             console.log(data);
-                            $('#diwali-couponcode1').hide();
-                            // $('#diwali-couponcode2').css('display','block');
-                            $('#diwali-couponcode2').slideDown();
+                            window.location.replace("https://myaccount.shoppre.com/register");
+
                         }
                     })
                 }

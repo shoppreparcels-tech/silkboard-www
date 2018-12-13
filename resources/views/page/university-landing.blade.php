@@ -23,15 +23,19 @@
       .chris-benefits ul{text-decoration: none;list-style: none;}
       .chris-benefits ul li{color: #224464;font-family: Bahnschrift;font-size: 18px;font-weight: 400;text-align: left;padding-top: 15px;}
       .chris-benefits ul li img{margin-top: 9px;}
+      .chris-benefits .ps-img-rounded {    height: 340px;}
+      .chris-benefits .ps-img-rounded span {font-size: 22px;color: #11273b;}
       .text-center div{ padding-top: 20px}
       .img-new-year{display: none}
-      .chris-benefits .panel{box-shadow: 0 2px 10px rgba(0,0,0,.05) !important;padding-left: 25px; border-radius: 15px}
+      .chris-benefits .panel{box-shadow: 0 2px 10px rgba(0,0,0,.05) !important;border-radius: 15px}
+      .chris-benefits .u-benifits .panel{box-shadow: 0 2px 10px rgba(0,0,0,.05) !important;border-radius: 15px; padding-left: 25px}
       .chris-benefits .panel ul li span{margin-left: 15px;}
       #contact-support{padding-bottom: 30px;}
       .chris-benefits div table {font-family: arial, sans-serif;border-collapse: collapse;width: 100%; border-radius: 1em;}
       .chris-benefits div table th {text-align: left;padding:20px;background-color: #929ca5;color: #fff;font-size: 18px;}
       .chris-benefits div table td {text-align: left;padding: 20px;background-color: #fff; font-size: 18px}
       .chris-benefits div table tr:nth-child(even) {background-color: #fafafb;}
+      .div-content{padding-top: 70px;padding-right: 0;padding-left: 0;padding-bottom: 0}
       .div-table{overflow: scroll}
       @media only screen and (max-width: 600px) {
           .textbox-email {width: 330px;}
@@ -40,9 +44,10 @@
           .christmas-service {margin-top: -200px;}
           .c-image{display: none}
           .txt-align{text-align: center}
-          .img-new-year{display: block;width: 240px;}
+          .img-new-year{display: block;margin-left: 35px;}
           .chris-benefits ul li{font-size: 16px;}
           .chris-benefits div table th{padding: 0px;}
+          .div-content{padding-top: 0px;}
       }
     </style>
 
@@ -53,11 +58,11 @@
            <div class="col-md-2 div-snow">
                <img src="{{asset('img/images/plane_earth.png')}}" alt="">
            </div>
-           <div class="col-md-8 col-xs-12 no-padding" style="    padding-top: 70px;">
+           <div class="col-md-8 col-xs-12 div-content" >
                <center>
-                   <img src="{{asset('img/images/newyear_image.png')}}" alt="" class="img-new-year">
-                   <h2 class="p-color-yellow header-spacing header2 ">50% Offer</h2>
-                   <h1 class="header1 p-color-white header-spacing font-weight-900"> Send Documents Abroad</h1>
+                   <img src="{{asset('img/images/plane_earth.png')}}" alt="" class="img-new-year">
+                   <h2 class="p-color-yellow header-spacing header2 ">Student Special Offer | Get 50% Off Your Shipping Costs!</h2>
+                   <h1 class="header1 p-color-white header-spacing font-weight-900">Courier Any Document Abroad</h1>
                    <h2 class="header2 p-color-white font-weight-900">Starting from ₹690/-</h2> <br>
                    <form action=""  method="post" id="diwali_coupon">
                        {{csrf_field()}}
@@ -67,25 +72,9 @@
                                       placeholder="Enter a valid E-mail ID" required>
                            </div>
                            <div class="form-group text-center">
-                               <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900">Sign Up Free</button>
+                               <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900">Sign Up For FREE!</button>
                            </div>
                        </div>
-
-                       {{--<div class="formFrame" id="diwali-couponcode2">--}}
-                       {{--<div class="">--}}
-                       {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-congratulation.png" alt="" style="width: 100%">--}}
-                       {{--</div>--}}
-                       {{--<div class="">--}}
-                       {{--<center>--}}
-                       {{--<h6 class="header5 p-color-blue">Congratulations!</h6>--}}
-                       {{--<h5 class="header5 p-color-cement">Just One More Step To Use <br>Your Coupon!</h5>--}}
-                       {{--</center>--}}
-                       {{--</div>--}}
-                       {{--<div class="text-center">--}}
-                       {{--<a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-d-signup">Sign Up</a>--}}
-                       {{--<button type="submit" name="btnActivate" class="btn btn-shoppre">Sign Up</button>--}}
-                       {{--</div>--}}
-                       {{--</div>--}}
                    </form>
                </center>
            </div>
@@ -99,7 +88,7 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Send Document Abroad from India</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Have Some Documents to Send Abroad?</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
                     <a href="tel:+91-80 4094 4077" class="c-image">
@@ -110,31 +99,29 @@
             </div>
 
             <div class=" col-md-12 un-offers">
-                <p class="header4 p-color-cement">You can send your transcripts and documents to Universities in US and
-                    Canada or WES for Credential Evaluation from Yocket via FedEx or DHL University
-                    Express starting at discounted price of ₹ 959/- (including pick up).</p>
+                <p class="header4 p-color-cement">Are you a student applying for higher studies abroad, or a potential candidate
+                    for a job position? Either ways, and for other broader range of reasons; if you have documents to send overseas,
+                    we're the best & the right choice. We ship to 220+ countries, and our shipping rates start from just *Rs.690.</p>
                 <br>
                 <p class="header4 p-color-cement">Applying for your MS or MBA to universities abroad requires lot of
                     research and is quite tedious. Also, many top universities require hard copies of your important
                     documents like Semester/Academic transcripts or Letters of Recommendation (LORs) whereas some
                     require you to send these documents to WES for credential evaluation. </p> <br>
-                <p class="header4 p-color-cement">In order to send these documents safely and on time, you need a trusted
-                    International Courier Service. We understand that this can be quite expensive when you apply to multiple
-                    universities. Yocket helps you save on these courier costs by offering the same service from top international
-                    courier partners at special discounted prices for students.</p> <br>
-
+                <p class="header4 p-color-cement">For you to courier documents of these natures safe and secure, we rely
+                    on only the most trusted courier services, and make it as affordable as possible. And, we go
+                    the extra mile by offering our fellow students a special discounted price too.</p> <br>
                 <div class="offerDesc">
                     <h5> What Else Do You Get Out of Our Offer? </h5><br>
                     <ul>
                         <li>Store your goods here at our facility for 20 days for FREE! </li>
                         <li>Get online Support 24/7</li>
-                        <li>Get up to 80% OFF in shipping costs on top of the seasonal offer</li>
+                        <li>Get up to 80% OFF in shipping costs on top of this Student Special Offer</li>
                         <li>A quick delivery within 3-6 days!</li>
                     </ul>
                 </div>
                 <br>
                 <div>
-                <center><a href="" class="btn-chris-place-order">Go Shopping Now!</a></center>
+                <center><a href="" class="btn-chris-place-order">Schedule A Pickup!</a></center>
                 </div>
 
             </div>
@@ -143,7 +130,7 @@
     <section class="chris-benefits">
         <div class="container no-padding" >
             <center>
-                <h1 class="header1 p-color-cement-dark">Running Discount</h1>
+                <h1 class="header1 p-color-cement-dark">Country-specific Discounts Running Now</h1>
             </center>
             <br>
 
@@ -194,63 +181,40 @@
                     </tr>
                 </table>
             </div>
-            <div>
+                {{--<div>--}}
+                    {{--<br>--}}
+                    {{--<br>--}}
+                    {{--<center><a href="" class="btn-chris-place-order">Courier Now</a></center>--}}
+                {{--</div>--}}
+            <div class="container">
                 <br>
-                <br>
-                <center><a href="" class="btn-chris-place-order">Send Douments Now</a></center>
-            </div>
-            <div class="container div-ics-border-btm">
-                <div class="container">
+                <div class="row text-center">
                     <center>
                         <h1 class="header1  p-color-cement-dark">How It Works</h1>
                     </center>
-                </div>
-                <br>
-                <div class="row text-center">
                     <br/><br/>
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <div class="panel ps-img-rounded">
                             <center>
                                 <br/>
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-product.svg" alt="">
                                 <br/>
                                 <br/>
-                                <span class="p-color-blue">Step1</span>
+                                <span>Step1</span>
                                 <h1 class="header5 p-color-cement">Shop Products</h1>
                                 <br>
-                                <p class="p-color-cement header5">
-                                    Purchase products from any Indian online store such as Amazon.in, Flipkart & Myntra;
-                                    and. Set Cash on Delivery
-                                </p>
-
+                                <p class="p-color-cement header5">Schedule a Pickup from ANYWHERE in India, we'll come to your door in  just 48 hours.</p>
                             </center>
                         </div>
                     </div>
-                    <div class="col-sm-3">
-                        <div class="panel ps-img-rounded">
-                            <br/>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pay-receive.svg" alt="">
-                            <br/>
-                            <br/>
-                            <span class="p-color-blue" >Step2</span>
-                            <br>
-                            <h1 class="header5 p-color-cement">Pay & Receive</h1>
-                            <br>
-                            <p class="header6 p-color-cement">We will pay for your order and will receive your order at our
-                                warehouse.
-                            </p>
-
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <div class="panel ps-img-rounded">
                             <br>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" alt="">
+                            <img src="{{asset('/img/svg/online-shop-un.svg')}}" alt="">
                             <br/>
                             <br/>
-                            <span class="p-color-blue">Step3</span>
-                            <h1 class="header5 p-color-cement">Ship in @ 80%
-                                Less Cost</h1>
+                            <span>Step2</span>
+                            <h1 class="header5 p-color-cement">Ship in @ 80% Less Cost</h1>
                             <br>
                             <p class="header6 p-color-cement">
                                 Save up to 80% in shipping costs as we wait around for 20 days for all your purchases to
@@ -259,23 +223,25 @@
 
                         </div>
                     </div>
-                    <div class="col-sm-3">
-                        <div class="panel ps-img-rounded"><br>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
-                            <br>
+                    <div class="col-sm-4">
+                        <div class="panel ps-img-rounded">
                             <br/>
-                            <span class="p-color-blue" >Step4</span>
-                            <br>
-                            <h1 class="header5 p-color-cement">Unbox Your
-                                Package</h1>
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pay-receive.svg" alt="">
                             <br/>
-                            <p class="header6 p-color-cement">
-                                We'll dispatch your shipment within 24 hours of you making a request to ship, and it will
-                                reach you safe & sound within 3-6 days, no matter wherever in the world you are!
-                            </p>
+                            <br/>
+                            <span>Step3</span>
+                            <br>
+                            <h1 class="header5 p-color-cement">Pay & Receive</h1>
+                            <br>
+                            <p class="header6 p-color-cement">Documents will be deliver to
+                                your university. WES or other
+                                address within 3-5 working days
+                                after pickup.</p>
 
                         </div>
                     </div>
+
+
                 </div>
                 <br/><br/>
                 <center>
@@ -283,7 +249,12 @@
                 </center>
                 <br/><br/>
             </div>
-            <div class="row text-center">
+            <div class="row text-center u-benifits">
+                <div class="container">
+                    <center>
+                        <h1 class="header1  p-color-cement-dark">Our Featured Services & Benefits</h1>
+                    </center>
+                </div>
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
@@ -421,23 +392,17 @@
                 submitHandler: function (form) {
                     debugger;
                     var email = $("input[name='email']").val();
-                    var name = $("input[name='Name']").val();
-                    var contact_no = $("input[name='ContactNumber']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api/diwali-offer',
+                        url: 'api/university',
                         type: "POST",
                         data: {
                             _token: token,
                             email: email,
-                            name: name,
-                            contact_no: contact_no,
                         },
                         success: function (data) {
                             console.log(data);
-                            $('#diwali-couponcode1').hide();
-                            // $('#diwali-couponcode2').css('display','block');
-                            $('#diwali-couponcode2').slideDown();
+                            window.location.replace("https://myaccount.shoppre.com/register");
                         }
                     })
                 }

@@ -1345,12 +1345,6 @@ a#prev:hover, a#next:hover {
     margin-left: 11px !important;
     margin-top: -17px !important;
 }
-
-/*.div-inner-review:hover{*/
-/*box-shadow: 0 0 60px rgba(17, 39, 59, 0.1);*/
-/*border: 1px solid rgba(146, 156, 165, 0.06);*/
-/*background-color: #ffffff;*/
-/*}*/
 .p-name {
     color: #11273b;
     font-size: 12px;
@@ -1680,7 +1674,7 @@ a#prev:hover, a#next:hover {
     font-size: 12px;
     font-weight: 600;
     margin-top: 11px;
-    margin-left: -15px;
+    text-align: left;
 }
 
 .rating-padding-left {
@@ -1769,7 +1763,7 @@ a#prev:hover, a#next:hover {
 }
 
 .rating-star-left-margin {
-    margin-left: -13px;
+    margin-left: -18px;
 }
 
 .top-padder {
@@ -1778,12 +1772,14 @@ a#prev:hover, a#next:hover {
 
 .inner-review {
     border: 1px solid rgba(146, 156, 165, 0.06);
-    background-color: #ffffff;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0px 2px 3px rgba(17, 39, 59, 0.1);
     padding-top: 4%;
-    padding-bottom: 8%;
+    padding-bottom: 4%;
     max-height: 342px;
-    min-height: 342px;
-    margin-top: 27px
+    margin-top: 30px;
+    height: 280px;
 }
 
 .rating-container .filled-stars {
@@ -1807,9 +1803,9 @@ a#prev:hover, a#next:hover {
 }
 
 .div-submit-review {
-    box-shadow: 0 10px 50px rgba(17, 39, 59, 0.1);
+    box-shadow: 0px 2px 3px rgba(17, 39, 59, 0.1);
     border-radius: 15px;
-    background-color: #ffffff;
+    background-color: #fff;
     margin: -170px 0 10px 0;
     padding-top: 4%;
     margin-bottom: 4%;
@@ -2810,9 +2806,6 @@ a#prev:hover, a#next:hover {
 }
 
 @media only screen and (max-width: 736px) {
-    .nav-a {
-
-    }
     #header-ul{
         display: none;
     }
@@ -2910,8 +2903,6 @@ a#prev:hover, a#next:hover {
     .div-footer-mail-subscripton {
         margin-right: 70px;
     }
-
-    /*review page starting*/
     .reviews-page-review-google {
         margin-left: -195px;
         padding-bottom: 60px;
@@ -3298,10 +3289,6 @@ a#prev:hover, a#next:hover {
         font-weight: 700;
     }
 
-    /*.header3 {*/
-    /*font-size: 14px;*/
-    /*font-weight: 400;*/
-    /*}*/
     .header4 {
         font-size: 14px;
         font-weight: 700;
@@ -3619,9 +3606,6 @@ a#prev:hover, a#next:hover {
         padding-left: 50px;
     }
 
-    /*#store-hide{*/
-    /*display: none;*/
-    /*}*/
     .div-stores-img {
         width: 81px;
         height: 72px;
@@ -3653,9 +3637,6 @@ a#prev:hover, a#next:hover {
         padding-bottom: 31px;
     }
 
-    /*#stars-rate{*/
-    /*display: none;*/
-    /*}*/
     #hrline1 {
         display: none;
     }
@@ -3704,10 +3685,6 @@ a#prev:hover, a#next:hover {
         margin-left: -4px;
     }
 
-    /*.div-card-holder{*/
-    /*margin-bottom: 69px;*/
-    /*margin-left: -15px;*/
-    /*}*/
     .hr-line-payment-method {
         width: 307px;
         margin-left: 130px;
@@ -3832,6 +3809,7 @@ a#prev:hover, a#next:hover {
     .div-btn {
         width: 100%;
     }
+    .inner-review {height:auto;}
 
 }
 
