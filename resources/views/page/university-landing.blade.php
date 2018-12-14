@@ -169,7 +169,7 @@
                     </tr>
                     <tr>
                         <td>UAE</td>
-                        <td>Up-to 40%</td>
+                        <td>Up-to 40%</td>create
                         <td>Starting from ₹690 /-</td>
                         <td>DHL, DTDC, Fedex</td>
                     </tr>
