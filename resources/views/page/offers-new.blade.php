@@ -78,7 +78,7 @@
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/offers/christmas-offer-on-international-shipment-courier-from-india/">
-                                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/offers-image/christmas-offer-shoppre-com.png" class="boxofScroll" alt="christmas offer"/>
+                                    <img src="{{asset('img/images/christmas-offer-shoppre-com.png')}}" class="boxofScroll" alt="christmas offer"/>
                                 </a>
                             </div>
                         </div>
@@ -111,10 +111,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Shopping Days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">6th to 8th DEC 2018</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">BOSS: Best Of Season Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">20th to 24th DEC 2018</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/"
+                                <a href="https://www.flipkart.com/best-of-season-sale-fashion-sneak-peek-store"
                                    target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
@@ -126,10 +126,10 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Upto 60% Off</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Extra 5% Cashback via Pay-TM</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">Get 10% Cashback via PayTm</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.limeroad.com/">
+                                <a href="https://www.limeroad.com/shopping-offers/">
                                     <img src="{{asset('uploads/stores/logo_59a5173241735.png')}}"/>
                                 </a>
                             </div>
@@ -140,9 +140,9 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">End of Season</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Sale - 70% OFF</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">End Of Season Sale Upto 70% OFF</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.chumbak.com/">
+                                <a href="https://www.chumbak.com/sale/ngg/c/">
                                     <img src="{{asset('uploads/stores/logo_59a68d693f754.png')}}"/>
                                 </a>
                             </div>
@@ -152,10 +152,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Upto 50% Off </h4>
-                            <h5 class="header6 p-color-cement font-weight-900">On Bags & Wallets‎</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">First Purchase & Signup</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">300 OFF</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://indiacircus.com/?">
+                                <a href="https://indiacircus.com/offers">
                                     <img src="{{asset('uploads/stores/logo_59a67ba7cb9ec.png')}}"/>
                                 </a>
                             </div>
@@ -168,11 +168,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">40-60% Off</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">on Fashion Shopping‎</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">end of reason sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">22nd to 25th DEC 2018‎</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com/">
+                                <a href="https://www.myntra.com/growth/prebuzz-home">
                                     <img src="{{asset('uploads/stores/logo_5997a62748742.png')}}"/>
                                 </a>
                             </div>
@@ -182,9 +182,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Winter Mania - Min 60%
-                                Off </h4>
-                            <h5 class="header6 p-color-cement font-weight-900">on ₹ 2490 and above</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">SALE BIG BANG</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com/">
                                     <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>
@@ -196,14 +195,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <div class="FlatOffer">
-                                FLAT 20% OFFER
-                            </div>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Christmas carnival</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">up to 40% off</h5>
                             <div class="ecomSmallBox">
-                                <div class="FlatOfferDuration">
-                                    2 Day Left
-                                </div>
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/boxCompany.png"/>
+                                <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                             </div>
                         </div>
                     </center>
@@ -211,21 +206,16 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <div class="FlatOffer">
-                                FLAT 20% OFFER
-                            </div>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">India's Biggest Fashion Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <div class="ecomSmallBox">
-                                <div class="FlatOfferDuration">
-                                    2 Day Left
-                                </div>
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/boxCompany.png"/>
+                                <img src="https://www.shoppre.com/uploads/stores/logo_599691d00e27e.png"/>
                             </div>
                         </div>
                     </center>
                 </div>
             </div>
         </div>
-
         <div class="container" style=" border-bottom: 1px solid rgba(146, 156, 165, 0.2);display: none">
             <br/>
             <h3 class="header3 p-color-cement-dark font-weight-900">ShoppRe Deals</h3>

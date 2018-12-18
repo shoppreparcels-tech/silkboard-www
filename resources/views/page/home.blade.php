@@ -171,18 +171,10 @@
         .div-shop-ship1 > div > p {text-align: center}
         .div-main .div-add{position:fixed;margin-top: 20%;z-index: 1}
         .div-main .div-add1{position:relative; float: right}
-        #mask {position:absolute;left:0;top:0;z-index:9000;background-color:#000;display:none;}
-        #boxes .window {position:absolute;left:0;top:0;height:200px;display:none;z-index:9999;padding:20px;border-radius: 15px;text-align: center;}
-        #boxes #dialog {height:auto;padding:10px;background-color:#ffffff;font-family: 'Segoe UI Light', sans-serif;font-size: 15pt;}
-        .maintext{text-align: center;font-family: "Segoe UI", sans-serif;text-decoration: none;}
-        body{background: url('bg.jpg');}
-        #lorem{font-family: "Segoe UI", sans-serif;font-size: 12pt;text-align: left;}
-        #popupfoot{font-family: "Segoe UI", sans-serif;font-size: 16pt;padding: 10px 20px;}
-        #popupfoot a{text-decoration: none;}
-        .div-popup-title{top: 199.5px; left: 551.5px; display: none;background-color: #507dbc}
-        .agree:hover{background-color: #D1D1D1;}
-        .popupoption:hover{background-color:#D1D1D1;color: green;}
-        .popupoption2:hover{color: red;}
+
+        .content-oes{background-color: #fafafb;padding-left: 4%;padding-right: 4%}
+        .content-oes div h1{font-size:20px;color: #11273b;}
+        .content-oes div p{font-size: 14px;color: #677582;margin-top: 15px}
         @media only screen and (max-width: 1024px) {
             .div-add {display: none;}
         }
@@ -195,20 +187,7 @@
 
 @section('content')
     <main class="div-main" role="main">
-        {{--<div id="boxes">--}}
-            {{--<div id="dialog" class="window div-popup-title">--}}
-                {{--<h1 class="header1 p-color-white font-weight-900"> Avail Your Discount Today!</h1>--}}
-                {{--<div id="lorem">--}}
-                    {{--<p>Shoppre.com</p>--}}
-                {{--</div>--}}
-                {{--<div id="popupfoot"> <a href="#" class="close agree">Login</a> | <a class="agree"style="color:red;" href="http://www.cartoonnetwork.com/">Register</a> </div>--}}
-            {{--</div>--}}
-            {{--<div style="width: 1478px; font-size: 32pt; color:white; height: 602px; display: none; opacity: 0.8;" id="mask"></div>--}}
-        {{--</div>--}}
-
-
         <div class="div-add no-padding pull-right"><a href="{{'offers'}}"><img src="{{asset('/img/offers-image/xmas-offer-starts.png')}}" alt="" class="pull-right"></a></div>
-        {{--<div class="div-add1 pull-right"><img src="{{asset('/img/offers-image/xmas-offer.png')}}" alt=""></div>--}}
         <div class="container header-menu-home-page"id="header-menu">
             <div class="col-md-2">
                 <a href="{{route('ifs.index')}}" class="header6 p-color-cement">
@@ -471,7 +450,6 @@
         </div>
     </main>
     <!-- Main container -->
-
     <section>
         <div class="container">
             <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
@@ -926,6 +904,50 @@
         </div>
        {{--commented code placed in homepage folder--}}
 
+    </section>
+    <section class="content-oes">
+        <div class="container">
+            <h1>Shop from India without second thoughts from now on, we ship around the world!</h1>
+
+            <p>Our Shop&Ship enables online shopping from India and shipping to the USA, UK, UAE, Australia etc.-
+                (you name it, we ship there) - with a streamlined set of services & an ease that you’ve never known before.
+                You can <a href="{{route('stores1')}}">shop around on Indian stores</a>  as much as you want, we’re here to take it from there. </p>
+
+            <h1>Schedule a Pickup from ANYWHERE in India, we’ll come to the door to pick it up!</h1>
+
+            <p>Sending a courier abroad from India is now made extremely easy by ShoppRe Courier.
+                We impart personalized attention to each package we handle, and offer country-specific
+                discounts; making it the cheapest international courier service in India!</p>
+
+            <h1>Is it possible to shop online from India without any hassles, you ask?</h1>
+
+            <p>Say goodbye to all the international credit/debit card hassles at checkout! A group of experts here at
+                ShoppRe is at your beck & call to help you out with the whole shopping process; our Personal Shopper
+                will do the shopping for you! They‘re quick on their hands & exists to make package
+                forwarding from India a no-brainer.</p>
+
+            <h1>Your favourite Indian shopping site doesn’t deliver Internationally?</h1>
+
+            <p>You don’t have to break a sweat anymore! Come to ShoppRe, we’re here with the cheapest courier rates
+                that you can possibly find in India, enabling you to go on a shopping spree online and ship
+                your packages internationally without burning a hole through your pockets.</p>
+
+            <h1>So, how do we save you up to 80% on shipping costs?</h1>
+
+            <p>While you gather around your wishlists from all your favourite stores here, you can store all your
+                purchases in our FREE personal locker that we assign just for you, we consolidate them into one,
+                and send your parcel off to you wherever you’re abroad!</p>
+
+            <h1>Want to send greetings & gifts overseas from India?</h1>
+
+            <p>Tired of looking for the cheapest way possible to ship a courier from India to the USA, UK & such?
+                Look no more! You’re right where you need to be. Learn more about the never-before-like
+                <a href="{{route('pricing')}}">shipping charges from India</a>, that we offer! </p>
+
+
+        </div>
+        <br>
+        <br>
     </section>
     <section>
         <div class="container div-got-top">

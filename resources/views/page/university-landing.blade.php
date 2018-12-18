@@ -63,7 +63,7 @@
                    <img src="{{asset('img/images/plane_earth.png')}}" alt="" class="img-new-year">
                    <h2 class="p-color-yellow header-spacing header2 ">Student Special Offer | Get 50% Off Your Shipping Costs!</h2>
                    <h1 class="header1 p-color-white header-spacing font-weight-900">Courier Any Document Abroad</h1>
-                   <h2 class="header2 p-color-white font-weight-900">Starting from ₹690/-</h2> <br>
+                   <h2 class="header2 p-color-white font-weight-900">Starting from ₹553/-</h2> <br>
                    <form action=""  method="post" id="diwali_coupon">
                        {{csrf_field()}}
                        <div class="" id="diwali-couponcode1">
@@ -101,7 +101,7 @@
             <div class=" col-md-12 un-offers">
                 <p class="header4 p-color-cement">Are you a student applying for higher studies abroad, or a potential candidate
                     for a job position? Either ways, and for other broader range of reasons; if you have documents to send overseas,
-                    we're the best & the right choice. We ship to 220+ countries, and our shipping rates start from just *Rs.690.</p>
+                    we're the best & the right choice. We ship to 220+ countries, and our shipping rates start from just *Rs.553.</p>
                 <br>
                 <p class="header4 p-color-cement">Applying for your MS or MBA to universities abroad requires lot of
                     research and is quite tedious. Also, many top universities require hard copies of your important
@@ -121,7 +121,7 @@
                 </div>
                 <br>
                 <div>
-                <center><a href="" class="btn-chris-place-order">Schedule A Pickup!</a></center>
+                <center><a href="{{route('schedulePickup.Index')}}" class="btn-chris-place-order">Schedule A Pickup!</a></center>
                 </div>
 
             </div>
@@ -138,46 +138,40 @@
                 <table >
                     <tr>
                         <th>Country</th>
-                        <th>Discount</th>
-                        <th>ShoppRe Discounted Price</th>
+                        <th>Price for 100grams</th>
+                        <th>Price for 300grams</th>
                         <th>Courier Partners</th>
                     </tr>
                     <tr>
+                        <td>UAE</td>
+                        <td>₹553</td>
+                        <td>₹636</td>
+                        <td>DHL, DTDC, FedEx</td>
+                    </tr>
+                    <tr>
+                        <td>Germany</td>
+                        <td>₹1287</td>
+                        <td>₹1346</td>
+                        <td>DHL, DTDC, FedEx</td>
+                    </tr>
+                    <tr>
                         <td>USA</td>
-                        <td>Up-to 50%</td>
-                        <td>Starting from ₹690 /-</td>
-                        <td>DHL, DTDC, Fedex</td>
+                        <td>₹1297</td>
+                        <td>₹1356</td>
+                        <td>DHL, DTDC, FedEx</td>
 
                     </tr>
                     <tr>
                         <td>Canada</td>
-                        <td>Up-to 60%</td>
-                        <td>Starting from ₹690 /-</td>
-                        <td>DHL, DTDC, Fedex</td>
+                        <td>₹1395</td>
+                        <td>₹1458</td>
+                        <td>DHL, DTDC, FedEx</td>
                     </tr>
                     <tr>
-                        <td>United Kingdom</td>
-                        <td>Up-to 20%</td>
-                        <td>Starting from ₹690 /-</td>
-                        <td>DHL, DTDC, Fedex</td>
-                    </tr>
-                    <tr>
-                        <td>Austrelia</td>
-                        <td>Up-to 10%</td>
-                        <td>Starting from ₹690 /-</td>
-                        <td>DHL, DTDC, Fedex</td>
-                    </tr>
-                    <tr>
-                        <td>UAE</td>
-                        <td>Up-to 40%</td>create
-                        <td>Starting from ₹690 /-</td>
-                        <td>DHL, DTDC, Fedex</td>
-                    </tr>
-                    <tr>
-                        <td>256+ More</td>
-                        <td>Up-to 80%</td>
-                        <td>Starting from ₹690 /-</td>
-                        <td>DHL, DTDC, Fedex</td>
+                        <td>Australia</td>
+                        <td>₹1455</td>
+                        <td>₹1521</td>
+                        <td>DHL, DTDC, FedEx</td>
                     </tr>
                 </table>
             </div>
@@ -197,7 +191,7 @@
                         <div class="panel ps-img-rounded">
                             <center>
                                 <br/>
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-product.svg" alt="">
+                                <img src="{{asset('img/images/graphic_parsal.png')}}" alt="" style="height: 64px;">
                                 <br/>
                                 <br/>
                                 <span>Step1</span>
@@ -245,7 +239,7 @@
                 </div>
                 <br/><br/>
                 <center>
-                    <a href=""class="btn-chris-place-order">Place Your Order Now!</a>
+                    {{--<a href=""class="btn-chris-place-order">Place Your Order Now!</a>--}}
                 </center>
                 <br/><br/>
             </div>

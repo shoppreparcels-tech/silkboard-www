@@ -405,7 +405,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ifs-tab-container">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ifs-tab-menu">
                     <div class="list-group">
-                        <a href="#" class="list-group-item active text-center">
+                        <a href="#" class="list-group-item active">
                             <div class="div-radio-btn" id="div-radio-btn1">
                                 <label class="radio-ifs header5">
                                     <input type="radio" checked="checked" name="is_company">
@@ -414,7 +414,7 @@
                             </div>
                             <h5 class="header5 li-header ">Personal Shopper</h5>
                         </a>
-                        <a href="#" class="list-group-item text-center">
+                        <a href="#" class="list-group-item ">
                             <div class="div-radio-btn" id="div-radio-btn2">
                                 <label class="radio-ifs header5">
                                     <input type="radio" name="is_company">
@@ -423,7 +423,7 @@
                             </div>
                             <h5 class="header5 li-header">20-Day Free Storage</h5>
                         </a>
-                        <a href="#" class="list-group-item text-center">
+                        <a href="#" class="list-group-item ">
                             <div class="div-radio-btn" id="div-radio-btn3">
                                 <label class="radio-ifs header5">
                                     <input type="radio" name="is_company">
@@ -432,7 +432,7 @@
                             </div>
                             <h5 class="header5 li-header">Consolidation</h5>
                         </a>
-                        <a href="#" class="list-group-item text-center">
+                        <a href="#" class="list-group-item">
                             <div class="div-radio-btn" id="div-radio-btn3">
                                 <label class="radio-ifs header5">
                                     <input type="radio" name="is_company">
@@ -441,7 +441,7 @@
                             </div>
                             <h5 class="header5 li-header">Repackaging</h5>
                         </a>
-                        <a href="#" class="list-group-item text-center">
+                        <a href="#" class="list-group-item ">
                             <div class="div-radio-btn" id="div-radio-btn5">
                                 <label class="radio-ifs header5">
                                     <input type="radio" name="is_company">
@@ -450,7 +450,7 @@
                             </div>
                             <h5 class="header5 li-header">Affordable Rates</h5>
                         </a>
-                        <a href="#" class="list-group-item text-center">
+                        <a href="#" class="list-group-item ">
                             <div class="div-radio-btn" id="div-radio-btn6">
                                 <label class="radio-ifs header5">
                                     <input type="radio" name="is_company">

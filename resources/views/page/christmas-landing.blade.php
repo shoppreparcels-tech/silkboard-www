@@ -7,43 +7,11 @@
 
 @section('css_style')
     <style>
-      .bg-christmas-landing-page {background-image: url("../../img/images/background_xmas.png");height: 813px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
-      .bg-christmas-landing-page .div-snow{padding-top: 189px;}
-      .bg-christmas-landing-page .div-snow img{position: absolute;}
-      .bg-christmas-landing-page .div-newyear{padding-top: 173px;}
-      .bg-christmas-landing-page .div-newyear img{margin-left: -69px;position: absolute;}
+        .christmas-service .shopandship,.ps,.ic, h2{font-size: 22px;font-weight: 500;color: rgba(255, 255, 255, 0.6);}
+        .christmas-service .shopandship,.ps,.ic, p{color: #ffffff;font-size: 16px;font-weight: 600;}
+        .btn-grab-offer{width: 180px;height: 40px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 60px;background-color: #e85151;color: #fff;transition: 0.6s}
+        .btn-grab-offer:hover{color: #fff;background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);}
 
-      .textbox-email{width: 358px;height: 50px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);border-radius: 25px!important;background-color: #ffffff;border: 0;padding-left:9% }
-      .btn-grab-offer{width: 180px;height: 40px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 60px;background-color: #e85151;color: #fff;transition: 0.6s}
-      .btn-grab-offer:hover{color: #fff;background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);}
-      .christmas-service{box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 15px;background-color: #fafafb;margin-top: -360px;padding: 20px}
-      .christmas-service .c-image{padding: 20px}
-      .christmas-service .shopandship{padding:20px; box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);border-radius: 8px;background-image: linear-gradient(228deg, #ff7c5b 0%, #e8517a 100%);}
-      .christmas-service .ps{padding:20px; box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);;border-radius: 8px;background-image: linear-gradient(228deg, #4df696 0%, #50bc70 100%);}
-      .christmas-service .ic{padding:20px; box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);;border-radius: 8px;background-image: linear-gradient(229deg, #27cbff 0%, #2aa1d5 100%);}
-      .christmas-service .shopandship,.ps,.ic, h2{font-size: 22px;font-weight: 500;color: rgba(255, 255, 255, 0.6);}
-      .christmas-service .shopandship,.ps,.ic, p{color: #ffffff;font-size: 16px;font-weight: 600;}
-      .christmas-service .btn-chris-place-order{padding: 13px 50px;color:#fff; width: 300px;height: 50px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 30px;background-color: #e85151;}
-      .chris-benefits{padding-top: 30px}
-      .chris-benefits ul{text-decoration: none;list-style: none;}
-      .chris-benefits ul li{color: #224464;font-family: Bahnschrift;font-size: 18px;font-weight: 400;text-align: left;padding-top: 15px;}
-      .chris-benefits ul li img{margin-top: 9px;}
-      .text-center div{ padding-top: 20px}
-      .santa-mobile{display: none}
-      .chris-benefits .panel{box-shadow: 0 2px 10px rgba(0,0,0,.05) !important;}
-      .chris-benefits .panel ul li span{margin-left: 15px;}
-      #contact-support{padding-bottom: 30px;}
-       @media only screen and (max-width: 600px) {
-           .textbox-email {width: 330px;}
-           .div-snow{display: none;}
-           .div-newyear{display: none;}
-           .christmas-service {margin-top: -290px;}
-           .christmas-service .c-image {padding: 0px}
-           .santa-mobile{display: block;width: 140px;}
-           .c-image{display: none}
-           .txt-align{text-align: center}
-           .chris-benefits ul li{font-size: 16px};
-       }
     </style>
 
 @endsection

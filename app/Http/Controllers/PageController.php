@@ -57,6 +57,11 @@ class PageController extends Controller
         return view('page.ics-landing');
     }
 
+     public function flipkartIndex()
+    {
+        return view('page.flipkart-landing');
+    }
+
     public function ifsLandingPage()
     {
         return view('page.personal-shoper');
