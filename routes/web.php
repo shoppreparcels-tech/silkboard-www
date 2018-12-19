@@ -50,7 +50,7 @@ Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('sche
 
 /*-------- ICS ------*/
 
-Route::get('/ics', 'PageController@icsIndex')->name('ics.index');
+Route::get('/international-courier-shipping-services-india', 'PageController@icsIndex')->name('ics.index');
 Route::get('/2018-annual-awards-international-shipping-shopping', 'PageController@award')->name('award.index');
 Route::get('/shop-from-india-ship-worldwide', 'PageController@ifsIndex')->name('ifs.index');
 //Route::get('/about-new', 'PageController@aboutIndex')->name('about-new.index');

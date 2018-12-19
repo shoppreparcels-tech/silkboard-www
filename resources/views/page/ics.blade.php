@@ -1,14 +1,14 @@
 @extends('layout')
 
-@section('title', 'ShoppRe - Shop Indian Stores & Ship Internationally | Courier Service')
-@section('description', 'Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India&#039;s #1 international courier, shipping and consolidation company.')
-@section('keywords', 'shop and ship, courier service, shoppre, consolidation company, indian store, ship internationally')
+@section('title', 'ShoppRe Courier - International & Domestic Shipping Services')
+@section('description', 'One-stop destination for all your courier needs; domestic & international. We ship to 220+ countries around the world. Request Pickup Now!')
+@section('keywords', 'courier service, international package, schedule a pickup, ship internationally')
 
 @section('css_style')
     <style>
-        .div-padding-bottom{
-            padding-bottom: 8%;
-        }
+        .div-padding-bottom{padding-bottom: 4%;}
+        .div-padding-bottom .btn-a{padding: 10px;border-radius: 30px;background-color: #e85151;color: #ffffff;font-size: 16px;}
+        .div-padding-bottom .btn-a:hover{color: #fff;background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);}
     </style>
 
 @endsection
@@ -23,67 +23,9 @@
                 </p>
                 <h1 class="header1  p-color-white">ShoppRe Courier</h1>
                 <p class="header2 p-color-cement">One-stop destination for all your courier needs; domestic & international.
-                    <br> We ship to 220+ countries around the world!</p>
-
+                    <br> We ship to 220+ countries around the world!</p> <br>
+                <a href="{{route('pricing')}}" class="btn-a">Get An Estimate</a>
             </center>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12   div-courier-cal">
-                <div class="tab" role="tabpanel">
-                    <!-- Nav tabs -->
-                    <ul class="nav nav-tabs ul-margin" role="tablist">
-                        <li role="presentation" class="active" style="margin-left: 15px">
-                            <a href="#International" aria-controls="home" role="tab" data-toggle="tab">International</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#Domestic" aria-controls="profile" role="tab" data-toggle="tab">Domestic</a>
-                        </li>
-                    </ul>
-                    <!-- Tab panes -->
-                    <div class="tab-content tabs">
-                        <div role="tabpanel" class="tab-pane fade in active" id="International">
-                            <div class="col-lg-12 col-md-12 ">
-                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                    <input class="text-box-margin cal-text-box" type="text" name=""
-                                           placeholder=" India" disabled>
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                    <input class="text-box-margin cal-text-box" type="text" name=""
-                                           placeholder=" Destination">
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                    <input class="text-box-margin cal-text-box" type="text" name=""
-                                           placeholder="Weight of the Package (in Kg.)">
-
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 div-courier-cal-margin">
-                                    <a href="{{route('pricing')}}" class="btn btn-pricing-estimate" id="International">Get a FREE Estimate</a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div role="tabpanel" class="tab-pane fade" id="Domestic">
-                            <div class="col-lg-12 col-md-12 ">
-                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                    <input class="text-box-margin cal-text-box" type="text" name="" placeholder="  From India ">
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                    <input class="text-box-margin cal-text-box" type="text" name="" placeholder="  To ">
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                    <input class="text-box-margin cal-text-box" type="text" name=""placeholder="Weight of the Package (in Kg.)">
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 div-courier-cal-margin">
-                                    <a href="{{route('pricing')}}" class="btn btn-pricing-estimate" id="International">Get a FREE Estimate</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 

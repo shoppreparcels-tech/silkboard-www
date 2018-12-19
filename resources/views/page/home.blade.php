@@ -287,7 +287,7 @@
 
                                 <div class="row">
                                     <center>
-                                        <a href="{{route('schedulePickup.Index')}}">
+                                        <a href="{{route('ics.index')}}">
                                             <div class="btn-courier1" id="btn-courier">
                                                 <p class="shop-ship-btn-name">
                                                     COURIER NOW!
@@ -380,7 +380,7 @@
 
                                 <div class="row">
                                     <center>
-                                        <a href="{{route('schedulePickup.Index')}}">
+                                        <a href="{{route('ics.index')}}">
                                             <div class="btn-courier" id="btn-courier">
                                                 <p class="shop-ship-btn-name">
                                                     COURIER NOW!

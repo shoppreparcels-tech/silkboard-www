@@ -198,7 +198,9 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Christmas carnival</h4>
                             <h5 class="header6 p-color-cement font-weight-900">up to 40% off</h5>
                             <div class="ecomSmallBox">
-                                <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
+                                <a href="https://www.amazon.in/b?node=3837822031&pf_rd_p=bd0bd9a2-f534-4dfd-8f90-2da4803a5dc5&pf_rd_r=4C2HR8GNK005XF0YTGRR">
+                                  <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
+                                </a>
                             </div>
                         </div>
                     </center>
@@ -209,7 +211,9 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">India's Biggest Fashion Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <div class="ecomSmallBox">
-                                <img src="https://www.shoppre.com/uploads/stores/logo_599691d00e27e.png"/>
+                                <a href="https://www.jabong.com/sis/end-of-reason-sale-prebuzz">
+                                    <img src="https://www.shoppre.com/uploads/stores/logo_599691d00e27e.png"/>
+                                </a>
                             </div>
                         </div>
                     </center>
