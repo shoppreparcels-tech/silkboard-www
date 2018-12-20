@@ -6,9 +6,14 @@
 
 @section('css_style')
     <style>
-        .div-padding-bottom{padding-bottom: 4%;}
-        .div-padding-bottom .btn-a{padding: 10px;border-radius: 30px;background-color: #e85151;color: #ffffff;font-size: 16px;}
+        .div-padding-bottom{background-image: url("../../img/images/international-courier-from-india.png");height: 470px;width: 100%;background-position: inherit;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;padding-bottom: 4%;}
+        .div-padding-bottom .btn-a{margin-left: 25px;padding: 10px;border-radius: 30px;background-color: #e85151;color: #ffffff;font-size: 16px;}
+        .div-padding-bottom .btn-b{margin-left: 25px;padding: 10px;border-radius: 30px;background-color: #507dbc;color: #ffffff;font-size: 16px;}
         .div-padding-bottom .btn-a:hover{color: #fff;background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);}
+        @media only screen and (max-width: 600px) {
+            .div-padding-bottom .btn-a{margin-left: 0px}
+        }
+
     </style>
 
 @endsection
@@ -17,14 +22,15 @@
         <div class="container div-padding-bottom">
             <center>
                 <p class="header-ifs-p">
-                    <a class="bla-1" href="https://www.youtube.com/watch?v=Zf77ljCx9Ik&t=5s">
+                    <a class="bla-1" href="https://www.youtube.com/watch?v=lQi4Io_WH70">
                         <img class="btn-vid-img" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/btn.svg">
                     </a>
                 </p>
                 <h1 class="header1  p-color-white">ShoppRe Courier</h1>
-                <p class="header2 p-color-cement">One-stop destination for all your courier needs; domestic & international.
-                    <br> We ship to 220+ countries around the world!</p> <br>
-                <a href="{{route('pricing')}}" class="btn-a">Get An Estimate</a>
+                <p class="header2 p-color-white">One-stop destination for all your courier needs; domestic & international.
+                    <br> We ship to 220+ countries around the world!</p> <br><br><br>
+                <a href="{{route('schedulePickup.Index')}}" class="btn-a" style="    margin-left: -10px;">Request Pickup</a>
+                <a href="{{route('pricing')}}" class="btn-b">Get An Estimate</a>
             </center>
         </div>
     </section>

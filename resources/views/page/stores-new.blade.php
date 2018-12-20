@@ -50,6 +50,7 @@
     "https://play.google.com/store/apps/details?id=com.shoppre.play"
   ]
 }
+</script>
 @endsection
 
 @section('content')
@@ -418,6 +419,48 @@
     {{--</div>--}}
     {{--</div>--}}
     {{--</section>--}}
+            <section class="content-oes-stores">
+               <div class="container">
+                   <h1>Did you know that India has over 1000 shopping portals online? The number is only going up by day. </h1>
+
+                   <p>The beauty of e-commerce is, it makes the market truly borderless. Indian trends are gaining popularity and global shoppers are noticing Indian Online Stores now more than ever!</p>
+
+            <h1>Shop around for anything under the sun!</h1>
+
+            <p>From car seats to cosmetics, you can find anything online and get us to ship’em to you; given that your purchases follow our Customs & Clearance policies & yours.</p>
+
+            <h1>What makes India attractive as a shopping hub?</h1>
+
+            <p>Apart from the global NRI community that is always the most-enthusiastic about Indian products,  the
+                other shoppers from around the world approach Indian sellers as their shopping sites offer cheap prices
+                for high-quality products like clothing & accessories.
+                The huge difference in currency values doesn’t hurt either!</p>
+
+            <h1>Where do we come in to the picture?</h1>
+
+            <p>The majority of shopping sites - even the top e-commerce companies in India such as Amazon India,
+                Flipkart or Myntra - doesn’t offer International shipping as a service.  So for those who
+                tends to do online shopping here ends up with having to look for an <a href="{{route('ics.index')}}">international shipping
+                solution</a> from outside the bounds of the seller to ship their purchases in from India.</p>
+
+            <h1>Grab the best deals, and never miss the crazy sales on your favourite shopping site!</h1>
+
+            <p>Here we get all the popular indian portals including Amazon, Flipkart, Myntra & more in one place so
+                that you can check out the <a href="{{route('offers-new.index')}}">offers & sales running</a> on them and pick & choose your purchases well-informed!
+            </p>
+
+            <h1>How do you get us to ship to your destination?</h1>
+            <p>Just ship your purchases to the <a href="https://www.shoppre.com/services/virtual-address-in-india/">virtual shipping address</a>  we provide, and we take it from there.
+                We have even a Personal Shopper in case you need help with your shopping.</p>
+            <p>Now shop from Jabong, SnapDeal or any other <a href="https://www.shoppre.com/sellers-shipping">Indian online seller</a> among the many without a doubt;
+                we have made international shipping and, shopping for that matter, tons easier!</p>
+            <p>We ship to 220+ countries including the USA, UK, Australia & UAE.</p>
+
+
+        </div>
+        <br>
+        <br>
+    </section>
 
 @endsection
 

@@ -85,8 +85,8 @@
 
                         <div class="item">
                             <div class="pad15">
-                                <a href="#">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box1.png" class="boxofScroll"/>
+                                <a href="https://www.shoppre.com/university-offer?src=off-page">
+                                    <img src="{{asset('img/images/university-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>

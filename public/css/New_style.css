@@ -2298,6 +2298,14 @@ a#prev:hover, a#next:hover {
     background-color: #C83B3B;
 }
 
+/*seo-footer*/
+.content-oes{background-color: #fafafb;padding-left: 4%;padding-right: 4%}
+.content-oes-stores{background-color: #fff;padding-left: 4%;padding-right: 4%}
+.content-oes div h1{font-size:20px;color: #11273b;}
+.content-oes-stores div h1{font-size:20px;color: #11273b;}
+.content-oes div p{font-size: 14px;color: #677582;margin-top: 15px}
+.content-oes-stores div p{font-size: 14px;color: #677582;margin-top: 15px}
+/*seo-footer*/
 /*contactus page starting*/
 /*Media queries*/
 /* Extra small devices (phones, 600px and down) */

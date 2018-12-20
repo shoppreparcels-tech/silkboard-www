@@ -172,9 +172,7 @@
         .div-main .div-add{position:fixed;margin-top: 20%;z-index: 1}
         .div-main .div-add1{position:relative; float: right}
 
-        .content-oes{background-color: #fafafb;padding-left: 4%;padding-right: 4%}
-        .content-oes div h1{font-size:20px;color: #11273b;}
-        .content-oes div p{font-size: 14px;color: #677582;margin-top: 15px}
+
         @media only screen and (max-width: 1024px) {
             .div-add {display: none;}
         }
@@ -607,9 +605,9 @@
                 {{--<a href="https://www.flipkart.com/" target="_blank">--}}
                 <div class=" col-xs-3 div-stores-img">
                     <center class="online-stores">
-                        <img class="img-responsive img-stores"
+                        <a href="{{route('flipkart.landing')}}"><img class="img-responsive img-stores"
                              src="{{env('AWS_CLOUD_FRONT')}}/img/stores/flipkart-international-shopping.png"
-                             alt="flipkart.com international delivery shipping">
+                             alt="flipkart.com international delivery shipping"></a>
                     </center>
                 </div>
                 {{--</a>--}}
@@ -917,7 +915,7 @@
 
             <p>Sending a courier abroad from India is now made extremely easy by ShoppRe Courier.
                 We impart personalized attention to each package we handle, and offer country-specific
-                discounts; making it the cheapest international courier service in India!</p>
+                discounts; making it the <a href="{{route('ics.index')}}">cheapest international courier service in India!</a></p>
 
             <h1>Is it possible to shop online from India without any hassles, you ask?</h1>
 
@@ -934,7 +932,7 @@
 
             <h1>So, how do we save you up to 80% on shipping costs?</h1>
 
-            <p>While you gather around your wishlists from all your favourite stores here, you can store all your
+            <p>While you gather around your wishlists from all <a href="{{route('stores1')}}">your favourite stores here</a>, you can store all your
                 purchases in our FREE personal locker that we assign just for you, we consolidate them into one,
                 and send your parcel off to you wherever you’re abroad!</p>
 

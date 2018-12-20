@@ -77,6 +77,16 @@
   <priority>0.50</priority>
 </url>
 <url>
+    <loc>https://www.shoppre.com/international-courier-shipping-services-india</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/flipkart-shopping-with-shoppre-from-india</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.50</priority>
+</url>
+<url>
     <loc>https://www.shoppre.com/2018-annual-awards-international-shipping-shopping</loc>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>

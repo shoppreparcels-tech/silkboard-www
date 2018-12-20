@@ -26,7 +26,7 @@
     <section class="bg-ics-landing-page">
         <div class="container">
             <center>
-                <h1 class="p-color-white header-spacing d-header-text">Flipkart International Shipping From India</h1>
+                <h1 class="p-color-white header-spacing d-header-text">Flipkart - International Shipping From India</h1>
 
             </center>
 
@@ -38,7 +38,7 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Good News Again! This offer is valid on all our services!</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">What We Offer in a Nutshell</h2>
                 </div>
                 {{--<div class="col-md-2 col-md-offset-1 col-xs-12">--}}
                     {{--<a href="tel:+91-80 4094 4077" class="c-image">--}}
@@ -73,8 +73,8 @@
             </div>
 
             <div class=" col-md-12 offer-description">
-                <h2 class="header2 p-color-cement-dark">Looking for the best shipping option that's from India?</h2>
-                <h4 class="header4 p-color-cement">Join our quest to be the #1 shipping & consolidation solution
+                <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">Looking for the best shipping option that's from India?</h2>
+                <h4 class="p-color-cement" style="font-style:italic">Join our quest to be the #1 shipping & consolidation solution
                     you can find, to assist with your shopping from say, Flipkart India</h4>
                 <br>
                 <p class="header4 p-color-cement">We’re a shipping & consolidation company that specializes in domestic & international logistic solutions.
@@ -164,11 +164,8 @@
         <div class="container">
             <center>
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Well, what's the wait? Sign Up with us now for a lifetime of effortless shopping!</h1>
-                <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn-chris-place-order">Sign Up Free</a>
-                {{--<h3>Learn [what ShoppRe has in store for this Christmas & New Years']! </h3>--}}
-                {{--<h3>Find out more on the [Flipkart offers] that are running now!</h3>--}}
-                {{--<h2 class="p-color-cement-dark">Join the #1 shipping solution whose popularity is ever-increasing!</h2>--}}
-                {{--<p class="p-color-cement-dark">Don't wait around for the nearby stores 'finally' to get the latest trends, just shop around here & let us know when you want to us to ship them all.</p>--}}
+                <br>
+                <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn-chris-place-order">Sign Up for Free</a>
 
             </center>
         </div>
@@ -177,7 +174,7 @@
         <div class="container div-ics-border-btm">
             <div class="container">
                 <center>
-                    <h1 class="header1  p-color-cement-dark">How <span class="p-color-blue">To Shop From Flipkart</span>?
+                    <h1 class="header1  p-color-cement-dark">How <span class="p-color-blue">to Bag Your Favorites from Flipkart</span>?
                     </h1>
                 </center>
             </div>
@@ -191,7 +188,7 @@
                             <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-product.svg" alt="">
                             <br/>
                             <br/>
-                            <span class="p-color-blue">Step1</span>
+                            <span class="p-color-blue">Step 1</span>
                             <h1 class="header5 p-color-cement">Shop Flipkart Products</h1>
                             <br>
                             <p class="p-color-cement header5">
@@ -207,7 +204,7 @@
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pay-receive.svg" alt="">
                         <br/>
                         <br/>
-                        <span class="p-color-blue" >Step2</span>
+                        <span class="p-color-blue" >Step 2</span>
                         <br>
                         <h1 class="header5 p-color-cement">Pay & Receive</h1>
                         <br>
@@ -223,7 +220,7 @@
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" alt="">
                         <br/>
                         <br/>
-                        <span class="p-color-blue">Step3</span>
+                        <span class="p-color-blue">Step 3</span>
                         <h1 class="header5 p-color-cement">Ship in @ 80%
                             Less Cost</h1>
                         <br>
@@ -239,7 +236,7 @@
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
                         <br>
                         <br/>
-                        <span class="p-color-blue" >Step4</span>
+                        <span class="p-color-blue" >Step 4</span>
                         <br>
                         <h1 class="header5 p-color-cement">Unbox Your
                             Package</h1>

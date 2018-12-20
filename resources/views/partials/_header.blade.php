@@ -222,7 +222,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="https://www.shoppre.com/offers">Offers <sup class="p-color-red" style="font-size: 8px" id="offer">New</sup> </a></li>
+                    <li><a href="{{route('offers-new.index')}}">Offers <sup class="p-color-red" style="font-size: 8px" id="offer">New</sup> </a></li>
                     <li><a href="{{route('pricing')}}">Price Calculator</a></li>
                     <li><a href="{{route('contact')}}">Support</a></li>
                     <li>

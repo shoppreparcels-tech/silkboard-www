@@ -82,7 +82,6 @@ class PageController extends Controller
     public function faqNew()
     {
         $categories = FaqCategory::all();
-//        print json_encode($categories);exit;
         return view('page.faq-new')->with('categories', $categories);
     }
 

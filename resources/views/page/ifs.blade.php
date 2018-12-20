@@ -31,7 +31,7 @@
     <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 
     <style>
-        .header .container{padding-bottom: 50px}
+        /*.header .container{padding-bottom: 50px}*/
         .box-ifs {/*margin-left: 70px*/}
         .box-ifs p {font-weight: 900;}
         #image1 {margin-top: -94px;}
@@ -57,6 +57,7 @@
         .div-play-btn{padding-top: 20px;}
         .div-play-btn img{width: 40px;margin-top: -10px;}
         .div-play-btn a span{margin-top: 5px}
+        .ifs-bg-img{background-image: url("../../img/images/international-courier-from-india.png");height: 470px;width: 100%;background-position: inherit;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;padding-bottom: 4%;}
         @media only screen and (max-width: 600px) {
             .register-free {padding: 10px 9px 10px;}
             .div-play-btn{padding-top: 10px;}
@@ -65,7 +66,7 @@
 @endsection
 
 @section('content')
-    <section class="header">
+    <section class="header ifs-bg-img">
         <div class="container">
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                 <center>
@@ -76,7 +77,7 @@
 
                     </p>
                     <h1 class="header1 p-color-white">What is <span>Shop & Ship?</span></h1>
-                    <p class="header2 p-color-cement header-ifs-p1">Ship your purchases to us; we'll store, consolidate,
+                    <p class="header2 p-color-white header-ifs-p1">Ship your purchases to us; we'll store, consolidate,
                         <br> repackage & ship them to WHEREVER you are! </p>
                     <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" class="register-free">Sign Up & Receive FREE Virtual Address</a>
                 </center>
@@ -941,6 +942,53 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section class="content-oes">
+        <div class="container">
+            <h1>‘Shop & Ship’ from India; With ShoppRe!</h1>
+
+            <p>E-commerce industry has revolutionized our shopping experience and we extend the same with presenting
+                ShoppRe as <a href="{{route('home')}}"> the best package forwarding company</a> for shipping international purchases . Hence ‘Shop and Ship’! </p>
+
+            <h1>What exactly is our Package Forwarding Service?</h1>
+
+            <p>As almost all of the Indian Shopping Sites like Myntra, <a href="{{route('flipkart.landing')}}">Flipkart</a>, Amazon India etc. don’t offer International Shipping;
+                online shopping from India becomes the least favorable for someone who resides outside of India.
+                So, what we offer to do for them is, receive their packages from Indian online sellers at our warehouse
+                in Bangalore, and courier those along to the destination of the customer abroad;
+                with a load of accompanying services and benefits!</p>
+
+            <h1>How does package forwarding work in ShoppRe?</h1>
+
+            <p>Package Forwarding - the backbone of our service, Shop & Ship starts from when a customer signs up for a
+                ShoppRe <a href="https://www.shoppre.com/services/virtual-address-in-india/">Indian virtual shipping address</a>. The customer gets a Personal Locker with 20 days of FREE
+                storage period to accumulate their purchases at our warehouse. We, in turn,
+                forward their packages to their address abroad. </p>
+
+            <h1>How do we save you 80% in shipping costs?</h1>
+
+            <p>We consolidate the packages in your Locker into one after you make a Ship Request; which,
+                saves you from shipping them in individually - making us the cheapest parcel forwarding company in
+                the whole country! Our Package Consolidation hence aids in making
+                <a href="{{route('stores1')}}">shopping from Indian stores</a> & shipping globally reasonably affordable.</p>
+
+            <h1>Finding it difficult to shop on stores?</h1>
+
+            <p>From managing Indian credentials for shipping documentations to making payments for you;
+                our Personal Shopper service will help you get your favorite Indian goodies home, at all costs.
+                Assisted Purchase is a subsidiary tailor-made service that is intended to handle even
+                the whole shopping of yours on your behalf. </p>
+
+            <p>While the majority of Indian websites, even the popular ones don’t offer international shipping with
+                their online shopping experience; ShoppRe is splitting the difference by offering the best
+                international package forwarding services from India. So the curious shoppers from around the world
+                can virtually shop around in India relieved - as international shipping
+                from India is not a tough task anymore!</p>
+
+
+        </div>
+        <br>
+        <br>
     </section>
 
 
