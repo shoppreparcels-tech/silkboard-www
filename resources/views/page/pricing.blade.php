@@ -449,7 +449,7 @@
                                         </center>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="{{env('AWS_CLOUD_FRONT')}}//img/vol_calc.png" style="width: 100%;" alt="">
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/vol_calc.png" style="width: 100%;" alt="">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Close
