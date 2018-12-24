@@ -28,6 +28,7 @@
     <link href="{{env('AWS_CLOUD_FRONT')}}/css/style1.css" rel="stylesheet">
     <link href="{{env('AWS_CLOUD_FRONT')}}/css/print.css" rel="stylesheet">
     <script src="{{env('AWS_CLOUD_FRONT')}}/js/jquery.min.js"></script>
+    <script src="{{asset('js/jquery.ajax-cross-origin.min.js')}}"></script>
 
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/New_style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
@@ -201,6 +202,7 @@
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/ui-bootstrap-tpls-2.5.0.min.js"></script>
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/star-rating.min.js" type="text/javascript"></script>
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/select2.min.js"></script>
+
 
 <!-- Angular Script -->
 <script>

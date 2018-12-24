@@ -236,18 +236,18 @@
                 <div class="col-md-12 col-sm-11 col-xs-11  col-lg-12 div-main-row">
                     <strong>
                         {{--this block is required--}}
-                        {{--<b><h1 class="header1 p-color-white header-text-margin">--}}
-                        {{--International Shipping from India <span id="country"></span>--}}
-                        {{--starting <br> at just <span class="p-color-red">*₹<span id="prices"></span></span><span--}}
-                        {{--style="color: #ffffff">!</span>--}}
-                        {{--</h1></b>--}}
-
                         <b><h1 class="header1 p-color-white header-text-margin">
-                                International Shipping from India
-                                starting at just <span class="p-color-red">*₹690</span><span
-                                    style="color: #ffffff">!</span>
+                        International Shipping from India <span id="country"></span>
+                        starting at just <span class="p-color-red">*₹<span id="prices"></span></span><span
+                        style="color: #ffffff">!</span>
+                        </h1></b>
 
-                            </h1></b>
+                        {{--<b><h1 class="header1 p-color-white header-text-margin">--}}
+                                {{--International Shipping from India--}}
+                                {{--starting at just <span class="p-color-red">*₹690</span><span--}}
+                                    {{--style="color: #ffffff">!</span>--}}
+
+                            {{--</h1></b>--}}
                     </strong>
                 </div>
                 <div class="div-mobile-background-img no-padding" id="mobile-version">
@@ -1054,23 +1054,22 @@
         }
     </script>
     <script>
+
         $.ajax({
             url: "https://api.myip.com",
-            headers: {
-                'Access-Control-Allow-Headers': 'Content-Type',
-                'Access-Control-Allow-Origin': '*'
-
-            },
-            type: 'GET',
-            dataType: 'json',
+            crossOrigin: true,
+            contentType: 'application/json',
+            method: 'GET',
             success: function (res) {
-                var country = res.country;
+                var country = JSON.parse(res).country;
+                console.log('Country response', country);
                 var destination = '';
                 var destination_country = 'United Arab Emirates';
                 if (country != 'India') {
                     var destination = 'to ' + country;
                     destination_country = country;
                 }
+                console.log('destination_country', destination_country);
                 var weight = 0.5;
                 var unit = 'kg';
                 var type = 'nondoc';
@@ -1093,7 +1092,7 @@
                         origin: 'home_page',
                     },
                     success: function (res) {
-                        console.log(res);
+                        console.log('pricing log', res);
                         if (res.error == "1") {
                         } else {
                             var final_price = "";
@@ -1106,7 +1105,6 @@
                     }
                 });
             }
-
         });
     </script>
 @endsection
