@@ -171,8 +171,6 @@
         .div-shop-ship1 > div > p {text-align: center}
         .div-main .div-add{position:fixed;margin-top: 20%;z-index: 1}
         .div-main .div-add1{position:relative; float: right}
-
-
         @media only screen and (max-width: 1024px) {
             .div-add {display: none;}
         }
@@ -229,6 +227,9 @@
                     <span class="header6 p-color-cement"> Offers and Deals</span>
                 </a>
             </div>
+        </div>
+        <div class="container">
+            <marquee style="color:#e85151;font-weight:900 ">On account of Christmas; no dispatches will be initiated on 25th December, 2018; However, our 24/7 Support would be available for your assistance and we'll resume the services the next day. Wishing you a very Merry Christmas!</marquee>
         </div>
         <div class="container no-padding">
             <div class="col-md-6  col-lg-6  col-sm-12 col-xs-12 no-padding">
@@ -592,17 +593,14 @@
     <!-- Start whatcanYouship section -->
     <section style="background-color: #f2f6fb;">
         <div class="container">
-            {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-margin">--}}
             <center>
                 <p class="header1 p-color-cement-dark div-margin">Take a Walk Around Your Favorite Stores</p>
                 <p class="header2 p-color-cement ">Browse through popular stores, take your pick, shop & get it
                     delivered to your virtual address; we'll ship it to your destination abroad!</p>
             </center>
-            {{--</div>--}}
         </div>
         <div class="container div-store-padding">
             <center>
-                {{--<a href="https://www.flipkart.com/" target="_blank">--}}
                 <div class=" col-xs-3 div-stores-img">
                     <center class="online-stores">
                         <a href="{{route('flipkart.landing')}}"><img class="img-responsive img-stores"
@@ -610,18 +608,13 @@
                              alt="flipkart.com international delivery shipping"></a>
                     </center>
                 </div>
-                {{--</a>--}}
-                {{--<a href="https://www.amazon.in/" target="_blank">--}}
                 <div class="col-xs-3   div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
                              src="{{env('AWS_CLOUD_FRONT')}}/img/stores/amazon-india-shopping.png"
                              alt="amazon.in international delivery shipping">
                     </center>
-
                 </div>
-                {{--</a>--}}
-                {{--<a href="https://www.ajio.com/" target="_blank">--}}
                 <div class="col-xs-3  div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
@@ -629,8 +622,6 @@
                              alt="ajio.com free delivery shipping">
                     </center>
                 </div>
-                {{--</a>--}}
-                {{--<a href="https://www.jabong.com/" target="_blank">--}}
                 <div class=" col-xs-3  div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
@@ -638,8 +629,6 @@
                              alt="jabong.com shipping international">
                     </center>
                 </div>
-                {{--</a>--}}
-                {{--<a href="https://www.homeshop18.com/" target="_blank">--}}
                 <div class="  col-xs-3  div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
@@ -647,8 +636,6 @@
                              alt="homeshop18.com best deal shopping shipping">
                     </center>
                 </div>
-                {{--</a>--}}
-                {{--<a href="https://www.snapdeal.com/" target="_blank">--}}
                 <div class="col-xs-3 div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
@@ -656,30 +643,22 @@
                              alt="snapdeal.com indian e-commerce company">
                     </center>
                 </div>
-                {{--</a>--}}
-                {{--<a href="https://www.myntra.com/">--}}
                 <div class="col-xs-2 div-stores-img">
                     <center class="online-stores">
-                        <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/myntra-express-delivery-globe.png"
-                             alt="myntra.com fashion express delivery globe">
+                        <a href="{{route('myntra.landing')}}">
+                          <img class="img-responsive img-stores"
+                            src="{{env('AWS_CLOUD_FRONT')}}/img/stores/myntra-express-delivery-globe.png"
+                            alt="myntra.com fashion express delivery globe">
+                        </a>
                     </center>
                 </div>
-                {{--</a>--}}
-
-                {{--<a href="https://www.ebay.com/" target="_blank" id="hidestore">--}}
                 <div class=" col-xs-3 div-stores-img" id="hidestore">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
                              src="{{env('AWS_CLOUD_FRONT')}}/img/stores/ebay-india-multinational-e-commerce.png"
                              alt="ebay.in online shopping site in india">
                     </center>
-
                 </div>
-                {{--</a>--}}
-
-
-                {{--<a href="https://www.limeroad.com/" target="_blank">--}}
                 <div class="col-xs-3 div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
@@ -687,8 +666,6 @@
                              alt="limeroad.com shipping from india">
                     </center>
                 </div>
-                {{--</a>--}}
-                {{--<a href="https://www.infibeam.com/" target="_blank" id="store-hide">--}}
                 <div class="col-xs-3 div-stores-img" id="store-hide">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
@@ -696,9 +673,7 @@
                              alt="infibeam.com latest deals on shopping">
                     </center>
                 </div>
-                {{--</a>--}}
             </center>
-
         </div>
         <div class="container">
             <center>
@@ -726,15 +701,10 @@
                     <div class="row" style="margin-left: -36px">
                         <div class="col-md-3  div-inner-review">
                             <div class="row div-img-row" id="reviews-img">
-                                {{--<img class=" img-review img-circle" src="{{env('AWS_CLOUD_FRONT')}}/img/images/23.jpg')}}">--}}
                                 <img class=" img-review img-circle" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/034-woman-8.svg">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Jigyasa Singh</p>
-
                                 <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USA</p>
-
                                 <img class="img-stars" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/stars.svg">
-                                {{-- id="stars"--}}
-                                {{--<input class="rating rated" value="5" id="stars-rate">--}}
                             </div>
                             <div class="row" id="reviews">
                                 <i class="quots-t ">
@@ -754,14 +724,10 @@
                         </div>
                         <div class="col-md-3 div-inner-review">
                             <div class="row div-img-row" id="reviews-img">
-                                {{--                                <img class=" img-review img-circle" src="{{env('AWS_CLOUD_FRONT')}}/img/images/9.jpg">--}}
                                 <img class=" img-review img-circle" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/040-man-11.svg">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Sudeep Sagar</p>
-
                                 <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UAE</p>
-
                                 <img class="img-stars" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/stars.svg">
-                                {{--<input class="rating rated" value="5" id="stars-rate">--}}
                             </div>
                             <div class="row" id="reviews">
                                 <i class="quots-t ">
@@ -783,14 +749,10 @@
                         </div>
                         <div class="col-md-3 div-inner-review">
                             <div class="row div-img-row" id="reviews-img">
-                                {{--<img class=" img-review img-circle" src="{{env('AWS_CLOUD_FRONT')}}/img/images/6.jpg">--}}
                                 <img class=" img-review img-circle" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/001-man.svg">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Anirudh Lal</p>
-
                                 <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;India</p>
-
                                 <img class="img-stars" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/stars.svg">
-                                {{--<input class="rating rated" value="5" id="stars-rate">--}}
                             </div>
                             <div class="row">
                                 <i class="quots-t " id="reviews">
@@ -812,12 +774,10 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 " style=" margin: 16px 0 16px -13px;">
-                            <!-- <a href="javascript:void(0)"><span class="read-more-review"> Read more reviews </span></a> -->
                             <a href="{{route('reviews')}}"><span
                                     class="header6 p-color-red" id="readmore" style="font-weight: 600;"> Read more reviews </span></a>
                         </div>
                     </div>
-
                 </div>
                 <div class="col-md-4 col-lg-4" style="padding-left: 5px;">
                     <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
@@ -853,13 +813,10 @@
                         </div>
                     </a>
                 </div>
-
             </div>
-
         </div>
-
-
     </section>
+
     <section style="padding-bottom: 30px">
         <div class="container" style="margin-top: 60px;padding-bottom: 20px;">
             <center>
@@ -903,8 +860,86 @@
        {{--commented code placed in homepage folder--}}
 
     </section>
-    <section class="content-oes">
+    <section style="background-color: #f2f6fb;">
         <div class="container">
+            <center>
+                <p class="header1 p-color-cement-dark div-margin">When we were the talk of the town</p>
+                <p class="header2 p-color-cement ">It hasn't been too long, but we have created quite a stir <br> in the local as well as international news forums!</p>
+                <br>
+            </center>
+        </div>
+        <div class="container div-store-padding">
+            <center>
+                <div class=" col-xs-3 div-stores-img">
+                    <center class="online-stores">
+                        <img class="img-responsive img-stores"src="{{env('AWS_CLOUD_FRONT')}}/img/media/india_today_grey.jpg"alt=""
+                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/india_today.jpg')" onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/india_today_grey.jpg')">
+
+                    </center>
+                </div>
+                <div class="col-xs-3   div-stores-img">
+                    <center class="online-stores">
+                        <img class="img-responsive img-stores"src="{{env('AWS_CLOUD_FRONT')}}/img/media/khaleej_time_grey.jpg"alt=""
+                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/khaleej_time.jpg')" onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/khaleej_time_grey.jpg')">
+
+                    </center>
+                </div>
+                <div class="col-xs-3  div-stores-img">
+                    <center class="online-stores">
+                        <img class="img-responsive img-stores"src="{{env('AWS_CLOUD_FRONT')}}/img/media/exam_grey.jpg"alt=""
+                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/exam.jpg')" onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/exam_grey.jpg')">
+                    </center>
+                </div>
+                <div class=" col-xs-3  div-stores-img">
+                    <center class="online-stores">
+                        <img class="img-responsive img-stores"src="{{env('AWS_CLOUD_FRONT')}}/img/media/euro_press_grey.jpg"alt=""
+                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/euro_press.jpg')" onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/euro_press_grey.jpg')">
+                    </center>
+                </div>
+                <div class="  col-xs-3  div-stores-img">
+                    <center class="online-stores">
+                        <img class="img-responsive img-stores"src="{{env('AWS_CLOUD_FRONT')}}/img/media/yahoo_grey.jpg"alt=""
+                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/yahoo.jpg')" onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/yahoo_grey.jpg')">
+                    </center>
+                </div>
+                <div class="col-xs-3 div-stores-img">
+                    <center class="online-stores">
+                        <img class="img-responsive img-stores"src="{{env('AWS_CLOUD_FRONT')}}/img/media/malayala_grey.jpg"alt=""
+                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/malayala.jpg')" onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/malayala_grey.jpg')">
+                    </center>
+                </div>
+                <div class="col-xs-2 div-stores-img">
+                    <center class="online-stores">
+                        <img class="img-responsive img-stores" src="{{env('AWS_CLOUD_FRONT')}}/img/media/business_standard_grey.jpg"alt=""
+                        onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/business_standard.jpg')" onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/business_standard_grey.jpg')">
+                    </center>
+                </div>
+                <div class=" col-xs-3 div-stores-img" id="hidestore">
+                    <center class="online-stores">
+                        <img class="img-responsive img-stores"src="{{env('AWS_CLOUD_FRONT')}}/img/media/markets_inside_grey.jpg"alt=""
+                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/markets_inside.jpg')" onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/markets_inside_grey.jpg')">
+                    </center>
+                </div>
+                <div class="col-xs-3 div-stores-img">
+                    <center class="online-stores">
+                        <img class="img-responsive img-stores"src="{{env('AWS_CLOUD_FRONT')}}/img/media/the_week_grey.jpg"alt=""
+                        onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/the_week.jpg')" onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/the_week_grey.jpg')">
+                    </center>
+                </div>
+                <div class="col-xs-3 div-stores-img" id="store-hide">
+                    <center class="online-stores">
+                        <img class="img-responsive img-stores"src="{{env('AWS_CLOUD_FRONT')}}/img/media/business_today_grey.jpg"alt=""
+                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/business_today.jpg')" onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/business_today_grey.jpg')">
+                    </center>
+                </div>
+            </center>
+        </div>
+        <br>
+        <br>
+    </section>
+
+    <section class="content-oes">
+        <div class="container"><br><br>
             <h1>Shop from India without second thoughts from now on, we ship around the world!</h1>
 
             <p>Our Shop&Ship enables online shopping from India and shipping to the USA, UK, UAE, Australia etc.-
@@ -961,29 +996,16 @@
 @section('js_script')
     <script>
         $(document).ready(function() {
-
             var id = '#dialog';
-
-            //Get the screen height and width
             var maskHeight = $(document).height();
             var maskWidth = $(window).width();
-
-            //Set heigth and width to mask to fill up the whole screen
             $('#mask').css({'width':maskWidth,'height':maskHeight});
-
-            //transition effect
             $('#mask').fadeIn(500);
             $('#mask').fadeTo("slow",0.9);
-
-            //Get the window height and width
             var winH = $(window).height();
             var winW = $(window).width();
-
-            //Set the popup window to center
             $(id).css('top',  winH/2-$(id).height()/2);
             $(id).css('left', winW/2-$(id).width()/2);
-
-            //transition effect
             $(id).fadeIn(2000);
 
             //if close button is clicked
@@ -1003,7 +1025,6 @@
 
         });
     </script>
-
     <script>
         if ($('#back-to-top').length) {
             var scrollTrigger = 100, // px

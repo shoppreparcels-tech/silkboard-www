@@ -1081,16 +1081,11 @@
                     $('#mobile-image1').show();
                     $("#mobile-image2").hide();
                     $("#mobile-image3").hide();
-                    // $("#mobile-step2").css({'border-color': '#929ca5'})
-                    // $("#mobile-step3").css({'border-color': '#929ca5'})
                 },
                 function () {
                     $('#mobile-image1').show();
                     $("#mobile-image2").hide();
                     $("#mobile-image3").hide();
-                    // $("#mobile-step2").css({'border-color': '#929ca5'})
-                    // $("#mobile-step3").css({'border-color': '#929ca5'})
-
                 });
         });
     </script>

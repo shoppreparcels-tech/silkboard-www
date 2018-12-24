@@ -57,9 +57,13 @@ class PageController extends Controller
         return view('page.ics-landing');
     }
 
-     public function flipkartIndex()
+    public function flipkartIndex()
     {
         return view('page.flipkart-landing');
+    }
+    public function myntraIndex()
+    {
+        return view('page.myntra-landing');
     }
 
     public function ifsLandingPage()
@@ -952,7 +956,7 @@ class PageController extends Controller
                 $output .= '<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 " >
                                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 inner-review " >
                                     <div class="row div-img-row" >
-                                        <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 no-padding">                                          
+                                        <div class="col-md-1 col-sm-2 col-xs-2 no-padding">                                          
                                           <div class=" img-review img-circle "style="background-color: ' . $color . ';">
                                             <cneter>
                                                <p>'. $fl .'</p>
@@ -960,7 +964,7 @@ class PageController extends Controller
                                            
                                           </div>
                                         </div >
-                                        <div class="col-md-5 col-lg-5 col-sm-7 col-xs-7" >                                          
+                                        <div class="col-md-6 col-sm-7 col-xs-7" >                                          
                                           <p class="pull-left p-name-font-weight">' . $review->person . ' <br> ' . $review->name . '  </p>
                                         </div >
                                         <div class="col-md-4 col-lg-4 col-sm-3 col-xs-3 pull-right " style="margin-top: 11px" >

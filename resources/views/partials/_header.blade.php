@@ -23,7 +23,8 @@
                     </ul>
                 </div>
                 <a class="navbar-brand" href="{{route('home')}}">
-                    <img class="logo" src="{{env('AWS_CLOUD_FRONT')}}/img/images/shoppre-logo.png" alt="ShoppRe">
+{{--                    <img class="logo" src="{{env('AWS_CLOUD_FRONT')}}/img/images/shoppre-logo.png" alt="ShoppRe">--}}
+                    <img class="logo" src="{{asset('/img/images/logo@2x.png')}}" alt="ShoppRe">
                 </a>
             </div>
 

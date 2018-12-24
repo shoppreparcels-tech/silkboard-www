@@ -60,6 +60,7 @@ Route::get('/christmas-offer', 'PageController@christmas')->name('christmas');
 Route::get('/new-year-offer', 'PageController@newyear')->name('christmas');
 Route::get('/university-offer', 'PageController@university')->name('university');
 Route::get('/flipkart-shopping-with-shoppre-from-india', 'PageController@flipkartIndex')->name('flipkart.landing');
+Route::get('/myntra-online-shopping-shipping-from-india', 'PageController@myntraIndex')->name('myntra.landing');
 Route::get('/send-international-courier-from-india', 'PageController@icsLandingPage')->name('ics.landing');
 Route::get('/personal-shopper-india', 'PageController@ifsLandingPage')->name('ifs.landing');
 Route::get('/indian-online-stores', 'PageController@storeNew')->name('stores1');

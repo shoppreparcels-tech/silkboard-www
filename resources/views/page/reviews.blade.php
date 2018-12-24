@@ -38,6 +38,9 @@
         .img-circle {padding-top: 9px;}
         .img-circle p{text-transform: uppercase;color: #fff;font-size: 25px;}
         .rating-container .filled-stars {color: #E9C46A !important; }
+        @media only screen and (max-width: 1024px) {
+            .rating-xl {font-size: 16px;text-align: center;}
+        }
 
     </style>
 
@@ -188,7 +191,7 @@
                 $colors = array("#fc91ad", "#aa62e3", "#2b78dc", "#6558ee", "#fd4e13", "#e5213b", "#94ba2b");
 
             @endphp
-            <div class="container-fluid" style="padding-left: 4%;padding-right: 4%">
+            <div class="container-fluid" style="padding-left: 4%;padding-right: 4%" id="reviews">
                 <div>
                     <div class="row" id="reviews-more">
                         @foreach($reviews as $review)
@@ -269,6 +272,18 @@
 
 @section('js_script')
     <script>
+        $("a[href^='#']").click(function(e) {
+            e.preventDefault();
+
+            var position = $($(this).attr("href")).offset().top;
+
+            $("body, html").animate({
+                scrollTop: position
+            }, /* speed */ 1000);
+        });
+    </script>
+
+    <script>
         $(".rated").rating({
             'size': 'lg',
             'min': 0,
@@ -315,6 +330,7 @@
             });
         });
     </script>
+
 
 
 
