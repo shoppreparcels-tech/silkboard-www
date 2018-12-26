@@ -14,6 +14,7 @@ class mailChimpTaskOperations
     /**
      * Create a new message instance.
      *
+     *
      * @return void
      */
     public function __construct()

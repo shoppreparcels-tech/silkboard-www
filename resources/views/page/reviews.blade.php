@@ -81,7 +81,6 @@
 
     </script>
 @endsection
-
 @section('content')
     <section class="header">
         <div class="container header-padder-top">

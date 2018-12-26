@@ -63,8 +63,8 @@
                     <div class="MultiCarousel-inner">
                         <div class="item">
                             <div class="pad15">
-                                <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box2.png" class="boxofScroll" alt="save upto 80% international shipping cost from india"/>
+                                <a href="https://www.shoppre.com/university-offer?src=off-page">
+                                    <img src="{{asset('img/images/university-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
@@ -77,17 +77,9 @@
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                <a href="https://www.shoppre.com/offers/christmas-offer-on-international-shipment-courier-from-india/">
-                                    <img src="{{asset('img/images/christmas-offer-shoppre-com.png')}}" class="boxofScroll" alt="christmas offer"/>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="https://www.shoppre.com/university-offer?src=off-page">
-                                    <img src="{{asset('img/images/university-offer.png')}}" class="boxofScroll"/>
-                                </a>
+                                {{--<a href="https://www.shoppre.com/offers/christmas-offer-on-international-shipment-courier-from-india/">--}}
+                                    <img src="{{asset('img/images/new-year-19.png')}}" class="boxofScroll" alt="New Year offer"/>
+                                {{--</a>--}}
                             </div>
                         </div>
                         <div class="item">

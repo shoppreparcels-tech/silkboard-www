@@ -6,7 +6,8 @@ use App\Feedback;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\EmailFeedback;
-use App\Asana\mailChimpTaskOperations;
+use App\Asana\AsanaTaskOperations;
+use App\Mailchimp\mailChimpTaskOperations;
 
 
 use Auth;
