@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', '2018 Has Run Its Course!')
+@section('title', 'New Year Offer - ShoppRe.com')
 @section('description', '')
 @section('keywords', '')
 
@@ -56,7 +56,7 @@
                    <img src="{{asset('img/images/newyear_image.png')}}" alt="" class="img-new-year">
                    <h1 class="p-color-white header-spacing header1 ">2018 Has Run Its Course!</h1>
                    <h2 class="header2 p-color-white header-spacing font-weight-900"> Ready to Welcome 2019?</h2>
-                   <h4 class="header4 p-color-cement font-weight-900">Save up to 80% on international shipping + Get an additional 15% for this Christmas!</h4>
+                   <h4 class="header4 p-color-cement font-weight-900">Save up to 80% on international shipping + Get an additional 19% for this New Year!</h4>
                    <form action=""  method="post" id="diwali_coupon">
                        {{csrf_field()}}
                        <div class="" id="diwali-couponcode1">
@@ -85,7 +85,7 @@
                        {{--</div>--}}
                        {{--</div>--}}
                    </form>
-                   <h6 class="header6">*From 10th Dec to 15th Dec 2018</h6>
+                   <h6 class="header6">*From 27th Dec to 06th Jan 2019</h6>
                </center>
            </div>
             <div class="col-md-2 div-newyear">
@@ -141,7 +141,7 @@
                 <br>
                 <p class="header4 p-color-cement">2018 is on its last stretch and everyone's busy running around with their last-year resolutions! Let us get ready for another year with open heart and clean baggage. We're here to help you be a new 'You' for the New Year's.</p>
                 <br>
-                <p class="header4 p-color-cement">Here's how; you get an 80% lesser shipping cost with our top-of-the-line package consolidation services on top of which, you can avail a sweet 15% OFF - a little something from us to start off your New Year with.</p> <br>
+                <p class="header4 p-color-cement">Here's how; you get an <a href="{{route('pricing')}}">80% lesser shipping cost</a> with our top-of-the-line package consolidation services on top of which, you can avail a sweet 19% OFF - a little something from us to start off your New Year with.</p> <br>
 
                 <div class="offerDesc">
                     <h5> What Else Do You Get Out of Our Offer? </h5><br>
@@ -153,7 +153,7 @@
                 </div>
                 <br>
                 <div>
-                <center><a href="" class="btn-chris-place-order">Go Shopping Now!</a></center>
+                <center><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=sny2019" class="btn-chris-place-order">Go Shopping Now!</a></center>
                 </div>
 
             </div>
@@ -306,23 +306,18 @@
                 submitHandler: function (form) {
                     debugger;
                     var email = $("input[name='email']").val();
-                    var name = $("input[name='Name']").val();
-                    var contact_no = $("input[name='ContactNumber']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api/diwali-offer',
+                        url: 'api/new-year-offer',
                         type: "POST",
                         data: {
                             _token: token,
                             email: email,
-                            name: name,
-                            contact_no: contact_no,
                         },
                         success: function (data) {
                             console.log(data);
-                            $('#diwali-couponcode1').hide();
-                            // $('#diwali-couponcode2').css('display','block');
-                            $('#diwali-couponcode2').slideDown();
+                            window.alert('Thank You for Subscribing the offer. Sign Up now for Free, Shop & Ship Globally.')
+                            $("input[name='email']").val('');
                         }
                     })
                 }

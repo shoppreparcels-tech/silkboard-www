@@ -88,7 +88,7 @@
     <section class="header">
         <div class="container header-padder-top">
             <center>
-                <p class="header1 p-color-white">Price Calculator</p>
+                <p class="header1 p-color-white">Shipping Calculator</p>
             </center>
         </div>
 

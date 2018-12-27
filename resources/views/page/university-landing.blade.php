@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', '2018 Has Run Its Course!')
+@section('title', 'Courier Any Document Abroad | Student Special Offer - ShoppRe.com')
 @section('description', '')
 @section('keywords', '')
 
@@ -61,7 +61,7 @@
            <div class="col-md-8 col-xs-12 div-content" >
                <center>
                    <img src="{{asset('img/images/plane_earth.png')}}" alt="" class="img-new-year">
-                   <h2 class="p-color-yellow header-spacing header2 ">Student Special Offer | Get 50% Off Your Shipping Costs!</h2>
+                   <h2 class="p-color-yellow header-spacing header2 ">Student Special Offer <br> Save Upto 50% Off On Shipping Costs!</h2>
                    <h1 class="header1 p-color-white header-spacing font-weight-900">Courier Any Document Abroad</h1>
                    <h2 class="header2 p-color-white font-weight-900">Starting from ₹553/-</h2> <br>
                    <form action=""  method="post" id="diwali_coupon">
@@ -72,7 +72,7 @@
                                       placeholder="Enter a valid E-mail ID" required>
                            </div>
                            <div class="form-group text-center">
-                               <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900">Sign Up For FREE!</button>
+                               <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900" onclick="">Sign Up For FREE!</button>
                            </div>
                        </div>
                    </form>
@@ -108,7 +108,7 @@
                     documents like Semester/Academic transcripts or Letters of Recommendation (LORs) whereas some
                     require you to send these documents to WES for credential evaluation. </p> <br>
                 <p class="header4 p-color-cement">For you to courier documents of these natures safe and secure, we rely
-                    on only the most trusted courier services, and make it as affordable as possible. And, we go
+                    on only the most <a href="{{route('ics.index')}}">trusted courier services</a>, and make it as affordable as possible. And, we go
                     the extra mile by offering our fellow students a special discounted price too.</p> <br>
                 <div class="offerDesc">
                     <h5> What Else Do You Get Out of Our Offer? </h5><br>
@@ -146,32 +146,32 @@
                         <td>UAE</td>
                         <td>₹553</td>
                         <td>₹636</td>
-                        <td>DHL, DTDC, FedEx</td>
+                        <td>DHL, DTDC</td>
                     </tr>
                     <tr>
                         <td>Germany</td>
                         <td>₹1287</td>
                         <td>₹1346</td>
-                        <td>DHL, DTDC, FedEx</td>
+                        <td>DHL, DTDC</td>
                     </tr>
                     <tr>
                         <td>USA</td>
                         <td>₹1297</td>
                         <td>₹1356</td>
-                        <td>DHL, DTDC, FedEx</td>
+                        <td>DHL, DTDC</td>
 
                     </tr>
                     <tr>
                         <td>Canada</td>
                         <td>₹1395</td>
                         <td>₹1458</td>
-                        <td>DHL, DTDC, FedEx</td>
+                        <td>DHL, DTDC</td>
                     </tr>
                     <tr>
                         <td>Australia</td>
                         <td>₹1455</td>
                         <td>₹1521</td>
-                        <td>DHL, DTDC, FedEx</td>
+                        <td>DHL, DTDC</td>
                     </tr>
                 </table>
             </div>
@@ -194,10 +194,10 @@
                                 <img src="{{asset('img/images/graphic_parsal.png')}}" alt="" style="height: 64px;">
                                 <br/>
                                 <br/>
-                                <span>Step1</span>
-                                <h1 class="header5 p-color-cement">Shop Products</h1>
+                                <span>Step 1</span>
+                                <h1 class="header5 p-color-cement">Courier Document</h1>
                                 <br>
-                                <p class="p-color-cement header5">Schedule a Pickup from ANYWHERE in India, we'll come to your door in  just 48 hours.</p>
+                                <p class="p-color-cement header5">Schedule a Pickup from ANYWHERE in India, we'll come to your door in just 48 hours.</p>
                             </center>
                         </div>
                     </div>
@@ -207,11 +207,11 @@
                             <img src="{{asset('/img/svg/online-shop-un.svg')}}" alt="">
                             <br/>
                             <br/>
-                            <span>Step2</span>
+                            <span>Step 2</span>
                             <h1 class="header5 p-color-cement">Ship in @ 80% Less Cost</h1>
                             <br>
                             <p class="header6 p-color-cement">
-                                Save up to 80% in shipping costs as we wait around for 20 days for all your purchases to
+                                Save up to 80% in shipping costs as we wait around for 20 days for all your package to
                                 reach us - for FREE, and repackage & ship them to your doorsteps as one!
                             </p>
 
@@ -223,7 +223,7 @@
                             <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pay-receive.svg" alt="">
                             <br/>
                             <br/>
-                            <span>Step3</span>
+                            <span>Step 3</span>
                             <br>
                             <h1 class="header5 p-color-cement">Pay & Receive</h1>
                             <br>

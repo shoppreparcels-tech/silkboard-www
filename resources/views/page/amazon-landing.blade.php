@@ -1,31 +1,16 @@
 @extends('layout')
 
-@section('title', 'How to buy products in Flipkart & Ship Internationally From India')
-@section('description', 'Shop products online from Flipkart India & ship internationally at reasonable shipping costs. Sign Up for Free & get an Indian virtual shipping address.')
-@section('keywords', 'How to buy in Flipkart, shopping, shipping, ecommerce, online store, packages, offers')
+@section('title', 'Shop Amazon.in & Ship Internationally From India | ShoppRe.com')
+@section('description', 'Online Shopping from Amazon India and Ship Internationally Upto 220+ countries. The fast & cheapest way to  ship your package from India. Sign Up for Free.')
+@section('keywords', 'Amazon International Shipping, great indian sale, ship india')
 
 @section('css_style')
-    <meta property="og:title" content="Shop Online from Flipkart India & Ship Internationally with ShoppRe" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.shoppre.com/flipkart-shopping-with-shoppre-from-india" />
-    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
-    <meta property="og:image:width" content="2506">
-    <meta property="og:image:height" content="1312">
-    <meta property="og:image:alt" content="shoppre international shipping India" />
-    <meta property="og:description" content="Shop your favorite product & brand you love from Flipkart online shopping store and Ship Internationally with ShoppRe. Sign Up for Free." />
-    <meta property="og:site_name" content="ShoppRe" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="Go_Shoppre" />
-    <meta name="twitter:title" content="How to buy in Flipkart & Ship Internationally from India? " />
-    <meta name="twitter:description" content="Purchase your favourite & brand products from Flipkart Indian online store & Ship Internationally from India." />
-    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
-    <meta name="twitter:image:alt" content="ShoppRe International Parcel Forwarding from India" />
 
     <style>
-        .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
+        .bg-ics-landing-page .container > div {margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}
         .d-header-text1 {font-family: Montserrat -Italic;font-style: italic;line-height: 26px;margin-top: 25px}
+        .christmas-service {box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 15px;background-color: #fafafb;margin-top: -121px;padding: 20px;}
         .box-steps p {line-height: 1;}
         .box-steps p span {font-size: 22px;font-weight: 900;}
         .flipkart-h1{font-size: 25px}
@@ -43,7 +28,7 @@
     <section class="bg-ics-landing-page">
         <div class="container">
             <center>
-                <h1 class="p-color-white header-spacing d-header-text">Flipkart - International Shipping From India</h1>
+                <h1 class="p-color-white header-spacing d-header-text">Amazon.in - International Shipping From India</h1>
 
             </center>
 
@@ -51,67 +36,43 @@
     </section>
 
 
-    <section class="">
+    <section class=" ">
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">What We Offer in a Nutshell</h2>
-                </div>
-                {{--<div class="col-md-2 col-md-offset-1 col-xs-12">--}}
-                    {{--<a href="tel:+91-80 4094 4077" class="c-image">--}}
-                        {{--<img src="{{asset('/img/images/christmas-contact.png')}}" alt="">--}}
-                    {{--</a>--}}
-                {{--</div>--}}
-            </div>
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <div class="shopandship ">
-                        <h2>Shop & Ship</h2>
-                        <br/>
-                        <p>Shop From Flipkart Online Indian Store; Get It to a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ps">
-                        <h2>Personal Shopper</h2>
-                        <br>
-                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You at Flipkart.com</p>
-
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ic">
-                        <h2>International Courier</h2>
-                        <br>
-                        <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
-
-                    </div>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>
                 </div>
             </div>
 
             <div class=" col-md-12 offer-description">
-                <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">Looking for the best shipping option that's from India?</h2>
-                <h4 class="p-color-cement" style="font-style:italic">Join our quest to be the #1 shipping & consolidation solution
-                    you can find, to assist with your shopping from say, Flipkart India</h4>
+                <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">Get Ready for This New Years With Lightning-fast Delivery from Amazon</h2>
+                <h4 class="p-color-cement" style="font-style:italic">Amazon, being the E-commerce giant that it is, is well-respected in the industry for its professionalism and superfast delivery. </h4>
                 <br>
-                <p class="header4 p-color-cement">We’re a shipping & consolidation company that specializes in domestic & international logistic solutions.
-                    We  handle over ₹1,000,000 worth of E-Commerce shipments and 2000 <a href="{{route('ics.index')}}">Courier pickup requests</a> a month! A potential customer can shop from 1000+
-                    desi/Indian online stores and, we ship those packages/couriers off to 220+ countries around the world. Our vision has always been
-                    to be of help to the Global Indian Community, and their need to shop authentic products from India, and help them ship it all in at a reasonable cost. </p>
+                <p class="header4 p-color-cement">We're counting the days till the New Years' and the winter cold is not
+                    making anyone hold back on being in a celebratory mood.
+                    While the hotspots in the city are making sure everything is getting ready for New Years'
+                    and the customers get nothing short of the best eve of the year;
+                    <a href="{{route('stores1')}}">Indian online shops</a> are also not far behind. </p>
                 <br>
-                <p class="header4 p-color-cement">FlipKart, being the E-commerce giant that it is in India, has a lot of enthusisatic
-                    <a href="{{route('ifs.index')}}">international shoppers</a>all over the world.
-                    From electronics to kids' toys; Flipkart offers a wide range of products that the customers would just love to buy.
-                    But the problem begins when it comes to checking them out & shipping them in from India, at an affordable shipping cost.
-                    Will Flipkart Ship Internationally though? Well, the answer is, not as of now.</p> <br>
-                <p class="header4 p-color-cement">So, as far as you're concerned as a shopper, you'd have to look for alternative
-                    shipping options as Flipkart shipping internationally is at a moo point for the time being!</p> <br>
+                <p class="header4 p-color-cement">From Amazon Great Indian Sale Offers to New Year Flash Sales; Amazon
+                    India is attracting the international customers big time. However there is a slight issue when it
+                    comes to checking-out & shipping their purchases in from India to USA, UK, UAE, Australia & such,
+                    at an affordable shipping cost. Since Amazon India doesn't offer to ship internationally, customers
+                    have no other choice but to look for alternative shipping options. </p> <br>
+                <p class="header4 p-color-cement">We’re a <a href{{route('home')}}>shipping & consolidation company</a> that specializes in domestic & international
+                    logistic solutions. We  handle over ₹1,000,000 worth of E-Commerce shipments and 2000 Courier pickup
+                    requests a month! A potential customer can shop from 1000+ desi/Indian online stores and,
+                    we ship those packages/couriers off to 220+ countries around the world. Our vision has always
+                    been to be of help to the Global Indian Community, and their need to shop authentic products
+                    from India, and help them ship it all in at a reasonable cost. </p> <br>
 
                 <div class="offerDesc">
-                    <h2 class="header2 p-color-cement font-weight-900">How are we your best choice?</h2>
-                    <p class="header4 p-color-cement">Our streamlined set of Repackaging & Package Consolidation services, helps you cut down the shipping costs to 80% lesser! </p>
+                    <h2 class="header2 p-color-cement font-weight-900">How are we the best international shipping solution from India?</h2>
+                    <p class="header4 p-color-cement">Our streamlined set of <a href="{{route('consolidationService')}}">Repackaging & Package Consolidation</a> services, helps you cut down the shipping costs to 80% lesser!</p>
+                    <br>
                     <br>
                     <p class="header4 p-color-cement">All you have to do is; </p> <br>
+
                     <ul>
                         <li>Ship your purchases to the Virtual Address we provide for FREE,</li>
                         <li>Use our FREE unique personal locker to store them, and finally -</li>
@@ -126,6 +87,32 @@
                     <h5 class="header5 p-color-cement">No worries! Our [Personal Shopper] will swoop in & take care of it all for you!</h5> <br>
                     <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn-chris-place-order">Go Shopping Now!</a>
                 </center>
+            </div>
+            <br>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="shopandship ">
+                        <h2>Shop & Ship</h2>
+                        <br/>
+                        <p>Shop From Amazon.in Store; Get a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ps">
+                        <h2>Personal Shopper</h2>
+                        <br>
+                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You at Amazon.in</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ic">
+                        <h2>International Courier</h2>
+                        <br>
+                        <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
+
+                    </div>
+                </div>
             </div>
             <br>
         </div>
@@ -175,13 +162,21 @@
                 </div>
                 <br/><br/>
             </div>
+            <div>
+                <p class="header4 p-color-cement">With a wide band of services including the Personal Shopper Service; shopping from India and getting
+                    it shipped worldwide is now extremely smooth. From electronics to toys from Amazon.in; we offer,
+                    without a doubt, the best parcel forwarding services from India, that you can count on. We've
+                    fulfilled plenty of orders ranging in 1000+ Indian online portals, so far!</p>
+            </div>
         </div>
     </section>
     <section>
         <br>
         <div class="container">
             <center>
-                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Well, what's the wait? Sign Up with us now for a lifetime of effortless shopping!</h1>
+                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Buying from Amazon.in from a different country?</h1>
+                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Join us now for a lifetime of effortless</h1>
+                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900"> online shopping with international shipping from India!</h1>
                 <br>
                 <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn-chris-place-order">Sign Up for Free</a>
 
@@ -192,7 +187,7 @@
         <div class="container div-ics-border-btm">
             <div class="container">
                 <center>
-                    <h1 class="header1  p-color-cement-dark">How <span class="p-color-blue">to Bag Your Favorites from Flipkart</span>?
+                    <h1 class="header1  p-color-cement-dark">How <span class="p-color-blue">to Shop Your Favorites from Amazon.in</span>?
                     </h1>
                 </center>
             </div>
@@ -207,10 +202,10 @@
                             <br/>
                             <br/>
                             <span class="p-color-blue">Step 1</span>
-                            <h1 class="header5 p-color-cement">Shop Flipkart Products</h1>
+                            <h1 class="header5 p-color-cement">Shop Amazon Products</h1>
                             <br>
                             <p class="p-color-cement header5">
-                                Purchase your favourite & brand products from Flipkart Indian online store & Set Cash on Delivery
+                                Purchase your favourite & brand products from Amazon Indian online store & Set Cash on Delivery
                             </p>
 
                         </center>
@@ -273,6 +268,37 @@
             </center>
             <br/><br/>
         </div>
+        <div class="container" style="background-color: #fff;padding: 20px;">
+            <h1 class="header2 p-color-cement-dark">Frequently Asked Questions</h1>
+            <ul style="text-decoration: none;list-style: none">
+                <li>
+                   <h3 class="header4 p-color-cement-dark font-weight-900">How do I order an amazon product and get it delivered to UAE?</h3>
+                   <p class="header5 p-color-cement ">Go online and shop on Amazon.in and reach out to us, sign up on ShoppRe
+                       Dashboard & make your request to ship it to UAE. You'll be guided by our
+                       Support as to how to take it from there. </p>
+                </li>
+                <li>
+                    <h3 class="header4 p-color-cement-dark font-weight-900">Can I buy from amazon INDIA and ship to US?</h3>
+                    <p class="header5 p-color-cement ">Of course you can. You can shop from Amazon.in and get us to
+                        ship to the USA. We ship to 220+ countries around the world.</p>
+                </li>
+                <li>
+                    <h3 class="header4 p-color-cement-dark font-weight-900">How do I buy from India online Stores and Ship to UK?</h3>
+                    <p class="header5 p-color-cement ">You can shop from any Indian online store, ship your purchases to us;
+                        and make a request to ship it internationally to your location in UK.
+                        For more info; contact our Support. </p>
+                </li>
+                <li>
+                    <h3 class="header4 p-color-cement-dark font-weight-900">Can I order different books on Amazon.in and get them delivered in single shipment to save money?</h3>
+                    <p class="header5 p-color-cement ">Of course. We strive to make the shipping costs of our customers as low as possible. So,
+                        we'd be behind you 100% in this matter as our main service that allows you save up is our
+                        Package Consolidation. You can make use of our 20-day FREE storage
+                        for collecting your books as well. </p>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <br>
     </section>
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">

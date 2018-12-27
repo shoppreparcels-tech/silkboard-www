@@ -77,9 +77,10 @@
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                {{--<a href="https://www.shoppre.com/offers/christmas-offer-on-international-shipment-courier-from-india/">--}}
+                                <a href="https://www.shoppre.com/new-year-offer?src=offer-page">
                                     <img src="{{asset('img/images/new-year-19.png')}}" class="boxofScroll" alt="New Year offer"/>
-                                {{--</a>--}}
+                                </a>
+
                             </div>
                         </div>
                         <div class="item">
@@ -103,10 +104,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">BOSS: Best Of Season Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">20th to 24th DEC 2018</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Top Deals & Offers</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Fashion, TVs & Appliances </h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/best-of-season-sale-fashion-sneak-peek-store"
+                                <a href="https://www.flipkart.com/offers-store?src=shoppre"
                                    target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
@@ -160,8 +161,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">end of reason sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">22nd to 25th DEC 2018‎</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">end of season sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">MIN 50% Off‎</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="https://www.myntra.com/growth/prebuzz-home">
@@ -187,10 +188,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Christmas carnival</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">up to 40% off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">emi fest</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">21st DEC to 2nd JAN</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.amazon.in/b?node=3837822031&pf_rd_p=bd0bd9a2-f534-4dfd-8f90-2da4803a5dc5&pf_rd_r=4C2HR8GNK005XF0YTGRR">
+                                <a href="https://www.amazon.in/b?node=15430903031">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>

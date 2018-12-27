@@ -183,7 +183,8 @@
 
 @section('content')
     <main class="div-main" role="main">
-        {{--<div class="div-add no-padding pull-right"><a href="{{'offers'}}"><img src="{{asset('/img/offers-image/xmas-offer-starts.png')}}" alt="" class="pull-right"></a></div>--}}
+        <div class="div-add no-padding pull-right"><a href="{{'offers'}}"><img src="{{asset('/img/offers-image/nw-year-offer-starts.png')}}" alt="new year offer" class="pull-right"></a></div>
+
         <div class="container header-menu-home-page"id="header-menu">
             <div class="col-md-2">
                 <a href="{{route('ifs.index')}}" class="header6 p-color-cement">

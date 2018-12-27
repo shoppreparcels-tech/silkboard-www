@@ -1,10 +1,26 @@
 @extends('layout')
 
-@section('title', 'Flipkart Page')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'Shop Myntra Online & Ship Internationally From India | ShoppRe.com')
+@section('description', 'Online Shopping from Myntra and Ship to US, UAE, Australia address & Upto 220+ countries. The cheapest way to courier your package from India. Sign Up for Free.')
+@section('keywords', 'Myntra International Shipping, Online Fashion Store, ship usa, how to shop')
 
 @section('css_style')
+    <meta property="og:title" content="Shop online from Myntra fashion store & Ship Internationally with Shoppre" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/myntra-online-shopping-shipping-from-india" />
+    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
+    <meta property="og:image:width" content="2506">
+    <meta property="og:image:height" content="1312">
+    <meta property="og:image:alt" content="shoppre international shipping india" />
+    <meta property="og:description" content="Buy in Myntra and Ship your purchases from India to USA, UK, UAE, Australia & such, at an affordable shipping cost." />
+    <meta property="og:site_name" content="shoppre" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="go_shoppre" />
+    <meta name="twitter:title" content="Myntra International Shipping from India " />
+    <meta name="twitter:description" content="Shop in Myntra and courier your packages from India to USA, UK, UAE, Australia at a cheap courier cost." />
+    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
+    <meta name="twitter:image:alt" content="shoppre international shipping" />
     <style>
         .bg-ics-landing-page .container > div {margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}
@@ -90,14 +106,14 @@
                     <div class="shopandship ">
                         <h2>Shop & Ship</h2>
                         <br/>
-                        <p>Shop From Any Indian Store; Get It to a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
+                        <p>Shop From Myntra Online Store; Get a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
                         <h2>Personal Shopper</h2>
                         <br>
-                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You!</p>
+                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You at Myntra.com</p>
 
                     </div>
                 </div>

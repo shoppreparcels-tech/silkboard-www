@@ -65,6 +65,10 @@ class PageController extends Controller
     {
         return view('page.myntra-landing');
     }
+    public function amazonIndex()
+    {
+        return view('page.amazon-landing');
+    }
 
     public function ifsLandingPage()
     {
@@ -221,6 +225,17 @@ class PageController extends Controller
         );
         $json_data = json_encode($data);
         mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+    }
+
+    public function newYearOffer(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
+        $list_id = '458f84e53e';
+        $auth = base64_encode('user:' . $apikey);
+        $email = $req->email;
+        $commnet = "Lead from NewYear landing page email ".$email ;
+        AsanaTaskOperations::createTask($email, $commnet, "L");
     }
     public function icsLandingPageSubmit(Request $req)
     {
