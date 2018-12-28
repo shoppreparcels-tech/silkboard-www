@@ -31,6 +31,7 @@
       .img-new-year{display: none}
       .chris-benefits .panel{box-shadow: 0 2px 10px rgba(0,0,0,.05) !important;}
       .chris-benefits .panel ul li span{margin-left: 15px;}
+      .leter-space{letter-spacing: 1px;}
       #contact-support{padding-bottom: 30px;}
       @media only screen and (max-width: 600px) {
           .textbox-email {width: 330px;}
@@ -40,7 +41,7 @@
           .c-image{display: none}
           .txt-align{text-align: center}
           .img-new-year{display: block;width: 240px;}
-          .chris-benefits ul li{font-size: 16px};
+          .chris-benefits ul li{font-size: 16px}
       }
     </style>
 
@@ -56,10 +57,11 @@
                    <img src="{{asset('img/images/newyear_image.png')}}" alt="" class="img-new-year">
                    <h1 class="p-color-white header-spacing header1 ">2018 Has Run Its Course!</h1>
                    <h2 class="header2 p-color-white header-spacing font-weight-900"> Ready to Welcome 2019?</h2>
-                   <h4 class="header4 p-color-cement font-weight-900">Save up to 80% on international shipping + Get an additional 19% for this New Year!</h4>
+                   <h4 class="header6 p-color-cement font-weight-900 leter-space">Save up to 80% on international shipping + Get an additional 19% for this New Year!</h4>
                    <form action=""  method="post" id="diwali_coupon">
                        {{csrf_field()}}
                        <div class="" id="diwali-couponcode1">
+                           <br>
                            <div class="form-group">
                                <input type="email" name="email" class="textbox-email"
                                       placeholder="Enter a valid E-mail ID" required>
@@ -68,24 +70,9 @@
                                <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900">Grab the Offer!</button>
                            </div>
                        </div>
-
-                       {{--<div class="formFrame" id="diwali-couponcode2">--}}
-                       {{--<div class="">--}}
-                       {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-congratulation.png" alt="" style="width: 100%">--}}
-                       {{--</div>--}}
-                       {{--<div class="">--}}
-                       {{--<center>--}}
-                       {{--<h6 class="header5 p-color-blue">Congratulations!</h6>--}}
-                       {{--<h5 class="header5 p-color-cement">Just One More Step To Use <br>Your Coupon!</h5>--}}
-                       {{--</center>--}}
-                       {{--</div>--}}
-                       {{--<div class="text-center">--}}
-                       {{--<a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-d-signup">Sign Up</a>--}}
-                       {{--<button type="submit" name="btnActivate" class="btn btn-shoppre">Sign Up</button>--}}
-                       {{--</div>--}}
-                       {{--</div>--}}
+                       <br>
                    </form>
-                   <h6 class="header6">*From 27th Dec to 06th Jan 2019</h6>
+                   <h6 class="header6 leter-space">*From 27th Dec to 06th Jan 2019</h6>
                </center>
            </div>
             <div class="col-md-2 div-newyear">
@@ -136,10 +123,9 @@
             </div>
 
             <div class=" col-md-12 offer-description">
-                <h5 class="header5 p-color-cement">OFFER DESCRIPTION:</h5> <br>
                 <h4 class="header4 p-color-cement">Why Not Make Use of the Year End Sales & Get Ready for the New Year's?</h4>
                 <br>
-                <p class="header4 p-color-cement">2018 is on its last stretch and everyone's busy running around with their last-year resolutions! Let us get ready for another year with open heart and clean baggage. We're here to help you be a new 'You' for the New Year's.</p>
+                <p class="header4 p-color-cement">2018 is on its last stretch and everyone's busy running around with their last-year resolutions! Let us get ready for another year with an open heart and clean baggage. We're here to help you be a new 'You' for the New Year's.</p>
                 <br>
                 <p class="header4 p-color-cement">Here's how; you get an <a href="{{route('pricing')}}">80% lesser shipping cost</a> with our top-of-the-line package consolidation services on top of which, you can avail a sweet 19% OFF - a little something from us to start off your New Year with.</p> <br>
 
@@ -181,8 +167,8 @@
                         <ul>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Affordable Rates</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned of your documents in the courier</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-specific</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned Copies for Document-couriers</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-discount</span></li>
 
                         </ul>
                     </div>
@@ -193,7 +179,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Photo Updates</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Wallet Cashback</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Package Return Services</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Personalized Product Recommendations</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Product Recommendations</span></li>
                         </ul>
                     </div>
                 </div>

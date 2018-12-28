@@ -207,11 +207,13 @@ class PageController extends Controller
         $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
         $list_id = '458f84e53e';
         $auth = base64_encode('user:' . $apikey);
-        $email = $req->email;
-        $name = $req->name;
-        $contact = $req->contact_no;
-        $commnet = "Lead from diwali landing page email ".$email."\n contact No: ".$contact;
-        AsanaTaskOperations::createTask($name, $commnet, "L");
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $name = $req->name;
+            $contact = $req->contact_no;
+            $commnet = "Lead from diwali landing page email " . $email . "\n contact No: " . $contact;
+            AsanaTaskOperations::createTask($name, $commnet, "L");
+        }
 
         $data = array(
             'apikey' => $apikey,
@@ -233,9 +235,11 @@ class PageController extends Controller
         $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
         $list_id = '458f84e53e';
         $auth = base64_encode('user:' . $apikey);
-        $email = $req->email;
-        $commnet = "Lead from NewYear landing page email ".$email ;
-        AsanaTaskOperations::createTask($email, $commnet, "L");
+        if (!empty($req->email)){
+            $email = $req->email;
+            $commnet = "Lead from NewYear landing page email ".$email ;
+            AsanaTaskOperations::createTask($email, $commnet, "L");
+        };
     }
     public function icsLandingPageSubmit(Request $req)
     {
@@ -243,11 +247,13 @@ class PageController extends Controller
         $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
         $list_id = '458f84e53e';
         $auth = base64_encode('user:' . $apikey);
-        $email = $req->email;
-        $name = $req->name;
-        $contact = $req->contact_no;
-        $commnet = "Lead from send-international-courier-from-india landing page email ".$email."\n contact No: ".$contact."\n Name :".$name;
-        AsanaTaskOperations::createTask($name, $commnet, "L");
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $name = $req->name;
+            $contact = $req->contact_no;
+            $commnet = "Lead from send-international-courier-from-india landing page email " . $email . "\n contact No: " . $contact . "\n Name :" . $name;
+            AsanaTaskOperations::createTask($name, $commnet, "L");
+        }
 
         $data = array(
             'apikey' => $apikey,
@@ -268,11 +274,13 @@ class PageController extends Controller
         $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
         $list_id = '458f84e53e';
         $auth = base64_encode('user:' . $apikey);
-        $email = $req->email;
-        $name = $req->name;
-        $contact = $req->contact_no;
-        $commnet = "Lead from personal-shopper-india landing page email ".$email."\n contact No: ".$contact."\n Name :".$name;
-        AsanaTaskOperations::createTask($name, $commnet, "L");
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $name = $req->name;
+            $contact = $req->contact_no;
+            $commnet = "Lead from personal-shopper-india landing page email " . $email . "\n contact No: " . $contact . "\n Name :" . $name;
+            AsanaTaskOperations::createTask($name, $commnet, "L");
+        }
 
         $data = array(
             'apikey' => $apikey,
@@ -293,13 +301,14 @@ class PageController extends Controller
         $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
         $list_id = '458f84e53e';
         $auth = base64_encode('user:' . $apikey);
-        $email = $req->email;
-        $name = $req->name;
-        $contact = $req->contact_no;
-        $coupon = $req->coupon_code;
-        $commnet = "Lead from radcon landing page email ".$email."\n contact No: ".$contact."\n Coupon No :".$coupon;
-        AsanaTaskOperations::createTask($name, $commnet, "L");
-
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $name = $req->name;
+            $contact = $req->contact_no;
+            $coupon = $req->coupon_code;
+            $commnet = "Lead from radcon landing page email " . $email . "\n contact No: " . $contact . "\n Coupon No :" . $coupon;
+            AsanaTaskOperations::createTask($name, $commnet, "L");
+        }
         $data = array(
             'apikey' => $apikey,
             'email_address' => $email,
@@ -319,9 +328,11 @@ class PageController extends Controller
         $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
         $list_id = '458f84e53e';
         $auth = base64_encode('user:' . $apikey);
-        $email = $req->email;
-        $commnet = "Lead from christmas landing page email ".$email;
-        AsanaTaskOperations::createTask($email, $commnet, "L");
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $commnet = "Lead from christmas landing page email " . $email;
+            AsanaTaskOperations::createTask($email, $commnet, "L");
+        }
     }
     public function universitySubmit(Request $req)
     {
@@ -329,9 +340,11 @@ class PageController extends Controller
         $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
         $list_id = '458f84e53e';
         $auth = base64_encode('user:' . $apikey);
-        $email = $req->email;
-        $commnet = "Lead from university landing page email ".$email;
-        AsanaTaskOperations::createTask($email, $commnet, "L");
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $commnet = "Lead from university landing page email " . $email;
+            AsanaTaskOperations::createTask($email, $commnet, "L");
+        }
     }
     public function sendEmailtoSubscriber($email)
     {

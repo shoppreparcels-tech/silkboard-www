@@ -1,11 +1,26 @@
 @extends('layout')
 
 @section('title', 'Shop Amazon.in & Ship Internationally From India | ShoppRe.com')
-@section('description', 'Online Shopping from Amazon India and Ship Internationally Upto 220+ countries. The fast & cheapest way to  ship your package from India. Sign Up for Free.')
+@section('description', 'Shop online from Amazon India and Ship Internationally with ShoppRe Upto 220+ countries. The fast & cheapest way to ship your package from India. Sign Up Free.')
 @section('keywords', 'Amazon International Shipping, great indian sale, ship india')
 
 @section('css_style')
+    <meta property="og:title" content="Shop online Amazon.in products & Ship Internationally with ShoppRe" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/amazon-india-shop-international-shipping" />
+    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
+    <meta property="og:image:width" content="2506">
+    <meta property="og:image:height" content="1312">
+    <meta property="og:image:alt" content="shoppre international shipping india" />
+    <meta property="og:description" content="Ship your purchases from Amazon India to Worldwide with ShoppRe, at an affordable shipping cost." />
+    <meta property="og:site_name" content="shoppre" />
 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="go_shoppre" />
+    <meta name="twitter:title" content="Amazon.in International Shipping from India " />
+    <meta name="twitter:description" content="Shop in Amazon.in and ship your packages from India to USA, UK, UAE, Canada at a cheap courier cost." />
+    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
+    <meta name="twitter:image:alt" content="shoppre international shipping" />
     <style>
         .bg-ics-landing-page .container > div {margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}
@@ -59,7 +74,7 @@
                     comes to checking-out & shipping their purchases in from India to USA, UK, UAE, Australia & such,
                     at an affordable shipping cost. Since Amazon India doesn't offer to ship internationally, customers
                     have no other choice but to look for alternative shipping options. </p> <br>
-                <p class="header4 p-color-cement">We’re a <a href{{route('home')}}>shipping & consolidation company</a> that specializes in domestic & international
+                <p class="header4 p-color-cement">We’re a <a href="{{route('home')}}">shipping & consolidation company</a> that specializes in domestic & international
                     logistic solutions. We  handle over ₹1,000,000 worth of E-Commerce shipments and 2000 Courier pickup
                     requests a month! A potential customer can shop from 1000+ desi/Indian online stores and,
                     we ship those packages/couriers off to 220+ countries around the world. Our vision has always
@@ -176,7 +191,8 @@
             <center>
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Buying from Amazon.in from a different country?</h1>
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Join us now for a lifetime of effortless</h1>
-                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900"> online shopping with international shipping from India!</h1>
+                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Online shopping with international shipping from India!</h1>
+
                 <br>
                 <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn-chris-place-order">Sign Up for Free</a>
 
@@ -264,18 +280,20 @@
             </div>
             <br/><br/>
             <center>
-                <a href="">Place Your Order Now!</a>
+                <a href="https://myaccount.shoppre.com/personal-shopper">Place Your Order Now!</a>
             </center>
             <br/><br/>
         </div>
+    </section>
+    <section>
         <div class="container" style="background-color: #fff;padding: 20px;">
-            <h1 class="header2 p-color-cement-dark">Frequently Asked Questions</h1>
+            <h1 class="header2 p-color-cement-dark font-weight-900">Frequently Asked Questions: </h1>
             <ul style="text-decoration: none;list-style: none">
                 <li>
-                   <h3 class="header4 p-color-cement-dark font-weight-900">How do I order an amazon product and get it delivered to UAE?</h3>
-                   <p class="header5 p-color-cement ">Go online and shop on Amazon.in and reach out to us, sign up on ShoppRe
-                       Dashboard & make your request to ship it to UAE. You'll be guided by our
-                       Support as to how to take it from there. </p>
+                    <h3 class="header4 p-color-cement-dark font-weight-900">How do I order an amazon product and get it delivered to UAE?</h3>
+                    <p class="header5 p-color-cement ">Go online and shop on Amazon.in and reach out to us, sign up on ShoppRe
+                        Dashboard & make your request to ship it to UAE. You'll be guided by our
+                        Support as to how to take it from there. </p>
                 </li>
                 <li>
                     <h3 class="header4 p-color-cement-dark font-weight-900">Can I buy from amazon INDIA and ship to US?</h3>
@@ -284,13 +302,13 @@
                 </li>
                 <li>
                     <h3 class="header4 p-color-cement-dark font-weight-900">How do I buy from India online Stores and Ship to UK?</h3>
-                    <p class="header5 p-color-cement ">You can shop from any Indian online store, ship your purchases to us;
+                    <p class="header5 p-color-cement ">You can <a href="{{route('stores1')}}">shop from any Indian online store</a>, ship your purchases to us;
                         and make a request to ship it internationally to your location in UK.
                         For more info; contact our Support. </p>
                 </li>
                 <li>
                     <h3 class="header4 p-color-cement-dark font-weight-900">Can I order different books on Amazon.in and get them delivered in single shipment to save money?</h3>
-                    <p class="header5 p-color-cement ">Of course. We strive to make the shipping costs of our customers as low as possible. So,
+                    <p class="header5 p-color-cement ">Of course. We strive to make the <a href="{{route('pricing')}}">shipping costs</a> of our customers as low as possible. So,
                         we'd be behind you 100% in this matter as our main service that allows you save up is our
                         Package Consolidation. You can make use of our 20-day FREE storage
                         for collecting your books as well. </p>

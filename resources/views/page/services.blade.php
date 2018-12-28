@@ -1,8 +1,40 @@
 @extends('layout')
 
-@section('title', 'Shoppre Services | Personal Shopper | Shop & Ship Worldwide')
-@section('description', 'Enjoy fast and worry-free shipping experience. Our Personal Shopper will purchase the item on your behalf, using our Indian local card. Sign-up, Buy & Ship Now!')
+@section('title', 'ShoppRe Services - Shop & Ship | Personal Shopper | Shopping Guide')
+@section('description', 'Enjoy worry-free shopping & fast shipping experience with ShoppRe service team. Delivering Happiness to you through every box with your favorite Indian Products.')
 @section('keywords', 'fast, worry-free shipping experience, personal shopper, ship worldwide, simply sign-up, buy now')
+@section('css_style)
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "ShoppRe.com",
+  "alternateName": "International Shopping and Shipping From India, ShoppRe",
+  "url": "https://www.shoppre.com/services",
+  "logo": "https://www.shoppre.com/img/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91 80409 44077",
+    "contactType": "customer service"
+  },
+  "sameAs": [
+    "https://www.facebook.com/goshoppre",
+    "https://twitter.com/Go_Shoppre",
+    "https://www.instagram.com/shoppre_official",
+    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+    "https://www.linkedin.com/company/shoppre.com",
+    "https://in.pinterest.com/shoppre"
+  ],
+  "aggregateRating": {
+    "@type" : "AggregateRating",
+    "bestRating": "5",
+    "ratingValue" : "4.8",
+    "reviewCount" : "117",
+    "worstRating" : 3.0
+  }
+}
+    </script>
+@endsection
 
 @section('content')
 

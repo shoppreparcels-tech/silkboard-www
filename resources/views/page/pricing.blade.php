@@ -412,7 +412,7 @@
                                         <i class="fa fa-question-circle-o"></i>
                                     </a>
                                     <a href="{{route('cguide.index')}}" target="_blank" class="header7 p-color-blue">Country Guide</a>
-                                    <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/" target="_blank"><span
+                                    <a href="{{route('offers-new.index')}}" target="_blank"><span
                                             class="header7 p-color-red price-cal-country">Offers</span></a>
                                 </p>
                                 <p class="header7 p-color-cement">Centimeter to Inch Conversion</p>
@@ -861,7 +861,7 @@
                                         <i class="fa fa-question-circle-o"></i>
                                     </a>
                                     <a href="{{route('cguide.index')}}" target="_blank" class="header7 p-color-blue">Country Guide</a>
-                                    <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/" target="_blank"><span
+                                    <a href="{{route('offers-new.index')}}" target="_blank"><span
                                             class="header7 p-color-red price-cal-country">Offers</span></a>
                                 </p>
 
