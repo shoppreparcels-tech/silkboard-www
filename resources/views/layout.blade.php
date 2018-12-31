@@ -42,6 +42,7 @@
     <link rel="stylesheet" href="{{asset('css/stores-new.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
     <link rel="stylesheet" href="{{asset('css/style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
     <link rel="stylesheet" href="{{asset('css/faq.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/style-frame.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
 
 
     {{--<link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/bootstrap.min.css" >--}}
@@ -218,7 +219,7 @@
 </script>
 <script type="text/javascript">
     $(window).on('load', function () {
-        $('#myModal-offer').modal('show');
+        // $('#myModal-offer').modal('show');
     });
 </script>
 <script type="text/javascript">

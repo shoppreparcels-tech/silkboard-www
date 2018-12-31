@@ -66,7 +66,7 @@ class SchedulePickupController extends Controller
         $schedule_package->asana_url = "https://app.asana.com/0/819867433809220/".$phpArray['data']['id'];
         $schedule_package->save();
 
-          $this->sendEmailPickup($schedule_package);
+        $this->sendEmailPickup($schedule_package);
         return response()->json([ 'error'=>'0', 'message'=>$request->user_email]);
     }
 

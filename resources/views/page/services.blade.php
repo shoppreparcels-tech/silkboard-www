@@ -3,7 +3,7 @@
 @section('title', 'ShoppRe Services - Shop & Ship | Personal Shopper | Shopping Guide')
 @section('description', 'Enjoy worry-free shopping & fast shipping experience with ShoppRe service team. Delivering Happiness to you through every box with your favorite Indian Products.')
 @section('keywords', 'fast, worry-free shipping experience, personal shopper, ship worldwide, simply sign-up, buy now')
-@section('css_style)
+@section('css_style')
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",

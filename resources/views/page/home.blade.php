@@ -171,11 +171,16 @@
         .div-shop-ship1 > div > p {text-align: center}
         .div-main .div-add{position:fixed;margin-top: 20%;z-index: 1}
         .div-main .div-add1{position:relative; float: right}
+        .div-h-offer{border-radius: 15px;background-color: #ffffff;padding: 20px}
+        .div-h-offer>div{padding-top: 10px;border-bottom: 1px solid rgba(146, 156, 165, 0.2)}
         @media only screen and (max-width: 1024px) {
             .div-add {display: none;}
         }
         @media only screen and (max-width: 1280px) {
             .div-add {display: none;}
+        }
+        @media only screen and (max-width: 600px) {
+            #img-p{display: none}
         }
     </style>
 
@@ -269,19 +274,84 @@
                 </a>
             </div>
         </div>
+
+        <div class="container">
+            <div class="col-md-7 no-padding">
+                <div>
+                    <h1 class="header1 p-color-white ">
+                        International Shipping from India <span class="f-c-yellow" id="country"></span>
+                        starting at just <span class="p-color-red">*₹<span id="prices"></span></span><span style="color: #ffffff">!</span>
+                    </h1> <br>
+                </div>
+                <div>
+                    <div class="col-md-10 div-h-offer no-padding">
+                        <center>
+                            <h7 class="header7 p-color-blue">Avail Your Discount Today!</h7>
+                        </center>
+                        <div>
+                            <center>
+                                <img src="{{asset('img/offers-image/offer-50.png')}}" alt="" class="img-responsive"> <br><br><br>
+                            </center>
+                        </div>
+                        <div>
+                            <center>
+                                <p class="f-s-14 f-c-gray">Use coupon code: <span class="uppercase f-s-14 f-c-blue">FRST50</span></p>
+                            </center>
+
+                        </div>
+                        <br>
+                        <center>
+                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn-l btn-b-r btn-s-r btn-a-l">Sign Up FREE</a>
+                        </center>
+                        <span class="pull-right f-c-gray f-s-12"><a href="https://www.shoppre.com/offers/50-percent-offer-on-your-first-international-shipment/">*T&C Apply</a></span>
+
+                    </div>
+                    <div class="col-md-10 no-padding">
+                        <br>
+                        <br>
+                        <div class="col-md-6 col-xs-6">
+                            <center>
+                                <p>
+                                <a class="bla-1"
+                                   href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank">
+                                <img src="{{asset('img/images/btnplay.png')}}" alt="" class="img-responsive">
+                                </a>
+                                </p>
+                            </center>
+
+                        </div>
+                        <div class="col-md-6 col-xs-6 ">
+                            <center>
+                                <a href="tel:+91-80 4094 4077">
+                                   <img src="{{asset('img/images/number.png')}}" alt="" class="img-responsive">
+                                </a>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-md-5 no-padding">
+                <br>
+                <br>
+                <img src="{{asset('img/images/priyamani-new.png')}}" class="img-responsive" alt="" id="img-p">
+            </div>
+        </div>
         {{--<div class="container">--}}
             {{--<marquee style="color:#e85151;font-weight:900 ">On account of Christmas; no dispatches will be initiated on 25th December, 2018; However, our 24/7 Support would be available for your assistance and we'll resume the services the next day. Wishing you a very Merry Christmas!</marquee>--}}
         {{--</div>--}}
-        <div class="container no-padding">
-            <div class="col-md-6  col-lg-6  col-sm-12 col-xs-12 no-padding">
-                <div class="col-md-12 col-sm-11 col-xs-11  col-lg-12 div-main-row">
-                    <strong>
+        {{--previous design--}}
+        {{--<div class="container no-padding">--}}
+            {{--<div class="col-md-6  col-lg-6  col-sm-12 col-xs-12 no-padding">--}}
+                {{--<div class="col-md-12 col-sm-11 col-xs-11  col-lg-12 div-main-row">--}}
+                    {{--<strong>--}}
                         {{--this block is required--}}
-                        <b><h1 class="header1 p-color-white header-text-margin">
-                        International Shipping from India <span id="country"></span>
-                        starting at just <span class="p-color-red">*₹<span id="prices"></span></span><span
-                        style="color: #ffffff">!</span>
-                        </h1></b>
+                        {{--<b><h1 class="header1 p-color-white header-text-margin">--}}
+                        {{--International Shipping from India <span id="country"></span>--}}
+                        {{--starting at just <span class="p-color-red">*₹<span id="prices"></span></span><span--}}
+                        {{--style="color: #ffffff">!</span>--}}
+                        {{--</h1></b>--}}
 
                         {{--<b><h1 class="header1 p-color-white header-text-margin">--}}
                                 {{--International Shipping from India--}}
@@ -289,205 +359,206 @@
                                     {{--style="color: #ffffff">!</span>--}}
 
                             {{--</h1></b>--}}
-                    </strong>
-                </div>
-                <div class="div-mobile-background-img no-padding" id="mobile-version">
-                    <div class="row" style="margin-left: 0px;margin-right: 0px;" id="row-padding-shop1">
-                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 no-padding div-shop-ship1" id="shop-ship">
-                            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                                <p class="header6 p-color-white">
-                                    Shop From Any
-                                    Indian Store; Get It to a FREE
-                                    Indian Virtual Address;
-                                    We'll Ship It to
-                                    Your Doorsteps!</p>
+                    {{--</strong>--}}
+                {{--</div>--}}
+                {{--<div class="div-mobile-background-img no-padding" id="mobile-version">--}}
+                    {{--<div class="row" style="margin-left: 0px;margin-right: 0px;" id="row-padding-shop1">--}}
+                        {{--<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 no-padding div-shop-ship1" id="shop-ship">--}}
+                            {{--<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">--}}
+                                {{--<p class="header6 p-color-white">--}}
+                                    {{--Shop From Any--}}
+                                    {{--Indian Store; Get It to a FREE--}}
+                                    {{--Indian Virtual Address;--}}
+                                    {{--We'll Ship It to--}}
+                                    {{--Your Doorsteps!</p>--}}
 
-                            </div>
-                            <div class="col-md-12 no-padding">
-                                <center>
-                                    <a href="{{route('ifs.index')}}">
-                                        <div class="btn-shop-ship1" id="btn-shop-ship">
-                                            <p class="shop-ship-btn-name">
-                                                SHOP & SHIP
-                                            </p>
-                                        </div>
-                                    </a>
-                                </center>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 no-padding div-courier1" id="courier">
-                            <div class="div-courier-text">
-                                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12"
-                                     style="padding-top: 10px;padding-bottom: 10px">
-                                    <p class="header6 p-color-white" style="text-align: center">
-                                        Schedule a Pickup for Your Courier From Anywhere in India; We'll Come Pick It Up
-                                        in 24 Hours!
-                                    </p>
-                                </div>
+                            {{--</div>--}}
+                            {{--<div class="col-md-12 no-padding">--}}
+                                {{--<center>--}}
+                                    {{--<a href="{{route('ifs.index')}}">--}}
+                                        {{--<div class="btn-shop-ship1" id="btn-shop-ship">--}}
+                                            {{--<p class="shop-ship-btn-name">--}}
+                                                {{--SHOP & SHIP--}}
+                                            {{--</p>--}}
+                                        {{--</div>--}}
+                                    {{--</a>--}}
+                                {{--</center>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 no-padding div-courier1" id="courier">--}}
+                            {{--<div class="div-courier-text">--}}
+                                {{--<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12"--}}
+                                     {{--style="padding-top: 10px;padding-bottom: 10px">--}}
+                                    {{--<p class="header6 p-color-white" style="text-align: center">--}}
+                                        {{--Schedule a Pickup for Your Courier From Anywhere in India; We'll Come Pick It Up--}}
+                                        {{--in 24 Hours!--}}
+                                    {{--</p>--}}
+                                {{--</div>--}}
 
-                                <div class="row">
-                                    <center>
-                                        <a href="{{route('ics.index')}}">
-                                            <div class="btn-courier1" id="btn-courier">
-                                                <p class="shop-ship-btn-name">
-                                                    COURIER NOW!
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </center>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-video-margin">
-                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab">
-                            <center>
-                                <p>
-                                    <img class="img-demo" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_watch_now.svg">
-                                    <a class="bla-1 p-demo-text" style="color: #ffffff"
-                                       href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank"
-                                    >&nbsp;&nbsp;&nbsp;&nbsp;Watch Video</a>
-                                </p>
-                            </center>
+                                {{--<div class="row">--}}
+                                    {{--<center>--}}
+                                        {{--<a href="{{route('ics.index')}}">--}}
+                                            {{--<div class="btn-courier1" id="btn-courier">--}}
+                                                {{--<p class="shop-ship-btn-name">--}}
+                                                    {{--COURIER NOW!--}}
+                                                {{--</p>--}}
+                                            {{--</div>--}}
+                                        {{--</a>--}}
+                                    {{--</center>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                    {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-video-margin">--}}
+                        {{--<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab">--}}
+                            {{--<center>--}}
+                                {{--<p>--}}
+                                    {{--<img class="img-demo" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_watch_now.svg">--}}
+                                    {{--<a class="bla-1 p-demo-text" style="color: #ffffff"--}}
+                                       {{--href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank"--}}
+                                    {{-->&nbsp;&nbsp;&nbsp;&nbsp;Watch Video</a>--}}
+                                {{--</p>--}}
+                            {{--</center>--}}
 
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="number"
-                             style="padding-left: 0;">
-                            <img class="img-demo" id="img-cal"
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header.svg">
-                            <b>
-                                <a href="tel:+91-8277919191">
+                        {{--</div>--}}
+                        {{--<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="number"--}}
+                             {{--style="padding-left: 0;">--}}
+                            {{--<img class="img-demo" id="img-cal"--}}
+                                 {{--src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header.svg">--}}
+                            {{--<b>--}}
+                                {{--<a href="tel:+91-8277919191">--}}
 
-                                    <b>
-                                        <p class="p-support-text" id="p-numer">
-                                            &nbsp;+91 8277-919191
-                                        </p>
-                                    </b>
-                                </a>
-                            </b>
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="callnow">
-                            <img class="img-demo" id="img-cal1" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header1.svg">
-                            <a href="tel:+91-80 4094 4077">
-                                <p class="p-demo-text text-call-now" id="p-demo-text-cal">
-                                    &nbsp;Call Now
-                                </p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                                    {{--<b>--}}
+                                        {{--<p class="p-support-text" id="p-numer">--}}
+                                            {{--&nbsp;+91 8277-919191--}}
+                                        {{--</p>--}}
+                                    {{--</b>--}}
+                                {{--</a>--}}
+                            {{--</b>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="callnow">--}}
+                            {{--<img class="img-demo" id="img-cal1" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header1.svg">--}}
+                            {{--<a href="tel:+91-80 4094 4077">--}}
+                                {{--<p class="p-demo-text text-call-now" id="p-demo-text-cal">--}}
+                                    {{--&nbsp;Call Now--}}
+                                {{--</p>--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
 
-                <div id="desktop-version">
-                    <div class="row" style="margin-left: 0px;margin-right: 0px;" id="row-padding-shop">
-                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 div-shop-ship" id="shop-ship">
-                            <div class="row">
-                                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                                    <div class="no-padding text-center ">
-                                        <p class="p-ship-shop-courier"> Shop From Any
-                                            Indian Store; Get It to a FREE
-                                            Indian Virtual Address;
-                                            We'll Ship It to
-                                            Your Doorsteps!</p>
-                                    </div>
+                {{--<div id="desktop-version">--}}
+                    {{--<div class="row" style="margin-left: 0px;margin-right: 0px;" id="row-padding-shop">--}}
+                        {{--<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 div-shop-ship" id="shop-ship">--}}
+                            {{--<div class="row">--}}
+                                {{--<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">--}}
+                                    {{--<div class="no-padding text-center ">--}}
+                                        {{--<p class="p-ship-shop-courier"> Shop From Any--}}
+                                            {{--Indian Store; Get It to a FREE--}}
+                                            {{--Indian Virtual Address;--}}
+                                            {{--We'll Ship It to--}}
+                                            {{--Your Doorsteps!</p>--}}
+                                    {{--</div>--}}
 
-                                </div>
-                            </div>
-                            <div class="row">
-                                <center>
-                                    <a href="{{route('ifs.index')}}">
-                                        <div class="btn-shop-ship" id="btn-shop-ship">
-                                            <p class="shop-ship-btn-name">
-                                                SHOP & SHIP
-                                            </p>
-                                        </div>
-                                    </a>
-                                </center>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 div-courier" id="courier">
-                            <div class="div-courier-text">
-                                <div class="row">
-                                    <div class="col-md-12 col-sm-12 col-xs-12">
-                                        <div class="no-padding text-center">
-                                            <b><p class="p-ship-shop-courier">Schedule a Pickup
-                                                    For Your Courier
-                                                    From Anywhere in India;
-                                                    We ship to 220+
-                                                    countries!</p></b>
-                                        </div>
-                                    </div>
-                                </div>
+                                {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="row">--}}
+                                {{--<center>--}}
+                                    {{--<a href="{{route('ifs.index')}}">--}}
+                                        {{--<div class="btn-shop-ship" id="btn-shop-ship">--}}
+                                            {{--<p class="shop-ship-btn-name">--}}
+                                                {{--SHOP & SHIP--}}
+                                            {{--</p>--}}
+                                        {{--</div>--}}
+                                    {{--</a>--}}
+                                {{--</center>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 div-courier" id="courier">--}}
+                            {{--<div class="div-courier-text">--}}
+                                {{--<div class="row">--}}
+                                    {{--<div class="col-md-12 col-sm-12 col-xs-12">--}}
+                                        {{--<div class="no-padding text-center">--}}
+                                            {{--<b><p class="p-ship-shop-courier">Schedule a Pickup--}}
+                                                    {{--For Your Courier--}}
+                                                    {{--From Anywhere in India;--}}
+                                                    {{--We ship to 220+--}}
+                                                    {{--countries!</p></b>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
 
-                                <div class="row">
-                                    <center>
-                                        <a href="{{route('ics.index')}}">
-                                            <div class="btn-courier" id="btn-courier">
-                                                <p class="shop-ship-btn-name">
-                                                    COURIER NOW!
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </center>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                {{--<div class="row">--}}
+                                    {{--<center>--}}
+                                        {{--<a href="{{route('ics.index')}}">--}}
+                                            {{--<div class="btn-courier" id="btn-courier">--}}
+                                                {{--<p class="shop-ship-btn-name">--}}
+                                                    {{--COURIER NOW!--}}
+                                                {{--</p>--}}
+                                            {{--</div>--}}
+                                        {{--</a>--}}
+                                    {{--</center>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
 
 
-                    <div class="row" style="margin-left: -32px;">
-                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-demo-row">
-                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab">
-                                <p>
-                                    <img class="img-demo" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_watch_now.svg">
-                                    <a class="bla-1 p-demo-text"  style="color: #ffffff"
-                                       href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank"
-                                    >&nbsp;Watch Video</a>
-                                </p>
-                            </div>
-                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="number"
-                                 style="padding-left: 0;">
-                                <img class="img-demo" id="img-cal"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header.svg">
-                                <b>
-                                    <a href="tel:+91-8277919191">
-                                        <b>
-                                            <p class="p-support-text" id="p-numer">
-                                                &nbsp;&nbsp;+91 8277-919191
-                                            </p>
-                                        </b>
-                                    </a>
-                                </b>
-                            </div>
-                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="callnow">
-                                <img class="img-demo" id="img-cal1"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header1.svg">
-                                <b>
-                                    <a href="tel:+91-80 4094 4077">
-                                        <b>
-                                            <p class="p-demo-text" id="p-demo-text-cal">
-                                                Call Now
-                                            </p>
-                                        </b>
-                                    </a>
-                                </b>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 ">
-                <div class="col-md-12 div-backgroud-img ">
-                    <img class="img-priyamani"
-                         src="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-shoppre-international-shipping.png"
-                         alt="priyamani shoppre shipping">
-                </div>
-            </div>
-            {{--<div class="div-mobile-background-img">--}}
-            <div class="div-priyamani-mobile-img"></div>
+                    {{--<div class="row" style="margin-left: -32px;">--}}
+                        {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-demo-row">--}}
+                            {{--<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab">--}}
+                                {{--<p>--}}
+                                    {{--<img class="img-demo" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_watch_now.svg">--}}
+                                    {{--<a class="bla-1 p-demo-text"  style="color: #ffffff"--}}
+                                       {{--href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank"--}}
+                                    {{-->&nbsp;Watch Video</a>--}}
+                                {{--</p>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="number"--}}
+                                 {{--style="padding-left: 0;">--}}
+                                {{--<img class="img-demo" id="img-cal"--}}
+                                     {{--src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header.svg">--}}
+                                {{--<b>--}}
+                                    {{--<a href="tel:+91-8277919191">--}}
+                                        {{--<b>--}}
+                                            {{--<p class="p-support-text" id="p-numer">--}}
+                                                {{--&nbsp;&nbsp;+91 8277-919191--}}
+                                            {{--</p>--}}
+                                        {{--</b>--}}
+                                    {{--</a>--}}
+                                {{--</b>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="callnow">--}}
+                                {{--<img class="img-demo" id="img-cal1"--}}
+                                     {{--src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header1.svg">--}}
+                                {{--<b>--}}
+                                    {{--<a href="tel:+91-80 4094 4077">--}}
+                                        {{--<b>--}}
+                                            {{--<p class="p-demo-text" id="p-demo-text-cal">--}}
+                                                {{--Call Now--}}
+                                            {{--</p>--}}
+                                        {{--</b>--}}
+                                    {{--</a>--}}
+                                {{--</b>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
             {{--</div>--}}
 
-        </div>
+            {{--<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 ">--}}
+                {{--<div class="col-md-12 div-backgroud-img ">--}}
+                    {{--<img class="img-priyamani"--}}
+                         {{--src="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-shoppre-international-shipping.png"--}}
+                         {{--alt="priyamani shoppre shipping">--}}
+                {{--</div>--}}
+            {{--</div>            --}}
+            {{--<div class="div-priyamani-mobile-img"></div>--}}
+        {{--</div>--}}
+        {{--previous design--}}
+        <br>
+        <br>
+        <br>
     </main>
     <!-- Main container -->
     <section>
