@@ -306,7 +306,8 @@
                         <span class="pull-right f-c-gray f-s-12"><a href="https://www.shoppre.com/offers/50-percent-offer-on-your-first-international-shipment/">*T&C Apply</a></span>
 
                     </div>
-                    <div class="col-md-10 no-padding">
+
+                    <div class="col-md-10 col-xs-12 no-padding">
                         <br>
                         <br>
                         <div class="col-md-6 col-xs-6">
@@ -322,7 +323,7 @@
                         </div>
                         <div class="col-md-6 col-xs-6 ">
                             <center>
-                                <a href="tel:+91-80 4094 4077">
+                                <a href="tel:+91-8277919191">
                                    <img src="{{asset('img/images/number.png')}}" alt="" class="img-responsive">
                                 </a>
                             </center>
