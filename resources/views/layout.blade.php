@@ -74,24 +74,44 @@
         }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/8f7212d51aa9533c4788ccf05/2a914120f0c71f0c8738d91cf.js");</script>
     <!--mailchimp RM-->
     <!-- One Signal -->
-{{--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>--}}
-{{--<script>--}}
-{{--if(localStorage.userinfo) {--}}
-{{--var OneSignal = window.OneSignal || [];--}}
-{{--OneSignal.push(function() {--}}
-{{--OneSignal.sendTag("key",JSON.parse(localStorage.userinfo).id);--}}
-{{--OneSignal.init({--}}
-{{--appId: "b7792635-0674-4e60-bef9-66d31b818a92",--}}
-{{--allowLocalhostAsSecureOrigin: true,--}}
-{{--autoRegister: true,--}}
-{{--notifyButton: {--}}
-{{--enable: false,--}}
-{{--},--}}
-{{--});--}}
-{{--});--}}
-{{--}--}}
-{{--</script>--}}
+    {{--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>--}}
+    {{--<script>--}}
+        {{--if (localStorage.userinfo) {--}}
+            {{--var OneSignal = window.OneSignal || [];--}}
+            {{--OneSignal.push(function () {--}}
+                {{--OneSignal.sendTag("key", JSON.parse(localStorage.userinfo).id);--}}
+                {{--OneSignal.init({--}}
+                    {{--appId: "b7792635-0674-4e60-bef9-66d31b818a92",--}}
+                    {{--allowLocalhostAsSecureOrigin: true,--}}
+                    {{--autoRegister: true,--}}
+                    {{--notifyButton: {--}}
+                        {{--enable: false,--}}
+                    {{--},--}}
+                {{--});--}}
+            {{--});--}}
+        {{--}--}}
+    {{--</script>--}}
 
+    {{--<link rel="manifest" href="/manifest.json" />--}}
+    {{--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>--}}
+    {{--<script>--}}
+        {{--var OneSignal = window.OneSignal || [];--}}
+        {{--OneSignal.push(function() {--}}
+            {{--OneSignal.init({--}}
+                {{--appId: "16b3fb8b-ebf8-4bcf-8f46-b8e124634065",--}}
+            {{--});--}}
+        {{--});--}}
+    {{--</script>--}}
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+                appId: "16b3fb8b-ebf8-4bcf-8f46-b8e124634065",
+            });
+        });
+    </script>
 <!-- End one signal -->
 
     <!-- Google Tag Manager -->
