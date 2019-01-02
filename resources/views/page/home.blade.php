@@ -1220,57 +1220,6 @@
             });
             // alert("Your IP address is :- " + data.ip);
         });
-        // $.ajax({
-        //     url: "https://api.myip.com",
-        //     crossOrigin: true,
-        //     contentType: 'application/json',
-        //     method: 'GET',
-        //     success: function (res) {
-        //         var country = JSON.parse(res).country;
-        //         console.log('Country response', country);
-        //         var destination = '';
-        //         var destination_country = 'United Arab Emirates';
-        //         if (country != 'India') {
-        //             var destination = 'to ' + country;
-        //             destination_country = country;
-        //         }
-        //         console.log('destination_country', destination_country);
-        //         var weight = 0.5;
-        //         var unit = 'kg';
-        //         var type = 'nondoc';
-        //         var box_scale = '';
-        //         var length = '';
-        //         var width = '';
-        //         var height = '';
-        //         jQuery.ajax({
-        //             url: '/calculate-shipping',
-        //             type: "POST",
-        //             data: {
-        //                 country: destination_country,
-        //                 weight: weight,
-        //                 unit: unit,
-        //                 type: type,
-        //                 length: length,
-        //                 width: width,
-        //                 height: height,
-        //                 scale: box_scale,
-        //                 origin: 'home_page',
-        //             },
-        //             success: function (res) {
-        //                 console.log('pricing log', res);
-        //                 if (res.error == "1") {
-        //                 } else {
-        //                     var final_price = "";
-        //                     res.prices.map(function (price) {
-        //                         final_price = Math.round(((100 - price.discount) / 100) * price.amount);
-        //                         $('#prices').text(final_price);
-        //                         $("#country").text(destination);
-        //                     });
-        //                 }
-        //             }
-        //         });
-        //     }
-        // });
     </script>
 @endsection
 

@@ -953,12 +953,11 @@
                     </div>
                     <div id="calc_load"></div>
                 </div>
-
             </div>
         </div>
 
     </section>
-    <section role="membership" style="margin-bottom: 50px" >
+    <section role="membership" style="margin-bottom: 20px" >
         <div class="container" id="courier-membership-plans">
             <div class="col-sm-12 col-md-12 no-padding price-cal-membership">
                 <center>
@@ -3519,6 +3518,53 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section style="background-color: #fafafb; ">
+        <div class="container">
+            <br>
+            <br>
+            <center>
+                <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
+                <p class="header2 p-doorstep-des">What Are You Waiting For Re! Just Come Shopp Re!</p>
+                <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" target="_blank">
+                    <div class="btn-login-doorstep header5 p-color-white">
+                        <p>
+                            Sign Up for FREE
+                        </p>
+                    </div>
+                </a>
+            </center>
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 hr-line-payment-method"></div>
+
+        </div>
+        <div class="container">
+            <center>
+                <p class="p-payment-method">Payment Methods We Accept</p>
+            </center>
+
+        </div>
+        <div class="container">
+            <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding ">
+                <img class="img-payment-methods" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/credit-debit-card-courier-shipping.svg"
+                     alt="credit debit card courier from india">
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding">
+                <img class="img-payment-methods"
+                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wire-transfer.svg" alt="wire transfer pay online shipping">
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding">
+                <img class="img-payment-methods" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paypal-pay-online.svg"
+                     alt="paypal online courier parcel">
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding">
+                <img class="img-payment-methods" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paytm-payment-system-and-digital-wallet.svg"
+                     alt="paytm e-commerce digital wallet ">
+            </div>
+        </div>
+        {{--commented code placed in homepage folder--}}
+        <br>
+        <br>
+        <br>
     </section>
 
 

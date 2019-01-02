@@ -42,7 +42,22 @@
 .btn-s-r:hover, .btn-s-r:focus, .btn-s-r:active {color: white;}
 .btn-s-r:hover:before, .btn-s-r:focus:before, .btn-s-r:active:before {-webkit-transform: scaleX(1);transform: scaleX(1);}
 
+/*shipments-page*/
+.header .container {padding: 20px 0 30px}
+.shipping-partner {padding-top: 40px;background-color: #fafafb;}
+.shipping-partner .shipments-information {box-shadow: 0 0 6px rgba(17, 39, 59, 0.05);border-radius: 3px;background-color: #ffffff;padding-top: 60px;padding-bottom: 60px;}
+.shipping-partner .shipments-information div {padding-left: 30px}
+.shipping-partner .shipments-list{box-shadow: 0 0 6px rgba(17, 39, 59, 0.05);border-radius: 3px;background-color: #ffffff;padding:20px;margin-top: 30px}
+.sec-shipped{padding-top: 20px;background-color: #fafafb;}
+.shipped-countries{box-shadow: 0 0 6px rgba(17, 39, 59, 0.05);border-radius: 3px;background-color: #ffffff; padding: 50px}
+.shipped-countries ul{text-decoration: none;list-style: none;}
+.shipped-countries ul li{color: #929ca5;font-size: 18px;font-weight: 400;text-align: left;padding-top: 15px;}
+.shipped-countries ul li img{margin-top: 9px;}
+.shipped-countries ul li span{font-family: Montserrat;font-size: 14px;font-weight: 900;font-style: italic;margin-left: 10px;}
+.left-pad{padding-left: 0}
+.rigth-pad{padding-right: 0}
 
+/*shipments-page*/
 @media only screen and (max-width: 600px) {
 .f-s-36{font-size:24px }
 .f-s-34{font-size:22px }

@@ -7,9 +7,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\EmailFeedback;
 use App\Asana\AsanaTaskOperations;
-use App\Mailchimp\mailChimpTaskOperations;
-
-
 use Auth;
 
 class FeedbackController extends Controller
@@ -34,8 +31,7 @@ class FeedbackController extends Controller
 
         ]);
         $commnet = "Feeadback Person: ".$request->person."\n Email: ".$request->email."\n Suggestions :".$request->suggestions;
-//        print json_encode($commnet);exit;
-        mailChimpTaskOperations::createTask($request->person, $commnet, "E");
+        AsanaTaskOperations::createTask($request->person, $commnet, "E");
 
         $feedback = new Feedback();
         $feedback->person = $request->person;
