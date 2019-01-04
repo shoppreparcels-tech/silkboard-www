@@ -382,18 +382,6 @@
 @section('js_script')
     <script>
         $(document).ready(function () {
-             $('#packing').mouseover(function () {
-                 $("#packing").css({"display": "none"});
-                 $("#packed").css({"display": "block"});
-             });
-            $("#packed").mouseout(function () {
-                $("#packing").css({"display": "block" ,"transition":"0.2s"});
-                $("#packed").css({"display": "none"});
-            })
-        })
-    </script>
-    <script>
-        $(document).ready(function () {
             $("#ics_lp").validate({
                 rules:
                     {

@@ -172,7 +172,7 @@
         .div-main .div-add{position:fixed;margin-top: 20%;z-index: 1}
         .div-main .div-add1{position:relative; float: right}
         .div-h-offer{border-radius: 15px;background-color: #ffffff;padding: 20px}
-        .div-h-offer>div{padding-top: 10px;border-bottom: 1px solid rgba(146, 156, 165, 0.2)}
+        .div-h-offer>div{padding-top: 10px;}
         @media only screen and (max-width: 1024px) {
             .div-add {display: none;}
         }
@@ -211,12 +211,7 @@
                                     FRST50</h2>  <br>
                             </center>
                         </div>
-                        <div style="padding-top: 50px !important;">
-                            <center>
-
-                            </center>
-                        </div>
-
+                        <div style="padding-top: 50px !important;"></div>
                     </div>
                     <div class="modal-footer" style="margin-top: 86px!important;">
                         <center>
@@ -288,18 +283,12 @@
                         <center>
                             <h7 class="header7 p-color-blue">Avail Your Discount Today!</h7>
                         </center>
-                        <div>
-                            <center>
-                                <img src="{{asset('img/offers-image/offer-50.png')}}" alt="" class="img-responsive"> <br><br><br>
-                            </center>
-                        </div>
-                        <div>
-                            <center>
-                                <p class="f-s-14 f-c-gray">Use coupon code: <span class="uppercase f-s-14 f-c-blue">FRST50</span></p>
-                            </center>
-
-                        </div>
                         <br>
+                        <div>
+                            <center>
+                                <img src="{{asset('img/images/first-50.png')}}" alt="FIRST50 Cashback" class="img-responsive"> <br>
+                            </center>
+                        </div>
                         <center>
                             <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn-l btn-b-r btn-s-r btn-a-l">Sign Up FREE</a>
                         </center>
@@ -1110,6 +1099,9 @@
 
 @section('js_script')
     <script>
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();
+        });
         $(document).ready(function() {
             var id = '#dialog';
             var maskHeight = $(document).height();
