@@ -248,7 +248,7 @@
                 </a>
             </div>
             <div class="col-md-2">
-                <a href="{{route('schedulePickup.Index')}}" class="header6 p-color-cement">
+                <a href="{{route('ics.index')}}" class="header6 p-color-cement">
                     <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/schedule_pickpup.svg" alt="Schedule Pickup"
                          class="header-menu-img">
                     <span class="header6 p-color-cement">Schedule Pickup</span>

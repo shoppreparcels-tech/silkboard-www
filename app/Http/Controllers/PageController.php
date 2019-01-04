@@ -45,7 +45,8 @@ class PageController extends Controller
     }
     public function newyear()
     {
-        return view('page.newyear-landing');
+        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+        return view('page.newyear-landing')->with(['countries'=> $countries]);
     }
     public function university()
     {
@@ -232,19 +233,34 @@ class PageController extends Controller
     public function newYearOffer(Request $req)
     {
         $id = Auth::id();
-        $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
-        $list_id = '458f84e53e';
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $list_id = '554a2a1794';
         $auth = base64_encode('user:' . $apikey);
+
+        print json_encode($auth);exit;
         if (!empty($req->email)){
             $email = $req->email;
-            $commnet = "Lead from NewYear landing page email ".$email ;
+            $pnumber =$req->pnumber;
+            $cnumber =$req->cnumber;
+            $commnet = "Lead from NewYear landing page email ".$email."\n Phone number +".$cnumber."-".$pnumber;
             AsanaTaskOperations::createTask($email, $commnet, "L");
+
+            $data = array(
+                'apikey' => $apikey,
+                'email_address' => $email,
+                'status' => 'subscribed',
+                'merge_fields' => array(
+                    'PHONE' => '+'.$cnumber. $pnumber
+                )
+            );
+            $json_data = json_encode($data);
+            mailChimpTaskOperations::createList($list_id, $auth, $json_data );
         };
     }
     public function icsLandingPageSubmit(Request $req)
     {
         $id = Auth::id();
-        $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
         $list_id = '458f84e53e';
         $auth = base64_encode('user:' . $apikey);
         if (!empty($req->email)) {
@@ -873,8 +889,8 @@ class PageController extends Controller
         $pincodeT= $request->pincode;
         $contact= $request->mobile;
         $email= $request->email;
-        $commnet = "Enquiry from pricing calculator page Pickup Location pin-code : ". $pincodeF."\n Destination pin-code : ".$pincodeT."\n contact number : ".$contact;
-        AsanaTaskOperations::createTask($email, $commnet, "E");
+//        $commnet = "Enquiry from pricing calculator page Pickup Location pin-code : ". $pincodeF."\n Destination pin-code : ".$pincodeT."\n contact number : ".$contact;
+//        AsanaTaskOperations::createTask($email, $commnet, "E");
         $mail = Mail::to("Leads@shoppre.com")->send(new GetQuote($request));
         return response()->json(['mail' => $mail]);
     }

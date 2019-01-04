@@ -57,7 +57,7 @@ Route::get('/shop-from-india-ship-worldwide', 'PageController@ifsIndex')->name('
 Route::get('/offers', 'PageController@offersIndex')->name('offers-new.index');
 Route::get('/diwali-offer', 'PageController@diwali')->name('diwali');
 Route::get('/christmas-offer', 'PageController@christmas')->name('christmas');
-Route::get('/new-year-offer', 'PageController@newyear')->name('christmas');
+Route::get('/new-year-offer', 'PageController@newyear')->name('newyear');
 Route::get('/university-offer', 'PageController@university')->name('university');
 Route::get('/flipkart-shopping-with-shoppre-from-india', 'PageController@flipkartIndex')->name('flipkart.landing');
 Route::get('/myntra-online-shopping-shipping-from-india', 'PageController@myntraIndex')->name('myntra.landing');

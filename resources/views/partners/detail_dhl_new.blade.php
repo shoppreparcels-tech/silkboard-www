@@ -12,7 +12,7 @@
 @endsection
 @section('content')
     <section class="header">
-        <div class="container">
+        <div class="container div-s-p-h">
             <center>
                 <h1 class="header1 p-color-white">DHL</h1>
                 <h2 class="header2 p-color-cement">Shipments we sent across the Globe though DHL</h2>

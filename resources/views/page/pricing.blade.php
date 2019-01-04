@@ -360,29 +360,29 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xs-12 col-md-12 padding-bottom">
-                                            <label class="header6 control-label ">Your E-mail Address</label>
-                                            <div class="col-sm-10 no-padding">
-                                                <input type="text" class="form-control" name="email"
-                                                       placeholder="Enter a valid E-mail Id">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-xs-12 no-padding">
-                                            <label class=" col-md-12 no-padding header6 control-label">Contact
-                                                Number</label>
-                                            <div class="col-sm-10 no-padding">
-                                                <input type="text" class="form-control" name="mobile"
-                                                       placeholder="Enter a valid Phone Number">
-                                            </div>
-                                        </div>
+                                        {{--<div class="col-xs-12 col-md-12 padding-bottom">--}}
+                                            {{--<label class="header6 control-label ">Your E-mail Address</label>--}}
+                                            {{--<div class="col-sm-10 no-padding">--}}
+                                                {{--<input type="text" class="form-control" name="email"--}}
+                                                       {{--placeholder="Enter a valid E-mail Id">--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="col-md-12 col-xs-12 no-padding">--}}
+                                            {{--<label class=" col-md-12 no-padding header6 control-label">Contact--}}
+                                                {{--Number</label>--}}
+                                            {{--<div class="col-sm-10 no-padding">--}}
+                                                {{--<input type="text" class="form-control" name="mobile"--}}
+                                                       {{--placeholder="Enter a valid Phone Number">--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
                                         <div class="col-xs-12 col-md-12 padding-bottom div-pric-cal-estimate">
                                             <div class="col-sm-12 no-padding">
                                                 <button type="submit"
                                                         class="btn btn-pricing-estimate no-padding header6"
                                                         id="quote_submit">Get An Estimate
                                                 </button>
-                                                <div id="quote_result">Your enquiry has been submited! Our team will
-                                                    contact you soon.
+                                                <div id="quote_result">To known the courier pricing within India, <br> contact our team at
+                                                    <a href="tel:+91-8277919191">+91-8277919191</a> & for Live Chat <a href="http://bit.ly/live-chat-shoppre">click here</a>
                                                 </div>
                                                 <div id="quote_error">Sorry! We can't process your request right
                                                     now.

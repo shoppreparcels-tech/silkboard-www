@@ -55,24 +55,39 @@
            <div class="col-md-8 col-xs-12 no-padding">
                <center>
                    <img src="{{asset('img/images/newyear_image.png')}}" alt="" class="img-new-year">
-                   <h1 class="p-color-white header-spacing header1 ">2018 Has Run Its Course!</h1>
-                   <h2 class="header2 p-color-white header-spacing font-weight-900"> Ready to Welcome 2019?</h2>
-                   <h4 class="header6 p-color-cement font-weight-900 leter-space">Save up to 80% on international shipping + Get an additional 19% for this New Year!</h4>
+                   <h18 class="f-s-18 f-c-yellow font-weight-900">Save upto 80% on international shipping + Get an additional 19% for this New Year!</h18>
+                   <h1 class="p-color-white header-spacing header1 ">Shop From India, Ship Worldwide </h1>
+                   <h2 class="header2 p-color-white header-spacing font-weight-900">Shipping Starts from ₹690/-</h2>
                    <form action=""  method="post" id="diwali_coupon">
                        {{csrf_field()}}
                        <div class="" id="diwali-couponcode1">
                            <br>
                            <div class="form-group">
-                               <input type="email" name="email" class="textbox-email"
+                               <input type="email" name="email" class="b-r-3 txt-xl txt-shadow txt-pad"
                                       placeholder="Enter a valid E-mail ID" required>
                            </div>
-                           <div class="form-group text-center">
-                               <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900">Grab the Offer!</button>
+                           <div class="form-group">
+
+                               <select class="select2 select-control" name="country_code" >
+                                   <option value="91">IN(+91)</option>
+                                   @foreach($countries as $country)
+                                       <option value="{{$country->phone_code}}">{{$country->iso}}(+{{$country->phone_code}})
+                                       </option>
+                                   @endforeach
+                               </select>
+                                {{--<input type="number" name="email" class="b-r-3 txt-m txt-shadow txt-pad"--}}
+                                          {{--placeholder="Enter a valid E-mail ID" required>--}}
+                               <input type="text" name="pnumber" class="b-r-3 txt-l txt-shadow txt-pad" pattern="^[0-9]"
+                                      placeholder="Phone Number" required>
+
+                           </div>
+                           <div class="col-md-12 form-group text-center">
+                               <button type="submit" name="btnActivate" class="btn btn-l btn-b-r btn-s-r font-weight-900">Grab the Offer!</button>
                            </div>
                        </div>
                        <br>
                    </form>
-                   <h6 class="header6 leter-space">*From 27th Dec to 06th Jan 2019</h6>
+                   <h7 class="header7 leter-space f-c-white">*From 27th Dec to 06th Jan 2019</h7>
                </center>
            </div>
             <div class="col-md-2 div-newyear">
@@ -88,7 +103,7 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Good News Again! This offer is valid on all our services!</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
-                    <a href="tel:+91-80 4094 4077" class="c-image">
+                    <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">
 
                         <img src="{{asset('/img/images/christmas-contact.png')}}" alt="">
                     </a>
@@ -292,6 +307,8 @@
                 submitHandler: function (form) {
                     debugger;
                     var email = $("input[name='email']").val();
+                    var pnumber = $("input[name='pnumber']").val();
+                    var cnumber = $("[name='country_code']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
                         url: 'api/new-year-offer',
@@ -299,11 +316,13 @@
                         data: {
                             _token: token,
                             email: email,
+                            pnumber: pnumber,
+                            cnumber: cnumber,
                         },
                         success: function (data) {
+                            var url= "{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?email=" + email + "&c_code="+ cnumber +"&PN="+ pnumber ;
                             console.log(data);
-                            window.alert('Thank You for Subscribing the offer. Sign Up now for Free, Shop & Ship Globally.')
-                            $("input[name='email']").val('');
+                            window.open(url);
                         }
                     })
                 }

@@ -167,12 +167,12 @@
                                         <p class="header6 p-color-cement">Have you always been a fan of Indian products & brands? Shop from
                                             <span style="color:#e056ef">Amazon India, Flipkart, Myntra, Jabong</span>
                                             & more, and we’ll get it to your address abroad.</p>
-                                        <a href="{{route('stores')}}" class="mega-menu-hyperlinks" >
+                                        <a href="{{route('stores1')}}" class="mega-menu-hyperlinks" >
                                             Browse Stores
                                         </a>
                                         <p class="header6  p-color-cement" style="margin-top: 20px">Are you a store owner from India? Enlist your store with us & let our customers shop from you!
                                         </p>
-                                        <a href="{{route('stores')}}" class="mega-menu-hyperlinks" >Enlist Your Store</a>
+                                        <a href="{{route('stores1')}}" class="mega-menu-hyperlinks" >Enlist Your Store</a>
                                     </div>
 
                                 </ul>

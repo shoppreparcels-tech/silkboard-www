@@ -92,16 +92,6 @@
         {{--}--}}
     {{--</script>--}}
 
-    {{--<link rel="manifest" href="/manifest.json" />--}}
-    {{--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>--}}
-    {{--<script>--}}
-        {{--var OneSignal = window.OneSignal || [];--}}
-        {{--OneSignal.push(function() {--}}
-            {{--OneSignal.init({--}}
-                {{--appId: "16b3fb8b-ebf8-4bcf-8f46-b8e124634065",--}}
-            {{--});--}}
-        {{--});--}}
-    {{--</script>--}}
     <link rel="manifest" href="/manifest.json" />
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     <script>

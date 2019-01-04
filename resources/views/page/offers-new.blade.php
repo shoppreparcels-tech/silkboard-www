@@ -133,7 +133,7 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">End of Season</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">End Of Season Sale Upto 70% OFF</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">End Of Season Sale Upto 70% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.chumbak.com/sale/ngg/c/">
                                     <img src="{{asset('uploads/stores/logo_59a68d693f754.png')}}"/>
@@ -146,9 +146,9 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">First Purchase & Signup</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">300 OFF</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">300 Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://indiacircus.com/offers">
+                                <a href="https://indiacircus.com/offers?src=shoppre">
                                     <img src="{{asset('uploads/stores/logo_59a67ba7cb9ec.png')}}"/>
                                 </a>
                             </div>
@@ -161,11 +161,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">end of season sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">MIN 50% Off‎</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Blockbuster sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">5th-8th Jan | 50-80% Off‎</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com/growth/prebuzz-home">
+                                <a href="https://www.myntra.com/shop/prebuzz-bbs?src=shoppre">
                                     <img src="{{asset('uploads/stores/logo_5997a62748742.png')}}"/>
                                 </a>
                             </div>
@@ -178,7 +178,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">SALE BIG BANG</h4>
                             <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.ajio.com/">
+                                <a href="https://www.ajio.com/?src=shoppre">
                                     <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>
                                 </a>
                             </div>
@@ -188,10 +188,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">emi fest</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">21st DEC to 2nd JAN</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Amazon Fashion</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">End of Season Sale 40-80% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.amazon.in/b?node=15430903031">
+                                <a href="https://www.amazon.in/b/?ie=UTF8&node=6648217031&ref_=topnav_storetab_top_ap_mega">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>
@@ -201,10 +201,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">India's Biggest Fashion Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Never enough Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">5th-8th Jan | 50-80% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.jabong.com/sis/end-of-reason-sale-prebuzz">
+                                <a href="https://www.jabong.com/sis/winter-sale-prebuzz?src=shoppre">
                                     <img src="https://www.shoppre.com/uploads/stores/logo_599691d00e27e.png"/>
                                 </a>
                             </div>
