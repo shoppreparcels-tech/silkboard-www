@@ -236,15 +236,13 @@ class PageController extends Controller
         $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
         $list_id = '554a2a1794';
         $auth = base64_encode('user:' . $apikey);
-
-        print json_encode($auth);exit;
         if (!empty($req->email)){
             $email = $req->email;
             $pnumber =$req->pnumber;
             $cnumber =$req->cnumber;
             $commnet = "Lead from NewYear landing page email ".$email."\n Phone number +".$cnumber."-".$pnumber;
             AsanaTaskOperations::createTask($email, $commnet, "L");
-
+          
             $data = array(
                 'apikey' => $apikey,
                 'email_address' => $email,
