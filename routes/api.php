@@ -28,5 +28,6 @@ Route::post('/personal-shopper-india', 'PageController@psLandingPageSubmit')->na
 Route::post('/radcon', 'PageController@radconSubmit')->name('radcon');
 Route::post('/christmas', 'PageController@christmasSubmit')->name('christmas');
 Route::post('/university', 'PageController@universitySubmit')->name('university');
+Route::post('/shop-ship', 'PageController@shopShip')->name('shopShip');
 
 

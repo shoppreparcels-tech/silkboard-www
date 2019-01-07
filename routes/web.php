@@ -56,6 +56,7 @@ Route::get('/shop-from-india-ship-worldwide', 'PageController@ifsIndex')->name('
 //Route::get('/about-new', 'PageController@aboutIndex')->name('about-new.index');
 Route::get('/offers', 'PageController@offersIndex')->name('offers-new.index');
 Route::get('/diwali-offer', 'PageController@diwali')->name('diwali');
+Route::get('/shop-ship', 'PageController@shopShipIndex')->name('shopship');
 Route::get('/christmas-offer', 'PageController@christmas')->name('christmas');
 Route::get('/new-year-offer', 'PageController@newyear')->name('newyear');
 Route::get('/university-offer', 'PageController@university')->name('university');

@@ -75,12 +75,19 @@
                                 </a>
                             </div>
                         </div>
+                        {{--<div class="item">--}}
+                            {{--<div class="pad15">--}}
+                                {{--<a href="https://www.shoppre.com/new-year-offer?src=offer-page">--}}
+                                    {{--<img src="{{asset('img/images/new-year-19.png')}}" class="boxofScroll" alt="New Year offer"/>--}}
+                                {{--</a>--}}
+
+                            {{--</div>--}}
+                        {{--</div>--}}
                         <div class="item">
                             <div class="pad15">
-                                <a href="https://www.shoppre.com/new-year-offer?src=offer-page">
-                                    <img src="{{asset('img/images/new-year-19.png')}}" class="boxofScroll" alt="New Year offer"/>
+                                <a href="#">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box2.png" class="boxofScroll"/>
                                 </a>
-
                             </div>
                         </div>
                         <div class="item">

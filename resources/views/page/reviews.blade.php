@@ -142,7 +142,7 @@
                         <div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4 col-sm-12 col-xs-12">
                             <div class="form-group rating-star-left-margin">
                                 <div class="rating-star rating-xl">
-                                    <input id="input-rate" type="text" class="rating" name="rating">
+                                    <input id="input-rate" type="text" class="rating" name="rating" required>
                                 </div>
                             </div>
                         </div>
@@ -151,14 +151,14 @@
                         <div class="col-md-4 col-lg-4 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Your Name <span class="mendatory_fields">*</span></label>
-                                <input id="input-rate" type="text" name="person" placeholder="Enter name"
+                                <input id="input-rate" type="text" name="person" placeholder="Enter name" required
                                        class="form-control"/>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Country <span class="mendatory_fields">*</span></label>
-                                <select class="form-control" name="country_id">
+                                <select class="form-control" name="country_id" required>
                                     <option value="">Select Country</option>
                                     @foreach($countries as $country)
                                         <option value="{{$country->id}}">{{$country->name}}</option>
@@ -171,7 +171,7 @@
                         <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Comment <span class="mendatory_fields">*</span></label>
-                                <textarea class="form-control" rows="4" name="review" placeholder="enter comment">
+                                <textarea class="form-control" rows="4" name="review" placeholder="enter comment" required >
                                     </textarea>
                             </div>
                         </div>

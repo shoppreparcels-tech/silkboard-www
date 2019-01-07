@@ -76,6 +76,12 @@ class PageController extends Controller
         return view('page.personal-shoper');
     }
 
+    public function shopShipIndex()
+    {
+        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+        return view('page.shop-ship')->with(['countries'=> $countries]);
+    }
+
     public function seller()
     {
         return view('page.become-partner');
@@ -107,11 +113,12 @@ class PageController extends Controller
             ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
             ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
             ->get();
-        $feats = StoreCatClub::where('category_id', 1)
-            ->where('featured', 1)
+        $feats = StoreCatClub::where('category_id', 2)
+            ->where('featured' , '<>', 0)
             ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
             ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
             ->get();
+//            print json_encode($feats);exit;
 
         if (Auth::check()) {
             $favs = FavoriteStore::where('custid', Auth::id())->pluck('clubid')->toArray();
@@ -242,7 +249,32 @@ class PageController extends Controller
             $cnumber =$req->cnumber;
             $commnet = "Lead from NewYear landing page email ".$email."\n Phone number +".$cnumber."-".$pnumber;
             AsanaTaskOperations::createTask($email, $commnet, "L");
-          
+
+            $data = array(
+                'apikey' => $apikey,
+                'email_address' => $email,
+                'status' => 'subscribed',
+                'merge_fields' => array(
+                    'PHONE' => '+'.$cnumber. $pnumber
+                )
+            );
+            $json_data = json_encode($data);
+            mailChimpTaskOperations::createList($list_id, $auth, $json_data );
+        };
+    }
+    public function shopShip(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $list_id = '554a2a1794';
+        $auth = base64_encode('user:' . $apikey);
+        if (!empty($req->email)){
+            $email = $req->email;
+            $pnumber =$req->pnumber;
+            $cnumber =$req->cnumber;
+            $commnet = "Lead from NewYear landing page email ".$email."\n Phone number +".$cnumber."-".$pnumber;
+            AsanaTaskOperations::createTask($email, $commnet, "L");
+
             $data = array(
                 'apikey' => $apikey,
                 'email_address' => $email,
@@ -259,7 +291,7 @@ class PageController extends Controller
     {
         $id = Auth::id();
         $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
-        $list_id = '458f84e53e';
+        $list_id = '0cae50b241';
         $auth = base64_encode('user:' . $apikey);
         if (!empty($req->email)) {
             $email = $req->email;
@@ -267,20 +299,20 @@ class PageController extends Controller
             $contact = $req->contact_no;
             $commnet = "Lead from send-international-courier-from-india landing page email " . $email . "\n contact No: " . $contact . "\n Name :" . $name;
             AsanaTaskOperations::createTask($name, $commnet, "L");
+
+            $data = array(
+                'apikey' => $apikey,
+                'email_address' => $email,
+                'status' => 'subscribed',
+                'merge_fields' => array(
+                    'FNAME' => $name,
+                    'PHONE' => $contact
+                )
+            );
+            $json_data = json_encode($data);
+            mailChimpTaskOperations::createList($list_id, $auth, $json_data);
         }
 
-        $data = array(
-            'apikey' => $apikey,
-            'email_address' => $email,
-            'status' => 'subscribed',
-            'merge_fields' => array(
-                'FNAME' => $name,
-                'LNAME' => '',
-                'PHONE' => $contact
-            )
-        );
-        $json_data = json_encode($data);
-        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
     }
     public function psLandingPageSubmit(Request $req)
     {
