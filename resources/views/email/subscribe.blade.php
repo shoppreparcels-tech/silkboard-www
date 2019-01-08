@@ -662,7 +662,7 @@ Footer Text
                                                                 Want to change how you receive these emails?<br>
                                                                 You can <a href="*|UPDATE_PROFILE|*">update your preferences</a> or <a href="*|UNSUB|*">unsubscribe from this list</a>.<br>
                                                                 <br>
-                                                                <em>Copyright © 2018 ShoppRe.com™, All rights reserved.</em>
+                                                                <em>Copyright © 2019 ShoppRe.com™, All rights reserved.</em>
                                                             </td>
                                                         </tr>
                                                         </tbody></table>

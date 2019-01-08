@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', 'Diwali 2018 Offer')
+@section('title', 'shop & ship')
 @section('description', '')
 @section('keywords', '')
 @section('css_style')
@@ -80,15 +80,12 @@
                 </div>
                 <div class="col-md-2">
                     <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="pull-right d-contact-img-desktop">
-                        <img src="{{asset('img/images/christmas-contact.png')}}" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
                     </a>
                     <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="d-contact-img pull-right">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chistmas-contact.png" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
                     </a>
                 </div>
-
-
-
             </div>
 
             <label class="shop">Shop from <span class="font-weight-900">1000+</span>  Indian online stores ‘Including</label>
@@ -351,7 +348,7 @@
                             var url= "{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?email=" + email + "&c_code="+ cnumber +"&PN="+ pnumber ;
                             console.log(data);
                             // window.open(url);
-                            window.location.href = url;
+                            // window.location.href = url;
 
                         }
                     })

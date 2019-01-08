@@ -8,24 +8,32 @@
 @section('css_style')
     <style>
         .ps-section {background-color: #11273b;height: 1000px}
-        .ps-section .container > div {padding: 20px;margin-bottom: 3em}
+        .ps-section .container > div {padding: 20px;margin-bottom: 0em}
         .ps-section .container > div h1 {font-weight: 900;}
-        .ps-section .container > #img-shopping{padding-top: 150px}
+        .ps-section .container > #img-shopping{padding-top: 158px}
         .ps-section .container > #img-shopping img {width: 596px;height: 365px;}
         .h-req-assist{margin-bottom: 30px}
         .product-courier span{font-weight: 900;}
+        @media only screen and (max-width: 600px) {
+            .ps-section .container > div {padding: 10px;margin-bottom: 0em}
+        }
     </style>
 
 @endsection
 @section('content')
     <section class="ps-section" id="personal-shopper">
         <div class="container">
-            <div class="col-md-12">
-                <a href="tel:+91-80 4094 4077" class="pull-right d-contact-img-desktop">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">
+            <div class="col-md-8 col-xs-12 div-align-items-l">
+                <h1 class="f-s-36 f-c-white">
+                    Shop From India, Ship Worldwide
+                </h1>
+            </div>
+            <div class="col-md-4 col-xs-12 div-align-items-r">
+                <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Personal%20Shopping%20and%20Shipping%20from%20India%20" class="d-contact-img-desktop">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
                 </a>
-                <a href="tel:+91-80 4094 4077" class="d-contact-img pull-right">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">
+                <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Personal%20Shopping%20and%20Shipping%20from%20India%20" class="d-contact-img">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
                 </a>
             </div>
         </div>

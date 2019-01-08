@@ -31,6 +31,7 @@
 .btn-b-b{background-color: #507dbc;}
 
 .btn-a-l{padding: 10px 30px;}
+.btn-a-m{padding: 10px 5%;}
 
 .b-r-0{border-radius: 0}
 .b-r-3{border-radius: 3px}
@@ -44,6 +45,8 @@
 .txt-shadow{box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);background-color: #ffffff;border: 0}
 .txt-pad{padding-left: 2%;}
 
+.div-align-items-r{text-align: right;}
+.div-align-items-l{text-align: left;}
 
 .select-control {float: left;width: 90px !important;height: 44px !important;font-size: 13px;font-weight: 400;    font-style: italic;border-left: 0;border-radius: 3px;background-color: #fafafb;border: none;}
 .select2-container--default .select2-selection--single {background-color: #fff !important;border: none !important;border-radius: 4px !important;height: 44px !important;padding-top: 5px!important;}
@@ -92,5 +95,7 @@
 
 .txt-xl{width:100%;}
 .txt-l {width: 235px;}
+.div-align-items-r{text-align: center;}
+.div-align-items-l{text-align: center;}
 
 }

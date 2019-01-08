@@ -57,6 +57,7 @@ Route::get('/shop-from-india-ship-worldwide', 'PageController@ifsIndex')->name('
 Route::get('/offers', 'PageController@offersIndex')->name('offers-new.index');
 Route::get('/diwali-offer', 'PageController@diwali')->name('diwali');
 Route::get('/shop-ship', 'PageController@shopShipIndex')->name('shopship');
+Route::get('/personal-shopper', 'PageController@personalShopper')->name('personalShopper');
 Route::get('/christmas-offer', 'PageController@christmas')->name('christmas');
 Route::get('/new-year-offer', 'PageController@newyear')->name('newyear');
 Route::get('/university-offer', 'PageController@university')->name('university');
@@ -160,5 +161,5 @@ Route::post('/calculate/exchange-rate', 'CountryGuideController@exchangeCalculat
 Route::get('/indian-virtual-address', 'PageController@indianVirtual')->name('indianVirtual');
 //Route::get('/shop-from-india-ship-worldwide', 'PageController@shopFromIndia')->name('shopFromIndia');
 Route::get('/sellers-shipping', 'PageController@sellerShipping')->name('sellerShipping');
-Route::get('/personal-shopper', 'PageController@shopper')->name('shopper');
+
 Route::get('/{slug}', 'PageController@viewPage')->name('page');

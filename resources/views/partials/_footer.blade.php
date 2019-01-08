@@ -147,7 +147,7 @@
             <center>
                 <a href="{{route('home')}}"><img class="img-footer-logo" src="{{env('AWS_CLOUD_FRONT')}}/img/images/shoppre-logo.png"
                                                  alt="shoppre.com - your global shipping partner from india"></a>
-                <p class="footer-rights">© 2018, All Rights Reserved - by <a class="footer-a" href="#">ShoppRe.com™</a>
+                <p class="footer-rights">© 2019, All Rights Reserved - by <a class="footer-a" href="#">ShoppRe.com™</a>
                 </p>
             </center>
 

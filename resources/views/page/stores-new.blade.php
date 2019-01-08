@@ -207,7 +207,7 @@
                             </button>
 
                         </div>
-                        <div class="col-md-7 col-sm-10 col-xs-10" id="custom-search-input">
+                        <div class="col-md-6 col-sm-10 col-xs-10" id="custom-search-input">
                             <div class="input-group search-bar">
                             <span class="input-group-btn">
                                 <button class="btn btn-info btn-lg" type="button">
@@ -232,14 +232,14 @@
 
                             </div>
                         </div>
-                        <div class="col-md-5 col-xs-12 col-sm-12 no-padding stroes-ul">
+                        <div class="col-md-6 col-xs-12 col-sm-12 no-padding stroes-ul">
                             <ul class="list-inline list-unstyled">
                                 <li role="presentation" class="active"><a href="#web" aria-controls="web" role="tab"
                                                                           data-toggle="tab">Online Stores</a></li>
                                 <li role="presentation"><a href="#fb" aria-controls="fb" role="tab" data-toggle="tab">Social
                                         Stores</a></li>
                                 <li role="presentation"><a href="#featured" aria-controls="featured" role="tab"
-                                                           data-toggle="tab">Favourites</a></li>
+                                                           data-toggle="tab">Featured Stores</a></li>
 
                             </ul>
                         </div>

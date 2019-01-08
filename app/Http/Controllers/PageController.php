@@ -564,13 +564,12 @@ class PageController extends Controller
 
     public function personalShopper()
     {
-        return view('page.personal-shopper');
+        return view('page.ps');
     }
 
     public function countryList()
     {
         $countries = Country::orderBy('name', 'asc')->get();
-
         return view('page.country-list')->with(['countries' => $countries]);
     }
 

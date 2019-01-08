@@ -237,7 +237,7 @@
             </div>
 
             <div class="col-md-2">
-                <a href="{{route('ifs.index')}}/#how-it-works">
+                <a href="{{route('personalShopper')}}">
                     <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/personal_shopper.svg" alt="How it Works" class="header-menu-img">
                     <span class="header6 p-color-cement">Personal Shopper</span>
                 </a>
