@@ -272,7 +272,7 @@ class PageController extends Controller
             $email = $req->email;
             $pnumber =$req->pnumber;
             $cnumber =$req->cnumber;
-            $commnet = "Lead from NewYear landing page email ".$email."\n Phone number +".$cnumber."-".$pnumber;
+            $commnet = "Lead from shop & ship landing page email ".$email."\n Phone number +".$cnumber."-".$pnumber;
             AsanaTaskOperations::createTask($email, $commnet, "L");
 
             $data = array(

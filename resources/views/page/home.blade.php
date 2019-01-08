@@ -269,6 +269,9 @@
                 </a>
             </div>
         </div>
+        <div class="container">
+            <marquee style="color:#e85151;font-weight:900 ">Dear Customers, Kindly note that - Due to Bharath Bandh, you can expect some delay in your Pickups and Dispatches for Today and Tomorrow, i.e. 8th and 9th January 2019.</marquee>
+        </div>
 
         <div class="container">
             <div class="col-md-7 no-padding">
@@ -328,9 +331,6 @@
                 <img src="{{asset('img/images/priyamani-new.png')}}" class="img-responsive" alt="" id="img-p">
             </div>
         </div>
-        {{--<div class="container">--}}
-            {{--<marquee style="color:#e85151;font-weight:900 ">On account of Christmas; no dispatches will be initiated on 25th December, 2018; However, our 24/7 Support would be available for your assistance and we'll resume the services the next day. Wishing you a very Merry Christmas!</marquee>--}}
-        {{--</div>--}}
         {{--previous design--}}
         {{--<div class="container no-padding">--}}
             {{--<div class="col-md-6  col-lg-6  col-sm-12 col-xs-12 no-padding">--}}

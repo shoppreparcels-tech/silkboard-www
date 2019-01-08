@@ -7,18 +7,24 @@
 @section('css_style')
     <meta name="robots" content="noindex">
     <link rel="canonical" href="https://www.shoppre.com/shop-from-india-ship-worldwide"/>
+    <style>
+        .bg-diwali-lp{background-image: url(../../img/images/overlay1.png);height: 900px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
+        @media only screen and (max-width: 600px) {
+            .bg-diwali-lp{    height: 700px;}
+        }
 
+    </style>
 @endsection
 @section('content')
 
-    <section class="bg-diwali-landing-page">
+    <section class="bg-diwali-lp">
         <div class="container">
             <div class="col-md-12 col-xs-12">
                 <center>
-                    <br><br><br>
+
                     <h1 class="f-s-28 p-color-white header-spacing">SAVE UPTO
                         <span class="p-color-yellow">80%</span></h1>
-                    <h2 class="p-color-white header-spacing f-s-36 font-weight-900">Shop From India,Ship
+                    <h2 class="f-c-yellow header-spacing f-s-36 font-weight-900">Shop From India,Ship
                         Worldwide</h2>
                     <h1 class="f-s-20 p-color-white header-spacing font-weight-900">Starting from
                         <span class="p-color-yellow">₹549/-</span>
@@ -29,7 +35,7 @@
                             <h3 class="header4 p-color-white">COUPON: <br>CODE:</h3>
                         </div>
                         <div class="col-md-9 col-xs-9">
-                            <h1 class="f-s-36 f-c-yellow">DIWL15</h1>
+                            <h1 class="f-s-36 f-c-yellow">FRST50</h1>
                         </div>
                     </div>
                 </center>
@@ -42,10 +48,9 @@
                         <br>
                         <div class="form-group">
                             <input type="email" name="email" class="b-r-3 txt-xl txt-shadow txt-pad"
-                                   placeholder="Enter a valid E-mail ID" required>
+                                   placeholder="Enter Valid E-mail ID" required>
                         </div>
                         <div class="form-group">
-
                             <select class="select2 select-control" name="country_code" >
                                 <option value="91">IN(+91)</option>
                                 @foreach($countries as $country)
@@ -53,17 +58,12 @@
                                     </option>
                                 @endforeach
                             </select>
-                            {{--<input type="number" name="email" class="b-r-3 txt-m txt-shadow txt-pad"--}}
-                            {{--placeholder="Enter a valid E-mail ID" required>--}}
                             <input type="text" name="pnumber" class="b-r-3 txt-l txt-shadow txt-pad" pattern="^[0-9]"
-                                   placeholder="Phone Number" required>
+                                   placeholder="Phone Number / Whatsapp" required>
 
                         </div>
-                        <div class="col-md-12 col-xs-12 form-group">
-                            <center>
-                                <button type="submit" name="btnActivate" class="btn btn-l btn-b-r btn-s-r font-weight-900">Sign up & Grab Offer</button>
-                            </center>
-
+                        <div class="col-md-10 col-md-offset-2 col-xs-9 col-xs-offset-3 form-group">
+                            <button type="submit" name="btnActivate" class="btn btn-l btn-b-r btn-s-r font-weight-900">Sign Up Free</button>
                         </div>
                     </div>
                 </form>
@@ -74,16 +74,24 @@
 
     <section >
         <div class=" container shopContainer no-padding">
-            <div class="col-md-12" style="padding:20px;margin-bottom: 3em">
-                <a href="tel:+91-80 4094 4077" class="pull-right d-contact-img-desktop">
-                    <img src="{{asset('img/images/christmas-contact.png')}}" alt="">
-                </a>
-                <a href="tel:+91-80 4094 4077" class="d-contact-img pull-right">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chistmas-contact.png" alt="">
-                </a>
+            <div class="col-md-12" style="padding:20px;">
+                <div class="col-md-10">
+                    <h1 class="f-s-22 f-c-d-greay">Ship What You Love from India & Shop With Your ShoppRe Address‎</h1>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="pull-right d-contact-img-desktop">
+                        <img src="{{asset('img/images/christmas-contact.png')}}" alt="">
+                    </a>
+                    <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="d-contact-img pull-right">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chistmas-contact.png" alt="">
+                    </a>
+                </div>
+
+
+
             </div>
 
-            <label class="shop">Shop from 1000+ Indian online stores ‘Including</label>
+            <label class="shop">Shop from <span class="font-weight-900">1000+</span>  Indian online stores ‘Including</label>
             <div class="row" style="padding-right:10px;padding-left: 30px">
                 <center>
                     <div class="col-md-1 col-md-offset-2 d-stores-box col-xs-6 col-xs-offset-2 ">
@@ -109,15 +117,15 @@
                     </div>
                     <div class="col-md-1  d-stores-box col-xs-4">
                         <center class="d-online-stores">
-                            <a href="{{route('myntra.landing')}}">
                             <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/myntra.png" alt="Myntra"/>
-                            </a>
                         </center>
                     </div>
                     <div class="col-md-1  d-stores-box col-xs-4">
                         <center class="d-online-stores">
+                            <a href="{{route('myntra.landing')}}">
                             <img class="shoppingKart"
                                  src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1(1).png" alt="Myntra"/>
+                            </a>
                         </center>
                     </div>
 
@@ -128,27 +136,27 @@
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                    class="startsValidValue"> 7th Aug 2018</span></p>
+                                    class="startsValidValue"> 1st JAN 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                    class="startsValidValue"> 15th Aug 2018</span></p>
+                                    class="startsValidValue"> 31st JAN 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">COUPON CODE :<span
-                                    class="startsValidValue"> DIWL15</span></p>
+                                    class="startsValidValue"> FRST50</span></p>
                         </center>
 
                     </div>
                 </center>
             </div>
             <div class=" col-md-12 offer-description">
-                <h5 class="header5 p-color-cement">OFFER DESCRIPTION:</h5> <br>
-                <h4 class="header4 p-color-cement"> Our Grand Diwali Offer Is Here! Hurry Up &
+                <h5 class="f-s-20 font-weight-900 f-c-d-greay ">OFFER DESCRIPTION:</h5> <br>
+                <h4 class="header4 p-color-cement"> Our Grand New Year Offer Is Here! Hurry Up &
                     Take Advantage!</h4>
                 <br>
                 <p class="header4 p-color-cement">While Indians around the world, not just in
@@ -156,10 +164,10 @@
                     season of light taking over the darkness, we have a rather cool offer in store for you to
                     get yourself and your loved ones ready for the celebrations.</p>
                 <br>
-                <p class="header4 p-color-cement">We offer 15% OFF the shipping costs of
-                    international shipments for up to Rs.300, which you
-                    can avail by using the Coupon Code DIWL15 when you checkout. Consider it a little something
-                    from us for this Diwali and don’t hesitate to shop around for Indian ethnic wear or send
+                <p class="header4 p-color-cement">We offer 50% OFF the <a href="{{route('pricing1')}}">shipping costs of
+                    international shipments </a>for up to Rs.250, which you
+                    can avail by using the Coupon Code FRST50  when you checkout. Consider it a little something
+                    from us for this new year and don’t hesitate to shop around for Indian ethnic wear or send
                     your greetings off to your loved ones abroad.</p> <br>
 
                 <div class="offerDesc">
