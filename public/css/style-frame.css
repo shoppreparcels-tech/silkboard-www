@@ -33,6 +33,9 @@
 .div-align-items-r{text-align: right;}
 .div-align-items-l{text-align: left;}
 
+.div-b-g{border: 1px solid rgba(146, 156, 165, 0.2);}
+.b-r{background-color: #ffffff;}
+
 .btn-f-w{width: 100%}
 .btn-xl{width: 300px;height: 44px; margin-top: 25px}
 .btn-l{width: 160px;height: 40px;}
@@ -58,13 +61,17 @@
 .b-r-3{border-radius: 3px}
 .b-r-60{border-radius: 60px}
 
-.txt-xl{width:360px;height: 44px}
-.txt-l{width:270px; height: 44px}
-.txt-m{width:90px;height: 44px}
+.txt-f-w{width: 100% ; height: 40px }
+.txt-xl{width:360px;height: 40px}
+.txt-l{width:270px; height: 40px}
+.txt-m{width:90px;height: 40px}
 .txt-s{}
 .txt-w{width:100%}
 .txt-shadow{box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);background-color: #ffffff;border: 0}
 .txt-pad{padding-left: 2%;}
+.txt-a-c{text-align: center}
+.txt-a-l{text-align: left}
+.txt-a-r{text-align: right}
 
 
 .pad-20{padding:20px}

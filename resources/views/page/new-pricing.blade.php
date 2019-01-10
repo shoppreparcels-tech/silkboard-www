@@ -27,13 +27,13 @@
                     <br>
                 </div>
                 <div class="row div-b-w-s pad-20">
-                    <div class="col-md-12 col-xs-12 ">
-                        <lable class="f-s-16 f-c-gray f-w-8 ">
+                    <div class="col-md-12 col-xs-12 no-pad ">
+                        <lable class="f-s-14 f-c-l-gray f-w-6 ">
                             Where do you want to send your package to?
                         </lable>
                         <br>
                     </div>
-                    <div class="col-md-12 col-xs-12">
+                    <div class="col-md-12 col-xs-12 no-pad">
                         <div class="col-md-5 no-pad">
                             <select class="form-control select2 b-r" name="country">
                                 <option value="">Select Country</option>
@@ -44,12 +44,12 @@
                             </select>
                         </div>
                         <div class="col-md-4">
-                            <h5 class="f-s-16 f-c-blue">View all rates up to 10 Kg</h5>
+                            <h5 class="f-s-14 f-c-blue">View all rates up to 10 Kg</h5>
                         </div>
                     </div>
-                    <div class="col-md-12 col-xs-12">
-                        <div class="col-md-6 col-xs-12 no-pad">
-                            <lable class="f-s-16 f-c-l-gray f-w-8 ">
+                    <div class="col-md-12 col-xs-12 no-pad">
+                        <div class="col-md-5 col-xs-12 no-pad">
+                            <lable class="f-s-14 f-c-l-gray f-w-5 ">
                                 Package Type
                             </lable>
                             <br>
@@ -67,32 +67,73 @@
                                 </label>
                             </div>
                         </div>
-                        <div class="col-md-6 col-xs-12 no-pad">
-                            <lable class="f-s-16 f-c-l-gray f-w-8 ">
+                        <div class="col-md-7 col-xs-12 ">
+                            <lable class="f-s-14 f-c-l-gray f-w-5 ">
                                 Package Weight *
                             </lable>
                             <br>
-                            <div class="col-md-5 btn-group" data-toggle="buttons">
+
+                            <div class="col-md-12 col-xs-12 no-pad">
+                                <div class="col-md-4 no-pad">
+                                    <div class="btn-group" data-toggle="buttons">
+                                        <label class="btn btn-primary active ">
+                                            <input type="radio" name="options" id="option2" autocomplete="off" chacked>KG
+                                            <span class="glyphicon glyphicon-ok"></span>
+                                        </label>
+
+                                        <label class="btn btn-primary ">
+                                            <input type="radio" name="options" id="option1" autocomplete="off">LB
+                                            <span class="glyphicon glyphicon-ok"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 no-pad ">
+                                    <div class=" div-b-g b-r  no-pad">
+                                        <span id="aminus" class="btn btn-puls-minus dec-value no-padding">-</span>
+                                        <input type="text" id="adnum" class="txt-weight" value="0.5"name="weight">
+                                        <span id="aplus"class="btn btn-puls-minus inc-value no-padding">+</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 no-pad">
+                        <p class="f-s-14 f-c-l-gray f-w-5">Volumetric Weight (Optional)</p><br>
+                        <div class="col-md-2 no-pad">
+                            <div class="btn-group" data-toggle="buttons">
                                 <label class="btn btn-primary active ">
-                                    <input type="radio" name="options" id="option2" autocomplete="off" chacked>KG
+                                    <input type="radio" name="options" id="option2" autocomplete="off" chacked>cm
                                     <span class="glyphicon glyphicon-ok"></span>
                                 </label>
 
                                 <label class="btn btn-primary ">
-                                    <input type="radio" name="options" id="option1" autocomplete="off">LB
+                                    <input type="radio" name="options" id="option1" autocomplete="off">in
                                     <span class="glyphicon glyphicon-ok"></span>
                                 </label>
                             </div>
-                            <div class="col-md-7 div-text-box">
-                                                    <span id="aminus"
-                                                          class="btn btn-puls-minus dec-value no-padding">-</span>
-                                <input type="text" id="adnum" class="txt-weight" value="0.5"
-                                       name="weight">
-                                <span id="aplus"
-                                      class="btn btn-puls-minus inc-value no-padding">+</span>
+                        </div>
+                        <div class="col-md-3 no-pad">
+                            <div class=" div-b-g b-r  no-pad">
+                                <span id="aminus" class="btn btn-puls-minus dec-value no-padding">-</span>
+                                <input type="text" id="adnum" class="txt-weight" value="0.5"name="weight">
+                                <span id="aplus"class="btn btn-puls-minus inc-value no-padding">+</span>
                             </div>
                         </div>
-
+                        {{--<div class="col-md-3">--}}
+                            {{--<div class=" div-b-g b-r  no-pad">--}}
+                                {{--<span id="aminus" class="btn btn-puls-minus dec-value no-padding">-</span>--}}
+                                {{--<input type="text" id="adnum" class="txt-weight" value="0.5"name="weight">--}}
+                                {{--<span id="aplus"class="btn btn-puls-minus inc-value no-padding">+</span>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-3">--}}
+                            {{--<div class=" div-b-g b-r  no-pad">--}}
+                                {{--<span id="aminus" class="btn btn-puls-minus dec-value no-padding">-</span>--}}
+                                {{--<input type="text" id="adnum" class="txt-weight" value="0.5"name="weight">--}}
+                                {{--<span id="aplus"class="btn btn-puls-minus inc-value no-padding">+</span>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
                     </div>
                 </div>
 

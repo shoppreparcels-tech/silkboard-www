@@ -9,8 +9,8 @@
     <link rel="canonical" href="https://www.shoppre.com/shop-from-india-ship-worldwide"/>
     <style>
         .bg-diwali-lp{background-image: url(../../img/images/overlay1.png);height: 900px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
-        .select-control {float: left;width: 90px !important;height: 44px !important;font-size: 13px;font-weight: 400;    font-style: italic;border-left: 0;border-radius: 3px;background-color: #fafafb;border: none;}
-        .select2-container--default .select2-selection--single {background-color: #fff !important;border: none !important;border-radius: 4px !important;height: 44px !important;padding-top: 5px!important;}
+        .select-control {float: left;width: 90px !important;height: 40px !important;font-size: 13px;font-weight: 400;    font-style: italic;border-left: 0;border-radius: 3px;background-color: #fafafb;border: none;}
+        .select2-container--default .select2-selection--single {background-color: #fff !important;border: none !important;border-radius: 4px !important;height: 40px !important;padding-top: 5px!important;}
         .select2-container--default .select2-selection--single .select2-selection__arrow b {margin-top: 4px !important;}
         @media only screen and (max-width: 600px) {
             .bg-diwali-lp{    height: 700px;}
@@ -164,7 +164,7 @@
                     season of light taking over the darkness, we have a rather cool offer in store for you to
                     get yourself and your loved ones ready for the celebrations.</p>
                 <br>
-                <p class="header4 p-color-cement">We offer 50% OFF the <a href="{{route('pricing1')}}">shipping costs of
+                <p class="header4 p-color-cement">We offer 50% OFF the <a href="{{route('pricing')}}">shipping costs of
                     international shipments </a>for up to Rs.250, which you
                     can avail by using the Coupon Code FRST50  when you checkout. Consider it a little something
                     from us for this new year and don’t hesitate to shop around for Indian ethnic wear or send
@@ -351,7 +351,7 @@
                             var url= "{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?email=" + email + "&c_code="+ cnumber +"&PN="+ pnumber ;
                             console.log(data);
                             // window.open(url);
-                            // window.location.href = url;
+                            window.location.href = url;
 
                         }
                     })
