@@ -244,6 +244,7 @@ class PageController extends Controller
         $list_id = '554a2a1794';
         $auth = base64_encode('user:' . $apikey);
         if (!empty($req->email)){
+
             $email = $req->email;
             $pnumber =$req->pnumber;
             $cnumber =$req->cnumber;
@@ -272,7 +273,7 @@ class PageController extends Controller
             $email = $req->email;
             $pnumber =$req->pnumber;
             $cnumber =$req->cnumber;
-            $commnet = "Lead from shop & ship landing page email ".$email."\n Phone number +".$cnumber."-".$pnumber;
+            $commnet = "Lead from Shop ship landing page email ".$email."\n Phone number +".$cnumber."-".$pnumber;
             AsanaTaskOperations::createTask($email, $commnet, "L");
 
             $data = array(

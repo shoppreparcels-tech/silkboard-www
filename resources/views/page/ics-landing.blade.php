@@ -12,42 +12,44 @@
         .box-steps p {line-height: 1;}
         .box-steps p span {font-size: 22px;font-weight: 900;}
         #packing:hover{display: none}
+        .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 580px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;        }
+        @media only screen and (max-width: 600px) {
+            .bg-ics-l-p{height: 680px}
+        }
     </style>
 
 @endsection
 @section('content')
 
-    <section class="bg-ics-landing-page">
+    <section class="bg-ics-l-p">
         <div class="container">
             <div class="col-md-12">
-                <a href="tel:+91-80 4094 4077" class="pull-right d-contact-img-desktop">
+                <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">
                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">
                 </a>
-                <a href="tel:+91-80 4094 4077" class="d-contact-img pull-right">
+                <a href="tel:+91-8277919191" class="d-contact-img pull-right">
                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">
                 </a>
             </div>
 
-            <div class="col-sm-7 col-xs-12">
-                <h1 class="p-color-white header-spacing d-header-text">International Courier
-                    <br></h1>
-                <h1 class="header1 p-color-white header-spacing">Starting @₹695/-</h1>
+            <div class="col-sm-7 col-xs-12 no-pad">
 
-                <p class="p-color-white header5 d-header-text1">Want
-                    to courier something abroad from India?<br>
-                    We ship to 265 countries & our trusted courier partners DHL,<br> DTDC & more help us sail smooth
-                    all the way to your<br> destination, wherever it is</p>
-                {{--<div class="col-md-8 div-ics-coupon-parent">--}}
-                {{--<h3 class="header4 p-color-red text-center">Diwali Offer Running</h3>--}}
-                {{--<div class="col-md-12 col-xs-12 div-ics-coupon">--}}
-                {{--<div class="col-md-3 col-xs-3">--}}
-                {{--<h3 class="header4 p-color-cement">COUPON: <br>CODE:</h3>--}}
-                {{--</div>--}}
-                {{--<div class="col-md-8 col-xs-8">--}}
-                {{--<h1 class="coupan-code">DIWL15</h1>--}}
-                {{--</div>--}}
-                {{--</div>--}}
-                {{--</div>--}}
+                <div class="col-md-12 col-xs-12 no-pad">
+                    <h1 class="p-color-white header-spacing d-header-text">International Courier
+                        <br></h1>
+                    <h1 class="header1 p-color-white header-spacing">Starting @₹695/-</h1>
+
+                    <p class="p-color-white header5 d-header-text1">Want
+                        to courier something abroad from India?<br>
+                        We ship to 265 countries & our trusted courier partners DHL,<br> DTDC & more help us sail smooth
+                        all the way to your<br> destination, wherever it is</p>
+                    <br>
+                    <br>
+                </div>
+                <div class="col-md-12 col-xs-12 no-pad">
+                    <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Schedule Pickup</a>
+                    <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Estimate</a>
+                </div>
 
             </div>
 
@@ -72,7 +74,9 @@
                                    placeholder="Enter a valid E-mail ID" required>
                         </div>
                         <div class="form-group text-center">
-                            <button type="submit" name="btnActivate" class="btn btn-d-activate-coupon"> GET A FREE ESTIMATE
+                            {{--<button type="submit" name="btnActivate" class="btn btn-d-activate-coupon"> GET A FREE QUOTE--}}
+                            {{--</button>--}}
+                            <button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r"> GET A FREE QUOTE
                             </button>
                         </div>
                     </div>
@@ -103,7 +107,7 @@
         <div class="container no-padding div-ics-border-btm">
 
             <center>
-                <h1 class="header1 p-color-cement-dark" >
+                <h1 class="f-c-d-greay f-s-30 f-w-8" >
                     We ship all over the world -To the USA, UAE, UK, Europe, Australia, New Zealand, Canada, Middle East & 200 other
                     countries.
                 </h1>
@@ -115,11 +119,12 @@
             <div class="col-md-6 col-sm-12 col-xs-12 " style="padding-top: 50px">
                 <div class="row no-padding">
                     <center>
-                        <h2 class="header2 p-color-cement-dark font-weight-900">What You Can Get Us to Courier?</h2>
-                        <p class="header6 p-color-cement">From Kids’ toys to commercial equipment, we are well-prepared to ship anything under the sun,
+                        <h2 class="f-c-d-greay f-s-30 f-w-8 ">What You Can Get Us to Courier?</h2>
+                        <p class="f-c-l-gray f-s-18 f-w-8">From Kids’ toys to commercial equipment, we are well-prepared to ship anything under the sun,
                             that follow the international & country-specific shipping regulations. These are some of the goods that we frequently ship for our customers </p>
                     </center>
                 </div>
+                <br>
                 <div class=" col-md-12 col-xs-12 div-ics-prodcts">
                     <div class="col-md-6 col-xs-6 no-padding">
                         <ul>
@@ -129,6 +134,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Sports Equipment</li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Homemade foods</li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Artwork</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Artificial Jewellery</li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-xs-6 no-padding">
@@ -145,18 +151,16 @@
 
             </div>
         </div>
-        <div class="container div-ics-border-btm ">
-            <div class="container">
+        <div class="container div-ics-border-btm">
+            <div class="col-md-12">
                 <center>
-                    <h1 class="header1  p-color-cement-dark">Features</h1>
-                    <p class="header2 p-color-cement">Get a FREE estimate for your courier, and schedule a pickup with us. We’ll come to your doorsteps to pick it up within 48 hours, and will dispatch it within the next 24 hours.Our courier partners are known to reach your destination in 3-6 days, wherever in the world it is!’</p>
+                    <h1 class="f-s-36 f-c-d-greay">Features</h1>
+                    <p class="f-s-24 f-c-gray">Get a FREE estimate for your courier, and schedule a pickup with us. We’ll come to your doorsteps to pick it up within 48 hours, and will dispatch it within the next 24 hours.Our courier partners are known to reach your destination in 3-6 days, wherever in the world it is!’</p>
                 </center>
             </div>
             <br>
-            <br>
-            <br>
+
             <div class="row text-center">
-                <br/><br/>
                 <div class="col-sm-3">
                     <div class="panel "><br>
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
@@ -263,10 +267,17 @@
 
                     </div>
                 </div>
-                <center>
-                    <a href="{{route('schedulePickup.Index')}}" class="btn btn-request">Request Pickup</a>
-                </center>
             </div>
+            <div class="col-md-12">
+                <br>
+                <center>
+                    {{--<a href="{{route('schedulePickup.Index')}}" class="btn btn-request">Request Pickup</a>--}}
+                    <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Request Pickup</a>
+                </center>
+                <br>
+            </div>
+
+            <br>
         </div>
     </section>
 

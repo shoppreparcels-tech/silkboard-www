@@ -9,6 +9,9 @@
     <link rel="canonical" href="https://www.shoppre.com/shop-from-india-ship-worldwide"/>
     <style>
         .bg-diwali-lp{background-image: url(../../img/images/overlay1.png);height: 900px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
+        .select-control {float: left;width: 90px !important;height: 44px !important;font-size: 13px;font-weight: 400;    font-style: italic;border-left: 0;border-radius: 3px;background-color: #fafafb;border: none;}
+        .select2-container--default .select2-selection--single {background-color: #fff !important;border: none !important;border-radius: 4px !important;height: 44px !important;padding-top: 5px!important;}
+        .select2-container--default .select2-selection--single .select2-selection__arrow b {margin-top: 4px !important;}
         @media only screen and (max-width: 600px) {
             .bg-diwali-lp{    height: 700px;}
         }
