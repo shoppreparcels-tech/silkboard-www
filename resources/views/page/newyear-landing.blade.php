@@ -33,6 +33,10 @@
       .chris-benefits .panel ul li span{margin-left: 15px;}
       .leter-space{letter-spacing: 1px;}
       #contact-support{padding-bottom: 30px;}
+
+      .select-control {float: left;width: 90px !important;height: 44px !important;font-size: 13px;font-weight: 400;    font-style: italic;border-left: 0;border-radius: 3px;background-color: #fafafb;border: none;}
+      .select2-container--default .select2-selection--single {background-color: #fff !important;border: none !important;border-radius: 4px !important;height: 44px !important;padding-top: 5px!important;}
+      .select2-container--default .select2-selection--single .select2-selection__arrow b {margin-top: 4px !important;}
       @media only screen and (max-width: 600px) {
           .textbox-email {width: 330px;}
           .div-snow{display: none;}

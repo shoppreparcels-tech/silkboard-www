@@ -269,9 +269,9 @@
                 </a>
             </div>
         </div>
-        <div class="container">
-            <marquee style="color:#e85151;font-weight:900 ">Dear Customers, Kindly note that - Due to Bharath Bandh, you can expect some delay in your Pickups and Dispatches for Today and Tomorrow, i.e. 8th and 9th January 2019.</marquee>
-        </div>
+        {{--<div class="container">--}}
+            {{--<marquee style="color:#e85151;font-weight:900 ">Dear Customers, Kindly note that - Due to Bharath Bandh, you can expect some delay in your Pickups and Dispatches for Today and Tomorrow, i.e. 8th and 9th January 2019.</marquee>--}}
+        {{--</div>--}}
 
         <div class="container">
             <div class="col-md-7 no-padding">

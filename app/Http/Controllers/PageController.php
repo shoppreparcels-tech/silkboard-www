@@ -167,8 +167,8 @@ class PageController extends Controller
     public function createSubscriber(Request $req)
     {
         $id = Auth::id();
-        $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
-        $list_id = '551f00fe3c';
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $list_id = '8bb27c3d49';
         $auth = base64_encode('user:' . $apikey);
         $email = $req->email;
         $data = array(
@@ -212,8 +212,8 @@ class PageController extends Controller
     public function diwaliCoupon(Request $req)
     {
         $id = Auth::id();
-        $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
-        $list_id = '458f84e53e';
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $list_id = 'aca625e01f';
         $auth = base64_encode('user:' . $apikey);
         if (!empty($req->email)) {
             $email = $req->email;
@@ -502,14 +502,14 @@ class PageController extends Controller
     public function newPricing()
     {
 //        $mac = shell_exec("arp -a ".escapeshellarg($_SERVER['REMOTE_ADDR'])." | grep -o -E '(:xdigit:{1,2}:){5}:xdigit:{1,2}'");
-        echo "mac" . $_SERVER['REMOTE_ADDR'];
-        exit;
-//        $reviews = Review::orderBy('updated_at', 'desc')
-//            ->where('approve', '1')
-//            ->limit(10)
-//            ->get();
-//        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
-//        return view('page.new-pricing')->with(['reviews' => $reviews, 'countries' => $countries]);
+//        echo "mac" . $_SERVER['REMOTE_ADDR'];
+//        exit;
+        $reviews = Review::orderBy('updated_at', 'desc')
+            ->where('approve', '1')
+            ->limit(10)
+            ->get();
+        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+        return view('page.new-pricing')->with(['reviews' => $reviews, 'countries' => $countries]);
     }
 
     public function chatMailConfirm()
