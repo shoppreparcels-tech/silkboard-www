@@ -238,16 +238,13 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right" id="header-ul">
                     <li>
-                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login?src=menu">Login</a>
+                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login?src=menu" target="_blank" id="btn_login">Login</a>
                     </li>
                     <li class="new-menu-register">
-                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Sign Up FREE</a>
+                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" target="_blank" id="btn_register" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Sign Up FREE</a>
                     </li>
-
                 </ul>
-
             </div><!-- /.nav-collapse -->
         </nav>
     </div>
-
 </header>

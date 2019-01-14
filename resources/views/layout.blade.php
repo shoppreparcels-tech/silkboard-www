@@ -135,6 +135,21 @@
         localStorage.referer = "<?php echo isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'no-referrer'  ?>";
         localStorage.firstVisit = window.location.href;
     }
+    let queryParam = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    console.log('Length', queryParam.length);
+    if (queryParam.length == 4) {
+        if (queryParam[0].split('=')[1] !== undefined && queryParam[0].split('=')[1] !== '') {
+            localStorage.utm_campaign = queryParam[0].split('=')[1];
+            localStorage.utm_source = queryParam[1].split('=')[1];
+            localStorage.utm_medium = queryParam[2].split('=')[1];
+            localStorage.gcl_id = queryParam[3].split('=')[1];
+        } else  {
+            localStorage.utm_campaign = 'no-utm_campaign';
+            localStorage.utm_source = 'no-utm_source';
+            localStorage.utm_medium = 'no-utm_medium';
+            localStorage.gcl_id = 'no-gcl_id';
+        }
+    }
 </script>
 @include('partials._header')
 <div class="container">
@@ -360,6 +375,17 @@
             }
         });
     });
+    let utm_campaign = localStorage.utm_campaign;
+    let utm_source = localStorage.utm_source;
+    let utm_medium = localStorage.utm_medium;
+    let gcl_id = localStorage.gcl_id;
+    let loginUrl = '{{ env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login?src=menu&utm_campaign='+utm_campaign+'&utm_medium='+utm_medium+'&utm_source='+utm_source+'&gcl_id='+gcl_id+'&referer='+localStorage.referer;
+    //let loginUrl = 'http://localhost:8002/login?src=menu&utm_campaign='+utm_campaign+'&utm_medium='+utm_medium+'&utm_source='+utm_source+'&gcl_id='+gcl_id+'&referer='+localStorage.referer;
+    let registerUrl = '{{ env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu&utm_campaign='+utm_campaign+'&utm_medium='+utm_medium+'&utm_source='+utm_source+'&gcl_id='+gcl_id+'&referer='+localStorage.referer;
+    //let registerUrl = 'http://localhost:8002/register?src=menu&utm_campaign='+utm_campaign+'&utm_medium='+utm_medium+'&utm_source='+utm_source+'&gcl_id='+gcl_id+'&referer='+localStorage.referer;
+    $('#btn_login').attr('href', loginUrl);
+    $('#btn_register').attr('href', registerUrl);
+
 </script>
 <script type="text/javascript">
     $(document).ready(function () {
