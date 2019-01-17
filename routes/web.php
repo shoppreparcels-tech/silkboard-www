@@ -65,6 +65,7 @@ Route::get('/flipkart-shopping-with-shoppre-from-india', 'PageController@flipkar
 Route::get('/myntra-online-shopping-shipping-from-india', 'PageController@myntraIndex')->name('myntra.landing');
 Route::get('/amazon-india-shop-international-shipping', 'PageController@amazonIndex')->name('amazon.landing');
 Route::get('/send-international-courier-from-india', 'PageController@icsLandingPage')->name('ics.landing');
+Route::get('/medicine-international-courier-from-india', 'PageController@medicine')->name('medicine.landing');
 Route::get('/personal-shopper-india', 'PageController@ifsLandingPage')->name('ifs.landing');
 Route::get('/indian-online-stores', 'PageController@storeNew')->name('stores1');
 Route::get('/faq-new', 'PageController@faqNew')->name('faq.new');

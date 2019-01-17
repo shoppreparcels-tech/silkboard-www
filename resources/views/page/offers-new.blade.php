@@ -111,10 +111,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Top Deals & Offers</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Fashion, TVs & Appliances </h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">The Republic Day Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">20th - 22nd JAN </h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/offers-store?src=shoppre"
+                                <a href="https://www.flipkart.com/republicdaysale-store?src=shoppre"
                                    target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
@@ -168,11 +168,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Blockbuster sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">5th-8th Jan | 50-80% Off‎</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Right To Fashion sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">19th - 22nd JAN | 50-80% Off‎</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com/shop/prebuzz-bbs?src=shoppre">
+                                <a href="https://www.myntra.com/shop/rtf-prebuzz-jan19?src=shoppre">
                                     <img src="{{asset('uploads/stores/logo_5997a62748742.png')}}"/>
                                 </a>
                             </div>
@@ -182,7 +182,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">SALE BIG BANG</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">The Everthing on sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com/?src=shoppre">
@@ -195,10 +195,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Amazon Fashion</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">End of Season Sale 40-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Great Indian Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">20th - 23rd JAN</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.amazon.in/b/?ie=UTF8&node=6648217031&ref_=topnav_storetab_top_ap_mega">
+                                <a href="https://www.amazon.in/b?node=5731634031&pf_rd_p=56136ed2-ffe5-4998-b18e-ca1014ef6d32&pf_rd_r=4653KN659H3KN9MVXWV3">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>
@@ -208,10 +208,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Never enough Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">5th-8th Jan | 50-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Republic of Fashion</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">19th - 22nd Jan | 50-80% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.jabong.com/sis/winter-sale-prebuzz?src=shoppre">
+                                <a href="https://www.jabong.com/sis/republic-fashion-sale-prebuzz">
                                     <img src="https://www.shoppre.com/uploads/stores/logo_599691d00e27e.png"/>
                                 </a>
                             </div>

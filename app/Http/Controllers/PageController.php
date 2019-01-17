@@ -57,6 +57,10 @@ class PageController extends Controller
     {
         return view('page.ics-landing');
     }
+    public function medicine()
+    {
+        return view('page.medicine-landing');
+    }
 
     public function flipkartIndex()
     {
