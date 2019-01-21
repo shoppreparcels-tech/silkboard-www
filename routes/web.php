@@ -48,7 +48,7 @@ Route::get('/{initial}-{cprefix}-{cpostfix}-from-{source}-to-{destination}', 'Pa
     ->name('urlTargetContent');
 Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('schedulePickup.mail');
 
-/*-------- ICS ------*/
+/*-------- landing pages------*/
 
 Route::get('/international-courier-shipping-services-india', 'PageController@icsIndex')->name('ics.index');
 Route::get('/2018-annual-awards-international-shipping-shopping', 'PageController@award')->name('award.index');
@@ -65,18 +65,21 @@ Route::get('/flipkart-shopping-with-shoppre-from-india', 'PageController@flipkar
 Route::get('/myntra-online-shopping-shipping-from-india', 'PageController@myntraIndex')->name('myntra.landing');
 Route::get('/amazon-india-shop-international-shipping', 'PageController@amazonIndex')->name('amazon.landing');
 Route::get('/send-international-courier-from-india', 'PageController@icsLandingPage')->name('ics.landing');
+
+Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
+Route::get('/best-international-relocation-packers-movers', 'PageController@packers')->name('packers-movers');
+Route::get('/international-shipping-gift-cards-vouchers', 'PageController@voucher')->name('voucher');
 Route::get('/medicine-international-courier-from-india', 'PageController@medicine')->name('medicine.landing');
 Route::get('/personal-shopper-india', 'PageController@ifsLandingPage')->name('ifs.landing');
 Route::get('/indian-online-stores', 'PageController@storeNew')->name('stores1');
 Route::get('/faq-new', 'PageController@faqNew')->name('faq.new');
-
 Route::get('/radcon', 'PageController@radioContest')->name('radio');
 Route::get('/radcon-tc', 'PageController@radioTermsConditions')->name('radio.tc');
-
 Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
 Route::post('/more-reviews', 'PageController@moreReviews')->name('more.reviews');
-
 Route::get('/seller-partner', 'PageController@seller')->name('seller');
+
+/*-------- landing pages------*/
 
 /*-------- Dhl Shipments ------*/
 Route::get('/dhl', 'ShippingPartnerController@dhlIndex')->name('dhl.index');

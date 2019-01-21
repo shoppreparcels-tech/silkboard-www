@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'International Medicine Courier | Ayurveda Herbs Shipping from India')
+@section('title', 'International Relocation | Packers & Movers from India')
 @section('description', '')
 @section('keywords', '')
 
@@ -35,14 +35,14 @@
             <div class="col-sm-7 col-xs-12 no-pad">
 
                 <div class="col-md-12 col-xs-12 no-pad">
-                    <h1 class="p-color-white header-spacing d-header-text">Courier Medicines from India to ANY part of the World
+                    <h1 class="p-color-white header-spacing d-header-text">International Relocation Services, Packers & Movers from India
                         </h1>
                     <h1 class="header1 p-color-white header-spacing">Starting @₹695/-</h1>
 
                     <p class="p-color-white header5 d-header-text1">Want
                         to courier something abroad from India?<br>
-                        We ship to 220+ countries & our trusted courier partners FedEx,<br> DTDC & more help us sail smooth
-                        all the way to your<br> destination, wherever it is</p>
+                        We ship to 220+ countries & our trusted courier partners DHL,<br> DTDC & more help us sail smooth
+                        all the way to your<br> destination.</p>
                     <br>
                     <br>
                 </div>
@@ -108,7 +108,8 @@
 
             <center>
                 <h1 class="f-c-d-greay f-s-30 f-w-8" >
-                    Send Medicines & Ayurvedic Herbs from India To the USA, UAE, UK, Europe, Australia, New Zealand, Canada, Middle East & 220+
+                    Are you relocating to another country or moving from India?<br>
+                    We Ship to the USA, UAE, UK, Europe, Australia, New Zealand, Canada, Middle East & 220+
                     countries.
                 </h1>
             </center>
@@ -119,31 +120,31 @@
             <div class="col-md-6 col-sm-12 col-xs-12 " style="padding-top: 50px">
                 <div class="row no-padding">
                     <center>
-                        <h2 class="f-c-d-greay f-s-22 f-w-8 ">Can we send medicine via courier from India?</h2>
-                        <p class="f-c-l-gray f-s-18 f-w-8">Yes, we do ship medicines and ayurveda products offering special courier services
-                            to NRIs & International Indian Medicine users. All you need is a Doctor's prescription and the commercial bill.
-                            These are some of the goods that we frequently ship for our customers </p>
+                        <h2 class="f-c-d-greay f-s-22 f-w-8 ">Can I Ship Household Items from India?</h2>
+                        <p class="f-c-l-gray f-s-18 f-w-8">Our comprehensive services support to relocating individuals, families and employees globally.
+                            We do ship all the Residential and Corporate items specialising in packing and moving services.
+                            Save Upto 80% on International Moving Costs.</p>
                     </center>
                 </div>
                 <br>
                 <div class=" col-md-12 col-xs-12 div-ics-prodcts">
                     <div class="col-md-6 col-xs-6 no-padding">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Pills</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Herbs</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Liquid/Syrups</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Ointments</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Inhalers</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Homeopathy</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Packing Services</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Personal Baggage</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Household Packing</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Office Packing Service</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Labelling service</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Product Packaging </li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-xs-6 no-padding">
                         <ul style="text-decoration: none; list-style: none">
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Capsules</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Injections</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Tablets</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Eye/Ear Drops</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Lozenges</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Loading Services</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Unloading Services</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Warehousing</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Bike Transportation </li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Car Shifting</li>
                             <li>& Many More Products</li>
                         </ul>
                     </div>
@@ -203,7 +204,6 @@
                         <br>
                     </div>
                 </div>
-
                 <div class="col-sm-3 col-xs-12">
                     <div class="panel">
                         <br/>
@@ -213,7 +213,6 @@
                         <br>
                     </div>
                 </div>
-
                 <div class="col-sm-3 col-xs-12">
                     <div class="panel">
                         <br/>
@@ -297,15 +296,6 @@
                 <br>
                 <br>
             </div>
-            <p class="header1 p-color-cement-dark">
-                Shipping from India Now Made Easy by ShoppRe.com
-            </p>
-            <p class="header4 p-color-cement">
-                Save up to 60–80% of the total cost compare to any other shipping services. Now worry less, because we have partnered with high value courier companies such as DHL, DTDC
-                and more to choose shipping that arrives quickly or the cost effective one. We not only help you
-                in buying goods online but also send business consignment, personal packages, documents or gifts to your dear ones tracking door-to-door shipment process.
-            </p>
-
             <br>
         </div>
     </section>

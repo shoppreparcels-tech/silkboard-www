@@ -1,28 +1,33 @@
 @extends('layout')
 
 
-@section('title', 'New Year Offer - ShoppRe.com')
+@section('title', 'ShoppRe - International Shipping Voucher')
 @section('description', '')
 @section('keywords', '')
 
 @section('css_style')
     <style>
-      .bg-christmas-landing-page {background-image: url("../../img/images/background_newyear.png");height: 813px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
-      .bg-christmas-landing-page .div-snow{padding-top: 189px;}
-      .bg-christmas-landing-page .div-snow img{position: absolute;}
-      .bg-christmas-landing-page .div-newyear{padding-top: 155px;}
-      .bg-christmas-landing-page .div-newyear img{margin-left: -139px;position: absolute;}
+       .first-time-shipment {background-color: #11273b;height: 560px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;padding-top: 60px;}
+       .div-snow{padding-top: 146px;}
+       .div-snow img{position: absolute;}
+       .div-snow img{margin-left: -18px; position: absolute;}
+       .div-newyear{padding-top: 206px;}
+       .div-newyear img{position: absolute;}
       .textbox-email{width: 358px;height: 50px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);border-radius: 25px!important;background-color: #ffffff;border: 0;padding-left:9% }
       .btn-grab-offer{width: 180px;height: 40px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 60px;background-color: #e85151;color: #fff;transition: 0.6s}
       .btn-grab-offer:hover{color: #fff;background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);}
-      .christmas-service{box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 15px;background-color: #fafafb;margin-top: -360px;padding: 20px}
-      .christmas-service .c-image{padding: 20px}
-      .christmas-service .shopandship{padding:20px; box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);border-radius: 8px;background-image: linear-gradient(228deg, #ff7c5b 0%, #e8517a 100%);}
-      .christmas-service .ps{padding:20px; box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);;border-radius: 8px;background-image: linear-gradient(228deg, #4df696 0%, #50bc70 100%);}
-      .christmas-service .ic{padding:20px; box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);;border-radius: 8px;background-image: linear-gradient(229deg, #27cbff 0%, #2aa1d5 100%);}
-      .christmas-service .shopandship,.ps,.ic, h2{font-size: 22px;font-weight: 500;color: rgba(255, 255, 255, 0.6);}
-      .christmas-service .shopandship,.ps,.ic, p{color: #ffffff;font-size: 16px;font-weight: 600;}
-      .christmas-service .btn-chris-place-order{padding: 13px 50px;color:#fff; width: 300px;height: 50px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 30px;background-color: #e85151;}
+      .fst-service{box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 15px;background-color: #fafafb;margin-top: -360px;padding: 20px}
+      .fst-service .c-image{padding: 20px}
+      .fst-service .shopandship{padding:20px; box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);border-radius: 8px;border: 1px solid #5a5b5d26}
+      .fst-service .ps{padding:20px; box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);;border-radius: 8px;border: 1px solid #5a5b5d26}
+      .fst-service .ic{padding:20px; box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);;border-radius: 8px;border: 1px solid #5a5b5d26}
+      .fst-service .shopandship:hover{border: 1px solid #507dbc}
+      .fst-service .ps:hover{border: 1px solid #507dbc}
+      .fst-service .ic:hover{border: 1px solid #507dbc}
+
+      .fst-service .shopandship,.ps,.ic, h2{font-size: 22px;font-weight: 500;color: rgba(255, 255, 255, 0.6);}
+      .fst-service .shopandship,.ps,.ic, p{color: #ffffff;font-size: 16px;font-weight: 600;}
+      .fst-service .btn-chris-place-order{padding: 13px 50px;color:#fff; width: 300px;height: 50px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 30px;background-color: #e85151;}
       .chris-benefits{padding-top: 30px}
       .chris-benefits ul{text-decoration: none;list-style: none;}
       .chris-benefits ul li{color: #224464;font-family: Bahnschrift;font-size: 18px;font-weight: 400;text-align: left;padding-top: 15px;}
@@ -36,13 +41,13 @@
 
       .select-control {float: left;width: 90px !important;height: 40px !important;font-size: 13px;font-weight: 400;    font-style: italic;border-left: 0;border-radius: 3px;background-color: #fafafb;border: none;}
       .select2-container--default .select2-selection--single {background-color: #fff !important;border: none !important;border-radius: 4px !important;height: 40px !important;padding-top: 5px!important;}
-
       .select2-container--default .select2-selection--single .select2-selection__arrow b {margin-top: 4px !important;}
       @media only screen and (max-width: 600px) {
+          .first-time-shipment {height: 454px;}
           .textbox-email {width: 330px;}
           .div-snow{display: none;}
           .div-newyear{display: none;}
-          .christmas-service {margin-top: -260px;}
+          .fst-service {margin-top: -260px;}
           .c-image{display: none}
           .txt-align{text-align: center}
           .img-new-year{display: block;width: 240px;}
@@ -52,60 +57,50 @@
 
 @endsection
 @section('content')
-    <section class="bg-christmas-landing-page">
+    <section class="first-time-shipment">
         <div class="container no-padding">
-           <div class="col-md-2 div-snow">
-               <img src="{{asset('img/images/snowman.png')}}" alt="">
+           {{--<div class="col-md-3 div-snow">--}}
+               {{--<img src="{{asset('img/images/f-t-s-priyamani.png')}}" alt="" class="img-responsive">--}}
+           {{--</div>--}}
+           <div class="col-md-12 col-xs-12 no-padding">
+                <center>
+                    <h18 class="f-s-50 f-c-white  f-w-9">Digital Voucher Card</h18>
+                    <p class="f-s-36 f-c-white f-w-9 ">on your International Shipment</p>
+                </center>
            </div>
-           <div class="col-md-8 col-xs-12 no-padding">
-               <center>
-                   <img src="{{asset('img/images/newyear_image.png')}}" alt="" class="img-new-year">
-                   <h18 class="f-s-18 f-c-yellow font-weight-900">Save upto 80% on international shipping + Get an additional 19% for this New Year!</h18>
-                   <h1 class="p-color-white header-spacing header1 ">Shop From India, Ship Worldwide </h1>
-                   <h2 class="header2 p-color-white header-spacing font-weight-900">Shipping Starts from ₹690/-</h2>
-                   <form action=""  method="post" id="diwali_coupon">
-                       {{csrf_field()}}
-                       <div class="" id="diwali-couponcode1">
-                           <br>
-                           <div class="form-group">
-                               <input type="email" name="email" class="b-r-3 txt-xl txt-shadow txt-pad"
-                                      placeholder="Enter a valid E-mail ID" required>
-                           </div>
-                           <div class="form-group">
-
-                               <select class="select2 select-control" name="country_code" >
-                                   <option value="91">IN(+91)</option>
-                                   @foreach($countries as $country)
-                                       <option value="{{$country->phone_code}}">{{$country->iso}}(+{{$country->phone_code}})
-                                       </option>
-                                   @endforeach
-                               </select>
-                                {{--<input type="number" name="email" class="b-r-3 txt-m txt-shadow txt-pad"--}}
-                                          {{--placeholder="Enter a valid E-mail ID" required>--}}
-                               <input type="text" name="pnumber" class="b-r-3 txt-l txt-shadow txt-pad" pattern="^[0-9]"
-                                      placeholder="Phone Number" required>
-
-                           </div>
-                           <div class="col-md-12 form-group text-center">
-                               <button type="submit" name="btnActivate" class="btn btn-l btn-b-r btn-s-r font-weight-900">Grab the Offer!</button>
-                           </div>
-                       </div>
-                       <br>
-                   </form>
-                   <h7 class="header7 leter-space f-c-white">*From 27th Dec to 06th Jan 2019</h7>
-               </center>
-           </div>
-            <div class="col-md-2 div-newyear">
-                <img src="{{asset('img/images/newyear_image.png')}}" alt="">
-            </div>
+            {{--<div class="col-md-3 div-newyear">--}}
+                {{--<img src="{{asset('img/images/f-s-t-courierbox.png')}}" alt="" class="img-responsive">--}}
+            {{--</div>--}}
 
         </div>
     </section>
     <section >
-        <div class="container christmas-service">
+        <div class="container fst-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Good News Again! This offer is valid on all our services!</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">ShoppRe International Shipping Digital Voucher Code</h2>
+                </div>
+                <div class="col-md-12 col-xs-12">
+
+                    <div class="col-md-3 col-xs-12 col-sm-3 div-snow ">
+                        <img src="{{asset('img/images/f-t-s-priyamani.png')}}" alt="" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 col-xs-12 col-sm-6"><br><br>
+                        <img src="{{asset('img/images/flipkart-international-shipping-voucher.jpg')}}" alt="" style="width:100%;">
+                    </div>
+                    <div class="col-md-3 col-xs-12 col-sm-3 div-newyear">
+                        <img src="{{asset('img/images/f-s-t-courierbox.png')}}" alt="" class="img-responsive">
+                    </div>
+                    <br>
+                </div>
+                <div class="col-xs-12 col-md-12 col-sm-12 "><br><br>
+                    <center><a href="https://www.flipkart.com/shoppre-shipping-card/p/itmfccrdukkczavz" target="_blank " class="btn btn-s-r btn-a-l btn-b-r">Go Shopping Now!</a></center>
+                    <br><br>
+                </div>
+
+
+                <div class="col-md-8 col-xs-12">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Good News Again! This Voucher is valid on all our services!</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
                     <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">
@@ -114,52 +109,66 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-sm-4">
-                    <div class="shopandship ">
-                        <h2>Shop & Ship</h2>
-                        <br/>
-                        <p>Shop From Any Indian Store; Get It to a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
-
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-6 col-xs-6 no-pad">
+                            <h2 class="f-s-16 f-c-blue txt-a-l f-w-9">Shop & Ship</h2>
+                            <p class="f-s-12 f-c-l-gray txt-a-l">Shop From Any Indian Store; Get It to a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
+                        </div>
+                        <div class="col-md-6 col-xs-6 no-pad">
+                            <br>
+                            <br>
+                            <img src="{{asset('img/images/f-s-t-s-s.svg')}}" alt="" class="img-responsive">
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="ps">
-                        <h2>Personal Shopper</h2>
-                        <br>
-                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You!</p>
-
-
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class=" col-sm-12 col-xs-12 col-md-12 ps">
+                        <div class="col-md-6 col-xs-6 no-pad">
+                            <h2 class="f-s-16 f-c-blue txt-a-l f-w-9">Personal Shopper</h2>
+                            <p class="f-s-12 f-c-l-gray txt-a-l">Payment Hassles at Checkout?<br> No Worries, Let Us Know What You Need; We'll Shop for You!</p>
+                        </div>
+                        <div class="col-md-6 col-xs-6 no-pad">
+                            <img src="{{asset('img/images/f-s-t-ps.svg')}}" alt="" class="img-responsive">
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="ic">
-                        <h2>International Courier</h2>
-                        <br>
-                        <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
-
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 ic">
+                        <div class="col-md-6 col-xs-6 no-pad">
+                            <h2 class="f-s-16 f-c-blue  txt-a-l f-w-9">International Courier</h2>
+                            <p class="f-s-12 f-c-l-gray  txt-a-l">Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
+                        </div>
+                        <div class="col-md-6 col-xs-6 no-pad">
+                            <img src="{{asset('img/images/f-s-t-ic.png')}}" alt="" class="img-responsive">
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class=" col-md-12 offer-description">
-                <h4 class="header4 p-color-cement">Why Not Make Use of the Year End Sales & Get Ready for the New Year's?</h4>
-                <br>
-                <p class="header4 p-color-cement">2018 is on its last stretch and everyone's busy running around with their last-year resolutions! Let us get ready for another year with an open heart and clean baggage. We're here to help you be a new 'You' for the New Year's.</p>
-                <br>
-                <p class="header4 p-color-cement">Here's how; you get an <a href="{{route('pricing')}}">80% lesser shipping cost</a> with our top-of-the-line package consolidation services on top of which, you can avail a sweet 19% OFF - a little something from us to start off your New Year with.</p> <br>
+            <div class=" col-md-12 no-pad"><br>
+                {{--<h4 class="f-s-14 f-c-l-gray f-w-9">Offer Description :</h4>--}}
+                {{--<br>--}}
+                {{--<p class="header4 p-color-cement">2018 is on its last stretch and everyone's busy running around with their last-year resolutions! Let us get ready for another year with an open heart and clean baggage. We're here to help you be a new 'You' for the New Year's.</p>--}}
+                {{--<br>--}}
+                {{--<p class="header4 p-color-cement">Here's how; you get an <a href="{{route('pricing')}}">80% lesser shipping cost</a> with our top-of-the-line package consolidation services on top of which, you can avail a sweet 19% OFF - a little something from us to start off your New Year with.</p> <br>--}}
 
-                <div class="offerDesc">
-                    <h5> What Else Do You Get Out of Our Offer? </h5><br>
-                    <ul>
-                        <li>A FREE Indian Virtual Address to ship your packages to </li>
-                        <li>Get online Support 24/7</li>
-                        <li>A quick delivery within 3-6 days!</li>
-                    </ul>
-                </div>
+                {{--<div class="offerDesc">--}}
+                    {{--<h5>Terms and Conditions:</h5><br>--}}
+                    {{--<ul>--}}
+                        {{--<li>Get 50% Cashback. </li>--}}
+                        {{--<li>Offer Code: FRST50</li>--}}
+                        {{--<li>Maximum amount that can be availed by a customer is ₹250/-.</li>--}}
+                        {{--<li>This offer cannot be clubbed with any other offer.</li>--}}
+                        {{--<li>This Coupon is Valid Upto 31-January-2019</li>--}}
+                        {{--<li>A customer can avail this offer only once during the offer period.</li>--}}
+                        {{--<li>This offer is applicable only for International Shipments.</li>--}}
+                        {{--<li>Clearance charges is applicable for Special items</li>--}}
+                        {{--<p class="f-s-16 f-c-blue f-w-8">(liquids, semi liquids/cosmetics, medicines, oils, homemade food items).</p>--}}
+
+                    {{--</ul>--}}
+                {{--</div>--}}
                 <br>
-                <div>
-                <center><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=sny2019" class="btn-chris-place-order">Go Shopping Now!</a></center>
-                </div>
 
             </div>
         </div>

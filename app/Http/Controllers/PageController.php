@@ -57,9 +57,23 @@ class PageController extends Controller
     {
         return view('page.ics-landing');
     }
+    public function firstTimeShipment()
+    {
+        return view('page.first-shipment');
+    }
+
     public function medicine()
     {
         return view('page.medicine-landing');
+    }
+
+    public function packers()
+    {
+        return view('page.packers-movers');
+    }
+    public function voucher()
+    {
+        return view('page.voucher');
     }
 
     public function flipkartIndex()

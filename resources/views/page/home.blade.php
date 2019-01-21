@@ -223,7 +223,7 @@
 
             </div>
         </div>
-        {{--<div class="div-add no-padding pull-right"><a href="{{'offers'}}"><img src="{{asset('/img/offers-image/nw-year-offer-starts.png')}}" alt="new year offer" class="pull-right"></a></div>--}}
+        <div class="div-add no-padding pull-right"><a href="https://www.shoppre.com/offers/republic-day-special-offer-from-shoppre/"><img src="{{asset('/img/offers-image/republic_day.png')}}" alt="new year offer" class="pull-right"></a></div>
 
         <div class="container header-menu-home-page"id="header-menu">
             <div class="col-md-2">
@@ -274,7 +274,7 @@
         {{--</div>--}}
 
         <div class="container">
-            <div class="col-md-7 no-padding">
+            <div class="col-md-7 col-xs-12 col-sm-7 no-padding">
                 <div>
                     <h1 class="header1 p-color-white ">
                         International Shipping from India <span class="f-c-yellow" id="country"></span>
@@ -322,230 +322,12 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
-            <div class="col-md-5 no-padding">
-                <br>
-                <br>
+            <div class="col-md-5 col-sm-5  no-padding">
                 <img src="{{asset('img/images/priyamani-new.png')}}" class="img-responsive" alt="" id="img-p">
             </div>
         </div>
-        {{--previous design--}}
-        {{--<div class="container no-padding">--}}
-            {{--<div class="col-md-6  col-lg-6  col-sm-12 col-xs-12 no-padding">--}}
-                {{--<div class="col-md-12 col-sm-11 col-xs-11  col-lg-12 div-main-row">--}}
-                    {{--<strong>--}}
-                        {{--this block is required--}}
-                        {{--<b><h1 class="header1 p-color-white header-text-margin">--}}
-                        {{--International Shipping from India <span id="country"></span>--}}
-                        {{--starting at just <span class="p-color-red">*₹<span id="prices"></span></span><span--}}
-                        {{--style="color: #ffffff">!</span>--}}
-                        {{--</h1></b>--}}
 
-                        {{--<b><h1 class="header1 p-color-white header-text-margin">--}}
-                                {{--International Shipping from India--}}
-                                {{--starting at just <span class="p-color-red">*₹690</span><span--}}
-                                    {{--style="color: #ffffff">!</span>--}}
-
-                            {{--</h1></b>--}}
-                    {{--</strong>--}}
-                {{--</div>--}}
-                {{--<div class="div-mobile-background-img no-padding" id="mobile-version">--}}
-                    {{--<div class="row" style="margin-left: 0px;margin-right: 0px;" id="row-padding-shop1">--}}
-                        {{--<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 no-padding div-shop-ship1" id="shop-ship">--}}
-                            {{--<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">--}}
-                                {{--<p class="header6 p-color-white">--}}
-                                    {{--Shop From Any--}}
-                                    {{--Indian Store; Get It to a FREE--}}
-                                    {{--Indian Virtual Address;--}}
-                                    {{--We'll Ship It to--}}
-                                    {{--Your Doorsteps!</p>--}}
-
-                            {{--</div>--}}
-                            {{--<div class="col-md-12 no-padding">--}}
-                                {{--<center>--}}
-                                    {{--<a href="{{route('ifs.index')}}">--}}
-                                        {{--<div class="btn-shop-ship1" id="btn-shop-ship">--}}
-                                            {{--<p class="shop-ship-btn-name">--}}
-                                                {{--SHOP & SHIP--}}
-                                            {{--</p>--}}
-                                        {{--</div>--}}
-                                    {{--</a>--}}
-                                {{--</center>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 no-padding div-courier1" id="courier">--}}
-                            {{--<div class="div-courier-text">--}}
-                                {{--<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12"--}}
-                                     {{--style="padding-top: 10px;padding-bottom: 10px">--}}
-                                    {{--<p class="header6 p-color-white" style="text-align: center">--}}
-                                        {{--Schedule a Pickup for Your Courier From Anywhere in India; We'll Come Pick It Up--}}
-                                        {{--in 24 Hours!--}}
-                                    {{--</p>--}}
-                                {{--</div>--}}
-
-                                {{--<div class="row">--}}
-                                    {{--<center>--}}
-                                        {{--<a href="{{route('ics.index')}}">--}}
-                                            {{--<div class="btn-courier1" id="btn-courier">--}}
-                                                {{--<p class="shop-ship-btn-name">--}}
-                                                    {{--COURIER NOW!--}}
-                                                {{--</p>--}}
-                                            {{--</div>--}}
-                                        {{--</a>--}}
-                                    {{--</center>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-video-margin">--}}
-                        {{--<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab">--}}
-                            {{--<center>--}}
-                                {{--<p>--}}
-                                    {{--<img class="img-demo" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_watch_now.svg">--}}
-                                    {{--<a class="bla-1 p-demo-text" style="color: #ffffff"--}}
-                                       {{--href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank"--}}
-                                    {{-->&nbsp;&nbsp;&nbsp;&nbsp;Watch Video</a>--}}
-                                {{--</p>--}}
-                            {{--</center>--}}
-
-                        {{--</div>--}}
-                        {{--<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="number"--}}
-                             {{--style="padding-left: 0;">--}}
-                            {{--<img class="img-demo" id="img-cal"--}}
-                                 {{--src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header.svg">--}}
-                            {{--<b>--}}
-                                {{--<a href="tel:+91-8277919191">--}}
-
-                                    {{--<b>--}}
-                                        {{--<p class="p-support-text" id="p-numer">--}}
-                                            {{--&nbsp;+91 8277-919191--}}
-                                        {{--</p>--}}
-                                    {{--</b>--}}
-                                {{--</a>--}}
-                            {{--</b>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="callnow">--}}
-                            {{--<img class="img-demo" id="img-cal1" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header1.svg">--}}
-                            {{--<a href="tel:+91-80 4094 4077">--}}
-                                {{--<p class="p-demo-text text-call-now" id="p-demo-text-cal">--}}
-                                    {{--&nbsp;Call Now--}}
-                                {{--</p>--}}
-                            {{--</a>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-
-                {{--<div id="desktop-version">--}}
-                    {{--<div class="row" style="margin-left: 0px;margin-right: 0px;" id="row-padding-shop">--}}
-                        {{--<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 div-shop-ship" id="shop-ship">--}}
-                            {{--<div class="row">--}}
-                                {{--<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">--}}
-                                    {{--<div class="no-padding text-center ">--}}
-                                        {{--<p class="p-ship-shop-courier"> Shop From Any--}}
-                                            {{--Indian Store; Get It to a FREE--}}
-                                            {{--Indian Virtual Address;--}}
-                                            {{--We'll Ship It to--}}
-                                            {{--Your Doorsteps!</p>--}}
-                                    {{--</div>--}}
-
-                                {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="row">--}}
-                                {{--<center>--}}
-                                    {{--<a href="{{route('ifs.index')}}">--}}
-                                        {{--<div class="btn-shop-ship" id="btn-shop-ship">--}}
-                                            {{--<p class="shop-ship-btn-name">--}}
-                                                {{--SHOP & SHIP--}}
-                                            {{--</p>--}}
-                                        {{--</div>--}}
-                                    {{--</a>--}}
-                                {{--</center>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 div-courier" id="courier">--}}
-                            {{--<div class="div-courier-text">--}}
-                                {{--<div class="row">--}}
-                                    {{--<div class="col-md-12 col-sm-12 col-xs-12">--}}
-                                        {{--<div class="no-padding text-center">--}}
-                                            {{--<b><p class="p-ship-shop-courier">Schedule a Pickup--}}
-                                                    {{--For Your Courier--}}
-                                                    {{--From Anywhere in India;--}}
-                                                    {{--We ship to 220+--}}
-                                                    {{--countries!</p></b>--}}
-                                        {{--</div>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-
-                                {{--<div class="row">--}}
-                                    {{--<center>--}}
-                                        {{--<a href="{{route('ics.index')}}">--}}
-                                            {{--<div class="btn-courier" id="btn-courier">--}}
-                                                {{--<p class="shop-ship-btn-name">--}}
-                                                    {{--COURIER NOW!--}}
-                                                {{--</p>--}}
-                                            {{--</div>--}}
-                                        {{--</a>--}}
-                                    {{--</center>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-
-
-                    {{--<div class="row" style="margin-left: -32px;">--}}
-                        {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-demo-row">--}}
-                            {{--<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab">--}}
-                                {{--<p>--}}
-                                    {{--<img class="img-demo" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_watch_now.svg">--}}
-                                    {{--<a class="bla-1 p-demo-text"  style="color: #ffffff"--}}
-                                       {{--href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank"--}}
-                                    {{-->&nbsp;Watch Video</a>--}}
-                                {{--</p>--}}
-                            {{--</div>--}}
-                            {{--<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="number"--}}
-                                 {{--style="padding-left: 0;">--}}
-                                {{--<img class="img-demo" id="img-cal"--}}
-                                     {{--src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header.svg">--}}
-                                {{--<b>--}}
-                                    {{--<a href="tel:+91-8277919191">--}}
-                                        {{--<b>--}}
-                                            {{--<p class="p-support-text" id="p-numer">--}}
-                                                {{--&nbsp;&nbsp;+91 8277-919191--}}
-                                            {{--</p>--}}
-                                        {{--</b>--}}
-                                    {{--</a>--}}
-                                {{--</b>--}}
-                            {{--</div>--}}
-                            {{--<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6 video-tab" id="callnow">--}}
-                                {{--<img class="img-demo" id="img-cal1"--}}
-                                     {{--src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_contact_header1.svg">--}}
-                                {{--<b>--}}
-                                    {{--<a href="tel:+91-80 4094 4077">--}}
-                                        {{--<b>--}}
-                                            {{--<p class="p-demo-text" id="p-demo-text-cal">--}}
-                                                {{--Call Now--}}
-                                            {{--</p>--}}
-                                        {{--</b>--}}
-                                    {{--</a>--}}
-                                {{--</b>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-
-            {{--<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 ">--}}
-                {{--<div class="col-md-12 div-backgroud-img ">--}}
-                    {{--<img class="img-priyamani"--}}
-                         {{--src="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-shoppre-international-shipping.png"--}}
-                         {{--alt="priyamani shoppre shipping">--}}
-                {{--</div>--}}
-            {{--</div>            --}}
-            {{--<div class="div-priyamani-mobile-img"></div>--}}
-        {{--</div>--}}
-        {{--previous design--}}
         <br>
         <br>
         <br>
@@ -967,9 +749,7 @@
     <section style="background-color: #f2f6fb;">
         <div class="container">
             <center>
-                <p class="header1 p-color-cement-dark div-margin">When we were the talk of the town</p>
-                <p class="header2 p-color-cement ">It hasn't been too long, but we have created quite a stir <br> in the local as well as international news forums!</p>
-                <br>
+                <p class="header1 p-color-cement-dark div-margin">In The News</p>
             </center>
         </div>
         <div class="container div-store-padding">

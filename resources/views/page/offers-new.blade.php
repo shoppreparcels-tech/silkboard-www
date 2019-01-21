@@ -85,8 +85,8 @@
                         {{--</div>--}}
                         <div class="item">
                             <div class="pad15">
-                                <a href="#">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box2.png" class="boxofScroll"/>
+                                <a href="https://www.shoppre.com/offers/republic-day-special-offer-from-shoppre/">
+                                    <img src="{{asset('img/offers-image/Republic-day-2019.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
