@@ -34,7 +34,7 @@ Route::get('/schedule-pickup', 'SchedulePickupController@index')->name('schedule
 Route::post('/schedule-pickup', 'SchedulePickupController@submit')->name('schedulePickup.Submit');
 Route::get('/schedule-pickup/confirm', 'SchedulePickupController@confirm')->name('schedulePickup.confirmPickup');
 Route::post('/schedule-pickup/asana-tracking', 'SchedulePickupController@asanaTracking')
-    ->name('schedulePickup.asana.tracking');
+    ->name('schedulePickup.asana.tracking');<<<<<<< staging
 Route::post('/schedule-pickup/ajexRequest', 'PageController@pickupByAjex')->name('schedulePickup.byAjex');
 Route::get('/countries', 'PageController@countryList')->name('countryList');
 Route::get('/feedback', 'FeedbackController@index')->name('feedback.Index');
@@ -69,7 +69,7 @@ Route::get('/send-international-courier-from-india', 'PageController@icsLandingP
 Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
 Route::get('/best-international-relocation-packers-movers', 'PageController@packers')->name('packers-movers');
 Route::get('/international-shipping-gift-cards-vouchers', 'PageController@voucher')->name('voucher');
-Route::get('/medicine-international-courier-from-india', 'PageController@medicine')->name('medicine.landing');
+Route::get('/medicine-international-courier-from-india', 'PageController@medicine')->name('medicine');
 Route::get('/personal-shopper-india', 'PageController@ifsLandingPage')->name('ifs.landing');
 Route::get('/indian-online-stores', 'PageController@storeNew')->name('stores1');
 Route::get('/faq-new', 'PageController@faqNew')->name('faq.new');
@@ -120,7 +120,7 @@ Route::get('/campaign/{cname}/{eid}', 'CampaignController@campaignDetail')->name
 Route::get('/campaign/{cname}/{channel}/{eid}', 'CampaignController@campaignDetailChannel')
     ->name('campaignDetailChannel');
 Route::get('/campaigns/channel/{camp_id}', 'CampaignController@channelList')->name('channelList');
-Route::get('/campaigns/channel/new/create/{camp_id}', 'CampaignController@channelCreate')->name('channelCreate');
+Route::get('/campaigns/channel/new/create/{camp<<<<<<< staging_id}', 'CampaignController@channelCreate')->name('channelCreate');
 Route::post('/campaign/channel/new/create/{camp_id}', 'CampaignController@channelSubmit')->name('channelSubmit');
 
 /*-------- login/sign up ------*/

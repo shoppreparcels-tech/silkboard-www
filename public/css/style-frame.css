@@ -97,7 +97,7 @@
 
     /*shipments-page*/
 
-    .div-s-p-h {padding: 20px 0 30px}
+    .div-s-p-h {padding: 20px 0 30px}s
     .shipping-partner {padding-top: 40px;background-color: #fafafb;}
     .shipping-partner .shipments-information {box-shadow: 0 0 6px rgba(17, 39, 59, 0.05);border-radius: 3px;background-color: #ffffff;padding-top: 60px;padding-bottom: 60px;}
     .shipping-partner .shipments-information div {padding-left: 30px}
@@ -116,9 +116,9 @@
 
     /*pricing table*/
     #memberplans {font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;border-collapse: collapse;width: 100%;}
-    .tr-hide {display: none;}
-    .tr-hide1 {display: none;}
-    .tr-hide2 {display: none;}
+    /*.tr-hide {display: none;}*/
+    /*.tr-hide1 {display: none;}*/
+    /*.tr-hide2 {display: none;}*/
     #memberplans td, #memberplans th {border: 1px solid #ddd;text-align: center;}
     #memberplans td:hover{border: 2px solid #e9c46a;background-color: #ffffff;}
     #memberplans tr:nth-child(odd) {background-color: #fafafb;}
@@ -140,9 +140,10 @@
     .f-s-22{font-size:14px }
     .f-s-20{font-size:13px }
     .f-s-18{font-size:12px }
-    .f-s-14{font-size:12px }
+    .f-s-16{font-size:11px }
+    .f-s-14{font-size:10px }
     .btn-a-l{padding: 10px 20px;}
-
+    #memberplans td, #memberplans th {border: 1px solid #ddd;text-align: center;}
 
     .txt-xl{width:100%;}
     .txt-l {width: 235px;}

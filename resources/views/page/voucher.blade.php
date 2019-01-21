@@ -1,9 +1,9 @@
 @extends('layout')
 
 
-@section('title', 'ShoppRe - International Shipping Voucher')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'International Shipping Voucher, Gift Cards, Coupons 2019 | ShoppRe')
+@section('description', 'Shop the ShoppRe International shipping card worth ₹600 on Flipkart.com and Save up to 80% Off Shipping Rates. Shop from India & Ship Worldwide.')
+@section('keywords', 'coupon codes, deals, discounts, free shipping, voucher, gift cards, offers, promo')
 
 @section('css_style')
     <style>
@@ -59,26 +59,19 @@
 @section('content')
     <section class="first-time-shipment">
         <div class="container no-padding">
-           {{--<div class="col-md-3 div-snow">--}}
-               {{--<img src="{{asset('img/images/f-t-s-priyamani.png')}}" alt="" class="img-responsive">--}}
-           {{--</div>--}}
            <div class="col-md-12 col-xs-12 no-padding">
                 <center>
                     <h18 class="f-s-50 f-c-white  f-w-9">Digital Voucher Card</h18>
                     <p class="f-s-36 f-c-white f-w-9 ">on your International Shipment</p>
                 </center>
            </div>
-            {{--<div class="col-md-3 div-newyear">--}}
-                {{--<img src="{{asset('img/images/f-s-t-courierbox.png')}}" alt="" class="img-responsive">--}}
-            {{--</div>--}}
-
         </div>
     </section>
     <section >
         <div class="container fst-service">
             <div class="row">
-                <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">ShoppRe International Shipping Digital Voucher Code</h2>
+                <div class="col-md-12 col-xs-12">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">ShoppRe International Shipping Cards worth INR-600 is now available on Flipkart for INR-499/- ONLY!</h2>
                 </div>
                 <div class="col-md-12 col-xs-12">
 
@@ -86,7 +79,7 @@
                         <img src="{{asset('img/images/f-t-s-priyamani.png')}}" alt="" class="img-responsive">
                     </div>
                     <div class="col-md-6 col-xs-12 col-sm-6"><br><br>
-                        <img src="{{asset('img/images/flipkart-international-shipping-voucher.jpg')}}" alt="" style="width:100%;">
+                        <img src="{{asset('img/images/flipkart-international-shipping-voucher.png')}}" alt="" style="width:100%;">
                     </div>
                     <div class="col-md-3 col-xs-12 col-sm-3 div-newyear">
                         <img src="{{asset('img/images/f-s-t-courierbox.png')}}" alt="" class="img-responsive">

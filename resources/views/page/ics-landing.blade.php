@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'ICS Landing Page')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'International Courier Charges from India | Starting from ₹695/-')
+@section('description', 'Want to courier abroad from India? We ship to 2220 countries. Send homemade food, sweets, utensils, cloths, books. Special Discounts rates for bulk shipments.')
+@section('keywords', 'international courier, cargo services, shipping, delivery, schedule a pickup')
 
 @section('css_style')
     <style>
@@ -213,17 +213,16 @@
                 <div class="col-md-4 col-lg-4 col-sm-6 col-sm-6 box" id="ics-box1">
                     <div class="box-steps" id="steps">
                         <center>
-                            <p class="header8 p-color-cement"><span id="number1">1</span><br> step</p>
+                            <p class="header8 p-color-cement" style="line-height: 1;"><span
+                                    style="font-size: 22px;font-weight: 900;" id="number1">1</span><br> step</p>
                         </center>
                     </div>
                     <div>
                         <center>
                             <img class="img-responsive img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pic_up.svg">
-                            <h2 class="header3 p-color-cement-dark">Pickup Package</h2>
+                            <h2 class="header3 p-color-cement-dark">Schedule a Pickup</h2>
                             <p class="header5 p-color-cement">
-                                Purchase any product from your favourite indian
-                                online store and use your locker address for item
-                                delivery
+                                After getting your FREE estimate, fill in the order form accordingly and submit it to schedule your pickup.
                             </p>
                         </center>
                     </div>
@@ -232,17 +231,16 @@
                 <div class="col-md-4 col-lg-4 col-sm-6 col-sm-6 box" id="ics-box2">
                     <div class="box-steps" id="steps">
                         <center>
-                            <p class="header8 p-color-cement"><span id="number2">2</span><br> step</p>
+                            <p class="header8 p-color-cement"  style="line-height: 1;"><span
+                                    style="font-size: 22px;font-weight: 900;" id="number2">2</span><br> step</p>
                         </center>
                     </div>
                     <div>
                         <center>
                             <img class="img-responsive  img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shipments.svg">
-                            <h2 class="header3 p-color-cement-dark">Shipments</h2>
+                            <h2 class="header3 p-color-cement-dark">We’ll Pick It Up</h2>
                             <p class="header5 p-color-cement">
-                                Purchase any product from your favourite indian
-                                online store and use your locker address for item
-                                delivery
+                                Within 48 hours of you making the request, we’ll come to your doorsteps to pickup your package(s).
                             </p>
                         </center>
 
@@ -251,33 +249,26 @@
                 <div class="col-md-4 col-lg-4 col-sm-6 col-sm-6 box" id="ics-box3">
                     <div class="box-steps" id="steps">
                         <center>
-                            <p class="header8 p-color-cement"><span id="number3">3</span><br> step</p>
+                            <p class="header8 p-color-cement" style="line-height: 1;"><span
+                                    style="font-size: 22px;font-weight: 900;" id="number3">3</span><br> step</p>
                         </center>
                     </div>
                     <div>
                         <center>
                             <img class="img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/deliver_package.svg">
-                            <h2 class="header3 p-color-cement-dark">Deliver Package</h2>
+                            <h2 class="header3 p-color-cement-dark">Dispatch in 24 Hours</h2>
                             <p class="header5 p-color-cement">
-                                Purchase any product from your favourite indian
-                                online store and use your locker address for item
-                                delivery
+                                We’ll complete the documentation & dispatch your package(s) to one of our courier partners as soon as possible.
                             </p>
                         </center>
 
                     </div>
                 </div>
-            </div>
-            <div class="col-md-12">
-                <br>
                 <center>
-                    {{--<a href="{{route('schedulePickup.Index')}}" class="btn btn-request">Request Pickup</a>--}}
-                    <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Request Pickup</a>
+                    <a  href="{{route('schedulePickup.Index')}}" class="btn btn-request">Request Pickup</a>
                 </center>
-                <br>
             </div>
 
-            <br>
         </div>
     </section>
 

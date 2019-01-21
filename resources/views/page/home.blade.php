@@ -864,6 +864,33 @@
 
         </div>
         <br>
+        <div class="container">
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <ul class="nav-ul">
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('medicine')}}">Medicine International Courier</a></li>
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="https://www.shoppre.com/university-offer" target="_blank">Documents International Courier</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <ul class="nav-ul">
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('packers-movers')}}">Relocation, Packers & Movers</a></li>
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="https://www.shoppre.com/services/parcel-forwarding-service-india/" target="_blank">Package Forwarding from India</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <ul class="nav-ul">
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('indianVirtual')}}">Virtual Shipping Address</a></li>
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('consolidationService')}}">Consolidation & Repacking</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <ul class="nav-ul">
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('voucher')}}">International Shipping Card</a></li>
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('first-shipment')}}">First Shipment Cashback</a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
         <br>
     </section>
     <section>

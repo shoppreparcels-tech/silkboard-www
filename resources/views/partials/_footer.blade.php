@@ -63,6 +63,12 @@
             <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 div-footer-margin">
                 <ul class="nav-ul">
                     <li>
+                        <i class="footer-social-media-font1 glyphicon glyphicon-earphone">&nbsp;Mobile Number:</i> <br>
+                        <a class="footer-a footer-social-media" href="tel:+918277919191">
+                            <span class="span-color footer-social-media footer-social-media-font">+918277919191</span>
+                        </a>
+                    </li>
+                    <li>
                         <i class="footer-social-media-font1 glyphicon glyphicon-earphone">&nbsp;CALL US</i> <br>
                         <a class="footer-a footer-social-media" href="tel:+91-80 4094 4077">
                             <span class="span-color footer-social-media footer-social-media-font">+918040944077</span>
@@ -94,6 +100,10 @@
                             <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-instagram.svg"
                                  alt="shoppre_officia instagram">
                         </a>
+                    </li>
+                    <li>
+                        <br>
+                        <p class="footer-a">Ship with <span class="glyphicon glyphicon-heart f-c-red"></span> from India</p>
                     </li>
                 </ul>
             </div>

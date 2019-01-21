@@ -1,9 +1,9 @@
 @extends('layout')
 
 
-@section('title', 'Courier Any Document Abroad | Student Special Offer - ShoppRe.com')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'Student Special Offer | Courier Any Document Abroad & Save Upto 50%')
+@section('description', 'ShoppRe offers you upto 50% discount on your documents sending to Universities/WES abroad. Shipping to 220+ countries & our shipping rates start from just ₹553')
+@section('keywords', 'courier documents, dhl student offer, fedex student discount india, courier charges')
 
 @section('css_style')
     <style>
@@ -91,9 +91,9 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Have Some Documents to Send Abroad?</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
-                    <a href="tel:+91-80 4094 4077" class="c-image">
+                    <a href="tel:+91-8277919191" class="c-image">
 
-                        <img src="{{asset('/img/images/christmas-contact.png')}}" alt="">
+                        <img src="{{asset('/img/images/christmas-contact.png')}}" alt="contact shoppre">
                     </a>
                 </div>
             </div>

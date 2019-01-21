@@ -1,9 +1,8 @@
 @extends('layout')
 
-
-@section('title', 'First Time International Shipment Cashback | Discount - ShoppRe.com')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'First International Shipment Cashback | Discount - ShoppRe.com')
+@section('description', 'Get 50% Cashback on your First-time international shipment from India. Additionally get 80% lesser shipping cost with our package consolidation services.')
+@section('keywords', 'free shipment process, cashback, shipment, consolidation, repackaging')
 
 @section('css_style')
     <style>
@@ -30,7 +29,7 @@
       .fst-service .btn-chris-place-order{padding: 13px 50px;color:#fff; width: 300px;height: 50px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 30px;background-color: #e85151;}
       .chris-benefits{padding-top: 30px}
       .chris-benefits ul{text-decoration: none;list-style: none;}
-      .chris-benefits ul li{color: #224464;font-family: Bahnschrift;font-size: 18px;font-weight: 400;text-align: left;padding-top: 15px;}
+      .chris-benefits ul li{color: #224464;font-family: Montserrat, sans-serif;font-size: 15px;font-weight: 400;text-align: left;padding-top: 15px;}
       .chris-benefits ul li img{margin-top: 9px;}
       .text-center div{ padding-top: 20px}
       .img-new-year{display: none}
@@ -69,7 +68,7 @@
                </center>
                <center>
                    <h18 class="f-s-50 f-c-white  f-w-9">50% Cashback</h18>
-                   <p class="f-s-36 f-c-white f-w-9 ">on your First time shipment </p>
+                   <p class="f-s-36 f-c-white f-w-9 ">on your first shipment </p>
                    <img src="{{asset('img/images/f-s-t-coupon.png')}}" alt="" > <br><br>
                    <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE</a>
                    <br>
@@ -136,11 +135,13 @@
             </div>
 
             <div class=" col-md-12 no-pad"><br>
-                <h4 class="f-s-18 f-c-l-gray f-w-9">Offer Description:</h4>
+                <h4 class="f-s-18 f-c-l-gray f-w-9">Haven't made a shipment with us yet? What're you waiting for?!</h4>
                 <br>
-                <p class="header4 p-color-cement">2018 is on its last stretch and everyone's busy running around with their last-year resolutions! Let us get ready for another year with an open heart and clean baggage. We're here to help you be a new 'You' for the New Year's.</p>
-                <br>
-                <p class="header4 p-color-cement">Here's how; you get an <a href="{{route('pricing')}}">80% lesser shipping cost</a> with our top-of-the-line package consolidation services on top of which, you can avail a sweet 19% OFF - a little something from us to start off your New Year with.</p> <br>
+                <p class="header4 p-color-cement">Pick & choose your favorites from 1000+ Indian online stores and get us to ship your purchases overseas,
+                    or come to us for an international courier; if it's your first shipment with us - you can avail a <strong> 50% Cashback UP TO Rs. 250/- </strong> on
+                    top of the savings you make because our consolidation services.
+                </p>
+                <h6 class="f-s-16 f-c-gray f-w-8">Don't put it on hold - ship with us already! </h6><br>
 
                 <div class="offerDesc">
                     <h4 style="text-decoration: underline">Terms and Conditions:</h4>

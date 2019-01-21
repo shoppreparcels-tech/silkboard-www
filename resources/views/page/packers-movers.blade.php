@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'International Relocation | Packers & Movers from India')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'International Relocation Services, Packers & Movers from India | ShoppRe')
+@section('description', 'Get a Free Quote. We do ship all the Residential and Corporate items specialising in packing and moving services. Save Upto 80% on International Moving Costs.')
+@section('keywords', 'international relocation, packers, movers from india, shipping, virtual address, household packing, door pickup services, free shipment process, consolidation, repackaging')
 
 @section('css_style')
     <style>
