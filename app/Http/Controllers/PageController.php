@@ -6,6 +6,7 @@ use App\CampaignStatistics;
 use App\City;
 use App\Mail\EmailChat;
 use App\Mail\EmailSubscriber;
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -74,6 +75,14 @@ class PageController extends Controller
     public function voucher()
     {
         return view('page.voucher');
+    }
+    public function ajioIndex()
+    {
+        return view('page.ajio-landing');
+    }
+    public function jayporeIndex()
+    {
+        return view('page.jaypore-landing');
     }
 
     public function flipkartIndex()
@@ -1132,5 +1141,15 @@ class PageController extends Controller
     public function shopper()
     {
         return view('page.personal-shopper');
+    }
+
+    public function parcelForwarding()
+    {
+        return view('page.forwarding-landing');
+    }
+
+    public function jabongIndex()
+    {
+        return view('page.jabong-landing');
     }
 }

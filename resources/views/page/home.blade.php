@@ -295,7 +295,7 @@
                         <center>
                             <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn-l btn-b-r btn-s-r btn-a-l">Sign Up FREE</a>
                         </center>
-                        <span class="pull-right f-c-gray f-s-12"><a href="https://www.shoppre.com/offers/50-percent-offer-on-your-first-international-shipment/">*T&C Apply</a></span>
+                        <span class="pull-right f-c-gray f-s-12"><a href="{{route('first-shipment')}}">*T&C Apply</a></span>
 
                     </div>
 

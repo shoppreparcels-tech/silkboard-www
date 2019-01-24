@@ -33,8 +33,7 @@ Route::get('/social/callback/facebook', 'Customer\SocialAuthController@callbackF
 Route::get('/schedule-pickup', 'SchedulePickupController@index')->name('schedulePickup.Index');
 Route::post('/schedule-pickup', 'SchedulePickupController@submit')->name('schedulePickup.Submit');
 Route::get('/schedule-pickup/confirm', 'SchedulePickupController@confirm')->name('schedulePickup.confirmPickup');
-Route::post('/schedule-pickup/asana-tracking', 'SchedulePickupController@asanaTracking')
-    ->name('schedulePickup.asana.tracking');<<<<<<< staging
+Route::post('/schedule-pickup/asana-tracking', 'SchedulePickupController@asanaTracking')->name('schedulePickup.asana.tracking');
 Route::post('/schedule-pickup/ajexRequest', 'PageController@pickupByAjex')->name('schedulePickup.byAjex');
 Route::get('/countries', 'PageController@countryList')->name('countryList');
 Route::get('/feedback', 'FeedbackController@index')->name('feedback.Index');
@@ -65,6 +64,15 @@ Route::get('/flipkart-shopping-with-shoppre-from-india', 'PageController@flipkar
 Route::get('/myntra-online-shopping-shipping-from-india', 'PageController@myntraIndex')->name('myntra.landing');
 Route::get('/amazon-india-shop-international-shipping', 'PageController@amazonIndex')->name('amazon.landing');
 Route::get('/send-international-courier-from-india', 'PageController@icsLandingPage')->name('ics.landing');
+Route::get('/international-parcel-forwarding-india-online-shopping', 'PageController@parcelForwarding')
+    ->name('forwarding.landing');
+Route::get('/shop-online-fashion-jabong-india-ship-internationally', 'PageController@jabongIndex')
+    ->name('jabong.landing');
+
+Route::get('/ajio-online-shopping-international-shipping', 'PageController@ajioIndex')
+    ->name('ajio');
+Route::get('/jaypore-international-shipping-from-india', 'PageController@jayporeIndex')
+    ->name('jaypore');
 
 Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
 Route::get('/best-international-relocation-packers-movers', 'PageController@packers')->name('packers-movers');

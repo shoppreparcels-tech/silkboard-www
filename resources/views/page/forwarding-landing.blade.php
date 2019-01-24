@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'International Medicine Courier | Ayurveda Herbs Shipping | ShoppRe India')
-@section('description', 'Send Medicines & Ayurvedic Herbs from India. Offering Door to door Pickup & Packing. Hassle Free Shipping Worldwide, 3-6 days delivery. Cheapest & Reliable‎.')
-@section('keywords', 'medicine courier, fast shipping services, herbs, homeopathy, pills, capsules, ayurvedic courier to usa')
+@section('title', 'Parcel Forwarding from India | Starting from ₹600/-')
+@section('description', 'Want to courier abroad from India? We ship to 2220 countries. Send homemade food, sweets, utensils, cloths, books. Special Discounts rates for bulk shipments.')
+@section('keywords', 'international courier, cargo services, shipping, delivery, schedule a pickup')
 
 @section('css_style')
     <style>
@@ -35,20 +35,20 @@
             <div class="col-sm-7 col-xs-12 no-pad">
 
                 <div class="col-md-12 col-xs-12 no-pad">
-                    <h1 class="p-color-white header-spacing d-header-text">Courier Medicines from India to ANY part of the World
-                        </h1>
+                    <h1 class="p-color-white header-spacing d-header-text">International Parcel Forwarding: Shipping Packages from India
+                        <br></h1>
                     <h1 class="header1 p-color-white header-spacing">Starting @₹695/-</h1>
 
                     <p class="p-color-white header5 d-header-text1">Want
-                        to courier medicine abroad from India?<br>
-                        We ship to 220+ countries & our trusted courier partners FedEx,<br> DTDC & more help us sail smooth
-                        all the way to your<br> destination, wherever it is</p>
+                        to ship your packages abroad from India?<br>
+                        We ship to 265 countries & our trusted courier partners DHL,<br> DTDC & more help us sail smooth
+                        all the way to your<br> destination, 3-6 days delivery.</p>
                     <br>
                     <br>
                 </div>
                 <div class="col-md-12 col-xs-12 no-pad">
-                    <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Schedule Pickup</a>
-                    <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Estimate</a>
+                    <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Buy For Me</a>
+                    <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Shop Now</a>
                 </div>
 
             </div>
@@ -108,7 +108,7 @@
 
             <center>
                 <h1 class="f-c-d-greay f-s-30 f-w-8" >
-                    Send Medicines & Ayurvedic Herbs from India To the USA, UAE, UK, Europe, Australia, New Zealand, Canada, Middle East & 220+
+                    We ship all over the world -To the USA, UAE, UK, Europe, Australia, New Zealand, Canada, Middle East & 200 other
                     countries.
                 </h1>
             </center>
@@ -119,31 +119,31 @@
             <div class="col-md-6 col-sm-12 col-xs-12 " style="padding-top: 50px">
                 <div class="row no-padding">
                     <center>
-                        <h2 class="f-c-d-greay f-s-22 f-w-8 ">Can we send medicine via courier from India?</h2>
-                        <p class="f-c-l-gray f-s-18 f-w-8">Yes, we do ship medicines and ayurveda products offering special courier services
-                            to NRIs & International Indian Medicine users. All you need is a Doctor's prescription and the commercial bill.
-                            These are some of the goods that we frequently ship for our customers </p>
+                        <h2 class="f-c-d-greay f-s-30 f-w-8 ">What You Can Get Us to Courier?</h2>
+                        <p class="f-c-l-gray f-s-18 f-w-8">From Kids’ toys to commercial equipment, we are well-prepared to ship anything under the sun,
+                            that follow the international & country-specific shipping regulations. These are some of the goods that we frequently ship for our customers </p>
                     </center>
                 </div>
                 <br>
                 <div class=" col-md-12 col-xs-12 div-ics-prodcts">
                     <div class="col-md-6 col-xs-6 no-padding">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Pills</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Herbs</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Liquid/Syrups</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Ointments</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Inhalers</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Homeopathy</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Medicine</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Documents</li>
+                            {{--<li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg')}}" alt=""> Personal goods</li>--}}
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Sports Equipment</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Homemade foods</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Artwork</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Artificial Jewellery</li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-xs-6 no-padding">
                         <ul style="text-decoration: none; list-style: none">
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Capsules</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Injections</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Tablets</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Eye/Ear Drops</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Lozenges</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Corporate Gifts</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Children's Toys</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Handicraft </li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Mobile/Cell Phones</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Religious Items</li>
                             <li>& Many More Products</li>
                         </ul>
                     </div>
@@ -151,42 +151,17 @@
 
             </div>
         </div>
-
         <div class="container div-ics-border-btm">
-            <div class="col-md-12 col-xs-12 no-pad">
+            <div class="col-md-12">
                 <center>
-                    <h1 class="f-s-30 f-c-d-greay">Features & Benefits of Our Services</h1>
-                    <p class="f-s-20 f-c-gray">Get a FREE estimate for your International Medicine Courier, and schedule a pickup with us. We’ll come to your doorsteps to pick it up within 48 hours.
-                        Reach your destination in 3-6 days, wherever in the world!</p>
-                    </br>
+                    <h1 class="f-s-36 f-c-d-greay">Features</h1>
+                    <p class="f-s-24 f-c-gray">Get a FREE estimate for your courier, and schedule a pickup with us. We’ll come to your doorsteps to pick it up within 48 hours, and will dispatch it within the next 24 hours.Our courier partners are known to reach your destination in 3-6 days, wherever in the world it is!’</p>
                 </center>
-                <div class=" col-md-12 col-xs-12 div-ics-prodcts">
-                    <div class="col-md-6 col-xs-12 no-padding">
-                        <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Door to Door Pickup Services</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Customs Clearance And Paperwork</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Hassle Free Shipment Process</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Low Cost for higher Kgs</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Package Return Services</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Multiple Payment Options Available</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-xs-12 no-padding">
-                        <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Consolidation & Repackaging</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">FREE Virtual Indian Address</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">20-day FREE, safe storage</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Doorstep delivery in 3–6 business days</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Wallet Cashback</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Real time online tracking</li>
-                        </ul>
-                    </div>
-                </div>
             </div>
             <br>
 
             <div class="row text-center">
-                <div class="col-sm-3 col-xs-12">
+                <div class="col-sm-3">
                     <div class="panel "><br>
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
                         <h1 class="header5 p-color-cement">Door-to-Door Delivery</h1>
@@ -194,7 +169,7 @@
 
                     </div>
                 </div>
-                <div class="col-sm-3 col-xs-12">
+                <div class="col-sm-3">
                     <div class="panel ">
                         <br>
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" alt="">
@@ -203,8 +178,7 @@
                         <br>
                     </div>
                 </div>
-
-                <div class="col-sm-3 col-xs-12">
+                <div class="col-sm-3">
                     <div class="panel">
                         <br/>
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/support24.svg" alt="">
@@ -213,8 +187,7 @@
                         <br>
                     </div>
                 </div>
-
-                <div class="col-sm-3 col-xs-12">
+                <div class="col-sm-3">
                     <div class="panel">
                         <br/>
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ics-time.svg" alt="">
@@ -229,9 +202,9 @@
 
         <div class="container">
             <center>
-                <h1 class="header1  p-color-cement-dark">ShoppRe Courier Process</h1>
-                <p class="header3 p-color-cement">Schedule a Pickup from any part of India. We’ll come to your doorsteps,
-                    get your package & ship it off to the destination in 24 hours.</p>
+                <h1 class="header1  p-color-cement-dark">Our Process</h1>
+                <p class="header2 p-color-cement">We will recived your order at our branch and can provide storage,<br>
+                    Repackaging and consoldation services to send at abroad address.</p>
             </center>
         </div>
 
@@ -240,13 +213,14 @@
                 <div class="col-md-4 col-lg-4 col-sm-6 col-sm-6 box" id="ics-box1">
                     <div class="box-steps" id="steps">
                         <center>
-                            <p class="header8 p-color-cement"><span id="number1">1</span><br> step</p>
+                            <p class="header8 p-color-cement" style="line-height: 1;"><span
+                                    style="font-size: 22px;font-weight: 900;" id="number1">1</span><br> step</p>
                         </center>
                     </div>
                     <div>
                         <center>
                             <img class="img-responsive img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pic_up.svg">
-                            <h2 class="header3 p-color-cement-dark">Pickup Package</h2>
+                            <h2 class="header3 p-color-cement-dark">Schedule a Pickup</h2>
                             <p class="header5 p-color-cement">
                                 After getting your FREE estimate, fill in the order form accordingly and submit it to schedule your pickup.
                             </p>
@@ -257,7 +231,8 @@
                 <div class="col-md-4 col-lg-4 col-sm-6 col-sm-6 box" id="ics-box2">
                     <div class="box-steps" id="steps">
                         <center>
-                            <p class="header8 p-color-cement"><span id="number2">2</span><br> step</p>
+                            <p class="header8 p-color-cement"  style="line-height: 1;"><span
+                                    style="font-size: 22px;font-weight: 900;" id="number2">2</span><br> step</p>
                         </center>
                     </div>
                     <div>
@@ -274,7 +249,8 @@
                 <div class="col-md-4 col-lg-4 col-sm-6 col-sm-6 box" id="ics-box3">
                     <div class="box-steps" id="steps">
                         <center>
-                            <p class="header8 p-color-cement"><span id="number3">3</span><br> step</p>
+                            <p class="header8 p-color-cement" style="line-height: 1;"><span
+                                    style="font-size: 22px;font-weight: 900;" id="number3">3</span><br> step</p>
                         </center>
                     </div>
                     <div>
@@ -288,25 +264,11 @@
 
                     </div>
                 </div>
-            </div>
-            <div class="col-md-12">
-                <br>
                 <center>
-                    <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Request Pickup</a>
+                    <a  href="{{route('schedulePickup.Index')}}" class="btn btn-request">Request Pickup</a>
                 </center>
-                <br>
-                <br>
             </div>
-            <p class="header1 p-color-cement-dark">
-                Shipping from India Now Made Easy by ShoppRe.com
-            </p>
-            <p class="header4 p-color-cement">
-                Save up to 60–80% of the total cost compare to any other shipping services. Now worry less, because we have partnered with high value courier companies such as DHL, DTDC
-                and more to choose shipping that arrives quickly or the cost effective one. We not only help you
-                in buying goods online but also send business consignment, personal packages, documents or gifts to your dear ones tracking door-to-door shipment process.
-            </p>
 
-            <br>
         </div>
     </section>
 

@@ -1,12 +1,11 @@
 @extends('layout')
 
 
-@section('title', 'shop & ship')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'Shop From India | International Shipping to USA, UAE, AUS')
+@section('description', 'Shop from 1000 Indian online stores with your ShoppRe Address‎. International shipping to USA, UAE, AUS at 80% lower rates on shipping cost. Sign up Free.')
+@section('keywords', 'shop from india, ship to usa, indian online stores, shipping address, uae courier')
 @section('css_style')
-    <meta name="robots" content="noindex">
-    <link rel="canonical" href="https://www.shoppre.com/shop-from-india-ship-worldwide"/>
+    <link rel="canonical" href="https://www.shoppre.com/shop-ship"/>
     <style>
         .bg-diwali-lp{background-image: url(../../img/images/overlay1.png);height: 900px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
         .select-control {float: left;width: 90px !important;height: 40px !important;font-size: 13px;font-weight: 400;    font-style: italic;border-left: 0;border-radius: 3px;background-color: #fafafb;border: none;}
@@ -155,9 +154,9 @@
                 </center>
             </div>
             <div class=" col-md-12 offer-description">
-                <h5 class="f-s-20 font-weight-900 f-c-d-greay ">OFFER DESCRIPTION:</h5> <br>
-                <h4 class="header4 p-color-cement"> Our Grand New Year Offer Is Here! Hurry Up &
-                    Take Advantage!</h4>
+                <h5 class="f-s-20 font-weight-900 f-c-d-greay ">Shop from India  & Hassle Free Shipping to USA, UAE, AUS, UK at 80% lower rates on shipping cost!</h5> <br>
+                <h4 class="header4 p-color-cement"> Buy Products/Brands you Love from any online store in India;
+                    Store, Consolidate, Repack & Ship Worldwide in 3-6 days delivery. Package Forwarding from India Made Easy by ShoppRe.com</h4>
                 <br>
                 <p class="header4 p-color-cement">While Indians around the world, not just in
                     the country; are gearing up to celebrate the holy

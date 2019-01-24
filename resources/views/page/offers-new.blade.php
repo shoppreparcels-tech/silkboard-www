@@ -111,10 +111,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">The Republic Day Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">20th - 22nd JAN </h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Discount Upto 75%<br> on TV & Appliances</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">23rdth - 26th JAN </h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/republicdaysale-store?src=shoppre"
+                                <a href="https://www.flipkart.com/tvs-and-appliances-republic-day-sale-offer-store?src=shoppre"
                                    target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
@@ -125,11 +125,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Upto 60% Off</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Get 10% Cashback via PayTm</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">the republic of style sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">24th - 27th JAN</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.limeroad.com/shopping-offers/">
+                                <a href="https://www.limeroad.com/shopping-offers/?src=shoppre">
                                     <img src="{{asset('uploads/stores/logo_59a5173241735.png')}}"/>
                                 </a>
                             </div>
@@ -208,10 +208,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Republic of Fashion</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">19th - 22nd Jan | 50-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Republic of Fashion Sales Extended</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.jabong.com/sis/republic-fashion-sale-prebuzz">
+                                <a href="https://www.jabong.com">
                                     <img src="https://www.shoppre.com/uploads/stores/logo_599691d00e27e.png"/>
                                 </a>
                             </div>
