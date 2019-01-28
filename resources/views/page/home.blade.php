@@ -269,9 +269,9 @@
                 </a>
             </div>
         </div>
-        <div class="container">
-            <marquee class="f-s-16 f-c-red f-w-9">Dear Customers, Kindly note that - On account of the Republic Day Holiday, we have suspended our services on the 26th January, 2019. Happy Republic Day!</marquee>
-        </div>
+        {{--<div class="container">--}}
+            {{--<marquee class="f-s-16 f-c-red f-w-9">Dear Customers, Kindly note that - On account of the Republic Day Holiday, we have suspended our services on the 26th January, 2019. Happy Republic Day!</marquee>--}}
+        {{--</div>--}}
 
         <div class="container">
             <div class="col-md-7 col-xs-12 col-sm-7 no-padding">
