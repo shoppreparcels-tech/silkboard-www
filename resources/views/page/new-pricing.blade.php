@@ -56,7 +56,7 @@
                                     <option value="">Select Country</option>
                                     @foreach($countries as $country)
                                         <option
-                                            value="{{$country->id}}" {{$country->id == 226 ? 'selected' : ""}}>{{$country->name}}</option>
+                                            value="{{$country->iso}}" {{$country->id == 226 ? 'selected' : ""}}>{{$country->name}}</option>
                                     @endforeach
                                 </select>
                             </div>
@@ -70,15 +70,15 @@
                                 <br>
                                 <div class="btn-group" data-toggle="buttons">
                                     <label class="btn btn-primary active btn-h-40">
-                                        <input type="radio" name="options" id="option2" autocomplete="off" chacked>
+                                        <input type="radio" name="package_type" id="option2" value="doc" checked="checked">
                                         <img src="{{asset('img/images/file.svg')}}" alt=""> Document
-                                        {{--<span class="glyphicon glyphicon-ok"></span>--}}
+                                        <span class="glyphicon glyphicon-ok"></span>
                                     </label>
 
                                     <label class="btn btn-primary btn-h-40">
-                                        <input type="radio" name="options" id="option1" autocomplete="off">
+                                        <input type="radio" name="package_type" id="option1" value="nondoc">
                                         <img src="{{asset('img/images/box.png')}}" alt=""> Non-Document
-                                        {{--<span class="glyphicon glyphicon-ok"></span>--}}
+                                        <span class="glyphicon glyphicon-ok"></span>
                                     </label>
                                 </div>
                             </div>
@@ -89,14 +89,13 @@
                                     <div class="col-md-4 col-sm-4 col-xs-4 no-pad">
                                         <div class="btn-group" data-toggle="buttons">
                                             <label class="btn btn-primary active btn-h-40">
-                                                <input type="radio" name="options" id="option2" autocomplete="off"
-                                                       chacked>KG
-                                                {{--<span class="glyphicon glyphicon-ok"></span>--}}
+                                                <input type="radio" name="weight_unit" id="option2" value="kg" checked="checked"> KG
+                                                <span class="glyphicon glyphicon-ok"></span>
                                             </label>
 
-                                            <label class="btn btn-primary btn-h-40 ">
-                                                <input type="radio" name="options" id="option1" autocomplete="off">LB
-                                                {{--<span class="glyphicon glyphicon-ok"></span>--}}
+                                            <label class="btn btn-primary btn-h-40">
+                                                <input type="radio" name="weight_unit" id="option1" value="lb"> LB
+                                                <span class="glyphicon glyphicon-ok"></span>
                                             </label>
                                         </div>
                                     </div>
@@ -126,14 +125,14 @@
                                 <div class="col-md-4 col-xs-4 no-pad">
                                     <div class="btn-group" data-toggle="buttons">
                                         <p class="f-s-14 f-c-l-gray f-w-5 pull-left">Unit</p> <br>
-                                        <label class="btn btn-primary active btn-h-40 ">
-                                            <input type="radio" name="options" id="option2" autocomplete="off" chacked>cm
-                                            {{--<span class="glyphicon glyphicon-ok"></span>--}}
+                                        <label class="btn btn-primary active btn-h-40">
+                                            <input type="radio" name="measurement_unit" id="option2" value="cm" checked="checked"> cm
+                                            <span class="glyphicon glyphicon-ok"></span>
                                         </label>
 
                                         <label class="btn btn-primary btn-h-40">
-                                            <input type="radio" name="options" id="option1" autocomplete="off">in
-                                            {{--<span class="glyphicon glyphicon-ok"></span>--}}
+                                            <input type="radio" name="measurement_unit" id="option1" value="in"> in
+                                            <span class="glyphicon glyphicon-ok"></span>
                                         </label>
                                     </div>
                                 </div>
@@ -197,8 +196,8 @@
                         </div>
                     </form>
                     <br>
-                    <div class="col-md-12 col-xs-12 no-pad">
-                        <div class="col-md-6 col-xs-12 no-pad ">
+                    <div class="col-md-12 col-xs-12 no-pad" style="display: none;" id="pricing-panel">
+                        <div class="col-md-6 col-xs-12 no-pad">
                             <br>
                             <div class="col-xs-12 col-md-12 div-b-price pad-10">
                                 <div class="col-xs-12 col-md-12 no-pad">
@@ -213,13 +212,13 @@
                                 </div>
                                 <div class="col-xs-12 col-md-12 no-pad">
                                     <div class="col-md-6 col-xs-6 pull-left no-pad">
-                                        <h2 class="f-s-30 f-c-blue">₹699.00</h2>
+                                        <h2 class="f-s-30 f-c-blue">₹<span id="customer-price-tag"></span></h2>
                                     </div>
                                     <div class="col-md-3 col-xs-3 pull-left pad-t-20">
-                                        <h4 class="f-s-14 f-c-l-gray"><strike>₹870</strike></h4>
+                                        <h4 class="f-s-14 f-c-l-gray"><strike>₹<span id="customer_total_price"></span></strike></h4>
                                     </div>
                                     <div class="col-md-3 col-xs-3 pull-left pad-t-20">
-                                        <h4 class="f-s-14 f-c-red">7% OFF </h4>
+                                        <h4 class="f-s-14 f-c-red">50% OFF </h4>
                                     </div>
 
                                 </div>
@@ -243,13 +242,13 @@
                                 </div>
                                 <div class="col-xs-12 col-md-12 no-pad">
                                     <div class="col-md-6 col-xs-6 pull-left no-pad">
-                                        <h2 class="f-s-30 f-c-blue">₹699.00</h2>
+                                        <h2 class="f-s-30 f-c-blue">₹<span id="member-price-tag"></span></h2>
                                     </div>
                                     <div class="col-md-3 col-xs-3 pull-left pad-t-20">
-                                        <h4 class="f-s-14 f-c-l-gray"><strike>₹870</strike></h4>
+                                        <h4 class="f-s-14 f-c-l-gray"><strike>₹<span id="member_total_price"></span></strike></h4>
                                     </div>
                                     <div class="col-md-3 col-xs-3 pull-left pad-t-20">
-                                        <h4 class="f-s-14 f-c-red">7% OFF </h4>
+                                        <h4 class="f-s-14 f-c-red">50% OFF </h4>
                                     </div>
 
                                 </div>
@@ -1098,47 +1097,26 @@
                 submitHandler: function (form) {
                     var country = $("select[name='country']").val();
                     var weight = $("input[name='weight']").val();
-                    var unit = $("input[name='unit']:checked").val();
-                    var type = $("input[name='type']:checked").val();
-                    var box_scale = $("input[name='scale']:checked").val();
+                    var weight_unit = $("input[name='weight_unit']:checked").val();
+                    var measurement_unit = $("input[name='measurement_unit']:checked").val();
+                    var package_type = $("input[name='package_type']:checked").val();
                     var length = $("input[name='length']").val();
                     var width = $("input[name='width']").val();
                     var height = $("input[name='height']").val();
-                    var token = $('input[name=_token]').val();
-                    var url = 'https://www.shoppre.com/customer-pricing/?weight=' + weight + '&type=' + type + '&dest=' + country;
-                    $("#calc_load").show();
-                    $('#calc_error').hide();
-                    $('#ship_result').hide();
+                    console.log('country '+country+'\n weight '+ weight+'\n weight_unit '+ weight_unit+ '\n type '+package_type+' \n measurement_unit '+measurement_unit+'\n length '+length+'\n width '+width+'\n height '+height);
                     jQuery.ajax({
-                        url: '/calculate-shipping',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            country: country,
-                            weight: weight,
-                            unit: unit,
-                            type: type,
-                            length: length,
-                            width: width,
-                            height: height,
-                            scale: box_scale
-                        },
-                        success: function (data) {
-                            $("#calc_load").hide();
-                            console.log(data);
-                            if (data.error == "1") {
-                                $('#calc_error').css('display', 'block');
-                            }
-                            else {
-                                $('#ship_oldcost').text(data.amount);
-                                var disamount = (data.discount / 100) * data.amount;
-                                var finalcost = Math.round(data.amount - disamount).toFixed(2);
-                                $('#ship_cost').text(finalcost);
-                                $('#ship_time').text(data.time);
-                                $('#pricing_url').text(url);
-                                $('#ship_disc').text(data.discount);
-                                $('#ship_result').slideDown();
-                            }
+                        url: 'https://ship-api.shoppre.com/api/pricing?all=true&country='+country+'&type='+package_type+'&weight='+weight,
+                        type: 'get',
+                        success: function ({prices}) {
+                            console.log(prices[0].customerRate);
+                            let customer_price = prices[0].customerRate;
+                            let member_price = (customer_price*95)/100;
+                            console.log(member_price);
+                            $('#customer-price-tag').text(Math.round(customer_price));
+                            $('#member-price-tag').text(Math.round(member_price));
+                            $('#customer_total_price').text(Math.round(customer_price * 2));
+                            $('#member_total_price').text(Math.round(member_price * 2));
+                            $('#pricing-panel').slideDown();
                         }
                     });
                     return false;
