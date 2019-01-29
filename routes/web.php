@@ -10,6 +10,9 @@ Route::get('/faq/search', 'PageController@faqSearch')->name('faq.search');
 Route::get('/store/search', 'PageController@storeSearch')->name('store.search');
 Route::get('/contact', 'PageController@contact')->name('contact');
 Route::post('/contact/submit', 'PageController@submitContact')->name('contact.submit');
+Route::post('/user/subscribe', 'PageController@subscribeUser')->name('subscribe-user');
+Route::post('/otp/verfiy', 'PageController@verifyOtp')->name('verify-otp');
+Route::post('/contact/submit', 'PageController@submitContact')->name('contact.submit');
 Route::get('/terms-and-conditions', 'PageController@termsAndConditions')->name('termsAndConditions');
 Route::get('/privacy-policy', 'PageController@privacyPolicy')->name('privacyPolicy');
 Route::get('/refund-and-cancellation-policy', 'PageController@refundAndCancellation')->name('refundAndCancellation');
@@ -47,7 +50,12 @@ Route::get('/{initial}-{cprefix}-{cpostfix}-from-{source}-to-{destination}', 'Pa
     ->name('urlTargetContent');
 Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('schedulePickup.mail');
 
+
+
+/*-------- ICS ------*/
+
 /*-------- landing pages------*/
+
 
 Route::get('/international-courier-shipping-services-india', 'PageController@icsIndex')->name('ics.index');
 Route::get('/2018-annual-awards-international-shipping-shopping', 'PageController@award')->name('award.index');

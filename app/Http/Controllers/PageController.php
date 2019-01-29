@@ -26,10 +26,49 @@ use App\Asana\AsanaTaskOperations;
 use App\Mailchimp\mailChimpTaskOperations;
 use App\Mail\ContactEnquiry;
 use App\Mail\GetQuote;
-
+use App\SubscribedUser;
 
 class PageController extends Controller
 {
+    public function verifyOtp(Request $request) {
+        $exist_user = SubscribedUser::where('mobile', '=', $request->mobile_number) ->first();
+        if ($exist_user->otp == $request->otp) {
+            return response()->json([
+                'message' => 'Success',
+                'description' => 'Otp Verified Successfully',
+            ]);
+        }
+        return response()->json([
+            'message' => 'Failed',
+            'description' => 'Wrong otp is entered',
+        ]);
+    }
+    public function subscribeUser(Request $request) {
+        $exist_user = SubscribedUser::where('mobile', '=', $request->mobile_number) ->first();
+        $otp = rand(1000,9999);
+        if (empty($exist_user))
+        {
+            $subscribed_user  = new SubscribedUser();
+            $subscribed_user->phone_code = $request->country_code;
+            $subscribed_user->mobile = $request->mobile_number;
+            $subscribed_user->otp = $otp;
+            $subscribed_user->save();
+            return response()->json([
+                'message' => 'Success',
+                'description' => 'user subscribed successfully '
+            ]);
+        }
+        else
+        {
+            $exist_user->otp = $otp;
+            $exist_user->save();
+            return response()->json([
+                'message' => 'Success',
+                'description' => 'User already exist'
+            ]);
+        }
+
+    }
 
     public function icsIndex()
     {

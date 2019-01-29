@@ -60,8 +60,16 @@ class SchedulePickupController extends Controller
         $schedule_package->special_items = $special_items;
 
         $name = $request->first_name.' '.$request->last_name;
-        $commnet = "Pickup request from ".$request->pc_city." to ".$request->dc_city;
-        $response = AsanaTaskOperations::createTask($name, $commnet, "S");
+        $details = "Phone Number - ".$request->phone_code.'-'.$request->mobile.',Email -'.$request->user_email;
+        $pc_details = ",Pickup Details - ".$request->pc_fname."  ".$request->pc_lname." , ".$request->pc_street.
+            " , ".$request->pc_city." , ".$request->pc_state." , ".$request->pc_pincode." , ".$request->pc_contact_no." , ".$request->pc_email;
+        $dc_details = ",Destination Details - ".$request->dc_fname."  ".$request->dc_lname." , ".$request->dc_street.
+            " , ".$request->dc_city." , ".$request->dc_state." , ".$request->dc_country." , ".$request->dc_pincode." , ".$request->dc_phone_code.
+            " - ".$request->dc_contact_no;
+        $package_details = ",No of Packages -  ".$request->no_of_packages." ,Weight - ".$request->package_weight." ,Size - ".$request->size_of_package;
+        $package_items_details = ",Package items - ".$request->package_items." ,Special Items - ".$schedule_package->special_items." ,Other Items - ".$request->other_items;
+        $all_details = $details.$pc_details.$dc_details.$package_details.$package_items_details;
+        $response = AsanaTaskOperations::createTask($name, $all_details, "S");
         $phpArray = json_decode($response,true);
         $schedule_package->asana_url = "https://app.asana.com/0/819867433809220/".$phpArray['data']['id'];
         $schedule_package->save();

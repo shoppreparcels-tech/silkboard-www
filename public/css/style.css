@@ -1421,6 +1421,21 @@ section.pricing {
     color: #636262
 }
 
+.txt-otp {
+    background-color: #fff !important;
+    border: 1px solid #aaa !important;
+    border-radius: 4px !important;
+    height: 34px !important;
+}
+
+.from-verify-otp {
+    display: none;
+}
+
+.otp-heading {
+    color: forestgreen;
+}
+
 .pricing .btn-shoppre {
     padding: 8px 35px
 }

@@ -8,24 +8,111 @@
     <meta property="og:title" content="How to Estimate Your International Shipping Cost?"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://www.shoppre.com/pricing"/>
-    <meta property="og:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}"/>
+    <meta property="og:image"
+          content="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}"/>
     <meta property="og:image:width" content="2160">
     <meta property="og:image:height" content="1216">
-    <meta property="og:image:alt" content="ShoppRe international shipping Price Calculator" />
-    <meta property="og:description" content="How much will it cost to ship your package from India to your country? Use ShoppRe Shipping Price Calculator to find out, and choose the best Membership Plans."/>
+    <meta property="og:image:alt" content="ShoppRe international shipping Price Calculator"/>
+    <meta property="og:description"
+          content="How much will it cost to ship your package from India to your country? Use ShoppRe Shipping Price Calculator to find out, and choose the best Membership Plans."/>
     <meta property="og:site_name" content="ShoppRe Online Shipping Site in India"/>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="Go_Shoppre" />
-    <meta name="twitter:title" content="Shop from India and Ship Worldwide with ShoppRe.com" />
-    <meta name="twitter:description" content="How much will it cost to ship your package from India to your country? Use ShoppRe Shipping Price Calculator to find out, and choose the best Membership Plans." />
-    <meta name="twitter:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}" />
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="Go_Shoppre"/>
+    <meta name="twitter:title" content="Shop from India and Ship Worldwide with ShoppRe.com"/>
+    <meta name="twitter:description"
+          content="How much will it cost to ship your package from India to your country? Use ShoppRe Shipping Price Calculator to find out, and choose the best Membership Plans."/>
+    <meta name="twitter:image"
+          content="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}"/>
     <meta name="twitter:image:alt" content="ShoppRe international shipping Price Calculator"/>
 
     <meta name="twitter:app:country" content="IN"/>
     <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
     <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
     <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
+
+    <style>
+        .box {
+            width: 20%;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 35px;
+            border: 2px solid #fff;
+            border-radius: 20px/50px;
+            background-clip: padding-box;
+            text-align: center;
+        }
+
+        .button {
+            font-size: 1em;
+            padding: 10px;
+            color: #fff;
+            border: 2px solid orange;
+            border-radius: 20px/50px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease-out;
+        }
+
+        .button:hover {
+            background: orange;
+        }
+
+        .overlay {
+            position: fixed;
+            z-index: 999;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0.6, 0.5, 0.6, 0.7);
+            transition: opacity 500ms;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .overlay:target {
+            visibility: hidden;
+            opacity: 0;
+            display: none
+        }
+
+        .popup {
+            margin: 70px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            width: 40%;
+            position: relative;
+            transition: all 5s ease-in-out;
+        }
+
+        .popup h2 {
+            margin-top: 0;
+            color: #333;
+            font-family: Tahoma, Arial, sans-serif;
+        }
+
+        .popup .close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            transition: all 200ms;
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .popup .close:hover {
+            color: orange;
+        }
+
+        .popup .content {
+            max-height: 30%;
+            overflow: auto;
+        }
+    </style>
 
     <script type='application/ld+json'>
 {
@@ -49,37 +136,160 @@
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
   ]
 }
-</script>
-<style>
-        .padding-bottom{padding-bottom: 10px;padding-left: 0;padding-right: 0;}
-        #customers {font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;border-collapse: collapse;width: 100%;}
-        .tr-hide {display: none;}
-        .tr-hide1 {display: none;}
-        .tr-hide2 {display: none;}
-        #customers td, #customers th {border: 1px solid #ddd;padding: 8px;text-align: center;}
-        #customers tr:nth-child(odd) {background-color: #fafafb;}
-        #customers tr:hover {background-color: #fff;}
-        #customers th {padding-top: 12px;padding-bottom: 12px;/*background-color: #4CAF50;*/color: #11273b;}
+
+
+
+    </script>
+    <style>
+        .padding-bottom {
+            padding-bottom: 10px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        #customers {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .tr-hide {
+            display: none;
+        }
+
+        .tr-hide1 {
+            display: none;
+        }
+
+        .tr-hide2 {
+            display: none;
+        }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        #customers tr:nth-child(odd) {
+            background-color: #fafafb;
+        }
+
+        #customers tr:hover {
+            background-color: #fff;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px; /*background-color: #4CAF50;*/
+            color: #11273b;
+        }
+
         {{--table--}}
-        div.shop-ship {z-index: 10;background-color: #11273b;color: #fff;padding: 0 !important;border-radius: 4px;-moz-border-radius: 4px;margin-top: 20px;filter: alpha(opacity=97);}
-        div.shop-ship-menu {padding-right: 0;padding-left: 0;padding-bottom: 0;}
-        div.shop-ship-menu div.list-group {margin-bottom: 0;}
-        div.shop-ship-menu div.list-group > a {margin-bottom: 0;}
-        div.shop-ship-menu div.list-group > a .glyphicon, div.shop-ship-menu div.list-group > a .fa {color: #5A55A3;}
-        div.shop-ship-menu div.list-group > a:first-child {border-top-right-radius: 0;-moz-border-top-right-radius: 0;}
-        div.shop-ship-menu div.list-group > a:last-child {border-bottom-right-radius: 0;-moz-border-bottom-right-radius: 0;}
+        div.shop-ship {
+            z-index: 10;
+            background-color: #11273b;
+            color: #fff;
+            padding: 0 !important;
+            border-radius: 4px;
+            -moz-border-radius: 4px;
+            margin-top: 20px;
+            filter: alpha(opacity=97);
+        }
+
+        div.shop-ship-menu {
+            padding-right: 0;
+            padding-left: 0;
+            padding-bottom: 0;
+        }
+
+        div.shop-ship-menu div.list-group {
+            margin-bottom: 0;
+        }
+
+        div.shop-ship-menu div.list-group > a {
+            margin-bottom: 0;
+        }
+
+        div.shop-ship-menu div.list-group > a .glyphicon, div.shop-ship-menu div.list-group > a .fa {
+            color: #5A55A3;
+        }
+
+        div.shop-ship-menu div.list-group > a:first-child {
+            border-top-right-radius: 0;
+            -moz-border-top-right-radius: 0;
+        }
+
+        div.shop-ship-menu div.list-group > a:last-child {
+            border-bottom-right-radius: 0;
+            -moz-border-bottom-right-radius: 0;
+        }
+
         div.shop-ship-menu div.list-group > a.active,
         div.shop-ship-menu div.list-group > a.active .glyphicon,
-        div.shop-ship-menu div.list-group > a.active .fa {background-color: #11273b;/*background-image: #5A55A3;*/color: #ffffff;}
-        div.shop-ship-menu div.list-group > a:hover {color: #ffffff;}
-        div.shop-ship-menu div.list-group > a.active:after {content: '';position: absolute;/*left: 100%;top: 50%;*/top: 100%;right: 50%;/*margin-top: -13px;*/border-left: 0;border-bottom: 13px solid transparent;border-top: 13px solid #11273b;border-left: 10px solid transparent;border-right: 10px solid transparent;}
-        div.shop-ship-tab div.shop-ship-tab-content:not(.active) {display: none;}
-        .list-group-item1 {position: relative;display: block;padding: 15px 15px;margin-bottom: -1px;background-color: #11273b;border: 1px solid #ddd;border: none !important;color: #677582;}
-        .courier-membership-plans div {border: 1px solid rgba(146, 156, 165, 0.2);}
-        .div-backgroud-price-cal {background-color: #fafafb;padding-top: 5px;padding-bottom: 5px;padding-left: 0;padding-right: 0;}
-        .div-backgroud-price-cal1 {background-color: #ffffff;padding-top: 5px;padding-bottom: 5px;padding-left: 0;padding-right: 0;}
-        #courier-membership-plans {display: none;}
-        .how-to-calculate .modal-content {border-radius: 0px !important;}
+        div.shop-ship-menu div.list-group > a.active .fa {
+            background-color: #11273b; /*background-image: #5A55A3;*/
+            color: #ffffff;
+        }
+
+        div.shop-ship-menu div.list-group > a:hover {
+            color: #ffffff;
+        }
+
+        div.shop-ship-menu div.list-group > a.active:after {
+            content: '';
+            position: absolute; /*left: 100%;top: 50%;*/
+            top: 100%;
+            right: 50%; /*margin-top: -13px;*/
+            border-left: 0;
+            border-bottom: 13px solid transparent;
+            border-top: 13px solid #11273b;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+        }
+
+        div.shop-ship-tab div.shop-ship-tab-content:not(.active) {
+            display: none;
+        }
+
+        .list-group-item1 {
+            position: relative;
+            display: block;
+            padding: 15px 15px;
+            margin-bottom: -1px;
+            background-color: #11273b;
+            border: 1px solid #ddd;
+            border: none !important;
+            color: #677582;
+        }
+
+        .courier-membership-plans div {
+            border: 1px solid rgba(146, 156, 165, 0.2);
+        }
+
+        .div-backgroud-price-cal {
+            background-color: #fafafb;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .div-backgroud-price-cal1 {
+            background-color: #ffffff;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        #courier-membership-plans {
+            display: none;
+        }
+
+        .how-to-calculate .modal-content {
+            border-radius: 0px !important;
+        }
     </style>
 
 @endsection
@@ -109,6 +319,72 @@
     </section>
 
     <section style="margin-bottom: 30px">
+        <!-- This code is required -->
+
+
+        {{--<div id="popup1" class="overlay">--}}
+            {{--<div class="popup">--}}
+                {{--<!--- Form Subscribe --->--}}
+                {{--<div class="form-suscribe-user">--}}
+                {{--<form class="calc-form" id="subscribe-user">--}}
+                    {{--{{ csrf_field() }}--}}
+                    {{--<center>--}}
+                    {{--<h4>Please Subscribe With Your Number</h4>--}}
+                        {{--<br>--}}
+                    {{--<div class="row">--}}
+                        {{--<div class="col-md-6 col-sm-12 col-xs-12">--}}
+                            {{--<div class="form-group">--}}
+                                {{--<select class="form-control select2" name="countryCode">--}}
+                                    {{--<option value="">--- Select Country Code---</option>--}}
+                                    {{--@foreach($countries as $country)--}}
+                                        {{--<option--}}
+                                            {{--value="{{$country->phone_code}}">{{$country->name}}--}}
+                                            {{--(+{{$country->phone_code}})--}}
+                                        {{--</option>--}}
+                                    {{--@endforeach--}}
+                                {{--</select>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-6 col-sm-12 col-xs-12">--}}
+                            {{--<div class="form-group">--}}
+                                {{--<input type="number" class="form-control txt-otp" name="mobileNumber" placeholder="Enter Mobile Number">--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                        {{--<button type="submit" class="btn btn-pricing-estimate header6">SUBSCRIBE--}}
+                        {{--</button>--}}
+                    {{--</center>--}}
+                {{--</form>--}}
+            {{--</div>--}}
+                {{--<!--- End Form Subscribe--->--}}
+
+                {{--<!--- Form Verify Otp --->--}}
+                {{--<div class="from-verify-otp ">--}}
+                {{--<form class="calc-form" id="verify-otp">--}}
+                    {{--{{ csrf_field() }}--}}
+                    {{--<center>--}}
+                        {{--<h5 class="otp-heading">Otp Sent to your given mobile number</h5>--}}
+                        {{--<h4>Verify Your OTP</h4>--}}
+                        {{--<div class="row">--}}
+                            {{--<div class="col-md-6 col-sm-12 col-xs-12 col-md-offset-3">--}}
+                                {{--<div class="form-group">--}}
+                                    {{--<input type="hidden" name="hdnMobileNumber" id="otpMobileNumber">--}}
+                                    {{--<input type="number" class="form-control txt-otp" name="otp" placeholder="Enter Otp">--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<button type="submit" class="btn btn-pricing-estimate header6">VERIFY OTP--}}
+                        {{--</button>--}}
+                        {{--<br>--}}
+                        {{--<br>--}}
+                        {{--<label for="" id="lblWrongOtp" style="color:red;"></label>--}}
+                    {{--</center>--}}
+                {{--</form>--}}
+                {{--</div>--}}
+                {{--<!--- End Form Verify Otp --->--}}
+
+            {{--</div>--}}
+        {{--</div>--}}
         <div class="container div-courier-cal no-padding ">
             <div class="container shop-ship-tab" style="padding-bottom: 20px">
                 <div class="shop-ship-tab-content active">
@@ -116,7 +392,8 @@
                         <div class="col-sm-10">
                             <br>
                             <label class="header6 p-color-blue">
-                                Shop From Any Indian Store; Get It to a FREE Indian Virtual  Address; We'll Ship It to Your Doorsteps!
+                                Shop From Any Indian Store; Get It to a FREE Indian Virtual Address; We'll Ship It to
+                                Your Doorsteps!
                             </label>
                         </div>
                         <span id="calc_error">Sorry! No delivery options available in requested country. Please contact our support team for assistance.</span>
@@ -152,13 +429,13 @@
                                             </div>
                                             <div class="col-md-5 col-sm-12 ">
                                                 {{--<p class="header7 p-country-guide ">--}}
-                                                    {{--<a href="{{route('cguide.index')}}" class="tooltipkey" title="We ship to 220+ countries! Want to find out if your country is one of them? Check out the specific discounts we offer--}}
-                                                         {{--for each country as well while you're at it!">--}}
-                                                        {{--<i class="fa fa-question-circle-o"></i>--}}
-                                                    {{--</a>--}}
-                                                    {{--Country Guide--}}
-                                                    {{--<a href="https://www.shoppre.com/offers/flames-shopping-season-sale-india-shipping-offer/" target="_blank"><span--}}
-                                                            {{--class="header7 p-color-red price-cal-country">Offers</span></a>--}}
+                                                {{--<a href="{{route('cguide.index')}}" class="tooltipkey" title="We ship to 220+ countries! Want to find out if your country is one of them? Check out the specific discounts we offer--}}
+                                                {{--for each country as well while you're at it!">--}}
+                                                {{--<i class="fa fa-question-circle-o"></i>--}}
+                                                {{--</a>--}}
+                                                {{--Country Guide--}}
+                                                {{--<a href="https://www.shoppre.com/offers/flames-shopping-season-sale-india-shipping-offer/" target="_blank"><span--}}
+                                                {{--class="header7 p-color-red price-cal-country">Offers</span></a>--}}
                                                 {{--</p>--}}
 
                                             </div>
@@ -328,7 +605,8 @@
                                             </div>
                                         </div>
                                         <div class="col-xs-12 col-md-12 padding-bottom">
-                                            <label class="col-sm-12 control-label no-padding header6">What is the Weight of
+                                            <label class="col-sm-12 control-label no-padding header6">What is the Weight
+                                                of
                                                 your
                                                 Package? <span>*</span> </label>
                                         </div>
@@ -361,19 +639,19 @@
                                             </div>
                                         </div>
                                         {{--<div class="col-xs-12 col-md-12 padding-bottom">--}}
-                                            {{--<label class="header6 control-label ">Your E-mail Address</label>--}}
-                                            {{--<div class="col-sm-10 no-padding">--}}
-                                                {{--<input type="text" class="form-control" name="email"--}}
-                                                       {{--placeholder="Enter a valid E-mail Id">--}}
-                                            {{--</div>--}}
+                                        {{--<label class="header6 control-label ">Your E-mail Address</label>--}}
+                                        {{--<div class="col-sm-10 no-padding">--}}
+                                        {{--<input type="text" class="form-control" name="email"--}}
+                                        {{--placeholder="Enter a valid E-mail Id">--}}
+                                        {{--</div>--}}
                                         {{--</div>--}}
                                         {{--<div class="col-md-12 col-xs-12 no-padding">--}}
-                                            {{--<label class=" col-md-12 no-padding header6 control-label">Contact--}}
-                                                {{--Number</label>--}}
-                                            {{--<div class="col-sm-10 no-padding">--}}
-                                                {{--<input type="text" class="form-control" name="mobile"--}}
-                                                       {{--placeholder="Enter a valid Phone Number">--}}
-                                            {{--</div>--}}
+                                        {{--<label class=" col-md-12 no-padding header6 control-label">Contact--}}
+                                        {{--Number</label>--}}
+                                        {{--<div class="col-sm-10 no-padding">--}}
+                                        {{--<input type="text" class="form-control" name="mobile"--}}
+                                        {{--placeholder="Enter a valid Phone Number">--}}
+                                        {{--</div>--}}
                                         {{--</div>--}}
                                         <div class="col-xs-12 col-md-12 padding-bottom div-pric-cal-estimate">
                                             <div class="col-sm-12 no-padding">
@@ -381,8 +659,10 @@
                                                         class="btn btn-pricing-estimate no-padding header6"
                                                         id="quote_submit">Get An Estimate
                                                 </button>
-                                                <div id="quote_result">To known the courier pricing within India, <br> contact our team at
-                                                    <a href="tel:+91-8277919191">+91-8277919191</a> & for Live Chat <a href="http://bit.ly/live-chat-shoppre">click here</a>
+                                                <div id="quote_result">To known the courier pricing within India, <br>
+                                                    contact our team at
+                                                    <a href="tel:+91-8277919191">+91-8277919191</a> & for Live Chat <a
+                                                        href="http://bit.ly/live-chat-shoppre">click here</a>
                                                 </div>
                                                 <div id="quote_error">Sorry! We can't process your request right
                                                     now.
@@ -398,6 +678,7 @@
                         </div>
                     </div>
                     <div class="col-md-5 col-sm-12" id="Price-cal">
+
                         <div class="div-volumetric-weight-img">
                             <div class="row">
                                 <p class="header6 p-color-blue" data-toggle="modal" data-target="#myModal-calculate">
@@ -411,7 +692,8 @@
                                                          for each country as well while you're at it!">
                                         <i class="fa fa-question-circle-o"></i>
                                     </a>
-                                    <a href="{{route('cguide.index')}}" target="_blank" class="header7 p-color-blue">Country Guide</a>
+                                    <a href="{{route('cguide.index')}}" target="_blank" class="header7 p-color-blue">Country
+                                        Guide</a>
                                     <a href="{{route('offers-new.index')}}" target="_blank"><span
                                             class="header7 p-color-red price-cal-country">Offers</span></a>
                                 </p>
@@ -430,12 +712,11 @@
                                 <a href="#" data-toggle="modal" data-target="#myModal-calculate">Learn how to
                                     calculate</a>
                                 {{--<button type="button" class="btn btn-info btn-lg" style="margin-left: -40px;" data-toggle="modal" data-target="#myModal-calculate">Learn how to calculate</button>--}}
-
                             </div>
-
                         </div>
-
                     </div>
+
+
                     <div class="container how-to-calculate">
                         <div class="modal fade" id="myModal-calculate" role="dialog">
                             <div class="modal-dialog">
@@ -449,7 +730,8 @@
                                         </center>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/vol_calc.png" style="width: 100%;" alt="">
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/vol_calc.png" style="width: 100%;"
+                                             alt="">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Close
@@ -461,7 +743,7 @@
                     </div>
                     <div class="col-md-12 col-sm-12 no-padding col-xs-12 " id="price-cal-slide-down">
                         <div class="col-md-8 col-sm-8 col-xs-12">
-                            <div class="row"style="padding-left: 15px">
+                            <div class="row" style="padding-left: 15px">
                                 <div class="col-md-8 col-sm-8 col-xs-6 no-padding">
                                     <h6 class="header6 p-color-cement"><span class="p-color-red">*</span> Estimated
                                         Cost
@@ -506,10 +788,14 @@
                                         rates displayed are INCLUSIVE of the fuel surcharge and taxes within India</p>
                                     <p class="header7 p-color-cement"><span class="p-color-red">*</span>
                                         For
-                                        electronics items,<a href="https://www.shoppre.com/parcel-forwarding/guidelines-for-shipping-electronics-items-from-india/"> additional charges are applicable</a>.</p>
+                                        electronics items,<a
+                                            href="https://www.shoppre.com/parcel-forwarding/guidelines-for-shipping-electronics-items-from-india/">
+                                            additional charges are applicable</a>.</p>
                                     <p class="header7 p-color-cement"><span class="p-color-red">*</span>
-                                        Excludes oversized and palletized shipments, and <a href="#special-products">special products (liquids,
-                                            homemade food, etc.)</a><a href="#" class="tooltipkey" title="Learn More Below">
+                                        Excludes oversized and palletized shipments, and <a href="#special-products">special
+                                            products (liquids,
+                                            homemade food, etc.)</a><a href="#" class="tooltipkey"
+                                                                       title="Learn More Below">
                                             <i class="fa fa-question-circle-o"></i>
                                         </a></p>
                                     <p class="header7 p-color-cement"><span class="p-color-red">**</span>
@@ -536,7 +822,8 @@
                                         Virtual Address</a>
                                 </div>
                                 <div class="col-md-5 col-sm-6 col-xs-12" id="price-cal-btn-margin">
-                                    <a class="btn btn-price-cal-sounds-good" href="{{route('ifs.index')}}" target="_blank">Learn More</a>
+                                    <a class="btn btn-price-cal-sounds-good" href="{{route('ifs.index')}}"
+                                       target="_blank">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -570,7 +857,7 @@
                         <span id="calc_error">Sorry! No delivery options available in requested country. Please contact our support team for assistance.</span>
                         <div class="tab" role="tabpanel">
                             <ul class="nav nav-tabs ul-margin" role="tablist">
-                                <li role="presentation" >
+                                <li role="presentation">
                                     <a href="#International1" aria-controls="home" role="tab"
                                        data-toggle="tab">International</a>
                                 </li>
@@ -597,14 +884,14 @@
                                             </div>
                                             <div class="col-md-5 col-sm-12 ">
                                                 {{--<p class="header7 p-country-guide ">--}}
-                                                    {{--<a href="#" class="tooltipkey" title="We ship to 220+ countries! Want to find out if your country is one of them? Check out the specific discounts we offer--}}
-                                                         {{--for each country as well while you're at it!">--}}
-                                                        {{--<i class="fa fa-question-circle-o"></i>--}}
-                                                    {{--</a>--}}
-                                                    {{--Country Guide <a--}}
-                                                        {{--href="https://www.shoppre.com/offers/flames-shopping-season-sale-india-shipping-offer/"--}}
-                                                        {{--target="_blank"><span--}}
-                                                            {{--class="header7 p-color-red price-cal-country">Offers</span></a>--}}
+                                                {{--<a href="#" class="tooltipkey" title="We ship to 220+ countries! Want to find out if your country is one of them? Check out the specific discounts we offer--}}
+                                                {{--for each country as well while you're at it!">--}}
+                                                {{--<i class="fa fa-question-circle-o"></i>--}}
+                                                {{--</a>--}}
+                                                {{--Country Guide <a--}}
+                                                {{--href="https://www.shoppre.com/offers/flames-shopping-season-sale-india-shipping-offer/"--}}
+                                                {{--target="_blank"><span--}}
+                                                {{--class="header7 p-color-red price-cal-country">Offers</span></a>--}}
                                                 {{--</p>--}}
 
                                             </div>
@@ -644,7 +931,8 @@
                                                           class="btn btn-puls-minus inc-value no-padding">+</span>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 col-sm-3 col-xs-6 no-padding" id="weight-option-padding">
+                                            <div class="col-md-3 col-sm-3 col-xs-6 no-padding"
+                                                 id="weight-option-padding">
                                                 <div class="radio">
                                                     <label class="checkbox-inline header7 p-color-cement">
                                                         <input class="radio-pricing" type="radio" name="unit"
@@ -774,7 +1062,8 @@
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-xs-12 padding-bottom">
-                                            <label class="col-sm-12 control-label no-padding header6">What is the Weight of
+                                            <label class="col-sm-12 control-label no-padding header6">What is the Weight
+                                                of
                                                 your
                                                 Package? <span>*</span> </label>
                                         </div>
@@ -860,7 +1149,8 @@
                                                          for each country as well while you're at it!">
                                         <i class="fa fa-question-circle-o"></i>
                                     </a>
-                                    <a href="{{route('cguide.index')}}" target="_blank" class="header7 p-color-blue">Country Guide</a>
+                                    <a href="{{route('cguide.index')}}" target="_blank" class="header7 p-color-blue">Country
+                                        Guide</a>
                                     <a href="{{route('offers-new.index')}}" target="_blank"><span
                                             class="header7 p-color-red price-cal-country">Offers</span></a>
                                 </p>
@@ -917,15 +1207,19 @@
                             <div class="row">
                                 <div class="col-sm-12 col-md-12" style="margin-top: 20px;">
                                     <p class="header7 p-color-cement "><span class="p-color-red">*</span>
-                                        <a href="#pickup-charges" class="header7">Pickup charges will be additional</a> </p>
-                                    <p class="header7 p-color-cement" ><span class="p-color-red">*</span>
+                                        <a href="#pickup-charges" class="header7">Pickup charges will be additional</a>
+                                    </p>
+                                    <p class="header7 p-color-cement"><span class="p-color-red">*</span>
                                         The
                                         rates displayed are INCLUSIVE of the fuel surcharge and taxes within India</p>
                                     <p class="header7 p-color-cement "><span class="p-color-red">*</span>
                                         For
-                                        electronics items,<a href="https://www.shoppre.com/parcel-forwarding/guidelines-for-shipping-electronics-items-from-india/"> additional charges are applicable</a> .</p>
+                                        electronics items,<a
+                                            href="https://www.shoppre.com/parcel-forwarding/guidelines-for-shipping-electronics-items-from-india/">
+                                            additional charges are applicable</a> .</p>
                                     <p class="header7 p-color-cement "><span class="p-color-red">*</span>
-                                        Excludes oversized and palletized shipments, and <a href="#special-items">special products (liquids,
+                                        Excludes oversized and palletized shipments, and <a href="#special-items">special
+                                            products (liquids,
                                             homemade food, etc.)</a></p>
                                     <p class="header7 p-color-cement "><span class="p-color-red">**</span>
                                         After
@@ -936,7 +1230,7 @@
                                         oversized
                                         packages or where additional export documentation is required.</p>
 
-                                    <p class="header7 p-color-cement" >The
+                                    <p class="header7 p-color-cement">The
                                         courier will be chosen according to your destination
                                         & the weight of the shipment. We're teamed up with the most trusted couriers
                                         such as
@@ -957,7 +1251,7 @@
         </div>
 
     </section>
-    <section role="membership" style="margin-bottom: 20px" >
+    <section role="membership" style="margin-bottom: 20px">
         <div class="container" id="courier-membership-plans">
             <div class="col-sm-12 col-md-12 no-padding price-cal-membership">
                 <center>
@@ -968,7 +1262,7 @@
                 <div class="col-md-8 col-md-offset-2 col-xs-12 no-padding">
                     <table id="customers">
                         <tr>
-                            <th class="col-md-4 col-xs-6"> <h3 class="header3 p-color-cement-dark">Features</h3> </th>
+                            <th class="col-md-4 col-xs-6"><h3 class="header3 p-color-cement-dark">Features</h3></th>
                             <th class="col-md-4 col-xs-6">
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indivdual.svg" alt=""> <br>
                                 <h1 class="header1 p-mem-plans-box">Free</h1>
@@ -977,7 +1271,7 @@
                         <tr>
                         <tr>
                             <td id="special-items">Special Clearance Charges<a href="#" class="tooltipkey"
-                                                            title="Any Package which requires Special Handling
+                                                                               title="Any Package which requires Special Handling
                                                          will be prompted to you via email. All liquids/
                                                          semi-liquids/ homemade food/ medicines/ ayurvedic
                                                          products/ dangerous goods like nail polish,  etc.
@@ -1020,7 +1314,8 @@
                             <td>
                                 <br>
                                 <br>
-                                <a href="{{route('schedulePickup.Index')}}" class=" btn-plans-individual-wholeseller">Schedule a Pickup</a>
+                                <a href="{{route('schedulePickup.Index')}}" class=" btn-plans-individual-wholeseller">Schedule
+                                    a Pickup</a>
                                 <br>
                                 <br>
                             </td>
@@ -1064,7 +1359,8 @@
                                                    Our rates are inclusive of fuel surcharge and taxes.
                                                    However, you might have to check the import rules of your country
                                                    to know if you have to pay any fee to your courier at the
-                                                   time of receving your package."><i class="fa fa-question-circle-o"></i>
+                                                   time of receving your package."><i
+                                                    class="fa fa-question-circle-o"></i>
                                             </a>
                                         </h6>
                                     </div>
@@ -1177,13 +1473,15 @@
                                         <div class="div-backgroud-price-cal1">
                                             <h6 class="header6">
                                                 Real Time Tracking
-                                                <a href="#" class="tooltipkey" title="" data-original-title="As soon as we dispatch your shipment to the courier you'll receive an update to help you track the same.">
+                                                <a href="#" class="tooltipkey" title=""
+                                                   data-original-title="As soon as we dispatch your shipment to the courier you'll receive an update to help you track the same.">
                                                     <i class="fa fa-question-circle-o"></i>
                                                 </a>
                                             </h6>
                                         </div>
 
-                                        <div class="div-backgroud-price-cal" style="padding-bottom: 13px; padding-top: 13px">
+                                        <div class="div-backgroud-price-cal"
+                                             style="padding-bottom: 13px; padding-top: 13px">
                                             <h6 class="header6">
                                                 Set Up a Local Hub for Your Business
                                                 <a href="#" class="tooltipkey" title="" data-original-title="If you are a seller sourcing products
@@ -1193,7 +1491,8 @@
                                                     <i class="fa fa-question-circle-o"></i></a>
                                             </h6>
                                         </div>
-                                        <div class="div-backgroud-price-cal1" style="padding-top: 43px;padding-bottom: 43px;">
+                                        <div class="div-backgroud-price-cal1"
+                                             style="padding-top: 43px;padding-bottom: 43px;">
                                             <h6 class="header6">
                                                 Pickup Charges
                                                 <a href="#" class="tooltipkey" title="" data-original-title="You can schedule pickup for your courier with us
@@ -1203,7 +1502,8 @@
                                             </h6>
                                         </div>
 
-                                        <div class="div-backgroud-price-cal" style="padding-top: 30px;padding-bottom: 30px;">
+                                        <div class="div-backgroud-price-cal"
+                                             style="padding-top: 30px;padding-bottom: 30px;">
                                             <h6 class="header6">
                                                 Package Returns
                                                 <a href="#" class="tooltipkey" title="" data-original-title="Once your purchase(s) arrive at our facility, if you feel
@@ -1237,7 +1537,8 @@
                                         <div class="div-backgroud-price-cal1">
                                             <h6 class="header6">
                                                 Receive Parcels
-                                                <a href="#" class="tooltipkey" title="" data-original-title="We receive your packages here at our facility, log them into your lockers and account; all this without charging your anything extra!">
+                                                <a href="#" class="tooltipkey" title=""
+                                                   data-original-title="We receive your packages here at our facility, log them into your lockers and account; all this without charging your anything extra!">
                                                     <i class="fa fa-question-circle-o"></i>
                                                 </a>
                                             </h6>
@@ -1710,7 +2011,8 @@
                                                     <i class="fa fa-question-circle-o"></i></a>
                                             </h6>
                                         </div>
-                                        <div class="div-padding-sp-charges div-backgroud-price-cal" id="special-products">
+                                        <div class="div-padding-sp-charges div-backgroud-price-cal"
+                                             id="special-products">
                                             <h6 class="header6">
                                                 Special Clearance Charges
                                                 <a href="#" class="tooltipkey"
@@ -1806,7 +2108,7 @@
                                             </h6>
                                         </div>
                                     </div>
-                                    <div class="div-backgroud-price-cal1 view-all-features view-more-feature" >
+                                    <div class="div-backgroud-price-cal1 view-all-features view-more-feature">
                                         <label class="header6 view-feature-text " for="" id="year-more-view">View
                                             All Features</label>
                                         <label class="header6 view-feature-text year-less-view" for=""
@@ -2160,14 +2462,14 @@
                             <a data-toggle="pill" class="btn btn-membership-plans-monthly" href="#M">Monthly</a>
                         </li>
                         <li>
-                            <a data-toggle="pill" class="btn btn-membership-plans-yearly"  href="#Y">Yearly</a>
+                            <a data-toggle="pill" class="btn btn-membership-plans-yearly" href="#Y">Yearly</a>
                         </li>
                     </ul>
                     <div class="tab-content">
                         <div id="M" class="tab-pane fade in active">
                             <table id="customers">
                                 <tr>
-                                    <th class="col-xs-5"> <h1 class="header1">Features</h1></th>
+                                    <th class="col-xs-5"><h1 class="header1">Features</h1></th>
                                     <th col="col-xs-7">
                                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indivdual.svg" alt=""> <br>
                                         <h6 class="header6 p-mem-plans-box">For Individual Shoppers</h6>
@@ -2373,7 +2675,7 @@
                                     </td>
                                     <td>
                                         <br>
-                                        <label class="header6 mobile-view-more" for="" >View
+                                        <label class="header6 mobile-view-more" for="">View
                                             Features
                                         </label>
                                         <label class="header6 mobile-view-less" for="">Less
@@ -2392,7 +2694,7 @@
                             </table>
                             <table id="customers">
                                 <tr>
-                                    <th class="col-xs-5"> <h1 class="header1">Features</h1></th>
+                                    <th class="col-xs-5"><h1 class="header1">Features</h1></th>
                                     <th col="col-xs-7">
                                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/seller.svg" alt="">
                                         <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
@@ -2588,7 +2890,7 @@
                                     <td>
                                         <br>
                                         <br>
-                                        <label class="header6 mobile-view-more1" for="" >View
+                                        <label class="header6 mobile-view-more1" for="">View
                                             All Features
                                         </label>
                                         <label class="header6 mobile-view-less1" for="">Less
@@ -2614,7 +2916,7 @@
                             </table>
                             <table id="customers">
                                 <tr>
-                                    <th class="col-xs-5"> <h1 class="header1">Features</h1></th>
+                                    <th class="col-xs-5"><h1 class="header1">Features</h1></th>
                                     <th col="col-xs-7">
                                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wholseller.svg" alt="">
                                         <h6 class="header6 p-mem-plans-box">For Wholesalers</h6>
@@ -2810,7 +3112,7 @@
                                     <td>
                                         <br>
                                         <br>
-                                        <label class="header6 mobile-view-more2" for="" >View
+                                        <label class="header6 mobile-view-more2" for="">View
                                             All Features
                                         </label>
                                         <label class="header6 mobile-view-less2" for="">Less
@@ -2819,10 +3121,10 @@
                                     </td>
                                     <td>
                                         <br>
-                                        <label class="header6 mobile-view-more2" for="" >View
+                                        <label class="header6 mobile-view-more2" for="">View
                                             Features
                                         </label>
-                                        <label class="header6 mobile-view-less2" for="" >Less
+                                        <label class="header6 mobile-view-less2" for="">Less
                                             Features
                                         </label>
                                         <br>
@@ -3044,7 +3346,7 @@
                                     </td>
                                     <td>
                                         <br>
-                                        <label class="header6 mobile-view-more" for="" >View
+                                        <label class="header6 mobile-view-more" for="">View
                                             Features
                                         </label>
                                         <label class="header6 mobile-view-less" for="">Less
@@ -3259,7 +3561,7 @@
                                     <td>
                                         <br>
                                         <br>
-                                        <label class="header6 mobile-view-more1" for="" >View
+                                        <label class="header6 mobile-view-more1" for="">View
                                             All Features
                                         </label>
                                         <label class="header6 mobile-view-less1" for="">Less
@@ -3481,7 +3783,7 @@
                                     <td>
                                         <br>
                                         <br>
-                                        <label class="header6 mobile-view-more2" for="" >View
+                                        <label class="header6 mobile-view-more2" for="">View
                                             All Features
                                         </label>
                                         <label class="header6 mobile-view-less2" for="">Less
@@ -3490,10 +3792,10 @@
                                     </td>
                                     <td>
                                         <br>
-                                        <label class="header6 mobile-view-more2" for="" >View
+                                        <label class="header6 mobile-view-more2" for="">View
                                             Features
                                         </label>
-                                        <label class="header6 mobile-view-less2" for="" >Less
+                                        <label class="header6 mobile-view-less2" for="">Less
                                             Features
                                         </label>
                                         <br>
@@ -3545,7 +3847,8 @@
         </div>
         <div class="container">
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding ">
-                <img class="img-payment-methods" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/credit-debit-card-courier-shipping.svg"
+                <img class="img-payment-methods"
+                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/credit-debit-card-courier-shipping.svg"
                      alt="credit debit card courier from india">
             </div>
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding">
@@ -3557,7 +3860,8 @@
                      alt="paypal online courier parcel">
             </div>
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding">
-                <img class="img-payment-methods" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paytm-payment-system-and-digital-wallet.svg"
+                <img class="img-payment-methods"
+                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paytm-payment-system-and-digital-wallet.svg"
                      alt="paytm e-commerce digital wallet ">
             </div>
         </div>
@@ -3597,7 +3901,92 @@
     </script>
     <script src="{{env('AWS_CLOUD_FRONT')}}/js/validate.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
+        $(document).ready(function (){
+
+            // This Code is Required for OTP Validation
+
+        //     let isSubscribed = localStorage.subscribed;
+        //     console.log('Localstorage', localStorage.subscribed)
+        //     if(isSubscribed == 'yes') {
+        //         $('#popup1').css('display','none');
+        //     }
+        //
+        //     $("#subscribe-user").validate({
+        //         rules:
+        //             {
+        //                 countryCode: {required: true},
+        //                 mobileNumber: {required: true},
+        //             },
+        //         messages:
+        //             {
+        //                 countryCode: {required: "Country code required"},
+        //                 mobileNumber: {required: "Mobile number required."},
+        //             },
+        //         submitHandler: function (form) {
+        //             var countryCode = $("select[name='countryCode']").val();
+        //             var mobileNumber = $("input[name='mobileNumber']").val();
+        //             var token = $('input[name=_token]').val();
+        //             console.log(mobileNumber);
+        //
+        //             // $("#calc_load").show();
+        //             jQuery.ajax({
+        //                 url: '/user/subscribe',
+        //                 type: "POST",
+        //                 data: {
+        //                     _token: token,
+        //                     country_code: countryCode,
+        //                     mobile_number: mobileNumber,
+        //                 },
+        //                 success: function (res) {
+        //                     console.log('Subscribed User', res);
+        //                     if(res.message == 'Success') {
+        //                         $('.form-suscribe-user').css('display','none');
+        //                         $('.from-verify-otp').css('display','block');
+        //                         $('#otpMobileNumber').val(mobileNumber);
+        //                     }
+        //                 }
+        //             });
+        //             return false;
+        //         }
+        //     });
+        //
+        //     $("#verify-otp").validate({
+        //         rules:
+        //             {
+        //                 otp: {required: true},
+        //             },
+        //         messages:
+        //             {
+        //                 otp: {required: "Otp is required."},
+        //             },
+        //         submitHandler: function (form) {
+        //             var otp = $("input[name='otp']").val();
+        //             var hdnMobileNumber = $("input[name='hdnMobileNumber']").val();
+        //             var token = $('input[name=_token]').val();
+        //             // $("#calc_load").show();
+        //             jQuery.ajax({
+        //                 url: '/otp/verfiy',
+        //                 type: "POST",
+        //                 data: {
+        //                     _token: token,
+        //                     otp: otp,
+        //                     mobile_number: hdnMobileNumber,
+        //                 },
+        //                 success: function (res) {
+        //                     console.log('Otp verify', res);
+        //                     if(res.message == 'Success') {
+        //                         $('#lblWrongOtp').text(' ');
+        //                         $('#popup1').css('display','none');
+        //                         localStorage.subscribed = 'yes';
+        //                     } else {
+        //                         $('#lblWrongOtp').text('Please Enter the correct Otp');
+        //                     }
+        //                 }
+        //             });
+        //             return false;
+        //         }
+        //     });
+
             $("#shipping").validate({
                 rules:
                     {
@@ -3771,7 +4160,6 @@
                     return false;
                 }
             });
-
             $("#form_quote").validate({
                 rules:
                     {
