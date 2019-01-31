@@ -25,6 +25,7 @@ class VerifyCsrfToken extends BaseVerifier
         '/login/*',
         'mailchimp/subscribe',
         '/admin/schedule-pickup/asana-tracking',
-        'admin/reviews/delete'
+        'admin/reviews/delete',
+        '/customer/login/submit'
     ];
 }
