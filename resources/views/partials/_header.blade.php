@@ -13,21 +13,22 @@
                 </button>
                 <div class="navbar-header-login">
                     <ul class="navbar-right">
-                        <li class="new-menu-register">
-                            <a href="https://myaccount.shoppre.com/register" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Register</a>
-                        </li>
-                        <li>
-                            <a href="https://myaccount.shoppre.com/login"  id="li-login">Login</a>
-                        </li>
+                        @if (Auth::check())
+                            <li>
+                                <a href="{{route('customer.locker')}}" id="btn_login">
+                                    <i class="fa fa-user" style="padding-right: 8px;font-size: 20px;"></i>{{Auth::user()->name}}
+                                </a>
+                            </li>
+
+                        @else
+                            <li>
+                                <a href="https://myaccount.shoppre.com/login"  id="li-login">Login</a>
+                                <a class="btn btn-s-r btn-a-m btn-b-r" href="https://myaccount.shoppre.com/register" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Register</a>
+
+                            </li>
+                        @endif
                     </ul>
-                    {{--<ul class="navbar-right">--}}
-                        {{--<li class="new-menu-register">--}}
-                            {{--<a href="{{route('customer.register')}}?src=menu" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Register</a>--}}
-                        {{--</li>--}}
-                        {{--<li>--}}
-                            {{--<a href="{{route('customer.login')}}?src=menu"  id="li-login">Login</a>--}}
-                        {{--</li>--}}
-                    {{--</ul>--}}
+
                 </div>
                 <a class="navbar-brand" href="{{route('home')}}">
 {{--                    <img class="logo" src="{{env('AWS_CLOUD_FRONT')}}/img/images/shoppre-logo.png" alt="ShoppRe">--}}
@@ -214,30 +215,20 @@
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right" id="header-ul">
-                    {{--@if (Auth::check())--}}
-                        {{--<li>--}}
-                            {{--<a href="{{route('customer.locker')}}" id="btn_login">--}}
-                                {{--<i class="fa fa-user" style="padding-right: 8px;font-size: 20px;"></i>{{Auth::user()->name}}--}}
-                            {{--</a>--}}
-                        {{--</li>--}}
-                    {{--@else--}}
-                        {{--<li>--}}
-                            {{--<a href="{{route('customer.login')}}?src=menu" id="btn_login">Login</a>--}}
-                        {{--</li>--}}
-                        {{--<li class="new-menu-register">--}}
-                            {{--<a href="{{route('customer.register')}}?src=menu" id="btn_register" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Sign Up FREE</a>--}}
-                        {{--</li>--}}
-                    {{--@endif--}}
-
-                    <li>
-                        <a href="https://myaccount.shoppre.com/login" target="_blank" id="btn_login">Login</a>
-                    </li>
-                    <li class="new-menu-register">
-                        <a href="https://myaccount.shoppre.com/register" target="_blank" id="btn_register"
-                           style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Sign
-                            Up FREE
-                        </a>
-                    </li>
+                    @if (Auth::check())
+                        <li>
+                            <a href="{{route('customer.locker')}}" id="btn_login">
+                                <i class="fa fa-user" style="padding-right: 8px;font-size: 20px;"></i>{{Auth::user()->name}}
+                            </a>
+                        </li>
+                    @else
+                        <li>
+                            <a href="{{route('customer.login')}}?src=menu" id="btn_login">Login</a>
+                        </li>
+                        <li class="new-menu-register">
+                            <a href="{{route('customer.register')}}?src=menu" id="btn_register" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Sign Up FREE</a>
+                        </li>
+                    @endif
                 </ul>
             </div><!-- /.nav-collapse -->
         </nav>

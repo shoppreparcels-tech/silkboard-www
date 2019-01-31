@@ -68,7 +68,7 @@
 }
 .navbar-header-login>ul>li{
     font-size: 14px;
-    width: 81px;
+    /*width: 81px;*/
     display: none;
     float: right;
     padding-top: 2px;
@@ -3217,7 +3217,9 @@ a#prev:hover, a#next:hover {
         display: block;
         margin-top: 7px;
     }
-
+    /*.navbar-header-login>ul>li {*/
+        /*width: 0px !important;*/
+    /*}*/
     .div-priyamani-mobile-img {
         width: 183px;
         margin-top: -447px;

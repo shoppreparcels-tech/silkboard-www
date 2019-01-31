@@ -72,18 +72,19 @@
                             <div class="col-md-6 col-xs-12 col-sm-6 no-pad">
                                 <lable class="f-s-14 f-c-l-gray f-w-5 l-h-3">Package Type</lable>
                                 <br>
-
-                                <div class="btn-group" data-toggle="buttons">
-                                    <label class="btn btn-primary active btn-h-40">
+                                <div class="btn-group col-md-12 col-xs-12 no-pad" data-toggle="buttons">
+                                    <label class="btn btn-radio active  col-md-6 col-xs-6">
                                         <input type="radio" name="package_type" id="option2" value="doc" checked="checked">
-                                        <img src="{{asset('img/images/file.svg')}}" alt=""> Document
-                                        <span class="glyphicon glyphicon-ok"></span>
+{{--                                        <img src="{{asset('img/images/file.svg')}}" alt="">--}}
+                                        Document
+                                        {{--<span class="glyphicon glyphicon-ok"></span>--}}
                                     </label>
 
-                                    <label class="btn btn-primary btn-h-40">
+                                    <label class="btn btn-radio col-md-6 col-xs-6">
                                         <input type="radio" name="package_type" id="option1" value="nondoc">
-                                        <img src="{{asset('img/images/box.png')}}" alt=""> Non-Document
-                                        <span class="glyphicon glyphicon-ok"></span>
+{{--                                        <img src="{{asset('img/images/box.png')}}" alt=""> --}}
+                                        Non-Document
+                                        {{--<span class="glyphicon glyphicon-ok"></span>--}}
                                     </label>
                                 </div>
                             </div>
@@ -93,14 +94,14 @@
                                 <div class="col-md-12 col-xs-12 no-pad">
                                     <div class="col-md-4 col-sm-4 col-xs-4 no-pad">
                                         <div class="btn-group" data-toggle="buttons">
-                                            <label class="btn btn-primary active btn-h-40">
+                                            <label class="btn btn-radio active btn-h-40">
                                                 <input type="radio" name="weight_unit" id="option2" value="kg" checked="checked"> KG
-                                                <span class="glyphicon glyphicon-ok"></span>
+                                                {{--<span class="glyphicon glyphicon-ok"></span>--}}
                                             </label>
 
-                                            <label class="btn btn-primary btn-h-40">
+                                            <label class="btn btn-radio btn-h-40">
                                                 <input type="radio" name="weight_unit" id="option1" value="lb"> LB
-                                                <span class="glyphicon glyphicon-ok"></span>
+                                                {{--<span class="glyphicon glyphicon-ok"></span>--}}
                                             </label>
                                         </div>
                                     </div>
@@ -129,15 +130,15 @@
                             <div class="col-md-5 col-xs-12 pad-r-10">
                                 <div class="col-md-4 col-xs-4 no-pad">
                                     <div class="btn-group" data-toggle="buttons">
-                                        <p class="f-s-14 f-c-l-gray f-w-5 pull-left">Unit</p> <br>
-                                        <label class="btn btn-primary active btn-h-40">
+                                        <p class="f-s-14 f-c-d-greay f-w-5 pull-left">Unit</p> <br>
+                                        <label class="btn btn-radio active btn-h-40">
                                             <input type="radio" name="measurement_unit" id="option2" value="cm" checked="checked"> cm
-                                            <span class="glyphicon glyphicon-ok"></span>
+                                            {{--<span class="glyphicon glyphicon-ok"></span>--}}
                                         </label>
 
-                                        <label class="btn btn-primary btn-h-40">
+                                        <label class="btn btn-radio btn-h-40">
                                             <input type="radio" name="measurement_unit" id="option1" value="in"> in
-                                            <span class="glyphicon glyphicon-ok"></span>
+                                            {{--<span class="glyphicon glyphicon-ok"></span>--}}
                                         </label>
                                     </div>
                                 </div>
@@ -1159,7 +1160,7 @@
                         return false;
                     }
                 });
-                
+
                 $("#form_quote").validate({
                     rules:
                         {

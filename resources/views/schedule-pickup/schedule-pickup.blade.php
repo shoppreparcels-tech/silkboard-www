@@ -43,7 +43,7 @@
                     </a>
                 </span></h3>
             </div>
-            <div class="col-md-6 col-xs-12 ">
+            <div class="col-md-6 col-xs-12 "><br>
                 <a href="{{route('first-shipment')}}">
                     <img src="{{asset('img/images/schedule-pickup-courier-from-india-shoppre.png')}}"
                          alt="schedule-pickup-courier-from-india-shoppre" class="img-responsive">

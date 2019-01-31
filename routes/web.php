@@ -587,6 +587,7 @@ Route::get('/2018-annual-awards-international-shipping-shopping', 'PageControlle
 //Route::get('/about-new', 'PageController@aboutIndex')->name('about-new.index');
 
 Route::get('/diwali-offer', 'PageController@diwali')->name('diwali');
+Route::get('/send-valentines-day-gifts-international-shipping', 'PageController@valentines')->name('valentines');
 Route::get('/shop-ship', 'PageController@shopShipIndex')->name('shopship');
 Route::get('/personal-shopper-shopping-concierge-from-india', 'PageController@personalShopper')->name('personalShopper');
 Route::get('/christmas-offer', 'PageController@christmas')->name('christmas');

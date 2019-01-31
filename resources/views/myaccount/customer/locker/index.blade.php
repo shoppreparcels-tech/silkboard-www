@@ -88,7 +88,6 @@
   @else
 
     @if(Auth::guard('customer')->user()->email_verify == 'yes')
-
       <section class="dash-orders" id="dashboard">
         <div class="container">
           <div class="row">

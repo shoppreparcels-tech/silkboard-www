@@ -152,6 +152,10 @@ class PageController extends Controller
     {
         return view('page.become-partner');
     }
+    public function valentines()
+    {
+        return view('page.valentines');
+    }
     public function radioContest()
     {
         return view('page.radio-contest');
