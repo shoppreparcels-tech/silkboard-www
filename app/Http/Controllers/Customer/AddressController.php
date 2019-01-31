@@ -20,14 +20,14 @@ class AddressController extends Controller
 	{
 		$id = Auth::id();
 		$address = Address::where('cust_id', $id)->get();
-		return view('customer.address')->with('address', $address);
+		return view('myaccount.customer.address')->with('address', $address);
 	}
 
 	public function addAddress()
 	{
 		$countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
         if (Address::where('cust_id', Auth::id())->count() < 10) {
-            return view('customer.add-address')->with('countries', $countries);
+            return view('myaccount.customer.add-address')->with('countries', $countries);
         }else{
             return redirect(route('customer.address'))->with('error', 'You can add only 10 entries to your address book');
         }
@@ -61,7 +61,7 @@ class AddressController extends Controller
     	$address->pin = $request->pin;
     	$address->code = $request->code;
     	$address->phone = $request->phone;
-    	
+
     	if (isset($request->default)) {
     		Address::where('cust_id', $id)->update(['default' => 'no']);
     		$address->default = 'yes';
@@ -88,7 +88,7 @@ class AddressController extends Controller
 
 		$countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
 
-		return view('customer.edit-address')->with(['address'=>$address, 'countries'=>$countries]);
+		return view('myaccount.customer.edit-address')->with(['address'=>$address, 'countries'=>$countries]);
 	}
 
 	public function updateAddress(Request $request)

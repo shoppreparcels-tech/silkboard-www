@@ -7,5 +7,4 @@ use Illuminate\Database\Eloquent\Model;
 class PackageItem extends Model
 {
     //
-    protected $table = 'package_items';
 }

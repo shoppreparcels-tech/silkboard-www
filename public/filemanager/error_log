@@ -1,0 +1,12 @@
+[25-Jan-2017 18:17:14 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Exception' with message 'file ../uploads/Vijay 2.JPG is missing or invalid' in /home/eastertreads/public_html/filemanager/include/php_image_magician.php:346
+Stack trace:
+#0 /home/eastertreads/public_html/filemanager/include/utils.php(218): imageLib->resizeImage(122, 91, 'crop')
+#1 /home/eastertreads/public_html/filemanager/upload.php(93): create_img('../uploads/Vija...', '../uploads/thum...', 122, 91)
+#2 {main}
+  thrown in /home/eastertreads/public_html/filemanager/include/php_image_magician.php on line 346
+[25-Jan-2017 18:18:23 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Exception' with message 'file ../uploads/Srisrinivasa 1.JPG is missing or invalid' in /home/eastertreads/public_html/filemanager/include/php_image_magician.php:346
+Stack trace:
+#0 /home/eastertreads/public_html/filemanager/include/utils.php(218): imageLib->resizeImage(122, 91, 'crop')
+#1 /home/eastertreads/public_html/filemanager/upload.php(93): create_img('../uploads/Sris...', '../uploads/thum...', 122, 91)
+#2 {main}
+  thrown in /home/eastertreads/public_html/filemanager/include/php_image_magician.php on line 346

@@ -28,21 +28,27 @@ class Customer extends Authenticatable
     ];
 
     public function preference(){
-        return $this->hasOne('App\ShippingPreference','custid');
+        return $this->hasOne('App\ShippingPreference','customer_id');
     }
     public function contact(){
         return $this->hasOne('App\CustomerContact','customer_id');
     }
     public function loyalty(){
-        return $this->hasOne('App\LoyaltyPoint','custid');
+        return $this->hasOne('App\LoyaltyPoint','customer_id');
     }
     public function rewards(){
-        return $this->hasMany('App\LoyaltyMisc','custid');
+        return $this->hasMany('App\LoyaltyMisc','customer_id');
     }
     public function accountDocs(){
         return $this->hasMany('App\AccountDocument','customer_id');
     }
     public function balance(){
-        return $this->hasOne('App\ShopperBalance','custid');
+        return $this->hasOne('App\ShopperBalance','customer_id');
+    }
+    public function addresses(){
+        return $this->hasMany('App\Address','customer_id');
+    }
+    public function transactions(){
+        return $this->hasMany('App\WalletTransaction','customer_id');
     }
 }

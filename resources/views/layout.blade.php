@@ -14,7 +14,6 @@
     <!-- Style -->
 
     <link rel="manifest" href="/manifest.json"/>
-    {{--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >--}}
     <link rel="stylesheet" type="text/css"
           href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
@@ -25,24 +24,28 @@
 
     <link href="{{env('AWS_CLOUD_FRONT')}}/css/txtProgress.min.css" rel="stylesheet">
     <link href="{{env('AWS_CLOUD_FRONT')}}/css/algolia.css" rel="stylesheet">
-    <link href="{{env('AWS_CLOUD_FRONT')}}/css/style1.css" rel="stylesheet">
-    <link href="{{env('AWS_CLOUD_FRONT')}}/css/print.css" rel="stylesheet">
+    {{--<link href="{{env('AWS_CLOUD_FRONT')}}/css/custom/style1.css" rel="stylesheet">--}}
+    {{--<link href="{{env('AWS_CLOUD_FRONT')}}/css/custom/print.css" rel="stylesheet">--}}
     <script src="{{env('AWS_CLOUD_FRONT')}}/js/jquery.min.js"></script>
     <script src="{{asset('js/jquery.ajax-cross-origin.min.js')}}"></script>
 
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('css/New_style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/custom/New_style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
     {{--<link rel="stylesheet" href="{{asset('css/select2.min.css')}}" >--}}
     {{--<link rel="stylesheet" href="{{asset('css/star-rating.min.css')}}" >--}}
 
-    <link rel="stylesheet" href="{{asset('css/ics.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/ifs.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/offers.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/diwali.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/stores-new.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/faq.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/style-frame.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/custom/ics.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/custom/ifs.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/custom/offers.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/custom/diwali.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/custom/stores-new.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/custom/style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/custom/faq.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/custom/style-frame.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/custom/signup.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+
+    <link rel="stylesheet" href="{{asset('css/demo.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/intlTelInput.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
 
 
     {{--<link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/bootstrap.min.css" >--}}
@@ -136,7 +139,7 @@
         localStorage.firstVisit = window.location.href;
     }
     let queryParam = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-    console.log('Length', queryParam.length);
+    // console.log('Length', queryParam.length);
     if (queryParam.length == 4) {
         if (queryParam[0].split('=')[1] !== undefined && queryParam[0].split('=')[1] !== '') {
             localStorage.utm_campaign = queryParam[0].split('=')[1];
@@ -180,6 +183,8 @@
 <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.jqueryui.min.js"></script>
 
+<script src="{{asset('js/utils.js')}}"></script>
+<script src="{{asset('js/intlTelInput.js')}}"></script>
 <script src="{{asset('js/easyResponsiveTabs.js')}}"></script>
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/bootstrap.min.js"></script>
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/txtProgress.min.js"></script>
@@ -351,8 +356,6 @@
         $('.inc-value').click(function () {
             var x = parseFloat($(this).parent().find('input[type="text"]').val());
             x = x + 0.5;
-            // x++;
-
             if (x > 100) {
                 $(this).parent().find('input[type="text"]').attr('disabled', true);
             }
@@ -365,8 +368,6 @@
             $(this).parent().find('input[type="text"]').attr('disabled', false);
             var x = parseFloat($(this).parent().find('input[type="text"]').val());
             x = x - 0.5;
-            // x--;
-
             if (x < 0) {
                 $(this).parent().find('input[type="text"]').attr('disabled', true);
             }
@@ -375,16 +376,17 @@
             }
         });
     });
-    let utm_campaign = localStorage.utm_campaign;
-    let utm_source = localStorage.utm_source;
-    let utm_medium = localStorage.utm_medium;
-    let gcl_id = localStorage.gcl_id;
-    let loginUrl = '{{ env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login?src=menu&utm_campaign='+utm_campaign+'&utm_medium='+utm_medium+'&utm_source='+utm_source+'&gcl_id='+gcl_id+'&referer='+localStorage.referer;
-    //let loginUrl = 'http://localhost:8002/login?src=menu&utm_campaign='+utm_campaign+'&utm_medium='+utm_medium+'&utm_source='+utm_source+'&gcl_id='+gcl_id+'&referer='+localStorage.referer;
-    let registerUrl = '{{ env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu&utm_campaign='+utm_campaign+'&utm_medium='+utm_medium+'&utm_source='+utm_source+'&gcl_id='+gcl_id+'&referer='+localStorage.referer;
-    //let registerUrl = 'http://localhost:8002/register?src=menu&utm_campaign='+utm_campaign+'&utm_medium='+utm_medium+'&utm_source='+utm_source+'&gcl_id='+gcl_id+'&referer='+localStorage.referer;
-    $('#btn_login').attr('href', loginUrl);
-    $('#btn_register').attr('href', registerUrl);
+
+    {{--let utm_campaign = localStorage.utm_campaign;--}}
+    {{--let utm_source = localStorage.utm_source;--}}
+    {{--let utm_medium = localStorage.utm_medium;--}}
+    {{--let gcl_id = localStorage.gcl_id;--}}
+    {{--let loginUrl = '{{route('customer.login')}}?src=menu&utm_campaign='+utm_campaign+'&utm_medium='+utm_medium+'&utm_source='+utm_source+'&gcl_id='+gcl_id+'&referer='+localStorage.referer;--}}
+    {{--let registerUrl = '{{ route('customer.register')}}?src=menu&utm_campaign='+utm_campaign+'&utm_medium='+utm_medium+'&utm_source='+utm_source+'&gcl_id='+gcl_id+'&referer='+localStorage.referer;--}}
+    {{--let loginUrl = '{{route('customer.login')}}';--}}
+    {{--let registerUrl = '{{ route('customer.register')}}';--}}
+    {{--$('#btn_login').attr('href', loginUrl);--}}
+    {{--$('#btn_register').attr('href', registerUrl);--}}
 
 </script>
 <script type="text/javascript">

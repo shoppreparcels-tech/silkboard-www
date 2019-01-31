@@ -1,1 +1,180 @@
-$(document).ready(function(){$(function(){$(".popup-modal").magnificPopup({type:"inline",preloader:!1,modal:!0}),$(document).on("click",".popup-modal-dismiss",function(o){o.preventDefault(),$.magnificPopup.close()})}),$(document).on("click",".photo_nxt",function(o){o.preventDefault();var a=$(this).attr("data-type"),e=$(this).attr("data-pack");"basic"==a&&($("#initiate_photo_"+e).addClass("noshow"),$("#basic_confirm_"+e).removeClass("noshow"),$("#photo_slider_"+e+" .advcphotos").addClass("noshow"),$("#photo_slider_"+e+" .basicphotos").addClass("noshow")),"advanced"==a&&($("#initiate_photo_"+e).addClass("noshow"),$("#std_photos_"+e).addClass("noshow"),$("#advanced_request_"+e).removeClass("noshow"))}),$(document).on("click",".btn-cancel",function(o){o.preventDefault();var a=$(this).attr("data-pack");$("#initiate_photo_"+a).removeClass("noshow"),$("#basic_confirm_"+a).addClass("noshow"),$("#advanced_request_"+a).addClass("noshow"),$("#photo_slider_"+a+" .advcphotos").removeClass("noshow"),$("#photo_slider_"+a+" .basicphotos").removeClass("noshow"),$.magnificPopup.close()}),$(document).on("click",".btn-advc",function(o){o.preventDefault();var a=$(this).attr("data-pack");$("#photo_slider_"+a+" .advcphotos").removeClass("noshow"),$("#photo_slider_"+a+" .basicphotos").addClass("noshow"),$("#std_photos_"+a).addClass("noshow")}),$(document).on("click",".btn-std",function(o){o.preventDefault();var a=$(this).attr("data-pack");$("#photo_slider_"+a+" .basicphotos").removeClass("noshow"),$("#photo_slider_"+a+" .advcphotos").addClass("noshow"),$("#std_photos_"+a).addClass("noshow")}),$(".basic_confirm_btn").on("click",function(o){o.preventDefault(),$(".ajaxloader").show();var a=$(this).attr("data-pack"),e=$('input[name="_token"]').val();return jQuery.ajax({url:"/photos/standard/request",type:"POST",data:{_token:e,packid:a},error:function(o,a,e){window.location="/locker/"},success:function(o){if("0"==o.error){var e="";$.each(o.photos,function(o,a){var s="/uploads/packages/standard/"+a.packid+"/"+a.name;e+='<div class="item"><a href="#" target="_blank"><img src="'+s+'"></a></div>'});var s=$("#std_photos_"+a+" .owl-ajax");s.append(e),s.owlCarousel({loop:!1,margin:10,responsiveClass:!0,autoplay:!1,nav:!0,navText:"",responsive:{0:{items:1},600:{items:1},1e3:{items:1}}}),$("#basic_confirm_"+a).addClass("noshow"),$("#std_photos_"+a).removeClass("noshow"),setTimeout(function(){$(".ajaxloader").hide()},5e3)}else"1"==o.error?($("#basic_confirm_"+a).addClass("noshow"),$("#basic_pending_"+a).removeClass("noshow"),$(".ajaxloader").hide(),setTimeout(function(){window.location="/locker/"},5e3)):"2"==o.error&&(window.location="/locker/")}}),!1}),$(".advc_confirm_btn").on("click",function(o){o.preventDefault();var a=$(this).attr("data-pack"),e=$("#advc_desc_"+a).val();if(1!=$("#advc_verify_"+a).prop("checked"))return $("#advc_error_"+a).html('<label class="error">Select checkbox to continue!</label>'),!1;if(""==e)return $("#advc_error_"+a).html('<label class="error">Please describe about your photo request.</label>'),!1;var s=$('input[name="_token"]').val();return $(".ajaxloader").show(),jQuery.ajax({url:"/photos/advanced/request",type:"POST",data:{_token:s,packid:a,description:e},error:function(o,a,e){window.location="/locker/"},success:function(o){0==o.error?($("#advanced_request_"+a).addClass("noshow"),$("#conirm_advcreq_"+a).removeClass("noshow"),$(".ajaxloader").hide(),setTimeout(function(){window.location="/locker/"},5e3)):"1"==o.error&&(window.location="/locker/")}}),!1}),$(".owl-noajax").owlCarousel({loop:!1,margin:10,responsiveClass:!0,autoplay:!1,nav:!0,navText:"",responsive:{0:{items:1},600:{items:1},1e3:{items:1}}})});
+$(document).ready(function(){
+
+    $(function () {
+        $('.popup-modal').magnificPopup({
+            type: 'inline',
+            preloader: false,
+            modal: true
+        });
+        $(document).on('click', '.popup-modal-dismiss', function(e){
+            e.preventDefault();
+            $.magnificPopup.close();
+        });
+    });
+
+    $(document).on('click', '.photo_nxt', function (e) {
+        e.preventDefault();
+        var data_type = $(this).attr('data-type');
+        var package_id = $(this).attr('data-pack');
+        if (data_type == "basic"){
+            $("#initiate_photo_"+package_id).addClass("noshow");
+            $("#basic_confirm_"+package_id).removeClass("noshow");
+            $("#photo_slider_"+package_id+' .advcphotos').addClass("noshow");
+            $("#photo_slider_"+package_id+' .basicphotos').addClass("noshow");
+        }
+        if (data_type == "advanced"){
+            $("#initiate_photo_"+package_id).addClass("noshow");
+            $("#std_photos_"+package_id).addClass("noshow");
+            $("#advanced_request_"+package_id).removeClass("noshow");
+        }
+    });
+
+    $(document).on('click', '.btn-cancel', function (e) {
+        e.preventDefault();
+
+        var package_id = $(this).attr('data-pack');
+        $("#initiate_photo_"+package_id).removeClass("noshow");
+        $("#basic_confirm_"+package_id).addClass("noshow");
+        $("#advanced_request_"+package_id).addClass("noshow");
+        $("#photo_slider_"+package_id+' .advcphotos').removeClass("noshow");
+        $("#photo_slider_"+package_id+' .basicphotos').removeClass("noshow");
+
+        $.magnificPopup.close();
+    });
+
+    $(document).on('click', '.btn-advc', function (e) {
+        e.preventDefault();
+        var package_id = $(this).attr('data-pack');
+        $("#photo_slider_"+package_id+' .advcphotos').removeClass("noshow");
+        $("#photo_slider_"+package_id+' .basicphotos').addClass("noshow");
+        $("#std_photos_"+package_id).addClass("noshow");
+    });
+
+    $(document).on('click', '.btn-std', function (e) {
+        e.preventDefault();
+        var package_id = $(this).attr('data-pack');
+        $("#photo_slider_"+package_id+' .basicphotos').removeClass("noshow");
+        $("#photo_slider_"+package_id+' .advcphotos').addClass("noshow");
+        $("#std_photos_"+package_id).addClass("noshow");
+    });
+
+
+
+    $('.basic_confirm_btn').on('click', function(e) {
+       e.preventDefault();
+
+       $(".ajaxloader").show();
+        var package_id = $(this).attr('data-pack');
+        console.log(package_id);
+        var token = $('input[name="_token"]').val();
+
+        jQuery.ajax({
+            url: '/photos/standard/request',
+            type : "POST",
+            data:{ _token:token, package_id:package_id},
+            error: function (request, status, error) {
+                /*console.log(request.responseText);*/
+                window.location = '/locker';
+            },
+            success: function(data) {
+                if (data.error == '0') {
+
+                    var content = "";
+                    $.each(data.photos, function(k, value) {
+                        var photo = '/uploads/packages/standard/'+value.package_id+'/'+value.name;
+                        content += '<div class="item"><a href="#" target="_blank"><img src="'+photo+'"></a></div>';
+                    });
+
+                    var owl = $("#std_photos_"+package_id+" .owl-ajax");
+                    owl.append(content);
+                    owl.owlCarousel({
+                        loop:false, margin:10, responsiveClass:true, autoplay: false, nav:true, navText: '', responsive:{
+                            0:{items:1},
+                            600:{items:1},
+                            1000:{items:1}
+                        }
+                    });
+
+                    $("#basic_confirm_"+package_id).addClass("noshow");
+                    $("#std_photos_"+package_id).removeClass("noshow");
+
+                    setTimeout(function(){
+                        $(".ajaxloader").hide();
+                    }, 5000);
+
+                }else if (data.error == '1') {
+                    $("#basic_confirm_"+package_id).addClass("noshow");
+                    $("#basic_pending_"+package_id).removeClass("noshow");
+                    $(".ajaxloader").hide();
+                    setTimeout(function(){ window.location = '/locker'; }, 5000);
+                }else if(data.error == '2'){
+                    window.location = '/locker';
+                }
+            }
+        });
+        return false;
+
+    });
+
+
+    $('.advc_confirm_btn').on('click', function(e) {
+       e.preventDefault();
+
+        var package_id = $(this).attr('data-pack');
+        var description = $('#advc_desc_'+package_id).val();
+
+        if ($('#advc_verify_'+package_id).prop('checked') != true){
+            $("#advc_error_"+package_id).html('<label class="error">Select checkbox to continue!</label>');
+            return false;
+        }
+
+        if (description == "") {
+            $("#advc_error_"+package_id).html('<label class="error">Please describe about your photo request.</label>');
+            return false;
+        }
+        var token = $('input[name="_token"]').val();
+
+        $(".ajaxloader").show();
+
+        jQuery.ajax({
+            url: '/photos/advanced/request',
+            type : "POST",
+            data:{ _token:token, package_id:package_id, description:description},
+            error: function (request, status, error) {
+                /*console.log(request.responseText);*/
+                window.location = '/locker';
+            },
+            success: function(data) {
+                if (data.error == 0) {
+                    $("#advanced_request_"+package_id).addClass("noshow");
+                    $("#conirm_advcreq_"+package_id).removeClass("noshow");
+                    $(".ajaxloader").hide();
+                    setTimeout(function(){ window.location = '/locker'; }, 5000);
+                }else if(data.error == '1'){
+                    window.location = '/locker';
+                }
+            }
+        });
+        return false;
+    });
+
+    $('.owl-noajax').owlCarousel({
+        loop:false,
+        margin:10,
+        responsiveClass:true,
+        autoplay: false,
+        nav:true,
+        navText: '',
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    });
+});

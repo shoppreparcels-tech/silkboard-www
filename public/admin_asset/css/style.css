@@ -64,6 +64,10 @@ p{
     line-height:1.5;
     margin-bottom:30px;
 }
+.top-space
+{
+    padding-top: 6%;
+}
 a{color:inherit}
 a:hover,
 a:focus{
@@ -248,23 +252,24 @@ input:not([type]):disabled, input:not([type])[readonly="readonly"], input[type=t
     position:relative;
 }
 .topbar-links > div > a{
-    color:#fff;
-    float:left;
-    font-size:22px;
-    padding-right:7px;
-    position:relative;
+    color: #fff;
+    float: left;
+    font-size: 12px;
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
 }
 .notification > a > span{
-    background:#ff4564;
-    width:17px;
-    height:17px;
-    line-height:17px;
-    position:absolute;
-    right:0;
-    top:0;
-    font-size:10px;
-    font-weight:700;
-    text-align:center;
+    background: #ff4564;
+    width: 25px;
+    height: 25px;
+    line-height: 27px;
+    position: absolute;
+    right: -15px;
+    top: -12px;
+    font-size: 8px;
+    font-weight: 700;
+    text-align: center;
 }
 .topbar-links a:hover,
 .topbar-links a:focus{color:#FFF}
@@ -274,7 +279,7 @@ input:not([type]):disabled, input:not([type])[readonly="readonly"], input[type=t
     position:absolute;
     right:0;
     top:100%;
-    width:295px;
+    width:350px;
     visibility:hidden;
     opacity:0;
 }
@@ -323,18 +328,22 @@ input:not([type]):disabled, input:not([type])[readonly="readonly"], input[type=t
 }
 .notification-inner{
     float:left;
-    max-height:275px;
-    padding:13px;
+    max-height: 600px;
+    padding: 5px;
+    padding-bottom: 0;
     width:100%;
 }
 .notification-box{
-    background:#fff;
-    border:1px solid #e5e5e5;
-    display:table;
-    float:left;
-    width:100%;
-    margin:0 0 10px;
-    padding:10px;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    display: table;
+    float: left;
+    width: 100%;
+    margin: 0 0 5px;
+    padding: 5px 10px;
+}
+.notification-box.unread{
+    background: #e6e6e6;
 }
 .notification-box img{
     display:table-cell;
@@ -342,33 +351,71 @@ input:not([type]):disabled, input:not([type])[readonly="readonly"], input[type=t
 }
 .notification-detail{
     display:table-cell;
-    padding-left:15px;
     vertical-align:top;
 }
 .notification-detail h6{
-    float:left;
-    font-size:13px;
-    font-weight:400;
-    margin:0 0 8px;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    float: left;
 }
 .notification-detail h6 a,
 .notification-detail h6 a:hover,
 .notification-detail h6 a:focus{color:inherit}
-.notification-detail > span{
+.notification-detail > a > span{
     color:#7f7f7f;
-    float:right;
     font-size:10px;
+    float: right;
 }
 .notification-detail p{
-    color:#7f7f7f;
-    float:left;
-    font-size:12px;
-    margin:0;
-    width:100%;
+    color: #7f7f7f;
+    font-size: 12px;
+    margin: 0;
+    width: 100%;
+    float: left;
+    padding: 5px 0;
 }
 .notification-detail p a,
 .notification-detail p a:hover,
 .notification-detail p a:focus{color:inherit}
+.notification-detail .btns a{
+    font-size: 10px;
+    color: #cc1010;
+    border: 1px solid #ffc3be;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20pc;
+    margin-top: 0;
+    float: right;
+}
+.notification-detail .btns a:hover{
+    background: #4CAF50;
+    color: #fff;
+    border-color: #009688;
+}
+a.notify_btn{
+    display: block;
+    padding: 5px;
+    border: 1px solid #ff4866;
+    color: #ff4866;
+    text-align: center;
+    border-radius: 25px;
+}
+a.notify_btn:hover{
+    border: 1px solid #186f2b;
+    background: #58bb6d;
+    color: #fff;
+}
+a.notify_btn.solved{
+    border: 1px solid #58bb6d;
+    color: #58bb6d;
+}
+a.notify_btn.solved:hover{
+    border: 1px solid #ad0e28;
+    background: #ff4866;
+    color: #fff;
+}
+
 .task-inner{
     float:left;
     max-height:275px;
@@ -1281,6 +1328,19 @@ td .progress{
     padding-top:30px;
     width:calc(100% + 40px);
     margin:0 -20px -20px;
+}
+.caret {
+    display: none !important;
+}
+
+.popup-head
+{
+   text-align: center;
+}
+
+.btn_del_m
+{
+    margin-right: 3%;
 }
 .server-status{
     float:left;
@@ -3993,6 +4053,17 @@ blockquote span{
 }
 .blog-detail img.aligntight{
     float:right;
-    margin-left:30px;
+    margin-left:30px
     margin-bottom:0;
+}
+.unread_btn{
+    display: block;
+    float: right;
+    font-size: 12px;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+}
+table.table tr.unread{
+    background: #fffea1;
 }

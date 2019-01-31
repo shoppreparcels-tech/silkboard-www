@@ -26,9 +26,30 @@
     <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
     <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
     <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
+    <style>
+        .seo-sec{background-color: #fafafb}
+        .seo-sec a{text-decoration: underline}
+        .ul-seo{list-style: none;}
+        .ul-seo li{ font-size: 16px; font-weight: 600; color: #677582}
+    </style>
 @endsection
 @section('content')
-    <section class="timeline">
+    <section class="">
+        <div class="container">
+            <div class="col-md-6 col-xs-12 no-pad">
+                <h3>Schedule Your Pickup - <span style="color: red;font-size: 16px;">
+                    <a class="bla-1" href="https://www.youtube.com/watch?v=lQi4Io_WH70">
+                        Watch Video To Know More
+                    </a>
+                </span></h3>
+            </div>
+            <div class="col-md-6 col-xs-12 ">
+                <a href="{{route('first-shipment')}}">
+                    <img src="{{asset('img/images/schedule-pickup-courier-from-india-shoppre.png')}}"
+                         alt="schedule-pickup-courier-from-india-shoppre" class="img-responsive">
+                </a>
+            </div>
+        </div>
         <div class="container ">
             <div id="scheduleModel" class="modal fade" role="dialog">
                 <div class="modal-dialog">
@@ -51,11 +72,7 @@
                     </div>
                 </div>
             </div>
-            <h3>Schedule Your Pickup - <span style="color: red;font-size: 16px;">
-                    <a class="bla-1" href="https://www.youtube.com/watch?v=lQi4Io_WH70">
-                        Watch Video To Know More
-                    </a>
-                </span></h3>
+
             <div class="schedule-container">
                 <form class="form-horizontal" id="form-pickup">
                     {{ csrf_field() }}
@@ -410,6 +427,63 @@
         </div>
     </section>
     <div id="schedule_load"></div>
+    <section class="seo-sec">
+        <div class="container">
+            <center>
+                <br>
+                <h1 class="f-s-36 f-c-d-gray font-weight-900">ShoppRe Courier - <span class="f-c-blue">Global Shipping Made Easy</span></h1>
+            </center>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">How do you schedule a pickup for your package?</h2>
+            <p class="f-s-16 f-c-gray">Call, chat with or email our 24/7 customer support to schedule a pickup. Our experts will show up at your door,
+                no matter if its your home or office in just 48 hours. Or you can come to us facility to drop your package off.
+                Either ways, we'll make sure that it is dispatched within 48 hours to one of our courier partners.
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Can ShoppRe pickup your package from your home?</h2>
+            <p class="f-s-16 f-c-gray">The most exciting feature of <a href=""{{route('ics.index')}} >ShoppRe Courier</a> is that we reach every nook and cranny of our country. You can schedule a pickup of a package
+                from ANYWHERE in India, and our experts will come to pick it up and dispatch it in just 48 hours; only to any one
+                of our trusted courier partners, for it to reach the destination in just 3-6 days.
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Does ShoppRe do Industrial pickups?</h2>
+            <p class="f-s-16 f-c-gray">If you have commercial shipments, bulk product procurement orders or if you are shifting your business abroad etc.,
+                you might need industrial pickups. We do that and more. We only ask that the person who is
+                responsible for such an order be present at the pickup location along with the package.
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">What are the easiest ways to schedule a pickup with us?</h2>
+            <p class="f-s-16 f-c-gray">Our Support team is on alert 24/7 and you can reach them anytime with your courier requests.
+                The easiest ways to reach us would be through call, text (WatsApp, SMS), email or directly from our website.
+                You can <a href="{{route('customer.register')}}">sign up for FREE</a> to start shipping with us!
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">How can you track the shipment containing your package once we pick it up?</h2>
+            <p class="f-s-16 f-c-gray">We are partnered up with only the most trustworthy couriers such as DHL, DTDC etc.
+                Once your package is dispatched to one of them, you can track the whereabouts of
+                your shipment on the respective platforms through the direct link we provide. We pride ourselves on
+                the quality of our real-time tracking facilities and the updates we offer frequently.
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Is scheduling a pickup free?</h2>
+            <p class="f-s-16 f-c-gray">Scheduling a pickup is absolutely FREE, no matter where in India are you scheduling it for.
+                You just have to pay the <a href="{{route('pricing')}}">shipping costs</a> estimated finally once it is ready for dispatch.
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Does ShoppRe pick up couriers on weekends?</h2>
+            <p class="f-s-16 f-c-gray">Our Pickup experts will be at your beck and call 6 days a week; despite Sundays.
+                In the event of public holidays or unexpected calamities, dispatch services will depend on the status of
+                our courier partners though.
+            </p> <br>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">How long will it take for a package to reach its destination?
+                Does it ever reach early?</h2>
+            <p class="f-s-16 f-c-gray">Your courier will only take 3-6 business days to reach its destination wherever it is in the world,
+                once it is dispatched. And yes, it is possible that it reaches earlier than expected too,
+                depending on the air traffic conditions and the discretion of the courier partner.
+            </p> <br>
+        </div>
+        <br>
+    </section>
 @endsection
 
 @section('js_script')

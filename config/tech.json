@@ -1,0 +1,434 @@
+
+{
+  "version": "1.0",
+  "encoding": "UTF-8",
+  "feed": {
+    "xmlns": "http://www.w3.org/2005/Atom",
+    "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+    "xmlns$gContact": "http://schemas.google.com/contact/2008",
+    "xmlns$batch": "http://schemas.google.com/gdata/batch",
+    "xmlns$gd": "http://schemas.google.com/g/2005",
+    "id": {
+      "$t": "tech.shoppre@gmail.com"
+    },
+    "updated": {
+      "$t": "2018-04-16T15:49:42.755Z"
+    },
+    "category": [
+      {
+        "scheme": "http://schemas.google.com/g/2005#kind",
+        "term": "http://schemas.google.com/contact/2008#contact"
+      }
+    ],
+    "title": {
+      "type": "text",
+      "$t": "Shoppre - Global Shipping Partner's Contacts"
+    },
+    "link": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.google.com/"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#feed",
+        "type": "application/atom+xml",
+        "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#post",
+        "type": "application/atom+xml",
+        "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#batch",
+        "type": "application/atom+xml",
+        "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/batch"
+      },
+      {
+        "rel": "self",
+        "type": "application/atom+xml",
+        "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full?max-results=10&alt=json"
+      }
+    ],
+    "author": [
+      {
+        "name": {
+          "$t": "Shoppre - Global Shipping Partner"
+        },
+        "email": {
+          "$t": "tech.shoppre@gmail.com"
+        }
+      }
+    ],
+    "generator": {
+      "version": "1.0",
+      "uri": "http://www.google.com/m8/feeds",
+      "$t": "Contacts"
+    },
+    "openSearch$totalResults": {
+      "$t": "8"
+    },
+    "openSearch$startIndex": {
+      "$t": "1"
+    },
+    "openSearch$itemsPerPage": {
+      "$t": "10"
+    },
+    "entry": [
+      {
+        "id": {
+          "$t": "http://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/base/b16bd5409207caf"
+        },
+        "updated": {
+          "$t": "2018-01-15T16:49:26.873Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/g/2005#kind",
+            "term": "http://schemas.google.com/contact/2008#contact"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": ""
+        },
+        "link": [
+          {
+            "rel": "http://schemas.google.com/contacts/2008/rel#edit-photo",
+            "type": "image/*",
+            "href": "https://www.google.com/m8/feeds/photos/media/tech.shoppre%40gmail.com/b16bd5409207caf/1B2M2Y8AsgTpgAmY7PhCfg"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/b16bd5409207caf"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/b16bd5409207caf/1516034966873005"
+          }
+        ],
+        "gd$email": [
+          {
+            "address": "support@shoppre.com",
+            "primary": "true",
+            "rel": "http://schemas.google.com/g/2005#other"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "http://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/base/e19d50608849f28"
+        },
+        "updated": {
+          "$t": "2017-09-13T05:01:05.507Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/g/2005#kind",
+            "term": "http://schemas.google.com/contact/2008#contact"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Nikkita Shanker"
+        },
+        "link": [
+          {
+            "rel": "http://schemas.google.com/contacts/2008/rel#edit-photo",
+            "type": "image/*",
+            "href": "https://www.google.com/m8/feeds/photos/media/tech.shoppre%40gmail.com/e19d50608849f28/9nTGevMyxVzr9QC0zXW-rw"
+          },
+          {
+            "rel": "http://schemas.google.com/contacts/2008/rel#photo",
+            "type": "image/*",
+            "href": "https://www.google.com/m8/feeds/photos/media/tech.shoppre%40gmail.com/e19d50608849f28"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/e19d50608849f28"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/e19d50608849f28/1505278865507001"
+          }
+        ],
+        "gd$email": [
+          {
+            "address": "niks3590@gmail.com",
+            "rel": "http://schemas.google.com/g/2005#other"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "http://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/base/4de53b4a088093bc"
+        },
+        "updated": {
+          "$t": "2017-09-08T04:52:43.917Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/g/2005#kind",
+            "term": "http://schemas.google.com/contact/2008#contact"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": ""
+        },
+        "link": [
+          {
+            "rel": "http://schemas.google.com/contacts/2008/rel#edit-photo",
+            "type": "image/*",
+            "href": "https://www.google.com/m8/feeds/photos/media/tech.shoppre%40gmail.com/4de53b4a088093bc/1B2M2Y8AsgTpgAmY7PhCfg"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/4de53b4a088093bc"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/4de53b4a088093bc/1504846363917002"
+          }
+        ],
+        "gd$email": [
+          {
+            "address": "akash.kredo@gmail.com",
+            "primary": "true",
+            "rel": "http://schemas.google.com/g/2005#other"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "http://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/base/5f33a2f68a590d1c"
+        },
+        "updated": {
+          "$t": "2018-04-09T12:01:53.650Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/g/2005#kind",
+            "term": "http://schemas.google.com/contact/2008#contact"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": ""
+        },
+        "link": [
+          {
+            "rel": "http://schemas.google.com/contacts/2008/rel#edit-photo",
+            "type": "image/*",
+            "href": "https://www.google.com/m8/feeds/photos/media/tech.shoppre%40gmail.com/5f33a2f68a590d1c/JvKYY9NS8MCfxYfRVmRVoA"
+          },
+          {
+            "rel": "http://schemas.google.com/contacts/2008/rel#photo",
+            "type": "image/*",
+            "href": "https://www.google.com/m8/feeds/photos/media/tech.shoppre%40gmail.com/5f33a2f68a590d1c"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/5f33a2f68a590d1c"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/5f33a2f68a590d1c/1523275313650000"
+          }
+        ],
+        "gd$email": [
+          {
+            "address": "aloakbjawali@gmail.com",
+            "primary": "true",
+            "rel": "http://schemas.google.com/g/2005#other"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "http://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/base/61a24d840bf36dfc"
+        },
+        "updated": {
+          "$t": "2017-12-31T12:05:43.530Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/g/2005#kind",
+            "term": "http://schemas.google.com/contact/2008#contact"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": ""
+        },
+        "link": [
+          {
+            "rel": "http://schemas.google.com/contacts/2008/rel#edit-photo",
+            "type": "image/*",
+            "href": "https://www.google.com/m8/feeds/photos/media/tech.shoppre%40gmail.com/61a24d840bf36dfc/1B2M2Y8AsgTpgAmY7PhCfg"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/61a24d840bf36dfc"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/61a24d840bf36dfc/1514721943530001"
+          }
+        ],
+        "gd$email": [
+          {
+            "address": "vikas@shoppre.com",
+            "primary": "true",
+            "rel": "http://schemas.google.com/g/2005#other"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "http://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/base/6bf9c43b0b5dd43c"
+        },
+        "updated": {
+          "$t": "2017-09-13T05:01:05.507Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/g/2005#kind",
+            "term": "http://schemas.google.com/contact/2008#contact"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Manjesh V"
+        },
+        "link": [
+          {
+            "rel": "http://schemas.google.com/contacts/2008/rel#edit-photo",
+            "type": "image/*",
+            "href": "https://www.google.com/m8/feeds/photos/media/tech.shoppre%40gmail.com/6bf9c43b0b5dd43c/erTPK5fjY4j-gFpnJgeJMA"
+          },
+          {
+            "rel": "http://schemas.google.com/contacts/2008/rel#photo",
+            "type": "image/*",
+            "href": "https://www.google.com/m8/feeds/photos/media/tech.shoppre%40gmail.com/6bf9c43b0b5dd43c"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/6bf9c43b0b5dd43c"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/6bf9c43b0b5dd43c/1505278865507001"
+          }
+        ],
+        "gd$email": [
+          {
+            "address": "manjeshpv@gmail.com",
+            "rel": "http://schemas.google.com/g/2005#other"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "http://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/base/6e5e13900aa59455"
+        },
+        "updated": {
+          "$t": "2017-10-14T08:52:11.648Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/g/2005#kind",
+            "term": "http://schemas.google.com/contact/2008#contact"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": ""
+        },
+        "link": [
+          {
+            "rel": "http://schemas.google.com/contacts/2008/rel#edit-photo",
+            "type": "image/*",
+            "href": "https://www.google.com/m8/feeds/photos/media/tech.shoppre%40gmail.com/6e5e13900aa59455/NFe8XCrVuPAQwNTPoryYww"
+          },
+          {
+            "rel": "http://schemas.google.com/contacts/2008/rel#photo",
+            "type": "image/*",
+            "href": "https://www.google.com/m8/feeds/photos/media/tech.shoppre%40gmail.com/6e5e13900aa59455"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/6e5e13900aa59455"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/6e5e13900aa59455/1507971131648002"
+          }
+        ],
+        "gd$email": [
+          {
+            "address": "innirasaneel@gmail.com",
+            "rel": "http://schemas.google.com/g/2005#other"
+          }
+        ]
+      },
+      {
+        "id": {
+          "$t": "http://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/base/702247888a4108db"
+        },
+        "updated": {
+          "$t": "2017-09-08T04:58:56.954Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/g/2005#kind",
+            "term": "http://schemas.google.com/contact/2008#contact"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": ""
+        },
+        "link": [
+          {
+            "rel": "http://schemas.google.com/contacts/2008/rel#edit-photo",
+            "type": "image/*",
+            "href": "https://www.google.com/m8/feeds/photos/media/tech.shoppre%40gmail.com/702247888a4108db/1B2M2Y8AsgTpgAmY7PhCfg"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/702247888a4108db"
+          },
+          {
+            "rel": "edit",
+            "type": "application/atom+xml",
+            "href": "https://www.google.com/m8/feeds/contacts/tech.shoppre%40gmail.com/full/702247888a4108db/1504846736954001"
+          }
+        ],
+        "gd$email": [
+          {
+            "address": "meenusarma@yahoo.com",
+            "primary": "true",
+            "rel": "http://schemas.google.com/g/2005#other"
+          }
+        ]
+      }
+    ]
+  }
+}

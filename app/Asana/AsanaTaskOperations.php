@@ -39,8 +39,11 @@ class AsanaTaskOperations
             $project_id="942090929966760";
             $workspace_id="413352110377780";
             $Bearer = "0/b1b8a7e730f8b006467e383e96cb1ef5";
+        }elseif($form=="P"){
+            $project_id="1106432437090454";
+            $workspace_id="413352110377780";
+            $Bearer = "0/c422294a9499228a8f529f83fea3fa2d";
         }
-
         curl_setopt_array($curl, array(
             CURLOPT_URL => "https://app.asana.com/api/1.0/tasks",
             CURLOPT_RETURNTRANSFER => true,

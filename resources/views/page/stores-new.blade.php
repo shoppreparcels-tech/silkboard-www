@@ -255,7 +255,7 @@
                                 @foreach($webs as $web)
                                     <div class="col-sm-3 col-xs-6">
                                         <div class="seller_box">
-                                            <span class="glyphicon glyphicon-heart seller-box-heart"></span>
+                                            {{--<span class="glyphicon glyphicon-heart seller-box-heart"></span>--}}
                                             @php
                                                 $logo = (!empty($web->logo)) ? $web->logo : 'brand-logo.png';
                                             @endphp
@@ -312,7 +312,7 @@
                                 @foreach($feats as $feat)
                                     <div class="col-sm-3 col-xs-3">
                                         <div class="seller_box">
-                                            <span class="glyphicon glyphicon-heart seller-box-heart"></span>
+                                            {{--<span class="glyphicon glyphicon-heart seller-box-heart"></span>--}}
                                             @php
                                                 $logo = (!empty($feat->logo)) ? $feat->logo : 'brand-logo.png';
                                             @endphp

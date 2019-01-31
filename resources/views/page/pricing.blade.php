@@ -296,9 +296,17 @@
 
 @section('content')
     <section class="header">
-        <div class="container header-padder-top">
+
+        <div class="container ">
             <center>
                 <p class="header1 p-color-white">Shipping Calculator</p>
+            </center>
+            <br>
+            <center>
+                <a href="{{route('customer.register')}}">
+                    <img src="{{asset('img/images/schedule-pickup-courier-from-india-shoppre.png')}}"
+                         alt="schedule-pickup-courier-from-india-shoppre" class="img-responsive">
+                </a>
             </center>
         </div>
 
@@ -313,6 +321,8 @@
                             Courier
                         </a>
                     </div>
+                </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -534,7 +544,7 @@
                                                         class="col-md-4 col-sm-4 col-xs-4 div-price-cal-length-padding">
                                                         <h6 class="header7 p-color-cement">Width (in cm)</h6>
                                                         <div class="col-sm-12 no-padding div-price-cal-length">
-                                                    <span id="aminus"
+                                                            <span id="aminus"
                                                           class="btn btn-puls-minus dec-value no-padding">-</span>
                                                             <input type="text" class="txt-length" name="width"
                                                                    value="0">

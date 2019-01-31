@@ -187,7 +187,7 @@ class PageController extends Controller
 //            print json_encode($feats);exit;
 
         if (Auth::check()) {
-            $favs = FavoriteStore::where('custid', Auth::id())->pluck('clubid')->toArray();
+            $favs = FavoriteStore::where('customer_id', Auth::id())->pluck('club_id')->toArray();
             return view('page.stores-new')->with(['categories' => $categories, 'webs' => $webs, 'fbs' => $fbs, 'feats' => $feats, 'favs' => $favs]);
         }
 
@@ -216,6 +216,7 @@ class PageController extends Controller
 
     public function offersIndex()
     {
+//        print json_encode('hi');exit;
         return view('page.offers-new');
     }
 
@@ -805,6 +806,12 @@ class PageController extends Controller
         return view('page.about');
     }
 
+    public function breakSentry()
+    {
+        $data = PackShipment::where('id', 10)->first();
+        return view('page.about');
+    }
+
     public function partner()
     {
         return view('page.partner');
@@ -1011,7 +1018,7 @@ class PageController extends Controller
             ->get();
 
         if (Auth::check()) {
-            $favs = FavoriteStore::where('custid', Auth::id())->pluck('clubid')->toArray();
+            $favs = FavoriteStore::where('customer_id', Auth::id())->pluck('club_id')->toArray();
             return view('page.stores')->with(['categories' => $categories, 'webs' => $webs, 'fbs' => $fbs, 'feats' => $feats, 'favs' => $favs]);
         }
 
@@ -1045,7 +1052,7 @@ class PageController extends Controller
             ->toArray();
         if (Auth::check()) {
             $stores['custid'] = true;
-            $stores['favs'] = FavoriteStore::where('custid', Auth::id())->pluck('clubid')->toArray();
+            $stores['favs'] = FavoriteStore::where('customer_id', Auth::id())->pluck('club_id')->toArray();
         }
 
         return response()->json(['stores' => $stores]);

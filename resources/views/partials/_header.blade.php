@@ -14,13 +14,20 @@
                 <div class="navbar-header-login">
                     <ul class="navbar-right">
                         <li class="new-menu-register">
-                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Register</a>
+                            <a href="https://myaccount.shoppre.com/register" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Register</a>
                         </li>
                         <li>
-                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login?src=menu" class="li-login">Login</a>
+                            <a href="https://myaccount.shoppre.com/login"  id="li-login">Login</a>
                         </li>
-
                     </ul>
+                    {{--<ul class="navbar-right">--}}
+                        {{--<li class="new-menu-register">--}}
+                            {{--<a href="{{route('customer.register')}}?src=menu" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Register</a>--}}
+                        {{--</li>--}}
+                        {{--<li>--}}
+                            {{--<a href="{{route('customer.login')}}?src=menu"  id="li-login">Login</a>--}}
+                        {{--</li>--}}
+                    {{--</ul>--}}
                 </div>
                 <a class="navbar-brand" href="{{route('home')}}">
 {{--                    <img class="logo" src="{{env('AWS_CLOUD_FRONT')}}/img/images/shoppre-logo.png" alt="ShoppRe">--}}
@@ -189,36 +196,6 @@
                                     </div>
 
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_plane.svg" alt="">
-                                    {{--this carousel block is required--}}
-                                    {{--<li class="dropdown-header"--}}
-                                        {{--style="font-size: 16px;color: #507dbc; text-decoration: underline;margin-top: 20px; font-weight: 900">--}}
-                                        {{--Offers--}}
-                                    {{--</li>--}}
-                                    {{--<div id="womenCollection" class="carousel slide" data-ride="carousel">--}}
-                                        {{--<div class="carousel-inner">--}}
-                                            {{--<div class="item active">--}}
-                                                {{--<a href="#"><img--}}
-                                                        {{--src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection"--}}
-                                                        {{--class="img-responsive" alt="product 1"></a>--}}
-
-
-                                            {{--</div>--}}
-                                            {{--<div class="item">--}}
-                                                {{--<a href="#"><img--}}
-                                                        {{--src="http://placehold.it/254x150/ff3546/f5f5f5/&text=New+Collection"--}}
-                                                        {{--class="img-responsive" alt="product 2"></a>--}}
-
-                                            {{--</div>--}}
-                                            {{--<div class="item">--}}
-                                                {{--<a href="#"><img--}}
-                                                        {{--src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection"--}}
-                                                        {{--class="img-responsive" alt="product 3"></a>--}}
-
-                                            {{--</div>--}}
-                                        {{--</div>--}}
-
-                                    {{--</div>--}}
-                                    {{--this carousel block is required--}}
                                 </ul>
                             </li>
                         </ul>
@@ -237,11 +214,29 @@
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right" id="header-ul">
+                    {{--@if (Auth::check())--}}
+                        {{--<li>--}}
+                            {{--<a href="{{route('customer.locker')}}" id="btn_login">--}}
+                                {{--<i class="fa fa-user" style="padding-right: 8px;font-size: 20px;"></i>{{Auth::user()->name}}--}}
+                            {{--</a>--}}
+                        {{--</li>--}}
+                    {{--@else--}}
+                        {{--<li>--}}
+                            {{--<a href="{{route('customer.login')}}?src=menu" id="btn_login">Login</a>--}}
+                        {{--</li>--}}
+                        {{--<li class="new-menu-register">--}}
+                            {{--<a href="{{route('customer.register')}}?src=menu" id="btn_register" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Sign Up FREE</a>--}}
+                        {{--</li>--}}
+                    {{--@endif--}}
+
                     <li>
-                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login?src=menu" target="_blank" id="btn_login">Login</a>
+                        <a href="https://myaccount.shoppre.com/login" target="_blank" id="btn_login">Login</a>
                     </li>
                     <li class="new-menu-register">
-                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" target="_blank" id="btn_register" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Sign Up FREE</a>
+                        <a href="https://myaccount.shoppre.com/register" target="_blank" id="btn_register"
+                           style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Sign
+                            Up FREE
+                        </a>
                     </li>
                 </ul>
             </div><!-- /.nav-collapse -->

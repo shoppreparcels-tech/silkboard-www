@@ -20,19 +20,23 @@
         .div-c-guide{border-radius: 3px;border: 1px solid rgba(233, 196, 106, 0.2);background-color: #fff7e4;}
         .btn-enable{display: none}
         .btn-disabled{display: inline-block}
+        .btn-puls-pad{padding: 6px 8px;}
+        .new-pricing .select-control {float: left;width: 89px;height: 40px;font-size: 13px;font-weight: 400;font-style: italic;border-left: 0;border-radius: 20px;background-color: #fafafb;border: none;}
+        .sidebar-nav-fixed{width:13%}.fixed-div{position: fixed;}
 
         @media only screen and (max-width: 600px) {
             .l-pad{padding-left: 0px}
             .container-fluid{padding-left: 1%;padding-right: 1%}
             .btn-enable{display: inline-block}
             .btn-disabled{display: none}
+            .btn-puls-pad{padding: 6px 6px;}
         }
 
     </style>
 @endsection
 
 @section('content')
-    <section>
+    <section id="new-pricing">
         <div class="container sec-pc-h no-pad" style="padding-bottom: 30px">
             <div class="col-md-9 col-sm-8 col-xs-12">
                 <div class="col-md-12 no-pad">
@@ -45,14 +49,14 @@
                     <form class="calc-form" id="shipping">
                         {{ csrf_field() }}
                         <div class="col-md-12 col-xs-12 no-pad ">
-                            <lable class="f-s-14 f-c-l-gray f-w-6 ">
+                            <lable class="f-s-14 f-c-l-gray l-h-3">
                                 Where do you want to send your package to?
                             </lable>
                         </div>
 
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-pad">
                             <div class="col-lg-6 col-md-6 col-sm-5 col-xs-12 no-pad">
-                                <select class="form-control select2 b-r" name="country">
+                                <select class="form-control select-control b-r" name="country">
                                     <option value="">Select Country</option>
                                     @foreach($countries as $country)
                                         <option
@@ -66,8 +70,9 @@
                         </div>
                         <div class="col-md-12 col-xs-12 no-pad">
                             <div class="col-md-6 col-xs-12 col-sm-6 no-pad">
-                                <lable class="f-s-14 f-c-l-gray f-w-5 ">Package Type</lable>
+                                <lable class="f-s-14 f-c-l-gray f-w-5 l-h-3">Package Type</lable>
                                 <br>
+
                                 <div class="btn-group" data-toggle="buttons">
                                     <label class="btn btn-primary active btn-h-40">
                                         <input type="radio" name="package_type" id="option2" value="doc" checked="checked">
@@ -82,8 +87,8 @@
                                     </label>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-xs-12 col-sm-6 no-pad">
-                                <lable class="f-s-14 f-c-l-gray f-w-5 ">Package Weight *</lable>
+                            <div class="col-md-6 col-xs-12 col-sm-6 pad-l-10">
+                                <lable class="f-s-14 f-c-l-gray f-w-5 l-h-3">Package Weight *</lable>
                                 <br>
                                 <div class="col-md-12 col-xs-12 no-pad">
                                     <div class="col-md-4 col-sm-4 col-xs-4 no-pad">
@@ -100,16 +105,11 @@
                                         </div>
                                     </div>
                                     <div class="col-md-8 col-sm-8 col-xs-8 div-b-g b-r no-pad">
-                                        <div class="col-md-2 col-xs-2 no-pad">
-                                            <button class="btn btn-h-40 pull-left" id="aminus">-</button>
-                                        </div>
+                                         <button type="button" class="btn btn-b-w btn-h-40 pull-left dec-value btn-puls-pad col-md-2 col-xs-2" id="aminus">-</button>
                                         <div class="col-md-8 col-xs-8 no-pad">
-                                            <input type="text" class="txt-f-w txt-a-c txt-n-b" value="0.5"
-                                                   name="weight">
+                                            <input type="text" class="txt-f-w txt-a-c txt-n-b col-md-8 col-xs-8" value="0.5"name="weight">
                                         </div>
-                                        <div class="col-md-2 col-xs-2 no-pad ">
-                                            <button class="btn btn-h-40 pull-right" id="aplus">+</button>
-                                        </div>
+                                         <button type="button" class="btn btn-b-w btn-h-40 pull-right inc-value btn-puls-pad col-md-2 col-xs-2" id="aplus">+</button>
                                     </div>
 
                                 </div>
@@ -117,11 +117,16 @@
                         </div>
 
                         <div class="col-md-12 col-xs-12 col-sm-12 no-pad">
-                            <div class="col-md-12 col-xs-12 no-pad">
-                                <p class="f-s-14 f-c-l-gray f-w-5">Volumetric Weight (Optional)</p><br>
-                            </div>
+                            <p class="f-s-14 f-c-l-gray f-w-5 col-md-12 col-xs-12 no-pad l-h-3">
+                                Volumetric Weight (Optional)
+                                <a href="#" class="tooltipkey" title="The shipping cost for your courier is
+                                             estimated to the maximum accuracy, based on our pricing policies and
+                                                 is based upon whichever is greater for your package;
+                                             either its volumetric weight or the actual weight">
+                                    <i class="fa fa-question-circle-o"></i></a>
+                            </p><br>
 
-                            <div class="col-md-6 col-xs-12 no-pad">
+                            <div class="col-md-5 col-xs-12 pad-r-10">
                                 <div class="col-md-4 col-xs-4 no-pad">
                                     <div class="btn-group" data-toggle="buttons">
                                         <p class="f-s-14 f-c-l-gray f-w-5 pull-left">Unit</p> <br>
@@ -136,67 +141,69 @@
                                         </label>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-xs-8 no-pad pull-right">
-                                    <h14 class="f-s-14 f-c-l-gray f-w-5 pull-left">Length</h14>
+                                <div class="col-md-8 col-xs-8 no-pad pull-right">
+                                    <h14 class="f-s-14 f-c-d-greay f-w-5 pull-left">Length</h14>
                                     <br>
                                     <div class="col-md-12 col-xs-12 div-b-g b-r no-pad">
-                                        <div class="col-md-2 col-xs-2 no-pad">
-                                            <button class="btn btn-h-40 pull-left" id="aminus">-</button>
-                                        </div>
+                                        <button type="button" class="btn btn-b-w btn-h-40 pull-left dec-value btn-puls-pad col-md-2 col-xs-2" id="aminus">-</button>
                                         <div class="col-md-8 col-xs-8 no-pad">
                                             <input type="text" class="txt-f-w txt-a-c txt-n-b" value="0.5"
                                                    name="weight">
                                         </div>
-                                        <div class="col-md-2 col-xs-2 no-pad">
-                                            <button class="btn btn-h-40 pull-right" id="aplus">+</button>
-                                        </div>
+                                        <button type="button" class="btn btn-b-w btn-h-40 pull-right inc-value btn-puls-pad col-md-2 col-xs-2" id="aplus">+</button>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-md-6 col-xs-12 no-pad">
-                                <div class="col-md-6 col-xs-6 no-pad ">
-                                    <h14 class="f-s-14 f-c-l-gray f-w-5 pull-left">Height</h14>
+                            <div class="col-md-7 col-xs-12 pad-l-10">
+                                <div class="col-md-6 col-xs-6 pad-r-10 ">
+                                    <h14 class="f-s-14 f-c-d-greay f-w-5 pull-left">Height</h14>
                                     <br>
                                     <div class="col-md-12 col-xs-12 div-b-g b-r no-pad">
-                                        <div class="col-md-2 col-xs-2 no-pad">
-                                            <button class="btn btn-h-40 pull-left" id="aminus">-</button>
-                                        </div>
+                                        <button type="button" class="btn btn-b-w btn-h-40 pull-left dec-value btn-puls-pad col-md-2 col-xs-2" id="aminus">-</button>
                                         <div class="col-md-8 col-xs-8 no-pad">
                                             <input type="text" class="txt-f-w txt-a-c txt-n-b" value="0.5"
                                                    name="weight">
                                         </div>
-                                        <div class="col-md-2 col-xs-2 no-pad div-align-items-r">
-                                            <button class="btn btn-h-40 pull-right" id="aplus">+</button>
-                                        </div>
+                                        <button type="button" class="btn btn-b-w btn-h-40 pull-right inc-value btn-puls-pad col-md-2 col-xs-2" id="aplus">+</button>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-xs-6 no-pad">
-                                    <h14 class="f-s-14 f-c-l-gray f-w-5 pull-left">Width</h14>
+                                <div class="col-md-6 col-xs-6 pad-l-10 ">
+                                    <h14 class="f-s-14 f-c-d-greay f-w-5 pull-left">Width</h14>
                                     <br>
                                     <div class="col-md-12 col-xs-12 div-b-g b-r no-pad">
-                                        <div class="col-md-2 col-xs-2 no-pad">
-                                            <button class="btn btn-h-40 pull-left" id="aminus">-</button>
-                                        </div>
+                                        <button type="button" class="btn btn-b-w btn-h-40 pull-left dec-value btn-puls-pad col-md-2 col-xs-2" id="aminus">-</button>
                                         <div class="col-md-8 col-xs-8 no-pad">
                                             <input type="text" class="txt-f-w txt-a-c txt-n-b" value="0.5"
                                                    name="weight">
                                         </div>
-                                        <div class="col-md-2 col-xs-2 no-pad div-align-items-r">
-                                            <button class="btn btn-h-40 pull-right" id="aplus">+</button>
-                                        </div>
+                                        <button type="button" class="btn btn-b-w btn-h-40 pull-right inc-value btn-puls-pad col-md-2 col-xs-2" id="aplus">+</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-12 col-xs-12 no-pad">
+                            <div class="col-md-6 col-xs-12 pad-r-10"><br>
+                                <input id="phone" name="phone" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off">
+                            </div>
                             <div class="col-md-6 col-xs-12 no-pad"><br>
-                                <button class="btn btn-b-r btn-s-r btn-f-w btn-h-40">Get An Estimate</button>
+                                <button class="btn btn-b-r btn-s-r btn-f-w btn-h-40" >Get An Estimate</button>
                             </div>
                         </div>
                     </form>
                     <br>
-                    <div class="col-md-12 col-xs-12 no-pad" style="display: none;" id="pricing-panel">
+
+                    <div class="col-md-12 col-xs-12 no-pad" id="addImge">
+                        <br>
+                        <br>
+                        <center>
+                            <a href="{{route('customer.register')}}">
+                                <img src="{{asset('img/images/schedule-pickup-courier-from-india-shoppre.png')}}"
+                                     alt="schedule-pickup-courier-from-india-shoppre" class="img-responsive">
+                            </a>
+                        </center>
+                    </div>
+                    <div class="col-md-12 col-xs-12 no-pad display-none"  id="pricing-panel">
                         <div class="col-md-6 col-xs-12 no-pad">
                             <br>
                             <div class="col-xs-12 col-md-12 div-b-price pad-10">
@@ -228,7 +235,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-xs-12 ">
+                        <div class="col-md-6 col-xs-12 pad-l-10">
                             <br>
                             <div class="col-xs-12 col-md-12 div-p-price pad-10">
                                 <div class="col-xs-12 col-md-12 no-pad">
@@ -335,7 +342,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-4 col-xs-12"><br>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                {{--<div class="sidebar-nav-fixed affix">--}}
+                <br>
                 <div class="col-md-12 col-xs-12 no-pad">
                     <a href="" class="btn btn-f-w btn-b-b btn-s-b btn-a-l">Domestic Shipping Rates</a><br>
                 </div>
@@ -393,9 +402,10 @@
                         <a href="" class="f-s-14 f-c-blue">Restricted & prohibited items</a><br><br>
                         <a href="" class="f-s-14 f-c-blue">Premium Plans for Sellers</a><br><br>
                     </div>
-
                 </div>
+                {{--</div>--}}
             </div>
+
             <div class="col-md-12 col-xs-12"><br>
                 <div class="col-md-12 col-xs-12 div-b-w-s no-pad">
                     <div class="col-xs-12 col-md-12 no-pad">
@@ -1008,6 +1018,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-md-12 col-xs-12 col-lg-12"><br>
                 <div class="col-md-12 col-xs-12 div-b-w-s pad-20">
                     <h1 class="f-s-22 f-c-blue f-w-9">
@@ -1037,6 +1048,32 @@
 
 @section('js_script')
     <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+            // allowDropdown: false,
+            // autoHideDialCode: false,
+            // autoPlaceholder: "off",
+            // dropdownContainer: document.body,
+            // excludeCountries: ["us"],
+            // formatOnDisplay: false,
+            // geoIpLookup: function(callback) {
+            //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+            //     var countryCode = (resp && resp.country) ? resp.country : "";
+            //     callback(countryCode);
+            //   });
+            // },
+            // hiddenInput: "full_number",
+            // initialCountry: "auto",
+            // localizedCountries: { 'de': 'Deutschland' },
+            // nationalMode: false,
+            // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+            // placeholderNumberType: "MOBILE",
+            // preferredCountries: ['cn', 'jp'],
+            // separateDialCode: true,
+            utilsScript: "build/js/utils.js",
+        });
+    </script>
     <script type="text/javascript">
         /* Magnific Popup */
         $(document).ready(function () {
@@ -1052,7 +1089,6 @@
                 });
             });
         });
-
     </script>
     <!-- Select2 -->
     <script src="{{asset('js/select2.min.js')}}"></script>
@@ -1081,91 +1117,92 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            $("#shipping").validate({
-                rules:
-                    {
-                        country: {required: true},
-                        weight: {required: true},
-                        unit: {required: true},
-                    },
-                messages:
-                    {
-                        country: {required: "Please select country"},
-                        weight: {required: "Please enter weight to calculate."},
-                        unit: {required: "Please select unit of weight."},
-                    },
-                submitHandler: function (form) {
-                    var country = $("select[name='country']").val();
-                    var weight = $("input[name='weight']").val();
-                    var weight_unit = $("input[name='weight_unit']:checked").val();
-                    var measurement_unit = $("input[name='measurement_unit']:checked").val();
-                    var package_type = $("input[name='package_type']:checked").val();
-                    var length = $("input[name='length']").val();
-                    var width = $("input[name='width']").val();
-                    var height = $("input[name='height']").val();
-                    console.log('country '+country+'\n weight '+ weight+'\n weight_unit '+ weight_unit+ '\n type '+package_type+' \n measurement_unit '+measurement_unit+'\n length '+length+'\n width '+width+'\n height '+height);
-                    jQuery.ajax({
-                        url: 'https://ship-api.shoppre.com/api/pricing?all=true&country='+country+'&type='+package_type+'&weight='+weight,
-                        type: 'get',
-                        success: function ({prices}) {
-                            console.log(prices[0].customerRate);
-                            let customer_price = prices[0].customerRate;
-                            let member_price = (customer_price*95)/100;
-                            console.log(member_price);
-                            $('#customer-price-tag').text(Math.round(customer_price));
-                            $('#member-price-tag').text(Math.round(member_price));
-                            $('#customer_total_price').text(Math.round(customer_price * 2));
-                            $('#member_total_price').text(Math.round(member_price * 2));
-                            $('#pricing-panel').slideDown();
-                        }
-                    });
-                    return false;
-                }
-            });
-
-            $("#form_quote").validate({
-                rules:
-                    {
-                        state: {required: true},
-                        city: {required: true},
-                        pin: {required: true},
-                        type: {required: true},
-                        weight: {required: true},
-                        unit: {required: true},
-                        email: {required: true, email: true},
-                    },
-                messages:
-                    {
-                        state: {required: "Please select state"},
-                        city: {required: "Please enter city"},
-                        pin: {required: "Please enter PIN"},
-                        weight: {required: "Enter package weight."},
-                        email: {required: "Enter your email address to contact."},
-                    },
-                submitHandler: function (form) {
-                    $("#quote_load").show();
-                    jQuery.ajax({
-                        url: '/qoute/submit',
-                        type: "POST",
-                        data: $("#form_quote").serialize(),
-
-                        success: function (data) {
-                            $('#form_quote')[0].reset();
-                            $("#quote_load").hide();
-                            $("#quote_submit").hide();
-                            $("#quote_result").show();
+                $("#shipping").validate({
+                    rules:
+                        {
+                            country: {required: true},
+                            weight: {required: true},
+                            unit: {required: true},
                         },
-                        error: function (xhr, ajaxOptions, thrownError) {
-                            $('#form_quote')[0].reset();
-                            $("#quote_load").hide();
-                            $("#quote_error").show();
-                            $("#quote_submit").hide();
-                            /*console.log(xhr.responseText);*/
-                        }
-                    });
-                    return false;
-                }
-            });
+                    messages:
+                        {
+                            country: {required: "Please select country"},
+                            weight: {required: "Please enter weight to calculate."},
+                            unit: {required: "Please select unit of weight."},
+                        },
+                    submitHandler: function (form) {
+                        var country = $("select[name='country']").val();
+                        var weight = $("input[name='weight']").val();
+                        var weight_unit = $("input[name='weight_unit']:checked").val();
+                        var measurement_unit = $("input[name='measurement_unit']:checked").val();
+                        var package_type = $("input[name='package_type']:checked").val();
+                        var length = $("input[name='length']").val();
+                        var width = $("input[name='width']").val();
+                        var height = $("input[name='height']").val();
+                        console.log('country ' + country + '\n weight ' + weight + '\n weight_unit ' + weight_unit + '\n type ' + package_type + ' \n measurement_unit ' + measurement_unit + '\n length ' + length + '\n width ' + width + '\n height ' + height);
+                        jQuery.ajax({
+                            url: 'https://ship-api.shoppre.com/api/pricing?all=true&country=' + country + '&type=' + package_type + '&weight=' + weight,
+                            type: 'get',
+                            success: function ({prices}) {
+                                console.log(prices[0].customerRate);
+                                let customer_price = prices[0].customerRate;
+                                let member_price = (customer_price * 95) / 100;
+                                console.log(member_price);
+                                $('#customer-price-tag').text(Math.round(customer_price));
+                                $('#member-price-tag').text(Math.round(member_price));
+                                $('#customer_total_price').text(Math.round(customer_price * 2));
+                                $('#member_total_price').text(Math.round(member_price * 2));
+                                $('#pricing-panel').slideDown();
+                                $('#addImge').hide();
+                            }
+                        });
+                        return false;
+                    }
+                });
+                
+                $("#form_quote").validate({
+                    rules:
+                        {
+                            state: {required: true},
+                            city: {required: true},
+                            pin: {required: true},
+                            type: {required: true},
+                            weight: {required: true},
+                            unit: {required: true},
+                            email: {required: true, email: true},
+                        },
+                    messages:
+                        {
+                            state: {required: "Please select state"},
+                            city: {required: "Please enter city"},
+                            pin: {required: "Please enter PIN"},
+                            weight: {required: "Enter package weight."},
+                            email: {required: "Enter your email address to contact."},
+                        },
+                    submitHandler: function (form) {
+                        $("#quote_load").show();
+                        jQuery.ajax({
+                            url: '/qoute/submit',
+                            type: "POST",
+                            data: $("#form_quote").serialize(),
+
+                            success: function (data) {
+                                $('#form_quote')[0].reset();
+                                $("#quote_load").hide();
+                                $("#quote_submit").hide();
+                                $("#quote_result").show();
+                            },
+                            error: function (xhr, ajaxOptions, thrownError) {
+                                $('#form_quote')[0].reset();
+                                $("#quote_load").hide();
+                                $("#quote_error").show();
+                                $("#quote_submit").hide();
+                                /*console.log(xhr.responseText);*/
+                            }
+                        });
+                        return false;
+                    }
+                });
 
         });
     </script>
