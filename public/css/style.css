@@ -201,16 +201,16 @@ label.error{
 ::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder{
     color: #fff;
 }
-.navbar-top{
-    margin-bottom: 0;
-    /*background-image: url('../img/top-bar.jpg');*/
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-    background-color: #11273b;
-    background-repeat: repeat-x;
-    background-size: cover;
-    border: 0;
-    border-radius: 0;
-}
+/*.navbar-top{*/
+    /*margin-bottom: 0;*/
+    /*!*background-image: url('../img/top-bar.jpg');*!*/
+    /*box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);*/
+    /*background-color: #11273b;*/
+    /*background-repeat: repeat-x;*/
+    /*background-size: cover;*/
+    /*border: 0;*/
+    /*border-radius: 0;*/
+/*}*/
 .navbar-top .nav li a{
     color: #fff;
     font-size: 13px;
