@@ -407,7 +407,6 @@ Route::post('/forgot-password', 'Myaccount\Customer\PasswordController@submitFor
 Route::get('/reset-password/token/{token}/email/{email}', 'Myaccount\Customer\PasswordController@resetForgot')->name('customer.reset');
 Route::post('/reset-password/submit', 'Myaccount\Customer\PasswordController@resetPassword')->name('customer.reset.submit');
 
-
 /*------ Profile ----------*/
 Route::get('/register', 'Myaccount\Customer\RegisterController@register')->name('customer.register');
 Route::post('/register', 'Myaccount\Customer\RegisterController@submitRegister')->name('customer.register.submit');
