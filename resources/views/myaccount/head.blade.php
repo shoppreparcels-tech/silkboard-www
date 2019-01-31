@@ -21,7 +21,7 @@
     <!-- Progress Circle -->
     <link href="{{asset('css/txtProgress.min.css')}}" rel="stylesheet">
     @yield('css_style')
-    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/custom/myaccount.css')}}" rel="stylesheet">
     <link href="{{asset('css/custom/signup.css')}}" rel="stylesheet">
     <link href="{{asset('css/custom/style-frame.css')}}" rel="stylesheet">
 
