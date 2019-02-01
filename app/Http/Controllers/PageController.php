@@ -30,8 +30,9 @@ use App\SubscribedUser;
 
 class PageController extends Controller
 {
-    public function verifyOtp(Request $request) {
-        $exist_user = SubscribedUser::where('mobile', '=', $request->mobile_number) ->first();
+    public function verifyOtp(Request $request)
+    {
+        $exist_user = SubscribedUser::where('mobile', '=', $request->mobile_number)->first();
         if ($exist_user->otp == $request->otp) {
             return response()->json([
                 'message' => 'Success',
@@ -43,12 +44,13 @@ class PageController extends Controller
             'description' => 'Wrong otp is entered',
         ]);
     }
-    public function subscribeUser(Request $request) {
-        $exist_user = SubscribedUser::where('mobile', '=', $request->mobile_number) ->first();
-        $otp = rand(1000,9999);
-        if (empty($exist_user))
-        {
-            $subscribed_user  = new SubscribedUser();
+
+    public function subscribeUser(Request $request)
+    {
+        $exist_user = SubscribedUser::where('mobile', '=', $request->mobile_number)->first();
+        $otp = rand(1000, 9999);
+        if (empty($exist_user)) {
+            $subscribed_user = new SubscribedUser();
             $subscribed_user->phone_code = $request->country_code;
             $subscribed_user->mobile = $request->mobile_number;
             $subscribed_user->otp = $otp;
@@ -57,9 +59,7 @@ class PageController extends Controller
                 'message' => 'Success',
                 'description' => 'user subscribed successfully '
             ]);
-        }
-        else
-        {
+        } else {
             $exist_user->otp = $otp;
             $exist_user->save();
             return response()->json([
@@ -79,15 +79,18 @@ class PageController extends Controller
     {
         return view('page.diwali-landing');
     }
+
     public function christmas()
     {
         return view('page.christmas-landing');
     }
+
     public function newyear()
     {
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
-        return view('page.newyear-landing')->with(['countries'=> $countries]);
+        return view('page.newyear-landing')->with(['countries' => $countries]);
     }
+
     public function university()
     {
         return view('page.university-landing');
@@ -97,6 +100,7 @@ class PageController extends Controller
     {
         return view('page.ics-landing');
     }
+
     public function firstTimeShipment()
     {
         return view('page.first-shipment');
@@ -111,14 +115,17 @@ class PageController extends Controller
     {
         return view('page.packers-movers');
     }
+
     public function voucher()
     {
         return view('page.voucher');
     }
+
     public function ajioIndex()
     {
         return view('page.ajio-landing');
     }
+
     public function jayporeIndex()
     {
         return view('page.jaypore-landing');
@@ -128,10 +135,12 @@ class PageController extends Controller
     {
         return view('page.flipkart-landing');
     }
+
     public function myntraIndex()
     {
         return view('page.myntra-landing');
     }
+
     public function amazonIndex()
     {
         return view('page.amazon-landing');
@@ -145,25 +154,29 @@ class PageController extends Controller
     public function shopShipIndex()
     {
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
-        return view('page.shop-ship')->with(['countries'=> $countries]);
+        return view('page.shop-ship')->with(['countries' => $countries]);
     }
 
     public function seller()
     {
         return view('page.become-partner');
     }
+
     public function valentines()
     {
         return view('page.valentines');
     }
+
     public function radioContest()
     {
         return view('page.radio-contest');
     }
+
     public function radioTermsConditions()
     {
         return view('page.radio-terms-conditions');
     }
+
     public function faqNew()
     {
         $categories = FaqCategory::all();
@@ -184,7 +197,7 @@ class PageController extends Controller
             ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
             ->get();
         $feats = StoreCatClub::where('category_id', 2)
-            ->where('featured' , '<>', 0)
+            ->where('featured', '<>', 0)
             ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
             ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
             ->get();
@@ -249,7 +262,7 @@ class PageController extends Controller
         );
 
         $json_data = json_encode($data);
-        $commnet = "Enquiry from footer subscriber email: ".$email;
+        $commnet = "Enquiry from footer subscriber email: " . $email;
         AsanaTaskOperations::createTask($email, $commnet, "E");
 //        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
 
@@ -307,6 +320,91 @@ class PageController extends Controller
         $json_data = json_encode($data);
         mailChimpTaskOperations::createList($list_id, $auth, $json_data);
     }
+
+    public function apiValentines(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $list_id = 'aca625e01f';
+        $auth = base64_encode('user:' . $apikey);
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $name = $req->name;
+            $contact = $req->contact_no;
+            $commnet = "Lead from Valentines landing page email " . $email . "\n contact No: " . $contact;
+            AsanaTaskOperations::createTask($name, $commnet, "L");
+        }
+
+        $data = array(
+            'apikey' => $apikey,
+            'email_address' => $email,
+            'status' => 'subscribed',
+            'merge_fields' => array(
+                'FNAME' => $name,
+                'LNAME' => '',
+                'PHONE' => $contact
+            )
+        );
+        $json_data = json_encode($data);
+        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+    }
+
+    public function apiMedicine(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $list_id = 'aca625e01f';
+        $auth = base64_encode('user:' . $apikey);
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $name = $req->name;
+            $contact = $req->contact_no;
+            $commnet = "Lead from Medicine courier landing page email " . $email . "\n contact No: " . $contact;
+            AsanaTaskOperations::createTask($name, $commnet, "L");
+        }
+
+        $data = array(
+            'apikey' => $apikey,
+            'email_address' => $email,
+            'status' => 'subscribed',
+            'merge_fields' => array(
+                'FNAME' => $name,
+                'LNAME' => '',
+                'PHONE' => $contact
+            )
+        );
+        $json_data = json_encode($data);
+        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+    }
+
+    public function apiParcelForwarding(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $list_id = 'aca625e01f';
+        $auth = base64_encode('user:' . $apikey);
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $name = $req->name;
+            $contact = $req->contact_no;
+            $commnet = "Lead from Parcel Forwarding landing page email " . $email . "\n contact No: " . $contact;
+            AsanaTaskOperations::createTask($name, $commnet, "L");
+        }
+
+        $data = array(
+            'apikey' => $apikey,
+            'email_address' => $email,
+            'status' => 'subscribed',
+            'merge_fields' => array(
+                'FNAME' => $name,
+                'LNAME' => '',
+                'PHONE' => $contact
+            )
+        );
+        $json_data = json_encode($data);
+        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+    }
+
 
     public function newYearOffer(Request $req)
     {

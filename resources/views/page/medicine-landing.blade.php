@@ -93,8 +93,7 @@
 
                         </div>
                         <div class="text-center">
-                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-d-signup">Sign
-                                Up</a>
+                            <a href="{{route('customer.register')}}" class="btn btn-s-r btn-a-l btn-b-r">Sign Up</a>
                         </div>
                     </div>
                 </form>
@@ -438,7 +437,7 @@
                     var contact_no = $("input[name='ContactNumber']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api/send-international-courier-from-india',
+                        url: 'api/medicine',
                         type: "POST",
                         data: {
                             _token: token,

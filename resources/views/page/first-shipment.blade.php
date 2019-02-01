@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title', 'First International Shipment Cashback | Discount - ShoppRe.com')
-@section('description', 'Get 50% Cashback on your First-time international shipment from India. Additionally get 80% lesser shipping cost with our package consolidation services.')
+@section('description', 'Get 50% Discount on your First-time international shipment from India. Additionally get 80% lesser shipping cost with our package consolidation services.')
 @section('keywords', 'free shipment process, cashback, shipment, consolidation, repackaging')
 
 @section('css_style')
@@ -64,17 +64,17 @@
            <div class="col-md-6 col-xs-12 no-padding">
                <center>
                    <img src="{{asset('img/images/f-t-s-priyamani.png')}}" alt="" class="img-new-year"><br>
-                   <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu"><img src="{{asset('img/images/tape_signup.svg')}}" alt="" > </a> <br>
+                   <a href="{{route('customer.register')}}"><img src="{{asset('img/images/tape_signup.svg')}}" alt="" > </a> <br>
                </center>
                <center>
-                   <h18 class="f-s-50 f-c-white  f-w-9">50% Cashback</h18>
+                   <h18 class="f-s-50 f-c-white  f-w-9">50% Discount</h18>
                    <p class="f-s-36 f-c-white f-w-9 ">on your first shipment </p>
                    <img src="{{asset('img/images/f-s-t-coupon.png')}}" alt="" > <br><br>
-                   <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE</a>
+                   <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE</a>
                    <br>
                    <br>
                    <br>
-                   <p class="f-s-10 f-c-l-gray f-w-8">From 1st Jan to 31st Jan 2019</p>
+                   <p class="f-s-10 f-c-l-gray f-w-8">From 1st Feb to 28th Feb 2019</p>
 
                </center>
            </div>
@@ -138,7 +138,7 @@
                 <h4 class="f-s-18 f-c-l-gray f-w-9">Haven't made a shipment with us yet? What're you waiting for?!</h4>
                 <br>
                 <p class="header4 p-color-cement">Pick & choose your favorites from 1000+ Indian online stores and get us to ship your purchases overseas,
-                    or come to us for an international courier; if it's your first shipment with us - you can avail a <strong> 50% Cashback UP TO Rs. 250/- </strong> on
+                    or come to us for an international courier; if it's your first shipment with us - you can avail a <strong> 50% Discount UP TO Rs. 200/- </strong> on
                     top of the savings you make because our consolidation services.
                 </p>
                 <h6 class="f-s-16 f-c-gray f-w-8">Don't put it on hold - ship with us already! </h6><br>
@@ -146,11 +146,11 @@
                 <div class="offerDesc">
                     <h4 style="text-decoration: underline">Terms and Conditions:</h4>
                     <ul>
-                        <li>Get 50% Cashback. </li>
+                        <li>Get 50% Discount. </li>
                         <li>Offer Code: <b>FRST50</b></li>
-                        <li>Maximum amount that can be availed by a customer is ₹250/-.</li>
+                        <li>Maximum amount that can be availed by a customer is ₹200/-.</li>
                         <li>This offer cannot be clubbed with any other offer.</li>
-                        <li>This Coupon is Valid Upto 31-January-2019</li>
+                        <li>This Coupon is Valid Upto 28-February-2019</li>
                         <li>A customer can avail this offer only once during the offer period.</li>
                         <li>This offer is applicable only for International Shipments.</li>
                         <li>Clearance charges is applicable for Special items</li>
@@ -160,8 +160,7 @@
                 </div>
                 <br>
                 <div>
-                {{--<center><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=sny2019" class="btn-chris-place-order">Go Shopping Now!</a></center>--}}
-                <center><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=cbpage" class="btn btn-s-r btn-a-l btn-b-r">Sign Up Now!</a></center>
+                <center><a href="{{route('customer.register')}}" class="btn btn-s-r btn-a-l btn-b-r">Sign Up Now!</a></center>
                 </div>
 
             </div>
@@ -205,9 +204,6 @@
                         </ul>
                     </div>
                 </div>
-                {{--<div class="text-center">--}}
-                {{--<a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-d-signup">Sign Up</a>--}}
-                {{--</div>--}}
                 <br/><br/>
             </div>
         </div>

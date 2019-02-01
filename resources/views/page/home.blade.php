@@ -284,16 +284,17 @@
                 <div>
                     <div class="col-md-10 div-h-offer no-padding">
                         <center>
-                            <h7 class="header7 p-color-blue">Avail Your Discount Today!</h7>
+                            <h7 class="f-s-16 f-c-blue f-w-8">Avail Your Discount on your First International Shipment!</h7>
                         </center>
                         <br>
                         <div>
                             <center>
-                                <img src="{{asset('img/images/first-50.png')}}" alt="FIRST50 Cashback" class="img-responsive"> <br>
+{{--                                <img src="{{asset('img/images/first-50.png')}}" alt="FIRST50 Cashback" class="img-responsive"> <br>--}}
+                                <img src="{{asset('img/images/offer-international-courier-india.png')}}" alt="FIRST50 Cashback" class="img-responsive"> <br>
                             </center>
                         </div>
                         <center>
-                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn-l btn-b-r btn-s-r btn-a-l">Sign Up FREE</a>
+                            <a href="{{route('customer.register')}}" class="btn-l btn-b-r btn-s-r btn-a-l">Sign Up FREE</a>
                         </center>
                         <span class="pull-right f-c-gray f-s-12"><a href="{{route('first-shipment')}}">*T&C Apply</a></span>
 
@@ -708,7 +709,7 @@
             <center>
                 <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
                 <p class="header2 p-doorstep-des">What Are You Waiting For Re! Just Come Shopp Re!</p>
-                <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" target="_blank">
+                <a href="{{route('customer.register')}}" target="_blank">
                     <div class="btn-login-doorstep header5 p-color-white">
                         <p>
                             Sign Up for FREE

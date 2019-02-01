@@ -87,13 +87,14 @@
                             <center>
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/request-sent.svg" alt="">
                                 <h6 class="header5 p-color-blue">Request Sent!</h6>
-                                <h5 class="header5 p-color-cement">Just One More Step To start <br>scheduling your
-                                    courier</h5>
+                                <h5 class="header5 p-color-cement">Thank You.
+                                    You Will Receive<br> Call Back Shortly from ShoppRe Team
+                                </h5>
                             </center>
 
                         </div>
                         <div class="text-center">
-                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-d-signup">Sign
+                            <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-r btn-a-m">Sign
                                 Up</a>
                         </div>
                     </div>
@@ -400,7 +401,7 @@
                     var contact_no = $("input[name='ContactNumber']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api/send-international-courier-from-india',
+                        url: 'api/parcel-forwarding',
                         type: "POST",
                         data: {
                             _token: token,
@@ -411,7 +412,6 @@
                         success: function (data) {
                             console.log(data);
                             $('#diwali-couponcode1').hide();
-                            // $('#diwali-couponcode2').css('display','block');
                             $('#diwali-couponcode2').slideDown();
                         }
                     })

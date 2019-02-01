@@ -29,5 +29,8 @@ Route::post('/radcon', 'PageController@radconSubmit')->name('radcon');
 Route::post('/christmas', 'PageController@christmasSubmit')->name('christmas');
 Route::post('/university', 'PageController@universitySubmit')->name('university');
 Route::post('/shop-ship', 'PageController@shopShip')->name('shopShip');
+Route::post('/valentines-cashback', 'PageController@apiValentines')->name('valentine');
+Route::post('/medicine', 'PageController@apiMedicine')->name('apiMedicine');
+Route::post('/parcel-forwarding', 'PageController@apiParcelForwarding')->name('apiParcelForwarding');
 
 

@@ -6,15 +6,9 @@
 
 @section('css_style')
     <style>
-        .bg-valentain {
-            background-image: url(../../img/images/overlay1.png);
-            height: 900px;
-            width: 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-color: #fafafb;
-            padding-top: 60px;
+        .bg-valentain {background-image: url(../../img/images/overlay1.png);height: 900px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
+        @media only screen and (max-width: 600px) {
+            .bg-valentain {height: 1000px}
         }
     </style>
 
@@ -23,16 +17,16 @@
 
     <section class="bg-valentain">
         <div class="container">
-            <div class="col-md-12" style="padding:20px;margin-bottom: 3em">
-                <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">
-{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">--}}
-                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/christmas-contact.png" alt="">
-                </a>
-                <a href="tel:+91-8277919191" class="d-contact-img pull-right">
-{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">--}}
-                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/christmas-contact.png" alt="">
-                </a>
-            </div>
+            {{--<div class="col-md-12">--}}
+                {{--<a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">--}}
+                    {{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">--}}
+                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/christmas-contact.png" alt="">--}}
+                {{--</a>--}}
+                {{--<a href="tel:+91-8277919191" class="d-contact-img pull-right">--}}
+                    {{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">--}}
+                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/christmas-contact.png" alt="">--}}
+                {{--</a>--}}
+            {{--</div>--}}
 
             <div class="col-sm-7 col-xs-12">
                 <h1 class="f-s-45 f-c-white f-w-8 l-h-1">Ship LOVE from India</h1>
@@ -49,11 +43,16 @@
                 </div>
             </div>
 
-            <div class="col-sm-5 diwali-form-img">
-                    {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-banner.png" alt="" class="diwali-offer-img img-responsive" >--}}
+            <div class="col-md-5 col-sm-5 col-xs-12 diwali-form-img">
                 <form action=""  method="post" id="diwali_coupon">
                     {{csrf_field()}}
+
                     <div class="formFrame" id="diwali-couponcode1">
+                        <div class="form-group" >
+                            <a href="tel:+91-8277919191">
+                                <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/christmas-contact.png" alt="">
+                            </a>
+                        </div>
                         <div class="form-group">
                             <label>Full Name</label>
                             <input type="text" name="Name" class="form-control"
@@ -81,12 +80,11 @@
                         <div class="">
                             <center>
                                 <h6 class="header5 p-color-blue">Congratulations!</h6>
-                                <h5 class="header5 p-color-cement">Just One More Step To Use <br>Your Coupon!</h5>
+                                <h5 class="header5 p-color-cement">Just One More Step To Use <br>Your Cashback!</h5>
                             </center>
                         </div>
                         <div class="text-center">
-                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-a-l btn-b-r btn-s-r">Sign Up</a>
-                            {{--<button type="submit" name="btnActivate" class="btn btn-shoppre">Sign Up</button>--}}
+                            <a href="{{route('customer.register')}}" class="btn btn-a-l btn-b-r btn-s-r">Sign Up</a>
                         </div>
                     </div>
                 </form>
@@ -197,10 +195,11 @@
                     </ul>
                     <h5>Offer</h5>
                     <ul>
+                        <li>15% Cashback upto INR 250/-</li>
                         <li>The offer applies for your shipping costs only.</li>
                         <li>This offer cannot be clubbed with any other offer.</li>
                         <li>This offer is applicable only for international shipments.</li>
-                        <li>This coupon is valid only until [date]-2019.</li>
+                        <li>This coupon is valid only until 1st Feb to 17th Feb 2019.</li>
                         <li>Clearance charges are applicable for shipping Special Items - liquids & semi liquids such as cosmetics, medicines, oils & homemade food.</li>
                     </ul>
 
@@ -313,7 +312,7 @@
                     var contact_no = $("input[name='ContactNumber']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api/diwali-offer',
+                        url: 'api/valentines-cashback',
                         type: "POST",
                         data: {
                             _token: token,
