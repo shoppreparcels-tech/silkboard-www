@@ -63,37 +63,51 @@
                     <div class="MultiCarousel-inner">
                         <div class="item">
                             <div class="pad15">
-                                <a href="https://www.shoppre.com/university-offer?src=off-page">
+                                <a href="https://www.shoppre.com/university-offer">
                                     <img src="{{asset('img/images/university-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                <a href="https://www.shoppre.com/offers/50-percent-offer-on-your-first-international-shipment/" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/offer-first-international-shipment.png" class="boxofScroll" alt="Offer first international shipment"/>
+                                <a href="{{route('valentines')}}" target="_blank">
+                                    <img src="{{asset('img/images/valentines.png')}}" class="boxofScroll" alt="Offer first international shipment"/>
                                 </a>
                             </div>
                         </div>
-                        {{--<div class="item">--}}
-                            {{--<div class="pad15">--}}
-                                {{--<a href="https://www.shoppre.com/new-year-offer?src=offer-page">--}}
-                                    {{--<img src="{{asset('img/images/new-year-19.png')}}" class="boxofScroll" alt="New Year offer"/>--}}
-                                {{--</a>--}}
 
-                            {{--</div>--}}
-                        {{--</div>--}}
                         <div class="item">
                             <div class="pad15">
-                                <a href="https://www.shoppre.com/offers/republic-day-special-offer-from-shoppre/">
-                                    <img src="{{asset('img/offers-image/Republic-day-2019.png')}}" class="boxofScroll"/>
+                                <a href="/first-time-international-shipment-offer">
+                                    <img src="{{asset('img/images/first50-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                <a href="#">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/offers-image/box2.png" class="boxofScroll"/>
+                                <a href="{{route('schedulePickup.Index')}}">
+                                    <img src="{{asset('img/images/courier-from-india-to-usa.png')}}" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="/international-parcel-forwarding-india-online-shopping">
+                                    <img src="{{asset('img/images/parcel-forwarding-offer.png')}}" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="/personal-shopper-india">
+                                    <img src="{{asset('img/images/personal-shopper-offer.png')}}" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="/refer-a-friend">
+                                    <img src="{{asset('img/images/refer-freind-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
@@ -111,10 +125,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Discount Upto 75%<br> on TV & Appliances</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">23rdth - 26th JAN </h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Discount Upto 60%<br> on TV & Appliances</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">PAY DAY </h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/tvs-and-appliances-republic-day-sale-offer-store?src=shoppre"
+                                <a href="https://www.flipkart.com/cashless-payday-store?src=shoppre"
                                    target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
@@ -125,8 +139,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">the republic of style sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">24th - 27th JAN</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Flat 25% Off</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">LimeRoad GOLD</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="https://www.limeroad.com/shopping-offers/?src=shoppre">
@@ -168,11 +182,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Right To Fashion sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">19th - 22nd JAN | 50-80% Off‎</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">End of Season Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com/shop/rtf-prebuzz-jan19?src=shoppre">
+                                <a href="https://www.myntra.com/?src=shoppre">
                                     <img src="{{asset('uploads/stores/logo_5997a62748742.png')}}"/>
                                 </a>
                             </div>
@@ -195,10 +209,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Great Indian Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">20th - 23rd JAN</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Valentines Day</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Gifts, Chocolates, Watches & More</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.amazon.in/b?node=5731634031&pf_rd_p=56136ed2-ffe5-4998-b18e-ca1014ef6d32&pf_rd_r=4653KN659H3KN9MVXWV3">
+                                <a href="https://www.amazon.in/b?node=3837826031&pf_rd_p=28617cd4-6265-4c39-b73d-d41241ba32ba&pf_rd_r=806TNETHS64JSMTQ7R1M">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>
@@ -208,8 +222,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Republic of Fashion Sales Extended</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Brand Day</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.jabong.com">
                                     <img src="https://www.shoppre.com/uploads/stores/logo_599691d00e27e.png"/>

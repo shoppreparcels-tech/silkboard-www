@@ -39,7 +39,7 @@
 <url>
     <loc>https://www.shoppre.com/offers</loc>
     <changefreq>daily</changefreq>
-    <priority>0.90</priority>
+    <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.shoppre.com/schedule-pickup</loc>
@@ -49,12 +49,12 @@
 <url>
     <loc>https://www.shoppre.com/first-time-international-shipment-offer</loc>
     <changefreq>daily</changefreq>
-    <priority>0.70</priority>
+    <priority>0.90</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/best-international-relocation-packers-movers</loc>
     <changefreq>daily</changefreq>
-    <priority>0.70</priority>
+    <priority>0.90</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-shipping-gift-cards-vouchers</loc>
@@ -64,17 +64,17 @@
 <url>
     <loc>https://www.shoppre.com/medicine-international-courier-from-india</loc>
     <changefreq>daily</changefreq>
-    <priority>0.70</priority>
+    <priority>0.90</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/personal-shopper-india</loc>
     <changefreq>daily</changefreq>
-    <priority>0.70</priority>
+    <priority>0.90</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shop-ship</loc>
     <changefreq>daily</changefreq>
-    <priority>0.70</priority>
+    <priority>0.90</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/university-offer</loc>
@@ -85,6 +85,11 @@
   <loc>https://www.shoppre.com/dhl</loc>
   <changefreq>daily</changefreq>
   <priority>0.60</priority>
+</url>
+<url>
+<loc>https://www.shoppre.com/personal-shopper-shopping-concierge-from-india</loc>
+<changefreq>daily</changefreq>
+<priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.shoppre.com/dtdc</loc>
@@ -122,6 +127,36 @@
     <priority>0.50</priority>
 </url>
 <url>
+<loc>https://www.shoppre.com/send-valentines-day-gifts-international-shipping</loc>
+<changefreq>daily</changefreq>
+<priority>0.50</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/international-parcel-forwarding-india-online-shopping</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/ajio-online-shopping-international-shipping</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/jaypore-international-shipping-from-india</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.50</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/indian-virtual-address</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/indian-online-stores</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.50</priority>
+</url>
+<url>
     <loc>https://www.shoppre.com/amazon-india-shop-international-shipping</loc>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>
@@ -146,6 +181,11 @@
     <loc>https://www.shoppre.com/partner</loc>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>
+</url>
+<url>
+<loc>https://www.shoppre.com/customer/register</loc>
+<changefreq>daily</changefreq>
+<priority>0.50</priority>
 </url>
 <url>
   <loc>https://www.shoppre.com/country-guide</loc>
