@@ -408,8 +408,8 @@ Route::get('/reset-password/token/{token}/email/{email}', 'Myaccount\Customer\Pa
 Route::post('/reset-password/submit', 'Myaccount\Customer\PasswordController@resetPassword')->name('customer.reset.submit');
 
 /*------ Profile ----------*/
-Route::get('/register', 'Myaccount\Customer\RegisterController@register')->name('customer.register');
-Route::post('/register', 'Myaccount\Customer\RegisterController@submitRegister')->name('customer.register.submit');
+Route::get('customer/register', 'Myaccount\Customer\RegisterController@register')->name('customer.register');
+Route::post('customer/register', 'Myaccount\Customer\RegisterController@submitRegister')->name('customer.register.submit');
 Route::get('/email-verify/token/{token}/email/{email}', 'Myaccount\Customer\RegisterController@verifyEmail')->name('customer.verify');
 Route::get('/customer/login', 'Myaccount\Customer\LoginController@login')->name('customer.login');
 Route::post('/customer/login/submit', 'Myaccount\Customer\LoginController@submitLogin')->name('customer.login.submit');
