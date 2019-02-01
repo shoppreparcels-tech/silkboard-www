@@ -24,10 +24,10 @@ use App\ShippingPreference;
 class SchedulePickupController extends Controller
 {
 
-    public function __construct()
-    {
-        $this->middleware('auth:customer');
-    }
+//    public function __construct()
+//    {
+//        $this->middleware('auth:customer');
+//    }
 
     public function asanaTracking(Request $request) {
 
