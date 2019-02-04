@@ -104,14 +104,14 @@
                                 <lable class="f-s-14 f-c-l-gray f-w-5 l-h-3">Package Type</lable>
                                 <br>
                                 <div class="btn-group col-md-12 col-xs-12 no-pad" data-toggle="buttons">
-                                    <label class="btn btn-radio active  col-md-6 col-xs-6">
-                                        <input type="radio" name="package_type" id="option2" value="doc" checked="checked">
-                                        Document
+                                    <label class="btn btn-radio col-md-6 col-xs-6">
+                                        <input type="radio" name="package_type" id="option1" value="nondoc" checked="checked">
+                                        Non-Document
                                     </label>
 
-                                    <label class="btn btn-radio col-md-6 col-xs-6">
-                                        <input type="radio" name="package_type" id="option1" value="nondoc">
-                                        Non-Document
+                                    <label class="btn btn-radio active  col-md-6 col-xs-6">
+                                        <input type="radio" name="package_type" id="option2" value="doc" >
+                                        Document
                                     </label>
                                 </div>
                             </div>

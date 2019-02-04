@@ -893,7 +893,7 @@
                                         $("#schedule_load").hide();
                                         // $('#scheduleModel').modal('show');
                                         // $('#popup1').css('display', 'block');
-                                        window.location.href = "http://127.0.0.1:8001/schedule-pickup/confirm";
+                                        window.location.href = "https://www.shoppre.com/schedule-pickup/confirm";
                                         console.log(data);
                                     }
                                 });
