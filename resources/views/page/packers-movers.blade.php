@@ -93,7 +93,7 @@
 
                         </div>
                         <div class="text-center">
-                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-d-signup">Sign
+                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-d-signup">Sign
                                 Up</a>
                         </div>
                     </div>

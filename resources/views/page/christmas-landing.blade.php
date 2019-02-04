@@ -104,7 +104,7 @@
                 </div>
                 <br>
                 <div>
-                <center><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn-chris-place-order">Go Shopping Now!</a></center>
+                <center><a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn-chris-place-order">Go Shopping Now!</a></center>
                 </div>
 
             </div>
@@ -263,7 +263,7 @@
                         },
                         success: function (data) {
                             console.log(data);
-                            window.location.replace("https://myaccount.shoppre.com/register");
+                            window.location.replace("https://www.shoppre.com/customer/register");
 
                         }
                     })

@@ -718,21 +718,21 @@
                                         </td>
                                         <td>
                                             <h6 class="f-s-26 f-c-blue f-w-9">₹599</h6>
-                                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register"
+                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register
                                                class="btn btn-b-r btn-s-r btn-a-l btn-disabled">Get a Free
                                                 Address
                                             </a>
-                                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn-enable">Get a Free
+                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn-enable">Get a Free
                                                 Address
                                             </a>
                                         </td>
                                         <td>
                                             <h6 class="f-s-26 f-c-blue f-w-9">Free Forever</h6>
-                                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register"
+                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register
                                                 class="btn btn-b-b btn-s-b btn-a-l btn-disabled">Get a Free
                                                 Address
                                             </a>
-                                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register"
+                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register
                                                 class="btn-enable">Get a Free
                                                 Address
                                             </a>
@@ -1011,21 +1011,21 @@
                                         </td>
                                         <td>
                                             <h6 class="f-s-26 f-c-blue f-w-9">₹599</h6>
-                                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register"
+                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register
                                                class="btn btn-b-r btn-s-r btn-a-l btn-disabled">Get a Free
                                                 Address
                                             </a>
-                                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn-enable">Get a Free
+                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn-enable">Get a Free
                                                 Address
                                             </a>
                                         </td>
                                         <td>
                                             <h6 class="f-s-26 f-c-blue f-w-9">Free Forever</h6>
-                                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register"
+                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register
                                                class="btn btn-b-b btn-s-b btn-a-l btn-disabled">Get a Free
                                                 Address
                                             </a>
-                                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register"
+                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register
                                                class="btn-enable">Get a Free
                                                 Address
                                             </a>

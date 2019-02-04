@@ -519,13 +519,13 @@
                     <h4>YOUR PERSONAL SHOPPER</h4>
                     <p>Simply provide us the product and Seller details, our Personal Shopper will purchase the item
                         on your behalf, using our Indian Local Card!</p>
-                    <a href="https://myaccount.shoppre.com/personal-shopper" class="btn btn-shoppre">Learn more
+                    <a href="https://www.shoppre.com/personal-shopper" class="btn btn-shoppre">Learn more
                         about Personal Shopper </a>
 
                     <h4>GIFT YOUR LOVED ONES LIVING IN INDIA</h4>
                     <p>Simply sign up and use Shoppre’s Personal Shopper to buy your favorite product from ANY
                         Indian website, and gift your loved ones in India!</p>
-                    <a href="https://myaccount.shoppre.com/register" class="btn btn-shoppre">Sign up for free</a>
+                    <a href="https://www.shoppre.com/customer/register" class="btn btn-shoppre">Sign up for free</a>
                 </div>
             </div>
         </section>

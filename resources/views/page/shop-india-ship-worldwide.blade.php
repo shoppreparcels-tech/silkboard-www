@@ -16,7 +16,7 @@
 
 @section('content')
 <div style="text-align: center">
-    <a  href="https://myaccount.shoppre.com/login?shop-ship-page">
+    <a  href="https://www.shoppre.com/customer/login?shop-ship-page">
     <img src="{{asset('img/how-to-shop-from-india-ship-worldwide.png')}}"
          alt="how-to-shop-from-india-ship-worldwide"></a>
 </div>

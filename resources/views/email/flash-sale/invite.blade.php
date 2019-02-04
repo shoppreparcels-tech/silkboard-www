@@ -11,7 +11,7 @@
             <p>
                 Thank you
                 <br>
-                <img src="https://myaccount.shoppre.com/img/logo.png" style="height:50px;width:150px;" alt="">
+                <img src="https://www.shoppre.com/img/logo.png" style="height:50px;width:150px;" alt="">
                 <br>
                 <br>
                 Note:This is a system alert message. Please do not reply to this email

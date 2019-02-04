@@ -128,9 +128,9 @@
                         <h3 class="head-tag">Log in to Shoppre Account</h3>
                         <div class="text-center">
                             <div class="login-social">
-                                <a href="https://myaccount.shoppre.com/social/oauth/facebook" class="facebook"><i
+                                <a href="https://www.shoppre.com/social/oauth/facebook" class="facebook"><i
                                             class="fa fa-facebook"></i><span>Facebook</span></a>
-                                <a href="https://myaccount.shoppre.com/social/oauth/google"
+                                <a href="https://www.shoppre.com/social/oauth/google"
                                    class="google"><span>Google Plus</span><i
                                             class="fa fa-google-plus"></i></a>
                             </div>
@@ -162,7 +162,7 @@
                                 </div>
                                 <button type="submit" class="btn btn-block btn-shoppre">Sign in to your account</button>
                             </form>
-                            <span class="login-bttm"><a href="https://myaccount.shoppre.com/forgot-password">Forgot my password. Please remind me.</a></span>
+                            <span class="login-bttm"><a href="https://www.shoppre.com/forgot-password">Forgot my password. Please remind me.</a></span>
                             <span class="login-bttm"><a href="javascript:void(0)"
                                                         id="btn_signup_popup">Not a member? Register</a></span>
                         </div>
@@ -180,9 +180,9 @@
                         <h3 class="head-tag">SIGN UP WITH</h3>
                         <div class="text-center">
                             <div class="login-social">
-                                <a href="https://myaccount.shoppre.com/social/oauth/facebook" class="facebook"><i
+                                <a href="https://www.shoppre.com/social/oauth/facebook" class="facebook"><i
                                             class="fa fa-facebook"></i><span>Facebook</span></a>
-                                <a href="https://myaccount.shoppre.com/social/oauth/google" class="google"><span>Google Plus</span><i
+                                <a href="https://www.shoppre.com/social/oauth/google" class="google"><span>Google Plus</span><i
                                             class="fa fa-google-plus"></i></a>
                             </div>
                         </div>

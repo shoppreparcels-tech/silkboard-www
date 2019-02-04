@@ -5,7 +5,7 @@
 @section('keywords', 'log in, sign in, shoppre, myaccount, google plus, facebook, email')
 
 @section('css_style')
-  <link rel="canonical" href="https://myaccount.shoppre.com/login" />
+  <link rel="canonical" href="https://www.shoppre.com/customer/login" />
 
 @endsection
 

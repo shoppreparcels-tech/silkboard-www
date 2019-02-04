@@ -88,7 +88,7 @@
                             personal
                             locker; get your purchases delivered to us, we’ll take care of the rest!
                         </p>
-                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">Sign Up now</a>
+                        <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register>Sign Up now</a>
                     </div>
                 </div>
                 <div class="col-sm-4 border-bottom-red padding-top-bottom-100 ">

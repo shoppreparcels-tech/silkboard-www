@@ -51,7 +51,7 @@
                         },
                         success: function (data) {
                             console.log(data);
-                            window.location.replace("https://myaccount.shoppre.com/register");
+                            window.location.replace("https://www.shoppre.com/customer/register");
                         }
                     })
                 }

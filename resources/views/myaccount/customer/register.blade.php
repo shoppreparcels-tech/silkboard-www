@@ -130,6 +130,7 @@
               <input type="hidden" name="utm_medium"  value="" id="utm_medium" >
               <input type="hidden" name="gcl_id"  value="" id="gcl_id" >
               <input type="hidden" name="referer"  value="" id="referer" >
+              <input type="hidden" name="first_visit"  value="" id="first_visit" >
               <center>
                 <input type="hidden" name="continue" value="">
                 <div class="form-group">
@@ -265,20 +266,13 @@
           $('#signup-header').text('Complete Sign Up');
         }
       });
-      let queryParam = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-      if (queryParam.length === 4) {
-        localStorage.myaccount_utm_campaign = queryParam[1].split('=')[1];
-        localStorage.myaccount_utm_medium = queryParam[2].split('=')[1];
-        localStorage.myaccount_utm_source = queryParam[3].split('=')[1];
-        localStorage.myaccount_gcl_id = queryParam[4].split('=')[1];
-        localStorage.myaccount_referer = queryParam[5].split('=')[1];
-      }
 
-      $('#utm_campaign').val(localStorage.myaccount_utm_campaign);
-      $('#utm_medium').val(localStorage.myaccount_utm_medium);
-      $('#utm_source').val(localStorage.myaccount_utm_source);
-      $('#gcl_id').val(localStorage.myaccount_gcl_id);
-      $('#referer').val(localStorage.myaccount_referer);
+      $('#utm_campaign').val(localStorage.utm_campaign !== undefined ? localStorage.utm_campaign: 'no-utm-campaign');
+      $('#utm_medium').val(localStorage.utm_campaign !== undefined ? localStorage.utm_medium: 'no-utm-medium');
+      $('#utm_source').val(localStorage.utm_campaign !== undefined ? localStorage.utm_source: 'no-utm-source');
+      $('#gcl_id').val(localStorage.utm_campaign !== undefined ? localStorage.gcl_id: 'no-gcl-id');
+      $('#referer').val(localStorage.referer);
+      $('#first_visit').val(localStorage.first_visit);
 
     });
   </script>

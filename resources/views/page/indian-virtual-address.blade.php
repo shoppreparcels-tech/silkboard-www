@@ -24,7 +24,7 @@
 
 @section('content')
     {{--<div style="text-align: center">--}}
-        {{--<a  href="https://myaccount.shoppre.com/locker?virtual-addr-page">--}}
+        {{--<a  href="https://www.shoppre.com/locker?virtual-addr-page">--}}
             {{--<img src="{{asset('img/indian-virtual-address-shop-shipping.jpg')}}"--}}
                  {{--alt="indian-virtual-address-shop-shipping"></a>--}}
     {{--</div>--}}

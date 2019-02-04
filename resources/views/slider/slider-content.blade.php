@@ -111,7 +111,7 @@
             </a>
         </div>
         <div>
-            <a href="https://myaccount.shoppre.com/locker?homeslider" target="_blank">
+            <a href="https://www.shoppre.com/locker?homeslider" target="_blank">
             <img u="image" src="/img/slider-images/img/landscape/indian-local-virtual-shipping-address.jpg"
                  alt="international shipping addres in india"/>
             </a>

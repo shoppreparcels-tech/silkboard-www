@@ -78,7 +78,7 @@
                 </div>
                 {{--</div>--}}
                 <div class="col-md-12 col-xs-12 div-btn-padding">
-                    <a href="https://myaccount.shoppre.com/personal-shopper">
+                    <a href="https://www.shoppre.com/personal-shopper">
                         <div class="btn header6 btn-ifs-l-assisted">
                             Ask For Assistance
                         </div>
@@ -170,7 +170,7 @@
 
                         </div>
                         <div class="text-center">
-                            <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-d-signup">Sign
+                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-d-signup">Sign
                                 Up</a>
                         </div>
                     </div>

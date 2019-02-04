@@ -1672,7 +1672,7 @@
                                     </div>
 
                                     <div class=" btn-plans-individual-wholeseller">
-                                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">Get a Free
+                                        <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register>Get a Free
                                             Address</a>
                                     </div>
 
@@ -2235,7 +2235,7 @@
                                     </div>
 
                                     <div class=" btn-plans-individual-wholeseller">
-                                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">Get a Free
+                                        <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register>Get a Free
                                             Address</a>
                                     </div>
 
@@ -2693,7 +2693,7 @@
                                         </label>
                                         <br>
                                         <br>
-                                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register"
+                                        <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register
                                            class=" btn-plans-individual-wholeseller">Get a Free
                                             Address
                                         </a>
@@ -3364,7 +3364,7 @@
                                         </label>
                                         <br>
                                         <br>
-                                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register"
+                                        <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register
                                            class=" btn-plans-individual-wholeseller">Get a Free
                                             Address
                                         </a>
@@ -3838,7 +3838,7 @@
             <center>
                 <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
                 <p class="header2 p-doorstep-des">What Are You Waiting For Re! Just Come Shopp Re!</p>
-                <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" target="_blank">
+                <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register target="_blank">
                     <div class="btn-login-doorstep header5 p-color-white">
                         <p>
                             Sign Up for FREE

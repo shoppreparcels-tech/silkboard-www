@@ -70,7 +70,7 @@
             <div class="infobox">
               <h4>GIFT YOUR LOVED ONES LIVING OUTSIDE INDIA</h4>
               <p>Simply sign up and buy your favorite product from ANY Indian website, and gift your near and dear ones outside India!</p>
-              <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-shoppre">Sign up for free</a>
+              <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-shoppre">Sign up for free</a>
             </div>
             <div class="infobox">
               <h4>SHOPPRE’S UPFRONT SHIPPING RATES. 60-80% DISCOUNTED CARRIER RATES</h4>
@@ -103,7 +103,7 @@
             <div class="infobox">
               <h4>GIFT YOUR LOVED ONES LIVING IN INDIA</h4>
               <p>Simply sign up and use Shoppre’s Personal Shopper to buy your favorite product from ANY Indian website, and gift your loved ones in India!</p>
-              <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-shoppre">Sign up for free</a>
+              <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-shoppre">Sign up for free</a>
             </div>
         </div>
       </div>
@@ -149,7 +149,7 @@
           <div class="col-md-12">
           <h3>So what are you waiting for? Shopp <span class="text-orange">re</span>! Open your big box of happiness today!</h3>
           <p>All you need is a membership to get your Indian Shipping Address immediately!</p>
-          <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-shoppre">sign up for free</a>
+          <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-shoppre">sign up for free</a>
           </div>
         </div>
       </div>

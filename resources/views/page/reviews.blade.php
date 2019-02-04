@@ -256,7 +256,7 @@
                 <p class="header1 p-color-cement-dark">
                     Delivering Joy to Your Doorsteps</p>
                 <p class="header2 p-doorstep-des">You've got no reason to wait around any longer, just come ShoppRe!</p>
-                <a href="https://myaccount.shoppre.com/register" target="_blank">
+                <a href="https://www.shoppre.com/customer/register" target="_blank">
                     <div class="btn-signup-review header5 p-color-white">
                         <p>
                             Sign Up for FREE

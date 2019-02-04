@@ -240,7 +240,7 @@
 
         <div class="container">
             <center>
-                <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">
+                <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register>
                     <div class=" btn header6 p-color-white btn-ifs-free-v-a">
                         <center>
                             Get a Free Virtual Address
@@ -312,7 +312,7 @@
                 </div>
                 <div class="row">
                     <center>
-                        <a href="https://myaccount.shoppre.com/personal-shopper">
+                        <a href="https://www.shoppre.com/personal-shopper">
                             <div class="btn header6 btn-get-assisted p-color-white">
                                 Ask For Assistance
                             </div>

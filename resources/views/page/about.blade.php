@@ -146,9 +146,9 @@
           <center>
               <h1 class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</h1>
               <h2 class="header2 p-color-cement">You've got no reason to wait around any longer, just come Shopp Re!</h2>
-              {{--<button class="btn signup-btn" href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">Sign Up for FREE</button>--}}
+              {{--<button class="btn signup-btn" href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register>Sign Up for FREE</button>--}}
 
-              <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" target="_blank">
+              <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register target="_blank">
                   <div class="btn-login-doorstep header5 p-color-white">
                       <p>
                           Sign Up for FREE

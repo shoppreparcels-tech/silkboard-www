@@ -14,7 +14,7 @@
             <p>
                 Thank you
                 <br>
-                <img src="https://myaccount.shoppre.com/img/logo.png" style="height:50px;width:150px;" alt=""><br>
+                <img src="https://www.shoppre.com/img/logo.png" style="height:50px;width:150px;" alt=""><br>
 
 
                 <br><br>

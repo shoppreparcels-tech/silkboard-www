@@ -94,7 +94,7 @@
                     <h3>So what are you waiting for? Shopp <span class="red">re</span>! Open your big box of happiness
                         today!</h3>
                     <p>All you need is a membership to get your Indian Shipping Address immediately!</p>
-                    <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-shoppre">sign up for
+                    <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-shoppre">sign up for
                         free</a>
                 </div>
             </div>

@@ -28,7 +28,7 @@
                             </span></h4>
                         @endif
                       <div class="text-center">
-                        <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-shoppre">Claim Offer</a>
+                        <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-shoppre">Claim Offer</a>
                       </div>
                         <h3>Terms and conditions:</h3>
                         <ul class="left-space">

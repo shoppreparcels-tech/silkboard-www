@@ -85,7 +85,7 @@
           <br>
           <div class="container text-center" style="margin-top: 200px;padding-bottom: 14px;">
             <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/browse-categories">
-              <img src="https://myaccount.shoppre.com/uploads/img/dash.jpg">
+              <img src="https://www.shoppre.com/uploads/img/dash.jpg">
             </a>
           </div>
         @endif

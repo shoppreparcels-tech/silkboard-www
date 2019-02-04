@@ -17,7 +17,7 @@
     </br>
 
     <div>
-        <a href="https://myaccount.shoppre.com/personal-shopper" class="btn btn-block" style="font-size: 47px; background: #87BC00; color: #fff; padding: 10px 0; text-transform: uppercase; font-weight: 700;">Click here for Personal shopper</a>
+        <a href="https://www.shoppre.com/personal-shopper" class="btn btn-block" style="font-size: 47px; background: #87BC00; color: #fff; padding: 10px 0; text-transform: uppercase; font-weight: 700;">Click here for Personal shopper</a>
     </div>
     </br>
 @endsection

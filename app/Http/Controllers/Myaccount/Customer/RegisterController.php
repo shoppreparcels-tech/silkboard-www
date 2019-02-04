@@ -91,7 +91,6 @@ class RegisterController extends Controller
 		        friend sent!'));
 
             } else {
-
                 return redirect()->back()->with('error_message', 'You may entered an invalid refferal code.
 	    		 Try with another or proceed without.');
             }
@@ -122,6 +121,7 @@ class RegisterController extends Controller
         $customer->utm_medium = $request->utm_medium;
         $customer->gcl_id = $request->gcl_id;
         $customer->referer = $request->referer;
+        $customer->first_visit = $request->first_visit;
 //        $customer->medium = $request->continue;
         $customer->password = bcrypt($request->password);
         if (!empty($request->referrer)) {

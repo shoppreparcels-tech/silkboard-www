@@ -81,7 +81,7 @@
                         <div class="story-block story-left">
                             <div class="item_content">
                                 <h3>join</h3>
-                                <strong>Simply <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register">SIGN UP
+                                <strong>Simply <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register>SIGN UP
                                         FOR FREE</a> and receive your own Personal Locker with a Virtual Indian Shipping
                                     Address!</strong>
                                 <p>Access thousands of Indian Online Stores and get your favorite products from
@@ -221,7 +221,7 @@
                     <h3>So what are you waiting for? Shopp <span class="text-orange">re</span>! Open your big box of
                         happiness today!</h3>
                     <p>All you need is a membership to get your Indian Shipping Address immediately!</p>
-                    <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register" class="btn btn-shoppre">sign up for
+                    <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-shoppre">sign up for
                         free</a>
                 </div>
             </div>

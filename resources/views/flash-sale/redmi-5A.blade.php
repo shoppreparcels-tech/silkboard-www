@@ -581,7 +581,7 @@
                     </li>
                     <li>
                         <a
-                            href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/login?continue=mi"
+                            href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/login?continue=mi"
                             title="Sign in"
                             data-stat-id="379642aae40ac069"
                         >
