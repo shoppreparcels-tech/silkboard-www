@@ -55,6 +55,7 @@
             border-radius: 36px;
             width: 20px;
             text-align: center;
+            cursor: pointer;
         }
 
         .button {
@@ -157,7 +158,7 @@
     <!-- This code is required -->
     <div id="popup1" class="overlay" style="display: none">
         <div class="popup">
-            <span class="btn-close-popup">x</span>
+            <span class="btn-close-popup"  id="btn-close-popup-login">x</span>
 
             <!-------------- Login Block ------------->
 
@@ -991,6 +992,7 @@
                             phone: phone,
                             password: password,
                         },
+
                         success: function (data) {
                             if (data.status === 'success') {
                                 $('#lblLoginStatus').css('color', 'darkgreen').text('Please verify your email ID and Try login');
@@ -1003,6 +1005,10 @@
                     });
                     return false;
                 }
+            });
+
+            $('#btn-close-popup-login').click(function () {
+                $('#popup1').css('display', 'none');
             });
         });
     </script>
