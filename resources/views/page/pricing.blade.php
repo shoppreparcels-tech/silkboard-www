@@ -827,7 +827,7 @@
                             <div class="row">
                                 <div class="col-md-5 col-sm-6 col-xs-12" id="price-cal-btn-margin">
                                     <a class="btn btn-price-cal-v-address"
-                                       href="/register">Get
+                                       href="customer/register">Get
                                         a
                                         Virtual Address</a>
                                 </div>

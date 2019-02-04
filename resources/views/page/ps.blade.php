@@ -57,7 +57,7 @@
                <h1 class="f-s-36 f-c-d-gray">How Does it Work?</h1>
            </div>
            <div class="col-md-6 div-align-items-r" style="padding-top: 20px">
-               <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" class="btn-l btn-b-r btn-s-r f-s-9 btn-a-m">Place an Order</a>
+               <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register?src=menu" class="btn-l btn-b-r btn-s-r f-s-9 btn-a-m">Place an Order</a>
                {{--<button class="btn-l btn-b-r btn-s-r pull-right f-s-9">Place an Order</button>--}}
            </div>
            <div class="clearfix"></div>
@@ -126,7 +126,7 @@
                        </div>
                    </div><br/><br/>
                    <center>
-                       <a  href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" class="btn btn-s-r btn-b-r btn-xl btn-a-l" type="submit">Place Your Order Now!</a>
+                       <a  href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register?src=menu" class="btn btn-s-r btn-b-r btn-xl btn-a-l" type="submit">Place Your Order Now!</a>
                        {{--<button class="btn btn-s-r btn-b-r btn-xl" type="submit">Place Your Order Now!</button>--}}
                    </center><br/>
                </div>
@@ -183,7 +183,7 @@
                        </div>
                    </div><br/><br/>
                    <center>
-                       <a  href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" class="btn btn-s-b btn-b-b btn-xl btn-a-l" type="submit">Place Your Order Now!</a>
+                       <a  href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register?src=menu" class="btn btn-s-b btn-b-b btn-xl btn-a-l" type="submit">Place Your Order Now!</a>
                        {{--<button class="btn btn-s-b btn-b-b btn-xl" type="submit">Place Your Order Now!</button>--}}
                    </center><br/>
                </div>

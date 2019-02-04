@@ -15,7 +15,7 @@
 				<div class="input-group">
 					<div class="input-group-addon"><i class="fa fa-envelope"></i></div>
 					<input type="text" class="form-control friend_email" id="txt_referrer_url"
-						   value="{{env("PREFIX").'www.'.env("DOMAIN").'/register?r='. base64_encode(Auth::user()->id)}}">
+						   value="{{env("PREFIX").'www.'.env("DOMAIN").'/customer/register?r='. base64_encode(Auth::user()->id)}}">
 				</div>
               	<h4>Enter your friend's email addresses in the fields below (you can send multiple invitations at once)</h4>
               	<div class="form-group">

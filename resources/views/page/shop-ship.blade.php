@@ -347,7 +347,7 @@
                             cnumber: cnumber,
                         },
                         success: function (data) {
-                            var url= "{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?email=" + email + "&c_code="+ cnumber +"&PN="+ pnumber ;
+                            var url= "{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register?email=" + email + "&c_code="+ cnumber +"&PN="+ pnumber ;
                             console.log(data);
                             // window.open(url);
                             window.location.href = url;
