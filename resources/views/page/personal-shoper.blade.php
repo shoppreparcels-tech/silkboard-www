@@ -1,9 +1,9 @@
 @extends('layout')
 
 
-@section('title', 'Personal Shopper Landing Page')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'Personal Shopper | Shop From India, Ship Worldwide | Self & Assisted Shopping')
+@section('description', 'Payment hassles at checkout? No worries. Hire one of our experts to shop for you. We will pay for your order and will receive your order at our warehouse.')
+@section('keywords', 'shop online from india, self shopping, assisted, personal shopper, international shipping')
 
 @section('css_style')
     <style>
@@ -123,15 +123,7 @@
                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/dot.svg" alt="">
                     <span class="p-color-cement-dark"> We’ll Shop For You:</span> All you have to do is, let us know
                     what you intend to buy; we’ll make the purchase for you.
-
                 </p>
-                <div class="col-md-12 col-xs-12 no-padding ">
-                    <a href="#">How much does it cost you?</a>
-                </div>
-                <br>
-                <div class="col-md-12 col-xs-12 no-padding  ">
-                    <a href="#">Terms & Conditions</a>
-                </div>
             </div>
             <div class=" col-md-5 col-sm-5 col-xs-12">
                 <h1 class="header2 p-color-blue h-req-assist">Request Free Assistance</h1>

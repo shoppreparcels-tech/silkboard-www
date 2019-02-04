@@ -327,7 +327,8 @@ class PageController extends Controller
     }
     public function videoLp()
     {
-        return view('page.video-lp');
+        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+        return view('page.video-lp')->with(['countries' => $countries]);
     }
 
 

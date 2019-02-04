@@ -471,7 +471,6 @@ Route::get('/privacy-policy', 'PageController@privacyPolicy')->name('privacyPoli
 Route::get('/refund-and-cancellation-policy', 'PageController@refundAndCancellation')->name('refundAndCancellation');
 Route::get('/services', 'PageController@services')->name('services');
 Route::get('/how-it-works', 'PageController@howitworks')->name('howitworks');
-Route::get('/pricing', 'PageController@pricing')->name('pricing');
 Route::post('/calculate-shipping', 'PageController@shipCalculate')->name('calculate');
 Route::post('/qoute/submit', 'PageController@getQuote')->name('get.quote');
 Route::get('/browse-categories', 'PageController@stores')->name('stores');
@@ -498,7 +497,9 @@ Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('sche
 Route::get('/offers', 'PageController@offersIndex')->name('offers-new.index');
 Route::get('/faq-new', 'PageController@faqNew')->name('faq.new');
 Route::get('/indian-online-stores', 'PageController@storeNew')->name('stores1');
-Route::get('/new-pricing', 'PageController@newPricing')->name('newPricing');
+Route::get('/pricing', 'PageController@newPricing')->name('newPricing');
+Route::get('/new-pricing', 'PageController@pricing')->name('pricing');
+Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
 
 
 /*-------- Dhl Shipments ------*/
@@ -611,7 +612,7 @@ Route::get('/medicine-international-courier-from-india', 'PageController@medicin
 Route::get('/personal-shopper-india', 'PageController@ifsLandingPage')->name('ifs.landing');
 Route::get('/radcon', 'PageController@radioContest')->name('radio');
 Route::get('/radcon-tc', 'PageController@radioTermsConditions')->name('radio.tc');
-Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
+
 Route::get('/seller-partner', 'PageController@seller')->name('seller');
 Route::get('/video-lp', 'PageController@videoLp')->name('videoLp');
 
@@ -629,6 +630,7 @@ Route::post('/shop-ship', 'PageController@shopShip')->name('shopShip');
 Route::post('/valentines-cashback', 'PageController@apiValentines')->name('valentine');
 Route::post('/medicine', 'PageController@apiMedicine')->name('apiMedicine');
 Route::post('/parcel-forwarding', 'PageController@apiParcelForwarding')->name('apiParcelForwarding');
+Route::post('/apiVideoLp', 'PageController@apiVideoLp')->name('apiVideoLp');
 
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');

@@ -51,7 +51,11 @@
                                     <h4 class="modal-title f-w-8">Shipping Rates: <span id="shippingCountry"></span></h4>
                                 </div>
                                 <div class="panel-body">
+                                    <h1 class="f-s-22 f-c-l-gray f-w-7">Non-Doc</h1>
                                     <table class="table table-bordered" id="shippingRates">
+                                    </table>
+                                                                        <h1 class="f-s-22 f-c-l-gray f-w-7" >Doc</h1>
+                                    <table class="table table-bordered" id="shippingRatesDoc">
                                     </table>
                                 </div>
                             </div>
@@ -203,10 +207,10 @@
                             </div>
                         </div>
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <div class="col-md-6 col-xs-12 pad-r-10"><br>
-                                <input id="phone" name="phone" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off">
-                            </div>
-                            <div class="col-md-6 col-xs-12 no-pad"><br>
+                            {{--<div class="col-md-6 col-xs-12 pad-r-10"><br>--}}
+                                {{--<input id="phone" name="phone" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off">--}}
+                            {{--</div>--}}
+                            <div class=" col-md-offset-4 col-md-4 col-xs-12 no-pad"><br>
                                 <button class="btn btn-b-r btn-s-r btn-f-w btn-h-40" >Get An Estimate</button>
                             </div>
                         </div>
@@ -365,9 +369,9 @@
             <div class="col-md-3 col-sm-4 col-xs-12">
                 {{--<div class="sidebar-nav-fixed affix">--}}
                 <br>
-                <div class="col-md-12 col-xs-12 no-pad">
-                    <a href="" class="btn btn-f-w btn-b-b btn-s-b btn-a-l">Domestic Shipping Rates</a><br>
-                </div>
+                {{--<div class="col-md-12 col-xs-12 no-pad">--}}
+                    {{--<a href="" class="btn btn-f-w btn-b-b btn-s-b btn-a-l">Domestic Shipping Rates</a><br>--}}
+                {{--</div>--}}
 
                 <div class="col-md-12 col-xs-12 no-pad"><br>
                     <div class="col-xs-12 col-md-12 div-c-guide pad-10 ">
@@ -440,7 +444,7 @@
                     <div class="wrapper">
                         <ul class="nav nav-pills">
                             <li class="active">
-                                <a data-toggle="pill" class="btn btn-membership-plans-monthly" href="#M">Monthly</a>
+                                <a data-toggle="pill" class="btn btn-membership-plans-monthly" href="#M">Half Yearly</a>
                             </li>
                             <li>
                                 <a data-toggle="pill" class="btn btn-membership-plans-yearly" href="#Y">Yearly</a>
@@ -491,6 +495,21 @@
                                         </td>
                                         <td><h6 class="f-s-16 f-c-blue">₹10 per photo</h6></td>
                                         <td><h6 class="f-s-16 f-c-l-gray">₹20 per photo</h6></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6 class="f-s-16 f-c-d-greay">Advanced Photo
+                                                <a href="#" class="tooltipkey"
+                                                   title="Basic Photos: We take up to 5 Basic photographs of all
+                                                         your items. Additional Photos: You can request up to 10
+                                                         Additional Photos (in case you want to some more details or if
+                                                         you want to inspect your purchases in more detail).">
+                                                    <i class="fa fa-question-circle-o"></i></a>
+                                            </h6>
+                                        </td>
+                                        <td><h6 class="f-s-16 f-c-blue">₹100 per photo</h6></td>
+                                        <td><h6 class="f-s-16 f-c-l-gray">₹500 per photo</h6></td>
 
                                     </tr>
                                     <tr>
@@ -562,7 +581,7 @@
                                             </h6>
                                         </td>
                                         <td><h6 class="f-s-16 f-c-blue">Within 3 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-blue">4 to 20 Days = ₹100</h6>
+                                            <h6 class="f-s-16 f-c-blue">4 to 20 Days = FREE</h6>
                                             <h6 class="f-s-16 f-c-blue">>20 Days = ₹400</h6>
                                         </td>
                                         <td>
@@ -614,9 +633,9 @@
                                     </tr>
                                     <tr class="tr-hide">
                                         <td>
-                                            <h6 class="f-s-16 f-c-d-greay">Special Clearance Charges
+                                            <h6 class="f-s-16 f-c-d-greay">Liquid/Semi liquid Clearance charge
                                                 <a href="#" class="tooltipkey"
-                                                                        title="Any Package which requires Special Handling
+                                                   title="Any Package which requires Special Handling
                                                          will be prompted to you via email. All liquids/
                                                          semi-liquids/ homemade food/ medicines/ ayurvedic
                                                          products/ dangerous goods like nail polish,  etc.
@@ -626,8 +645,8 @@
                                                          heavy volume dangerous goods such as paints, etc.) -
                                                          costs could vary, and will keep you posted via
                                                          email. ">
-                                                <i class="fa fa-question-circle-o"></i>
-                                            </a>
+                                                    <i class="fa fa-question-circle-o"></i>
+                                                </a>
                                             </h6>
                                         </td>
                                         <td>
@@ -643,6 +662,31 @@
                                             <h6 class="f-s-16 f-c-l-gray">10 - 15 Kg -> ₹5369</h6>
                                             <h6 class="f-s-16 f-c-l-gray">Above 15 Kg -> ₹7729</h6>
                                             <span class="f-s-10 f-c-l-gray">*Weight in Kg per shipment</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr-hide">
+                                        <td>
+                                            <h6 class="f-s-16 f-c-d-greay">Electronics/Branded Food Items/Powder items Clearance charge
+                                                <a href="#" class="tooltipkey"
+                                                   title="Any Package which requires Special Handling
+                                                         will be prompted to you via email. All liquids/
+                                                         semi-liquids/ homemade food/ medicines/ ayurvedic
+                                                         products/ dangerous goods like nail polish,  etc.
+                                                         will incur a customs clearance charge.The costs might
+                                                         not be limited to the given cost for all cases (for
+                                                         eg, in cases of shipping heavy weight objects or
+                                                         heavy volume dangerous goods such as paints, etc.) -
+                                                         costs could vary, and will keep you posted via
+                                                         email. ">
+                                                    <i class="fa fa-question-circle-o"></i>
+                                                </a>
+                                            </h6>
+                                        </td>
+                                        <td>
+                                            <h6 class="f-s-16 f-c-blue">₹ 200/- </h6>
+                                        </td>
+                                        <td>
+                                            <h6 class="f-s-16 f-c-l-gray">₹ 500/- </h6>
                                         </td>
                                     </tr>
                                     <tr class="tr-hide">
@@ -716,23 +760,24 @@
                                         <td>
                                             <h14 class="f-s-18 f-c-d-greay">Monthly Fee</h14>
                                         </td>
-                                        <td>
-                                            <h6 class="f-s-26 f-c-blue f-w-9">₹599</h6>
-                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register
+                                        <td class="pad-5">
+                                            <h6 class="f-s-26 f-c-blue f-w-9">₹ 2500/-</h6>
+                                            <a href="{{route('contact')}}"
                                                class="btn btn-b-r btn-s-r btn-a-l btn-disabled">Get a Free
                                                 Address
                                             </a>
-                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn-enable">Get a Free
+                                            <a href="{{route('contact')}}" class="btn-enable">Get a Free
                                                 Address
                                             </a>
+
                                         </td>
                                         <td>
                                             <h6 class="f-s-26 f-c-blue f-w-9">Free Forever</h6>
-                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register
+                                            <a href="{{route('contact')}}"
                                                 class="btn btn-b-b btn-s-b btn-a-l btn-disabled">Get a Free
                                                 Address
                                             </a>
-                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register
+                                            <a href="{{route('contact')}}"
                                                 class="btn-enable">Get a Free
                                                 Address
                                             </a>
@@ -784,6 +829,21 @@
                                         </td>
                                         <td><h6 class="f-s-16 f-c-blue">₹10 per photo</h6></td>
                                         <td><h6 class="f-s-16 f-c-l-gray">₹20 per photo</h6></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6 class="f-s-16 f-c-d-greay">Advanced Photo
+                                                <a href="#" class="tooltipkey"
+                                                   title="Basic Photos: We take up to 5 Basic photographs of all
+                                                         your items. Additional Photos: You can request up to 10
+                                                         Additional Photos (in case you want to some more details or if
+                                                         you want to inspect your purchases in more detail).">
+                                                    <i class="fa fa-question-circle-o"></i></a>
+                                            </h6>
+                                        </td>
+                                        <td><h6 class="f-s-16 f-c-blue">₹100 per photo</h6></td>
+                                        <td><h6 class="f-s-16 f-c-l-gray">₹500 per photo</h6></td>
 
                                     </tr>
                                     <tr>
@@ -855,7 +915,7 @@
                                             </h6>
                                         </td>
                                         <td><h6 class="f-s-16 f-c-blue">Within 3 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-blue">4 to 20 Days = ₹100</h6>
+                                            <h6 class="f-s-16 f-c-blue">4 to 20 Days = FREE</h6>
                                             <h6 class="f-s-16 f-c-blue">>20 Days = ₹400</h6>
                                         </td>
                                         <td>
@@ -907,7 +967,7 @@
                                     </tr>
                                     <tr class="tr-hide">
                                         <td>
-                                            <h6 class="f-s-16 f-c-d-greay">Special Clearance Charges
+                                            <h6 class="f-s-16 f-c-d-greay">Liquid/Semi liquid Clearance charge
                                                 <a href="#" class="tooltipkey"
                                                    title="Any Package which requires Special Handling
                                                          will be prompted to you via email. All liquids/
@@ -936,6 +996,31 @@
                                             <h6 class="f-s-16 f-c-l-gray">10 - 15 Kg -> ₹5369</h6>
                                             <h6 class="f-s-16 f-c-l-gray">Above 15 Kg -> ₹7729</h6>
                                             <span class="f-s-10 f-c-l-gray">*Weight in Kg per shipment</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr-hide">
+                                        <td>
+                                            <h6 class="f-s-16 f-c-d-greay">Electronics/Branded Food Items/Powder items Clearance charge
+                                                <a href="#" class="tooltipkey"
+                                                   title="Any Package which requires Special Handling
+                                                         will be prompted to you via email. All liquids/
+                                                         semi-liquids/ homemade food/ medicines/ ayurvedic
+                                                         products/ dangerous goods like nail polish,  etc.
+                                                         will incur a customs clearance charge.The costs might
+                                                         not be limited to the given cost for all cases (for
+                                                         eg, in cases of shipping heavy weight objects or
+                                                         heavy volume dangerous goods such as paints, etc.) -
+                                                         costs could vary, and will keep you posted via
+                                                         email. ">
+                                                    <i class="fa fa-question-circle-o"></i>
+                                                </a>
+                                            </h6>
+                                        </td>
+                                        <td>
+                                            <h6 class="f-s-16 f-c-blue">₹ 200/- </h6>
+                                        </td>
+                                        <td>
+                                            <h6 class="f-s-16 f-c-l-gray">₹ 500/- </h6>
                                         </td>
                                     </tr>
                                     <tr class="tr-hide">
@@ -1009,23 +1094,23 @@
                                         <td>
                                             <h14 class="f-s-18 f-c-d-greay">Monthly Fee</h14>
                                         </td>
-                                        <td>
-                                            <h6 class="f-s-26 f-c-blue f-w-9">₹599</h6>
-                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register
+                                        <td class="pad-5">
+                                            <h6 class="f-s-26 f-c-blue f-w-9">₹ 5000/-</h6>
+                                            <a href="{{route('contact')}}"
                                                class="btn btn-b-r btn-s-r btn-a-l btn-disabled">Get a Free
                                                 Address
                                             </a>
-                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn-enable">Get a Free
+                                            <a href="{{route('contact')}}" class="btn-enable">Get a Free
                                                 Address
                                             </a>
                                         </td>
                                         <td>
                                             <h6 class="f-s-26 f-c-blue f-w-9">Free Forever</h6>
-                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register
+                                            <a href="{{route('contact')}}"
                                                class="btn btn-b-b btn-s-b btn-a-l btn-disabled">Get a Free
                                                 Address
                                             </a>
-                                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register
+                                            <a href="{{route('contact')}}"
                                                class="btn-enable">Get a Free
                                                 Address
                                             </a>
@@ -1141,13 +1226,18 @@
                 e.preventDefault();
                 let country = $("select[name='country']").val();
                 $("#shippingCountry").text(country);
-                console.log(country);
                 $.ajax({
                     type: 'get',
                     url: 'https://staging-ship-api.shoppre.com/api/pricing/slab?all=true&country='+ country +'&rateType=slab&type=nondoc&weight=1',
-                    success: function ({prices}) {
-                        console.log(prices);
+                    success: function ({prices, pricesDoc}) {
+                        console.log(pricesDoc);
                         var html=' <thead>\n' +
+                            ' <tr>\n' +
+                            ' <th>Weight(in KG)</th>\n' +
+                            ' <th>Rate</th>\n' +
+                            ' </tr>\n' +
+                            '</thead>';
+                        var htmldoc=' <thead>\n' +
                             ' <tr>\n' +
                             ' <th>Weight(in KG)</th>\n' +
                             ' <th>Rate</th>\n' +
@@ -1163,7 +1253,18 @@
                                 ' </tr>' +
                                 '</tbody>';
                         });
+                        pricesDoc.map((d, i) => {
+                            htmldoc += '<tbody>' +
+                                ' <tr> ' +
+                                ' <td class="bg-white">' + d.weight + '</td>' +
+                                '<td>' +
+                                '<i class="fa fa-rupee"></i> <span>' + d.customerRate + '</span>' +
+                                ' </td>' +
+                                ' </tr>' +
+                                '</tbody>';
+                        })
                         $('#shippingRates').html(html);
+                        $('#shippingRatesDoc').html(htmldoc);
                         $('#ratesModel').modal('show')
                     }
                 });

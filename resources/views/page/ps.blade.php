@@ -7,8 +7,18 @@
 
 @section('css_style')
 
+    <meta property="og:title" content="Online Shopping from India | Personal Shopper Service"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/personal-shopper"/>
+    <meta property="og:image" content="https://www.shoppre.com/img/images/personal-shopper-shopping-concierge-from-india.png"/>
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
+    <meta property="og:image:alt" content="shopping concierge india" />
+    <meta property="og:description" content="Personal assistance on the products or brands you want to purchase from any Indian online stores & Ship through ShoppRe, saving up to 80% on shipping costs."/>
+    <meta property="og:site_name" content="ShoppRe"/>
+
     <style>
-        .ps-main{background-color: #fafafb;}
+        .bg-img{background-image: url("../../img/images/personal-shopper-shopping-concierge-from-india.png"); height: 813px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}        .ps-main{background-color: #fafafb;}
         .ps-mainidiv{box-shadow: 0 2px 3px rgba(17, 39, 59, 0.1); border-radius: 3px; background-color: #ffffff;padding:20px}
         .ps-des-div{ margin-top:50px; box-shadow: 0 2px 3px rgba(17, 39, 59, 0.1);border-radius: 3px;background-color: #ffffff;}
         .ps-p-b{width: 253px;height: 22px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);border-radius: 0 0 3px 3px;background-color: #507dbc;}
@@ -24,6 +34,7 @@
         .ps-s-b3{background-color: rgba(80, 125, 188, 0.15);}
         .ps-s-b4{box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);border-radius: 3px;background-color: rgba(80, 125, 188, 0.07);}
         .img-center{display: block;margin-left: auto;margin-right: auto;margin-top:20px }
+
         @media only screen and (max-width: 600px) {
             .xs-li-m{margin-left: 25px;}
             .h4 {font-size: 12px;}
@@ -57,18 +68,18 @@
                <h1 class="f-s-36 f-c-d-gray">How Does it Work?</h1>
            </div>
            <div class="col-md-6 div-align-items-r" style="padding-top: 20px">
-               <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register?src=menu" class="btn-l btn-b-r btn-s-r f-s-9 btn-a-m">Place an Order</a>
+               <a href="{{route('customer.register')}}" class="btn-l btn-b-r btn-s-r f-s-9 btn-a-m">Place an Order</a>
                {{--<button class="btn-l btn-b-r btn-s-r pull-right f-s-9">Place an Order</button>--}}
            </div>
            <div class="clearfix"></div>
            <div class="ps-mainidiv">
                <h5 class="f-s-5 f-c-gray">Let <span class="f-c-red">ShoppRe</span><br/>    Do The Shopping for You!</h5>
                <p class="f-s-9 f-c-gray">If you are overseas and want to shop from India, occasionally you would have to go through some hassles in the process. Either your international cards won't be accepted or order won't go through on account of you not having Indian credentials mostly.</p>
-               <p class="f-s-9 f-c-gray">This is where our Personal Shopper comes in to play. All you have to do is, let us know what you are intending to buy, and we'll buy it for you!</p>
-               <h6 class="f-s-9 f-c-d-gray">How Does a Personal Shopper Help?</h6>
+               <p class="f-s-9 f-c-gray">This is where our <a href="personal-shopper-india">Personal Shopper</a> comes in to play. All you have to do is, let us know what you are intending to buy, and we'll buy it for you!</p>
+               <h6 class="f-s-12 f-c-d-gray f-w-8">How Does a Personal Shopper Help?</h6>
                <p class="f-s-9 f-c-gray"><img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/dot.svg" alt=""/><span class="f-c-d-gray"> We’ll Pay For You:</span> You can place your order on your own, and get it delivered to us; we’ll pay for it on your behalf.</p>
                <p class="f-s-9 f-c-gray"><img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/dot.svg" alt=""/><span class="f-c-d-gray">We’ll Shop For You:</span> All you have to do is, let us know what you intend         to buy; we’ll make the purchase for you.</p>
-               <h6 class="f-s-9 f-c-blue">How much does it cost you?</h6><a class="f-s-9 f-c-blue" href="https://www.shoppre.com/terms-and-conditions">Terms & Conditions</a>
+               <a class="f-s-9 f-c-blue" href="https://www.shoppre.com/terms-and-conditions">Terms & Conditions</a>
            </div>
        </div>
        <div class="container">
@@ -126,8 +137,7 @@
                        </div>
                    </div><br/><br/>
                    <center>
-                       <a  href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register?src=menu" class="btn btn-s-r btn-b-r btn-xl btn-a-l" type="submit">Place Your Order Now!</a>
-                       {{--<button class="btn btn-s-r btn-b-r btn-xl" type="submit">Place Your Order Now!</button>--}}
+                       <a  href="{{route('customer.register')}}" class="btn btn-s-r btn-b-r btn-xl btn-a-l" type="submit">Place Your Order Now!</a>
                    </center><br/>
                </div>
                <div class="col-md-6 col-xs-12">
@@ -183,8 +193,7 @@
                        </div>
                    </div><br/><br/>
                    <center>
-                       <a  href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register?src=menu" class="btn btn-s-b btn-b-b btn-xl btn-a-l" type="submit">Place Your Order Now!</a>
-                       {{--<button class="btn btn-s-b btn-b-b btn-xl" type="submit">Place Your Order Now!</button>--}}
+                       <a  href="{{route('customer.register')}}" class="btn btn-s-b btn-b-b btn-xl btn-a-l" type="submit">Place Your Order Now!</a>
                    </center><br/>
                </div>
            </div>

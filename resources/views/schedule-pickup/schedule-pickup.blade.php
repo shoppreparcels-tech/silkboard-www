@@ -699,7 +699,7 @@
             <p class="f-s-16 f-c-gray">Scheduling a pickup is absolutely FREE, no matter where in India are you
                 scheduling it for.
                 You just have to pay the <a href="{{route('pricing')}}">shipping costs</a> estimated finally once it is
-                ready for dispatch.
+                ready for dispatch. But, Pickup Charges will be applicable based on the weight of the content/items/products.
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">Does ShoppRe pick up couriers on weekends?</h2>
