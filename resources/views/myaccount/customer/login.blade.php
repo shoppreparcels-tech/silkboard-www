@@ -74,7 +74,7 @@
             </div>
           </center>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-12 col-xs-12 col-sm-12">
             <div class="chk-margin">
               <label class="chkn-container">Remember me!
                 <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }} checked="checked">
