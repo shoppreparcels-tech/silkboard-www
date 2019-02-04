@@ -497,8 +497,8 @@ Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('sche
 Route::get('/offers', 'PageController@offersIndex')->name('offers-new.index');
 Route::get('/faq-new', 'PageController@faqNew')->name('faq.new');
 Route::get('/indian-online-stores', 'PageController@storeNew')->name('stores1');
-Route::get('/pricing', 'PageController@newPricing')->name('newPricing');
-Route::get('/new-pricing', 'PageController@pricing')->name('pricing');
+Route::get('/pricing', 'PageController@newPricing')->name('pricing');
+Route::get('/new-pricing', 'PageController@pricing')->name('newPricing');
 Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
 
 
