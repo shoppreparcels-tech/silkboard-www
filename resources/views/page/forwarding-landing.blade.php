@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Parcel Forwarding from India | Starting from ₹600/-')
+@section('title', 'International Parcel Forwarding | Shipping Packages from Indian E-commerce Stores')
 @section('description', 'Want to courier abroad from India? We ship to 2220 countries. Send homemade food, sweets, utensils, cloths, books. Special Discounts rates for bulk shipments.')
 @section('keywords', 'international courier, cargo services, shipping, delivery, schedule a pickup')
 
@@ -13,14 +13,19 @@
         .box-steps p span {font-size: 22px;font-weight: 900;}
         #packing:hover{display: none}
         .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 580px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;        }
+        .seo {background-color: #ffffff}
+        .seo h1{font-size: 20px;color: #11273b;font-weight: 800}
+        .seo p{font-size: 16px;color: #677582;font-weight: 600 }
+        .seo  ul li{font-size: 16px;color: #677582;font-weight: 600 ;list-style:none}
         @media only screen and (max-width: 600px) {
             .bg-ics-l-p{height: 680px}
+            .seo h1{font-size: 18px;}
+            .seo p{font-size: 14px;}
         }
     </style>
 
 @endsection
 @section('content')
-
     <section class="bg-ics-l-p">
         <div class="container">
             <div class="col-md-12">
@@ -50,7 +55,6 @@
                     <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Buy For Me</a>
                     <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Shop Now</a>
                 </div>
-
             </div>
 
             <div class="col-sm-5 col-xs-12" style="padding-top: 50px">
@@ -74,8 +78,6 @@
                                    placeholder="Enter a valid E-mail ID" required>
                         </div>
                         <div class="form-group text-center">
-                            {{--<button type="submit" name="btnActivate" class="btn btn-d-activate-coupon"> GET A FREE QUOTE--}}
-                            {{--</button>--}}
                             <button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r"> GET A FREE QUOTE
                             </button>
                         </div>
@@ -94,8 +96,7 @@
 
                         </div>
                         <div class="text-center">
-                            <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-r btn-a-m">Sign
-                                Up</a>
+                            <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-r btn-a-m">Sign Up</a>
                         </div>
                     </div>
                 </form>
@@ -103,19 +104,15 @@
         </div>
     </section>
 
-
-    <section class="product-courier ">
-        <div class="container no-padding div-ics-border-btm">
-
+    <section>
+        <div class="container no-padding">
             <center>
                 <h1 class="f-c-d-greay f-s-30 f-w-8" >
-                    We ship all over the world -To the USA, UAE, UK, Europe, Australia, New Zealand, Canada, Middle East & 200 other
-                    countries.
+                    International Package Forwarding from India
                 </h1>
             </center>
             <div class="col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-box-packing.png" alt="" id="packing">
-                <img class="img-responsive" src="{{asset('/img/images/ics-box-packed.png')}}" alt="" id="packed" style="display: none">
+                <img class="img-responsive" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-box-packing.png" alt="">
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 " style="padding-top: 50px">
                 <div class="row no-padding">
@@ -149,153 +146,106 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
-        <div class="container div-ics-border-btm">
-            <div class="col-md-12">
-                <center>
-                    <h1 class="f-s-36 f-c-d-greay">Features</h1>
-                    <p class="f-s-24 f-c-gray">Get a FREE estimate for your courier, and schedule a pickup with us. We’ll come to your doorsteps to pick it up within 48 hours, and will dispatch it within the next 24 hours.Our courier partners are known to reach your destination in 3-6 days, wherever in the world it is!’</p>
-                </center>
-            </div>
+    </section>
+    <sectoin class="seo">
+        <div class="container"><br>
+            <h2 class="f-s-24 f-c-d-greay f-w-8">International Parcel Forwarding from India</h2>
+            <p>Ever wondered how to access 1000s of Indian E-commerce Stores without an Indian Address for delivery? If at all
+                you are able to shop from different E-commerce platforms, you often face heavy costs and International shipping is a
+                tedious & complex process for many. Or more often you end up troubling your relative in India to buy the items,
+                pay for them, store them, pack it and find a place to courier them.
+            </p> <br>
+            <p>Worry no more! We have all this covered for you! ShoppRe.com provides a first class International Parcel Forwarding
+                Service from India allowing those who reside outside India to purchase their favorite products from India and get
+                it shipped to their doorsteps at an optimized rate and in a hassle-free manner in 3-6 days.
+            </p>
+            <h1>How we achieve this?</h1>
+            <p>We provide a <a href="{{route('indianVirtual')}}">FREE Indian Shipping Address </a> or a Virtual Address in Bangalore. You can use this as address as the delivery address
+                while checking out at any E-commerce Platform like Amazon.in, Myntra, Flipkart, Jabong, Ajio, Jaypore etc or any FB/Instagram Sellers.
+                Your items will reach ShoppRe warehouse and you will be notified by Email. You are provided 20 days of FREE storage period within
+                which you can purchase from various platforms and accumulate as many items as you want in your locker. In the end, we will repack
+                & consolidate all these into one package and get it shipped to your doorstep ANYWHERE in the world in 3-6 business days!
+            </p><br>
+            <p>This storage, repackaging, and consolidation reduces the cost up to 60 - 80% as compared to sending them individually from each store.</p>
             <br>
+            <p><span class="txt-italic">Example:</span> Weight of Item A - 0.75 Kg, Weight of Item B - 0.25 Kg</p> <br>
+            <p><span class="txt-u-l">Case 1:</span> Sending both items to your FREE ShoppRe Virtual Address, consolidating and sending as 1 package to the USA;
+                <br>Total Weight - 0.75 Kg + 0.25 Kg = 1Kg <br>
+                Total Cost: INR 1742
+            </p> <br>
+            <p><span class="txt-u-l">Case 2: </span> Sending both separately; <br>
+                The cost to send Item A (0.75 Kg) from 1 store to the USA - INR 1742 <br>
+                The cost to send Item B (0.25 Kg) from the other store to the USA- INR 1526 <br>
+                Total Cost: INR 3268
+            </p> <br>
+            <p>
+                The Savings you make is 87% in Case 1. Imagine how much extra purchasing power this would give you in a month, in a year and in a lifetime!
 
-            <div class="row text-center">
-                <div class="col-sm-3">
-                    <div class="panel "><br>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
-                        <h1 class="header5 p-color-cement">Door-to-Door Delivery</h1>
-                        <br/>
+            </p> <br>
 
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="panel ">
-                        <br>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" alt="">
-                        <br/>
-                        <h1 class="header5 p-color-cement">Country-specific Discount</h1>
-                        <br>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="panel">
-                        <br/>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/support24.svg" alt="">
-                        <br/>
-                        <h1 class="header5 p-color-cement">24/7 Support</h1>
-                        <br>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="panel">
-                        <br/>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ics-time.svg" alt="">
-                        <br/>
-                        <h1 class="header5 p-color-cement">24-hour Dispatch</h1>
-                        <br>
-                    </div>
-                </div>
-                <br/><br/>
-            </div>
-        </div>
+            <h1>Good so far, but how does this make the shipping process hassle free?</h1>
+            <p>We take care of the invoicing, customs process and all the paperwork required for export clearance from India.
+                We will notify you at every step and also have a <a href="{{route('contact')}}">24/7 customer support</a>  which guides you at every point and
+                clarifies all your doubts and queries. You will receive a tracking code as well to get the status of the shipment once dispatched from our facility.
+                However, once the item reaches the destination country, customs duties would be as per the rules of the same and would not be under our control.
+            </p>
+            <h1>Hmm, what if I don't like the stuff ordered and need to return it?</h1>
+            <p>Though we have a curated <a href="{{route('stores1')}}">list of the best stores listed here</a> and recommend all our customers to check the reviews to find the right products,
+                we understand there are instances our customers could be worried about the product especially when they have to be shipped Internationally from India.
+                Our solution is two-fold: </p><br>
+            <ul>
+                <li>1.  <span class="txt-italic">Photo Services</span>    - You can see the photo of every product realtime at a very subsidized rate and this
+                    helps you understand if the product meets your expectation (especially in case of expensive items)
+                </li>
+                <br>
+                <li>2. <span class="txt-italic">Return Services</span> - In case you are not happy with the product, you can raise a return request with the
+                    E-commerce partner (as per their return policy) and we will assist you to return the item to the Store.
+                </li>
+            </ul>
 
-        <div class="container">
-            <center>
-                <h1 class="header1  p-color-cement-dark">Our Process</h1>
-                <p class="header2 p-color-cement">We will recived your order at our branch and can provide storage,<br>
-                    Repackaging and consoldation services to send at abroad address.</p>
-            </center>
-        </div>
+            <p>However, once the item has reached your doorstep abroad, we cannot arrange for a return. You will have to send
+                it back as a fresh import to India and this may work out to be pretty expensive.
+            </p>
+            <h1>Sometime I try to shop online but my debit/credit card does not seem to work. Can you help?</h1>
+            <p>Yes we can. We have what is called <a href="{{route('personalShopper')}}">Personal Shopper services</a> where by you can tell us what to purchase and we purchase on your behalf.
+                A small commission of 7% or INR 200  whichever is higher would be charged. So we do international shipping with online shopping from India.
+            </p>
+            <h1>Can you give me an idea about who your customers are?</h1>
+            <p>Our customers are spread across the globe. He/she could be:</p> <br>
+            <ul>
+                <li> - Someone who stays outside India and is looking for a Shopping Forwarding Address/Shipping Forwarding Address Services</li>
+                <br>
+                <li> - Someone who is looking for a mail scanning and forwarding address services as they reside outside India and have important documents
+                    to be received from banks or have magazines coming in their name. We act as a Virtual Postal Address.
+                    For some this is also a Business Address for Mail Forwarding</li>
+                <br>
+                <li> - Sellers/owners residing in India and have a large customer base abroad use ShoppRe as their International Logistics
+                    Partner (these are people who are selling on platforms like Etsy India, <a href="{{route('amazon.landing')}}">Amazon Global Store</a> or have independent e-commerce pages or FB/Insta Pages)</li>
+                <br>
+                <li> - Many sellers/owners who run businesses outside India use ShoppRe as their hub in India for Fulfillment Needs & Inventory Management.
+                    They collect their inventory from different parts of India and store it in ShoppRe and distribute across the globe as per the orders that they receive.</li>
+                <br>
+            </ul>
 
-        <div class="container">
-            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                <div class="col-md-4 col-lg-4 col-sm-6 col-sm-6 box" id="ics-box1">
-                    <div class="box-steps" id="steps">
-                        <center>
-                            <p class="header8 p-color-cement" style="line-height: 1;"><span
-                                    style="font-size: 22px;font-weight: 900;" id="number1">1</span><br> step</p>
-                        </center>
-                    </div>
-                    <div>
-                        <center>
-                            <img class="img-responsive img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pic_up.svg">
-                            <h2 class="header3 p-color-cement-dark">Schedule a Pickup</h2>
-                            <p class="header5 p-color-cement">
-                                After getting your FREE estimate, fill in the order form accordingly and submit it to schedule your pickup.
-                            </p>
-                        </center>
-                    </div>
-
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-sm-6 box" id="ics-box2">
-                    <div class="box-steps" id="steps">
-                        <center>
-                            <p class="header8 p-color-cement"  style="line-height: 1;"><span
-                                    style="font-size: 22px;font-weight: 900;" id="number2">2</span><br> step</p>
-                        </center>
-                    </div>
-                    <div>
-                        <center>
-                            <img class="img-responsive  img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shipments.svg">
-                            <h2 class="header3 p-color-cement-dark">We’ll Pick It Up</h2>
-                            <p class="header5 p-color-cement">
-                                Within 48 hours of you making the request, we’ll come to your doorsteps to pickup your package(s).
-                            </p>
-                        </center>
-
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-sm-6 box" id="ics-box3">
-                    <div class="box-steps" id="steps">
-                        <center>
-                            <p class="header8 p-color-cement" style="line-height: 1;"><span
-                                    style="font-size: 22px;font-weight: 900;" id="number3">3</span><br> step</p>
-                        </center>
-                    </div>
-                    <div>
-                        <center>
-                            <img class="img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/deliver_package.svg">
-                            <h2 class="header3 p-color-cement-dark">Dispatch in 24 Hours</h2>
-                            <p class="header5 p-color-cement">
-                                We’ll complete the documentation & dispatch your package(s) to one of our courier partners as soon as possible.
-                            </p>
-                        </center>
-
-                    </div>
-                </div>
-                <center>
-                    <a  href="{{route('schedulePickup.Index')}}" class="btn btn-request">Request Pickup</a>
-                </center>
-            </div>
+            <h1>How is the costing like?</h1>
+            <p>You can see more details <a href="{{route('pricing')}}">here</a></p>
+            <ul>
+                <li>International parcel forwarding from India to USA starting only at  ₹1526</li>
+                <li>International parcel forwarding from India to UK starting only at  ₹1429</li>
+                <li>International parcel forwarding from India to Australia starting only at  ₹1749</li>
+                <li>International parcel forwarding from India to UAE starting only at  ₹690</li>
+                <li>International parcel forwarding from India to Canada starting only at  ₹1700</li>
+                <li>International parcel forwarding from India to Singapore starting only at ₹946</li>
+                <li>International parcel forwarding from India to Hongkong starting only at ₹767</li>
+                <li>International parcel forwarding from India to Saudi Arabia starting only at ₹1516</li>
+            </ul>
 
         </div>
-    </section>
 
-    <section style="margin-bottom: 50px">
-        <div class="container" style="margin-top: 62px;">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive img-shipments" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-tailor.png">
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <h1 class="header1  p-color-cement-dark">Are you a Seller? <br>
-                    Save more on shipping.</h1>
-                <p class="header2 p-color-cement"><span
-                        class="header2 p-color-blue"> Start your FREE 30 Day Trial</span>
-                    to know how much you can save monthly on regular shipping</p>
-                <div class="col-md-12">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdL11DQD_pOS2tBNXWaI0d8ryZ4DD0foA-Z7ZR0f0hUG3qpSg/viewform"
-                           class="btn btn-request-cal-back">Request Callback</a>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="" class="btn btn-courier-know">Know More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </sectoin>
+
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">

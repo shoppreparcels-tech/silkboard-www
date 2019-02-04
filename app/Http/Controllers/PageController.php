@@ -74,6 +74,11 @@ class PageController extends Controller
     {
         return view('page.ics');
     }
+    public function videoLp()
+    {
+        return view('page.video-lp');
+    }
+
 
     public function diwali()
     {

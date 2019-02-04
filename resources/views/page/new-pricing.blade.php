@@ -7,9 +7,7 @@
 @section('css_style')
     <style>
         .container-fluid{padding-left: 10%;padding-right: 10%}
-        .sec-pc-h{box-shadow: 0 1px 3px rgba(17, 39, 59, 0.1);background-color: #fafafb;}
-        .div-b-w-s{box-shadow: 0 1px 3px rgba(17, 39, 59, 0.1);border-radius: 3px;background-color: #ffffff;}
-        .b-r{border: 1px solid rgba(146, 156, 165, 0.2) !important;}
+
         .btn span.glyphicon {opacity: 0;}
         .btn.active span.glyphicon {opacity: 1;}
         .l-pad{padding-left: 10px}
@@ -37,7 +35,37 @@
 
 @section('content')
     <section id="new-pricing">
-        <div class="container sec-pc-h no-pad" style="padding-bottom: 30px">
+        <div class="container">
+            {{--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ratesModel" id="getRates">View all rates up to 10 Kg</button>--}}
+            <div class="modal fade" id="ratesModel" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            {{--<h4 class="modal-title">Shipping Rates: <span id="shippingCountry"></span></h4>--}}
+                        </div>
+                        <div class="modal-body">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <h4 class="modal-title f-w-8">Shipping Rates: <span id="shippingCountry"></span></h4>
+                                </div>
+                                <div class="panel-body">
+                                    <table class="table table-bordered" id="shippingRates">
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container div-b-l-w no-pad" style="padding-bottom: 30px">
             <div class="col-md-9 col-sm-8 col-xs-12">
                 <div class="col-md-12 no-pad">
                     <h1 class="f-c-d-gray f-s-24 f-w-9">Calculate Your Shipping Cost</h1>
@@ -59,13 +87,12 @@
                                 <select class="form-control select-control b-r" name="country">
                                     <option value="">Select Country</option>
                                     @foreach($countries as $country)
-                                        <option
-                                            value="{{$country->iso}}" {{$country->id == 226 ? 'selected' : ""}}>{{$country->name}}</option>
+                                        <option value="{{$country->iso}}" {{$country->id == 226 ? 'selected' : ""}}>{{$country->name}}</option>
                                     @endforeach
                                 </select>
                             </div>
                             <div class="col-md-6 col-xs-12 l-pad">
-                                <h5 class="f-s-14 f-c-blue">View all rates up to 10 Kg</h5>
+                                <a class="f-s-14 f-c-blue" data-toggle="modal" data-target="#ratesModel" id="getRates">View all rates up to 10 Kg</a>
                             </div>
                         </div>
                         <div class="col-md-12 col-xs-12 no-pad">
@@ -75,16 +102,12 @@
                                 <div class="btn-group col-md-12 col-xs-12 no-pad" data-toggle="buttons">
                                     <label class="btn btn-radio active  col-md-6 col-xs-6">
                                         <input type="radio" name="package_type" id="option2" value="doc" checked="checked">
-{{--                                        <img src="{{asset('img/images/file.svg')}}" alt="">--}}
                                         Document
-                                        {{--<span class="glyphicon glyphicon-ok"></span>--}}
                                     </label>
 
                                     <label class="btn btn-radio col-md-6 col-xs-6">
                                         <input type="radio" name="package_type" id="option1" value="nondoc">
-{{--                                        <img src="{{asset('img/images/box.png')}}" alt=""> --}}
                                         Non-Document
-                                        {{--<span class="glyphicon glyphicon-ok"></span>--}}
                                     </label>
                                 </div>
                             </div>
@@ -96,12 +119,10 @@
                                         <div class="btn-group" data-toggle="buttons">
                                             <label class="btn btn-radio active btn-h-40">
                                                 <input type="radio" name="weight_unit" id="option2" value="kg" checked="checked"> KG
-                                                {{--<span class="glyphicon glyphicon-ok"></span>--}}
                                             </label>
 
                                             <label class="btn btn-radio btn-h-40">
                                                 <input type="radio" name="weight_unit" id="option1" value="lb"> LB
-                                                {{--<span class="glyphicon glyphicon-ok"></span>--}}
                                             </label>
                                         </div>
                                     </div>
@@ -133,12 +154,10 @@
                                         <p class="f-s-14 f-c-d-greay f-w-5 pull-left">Unit</p> <br>
                                         <label class="btn btn-radio active btn-h-40">
                                             <input type="radio" name="measurement_unit" id="option2" value="cm" checked="checked"> cm
-                                            {{--<span class="glyphicon glyphicon-ok"></span>--}}
                                         </label>
 
                                         <label class="btn btn-radio btn-h-40">
                                             <input type="radio" name="measurement_unit" id="option1" value="in"> in
-                                            {{--<span class="glyphicon glyphicon-ok"></span>--}}
                                         </label>
                                     </div>
                                 </div>
@@ -231,7 +250,7 @@
 
                                 </div>
                                 <div class="col-xs-12 col-md-12 no-pad">
-                                    <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu">Sign up for
+                                    <a href="{{route('customer.register')}}">Sign up for
                                         Free</a>
                                 </div>
                             </div>
@@ -1117,6 +1136,41 @@
     </script>
 
     <script type="text/javascript">
+        $(document).ready(function () {
+            $("#getRates").click(function(e) {
+                e.preventDefault();
+                let country = $("select[name='country']").val();
+                console.log(country);
+                $.ajax({
+                    type: 'get',
+                    url: 'https://staging-ship-api.shoppre.com/api/pricing/slab?all=true&country='+ country +'&rateType=slab&type=nondoc&weight=1',
+                    success: function ({prices}) {
+                        console.log(prices);
+                        var html=' <thead>\n' +
+                            ' <tr>\n' +
+                            ' <th>Weight(in KG)</th>\n' +
+                            ' <th>Rate</th>\n' +
+                            ' </tr>\n' +
+                            '</thead>';
+                        prices.map((p, i) => {
+                            html += '<tbody>' +
+                                ' <tr> ' +
+                                ' <td class="bg-white">' + p.weight + '</td>' +
+                                '<td>' +
+                                    '<i class="fa fa-rupee"></i> <span>' + p.customerRate + '</span>' +
+                                ' </td>' +
+                                ' </tr>' +
+                                '</tbody>';
+                        });
+                        $('#shippingRates').html(html);
+                        $("#shippingCountry").text(country);
+                        $('#ratesModel').modal('show')
+                    }
+                });
+
+            })
+
+        });
         $(document).ready(function () {
                 $("#shipping").validate({
                     rules:

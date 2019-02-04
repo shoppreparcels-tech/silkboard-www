@@ -610,6 +610,7 @@ Route::get('/radcon', 'PageController@radioContest')->name('radio');
 Route::get('/radcon-tc', 'PageController@radioTermsConditions')->name('radio.tc');
 Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
 Route::get('/seller-partner', 'PageController@seller')->name('seller');
+Route::get('/video-lp', 'PageController@videoLp')->name('videoLp');
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');
 

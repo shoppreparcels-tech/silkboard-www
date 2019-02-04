@@ -35,8 +35,10 @@
     .uppercase{text-transform: uppercase}
     .div-align-items-r{text-align: right;}
     .div-align-items-l{text-align: left;}
-
     .div-b-g{border: 1px solid rgba(146, 156, 165, 0.2);}
+    .div-b-l-w{box-shadow: 0 1px 3px rgba(17, 39, 59, 0.1);background-color: #fafafb;}
+    .div-b-w-s{box-shadow: 0 1px 3px rgba(17, 39, 59, 0.1);border-radius: 3px;background-color: #ffffff;}
+    .b-r{border: 1px solid rgba(146, 156, 165, 0.2) !important;}
     .b-r{background-color: #ffffff;}
 
     .btn-f-w{width: 100%}
@@ -76,10 +78,11 @@
     .txt-shadow{box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);background-color: #ffffff;border: 0}
     .txt-pad{padding-left: 2%;}
     .txt-n-b{border: none}
-
+    .txt-u-l{text-decoration: underline}
     .txt-a-c{text-align: center}
     .txt-a-l{text-align: left}
     .txt-a-r{text-align: right}
+    .txt-italic{font-style: italic}
 
     .l-h-1{line-height: 1;}
     .l-h-2{line-height: 2;}
@@ -112,12 +115,10 @@
     .no-pad{padding:0;}
 
 
-    .div-align-items-r{text-align: right;}
-    .div-align-items-l{text-align: left;}
-
     .display-none{display: none}
 
     /*shipments-page*/
+
 
     .div-s-p-h {padding: 20px 0 30px}
     .shipping-partner {padding-top: 40px;background-color: #fafafb;}
@@ -156,11 +157,11 @@
     .f-s-34{font-size:22px }
     .f-s-32{font-size:20px }
     .f-s-30{font-size:18px }
-    .f-s-28{font-size:17px }
-    .f-s-26{font-size:16px }
-    .f-s-24{font-size:15px }
-    .f-s-22{font-size:14px }
-    .f-s-20{font-size:13px }
+    .f-s-28{font-size:20px }
+    .f-s-26{font-size:20px }
+    .f-s-24{font-size:20px }
+    .f-s-22{font-size:19px }
+    .f-s-20{font-size:18px }
     .f-s-18{font-size:16px }
     .f-s-16{font-size:13px }
     .f-s-14{font-size:10px }

@@ -2303,9 +2303,9 @@ a#prev:hover, a#next:hover {
 .content-oes{background-color: #fafafb;padding-left: 4%;padding-right: 4%}
 .content-oes-stores{background-color: #fff;padding-left: 4%;padding-right: 4%}
 .content-oes div h1{font-size:23px;color: #11273b; font-weight: 900}
-.content-oes-stores div h1{font-size:20px;color: #11273b;}
-.content-oes div p{font-size: 14px;color: #677582;margin-top: 15px}
-.content-oes-stores div p{font-size: 14px;color: #677582;margin-top: 15px}
+.content-oes-stores div h1{font-size:20px;color: #11273b;font-weight: 800}
+.content-oes div p{font-size: 16px;color: #677582;margin-top: 15px}
+.content-oes-stores div p{font-size: 16px;color: #677582;margin-top: 15px}
 /*seo-footer*/
 /*contactus page starting*/
 /*Media queries*/
@@ -3255,6 +3255,7 @@ a#prev:hover, a#next:hover {
 }
 
 @media only screen and (max-width: 600px) {
+    .content-oes div h1{font-size:18px;}
     .register-free{padding: 10px 25px 10px;}
     .logo {
         width: 83px;

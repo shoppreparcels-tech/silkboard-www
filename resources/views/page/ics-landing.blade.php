@@ -108,7 +108,7 @@
 
             <center>
                 <h1 class="f-c-d-greay f-s-30 f-w-8" >
-                    We ship all over the world -To the USA, UAE, UK, Europe, Australia, New Zealand, Canada, Middle East & 200 other
+                    Send International Courier from India - To USA, UAE, UK, Australia, Canada, Singapore, Saudi Arabia, Mauritius & 200 other
                     countries.
                 </h1>
             </center>
