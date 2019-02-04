@@ -17,20 +17,3 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('/leads/signup', 'LeadController@create')->name('leads.signup');
-Route::post('/campaign/newaspaper', 'PageController@saveFlyerUser')->name('flyerUser');
-Route::post('/schedule-pickup/submit', 'SchedulePickupController@submit')->name('schedulePickup.submit');
-Route::post('/subscribe', 'PageController@createSubscriber')->name('subscribe');
-Route::post('/diwali-offer', 'PageController@diwaliCoupon')->name('diwali');
-Route::post('/new-year-offer', 'PageController@newYearOffer')->name('new.year');
-Route::post('/send-international-courier-from-india', 'PageController@icsLandingPageSubmit')->name('icslandingpage');
-Route::post('/personal-shopper-india', 'PageController@psLandingPageSubmit')->name('pslandingpage');
-Route::post('/radcon', 'PageController@radconSubmit')->name('radcon');
-Route::post('/christmas', 'PageController@christmasSubmit')->name('christmas');
-Route::post('/university', 'PageController@universitySubmit')->name('university');
-Route::post('/shop-ship', 'PageController@shopShip')->name('shopShip');
-Route::post('/valentines-cashback', 'PageController@apiValentines')->name('valentine');
-Route::post('/medicine', 'PageController@apiMedicine')->name('apiMedicine');
-Route::post('/parcel-forwarding', 'PageController@apiParcelForwarding')->name('apiParcelForwarding');
-
-

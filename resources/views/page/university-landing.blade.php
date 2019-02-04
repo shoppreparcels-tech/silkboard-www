@@ -388,7 +388,7 @@
                     var email = $("input[name='email']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api/university',
+                        url: 'university',
                         type: "POST",
                         data: {
                             _token: token,

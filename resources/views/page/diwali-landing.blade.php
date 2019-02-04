@@ -333,7 +333,7 @@
                     var contact_no = $("input[name='ContactNumber']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api/diwali-offer',
+                        url: 'diwali-offer',
                         type: "POST",
                         data: {
                             _token: token,

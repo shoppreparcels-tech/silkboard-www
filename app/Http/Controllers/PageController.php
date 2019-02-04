@@ -27,9 +27,260 @@ use App\Mailchimp\mailChimpTaskOperations;
 use App\Mail\ContactEnquiry;
 use App\Mail\GetQuote;
 use App\SubscribedUser;
+use App\Mail\Myaccount\EmailVerification;
+use App\Customer;
+use App\CustomerContact;
+use App\LoyaltyPoint;
+use App\LoyaltyMisc;
+use App\RefferCode;
+use App\ShippingPreference;
+use App\ShopperBalance;
+use App\Api\MailChimp;
+use App\Mail\Myaccount\ReferEarned;
+use App\Mail\Myaccount\ReferralSuccess;
+use Illuminate\Http\Response;
 
 class PageController extends Controller
 {
+    public function checkAuthenticate(Request $request) {
+        $auth_status = Auth::check();
+        if ($auth_status) {
+            return response(['status' => 'authenticated', 'description'=>'User is logged in']);
+        }
+        return response(['status' => 'unauthenticated', 'description'=>'User is not logged in']);
+    }
+
+    public function ajaxLogin(Request $request) {
+        $customer = Customer::where('email', $request->email)->first();
+        if (!empty($customer)) {
+            if ($customer->email_verify == 'yes') {
+                if (Auth::guard('customer')->attempt(['email'=>$request->email, 'password'=>$request->password])) {
+                    $request->session()->save();
+                    return response(['status' => 'success', 'name'=>$customer->name,'email'=>$customer->email], Response::HTTP_OK);
+                }
+                else {
+                    return response(['status' => 'wrong_password', 'description'=>'Wrong password']);
+                }
+            }
+            else {
+                return response(['status' => 'email_not_verified', 'description'=>'Email Is not verified']);
+            }
+        }
+        else {
+            return response(['status' => 'not_exist', 'description'=>'User not exist']);
+        }
+    }
+
+    public function ajaxSignup(Request $request) {
+        $douplicate = Customer::where('email', $request->email)->first();
+        if (!empty($douplicate)){
+            return response()->json(['status'=>'duplicate', 'description'=>'This email id already registered.']);
+        }
+        $loyalPoints = 0;
+        if (!empty($request->refferal)) {
+            $reffer = RefferCode::where('friend', $request->email)
+                ->where('code', $request->refferal)->first();
+            if (!empty($reffer)) {
+                $loyalPoints = 200;
+                $firendId = LoyaltyPoint::where('customer_id', $reffer->customer_id)->first()->id;
+
+                $friend = LoyaltyPoint::find($firendId);
+                $friend->points += $loyalPoints;
+                $friend->total += $loyalPoints;
+
+                if ($friend->total < 1000) {
+                    $friend->level = 1;
+                } elseif ($friend->total >= 1000 && $friend->total < 6000) {
+                    $friend->level = 2;
+                } elseif ($friend->total >= 6000 && $friend->total < 26000) {
+                    $friend->level = 3;
+                } elseif ($friend->total >= 26000) {
+                    $friend->level = 4;
+                }
+
+                $friend->save();
+
+                $referFriend = Customer::find($reffer->customer_id);
+                $misc = new LoyaltyMisc;
+                $misc->customer_id = $reffer->customer_id;
+                $misc->info = 'Your friend signed up with the referral code that you sent';
+                $misc->points = $loyalPoints;
+                $misc->save();
+
+                Mail::to($referFriend->email)->send(new ReferEarned('Congratulations! You have 
+		        earned 200 Shoppre Loyalty Points simply because your friend signed up with the referral 
+		        code that you sent!'));
+
+                Mail::to($request->email)->send(new ReferEarned('Congratulations! You have earned 
+		        200 Shoppre Loyalty Points simply because you signed up with the referral code that your 
+		        friend sent!'));
+
+            } else {
+
+                return redirect()->back()->with('error_message', 'You may entered an invalid refferal code.
+	    		 Try with another or proceed without.');
+            }
+        }
+
+        $customer = new Customer;
+
+        if (!empty($request->referrer)) {
+            $customer->referred_customer_id = base64_decode($request->referrer);
+            $referrer = Customer::where('id', $customer->referred_customer_id)
+                ->select('name', 'email')->first();
+            Mail::to($referrer->email)
+                ->send(new ReferralSuccess(['referrer' => $referrer, 'customer' => $customer]));
+        }
+
+        $name = "";
+        if (!empty($request->title)) {
+            $name .= $request->title . ". ";
+        }
+        $name .= $request->name;
+
+        $customer->name = $name;
+        $customer->email = $request->email;
+        $customer->phone = $request->phone;
+        $customer->country_code = $request->country_code;
+        $customer->utm_campaign = $request->utm_campaign;
+        $customer->utm_source = $request->utm_source;
+        $customer->utm_medium = $request->utm_medium;
+        $customer->gcl_id = $request->gcl_id;
+        $customer->referer = $request->referer;
+//        $customer->medium = $request->continue;
+        $customer->password = bcrypt($request->password);
+        if (!empty($request->referrer)) {
+            $customer->referred_customer_id = base64_decode($request->referrer);
+            $referrer = Customer::where('id', base64_decode($request->referrer))
+                ->select('name', 'email')->first();
+            Mail::to($referrer->email)
+                ->send(new ReferralSuccess(['referrer' => $referrer, 'customer' => $customer]));
+        }
+
+        do {
+            $code = 'SHPR' . rand(10, 99) . "-" . rand(100, 999);
+            $user_code = Customer::where('locker', $code)->get();
+        } while (!$user_code->isEmpty());
+
+        $customer->locker = $code;
+        $customer->save();
+
+        $contact = new CustomerContact;
+        $contact->customer_id = $customer->id;
+        $contact->save();
+
+        $loyalty = new LoyaltyPoint;
+        $loyalty->customer_id = $customer->id;
+        $loyalty->level = 1;
+        $loyalty->points = $loyalPoints;
+        $loyalty->total = $loyalPoints;
+        $loyalty->save();
+
+        $misc = new LoyaltyMisc;
+        $misc->customer_id = $customer->id;
+        $misc->info = 'Signed up with the referral code that your friend sent';
+        $misc->points = $loyalPoints;
+        $misc->save();
+
+        $setting = new ShippingPreference;
+        $setting->customer_id = $customer->id;
+        $setting->save();
+
+        $balance = new ShopperBalance;
+        $balance->customer_id = $customer->id;
+        $balance->amount = 0;
+        $balance->save();
+
+//        MailChimp::getInterest();
+        $status = MailChimp::signUpSubscriber($name,$request->email);
+
+
+//        $status_ask = $this->informToAsk($customer);
+        $status = $this->informMailtrain($customer);
+        $this->sendEmailVerification($request->email);
+            return response()->json(['status'=>'success', 'description'=>'Registred Successfully']);
+    }
+
+    public function sendEmailVerification($email)
+    {
+        $this->generateToken($email);
+        $customer = Customer::where('email', $email)->first();
+        Mail::to($customer->email)->send(new EmailVerification($customer));
+    }
+
+    private function generateToken($email)
+    {
+        $customer = new Customer;
+        $token = hash_hmac('sha256', str_random(40), config('app.key'));
+        $customer->where('email', $email)->update(['email_token' => $token]);
+        return $token;
+    }
+
+    public function informMailtrain($customer)
+    {
+        $data = array(
+            "EMAIL" => $customer->email,
+            "FIRST_NAME" => $customer->name,
+            "REQUIRE_CONFIRMATION" => "no"
+        );
+        $url = 'https://mailtrain.shoppre.com/api/subscribe/-TG3P-amN?access_token=9f19384da11de72805b86b4640bb64da9efdaff0';
+        return $this->curl($url, $data);
+    }
+
+    public function curl($url, $data)
+    {
+        $data_string = json_encode($data);
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+                'Content-Type: application/json',
+                'Content-Length: ' . strlen($data_string))
+        );
+        return curl_exec($ch);
+    }
+
+    public static function signUpSubscriber($name, $email) {
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $auth = base64_encode( 'user:'.$apikey );
+        $listId ='f995a1fef9';
+        $data = array(
+            'apikey'        => $apikey,
+            'email_address' => $email,
+            'status'        => 'subscribed',
+            'merge_fields'  => array(
+                'FNAME' => $name,
+            )
+        );
+        $json_data = json_encode($data);
+        try {
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, 'https://us19.api.mailchimp.com/3.0/lists/'.$listId.'/members/');
+            curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json',
+                'Authorization: Basic '.$auth));
+            curl_setopt($ch, CURLOPT_USERAGENT, 'PHP-MCAPI/2.0');
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+            curl_setopt($ch, CURLOPT_POST, true);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);
+
+            $result = curl_exec($ch);
+
+//           var_dump($result);
+            return response()->json([
+                'message' => 'success'
+            ]);
+        }
+        catch(\Exception $e)
+        {
+            return response()->json([
+                'message' => 'error'
+            ]);
+        }
+    }
+
     public function verifyOtp(Request $request)
     {
         $exist_user = SubscribedUser::where('mobile', '=', $request->mobile_number)->first();

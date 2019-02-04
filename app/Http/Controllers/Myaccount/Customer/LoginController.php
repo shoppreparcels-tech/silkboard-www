@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Myaccount\Customer;
 
+use App\Customer;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Auth;
@@ -35,20 +36,28 @@ class LoginController extends Controller
     		'email' => 'required|email',
     		'password' => 'required|min:6',
     	]);
+		$customer = Customer::where('email','=',$req->email)->first();
 
-		if ($req->continue)
-        {
-
-            if (Auth::guard('customer')->attempt(['email'=>$req->email, 'password'=>$req->password], $req->remember)) {
-                return view('customer.login-success');
-            }
+        if (!empty($customer)) {
+         if ($customer->email_verify == 'yes') {
+             if ($req->continue)
+             {
+                 if (Auth::guard('customer')->attempt(['email'=>$req->email, 'password'=>$req->password], $req->remember)) {
+                     return view('customer.login-success');
+                 }
+                 return redirect()->back()->with('error_message', 'Your email/password combination was incorrect')->withInput($req->only('email', 'remember'));
+             }
+             else
+             {
+                 if (Auth::guard('customer')->attempt(['email'=>$req->email, 'password'=>$req->password], $req->remember)) {
+                     return redirect()->intended(route('customer.locker'));
+                 }
+                 return redirect()->back()->with('error_message', 'Your email/password combination was incorrect')->withInput($req->only('email', 'remember'));
+             }
+         }
+         else {
+             return redirect()->back()->with('error_message', 'Please verify your email')->withInput($req->only('email', 'remember'));
+         }
         }
-        else
-        {
-            if (Auth::guard('customer')->attempt(['email'=>$req->email, 'password'=>$req->password], $req->remember)) {
-                return redirect()->intended(route('customer.locker'));
-            }
-        }
-    	return redirect()->back()->with('error_message', 'Your email/password combination was incorrect')->withInput($req->only('email', 'remember'));
 	}
 }

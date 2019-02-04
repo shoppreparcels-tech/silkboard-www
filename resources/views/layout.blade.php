@@ -67,6 +67,7 @@
     <meta property="al:android:package" content="com.shoppre.play"/>
     <meta property="al:android:app_name" content="Shoppre - International Shipping from India"/>
     <meta name="msvalidate.01" content="0E25F147AD9B658B4418A996E97D0D7D"/>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
 @yield('schema_markup')
@@ -327,6 +328,11 @@
 </script>
 <script>
     $(document).ready(function () {
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
         $("#btnClosePopup").click(function () {
             localStorage.popupClose = "close";
             $('#myModal').modal('hide');

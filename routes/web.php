@@ -453,7 +453,10 @@ Route::get('/about', 'PageController@about')->name('about');
 /* For sentry testing Breaking the url */
 
 Route::get('/sentry-break', 'PageController@breakSentry')->name('sentry-break');
-
+Route::post('/ajax/login', 'PageController@ajaxLogin')->name('ajaxLogin');
+Route::post('/ajax/signup', 'PageController@ajaxSignup')->name('ajaxLogin');
+Route::get('/check/authenticate', 'PageController@checkAuthenticate')->name('user.check.authenticate');
+Route::post('/schedule-pickup/submit', 'SchedulePickupController@submit')->name('schedulePickup.submit');
 Route::get('/partner', 'PageController@partner')->name('partner');
 Route::get('/faq', 'PageController@faq')->name('faq');
 Route::get('/faq/search', 'PageController@faqSearch')->name('faq.search');
@@ -611,6 +614,22 @@ Route::get('/radcon-tc', 'PageController@radioTermsConditions')->name('radio.tc'
 Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
 Route::get('/seller-partner', 'PageController@seller')->name('seller');
 Route::get('/video-lp', 'PageController@videoLp')->name('videoLp');
+
+Route::post('/leads/signup', 'LeadController@create')->name('leads.signup');
+Route::post('/campaign/newaspaper', 'PageController@saveFlyerUser')->name('flyerUser');
+Route::post('/subscribe', 'PageController@createSubscriber')->name('subscribe');
+Route::post('/diwali-offer', 'PageController@diwaliCoupon')->name('diwali');
+Route::post('/new-year-offer', 'PageController@newYearOffer')->name('new.year');
+Route::post('/send-international-courier-from-india', 'PageController@icsLandingPageSubmit')->name('icslandingpage');
+Route::post('/personal-shopper-india', 'PageController@psLandingPageSubmit')->name('pslandingpage');
+Route::post('/radcon', 'PageController@radconSubmit')->name('radcon');
+Route::post('/christmas', 'PageController@christmasSubmit')->name('christmas');
+Route::post('/university', 'PageController@universitySubmit')->name('university');
+Route::post('/shop-ship', 'PageController@shopShip')->name('shopShip');
+Route::post('/valentines-cashback', 'PageController@apiValentines')->name('valentine');
+Route::post('/medicine', 'PageController@apiMedicine')->name('apiMedicine');
+Route::post('/parcel-forwarding', 'PageController@apiParcelForwarding')->name('apiParcelForwarding');
+
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');
 

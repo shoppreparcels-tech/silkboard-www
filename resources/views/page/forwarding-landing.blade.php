@@ -351,7 +351,7 @@
                     var contact_no = $("input[name='ContactNumber']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api/parcel-forwarding',
+                        url: 'parcel-forwarding',
                         type: "POST",
                         data: {
                             _token: token,

@@ -377,7 +377,6 @@
                     </div>
                 </div>
 
-
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
@@ -435,7 +434,7 @@
                     var contact_no = $("input[name='ContactNumber']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api/send-international-courier-from-india',
+                        url: 'send-international-courier-from-india',
                         type: "POST",
                         data: {
                             _token: token,

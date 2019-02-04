@@ -315,7 +315,7 @@
                     var cnumber = $("[name='country_code']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api/new-year-offer',
+                        url: 'new-year-offer',
                         type: "POST",
                         data: {
                             _token: token,

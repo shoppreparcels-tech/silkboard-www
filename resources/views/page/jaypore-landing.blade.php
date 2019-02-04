@@ -389,7 +389,7 @@
                     var contact_no = $("input[name='ContactNumber']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api/send-international-courier-from-india',
+                        url: 'send-international-courier-from-india',
                         type: "POST",
                         data: {
                             _token: token,

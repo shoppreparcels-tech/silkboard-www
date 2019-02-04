@@ -338,7 +338,7 @@
                     var cnumber = $("[name='country_code']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api/shop-ship',
+                        url: 'shop-ship',
                         type: "POST",
                         data: {
                             _token: token,

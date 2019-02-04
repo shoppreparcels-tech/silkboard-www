@@ -5,7 +5,7 @@
 @section('keywords', 'sign up, register, create account, shipment, personal, parcel')
 
 @section('css_style')
-  <link rel="canonical" href="https://myaccount.shoppre.com/register"/>
+  <link rel="canonical" href="https://www.shoppre.com/customer/register"/>
   <script type='application/ld+json'>
   {
     "@context": "http://www.schema.org",

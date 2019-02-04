@@ -1140,6 +1140,7 @@
             $("#getRates").click(function(e) {
                 e.preventDefault();
                 let country = $("select[name='country']").val();
+                $("#shippingCountry").text(country);
                 console.log(country);
                 $.ajax({
                     type: 'get',
@@ -1163,7 +1164,6 @@
                                 '</tbody>';
                         });
                         $('#shippingRates').html(html);
-                        $("#shippingCountry").text(country);
                         $('#ratesModel').modal('show')
                     }
                 });
