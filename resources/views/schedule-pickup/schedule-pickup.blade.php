@@ -591,7 +591,7 @@
                                         </select>
                                     </div>
                                     <div class="col-sm-8 ">
-                                        <input type="text" class="form-control" id="sch-mobile-number"
+                                        <input type="text" class="form-control"
                                                name="dc_contact_no"
                                                placeholder="Phone Number">
                                     </div>
