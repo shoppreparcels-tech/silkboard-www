@@ -725,6 +725,11 @@
     <script type="text/javascript">
         /* Magnific Popup */
         $(document).ready(function () {
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
             $('#utm_campaign').val(localStorage.myaccount_utm_campaign);
             $('#utm_medium').val(localStorage.myaccount_utm_medium);
             $('#utm_source').val(localStorage.myaccount_utm_source);
