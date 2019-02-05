@@ -875,7 +875,7 @@
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="nav-ul">
                     <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('packers-movers')}}">Relocation, Packers & Movers</a></li>
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="https://www.shoppre.com/services/parcel-forwarding-service-india/" target="_blank">Package Forwarding from India</a></li>
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('forwarding')}}" target="_blank">Package Forwarding from India</a></li>
                 </ul>
             </div>
             <div class="col-md-3 col-sm-3 col-xs-6">

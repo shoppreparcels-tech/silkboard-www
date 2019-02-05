@@ -107,14 +107,14 @@
                                     </div>
 
                                     <div class="div-megamenu-hover-effects">
-                                        <a class="mega-menu-hyperlinks" href="{{route('ifs.index')}}/#how-it-works">A FREE Local, Virtual Address</a>
+                                        <a class="mega-menu-hyperlinks" href="{{route('indianVirtual')}}">A FREE Local, Virtual Address</a>
 
                                         <p class="header6 p-color-cement" style="margin-top: 10px">We’ll receive your package at our facility, store it till all your packages arrive,
                                             and consolidate & ship them off to your destination abroad.</p>
                                     </div>
 
                                     <div class="div-megamenu-hover-effects">
-                                        <a href="{{route('ifs.index')}}/#personal-shopper" class="mega-menu-hyperlinks">
+                                        <a href="/personal-shopper-india" class="mega-menu-hyperlinks">
                                             Personal Shopper
                                         </a>
 
@@ -199,7 +199,7 @@
                         </ul>
                     </li>
                     <li><a href="{{route('offers-new.index')}}">Offers <sup class="p-color-red" style="font-size: 8px" id="offer">New</sup> </a></li>
-                    <li><a href="{{route('pricing')}}">Price Calculator</a></li>
+                    <li><a href="{{route('pricing')}}">Shipping Rates</a></li>
                     <li><a href="{{route('contact')}}">Support</a></li>
                     <li>
                         <div class="container-search">

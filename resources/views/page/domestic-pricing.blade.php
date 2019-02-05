@@ -1,13 +1,13 @@
 @extends('layout')
 
-@section('title', 'Pricing | Shipping Cost Calculator - Shoppre')
-@section('description', 'Get the right plan that suits your need and calculate your shipping costs from India to any country. Save upto 75% on shipping rates!')
-@section('keywords', 'calculate your shipping costs, from india to any country, save 75% on shipping rates, repackaging service, shipping calculator')
+@section('title', 'Domestic Shipping Cost Calculator India - ShoppRe')
+@section('description', '')
+@section('keywords', '')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator" />
     <style>
         .container-fluid{padding-left: 10%;padding-right: 10%}
+
         .btn span.glyphicon {opacity: 0;}
         .btn.active span.glyphicon {opacity: 1;}
         .l-pad{padding-left: 10px}
@@ -21,8 +21,6 @@
         .btn-puls-pad{padding: 6px 8px;}
         .new-pricing .select-control {float: left;width: 89px;height: 40px;font-size: 13px;font-weight: 400;font-style: italic;border-left: 0;border-radius: 20px;background-color: #fafafb;border: none;}
         .sidebar-nav-fixed{width:13%}.fixed-div{position: fixed;}
-         #volumetric-dis{display: none}
-
 
         @media only screen and (max-width: 600px) {
             .l-pad{padding-left: 0px}
@@ -69,40 +67,6 @@
 
                 </div>
             </div>
-            <div class="modal fade" id="moreWeight" role="dialog">
-                <div class="modal-dialog">
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            {{--<h4 class="modal-title">Shipping Rates: <span id="shippingCountry"></span></h4>--}}
-                        </div>
-                        <div class="modal-body">
-                            <div class="panel panel-success">
-                                <div class="panel-heading">
-                                    <h4 class="modal-title f-w-8"> For more than 70 Kg we will be providing spot rates which are extremely competitive</h4>
-                                </div>
-                                <div class="panel-body">
-                                    <form action="">
-                                        <div class="col-md-12 col-xs-12 pad-r-10 pad-b-20"><br>
-                                            Name:<input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="Name" placeholder="Enter your name"><br/>
-                                            Phone Number: <input id="phone" name="ContactNumber" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off"> <br/>
-                                            Email:<input type="Email" name="email" class="txt-f-w txt-shadow txt-pad" autocomplete="off"   placeholder="jhon@email.com">
-                                            <div class="col-xs-12 col-md-12 pad-t-20">
-                                                <button type='submit' class="btn btn-s-r btn-b-r btn-l">Get a quote</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
 
         </div>
         <div class="container div-b-l-w no-pad" style="padding-bottom: 30px">
@@ -132,7 +96,7 @@
                                 </select>
                             </div>
                             <div class="col-md-6 col-xs-12 l-pad">
-                                <a class="f-s-14 f-c-blue cursor-type-p" data-toggle="modal" data-target="#ratesModel" id="getRates">View Rates up to 10 Kg</a>
+                                <a class="f-s-14 f-c-blue" data-toggle="modal" data-target="#ratesModel" id="getRates">View all rates up to 10 Kg</a>
                             </div>
                         </div>
                         <div class="col-md-12 col-xs-12 no-pad">
@@ -180,73 +144,68 @@
 
                         <div class="col-md-12 col-xs-12 col-sm-12 no-pad">
                             <p class="f-s-14 f-c-l-gray f-w-5 col-md-12 col-xs-12 no-pad l-h-3">
-                            <div class="checkbox">
-                                <label class="f-s-14 f-c-l-gray f-w-5"><input type="checkbox" id="volumetric_weight">Volumetric Weight (Optional)
-                                    <a href="#" class="tooltipkey" title="The shipping cost for your courier is
+                                Volumetric Weight (Optional)
+                                <a href="#" class="tooltipkey" title="The shipping cost for your courier is
                                              estimated to the maximum accuracy, based on our pricing policies and
                                                  is based upon whichever is greater for your package;
                                              either its volumetric weight or the actual weight">
-                                        <i class="fa fa-question-circle-o"></i></a>
-                                </label>
-                            </div>
-                            </p>
-                            <div class="col-md-12 col-xs-12 no-pad" id="volumetric-dis">
-                                <div class="col-md-5 col-xs-12 pad-r-10">
-                                    <div class="col-md-4 col-xs-4 no-pad">
-                                        <div class="btn-group" data-toggle="buttons">
-                                            <p class="f-s-14 f-c-d-greay f-w-5 pull-left">Unit</p> <br>
-                                            <label class="btn btn-radio active btn-h-40">
-                                                <input type="radio" name="measurement_unit" id="option2" value="cm" checked="checked"> cm
-                                            </label>
+                                    <i class="fa fa-question-circle-o"></i></a>
+                            </p><br>
 
-                                            <label class="btn btn-radio btn-h-40">
-                                                <input type="radio" name="measurement_unit" id="option1" value="in"> in
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8 col-xs-8 no-pad pull-right">
-                                        <h14 class="f-s-14 f-c-d-greay f-w-5 pull-left">Length</h14>
-                                        <br>
-                                        <div class="col-md-12 col-xs-12 div-b-g b-r no-pad">
-                                            <button type="button" class="btn btn-b-w btn-h-40 pull-left dec-value btn-puls-pad col-md-2 col-xs-2" id="aminus">-</button>
-                                            <div class="col-md-8 col-xs-8 no-pad">
-                                                <input type="text" class="txt-f-w txt-a-c txt-n-b" value="0.5"
-                                                       name="weight">
-                                            </div>
-                                            <button type="button" class="btn btn-b-w btn-h-40 pull-right inc-value btn-puls-pad col-md-2 col-xs-2" id="aplus">+</button>
-                                        </div>
+                            <div class="col-md-5 col-xs-12 pad-r-10">
+                                <div class="col-md-4 col-xs-4 no-pad">
+                                    <div class="btn-group" data-toggle="buttons">
+                                        <p class="f-s-14 f-c-d-greay f-w-5 pull-left">Unit</p> <br>
+                                        <label class="btn btn-radio active btn-h-40">
+                                            <input type="radio" name="measurement_unit" id="option2" value="cm" checked="checked"> cm
+                                        </label>
+
+                                        <label class="btn btn-radio btn-h-40">
+                                            <input type="radio" name="measurement_unit" id="option1" value="in"> in
+                                        </label>
                                     </div>
                                 </div>
-
-                                <div class="col-md-7 col-xs-12 pad-l-10">
-                                    <div class="col-md-6 col-xs-6 pad-r-10 ">
-                                        <h14 class="f-s-14 f-c-d-greay f-w-5 pull-left">Height</h14>
-                                        <br>
-                                        <div class="col-md-12 col-xs-12 div-b-g b-r no-pad">
-                                            <button type="button" class="btn btn-b-w btn-h-40 pull-left dec-value btn-puls-pad col-md-2 col-xs-2" id="aminus">-</button>
-                                            <div class="col-md-8 col-xs-8 no-pad">
-                                                <input type="text" class="txt-f-w txt-a-c txt-n-b" value="0.5"
-                                                       name="weight">
-                                            </div>
-                                            <button type="button" class="btn btn-b-w btn-h-40 pull-right inc-value btn-puls-pad col-md-2 col-xs-2" id="aplus">+</button>
+                                <div class="col-md-8 col-xs-8 no-pad pull-right">
+                                    <h14 class="f-s-14 f-c-d-greay f-w-5 pull-left">Length</h14>
+                                    <br>
+                                    <div class="col-md-12 col-xs-12 div-b-g b-r no-pad">
+                                        <button type="button" class="btn btn-b-w btn-h-40 pull-left dec-value btn-puls-pad col-md-2 col-xs-2" id="aminus">-</button>
+                                        <div class="col-md-8 col-xs-8 no-pad">
+                                            <input type="text" class="txt-f-w txt-a-c txt-n-b" value="0.5"
+                                                   name="weight">
                                         </div>
-                                    </div>
-                                    <div class="col-md-6 col-xs-6 pad-l-10 ">
-                                        <h14 class="f-s-14 f-c-d-greay f-w-5 pull-left">Width</h14>
-                                        <br>
-                                        <div class="col-md-12 col-xs-12 div-b-g b-r no-pad">
-                                            <button type="button" class="btn btn-b-w btn-h-40 pull-left dec-value btn-puls-pad col-md-2 col-xs-2" id="aminus">-</button>
-                                            <div class="col-md-8 col-xs-8 no-pad">
-                                                <input type="text" class="txt-f-w txt-a-c txt-n-b" value="0.5"
-                                                       name="weight">
-                                            </div>
-                                            <button type="button" class="btn btn-b-w btn-h-40 pull-right inc-value btn-puls-pad col-md-2 col-xs-2" id="aplus">+</button>
-                                        </div>
+                                        <button type="button" class="btn btn-b-w btn-h-40 pull-right inc-value btn-puls-pad col-md-2 col-xs-2" id="aplus">+</button>
                                     </div>
                                 </div>
                             </div>
-                            </div>
 
+                            <div class="col-md-7 col-xs-12 pad-l-10">
+                                <div class="col-md-6 col-xs-6 pad-r-10 ">
+                                    <h14 class="f-s-14 f-c-d-greay f-w-5 pull-left">Height</h14>
+                                    <br>
+                                    <div class="col-md-12 col-xs-12 div-b-g b-r no-pad">
+                                        <button type="button" class="btn btn-b-w btn-h-40 pull-left dec-value btn-puls-pad col-md-2 col-xs-2" id="aminus">-</button>
+                                        <div class="col-md-8 col-xs-8 no-pad">
+                                            <input type="text" class="txt-f-w txt-a-c txt-n-b" value="0.5"
+                                                   name="weight">
+                                        </div>
+                                        <button type="button" class="btn btn-b-w btn-h-40 pull-right inc-value btn-puls-pad col-md-2 col-xs-2" id="aplus">+</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xs-6 pad-l-10 ">
+                                    <h14 class="f-s-14 f-c-d-greay f-w-5 pull-left">Width</h14>
+                                    <br>
+                                    <div class="col-md-12 col-xs-12 div-b-g b-r no-pad">
+                                        <button type="button" class="btn btn-b-w btn-h-40 pull-left dec-value btn-puls-pad col-md-2 col-xs-2" id="aminus">-</button>
+                                        <div class="col-md-8 col-xs-8 no-pad">
+                                            <input type="text" class="txt-f-w txt-a-c txt-n-b" value="0.5"
+                                                   name="weight">
+                                        </div>
+                                        <button type="button" class="btn btn-b-w btn-h-40 pull-right inc-value btn-puls-pad col-md-2 col-xs-2" id="aplus">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-md-12 col-xs-12 no-pad">
                             {{--<div class="col-md-6 col-xs-12 pad-r-10"><br>--}}
                                 {{--<input id="phone" name="phone" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off">--}}
@@ -411,7 +370,7 @@
                 {{--<div class="sidebar-nav-fixed affix">--}}
                 <br>
                 <div class="col-md-12 col-xs-12 no-pad">
-                    <a href="{{route('domesticPricing')}}" class="btn btn-f-w btn-b-b btn-s-b btn-a-l">Domestic Shipping Rates</a><br>
+                    <a href="{{route('pricing')}}" class="btn btn-f-w btn-b-b btn-s-b btn-a-l">International Shipping Rates</a><br>
                 </div>
 
                 <div class="col-md-12 col-xs-12 no-pad"><br>
@@ -801,9 +760,9 @@
                                         <td>
                                             <h14 class="f-s-18 f-c-d-greay">Monthly Fee</h14>
                                         </td>
-                                        <td class="pad-20">
-                                            <h6 class="f-s-26 f-c-blue f-w-9">₹2500/-</h6>
-                                            <a href="{{route('customer.register')}}"
+                                        <td class="pad-5">
+                                            <h6 class="f-s-26 f-c-blue f-w-9">₹ 2500/-</h6>
+                                            <a href="{{route('contact')}}"
                                                class="btn btn-b-r btn-s-r btn-a-l btn-disabled">Get a Free
                                                 Address
                                             </a>
@@ -814,11 +773,11 @@
                                         </td>
                                         <td>
                                             <h6 class="f-s-26 f-c-blue f-w-9">Free Forever</h6>
-                                            <a href="{{route('customer.register')}}"
+                                            <a href="{{route('contact')}}"
                                                 class="btn btn-b-b btn-s-b btn-a-l btn-disabled">Get a Free
                                                 Address
                                             </a>
-                                            <a href="{{route('customer.register')}}"
+                                            <a href="{{route('contact')}}"
                                                 class="btn-enable">Get a Free
                                                 Address
                                             </a>
@@ -1135,23 +1094,23 @@
                                         <td>
                                             <h14 class="f-s-18 f-c-d-greay">Monthly Fee</h14>
                                         </td>
-                                        <td class="pad-20">
-                                            <h6 class="f-s-26 f-c-blue f-w-9">₹5000/-</h6>
-                                            <a href="{{route('customer.register')}}"
+                                        <td class="pad-5">
+                                            <h6 class="f-s-26 f-c-blue f-w-9">₹ 5000/-</h6>
+                                            <a href="{{route('contact')}}"
                                                class="btn btn-b-r btn-s-r btn-a-l btn-disabled">Get a Free
                                                 Address
                                             </a>
-                                            <a href="{{route('customer.register')}}" class="btn-enable">Get a Free
+                                            <a href="{{route('contact')}}" class="btn-enable">Get a Free
                                                 Address
                                             </a>
                                         </td>
                                         <td>
                                             <h6 class="f-s-26 f-c-blue f-w-9">Free Forever</h6>
-                                            <a href="{{route('customer.register')}}"
+                                            <a href="{{route('contact')}}"
                                                class="btn btn-b-b btn-s-b btn-a-l btn-disabled">Get a Free
                                                 Address
                                             </a>
-                                            <a href="{{route('customer.register')}}"
+                                            <a href="{{route('contact')}}"
                                                class="btn-enable">Get a Free
                                                 Address
                                             </a>
@@ -1245,26 +1204,6 @@
         });
     </script>
     <script>
-        $(document).ready(function() {
-            if ($(window).width() >600) {
-                $('#volumetric_weight').attr("checked",true)
-                $("#volumetric-dis").css({'display':'block'})
-            }
-            else {
-                console.log('< 6')
-                $('#volumetric_weight').attr("checked",false)
-                $("#volumetric-dis").css({'display':'none'})
-            }
-            $('#volumetric_weight').change(function() {
-                if(this.checked) {
-                    $("#volumetric-dis").css({'display':'block'})
-                }else {
-                    $("#volumetric-dis").css({'display':'none'})
-                }
-
-            });
-        });
-
         $('.tabgroup > div').hide();
         $('.tabgroup > div:first-of-type').show();
         $('.tabs a').click(function (e) {
@@ -1278,11 +1217,34 @@
             $(tabgroup).children('div').hide();
             $(target).show();
         });
-    </script>
 
+    </script>
 
     <script type="text/javascript">
         $(document).ready(function () {
+            let data =[{"frompin": "560049","topin": "600012","length": "12","width": "12","height":
+                        "12","weight": "1","invoiceVal": "1000"}];
+            let url='http://instacouriers.com/shipr/api/web/v1/rates/getrates?access-token=JiQBEoIagsKk1wnCRWVGzUFsuvK7g3td&data=';
+            url += data;
+            console.log(url);
+            // jQuery.ajax({
+            //     url: 'http://instacouriers.com/shipr/api/web/v1/rates/getrates?access-token=JiQBEoIagsKk1wnCRWVGzUFsuvK7g3td'+,
+            //     type: "Get",
+            //     dataType: "json",
+            //     beforeSend: function(x) {
+            //         if (x && x.overrideMimeType) {
+            //             x.overrideMimeType("application/j-son;charset=UTF-8");
+            //         }
+            //     },
+            //     success: function (res) {
+            //         console.log('pricing log', res);
+            //         // if (res.error == "1") {
+            //         // } else {
+            //         //
+            //         // }
+            //     }
+            // });
+
             $("#getRates").click(function(e) {
                 e.preventDefault();
                 let country = $("select[name='country']").val();
@@ -1291,7 +1253,7 @@
                     type: 'get',
                     url: 'https://staging-ship-api.shoppre.com/api/pricing/slab?all=true&country='+ country +'&rateType=slab&type=nondoc&weight=1',
                     success: function ({prices, pricesDoc}) {
-                        // console.log(pricesDoc);
+                        console.log(pricesDoc);
                         var html=' <thead>\n' +
                             ' <tr>\n' +
                             ' <th>Weight(in KG)</th>\n' +
@@ -1334,30 +1296,29 @@
 
         });
         $(document).ready(function () {
-            $("#shipping").validate({
-                rules:
-                    {
-                        country: {required: true},
-                        weight: {required: true},
-                        unit: {required: true},
-                    },
-                messages:
-                    {
-                        country: {required: "Please select country"},
-                        weight: {required: "Please enter weight to calculate."},
-                        unit: {required: "Please select unit of weight."},
-                    },
-                submitHandler: function (form) {
-                    var country = $("select[name='country']").val();
-                    var weight = $("input[name='weight']").val();
-                    var weight_unit = $("input[name='weight_unit']:checked").val();
-                    var measurement_unit = $("input[name='measurement_unit']:checked").val();
-                    var package_type = $("input[name='package_type']:checked").val();
-                    var length = $("input[name='length']").val();
-                    var width = $("input[name='width']").val();
-                    var height = $("input[name='height']").val();
-                    console.log('country ' + country + '\n weight ' + weight + '\n weight_unit ' + weight_unit + '\n type ' + package_type + ' \n measurement_unit ' + measurement_unit + '\n length ' + length + '\n width ' + width + '\n height ' + height);
-                    if (weight<=70){
+                $("#shipping").validate({
+                    rules:
+                        {
+                            country: {required: true},
+                            weight: {required: true},
+                            unit: {required: true},
+                        },
+                    messages:
+                        {
+                            country: {required: "Please select country"},
+                            weight: {required: "Please enter weight to calculate."},
+                            unit: {required: "Please select unit of weight."},
+                        },
+                    submitHandler: function (form) {
+                        var country = $("select[name='country']").val();
+                        var weight = $("input[name='weight']").val();
+                        var weight_unit = $("input[name='weight_unit']:checked").val();
+                        var measurement_unit = $("input[name='measurement_unit']:checked").val();
+                        var package_type = $("input[name='package_type']:checked").val();
+                        var length = $("input[name='length']").val();
+                        var width = $("input[name='width']").val();
+                        var height = $("input[name='height']").val();
+                        console.log('country ' + country + '\n weight ' + weight + '\n weight_unit ' + weight_unit + '\n type ' + package_type + ' \n measurement_unit ' + measurement_unit + '\n length ' + length + '\n width ' + width + '\n height ' + height);
                         jQuery.ajax({
                             url: 'https://ship-api.shoppre.com/api/pricing?all=true&country=' + country + '&type=' + package_type + '&weight=' + weight,
                             type: 'get',
@@ -1375,48 +1336,52 @@
                             }
                         });
                         return false;
-                    } else {
-                        $('#moreWeight').modal('show')
-
                     }
+                });
 
-                }
-            });
-
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $("#moreWeight").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    debugger;
-                    var email = $("input[name='email']").val();
-                    var name = $("input[name='Name']").val();
-                    var contact_no = $("input[name='ContactNumber']").val();
-                    var token = $('input[name=_token]').val();
-                    jQuery.ajax({
-                        url: 'api-pricing-lp',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            email: email,
-                            name: name,
-                            contact_no: contact_no,
+                $("#form_quote").validate({
+                    rules:
+                        {
+                            state: {required: true},
+                            city: {required: true},
+                            pin: {required: true},
+                            type: {required: true},
+                            weight: {required: true},
+                            unit: {required: true},
+                            email: {required: true, email: true},
                         },
-                        success: function (data) {
-                            console.log(data);
-                        }
-                    })
-                }
-            });
+                    messages:
+                        {
+                            state: {required: "Please select state"},
+                            city: {required: "Please enter city"},
+                            pin: {required: "Please enter PIN"},
+                            weight: {required: "Enter package weight."},
+                            email: {required: "Enter your email address to contact."},
+                        },
+                    submitHandler: function (form) {
+                        $("#quote_load").show();
+                        jQuery.ajax({
+                            url: '/qoute/submit',
+                            type: "POST",
+                            data: $("#form_quote").serialize(),
+
+                            success: function (data) {
+                                $('#form_quote')[0].reset();
+                                $("#quote_load").hide();
+                                $("#quote_submit").hide();
+                                $("#quote_result").show();
+                            },
+                            error: function (xhr, ajaxOptions, thrownError) {
+                                $('#form_quote')[0].reset();
+                                $("#quote_load").hide();
+                                $("#quote_error").show();
+                                $("#quote_submit").hide();
+                                /*console.log(xhr.responseText);*/
+                            }
+                        });
+                        return false;
+                    }
+                });
 
         });
     </script>

@@ -253,8 +253,8 @@
     </div>
     <section class="">
         <div class="container">
-            <div class="col-md-6 col-xs-12 no-pad">
-                <h3>Schedule Your Pickup - <span style="color: red;font-size: 16px;">
+            <div class="col-md-6 col-xs-12 pad-t-20">
+                <h3>Schedule Your Pickup - <span class="f-c-red f-s-16">
                     <a class="bla-1" href="https://www.youtube.com/watch?v=lQi4Io_WH70">
                         Watch Video To Know More
                     </a>

@@ -498,8 +498,11 @@ Route::get('/offers', 'PageController@offersIndex')->name('offers-new.index');
 Route::get('/faq-new', 'PageController@faqNew')->name('faq.new');
 Route::get('/indian-online-stores', 'PageController@storeNew')->name('stores1');
 Route::get('/pricing', 'PageController@newPricing')->name('pricing');
+Route::get('/cheap-rates-international-shipping-cost-calculator', 'PageController@newPricing')->name('pricing');
 Route::get('/new-pricing', 'PageController@pricing')->name('newPricing');
-Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
+Route::get('/domestic-pricing', 'PageController@domesticPricing')->name('domesticPricing');
+Route::get('/pricing-lp', 'PageController@pricingLp')->name('pricingLp');
+//Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
 
 
 /*-------- Dhl Shipments ------*/
@@ -601,7 +604,7 @@ Route::get('/flipkart-shopping-with-shoppre-from-india', 'PageController@flipkar
 Route::get('/myntra-online-shopping-shipping-from-india', 'PageController@myntraIndex')->name('myntra.landing');
 Route::get('/amazon-india-shop-international-shipping', 'PageController@amazonIndex')->name('amazon.landing');
 Route::get('/send-international-courier-from-india', 'PageController@icsLandingPage')->name('ics.landing');
-Route::get('/international-parcel-forwarding-india-online-shopping', 'PageController@parcelForwarding')->name('forwarding.landing');
+Route::get('/international-parcel-forwarding-india-online-shopping', 'PageController@parcelForwarding')->name('forwarding');
 Route::get('/shop-online-fashion-jabong-india-ship-internationally', 'PageController@jabongIndex')->name('jabong.landing');
 Route::get('/ajio-online-shopping-international-shipping', 'PageController@ajioIndex')->name('ajio');
 Route::get('/jaypore-international-shipping-from-india', 'PageController@jayporeIndex')->name('jaypore');
@@ -614,7 +617,10 @@ Route::get('/radcon', 'PageController@radioContest')->name('radio');
 Route::get('/radcon-tc', 'PageController@radioTermsConditions')->name('radio.tc');
 
 Route::get('/seller-partner', 'PageController@seller')->name('seller');
-Route::get('/video-lp', 'PageController@videoLp')->name('videoLp');
+
+Route::get('/package-consolidation-international-shipping', 'PageController@videoLpConsolidation')->name('videoLpConsolidation');
+Route::get('/best-affordable-international-courier-services-in-india', 'PageController@videoLpCourier')->name('videoLpCourier');
+Route::get('/personal-shopper-online-shopping-from-india-shipping', 'PageController@videoLpShopper')->name('videoLpShopper');
 
 Route::post('/leads/signup', 'LeadController@create')->name('leads.signup');
 Route::post('/campaign/newaspaper', 'PageController@saveFlyerUser')->name('flyerUser');
@@ -631,6 +637,7 @@ Route::post('/valentines-cashback', 'PageController@apiValentines')->name('valen
 Route::post('/medicine', 'PageController@apiMedicine')->name('apiMedicine');
 Route::post('/parcel-forwarding', 'PageController@apiParcelForwarding')->name('apiParcelForwarding');
 Route::post('/apiVideoLp', 'PageController@apiVideoLp')->name('apiVideoLp');
+Route::post('/api-pricing-lp', 'PageController@apiPricingLp')->name('apiPricingLp');
 
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');

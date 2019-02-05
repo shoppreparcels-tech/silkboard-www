@@ -325,10 +325,20 @@ class PageController extends Controller
     {
         return view('page.ics');
     }
-    public function videoLp()
+    public function videoLpConsolidation()
     {
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
-        return view('page.video-lp')->with(['countries' => $countries]);
+        return view('page.landing-pages.video-consolidation')->with(['countries' => $countries]);
+    }
+    public function videoLpCourier()
+    {
+        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+        return view('page.landing-pages.video-courier')->with(['countries' => $countries]);
+    }
+    public function videoLpShopper()
+    {
+        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+        return view('page.landing-pages.video-shopper')->with(['countries' => $countries]);
     }
 
 
@@ -661,6 +671,33 @@ class PageController extends Controller
         $json_data = json_encode($data);
         mailChimpTaskOperations::createList($list_id, $auth, $json_data);
     }
+    public function apiPricingLp(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $list_id = 'aca625e01f';
+        $auth = base64_encode('user:' . $apikey);
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $name = $req->name;
+            $contact = $req->contact_no;
+            $commnet = "Lead from Pricing landing page email " . $email . "\n contact No: " . $contact;
+            AsanaTaskOperations::createTask($name, $commnet, "L");
+        }
+
+        $data = array(
+            'apikey' => $apikey,
+            'email_address' => $email,
+            'status' => 'subscribed',
+            'merge_fields' => array(
+                'FNAME' => $name,
+                'LNAME' => '',
+                'PHONE' => $contact
+            )
+        );
+        $json_data = json_encode($data);
+        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+    }
 
 
     public function newYearOffer(Request $req)
@@ -938,7 +975,19 @@ class PageController extends Controller
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
         return view('page.new-pricing')->with(['reviews' => $reviews, 'countries' => $countries]);
     }
-
+    public function domesticPricing()
+    {
+        $reviews = Review::orderBy('updated_at', 'desc')
+            ->where('approve', '1')
+            ->limit(10)
+            ->get();
+        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+        return view('page.domestic-pricing')->with(['reviews' => $reviews, 'countries' => $countries]);
+    }
+    public function pricingLp()
+    {
+        return view('page.landing-pages.pricing-lp');
+    }
     public function chatMailConfirm()
     {
         return view('chat-email.confirm-chat-email');
