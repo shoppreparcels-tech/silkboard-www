@@ -512,7 +512,10 @@ Route::get('/pricing', 'PageController@newPricing')->name('pricing');
 Route::get('/cheap-rates-international-shipping-cost-calculator', 'PageController@newPricing')->name('pricing');
 Route::get('/new-pricing', 'PageController@pricing')->name('newPricing');
 Route::get('/domestic-pricing', 'PageController@domesticPricing')->name('domesticPricing');
-Route::get('/pricing-lp', 'PageController@pricingLp')->name('pricingLp');
+
+Route::get('/international-courier-charges-india-to-usa-per-kg', 'PageController@pricingUsa')->name('usaPerKg');
+Route::get('/international-courier-charges-india-to-uae-per-kg', 'PageController@pricingUae')->name('uaePerKg');
+Route::get('/international-courier-charges-india-to-canada-per-kg', 'PageController@pricingCanada')->name('canadaPerKg');
 //Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
 
 
@@ -648,7 +651,9 @@ Route::post('/valentines-cashback', 'PageController@apiValentines')->name('valen
 Route::post('/medicine', 'PageController@apiMedicine')->name('apiMedicine');
 Route::post('/parcel-forwarding', 'PageController@apiParcelForwarding')->name('apiParcelForwarding');
 Route::post('/apiVideoLp', 'PageController@apiVideoLp')->name('apiVideoLp');
-Route::post('/api-pricing-lp', 'PageController@apiPricingLp')->name('apiPricingLp');
+Route::post('/api-pricing-usa', 'PageController@apiPricingUsa')->name('apiPricingUsa');
+Route::post('/api-pricing-uae', 'PageController@apiPricingUae')->name('apiPricingUae');
+Route::post('/api-pricing-canada', 'PageController@apiPricingCanada')->name('apiPricingCanada');
 
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');

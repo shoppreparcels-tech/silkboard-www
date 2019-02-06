@@ -98,6 +98,9 @@
                 <div class="col-md-12 col-xs-12 no-pad">
                     <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Schedule Pickup</a>
                     <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Estimate</a>
+                    <br>
+                    <br>
+                    <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r btn-f-w">Avail Your Discount on your First International Shipment. Use Code: FRST50</a>
                 </div>
 
             </div>
@@ -128,6 +131,7 @@
                             <button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r"> GET A FREE QUOTE
                             </button>
                         </div>
+                        <p class="f-s-8 f-c-d-greay f-w-7">Your contact information will not be shared with any third party. We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
                     </div>
 
                     <div class="formFrame  div-form-get-quote" id="diwali-couponcode2">
@@ -150,91 +154,91 @@
             </div>
         </div>
     </section>
-    {{--<section class="d-contact-details-section">--}}
-        {{--<div class="container " id="contact-support">--}}
-            {{--<div class="col-md-12">--}}
-                {{--<div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">--}}
-                    {{--<div class="div-phone">--}}
-                        {{--<center>--}}
-                            {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">--}}
-                            {{--<p class="header6 p-color-white ">Didn't find the answer you need? Contact us!</p>--}}
-                        {{--</center>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
+    <section class="d-contact-details-section">
+        <div class="container " id="contact-support">
+            <div class="col-md-12">
+                <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
+                    <div class="div-phone">
+                        <center>
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                            <p class="header6 p-color-white ">Didn't find the answer you need? Contact us!</p>
+                        </center>
+                    </div>
+                </div>
 
-                {{--<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">--}}
-                    {{--<p class="header7">--}}
-                        {{--<i class="fa fa-phone" aria-hidden="true"></i>Call us</p>--}}
-                    {{--<a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>--}}
+                <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
+                    <p class="header7">
+                        <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
+                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
 
-                {{--</div>--}}
+                </div>
 
-                {{--<div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align ">--}}
-                    {{--<p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>--}}
-                    {{--<a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>--}}
+                <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align ">
+                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
+                    <a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>
 
-                {{--</div>--}}
+                </div>
 
-                {{--<div--}}
-                    {{--class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details pull-right contact-text-align">--}}
-                    {{--<p class="header7">--}}
-                        {{--<i class="fa fa-envelope" aria-hidden="true">--}}
-                        {{--</i>Live Chat</p>--}}
-                    {{--<a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#"--}}
-                       {{--class="header2 p-color-white">Chat Now</a>--}}
-                    {{--<a href="http://v2.zopim.com/widget/livechat.html?key=WMWUM4as7ltiMKHbRXiFRw3imdMiLtAV"--}}
-                       {{--target="_blank" class="header2 p-color-white">Chat Now</a>--}}
+                <div
+                    class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details pull-right contact-text-align">
+                    <p class="header7">
+                        <i class="fa fa-envelope" aria-hidden="true">
+                        </i>Live Chat</p>
+                    <a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#"
+                       class="header2 p-color-white">Chat Now</a>
+                    <a href="http://v2.zopim.com/widget/livechat.html?key=WMWUM4as7ltiMKHbRXiFRw3imdMiLtAV"
+                       target="_blank" class="header2 p-color-white">Chat Now</a>
 
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</section>--}}
+                </div>
+            </div>
+        </div>
+    </section>
 
-    {{--<section class="d-contact-section-desktop">--}}
-        {{--<div class="container " id="contact-support">--}}
-            {{--<div class="row" id="d-contcat">--}}
-                {{--<div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 " style="display: none">--}}
-                    {{--<div class="div-phone">--}}
-                        {{--<center>--}}
-                            {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">--}}
-                            {{--<p class="header6 p-color-white ">Contact Our <br>Support Team </p>--}}
-                        {{--</center>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">--}}
-                    {{--<div class="d-contact-div">--}}
-                        {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">--}}
-                        {{--<p class="header6 p-color-white " style="margin-left: 51px;margin-top: -36px;">Contact Our <br>Support--}}
-                            {{--Team </p>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
+    <section class="d-contact-section-desktop">
+        <div class="container " id="contact-support">
+            <div class="row" id="d-contcat">
+                <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 " style="display: none">
+                    <div class="div-phone">
+                        <center>
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                            <p class="header6 p-color-white ">Contact Our <br>Support Team </p>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
+                    <div class="d-contact-div">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                        <p class="header6 p-color-white " style="margin-left: 51px;margin-top: -36px;">Contact Our <br>Support
+                            Team </p>
+                    </div>
+                </div>
 
 
-                {{--<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">--}}
-                    {{--<p class="header7">--}}
-                        {{--<i class="fa fa-phone" aria-hidden="true"></i>Call us</p>--}}
-                    {{--<a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>--}}
+                <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
+                    <p class="header7">
+                        <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
+                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
 
-                {{--</div>--}}
+                </div>
 
-                {{--<div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align " style="color: #fdf699">--}}
-                    {{--<p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>--}}
-                    {{--<a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>--}}
+                <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align " style="color: #fdf699">
+                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
+                    <a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>
 
-                {{--</div>--}}
+                </div>
 
-                {{--<div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 pull-right contact-text-align"--}}
-                     {{--style="color: #fdf699">--}}
-                    {{--<p class="header7">--}}
-                        {{--<i class="fa fa-envelope" aria-hidden="true">--}}
-                        {{--</i>Live Chat</p>--}}
-                    {{--<a href="http://v2.zopim.com/widget/livechat.html?key=WMWUM4as7ltiMKHbRXiFRw3imdMiLtAV"--}}
-                       {{--class="header2 p-color-white">Chat Now</a>--}}
+                <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 pull-right contact-text-align"
+                     style="color: #fdf699">
+                    <p class="header7">
+                        <i class="fa fa-envelope" aria-hidden="true">
+                        </i>Live Chat</p>
+                    <a href="http://v2.zopim.com/widget/livechat.html?key=WMWUM4as7ltiMKHbRXiFRw3imdMiLtAV"
+                       class="header2 p-color-white">Chat Now</a>
 
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</section>--}}
+                </div>
+            </div>
+        </div>
+    </section>
 
 @section('js_script')
     <script>
@@ -255,7 +259,7 @@
                     var contact_no = $("input[name='ContactNumber']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api-pricing-lp',
+                        url: 'api-pricing-uae',
                         type: "POST",
                         data: {
                             _token: token,

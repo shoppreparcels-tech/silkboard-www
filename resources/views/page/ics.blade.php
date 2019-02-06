@@ -290,7 +290,7 @@
             <br>
                 <br>
                 <p class="f-s-16 f-c-gray">ShoppRe Courier is on a steady pace to becoming the best affordable international courier service in india.
-                    It does so by offering up the <a href="{{route('pricing1')}}">best shipping rates from India</a> an international shipper can hope for. </p>
+                    It does so by offering up the <a href="{{route('pricing')}}">best shipping rates from India</a> an international shipper can hope for. </p>
                 <br>
                 <p class="f-s-16 f-c-gray">
                     Every nook & cranny around the world is an Indian and we travel, work & socialize with flair. For the global Indian in you;
@@ -365,7 +365,7 @@
 
             <h2 class="f-s-18 f-c-d-gray font-weight-900">What is the cheapest way to ship a product from India to China?</h2>
             <p class="f-s-16 f-c-gray">ShoppRe’s Shop&Ship and Package Consolidation will enable you to save up to 80%
-                of your shipping costs; hence it is evident that we offer the <a href="{{route('pricing1')}}">best shipping rates from India</a>, to anywhere
+                of your shipping costs; hence it is evident that we offer the <a href="{{route('pricing')}}">best shipping rates from India</a>, to anywhere
                 in the world, including China. Our pricing is estimated after deducting a certain country-specific discount,
                 depending on the country.</p> <br>
 
