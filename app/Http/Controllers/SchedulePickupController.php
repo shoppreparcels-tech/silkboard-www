@@ -23,12 +23,6 @@ use App\Address;
 
 class SchedulePickupController extends Controller
 {
-
-//    public function __construct()
-//    {
-//        $this->middleware('auth:customer');
-//    }
-
    public function getDestinationAddressAjax(Request $request) {
        $address = Address::where('id', $request->id)->first();
        if (!empty($address)) {

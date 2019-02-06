@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Myaccount;
 
 use App\Customer;
+use App\Http\Controllers\Controller;
 use App\SchedulePickup;
 use App\ShopperBalance;
 use App\CustomerContact;

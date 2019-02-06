@@ -217,14 +217,13 @@ Route::prefix('admin')->group(function(){
     Route::post('/customer/loyalty/misc/update', 'Myaccount\Admin\AdminController@updateMisc')->name('admin.loyalty.update');
 
     /*---- Schedule pickup -------*/
-    Route::get('/pickup/list', 'SchedulePickupController@pickupList')->name('schedulePickup.list');
-    Route::get('/pickup/{id}', 'SchedulePickupController@pickupView')->name('schedulePickup.View');
-    Route::get('/pickup/shipment/{id}', 'SchedulePickupController@pickupViewDetail')->name('pickup-detail');
-    Route::post('/pickup/update', 'SchedulePickupController@pickupUpdateSubmit')
+    Route::get('/pickup/list', 'Myaccount\SchedulePickupController@pickupList')->name('schedulePickup.list');
+    Route::get('/pickup/{id}', 'Myaccount\SchedulePickupController@pickupView')->name('schedulePickup.View');
+    Route::get('/pickup/shipment/{id}', 'Myaccount\SchedulePickupController@pickupViewDetail')->name('pickup-detail');
+    Route::post('/pickup/update', 'Myaccount\SchedulePickupController@pickupUpdateSubmit')
         ->name('schedulePickup.update.submit');
-    Route::post('/schedule-pickup/asana-tracking', 'SchedulePickupController@asanaTracking')
+    Route::post('/schedule-pickup/asana-tracking', 'Myaccount\SchedulePickupController@asanaTracking')
         ->name('schedulePickup.asana.tracking');
-
 });
 
 Route::get('/shop-from-india-ship-worldwide', 'PageController@ifsIndex')->name('ifs.index');
