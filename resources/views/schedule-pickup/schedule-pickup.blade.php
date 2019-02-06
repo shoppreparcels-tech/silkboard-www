@@ -551,7 +551,7 @@
                         <div class="row">
                             @foreach($destination_addresses as $indexKey=>$address)
                             <a href="" data-id="{{$address->id}}" class="btn-destination-address">
-                            <div class="col-sm-3">
+                            <div class="col-sm-3" style="margin-top: 20px;">
                                 <div class="card" style="padding: 15px;background-color: #fe9611;">
                                         <p style="float: right;color:#ffffff;">Add</p>
                                         <p class="address-color">Address {{++$indexKey}}</p>
