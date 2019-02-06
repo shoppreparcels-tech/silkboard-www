@@ -14,8 +14,9 @@
                 <div class="img_align">
                     <img src="../img/success1.png" class="img_size" alt="">
                     <h3>Your pickup request completed Successfully.</h3>
-                    <a href="https://www.shoppre.com/customer/register" class="btn btn-primary btn-info-full next-step3">
-                        Sign Up Here
+                    <h4>For Confirmation or any Query please call us at <a href="tel:+91-8277919191">+91-8277919191</a></h4>
+                    <a href="{{route('home')}}" class="btn btn-primary btn-info-full next-step3">
+                        Go To Home Page
                     </a>
                 </div>
             </div>

@@ -456,7 +456,7 @@ Route::get('/sentry-break', 'PageController@breakSentry')->name('sentry-break');
 Route::post('/ajax/login', 'PageController@ajaxLogin')->name('ajaxLogin');
 Route::post('/ajax/signup', 'PageController@ajaxSignup')->name('ajaxLogin');
 Route::get('/check/authenticate', 'PageController@checkAuthenticate')->name('user.check.authenticate');
-Route::post('/schedule-pickup/submit', 'SchedulePickupController@submit')->name('schedulePickup.submit');
+
 Route::get('/partner', 'PageController@partner')->name('partner');
 Route::get('/faq', 'PageController@faq')->name('faq');
 Route::get('/faq/search', 'PageController@faqSearch')->name('faq.search');
@@ -479,11 +479,23 @@ Route::get('/reviews', 'PageController@reviews')->name('reviews');
 Route::post('/more-reviews', 'PageController@moreReviews')->name('more.reviews');
 Route::post('/reviews/submit', 'PageController@submitReview')->name('reviews.submit');
 Route::post('/more-reviews', 'PageController@moreReviews')->name('morereviews');
+
+/*------ Schedule Pickup ---------*/
+
 Route::get('/schedule-pickup', 'SchedulePickupController@index')->name('schedulePickup.Index');
 Route::post('/schedule-pickup', 'SchedulePickupController@submit')->name('schedulePickup.Submit');
+Route::post('/schedule-pickup/submit', 'SchedulePickupController@submit')->name('schedulePickup.submit');
 Route::get('/schedule-pickup/confirm', 'SchedulePickupController@confirm')->name('schedulePickup.confirmPickup');
-Route::post('/schedule-pickup/asana-tracking', 'SchedulePickupController@asanaTracking')->name('schedulePickup.asana.tracking');
+Route::post('/schedule-pickup/asana-tracking', 'SchedulePickupController@asanaTracking')
+    ->name('schedulePickup.asana.tracking');
 Route::post('/schedule-pickup/ajexRequest', 'PageController@pickupByAjex')->name('schedulePickup.byAjex');
+Route::get('/schedule-pickup/pickup-address', 'SchedulePickupController@getPickupAddress')
+    ->name('schedulePickup.pickupAddress');
+Route::get('/schedule-pickup/destination-address', 'SchedulePickupController@getDestinationAddress')
+    ->name('schedulePickup.destinationAddress');
+Route::post('/schedule-pickup/ajax/destination-address', 'SchedulePickupController@getDestinationAddressAjax')
+    ->name('schedulePickup.destinationAddress.ajax');
+
 Route::get('/countries', 'PageController@countryList')->name('countryList');
 Route::get('/feedback', 'FeedbackController@index')->name('feedback.Index');
 Route::post('/feedback/submit', 'FeedbackController@submit')->name('feedback.submit');

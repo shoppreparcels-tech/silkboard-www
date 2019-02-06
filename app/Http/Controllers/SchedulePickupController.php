@@ -19,7 +19,7 @@ use App\CustomerContact;
 use App\LoyaltyPoint;
 use App\Myaccount\LoyaltyMisc;
 use App\ShippingPreference;
-
+use App\Address;
 
 class SchedulePickupController extends Controller
 {
@@ -28,6 +28,14 @@ class SchedulePickupController extends Controller
 //    {
 //        $this->middleware('auth:customer');
 //    }
+
+   public function getDestinationAddressAjax(Request $request) {
+       $address = Address::where('id', $request->id)->first();
+       if (!empty($address)) {
+           return response()->json(['status'=>'success','address'=>$address]);
+       }
+       return response()->json(['status'=>'not_found','address'=>$address]);
+   }
 
     public function asanaTracking(Request $request) {
 
@@ -41,6 +49,7 @@ class SchedulePickupController extends Controller
 
     public function submit(Request $request)
     {
+        $customer_id =  Auth::id();
         $special_items = "";
         $body = $request->all();
         unset($body['_token']);
@@ -70,7 +79,29 @@ class SchedulePickupController extends Controller
             $special_items = $special_items.$request->other.",";
         }
 
+        $country = Country::where('phone_code','=',$request->dc_phone_code)->first(['id','name']);
+
+        $addressess = Address::where('customer_id','=',$customer_id)->get(['id', 'first_name']);
+
+        if ($addressess->count() < 5) {
+            $address = new Address();
+            $address->customer_id = $customer_id;
+            $address->country_id = $country->id;
+            $address->first_name = $request->dc_fname;
+            $address->last_name = $request->dc_lname;
+            $address->line1 = $request->dc_street;
+            $address->line2 = $request->dc_fname;
+            $address->state = $request->dc_state;
+            $address->city = $request->dc_city;
+            $address->country = $request->dc_country;
+            $address->pincode = $request->dc_pincode;
+            $address->country_code = $request->dc_phone_code;
+            $address->phone = $request->dc_contact_no;
+            $status = $address->save();
+        }
+
         $schedule_package->special_items = $special_items;
+        $schedule_package->customer_id = $customer_id;
 
         $name = $request->first_name.' '.$request->last_name;
         $details = "Phone Number - ".$request->phone_code.'-'.$request->mobile.',Email -'.$request->user_email;
@@ -95,7 +126,25 @@ class SchedulePickupController extends Controller
     {
         $countries = Country::orderBy('name','asc')->get();
         $states = States::orderBy('name','asc')->get();
-        return view('schedule-pickup.schedule-pickup')->with(['countries'=>$countries,'states'=>$states]);
+        $destination_addresses = 'no';
+        $is_authenticated = Auth::check();
+        if ($is_authenticated) {
+            $customer_id =  Auth::id();
+            $destination_addresses = Address::where('customer_id',$customer_id)->get();
+        }
+        $pickup_address = '';
+        $is_authenticated = Auth::check();
+        if ($is_authenticated) {
+            $customer_id =  Auth::id();
+            $pickup_address = SchedulePickup::whereRaw("id = (select max(`id`) from schedule_pickups where customer_id='$customer_id')")->first();
+        }
+        return view('schedule-pickup.schedule-pickup')
+            ->with([
+            'countries'=>$countries,
+            'states'=>$states,
+            'pickup_address'=>$pickup_address,
+            'destination_addresses'=>$destination_addresses
+            ]);
     }
 
      public function sendEmailPickup($schedule_package)

@@ -38,6 +38,11 @@
             border-radius: 10px;
         }
 
+        .address-line {
+            font-size: 12px;
+            color: gray;
+        }
+
         .box {
             width: 20%;
             margin: 0 auto;
@@ -47,6 +52,10 @@
             border-radius: 20px/50px;
             background-clip: padding-box;
             text-align: center;
+        }
+
+        .address-color {
+            color:black;
         }
 
         .btn-close-popup {
@@ -71,6 +80,10 @@
 
         .button:hover {
             background: orange;
+        }
+
+        .address-book {
+            cursor: pointer;
         }
 
         .overlay {
@@ -129,6 +142,24 @@
 
         .popup .close:hover {
             color: orange;
+        }
+
+        .address-block {
+            display: none;
+            margin-bottom: 3%;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        .container {
+            padding: 2px 16px;
         }
 
         .popup .content {
@@ -361,7 +392,7 @@
                             <div class="form-group">
                                 <label>First Name <span class="mendatory_fields">*</span> :</label>
                                 <input type="text" class="form-control" placeholder="Enter First Name"
-                                       name="pc_fname"/>
+                                      value="{{!empty($pickup_address->pc_fname)?$pickup_address->pc_fname:''}}" name="pc_fname"/>
                                 <div class="clearfix"></div>
                             </div>
                         </div>
@@ -369,7 +400,7 @@
                             <div class="form-group label-align">
                                 <label>Last Name<span class="mendatory_fields">*</span> :</label>
                                 <input type="text" class="form-control" placeholder="Enter Last Name"
-                                       name="pc_lname"/>
+                                       value="{{!empty($pickup_address->pc_lname)?$pickup_address->pc_lname:''}}" name="pc_lname"/>
                                 <div class="clearfix"></div>
                             </div>
                         </div>
@@ -381,7 +412,7 @@
                                 <select class="select2 form-control" name="pc_state">
                                     <option value="">Select State</option>
                                     @foreach($states as $state)
-                                        <option value="{{$state->name}}">
+                                        <option value="{{$state->name}}" {{$state->name == (!empty($pickup_address->pc_state) ? $pickup_address->pc_state : '') ? 'selected': ''}}>
                                             {{$state->name}}
                                         </option>
                                     @endforeach
@@ -393,6 +424,7 @@
                             <div class="form-group label-align">
                                 <label>City <span class="mendatory_fields">*</span> :</label>
                                 <input type="text" class="form-control" placeholder="Enter City"
+                                       value="{{!empty($pickup_address->pc_city)?$pickup_address->pc_city:''}}"
                                        name="pc_city"/>
                                 <div class="clearfix"></div>
                             </div>
@@ -403,6 +435,7 @@
                             <div class="form-group">
                                 <label>Street <span class="mendatory_fields">*</span> :</label>
                                 <input type="text" class="form-control" placeholder="Please Enter Street"
+                                       value="{{!empty($pickup_address->pc_street)?$pickup_address->pc_street:''}}"
                                        name="pc_street"/>
                                 <div class="clearfix"></div>
                             </div>
@@ -411,6 +444,7 @@
                             <div class="form-group label-align">
                                 <label>Pincode <span class="mendatory_fields">*</span> :</label>
                                 <input type="text" class="form-control" placeholder="Enter Pincode"
+                                       value="{{!empty($pickup_address->pc_pincode)?$pickup_address->pc_pincode:''}}"
                                        name="pc_pincode"/>
                                 <div class="clearfix"></div>
                             </div>
@@ -422,6 +456,7 @@
                             <div class="form-group">
                                 <label>Mobile <span class="mendatory_fields">*</span> :</label>
                                 <input type="text" class="form-control" placeholder="Enter Mobile"
+                                       value="{{!empty($pickup_address->pc_contact_no)?$pickup_address->pc_contact_no :''}}"
                                        name="pc_contact_no"/>
                                 <div class="clearfix"></div>
                             </div>
@@ -430,6 +465,7 @@
                             <div class="form-group label-align">
                                 <label>Email :</label>
                                 <input type="email" class="form-control" placeholder="Enter Email"
+                                       value="{{!empty($pickup_address->pc_email)?$pickup_address->pc_email:''}}"
                                        name="pc_email"/>
                                 <div class="clearfix"></div>
                             </div>
@@ -508,6 +544,26 @@
                     </div>
 
                     <h4 class="head-align"><u>DESTINATION ADDRESS :</u></h4>
+                    @if(count($destination_addresses) !=0)
+                    <h4 class="head-align address-book" id="address-book"><u>Add Address From Address Book(+)</u></h4>
+                    <div class="address-block">
+                        <div class="row">
+                            @foreach($destination_addresses as $indexKey=>$address)
+                            <a href="" data-id="{{$address->id}}" class="btn-destination-address">
+                            <div class="col-sm-3">
+                                <div class="card" style="padding: 15px;background-color: #fe9611;">
+                                        <p style="float: right;color:#ffffff;">Add</p>
+                                        <p class="address-color">Address {{++$indexKey}}</p>
+                                        <h5 class="address-color"><b>{{$address->salutation}} {{$address->first_name}} {{$address->last_name}}</b></h5>
+                                        <p class="address-line address-color">{{$address->city}} {{$address->state}}</p>
+                                        <p class="address-line address-color">{{$address->country}}-{{$address->pincode}}</p>
+                                </div>
+                            </div>
+                            </a>
+                            @endforeach
+                    </div>
+                    </div>
+                    @endif
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="form-group">
@@ -566,7 +622,7 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label class="control-label ">Country<span class="mendatory_fields">*</span> </label>
-                                <select class="select2 form-control" name="dc_country">
+                                <select class="form-control" name="dc_country" id="dc_country">
                                     <option value="">Select Country</option>
                                     @foreach($countries as $country)
                                         <option value="{{$country->name}}">
@@ -581,7 +637,7 @@
                                 <label class="control-label ">Phone <span class="mendatory_fields">*</span> </label>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <select class="select2 form-control" name="dc_phone_code">
+                                        <select class="form-control" name="dc_phone_code" id="dc_phone_code">
                                             <option value="">Country Code</option>
                                             @foreach($countries as $country)
                                                 <option value="{{$country->phone_code}}">{{$country->iso}}
@@ -742,7 +798,7 @@
             });
 
             $('#btn-signup-block').click(function () {
-                console.log('btn-signup')
+                console.log('btn-signup');
                 $('.login-blox').css('display','none');
                 $('.signup-blox').css('display','block');
             });
@@ -895,7 +951,7 @@
                                         $("#schedule_load").hide();
                                         // $('#scheduleModel').modal('show');
                                         // $('#popup1').css('display', 'block');
-                                        window.location.href = "https://www.shoppre.com/schedule-pickup/confirm";
+                                        // window.location.href = "https://www.shoppre.com/schedule-pickup/confirm";
                                         console.log(data);
                                     }
                                 });
@@ -1011,6 +1067,35 @@
 
             $('#btn-close-popup-login').click(function () {
                 $('#popup1').css('display', 'none');
+            });
+
+            $('#address-book').click(function () {
+                $('.address-block').slideToggle( "slow");
+            });
+
+            $('.btn-destination-address').click(function () {
+                const address_id = $(this).attr('data-id');
+                jQuery.ajax({
+                    url: 'schedule-pickup/ajax/destination-address',
+                    type: "POST",
+                    data: {
+                        id:address_id
+                    },
+                    success: function (data) {
+                       console.log('Address Data',data);
+                       if (data.status==='success') {
+                           $("input[name='dc_fname']").val(data.address.first_name);
+                           $("input[name='dc_lname']").val(data.address.last_name);
+                           $("input[name='dc_street']").val(data.address.line1+data.address.line2);
+                           $("input[name='dc_pincode']").val(data.address.pincode);
+                           $("input[name='dc_state']").val(data.address.state);
+                           $("input[name='dc_city']").val(data.address.city);
+                           $("input[name='dc_contact_no']").val(data.address.phone);
+                           $("#dc_country").val(data.address.country);
+                           $("#dc_phone_code").val(data.address.country_code);
+                       }
+                    }
+                });
             });
         });
     </script>
