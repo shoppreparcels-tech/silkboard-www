@@ -953,7 +953,7 @@
                                         $("#schedule_load").hide();
                                         // $('#scheduleModel').modal('show');
                                         // $('#popup1').css('display', 'block');
-                                        // window.location.href = "https://www.shoppre.com/schedule-pickup/confirm";
+                                        window.location.href = "https://www.shoppre.com/schedule-pickup/confirm";
                                         console.log(data);
                                     }
                                 });
