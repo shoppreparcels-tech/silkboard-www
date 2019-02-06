@@ -543,7 +543,7 @@
                         </div>
                     </div>
 
-                    <h4 class="head-align"><u>DESTINATION ADDRESS : {{$destination_addresses}}</u></h4>
+                    <h4 class="head-align"><u>DESTINATION ADDRESS : </u></h4>
                     @if(!empty($destination_addresses))
                         @if(count($destination_addresses) !=0)
                     <h4 class="head-align address-book" id="address-book"><u>Add Address From Address Book(+)</u></h4>
