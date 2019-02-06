@@ -126,7 +126,7 @@ class SchedulePickupController extends Controller
     {
         $countries = Country::orderBy('name','asc')->get();
         $states = States::orderBy('name','asc')->get();
-        $destination_addresses = 'no';
+        $destination_addresses = '';
         $is_authenticated = Auth::check();
         if ($is_authenticated) {
             $customer_id =  Auth::id();

@@ -543,8 +543,9 @@
                         </div>
                     </div>
 
-                    <h4 class="head-align"><u>DESTINATION ADDRESS :</u></h4>
-                    @if(count($destination_addresses) !=0)
+                    <h4 class="head-align"><u>DESTINATION ADDRESS : {{$destination_addresses}}</u></h4>
+                    @if(!empty($destination_addresses))
+                        @if(count($destination_addresses) !=0)
                     <h4 class="head-align address-book" id="address-book"><u>Add Address From Address Book(+)</u></h4>
                     <div class="address-block">
                         <div class="row">
@@ -563,6 +564,7 @@
                             @endforeach
                     </div>
                     </div>
+                    @endif
                     @endif
                     <div class="row">
                         <div class="col-sm-6">
