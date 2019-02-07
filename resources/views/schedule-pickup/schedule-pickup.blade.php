@@ -715,7 +715,7 @@
             <h2 class="f-s-18 f-c-d-gray f-w-8">How do you schedule a pickup for your package?</h2>
             <p class="f-s-16 f-c-gray">Call, chat with or email our 24/7 customer support to schedule a pickup. Our
                 experts will show up at your door,
-                no matter if its your home or office in just 48 hours. Or you can come to us facility to drop your
+                no matter if its your home or office in just 48 hours. Or you can come to ShoppRe facility to drop your
                 package off.
                 Either ways, we'll make sure that it is dispatched within 48 hours to one of our courier partners.
             </p> <br>
@@ -758,7 +758,7 @@
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">Does ShoppRe pick up couriers on weekends?</h2>
-            <p class="f-s-16 f-c-gray">Our Pickup experts will be at your beck and call 6 days a week; despite Sundays.
+            <p class="f-s-16 f-c-gray">Our Pickup experts will be at your beck and call 6 days a week; except Sundays.
                 In the event of public holidays or unexpected calamities, dispatch services will depend on the status of
                 our courier partners though.
             </p> <br>

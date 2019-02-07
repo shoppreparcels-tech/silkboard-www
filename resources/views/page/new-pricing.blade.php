@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('title', 'International Courier Rates | Calculate Your Shipping Cost - ShoppRe.com')
-@section('description', 'Get the right plan that suits your need and calculate your shipping costs from India to any country. Save upto 75% on shipping rates!')
-@section('keywords', 'calculate your shipping costs, from india to any country, save 75% on shipping rates, repackaging service, shipping calculator')
+@section('description', 'Calculate your shipping costs from India to anywhere in the world. FREE international courier rates estimation for 220+ countries. Save up to 75% on shipping.')
+@section('keywords', 'calculate your shipping costs, courier charges, shipping rates, shipping calculator, international package')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator" />
+    <link rel="canonical" href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator"/>
     <style>
         .container-fluid{padding-left: 10%;padding-right: 10%}
         .btn span.glyphicon {opacity: 0;}
@@ -108,7 +108,7 @@
         <div class="container div-b-l-w no-pad" style="padding-bottom: 30px">
             <div class="col-md-9 col-sm-8 col-xs-12">
                 <div class="col-md-12 no-pad">
-                    <h1 class="f-c-d-gray f-s-24 f-w-9">Calculate Your Shipping Cost</h1>
+                    <h1 class="f-c-d-gray f-s-24 f-w-9">Calculate Your International Shipping Cost</h1>
                     <p class="f-c-gray f-s-16 f-w-8">Cheapest international shipping rates from India to anywhere in the
                         world.</p>
                     <br>
@@ -430,7 +430,7 @@
                             </p>
                         </div>
                         <div class="col-md-6 col-xs-6 no-pad">
-                            <a href="" class="f-s-12 pull-right ">Offers Available </a>
+                            <a href="/offers" class="f-s-12 pull-right ">Offers Available </a>
                         </div>
                     </div>
 
@@ -465,10 +465,10 @@
                         <h14 class="f-s-14 f-c-l-gray f-w-8">Tools</h14>
                         <br>
                         <br>
-                        <a href="" class="f-s-14 f-c-blue">Currency Conversion</a><br><br>
-                        <a href="" class="f-s-14 f-c-blue">Duties and taxes</a><br><br>
-                        <a href="" class="f-s-14 f-c-blue">Restricted & prohibited items</a><br><br>
-                        <a href="" class="f-s-14 f-c-blue">Premium Plans for Sellers</a><br><br>
+                        <a href="/countries" class="f-s-14 f-c-blue">Currency Conversion</a><br><br>
+                        <a href="/faq" class="f-s-14 f-c-blue">Duties and taxes</a><br><br>
+                        <a href="/faq" class="f-s-14 f-c-blue">Restricted & prohibited items</a><br><br>
+                        <a href="/sellers-shipping" class="f-s-14 f-c-blue">Premium Plans for Sellers</a><br><br>
                     </div>
                 </div>
                 {{--</div>--}}
@@ -1173,16 +1173,16 @@
                     <h1 class="f-s-22 f-c-blue f-w-9">
                         Come to us for the best shipping costs from India!
                     </h1> <br>
-                    <p class="f-s-15 f-c-l-gray">ShoppRe provides the cheapest shipping rates & FREE international shipping estimates for 220+ countries including
+                    <p class="f-s-16 f-c-l-gray">ShoppRe provides the cheapest shipping rates & FREE international shipping estimates for 220+ countries including
                         the USA, UK, UAE, Australia & more. We estimate the shipping cost based on the destination and the weight of
                         the package which would be greater of the actual and volumetric weights. </p> <br>
-                    <p class="f-s-15 f-c-l-gray">
+                    <p class="f-s-16 f-c-l-gray">
                         Country-specific discounts applied to individual countries ease up the cost initially and throw in our Membership Plans,
                         and it's on! ShoppRe tries in however many ways it can to reduce the shipping costs as much as
-                        possible so that our customers can ship from India without any worry.
+                        possible so that our customers can <a href="{{route('home')}}">ship from India</a> without any worry.
                     </p> <br>
-                    <p class="f-s-15 f-c-l-gray">
-                        Have a package to forward or courier overseas? Use our Price Calculator to get an estimate & make a Ship Request - it is that easy!
+                    <p class="f-s-16 f-c-l-gray">
+                        Have a <a href="{{route('forwarding')}}">package to forward</a> or courier overseas? Use our Price Calculator to get an estimate & make a Ship Request - it is that easy!
                     </p> <br>
                 </div>
                 <br>

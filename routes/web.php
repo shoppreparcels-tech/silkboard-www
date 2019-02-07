@@ -513,9 +513,13 @@ Route::get('/cheap-rates-international-shipping-cost-calculator', 'PageControlle
 Route::get('/new-pricing', 'PageController@pricing')->name('newPricing');
 Route::get('/domestic-pricing', 'PageController@domesticPricing')->name('domesticPricing');
 
+/*-------- Per KG Landing Pages ------*/
 Route::get('/international-courier-charges-india-to-usa-per-kg', 'PageController@pricingUsa')->name('usaPerKg');
 Route::get('/international-courier-charges-india-to-uae-per-kg', 'PageController@pricingUae')->name('uaePerKg');
 Route::get('/international-courier-charges-india-to-canada-per-kg', 'PageController@pricingCanada')->name('canadaPerKg');
+Route::get('/international-courier-charges-india-to-australia-per-kg', 'PageController@pricingCanada')->name('australiaPerKg');
+Route::get('/international-courier-charges-india-to-singapore-per-kg', 'PageController@pricingCanada')->name('singaporePerKg');
+Route::get('/international-courier-charges-india-to-germany-per-kg', 'PageController@pricingCanada')->name('germanyPerKg');
 //Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
 
 
@@ -632,6 +636,9 @@ Route::get('/radcon-tc', 'PageController@radioTermsConditions')->name('radio.tc'
 
 Route::get('/seller-partner', 'PageController@seller')->name('seller');
 
+
+/*-------- Video landing pages------*/
+
 Route::get('/package-consolidation-international-shipping', 'PageController@videoLpConsolidation')->name('videoLpConsolidation');
 Route::get('/best-affordable-international-courier-services-in-india', 'PageController@videoLpCourier')->name('videoLpCourier');
 Route::get('/personal-shopper-online-shopping-from-india-shipping', 'PageController@videoLpShopper')->name('videoLpShopper');
@@ -654,6 +661,9 @@ Route::post('/apiVideoLp', 'PageController@apiVideoLp')->name('apiVideoLp');
 Route::post('/api-pricing-usa', 'PageController@apiPricingUsa')->name('apiPricingUsa');
 Route::post('/api-pricing-uae', 'PageController@apiPricingUae')->name('apiPricingUae');
 Route::post('/api-pricing-canada', 'PageController@apiPricingCanada')->name('apiPricingCanada');
+Route::post('/api-pricing-australia', 'PageController@apiPricingAustralia')->name('apiPricingAustralia');
+Route::post('/api-pricing-singapore', 'PageController@apiPricingSingapore')->name('apiPricingSingapore');
+Route::post('/api-pricing-germany', 'PageController@apiPricingGermany')->name('apiPricingGermany');
 
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');

@@ -2,7 +2,7 @@
 
 @section('title', 'Send Valentines Day Gifts | Ship LOVE from India | Save Upto 80% | Fast & Affordable')
 @section('description', 'Looking for the perfect Valentine’s day gift to send overseas? Get us to ship it to your destination at the cheapest of shipping rates, taking just 3-6 days.')
-@section('keywords', 'valentines, shipping, shopping, gifts')
+@section('keywords', 'valentines, shipping, shopping, gifts, indian online shops, international shipping')
 
 @section('css_style')
     <style>

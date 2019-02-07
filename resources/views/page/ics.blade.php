@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'ShoppRe Courier - International & Domestic Shipping Services')
-@section('description', 'One-stop destination for all your courier needs; domestic & international. We ship to 220+ countries around the world. Request Pickup Now!')
+@section('title', 'ShoppRe Courier - International Shipping Services from India | Global Shipping Made Easy')
+@section('description', 'One-stop destination for all your shipping needs; domestic & international courier. The cheapest way to send parcels overseas. Save up to 80% on shipping costs.')
 @section('keywords', 'courier service, international package, schedule a pickup, ship internationally')
 
 @section('css_style')
@@ -326,7 +326,7 @@
             <p class="f-s-16 f-c-gray">Our broad range of services are categorized into 3. Apart from ShoppRe Courier, we also have; </p> <br>
             <ul class="ul-seo">
                 <li><span class="f-c-d-gray font-weight-900"> <a href="{{route('ifs.index')}}">Shop & Ship - </a></span> for effortless online shopping with international shipping options. </li>
-                <li><span class="f-c-d-gray font-weight-900"><a href="https://www.shoppre.com/services/personal-shopper-service-india/"> Personal Shopper -</a></span> services including doing the shopping for you & forwarding your purchases as a whole.</li>
+                <li><span class="f-c-d-gray font-weight-900"><a href="personal-shopper-shopping-concierge-from-india"> Personal Shopper -</a></span> services including doing the shopping for you & forwarding your purchases as a whole.</li>
 
             </ul>
             <br>
@@ -336,7 +336,7 @@
             <p class="f-c-d-greay font-weight-900" style="font-style: italic">These are some questions frequently asked by our customers.</p>
             <br>
             <h2 class="f-s-18 f-c-d-gray font-weight-900">Can I send documents to the USA through ShoppRe Courier?</h2>
-            <p class="f-s-16 f-c-gray">Yes you can. We specialize in securely sending university documents overseas now that studying abroad is more of a common option.
+            <p class="f-s-16 f-c-gray">Yes you can. We specialize in securely sending <a href="university-offer">university documents overseas</a> now that studying abroad is more of a common option.
                 If you have any such document to courier, you can avail our Student Special Offer discount price,
                 starting at just Rs.553!
             </p> <br>
@@ -347,8 +347,8 @@
                 door-to-door courier services that spans out in just 3-6 days.</p> <br>
 
             <h2 class="f-s-18 f-c-d-gray font-weight-900">What do you charge for a courier from India to USA per kg.?</h2>
-            <p class="f-s-16 f-c-gray">Our international courier charges start from just Rs.690/-. Check out our Price
-                Calculator for a FREE estimate of your particular courier needs.</p> <br>
+            <p class="f-s-16 f-c-gray">Our international courier charges start from just Rs.690/-. Check out our <a
+                        href="{{route('pricing')}}">Shipping Cost Calculator</a> for a FREE estimate of your particular courier needs.</p> <br>
 
             <h2 class="f-s-18 f-c-d-gray font-weight-900">Can I use ShoppRe Courier for parcel forwarding?</h2>
             <p class="f-s-16 f-c-gray">ShoppRe has a more specified service called Shop & Ship for all package forwarding needs including
@@ -373,17 +373,42 @@
             <p class="f-s-16 f-c-gray">Of course you can.
                 But, you’d have to check if your courier falls under the category of restricted items. If that’s the case;
                 we wouldn’t be able to help you. And if the courier comes under ‘Special Items’ such as liquids/fluids,
-                you’d have to pay an additional clearance fee. Learn more about Special Items now.
+                you’d have to pay an additional clearance fee. <a href="/faq">Learn more</a> about Special Items now.
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray font-weight-900">Now, sit back and relax after <a href="{{route('schedulePickup.Index')}}">Scheduling a Pickup</a> for your courier! ShoppRe will take it from there.</h2>
-
-
+        </div>
+        <br>
+        <div class="container">
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <ul class="nav-ul">
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('medicine')}}">Medicine International Courier</a></li>
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="https://www.shoppre.com/university-offer" target="_blank">Documents International Courier</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <ul class="nav-ul">
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('packers-movers')}}">Relocation, Packers & Movers</a></li>
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('forwarding')}}" target="_blank">Package Forwarding from India</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <ul class="nav-ul">
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/international-courier-charges-india-to-usa-per-kg">Courier Charges USA Per Kg</a></li>
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/international-courier-charges-india-to-uae-per-kg">Courier Charges UAE Per Kg</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <ul class="nav-ul">
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/international-courier-charges-india-to-canada-per-kg">Courier Charges Canada Per Kg</a></li>
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/send-international-courier-from-india">Pack & Send International Courier</a></li>
+                </ul>
+            </div>
         </div>
         <br>
         <br>
-
-
+    </section>
+        <br>
     </section>
 
 @section('js_script')

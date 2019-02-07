@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'International Courier Charges from India | Starting from ₹695/-')
-@section('description', 'Want to courier abroad from India? We ship to 2220 countries. Send homemade food, sweets, utensils, cloths, books. Special Discounts rates for bulk shipments.')
-@section('keywords', 'international courier, cargo services, shipping, delivery, schedule a pickup')
+@section('title', 'International Courier Charges Per Kg from India | Canada')
+@section('description', '')
+@section('keywords', '')
 
 @section('css_style')
     <style>

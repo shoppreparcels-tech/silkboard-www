@@ -1052,6 +1052,18 @@ class PageController extends Controller
     {
         return view('page.landing-pages.pricing-canada');
     }
+    public function pricingAustralia()
+    {
+        return view('page.landing-pages.pricing-australia');
+    }
+    public function pricingSingapore()
+    {
+        return view('page.landing-pages.pricing-singapore');
+    }
+    public function pricingGermany()
+    {
+        return view('page.landing-pages.pricing-germany');
+    }
     public function chatMailConfirm()
     {
         return view('chat-email.confirm-chat-email');

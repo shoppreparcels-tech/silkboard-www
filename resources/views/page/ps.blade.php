@@ -6,10 +6,11 @@
 
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/personal-shopper-shopping-concierge-from-india" />
 
     <meta property="og:title" content="Online Shopping from India | Personal Shopper Service"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://www.shoppre.com/personal-shopper"/>
+    <meta property="og:url" content="https://www.shoppre.com/personal-shopper-shopping-concierge-from-india"/>
     <meta property="og:image" content="https://www.shoppre.com/img/images/personal-shopper-shopping-concierge-from-india.png"/>
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="628">

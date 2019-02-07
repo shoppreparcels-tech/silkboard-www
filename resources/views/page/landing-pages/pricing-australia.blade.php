@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'International Courier Charges Per Kg from India | UAE')
+@section('title', 'International Courier Charges Per Kg from India | Australia')
 @section('description', '')
 @section('keywords', '')
 
@@ -259,7 +259,7 @@
                     var contact_no = $("input[name='ContactNumber']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'api-pricing-uae',
+                        url: 'api-pricing-australia',
                         type: "POST",
                         data: {
                             _token: token,

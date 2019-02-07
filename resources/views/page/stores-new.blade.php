@@ -440,7 +440,7 @@
     </p>
 
     <h1>How do you get us to ship to your destination?</h1>
-    <p>Just ship your purchases to the <a href="https://www.shoppre.com/services/virtual-address-in-india/">virtual shipping address</a>  we provide, and we take it from there.
+    <p>Just ship your purchases to the <a href="/indian-virtual-address">virtual shipping address</a>  we provide, and we take it from there.
         We have even a Personal Shopper in case you need help with your shopping.</p>
     <p>Now shop from Jabong, SnapDeal or any other <a href="https://www.shoppre.com/sellers-shipping">Indian online seller</a> among the many without a doubt;
         we have made international shipping and, shopping for that matter, tons easier!</p>

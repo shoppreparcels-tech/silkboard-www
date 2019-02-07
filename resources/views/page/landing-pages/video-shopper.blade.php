@@ -42,8 +42,8 @@
                </div>
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">
                    Personal Shopper - the phrase indicates a person who'd run around the shops & do the shopping for you; either standing by your side
-                   through the whole time you shop, or doing it all on your behalf without your presence. What ShoppRe offers is a
-                   virtual Personal Shopper who stands for all the aforementioned Personal Shopping Services but, performed online.
+                   through the whole time you shop, or doing it all on your behalf without your presence. What
+                   <a href="/offers">ShoppRe offers</a> is a virtual Personal Shopper who stands for all the aforementioned Personal Shopping Services but, performed online.
                </p> <br>
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">
                    While you're an avid shopper with only international Credit/Debit cards to make payment; Our Personal Shopper will
@@ -84,7 +84,6 @@
            <br>
        </div>
     </section>
-
     {{--<section class="benefits">--}}
         {{--<div class="container" >--}}
             {{--<center>--}}
@@ -130,7 +129,38 @@
         {{--<br>--}}
         {{--<br>--}}
     {{--</section>--}}
+    <br>
+<section>
+    <div class="container">
+        <div class="col-md-3 col-sm-3 col-xs-6">
+            <ul class="nav-ul">
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="/package-consolidation-international-shipping">Package Consolidation & Shipping</a></li>
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="/best-affordable-international-courier-services-in-india" target="_blank">Affordable International Courier</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+            <ul class="nav-ul">
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('packers-movers')}}">Relocation, Packers & Movers</a></li>
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('forwarding')}}" target="_blank">Package Forwarding from India</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+            <ul class="nav-ul">
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="/international-courier-charges-india-to-usa-per-kg">Courier Charges USA Per Kg</a></li>
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="international-courier-charges-india-to-uae-per-kg">Courier Charges UAE Per Kg</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+            <ul class="nav-ul">
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="/international-courier-charges-india-to-canada-per-kg">Courier Charges Canada Per Kg</a></li>
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="/medicine-international-courier-from-india">Medicine International Courier</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
 
+    <br>
+    <br>
 @endsection
 
 @section('js_script')
