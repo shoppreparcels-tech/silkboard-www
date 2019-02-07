@@ -71,6 +71,7 @@
                         <div class="form-group text-center">
                             <button type="submit" name="btnActivate" class="btn btn-s-r btn-b-r btn-l">Enquiry Now</button>
                         </div>
+                        <p class="f-s-8 f-c-d-greay f-w-7">Your contact information will not be shared with any third party. We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
                     </div>
 
                     <div class="formFrame" id="diwali-couponcode2">
@@ -183,24 +184,16 @@
                 <br>
 
                 <div class="offerDesc">
-                    <h5>Terms & Conditions</h5>
-                    <h5>Cashback:</h5>
+                    <h5>Cashback: Terms & Conditions</h5>
                     <ul>
+                        <li>15% Cashback upto INR 250/-</li>
                         <li> This offer cannot be clubbed with any other. </li>
                         <li> The cashback goes to your Wallet. (Use Coupon: SFEB14 when you check-out).</li>
                         <li>The cashback would only be active during 1st Feb to 17th Feb 2019 .</li>
                         <li>This cashback is applicable only for international shipments.</li>
                         <li>The cashback can only be used to pay off your shipping costs.</li>
-                        <br>
-                    </ul>
-                    <h5>Offer</h5>
-                    <ul>
-                        <li>15% Cashback upto INR 250/-</li>
-                        <li>The offer applies for your shipping costs only.</li>
-                        <li>This offer cannot be clubbed with any other offer.</li>
-                        <li>This offer is applicable only for international shipments.</li>
-                        <li>This coupon is valid only until 1st Feb to 17th Feb 2019.</li>
                         <li>Clearance charges are applicable for shipping Special Items - liquids & semi liquids such as cosmetics, medicines, oils & homemade food.</li>
+                        <br>
                     </ul>
 
                 </div>
@@ -222,13 +215,13 @@
 
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
-                        <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
+                        <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
                     <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
                 <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align ">
-                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
+                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i> SUPPORT EMAIL</p>
                     <a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>
 
                 </div>
@@ -237,8 +230,7 @@
                     class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details pull-right contact-text-align">
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
-                        </i>Live Chat</p>
-                    {{--<a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#" class="header2 p-color-white">Chat Now</a>--}}
+                        </i> Live Chat</p>
                     <a href="http://v2.zopim.com/widget/livechat.html?key=WMWUM4as7ltiMKHbRXiFRw3imdMiLtAV"
                        target="_blank" class="header2 p-color-white">Chat Now</a>
 

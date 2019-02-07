@@ -184,8 +184,38 @@
 </url>
 <url>
 <loc>https://www.shoppre.com/customer/register</loc>
-<changefreq>daily</changefreq>
-<priority>0.50</priority>
+     <changefreq>daily</changefreq>
+     <priority>0.50</priority>
+</url>
+<url>
+<loc>https://www.shoppre.com/best-affordable-international-courier-services-in-india</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+</url>
+    <url>
+<loc>https://www.shoppre.com/package-consolidation-international-shipping</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+</url>
+<url>
+<loc>https://www.shoppre.com/personal-shopper-online-shopping-from-india-shipping</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+</url>
+<url>
+<loc>https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+</url>
+<url>
+<loc>https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+</url>
+<url>
+<loc>https://www.shoppre.com/international-courier-charges-india-to-canada-per-kg</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
 </url>
 <url>
   <loc>https://www.shoppre.com/country-guide</loc>

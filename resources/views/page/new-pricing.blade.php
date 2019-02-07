@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Pricing | Shipping Cost Calculator - Shoppre')
+@section('title', 'International Courier Rates | Calculate Your Shipping Cost - ShoppRe.com')
 @section('description', 'Get the right plan that suits your need and calculate your shipping costs from India to any country. Save upto 75% on shipping rates!')
 @section('keywords', 'calculate your shipping costs, from india to any country, save 75% on shipping rates, repackaging service, shipping calculator')
 
@@ -395,10 +395,12 @@
                             <br>
                             <div class="col-md-6 col-xs-12 no-pad">
                                 <div class="col-md-6 col-xs-6 no-pad">
-                                    <button class="btn btn-s-r btn-b-r btn-f-w btn-h-40">Get Virtual Address</button>
+                                    <a href="{{route('customer.register')}}">
+                                        <button class="btn btn-s-r btn-b-r btn-f-w btn-h-40">Get Virtual Address</button></a>
                                 </div>
                                 <div class="col-md-6 col-xs-6 ">
-                                    <button class="btn btn-s-b btn-b-b btn-f-w btn-h-40">Learn More</button>
+                                    <a href="/schedule-pickup">
+                                    <button class="btn btn-s-b btn-b-b btn-f-w btn-h-40">Schedule A Pickup</button></a>
                                 </div>
                             </div>
 
