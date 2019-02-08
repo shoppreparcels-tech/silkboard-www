@@ -371,9 +371,25 @@
 {{--</script>--}}
 <!--End of Tawk.to Script-->
 
-<!-- Start of shoppre-international-shipping-courier Zendesk Widget script -->
-<script>/*<![CDATA[*/window.zE||(function(e,t,s){var n=window.zE=window.zEmbed=function(){n._.push(arguments)}, a=n.s=e.createElement(t),r=e.getElementsByTagName(t)[0];n.set=function(e){ n.set._.push(e)},n._=[],n.set._=[],a.async=true,a.setAttribute("charset","utf-8"), a.src="https://static.zdassets.com/ekr/asset_composer.js?key="+s, n.t=+new Date,a.type="text/javascript",r.parentNode.insertBefore(a,r)})(document,"script","2ab4b736-3ac8-4f95-8b6f-e2c9d6325182");/*]]>*/</script>
-<!-- End of shoppre-international-shipping-courier Zendesk Widget script -->
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+    window.__lc = window.__lc || {};
+    window.__lc.license = 10584982;
+    (function() {
+        var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+        lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+    })();
+</script>
+<noscript>
+    <a href="https://www.livechatinc.com/chat-with/10584982/" rel="nofollow">Chat with us</a>,
+    powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
+</noscript>
+<!-- End of LiveChat code -->
+
+{{--<!-- Start of shoppre-international-shipping-courier Zendesk Widget script -->--}}
+{{--<script>/*<![CDATA[*/window.zE||(function(e,t,s){var n=window.zE=window.zEmbed=function(){n._.push(arguments)}, a=n.s=e.createElement(t),r=e.getElementsByTagName(t)[0];n.set=function(e){ n.set._.push(e)},n._=[],n.set._=[],a.async=true,a.setAttribute("charset","utf-8"), a.src="https://static.zdassets.com/ekr/asset_composer.js?key="+s, n.t=+new Date,a.type="text/javascript",r.parentNode.insertBefore(a,r)})(document,"script","2ab4b736-3ac8-4f95-8b6f-e2c9d6325182");/*]]>*/</script>--}}
+{{--<!-- End of shoppre-international-shipping-courier Zendesk Widget script -->--}}
 
 <script>
     if (window.location.href == "https://www.shoppre.com/campaign/flyer/616") {
