@@ -215,7 +215,7 @@
                     </div>
                     <div class="modal-footer" style="margin-top: 86px!important;">
                         <center>
-                            <a href="http://bit.ly/SHPR-Signup" class="btn-reg-popup" >Sign Up Now! </a>
+                            <a href="{{route('customer.register')}}" class="btn-reg-popup" >Sign Up Now! </a>
                         </center>
                         <p class="pull-right header8 p-color-white" style="margin-top: 40px">*Maximum amount that can be availed by a customer is ₹200/-.</p>
                     </div>

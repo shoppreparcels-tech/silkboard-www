@@ -35,40 +35,6 @@
 
 @section('content')
     <section id="new-pricing">
-        <div class="container">
-            {{--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ratesModel" id="getRates">View all rates up to 10 Kg</button>--}}
-            <div class="modal fade" id="ratesModel" role="dialog">
-                <div class="modal-dialog">
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            {{--<h4 class="modal-title">Shipping Rates: <span id="shippingCountry"></span></h4>--}}
-                        </div>
-                        <div class="modal-body">
-                            <div class="panel panel-success">
-                                <div class="panel-heading">
-                                    <h4 class="modal-title f-w-8">Shipping Rates: <span id="shippingCountry"></span></h4>
-                                </div>
-                                <div class="panel-body">
-                                    <h1 class="f-s-22 f-c-l-gray f-w-7">Non-Doc</h1>
-                                    <table class="table table-bordered" id="shippingRates">
-                                    </table>
-                                                                        <h1 class="f-s-22 f-c-l-gray f-w-7" >Doc</h1>
-                                    <table class="table table-bordered" id="shippingRatesDoc">
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
         <div class="container div-b-l-w no-pad" style="padding-bottom: 30px">
             <div class="col-md-9 col-sm-8 col-xs-12">
                 <div class="col-md-12 no-pad">
@@ -88,15 +54,12 @@
 
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-pad">
                             <div class="col-lg-6 col-md-6 col-sm-5 col-xs-12 no-pad">
-                                <select class="form-control select-control b-r" name="country">
-                                    <option value="">Select Country</option>
-                                    @foreach($countries as $country)
-                                        <option value="{{$country->iso}}" {{$country->id == 226 ? 'selected' : ""}}>{{$country->name}}</option>
-                                    @endforeach
-                                </select>
+                                <lable class="f-s-14 f-c-l-gray f-w-5 l-h-3"> From pin:</lable>
+                                <input type="text" class="txt-shadow btn-h-40" value=""name="frompin">
                             </div>
                             <div class="col-md-6 col-xs-12 l-pad">
-                                <a class="f-s-14 f-c-blue" data-toggle="modal" data-target="#ratesModel" id="getRates">View all rates up to 10 Kg</a>
+                                <lable class="f-s-14 f-c-l-gray f-w-5 l-h-3"> To pin:</lable>
+                                <input type="text" class="txt-shadow btn-h-40" value=""name="topin">
                             </div>
                         </div>
                         <div class="col-md-12 col-xs-12 no-pad">
@@ -1224,26 +1187,22 @@
         $(document).ready(function () {
             let data =[{"frompin": "560049","topin": "600012","length": "12","width": "12","height":
                         "12","weight": "1","invoiceVal": "1000"}];
-            let url='http://instacouriers.com/shipr/api/web/v1/rates/getrates?access-token=JiQBEoIagsKk1wnCRWVGzUFsuvK7g3td&data=';
-            url += data;
-            console.log(url);
-            // jQuery.ajax({
-            //     url: 'http://instacouriers.com/shipr/api/web/v1/rates/getrates?access-token=JiQBEoIagsKk1wnCRWVGzUFsuvK7g3td'+,
-            //     type: "Get",
-            //     dataType: "json",
-            //     beforeSend: function(x) {
-            //         if (x && x.overrideMimeType) {
-            //             x.overrideMimeType("application/j-son;charset=UTF-8");
-            //         }
-            //     },
-            //     success: function (res) {
-            //         console.log('pricing log', res);
-            //         // if (res.error == "1") {
-            //         // } else {
-            //         //
-            //         // }
-            //     }
-            // });
+            jQuery.ajax({
+                // url: 'http://instanttechlabs.com/shipr/api/web/v1/rates/getrates?access-token=JiQBEoIagsKk1wnCRWVGzUFsuvK7g3td&data= {"frompin": "560049","topin": "600012","length": "12","width": "12","height": "12","weight": "1","invoiceVal": "1000"}',
+                url : 'api-domestic',
+                type: "Get",
+                crossDomain: true,
+                contentType: 'application/json',
+                dataType:'jsonp',
+                responseType:'application/json',
+                headers: {
+                    "cache-control": "no-cache",
+                },
+                success: function (data) {
+                    console.log('pricing log', data);
+
+                }
+            });
 
             $("#getRates").click(function(e) {
                 e.preventDefault();

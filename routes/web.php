@@ -658,12 +658,14 @@ Route::post('/valentines-cashback', 'PageController@apiValentines')->name('valen
 Route::post('/medicine', 'PageController@apiMedicine')->name('apiMedicine');
 Route::post('/parcel-forwarding', 'PageController@apiParcelForwarding')->name('apiParcelForwarding');
 Route::post('/apiVideoLp', 'PageController@apiVideoLp')->name('apiVideoLp');
+Route::post('/api-pricing-calculator', 'PageController@apiPricingCalculator')->name('apiPricingCalculator');
 Route::post('/api-pricing-usa', 'PageController@apiPricingUsa')->name('apiPricingUsa');
 Route::post('/api-pricing-uae', 'PageController@apiPricingUae')->name('apiPricingUae');
 Route::post('/api-pricing-canada', 'PageController@apiPricingCanada')->name('apiPricingCanada');
 Route::post('/api-pricing-australia', 'PageController@apiPricingAustralia')->name('apiPricingAustralia');
 Route::post('/api-pricing-singapore', 'PageController@apiPricingSingapore')->name('apiPricingSingapore');
 Route::post('/api-pricing-germany', 'PageController@apiPricingGermany')->name('apiPricingGermany');
+Route::post('/api-domestic', 'PageController@apiDomesticPricing')->name('apiPricingGermany');
 
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');

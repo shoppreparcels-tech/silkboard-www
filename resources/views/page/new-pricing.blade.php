@@ -56,7 +56,7 @@
                                     <h1 class="f-s-22 f-c-l-gray f-w-7">Non-Doc</h1>
                                     <table class="table table-bordered" id="shippingRates">
                                     </table>
-                                                                        <h1 class="f-s-22 f-c-l-gray f-w-7" >Doc</h1>
+                                    <h1 class="f-s-22 f-c-l-gray f-w-7" >Doc</h1>
                                     <table class="table table-bordered" id="shippingRatesDoc">
                                     </table>
                                 </div>
@@ -83,11 +83,19 @@
                                     <h4 class="modal-title f-w-8"> For more than 70 Kg we will be providing spot rates which are extremely competitive</h4>
                                 </div>
                                 <div class="panel-body">
-                                    <form action="">
+                                    <form action="" method="post" id="form-weight">
                                         <div class="col-md-12 col-xs-12 pad-r-10 pad-b-20"><br>
-                                            Name:<input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="Name" placeholder="Enter your name"><br/>
-                                            Phone Number: <input id="phone" name="ContactNumber" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off"> <br/>
-                                            Email:<input type="Email" name="email" class="txt-f-w txt-shadow txt-pad" autocomplete="off"   placeholder="jhon@email.com">
+                                            Name:<input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="MName" placeholder="Enter your name" required>
+                                            Phone Number: <input id="phone" name="MContactNumber" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off" required>
+                                            Email:<input type="Email" name="Memail" class="txt-f-w txt-shadow txt-pad" autocomplete="off"   placeholder="jhon@email.com" required>
+                                            Country :
+                                            <select class="form-control select-control b-r" name="Mcountry" required>
+                                                <option value="">Select Country</option>
+                                                @foreach($countries as $country)
+                                                    <option value="{{$country->iso}}" {{$country->id == 226 ? 'selected' : ""}}>{{$country->name}}</option>
+                                                @endforeach
+                                            </select>
+                                            Weight<input type="number" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="Mweight" placeholder="Enter your Weight" required>
                                             <div class="col-xs-12 col-md-12 pad-t-20">
                                                 <button type='submit' class="btn btn-s-r btn-b-r btn-l">Get a quote</button>
                                             </div>
@@ -1283,7 +1291,6 @@
         });
     </script>
 
-
     <script type="text/javascript">
         $(document).ready(function () {
             $("#getRates").click(function(e) {
@@ -1359,7 +1366,7 @@
                     var length = $("input[name='length']").val();
                     var width = $("input[name='width']").val();
                     var height = $("input[name='height']").val();
-                    console.log('country ' + country + '\n weight ' + weight + '\n weight_unit ' + weight_unit + '\n type ' + package_type + ' \n measurement_unit ' + measurement_unit + '\n length ' + length + '\n width ' + width + '\n height ' + height);
+                    // console.log('country ' + country + '\n weight ' + weight + '\n weight_unit ' + weight_unit + '\n type ' + package_type + ' \n measurement_unit ' + measurement_unit + '\n length ' + length + '\n width ' + width + '\n height ' + height);
                     if (weight<=70){
                         jQuery.ajax({
                             url: 'https://ship-api.shoppre.com/api/pricing?all=true&country=' + country + '&type=' + package_type + '&weight=' + weight,
@@ -1390,7 +1397,7 @@
     </script>
     <script>
         $(document).ready(function () {
-            $("#moreWeight").validate({
+            $("#form-weight").validate({
                 rules:
                     {
                         email: {required: true}
@@ -1401,21 +1408,27 @@
                     },
                 submitHandler: function (form) {
                     debugger;
-                    var email = $("input[name='email']").val();
-                    var name = $("input[name='Name']").val();
-                    var contact_no = $("input[name='ContactNumber']").val();
+                    var country = $("select[name='Mcountry']").val();
+                    var email = $("input[name='Memail']").val();
+                    var name = $("input[name='MName']").val();
+                    var contact_no = $("input[name='MContactNumber']").val();
+                    var weight = $("input[name='Mweight']").val();
                     var token = $('input[name=_token]').val();
+
                     jQuery.ajax({
-                        url: 'api-pricing-lp',
+                        url: 'api-pricing-calculator',
                         type: "POST",
                         data: {
                             _token: token,
-                            email: email,
                             name: name,
+                            weight: weight,
+                            email: email,
+                            country: country,
                             contact_no: contact_no,
+
                         },
                         success: function (data) {
-                            console.log(data);
+                            $('#moreWeight').modal('hide')
                         }
                     })
                 }

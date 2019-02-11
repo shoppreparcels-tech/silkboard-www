@@ -13,7 +13,10 @@
         .box-steps p span {font-size: 22px;font-weight: 900;}
         #packing:hover{display: none}
 
-
+        .seo-sec {background-color: #fff}
+        .seo-sec a {text-decoration: underline}
+        .ul-seo ul li{list-style: none;}
+        .ul-seo li {font-size: 16px;font-weight: 600;color: #677582}
 
         table th, td{border: 2px solid #fdf699 !important; border-radius: 4px !important;}
         table th, td h1{color:#11273b;font-weight: 800; font-size: 20px}
@@ -153,6 +156,92 @@
                 </form>
             </div>
         </div>
+    </section>
+    <section class="seo-sec">
+        <div class="container">
+            <div class="col-md-12 col-xs-12 pad-t-20">
+                <center>
+                    <div class="col-md-4 col-xs-12 pad-20 ">
+                        <a href="">courier charges from India to UAE</a>
+                    </div>
+                    <div class="col-md-4 col-xs-12 pad-20">
+                        <a href="">courier charges from india to canada</a>
+                    </div>
+                    <div class="col-md-4 col-xs-12  pad-20">
+                        <a href="">courier from india to australia</a>
+                    </div>
+                </center>
+            </div>
+
+            <div class="col-md-12 col-xs-12 ">
+                <center>
+                    <div class="col-md-4 col-xs-12  pad-20">
+                        <a href="">courier from india to singapore</a>
+                    </div>
+                    <div class="col-md-4 col-xs-12  pad-20">
+                        <a href="">courier charges from india to uk per kg</a>
+                    </div>
+                    <div class="col-md-4 col-xs-12 pad-20">
+                        <a href="">courier from india to germany</a>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="container">
+            <center>
+                <br>
+                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">International Courier From India to the USA</span>,
+                    <br> Now Made Extremely Easy!</h1>
+            </center>
+
+            <p class="f-s-16 f-c-gray">Gone are the days when international shipping from India was full of hoops to jump through;
+                now you can go on shopping in your favorite Indian shops, and sit back & relax!
+                We'll take care of the rest!
+            </p>
+            <p class="f-s-16 f-c-gray">To check out the courier charges from India to the USA per kg - <a href="">Click here.</a></p>
+            <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">How do I courier jewellery from India to the USA?</h2>
+            <p class="f-s-16 f-c-gray">We offer to courier jewellery from India to the USA only that it should not be made of
+                pricey metals such as Gold, Silver etc. or of costly stones.
+                All the other type of jewellery which are not considered as fancy or priceless including ethnique jewellery
+                can be shipped through ShoppRe. Now, shipping jewelry is made easy by ShoppRe!
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Can you send medicines from India to the USA through courier?</h2>
+            <p class="f-s-16 f-c-gray">Of course you can. To courier packages with medicines from India to the USA, it would require
+                the original prescription and the invoice for Clearance as it falls under the category of Special Items for Export.
+                And, you would need to pay a Special Clearance Fee as well for the extra-care and handling such packages.
+                But rest assured that you’d get the best-quality services and a speedy delivery.
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">What is the most affordable way to send document couriers from India to the USA?</h2>
+            <p class="f-s-16 f-c-gray">The best option for cheap document courier to the USA would be resorting to our Student Special
+                Offer where document couriers of academic nature get sent at the cheapest of shipping rates possible and in just 3-6 days.
+                <br>
+                Click here for the pricing for the same.
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8"> How many days would it take for a courier to reach the USA from India?</h2>
+            <p class="f-s-16 f-c-gray">For any shipment that’s shipped outside of India is guaranteed a delivery speed of 3-6 business days,
+                granted there are no technical difficulties, which are rare. </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Can I courier food items from India to the USA?</h2>
+            <p class="f-s-16 f-c-gray"> Yes you can. We offer the best food-item courier service and you’d need to
+                specify if it’s Homemade or Processed when you place an order though.</p> <br>
+            <p class="f-s-16 f-c-gray">Check out this link - [ ] - to learn what all food items we ship.</p>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Can you courier mangoes from India to the USA?</h2>
+            <p class="f-s-16 f-c-gray">Well, mangoes come under Special Items as it is a food item. You’d need to pay the Special Clearance
+                Charges for clearing it through the customs and for handling it with extra care all through packing and shipping the same.
+            </p> <br>
+            <p class="f-s-16 f-c-gray">Click here to get a FREE estimate of your package.</p>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">How long will it take for a package to reach its destination?
+                Does it ever reach early?</h2>
+
+        </div>
+        <br>
     </section>
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">

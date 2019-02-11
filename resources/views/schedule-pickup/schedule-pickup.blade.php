@@ -168,21 +168,10 @@
         }
     </style>
     <style>
-        .seo-sec {
-            background-color: #fafafb
-        }
-        .seo-sec a {
-            text-decoration: underline
-        }
-        .ul-seo {
-            list-style: none;
-        }
-
-        .ul-seo li {
-            font-size: 16px;
-            font-weight: 600;
-            color: #677582
-        }
+        .seo-sec {background-color: #fafafb}
+        .seo-sec a {text-decoration: underline}
+        .ul-seo ul li{list-style: none;}
+        .ul-seo li {font-size: 16px;font-weight: 600;color: #677582}
     </style>
 @endsection
 @section('content')
