@@ -233,7 +233,7 @@
                             <a href="{{route('customer.login')}}" id="btn_login">Login</a>
                         </li>
                         <li class="new-menu-register">
-                            <a href="{{route('customer.register')}}" id="btn_register" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Sign Up FREE</a>
+                            <a href="{{route('member.plan')}}" id="btn_register" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Sign Up FREE</a>
                         </li>
                     @endif
                 </ul>

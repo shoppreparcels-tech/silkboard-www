@@ -846,4 +846,126 @@ class AxisController extends Controller
 		$decrypted = substr($decrypted, 0, -$padding);
 		return $decrypted;
 	}
+
+
+    public function memberInitiatePayment(Request $request)
+    {
+        $customer_id = Auth::id();
+        $amount = $request->session()->get('memberFee');
+
+        $data = array(
+            "vpc_Version" => "1",
+            "vpc_AccessCode" => "YIAX9875",
+            "vpc_Command" => "pay",
+            "vpc_MerchTxnRef" => "SHIP".$customer_id."-".time(),
+            "vpc_MerchantId" => "13I000000000978",
+            "vpc_Amount" => round($amount) * 100,
+            "vpc_OrderInfo" => "SHIPMENT# ".$customer_id,
+            "vpc_ReturnURL" => route('member.axis.status'),
+
+        );
+
+            //------ store original data
+            $posted_data = $data;
+
+            //------- sort on keys
+            ksort($data);
+
+            $SECURE_SECRET = "7BB594D45D47D87893121FDD7CC7672A";  //Add secure secret here
+            if($data){
+                $str = $SECURE_SECRET;
+                foreach($data as $key => $val){
+                    $str = $str . $val;
+                }
+            }
+
+            $str = hash('sha256', utf8_encode($str));
+
+            $posted_data["vpc_SecureHash"] = $str;
+
+            ksort($posted_data);
+
+            $processed_data = $posted_data;
+            if($processed_data){
+                $str = "";
+                foreach($processed_data as $key => $val){
+                    $str .= $key."=".$val."::";
+                }
+                // remove last occurrence of ::
+                $pos = strrpos($str, "::");
+                if($pos !== false){
+                    $str = substr_replace($str, "", $pos, strlen("::"));
+                }
+            }
+
+            $key = "FC36C5D9E2DC28856FEB90DAD5E84C66";
+
+            $ciphertext_base64 = $this->encrypt($str, $key);
+
+            $encrypted_data = array();
+            $encrypted_data["vpc_MerchantId"] = $posted_data["vpc_MerchantId"];
+            $encrypted_data["encrypted_data"] = $ciphertext_base64;
+
+            return view('myaccount.customer.payment.axis_do')->with('encrypted_data', $encrypted_data);
+
+    }
+
+    public function memberResponsePayment(Request $request)
+    {
+        $amount = $request->session()->get('memberFee');
+        $customer_id = Auth::id();
+        if (!empty($customer_id)) {
+
+            $data = $request->all();
+
+            $key = "FC36C5D9E2DC28856FEB90DAD5E84C66";
+            $received_data= $data;
+
+            $ciphertext_base64 = array_pop($received_data);
+            $ciphertext_dec = $this->decrypt($ciphertext_base64, $key);;
+
+            // remove last occurrence of ::
+            $pos = strrpos($ciphertext_dec, "::");
+            if($pos !== false){
+                $ciphertext_dec = substr_replace($ciphertext_dec, "", $pos, strlen("::"));
+            }
+
+            $array_data_string = explode("::", $ciphertext_dec);
+
+            $result = array();
+            if($array_data_string){
+                foreach($array_data_string as  $value){
+                    $temp_array = explode("||", $value);
+                    $result[ $temp_array[0] ]	 = $temp_array[1];
+                }
+            }
+            $membership_type = $request->session()->get('membership_type');
+            if ($membership_type === 'y') {
+                $Validity_date = \Carbon\Carbon::today()->addYear(1);
+            } else if ($membership_type === 'h'){
+                $Validity_date = \Carbon\Carbon::today()->addMonth(6);
+            }
+
+            if (isset($result) && !empty($result)) {
+
+                if ($result['vpc_TxnResponseCode'] == '0') {
+                    Customer::where('id', $customer_id)
+                        ->update(['membership_type' => 'P', 'membership_amount' => $amount, 'membership_validity' => $Validity_date]);
+                    return redirect()->route('member.success');
+
+                }elseif ($result['vpc_TxnResponseCode'] == 'Aborted') {
+                    return redirect()->route('member.pay')->with('error', 'Looks like you cancelled the payment. You can try again now or if you faced any issues in completing the payment, please contact us.');
+
+                }else{
+                    return redirect()->route('member.pay')->with('error', 'Payment transaction failed! You can try again now or if you faced any issues in completing the payment, please contact us.');
+                }
+
+            }else{
+                return redirect()->route('member.pay')->with('error', 'Security Error! Please try again after sometime or contact us for support.');
+            }
+
+        }else{
+            return redirect()->route('member.pay')->with('error', 'Unauthorized customer transaction!');
+        }
+    }
 }

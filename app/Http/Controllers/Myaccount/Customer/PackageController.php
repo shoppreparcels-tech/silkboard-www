@@ -414,4 +414,11 @@ class PackageController extends Controller
 
         return redirect()->back()->with('message', 'Note updated to your package');
     }
+
+
+    public function memberSuccess(Request $req) {
+        $customer_id = Auth::id();
+        $customer = Customer::find($customer_id);
+        return view('myaccount.membership.memberSuccess')->with(['customer'=>$customer]);
+    }
 }

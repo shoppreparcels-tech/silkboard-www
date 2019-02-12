@@ -19,6 +19,8 @@ use App\Mail\Myaccount\ReferEarned;
 use App\Mail\Myaccount\ReferralSuccess;
 use App\States;
 use App\Country;
+use Auth;
+
 
 class RegisterController extends Controller
 {
@@ -35,8 +37,10 @@ class RegisterController extends Controller
         return view('myaccount.customer.register')->with(['countries'=>$countries,'states'=>$states]);;
     }
 
+
     public function submitRegister(Request $request)
     {
+        $membership_type = $request->session()->get('membership_type');
         $rules = array(
 //            'title' => 'required|max:250',
             'firstname' => 'required|max:250',
@@ -122,6 +126,7 @@ class RegisterController extends Controller
         $customer->gcl_id = $request->gcl_id;
         $customer->referer = $request->referer;
         $customer->first_visit = $request->first_visit;
+        $customer->membership_type = 'b';
 //        $customer->medium = $request->continue;
         $customer->password = bcrypt($request->password);
         if (!empty($request->referrer)) {
@@ -173,6 +178,15 @@ class RegisterController extends Controller
 //        $status_ask = $this->informToAsk($customer);
         $status = $this->informMailtrain($customer);
         $this->sendEmailVerification($request->email);
+
+        if ($membership_type === 'y' || $membership_type == 'h') {
+            if (Auth::guard('customer')->attempt(['email'=>$request->email, 'password'=>$request->password])) {
+                $customer_id = Auth::id();
+                return redirect(route('member.pay',['directSignup' =>'You need to confirm your account.
+            We have sent you an activation code, Please check your email after payment.']));
+            }
+        }
+
         if ($request->continue)
         {
             return redirect(route('customer.login',['continue' => 'mi']))

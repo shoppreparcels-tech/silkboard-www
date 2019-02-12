@@ -771,4 +771,122 @@ class PaytmController extends Controller
 			return false;
 		return substr($text, 0, -1 * $pad);
 	}
+
+    public function memberInitiatePayment(Request $request)
+    {
+//        $customer_id = $request->session()->get('signUpCustomerId');
+//        echo $customer_id; exit;
+//        if (!(empty($customer_id))) {
+        $customer_id = Auth::id();
+//        }
+        $customer = Customer::find($customer_id);
+        $amount = $request->session()->get('memberFee');
+        if (!empty($customer_id)) {
+
+            $checkSum = "";
+            $paramList = array();
+
+            $ORDER_ID = "PAY".$customer_id."-".time();
+            $CUST_ID = $customer->locker;
+            $INDUSTRY_TYPE_ID = 'Retail109';
+            $CHANNEL_ID = 'WEB';
+            $TXN_AMOUNT = round($amount);
+
+            $EMAIL  = $customer->email;
+
+            // Create an array having all required parameters for creating checksum.
+            $paramList["MID"] = 'INDLLP22228431438570';
+            $paramList["ORDER_ID"] = $ORDER_ID;
+            $paramList["CUST_ID"] = $CUST_ID;
+            $paramList["INDUSTRY_TYPE_ID"] = $INDUSTRY_TYPE_ID;
+            $paramList["CHANNEL_ID"] = $CHANNEL_ID;
+            $paramList["TXN_AMOUNT"] = $TXN_AMOUNT;
+            $paramList["WEBSITE"] = 'INDLLPWEB';
+            $paramList["CALLBACK_URL"] = route('member.paytm.status');
+
+
+//            if (!empty($PHONE)) {
+//                $paramList["MOBILE_NO"] = $PHONE;
+//            }
+
+            if (!empty($EMAIL)) {
+                $paramList["EMAIL"] = $EMAIL;
+            }
+
+            $paramList["ORDER_DETAILS"] = "time ".time();
+
+            //Here checksum string will return by getChecksumFromArray() function.
+            $checkSum = $this->getChecksumFromArray($paramList, 'r&Xd973ZIk43rWzq');
+
+            return view('myaccount.customer.payment.paytm_do')->with(['paramList' => $paramList, 'checkSum' => $checkSum]);
+
+        } else {
+            return redirect()->route('member.pay')->with('error', 'Unauthorized customer transaction!');
+        }
+
+    }
+
+    public function memberResponsePayment(Request $request)
+    {
+
+//        $customer_id = $request->session()->get('signUpCustomerId');
+//        if (!(empty($customer_id))) {
+        $customer_id = Auth::id();
+//        }
+//        $customer = Customer::find($customer_id);
+        $amount = $request->session()->get('memberFee');
+        $membership_type = $request->session()->get('membership_type');
+        if (!empty($customer_id)) {
+            $MembershipValidity =
+            $paytmChecksum = "";
+            $paramList = array();
+            $isValidChecksum = "FALSE";
+
+            $paramList = $request->all();
+            $paytmChecksum = isset($request->CHECKSUMHASH) ? $request->CHECKSUMHASH : "";
+
+            $isValidChecksum = $this->verifychecksum_e($paramList, 'r&Xd973ZIk43rWzq', $paytmChecksum);
+
+            $STATUS = $request->STATUS;
+
+            if($isValidChecksum == "TRUE") {
+                if ($membership_type === 'y') {
+                    $Validity_date = \Carbon\Carbon::today()->addYear(1);
+                } else if ($membership_type === 'h'){
+                    $Validity_date = \Carbon\Carbon::today()->addMonth(6);
+                }
+
+
+                if($STATUS == "TXN_SUCCESS"){
+                    Customer::where('id', $customer_id)
+                        ->update(['membership_type' => 'P', 'membership_amount' => $amount, 'membership_validity' => $Validity_date]);
+                    return redirect()->route('member.success');
+
+                }
+                else if($STATUS == "TXN_FAILURE"){
+                    $resMsg = $request->RESPMSG;
+//                    ShipRequest::where('id', $ship_request_id)->update(['payment_gateway_name' => 'paytm', 'payment_status' => 'failed', 'admin_info' => 'Payment failed!', 'admin_read' => 'no']);
+                }
+                else if($STATUS == "PENDING" || $STATUS == "OPEN") {
+                    $resMsg = "Your transaction in pending now. We will inform you once we have received your payment.";
+//                    ShipRequest::where('id', $ship_request_id)->update(['payment_gateway_fee' => $payment_gateway_fee, 'final_amount' => $final_amount, 'payment_gateway_name' => 'paytm', 'payment_status' => 'pending', 'admin_info' => 'Payment status pending!', 'admin_read' => 'no']);
+                }
+                else{
+                    $resMsg = "Security Error! Payment Transaction Failed. Try again or contact us for support.";
+//                    ShipRequest::where('id', $ship_request_id)->update(['payment_gateway_name' => 'paytm', 'payment_status' => 'failed', 'admin_info' => 'Payment failed!', 'admin_read' => 'no']);
+                }
+
+//                Mail::to($customer->email)->bcc('support@shoppre.com')->send(new PaymentFailed($shipment));
+
+                return redirect()->route('member.pay')->with('error', $resMsg);
+
+            }else{
+
+                return redirect()->route('member.pay')->with('error', 'Security Error! Payment Transaction checksum mismatched.');
+            }
+
+        }else{
+            return redirect()->route('member.pay')->with('error', 'Unauthorized customer transaction!');
+        }
+    }
 }

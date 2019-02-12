@@ -226,6 +226,7 @@ Route::prefix('admin')->group(function(){
         ->name('schedulePickup.asana.tracking');
 });
 
+
 Route::get('/shop-from-india-ship-worldwide', 'PageController@ifsIndex')->name('ifs.index');
 
 Route::post('/mailchimp/subscribe', 'Myaccount\Customer\ProfileController@createSubscriber')->name('mailchimp.subscribe');
@@ -407,6 +408,25 @@ Route::get('/reset-password/token/{token}/email/{email}', 'Myaccount\Customer\Pa
 Route::post('/reset-password/submit', 'Myaccount\Customer\PasswordController@resetPassword')->name('customer.reset.submit');
 
 /*------ Profile ----------*/
+Route::get('/member/success', 'Myaccount\Customer\PackageController@memberSuccess')->name('member.success');
+Route::get('/member/select/plan', 'Myaccount\Customer\MemberController@memberPlan')->name('member.plan');
+
+Route::get('/member/register', 'Myaccount\Customer\MemberController@memberRegister')->name('member.register');
+Route::get('/member/pay', 'Myaccount\Customer\MemberController@memberPay')->name('member.pay');
+//Route::get('/member/payment', 'Myaccount\Customer\RegisterController@memberPayment')->name('member.payment');
+Route::post('/member/proceed/payment', 'Myaccount\Customer\MemberController@memberProceedPayment')->name('member.proceed.pay');
+
+
+//Route::get('/member/axis', 'Myaccount\Customer\AxisController@memberInitiatePayment')->name('member.axis');
+Route::post('/member/axis/response', 'Myaccount\Customer\AxisController@memberResponsePayment')->name('member.axis.status');
+Route::get('/member/payment/axis/initiate', 'Myaccount\Customer\AxisController@memberInitiatePayment')->name('payment.member.axis.start');
+
+Route::get('/member/paypal', 'Myaccount\Customer\PaypalController@memberInitiatePayment')->name('payment.member.paypal.start');
+Route::get('/member/paypal/response', 'Myaccount\Customer\PaypalController@memberResponsePayment')->name('member.paypal.status');
+
+Route::get('/member/paytm', 'Myaccount\Customer\PaytmController@memberInitiatePayment')->name('payment.member.paytm.start');
+Route::post('/member/paytm/response', 'Myaccount\Customer\PaytmController@memberResponsePayment')->name('member.paytm.status');
+
 Route::get('customer/register', 'Myaccount\Customer\RegisterController@register')->name('customer.register');
 Route::post('customer/register', 'Myaccount\Customer\RegisterController@submitRegister')->name('customer.register.submit');
 Route::get('/email-verify/token/{token}/email/{email}', 'Myaccount\Customer\RegisterController@verifyEmail')->name('customer.verify');

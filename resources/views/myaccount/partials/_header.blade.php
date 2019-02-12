@@ -88,7 +88,7 @@
                 <li><a href="{{route('customer.logout')}}"><i class="fa fa-sign-out"></i></a></li>
           @else
             <li><a href="{{route('customer.login')}}"><i class="fa fa-unlock-alt"></i> Login</a></li>
-            <li><a href="{{route('customer.register')}}"><i class="fa fa-user"></i> Sign up</a></li>
+            <li><a href="{{route('member.plan')}}"><i class="fa fa-user"></i> Sign up</a></li>
           @endif
         </ul>
       </div><!-- /.navbar-collapse -->

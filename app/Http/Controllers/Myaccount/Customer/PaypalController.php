@@ -668,4 +668,114 @@ class PaypalController extends Controller
 			return redirect()->route('shopper.self.history')->with('error', 'Unauthorized customer transaction!');
 		}
 	}
+
+
+    public function MemberInitiatePayment(Request $request)
+    {
+        $customer_id = Auth::id();
+        $memberAmount = $request->session()->get('memberFee');
+
+        if (!empty($customer_id)) {
+
+
+            $jsondata = file_get_contents("http://free.currencyconverterapi.com/api/v3/convert?q=USD_INR&compact=ultra");
+            $USD_INR = json_decode($jsondata)->USD_INR;
+            $amountUSD = round($memberAmount / $USD_INR, 2);
+
+            $payer = new Payer();
+            $payer->setPaymentMethod('paypal');
+
+            $amount = new Amount();
+            $amount->setCurrency('USD')
+                ->setTotal($amountUSD);
+
+            $transaction = new Transaction();
+            $transaction->setAmount($amount)->setDescription('Shoppre MemberShip Payment');
+
+            $redirect_urls = new RedirectUrls();
+            $redirect_urls->setReturnUrl(route('member.paypal.status'))
+                ->setCancelUrl(route('member.paypal.status'));
+
+            $payment = new Payment();
+            $payment->setIntent('Sale')
+                ->setPayer($payer)
+                ->setRedirectUrls($redirect_urls)
+                ->setTransactions(array($transaction));
+
+            try{
+
+                $payment->create($this->_api_context);
+
+            } catch (\PayPal\Exception\PayPalConnectionException $ex) {
+                return redirect()->route('member.pay')->with('error', 'Something Went wrong! Please retry your payment.');
+            }
+
+            foreach ($payment->getLinks() as $link) {
+                if ($link->getRel() == 'approval_url') {
+                    $redirect_url = $link->getHref();
+                    break;
+                }
+            }
+
+            // add payment ID to session
+            $request->session()->put('paypal_payment_id', $payment->getId());
+
+
+            if (isset($redirect_url)) {
+                return redirect($redirect_url);
+            }
+
+        }else{
+            return redirect()->route('member.pay')->with('error', 'Unauthorized customer transaction!');
+        }
+    }
+
+    public function MemberResponsePayment(Request $request)
+    {
+        $customer_id = Auth::id();
+        $amount = $request->session()->get('memberFee');
+        $membership_type = $request->session()->get('membership_type');
+
+        if ($membership_type === 'y') {
+            $Validity_date = \Carbon\Carbon::today()->addYear(1);
+        } else if ($membership_type === 'h'){
+            $Validity_date = \Carbon\Carbon::today()->addMonth(6);
+        }
+
+        if (!empty($customer_id)) {
+            $payment_id = $request->session()->pull('paypal_payment_id');
+            if (empty($payment_id)) {
+                return redirect()->route('member.pay')->with('error', 'Payment Transaction Failed!');
+            }
+
+            if (empty($request->PayerID) || empty($request->token)) {
+
+//                Mail::to($customer->email)->bcc('support@shoppre.com')->send(new PaymentFailed($shipment));
+                return redirect()->route('member.pay')->with('error', 'Payment Transaction Failed!');
+            }
+
+            $payment = Payment::get($payment_id, $this->_api_context);
+
+            $execution = new PaymentExecution();
+            $execution->setPayerId($request->input('PayerID'));
+
+            //Execute the payment
+            $result = $payment->execute($execution, $this->_api_context);
+
+            if ($result->getState() == 'approved') {
+
+                Customer::where('id', $customer_id)
+                    ->update(['membership_type' => 'P', 'membership_amount' => $amount, 'membership_validity' => $Validity_date]);
+                return redirect()->route('member.success');
+            }
+
+//            Mail::to($customer->email)->bcc('support@shoppre.com')->send(new PaymentFailed($shipment));
+
+            return redirect()->route('member.pay')->with('error', 'Unexpected error occurred & payment has been failed.');
+
+        } else {
+            return redirect()->route('member.pay')->with('error', 'Unauthorized customer transaction!');
+        }
+    }
 }
+

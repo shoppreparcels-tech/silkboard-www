@@ -39,7 +39,9 @@ class SocialAuthController extends Controller
     {
 
         $login_as = $req->loginAs;
+        $membership_type = $req->session()->get('membership_type');
         $req->session()->put(['loginAs' => $login_as]);
+        $req->session()->put(['member' => $membership_type]);
         return Socialite::driver('google')
             ->scopes(['openid', 'profile', 'email'])
             ->redirect();
@@ -48,6 +50,7 @@ class SocialAuthController extends Controller
     public function callbackGoogle(Request $request)
     {
         $login_as = $request->session()->get('loginAs');
+        $membership_type = $request->session()->get('membership_type');
         $socialUser = Socialite::driver('google')->user();
         switch($login_as) {
             case 'Customer' : if (!empty($socialUser->email)) {
@@ -63,6 +66,7 @@ class SocialAuthController extends Controller
                                         }while(!$user_code->isEmpty());
                                         $customer->locker = $code;
                                         $customer->email_verify = 'yes';
+                                        $customer->membership_type = 'b';
                                         $customer->save();
                                         $status = MailChimp::signUpSubscriber($socialUser->name,$socialUser->email);
                                         $contact = new CustomerContact;
@@ -142,7 +146,11 @@ class SocialAuthController extends Controller
 
                                     Auth::loginUsingId($customer_id);
 
-                                    return redirect()->route('customer.locker');
+                                    if ($membership_type === 'y' || $membership_type === 'h') {
+                                        return redirect(route('member.pay'));
+                                    }
+
+                                    return redirect(route('customer.locker'));
 
                                 }else{
                                   return redirect(route('customer.register'))->with('error', 'Sorry, Now we are unable to login/register using Google API. Try again after sometime!');
@@ -180,6 +188,7 @@ class SocialAuthController extends Controller
 
     public function callbackFacebook(Request $request)
     {
+        $membership_type = $request->session()->get('membership_type');
     	if (isset($request->error_code) && $request->error_code == 200) {
     		return redirect(route('customer.register'))->with('error', 'Facebook login process canceled.');
     	}
@@ -198,6 +207,7 @@ class SocialAuthController extends Controller
 			    }while(!$user_code->isEmpty());
 			    $customer->locker = $code;
 			    $customer->email_verify = 'yes';
+                $customer->membership_type = 'b';
 			    $customer->save();
 
                 $status = MailChimp::signUpSubscriber($socialUser->name,$socialUser->email);
@@ -230,6 +240,10 @@ class SocialAuthController extends Controller
 
 	        $this->checkProfileSet($customer_id);
 	        Auth::loginUsingId($customer_id);
+
+            if ($membership_type === 'y' || $membership_type === 'h') {
+                return redirect(route('member.pay'));
+            }
 
 	        return redirect()->route('customer.locker');
 
