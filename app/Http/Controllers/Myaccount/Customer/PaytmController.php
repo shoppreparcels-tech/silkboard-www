@@ -774,11 +774,7 @@ class PaytmController extends Controller
 
     public function memberInitiatePayment(Request $request)
     {
-//        $customer_id = $request->session()->get('signUpCustomerId');
-//        echo $customer_id; exit;
-//        if (!(empty($customer_id))) {
         $customer_id = Auth::id();
-//        }
         $customer = Customer::find($customer_id);
         $amount = $request->session()->get('memberFee');
         if (!empty($customer_id)) {
@@ -828,12 +824,7 @@ class PaytmController extends Controller
 
     public function memberResponsePayment(Request $request)
     {
-
-//        $customer_id = $request->session()->get('signUpCustomerId');
-//        if (!(empty($customer_id))) {
         $customer_id = Auth::id();
-//        }
-//        $customer = Customer::find($customer_id);
         $amount = $request->session()->get('memberFee');
         $membership_type = $request->session()->get('membership_type');
         if (!empty($customer_id)) {
@@ -865,18 +856,13 @@ class PaytmController extends Controller
                 }
                 else if($STATUS == "TXN_FAILURE"){
                     $resMsg = $request->RESPMSG;
-//                    ShipRequest::where('id', $ship_request_id)->update(['payment_gateway_name' => 'paytm', 'payment_status' => 'failed', 'admin_info' => 'Payment failed!', 'admin_read' => 'no']);
                 }
                 else if($STATUS == "PENDING" || $STATUS == "OPEN") {
                     $resMsg = "Your transaction in pending now. We will inform you once we have received your payment.";
-//                    ShipRequest::where('id', $ship_request_id)->update(['payment_gateway_fee' => $payment_gateway_fee, 'final_amount' => $final_amount, 'payment_gateway_name' => 'paytm', 'payment_status' => 'pending', 'admin_info' => 'Payment status pending!', 'admin_read' => 'no']);
                 }
                 else{
                     $resMsg = "Security Error! Payment Transaction Failed. Try again or contact us for support.";
-//                    ShipRequest::where('id', $ship_request_id)->update(['payment_gateway_name' => 'paytm', 'payment_status' => 'failed', 'admin_info' => 'Payment failed!', 'admin_read' => 'no']);
                 }
-
-//                Mail::to($customer->email)->bcc('support@shoppre.com')->send(new PaymentFailed($shipment));
 
                 return redirect()->route('member.pay')->with('error', $resMsg);
 

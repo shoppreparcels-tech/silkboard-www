@@ -11,22 +11,13 @@
 
 @section('content')
 
-    {{--<section class="shipprocess" style="background: #f1eded00 !important;">--}}
 </br>
     </br>
         <div class="container" >
-            {{--<div class="row">--}}
-                {{--<img src="{{asset('img/logo.png')}}" alt="Indian Shoppre" height="70px"></a>--}}
-            {{--</div>--}}
-
-            {{--<div style="text-align: center;">--}}
-            {{--<h2 class="title"><b>Start saving UP TO 80% on Shipping  Rates Today</b></h2>--}}
-            {{--<h3 ><b>Maximize your international Shipping Discount With a Shoppre Premium Mebership </b></h3>--}}
             </br>
             <div class="row text-center">
                 <img src="{{asset('img/member/process3.png')}}" height="85px" alt="Member Process"></a>
             </div>
-            {{--</div>--}}
 
             </br></br></br>
             <div class="text">
