@@ -50,48 +50,48 @@
                 <div class="col-md-12 col-xs-12 no-pad">
                     <h1 class="p-color-white header-spacing d-header-text">International Courier
                         <br></h1>
-                    <h1 class="header1 p-color-white header-spacing">Starting @₹695/-</h1>
+                    <h1 class="header1 p-color-white header-spacing">Best Rates to Singapore</h1>
                     <table class="table table-bordered txt-a-c">
                         <tr>
                             <td class="btn-b-y tbl-br">
                                 <h1>Pricing</h1>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1579</h1>
+                                <h1>₹1227</h1>
                                  <p><span>Per</span> 0.5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1819</h1>
+                                <h1>₹1879</h1>
                                 <p><span>Per</span> 1 Kg</p>
                             </td>
                             <td class=" div-b-w-s tbl-br">
-                                <h1>₹2301</h1>
+                                <h1>₹1943</h1>
                                 <p><span>Per</span> 2 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹2954</h1>
+                                <h1>₹2894</h1>
                                 <p><span>Per</span> 3 Kg</p>
                             </td>
                         </tr>
                         <tr>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3415</h1>
+                                <h1>₹3245</h1>
                                 <p><span>Per</span> 4 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3708</h1>
+                                <h1>₹3503</h1>
                                 <p><span>Per</span> 5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹6110</h1>
+                                <h1>₹3452</h1>
                                 <p><span>Per</span> 10 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹10847</h1>
+                                <h1>₹7276</h1>
                                 <p><span>Per</span> 20 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹29113</h1>
+                                <h1>₹20756</h1>
                                 <p><span>Per</span> 50 Kg</p>
                             </td>
                         </tr>
@@ -162,13 +162,13 @@
             <div class="col-md-12 col-xs-12 pad-t-20">
                 <center>
                     <div class="col-md-4 col-xs-12 pad-20 ">
-                        <a href="">courier charges from India to UAE</a>
+                        <a href="/medicine-international-courier-from-india">Medicine Courier charges to Singapore</a>
                     </div>
                     <div class="col-md-4 col-xs-12 pad-20">
-                        <a href="">courier charges from india to canada</a>
+                        <a href="/best-international-relocation-packers-movers">Parcle Forwarding from India to Singapore</a>
                     </div>
                     <div class="col-md-4 col-xs-12  pad-20">
-                        <a href="">courier from india to australia</a>
+                        <a href="/shop-ship">Online Shopping from India to Singapore</a>
                     </div>
                 </center>
             </div>
@@ -176,13 +176,13 @@
             <div class="col-md-12 col-xs-12 ">
                 <center>
                     <div class="col-md-4 col-xs-12  pad-20">
-                        <a href="">courier from india to singapore</a>
+                        <a href="{{route('pricing')}}">International shipping cost calculator</a>
                     </div>
                     <div class="col-md-4 col-xs-12  pad-20">
-                        <a href="">courier charges from india to uk per kg</a>
+                        <a href="/international-courier-charges-india-to-uae-per-kg">Courier charges from India to UAE</a>
                     </div>
                     <div class="col-md-4 col-xs-12 pad-20">
-                        <a href="">courier from india to germany</a>
+                        <a href="/international-courier-charges-india-to-usa-per-kg">Courier Rates Per Kg to the USA</a>
                     </div>
                 </center>
             </div>
@@ -190,55 +190,37 @@
         <div class="container">
             <center>
                 <br>
-                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">International Courier From India to the USA</span>,
-                    <br> Now Made Extremely Easy!</h1>
+                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">Most Convenient International Courier from India to Singapore</span>,
+                    <br>Fast and Reliable Shipping</h1>
             </center>
 
-            <p class="f-s-16 f-c-gray">Gone are the days when international shipping from India was full of hoops to jump through;
-                now you can go on shopping in your favorite Indian shops, and sit back & relax!
-                We'll take care of the rest!
-            </p>
-            <p class="f-s-16 f-c-gray">To check out the courier charges from India to the USA per kg - <a href="">Click here.</a></p>
+            <p class="f-s-20 f-c-d-greay">ShoppRe comes up with a way to offer the cheapest courier service from India to Singapore via ShoppRe Courier.
+            </p> <br>
+            <p class="f-s-20 f-c-d-greay">May it be care packages or shopping forwards, international shipping to Singapore is no more a hassle. You can
+                just opt to use our Shop & Ship for the finest forwarding services as well. </a></p>
             <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">How do I courier jewellery from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray">We offer to courier jewellery from India to the USA only that it should not be made of
-                pricey metals such as Gold, Silver etc. or of costly stones.
-                All the other type of jewellery which are not considered as fancy or priceless including ethnique jewellery
-                can be shipped through ShoppRe. Now, shipping jewelry is made easy by ShoppRe!
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Can I ship household stuff to Singapore from India?</h2>
+            <p class="f-s-16 f-c-gray">Of course you can. ShoppRe would be the cheapest and most reliable company for you to consider to help with your moving & shifting needs.
+            </p> <br>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">For relocating from India to Singapore, which are some good packers and movers to consider?</h2>
+            <p class="f-s-16 f-c-gray">ShoppRe is considered <a href="/best-international-relocation-packers-movers">the best packers and movers company</a> & offers domestic, international and commercial moving services which include the complete relocation
+                of your residence or office. Attention to detail and extra care to the maximum efficiency would be the highlights of our services.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">Can you send medicines from India to the USA through courier?</h2>
-            <p class="f-s-16 f-c-gray">Of course you can. To courier packages with medicines from India to the USA, it would require
-                the original prescription and the invoice for Clearance as it falls under the category of Special Items for Export.
-                And, you would need to pay a Special Clearance Fee as well for the extra-care and handling such packages.
-                But rest assured that you’d get the best-quality services and a speedy delivery.
-            </p> <br>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">What is the most affordable way to send document couriers from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray">The best option for cheap document courier to the USA would be resorting to our Student Special
-                Offer where document couriers of academic nature get sent at the cheapest of shipping rates possible and in just 3-6 days.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Can I buy a product from India and ship it to Singapore?</h2>
+            <p class="f-s-16 f-c-gray">Yes, you can. Our Shop & Ship offers the opportunity for you to <a href="{{route('stores1')}}">shop from indian stores</a> and ship through ShoppRe. All you have to do is, ship your
+                packages to the virtual address we provide and we’ll take care of the rest.
                 <br>
-                Click here for the pricing for the same.
+                <br>
+                <p class="f-s-16 f-c-gray">Learn more about our <a href="/shop-from-india-ship-worldwide">Shop & Ship services</a> and our <a href="/personal-shopper-india">Personal Shoppers</a>.</p>
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8"> How many days would it take for a courier to reach the USA from India?</h2>
-            <p class="f-s-16 f-c-gray">For any shipment that’s shipped outside of India is guaranteed a delivery speed of 3-6 business days,
-                granted there are no technical difficulties, which are rare. </p> <br>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Can I send medicine via couriers from India to Singapore?</h2>
+            <p class="f-s-16 f-c-gray">Yes you can. International medicine couriers come under Special Items and requires special
+                treatment in Customs as well. So, you’d need the original prescription to consider shipping it in.  </p> <br>
+            <p class="f-s-16 f-c-gray">Check our <a href="{{route('pricing')}}">pricing to learn about our shipping charges from India to Singapore</a> & get a FREE estimate. </p>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">Can I courier food items from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray"> Yes you can. We offer the best food-item courier service and you’d need to
-                specify if it’s Homemade or Processed when you place an order though.</p> <br>
-            <p class="f-s-16 f-c-gray">Check out this link - [ ] - to learn what all food items we ship.</p>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">Can you courier mangoes from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray">Well, mangoes come under Special Items as it is a food item. You’d need to pay the Special Clearance
-                Charges for clearing it through the customs and for handling it with extra care all through packing and shipping the same.
-            </p> <br>
-            <p class="f-s-16 f-c-gray">Click here to get a FREE estimate of your package.</p>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">How long will it take for a package to reach its destination?
-                Does it ever reach early?</h2>
 
         </div>
         <br>

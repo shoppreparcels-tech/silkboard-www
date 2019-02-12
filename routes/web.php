@@ -513,16 +513,6 @@ Route::get('/cheap-rates-international-shipping-cost-calculator', 'PageControlle
 Route::get('/new-pricing', 'PageController@pricing')->name('newPricing');
 Route::get('/domestic-pricing', 'PageController@domesticPricing')->name('domesticPricing');
 
-/*-------- Per KG Landing Pages ------*/
-Route::get('/international-courier-charges-india-to-usa-per-kg', 'PageController@pricingUsa')->name('usaPerKg');
-Route::get('/international-courier-charges-india-to-uae-per-kg', 'PageController@pricingUae')->name('uaePerKg');
-Route::get('/international-courier-charges-india-to-canada-per-kg', 'PageController@pricingCanada')->name('canadaPerKg');
-Route::get('/international-courier-charges-india-to-australia-per-kg', 'PageController@pricingCanada')->name('australiaPerKg');
-Route::get('/international-courier-charges-india-to-singapore-per-kg', 'PageController@pricingCanada')->name('singaporePerKg');
-Route::get('/international-courier-charges-india-to-germany-per-kg', 'PageController@pricingCanada')->name('germanyPerKg');
-//Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
-
-
 /*-------- Dhl Shipments ------*/
 Route::get('/dhl', 'ShippingPartnerController@dhlIndex')->name('dhl.index');
 Route::get('/dhl-new', 'ShippingPartnerController@dhlIndexNew')->name('dhlnew.index');
@@ -578,7 +568,6 @@ Route::post('/chat-email', 'PageController@chatMailSent')->name('chatMail.sent')
 Route::get('/chat-e192.168.0.mail/confirm', 'PageController@chatMailConfirm')->name('chatMail.confirm');
 //Route::get('/shipments', 'SchedulePickupDetailController@pickupList')->name('schedulePickup.List');
 Route::get('/shipment/{id}', 'SchedulePickupDetailController@pickupView')->name('admin.schedulePickup.View');
-
 Route::get('/campaigns', 'CampaignController@index')->name('campaign.index');
 Route::get('/campaign/create', 'CampaignController@create')->name('campaign.create');
 Route::post('/campaign/create', 'CampaignController@submit')->name('campaign.submit');
@@ -587,23 +576,18 @@ Route::post('/campaign/edit', 'CampaignController@editSubmit')->name('campaign.e
 Route::post('home/login', 'Customer\LoginController@homeLogin')->name('homeLogin');
 Route::post('home/signup', 'Customer\RegisterController@homeSignup')->name('homeSignup');
 Route::get('offer/expire', 'CampaignController@expireOffer')->name('offerExpire');
-
 Route::get('/customer-pricing', 'PageController@customerPricing')->name('customerPricing');
 Route::get('/invoice', 'InvoiceController@index')->name('invoice');
 Route::get('/country-guide/', 'CountryGuideController@countryGuide')->name('cguide.index');
 Route::get('/country/{iso}', 'CountryGuideController@show')->name('cguide.view');
-
 Route::get('/cguide/', 'CountryGuideController@cGuide')->name('cguide.cguide');
 Route::get('/cguide/countries', 'CountryGuideController@cGuide')->name('cguide.cguideCountries');
 Route::get('/cguide/{iso}', 'CountryGuideController@showCguide')->name('cguide.cguide');
-
-
 Route::post('/calculate/exchange-rate', 'CountryGuideController@exchangeCalculate')->name('xchange.calc');
-
-
 Route::get('/indian-virtual-address', 'PageController@indianVirtual')->name('indianVirtual');
 //Route::get('/shop-from-india-ship-worldwide', 'PageController@shopFromIndia')->name('shopFromIndia');
 Route::get('/sellers-shipping', 'PageController@sellerShipping')->name('sellerShipping');
+
 
 /*-------- landing pages------*/
 Route::get('/international-courier-shipping-services-india', 'PageController@icsIndex')->name('ics.index');
@@ -633,12 +617,16 @@ Route::get('/medicine-international-courier-from-india', 'PageController@medicin
 Route::get('/personal-shopper-india', 'PageController@ifsLandingPage')->name('ifs.landing');
 Route::get('/radcon', 'PageController@radioContest')->name('radio');
 Route::get('/radcon-tc', 'PageController@radioTermsConditions')->name('radio.tc');
-
 Route::get('/seller-partner', 'PageController@seller')->name('seller');
-
-
+/*-------- Per KG Landing Pages ------*/
+Route::get('/international-courier-charges-india-to-usa-per-kg', 'PageController@pricingUsa')->name('usaPerKg');
+Route::get('/international-courier-charges-india-to-uae-per-kg', 'PageController@pricingUae')->name('uaePerKg');
+Route::get('/international-courier-charges-india-to-canada-per-kg', 'PageController@pricingCanada')->name('canadaPerKg');
+Route::get('/international-courier-charges-india-to-australia-per-kg', 'PageController@pricingAustralia')->name('australiaPerKg');
+Route::get('/international-courier-charges-india-to-singapore-per-kg', 'PageController@pricingSingapore')->name('singaporePerKg');
+Route::get('/international-courier-charges-india-to-germany-per-kg', 'PageController@pricingGermany')->name('germanyPerKg');
+//Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
 /*-------- Video landing pages------*/
-
 Route::get('/package-consolidation-international-shipping', 'PageController@videoLpConsolidation')->name('videoLpConsolidation');
 Route::get('/best-affordable-international-courier-services-in-india', 'PageController@videoLpCourier')->name('videoLpCourier');
 Route::get('/personal-shopper-online-shopping-from-india-shipping', 'PageController@videoLpShopper')->name('videoLpShopper');
@@ -669,8 +657,8 @@ Route::post('/api-domestic', 'PageController@apiDomesticPricing')->name('apiPric
 
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');
-
 /*-------- landing pages------*/
+
 
 
 

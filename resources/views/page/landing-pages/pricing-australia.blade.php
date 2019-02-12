@@ -50,48 +50,48 @@
                 <div class="col-md-12 col-xs-12 no-pad">
                     <h1 class="p-color-white header-spacing d-header-text">International Courier
                         <br></h1>
-                    <h1 class="header1 p-color-white header-spacing">Starting @₹695/-</h1>
+                    <h1 class="header1 p-color-white header-spacing">To Australia, Starting @₹1943/-</h1>
                     <table class="table table-bordered txt-a-c">
                         <tr>
                             <td class="btn-b-y tbl-br">
                                 <h1>Pricing</h1>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1579</h1>
+                                <h1>₹1943</h1>
                                  <p><span>Per</span> 0.5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1819</h1>
+                                <h1>₹2063</h1>
                                 <p><span>Per</span> 1 Kg</p>
                             </td>
                             <td class=" div-b-w-s tbl-br">
-                                <h1>₹2301</h1>
+                                <h1>₹2350</h1>
                                 <p><span>Per</span> 2 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹2954</h1>
+                                <h1>₹3062</h1>
                                 <p><span>Per</span> 3 Kg</p>
                             </td>
                         </tr>
                         <tr>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3415</h1>
+                                <h1>₹3629</h1>
                                 <p><span>Per</span> 4 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3708</h1>
+                                <h1>₹3860</h1>
                                 <p><span>Per</span> 5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹6110</h1>
+                                <h1>₹3951</h1>
                                 <p><span>Per</span> 10 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹10847</h1>
+                                <h1>₹8381</h1>
                                 <p><span>Per</span> 20 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹29113</h1>
+                                <h1>₹21771</h1>
                                 <p><span>Per</span> 50 Kg</p>
                             </td>
                         </tr>
@@ -134,7 +134,7 @@
                             <button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r"> GET A FREE QUOTE
                             </button>
                         </div>
-                        <p class="f-s-8 f-c-d-greay f-w-7">Your contact information will not be shared with any third party. We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
+                        <p class="f-s-8 f-c-d-greay f-w-7">We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
                     </div>
 
                     <div class="formFrame  div-form-get-quote" id="diwali-couponcode2">
@@ -161,84 +161,82 @@
         <div class="container">
             <div class="col-md-12 col-xs-12 pad-t-20">
                 <center>
-                    <div class="col-md-4 col-xs-12 pad-20 ">
-                        <a href="">courier charges from India to UAE</a>
-                    </div>
-                    <div class="col-md-4 col-xs-12 pad-20">
-                        <a href="">courier charges from india to canada</a>
+                    <div class="col-md-4 col-xs-12  pad-20">
+                        <a href="/best-international-relocation-packers-movers">Relocation Service to Australia from India</a>
                     </div>
                     <div class="col-md-4 col-xs-12  pad-20">
-                        <a href="">courier from india to australia</a>
+                        <a href="/international-parcel-forwarding-india-online-shopping">Package Forwarding from India to Australia</a>
                     </div>
+                    <div class="col-md-4 col-xs-12 pad-20">
+                        <a href="https://www.shoppre.com/shop-from-india-ship-worldwide">Online Shopping in India from Australia</a>
+                    </div>
+
                 </center>
             </div>
 
             <div class="col-md-12 col-xs-12 ">
                 <center>
                     <div class="col-md-4 col-xs-12  pad-20">
-                        <a href="">courier from india to singapore</a>
+                        <a href="/sellers-shipping">Seller Shipping Rates to Australia</a>
                     </div>
-                    <div class="col-md-4 col-xs-12  pad-20">
-                        <a href="">courier charges from india to uk per kg</a>
+                    <div class="col-md-4 col-xs-12 pad-20 ">
+                        <a href="/international-courier-charges-india-to-usa-per-kg">Courier charges from India to USA</a>
                     </div>
                     <div class="col-md-4 col-xs-12 pad-20">
-                        <a href="">courier from india to germany</a>
+                        <a href="/international-courier-charges-india-to-canada-per-kg">Shipping from India to Canada Cost</a>
                     </div>
                 </center>
             </div>
         </div>
         <div class="container">
-            <center>
                 <br>
-                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">International Courier From India to the USA</span>,
-                    <br> Now Made Extremely Easy!</h1>
-            </center>
-
-            <p class="f-s-16 f-c-gray">Gone are the days when international shipping from India was full of hoops to jump through;
-                now you can go on shopping in your favorite Indian shops, and sit back & relax!
-                We'll take care of the rest!
+            <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">You’d be surprised if you see this courier rate per kg from India to Australia!</span></h1>
+                    <br>
+            <p class="f-s-22 f-c-d-gray">ShoppRe, not only is the fastest courier service from India to Australia but also is the most reliable
+                option for cheap international shipping to Australia.
             </p>
-            <p class="f-s-16 f-c-gray">To check out the courier charges from India to the USA per kg - <a href="">Click here.</a></p>
-            <br>
+            <h2 class="f-s-20 f-c-blue f-w-8">We Can Pickup From Anywhere In India And Delivery Anywhere In Australia.</h2>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">How do I courier jewellery from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray">We offer to courier jewellery from India to the USA only that it should not be made of
-                pricey metals such as Gold, Silver etc. or of costly stones.
-                All the other type of jewellery which are not considered as fancy or priceless including ethnique jewellery
-                can be shipped through ShoppRe. Now, shipping jewelry is made easy by ShoppRe!
-            </p> <br>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">Can you send medicines from India to the USA through courier?</h2>
-            <p class="f-s-16 f-c-gray">Of course you can. To courier packages with medicines from India to the USA, it would require
-                the original prescription and the invoice for Clearance as it falls under the category of Special Items for Export.
-                And, you would need to pay a Special Clearance Fee as well for the extra-care and handling such packages.
-                But rest assured that you’d get the best-quality services and a speedy delivery.
-            </p> <br>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">What is the most affordable way to send document couriers from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray">The best option for cheap document courier to the USA would be resorting to our Student Special
-                Offer where document couriers of academic nature get sent at the cheapest of shipping rates possible and in just 3-6 days.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">What is the best way to ship some goods from India to Australia?</h2>
+            <p class="f-s-16 f-c-gray">ShoppRe will take care of all your needs on shipping goods from India to Australia with an unmatched efficiency. <br>
+                ShoppRe Courier serves all your courier needs with a door-to-door service system and <a href="/shop-ship">Shop & Ship</a> will help with forwarding all your online purchases from India. <br>
                 <br>
-                Click here for the pricing for the same.
+                Both of these offer a delivery speed of just 3-6 business days at the cheapest rates possible.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8"> How many days would it take for a courier to reach the USA from India?</h2>
-            <p class="f-s-16 f-c-gray">For any shipment that’s shipped outside of India is guaranteed a delivery speed of 3-6 business days,
-                granted there are no technical difficulties, which are rare. </p> <br>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">Can I courier food items from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray"> Yes you can. We offer the best food-item courier service and you’d need to
-                specify if it’s Homemade or Processed when you place an order though.</p> <br>
-            <p class="f-s-16 f-c-gray">Check out this link - [ ] - to learn what all food items we ship.</p>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">Can you courier mangoes from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray">Well, mangoes come under Special Items as it is a food item. You’d need to pay the Special Clearance
-                Charges for clearing it through the customs and for handling it with extra care all through packing and shipping the same.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Can we courier medicines from India to Australia</h2>
+            <p class="f-s-16 f-c-gray">Yes you can. ShoppRe offers to send homeopathic medicines, Ayurvedic or otherwise. Since they come under Special Items category & requires special
+                treatment, the costs would also be slightly different. It doesn’t take much to <a href="medicine-international-courier-from-india">courier medicines from india to Australia</a> anymore!
             </p> <br>
-            <p class="f-s-16 f-c-gray">Click here to get a FREE estimate of your package.</p>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">How long will it take for a package to reach its destination?
-                Does it ever reach early?</h2>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">How can I courier documents to Melbourne?</h2>
+            <p class="f-s-16 f-c-gray">Like to the other 220+ destinations in the world, ShoppRe appears to be the best document courier from India to Melbourne as well.
+                <br>
+                ShoppRe specializes in document couriers & it would be your best option to consider as it takes extra attention and offers the fastest delivery.
+                <br>
+                And we have a <a href="/university-offer">Student Special Offer</a> running with shipping rates starting from just Rs.553/-, especially for documents of academic nature.
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">How long does it take to deliver to Australia from Hyderabad?</h2>
+            <p class="f-s-16 f-c-gray"><a href="/offers">ShoppRe offers</a> a fairly fast courier service to Australia from Hyderabad. Our finest courier partners will come to your door to pick
+                up the package and it will be on its way to the destination in just 48 hours maximum and it will reach in 3-6 business days.</p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">How do I send gifts to Australia from India, online?</h2>
+            <p class="f-s-16 f-c-gray">The cheapest and best way to send gifts from India to Australia would be via ShoppRe Courier.
+                We also offer the options to gift wrap your gift or add a note to it as it reaches our facility. All you have to do is, <a href="/indian-virtual-address">ship it to
+                the virtual address</a> we provide, which is to our warehouse. </p> <br>
+            <p class="f-s-16 f-c-gray">Check out our pricing & get a FREE estimate!</p>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8"> How do I send a Valentine’s day gift to Melbourne?</h2>
+            <p class="f-s-16 f-c-gray">To <a href="/send-valentines-day-gifts-international-shipping">send valentines day gifts to Melbourne</a>, Australia; all you have to do is buy it online from an Indian online store and ship it to us
+                or just schedule a pickup for it if you already have one. We’ll take care of the rest with a 48-hour dispatch and a fast delivery in 3-6 days.
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">How do I send a Rakhi to Australia from India?</h2>
+            <p class="f-s-16 f-c-gray">Since <a href="/amazon-india-shop-international-shipping">amazon.in</a> doesn’t offer international shipping as an option, to send a rakhi to australia from Amazon India;
+                You can make use of our Shop & Ship services. It is the finest forwarding service you can find from India to anywhere in
+                the world with an amazing set of perks if you sign up.
+            </p> <br>
 
         </div>
         <br>

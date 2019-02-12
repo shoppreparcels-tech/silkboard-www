@@ -48,50 +48,50 @@
             <div class="col-sm-7 col-xs-12 no-pad">
 
                 <div class="col-md-12 col-xs-12 no-pad">
-                    <h1 class="p-color-white header-spacing d-header-text">International Courier
+                    <h1 class="p-color-white header-spacing d-header-text">International Courier To UAE
                         <br></h1>
-                    <h1 class="header1 p-color-white header-spacing">Starting @₹695/-</h1>
+                    <h1 class="header1 p-color-white header-spacing">Starting @₹570/-</h1>
                     <table class="table table-bordered txt-a-c">
                         <tr>
                             <td class="btn-b-y tbl-br">
                                 <h1>Pricing</h1>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1579</h1>
+                                <h1>₹570</h1>
                                  <p><span>Per</span> 0.5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1819</h1>
+                                <h1>₹748</h1>
                                 <p><span>Per</span> 1 Kg</p>
                             </td>
                             <td class=" div-b-w-s tbl-br">
-                                <h1>₹2301</h1>
+                                <h1>₹1104</h1>
                                 <p><span>Per</span> 2 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹2954</h1>
+                                <h1>₹1459</h1>
                                 <p><span>Per</span> 3 Kg</p>
                             </td>
                         </tr>
                         <tr>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3415</h1>
+                                <h1>₹1815</h1>
                                 <p><span>Per</span> 4 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3708</h1>
+                                <h1>₹2170</h1>
                                 <p><span>Per</span> 5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹6110</h1>
+                                <h1>₹3810</h1>
                                 <p><span>Per</span> 10 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹10847</h1>
+                                <h1>₹6497</h1>
                                 <p><span>Per</span> 20 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹29113</h1>
+                                <h1>₹15966</h1>
                                 <p><span>Per</span> 50 Kg</p>
                             </td>
                         </tr>
@@ -162,13 +162,13 @@
             <div class="col-md-12 col-xs-12 pad-t-20">
                 <center>
                     <div class="col-md-4 col-xs-12 pad-20 ">
-                        <a href="">courier charges from India to UAE</a>
+                        <a href="/medicine-international-courier-from-india">Medicine Courier Rates from India to UAE</a>
                     </div>
                     <div class="col-md-4 col-xs-12 pad-20">
-                        <a href="">courier charges from india to canada</a>
+                        <a href="/best-international-relocation-packers-movers">Package Forwarding from India to UAE</a>
                     </div>
                     <div class="col-md-4 col-xs-12  pad-20">
-                        <a href="">courier from india to australia</a>
+                        <a href="/shop-from-india-ship-worldwide">Online Shopping from India to UAE</a>
                     </div>
                 </center>
             </div>
@@ -176,13 +176,13 @@
             <div class="col-md-12 col-xs-12 ">
                 <center>
                     <div class="col-md-4 col-xs-12  pad-20">
-                        <a href="">courier from india to singapore</a>
+                        <a href="/sellers-shipping">Seller Shipping Rates to UAE</a>
                     </div>
                     <div class="col-md-4 col-xs-12  pad-20">
-                        <a href="">courier charges from india to uk per kg</a>
+                        <a href="international-courier-charges-india-to-usa-per-kg">Courier Rates from India to USA per kg</a>
                     </div>
                     <div class="col-md-4 col-xs-12 pad-20">
-                        <a href="">courier from india to germany</a>
+                        <a href="/flipkart-shopping-with-shoppre-from-india">Flipkart Shopping from India to UAE</a>
                     </div>
                 </center>
             </div>
@@ -190,55 +190,41 @@
         <div class="container">
             <center>
                 <br>
-                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">International Courier From India to the USA</span>,
-                    <br> Now Made Extremely Easy!</h1>
+                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">Worried about the ridiculous courier charges from India to the UAE?</span></h1>
             </center>
-
-            <p class="f-s-16 f-c-gray">Gone are the days when international shipping from India was full of hoops to jump through;
-                now you can go on shopping in your favorite Indian shops, and sit back & relax!
-                We'll take care of the rest!
+            <br>
+            <p class="f-s-20 f-c-gray">Here we come with the most reliable courier of all that's also the fastest courier from India to the UAE. ShoppRe Courier offers
+                a fancy range of courier services at affordable rates.
             </p>
-            <p class="f-s-16 f-c-gray">To check out the courier charges from India to the USA per kg - <a href="">Click here.</a></p>
+            <br>
+            <p class="f-s-20 f-c-gray">Not only for mere couriers, but for international parcel forwarding from India to the UAE as well; ShoppRe has a wide variety of services.</p>
             <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">How do I courier jewellery from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray">We offer to courier jewellery from India to the USA only that it should not be made of
-                pricey metals such as Gold, Silver etc. or of costly stones.
-                All the other type of jewellery which are not considered as fancy or priceless including ethnique jewellery
-                can be shipped through ShoppRe. Now, shipping jewelry is made easy by ShoppRe!
+            <h2 class="f-s-18 f-c-d-gray f-w-8">How much is the cost per kilogram to send a courier from India to Dubai?</h2>
+            <p class="f-s-16 f-c-gray">ShoppRe offers the <a href="{{route('pricing')}}">cheapest shipping rates</a> possible (starting from Rs.640/-) and the cost per Kg.
+                depends on the actual weight and the volumetric weight of the package and whichever higher.
+            </p>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Can we courier medicines from India to Dubai?</h2>
+            <p class="f-s-16 f-c-gray">Of course you can. But it will fall under the category of Special Items for export for which you’re
+                bound to pay some fees extra. Rest assured that you’ll have the best care possible for your package until it reaches its destination.
             </p> <br>
+            <p class="f-s-16 f-c-gray">Learn more about <a href="/faq">special items here</a>. </p>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">Can you send medicines from India to the USA through courier?</h2>
-            <p class="f-s-16 f-c-gray">Of course you can. To courier packages with medicines from India to the USA, it would require
-                the original prescription and the invoice for Clearance as it falls under the category of Special Items for Export.
-                And, you would need to pay a Special Clearance Fee as well for the extra-care and handling such packages.
-                But rest assured that you’d get the best-quality services and a speedy delivery.
-            </p> <br>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">What is the most affordable way to send document couriers from India to the UAE?</h2>
+            <p class="f-s-16 f-c-gray">The best option for cheap document courier to the UAE would be resorting to our Student Special Offer
+                where document couriers of academic nature get sent at the cheapest of shipping rates possible and in just 3-6 days.
+            </p>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">What is the most affordable way to send document couriers from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray">The best option for cheap document courier to the USA would be resorting to our Student Special
-                Offer where document couriers of academic nature get sent at the cheapest of shipping rates possible and in just 3-6 days.
-                <br>
-                Click here for the pricing for the same.
-            </p> <br>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Can we courier mobile phones or smartphones from India to Dubai?</h2>
+            <p class="f-s-16 f-c-gray">Yes, you can. Phones of any nature comes under Electronics and will have to
+                pay a nominal fee for handling them with extra attention.</p><br>
+            <p class="f-s-16 f-c-gray">Vivo, Asus ZenFone, Realme 2 are the some popular Mobile phones/Smart Phones shipped from India these days.</p>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8"> How many days would it take for a courier to reach the USA from India?</h2>
-            <p class="f-s-16 f-c-gray">For any shipment that’s shipped outside of India is guaranteed a delivery speed of 3-6 business days,
-                granted there are no technical difficulties, which are rare. </p> <br>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Can I send sweets and gifts to Dubai from here?</h2>
+            <p class="f-s-16 f-c-gray"> ShoppRe runs several seasonal offers including over traditional holidays and most of them begin
+                and end with sweets! To get our customers the chance of sending greetings and care packages to their loved ones abroad
+                or for NRIs who crave Indian taste, we put up the best Courier services. </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">Can I courier food items from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray"> Yes you can. We offer the best food-item courier service and you’d need to
-                specify if it’s Homemade or Processed when you place an order though.</p> <br>
-            <p class="f-s-16 f-c-gray">Check out this link - [ ] - to learn what all food items we ship.</p>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">Can you courier mangoes from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray">Well, mangoes come under Special Items as it is a food item. You’d need to pay the Special Clearance
-                Charges for clearing it through the customs and for handling it with extra care all through packing and shipping the same.
-            </p> <br>
-            <p class="f-s-16 f-c-gray">Click here to get a FREE estimate of your package.</p>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">How long will it take for a package to reach its destination?
-                Does it ever reach early?</h2>
 
         </div>
         <br>

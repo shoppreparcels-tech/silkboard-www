@@ -47,9 +47,9 @@
             </div>
             <div class="col-sm-7 col-xs-12 no-pad">
                 <div class="col-md-12 col-xs-12 no-pad">
-                    <h1 class="p-color-white header-spacing d-header-text">International Courier
+                    <h1 class="p-color-white header-spacing d-header-text">International Courier To USA
                         <br></h1>
-                    <h1 class="header1 p-color-white header-spacing">Starting @₹695/-</h1>
+                    <h1 class="header1 p-color-white header-spacing">Starting @₹1579/-</h1>
                     <table class="table table-bordered txt-a-c">
                         <tr>
                             <td class="btn-b-y tbl-br">
@@ -164,13 +164,13 @@
            <div class="col-md-12 col-xs-12 pad-t-20">
                <center>
                    <div class="col-md-4 col-xs-12 pad-20 ">
-                       <a href="">courier charges from India to UAE</a>
+                       <a href="/shop-from-india-ship-worldwide">Online Shopping from India to USA</a>
                    </div>
                    <div class="col-md-4 col-xs-12 pad-20">
-                       <a href="">courier charges from india to canada</a>
+                       <a href="/international-parcel-forwarding-india-online-shopping">Parcel Forwarding from India to USA</a>
                    </div>
                    <div class="col-md-4 col-xs-12  pad-20">
-                       <a href="">courier from india to australia</a>
+                       <a href="/best-international-relocation-packers-movers">Moving From India To USA</a>
                    </div>
                </center>
            </div>
@@ -178,13 +178,13 @@
             <div class="col-md-12 col-xs-12 ">
                 <center>
                     <div class="col-md-4 col-xs-12  pad-20">
-                        <a href="">courier from india to singapore</a>
-                    </div>
-                    <div class="col-md-4 col-xs-12  pad-20">
-                        <a href="">courier charges from india to uk per kg</a>
+                        <a href="/personal-shopper-shopping-concierge-from-india">Personal Shopping Concierge Services </a>
                     </div>
                     <div class="col-md-4 col-xs-12 pad-20">
-                        <a href="">courier from india to germany</a>
+                        <a href="/sellers-shipping">Seller Shipping rates from India to USA</a>
+                    </div>
+                    <div class="col-md-4 col-xs-12  pad-20">
+                        <a href="/international-courier-charges-india-to-canada-per-kg">Courier charges from India to Canada</a>
                     </div>
                 </center>
             </div>
@@ -195,12 +195,11 @@
                 <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">International Courier From India to the USA</span>,
                     <br> Now Made Extremely Easy!</h1>
             </center>
-
-            <p class="f-s-16 f-c-gray">Gone are the days when international shipping from India was full of hoops to jump through;
+            <br>
+            <p class="f-s-22 f-c-d-gray">Gone are the days when international shipping from India was full of hoops to jump through;
                 now you can go on shopping in your favorite Indian shops, and sit back & relax!
                 We'll take care of the rest!
             </p>
-            <p class="f-s-16 f-c-gray">To check out the courier charges from India to the USA per kg - <a href="">Click here.</a></p>
             <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">How do I courier jewellery from India to the USA?</h2>
@@ -211,17 +210,15 @@
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">Can you send medicines from India to the USA through courier?</h2>
-            <p class="f-s-16 f-c-gray">Of course you can. To courier packages with medicines from India to the USA, it would require
+            <p class="f-s-16 f-c-gray">Of course you can. To courier packages with <a href="/medicine-international-courier-from-india">medicines from India to the USA</a>, it would require
                 the original prescription and the invoice for Clearance as it falls under the category of Special Items for Export.
                 And, you would need to pay a Special Clearance Fee as well for the extra-care and handling such packages.
                 But rest assured that you’d get the best-quality services and a speedy delivery.
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">What is the most affordable way to send document couriers from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray">The best option for cheap document courier to the USA would be resorting to our Student Special
+            <p class="f-s-16 f-c-gray">The best option for <a href="university-offer">cheap document courier to the USA</a> would be resorting to our Student Special
                 Offer where document couriers of academic nature get sent at the cheapest of shipping rates possible and in just 3-6 days.
-                <br>
-                Click here for the pricing for the same.
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8"> How many days would it take for a courier to reach the USA from India?</h2>
@@ -231,16 +228,12 @@
             <h2 class="f-s-18 f-c-d-gray f-w-8">Can I courier food items from India to the USA?</h2>
             <p class="f-s-16 f-c-gray"> Yes you can. We offer the best food-item courier service and you’d need to
                 specify if it’s Homemade or Processed when you place an order though.</p> <br>
-            <p class="f-s-16 f-c-gray">Check out this link - [ ] - to learn what all food items we ship.</p>
+            <p class="f-s-16 f-c-gray"><a href="/faq">Check out Shipping FAQ</a> to learn what all food items we ship.</p>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">Can you courier mangoes from India to the USA?</h2>
             <p class="f-s-16 f-c-gray">Well, mangoes come under Special Items as it is a food item. You’d need to pay the Special Clearance
                 Charges for clearing it through the customs and for handling it with extra care all through packing and shipping the same.
             </p> <br>
-            <p class="f-s-16 f-c-gray">Click here to get a FREE estimate of your package.</p>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">How long will it take for a package to reach its destination?
-                Does it ever reach early?</h2>
 
         </div>
         <br>

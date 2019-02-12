@@ -50,48 +50,48 @@
                 <div class="col-md-12 col-xs-12 no-pad">
                     <h1 class="p-color-white header-spacing d-header-text">International Courier
                         <br></h1>
-                    <h1 class="header1 p-color-white header-spacing">Starting @₹695/-</h1>
+                    <h1 class="header1 p-color-white header-spacing">To Canada, Starting @₹1697/-</h1>
                     <table class="table table-bordered txt-a-c">
                         <tr>
                             <td class="btn-b-y tbl-br">
                                 <h1>Pricing</h1>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1579</h1>
+                                <h1>₹1697</h1>
                                  <p><span>Per</span> 0.5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1819</h1>
+                                <h1>₹1957</h1>
                                 <p><span>Per</span> 1 Kg</p>
                             </td>
                             <td class=" div-b-w-s tbl-br">
-                                <h1>₹2301</h1>
+                                <h1>₹2474</h1>
                                 <p><span>Per</span> 2 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹2954</h1>
+                                <h1>₹3012</h1>
                                 <p><span>Per</span> 3 Kg</p>
                             </td>
                         </tr>
                         <tr>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3415</h1>
+                                <h1>₹3481</h1>
                                 <p><span>Per</span> 4 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3708</h1>
+                                <h1>₹3781</h1>
                                 <p><span>Per</span> 5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹6110</h1>
+                                <h1>₹5799</h1>
                                 <p><span>Per</span> 10 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹10847</h1>
+                                <h1>₹11166</h1>
                                 <p><span>Per</span> 20 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹29113</h1>
+                                <h1>₹30036</h1>
                                 <p><span>Per</span> 50 Kg</p>
                             </td>
                         </tr>
@@ -134,7 +134,7 @@
                             <button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r"> GET A FREE QUOTE
                             </button>
                         </div>
-                        <p class="f-s-8 f-c-d-greay f-w-7">Your contact information will not be shared with any third party. We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
+                        <p class="f-s-8 f-c-d-greay f-w-7">We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
                     </div>
 
                     <div class="formFrame  div-form-get-quote" id="diwali-couponcode2">
@@ -162,13 +162,13 @@
             <div class="col-md-12 col-xs-12 pad-t-20">
                 <center>
                     <div class="col-md-4 col-xs-12 pad-20 ">
-                        <a href="">courier charges from India to UAE</a>
+                        <a href="/medicine-international-courier-from-india">Medicine Courier charges to Canada</a>
                     </div>
                     <div class="col-md-4 col-xs-12 pad-20">
-                        <a href="">courier charges from india to canada</a>
+                        <a href="/best-international-relocation-packers-movers">Package Forwarding from India to Canada</a>
                     </div>
                     <div class="col-md-4 col-xs-12  pad-20">
-                        <a href="">courier from india to australia</a>
+                        <a href="/shop-from-india-ship-worldwide">Online Shopping from India to Canada</a>
                     </div>
                 </center>
             </div>
@@ -176,13 +176,13 @@
             <div class="col-md-12 col-xs-12 ">
                 <center>
                     <div class="col-md-4 col-xs-12  pad-20">
-                        <a href="">courier from india to singapore</a>
+                        <a href="best-international-relocation-packers-movers">Relocating from India to Canada</a>
                     </div>
                     <div class="col-md-4 col-xs-12  pad-20">
-                        <a href="">courier charges from india to uk per kg</a>
+                        <a href="/international-courier-charges-india-to-usa-per-kg">Courier Rates from India to USA per kg</a>
                     </div>
                     <div class="col-md-4 col-xs-12 pad-20">
-                        <a href="">courier from india to germany</a>
+                        <a href="/international-courier-charges-india-to-germany-per-kg">Courier charges from India to Germany</a>
                     </div>
                 </center>
             </div>
@@ -190,55 +190,44 @@
         <div class="container">
             <center>
                 <br>
-                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">International Courier From India to the USA</span>,
-                    <br> Now Made Extremely Easy!</h1>
+                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">Cost-Effective International Courier from India to Canada</span>,
+                    <br> Now Shipping Made Extremely Easy!</h1>
             </center>
-
-            <p class="f-s-16 f-c-gray">Gone are the days when international shipping from India was full of hoops to jump through;
-                now you can go on shopping in your favorite Indian shops, and sit back & relax!
-                We'll take care of the rest!
-            </p>
-            <p class="f-s-16 f-c-gray">To check out the courier charges from India to the USA per kg - <a href="">Click here.</a></p>
+            <br>
+            <p class="f-s-20 f-c-gray">If you have a look at ShoppRe Courier charges from India to Canada, you'd know how affordable and easy-on-the-pockets
+                is ShoppRe Courier; especially when it comes to Canada.
+            </p><br>
+            <p class="f-s-20 f-c-gray">International shipping to Canada, whether it is for couriers or forwards from online stores;
+                is made extremely hassle-free by our fine set of services. </p>
             <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">How do I courier jewellery from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray">We offer to courier jewellery from India to the USA only that it should not be made of
-                pricey metals such as Gold, Silver etc. or of costly stones.
-                All the other type of jewellery which are not considered as fancy or priceless including ethnique jewellery
-                can be shipped through ShoppRe. Now, shipping jewelry is made easy by ShoppRe!
+            <h2 class="f-s-18 f-c-d-gray f-w-8">How do I send gifts to canada after buying it online from India?</h2>
+            <p class="f-s-16 f-c-gray">The best way to send a birthday gift, personalised gift or chocolates to canada would be to
+                use <a href="/international-courier-shipping-services-india">ShoppRe Courier</a>. We also offer the options to gift wrap your gift or add a note to it as it reaches our facility.
+                All you have to do is, <a href="/indian-virtual-address">ship it to the virtual address</a> we provide, which is to our warehouse.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">Can you send medicines from India to the USA through courier?</h2>
-            <p class="f-s-16 f-c-gray">Of course you can. To courier packages with medicines from India to the USA, it would require
-                the original prescription and the invoice for Clearance as it falls under the category of Special Items for Export.
-                And, you would need to pay a Special Clearance Fee as well for the extra-care and handling such packages.
-                But rest assured that you’d get the best-quality services and a speedy delivery.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">What is the best courier service & how much would it cost to send documents to WES Canada from India?</h2>
+            <p class="f-s-16 f-c-gray">ShoppRe specializes in document couriers & it would be your best option to <a href="/university-offer">courier documents from India to WES Canada</a> as it
+                takes extra attention and offers the fastest delivery. And we have a Student Special Offer running with shipping rates starting from just Rs.553/-,
+                especially for documents of academic nature.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">What is the most affordable way to send document couriers from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray">The best option for cheap document courier to the USA would be resorting to our Student Special
-                Offer where document couriers of academic nature get sent at the cheapest of shipping rates possible and in just 3-6 days.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">What is the minimum shipping charge for sending a Rakhi from India to Canada?</h2>
+            <p class="f-s-16 f-c-gray">ShoppRe offers the fastest rakhi courier service via ShoppRe Courier. We guarantee a delivery speed of just 3-6 business days.
                 <br>
-                Click here for the pricing for the same.
+                Check out our <a href="/offers">Rakhi Special Offers</a> & our pricing to get a FREE Estimate.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8"> How many days would it take for a courier to reach the USA from India?</h2>
-            <p class="f-s-16 f-c-gray">For any shipment that’s shipped outside of India is guaranteed a delivery speed of 3-6 business days,
-                granted there are no technical difficulties, which are rare. </p> <br>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">What is the best way to ship extra luggage from India to Canada?</h2>
+            <p class="f-s-16 f-c-gray">ShoppRe offers the <a href="{{route('pricing')}}">lowest international shipping charges</a>, and it would the best way for you to
+                consider while shipping your extra luggage to wherever in the world including Canada. We offer a guaranteed speed of
+                3-6 business days for your packages to reach you and to handle each shipment with individual attention &
+                efficiency that you can find nowhere else.</p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">Can I courier food items from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray"> Yes you can. We offer the best food-item courier service and you’d need to
-                specify if it’s Homemade or Processed when you place an order though.</p> <br>
-            <p class="f-s-16 f-c-gray">Check out this link - [ ] - to learn what all food items we ship.</p>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">Can you courier mangoes from India to the USA?</h2>
-            <p class="f-s-16 f-c-gray">Well, mangoes come under Special Items as it is a food item. You’d need to pay the Special Clearance
-                Charges for clearing it through the customs and for handling it with extra care all through packing and shipping the same.
-            </p> <br>
-            <p class="f-s-16 f-c-gray">Click here to get a FREE estimate of your package.</p>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">How long will it take for a package to reach its destination?
-                Does it ever reach early?</h2>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Can we send medicines to Canada via courier?</h2>
+            <p class="f-s-16 f-c-gray"> Yes you can. ShoppRe offers to send homeopathic medicines, Ayurvedic or otherwise.
+                Since they come under Special Items category & requires special treatment, the costs would also be slightly different.</p> <br>
 
         </div>
         <br>

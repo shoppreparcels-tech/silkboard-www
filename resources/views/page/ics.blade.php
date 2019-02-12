@@ -343,7 +343,7 @@
 
             <h2 class="f-s-18 f-c-d-gray font-weight-900">How to send a courier from India to Abu Dhabi?</h2>
             <p class="f-s-16 f-c-gray">ShoppRe Courier specializes in sending couriers from ANYWHERE in India to all around the world,
-                including to Abu Dhabi. You can Schedule a Pickup on our website & we offer
+                including to Abu Dhabi. You can <a href="/schedule-pickup">Schedule a Pickup</a> on our website & we offer
                 door-to-door courier services that spans out in just 3-6 days.</p> <br>
 
             <h2 class="f-s-18 f-c-d-gray font-weight-900">What do you charge for a courier from India to USA per kg.?</h2>
@@ -359,7 +359,7 @@
 
             <h2 class="f-s-18 f-c-d-gray font-weight-900">Could I send a Rakhi to my brother in Canada using Amazon?</h2>
             <p class="f-s-16 f-c-gray">Unfortunately amazon.in doesn’t offer to ship internationally. So,
-                what you can do is shop from Amazon & sign up with us for FREE and use our Shop & Ship/Personal Shopper
+                what you can do is <a href="/amazon-india-shop-international-shipping">shop from Amazon</a> & sign up with us for FREE and use our Shop & Ship/Personal Shopper
                 service to forward the Rakhi to Canada. Check out our international shipping
                 calculator now for a FREE estimate.</p> <br>
 
