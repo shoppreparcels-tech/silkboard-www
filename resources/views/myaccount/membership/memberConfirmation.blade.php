@@ -16,7 +16,7 @@
         <div class="container" >
             </br>
             <div class="row text-center">
-                <img src="{{asset('img/member/process3.png')}}" height="55px" alt="Member Process"></a>
+                <img src="{{asset('img/member/process3.png')}}" height="60px" alt="Member Process"></a>
             </div>
 
             </br></br></br>
@@ -29,7 +29,7 @@
                         <li class="active">Membership Charges <a href="javascript:void(0)" class="tooltipkey"><i class="fa fa-question-circle-o"></i></a> <span class="pull-right"> {{number_format($memberFeeAmount, 2, ".", "")}}</span></li>
                         <li class="active">Payment Gateway Charges <a href="javascript:void(0)" class="tooltipkey"><i class="fa fa-question-circle-o"></i></a> <span class="pull-right"> {{number_format($pgFee, 2, ".", "")}}</span></li>
 
-                        <li class="active"><h4>Total Package Level Charges <span class="pull-right"><i class="fa fa-rupee"></i> {{number_format($totalAmount, 2, ".", "")}}</span></h4></li>
+                        <li class="active"><h4>Total Charges <span class="pull-right"><i class="fa fa-rupee"></i> {{number_format($totalAmount, 2, ".", "")}}</span></h4></li>
 
                     </ul>
                 </div>

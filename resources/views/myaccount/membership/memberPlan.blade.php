@@ -42,7 +42,7 @@
     </br>
     <div class="container" >
         <div class="row text-center">
-            <img class="img-responsive" src="{{asset('img/member/progress1.png')}}"  style='height:55px;display:inline !important' alt="Member Plan"></a>
+            <img class="img-responsive" src="{{asset('img/member/progress1.png')}}"  style='height:60px;display:inline !important' alt="Member Plan"></a>
         </div>
         <div class="col-md-12 col-xs-12"><br>
             <div class="col-md-12 col-xs-12 div-b-w-s no-pad">
