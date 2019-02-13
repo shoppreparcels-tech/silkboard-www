@@ -388,6 +388,7 @@ Route::get('/personal-shopper/response', 'Myaccount\Customer\ShopperController@s
 Route::get('/personal-shopper/invoice/{reference_number}', 'Myaccount\Customer\ShopperController@orderInvoice')->name('personal.shopper.invoice');
 Route::get('/personal-shopper/cancel/{reference_number}', 'Myaccount\Customer\ShopperController@cancelShopper')->name('personal.shopper.cancel');
 Route::get('/personal-shopper/order/redirect/payment/{reference_number}', 'Myaccount\Customer\ShopperController@orderPayChange')->name('personal.shopper.paychange');
+Route::get('/shopper/migrate', 'Myaccount\Customer\ShopperController@MigrateToParcel')->name('shopper.migrate');
 
 /*--------- Personal Self Shopper -------------*/
 Route::post('/personal-shopper/self/order/submit', 'Myaccount\Customer\ShopperController@selfOrderSubmit')->name('shopper.self.submit');

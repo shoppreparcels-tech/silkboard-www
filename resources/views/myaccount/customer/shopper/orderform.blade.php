@@ -39,15 +39,31 @@
                     > and we shall notify you!
                   </p>
                 </div>
+                @if ($customer->is_migrated == 2)
 
-                <div class="ps_click_box shoppre">
-                  <h3>Do you want Shoppre to place the orders for you?</h3>
-                  <p>
-                    > Fill up the order form,<br>
-                    > All your items will go into the Shopping Cart,<br>
-                    > Submit the payment to us,<br>
-                    > and we shall process the purchase and notify you!</p>
-                </div>
+                    {{--<div class="ps_click_box shoppre">--}}
+                    <div style="text-align: left;color:white;display: inline-block; width: 40%;border: 1px solid #ccc; vertical-align: top; min-height: 235px; padding: 25px; margin: 15px;background: #fe9611; border-radius: 10px;cursor: pointer;">
+                      <a href="{{route('shopper.migrate')}}">
+                      <h3 style="text-align: left;color:white;">Do you want Shoppre to place the orders for you?</h3>
+                      <p style="text-align: left;color:white;">
+                        > Fill up the order form,<br>
+                        > All your items will go into the Shopping Cart,<br>
+                        > Submit the payment to us,<br>
+                        > and we shall process the purchase and notify you!</p>
+                      </a>
+                    </div>
+                @endif
+                @if ($customer->is_migrated != 2)
+                  <div class="ps_click_box shoppre">
+                    <h3>Do you want Shoppre to place the orders for you?</h3>
+                    <p>
+                      > Fill up the order form,<br>
+                      > All your items will go into the Shopping Cart,<br>
+                      > Submit the payment to us,<br>
+                      > and we shall process the purchase and notify you!</p>
+                  </div>
+                @endif
+
               </div>
 
               <form class="form-horizontal self_form" id="self_form" method="post" action="{{route('shopper.self.submit')}}" enctype="multipart/form-data" autocomplete="off" style="display: none;">

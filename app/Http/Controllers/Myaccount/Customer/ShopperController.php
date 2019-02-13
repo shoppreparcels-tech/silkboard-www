@@ -20,6 +20,7 @@ use App\Mail\Myaccount\ShopperOrderReceived;
 use App\Mail\Myaccount\ShopperOrderCancelled;
 use App\Mail\Myaccount\SelfShopperOrderReceived;
 use App\Mail\Myaccount\SelfShopperOrderCancelled;
+use App\Authorization\Authorization;
 
 class ShopperController extends Controller
 {
@@ -49,12 +50,25 @@ class ShopperController extends Controller
         }
     }
 
-    public function orderForm()
-    {
-    	$cartCount = ShopperRequest::where('customer_id', Auth::id())->where('status', 'pending')->count();
-    	$cart = ShopperOrder::where('customer_id', Auth::id())->where('status', 'pending')->first();
+    public function MigrateToParcel(Request $request) {
+        $customer_id = Auth::id();
+        $customer = Customer::find($customer_id);
+        $url = env('MIGRATION_PREFIX') .env('MIGRATION_PREFIX_MEMBER').'.'.env('DOMAIN')."/personalShopper/create";
+        $authorized_url = Authorization::authorizeUser($customer->email, $url);
+
+        return redirect($authorized_url. '&state=/personalShopperCreate');
+    }
+
+    public function orderForm(Request $request) {
+        $customer_id = Auth::id();
+        $customer = Customer::find($customer_id);
+        $cartCount = ShopperRequest::where('customer_id', Auth::id())->where('status', 'pending')->count();
+        $cart = ShopperOrder::where('customer_id', Auth::id())->where('status', 'pending')->first();
         $countries = Country::orderBy('name', 'asc')->get();
-        return view('myaccount.customer.shopper.orderform')->with(['cartCount' => $cartCount, 'cart' => $cart, 'countries' => $countries]);
+        $url = env('MIGRATION_PREFIX') .env('MIGRATION_PREFIX_MEMBER').'.'.env('DOMAIN')."/personalShopper/create";
+
+        return view('myaccount.customer.shopper.orderform')
+            ->with(['cartCount' => $cartCount, 'cart' => $cart, 'countries' => $countries, 'parcelURL' => $url, 'customer' => $customer]);
     }
 
     public function submitForm(Request $request)
