@@ -80,7 +80,7 @@
                 <div class="col-md-12 col-xs-12 div-btn-padding">
                     <a href="https://www.shoppre.com/personal-shopper">
                         <div class="btn header6 btn-ifs-l-assisted">
-                            Ask For Assistance
+                            Shop For Me
                         </div>
                     </a>
 
@@ -253,7 +253,7 @@
             </div>
             <br/><br/>
             <center>
-                <a href="">Place Your Order Now!</a>
+                <a href="">Pay For Me !</a>
             </center>
             <br/><br/>
         </div>
@@ -342,7 +342,7 @@
             </div>
             <br/><br/>
             <center>
-                <a href="">Place Your Order Now!</a>
+                <a href="">Shop For Me !</a>
             </center>
             <br/><br/>
         </div>
@@ -361,11 +361,11 @@
                     to know how much you can save monthly on regular shipping</p>
                 <div class="col-md-12">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdL11DQD_pOS2tBNXWaI0d8ryZ4DD0foA-Z7ZR0f0hUG3qpSg/viewform"
+                        <a href="/sellers-shipping"
                            class="btn btn-request-cal-back">Request Callback</a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="" class="btn btn-courier-know">Know More</a>
+                        <a href="/" class="btn btn-courier-know">Know More</a>
                     </div>
                 </div>
             </div>

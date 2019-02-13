@@ -1,10 +1,12 @@
 @extends('layout')
 
-@section('title', 'International Courier Charges Per Kg from India | Australia')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'International Courier Rates Per Kg from India | Australia | ShoppRe.com')
+@section('description', 'ShoppRe the fastest courier service from India to Australia. Get the cheap international courier charges per kg to Australia. Delivery in 3-6 business days.')
+@section('keywords', 'international courier charges, per kg rates, shipping from india, cheapest rates, ship some goods')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg" />
+
     <style>
         .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}

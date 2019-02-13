@@ -1,10 +1,12 @@
 @extends('layout')
 
-@section('title', 'International Courier Charges Per Kg from India | Canada')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'International Courier Charges Per Kg from India | Canada | ShoppRe.com')
+@section('description', 'Affordable Per Kg Courier charges from India to Canada. We deliver your packages in 3-6 business days. Call Us at +91-8277919191 for Pick up. Sign Up for Free.')
+@section('keywords', 'canada courier, package shipping, shipping rates, send documents to WES Canada, ship extra luggage')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-canada-per-kg" />
+
     <style>
         .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}

@@ -1,10 +1,12 @@
 @extends('layout')
 
-@section('title', 'International Courier Charges Per Kg from India | USA')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'International Courier Charges Per Kg from India to USA | ShoppRe.com')
+@section('description', 'Cheap Courier charges Per Kg from India to USA. Door-to-door Pickup anywhere in India, Packing, Documentation & Customs Clearance. 3-6 business days delivery.')
+@section('keywords', 'courier charges to usa, international shipping from india')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg" />
+
     <style>
         .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}

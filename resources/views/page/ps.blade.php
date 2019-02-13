@@ -35,7 +35,7 @@
         .ps-s-b3{background-color: rgba(80, 125, 188, 0.15);}
         .ps-s-b4{box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);border-radius: 3px;background-color: rgba(80, 125, 188, 0.07);}
         .img-center{display: block;margin-left: auto;margin-right: auto;margin-top:20px }
-
+        .seo-sec  ul li{font-size: 16px;color: #677582;font-weight: 600 ;list-style:none}
         @media only screen and (max-width: 600px) {
             .xs-li-m{margin-left: 25px;}
             .h4 {font-size: 12px;}
@@ -69,7 +69,7 @@
                <h1 class="f-s-36 f-c-d-gray">How Does it Work?</h1>
            </div>
            <div class="col-md-6 div-align-items-r" style="padding-top: 20px">
-               <a href="{{route('customer.register')}}" class="btn-l btn-b-r btn-s-r f-s-9 btn-a-m">Place an Order</a>
+               <a href="/personal-shopper" class="btn-l btn-b-r btn-s-r f-s-9 btn-a-m">Place an Order</a>
                {{--<button class="btn-l btn-b-r btn-s-r pull-right f-s-9">Place an Order</button>--}}
            </div>
            <div class="clearfix"></div>
@@ -138,7 +138,7 @@
                        </div>
                    </div><br/><br/>
                    <center>
-                       <a  href="{{route('customer.register')}}" class="btn btn-s-r btn-b-r btn-xl btn-a-l" type="submit">Place Your Order Now!</a>
+                       <a  href="/personal-shopper" class="btn btn-s-r btn-b-r btn-xl btn-a-l" type="submit">Pay For Me!</a>
                    </center><br/>
                </div>
                <div class="col-md-6 col-xs-12">
@@ -194,13 +194,129 @@
                        </div>
                    </div><br/><br/>
                    <center>
-                       <a  href="{{route('customer.register')}}" class="btn btn-s-b btn-b-b btn-xl btn-a-l" type="submit">Place Your Order Now!</a>
+                       <a  href="/personal-shopper" class="btn btn-s-b btn-b-b btn-xl btn-a-l" type="submit">Shop For Me!</a>
                    </center><br/>
                </div>
            </div>
        </div>
 
    </section>
+    <section class="seo-sec">
+        <div class="container">
+            <div class="col-md-12 col-xs-12 pad-t-20">
+                <center>
+                    <div class="col-md-4 col-xs-12  pad-20">
+                        <a href="/myntra-online-shopping-shipping-from-india">Myntra International Shipping</a>
+                    </div>
+                    <div class="col-md-4 col-xs-12  pad-20">
+                        <a href="/amazon-india-shop-international-shipping">Amazon India International Shipping</a>
+                    </div>
+                    <div class="col-md-4 col-xs-12 pad-20">
+                        <a href="/flipkart-shopping-with-shoppre-from-india">Flipkart International Shipping</a>
+                    </div>
+
+                </center>
+            </div>
+
+            <div class="col-md-12 col-xs-12 ">
+                <center>
+                    <div class="col-md-4 col-xs-12  pad-20">
+                        <a href="/jaypore-international-shipping-from-india">Jaypore International Shipping</a>
+                    </div>
+                    <div class="col-md-4 col-xs-12 pad-20 ">
+                        <a href="/international-parcel-forwarding-india-online-shopping">Package Forwarding From India</a>
+                    </div>
+                    <div class="col-md-4 col-xs-12 pad-20">
+                        <a href="{{route('stores1')}}">Online Shopping Sites in India</a>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="container">
+            <br>
+            <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">How Personal Shopper Service Works?</span></h1>
+            <p class="f-s-22 f-c-d-gray">Flexible Shopping Experience with ShoppRe Personal Assistance</p>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Why Personal Assistant Service?</h2>
+            <p class="f-s-16 f-c-gray">
+            <ul>
+                <li>- Indian retailers or Indian Online sites do not accept international card,</li><br>
+                <li>- Indian retailers only accept a Indian billing address,</li> <br>
+                <li>- Indian retailers do not ship to your country,</li> <br>
+                <li>- Indian retailers not accept your country IP address,</li> <br>
+                <li>- India Online stores won’t allow you to register unless you have an active Indian Mobile Number, to which your One Time Password (OTP) will be sent.</li>
+            </ul>
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">What is Personal Assistant Service Fee?</h2>
+            <p class="f-s-16 f-c-gray">
+            <ul>
+                <li>- 7% of total purchase,</li><br>
+                <li>- Personal Shopper orders with more than 15 items per online seller will incur an ₹50 per item cost for every item over 15,</li> <br>
+                <li>- Simple – Easy – Economic Solutions.</li> <br>
+            </ul>
+            </p>
+
+            <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">Shop without credit card with our Personal Shopper Service</span></h1>
+            <div class="col-md-12 col-xs-12">
+                <div class="div-b-w-s b-r pad-15 col-md-12 col-xs-12">
+                    <p class="f-s-20 f-c-d-greay f-w-7">No more barriers to shopping in India - Because We Make Your Shopping Experience Rich & Easy!</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-xs-12"> <br></div>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Tell us what to buy for you</h2>
+            <p class="f-s-16 f-c-gray"><a href="{{route('customer.register')}}">Sign Up</a> and via the Personal Shopper tab on your dashboard, send us the link or information of the items that
+                you want to buy. We’ll send you an email confirming the order prior to purchase.
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Pay for your order</h2>
+            <p class="f-s-16 f-c-gray">Upon receiving the invoice, you’ll send us payment for your order via any of these methods:
+                Paypal, Debit/Credit Cards, Paytm Wallet, Wire Transfer or Net Banking.</p>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Ship and receive your items!</h2>
+            <p class="f-s-16 f-c-gray">Upon payment, we will buy your items. You’ll get tracking notifications and see photos of your packages when they arrive at our ShoppRe Warehouse.
+                You can decide to get the packages opened, items packed together and shipped to your home, at up to 80% off retail shipping costs.</p> <br>
+
+            <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">Personal Shopper Service India</span></h1>
+            <div class="col-md-12 col-xs-12">
+                <div class="div-b-w-s b-r pad-15 col-md-12 col-xs-12">
+                    <p class="f-s-20 f-c-d-greay f-w-7">Problems with Indian cards or having only International card &
+                        <a href="/indian-virtual-address">Indian virtual Addresses</a> for Your Indian Shopping?</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-xs-12"> <br></div>
+
+            <p class="f-s-16 f-c-gray">Personal Shoppers help you buy Indian goods and get them delivered to your doorstep almost anywhere in the world!</p>
+            <br>
+            <p class="f-s-16 f-c-gray">
+                There are a lot of merchants in the India who won’t accept international credit cards. Some merchants require that the billing and shipping addresses
+                match when a credit card is used for a purchase. This practice is often used to protect an international distribution deal that protects markup
+                margins on goods in your country, or simply to limit the supply of their goods into your country to create artificial demand.
+            </p>
+            <br>
+            <h1 class="f-s-22 f-c-d-gray f-w-8">Here is ShoppRe Personal Shopper Service Help!</h1>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Personal Shopping without the hassle:</h2>
+            <p class="f-s-16 f-c-gray">Now you can avoid credit card problems by using <a href="personal-shopper-india">ShoppRe Personal Shopper service</a>. Just log in to your account and create a Personal
+                Shopper request. Provide the details of your order by filling the form out. There is a small fee involved to use our personal shopper service,
+                but it is well worth considering. We buy the items for you using our matching Indian credit cards and non associated addresses. Because these
+                addresses are off-site and secret, we can place Personal Shopper orders with companies that don’t ship to other forwarders!
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">Managing your packages:</h2>
+            <p class="f-s-16 f-c-gray">When the items arrive we will receive them into your account and send you an email notification that your purchase has arrived.
+                You can then log in to your account and manage the packages just like you had made the purchase. Request shipment immediately or wait for other items
+                to arrive so you can consolidate and save on <a href="{{route('pricing')}}">international shipping charges</a>.
+            </p> <br>
+
+            <h2 class="f-s-16 f-c-d-gray f-w-8">What are the things I should be aware of before submitting a personal shopper request?</h2>
+            <p class="f-s-15 f-c-gray">Please read the <a href="/terms-and-conditions">important notes</a> listed on the page and also the store return policy.
+            </p> <br>
+
+        </div>
+        <br>
+    </section>
+
     <section>
         <br>
         <br>

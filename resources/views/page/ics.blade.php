@@ -39,8 +39,37 @@
         </div>
     </section>
 
-    <section>
+    <section class="seo-sec">
         <div class="container div-process">
+            <div class="container">
+                <div class="col-md-12 col-xs-12 pad-t-20">
+                    <center>
+                        <div class="col-md-4 col-xs-12 pad-20 ">
+                            <a href="/international-courier-charges-india-to-usa-per-kg">Courier Rates from India to USA per kg</a>
+                        </div>
+                        <div class="col-md-4 col-xs-12 pad-20">
+                            <a href="/international-courier-charges-india-to-uae-per-kg">Courier Charges starts from ₹570 UAE</a>
+                        </div>
+                        <div class="col-md-4 col-xs-12  pad-20">
+                            <a href="/international-courier-charges-india-to-canada-per-kg">Courier charges from India to Canada</a>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="col-md-12 col-xs-12 no-pad">
+                    <center>
+                        <div class="col-md-4 col-xs-12  pad-20">
+                            <a href="/international-courier-charges-india-to-germany-per-kg">Shipping Rates from india to Germany</a>
+                        </div>
+                        <div class="col-md-4 col-xs-12  pad-20">
+                            <a href="/international-courier-charges-india-to-australia-per-kg">Low Cost Courier Per Kg to Australia</a>
+                        </div>
+                        <div class="col-md-4 col-xs-12 pad-20">
+                            <a href="/international-courier-charges-india-to-singapore-per-kg">Cheapest rates from India to Singapore</a>
+                        </div>
+                    </center>
+                </div>
+            </div>
             <center>
                 <h1 class="header1  p-color-cement-dark">How Does Our Courier Work?</h1>
                 <p class="header2 p-color-cement">Schedule a Pickup from ANY part of India; we’ll come to your doorsteps,<br> get your package & ship it off to the destination in 24 hours.</p>
@@ -165,7 +194,7 @@
 
             <center>
                 <h1 class="header1 p-color-cement-dark" >
-                    We ship all over the world -To the USA, UAE, UK, Europe, Australia, New Zealand, Canada, Middle East & 200 other
+                    We ship all over the world - To the USA, UAE, UK, Europe, Australia, New Zealand, Canada, Middle East & 200 other
                     countries.
                 </h1>
             </center>
@@ -394,13 +423,13 @@
             </div>
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="nav-ul">
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/international-courier-charges-india-to-usa-per-kg">Courier Charges USA Per Kg</a></li>
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/international-courier-charges-india-to-uae-per-kg">Courier Charges UAE Per Kg</a></li>
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/first-time-international-shipment-offer">First Shipment Discount</a></li>
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/international-shipping-gift-cards-vouchers">International Shipping Card</a></li>
                 </ul>
             </div>
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <ul class="nav-ul">
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/international-courier-charges-india-to-canada-per-kg">Courier Charges Canada Per Kg</a></li>
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/consolidation-service">Consolidation & Repacking</a></li>
                     <li class="li"><a class="f-s-14 f-c-l-gray" href="/send-international-courier-from-india">Pack & Send International Courier</a></li>
                 </ul>
             </div>

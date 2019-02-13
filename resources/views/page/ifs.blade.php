@@ -79,7 +79,7 @@
                     <h1 class="header1 p-color-white">What is <span>Shop & Ship?</span></h1>
                     <p class="header2 p-color-white header-ifs-p1">Ship your purchases to us; we'll store, consolidate,
                         <br> repackage & ship them to WHEREVER you are! </p>
-                    <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=menu" class="register-free">Sign Up & Receive FREE Virtual Address</a>
+                    <a href="{{route('member.plan')}}" class="register-free">Sign Up & Receive FREE Virtual Address</a>
                 </center>
             </div>
         </div>
@@ -237,23 +237,19 @@
 
 
         {{--mobile view--}}
-
+        <br>
         <div class="container">
             <center>
-                <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register>
-                    <div class=" btn header6 p-color-white btn-ifs-free-v-a">
+                <a href="{{route('member.plan')}}">
+                    <div class="btn header6 btn-get-assisted p-color-white">
                         <center>
                             Get a Free Virtual Address
                         </center>
                     </div>
                 </a>
             </center>
-
         </div>
-
     </section>
-
-
 
     <section style="background-color: #fafafb;" id="personal-shopper">
         <div class="container section-3">
@@ -314,7 +310,7 @@
                     <center>
                         <a href="https://www.shoppre.com/personal-shopper">
                             <div class="btn header6 btn-get-assisted p-color-white">
-                                Ask For Assistance
+                                Buy For Me
                             </div>
                         </a>
                     </center>
@@ -917,7 +913,7 @@
                     save to help your business!</p>
                 <div class="col-md-12">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank">
+                        <a href="/sellers-shipping">
                             <div class="btn-request-cal-back header6">
                                 <center>
                                     Request Callback
@@ -961,7 +957,7 @@
             <h1>How does package forwarding work in ShoppRe?</h1>
 
             <p>Package Forwarding - the backbone of our service, Shop & Ship starts from when a customer signs up for a
-                ShoppRe <a href="https://www.shoppre.com/services/virtual-address-in-india/">Indian virtual shipping address</a>. The customer gets a Personal Locker with 20 days of FREE
+                ShoppRe <a href="https://www.shoppre.com/indian-virtual-address">Indian virtual shipping address</a>. The customer gets a Personal Locker with 20 days of FREE
                 storage period to accumulate their purchases at our warehouse. We, in turn,
                 forward their packages to their address abroad. </p>
 
@@ -975,13 +971,13 @@
             <h1>Finding it difficult to shop on stores?</h1>
 
             <p>From managing Indian credentials for shipping documentations to making payments for you;
-                our Personal Shopper service will help you get your favorite Indian goodies home, at all costs.
+                our <a href="/personal-shopper-shopping-concierge-from-india">Personal Shopper service</a> will help you get your favorite Indian goodies home, at all costs.
                 Assisted Purchase is a subsidiary tailor-made service that is intended to handle even
                 the whole shopping of yours on your behalf. </p>
 
             <p>While the majority of Indian websites, even the popular ones don’t offer international shipping with
                 their online shopping experience; ShoppRe is splitting the difference by offering the best
-                international package forwarding services from India. So the curious shoppers from around the world
+                <a href="/international-parcel-forwarding-india-online-shopping">international package forwarding services from India</a>. So the curious shoppers from around the world
                 can virtually shop around in India relieved - as international shipping
                 from India is not a tough task anymore!</p>
 

@@ -246,26 +246,26 @@
                 <a href="{{route('ics.index')}}" class="header6 p-color-cement">
                     <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/schedule_pickpup.svg" alt="Schedule Pickup"
                          class="header-menu-img">
-                    <span class="header6 p-color-cement">Schedule Pickup</span>
+                    <span class="header6 p-color-cement">ShoppRe Courier</span>
                 </a>
             </div>
             <div class="col-md-2">
                 <a href="{{route('stores1')}}" class="header6 p-color-cement">
                     <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/browse_stores.svg" alt="Indian online stores" class="header-menu-img">
-                    <span class="header6 p-color-cement">Browse Stores</span>
+                    <span class="header6 p-color-cement">Indian Stores</span>
                 </a>
             </div>
             <div class="col-md-2">
-                <a href="https://goo.gl/forms/OZ6NMyGKMrdHvoA32" target="_blank" class="header6 p-color-cement">
+                <a href="/sellers-shipping" target="_blank" class="header6 p-color-cement">
                     <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/prtner_with_us.svg" alt="Partner With Us" class="header-menu-img">
-                    <span class="header6 p-color-cement">Partner With Us</span>
+                    <span class="header6 p-color-cement">Seller Partnership</span>
                 </a>
             </div>
             <div class="col-md-2">
                 <a href="https://www.shoppre.com/offers"
                    target="_blank" class="header6 p-color-cement">
                     <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/offfer.svg" alt="Offers" class="header-menu-img">
-                    <span class="header6 p-color-cement"> Offers and Deals</span>
+                    <span class="header6 p-color-cement">Offers and Deals</span>
                 </a>
             </div>
         </div>
@@ -442,7 +442,7 @@
                     <a href="{{route('ifs.index')}}">
                         <div class="btn-our-shop-ship btn-font-size">
                             <p>
-                                Learn More
+                                Shop For Me
                             </p>
                         </div>
                     </a>
@@ -566,7 +566,7 @@
             <center>
                 <a href="{{route('stores1')}}" target="_blank">
                     <div class=" btn-browse-stores  header5 p-color-white">
-                        <b><p>Browse Stores</p></b>
+                        <b><p>Browse Indian Stores</p></b>
                     </div>
                 </a>
             </center>
@@ -840,7 +840,7 @@
             <h1>Is it possible to shop online from India without any hassles, you ask?</h1>
 
             <p>Say goodbye to all the international credit/debit card hassles at checkout! A group of experts here at
-                ShoppRe is at your beck & call to help you out with the whole shopping process; our Personal Shopper
+                ShoppRe is at your beck & call to help you out with the whole shopping process; our <a href="/personal-shopper-india">Personal Shopper</a>
                 will do the shopping for you! They‘re quick on their hands & exists to make package
                 forwarding from India a no-brainer.</p>
 

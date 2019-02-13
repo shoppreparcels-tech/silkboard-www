@@ -1,10 +1,11 @@
 @extends('layout')
 
-@section('title', 'International Courier Charges Per Kg from India | Germany')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'Cheapest Courier Rates from India to Germany | #EasyShippingByShoppRe ')
+@section('description', 'Cheapest International Courier charges Per Kg from India to Germany. Save 60% on Shipping. Door to door Pick up in India. Get Free Quote & Ship with ShoppRe.')
+@section('keywords', 'easy shipping, courier from india to germany, international shipping to europe, valentines day gifts')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-germany-per-kg" />
     <style>
         .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}

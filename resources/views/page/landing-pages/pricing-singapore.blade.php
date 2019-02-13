@@ -1,10 +1,11 @@
 @extends('layout')
 
-@section('title', 'International Courier Charges Per Kg from India | Singapore')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'International Courier from India to Singapore | Starting from ₹1227')
+@section('description', 'Fast and Reliable Shipping from India to Singapore. Ship household stuff, medicine, food items, docs. Save 60% on Shipping Rates. Call 08277919191 for Pick up.')
+@section('keywords', 'courier from india to singapore, ship household stuff, packers and movers company, Shop & Ship services')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-singapore-per-kg" />
     <style>
         .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}
