@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\Controller;
 
+use App\Asana\AsanaTaskOperations;
 use App\Customer;
 use App\CustomerContact;
 use App\LoyaltyPoint;
@@ -143,6 +144,9 @@ class RegisterController extends Controller
         } while (!$user_code->isEmpty());
 
         $customer->locker = $code;
+        $commnet = "New Sign up " . $request->email . "\n contact No: " . $request->country_code.$request->phone;
+        AsanaTaskOperations::createTask($name, $commnet, "R");
+
         $customer->save();
 
         $contact = new CustomerContact;

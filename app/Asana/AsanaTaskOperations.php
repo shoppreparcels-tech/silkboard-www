@@ -30,17 +30,21 @@ class AsanaTaskOperations
             $project_id="875224685950696";
             $workspace_id="413352110377780";
             $Bearer = "0/76d37fb13148c2dfa9999734bfcdbb1e";
-        }elseif($form=="L"){
+        }elseif($form=="L"){ //landing pages
             $project_id="939744786724687";
             $workspace_id="413352110377780";
             $Bearer = "0/220f58dd72391032c36a19a66a6606be";
 //            $Bearer = "0/b1b8a7e730f8b006467e383e96cb1ef5";
-        }elseif($form=="E"){
+        }elseif($form=="E"){//enquiry
             $project_id="942090929966760";
             $workspace_id="413352110377780";
             $Bearer = "0/b1b8a7e730f8b006467e383e96cb1ef5";
-        }elseif($form=="P"){
+        }elseif($form=="P"){ //personal shopper
             $project_id="1106432437090454";
+            $workspace_id="413352110377780";
+            $Bearer = "0/c422294a9499228a8f529f83fea3fa2d";
+        }elseif($form=="R"){//sgin up
+            $project_id="1109042271245800";
             $workspace_id="413352110377780";
             $Bearer = "0/c422294a9499228a8f529f83fea3fa2d";
         }
