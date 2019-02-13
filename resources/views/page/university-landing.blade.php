@@ -35,7 +35,7 @@
       .chris-benefits div table th {text-align: left;padding:20px;background-color: #929ca5;color: #fff;font-size: 18px;}
       .chris-benefits div table td {text-align: left;padding: 20px;background-color: #fff; font-size: 18px}
       .chris-benefits div table tr:nth-child(even) {background-color: #fafafb;}
-      .div-content{padding-top: 70px;padding-right: 0;padding-left: 0;padding-bottom: 0}
+
       .div-table{overflow: scroll}
       @media only screen and (max-width: 600px) {
           .textbox-email {width: 330px;}
@@ -58,7 +58,7 @@
            <div class="col-md-2 div-snow">
                <img src="{{asset('img/images/plane_earth.png')}}" alt="">
            </div>
-           <div class="col-md-8 col-xs-12 div-content" >
+           <div class="col-md-8 col-xs-12" >
                <center>
                    <img src="{{asset('img/images/plane_earth.png')}}" alt="" class="img-new-year">
                    <h2 class="p-color-yellow header-spacing header2 ">Student Special Offer <br> Save Upto 50% Off On Shipping Costs!</h2>
@@ -66,14 +66,19 @@
                    <h2 class="header2 p-color-white font-weight-900">Starting from ₹553/-</h2> <br>
                    <form action=""  method="post" id="diwali_coupon">
                        {{csrf_field()}}
-                       <div class="" id="diwali-couponcode1">
-                           <div class="form-group">
-                               <input type="email" name="email" class="textbox-email"
-                                      placeholder="Enter a valid E-mail ID" required>
-                           </div>
-                           <div class="form-group text-center">
-                               <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900" onclick="">Sign Up For FREE!</button>
-                           </div>
+                       <div class="col-md-offset-3 col-md-6 col-xs-12 no-pad" id="diwali-couponcode1">
+                          <center>
+                              <div class="form-group">
+                                  <input type="email" name="email" class="txt-f-w txt-shadow txt-pad"
+                                         placeholder="Enter a valid E-mail ID" required> <br><br>
+                                  {{--<input type="number" name="PhoneNumberPhoneNumber" class="textbox-email"--}}
+                                  {{--placeholder="Enter a valid PhoneNumber" required>--}}
+                                  <input id="phone" name="ContactNumber" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off" required>
+                              </div>
+                              <div class="form-group text-center">
+                                  <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900" onclick="">Sign Up For FREE!</button>
+                              </div>
+                          </center>
                        </div>
                    </form>
                </center>
@@ -386,6 +391,7 @@
                 submitHandler: function (form) {
                     debugger;
                     var email = $("input[name='email']").val();
+                    var phone = $("input[name='ContactNumber']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
                         url: 'university',
@@ -393,6 +399,7 @@
                         data: {
                             _token: token,
                             email: email,
+                            phone: phone,
                         },
                         success: function (data) {
                             console.log(data);
@@ -404,4 +411,32 @@
 
         });
     </script>
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+            // allowDropdown: false,
+            // autoHideDialCode: false,
+            // autoPlaceholder: "off",
+            // dropdownContainer: document.body,
+            // excludeCountries: ["us"],
+            // formatOnDisplay: false,
+            // geoIpLookup: function(callback) {
+            //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+            //     var countryCode = (resp && resp.country) ? resp.country : "";
+            //     callback(countryCode);
+            //   });
+            // },
+            // hiddenInput: "full_number",
+            // initialCountry: "auto",
+            // localizedCountries: { 'de': 'Deutschland' },
+            // nationalMode: false,
+            // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+            // placeholderNumberType: "MOBILE",
+            // preferredCountries: ['cn', 'jp'],
+            // separateDialCode: true,
+            utilsScript: "build/js/utils.js",
+        });
+    </script>
 @endsection
+
+

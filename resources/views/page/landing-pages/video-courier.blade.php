@@ -32,10 +32,12 @@
                <p class="f-s-18 f-c-d-greay f-w-6">Among ShoppRe’s top-notch logistics solutions, ShoppRe Courier is growing up to be one of the best &
                    affordable international courier services in india.</p>
                <div class="col-md-12 col-xs-12 no-pad">
-                   <form action="">
+                   <form action="" method="post" id="vidCourier">
                        <div class="col-md-4 col-xs-12 pad-r-10 pad-b-20"><br>
+                           <input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="Name" name="name">
+                           <div><br></div>
                            <input id="phone" name="phone" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off"> <br/>
-                           <input type="Email" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="jhon@email.com">
+                           <input type="Email" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="jhon@email.com" name="email">
                            <div class="col-xs-12 col-md-12 pad-t-20">
                                <button type='submit' class="btn btn-s-r btn-b-r btn-l">Sign up FREE</button>
                            </div>
@@ -150,7 +152,7 @@
 @section('js_script')
     <script>
         $(document).ready(function () {
-            $("#diwali_coupon").validate({
+            $("#vidCourier").validate({
                 rules:
                     {
                         email: {required: true}
@@ -161,18 +163,22 @@
                     },
                 submitHandler: function (form) {
                     debugger;
+                    var name = $("input[name='name']").val();
                     var email = $("input[name='email']").val();
+                    var phone = $("input[name='phone']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'apiVideoLp',
+                        url: 'apiVideoCourier',
                         type: "POST",
                         data: {
                             _token: token,
+                            name: name,
                             email: email,
+                            phone: phone,
                         },
                         success: function (data) {
                             console.log(data);
-                            window.location.replace("https://www.shoppre.com/register");
+                            window.location.replace("https://www.shoppre.com/customer/register");
                         }
                     })
                 }

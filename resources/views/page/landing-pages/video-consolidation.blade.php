@@ -32,10 +32,13 @@
                <p class="f-s-18 f-c-d-greay f-w-6">Consolidating multiple packages into one shipment has the potential to save a big chunk of your
                    international shipping costs - up to 80% of it, it seems!
                </p>
-               <form action="">
+               <form action=""  method="post" id="vidConslidate">
                    <div class="col-md-4 col-xs-12 pad-r-10 pad-b-20"><br>
+                       <input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="Name" name="name">
+                       <div><br></div>
                        <input id="phone" name="phone" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off"> <br/>
-                       <input type="Email" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="jhon@email.com">
+                       <input type="Email" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="jhon@email.com" name="email">
+
                     <div class="col-xs-12 col-md-12 pad-t-20">
                         <button type='submit' class="btn btn-s-r btn-b-r btn-l">Sign up FREE</button>
                     </div>
@@ -142,7 +145,7 @@
 @section('js_script')
     <script>
         $(document).ready(function () {
-            $("#diwali_coupon").validate({
+            $("#vidConslidate").validate({
                 rules:
                     {
                         email: {required: true}
@@ -153,18 +156,22 @@
                     },
                 submitHandler: function (form) {
                     debugger;
+                    var name = $("input[name='name']").val();
                     var email = $("input[name='email']").val();
+                    var phone = $("input[name='phone']").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
-                        url: 'apiVideoLp',
+                        url: 'apiVideoConsolidation',
                         type: "POST",
                         data: {
                             _token: token,
+                            name: name,
                             email: email,
+                            phone: phone,
                         },
                         success: function (data) {
                             console.log(data);
-                            window.location.replace("https://www.shoppre.com/register");
+                            window.location.replace("https://www.shoppre.com/customer/register");
                         }
                     })
                 }

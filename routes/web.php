@@ -665,7 +665,10 @@ Route::post('/shop-ship', 'PageController@shopShip')->name('shopShip');
 Route::post('/valentines-cashback', 'PageController@apiValentines')->name('valentine');
 Route::post('/medicine', 'PageController@apiMedicine')->name('apiMedicine');
 Route::post('/parcel-forwarding', 'PageController@apiParcelForwarding')->name('apiParcelForwarding');
-Route::post('/apiVideoLp', 'PageController@apiVideoLp')->name('apiVideoLp');
+Route::post('/apiVideoConsolidation', 'PageController@apiVideoConsolidation')->name('apiVideoConsolidation');
+Route::post('/apiVideoCourier', 'PageController@apiVideoCourier')->name('apiVideoCourier');
+Route::post('/apiVideoPs', 'PageController@apiVideoPs')->name('apiVideoPs');
+
 Route::post('/api-pricing-calculator', 'PageController@apiPricingCalculator')->name('apiPricingCalculator');
 Route::post('/api-pricing-usa', 'PageController@apiPricingUsa')->name('apiPricingUsa');
 Route::post('/api-pricing-uae', 'PageController@apiPricingUae')->name('apiPricingUae');

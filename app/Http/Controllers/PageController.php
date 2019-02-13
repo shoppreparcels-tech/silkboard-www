@@ -863,6 +863,87 @@ class PageController extends Controller
         $json_data = json_encode($data);
         mailChimpTaskOperations::createList($list_id, $auth, $json_data);
     }
+    public function apiVideoConsolidation(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $list_id = 'aca625e01f';
+        $auth = base64_encode('user:' . $apikey);
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $name = $req->name;
+            $contact = $req->contact_no;
+            $commnet = "Lead from Video Consolidation landing page USA email " . $email . "\n contact No: " . $contact;
+            AsanaTaskOperations::createTask($name, $commnet, "L");
+        }
+
+        $data = array(
+            'apikey' => $apikey,
+            'email_address' => $email,
+            'status' => 'subscribed',
+            'merge_fields' => array(
+                'FNAME' => $name,
+                'LNAME' => '',
+                'PHONE' => $contact
+            )
+        );
+        $json_data = json_encode($data);
+        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+    }
+    public function apiVideoCourier(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $list_id = 'aca625e01f';
+        $auth = base64_encode('user:' . $apikey);
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $name = $req->name;
+            $contact = $req->contact_no;
+            $commnet = "Lead from Video Courier landing page USA email " . $email . "\n contact No: " . $contact;
+            AsanaTaskOperations::createTask($name, $commnet, "L");
+        }
+
+        $data = array(
+            'apikey' => $apikey,
+            'email_address' => $email,
+            'status' => 'subscribed',
+            'merge_fields' => array(
+                'FNAME' => $name,
+                'LNAME' => '',
+                'PHONE' => $contact
+            )
+        );
+        $json_data = json_encode($data);
+        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+    }
+    public function apiVideoPs(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $list_id = 'aca625e01f';
+        $auth = base64_encode('user:' . $apikey);
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $name = $req->name;
+            $contact = $req->contact_no;
+            $commnet = "Lead from Video Personal Shopper landing page USA email " . $email . "\n contact No: " . $contact;
+            AsanaTaskOperations::createTask($name, $commnet, "L");
+        }
+
+        $data = array(
+            'apikey' => $apikey,
+            'email_address' => $email,
+            'status' => 'subscribed',
+            'merge_fields' => array(
+                'FNAME' => $name,
+                'LNAME' => '',
+                'PHONE' => $contact
+            )
+        );
+        $json_data = json_encode($data);
+        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+    }
     public function apiDomesticPricing(Request $req)
     {
         $curl = curl_init();
@@ -1047,7 +1128,8 @@ class PageController extends Controller
         $auth = base64_encode('user:' . $apikey);
         if (!empty($req->email)) {
             $email = $req->email;
-            $commnet = "Lead from university landing page email " . $email;
+            $phone =  $req->phone;
+            $commnet = "Lead from university landing page email " . $email ."\n Contact Number ".$phone;
             AsanaTaskOperations::createTask($email, $commnet, "L");
         }
     }
