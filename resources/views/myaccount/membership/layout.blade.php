@@ -168,10 +168,6 @@
     <div style="text-align: center;">
         <h3 class="title"><b>Start saving UP TO 80% on Shipping  Rates Today</b></h3>
         <h4 ><b>Maximize your international Shipping Discount With a Shoppre Premium Mebership </b></h4>
-
-        {{--<div class="row">--}}
-            {{--<img src="{{asset('img/member/process.png')}}" alt="Member Process"></a>--}}
-        {{--</div>--}}
     </div>
 </div>
 
