@@ -219,7 +219,7 @@
                                             <button type="button" class="btn btn-b-w btn-h-40 pull-left dec-value btn-puls-pad col-md-2 col-xs-2" id="aminus">-</button>
                                             <div class="col-md-8 col-xs-8 no-pad">
                                                 <input type="text" class="txt-f-w txt-a-c txt-n-b" value="0.5"
-                                                       name="weight">
+                                                       name="length">
                                             </div>
                                             <button type="button" class="btn btn-b-w btn-h-40 pull-right inc-value btn-puls-pad col-md-2 col-xs-2" id="aplus">+</button>
                                         </div>
@@ -234,7 +234,7 @@
                                             <button type="button" class="btn btn-b-w btn-h-40 pull-left dec-value btn-puls-pad col-md-2 col-xs-2" id="aminus">-</button>
                                             <div class="col-md-8 col-xs-8 no-pad">
                                                 <input type="text" class="txt-f-w txt-a-c txt-n-b" value="0.5"
-                                                       name="weight">
+                                                       name="height">
                                             </div>
                                             <button type="button" class="btn btn-b-w btn-h-40 pull-right inc-value btn-puls-pad col-md-2 col-xs-2" id="aplus">+</button>
                                         </div>
@@ -246,7 +246,7 @@
                                             <button type="button" class="btn btn-b-w btn-h-40 pull-left dec-value btn-puls-pad col-md-2 col-xs-2" id="aminus">-</button>
                                             <div class="col-md-8 col-xs-8 no-pad">
                                                 <input type="text" class="txt-f-w txt-a-c txt-n-b" value="0.5"
-                                                       name="weight">
+                                                       name="width">
                                             </div>
                                             <button type="button" class="btn btn-b-w btn-h-40 pull-right inc-value btn-puls-pad col-md-2 col-xs-2" id="aplus">+</button>
                                         </div>
@@ -1366,10 +1366,14 @@
                     var length = $("input[name='length']").val();
                     var width = $("input[name='width']").val();
                     var height = $("input[name='height']").val();
+
                     // console.log('country ' + country + '\n weight ' + weight + '\n weight_unit ' + weight_unit + '\n type ' + package_type + ' \n measurement_unit ' + measurement_unit + '\n length ' + length + '\n width ' + width + '\n height ' + height);
                     if (weight<=70){
+                        var queryParams = 'all=true&country=' + country + '&type=' + package_type + '&weight=' + weight;
+                        queryParams += '&length=' + length + '&width=' + width + '&height=' + height;
+                        queryParams += '&scale=' + measurement_unit + '&unit=' + weight_unit;
                         jQuery.ajax({
-                            url: 'https://ship-api.shoppre.com/api/pricing?all=true&country=' + country + '&type=' + package_type + '&weight=' + weight,
+                            url: 'https://ship-api.shoppre.com/api/pricing?' + queryParams,
                             type: 'get',
                             success: function ({prices}) {
                                 console.log(prices[0].customerRate);
