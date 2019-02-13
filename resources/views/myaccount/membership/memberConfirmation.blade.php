@@ -16,7 +16,7 @@
         <div class="container" >
             </br>
             <div class="row text-center">
-                <img src="{{asset('img/member/process3.png')}}" height="85px" alt="Member Process"></a>
+                <img src="{{asset('img/member/process3.png')}}" height="55px" alt="Member Process"></a>
             </div>
 
             </br></br></br>

@@ -294,7 +294,7 @@
                             </center>
                         </div>
                         <center>
-                            <a href="{{route('customer.register')}}" class="btn-l btn-b-r btn-s-r btn-a-l">Sign Up FREE</a>
+                            <a href="{{route('member.plan')}}" class="btn-l btn-b-r btn-s-r btn-a-l">Sign Up FREE</a>
                         </center>
                         <span class="pull-right f-c-gray f-s-12"><a href="{{route('first-shipment')}}">*T&C Apply</a></span>
 
@@ -709,7 +709,7 @@
             <center>
                 <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
                 <p class="header2 p-doorstep-des">What Are You Waiting For Re! Just Come Shopp Re!</p>
-                <a href="{{route('customer.register')}}" target="_blank">
+                <a href="{{route('member.plan')}}" target="_blank">
                     <div class="btn-login-doorstep header5 p-color-white">
                         <p>
                             Sign Up for FREE

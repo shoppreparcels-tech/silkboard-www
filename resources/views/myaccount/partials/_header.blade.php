@@ -2,7 +2,7 @@
   <div class="mo_login">
     @if(!Auth::guard('customer')->check())
     <a href="{{route('customer.login')}}"><i class="fa fa-unlock-alt"></i> Login</a>
-    <a href="{{route('customer.register')}}"><i class="fa fa-user"></i> Signup</a>
+    <a href="{{route('member.plan')}}"><i class="fa fa-user"></i> Signup</a>
     @else
     <a href="{{route('customer.locker')}}"><i class="fa fa-user"></i> My Locker</a>
     <a href="{{route('customer.logout')}}"><i class="fa fa-lock"></i> Logout</a>

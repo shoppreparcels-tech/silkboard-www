@@ -22,7 +22,7 @@
                         @else
                             <li>
                                 <a href="{{route('customer.login')}}"  id="li-login">Login</a>
-                                <a class="btn btn-s-r btn-a-m btn-b-r" href="{{route('customer.register')}}" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Register</a>
+                                <a class="btn btn-s-r btn-a-m btn-b-r" href="{{route('member.plan')}}" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Register</a>
                             </li>
                         @endif
                     </ul>

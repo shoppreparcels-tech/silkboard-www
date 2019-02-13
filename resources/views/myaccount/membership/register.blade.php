@@ -39,7 +39,7 @@
 @section('content')
   <div class="container text-center">
     <div class="row">
-      <img class="img-responsive" src="{{asset('img/member/process.png')}}"  style='height:85px;display:inline !important' alt="Member Process"></a>
+      <img class="img-responsive" src="{{asset('img/member/process.png')}}"  style='height:55px;display:inline !important' alt="Member Process"></a>
     </div>
   </div>
   <section style="padding-top: 20px; height: 220px;">

@@ -303,7 +303,7 @@
 
                                 </div>
                                 <div class="col-xs-12 col-md-12 no-pad">
-                                    <a href="{{route('customer.register')}}">Sign up for
+                                    <a href="{{route('member.plan')}}">Sign up for
                                         Free</a>
                                 </div>
                             </div>
@@ -403,7 +403,7 @@
                             <br>
                             <div class="col-md-6 col-xs-12 no-pad">
                                 <div class="col-md-6 col-xs-6 no-pad">
-                                    <a href="{{route('customer.register')}}">
+                                    <a href="{{route('member.plan')}}">
                                         <button class="btn btn-s-r btn-b-r btn-f-w btn-h-40">Get Virtual Address</button></a>
                                 </div>
                                 <div class="col-md-6 col-xs-6 ">
@@ -814,11 +814,11 @@
                                         </td>
                                         <td class="pad-20">
                                             <h6 class="f-s-26 f-c-blue f-w-9">₹2500/-</h6>
-                                            <a href="{{route('member.register')}}?member=p"
+                                            <a href="{{route('member.register')}}?member=h"
                                                class="btn btn-b-r btn-s-r btn-a-l btn-disabled">Get a Free
                                                 Address
                                             </a>
-                                            <a href="{{route('contact')}}" class="btn-enable">Get a Free
+                                            <a href="{{route('member.register')}}?member=h" class="btn-enable">Get a Free
                                                 Address
                                             </a>
 
@@ -1148,11 +1148,11 @@
                                         </td>
                                         <td class="pad-20">
                                             <h6 class="f-s-26 f-c-blue f-w-9">₹5000/-</h6>
-                                            <a href="{{route('customer.register')}}?member=y"
+                                            <a href="{{route('member.plan')}}?member=y"
                                                class="btn btn-b-r btn-s-r btn-a-l btn-disabled">Get a Free
                                                 Address
                                             </a>
-                                            <a href="{{route('customer.register')}}?member=y" class="btn-enable">Get a Free
+                                            <a href="{{route('member.plan')}}?member=y" class="btn-enable">Get a Free
                                                 Address
                                             </a>
                                         </td>
