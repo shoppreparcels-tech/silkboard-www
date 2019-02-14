@@ -892,12 +892,12 @@
                     // alert(email);
                     var token = $('input[name=_token]').val();
                     $("#schedule_load").show();
-                    jQuery.ajax({
-                        url: 'check/authenticate',
-                        type: "GET",
-                        success: function (res) {
-                            console.log('Auth', res);
-                            if (res.status === 'authenticated') {
+                    // jQuery.ajax({
+                    //     url: 'check/authenticate',
+                    //     type: "GET",
+                    //     success: function (res) {
+                    //         console.log('Auth', res);
+                    //         if (res.status === 'authenticated') {
                                 jQuery.ajax({
                                     url: 'schedule-pickup/submit',
                                     type: "POST",
@@ -946,13 +946,13 @@
                                         console.log(data);
                                     }
                                 });
-                            }
-                            else if (res.status === 'unauthenticated') {
-                                $("#schedule_load").hide();
-                                $("#popup1").css('display', 'block');
-                            }
-                        }
-                    });
+                        //     }
+                        //     else if (res.status === 'unauthenticated') {
+                        //         $("#schedule_load").hide();
+                        //         $("#popup1").css('display', 'block');
+                        //     }
+                        // }
+                    // });
 
                     return false;
                 }
