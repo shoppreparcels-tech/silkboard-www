@@ -1,8 +1,9 @@
 @extends('myaccount.membership.layout')
 
-@section('title', '- Submit Payment')
+@section('title', 'Submit Payment - Membership Plan | ShoppRe.com')
 
 @section('css_style')
+    <meta name="robots" content="noindex, noodp, noydir, nosnippet"/>
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
     <!-- Owl Carousel -->

@@ -105,7 +105,7 @@
                     But the problem begins when it comes to checking them out & shipping them in from India, at an affordable shipping cost.
                     Will Flipkart Ship Internationally though? Well, the answer is, not as of now.</p> <br>
                 <p class="header4 p-color-cement">So, as far as you're concerned as a shopper, you'd have to look for alternative
-                    shipping options as Flipkart shipping internationally is at a moo point for the time being!</p> <br>
+                    shipping options as <strong>Flipkart shipping internationally</strong> is at a moo point for the time being!</p> <br>
 
                 <div class="offerDesc">
                     <h2 class="header2 p-color-cement font-weight-900">How are we your best choice?</h2>
@@ -123,8 +123,8 @@
                 <br>
                 <center>
                     <h4 class="p-color-cement-dark flipkart-h1">International Credit/Debit Cards Giving You Trouble?</h4>
-                    <h5 class="header5 p-color-cement">No worries! Our [Personal Shopper] will swoop in & take care of it all for you!</h5> <br>
-                    <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn-chris-place-order">Go Shopping Now!</a>
+                    <h5 class="header5 p-color-cement">No worries! Our <a href="/personal-shopper-shopping-concierge-from-india">Personal Shopper</a> will swoop in & take care of it all for you!</h5> <br>
+                    <a href="https://www.flipkart.com/?src=shoppre.com" class="btn-chris-place-order">Go Shopping Now!</a>
                 </center>
             </div>
             <br>
@@ -157,7 +157,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned of your documents</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-specific Discount</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery with online tracking</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery & online tracking</span></li>
 
                         </ul>
                     </div>
@@ -169,7 +169,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Wallet Cashback</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Package Return Services</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>International Courier Service</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Personalized Product Recommendations</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Product Recommendations</span></li>
                         </ul>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
             <center>
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Well, what's the wait? Sign Up with us now for a lifetime of effortless shopping!</h1>
                 <br>
-                <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn-chris-place-order">Sign Up for Free</a>
+                <a href="{{route('customer.register')}}" class="btn-chris-place-order">Sign Up for Free</a>
 
             </center>
         </div>
@@ -269,7 +269,7 @@
             </div>
             <br/><br/>
             <center>
-                <a href="">Place Your Order Now!</a>
+                <a href="/personal-shopper">Place Your Order from Flipkart Now!</a>
             </center>
             <br/><br/>
         </div>

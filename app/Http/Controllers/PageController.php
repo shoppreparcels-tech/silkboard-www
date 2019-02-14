@@ -412,6 +412,14 @@ class PageController extends Controller
     {
         return view('page.amazon-landing');
     }
+    public function limeroadIndex()
+    {
+        return view('page.limeroad-landing');
+    }
+    public function etsyIndex()
+    {
+        return view('page.etsy-landing');
+    }
 
     public function ifsLandingPage()
     {

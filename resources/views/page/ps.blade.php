@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Personal Shopper | Let ShoppRe Do The Shopping for You')
+@section('title', 'Personal Shopper | Let ShoppRe Do The Shopping for You | ShoppRe')
 @section('description', 'If you are overseas and want to shop from India, occasionally you would have to go through some hassles in the process. Either your international cards won&#039;t be accepted or order won&#039;t go through on account of you not having Indian credentials mostly')
 @section('keywords', 'shop and ship, personal shopper, ship from india to usa, assisted shopping')
 
@@ -221,7 +221,7 @@
             <div class="col-md-12 col-xs-12 ">
                 <center>
                     <div class="col-md-4 col-xs-12  pad-20">
-                        <a href="/jaypore-international-shipping-from-india">Jaypore International Shipping</a>
+                        <a href="/ajio-online-shopping-international-shipping">AJIO International Shipping</a>
                     </div>
                     <div class="col-md-4 col-xs-12 pad-20 ">
                         <a href="/international-parcel-forwarding-india-online-shopping">Package Forwarding From India</a>

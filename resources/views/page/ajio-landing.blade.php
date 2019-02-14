@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Ajio Online Shopping & Ship International | ShoppRe.com')
+@section('title', 'AJIO Online Shopping and International Shipping from India | ShoppRe.com')
 @section('description', 'Shop online from Ajio and Ship Internationally with ShoppRe Upto 220+ countries. The fast & cheapest way to ship your package from India. Sign Up Free.')
 @section('keywords', 'ajio international Shipping, ship india')
 
@@ -60,28 +60,33 @@
             </div>
 
             <div class=" col-md-12 offer-description">
-                <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">AJIO.com Online Shopping from India </h2>
-                <h4 class="p-color-cement" style="font-style:italic"> </h4>
+                <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">AJIO.com Online Shopping in India & International Shipping
+                    <br>Warehouse for unique designs to dress you up! </h2>
+                <h4 class="p-color-cement" style="font-style:italic">Ajio is a farely new Indian online store that's mixes ethnic & chic with western designs,<br>
+                    and creates something absolutely breathtaking.</h4>
                 <br>
-                <p class="header4 p-color-cement">Shop the products or brands you love from AJIO & ship your purchases from India to USA, UK, UAE, Australia & such,
-                    at an affordable shipping cost. Since AJIO India doesn't offer to ship internationally, customers
-                    have no other choice but to look for alternative shipping options. </p> <br>
-                <p class="header4 p-color-cement">We’re a <a href="{{route('home')}}">shipping & consolidation company</a> that specializes in domestic & international
-                    logistic solutions. We  handle over ₹1,000,000 worth of E-Commerce shipments and 2000 Courier pickup
-                    requests a month! A potential customer can shop from 1000+ desi/Indian online stores and,
-                    we ship those packages/couriers off to 220+ countries around the world. Our vision has always
-                    been to be of help to the Global Indian Community, and their need to shop authentic products
-                    from India, and help them ship it all in at a reasonable cost. </p> <br>
+                <p class="header4 p-color-cement">From clothing & accessories to footwear & more, you'll find a ton of great picks on Ajio that's one of a kind.
+                    They emphasis on putting up a fancy array of handpicked products from all your favorite brands possible.</p> <br>
+                <p class="header4 p-color-cement">India is known for its ethereal conventions in design and peculiar chic taste that's passed down through
+                    generations. Paired up with the global wave of fashion trends - they've got a winner! </p> <br>
+
+                <p class="header4 p-color-cement">Since Ajio doesn't offer international shipping & if you are a global shopper residing out of India; you'd need a reliable courier to ship it to
+                you while taking care of everything since the moment you place the order with the store, or even before.</p> <br>
+
+                <p class="header4 p-color-cement">If you need help with the shopping itself, or paying for your purchases;
+                    <a href="/personal-shopper-online-shopping-from-india-shipping">ShoppRe Personal Shopper</a> will jump in
+                to help you out of the situation. All you have to do is, sit back and relax! Your shipment will be at your door in 3-6 business days no matter wherever in the world you are.</p><br>
 
                 <div class="offerDesc">
-                    <h2 class="header2 p-color-cement font-weight-900">How are we the best international shipping solution from India?</h2>
-                    <p class="header4 p-color-cement">Our streamlined set of <a href="{{route('consolidationService')}}">Repackaging & Package Consolidation</a> services, helps you cut down the shipping costs to 80% lesser!</p>
+                    <h2 class="header2 p-color-cement font-weight-900">How do we ease up your Ajio - online shopping?</h2>
+                    <p class="header4 p-color-cement">Our streamlined set of Repackaging & Consolidation services, helps you cut the shipping costs down to 80% lower!
+                        And, we make our solutions tailor-made, assisting you with all your needs on <a href="{{route('ifs.index')}}">online shopping from India & shipping it worldwide</a>.  </p>
                     <br>
                     <br>
                     <p class="header4 p-color-cement">All you have to do is; </p> <br>
 
                     <ul>
-                        <li>Ship your purchases to the Virtual Address we provide for FREE,</li>
+                        <li>Ship your Myntra purchases to the Virtual Address we provide for FREE,</li>
                         <li>Use our FREE unique personal locker to store them, and finally -</li>
                         <li>Pay the never-before-like shipping cost we charge and,</li>
                         <li>Your shipment will be on it's way to reach you in 3-6 days!</li>
@@ -90,9 +95,10 @@
                 <br>
                 <br>
                 <center>
-                    <h4 class="p-color-cement-dark flipkart-h1">International Credit/Debit Cards Giving You Trouble?</h4>
-                    <h5 class="header5 p-color-cement">No worries! Our [Personal Shopper] will swoop in & take care of it all for you!</h5> <br>
-                    <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn-chris-place-order">Go Shopping Now!</a>
+                    <h4 class="p-color-cement-dark flipkart-h1">Payment Hassles with International Credit/Debit Cards?</h4>
+                    <h5 class="header5 p-color-cement">Our Personal Shopper with top-of-the-line shopping concierge services will take
+                        care of everything and help you along the way of your Indian shopping experience. </h5> <br>
+                    <a href="https://www.ajio.com/?src=shoppre.com" class="btn-chris-place-order">Go Shopping Now!</a>
                 </center>
             </div>
             <br>
@@ -177,11 +183,11 @@
         <div class="container">
             <center>
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Buying from AJIO.com from a different country?</h1>
-                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Join us now for a lifetime of effortless</h1>
-                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Online shopping with international shipping from India!</h1>
+                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Well, what's the wait? Sign Up with us now for a lifetime of effortless</h1>
+                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Online shopping & high-end international shipping services from India!</h1>
 
                 <br>
-                <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn-chris-place-order">Sign Up for Free</a>
+                <a href="{{route('customer.register')}}" class="btn-chris-place-order">Sign Up for Free</a>
 
             </center>
         </div>
@@ -267,7 +273,7 @@
             </div>
             <br/><br/>
             <center>
-                <a href="https://www.shoppre.com/personal-shopper">Place Your Order Now!</a>
+                <a href="https://www.shoppre.com/personal-shopper">Place Your Ajio Order Now!</a>
             </center>
             <br/><br/>
         </div>

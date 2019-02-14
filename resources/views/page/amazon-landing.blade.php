@@ -44,9 +44,7 @@
         <div class="container">
             <center>
                 <h1 class="p-color-white header-spacing d-header-text">Amazon.in - International Shipping From India</h1>
-
             </center>
-
         </div>
     </section>
 
@@ -60,7 +58,7 @@
             </div>
 
             <div class=" col-md-12 offer-description">
-                <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">Get Ready for This New Years With Lightning-fast Delivery from Amazon</h2>
+                <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">Shop Online from Amazon.in Products & Ship Worldwide!</h2>
                 <h4 class="p-color-cement" style="font-style:italic">Amazon, being the E-commerce giant that it is, is well-respected in the industry for its professionalism and superfast delivery. </h4>
                 <br>
                 <p class="header4 p-color-cement">We're counting the days till the New Years' and the winter cold is not
@@ -99,8 +97,8 @@
                 <br>
                 <center>
                     <h4 class="p-color-cement-dark flipkart-h1">International Credit/Debit Cards Giving You Trouble?</h4>
-                    <h5 class="header5 p-color-cement">No worries! Our [Personal Shopper] will swoop in & take care of it all for you!</h5> <br>
-                    <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn-chris-place-order">Go Shopping Now!</a>
+                    <h5 class="header5 p-color-cement">No worries! Our Personal Shopper will swoop in & take care of it all for you!</h5> <br>
+                    <a href="https://www.amazon.in/?src=shoppre.com" class="btn-chris-place-order">Go Shopping Now!</a>
                 </center>
             </div>
             <br>
@@ -159,7 +157,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned of your documents</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-specific Discount</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery with online tracking</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery, online tracking</span></li>
 
                         </ul>
                     </div>
@@ -171,7 +169,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Wallet Cashback</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Package Return Services</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>International Courier Service</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Personalized Product Recommendations</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Product Recommendations</span></li>
                         </ul>
                     </div>
                 </div>
@@ -194,7 +192,7 @@
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Online shopping with international shipping from India!</h1>
 
                 <br>
-                <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn-chris-place-order">Sign Up for Free</a>
+                <a href="{{route('customer.register')}}" class="btn-chris-place-order">Sign Up for Free</a>
 
             </center>
         </div>
@@ -278,11 +276,11 @@
                     </div>
                 </div>
             </div>
-            <br/><br/>
+            <br/>
             <center>
-                <a href="https://www.shoppre.com/personal-shopper">Place Your Order Now!</a>
+                <a href="https://www.shoppre.com/personal-shopper">Shop Amazon India For Me!</a>
             </center>
-            <br/><br/>
+            <br/>
         </div>
     </section>
     <section>
@@ -292,7 +290,7 @@
                 <li>
                     <h3 class="header4 p-color-cement-dark font-weight-900">How do I order an amazon product and get it delivered to UAE?</h3>
                     <p class="header5 p-color-cement ">Go online and shop on Amazon.in and reach out to us, sign up on ShoppRe
-                        Dashboard & make your request to ship it to UAE. You'll be guided by our
+                        Dashboard & make your request to <a href="https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg">ship it to UAE</a>. You'll be guided by our
                         Support as to how to take it from there. </p>
                 </li>
                 <li>

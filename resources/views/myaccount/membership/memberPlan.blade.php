@@ -1,7 +1,11 @@
 @extends('myaccount.membership.layout')
 
-@section('title', '- Member Plan Select')
+@section('title', 'Start saving UP TO 80% on Shipping Rates | ShoppRe Membership Plans')
+@section('description', 'Maximize your international shipping discount With our Premium Membership, specifically designed for customers who use our services including Personal Shopper or for bulk international shipments.')
+@section('keywords', 'personal shopper, shoppre membership plans, bulk international shipments, shipping rates')
+
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/member/select/plan"/>
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
     <!-- Owl Carousel -->
@@ -48,11 +52,11 @@
             <div class="col-md-12 col-xs-12 div-b-w-s no-pad">
                 <div class="col-xs-12 col-md-12 no-pad">
                     <center>
-                        <h3 class="f-s-24 f-c-d-greay">Membership Plans</h3>
+                        <h2 class="f-s-24 f-c-d-greay">Membership Plans</h2>
                         <p class="f-s-16 f-c-l-gray">Membership Plans are specifically designed for customers who
                             use our services
                             including Personal Shopper frequently or for bulk international shipments. You can see
-                            the obvious difference in costs from our International Shipping Calculator.</p>  <br>
+                            the obvious difference in costs from our <a href="{{route('pricing')}}">International Shipping Calculator</a>.</p>  <br>
                     </center>
                 </div>
                 <div class="wrapper">

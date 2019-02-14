@@ -626,11 +626,14 @@ Route::get('/university-offer', 'PageController@university')->name('university')
 Route::get('/flipkart-shopping-with-shoppre-from-india', 'PageController@flipkartIndex')->name('flipkart.landing');
 Route::get('/myntra-online-shopping-shipping-from-india', 'PageController@myntraIndex')->name('myntra.landing');
 Route::get('/amazon-india-shop-international-shipping', 'PageController@amazonIndex')->name('amazon.landing');
+Route::get('/etsy-international-shipping-from-india', 'PageController@etsyIndex')->name('etsy.landing');
+Route::get('/limeroad-shopping-international-shipping', 'PageController@limeroadIndex')->name('limeroad.landing');
 Route::get('/send-international-courier-from-india', 'PageController@icsLandingPage')->name('ics.landing');
 Route::get('/international-parcel-forwarding-india-online-shopping', 'PageController@parcelForwarding')->name('forwarding');
 Route::get('/shop-online-fashion-jabong-india-ship-internationally', 'PageController@jabongIndex')->name('jabong.landing');
 Route::get('/ajio-online-shopping-international-shipping', 'PageController@ajioIndex')->name('ajio');
 Route::get('/jaypore-international-shipping-from-india', 'PageController@jayporeIndex')->name('jaypore');
+Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
 Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
 Route::get('/best-international-relocation-packers-movers', 'PageController@packers')->name('packers-movers');
 Route::get('/international-shipping-gift-cards-vouchers', 'PageController@voucher')->name('voucher');

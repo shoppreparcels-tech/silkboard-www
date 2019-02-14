@@ -1,10 +1,9 @@
 @extends('layout')
 
-@section('title', 'Membership Success | Shoppre - International Shipping Partner')
-@section('description', 'Membership Success | Shoppre - International Shipping Partner')
-@section('keywords', 'Membership Success | Shoppre - International Shipping Partner')
+@section('title', 'Success Membership Plan | ShoppRe.com')
 
 @section('css_style')
+    <meta name="robots" content="noindex, noodp, noydir, nosnippet"/>
   <!-- Select2 -->
   <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
   <!-- Owl Carousel -->

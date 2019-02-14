@@ -167,7 +167,7 @@
 
     <div style="text-align: center;">
         <h3 class="title"><b>Start saving UP TO 80% on Shipping  Rates Today</b></h3>
-        <h4 ><b>Maximize your international Shipping Discount With a Shoppre Premium Mebership </b></h4>
+        <h4 ><b>Maximize your international Shipping Discount With a ShoppRe Premium Membership </b></h4>
     </div>
 </div>
 

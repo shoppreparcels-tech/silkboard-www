@@ -1,26 +1,10 @@
 @extends('layout')
 
-@section('title', 'Shop Myntra Online & Ship Internationally From India | ShoppRe.com')
-@section('description', 'Online Shopping from Myntra and Ship to US, UAE, Australia address & Upto 220+ countries. The cheapest way to courier your package from India. Sign Up for Free.')
-@section('keywords', 'Myntra International Shipping, Online Fashion Store, ship usa, how to shop')
+@section('title', 'Limeroad Shipping to USA | Online Shopping India | ShoppRe.com')
+@section('description', '')
+@section('keywords', '')
 
 @section('css_style')
-    <meta property="og:title" content="Shop online from Myntra fashion store & Ship Internationally with Shoppre" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.shoppre.com/myntra-online-shopping-shipping-from-india" />
-    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
-    <meta property="og:image:width" content="2506">
-    <meta property="og:image:height" content="1312">
-    <meta property="og:image:alt" content="shoppre international shipping india" />
-    <meta property="og:description" content="Buy in Myntra and Ship your purchases from India to USA, UK, UAE, Australia & such, at an affordable shipping cost." />
-    <meta property="og:site_name" content="shoppre" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="go_shoppre" />
-    <meta name="twitter:title" content="Myntra International Shipping from India " />
-    <meta name="twitter:description" content="Shop in Myntra and courier your packages from India to USA, UK, UAE, Australia at a cheap courier cost." />
-    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
-    <meta name="twitter:image:alt" content="shoppre international shipping" />
     <style>
         .bg-ics-landing-page .container > div {margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}
@@ -43,11 +27,10 @@
     <section class="bg-ics-landing-page">
         <div class="container">
             <center>
-                <h1 class="p-color-white header-spacing d-header-text">Myntra - International Shipping From India</h1>
-
+                <h1 class="p-color-white header-spacing d-header-text">Limeroad International Shipping</h1>
             </center>
-
         </div>
+
     </section>
 
 
@@ -60,28 +43,32 @@
             </div>
 
             <div class=" col-md-12 offer-description">
-                <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">Online Shopping From Myntra, But Need a Cheaper Shipping Option?</h2>
-                <h4 class="p-color-cement" style="font-style:italic">Are you one among the many international fans of Myntra, trying to ship your wishlists in this Christmas and New Year? Say no more. </h4>
+                <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">Limeroad - Final destination for affordable fashion!</h2>
+                <h4 class="p-color-cement" style="font-style:italic">From gorgeously Indian to extreme party picks, Limeroad has it all!</h4>
                 <br>
-                <p class="header4 p-color-cement">Myntra is well-known for having the widest variety and versatility in clothing and accessories.
-                    Even after being acquired by the <a href="{{route('flipkart.landing')}}">E-Commerce giant Flipkart</a>, it has been over-the-top successful in keeping true to itself and
-                    being the most reliable more than ever. And the loyal customers have remained forever-loyal as well.</p>
+                <p class="header4 p-color-cement">Limeroad has a group of elite stylists who puts up trendy looks according to the recent trends and changes in
+                    the industrial tone, despite having displayed just an inventory of clothing, footwear & accessories.
+                </p>
                 <br>
-                <p class="header4 p-color-cement">However for the International bunch of customers, there is a slight
-                    issue when it comes to checking-out & shipping their purchases in from India to USA, UK, UAE, Australia & such,
-                    at an <a href="{{route('pricing')}}">affordable shipping cost</a>. Since Myntra (or its parent site Flipkart) doesn't offer to ship
-                    internationally, customers have no other choice but to look for alternative shipping options.</p> <br>
-                <p class="header4 p-color-cement">We’re a shipping & consolidation company that specializes in domestic & international logistic solutions.
-                    We handle over ₹1,000,000 worth of E-Commerce shipments and 2000 Courier pickup requests a month! A potential customer can shop
-                    from 1000+ <a href="{{route('stores1')}}">desi/Indian online stores</a> and, we ship those packages/couriers off to 220+ countries around the world. Our vision has
-                    always been to be of help to the Global Indian Community, and their need to shop authentic products from India,
-                    and help them ship it all in at a reasonable cost. </p> <br>
+                <p class="header4 p-color-cement">From Indian traditional designs that takes the Indian television by storm to sculpted hybrid
+                    outfits, they make sure to offer the versatility no other store can offer.  </p> <br>
+
+                <p class="header4 p-color-cement">Since Limeroad doesn't offer <a href="{{route('home')}}">international shipping</a> & if you are a global shopper residing out of India;
+                    you'd need a reliable courier to ship it to you while taking care of everything since the moment you place the order with the store, or even before. </p> <br>
+
+                <p class="header4 p-color-cement">ShoppRe's Shop & Ship gives you an <a href="/indian-virtual-address">Indian Virtual Address</a>which you can ship your purchases to. With a FREE storage
+                    period of 20 days and a personal locker; you can shop all you want from the store and be rest assured that all your packages are safe and sound. </p> <br>
+
+                <p class="header4 p-color-cement">If you need help with the shopping itself, or paying for your purchases;
+                    <a href="/personal-shopper-shopping-concierge-from-india">ShoppRe Personal Shopper</a> will jump in to help you
+                    out of the situation. All you have to do is, sit back and relax! Your shipment will be at your door in 3-6 business days no matter wherever in the world you are. </p> <br>
 
                 <div class="offerDesc">
-                    <h2 class="header2 p-color-cement font-weight-900">How are we the best international shipping solution from India?</h2>
-                    <p class="header4 p-color-cement">Our streamlined set of <a href="{{route('consolidationService')}}">Repackaging & Package Consolidation</a> services, helps you cut down the shipping costs to 80% lesser!</p>
+                    <h2 class="header2 p-color-cement font-weight-900">How do we ease up your Limeroad - online shopping?</h2>
+                    <p class="header4 p-color-cement">Our streamlined set of Repackaging & Consolidation services, helps you cut the shipping costs down to 80% lower!
+                        And, we make our solutions tailor-made, assisting you with all your needs on <a href="/international-parcel-forwarding-india-online-shopping">package forwarding services</a>.
+                    </p>
                     <br>
-                    <p class="header4 p-color-cement">In a sense, it is tailor-made for the Myntra-manic in you!</p>
                     <br>
                     <p class="header4 p-color-cement">All you have to do is; </p> <br>
 
@@ -95,36 +82,10 @@
                 <br>
                 <br>
                 <center>
-                    <h4 class="p-color-cement-dark flipkart-h1">International Credit/Debit Cards Giving You Trouble?</h4>
-                    <h5 class="header5 p-color-cement">No worries! Our <a href="/personal-shopper-shopping-concierge-from-india">Personal Shopper </a>will swoop in & take care of it all for you!</h5> <br>
-                    <a href="https://www.myntra.com/?src=shoppre.com" class="btn-chris-place-order">Go Shopping Now!</a>
+                    <h4 class="p-color-cement-dark flipkart-h1">Payment Hassles with International Credit/Debit Cards?</h4>
+                    <h5 class="header5 p-color-cement">No worries! Our Personal Shopper will swoop in & take care of it all for you!</h5> <br>
+                    <a href="https://www.limeroad.com/?src=shoppre.com" class="btn-chris-place-order">Go Shopping Now!</a>
                 </center>
-            </div>
-            <br>
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <div class="shopandship ">
-                        <h2>Shop & Ship</h2>
-                        <br/>
-                        <p>Shop From Myntra Online Store; Get a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ps">
-                        <h2>Personal Shopper</h2>
-                        <br>
-                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You at Myntra.com</p>
-
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ic">
-                        <h2>International Courier</h2>
-                        <br>
-                        <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
-
-                    </div>
-                </div>
             </div>
             <br>
         </div>
@@ -156,7 +117,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned of your documents</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-specific Discount</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery with online tracking</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery, online tracking</span></li>
 
                         </ul>
                     </div>
@@ -168,7 +129,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Wallet Cashback</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Package Return Services</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>International Courier Service</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Personalized Product Recommendations</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Product Recommendations</span></li>
                         </ul>
                     </div>
                 </div>
@@ -180,7 +141,10 @@
         <br>
         <div class="container">
             <center>
-                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Well, what's the wait? Sign Up with us now for a lifetime of effortless shopping!</h1>
+                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Shopping from Limeroad.com from a different country?</h1>
+                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Join us now for a lifetime of effortless</h1>
+                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Online shopping with international shipping from India!</h1>
+
                 <br>
                 <a href="{{route('customer.register')}}" class="btn-chris-place-order">Sign Up for Free</a>
 
@@ -191,7 +155,7 @@
         <div class="container div-ics-border-btm">
             <div class="container">
                 <center>
-                    <h1 class="header1  p-color-cement-dark">How <span class="p-color-blue">to Bag Your Favorites from Myntra</span>?
+                    <h1 class="header1  p-color-cement-dark">How <span class="p-color-blue">to Shop Your Favorites from Limeroad.com</span>?
                     </h1>
                 </center>
             </div>
@@ -206,10 +170,10 @@
                             <br/>
                             <br/>
                             <span class="p-color-blue">Step 1</span>
-                            <h1 class="header5 p-color-cement">Shop Myntra Products</h1>
+                            <h1 class="header5 p-color-cement">Shop Limeroad Products</h1>
                             <br>
                             <p class="p-color-cement header5">
-                                Purchase your favourite & brand products from Myntra Indian online store & Set Cash on Delivery
+                                Purchase your favourite & brand products from Limeroad online store & Set Cash on Delivery
                             </p>
 
                         </center>
@@ -266,13 +230,46 @@
                     </div>
                 </div>
             </div>
-            <br/><br/>
+            <br/>
             <center>
-                <a href="https://www.myntra.com/?src=shoppre.com">Place Your Order from Myntra Now!</a>
+                <a href="https://www.shoppre.com/personal-shopper">Shop Limeroad For Me!</a>
             </center>
-            <br/><br/>
+            <br/>
         </div>
     </section>
+    {{--<section>--}}
+        {{--<div class="container" style="background-color: #fff;padding: 20px;">--}}
+            {{--<h1 class="header2 p-color-cement-dark font-weight-900">Frequently Asked Questions: </h1>--}}
+            {{--<ul style="text-decoration: none;list-style: none">--}}
+                {{--<li>--}}
+                    {{--<h3 class="header4 p-color-cement-dark font-weight-900">How do I order an amazon product and get it delivered to UAE?</h3>--}}
+                    {{--<p class="header5 p-color-cement ">Go online and shop on Amazon.in and reach out to us, sign up on ShoppRe--}}
+                        {{--Dashboard & make your request to <a href="https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg">ship it to UAE</a>. You'll be guided by our--}}
+                        {{--Support as to how to take it from there. </p>--}}
+                {{--</li>--}}
+                {{--<li>--}}
+                    {{--<h3 class="header4 p-color-cement-dark font-weight-900">Can I buy from amazon INDIA and ship to US?</h3>--}}
+                    {{--<p class="header5 p-color-cement ">Of course you can. You can shop from Amazon.in and get us to--}}
+                        {{--ship to the USA. We ship to 220+ countries around the world.</p>--}}
+                {{--</li>--}}
+                {{--<li>--}}
+                    {{--<h3 class="header4 p-color-cement-dark font-weight-900">How do I buy from India online Stores and Ship to UK?</h3>--}}
+                    {{--<p class="header5 p-color-cement ">You can <a href="{{route('stores1')}}">shop from any Indian online store</a>, ship your purchases to us;--}}
+                        {{--and make a request to ship it internationally to your location in UK.--}}
+                        {{--For more info; contact our Support. </p>--}}
+                {{--</li>--}}
+                {{--<li>--}}
+                    {{--<h3 class="header4 p-color-cement-dark font-weight-900">Can I order different books on Amazon.in and get them delivered in single shipment to save money?</h3>--}}
+                    {{--<p class="header5 p-color-cement ">Of course. We strive to make the <a href="{{route('pricing')}}">shipping costs</a> of our customers as low as possible. So,--}}
+                        {{--we'd be behind you 100% in this matter as our main service that allows you save up is our--}}
+                        {{--Package Consolidation. You can make use of our 20-day FREE storage--}}
+                        {{--for collecting your books as well. </p>--}}
+                {{--</li>--}}
+            {{--</ul>--}}
+        {{--</div>--}}
+        {{--<br>--}}
+        {{--<br>--}}
+    {{--</section>--}}
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">
@@ -331,7 +328,6 @@
                             Team </p>
                     </div>
                 </div>
-
 
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">

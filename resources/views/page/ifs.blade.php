@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Shop & Ship | Personal Shopper | International Shipping From India - ShoppRe.com')
-@section('description', 'ShoppRe an international shipping service that allows you to shop from India, and delivery to your doorstep with 20-day FREE storage & consolidation services.')
-@section('keywords', 'shop and ship, personal shopper, storage, repackaging, consolidation service, ship from india to usa, shop from india to usa')
+@section('title', 'Shop & Ship | Online Shopping International Shipping from India | ShoppRe')
+@section('description', 'ShoppRe Online Shopping International Shipping from India allows you to shop any Indian Stores & delivery package to your doorstep. Save 80% in shipping costs.')
+@section('keywords', 'shop and ship, personal shopper, free international shipping, package consolidation, ship from india to usa, shop from india to uae')
 
 
 @section('css_style')
@@ -90,6 +90,7 @@
             <div>
                 <center>
                     <h2 class="header1 p-color-cement-dark">How it Works?</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900">Online Shopping International Shipping from India</h2>
                     <p class="header4 p-color-cement">We receive your orders at our facility; store it in a FREE, safe
                         locker;
                         <br>
@@ -922,31 +923,18 @@
                             </div>
                         </a>
                     </div>
-
-                    {{--this block is required --}}
-                    {{--<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">--}}
-                    {{--<a href="">--}}
-                    {{--<div class="btn-courier-know" style="padding-top:.1%">--}}
-                    {{--<center>--}}
-                    {{--<h2 class="header6">Know more</h2>--}}
-                    {{--</center>--}}
-                    {{--</div>--}}
-                    {{--<button class="btn h4 btn-courier-know">Know more</button>--}}
-                    {{--</a>--}}
-                    {{--</div>--}}
-                    {{--this block is required --}}
                 </div>
             </div>
         </div>
     </section>
     <section class="content-oes">
         <div class="container">
-            <h1>‘Shop & Ship’ from India; With ShoppRe!</h1>
+            <h1>SHOP & SHIP from India to Worldwide with ShoppRe!</h1>
 
             <p>E-commerce industry has revolutionized our shopping experience and we extend the same with presenting
                 ShoppRe as <a href="{{route('home')}}"> the best package forwarding company</a> for shipping international purchases . Hence ‘Shop and Ship’! </p>
 
-            <h1>What exactly is our Package Forwarding Service?</h1>
+            <h1>What exactly is our package forwarding service?</h1>
 
             <p>As almost all of the Indian Shopping Sites like Myntra, <a href="{{route('flipkart.landing')}}">Flipkart</a>, Amazon India etc. don’t offer International Shipping;
                 online shopping from India becomes the least favorable for someone who resides outside of India.

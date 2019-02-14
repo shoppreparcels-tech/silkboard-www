@@ -1,26 +1,12 @@
 @extends('layout')
 
-@section('title', 'Shop Myntra Online & Ship Internationally From India | ShoppRe.com')
-@section('description', 'Online Shopping from Myntra and Ship to US, UAE, Australia address & Upto 220+ countries. The cheapest way to courier your package from India. Sign Up for Free.')
-@section('keywords', 'Myntra International Shipping, Online Fashion Store, ship usa, how to shop')
+@section('title', 'Esty International Shipping From India | ShoppRe.com')
+@section('description', '')
+@section('keywords', '')
 
 @section('css_style')
-    <meta property="og:title" content="Shop online from Myntra fashion store & Ship Internationally with Shoppre" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.shoppre.com/myntra-online-shopping-shipping-from-india" />
-    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
-    <meta property="og:image:width" content="2506">
-    <meta property="og:image:height" content="1312">
-    <meta property="og:image:alt" content="shoppre international shipping india" />
-    <meta property="og:description" content="Buy in Myntra and Ship your purchases from India to USA, UK, UAE, Australia & such, at an affordable shipping cost." />
-    <meta property="og:site_name" content="shoppre" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="go_shoppre" />
-    <meta name="twitter:title" content="Myntra International Shipping from India " />
-    <meta name="twitter:description" content="Shop in Myntra and courier your packages from India to USA, UK, UAE, Australia at a cheap courier cost." />
-    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
-    <meta name="twitter:image:alt" content="shoppre international shipping" />
+
     <style>
         .bg-ics-landing-page .container > div {margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}
@@ -43,11 +29,10 @@
     <section class="bg-ics-landing-page">
         <div class="container">
             <center>
-                <h1 class="p-color-white header-spacing d-header-text">Myntra - International Shipping From India</h1>
-
+                <h1 class="p-color-white header-spacing d-header-text">ETSY - International Shipping From India</h1>
             </center>
-
         </div>
+
     </section>
 
 
@@ -60,28 +45,28 @@
             </div>
 
             <div class=" col-md-12 offer-description">
-                <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">Online Shopping From Myntra, But Need a Cheaper Shipping Option?</h2>
-                <h4 class="p-color-cement" style="font-style:italic">Are you one among the many international fans of Myntra, trying to ship your wishlists in this Christmas and New Year? Say no more. </h4>
+                <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">Etsy - The wonder world of arts & crafts!</h2>
+                <h4 class="p-color-cement" style="font-style:italic">Etsy India contains a world full of fresh crafts with art filled in all of their products.
+                    <br>This refreshing range of Indian merchandise from home decor to jewelry, is yours for the taking. </h4>
                 <br>
-                <p class="header4 p-color-cement">Myntra is well-known for having the widest variety and versatility in clothing and accessories.
-                    Even after being acquired by the <a href="{{route('flipkart.landing')}}">E-Commerce giant Flipkart</a>, it has been over-the-top successful in keeping true to itself and
-                    being the most reliable more than ever. And the loyal customers have remained forever-loyal as well.</p>
-                <br>
-                <p class="header4 p-color-cement">However for the International bunch of customers, there is a slight
-                    issue when it comes to checking-out & shipping their purchases in from India to USA, UK, UAE, Australia & such,
-                    at an <a href="{{route('pricing')}}">affordable shipping cost</a>. Since Myntra (or its parent site Flipkart) doesn't offer to ship
-                    internationally, customers have no other choice but to look for alternative shipping options.</p> <br>
-                <p class="header4 p-color-cement">We’re a shipping & consolidation company that specializes in domestic & international logistic solutions.
-                    We handle over ₹1,000,000 worth of E-Commerce shipments and 2000 Courier pickup requests a month! A potential customer can shop
-                    from 1000+ <a href="{{route('stores1')}}">desi/Indian online stores</a> and, we ship those packages/couriers off to 220+ countries around the world. Our vision has
-                    always been to be of help to the Global Indian Community, and their need to shop authentic products from India,
-                    and help them ship it all in at a reasonable cost. </p> <br>
+                <p class="header4 p-color-cement">Indian sellers on Etsy sure know what it's about! The variety of designs on all their merchandise is
+                    something to look out for. They offer a broad spectrum of products from handmade sweaters to expressionist wall art. </p><br>
+                <p class="header4 p-color-cement">Since the platform of Etsy doesn't offer international shipping & if you are a global shopper residing out of India;
+                    you'd need a reliable courier to ship it to you while taking care of everything since the moment you place the order with the store, or even before.</p> <br>
+                <p class="header4 p-color-cement"><a href="{{route('ifs.index')}}">ShoppRe's Shop & Ship</a> gives you an Indian Virtual Address which you can ship your purchases to. With a FREE storage period of 20
+                    days and a personal locker; you can shop all you want from the store and be rest assured that all your packages are safe and sound. </p> <br>
+                <p class="header4 p-color-cement">If you need help with the shopping itself, or paying for your purchases;
+                    <a href="/personal-shopper-shopping-concierge-from-india">ShoppRe Personal Shopper</a> will jump in to help you out of the
+                    situation. All you have to do is, sit back and relax! Your shipment will be at your door in 3-6 business days no matter wherever in the world you are.</p> <br>
+                <p class="header4 p-color-cement">ShoppRe DropShipping is another featured service you can use if you're a seller from India; you can get us to pick up the
+                    products from the maunfacturers themselves and ship them to your customers. </p> <br>
 
                 <div class="offerDesc">
-                    <h2 class="header2 p-color-cement font-weight-900">How are we the best international shipping solution from India?</h2>
-                    <p class="header4 p-color-cement">Our streamlined set of <a href="{{route('consolidationService')}}">Repackaging & Package Consolidation</a> services, helps you cut down the shipping costs to 80% lesser!</p>
+                    <h2 class="header2 p-color-cement font-weight-900">How do we ease up your Etsy - online shopping experience?</h2>
+                    <p class="header4 p-color-cement">Our streamlined set of Repackaging & Consolidation services, helps you cut the shipping costs down to 80% lower! And, we make our solutions
+                        tailor-made, assisting you with all your needs on international shipping & thereby offering the
+                        <a href="{{route('ics.index')}}">cheapest courier service from India</a>.</p>
                     <br>
-                    <p class="header4 p-color-cement">In a sense, it is tailor-made for the Myntra-manic in you!</p>
                     <br>
                     <p class="header4 p-color-cement">All you have to do is; </p> <br>
 
@@ -91,44 +76,25 @@
                         <li>Pay the never-before-like shipping cost we charge and,</li>
                         <li>Your shipment will be on it's way to reach you in 3-6 days!</li>
                     </ul>
+                    <br>
+                    <p class="header4 p-color-cement">Now, If you're a seller;</p> <br>
+
+                    <ul>
+                        <li>Schedule a pickup for your packages, giving us the address to go to (Using DropShipping)</li>
+                        <li>Or, you can forward your packages from the manufacturer to our Shop & Ship - our international package forwarding service, we'll take it from there. </li>
+                    </ul>
                 </div>
                 <br>
                 <br>
                 <center>
                     <h4 class="p-color-cement-dark flipkart-h1">International Credit/Debit Cards Giving You Trouble?</h4>
-                    <h5 class="header5 p-color-cement">No worries! Our <a href="/personal-shopper-shopping-concierge-from-india">Personal Shopper </a>will swoop in & take care of it all for you!</h5> <br>
-                    <a href="https://www.myntra.com/?src=shoppre.com" class="btn-chris-place-order">Go Shopping Now!</a>
+                    <h5 class="header5 p-color-cement">No worries! Our Personal Shopper will swoop in & take care of it all for you!</h5> <br>
+                    <a href="https://www.etsy.com/in-en/?src=shoppre.com" class="btn-chris-place-order">Go Shopping Now!</a>
                 </center>
             </div>
             <br>
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <div class="shopandship ">
-                        <h2>Shop & Ship</h2>
-                        <br/>
-                        <p>Shop From Myntra Online Store; Get a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ps">
-                        <h2>Personal Shopper</h2>
-                        <br>
-                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You at Myntra.com</p>
-
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ic">
-                        <h2>International Courier</h2>
-                        <br>
-                        <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
-
-                    </div>
-                </div>
-            </div>
             <br>
         </div>
-        <br>
         <br>
     </section>
 
@@ -156,7 +122,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned of your documents</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-specific Discount</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery with online tracking</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery, online tracking</span></li>
 
                         </ul>
                     </div>
@@ -168,109 +134,30 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Wallet Cashback</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Package Return Services</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>International Courier Service</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Personalized Product Recommendations</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Product Recommendations</span></li>
                         </ul>
                     </div>
                 </div>
                 <br/><br/>
             </div>
+
         </div>
     </section>
     <section>
         <br>
         <div class="container">
             <center>
-                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Well, what's the wait? Sign Up with us now for a lifetime of effortless shopping!</h1>
+                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Well, what's the wait? Sign Up with us now for a lifetime of effortless</h1>
+                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Online shopping & high-end Etsy/international shipping services!</h1>
+                <h1 class="flipkart-h1 p-color-cement-dark font-weight-900"><a href="{{route('ifs.index')}}">Indian Online shopping with International Shipping</a></h1>
+                <br>
                 <br>
                 <a href="{{route('customer.register')}}" class="btn-chris-place-order">Sign Up for Free</a>
-
+                <h2 class="flipkart-h1 p-color-cement-dark font-weight-900">Find out more about the offers running now on etsy.com/in-en/</h2>
+                <h3>Learn how to sell on Etsy & start setting up your seller account. </h3>
+                <h3>Place an order on Etsy, from wherever you are! We'll ship'em to you.</h3>
+                <h3>Want to learn more about the <a href="/faq">customs duties & taxes</a> concerning the US, UK & more first? </h3>
             </center>
-        </div>
-    </section>
-    <section class="product-courier ">
-        <div class="container div-ics-border-btm">
-            <div class="container">
-                <center>
-                    <h1 class="header1  p-color-cement-dark">How <span class="p-color-blue">to Bag Your Favorites from Myntra</span>?
-                    </h1>
-                </center>
-            </div>
-            <br>
-            <div class="row text-center">
-                <br/><br/>
-                <div class="col-sm-3">
-                    <div class="panel ps-img-rounded">
-                        <center>
-                            <br/>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-product.svg" alt="">
-                            <br/>
-                            <br/>
-                            <span class="p-color-blue">Step 1</span>
-                            <h1 class="header5 p-color-cement">Shop Myntra Products</h1>
-                            <br>
-                            <p class="p-color-cement header5">
-                                Purchase your favourite & brand products from Myntra Indian online store & Set Cash on Delivery
-                            </p>
-
-                        </center>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="panel ps-img-rounded">
-                        <br/>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pay-receive.svg" alt="">
-                        <br/>
-                        <br/>
-                        <span class="p-color-blue" >Step 2</span>
-                        <br>
-                        <h1 class="header5 p-color-cement">Pay & Receive</h1>
-                        <br>
-                        <p class="header6 p-color-cement">We will pay for your order and will receive your order at our
-                            ShoppRe Warehouse.
-                        </p>
-
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="panel ps-img-rounded">
-                        <br>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" alt="">
-                        <br/>
-                        <br/>
-                        <span class="p-color-blue">Step 3</span>
-                        <h1 class="header5 p-color-cement">Ship in @ 80%
-                            Less Cost</h1>
-                        <br>
-                        <p class="header6 p-color-cement">
-                            Save up to 80% in shipping costs as we wait around for 20 days for all your purchases to
-                            reach us - for FREE, and repackage & ship them to your doorsteps as one!
-                        </p>
-
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="panel ps-img-rounded"><br>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
-                        <br>
-                        <br/>
-                        <span class="p-color-blue" >Step 4</span>
-                        <br>
-                        <h1 class="header5 p-color-cement">Unbox Your
-                            Package</h1>
-                        <br/>
-                        <p class="header6 p-color-cement">
-                            We'll dispatch your shipment within 24 hours of you making a request to ship, and it will
-                            reach you safe & sound within 3-6 days, no matter wherever in the world you are!
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-            <br/><br/>
-            <center>
-                <a href="https://www.myntra.com/?src=shoppre.com">Place Your Order from Myntra Now!</a>
-            </center>
-            <br/><br/>
         </div>
     </section>
     <section class="d-contact-details-section">
@@ -331,7 +218,6 @@
                             Team </p>
                     </div>
                 </div>
-
 
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">

@@ -400,7 +400,7 @@
                     </div>
                     <div class="col-md-3 col-md-3 col-lg-3 col-sm-6 col-xs-6">
                         <center>
-                            <a href="https://www.shoppre.com/offers/save-upto-80-international-shipping-cost-from-india/">
+                            <a href="https://www.shoppre.com/member/select/plan">
                                 <img class="img-benifits img-responsive"
                                      src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save-upto-80-shipping.svg"
                                      alt="save up to 80% on international shipping">
@@ -504,9 +504,11 @@
                 </div>
                 <div class="col-xs-3  div-stores-img">
                     <center class="online-stores">
+                        <a href="/ajio-online-shopping-international-shipping">
                         <img class="img-responsive img-stores"
                              src="{{env('AWS_CLOUD_FRONT')}}/img/stores/ajio-online-shopping.png"
                              alt="ajio.com free delivery shipping">
+                        </a>
                     </center>
                 </div>
                 <div class=" col-xs-3  div-stores-img">
@@ -548,9 +550,11 @@
                 </div>
                 <div class="col-xs-3 div-stores-img">
                     <center class="online-stores">
+                        <a href="/limeroad-shopping-international-shipping">
                         <img class="img-responsive img-stores"
                              src="{{env('AWS_CLOUD_FRONT')}}/img/stores/limeroad-online-shopping-offers.png"
                              alt="limeroad.com shipping from india">
+                        </a>
                     </center>
                 </div>
                 <div class="col-xs-3 div-stores-img" id="store-hide">
