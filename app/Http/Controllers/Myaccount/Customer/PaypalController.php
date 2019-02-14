@@ -66,8 +66,9 @@ class PaypalController extends Controller
             $payment_gateway_fee = (10/100) * $final_amount;
             $final_amount += $payment_gateway_fee;
 
-            $jsondata = file_get_contents("http://free.currencyconverterapi.com/api/v3/convert?q=USD_INR&compact=ultra");
-            $USD_INR = json_decode($jsondata)->USD_INR;
+//            $jsondata = file_get_contents("http://free.currencyconverterapi.com/api/v3/convert?q=USD_INR&compact=ultra");
+            $jsondata = file_get_contents("http://apilayer.net/api/live?access_key=c6a86d6673b0065cdf9695625c6d7aeb&currencies=INR&source=USD&format=1");
+            $USD_INR = json_decode($jsondata)->quotes->USDINR;
             $amountUSD = round($final_amount / $USD_INR, 2);
 
             $payer = new Payer();
@@ -232,8 +233,8 @@ class PaypalController extends Controller
             }
 
 
-			$jsondata = file_get_contents("http://free.currencyconverterapi.com/api/v3/convert?q=USD_INR&compact=ultra");
-			$USD_INR = json_decode($jsondata)->USD_INR;
+			$jsondata = file_get_contents("http://apilayer.net/api/live?access_key=c6a86d6673b0065cdf9695625c6d7aeb&currencies=INR&source=USD&format=1");
+			$USD_INR = json_decode($jsondata)->quotes->USDINR;
 			$amountUSD = round($final_amount / $USD_INR, 2);
 
 			$payer = new Payer();
@@ -424,8 +425,8 @@ class PaypalController extends Controller
     		$payment_gateway_fee = (10/100) * $final_amount;
 			$final_amount += $payment_gateway_fee;
 
-			$jsondata = file_get_contents("http://free.currencyconverterapi.com/api/v3/convert?q=USD_INR&compact=ultra");
-			$USD_INR = json_decode($jsondata)->USD_INR;
+            $jsondata = file_get_contents("http://apilayer.net/api/live?access_key=c6a86d6673b0065cdf9695625c6d7aeb&currencies=INR&source=USD&format=1");
+            $USD_INR = json_decode($jsondata)->quotes->USDINR;
 			$amountUSD = round($final_amount / $USD_INR, 2);
 
 			$payer = new Payer();
@@ -553,8 +554,8 @@ class PaypalController extends Controller
     		$payment_gateway_fee = (10/100) * $final_amount;
 			$final_amount += $payment_gateway_fee;
 
-			$jsondata = file_get_contents("http://free.currencyconverterapi.com/api/v3/convert?q=USD_INR&compact=ultra");
-			$USD_INR = json_decode($jsondata)->USD_INR;
+            $jsondata = file_get_contents("http://apilayer.net/api/live?access_key=c6a86d6673b0065cdf9695625c6d7aeb&currencies=INR&source=USD&format=1");
+            $USD_INR = json_decode($jsondata)->quotes->USDINR;
 			$amountUSD = round($final_amount / $USD_INR, 2);
 
 			$payer = new Payer();
@@ -676,10 +677,8 @@ class PaypalController extends Controller
         $memberAmount = $request->session()->get('memberFee');
 
         if (!empty($customer_id)) {
-
-
-            $jsondata = file_get_contents("http://free.currencyconverterapi.com/api/v3/convert?q=USD_INR&compact=ultra");
-            $USD_INR = json_decode($jsondata)->USD_INR;
+            $jsondata = file_get_contents("http://apilayer.net/api/live?access_key=c6a86d6673b0065cdf9695625c6d7aeb&currencies=INR&source=USD&format=1");
+            $USD_INR = json_decode($jsondata)->quotes->USDINR;
             $amountUSD = round($memberAmount / $USD_INR, 2);
 
             $payer = new Payer();
