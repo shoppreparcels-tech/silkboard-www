@@ -32,6 +32,14 @@ body {
     color: #fe9611 !important;
 }
 
+.hide-pickup-block {
+    display: none;
+}
+
+.btn-pickup-home_mobile {
+    font-weight: 600;
+}
+
 .all-about .square-box h2, .cguide_head .left_head h2, .pagebanner h2, .services .square-box h2, .shipping-head, .slider .slide .caption-block h2, .square-box h2, .square-box h3, h2.brands-head {
     font-family: 'Myriad Pro'
 }

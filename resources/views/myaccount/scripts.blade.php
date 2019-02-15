@@ -62,6 +62,17 @@
         lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
     })();
+
+    <!--Auto Fill Chat form If Customer Already Login-->
+
+    var name = "<?php echo Auth::check()=== true ? Auth::user()->name : ''  ?>";
+    var email = "<?php echo Auth::check()=== true ? Auth::user()->email : ''  ?>";
+
+    window.__lc.visitor = {
+        name: name,
+        email: email,
+    };
+
 </script>
 <noscript>
     <a href="https://www.livechatinc.com/chat-with/10584982/" rel="nofollow">Chat with us</a>,

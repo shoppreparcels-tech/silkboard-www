@@ -175,12 +175,21 @@
         .div-h-offer>div{padding-top: 10px;}
         @media only screen and (max-width: 1024px) {
             .div-add {display: none;}
+            .mobile-pickup-block {
+                display: block;
+            }
         }
         @media only screen and (max-width: 1280px) {
             .div-add {display: none;}
+            .mobile-pickup-block {
+                display: block;
+            }
         }
         @media only screen and (max-width: 600px) {
             #img-p{display: none}
+            .mobile-pickup-block {
+                display: block;
+            }
         }
     </style>
 
@@ -320,6 +329,24 @@
                                    <img src="{{asset('img/images/number.png')}}" alt="" class="img-responsive">
                                 </a>
                             </center>
+                        </div>
+                    </div>
+
+                    <div class="col-md-10 col-xs-12 no-padding mobile-pickup-block hide-pickup-block">
+                        <br>
+                        <br>
+                        <div class="col-md-6 col-xs-6">
+                                <p>
+                                    <a class="bla-1"
+                                       href="{{route('ifs.index')}}">
+                                        <h4>Shop and Ship</h4>
+                                    </a>
+                                </p>
+                        </div>
+                        <div class="col-md-6 col-xs-6 ">
+                                <a class="bla-1" href="{{route('ics.index')}}">
+                                   <h4 class="btn-pickup-home_mobile">ShoppRe Courier</h4>
+                                </a>
                         </div>
                     </div>
                 </div>
