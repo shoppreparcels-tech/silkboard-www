@@ -674,6 +674,8 @@
 <!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4601740.js"></script>
 <!-- End of HubSpot Embed Code -->
+@include('partials._footer')
+
 @yield('js_script')
 
 </body>

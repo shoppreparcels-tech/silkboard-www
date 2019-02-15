@@ -381,23 +381,19 @@
                                     <td class="pad-20">
                                         <h6 class="f-s-26 f-c-blue f-w-9">₹2500/-</h6>
                                         <a href="{{route('member.register')}}?memberType=h"
-                                           class="btn btn-b-r btn-s-r btn-a-l btn-disabled">Get a Free
-                                            Address
+                                           class="btn btn-b-r btn-s-r btn-a-l btn-disabled btn-m-plan">Start Plan
                                         </a>
-                                        <a href="{{route('member.register')}}?memberType=h" class="btn btn-enable">Get a Free
-                                            Address
+                                        <a href="{{route('member.register')}}?memberType=h" class="btn btn-enable btn-m-plan">Start Plan
                                         </a>
 
                                     </td>
                                     <td>
                                         <h6 class="f-s-26 f-c-blue f-w-9">Free Forever</h6>
                                         <a href="{{route('customer.register')}}"
-                                           class="btn btn-b-b btn-s-b btn-a-l btn-disabled">Get a Free
-                                            Address
+                                           class="btn btn-b-b btn-s-b btn-a-l btn-disabled btn-m-plan">Free Signup
                                         </a>
                                         <a href="{{route('customer.register')}}"
-                                           class="btn-enable">Get a Free
-                                            Address
+                                           class="btn-enable btn-m-plan">Free Signup
                                         </a>
                                     </td>
                                 </tr>
@@ -715,22 +711,18 @@
                                     <td class="pad-20">
                                         <h6 class="f-s-26 f-c-blue f-w-9">₹5000/-</h6>
                                         <a href="{{route('member.register')}}?memberType=y"
-                                           class="btn btn-b-r btn-s-r btn-a-l btn-disabled">Get a Free
-                                            Address
+                                           class="btn btn-b-r btn-s-r btn-a-l btn-disabled btn-m-plan">Start Plan
                                         </a>
-                                        <a href="{{route('member.register')}}?memberType=y" class="btn-enable">Get a Free
-                                            Address
+                                        <a href="{{route('member.register')}}?memberType=y" class="btn-enable btn-m-planb">Start Plan
                                         </a>
                                     </td>
                                     <td>
                                         <h6 class="f-s-26 f-c-blue f-w-9">Free Forever</h6>
                                         <a href="{{route('customer.register')}}"
-                                           class="btn btn-b-b btn-s-b btn-a-l btn-disabled">Get a Free
-                                            Address
+                                           class="btn btn-b-b btn-s-b btn-a-l btn-disabled btn-m-plan">GFree Signup
                                         </a>
                                         <a href="{{route('customer.register')}}"
-                                           class="btn-enable">Get a Free
-                                            Address
+                                           class="btn-enable btn-m-plan">Free Signup
                                         </a>
                                     </td>
                                 </tr>

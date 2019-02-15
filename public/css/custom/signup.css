@@ -38,6 +38,7 @@
 .login-sction .loginwindow .other-feilds[type="text"]:hover,
 .login-sction .loginwindow .other-feilds[type="text"]:focus,
 .login-sction .loginwindow .other-feilds[type="text"]:active{border-radius: 20px;border: 1px solid rgba(146, 156, 165, 0.2);background-color: #fff;}
+.btn-m-plan { width: 150px; }
 
 
  input[type="number"],
