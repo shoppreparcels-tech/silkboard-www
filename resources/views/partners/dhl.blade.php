@@ -58,7 +58,7 @@
             @endif
         @endforeach
         <center>
-            {{ $shipments->appends(Request::except('page'))->links() }}  For Pagination
+           {{ $shipments->appends(Request::except('page'))->links() }}   {{--For Pagination--}}
         </center>
     </div>
 @endsection
