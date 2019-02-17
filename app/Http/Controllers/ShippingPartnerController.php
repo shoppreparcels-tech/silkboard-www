@@ -14,7 +14,7 @@ class ShippingPartnerController extends Controller
     public function dtdcIndex()
     {
         $shipments = ShipRequest::orderBy('ship_requests.id', 'asc')
-            ->with('tracking')
+            ->with('mails')
             ->select(['ship_requests.id', 'ship_requests.payment_gateway_name', 'ship_requests.city',
                 'ship_requests.weight', 'ship_requests.final_amount', 'ship_requests.full_name as customer_name',
                 'countries.name as country', 'ship_trackings.carrier'])
@@ -29,7 +29,7 @@ class ShippingPartnerController extends Controller
     public function dtdcShipmentDetail(Request $req)
     {
         $shipment = ShipRequest::orderBy('id', 'asc')
-            ->with('tracking')
+            ->with('mails')
             ->select(['ship_requests.id', 'ship_requests.package_ids', 'ship_requests.payment_gateway_name',
                 'ship_requests.city', 'ship_requests.weight', 'ship_requests.final_amount',
                 'ship_requests.full_name as customer_name',
@@ -63,7 +63,7 @@ class ShippingPartnerController extends Controller
     public function fedexIndex()
     {
         $shipments = ShipRequest::orderBy('ship_requests.id', 'asc')
-            ->with('tracking')
+            ->with('mails')
             ->select(['ship_requests.id', 'ship_requests.payment_gateway_name', 'ship_requests.city',
                 'ship_requests.weight', 'ship_requests.final_amount', 'ship_requests.full_name as customer_name',
                 'countries.name as country', 'ship_trackings.carrier'])
@@ -78,7 +78,7 @@ class ShippingPartnerController extends Controller
     public function fedexShipmentDetail(Request $req)
     {
         $shipment = ShipRequest::orderBy('id', 'asc')
-            ->with('tracking')
+            ->with('mails')
             ->select(['ship_requests.id', 'ship_requests.package_ids', 'ship_requests.payment_gateway_name',
                 'ship_requests.city', 'ship_requests.weight', 'ship_requests.final_amount',
                 'ship_requests.full_name as customer_name',
@@ -112,9 +112,9 @@ class ShippingPartnerController extends Controller
     public function dhlIndex()
     {
         $shipments = ShipRequest::orderBy('ship_requests.id', 'asc')
-            ->with('tracking')
+            ->with('mails')
             ->select(['ship_requests.id', 'ship_requests.payment_gateway_name', 'ship_requests.city',
-                'ship_requests.weight', 'ship_requests.final_amount', 'ship_requests.full_name as customer_name',
+                'ship_requests.weight', 'ship_requests.final_amount','ship_requests.shipping_status', 'ship_requests.full_name as customer_name',
                 'countries.name as country', 'ship_trackings.carrier'])
             ->join('ship_trackings', 'ship_trackings.ship_request_id', '=', 'ship_requests.id')
             ->join('countries', 'countries.id', '=', 'ship_requests.country')
@@ -126,7 +126,7 @@ class ShippingPartnerController extends Controller
     public function dhlIndexNew()
     {
         $shipments = ShipRequest::orderBy('ship_requests.id', 'asc')
-            ->with('tracking')
+            ->with('mails')
             ->select(['ship_requests.id', 'ship_requests.payment_gateway_name', 'ship_requests.city',
                 'ship_requests.weight', 'ship_requests.final_amount', 'ship_requests.full_name as customer_name',
                 'countries.name as country', 'ship_trackings.carrier'])
@@ -142,7 +142,7 @@ class ShippingPartnerController extends Controller
     public function dhlShipmentDetail(Request $req)
     {
         $shipment = ShipRequest::orderBy('id', 'asc')
-            ->with('tracking')
+            ->with('mails')
             ->select(['ship_requests.id', 'ship_requests.package_ids', 'ship_requests.payment_gateway_name',
                 'ship_requests.city', 'ship_requests.weight', 'ship_requests.final_amount',
                 'ship_requests.full_name as customer_name',
@@ -175,7 +175,7 @@ class ShippingPartnerController extends Controller
     public function dhlShipmentDetailNew(Request $req)
     {
         $shipment = ShipRequest::orderBy('id', 'asc')
-            ->with('tracking')
+            ->with('mails')
             ->select(['ship_requests.id', 'ship_requests.package_ids', 'ship_requests.payment_gateway_name',
                 'ship_requests.city', 'ship_requests.weight', 'ship_requests.final_amount',
                 'ship_requests.full_name as customer_name',

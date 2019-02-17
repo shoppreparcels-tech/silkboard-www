@@ -7,14 +7,14 @@
 @section('content')
     <div class="container">
         <center>
-            <a class="carrier_font_size" href="javascript:void(0)">FEDEX</a>
+            <a class="carrier_font_size" href="javascript:void(0)">Delivered Via FEDEX</a>
         </center>
         <h2> Shipments we sent across the Globe </h2>
         @foreach($shipments as $shipment)
             @php
                 $dispatched = '';
                 $delivered = '';
-                    foreach ($shipment -> tracking as $tracking)
+                    foreach ($shipment -> mails as $tracking)
                       {
                           if ($tracking->condition == 'ship_dispatched')
                           {
@@ -28,9 +28,10 @@
                 $dispatched = strtotime($dispatched);
                 $delivered = strtotime($delivered);
                 $datediff = $delivered - $dispatched;
-                $delivery_days = round($datediff / (60 * 60 * 24));
+                $delivery_days = (round($datediff / (60 * 60 * 24)) < 0) ? 0 : round($datediff / (60 * 60 * 24));
             @endphp
             @if(!empty($dispatched) )
+                @if($delivery_days <= 10 && !empty($delivery_days))
                 <div class="shipment_card">
                     <div class="row">
                         <div class="col-md-12" style="padding-left: 35px">
@@ -53,6 +54,7 @@
                         </div>
                     </div>
                 </div>
+                    @endif
             @endif
         @endforeach
         <center>

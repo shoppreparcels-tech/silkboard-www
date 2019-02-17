@@ -34,7 +34,7 @@
                         @php
                             $dispatched = '';
                             $delivered = '';
-                                foreach ($shipment -> tracking as $tracking)
+                                foreach ($shipment -> mails as $tracking)
                                   {
                                       if ($tracking->condition == 'ship_dispatched')
                                       {
@@ -48,9 +48,9 @@
                             $dispatched = strtotime($dispatched);
                             $delivered = strtotime($delivered);
                             $datediff = $delivered - $dispatched;
-                            $delivery_days = round($datediff / (60 * 60 * 24));
+                            $delivery_days = (round($datediff / (60 * 60 * 24)) < 0) ? 0 : round($datediff / (60 * 60 * 24));
                         @endphp
-                        @if($delivery_days)
+                        @if(!empty($delivery_days) && $delivery_days != 0)
                             <h4 class="heading_color"> Delivered From India To {{ $shipment->country }} In :
                                 {{$delivery_days}} Days.
                             </h4>

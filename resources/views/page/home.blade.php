@@ -380,7 +380,7 @@
                             </a>
                         </span>
                         &
-                        more help us sail smooth all the way to
+                        <a href="{{route('fedex.index')}}">more</a> help us sail smooth all the way to
                         your destination, wherever it is! </p>
                 </center>
 
