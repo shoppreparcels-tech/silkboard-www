@@ -437,6 +437,7 @@ Route::post('/change-password', 'Myaccount\Customer\ProfileController@changePass
 Route::get('/customer/login-success', 'Myaccount\Customer\LoginController@loginSuccess')->name('customer.login.success');
 
 Route::post('/register/survey', 'Myaccount\Customer\ProfileController@customerSurvey')->name('customer.register.survey');
+Route::post('/customer/mobile/verify', 'Myaccount\Customer\ProfileController@verifyMobile')->name('verify.mobile.submit');
 Route::get('/logout', 'Myaccount\Customer\ProfileController@logout')->name('customer.logout');
 
 // Social Login
@@ -617,7 +618,9 @@ Route::get('/2018-annual-awards-international-shipping-shopping', 'PageControlle
 //Route::get('/about-new', 'PageController@aboutIndex')->name('about-new.index');
 
 Route::get('/diwali-offer', 'PageController@diwali')->name('diwali');
+Route::get('/month-end-offer-shipping-worldwide', 'PageController@monthEndOffer')->name('monthEndOffer');
 Route::get('/send-valentines-day-gifts-international-shipping', 'PageController@valentines')->name('valentines');
+Route::get('/holi-india-shopping-with-international-delivery', 'PageController@holi')->name('holi');
 Route::get('/shop-ship', 'PageController@shopShipIndex')->name('shopship');
 Route::get('/personal-shopper-shopping-concierge-from-india', 'PageController@personalShopper')->name('personalShopper');
 Route::get('/christmas-offer', 'PageController@christmas')->name('christmas');
@@ -649,6 +652,9 @@ Route::get('/international-courier-charges-india-to-canada-per-kg', 'PageControl
 Route::get('/international-courier-charges-india-to-australia-per-kg', 'PageController@pricingAustralia')->name('australiaPerKg');
 Route::get('/international-courier-charges-india-to-singapore-per-kg', 'PageController@pricingSingapore')->name('singaporePerKg');
 Route::get('/international-courier-charges-india-to-germany-per-kg', 'PageController@pricingGermany')->name('germanyPerKg');
+Route::get('/dropshipping-from-india-and-worldwide-delivery', 'PageController@dropShipping')->name('dropShipping');
+
+
 //Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
 /*-------- Video landing pages------*/
 Route::get('/package-consolidation-international-shipping', 'PageController@videoLpConsolidation')->name('videoLpConsolidation');

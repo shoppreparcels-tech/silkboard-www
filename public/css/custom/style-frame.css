@@ -39,6 +39,8 @@
     .div-b-g{border: 1px solid rgba(146, 156, 165, 0.2);}
     .div-b-l-w{box-shadow: 0 1px 3px rgba(17, 39, 59, 0.1);background-color: #fafafb;}
     .div-b-w-s{box-shadow: 0 1px 3px rgba(17, 39, 59, 0.1);border-radius: 3px;background-color: #ffffff;}
+    .div-c{width: 44px;height: 44px;box-shadow: 0 3px 6px rgba(17, 39, 59, 0.1);border: 1px solid #ffffff;border-radius: 100px;}
+
     .b-r{border: 1px solid rgba(146, 156, 165, 0.2) !important;}
     .b-r{background-color: #ffffff;}
 
@@ -57,7 +59,7 @@
     .btn-s-b:hover, .btn-s-b:focus, .btn-s-b:active {color: white;}
     .btn-s-b:hover:before, .btn-s-b:focus:before, .btn-s-b:active:before {-webkit-transform: scaleX(1);transform: scaleX(1);}
 
-    .btn-s-r {border: none;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 5px !important;color: #fff;font-weight: 700;display: inline-block;vertical-align: middle;-webkit-transform: translateZ(0);transform: translateZ(0);-webkit-backface-visibility: hidden;backface-visibility: hidden;-moz-osx-font-smoothing: grayscale;position: relative;-webkit-transition-property: color;transition-property: color;-webkit-transition-duration: 0.3s;transition-duration: 0.3s;}
+    .btn-s-r {border: none;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 3px !important;color: #fff;font-weight: 700;display: inline-block;vertical-align: middle;-webkit-transform: translateZ(0);transform: translateZ(0);-webkit-backface-visibility: hidden;backface-visibility: hidden;-moz-osx-font-smoothing: grayscale;position: relative;-webkit-transition-property: color;transition-property: color;-webkit-transition-duration: 0.3s;transition-duration: 0.3s;}
     .btn-s-r:before {content: "";position: absolute;border-radius: 5px !important;z-index: -1;top: 0;left: 0;right: 0;bottom: 0;background: #EC7070;-webkit-transform: scaleX(0);transform: scaleX(0);-webkit-transform-origin: 0 50%;transform-origin: 0 50%;-webkit-transition-property: transform;transition-property: transform;-webkit-transition-duration: 0.3s;transition-duration: 0.3s;-webkit-transition-timing-function: ease-out;transition-timing-function: ease-out;}
     .btn-s-r:hover, .btn-s-r:focus, .btn-s-r:active {color: white;}
     .btn-s-r:hover:before, .btn-s-r:focus:before, .btn-s-r:active:before {-webkit-transform: scaleX(1);transform: scaleX(1);}
@@ -124,8 +126,15 @@
 
     .no-pad{padding:0;}
 
+    .m-t-10{margin-top: 10px}
+    .m-t-15{margin-top: 15px}
+    .m-t-20{margin-top: 20px}
+    .m-t-25{margin-top: 25px}
+    .m-t-30{margin-top: 30px}
+
 
     .display-none{display: none}
+    .display-i-b{display: inline-block}
 
     /*shipments-page*/
 
@@ -144,8 +153,7 @@
     .left-pad{padding-left: 0}
     .right-pad{padding-right: 0}
 
-
-
+    .img-f-w{width:100%}
 
     /*pricing table*/
     #memberplans {font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;border-collapse: collapse;width: 100%;}

@@ -52,8 +52,8 @@
                     <br>
                 </div>
                 <div class="col-md-12 col-xs-12 no-pad">
-                    <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Buy For Me</a>
-                    <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Shop Now</a>
+                    <a href="/personal-shopper" class="btn btn-s-r btn-b-r btn-a-l">Buy For Me</a>
+                    <a href="/indian-online-stores" class="btn btn-s-b btn-b-b btn-a-f-w">Indian Shopping Stores</a>
                 </div>
             </div>
 

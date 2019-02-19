@@ -357,9 +357,17 @@ class ProfileController extends Controller
         return view('myaccount.customer.locker._all')->with(['customer' => $customer,'package_count' => $package_count, 'ships' => $ships, 'reviews' => $reviews, 'confirms' => $confirms, 'packages' => $packages, 'shipQueue' => $shipQueue, 'survey' => $survey, 'shipConfirm' => $shipConfirm]);
     }
 
+    public function verifyMobile(Request $request) {
+        $customer_id = Auth::id();
+        $customer = Customer::where('id', $customer_id)->first();
+        $customer->phone = $request->mobile;
+        $customer->save();
+        return redirect()->back()->with(['message'=>'success']);
+    }
+
     public function customerSurvey(Request $request)
     {
-        if(!empty($request->source)) {
+            if(!empty($request->source)) {
             $customer_id = Auth::id();
             $product_category = " ";
             if (!empty($request->get('productCategory')))

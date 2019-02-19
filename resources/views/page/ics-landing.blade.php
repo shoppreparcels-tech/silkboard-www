@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'International Courier Charges from India | Starting from ₹695/-')
+@section('title', 'Send International Courier from India | Starting at ₹566/-')
 @section('description', 'Want to courier abroad from India? We ship to 2220 countries. Send homemade food, sweets, utensils, cloths, books. Special Discounts rates for bulk shipments.')
 @section('keywords', 'international courier, cargo services, shipping, delivery, schedule a pickup')
 
@@ -11,6 +11,7 @@
         .d-header-text1 {font-family: Montserrat -Italic;font-style: italic;line-height: 26px;margin-top: 25px}
         .box-steps p {line-height: 1;}
         .box-steps p span {font-size: 22px;font-weight: 900;}
+        .seo-sec a{text-decoration: underline}
         #packing:hover{display: none}
         .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 580px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;        }
         @media only screen and (max-width: 600px) {
@@ -37,7 +38,7 @@
                 <div class="col-md-12 col-xs-12 no-pad">
                     <h1 class="p-color-white header-spacing d-header-text">International Courier
                         <br></h1>
-                    <h1 class="header1 p-color-white header-spacing">Starting @₹695/-</h1>
+                    <h1 class="header1 p-color-white header-spacing">Starting @₹566/-</h1>
 
                     <p class="p-color-white header5 d-header-text1">Want
                         to courier something abroad from India?<br>
@@ -48,7 +49,7 @@
                 </div>
                 <div class="col-md-12 col-xs-12 no-pad">
                     <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Schedule Pickup</a>
-                    <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Estimate</a>
+                    <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Shipping Calculator</a>
                 </div>
 
             </div>
@@ -87,13 +88,13 @@
                             <center>
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/request-sent.svg" alt="">
                                 <h6 class="header5 p-color-blue">Request Sent!</h6>
-                                <h5 class="header5 p-color-cement">Just One More Step To start <br>scheduling your
-                                    courier</h5>
+                                <h5 class="header5 p-color-cement">Just One More Step To start <br>Scheduling your
+                                    Courier</h5>
                             </center>
 
                         </div>
                         <div class="text-center">
-                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-d-signup">Sign
+                            <a href="{{route('customer.register')}}" class="btn btn-d-signup">Free Sign
                                 Up</a>
                         </div>
                     </div>
@@ -102,10 +103,39 @@
         </div>
     </section>
 
+    <section class="seo-sec">
+        <div class="container">
+            <div class="col-md-12 col-xs-12 pad-t-20">
+                <center>
+                    <div class="col-md-4 col-xs-12 pad-20 ">
+                        <a href="/international-courier-charges-india-to-usa-per-kg">Courier Rates from India to USA per kg</a>
+                    </div>
+                    <div class="col-md-4 col-xs-12 pad-20">
+                        <a href="/international-courier-charges-india-to-uae-per-kg">Courier Charges starts from ₹570 UAE</a>
+                    </div>
+                    <div class="col-md-4 col-xs-12  pad-20">
+                        <a href="/international-courier-charges-india-to-canada-per-kg">Courier charges from India to Canada</a>
+                    </div>
+                </center>
+            </div>
 
+            <div class="col-md-12 col-xs-12 no-pad">
+                <center>
+                    <div class="col-md-4 col-xs-12  pad-20">
+                        <a href="/international-courier-charges-india-to-germany-per-kg">Shipping Rates from india to Germany</a>
+                    </div>
+                    <div class="col-md-4 col-xs-12  pad-20">
+                        <a href="/international-courier-charges-india-to-australia-per-kg">Low Cost Courier Per Kg to Australia</a>
+                    </div>
+                    <div class="col-md-4 col-xs-12 pad-20">
+                        <a href="/international-courier-charges-india-to-singapore-per-kg">Cheapest rates from India to Singapore</a>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </section>
     <section class="product-courier ">
         <div class="container no-padding div-ics-border-btm">
-
             <center>
                 <h1 class="f-c-d-greay f-s-30 f-w-8" >
                     Send International Courier from India - To USA, UAE, UK, Australia, Canada, Singapore, Saudi Arabia, Mauritius & 200 other

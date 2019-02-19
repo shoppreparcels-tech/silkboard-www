@@ -68,13 +68,6 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="{{route('valentines')}}" target="_blank">
-                                    <img src="{{asset('img/images/valentines.png')}}" class="boxofScroll" alt="Offer first international shipment"/>
-                                </a>
-                            </div>
-                        </div>
 
                         <div class="item">
                             <div class="pad15">

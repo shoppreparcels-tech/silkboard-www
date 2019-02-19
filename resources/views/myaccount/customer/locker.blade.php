@@ -66,6 +66,25 @@
         </div>
       </div>
     @endif
+    @if(empty(Auth::guard('customer')->user()->phone))
+        <div class="mobile-verification-popup">
+            <div class="whitebox">
+                <br>
+                <br>
+                <h3>Verify Your mobile number</h3>
+                <p>To continue your to profile</p>
+                <form class="mobileform" action="{{route('verify.mobile.submit')}}" method="post">
+                    {{csrf_field()}}
+                    <div class="form-group">
+                        <input type="text" name="mobile" class="form-control" placeholder="Enter your mobile number" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-shoppre">Verify and Continue</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    @endif
 
     @if(Auth::guard('customer')->user()->email_verify == 'yes')
 

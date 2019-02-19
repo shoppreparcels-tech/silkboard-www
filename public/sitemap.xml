@@ -131,9 +131,24 @@
     <priority>0.60</priority>
 </url>
 <url>
-<loc>https://www.shoppre.com/send-valentines-day-gifts-international-shipping</loc>
-<changefreq>daily</changefreq>
+    <loc>https://www.shoppre.com/holi-india-shopping-with-international-delivery</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/dropshipping-from-india-and-worldwide-delivery</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/month-end-offer-shipping-worldwide</loc>
+    <changefreq>daily</changefreq>
 <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/send-valentines-day-gifts-international-shipping</loc>
+    <changefreq>daily</changefreq>
+<priority>0.60</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-parcel-forwarding-india-online-shopping</loc>

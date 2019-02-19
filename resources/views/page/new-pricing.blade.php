@@ -139,7 +139,7 @@
                                     @endforeach
                                 </select>
                             </div>
-                            <div class="col-md-6 col-xs-12 l-pad">
+                            <div class="col-md-6 col-xs-12 l-pad pad-t-10">
                                 <a class="f-s-14 f-c-blue cursor-type-p" data-toggle="modal" data-target="#ratesModel" id="getRates">View Rates up to 10 Kg</a>
                             </div>
                         </div>
@@ -259,9 +259,12 @@
                             {{--<div class="col-md-6 col-xs-12 pad-r-10"><br>--}}
                                 {{--<input id="phone" name="phone" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off">--}}
                             {{--</div>--}}
-                            <div class=" col-md-offset-4 col-md-4 col-xs-12 no-pad"><br>
-                                <button class="btn btn-b-r btn-s-r btn-f-w btn-h-40" >Get An Estimate</button>
-                            </div>
+                            {{--<div class=" col-md-offset-4 col-md-4 col-xs-12 no-pad"><br>--}}
+                            <center>
+                                <button class="btn btn-b-r btn-s-r btn-xl btn-h-40" >Get An Estimate</button>
+                            </center>
+
+                            {{--</div>--}}
                         </div>
                     </form>
                     <br>
@@ -294,12 +297,12 @@
                                     <div class="col-md-6 col-xs-6 pull-left no-pad">
                                         <h2 class="f-s-30 f-c-blue">₹<span id="customer-price-tag"></span></h2>
                                     </div>
-                                    <div class="col-md-3 col-xs-3 pull-left pad-t-20">
+                                    {{--<div class="col-md-3 col-xs-3 pull-left pad-t-20">--}}
                                         <h4 class="f-s-14 f-c-l-gray"><strike>₹<span id="customer_total_price"></span></strike></h4>
-                                    </div>
-                                    <div class="col-md-3 col-xs-3 pull-left pad-t-20">
+                                    {{--</div>--}}
+                                    {{--<div class="col-md-3 col-xs-3 pull-left pad-t-20">--}}
                                         <h4 class="f-s-14 f-c-red">50% OFF </h4>
-                                    </div>
+                                    {{--</div>--}}
 
                                 </div>
                                 <div class="col-xs-12 col-md-12 no-pad">
@@ -510,7 +513,7 @@
                                             <h14 class="f-s-18 f-c-d-greay">Features</h14>
                                         </th>
                                         <th class="col-md-4 col-xs-5 no-pad">
-                                            <img src="{{asset('img/images/m-premium.png')}}" style="width: 100%" class=""
+                                            <img src="{{asset('img/images/m_premium.png')}}" style="width: 100%" class=""
                                                  alt=""> <br>
                                         </th>
                                         <th class="col-md-4 col-xs-5 no-pad">
@@ -706,14 +709,14 @@
                                             <h6 class="f-s-16 f-c-blue">5 - 10 Kg -> ₹3009</h6>
                                             <h6 class="f-s-16 f-c-blue">10 - 15 Kg -> ₹5369</h6>
                                             <h6 class="f-s-16 f-c-blue">Above 15 Kg -> ₹7729</h6>
-                                            <span class="f-s-10 f-c-blue">*Weight in Kg per shipment</span>
+                                            <span class="f-s-12 f-c-blue">*Weight in Kg per shipment</span>
                                         </td>
                                         <td>
                                             <h6 class="f-s-16 f-c-l-gray">0.5 - 5 Kg -> ₹1392.4 </h6>
                                             <h6 class="f-s-16 f-c-l-gray">5 - 10 Kg -> ₹3009</h6>
                                             <h6 class="f-s-16 f-c-l-gray">10 - 15 Kg -> ₹5369</h6>
                                             <h6 class="f-s-16 f-c-l-gray">Above 15 Kg -> ₹7729</h6>
-                                            <span class="f-s-10 f-c-l-gray">*Weight in Kg per shipment</span>
+                                            <span class="f-s-12 f-c-l-gray">*Weight in Kg per shipment</span>
                                         </td>
                                     </tr>
                                     <tr class="tr-hide">
@@ -1036,14 +1039,14 @@
                                             <h6 class="f-s-16 f-c-blue">5 - 10 Kg -> ₹3009</h6>
                                             <h6 class="f-s-16 f-c-blue">10 - 15 Kg -> ₹5369</h6>
                                             <h6 class="f-s-16 f-c-blue">Above 15 Kg -> ₹7729</h6>
-                                            <span class="f-s-10 f-c-blue">*Weight in Kg per shipment</span>
+                                            <span class="f-s-12 f-c-blue">*Weight in Kg per shipment</span>
                                         </td>
                                         <td>
                                             <h6 class="f-s-16 f-c-l-gray">0.5 - 5 Kg -> ₹1392.4 </h6>
                                             <h6 class="f-s-16 f-c-l-gray">5 - 10 Kg -> ₹3009</h6>
                                             <h6 class="f-s-16 f-c-l-gray">10 - 15 Kg -> ₹5369</h6>
                                             <h6 class="f-s-16 f-c-l-gray">Above 15 Kg -> ₹7729</h6>
-                                            <span class="f-s-10 f-c-l-gray">*Weight in Kg per shipment</span>
+                                            <span class="f-s-12 f-c-l-gray">*Weight in Kg per shipment</span>
                                         </td>
                                     </tr>
                                     <tr class="tr-hide">
@@ -1179,10 +1182,10 @@
                     <p class="f-s-16 f-c-l-gray">
                         Country-specific discounts applied to individual countries ease up the cost initially and throw in our Membership Plans,
                         and it's on! ShoppRe tries in however many ways it can to reduce the shipping costs as much as
-                        possible so that our customers can <a href="{{route('home')}}">ship from India</a> without any worry.
+                        possible so that our customers can <a href="{{route('home')}}" class="f-c-blue">ship from India</a> without any worry.
                     </p> <br>
                     <p class="f-s-16 f-c-l-gray">
-                        Have a <a href="{{route('forwarding')}}">package to forward</a> or courier overseas? Use our Price Calculator to get an estimate & make a Ship Request - it is that easy!
+                        Have a <a href="{{route('forwarding')}}" class="f-c-blue">package to forward</a> or courier overseas? Use our Price Calculator to get an estimate & make a Ship Request - it is that easy!
                     </p> <br>
                 </div>
                 <br>

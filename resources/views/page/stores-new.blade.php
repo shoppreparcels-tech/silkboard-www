@@ -1,9 +1,9 @@
 @extends('layout')
 @extends('add-sense')
 
-@section('title', 'Indian Online Stores: List of Top Indian Shopping Sites | ShoppRe.com')
+@section('title', 'Top Stores: Indian Shopping Sites with International Delivery througy ShoppRe.com')
 @section('description', 'Shop from list of Top Indian Shopping Sites, Facebook & Instagram Sellers. Save by combining multiple packages into one and get it shipped to your country.')
-@section('keywords', 'shop, list of top indian shopping sites, facebook, instagram sellers, multiple packages, shipped to your country')
+@section('keywords', 'shop, list of top indian shopping sites, facebook, instagram sellers, multiple packages, international delivery')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/indian-online-stores"/>
@@ -411,6 +411,7 @@
 
     <section class="content-oes-stores">
        <div class="container">
+           <h1 class="f-s-28">Indian Shopping Sites with International Delivery througy ShoppRe.com </h1>
            <h1>Did you know that India has over 1000 shopping portals online? The number is only going up by day. </h1>
 
            <p>The beauty of e-commerce is, it makes the market truly borderless. Indian trends are gaining popularity and global shoppers are noticing Indian Online Stores now more than ever!</p>

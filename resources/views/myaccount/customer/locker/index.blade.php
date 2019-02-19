@@ -8,11 +8,8 @@
   <!-- Owl Carousel -->
   <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
 @endsection
-
 @section('content')
-
   @if(empty($survey))
-
     <div class="transcontain">
       <div class="whitebox">
         <span class="pull-right" onClick="$('.transcontain').hide();" style="cursor: pointer;">X</span>
@@ -83,6 +80,27 @@
       </div>
     </div>
   @endif
+
+  @if(empty(Auth::guard('customer')->user()->phone))
+    <div class="mobile-verification-popup">
+      <div class="whitebox">
+        <br>
+        <br>
+        <h3>Verify Your mobile number</h3>
+        <p>To continue your to profile</p>
+        <form class="mobileform" action="{{route('verify.mobile.submit')}}" method="post">
+          {{csrf_field()}}
+          <div class="form-group">
+            <input type="text" name="mobile" class="form-control" placeholder="Enter your mobile number" required>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-shoppre">Verify and Continue</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    @endif
+
   @if (isset($IS_NEW) && $IS_NEW)
     @include('myaccount.partials._banner')
   @else

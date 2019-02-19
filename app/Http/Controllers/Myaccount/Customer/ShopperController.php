@@ -148,7 +148,7 @@ class ShopperController extends Controller
 	        $shopOrder->country_code = $country_code;
             $customer = Customer::find($customer_id);
             $ps_name = $customer->name.'-'.$shopOrder->customer_id.' - PS Order';
-            $ps_details = "Order Number - ".$shopOrder->reference_number." , seller name - ".$shopOrder->seller." , Phone - ".$shopOrder->country_code." - ".$shopOrder->phone;
+            $ps_details = "Order Number - ".$shopOrder->reference_number." , seller name - ".$shopOrder->seller." , Phone - ".$shopOrder->country_code." - ".$shopOrder->phone. ", Email - ".$customer->email;
             $response = AsanaTaskOperations::createTask($ps_name, $ps_details, "P");
             $phpArray = json_decode($response,true);
             $shopOrder->asana_url = "https://app.asana.com/0/1106432437090454/".$phpArray['data']['id'];
@@ -715,7 +715,7 @@ class ShopperController extends Controller
             $order->country_code = $country_code;
             $customer = Customer::find($customer_id);
             $self_name = $customer->name.'-'.$order->customer_id.' - PS Self Order';
-            $self_details = "Order Number - ".$order->reference_number." , seller name - ".$order->seller." , Phone - ".$order->country_code." - ".$order->phone;
+            $self_details = "Order Number - ".$order->reference_number." , seller name - ".$order->seller." , Phone - ".$order->country_code." - ".$order->phone. ", Email - ".$customer->email;
             $response = AsanaTaskOperations::createTask($self_name, $self_details, "P");
             $phpArray = json_decode($response,true);
             $order->asana_url = "https://app.asana.com/0/1106432437090454/".$phpArray['data']['id'];

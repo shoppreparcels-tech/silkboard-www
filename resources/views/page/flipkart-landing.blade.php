@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'How to buy products in Flipkart & Ship Internationally From India')
+@section('title', 'Flipkart International Shipping From India | Shop & Ship with ShoppRe')
 @section('description', 'Shop products online from Flipkart India & ship internationally at reasonable shipping costs. Sign Up for Free & get an Indian virtual shipping address.')
 @section('keywords', 'How to buy in Flipkart, shopping, shipping, ecommerce, online store, packages, offers')
 
@@ -43,7 +43,7 @@
     <section class="bg-ics-landing-page">
         <div class="container">
             <center>
-                <h1 class="p-color-white header-spacing d-header-text">Flipkart - International Shipping From India</h1>
+                <h1 class="p-color-white header-spacing d-header-text">Flipkart International Shipping From India</h1>
 
             </center>
 
@@ -55,7 +55,7 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">What We Offer in a Nutshell</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart Upcoming Offers/Sales</h2>
                 </div>
                 {{--<div class="col-md-2 col-md-offset-1 col-xs-12">--}}
                     {{--<a href="tel:+91-80 4094 4077" class="c-image">--}}
@@ -66,24 +66,26 @@
             <div class="row text-center">
                 <div class="col-sm-4">
                     <div class="shopandship ">
-                        <h2>Shop & Ship</h2>
+                        <h2>Flipkart Cashless Pay Day</h2>
                         <br/>
-                        <p>Shop From Flipkart Online Indian Store; Get It to a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
+                        <p>Upto 50% OFF + 10% extra discount on prepaid orders</p>
+                        <p>1st & 2nd March 2019</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
-                        <h2>Personal Shopper</h2>
+                        <h2>Flipkart Women's Day Sale</h2>
                         <br>
-                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You at Flipkart.com</p>
-
+                        <p> Lots of fascinating deals and offers especially tailor made for the women.</p>
+                        <p>08th March 2019</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ic">
-                        <h2>International Courier</h2>
+                        <h2>Flipkart Holi Sale</h2>
                         <br>
-                        <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
+                        <p>Best Offers & deals on Electronics & Holi Essentials during the sale.</p>
+                        <p>20th March 2019 </p>
 
                     </div>
                 </div>

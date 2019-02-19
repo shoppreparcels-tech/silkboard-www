@@ -6,7 +6,7 @@
 
 @section('css_style')
     <link rel="stylesheet" href="{{asset('css/animations.css')}}" >
-    <link rel="stylesheet" href="{{asset('css/award.css')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/award.css')}}">
 
     <meta property="og:title" content="ShoppRe Awards 2018: Best Online Shops, Shoppers, Shipper, Courier & Seller"/>
     <meta property="og:type" content="website"/>
@@ -421,7 +421,7 @@
                 </div><!-- /.col-sm-8 -->
                 <div class="divider"></div>
                 <div class="col-sm-6 col-md-6 text-right">
-                    <a href="{{route('pricing1')}}" id="singlebutton" name="singlebutton" class="btn btn-primary btn-red btn-award">Our Pricing</a>
+                    <a href="{{route('pricing')}}" id="singlebutton" name="singlebutton" class="btn btn-primary btn-red btn-award">Our Pricing</a>
                     {{--<button id="singlebutton" name="singlebutton" class="btn btn-primary btn-red btn-award">Check Out--}}
                         {{--Our Pricing--}}
                     {{--</button>--}}

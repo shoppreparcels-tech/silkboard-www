@@ -441,6 +441,18 @@ class PageController extends Controller
     {
         return view('page.valentines');
     }
+    public function monthEndOffer()
+    {
+        return view('page.landing-pages.month-end-offer');
+    }
+    public function holi()
+    {
+        return view('page.holi');
+    }
+    public function dropShipping()
+    {
+        return view('page.landing-pages.drop-shipping');
+    }
 
     public function radioContest()
     {

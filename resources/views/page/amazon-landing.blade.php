@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Shop Amazon.in & Ship Internationally From India | ShoppRe.com')
+@section('title', 'Amazon.in Online Shopping International Shipping India | ShoppRe')
 @section('description', 'Shop online from Amazon India and Ship Internationally with ShoppRe Upto 220+ countries. The fast & cheapest way to ship your package from India. Sign Up Free.')
 @section('keywords', 'Amazon International Shipping, great indian sale, ship india')
 
@@ -43,17 +43,47 @@
     <section class="bg-ics-landing-page">
         <div class="container">
             <center>
-                <h1 class="p-color-white header-spacing d-header-text">Amazon.in - International Shipping From India</h1>
+                <h1 class="p-color-white header-spacing d-header-text">Amazon Online Shopping <br> International Shipping India</h1>
             </center>
         </div>
     </section>
-
 
     <section class=" ">
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>
+                </div>
+            </div>
+            <h3>Amazon.in Offers/Sales</h3>
+            <div class="row text-center">
+                <div class="col-sm-4">
+
+                    <div class="shopandship ">
+                        <h2>Mi Days</h2>
+                        <br/>
+                        <p>Up to ₹4,500 Off‎</p>
+                        <p>Redmi 6A, Mi A2, Note 5 Pro‎</p>
+                        <p> 19th to 23rd February 2019</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ps">
+                        <h2>Amazon Super Value Day</h2>
+                        <br>
+                        <p>Up to 50% discount on daily essentials. Low Prices on Popular Products‎</p>
+                        <p> 1st to 7th March 2019</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ic">
+                        <h2>Amazon Holi Sale</h2>
+                        <br>
+                        <p>Enjoy the great offers in almost all categories of products</p>
+                        <p>17th to 20th March 2019</p>
+
+                    </div>
                 </div>
             </div>
 
@@ -102,31 +132,6 @@
                 </center>
             </div>
             <br>
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <div class="shopandship ">
-                        <h2>Shop & Ship</h2>
-                        <br/>
-                        <p>Shop From Amazon.in Store; Get a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ps">
-                        <h2>Personal Shopper</h2>
-                        <br>
-                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You at Amazon.in</p>
-
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ic">
-                        <h2>International Courier</h2>
-                        <br>
-                        <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
-
-                    </div>
-                </div>
-            </div>
             <br>
         </div>
         <br>
