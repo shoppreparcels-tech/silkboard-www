@@ -1,11 +1,11 @@
 @extends('layout')
 
-
-@section('title', 'Personal Shopper Video LP')
-@section('description', 'video')
-@section('keywords', '')
+@section('title', 'Best Shopping International Shipping from India | Personal Shopper')
+@section('description', 'Shopping now made easy with ShoppRe personal shopper. Hire one of our experts to shop for you and get shipped your packages doorstep worldwide. Sign Up today!')
+@section('keywords', 'nri shopping, personal shopper, virtual shipping address, online shopping from usa to india')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/personal-shopper-online-shopping-from-india-shipping" />
     <style>
         .vid-h-w{height: 560px; width: 100%}
         .div-b-l-w ul li{list-style: none; color:#929ca5; font-weight: 700;font-size: 18px; }
@@ -70,10 +70,15 @@
                <h1 class="f-s-20 f-c-d-greay f-w-8 txt-a-l">Here's how we operate;</h1>
                <ul>
                    <li>1. You'd have to Sign Up with ShoppRe</li>
+                   <br>
                    <li>2. Paste the links of your purchases from your ShoppRe DashBoard</li>
+                   <br>
                    <li>3. We'll make the purchase(s) for you.</li>
+                   <br>
                    <li>4. The packages reach our facility.</li>
+                   <br>
                    <li>5. You pay the bill including the nominal shipping fee we charge.</li>
+                   <br>
                    <li>6. And, make a Ship Request whenever you're ready to ship them in.</li>
                </ul>
                <br>
@@ -136,26 +141,26 @@
     <div class="container">
         <div class="col-md-3 col-sm-3 col-xs-6">
             <ul class="nav-ul">
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="/package-consolidation-international-shipping">Package Consolidation & Shipping</a></li>
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="/best-affordable-international-courier-services-in-india" target="_blank">Affordable International Courier</a></li>
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="/amazon-india-shop-international-shipping">Amazon.in International Delivery</a></li>
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="/flipkart-shopping-with-shoppre-from-india">Flipkart.com International Delivery</a></li>
             </ul>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6">
             <ul class="nav-ul">
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('packers-movers')}}">Relocation, Packers & Movers</a></li>
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('forwarding')}}" target="_blank">Package Forwarding from India</a></li>
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="/myntra-online-shopping-shipping-from-india">Myntra.com International Delivery</a></li>
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="/ajio-online-shopping-international-shipping">Ajio.com International Delivery</a></li>
             </ul>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6">
             <ul class="nav-ul">
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="/international-courier-charges-india-to-usa-per-kg">Courier Charges USA Per Kg</a></li>
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="international-courier-charges-india-to-uae-per-kg">Courier Charges UAE Per Kg</a></li>
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="/jaypore-international-shipping-from-india">Jaypore.com International Delivery</a></li>
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="/limeroad-shopping-international-shipping">Limeroad International Delivery</a></li>
             </ul>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6">
             <ul class="nav-ul">
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="/international-courier-charges-india-to-canada-per-kg">Courier Charges Canada Per Kg</a></li>
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="/medicine-international-courier-from-india">Medicine International Courier</a></li>
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="/etsy-international-shipping-from-india">Etsy.com International Delivery</a></li>
+                <li class="li"><a class="f-s-14 f-c-l-gray" href="/personal-shopper-india">Onlline Shopping Concierge Service</a></li>
             </ul>
         </div>
     </div>

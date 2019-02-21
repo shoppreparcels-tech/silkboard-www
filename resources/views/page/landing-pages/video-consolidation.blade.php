@@ -1,11 +1,11 @@
 @extends('layout')
 
-
-@section('title', 'Consolidation Video LP')
-@section('description', 'video')
-@section('keywords', '')
+@section('title', 'How Does Package Consolidation Help You? Saving 80% on shipping costs')
+@section('description', 'Packages from multiple Indian online stores consolidated and ship to you as one package. Help you saving international shipping costs up to 80%')
+@section('keywords', 'shipping costs, package consolidation, shipment, smart shoppers')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/package-consolidation-international-shipping" />
     <style>
         .vid-h-w{height: 560px; width: 100%}
         .div-b-l-w ul li{list-style: none; color:#929ca5; font-weight: 700;font-size: 16px; }
@@ -59,7 +59,7 @@
                    too from a faraway country. And, single international shipments cost a load that you can’t be serious in considering shipping in individual
                    shipments. The first 0.5 Kg costing the most and all.</li>
                <br>
-               <li>2. Indian online stores that ship internationally would be few to none. If the online shop that you’re trying to shop from doesn’t ship internationally,
+               <li>2. <a href="{{route('stores1')}}">Indian online stores that ship internationally</a> would be few to none. If the online shop that you’re trying to shop from doesn’t ship internationally,
                    you’d have no choice but to go for an alternative solution to ship your purchases in.</li>
 
            </ul>
@@ -74,7 +74,7 @@
 
            </ul>
            <p class="f-s-16 f-c-l-gray f-w-6 txt-a-l">
-               If you need assistance shopping, you can make use of our Personal Shopper Services too. From local credentials to payment; they will be of immense help.
+               If you need assistance shopping, you can make use of our <a href="/personal-shopper-india">Personal Shopper Services</a> too. From local credentials to payment; they will be of immense help.
            </p>
            <br>
            <ul>
@@ -88,8 +88,6 @@
            <p class="f-s-16 f-c-l-gray f-w-6 txt-a-l">Okay then,</p>
            <p class="f-s-16 f-c-l-gray f-w-6 txt-a-l">Shop From India & Ship Worldwide with ShoppRe from now on! </p>
            <p class="f-s-16 f-c-l-gray f-w-6 txt-a-l"><a href="https://twitter.com/hashtag/EasyShippingByShoppRe">#EasyShippingByShoppRe</a></p>
-
-
            <br>
            <br>
        </div>
@@ -116,7 +114,7 @@
                         <ul>
                             <li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>Affordable Rates</span></li>
                             <li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>Scanned Copies for Document-couriers</span></li>
+                            <li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>Document Couriers</span></li>
                             <li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>Country-specific</span></li>
 
                         </ul>

@@ -2,8 +2,8 @@
 
 
 @section('title', 'Month End Exclusive Offer | ₹200 | Worldwide Shipping | ShoppRe.com')
-@section('description', 'video')
-@section('keywords', '')
+@section('description', 'International Shipping Month End Exclusive Offer Cashback ₹200. For customers who does 3 times shipment/month. Use Code: MEND20')
+@section('keywords', 'mend20, month end offer, worldwide shipping')
 
 @section('css_style')
     <style>
@@ -24,9 +24,7 @@
            </div>
            <div class="col-md-12 col-xs-12">
                <h1 class="f-s-28 f-c-d-greay f-w-9">Benefit for all the customers who does 3 times shipment/month</h1>
-               {{--<p class="f-s-18 f-c-d-greay f-w-6">Consolidating multiple packages into one shipment has the potential to save a big chunk of your--}}
-                   {{--international shipping costs - up to 80% of it, it seems!--}}
-               {{--</p>--}}
+
            </div>
        </div>
     </section>
@@ -97,51 +95,6 @@
             </div>
         </div>
     </section>
-    {{--<section class="benefits">--}}
-        {{--<div class="container" >--}}
-            {{--<center>--}}
-                {{--<h1 class="header1 p-color-cement-dark">Featured Services & Benefits</h1>--}}
-            {{--</center>--}}
-            {{--<br>--}}
-            {{--<div class="row text-center">--}}
-                {{--<div class="col-sm-4">--}}
-                    {{--<div class="panel ">--}}
-                        {{--<ul>--}}
-                            {{--<li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>Personal Shopper</span></li>--}}
-                            {{--<li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>20-Day Free Storage</span></li>--}}
-                            {{--<li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>Consolidation</span></li>--}}
-                            {{--<li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>Repackaging</span></li>--}}
-                        {{--</ul>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="col-sm-4">--}}
-                    {{--<div class="panel ">--}}
-                        {{--<ul>--}}
-                            {{--<li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>Affordable Rates</span></li>--}}
-                            {{--<li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>--}}
-                            {{--<li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>Scanned Copies for Document-couriers</span></li>--}}
-                            {{--<li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>Country-specific</span></li>--}}
-
-                        {{--</ul>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="col-sm-4">--}}
-                    {{--<div class="panel ">--}}
-                        {{--<ul>--}}
-                            {{--<li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>Photo Updates</span></li>--}}
-                            {{--<li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>Wallet Cashback</span></li>--}}
-                            {{--<li><img src="{{asset('img/chris-circle.png')}}" alt=""><span>Package Return Services</span></li>--}}
-                            {{--<li><img src="{{asset('img/chris-circle.png')}}" alt=""><span> Product Recommendations</span></li>--}}
-                        {{--</ul>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<br/><br/>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-        {{--<br>--}}
-        {{--<br>--}}
-        {{--<br>--}}
-    {{--</section>--}}
 
 @endsection
 

@@ -48,7 +48,7 @@
                 <h1 class="header1 p-color-white">ShoppRe Shopping and Shipping Offers</h1>
                 <div class="col-md-12 padding-bottom">
                     <h2 class="header2 p-color-cement">Know more about the latest ShoppRe Offers, Discounts, Coupons, Wallet Cashback,
-                        Promo Codes and Ecommerce deals for all your Shopping and Shipping needs from India.
+                        Promo Codes and Ecommerce deals for all your <a href="{{route('ifs.index')}}">Shopping and Shipping needs from India</a>.
                     </h2>
                 </div>
             </div>
@@ -76,6 +76,29 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="{{route('monthEndOffer')}}">
+                                    <img src="{{asset('img/images/shoppre-month-end-offer.png')}}" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="/shop-ship">
+                                    <img src="{{asset('img/images/shop-from-india-ship-to-usa.png')}}" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary leftLst"><</button>
+                    <button class="btn btn-primary rightLst">></button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="MultiCarousel" data-items="1,2,3,4" data-slide="1" id="MultiCarousel" data-interval="1000">
+                    <div class="MultiCarousel-inner">
                         <div class="item">
                             <div class="pad15">
                                 <a href="{{route('schedulePickup.Index')}}">
@@ -109,6 +132,8 @@
                     <button class="btn btn-primary rightLst">></button>
                 </div>
             </div>
+
+
         </div>
         <div class="container">
             <br/>

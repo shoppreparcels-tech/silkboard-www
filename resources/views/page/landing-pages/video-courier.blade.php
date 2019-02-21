@@ -1,11 +1,11 @@
 @extends('layout')
 
-
-@section('title', 'Courier Video LP')
-@section('description', 'video')
-@section('keywords', '')
+@section('title', 'The best & affordable international courier services in India')
+@section('description', 'Ship your items from Anywhere in India to Worldwide. The cheapest and best way to send parcels overseas. Schedule Courier Pickup Online | Watch Video')
+@section('keywords', 'courier india to usa, sending parcel from india, international courier')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/best-affordable-international-courier-services-in-india" />
     <style>
         .vid-h-w{height: 560px; width: 100%}
         .div-b-l-w ul li{list-style: none; color:#929ca5; font-weight: 700;font-size: 18px; }
@@ -52,11 +52,11 @@
                </p> <br>
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">
                    From a Diwali hamper to University documents, ShoppRe ships anything off to anywhere on Earth with a streamlined set
-                   of courier services. And in no time, we became the cheapest way to send parcels overseas!
+                   of courier services. And in no time, we became <a href="{{route('ics.index')}}">the cheapest way to send parcels overseas</a>!
                </p>
                <h1 class="f-s-18 f-c-d-greay f-w-8 txt-a-l">To book our courier services, all you have to do is;</h1>
                <ul>
-                   <li>1. Schedule a Pickup from ANYWHERE in India; our experts will come to your door to pick it up,</li>
+                   <li>1. <a href="/schedule-pickup">Schedule a Pickup</a> from ANYWHERE in India; our experts will come to your door to pick it up,</li>
                    <li>2. We jump through hoops to dispatch your package off to your destination in just 48 hours,</li>
                    <li>3. One of our efficient & appropriate courier partners will get the package to its destination in just 3-6 days, ANYWHERE in the world,</li>
 
@@ -76,7 +76,7 @@
                <h1 class="f-s-24 f-c-d-greay f-w-8 txt-a-l">Frequently Asked Questions:</h1>
                <h1 class="f-s-18 f-c-d-greay f-w-8 txt-a-l">What do you charge for a courier from India to USA per kg.?</h1>
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">
-                   Our international courier charges start from just Rs.690/-. Check out our Price Calculator for a FREE estimate on your particular courier needs.
+                   Our international courier charges start from just Rs.690/-. Check out our <a href="{{route('pricing')}}">Shipping Calculator</a> for a FREE estimate on your particular courier needs.
                </p>
 
                <h1 class="f-s-18 f-c-d-greay f-w-8 txt-a-l">How to send a courier from India to Abu Dhabi?</h1>
@@ -88,12 +88,12 @@
                <h1 class="f-s-18 f-c-d-greay f-w-8 txt-a-l">Can I use ShoppRe Courier for parcel forwarding? </h1>
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">
                    ShoppRe has a more specified service called Shop & Ship for all package forwarding needs including Personal Shopper services. When you
-                   sign up with us, you get a FREE virtual shipping address along with a personal locker at our warehouse for you to safely store your
+                   sign up with us, you get a <a href="https://www.shoppre.com/indian-virtual-address">FREE virtual shipping address</a> along with a personal locker at our warehouse for you to safely store your
                    purchases while you go shopping on Indian online stores. <br> <br>
                    At the end of the day, our customers can be rest assured that we offer the best possible international shipping rates, all thanks to our Package Consolidation.
                </p> <br>
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">
-                   Hesitate no more, Shop From India & Ship Worldwide with ShoppRe from now on!
+                   Hesitate no more, <a href="{{route('ifs.index')}}">Shop From India & Ship Worldwide</a> with ShoppRe from now on!
                </p> <br>
 
            </div>

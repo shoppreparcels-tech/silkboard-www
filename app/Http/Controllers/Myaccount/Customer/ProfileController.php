@@ -163,7 +163,7 @@ class ProfileController extends Controller
         $shipment_count = count($shipQueue);
         $survey = CustomerSurvey::where('customer_id', $id)->first();
         $country = Country::orderBy('id')
-            ->select('id', 'name')
+            ->select('id', 'name', 'phone_code')
             ->get();
 
         $product_categories = array('Clothes','Jewellery','Bags','Food Items','Medicines',
@@ -361,6 +361,7 @@ class ProfileController extends Controller
         $customer_id = Auth::id();
         $customer = Customer::where('id', $customer_id)->first();
         $customer->phone = $request->mobile;
+        $customer->country_code = $request->country;
         $customer->save();
         return redirect()->back()->with(['message'=>'success']);
     }

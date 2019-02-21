@@ -2,7 +2,7 @@
 
 @section('title', 'About ShoppRe.com | The First Worldwide Indian Shop & Ship Community')
 @section('description', 'ShoppRe - The First Worldwide, Indian Shop & Ship Community that Promotes Online Shopping From India & Delivers Pure Joy to Your Doorsteps in 3-6 Days!')
-@section('keywords', 'about shoppre, parcel forwarding, international shipping services, online shopping in india, fast service, mission, vission')
+@section('keywords', 'about shoppre, parcel forwarding, international shipping services, online shopping in india, fast shipping service')
 
 @section('css_style')
     <meta property="og:title" content="ShoppRe.com | The First Worldwide Indian Shop & Ship Community"/>
