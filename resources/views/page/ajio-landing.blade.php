@@ -341,10 +341,10 @@
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
                         </i>Live Chat</p>
-                    {{--<a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#"--}}
+                    {{--<a href="http://v2.zopim.com/widget/livechat.html?key=WMWUM4as7ltiMKHbRXiFRw3imdMiLtAV"--}}
                        {{--class="header2 p-color-white">Chat Now</a>--}}
-                    <a href="https://lc.chat/now/10584982/"
-                       target="_blank" class="header2 p-color-white">Chat Now</a>
+                    <a href="{{Constant::CHATURL}}" target="_blank"
+                       class="header2 p-color-white">Chat Now</a>
 
                 </div>
             </div>
@@ -389,7 +389,7 @@
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
                         </i>Live Chat</p>
-                    <a href="https://lc.chat/now/10584982/"
+                    <a href="{{Constant::CHATURL}}" target="_blank"
                        class="header2 p-color-white">Chat Now</a>
 
                 </div>

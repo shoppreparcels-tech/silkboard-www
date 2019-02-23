@@ -231,5 +231,6 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
         'Sentry' => Sentry\SentryLaravel\SentryFacade::class,
+        'Constant' => App\Constant::class,
     ],
 ];
