@@ -179,7 +179,8 @@
 .slider_four_in_line .prev3,
 .slider_four_in_line .prev4 {position: absolute;width: 0%;height: 100%;top: 0px;left: 0%;z-index: 0;opacity: 0;}
 
-.circle-image{width: 90px;height: 90px;box-shadow: 0 5px 20px rgba(0, 0, 0, 0.03);border: 2px solid #ffffff;background-color: #fafafb; border-radius: 100%}
+.circle-image{width: 70px;height: 70px;box-shadow: 0 5px 20px rgba(0, 0, 0, 0.03);border: 2px solid #ffffff;background-color: #fafafb; border-radius: 100%}
+
 
 /*********************************/
 

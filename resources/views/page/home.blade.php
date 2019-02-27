@@ -177,6 +177,9 @@
         .div-main .div-add1{position:relative; float: right}
         .div-h-offer{border-radius: 15px;background-color: #ffffff;padding: 20px}
         .div-h-offer>div{padding-top: 10px;}
+        .h-div{height: 50px;overflow: hidden}
+        .img-div{padding-top:10px ;overflow: hidden}
+        .des-div{height: 190px;overflow: hidden}
         @media only screen and (max-width: 1024px) {
             .div-add {display: none;}
             .mobile-pickup-block {
@@ -960,45 +963,53 @@
             let html = '';
             let shipmentItem='';
             let price='';
-            let imgUrl='';
             let color = ['bgr-c-gr','bgr-c-bl','bgr-c-gl'];
             let i=0;
+            let itmes = 0;
+            let imgUrl='https://cdn.shoppre.com/shoppre/';
 
             jQuery.ajax({
-                url: 'https://staging-parcel-api.shoppre.com/api/www/shipments',
+                url: 'https://parcel-api.shoppre.com/api/www/shipments',
                 type: "GET",
                 async: false,
                 success: function (res) {
                     res.shipment.forEach(x => {
-                        // console.log(x.Packages[0].Store.name);
-                        shipmentItem='';
+                        // console.log(x.Packages[0].Store.name);<img class="img-circle"  src='+"https://cdn.shoppre.com/shoppre/-"+item.object +'>
+                        // shipmentItem='';
                         if(i===3)i=0;
+                        itmes = 0;
+                        shipmentItem='';
+                        price='';
                         x.Packages.forEach(p => {
                             p.PackageItems.forEach(item => {
-                                shipmentItem += item.name +',';
-                                price += item.price_amount;
-                                imgUrl += item.object + ',' ;
-                                html += '<div class="col-md-3 col-xs-12">' +
-                                    '<div class="row pad-20 '+ color[i] + ' ">' +
-                                    '<h4 class="f-s-20 f-c-white"> '+ p.PackageItems[0].name +'</h4>'+
-                                    '<center> ' +
-                                    '<div class="circle-image"></div>' +
-                                    '</center>' +
-                                    '</div>';
-                                // console.log(item.name);
-                                //console.log(item.price_amount);
-                                //console.log(item.object);
+                                debugger;
+                                if(itmes<1) {
+                                    shipmentItem += item.name +',';
+                                    price += item.price_amount;
+                                    imgUrl =+ item.object ;
+                                    html += '<div class="col-md-3 col-xs-12">' +
+                                        '<div class="row pad-5 '+ color[i] + ' ">' +
+                                        '<div class="h-div"><h4 class="f-s-20 f-c-white"> '+ item.name +'</h4></div>'+
+                                        '<center> ' +
+                                        '<div class="pad-t-5"><div class="circle-image "><img class="img-circle"></div></div>' +
+                                        '</center>' +
+                                        '</div>';
+                                    // console.log(item.name);
+                                    //console.log(item.price_amount);
+                                    //console.log(item.object);
+                                }
+                                itmes+=1;
                             });
                         });
-                        html +=' <div><br>'+
+                        html +=' <div class="des-div"><br>'+
                             '<p class="f-s-16 f-c-l-gray f-w-7">' + shipmentItem +' From ' + x.Packages[0].Store.name +' India to the '+ x.address + ' through DHL service provider ' + '</p>'+
                             '</div>'+
                             '<div>' +
                             '<h2 class="f-s-16 f-c-d-greay">'+
-                            '<img src="/img/svg/ic_weight.svg" alt="">Weight : <span class="p-color-blue">1 kg</span>' +
+                            '<img src="/img/svg/ic_weight.svg" alt="">Weight : <span class="p-color-blue">' + x.weight + '</span>' +
                             '</h2>'+
                             '<h2 class="f-s-16 f-c-d-greay">'+
-                            '<img src="/img/svg/ic_rupee.svg" alt="">Total Charge:<span class="p-color-blue">INR 120</span>' +
+                            '<img src="/img/svg/ic_rupee.svg" alt="">Total Charge:<span class="p-color-blue"> '+ x.value_amount + '</span>' +
                             '</h2>'+
                             '</div>'+
                             '</div>'; i++;

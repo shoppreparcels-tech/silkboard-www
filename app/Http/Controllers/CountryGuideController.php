@@ -33,11 +33,19 @@ class CountryGuideController extends Controller
                 ->orderBy('updated_at', 'desc')
                 ->paginate(10);
 
-            $from_to = "INR_".$country->currency;
-            $jsondata = file_get_contents("http://free.currencyconverterapi.com/api/v3/convert?q=$from_to&compact=ultra");
+            $to = $country->currency;
+            $INR_USA= file_get_contents("http://apilayer.net/api/live?access_key=c6a86d6673b0065cdf9695625c6d7aeb&currencies=INR&source=USD&format=1");
+            $INR_USA_rate = json_decode($INR_USA)->quotes->USDINR;
+            $USD_TO_DESTINATION = 'USD'.$to;
+            $USD_DESTINATION_rate= 0;
+            if ($country->currency != 'USD') {
+                $USD_DESTINATION= file_get_contents("http://apilayer.net/api/live?access_key=c6a86d6673b0065cdf9695625c6d7aeb&currencies=$to&source=USD&format=1");
+                $USD_DESTINATION_rate = json_decode($USD_DESTINATION)->quotes->$USD_TO_DESTINATION;
+                $xchange_rate = number_format( $USD_DESTINATION_rate/ $INR_USA_rate , 3);
+            } else {
+                $xchange_rate = number_format(1 / $INR_USA_rate, 3);
+            }
 
-            $xchange_rate = number_format(json_decode($jsondata)->$from_to, 3, '.', '');
-//             print json_encode($guide);exit;
             return view('page.cguide.cguide')
                 ->with([
                     'country' => $country,
@@ -74,12 +82,20 @@ class CountryGuideController extends Controller
                 ->orderBy('updated_at', 'desc')
                 ->paginate(10);
 
-			$from_to = "INR_".$country->currency;
-			$jsondata = file_get_contents("http://free.currencyconverterapi.com/api/v3/convert?q=$from_to&compact=ultra");
+            $to = $country->currency;
+            $INR_USA= file_get_contents("http://apilayer.net/api/live?access_key=c6a86d6673b0065cdf9695625c6d7aeb&currencies=INR&source=USD&format=1");
+            $INR_USA_rate = json_decode($INR_USA)->quotes->USDINR;
+            $USD_TO_DESTINATION = 'USD'.$to;
+            $USD_DESTINATION_rate= 0;
+            if ($country->currency != 'USD') {
+                $USD_DESTINATION= file_get_contents("http://apilayer.net/api/live?access_key=c6a86d6673b0065cdf9695625c6d7aeb&currencies=$to&source=USD&format=1");
+                $USD_DESTINATION_rate = json_decode($USD_DESTINATION)->quotes->$USD_TO_DESTINATION;
+                $xchange_rate = number_format( $USD_DESTINATION_rate/ $INR_USA_rate , 3);
+            } else {
+                $xchange_rate = number_format(1 / $INR_USA_rate, 3);
+            }
 
-			$xchange_rate = number_format(json_decode($jsondata)->$from_to, 3, '.', '');
-
-			return view('page.cguide.view')
+            return view('page.cguide.view')
                 ->with([
                     'country' => $country,
                     'countries' => $countries,
@@ -103,10 +119,18 @@ class CountryGuideController extends Controller
 			$result['error'] = 'We can not process this request! Try again later.';
 		}
 
-		$from_to = $country_from->currency."_".$country_to->currency;
-		$jsondata = file_get_contents("http://free.currencyconverterapi.com/api/v3/convert?q=$from_to&compact=ultra");
-
-		$result['rate'] = number_format(json_decode($jsondata)->$from_to, 3, '.', '');
+        $to = $country_to->currency;
+        $INR_USA= file_get_contents("http://apilayer.net/api/live?access_key=c6a86d6673b0065cdf9695625c6d7aeb&currencies=INR&source=USD&format=1");
+        $INR_USA_rate = json_decode($INR_USA)->quotes->USDINR;
+        $USD_TO_DESTINATION = 'USD'.$to;
+        $USD_DESTINATION_rate= 0;
+        if ($country_to->currency != 'USD') {
+            $USD_DESTINATION= file_get_contents("http://apilayer.net/api/live?access_key=c6a86d6673b0065cdf9695625c6d7aeb&currencies=$to&source=USD&format=1");
+            $USD_DESTINATION_rate = json_decode($USD_DESTINATION)->quotes->$USD_TO_DESTINATION;
+            $result['rate'] = number_format( $USD_DESTINATION_rate/ $INR_USA_rate , 3);
+        } else {
+            $result['rate'] = number_format(1 / $INR_USA_rate, 3);
+        }
 
 		if (empty($result['rate'])) {
 			$result['error'] = 'We can not process this request! Try again later.';

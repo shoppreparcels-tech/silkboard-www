@@ -480,16 +480,13 @@
                                             </td>
                                             <td>
                                                 <h6 class="f-s-20 f-c-blue f-w-9">Free Forever</h6>
-                                                <a href="{{route('customer.register')}}"
-                                                class="btn btn-b-b btn-s-b btn-a-l btn-disabled">Free Signup
+                                                <a id="free_signup_h" class="btn btn-b-b btn-s-b btn-a-l btn-disabled">Free Signup
                                                 </a>
-                                                <a href="{{route('customer.register')}}"
-                                                class="btn-enable ">Free Signup
+                                                <a id="free_signup_h1" class="btn-enable ">Free Signup
                                                 </a>
                                             </td>
                                         </tr>
                                         </tbody>
-
                                     </table>
                                 </div>
                             </div>
@@ -820,11 +817,9 @@
                                         </td>
                                         <td>
                                             <h6 class="f-s-20 f-c-blue f-w-9">Free Forever</h6>
-                                            <a href="{{route('customer.register')}}?member=b"
-                                               class="btn btn-b-b btn-s-b btn-a-l btn-disabled ">Free Signup
+                                            <a class="btn btn-b-b btn-s-b btn-a-l btn-disabled"id="free_signup_y1">Free Signup
                                             </a>
-                                            <a href="{{route('customer.register')}}?member=b"
-                                               class="btn-enable ">Free Signup
+                                            <a class="btn-enable " id="free_signup_y1">Free Signup
                                             </a>
                                         </td>
                                     </tr>
@@ -852,7 +847,7 @@
                         {{--<center><p class="div-offer-display">*50% off on your first time Shipment.</p></center>--}}
                         <div class="col-md-8 col-md-offset-2 col-xs-12 no-pad" id="addImge">
                             <center>
-                                <a href="http://127.0.0.1:8001/customer/register">
+                                <a href="{{route('offers-new.index')}}" target="_blank">
                                     <img
                                         src="{{asset('/img/images/schedule-pickup-courier-from-india-shoppre.png')}}"
                                         alt="schedule-pickup-courier-from-india-shoppre" class="img-responsive">
@@ -890,7 +885,7 @@
                             <center>
                                 <input type="hidden" name="continue" value="">
                                 <div class="form-group">
-                                    <input type="text" class="txt-login-register" placeholder="Email address"
+                                    <input type="email" class="txt-login-register" placeholder="jhon@gmail.com"
                                            id="signup-email" name="email"
                                            value="{{app('request')->input('email')}}" required autofocus>
                                 </div>
@@ -915,7 +910,7 @@
                         </div>
                         <div class="col-md-offset-3 col-md-6 col-xs-12 no-pad">
                             <input class="txt-login-register" id="phone" name="phone" type="tel" autocomplete="off"
-                                   style=" margin-left: 5px;"> <br/>
+                                   style=" margin-left: 5px;" required > <br/>
                         </div>
 
                         <div class="col-xs-12 col-md-12" style="margin-top: -20px;">
@@ -947,7 +942,7 @@
                                 </label>
                             </div>
                             <div class="col-md-4 col-xs-12 no-pad">
-                                <a href="https://www.shoppre.com/terms-and-conditions" class="f-c-d-greay">Terms &
+                                <a href="https://www.shoppre.com/terms-and-conditions" class="f-c-d-greay" target="_blank">Terms &
                                     Privacy Policy</a>
                             </div>
 
@@ -974,6 +969,23 @@
                 $('#First-section').hide();
                 $('#Sign-up1').show();
             });
+            $('#free_signup_y1').click(function () {
+                $('#First-section').hide();
+                $('#Sign-up1').show();
+            });
+            $('#free_signup_h1').click(function () {
+                $('#First-section').hide();
+                $('#Sign-up1').show();
+            });
+            $('#free_signup_y').click(function () {
+                $('#First-section').hide();
+                $('#Sign-up1').show();
+            });
+            $('#free_signup_h').click(function () {
+                $('#First-section').hide();
+                $('#Sign-up1').show();
+            });
+
             $('#utm_campaign').val(localStorage.utm_campaign !== undefined ? localStorage.utm_campaign : 'no-utm-campaign');
             $('#utm_medium').val(localStorage.utm_campaign !== undefined ? localStorage.utm_medium : 'no-utm-medium');
             $('#utm_source').val(localStorage.utm_campaign !== undefined ? localStorage.utm_source : 'no-utm-source');

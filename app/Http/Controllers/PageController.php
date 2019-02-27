@@ -1332,7 +1332,9 @@ class PageController extends Controller
             ->where('approve', '1')
             ->limit(10)
             ->get();
-        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+        $countries = Country::orderBy('name', 'asc')
+            ->where('shipping', '1')
+            ->where('active', true)->get();
         return view('page.new-pricing')->with(['reviews' => $reviews, 'countries' => $countries]);
     }
     public function domesticPricing()

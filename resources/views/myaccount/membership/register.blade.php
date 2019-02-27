@@ -64,7 +64,7 @@
                 <div class="col-md-6 col-md-offset-3 loginwindow">
                     <div class="col-md-8 col-md-offset-2 col-xs-12 no-pad" id="addImge">
                         <center>
-                            <a href="http://127.0.0.1:8001/customer/register">
+                            <a href="{{route('offers-new.index')}}">
                                 <img
                                     src="{{asset('/img/images/schedule-pickup-courier-from-india-shoppre.png')}}"
                                     alt="schedule-pickup-courier-from-india-shoppre" class="img-responsive">
@@ -98,11 +98,11 @@
                         @endif
                     </div>
 
-                    <div class="col-xs-12 col-md-12 email-id">
+                    <div class="col-xs-12 col-md-12">
                         <center>
                             <input type="hidden" name="continue" value="">
                             <div class="form-group">
-                                <input type="text" class="txt-login-register" placeholder="Email address"
+                                <input type="email" class="txt-login-register" placeholder="jhon@gmail.com"
                                        id="signup-email" name="email"
                                        value="{{app('request')->input('email')}}" required autofocus>
                             </div>
@@ -126,7 +126,7 @@
                     </div>
                     <div class="col-md-offset-3 col-md-6 col-xs-12 no-pad">
                         <input class="txt-login-register" id="phone" name="phone" type="tel" autocomplete="off"
-                               style=" margin-left: 5px;"> <br/>
+                               style=" margin-left: 5px;" required> <br/>
                     </div>
 
                     <div class="col-xs-12 col-md-12" style="margin-top: -20px;">

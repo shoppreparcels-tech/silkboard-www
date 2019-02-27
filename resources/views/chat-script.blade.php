@@ -26,10 +26,6 @@
 {{--})();--}}
 
 {{--<!--Auto Fill Chat form If Customer Already Login-->--}}
-
-{{--var name = "<?php echo Auth::check()=== true ? Auth::user()->name : ''  ?>";--}}
-{{--var email = "<?php echo Auth::check()=== true ? Auth::user()->email : ''  ?>";--}}
-
 {{--window.__lc.visitor = {--}}
 {{--name: name,--}}
 {{--email: email,--}}
