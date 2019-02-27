@@ -24,6 +24,7 @@
     .f-c-gray{color: #677582;}
     .f-c-d-greay{color: #11273b;}
     .f-c-yellow{color: #fdf699;}
+    .f-c-green{color: #44b773;}
 
     .f-w-9{font-weight: 900}
     .f-w-8{font-weight: 800}
@@ -43,6 +44,10 @@
 
     .b-r{border: 1px solid rgba(146, 156, 165, 0.2) !important;}
     .b-r{background-color: #ffffff;}
+
+    .bgr-c-gr{background-color: #44b773;}
+    .bgr-c-bl{background-color: #507dbc;}
+    .bgr-c-gl{background-color: #e9c46a;}
 
     .btn-f-w{width: 100%}
     .btn-xl{width: 300px;height: 44px; margin-top: 25px}
@@ -89,10 +94,12 @@
     .txt-a-l{text-align: left}
     .txt-a-r{text-align: right}
     .txt-italic{font-style: italic}
+    .txt-b-r{border-radius: 3px !important;}
 
     .l-h-1{line-height: 1;}
     .l-h-2{line-height: 2;}
     .l-h-3{line-height: 3;}
+
     .btn { padding:9px 12px}
     .btn-radio { border: 1px solid rgba(146, 156, 165, 0.2);background-color: #ffffff; display: inline-block;border-radius: 3px !important;color: #12273b;}
     .btn-radio.active {background-color: #507dbc;color: #fff;}
@@ -179,8 +186,8 @@
     .f-s-26{font-size:20px }
     .f-s-24{font-size:20px }
     .f-s-22{font-size:19px }
-    .f-s-20{font-size:18px }
-    .f-s-18{font-size:16px }
+    .f-s-20{font-size:14px }
+    .f-s-18{font-size:14px }
     .f-s-16{font-size:13px }
     .f-s-14{font-size:10px }
     .btn-a-l{padding: 10px 20px;}

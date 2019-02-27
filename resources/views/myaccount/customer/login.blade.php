@@ -11,23 +11,19 @@
 
 @section('content')
   <section class="header-section">
-    <div class="container">
-      <center>
-        <h1 class="f-s-36 f-c-white">Login to ShoppRe</h1>
-      </center>
-    </div>
+    {{--<div class="container">--}}
+      {{--<center>--}}
+        {{--<h1 class="f-s-36 f-c-white">Login to ShoppRe</h1>--}}
+      {{--</center>--}}
+    {{--</div>--}}
   </section>
   <section class="login-sction">
     <div class="container">
-      <div class="col-md-6 col-md-offset-3 loginwindow" >
-        <div class="row">
-          <div class="col-md-6 col-xs-6 img-google-pluse">
-            <a href="{{route('customer.social.google', ['loginAs' => 'Customer'])}}"><img src="{{asset('img/google-plus-logo-button.png')}}" alt=""></a>
-          </div>
-          <div class="col-md-6 col-xs-6 img-facebook-pluse">
-            <a href="{{route('customer.social.facebook')}}"><img src="{{asset('img/facebook-logo-button.svg')}}" alt=""></a>
-          </div>
-        </div>
+      <div class="col-md-6 col-md-offset-3 col-xs-12 loginwindow" >
+          <center>
+              <h1 class="f-s-36 f-c-d-greay f-w-8"><span class="f-c-red">S</span>ign In</h1>
+          </center>
+
         @if (session('message'))
           <div class="alert alert-success text-center">
             {{ session('message') }}
@@ -40,17 +36,17 @@
         @endif
         <form class="login-form" id="form_login" role="form" method="POST"
               action="{{ route('customer.login.submit') }}">
-        <div class="col-md-12 col-xs-12 divider">
-          <center>
-            <img src="{{asset('img/divider.svg')}}" alt="">
-          </center>
-        </div>
+        {{--<div class="col-md-12 col-xs-12 divider">--}}
+          {{--<center>--}}
+            {{--<img src="{{asset('img/divider.svg')}}" alt="">--}}
+          {{--</center>--}}
+        {{--</div>--}}
         <div class="col-xs-12 col-md-12 email-id">
           <center>
             <input type="hidden" name="continue" value="{{$continue}}">
             <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
 
-              <input type="text" placeholder="john@email.com"name="email"
+              <input type="text" class="txt-login-register" placeholder="Email address"name="email"
                      value="{{ old('email') }}" required autofocus>
               @if ($errors->has('email'))
                 <span class="help-block">
@@ -64,7 +60,7 @@
         <div class="col-xs-12 col-md-12 password">
           <center>
             <div class="form-group {{ $errors->has('password') ? 'has-error' : '' }}">
-              <input type="password" placeholder="password" name="password" required>
+              <input type="password" class="txt-login-register" placeholder="password" name="password" required>
               @if ($errors->has('password'))
                 <span class="help-block">
                       <br>
@@ -74,7 +70,7 @@
             </div>
           </center>
         </div>
-        <div class="col-md-12 col-xs-12 col-sm-12">
+        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2 col-xs-12 ">
             <div class="chk-margin">
               <label class="chkn-container">Remember me!
                 <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }} checked="checked">
@@ -82,20 +78,31 @@
               </label>
             </div>
         </div>
-        <div class="col-md-12 col-xs-12">
+        <div class="col-md-12 col-xs-12 pad-t-20">
           <center>
-            <button type="submit" class="btn btn-login">Log In</button>
+            <button type="submit" class="btn btn-s-r btn-b-r btn-l">Sign In</button>
           </center>
         </div>
+
+        <div class="col-md-12 col-xs-12 pad-t-20 ">
+            <center>
+                <div class="col-md-6 col-xs-6 img-google-pluse ">
+                    <a href="{{route('customer.social.google', ['loginAs' => 'Customer'])}}" class="pull-right"><img src="{{asset('img/google-plus-logo-button.png')}}" alt=""></a>
+                </div>
+                <div class="col-md-6 col-xs-6 img-facebook-pluse">
+                    <a href="{{route('customer.social.facebook')}}" class="pull-left"><img src="{{asset('img/facebook-logo-button.svg')}}" alt=""></a>
+                </div>
+            </center>
+        </div>
         </form>
-        <div class="col-md-12 col-xs-12 signup-link ">
-          <div class="col-md-7 col-xs-12 no-padding">
-            <label>Don't have an account?
-              <a href="{{route('customer.register')}}?continue={{$continue}}">Sign Up</a>
+        <div class="col-md-12 col-xs-12 pad-t-20">
+          <div class="col-md-7 col-xs-7 no-padding">
+            <label class="pull-left f-s-14 f-c-d-greay">Don't have account?
+              <a href="{{route('customer.register')}}?continue={{$continue}}" class="f-c-red">Sign Up</a>
             </label>
           </div>
-          <div class="col-md-5 col-xs-12 ">
-            <a href="{{route('customer.forgot')}}" >Forgot Password?</a>
+          <div class="col-md-5 col-xs-5 ">
+            <a href="{{route('customer.forgot')}}" class="pull-right f-c-d-greay f-s-14">Forgot Password?</a>
           </div>
 
         </div>
@@ -114,18 +121,18 @@
   <script src="{{asset('js/validate.min.js')}}"></script>
   <script type="text/javascript">
     $(document).ready(function () {
-      $("#form_login").validate({
-        rules:
-          {
-            email: {required: true, email: true},
-            password: {required: true},
-          },
-        messages:
-          {
-            email: {required: "Enter email address", email: "Your email must be in the format of name@domain.com"},
-            password: {required: "Enter your password"},
-          },
-      });
+      // $("#form_login").validate({
+      //   rules:
+      //     {
+      //       email: {required: true, email: true},
+      //       password: {required: true},
+      //     },
+      //   messages:
+      //     {
+      //       email: {required: "Enter email address", email: "Your email must be in the format of name@domain.com"},
+      //       password: {required: "Enter your password"},
+      //     },
+      // });
 
       let queryParam = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
 

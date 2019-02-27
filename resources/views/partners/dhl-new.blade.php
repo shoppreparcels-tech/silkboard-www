@@ -4,6 +4,7 @@
 @section('description', 'DHL is the official international courier, shipping and parcel delivery partner of ShoppRe. Find the top products shipped with DHL at great prices.')
 @section('keywords', 'dhl, shipping, courier, parcel, partner')
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/dhl" />
 @endsection
 @section('content')
     <section class="header">

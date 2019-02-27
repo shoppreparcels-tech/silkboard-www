@@ -39,8 +39,7 @@
             <div class="col-md-9 col-sm-8 col-xs-12">
                 <div class="col-md-12 no-pad">
                     <h1 class="f-c-d-gray f-s-24 f-w-9">Calculate Your Shipping Cost</h1>
-                    <p class="f-c-gray f-s-16 f-w-8">Cheapest international shipping rates from India to anywhere in the
-                        world.</p>
+                    <p class="f-c-gray f-s-16 f-w-8">Cheapest domestic shipping rates from & to anywhere in India</p>
                     <br>
                 </div>
                 <div class="col-md-12 col-xs-12 div-b-w-s pad-20">

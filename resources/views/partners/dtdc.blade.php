@@ -1,8 +1,12 @@
 @extends('layout')
 
-@section('title', 'DTDC | International & Domestic Courier Services - ShoppRe Partner')
+@section('title', 'DTDC International | Domestic Courier Services - ShoppRe Partner')
 @section('description', 'DTDC is the international & domestic courier delivery and shipping partner of ShoppRe. Find the top products shipped with DTDC at great prices.')
 @section('keywords', 'dtdc, shipping, courier, parcel, indian partner')
+
+@section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/dtdc" />
+@endsection
 
 @section('content')
     <div class="container">

@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/owl.carousel.min.css">
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/magnific-popup.css">
+    <link rel="stylesheet" href="{{asset('css/custom/shipment-sliders.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="{{asset('js/shipments-slides.js')}}"></script>
 
     <meta property="og:title" content="Shop and Ship with ShoppRe | International Courier & Consolidation Services"/>
     <meta property="og:type" content="website"/>
@@ -167,6 +170,7 @@
 </script>
 
     <style>
+        .fuid-padding{padding-left: 10%;padding-right: 10%}
         .div-shop-ship1 > div {padding-top: 10px;padding-bottom: 10px}
         .div-shop-ship1 > div > p {text-align: center}
         .div-main .div-add{position:fixed;margin-top: 20%;z-index: 1}
@@ -176,13 +180,13 @@
         @media only screen and (max-width: 1024px) {
             .div-add {display: none;}
             .mobile-pickup-block {
-                display: block;
+                display: none;
             }
         }
         @media only screen and (max-width: 1280px) {
             .div-add {display: none;}
             .mobile-pickup-block {
-                display: block;
+                display: none;
             }
         }
         @media only screen and (max-width: 600px) {
@@ -304,8 +308,10 @@
                         </div>
                         <center>
                             <a href="{{route('member.plan')}}" class="btn-l btn-b-r btn-s-r btn-a-l">Sign Up FREE</a>
+                            <div><br></div>
+                            <span class="f-c-d-greay f-s-12 ">*Maximum amount that can be availed by a customer is ₹200/-</span>
                         </center>
-                        <span class="pull-right f-c-gray f-s-12"><a href="{{route('first-shipment')}}">*T&C Apply</a></span>
+
 
                     </div>
 
@@ -332,21 +338,18 @@
                         </div>
                     </div>
 
-                    <div class="col-md-10 col-xs-12 no-padding mobile-pickup-block hide-pickup-block">
+                    <div class="col-xs-12 no-padd mobile-pickup-block hide-pickup-block">
                         <br>
                         <br>
-                        <div class="col-md-6 col-xs-6">
-                                <p>
-                                    <a class="bla-1"
-                                       href="{{route('ifs.index')}}">
-                                        <h4>Shop and Ship</h4>
-                                    </a>
-                                </p>
+                        <div class="col-md-6 col-xs-6 no-pad">
+                            <a class="btn btn-b-r btn-s-r btn-a-f-w" href="{{route('ifs.index')}}">
+                                Shop and Ship
+                            </a>
                         </div>
-                        <div class="col-md-6 col-xs-6 ">
-                                <a class="bla-1" href="{{route('ics.index')}}">
-                                   <h4 class="btn-pickup-home_mobile">ShoppRe Courier</h4>
-                                </a>
+                        <div class="col-md-6 col-xs-6 no-pad">
+                            <a class="btn btn-b-b btn-s-b btn-a-f-w" href="{{route('ics.index')}}">
+                             ShoppRe Courier
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -361,6 +364,27 @@
         <br>
     </main>
     <!-- Main container -->
+
+    <section><!-- latest shipments details-->
+       <div class="container-fluid fuid-padding"><br><br><br>
+           <div class="col-md-2 col-xs-6 pad-l-20">
+               <br>
+                <center>
+                    <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">ShoppRe <br>
+                        <span class="f-s-45 f-w-8 f-c-green "> Live</span></h1>
+                    <br>
+                    <h4 class="f-s-18 f-c-l-gray txt-a-l">Recent Parcel Delivery <br> Update</h4>
+                </center>
+           </div>
+           <div class="col-md-9 col-xs-12">
+               <div class="slider slider_four_in_line" id="shippingCard">
+
+               </div>
+           </div>
+           <br>
+
+       </div>
+    </section>
     <section>
         <div class="container">
             <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
@@ -371,7 +395,6 @@
 
             <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                 <center>
-
                     <p class="header2 p-color-cement" style="text-align: center">Our trusted partners
                         <span class="p-color-red"><a href="{{route('dhl.index')}}">DHL</a></span>,
                         <span class="p-color-red">
@@ -441,7 +464,6 @@
             </div>
         </div>
     </section>
-    {{--commented code placed homepage folder shoppre benifits--}}
     <section>
         <div class="container ">
             <div class="div-margin">
@@ -502,7 +524,6 @@
             {{--</div>--}}
         </div>
     </section>
-    <!-- Start whatcanYouship section -->
     <section style="background-color: #f2f6fb;">
         <div class="container">
             <center>
@@ -604,7 +625,6 @@
         </div>
     {{--commented code placed in homepage folder review--}}
     </section>
-    <!-- Start whatcanYouship section end-->
     <section class="div-fluid">
         <div class="container">
             <center>
@@ -734,7 +754,6 @@
             </div>
         </div>
     </section>
-
     <section style="padding-bottom: 30px">
         <div class="container" style="margin-top: 60px;padding-bottom: 20px;">
             <center>
@@ -853,7 +872,6 @@
         <br>
         <br>
     </section>
-
     <section class="content-oes">
         <div class="container"><br><br>
             <h1>Shop from India without second thoughts from now on, we ship around the world!</h1>
@@ -889,7 +907,7 @@
 
             <h1>Want to send greetings & gifts overseas from India?</h1>
 
-            <p>Tired of looking for the cheapest way possible to ship a courier from India to the USA, UK & such?
+            <p>Tired of looking for the cheapest way possible to ship a courier from India to USA, UK & such?<br>
                 Look no more! You’re right where you need to be. Learn more about the never-before-like
                 <a href="{{route('pricing')}}">shipping charges from India</a>, that we offer! </p>
 
@@ -937,6 +955,87 @@
 @endsection
 
 @section('js_script')
+    <script>
+        $(document).ready(function() {
+            let html = '';
+            let shipmentItem='';
+            let price='';
+            let imgUrl='';
+            let color = ['bgr-c-gr','bgr-c-bl','bgr-c-gl'];
+            let i=0;
+
+            jQuery.ajax({
+                url: 'https://staging-parcel-api.shoppre.com/api/www/shipments',
+                type: "GET",
+                async: false,
+                success: function (res) {
+                    res.shipment.forEach(x => {
+                        // console.log(x.Packages[0].Store.name);
+                        shipmentItem='';
+                        if(i===3)i=0;
+                        x.Packages.forEach(p => {
+                            p.PackageItems.forEach(item => {
+                                shipmentItem += item.name +',';
+                                price += item.price_amount;
+                                imgUrl += item.object + ',' ;
+                                html += '<div class="col-md-3 col-xs-12">' +
+                                    '<div class="row pad-20 '+ color[i] + ' ">' +
+                                    '<h4 class="f-s-20 f-c-white"> '+ p.PackageItems[0].name +'</h4>'+
+                                    '<center> ' +
+                                    '<div class="circle-image"></div>' +
+                                    '</center>' +
+                                    '</div>';
+                                // console.log(item.name);
+                                //console.log(item.price_amount);
+                                //console.log(item.object);
+                            });
+                        });
+                        html +=' <div><br>'+
+                            '<p class="f-s-16 f-c-l-gray f-w-7">' + shipmentItem +' From ' + x.Packages[0].Store.name +' India to the '+ x.address + ' through DHL service provider ' + '</p>'+
+                            '</div>'+
+                            '<div>' +
+                            '<h2 class="f-s-16 f-c-d-greay">'+
+                            '<img src="/img/svg/ic_weight.svg" alt="">Weight : <span class="p-color-blue">1 kg</span>' +
+                            '</h2>'+
+                            '<h2 class="f-s-16 f-c-d-greay">'+
+                            '<img src="/img/svg/ic_rupee.svg" alt="">Total Charge:<span class="p-color-blue">INR 120</span>' +
+                            '</h2>'+
+                            '</div>'+
+                            '</div>'; i++;
+
+
+                    });
+                    html+='<div class="next_button"></div>\n' +
+                        '<div class="prev_button"></div>';
+                    $('#shippingCard').html(html);
+                }
+            })
+        });
+        $(document).ready(function() {
+            debugger;
+
+            if ($(window).width() <= 600 ) {
+                $('.slider_four_in_line').EasySlides({
+                    'autoplay': true,
+                    'show': 1
+                });
+            }
+            else if ($(window).width() <= 1400 ) {
+                $('.slider_four_in_line').EasySlides({
+                    'autoplay': true,
+                    'show': 3
+                });
+            }else {
+                $('.slider_four_in_line').EasySlides({
+                    'autoplay': true,
+                    'show': 10
+                });
+            }
+
+        });
+
+
+    </script>
     <script>
         $(document).ready(function(){
             $('[data-toggle="popover"]').popover();
@@ -1001,9 +1100,7 @@
     </script>
     <script>
         $.getJSON("https://jsonip.com?callback=?", function(data) {
-            console.log('ip data',data);
             $.getJSON("https://ipapi.co/"+data.ip+"/json/", function(res){
-                console.log('Location Data',res);
 
                 var country = res.country_name;
                 var destination = '';
@@ -1012,8 +1109,6 @@
                     var destination = 'to ' + country;
                     destination_country = country;
                 }
-
-                console.log('destination_country', destination_country);
                 var weight = 0.5;
                 var unit = 'kg';
                 var type = 'nondoc';
@@ -1036,7 +1131,6 @@
                         origin: 'home_page',
                     },
                     success: function (res) {
-                        console.log('pricing log', res);
                         if (res.error == "1") {
                         } else {
                             var final_price = "";

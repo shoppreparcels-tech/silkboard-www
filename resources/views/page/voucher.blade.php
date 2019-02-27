@@ -6,6 +6,8 @@
 @section('keywords', 'coupon codes, deals, discounts, free shipping, voucher, gift cards, offers, promo')
 
 @section('css_style')
+
+    <link rel="canonical" href="https://www.shoppre.com/international-shipping-gift-cards-vouchers" />
     <style>
        .first-time-shipment {background-color: #11273b;height: 560px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;padding-top: 60px;}
        .div-snow{padding-top: 146px;}

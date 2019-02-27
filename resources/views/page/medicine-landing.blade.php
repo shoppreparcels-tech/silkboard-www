@@ -1,10 +1,12 @@
 @extends('layout')
 
-@section('title', 'International Medicine Courier | Ayurveda Herbs Shipping | ShoppRe India')
+@section('title', 'International Medicine Courier | Ayurveda Herbs Shipping | ShoppRe')
 @section('description', 'Send Medicines & Ayurvedic Herbs from India. Offering Door to door Pickup & Packing. Hassle Free Shipping Worldwide, 3-6 days delivery. Cheapest & Reliable‎.')
 @section('keywords', 'medicine courier, fast shipping services, herbs, homeopathy, pills, capsules, ayurvedic courier to usa')
 
 @section('css_style')
+
+    <link rel="canonical" href="https://www.shoppre.com/medicine-international-courier-from-india" />
     <style>
         .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}

@@ -6,6 +6,9 @@
 @section('keywords', 'mend20, month end offer, worldwide shipping')
 
 @section('css_style')
+
+    <link rel="canonical" href="https://www.shoppre.com/month-end-offer-shipping-worldwide" />
+
     <style>
         .div-b-l-w ul li{list-style: none; color:#929ca5; font-weight: 700;font-size: 16px; }
         @media only screen and (max-width: 600px) {

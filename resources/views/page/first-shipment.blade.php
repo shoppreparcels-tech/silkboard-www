@@ -5,6 +5,9 @@
 @section('keywords', 'free shipment process, cashback, shipment, consolidation, repackaging')
 
 @section('css_style')
+
+    <link rel="canonical" href="https://www.shoppre.com/first-time-international-shipment-offer" />
+
     <style>
       .first-time-shipment {background-color: #11273b;height: 813px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;padding-top: 60px;}
       .first-time-shipment .div-snow{padding-top: 146px;}

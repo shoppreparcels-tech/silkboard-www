@@ -49,7 +49,7 @@
   "@context": "http://schema.org",
   "@type": "Organization",
   "name": "ShoppRe",
-  "alternateName": "International Shipping From India, ShoppRe.com",
+  "alternateName": "International Shipping From India",
   "url": "https://www.shoppre.com/reviews",
   "logo": "https://www.shoppre.com/img/logo.png",
   "contactPoint": {
@@ -73,8 +73,8 @@
     "@type" : "AggregateRating",
     "bestRating": "5",
     "ratingValue" : "4.8",
-    "reviewCount" : "110",
-    "worstRating" : 3.0
+    "reviewCount" : "134",
+    "worstRating" : 2.0
   }
 }
 

@@ -25,7 +25,25 @@
         .bg-ics-landing-page .container > div {margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}
         .d-header-text1 {font-family: Montserrat -Italic;font-style: italic;line-height: 26px;margin-top: 25px}
-        .christmas-service {box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 15px;background-color: #fafafb;margin-top: -121px;padding: 20px;}
+        .christmas-service {box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 15px;background-color: #fafafb;margin-top: -190px;padding: 20px;}
+        .shopandship {
+            padding: 20px;
+            box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);
+            border-radius: 8px;
+            background-image: linear-gradient(228deg, #ff7c5b 0%, #e8517a 100%);
+        }
+        .ps {
+            padding: 20px;
+            box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);
+            border-radius: 8px;
+            background-image: linear-gradient(228deg, #4df696 0%, #50bc70 100%);
+        }
+        .ic {
+            padding: 20px;
+            box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);
+            border-radius: 8px;
+            background-image: linear-gradient(229deg, #27cbff 0%, #2aa1d5 100%);
+        }
         .box-steps p {line-height: 1;}
         .box-steps p span {font-size: 22px;font-weight: 900;}
         .flipkart-h1{font-size: 25px}
@@ -46,7 +64,31 @@
                 <h1 class="p-color-white header-spacing d-header-text">Myntra - International Shipping From India</h1>
 
             </center>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="shopandship ">
+                        <h2>Shop & Ship</h2>
+                        <br/>
+                        <p>Shop From Myntra Online Store; Get a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ps">
+                        <h2>Personal Shopper</h2>
+                        <br>
+                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You at Myntra.com</p>
 
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ic">
+                        <h2>International Courier</h2>
+                        <br>
+                        <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -54,12 +96,14 @@
     <section class=" ">
         <div class="container christmas-service">
             <div class="row">
-                <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>
+                <div class="col-md-12 col-xs-12">
+                   <center>
+                       <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/myntra-express-delivery-globe.png" alt="Myntra.com">
+                   </center>
                 </div>
             </div>
 
-            <div class=" col-md-12 offer-description">
+            <div class=" col-md-12 ">
                 <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">Online Shopping From Myntra, But Need a Cheaper Shipping Option?</h2>
                 <h4 class="p-color-cement" style="font-style:italic">Are you one among the many international fans of Myntra, trying to ship your wishlists in this Christmas and New Year? Say no more. </h4>
                 <br>
@@ -101,31 +145,7 @@
                 </center>
             </div>
             <br>
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <div class="shopandship ">
-                        <h2>Shop & Ship</h2>
-                        <br/>
-                        <p>Shop From Myntra Online Store; Get a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ps">
-                        <h2>Personal Shopper</h2>
-                        <br>
-                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You at Myntra.com</p>
 
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ic">
-                        <h2>International Courier</h2>
-                        <br>
-                        <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
-
-                    </div>
-                </div>
-            </div>
             <br>
         </div>
         <br>

@@ -504,9 +504,9 @@ Route::post('/more-reviews', 'PageController@moreReviews')->name('morereviews');
 /*------ Schedule Pickup ---------*/
 
 Route::get('/schedule-pickup', 'SchedulePickupController@index')->name('schedulePickup.Index');
-Route::post('/schedule-pickup', 'SchedulePickupController@submit')->name('schedulePickup.Submit');
+//Route::post('/schedule-pickup', 'SchedulePickupController@submit')->name('schedulePickup.Submit');
 Route::post('/schedule-pickup/submit', 'SchedulePickupController@submit')->name('schedulePickup.submit');
-Route::get('/schedule-pickup/confirm', 'SchedulePickupController@confirm')->name('schedulePickup.confirmPickup');
+Route::get('/schedule-pickup/confirm', 'SchedulePickupController@confirm')->name('confirmPickup');
 Route::post('/schedule-pickup/asana-tracking', 'SchedulePickupController@asanaTracking')
     ->name('schedulePickup.asana.tracking');
 Route::post('/schedule-pickup/ajexRequest', 'PageController@pickupByAjex')->name('schedulePickup.byAjex');
@@ -660,6 +660,8 @@ Route::get('/dropshipping-from-india-and-worldwide-delivery', 'PageController@dr
 Route::get('/package-consolidation-international-shipping', 'PageController@videoLpConsolidation')->name('videoLpConsolidation');
 Route::get('/best-affordable-international-courier-services-in-india', 'PageController@videoLpCourier')->name('videoLpCourier');
 Route::get('/personal-shopper-online-shopping-from-india-shipping', 'PageController@videoLpShopper')->name('videoLpShopper');
+Route::get('/priyamani-ad-launch-parcel-forwarding-service-from-india', 'PageController@videoLpPriyamani')->name('videoLpPriyamani');
+Route::get('/online-shopping-and-international-shipping-sit-back-relax-shop-from-india', 'PageController@videoLpGPepper')->name('videoLpGPepper');
 
 Route::post('/leads/signup', 'LeadController@create')->name('leads.signup');
 Route::post('/campaign/newaspaper', 'PageController@saveFlyerUser')->name('flyerUser');
@@ -678,6 +680,8 @@ Route::post('/parcel-forwarding', 'PageController@apiParcelForwarding')->name('a
 Route::post('/apiVideoConsolidation', 'PageController@apiVideoConsolidation')->name('apiVideoConsolidation');
 Route::post('/apiVideoCourier', 'PageController@apiVideoCourier')->name('apiVideoCourier');
 Route::post('/apiVideoPs', 'PageController@apiVideoPs')->name('apiVideoPs');
+Route::post('/apiVideoPriyamani', 'PageController@apiVideoPriyamani')->name('apiVideoPriyamani');
+Route::post('/apiVideoGPepper', 'PageController@apiVideoGPepper')->name('apiVideoGPepper');
 
 Route::post('/api-pricing-calculator', 'PageController@apiPricingCalculator')->name('apiPricingCalculator');
 Route::post('/api-pricing-usa', 'PageController@apiPricingUsa')->name('apiPricingUsa');

@@ -13,7 +13,7 @@
             <div class="container">
                 <h1 class="display-4 text-center jumbotron-heading">Seller Partnership</h1>
                 <p class="lead text-center jumbotron-text">ShoppRe.com makes shipping super easy. Ship your products
-                    Internationally starting at Rs. 600/-.<br> Fill in the form below or reach out to us at +91 9148357733</p>
+                    Internationally starting at Rs. 500/-.<br> Fill in the form below or reach out to us at +91 9148357733</p>
             </div>
         </div>
         <div class="container mb-5">

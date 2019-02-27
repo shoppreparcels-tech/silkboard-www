@@ -1,10 +1,12 @@
 @extends('layout')
 
-@section('title', 'About ShoppRe.com | The First Worldwide Indian Shop & Ship Community')
+@section('title', 'About ShoppRe | The First Worldwide Indian Shop & Ship Community')
 @section('description', 'ShoppRe - The First Worldwide, Indian Shop & Ship Community that Promotes Online Shopping From India & Delivers Pure Joy to Your Doorsteps in 3-6 Days!')
 @section('keywords', 'about shoppre, parcel forwarding, international shipping services, online shopping in india, fast shipping service')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/about" />
+
     <meta property="og:title" content="ShoppRe.com | The First Worldwide Indian Shop & Ship Community"/>
     <meta property="og:type" content="website"/>
     <meta property="og:description" content="ShoppRe - The First Worldwide, Indian Shop & Ship Community That Promotes Online Shopping From India & Delivers Pure Joy to Your Doorsteps in 3-6 Days!"/>

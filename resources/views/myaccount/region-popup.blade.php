@@ -11,7 +11,7 @@
       </div>
       <div class="modal-body">
        <center>
-         <img src="img/coming-soon1.png" alt="">
+         {{--<img src="img/coming-soon1.png" alt="">--}}
          <a href="#" id="btn-thanku" class="btn btn-shoppre">Thank You !</a>
        </center>
       </div>

@@ -17,7 +17,7 @@ class MemberController extends Controller
     {
         $countries = Country::orderBy('name','asc')->get();
         $states = States::orderBy('name','asc')->get();
-        $memberType = $req->memberType;
+        $memberType = $req->member;
         $req->session()->put(['membership_type' => $memberType]);
         return view('myaccount.membership.register')
             ->with(['countries'=>$countries,'states'=>$states]);

@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'International Courier Rates | Calculate Your Shipping Cost - ShoppRe.com')
+@section('title', 'International Courier Rates | Calculate Your Shipping Cost | ShoppRe')
 @section('description', 'Calculate your shipping costs from India to anywhere in the world. FREE international courier rates estimation for 220+ countries. Save up to 75% on shipping.')
 @section('keywords', 'calculate your shipping costs, courier charges, shipping rates, shipping calculator, international package')
 
@@ -37,6 +37,30 @@
 
 @section('content')
     <section id="new-pricing">
+        <div class="container how-to-calculate">
+            <div class="modal fade" id="myModal-calculate" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <center>
+                                <h4 class="header4 p-color-cement modal-title">How To Calculate Volumetric
+                                    Weight</h4>
+                            </center>
+                        </div>
+                        <div class="modal-body">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/vol_calc.png" style="width: 100%;"
+                                 alt="">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
             {{--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ratesModel" id="getRates">View all rates up to 10 Kg</button>--}}
             <div class="modal fade" id="ratesModel" role="dialog">
@@ -362,7 +386,7 @@
                             </h14>
                             <br/>
                             <h14 class="f-s-14 f-c-l-gray">
-                                <span class="f-c-red">*</span> For electronics items, additional charges are applicable.
+                                <span class="f-c-red">*</span> <a href="https://www.shoppre.com/parcel-forwarding/guidelines-for-shipping-electronics-items-from-india/">For electronics items, additional charges are applicable.</a>
                             </h14>
                             <br/>
                             <h14 class="f-s-14 f-c-l-gray">
@@ -449,7 +473,7 @@
                 <div class="col-md-12 col-xs-12 no-pad"><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-10">
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <p class="f-s-12 f-c-blue">
+                            <p class="f-s-12 f-c-blue" data-toggle="modal" data-target="#myModal-calculate">
                                 <a href="#" class="tooltipkey" title="The shipping cost for your courier is
                                                  estimated to the maximum accuracy, based on our pricing policies and
                                                      is based upon whichever is greater for your package;
@@ -470,6 +494,7 @@
                     </div>
 
                 </div>
+
 
                 <div class="col-md-12 col-xs-12 no-pad"><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-20">
@@ -816,21 +841,21 @@
                                             <h14 class="f-s-18 f-c-d-greay">Monthly Fee</h14>
                                         </td>
                                         <td class="pad-20">
-                                            <h6 class="f-s-26 f-c-blue f-w-9">₹2500/-</h6>
+                                            <h6 class="f-s-20 f-c-blue f-w-9">₹2500/-</h6>
                                             <a href="{{route('member.register')}}?member=h"
-                                               class="btn btn-b-r btn-s-r btn-a-l btn-disabled btn-m-plan">Start Plan
+                                               class="btn btn-b-r btn-s-r btn-a-l btn-disabled ">Start Plan
                                             </a>
-                                            <a href="{{route('member.register')}}?member=h" class="btn-enable btn-m-plan">Start Plan
+                                            <a href="{{route('member.register')}}?member=h" class="btn-enable ">Start Plan
                                             </a>
 
                                         </td>
                                         <td>
-                                            <h6 class="f-s-26 f-c-blue f-w-9">Free Forever</h6>
+                                            <h6 class="f-s-20 f-c-blue f-w-9">Free Forever</h6>
                                             <a href="{{route('customer.register')}}"
-                                                class="btn btn-b-b btn-s-b btn-a-l btn-disabled  btn-m-plan">Free Signup
+                                                class="btn btn-b-b btn-s-b btn-a-l btn-disabled  ">Free Signup
                                             </a>
                                             <a href="{{route('customer.register')}}"
-                                                class="btn-enable btn-m-plan">Free Signup
+                                                class="btn-enable ">Free Signup
                                             </a>
                                         </td>
                                     </tr>
@@ -1146,20 +1171,20 @@
                                             <h14 class="f-s-18 f-c-d-greay">Monthly Fee</h14>
                                         </td>
                                         <td class="pad-20">
-                                            <h6 class="f-s-26 f-c-blue f-w-9">₹5000/-</h6>
+                                            <h6 class="f-s-20 f-c-blue f-w-9">₹5000/-</h6>
                                             <a href="{{route('member.plan')}}?member=y"
-                                               class="btn btn-b-r btn-s-r btn-a-l btn-disabled btn-m-plan">Start Plan
+                                               class="btn btn-b-r btn-s-r btn-a-l btn-disabled ">Start Plan
                                             </a>
-                                            <a href="{{route('member.plan')}}?member=y" class="btn-enable btn-m-plan">Start Plan
+                                            <a href="{{route('member.plan')}}?member=y" class="btn-enable ">Start Plan
                                             </a>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-26 f-c-blue f-w-9">Free Forever</h6>
+                                            <h6 class="f-s-20 f-c-blue f-w-9">Free Forever</h6>
                                             <a href="{{route('customer.register')}}?member=b"
-                                               class="btn btn-b-b btn-s-b btn-a-l btn-disabled btn-m-plan">Free Signup
+                                               class="btn btn-b-b btn-s-b btn-a-l btn-disabled ">Free Signup
                                             </a>
                                             <a href="{{route('customer.register')}}?member=b"
-                                               class="btn-enable btn-m-plan">Free Signup
+                                               class="btn-enable ">Free Signup
                                             </a>
                                         </td>
                                     </tr>
@@ -1309,7 +1334,7 @@
                             ' <th>Rate</th>\n' +
                             ' </tr>\n' +
                             '</thead>';
-                        prices.map((p, i) => {
+                        prices.map((p) => {
                             html += '<tbody>' +
                                 ' <tr> ' +
                                 ' <td class="bg-white">' + p.weight + '</td>' +
@@ -1319,7 +1344,7 @@
                                 ' </tr>' +
                                 '</tbody>';
                         });
-                        pricesDoc.map((d, i) => {
+                        pricesDoc.map((d) => {
                             htmldoc += '<tbody>' +
                                 ' <tr> ' +
                                 ' <td class="bg-white">' + d.weight + '</td>' +
@@ -1328,7 +1353,7 @@
                                 ' </td>' +
                                 ' </tr>' +
                                 '</tbody>';
-                        })
+                        });
                         $('#shippingRates').html(html);
                         $('#shippingRatesDoc').html(htmldoc);
                         $('#ratesModel').modal('show')

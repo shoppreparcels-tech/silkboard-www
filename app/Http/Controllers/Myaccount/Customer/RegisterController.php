@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Myaccount\Customer;
 
+use function GuzzleHttp\Promise\all;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\Controller;
@@ -21,6 +22,7 @@ use App\Mail\Myaccount\ReferralSuccess;
 use App\States;
 use App\Country;
 use Auth;
+use App\Authorization\Authorization;
 
 
 class RegisterController extends Controller
@@ -41,7 +43,8 @@ class RegisterController extends Controller
 
     public function submitRegister(Request $request)
     {
-        $membership_type = $request->session()->get('membership_type');
+//        $membership_type = $request->session()->get('membership_type');
+        $membership_type = $request->member;
         $rules = array(
 //            'title' => 'required|max:250',
             'firstname' => 'required|max:250',
@@ -182,10 +185,12 @@ class RegisterController extends Controller
 //        $status_ask = $this->informToAsk($customer);
         $status = $this->informMailtrain($customer);
         $this->sendEmailVerification($request->email);
+        Authorization::signUp($customer);
 
         if ($membership_type === 'y' || $membership_type == 'h') {
             if (Auth::guard('customer')->attempt(['email'=>$request->email, 'password'=>$request->password])) {
                 $customer_id = Auth::id();
+                $request->session()->put(['membership_type' => $membership_type]);
                 return redirect(route('member.pay',['directSignup' =>'You need to confirm your account.
             We have sent you an activation code, Please check your email after payment.']));
             }

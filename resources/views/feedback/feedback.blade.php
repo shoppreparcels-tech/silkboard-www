@@ -1,9 +1,10 @@
 @extends('layout')
 
-@section('title', 'Shoppre.com - Member Feedback Form | Shoppre')
+@section('title', 'Member Feedback Form | Submit Your Feedback | ShoppRe.com')
 @section('description', 'How we are doing? Regarding your most recent shipment received through Shoppre.com, please leave your feedback, suggestion and provide us more information.')
 @section('keywords', 'shipment, suggestion, feedback, information, form')
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/feedback" />
     <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/star-rating.min.css')}}" rel="stylesheet"/>
 @endsection

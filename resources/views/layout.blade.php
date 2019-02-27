@@ -253,8 +253,11 @@
 </script>
 <script type="text/javascript">
     $(window).on('load', function () {
-        setTimeout($('#myModal-offer').modal('show'),50000) ;
+        setTimeout(function(){
+            $('#myModal-offer').modal('show');
+        }, 10000);
     });
+
 </script>
 <script type="text/javascript">
     jQuery(function () {

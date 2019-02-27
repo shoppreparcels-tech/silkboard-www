@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Get Your Own Free Indian Virtual Shipping Address - ShoppRe.com')
-@section('description', 'Get your own free Indian virtual address for shopping any Indian online stores and ship to your doorsteps, delivered in 3-6 days. Sign Up Now!')
-@section('keywords', 'virtual address')
+@section('title', 'Free Indian Virtual Shipping Address | ShoppRe Mail Forwarding Address')
+@section('description', 'Get your own free Indian virtual shipping address for shopping any Indian online stores and ship to your doorsteps, delivered in 3-6 days. Sign Up Now!')
+@section('keywords', 'virtual address, mail forwarding, virtual mailbox')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/indian-virtual-address" />
@@ -87,7 +87,7 @@
             <h2 class="f-s-20 f-c-d-greay f-w-8 txt-u-l">You can save up to 60%-80% in Shipping Costs!</h2>
 
             <p class="f-s-18 f-c-gray">Clubbing your goods together in one package, rather than shipping in your orders individually from each supplier,
-                can help you save up to 80% in shipping costs. The first half kilo of a courier is costlier than the following weight.
+                can help you <a href="/member/select/plan">save up to 80% in shipping costs</a>. The first half kilo of a courier is costlier than the following weight.
                 Imagine how much cost you can cut down on, buy avoiding each first-half kilos of your individual orders charged for,
                 separately!
             </p>

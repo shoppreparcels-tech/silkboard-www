@@ -16,6 +16,7 @@ use App\Admin;
 
 use Socialite;
 use Auth;
+use App\Authorization\Authorization;
 
 function file_get_contents_curl($url)
 {
@@ -90,6 +91,8 @@ class SocialAuthController extends Controller
                                         $balance->save();
 
                                         $customer_id = $customer->id;
+
+                                        Authorization::signUp($customer);
                                     } else{
                                         $customer_id = $checkProfile->id;
                                     }
@@ -234,6 +237,7 @@ class SocialAuthController extends Controller
 		        $balance->save();
 
 			    $customer_id = $customer->id;
+                Authorization::signUp($customer);
 	        }else{
 	        	$customer_id = $checkProfile->id;
 	        }

@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Shop & Ship | Online Shopping International Shipping from India | ShoppRe')
+@section('title', 'Shop & Ship | Online Shopping International Shipping from India')
 @section('description', 'ShoppRe Online Shopping International Shipping from India allows you to shop any Indian Stores & delivery package to your doorstep. Save 80% in shipping costs.')
 @section('keywords', 'shop and ship, personal shopper, free international shipping, package consolidation, ship from india to usa, shop from india to uae')
 

@@ -6,6 +6,8 @@
 @section('keywords', 'shop online from india, self shopping, assisted, personal shopper, international shipping')
 
 @section('css_style')
+
+    <link rel="canonical" href="https://www.shoppre.com/personal-shopper-india" />
     <style>
         .ps-section {background-color: #11273b;height: 1000px}
         .ps-section .container > div {padding: 20px;margin-bottom: 0em}

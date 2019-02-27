@@ -340,7 +340,16 @@ class PageController extends Controller
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
         return view('page.landing-pages.video-shopper')->with(['countries' => $countries]);
     }
-
+    public function videoLpPriyamani()
+    {
+        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+        return view('page.landing-pages.video-priyamani')->with(['countries' => $countries]);
+    }
+    public function videoLpGPepper()
+    {
+        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+        return view('page.landing-pages.video-GPepper')->with(['countries' => $countries]);
+    }
 
     public function diwali()
     {
@@ -893,7 +902,7 @@ class PageController extends Controller
             $email = $req->email;
             $name = $req->name;
             $contact = $req->contact_no;
-            $commnet = "Lead from Video Consolidation landing page USA email " . $email . "\n contact No: " . $contact;
+            $commnet = "Lead from Video Consolidation landing page email " . $email . "\n contact No: " . $contact;
             AsanaTaskOperations::createTask($name, $commnet, "L");
         }
 
@@ -920,7 +929,7 @@ class PageController extends Controller
             $email = $req->email;
             $name = $req->name;
             $contact = $req->contact_no;
-            $commnet = "Lead from Video Courier landing page USA email " . $email . "\n contact No: " . $contact;
+            $commnet = "Lead from Video Courier landing page email " . $email . "\n contact No: " . $contact;
             AsanaTaskOperations::createTask($name, $commnet, "L");
         }
 
@@ -947,7 +956,61 @@ class PageController extends Controller
             $email = $req->email;
             $name = $req->name;
             $contact = $req->contact_no;
-            $commnet = "Lead from Video Personal Shopper landing page USA email " . $email . "\n contact No: " . $contact;
+            $commnet = "Lead from Video Personal Shopper landing page email " . $email . "\n contact No: " . $contact;
+            AsanaTaskOperations::createTask($name, $commnet, "L");
+        }
+
+        $data = array(
+            'apikey' => $apikey,
+            'email_address' => $email,
+            'status' => 'subscribed',
+            'merge_fields' => array(
+                'FNAME' => $name,
+                'LNAME' => '',
+                'PHONE' => $contact
+            )
+        );
+        $json_data = json_encode($data);
+        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+    }
+    public function apiVideoPriyamani(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $list_id = 'aca625e01f';
+        $auth = base64_encode('user:' . $apikey);
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $name = $req->name;
+            $contact = $req->contact_no;
+            $commnet = "Lead from Video Priyamani Ad Launch landing page email " . $email . "\n contact No: " . $contact;
+            AsanaTaskOperations::createTask($name, $commnet, "L");
+        }
+
+        $data = array(
+            'apikey' => $apikey,
+            'email_address' => $email,
+            'status' => 'subscribed',
+            'merge_fields' => array(
+                'FNAME' => $name,
+                'LNAME' => '',
+                'PHONE' => $contact
+            )
+        );
+        $json_data = json_encode($data);
+        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+    }
+    public function apiVideoGPepper(Request $req)
+    {
+        $id = Auth::id();
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $list_id = 'aca625e01f';
+        $auth = base64_encode('user:' . $apikey);
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $name = $req->name;
+            $contact = $req->contact_no;
+            $commnet = "Lead from Video GPepper Ad landing page email " . $email . "\n contact No: " . $contact;
             AsanaTaskOperations::createTask($name, $commnet, "L");
         }
 
@@ -1520,9 +1583,8 @@ class PageController extends Controller
             ->where('approve', '1')
             ->limit(5)
             ->get();
-
         return view('page.home')->with([
-            'reviews' => $reviews
+            'reviews' => $reviews,
         ]);
     }
 

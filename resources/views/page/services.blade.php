@@ -4,6 +4,8 @@
 @section('description', 'Enjoy worry-free shopping & fast shipping experience with ShoppRe service team. Delivering Happiness to you through every box with your favorite Indian Products.')
 @section('keywords', 'fast, worry-free shipping experience, personal shopper, ship worldwide, simply sign-up, buy now')
 @section('css_style')
+
+    <link rel="canonical" href="https://www.shoppre.com/services" />
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -29,7 +31,7 @@
     "@type" : "AggregateRating",
     "bestRating": "5",
     "ratingValue" : "4.8",
-    "reviewCount" : "117",
+    "reviewCount" : "134",
     "worstRating" : 3.0
   }
 }

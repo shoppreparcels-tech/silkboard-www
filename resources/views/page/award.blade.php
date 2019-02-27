@@ -5,6 +5,8 @@
 @section('keywords', 'awards, couriers, shoppers, sellers, favorite, shipper, online shops, uae, usa, australia, canada')
 
 @section('css_style')
+
+    <link rel="canonical" href="https://www.shoppre.com/2018-annual-awards-international-shipping-shopping" />
     <link rel="stylesheet" href="{{asset('css/animations.css')}}" >
     <link rel="stylesheet" href="{{asset('css/custom/award.css')}}">
 

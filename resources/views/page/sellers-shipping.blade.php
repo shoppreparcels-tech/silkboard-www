@@ -1,10 +1,11 @@
 @extends('layout')
 
-@section('title', 'ShoppRe Seller - Domestic & International Shipping')
-@section('description', 'Seller Registration. Ship with ShoppRe and Save upto 60-80% on Shipping Rates.')
-@section('keywords', 'seller')
+@section('title', 'ShoppRe SELLER Partnership, Domestic Courier & International Shipping')
+@section('description', 'Seller Partnership Registration. ShoppRe makes shipping super easy. Ship your products Internationally stating at ₹500/-')
+@section('keywords', 'seller, flipkart seller, amazon central, alibaba seller, paytm, sell products online')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/sellers-shipping" />
     <!-- Select2 -->
     <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
     <!-- Magnific Popup -->

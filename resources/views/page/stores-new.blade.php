@@ -1,11 +1,43 @@
 @extends('layout')
 @extends('add-sense')
 
-@section('title', 'Top Stores: Indian Shopping Sites with International Delivery througy ShoppRe.com')
+@section('title', 'Top Stores: Indian Shopping Sites with International Delivery through ShoppRe')
 @section('description', 'Shop from list of Top Indian Shopping Sites, Facebook & Instagram Sellers. Save by combining multiple packages into one and get it shipped to your country.')
 @section('keywords', 'shop, list of top indian shopping sites, facebook, instagram sellers, multiple packages, international delivery')
 
 @section('css_style')
+
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "ShoppRe.com",
+  "alternateName": "Indian Shopping Sites with International Delivery through ShoppRe",
+  "url": "https://www.shoppre.com/indian-online-stores",
+  "logo": "https://www.shoppre.com/img/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91 8277919191",
+    "contactType": "customer service"
+  },
+  "sameAs": [
+    "https://www.facebook.com/goshoppre",
+    "https://twitter.com/Go_Shoppre",
+    "https://www.instagram.com/shoppre_official",
+    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+    "https://www.linkedin.com/company/shoppre.com",
+    "https://in.pinterest.com/shoppre"
+  ],
+  "aggregateRating": {
+    "@type" : "AggregateRating",
+    "bestRating": "5",
+    "ratingValue" : "4.8",
+    "reviewCount" : "134",
+    "worstRating" : 3.0
+  }
+}
+</script>
+
     <link rel="canonical" href="https://www.shoppre.com/indian-online-stores"/>
 
     <meta property="og:title" content=" Top Indian Online Shopping Sites 2019"/>
@@ -58,7 +90,7 @@
         <div class="container">
             <div class="row padding-bottom">
                 <center>
-                    <h1 class="header1 p-color-white">Keep Track of Indian Online Stores!</h1>
+                    <h1 class="header1 p-color-white">Shop Indian Stores & Ship Internationally</h1>
                     <h2 class="header2 p-color-cement">Browse through the hottest of Indian online stores, shop as much
                         as you
                         <br>like & ship in your purchases in just 3 steps. </h2>
@@ -411,7 +443,7 @@
 
     <section class="content-oes-stores">
        <div class="container">
-           <h1 class="f-s-28">Indian Shopping Sites with International Delivery througy ShoppRe.com </h1>
+           <h1 class="f-s-28">Indian Shopping Sites with International Delivery through ShoppRe.com </h1>
            <h1>Did you know that India has over 1000 shopping portals online? The number is only going up by day. </h1>
 
            <p>The beauty of e-commerce is, it makes the market truly borderless. Indian trends are gaining popularity and global shoppers are noticing Indian Online Stores now more than ever!</p>

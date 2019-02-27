@@ -5,6 +5,38 @@
 @section('keywords', 'international courier, cargo services, shipping, delivery, schedule a pickup')
 
 @section('css_style')
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "ShoppRe.com",
+  "alternateName": "Send International Courier From India",
+  "url": "https://www.shoppre.com/send-international-courier-from-india",
+  "logo": "https://www.shoppre.com/img/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91 8277919191",
+    "contactType": "customer service"
+  },
+  "sameAs": [
+    "https://www.facebook.com/goshoppre",
+    "https://twitter.com/Go_Shoppre",
+    "https://www.instagram.com/shoppre_official",
+    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+    "https://www.linkedin.com/company/shoppre.com",
+    "https://in.pinterest.com/shoppre"
+  ],
+  "aggregateRating": {
+    "@type" : "AggregateRating",
+    "bestRating": "5",
+    "ratingValue" : "4.8",
+    "reviewCount" : "134",
+    "worstRating" : 3.0
+  }
+}
+</script>
+
+    <link rel="canonical" href="https://www.shoppre.com/send-international-courier-from-india" />
     <style>
         .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}

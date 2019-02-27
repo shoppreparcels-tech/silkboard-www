@@ -5,6 +5,8 @@
 @section('keywords', 'courier service, international package, schedule a pickup, ship internationally')
 
 @section('css_style')
+
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-shipping-services-india" />
     <style>
         .div-padding-bottom{background-image: url("../../img/images/international-courier-from-india.png");height: 470px;width: 100%;background-position: inherit;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;padding-bottom: 4%;}
         .div-padding-bottom .btn-a{margin-left: 25px;padding: 10px;border-radius: 30px;background-color: #e85151;color: #ffffff;font-size: 16px;}
@@ -32,7 +34,7 @@
                 </p>
                 <h1 class="header1  p-color-white">ShoppRe Courier</h1>
                 <p class="header2 p-color-white">One-stop destination for all your courier needs; domestic & international.
-                    <br> We ship to 220+ countries around the world!</p> <br><br><br>
+                    <br> We ship to 220+ countries around the world! #GlobalShippingMadeEasy</p> <br><br><br>
                 <a href="{{route('schedulePickup.Index')}}" class="btn-a" style="    margin-left: -10px;">Request Pickup</a>
                 <a href="{{route('pricing')}}" class="btn-b">Get An Estimate</a>
             </center>
@@ -159,7 +161,7 @@
 
                 </div>
             </a>
-            <a href="https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dshoppre%26oq%3Dshoppre%26aqs%3Dchrome..69i57j69i60l5.4478j0j7%26sourceid%3Dchrome%26ie%3DUTF-8&q=EgRqM4IPGPOnwt4FIhkA8aeDSz69D7l29hCwOCHBNiJdzO_qD5TRMgFy#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,">
+            <a href="https://goo.gl/maps/VPThiDHc1uk">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 div-ifs-google-reviews">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                         <img class="img-responsive img-courier-review-g"

@@ -5,6 +5,9 @@
 @section('keywords', 'international relocation, packers, movers from india, shipping, virtual address, household packing, door pickup services, free shipment process, consolidation, repackaging')
 
 @section('css_style')
+
+    <link rel="canonical" href="https://www.shoppre.com/best-international-relocation-packers-movers" />
+
     <style>
         .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}

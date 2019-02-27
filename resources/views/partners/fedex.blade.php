@@ -1,8 +1,12 @@
 @extends('layout')
 
-@section('title', 'FedEx | International Courier Delivery Services - ShoppRe Partner')
+@section('title', 'FedEx | International Courier Delivery Services | ShoppRe Partner')
 @section('description', 'FedEx is the international courier delivery and shipping partner of ShoppRe. Find the top products shipped with FedEx at great prices.')
 @section('keywords', 'fedex, shipping, courier, parcel, partner')
+
+@section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/fedex" />
+@endsection
 
 @section('content')
     <div class="container">

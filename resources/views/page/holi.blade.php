@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'HOLI')
+@section('title', 'How to send Holi Gifts from India to Abroad | Try ShoppRe.com & Ship Worldwide')
 @section('description', 'holi.')
 @section('keywords', 'holi')
 
@@ -17,20 +17,10 @@
 
     <section class="bg-valentain">
         <div class="container">
-            {{--<div class="col-md-12">--}}
-                {{--<a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">--}}
-                    {{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">--}}
-                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/christmas-contact.png" alt="">--}}
-                {{--</a>--}}
-                {{--<a href="tel:+91-8277919191" class="d-contact-img pull-right">--}}
-                    {{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">--}}
-                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/christmas-contact.png" alt="">--}}
-                {{--</a>--}}
-            {{--</div>--}}
 
             <div class="col-sm-7 col-xs-12">
-                <h1 class="f-s-45 f-c-white f-w-8 l-h-1">Ship LOVE from India</h1>
-                <h1 class="f-s-26 f-c-white f-w-9 l-h-1">SAVE UPTO <span class="f-c-yellow">80%</span> | Fast & Affordable.</h1>
+                <h1 class="f-s-45 f-c-white f-w-8 l-h-1">Send Holi Gifts Worldwide</h1>
+                <h1 class="f-s-26 f-c-white f-w-9 l-h-1">SAVE UPTO <span class="f-c-yellow">80%</span> | Shop & Courier from India</h1>
                 <h1 class="f-s-26 f-c-white l-h-1 f-w-9">Starting from<span class="f-c-yellow">₹549/-</span><span class="offerprice">690/-</span>
                 </h1>
                 <div class="col-md-7 col-xs-12 div-diwali-coupon">
@@ -71,7 +61,7 @@
                         <div class="form-group text-center">
                             <button type="submit" name="btnActivate" class="btn btn-s-r btn-b-r btn-l">Enquiry Now</button>
                         </div>
-                        <p class="f-s-8 f-c-d-greay f-w-7">Your contact information will not be shared with any third party. We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
+                        <p class="f-s-8 f-c-d-greay f-w-7">We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
                     </div>
 
                     <div class="formFrame" id="diwali-couponcode2">
@@ -155,32 +145,24 @@
                     </center>
                 </div>
                 <br>
-                <p class="f-s-16 f-c-gray f-w-4 l-h-2 ">Shop around in 1000+ Indian stores to help make your Valentines' extra special this year,
-                    and get us to ship it to you at the cheapest of shipping rates as fast as it can reach you!   </p>
+                <p class="f-s-16 f-c-gray f-w-4 l-h-2 ">Shop around in 1000+ Indian stores to help make your 2019 Holi extra special,
+                    and get us to ship to your destination at the cheapest of shipping rates. </p>
 
 
-                <h1 class="f-s-18 f-c-d-greay f-w-7">Love is in the air and it is time to pull out all the stops and get the hopeless romantic in you out and about!</h1>
-                <p class="f-s-16 f-c-gray">Celebrate this Valentine’s day with the magnificent beauty of Indian products and the versatility of Indian online shops.</p>
+                <h1 class="f-s-18 f-c-d-greay f-w-7">Buy/Send Holi Gifts for Him/Her from India</h1>
+                <p class="f-s-16 f-c-gray">This Holi make them feel special by expressing your love with adorable gifts like Chocolate Bouquet, Soft
+                    Toys and more. Send Holi gifts from India to Worldwide by using ShoppRe&#39;s <a href="\international-parcel-forwarding-india-online-shopping">international parcel
+                        forwarding services</a>.</p>
 
-                <h1 class="f-s-18 f-c-d-greay f-w-7">Looking for the perfect Valentine’s day gift to send overseas?</h1>
-                <p class="f-s-16 f-c-gray"><a href="{{route('stores1')}}">Indian online shops</a> for sure will help you get the best gift for your loved one this year,
-                    and make this one the most memorable ever! Online shopping from India is the best bet when it comes to
-                    Valentine’s day gifts, in terms of price and quality.
+                <h1 class="f-s-18 f-c-d-greay f-w-7">Holi 2019: Holi Gift Ideas for Family and Friends and Enjoy Hassle Free Delivery to Abroad</h1>
+                <p class="f-s-16 f-c-gray">Greet your family, friends or dear ones  for the Holi wishes by sending them Gujiyas,
+                    Sonpapdi, Kaju Katri, Dry Fruits or Namkeen along with different shades of Gulal.
                 </p>
 
-                <h1 class="f-s-18 f-c-d-greay f-w-7">How does online shopping & international shipping from india work though?</h1>
-                <p class="f-s-16 f-c-gray">Since the most Indian online shops don’t offer international shipping; you  have to
-                    consider <a href="{{route('forwarding')}}">parcel forwarding from India</a> by a third party as your best option.
+                <h1 class="f-s-18 f-c-d-greay f-w-7">How to send Holi Gifts from India to Abroad?</h1>
+                <p class="f-s-16 f-c-gray">Most of the online shopping websitesdo not support international shipping. ShoppRe is all here to help
+                    you through online shopping from India and send it over to US, UK , UAE and Australia anywhere around the globe.
                 </p>
-
-                <h1 class="f-s-18 f-c-d-greay f-w-7">How do we support international shipping from India?</h1>
-                <p class="f-s-16 f-c-gray">ShoppRe provides you with a <a href="{{route('indianVirtual')}}">virtual shipping address</a> to where you can ship all your purchases.
-                    We’ll receive them at our facility and store them in your personal locker and when you make a request to ship it and make
-                    payment, your package will be on its way to the destination, taking just 3-6 days!
-                </p>
-
-                <h1 class="f-s-18 f-c-d-greay f-w-7">Now pick your favorite valentines’ indulgences from India, sit back & relax! </h1>
-                <p class="f-s-16 f-c-gray">Send Valentine’s day gifts to USA, UK, UAE, Australia or anywhere around the world, we’ll be here to help you through it.</p>
                 <br>
 
                 <div class="offerDesc">

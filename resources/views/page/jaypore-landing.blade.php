@@ -5,6 +5,8 @@
 @section('keywords', 'international Shipping')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/jaypore-international-shipping-from-india" />
+
     <meta property="og:title" content="Shop online Amazon.in products & Ship Internationally with ShoppRe" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.shoppre.com/amazon-india-shop-international-shipping" />

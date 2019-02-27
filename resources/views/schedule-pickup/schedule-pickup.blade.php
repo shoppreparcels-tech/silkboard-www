@@ -311,14 +311,15 @@
             </div>
 
             <div class="schedule-container">
-                <form class="form-horizontal" id="form-pickup">
+                <form class="form-horizontal self_form" id="self_form" method="post" action="{{route('schedulePickup.submit')}}" enctype="multipart/form-data" autocomplete="off">
                     {{ csrf_field() }}
+
                     <h4 class="head-align"><u>YOUR CONTACT DETAILS :</u></h4>
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <label>First Name <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter First Name"
+                                <label>Full Name <span class="mendatory_fields">*</span> :</label>
+                                <input type="text" class="form-control" placeholder="Enter First Name" required
                                        name="first_name"/>
                                 @if ($errors->has('first_name'))
                                     <span class="error">{{ $errors->first('first_name') }}</span>
@@ -328,33 +329,11 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="form-group label-align">
-                                <label>Last Name <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter Last Name"
-                                       name="last_name"/>
-                                @if ($errors->has('last_name'))
-                                    <span class="error">{{ $errors->first('last_name') }}</span>
-                                @endif
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label>Email <span class="mendatory_fields">*</span> :</label>
-                                <input type="email" class="form-control" placeholder="Enter Email" name="user_email"
-                                />
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="form-group label-align">
-                                <label class="control-label">Phone<span class="mendatory_fields">*</span></label>
+                                <label class="control-label">Phone Number<span class="mendatory_fields">*</span></label>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <select class="select2 form-control " name="phone_code">
-                                            <option value="">Country Code</option>
+                                        <select class="form-control" name="phone_code" id="phone_code" >
+                                            <option value="91">IN(+91)</option>
                                             @foreach($countries as $country)
                                                 <option value="{{$country->phone_code}}">{{$country->iso}}
                                                     (+{{$country->phone_code}})
@@ -366,208 +345,233 @@
                                         @endif
                                     </div>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="sch-mobile-number" name="mobile"
+                                        <input type="text" class="form-control" id="sch-mobile-number" name="mobile" required
                                                placeholder="Phone Number">
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Email <span class="mendatory_fields">*</span> :</label>
+                                <input type="email" class="form-control" placeholder="Enter Email" name="user_email" required
+                                />
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    </br>
+
                     <h4 class="head-align"><u> PICK-UP ADDRESS :</u></h4>
+                    <div class="row">
+                    <div class="col-sm-6">
+                    <div class="form-group">
+                    <label>First Name <span class="mendatory_fields">*</span> :</label>
+                    <input type="text" class="form-control" placeholder="Enter First Name" required
+                    value="{{!empty($pickup_address->pc_fname)?$pickup_address->pc_fname:''}}" name="pc_fname"/>
+                    <div class="clearfix"></div>
+                    </div>
+                    </div>
+                    <div class="col-sm-6">
+                    <div class="form-group label-align">
+                    <label>Last Name<span class="mendatory_fields">*</span> :</label>
+                    <input type="text" class="form-control" placeholder="Enter Last Name"
+                    value="{{!empty($pickup_address->pc_lname)?$pickup_address->pc_lname:''}}" name="pc_lname"/>
+                    <div class="clearfix"></div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-sm-6">
+                    <div class="form-group">
+                    <label>State <span class="mendatory_fields">*</span> :</label>
+                    {{--<select class="select2 form-control" name="pc_state">--}}
+                    {{--<option value="">Select State</option>--}}
+                    {{--@foreach($states as $state)--}}
+                    {{--<option value="{{$state->name}}" {{$state->name == (!empty($pickup_address->pc_state) ? $pickup_address->pc_state : '') ? 'selected': ''}}>--}}
+                    {{--{{$state->name}}--}}
+                    {{--</option>--}}
+                    {{--@endforeach--}}
+                    {{--</select>--}}
+                    <input type="text" class="form-control" placeholder="Enter Your State" required
+                           value="{{!empty($pickup_address->pc_state)?$pickup_address->pc_state:''}}" name="pc_state"/>
+
+                    <div class="clearfix"></div>
+                    </div>
+                    </div>
+                    <div class="col-sm-6">
+                    <div class="form-group label-align">
+                    <label>City <span class="mendatory_fields">*</span> :</label>
+                    <input type="text" class="form-control" placeholder="Enter City" required
+                    value="{{!empty($pickup_address->pc_city)?$pickup_address->pc_city:''}}"
+                    name="pc_city"/>
+                    <div class="clearfix"></div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-sm-6">
+                    <div class="form-group">
+                    <label>Street <span class="mendatory_fields">*</span> :</label>
+                    <input type="text" class="form-control" placeholder="Please Enter Street" required
+                    value="{{!empty($pickup_address->pc_street)?$pickup_address->pc_street:''}}"
+                    name="pc_street"/>
+                    <div class="clearfix"></div>
+                    </div>
+                    </div>
+                    <div class="col-sm-6">
+                    <div class="form-group label-align">
+                    <label>Pincode <span class="mendatory_fields">*</span> :</label>
+                    <input type="text" class="form-control" placeholder="Enter Pincode" required
+                    value="{{!empty($pickup_address->pc_pincode)?$pickup_address->pc_pincode:''}}"
+                    name="pc_pincode"/>
+                    <div class="clearfix"></div>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class="row">
+                    <div class="col-sm-6">
+                    <div class="form-group">
+                    <label>Mobile <span class="mendatory_fields">*</span> :</label>
+                    <input type="text" class="form-control" placeholder="Enter Mobile" required
+                    value="{{!empty($pickup_address->pc_contact_no)?$pickup_address->pc_contact_no :''}}"
+                    name="pc_contact_no"/>
+                    <div class="clearfix"></div>
+                    </div>
+                    </div>
+                    <div class="col-sm-6">
+                    <div class="form-group label-align">
+                    <label>Email :</label>
+                    <input type="email" class="form-control" placeholder="Enter Email" required
+                    value="{{!empty($pickup_address->pc_email)?$pickup_address->pc_email:''}}"
+                    name="pc_email"/>
+                    <div class="clearfix"></div>
+                    </div>
+                    </div>
+                    </div>
+                    <h4 class="head-align"><u>PACKAGE INFORMATION :</u></h4>
+                    <div class="col-sm-12">
+                    <div class="col-sm-3">
+                    <div class="form-group label-align">
+                        <label>Weight Of Package<span class="mendatory_fields">*</span> :</label>
+                    <div class="row">
+                    <div
+                    class="col-sm-12 div-price-cal-length-padding">
+                    <h6 class="header7 p-color-cement">(in kg)</h6>
+                    <div class="col-sm-12 no-padding ">
+                    <input type="text" class="form-control" style="height: 40px" name="package_weight" required placeholder="Enter Package Weight">
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-9">
+                    <div class="form-group label-align">
+                    <label>Size Of The Package If You Are Aware( Optional )<a
+                    href="#" class="tooltipkey" title="volumetric">
+                    <i class="fa fa-question-circle-o"></i></a> :</label>
+                    <div class="row">
+                    <div
+                    class="col-md-3 col-sm-4 col-xs-4 div-price-cal-length-padding">
+                    <h6 class="header7 p-color-cement">Length (in cm)</h6>
+                    <div class="col-sm-12 no-padding  div-price-cal-length">
+                    <span id="aminus"
+                    class="btn btn-puls-minus dec-value no-padding">-</span>
+                    <input type="text" class="txt-length" name="length" required
+                    value="0">
+                    <span id="aplus"
+                    class="btn btn-puls-minus inc-value no-padding">+</span>
+                    </div>
+                    </div>
+                    <div
+                    class="col-md-3 col-sm-4 col-xs-4 div-price-cal-length-padding">
+                    <h6 class="header7 p-color-cement">Width (in cm)</h6>
+                    <div class="col-sm-12 no-padding div-price-cal-length">
+                    <span id="aminus"
+                    class="btn btn-puls-minus dec-value no-padding">-</span>
+                    <input type="text" class="txt-length" name="width" required
+                    value="0">
+                    <span id="aplus"
+                    class="btn btn-puls-minus inc-value no-padding">+</span>
+                    </div>
+                    </div>
+                    <div
+                    class="col-md-3 col-sm-4  col-xs-4 div-price-cal-length-padding">
+                    <h6 class="header7 p-color-cement">Height (in cm)</h6>
+                    <div class="col-sm-12 no-padding  div-price-cal-length">
+                    <span class="btn btn-puls-minus dec-value no-padding"
+                    id="aminus">-</span>
+                    <input type="text" class="txt-length" name="height" required
+                    value="0">
+                    <span id="aplus"
+                    class="btn btn-puls-minus inc-value no-padding">+</span>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <ol style="list-style-type: none;">
+                        <li id="selfol_li0" data-olli="0">
+                            <div class="col-sm-6">
+                                <label>Package Name</label>
+                                <input type="text" class="form-control self_url" name="name[0]" required data-rule-url="true" placeholder="eg.T Shirt">
+                            </div>
+                            <div class="col-sm-3">
+                                <label>Quantity</label>
+                                <input type="text" class="form-control self_amt" name="quantity[0]" data-rule-number="true" data-rule-min="1" placeholder="eg.2" required>
+                            </div>
+                            <div class="col-sm-2">
+                                <label>Price</label>
+                                <input type="text" class="form-control self_qty" name="amount[0]" required data-rule-digits="true" data-rule-min="1" placeholder="eg.0.00">
+                            </div>
+                            {{--<div class="col-sm-1">--}}
+                                {{--<a href="#" class="remove" data-litarget="0">Remove</a>--}}
+                            {{--</div>--}}
+                            <div class="clearfix"></div>
+                        </li>
+                    </ol>
+
+                    <a href="#" id="inputplus" class="btn btn-plus"><i class="fa fa-plus"></i> Add Items</a>
+                    <h4 class="head-align"><u>DESTINATION ADDRESS : </u></h4>
+                    {{--@if(!empty($destination_addresses))--}}
+                        {{--@if(count($destination_addresses) !=0)--}}
+                            {{--<h4 class="head-align address-book" id="address-book"><u>Add Address From Address Book(+)</u></h4>--}}
+                            {{--<div class="address-block">--}}
+                                {{--<div class="row">--}}
+                                    {{--@foreach($destination_addresses as $indexKey=>$address)--}}
+                                        {{--<a href="" data-id="{{$address->id}}" class="btn-destination-address">--}}
+                                            {{--<div class="col-sm-3" style="margin-top: 20px;">--}}
+                                                {{--<div class="card" style="padding: 15px;background-color: #fe9611;">--}}
+                                                    {{--<p style="float: right;color:#ffffff;">Add</p>--}}
+                                                    {{--<p class="address-color">Address {{++$indexKey}}</p>--}}
+                                                    {{--<h5 class="address-color"><b>{{$address->salutation}} {{$address->first_name}} {{$address->last_name}}</b></h5>--}}
+                                                    {{--<p class="address-line address-color">{{$address->city}} {{$address->state}}</p>--}}
+                                                    {{--<p class="address-line address-color">{{$address->country}}-{{$address->pincode}}</p>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                        {{--</a>--}}
+                                    {{--@endforeach--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--@endif--}}
+                    {{--@endif--}}
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label>First Name <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter First Name"
-                                      value="{{!empty($pickup_address->pc_fname)?$pickup_address->pc_fname:''}}" name="pc_fname"/>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group label-align">
-                                <label>Last Name<span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter Last Name"
-                                       value="{{!empty($pickup_address->pc_lname)?$pickup_address->pc_lname:''}}" name="pc_lname"/>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label>State <span class="mendatory_fields">*</span> :</label>
-                                <select class="select2 form-control" name="pc_state">
-                                    <option value="">Select State</option>
-                                    @foreach($states as $state)
-                                        <option value="{{$state->name}}" {{$state->name == (!empty($pickup_address->pc_state) ? $pickup_address->pc_state : '') ? 'selected': ''}}>
-                                            {{$state->name}}
-                                        </option>
-                                    @endforeach
-                                </select>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group label-align">
-                                <label>City <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter City"
-                                       value="{{!empty($pickup_address->pc_city)?$pickup_address->pc_city:''}}"
-                                       name="pc_city"/>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label>Street <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Please Enter Street"
-                                       value="{{!empty($pickup_address->pc_street)?$pickup_address->pc_street:''}}"
-                                       name="pc_street"/>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group label-align">
-                                <label>Pincode <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter Pincode"
-                                       value="{{!empty($pickup_address->pc_pincode)?$pickup_address->pc_pincode:''}}"
-                                       name="pc_pincode"/>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label>Mobile <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter Mobile"
-                                       value="{{!empty($pickup_address->pc_contact_no)?$pickup_address->pc_contact_no :''}}"
-                                       name="pc_contact_no"/>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group label-align">
-                                <label>Email :</label>
-                                <input type="email" class="form-control" placeholder="Enter Email"
-                                       value="{{!empty($pickup_address->pc_email)?$pickup_address->pc_email:''}}"
-                                       name="pc_email"/>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <h4 class="head-align"><u>PACKAGE INFORMATION :</u></h4>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label>Weight Of Package(in kg)<span class="mendatory_fields">*</span> :</label>
-                                <input type="number" class="form-control" placeholder="Enter Package Weight"
-                                       name="package_weight"/>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group label-align">
-                                <label>Size Of The Package If You Are Aware( Length, Breadth and Height ) :</label>
-                                <input type="text" class="form-control" placeholder="Enter Package Size"
-                                       name="size_of_package"/>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                                <label>No Of Packages <span class="mendatory_fields">*</span> :</label>
-                                <input type="number" class="form-control" placeholder="Enter No Of Packages"
-                                       name="no_of_packages"/>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                                <label>Items Of The Package <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter Package Items"
-                                       name="package_items"/>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                                <label><u> Does It Contains The Following:</u></label>
-                                <br>
-                                <input type="checkbox" name="home_made" value="Home Made Food items"/> Home Made Food
-                                items<br>
-                                <input type="checkbox" name="branded_food_items" value="Branded Food items"/> Branded
-                                Food
-                                items<br>
-                                <input type="checkbox" name="liquid_items" value="Liquid items"/> Liquid items<br>
-                                <input type="checkbox" name="medicine_items"
-                                       value="Medicines - Allopathy/Ayurvedic/Homeopathic"/>
-                                Medicines - Allopathy/Ayurvedic/Homeopathic<br>
-                                <input type="checkbox" name="electronics" value="Electronics"/> Electronic items<br>
-                                <input type="checkbox" name="other" value="Other"/> Other<br>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="other_item_box">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="form-group">
-                                    <label>Other Item Detail:</label>
-                                    <input type="text" class="form-control" placeholder="Enter Other Item Detail"
-                                           name="other_items"/>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h4 class="head-align"><u>DESTINATION ADDRESS : </u></h4>
-                    @if(!empty($destination_addresses))
-                        @if(count($destination_addresses) !=0)
-                    <h4 class="head-align address-book" id="address-book"><u>Add Address From Address Book(+)</u></h4>
-                    <div class="address-block">
-                        <div class="row">
-                            @foreach($destination_addresses as $indexKey=>$address)
-                            <a href="" data-id="{{$address->id}}" class="btn-destination-address">
-                            <div class="col-sm-3" style="margin-top: 20px;">
-                                <div class="card" style="padding: 15px;background-color: #fe9611;">
-                                        <p style="float: right;color:#ffffff;">Add</p>
-                                        <p class="address-color">Address {{++$indexKey}}</p>
-                                        <h5 class="address-color"><b>{{$address->salutation}} {{$address->first_name}} {{$address->last_name}}</b></h5>
-                                        <p class="address-line address-color">{{$address->city}} {{$address->state}}</p>
-                                        <p class="address-line address-color">{{$address->country}}-{{$address->pincode}}</p>
-                                </div>
-                            </div>
-                            </a>
-                            @endforeach
-                    </div>
-                    </div>
-                    @endif
-                    @endif
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label>Firstname <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter First Name"
+                                <input type="text" class="form-control" placeholder="Enter First Name" required
                                        name="dc_fname"/>
                                 <div class="clearfix"></div>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-group label-align">
-                                <label>Lastname <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter Last Name"
+                                <label>Last Name <span class="mendatory_fields">*</span> :</label>
+                                <input type="text" class="form-control" placeholder="Enter Last Name" required
                                        name="dc_lname"/>
                                 <div class="clearfix"></div>
                             </div>
@@ -577,7 +581,7 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label>Street <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Please Enter Street"
+                                <input type="text" class="form-control" placeholder="Please Enter Street" required
                                        name="dc_street"/>
                                 <div class="clearfix"></div>
                             </div>
@@ -585,7 +589,7 @@
                         <div class="col-sm-6">
                             <div class="form-group label-align">
                                 <label>Pincode <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter Pincode"
+                                <input type="text" class="form-control" placeholder="Enter Pincode" required
                                        name="dc_pincode"/>
                                 <div class="clearfix"></div>
                             </div>
@@ -595,7 +599,7 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label>State :</label>
-                                <input type="text" class="form-control" placeholder="Enter State"
+                                <input type="text" class="form-control" placeholder="Enter State" required
                                        name="dc_state"/>
                                 <div class="clearfix"></div>
                             </div>
@@ -603,7 +607,7 @@
                         <div class="col-sm-6">
                             <div class="form-group label-align">
                                 <label>City <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter City"
+                                <input type="text" class="form-control" placeholder="Enter City" required
                                        name="dc_city"/>
                                 <div class="clearfix"></div>
                             </div>
@@ -613,7 +617,7 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label class="control-label ">Country<span class="mendatory_fields">*</span> </label>
-                                <select class="form-control" name="dc_country" id="dc_country">
+                                <select required class="form-control" name="dc_country" id="dc_country">
                                     <option value="">Select Country</option>
                                     @foreach($countries as $country)
                                         <option value="{{$country->name}}">
@@ -638,38 +642,11 @@
                                         </select>
                                     </div>
                                     <div class="col-sm-8 ">
-                                        <input type="text" class="form-control"
+                                        <input type="text" class="form-control" required
                                                name="dc_contact_no"
                                                placeholder="Phone Number">
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <h4 class="head-align"><u> PAYMENT METHOD : </u></h4>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                                <label>Amount Transfer Options <span class="mendatory_fields"></span>:</label>
-                                <br>
-                                <input type="radio" name="payment_option" value="shoppre_account">
-                                Transferwise.com or Bank
-                                Transer
-                                Name: INDIANSHOPPRE LLP , Account<br>&nbsp; &nbsp;&nbsp;&nbsp; Number: 917020057881967 ,
-                                IFS
-                                Code: UTIB0000009 ,
-                                MICR Code:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 560211002 , <u>E-mail ID:
-                                    support@shoppre.com </u>, Swift Code: AXISINBB009<br>
-                                <input type="radio" name="payment_option" value="paypal"> PayPal - 10% Extra -
-                                support@shoppre.com<br>
-                                <input type="radio" name="payment_option" value="paytm">
-                                Paytm - {{env('PAYTM_CHARGE')}}% Extra - 9148357733
-                                <br>
-                                <input type="radio" name="payment_option" value="card"> Debit/Credit Card
-                                <div class="clearfix"></div>
-                                @if ($errors->has('payment_option'))
-                                    <span class="error">{{ $errors->first('payment_option') }}</span>
-                                @endif
                             </div>
                         </div>
                     </div>
@@ -800,163 +777,198 @@
                 $('.signup-blox').css('display','none');
             });
 
-            $("#form-pickup").validate({
-                rules:
-                    {
-                        first_name: {required: true},
-                        last_name: {required: true},
-                        user_email: {required: true},
-                        phone_code: {required: true},
-                        mobile: {required: true},
-                        no_of_packages: {required: true},
-                        package_weight: {required: true},
-                        package_items: {required: true},
-                        payment_option: {required: true},
-                        pc_fname: {required: true},
-                        pc_lname: {required: true},
-                        pc_street: {required: true},
-                        pc_pincode: {required: true},
-                        pc_city: {required: true},
-                        pc_contact_no: {required: true},
-                        dc_fname: {required: true},
-                        dc_lname: {required: true},
-                        dc_street: {required: true},
-                        dc_city: {required: true},
-                        dc_country: {required: true},
-                        dc_pincode: {required: true},
-                        dc_phone_code: {required: true},
-                        dc_contact_no: {required: true}
-                    },
-                messages:
-                    {
-                        first_name: {required: 'Please Enter First Name'},
-                        last_name: {required: 'Please Enter Last Name'},
-                        user_email: {required: 'Please Enter Email'},
-                        phone_code: {required: 'Select Phone Code'},
-                        mobile: {required: 'Please Enter Mobile No.'},
-                        no_of_packages: {required: 'Please Enter No of Packages'},
-                        package_weight: {required: 'Please Enter Package Weight'},
-                        package_items: {required: 'Please Enter Package Items'},
-                        payment_option: {required: 'Please Select Payment Option'},
-                        pc_fname: {required: 'Please Enter First Name'},
-                        pc_lname: {required: 'Please Enter Last Name'},
-                        pc_street: {required: 'Please Enter The Street'},
-                        pc_pincode: {required: 'Please Enter Pincode'},
-                        pc_city: {required: 'Please Enter City'},
-                        pc_contact_no: {required: 'Please Enter Contact Number '},
-                        dc_fname: {required: 'Please Enter First Name'},
-                        dc_lname: {required: 'Please Enter Last Name'},
-                        dc_street: {required: 'Please Enter Street'},
-                        dc_city: {required: 'Please Enter City'},
-                        dc_country: {required: 'Please Select Country'},
-                        dc_pincode: {required: 'Please Enter Pincode'},
-                        dc_phone_code: {required: 'Select Phone Code'},
-                        dc_contact_no: {required: 'Please Enter Contact Number'}
-                    },
-                submitHandler: function (form) {
-                    var f_name = $("input[name='first_name']").val();
-                    var l_name = $("input[name='last_name']").val();
-                    var email = $("input[name='user_email']").val();
-                    var phone_code = $("select[name='phone_code']").val();
-                    var mobile = $("input[name='mobile']").val();
-                    var no_of_packages = $("input[name='no_of_packages']").val();
-                    var package_weight = $("input[name='package_weight']").val();
-                    var package_size = $("input[name='size_of_package']").val();
-                    var package_items = $("input[name='package_items']").val();
-                    var home_made = $("input[name='home_made']:checked").val();
-                    var branded_food_item = $("input[name='branded_food_items']:checked").val();
-                    var liquid_items = $("input[name='liquid_items']:checked").val();
-                    var medicine_items = $("input[name='medicine_items']:checked").val();
-                    var electronics = $("input[name='electronics']:checked").val();
-                    var other = $("input[name='other']:checked").val();
-                    var other_items = $("input[name='other_items']").val();
-                    var pay_option = $("input[name='payment_option']:checked").val();
-                    var pc_fname = $("input[name='pc_fname']").val();
-                    var pc_lname = $("input[name='pc_lname']").val();
-                    var pc_street = $("input[name='pc_street']").val();
-                    var pc_pincode = $("input[name='pc_pincode']").val();
-                    var pc_city = $("input[name='pc_city']").val();
-                    var pc_state = $("select[name='pc_state']").val();
-                    var pc_contact_no = $("input[name='pc_contact_no']").val();
-                    var pc_email = $("input[name='pc_email']").val();
-                    var dc_fname = $("input[name='dc_fname']").val();
-                    var dc_lname = $("input[name='dc_lname']").val();
-                    var dc_street = $("input[name='dc_street']").val();
-                    var dc_state = $("input[name='dc_state']").val();
-                    var dc_city = $("input[name='dc_city']").val();
-                    var dc_country = $("select[name='dc_country']").val();
-                    var dc_pincode = $("input[name='dc_pincode']").val();
-                    var dc_phone_code = $("select[name='dc_phone_code']").val();
-                    var dc_contact_no = $("input[name='dc_contact_no']").val();
-                    var comment = $("input[name='comment']").val();
-                    // alert(email);
-                    var token = $('input[name=_token]').val();
-                    $("#schedule_load").show();
-                    // jQuery.ajax({
-                    //     url: 'check/authenticate',
-                    //     type: "GET",
-                    //     success: function (res) {
-                    //         console.log('Auth', res);
-                    //         if (res.status === 'authenticated') {
-                                jQuery.ajax({
-                                    url: 'schedule-pickup/submit',
-                                    type: "POST",
-                                    data: {
-                                        first_name: f_name,
-                                        last_name: l_name,
-                                        user_email: email,
-                                        phone_code: phone_code,
-                                        mobile: mobile,
-                                        no_of_packages: no_of_packages,
-                                        size_of_package: package_size,
-                                        package_weight: package_weight,
-                                        package_items: package_items,
-                                        home_made: home_made,
-                                        branded_food_item: branded_food_item,
-                                        liquid_items: liquid_items,
-                                        medicine_items: medicine_items,
-                                        electronics: electronics,
-                                        other: other,
-                                        other_items: other_items,
-                                        payment_option: pay_option,
-                                        pc_fname: pc_fname,
-                                        pc_lname: pc_lname,
-                                        pc_street: pc_street,
-                                        pc_city: pc_city,
-                                        pc_pincode: pc_pincode,
-                                        pc_state: pc_state,
-                                        pc_contact_no: pc_contact_no,
-                                        pc_email: pc_email,
-                                        dc_fname: dc_fname,
-                                        dc_lname: dc_lname,
-                                        dc_street: dc_street,
-                                        dc_city: dc_city,
-                                        dc_state: dc_state,
-                                        dc_country: dc_country,
-                                        dc_pincode: dc_pincode,
-                                        dc_phone_code: dc_phone_code,
-                                        dc_contact_no: dc_contact_no,
-                                        comment: comment
-                                    },
-                                    success: function (data) {
-                                        $("#schedule_load").hide();
-                                        // $('#scheduleModel').modal('show');
-                                        // $('#popup1').css('display', 'block');
-                                        window.location.href = "https://www.shoppre.com/schedule-pickup/confirm";
-                                        console.log(data);
-                                    }
-                                });
-                        //     }
-                        //     else if (res.status === 'unauthenticated') {
-                        //         $("#schedule_load").hide();
-                        //         $("#popup1").css('display', 'block');
-                        //     }
-                        // }
-                    // });
-
-                    return false;
-                }
+            $("#pickup_form").validate({
+                errorElement: 'span',
             });
+
+
+            $("#inputplus").click(function(e) {
+                e.preventDefault();
+                var i = $("#self_form ol li:last").attr('data-olli');
+                ++i;
+                $("#self_form ol").append('<li id="selfol_li'+i+'" data-olli="'+i+'">' +
+                    '<div class="col-sm-6">' +
+                        '<label>Package Name</label>' +
+                        '<input type="text" class="form-control self_url" name="name['+i+']" required data-rule-url="true" placeholder="eg: t-shirt">' +
+                    '</div>' +
+                    '<div class="col-sm-3">' +
+                    '   <label>Quantity</label>' +
+                        '<input type="text" class="form-control self_amt" name="quantity['+i+']" placeholder="eg.2"  data-rule-number="true" data-rule-min="1" required>' +
+                    '</div>' +
+                    '<div class="col-sm-2">' +
+                        '<label>Price</label>' +
+                        '<input type="text" class="form-control self_qty" placeholder="eg..0.00"  name="amount['+i+']"  data-rule-digits="true" data-rule-min="1" required>' +
+                    '</div>' +
+                    '<div class="col-sm-1">' +
+                    '   <a href="#" class="remove" data-litarget="'+i+'">Remove</a>' +
+                    '</div>' +
+                    '<div class="clearfix"></div>' +
+                    '</li>');
+            });
+
+            $(document).on("click", "#self_form .remove", function(e){
+                e.preventDefault();
+                var i = $(this).attr('data-litarget');
+                $('#selfol_li'+i).remove();
+            });
+
+            // $("#form-pickup").validate({
+            //     rules:
+            //         {
+            //             first_name: {required: true},
+            //             last_name: {required: true},
+            //             user_email: {required: true},
+            //             phone_code: {required: true},
+            //             mobile: {required: true},
+            //             no_of_packages: {required: true},
+            //             package_weight: {required: true},
+            //             package_items: {required: true},
+            //             payment_option: {required: true},
+            //             pc_fname: {required: true},
+            //             pc_lname: {required: true},
+            //             pc_street: {required: true},
+            //             pc_pincode: {required: true},
+            //             pc_city: {required: true},
+            //             pc_contact_no: {required: true},
+            //             dc_fname: {required: true},
+            //             dc_lname: {required: true},
+            //             dc_street: {required: true},
+            //             dc_city: {required: true},
+            //             dc_country: {required: true},
+            //             dc_pincode: {required: true},
+            //             dc_phone_code: {required: true},
+            //             dc_contact_no: {required: true}
+            //         },
+            //     messages:
+            //         {
+            //             first_name: {required: 'Please Enter First Name'},
+            //             last_name: {required: 'Please Enter Last Name'},
+            //             user_email: {required: 'Please Enter Email'},
+            //             phone_code: {required: 'Select Phone Code'},
+            //             mobile: {required: 'Please Enter Mobile No.'},
+            //             no_of_packages: {required: 'Please Enter No of Packages'},
+            //             package_weight: {required: 'Please Enter Package Weight'},
+            //             package_items: {required: 'Please Enter Package Items'},
+            //             payment_option: {required: 'Please Select Payment Option'},
+            //             pc_fname: {required: 'Please Enter First Name'},
+            //             pc_lname: {required: 'Please Enter Last Name'},
+            //             pc_street: {required: 'Please Enter The Street'},
+            //             pc_pincode: {required: 'Please Enter Pincode'},
+            //             pc_city: {required: 'Please Enter City'},
+            //             pc_contact_no: {required: 'Please Enter Contact Number '},
+            //             dc_fname: {required: 'Please Enter First Name'},
+            //             dc_lname: {required: 'Please Enter Last Name'},
+            //             dc_street: {required: 'Please Enter Street'},
+            //             dc_city: {required: 'Please Enter City'},
+            //             dc_country: {required: 'Please Select Country'},
+            //             dc_pincode: {required: 'Please Enter Pincode'},
+            //             dc_phone_code: {required: 'Select Phone Code'},
+            //             dc_contact_no: {required: 'Please Enter Contact Number'}
+            //         },
+            //     // submitHandler: function (form) {
+            //     //     var f_name = $("input[name='first_name']").val();
+            //     //     var l_name = $("input[name='last_name']").val();
+            //     //     var email = $("input[name='user_email']").val();
+            //     //     var phone_code = $("select[name='phone_code']").val();
+            //     //     var mobile = $("input[name='mobile']").val();
+            //     //     var no_of_packages = $("input[name='no_of_packages']").val();
+            //     //     var package_weight = $("input[name='package_weight']").val();
+            //     //     var package_size = $("input[name='size_of_package']").val();
+            //     //     var package_items = $("input[name='package_items']").val();
+            //     //     var home_made = $("input[name='home_made']:checked").val();
+            //     //     var branded_food_item = $("input[name='branded_food_items']:checked").val();
+            //     //     var liquid_items = $("input[name='liquid_items']:checked").val();
+            //     //     var medicine_items = $("input[name='medicine_items']:checked").val();
+            //     //     var electronics = $("input[name='electronics']:checked").val();
+            //     //     var other = $("input[name='other']:checked").val();
+            //     //     var other_items = $("input[name='other_items']").val();
+            //     //     var pay_option = $("input[name='payment_option']:checked").val();
+            //     //     var pc_fname = $("input[name='pc_fname']").val();
+            //     //     var pc_lname = $("input[name='pc_lname']").val();
+            //     //     var pc_street = $("input[name='pc_street']").val();
+            //     //     var pc_pincode = $("input[name='pc_pincode']").val();
+            //     //     var pc_city = $("input[name='pc_city']").val();
+            //     //     var pc_state = $("select[name='pc_state']").val();
+            //     //     var pc_contact_no = $("input[name='pc_contact_no']").val();
+            //     //     var pc_email = $("input[name='pc_email']").val();
+            //     //     var dc_fname = $("input[name='dc_fname']").val();
+            //     //     var dc_lname = $("input[name='dc_lname']").val();
+            //     //     var dc_street = $("input[name='dc_street']").val();
+            //     //     var dc_state = $("input[name='dc_state']").val();
+            //     //     var dc_city = $("input[name='dc_city']").val();
+            //     //     var dc_country = $("select[name='dc_country']").val();
+            //     //     var dc_pincode = $("input[name='dc_pincode']").val();
+            //     //     var dc_phone_code = $("select[name='dc_phone_code']").val();
+            //     //     var dc_contact_no = $("input[name='dc_contact_no']").val();
+            //     //     var comment = $("input[name='comment']").val();
+            //     //     // alert(email);
+            //     //     var token = $('input[name=_token]').val();
+            //     //     $("#schedule_load").show();
+            //     //     // jQuery.ajax({
+            //     //     //     url: 'check/authenticate',
+            //     //     //     type: "GET",
+            //     //     //     success: function (res) {
+            //     //     //         console.log('Auth', res);
+            //     //     //         if (res.status === 'authenticated') {
+            //     //                 jQuery.ajax({
+            //     //                     url: 'schedule-pickup/submit',
+            //     //                     type: "POST",
+            //     //                     data: {
+            //     //                         first_name: f_name,
+            //     //                         last_name: l_name,
+            //     //                         user_email: email,
+            //     //                         phone_code: phone_code,
+            //     //                         mobile: mobile,
+            //     //                         no_of_packages: no_of_packages,
+            //     //                         size_of_package: package_size,
+            //     //                         package_weight: package_weight,
+            //     //                         package_items: package_items,
+            //     //                         home_made: home_made,
+            //     //                         branded_food_item: branded_food_item,
+            //     //                         liquid_items: liquid_items,
+            //     //                         medicine_items: medicine_items,
+            //     //                         electronics: electronics,
+            //     //                         other: other,
+            //     //                         other_items: other_items,
+            //     //                         payment_option: pay_option,
+            //     //                         pc_fname: pc_fname,
+            //     //                         pc_lname: pc_lname,
+            //     //                         pc_street: pc_street,
+            //     //                         pc_city: pc_city,
+            //     //                         pc_pincode: pc_pincode,
+            //     //                         pc_state: pc_state,
+            //     //                         pc_contact_no: pc_contact_no,
+            //     //                         pc_email: pc_email,
+            //     //                         dc_fname: dc_fname,
+            //     //                         dc_lname: dc_lname,
+            //     //                         dc_street: dc_street,
+            //     //                         dc_city: dc_city,
+            //     //                         dc_state: dc_state,
+            //     //                         dc_country: dc_country,
+            //     //                         dc_pincode: dc_pincode,
+            //     //                         dc_phone_code: dc_phone_code,
+            //     //                         dc_contact_no: dc_contact_no,
+            //     //                         comment: comment
+            //     //                     },
+            //     //                     success: function (data) {
+            //     //                         $("#schedule_load").hide();
+            //     //                         // $('#scheduleModel').modal('show');
+            //     //                         // $('#popup1').css('display', 'block');
+            //     //                         window.location.href = "https://www.shoppre.com/schedule-pickup/confirm";
+            //     //                         console.log(data);
+            //     //                     }
+            //     //                 });
+            //     //         //     }
+            //     //         //     else if (res.status === 'unauthenticated') {
+            //     //         //         $("#schedule_load").hide();
+            //     //         //         $("#popup1").css('display', 'block');
+            //     //         //     }
+            //     //         // }
+            //     //     // });
+            //     //
+            //     //     return false;
+            //     // }
+            // });
 
             $("#form_login").validate({
                 rules:

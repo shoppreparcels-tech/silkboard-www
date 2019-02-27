@@ -5,6 +5,8 @@
 @section('keywords', 'international courier, cargo services, shipping, delivery, schedule a pickup')
 
 @section('css_style')
+
+    <link rel="canonical" href="https://www.shoppre.com/international-parcel-forwarding-india-online-shopping" />
     <style>
         .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}
@@ -42,7 +44,7 @@
                 <div class="col-md-12 col-xs-12 no-pad">
                     <h1 class="p-color-white header-spacing d-header-text">International Parcel Forwarding: Shipping Packages from India
                         <br></h1>
-                    <h1 class="header1 p-color-white header-spacing">Starting @₹695/-</h1>
+                    <h1 class="header1 p-color-white header-spacing">Starting @₹570/-</h1>
 
                     <p class="p-color-white header5 d-header-text1">Want
                         to ship your packages abroad from India?<br>
@@ -126,12 +128,12 @@
                 <div class=" col-md-12 col-xs-12 div-ics-prodcts">
                     <div class="col-md-6 col-xs-6 no-padding">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Medicine</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Documents</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Sarees</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Footwear</li>
                             {{--<li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg')}}" alt=""> Personal goods</li>--}}
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Sports Equipment</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Homemade foods</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Artwork</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> T-Shirts</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Smartphones</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Kurta & Kurtis</li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Artificial Jewellery</li>
                         </ul>
                     </div>
@@ -229,21 +231,22 @@
                 <br>
             </ul>
 
-            <h1>How is the costing like?</h1>
-            <p>You can see more details <a href="{{route('pricing')}}">here</a></p>
+            <h1>How is the shipping costing like?</h1>
+            <p>You can <a href="{{route('pricing')}}">see more shipping per kg cost details</a></p> <br>
             <ul>
-                <li>International parcel forwarding from India to USA starting only at  ₹1526</li>
-                <li>International parcel forwarding from India to UK starting only at  ₹1429</li>
-                <li>International parcel forwarding from India to Australia starting only at  ₹1749</li>
-                <li>International parcel forwarding from India to UAE starting only at  ₹690</li>
-                <li>International parcel forwarding from India to Canada starting only at  ₹1700</li>
-                <li>International parcel forwarding from India to Singapore starting only at ₹946</li>
-                <li>International parcel forwarding from India to Hongkong starting only at ₹767</li>
-                <li>International parcel forwarding from India to Saudi Arabia starting only at ₹1516</li>
+                <li>International parcel forwarding from India to USA starting only at  ₹1449</li>
+                <br>
+                <li>International parcel forwarding from India to UK starting only at  ₹1556</li> <br>
+                <li>International parcel forwarding from India to Australia starting only at  ₹1499</li> <br>
+                <li>International parcel forwarding from India to UAE starting only at  ₹566</li> <br>
+                <li>International parcel forwarding from India to Canada starting only at  ₹1594</li> <br>
+                <li>International parcel forwarding from India to Singapore starting only at ₹939</li> <br>
+                <li>International parcel forwarding from India to Hongkong starting only at ₹1501</li> <br>
+                <li>International parcel forwarding from India to Saudi Arabia starting only at ₹1517</li>
             </ul>
 
         </div>
-
+        <br>
     </sectoin>
 
     <section class="d-contact-details-section">
