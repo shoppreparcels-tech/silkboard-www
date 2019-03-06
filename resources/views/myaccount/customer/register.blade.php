@@ -45,24 +45,18 @@
         /*.lable-member-margin {margin-top: 50px;margin-bottom: 50px;}*/
         /*.lable-member-margin a {padding-bottom: 20px;}*/
         /*.login{padding-bottom: 50px;}*/
-        .div-l-br {
-            border-left: 1px solid #d1d5d9;
-        }
-
-        .h-section {
-            background-color: #11273b;
-            padding-top: 20px;
-            height: 10em
-        }
+        .div-l-br {border-left: 1px solid #d1d5d9;}
+        .h-section {background-color: #11273b;padding-top: 20px;height: 10em}
         .btn-enable{display: none}
         .btn-disabled{display: block}
-
+        .tel-div-pad{padding: 5px;}
         @media only screen and (max-width: 600px) {
             .div-l-br {
                 border: none
             }
             .btn-enable{display: block !important;}
             .btn-disabled{display: none !important;}
+            .tel-div-pad{padding-left: 20px;}
         }
 
     </style>
@@ -80,8 +74,8 @@
     </section>
     <section class="login-sction sec-sign-up" id="First-section">
         <div class="container">
-            <div class="col-md-12 no-padding" id="signin-email">
-                <div class="col-md-6 col-md-offset-3 loginwindow">
+            <div class="col-md-12 col-xs-12 col-sm-12 no-padding" id="signin-email">
+                <div class="col-md-6 col-md-offset-3 col-xs-12 loginwindow">
                     <center>
                         <h1 class="f-s-36 f-c-d-greay f-w-8"><span class="f-c-red">S</span>ign Up</h1>
                     </center>
@@ -123,7 +117,7 @@
                     <a href="#" class="f-s-16 f-c-d-greay">Already have account? <span
                             class="f-c-red">Sign in</span></a>
                 </div>
-                <div class="col-md-offset-3 col-md-6 no-pad" id="benefits"><br>
+                <div class="col-md-offset-3 col-md-6 col-xs-12 no-pad" id="benefits"><br>
                     <h1 class="f-s-36 f-c-d-greay f-w-8"><span
                             class="f-c-red">B</span>enefits</h1> <br>
                     <img src="{{asset('img/images/member-plans-register.png')}}" class="img-f-w" alt="">
@@ -842,8 +836,8 @@
                 {{ csrf_field() }}
                 <input type="hidden" name="referrer" value="{{app('request')->input('r')}}">
                 <input type="hidden" name="continue" value="{{app('request')->input('continue')}}">
-                <div class="col-md-12 no-padding" id="signin-email">
-                    <div class="col-md-6 col-md-offset-3 loginwindow">
+                <div class="col-md-12 col-sm-12 col-xs-12 no-padding" id="signin-email">
+                    <div class="col-md-6 col-md-offset-3 col-xs-12 loginwindow">
                         {{--<center><p class="div-offer-display">*50% off on your first time Shipment.</p></center>--}}
                         <div class="col-md-8 col-md-offset-2 col-xs-12 no-pad" id="addImge">
                             <center>
@@ -909,8 +903,9 @@
                             </center>
                         </div>
                         <div class="col-md-offset-3 col-md-6 col-xs-12 no-pad">
-                            <input class="txt-login-register" id="phone" type="tel" name="phone" ng-intl-tel-input=""
-                                   style=" margin-left: 5px;" required /> <br/>
+                            <div class="col-xs-12 col-md-12 tel-div-pad">
+                                <input class="txt-login-register" style="" id="phone" type="tel" name="phone" ng-intl-tel-input="" required /> <br/>
+                            </div>
                         </div>
 
                         <div class="col-xs-12 col-md-12" style="margin-top: -20px;">
@@ -936,12 +931,12 @@
                         </div>
 
                         <div class="col-md-12 col-xs-12 pad-t-20">
-                            <div class="col-md-8 col-xs-12 no-pad">
+                            <div class="col-md-8 col-xs-12 no-pad div-align-items-l">
                                 <label class="f-c-d-greay">Already have account?
                                     <a href="{{route('customer.login')}}" class="f-c-red"> Sign In</a>
                                 </label>
                             </div>
-                            <div class="col-md-4 col-xs-12 no-pad">
+                            <div class="col-md-4 col-xs-12 no-pad div-align-items-r">
                                 <a href="https://www.shoppre.com/terms-and-conditions" class="f-c-d-greay" target="_blank">Terms &
                                     Privacy Policy</a>
                             </div>
