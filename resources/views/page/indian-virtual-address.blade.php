@@ -13,7 +13,7 @@
         .box-steps p {line-height: 1;}
         .box-steps p span {font-size: 22px;font-weight: 900;}
         #packing:hover{display: none}
-        .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 580px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;        }
+        .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 480px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 80px;        }
         @media only screen and (max-width: 600px) {
             .bg-ics-l-p{height: 680px}
         }
@@ -23,11 +23,6 @@
 @endsection
 
 @section('content')
-    {{--<div style="text-align: center">--}}
-        {{--<a  href="https://www.shoppre.com/locker?virtual-addr-page">--}}
-            {{--<img src="{{asset('img/indian-virtual-address-shop-shipping.jpg')}}"--}}
-                 {{--alt="indian-virtual-address-shop-shipping"></a>--}}
-    {{--</div>--}}
     <section class="bg-ics-l-p">
         <div class="container">
             <div class="col-md-12">
@@ -40,14 +35,18 @@
             </div>
 
             <div class="col-sm-12 col-md-12 col-xs-12 no-pad">
-                <h1 class="p-color-white header-spacing d-header-text">INDIAN VIRTUAL ADDRESS | Shopping And International Shipping</h1>
-                <p class="p-color-white header5 d-header-text1 display-none">Want to courier something abroad from India?
-                    We ship to 265 countries & our trusted courier partners DHL, DTDC & more help us sail smooth
-                    all the way to your<br> destination, wherever it is
+                <h1 class="p-color-white header-spacing d-header-text">1 ShoppRe Virtual Address = ∞ Destination</h1>
+                   <p class="f-s-22 f-c-white">Own a Free Virtual Shipping Address | Shop & Ship From India | Ship Worldwide at Low Rates</p>
+                <br>
+                    <p class="f-s-22 f-c-white">Shop Online Indian Stores - Ship to Us - We Consolidate Your Packages & Ship to You!</p>
+                <br>
+                <p class="f-s-22 f-c-white">Place your order in ANY Indian Store with your ShoppRe Indian Address.</p>
+                <br>
+
                 </p>
-                <div class="col-md-12 col-xs-12 no-pad display-none">
-                    <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Schedule Pickup</a>
-                    <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Estimate</a>
+                <div class="col-md-12 col-xs-12 no-pad">
+                    <a href="/customer/register" class="btn btn-s-r btn-b-r btn-a-l">Create My Free Address</a>
+                    <a href="/indian-online-stores" class="btn btn-l btn-s-b btn-b-b btn-a-l">Indian Stores List</a>
                 </div>
 
             </div>

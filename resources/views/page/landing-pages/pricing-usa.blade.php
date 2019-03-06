@@ -75,7 +75,7 @@
         table th, td h1{color:#11273b;font-weight: 800; font-size: 20px}
         table th, td span{color:#929ca5;font-weight: 800; font-size: 16px}
         table th, td p{color:#507dbc;font-weight: 800; font-size: 16px}
-        .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 580px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
+        .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 580px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 75px;}
 
         .seo-sec {background-color: #fff}
         .seo-sec a {text-decoration: underline}

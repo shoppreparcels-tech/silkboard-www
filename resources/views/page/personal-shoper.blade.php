@@ -88,9 +88,7 @@
                             Shop For Me
                         </div>
                     </a>
-
                 </div>
-
             </div>
             <div class="col-md-7 col-lg-7 col-sm-7 col-xs-12 no-padding " id="img-shopping" >
                 <img class=" " src="{{env('AWS_CLOUD_FRONT')}}/img/images/psp.png"
@@ -101,12 +99,6 @@
     <section>
         <div class="container div-lets-ps">
             <div class="col-md-7 col-sm-7 col-xs-12 ">
-                <p>
-                    <a class="bla-1" href="https://www.youtube.com/watch?v=q5R63gFUREk">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/btn.svg" style="height: 30px">
-                    </a>
-
-                </p>
                 <h2 class="header2 p-color-cement-dark">Let <span class="p-color-red">ShoppRe</span> <br> Do the
                     Shopping for you!</h2>
                 <p class="header5 p-color-cement">
@@ -129,6 +121,13 @@
                     <span class="p-color-cement-dark"> We’ll Shop For You:</span> All you have to do is, let us know
                     what you intend to buy; we’ll make the purchase for you.
                 </p>
+                <div class="col-md-12 col-xs-12 div-btn-padding">
+                    <a href="https://www.youtube.com/watch?v=q5R63gFUREk" target="_blank">
+                        <div class="btn header6 btn-ifs-l-assisted">
+                            Personal Shoppre - Watch Video
+                        </div>
+                    </a>
+                </div>
             </div>
             <div class=" col-md-5 col-sm-5 col-xs-12">
                 <h1 class="header2 p-color-blue h-req-assist">Request Free Assistance</h1>
@@ -167,7 +166,7 @@
 
                         </div>
                         <div class="text-center">
-                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-d-signup">Sign
+                            <a href="/customer/register" class="btn btn-d-signup">Sign
                                 Up</a>
                         </div>
                     </div>
@@ -186,7 +185,7 @@
             </div>
             <br>
             <div class="row text-center">
-                <br/><br/>
+                <br/>
                 <div class="col-sm-3">
                     <div class="panel ps-img-rounded">
                         <center>
@@ -258,7 +257,7 @@
             </div>
             <br/><br/>
             <center>
-                <a href="">Pay For Me !</a>
+                <a href="/personal-shopper">Pay For Me !</a>
             </center>
             <br/><br/>
         </div>
@@ -272,7 +271,7 @@
             </div>
             <br>
             <div class="row text-center">
-                <br/><br/>
+                <br/>
                 <div class="col-sm-3">
                     <div class="panel ps-img-rounded">
                         <center>
@@ -347,7 +346,7 @@
             </div>
             <br/><br/>
             <center>
-                <a href="">Shop For Me !</a>
+                <a href="/personal-shopper">Shop For Me !</a>
             </center>
             <br/><br/>
         </div>
@@ -391,7 +390,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
@@ -438,7 +437,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align p-color-yellow" >
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 

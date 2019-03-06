@@ -26,7 +26,7 @@
 
                     <h1 class="f-s-28 p-color-white header-spacing">SAVE UPTO
                         <span class="p-color-yellow">80%</span></h1>
-                    <h2 class="f-c-yellow header-spacing f-s-36 font-weight-900">Shop From India,Ship
+                    <h2 class="f-c-yellow header-spacing f-s-36 font-weight-900">Shop in India, Ship
                         Worldwide</h2>
                     <h1 class="f-s-20 p-color-white header-spacing font-weight-900">Starting from
                         <span class="p-color-yellow">₹549/-</span>
@@ -78,7 +78,7 @@
         <div class=" container shopContainer no-padding">
             <div class="col-md-12" style="padding:20px;">
                 <div class="col-md-10">
-                    <h1 class="f-s-22 f-c-d-greay">Ship What You Love from India & Shop With Your ShoppRe Address‎</h1>
+                    <h1 class="f-s-20 font-weight-900 f-c-d-greay">Ship What You Love from India & Shop With Your <a href="/indian-virtual-address">Free ShoppRe Address‎</a></h1>
                 </div>
                 <div class="col-md-2">
                     <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="pull-right d-contact-img-desktop">
@@ -135,13 +135,13 @@
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                    class="startsValidValue"> 1st JAN 2019</span></p>
+                                    class="startsValidValue"> 1st MAR 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                    class="startsValidValue"> 31st JAN 2019</span></p>
+                                    class="startsValidValue"> 31st MAR 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
@@ -164,18 +164,18 @@
                     get yourself and your loved ones ready for the celebrations.</p>
                 <br>
                 <p class="header4 p-color-cement">We offer 50% OFF the <a href="{{route('pricing')}}">shipping costs of
-                    international shipments </a>for up to Rs.250, which you
+                    international shipments </a>for up to Rs.200, which you
                     can avail by using the Coupon Code FRST50  when you checkout. Consider it a little something
                     from us for this new year and don’t hesitate to shop around for Indian ethnic wear or send
                     your greetings off to your loved ones abroad.</p> <br>
 
                 <div class="offerDesc">
-                    <h5> What Else Do You Get Out of Our Offer? </h5><br>
+                    <h5 class="f-s-16"> What Else Do You Get Out of Our Offer? </h5>
                     <ul>
-                        <li>Store your goods here at our facility for 20 days for FREE! </li>
+                        <li>Store your goods at our facility for 20 days for FREE</li>
                         <li>Get online Support 24/7</li>
-                        <li>Get up to 80% OFF in shipping costs on top of the seasonal offer</li>
-                        <li>A quick delivery within 3-6 days!”</li>
+                        <li>Get up to 80% OFF in shipping costs</li>
+                        <li>A quick delivery within 3-6 days!</li>
                     </ul>
                 </div>
             </div>
@@ -186,9 +186,8 @@
             <center>
                 <h1 class="header1 p-color-cement-dark">How it Works</h1>
             </center>
-            <br>
             <div class="row text-center">
-                <br/><br/>
+                <br/>
                 <div class="col-sm-4">
                     <div class="panel ">
                         <br/><br/>
@@ -227,7 +226,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-d-signup">Sign Up</a>
+                    <a href="/customer/register" class="btn btn-d-signup">Sign Up</a>
                 </div>
                 <br/><br/>
             </div>
@@ -249,7 +248,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
@@ -295,7 +294,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 

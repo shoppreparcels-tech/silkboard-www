@@ -6,7 +6,7 @@
 
 @section('css_style')
     <style>
-        .bg-valentain {background-image: url(../../img/images/overlay1.png);height: 900px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
+        .bg-valentain {background-image: url(../../img/images/overlay1.png);height: 900px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 75px;}
         @media only screen and (max-width: 600px) {
             .bg-valentain {height: 1000px}
         }
@@ -83,7 +83,6 @@
         </div>
     </section>
 
-
     <section >
         <div class=" container shopContainer no-padding">
             <div class="col-md-12 rowdetails">
@@ -110,6 +109,10 @@
                 </center>
             </div>
             <div class=" col-md-12 offer-description">
+                <label class="f-s-16 f-c-d-gray">How would you feel if you could shower your spirit with hues of colors & delicious desi treats even if you aren't home his Holi?</label>
+                <label class="f-s-16 f-c-gray">Then Why DELAY Re? USE ShoppRe! Your One-stop solution for all Shopping & Shipping Problems!</label>
+                <br>
+                <br>
                 <label class="f-s-22 f-c-d-greay">Shop & Ship from 1000+ Indian online stores ‘Including :</label>
                 <div class="row" style="padding-right:10px;padding-left: 30px">
                     <center>
@@ -146,7 +149,7 @@
                 </div>
                 <br>
                 <p class="f-s-16 f-c-gray f-w-4 l-h-2 ">Shop around in 1000+ Indian stores to help make your 2019 Holi extra special,
-                    and get us to ship to your destination at the cheapest of shipping rates. </p>
+                    and get us to ship to your destination at the <a href="{{route('pricing')}}">cheapest of shipping rates</a>. </p>
 
 
                 <h1 class="f-s-18 f-c-d-greay f-w-7">Buy/Send Holi Gifts for Him/Her from India</h1>

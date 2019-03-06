@@ -13,6 +13,26 @@
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
 @endsection
+<br>
+<br>
+<section style="margin-bottom: 50px">
+    <div class="container" style="margin-top: 62px;">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <img class="img-responsive img-shipments" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-tailor.png">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <h1 class="f-s-24 font-weight-900 f-c-d-greay">Are you a Seller or an young Entrepreneur or an upcoming organization
+                aspiring to make your talent & business [B2B, B2C, C2C] reach overseas?</h1>
+            <p class="f-s-20 f-c-l-gray">
+                    <span> Sit back and relax while we handle the fuss of your company's shipments and delivery.
+                        Ship your products with us & reach customers Globally.</span> To know how much you can save monthly on regular shipping.</p>
+            <br>
+                <div class="f-s-20 f-c-red">
+                    <p>Fill the below Form Now! & Request Call Back!</p>
+            </div>
+        </div>
+    </div>
+</section>
 
 @section('content')
 <div style="text-align: center">

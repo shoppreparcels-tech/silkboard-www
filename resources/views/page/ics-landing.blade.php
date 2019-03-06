@@ -5,6 +5,8 @@
 @section('keywords', 'international courier, cargo services, shipping, delivery, schedule a pickup')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/send-international-courier-from-india" />
+
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -45,7 +47,7 @@
         .box-steps p span {font-size: 22px;font-weight: 900;}
         .seo-sec a{text-decoration: underline}
         #packing:hover{display: none}
-        .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 580px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;        }
+        .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 580px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 75px;        }
         @media only screen and (max-width: 600px) {
             .bg-ics-l-p{height: 680px}
         }
@@ -82,6 +84,9 @@
                 <div class="col-md-12 col-xs-12 no-pad">
                     <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Schedule Pickup</a>
                     <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Shipping Calculator</a>
+                    <br>
+                    <br>
+                    <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r btn-f-w f-s-14">*50% off on your First International Shipment, Use Code: FRST50</a>
                 </div>
 
             </div>
@@ -107,8 +112,6 @@
                                    placeholder="Enter a valid E-mail ID" required>
                         </div>
                         <div class="form-group text-center">
-                            {{--<button type="submit" name="btnActivate" class="btn btn-d-activate-coupon"> GET A FREE QUOTE--}}
-                            {{--</button>--}}
                             <button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r"> GET A FREE QUOTE
                             </button>
                         </div>
@@ -340,11 +343,11 @@
                 <img class="img-responsive img-shipments" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-tailor.png">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <h1 class="header1  p-color-cement-dark">Are you a Seller? <br>
-                    Save more on shipping.</h1>
-                <p class="header2 p-color-cement"><span
-                        class="header2 p-color-blue"> Start your FREE 30 Day Trial</span>
-                    to know how much you can save monthly on regular shipping</p>
+                <h1 class="f-s-24 font-weight-900 f-c-d-greay">Are you a young Entrepreneur or an upcoming organization
+                    aspiring to make your talent & business [B2B, B2C, C2C] reach overseas?</h1>
+                <p class="f-s-20 f-c-l-gray">
+                    <span> Sit back and relax while we handle the fuss of your company's shipments and delivery.
+                        Ship your products with us & reach customers Globally.</span> To know how much you can save monthly on regular shipping.</p>
                 <div class="col-md-12">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdL11DQD_pOS2tBNXWaI0d8ryZ4DD0foA-Z7ZR0f0hUG3qpSg/viewform"
@@ -372,7 +375,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
@@ -420,7 +423,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 

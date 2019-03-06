@@ -24,7 +24,8 @@
     <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
     <meta name="twitter:image:alt" content="shoppre international shipping" />
     <style>
-        .bg-ics-landing-page .container > div {margin-bottom: 3em}
+        .bg-amazon-landing-page{background-image: url(../../img/images/overlay1.png);height: 560px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
+        .bg-amazon-landing-page .container > div {margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}
         .d-header-text1 {font-family: Montserrat -Italic;font-style: italic;line-height: 26px;margin-top: 25px}
         .christmas-service {box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 15px;background-color: #fafafb;margin-top: -121px;padding: 20px;}
@@ -37,16 +38,31 @@
         .btn-grab-offer:hover{color: #fff;background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);}
 
         #packing:hover{display: none}
+        @media only screen and (max-width: 600px) {
+            .bg-amazon-landing-page{;height: 628px}
+        }
     </style>
 
 @endsection
 @section('content')
 
-    <section class="bg-ics-landing-page">
+    <section class="bg-amazon-landing-page">
         <div class="container">
-            <center>
-                <h1 class="p-color-white header-spacing d-header-text">Amazon Online Shopping <br> International Shipping India</h1>
-            </center>
+            <br>
+            <br>
+            <h1 class="f-s-36 f-c-white f-w-8">Shop & Ship your purachses from Amazon.in</h1>
+            <p class="f-s-22 f-c-white">Own a Free Virtual Shipping Address and Ship Internationally at Low Rates</p>
+            <br>
+            <p class="f-s-22 f-c-white">Place your order in Amazon India Store with your ShoppRe Indian Address.</p>
+            <br>
+            <p class="f-s-22 f-c-white">We Consolidate Your Packages & Ship to You from India to USA, UK, Canada, Australia & 200+ Countries</p>
+            <br>
+
+            </p>
+            <div class="col-md-12 col-xs-12 no-pad">
+                <a href="/customer/register" class="btn btn-s-r btn-b-r btn-a-l">Create My Free Address</a>
+                {{--<a href="/indian-online-stores" class="btn btn-l btn-s-b btn-b-b btn-a-l">Indian Stores List</a>--}}
+            </div>
         </div>
     </section>
 
@@ -57,7 +73,7 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>
                 </div>
             </div>
-            <h3>Amazon.in Offers/Sales</h3>
+            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Upcoming Amazon.in Offers/Sales</h2>
             <div class="row text-center">
                 <div class="col-sm-4">
 

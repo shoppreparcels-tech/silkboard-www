@@ -57,27 +57,22 @@
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart Upcoming Offers/Sales</h2>
                 </div>
-                {{--<div class="col-md-2 col-md-offset-1 col-xs-12">--}}
-                    {{--<a href="tel:+91-80 4094 4077" class="c-image">--}}
-                        {{--<img src="{{asset('/img/images/christmas-contact.png')}}" alt="">--}}
-                    {{--</a>--}}
-                {{--</div>--}}
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
                     <div class="shopandship ">
-                        <h2>Flipkart Cashless Pay Day</h2>
+                        <h2>#UnboxSuper6</h2>
                         <br/>
-                        <p>Upto 50% OFF + 10% extra discount on prepaid orders</p>
-                        <p>1st & 2nd March 2019</p>
+                        <p>Unbox Real 4K Series 6 | 6 Unmatched Features</p>
+                        <p>12th March 2019</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
                         <h2>Flipkart Women's Day Sale</h2>
                         <br>
-                        <p> Lots of fascinating deals and offers especially tailor made for the women.</p>
-                        <p>08th March 2019</p>
+                        <p>#ForEveryHer - TVs & Appliances Up to 75% Off</p>
+                        <p>07th March 2019</p>
                     </div>
                 </div>
                 <div class="col-sm-4">

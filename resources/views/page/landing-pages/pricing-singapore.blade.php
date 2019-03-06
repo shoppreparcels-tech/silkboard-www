@@ -81,7 +81,7 @@
         table th, td h1{color:#11273b;font-weight: 800; font-size: 20px}
         table th, td span{color:#929ca5;font-weight: 800; font-size: 16px}
         table th, td p{color:#507dbc;font-weight: 800; font-size: 16px}
-        .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 580px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;        }
+        .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 580px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 75px; }
         @media only screen and (max-width: 600px) {
             .bg-ics-l-p{height: 680px}
             table th, td h1{font-weight: 700; font-size: 15px}

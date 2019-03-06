@@ -66,21 +66,19 @@
    <section>
        <div class="container ps-main">
            <div class="col-md-6 div-align-items-l">
-               <h1 class="f-s-36 f-c-d-gray">How Does it Work?</h1>
+               <h1 class="f-s-20 font-weight-900 f-c-d-greay">Not Able to Purchase from certian Indian Sites, Due to Payment Hassles?</h1>
            </div>
            <div class="col-md-6 div-align-items-r" style="padding-top: 20px">
                <a href="/personal-shopper" class="btn-l btn-b-r btn-s-r f-s-9 btn-a-m">Place an Order</a>
-               {{--<button class="btn-l btn-b-r btn-s-r pull-right f-s-9">Place an Order</button>--}}
            </div>
            <div class="clearfix"></div>
            <div class="ps-mainidiv">
-               <h5 class="f-s-5 f-c-gray">Let <span class="f-c-red">ShoppRe</span><br/>    Do The Shopping for You!</h5>
+               <h5 class="f-s-5 f-c-gray">Don't Worry <br/> <span class="f-c-red">Our Personal Shopper</span>, Do The Shopping for You!</h5>
                <p class="f-s-9 f-c-gray">If you are overseas and want to shop from India, occasionally you would have to go through some hassles in the process. Either your international cards won't be accepted or order won't go through on account of you not having Indian credentials mostly.</p>
                <p class="f-s-9 f-c-gray">This is where our <a href="personal-shopper-india">Personal Shopper</a> comes in to play. All you have to do is, let us know what you are intending to buy, and we'll buy it for you!</p>
                <h6 class="f-s-12 f-c-d-gray f-w-8">How Does a Personal Shopper Help?</h6>
                <p class="f-s-9 f-c-gray"><img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/dot.svg" alt=""/><span class="f-c-d-gray"> We’ll Pay For You:</span> You can place your order on your own, and get it delivered to us; we’ll pay for it on your behalf.</p>
                <p class="f-s-9 f-c-gray"><img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/dot.svg" alt=""/><span class="f-c-d-gray">We’ll Shop For You:</span> All you have to do is, let us know what you intend         to buy; we’ll make the purchase for you.</p>
-               <a class="f-s-9 f-c-blue" href="https://www.shoppre.com/terms-and-conditions">Terms & Conditions</a>
            </div>
        </div>
        <div class="container">

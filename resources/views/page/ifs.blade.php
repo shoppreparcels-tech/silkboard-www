@@ -76,10 +76,10 @@
                         </a>
 
                     </p>
-                    <h1 class="header1 p-color-white">What is <span>Shop & Ship?</span></h1>
+                    <h1 class="header1 p-color-white">Shop Indian Stores <span> & Ship Globally</span></h1>
                     <p class="header2 p-color-white header-ifs-p1">Ship your purchases to us; we'll store, consolidate,
                         <br> repackage & ship them to WHEREVER you are! </p>
-                    <a href="{{route('member.plan')}}" class="register-free">Sign Up & Receive FREE Virtual Address</a>
+                    <a href="/customer/register" class="register-free">Sign Up & Receive FREE Virtual Address</a>
                 </center>
             </div>
         </div>
@@ -241,7 +241,7 @@
         <br>
         <div class="container">
             <center>
-                <a href="{{route('member.plan')}}">
+                <a href="/indian-virtual-address">
                     <div class="btn header6 btn-get-assisted p-color-white">
                         <center>
                             Get a Free Virtual Address
