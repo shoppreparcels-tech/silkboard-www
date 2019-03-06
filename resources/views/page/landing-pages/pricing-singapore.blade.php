@@ -5,6 +5,64 @@
 @section('keywords', 'courier from india to singapore, ship household stuff, packers and movers company, Shop & Ship services')
 
 @section('css_style')
+
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "ShoppRe.com",
+  "alternateName": "Send International Courier From India to Singapore",
+  "url": "https://www.shoppre.com/international-courier-charges-india-to-singapore-per-kg",
+  "logo": "https://www.shoppre.com/img/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91 8277919191",
+    "contactType": "customer service"
+  },
+  "sameAs": [
+    "https://www.facebook.com/goshoppre",
+    "https://twitter.com/Go_Shoppre",
+    "https://www.instagram.com/shoppre_official",
+    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+    "https://www.linkedin.com/company/shoppre.com",
+    "https://in.pinterest.com/shoppre"
+  ],
+  "aggregateRating": {
+    "@type" : "AggregateRating",
+    "bestRating": "5",
+    "ratingValue" : "4.8",
+    "reviewCount" : "134",
+    "worstRating" : 3.0
+  }
+}
+</script>
+    <script type="application/ld+json">
+{
+  "@context": "http://www.schema.org",
+  "@type": "ParcelDelivery",
+  "name": "ShoppRe",
+  "url": "https://www.shoppre.com/international-courier-charges-india-to-singapore-per-kg",
+  "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
+  "description": "international courier from India to Singapore",
+  "originAddress": {
+    "@type": "PostalAddress",
+    "streetAddress": "No.181, 1st Floor 2nd Cross Rd, 1st Block Koramangala",
+    "addressLocality": "Bengaluru",
+    "addressRegion": "Karnataka",
+    "postalCode": "560034",
+    "addressCountry": "India"
+  },
+  "deliveryAddress": {
+    "@type": "PostalAddress",
+    "addressCountry": "Singapore"
+  },
+   "hasDeliveryMethod": {
+  "@type": "DeliveryMethod",
+  "name": "DHL, FedExExpress"
+  }
+}
+</script>
+
     <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-singapore-per-kg" />
     <style>
         .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}

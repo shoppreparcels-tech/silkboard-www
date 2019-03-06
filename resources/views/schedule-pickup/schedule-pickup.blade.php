@@ -175,6 +175,9 @@
     </style>
 @endsection
 @section('content')
+    <div class="container">
+        <br><br><br><br>
+    </div>
     <!-- This code is required -->
     <div id="popup1" class="overlay" style="display: none">
         <div class="popup">

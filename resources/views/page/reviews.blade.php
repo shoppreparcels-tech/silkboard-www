@@ -73,7 +73,7 @@
     "@type" : "AggregateRating",
     "bestRating": "5",
     "ratingValue" : "4.8",
-    "reviewCount" : "134",
+    "reviewCount" : "136",
     "worstRating" : 2.0
   }
 }
@@ -82,6 +82,9 @@
     </script>
 @endsection
 @section('content')
+    <div class="container">
+        <br><br><br>
+    </div>
     <section class="header">
         <div class="container header-padder-top">
             <center>

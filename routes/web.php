@@ -439,6 +439,7 @@ Route::get('/customer/login-success', 'Myaccount\Customer\LoginController@loginS
 Route::post('/register/survey', 'Myaccount\Customer\ProfileController@customerSurvey')->name('customer.register.survey');
 Route::post('/customer/mobile/verify', 'Myaccount\Customer\ProfileController@verifyMobile')->name('verify.mobile.submit');
 Route::get('/logout', 'Myaccount\Customer\ProfileController@logout')->name('customer.logout');
+Route::get('/cancelMemberPlan', 'Myaccount\Customer\ProfileController@cancelLogout')->name('member.logout');
 
 // Social Login
 Route::get('/social/oauth/google', 'Customer\SocialAuthController@redirectGoogle')->name('customer.social.google');

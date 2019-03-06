@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title', 'Send International Courier from India | Starting at ₹566/-')
-@section('description', 'Want to courier abroad from India? We ship to 2220 countries. Send homemade food, sweets, utensils, cloths, books. Special Discounts rates for bulk shipments.')
+@section('description', 'Want to courier abroad from India? We ship to 220 countries. Send homemade food, sweets, utensils, cloths, books. Special Discounts rates for bulk shipments.')
 @section('keywords', 'international courier, cargo services, shipping, delivery, schedule a pickup')
 
 @section('css_style')
@@ -30,7 +30,7 @@
     "@type" : "AggregateRating",
     "bestRating": "5",
     "ratingValue" : "4.8",
-    "reviewCount" : "134",
+    "reviewCount" : "136",
     "worstRating" : 3.0
   }
 }

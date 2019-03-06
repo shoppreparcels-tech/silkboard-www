@@ -43,6 +43,15 @@
             </div>
 
             <div class=" col-md-12 offer-description">
+
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <center>
+                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/limeroad-online-shopping-offers.png" alt="limeroad.com">
+                        </center>
+                    </div>
+                </div>
+
                 <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">Limeroad - Final destination for affordable fashion!</h2>
                 <h4 class="p-color-cement" style="font-style:italic">From gorgeously Indian to extreme party picks, Limeroad has it all!</h4>
                 <br>
@@ -84,7 +93,7 @@
                 <center>
                     <h4 class="p-color-cement-dark flipkart-h1">Payment Hassles with International Credit/Debit Cards?</h4>
                     <h5 class="header5 p-color-cement">No worries! Our Personal Shopper will swoop in & take care of it all for you!</h5> <br>
-                    <a href="https://www.limeroad.com/?src=shoppre.com" class="btn-chris-place-order">Go Shopping Now!</a>
+                    <a href="https://www.limeroad.com/?src=shoppre.com" class="btn-chris-place-order" target="_blank">Go Shopping Now!</a>
                 </center>
             </div>
             <br>

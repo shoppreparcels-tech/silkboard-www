@@ -81,9 +81,9 @@ body {
     display: none
 }
 
-.li {
-    padding-top: 8px;
-}
+/*.li {*/
+    /*padding-top: 8px;*/
+/*}*/
 
 .navbar-default .nav li > ul.dropdown-menu li {
     padding-top: 0

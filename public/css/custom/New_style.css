@@ -57,11 +57,12 @@
     background-color: #11273b !important;
 
 }
-
+#logo-desktop{display:block }
+#logo-mobile{height:auto; width:44px;display: none}
 .navbar-brand img {
     width: 155px;
     height: 45px;
-    float: left;
+    /*float: left;*/
 }
 .li-login{
     margin-left: 17px;
@@ -71,7 +72,7 @@
     /*width: 81px;*/
     display: none;
     float: right;
-    padding-top: 2px;
+    /*padding-top: 2px;*/
     padding-left: 7px;
     margin-top: 8px;
 
@@ -82,7 +83,7 @@
 .new-menu-register{
     margin-top: 10px;
     height: 30px;
-    border-radius: 30px;
+    border-radius: 3px;
     background-color: #e85151;
     transition: 0.6s;
 }
@@ -296,10 +297,10 @@
 /*}*/
 
 /*NAV BAR ICON DESING*/
-.navbar-toggle {
-    border-radius: 0;
-    z-index: 1
-}
+/*.navbar-toggle {*/
+    /*border-radius: 0;*/
+    /*z-index: 1*/
+/*}*/
 
 .navbar-toggle .icon-bar {
     transition: .5s ease;
@@ -1855,7 +1856,7 @@ a#prev:hover, a#next:hover {
 }
 
 .img-footer-logo {
-    margin: 20px 0 10px 0;
+    /*margin: 20px 0 10px 0;*/
     width: 155px;
     height: 45px;
 }
@@ -1959,7 +1960,7 @@ a#prev:hover, a#next:hover {
     background-color: #11273b;
     text-align: center;
     padding-bottom: 25px;
-    padding-top: 25px;
+    padding-top: 5%;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -2300,11 +2301,11 @@ a#prev:hover, a#next:hover {
 }
 
 /*seo-footer*/
-.content-oes{background-color: #fafafb;padding-left: 4%;padding-right: 4%}
+.content-oes{background-color: #fafafb;}
 .content-oes-stores{background-color: #fff;padding-left: 4%;padding-right: 4%}
-.content-oes div h1{font-size:23px;color: #11273b; font-weight: 900}
+.content-oes div h1{font-size:16px;color: #11273b; font-weight: 900}
 .content-oes-stores div h1{font-size:20px;color: #11273b;font-weight: 800}
-.content-oes div p{font-size: 16px;color: #677582;margin-top: 15px}
+.content-oes div p{font-size:14px;color: #677582;margin-top: 15px}
 .content-oes-stores div p{font-size: 16px;color: #677582;margin-top: 15px}
 /*seo-footer*/
 /*contactus page starting*/
@@ -2349,9 +2350,7 @@ a#prev:hover, a#next:hover {
 
     .img-priyamani {
         margin: -164px 0px -13px -184px;
-
         height: 412px;
-
     }
 
     .online-text {
@@ -3211,7 +3210,8 @@ a#prev:hover, a#next:hover {
         height: 55px;
     }
     .navbar-toggle {
-        padding: 13px 10px;
+        padding: 16px 0px;
+        margin-right: 0px;
     }
     .navbar-header-login>ul>li {
         display: block;
@@ -3255,6 +3255,8 @@ a#prev:hover, a#next:hover {
 }
 
 @media only screen and (max-width: 600px) {
+    #logo-desktop{display:none }
+    #logo-mobile{display: block}
     .content-oes div h1{font-size:18px;}
     .register-free{padding: 10px 25px 10px;}
     .logo {
@@ -3262,9 +3264,9 @@ a#prev:hover, a#next:hover {
         height: 24px;
     }
 
-    .navbar-toggle {
-        margin-right: 0;
-    }
+    /*.navbar-toggle {*/
+        /*margin-right: 0;*/
+    /*}*/
 
     .mobile-review-section {
 
@@ -3278,9 +3280,9 @@ a#prev:hover, a#next:hover {
         margin-left: 0px;
     }
 
-    .navbar-toggle {
-        margin-top: 15px;
-    }
+    /*.navbar-toggle {*/
+        /*margin-top: 15px;*/
+    /*}*/
 
     #mobile-img {
         display: block;
@@ -3636,11 +3638,6 @@ a#prev:hover, a#next:hover {
         position: relative;
         margin-left: -8px;
     }
-
-    #reviews {
-        display: none;
-    }
-
     #stars {
         display: block;
     }
@@ -3762,7 +3759,7 @@ a#prev:hover, a#next:hover {
     }
 
     .footer-a {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 600;
         line-height: 12px;
     }
@@ -3826,9 +3823,9 @@ a#prev:hover, a#next:hover {
 }
 
 @media only screen and (max-width: 568px) {
-    .navbar-toggle {
-        margin-top: 8px;
-    }
+    /*.navbar-toggle {*/
+        /*margin-top: 8px;*/
+    /*}*/
     .div-main-row {
         margin-left: 12px;
     }
@@ -3887,9 +3884,9 @@ a#prev:hover, a#next:hover {
         font-size: 14px;
     }
 
-    .navbar-toggle {
-        margin-top: 15px;
-    }
+    /*.navbar-toggle {*/
+        /*margin-top: 15px;*/
+    /*}*/
 
     .btn-register {
         width: 75px;
@@ -3914,9 +3911,9 @@ a#prev:hover, a#next:hover {
         display: inline-block;
     }
 
-    .navbar-toggle {
-        margin-top: 15px
-    }
+    /*.navbar-toggle {*/
+        /*margin-top: 15px*/
+    /*}*/
 
     .p-ship-shop-courier {
         font-size: 12px;
@@ -3954,10 +3951,6 @@ a#prev:hover, a#next:hover {
     #hrline {
         margin-left: 85px;
         width: 200px;
-    }
-
-    #reviews {
-        display: none;
     }
 
     #stars {
@@ -4032,9 +4025,9 @@ a#prev:hover, a#next:hover {
     .navbar-brand img {
         width: 140px;
     }
-    .navbar-toggle {
-        margin-top: 12px;
-    }
+    /*.navbar-toggle {*/
+        /*margin-top: 12px;*/
+    /*}*/
     .mega-menu-padding-left {
         padding-left: 16px;
     }
@@ -4130,9 +4123,9 @@ a#prev:hover, a#next:hover {
         margin-top: 8px;
     }
 
-    .navbar-toggle {
-        margin-top: 15px;
-    }
+    /*.navbar-toggle {*/
+        /*margin-top: 15px;*/
+    /*}*/
 
     .list-inline > li {
         padding-left: 9px;
@@ -4188,9 +4181,9 @@ a#prev:hover, a#next:hover {
         height: 297.56px;
     }
 
-    .navbar-toggle {
-        margin-right: 0;
-    }
+    /*.navbar-toggle {*/
+        /*margin-right: 0;*/
+    /*}*/
 
     .p-line-height {
         /*line-height: 26px;*/
@@ -4363,10 +4356,6 @@ a#prev:hover, a#next:hover {
 
     .p-name {
         margin-top: 4px;
-    }
-
-    #reviews {
-        display: none;
     }
 
     #stars {
@@ -4799,9 +4788,9 @@ a#prev:hover, a#next:hover {
         border-left: 0px;
     }
 
-    .navbar-toggle {
-        margin-top: 10px;
-    }
+    /*.navbar-toggle {*/
+        /*margin-top: 10px;*/
+    /*}*/
 
     #row-padding-shop {
         margin-left: -15px;
@@ -4816,7 +4805,7 @@ a#prev:hover, a#next:hover {
     }
 
     .div-store-padding {
-        padding-left:38px;
+        padding-left:32px;
     }
 
     .p-payment-text {
@@ -5063,9 +5052,9 @@ a#prev:hover, a#next:hover {
         font-size: 12px;
     }
 
-    .navbar-toggle {
-        margin-top: 15px;
-    }
+    /*.navbar-toggle {*/
+        /*margin-top: 15px;*/
+    /*}*/
 
     .btn-register {
         width: 60px;

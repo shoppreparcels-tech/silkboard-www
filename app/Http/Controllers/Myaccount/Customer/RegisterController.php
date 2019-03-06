@@ -43,17 +43,21 @@ class RegisterController extends Controller
 
     public function submitRegister(Request $request)
     {
-//        $membership_type = $request->session()->get('membership_type');
+//      $membership_type = $request->session()->get('membership_type');
         $membership_type = $request->member;
         $rules = array(
 //            'title' => 'required|max:250',
-            'firstname' => 'required|max:250',
+//            'firstname' => 'required|max:250',
 //            'lastname' => 'required|max:250',
 //            'email' => 'required|email|max:250|unique:customers',
             'password' => 'required|min:6',
         );
 
         $this->validate($request, $rules);
+
+        if (!empty($request->full_number)) {
+            $request->phone = $request->full_number;
+        }
 
         $douplicate = Customer::where('email', $request->email)->first();
         if (!empty($douplicate)){
@@ -131,7 +135,7 @@ class RegisterController extends Controller
         $customer->referer = $request->referer;
         $customer->first_visit = $request->first_visit;
         $customer->membership_type = 'b';
-//        $customer->medium = $request->continue;
+//      $customer->medium = $request->continue;
         $customer->password = bcrypt($request->password);
         if (!empty($request->referrer)) {
             $customer->referred_customer_id = base64_decode($request->referrer);
@@ -147,7 +151,7 @@ class RegisterController extends Controller
         } while (!$user_code->isEmpty());
 
         $customer->locker = $code;
-        $commnet = "New Sign up " . $request->email . "\n contact No: " . $request->country_code.$request->phone;
+        $commnet = "New Sign up " . $request->email . "\n contact No: +" . $request->country_code.$request->phone;
         AsanaTaskOperations::createTask($name, $commnet, "R");
 
         $customer->save();
@@ -178,11 +182,11 @@ class RegisterController extends Controller
         $balance->amount = 0;
         $balance->save();
 
-//        MailChimp::getInterest();
+//      MailChimp::getInterest();
         $status = MailChimp::signUpSubscriber($name,$request->email);
 
 
-//        $status_ask = $this->informToAsk($customer);
+//      $status_ask = $this->informToAsk($customer);
         $status = $this->informMailtrain($customer);
         $this->sendEmailVerification($request->email);
         Authorization::signUp($customer);

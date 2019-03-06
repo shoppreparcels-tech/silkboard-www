@@ -1,7 +1,7 @@
 <!-- Start Header section-->
 
-<header class="header" role="banner">
-    <div class="container" style="background-color: #11273b;">
+<header class="nav-h-shadow s-header-fixed " role="banner">
+    <div class="container-fluid c-f-p ">
         <nav class="navbar navbar-inverse">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle x collapsed" data-toggle="collapse"
@@ -22,15 +22,15 @@
                         @else
                             <li>
                                 <a href="{{route('customer.login')}}"  id="li-login">Login</a>
-                                <a class="btn btn-s-r btn-a-m btn-b-r" href="{{route('customer.register')}}" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding-top: 5px; opacity: 1;">Sign Up</a>
+                                <a class="btn btn-s-r btn-a-m btn-b-r" href="{{route('customer.register')}}" style="color: #ffffff !important; font-size: 14px;font-weight: 600;padding: 5px; opacity: 1;margin-left: 15px;">Sign Up</a>
 
                             </li>
                         @endif
                     </ul>
                 </div>
                 <a class="navbar-brand" href="{{route('home')}}">
-{{--                    <img class="logo" src="{{env('AWS_CLOUD_FRONT')}}/img/images/shoppre-logo.png" alt="ShoppRe">--}}
-                    <img class="logo" src="{{asset('/img/images/logo@2x.png')}}" alt="ShoppRe">
+                    <img id="logo-desktop" class="logo" src="{{asset('/img/images/logo@2x.png')}}" alt="ShoppRe">
+                    <img  id="logo-mobile" src="{{asset('/img/logo94.png')}}" alt="ShoppRe">
                 </a>
             </div>
 
@@ -202,15 +202,15 @@
                     <li><a href="{{route('offers-new.index')}}">Offers <sup class="p-color-red" style="font-size: 8px" id="offer">New</sup> </a></li>
                     <li><a href="{{route('pricing')}}">Shipping Rates</a></li>
                     <li><a href="{{route('contact')}}">Support</a></li>
-                    <li>
-                        <div class="container-search">
-                            <form class="searchbox" action="https://ship.shoppre.com">
-                                <input type="search" placeholder="Search......" name="s"  class="searchbox-input" onkeyup="buttonUp();" required>
-                                <input type="submit" class="searchbox-submit">
-                                <span class="searchbox-icon"><i class="fa fa-search" aria-hidden="true"></i></span>
-                            </form>
-                        </div>
-                    </li>
+                    {{--<li>--}}
+                        {{--<div class="container-search">--}}
+                            {{--<form class="searchbox" action="https://ship.shoppre.com">--}}
+                                {{--<input type="search" placeholder="Search......" name="s"  class="searchbox-input" onkeyup="buttonUp();" required>--}}
+                                {{--<input type="submit" class="searchbox-submit">--}}
+                                {{--<span class="searchbox-icon"><i class="fa fa-search" aria-hidden="true"></i></span>--}}
+                            {{--</form>--}}
+                        {{--</div>--}}
+                    {{--</li>--}}
                 </ul>
                 <div id="ajax_login_block" style="display: none">
                 <ul class="nav navbar-nav navbar-right " id="header-ul" >

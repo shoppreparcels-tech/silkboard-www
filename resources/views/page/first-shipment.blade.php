@@ -77,7 +77,7 @@
                    <br>
                    <br>
                    <br>
-                   <p class="f-s-10 f-c-l-gray f-w-8">From 1st Feb to 28th Feb 2019</p>
+                   <p class="f-s-10 f-c-l-gray f-w-8">From 1st Mar to 31st Mar 2019</p>
 
                </center>
            </div>
@@ -141,7 +141,7 @@
                 <h4 class="f-s-18 f-c-l-gray f-w-9">Haven't made a shipment with us yet? What're you waiting for?!</h4>
                 <br>
                 <p class="header4 p-color-cement">Pick & choose your favorites from 1000+ Indian online stores and get us to ship your purchases overseas,
-                    or come to us for an international courier; if it's your first shipment with us - you can avail a <strong> 50% Discount UP TO Rs. 200/- </strong> on
+                    or come to us for an international courier; if it's your first shipment with us - you can avail a <strong> 50% Discount UP TO ₹200/- </strong> on
                     top of the savings you make because our consolidation services.
                 </p>
                 <h6 class="f-s-16 f-c-gray f-w-8">Don't put it on hold - ship with us already! </h6><br>
@@ -153,7 +153,7 @@
                         <li>Offer Code: <b>FRST50</b></li>
                         <li>Maximum amount that can be availed by a customer is ₹200/-.</li>
                         <li>This offer cannot be clubbed with any other offer.</li>
-                        <li>This Coupon is Valid Upto 28-February-2019</li>
+                        <li>This Coupon is Valid Upto 31-March-2019</li>
                         <li>A customer can avail this offer only once during the offer period.</li>
                         <li>This offer is applicable only for International Shipments.</li>
                         <li>Clearance charges is applicable for Special items</li>

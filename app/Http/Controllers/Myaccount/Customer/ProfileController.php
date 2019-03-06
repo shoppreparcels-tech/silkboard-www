@@ -591,4 +591,12 @@ class ProfileController extends Controller
 //        return redirect(env('PREFIX'). 'www.'. env('DOMAIN').'/consolidation-service');
         return redirect(route('home'));
     }
+
+    public function cancelLogout(Request $request)
+    {
+        Auth::guard('customer')->logout();
+        $request->session()->flush();
+        $request->session()->regenerate();
+        return redirect(route('customer.login'));
+    }
 }

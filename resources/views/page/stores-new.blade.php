@@ -86,6 +86,9 @@
 @endsection
 
 @section('content')
+    <div class="container">
+        <br><br><br>
+    </div>
     <section class="b-heading-section">
         <div class="container">
             <div class="row padding-bottom">

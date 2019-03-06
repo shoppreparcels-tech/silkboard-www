@@ -92,6 +92,15 @@
             </div>
 
             <div class=" col-md-12 offer-description">
+
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <center>
+                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/flipkart-international-shopping.png" alt="flipkart.com">
+                        </center>
+                    </div>
+                </div>
+
                 <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">Looking for the best shipping option that's from India?</h2>
                 <h4 class="p-color-cement" style="font-style:italic">Join our quest to be the #1 shipping & consolidation solution
                     you can find, to assist with your shopping from say, Flipkart India</h4>
@@ -126,7 +135,7 @@
                 <center>
                     <h4 class="p-color-cement-dark flipkart-h1">International Credit/Debit Cards Giving You Trouble?</h4>
                     <h5 class="header5 p-color-cement">No worries! Our <a href="/personal-shopper-shopping-concierge-from-india">Personal Shopper</a> will swoop in & take care of it all for you!</h5> <br>
-                    <a href="https://www.flipkart.com/?src=shoppre.com" class="btn-chris-place-order">Go Shopping Now!</a>
+                    <a href="https://www.flipkart.com/?src=shoppre.com" class="btn-chris-place-order" target="_blank">Go Shopping Now!</a>
                 </center>
             </div>
             <br>

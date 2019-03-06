@@ -100,7 +100,7 @@
 
     <div class="text-center">
         </br>
-        <a href="/locker?message={{$message}}"  style="color:red;text-decoration: underline">Cancel and Continue with Basic Plan</a>
+        <a href="/cancelMemberPlan"  style="color:red;text-decoration: underline">Cancel and Continue with Basic Plan</a>
         @if (session('error'))
             <div class="alert alert-danger">
                 {{ session('error') }}

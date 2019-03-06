@@ -91,7 +91,7 @@
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                    class="startsValidValue"> 19th Mar 2019</span></p>
+                                    class="startsValidValue"> 18th Mar 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">

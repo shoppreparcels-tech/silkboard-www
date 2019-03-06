@@ -170,7 +170,7 @@
 </script>
 
     <style>
-        .fuid-padding{padding-left: 10%;padding-right: 10%}
+        .fuid-padding{padding-left: 5%;padding-right: 5%}
         .div-shop-ship1 > div {padding-top: 10px;padding-bottom: 10px}
         .div-shop-ship1 > div > p {text-align: center}
         .div-main .div-add{position:fixed;margin-top: 20%;z-index: 1}
@@ -179,24 +179,46 @@
         .div-h-offer>div{padding-top: 10px;}
         .h-div{height: 50px;overflow: hidden}
         .img-div{padding-top:10px ;overflow: hidden}
-        .des-div{height: 190px;overflow: hidden}
+
+        .des-div{height: 150px;overflow: hidden}
+        .div-s-br{border-radius: 3px;border: 1px solid #677582;}
+        .h-s-a >div>a>div:hover{background-color: #507dbc; color: #ffffff; transition: 0.3s}
+        .h-s-a a:hover{background-color: #507dbc; color: #ffffff}
+        .vid-s-img{width: 100%}
+
+        .h-sign-up{display: block}
+        .pad-0-40{padding: 40px}
+        .pad-0-10{padding-right:5px;padding-left: 5px;}
+        .pad-0-15{padding-right:15px;padding-left: 15px;}
+        .offer-img-m{display: none}
+        .offer-img-d{display: block}
+        .pad-l-d{padding: 0;}
+        .seo-hyperlinks{}
+        .seo-hyperlinks ul{list-style: none;}
+        .seo-hyperlinks ul li{font-size: 14px;color: #677582;margin-top: 5px;}
+        .seo-hyperlinks ul li a{color: #677582;}
+
         @media only screen and (max-width: 1024px) {
             .div-add {display: none;}
-            .mobile-pickup-block {
-                display: none;
-            }
+            .mobile-pickup-block {display: none;}
         }
         @media only screen and (max-width: 1280px) {
             .div-add {display: none;}
-            .mobile-pickup-block {
-                display: none;
-            }
+            .mobile-pickup-block {display: none;}
         }
         @media only screen and (max-width: 600px) {
             #img-p{display: none}
-            .mobile-pickup-block {
-                display: block;
-            }
+            .mobile-pickup-block {display: block;}
+            .h-sign-up{display: none}
+            .pad-0-40{padding:5px }
+            .pad-0-10{padding-right:5px;padding-left:5px;}
+            .offer-img-m{display: block}
+            .offer-img-d{display: none}
+            .fuid-padding {padding-left: 3%;padding-right: 3%;}
+            .des-div{height: 115px;overflow: hidden}
+            .vid-s-img{width:30% }
+            .pad-0-15{padding: 0}
+            .pad-l-d{padding-left: 10%;}
         }
     </style>
 
@@ -240,146 +262,202 @@
             </div>
         </div>
         {{--<div class="div-add no-padding pull-right"><a href="https://www.shoppre.com/offers/republic-day-special-offer-from-shoppre/"><img src="{{asset('/img/offers-image/republic_day.png')}}" alt="new year offer" class="pull-right"></a></div>--}}
+        {{--header menu code avail in meena sublime text--}}
 
-        <div class="container header-menu-home-page"id="header-menu">
-            <div class="col-md-2">
-                <a href="{{route('ifs.index')}}" class="header6 p-color-cement">
-                    <div>
-                        <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/shopandservice.svg" class="header-menu-img"
-                             alt="personal shopper">
-                        <span class="p-color-cement"> Shop and Ship</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-md-2">
-                <a href="{{route('personalShopper')}}">
-                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/personal_shopper.svg" alt="How it Works" class="header-menu-img">
-                    <span class="header6 p-color-cement">Personal Shopper</span>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a href="{{route('ics.index')}}" class="header6 p-color-cement">
-                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/schedule_pickpup.svg" alt="Schedule Pickup"
-                         class="header-menu-img">
-                    <span class="header6 p-color-cement">ShoppRe Courier</span>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a href="{{route('stores1')}}" class="header6 p-color-cement">
-                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/browse_stores.svg" alt="Indian online stores" class="header-menu-img">
-                    <span class="header6 p-color-cement">Indian Stores</span>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a href="/sellers-shipping" target="_blank" class="header6 p-color-cement">
-                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/prtner_with_us.svg" alt="Partner With Us" class="header-menu-img">
-                    <span class="header6 p-color-cement">Seller Partnership</span>
-                </a>
-            </div>
-            <div class="col-md-2">
-                <a href="https://www.shoppre.com/offers"
-                   target="_blank" class="header6 p-color-cement">
-                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/offfer.svg" alt="Offers" class="header-menu-img">
-                    <span class="header6 p-color-cement">Offers and Deals</span>
-                </a>
-            </div>
-        </div>
         {{--<div class="container">--}}
             {{--<marquee class="f-s-16 f-c-red f-w-9">Dear Customers, Kindly note that - On account of the Republic Day Holiday, we have suspended our services on the 26th January, 2019. Happy Republic Day!</marquee>--}}
         {{--</div>--}}
 
-        <div class="container">
-            <div class="col-md-7 col-xs-12 col-sm-7 no-padding">
-                <div>
-                    <h1 class="header1 p-color-white ">
-                        International Shipping from India <span class="f-c-yellow" id="country"></span>
-                        starting at just <span class="p-color-red">*₹<span id="prices"></span></span><span style="color: #ffffff">!</span>
-                    </h1> <br>
-                </div>
-                <div>
-                    <div class="col-md-10 div-h-offer no-padding">
-                        <center>
-                            <h7 class="f-s-16 f-c-blue f-w-8">Avail Your Discount on your First International Shipment!</h7>
-                        </center>
-                        <br>
-                        <div>
-                            <center>
-{{--                                <img src="{{asset('img/images/first-50.png')}}" alt="FIRST50 Cashback" class="img-responsive"> <br>--}}
-                                <img src="{{asset('img/images/offer-international-courier-india.png')}}" alt="FIRST50 Cashback" class="img-responsive"> <br>
-                            </center>
+
+
+        <div class="container-fluid c-f-p m-t-30 "> <br><br>
+            <div class="col-md-12 col-xs-12 pad-t-20">
+                <div class="col-md-6 col-xs-12 no-pad">
+                    <div class="col-md-12 col-xs-12 no-pad">
+                        <div class="col-md-2 col-xs-12 pad-t-20">
+                           <center>
+                               <a class="bla-1"
+                                  href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank">
+                                   <img src="{{asset('img/images/shoppre-youtub-play.png')}}"  class="vid-s-img" alt="">
+                               </a>
+                           </center>
                         </div>
-                        <center>
-                            <a href="{{route('member.plan')}}" class="btn-l btn-b-r btn-s-r btn-a-l">Sign Up FREE</a>
-                            <div><br></div>
-                            <span class="f-c-d-greay f-s-12 ">*Maximum amount that can be availed by a customer is ₹200/-</span>
-                        </center>
-
-
-                    </div>
-
-                    <div class="col-md-10 col-xs-12 no-padding">
-                        <br>
-                        <br>
-                        <div class="col-md-6 col-xs-6">
-                            <center>
-                                <p>
-                                <a class="bla-1"
-                                   href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank">
-                                <img src="{{asset('img/images/btnplay.png')}}" alt="" class="img-responsive">
-                                </a>
-                                </p>
-                            </center>
-
-                        </div>
-                        <div class="col-md-6 col-xs-6 ">
-                            <center>
-                                <a href="tel:+91-8277919191">
-                                   <img src="{{asset('img/images/number.png')}}" alt="" class="img-responsive">
-                                </a>
-                            </center>
+                        <div class="col-md-10 col-xs-12 pad-0-15">
+                            <h1 class="f-s-36 f-c-white f-w-8 ">
+                                International Shipping from India <span class="f-c-yellow" id="country"></span>
+                                starting at just <span class="p-color-red">*₹<span id="prices"></span></span><span style="color: #ffffff">!</span>
+                            </h1>
                         </div>
                     </div>
-
-                    <div class="col-xs-12 no-padd mobile-pickup-block hide-pickup-block">
-                        <br>
-                        <br>
-                        <div class="col-md-6 col-xs-6 no-pad">
-                            <a class="btn btn-b-r btn-s-r btn-a-f-w" href="{{route('ifs.index')}}">
-                                Shop and Ship
+                    <div class="col-md-12 col-xs-12 no-pad h-s-a "><br>
+                        <div class="col-md-4 col-xs-4 pad-r-5 " >
+                            <a class="f-s-18 f-c-white" href="/shop-from-india-ship-worldwide">
+                            <div class="col-xs-12 col-md-12 pad-0-40 div-s-br ">
+                              <h5 class="f-s-18 f-c-white txt-a-c"> Shop from India
+                                    & <br> Ship Worldwide <br></h5>
+                                <center>
+                                    <img src="{{asset('img/images/arrow-home.png')}}" class="pad-t-20  " alt="">
+                                </center>
+                            </div>
                             </a>
                         </div>
-                        <div class="col-md-6 col-xs-6 no-pad">
-                            <a class="btn btn-b-b btn-s-b btn-a-f-w" href="{{route('ics.index')}}">
-                             ShoppRe Courier
+                        <div class="col-md-4 col-xs-4 pad-0-10">
+                            <a class="f-s-18 f-c-white" href="/personal-shopper-shopping-concierge-from-india">
+                            <div class="col-xs-12 col-md-12 pad-0-40 div-s-br">
+                                <h5 class="f-s-18 f-c-white txt-a-c"> Personal Shopper <br>
+                                    (Assisted Purchase) <br></h5>
+                                <center>
+                                    <img src="{{asset('img/images/arrow-home.png')}}" class="pad-t-20" alt="">
+                                </center>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-xs-4 pad-l-5">
+                            <a class="f-s-18 f-c-white" href="/international-courier-shipping-services-india">
+                            <div class="col-xs-12 col-md-12 pad-0-40 div-s-br ">
+                                <h5 class="f-s-18 f-c-white txt-a-c"> International
+                                    & <br> Domestic Courier <br></h5>
+                                <center>
+                                    <img src="{{asset('img/images/arrow-home.png')}}" class="pad-t-20  " alt="">
+                                </center>
+                            </div>
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-5 col-sm-5  no-padding">
-                <img src="{{asset('img/images/priyamani-new.png')}}" class="img-responsive" alt="" id="img-p">
+                <div class="col-md-6 col-xs-12 pad-l-10 "><br>
+                    <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
+                       <div class="col-md-12 col-xs-12 pad-20">
+                           <a href="/first-time-international-shipment-offer"><img src="{{asset('img/images/offer_slider.png')}}" class="img-f-w offer-img-d" alt=""></a>
+                           <a href="/first-time-international-shipment-offer"><img src="{{asset('img/images/offer-slider-mobile.png')}}" class="img-f-w offer-img-m" alt=""></a>
+                           <center><a href="{{route('customer.login')}}" class="btn btn-s-r btn-b-r btn-a-l m-t-20 offer-img-m">Sign up for Free</a></center>
+                       </div>
+                        <div class="col-md-12 col-xs-12 no-padd">
+                            @if (session('message'))
+                                <div class="alert alert-success text-center">
+                                    {{ session('message') }}
+                                </div>
+                            @endif
+                            @if (session('error_message'))
+                                <div class="alert alert-danger text-center">
+                                    {{ session('error_message') }}
+                                </div>
+                            @endif
+                        </div>
+                        <form class="register-form h-sign-up" id="form_register" role="form" method="POST"
+                              action="{{ route('customer.register.submit') }}">
+                            {{ csrf_field() }}
+                            <div class="col-md-6 col-xs-12 pad-20">
+
+                                <input id="phone" name="phone" type="tel" class="txt-l-br txt-f-w txt-b-r txt-pad m-t-10 f-s-16" autocomplete="off" required>
+                                <input name="email" type="email" class="txt-f-w txt-b-r txt-l-br txt-pad m-t-10 f-s-16" autocomplete="off" placeholder=" Enter your Email id" required>
+                                <input name="password" type="password" class="txt-f-w txt-b-r txt-l-br txt-pad m-t-10 f-s-16" autocomplete="off" placeholder=" Password" required>
+                                {{--<a href="" class="btn btn-s-r btn-b-r btn-a-l m-t-20">Sign up for Free</a>--}}
+                                <button type="submit" class="btn btn-s-r btn-b-r btn-l m-t-20">Sign Up Free</button>
+                                <p class="f-s-14 f-c-blue m-t-20">Avail Your Discount Today!</p>
+                            </div>
+                            <div class="col-md-6 col-xs-12 no-pad ">
+                                <center>
+                                    <img src="{{asset('img/images/priyamani-shipping-img.png')}}" class="img-responsive " alt="">
+                                </center>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
             </div>
         </div>
+        {{--<div class="container "> <br>--}}
+            {{--<br>--}}
+            {{--<br>--}}
+            {{--<br>--}}
+            {{--<br>--}}
+            {{--<div class="col-md-7 col-xs-12 col-sm-7 no-padding">--}}
+                {{--<div>--}}
+                    {{--<h1 class="header1 p-color-white ">--}}
+                        {{--International Shipping from India <span class="f-c-yellow" id="country"></span>--}}
+                        {{--starting at just <span class="p-color-red">*₹<span id="prices"></span></span><span style="color: #ffffff">!</span>--}}
+                    {{--</h1> <br>--}}
+                {{--</div>--}}
+                {{--<div>--}}
+                    {{--<div class="col-md-10 div-h-offer no-padding">--}}
+                        {{--<center>--}}
+                            {{--<h7 class="f-s-16 f-c-blue f-w-8">Avail Your Discount on your First International Shipment!</h7>--}}
+                        {{--</center>--}}
+                        {{--<br>--}}
+                        {{--<div>--}}
+                            {{--<center>--}}
+{{--                                <img src="{{asset('img/images/first-50.png')}}" alt="FIRST50 Cashback" class="img-responsive"> <br>--}}
+                                {{--<img src="{{asset('img/images/offer-international-courier-india.png')}}" alt="FIRST50 Cashback" class="img-responsive"> <br>--}}
+                            {{--</center>--}}
+                        {{--</div>--}}
+                        {{--<center>--}}
+                            {{--<a href="{{route('member.plan')}}" class="btn-l btn-b-r btn-s-r btn-a-l">Sign Up FREE</a>--}}
+                            {{--<div><br></div>--}}
+                            {{--<span class="f-c-d-greay f-s-12 ">*Maximum amount that can be availed by a customer is ₹200/-</span>--}}
+                        {{--</center>--}}
 
-        <br>
-        <br>
+                    {{--</div>--}}
+
+                    {{--<div class="col-md-10 col-xs-12 no-padding">--}}
+                        {{--<br>--}}
+                        {{--<br>--}}
+                        {{--<div class="col-md-6 col-xs-6">--}}
+                            {{--<center>--}}
+                                {{--<p>--}}
+                                {{--<a class="bla-1"--}}
+                                   {{--href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank">--}}
+                                {{--<img src="{{asset('img/images/btnplay.png')}}" alt="" class="img-responsive">--}}
+                                {{--</a>--}}
+                                {{--</p>--}}
+                            {{--</center>--}}
+
+                        {{--</div>--}}
+                        {{--<div class="col-md-6 col-xs-6 ">--}}
+                            {{--<center>--}}
+                                {{--<a href="tel:+91-8277919191">--}}
+                                   {{--<img src="{{asset('img/images/number.png')}}" alt="" class="img-responsive">--}}
+                                {{--</a>--}}
+                            {{--</center>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+
+                    {{--<div class="col-xs-12 no-padd mobile-pickup-block hide-pickup-block">--}}
+                        {{--<br>--}}
+                        {{--<br>--}}
+                        {{--<div class="col-md-6 col-xs-6 no-pad">--}}
+                            {{--<a class="btn btn-b-r btn-s-r btn-a-f-w" href="{{route('ifs.index')}}">--}}
+                                {{--Shop and Ship--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-md-6 col-xs-6 no-pad">--}}
+                            {{--<a class="btn btn-b-b btn-s-b btn-a-f-w" href="{{route('ics.index')}}">--}}
+                             {{--ShoppRe Courier--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-5 col-sm-5  no-padding">--}}
+                {{--<img src="{{asset('img/images/priyamani-new.png')}}" class="img-responsive" alt="" id="img-p">--}}
+            {{--</div>--}}
+        {{--</div>--}}
+
+
         <br>
     </main>
     <!-- Main container -->
 
     <section><!-- latest shipments details-->
-       <div class="container-fluid fuid-padding"><br><br><br>
-           <div class="col-md-2 col-xs-6 pad-l-20">
-               <br>
+       <div class="container-fluid fuid-padding pad-t-40">
+           <div class="col-md-2 col-xs-12 pad-l-d">
                 <center>
                     <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">ShoppRe <br>
                         <span class="f-s-45 f-w-8 f-c-green "> Live</span></h1>
-                    <br>
-                    <h4 class="f-s-18 f-c-l-gray txt-a-l">Recent Parcel Delivery <br> Update</h4>
+                    <h4 class="f-s-18 f-c-l-gray txt-a-l">Recent Parcel <br>Delivery Update</h4>
                 </center>
            </div>
-           <div class="col-md-9 col-xs-12">
+           <div class="col-md-9 col-xs-12 pad-b-30">
                <div class="slider slider_four_in_line" id="shippingCard">
 
                </div>
@@ -390,11 +468,11 @@
     </section>
     <section>
         <div class="container">
-            <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
-                <center>
+            {{--<div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">--}}
+                <center><br>
                     <h1 class="header1 p-color-cement-dark div-margin">About Us </h1>
                 </center>
-            </div>
+            {{--</div>--}}
 
             <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                 <center>
@@ -617,13 +695,14 @@
                 </div>
             </center>
         </div>
-        <div class="container">
+        <div class="container pad-b-30">
             <center>
-                <a href="{{route('stores1')}}" target="_blank">
-                    <div class=" btn-browse-stores  header5 p-color-white">
-                        <b><p>Browse Indian Stores</p></b>
-                    </div>
-                </a>
+                <a href="" class="btn btn-s-r btn-b-r" style="margin-top: -26px">Browse Indian Stores</a>
+                {{--<a href="{{route('stores1')}}" target="_blank">--}}
+                    {{--<div class=" btn-browse-stores  header5 p-color-white">--}}
+                        {{--<b><p>Browse Indian Stores</p></b>--}}
+                    {{--</div>--}}
+                {{--</a>--}}
             </center>
         </div>
     {{--commented code placed in homepage folder review--}}
@@ -762,15 +841,17 @@
             <center>
                 <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
                 <p class="header2 p-doorstep-des">What Are You Waiting For Re! Just Come Shopp Re!</p>
-                <a href="{{route('member.plan')}}" target="_blank">
-                    <div class="btn-login-doorstep header5 p-color-white">
-                        <p>
-                            Sign Up for FREE
-                        </p>
-                    </div>
-                </a>
+                <a href="{{route('member.plan')}}" class="btn btn-s-r btn-b-r btn-a-l m-t-20">Sign Up for FREE</a>
+                {{--<a href="{{route('member.plan')}}" target="_blank">--}}
+                    {{--<div class="btn-login-doorstep header5 p-color-white">--}}
+                        {{--<p>--}}
+                            {{--Sign Up for FREE--}}
+                        {{--</p>--}}
+                    {{--</div>                   --}}
+                {{--</a>--}}
             </center>
-            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 hr-line-payment-method"></div>
+            <hr>
+            {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 hr-line-payment-method"></div>--}}
 
         </div>
         <div class="container">
@@ -876,7 +957,7 @@
         <br>
     </section>
     <section class="content-oes">
-        <div class="container"><br><br>
+        <div class="container-fluid c-f-p"><br><br>
             <h1>Shop from India without second thoughts from now on, we ship around the world!</h1>
 
             <p>Our Shop&Ship enables online shopping from India and shipping to the USA, UK, UAE, Australia etc.-
@@ -917,44 +998,83 @@
 
         </div>
         <br>
-        <div class="container">
-            <div class="col-md-3 col-sm-3 col-xs-6">
+    </section>
+    <section class="div-b-l-w">
+        <div class="container-fluid c-f-p seo-hyperlinks"><br>
+            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
                 <ul class="nav-ul">
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('medicine')}}">Medicine International Courier</a></li>
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="https://www.shoppre.com/university-offer" target="_blank">Documents International Courier</a></li>
+                    <ul class="nav-ul">
+                        <li class="li"><a itemprop="url" class="" href="/priyamani-ad-launch-parcel-forwarding-service-from-india">Online Shoping in India</a></li>
+                        <li class="li"><a itemprop="url" class="" href="/personal-shopper-online-shopping-from-india-shipping">Personal Shopper Services</a></li>
+                        <li class="li"><a itemprop="url" class="" href="/online-shopping-and-international-shipping-sit-back-relax-shop-from-india" >Shop India & Ship Worldwide</a></li>
+                        <li class="li"><a itemprop="url" class="" href="/schedule-pickup">Schedule Pickup anywhere in India</a></li>
+                        <li class="li"><a itemprop="url" class="" href="/2018-annual-awards-international-shipping-shopping">2018 Shipping Awards</a></li>
+                        <li class="li"><a itemprop="url" class="" href="/dropshipping-from-india-and-worldwide-delivery">Dropshipping Service</a></li>
+                        <li class="li"><a itemprop="url" class="" href="/indian-virtual-address" >Virtual & Mail Forwarding Address</a></li>
+                        <li class="li"><a itemprop="url" class="" href="/package-consolidation-international-shipping">Consolidation & Repackaging</a></li>
+                    </ul>
                 </ul>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
                 <ul class="nav-ul">
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('packers-movers')}}">Relocation, Packers & Movers</a></li>
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('forwarding')}}" target="_blank">Package Forwarding from India</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-canada-per-kg">Courier from India to Canada</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-germany-per-kg">	Courier from India to Germany</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-singapore-per-kg" >Courier from India to Singapore</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-australia-per-kg">Courier from India to Australia</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Uzbekistan">Courier Services to Uzbekistan</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/courier-charges-from-pune-to-california">Courier Services to California</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-usa-per-kg" >Courier Hyderabad to Texas</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/courier-charges-from-ahmedabad-to-dubai">Courier from Ahmedabad to Dubai</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
                 <ul class="nav-ul">
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('indianVirtual')}}">Virtual Shipping Address</a></li>
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('consolidationService')}}">Consolidation & Repacking</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Denmark">Shipping from India to Denmark</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Uganda">Shipping from India to Uganda</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Finland" >Shipping from India to Finland</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Lithuania">Shipping from India to Lithuania</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Morocco">Shipping from India to Morocco</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-united-states">Shipping United States from India</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Fiji" >Shipping Fiji South Pacific from India</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/shipping-from-india-to-Bangladesh">Shipping Bangladesh from India</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
                 <ul class="nav-ul">
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('voucher')}}">International Shipping Card</a></li>
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('first-shipment')}}">First Shipment Cashback</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/shop-from-india-ship-worldwide">	Shop in India, Ship Worldwide</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/myntra-online-shopping-shipping-from-india">Myntra Shopping from USA</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/amazon-india-shop-international-shipping" >Amazon.in Shopping from USA</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/limeroad-shopping-international-shipping">Limeroad Shopping from USA</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/flipkart-shopping-with-shoppre-from-india">Flipkart Shopping from USA</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/etsy-international-shipping-from-india">Etsy Shopping from USA</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-usa-per-kg" >AJIO Shopping from USA</a></li>
+                    <li class="li"><a itemprop="url" class="" href="international-courier-charges-india-to-uae-per-kg">Jaypore Shopping from USA</a></li>
                 </ul>
             </div>
         </div>
         <br>
-        <br>
+
     </section>
-    <section>
-        <div class="container div-got-top">
-            <a href="#" style="float: right">
-                <img class="img-goto-top" id="back-to-top" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/gototop.svg"
-                     alt="gototop shipping">
-            </a>
+    <section class="div-b-l-w">
+        <div class="container-fluid c-f-p">
+            <center><br>
+                <h1 class="f-s-26 f-c-d-greay f-w-8"><span class="f-c-red">S</span>ign Up & Start Shipping from <br>India to Worldwide</h1>
+                <br>
+                <a href="" class="btn-s-r btn-b-r btn ">Sign up for Free</a>
+                <br><br><br>
+            </center>
         </div>
 
     </section>
+    {{--<section>--}}
+        {{--<div class="container div-got-top">--}}
+            {{--<a href="#" style="float: right">--}}
+                {{--<img class="img-goto-top" id="back-to-top" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/gototop.svg"--}}
+                     {{--alt="gototop shipping">--}}
+            {{--</a>--}}
+        {{--</div>--}}
+
+    {{--</section>--}}
 @endsection
 
 @section('js_script')
@@ -982,17 +1102,18 @@
                         price='';
                         x.Packages.forEach(p => {
                             p.PackageItems.forEach(item => {
-                                debugger;
                                 if(itmes<1) {
+                                    shipmentItem ='';
+
                                     shipmentItem += item.name +',';
                                     price += item.price_amount;
                                     imgUrl =+ item.object ;
                                     html += '<div class="col-md-3 col-xs-12">' +
                                         '<div class="row pad-5 '+ color[i] + ' ">' +
                                         '<div class="h-div"><h4 class="f-s-20 f-c-white"> '+ item.name +'</h4></div>'+
-                                        '<center> ' +
-                                        '<div class="pad-t-5"><div class="circle-image "><img class="img-circle"></div></div>' +
-                                        '</center>' +
+                                        // '<center> ' +
+                                        // '<div class="pad-t-5"><div class="circle-image "><img class="img-circle"></div></div>' +
+                                        // '</center>' +
                                         '</div>';
                                     // console.log(item.name);
                                     //console.log(item.price_amount);
@@ -1002,18 +1123,17 @@
                             });
                         });
                         html +=' <div class="des-div"><br>'+
-                            '<p class="f-s-16 f-c-l-gray f-w-7">' + shipmentItem +' From ' + x.Packages[0].Store.name +' India to the '+ x.address + ' through DHL service provider ' + '</p>'+
+                            '<p class="f-s-16 f-c-l-gray f-w-7">' + shipmentItem +' From ' + x.Packages[0].Store.name +' India to '+ x.Country.name + ' through DHL service provider ' + '</p>'+
                             '</div>'+
                             '<div>' +
                             '<h2 class="f-s-16 f-c-d-greay">'+
-                            '<img src="/img/svg/ic_weight.svg" alt="">Weight : <span class="p-color-blue">' + x.weight + '</span>' +
+                            '<img src="/img/svg/ic_weight.svg" alt=""> Weight : <span class="p-color-blue">' + x.weight + ' Kg</span>' +
                             '</h2>'+
                             '<h2 class="f-s-16 f-c-d-greay">'+
-                            '<img src="/img/svg/ic_rupee.svg" alt="">Total Charge:<span class="p-color-blue"> '+ x.value_amount + '</span>' +
+                            // '<img src="/img/svg/ic_rupee.svg" alt="">Total Charge:<span class="p-color-blue"> '+ x.value_amount + '</span>' +
                             '</h2>'+
                             '</div>'+
                             '</div>'; i++;
-
 
                     });
                     html+='<div class="next_button"></div>\n' +
@@ -1034,7 +1154,7 @@
             else if ($(window).width() <= 1400 ) {
                 $('.slider_four_in_line').EasySlides({
                     'autoplay': true,
-                    'show': 3
+                    'show': 6
                 });
             }else {
                 $('.slider_four_in_line').EasySlides({
@@ -1113,12 +1233,18 @@
         $.getJSON("https://jsonip.com?callback=?", function(data) {
             $.getJSON("https://ipapi.co/"+data.ip+"/json/", function(res){
 
-                var country = res.country_name;
+                var countryName = res.country_name;
+                var country = res.country;
                 var destination = '';
                 var destination_country = 'United Arab Emirates';
-                if (country != 'India') {
-                    var destination = 'to ' + country;
-                    destination_country = country;
+                var d_country = 'AE';
+
+                if (country =='IN') {
+                    country= d_country ;
+                }
+                if (countryName != 'India') {
+                    var destination = 'to ' + countryName;
+                    destination_country = countryName;
                 }
                 var weight = 0.5;
                 var unit = 'kg';
@@ -1127,29 +1253,20 @@
                 var length = '';
                 var width = '';
                 var height = '';
+                var queryParams = 'all=true&country=' + country + '&type=' + type + '&weight=' + weight;
+                queryParams += '&length=' + length + '&width=' + width + '&height=' + height;
+                queryParams += '&scale=' + '' + '&unit=' + unit;
+                console.log('https://ship-api.shoppre.com/api/pricing?'+ queryParams);
                 jQuery.ajax({
-                    url: '/calculate-shipping',
-                    type: "POST",
-                    data: {
-                        country: destination_country,
-                        weight: weight,
-                        unit: unit,
-                        type: type,
-                        length: length,
-                        width: width,
-                        height: height,
-                        scale: box_scale,
-                        origin: 'home_page',
-                    },
+                    url: 'https://ship-api.shoppre.com/api/pricing?' + queryParams,
+                    type: 'get',
                     success: function (res) {
+
                         if (res.error == "1") {
                         } else {
                             var final_price = "";
-                            res.prices.map(function (price) {
-                                final_price = Math.round(((100 - price.discount) / 100) * price.amount);
-                                $('#prices').text(final_price);
-                                $("#country").text(destination);
-                            });
+                            $('#prices').text(res.prices[0].customerRate);
+                            $("#country").text(destination);
                         }
                     }
                 });

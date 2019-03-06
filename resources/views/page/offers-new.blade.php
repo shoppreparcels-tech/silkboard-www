@@ -87,6 +87,13 @@
                         </div>
                         <div class="item">
                             <div class="pad15">
+                                <a href="/holi-india-shopping-with-international-delivery">
+                                    <img src="{{asset('img/images/holi-india-shopping-with-international-delivery.png')}}" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
                                 <a href="/shop-ship">
                                     <img src="{{asset('img/images/shop-from-india-ship-to-usa.png')}}" class="boxofScroll"/>
                                 </a>
@@ -148,7 +155,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Discount Upto 60%<br> on TV & Appliances</h4>
                             <h5 class="header6 p-color-cement font-weight-900">PAY DAY </h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/cashless-payday-store?src=shoppre"
+                                <a href="/flipkart-shopping-with-shoppre-from-india"
                                    target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
@@ -202,11 +209,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">End of Season Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Clearance Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com/?src=shoppre">
+                                <a href="/myntra-online-shopping-shipping-from-india">
                                     <img src="{{asset('uploads/stores/logo_5997a62748742.png')}}"/>
                                 </a>
                             </div>
@@ -229,10 +236,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Valentines Day</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Gifts, Chocolates, Watches & More</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Galaxy M20</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">SAMSUNG 64GB & 128GB</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.amazon.in/b?node=3837826031&pf_rd_p=28617cd4-6265-4c39-b73d-d41241ba32ba&pf_rd_r=806TNETHS64JSMTQ7R1M">
+                                <a href="/amazon-india-shop-international-shipping">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>

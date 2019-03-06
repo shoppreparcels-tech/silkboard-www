@@ -24,6 +24,9 @@
 @endsection
 @section('content')
     <section class="ps-section" id="personal-shopper">
+        <div class="container heading-section">
+
+        </div>
         <div class="container">
             <div class="col-md-8 col-xs-12 div-align-items-l">
                 <h1 class="f-s-36 f-c-white">

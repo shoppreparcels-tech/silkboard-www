@@ -22,6 +22,11 @@
     <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
     <meta name="twitter:image:alt" content="shoppre international shipping" />
     <style>
+        .bg-myntra {background-image: url(../../img/images/overlay1.png);width: 100%;background-position: center;background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #fafafb;
+            padding-top: 60px;
+        }
         .bg-ics-landing-page .container > div {margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}
         .d-header-text1 {font-family: Montserrat -Italic;font-style: italic;line-height: 26px;margin-top: 25px}
@@ -47,8 +52,10 @@
         .box-steps p {line-height: 1;}
         .box-steps p span {font-size: 22px;font-weight: 900;}
         .flipkart-h1{font-size: 25px}
-        .christmas-service .shopandship,.ps,.ic, h2{font-size: 22px;font-weight: 500;color: rgba(255, 255, 255, 0.6);}
-        .christmas-service .shopandship,.ps,.ic, p{color: #ffffff;font-size: 16px;font-weight: 600;}
+
+        .myntra-service{box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 15px;background-color: #fafafb;margin-top: -150px;padding: 20px;}
+        .myntra-service .shopandship,.ps,.ic, h2{font-size: 22px;font-weight: 500;color: rgba(255, 255, 255, 0.6);}
+        .myntra-service .shopandship,.ps,.ic, p{color: #ffffff;font-size: 16px;font-weight: 600;}
         .btn-grab-offer{width: 180px;height: 40px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 60px;background-color: #e85151;color: #fff;transition: 0.6s}
         .btn-grab-offer:hover{color: #fff;background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);}
 
@@ -58,18 +65,20 @@
 @endsection
 @section('content')
 
-    <section class="bg-ics-landing-page">
+    <section class="bg-myntra">
         <div class="container">
             <center>
-                <h1 class="p-color-white header-spacing d-header-text">Myntra - International Shipping From India</h1>
+                <h1 class="f-s-36 f-c-white f-w-8">Myntra - International Shipping From India</h1>
 
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
                     <div class="shopandship ">
-                        <h2>Shop & Ship</h2>
+                        <h2>Clearance Sale</h2>
                         <br/>
-                        <p>Shop From Myntra Online Store; Get a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
+                        <p>50 - 80% OFF</p>
+                        <p>Shop By Brands</p>
+                        <p>28th Feb -  3th Mar 2019</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -90,11 +99,19 @@
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </section>
 
 
     <section class=" ">
-        <div class="container christmas-service">
+        <div class="container myntra-service">
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                    <center>
@@ -141,15 +158,11 @@
                 <center>
                     <h4 class="p-color-cement-dark flipkart-h1">International Credit/Debit Cards Giving You Trouble?</h4>
                     <h5 class="header5 p-color-cement">No worries! Our <a href="/personal-shopper-shopping-concierge-from-india">Personal Shopper </a>will swoop in & take care of it all for you!</h5> <br>
-                    <a href="https://www.myntra.com/?src=shoppre.com" class="btn-chris-place-order">Go Shopping Now!</a>
+                    <a href="https://www.myntra.com/?src=shoppre.com" class="btn btn-s-r btn-b-r btn-a-l" target="_blank">Go Shopping Now!</a>
                 </center>
             </div>
-            <br>
-
-            <br>
         </div>
-        <br>
-        <br>
+
     </section>
 
     <section class="chris-benefits">
@@ -202,7 +215,7 @@
             <center>
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Well, what's the wait? Sign Up with us now for a lifetime of effortless shopping!</h1>
                 <br>
-                <a href="{{route('customer.register')}}" class="btn-chris-place-order">Sign Up for Free</a>
+                <a href="{{route('customer.register')}}" class="btn btn-b-r btn-s-r btn-a-l">Sign Up for Free</a>
 
             </center>
         </div>

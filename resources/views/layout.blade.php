@@ -14,16 +14,15 @@
     <!-- Style -->
 
     <link rel="manifest" href="/manifest.json"/>
-    <link rel="stylesheet" type="text/css"
-          href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    {{--<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">--}}
+    {{--<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>--}}
 
     <!-- Font Awesome -->
-    <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css">
+    {{--<link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">--}}
+    {{--<link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css">--}}
 
     <link href="{{env('AWS_CLOUD_FRONT')}}/css/txtProgress.min.css" rel="stylesheet">
-    <link href="{{env('AWS_CLOUD_FRONT')}}/css/algolia.css" rel="stylesheet">
+    {{--<link href="{{env('AWS_CLOUD_FRONT')}}/css/algolia.css" rel="stylesheet">--}}
     {{--<link href="{{env('AWS_CLOUD_FRONT')}}/css/custom/style1.css" rel="stylesheet">--}}
     {{--<link href="{{env('AWS_CLOUD_FRONT')}}/css/custom/print.css" rel="stylesheet">--}}
     <script src="{{env('AWS_CLOUD_FRONT')}}/js/jquery.min.js"></script>
@@ -44,7 +43,7 @@
     <link rel="stylesheet" href="{{asset('css/custom/style-frame.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
     <link rel="stylesheet" href="{{asset('css/custom/signup.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
 
-    <link rel="stylesheet" href="{{asset('css/demo.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    {{--<link rel="stylesheet" href="{{asset('css/demo.css')}}">--}}
     <link rel="stylesheet" href="{{asset('css/intlTelInput.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
 
 
@@ -77,25 +76,6 @@
             m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
         }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/8f7212d51aa9533c4788ccf05/2a914120f0c71f0c8738d91cf.js");</script>
     <!--mailchimp RM-->
-    <!-- One Signal -->
-    {{--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>--}}
-    {{--<script>--}}
-        {{--if (localStorage.userinfo) {--}}
-            {{--var OneSignal = window.OneSignal || [];--}}
-            {{--OneSignal.push(function () {--}}
-                {{--OneSignal.sendTag("key", JSON.parse(localStorage.userinfo).id);--}}
-                {{--OneSignal.init({--}}
-                    {{--appId: "b7792635-0674-4e60-bef9-66d31b818a92",--}}
-                    {{--allowLocalhostAsSecureOrigin: true,--}}
-                    {{--autoRegister: true,--}}
-                    {{--notifyButton: {--}}
-                        {{--enable: false,--}}
-                    {{--},--}}
-                {{--});--}}
-            {{--});--}}
-        {{--}--}}
-    {{--</script>--}}
-
     <link rel="manifest" href="/manifest.json" />
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     <script>
@@ -184,8 +164,8 @@
 @yield('content')
 
 @include('partials._footer')
-<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.16/js/dataTables.jqueryui.min.js"></script>
+{{--<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>--}}
+{{--<script src="https://cdn.datatables.net/1.10.16/js/dataTables.jqueryui.min.js"></script>--}}
 
 <script src="{{asset('js/utils.js')}}"></script>
 <script src="{{asset('js/intlTelInput.js')}}"></script>
@@ -253,11 +233,40 @@
 </script>
 <script type="text/javascript">
     $(window).on('load', function () {
-        setTimeout(function(){
-            $('#myModal-offer').modal('show');
-        }, 10000);
+        if (!localStorage.offer) {
+            setTimeout(function () {
+                $('#myModal-offer').modal('show');
+                localStorage.offer = 1;
+            }, 30000);
+        }
     });
 
+</script>
+<script>
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+        // allowDropdown: false,
+        // autoHideDialCode: false,
+        // autoPlaceholder: "off",
+        // dropdownContainer: document.body,
+        // excludeCountries: ["us"],
+        // formatOnDisplay: false,
+        // geoIpLookup: function(callback) {
+        //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+        //     var countryCode = (resp && resp.country) ? resp.country : "";
+        //     callback(countryCode);
+        //   });
+        // },
+        // hiddenInput: "full_number",
+        // initialCountry: "auto",
+        // localizedCountries: { 'de': 'Deutschland' },
+        // nationalMode: false,
+        // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+        // placeholderNumberType: "MOBILE",
+        // preferredCountries: ['cn', 'jp'],
+        // separateDialCode: true,
+        utilsScript: "build/js/utils.js",
+    });
 </script>
 <script type="text/javascript">
     jQuery(function () {
@@ -384,17 +393,6 @@
         });
     });
 
-    {{--let utm_campaign = localStorage.utm_campaign;--}}
-    {{--let utm_source = localStorage.utm_source;--}}
-    {{--let utm_medium = localStorage.utm_medium;--}}
-    {{--let gcl_id = localStorage.gcl_id;--}}
-    {{--let loginUrl = '{{route('customer.login')}}?src=menu&utm_campaign='+utm_campaign+'&utm_medium='+utm_medium+'&utm_source='+utm_source+'&gcl_id='+gcl_id+'&referer='+localStorage.referer;--}}
-    {{--let registerUrl = '{{ route('customer.register')}}?src=menu&utm_campaign='+utm_campaign+'&utm_medium='+utm_medium+'&utm_source='+utm_source+'&gcl_id='+gcl_id+'&referer='+localStorage.referer;--}}
-    {{--let loginUrl = '{{route('customer.login')}}';--}}
-    {{--let registerUrl = '{{ route('customer.register')}}';--}}
-    {{--$('#btn_login').attr('href', loginUrl);--}}
-    {{--$('#btn_register').attr('href', registerUrl);--}}
-
 </script>
 <script type="text/javascript">
     $(document).ready(function () {
@@ -417,48 +415,6 @@
         $("ul#liticker").liScroll({travelocity: 0.05});
     });
 </script>
-
-{{--<!-- Facebook Pixel Code -->--}}
-{{--<script>--}}
-{{--!function (f, b, e, v, n, t, s) {--}}
-{{--if (f.fbq) return;--}}
-{{--n = f.fbq = function () {--}}
-{{--n.callMethod ?--}}
-{{--n.callMethod.apply(n, arguments) : n.queue.push(arguments)--}}
-{{--};--}}
-{{--if (!f._fbq) f._fbq = n;--}}
-{{--n.push = n;--}}
-{{--n.loaded = !0;--}}
-{{--n.version = '2.0';--}}
-{{--n.queue = [];--}}
-{{--t = b.createElement(e);--}}
-{{--t.async = !0;--}}
-{{--t.src = v;--}}
-{{--s = b.getElementsByTagName(e)[0];--}}
-{{--s.parentNode.insertBefore(t, s)--}}
-{{--}(window,--}}
-{{--document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');--}}
-{{--fbq('init', '437389746641326'); // Insert your pixel ID here.--}}
-{{--fbq('track', 'PageView');--}}
-{{--</script>--}}
-{{--<noscript><img height="1" width="1" style="display:none"--}}
-{{--src="https://www.facebook.com/tr?id=437389746641326&ev=PageView&noscript=1"/></noscript>--}}
-{{--<!-- Load Facebook SDK for JavaScript -->--}}
-{{--<div id="fb-root"></div>--}}
-{{--<script>(function(d, s, id) {--}}
-{{--var js, fjs = d.getElementsByTagName(s)[0];--}}
-{{--if (d.getElementById(id)) return;--}}
-{{--js = d.createElement(s); js.id = id;--}}
-{{--js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';--}}
-{{--fjs.parentNode.insertBefore(js, fjs);--}}
-{{--}(document, 'script', 'facebook-jssdk'));</script>--}}
-
-{{--<!-- Your customer chat code -->--}}
-{{--<div class="fb-customerchat"--}}
-{{--attribution="setup_tool"--}}
-{{--page_id="1819630241632764">--}}
-{{--</div>--}}
-
 @include('chat-script')
 
 <script>
@@ -559,8 +515,6 @@
         }
 
     });
-    //a simple function to click next link
-    //a timer will call this function, and the rotation will begin
 
     function rotate() {
         $('#next').click();

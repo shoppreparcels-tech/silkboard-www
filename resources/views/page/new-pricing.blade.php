@@ -37,6 +37,9 @@
 
 @section('content')
     <section id="new-pricing">
+        <div class="container">
+            <br><br><br><br>
+        </div>
         <div class="container how-to-calculate">
             <div class="modal fade" id="myModal-calculate" role="dialog">
                 <div class="modal-dialog">
@@ -386,7 +389,7 @@
                             </h14>
                             <br/>
                             <h14 class="f-s-14 f-c-l-gray">
-                                <span class="f-c-red">*</span> <a href="https://www.shoppre.com/parcel-forwarding/guidelines-for-shipping-electronics-items-from-india/">For electronics items, additional charges are applicable.</a>
+                                <span class="f-c-red">*</span> <a href="https://www.shoppre.com/parcel-forwarding/guidelines-for-shipping-electronics-items-from-india" target="_blank">For electronics items, additional charges are applicable.</a>
                             </h14>
                             <br/>
                             <h14 class="f-s-14 f-c-l-gray">
@@ -1225,32 +1228,6 @@
 
 @section('js_script')
     <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
-    <script>
-        var input = document.querySelector("#phone");
-        window.intlTelInput(input, {
-            // allowDropdown: false,
-            // autoHideDialCode: false,
-            // autoPlaceholder: "off",
-            // dropdownContainer: document.body,
-            // excludeCountries: ["us"],
-            // formatOnDisplay: false,
-            // geoIpLookup: function(callback) {
-            //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
-            //     var countryCode = (resp && resp.country) ? resp.country : "";
-            //     callback(countryCode);
-            //   });
-            // },
-            // hiddenInput: "full_number",
-            // initialCountry: "auto",
-            // localizedCountries: { 'de': 'Deutschland' },
-            // nationalMode: false,
-            // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-            // placeholderNumberType: "MOBILE",
-            // preferredCountries: ['cn', 'jp'],
-            // separateDialCode: true,
-            utilsScript: "build/js/utils.js",
-        });
-    </script>
     <script type="text/javascript">
         /* Magnific Popup */
         $(document).ready(function () {

@@ -261,7 +261,7 @@
                             <div class="col-sm-6 contact-text-padding">
                                 <label>Country</label>
                                 <select class="form-control m-b " name="country">
-                                    <option value="">Select Country</option>
+                                    <option value="">select country</option>
                                     @foreach($countries as $country)
                                         <option value="{{$country->name}}">{{$country->name}}</option>
                                     @endforeach
@@ -276,7 +276,7 @@
                             </div>
                             <div class="col-sm-6 contact-text-padding">
                                 <label>Email Address<i class="red">*</i></label>
-                                <input type="email" class="form-control" placeholder="Enter email address" name="email" required>
+                                <input type="email" class="form-control" placeholder="enter email address" name="email" required>
                             </div>
                         </div>
                         <div class="form-group pull-in clearfix">
@@ -330,7 +330,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label>Write your message</label>
+                            <label>Write your message:</label>
                             <textarea class="form-control" rows="6" placeholder="Write your concern" name="msg_content"></textarea>
                         </div>
                         <button type="submit" class="btn btn-contact-submit">Submit</button>

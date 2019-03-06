@@ -76,7 +76,7 @@
                                   <input id="phone" name="ContactNumber" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off" required>
                               </div>
                               <div class="form-group text-center">
-                                  <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900" onclick="">Sign Up For FREE!</button>
+                                  <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900" onclick="">Sign Up For FREE</button>
                               </div>
                           </center>
                        </div>
@@ -126,7 +126,7 @@
                 </div>
                 <br>
                 <div>
-                <center><a href="{{route('schedulePickup.Index')}}" class="btn-chris-place-order">Schedule A Pickup!</a></center>
+                <center><a href="{{route('schedulePickup.Index')}}" class="btn-chris-place-order">Schedule A Pickup</a></center>
                 </div>
 
             </div>
@@ -246,7 +246,7 @@
                 <center>
                     {{--<a href=""class="btn-chris-place-order">Place Your Order Now!</a>--}}
                 </center>
-                <br/><br/>
+                <br/>
             </div>
             <div class="row text-center u-benifits">
                 <div class="container">
@@ -269,7 +269,7 @@
                         <ul>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Affordable Rates</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned of your documents in the courier</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned of your documents</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-specific</span></li>
 
                         </ul>
@@ -281,7 +281,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Photo Updates</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Wallet Cashback</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Package Return Services</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Personalized Product Recommendations</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Product Recommendations</span></li>
                         </ul>
                     </div>
                 </div>
@@ -305,7 +305,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
@@ -351,7 +351,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 

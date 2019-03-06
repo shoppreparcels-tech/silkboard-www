@@ -89,7 +89,7 @@
                 <center>
                     <h4 class="p-color-cement-dark flipkart-h1">International Credit/Debit Cards Giving You Trouble?</h4>
                     <h5 class="header5 p-color-cement">No worries! Our Personal Shopper will swoop in & take care of it all for you!</h5> <br>
-                    <a href="https://www.etsy.com/in-en/?src=shoppre.com" class="btn-chris-place-order">Go Shopping Now!</a>
+                    <a href="https://www.etsy.com/in-en/?src=shoppre.com" class="btn-chris-place-order" target="_blank">Go Shopping Now!</a>
                 </center>
             </div>
             <br>

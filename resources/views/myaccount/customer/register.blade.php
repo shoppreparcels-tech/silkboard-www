@@ -909,8 +909,8 @@
                             </center>
                         </div>
                         <div class="col-md-offset-3 col-md-6 col-xs-12 no-pad">
-                            <input class="txt-login-register" id="phone" name="phone" type="tel" autocomplete="off"
-                                   style=" margin-left: 5px;" required > <br/>
+                            <input class="txt-login-register" id="phone" type="tel" name="phone" ng-intl-tel-input=""
+                                   style=" margin-left: 5px;" required /> <br/>
                         </div>
 
                         <div class="col-xs-12 col-md-12" style="margin-top: -20px;">
@@ -1030,7 +1030,7 @@
             //     callback(countryCode);
             //   });
             // },
-            // hiddenInput: "full_number",
+            hiddenInput: "full_number",
             // initialCountry: "auto",
             // localizedCountries: { 'de': 'Deutschland' },
             // nationalMode: false,
@@ -1038,7 +1038,7 @@
             // placeholderNumberType: "MOBILE",
             // preferredCountries: ['cn', 'jp'],
             // separateDialCode: true,
-            utilsScript: "build/js/utils.js",
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.0/js/utils.js",
         });
     </script>
     <script type="text/javascript">

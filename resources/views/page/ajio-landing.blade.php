@@ -60,6 +60,15 @@
             </div>
 
             <div class=" col-md-12 offer-description">
+
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <center>
+                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/ajio-online-shopping.png" alt="ajio.com">
+                        </center>
+                    </div>
+                </div>
+
                 <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">AJIO.com Online Shopping in India & International Shipping
                     <br>Warehouse for unique designs to dress you up! </h2>
                 <h4 class="p-color-cement" style="font-style:italic">Ajio is a farely new Indian online store that's mixes ethnic & chic with western designs,<br>

@@ -348,7 +348,7 @@ class PageController extends Controller
     public function videoLpGPepper()
     {
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
-        return view('page.landing-pages.video-GPepper')->with(['countries' => $countries]);
+        return view('page.landing-pages.video-gpepper')->with(['countries' => $countries]);
     }
 
     public function diwali()
