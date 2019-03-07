@@ -1,10 +1,12 @@
 @extends('layout')
 
 @section('title', 'How to send Holi Gifts from India to Abroad | Try ShoppRe.com & Ship Worldwide')
-@section('description', 'holi.')
-@section('keywords', 'holi')
+@section('description', 'Missing hues of colors & delicious desi treat even if you arent home this Holi? No Worry! Shop & Courier Holi gifts worldwide with us at cheap shipping rates.')
+@section('keywords', 'holi gifts, delicious desi treats, USE ShoppRe, Shopping and Shipping, Holi Gift Ideas')
 
 @section('css_style')
+
+    <link rel="canonical" href="https://www.shoppre.com/holi-india-shopping-with-international-delivery" />
     <style>
         .bg-valentain {background-image: url(../../img/images/overlay1.png);height: 900px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 75px;}
         @media only screen and (max-width: 600px) {
@@ -109,7 +111,8 @@
                 </center>
             </div>
             <div class=" col-md-12 offer-description">
-                <label class="f-s-16 f-c-d-gray">How would you feel if you could shower your spirit with hues of colors & delicious desi treats even if you aren't home his Holi?</label>
+                <label class="f-s-16 f-c-d-gray">How would you feel if you could shower your spirit with hues of colors & delicious desi treats even if you aren't home this Holi?</label>
+
                 <label class="f-s-16 f-c-gray">Then Why DELAY Re? USE ShoppRe! Your One-stop solution for all Shopping & Shipping Problems!</label>
                 <br>
                 <br>
@@ -202,7 +205,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
@@ -248,7 +251,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 

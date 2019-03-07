@@ -15,7 +15,7 @@
         .box-steps p {line-height: 1;}
         .box-steps p span {font-size: 22px;font-weight: 900;}
         #packing:hover{display: none}
-        .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 580px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;        }
+        .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 580px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 75px; }
         @media only screen and (max-width: 600px) {
             .bg-ics-l-p{height: 680px}
         }
@@ -341,7 +341,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
@@ -389,7 +389,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 

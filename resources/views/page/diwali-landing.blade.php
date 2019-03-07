@@ -1,14 +1,11 @@
 @extends('layout')
 
-
-@section('title', 'Diwali 2018 Offer')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'Diwali 2019 Offer | Hassle Free Shipping Worldwide from India')
+@section('description', 'Send your greetings off to your loved ones abroad. Our Grand Diwali Shipping Offer is Here. We offer 15% OFF on international shipping costs up to Rs.300')
+@section('keywords', 'diwali, offer, shopping, shipping')
 
 @section('css_style')
-    <style>
-
-    </style>
+    <link rel="canonical" href="https://www.shoppre.com/diwali-offer" />
 
 @endsection
 @section('content')
@@ -16,10 +13,10 @@
     <section class="bg-diwali-landing-page">
         <div class="container">
             <div class="col-md-12" style="padding:20px;margin-bottom: 3em">
-                <a href="tel:+91-80 4094 4077" class="pull-right d-contact-img-desktop">
+                <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">
                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">
                 </a>
-                <a href="tel:+91-80 4094 4077" class="d-contact-img pull-right">
+                <a href="tel:+91-8277919191" class="d-contact-img pull-right">
                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">
                 </a>
             </div>
@@ -79,7 +76,7 @@
                             </center>
                         </div>
                         <div class="text-center">
-                            <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-d-signup">Sign Up</a>
+                            <a href="{{route('customer.register')}}" class="btn btn-d-signup">Sign Up</a>
                             {{--<button type="submit" name="btnActivate" class="btn btn-shoppre">Sign Up</button>--}}
                         </div>
                     </div>
@@ -130,13 +127,13 @@
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                    class="startsValidValue"> 7th Aug 2018</span></p>
+                                    class="startsValidValue"> 15th SEP 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                    class="startsValidValue"> 15th Aug 2018</span></p>
+                                    class="startsValidValue"> 30th OCT 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
@@ -149,7 +146,7 @@
                 </center>
             </div>
             <div class=" col-md-12 offer-description">
-                <h5 class="header5 p-color-cement">OFFER DESCRIPTION:</h5> <br>
+                {{--<h5 class="header5 p-color-cement">OFFER DESCRIPTION:</h5> <br>--}}
                 <h4 class="header4 p-color-cement"> Our Grand Diwali Offer Is Here! Hurry Up &
                     Take Advantage!</h4>
                 <br>
@@ -222,7 +219,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-d-signup">Sign Up</a>
+                    <a href="{{route('customer.register')}}" class="btn btn-d-signup">Sign Up</a>
                 </div>
                 <br/><br/>
             </div>
@@ -244,7 +241,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
@@ -259,7 +256,6 @@
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
                         </i>Live Chat</p>
-                    {{--<a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#" class="header2 p-color-white">Chat Now</a>--}}
                     <a href="{{Constant::CHATURL}}" target="_blank"
                        class="header2 p-color-white">Chat Now</a>
 
@@ -290,7 +286,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 

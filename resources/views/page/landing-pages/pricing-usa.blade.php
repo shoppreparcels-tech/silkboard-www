@@ -190,12 +190,10 @@
                                    placeholder="Enter a valid E-mail ID" required>
                         </div>
                         <div class="form-group text-center">
-                            {{--<button type="submit" name="btnActivate" class="btn btn-d-activate-coupon"> GET A FREE QUOTE--}}
-                            {{--</button>--}}
                             <button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r"> GET A FREE QUOTE
                             </button>
                         </div>
-                        <p class="f-s-8 f-c-d-greay f-w-7">Your contact information will not be shared with any third party. We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
+                        <p class="f-s-8 f-c-d-greay f-w-7">We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
                     </div>
 
                     <div class="formFrame  div-form-get-quote" id="diwali-couponcode2">

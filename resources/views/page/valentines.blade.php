@@ -6,7 +6,7 @@
 
 @section('css_style')
     <style>
-        .bg-valentain {background-image: url(../../img/images/overlay1.png);height: 900px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
+        .bg-valentain {background-image: url(../../img/images/overlay1.png);height: 900px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 75px;}
         @media only screen and (max-width: 600px) {
             .bg-valentain {height: 1000px}
         }

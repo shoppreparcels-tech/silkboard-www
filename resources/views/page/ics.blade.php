@@ -35,7 +35,7 @@
                 <h1 class="header1  p-color-white">ShoppRe Courier</h1>
                 <p class="header2 p-color-white">One-stop destination for all your courier needs; domestic & international.
                     <br> We ship to 220+ countries around the world! #GlobalShippingMadeEasy</p> <br><br><br>
-                <a href="{{route('schedulePickup.Index')}}" class="btn-a" style="    margin-left: -10px;">Request Pickup</a>
+                <a href="{{route('schedulePickup.Index')}}" class="btn-a" style="    margin-left: -10px;">Schedule Pickup</a>
                 <a href="{{route('pricing')}}" class="btn-b">Get An Estimate</a>
             </center>
         </div>
@@ -135,7 +135,7 @@
                     </div>
                 </div>
                 <center>
-                    <a  href="{{route('schedulePickup.Index')}}" class="btn btn-request">Request Pickup</a>
+                    <a  href="{{route('schedulePickup.Index')}}" class="btn btn-request">Schedule Pickup</a>
                 </center>
             </div>
 

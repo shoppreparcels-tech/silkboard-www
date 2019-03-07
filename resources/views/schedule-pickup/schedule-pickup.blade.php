@@ -1,11 +1,12 @@
 @extends('layout')
 
-@section('title', 'Schedule A Pickup - Schedule Your Package Pickup Online | ShoppRe')
-@section('description', 'Need to Schedule a package pickup online? Schedule your parcel quickly with Shoppre from your home or office and we will deliver for you within 3-6 business days.')
+@section('title', 'Schedule a Pickup • Schedule Package Pickup Request • ShoppRe.com™')
+@section('description', 'Schedule your package pickup with ShoppRe | From your home or office | Get delivered in 3-6 business days | #GlobalShippingMadeEasy | Save 70% on Shipping Cost.')
 @section('keywords', 'package india, parcel service, schedule pickup, send food, courier services near me, delivery items, shipping rates')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/schedule-pickup"/>
+
     <meta property="og:title" content="Schedule A Package Pickup with ShoppRe.com"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://www.shoppre.com/schedule-pickup"/>
@@ -277,9 +278,9 @@
     <section class="">
         <div class="container">
             <div class="col-md-6 col-xs-12 pad-t-20">
-                <h3>Schedule Your Pickup - <span class="f-c-red f-s-16">
+                <h3 class="f-s-25 font-weight-900 f-c-d-greay">Schedule Your Pickup :<span class="f-c-red f-s-16">
                     <a class="bla-1" href="https://www.youtube.com/watch?v=lQi4Io_WH70">
-                        Watch Video To Know More
+                        Watch Video To Know More.</a>
                     </a>
                 </span></h3>
             </div>
@@ -708,9 +709,8 @@
             <h2 class="f-s-18 f-c-d-gray f-w-8">What are the easiest ways to schedule a pickup with us?</h2>
             <p class="f-s-16 f-c-gray">Our Support team is on alert 24/7 and you can reach them anytime with your
                 courier requests.
-                The easiest ways to reach us would be through call, text (WatsApp, SMS), email or directly from our
-                website.
-                You can <a href="{{route('customer.register')}}">sign up for FREE</a> to start shipping with us!
+                The easiest ways to reach us would be through call, text (<a href="https://wa.me/918277919191?text=Hi%20ShoppRe;%20Guide%20me%20to%20create%20my%20Pickup%20Request" target="_blank">WhatsApp</a>,
+                SMS), email or directly from our website. You can <a href="{{route('customer.register')}}">sign up for FREE</a> to start shipping with us!
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">How can you track the shipment containing your package once we pick it

@@ -9,7 +9,7 @@
 
     <link rel="canonical" href="https://www.shoppre.com/international-shipping-gift-cards-vouchers" />
     <style>
-       .first-time-shipment {background-color: #11273b;height: 560px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;padding-top: 60px;}
+       .first-time-shipment {background-color: #11273b;height: 560px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;padding-top: 75px;}
        .div-snow{padding-top: 146px;}
        .div-snow img{position: absolute;}
        .div-snow img{margin-left: -18px; position: absolute;}
@@ -142,27 +142,6 @@
             </div>
 
             <div class=" col-md-12 no-pad"><br>
-                {{--<h4 class="f-s-14 f-c-l-gray f-w-9">Offer Description :</h4>--}}
-                {{--<br>--}}
-                {{--<p class="header4 p-color-cement">2018 is on its last stretch and everyone's busy running around with their last-year resolutions! Let us get ready for another year with an open heart and clean baggage. We're here to help you be a new 'You' for the New Year's.</p>--}}
-                {{--<br>--}}
-                {{--<p class="header4 p-color-cement">Here's how; you get an <a href="{{route('pricing')}}">80% lesser shipping cost</a> with our top-of-the-line package consolidation services on top of which, you can avail a sweet 19% OFF - a little something from us to start off your New Year with.</p> <br>--}}
-
-                {{--<div class="offerDesc">--}}
-                    {{--<h5>Terms and Conditions:</h5><br>--}}
-                    {{--<ul>--}}
-                        {{--<li>Get 50% Cashback. </li>--}}
-                        {{--<li>Offer Code: FRST50</li>--}}
-                        {{--<li>Maximum amount that can be availed by a customer is ₹250/-.</li>--}}
-                        {{--<li>This offer cannot be clubbed with any other offer.</li>--}}
-                        {{--<li>This Coupon is Valid Upto 31-January-2019</li>--}}
-                        {{--<li>A customer can avail this offer only once during the offer period.</li>--}}
-                        {{--<li>This offer is applicable only for International Shipments.</li>--}}
-                        {{--<li>Clearance charges is applicable for Special items</li>--}}
-                        {{--<p class="f-s-16 f-c-blue f-w-8">(liquids, semi liquids/cosmetics, medicines, oils, homemade food items).</p>--}}
-
-                    {{--</ul>--}}
-                {{--</div>--}}
                 <br>
 
             </div>
@@ -190,7 +169,7 @@
                         <ul>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Affordable Rates</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned Copies for Document-couriers</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned Copies Documents</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-discount</span></li>
 
                         </ul>
@@ -206,9 +185,6 @@
                         </ul>
                     </div>
                 </div>
-                {{--<div class="text-center">--}}
-                {{--<a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-d-signup">Sign Up</a>--}}
-                {{--</div>--}}
                 <br/><br/>
             </div>
         </div>
@@ -244,7 +220,6 @@
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
                         </i>Live Chat</p>
-                    {{--<a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#" class="header2 p-color-white">Chat Now</a>--}}
                     <a href="{{Constant::CHATURL}}" target="_blank"
                        class="header2 p-color-white">Chat Now</a>
                 </div>
@@ -274,7 +249,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
@@ -295,7 +270,6 @@
                 </div>
             </div>
         </div>
-        <br>
     </section>
 @endsection
 

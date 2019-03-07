@@ -1,30 +1,31 @@
 @extends('layout')
 
-@section('title', 'Shop Jaypore & Ship Internationally From India | ShoppRe.com')
-@section('description', 'Shop online from Jaypore India and Ship Internationally with ShoppRe Upto 220+ countries. The fast & cheapest way to ship your package from India. Sign Up Free.')
-@section('keywords', 'international Shipping')
+@section('title', 'Shop Jaypore | Ship Internationally from India to USA, UAE, AUS ')
+@section('description', 'Shop any products in Jaypore and Ship them to your Country with ShoppRe Package Forwarding. Get additional 50% Discount. Save up to 80% On Shipping Rates.')
+@section('keywords', 'international Shipping, jaypore sarees, dupatta, earrings, books, handcrafted jewelry')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/jaypore-international-shipping-from-india" />
 
-    <meta property="og:title" content="Shop online Amazon.in products & Ship Internationally with ShoppRe" />
+    <meta property="og:title" content="Shop Japore products | Ship Internationally with ShoppRe" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.shoppre.com/amazon-india-shop-international-shipping" />
+    <meta property="og:url" content="https://www.shoppre.com/jaypore-international-shipping-from-india" />
     <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
     <meta property="og:image:width" content="2506">
     <meta property="og:image:height" content="1312">
     <meta property="og:image:alt" content="shoppre international shipping india" />
-    <meta property="og:description" content="Ship your purchases from Amazon India to Worldwide with ShoppRe, at an affordable shipping cost." />
+    <meta property="og:description" content="Ship your purchases from Jaypore to Worldwide with ShoppRe, at an affordable shipping cost." />
     <meta property="og:site_name" content="shoppre" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="go_shoppre" />
-    <meta name="twitter:title" content="Amazon.in International Shipping from India " />
-    <meta name="twitter:description" content="Shop in Amazon.in and ship your packages from India to USA, UK, UAE, Canada at a cheap courier cost." />
+    <meta name="twitter:title" content="Jaypore International Shipping from India " />
+    <meta name="twitter:description" content="Shop in Jaypore.com and ship your packages from India to USA, +150 countries at a cheap courier cost." />
     <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
     <meta name="twitter:image:alt" content="shoppre international shipping" />
     <style>
-        .bg-ics-landing-page .container > div {margin-bottom: 3em}
+        .bg-jaypore-landing-page{background-image: url(../../img/images/overlay1.png);height: 560px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
+        .bg-jaypore-landing-page .container > div {margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}
         .d-header-text1 {font-family: Montserrat -Italic;font-style: italic;line-height: 26px;margin-top: 25px}
         .christmas-service {box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 15px;background-color: #fafafb;margin-top: -121px;padding: 20px;}
@@ -37,17 +38,30 @@
         .btn-grab-offer:hover{color: #fff;background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);}
 
         #packing:hover{display: none}
+        @media only screen and (max-width: 600px) {
+            .bg-jaypore-landing-page{;height: 628px}
     </style>
 
 @endsection
 @section('content')
 
-    <section class="bg-ics-landing-page">
+    <section class="bg-jaypore-landing-page">
         <div class="container">
-            <center>
-                <h1 class="p-color-white header-spacing d-header-text">Jaypore.com - International Shipping From India</h1>
+            <br>
+            <br>
+            <h1 class="f-s-36 f-c-white f-w-8">Shop your purachses from Jaypore.com</h1>
+            <p class="f-s-22 f-c-white">Get Free Virtual Shipping Address and Ship to your country at Low Rates</p>
+            <br>
+            <p class="f-s-22 f-c-white">Place your order in Jaypore Store with your ShoppRe Virtual Address.</p>
+            <br>
+            <p class="f-s-22 f-c-white">Sarees, Dupattas, Blouses, Handcrafted Jewelry, Kurtas, Shirts, Earrings, HomeDecor</p>
+            <br>
 
-            </center>
+            </p>
+            <div class="col-md-12 col-xs-12 no-pad">
+                <a href="/customer/register" class="btn btn-s-r btn-b-r btn-a-l">Create My Free Address</a>
+                {{--<a href="/indian-online-stores" class="btn btn-l btn-s-b btn-b-b btn-a-l">Indian Stores List</a>--}}
+            </div>
 
         </div>
     </section>
@@ -81,11 +95,10 @@
                     <p class="header4 p-color-cement">Our streamlined set of <a href="{{route('consolidationService')}}">Repackaging & Package Consolidation</a> services, helps you cut down the shipping costs to 80% lesser!</p>
                     <br>
                     <br>
-                    <p class="header4 p-color-cement">All you have to do is; </p> <br>
-
+                    <p class="header4 p-color-cement">All you have to do is; </p>
                     <ul>
                         <li>Ship your purchases to the Virtual Address we provide for FREE,</li>
-                        <li>Use our FREE unique personal locker to store them, and finally -</li>
+                        <li>Use our FREE unique personal locker to store them, and finally,</li>
                         <li>Pay the never-before-like shipping cost we charge and,</li>
                         <li>Your shipment will be on it's way to reach you in 3-6 days!</li>
                     </ul>
@@ -94,8 +107,8 @@
                 <br>
                 <center>
                     <h4 class="p-color-cement-dark flipkart-h1">International Credit/Debit Cards Giving You Trouble?</h4>
-                    <h5 class="header5 p-color-cement">No worries! Our [Personal Shopper] will swoop in & take care of it all for you!</h5> <br>
-                    <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn-chris-place-order">Go Shopping Now!</a>
+                    <h5 class="header5 p-color-cement">No worries! Our <a href="/personal-shopper-shopping-concierge-from-india">Personal Shopper</a> will swoop in & take care of it all for you!</h5> <br>
+                    <a href="https://www.jaypore.com?src=shoppre.com" class="btn-chris-place-order">Go Shopping Now!</a>
                 </center>
             </div>
             <br>
@@ -104,7 +117,7 @@
                     <div class="shopandship ">
                         <h2>Shop & Ship</h2>
                         <br/>
-                        <p>Shop From Jaypore.com Store; Get a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
+                        <p>Shop From Jaypore.com Store; Get FREE Indian Virtual Address. We'll Ship to Your Doorsteps!</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -154,7 +167,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned of your documents</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-specific Discount</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery with online tracking</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery, online tracking</span></li>
 
                         </ul>
                     </div>
@@ -166,7 +179,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Wallet Cashback</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Package Return Services</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>International Courier Service</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Personalized Product Recommendations</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Product Recommendations</span></li>
                         </ul>
                     </div>
                 </div>
@@ -183,7 +196,7 @@
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Online shopping with international shipping from India!</h1>
 
                 <br>
-                <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn-chris-place-order">Sign Up for Free</a>
+                <a href="{{route('customer.register')}}"" class="btn-chris-place-order">Sign Up for Free</a>
 
             </center>
         </div>
@@ -289,7 +302,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
@@ -337,7 +350,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 

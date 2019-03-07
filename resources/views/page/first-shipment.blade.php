@@ -191,7 +191,7 @@
                         <ul>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Affordable Rates</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned Copies for Document-couriers</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned Copies Document-couriers</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-discount</span></li>
 
                         </ul>

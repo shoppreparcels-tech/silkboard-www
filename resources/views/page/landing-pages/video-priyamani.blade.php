@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Priyamani | Parcel Forwarding Service from India')
+@section('title', 'Priyamani | Parcel Forwarding Service from India | ShoppRe')
 @section('description', 'Shopping now made easy with ShoppRe personal shopper. Hire one of our experts to shop for you and get shipped your packages doorstep worldwide. Sign Up today!')
 @section('keywords', 'nri shopping, personal shopper, virtual shipping address, online shopping from usa to india')
 

@@ -1,14 +1,15 @@
 @extends('layout')
 
-@section('title', 'Esty International Shipping From India | ShoppRe.com')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'Esty International Shopping & Shipping From India | ShoppRe.com')
+@section('description', 'Shop wide range of products, jewelry, bags, clothing, home decor, Kids clothing, wedding accessories, sculpture & gifts at Etsy India & Ship at cheap Worldwide')
+@section('keywords', 'etsy, e-commerce, factory-manufactured items, handmade, vintage items, jewelry, bags, clothing, home décor, furniture ')
 
 @section('css_style')
-
+    <link rel="canonical" href="https://www.shoppre.com/etsy-international-shipping-from-india" />
 
     <style>
-        .bg-ics-landing-page .container > div {margin-bottom: 3em}
+        .bg-etsy-landing-page{background-image: url(../../img/images/overlay1.png);height: 560px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 70px;}
+        .bg-etsy-landing-page .container > div {margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}
         .d-header-text1 {font-family: Montserrat -Italic;font-style: italic;line-height: 26px;margin-top: 25px}
         .christmas-service {box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 15px;background-color: #fafafb;margin-top: -121px;padding: 20px;}
@@ -21,16 +22,30 @@
         .btn-grab-offer:hover{color: #fff;background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);}
 
         #packing:hover{display: none}
+        @media only screen and (max-width: 600px) {
+            .bg-etsy-landing-page{;height: 628px}
+        }
     </style>
 
 @endsection
 @section('content')
 
-    <section class="bg-ics-landing-page">
+    <section class="bg-etsy-landing-page">
         <div class="container">
-            <center>
-                <h1 class="p-color-white header-spacing d-header-text">ETSY - International Shipping From India</h1>
-            </center>
+            <br>
+            <br>
+            <h1 class="f-s-36 f-c-white f-w-8">Shop handmade or vintage items from Etsy India</h1>
+            <p class="f-s-22 f-c-white">Get your Free Virtual Shipping Address and Ship Internationally from India</p>
+            <br>
+            <p class="f-s-22 f-c-white">Place your order in Etsy India Store with your Free ShoppRe India Address.</p>
+            <br>
+            <p class="f-s-22 f-c-white">Shop wide range of categories, such as jewelry, bags, clothing, home décor, wedding accessories & gifts</p>
+            <br>
+
+            </p>
+            <div class="col-md-12 col-xs-12 no-pad">
+                <a href="/customer/register" class="btn btn-s-r btn-b-r btn-a-l">Create My Free Address</a>
+            </div>
         </div>
 
     </section>
@@ -45,7 +60,7 @@
             </div>
 
             <div class=" col-md-12 offer-description">
-                <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">Etsy - The wonder world of arts & crafts!</h2>
+                <h2 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">Etsy IN - The wonder world of arts & crafts!</h2>
                 <h4 class="p-color-cement" style="font-style:italic">Etsy India contains a world full of fresh crafts with art filled in all of their products.
                     <br>This refreshing range of Indian merchandise from home decor to jewelry, is yours for the taking. </h4>
                 <br>
@@ -58,7 +73,7 @@
                 <p class="header4 p-color-cement">If you need help with the shopping itself, or paying for your purchases;
                     <a href="/personal-shopper-shopping-concierge-from-india">ShoppRe Personal Shopper</a> will jump in to help you out of the
                     situation. All you have to do is, sit back and relax! Your shipment will be at your door in 3-6 business days no matter wherever in the world you are.</p> <br>
-                <p class="header4 p-color-cement">ShoppRe DropShipping is another featured service you can use if you're a seller from India; you can get us to pick up the
+                <p class="header4 p-color-cement"><a href="{{route('dropShipping')}}" target="_blank">ShoppRe DropShipping</a> is another featured service you can use if you're a seller from India; you can get us to pick up the
                     products from the maunfacturers themselves and ship them to your customers. </p> <br>
 
                 <div class="offerDesc">
@@ -68,19 +83,19 @@
                         <a href="{{route('ics.index')}}">cheapest courier service from India</a>.</p>
                     <br>
                     <br>
-                    <p class="header4 p-color-cement">All you have to do is; </p> <br>
+                    <p class="header4 p-color-cement">All you have to do is; </p>
 
                     <ul>
                         <li>Ship your purchases to the Virtual Address we provide for FREE,</li>
-                        <li>Use our FREE unique personal locker to store them, and finally -</li>
-                        <li>Pay the never-before-like shipping cost we charge and,</li>
+                        <li>Use our FREE unique personal locker to store them, and finally</li>
+                        <li>Pay the never-before-like shipping cost we charge and</li>
                         <li>Your shipment will be on it's way to reach you in 3-6 days!</li>
                     </ul>
                     <br>
-                    <p class="header4 p-color-cement">Now, If you're a seller;</p> <br>
+                    <p class="header4 p-color-cement">Now, If you're a seller;</p>
 
                     <ul>
-                        <li>Schedule a pickup for your packages, giving us the address to go to (Using DropShipping)</li>
+                        <li><a href="/schedule-pickup" target="_blank">Schedule a pickup for your packages</a>, giving us the address to go to (Using DropShipping)</li>
                         <li>Or, you can forward your packages from the manufacturer to our Shop & Ship - our international package forwarding service, we'll take it from there. </li>
                     </ul>
                 </div>
