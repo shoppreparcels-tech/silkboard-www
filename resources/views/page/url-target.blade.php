@@ -1,5 +1,5 @@
-@extends('layout-url-landing')
-
+{{--@extends('layout-url-landing')--}}
+@extends('layout')
 @section('title', $title )
 @section('description', $description)
 @section('keywords', $keywords)
