@@ -31,14 +31,28 @@
 
 
               <div class="text-center">
-                <div class="ps_click_box self">
-                  <h3>Do you want to place the orders yourself?</h3>
-                  <p>
-                    > Make your purchase on different websites and choose COD as mode of payment,<br>
-                    > Submit the payment to us immediately so that we can receive your parcels,<br>
-                    > and we shall notify you!
-                  </p>
-                </div>
+                @if ($customer->is_migrated != 2)
+                  <div class="ps_click_box self">
+                    <h3>Do you want to place the orders yourself?</h3>
+                    <p>
+                      > Make your purchase on different websites and choose COD as mode of payment,<br>
+                      > Submit the payment to us immediately so that we can receive your parcels,<br>
+                      > and we shall notify you!
+                    </p>
+                  </div>
+                @endif
+                  @if ($customer->is_migrated == 2)
+                    <div style="text-align: left;color:white;display: inline-block; width: 40%;border: 1px solid #ccc; vertical-align: top; min-height: 235px; padding: 25px; margin: 15px;background: #fe9611; border-radius: 10px;cursor: pointer;">
+                      <a href="{{route('shopper.migrate')}}">
+                        <h3 style="text-align: left;color:white;">Do you want to place the orders yourself?</h3>
+                        <p  style="text-align: left;color:white;">
+                          > Make your purchase on different websites and choose COD as mode of payment,<br>
+                          > Submit the payment to us immediately so that we can receive your parcels,<br>
+                          > and we shall notify you!
+                        </p>
+                      </a>
+                    </div>
+                  @endif
                 @if ($customer->is_migrated == 2)
 
                     {{--<div class="ps_click_box shoppre">--}}

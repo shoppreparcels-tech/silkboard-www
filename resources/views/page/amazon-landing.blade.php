@@ -78,19 +78,20 @@
                 <div class="col-sm-4">
 
                     <div class="shopandship ">
-                        <h2>Galaxy M20</h2>
+                        <h2>Honor Days</h2>
                         <br/>
-                        <p>Triple Rear Camera‎</p>
-                        <p>SAMSUNG 64GB & 128GB</p>
-                        <p>Sale on 12 Noon, 7th March 2019</p>
+                        <p>Up To ₹7,000 Off</p>
+                        <p>On Honor Smartphones</p>
+                        <p>Sale on 11th - 15th March 2019</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
-                        <h2>Amazon Super Value Day</h2>
+                        <h2>Samsung Galaxy</h2>
                         <br>
-                        <p>Up to 50% discount on daily essentials. Low Prices on Popular Products‎</p>
-                        <p> 1st to 7th March 2019</p>
+                        <p>64 GB and 128GB</p>
+                        <p>M10, M20 & M30</p>
+                        <p>Sale on 12 Noon - 12th March 2019</p>
 
                     </div>
                 </div>
@@ -98,8 +99,9 @@
                     <div class="ic">
                         <h2>Amazon Holi Sale</h2>
                         <br>
-                        <p>Enjoy the great offers in almost all categories of products</p>
-                        <p>17th to 20th March 2019</p>
+                        <p>Up To 70% OFF</p>
+                        <p>Offer & Deals on HOLI essentials</p>
+                        <p>9th to 21th March 2019</p>
 
                     </div>
                 </div>

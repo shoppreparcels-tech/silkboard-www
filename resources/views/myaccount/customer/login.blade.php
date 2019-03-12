@@ -1,10 +1,11 @@
 @extends('myaccount.layout')
 
-@section('title', 'Log in | ShoppRe Your Account | ShoppRe.com')
-@section('description', 'Hey welcome back! Log in to your ShoppRe account to access your package details, status, wallet balance and secure online payment and shipping services.')
-@section('keywords', 'log in, sign in, shoppre, myaccount, google plus, facebook, email')
+@section('title', 'Sign In - Your one account for Shopping & Shipping • ShoppRe™')
+@section('description', 'Hey welcome back! Log in to your ShoppRe account to access your package details, status, wallet balance, and secure online payment and shipping services.')
+@section('keywords', 'log in, sign in')
 
 @section('css_style')
+
   <link rel="canonical" href="https://www.shoppre.com/customer/login" />
 
 @endsection

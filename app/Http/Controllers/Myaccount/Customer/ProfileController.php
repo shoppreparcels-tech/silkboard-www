@@ -143,11 +143,20 @@ class ProfileController extends Controller
             return redirect($authorized_url);
         } else if($customer->is_migrated == 2 && $request->login_attempt =='no') {
             $authorized_url = Authorization::authorizeUser($customer->email);
-            return redirect($authorized_url);
+
+            if ($request->session()->get('continue')) {
+                return redirect($authorized_url. '&continue='.$request->session()->get('continue') );
+            } else {
+                return redirect($authorized_url);
+            }
         }
         else if ($customer->is_migrated == 2 && ($request->login_attempt =='yes' || $request->login_attempt == '')) {
             $authorized_url = Authorization::authorizeUser($customer->email);
-            return redirect($authorized_url);
+            if ($request->session()->get('continue')) {
+                return redirect($authorized_url. '&continue='. $request->session()->get('continue') );
+            } else {
+                return redirect($authorized_url);
+            }
         }
 
         $ships = Package::where('customer_id', $id)->where('status', 'ship')->orderBy('created_at', 'desc')->get();

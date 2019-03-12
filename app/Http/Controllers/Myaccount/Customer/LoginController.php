@@ -40,20 +40,11 @@ class LoginController extends Controller
 
         if (!empty($customer)) {
          if ($customer->email_verify == 'yes') {
-             if ($req->continue)
-             {
-                 if (Auth::guard('customer')->attempt(['email'=>$req->email, 'password'=>$req->password], $req->remember)) {
-                     return view('customer.login-success');
-                 }
-                 return redirect()->back()->with('error_message', 'Your email/password combination was incorrect')->withInput($req->only('email', 'remember'));
-             }
-             else
-             {
+             $req->session()->put(['continue' => $req->continue]);
                  if (Auth::guard('customer')->attempt(['email'=>$req->email, 'password'=>$req->password], $req->remember)) {
                      return redirect()->intended(route('customer.locker'));
                  }
-                 return redirect()->back()->with('error_message', 'Your email/password combination was incorrect')->withInput($req->only('email', 'remember'));
-             }
+             return redirect()->back()->with('error_message', 'Your email/password combination was incorrect')->withInput($req->only('email', 'remember'));
          }
          else {
              return redirect()->back()->with('error_message', 'Please verify your email')->withInput($req->only('email', 'remember'));

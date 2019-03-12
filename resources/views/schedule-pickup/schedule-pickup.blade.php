@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Schedule a Pickup • Schedule Package Pickup Request • ShoppRe.com™')
+@section('title', 'Schedule a Pickup • Schedule Package Pickup Request • ShoppRe™')
 @section('description', 'Schedule your package pickup with ShoppRe | From your home or office | Get delivered in 3-6 business days | #GlobalShippingMadeEasy | Save 70% on Shipping Cost.')
 @section('keywords', 'package india, parcel service, schedule pickup, send food, courier services near me, delivery items, shipping rates')
 

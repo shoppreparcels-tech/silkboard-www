@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'First International Shipment Cashback | Discount - ShoppRe.com')
+@section('title', 'First International Shipment Cashback | Discount • ShoppRe.com™')
 @section('description', 'Get 50% Discount on your First-time international shipment from India. Additionally get 80% lesser shipping cost with our package consolidation services.')
 @section('keywords', 'free shipment process, cashback, shipment, consolidation, repackaging')
 

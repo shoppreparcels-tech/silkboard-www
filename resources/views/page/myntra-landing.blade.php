@@ -74,11 +74,11 @@
             <div class="row text-center">
                 <div class="col-sm-4">
                     <div class="shopandship ">
-                        <h2>Myntra For Her</h2>
+                        <h2>Best of Last Season</h2>
                         <br/>
-                        <p>40 - 70% OFF</p>
-                        <p>Many Shades of Her</p>
-                        <p>8th Mar - 9th Mar 2019</p>
+                        <p>30 - 50% OFF</p>
+                        <p>GAP | SASSAFRAS</p>
+                        <p>11th - 13th Mar 2019</p>
                     </div>
                 </div>
                 <div class="col-sm-4">

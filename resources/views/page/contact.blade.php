@@ -38,7 +38,7 @@
     "contactType": "customer service"
   }]
 }
-
+</script>
 <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -60,7 +60,7 @@
       "description": "International Shipping, Domestic Courier Service and Parcel Forwarding India",
       "name": "ShoppRe.com - Your Global Shipping Partner From INDIA",
       "telephone": "080 4094 4077",
-                "openingHoursSpecification": [
+      "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": [

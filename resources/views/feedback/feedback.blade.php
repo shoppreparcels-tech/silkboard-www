@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Member Feedback Form | Submit Your Feedback | ShoppRe.com')
+@section('title', 'Member Feedback Form | Submit Your Feedback | ShoppRe.com™')
 @section('description', 'How we are doing? Regarding your most recent shipment received through Shoppre.com, please leave your feedback, suggestion and provide us more information.')
-@section('keywords', 'shipment, suggestion, feedback, information, form')
+@section('keywords', 'shipment, suggestion, feedback form, parcel delivery')
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/feedback" />
     <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
@@ -12,22 +12,24 @@
     <section class="timeline">
     <br/>
         <br/>
-        <br/>
-        <br/>
        <div class="col-md-4 col-sm-offset-5">
            <br/>
            <font color="#663399">
-            <h1>Feedback Form</h1>
+            <h1 class="f-s-25 font-weight-900">Feedback Form</h1>
            </font>
         </div>
         <br/>
-
         <div class="container" style="background-color: whitesmoke">
             <form class="form-horizontal" method="post" action="{{route('feedback.submit')}}">
                 {{ csrf_field() }}
                 <div class="feedback-container">
                     <div class="row">
                         <div class="col-md-8 col-sm-offset-2">
+                            <span class="f-s-15 font-weight-900 f-c-d-greay">Use the form below to rate your shipment and suggestions on the ShoppRe.com™ Shipping Services.
+                                Your feedback goes directly to the people responsible for the Shipment.
+                                And for every shipment you will be credited with <span class="f-c-red f-s-16">50 Loyalty Points</span> for giving valuable feedback.
+                            </p>
+                            <br>
                             <div class="form-group">
                                 <label>Name *</label>
                                 <input type="text" class="form-control" name="person" placeholder="Enter Your Name" required/>

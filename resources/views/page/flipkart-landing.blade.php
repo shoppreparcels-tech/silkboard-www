@@ -69,10 +69,11 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
-                        <h2>Flipkart Women's Day Sale</h2>
+                        <h2>Redmi Smartphones</h2>
                         <br>
-                        <p>#ForEveryHer - TVs & Appliances Up to 75% Off</p>
-                        <p>07th March 2019</p>
+                        <p>Redmin Note 7 | Note 7 Pro </p>
+                        <p>16cm FHD + Dot Notch Display </p>
+                        <p>Sale on 13th March 2019</p>
                     </div>
                 </div>
                 <div class="col-sm-4">

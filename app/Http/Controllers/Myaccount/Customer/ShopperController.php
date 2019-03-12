@@ -56,7 +56,7 @@ class ShopperController extends Controller
         $url = env('MIGRATION_PREFIX') .env('MIGRATION_PREFIX_MEMBER').'.'.env('DOMAIN')."/personalShopper/create";
         $authorized_url = Authorization::authorizeUser($customer->email, $url);
 
-        return redirect($authorized_url. '&state=personalShopperCreate');
+        return redirect($authorized_url. '&state=/personalShopper/create');
     }
 
     public function orderForm(Request $request) {

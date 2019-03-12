@@ -65,7 +65,7 @@
                     <div class="MultiCarousel-inner">
                         <div class="item">
                             <div class="pad15">
-                                <a href="https://www.shoppre.com/university-offer">
+                                <a href="https://www.shoppre.com/university-offer" target="_blank">
                                     <img src="{{asset('img/images/university-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
@@ -73,28 +73,28 @@
 
                         <div class="item">
                             <div class="pad15">
-                                <a href="/first-time-international-shipment-offer">
+                                <a href="/first-time-international-shipment-offer" target="_blank">
                                     <img src="{{asset('img/images/first50-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
+                        {{--<div class="item">--}}
+                            {{--<div class="pad15">--}}
+                                {{--<a href="{{route('monthEndOffer')}}">--}}
+                                    {{--<img src="{{asset('img/images/shoppre-month-end-offer.png')}}" class="boxofScroll"/>--}}
+                                {{--</a>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
                         <div class="item">
                             <div class="pad15">
-                                <a href="{{route('monthEndOffer')}}">
-                                    <img src="{{asset('img/images/shoppre-month-end-offer.png')}}" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="/holi-india-shopping-with-international-delivery">
+                                <a href="/holi-india-shopping-with-international-delivery" target="_blank">
                                     <img src="{{asset('img/images/holi-india-shopping-with-international-delivery.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                <a href="/shop-ship">
+                                <a href="/shop-ship" target="_blank">
                                     <img src="{{asset('img/images/shop-from-india-ship-to-usa.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
@@ -110,28 +110,28 @@
                     <div class="MultiCarousel-inner">
                         <div class="item">
                             <div class="pad15">
-                                <a href="{{route('schedulePickup.Index')}}">
+                                <a href="{{route('schedulePickup.Index')}}" target="_blank">
                                     <img src="{{asset('img/images/courier-from-india-to-usa.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                <a href="/international-parcel-forwarding-india-online-shopping">
+                                <a href="/international-parcel-forwarding-india-online-shopping" target="_blank">
                                     <img src="{{asset('img/images/parcel-forwarding-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                <a href="/personal-shopper-india">
+                                <a href="/personal-shopper-india" target="_blank">
                                     <img src="{{asset('img/images/personal-shopper-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                <a href="/refer-a-friend">
+                                <a href="/refer-a-friend" target="_blank">
                                     <img src="{{asset('img/images/refer-freind-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
@@ -152,8 +152,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Discount Upto 60%<br> on TV & Appliances</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">PAY DAY </h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Redmin Note 7<br> Dot Notch Display</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Sale on 13th March 2019</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-shopping-with-shoppre-from-india"
                                    target="_blank">
@@ -209,8 +209,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Myntra For Her</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Best of Last Season</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">30-70% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping-shipping-from-india">
@@ -316,7 +316,7 @@
             <center>
                 <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
                 <p class="header2 p-doorstep-des">What Are You Waiting For Re! Just Come Shopp Re!</p>
-                <a href="{{route('member.plan')}}" target="_blank">
+                <a href="{{route('customer.register')}}" target="_blank">
                     <div class="btn-login-doorstep header5 p-color-white">
                         <p>
                             Sign Up for FREE

@@ -1,5 +1,5 @@
 @extends('layout')
-@section('title', 'Customer Reviews & Ratings | Leave Your Feedback - ShoppRe.com')
+@section('title', 'Customer Reviews & Ratings | Leave Your Feedback • ShoppRe.com™')
 @section('description', 'Read our latest Reviews & Ratings showcasing the excellent service, ship on time & quality of shipment. Share feedback about your shipping experiences with us.')
 @section('keywords', 'reviews, ratings, customer, shipping, shopping, service, india')
 
@@ -77,9 +77,8 @@
     "worstRating" : 2.0
   }
 }
+</script>
 
-
-    </script>
 @endsection
 @section('content')
     <div class="container">
@@ -107,7 +106,7 @@
             <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
                 <center>
                     <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
-                       target="_blank">
+                       target="_blank" title="Click Here to Rate & Review Us on Google">
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/reviews/review-google.png" class="r-img" alt="Google Reviews">
                     </a>
                 </center>
@@ -116,7 +115,7 @@
             <div class="col-xs-12 col-sm-12 div-review-hr"></div>
             <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
                 <center>
-                    <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
+                    <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank" title="Click Here to Recommend Us on Facebook">
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/reviews/review-facebook.png" class="r-img" alt="Facebook Reviews">
                     </a>
                 </center>
