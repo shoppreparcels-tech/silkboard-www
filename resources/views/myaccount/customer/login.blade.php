@@ -88,10 +88,10 @@
         <div class="col-md-12 col-xs-12 pad-t-20 ">
             <center>
                 <div class="col-md-6 col-xs-6 img-google-pluse ">
-                    <a href="{{route('customer.social.google', ['loginAs' => 'Customer'])}}" class="pull-right"><img src="{{asset('img/google-plus-logo-button.png')}}" alt=""></a>
+                    <a href="{{route('customer.social.google')}}?loginAs=Customer&continue={{$continue}}" class="pull-right"><img src="{{asset('img/google-plus-logo-button.png')}}" alt=""></a>
                 </div>
                 <div class="col-md-6 col-xs-6 img-facebook-pluse">
-                    <a href="{{route('customer.social.facebook')}}" class="pull-left"><img src="{{asset('img/facebook-logo-button.svg')}}" alt=""></a>
+                    <a href="{{route('customer.social.facebook')}}?continue={{$continue}}" class="pull-left"><img src="{{asset('img/facebook-logo-button.svg')}}" alt=""></a>
                 </div>
             </center>
         </div>

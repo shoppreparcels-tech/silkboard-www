@@ -41,6 +41,7 @@ class SocialAuthController extends Controller
 
         $login_as = $req->loginAs;
         $membership_type = $req->session()->get('membership_type');
+        $req->session()->put(['continue' => $req->continue]);
         $req->session()->put(['loginAs' => $login_as]);
         $req->session()->put(['member' => $membership_type]);
         return Socialite::driver('google')
@@ -150,7 +151,7 @@ class SocialAuthController extends Controller
 
                                     Auth::loginUsingId($customer_id);
 
-                                    if ($membership_type === 'y' || $membership_type === 'h') {
+                                    if ($membership_type === 'y' || $membership_type === 'h') { //h-> half yearly, y-> yearly
                                         return redirect(route('member.pay'));
                                     }
 
@@ -301,8 +302,9 @@ class SocialAuthController extends Controller
         }
     }
 
-    public function redirectFacebook()
+    public function redirectFacebook(Request $request)
     {
+        $request->session()->put(['continue' => $request->continue]);
         return Socialite::driver('facebook')->redirect();
     }
 
