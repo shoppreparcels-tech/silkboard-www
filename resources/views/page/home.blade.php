@@ -697,7 +697,7 @@
         </div>
         <div class="container pad-b-30">
             <center>
-                <a href="{{route('stores1')}}" class="btn btn-s-r btn-b-r" style="margin-top: -26px">Browse Indian Stores</a>
+                <a href="{{route('stores')}}" class="btn btn-s-r btn-b-r" style="margin-top: -26px">Browse Indian Stores</a>
             </center>
         </div>
     {{--commented code placed in homepage folder review--}}

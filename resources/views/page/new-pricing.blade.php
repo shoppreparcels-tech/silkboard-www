@@ -746,6 +746,31 @@
                                     </tr>
                                     <tr class="tr-hide">
                                         <td>
+                                            <h6 class="f-s-16 f-c-d-greay">Electronics/Branded Food Items/Powder items Clearance charges Applicable only for Dubai and Singapore
+                                                <a href="#" class="tooltipkey"
+                                                   title="Any Package which requires Special Handling
+                                                         will be prompted to you via email. All liquids/
+                                                         semi-liquids/ homemade food/ medicines/ ayurvedic
+                                                         products/ dangerous goods like nail polish,  etc.
+                                                         will incur a customs clearance charge.The costs might
+                                                         not be limited to the given cost for all cases (for
+                                                         eg, in cases of shipping heavy weight objects or
+                                                         heavy volume dangerous goods such as paints, etc.) -
+                                                         costs could vary, and will keep you posted via
+                                                         email. ">
+                                                    <i class="fa fa-question-circle-o"></i>
+                                                </a>
+                                            </h6>
+                                        </td>
+                                        <td>
+                                            <h6 class="f-s-16 f-c-blue">₹ 200/- </h6>
+                                        </td>
+                                        <td>
+                                            <h6 class="f-s-16 f-c-l-gray">₹ 500/- </h6>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr-hide">
+                                        <td>
                                             <h6 class="f-s-16 f-c-d-greay">Real Time Tracking
                                                 <a href="#" class="tooltipkey"
                                                                  title="As soon as we dispatch your shipment to the courier you'll receive an update to help you track the same.">
@@ -1015,6 +1040,31 @@
                                         </td>
                                         <td><h6 class="p-color-cement header6">Unlimited</h6></td>
                                         <td><h6 class="p-color-cement header6">Upto 5 addresses</h6></td>
+                                    </tr>
+                                    <tr class="tr-hide">
+                                        <td>
+                                            <h6 class="f-s-16 f-c-d-greay">Electronics/Branded Food Items/Powder items Clearance charges Applicable only for Dubai and Singapore
+                                                <a href="#" class="tooltipkey"
+                                                   title="Any Package which requires Special Handling
+                                                         will be prompted to you via email. All liquids/
+                                                         semi-liquids/ homemade food/ medicines/ ayurvedic
+                                                         products/ dangerous goods like nail polish,  etc.
+                                                         will incur a customs clearance charge.The costs might
+                                                         not be limited to the given cost for all cases (for
+                                                         eg, in cases of shipping heavy weight objects or
+                                                         heavy volume dangerous goods such as paints, etc.) -
+                                                         costs could vary, and will keep you posted via
+                                                         email. ">
+                                                    <i class="fa fa-question-circle-o"></i>
+                                                </a>
+                                            </h6>
+                                        </td>
+                                        <td>
+                                            <h6 class="f-s-16 f-c-blue">₹ 200/- </h6>
+                                        </td>
+                                        <td>
+                                            <h6 class="f-s-16 f-c-l-gray">₹ 500/- </h6>
+                                        </td>
                                     </tr>
                                     <tr class="tr-hide">
                                         <td>

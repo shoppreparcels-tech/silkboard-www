@@ -28,12 +28,12 @@
                            Find helpful information specific to your country, including:</h2>
                        <br>
                        <ul>
-                           <li><a href="">Shipping costs</a></li>
-                           <li><a href="">Duties and taxes</a></li>
-                           <li><a href="">Restricted & prohibited items</a></li>
-                           <li><a href="">Current exchange rates</a></li>
-                           <li><a href="">Typical transit times</a></li>
-                           <li><a href="">Country alerts</a></li>
+                           <li><a href="{{route('pricing')}}">Shipping Costs</a></li>
+                           <li>Duties and taxes</li>
+                           <li>Restricted & prohibited items</li>
+                           <li>Current exchange rates</li>
+                           <li><a href="http://shoppretracking.aftership.com/" target="_blank">Typical transit times</a></li>
+                           <li>Country alerts</li>
                        </ul>
                    </div>
                     <div class="col-md-6 div-country">
@@ -50,9 +50,6 @@
                     </div>
 
                 </div>
-
-                {{--<div class="col-md-5 col-sm-12 col-md-offset-5 col-sm-offset-0"><h1>Ship Your Item World Wide</h1>--}}
-                {{--</div>--}}
             </center>
         </div>
 
@@ -91,11 +88,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3>So what are you waiting for? Shopp <span class="red">re</span>! Open your big box of happiness
+                    <h3>So what are you waiting for? Shopp <span class="red">Re</span>! Open your big box of happiness
                         today!</h3>
                     <p>All you need is a membership to get your Indian Shipping Address immediately!</p>
-                    <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-shoppre">sign up for
-                        free</a>
+                    <a href="{{route('customer.register')}}" class="btn btn-shoppre">sign up for free</a>
                 </div>
             </div>
         </div>

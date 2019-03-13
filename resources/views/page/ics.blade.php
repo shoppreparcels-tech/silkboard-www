@@ -22,6 +22,65 @@
 
     </style>
 
+    <script type="application/ld+json">
+    {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "name": "Best International Courier Service in India",
+    "description": "ShoppRe Courier is on a steady pace to becoming the best affordable international courier service in india.",
+    "image": {
+    "@type": "ImageObject",
+    "url": "https://www.shoppre.com/img/logo.png",
+    "width": "878",
+    "height": "264"
+    },
+    "url": "https://www.shoppre.com/international-courier-shipping-services-india",
+    "mainEntityOfPage": "https://www.shoppre.com/international-courier-shipping-services-india",
+    "inLanguage": "en_IN",
+    "headline": "The cheapest international courier service from India",
+    "keywords": "send courier from India, ship to usa, courier charges, global shipping made easy, international shipping, parcel delivery services",
+    "copyrightYear": "2019",
+    "author": {
+    "@type": "Organization",
+    "name": "ShoppRe",
+    "url": "https://www.shoppre.com",
+    "sameAs": ["https://twitter.com/Go_Shoppre",
+    "https://www.facebook.com/goshoppre",
+    "https://www.linkedin.com/company/shoppre.com",
+    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+    "https://www.instagram.com/shoppre_official",
+    "https://www.shoppre.com/shop-ship",
+    "https://www.shoppre.com/personal-shopper-shopping-concierge-from-india",
+    "https://www.shoppre.com/send-international-courier-from-india",
+    "https://www.shoppre.com/medicine-international-courier-from-india",
+    "https://www.shoppre.com/best-affordable-international-courier-services-in-india",
+    "https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg"],
+    "image": {
+    "@type": "ImageObject",
+    "url": "https://www.shoppre.com/img/logo.png",
+    "height": "264",
+    "width": "878"
+    },
+    "telephone": "+91 80409 44077",
+    "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "#181, Room No:1, 1st Floor, 2nd Cross Rd,1st Block Koramangala",
+    "addressLocality": "Bengaluru",
+    "addressRegion": "Karnataka",
+    "postalCode": "560034",
+    "addressCountry": "IN"
+    },
+    "location": {
+    "@type": "Place",
+    "name": "Send Courier from India to USA, UAE & Worldwide - ShoppRe.com",
+    "hasMap": "https://goo.gl/maps/ousk7hQJDM52",
+    "telephone": "+918277919191"
+   				 }
+    	 }
+   	  }
+   }
+</script>
+
 @endsection
 @section('content')
     <section class="header">
