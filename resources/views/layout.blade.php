@@ -26,7 +26,7 @@
     {{--<link href="{{env('AWS_CLOUD_FRONT')}}/css/custom/style1.css" rel="stylesheet">--}}
     {{--<link href="{{env('AWS_CLOUD_FRONT')}}/css/custom/print.css" rel="stylesheet">--}}
     <script src="{{env('AWS_CLOUD_FRONT')}}/js/jquery.min.js"></script>
-    <script src="{{asset('js/jquery.ajax-cross-origin.min.js')}}"></script>
+{{--    <script src="{{asset('js/jquery.ajax-cross-origin.min.js')}}"></script>--}}
 
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/custom/New_style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">

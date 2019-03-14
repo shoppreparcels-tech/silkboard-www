@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css">
 
     <link href="{{env('AWS_CLOUD_FRONT')}}/css/txtProgress.min.css" rel="stylesheet">
-    <link href="{{env('AWS_CLOUD_FRONT')}}/css/algolia.css" rel="stylesheet">
+    {{--<link href="{{env('AWS_CLOUD_FRONT')}}/css/algolia.css" rel="stylesheet">--}}
     {{--<link href="{{env('AWS_CLOUD_FRONT')}}/css/custom/style1.css" rel="stylesheet">--}}
     {{--<link href="{{env('AWS_CLOUD_FRONT')}}/css/custom/print.css" rel="stylesheet">--}}
     <script src="{{env('AWS_CLOUD_FRONT')}}/js/jquery.min.js"></script>

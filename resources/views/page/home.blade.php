@@ -7,11 +7,11 @@
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com" />
     <!-- Owl Carousel -->
-    <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/owl.carousel.min.css">
+    {{--<link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/owl.carousel.min.css">--}}
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/magnific-popup.css">
-    <link rel="stylesheet" href="{{asset('css/custom/shipment-sliders.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    {{--<link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/magnific-popup.css">--}}
+    {{--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>--}}
+    <link rel="stylesheet" href="{{asset('css/custom/shipment-sliders.css')}}">
     <script src="{{asset('js/shipments-slides.js')}}"></script>
 
     <meta property="og:title" content="Shop and Ship with ShoppRe | International Courier & Consolidation Services"/>

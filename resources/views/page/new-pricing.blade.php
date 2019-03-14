@@ -406,6 +406,12 @@
                             <br>
                             <br>
                             <h14 class="f-s-14 f-c-l-gray">
+                                The charges are not inclusive of the import duty at the receiving country.
+                                The same will vary from country to country and based on the product.
+                            </h14>
+                            <br>
+                            <br>
+                            <h14 class="f-s-14 f-c-l-gray">
                                 Shipments that may require additional time include those containing items under review,
                                 hazardous materials or oversized
                                 packages & when additional export documentation is required.
