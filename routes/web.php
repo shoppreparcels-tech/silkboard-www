@@ -435,6 +435,7 @@ Route::get('/customer/login', 'Myaccount\Customer\LoginController@login')->name(
 Route::post('/customer/login/submit', 'Myaccount\Customer\LoginController@submitLogin')->name('customer.login.submit');
 Route::post('/change-password', 'Myaccount\Customer\ProfileController@changePassword')->name('password.change.submit');
 Route::get('/customer/login-success', 'Myaccount\Customer\LoginController@loginSuccess')->name('customer.login.success');
+Route::get('/update-password/', 'Myaccount\Customer\PasswordController@changePassword')->name('update.password');
 
 Route::post('/register/survey', 'Myaccount\Customer\ProfileController@customerSurvey')->name('customer.register.survey');
 Route::post('/customer/mobile/verify', 'Myaccount\Customer\ProfileController@verifyMobile')->name('verify.mobile.submit');

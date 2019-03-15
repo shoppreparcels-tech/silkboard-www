@@ -13,6 +13,9 @@ use App\LoyaltyPoint;
 use App\ShippingPreference;
 use App\ShopperBalance;
 use App\Admin;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Myaccount\SignUpWelcomeMail;
+
 
 use Socialite;
 use Auth;
@@ -95,6 +98,8 @@ class SocialAuthController extends Controller
 
                                         $this->signUp($customer);
                                         Authorization::authorizeUser($customer->email);
+                                        Mail::to($customer->email)->bcc(['social.shoppre@gmail.com','vismaya.rk@shoppre.com'])
+                                            ->send(new SignUpWelcomeMail($customer));
                                     } else{
                                         $customer_id = $checkProfile->id;
                                     }
@@ -358,6 +363,8 @@ class SocialAuthController extends Controller
 			    $customer_id = $customer->id;
                 $this->signUp($customer);
                 Authorization::authorizeUser($customer->email);
+                Mail::to($customer->email)->bcc(['social.shoppre@gmail.com','vismaya.rk@shoppre.com'])
+                    ->send(new SignUpWelcomeMail($customer));
 	        }else{
 	        	$customer_id = $checkProfile->id;
 	        }

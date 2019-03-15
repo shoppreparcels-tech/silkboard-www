@@ -78,6 +78,7 @@ class Authorization
             'salutation' => '',
             'first_name' => $first_name,
             'last_name' => $middle_name.' '.$last_name,
+            'phone' => $customer->phone,
             'email' => $customer->email,
             'virtual_address_code' => $customer->locker,
             'hooks' => false

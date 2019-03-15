@@ -6,6 +6,7 @@ use function GuzzleHttp\Promise\all;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\Controller;
+use App\Mail\Myaccount\SignUpWelcomeMail;
 
 use App\Asana\AsanaTaskOperations;
 use App\Customer;
@@ -189,10 +190,12 @@ class RegisterController extends Controller
 //      $status_ask = $this->informToAsk($customer);
         $status = $this->informMailtrain($customer);
         $this->sendEmailVerification($request->email);
-        Authorization::signUp($customer);
 
         $this->signUp($customer);
         Authorization::authorizeUser($customer->email);
+
+        Mail::to($customer->email)->bcc(['social.shoppre@gmail.com','vismaya.rk@shoppre.com'])
+            ->send(new SignUpWelcomeMail($customer));
 
         if ($membership_type === 'y' || $membership_type == 'h') {
             if (Auth::guard('customer')->attempt(['email'=>$request->email, 'password'=>$request->password])) {
@@ -236,6 +239,7 @@ class RegisterController extends Controller
             'first_name' => $first_name,
             'last_name' => $middle_name.' '.$last_name,
             'email' => $customer->email,
+            'phone' => $customer->phone,
             'virtual_address_code' => $customer->locker,
             'hooks' => false
         ];
@@ -296,6 +300,7 @@ class RegisterController extends Controller
             'first_name' => $first_name,
             'last_name' => $middle_name.' '.$last_name,
             'email' => $user->email,
+            'phone' => $user->phone,
             'password' => $user->password,
             'hooks' => false
         ];

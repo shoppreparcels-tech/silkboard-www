@@ -349,7 +349,7 @@
                             {{ csrf_field() }}
                             <div class="col-md-6 col-xs-12 pad-20">
 
-                                <input id="phone" name="phone" type="tel" class="txt-l-br txt-f-w txt-b-r txt-pad m-t-10 f-s-16" autocomplete="off" required>
+                                <input id="phone" name="phone" type="tel" ng-intl-tel-input="" class="txt-l-br txt-f-w txt-b-r txt-pad m-t-10 f-s-16" autocomplete="off" required>
                                 <input name="email" type="email" class="txt-f-w txt-b-r txt-l-br txt-pad m-t-10 f-s-16" autocomplete="off" placeholder=" Enter your Email id" required>
                                 <input name="password" type="password" class="txt-f-w txt-b-r txt-l-br txt-pad m-t-10 f-s-16" autocomplete="off" placeholder=" Password" required>
                                 {{--<a href="" class="btn btn-s-r btn-b-r btn-a-l m-t-20">Sign up for Free</a>--}}
@@ -1138,7 +1138,6 @@
             })
         });
         $(document).ready(function() {
-            debugger;
 
             if ($(window).width() <= 600 ) {
                 $('.slider_four_in_line').EasySlides({
@@ -1251,7 +1250,6 @@
                 var queryParams = 'all=true&country=' + country + '&type=' + type + '&weight=' + weight;
                 queryParams += '&length=' + length + '&width=' + width + '&height=' + height;
                 queryParams += '&scale=' + '' + '&unit=' + unit;
-                console.log('https://ship-api.shoppre.com/api/pricing?'+ queryParams);
                 jQuery.ajax({
                     url: 'https://ship-api.shoppre.com/api/pricing?' + queryParams,
                     type: 'get',
@@ -1267,6 +1265,14 @@
                 });
             });
             // alert("Your IP address is :- " + data.ip);
+        });
+    </script>
+
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+            hiddenInput: "full_number",
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.0/js/utils.js",
         });
     </script>
 @endsection

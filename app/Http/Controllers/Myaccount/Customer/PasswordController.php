@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Myaccount\Customer;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
+use Hash;
 
 use App\Customer;
 use App\PasswordReset;
@@ -73,5 +74,22 @@ class PasswordController extends Controller
 	    $customer->save();
 
 	    return redirect(route('customer.login'))->with('message', 'Your account password has been changed. Please login to continue.');
+    }
+
+    public function changePassword(Request $request)
+    {
+        $customerid = $request->id;
+        $user = Customer::find($customerid);
+        $oldPassword = $request->old_password;
+        $password = $request->password;
+
+        if (Hash::check($oldPassword, $user->password)) {
+        $customer = new Customer;
+        $customer->where('id', $customerid)->update(['password' => bcrypt($password)]);
+
+         return response()->json(['message' => 'success']);
+        } else {
+         return response()->json(['message' => 'failed']);
+        }
     }
 }
