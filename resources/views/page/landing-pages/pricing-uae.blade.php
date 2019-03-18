@@ -173,27 +173,42 @@
                     {{csrf_field()}}
                     <div class="formFrame div-form-get-quote" id="diwali-couponcode1">
                         <h1 class="header2 p-color-blue" style="margin-bottom: 30px">Request a Callback</h1>
-                        <div class="form-group">
-                            <label>Full Name <span class="p-color-red">*</span></label>
-                            <input type="text" name="Name" class="form-control"
-                                   placeholder="Enter Here" required>
-                        </div>
-                        <div class="form-group">
-                            <label>Contact Number<span class="p-color-red">*</span></label>
-                            <input type="text" name="ContactNumber" class="form-control"
-                                   placeholder="Enter a Valid Phone number" required>
-                        </div>
-                        <div class="form-group">
-                            <label>E-Mail ID<span class="p-color-red">*</span></label>
-                            <input type="email" name="email" class="form-control"
-                                   placeholder="Enter a valid E-mail ID" required>
-                        </div>
-                        <div class="form-group text-center">
+                        {{--<div class="form-group">--}}
+                            {{--<label>Full Name <span class="p-color-red">*</span></label>--}}
+                            {{--<input type="text" name="Name" class="form-control"--}}
+                                   {{--placeholder="Enter Here" required>--}}
+                        {{--</div>--}}
+                        {{--<div class="form-group">--}}
+                            {{--<label>Contact Number<span class="p-color-red">*</span></label>--}}
+                            {{--<input type="text" name="ContactNumber" class="form-control"--}}
+                                   {{--placeholder="Enter a Valid Phone number" required>--}}
+                        {{--</div>--}}
+                        {{--<div class="form-group">--}}
+                            {{--<label>E-Mail ID<span class="p-color-red">*</span></label>--}}
+                            {{--<input type="email" name="email" class="form-control"--}}
+                                   {{--placeholder="Enter a valid E-mail ID" required>--}}
+                        {{--</div>--}}
+                        {{--<div class="form-group text-center">--}}
                             {{--<button type="submit" name="btnActivate" class="btn btn-d-activate-coupon"> GET A FREE QUOTE--}}
                             {{--</button>--}}
-                            <button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r"> GET A FREE QUOTE
-                            </button>
+                            {{--<button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r"> GET A FREE QUOTE--}}
+                            {{--</button>--}}
+                        {{--</div>--}}
+                        <div class="form-group">
+                            {{--<a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">--}}
+                            <img src="/img/images/christmas-contact.png" alt="">
+                            {{--</a>--}}
                         </div>
+
+                        <div class="form-group text-center div-align-items-l">
+                            {{--<button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r">--}}
+                            <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>
+                            {{--</button>--}}
+                            {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
+                            <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Courier%20Quote%20from%20India%20to%20UAE" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
+                            {{--</button>--}}
+                        </div>
+
                         <p class="f-s-8 f-c-d-greay f-w-7">Your contact information will not be shared with any third party. We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
                     </div>
 
