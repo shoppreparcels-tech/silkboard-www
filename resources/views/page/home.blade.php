@@ -284,8 +284,9 @@
                         </div>
                         <div class="col-md-10 col-xs-12 pad-0-15">
                             <h1 class="f-s-36 f-c-white f-w-8 ">
-                                International Shipping from India <span class="f-c-yellow" id="country"></span>
-                                starting at just <span class="p-color-red">*₹<span id="prices"></span></span><span style="color: #ffffff">!</span>
+                                International Shipping from India starting at just <span class="p-color-red">*₹566</span>!
+                                {{--International Shipping from India <span class="f-c-yellow" id="country"></span>--}}
+                                {{--starting at just <span class="p-color-red">*₹<span id="prices"></span></span><span style="color: #ffffff">!</span>--}}
                             </h1>
                         </div>
                     </div>
@@ -328,8 +329,8 @@
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
                        <div class="col-md-12 col-xs-12 pad-20">
-                           <a href="/first-time-international-shipment-offer"><img src="{{asset('img/images/offer_slider.png')}}" class="img-f-w offer-img-d" alt="first time international shipment offer"></a>
-                           <a href="/first-time-international-shipment-offer"><img src="{{asset('img/images/offer-slider-mobile.png')}}" class="img-f-w offer-img-m" alt="first international shipping discount"></a>
+                           <a href="/holi-india-shopping-with-international-delivery"><img src="{{asset('img/images/holi-offer-m.png')}}" class="img-f-w offer-img-d" alt="first time international shipment offer"></a>
+                           <a href="/holi-india-shopping-with-international-delivery"><img src="{{asset('img/images/holi-offer.png')}}" class="img-f-w offer-img-m" alt="first international shipping discount"></a>
                            <center><a href="{{route('customer.login')}}" class="btn btn-s-r btn-b-r btn-a-l m-t-20 offer-img-m">Sign up for Free</a></center>
                        </div>
                         <div class="col-md-12 col-xs-12 no-padd">
@@ -1223,50 +1224,50 @@
             });
         }
     </script>
-    <script>
-        $.getJSON("https://jsonip.com?callback=?", function(data) {
-            $.getJSON("https://ipapi.co/"+data.ip+"/json/", function(res){
+    {{--<script>--}}
+        {{--$.getJSON("https://jsonip.com?callback=?", function(data) {--}}
+            {{--$.getJSON("https://ipapi.co/"+data.ip+"/json/", function(res){--}}
 
-                var countryName = res.country_name;
-                var country = res.country;
-                var destination = '';
-                var destination_country = 'United Arab Emirates';
-                var d_country = 'AE';
+                {{--var countryName = res.country_name;--}}
+                {{--var country = res.country;--}}
+                {{--var destination = '';--}}
+                {{--var destination_country = 'United Arab Emirates';--}}
+                {{--var d_country = 'AE';--}}
 
-                if (country =='IN') {
-                    country= d_country ;
-                }
-                if (countryName != 'India') {
-                    var destination = 'to ' + countryName;
-                    destination_country = countryName;
-                }
-                var weight = 0.5;
-                var unit = 'kg';
-                var type = 'nondoc';
-                var box_scale = '';
-                var length = '';
-                var width = '';
-                var height = '';
-                var queryParams = 'all=true&country=' + country + '&type=' + type + '&weight=' + weight;
-                queryParams += '&length=' + length + '&width=' + width + '&height=' + height;
-                queryParams += '&scale=' + '' + '&unit=' + unit;
-                jQuery.ajax({
-                    url: 'https://ship-api.shoppre.com/api/pricing?' + queryParams,
-                    type: 'get',
-                    success: function (res) {
+                {{--if (country =='IN') {--}}
+                    {{--country= d_country ;--}}
+                {{--}--}}
+                {{--if (countryName != 'India') {--}}
+                    {{--var destination = 'to ' + countryName;--}}
+                    {{--destination_country = countryName;--}}
+                {{--}--}}
+                {{--var weight = 0.5;--}}
+                {{--var unit = 'kg';--}}
+                {{--var type = 'nondoc';--}}
+                {{--var box_scale = '';--}}
+                {{--var length = '';--}}
+                {{--var width = '';--}}
+                {{--var height = '';--}}
+                {{--var queryParams = 'all=true&country=' + country + '&type=' + type + '&weight=' + weight;--}}
+                {{--queryParams += '&length=' + length + '&width=' + width + '&height=' + height;--}}
+                {{--queryParams += '&scale=' + '' + '&unit=' + unit;--}}
+                {{--jQuery.ajax({--}}
+                    {{--url: 'https://ship-api.shoppre.com/api/pricing?' + queryParams,--}}
+                    {{--type: 'get',--}}
+                    {{--success: function (res) {--}}
 
-                        if (res.error == "1") {
-                        } else {
-                            var final_price = "";
-                            $('#prices').text(res.prices[0].customerRate);
-                            $("#country").text(destination);
-                        }
-                    }
-                });
-            });
-            // alert("Your IP address is :- " + data.ip);
-        });
-    </script>
+                        {{--if (res.error == "1") {--}}
+                        {{--} else {--}}
+                            {{--var final_price = "";--}}
+                            {{--$('#prices').text(res.prices[0].customerRate);--}}
+                            {{--$("#country").text(destination);--}}
+                        {{--}--}}
+                    {{--}--}}
+                {{--});--}}
+            {{--});--}}
+            {{--// alert("Your IP address is :- " + data.ip);--}}
+        {{--});--}}
+    {{--</script>--}}
 
     <script>
         var input = document.querySelector("#phone");

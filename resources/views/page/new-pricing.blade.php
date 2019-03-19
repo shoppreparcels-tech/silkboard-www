@@ -115,11 +115,11 @@
                                             Name:<input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="MName" placeholder="Enter your name" required>
                                             Phone Number: <input id="phone" name="MContactNumber" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off" required>
                                             Email:<input type="Email" name="Memail" class="txt-f-w txt-shadow txt-pad" autocomplete="off"   placeholder="jhon@email.com" required>
-                                            Country :
+                                            Which Country to Ship:
                                             <select class="form-control select-control b-r" name="Mcountry" required>
                                                 <option value="">Select Country</option>
                                                 @foreach($countries as $country)
-                                                    <option value="{{$country->iso}}" {{$country->id == 226 ? 'selected' : ""}}>{{$country->name}}</option>
+                                                    <option value="{{$country->name}}" {{$country->id == 226 ? 'selected' : ""}}>{{$country->name}}</option>
                                                 @endforeach
                                             </select>
                                             Weight<input type="number" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="Mweight" placeholder="Enter your Weight" required>
