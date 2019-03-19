@@ -78,20 +78,20 @@
                 <div class="col-sm-4">
 
                     <div class="shopandship ">
-                        <h2>Honor Days</h2>
+                        <h2>HUAWEI Watch</h2>
                         <br/>
-                        <p>Up To ₹7,000 Off</p>
-                        <p>On Honor Smartphones</p>
-                        <p>Sale on 11th - 15th March 2019</p>
+                        <p>On Charge Two Weeks</p>
+                        <p>FREE HUAWEI BT</p>
+                        <p>Sale on 19th March 2019</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
-                        <h2>Samsung Galaxy</h2>
+                        <h2>Just For Prime</h2>
                         <br>
-                        <p>64 GB and 128GB</p>
-                        <p>M10, M20 & M30</p>
-                        <p>Sale on 12 Noon - 12th March 2019</p>
+                        <p>Up to 70% Off</p>
+                        <p>Extra 10% Off</p>
+                        <p>Bags, Wallet & Luggage</p>
 
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                         <br>
                         <p>Up To 70% OFF</p>
                         <p>Offer & Deals on HOLI essentials</p>
-                        <p>9th to 21th March 2019</p>
+                        <p>9th to 21st March 2019</p>
 
                     </div>
                 </div>

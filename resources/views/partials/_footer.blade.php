@@ -16,13 +16,13 @@
                         <span itemprop="addressRegion">Karnataka,</span>
                         <span itemprop="addressCountry"> India</span></p>
                     <span itemprop="telephone">
-                        <a class="footer-a footer-social-media" href="tel:+91-80 4094 4077">
+                        <a class="footer-a footer-social-media" href="tel:+91-8040944077">
                             <img class="pad-t-10" src="{{asset('img/images/shipping-phone-number.png')}}"
                                  alt="Shoppre customer care">
                         </a>
                     </span><br>
                     <span itemprop="telephone">
-                        <a href="https://api.whatsapp.com/send?phone=918277919191" target="_blank">
+                        <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team;" target="_blank">
                             <img class="pad-t-10" src="{{asset('img/images/shipping-whatsapp.png')}}"
                                  alt="Shoppre contact number">
                         </a>
@@ -51,7 +51,7 @@
                             </a>
                             <a itemprop="url" class="footer-a" href="https://www.instagram.com/shoppre_official/?hl=en">
                                 <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-instagram.svg"
-                                     alt="shoppre_officia instagram">
+                                     alt="shoppre instagram">
                             </a>
                         </li>
                     </ul>
@@ -65,36 +65,11 @@
                     <li class="li"><a itemprop="url" class="footer-a" href="https://blog.shoppre.com/" target="_blank">Blog</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="{{route('countryList')}}" target="_blank">Country Guides</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="/terms-and-conditions">Terms & Conditions</a></li>
-                    <li class="li"><a itemprop="url" class="footer-a" href="/privacy-policy" target="_blank">Privacy Policy</a></li>
-                    <li class="li"><a itemprop="url" class="footer-a" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN"target="_blank">Careers</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="/privacy-policy">Privacy Policy</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>
                     <li class="li"><a class="footer-a" href="{{route('reviews')}}">Customer Reviews</a></li>
                 </ul>
             </div>
-            {{--<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 pad-5 ">--}}
-                {{--<ul class="nav-ul">--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="{{route('cguide.index')}}">Country Guide</a></li>--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="/sellers-shipping" >Become a Partner</a></li>--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="{{route('faq')}}">FAQ</a></li>--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="{{route('termsAndConditions')}}">Terms & Conditions</a></li>--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="{{route('privacyPolicy')}}">Privacy Policy</a></li>--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="{{route('refundAndCancellation')}}">Refund & Cancellation Policy</a></li>--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="https://in.hotjar.com/s?siteId=623115&surveyId=65096" target="_blank">Earn 1000 Loyalty Points</a></li>--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch" target="_blank">Install Chrome Extension</a></li>--}}
-                {{--</ul>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-2 col-lg-2 col-sm-6 col-xs-6 pad-5">--}}
-                {{--<ul class="nav-ul">--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="/priyamani-ad-launch-parcel-forwarding-service-from-india">Online Shoping in India</a></li>--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="/personal-shopper-online-shopping-from-india-shipping">Personal Shopper Services</a></li>--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="/online-shopping-and-international-shipping-sit-back-relax-shop-from-india" >Shop India & Ship Worldwide</a></li>--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="/schedule-pickup">Schedule Pickup anywhere in India</a></li>--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="/2018-annual-awards-international-shipping-shopping">2018 Shipping Awards</a></li>--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="/dropshipping-from-india-and-worldwide-delivery">Dropshipping Service</a></li>--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="/indian-virtual-address" >Virtual & Mail Forwarding Address</a></li>--}}
-                    {{--<li class="li"><a itemprop="url" class="footer-a" href="/package-consolidation-international-shipping">Consolidation & Repackaging</a></li>--}}
-                {{--</ul>--}}
-            {{--</div>--}}
-
             <div class="col-md-3 col-lg-3 col-sm-6 col-xs-8 pad-5">
                 <ul class="nav-ul">
                     <li class="li"><a itemprop="url" class="footer-a" href="{{route('medicine')}}">Medicine International Courier</a></li>

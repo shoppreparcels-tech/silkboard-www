@@ -74,11 +74,11 @@
             <div class="row text-center">
                 <div class="col-sm-4">
                     <div class="shopandship ">
-                        <h2>Best of Last Season</h2>
+                        <h2>Hit Refresh!</h2>
                         <br/>
                         <p>30 - 50% OFF</p>
-                        <p>GAP | SASSAFRAS</p>
-                        <p>11th - 13th Mar 2019</p>
+                        <p>Launching</p>
+                        <p>Spring Summer-19 Collection</p>
                     </div>
                 </div>
                 <div class="col-sm-4">

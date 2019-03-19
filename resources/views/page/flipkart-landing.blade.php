@@ -61,10 +61,11 @@
             <div class="row text-center">
                 <div class="col-sm-4">
                     <div class="shopandship ">
-                        <h2>#UnboxSuper6</h2>
+                        <h2>Upgrade Your Home</h2>
                         <br/>
-                        <p>Unbox Real 4K Series 6 | 6 Unmatched Features</p>
-                        <p>12th March 2019</p>
+                        <p>Up to 60% Off</p>
+                        <p>TVs & Appliances</p>
+                        <p>19th March 2019</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -73,14 +74,15 @@
                         <br>
                         <p>Redmin Note 7 | Note 7 Pro </p>
                         <p>16cm FHD + Dot Notch Display </p>
-                        <p>Sale on 13th March 2019</p>
+                        <p>Sale on 20th March 2019</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ic">
-                        <h2>Flipkart Holi Sale</h2>
+                        <h2>Big Steals of the Week</h2>
                         <br>
-                        <p>Best Offers & deals on Electronics & Holi Essentials during the sale.</p>
+                        <p>Big Buys. Best Prices.</p>
+                        <p>Appliances, Electronics & More</p>
                         <p>20th March 2019 </p>
 
                     </div>
@@ -281,6 +283,7 @@
             <br/><br/>
         </div>
     </section>
+
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">

@@ -698,7 +698,7 @@
         </div>
         <div class="container pad-b-30">
             <center>
-                <a href="{{route('stores')}}" class="btn btn-s-r btn-b-r" style="margin-top: -26px">Browse Indian Stores</a>
+                <a href="{{route('stores1')}}" class="btn btn-s-r btn-b-r" style="margin-top: -26px">Browse Indian Stores</a>
             </center>
         </div>
     {{--commented code placed in homepage folder review--}}
@@ -1056,7 +1056,7 @@
             <center><br>
                 <h1 class="f-s-26 f-c-d-greay f-w-8"><span class="f-c-red">S</span>ign Up & Start Shipping from <br>India to Worldwide</h1>
                 <br>
-                <a href="" class="btn-s-r btn-b-r btn ">Sign up for Free</a>
+                <a href="{{route('customer.register')}}" target="_blank" class="btn-s-r btn-b-r btn ">Sign up for Free</a>
                 <br><br><br>
             </center>
         </div>

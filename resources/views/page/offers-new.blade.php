@@ -78,13 +78,6 @@
                                 </a>
                             </div>
                         </div>
-                        {{--<div class="item">--}}
-                            {{--<div class="pad15">--}}
-                                {{--<a href="{{route('monthEndOffer')}}">--}}
-                                    {{--<img src="{{asset('img/images/shoppre-month-end-offer.png')}}" class="boxofScroll"/>--}}
-                                {{--</a>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
                         <div class="item">
                             <div class="pad15">
                                 <a href="/holi-india-shopping-with-international-delivery" target="_blank">
@@ -153,7 +146,7 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Redmin Note 7<br> Dot Notch Display</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Sale on 13th March 2019</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">Sale on 20th March 2019</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-shopping-with-shoppre-from-india"
                                    target="_blank">
@@ -209,8 +202,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Best of Last Season</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">30-70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Hit Refresh!</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">30-50% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping-shipping-from-india">
@@ -236,8 +229,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Galaxy M20</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">SAMSUNG 64GB & 128GB</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">HOLI SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 70% OFF</h5>
                             <div class="ecomSmallBox">
                                 <a href="/amazon-india-shop-international-shipping">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
