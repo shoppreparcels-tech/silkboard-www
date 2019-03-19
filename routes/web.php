@@ -48,6 +48,7 @@ Route::prefix('admin')->group(function(){
 
     Route::get('/wallet', 'Nodeapi\NodeController@walletShow')->name('admin.walletShow');
     Route::get('/walletUpdate', 'Nodeapi\NodeController@walletUpdate')->name('admin.walletUpdate');
+    Route::get('/wallet/index', 'Nodeapi\NodeController@walletIndex')->name('admin.walletIndex');
     Route::get('/loyalty', 'Nodeapi\NodeController@loyaltyShow')->name('admin.loyaltyShow');
     Route::get('/loyaltyUpdate', 'Nodeapi\NodeController@loyaltyUpdate')->name('admin.loyaltyUpdate');
     Route::get('/loyaltyCreate', 'Nodeapi\NodeController@loyaltyCreate')->name('admin.loyaltyCreate');

@@ -21,6 +21,13 @@ class NodeController extends Controller
         return response()->json(['amount' => $balance->amount]);
     }
 
+    public function walletIndex(Request $request)
+    {
+        $transactions = WalletTransaction::where('customer_id', $request->user_id)->orderBy('created_at', 'desc')->get();
+
+        return response()->json(['transactions'=>$transactions ]);
+    }
+
     public function walletUpdate(Request $request)
     {
         $customer = Customer::find($request->user_id);
