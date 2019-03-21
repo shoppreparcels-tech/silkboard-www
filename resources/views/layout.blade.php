@@ -17,17 +17,17 @@
     <link href="{{env('AWS_CLOUD_FRONT')}}/css/txtProgress.min.css" rel="stylesheet">
     <script src="{{env('AWS_CLOUD_FRONT')}}/js/jquery.min.js"></script>
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('css/custom/New_style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/ics.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/ifs.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/offers.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/diwali.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/stores-new.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/faq.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/style-frame.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/signup.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/intlTelInput.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/custom/New_style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/ics.css')}} ">
+    <link rel="stylesheet" href="{{asset('css/custom/ifs.css')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/offers.css')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/diwali.css')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/stores-new.css')}} ">
+    <link rel="stylesheet" href="{{asset('css/custom/style.css')}} ">
+    <link rel="stylesheet" href="{{asset('css/custom/faq.css')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/style-frame.css')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/signup.css')}}">
+    <link rel="stylesheet" href="{{asset('css/intlTelInput.css')}}">
     <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/select2.min.css">
     <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/star-rating.min.css">
 

@@ -723,7 +723,7 @@
                         <div class="row" style="padding-left: 4px ;margin-top: -20px;">
                             <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
                                target="_blank">
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/google-rating-shipping-service-bengaluru.png"
+                                <img src="{{asset('img/images/google-rating-shipping-service-bengaluru.png')}}"
                                      alt="google rating cheap international shipping from india">
                             </a>
                         </div>
@@ -733,7 +733,7 @@
                         <div class="row">
                             <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
                                 <img class="img-facebook-logo"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-reviews-shipping-service.png"
+                                     src="{{asset('img/images/facebook-reviews-shipping-service.png')}}"
                                      alt="facebook goshoppre reviews international parcel delivery">
                                 <p class="p-facebook-review">Reviews</p>
                             </a>
