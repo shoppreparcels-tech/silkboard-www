@@ -63,7 +63,7 @@
                     <li class="li"><a itemprop="url" class="footer-a" href="{{route('about')}}">About Us</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="{{route('faq')}}">Shipping FAQ</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="https://blog.shoppre.com/" target="_blank">Blog</a></li>
-                    <li class="li"><a itemprop="url" class="footer-a" href="{{route('countryList')}}" target="_blank">Country Guides</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="{{route('cguide.index')}}" target="_blank">Country Guides</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="/terms-and-conditions">Terms & Conditions</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="/privacy-policy">Privacy Policy</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>

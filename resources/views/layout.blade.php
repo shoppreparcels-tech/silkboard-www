@@ -14,25 +14,10 @@
     <!-- Style -->
 
     <link rel="manifest" href="/manifest.json"/>
-    {{--<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">--}}
-    {{--<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>--}}
-
-    <!-- Font Awesome -->
-    {{--<link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">--}}
-    {{--<link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css">--}}
-
     <link href="{{env('AWS_CLOUD_FRONT')}}/css/txtProgress.min.css" rel="stylesheet">
-    {{--<link href="{{env('AWS_CLOUD_FRONT')}}/css/algolia.css" rel="stylesheet">--}}
-    {{--<link href="{{env('AWS_CLOUD_FRONT')}}/css/custom/style1.css" rel="stylesheet">--}}
-    {{--<link href="{{env('AWS_CLOUD_FRONT')}}/css/custom/print.css" rel="stylesheet">--}}
     <script src="{{env('AWS_CLOUD_FRONT')}}/js/jquery.min.js"></script>
-{{--    <script src="{{asset('js/jquery.ajax-cross-origin.min.js')}}"></script>--}}
-
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/custom/New_style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    {{--<link rel="stylesheet" href="{{asset('css/select2.min.css')}}" >--}}
-    {{--<link rel="stylesheet" href="{{asset('css/star-rating.min.css')}}" >--}}
-
     <link rel="stylesheet" href="{{asset('css/custom/ics.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
     <link rel="stylesheet" href="{{asset('css/custom/ifs.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
     <link rel="stylesheet" href="{{asset('css/custom/offers.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
@@ -42,12 +27,7 @@
     <link rel="stylesheet" href="{{asset('css/custom/faq.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
     <link rel="stylesheet" href="{{asset('css/custom/style-frame.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
     <link rel="stylesheet" href="{{asset('css/custom/signup.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-
-    {{--<link rel="stylesheet" href="{{asset('css/demo.css')}}">--}}
     <link rel="stylesheet" href="{{asset('css/intlTelInput.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-
-
-    {{--<link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/bootstrap.min.css" >--}}
     <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/select2.min.css">
     <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/star-rating.min.css">
 
@@ -164,8 +144,6 @@
 @yield('content')
 
 @include('partials._footer')
-{{--<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>--}}
-{{--<script src="https://cdn.datatables.net/1.10.16/js/dataTables.jqueryui.min.js"></script>--}}
 
 <script src="{{asset('js/utils.js')}}"></script>
 <script src="{{asset('js/intlTelInput.js')}}"></script>

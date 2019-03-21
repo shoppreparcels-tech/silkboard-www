@@ -6,11 +6,6 @@
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com" />
-    <!-- Owl Carousel -->
-    {{--<link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/owl.carousel.min.css">--}}
-    <!-- Magnific Popup -->
-    {{--<link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/magnific-popup.css">--}}
-    {{--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>--}}
     <link rel="stylesheet" href="{{asset('css/custom/shipment-sliders.css')}}">
     <script src="{{asset('js/shipments-slides.js')}}"></script>
 
@@ -367,90 +362,12 @@
                 </div>
 
             </div>
-        </div>
-        {{--<div class="container "> <br>--}}
-            {{--<br>--}}
-            {{--<br>--}}
-            {{--<br>--}}
-            {{--<br>--}}
-            {{--<div class="col-md-7 col-xs-12 col-sm-7 no-padding">--}}
-                {{--<div>--}}
-                    {{--<h1 class="header1 p-color-white ">--}}
-                        {{--International Shipping from India <span class="f-c-yellow" id="country"></span>--}}
-                        {{--starting at just <span class="p-color-red">*₹<span id="prices"></span></span><span style="color: #ffffff">!</span>--}}
-                    {{--</h1> <br>--}}
-                {{--</div>--}}
-                {{--<div>--}}
-                    {{--<div class="col-md-10 div-h-offer no-padding">--}}
-                        {{--<center>--}}
-                            {{--<h7 class="f-s-16 f-c-blue f-w-8">Avail Your Discount on your First International Shipment!</h7>--}}
-                        {{--</center>--}}
-                        {{--<br>--}}
-                        {{--<div>--}}
-                            {{--<center>--}}
-{{--                                <img src="{{asset('img/images/first-50.png')}}" alt="FIRST50 Cashback" class="img-responsive"> <br>--}}
-                                {{--<img src="{{asset('img/images/offer-international-courier-india.png')}}" alt="FIRST50 Cashback" class="img-responsive"> <br>--}}
-                            {{--</center>--}}
-                        {{--</div>--}}
-                        {{--<center>--}}
-                            {{--<a href="{{route('member.plan')}}" class="btn-l btn-b-r btn-s-r btn-a-l">Sign Up FREE</a>--}}
-                            {{--<div><br></div>--}}
-                            {{--<span class="f-c-d-greay f-s-12 ">*Maximum amount that can be availed by a customer is ₹200/-</span>--}}
-                        {{--</center>--}}
-
-                    {{--</div>--}}
-
-                    {{--<div class="col-md-10 col-xs-12 no-padding">--}}
-                        {{--<br>--}}
-                        {{--<br>--}}
-                        {{--<div class="col-md-6 col-xs-6">--}}
-                            {{--<center>--}}
-                                {{--<p>--}}
-                                {{--<a class="bla-1"--}}
-                                   {{--href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank">--}}
-                                {{--<img src="{{asset('img/images/btnplay.png')}}" alt="" class="img-responsive">--}}
-                                {{--</a>--}}
-                                {{--</p>--}}
-                            {{--</center>--}}
-
-                        {{--</div>--}}
-                        {{--<div class="col-md-6 col-xs-6 ">--}}
-                            {{--<center>--}}
-                                {{--<a href="tel:+91-8277919191">--}}
-                                   {{--<img src="{{asset('img/images/number.png')}}" alt="" class="img-responsive">--}}
-                                {{--</a>--}}
-                            {{--</center>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-
-                    {{--<div class="col-xs-12 no-padd mobile-pickup-block hide-pickup-block">--}}
-                        {{--<br>--}}
-                        {{--<br>--}}
-                        {{--<div class="col-md-6 col-xs-6 no-pad">--}}
-                            {{--<a class="btn btn-b-r btn-s-r btn-a-f-w" href="{{route('ifs.index')}}">--}}
-                                {{--Shop and Ship--}}
-                            {{--</a>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-md-6 col-xs-6 no-pad">--}}
-                            {{--<a class="btn btn-b-b btn-s-b btn-a-f-w" href="{{route('ics.index')}}">--}}
-                             {{--ShoppRe Courier--}}
-                            {{--</a>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            {{--<div class="col-md-5 col-sm-5  no-padding">--}}
-                {{--<img src="{{asset('img/images/priyamani-new.png')}}" class="img-responsive" alt="" id="img-p">--}}
-            {{--</div>--}}
-        {{--</div>--}}
-
-
-        <br>
+        </div><br>
     </main>
     <!-- Main container -->
 
     <section><!-- latest shipments details-->
-       <div class="container-fluid fuid-padding pad-t-40">
+       <div class="container-fluid fuid-padding pad-t`-40"><br><br>
            <div class="col-md-2 col-xs-12 pad-l-d">
                 <center>
                     <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">ShoppRe <br>
@@ -701,7 +618,6 @@
                 <a href="{{route('stores1')}}" class="btn btn-s-r btn-b-r" style="margin-top: -26px">Browse Indian Stores</a>
             </center>
         </div>
-    {{--commented code placed in homepage folder review--}}
     </section>
     <section class="div-fluid">
         <div class="container">
@@ -838,17 +754,8 @@
                 <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
                 <p class="header2 p-doorstep-des">What Are You Waiting For Re! Just Come Shopp Re!</p>
                 <a href="{{route('member.plan')}}" class="btn btn-s-r btn-b-r btn-a-l m-t-20">Sign Up for FREE</a>
-                {{--<a href="{{route('member.plan')}}" target="_blank">--}}
-                    {{--<div class="btn-login-doorstep header5 p-color-white">--}}
-                        {{--<p>--}}
-                            {{--Sign Up for FREE--}}
-                        {{--</p>--}}
-                    {{--</div>                   --}}
-                {{--</a>--}}
             </center>
             <hr>
-            {{--<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 hr-line-payment-method"></div>--}}
-
         </div>
         <div class="container">
             <center>
@@ -874,8 +781,6 @@
                      alt="paytm e-commerce digital wallet ">
             </div>
         </div>
-       {{--commented code placed in homepage folder--}}
-
     </section>
     <section style="background-color: #f2f6fb;">
         <div class="container">
