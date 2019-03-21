@@ -1411,7 +1411,6 @@
                         // email: {required: 'Please enter your email id'}
                     },
                 submitHandler: function (form) {
-                    debugger;
                     var country = $("select[name='Mcountry']").val();
                     var email = $("input[name='Memail']").val();
                     var name = $("input[name='MName']").val();
