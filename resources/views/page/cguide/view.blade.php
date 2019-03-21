@@ -111,7 +111,7 @@
                   <select class="form-control select2" name="country">
                     <option value="">Select Country</option>
                       @foreach($countries as $calc_country)
-                        <option value="{{$calc_country->id}}" {{$calc_country->id == $country->id ? 'selected' : ''}}>{{$calc_country->name}}</option>
+                        <option value="{{$calc_country->iso}}" {{$calc_country->id == 226 ? 'selected' : ""}}>{{$calc_country->name}}</option>
                       @endforeach
                   </select>
                 </div>
@@ -362,6 +362,48 @@
       </div>
     </div>
   </section>
+        <div class="modal fade" id="moreWeight" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                {{--<h4 class="modal-title">Shipping Rates: <span id="shippingCountry"></span></h4>--}}
+              </div>
+              <div class="modal-body">
+                <div class="panel panel-success">
+                  <div class="panel-heading">
+                    <h4 class="modal-title f-w-8"> For more than 70 Kg we will be providing spot rates which are extremely competitive</h4>
+                  </div>
+                  <div class="panel-body">
+                    <form action="" method="post" id="form-weight">
+                      <div class="col-md-12 col-xs-12 pad-r-10 pad-b-20"><br>
+                        Name:<input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="MName" placeholder="Enter your name" required>
+                        Phone Number: <input id="phone" name="MContactNumber" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off" required>
+                        Email:<input type="Email" name="Memail" class="txt-f-w txt-shadow txt-pad" autocomplete="off"   placeholder="jhon@email.com" required>
+                        Country :
+                        <select class="form-control select-control b-r" name="Mcountry" required>
+                          <option value="">Select Country</option>
+                          @foreach($countries as $country)
+                            <option value="{{$country->iso}}" {{$country->id == 226 ? 'selected' : ""}}>{{$country->name}}</option>
+                          @endforeach
+                        </select>
+                        Weight<input type="number" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="Mweight" placeholder="Enter your Weight" required>
+                        <div class="col-xs-12 col-md-12 pad-t-20">
+                          <button type='submit' class="btn btn-s-r btn-b-r btn-l">Get a quote</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
 
   <section class="cguide_warning">
     <div class="container">
@@ -440,38 +482,29 @@
                 $("#calc_load").show();
                 $('#calc_error').hide();
                 $('#ship_result').hide();
-                jQuery.ajax({
-                    url: '/calculate-shipping',
-                    type : "POST",
-                    data:{
-                        _token:token,
-                        country:country,
-                        weight:weight,
-                        unit:unit,
-                        type:type,
-                        length:length,
-                        width:width,
-                        height:height,
-                        scale: box_scale
-                    },
-                    success: function(data) {
-                      $("#calc_load").hide();
-
-                      if (data.error == "1") {
-                        $('#calc_error').css('display', 'block');
-                      }else{
-                          data.prices.map(function(price) {
-                              $('#ship_oldcost').text(price.amount);
-                              var finalcost = Math.round(((100-price.discount)/100) * price.amount).toFixed(2);
-                              $('#ship_cost').text(finalcost);
-                              $('#ship_time').text(price.time);
-                              $('#ship_disc').text(price.discount);
-                              $('#ship_result').slideDown();
-                          });
-                      }
-                    }
-                });
-                return false;
+                if (weight<=70) {
+                    var queryParams = 'all=true&country=' + country + '&type=' + type + '&weight=' + weight;
+                    queryParams += '&length=' + length + '&width=' + width + '&height=' + height;
+                    queryParams += '&scale=' + box_scale + '&unit=' + unit;
+                    jQuery.ajax({
+                        url: 'https://ship-api.shoppre.com/api/pricing?' + queryParams,
+                        type: 'get',
+                        success: function ({prices}) {
+                            $("#calc_load").hide();
+                            console.log(prices[0].customerRate);
+                            let customer_price = prices[0].customerRate;
+                            console.log('customer_price', customer_price);
+                            $('#ship_cost').text(Math.round(customer_price));
+                            $('#ship_time').text('3-5 Days');
+                            $('#ship_disc').text('50');
+                            $('#ship_result').slideDown();
+                        }
+                    });
+                    return false;
+                } else {
+                    $("#calc_load").hide();
+                    $('#moreWeight').modal('show')
+                }
             }
       });
     });
@@ -576,4 +609,42 @@
       });
     });
   </script>
+    <script>
+      $(document).ready(function () {
+        $("#form-weight").validate({
+          rules:
+              {
+                  email: {required: true}
+              },
+          messages:
+              {
+                  // email: {required: 'Please enter your email id'}
+              },
+          submitHandler: function (form) {
+            var country = $("select[name='Mcountry']").val();
+            var email = $("input[name='Memail']").val();
+            var name = $("input[name='MName']").val();
+            var contact_no = $("input[name='MContactNumber']").val();
+            var weight = $("input[name='Mweight']").val();
+            var token = $('input[name=_token]').val();
+            jQuery.ajax({
+              url: '/api-pricing-calculator',
+              type: "POST",
+              data: {
+                  _token: token,
+                  name: name,
+                  weight: weight,
+                  email: email,
+                  country: country,
+                  contact_no: contact_no,
+
+              },
+              success: function (data) {
+                  $('#moreWeight').modal('hide')
+              }
+            })
+          }
+        });
+      });
+    </script>
 @endsection
