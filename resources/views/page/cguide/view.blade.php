@@ -111,7 +111,7 @@
                   <select class="form-control select2" name="country">
                     <option value="">Select Country</option>
                       @foreach($countries as $calc_country)
-                        <option value="{{$calc_country->iso}}" {{$calc_country->id == 226 ? 'selected' : ""}}>{{$calc_country->name}}</option>
+                        <option value="{{$calc_country->iso}}" {{$calc_country->id == $country->id ? 'selected' : ""}}>{{$calc_country->name}}</option>
                       @endforeach
                   </select>
                 </div>
