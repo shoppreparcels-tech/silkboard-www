@@ -16,6 +16,7 @@ Route::prefix('admin')->group(function(){
 
     /*---- Admin ------*/
 //    Route::get('/', 'Myaccount\Admin\AdminController@index')->name('admin.dashboard');
+
     Route::get('/', 'Myaccount\Admin\AdminController@customers')->name('admin.dashboard');
     Route::get('/logout', 'Myaccount\Admin\AdminController@logout')->name('admin.logout');
 
