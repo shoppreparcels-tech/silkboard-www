@@ -812,10 +812,12 @@
                                             </h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-blue"> 7% of the item value <br> (Min ₹200)</h6>
+                                            <h6 class="f-s-16 f-c-blue">Assisted Purchase(by Shoppre)= 10% of the item value (Min INR 200)
+                                                Self Shopper(Cash on Delivery)= 7% of the item value (Min INR 200)</h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-l-gray"> 7% of the item value <br> (Min ₹200)</h6>
+                                            <h6 class="f-s-16 f-c-l-gray">Assisted Purchase(by Shoppre)= 10% of the item value (Min INR 200)
+                                                Self Shopper(Cash on Delivery)= 7% of the item value (Min INR 200)</h6>
                                         </td>
                                     </tr>
                                     <tr class="tr-hide">
@@ -844,7 +846,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <h14 class="f-s-18 f-c-d-greay">Monthly Fee</h14>
+                                            <h14 class="f-s-18 f-c-d-greay">Fee</h14>
                                         </td>
                                         <td class="pad-20">
                                             <h6 class="f-s-20 f-c-blue f-w-9">₹2500/-</h6>
@@ -1142,10 +1144,13 @@
                                             </h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-blue"> 7% of the item value <br> (Min ₹200)</h6>
+                                            <h6 class="f-s-16 f-c-blue"> Assisted Purchase(by Shoppre)= 10% of the item value (Min INR 200)
+                                                <br>
+                                                Self Shopper(Cash on Delivery)= 7% of the item value (Min INR 200)</h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-l-gray"> 7% of the item value <br> (Min ₹200)</h6>
+                                            <h6 class="f-s-16 f-c-l-gray"> Assisted Purchase(by Shoppre)= 10% of the item value (Min INR 200)<br>
+                                                Self Shopper(Cash on Delivery)= 7% of the item value (Min INR 200)</h6>
                                         </td>
                                     </tr>
                                     <tr class="tr-hide">
@@ -1174,7 +1179,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <h14 class="f-s-18 f-c-d-greay">Monthly Fee</h14>
+                                            <h14 class="f-s-18 f-c-d-greay">Fee</h14>
                                         </td>
                                         <td class="pad-20">
                                             <h6 class="f-s-20 f-c-blue f-w-9">₹5000/-</h6>
