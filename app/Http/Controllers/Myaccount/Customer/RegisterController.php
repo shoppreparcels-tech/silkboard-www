@@ -240,6 +240,12 @@ class RegisterController extends Controller
             'last_name' => $middle_name.' '.$last_name,
             'email' => $customer->email,
             'phone' => $customer->phone,
+            'referer' => $customer->referer,
+            'first_visit' => $customer->first_visit,
+            'utm_campaign' => $customer->utm_campaign,
+            'utm_source' => $customer->utm_source,
+            'utm_medium' => $customer->utm_medium,
+            'gcl_id' => $customer->gcl_id,
             'virtual_address_code' => $customer->locker,
             'hooks' => false
         ];
