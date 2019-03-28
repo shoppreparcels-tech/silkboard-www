@@ -74,7 +74,7 @@
                         <div class="item">
                             <div class="pad15">
                                 <a href="/first-time-international-shipment-offer" target="_blank">
-                                    <img src="{{asset('img/images/first50-offer.png')}}" class="boxofScroll"/>
+                                    <img src="{{asset('img/images/first50-offer-march.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
