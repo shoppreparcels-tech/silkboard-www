@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Authorization\Authorization;
 use App\Country;
 use App\SchedulePickup;
 use Illuminate\Http\Request;
@@ -13,11 +14,12 @@ use App\Asana\AsanaTaskOperations;
 use App\States;
 use Auth;
 
+use App\Api\MailChimp;
 use App\Customer;
 use App\ShopperBalance;
 use App\CustomerContact;
 use App\LoyaltyPoint;
-use App\Myaccount\LoyaltyMisc;
+use App\LoyaltyMisc;
 use App\ShippingPreference;
 use App\Address;
 
@@ -44,172 +46,334 @@ class SchedulePickupController extends Controller
     public function submit(Request $request)
     {
       $status_code = $this->pickupApi($request);
-//      return route('confirmPickup');
-        return redirect(route('confirmPickup'));
-//      return view('schedule-pickup.confirm-pickup');
+        $authorise_url = Authorization::authorizeCourierUser($request->user_email);
+        return redirect($authorise_url);
     }
 
     public function pickupApi($request)
     {
+        $customer_name = explode(" ",$request->first_name);
+        $first_name = '';
+        $last_name = '';
+        if (sizeof($customer_name) > 1) {
+            $first_name = $customer_name[0];
+            $last_name = $customer_name[1];
+        }
+        else {
+            $first_name = $customer_name[0];
+        }
+        $phone_code = $request->phone_code;
+        $mobile = $request->mobile;
+        $email = $request->user_email;
+        $customer = $this->signUpPhp($request->first_name, $email, $phone_code, $mobile);
         $curl = curl_init();
         $items = array();
         $i = 0;
         foreach ($request->name as $key => $name) {
             $items[$i]['name'] = $name;
-            $items[$i]['quantity'] = $request->quantity[$i];
-            $items[$i]['amount'] = $request->amount[$i];
+            $items[$i]['quantity'] = (int)$request->quantity[$i];
+            $items[$i]['price'] = (float)$request->amount[$i];
             $i++;
         }
-//        echo $request->pc_fname;exit;
-
-//        $customer_id =  Auth::id();
-        $special_items = "";
-        $body = $request->all();
-        unset($body['_token']);
-        $schedule_package = new SchedulePickup($body);
-
-//        if($request->home_made)
-//        {
-//            $special_items = $special_items.$request->home_made.",";
-//        }
-//        if($request->branded_food_items)
-//        {
-//            $special_items = $special_items.$request->branded_food_items.",";
-//        }
-//        if($request->liquid_items)
-//        {
-//            $special_items = $special_items.$request->liquid_items.",";
-//        }
-//        if($request->medicine_items)
-//        {
-//            $special_items = $special_items.$request->medicine_items.",";
-//        }
-//        if($request->electronics)
-//        {
-//            $special_items = $special_items.$request->electronics.",";
-//        }
-//        if($request->other)
-//        {
-//            $special_items = $special_items.$request->other.",";
-//        }
-
-//        $country = Country::where('phone_code','=',$request->dc_phone_code)->first(['id','name']);
-//
-//        $addressess = Address::where('customer_id','=',$customer_id)->get(['id', 'first_name']);
-
-//        $schedule_package->special_items = $special_items;
-//        $schedule_package->customer_id = $customer_id;
-
-//        $name = $request->pc_fname.' '.$request->pc_lname;
-//        $details = "Phone Number - ".$request->phone_code.'-'.$request->mobile.',Email -'.$request->user_email;
-//        $pc_details = ",Pickup Details - ".$request->pc_fname."  ".$request->pc_lname." , ".$request->pc_street.
-//            " , ".$request->pc_city." , ".$request->pc_state." , ".$request->pc_pincode." , ".$request->pc_contact_no." , ".$request->pc_email;
-//        $dc_details = ",Destination Details - ".$request->dc_fname."  ".$request->dc_lname." , ".$request->dc_street.
-//            " , ".$request->dc_city." , ".$request->dc_state." , ".$request->dc_country." , ".$request->dc_pincode." , ".$request->dc_phone_code.
-//            " - ".$request->dc_contact_no;
-//        $package_details = ",No of Packages -  ".$request->no_of_packages." ,Weight - ".$request->package_weight." ,Size - ".$request->size_of_package;
-//        $package_items_details = ",Package items - ".$request->package_items." ,Special Items - ".$schedule_package->special_items." ,Other Items - ".$request->other_items;
-//        $all_details = $details.$pc_details.$dc_details.$package_details.$package_items_details;
-//        $response = AsanaTaskOperations::createTask($name, $all_details, "S");
-//        $phpArray = json_decode($response,true);
-//        $schedule_package->asana_url = "https://app.asana.com/0/819867433809220/".$phpArray['data']['id'];
-//        $schedule_package->save();
-
-
-        $size_of_package = $request->length.'*'.$request->width.'*'.$request->height;
-        $name = $request->first_name.' '.$request->last_name;
-        $details = "Phone Number - ".$request->phone_code."-".$request->mobile;
-        $pc_details = "\n\nPickup Details - ".$request->pc_fname."  ".$request->pc_lname." , ".$request->pc_street.
-            " , ".$request->pc_city." , ".$request->pc_state." , ".$request->pc_pincode." , ".$request->pc_contact_no." , ".$request->pc_email;
-        $dc_details = "\n\nDestination Details - ".$request->dc_fname."  ".$request->dc_lname." , ".$request->dc_street.
-            " , ".$request->dc_city." , ".$request->dc_state." , ".$request->dc_country." , ".$request->dc_pincode." , ".$request->dc_phone_code.
-            " - ".$request->dc_contact_no;
-        $package_details = "\n\nWeight - ".$request->package_weight."kg, Size - ".$size_of_package;
-        $package_items_details = "\n\nPickup Items- ".json_encode($items);
-        $all_details = $details.$pc_details.$dc_details.$package_details.$package_items_details;
-        $response = AsanaTaskOperations::createTask($name, $all_details, "S");
-        $phpArray = json_decode($response,true);
-        $schedule_package->asana_url = "https://app.asana.com/0/819867433809220/".$phpArray['data']['id'];
-        $schedule_package->save();
-        $this->sendEmailPickup($schedule_package);
-
-
-
         //-required for node js integration - please dont delete this section
+        $data = $request;
+        $data_string = [
+            'customer_id' => $customer->id,
+            'pickup_first_name' => $first_name,
+            'pickup_last_name' => $last_name,
+            'pickup_address' => $data->pc_street.''.$data->pc_pincode,
+            'pickup_city' => $data->pc_city,
+            'pickup_state' => $data->pc_state,
+            'pickup_mobile' => $data->pc_contact_no,
+            'pickup_email' => $data->pc_email,
+            'package_length' => $data->length,
+            'package_width' => $data->width,
+            'package_height' => $data->height,
+            'package_weight' => $data->package_weight,
+            'destination_first_name' => $data->dc_fname,
+            'destination_last_name' => $data->dc_lname,
+            'destination_address_line1' => $data->dc_street,
+            'destination_address_line2' => $data->dc_pincode,
+            'destination_city' => $data->dc_city,
+            'destination_state' => $data->dc_state,
+            'destination_country' => $data->dc_country,
+            'destination_phone_code' => $data->dc_phone_code,
+            'destination_mobile' => $data->dc_contact_no,
+            'comment' => $data->comment,
+            'items'=> $items,
+        ];
 
-//        $data_string = [
-//            'customer_id' => 2285,
-//            'pickup_first_name' => $data->pc_fname,
-//            'pickup_last_name' => $data->pc_lname,
-//            'pickup_address' => $data->pc_street.''.$data->pc_pincode,
-//            'pickup_city' => $data->pc_city,
-//            'pickup_state' => $data->pc_state,
-//            'pickup_mobile' => $data->pc_contact_no,
-//            'pickup_email' => $data->pc_email,
-//            'package_length' => $data->length,
-//            'package_width' => $data->width,
-//            'package_height' => $data->height,
-//            'package_weight' => $data->package_weight,
-//            'destination_first_name' => $data->dc_fname,
-//            'destination_last_name' => $data->dc_lname,
-//            'destination_address_line1' => $data->dc_street,
-//            'destination_address_line2' => $data->dc_pincode,
-//            'destination_city' => $data->dc_city,
-//            'destination_state' => $data->dc_state,
-//            'destination_country' => $data->dc_country,
-//            'destination_phone_code' => $data->dc_phone_code,
-//            'destination_mobile' => $data->dc_contact_no,
-//            'comment' => $data->comment,
-//            'items'=> $items,
-//        ];
-//
-//        $size_of_package = $data->length.'*'.$data->width.'*'.$data->height;
-//        $name = $data->pc_fname.' '.$data->pc_lname;
-//        $details = "Phone Number - ".$data->pc_contact_no.',Email -'.$data->pc_email;
-//        $pc_details = "\nPickup Details - ".$data->pc_fname."  ".$data->pc_lname." , ".$data->pc_street.
-//            " , ".$data->pc_city." , ".$data->pc_state." , ".$data->pc_pincode." , ".$data->pc_contact_no." , ".$data->pc_email;
-//        $dc_details = "\nDestination Details - ".$data->dc_fname."  ".$data->dc_lname." , ".$data->dc_street.
-//            " , ".$data->dc_city." , ".$data->dc_state." , ".$data->dc_country." , ".$data->dc_pincode." , ".$data->dc_phone_code.
-//            " - ".$data->dc_contact_no;
-//        $package_details = "\nWeight - ".$data->package_weight."kg, Size - ".$size_of_package;
-//        $package_items_details = "\nPickup Items- ".json_encode($items);
-//        $all_details = $details.$pc_details.$dc_details.$package_details.$package_items_details;
+        $size_of_package = $data->length.'*'.$data->width.'*'.$data->height;
+        $name = $data->pc_fname.' '.$data->pc_lname;
+        $details = "Phone Number - ".$data->pc_contact_no.',Email -'.$data->pc_email;
+        $pc_details = "\nPickup Details - ".$data->pc_fname."  ".$data->pc_lname." , ".$data->pc_street.
+            " , ".$data->pc_city." , ".$data->pc_state." , ".$data->pc_pincode." , ".$data->pc_contact_no." , ".$data->pc_email;
+        $dc_details = "\nDestination Details - ".$data->dc_fname."  ".$data->dc_lname." , ".$data->dc_street.
+            " , ".$data->dc_city." , ".$data->dc_state." , ".$data->dc_country." , ".$data->dc_pincode." , ".$data->dc_phone_code.
+            " - ".$data->dc_contact_no;
+        $package_details = "\nWeight - ".$data->package_weight."kg, Size - ".$size_of_package;
+        $package_items_details = "\nPickup Items- ".json_encode($items);
+        $all_details = $details.$pc_details.$dc_details.$package_details.$package_items_details;
 //        $response = AsanaTaskOperations::createTask($name, $all_details, "S");
 //        $phpArray = json_decode($response,true);
-//
-//
-//        $url = env('MIGRATION_PREFIX') ."parcel-api.".env('DOMAIN')."/api/pickups";
-//        curl_setopt_array($curl, array(
-//            CURLOPT_URL => $url,
-//            CURLOPT_RETURNTRANSFER => true,
-//            CURLOPT_HEADER  => true,
-//            CURLOPT_ENCODING => "",
-//            CURLOPT_MAXREDIRS => 10,
-//            CURLOPT_TIMEOUT => 30,
-//            CURLOPT_FOLLOWLOCATION => true,
-//            CURLOPT_AUTOREFERER    => true,
-//            CURLOPT_CONNECTTIMEOUT => 120,
-//            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-//            CURLOPT_CUSTOMREQUEST => "POST",
-//            CURLOPT_POSTFIELDS => json_encode($data_string),
-//            CURLOPT_HTTPHEADER => array(
-//                "cache-control: no-cache",
-//                "content-type: application/json",
-//                "postman-token: abea44b9-1858-235d-ef6d-a7d67e8130da"
-//            ),
-//        ));
-//
-//        $response = curl_exec($curl);
-//        $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
-//        $err = curl_error($curl);
-//
-//        curl_close($curl);
-//
-//        if ($err) {
-//            echo "cURL Error #:" . $err;
-//        } else {
+        $response = AsanaTaskOperations::createTask($name, $all_details, "S");
+
+        $this->sendEmailPickup($request);
+
+
+        $url = env('MIGRATION_PREFIX') ."courier-api.".env('DOMAIN')."/api/shipments";
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_HEADER  => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_AUTOREFERER    => true,
+            CURLOPT_CONNECTTIMEOUT => 120,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "POST",
+            CURLOPT_POSTFIELDS => json_encode($data_string),
+            CURLOPT_HTTPHEADER => array(
+                "cache-control: no-cache",
+                "content-type: application/json",
+                "postman-token: abea44b9-1858-235d-ef6d-a7d67e8130da"
+            ),
+        ));
+
+        $response = curl_exec($curl);
+        $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+        $err = curl_error($curl);
+
+        curl_close($curl);
+
+        if ($err) {
+            echo "cURL Error #:" . $err;
+        } else {
+            return $httpcode;
 //            return $httpcode;
-//        }
+        }
+    }
+
+    public function signUpPhp($name, $email, $phone_code, $mobile) {
+        $rules = array(
+//            'title' => 'required|max:250',
+//            'firstname' => 'required|max:250',
+//            'lastname' => 'required|max:250',
+//            'email' => 'required|email|max:250|unique:customers',
+            'password' => 'required|min:6',
+        );
+
+        $customer = new Customer;
+
+        $douplicate = Customer::where('email', $email)->first();
+
+        if (!empty($douplicate)){
+            $customer = $douplicate;
+        }
+        else {
+            $phone = $phone_code.$mobile;
+            $loyalPoints = 0;
+
+            $customer = new Customer;
+
+            $customer->name = $name;
+            $customer->email = $email;
+            $customer->phone = $phone;
+            $customer->country_code = $phone_code;
+            $customer->utm_campaign = 'no-utm_campaign';
+            $customer->utm_source = 'no-utm_source';
+            $customer->utm_medium = 'no-utm_medium';
+            $customer->gcl_id = 'no-gcl_id';
+            $customer->referer = 'no-referer';
+            $customer->first_visit = 'no-first_visit';
+            $customer->membership_type = 'b';
+            $customer->password = bcrypt('Easy@2020');
+            do {
+                $code = 'SHPR' . rand(10, 99) . "-" . rand(100, 999);
+                $user_code = Customer::where('locker', $code)->get();
+            } while (!$user_code->isEmpty());
+
+            $customer->locker = $code;
+            $commnet = "New Sign up " . $email . "\n contact No: +" . $phone_code.$phone;
+//            AsanaTaskOperations::createTask($name, $commnet, "R");
+
+            $customer->save();
+
+            $contact = new CustomerContact;
+            $contact->customer_id = $customer->id;
+            $contact->save();
+
+            $loyalty = new LoyaltyPoint;
+            $loyalty->customer_id = $customer->id;
+            $loyalty->level = 1;
+            $loyalty->points = $loyalPoints;
+            $loyalty->total = $loyalPoints;
+            $loyalty->save();
+
+            $misc = new LoyaltyMisc;
+            $misc->customer_id = $customer->id;
+            $misc->info = 'Signed up with the referral code that your friend sent';
+            $misc->points = $loyalPoints;
+            $misc->save();
+
+            $setting = new ShippingPreference;
+            $setting->customer_id = $customer->id;
+            $setting->save();
+
+            $balance = new ShopperBalance;
+            $balance->customer_id = $customer->id;
+            $balance->amount = 0;
+            $balance->save();
+        }
+              $this->signUp($customer);
+        return $customer;
+//            $status = MailChimp::signUpSubscriber($name,$email);
+
+//            $status = $this->informMailtrain($customer);
+    }
+
+    public function signUp($customer)
+    {
+        $status = $this->signUpAPI($customer);
+        $curl = curl_init();
+        $name = $customer->name;
+        $name = str_replace("Mr. ","",$name);
+        $name = str_replace("Ms. ","",$name);
+        $name = str_replace("Mrs. ","",$name);
+        $splitName = explode(' ', $name, 3); // Restricts it to only 3 values, for names like Billy Bob Jones
+
+        $first_name = $splitName[0];
+        $middle_name = !empty($splitName[1]) ? $splitName[1] : '';
+        $last_name = !empty($splitName[2]) ? $splitName[2] : '';
+        $data_string = [
+            'id' => $customer->id,
+            'salutation' => '',
+            'first_name' => $first_name,
+            'last_name' => $middle_name.' '.$last_name,
+            'email' => $customer->email,
+            'phone' => $customer->phone,
+            'virtual_address_code' => $customer->locker,
+            'hooks' => false
+        ];
+
+        $url = env('MIGRATION_PREFIX') ."courier-api.".env('DOMAIN')."/api/users/public/register";
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_HEADER  => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_AUTOREFERER    => true,
+            CURLOPT_CONNECTTIMEOUT => 120,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "POST",
+            CURLOPT_POSTFIELDS => json_encode($data_string),
+            CURLOPT_HTTPHEADER => array(
+                "cache-control: no-cache",
+                "content-type: application/json",
+                "postman-token: abea44b9-1858-235d-ef6d-a7d67e8130da"
+            ),
+        ));
+
+        $response = curl_exec($curl);
+        $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+        $err = curl_error($curl);
+
+        curl_close($curl);
+
+        $customer = Customer::find($customer->id);
+
+        if ($httpcode == 201)
+        {
+            $customer->is_courier_migrated = 2;
+            $customer->save();
+        }
+
+        if ($err) {
+            echo "cURL Error #:" . $err;
+        } else {
+            return $httpcode;
+        }
+    }
+
+    public function signUpAPI($user)
+    {
+        $curl = curl_init();
+        $splitName = explode(' ', $user->name, 3); // Restricts it to only 3 values, for names like Billy Bob Jones
+
+        $first_name = $splitName[0];
+        $middle_name = !empty($splitName[1]) ? $splitName[1] : '';
+        $last_name = !empty($splitName[2]) ? $splitName[2] : '';
+        $data_string = [
+            'id' => $user->id,
+            'salutation' => '',
+            'first_name' => $first_name,
+            'last_name' => $middle_name.' '.$last_name,
+            'email' => $user->email,
+            'phone' => $user->phone,
+            'password' => $user->password,
+            'hooks' => false
+        ];
+        $url = env('MIGRATION_PREFIX') ."api.".env('DOMAIN')."/api/users/public/register";
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_HEADER  => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_AUTOREFERER    => true,
+            CURLOPT_CONNECTTIMEOUT => 120,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "POST",
+            CURLOPT_POSTFIELDS => json_encode($data_string),
+            CURLOPT_HTTPHEADER => array(
+                "cache-control: no-cache",
+                "content-type: application/json",
+                "postman-token: abea44b9-1858-235d-ef6d-a7d67e8130da"
+            ),
+        ));
+
+        $response = curl_exec($curl);
+        $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+        $err = curl_error($curl);
+        curl_close($curl);
+
+        if ($err) {
+            echo "cURL Error #:" . $err;
+        } else {
+            return $httpcode;
+        }
+    }
+
+    public function informMailtrain($customer)
+    {
+        $data = array(
+            "EMAIL" => $customer->email,
+            "FIRST_NAME" => $customer->name,
+            "REQUIRE_CONFIRMATION" => "no"
+        );
+        $url = 'https://mailtrain.shoppre.com/api/subscribe/-TG3P-amN?access_token=9f19384da11de72805b86b4640bb64da9efdaff0';
+        return $this->curl($url, $data);
+    }
+
+    public function curl($url, $data)
+    {
+        $data_string = json_encode($data);
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+                'Content-Type: application/json',
+                'Content-Length: ' . strlen($data_string))
+        );
+        return curl_exec($ch);
     }
 
     public function index()
@@ -237,7 +401,7 @@ class SchedulePickupController extends Controller
             ]);
     }
 
-     public function sendEmailPickup($schedule_package)
+    public function sendEmailPickup($schedule_package)
     {
         if(!empty($schedule_package->pc_email)) {
             Mail::to($schedule_package->user_email)

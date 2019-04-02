@@ -29,6 +29,7 @@
     <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
     <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
     <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
         .signup-blox {
@@ -56,7 +57,7 @@
         }
 
         .address-color {
-            color:black;
+            color: black;
         }
 
         .btn-close-popup {
@@ -151,12 +152,12 @@
         }
 
         .card {
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             transition: 0.3s;
         }
 
         .card:hover {
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         }
 
         .container {
@@ -167,12 +168,26 @@
             max-height: 30%;
             overflow: auto;
         }
+
     </style>
     <style>
-        .seo-sec {background-color: #fafafb}
-        .seo-sec a {text-decoration: underline}
-        .ul-seo ul li{list-style: none;}
-        .ul-seo li {font-size: 16px;font-weight: 600;color: #677582}
+        .seo-sec {
+            background-color: #fafafb
+        }
+
+        .seo-sec a {
+            text-decoration: underline
+        }
+
+        .ul-seo ul li {
+            list-style: none;
+        }
+
+        .ul-seo li {
+            font-size: 16px;
+            font-weight: 600;
+            color: #677582
+        }
     </style>
 @endsection
 @section('content')
@@ -182,7 +197,7 @@
     <!-- This code is required -->
     <div id="popup1" class="overlay" style="display: none">
         <div class="popup">
-            <span class="btn-close-popup"  id="btn-close-popup-login">x</span>
+            <span class="btn-close-popup" id="btn-close-popup-login">x</span>
 
             <!-------------- Login Block ------------->
 
@@ -192,13 +207,13 @@
                     <label for="" id="lblLoginStatus" style="font-size: 15px;margin-bottom: 20px;"></label>
                 </center>
                 <div class="col-sm-12">
-                    <form class="login-form" id="form_login" >
+                    <form class="login-form" id="form_login">
                         {{ csrf_field() }}
-                        <input type="hidden" name="_token" value="{{ csrf_token() }}" />
+                        <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
                         <div class="form-group">
                             <label for="">Email</label>
                             <input type="email" class="form-control" placeholder="Enter your email address"
-                                   name="email"  required autofocus>
+                                   name="email" required autofocus>
                         </div>
                         <div class="form-group">
                             <label for="">Password</label>
@@ -221,37 +236,40 @@
                     <label for="" id="lblSignupStatus" style="font-size: 15px;margin-bottom: 20px;"></label>
                 </center>
                 <div class="col-sm-12">
-                    <form class="signup-form" id="form_signup_ajax" >
+                    <form class="signup-form" id="form_signup_ajax">
                         {{ csrf_field() }}
-                        <input type="hidden" name="_token" value="{{ csrf_token() }}" />
-                        <input type="hidden" name="utm_campaign"  value="" id="utm_campaign" >
-                        <input type="hidden" name="utm_source"  value="" id="utm_source" >
-                        <input type="hidden" name="utm_medium"  value="" id="utm_medium" >
-                        <input type="hidden" name="gcl_id"  value="" id="gcl_id" >
-                        <input type="hidden" name="referer"  value="" id="referer" >
+                        <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
+                        <input type="hidden" name="utm_campaign" value="" id="utm_campaign">
+                        <input type="hidden" name="utm_source" value="" id="utm_source">
+                        <input type="hidden" name="utm_medium" value="" id="utm_medium">
+                        <input type="hidden" name="gcl_id" value="" id="gcl_id">
+                        <input type="hidden" name="referer" value="" id="referer">
                         <div class="form-group">
                             <label for="">Email</label>
                             <input type="email" class="form-control" placeholder="Enter your email address"
-                                   name="signup_email"  required autofocus>
+                                   name="signup_email" required autofocus>
                         </div>
                         <div class="form-group">
                             <label for="">Name</label>
                             <input type="text" name="name" class="form-control" placeholder="Your Name " required>
                         </div>
-                            <label for="">Mobile Number</label>
+                        <label for="">Mobile Number</label>
                         <div class="form-group">
                             <div class="col-md-5 no-padding">
-                            <select class="select2 select-control col-md-12" name="country_code" >
-                                <option value="{{app('request')->input('c_code')? app('request')->input('c_code') : '91'}}"> &nbsp; &nbsp;+{{app('request')->input('c_code')? app('request')->input('c_code') : '91'}}</option>
-                                @foreach($countries as $country)
-                                    <option value="{{$country->phone_code}}">{{$country->iso}}
-                                        (+{{$country->phone_code}})
-                                    </option>
-                                @endforeach
-                            </select>
+                                <select class="select2 select-control col-md-12" name="country_code">
+                                    <option value="{{app('request')->input('c_code')? app('request')->input('c_code') : '91'}}">
+                                        &nbsp;
+                                        &nbsp;+{{app('request')->input('c_code')? app('request')->input('c_code') : '91'}}</option>
+                                    @foreach($countries as $country)
+                                        <option value="{{$country->phone_code}}">{{$country->iso}}
+                                            (+{{$country->phone_code}})
+                                        </option>
+                                    @endforeach
+                                </select>
                             </div>
                             <div class="col-md-7 no-padding">
-                                <input type="number" class="form-control txt-mobile-no" placeholder="Mobile Number" name="phone" value="{{app('request')->input('PN')}}" required>
+                                <input type="number" class="form-control txt-mobile-no" placeholder="Mobile Number"
+                                       name="phone" value="{{app('request')->input('PN')}}" required>
                             </div>
                         </div>
                         <div class="form-group">
@@ -261,11 +279,13 @@
                         </div>
                         <div class="form-group">
                             <label for="">Referral</label>
-                            <input type="text" class="form-control  " placeholder="Referral code if any" name="refferal" visible="false">
+                            <input type="text" class="form-control  " placeholder="Referral code if any" name="refferal"
+                                   visible="false">
                         </div>
                         <button type="submit" class="btn btn-block btn-shoppre">Sign in to your account</button>
                     </form>
-                    <span class="login-bttm"><a href="#" id="btn-login-block">Already Register? <span style="color: red">Login</span></a></span>
+                    <span class="login-bttm"><a href="#" id="btn-login-block">Already Register? <span
+                                    style="color: red">Login</span></a></span>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -281,7 +301,7 @@
                 <h3 class="f-s-25 font-weight-900 f-c-d-greay">Schedule Your Pickup :<span class="f-c-red f-s-16">
                     <a class="bla-1" href="https://www.youtube.com/watch?v=lQi4Io_WH70">
                         Watch Video To Know More.</a>
-                    </a>
+                        </a>
                 </span></h3>
             </div>
             <div class="col-md-6 col-xs-12 "><br>
@@ -315,7 +335,8 @@
             </div>
 
             <div class="schedule-container">
-                <form class="form-horizontal self_form" id="self_form" method="post" action="{{route('schedulePickup.submit')}}" enctype="multipart/form-data" autocomplete="off">
+                <form class="form-horizontal self_form" id="self_form" method="post"
+                      action="{{route('schedulePickup.submit')}}" enctype="multipart/form-data" autocomplete="off">
                     {{ csrf_field() }}
 
                     <h4 class="head-align"><u>YOUR CONTACT DETAILS :</u></h4>
@@ -323,7 +344,7 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label>Full Name <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter First Name" required
+                                <input type="text" class="form-control" placeholder="Enter Name" required
                                        name="first_name"/>
                                 @if ($errors->has('first_name'))
                                     <span class="error">{{ $errors->first('first_name') }}</span>
@@ -336,7 +357,7 @@
                                 <label class="control-label">Phone Number<span class="mendatory_fields">*</span></label>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <select class="form-control" name="phone_code" id="phone_code" >
+                                        <select class="form-control" name="phone_code" id="phone_code">
                                             <option value="91">IN(+91)</option>
                                             @foreach($countries as $country)
                                                 <option value="{{$country->phone_code}}">{{$country->iso}}
@@ -349,7 +370,7 @@
                                         @endif
                                     </div>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="sch-mobile-number" name="mobile" required
+                                        <input type="number" class="form-control" id="sch-mobile-number" maxlength="10" name="mobile" required
                                                placeholder="Phone Number">
                                     </div>
                                 </div>
@@ -360,7 +381,8 @@
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label>Email <span class="mendatory_fields">*</span> :</label>
-                                <input type="email" class="form-control" placeholder="Enter Email" name="user_email" required
+                                <input type="email" class="form-control" placeholder="Enter Email" name="user_email"
+                                       required
                                 />
                                 <div class="clearfix"></div>
                             </div>
@@ -381,66 +403,67 @@
                     <div class="col-sm-6">
                     <div class="form-group label-align">
                     <label>Last Name<span class="mendatory_fields">*</span> :</label>
-                    <input type="text" class="form-control" placeholder="Enter Last Name"
+                    <input type="text" class="form-control" placeholder="Enter Last Name" required
                     value="{{!empty($pickup_address->pc_lname)?$pickup_address->pc_lname:''}}" name="pc_lname"/>
                     <div class="clearfix"></div>
                     </div>
                     </div>
                     </div>
                     <div class="row">
-                    <div class="col-sm-6">
-                    <div class="form-group">
-                    <label>State <span class="mendatory_fields">*</span> :</label>
-                    {{--<select class="select2 form-control" name="pc_state">--}}
-                    {{--<option value="">Select State</option>--}}
-                    {{--@foreach($states as $state)--}}
-                    {{--<option value="{{$state->name}}" {{$state->name == (!empty($pickup_address->pc_state) ? $pickup_address->pc_state : '') ? 'selected': ''}}>--}}
-                    {{--{{$state->name}}--}}
-                    {{--</option>--}}
-                    {{--@endforeach--}}
-                    {{--</select>--}}
-                    <input type="text" class="form-control" placeholder="Enter Your State" required
-                           value="{{!empty($pickup_address->pc_state)?$pickup_address->pc_state:''}}" name="pc_state"/>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>State <span class="mendatory_fields">*</span> :</label>
+                                {{--<select class="select2 form-control" name="pc_state">--}}
+                                {{--<option value="">Select State</option>--}}
+                                {{--@foreach($states as $state)--}}
+                                {{--<option value="{{$state->name}}" {{$state->name == (!empty($pickup_address->pc_state) ? $pickup_address->pc_state : '') ? 'selected': ''}}>--}}
+                                {{--{{$state->name}}--}}
+                                {{--</option>--}}
+                                {{--@endforeach--}}
+                                {{--</select>--}}
+                                <input type="text" class="form-control" placeholder="Enter Your State" required
+                                       value="{{!empty($pickup_address->pc_state)?$pickup_address->pc_state:''}}"
+                                       name="pc_state"/>
 
-                    <div class="clearfix"></div>
-                    </div>
-                    </div>
-                    <div class="col-sm-6">
-                    <div class="form-group label-align">
-                    <label>City <span class="mendatory_fields">*</span> :</label>
-                    <input type="text" class="form-control" placeholder="Enter City" required
-                    value="{{!empty($pickup_address->pc_city)?$pickup_address->pc_city:''}}"
-                    name="pc_city"/>
-                    <div class="clearfix"></div>
-                    </div>
-                    </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group label-align">
+                                <label>City <span class="mendatory_fields">*</span> :</label>
+                                <input type="text" class="form-control" placeholder="Enter City" required
+                                       value="{{!empty($pickup_address->pc_city)?$pickup_address->pc_city:''}}"
+                                       name="pc_city"/>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
                     </div>
                     <div class="row">
-                    <div class="col-sm-6">
-                    <div class="form-group">
-                    <label>Street <span class="mendatory_fields">*</span> :</label>
-                    <input type="text" class="form-control" placeholder="Please Enter Street" required
-                    value="{{!empty($pickup_address->pc_street)?$pickup_address->pc_street:''}}"
-                    name="pc_street"/>
-                    <div class="clearfix"></div>
-                    </div>
-                    </div>
-                    <div class="col-sm-6">
-                    <div class="form-group label-align">
-                    <label>Pincode <span class="mendatory_fields">*</span> :</label>
-                    <input type="text" class="form-control" placeholder="Enter Pincode" required
-                    value="{{!empty($pickup_address->pc_pincode)?$pickup_address->pc_pincode:''}}"
-                    name="pc_pincode"/>
-                    <div class="clearfix"></div>
-                    </div>
-                    </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Street <span class="mendatory_fields">*</span> :</label>
+                                <input type="text" class="form-control" placeholder="Please Enter Street" required
+                                       value="{{!empty($pickup_address->pc_street)?$pickup_address->pc_street:''}}"
+                                       name="pc_street"/>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group label-align">
+                                <label>Pincode <span class="mendatory_fields">*</span> :</label>
+                                <input type="text" class="form-control" placeholder="Enter Pincode" required
+                                       value="{{!empty($pickup_address->pc_pincode)?$pickup_address->pc_pincode:''}}"
+                                       name="pc_pincode"/>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="row">
                     <div class="col-sm-6">
                     <div class="form-group">
                     <label>Mobile <span class="mendatory_fields">*</span> :</label>
-                    <input type="text" class="form-control" placeholder="Enter Mobile" required
+                    <input type="number" maxlength="10" class="form-control" placeholder="Enter Mobile" required
                     value="{{!empty($pickup_address->pc_contact_no)?$pickup_address->pc_contact_no :''}}"
                     name="pc_contact_no"/>
                     <div class="clearfix"></div>
@@ -466,7 +489,7 @@
                     class="col-sm-12 div-price-cal-length-padding">
                     <h6 class="header7 p-color-cement">(in kg)</h6>
                     <div class="col-sm-12 no-padding ">
-                    <input type="text" class="form-control" style="height: 40px" name="package_weight" required placeholder="Enter Package Weight">
+                    <input type="number" class="form-control" style="height: 40px" name="package_weight" required placeholder="Enter Package Weight">
                     </div>
                     </div>
                     </div>
@@ -518,50 +541,52 @@
                     </div>
                     </div>
                     </div>
-                    <ol style="list-style-type: none;">
+                    <ol style="list-style-type: none;margin-left: -55px;">
                         <li id="selfol_li0" data-olli="0">
-                            <div class="col-sm-6">
-                                <label>Package Name</label>
-                                <input type="text" class="form-control self_url" name="name[0]" required data-rule-url="true" placeholder="eg.T Shirt">
+                            <div class="col-sm-4 col-xs-5">
+                                <label>Item Name <span class="mendatory_fields">*</span></label>
+                                <input type="text" class="form-control self_url" name="name[0]" required
+                                       data-rule-url="true" placeholder="eg.T Shirt">
                             </div>
-                            <div class="col-sm-3">
-                                <label>Quantity</label>
-                                <input type="text" class="form-control self_amt" name="quantity[0]" data-rule-number="true" data-rule-min="1" placeholder="eg.2" required>
+                            <div class="col-sm-2 col-xs-3">
+                                <label>Quantity <span class="mendatory_fields">*</span></label>
+                                <input type="number" class="form-control self_amt" name="quantity[0]" data-rule-number="true" data-rule-min="1" placeholder="eg.2" required>
                             </div>
-                            <div class="col-sm-2">
-                                <label>Price</label>
-                                <input type="text" class="form-control self_qty" name="amount[0]" required data-rule-digits="true" data-rule-min="1" placeholder="eg.0.00">
+                            <div class="col-sm-2 col-xs-3">
+                                <label>Price(Per Item) <span class="mendatory_fields">*</span></label>
+                                <input type="number" class="form-control self_qty" name="amount[0]" data-rule-digits="true" data-rule-min="1" placeholder="eg.0.00" required>
                             </div>
                             {{--<div class="col-sm-1">--}}
-                                {{--<a href="#" class="remove" data-litarget="0">Remove</a>--}}
+                            {{--<a href="#" class="remove" data-litarget="0">Remove</a>--}}
                             {{--</div>--}}
                             <div class="clearfix"></div>
                         </li>
                     </ol>
 
-                    <a href="#" id="inputplus" class="btn btn-plus"><i class="fa fa-plus"></i> Add Items</a>
+                    <a href="#" id="inputplus" class="btn btn-shoppre btn-add-item"><i class="fa fa-plus "></i> Add More
+                        Items</a>
                     <h4 class="head-align"><u>DESTINATION ADDRESS : </u></h4>
                     {{--@if(!empty($destination_addresses))--}}
-                        {{--@if(count($destination_addresses) !=0)--}}
-                            {{--<h4 class="head-align address-book" id="address-book"><u>Add Address From Address Book(+)</u></h4>--}}
-                            {{--<div class="address-block">--}}
-                                {{--<div class="row">--}}
-                                    {{--@foreach($destination_addresses as $indexKey=>$address)--}}
-                                        {{--<a href="" data-id="{{$address->id}}" class="btn-destination-address">--}}
-                                            {{--<div class="col-sm-3" style="margin-top: 20px;">--}}
-                                                {{--<div class="card" style="padding: 15px;background-color: #fe9611;">--}}
-                                                    {{--<p style="float: right;color:#ffffff;">Add</p>--}}
-                                                    {{--<p class="address-color">Address {{++$indexKey}}</p>--}}
-                                                    {{--<h5 class="address-color"><b>{{$address->salutation}} {{$address->first_name}} {{$address->last_name}}</b></h5>--}}
-                                                    {{--<p class="address-line address-color">{{$address->city}} {{$address->state}}</p>--}}
-                                                    {{--<p class="address-line address-color">{{$address->country}}-{{$address->pincode}}</p>--}}
-                                                {{--</div>--}}
-                                            {{--</div>--}}
-                                        {{--</a>--}}
-                                    {{--@endforeach--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--@endif--}}
+                    {{--@if(count($destination_addresses) !=0)--}}
+                    {{--<h4 class="head-align address-book" id="address-book"><u>Add Address From Address Book(+)</u></h4>--}}
+                    {{--<div class="address-block">--}}
+                    {{--<div class="row">--}}
+                    {{--@foreach($destination_addresses as $indexKey=>$address)--}}
+                    {{--<a href="" data-id="{{$address->id}}" class="btn-destination-address">--}}
+                    {{--<div class="col-sm-3" style="margin-top: 20px;">--}}
+                    {{--<div class="card" style="padding: 15px;background-color: #fe9611;">--}}
+                    {{--<p style="float: right;color:#ffffff;">Add</p>--}}
+                    {{--<p class="address-color">Address {{++$indexKey}}</p>--}}
+                    {{--<h5 class="address-color"><b>{{$address->salutation}} {{$address->first_name}} {{$address->last_name}}</b></h5>--}}
+                    {{--<p class="address-line address-color">{{$address->city}} {{$address->state}}</p>--}}
+                    {{--<p class="address-line address-color">{{$address->country}}-{{$address->pincode}}</p>--}}
+                    {{--</div>--}}
+                    {{--</div>--}}
+                    {{--</a>--}}
+                    {{--@endforeach--}}
+                    {{--</div>--}}
+                    {{--</div>--}}
+                    {{--@endif--}}
                     {{--@endif--}}
                     <div class="row">
                         <div class="col-sm-6">
@@ -624,7 +649,7 @@
                                 <select required class="form-control" name="dc_country" id="dc_country">
                                     <option value="">Select Country</option>
                                     @foreach($countries as $country)
-                                        <option value="{{$country->name}}">
+                                        <option value="{{$country->id}}">
                                             {{$country->name}}
                                         </option>
                                     @endforeach
@@ -646,7 +671,7 @@
                                         </select>
                                     </div>
                                     <div class="col-sm-8 ">
-                                        <input type="text" class="form-control" required
+                                        <input type="number" class="form-control" required
                                                name="dc_contact_no"
                                                placeholder="Phone Number">
                                     </div>
@@ -709,8 +734,11 @@
             <h2 class="f-s-18 f-c-d-gray f-w-8">What are the easiest ways to schedule a pickup with us?</h2>
             <p class="f-s-16 f-c-gray">Our Support team is on alert 24/7 and you can reach them anytime with your
                 courier requests.
-                The easiest ways to reach us would be through call, text (<a href="https://wa.me/918277919191?text=Hi%20ShoppRe;%20Guide%20me%20to%20create%20my%20Pickup%20Request" target="_blank">WhatsApp</a>,
-                SMS), email or directly from our website. You can <a href="{{route('customer.register')}}">sign up for FREE</a> to start shipping with us!
+                The easiest ways to reach us would be through call, text (<a
+                        href="https://wa.me/918277919191?text=Hi%20ShoppRe;%20Guide%20me%20to%20create%20my%20Pickup%20Request"
+                        target="_blank">WhatsApp</a>,
+                SMS), email or directly from our website. You can <a href="{{route('customer.register')}}">sign up for
+                    FREE</a> to start shipping with us!
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">How can you track the shipment containing your package once we pick it
@@ -723,7 +751,8 @@
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">Is scheduling a pickup free?</h2>
-            <p class="f-s-16 f-c-gray"> Pickup Charges will be applicable based on the weight of the content/items/products.
+            <p class="f-s-16 f-c-gray"> Pickup Charges will be applicable based on the weight of the
+                content/items/products.
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">Does ShoppRe pick up couriers on weekends?</h2>
@@ -770,14 +799,14 @@
 
             $('#btn-signup-block').click(function () {
                 console.log('btn-signup');
-                $('.login-blox').css('display','none');
-                $('.signup-blox').css('display','block');
+                $('.login-blox').css('display', 'none');
+                $('.signup-blox').css('display', 'block');
             });
 
             $('#btn-login-block').click(function () {
                 console.log('btn-signup');
-                $('.login-blox').css('display','block');
-                $('.signup-blox').css('display','none');
+                $('.login-blox').css('display', 'block');
+                $('.signup-blox').css('display', 'none');
             });
 
             $("#pickup_form").validate({
@@ -785,34 +814,34 @@
             });
 
 
-            $("#inputplus").click(function(e) {
+            $("#inputplus").click(function (e) {
                 e.preventDefault();
                 var i = $("#self_form ol li:last").attr('data-olli');
                 ++i;
-                $("#self_form ol").append('<li id="selfol_li'+i+'" data-olli="'+i+'">' +
-                    '<div class="col-sm-6">' +
-                        '<label>Package Name</label>' +
-                        '<input type="text" class="form-control self_url" name="name['+i+']" required data-rule-url="true" placeholder="eg: t-shirt">' +
+                $("#self_form ol").append('<li style="margin-top: 10px;" id="selfol_li' + i + '" data-olli="' + i + '">' +
+                    '<div class="col-sm-5 col-xs-5">' +
+                    '<label>Item Name</label>' +
+                    '<input type="text" class="form-control self_url" name="name[' + i + ']" required data-rule-url="true" placeholder="eg: t-shirt">' +
                     '</div>' +
-                    '<div class="col-sm-3">' +
+                    '<div class="col-sm-2 col-xs-3">' +
                     '   <label>Quantity</label>' +
-                        '<input type="text" class="form-control self_amt" name="quantity['+i+']" placeholder="eg.2"  data-rule-number="true" data-rule-min="1" required>' +
+                        '<input type="number" class="form-control self_amt" name="quantity['+i+']" placeholder="eg.2"  data-rule-number="true" data-rule-min="1" required>' +
                     '</div>' +
                     '<div class="col-sm-2">' +
                         '<label>Price</label>' +
-                        '<input type="text" class="form-control self_qty" placeholder="eg..0.00"  name="amount['+i+']"  data-rule-digits="true" data-rule-min="1" required>' +
+                        '<input type="number" class="form-control self_qty" placeholder="eg..0.00"  name="amount['+i+']"  data-rule-digits="true" data-rule-min="1" required>' +
                     '</div>' +
-                    '<div class="col-sm-1">' +
-                    '   <a href="#" class="remove" data-litarget="'+i+'">Remove</a>' +
+                    '<div class="col-sm-1 col-xs-1" style="padding-top: 20px;margin-left: -10px;">' +
+                    '   <a style="font-size: 28px;" href="#" class="remove" data-litarget="' + i + '"><i class="fa fa-trash" aria-hidden="true"></i></a>' +
                     '</div>' +
                     '<div class="clearfix"></div>' +
                     '</li>');
             });
 
-            $(document).on("click", "#self_form .remove", function(e){
+            $(document).on("click", "#self_form .remove", function (e) {
                 e.preventDefault();
                 var i = $(this).attr('data-litarget');
-                $('#selfol_li'+i).remove();
+                $('#selfol_li' + i).remove();
             });
 
             // $("#form-pickup").validate({
@@ -988,8 +1017,8 @@
                     let email = $("input[name='email']").val();
                     let password = $("input[name='password']").val();
                     let token = $('input[name=_token]').val();
-                    console.log('email',email);
-                    console.log('password',password);
+                    console.log('email', email);
+                    console.log('password', password);
 
                     jQuery.ajax({
                         url: 'ajax/login',
@@ -1002,8 +1031,8 @@
                             console.log('Login', res);
                             if (res.status === 'success') {
                                 $('#popup1').css('display', 'none');
-                                $('#normal_login_block').css('display','none');
-                                $('#ajax_login_block').css('display','block');
+                                $('#normal_login_block').css('display', 'none');
+                                $('#ajax_login_block').css('display', 'block');
                                 $('#ajax_customer_username').text(res.name);
 
                             } else if (res.status === 'wrong_password') {
@@ -1043,8 +1072,8 @@
                     let phone = $("input[name='phone']").val();
                     let password = $("input[name='password']").val();
                     let token = $('input[name=_token]').val();
-                    console.log('name',name);
-                    console.log('password',password);
+                    console.log('name', name);
+                    console.log('password', password);
 
                     jQuery.ajax({
                         url: 'ajax/signup',
@@ -1060,8 +1089,8 @@
                         success: function (data) {
                             if (data.status === 'success') {
                                 $('#lblLoginStatus').css('color', 'darkgreen').text('Please verify your email ID and Try login');
-                                $('.login-blox').css('display','block');
-                                $('.signup-blox').css('display','none');
+                                $('.login-blox').css('display', 'block');
+                                $('.signup-blox').css('display', 'none');
                             } else if (data.status === 'duplicate') {
                                 $('#lblSignupStatus').css('color', 'red').text('This Email id already registered');
                             }
@@ -1076,7 +1105,7 @@
             });
 
             $('#address-book').click(function () {
-                $('.address-block').slideToggle( "slow");
+                $('.address-block').slideToggle("slow");
             });
 
             $('.btn-destination-address').click(function () {
@@ -1085,24 +1114,29 @@
                     url: 'schedule-pickup/ajax/destination-address',
                     type: "POST",
                     data: {
-                        id:address_id
+                        id: address_id
                     },
                     success: function (data) {
-                       console.log('Address Data',data);
-                       if (data.status==='success') {
-                           $("input[name='dc_fname']").val(data.address.first_name);
-                           $("input[name='dc_lname']").val(data.address.last_name);
-                           $("input[name='dc_street']").val(data.address.line1+data.address.line2);
-                           $("input[name='dc_pincode']").val(data.address.pincode);
-                           $("input[name='dc_state']").val(data.address.state);
-                           $("input[name='dc_city']").val(data.address.city);
-                           $("input[name='dc_contact_no']").val(data.address.phone);
-                           $("#dc_country").val(data.address.country);
-                           $("#dc_phone_code").val(data.address.country_code);
-                       }
+                        console.log('Address Data', data);
+                        if (data.status === 'success') {
+                            $("input[name='dc_fname']").val(data.address.first_name);
+                            $("input[name='dc_lname']").val(data.address.last_name);
+                            $("input[name='dc_street']").val(data.address.line1 + data.address.line2);
+                            $("input[name='dc_pincode']").val(data.address.pincode);
+                            $("input[name='dc_state']").val(data.address.state);
+                            $("input[name='dc_city']").val(data.address.city);
+                            $("input[name='dc_contact_no']").val(data.address.phone);
+                            $("#dc_country").val(data.address.country);
+                            $("#dc_phone_code").val(data.address.country_code);
+                        }
                     }
                 });
             });
         });
+        
+        $('#self_form').on('submit', function () {
+            console.log('Pickup form submitted');
+            $('#schedule_load').show();
+        })
     </script>
 @endsection

@@ -16,6 +16,8 @@
     <link rel="manifest" href="/manifest.json"/>
     <link href="{{env('AWS_CLOUD_FRONT')}}/css/txtProgress.min.css" rel="stylesheet">
     <script src="{{env('AWS_CLOUD_FRONT')}}/js/jquery.min.js"></script>
+    {{--    <script src="{{asset('js/jquery.ajax-cross-origin.min.js')}}"></script>--}}
+
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/custom/New_style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
 
@@ -44,7 +46,7 @@
     <link rel="publisher" href="https://plus.google.com/101070316798366909776/">
     <meta name="google-play-app" content="app-id=com.shoppre.play"/>
     <meta property="fb:app_id" content="1819630241632764"/>
-    <meta property="al:android:url" content="https://www.shoppre.com/"/>
+    <meta property="al:android:url" content="https://www.shoppre.com/"/>\
     <meta property="al:android:package" content="com.shoppre.play"/>
     <meta property="al:android:app_name" content="Shoppre - International Shipping from India"/>
     <meta name="msvalidate.01" content="0E25F147AD9B658B4418A996E97D0D7D"/>

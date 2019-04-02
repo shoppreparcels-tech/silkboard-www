@@ -6,6 +6,12 @@
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com" />
+    <!-- Owl Carousel -->
+    {{--<link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/owl.carousel.min.css">--}}
+    <!-- Magnific Popup -->
+    {{--<link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/magnific-popup.css">--}}
+    {{--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>--}}
+
     <link rel="stylesheet" href="{{asset('css/custom/shipment-sliders.css')}}">
     <script src="{{asset('js/shipments-slides.js')}}"></script>
 

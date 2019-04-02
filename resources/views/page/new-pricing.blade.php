@@ -687,8 +687,9 @@
                                                 </a>
                                             </h6>
                                         </td>
-                                        <td><h6 class="f-s-16 f-c-blue">₹100 Per Page</h6></td>
                                         <td><h6 class="f-s-16 f-c-l-gray">₹40 Per Page</h6></td>
+                                        <td><h6 class="f-s-16 f-c-blue">₹100 Per Page</h6></td>
+
                                     </tr>
                                     <tr class="tr-hide">
                                         <td>
@@ -1019,8 +1020,8 @@
                                                 </a>
                                             </h6>
                                         </td>
-                                        <td><h6 class="f-s-16 f-c-blue">₹100 Per Page</h6></td>
                                         <td><h6 class="f-s-16 f-c-l-gray">₹40 Per Page</h6></td>
+                                        <td><h6 class="f-s-16 f-c-blue">₹100 Per Page</h6></td>
                                     </tr>
                                     <tr class="tr-hide">
                                         <td>
