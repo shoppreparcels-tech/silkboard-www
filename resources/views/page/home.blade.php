@@ -365,7 +365,8 @@
     </main>
     <!-- Main container -->
 
-    <section><!-- latest shipments details-->
+    <!-- latest shipments details-->
+    <section>
        <div class="container-fluid fuid-padding pad-t`-40"><br><br>
            <div class="col-md-2 col-xs-12 pad-l-d">
                 <center>
