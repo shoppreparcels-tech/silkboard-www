@@ -77,7 +77,7 @@
                    <br>
                    <br>
                    <br>
-                   <p class="f-s-10 f-c-l-gray f-w-8">From 1st Mar to 31st Mar 2019</p>
+                   <p class="f-s-10 f-c-l-gray f-w-8">From 1st Apr to 30th Apr 2019</p>
 
                </center>
            </div>
@@ -153,7 +153,7 @@
                         <li>Offer Code: <b>FRST50</b></li>
                         <li>Maximum amount that can be availed by a customer is ₹200/-.</li>
                         <li>This offer cannot be clubbed with any other offer.</li>
-                        <li>This Coupon is Valid Upto 31-March-2019</li>
+                        <li>This Coupon is Valid Upto 30-April-2019</li>
                         <li>A customer can avail this offer only once during the offer period.</li>
                         <li>This offer is applicable only for International Shipments.</li>
                         <li>Clearance charges is applicable for Special items</li>
