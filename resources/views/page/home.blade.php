@@ -324,8 +324,8 @@
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
                        <div class="col-md-12 col-xs-12 pad-20">
-                           <a href="/holi-india-shopping-with-international-delivery"><img src="{{asset('img/images/holi-offer-m.png')}}" class="img-f-w offer-img-d" alt="first time international shipment offer"></a>
-                           <a href="/holi-india-shopping-with-international-delivery"><img src="{{asset('img/images/holi-offer.png')}}" class="img-f-w offer-img-m" alt="first international shipping discount"></a>
+                           <a href="/first-time-international-shipment-offer" target="_blank"><img src="{{asset('img/images/offer_slider.png')}}" class="img-f-w offer-img-d" alt="first time international shipment offer"></a>
+                           <a href="/first-time-international-shipment-offer" target="_blank"><img src="{{asset('img/images/offer-slider-mobile.png')}}" class="img-f-w offer-img-m" alt="first international shipping discount"></a>
                            <center><a href="{{route('customer.login')}}" class="btn btn-s-r btn-b-r btn-a-l m-t-20 offer-img-m">Sign up for Free</a></center>
                        </div>
                         <div class="col-md-12 col-xs-12 no-padd">
