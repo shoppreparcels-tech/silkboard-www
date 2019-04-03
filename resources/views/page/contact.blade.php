@@ -1,8 +1,8 @@
 @extends('layout')
 
 @section('title', 'Contact Support | Customer Care 24*7 | Shipping FAQ - ShoppRe.com')
-@section('description', 'Have any questions or concerns? about your purchase or shipping services. Contact our customer care or chat specialists & FAQ resources are available 24*7.')
-@section('keywords', 'about your package, shipping services, helpline number, start live chat, shipping faq, team shoppre')
+@section('description', 'Have any questions or concerns? About your Purchase, Tracking, Payment, Returns & Shipping services. Contact Our Customer Service at +91-8277919191.')
+@section('keywords', 'about your package, shipping services, helpline number, start live chat, shipping faq, team shoppre, 8277919191')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/contact" />

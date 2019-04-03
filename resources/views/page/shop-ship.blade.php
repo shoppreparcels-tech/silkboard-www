@@ -135,13 +135,13 @@
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                    class="startsValidValue"> 1st MAR 2019</span></p>
+                                    class="startsValidValue"> 1st APR 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                    class="startsValidValue"> 31st MAR 2019</span></p>
+                                    class="startsValidValue"> 30th APR 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">

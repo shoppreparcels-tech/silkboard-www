@@ -78,11 +78,11 @@
                 <div class="col-sm-4">
 
                     <div class="shopandship ">
-                        <h2>HUAWEI Watch</h2>
+                        <h2>SAMSUNG</h2>
                         <br/>
-                        <p>On Charge Two Weeks</p>
-                        <p>FREE HUAWEI BT</p>
-                        <p>Sale on 19th March 2019</p>
+                        <p>Galaxy M30</p>
+                        <p>Starting ₹14,990</p>
+                        <p>Next Sale on 04th April 2019</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -97,11 +97,11 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="ic">
-                        <h2>Amazon Holi Sale</h2>
+                        <h2>Up To 70% OFF</h2>
                         <br>
-                        <p>Up To 70% OFF</p>
-                        <p>Offer & Deals on HOLI essentials</p>
-                        <p>9th to 21st March 2019</p>
+                        <p>School Essentials</p>
+                        <p>Back To School</p>
+                        <p>24th March to 14th April 2019</p>
 
                     </div>
                 </div>
@@ -157,7 +157,7 @@
                 <center>
                     <h4 class="p-color-cement-dark flipkart-h1">International Credit/Debit Cards Giving You Trouble?</h4>
                     <h5 class="header5 p-color-cement">No worries! Our Personal Shopper will swoop in & take care of it all for you!</h5> <br>
-                    <a href="https://www.amazon.in/?src=shoppre.com" class="btn-chris-place-order" target="_blank">Go Shopping Now!</a>
+                    <a href="https://www.amazon.in/?src=shoppre.com" class="btn-chris-place-order" target="_blank">Go Shop Amazon.in Now!</a>
                 </center>
             </div>
             <br>

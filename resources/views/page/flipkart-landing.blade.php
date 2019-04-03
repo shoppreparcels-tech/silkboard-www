@@ -61,29 +61,29 @@
             <div class="row text-center">
                 <div class="col-sm-4">
                     <div class="shopandship ">
-                        <h2>Upgrade Your Home</h2>
+                        <h2>Flip Start Days</h2>
                         <br/>
-                        <p>Up to 60% Off</p>
-                        <p>TVs & Appliances</p>
-                        <p>19th March 2019</p>
+                        <p>Up to 75% Off</p>
+                        <p>ACs, TVs & Appliances</p>
+                        <p>1st to 3rd April</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
-                        <h2>Redmi Smartphones</h2>
+                        <h2>Save Big On Fashio</h2>
                         <br>
-                        <p>Redmin Note 7 | Note 7 Pro </p>
-                        <p>16cm FHD + Dot Notch Display </p>
-                        <p>Sale on 20th March 2019</p>
+                        <p>Min. 50% Off </p>
+                        <p>Puma, Levi's, W, Skybags & more </p>
+                        <p>1st to 3rd April</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ic">
-                        <h2>Big Steals of the Week</h2>
+                        <h2>HOT DEALS</h2>
                         <br>
-                        <p>Big Buys. Best Prices.</p>
-                        <p>Appliances, Electronics & More</p>
-                        <p>20th March 2019 </p>
+                        <p>New Deals Every 8 Hours</p>
+                        <p>Extra 10% Off</p>
+                        <p>April 2019 </p>
 
                     </div>
                 </div>
@@ -133,7 +133,7 @@
                 <center>
                     <h4 class="p-color-cement-dark flipkart-h1">International Credit/Debit Cards Giving You Trouble?</h4>
                     <h5 class="header5 p-color-cement">No worries! Our <a href="/personal-shopper-shopping-concierge-from-india">Personal Shopper</a> will swoop in & take care of it all for you!</h5> <br>
-                    <a href="https://www.flipkart.com/?src=shoppre.com" class="btn-chris-place-order" target="_blank">Go Shopping Now!</a>
+                    <a href="https://www.flipkart.com/?src=shoppre.com" class="btn-chris-place-order" target="_blank">Go Shop Flipkart Now!</a>
                 </center>
             </div>
             <br>

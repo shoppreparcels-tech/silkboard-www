@@ -32,7 +32,7 @@
     "@type" : "AggregateRating",
     "bestRating": "5",
     "ratingValue" : "4.8",
-    "reviewCount" : "134",
+    "reviewCount" : "146",
     "worstRating" : 3.0
   }
 }

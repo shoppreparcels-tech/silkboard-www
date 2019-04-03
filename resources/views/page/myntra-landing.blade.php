@@ -74,11 +74,11 @@
             <div class="row text-center">
                 <div class="col-sm-4">
                     <div class="shopandship ">
-                        <h2>Hit Refresh!</h2>
+                        <h2>Brand Day</h2>
                         <br/>
-                        <p>30 - 50% OFF</p>
-                        <p>Launching</p>
-                        <p>Spring Summer-19 Collection</p>
+                        <p>MIN. 40% OFF</p>
+                        <p>TEE FEST, JEANS</p>
+                        <p>At ₹999/- & More</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -91,9 +91,11 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="ic">
-                        <h2>International Courier</h2>
+                        <h2>THE DENIM DRIVE</h2>
                         <br>
-                        <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
+                        <p>MIN. 40% OFF</p>
+                        <p>Fits, Style, Trends & Everything</p>
+                        <p>Explore More at Myntra.com</p>
 
                     </div>
                 </div>
@@ -158,7 +160,7 @@
                 <center>
                     <h4 class="p-color-cement-dark flipkart-h1">International Credit/Debit Cards Giving You Trouble?</h4>
                     <h5 class="header5 p-color-cement">No worries! Our <a href="/personal-shopper-shopping-concierge-from-india">Personal Shopper </a>will swoop in & take care of it all for you!</h5> <br>
-                    <a href="https://www.myntra.com/?src=shoppre.com" class="btn btn-s-r btn-b-r btn-a-l" target="_blank">Go Shopping Now!</a>
+                    <a href="https://www.myntra.com/?src=shoppre.com" class="btn btn-s-r btn-b-r btn-a-l" target="_blank">Go Shop Myntra Now!</a>
                 </center>
             </div>
         </div>
@@ -215,7 +217,7 @@
             <center>
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Well, what's the wait? Sign Up with us now for a lifetime of effortless shopping!</h1>
                 <br>
-                <a href="{{route('customer.register')}}" class="btn btn-b-r btn-s-r btn-a-l">Sign Up for Free</a>
+                <a href="{{route('customer.register')}}" class="btn btn-b-r btn-s-r btn-a-l" target="_blank">Sign Up for Free</a>
 
             </center>
         </div>

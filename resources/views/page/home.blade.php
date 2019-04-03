@@ -142,9 +142,6 @@
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
  ]}
 
-
-
-
 </script>
 
 <script type='application/ld+json'>

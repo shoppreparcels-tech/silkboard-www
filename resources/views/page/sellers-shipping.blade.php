@@ -10,11 +10,20 @@
     <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="shortcut icon" href="https://www.shoppre.com/img/favicon.png">
+    <link rel="icon" type="image/png" href="https://www.shoppre.com/img/favicon.png" sizes="60x60">
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+    <style>
+        .footer-section a {
+            color: #ffffff;
+        }
+    </style>
 @endsection
 <br>
 <br>
+
 <section style="margin-bottom: 50px">
     <div class="container" style="margin-top: 62px;">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -35,8 +44,32 @@
 </section>
 
 @section('content')
-<div style="text-align: center">
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdL11DQD_pOS2tBNXWaI0d8ryZ4DD0foA-Z7ZR0f0hUG3qpSg/viewform?embedded=true" width="900" height=2000 frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+{{--<div style="text-align: center">--}}
+{{--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdL11DQD_pOS2tBNXWaI0d8ryZ4DD0foA-Z7ZR0f0hUG3qpSg/viewform?embedded=true" width="900" height=2000 frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>--}}
+{{--</div>--}}
+
+<div class="row form-group footer-section" style="padding-bottom: 20px;">
+    <div style="padding-top: 10px" class="col-md-1 col-sm-8 col-sm-offset-2 col-md-offset-3 text-center"> <button type="submit" name="btnActivate" class="btn btn-l btn-b-r btn-s-r font-weight-900">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdL11DQD_pOS2tBNXWaI0d8ryZ4DD0foA-Z7ZR0f0hUG3qpSg/viewform">Click to Fill the Form</a></button></div>
+    <div style="padding-top: 10px" class="col-md-1 col-sm-8 col-md-offset-1 col-sm-offset-1 text-center"> <button type="submit" name="btnActivate" class="btn btn-l btn-b-r btn-s-r font-weight-900">
+            <a href="tel:+91-8277919191">Call: +91-8277919191</a></button></div>
+    <div style="padding-top: 10px" class="col-md-1 col-sm-8 col-sm-offset-2 col-md-offset-1 text-center"> <button type="submit" name="btnActivate" class="btn btn-s-b btn-a-l btn-b-g font-weight-900">
+            <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20ShippingSolution" target="_blank">Message us on WhatsApp</></button></div>
 </div>
+
+        {{--<div class="form-group text-center div-align-items-l">--}}
+            {{--<a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>--}}
+        {{--</div>--}}
+
+
+        {{--<div class="form-group text-center div-align-items-l">--}}
+            {{--<a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20ParcelForwarding%20Quote%20from%20India" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>--}}
+        {{--</div>--}}
+
+
+
+
+
+
 
 @endsection

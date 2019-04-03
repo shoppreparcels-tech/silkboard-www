@@ -54,8 +54,8 @@
                     <br>
                 </div>
                 <div class="col-md-12 col-xs-12 no-pad">
-                    <a href="/personal-shopper" class="btn btn-s-r btn-b-r btn-a-l">Buy For Me</a>
-                    <a href="/indian-online-stores" class="btn btn-s-b btn-b-b btn-a-f-w">Indian Shopping Stores</a>
+                    <a href="/personal-shopper" class="btn btn-s-r btn-b-r btn-a-l" target="_blank">Buy For Me</a>
+                    <a href="/indian-online-stores" class="btn btn-s-b btn-b-b btn-a-f-w" target="_blank">Indian Shopping Stores</a>
                 </div>
             </div>
 
@@ -63,7 +63,7 @@
                 <form action="" method="post" id="ics_lp">
                     {{csrf_field()}}
                     <div class="formFrame " id="diwali-couponcode1">
-                        <h1 class="header2 p-color-blue" style="margin-bottom: 30px">Request a Callback</h1>
+                        <h1 class="header2 p-color-blue" style="margin-bottom: 30px">Request A Callback</h1>
                         {{--<div class="form-group">--}}
                             {{--<label>Full Name <span class="p-color-red">*</span></label>--}}
                             {{--<input type="text" name="Name" class="form-control"--}}
@@ -81,11 +81,11 @@
                         {{--</div>--}}
                         {{--<div class="form-group text-center">--}}
 
-                        <div class="form-group">
+                        {{--<div class="form-group">--}}
                             {{--<a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">--}}
-                            <img src="/img/images/christmas-contact.png" alt="">
+                            {{--<img src="/img/images/christmas-contact.png" alt="">--}}
                             {{--</a>--}}
-                        </div>
+                        {{--</div>--}}
 
                         <div class="form-group text-center div-align-items-l">
                             {{--<button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r">--}}
@@ -147,7 +147,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> T-Shirts</li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Smartphones</li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Kurta & Kurtis</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Artificial Jewellery</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Jewellery</li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-xs-6 no-padding">
@@ -155,9 +155,9 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Corporate Gifts</li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Children's Toys</li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Handicraft </li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Mobile/Cell Phones</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Mobile Phones</li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Religious Items</li>
-                            <li>& Many More Products</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">& More Products</li>
                         </ul>
                     </div>
                 </div>
