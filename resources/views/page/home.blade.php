@@ -323,6 +323,7 @@
                             </a>
                         </div>
                     </div>
+                    <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">Dear Customers, We are hereby informing you that our services will remain closed on 6th April 2019 on the occasion of Ugadi Festival. Happy Ugadi!</marquee>
                 </div>
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
