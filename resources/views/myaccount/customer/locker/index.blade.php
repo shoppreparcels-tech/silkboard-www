@@ -81,43 +81,43 @@
     </div>
   @endif
 
-  @if(empty(Auth::guard('customer')->user()->phone))
-    <div class="mobile-verification-popup">
-      <div class="whitebox" style="padding: 20px 0px 40px;">
-        <br>
-        <br>
-        <h3>Verify Your mobile number</h3>
-        <p>To continue your to profile</p>
-        <form class="mobileform" style="width: 80%" action="{{route('verify.mobile.submit')}}" method="post">
-          {{csrf_field()}}
-          <div class="row">
-            <div class="col-md-4 col-sm-12">
-              <div class="form-group">
-                <select class="form-control" name="country" required>
-                  <option value="" disabled selected hidden>--Country Code--</option>
-                  @foreach($country as $countries)
-                    <option value="{{$countries->phone_code}}">+({{$countries->phone_code}})</option>
-                  @endforeach
-                </select>
-              </div>
-            </div>
-            <div class="col-md-8 col-sm-12">
-              <div class="form-group">
-                <input type="text" name="mobile" class="form-control" placeholder="Enter your mobile number" required>
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <div class="row">
-              <div class="col-md-4 col-sm-12 col-md-offset-4 col-sm-offset-0">
-                <button type="submit" class="btn btn-shoppre">Verify </button>
-              </div>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-    @endif
+  {{--@if(empty(Auth::guard('customer')->user()->phone))--}}
+    {{--<div class="mobile-verification-popup">--}}
+      {{--<div class="whitebox" style="padding: 20px 0px 40px;">--}}
+        {{--<br>--}}
+        {{--<br>--}}
+        {{--<h3>Verify Your mobile number</h3>--}}
+        {{--<p>To continue your to profile</p>--}}
+        {{--<form class="mobileform" style="width: 80%" action="{{route('verify.mobile.submit')}}" method="post">--}}
+          {{--{{csrf_field()}}--}}
+          {{--<div class="row">--}}
+            {{--<div class="col-md-4 col-sm-12">--}}
+              {{--<div class="form-group">--}}
+                {{--<select class="form-control" name="country" required>--}}
+                  {{--<option value="" disabled selected hidden>--Country Code--</option>--}}
+                  {{--@foreach($country as $countries)--}}
+                    {{--<option value="{{$countries->phone_code}}">+({{$countries->phone_code}})</option>--}}
+                  {{--@endforeach--}}
+                {{--</select>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="col-md-8 col-sm-12">--}}
+              {{--<div class="form-group">--}}
+                {{--<input type="text" name="mobile" class="form-control" placeholder="Enter your mobile number" required>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+          {{--<div class="form-group">--}}
+            {{--<div class="row">--}}
+              {{--<div class="col-md-4 col-sm-12 col-md-offset-4 col-sm-offset-0">--}}
+                {{--<button type="submit" class="btn btn-shoppre">Verify </button>--}}
+              {{--</div>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+        {{--</form>--}}
+      {{--</div>--}}
+    {{--</div>--}}
+    {{--@endif--}}
 
   @if (isset($IS_NEW) && $IS_NEW)
     @include('myaccount.partials._banner')
