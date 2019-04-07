@@ -1600,7 +1600,34 @@ class PageController extends Controller
                 } while (!$user_code->isEmpty());
                 $customer->locker = $code;
                 $customer->email_verify = 'yes';
+                $customer->is_migrated = 1;
                 $id = $customer->save();
+                $contact = new CustomerContact;
+                $contact->customer_id = $customer->id;
+                $contact->save();
+
+                $loyalPoints = 0;
+                $loyalty = new LoyaltyPoint();
+                $loyalty->customer_id = $customer->id;
+                $loyalty->level = 1;
+                $loyalty->points = 0;
+                $loyalty->total = $loyalPoints;
+                $loyalty->save();
+
+                $misc = new LoyaltyMisc();
+                $misc->customer_id = $customer->id;
+                $misc->info = 'Signed up with the referral code that your friend sent';
+                $misc->points = $loyalPoints;
+                $misc->save();
+
+                $setting = new ShippingPreference();
+                $setting->customer_id = $customer->id;
+                $setting->save();
+
+                $balance = new ShopperBalance();
+                $balance->customer_id = $customer->id;
+                $balance->amount = 0;
+                $balance->save();
 //                $this->informDiscourse($customer);
 //                $this->informMailtrain($customer);
                 if (Auth::loginUsingId($customer->id)) {
