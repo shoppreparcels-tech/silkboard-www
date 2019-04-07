@@ -8,6 +8,7 @@ use App\Mail\EmailChat;
 use App\Mail\EmailSubscriber;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Mail;
 
 use Auth;
@@ -1581,13 +1582,46 @@ class PageController extends Controller
 
     public function home()
     {
-        $reviews = Review::orderBy('updated_at', 'desc')
+
+        $email = Input::get("email");
+        if (isset($email)) {
+            $user = Customer::where('email', '=', $email)->first();
+            if (empty($user)) {
+                $customer = new Customer;
+                $name = Input::get("name");
+                if ($name) {
+                    $customer->name = $name;
+                }
+                $customer->email = $email;
+                $customer->password = bcrypt($email);
+                do {
+                    $code = 'SHPR' . rand(10, 99) . "-" . rand(100, 999);
+                    $user_code = Customer::where('locker', $code)->get();
+                } while (!$user_code->isEmpty());
+                $customer->locker = $code;
+                $customer->email_verify = 'yes';
+                $id = $customer->save();
+//                $this->informDiscourse($customer);
+//                $this->informMailtrain($customer);
+                if (Auth::loginUsingId($customer->id)) {
+                    return redirect()->intended(route('home'));
+                }
+            }
+            if (Auth::loginUsingId($user->id)) {
+                return redirect()->intended(route('home'));
+            }
+        }
+        else {
+            $reviews = Review::orderBy('updated_at', 'desc')
             ->where('approve', '1')
             ->limit(5)
             ->get();
+
+
         return view('page.home')->with([
             'reviews' => $reviews,
         ]);
+        }
     }
 
     public function about()

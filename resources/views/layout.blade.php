@@ -11,6 +11,11 @@
     <link rel="shortcut icon" href="{{asset('img/favicon.png')}}">
     <link rel="icon" type="image/png" href="{{asset('img/favicon.png')}}" sizes="60x60">
 
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#361d69">
+
     <!-- Style -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="manifest" href="/manifest.json"/>
