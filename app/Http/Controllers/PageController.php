@@ -1580,6 +1580,17 @@ class PageController extends Controller
         }
     }
 
+    public function androidApp(Request $request) {
+        $email = Input::get("email");
+        $name = Input::get("name");
+        if (isset($email)) {
+            return redirect(env('PREFIX').'www.'.env('DOMAIN').'?email='.$email.'&name='.$name);
+        }
+        else {
+            return redirect(env('PREFIX').'www.'.env('DOMAIN'));
+        }
+    }
+
     public function home()
     {
 

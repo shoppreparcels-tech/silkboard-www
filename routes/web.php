@@ -231,6 +231,9 @@ Route::prefix('admin')->group(function(){
 
 Route::get('/shop-from-india-ship-worldwide', 'PageController@ifsIndex')->name('ifs.index');
 
+/* ---------- Android app url ---------*/
+Route::get('/android', 'PageController@androidApp')->name('android.app.index');
+
 Route::post('/mailchimp/subscribe', 'Myaccount\Customer\ProfileController@createSubscriber')->name('mailchimp.subscribe');
 //Route::get('mailchimp/subscribe', 'Myaccount\Customer\ProfileController@createSubscriber')->name('mailchimp.subscribe');
 
