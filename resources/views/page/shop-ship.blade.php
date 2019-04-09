@@ -44,31 +44,44 @@
             </div>
 
             <div class="col-md-5 col-md-offset-4 col-xs-12 diwali-form-img">
-                <form action=""  method="post" id="diwali_coupon">
-                    {{csrf_field()}}
-                    <div class="" id="diwali-couponcode1">
-                        <br>
-                        <div class="form-group">
-                            <input type="email" name="email" class="b-r-3 txt-xl txt-shadow txt-pad"
-                                   placeholder="Enter Valid E-mail ID" required>
-                        </div>
-                        <div class="form-group">
-                            <select class="select2 select-control" name="country_code" >
-                                <option value="91">IN(+91)</option>
-                                @foreach($countries as $country)
-                                    <option value="{{$country->phone_code}}">{{$country->iso}}(+{{$country->phone_code}})
-                                    </option>
-                                @endforeach
-                            </select>
-                            <input type="text" name="pnumber" class="b-r-3 txt-l txt-shadow txt-pad" pattern="^[0-9]"
-                                   placeholder="Phone Number / Whatsapp" required>
+                {{--<form action=""  method="post" id="diwali_coupon">--}}
+                    {{--{{csrf_field()}}--}}
+                    {{--<div class="" id="diwali-couponcode1">--}}
+                        {{--<br>--}}
+                        {{--<div class="form-group">--}}
+                            {{--<input type="email" name="email" class="b-r-3 txt-xl txt-shadow txt-pad"--}}
+                                   {{--placeholder="Enter Valid E-mail ID" required>--}}
+                        {{--</div>--}}
+                        {{--<div class="form-group">--}}
+                            {{--<select class="select2 select-control" name="country_code" >--}}
+                                {{--<option value="91">IN(+91)</option>--}}
+                                {{--@foreach($countries as $country)--}}
+                                    {{--<option value="{{$country->phone_code}}">{{$country->iso}}(+{{$country->phone_code}})--}}
+                                    {{--</option>--}}
+                                {{--@endforeach--}}
+                            {{--</select>--}}
+                            {{--<input type="text" name="pnumber" class="b-r-3 txt-l txt-shadow txt-pad" pattern="^[0-9]"--}}
+                                   {{--placeholder="Phone Number / Whatsapp" required>--}}
 
-                        </div>
-                        <div class="col-md-10 col-md-offset-2 col-xs-9 col-xs-offset-3 form-group">
-                            <button type="submit" name="btnActivate" class="btn btn-l btn-b-r btn-s-r font-weight-900">Sign Up Free</button>
-                        </div>
-                    </div>
-                </form>
+                        {{--</div>--}}
+                        {{--<div class="col-md-10 col-md-offset-2 col-xs-9 col-xs-offset-3 form-group">--}}
+                            {{--<button type="submit" name="btnActivate" class="btn btn-l btn-b-r btn-s-r font-weight-900">Sign Up Free</button>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</form>--}}
+                <br>
+                <br>
+                <div class="form-group text-center div-align-items-l">
+                    {{--<button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r">--}}
+                    <a href="/customer/register" class="btn btn-l btn-b-r btn-s-r font-weight-900" target="_blank">Sign Up For Free</a>
+                    {{--</button>--}}
+                    <br>
+                    <br>
+                    {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
+                    <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
+                    {{--</button>--}}
+                </div>
+
             </div>
         </div>
     </section>
@@ -78,15 +91,9 @@
         <div class=" container shopContainer no-padding">
             <div class="col-md-12" style="padding:20px;">
                 <div class="col-md-10">
-                    <h1 class="f-s-20 font-weight-900 f-c-d-greay">Ship What You Love from India & Shop With Your <a href="/indian-virtual-address">Free ShoppRe Address‎</a></h1>
-                </div>
-                <div class="col-md-2">
-                    <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="pull-right d-contact-img-desktop">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
-                    </a>
-                    <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="d-contact-img pull-right">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
-                    </a>
+                    <center>
+                        <h1 class="f-s-20 font-weight-900 f-c-d-greay">Ship What You Love from India & Shop With Your <a href="/indian-virtual-address">Free ShoppRe Virtual Address‎</a></h1>
+                    </center>
                 </div>
             </div>
 
@@ -184,7 +191,8 @@
     <section style="background-color: #fafafb; margin-top: 10px">
         <div class="container" style="padding-top: 30px;">
             <center>
-                <h1 class="header1 p-color-cement-dark">How it Works</h1>
+                <h2 class="header2 p-color-cement-dark"><strong>How ShoppRe works with purchases from Indian Stores?</strong></h2>
+                <h1 class="header3 p-color-cement">Buy in India, Ship online and We deliver to you</h1>
             </center>
             <div class="row text-center">
                 <br/>
@@ -226,13 +234,23 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="/customer/register" class="btn btn-d-signup">Sign Up</a>
+                    <a href="/customer/register" class="btn btn-s-r btn-a-l btn-b-r" target="_blank">Sign Up to Learn More</a>
                 </div>
                 <br/><br/>
             </div>
         </div>
+
     </section>
 
+    <section>
+        <center>
+            <h2 class="header2 p-color-cement-dark"><strong><a href="https://ship.shoppre.com/online-shopping-from-india-international-shipping-to-usa/" target="_blank">Online Shopping from India to USA</a>;
+                    <a href="https://ship.shoppre.com/online-shopping-from-india-international-shipping-to-uk/" target="_blank">Online Shopping from India to UK</a></strong></h2>
+            <h2 class="header2 p-color-cement-dark"><strong><a href="/personal-shopper-india">Personal Shopper Services from India</a></strong></h2>
+        </center>
+    </section>
+    <br>
+    <br>
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">

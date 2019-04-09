@@ -63,7 +63,7 @@
                         <div class="form-group">
                             <label>Full Name <span class="p-color-red">*</span></label>
                             <input type="text" name="Name" class="form-control"
-                                   placeholder="Enter Here" required>
+                                   placeholder="Enter Your Full Name Here" required>
                         </div>
                         <div class="form-group">
                             <label>Contact Number<span class="p-color-red">*</span></label>
@@ -130,21 +130,21 @@
                 <div class=" col-md-12 col-xs-12 div-ics-prodcts">
                     <div class="col-md-6 col-xs-6 no-padding">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Pills</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Herbs</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Liquid/Syrups</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Ointments</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Inhalers</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Homeopathy</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > Pills</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > Herbs</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > Liquid/Syrups</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > Ointments</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > Inhalers</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > Homeopathy</li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-xs-6 no-padding">
                         <ul style="text-decoration: none; list-style: none">
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Capsules</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Injections</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Tablets</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Eye/Ear Drops</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Lozenges</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" >Capsules</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" >Injections</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" >Tablets</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" >Eye/Ear Drops</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" >Lozenges</li>
                             <li>& Many More Products</li>
                         </ul>
                     </div>
@@ -164,22 +164,22 @@
                 <div class=" col-md-12 col-xs-12 div-ics-prodcts">
                     <div class="col-md-6 col-xs-12 no-padding">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Door to Door Pickup Services</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Customs Clearance And Paperwork</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Hassle Free Shipment Process</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Low Cost for higher Kgs</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Package Return Services</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Multiple Payment Options Available</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > Door to Door Pickup Services</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > Customs Clearance And Paperwork</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > Hassle Free Shipment Process</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > Low Cost for higher Kgs</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > Package Return Services</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > Multiple Payment Options Available</li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-xs-12 no-padding">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Consolidation & Repackaging</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">FREE Virtual Indian Address</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">20-day FREE, safe storage</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Doorstep delivery in 3–6 business days</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Wallet Cashback</li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Real time online tracking</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" >Consolidation & Repackaging</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" >FREE Virtual Indian Address</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" >20-day FREE, safe storage</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" >Doorstep delivery in 3–6 business days</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" >Wallet Cashback</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" >Real time online tracking</li>
                         </ul>
                     </div>
                 </div>

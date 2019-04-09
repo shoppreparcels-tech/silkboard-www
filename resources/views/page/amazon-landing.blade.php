@@ -73,16 +73,16 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>
                 </div>
             </div>
-            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Upcoming Amazon.in Offers/Sales</h2>
+            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in April 2019 Sales</h2>
             <div class="row text-center">
                 <div class="col-sm-4">
 
                     <div class="shopandship ">
-                        <h2>SAMSUNG</h2>
+                        <h2>HONOR GALA</h2>
                         <br/>
-                        <p>Galaxy M30</p>
-                        <p>Starting ₹14,990</p>
-                        <p>Next Sale on 04th April 2019</p>
+                        <p>8X, 7C, 8C, View20</p>
+                        <p>Up to ₹8,000 OFF</p>
+                        <p>08th - 12th April 2019</p>
                     </div>
                 </div>
                 <div class="col-sm-4">

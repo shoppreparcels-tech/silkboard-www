@@ -34,10 +34,10 @@
                 </h1>
             </div>
             <div class="col-md-4 col-xs-12 div-align-items-r">
-                <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Personal%20Shopping%20and%20Shipping%20from%20India%20" class="d-contact-img-desktop">
+                <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Personal%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="d-contact-img-desktop">
                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
                 </a>
-                <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Personal%20Shopping%20and%20Shipping%20from%20India%20" class="d-contact-img">
+                <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Personal%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="d-contact-img">
                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
                 </a>
             </div>
@@ -83,7 +83,7 @@
                 </div>
                 {{--</div>--}}
                 <div class="col-md-12 col-xs-12 div-btn-padding">
-                    <a href="https://www.shoppre.com/personal-shopper">
+                    <a href="https://www.shoppre.com/personal-shopper" target="_blank">
                         <div class="btn header6 btn-ifs-l-assisted">
                             Shop For Me
                         </div>
@@ -124,7 +124,7 @@
                 <div class="col-md-12 col-xs-12 div-btn-padding">
                     <a href="https://www.youtube.com/watch?v=q5R63gFUREk" target="_blank">
                         <div class="btn header6 btn-ifs-l-assisted">
-                            Personal Shoppre - Watch Video
+                            Personal Shopper - Watch Video
                         </div>
                     </a>
                 </div>
@@ -137,12 +137,12 @@
                         <div class="form-group">
                             <label>Full Name <span class="p-color-red">*</span></label>
                             <input type="text" name="Name" class="form-control"
-                                   placeholder="Enter the Name Here" required>
+                                   placeholder="Enter your Name Here" required>
                         </div>
                         <div class="form-group">
                             <label>Contact Number<span class="p-color-red">*</span></label>
                             <input type="text" name="ContactNumber" class="form-control"
-                                   placeholder="Enter a Valid Phone number" required>
+                                   placeholder="Enter Phone number with Country Code" required>
                         </div>
                         <div class="form-group">
                             <label>E-Mail ID<span class="p-color-red">*</span></label>
@@ -151,7 +151,7 @@
                         </div>
                         <div class="form-group text-center">
                             <br>
-                            <button type="submit" name="btnActivate" class="btn">Request Assistance</button>
+                            <button type="submit" name="btnActivate" class="btn btn-s-b btn-a-l btn-b-g">Request Assistance</button>
                         </div>
                     </div>
 
@@ -346,7 +346,7 @@
             </div>
             <br/><br/>
             <center>
-                <a href="/personal-shopper">Shop For Me !</a>
+                <a href="/personal-shopper" target="_blank">Shop For Me !</a>
             </center>
             <br/><br/>
         </div>

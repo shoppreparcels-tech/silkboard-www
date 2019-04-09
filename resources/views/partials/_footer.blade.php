@@ -49,7 +49,7 @@
                                 <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-twitter.svg"
                                      alt="@Go_Shoppre twitter">
                             </a>
-                            <a itemprop="url" class="footer-a" href="https://www.instagram.com/shoppre_official/?hl=en">
+                            <a itemprop="url" class="footer-a" href="https://www.instagram.com/shoppre_official">
                                 <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-instagram.svg"
                                      alt="shoppre instagram">
                             </a>
@@ -68,6 +68,7 @@
                     <li class="li"><a itemprop="url" class="footer-a" href="/privacy-policy">Privacy Policy</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>
                     <li class="li"><a class="footer-a" href="{{route('reviews')}}">Customer Reviews</a></li>
+                    <li class="li"><a class="footer-a" href="http://shoppretracking.aftership.com" target="_blank">Track Your Shipment <sup class="p-color-red" style="font-size: 8px" id="offer">New</sup></a></li>
                 </ul>
             </div>
             <div class="col-md-3 col-lg-3 col-sm-6 col-xs-8 pad-5">
@@ -95,7 +96,6 @@
                     <input type="Email" class="txt-shadow-br txt-l-br  txt-f-w txt-pad txt-s-14"
                            placeholder="Enter your Email id " required>
                     <center>
-                        {{--<a href="" class="btn btn-s-r btn-b-r btn-a-l m-t-20">Subscribe</a>--}}
                         <button type="submit" class="btn btn-s-r btn-b-r m-t-20 ">Subscribe</button>
                     </center>
                     </form>
@@ -105,6 +105,8 @@
         <br>
         <div class="col-xs-12 col-md-12 pad-t-10">
             <center><br>
+                <p class="f-s-14 f-c-l-gray f-w-8">Ship with ❤️ from India<a class="footer-a" </a>
+                </p>
                 <p class="f-s-16 f-c-l-gray f-w-8">© 2019, All Rights Reserved - by
                     <a class="footer-a" href="/" itemprop="url">ShoppRe.com™</a>
                 </p>

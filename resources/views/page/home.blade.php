@@ -951,8 +951,8 @@
                     <li class="li"><a itemprop="url" class="" href="/limeroad-shopping-international-shipping">Limeroad Shopping from USA</a></li>
                     <li class="li"><a itemprop="url" class="" href="/flipkart-shopping-with-shoppre-from-india">Flipkart Shopping from USA</a></li>
                     <li class="li"><a itemprop="url" class="" href="/etsy-international-shipping-from-india">Etsy Shopping from USA</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-usa-per-kg" >AJIO Shopping from USA</a></li>
-                    <li class="li"><a itemprop="url" class="" href="international-courier-charges-india-to-uae-per-kg">Jaypore Shopping from USA</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/ajio-online-shopping-international-shipping" >AJIO Shopping from USA</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/jaypore-international-shipping-from-india">Jaypore Shopping from USA</a></li>
                 </ul>
             </div>
         </div>

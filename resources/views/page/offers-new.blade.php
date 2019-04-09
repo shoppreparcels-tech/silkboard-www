@@ -74,7 +74,7 @@
                         <div class="item">
                             <div class="pad15">
                                 <a href="/first-time-international-shipment-offer" target="_blank">
-                                    <img src="{{asset('img/images/first50-offer-march.png')}}" class="boxofScroll"/>
+                                    <img src="{{asset('img/images/first50-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
@@ -145,8 +145,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Flip Start Days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">1st to 3rd April 2019</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Vivo Carnival</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">9th to 11th April 2019</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-shopping-with-shoppre-from-india"
                                    target="_blank">

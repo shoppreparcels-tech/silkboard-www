@@ -55,26 +55,26 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart Upcoming Offers/Sales</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - April 2019 Sales</h2>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
                     <div class="shopandship ">
-                        <h2>Flip Start Days</h2>
+                        <h2>Vivo Carnival</h2>
                         <br/>
-                        <p>Up to 75% Off</p>
-                        <p>ACs, TVs & Appliances</p>
-                        <p>1st to 3rd April</p>
+                        <p>32MP Pop-up Selfie</p>
+                        <p>Vivo V15 & V15 Pro</p>
+                        <p>9tt to 11th April</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
-                        <h2>Save Big On Fashio</h2>
+                        <h2>Super Cooling Days</h2>
                         <br>
-                        <p>Min. 50% Off </p>
-                        <p>Puma, Levi's, W, Skybags & more </p>
-                        <p>1st to 3rd April</p>
+                        <p>10% Instant Discount </p>
+                        <p>The Mega Summer Sale </p>
+                        <p>10th to 14th April</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -166,7 +166,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned of your documents</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-specific Discount</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery & online tracking</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery</span></li>
 
                         </ul>
                     </div>
