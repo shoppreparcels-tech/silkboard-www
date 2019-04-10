@@ -105,13 +105,11 @@
         <br>
         <div class="col-xs-12 col-md-12 pad-t-10">
             <center><br>
-                <p class="f-s-14 f-c-l-gray f-w-8">Ship with ❤️ from India<a class="footer-a" </a>
-                </p>
-                <p class="f-s-16 f-c-l-gray f-w-8">© 2019, All Rights Reserved - by
-                    <a class="footer-a" href="/" itemprop="url">ShoppRe.com™</a>
+                <p class="f-s-16 f-c-l-gray f-w-8">Ship with <span class="f-c-red glyphicon glyphicon-heart"></span> &nbsp;from India
+                    <a class="footer-a pull-left" href="/" itemprop="url">© 2019, All Rights Reserved - by ShoppRe.com™</a>
+                    <span class="f-s-14 f-c-l-gray f-w-8 pull-right">Developed by SilkBoard</span>
                 </p>
             </center>
-
         </div>
     </div>
 

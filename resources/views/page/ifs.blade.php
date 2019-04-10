@@ -122,6 +122,7 @@
         @media only screen and (max-width: 600px) {
             .register-free {padding: 10px 9px 10px;}
             .div-play-btn{padding-top: 10px;}
+            .offer-img-d{display: none}
         }
     </style>
 @endsection
@@ -446,8 +447,23 @@
 
         </div>
     </section>
-
-
+    <section style="background-color: #FFFBBE;">
+        <div class="container-fluid" style="padding-left: 12%;padding-right: 18%;">
+            <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">
+                <p class="header1 p-color-black p-h-margin-customer"><font color="red">E</font>arn with US</p>
+                <br>
+                <h4>Get an instant reward of 7 dollars in your ShoppRe wallet just by referring the referral code to a friend.</h4>
+                <h4>Referral gets 7 dollars credited to thier ShoppRe wallet post the shipment done by the referee.</h4>
+                <br>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJHAyy55cXPjcCeIG-G2FPKmk_Ge_p7cQBsvmoFZ0xWhj4EA/viewform" target="_blank" class="btn-s-r btn-b-r btn ">Join Our Referral Network</a>
+                <br>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12" >
+                <img class="offer-img-d" src="{{asset('img/images/earn-with-us.png')}}"
+                     alt="earn with us" style="width: 450px;">
+            </div>
+        </div>
+    </section>
     <section style="background-color: #fafafb; ">
         <div class="container">
             <div class="col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">

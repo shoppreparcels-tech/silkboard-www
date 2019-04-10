@@ -168,7 +168,7 @@
                                     <td>
                                         <h6 class="f-s-16 f-c-l-gray">40/kg in Bangalore,</h6>
                                         <h6 class="f-s-16 f-c-l-gray">Min ₹100</h6>
-                                        <h6 class="f-s-16 f-c-l-gray">50/kg in Bangalore,</h6>
+                                        <h6 class="f-s-16 f-c-l-gray">50/kg outside Bangalore,</h6>
                                         <h6 class="f-s-16 f-c-l-gray">Min ₹200</h6>
                                     </td>
                                 </tr>
@@ -498,7 +498,7 @@
                                     <td>
                                         <h6 class="f-s-16 f-c-l-gray">40/kg in Bangalore,</h6>
                                         <h6 class="f-s-16 f-c-l-gray">Min ₹100</h6>
-                                        <h6 class="f-s-16 f-c-l-gray">50/kg in Bangalore,</h6>
+                                        <h6 class="f-s-16 f-c-l-gray">50/kg outside Bangalore,</h6>
                                         <h6 class="f-s-16 f-c-l-gray">Min ₹200</h6>
                                     </td>
                                 </tr>
