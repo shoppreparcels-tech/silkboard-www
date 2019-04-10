@@ -80,9 +80,9 @@
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                {{--<a href="/holi-india-shopping-with-international-delivery" target="_blank">--}}
+                                <a href="/easter-shopping-from-india-with-international-shipping" target="_blank">
                                     <img src="{{asset('img/images/easter-offer-shipping-shoppre.png')}}" class="boxofScroll"/>
-                                {{--</a>--}}
+                                </a>
                             </div>
                         </div>
                         <div class="item">

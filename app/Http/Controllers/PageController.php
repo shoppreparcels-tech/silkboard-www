@@ -455,6 +455,10 @@ class PageController extends Controller
     {
         return view('page.landing-pages.month-end-offer');
     }
+    public function easter()
+    {
+        return view('page.easter');
+    }
     public function holi()
     {
         return view('page.holi');

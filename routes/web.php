@@ -628,6 +628,7 @@ Route::get('/diwali-offer', 'PageController@diwali')->name('diwali');
 Route::get('/month-end-offer-shipping-worldwide', 'PageController@monthEndOffer')->name('monthEndOffer');
 Route::get('/send-valentines-day-gifts-international-shipping', 'PageController@valentines')->name('valentines');
 Route::get('/holi-india-shopping-with-international-delivery', 'PageController@holi')->name('holi');
+Route::get('/easter-shopping-from-india-with-international-shipping', 'PageController@easter')->name('easter');
 Route::get('/shop-ship', 'PageController@shopShipIndex')->name('shopship');
 Route::get('/personal-shopper-shopping-concierge-from-india', 'PageController@personalShopper')->name('personalShopper');
 Route::get('/christmas-offer', 'PageController@christmas')->name('christmas');
