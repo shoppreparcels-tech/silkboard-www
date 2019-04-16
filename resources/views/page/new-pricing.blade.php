@@ -1305,7 +1305,7 @@
                 $("#shippingCountry").text(country);
                 $.ajax({
                     type: 'get',
-                    url: 'https://staging-ship-api.shoppre.com/api/pricing/slab?all=true&country='+ country +'&rateType=slab&type=nondoc&weight=1',
+                    url: 'https://ship-api.shoppre.com/api/pricing/slab?all=true&country='+ country +'&rateType=slab&type=nondoc&weight=1',
                     success: function ({prices, pricesDoc}) {
                         // console.log(pricesDoc);
                         var html=' <thead>\n' +
