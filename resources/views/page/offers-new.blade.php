@@ -80,8 +80,8 @@
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                <a href="/easter-shopping-from-india-with-international-shipping" target="_blank">
-                                    <img src="{{asset('img/images/easter-offer-shipping-shoppre.png')}}" class="boxofScroll"/>
+                                <a href="https://ship.shoppre.com/month-end-exclusive-shipping-offer" target="_blank">
+                                    <img src="{{asset('img/images/month-end-shipping-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
@@ -145,8 +145,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Vivo Carnival</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">9th to 11th April 2019</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Super Value Week</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">23rd to 29th April 2019</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-shopping-with-shoppre-from-india"
                                    target="_blank">
@@ -216,8 +216,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Bag Days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Your New Season</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com/?src=shoppre">
                                     <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>

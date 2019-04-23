@@ -78,11 +78,11 @@
                 <div class="col-sm-4">
 
                     <div class="shopandship ">
-                        <h2>HONOR GALA</h2>
+                        <h2>HONOR 8X</h2>
                         <br/>
-                        <p>8X, 7C, 8C, View20</p>
-                        <p>Up to ₹8,000 OFF</p>
-                        <p>08th - 12th April 2019</p>
+                        <p>Blue, 4GB RAM, 64GB Storage</p>
+                        <p>₹14,999</p>
+                        <p>April 2019</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -97,11 +97,11 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="ic">
-                        <h2>Up To 70% OFF</h2>
+                        <h2>Redmi Y3</h2>
                         <br>
-                        <p>School Essentials</p>
-                        <p>Back To School</p>
-                        <p>24th March to 14th April 2019</p>
+                        <p>32MP Super Selfie</p>
+                        <p>MILL7ON+</p>
+                        <p>12pm, 23th April 2019</p>
 
                     </div>
                 </div>

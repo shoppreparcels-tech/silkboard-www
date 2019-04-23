@@ -61,20 +61,20 @@
             <div class="row text-center">
                 <div class="col-sm-4">
                     <div class="shopandship ">
-                        <h2>Vivo Carnival</h2>
+                        <h2>Super Value Week</h2>
                         <br/>
-                        <p>32MP Pop-up Selfie</p>
-                        <p>Vivo V15 & V15 Pro</p>
-                        <p>9tt to 11th April</p>
+                        <p>₹3000+ Up to ₹1000 Off</p>
+                        <p>For All Phone Damages</p>
+                        <p>23rd to 29th April</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
-                        <h2>Super Cooling Days</h2>
+                        <h2>Xiaomi</h2>
                         <br>
-                        <p>10% Instant Discount </p>
-                        <p>The Mega Summer Sale </p>
-                        <p>10th to 14th April</p>
+                        <p>Mi (43) 4A Pro Android</p>
+                        <p>Just ₹22,999</p>
+                        <p>Best Selling Full HD TV</p>
                     </div>
                 </div>
                 <div class="col-sm-4">

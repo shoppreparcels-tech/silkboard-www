@@ -554,7 +554,7 @@
                 </div>
                 <div class="col-xs-3  div-stores-img">
                     <center class="online-stores">
-                        <a href="/ajio-online-shopping-international-shipping">
+                        <a href="/ajio-online-shopping-international-shipping" target="_blank">
                         <img class="img-responsive img-stores"
                              src="{{env('AWS_CLOUD_FRONT')}}/img/stores/ajio-online-shopping.png"
                              alt="ajio.com free delivery shipping">
@@ -577,9 +577,11 @@
                 </div>
                 <div class="col-xs-3 div-stores-img">
                     <center class="online-stores">
+                        <a href="https://ship.shoppre.com/online-stores-india/snapdeal-international-delivery-shopping-from-india/" target="_blank">
                         <img class="img-responsive img-stores"
                              src="{{env('AWS_CLOUD_FRONT')}}/img/stores/snapdeal-indian-e-commerce-company.png"
                              alt="snapdeal.com indian e-commerce company">
+                        </a>
                     </center>
                 </div>
                 <div class="col-xs-2 div-stores-img">
@@ -759,7 +761,7 @@
                 <h4>Get an instant reward of 7 dollars in your ShoppRe wallet just by referring the referral code to a friend.</h4>
                 <h4>Referral gets 7 dollars credited to thier ShoppRe wallet post the shipment done by the referee.</h4>
                 <br>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJHAyy55cXPjcCeIG-G2FPKmk_Ge_p7cQBsvmoFZ0xWhj4EA/viewform" target="_blank" class="btn-s-r btn-b-r btn ">Join Our Referral Network</a>
+                <a href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank" class="btn-s-r btn-b-r btn ">Join Our Referral Network</a>
                 <br>
             </div>
             <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12" >
