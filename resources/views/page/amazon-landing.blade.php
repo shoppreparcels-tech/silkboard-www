@@ -5,7 +5,7 @@
 @section('keywords', 'Amazon International Shipping, great indian sale, ship india')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/amazon-india-shop-international-shipping" />
+    <link rel="canonical" href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" />
 
     <meta property="og:title" content="Shop online Amazon.in products & Ship Internationally with ShoppRe" />
     <meta property="og:type" content="website" />
