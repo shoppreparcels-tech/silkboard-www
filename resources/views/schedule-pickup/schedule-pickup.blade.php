@@ -489,7 +489,7 @@
                     class="col-sm-12 div-price-cal-length-padding">
                     <h6 class="header7 p-color-cement">(in kg)</h6>
                     <div class="col-sm-12 no-padding ">
-                    <input type="number" class="form-control" style="height: 40px" name="package_weight" required placeholder="Enter Package Weight">
+                    <input type="number" min="0" value="0" step="0.5"  class="form-control" pattern="^\d*(\.\d{0,2})?$" style="height: 40px" name="package_weight" required placeholder="Enter Package Weight">
                     </div>
                     </div>
                     </div>
