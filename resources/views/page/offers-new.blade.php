@@ -139,14 +139,14 @@
         </div>
         <div class="container">
             <br/>
-            <h3 class="header3 p-color-cement-dark font-weight-900">Ecommerce Sales</h3>
+            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites May-2019 Sales</h3>
             <br/>
             <div class="row">
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Super Value Week</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">23rd to 29th April 2019</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Flipstart Days</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">1st to 3rd May 2019</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-shopping-with-shoppre-from-india"
                                    target="_blank">
@@ -202,8 +202,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Brand Day</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">MIN. 40% OFF</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Myntra Unique</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">MIN. 40% OFF + More</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping-shipping-from-india">
@@ -216,7 +216,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Your New Season</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">May newness!</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com/?src=shoppre">
@@ -229,10 +229,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Just For Prime</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up To 70% OFF</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Summer Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">4th to 7th May 2019</h5>
                             <div class="ecomSmallBox">
-                                <a href="/amazon-india-shop-international-shipping">
+                                <a href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" target="_blank">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>
@@ -243,7 +243,7 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Brand Day</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">30-50% Off</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">30-60% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.jabong.com">
                                     <img src="https://www.shoppre.com/uploads/stores/logo_599691d00e27e.png"/>

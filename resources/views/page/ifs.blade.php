@@ -148,6 +148,10 @@
     </section>
 
     <section>
+        <div>
+            <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">Dear Customers, Amazon.in Summer Sale Starting on 4th-7th May 2019.
+                <a href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" title="Amazon Summer Sale" target="_blank">Click Here</a> for more details.</marquee>
+        </div>
         <div class="container" id="how-it-works">
             <div>
                 <center>
@@ -455,7 +459,7 @@
                 <h4>Get an instant reward of 7 dollars in your ShoppRe wallet just by referring the referral code to a friend.</h4>
                 <h4>Referral gets 7 dollars credited to thier ShoppRe wallet post the shipment done by the referee.</h4>
                 <br>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJHAyy55cXPjcCeIG-G2FPKmk_Ge_p7cQBsvmoFZ0xWhj4EA/viewform" target="_blank" class="btn-s-r btn-b-r btn ">Join Our Referral Network</a>
+                <a href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank" class="btn-s-r btn-b-r btn ">Join Our Referral Network</a>
                 <br>
             </div>
             <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12" >
