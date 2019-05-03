@@ -83,19 +83,21 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
-                        <h2>Personal Shopper</h2>
+                        <h2>Myntra Summer Sale</h2>
                         <br>
-                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You at Myntra.com</p>
+                        <p>MIN. 40% OFF</p>
+                        <p>Fits, Style, Trends & Everything</p>
+                        <p>12th - 14th May 2019</p>
 
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ic">
-                        <h2>THE DENIM DRIVE</h2>
+                        <h2>LAVIE</h2>
                         <br>
-                        <p>MIN. 40% OFF</p>
-                        <p>Fits, Style, Trends & Everything</p>
-                        <p>Explore More at Myntra.com</p>
+                        <p>MIN. 50% OFF</p>
+                        <p>Bags & Shoes</p>
+                        <p>Starting from ₹249/-</p>
 
                     </div>
                 </div>
@@ -117,7 +119,8 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                    <center>
-                       <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/myntra-express-delivery-globe.png" alt="Myntra.com">
+                       <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">
+                           <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/myntra-express-delivery-globe.png" alt="Myntra.com"></a>
                    </center>
                 </div>
             </div>
@@ -160,7 +163,7 @@
                 <center>
                     <h4 class="p-color-cement-dark flipkart-h1">International Credit/Debit Cards Giving You Trouble?</h4>
                     <h5 class="header5 p-color-cement">No worries! Our <a href="/personal-shopper-shopping-concierge-from-india">Personal Shopper </a>will swoop in & take care of it all for you!</h5> <br>
-                    <a href="https://www.myntra.com/?src=shoppre.com" class="btn btn-s-r btn-b-r btn-a-l" target="_blank">Go Shop Myntra Now!</a>
+                    <a href="https://clnk.in/itIM" class="btn btn-s-r btn-b-r btn-a-l" target="_blank">Go Shop Myntra Now!</a>
                 </center>
             </div>
         </div>
@@ -395,6 +398,16 @@
     </section>
 
 @section('js_script')
+    <script type='text/javascript'>
+        var pubID = '54240CL48886';
+
+        (function(d, t) {
+            var s = document.createElement('script');s.type = 'text/javascript';
+            s.async = true;s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv1.js';
+            document.getElementsByTagName('body')[0].appendChild(s);
+        }());
+    </script>
+
     <script>
         $(document).ready(function () {
              $('#packing').mouseover(function () {

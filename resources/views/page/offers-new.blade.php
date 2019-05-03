@@ -298,6 +298,24 @@
             <br/>
             <br/>
         </div>
+        <br>
+
+        <div class="container">
+            <h3 class="header3 p-color-cement-dark font-weight-900">LIVE Sales:</h3>
+            <p>Fashion Category:</p>
+            <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/38315?pub_id=54240CL48886'></iframe>
+            <br/>
+
+            <br/>
+            <p>Health & Beauty Category:</p>
+            <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/38317?pub_id=54240CL48886'></iframe>
+            <br/>
+            <br/>
+            <p>Others:</p>
+            <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/38318?pub_id=54240CL48886'></iframe>
+            <br/>
+        </div>
+
 
     </section>
     <section class="delivery">
@@ -321,7 +339,18 @@
     </section>
 @endsection
 
+
 @section('js_script')
+
+    <script type='text/javascript'>
+        var pubID = '54240CL48886';
+
+        (function(d, t) {
+            var s = document.createElement('script');s.type = 'text/javascript';
+            s.async = true;s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv1.js';
+            document.getElementsByTagName('body')[0].appendChild(s);
+        }());
+    </script>
     <script>
         $(document).ready(function () {
             var itemsMainDiv = ('.MultiCarousel');

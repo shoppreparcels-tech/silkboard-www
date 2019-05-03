@@ -55,35 +55,35 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - April 2019 Sales</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - MAY 2019 Sales</h2>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
                     <div class="shopandship ">
-                        <h2>Super Value Week</h2>
+                        <h2>Big Shopping Days Sale</h2>
                         <br/>
-                        <p>₹3000+ Up to ₹1000 Off</p>
-                        <p>For All Phone Damages</p>
-                        <p>23rd to 29th April</p>
+                        <p>Deals on mobile phones, gadgets, </p>
+                        <p>laptops, LED TV’s, and more.</p>
+                        <p>13th to 16th May</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
-                        <h2>Xiaomi</h2>
+                        <h2>Flipkart Grooming Day</h2>
                         <br>
-                        <p>Mi (43) 4A Pro Android</p>
-                        <p>Just ₹22,999</p>
-                        <p>Best Selling Full HD TV</p>
+                        <p>Beat Deals on Trimmers, Hair dryers...</p>
+                        <p>Up to 80% Off</p>
+                        <p>Starting from ₹269</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="ic">
-                        <h2>HOT DEALS</h2>
+                        <h2>50-80% Off</h2>
                         <br>
-                        <p>New Deals Every 8 Hours</p>
-                        <p>Extra 10% Off</p>
-                        <p>April 2019 </p>
+                        <p>Bags, Trolleys & Wallets</p>
+                        <p>Starting from ₹197</p>
+                        <p>May 2019 </p>
 
                     </div>
                 </div>
@@ -94,7 +94,9 @@
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
                         <center>
-                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/flipkart-international-shopping.png" alt="flipkart.com">
+                            <a href="https://clnk.in/itIp" title="Shop Flipkart & Ship Worldwide through ShoppRe" target="_blank">
+                                <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/flipkart-international-shopping.png" alt="flipkart.com">
+                            </a>
                         </center>
                     </div>
                 </div>
@@ -133,7 +135,7 @@
                 <center>
                     <h4 class="p-color-cement-dark flipkart-h1">International Credit/Debit Cards Giving You Trouble?</h4>
                     <h5 class="header5 p-color-cement">No worries! Our <a href="/personal-shopper-shopping-concierge-from-india">Personal Shopper</a> will swoop in & take care of it all for you!</h5> <br>
-                    <a href="https://www.flipkart.com/?src=shoppre.com" class="btn-chris-place-order" target="_blank">Go Shop Flipkart Now!</a>
+                    <a href="https://clnk.in/itIp" class="btn-chris-place-order" target="_blank">Go Shop Flipkart Now!</a>
                 </center>
             </div>
             <br>
@@ -371,6 +373,17 @@
     </section>
 
 @section('js_script')
+
+    <script type='text/javascript'>
+        var pubID = '54240CL48886';
+
+        (function(d, t) {
+            var s = document.createElement('script');s.type = 'text/javascript';
+            s.async = true;s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv1.js';
+            document.getElementsByTagName('body')[0].appendChild(s);
+        }());
+    </script>
+
     <script>
         $(document).ready(function () {
              $('#packing').mouseover(function () {
