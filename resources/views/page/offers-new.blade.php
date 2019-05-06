@@ -59,14 +59,14 @@
     <section class="delivery">
         <div class="container">
             <br>
-            <h3 class="header3 p-color-cement-dark font-weight-900">Running & Upcoming Offers</h3>
+            <h3 class="header3 p-color-cement-dark font-weight-900">ShoppRe Offers:</h3>
             <div class="row">
                 <div class="MultiCarousel" data-items="1,2,3,4" data-slide="1" id="MultiCarousel" data-interval="1000">
                     <div class="MultiCarousel-inner">
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/university-offer" target="_blank">
-                                    <img src="{{asset('img/images/university-offer.png')}}" class="boxofScroll"/>
+                                    <img src="{{asset('img/images/university-offer-may.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
@@ -74,14 +74,14 @@
                         <div class="item">
                             <div class="pad15">
                                 <a href="/first-time-international-shipment-offer" target="_blank">
-                                    <img src="{{asset('img/images/first50-offer.png')}}" class="boxofScroll"/>
+                                    <img src="{{asset('img/images/first50-offer-may.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                <a href="https://ship.shoppre.com/month-end-exclusive-shipping-offer" target="_blank">
-                                    <img src="{{asset('img/images/month-end-shipping-offer.png')}}" class="boxofScroll"/>
+                                <a href="/refer-a-friend" target="_blank">
+                                    <img src="{{asset('img/images/refer-freind-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
@@ -98,55 +98,63 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="MultiCarousel" data-items="1,2,3,4" data-slide="1" id="MultiCarousel" data-interval="1000">
-                    <div class="MultiCarousel-inner">
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="{{route('schedulePickup.Index')}}" target="_blank">
-                                    <img src="{{asset('img/images/courier-from-india-to-usa.png')}}" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="/international-parcel-forwarding-india-online-shopping" target="_blank">
-                                    <img src="{{asset('img/images/parcel-forwarding-offer.png')}}" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="/personal-shopper-india" target="_blank">
-                                    <img src="{{asset('img/images/personal-shopper-offer.png')}}" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="/refer-a-friend" target="_blank">
-                                    <img src="{{asset('img/images/refer-freind-offer.png')}}" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="btn btn-primary leftLst"><</button>
-                    <button class="btn btn-primary rightLst">></button>
-                </div>
-            </div>
+            {{--<div class="row">--}}
+                {{--<div class="MultiCarousel" data-items="1,2,3,4" data-slide="1" id="MultiCarousel" data-interval="1000">--}}
+                    {{--<div class="MultiCarousel-inner">--}}
+                        {{--<div class="item">--}}
+                            {{--<div class="pad15">--}}
+                                {{--<a href="{{route('schedulePickup.Index')}}" target="_blank">--}}
+                                    {{--<img src="{{asset('img/images/courier-from-india-to-usa.png')}}" class="boxofScroll"/>--}}
+                                {{--</a>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="item">--}}
+                            {{--<div class="pad15">--}}
+                                {{--<a href="/international-parcel-forwarding-india-online-shopping" target="_blank">--}}
+                                    {{--<img src="{{asset('img/images/parcel-forwarding-offer.png')}}" class="boxofScroll"/>--}}
+                                {{--</a>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="item">--}}
+                            {{--<div class="pad15">--}}
+                                {{--<a href="/personal-shopper-india" target="_blank">--}}
+                                    {{--<img src="{{asset('img/images/personal-shopper-offer.png')}}" class="boxofScroll"/>--}}
+                                {{--</a>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="item">--}}
+                            {{--<div class="pad15">--}}
+                                {{--<a href="/refer-a-friend" target="_blank">--}}
+                                    {{--<img src="{{asset('img/images/refer-freind-offer.png')}}" class="boxofScroll"/>--}}
+                                {{--</a>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                    {{--<button class="btn btn-primary leftLst"><</button>--}}
+                    {{--<button class="btn btn-primary rightLst">></button>--}}
+                {{--</div>--}}
+            {{--</div>--}}
 
 
         </div>
         <div class="container">
             <br/>
-            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites May-2019 Sales</h3>
+            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites May-2019 Sales:</h3>
+            <div>
+                <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                    <a href="https://www.amazon.in/b?node=5731634031&pf_rd_p=671af163-38fb-4c80-a454-78d54eefb333&pf_rd_r=4KD0QYDGQ2M14SJV4PXT" title="amazon.in" target="_blank">1. Amazon Summer Sale</a> |
+                    <a href="https://www.myntra.com/shop/comiccon-prebuzz-may05" title="myntra.com" target="_blank">2. Myntra Comic Con India:</a> 8th & 9th May |
+                    <a href="https://www.tajonline.com/mothers-day-gifts/" title="tajonline.com" target="_blank">3. Buy Amazing Gifts for your Super Moms</a> |
+                    <a href="https://www.amazon.in/mothers-day-store/b?ie=UTF8&node=6630507031" title="Amazon.in" target="_blank">4. Mother's Day Gift Shop</a></marquee>
+            </div>
+
             <br/>
             <div class="row">
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Flipstart Days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">1st to 3rd May 2019</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Summer Carnival</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 80% OFF</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-shopping-with-shoppre-from-india"
                                    target="_blank">
@@ -160,7 +168,7 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Upto 75% Off</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Exclusive Style Store</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">Summer Alert</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="https://www.limeroad.com/shopping-offers/?src=shoppre">
@@ -186,10 +194,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">First Purchase & Signup</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">300 Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Spring Summer Special</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Flat 30% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://indiacircus.com/offers?src=shoppre">
+                                <a href="https://indiacircus.com/sales/clearance-sale.html">
                                     <img src="{{asset('uploads/stores/logo_59a67ba7cb9ec.png')}}"/>
                                 </a>
                             </div>
@@ -202,11 +210,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Myntra Unique</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">MIN. 40% OFF + More</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">COMIC CON INDIA</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">8th - 9th May 2019</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="/myntra-online-shopping-shipping-from-india">
+                                <a href="https://www.myntra.com/shop/comiccon-prebuzz-may05" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5997a62748742.png')}}"/>
                                 </a>
                             </div>
@@ -219,7 +227,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">May newness!</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.ajio.com/?src=shoppre">
+                                <a href="https://www.ajio.com">
                                     <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>
                                 </a>
                             </div>
@@ -232,7 +240,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Summer Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">4th to 7th May 2019</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" target="_blank">
+                                <a href="https://www.amazon.in/" target="_blank">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>
@@ -243,7 +251,7 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Brand Day</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">30-60% Off</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">40-60% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.jabong.com">
                                     <img src="https://www.shoppre.com/uploads/stores/logo_599691d00e27e.png"/>
@@ -300,7 +308,7 @@
         </div>
         <br>
 
-        <div class="container">
+        <div class="container text-center">
             <h3 class="header3 p-color-cement-dark font-weight-900">LIVE Sales:</h3>
             <p>Fashion Category:</p>
             <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/38315?pub_id=54240CL48886'></iframe>

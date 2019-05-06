@@ -72,8 +72,8 @@
   "aggregateRating": {
     "@type" : "AggregateRating",
     "bestRating": "5",
-    "ratingValue" : "4.8",
-    "reviewCount" : "146",
+    "ratingValue" : "4.7",
+    "reviewCount" : "158",
     "worstRating" : 2.0
   }
 }

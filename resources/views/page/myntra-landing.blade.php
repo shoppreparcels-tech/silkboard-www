@@ -73,13 +73,13 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <div class="shopandship ">
-                        <h2>Brand Day</h2>
-                        <br/>
-                        <p>MIN. 40% OFF</p>
-                        <p>TEE FEST, JEANS</p>
-                        <p>At ₹999/- & More</p>
-                    </div>
+                    <a href="https://www.myntra.com/shop/comiccon-prebuzz-may05" target="_blank"><div class="shopandship ">
+                            <h2>COMIC CON INDIA</h2>
+                            <br/>
+                            <p>First-Ever Online</p>
+                            <p>Superhero Action Figures & Much More</p>
+                            <p>8th - 9th May 2019</p>
+                        </div></a>
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
@@ -92,13 +92,12 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="ic">
-                        <h2>LAVIE</h2>
-                        <br>
-                        <p>MIN. 50% OFF</p>
-                        <p>Bags & Shoes</p>
-                        <p>Starting from ₹249/-</p>
-
+                    <a href="https://www.myntra.com/offerl-libas" target="_blank"><div class="ic">
+                            <h2>Libas</h2>
+                            <br>
+                            <p>UP TO 60% OFF</p>
+                            <p>Kurta, Etnic Jacket, Maxi Dress</p>
+                            <p>Starting from ₹249/-</p></a>
                     </div>
                 </div>
             </div>

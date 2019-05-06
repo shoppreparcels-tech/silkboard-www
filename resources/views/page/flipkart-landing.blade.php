@@ -78,14 +78,13 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="ic">
-                        <h2>50-80% Off</h2>
-                        <br>
-                        <p>Bags, Trolleys & Wallets</p>
-                        <p>Starting from ₹197</p>
-                        <p>May 2019 </p>
-
-                    </div>
+                    <a href="https://www.flipkart.com/electronics-summer-carnival-store" target="_blank"><div class="ic">
+                            <h2>Summer Carnival</h2>
+                            <br>
+                            <p>Electronics & Accessories</p>
+                            <p>Up to 80% Off</p>
+                            <p>May 2019 </p>
+                        </div></a>
                 </div>
             </div>
 
