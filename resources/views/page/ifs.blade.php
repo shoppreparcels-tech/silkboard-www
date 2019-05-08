@@ -149,10 +149,14 @@
 
     <section>
         <div>
-            <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9"><a href="https://www.amazon.in/b?node=5731634031&pf_rd_p=671af163-38fb-4c80-a454-78d54eefb333&pf_rd_r=4KD0QYDGQ2M14SJV4PXT" title="amazon.in" target="_blank">1. Amazon Summer Sale</a> |
-                <a href="https://www.myntra.com/shop/comiccon-prebuzz-may05" title="myntra.com" target="_blank">2. Myntra Comic Con India:</a> 8th & 9th May |
-                <a href="https://www.tajonline.com/mothers-day-gifts/" title="tajonline.com" target="_blank">3. Buy Amazing Gifts for your Super Moms</a> |
-                <a href="https://www.amazon.in/mothers-day-store/b?ie=UTF8&node=6630507031" title="Amazon.in" target="_blank">4. Mother's Day Gift Shop</a></marquee>
+            <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                <a href="https://www.amazon.in/b?node=6630507031&pf_rd_p=5f642fe7-13c9-44df-a7c5-ec4d60078e67&pf_rd_r=9ZARR54SQ5K5YHKSF0G2" title="amazon.in" target="_blank">1. Amazon.in - Mother's Day Gift</a> |
+                <a href="https://www.snapdeal.com/offers/mothers-day" title="Snapdeal" target="_blank">2. Snapdeal - Starting from ₹209</a> |
+                <a href="https://www.voylla.com/campaign/jewellery-for-mother" title="voylla.com" target="_blank">3. Voylla - Jewellery For Mother</a> |
+                <a href="https://www.jabong.com/sis/mothers-day" title="Jabong" target="_blank">4. Jabong - Gift it for your MUM</a> |
+                <a href="https://www.jaypore.com/sale" title="Jaypore" target="_blank">5. Jaypore - Mother's Week Sale 50% Off</a> |
+                <a href="https://www.floweraura.com/mothers-day" title="Floweraura" target="_blank">6. Floweraura</a>
+            </marquee>
         </div>
         <div class="container" id="how-it-works">
             <div>

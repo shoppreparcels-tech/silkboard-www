@@ -78,7 +78,7 @@
                             <br/>
                             <p>First-Ever Online</p>
                             <p>Superhero Action Figures & Much More</p>
-                            <p>8th - 9th May 2019</p>
+                            <p>8th - 12th May 2019</p>
                         </div></a>
                 </div>
                 <div class="col-sm-4">
@@ -97,7 +97,7 @@
                             <br>
                             <p>UP TO 60% OFF</p>
                             <p>Kurta, Etnic Jacket, Maxi Dress</p>
-                            <p>Starting from ₹249/-</p></a>
+                            <p>Starting from ₹249/-</p></div></a>
                     </div>
                 </div>
             </div>

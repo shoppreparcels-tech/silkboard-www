@@ -435,7 +435,7 @@
                             </h1>
                         </div>
                     </div>
-                    <div class="col-md-12 col-xs-12 no-pad h-s-a "><br>
+                    <div class="col-md-12 col-xs-12 no-pad h-s-a" style="margin-bottom: 20px;"><br>
                         <div class="col-md-4 col-xs-4 pad-r-5 ">
                             <a class="f-s-18 f-c-white" href="/shop-from-india-ship-worldwide">
                                 <div class="col-xs-12 col-md-12 pad-0-40 div-s-br ">
@@ -472,8 +472,17 @@
                                 </div>
                             </a>
                         </div>
+
                     </div>
-                    {{--<marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">Dear Customers, We are hereby informing you that our services will remain closed on 6th April 2019 on the occasion of Ugadi Festival. Happy Ugadi!</marquee>--}}
+                    <span class="f-s-16 f-c-red f-w-9">Surprise your Mom - Shop for the Mother's Day Gift Online & Save 80% on Shipping with ShoppRe.com</span>
+                    <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                        <a href="https://www.amazon.in/b?node=6630507031&pf_rd_p=5f642fe7-13c9-44df-a7c5-ec4d60078e67&pf_rd_r=9ZARR54SQ5K5YHKSF0G2" title="amazon.in" target="_blank">1. Amazon.in - Mother's Day Gift</a> |
+                        <a href="https://www.snapdeal.com/offers/mothers-day" title="Snapdeal" target="_blank">2. Snapdeal - Starting from ₹209</a> |
+                        <a href="https://www.voylla.com/campaign/jewellery-for-mother" title="voylla.com" target="_blank">3. Voylla - Jewellery For Mother</a> |
+                        <a href="https://www.jabong.com/sis/mothers-day" title="Jabong" target="_blank">4. Jabong - Gift it for your MUM</a> |
+                        <a href="https://www.jaypore.com/sale" title="Jaypore" target="_blank">5. Jaypore - Mother's Week Sale 50% Off</a> |
+                        <a href="https://www.floweraura.com/mothers-day" title="Floweraura" target="_blank">6. Floweraura</a>
+                    </marquee>
                 </div>
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
@@ -785,7 +794,7 @@
                 </div>
                 <div class="col-xs-3   div-stores-img">
                     <center class="online-stores">
-                        <a href="{{route('amazon.landing')}}">
+                        <a href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" target="_blank">
                             <img class="img-responsive img-stores"
                                  src="{{env('AWS_CLOUD_FRONT')}}/img/stores/amazon-india-shopping.png"
                                  alt="amazon.in international delivery shipping">
@@ -1320,6 +1329,17 @@
 @endsection
 
 @section('js_script')
+
+    <script type='text/javascript'>
+        var pubID = '54240CL48886';
+
+        (function(d, t) {
+            var s = document.createElement('script');s.type = 'text/javascript';
+            s.async = true;s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv1.js';
+            document.getElementsByTagName('body')[0].appendChild(s);
+        }());
+    </script>
+
     <script>
         $(document).ready(function () {
             let html = '';
