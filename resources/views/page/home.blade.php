@@ -1351,7 +1351,7 @@
             let imgUrl = 'https://cdn.shoppre.com/shoppre/';
 
             // jQuery.ajax({
-            //     url: 'https://parcel-api.shoppre.com/api/www/shipments',
+            //     url: 'https://parcel.shoppre.com/api/www/shipments',
             //     type: "GET",
             //     async: false,
             //     success: function (res) {

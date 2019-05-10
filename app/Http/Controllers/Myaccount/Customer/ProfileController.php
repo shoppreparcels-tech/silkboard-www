@@ -106,7 +106,7 @@ class ProfileController extends Controller
 
         $customer = Customer::find($id);
 
-        $status_code = $this->signUp($customer);
+        $status_code = $this->signUp($customer, 'parcel');
 //        echo  $status_code;exit;
 
         if ($status_code == 201)
@@ -128,20 +128,29 @@ class ProfileController extends Controller
     {
         $id = Auth::id();
         $customer = Customer::find($id);
-        if ($customer->is_migrated == 1 && $request->login_attempt =='no') {
+//        echo json_encode($customer);
+//        exit;
+        if (($customer->is_migrated == 1 || $customer->is_courier_migrated == 1) && $request->login_attempt =='no') {
 
-            $status_code = $this->signUp($customer);
+            $status_code = $this->signUp($customer, 'parcel');
 
-            if ($status_code == 201)
+            if ($status_code == 201 && $customer->is_migrated == 1)
             {
                 $customer->is_migrated = 2;
                 $customer->save();
+            } else if($status_code == 201 && $customer->is_courier_migrated == 1) {
+                $customer->is_courier_migrated = 2;
+                $customer->save();
             }
 
-            $authorized_url = Authorization::authorizeUser($customer->email);
+            if ($customer->is_courier_migrated === 2) {
+                $authorized_url = Authorization::authorizeCourierUser($customer->email);
+            } else {
+                $authorized_url = Authorization::authorizeUser($customer->email);
+            }
 
             return redirect($authorized_url);
-        } else if($customer->is_migrated == 2 && $request->login_attempt =='no') {
+        } else if(($customer->is_migrated == 2 && $customer->is_courier_migrated == 0)&& $request->login_attempt =='no') {
             $authorized_url = Authorization::authorizeUser($customer->email);
 
             if ($request->session()->get('continue')) {
@@ -149,8 +158,37 @@ class ProfileController extends Controller
             } else {
                 return redirect($authorized_url);
             }
-        }
-        else if ($customer->is_migrated == 2 && ($request->login_attempt =='yes' || $request->login_attempt == '')) {
+        } else if(($customer->is_migrated == 0 && $customer->is_courier_migrated == 2)&& $request->login_attempt =='no') {
+            $authorized_url = Authorization::authorizeCourierUser($customer->email);
+
+            if ($request->session()->get('continue')) {
+                return redirect($authorized_url. '&continue='.$request->session()->get('continue') );
+            } else {
+                return redirect($authorized_url);
+            }
+        }  else if(($customer->is_migrated == 2 && $customer->is_courier_migrated == 2)&& $request->login_attempt =='no') {
+            $authorized_url = Authorization::authorizeUser($customer->email);
+
+            if ($request->session()->get('continue')) {
+                return redirect($authorized_url. '&continue='.$request->session()->get('continue') );
+            } else {
+                return redirect($authorized_url);
+            }
+        } else if (($customer->is_migrated == 2 && $customer->is_courier_migrated == 0) && ($request->login_attempt =='yes' || $request->login_attempt == '')) {
+            $authorized_url = Authorization::authorizeUser($customer->email);
+            if ($request->session()->get('continue')) {
+                return redirect($authorized_url. '&continue='. $request->session()->get('continue') );
+            } else {
+                return redirect($authorized_url);
+            }
+        } else if (($customer->is_migrated == 0 && $customer->is_courier_migrated == 2) && ($request->login_attempt =='yes' || $request->login_attempt == '')) {
+            $authorized_url = Authorization::authorizeCourierUser($customer->email);
+            if ($request->session()->get('continue')) {
+                return redirect($authorized_url. '&continue='. $request->session()->get('continue') );
+            } else {
+                return redirect($authorized_url);
+            }
+        } else if (($customer->is_migrated == 2 && $customer->is_courier_migrated == 2) && ($request->login_attempt =='yes' || $request->login_attempt == '')) {
             $authorized_url = Authorization::authorizeUser($customer->email);
             if ($request->session()->get('continue')) {
                 return redirect($authorized_url. '&continue='. $request->session()->get('continue') );
@@ -202,7 +240,7 @@ class ProfileController extends Controller
         ]);
     }
 
-    public function signUp($customer)
+    public function signUp($customer, $domain)
     {
             $this->signUpApi($customer);
             $curl = curl_init();
@@ -231,7 +269,7 @@ class ProfileController extends Controller
                 'hooks' => false
             ];
 
-            $url = env('MIGRATION_PREFIX') ."parcel-api.".env('DOMAIN')."/api/users/public/register";
+            $url = env('MIGRATION_PREFIX') .$domain.".".env('DOMAIN')."/api/users/public/register";
             curl_setopt_array($curl, array(
                 CURLOPT_URL => $url,
                 CURLOPT_RETURNTRANSFER => true,
@@ -283,7 +321,7 @@ class ProfileController extends Controller
                 'hooks' => false
             ];
 
-            $url = env('MIGRATION_PREFIX') ."api.".env('DOMAIN')."/api/users/public/register";
+            $url = env('MIGRATION_PREFIX') ."login.".env('DOMAIN')."/api/users/register";
             curl_setopt_array($curl, array(
                 CURLOPT_URL => $url,
                 CURLOPT_RETURNTRANSFER => true,

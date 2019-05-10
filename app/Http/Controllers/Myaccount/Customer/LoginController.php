@@ -50,5 +50,6 @@ class LoginController extends Controller
              return redirect()->back()->with('error_message', 'Please verify your email')->withInput($req->only('email', 'remember'));
          }
         }
+        return redirect()->back()->with('error_message', 'Your email/password combination was incorrect')->withInput($req->only('email', 'remember'));
 	}
 }

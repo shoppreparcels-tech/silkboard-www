@@ -30,7 +30,7 @@ class Authorization
             'app_id' => endsWith($email, '@shoppre.com') ? $OPS : $PARCEL,
         ];
 
-        $url = env('MIGRATION_PREFIX') . "api.".env('DOMAIN')."/authorise";
+        $url = env('MIGRATION_PREFIX') . "login.".env('DOMAIN')."/api/authorise";
 
         $curl = curl_init();
 
@@ -69,7 +69,7 @@ class Authorization
             'app_id' => $Courier,
         ];
 
-        $url = env('MIGRATION_PREFIX') . "api.".env('DOMAIN')."/authorise";
+        $url = env('MIGRATION_PREFIX') . "login.".env('DOMAIN')."/api/authorise";
 
         $curl = curl_init();
 
@@ -123,7 +123,7 @@ class Authorization
             'hooks' => false
         ];
 
-        $url = env('MIGRATION_PREFIX') ."parcel-api.".env('DOMAIN')."/api/users/public/register";
+        $url = env('MIGRATION_PREFIX') ."parcel.".env('DOMAIN')."/api/users/public/register";
         curl_setopt_array($curl, array(
             CURLOPT_URL => $url,
             CURLOPT_RETURNTRANSFER => true,
@@ -188,7 +188,7 @@ class Authorization
             'hooks' => false
         ];
 
-        $url = env('MIGRATION_PREFIX') ."courier-api.".env('DOMAIN')."/api/users/public/register";
+        $url = env('MIGRATION_PREFIX') ."courier.".env('DOMAIN')."/api/users/public/register";
         curl_setopt_array($curl, array(
             CURLOPT_URL => $url,
             CURLOPT_RETURNTRANSFER => true,

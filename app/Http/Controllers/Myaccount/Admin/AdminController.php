@@ -159,7 +159,7 @@ class AdminController extends Controller
             'virtual_address_code' => $user->locker,
             'hooks' => false
         ];
-        $url = env('MIGRATION_PREFIX') ."parcel-api.".env('DOMAIN')."/api/users/public/register";
+        $url = env('MIGRATION_PREFIX') ."parcel.".env('DOMAIN')."/api/users/public/register";
         curl_setopt_array($curl, array(
             CURLOPT_URL => $url,
             CURLOPT_RETURNTRANSFER => true,
@@ -210,7 +210,7 @@ class AdminController extends Controller
             'password' => $user->password,
             'hooks' => false
         ];
-        $url = env('MIGRATION_PREFIX') ."api.".env('DOMAIN')."/api/users/public/register";
+        $url = env('MIGRATION_PREFIX') ."login.".env('DOMAIN')."/api/users/register";
         curl_setopt_array($curl, array(
             CURLOPT_URL => $url,
             CURLOPT_RETURNTRANSFER => true,
