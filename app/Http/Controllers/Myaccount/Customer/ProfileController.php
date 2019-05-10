@@ -242,65 +242,66 @@ class ProfileController extends Controller
 
     public function signUp($customer, $domain)
     {
-            $this->signUpApi($customer);
-            $curl = curl_init();
-            $name = $customer->name;
-            $name = str_replace("Mr. ","",$name);
-            $name = str_replace("Ms. ","",$name);
-            $name = str_replace("Mrs. ","",$name);
-            $splitName = explode(' ', $name, 3); // Restricts it to only 3 values, for names like Billy Bob Jones
+            $httpcode = $this->signUpApi($customer);
+            return $httpcode;
+//            $curl = curl_init();
+//            $name = $customer->name;
+//            $name = str_replace("Mr. ","",$name);
+//            $name = str_replace("Ms. ","",$name);
+//            $name = str_replace("Mrs. ","",$name);
+//            $splitName = explode(' ', $name, 3); // Restricts it to only 3 values, for names like Billy Bob Jones
+//
+//            $first_name = $splitName[0];
+//            $middle_name = !empty($splitName[1]) ? $splitName[1] : '';
+//            $last_name = !empty($splitName[2]) ? $splitName[2] : '';
+//            $data_string = [
+//                'id' => $customer->id,
+//                'salutation' => '',
+//                'first_name' => $first_name,
+//                'last_name' => $middle_name.' '.$last_name,
+//                'email' => $customer->email,
+//                'referer' => $customer->referer,
+//                'first_visit' => $customer->first_visit,
+//                'utm_campaign' => $customer->utm_campaign,
+//                'utm_source' => $customer->utm_source,
+//                'utm_medium' => $customer->utm_medium,
+//                'gcl_id' => $customer->gcl_id,
+//                'virtual_address_code' => $customer->locker,
+//                'hooks' => false
+//            ];
+//
+//            $url = env('MIGRATION_PREFIX') .$domain.".".env('DOMAIN')."/api/users/public/register";
+//            curl_setopt_array($curl, array(
+//                CURLOPT_URL => $url,
+//                CURLOPT_RETURNTRANSFER => true,
+//                CURLOPT_HEADER  => true,
+//                CURLOPT_ENCODING => "",
+//                CURLOPT_MAXREDIRS => 10,
+//                CURLOPT_TIMEOUT => 30,
+//                CURLOPT_FOLLOWLOCATION => true,
+//                CURLOPT_AUTOREFERER    => true,
+//                CURLOPT_CONNECTTIMEOUT => 120,
+//                CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+//                CURLOPT_CUSTOMREQUEST => "POST",
+//                CURLOPT_POSTFIELDS => json_encode($data_string),
+//                CURLOPT_HTTPHEADER => array(
+//                    "cache-control: no-cache",
+//                    "content-type: application/json",
+//                    "postman-token: abea44b9-1858-235d-ef6d-a7d67e8130da"
+//                ),
+//            ));
+//
+//            $response = curl_exec($curl);
+//            $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+//            $err = curl_error($curl);
+//
+//            curl_close($curl);
 
-            $first_name = $splitName[0];
-            $middle_name = !empty($splitName[1]) ? $splitName[1] : '';
-            $last_name = !empty($splitName[2]) ? $splitName[2] : '';
-            $data_string = [
-                'id' => $customer->id,
-                'salutation' => '',
-                'first_name' => $first_name,
-                'last_name' => $middle_name.' '.$last_name,
-                'email' => $customer->email,
-                'referer' => $customer->referer,
-                'first_visit' => $customer->first_visit,
-                'utm_campaign' => $customer->utm_campaign,
-                'utm_source' => $customer->utm_source,
-                'utm_medium' => $customer->utm_medium,
-                'gcl_id' => $customer->gcl_id,
-                'virtual_address_code' => $customer->locker,
-                'hooks' => false
-            ];
-
-            $url = env('MIGRATION_PREFIX') .$domain.".".env('DOMAIN')."/api/users/public/register";
-            curl_setopt_array($curl, array(
-                CURLOPT_URL => $url,
-                CURLOPT_RETURNTRANSFER => true,
-                CURLOPT_HEADER  => true,
-                CURLOPT_ENCODING => "",
-                CURLOPT_MAXREDIRS => 10,
-                CURLOPT_TIMEOUT => 30,
-                CURLOPT_FOLLOWLOCATION => true,
-                CURLOPT_AUTOREFERER    => true,
-                CURLOPT_CONNECTTIMEOUT => 120,
-                CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-                CURLOPT_CUSTOMREQUEST => "POST",
-                CURLOPT_POSTFIELDS => json_encode($data_string),
-                CURLOPT_HTTPHEADER => array(
-                    "cache-control: no-cache",
-                    "content-type: application/json",
-                    "postman-token: abea44b9-1858-235d-ef6d-a7d67e8130da"
-                ),
-            ));
-
-            $response = curl_exec($curl);
-            $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
-            $err = curl_error($curl);
-
-            curl_close($curl);
-
-            if ($err) {
-                echo "cURL Error #:" . $err;
-            } else {
-                return $httpcode;
-            }
+//            if ($err) {
+//                echo "cURL Error #:" . $err;
+//            } else {
+//                return $httpcode;
+//            }
         }
 
     public function signUpApi($customer)
@@ -348,11 +349,11 @@ class ProfileController extends Controller
 
             curl_close($curl);
 
-            if ($err) {
-                echo "cURL Error #:" . $err;
-            } else {
-                return $httpcode;
-            }
+        if ($err) {
+            echo "cURL Error #:" . $err;
+        } else {
+            return $httpcode;
+        }
     }
 
     public function lockerInreview()
