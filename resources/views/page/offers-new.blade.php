@@ -155,10 +155,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Summer Carnival</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up To 80% OFF</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Shopping Days</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">15th - 19th May</h5>
                             <div class="ecomSmallBox">
-                                <a href="/flipkart-shopping-with-shoppre-from-india"
+                                <a href="https://www.flipkart.com/big-shopping-days-store"
                                    target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>

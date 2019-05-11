@@ -73,14 +73,14 @@
             </div>
             <div class="col-md-3 col-lg-3 col-sm-6 col-xs-8 pad-5">
                 <ul class="nav-ul">
-                    <li class="li"><a itemprop="url" class="footer-a" href="{{route('medicine')}}">Medicine International Courier</a></li>
-                    <li class="li"><a itemprop="url" class="footer-a" href="/university-offer">Documents International Courier</a></li>
-                    <li class="li"><a itemprop="url" class="footer-a" href="{{route('packers-movers')}}" >Relocation, Packers & Movers</a></li>
-                    <li class="li"><a itemprop="url" class="footer-a" href="{{route('forwarding')}}">Package Forwarding from India</a></li>
-                    <li class="li"><a itemprop="url" class="footer-a" href="{{route('voucher')}}">International Shipping Card</a></li>
-                    <li class="li"><a itemprop="url" class="footer-a" href="{{route('first-shipment')}}">First Shipment Discount</a></li>
-                    <li class="li"><a itemprop="url" class="footer-a" href="/international-courier-charges-india-to-usa-per-kg" >Courier from India to USA</a></li>
-                    <li class="li"><a itemprop="url" class="footer-a" href="international-courier-charges-india-to-uae-per-kg">Courier from India to UAE</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="{{route('medicine')}}">ShoppRe Medicine Courier</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="/university-offer">ShoppRe Documents Courier</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="{{route('packers-movers')}}" >ShoppRe Packers & Movers</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="{{route('forwarding')}}">ShoppRe Package Forwarding</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="{{route('voucher')}}">ShoppRe Shipping Voucher</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="/sellers-shipping" >ShoppRe for Sellers Shipping</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="https://ship.shoppre.com/seller/" target="_blank">ShoppRe eCommerce Solution</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="https://ship.shoppre.com/international-commercial-shipping-services-india/" target="_blank">Commercial/Bulk Shipments</a></li>
                 </ul>
             </div>
 

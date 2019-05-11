@@ -1,9 +1,9 @@
 @extends('layout')
 
 
-@section('title', 'Personal Shopper | Shop From India, Ship Worldwide | Self & Assisted Shopping')
+@section('title', 'Assisted Purchase for You | Personal Shopper in India | Ship to USA')
 @section('description', 'Payment hassles at checkout? No worries. Hire one of our experts to shop for you. We will pay for your order and will receive your order at our warehouse.')
-@section('keywords', 'shop online from india, self shopping, assisted, personal shopper, international shipping')
+@section('keywords', 'shop online from india, self shopping, assisted purchase usa, personal shopper, international shipping')
 
 @section('css_style')
 
@@ -34,7 +34,7 @@
                 </h1>
             </div>
             <div class="col-md-4 col-xs-12 div-align-items-r">
-                <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Personal%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="d-contact-img-desktop">
+                <a href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20interested,%20In%20Assisted%20Shopping%20from%20Indian%20Stores" title="Click for WhatsApp" target="_blank" class="d-contact-img-desktop">
                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
                 </a>
                 <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Personal%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="d-contact-img">
@@ -45,7 +45,7 @@
 
         <div class="container">
             <div class="col-md-5 col-lg-5 col-sm-5 col-xs-12">
-                <h1 class="header2 p-color-white">Personal Shopper</h1>
+                <h1 class="header2 p-color-white">Personal Shopper (Assisted Purchase)</h1>
                 <h3 class="header4 p-color-cement">Payment hassles at checkout? No worries! Hire one of our experts
                     to shop for you! </h3>
 

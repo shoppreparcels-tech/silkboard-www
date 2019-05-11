@@ -554,76 +554,76 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-pistaas-womens-viscose-solid-kurta-shop-on-amazon-india-and-ship-to-florida-usa/" title="Click to Know More" target="_blank">
+                        <a href="https://ship.shoppre.com/online-shop-india/buy-hippo-sun-shade-sail-blockage-online-in-amazon-india-ship-oman/" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white"> Women's Clothing </h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Outdoor Camping Tents</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Pistaa's Women's Viscose Solid High Low Hem Kurta from Amazon.in </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Hippo Sun Shade Sail Sun Blockage from Amazon.in </p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Get a pack of 6 Men & Women outfits shipped within 2 working days. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Hippo Sun Blockage With Ss Hook & Rope shipped within 3 working days. </p>
                         </div>
                         <div>
                             <h2 class="f-s-16 f-c-d-greay">
-                                <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Florida, USA</span>
+                                <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Oman, Middle East</span>
                             </h2>
                         </div>
                         </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-asus-zenfone-max-pro-m1-black-64-gb-low-prices-in-flipkart-ship-hong-kong/" title="Click to Know Highlights" target="_blank">
+                        <a href="https://ship.shoppre.com/online-shop-india/buy-dr-relief-smart-height-increasing-belt-for-growth-amazon-indai-ship-united-states/" title="Click to Know Highlights" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Mobiles & Accessories</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Health & Personal Care</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Asus Zenfone Max Pro M1, 6GB RAM, 64GB Storage from Flipkart.com </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Dr Relief Smart Height Increasing Belt for Growth from Amazon.in </p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Get your desired smartphone delivered to you within 4 working days. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Buy online at low-prices, delivered to you within 2 working days. </p>
                         </div>
                         <div>
                             <h2 class="f-s-16 f-c-d-greay">
-                                <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">North Lantau, Hong Kong</span>
+                                <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">New York	, USA</span>
                             </h2>
                         </div>
                     </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-adiyogi-shiva-statue-ishashoppe-ship-to-florida-usa/#" title="Know Additional Information" target="_blank">
+                        <a href="https://ship.shoppre.com/online-shop-india/buy-rare-women-black-embroidered-detail-top-online-myntra-shipping-usa/" title="Know Additional Information" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Adiyogi Miniature Statue</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Women's Clothing</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Divine Statue of Adiyogi - 6 inch, Metal from Ishashoppe.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">RARE Women Black Embroidered Detail Top from Myntra.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop for Idols & Yoga Accessoriess, shipped to your doorstep in 3 days. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shipped with 4 products White Striped Shirt & Handcrafted Chandbalis </p>
                         </div>
                         <div>
                             <h2 class="f-s-16 f-c-d-greay">
-                                <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Califorina, USA</span>
+                                <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Texas, USA</span>
                             </h2>
                         </div>
                     </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-round-neck-t-shirt-from-myntra-india-and-ship-to-new-zealand/" title="Click for Product Details" target="_blank">
+                        <a href="https://ship.shoppre.com/online-shop-india/buy-allen-solly-men-printed-casual-green-shirt-on-flipkart-ship-to-arlington-heights-illinois-usa/" title="Click for Product Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
                             <div class="h-div"><h4 class="f-s-20 f-c-white">Men’s Clothing</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">WROGN Brown & Black Striped Round Neck T-shirt from Myntra.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Allen Solly Men Printed Casual Spread Shirt from Flipkart.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Get a pack of 5 Men Round Neck T-shirt shipped within 4 working days. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shipped with total 13 products of Men & Kids clothing, 3 days delivery </p>
                         </div>
                         <div>
                             <h2 class="f-s-16 f-c-d-greay">
-                                <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">New Zealand</span>
+                                <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Illinois, USA</span>
                             </h2>
                         </div>
                     </div>
