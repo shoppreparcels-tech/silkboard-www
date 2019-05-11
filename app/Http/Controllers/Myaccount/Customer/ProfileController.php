@@ -107,7 +107,7 @@ class ProfileController extends Controller
         $customer = Customer::find($id);
 
         $status_code = $this->signUp($customer, 'parcel');
-//        echo  $status_code;exit;
+//        echo  "customer".$customer;exit;
 
         if ($status_code == 201)
         {
