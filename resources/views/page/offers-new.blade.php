@@ -141,13 +141,10 @@
             <br/>
             <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites May-2019 Sales:</h3>
             <div>
+
                 <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                    <a href="https://www.amazon.in/b?node=6630507031&pf_rd_p=5f642fe7-13c9-44df-a7c5-ec4d60078e67&pf_rd_r=9ZARR54SQ5K5YHKSF0G2" title="amazon.in" target="_blank">1. Amazon.in - Mother's Day Gift</a> |
-                    <a href="https://www.snapdeal.com/offers/mothers-day" title="Snapdeal" target="_blank">2. Snapdeal - Starting from ₹209</a> |
-                    <a href="https://www.voylla.com/campaign/jewellery-for-mother" title="voylla.com" target="_blank">3. Voylla - Jewellery For Mother</a> |
-                    <a href="https://www.jabong.com/sis/mothers-day" title="Jabong" target="_blank">4. Jabong - Gift it for your MUM</a> |
-                    <a href="https://www.jaypore.com/sale" title="Jaypore" target="_blank">5. Jaypore - Mother's Week Sale 50% Off</a> |
-                    <a href="https://www.floweraura.com/mothers-day" title="Floweraura" target="_blank">6. Floweraura</a></marquee>
+                    <a href="https://www.flipkart.com/big-shopping-days-store" title="Flipkart" target="_blank">Flipkart.com - Big Shopping Days 15th - 19th May 2019</a>
+                    </marquee>
             </div>
 
             <br/>
@@ -212,11 +209,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">COMIC CON INDIA</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">8th - 12th May 2019</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">taavi - ethnic look</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40 - 60% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com/shop/comiccon-prebuzz-may05" target="_blank">
+                                <a href="https://www.myntra.com/taavi-may19-bif" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5997a62748742.png')}}"/>
                                 </a>
                             </div>
@@ -239,10 +236,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Mother's Day Gift Shop</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">April 27th to 12th May 2019</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Honor Days</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">13th - 17th May 2019</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.amazon.in/" target="_blank">
+                                <a href="https://www.amazon.in/b?node=9574337031&pf_rd_p=b89f28e1-5741-45d3-bed4-230079350a5a&pf_rd_r=FC4QP13FMFRDEM7WPD73" target="_blank">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>

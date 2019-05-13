@@ -1,10 +1,11 @@
 @extends('layout')
 
 @section('title', 'ShoppRe - Shop Indian Stores & Ship Internationally | Courier Service')
-@section('description', 'Sign Up for Indian Address. Shop your favorite Indian store and Ship Internationally. India&#039;s #1 international courier, shipping and consolidation company.')
-@section('keywords', 'shop and ship, courier service, shoppre, consolidation company, indian store, ship internationally, dhl, dtdc, cheapest package forwarding')
+@section('description', 'Sign Up for Indian Address. Shop your favorite Indian store and Ship Internationally. India&#039;s #1 International Courier, Shipping & Consolidation Company')
+@section('keywords', 'shop and ship, courier service, shoppre, consolidation company, indian store, ship internationally, dhl, dtdc, cheapest package forwarding usa')
 
 @section('css_style')
+    <meta name="robots" content="index">
     <link rel="canonical" href="https://www.shoppre.com"/>
     <!-- Owl Carousel -->
     {{--<link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/owl.carousel.min.css">--}}
@@ -15,7 +16,7 @@
     <link rel="stylesheet" href="{{asset('css/custom/shipment-sliders.css')}}">
     <script src="{{asset('js/shipments-slides.js')}}"></script>
 
-    <meta property="og:title" content="Shop and Ship with ShoppRe | International Courier & Consolidation Services"/>
+    <meta property="og:title" content="Shop and Ship with ShoppRe | International Courier and Consolidation Services"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://www.shoppre.com"/>
     <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
@@ -474,14 +475,10 @@
                         </div>
 
                     </div>
-                    <span class="f-s-16 f-c-red f-w-9">Surprise your Mom - Shop for the Mother's Day Gift Online & Save 80% on Shipping with ShoppRe.com</span>
+                    <span class="f-s-16 f-c-red f-w-9">Get ready for the biggest sale of the season from Flipkart.com & Save 80% on International Shipping.</span><br>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://www.amazon.in/b?node=6630507031&pf_rd_p=5f642fe7-13c9-44df-a7c5-ec4d60078e67&pf_rd_r=9ZARR54SQ5K5YHKSF0G2" title="amazon.in" target="_blank">1. Amazon.in - Mother's Day Gift</a> |
-                        <a href="https://www.snapdeal.com/offers/mothers-day" title="Snapdeal" target="_blank">2. Snapdeal - Starting from ₹209</a> |
-                        <a href="https://www.voylla.com/campaign/jewellery-for-mother" title="voylla.com" target="_blank">3. Voylla - Jewellery For Mother</a> |
-                        <a href="https://www.jabong.com/sis/mothers-day" title="Jabong" target="_blank">4. Jabong - Gift it for your MUM</a> |
-                        <a href="https://www.jaypore.com/sale" title="Jaypore" target="_blank">5. Jaypore - Mother's Week Sale 50% Off</a> |
-                        <a href="https://www.floweraura.com/mothers-day" title="Floweraura" target="_blank">6. Floweraura</a>
+                        <a href="https://www.flipkart.com/big-shopping-days-store" title="Flipkart" target="_blank">Flipkart.com - Big Shopping Days 15th - 19th May 2019</a>
+
                     </marquee>
                 </div>
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
@@ -546,93 +543,100 @@
         <div class="container-fluid fuid-padding pad-t`-40"><br><br>
             <div class="col-md-2 col-xs-12 pad-l-d">
                 <center>
-                    <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">ShoppRe <br>
+                    <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">Sales <br>
                         <span class="f-s-45 f-w-8 f-c-green "> Live</span></h1>
-                    <h4 class="f-s-18 f-c-l-gray txt-a-l">Recent Parcel <br>Delivery Update</h4>
+                    <h4 class="f-s-18 f-c-l-gray txt-a-l">Grab The<br>Running Offers</h4>
                 </center>
             </div>
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-hippo-sun-shade-sail-blockage-online-in-amazon-india-ship-oman/" title="Click to Know More" target="_blank">
+                        <a href="https://www.amazon.in/b?node=9574337031&pf_rd_p=b89f28e1-5741-45d3-bed4-230079350a5a&pf_rd_r=3MA72DWTVG6DA51Z9MYM" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Outdoor Camping Tents</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Amazon.in</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Hippo Sun Shade Sail Sun Blockage from Amazon.in </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Honor Days</span>: 13th to 17th May 2019</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Hippo Sun Blockage With Ss Hook & Rope shipped within 3 working days. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Save up to ₹10,000/- </p>
+                            <br>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Buy any HONOR Smartphone & Ship with Your ShoppRe Address </p>
                         </div>
-                        <div>
-                            <h2 class="f-s-16 f-c-d-greay">
-                                <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Oman, Middle East</span>
-                            </h2>
-                        </div>
+                        {{--<div>--}}
+                            {{--<h2 class="f-s-16 f-c-d-greay">--}}
+                                {{--Shop Honor from Amazon.in India : <span class="p-color-blue">Ship to your doorstep </span>--}}
+                            {{--</h2>--}}
+                        {{--</div>--}}
                         </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-dr-relief-smart-height-increasing-belt-for-growth-amazon-indai-ship-united-states/" title="Click to Know Highlights" target="_blank">
+                        <a href="https://www.flipkart.com/" title="Click to Know Highlights" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Health & Personal Care</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Flipkart.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Dr Relief Smart Height Increasing Belt for Growth from Amazon.in </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Big Shopping Days</span>: 15th - 19th May </p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Buy online at low-prices, delivered to you within 2 working days. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop More, Save More on Shipping.</p>
+                            <br>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Clothing, Footwear, Beauty, Baby Care, iPhones, Laptops, TVs & more</p>
                         </div>
-                        <div>
-                            <h2 class="f-s-16 f-c-d-greay">
-                                <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">New York	, USA</span>
-                            </h2>
-                        </div>
+                        {{--<div>--}}
+                            {{--<h2 class="f-s-16 f-c-d-greay">--}}
+                                {{--<img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">New York	, USA</span>--}}
+                            {{--</h2>--}}
+                        {{--</div>--}}
                     </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-rare-women-black-embroidered-detail-top-online-myntra-shipping-usa/" title="Know Additional Information" target="_blank">
+                        <a href="https://www.myntra.com/fusion-wear?rf=Discount%20Range%3A20.0_100.0_20.0%20TO%20100.0" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Women's Clothing</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Myntra.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">RARE Women Black Embroidered Detail Top from Myntra.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">A Tryst With TRADITION</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shipped with 4 products White Striped Shirt & Handcrafted Chandbalis </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 60% Off</p>
+                            <br>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Buy AKS, Vaamsi, Vishudh, Libas, Anouk Kurtas for Women. Starting ₹439/-</p>
                         </div>
-                        <div>
-                            <h2 class="f-s-16 f-c-d-greay">
-                                <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Texas, USA</span>
-                            </h2>
-                        </div>
+                        {{--<div>--}}
+                            {{--<h2 class="f-s-16 f-c-d-greay">--}}
+                                {{--<img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Texas, USA</span>--}}
+                            {{--</h2>--}}
+                        {{--</div>--}}
                     </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-allen-solly-men-printed-casual-green-shirt-on-flipkart-ship-to-arlington-heights-illinois-usa/" title="Click for Product Details" target="_blank">
+                        <a href="https://www.nykaa.com/offers.html" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Men’s Clothing</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Nykaa.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Allen Solly Men Printed Casual Spread Shirt from Flipkart.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Beauty Bonanza</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shipped with total 13 products of Men & Kids clothing, 3 days delivery </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Daily Dose of Amazing Offers </p>
+                            <br>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Starting from 20% to 70% Off. Nykaa Naturals, Scrub, Face Wash & more. </p>
                         </div>
-                        <div>
-                            <h2 class="f-s-16 f-c-d-greay">
-                                <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Illinois, USA</span>
-                            </h2>
-                        </div>
+                        {{--<div>--}}
+                            {{--<h2 class="f-s-16 f-c-d-greay">--}}
+                                {{--<img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Illinois, USA</span>--}}
+                            {{--</h2>--}}
+                        {{--</div>--}}
                     </div>
                         </a>
                     </div>
                     </div>
                 </div>
                 <br>
-
             </div>
         </div>
     </section>
@@ -1011,11 +1015,11 @@
     <section style="background-color: #FFFBBE;">
         <div class="container-fluid" style="padding-left: 12%;padding-right: 18%;">
             <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">
-                <p class="header1 p-color-black p-h-margin-customer"><font color="red">E</font>arn with US</p>
+                <p class="header1 p-color-black p-h-margin-customer"><font color="red">E</font>arn with us</p>
                 <br>
-                <h4>Get an instant reward of 7 dollars in your ShoppRe wallet just by referring the referral code to a
+                <h4>Get an instant reward of 7 dollars in your ShoppRe Wallet just by referring the referral code to a
                     friend.</h4>
-                <h4>Referral gets 7 dollars credited to thier ShoppRe wallet post the shipment done by the referee.</h4>
+                <h4>Referral gets 7 dollars credited to thier ShoppRe Wallet post the shipment done by the Referee.</h4>
                 <br>
                 <a href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank" class="btn-s-r btn-b-r btn ">Join Our Referral Network</a>
                 <br>
@@ -1026,6 +1030,105 @@
             </div>
         </div>
     </section>
+
+    <section>
+        <div class="container-fluid fuid-padding pad-t`-40"><br><br>
+            <div class="col-md-2 col-xs-12 pad-l-d">
+                <center>
+                    <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">ShoppRe <br>
+                        <span class="f-s-45 f-w-8 f-c-green "> Live</span></h1>
+                    <h4 class="f-s-18 f-c-l-gray txt-a-l">Recent Parcel <br>Delivery Update</h4>
+                </center>
+            </div>
+            <div class="col-md-10 col-xs-12 pad-b-30">
+                <div class="slider" id="shippingCard">
+                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
+                        <a href="https://ship.shoppre.com/online-shop-india/buy-hippo-sun-shade-sail-blockage-online-in-amazon-india-ship-oman/" title="Click to Know More" target="_blank">
+                            <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
+                                <div class="pad-5 bgr-c-gl">
+                                    <div class="h-div"><h4 class="f-s-20 f-c-white">Outdoor Camping Tents</h4></div>
+                                </div>
+                                <div class="des-div"><br>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">Hippo Sun Shade Sail Sun Blockage from Amazon.in </p>
+                                    <br>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">Hippo Sun Blockage With Ss Hook & Rope shipped within 3 working days. </p>
+                                </div>
+                                <div>
+                                    <h2 class="f-s-16 f-c-d-greay">
+                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Oman, Middle East</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
+                        <a href="https://ship.shoppre.com/online-shop-india/buy-dr-relief-smart-height-increasing-belt-for-growth-amazon-indai-ship-united-states/" title="Click to Know Highlights" target="_blank">
+                            <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
+                                <div class="pad-5 bgr-c-bl">
+                                    <div class="h-div"><h4 class="f-s-20 f-c-white">Health & Personal Care</h4></div>
+                                </div>
+                                <div class="des-div"><br>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">Dr Relief Smart Height Increasing Belt for Growth from Amazon.in </p>
+                                    <br>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">Buy online at low-prices, delivered to you within 2 working days. </p>
+                                </div>
+                                <div>
+                                    <h2 class="f-s-16 f-c-d-greay">
+                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">New York	, USA</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
+                        <a href="https://ship.shoppre.com/online-shop-india/buy-rare-women-black-embroidered-detail-top-online-myntra-shipping-usa/" title="Know Additional Information" target="_blank">
+                            <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
+                                <div class="pad-5 bgr-c-gr">
+                                    <div class="h-div"><h4 class="f-s-20 f-c-white">Women's Clothing</h4></div>
+                                </div>
+                                <div class="des-div"><br>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">RARE Women Black Embroidered Detail Top from Myntra.com</p>
+                                    <br>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">Shipped with 4 products White Striped Shirt & Handcrafted Chandbalis </p>
+                                </div>
+                                <div>
+                                    <h2 class="f-s-16 f-c-d-greay">
+                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Texas, USA</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
+                        <a href="https://ship.shoppre.com/online-shop-india/buy-allen-solly-men-printed-casual-green-shirt-on-flipkart-ship-to-arlington-heights-illinois-usa/" title="Click for Product Details" target="_blank">
+                            <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
+                                <div class="pad-5 bgr-c-gl">
+                                    <div class="h-div"><h4 class="f-s-20 f-c-white">Men’s Clothing</h4></div>
+                                </div>
+                                <div class="des-div"><br>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">Allen Solly Men Printed Casual Spread Shirt from Flipkart.com</p>
+                                    <br>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">Shipped with total 13 products of Men & Kids clothing, 3 days delivery </p>
+                                </div>
+                                <div>
+                                    <h2 class="f-s-16 f-c-d-greay">
+                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Illinois, USA</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+        </div>
+        </div>
+    </section>
+    <section>
+
+
+
     <section style="padding-bottom: 30px">
         <div class="container" style="margin-top: 60px;padding-bottom: 20px;">
             <center>
@@ -1068,6 +1171,7 @@
                 <p class="header1 p-color-cement-dark div-margin">In The News</p>
             </center>
         </div>
+        <a href="https://ship.shoppre.com/press-release/" title="Global Press Release" target="_blank">
         <div class="container div-store-padding">
             <center>
                 <div class=" col-xs-3 div-stores-img">
@@ -1156,6 +1260,7 @@
                 </div>
             </center>
         </div>
+        </a>
         <br>
         <br>
     </section>

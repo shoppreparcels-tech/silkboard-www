@@ -73,23 +73,23 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/shop/comiccon-prebuzz-may05" target="_blank"><div class="shopandship ">
-                            <h2>COMIC CON INDIA</h2>
+                    <a href="https://www.myntra.com/men-ethnic-wear" target="_blank"><div class="shopandship ">
+                            <h2>Timesless Tradition</h2>
                             <br/>
-                            <p>First-Ever Online</p>
-                            <p>Superhero Action Figures & Much More</p>
+                            <p>Up to 60% Offer</p>
+                            <p>Kurta, Nehtu Jackets, Dhotis & more.</p>
                             <p>8th - 12th May 2019</p>
                         </div></a>
                 </div>
                 <div class="col-sm-4">
-                    <div class="ps">
-                        <h2>Myntra Summer Sale</h2>
+                    <a href="https://www.myntra.com/lino-perros?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0" target="_blank""><div class="ps">
+                        <h2>Lino Perros</h2>
                         <br>
-                        <p>MIN. 40% OFF</p>
-                        <p>Fits, Style, Trends & Everything</p>
-                        <p>12th - 14th May 2019</p>
-
+                        <p>MIN. 30% OFF</p>
+                        <p>Solid Handheld Bags, Wallet & more.</p>
+                        <p>May 2019</p>
                     </div>
+                    </a>
                 </div>
                 <div class="col-sm-4">
                     <a href="https://www.myntra.com/offerl-libas" target="_blank"><div class="ic">
