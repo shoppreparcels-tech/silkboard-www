@@ -128,9 +128,8 @@ class ProfileController extends Controller
     {
         $id = Auth::id();
         $customer = Customer::find($id);
-//        echo json_encode($customer);
-//        exit;
-        if (($customer->is_migrated == 1 || $customer->is_courier_migrated == 1) && $request->login_attempt =='no') {
+
+        if (($customer->is_migrated == 0 && $customer->is_courier_migrated == 0) && ($request->login_attempt =='no' || $request->login_attempt =='')) {
 
             $status_code = $this->signUp($customer, 'parcel');
 
@@ -150,7 +149,7 @@ class ProfileController extends Controller
             }
 
             return redirect($authorized_url);
-        } else if(($customer->is_migrated == 2 && $customer->is_courier_migrated == 0)&& $request->login_attempt =='no') {
+        } else if(($customer->is_migrated == 2 && $customer->is_courier_migrated == 0)&& ($request->login_attempt =='no' || $request->login_attempt =='')) {
             $authorized_url = Authorization::authorizeUser($customer->email);
 
             if ($request->session()->get('continue')) {
@@ -158,7 +157,8 @@ class ProfileController extends Controller
             } else {
                 return redirect($authorized_url);
             }
-        } else if(($customer->is_migrated == 0 && $customer->is_courier_migrated == 2)&& $request->login_attempt =='no') {
+        } else if(($customer->is_migrated == 0 && $customer->is_courier_migrated == 2)&& ($request->login_attempt =='no' || $request->login_attempt =='')) {
+
             $authorized_url = Authorization::authorizeCourierUser($customer->email);
 
             if ($request->session()->get('continue')) {
@@ -166,7 +166,7 @@ class ProfileController extends Controller
             } else {
                 return redirect($authorized_url);
             }
-        }  else if(($customer->is_migrated == 2 && $customer->is_courier_migrated == 2)&& $request->login_attempt =='no') {
+        }  else if(($customer->is_migrated == 2 && $customer->is_courier_migrated == 2)&& ($request->login_attempt =='no' || $request->login_attempt =='')) {
             $authorized_url = Authorization::authorizeUser($customer->email);
 
             if ($request->session()->get('continue')) {

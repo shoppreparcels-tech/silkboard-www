@@ -346,8 +346,7 @@ class RegisterController extends Controller
         if ($httpcode == 201)
         {
             $customer = Customer::find($user->id);
-            $customer->is_migrated = 2;
-            $customer->save();
+            $status = Customer::where('id', $user->id)->update(['is_migrated' => 2]);
         }
 
         if ($err) {
