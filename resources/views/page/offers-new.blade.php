@@ -143,7 +143,7 @@
             <div>
 
                 <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                    <a href="https://www.flipkart.com/big-shopping-days-store" title="Flipkart" target="_blank">Flipkart.com - Big Shopping Days 15th - 19th May 2019</a>
+                    <a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" title="Flipkart" target="_blank">Flipkart.com - Big Shopping Days 15th - 19th May 2019</a>
                     </marquee>
             </div>
 
@@ -155,7 +155,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Shopping Days</h4>
                             <h5 class="header6 p-color-cement font-weight-900">15th - 19th May</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/big-shopping-days-store"
+                                <a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may"
                                    target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>

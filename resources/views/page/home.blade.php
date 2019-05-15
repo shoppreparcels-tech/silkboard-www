@@ -477,9 +477,7 @@
                     </div>
                     <span class="f-s-16 f-c-red f-w-9">Get ready for the biggest sale of the season from Flipkart.com & Save 80% on International Shipping.</span><br>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://www.flipkart.com/big-shopping-days-store" title="Flipkart" target="_blank">Flipkart.com - Big Shopping Days 15th - 19th May 2019</a>
-
-                    </marquee>
+                        <a href="https://www.flipkart.com" title="Flipkart" target="_blank">SALE IS LIVE: Flipkart.com - Big Shopping Days 15th - 19th May 2019</a>                    </marquee>
                 </div>
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">

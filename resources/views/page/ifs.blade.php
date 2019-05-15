@@ -150,7 +150,7 @@
     <section>
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="https://www.flipkart.com/big-shopping-days-store" title="Flipkart" target="_blank">Flipkart.com - Big Shopping Days 15th - 19th May 2019 |</a>
+                <a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" title="Flipkart" target="_blank">Flipkart.com - Big Shopping Days 15th - 19th May 2019 |</a>
                 Shop from Flipkart.com & Save 80% on International Shipping.
             </marquee>
         </div>
