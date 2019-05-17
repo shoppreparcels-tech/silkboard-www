@@ -1584,6 +1584,14 @@ class PageController extends Controller
         }
     }
 
+    public function getUserInfo(Request $request) {
+        $user = Customer::where('id', $request->id)
+            ->select(
+                'id', 'name', 'email', 'locker'
+            )->first();
+        return response()->json(json_encode($user));
+    }
+
     public function androidApp(Request $request) {
         $email = Input::get("email");
         $name = Input::get("name");

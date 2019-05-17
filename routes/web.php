@@ -499,6 +499,7 @@ Route::get('/privacy-policy', 'PageController@privacyPolicy')->name('privacyPoli
 Route::get('/refund-and-cancellation-policy', 'PageController@refundAndCancellation')->name('refundAndCancellation');
 Route::get('/services', 'PageController@services')->name('services');
 Route::get('/how-it-works', 'PageController@howitworks')->name('howitworks');
+Route::get('/user/{id}', 'PageController@getUserInfo')->name('user.info');
 Route::post('/calculate-shipping', 'PageController@shipCalculate')->name('calculate');
 Route::post('/qoute/submit', 'PageController@getQuote')->name('get.quote');
 Route::get('/browse-categories', 'PageController@stores')->name('stores');
