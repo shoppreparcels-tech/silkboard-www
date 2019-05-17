@@ -116,9 +116,11 @@ class SchedulePickupController extends Controller
         $all_details = $details.$pc_details.$dc_details.$package_details.$package_items_details;
 //        $response = AsanaTaskOperations::createTask($name, $all_details, "S");
 //        $phpArray = json_decode($response,true);
-        $response = AsanaTaskOperations::createTask($name, $all_details, "S");
 
-        $this->sendEmailPickup($request);
+        // Asana task disabled for temporary
+//         $response = AsanaTaskOperations::createTask($name, $all_details, "S");
+
+          $this->sendEmailPickup($request);
 
 
         $url = env('MIGRATION_PREFIX') ."courier.".env('DOMAIN')."/api/shipments";
