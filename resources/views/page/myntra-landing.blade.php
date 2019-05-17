@@ -73,12 +73,12 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/men-ethnic-wear" target="_blank"><div class="shopandship ">
-                            <h2>Timesless Tradition</h2>
+                    <a href="https://www.myntra.com" target="_blank"><div class="shopandship ">
+                            <h2>The Hotter Than Summer</h2>
                             <br/>
-                            <p>Up to 60% Offer</p>
-                            <p>Kurta, Nehtu Jackets, Dhotis & more.</p>
-                            <p>8th - 12th May 2019</p>
+                            <p>40% to 60% Offer</p>
+                            <p>Shop by Brands & Categories.</p>
+                            <p>15th - 19th May 2019</p>
                         </div></a>
                 </div>
                 <div class="col-sm-4">

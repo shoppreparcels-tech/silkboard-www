@@ -80,8 +80,15 @@
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                <a href="/refer-a-friend" target="_blank">
-                                    <img src="{{asset('img/images/refer-freind-offer.png')}}" class="boxofScroll"/>
+                                <a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" target="_blank">
+                                    <img src="{{asset('img/images/flipkart-big-shopping.png')}}" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="https://www.amazon.in/b?node=6648217031&pf_rd_p=f3b26b83-0a05-4b47-b7fd-09d8cb3d946e&pf_rd_r=H6SQ3E7F56BY4Q8Z0G16" target="_blank">
+                                    <img src="{{asset('img/images/amazon-summer-sale-2019.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
@@ -89,6 +96,13 @@
                             <div class="pad15">
                                 <a href="/shop-ship" target="_blank">
                                     <img src="{{asset('img/images/shop-from-india-ship-to-usa.png')}}" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="/refer-a-friend" target="_blank">
+                                    <img src="{{asset('img/images/refer-freind-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
@@ -142,9 +156,9 @@
             <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites May-2019 Sales:</h3>
             <div>
 
-                <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                {{--<marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
                     <a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" title="Flipkart" target="_blank">Flipkart.com - Big Shopping Days 15th - 19th May 2019</a>
-                    </marquee>
+                    {{--</marquee>--}}
             </div>
 
             <br/>
@@ -209,11 +223,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">taavi - ethnic look</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40 - 60% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">The Hotter Than Summer</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Sale: 40 - 70% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com/taavi-may19-bif" target="_blank">
+                                <a href="https://www.myntra.com/shop/takeover-women-may15" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5997a62748742.png')}}"/>
                                 </a>
                             </div>
@@ -236,10 +250,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Honor Days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">13th - 17th May 2019</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Summer Pop-Up Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">15th - 19th May 2019</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.amazon.in/b?node=9574337031&pf_rd_p=b89f28e1-5741-45d3-bed4-230079350a5a&pf_rd_r=FC4QP13FMFRDEM7WPD73" target="_blank">
+                                <a href="https://www.amazon.in/b?node=6648217031&pf_rd_p=f3b26b83-0a05-4b47-b7fd-09d8cb3d946e&pf_rd_r=H6SQ3E7F56BY4Q8Z0G16" target="_blank">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>
@@ -249,7 +263,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Brand Day</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Playin'it cool</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-60% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.jabong.com">

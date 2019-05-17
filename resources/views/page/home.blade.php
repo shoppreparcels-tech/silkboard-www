@@ -475,9 +475,12 @@
                         </div>
 
                     </div>
-                    <span class="f-s-16 f-c-red f-w-9">Get ready for the biggest sale of the season from Flipkart.com & Save 80% on International Shipping.</span><br>
-                    <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://www.flipkart.com" title="Flipkart" target="_blank">SALE IS LIVE: Flipkart.com - Big Shopping Days 15th - 19th May 2019</a>                    </marquee>
+                    <span class="f-s-16 f-c-red f-w-9">The biggest sale of the season from Flipkart.com & Amazon.in & Save 80% on International Shipping.</span><br>
+                    {{--< style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
+                        <a href="https://www.flipkart.com" title="Flipkart" target="_blank">1. Flipkart.com - Big Shopping Days 15th - 19th May 2019</a> ||
+                       <a href="https://www.amazon.in/b?node=6648217031&pf_rd_p=f3b26b83-0a05-4b47-b7fd-09d8cb3d946e&pf_rd_r=H6SQ3E7F56BY4Q8Z0G16" title="Amazon.in" target="_blank">2. Amazon.in - Summer Pop-Up Sale 15th - 19th May 2019</a>
+
+                    {{--</>--}}
                 </div>
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
@@ -541,9 +544,9 @@
         <div class="container-fluid fuid-padding pad-t`-40"><br><br>
             <div class="col-md-2 col-xs-12 pad-l-d">
                 <center>
-                    <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">Sales <br>
-                        <span class="f-s-45 f-w-8 f-c-green "> Live</span></h1>
-                    <h4 class="f-s-18 f-c-l-gray txt-a-l">Grab The<br>Running Offers</h4>
+                    <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">Live <br>
+                        <span class="f-s-45 f-w-8 f-c-green "> Sales</span></h1>
+                    <h4 class="f-s-18 f-c-l-gray txt-a-l">Grab The<br> Running Offers from<br> Indian Stores</h4>
                 </center>
             </div>
             <div class="col-md-10 col-xs-12 pad-b-30">
@@ -555,11 +558,11 @@
                             <div class="h-div"><h4 class="f-s-20 f-c-white">Amazon.in</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Honor Days</span>: 13th to 17th May 2019</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Summer Pop-Up Sale</span>: 15th to 19th May</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Save up to ₹10,000/- </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 80% Off </p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Buy any HONOR Smartphone & Ship with Your ShoppRe Address </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Buy the best of fashion & comfort: essentials for man & woman’s wardrobe.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -591,17 +594,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.myntra.com/fusion-wear?rf=Discount%20Range%3A20.0_100.0_20.0%20TO%20100.0" title="Know More" target="_blank">
+                        <a href="https://www.myntra.com/" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gr">
                             <div class="h-div"><h4 class="f-s-20 f-c-white">Myntra.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">A Tryst With TRADITION</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">The Hotter Than Summer Sale</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 60% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">15th - 19th May | 40% - 70% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Buy AKS, Vaamsi, Vishudh, Libas, Anouk Kurtas for Women. Starting ₹439/-</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Men's Wear, Women's Wear, Shop by Brands, Categories. Starting @ ₹399</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -612,17 +615,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.nykaa.com/offers.html" title="Click for Offer Details" target="_blank">
+                        <a href="https://www.jabong.com/" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Nykaa.com</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Jabong.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Beauty Bonanza</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">PLAYIN'IT COOL</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Daily Dose of Amazing Offers </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">50% - 800% Off </p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Starting from 20% to 70% Off. Nykaa Naturals, Scrub, Face Wash & more. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Beat The Heat. Over 2,00,000 Fresh Styles. Shop Under ₹599 </p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -1017,7 +1020,7 @@
                 <br>
                 <h4>Get an instant reward of 7 dollars in your ShoppRe Wallet just by referring the referral code to a
                     friend.</h4>
-                <h4>Referral gets 7 dollars credited to thier ShoppRe Wallet post the shipment done by the Referee.</h4>
+                <h4>Referral gets 7 dollars credited to their ShoppRe Wallet post the shipment done by the Referee.</h4>
                 <br>
                 <a href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank" class="btn-s-r btn-b-r btn ">Join Our Referral Network</a>
                 <br>

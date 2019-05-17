@@ -58,7 +58,7 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - MAY 2019 Sales</h2>
                 </div>
             <div><marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="https://www.flipkart.com/big-shopping-days-store" title="flipkart.com" target="_blank">Flipkart Big Shopping Days on 15th - 19th May.
+                <a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" title="flipkart.com" target="_blank">Flipkart Big Shopping Days on 15th - 19th May.
                      </a>Shop from Flipkart & Ship with us Worldwide, Save 80% on shipping cost.
             </marquee>
         </div>
