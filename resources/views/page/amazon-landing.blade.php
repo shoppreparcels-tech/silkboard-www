@@ -73,37 +73,39 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>
                 </div>
             </div>
-            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in April 2019 Sales</h2>
+            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in Sales</h2>
             <div class="row text-center">
                 <div class="col-sm-4">
 
                     <div class="shopandship ">
-                        <h2>HONOR 8X</h2>
+                        <a href="https://www.amazon.in/dp/B07QT54G6P?pf_rd_p=e370b40c-f114-436a-af24-b3c3909d9180&pf_rd_r=JVKWQFW1SB33GT29E2TG" target="_blank">
+                        <h2>Redmi 7</h2>
                         <br/>
-                        <p>Blue, 4GB RAM, 64GB Storage</p>
-                        <p>₹14,999</p>
-                        <p>April 2019</p>
+                        <p>Comet  Blue, 5GB RAM, 32GB Storage</p>
+                        <p>₹7,999</p>
+                        <p>May 2019</p>
                     </div>
+                    </a>
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
+                        <a href="https://www.primevideo.com/region/eu/ref=dv_web_force_root/260-4242713-0952361" target="_blank">
                         <h2>Just For Prime</h2>
                         <br>
                         <p>Up to 70% Off</p>
                         <p>Extra 10% Off</p>
                         <p>Bags, Wallet & Luggage</p>
-
-                    </div>
+                    </div></a>
                 </div>
                 <div class="col-sm-4">
                     <div class="ic">
-                        <h2>Redmi Y3</h2>
+                        <a href="https://www.amazon.in/b?node=14907965031&pf_rd_p=37a926b9-479c-4bcf-a5bd-309decaac0a4&pf_rd_r=JVKWQFW1SB33GT29E2TG">
+                        <h2>Women's Clothing</h2>
                         <br>
-                        <p>32MP Super Selfie</p>
-                        <p>MILL7ON+</p>
-                        <p>12pm, 23th April 2019</p>
-
-                    </div>
+                        <p>Under ₹599</p>
+                        <p>Western Wear, Ethnic Wear </p>
+                        <p>May 2019</p>
+                    </div></a>
                 </div>
             </div>
 

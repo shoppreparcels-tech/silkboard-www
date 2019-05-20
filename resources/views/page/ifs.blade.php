@@ -148,13 +148,13 @@
     </section>
 
     <section>
-        <div>
-            <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" title="Flipkart" target="_blank">1. Flipkart.com - Big Shopping Days 15th - 19th May |</a>
-                <a href="https://www.amazon.in/b?node=6648217031&pf_rd_p=f3b26b83-0a05-4b47-b7fd-09d8cb3d946e&pf_rd_r=H6SQ3E7F56BY4Q8Z0G16" title="Amazon.in" target="_blank">2. Amazon.in - Summer Pop-Up Sale 15th - 19th May |</a>
-                <a href="https://www.myntra.com/" title="Amazon.in" target="_blank">3. Myntra - The Hotter Than Summer Sale 15th - 19th May </a>
-            </marquee>
-        </div>
+        {{--<div>--}}
+            {{--<marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
+                {{--<a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" title="Flipkart" target="_blank">1. Flipkart.com - Big Shopping Days 15th - 19th May |</a>--}}
+                {{--<a href="https://www.amazon.in/b?node=6648217031&pf_rd_p=f3b26b83-0a05-4b47-b7fd-09d8cb3d946e&pf_rd_r=H6SQ3E7F56BY4Q8Z0G16" title="Amazon.in" target="_blank">2. Amazon.in - Summer Pop-Up Sale 15th - 19th May |</a>--}}
+                {{--<a href="https://www.myntra.com/" title="Amazon.in" target="_blank">3. Myntra - The Hotter Than Summer Sale 15th - 19th May </a>--}}
+            {{--</marquee>--}}
+        {{--</div>--}}
         <div class="container" id="how-it-works">
             <div>
                 <center>

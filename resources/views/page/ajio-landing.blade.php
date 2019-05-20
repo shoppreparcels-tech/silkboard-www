@@ -5,22 +5,22 @@
 @section('keywords', 'ajio international Shipping, ship india')
 
 @section('css_style')
-    <meta property="og:title" content="Shop online Amazon.in products & Ship Internationally with ShoppRe" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.shoppre.com/amazon-india-shop-international-shipping" />
-    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
-    <meta property="og:image:width" content="2506">
-    <meta property="og:image:height" content="1312">
-    <meta property="og:image:alt" content="shoppre international shipping india" />
-    <meta property="og:description" content="Ship your purchases from Amazon India to Worldwide with ShoppRe, at an affordable shipping cost." />
-    <meta property="og:site_name" content="shoppre" />
+    {{--<meta property="og:title" content="Shop online Amazon.in products & Ship Internationally with ShoppRe" />--}}
+    {{--<meta property="og:type" content="website" />--}}
+    {{--<meta property="og:url" content="https://www.shoppre.com/amazon-india-shop-international-shipping" />--}}
+    {{--<meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />--}}
+    {{--<meta property="og:image:width" content="2506">--}}
+    {{--<meta property="og:image:height" content="1312">--}}
+    {{--<meta property="og:image:alt" content="shoppre international shipping india" />--}}
+    {{--<meta property="og:description" content="Ship your purchases from Amazon India to Worldwide with ShoppRe, at an affordable shipping cost." />--}}
+    {{--<meta property="og:site_name" content="shoppre" />--}}
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="go_shoppre" />
-    <meta name="twitter:title" content="Amazon.in International Shipping from India " />
-    <meta name="twitter:description" content="Shop in Amazon.in and ship your packages from India to USA, UK, UAE, Canada at a cheap courier cost." />
-    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
-    <meta name="twitter:image:alt" content="shoppre international shipping" />
+    {{--<meta name="twitter:card" content="summary_large_image" />--}}
+    {{--<meta name="twitter:site" content="go_shoppre" />--}}
+    {{--<meta name="twitter:title" content="Amazon.in International Shipping from India " />--}}
+    {{--<meta name="twitter:description" content="Shop in Amazon.in and ship your packages from India to USA, UK, UAE, Canada at a cheap courier cost." />--}}
+    {{--<meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />--}}
+    {{--<meta name="twitter:image:alt" content="shoppre international shipping" />--}}
     <style>
         .bg-ics-landing-page .container > div {margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}
@@ -42,11 +42,21 @@
 
     <section class="bg-ics-landing-page">
         <div class="container">
-            <center>
-                <h1 class="p-color-white header-spacing d-header-text">Ajio.com - International Shipping From India</h1>
+            <br>
+            <br>
+            <h1 class="f-s-36 f-c-white f-w-8">Shop and Ship your porducts from Ajio.com</h1>
+            <p class="f-s-22 f-c-white">Own a Free Virtual Shipping Address and Ship Internationally at Low Rates</p>
+            <br>
+            <p class="f-s-22 f-c-white">Place your order in AJIO Store with your ShoppRe Indian Address.</p>
+            <br>
+            <p class="f-s-22 f-c-white">We Consolidate Your Packages & Ship to You from India to 200+ Countries, 3-6 days delivery.</p>
+            <br>
 
-            </center>
-
+            </p>
+            <div class="col-md-12 col-xs-12 no-pad">
+                <a href="/customer/register" class="btn btn-s-r btn-b-r btn-a-l">Create My Free Address</a>
+                {{--<a href="/indian-online-stores" class="btn btn-l btn-s-b btn-b-b btn-a-l">Indian Stores List</a>--}}
+            </div>
         </div>
     </section>
 
@@ -57,13 +67,17 @@
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>
                 </div>
+                <div style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                <a href="https://www.ajio.com/" title="ajio.com" target="_blank">40-80% Off on 1,50,000+ Styles -
+                </a>Shop from AJIO & Ship with us Worldwide, Save 80% on shipping cost.</marquee>
+                </div>
             </div>
-
             <div class=" col-md-12 offer-description">
 
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
                         <center>
+                            <a href="https://www.ajio.com/" title="Shop AJIO & Ship Worldwide through ShoppRe" target="_blank">
                             <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/ajio-online-shopping.png" alt="ajio.com">
                         </center>
                     </div>

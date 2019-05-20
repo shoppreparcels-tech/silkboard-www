@@ -78,20 +78,20 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" target="_blank">
-                                    <img src="{{asset('img/images/flipkart-big-shopping.png')}}" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="https://www.amazon.in/b?node=6648217031&pf_rd_p=f3b26b83-0a05-4b47-b7fd-09d8cb3d946e&pf_rd_r=H6SQ3E7F56BY4Q8Z0G16" target="_blank">
-                                    <img src="{{asset('img/images/amazon-summer-sale-2019.png')}}" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
+                        {{--<div class="item">--}}
+                            {{--<div class="pad15">--}}
+                                {{--<a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" target="_blank">--}}
+                                    {{--<img src="{{asset('img/images/flipkart-big-shopping.png')}}" class="boxofScroll"/>--}}
+                                {{--</a>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="item">--}}
+                            {{--<div class="pad15">--}}
+                                {{--<a href="https://www.amazon.in/b?node=6648217031&pf_rd_p=f3b26b83-0a05-4b47-b7fd-09d8cb3d946e&pf_rd_r=H6SQ3E7F56BY4Q8Z0G16" target="_blank">--}}
+                                    {{--<img src="{{asset('img/images/amazon-summer-sale-2019.png')}}" class="boxofScroll"/>--}}
+                                {{--</a>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
                         <div class="item">
                             <div class="pad15">
                                 <a href="/shop-ship" target="_blank">
@@ -154,23 +154,22 @@
         <div class="container">
             <br/>
             <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites May-2019 Sales:</h3>
-            <div>
+            {{--<div>--}}
 
                 {{--<marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
-                    <a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" title="Flipkart" target="_blank">Flipkart.com - Big Shopping Days 15th - 19th May 2019</a>
+                    {{--<a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" title="Flipkart" target="_blank">Flipkart.com - Big Shopping Days 15th - 19th May 2019</a>--}}
                     {{--</marquee>--}}
-            </div>
+            {{--</div>--}}
 
             <br/>
             <div class="row">
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Shopping Days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">15th - 19th May</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Zenfone 6</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Coming Soon</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may"
-                                   target="_blank">
+                                <a href="https://www.flipkart.com/asus-zenfone-6-launch-63v4-store" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
                             </div>
@@ -184,7 +183,7 @@
                             <h5 class="header6 p-color-cement font-weight-900">Summer Alert</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.limeroad.com/shopping-offers/?src=shoppre">
+                                <a href="https://www.limeroad.com/shopping-offers/?src=shoppre" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a5173241735.png')}}"/>
                                 </a>
                             </div>
@@ -197,7 +196,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Little Quirk, Huge Savings.</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Upto 50% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.chumbak.com/sale/ngg/c/">
+                                <a href="https://www.chumbak.com/sale/ngg/c/" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a68d693f754.png')}}"/>
                                 </a>
                             </div>
@@ -210,7 +209,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Spring Summer Special</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Flat 30% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://indiacircus.com/sales/clearance-sale.html">
+                                <a href="https://indiacircus.com/sales/clearance-sale.html" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a67ba7cb9ec.png')}}"/>
                                 </a>
                             </div>
@@ -240,7 +239,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">May newness!</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.ajio.com">
+                                <a href="https://www.ajio.com" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>
                                 </a>
                             </div>
@@ -250,10 +249,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Summer Pop-Up Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">15th - 19th May 2019</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Redmi 7</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Starting ₹7999</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.amazon.in/b?node=6648217031&pf_rd_p=f3b26b83-0a05-4b47-b7fd-09d8cb3d946e&pf_rd_r=H6SQ3E7F56BY4Q8Z0G16" target="_blank">
+                                <a href="https://www.amazon.in/dp/B07QT54G6P?pf_rd_p=e370b40c-f114-436a-af24-b3c3909d9180&pf_rd_r=XVR0TFPDTE3JT79ASE9Y" target="_blank">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>
@@ -263,10 +262,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Playin'it cool</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Brand Day</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-60% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.jabong.com">
+                                <a href="https://www.jabong.com" target="_blank">
                                     <img src="https://www.shoppre.com/uploads/stores/logo_599691d00e27e.png"/>
                                 </a>
                             </div>

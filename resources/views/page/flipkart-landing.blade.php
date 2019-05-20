@@ -57,32 +57,34 @@
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - MAY 2019 Sales</h2>
                 </div>
-            <div><marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" title="flipkart.com" target="_blank">Flipkart Big Shopping Days on 15th - 19th May.
-                     </a>Shop from Flipkart & Ship with us Worldwide, Save 80% on shipping cost.
-            </marquee>
-        </div>
+            {{--<div><marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
+                {{--<a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" title="flipkart.com" target="_blank">Flipkart Big Shopping Days on 15th - 19th May.--}}
+                     {{--</a>Shop from Flipkart & Ship with us Worldwide, Save 80% on shipping cost.--}}
+            {{--</marquee>--}}
+        {{--</div>--}}
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/big-shopping-days-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/fashion-mm-superhero-2019-store" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-                            <h2>Big Shopping Days Sale</h2>
+                            <h2>Fashion Goals</h2>
                             <br/>
-                            <p>Deals on mobile phones, gadgets, </p>
-                            <p>laptops, LED TV’s, and more.</p>
-                            <p>15th to 19th May</p>
+                            <p>Deals on T-shirts, Shoes, Luggage.. </p>
+                            <p>Min. 50% Off</p>
+                            <p>AT, Puma, Lee & more</p>
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-4">
+                    <a href="https://www.2gud.com/refurbished-mobiles-store" title="Click Here to Shop" target="_blank">
                     <div class="ps">
-                        <h2>Flipkart Grooming Day</h2>
+                        <h2>Irresistible Mobile Deals</h2>
                         <br>
-                        <p>Beat Deals on Trimmers, Hair dryers...</p>
-                        <p>Up to 80% Off</p>
-                        <p>Starting from ₹269</p>
+                        <p>Apple, Samsung, Mi & more</p>
+                        <p>Up to 70% Off</p>
+                        <p>Assured 6-12 monts warranty</p>
                     </div>
+                    </a>
                 </div>
                 <div class="col-sm-4">
                     <a href="https://www.flipkart.com/electronics-summer-carnival-store" target="_blank"><div class="ic">

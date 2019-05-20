@@ -475,10 +475,10 @@
                         </div>
 
                     </div>
-                    <span class="f-s-16 f-c-red f-w-9">The biggest sale of the season from Flipkart.com & Amazon.in & Save 80% on International Shipping.</span><br>
+                    {{--<span class="f-s-16 f-c-red f-w-9">The biggest sale of the season from Flipkart.com & Amazon.in & Save 80% on International Shipping.</span><br>--}}
                     {{--< style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
-                        <a href="https://www.flipkart.com" title="Flipkart" target="_blank">1. Flipkart.com - Big Shopping Days 15th - 19th May 2019</a> ||
-                       <a href="https://www.amazon.in/b?node=6648217031&pf_rd_p=f3b26b83-0a05-4b47-b7fd-09d8cb3d946e&pf_rd_r=H6SQ3E7F56BY4Q8Z0G16" title="Amazon.in" target="_blank">2. Amazon.in - Summer Pop-Up Sale 15th - 19th May 2019</a>
+                        {{--<a href="https://www.flipkart.com" title="Flipkart" target="_blank">1. Flipkart.com - Big Shopping Days 15th - 19th May 2019</a> ||--}}
+                       {{--<a href="https://www.amazon.in/b?node=6648217031&pf_rd_p=f3b26b83-0a05-4b47-b7fd-09d8cb3d946e&pf_rd_r=H6SQ3E7F56BY4Q8Z0G16" title="Amazon.in" target="_blank">2. Amazon.in - Summer Pop-Up Sale 15th - 19th May 2019</a>--}}
 
                     {{--</>--}}
                 </div>
@@ -552,17 +552,17 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.amazon.in/b?node=9574337031&pf_rd_p=b89f28e1-5741-45d3-bed4-230079350a5a&pf_rd_r=3MA72DWTVG6DA51Z9MYM" title="Click to Know More" target="_blank">
+                        <a href="https://www.amazon.in/b?node=1355016031&pf_rd_p=d6f62195-666e-48df-8516-767b1e894344&pf_rd_r=7XWPGHD35J3SX1AK0H7F" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
                             <div class="h-div"><h4 class="f-s-20 f-c-white">Amazon.in</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Summer Pop-Up Sale</span>: 15th to 19th May</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Stock up on daily beauty needs</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 80% Off </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 30% Off </p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Buy the best of fashion & comfort: essentials for man & woman’s wardrobe.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Beauty products from over 15 lakh products and 19000 brands </p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -573,17 +573,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.flipkart.com/" title="Click to Know Highlights" target="_blank">
+                        <a href="https://www.jaypore.com/sale title="Click to Know Highlights" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Flipkart.com</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Jaypore.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Big Shopping Days</span>: 15th - 19th May </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">The Summer Splurge</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop More, Save More on Shipping.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Flat 50% + Additional Discounts</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Clothing, Footwear, Beauty, Baby Care, iPhones, Laptops, TVs & more</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Sarees, Blouses, Floaty Dresses, Crisp Cotton Tops, Chic Kurtas & more</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -600,11 +600,11 @@
                             <div class="h-div"><h4 class="f-s-20 f-c-white">Myntra.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">The Hotter Than Summer Sale</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Celebrate Womanhood</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">15th - 19th May | 40% - 70% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Min 50% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Men's Wear, Women's Wear, Shop by Brands, Categories. Starting @ ₹399</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Vishudh: Printed Kurta, Solid Kurta, A-Line Kurta & more. Starting @ ₹574</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -615,17 +615,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.jabong.com/" title="Click for Offer Details" target="_blank">
+                        <a href="https://www.koovs.com/men/tags/summers-top-hits" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Jabong.com</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Koovs.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">PLAYIN'IT COOL</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Summer's Top Hits</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">50% - 800% Off </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">At 50% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Beat The Heat. Over 2,00,000 Fresh Styles. Shop Under ₹599 </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Dresses, Tops, Sweatshirts, T-Shirts, Jackets, Pullovers and more.  </p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
