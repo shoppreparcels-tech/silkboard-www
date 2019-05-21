@@ -115,7 +115,7 @@
                                     </div>
 
                                     <div class="div-megamenu-hover-effects">
-                                        <a href="/personal-shopper-india" class="mega-menu-hyperlinks">
+                                        <a href="/personal-shopper-shopping-concierge-from-india" class="mega-menu-hyperlinks">
                                             Personal Shopper
                                         </a>
 

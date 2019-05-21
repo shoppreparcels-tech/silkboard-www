@@ -450,7 +450,7 @@
                             </a>
                         </div>
                         <div class="col-md-4 col-xs-4 pad-0-10">
-                            <a class="f-s-18 f-c-white" href="/personal-shopper-shopping-concierge-from-india">
+                            <a class="f-s-18 f-c-white" href="/personal-shopper-india">
                                 <div class="col-xs-12 col-md-12 pad-0-40 div-s-br">
                                     <h5 class="f-s-18 f-c-white txt-a-c"> Personal Shopper <br>
                                         (Assisted Purchase) <br></h5>

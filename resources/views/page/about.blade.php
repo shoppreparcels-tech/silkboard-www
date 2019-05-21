@@ -105,9 +105,9 @@
                   <p>The tiny bean of an idea of ShoppRe is the brainchild of two Indian women who remain Indian at heart despite growing up and belonging elsewhere.
                       Not willing to give in to the heavily pricey outlets abroad to express or satisfy their quintessentially Indian souls - there came the thought of making an exquisitely reliable one themselves.
                       <br> Having known a huge society full of Indians who would love a better way to access Indian goods; it was a no-brainer to infer that they won’t be the only ones around the world with the same dilemma.
-                      <br>Hundreds of hours spent brainstorming, millions of strategic thoughts launched in between after; took birth
-                      <a href="{{route('home')}}">ShoppRe</a> which,
-                      is now crossing borders and re-writing history in the service industry and courier platform.</p>
+                      <br>Hours of apprehension and uncountable deliberated thoughts gave birth to ShoppRe, which has now extended up to a level to help people deal with all the
+                      issues faced with the International Shipping. It's proving itself being one of the best International shipping solutions.
+                  </p>
               </div>
           </div>
       </div>
@@ -150,7 +150,7 @@
               <h2 class="header2 p-color-cement">You've got no reason to wait around any longer, just come Shopp Re!</h2>
               {{--<button class="btn signup-btn" href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register>Sign Up for FREE</button>--}}
 
-              <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register target="_blank">
+              <a href="https://www.shoppre.com/customer/register" target="_blank">
                   <div class="btn-login-doorstep header5 p-color-white">
                       <p>
                           Sign Up for FREE

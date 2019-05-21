@@ -83,9 +83,9 @@
                 </div>
                 {{--</div>--}}
                 <div class="col-md-12 col-xs-12 div-btn-padding">
-                    <a href="https://www.shoppre.com/personal-shopper" target="_blank">
+                    <a href="https://www.youtube.com/watch?v=q5R63gFUREk" target="_blank">
                         <div class="btn header6 btn-ifs-l-assisted">
-                            Shop For Me
+                            Personal Shopper - Watch Video
                         </div>
                     </a>
                 </div>
@@ -122,9 +122,10 @@
                     what you intend to buy; we’ll make the purchase for you.
                 </p>
                 <div class="col-md-12 col-xs-12 div-btn-padding">
-                    <a href="https://www.youtube.com/watch?v=q5R63gFUREk" target="_blank">
+
+                    <a href="https://www.shoppre.com/personal-shopper" target="_blank">
                         <div class="btn header6 btn-ifs-l-assisted">
-                            Personal Shopper - Watch Video
+                            Shop For Me
                         </div>
                     </a>
                 </div>
@@ -134,26 +135,29 @@
                 <form action="" method="post " id="personal_shopper">
                     {{csrf_field()}}
                     <div class="formFrame div-form-get-quote" id="diwali-couponcode1">
-                        <div class="form-group">
-                            <label>Full Name <span class="p-color-red">*</span></label>
-                            <input type="text" name="Name" class="form-control"
-                                   placeholder="Enter your Name Here" required>
+                        {{--<div class="form-group">--}}
+                            {{--<label>Full Name <span class="p-color-red">*</span></label>--}}
+                            {{--<input type="text" name="Name" class="form-control"--}}
+                                   {{--placeholder="Enter your Name Here" required>--}}
+                        {{--</div>--}}
+                        {{--<div class="form-group">--}}
+                            {{--<label>Contact Number<span class="p-color-red">*</span></label>--}}
+                            {{--<input type="text" name="ContactNumber" class="form-control"--}}
+                                   {{--placeholder="Enter Phone number with Country Code" required>--}}
+                        {{--</div>--}}
+                        {{--<div class="form-group">--}}
+                            {{--<label>E-Mail ID<span class="p-color-red">*</span></label>--}}
+                            {{--<input type="email" name="email" class="form-control"--}}
+                                   {{--placeholder="Enter a valid E-mail ID" required>--}}
+                        {{--</div>--}}
+                        {{--<div class="form-group text-center">--}}
+                            {{--<br>--}}
+                            {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-a-l btn-b-g">Request Assistance</button>--}}
+                        {{--</div>--}}
+                        <div class="form-group text-center div-align-items-l">
+                            <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r" style="color:white">Call: +91-8277919191</a><br><br>
+                            <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Assisted%20Purchase%20Service" style="color:white" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
                         </div>
-                        <div class="form-group">
-                            <label>Contact Number<span class="p-color-red">*</span></label>
-                            <input type="text" name="ContactNumber" class="form-control"
-                                   placeholder="Enter Phone number with Country Code" required>
-                        </div>
-                        <div class="form-group">
-                            <label>E-Mail ID<span class="p-color-red">*</span></label>
-                            <input type="email" name="email" class="form-control"
-                                   placeholder="Enter a valid E-mail ID" required>
-                        </div>
-                        <div class="form-group text-center">
-                            <br>
-                            <button type="submit" name="btnActivate" class="btn btn-s-b btn-a-l btn-b-g">Request Assistance</button>
-                        </div>
-                    </div>
 
                     <div class="formFrame  div-form-get-quote" id="diwali-couponcode2">
                         <div class="row">
