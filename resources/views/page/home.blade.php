@@ -600,11 +600,11 @@
                             <div class="h-div"><h4 class="f-s-20 f-c-white">Myntra.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Celebrate Womanhood</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Mantastic Festival</span>:22nd & 23rd May</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Min 50% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">40% - 70% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Vishudh: Printed Kurta, Solid Kurta, A-Line Kurta & more. Starting @ ₹574</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shirts, Jeans, Trousers, Jackets, Earphones, Watch, Shoes & more</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -615,17 +615,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.koovs.com/men/tags/summers-top-hits" title="Click for Offer Details" target="_blank">
+                        <a href="https://www.flipkart.com/fashion-summer-weekend-2019-store" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Koovs.com</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Flipkart.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Summer's Top Hits</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Fashion Summer Weekend</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">At 50% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 70% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Dresses, Tops, Sweatshirts, T-Shirts, Jackets, Pullovers and more.  </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Grab latest fashion trends, both for men and women & Ship with Love from India</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
