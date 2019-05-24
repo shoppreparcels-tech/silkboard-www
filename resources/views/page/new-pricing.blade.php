@@ -1311,13 +1311,13 @@
                         var html=' <thead>\n' +
                             ' <tr>\n' +
                             ' <th>Weight(in KG)</th>\n' +
-                            ' <th>Rate</th>\n' +
+                            ' <th>Rate (in INR)</th>\n' +
                             ' </tr>\n' +
                             '</thead>';
                         var htmldoc=' <thead>\n' +
                             ' <tr>\n' +
                             ' <th>Weight(in KG)</th>\n' +
-                            ' <th>Rate</th>\n' +
+                            ' <th>Rate (in INR)</th>\n' +
                             ' </tr>\n' +
                             '</thead>';
                         prices.map((p) => {
