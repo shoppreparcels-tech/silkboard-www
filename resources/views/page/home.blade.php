@@ -552,17 +552,17 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.amazon.in/b?node=1355016031&pf_rd_p=d6f62195-666e-48df-8516-767b1e894344&pf_rd_r=7XWPGHD35J3SX1AK0H7F" title="Click to Know More" target="_blank">
+                        <a href="https://www.yeboindia.com/" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Amazon.in</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Yeboindia.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Stock up on daily beauty needs</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">EID Special</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 30% Off </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Flat 70% Off </p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Beauty products from over 15 lakh products and 19000 brands </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Designer Sarees, Kurtis, Jewellery, Lehengas and Ship with us. </p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -573,17 +573,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.jaypore.com/sale title="Click to Know Highlights" target="_blank">
+                        <a href="https://www.amazon.in/b?node=15140032031&pf_rd_p=370c7ce5-9852-444e-a7a0-7eabd18ef7e8&pf_rd_r=NDSBV0S4JVWYX9MBSQV3" title="Click to Know Highlights" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Jaypore.com</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Amazon.in</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">The Summer Splurge</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Ramadan Food Fest</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Flat 50% + Additional Discounts</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 40% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Sarees, Blouses, Floaty Dresses, Crisp Cotton Tops, Chic Kurtas & more</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Almonds, Walnuts, Dates Cashew Nuts, Sweets & more.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -594,17 +594,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.myntra.com/" title="Know More" target="_blank">
+                        <a href="https://www.myntra.com/handbags-and-bags?f=Categories%3AClutches%2CHandbags%2CWallets" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gr">
                             <div class="h-div"><h4 class="f-s-20 f-c-white">Myntra.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Mantastic Festival</span>:22nd & 23rd May</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">A Summer Getaway</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">40% - 70% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 60% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shirts, Jeans, Trousers, Jackets, Earphones, Watch, Shoes & more</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Handbags, Clutches, Bags, Backpacks. Starting from ₹129/-</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
