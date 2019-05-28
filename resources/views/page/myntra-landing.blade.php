@@ -73,12 +73,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/womens-western-wear?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0" target="_blank"><div class="shopandship ">
-                            <h2>Double-Tap-Worthy!</h2>
+                    <a href="https://www.myntra.com/shop/mbe-prebuzz-w-may28" target="_blank"><div class="shopandship ">
+                            <h2>Beauty Edit: 28th-29th May</h2>
                             <br/>
-                            <p>Women's Western Wear At</p>
-                            <p>40% to 60% Offer</p>
-                            <p>May 2019</p>
+                            <p>Maybelline New York, Lakme, Nivea, Colorbar, Clinique & more.</p>
+                            <p>Up to 60% Offer</p>
                         </div></a>
                 </div>
                 <div class="col-sm-4">

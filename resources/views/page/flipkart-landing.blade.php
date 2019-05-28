@@ -57,11 +57,11 @@
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - MAY 2019 Sales</h2>
                 </div>
-            {{--<div><marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
-                {{--<a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" title="flipkart.com" target="_blank">Flipkart Big Shopping Days on 15th - 19th May.--}}
-                     {{--</a>Shop from Flipkart & Ship with us Worldwide, Save 80% on shipping cost.--}}
-            {{--</marquee>--}}
-        {{--</div>--}}
+            <div style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                <a href="https://www.flipkart.com/flipstart-days-store" title="flipkart.com" target="_blank">Flipstart Days 1st - 3rd June.</a>
+                     </a>Shop from Flipkart and Ship with ShoppRe Worldwide.
+
+        </div>
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
@@ -76,22 +76,22 @@
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.2gud.com/refurbished-mobiles-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/flipstart-days-store" title="Click Here to Shop" target="_blank">
                     <div class="ps">
-                        <h2>Irresistible Mobile Deals</h2>
+                        <h2>Flipstart Days</h2>
                         <br>
-                        <p>Apple, Samsung, Mi & more</p>
-                        <p>Up to 70% Off</p>
-                        <p>Assured 6-12 monts warranty</p>
+                        <p>Fashion, Beauty, Electronics & more</p>
+                        <p>40% to 80% Off</p>
+                        <p>1st - 3rd June, 2019</p>
                     </div>
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/electronics-summer-carnival-store" target="_blank"><div class="ic">
-                            <h2>Summer Carnival</h2>
+                    <a href="https://www.flipkart.com/flipkart-smartbuy-store" target="_blank"><div class="ic">
+                            <h2>Flipkart SmartBuy Store</h2>
                             <br>
-                            <p>Electronics & Accessories</p>
-                            <p>Up to 80% Off</p>
+                            <p>Mobile, Audio, USB Chargers, Cables</p>
+                            <p>Electronics & Accessories & more</p>
                             <p>May 2019 </p>
                         </div></a>
                 </div>
