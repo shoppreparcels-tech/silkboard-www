@@ -594,17 +594,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.myntra.com/handbags-and-bags?f=Categories%3AClutches%2CHandbags%2CWallets" title="Know More" target="_blank">
+                        <a href="https://www.myntra.com/shop/mbe-prebuzz-w-may28" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gr">
                             <div class="h-div"><h4 class="f-s-20 f-c-white">Myntra.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">A Summer Getaway</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Beauty Edit</span>: 28th & 29th May</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 60% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Enjoy Up to 60% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Handbags, Clutches, Bags, Backpacks. Starting from ₹129/-</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Maybelline New York, Lakme, Nivea, Colorbar, Clinique & more.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -615,17 +615,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.flipkart.com/fashion-summer-weekend-2019-store" title="Click for Offer Details" target="_blank">
+                        <a href="https://www.flipkart.com/month-end-mobiles-fest-4h0d-store" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
                             <div class="h-div"><h4 class="f-s-20 f-c-white">Flipkart.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Fashion Summer Weekend</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Month End Mobiles Fest</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 70% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">27th to 31st May</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Grab latest fashion trends, both for men and women & Ship with Love from India</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Lowest Prices on Mobiles, 5% Instant Discount. Best Offer on Exchange.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}

@@ -3314,7 +3314,7 @@ a:hover, a:focus {
 /*become a partner page*/
 .advertisement {
     height: 400px;
-    background-color: black;
+    /*background-color: black;*/
     border-radius: 10px;
     position: relative;
 }

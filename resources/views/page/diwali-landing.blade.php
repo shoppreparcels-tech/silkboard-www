@@ -306,7 +306,6 @@
 
                     <a href="{{Constant::CHATURL}}" target="_blank"
                        class="header2 p-color-white">Chat Now</a>
-
                 </div>
             </div>
         </div>

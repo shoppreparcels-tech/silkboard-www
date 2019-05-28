@@ -444,7 +444,39 @@ class PageController extends Controller
 
     public function seller()
     {
-        return view('page.become-partner');
+        $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();
+        return view('page.become-partner')->with(['countries' => $countries]);
+    }
+
+    public function apiSellerPartner(Request $req)
+    {
+        console.log('hi');exit;
+        $id = Auth::id();
+        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $list_id = 'aca625e01f';
+        $auth = base64_encode('user:' . $apikey);
+        if (!empty($req->email)) {
+            $email = $req->email;
+            $name = $req->name;
+            $businessName = $req->businessName;
+            $websiteLink = $req->websiteLink;
+            $contact = $req->contact_no;
+            $commnet = "Lead from seller landing page USA email " . $email . "\n contact No: " . $contact;
+            AsanaTaskOperations::createTask($name, $commnet, "L");
+        }
+
+        $data = array(
+            'apikey' => $apikey,
+            'email_address' => $email,
+            'status' => 'subscribed',
+            'merge_fields' => array(
+                'FNAME' => $name,
+                'LNAME' => '',
+                'PHONE' => $contact
+            )
+        );
+        $json_data = json_encode($data);
+        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
     }
 
     public function valentines()

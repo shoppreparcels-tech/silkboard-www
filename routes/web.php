@@ -685,6 +685,7 @@ Route::post('/university', 'PageController@universitySubmit')->name('university'
 Route::post('/shop-ship', 'PageController@shopShip')->name('shopShip');
 Route::post('/valentines-cashback', 'PageController@apiValentines')->name('valentine');
 Route::post('/medicine', 'PageController@apiMedicine')->name('apiMedicine');
+Route::post('/seller', 'PageController@apiSellerPartner')->name('apiSeller');
 Route::post('/parcel-forwarding', 'PageController@apiParcelForwarding')->name('apiParcelForwarding');
 Route::post('/apiVideoConsolidation', 'PageController@apiVideoConsolidation')->name('apiVideoConsolidation');
 Route::post('/apiVideoCourier', 'PageController@apiVideoCourier')->name('apiVideoCourier');
