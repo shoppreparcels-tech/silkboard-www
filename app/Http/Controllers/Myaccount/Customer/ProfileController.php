@@ -319,7 +319,14 @@ class ProfileController extends Controller
                 'last_name' => $middle_name.' '.$last_name,
                 'email' => $customer->email,
                 'password' => $customer->password,
-                'hooks' => false
+                'virtual_address_code' => $customer->locker,
+                'hooks' => false,
+                'referer' => $customer->referer,
+                'first_visit' => $customer->first_visit,
+                'utm_campaign' => $customer->utm_campaign,
+                'utm_source' => $customer->utm_source,
+                'utm_medium' => $customer->utm_medium,
+                'gcl_id' => $customer->gcl_id,
             ];
 
             $url = env('MIGRATION_PREFIX') ."login.".env('DOMAIN')."/api/users/register";
