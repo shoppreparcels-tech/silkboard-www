@@ -8,6 +8,8 @@ use App\SchedulePickup;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\EmailSchedulePickup;
+use App\Mail\Myaccount\SignUpWelcomeMail;
+use App\Mail\Myaccount\EmailVerification;
 use App\Mailchimp\mailChimpTaskOperations;
 use App\Asana\AsanaTaskOperations;
 
@@ -228,6 +230,11 @@ class SchedulePickupController extends Controller
             $balance->customer_id = $customer->id;
             $balance->amount = 0;
             $balance->save();
+
+            Mail::to($customer->email)->bcc(['social.shoppre@gmail.com','vismaya.rk@shoppre.com'])
+                ->send(new SignUpWelcomeMail($customer));
+
+            $this->sendEmailVerification($email);
         }
               $this->signUp($customer);
         return $customer;
@@ -236,6 +243,20 @@ class SchedulePickupController extends Controller
 //            $status = $this->informMailtrain($customer);
     }
 
+    public function sendEmailVerification($email)
+    {
+        $this->generateToken($email);
+        $customer = Customer::where('email', $email)->first();
+        Mail::to($customer->email)->send(new EmailVerification($customer));
+    }
+
+    private function generateToken($email)
+    {
+        $customer = new Customer;
+        $token = hash_hmac('sha256', str_random(40), config('app.key'));
+        $customer->where('email', $email)->update(['email_token' => $token]);
+        return $token;
+    }
     public function signUp($customer)
     {
         $status = $this->signUpAPI($customer);
