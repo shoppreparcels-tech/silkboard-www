@@ -1044,76 +1044,78 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-hippo-sun-shade-sail-blockage-online-in-amazon-india-ship-oman/" title="Click to Know More" target="_blank">
+                        <a href="https://ship.shoppre.com/online-shop-india/buy-nike-zoom-structure-21-grey-running-shoes-snapdeal-india-ship-to-siddamulla-pannipitiya-sri-lanka/" title="Click to Know More" target="_blank">
                             <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                                 <div class="pad-5 bgr-c-gl">
-                                    <div class="h-div"><h4 class="f-s-20 f-c-white">Outdoor Camping Tents</h4></div>
+                                    <div class="h-div"><h4 class="f-s-20 f-c-white">Running Shoes</h4></div>
                                 </div>
                                 <div class="des-div"><br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">Hippo Sun Shade Sail Sun Blockage from Amazon.in </p>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">Nike ZOOM STRUCTURE 21 Grey Running Shoes from <span class="f-s-16 f-c-red f-w-9">Snapdeal.com</span></p>
                                     <br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">Hippo Sun Blockage With Ss Hook & Rope shipped within 3 working days. </p>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">Product Cost ₹3348 | Cost of Shipping ₹1916 & Delivered 7 working days. </p>
                                 </div>
                                 <div>
                                     <h2 class="f-s-16 f-c-d-greay">
-                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Oman, Middle East</span>
+                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Siddhamulla, Piliyandala, Sri Lanka</span>
                                     </h2>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-dr-relief-smart-height-increasing-belt-for-growth-amazon-indai-ship-united-states/" title="Click to Know Highlights" target="_blank">
+                        <a href="https://ship.shoppre.com/online-shop-india/buy-meraki-essentials-health-hair-essential-oil-set-online-nykaa-shipping-colorado/" title="Click to Know Highlights" target="_blank">
                             <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                                 <div class="pad-5 bgr-c-bl">
-                                    <div class="h-div"><h4 class="f-s-20 f-c-white">Health & Personal Care</h4></div>
+                                    <div class="h-div"><h4 class="f-s-20 f-c-white">Beauty & Personal Care</h4></div>
                                 </div>
                                 <div class="des-div"><br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">Dr Relief Smart Height Increasing Belt for Growth from Amazon.in </p>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">Meraki Essentials Health Hair Essential Oil Set from <span class="f-s-16 f-c-red f-w-9">Nykaa.com</span> </p>
                                     <br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">Buy online at low-prices, delivered to you within 2 working days. </p>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">Buy online at low-prices, & get delivered to you within 3 working days. </p>
                                 </div>
                                 <div>
                                     <h2 class="f-s-16 f-c-d-greay">
-                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">New York	, USA</span>
+                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Littleton, Colorado, United States</span>
                                     </h2>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-rare-women-black-embroidered-detail-top-online-myntra-shipping-usa/" title="Know Additional Information" target="_blank">
+                        <a href="https://ship.shoppre.com/online-shop-india/buy-jabong-pinwheel-grey-striped-a-line-dress-ship-low-cost-bethesda-maryland-united-states/"
+                           title="Know Additional Information" target="_blank">
                             <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                                 <div class="pad-5 bgr-c-gr">
                                     <div class="h-div"><h4 class="f-s-20 f-c-white">Women's Clothing</h4></div>
                                 </div>
                                 <div class="des-div"><br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">RARE Women Black Embroidered Detail Top from Myntra.com</p>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">Pinwheel Grey Striped A-Line Dress from <span class="f-s-16 f-c-red f-w-9">Jabong.com</span></p>
                                     <br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">Shipped with 4 products White Striped Shirt & Handcrafted Chandbalis </p>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">Shipped with other 8 products of Kurtas, total shipping charges of ₹2961/- </p>
                                 </div>
                                 <div>
                                     <h2 class="f-s-16 f-c-d-greay">
-                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Texas, USA</span>
+                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Bethesda, Maryland, United States</span>
                                     </h2>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-allen-solly-men-printed-casual-green-shirt-on-flipkart-ship-to-arlington-heights-illinois-usa/" title="Click for Product Details" target="_blank">
+                        <a href="https://ship.shoppre.com/online-shop-india/buy-online-flipkart-sonilex-sl-bt12-extra-bass-sports-ear-headphones-neckband-design-bluetooth-headset-mic-ship-to-1f-cantonment-rd-singapore-085601/"
+                           title="Click for Product Details" target="_blank">
                             <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                                 <div class="pad-5 bgr-c-gl">
-                                    <div class="h-div"><h4 class="f-s-20 f-c-white">Men’s Clothing</h4></div>
+                                    <div class="h-div"><h4 class="f-s-20 f-c-white">Headphones</h4></div>
                                 </div>
                                 <div class="des-div"><br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">Allen Solly Men Printed Casual Spread Shirt from Flipkart.com</p>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">Sonilex SL-BT12 Extra Bass Sports In ear Headphones from <span class="f-s-16 f-c-red f-w-9">Flipkart.com</span></p>
                                     <br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">Shipped with total 13 products of Men & Kids clothing, 3 days delivery </p>
+                                    <p class="f-s-16 f-c-l-gray f-w-7">Shipped Sonilex Headphones Bluetooth Headset with Mic | ₹967/- </p>
                                 </div>
                                 <div>
                                     <h2 class="f-s-16 f-c-d-greay">
-                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Illinois, USA</span>
+                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">1F Cantonment Road, Singapore</span>
                                     </h2>
                                 </div>
                             </div>

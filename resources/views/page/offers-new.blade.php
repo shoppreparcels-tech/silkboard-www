@@ -66,7 +66,7 @@
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/university-offer" target="_blank">
-                                    <img src="{{asset('img/images/university-offer-may.png')}}" class="boxofScroll"/>
+                                    <img src="{{asset('img/images/students-shipping-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
@@ -74,17 +74,17 @@
                         <div class="item">
                             <div class="pad15">
                                 <a href="/first-time-international-shipment-offer" target="_blank">
-                                    <img src="{{asset('img/images/first50-offer-may.png')}}" class="boxofScroll"/>
+                                    <img src="{{asset('img/images/International-shipping-offers.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
-                        {{--<div class="item">--}}
-                            {{--<div class="pad15">--}}
-                                {{--<a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" target="_blank">--}}
-                                    {{--<img src="{{asset('img/images/flipkart-big-shopping.png')}}" class="boxofScroll"/>--}}
-                                {{--</a>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="https://ship.shoppre.com/month-end-exclusive-shipping-offer/" target="_blank">
+                                    <img src="{{asset('img/images/month-end-shipping-offer-india.png')}}" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
                         {{--<div class="item">--}}
                             {{--<div class="pad15">--}}
                                 {{--<a href="https://www.amazon.in/b?node=6648217031&pf_rd_p=f3b26b83-0a05-4b47-b7fd-09d8cb3d946e&pf_rd_r=H6SQ3E7F56BY4Q8Z0G16" target="_blank">--}}
