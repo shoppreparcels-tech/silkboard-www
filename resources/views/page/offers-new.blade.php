@@ -236,8 +236,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Bag Days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Summer Ready Styles</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">₹1500 Off* On ₹4990</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com/shop/women" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>
@@ -249,7 +249,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">OPPO Reno</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">OPPO Reno - 7th June</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Starting ₹32990</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.amazon.in/b?node=16920852031&pf_rd_p=2d725312-10b2-4e76-820b-d30e7cbbb7c8&pf_rd_r=SGMX864JQKK2H8C0YM2T" target="_blank">
@@ -262,10 +262,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Brand Day</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-60% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Dorothy Perkins</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40% to 60% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.jabong.com" target="_blank">
+                                <a href="https://www.jabong.com/dorothy-perkins?rf=Discount%20Range%3A40_100_40.0%20TO%20100.0" target="_blank">
                                     <img src="https://www.shoppre.com/uploads/stores/logo_599691d00e27e.png"/>
                                 </a>
                             </div>

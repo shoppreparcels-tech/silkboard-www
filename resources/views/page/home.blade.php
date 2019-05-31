@@ -594,17 +594,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.ajio.com/" title="Know More" target="_blank">
+                        <a href="https://www.myntra.com/vishudh" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Jabong.com</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Myntra.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Big Bag Days</span>: Ends 31th May</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Vishudh Women Kurta</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Enjoy 50% to 80% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Starts from ₹339/-</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">1,00,000+ styles | 50,000+ exclusive styles. Shop before this sale ends</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Buy Vishudh Women Printed A-Line Kurta, Striped Top & more.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}

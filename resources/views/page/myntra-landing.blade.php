@@ -73,11 +73,12 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/shop/mbe-prebuzz-w-may28" target="_blank"><div class="shopandship ">
-                            <h2>Beauty Edit: 28th-29th May</h2>
+                    <a href="https://www.myntra.com/under-599-store" target="_blank"><div class="shopandship ">
+                            <h2>Hot Deals</h2>
                             <br/>
-                            <p>Maybelline New York, Lakme, Nivea, Colorbar, Clinique & more.</p>
-                            <p>Up to 60% Offer</p>
+                            <p>Clothing for Men, Women & Kids</p>
+                            <p>Buy Under INR 599/-</p>
+                            <p>SHOP NOW</p>
                         </div></a>
                 </div>
                 <div class="col-sm-4">
