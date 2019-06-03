@@ -10,4 +10,5 @@ Homestead.yaml
 /public/uploads/packages
 /public/img/campaigns
 /public/robots.txt
-
+public/robots.txt
+robots.txt
