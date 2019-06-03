@@ -462,10 +462,10 @@
                             </a>
                         </div>
                         <div class="col-md-4 col-xs-4 pad-l-5">
-                            <a class="f-s-18 f-c-white" href="/international-courier-shipping-services-india">
+                            <a class="f-s-18 f-c-white" href="{{route('schedulePickup.Index')}}">
                                 <div class="col-xs-12 col-md-12 pad-0-40 div-s-br ">
-                                    <h5 class="f-s-18 f-c-white txt-a-c"> International
-                                        & <br> Domestic Courier <br></h5>
+                                    <h5 class="f-s-18 f-c-white txt-a-c"> Courier
+                                        <br>(Schedule A Pickup)<br></h5>
                                     <center>
                                         <img src="{{asset('img/images/arrow-home.png')}}" class="pad-t-20  "
                                              alt="International Courier">
@@ -474,6 +474,12 @@
                             </a>
                         </div>
 
+                    </div>
+                    <div>
+                    <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                    <a href="https://ship.shoppre.com/offers/ramadan/" title="Ramadan Offer" target="_blank" class="f-s-16 f-c-red f-w-9">Ramadan Cashback Flat 25% On International Shipping -
+                        Use Code: EID250, valid up to 8th June 2019.</a>
+                    </marquee>
                     </div>
                     {{--<span class="f-s-16 f-c-red f-w-9">The biggest sale of the season from Flipkart.com & Amazon.in & Save 80% on International Shipping.</span><br>--}}
                     {{--< style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
@@ -615,17 +621,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shopping-flipkart-flipstart-days-2019-offers-fashion-beauty-headphones-laptops-power-banks-mobile-cases/" title="Click for Offer Details" target="_blank">
+                        <a href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Flipkart.com</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Amazon.in</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Flipstart Days</span>:1st to 3rd June</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Super Value Day</span>:1st to 7th June</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">40% to 80% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 40% Off + ₹600 Discount</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Special discounts on Fashion, Beauty, Baby Care, Home & Furniture and more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Special Discounts on Skincare, Haircare, Makeup, Diapers, Health Products..</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}

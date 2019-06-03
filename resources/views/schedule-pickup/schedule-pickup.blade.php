@@ -300,8 +300,7 @@
             <div class="col-md-6 col-xs-12 pad-t-20">
                 <h3 class="f-s-25 font-weight-900 f-c-d-greay">Schedule Your Pickup :<span class="f-c-red f-s-16">
                     <a class="bla-1" href="https://www.youtube.com/watch?v=lQi4Io_WH70">
-                        Watch Video To Know More.</a>
-                        </a>
+                        Watch Video👈</a><br>Learn More 👉 <a href="{{route('ics.index')}}" target="_blank" title="Click Here: How to Courier?"><span class="f-c-blue">How to send a parcel by courier?</a></span>
                 </span></h3>
             </div>
             <div class="col-md-6 col-xs-12 "><br>

@@ -80,6 +80,13 @@
                         </div>
                         <div class="item">
                             <div class="pad15">
+                                <a href="https://ship.shoppre.com/offers/ramadan/" target="_blank">
+                                    <img src="{{asset('img/images/ramadan-cashback-shipping-india.png')}}" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
                                 <a href="https://ship.shoppre.com/month-end-exclusive-shipping-offer/" target="_blank">
                                     <img src="{{asset('img/images/month-end-shipping-offer-india.png')}}" class="boxofScroll"/>
                                 </a>
@@ -166,10 +173,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Flipstart Days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">1st to 3rd June</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Black Shark 2</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">INR 39,999/-</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/flipstart-days-store" target="_blank">
+                                <a href="https://www.flipkart.com/black-shark-2-launch-8g0a-store" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
                             </div>

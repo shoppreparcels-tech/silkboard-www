@@ -55,7 +55,7 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - MAY 2019 Sales</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - JUNE 2019 Sales</h2>
                 </div>
             <div style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                 <a href="https://www.flipkart.com/flipstart-days-store" title="flipkart.com" target="_blank">Flipstart Days 1st - 3rd June.</a>
@@ -76,13 +76,13 @@
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/flipstart-days-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/black-shark-2-launch-8g0a-store" title="Click Here to Shop" target="_blank">
                     <div class="ps">
-                        <h2>Flipstart Days</h2>
+                        <h2>Black Shark 2</h2>
                         <br>
-                        <p>Fashion, Beauty, Electronics & more</p>
-                        <p>40% to 80% Off</p>
-                        <p>1st - 3rd June, 2019</p>
+                        <p>6GB | 128GB and 12GB | 256GB</p>
+                        <p>Direct Touch Liquid Cooling 3.0</p>
+                        <p>Sales Starts On - 4th June, 2019</p>
                     </div>
                     </a>
                 </div>

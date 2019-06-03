@@ -73,11 +73,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/under-599-store" target="_blank"><div class="shopandship ">
-                            <h2>Hot Deals</h2>
+                    <a href="https://www.myntra.com/shop/footwear-fest-w-jun3" target="_blank"><div class="shopandship ">
+                            <h2>SHOENIVERSE</h2>
                             <br/>
-                            <p>Clothing for Men, Women & Kids</p>
-                            <p>Buy Under INR 599/-</p>
+                            <p>Sneakers, Heels, Flats & more</p>
+                            <p>40% - 70% Off</p>
                             <p>SHOP NOW</p>
                         </div></a>
                 </div>
