@@ -1,11 +1,11 @@
 @extends('layout')
 
-@section('title', 'About | Shoppre - International Shipping Partner')
-@section('description', 'Know how Shoppre a parcel forwarding & international shipping services work for online shopping in India while ensuring fast service at unbelievably low prices.')
-@section('keywords', 'know how, shoppre, parcel forwarding, international shipping services, online shopping in india, fast service, dhl, fedex, dtdc')
+@section('title', 'ShoppRe - Shipping Partner | Seller & Ecommerce Logistics Solutions ')
+@section('description', 'ShoppRe for You: eCommerce Logistics and Shipping Solutions. Multiple Shipping Partners for Sellers.')
+@section('keywords', 'seller, ecommerce shipping solutions india, marketplace')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/about"/>
+    <link rel="canonical" href="https://www.shoppre.com/seller-partner"/>
     <style>
         .div-option{
             height: 30px;
@@ -28,10 +28,9 @@
         <div class="header">
             <div class="container"><br><br><br>
                 <center>
-                    <h1 class="f-s-36 f-c-white f-w-8">Seller Partnership</h1>
-                    <p class="f-s-20 f-c-l-gray ">ShoppRe.com makes shipping super easy. Ship your products
-                        Internationally starting at Rs. 500/-.<br> Fill in the form below or reach out to us at +91
-                        9148357733</p>
+                    <h1 class="f-s-36 f-c-white f-w-8">Seller & Ecommerce Partnership</h1>
+                    <p class="f-s-20 f-c-l-gray ">ShoppRe.com Your Global Shipping Partner. Ship your products
+                        Internationally starting at Rs. 500/-.<br> ✅Online Seller ✅Social Seller ✅eCommerce Seller ✅Amazon FBA Seller</p>
                 </center>
                 <br>
                 <br>
@@ -59,7 +58,7 @@
     </section>
     <section style="background-color: #fafafb;">
         <div class="container "><br><br>
-            <h2 class="f-s-30 f-c-blue f-w-6">Submit your Interest</h2>
+            <h2 class="f-s-30 f-c-blue f-w-6">Submit your Interest:</h2>
             <div class="col-md-12 col-xs-12 div-b-w-s "
                  style="-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;padding-top: 20px">
                 <div class="col-md-12 col-xs-12 card-body no-pad">
@@ -215,7 +214,9 @@
                             <div class="col-md-12 col-xs-12 no-pad  ">
                                 <h6 class="advertisement-text">Exciting Offers</h6>
                                 <div class="col-md-12 col-xs-12 no-pad" >
-                                    <img style="width: 300px; height: auto; margin-bottom: 20px" src={{asset('img/images/card.png')}}>
+                                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team;%20I'm%20Seller%20Need%20Information%20On%20Pricing" target="_blank" title="Click To Message Us on WhatsApp">
+                                        <img style="width: 300px; height: auto; margin-bottom: 20px" src={{asset('img/images/card.png')}}>
+                                    </a>
 
                                 </div>
                             </div>
@@ -223,9 +224,42 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col-md-12 col-xs-12 no-pad">
+                <center>
+                    <h1 class="f-s-30 font-weight-900 f-c-d-greay">Features & Benefits:</h1>
+                    {{--<p class="f-s-20 f-c-d-greay">Get a FREE estimate for your courier, and schedule a pickup with us. We’ll come to your doorsteps to pick it up within 48 hours.--}}
+                        {{--Our courier partners are known to reach your destination in 3-6 days, wherever in the world!’</p>--}}
+                    {{--</br>--}}
+                </center>
+                <div class=" col-md-12 col-xs-12 div-ics-prodcts">
+                    <div class="col-md-6 col-xs-12 no-padding">
+                        <ul>
+                            <li>🚚 Door to Door Pickup Services</li>
+                            <li>✅ Customs Clearance & Paperwork</li>
+                            <li>📒 No Account Creation Hassless</li>
+                            <li>💲 Low Cost for Higher Kgs</li>
+                            <li>📦 Package Return Services</li>
+                            <li>💳 Multiple Payment Options</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-xs-12 no-padding">
+                        <ul>
+                            <li>🚚Pick-Up Anywhere in India</li>
+                            <li>✅FREE International Promotion</li>
+                            <li>✈️Multiple Courier Partners</li>
+                            <li>📫Doorstep Delivery, 3–6 Working Days</li>
+                            <li>✅E-Commerce/Amazon Fulfillment</li>
+                            <li>📡Real time online tracking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="schedule_load"></div>
+
     </section>
+
 
 @section('js_script')
     <script>

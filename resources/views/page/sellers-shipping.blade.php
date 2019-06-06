@@ -5,7 +5,7 @@
 @section('keywords', 'seller, flipkart seller, amazon central, alibaba seller, paytm, sell products online')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/sellers-shipping" />
+    <link rel="canonical" href="https://www.shoppre.com/seller-partner" />
     <!-- Select2 -->
     <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
     <!-- Magnific Popup -->
