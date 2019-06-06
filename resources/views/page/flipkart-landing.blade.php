@@ -57,11 +57,11 @@
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - JUNE 2019 Sales</h2>
                 </div>
-            <div style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="https://www.flipkart.com/flipstart-days-store" title="flipkart.com" target="_blank">Flipstart Days 1st - 3rd June.</a>
-                     </a>Shop from Flipkart and Ship with ShoppRe Worldwide.
+            {{--<div style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
+                {{--<a href="https://www.flipkart.com/flipstart-days-store" title="flipkart.com" target="_blank">Flipstart Days 1st - 3rd June.</a>--}}
+                     {{--</a>Shop from Flipkart and Ship with ShoppRe Worldwide.--}}
 
-        </div>
+        {{--</div>--}}
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">

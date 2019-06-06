@@ -30,5 +30,6 @@ class VerifyCsrfToken extends BaseVerifier
         '/member/axis/response',
         '/member/paytm/response',
         '/schedule-pickup/submit',
+        '/seller',
     ];
 }

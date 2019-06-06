@@ -558,17 +558,17 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.yeboindia.com/" title="Click to Know More" target="_blank">
+                        <a href="https://clnk.in/iQ78" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Yeboindia.com</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Flipkart.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">EID Special</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Redmi Note 7S</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Flat 70% Off </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">From ₹10,999/- </p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Designer Sarees, Kurtis, Jewellery, Lehengas and Ship with us. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">3.0 GB RAM | 32 GB ROM | 48.0MP + 5.0MP | 13.0MP Front Camera.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -579,17 +579,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.amazon.in/b?node=15140032031&pf_rd_p=370c7ce5-9852-444e-a7a0-7eabd18ef7e8&pf_rd_r=NDSBV0S4JVWYX9MBSQV3" title="Click to Know Highlights" target="_blank">
+                        <a href="https://www.ajio.com/" title="Click to Know Highlights" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Amazon.in</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Ajio.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Ramadan Food Fest</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Handpicked Sale</span>:4-11 June</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 40% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">60-80% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Almonds, Walnuts, Dates Cashew Nuts, Sweets and more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">35,000+ exclusive styles. Tops & Dresses, Fusion Wear, Fashion Jewellery</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -600,17 +600,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.myntra.com/vishudh" title="Know More" target="_blank">
+                        <a href="https://www.myntra.com/mex-labels?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gr">
                             <div class="h-div"><h4 class="f-s-20 f-c-white">Myntra.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Vishudh Women Kurta</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">High Summer Edit</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Starts from ₹339/-</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Season's Best Styles. Min. 40% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Buy Vishudh Women Printed A-Line Kurta, Striped Top & more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Buy Kurta, Shirt, Headphones, Fit Jeans, Jacket, Treggings & more.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -1400,7 +1400,7 @@
                             Ship Worldwide</a></li>
                     <li class="li"><a itemprop="url" class="" href="/myntra-online-shopping-shipping-from-india">Myntra
                             Shopping from USA</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/amazon-india-shop-international-shipping">Amazon.in
+                    <li class="li"><a itemprop="url" class="" href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/">Amazon.in
                             Shopping from USA</a></li>
                     <li class="li"><a itemprop="url" class="" href="/limeroad-shopping-international-shipping">Limeroad
                             Shopping from USA</a></li>

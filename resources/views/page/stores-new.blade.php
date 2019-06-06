@@ -161,7 +161,7 @@
         </div>
     </section>
     <section class="sellers">
-        <div class="container" id="stores-radio">
+        <div class="container">
             <div class="row">
                 <div class="col-md-4 hidden-sm hidden-xs">
                     <form class="browse_form">
@@ -171,43 +171,43 @@
                             <li class="radio-button-blue">
                                 <label>
                                     <input type="radio" name="cat" value="1" checked="">
-                                    <span class="label-text">Top 15 Online Stores in India</span>
+                                    <span >Top 15 Online Stores in India</span>
                                 </label>
                             </li>
                             <li class="radio-button-blue">
                                 <label>
                                     <input type="radio" name="cat" value="2">
-                                    <span class="label-text">Apparels - Women, Men and Kids</span>
+                                    <span>Apparels - Women, Men and Kids</span>
                                 </label>
                             </li>
                             <li class="radio-button-blue">
                                 <label>
                                     <input type="radio" name="cat" value="3">
-                                    <span class="label-text">Apparels - Only Men</span>
+                                    <span>Apparels - Only Men</span>
                                 </label>
                             </li>
                             <li class="radio-button-blue">
                                 <label>
                                     <input type="radio" name="cat" value="5">
-                                    <span class="label-text">Luxury / Designer Wear</span>
+                                    <span>Luxury / Designer Wear</span>
                                 </label>
                             </li>
                             <li class="radio-button-blue">
                                 <label>
                                     <input type="radio" name="cat" value="4">
-                                    <span class="label-text">Kids and Moms</span>
+                                    <span>Kids and Moms</span>
                                 </label>
                             </li>
                             <li class="radio-button-blue">
                                 <label>
                                     <input type="radio" name="cat" value="6">
-                                    <span class="label-text">Fashion Jewellery</span>
+                                    <span>Fashion Jewellery</span>
                                 </label>
                             </li>
                             <li class="radio-button-blue">
                                 <label>
                                     <input type="radio" name="cat" value="7">
-                                    <span class="label-text">Handicrafts, Furniture &amp; Home Decor</span>
+                                    <span>Handicrafts, Furniture &amp; Home Decor</span>
                                 </label>
                             </li>
                             <hr style="border-style: dashed;border-color: #555;">
@@ -221,7 +221,7 @@
                                 <li class="radio-button-blue">
                                     <label>
                                         <input type="radio" name="cat" value="{{$category->id}}">
-                                        <span class="label-text"{{$checked}}>{{$category->category}}</span>
+                                        <span>{{$category->category}}</span>
                                     </label>
                                 </li>
                                 @php
@@ -271,8 +271,8 @@
                             <ul class="list-inline list-unstyled">
                                 <li role="presentation" class="active"><a href="#web" aria-controls="web" role="tab"
                                                                           data-toggle="tab">Online Stores</a></li>
-                                <li role="presentation"><a href="#fb" aria-controls="fb" role="tab" data-toggle="tab">Social
-                                        Stores</a></li>
+                                {{--<li role="presentation"><a href="#fb" aria-controls="fb" role="tab" data-toggle="tab">Social--}}
+                                        {{--Stores</a></li>--}}
                                 <li role="presentation"><a href="#featured" aria-controls="featured" role="tab"
                                                            data-toggle="tab">Featured Stores</a></li>
 
@@ -388,9 +388,8 @@
                                             <h3 class="category-heading">POPULAR CATEGORIES</h3>
                                             {{ csrf_field() }}
 
-                                            <li class="radio-button-blue"><label><input type="radio" name="cat"
-                                                                                        value="1" checked=""><span
-                                                        class="label-text">Top 15 Online Stores in India</span></label>
+                                            <li><label><input type="radio" name="cat" value="1" checked=""><span
+                                                        class="">Top 15 Online Stores in India</span></label>
                                             </li>
                                             <li class="radio-button-blue"><label><input type="radio" name="cat"
                                                                                         value="2"><span

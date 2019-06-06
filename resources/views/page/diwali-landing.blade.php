@@ -325,7 +325,6 @@
                         // email: {required: 'Please enter your email id'}
                     },
                 submitHandler: function (form) {
-                    debugger;
                     var email = $("input[name='email']").val();
                     var name = $("input[name='Name']").val();
                     var contact_no = $("input[name='ContactNumber']").val();

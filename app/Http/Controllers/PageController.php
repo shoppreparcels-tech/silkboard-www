@@ -450,33 +450,27 @@ class PageController extends Controller
 
     public function apiSellerPartner(Request $req)
     {
-        console.log('hi');exit;
         $id = Auth::id();
-        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
-        $list_id = 'aca625e01f';
+        $apikey = '6ba458bdb6f82f2b2e45c7ab25204e37-us19';
+        $list_id = '458f84e53e';
         $auth = base64_encode('user:' . $apikey);
         if (!empty($req->email)) {
             $email = $req->email;
             $name = $req->name;
             $businessName = $req->businessName;
             $websiteLink = $req->websiteLink;
+            $businessType = $req->businessType;
+            $domesticWeightRange= $req->domesticWeightRange;
+            $internationalWeightRange= $req->internationalWeightRange;
+            $Countries= $req->Countries;
             $contact = $req->contact_no;
-            $commnet = "Lead from seller landing page USA email " . $email . "\n contact No: " . $contact;
+            $commnet = "Lead from seller partner page " . $email . "\n contact No: " . $contact ."\n Business Name: "
+                . $businessName." \n website Link: " . $websiteLink." \n Business type: ". $businessType." \n Domestic WeightRange: "
+                .$domesticWeightRange. " \n International WeightRange: " .$internationalWeightRange."\n Countries: ".$Countries ;
             AsanaTaskOperations::createTask($name, $commnet, "L");
         }
 
-        $data = array(
-            'apikey' => $apikey,
-            'email_address' => $email,
-            'status' => 'subscribed',
-            'merge_fields' => array(
-                'FNAME' => $name,
-                'LNAME' => '',
-                'PHONE' => $contact
-            )
-        );
-        $json_data = json_encode($data);
-        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+        return redirect()->back()->with('message', 'success');
     }
 
     public function valentines()
@@ -1743,14 +1737,18 @@ class PageController extends Controller
 
     public function storeSearch(Request $request)
     {
-        $query = Store::query();
         if (isset($request->q) && !empty($request->q)) {
             $keyword = $request->q;
-            $query->where('name', 'like', '%' . $keyword . '%')
-                ->select(['name']);
         }
-        $questions = $query->get();
-        return response()->json(['name' => $questions]);
+
+        $webs = StoreCatClub::where('category_id', 1)
+            ->where('type', 'web')
+            ->select('store_cat_clubs.*', 'stores.name', 'stores.type', 'stores.logo')
+            ->join('stores', 'store_cat_clubs.store_id', '=', 'stores.id')
+            ->where('name', 'like', '%' . $keyword . '%')
+            ->get();
+
+        return response()->json(['name' => $webs]);
     }
 
     public function contact()

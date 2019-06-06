@@ -201,8 +201,8 @@
 
         $scope.Store = {
             select: function ($item) {
-                var href = ($item.name);
-                window.open('https://' + href, '_blank');
+                var href = ($item.url);
+                window.open(href, '_blank');
             },
             get: function (search) {
                 return $http
