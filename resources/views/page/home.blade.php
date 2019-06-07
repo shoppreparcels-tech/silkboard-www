@@ -598,17 +598,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.myntra.com/mex-labels?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0" title="Know More" target="_blank">
+                        <a href="https://www.amazon.in/b?node=11400137031&pf_rd_p=47fccc47-5091-4531-a3a9-43bdceb55ea9&pf_rd_r=Z4VBHT14HKQ5SE6TD6FE" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Myntra.com</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Amazon.in</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">High Summer Edit</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Tops, Dresses & More</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Season's Best Styles. Min. 40% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Minimum 50% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Buy Kurta, Shirt, Headphones, Fit Jeans, Jacket, Treggings & more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Buy Tops, Shirts, Tees, Jeans, Trousers, & more. Starting from ₹399/-</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -619,17 +619,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" title="Click for Offer Details" target="_blank">
+                        <a href="https://www.jaypore.com/eoss2019" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Amazon.in</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Jaypore.com</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Super Value Day</span>:1st to 7th June</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">The Summer Of Savings Sale</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 40% Off + ₹600 Discount</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 60% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Special Discounts on Skincare, Haircare, Makeup, Diapers, Health Products..</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Kurtas & Pants, Duppatas & Stoles, Saress & Blouses and more..</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
