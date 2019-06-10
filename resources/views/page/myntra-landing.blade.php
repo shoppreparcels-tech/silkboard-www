@@ -73,12 +73,12 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/shop/footwear-fest-w-jun3" target="_blank"><div class="shopandship ">
-                            <h2>SHOENIVERSE</h2>
+                    <a href="https://www.myntra.com/hrx-brand-day-min-40" target="_blank"><div class="shopandship ">
+                            <h2>Hrx Brand Day Min 40</h2>
                             <br/>
-                            <p>Sneakers, Heels, Flats & more</p>
-                            <p>40% - 70% Off</p>
-                            <p>SHOP NOW</p>
+                            <p>Shoes, Sneakers, T-shirt & more</p>
+                            <p>MIN. 40% Off</p>
+                            <p>Explore Now</p>
                         </div></a>
                 </div>
                 <div class="col-sm-4">
@@ -92,12 +92,12 @@
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/offerl-libas" target="_blank"><div class="ic">
-                            <h2>Libas</h2>
+                    <a href="https://www.myntra.com/mww-all?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank"><div class="ic">
+                            <h2>A Formal Affair</h2>
                             <br>
-                            <p>UP TO 60% OFF</p>
-                            <p>Kurta, Etnic Jacket, Maxi Dress</p>
-                            <p>Starting from ₹249/-</p></div></a>
+                            <p>Men's Workwear At </p>
+                            <p>UP TO 50% OFF</p>
+                            <p>Starting from ₹227/-</p></div></a>
                     </div>
                 </div>
             </div>

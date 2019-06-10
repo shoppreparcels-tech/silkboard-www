@@ -185,6 +185,7 @@
                 <center>
                     <h1 class="header1  p-color-cement-dark">How <span class="p-color-blue">Self Shopping</span> Work?
                     </h1>
+                    <h3 class="f-s-1 f-c-blue">Service Charges: 10%</h3>
                 </center>
             </div>
             <br>
@@ -271,6 +272,7 @@
                 <center>
                     <h1 class="header1  p-color-cement-dark">How <span class="p-color-blue">Assisted Shopping</span>
                         Work?</h1>
+                    <h3 class="f-s-1 f-c-blue">Service Charges: 07%</h3>
                 </center>
             </div>
             <br>

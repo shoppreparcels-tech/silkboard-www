@@ -88,7 +88,7 @@
                </center><br/>
                <div class="col-md-6 col-xs-12">
                    <center>
-                       <h class="f-s-20 f-c-red">Self Purchased</h><br/><span class="f-c-gray f-s-15">( Paying For You )</span>
+                       <h class="f-s-20 f-c-red">Self Purchased</h><br/><span class="f-c-gray f-s-15">( Paying For You )<br><span class="f-s-1 f-c-red">Service Charges: 10%</span>
                    </center><br/>
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b1">
                        <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/shop-product.svg" alt=""/></div>
@@ -141,7 +141,7 @@
                </div>
                <div class="col-md-6 col-xs-12">
                    <center>
-                       <h class="f-s-20 f-c-blue">Assisted Purchase </h><br/><span class="f-c-gray f-s-15">( Shopping For You )</span>
+                       <h class="f-s-20 f-c-blue">Assisted Purchase </h><br/><span class="f-c-gray f-s-15">( Shopping For You )<br><span class="f-s-1 f-c-blue">Service Charges: 07%</span>
                    </center><br/>
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b1">
                        <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/shop-product.svg" alt=""/></div>

@@ -475,12 +475,12 @@
                         </div>
 
                     </div>
-                    <div>
-                    <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                    <a href="https://ship.shoppre.com/offers/ramadan/" title="Ramadan Offer" target="_blank" class="f-s-16 f-c-red f-w-9">Ramadan Cashback Flat 25% On International Shipping -
-                        Use Code: EID250, valid up to 8th June 2019.</a>
-                    </marquee>
-                    </div>
+                    {{--<div>--}}
+                    {{--<marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
+                    {{--<a href="https://ship.shoppre.com/offers/ramadan/" title="Ramadan Offer" target="_blank" class="f-s-16 f-c-red f-w-9">Ramadan Cashback Flat 25% On International Shipping ---}}
+                        {{--Use Code: EID250, valid up to 8th June 2019.</a>--}}
+                    {{--</marquee>--}}
+                    {{--</div>--}}
                     {{--<span class="f-s-16 f-c-red f-w-9">The biggest sale of the season from Flipkart.com & Amazon.in & Save 80% on International Shipping.</span><br>--}}
                     {{--< style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
                         {{--<a href="https://www.flipkart.com" title="Flipkart" target="_blank">1. Flipkart.com - Big Shopping Days 15th - 19th May 2019</a> ||--}}
@@ -556,17 +556,17 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://clnk.in/iQ78" title="Click to Know More" target="_blank">
+                        <a href="https://www.flipkart.com/knock-out-offers-y7-9g-store" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Flipkart.com</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Knock Out Offers</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Redmi Note 7S</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">10th - 14th June</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">From ₹10,999/- </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Flipkart.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">3.0 GB RAM | 32 GB ROM | 48.0MP + 5.0MP | 13.0MP Front Camera.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Best Deals on Mi, Honor, OPPO & Vivo. Lowest Prices Ever!</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -580,12 +580,12 @@
                         <a href="https://www.ajio.com/" title="Click to Know Highlights" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Ajio.com</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Handpicked Sale</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Handpicked Sale</span>:4-11 June</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">60-80% Off </span>:4th - 11th June</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">60-80% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Ajio.com</p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">35,000+ exclusive styles. Tops & Dresses, Fusion Wear, Fashion Jewellery</p>
                         </div>
@@ -598,17 +598,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.amazon.in/b?node=11400137031&pf_rd_p=47fccc47-5091-4531-a3a9-43bdceb55ea9&pf_rd_r=Z4VBHT14HKQ5SE6TD6FE" title="Know More" target="_blank">
+                        <a href="https://www.amazon.in/b?node=1389401031&pf_rd_p=4009cb2a-d28e-4e73-8114-2d13abd04bf9&pf_rd_r=T608XPM3JWE48NKZ60S7" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Amazon.in</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">FAB Phones Fest</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Tops, Dresses & More</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">10th - 13th June</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Minimum 50% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Amazon.in</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Buy Tops, Shirts, Tees, Jeans, Trousers, & more. Starting from ₹399/-</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 40% Off. OnePlus 6T, iPhone X, Mi A2, Samsung Galaxy M30 & more.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -622,12 +622,12 @@
                         <a href="https://www.jaypore.com/eoss2019" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Jaypore.com</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Jaypore</h4></div>
                         </div>
                         <div class="des-div"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">The Summer Of Savings Sale</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 60% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Jaypore.com | Up to 60% Off</p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Kurtas & Pants, Duppatas & Stoles, Saress & Blouses and more..</p>
                         </div>

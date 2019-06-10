@@ -191,7 +191,7 @@
                                     </li>
                                     <div class="">
                                         <p class="header6 p-color-cement">Seller from outside India looking for Indian goods?  Join our Partnership Program & get a better deal in shipping!</p>
-                                        <a href="/sellers-shipping" class="mega-menu-hyperlinks" target="_blank">Register Now</a>
+                                        <a href="/seller-partner" class="mega-menu-hyperlinks" target="_blank">Know More</a>
                                     </div>
 
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_plane.svg" alt="">

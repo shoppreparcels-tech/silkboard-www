@@ -78,13 +78,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="https://ship.shoppre.com/offers/ramadan/" target="_blank">
-                                    <img src="{{asset('img/images/ramadan-cashback-shipping-india.png')}}" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
+                        {{--<div class="item">--}}
+                            {{--<div class="pad15">--}}
+                                {{--<a href="https://ship.shoppre.com/offers/ramadan/" target="_blank">--}}
+                                    {{--<img src="{{asset('img/images/ramadan-cashback-shipping-india.png')}}" class="boxofScroll"/>--}}
+                                {{--</a>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://ship.shoppre.com/month-end-exclusive-shipping-offer/" target="_blank">
@@ -256,10 +256,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">OPPO Reno - 7th June</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Starting ₹32990</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Cricket Frenzy</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Gear up for the game!</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.amazon.in/b?node=16920852031&pf_rd_p=2d725312-10b2-4e76-820b-d30e7cbbb7c8&pf_rd_r=SGMX864JQKK2H8C0YM2T" target="_blank">
+                                <a href="https://www.amazon.in/b?ie=UTF8&node=17107038031&pf_rd_p=e6a59ca7-4bd1-404b-a001-fc866ada2fa5&pf_rd_r=M2AHEHP2FK8S8VRBW6GN" target="_blank">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>

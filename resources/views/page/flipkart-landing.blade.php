@@ -65,13 +65,13 @@
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/fashion-mm-superhero-2019-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/knock-out-offers-y7-9g-store" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-                            <h2>Fashion Goals</h2>
+                            <h2>Knock Out Offers</h2>
                             <br/>
-                            <p>Deals on T-shirts, Shoes, Luggage.. </p>
-                            <p>Min. 50% Off</p>
-                            <p>AT, Puma, Lee & more</p>
+                            <p>10th - 14th June</p>
+                            <p>Deals on Mi, Honor, OppO & Vivo</p>
+                            <p>Lowest Price Ever!</p>
                         </div>
                     </a>
                 </div>
