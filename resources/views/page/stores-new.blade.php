@@ -1,5 +1,5 @@
 @extends('layout')
-@extends('add-sense')
+{{--@extends('add-sense')--}}
 
 @section('title', 'Top Stores: Indian Shopping Sites with International Delivery through ShoppRe')
 @section('description', 'Shop from list of Top Indian Shopping Sites, Facebook & Instagram Sellers. Save by combining multiple packages into one and get it shipped to your country.')

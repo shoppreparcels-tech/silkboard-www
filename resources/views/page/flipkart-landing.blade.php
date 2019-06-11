@@ -87,12 +87,12 @@
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/flipkart-smartbuy-store" target="_blank"><div class="ic">
-                            <h2>Flipkart SmartBuy Store</h2>
+                    <a href="https://www.flipkart.com/boss-2019-store" target="_blank"><div class="ic">
+                            <h2>Boss Best of Season Sale</h2>
                             <br>
-                            <p>Mobile, Audio, USB Chargers, Cables</p>
-                            <p>Electronics & Accessories & more</p>
-                            <p>May 2019 </p>
+                            <p>Up to 80% Off on 99.9% Styles</p>
+                            <p>Men, Women and Kids Fashion & more</p>
+                            <p>Jun 11th - 15th </p>
                         </div></a>
                 </div>
             </div>

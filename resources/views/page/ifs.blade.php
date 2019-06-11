@@ -148,13 +148,12 @@
     </section>
 
     <section>
-        {{--<div>--}}
-            {{--<marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
-                {{--<a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may" title="Flipkart" target="_blank">1. Flipkart.com - Big Shopping Days 15th - 19th May |</a>--}}
-                {{--<a href="https://www.amazon.in/b?node=6648217031&pf_rd_p=f3b26b83-0a05-4b47-b7fd-09d8cb3d946e&pf_rd_r=H6SQ3E7F56BY4Q8Z0G16" title="Amazon.in" target="_blank">2. Amazon.in - Summer Pop-Up Sale 15th - 19th May |</a>--}}
-                {{--<a href="https://www.myntra.com/" title="Amazon.in" target="_blank">3. Myntra - The Hotter Than Summer Sale 15th - 19th May </a>--}}
-            {{--</marquee>--}}
-        {{--</div>--}}
+        <div>
+            <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                <a href="https://www.flipkart.com/boss-2019-store" title="Flipkart" target="_blank">1. Flipkart.com - BOSS Best of Season Sale 11th - 15th June |</a>
+                <a href="https://www.amazon.in/b?node=1389401031&pf_rd_p=f727f98e-bc46-4209-ac33-e2f0e85b4506&pf_rd_r=Y3G47S8R8507513HTJV8" title="Amazon.in" target="_blank">2. Amazon.in - FAB PHONE FEST Sale 10th - 13th June</a>
+            </marquee>
+        </div>
         <div class="container" id="how-it-works">
             <div>
                 <center>

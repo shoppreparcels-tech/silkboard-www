@@ -464,7 +464,7 @@
                         <div class="col-md-4 col-xs-4 pad-l-5">
                             <a class="f-s-18 f-c-white" href="{{route('schedulePickup.Index')}}">
                                 <div class="col-xs-12 col-md-12 pad-0-40 div-s-br ">
-                                    <h5 class="f-s-18 f-c-white txt-a-c"> Courier
+                                    <h5 class="f-s-18 f-c-white txt-a-c">Best Courier Service
                                         <br>(Schedule A Pickup)<br></h5>
                                     <center>
                                         <img src="{{asset('img/images/arrow-home.png')}}" class="pad-t-20  "
@@ -557,17 +557,17 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.flipkart.com/knock-out-offers-y7-9g-store" title="Click to Know More" target="_blank">
+                        <a href="https://www.flipkart.com/boss-2019-store" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Knock Out Offers</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Boss Best of Season Sale</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">10th - 14th June</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">11th - 15th June</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Flipkart.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Best Deals on Mi, Honor, OPPO & Vivo. Lowest Prices Ever!</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 80% Off on 99.9% Styles. Men, Women and Kids Fashion & more</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
