@@ -526,7 +526,8 @@
                                        placeholder=" Password" required>
                                 {{--<a href="" class="btn btn-s-r btn-b-r btn-a-l m-t-20">Sign up for Free</a>--}}
                                 <button type="submit" class="btn btn-s-r btn-b-r btn-l m-t-20">Sign Up Free</button>
-                                <p class="f-s-14 f-c-blue m-t-20">Avail Your Discount Today!</p>
+                                <p class="f-s-14 f-c-blue m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
+                                    Blog: <a class="f-c-blue" style="text-decoration: underline" href="https://ship.shoppre.com/products-on-sale-pure-organic-yoga-clothing-and-products-made-in-india/" target="_blank">Best Sales to Shop Organic Yoga Clothes</a> </p>
                             </div>
                             <div class="col-md-6 col-xs-12 no-pad ">
                                 <center>
@@ -1326,7 +1327,7 @@
                     <ul class="nav-ul">
                         <li class="li"><a itemprop="url" class=""
                                           href="/priyamani-ad-launch-parcel-forwarding-service-from-india">Online
-                                Shoping in India</a></li>
+                                Shopping in India</a></li>
                         <li class="li"><a itemprop="url" class=""
                                           href="/personal-shopper-online-shopping-from-india-shipping">Personal Shopper
                                 Services</a></li>
@@ -1367,7 +1368,7 @@
                     <li class="li"><a itemprop="url" class="" href="/courier-charges-from-pune-to-california">Courier
                             Services to California</a></li>
                     <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-usa-per-kg">Courier
-                            Hyderabad to Texas</a></li>
+                            from Hyderabad to Texas</a></li>
                     <li class="li"><a itemprop="url" class="" href="/courier-charges-from-ahmedabad-to-dubai">Courier
                             from Ahmedabad to Dubai</a></li>
                 </ul>
