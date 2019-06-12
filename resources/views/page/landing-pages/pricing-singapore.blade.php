@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'International Courier from India to Singapore | Starting from ₹1227')
+@section('title', 'International Courier from India to Singapore | Starting from ₹939')
 @section('description', 'Fast and Reliable Shipping from India to Singapore. Ship household stuff, medicine, food items, docs. Save 60% on Shipping Rates. Call 08277919191 for Pick up.')
 @section('keywords', 'courier from india to singapore, ship household stuff, packers and movers company, Shop & Ship services')
 
@@ -31,7 +31,7 @@
     "@type" : "AggregateRating",
     "bestRating": "5",
     "ratingValue" : "4.8",
-    "reviewCount" : "158",
+    "reviewCount" : "500",
     "worstRating" : 3.0
   }
 }
@@ -116,29 +116,29 @@
                                 <h1>Pricing</h1>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1227</h1>
+                                <h1>₹939</h1>
                                  <p><span>Per</span> 0.5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1879</h1>
+                                <h1>₹1400</h1>
                                 <p><span>Per</span> 1 Kg</p>
                             </td>
                             <td class=" div-b-w-s tbl-br">
-                                <h1>₹1943</h1>
+                                <h1>₹2087</h1>
                                 <p><span>Per</span> 2 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹2894</h1>
+                                <h1>₹2960</h1>
                                 <p><span>Per</span> 3 Kg</p>
                             </td>
                         </tr>
                         <tr>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3245</h1>
+                                <h1>₹3218</h1>
                                 <p><span>Per</span> 4 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3503</h1>
+                                <h1>₹3474</h1>
                                 <p><span>Per</span> 5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">

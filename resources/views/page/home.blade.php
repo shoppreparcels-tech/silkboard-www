@@ -578,17 +578,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.ajio.com/" title="Click to Know Highlights" target="_blank">
+                        <a href="https://www.myntra.com/shop/women" title="Click to Know Highlights" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Handpicked Sale</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Season Fashionable Looks</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">60-80% Off </span>:4th - 11th June</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">MIN. 40% Off </span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Ajio.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Myntra.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">35,000+ exclusive styles. Tops & Dresses, Fusion Wear, Fashion Jewellery</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Watch, Toe Flats, Backpack, Fit Jeans, Shirt Dress, Sweater & more.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -602,7 +602,7 @@
                         <a href="https://www.amazon.in/b?node=1389401031&pf_rd_p=4009cb2a-d28e-4e73-8114-2d13abd04bf9&pf_rd_r=T608XPM3JWE48NKZ60S7" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">FAB Phones Fest</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Fab Phones Fest</h4></div>
                         </div>
                         <div class="des-div"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">10th - 13th June</span></p>
@@ -623,12 +623,12 @@
                         <a href="https://www.jaypore.com/eoss2019" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Jaypore</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Sale Up to 50%</h4></div>
                         </div>
                         <div class="des-div"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">The Summer Of Savings Sale</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Jaypore.com | Up to 60% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Jaypore.com</p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Kurtas & Pants, Duppatas & Stoles, Saress & Blouses and more..</p>
                         </div>

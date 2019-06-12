@@ -30,7 +30,7 @@
     "@type" : "AggregateRating",
     "bestRating": "5",
     "ratingValue" : "4.8",
-    "reviewCount" : "158",
+    "reviewCount" : "2500",
     "worstRating" : 3.0
   }
 }
@@ -108,22 +108,22 @@
                 <div class="col-md-12 col-xs-12 no-pad">
                     <h1 class="p-color-white header-spacing d-header-text">International Courier To USA
                         <br></h1>
-                    <h1 class="header1 p-color-white header-spacing">Starting @₹1579/-</h1>
+                    <h1 class="header1 p-color-white header-spacing">Starting @₹1449/-</h1>
                     <table class="table table-bordered txt-a-c">
                         <tr>
                             <td class="btn-b-y tbl-br">
                                 <h1>Pricing</h1>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1579</h1>
+                                <h1>₹1449</h1>
                                  <p><span>Per</span> 0.5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1819</h1>
+                                <h1>₹1880</h1>
                                 <p><span>Per</span> 1 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹2301</h1>
+                                <h1>₹2377</h1>
                                 <p><span>Per</span> 2 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">

@@ -109,7 +109,7 @@
                             <a href="/international-courier-charges-india-to-usa-per-kg">Courier Rates from India to USA per kg</a>
                         </div>
                         <div class="col-md-4 col-xs-12 pad-20">
-                            <a href="/international-courier-charges-india-to-uae-per-kg">Courier Charges starts from ₹570 UAE</a>
+                            <a href="/international-courier-charges-india-to-uae-per-kg">Courier Charges starts from ₹566 UAE</a>
                         </div>
                         <div class="col-md-4 col-xs-12  pad-20">
                             <a href="/international-courier-charges-india-to-canada-per-kg">Courier charges from India to Canada</a>

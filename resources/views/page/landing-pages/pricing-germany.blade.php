@@ -31,7 +31,7 @@
     "@type" : "AggregateRating",
     "bestRating": "5",
     "ratingValue" : "4.8",
-    "reviewCount" : "158",
+    "reviewCount" : "800",
     "worstRating" : 3.0
   }
 }
@@ -109,22 +109,23 @@
                 <div class="col-md-12 col-xs-12 no-pad">
                     <h1 class="p-color-white header-spacing d-header-text">International Courier Rates
                         <br></h1>
-                    <h1 class="header1 p-color-white header-spacing">To Germany, Starting @₹1723/-</h1>
+                    <h1 class="header1 p-color-white header-spacing">To Germany, Starting @₹1556/-</h1>
                     <table class="table table-bordered txt-a-c">
                         <tr>
                             <td class="btn-b-y tbl-br">
                                 <h1>Pricing</h1>
+                                <h6>As Per June 2019</h6>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1723</h1>
+                                <h1>₹1556</h1>
                                  <p><span>Per</span> 0.5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹2112</h1>
+                                <h1>₹1681</h1>
                                 <p><span>Per</span> 1 Kg</p>
                             </td>
                             <td class=" div-b-w-s tbl-br">
-                                <h1>₹2646</h1>
+                                <h1>₹2322</h1>
                                 <p><span>Per</span> 2 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
@@ -146,7 +147,7 @@
                                 <p><span>Per</span> 10 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹7715</h1>
+                                <h1>₹7115</h1>
                                 <p><span>Per</span> 20 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
@@ -162,7 +163,7 @@
                     <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Estimate</a>
                     <br>
                     <br>
-                    <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r btn-f-w">Avail Your Discount on your First International Shipment. Use Code: FRST50</a>
+                    <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r btn-f-w">Flat ₹200/- Off On Your First International Shipment. Use Code: FRST50</a>
                 </div>
 
             </div>
