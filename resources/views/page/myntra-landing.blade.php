@@ -73,11 +73,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/hrx-brand-day-min-40" target="_blank"><div class="shopandship ">
-                            <h2>Hrx Brand Day Min 40</h2>
+                    <a href="https://www.myntra.com/myntrainsider" target="_blank"><div class="shopandship ">
+                            <h2>End Of Reason Sale</h2>
                             <br/>
-                            <p>Shoes, Sneakers, T-shirt & more</p>
-                            <p>MIN. 40% Off</p>
+                            <p>21st - 24th June</p>
+                            <p>50% - 80% Off</p>
                             <p>Explore Now</p>
                         </div></a>
                 </div>

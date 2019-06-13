@@ -160,7 +160,7 @@
         </div>
         <div class="container">
             <br/>
-            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites May-2019 Sales:</h3>
+            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (June-2019 Sale):</h3>
             {{--<div>--}}
 
                 {{--<marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
@@ -328,7 +328,7 @@
         <br>
 
         <div class="container text-center">
-            <h3 class="header3 p-color-cement-dark font-weight-900">LIVE Sales:</h3>
+            <h3 class="header3 p-color-cement-dark font-weight-900">LIVE Sale:</h3>
             <p>Fashion Category:</p>
             <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/38315?pub_id=54240CL48886'></iframe>
             <br/>
@@ -342,10 +342,93 @@
             <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/38318?pub_id=54240CL48886'></iframe>
             <br/>
         </div>
-
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="div-b-l-w">
+        <div class="container-fluid c-f-p seo-hyperlinks"><br>
+            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
+                <h4>Sale & Offers</h4>
+                <ul class="nav-ul">
+                    <ul class="nav-ul">
+                        <li class="li"><a itemprop="url" class=""
+                                          href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-usa-from-india/" target="_blank">Rakhi Online Shopping India</a></li>
+                        <li class="li"><a itemprop="url" class=""
+                                          href="/personal-shopper-online-shopping-from-india-shipping">AMAZON.IN Great Indian Sale</a></li>
+                        <li class="li"><a itemprop="url" class=""
+                                          href="https://ship.shoppre.com/flipkart-the-big-billion-days-sales-offers-deals-online-shopping-with-international-delivery/" target="_blank">
+                                FLIPKART Big Billion Day Sale</a></li>
+                        <li class="li"><a itemprop="url" class="" href="https://ship.shoppre.com/prime-amazon-fashion-wardrobe-refresh-sale-shop-online-from-india/" target="_blank">
+                                Fashion Wardrobe Refresh Sale</a></li>
+                        <li class="li"><a itemprop="url" class=""
+                                          href="https://ship.shoppre.com/online-shopping-flipkart-flipstart-days-2019-offers-fashion-beauty-headphones-laptops-power-banks-mobile-cases/" target="_blank">
+                                Flipkart Flipstart Days</a></li>
+                        <li class="li"><a itemprop="url" class=""
+                                          href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">
+                                Flipkart Big Shopping Days</a></li>
+                        <li class="li"><a itemprop="url" class="" href="https://ship.shoppre.com/products-on-sale-pure-organic-yoga-clothing-and-products-made-in-india/" target="_blank">
+                                Yoga Organic Clothing Sale</a></li>
+                        <li class="li"><a itemprop="url" class="" href="https://www.myntra.com/myntrainsider" target="_blank">
+                                 Myntra End Of Reason Sale</a></li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
+                <h4>Courier Rates/Kg</h4>
+                <ul class="nav-ul">
+                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-canada-per-kg">Courier from India to Canada</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-germany-per-kg"> Courier from India to Germany</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-singapore-per-kg">Courier from India to Singapore</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-australia-per-kg">Courier from India to Australia</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-usa-per-kg">Courier from India to USA</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-uae-per-kg">Courier from India to UAE</a></li>
+                    <li class="li"><a itemprop="url" class="" href="https://ship.shoppre.com/international-courier-charges-per-kg/from-india-to-finland/" target="_blank">
+                            Courier from India to Finland</a></li>
+                    <li class="li"><a itemprop="url" class="" href="https://ship.shoppre.com/international-courier-charges-per-kg/from-india-to-uk">
+                            Courier from India to The UK</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
+                <h4>Mobile Offers </h4>
+                <ul class="nav-ul">
+                    <li class="li"><a itemprop="url" class="" href="https://www.amazon.in/gp/product/B07HGJJ58K/ref=s9_acss_bw_cg_Top_4a1_w" target="_blank">
+                            Samsung Galaxy M30</a></li>
+                    <li class="li"><a itemprop="url" class="" href="https://www.amazon.in/gp/product/B07JWVNKRL/ref=s9_acss_bw_cg_Top_2b1_w" target="_blank">
+                            Apple iPhone XR</a></li>
+                    <li class="li"><a itemprop="url" class="" href="https://www.flipkart.com/oppo-f11-fluorite-purple-128-gb/p/itmfgb8ft4kfgfe6" target="_blank">
+                            OPPO F11</a></li>
+                    <li class="li"><a itemprop="url" class="" href="https://www.flipkart.com/google-pixel-3-not-pink-128-gb/p/itmfbuyqxkruzg7j" target="_blank">
+                            Google Pixel 3</a></li>
+                    <li class="li"><a itemprop="url" class="" href="https://www.tatacliq.com/nokia-61-64-gb-bluegold-4-gb-ram-dual-sim-4g/p-mp000000003223071" target="_blank">
+                           Nokia 6.1 64 GB</a></li>
+                    <li class="li"><a itemprop="url" class="" href="https://www.amazon.in/Moto-ONE-White-64-GB/dp/B07RFCVTK1" target="_blank">
+                            Moto ONE White 4/64 GB</a></li>
+                    <li class="li"><a itemprop="url" class="" href="https://www.flipkart.com/redmi-note-6-pro-black-64-gb/p/itmfayzxqnzjhtbh" target="_blank">
+                            Redmi Note 6 Pro</a></li>
+                    <li class="li"><a itemprop="url" class="" href="https://www.2gud.com/asus-zenfone-max-pro-m1-black-64-gb/p/itmf5ptrgsbsbuzs" target="_blank">
+                            Asus Zenfone Max Pro M1</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
+                <h4>Top Indian Stores</h4>
+                <ul class="nav-ul">
+                    <li class="li"><a itemprop="url" class="" href="https://ship.shoppre.com/online-stores-india/nykaa-india-beauty-products-international-shipping/" target="_blank">
+                            Nykaa International Shipping</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/myntra-online-shopping-shipping-from-india">Myntra International Shipping</a></li>
+                    <li class="li"><a itemprop="url" class="" href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" target="_blank">Amazon.in International Shipping</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/limeroad-shopping-international-shipping">Limeroad International Delivery</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/flipkart-shopping-with-shoppre-from-india">Flipkart International Shipping</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/etsy-international-shipping-from-india">Etsy International Shipping</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/ajio-online-shopping-international-shipping">AJIO International Shipping</a></li>
+                    <li class="li"><a itemprop="url" class="" href="/jaypore-international-shipping-from-india">Jaypore International Delivery</a></li>
+                </ul>
+            </div>
+        </div>
 
     </section>
-    <section class="delivery">
+
+        <section class="delivery">
         <br>
         <br>
         <br>

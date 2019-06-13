@@ -71,17 +71,17 @@
                 {{--</form>--}}
                 <br>
                 <br>
-                <div class="form-group text-center div-align-items-l">
-                    {{--<button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r">--}}
-                    <a href="/customer/register" class="btn btn-l btn-b-r btn-s-r font-weight-900" target="_blank">Sign Up For Free</a>
-                    {{--</button>--}}
-                    <br>
-                    <br>
-                    {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
-                    <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
-                    {{--</button>--}}
-                </div>
-
+                   <div class="form-group text-center">
+                       {{--<button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r">--}}
+                       <a href="/customer/register" class="btn btn-b-r btn-s-r font-weight-900 col-xs-12" target="_blank">Sign Up For Free</a>
+                       {{--</button>--}}
+                       <br>
+                       <br>
+                       {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
+                       <a  style="margin-top: 10px;" href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="btn btn-s-b btn-a-l btn-b-g col-xs-12">
+                           Message us on WhatsApp</a>
+                       {{--</button>--}}
+                   </div>
             </div>
         </div>
     </section>
@@ -92,7 +92,8 @@
             <div class="col-md-12" style="padding:20px;">
                 <div class="col-md-10">
                     <center>
-                        <h1 class="f-s-20 font-weight-900 f-c-d-greay">Ship What You Love from India & Shop With Your <a href="/indian-virtual-address">Free ShoppRe Virtual Address‎</a></h1>
+                        <h1 class="f-s-20 font-weight-900 f-c-d-greay">Ship What You Love from India & Shop With Your <a href="/indian-virtual-address">
+                                Free ShoppRe Indian Virtual Address‎</a></h1>
                     </center>
                 </div>
             </div>
@@ -102,7 +103,7 @@
                 <center>
                     <div class="col-md-1 col-md-offset-2 d-stores-box col-xs-6 col-xs-offset-2 ">
                         <center class="d-online-stores">
-                            <a href="{{route('flipkart.landing')}}">
+                            <a href="{{route('flipkart.landing')}}" target="_blank">
                             <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/flipkart-logo.png" alt="FlipKart"/>
                             </a>
                         </center>
@@ -110,7 +111,7 @@
                     </div>
                     <div class="col-md-1  d-stores-box col-xs-6">
                         <center class="d-online-stores">
-                            <a href="{{route('amazon.landing')}}">
+                            <a href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" target="_blank">
                             <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon_logo_RGB.png" alt="Amazon"/>
                             </a>
                         </center>
@@ -123,12 +124,14 @@
                     </div>
                     <div class="col-md-1  d-stores-box col-xs-4">
                         <center class="d-online-stores">
+                            <a href="https://ship.shoppre.com/online-stores-india/snapdeal-international-delivery-shopping-from-india/" target="_blank">
                             <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/myntra.png" alt="Myntra"/>
+                            </a>
                         </center>
                     </div>
                     <div class="col-md-1  d-stores-box col-xs-4">
                         <center class="d-online-stores">
-                            <a href="{{route('myntra.landing')}}">
+                            <a href="{{route('myntra.landing')}}" target="_blank">
                             <img class="shoppingKart"
                                  src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1(1).png" alt="Myntra"/>
                             </a>
@@ -142,13 +145,13 @@
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                    class="startsValidValue"> 1st APR 2019</span></p>
+                                    class="startsValidValue"> 1st June 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                    class="startsValidValue"> 30th APR 2019</span></p>
+                                    class="startsValidValue"> 31st July 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
@@ -234,7 +237,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="/customer/register" class="btn btn-s-r btn-a-l btn-b-r" target="_blank">Sign Up to Learn More</a>
+                    <a href="/customer/register" class="btn btn-s-r btn-a-l btn-b-r" target="_blank">Sign Up for Free</a>
                 </div>
                 <br/><br/>
             </div>

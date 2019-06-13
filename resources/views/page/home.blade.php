@@ -527,7 +527,7 @@
                                 {{--<a href="" class="btn btn-s-r btn-b-r btn-a-l m-t-20">Sign up for Free</a>--}}
                                 <button type="submit" class="btn btn-s-r btn-b-r btn-l m-t-20">Sign Up Free</button>
                                 <p class="f-s-14 f-c-blue m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
-                                    Blog: <a class="f-c-blue" style="text-decoration: underline" href="https://ship.shoppre.com/products-on-sale-pure-organic-yoga-clothing-and-products-made-in-india/" target="_blank">Best Sales to Shop Organic Yoga Clothes</a> </p>
+                                    Blog: <a class="f-c-blue" style="text-decoration: underline" href="https://ship.shoppre.com/products-on-sale-pure-organic-yoga-clothing-and-products-made-in-india/" target="_blank">Best Sale to Shop Organic Yoga Clothes</a> </p>
                             </div>
                             <div class="col-md-6 col-xs-12 no-pad ">
                                 <center>
@@ -550,7 +550,7 @@
             <div class="col-md-2 col-xs-12 pad-l-d">
                 <center>
                     <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">Live <br>
-                        <span class="f-s-45 f-w-8 f-c-green "> Sales</span></h1>
+                        <span class="f-s-45 f-w-8 f-c-green "> Sale</span></h1>
                     <h4 class="f-s-18 f-c-l-gray txt-a-l">Grab The<br> Running Offers from<br> Indian Stores</h4>
                 </center>
             </div>
@@ -599,17 +599,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.amazon.in/b?node=1389401031&pf_rd_p=4009cb2a-d28e-4e73-8114-2d13abd04bf9&pf_rd_r=T608XPM3JWE48NKZ60S7" title="Know More" target="_blank">
+                        <a href="https://ship.shoppre.com/prime-amazon-fashion-wardrobe-refresh-sale-shop-online-from-india/" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Fab Phones Fest</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Wardrobe Refresh Sale</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">10th - 13th June</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">19th - 23rd June</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Amazon.in</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 40% Off. OnePlus 6T, iPhone X, Mi A2, Samsung Galaxy M30 & more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Get Up to 80% Off on Clothing, Footwear, Watches, Jewelry, and more.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}

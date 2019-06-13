@@ -83,7 +83,7 @@
                         <br/>
                         <p>Comet  Blue, 5GB RAM, 32GB Storage</p>
                         <p>₹7,999</p>
-                        <p>May 2019</p>
+                        <p>June 2019</p>
                     </div>
                     </a>
                 </div>
@@ -104,7 +104,7 @@
                         <br>
                         <p>Under ₹599</p>
                         <p>Western Wear, Ethnic Wear </p>
-                        <p>May 2019</p>
+                        <p>June 2019</p>
                     </div></a>
                 </div>
             </div>
@@ -114,7 +114,7 @@
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
                         <center>
-                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" alt="amazon.in">
+                            <a href="https://www.amazon.in/" target="_blank"><img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" alt="amazon.in"></a>
                         </center>
                     </div>
                 </div>

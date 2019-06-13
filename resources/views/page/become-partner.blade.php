@@ -283,8 +283,8 @@
                     var contact_no = $("input[name='contactNumber']").val();
                     var businessType = $('#businessType option:selected').text();
                     var Countries = $('#Countries option:selected').text();
-                    var domesticWeightRange = $("input[name='domestic']:checked").val();
-                    var internationalWeightRange =  $("input[name='International']:checked").val();
+                    var domesticShipmentRange = $("input[name='domestic']:checked").val();
+                    var internationalShipmentRange =  $("input[name='International']:checked").val();
                     var token = $('input[name=_token]').val();
                     jQuery.ajax({
                         url: 'seller',
@@ -298,8 +298,8 @@
                             websiteLink: websiteLink,
                             contact_no: contact_no,
                             Countries: Countries,
-                            domesticWeightRange: domesticWeightRange,
-                            internationalWeightRange: internationalWeightRange,
+                            domesticShipmentRange: domesticShipmentRange,
+                            internationalShipmentRange: internationalShipmentRange,
                         },
                         success: function (data) {
                             // $("input[name='message']").text('Thank you for submitting');
