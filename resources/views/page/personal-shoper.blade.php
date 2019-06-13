@@ -191,70 +191,82 @@
             <br>
             <div class="row text-center">
                 <br/>
-                <div class="col-sm-3">
+                <div class="col-sm-2" style=" width: 20%;">
                     <div class="panel ps-img-rounded">
                         <center>
                             <br/>
                             <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-product.svg" alt="">
                             <br/>
                             <br/>
-                            <span class="p-color-blue">Step1</span>
+                            <span class="p-color-blue">Step 1</span>
                             <h1 class="header5 p-color-cement">Shop Products</h1>
                             <br>
-                            <p class="p-color-cement header5">
-                                Purchase products from any Indian online store such as Amazon.in, Flipkart & Myntra;
-                                and. Set Cash on Delivery
+                            <p class="header6 p-color-cement ">
+                                Purchase products from any Indian online store such as Amazon.in, Flipkart or Myntra; and
+                                Choose Cash on Delivery as the Payment Option.
                             </p>
 
                         </center>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2" style=" width: 20%;">
                     <div class="panel ps-img-rounded">
                         <br/>
+                        <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/form-fill-up.png" alt="" style="height: 65px;">
+                        <br/>
+                        <br/>
+                        <span class="p-color-blue" >Step 2</span>
+                        <br>
+                        <h1 class="header5 p-color-cement">Fill up Shoppre Order Form</h1>
+                        <br>
+                        <p class="header6 p-color-cement">Copy the links of the products which you opted for Cash on delivery and them on Shoppre
+                            order form and Make payment to us.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-sm-2" style=" width: 20%;">
+                    <div class="panel ps-img-rounded">
+                        <br>
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pay-receive.svg" alt="">
                         <br/>
                         <br/>
-                        <span class="p-color-blue" >Step2</span>
-                        <br>
-                        <h1 class="header5 p-color-cement">Pay & Receive</h1>
-                        <br>
-                        <p class="header6 p-color-cement">We will pay for your order and will receive your order at our
-                            warehouse.
-                        </p>
-
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="panel ps-img-rounded">
-                        <br>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" alt="">
-                        <br/>
-                        <br/>
-                        <span class="p-color-blue">Step3</span>
-                        <h1 class="header5 p-color-cement">Ship in @ 80%
-                            Less Cost</h1>
+                        <span class="p-color-blue">Step 3</span>
+                        <h1 class="header5 p-color-cement">COD, Pay & Receive</h1>
                         <br>
                         <p class="header6 p-color-cement">
-                            Save up to 80% in shipping costs as we wait around for 20 days for all your purchases to
-                            reach us - for FREE, and repackage & ship them to your doorsteps as one!
+                            We will pay for your order and will receive it at our warehouse.
                         </p>
 
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2" style=" width: 20%;">
+                    <div class="panel ps-img-rounded"><br>
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" style="height: 70px" alt="">
+                        <br>
+                        <br/>
+                        <span class="p-color-blue" >Step 4</span>
+                        <br>
+                        <h1 class="header5 p-color-cement">Make a Ship Request</h1>
+                        <br/>
+                        <p class="header6 p-color-cement">
+                            Save upto 80% in shipping cost as we provide 20 days free Locker facility, and repack & ship them to your doorstep as one!
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-sm-2" style=" width: 20%;">
                     <div class="panel ps-img-rounded"><br>
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
                         <br>
                         <br/>
-                        <span class="p-color-blue" >Step4</span>
+                        <span class="p-color-blue" >Step 5</span>
                         <br>
-                        <h1 class="header5 p-color-cement">Unbox Your
-                            Package</h1>
+                        <h1 class="header5 p-color-cement">You Pay, We'll Dispatch</h1>
                         <br/>
                         <p class="header6 p-color-cement">
-                            We'll dispatch your shipment within 24 hours of you making a request to ship, and it will
-                            reach you safe & sound within 3-6 days, no matter wherever in the world you are!
+                            Once we've confirmed your payment, your order will be dispatched &
+                            be on its way to you (taking just 3-6 days)!
                         </p>
 
                     </div>
@@ -278,73 +290,82 @@
             <br>
             <div class="row text-center">
                 <br/>
-                <div class="col-sm-3">
+                <div class="col-sm-2" style=" width: 20%;">
                     <div class="panel ps-img-rounded">
                         <center>
                             <br/>
                             <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-product.svg" alt="">
                             <br/>
                             <br/>
-                            <span class="p-color-blue" >Step1</span>
-                            <h1 class="header5 p-color-cement">Copy Your Cart</h1>
+                            <span class="p-color-blue" >Step 1</span>
+                            <h1 class="header5 p-color-cement">Search Products</h1>
                             <br>
-                            <p class="p-color-cement header5">
-                                Copy the links of the products you want to purchase from any Indian online store such as
-                                Amazon.in,
-                                Flipkart & Myntra; and Paste them over here in the order form on our website.
+                            <p class="p-color-cement header6">
+                                Search products from any Indian online store such as Amazon.in, Flipkart or Myntra.
                             </p>
                         </center>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2" style=" width: 20%;">
                     <div class="panel ps-img-rounded">
                         <br/>
+                        <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/form-fill-up.png" alt="" style="height: 65px;">
+                        <br/>
+                        <br/>
+                        <span class="p-color-blue" >Step 2</span>
+                        <br>
+                        <h1 class="header5 p-color-cement">Fill up Shoppre Order Form</h1>
+                        <br>
+                        <p class="header6 p-color-cement">Copy the links of the products you
+                            want to purchase and paste them on shoppre order form and Make payment to us.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-sm-2" style=" width: 20%;">
+                    <div class="panel ps-img-rounded">
+                        <br>
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pay-receive.svg" alt="">
                         <br/>
                         <br/>
-                        <span class="p-color-blue" >Step2</span>
-                        <br>
+                        <span class="p-color-blue" >Step 3</span>
                         <h1 class="header5 p-color-cement">We Do The Shopping</h1>
                         <br>
-                        <p class="header6 p-color-cement">Once you submit the order form, we'll make the purchase on
-                            your behalf.
-                            Any difference in the total cost will be settled at the end and reflected in your ShoppRe
-                            Account.
-                        </p>
-
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="panel ps-img-rounded">
-                        <br>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" alt="">
-                        <br/>
-                        <br/>
-                        <span class="p-color-blue" >Step3</span>
-                        <h1 class="header5 p-color-cement">Ship in @ 80%
-                            Less Cost</h1>
-                        <br>
                         <p class="header6 p-color-cement">
-                            Save up to 80% in shipping costs as we wait around for 20 days for all your purchases to
-                            reach us - for FREE, and repackage & ship them to your doorsteps as one!
+                            Once you submit the order form,we'll make the purchase on your behalf.Any difference in the total cost
+                            will be settled at the end reflected in your Shoppre Account
                         </p>
 
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2" style=" width: 20%;">
+                    <div class="panel ps-img-rounded"><br>
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" style="height: 70px" alt="">
+                        <br>
+                        <br/>
+                        <span class="p-color-blue" >Step 4</span>
+                        <br>
+                        <h1 class="header5 p-color-cement">Make a Ship Request</h1>
+                        <br/>
+                        <p class="header6 p-color-cement">
+                            Once you're done shopping; make a Ship Request. We'll consolidate your packages into one shipment;
+                            cutting the shipping costs down by 80%.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-sm-2" style=" width: 20%;">
                     <div class="panel ps-img-rounded"><br>
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
                         <br>
                         <br/>
-                        <span class="p-color-blue" >Step4</span>
+                        <span class="p-color-blue" >Step 5</span>
                         <br>
-                        <h1 class="header5 p-color-cement">Unbox Your
-                            Package</h1>
+                        <h1 class="header5 p-color-cement">You Pay, We'll Dispatch</h1>
                         <br/>
                         <p class="header6 p-color-cement">
-                            We'll dispatch your shipment within 24 hours of you making a request to ship,
-                            and it will reach you safe & sound within 3-6 days, no matter wherever in the world
-                            you are!
+                            Once we've confirmed your payment, your order will be dispatched &
+                            be on its way to you (taking just 3-6 days)!
                         </p>
 
                     </div>

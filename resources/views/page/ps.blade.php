@@ -93,45 +93,56 @@
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b1">
                        <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/shop-product.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
-                           <h14 class="f-s-10 uppercase f-c-blue">step1</h14><br/>
+                           <h14 class="f-s-10 uppercase f-c-blue">step 1</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">Shop Products</h7>
                            <p class="f-s-9 f-c-gray">
-                               Purchase products from any
-                               Indian online store such as
-                               Amazon.in, Flipkart or Myntra;
-                               and. Choose Cash on Delivery as the
-                               Payment Option.
+                               Purchase products from any Indian
+                               online store such as Amazon.in,
+                               Flipkart or Myntra; and Choose
+                               Cash on Delivery as the Payment Option.
                            </p>
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b2">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/pay-receive.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/form-fill-up.png" alt="" style="height: 85px;"/></div>
                        <div class="col-md-8 col-xs-12">
-                           <h14 class="f-s-10 uppercase f-c-blue">step2</h14><br/>
-                           <h7 class="f-s-7 uppercase f-c-d-gray">COD, Pay & Receive</h7>
+                           <h14 class="f-s-10 uppercase f-c-blue">step 2</h14><br/>
+                           <h7 class="f-s-7 uppercase f-c-d-gray">Fill up Shoppre Order Form</h7>
                            <p class="f-s-9 f-c-gray">
-                               We will pay for your order and
-                               will receive it at our warehouse.
+                               Copy the links of the products
+                               which you opted for Cash on delivery
+                               and them on Shoppre order form
+                               and Make payment to us.
                            </p>
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b3">
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/pay-receive.svg" alt=""/></div>
+                       <div class="col-md-8 col-xs-12">
+                           <h14 class="f-s-10 uppercase f-c-blue">step 3</h14><br/>
+                           <h7 class="f-s-7 uppercase f-c-d-gray">COD, Pay & Receive</h7>
+                           <p class="f-s-9 f-c-gray">We will pay for your order and will receive it at our warehouse.</p>
+                       </div>
+                   </div>
+                   <div class="col-md-12 col-xs12 s-p-card s-p-s-b4">
                        <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/save80.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
-                           <h14 class="f-s-10 uppercase f-c-blue">step3</h14><br/>
-                           <h7 class="f-s-7 uppercase f-c-d-gray">Ship in @ 80% Less Cost</h7>
-                           <p class="f-s-9 f-c-gray">Save up to 80% in shipping costs as we wait around for 20 days for all your purchases to reach us - for FREE, and repackage & ship them to your doorsteps as one!</p>
+                           <h14 class="f-s-10 uppercase f-c-blue">step 4</h14><br/>
+                           <h7 class="f-s-7 uppercase f-c-d-gray">Make a Ship Request</h7>
+                           <p class="f-s-9 f-c-gray">
+                               Save upto 80% in shipping cost as we provide 20 days free
+                               Locker facility, and repack & ship them to your doorstep as one!
+                           </p>
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b4">
                        <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/d-step3.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
-                           <h14 class="f-s-10 uppercase f-c-blue">step4</h14><br/>
-                           <h7 class="f-s-7 uppercase f-c-d-gray">Unbox Your Package</h7>
+                           <h14 class="f-s-10 uppercase f-c-blue">step 5</h14><br/>
+                           <h7 class="f-s-7 uppercase f-c-d-gray">You Pay, We'll Dispatch</h7>
                            <p class="f-s-9 f-c-gray">
-                               We'll dispatch your shipment within 24 hours of you making a
-                               request to ship, and it will reach you safe & sound within 3-6 days,
-                               no matter wherever in the world you are!
+                               Once we've confirmed your payment, your order will be dispatched &
+                               be on its way to you (taking just 3-6 days)!
                            </p>
                        </div>
                    </div><br/><br/>
@@ -146,48 +157,54 @@
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b1">
                        <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/shop-product.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
-                           <h14 class="f-s-10 uppercase f-c-blue">step1</h14><br/>
-                           <h7 class="f-s-7 uppercase f-c-d-gray">Copy Your Cart</h7>
+                           <h14 class="f-s-10 uppercase f-c-blue">step 1</h14><br/>
+                           <h7 class="f-s-7 uppercase f-c-d-gray">Search Products</h7>
                            <p class="f-s-9 f-c-gray">
-                               Copy the links of the products you want to purchase from any Indian
-                               online store such as Amazon.in, Flipkart or Myntra; and
-                               Paste them over here in the order form on your Dashboard.
+                               Search products from any Indian online store such as Amazon.in, Flipkart or Myntra.
                            </p>
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b2">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/pay-receive.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/form-fill-up.png" alt="" style="height: 85px"/></div>
                        <div class="col-md-8 col-xs-12">
-                           <h14 class="f-s-10 uppercase f-c-blue">step2</h14><br/>
-                           <h7 class="f-s-7 uppercase f-c-d-gray">We Do The Shopping</h7>
+                           <h14 class="f-s-10 uppercase f-c-blue">step 2</h14><br/>
+                           <h7 class="f-s-7 uppercase f-c-d-gray">Fill up Shoppre Order Form</h7>
                            <p class="f-s-9 f-c-gray">
-                               Once you submit the order form, we'll make the purchase on your behalf.
-                               Any difference in the total cost will be settled at the end
-                               and reflected in your ShoppRe Account.
+                               Copy the links of the products you
+                               want to purchase and paste them on shoppre order form and Make payment to us.
                            </p>
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b3">
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/pay-receive.svg" alt=""/></div>
+                       <div class="col-md-8 col-xs-12">
+                           <h14 class="f-s-10 uppercase f-c-blue">step 3</h14><br/>
+                           <h7 class="f-s-7 uppercase f-c-d-gray">We Do The Shopping</h7>
+                           <p class="f-s-9 f-c-gray">
+                               Once you submit the order form,we'll make the purchase on your behalf.Any difference in the total cost
+                               will be settled at the end reflected in your Shoppre Account
+                           </p>
+                       </div>
+                   </div>
+                   <div class="col-md-12 col-xs12 s-p-card ps-s-b4">
                        <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/save80.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
-                           <h14 class="f-s-10 uppercase f-c-blue">step3</h14><br/>
-                           <h7 class="f-s-7 uppercase f-c-d-gray">Ship in @ 80% Less Cost</h7>
+                           <h14 class="f-s-10 uppercase f-c-blue">step 4</h14><br/>
+                           <h7 class="f-s-7 uppercase f-c-d-gray">Make a Ship Request</h7>
                            <p class="f-s-9 f-c-gray">
-                               Save up to 80% in shipping costs as we wait around for
-                               20 days for all your purchases to reach us - for FREE,
-                               and repackage & ship them to your doorsteps as one!
+                               Once you're done shopping; make a Ship Request. We'll consolidate your packages into one shipment;
+                               cutting the shipping costs down by 80%.
                            </p>
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b4">
                        <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/d-step3.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
-                           <h14 class="f-s-10 uppercase f-c-blue">step4</h14><br/>
-                           <h7 class="f-s-7 uppercase f-c-d-gray">Unbox Your Package</h7>
+                           <h14 class="f-s-10 uppercase f-c-blue">step 5</h14><br/>
+                           <h7 class="f-s-7 uppercase f-c-d-gray">You Pay, We'll Dispatch</h7>
                            <p class="f-s-9 f-c-gray">
-                               We'll dispatch your shipment within 24 hours of you making a
-                               request to ship, and it will reach you safe & sound within 3-6 days,
-                               no matter wherever in the world you are!
+                               Once we've confirmed your payment, your order will be dispatched &
+                               be on its way to you (taking just 3-6 days)!
                            </p>
                        </div>
                    </div><br/><br/>
