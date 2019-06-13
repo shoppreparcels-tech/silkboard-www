@@ -231,6 +231,9 @@ Route::prefix('admin')->group(function(){
 
 Route::get('/shop-from-india-ship-worldwide', 'PageController@ifsIndex')->name('ifs.index');
 
+/* ---------- Get drop-off locations ---------*/
+Route::get('/drop-off', 'PageController@dropOffLocations')->name('pickup.dropOff.location');
+
 /* ---------- Android app url ---------*/
 Route::get('/android', 'PageController@androidApp')->name('android.app.index');
 

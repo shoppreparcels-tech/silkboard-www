@@ -22,7 +22,7 @@ use App\Page;
 use App\FavoriteStore;
 use App\Review;
 use App\ChatEmail;
-use App\Store;
+use App\DropOff;
 use App\Asana\AsanaTaskOperations;
 use App\Mailchimp\mailChimpTaskOperations;
 use App\Mail\ContactEnquiry;
@@ -1409,6 +1409,11 @@ class PageController extends Controller
     public function pickupByAjex(Request $request)
     {
         return response()->json(['error' => '0', 'request' => $request->first_name]);
+    }
+
+    public function dropOffLocations(Request $request) {
+        $locations = DropOff::orderBy('id', 'asc')->get();
+        return response()->json(['error' => '0', 'data' => $locations]);
     }
 
     public function chatMailSent(Request $request)

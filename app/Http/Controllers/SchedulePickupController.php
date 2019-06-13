@@ -83,6 +83,8 @@ class SchedulePickupController extends Controller
             'customer_id' => $customer->id,
             'pickup_first_name' => $first_name,
             'pickup_last_name' => $last_name,
+            'type' => $data->type,
+            'drop_off_id' => $data->drop_off_location_id,
             'pickup_address' => $data->pc_street,
             'pickup_pincode' => $data->pc_pincode,
             'pickup_city' => $data->pc_city,

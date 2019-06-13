@@ -28,6 +28,10 @@ body {
     position: relative
 }
 
+.hide {
+    display: none;
+}
+
 .anchor-color {
     color: #fe9611 !important;
 }

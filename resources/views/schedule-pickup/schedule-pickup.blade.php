@@ -300,8 +300,10 @@
             <div class="col-md-6 col-xs-12 pad-t-20">
                 <h3 class="f-s-25 font-weight-900 f-c-d-greay">Schedule Your Pickup :<span class="f-c-red f-s-16">
                     <a class="bla-1" href="https://www.youtube.com/watch?v=lQi4Io_WH70">
-                        Watch Video👈</a><br>Learn More 👉 <a href="{{route('ics.index')}}" target="_blank" title="Click Here: How to Courier?"><span class="f-c-blue">How to send a parcel by courier?</a></span>
-                </span></h3>
+                        Watch Video👈</a><br>Learn More 👉 <a href="{{route('ics.index')}}" target="_blank"
+                                                              title="Click Here: How to Courier?"><span
+                                    class="f-c-blue">How to send a parcel by courier?</a></span>
+                    </span></h3>
             </div>
             <div class="col-md-6 col-xs-12 "><br>
                 <a href="{{route('first-shipment')}}">
@@ -369,13 +371,15 @@
                                         @endif
                                     </div>
                                     <div class="col-sm-8">
-                                        <input type="number" class="form-control" id="sch-mobile-number" maxlength="10" name="mobile" required
+                                        <input type="number" class="form-control" id="sch-mobile-number" maxlength="10"
+                                               name="mobile" required
                                                placeholder="Phone Number">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="form-group">
@@ -387,173 +391,210 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Select Service Type<span class="mendatory_fields">*</span> :</label>
+                                <select class="form-control" name="type" id="ddl-service-type" required>
+                                    <option value="">------ Select Service ------</option>
+                                    <option value="pickup">Pickup</option>
+                                    <option value="dropoff">Drop Off</option>
+                                </select>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 hide" id="drop-off-location">
+                            <div class="form-group">
+                                <label>Select Drop-Off Location<span class="mendatory_fields">*</span> <a
+                                            href="#" class="tooltipkey" title="Drop-Off Location">
+                                        <i class="fa fa-question-circle-o"></i></a>:</label>
+                                <select class="form-control" name="drop_off_location_id" id="ddl-location" required>
+                                    <option value="">------ Select Location ------</option>
+                                </select>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 hide" id="drop-off-address">
+                            <label>Drop-Off Address:</label>
+                            <p id="address-drop-off-location"></p>
+                        </div>
+                        <div class="col-sm-2 hide" id="drop-off-map-location">
+                            <div class="form-group">
+                                <label>Map Location:</label>
+                                <a target="_blank" id="drop-off-location-url">
+                                <img src="{{asset('img/images/map-icon.png')}}" alt="" style="height: 50px;width: 50px">
+                                </a>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
                     </br>
+                    <div class="pickup-address">
+                        <h4 class="head-align"><u> PICK-UP ADDRESS :</u></h4>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>First Name <span class="mendatory_fields">*</span> :</label>
+                                    <input type="text" class="form-control" placeholder="Enter First Name" required
+                                           value="{{!empty($pickup_address->pc_fname)?$pickup_address->pc_fname:''}}"
+                                           name="pc_fname"/>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group label-align">
+                                    <label>Last Name<span class="mendatory_fields">*</span> :</label>
+                                    <input type="text" class="form-control" placeholder="Enter Last Name" required
+                                           value="{{!empty($pickup_address->pc_lname)?$pickup_address->pc_lname:''}}"
+                                           name="pc_lname"/>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>State <span class="mendatory_fields">*</span> :</label>
+                                    <input type="text" class="form-control" placeholder="Enter Your State" required
+                                           value="{{!empty($pickup_address->pc_state)?$pickup_address->pc_state:''}}"
+                                           name="pc_state"/>
 
-                    <h4 class="head-align"><u> PICK-UP ADDRESS :</u></h4>
-                    <div class="row">
-                    <div class="col-sm-6">
-                    <div class="form-group">
-                    <label>First Name <span class="mendatory_fields">*</span> :</label>
-                    <input type="text" class="form-control" placeholder="Enter First Name" required
-                    value="{{!empty($pickup_address->pc_fname)?$pickup_address->pc_fname:''}}" name="pc_fname"/>
-                    <div class="clearfix"></div>
-                    </div>
-                    </div>
-                    <div class="col-sm-6">
-                    <div class="form-group label-align">
-                    <label>Last Name<span class="mendatory_fields">*</span> :</label>
-                    <input type="text" class="form-control" placeholder="Enter Last Name" required
-                    value="{{!empty($pickup_address->pc_lname)?$pickup_address->pc_lname:''}}" name="pc_lname"/>
-                    <div class="clearfix"></div>
-                    </div>
-                    </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label>State <span class="mendatory_fields">*</span> :</label>
-                                {{--<select class="select2 form-control" name="pc_state">--}}
-                                {{--<option value="">Select State</option>--}}
-                                {{--@foreach($states as $state)--}}
-                                {{--<option value="{{$state->name}}" {{$state->name == (!empty($pickup_address->pc_state) ? $pickup_address->pc_state : '') ? 'selected': ''}}>--}}
-                                {{--{{$state->name}}--}}
-                                {{--</option>--}}
-                                {{--@endforeach--}}
-                                {{--</select>--}}
-                                <input type="text" class="form-control" placeholder="Enter Your State" required
-                                       value="{{!empty($pickup_address->pc_state)?$pickup_address->pc_state:''}}"
-                                       name="pc_state"/>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group label-align">
+                                    <label>City <span class="mendatory_fields">*</span> :</label>
+                                    <input type="text" class="form-control" placeholder="Enter City" required
+                                           value="{{!empty($pickup_address->pc_city)?$pickup_address->pc_city:''}}"
+                                           name="pc_city"/>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Street <span class="mendatory_fields">*</span> :</label>
+                                    <input type="text" class="form-control" placeholder="Please Enter Street" required
+                                           value="{{!empty($pickup_address->pc_street)?$pickup_address->pc_street:''}}"
+                                           name="pc_street"/>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group label-align">
+                                    <label>Pincode <span class="mendatory_fields">*</span> :</label>
+                                    <input type="text" class="form-control" placeholder="Enter Pincode" required
+                                           value="{{!empty($pickup_address->pc_pincode)?$pickup_address->pc_pincode:''}}"
+                                           name="pc_pincode"/>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
 
-                                <div class="clearfix"></div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Mobile <span class="mendatory_fields">*</span> :</label>
+                                    <input type="number" maxlength="10" class="form-control" placeholder="Enter Mobile"
+                                           required
+                                           value="{{!empty($pickup_address->pc_contact_no)?$pickup_address->pc_contact_no :''}}"
+                                           name="pc_contact_no"/>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group label-align">
+                                    <label>Email :</label>
+                                    <input type="email" class="form-control" placeholder="Enter Email" required
+                                           value="{{!empty($pickup_address->pc_email)?$pickup_address->pc_email:''}}"
+                                           name="pc_email"/>
+                                    <div class="clearfix"></div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="form-group label-align">
-                                <label>City <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter City" required
-                                       value="{{!empty($pickup_address->pc_city)?$pickup_address->pc_city:''}}"
-                                       name="pc_city"/>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label>Street <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Please Enter Street" required
-                                       value="{{!empty($pickup_address->pc_street)?$pickup_address->pc_street:''}}"
-                                       name="pc_street"/>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group label-align">
-                                <label>Pincode <span class="mendatory_fields">*</span> :</label>
-                                <input type="text" class="form-control" placeholder="Enter Pincode" required
-                                       value="{{!empty($pickup_address->pc_pincode)?$pickup_address->pc_pincode:''}}"
-                                       name="pc_pincode"/>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                    <div class="col-sm-6">
-                    <div class="form-group">
-                    <label>Mobile <span class="mendatory_fields">*</span> :</label>
-                    <input type="number" maxlength="10" class="form-control" placeholder="Enter Mobile" required
-                    value="{{!empty($pickup_address->pc_contact_no)?$pickup_address->pc_contact_no :''}}"
-                    name="pc_contact_no"/>
-                    <div class="clearfix"></div>
-                    </div>
-                    </div>
-                    <div class="col-sm-6">
-                    <div class="form-group label-align">
-                    <label>Email :</label>
-                    <input type="email" class="form-control" placeholder="Enter Email" required
-                    value="{{!empty($pickup_address->pc_email)?$pickup_address->pc_email:''}}"
-                    name="pc_email"/>
-                    <div class="clearfix"></div>
-                    </div>
-                    </div>
                     </div>
                     <h4 class="head-align"><u>PACKAGE INFORMATION :</u></h4>
                     <div class="col-sm-12">
-                    <div class="col-sm-3">
-                    <div class="form-group label-align">
-                        <label>Weight Of Package<span class="mendatory_fields">*</span> :</label>
-                    <div class="row">
-                    <div
-                    class="col-sm-12 div-price-cal-length-padding">
-                    <h6 class="header7 p-color-cement">(in kg)</h6>
-                    <div class="col-sm-12 no-padding ">
-                    <input type="number" min="0" value="0" step="0.5"  class="form-control" pattern="^\d*(\.\d{0,2})?$" style="height: 40px" name="package_weight" required placeholder="Enter Package Weight">
-                    </div>
-                    </div>
-                    </div>
-                    </div>
-                    </div>
-                    <div class="col-sm-9">
-                    <div class="form-group label-align">
-                    <label>Size Of The Package If You Are Aware( Optional )<a
-                    href="#" class="tooltipkey" title="volumetric">
-                    <i class="fa fa-question-circle-o"></i></a> :</label>
-                    <div class="row">
-                    <div
-                    class="col-md-3 col-sm-4 col-xs-4 div-price-cal-length-padding">
-                    <h6 class="header7 p-color-cement">Length (in cm)</h6>
-                    <div class="col-sm-12 no-padding  div-price-cal-length">
+                        <div class="col-sm-3">
+                            <div class="form-group label-align">
+                                <label>Weight Of Package<span class="mendatory_fields">*</span> :</label>
+                                <div class="row">
+                                    <div
+                                            class="col-sm-12 div-price-cal-length-padding">
+                                        <h6 class="header7 p-color-cement">(in kg)</h6>
+                                        <div class="col-sm-12 no-padding ">
+                                            <input type="number" min="0" value="0" step="0.5" class="form-control"
+                                                   pattern="^\d*(\.\d{0,2})?$" style="height: 40px"
+                                                   name="package_weight" required placeholder="Enter Package Weight">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="form-group label-align">
+                                <label>Size Of The Package If You Are Aware( Optional )<a
+                                            href="#" class="tooltipkey" title="volumetric">
+                                        <i class="fa fa-question-circle-o"></i></a> :</label>
+                                <div class="row">
+                                    <div
+                                            class="col-md-3 col-sm-4 col-xs-4 div-price-cal-length-padding">
+                                        <h6 class="header7 p-color-cement">Length (in cm)</h6>
+                                        <div class="col-sm-12 no-padding  div-price-cal-length">
                     <span id="aminus"
-                    class="btn btn-puls-minus dec-value no-padding">-</span>
-                    <input type="text" class="txt-length" name="length" required
-                    value="0">
-                    <span id="aplus"
-                    class="btn btn-puls-minus inc-value no-padding">+</span>
-                    </div>
-                    </div>
-                    <div
-                    class="col-md-3 col-sm-4 col-xs-4 div-price-cal-length-padding">
-                    <h6 class="header7 p-color-cement">Width (in cm)</h6>
-                    <div class="col-sm-12 no-padding div-price-cal-length">
+                          class="btn btn-puls-minus dec-value no-padding">-</span>
+                                            <input type="text" class="txt-length" name="length" required
+                                                   value="0">
+                                            <span id="aplus"
+                                                  class="btn btn-puls-minus inc-value no-padding">+</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="col-md-3 col-sm-4 col-xs-4 div-price-cal-length-padding">
+                                        <h6 class="header7 p-color-cement">Width (in cm)</h6>
+                                        <div class="col-sm-12 no-padding div-price-cal-length">
                     <span id="aminus"
-                    class="btn btn-puls-minus dec-value no-padding">-</span>
-                    <input type="text" class="txt-length" name="width" required
-                    value="0">
-                    <span id="aplus"
-                    class="btn btn-puls-minus inc-value no-padding">+</span>
-                    </div>
-                    </div>
-                    <div
-                    class="col-md-3 col-sm-4  col-xs-4 div-price-cal-length-padding">
-                    <h6 class="header7 p-color-cement">Height (in cm)</h6>
-                    <div class="col-sm-12 no-padding  div-price-cal-length">
+                          class="btn btn-puls-minus dec-value no-padding">-</span>
+                                            <input type="text" class="txt-length" name="width" required
+                                                   value="0">
+                                            <span id="aplus"
+                                                  class="btn btn-puls-minus inc-value no-padding">+</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="col-md-3 col-sm-4  col-xs-4 div-price-cal-length-padding">
+                                        <h6 class="header7 p-color-cement">Height (in cm)</h6>
+                                        <div class="col-sm-12 no-padding  div-price-cal-length">
                     <span class="btn btn-puls-minus dec-value no-padding"
-                    id="aminus">-</span>
-                    <input type="text" class="txt-length" name="height" required
-                    value="0">
-                    <span id="aplus"
-                    class="btn btn-puls-minus inc-value no-padding">+</span>
-                    </div>
-                    </div>
-                    </div>
-                    </div>
-                    </div>
+                          id="aminus">-</span>
+                                            <input type="text" class="txt-length" name="height" required
+                                                   value="0">
+                                            <span id="aplus"
+                                                  class="btn btn-puls-minus inc-value no-padding">+</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <ol style="list-style-type: none;margin-left: -55px;">
                         <li id="selfol_li0" data-olli="0">
                             <div class="col-sm-4 col-xs-5">
                                 <label>Item Name <span class="mendatory_fields">*</span></label>
                                 <input type="text" class="form-control self_url" name="name[0]" required
-                                       data-rule-url="true" placeholder="eg.T Shirt">
+                                        placeholder="eg.T Shirt">
                             </div>
                             <div class="col-sm-2 col-xs-3">
                                 <label>Quantity <span class="mendatory_fields">*</span></label>
-                                <input type="number" class="form-control self_amt" name="quantity[0]" data-rule-number="true" data-rule-min="1" placeholder="eg.2" required>
+                                <input type="number" class="form-control self_amt" name="quantity[0]"
+                                         placeholder="eg.2" required>
                             </div>
                             <div class="col-sm-2 col-xs-3">
                                 <label>Price(Per Item) <span class="mendatory_fields">*</span></label>
-                                <input type="number" class="form-control self_qty" name="amount[0]" data-rule-digits="true" data-rule-min="1" placeholder="eg.0.00" required>
+                                <input type="number" class="form-control self_qty" name="amount[0]"
+                                         placeholder="eg.0.00" required>
                             </div>
                             {{--<div class="col-sm-1">--}}
                             {{--<a href="#" class="remove" data-litarget="0">Remove</a>--}}
@@ -777,6 +818,53 @@
     <script type="text/javascript">
         /* Magnific Popup */
         $(document).ready(function () {
+            $("#self_form").validate({ignore:":not(:visible)"});
+
+            var locations = '';
+            jQuery.ajax({
+                url: 'drop-off',
+                type: "GET",
+                success: function (res) {
+                    locations = res.data;
+                    $.each(res.data, function (data, value) {
+                        $("#ddl-location").append($("<option></option>").val(value.id).html(value.name));
+                    })
+                }
+            });
+
+            $("#ddl-location").change(function () {
+                var index = Number($("#ddl-location option:selected").index());
+                console.log('Index', index);
+                if (index !== 0) {
+                    var address = locations[index - 1].address;
+                    var city = locations[index - 1].city;
+                    var state = locations[index - 1].state;
+                    var pincode = locations[index - 1].pincode;
+                    var location = locations[index - 1].location;
+                    var completeAddress = address + ' ' + city + ', ' + state + ' - ' + pincode;
+                    $('#address-drop-off-location').text(completeAddress);
+                    $('#drop-off-address').removeClass("hide");
+                    $('#drop-off-map-location').removeClass("hide");
+                    $("a#drop-off-location-url").prop("href", location);
+                } else {
+                    $('#drop-off-address').addClass("hide");
+                    $('#drop-off-map-location').addClass("hide");
+                }
+            });
+
+            var service = '';
+            $('#ddl-service-type').change(function () {
+                service = $('#ddl-service-type').val();
+                if (service === 'dropoff') {
+                    $('#drop-off-location').removeClass("hide");
+                    $('.pickup-address').css('display', 'none');
+                } else {
+                    $('#drop-off-location').addClass("hide");
+                    $('#drop-off-address').addClass("hide");
+                    $('.pickup-address').css('display', 'block');
+                }
+            });
+
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -808,10 +896,6 @@
                 $('.signup-blox').css('display', 'none');
             });
 
-            $("#pickup_form").validate({
-                errorElement: 'span',
-            });
-
 
             $("#inputplus").click(function (e) {
                 e.preventDefault();
@@ -824,11 +908,11 @@
                     '</div>' +
                     '<div class="col-sm-2 col-xs-3">' +
                     '   <label>Quantity</label>' +
-                        '<input type="number" class="form-control self_amt" name="quantity['+i+']" placeholder="eg.2"  data-rule-number="true" data-rule-min="1" required>' +
+                    '<input type="number" class="form-control self_amt" name="quantity[' + i + ']" placeholder="eg.2"  data-rule-number="true" data-rule-min="1" required>' +
                     '</div>' +
                     '<div class="col-sm-2">' +
-                        '<label>Price</label>' +
-                        '<input type="number" class="form-control self_qty" placeholder="eg..0.00"  name="amount['+i+']"  data-rule-digits="true" data-rule-min="1" required>' +
+                    '<label>Price</label>' +
+                    '<input type="number" class="form-control self_qty" placeholder="eg..0.00"  name="amount[' + i + ']"  data-rule-digits="true" data-rule-min="1" required>' +
                     '</div>' +
                     '<div class="col-sm-1 col-xs-1" style="padding-top: 20px;margin-left: -10px;">' +
                     '   <a style="font-size: 28px;" href="#" class="remove" data-litarget="' + i + '"><i class="fa fa-trash" aria-hidden="true"></i></a>' +
@@ -1132,10 +1216,14 @@
                 });
             });
         });
-        
+
         $('#self_form').on('submit', function () {
             console.log('Pickup form submitted');
-            $('#schedule_load').show();
-        })
+            var validationStatus = $("#self_form").valid();
+            if (validationStatus === true) {
+                $('#schedule_load').show();
+            }
+        });
+
     </script>
 @endsection
