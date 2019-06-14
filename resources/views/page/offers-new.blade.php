@@ -243,8 +243,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Handpicked Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">60-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">AJIO MANIA</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">50-90% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>

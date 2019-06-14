@@ -82,6 +82,7 @@
                            Message us on WhatsApp</a>
                        {{--</button>--}}
                    </div>
+
             </div>
         </div>
     </section>
@@ -91,6 +92,12 @@
         <div class=" container shopContainer no-padding">
             <div class="col-md-12" style="padding:20px;">
                 <div class="col-md-10">
+                    <div>
+                        <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                            <a href="https://ship.shoppre.com/prime-amazon-fashion-wardrobe-refresh-sale-shop-online-from-india/" title="Amazon.in" target="_blank">1. Amazon.in 👉Wardrobe Refresh Sale 19th - 23rd June</a> |
+                            <a href="https://www.myntra.com/growth/eors19-homepage/" title="Myntra" target="_blank">2. Myntra.com 👉End of Reason Sale 21st - 24th June</a>
+                        </marquee>
+                    </div>
                     <center>
                         <h1 class="f-s-20 font-weight-900 f-c-d-greay">Ship What You Love from India & Shop With Your <a href="/indian-virtual-address">
                                 Free ShoppRe Indian Virtual Address‎</a></h1>
@@ -116,12 +123,12 @@
                             </a>
                         </center>
                     </div>
-                    <div class="col-md-1  d-stores-box col-xs-4">
-                        <center class="d-online-stores">
-                            <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1.png"
-                                 alt="Jabong"/>
-                        </center>
-                    </div>
+                    {{--<div class="col-md-1  d-stores-box col-xs-4">--}}
+                        {{--<center class="d-online-stores">--}}
+                            {{--<img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1.png"--}}
+                                 {{--alt="Jabong"/>--}}
+                        {{--</center>--}}
+                    {{--</div>--}}
                     <div class="col-md-1  d-stores-box col-xs-4">
                         <center class="d-online-stores">
                             <a href="https://ship.shoppre.com/online-stores-india/snapdeal-international-delivery-shopping-from-india/" target="_blank">

@@ -150,8 +150,8 @@
     <section>
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="https://www.flipkart.com/boss-2019-store" title="Flipkart" target="_blank">1. Flipkart.com - BOSS Best of Season Sale 11th - 15th June |</a>
-                <a href="https://www.amazon.in/b?node=1389401031&pf_rd_p=f727f98e-bc46-4209-ac33-e2f0e85b4506&pf_rd_r=Y3G47S8R8507513HTJV8" title="Amazon.in" target="_blank">2. Amazon.in - FAB PHONE FEST Sale 10th - 13th June</a>
+                <a href="https://ship.shoppre.com/prime-amazon-fashion-wardrobe-refresh-sale-shop-online-from-india/" title="Amazon.in" target="_blank">1. Amazon.in 👉Wardrobe Refresh Sale 19th - 23rd June</a> |
+                <a href="https://www.myntra.com/growth/eors19-homepage/" title="Myntra" target="_blank">2. Myntra.com 👉End of Reason Sale 21st - 24th June</a>
             </marquee>
         </div>
         <div class="container" id="how-it-works">

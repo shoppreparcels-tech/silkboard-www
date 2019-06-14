@@ -73,7 +73,7 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/myntrainsider" target="_blank"><div class="shopandship ">
+                    <a href="https://www.myntra.com/growth/eors19-homepage/" target="_blank"><div class="shopandship ">
                             <h2>End Of Reason Sale</h2>
                             <br/>
                             <p>21st - 24th June</p>

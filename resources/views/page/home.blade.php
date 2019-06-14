@@ -578,17 +578,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.myntra.com/shop/women" title="Click to Know Highlights" target="_blank">
+                        <a href="https://www.myntra.com/fusion-wear" title="Click to Know Highlights" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Season Fashionable Looks</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Fusion Wear For Women</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">MIN. 40% Off </span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Starting from ₹199/- </span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Myntra.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Watch, Toe Flats, Backpack, Fit Jeans, Shirt Dress, Sweater & more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Leggings, Dupatta, Kurta Sets, Palazzos, Sarees, Tunics, Jackets & more.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -620,17 +620,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.jaypore.com/eoss2019" title="Click for Offer Details" target="_blank">
+                        <a href="https://www.ajio.com/" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Sale Up to 50%</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">The AJIO Mania Sale</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">The Summer Of Savings Sale</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">11th - 16th June</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Jaypore.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Ajio.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Kurtas & Pants, Duppatas & Stoles, Saress & Blouses and more..</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">1,50,000+ styles. +15% Cashback. T-shirts, Tops, Jeans, Kurtas & more</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
