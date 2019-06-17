@@ -557,17 +557,17 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.flipkart.com/boss-2019-store" title="Click to Know More" target="_blank">
+                        <a href="https://www.amazon.in/b?node=6294306031&pf_rd_p=d1c4ee84-98cf-4c20-a2fa-8290ee60b49c&pf_rd_r=2A1WRSW3Q8RED90AXD92" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Boss Best of Season Sale</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Mi Days</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">11th - 15th June</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up to ₹6,500 Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Flipkart.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Amazon.in</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Up to 80% Off on 99.9% Styles. Men, Women and Kids Fashion & more</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Redmi 7, Y3, 6A, Mi A2, Y2, Redmi Note 5 Pro/6 Pro & more. </p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -620,17 +620,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.ajio.com/" title="Click for Offer Details" target="_blank">
+                        <a href="https://www.snapdeal.com/offers/half_price_store" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">The AJIO Mania Sale</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Half Price Store</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">11th - 16th June</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">MIN. 50% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Ajio.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Snapdeal.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">1,50,000+ styles. +15% Cashback. T-shirts, Tops, Jeans, Kurtas & more</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Everything at 50% OFF, Crazy Offers. Shoes, Earphones, Kurtis & more</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}

@@ -65,34 +65,34 @@
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/knock-out-offers-y7-9g-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/asus-6z-1h8d-9g1-store" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-                            <h2>Knock Out Offers</h2>
-                            <br/>
-                            <p>10th - 14th June</p>
-                            <p>Deals on Mi, Honor, OppO & Vivo</p>
-                            <p>Lowest Price Ever!</p>
+                            <h2>ASUS 6Z</h2>
+                            <br>
+                            <p>World's First Flip Camera</p>
+                            <p>48MP Camera Sensor</p>
+                            <p>June 19th 2019 </p>
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/black-shark-2-launch-8g0a-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/mobiles-bonanza-june-19-jdr0d-09fp-store" title="Click Here to Shop" target="_blank">
                     <div class="ps">
-                        <h2>Black Shark 2</h2>
+                        <h2>Mobiles Bonanza</h2>
                         <br>
-                        <p>6GB | 128GB and 12GB | 256GB</p>
-                        <p>Direct Touch Liquid Cooling 3.0</p>
-                        <p>Sales Starts On - 4th June, 2019</p>
+                        <p>Honor 20i, Realme 3 Pro & more</p>
+                        <p>Best Cricket Experience</p>
+                        <p>17th - 21st June, 2019</p>
                     </div>
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/boss-2019-store" target="_blank"><div class="ic">
-                            <h2>Boss Best of Season Sale</h2>
+                    <a href="https://www.flipkart.com/women/kurtas-kurtis/pr?sid=2oq%2Cc1r%2C3pj%2Cua6&p%5B%5D=facets.price_range.from%3D399&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.brand%255B%255D%3DAnmi&nnc=BRYAKQ8T6D7Q&otracker=bp_browse_announcement_2oq%2Cc1r%2C3pj" target="_blank"><div class="ic">
+                            <h2>Kurtas & Kurtis</h2>
                             <br>
-                            <p>Up to 80% Off on 99.9% Styles</p>
-                            <p>Men, Women and Kids Fashion & more</p>
-                            <p>Jun 11th - 15th </p>
+                            <p>Anmi Women Kurtas</p>
+                            <p>Sizes M, L, XL, XXL</p>
+                            <p>Starting ₹399 </p>
                         </div></a>
                 </div>
             </div>
