@@ -1,6 +1,6 @@
 @extends('myaccount.layout')
 
-@section('title', ' - Loyalty Points')
+@section('title', 'Loyalty Points - ShoppRe.com')
 
 @section('css_style')
 <style type="text/css">
@@ -111,13 +111,13 @@
                   <li>
                     <h5>SHOPPING REWARDS</h5>
                     <p>Shop from any of our
-                      <a href="{{route('stores')}}" target="_blank">
+                      <a href="{{route('stores1')}}" target="_blank">
                         <strong>Featured Sellers</strong></a> and earn 50 loyalty points for every shipment.
                     </p>
                   </li>
                   <li>
                     <h5>REFER A FRIEND</h5>
-                    <p><a href="{{route('customer.reffer.view')}}" target="_blank">Refer</a> a friend to Shoppre and
+                    <p><a href="{{route('customer.reffer.view')}}" target="_blank">Refer a friend</a> to ShoppRe and
                       earn 200 loyalty points whenever he joins our family and makes
                       his first shipment.
                     </p>
@@ -131,7 +131,7 @@
               </div>
               <div class="cash">
                 <h3 class="text-orange">Turn your points into Cash!</h3>
-                <p>For every 1,000 Shoppre Loyalty Points you earn, a credit of INR 100 will automatically be
+                <p>For every 1,000 ShoppRe Loyalty Points you earn, a credit of INR 100 will automatically be
                   applied to your next shipment.</p>
                 <p>No limit on the number of loyalty points you can earn so start shopping and shipping with
                   Shoppre!</p>

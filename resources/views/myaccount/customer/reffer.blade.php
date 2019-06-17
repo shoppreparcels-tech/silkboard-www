@@ -1,46 +1,55 @@
 @extends('myaccount.layout')
 
-@section('title', ' - Refer A Friend')
+@section('title', 'Refer A Friend - ShoppRe.com')
 
 @section('content')
 
 	<section class="dash_reffer">
       <div class="container">
-        <h2>Refer A Friend</h2>
+        <h2>Refer A Friend - Get *Free International Shipping on Your Next Shipment.</h2>
         <div class="content">
           <img src="{{asset('img/refferafriend.jpg')}}" width="100%">
           <div class="reffer_form">
             <form class="form-horizontal" method="post" id="reffer_friend">
             	{{csrf_field()}}
+				<h4>Invite people to <strong>ShoppRe.com </strong> by Sharing your personal referral link:</h4>
 				<div class="input-group">
-					<div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+					<div class="input-group-addon"><i class="fa fa-link"></i></div>
 					<input type="text" class="form-control friend_email" id="txt_referrer_url"
 						   value="{{env("PREFIX").'www.'.env("DOMAIN").'/customer/register?r='. base64_encode(Auth::user()->id)}}">
 				</div>
-              	<h4>Enter your friend's email addresses in the fields below (you can send multiple invitations at once)</h4>
+              	<h4>Enter your Friend's & Followers's Email Address in the fields below (you can send multiple invitations at once)</h4>
               	<div class="form-group">
 	                <div class="col-sm-6">
 	                <div id="appendInput">
 	                	<div class="input-group">
 		                    <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-		                    <input type="email" name="friend_email[]" class="form-control friend_email" placeholder="Email">
+		                    <input type="email" name="friend_email[]" class="form-control friend_email" placeholder="Enter Your Friend's/Family Member Email Id">
 		                </div>
 	                </div>
 	                <a href="#" id="inputplus" class="btn btn-plus"><i class="fa fa-plus"></i> Add Another</a>
 	                </div>
               	</div>
-              <h4>Include a customized message in the email to your friends:</h4>
+              <h4>Include a customized message in the Email:</h4>
               <div class="form-group">
                 <div class="col-sm-6">
-                  <textarea class="form-control" name="message" rows="8" placeholder="Enter your message"></textarea>
+                  <textarea class="form-control" name="message" rows="8" placeholder="Enter Your Message (Optional)"></textarea>
                 </div>
               </div>
-              <p>Note: We will include your name on every invitation you send.</p>
+              {{--<p>Note: We will include your name on every invitation you send & also containing a unique referral code, sent by ShoppRe on your behalf.</p>--}}
               <div class="form-group">
                 <div class="col-sm-2">
                   <button type="submit" class="btn btn-shoppre">send invitation</button>
                 </div>
               </div>
+				<h4>Note:</h4>
+				<ul>
+					<li>We will include your name on every invitation you send</li>
+					<li>A unique referral code, is sent by ShoppRe on your behalf</li>
+					<li>Your earnings through referral will be credited to your ShoppRe Wallet</li>
+					<li>How ShoppRe Loyalty Points Works? - <a href="/loyalty-points">Click Here</a></li>
+				</ul>
+				<p>For any queries contact us at <a href="tel:+91-8277919191">+91-8277919191</a> or Live <a href="http://v2.zopim.com/widget/livechat.html?key=WMWUM4as7ltiMKHbRXiFRw3imdMiLtAV" target="_blank">Chat With Us</a></p>
             </form>
             <div class="clearfix"></div>
             <div class="ajaxloader"></div>

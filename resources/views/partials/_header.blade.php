@@ -202,6 +202,7 @@
                     <li><a href="{{route('offers-new.index')}}">Offers <sup class="p-color-red" style="font-size: 8px" id="offer">New</sup> </a></li>
                     <li><a href="{{route('pricing')}}">Shipping Rates</a></li>
                     <li><a href="{{route('contact')}}">Support</a></li>
+                    <li><a href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank">Refer & Earn</a></li>
                     {{--<li>--}}
                         {{--<div class="container-search">--}}
                             {{--<form class="searchbox" action="https://ship.shoppre.com">--}}

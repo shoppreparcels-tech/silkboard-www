@@ -25,14 +25,14 @@
          <p>Don't forget, the higher your points, the bigger your surprises. So, go get your loyalty game up!</p>
          <p>Questions? <a href="{{route('faq')}}">Visit our FAQ page</a> for expert advice and answers to your questions.</p>
          <p>
-            Best regards,
+            Best Regards,
             <br>
-            Your Team at Shoppre
+            Your Team at ShoppRe
             <br><br>
-            Note:This is a system alert message. Please do not reply to this email
+            Note:This is a system alert message. Please do not reply to this email.
             <br>
             <p>
-            <a href="tel:+91 80 4049 4077">+91 80 4049 4077</a> | <a href="mailto:support@shoppre.com">support@shoppre.com</a> | <a href="https://www.google.co.in/maps/place/Shoppre.com+-+Your+Global+Shipping+Partner/@12.925805,77.6332563,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae146191401f95:0x1cf2770c1532d7d1!8m2!3d12.9257998!4d77.635445"> #181, 1st Floor, 2nd Cross Rd, 1st Block Koramangala, Bengaluru, Karnataka 560034</a>
+            <a href="tel:+91-8040494077">+91-8040494077</a> | <a href="mailto:support@shoppre.com">support@shoppre.com</a> | <a href="https://www.google.co.in/maps/place/Shoppre.com+-+Your+Global+Shipping+Partner/@12.925805,77.6332563,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae146191401f95:0x1cf2770c1532d7d1!8m2!3d12.9257998!4d77.635445"> #181, 1st Floor, 2nd Cross Rd, 1st Block Koramangala, Bengaluru, Karnataka 560034</a>
             </p>
          </p>
          </td>

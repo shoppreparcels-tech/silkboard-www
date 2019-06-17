@@ -460,13 +460,13 @@ class PageController extends Controller
             $businessName = $req->businessName;
             $websiteLink = $req->websiteLink;
             $businessType = $req->businessType;
-            $domesticWeightRange= $req->domesticWeightRange;
-            $internationalWeightRange= $req->internationalWeightRange;
+            $domesticShipmentRange = $req->domesticShipmentRange;
+            $internationalShipmentRange = $req->internationalShipmentRange;
             $Countries= $req->Countries;
             $contact = $req->contact_no;
             $commnet = "Lead from seller partner page " . $email . "\n contact No: " . $contact ."\n Business Name: "
                 . $businessName." \n website Link: " . $websiteLink." \n Business type: ". $businessType." \n Domestic WeightRange: "
-                .$domesticWeightRange. " \n International WeightRange: " .$internationalWeightRange."\n Countries: ".$Countries ;
+                .$domesticShipmentRange. " \n International WeightRange: " .$internationalShipmentRange."\n Countries: ".$Countries ;
             AsanaTaskOperations::createTask($name, $commnet, "L");
         }
 
