@@ -228,6 +228,34 @@ class PageController extends Controller
         return $this->curl($url, $data);
     }
 
+    public function createMailTrainSubscriber(Request $req)
+    {
+        $data = array(
+            "EMAIL" => $req->email,
+            "REQUIRE_CONFIRMATION" => "no"
+        );
+        $url = 'https://mailtrain.shoppre.com/api/subscribe/BzxpUg8sw?access_token=9f19384da11de72805b86b4640bb64da9efdaff0';
+        $this->curlMailTrain($url, $data);
+        return response()->json([
+            'message' => 'Success',
+            'description' => 'Subscribed',
+        ]);
+    }
+
+    public function curlMailTrain($url, $data)
+    {
+        $data_string = json_encode($data);
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+                'Content-Type: application/json',
+                'Content-Length: ' . strlen($data_string))
+        );
+        return curl_exec($ch);
+    }
+
     public function curl($url, $data)
     {
         $data_string = json_encode($data);

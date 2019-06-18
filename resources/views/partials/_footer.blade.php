@@ -93,7 +93,7 @@
                     <p class="f-s-14 f-c-l-gray">Join our Mailing List <br>
                         The First Worldwide Indian Shop & Ship Community - Get Instant Updates, Offers & News</p>
                     <h4 class="f-s-14 f-c-d-greay f-w-8 m-t-5">Email Address</h4>
-                    <input type="Email" class="txt-shadow-br txt-l-br  txt-f-w txt-pad txt-s-14"
+                    <input type="email" name="mailtrain_email" class="txt-shadow-br txt-l-br  txt-f-w txt-pad txt-s-14"
                            placeholder="Enter your Email id " required>
                     <center>
                         <button type="submit" class="btn btn-s-r btn-b-r m-t-20 ">Subscribe</button>

@@ -626,6 +626,8 @@ Route::get('/sellers-shipping', 'PageController@sellerShipping')->name('sellerSh
 Route::get('/international-courier-shipping-services-india', 'PageController@icsIndex')->name('ics.index');
 Route::get('/2018-annual-awards-international-shipping-shopping', 'PageController@award')->name('award.index');
 
+Route::post('/mailtrain/subscribe', 'PageController@createMailTrainSubscriber')->name('mailtrain.subscribe');
+
 //Route::get('/about-new', 'PageController@aboutIndex')->name('about-new.index');
 
 Route::get('/diwali-offer', 'PageController@diwali')->name('diwali');

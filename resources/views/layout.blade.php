@@ -558,18 +558,14 @@
                     // email: {required: 'Please enter your email id'}
                 },
             submitHandler: function (form) {
-                debugger;
-                var email = $("input[name='email']").val();
-                var token = $('input[name=_token]').val();
+                var email = $("input[name='mailtrain_email']").val();
                 jQuery.ajax({
-                    url: 'api/subscribe',
+                    url: '/mailtrain/subscribe',
                     type: "POST",
                     data: {
-                        _token: token,
                         email: email,
                     },
                     success: function (data) {
-                        console.log(data);
                         $('#myModal').modal('show');
                         $('.txt-subscription').val('');
                     }
