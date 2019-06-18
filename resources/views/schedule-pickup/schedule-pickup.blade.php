@@ -904,7 +904,7 @@
                 $("#self_form ol").append('<li style="margin-top: 10px;" id="selfol_li' + i + '" data-olli="' + i + '">' +
                     '<div class="col-sm-5 col-xs-5">' +
                     '<label>Item Name</label>' +
-                    '<input type="text" class="form-control self_url" name="name[' + i + ']" required data-rule-url="true" placeholder="eg: t-shirt">' +
+                    '<input type="text" class="form-control self_url" name="name[' + i + ']" required  placeholder="eg: t-shirt">' +
                     '</div>' +
                     '<div class="col-sm-2 col-xs-3">' +
                     '   <label>Quantity</label>' +
