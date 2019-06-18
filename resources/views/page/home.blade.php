@@ -475,16 +475,15 @@
                         </div>
 
                     </div>
-                    {{--<div>--}}
-                    {{--<marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
+                    <div>
+                    <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                    <span class="f-s-16 f-c-red f-w-9"><a href="https://www.amazon.in/b/ref=wrs_pckgn?node=17095079031" target="_blank">Shop from Amazon.in "Wardrobe Refresh Sale"</a> & Get ₹200 cashback on your Amazon.in Shipment.</span><br>
                     {{--<a href="https://ship.shoppre.com/offers/ramadan/" title="Ramadan Offer" target="_blank" class="f-s-16 f-c-red f-w-9">Ramadan Cashback Flat 25% On International Shipping ---}}
                         {{--Use Code: EID250, valid up to 8th June 2019.</a>--}}
-                    {{--</marquee>--}}
-                    {{--</div>--}}
-                    {{--<span class="f-s-16 f-c-red f-w-9">The biggest sale of the season from Flipkart.com & Amazon.in & Save 80% on International Shipping.</span><br>--}}
+                    </marquee>
+                    </div>
+                    {{--<span class="f-s-16 f-c-red f-w-9">"Wardrobe Refresh Sale" Biggest Fashion Sale Ever from Amazon.in & Get ₹200 cashback on your amazon.in shipment</span><br>--}}
                     {{--< style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
-                        {{--<a href="https://www.flipkart.com" title="Flipkart" target="_blank">1. Flipkart.com - Big Shopping Days 15th - 19th May 2019</a> ||--}}
-                       {{--<a href="https://www.amazon.in/b?node=6648217031&pf_rd_p=f3b26b83-0a05-4b47-b7fd-09d8cb3d946e&pf_rd_r=H6SQ3E7F56BY4Q8Z0G16" title="Amazon.in" target="_blank">2. Amazon.in - Summer Pop-Up Sale 15th - 19th May 2019</a>--}}
 
                     {{--</>--}}
                 </div>
@@ -557,17 +556,17 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.amazon.in/b?node=6294306031&pf_rd_p=d1c4ee84-98cf-4c20-a2fa-8290ee60b49c&pf_rd_r=2A1WRSW3Q8RED90AXD92" title="Click to Know More" target="_blank">
+                        <a href="https://www.flipkart.com/fashion-ikfc3-main-store" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Mi Days</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">India Ka Fashion Captial</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up to ₹6,500 Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up to 70% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Amazon.in</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Flipkart.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Redmi 7, Y3, 6A, Mi A2, Y2, Redmi Note 5 Pro/6 Pro & more. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Kutras, Jeans, T-shirt, Sarees, Tops, Tees, Shoes, Kids Clothing & more. </p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -578,17 +577,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.myntra.com/fusion-wear" title="Click to Know Highlights" target="_blank">
+                        <a href="https://www.sewbery.com/collections/upto-70-discount" title="Click to Know Highlights" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Fusion Wear For Women</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Best Selling Dresses</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Starting from ₹199/- </span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Upto 70% Discount</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Myntra.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Sewbery.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Leggings, Dupatta, Kurta Sets, Palazzos, Sarees, Tunics, Jackets & more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Straight Neck Dress, Shoulder Prom Gown, Jumpsuit & more.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -620,17 +619,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.snapdeal.com/offers/half_price_store" title="Click for Offer Details" target="_blank">
+                        <a href="https://www.myntra.com" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Half Price Store</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Myntra End of Reason Sale</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">MIN. 50% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">21st - 24th June</span> | 50-80% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Snapdeal.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Myntra.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Everything at 50% OFF, Crazy Offers. Shoes, Earphones, Kurtis & more</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">99.99% Styles On Offer, 3 Lakh+ Styles First Time On Sale & more.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
