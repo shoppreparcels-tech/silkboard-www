@@ -117,6 +117,9 @@
         <div class="container myntra-service">
             <div class="row">
                 <div class="col-md-12 col-xs-12">
+                    <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">Shop from Myntra.com "End Of Reason Sale"</a> & Get ₹200 cashback on your Myntra Shipment. </span>Coupon Code: MEND20<br>
+                    </marquee>
                    <center>
                        <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">
                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/myntra-express-delivery-globe.png" alt="Myntra.com"></a>
