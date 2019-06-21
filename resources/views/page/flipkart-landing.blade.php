@@ -65,13 +65,14 @@
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/asus-6z-1h8d-9g1-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/fashion-ffd-june-2019-store" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-                            <h2>ASUS 6Z</h2>
-                            <br>
-                            <p>World's First Flip Camera</p>
-                            <p>48MP Camera Sensor</p>
-                            <p>June 19th 2019 </p>
+
+                                <h2>Fashion Days</h2>
+                                <br>
+                                <p>50-80% Off</p>
+                                <p>1000+ Brands, 10 Lakh+ styles</p>
+                                <p>21st - 25st June, 2019</p>
                         </div>
                     </a>
                 </div>

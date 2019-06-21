@@ -477,7 +477,7 @@
                     </div>
                     <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                    <span class="f-s-16 f-c-red f-w-9"><a href="https://www.amazon.in/b/ref=wrs_pckgn?node=17095079031" target="_blank">Shop from Amazon.in "Wardrobe Refresh Sale"</a> & Get ₹200 cashback on your Amazon.in Shipment.</span><br>
+                    <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">Shop from Myntra.com "End Of Reason Sale"</a> & Get ₹200 cashback on your Myntra Shipment.</span><br>
                     {{--<a href="https://ship.shoppre.com/offers/ramadan/" title="Ramadan Offer" target="_blank" class="f-s-16 f-c-red f-w-9">Ramadan Cashback Flat 25% On International Shipping ---}}
                         {{--Use Code: EID250, valid up to 8th June 2019.</a>--}}
                     </marquee>
@@ -556,17 +556,17 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.flipkart.com/fashion-ikfc3-main-store" title="Click to Know More" target="_blank">
+                        <a href="https://www.flipkart.com/fashion-ffd-june-2019-store" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">India Ka Fashion Captial</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Flipkart Fashion Days</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up to 70% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">21st - 25th June</span> | 50-80% Off</p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Flipkart.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Kutras, Jeans, T-shirt, Sarees, Tops, Tees, Shoes, Kids Clothing & more. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">1000+ Brands, 10 Lakh+ styles. Buy Fashion Online at Best Price & more. </p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -577,17 +577,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.sewbery.com/collections/upto-70-discount" title="Click to Know Highlights" target="_blank">
+                        <a href="https://www.nykaa.com/offers.html" title="Click to Know Highlights" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Best Selling Dresses</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Nykaa End Of Season Sale</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Upto 70% Discount</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Upto 40% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Sewbery.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Nykaa.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Straight Neck Dress, Shoulder Prom Gown, Jumpsuit & more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Beauty Bargains Galore. Lakme, Loreal Paris, Colorbar & more.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
