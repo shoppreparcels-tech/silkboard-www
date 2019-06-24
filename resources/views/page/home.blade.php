@@ -477,7 +477,7 @@
                     </div>
                     <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                    <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">Shop from Myntra.com "End Of Reason Sale"</a> & Get ₹200 cashback on your Myntra Shipment.</span><br>
+                    <span class="f-s-16 f-c-red f-w-9"><a href="https://www.flipkart.com/fashion-ffd-june-2019-store" target="_blank">Shop from Flipkart.com "Fashion Days" Sale</a> & Get ₹200 cashback on your Shipment.</span><br>
                     {{--<a href="https://ship.shoppre.com/offers/ramadan/" title="Ramadan Offer" target="_blank" class="f-s-16 f-c-red f-w-9">Ramadan Cashback Flat 25% On International Shipping ---}}
                         {{--Use Code: EID250, valid up to 8th June 2019.</a>--}}
                     </marquee>
@@ -598,17 +598,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/prime-amazon-fashion-wardrobe-refresh-sale-shop-online-from-india/" title="Know More" target="_blank">
+                        <a href="https://www.ajio.com" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Wardrobe Refresh Sale</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">AJIO Epic Sale</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">19th - 23rd June</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">21st - 27th June</span> | 50-90% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Amazon.in</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Ajio.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Get Up to 80% Off on Clothing, Footwear, Watches, Jewelry, and more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Tops & Dresses, Fusion Wear, Heels & Flats, Fashion Jewellery, Bags & Sarees</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}

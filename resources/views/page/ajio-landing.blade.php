@@ -67,9 +67,14 @@
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>
                 </div>
-                <div style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="https://www.ajio.com/" title="ajio.com" target="_blank">40-80% Off on 1,50,000+ Styles -
-                </a>Shop from AJIO & Ship with us Worldwide, Save 80% on shipping cost.</marquee>
+                {{--<div style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
+                {{--<a href="https://www.ajio.com/" title="ajio.com" target="_blank">40-80% Off on 1,50,000+ Styles ---}}
+                {{--</a>Shop from AJIO & Ship with us Worldwide, Save 80% on shipping cost.</marquee>--}}
+                {{--</div>--}}
+                <div>
+                    <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                        <a href="https://www.ajio.com/" title="Amazon.in" target="_blank">AJIO.com 👉Epic Sale 21st - 27th June | Shop & Ship with us Worldwide, Get ₹200 cashback on shipping.</a>
+                    </marquee>
                 </div>
             </div>
             <div class=" col-md-12 offer-description">

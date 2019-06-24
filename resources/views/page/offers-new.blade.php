@@ -186,8 +186,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Upto 75% Off</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Summer Alert</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Flat 400 Store</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">15k Products on Sale</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="https://www.limeroad.com/shopping-offers/?src=shoppre" target="_blank">
@@ -200,7 +200,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Little Quirk, Huge Savings.</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">End of Season Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Upto 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.chumbak.com/sale/ngg/c/" target="_blank">
@@ -213,8 +213,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Spring Summer Special</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">45% to 65% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">EOSS</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up to 65% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://indiacircus.com/sales/clearance-sale.html" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a67ba7cb9ec.png')}}"/>
@@ -243,7 +243,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">AJIO MANIA</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">EPIC Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">50-90% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
@@ -256,10 +256,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Cricket Frenzy</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Gear up for the game!</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">home shopping spree</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">23rd - 26th June</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.amazon.in/b?ie=UTF8&node=17107038031&pf_rd_p=e6a59ca7-4bd1-404b-a001-fc866ada2fa5&pf_rd_r=M2AHEHP2FK8S8VRBW6GN" target="_blank">
+                                <a href="https://www.amazon.in/b?ie=UTF8&node=12597663031&pf_rd_p=0cfb3e4e-752c-4e07-9f2b-8d912ee27949&pf_rd_r=9VA7QF3YJZ8RSQ1VHE7V" target="_blank">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>
@@ -269,10 +269,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">redtape</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Flat 60% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Republic of Denim</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.jabong.com/red-tape?rf=Discount%20Range%3A60_100_60.0%20TO%20100.0" target="_blank">
+                                <a href="https://www.jabong.com/sis/republic-of-denim-women" target="_blank">
                                     <img src="https://www.shoppre.com/uploads/stores/logo_599691d00e27e.png"/>
                                 </a>
                             </div>
