@@ -53,6 +53,7 @@ Route::prefix('admin')->group(function(){
     Route::get('/loyalty', 'Nodeapi\NodeController@loyaltyShow')->name('admin.loyaltyShow');
     Route::get('/loyaltyUpdate', 'Nodeapi\NodeController@loyaltyUpdate')->name('admin.loyaltyUpdate');
     Route::get('/loyaltyCreate', 'Nodeapi\NodeController@loyaltyCreate')->name('admin.loyaltyCreate');
+    Route::get('/user/verify/email', 'Nodeapi\NodeController@sendEmailVerification')->name('user.emailVerification');
 
     /*------- Scheduled Mails ------------*/
     Route::get('/scheduled/mails', 'Myaccount\Admin\AdminController@scheduledMails')->name('admin.scheduled.mails');

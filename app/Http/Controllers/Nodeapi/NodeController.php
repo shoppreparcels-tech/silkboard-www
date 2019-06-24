@@ -10,7 +10,12 @@ use App\WalletTransaction;
 use App\ShopperBalance;
 use App\LoyaltyPoint;
 use App\LoyaltyHistory;
+use App\Mail\Myaccount\EmailVerification;
 use App\LoyaltyMisc;
+
+use Illuminate\Support\Facades\Mail;
+
+use Auth;
 
 class NodeController extends Controller
 {
@@ -18,7 +23,7 @@ class NodeController extends Controller
     {
         $customer = Customer::find($request->user_id);
         $balance = ShopperBalance::find($customer->balance->id);
-        return response()->json(['amount' => $balance->amount]);
+        return response()->json(['amount' => $balance->amount, 'verified' => $customer->email_verify]);
     }
 
     public function walletIndex(Request $request)
@@ -91,7 +96,6 @@ class NodeController extends Controller
         $loyalid = LoyaltyPoint::where('customer_id', $request->customer_id)->first()->id;
         $loyalty = LoyaltyPoint::find($loyalid);
 
-//        if ($loyalty->ship_request_id != 1) {
             if ($loyalty->level == 1) {
                 $points = (int)((5 / 100) * $request->final_amount);
             } elseif ($loyalty->level == 2) {
@@ -124,6 +128,20 @@ class NodeController extends Controller
             $misc->save();
 
             return response()->json(['message' => 'Loyalty points updated!']);
-//        }
+    }
+
+    private function generateToken($email)
+    {
+        $customer = new Customer;
+        $token = hash_hmac('sha256', str_random(40), config('app.key'));
+        $customer->where('email', $email)->update(['email_token' => $token]);
+        return response()->json(['message' => 'sent']);
+    }
+
+    public function sendEmailVerification(Request $req)
+    {
+        $this->generateToken($req->email);
+        $customer = Customer::where('email', $req->email)->first();
+        Mail::to($req->email)->send(new EmailVerification($customer));
     }
 }
