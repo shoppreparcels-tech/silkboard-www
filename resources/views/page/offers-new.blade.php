@@ -229,11 +229,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">End Of Reason Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-80% off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Myntra Recommends</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Handpicked Collections</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com" target="_blank">
+                                <a href="https://www.myntra.com/shop/discover" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5997a62748742.png')}}"/>
                                 </a>
                             </div>

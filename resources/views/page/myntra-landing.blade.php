@@ -73,11 +73,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/growth/eors19-homepage/" target="_blank"><div class="shopandship ">
-                            <h2>End Of Reason Sale</h2>
+                    <a href="https://www.myntra.com/shop/women" target="_blank"><div class="shopandship ">
+                            <h2>Women Shopping</h2>
                             <br/>
-                            <p>21st - 24th June</p>
-                            <p>50% - 80% Off</p>
+                            <p>Get Min. 50% Off</p>
+                            <p>Choose From 2.3 Lakhs+ Styles</p>
                             <p>Explore Now</p>
                         </div></a>
                 </div>
@@ -117,9 +117,9 @@
         <div class="container myntra-service">
             <div class="row">
                 <div class="col-md-12 col-xs-12">
-                    <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">Shop from Myntra.com "End Of Reason Sale"</a> & Get ₹200 cashback on your Myntra Shipment. </span>Coupon Code: MEND20<br>
-                    </marquee>
+                    {{--<marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
+                        {{--<span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">Shop from Myntra.com "End Of Reason Sale"</a> & Get ₹200 cashback on your Myntra Shipment. </span>Coupon Code: MEND20<br>--}}
+                    {{--</marquee>--}}
                    <center>
                        <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">
                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/myntra-express-delivery-globe.png" alt="Myntra.com"></a>

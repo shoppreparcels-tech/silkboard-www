@@ -72,7 +72,7 @@
                                 <br>
                                 <p>50-80% Off</p>
                                 <p>1000+ Brands, 10 Lakh+ styles</p>
-                                <p>21st - 25st June, 2019</p>
+                                <p>21st - 25th June, 2019</p>
                         </div>
                     </a>
                 </div>

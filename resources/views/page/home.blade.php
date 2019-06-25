@@ -526,7 +526,7 @@
                                 {{--<a href="" class="btn btn-s-r btn-b-r btn-a-l m-t-20">Sign up for Free</a>--}}
                                 <button type="submit" class="btn btn-s-r btn-b-r btn-l m-t-20">Sign Up Free</button>
                                 <p class="f-s-14 f-c-blue m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
-                                    Blog: <a class="f-c-blue" style="text-decoration: underline" href="https://ship.shoppre.com/products-on-sale-pure-organic-yoga-clothing-and-products-made-in-india/" target="_blank">Best Sale to Shop Organic Yoga Clothes</a> </p>
+                                    Blog: <a class="f-c-blue" style="text-decoration: underline" href="https://wp.me/paL28F-1I1" target="_blank">5 Hollywood Best Selling Blu-Ray DVDs</a> </p>
                             </div>
                             <div class="col-md-6 col-xs-12 no-pad ">
                                 <center>
@@ -577,17 +577,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.nykaa.com/offers.html" title="Click to Know Highlights" target="_blank">
+                        <a href="https://www.amazon.in/b/?ie=UTF8&node=6648217031&ref_=topnav_storetab_top_ap_mega" title="Click to Know Highlights" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Nykaa End Of Season Sale</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">End Of Season Sale</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Upto 40% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Upto 70% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Nykaa.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Amazon.in</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Beauty Bargains Galore. Lakme, Loreal Paris, Colorbar & more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Amazon Fashion. Top Brands. Latest Styles. Offers on 4 Lakh+ Styles & more.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -619,17 +619,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.myntra.com" title="Click for Offer Details" target="_blank">
+                        <a href="https://www.myntra.com/shop/women" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Myntra End of Reason Sale</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Women Shopping</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">21st - 24th June</span> | 50-80% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Get Min. 50% Off</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Myntra.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">99.99% Styles On Offer, 3 Lakh+ Styles First Time On Sale & more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Choose From 2.3 Lakhs+ Styles. Apparel, Accessories, Heels & more!</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -747,7 +747,7 @@
                         International Cards giving you trouble at checkout? Take away our Personal Shopper!
                     </p>
                     {{--<center>--}}
-                    <a href="{{route('ifs.index')}}">
+                    <a href="https://parcel.shoppre.com/personalShopper/create" target="_blank">
                         <div class="btn-our-shop-ship btn-font-size">
                             <p>
                                 Shop For Me
@@ -981,7 +981,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4" style="padding-left: 5px;">
-                    <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
+                    <a href="https://g.page/shoppre?share"
                        target="_blank">
                         <div class="row div-img-row">
                             <img class="img-google-logo "
@@ -1442,15 +1442,15 @@
 
 @section('js_script')
 
-    <script type='text/javascript'>
-        var pubID = '54240CL48886';
+    {{--<script type='text/javascript'>--}}
+        {{--var pubID = '54240CL48886';--}}
 
-        (function(d, t) {
-            var s = document.createElement('script');s.type = 'text/javascript';
-            s.async = true;s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv1.js';
-            document.getElementsByTagName('body')[0].appendChild(s);
-        }());
-    </script>
+        {{--(function(d, t) {--}}
+            {{--var s = document.createElement('script');s.type = 'text/javascript';--}}
+            {{--s.async = true;s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv1.js';--}}
+            {{--document.getElementsByTagName('body')[0].appendChild(s);--}}
+        {{--}());--}}
+    {{--</script>--}}
 
     <script>
         $(document).ready(function () {

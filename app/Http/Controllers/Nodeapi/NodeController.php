@@ -135,7 +135,6 @@ class NodeController extends Controller
         $customer = new Customer;
         $token = hash_hmac('sha256', str_random(40), config('app.key'));
         $customer->where('email', $email)->update(['email_token' => $token]);
-        return response()->json(['message' => 'sent']);
     }
 
     public function sendEmailVerification(Request $req)
@@ -143,5 +142,6 @@ class NodeController extends Controller
         $this->generateToken($req->email);
         $customer = Customer::where('email', $req->email)->first();
         Mail::to($req->email)->send(new EmailVerification($customer));
+        return response()->json(['message' => 'sent']);
     }
 }
