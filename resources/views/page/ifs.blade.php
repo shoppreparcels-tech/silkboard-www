@@ -79,7 +79,7 @@
     "location": {
     "@type": "Place",
     "name": "Shop from ANY Indian Store, Ship Worldwide - ShoppRe.com",
-    "hasMap": "https://goo.gl/maps/Gt48LWDfeFm",
+    "hasMap": "https://g.page/OnlineShoppingIndia",
     "telephone": "+918277919191",
     "geo": {
     "@type": "GeoCoordinates",
@@ -150,9 +150,9 @@
     <section>
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="https://www.flipkart.com/fashion-ffd-june-2019-store" title="Flipkart" target="_blank">1. Flipkart.com 👉Fashion Days Sale 21st - 25th June</a> |
-                <a href="https://www.ajio.com/" title="Amazon.in" target="_blank">2. Ajio.com 👉Epic Sale 21st - 27th June</a>
-                {{--<a href="https://ship.shoppre.com/prime-amazon-fashion-wardrobe-refresh-sale-shop-online-from-india/" title="Amazon.in" target="_blank">3. Amazon.in 👉Wardrobe Refresh Sale 19th - 23rd June</a>--}}
+                <a href="https://www.ajio.com/" title="Amazon.in" target="_blank">1. Ajio.com 👉Epic Sale 21st - 27th June</a> |
+                {{--<a href="https://www.myntra.com/growth/eors19-homepage/" title="Myntra" target="_blank">2. Myntra.com 👉End of Reason Sale 21st - 24th June</a> |--}}
+                <a href="https://www.tatacliq.com/lifestyle-offers" title="tatacliq.com" target="_blank">2. Tatacliq.com 👉EOSS 18th June - 14th July</a>
             </marquee>
         </div>
         <div class="container" id="how-it-works">

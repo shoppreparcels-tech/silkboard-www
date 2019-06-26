@@ -21,6 +21,40 @@
     <meta name="twitter:description" content="Shop in Myntra and courier your packages from India to USA, UK, UAE, Australia at a cheap courier cost." />
     <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
     <meta name="twitter:image:alt" content="shoppre international shipping" />
+
+
+ <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Myntra Online Shopping India with ShoppRe",
+  "alternateName": "Myntra International Shipping",
+  "url": "https://www.shoppre.com/myntra-online-shopping-shipping-from-india",
+  "logo": "https://www.shoppre.com/img/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91 8277919191",
+    "contactType": "customer service"
+  },
+  "sameAs": [
+    "https://www.facebook.com/goshoppre",
+    "https://twitter.com/Go_Shoppre",
+    "https://www.instagram.com/shoppre_official",
+    "https://g.page/OnlineShoppingIndia",
+    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+    "https://www.linkedin.com/company/shoppre.com",
+    "https://in.pinterest.com/shoppre"
+  ],
+  "aggregateRating": {
+    "@type" : "AggregateRating",
+    "bestRating": "5",
+    "ratingValue" : "4.8",
+    "reviewCount" : "4560",
+    "worstRating" : 3.5
+  }
+}
+</script>
+
     <style>
         .bg-myntra {background-image: url(../../img/images/overlay1.png);width: 100%;background-position: center;background-repeat: no-repeat;
             background-size: cover;

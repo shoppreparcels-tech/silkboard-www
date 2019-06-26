@@ -142,49 +142,50 @@
             <div style="overflow: scroll">
                 <table >
                     <tr>
-                        <th>Country</th>
-                        <th>Price for 100grams</th>
-                        <th>Price for 300grams</th>
+                        <th>Top Countries</th>
+                        <th>Price for 500grams</th>
+                        <th>Price for 1000grams</th>
                         <th>Courier Partners</th>
                     </tr>
                     <tr>
                         <td>UAE</td>
-                        <td>₹553</td>
-                        <td>₹636</td>
+                        <td>₹657</td>
+                        <td>₹1314</td>
                         <td>DHL, DTDC</td>
                     </tr>
                     <tr>
                         <td>Germany</td>
-                        <td>₹1287</td>
-                        <td>₹1346</td>
+                        <td>₹1579</td>
+                        <td>₹1825</td>
                         <td>DHL, DTDC</td>
                     </tr>
                     <tr>
                         <td>USA</td>
-                        <td>₹1297</td>
-                        <td>₹1356</td>
+                        <td>₹1579</td>
+                        <td>₹1819</td>
                         <td>DHL, DTDC</td>
 
                     </tr>
                     <tr>
                         <td>Canada</td>
-                        <td>₹1395</td>
-                        <td>₹1458</td>
+                        <td>₹1697</td>
+                        <td>₹1957</td>
                         <td>DHL, DTDC</td>
                     </tr>
                     <tr>
                         <td>Australia</td>
-                        <td>₹1455</td>
-                        <td>₹1521</td>
+                        <td>₹1519</td>
+                        <td>₹1703</td>
                         <td>DHL, DTDC</td>
                     </tr>
                 </table>
             </div>
-                {{--<div>--}}
-                    {{--<br>--}}
-                    {{--<br>--}}
-                    {{--<center><a href="" class="btn-chris-place-order">Courier Now</a></center>--}}
-                {{--</div>--}}
+                <div>
+                    <br>
+                    <br>
+                    <center><a href="{{route('pricing')}}" target="_blank" class="btn-chris-place-order">Calculate Shipping Rates Here</a></center>
+                </div>
+            <br>
             <div class="container">
                 <br>
                 <div class="row text-center">

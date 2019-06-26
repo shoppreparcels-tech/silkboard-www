@@ -65,14 +65,14 @@
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/fashion-ffd-june-2019-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/grand-gadget-days-store" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
 
-                                <h2>Fashion Days</h2>
+                                <h2>The Grand Gadgets Days</h2>
                                 <br>
                                 <p>50-80% Off</p>
-                                <p>1000+ Brands, 10 Lakh+ styles</p>
-                                <p>21st - 25th June, 2019</p>
+                                <p>Fitbits, Mobile phone & more</p>
+                                <p>26th - 28th June, 2019</p>
                         </div>
                     </a>
                 </div>

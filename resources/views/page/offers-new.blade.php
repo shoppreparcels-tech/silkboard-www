@@ -173,10 +173,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Fashion Days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">21st - 25th June</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">asus 6z</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Starting ₹31,999</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/fashion-ffd-june-2019-store" target="_blank">
+                                <a href="https://www.flipkart.com/asus6z-launch-6-89az9-store" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
                             </div>

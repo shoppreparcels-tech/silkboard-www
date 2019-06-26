@@ -422,7 +422,7 @@
                             <center>
                                 <a class="bla-1"
                                    href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank">
-                                    <img src="{{asset('img/images/shoppre-youtube-shipping.png')}}" class="vid-s-img"
+                                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/shoppre-youtube-shipping.png" class="vid-s-img"
                                          alt="shoppre">
                                 </a>
                             </center>
@@ -475,13 +475,13 @@
                         </div>
 
                     </div>
-                    <div>
-                    <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                    <span class="f-s-16 f-c-red f-w-9"><a href="https://www.flipkart.com/fashion-ffd-june-2019-store" target="_blank">Shop from Flipkart.com "Fashion Days" Sale</a> & Get ₹200 cashback on your Shipment.</span><br>
-                    {{--<a href="https://ship.shoppre.com/offers/ramadan/" title="Ramadan Offer" target="_blank" class="f-s-16 f-c-red f-w-9">Ramadan Cashback Flat 25% On International Shipping ---}}
-                        {{--Use Code: EID250, valid up to 8th June 2019.</a>--}}
-                    </marquee>
-                    </div>
+                    {{--<div>--}}
+                    {{--<marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
+                    {{--<span class="f-s-16 f-c-red f-w-9"><a href="https://www.flipkart.com/fashion-ffd-june-2019-store" target="_blank">Shop from Flipkart.com "Fashion Days" Sale</a> & Get ₹200 cashback on your Shipment.</span><br>--}}
+                    {{--<a href="https://ship.shoppre.com/month-end-exclusive-shipping-offer/" title="Month End Offer" target="_blank" class="f-s-16 f-c-red f-w-9">Month End Cashback On International Shipping ---}}
+                    {{--Use Code: MEND20, valid up to 30th June 2019.</a>--}}
+                    {{--</marquee>--}}
+                    {{--</div>--}}
                     {{--<span class="f-s-16 f-c-red f-w-9">"Wardrobe Refresh Sale" Biggest Fashion Sale Ever from Amazon.in & Get ₹200 cashback on your amazon.in shipment</span><br>--}}
                     {{--< style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
 
@@ -491,10 +491,10 @@
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
                         <div class="col-md-12 col-xs-12 pad-20">
                             <a href="/first-time-international-shipment-offer" target="_blank"><img
-                                        src="{{asset('img/images/200inr-shipping-offer-india-shoppre.png')}}" class="img-f-w offer-img-d"
+                                        src="https://d2njzkuk16ywue.cloudfront.net/cdn/200inr-shipping-offer-india-shoppre.png" class="img-f-w offer-img-d"
                                         alt="first time international shipment offer"></a>
                             <a href="/first-time-international-shipment-offer" target="_blank"><img
-                                        src="{{asset('img/images/200inr-shipping-offer-india.png')}}"
+                                        src="https://d2njzkuk16ywue.cloudfront.net/cdn/200inr-shipping-offer-india.png"
                                         class="img-f-w offer-img-m" alt="first international shipping discount"></a>
                             <center><a href="{{route('customer.login')}}"
                                        class="btn btn-s-r btn-b-r btn-a-l m-t-20 offer-img-m">Sign up for Free</a>
@@ -530,7 +530,7 @@
                             </div>
                             <div class="col-md-6 col-xs-12 no-pad ">
                                 <center>
-                                    <img src="{{asset('img/images/priyamani-shipping-img.png')}}"
+                                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/priyamani-shipping-img.png"
                                          class="img-responsive " alt="priyamani shoppre">
                                 </center>
                             </div>
@@ -556,17 +556,17 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.flipkart.com/fashion-ffd-june-2019-store" title="Click to Know More" target="_blank">
+                        <a href="https://www.tatacliq.com/lifestyle-offers" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Flipkart Fashion Days</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">CLIQ FASHION</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">21st - 25th June</span> | 50-80% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">18th June - 14th July</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Flipkart.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Tatacliq.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">1000+ Brands, 10 Lakh+ styles. Buy Fashion Online at Best Price & more. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Men's Apparel, Women's Footwear, Formal Watches & more. </p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -655,13 +655,13 @@
 
             <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                 <center>
-                    <p class="header2 p-color-cement" style="text-align: center">Our trusted partners
-                        <span class="p-color-red"><a href="{{route('dhl.index')}}">DHL</a></span>,
-                        <span class="p-color-red">
-                            <a href="{{route('dtdc.index')}}">
-                                DTDC
-                            </a>
-                        </span>
+                    <p class="header2 p-color-cement" style="text-align: center">Our trusted partners DHL, DTDC
+                        {{--<span class="p-color-red"><a href="{{route('dhl.index')}}">DHL</a></span>,--}}
+                        {{--<span class="p-color-red">--}}
+                            {{--<a href="{{route('dtdc.index')}}">--}}
+                                {{--DTDC--}}
+                            {{--</a>--}}
+                        {{--</span>--}}
                         &
                         more help us sail smooth all the way to
                         your destination, wherever it is! </p>
@@ -1030,7 +1030,7 @@
                 <br>
             </div>
             <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-                <img class="offer-img-d" src="{{asset('img/images/earn-with-us.png')}}"
+                <img class="offer-img-d" src="https://d2njzkuk16ywue.cloudfront.net/cdn/earn-with-us.png"
                      alt="earn with us" style="width: 450px;">
             </div>
         </div>

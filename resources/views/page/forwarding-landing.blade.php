@@ -7,6 +7,39 @@
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/international-parcel-forwarding-india-online-shopping" />
+
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "ShoppRe Package Forwarding",
+  "alternateName": "International Package Forwarding India",
+  "url": "https://www.shoppre.com/international-parcel-forwarding-india-online-shopping",
+  "logo": "https://www.shoppre.com/img/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91 8277919191",
+    "contactType": "customer service"
+  },
+  "sameAs": [
+    "https://www.facebook.com/goshoppre",
+    "https://twitter.com/Go_Shoppre",
+    "https://www.instagram.com/shoppre_official",
+    "https://g.page/ParcelForwarding",
+    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+    "https://www.linkedin.com/company/shoppre.com",
+    "https://in.pinterest.com/shoppre"
+  ],
+  "aggregateRating": {
+    "@type" : "AggregateRating",
+    "bestRating": "5",
+    "ratingValue" : "4.8",
+    "reviewCount" : "7000",
+    "worstRating" : 4.0
+  }
+}
+</script>
+
     <style>
         .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}
@@ -247,15 +280,15 @@
             <h1>How is the shipping costing like?</h1>
             <p>You can <a href="{{route('pricing')}}">see more shipping per kg cost details</a></p> <br>
             <ul>
-                <li>International parcel forwarding from India to USA starting only at  ₹1449</li>
+                <li>International parcel forwarding from India to USA ( starting from ₹1377 )</li>
                 <br>
-                <li>International parcel forwarding from India to UK starting only at  ₹1556</li> <br>
-                <li>International parcel forwarding from India to Australia starting only at  ₹1499</li> <br>
-                <li>International parcel forwarding from India to UAE starting only at  ₹566</li> <br>
-                <li>International parcel forwarding from India to Canada starting only at  ₹1594</li> <br>
-                <li>International parcel forwarding from India to Singapore starting only at ₹939</li> <br>
-                <li>International parcel forwarding from India to Hongkong starting only at ₹1501</li> <br>
-                <li>International parcel forwarding from India to Saudi Arabia starting only at ₹1517</li>
+                <li>International parcel forwarding from India to UK ( starting from ₹1478 )</li> <br>
+                <li>International parcel forwarding from India to Australia ( starting from ₹1424 )</li> <br>
+                <li>International parcel forwarding from India to UAE ( starting from ₹538 )</li> <br>
+                <li>International parcel forwarding from India to Canada ( starting from ₹1514 )</li> <br>
+                <li>International parcel forwarding from India to Singapore ( starting from ₹892 )</li> <br>
+                <li>International parcel forwarding from India to Hongkong ( starting from ₹1426 )</li> <br>
+                <li>International parcel forwarding from India to Saudi Arabia ( starting from ₹1441 )</li>
             </ul>
 
         </div>
@@ -277,7 +310,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
@@ -325,7 +358,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 

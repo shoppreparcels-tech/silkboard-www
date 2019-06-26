@@ -87,22 +87,19 @@
 
             <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 pad-5">
                 <div class="col-md-12 col-xs-12 div-b-w-s pad-20 ">
-                    {{--<form class="" id="subscribe" role="form" method="POST">--}}
+                    <form class="" id="subscribe" role="form" method="POST">
                         {{csrf_field()}}
-                    <h1 class="f-s-26 f-c-d-greay f-w-8 h-l-"><span class="f-c-red">S</span>ubscribe</h1>
-                    <p class="f-s-14 f-c-l-gray">Join Our Mailing List <br>
-                        The First Worldwide Indian Shop & Ship Community - Get Instant Updates, Offers & News.</p>
-                    {{--<h4 class="f-s-14 f-c-d-greay f-w-8 m-t-5">Email Address</h4>--}}
-                    {{--<input type="email" name="mailtrain_email" class="txt-shadow-br txt-l-br  txt-f-w txt-pad txt-s-14"--}}
-                           {{--placeholder="Enter your Email id " required>--}}
-                    <br>
-                    <center>
-                        <a href="https://mailtrain.shoppre.com/subscription/BzxpUg8sw" target="_blank" title="Click Here to Subscribe" class="btn-s-r btn-b-r btn "><span style="font-size: 15px">✉</span> Subscribe to Our Community
-                            for Free</a>
-                        <p class="f-s-12 f-c-l-gray">We care about our users privacy & their data</p>
-                    </center>
-
-                    {{--</form>--}}
+                        <h1 class="f-s-26 f-c-d-greay f-w-8 h-l-"><span class="f-c-red">S</span>ubscribe</h1>
+                        <p class="f-s-14 f-c-l-gray">Join our Mailing List <br>
+                            The First Worldwide Indian Shop & Ship Community - Get Instant Updates, Offers & News</p>
+                        <h4 class="f-s-14 f-c-d-greay f-w-8 m-t-5">Email Address</h4>
+                        <input type="email" name="mailtrain_email" class="txt-shadow-br txt-l-br  txt-f-w txt-pad txt-s-14"
+                               placeholder="Enter your Email id " required>
+                        <center>
+                            {{--<a href="" class="btn btn-s-r btn-b-r btn-a-l m-t-20">Subscribe</a>--}}
+                            <button type="submit" class="btn btn-s-r btn-b-r m-t-10 ">Subscribe for Free</button>
+                        </center>
+                    </form>
                 </div>
             </div>
         </div>

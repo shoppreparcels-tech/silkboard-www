@@ -22,6 +22,7 @@
     "https://www.facebook.com/goshoppre",
     "https://twitter.com/Go_Shoppre",
     "https://www.instagram.com/shoppre_official",
+    "https://g.page/InternationalCourier",
     "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
     "https://www.linkedin.com/company/shoppre.com",
     "https://in.pinterest.com/shoppre"
