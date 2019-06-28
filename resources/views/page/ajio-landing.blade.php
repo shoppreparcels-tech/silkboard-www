@@ -73,7 +73,7 @@
                 {{--</div>--}}
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://www.ajio.com/" title="Amazon.in" target="_blank">AJIO.com 👉Epic Sale 21st - 27th June | Shop & Ship with us Worldwide, Get ₹200 cashback on shipping.</a>
+                        <a href="https://www.ajio.com/" title="Amazon.in" target="_blank">AJIO.com 👉Big Bag Days 28th - 30th June | Shop & Ship with us Worldwide, Get ₹200 instant discount on shipping.</a>
                     </marquee>
                 </div>
             </div>

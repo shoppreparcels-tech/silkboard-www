@@ -63,13 +63,13 @@
             <div class="row">
                 <div class="MultiCarousel" data-items="1,2,3,4" data-slide="1" id="MultiCarousel" data-interval="1000">
                     <div class="MultiCarousel-inner">
-                        {{--<div class="item">--}}
-                            {{--<div class="pad15">--}}
-                                {{--<a href="https://www.shoppre.com/university-offer" target="_blank">--}}
-                                    {{--<img src="{{asset('img/images/students-shipping-offer.png')}}" class="boxofScroll"/>--}}
-                                {{--</a>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="https://www.shoppre.com/university-offer" target="_blank">
+                                    <img src="{{asset('img/images/students-shipping-offer.png')}}" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
 
                         <div class="item">
                             <div class="pad15">
@@ -173,10 +173,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">asus 6z</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Starting ₹31,999</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Real Leap Days</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">27th - 30th June</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/asus6z-launch-6-89az9-store" target="_blank">
+                                <a href="https://www.flipkart.com/realme-leap-days-82h5-73g1-store" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
                             </div>
@@ -229,11 +229,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Myntra Recommends</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Handpicked Collections</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Season Finale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">28th - 30th June</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com/shop/discover" target="_blank">
+                                <a href="https://www.myntra.com/shop/women" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5997a62748742.png')}}"/>
                                 </a>
                             </div>
@@ -243,8 +243,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">EPIC Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-90% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Bag Days</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>
@@ -256,10 +256,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">home shopping spree</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">23rd - 26th June</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Prime Day</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">15th - 16th July</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.amazon.in/b?ie=UTF8&node=12597663031&pf_rd_p=0cfb3e4e-752c-4e07-9f2b-8d912ee27949&pf_rd_r=9VA7QF3YJZ8RSQ1VHE7V" target="_blank">
+                                <a href="https://www.amazon.in/b/ref=nav_swm_IN-PR-PC-GW-Apr19-SWM-Acq-MultiBen-PD?_encoding=UTF8&node=12497370031" target="_blank">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>

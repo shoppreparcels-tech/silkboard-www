@@ -94,13 +94,13 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="https://www.ajio.com/" title="Amazon.in" target="_blank">1. Ajio.com 👉Epic Sale 21st - 27th June</a> |
-                            {{--<a href="https://www.myntra.com/growth/eors19-homepage/" title="Myntra" target="_blank">2. Myntra.com 👉End of Reason Sale 21st - 24th June</a> |--}}
-                            <a href="https://www.tatacliq.com/lifestyle-offers" title="tatacliq.com" target="_blank">2. Tatacliq.com 👉EOSS 18th June - 14th July</a>
+                            <a href="https://www.ajio.com/" title="Ajio" target="_blank">1. Ajio.com 👉Big Bag Days 28th - 30th June</a> |
+                            <a href="https://wp.me/paL28F-1Ak" title="Flipkart" target="_blank">2. Flipkart 👉Flipstart Days Sale 1st - 3rd July</a> |
+                            <a href="https://www.tatacliq.com/lifestyle-offers" title="tatacliq.com" target="_blank">3. Tatacliq.com 👉EOSS 18th June - 14th July</a>
                         </marquee>
                     </div>
                     <center>
-                        <h1 class="f-s-20 font-weight-900 f-c-d-greay">Ship What You Love from India & Shop With Your <a href="/indian-virtual-address">
+                        <h1 class="f-s-20 font-weight-900 f-c-d-greay">Ship What You Love from India & Shop With Your <a href="/indian-virtual-address" target="_blank">
                                 Free ShoppRe Indian Virtual Address‎</a></h1>
                     </center>
                 </div>

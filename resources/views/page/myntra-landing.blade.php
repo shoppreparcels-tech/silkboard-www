@@ -108,9 +108,9 @@
             <div class="row text-center">
                 <div class="col-sm-4">
                     <a href="https://www.myntra.com/shop/women" target="_blank"><div class="shopandship ">
-                            <h2>Women Shopping</h2>
+                            <h2>Best Of Women's Wear</h2>
                             <br/>
-                            <p>Get Min. 50% Off</p>
+                            <p>40-70% Off</p>
                             <p>Choose From 2.3 Lakhs+ Styles</p>
                             <p>Explore Now</p>
                         </div></a>

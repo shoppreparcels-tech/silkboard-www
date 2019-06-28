@@ -65,25 +65,24 @@
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/grand-gadget-days-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://wp.me/paL28F-1Ak" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-
-                                <h2>The Grand Gadgets Days</h2>
+                                <h2>Flipstart Days</h2>
                                 <br>
-                                <p>50-80% Off</p>
-                                <p>Fitbits, Mobile phone & more</p>
-                                <p>26th - 28th June, 2019</p>
+                                <p>40-80% Off</p>
+                                <p>Fashion, Beauty & more</p>
+                                <p>1st - 3rd July, 2019</p>
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/mobiles-bonanza-june-19-jdr0d-09fp-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/realme-leap-days-82h5-73g1-store" title="Click Here to Shop" target="_blank">
                     <div class="ps">
-                        <h2>Mobiles Bonanza</h2>
+                        <h2>Big Leap Days</h2>
                         <br>
-                        <p>Honor 20i, Realme 3 Pro & more</p>
-                        <p>Best Cricket Experience</p>
-                        <p>17th - 21st June, 2019</p>
+                        <p>Realme</p>
+                        <p>Starting from ₹5,999</p>
+                        <p>27th - 30th June, 2019</p>
                     </div>
                     </a>
                 </div>

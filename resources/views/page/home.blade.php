@@ -476,11 +476,11 @@
 
                     </div>
                     {{--<div>--}}
-                    {{--<marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
+                    <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                     {{--<span class="f-s-16 f-c-red f-w-9"><a href="https://www.flipkart.com/fashion-ffd-june-2019-store" target="_blank">Shop from Flipkart.com "Fashion Days" Sale</a> & Get ₹200 cashback on your Shipment.</span><br>--}}
-                    {{--<a href="https://ship.shoppre.com/month-end-exclusive-shipping-offer/" title="Month End Offer" target="_blank" class="f-s-16 f-c-red f-w-9">Month End Cashback On International Shipping ---}}
-                    {{--Use Code: MEND20, valid up to 30th June 2019.</a>--}}
-                    {{--</marquee>--}}
+                    <a href="https://ship.shoppre.com/month-end-exclusive-shipping-offer/" title="Month End Offer" target="_blank" class="f-s-16 f-c-red f-w-9">Month End Cashback On International Shipping 👉
+                    Use Code: MEND20, valid up to 30th June 2019.</a>
+                    </marquee>
                     {{--</div>--}}
                     {{--<span class="f-s-16 f-c-red f-w-9">"Wardrobe Refresh Sale" Biggest Fashion Sale Ever from Amazon.in & Get ₹200 cashback on your amazon.in shipment</span><br>--}}
                     {{--< style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
@@ -601,10 +601,10 @@
                         <a href="https://www.ajio.com" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">AJIO Epic Sale</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Big Bag Days</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">21st - 27th June</span> | 50-90% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">28th - 30th June</span> | 40-80% Off</p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Ajio.com</p>
                             <br>
@@ -622,10 +622,10 @@
                         <a href="https://www.myntra.com/shop/women" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Women Shopping</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">Best Of Women's Wear</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Get Min. 50% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">28th - 30th June</span> | 40-70% Off</p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Myntra.com</p>
                             <br>
