@@ -55,7 +55,7 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - JUNE 2019 Sales</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - JULY 2019 Sales</h2>
                 </div>
             {{--<div style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
                 {{--<a href="https://www.flipkart.com/flipstart-days-store" title="flipkart.com" target="_blank">Flipstart Days 1st - 3rd June.</a>--}}
@@ -76,23 +76,23 @@
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/realme-leap-days-82h5-73g1-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/mobiles/~pixel-3a-series/pr?sid=tyy%2C4io&otracker=hp_bannerads_4_1.bannerAdCard.BANNERADS_Google_ZIENC13V9HAR" title="Click Here to Shop" target="_blank">
                     <div class="ps">
-                        <h2>Big Leap Days</h2>
+                        <h2>Google Pixel 3a</h2>
                         <br>
                         <p>Realme</p>
-                        <p>Starting from ₹5,999</p>
-                        <p>27th - 30th June, 2019</p>
+                        <p>4 GB RAM | 64 GB ROM</p>
+                        <p>Starting from ₹39,999</p>
                     </div>
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/women/kurtas-kurtis/pr?sid=2oq%2Cc1r%2C3pj%2Cua6&p%5B%5D=facets.price_range.from%3D399&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.brand%255B%255D%3DAnmi&nnc=BRYAKQ8T6D7Q&otracker=bp_browse_announcement_2oq%2Cc1r%2C3pj" target="_blank"><div class="ic">
-                            <h2>Kurtas & Kurtis</h2>
+                    <a href="https://www.flipkart.com/sarees/divastri~brand/pr?otracker=categorytree&p%5B%5D=facets.brand%255B%255D%3DDivastri&sid=2oq%2Fc1r%2F3pj%2F7od&nnc=CLRHF1NF70&otracker=bp_browse_announcement_2oq%2Cc1r%2C3pj%2C7od" target="_blank"><div class="ic">
+                            <h2>Divastri Sarees</h2>
                             <br>
-                            <p>Anmi Women Kurtas</p>
-                            <p>Sizes M, L, XL, XXL</p>
-                            <p>Starting ₹399 </p>
+                            <p>Women Ethnic Wear</p>
+                            <p>Starting ₹399</p>
+                            <p>Explore Now</p>
                         </div></a>
                 </div>
             </div>

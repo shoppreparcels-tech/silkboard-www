@@ -73,7 +73,7 @@
                 {{--</div>--}}
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://www.ajio.com/" title="Amazon.in" target="_blank">AJIO.com 👉Big Bag Days 28th - 30th June | Shop & Ship with us Worldwide, Get ₹200 instant discount on shipping.</a>
+                        <a href="https://clnk.in/i19o" title="AJIO" target="_blank">AJIO.com 👉PAYDAY SALE 1st - 31st July | Shop & Ship with us Worldwide, Get ₹200 instant discount on shipping.</a>
                     </marquee>
                 </div>
             </div>

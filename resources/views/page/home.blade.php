@@ -476,11 +476,11 @@
 
                     </div>
                     {{--<div>--}}
-                    <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                    {{--<marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
                     {{--<span class="f-s-16 f-c-red f-w-9"><a href="https://www.flipkart.com/fashion-ffd-june-2019-store" target="_blank">Shop from Flipkart.com "Fashion Days" Sale</a> & Get ₹200 cashback on your Shipment.</span><br>--}}
-                    <a href="https://ship.shoppre.com/month-end-exclusive-shipping-offer/" title="Month End Offer" target="_blank" class="f-s-16 f-c-red f-w-9">Month End Cashback On International Shipping 👉
-                    Use Code: MEND20, valid up to 30th June 2019.</a>
-                    </marquee>
+                    {{--<a href="https://ship.shoppre.com/month-end-exclusive-shipping-offer/" title="Month End Offer" target="_blank" class="f-s-16 f-c-red f-w-9">Month End Cashback On International Shipping 👉--}}
+                    {{--Use Code: MEND20, valid up to 30th June 2019.</a>--}}
+                    {{--</marquee>--}}
                     {{--</div>--}}
                     {{--<span class="f-s-16 f-c-red f-w-9">"Wardrobe Refresh Sale" Biggest Fashion Sale Ever from Amazon.in & Get ₹200 cashback on your amazon.in shipment</span><br>--}}
                     {{--< style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
@@ -556,17 +556,17 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.tatacliq.com/lifestyle-offers" title="Click to Know More" target="_blank">
+                        <a href="https://ship.shoppre.com/refer-and-earn-with-us/" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">CLIQ FASHION</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">REFER A FRIEND</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">18th June - 14th July</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">1st July - 31st July</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Tatacliq.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Bring Your Buddy Onboard</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Men's Apparel, Women's Footwear, Formal Watches & more. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Refer it to everyone you know & earn money on every successful referral. </p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -577,17 +577,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.amazon.in/b/?ie=UTF8&node=6648217031&ref_=topnav_storetab_top_ap_mega" title="Click to Know Highlights" target="_blank">
+                        <a href="https://clnk.in/i19e" title="Click to Know Highlights" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">End Of Season Sale</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">CLIQ FASHION</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Upto 70% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">18th June - 14th July</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Amazon.in</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Tatacliq.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Amazon Fashion. Top Brands. Latest Styles. Offers on 4 Lakh+ Styles & more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Men's Apparel, Women's Footwear, Formal Watches & more.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -598,17 +598,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.ajio.com" title="Know More" target="_blank">
+                        <a href="https://clnk.in/i19g" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Big Bag Days</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">FLIPSTART DAYS</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">28th - 30th June</span> | 40-80% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">1st - 3rd July</span> | 40-80% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Ajio.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Snapdeal.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Tops & Dresses, Fusion Wear, Heels & Flats, Fashion Jewellery, Bags & Sarees</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Top deals on Fashion, Beauty, Baby Care, Home and Furniture & more. </p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -619,13 +619,13 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.myntra.com/shop/women" title="Click for Offer Details" target="_blank">
+                        <a href="https://clnk.in/i19c" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">Best Of Women's Wear</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">ETHNIC FOR EVERY MOOD</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">28th - 30th June</span> | 40-70% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">40-70% Off</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Myntra.com</p>
                             <br>

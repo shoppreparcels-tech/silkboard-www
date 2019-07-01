@@ -31,7 +31,7 @@ class EmailSubscriber extends Mailable
     public function build()
     {
         $from_mail = 'info@alert.shoppre.com';
-        $from_name = 'Shoppre';
+        $from_name = 'ShoppRe';
         $subject = 'Thank you for Subscribing!';
 
         return $this->view('email.subscribe')

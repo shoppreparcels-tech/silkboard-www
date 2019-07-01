@@ -78,24 +78,10 @@
                                 </a>
                             </div>
                         </div>
-                        {{--<div class="item">--}}
+                                           {{--<div class="item">--}}
                             {{--<div class="pad15">--}}
-                                {{--<a href="https://ship.shoppre.com/offers/ramadan/" target="_blank">--}}
-                                    {{--<img src="{{asset('img/images/ramadan-cashback-shipping-india.png')}}" class="boxofScroll"/>--}}
-                                {{--</a>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="https://ship.shoppre.com/month-end-exclusive-shipping-offer/" target="_blank">
-                                    <img src="{{asset('img/images/month-end-shipping-offer-india.png')}}" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
-                        {{--<div class="item">--}}
-                            {{--<div class="pad15">--}}
-                                {{--<a href="https://www.amazon.in/b?node=6648217031&pf_rd_p=f3b26b83-0a05-4b47-b7fd-09d8cb3d946e&pf_rd_r=H6SQ3E7F56BY4Q8Z0G16" target="_blank">--}}
-                                    {{--<img src="{{asset('img/images/amazon-summer-sale-2019.png')}}" class="boxofScroll"/>--}}
+                                {{--<a href="https://ship.shoppre.com/month-end-exclusive-shipping-offer/" target="_blank">--}}
+                                    {{--<img src="{{asset('img/images/month-end-shipping-offer-india.png')}}" class="boxofScroll"/>--}}
                                 {{--</a>--}}
                             {{--</div>--}}
                         {{--</div>--}}
@@ -160,7 +146,7 @@
         </div>
         <div class="container">
             <br/>
-            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (June-2019 Sale):</h3>
+            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (July-2019 Sale):</h3>
             {{--<div>--}}
 
                 {{--<marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
@@ -173,10 +159,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Real Leap Days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">27th - 30th June</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Flipstart Days</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/realme-leap-days-82h5-73g1-store" target="_blank">
+                                <a href="https://www.flipkart.com/flipstart-days-july-store" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
                             </div>
@@ -186,8 +172,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Flat 400 Store</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">15k Products on Sale</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Pride Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Min. 50% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="https://www.limeroad.com/shopping-offers/?src=shoppre" target="_blank">
@@ -229,8 +215,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Season Finale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">28th - 30th June</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">ETHNIC FOR EVERY MOOD</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="https://www.myntra.com/shop/women" target="_blank">
@@ -243,7 +229,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Bag Days</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Payday Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
@@ -269,10 +255,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Republic of Denim</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">The Real Deals</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.jabong.com/sis/republic-of-denim-women" target="_blank">
+                                <a href="https://www.jabong.com" target="_blank">
                                     <img src="https://www.shoppre.com/uploads/stores/logo_599691d00e27e.png"/>
                                 </a>
                             </div>
