@@ -1631,7 +1631,7 @@
     {{--queryParams += '&length=' + length + '&width=' + width + '&height=' + height;--}}
     {{--queryParams += '&scale=' + '' + '&unit=' + unit;--}}
     {{--jQuery.ajax({--}}
-    {{--url: 'https://ship-api.shoppre.com/api/pricing?' + queryParams,--}}
+    {{--url: 'https://courier.shoppre.com/api/pricing?' + queryParams,--}}
     {{--type: 'get',--}}
     {{--success: function (res) {--}}
 

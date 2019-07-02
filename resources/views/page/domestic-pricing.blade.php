@@ -1209,7 +1209,7 @@
                 $("#shippingCountry").text(country);
                 $.ajax({
                     type: 'get',
-                    url: 'https://staging-ship-api.shoppre.com/api/pricing/slab?all=true&country='+ country +'&rateType=slab&type=nondoc&weight=1',
+                    url: 'https://courier.shoppre.com/api/pricing/slab?all=true&country='+ country +'&rateType=slab&type=nondoc&weight=1',
                     success: function ({prices, pricesDoc}) {
                         console.log(pricesDoc);
                         var html=' <thead>\n' +
@@ -1278,7 +1278,7 @@
                         var height = $("input[name='height']").val();
                         console.log('country ' + country + '\n weight ' + weight + '\n weight_unit ' + weight_unit + '\n type ' + package_type + ' \n measurement_unit ' + measurement_unit + '\n length ' + length + '\n width ' + width + '\n height ' + height);
                         jQuery.ajax({
-                            url: 'https://ship-api.shoppre.com/api/pricing?all=true&country=' + country + '&type=' + package_type + '&weight=' + weight,
+                            url: 'https://courier.shoppre.com/api/pricing?all=true&country=' + country + '&type=' + package_type + '&weight=' + weight,
                             type: 'get',
                             success: function ({prices}) {
                                 console.log(prices[0].customerRate);

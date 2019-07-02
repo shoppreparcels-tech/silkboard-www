@@ -1305,7 +1305,7 @@
                 $("#shippingCountry").text(country);
                 $.ajax({
                     type: 'get',
-                    url: 'https://ship-api.shoppre.com/api/pricing/slab?all=true&country='+ country +'&rateType=slab&type=nondoc&weight=1',
+                    url: 'https://courier.shoppre.com/api/pricing/slab?all=true&country='+ country +'&rateType=slab&type=nondoc&weight=1',
                     success: function ({prices, pricesDoc}) {
                         // console.log(pricesDoc);
                         var html=' <thead>\n' +
@@ -1379,7 +1379,7 @@
                         queryParams += '&length=' + length + '&width=' + width + '&height=' + height;
                         queryParams += '&scale=' + measurement_unit + '&unit=' + weight_unit;
                         jQuery.ajax({
-                            url: 'https://ship-api.shoppre.com/api/pricing?' + queryParams,
+                            url: 'https://courier.shoppre.com/api/pricing?' + queryParams,
                             type: 'get',
                             success: function ({prices}) {
                                 console.log(prices[0].customerRate);
