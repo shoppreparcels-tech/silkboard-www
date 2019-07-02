@@ -315,6 +315,7 @@ class RegisterController extends Controller
             'utm_medium' => $user->utm_medium,
             'gcl_id' => $user->gcl_id,
             'virtual_address_code' => $user->locker,
+            'password' => $user->password,
             'hooks' => false
         ];
         $url = env('MIGRATION_PREFIX') ."login.".env('DOMAIN')."/api/users/register";

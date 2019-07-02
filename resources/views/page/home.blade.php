@@ -418,7 +418,7 @@
             <div class="col-md-12 col-xs-12 pad-t-20">
                 <div class="col-md-6 col-xs-12 no-pad">
                     <div class="col-md-12 col-xs-12 no-pad">
-                        <div class="col-md-2 col-xs-12 pad-t-20">
+                        <div class="col-md-2 col-xs-2 pad-t-20">
                             <center>
                                 <a class="bla-1"
                                    href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank">
@@ -427,7 +427,7 @@
                                 </a>
                             </center>
                         </div>
-                        <div class="col-md-10 col-xs-12 pad-0-15">
+                        <div class="col-md-10 col-xs-10 pad-0-15">
                             <h1 class="f-s-36 f-c-white f-w-8 ">
                                 International Shipping from India starting at just <span
                                         class="p-color-red">*₹566</span>!
@@ -515,7 +515,7 @@
                         <form class="register-form h-sign-up" id="form_register" role="form" method="POST"
                               action="{{ route('customer.register.submit') }}">
                             {{ csrf_field() }}
-                            <div class="col-md-6 col-xs-12 pad-20">
+                            <div class="col-md-6 col-xs-6 pad-20">
                                 <input id="firstname" name="firstname" type="input" class="txt-l-br txt-f-w txt-b-r txt-pad m-t-10 f-s-16" autocomplete="off"
                                        placeholder=" Enter your Name" required>
                                 <input name="email" type="email" class="txt-f-w txt-b-r txt-l-br txt-pad m-t-10 f-s-16"
@@ -526,12 +526,13 @@
                                 {{--<a href="" class="btn btn-s-r btn-b-r btn-a-l m-t-20">Sign up for Free</a>--}}
                                 <button type="submit" class="btn btn-s-r btn-b-r btn-l m-t-20">Sign Up Free</button>
                                 <p class="f-s-14 f-c-blue m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
-                                    Blog: <a class="f-c-blue" style="text-decoration: underline" href="https://wp.me/paL28F-1I1" target="_blank">5 Hollywood Best Selling Blu-Ray DVDs</a> </p>
+                                    Blog: <a class="f-c-blue" style="text-decoration: underline" href="https://ship.shoppre.com/nris-shopping-guide-indian-wear-shop-and-how-to-ship-internationally/" target="_blank">NRI’s Shopping Guide To Indian Wear</a> </p>
                             </div>
-                            <div class="col-md-6 col-xs-12 no-pad ">
+                            <div class="col-md-6 col-xs-6 no-pad ">
                                 <center>
-                                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/priyamani-shipping-img.png"
-                                         class="img-responsive " alt="priyamani shoppre">
+                                    {{--<img src="https://www.shoppre.com/img/images/priyamani-new.png" width="290" height="293"--}}
+                                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/priyamani-new.png" width="290" height="293"
+                                         class="img-responsive" alt="priyamani shoppre">
                                 </center>
                             </div>
                         </form>
@@ -557,7 +558,7 @@
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
                         <a href="https://ship.shoppre.com/refer-and-earn-with-us/" title="Click to Know More" target="_blank">
-                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
+                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
                             <div class="h-div"><h4 class="f-s-20 f-c-white">REFER A FRIEND</h4></div>
                         </div>
@@ -576,9 +577,9 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
+                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
                         <a href="https://clnk.in/i19e" title="Click to Know Highlights" target="_blank">
-                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
+                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
                             <div class="h-div"><h4 class="f-s-20 f-c-white">CLIQ FASHION</h4></div>
                         </div>
@@ -597,16 +598,16 @@
                     </div>
                         </a>
                     </div>
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
+                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
                         <a href="https://clnk.in/i19g" title="Know More" target="_blank">
-                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
+                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
                             <div class="h-div"><h4 class="f-s-20 f-c-white">FLIPSTART DAYS</h4></div>
                         </div>
                         <div class="des-div"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">1st - 3rd July</span> | 40-80% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Snapdeal.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Flipkart.com</p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Top deals on Fashion, Beauty, Baby Care, Home and Furniture & more. </p>
                         </div>
@@ -620,7 +621,7 @@
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
                         <a href="https://clnk.in/i19c" title="Click for Offer Details" target="_blank">
-                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
+                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;">
                         <div class="pad-5 bgr-c-gl">
                             <div class="h-div"><h4 class="f-s-20 f-c-white">ETHNIC FOR EVERY MOOD</h4></div>
                         </div>
@@ -1047,7 +1048,7 @@
             </div>
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
+                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
                         <a href="https://ship.shoppre.com/online-shop-india/buy-nike-zoom-structure-21-grey-running-shoes-snapdeal-india-ship-to-siddamulla-pannipitiya-sri-lanka/" title="Click to Know More" target="_blank">
                             <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
                                 <div class="pad-5 bgr-c-gl">
@@ -1423,7 +1424,7 @@
                     to Worldwide</h1>
                 <br>
                 <a href="{{route('customer.register')}}" target="_blank" class="btn-s-r btn-b-r btn ">Sign up for
-                    Free</a>
+                    FREE</a>
                 <br><br><br>
             </center>
         </div>

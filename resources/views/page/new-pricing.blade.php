@@ -455,7 +455,7 @@
                 <br>
                 <div class="col-md-12 col-xs-12 no-pad">
                     {{--<a href="{{route('domesticPricing')}}" class="btn btn-f-w btn-b-b btn-s-b btn-a-l">Domestic Shipping Rates</a><br>--}}
-                    <a href="/sellers-shipping" class="btn btn-f-w btn-b-b btn-s-b btn-a-l">Seller Shipping Rates</a><br>
+                    <a href="/seller-partner" class="btn btn-f-w btn-b-b btn-s-b btn-a-l">Seller Shipping Rates</a><br>
                 </div>
 
                 <div class="col-md-12 col-xs-12 no-pad"><br>
