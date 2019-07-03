@@ -51,6 +51,11 @@
         @media only screen and (max-width: 600px) {
             .bg-ics-l-p{height: 680px}
         }
+        @media  only screen and (max-width: 600px) {
+            table th, td h1{font-weight: 700;font-size: 15px;}
+            table th, td span{font-weight: 600; font-size: 10px}
+            table th, td p{font-weight: 600; font-size: 10px}
+        }
     </style>
 
 @endsection
@@ -86,7 +91,7 @@
                     <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Shipping Calculator</a>
                     <br>
                     <br>
-                    <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r btn-f-w f-s-14">*50% off on your First International Shipment, Use Code: FRST50</a>
+                    <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r f-s-14">*50% off on your First International Shipment, Use Code: FRST50</a>
                 </div>
 
             </div>
@@ -176,8 +181,74 @@
                     </div>
                 </center>
             </div>
+
+            <div class="col-md-12 col-xs-12 no-pad">
+                <div class="col-md-12 col-xs-12 no-pad">
+                   <center> <h1 class="f-c-d-greay f-s-30 f-w-8">Special International Courier Rates</h1></center>
+                    <table class="table table-bordered txt-a-c">
+                        <tr>
+                            <td class="btn-b-y tbl-br">
+                                <h5>Pricing</h5>
+                                <p><span>90</span>Kg Above</p>
+                                <p>Including GST & Surcharge</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹440</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>Australia</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹450</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>USA</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹450</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>Canada</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹480</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>UK</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="btn-b-y tbl-br">
+                                <h4>Pricing</h4>
+                                <p><span>25</span>Kg</p>
+                                <p>Excluding GST</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹380</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>Australia</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹450</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>USA</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹270</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>UAE</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹340</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>UK</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
+
     </section>
+
+
+
     <section class="product-courier ">
         <div class="container no-padding div-ics-border-btm">
             <center>
@@ -200,11 +271,10 @@
                 </div>
                 <br>
                 <div class=" col-md-12 col-xs-12 div-ics-prodcts">
-                    <div class="col-md-6 col-xs-6 no-padding">
+                    <div class="col-md-6 col-xs-6 no-padding" >
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Medicine</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="" >Medicine</li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Documents</li>
-                            {{--<li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg')}}" alt=""> Personal goods</li>--}}
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Sports Equipment</li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Homemade foods</li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Artwork</li>
@@ -218,7 +288,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Handicraft </li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Mobile/Cell Phones</li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Religious Items</li>
-                            <li>& Many More Products</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">& Many More Products</li>
                         </ul>
                     </div>
                 </div>

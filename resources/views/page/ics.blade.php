@@ -20,6 +20,12 @@
             .div-padding-bottom .btn-a{margin-left: 0px}
         }
 
+        @media  only screen and (max-width: 600px) {
+            table th, td h1{font-weight: 700;font-size: 15px;}
+            table th, td span{font-weight: 600; font-size: 10px}
+            table th, td p{font-weight: 600; font-size: 10px}
+        }
+
     </style>
 
     <script type="application/ld+json">
@@ -101,43 +107,105 @@
     </section>
 
     <section class="seo-sec">
-        <div class="container div-process">
-            <div class="container">
-                <div class="col-md-12 col-xs-12 pad-t-20">
-                    <center>
-                        <div class="col-md-4 col-xs-12 pad-20 ">
-                            <a href="/international-courier-charges-india-to-usa-per-kg">Courier Rates from India to USA per kg</a>
-                        </div>
-                        <div class="col-md-4 col-xs-12 pad-20">
-                            <a href="/international-courier-charges-india-to-uae-per-kg">Courier Charges starts from ₹566 UAE</a>
-                        </div>
-                        <div class="col-md-4 col-xs-12  pad-20">
-                            <a href="/international-courier-charges-india-to-canada-per-kg">Courier charges from India to Canada</a>
-                        </div>
-                    </center>
+
+        <div class="container">
+            <div class="container div-process">
+                <div class="container">
+                    <div class="col-md-12 col-xs-12 pad-t-20">
+                        <center>
+                            <div class="col-md-4 col-xs-12 pad-20 ">
+                                <a href="/international-courier-charges-india-to-usa-per-kg">Courier Rates from India to USA per kg</a>
+                            </div>
+                            <div class="col-md-4 col-xs-12 pad-20">
+                                <a href="/international-courier-charges-india-to-uae-per-kg">Courier Charges starts from ₹566 UAE</a>
+                            </div>
+                            <div class="col-md-4 col-xs-12  pad-20">
+                                <a href="/international-courier-charges-india-to-canada-per-kg">Courier charges from India to Canada</a>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 no-pad">
+                        <center>
+                            <div class="col-md-4 col-xs-12  pad-20">
+                                <a href="/international-courier-charges-india-to-germany-per-kg">Shipping Rates from india to Germany</a>
+                            </div>
+                            <div class="col-md-4 col-xs-12  pad-20">
+                                <a href="/international-courier-charges-india-to-australia-per-kg">Low Cost Courier Per Kg to Australia</a>
+                            </div>
+                            <div class="col-md-4 col-xs-12 pad-20">
+                                <a href="/international-courier-charges-india-to-singapore-per-kg">Cheapest rates from India to Singapore</a>
+                            </div>
+                        </center>
+                    </div>
                 </div>
 
+            <div class="col-md-12 col-xs-12 no-pad">
                 <div class="col-md-12 col-xs-12 no-pad">
-                    <center>
-                        <div class="col-md-4 col-xs-12  pad-20">
-                            <a href="/international-courier-charges-india-to-germany-per-kg">Shipping Rates from india to Germany</a>
-                        </div>
-                        <div class="col-md-4 col-xs-12  pad-20">
-                            <a href="/international-courier-charges-india-to-australia-per-kg">Low Cost Courier Per Kg to Australia</a>
-                        </div>
-                        <div class="col-md-4 col-xs-12 pad-20">
-                            <a href="/international-courier-charges-india-to-singapore-per-kg">Cheapest rates from India to Singapore</a>
-                        </div>
-                    </center>
+                    <center> <h1 class="f-c-d-greay f-s-30 f-w-8">Special International Courier Rates</h1></center>
+                    <table class="table table-bordered txt-a-c">
+                        <tr>
+                            <td class="btn-b-y tbl-br">
+                                <h4>Pricing</h4>
+                                <p><span>90</span>Kg Above</p>
+                                <p>Including GST & Surcharge</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹440</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>Australia</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹450</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>USA</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹450</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>Canada</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹480</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>UK</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="btn-b-y tbl-br">
+                                <h4>Pricing</h4>
+                                <p><span>25</span>Kg</p>
+                                <p>Excluding GST</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹380</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>Australia</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹450</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>USA</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹270</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>UAE</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹340</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>UK</p>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
-            <center>
+
+            <center style="margin-top: 50px;">
                 <h1 class="header1  p-color-cement-dark">How Does Our Courier Work?</h1>
                 <p class="header2 p-color-cement">Schedule a Pickup from ANY part of India; we’ll come to your doorsteps,<br> get your package & ship it off to the destination in 24 hours.</p>
             </center>
-        </div>
-
-        <div class="container">
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                 <div class="col-md-4 col-lg-4 col-sm-6 col-sm-6 box" id="ics-box1">
                     <div class="box-steps" id="steps">
@@ -277,7 +345,6 @@
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Medicine</li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Documents</li>
-                            {{--<li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg')}}" alt=""> Personal goods</li>--}}
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Sports Equipment</li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Homemade foods</li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Artwork</li>
@@ -297,6 +364,7 @@
                 </div>
 
             </div>
+
         </div>
         <div class="container div-ics-border-btm ">
             <div class="container">

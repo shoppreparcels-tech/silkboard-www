@@ -421,8 +421,8 @@
                         <div class="col-md-2 col-xs-2 pad-t-20">
                             <center>
                                 <a class="bla-1"
-                                   href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank">
-                                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/shoppre-youtube-shipping.png" class="vid-s-img"
+                                   href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank" title="Click to Play Video">
+                                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/priya-shoppre-youtube.png" class="vid-s-img"
                                          alt="shoppre">
                                 </a>
                             </center>
@@ -556,7 +556,7 @@
             </div>
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
+                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
                         <a href="https://ship.shoppre.com/refer-and-earn-with-us/" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
@@ -621,16 +621,16 @@
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
                         <a href="https://clnk.in/i19c" title="Click for Offer Details" target="_blank">
-                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;">
-                        <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">ETHNIC FOR EVERY MOOD</h4></div>
+                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
+                        <div class="pad-5 bgr-c-br">
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">PERSONAL CARE</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">40-70% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Upto 20% Off</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Myntra.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Choose From 2.3 Lakhs+ Styles. Apparel, Accessories, Heels & more!</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Women Personal Care Products Hair Dryer, Hair Straightener, & more!</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -977,7 +977,7 @@
                     <div class="row">
                         <div class="col-md-12 " style=" margin: 16px 0 16px -13px;">
                             <a href="{{route('reviews')}}"><span
-                                        class="header6 p-color-red" id="readmore" style="font-weight: 600;"> Read more reviews </span></a>
+                                        class="header6 p-color-red" id="readmore" style="font-weight: 600;"> Read more Reviews </span></a>
                         </div>
                     </div>
                 </div>
@@ -1021,11 +1021,11 @@
     <section style="background-color: #FFFBBE;">
         <div class="container-fluid" style="padding-left: 12%;padding-right: 18%;">
             <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">
-                <p class="header1 p-color-black p-h-margin-customer"><font color="red">E</font>arn with us</p>
+                <p class="header1 p-color-black p-h-margin-customer"><font color="red">R</font>efer & Earn</p>
                 <br>
-                <h4>Get an instant reward of 7 dollars in your ShoppRe Wallet just by referring the referral code to a
+                <h4 >Get an instant reward of ₹500 in your ShoppRe Wallet just by referring the referral code to a
                     friend.</h4>
-                <h4>Referral gets 7 dollars credited to their ShoppRe Wallet post the shipment done by the Referee.</h4>
+                <h4>Referral gets ₹500 credited to their ShoppRe Wallet post the shipment done by the Referee.</h4>
                 <br>
                 <a href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank" class="btn-s-r btn-b-r btn ">Join Our Referral Network</a>
                 <br>
@@ -1036,106 +1036,6 @@
             </div>
         </div>
     </section>
-
-    <section>
-        <div class="container-fluid fuid-padding pad-t`-40"><br><br>
-            <div class="col-md-2 col-xs-12 pad-l-d">
-                <center>
-                    <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">ShoppRe <br>
-                        <span class="f-s-45 f-w-8 f-c-green "> Live</span></h1>
-                    <h4 class="f-s-18 f-c-l-gray txt-a-l">Recent Parcel <br>Delivery Update</h4>
-                </center>
-            </div>
-            <div class="col-md-10 col-xs-12 pad-b-30">
-                <div class="slider" id="shippingCard">
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-nike-zoom-structure-21-grey-running-shoes-snapdeal-india-ship-to-siddamulla-pannipitiya-sri-lanka/" title="Click to Know More" target="_blank">
-                            <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
-                                <div class="pad-5 bgr-c-gl">
-                                    <div class="h-div"><h4 class="f-s-20 f-c-white">Running Shoes</h4></div>
-                                </div>
-                                <div class="des-div"><br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">Nike ZOOM STRUCTURE 21 Grey Running Shoes from <span class="f-s-16 f-c-red f-w-9">Snapdeal.com</span></p>
-                                    <br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">Product Cost ₹3348 | Cost of Shipping ₹1916 & Delivered 7 working days. </p>
-                                </div>
-                                <div>
-                                    <h2 class="f-s-16 f-c-d-greay">
-                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Siddhamulla, Piliyandala, Sri Lanka</span>
-                                    </h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-meraki-essentials-health-hair-essential-oil-set-online-nykaa-shipping-colorado/" title="Click to Know Highlights" target="_blank">
-                            <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
-                                <div class="pad-5 bgr-c-bl">
-                                    <div class="h-div"><h4 class="f-s-20 f-c-white">Beauty & Personal Care</h4></div>
-                                </div>
-                                <div class="des-div"><br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">Meraki Essentials Health Hair Essential Oil Set from <span class="f-s-16 f-c-red f-w-9">Nykaa.com</span> </p>
-                                    <br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">Buy online at low-prices, & get delivered to you within 3 working days. </p>
-                                </div>
-                                <div>
-                                    <h2 class="f-s-16 f-c-d-greay">
-                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Littleton, Colorado, United States</span>
-                                    </h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-jabong-pinwheel-grey-striped-a-line-dress-ship-low-cost-bethesda-maryland-united-states/"
-                           title="Know Additional Information" target="_blank">
-                            <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
-                                <div class="pad-5 bgr-c-gr">
-                                    <div class="h-div"><h4 class="f-s-20 f-c-white">Women's Clothing</h4></div>
-                                </div>
-                                <div class="des-div"><br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">Pinwheel Grey Striped A-Line Dress from <span class="f-s-16 f-c-red f-w-9">Jabong.com</span></p>
-                                    <br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">Shipped with other 8 products of Kurtas, total shipping charges of ₹2961/- </p>
-                                </div>
-                                <div>
-                                    <h2 class="f-s-16 f-c-d-greay">
-                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Bethesda, Maryland, United States</span>
-                                    </h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://ship.shoppre.com/online-shop-india/buy-online-flipkart-sonilex-sl-bt12-extra-bass-sports-ear-headphones-neckband-design-bluetooth-headset-mic-ship-to-1f-cantonment-rd-singapore-085601/"
-                           title="Click for Product Details" target="_blank">
-                            <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px">
-                                <div class="pad-5 bgr-c-gl">
-                                    <div class="h-div"><h4 class="f-s-20 f-c-white">Headphones</h4></div>
-                                </div>
-                                <div class="des-div"><br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">Sonilex SL-BT12 Extra Bass Sports In ear Headphones from <span class="f-s-16 f-c-red f-w-9">Flipkart.com</span></p>
-                                    <br>
-                                    <p class="f-s-16 f-c-l-gray f-w-7">Shipped Sonilex Headphones Bluetooth Headset with Mic | ₹967/- </p>
-                                </div>
-                                <div>
-                                    <h2 class="f-s-16 f-c-d-greay">
-                                        <img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">1F Cantonment Road, Singapore</span>
-                                    </h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <br>
-
-        </div>
-        </div>
-    </section>
-    <section>
-
-
 
     <section style="padding-bottom: 30px">
         <div class="container" style="margin-top: 60px;padding-bottom: 20px;">
@@ -1458,7 +1358,7 @@
             let html = '';
             let shipmentItem = '';
             let price = '';
-            let color = ['bgr-c-gr', 'bgr-c-bl', 'bgr-c-gl'];
+            let color = ['bgr-c-gr', 'bgr-c-bl', 'bgr-c-br', 'bgr-c-gl'];
             let i = 0;
             let itmes = 0;
             let imgUrl = 'https://cdn.shoppre.com/shoppre/';

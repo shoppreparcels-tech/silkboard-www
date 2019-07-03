@@ -165,7 +165,6 @@
                     <div class="col-md-8 col-xs-12 no-pad">
                         <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r btn-f-w f-s-14">*50% off on your first time Shipment, Use Code: FRST50</a>
                     </div>
-
                 </div>
 
             </div>

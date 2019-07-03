@@ -457,10 +457,10 @@
     <section style="background-color: #FFFBBE;">
         <div class="container-fluid" style="padding-left: 12%;padding-right: 18%;">
             <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">
-                <p class="header1 p-color-black p-h-margin-customer"><font color="red">E</font>arn with US</p>
+                <p class="header1 p-color-black p-h-margin-customer"><font color="red">R</font>efer & Earn</p>
                 <br>
-                <h4>Get an instant reward of 7 dollars in your ShoppRe wallet just by referring the referral code to a friend.</h4>
-                <h4>Referral gets 7 dollars credited to their ShoppRe wallet post the shipment done by the referee.</h4>
+                <h4>Get an instant reward of ₹500 in your ShoppRe wallet just by referring the referral code to a friend.</h4>
+                <h4>Referral gets ₹500 credited to their ShoppRe wallet post the shipment done by the referee.</h4>
                 <br>
                 <a href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank" class="btn-s-r btn-b-r btn ">Join Our Referral Network</a>
                 <br>

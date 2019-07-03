@@ -4551,7 +4551,7 @@ div.ifs-tab div.ifs-tab-content:not(.active) {
 .div-ics-prodcts{box-shadow: 0 0 10px rgba(80, 125, 188, 0.1);border-radius: 10px;background-color: #ffffff;}
 .div-ics-prodcts ul{text-decoration: none; list-style: none; padding-top: 20px}
 .div-ics-prodcts img{width: 30px;height: 40px;}
-.div-ics-prodcts ul li{padding-top:0px;color: #224464;font-family: Montserrat;font-size: 22px;font-weight: 400}
+.div-ics-prodcts ul li{padding-top:0px;color: #224464;font-family: Montserrat;font-size: 17px;font-weight: 600}
 /*!*ICS LANDING PAGE*!*/
 
 /*ifs-landing-page*/
