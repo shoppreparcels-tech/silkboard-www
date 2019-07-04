@@ -65,13 +65,13 @@
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://wp.me/paL28F-1Ak" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/smart-desh-ka-smartphone-8j38-93hd-store" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-                                <h2>Flipstart Days</h2>
+                                <h2>Smart Desh Ka Smartphone</h2>
                                 <br>
-                                <p>40-80% Off</p>
-                                <p>Fashion, Beauty & more</p>
-                                <p>1st - 3rd July, 2019</p>
+                                <p>Xiaomi</p>
+                                <p>Redmi 4A, 5A & 6A</p>
+                                <p>Explore Now</p>
                         </div>
                     </a>
                 </div>

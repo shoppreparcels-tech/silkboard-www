@@ -1423,6 +1423,7 @@
                     var contact_no = $("input[name='MContactNumber']").val();
                     var weight = $("input[name='Mweight']").val();
                     var token = $('input[name=_token]').val();
+                    var mailtrain_type = 'pricing';
 
                     jQuery.ajax({
                         url: 'api-pricing-calculator',
@@ -1434,6 +1435,7 @@
                             email: email,
                             country: country,
                             contact_no: contact_no,
+                            mailtrain_type: mailtrain_type,
 
                         },
                         success: function (data) {

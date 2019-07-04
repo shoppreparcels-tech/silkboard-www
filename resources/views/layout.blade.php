@@ -559,11 +559,13 @@
                 },
             submitHandler: function (form) {
                 var email = $("input[name='mailtrain_email']").val();
+                var mailtrain_type = 'footer';
                 jQuery.ajax({
                     url: '/mailtrain/subscribe',
                     type: "POST",
                     data: {
                         email: email,
+                        mailtrain_type: mailtrain_type,
                     },
                     success: function (data) {
                         $('#myModal').modal('show');

@@ -599,17 +599,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://clnk.in/i19g" title="Know More" target="_blank">
+                        <a href="https://clnk.in/i19o" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">FLIPSTART DAYS</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">AJIO MANIA SALE</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">1st - 3rd July</span> | 40-80% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">4th - 9th July</span> | 50-90% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Flipkart.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Ajio.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Top deals on Fashion, Beauty, Baby Care, Home and Furniture & more. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">1,50,000+ Products From Top Brands. 100% Handpicked & more. </p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -623,14 +623,14 @@
                         <a href="https://clnk.in/i19c" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">PERSONAL CARE</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">SUMMER CLEARANCE SALE</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Upto 20% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">4th - 7th July</span></span> | 40-80% Off</p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Myntra.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Women Personal Care Products Hair Dryer, Hair Straightener, & more!</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Casual Wear, Ethic Wear, Footwear, Watches, Handbags, Jewellery & more!</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}

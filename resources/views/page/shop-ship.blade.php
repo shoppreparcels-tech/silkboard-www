@@ -94,8 +94,8 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="https://clnk.in/i19o" title="Ajio" target="_blank">1. Ajio.com 👉PayDay Sale 1st - 31st July</a> |
-                            <a href="https://wp.me/paL28F-1Ak" title="Flipkart" target="_blank">2. Flipkart 👉Flipstart Days Sale 1st - 3rd July</a> |
+                            <a href="https://clnk.in/i19o" title="Ajio" target="_blank">1. Ajio.com 👉Ajio Mania Sale 4th - 9th July</a> |
+                            <a href="https://clnk.in/i19c" title="Myntra" target="_blank">2. Myntra 👉Summer Clearance Sale 4th - 7th July</a> |
                             <a href="https://clnk.in/i19e" title="tatacliq.com" target="_blank">3. Tatacliq.com 👉EOSS 18th June - 14th July</a>
                         </marquee>
                     </div>

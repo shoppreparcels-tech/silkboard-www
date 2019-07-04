@@ -740,6 +740,12 @@
     </section>
     <div id="schedule_load"></div>
     <section class="seo-sec">
+            <center>
+                <h2 class="f-s-24 f-c-d-gray f-w-8">Contact Information</h2>
+                <h2 class="f-s-18 f-c-d-gray f-w-8">For Pickup Request: <a href="tel:+91-8277919191">+91-8277-919191</a> : 8AM-11PM IST<br><br>
+                    Customer Support: <a href="tel:+91-9148357733">+91-91483-57733</a> : 8AM-11PM IST
+                    <br><br> Complaints: <a href="tel:+91-9880329134 ">+91-98803-29134</a> : 2PM-8PM IST</h2>
+            </center>
         <div class="container">
             <center>
                 <br>

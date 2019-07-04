@@ -230,16 +230,29 @@ class PageController extends Controller
 
     public function createMailTrainSubscriber(Request $req)
     {
-        $data = array(
-            "EMAIL" => $req->email,
-            "REQUIRE_CONFIRMATION" => "no"
-        );
-        $url = 'https://mailtrain.shoppre.com/api/subscribe/BzxpUg8sw?access_token=9f19384da11de72805b86b4640bb64da9efdaff0';
-        $this->curlMailTrain($url, $data);
+        $this->MailTrainSubscriber($req);
         return response()->json([
             'message' => 'Success',
             'description' => 'Subscribed',
         ]);
+    }
+
+    public function MailTrainSubscriber($req) {
+        $data = array(
+            "EMAIL" => $req->email,
+            "REQUIRE_CONFIRMATION" => "no"
+        );
+
+        $id = '';
+
+        switch($req->mailtrain_type) {
+            case 'pricing': $id = 'KmF05zShs';
+            case 'footer' : $id = 'BzxpUg8sw';
+            default: $id= 'BzxpUg8sw';
+        }
+
+        $url = 'https://mailtrain.shoppre.com/api/subscribe/'.$id.'?access_token=9f19384da11de72805b86b4640bb64da9efdaff0';
+        $this->curlMailTrain($url, $data);
     }
 
     public function curlMailTrain($url, $data)
@@ -950,6 +963,7 @@ class PageController extends Controller
         );
         $json_data = json_encode($data);
         mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+        $this->MailTrainSubscriber($req);
     }
     public function apiVideoConsolidation(Request $req)
     {

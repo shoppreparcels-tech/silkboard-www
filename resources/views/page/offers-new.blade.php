@@ -159,10 +159,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Flipstart Days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Smart Desh Ka Smartphone</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Redmi 4A, 5A & 6A</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/flipstart-days-july-store" target="_blank">
+                                <a href="https://www.flipkart.com/smart-desh-ka-smartphone-8j38-93hd-store" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
                             </div>
@@ -215,8 +215,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">ETHNIC FOR EVERY MOOD</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Summer Clearance Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="https://www.myntra.com/shop/women" target="_blank">
@@ -229,8 +229,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Payday Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Ajio Mania Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">50-90% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>
