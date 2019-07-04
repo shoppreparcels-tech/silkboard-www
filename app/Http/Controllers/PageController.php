@@ -245,10 +245,10 @@ class PageController extends Controller
 
         $id = '';
 
-        switch($req->mailtrain_type) {
-            case 'pricing': $id = 'KmF05zShs';
-            case 'footer' : $id = 'BzxpUg8sw';
-            default: $id= 'BzxpUg8sw';
+        if ($req->mailtrain_type === 'pricing') {
+            $id = 'KmF05zShs';
+        } else if($req->mailtrain_type === 'footer') {
+            $id = 'BzxpUg8sw';
         }
 
         $url = 'https://mailtrain.shoppre.com/api/subscribe/'.$id.'?access_token=9f19384da11de72805b86b4640bb64da9efdaff0';
