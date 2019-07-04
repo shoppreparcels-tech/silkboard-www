@@ -238,9 +238,15 @@ class PageController extends Controller
     }
 
     public function MailTrainSubscriber($req) {
+        if ($req->name) {
+            $contactName = $req->name;
+        } else {
+            $contactName = '';
+        }
         $data = array(
             "EMAIL" => $req->email,
-            "REQUIRE_CONFIRMATION" => "no"
+            "REQUIRE_CONFIRMATION" => "no",
+             "FIRST_NAME" => $contactName
         );
 
         $id = '';
@@ -963,7 +969,7 @@ class PageController extends Controller
         );
         $json_data = json_encode($data);
         mailChimpTaskOperations::createList($list_id, $auth, $json_data);
-        $this->MailTrainSubscriber($req);
+        $this->MailTrainSubscriber($req, $name);
     }
     public function apiVideoConsolidation(Request $req)
     {
