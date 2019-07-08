@@ -172,7 +172,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Pride Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">End of season Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Min. 50% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
@@ -219,7 +219,7 @@
                             <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com/shop/women" target="_blank">
+                                <a href="https://www.myntra.com" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5997a62748742.png')}}"/>
                                 </a>
                             </div>

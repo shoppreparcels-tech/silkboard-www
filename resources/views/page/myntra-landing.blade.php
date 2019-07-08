@@ -112,7 +112,7 @@
                             <br/>
                             <p>40-80% Off</p>
                             <p>Choose From 2.3 Lakhs+ Styles</p>
-                            <p>4th - 7th July</p>
+                            <p>Sale Extended</p>
                         </div></a>
                 </div>
                 <div class="col-sm-4">

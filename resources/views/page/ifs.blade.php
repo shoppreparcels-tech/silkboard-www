@@ -151,7 +151,7 @@
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                 <a href="https://clnk.in/i19o" title="Ajio" target="_blank">1. Ajio.com 👉Ajio Mania Sale 4th - 9th July</a> |
-                <a href="https://clnk.in/i19c" title="Myntra" target="_blank">2. Myntra 👉Summer Clearance Sale 4th - 7th July</a> |
+                <a href="https://www.myntra.com/" title="Myntra" target="_blank">2. Myntra 👉Summer Clearance Sale July</a> |
                 <a href="https://clnk.in/i19e" title="tatacliq.com" target="_blank">3. Tatacliq.com 👉EOSS 18th June - 14th July</a>
             </marquee>
         </div>
