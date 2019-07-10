@@ -215,7 +215,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Summer Clearance Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">End of Season Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
@@ -229,8 +229,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Ajio Mania Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-90% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Ajio Handpicked Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">60-80% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>
@@ -245,7 +245,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Prime Day</h4>
                             <h5 class="header6 p-color-cement font-weight-900">15th - 16th July</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.amazon.in/b/ref=nav_swm_IN-PR-PC-GW-Apr19-SWM-Acq-MultiBen-PD?_encoding=UTF8&node=12497370031" target="_blank">
+                                <a href="https://ship.shoppre.com/amazon-india-prime-day-sale-offers-deals-shoppers-shopping/" target="_blank">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>

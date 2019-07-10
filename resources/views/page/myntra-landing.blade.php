@@ -108,11 +108,11 @@
             <div class="row text-center">
                 <div class="col-sm-4">
                     <a href="https://www.myntra.com" target="_blank"><div class="shopandship ">
-                            <h2>Summer Clearance Sale</h2>
+                            <h2>End Of Season Sale</h2>
                             <br/>
                             <p>40-80% Off</p>
                             <p>Choose From 2.3 Lakhs+ Styles</p>
-                            <p>Sale Extended</p>
+                            <p>Explore Now</p>
                         </div></a>
                 </div>
                 <div class="col-sm-4">
@@ -152,7 +152,7 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">Shop from Myntra.com "Summer Clearance Sale"</a></span> & Get ₹200 discount on your First Shipment.
+                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">Shop from Myntra.com "End of Season Sale"</a></span> & Get ₹200 discount on your First Shipment.
                             </marquee>
                    <center>
                        <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">

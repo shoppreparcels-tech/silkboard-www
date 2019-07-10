@@ -255,6 +255,12 @@ class PageController extends Controller
             $id = 'KmF05zShs';
         } else if($req->mailtrain_type === 'footer') {
             $id = 'BzxpUg8sw';
+        } else if($req->mailtrain_type === 'medicine') {
+            $id = 'fkwLc3M3a';
+        } else if($req->mailtrain_type === 'university') {
+            $id = 'EcfPSjPGc';
+        } else if($req->mailtrain_type === 'become-partner') {
+            $id = 'mpQfrK5FA';
         }
 
         $url = 'https://mailtrain.shoppre.com/api/subscribe/'.$id.'?access_token=9f19384da11de72805b86b4640bb64da9efdaff0';
@@ -514,6 +520,7 @@ class PageController extends Controller
             $commnet = "Lead from seller partner page " . $email . "\n contact No: " . $contact ."\n Business Name: "
                 . $businessName." \n website Link: " . $websiteLink." \n Business type: ". $businessType." \n Domestic WeightRange: "
                 .$domesticShipmentRange. " \n International WeightRange: " .$internationalShipmentRange."\n Countries: ".$Countries ;
+            $this->MailTrainSubscriber($req);
             AsanaTaskOperations::createTask($name, $commnet, "L");
         }
 
@@ -748,6 +755,7 @@ class PageController extends Controller
             )
         );
         $json_data = json_encode($data);
+        $this->MailTrainSubscriber($req);
         mailChimpTaskOperations::createList($list_id, $auth, $json_data);
     }
 
@@ -1292,6 +1300,7 @@ class PageController extends Controller
             $email = $req->email;
             $phone =  $req->phone;
             $commnet = "Lead from university landing page email " . $email ."\n Contact Number ".$phone;
+            $this->MailTrainSubscriber($req);
             AsanaTaskOperations::createTask($email, $commnet, "L");
         }
     }

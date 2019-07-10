@@ -394,6 +394,7 @@
                     var email = $("input[name='email']").val();
                     var phone = $("input[name='ContactNumber']").val();
                     var token = $('input[name=_token]').val();
+                    var mailtrain_type = 'university';
                     jQuery.ajax({
                         url: 'university',
                         type: "POST",
@@ -401,6 +402,7 @@
                             _token: token,
                             email: email,
                             phone: phone,
+                            mailtrain_type: mailtrain_type,
                         },
                         success: function (data) {
                             console.log(data);

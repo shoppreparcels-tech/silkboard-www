@@ -526,7 +526,7 @@
                                 {{--<a href="" class="btn btn-s-r btn-b-r btn-a-l m-t-20">Sign up for Free</a>--}}
                                 <button type="submit" class="btn btn-s-r btn-b-r btn-l m-t-20">Sign Up Free</button>
                                 <p class="f-s-14 f-c-blue m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
-                                    Blog: <a class="f-c-blue" style="text-decoration: underline" href="https://ship.shoppre.com/nris-shopping-guide-indian-wear-shop-and-how-to-ship-internationally/" target="_blank">NRI’s Shopping Guide To Indian Wear</a> </p>
+                                    Upcoming: 👉<a class="f-c-blue" style="text-decoration: underline" href="https://ship.shoppre.com/amazon-india-prime-day-sale-offers-deals-shoppers-shopping/" target="_blank">Amazon.in Prime Day Sale 15-16 July</a> </p>
                             </div>
                             <div class="col-md-6 col-xs-6 no-pad ">
                                 <center>
@@ -602,10 +602,10 @@
                         <a href="https://clnk.in/i19o" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">AJIO MANIA SALE</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">AJIO HANDPICKED SALE</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">4th - 9th July</span> | 50-90% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">9th - 12th July</span> | 60-80% Off</p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Ajio.com</p>
                             <br>
@@ -623,7 +623,7 @@
                         <a href="https://clnk.in/i4Fx" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">SUMMER CLEARANCE SALE</h4></div>
+                            <div class="h-div"><h4 class="f-s-20 f-c-white">END OF SEASON SALE</h4></div>
                         </div>
                         <div class="des-div"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">40-80% Off</span></span></p>

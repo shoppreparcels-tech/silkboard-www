@@ -73,7 +73,7 @@
                 {{--</div>--}}
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://clnk.in/i19o" title="AJIO" target="_blank">AJIO.com 👉AJIO MANIA SALE 4th - 9tht July | Shop & Ship with us Worldwide.</a>
+                        <a href="https://clnk.in/i19o" title="AJIO" target="_blank">AJIO.com 👉AJIO HANDPICKED SALE 9th - 12th July | Shop & Ship with us Worldwide.</a>
                     </marquee>
                 </div>
             </div>

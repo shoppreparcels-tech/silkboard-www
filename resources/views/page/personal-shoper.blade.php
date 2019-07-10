@@ -33,14 +33,14 @@
                     Shop From India, Ship Worldwide
                 </h1>
             </div>
-            <div class="col-md-4 col-xs-12 div-align-items-r">
-                <a href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20interested,%20In%20Assisted%20Shopping%20from%20Indian%20Stores" title="Click for WhatsApp" target="_blank" class="d-contact-img-desktop">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
-                </a>
-                <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Personal%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="d-contact-img">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
-                </a>
-            </div>
+            {{--<div class="col-md-4 col-xs-12 div-align-items-r">--}}
+                {{--<a href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20interested,%20In%20Assisted%20Shopping%20from%20Indian%20Stores" title="Click for WhatsApp" target="_blank" class="d-contact-img-desktop">--}}
+                    {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">--}}
+                {{--</a>--}}
+                {{--<a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Personal%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="d-contact-img">--}}
+                    {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">--}}
+                {{--</a>--}}
+            {{--</div>--}}
         </div>
 
         <div class="container">
@@ -83,11 +83,12 @@
                 </div>
                 {{--</div>--}}
                 <div class="col-md-12 col-xs-12 div-btn-padding">
-                    <a href="https://www.youtube.com/watch?v=q5R63gFUREk" target="_blank">
-                        <div class="btn header6 btn-ifs-l-assisted">
-                            Personal Shopper - Watch Video
-                        </div>
-                    </a>
+                    {{--<a href="https://www.youtube.com/watch?v=q5R63gFUREk" target="_blank">--}}
+                        {{--<div class="btn header6 btn-ifs-l-assisted">--}}
+                            {{--Personal Shopper - Watch Video--}}
+                        {{--</div>--}}
+                    {{--</a>--}}
+                    <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Assisted%20Purchase%20Service" style="color:white" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
                 </div>
             </div>
             <div class="col-md-7 col-lg-7 col-sm-7 col-xs-12 no-padding " id="img-shopping" >
@@ -121,20 +122,29 @@
                     <span class="p-color-cement-dark"> We’ll Shop For You:</span> All you have to do is, let us know
                     what you intend to buy; we’ll make the purchase for you.
                 </p>
-                <div class="col-md-12 col-xs-12 div-btn-padding">
-
+                <div class="col-md-12 col-xs-12 div-btn-padding" style="margin-top: 15px;">
+                    <center>
                     <a href="https://www.shoppre.com/personal-shopper" target="_blank">
                         <div class="btn header6 btn-ifs-l-assisted">
                             Shop For Me
                         </div>
                     </a>
+                    </center>
                 </div>
             </div>
-            <div class=" col-md-5 col-sm-5 col-xs-12">
-                <h1 class="header2 p-color-blue h-req-assist">Request Free Assistance</h1>
-                <form action="" method="post " id="personal_shopper">
-                    {{csrf_field()}}
-                    <div class="formFrame div-form-get-quote" id="diwali-couponcode1">
+
+
+            <div class="col-xs-4 col-md-4 no-pad">
+                <iframe style="height:300px;margin-top:10px;" class="vid-h-w col-md-12 col-sm-12" id="video"  src="https://www.youtube.com/embed/q5R63gFUREk" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                {{--<h4 class="f-s-16 f-c-l-gray txt-a-c">One-stop Solution For All your Shopping & Shipping Needs from India | ShoppRe.com</h4>--}}
+            </div>
+            {{--<div class=" col-md-5 col-sm-5 col-xs-12">--}}
+                {{--<h1 class="header2 p-color-blue h-req-assist">Request Free Assistance</h1>--}}
+                {{--<form action="" method="post " id="personal_shopper">--}}
+                    {{--{{csrf_field()}}--}}
+                    {{--<div class="formFrame div-form-get-quote" id="diwali-couponcode1">--}}
                         {{--<div class="form-group">--}}
                             {{--<label>Full Name <span class="p-color-red">*</span></label>--}}
                             {{--<input type="text" name="Name" class="form-control"--}}
@@ -154,28 +164,28 @@
                             {{--<br>--}}
                             {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-a-l btn-b-g">Request Assistance</button>--}}
                         {{--</div>--}}
-                        <div class="form-group text-center div-align-items-l">
-                            <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r" style="color:white">Call: +91-8277919191</a><br><br>
-                            <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Assisted%20Purchase%20Service" style="color:white" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
-                        </div>
+                        {{--<div class="form-group text-center div-align-items-l">--}}
+                            {{--<a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r" style="color:white">Call: +91-8277919191</a><br><br>--}}
+                            {{--<a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Assisted%20Purchase%20Service" style="color:white" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>--}}
+                        {{--</div>--}}
 
-                    <div class="formFrame  div-form-get-quote" id="diwali-couponcode2">
-                        <div class="row">
-                            <center>
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/request-sent.svg" alt="" >
-                                <h6 class="header5 p-color-blue">Request Sent!</h6>
-                                <h5 class="header5 p-color-cement">Just One More Step To start <br>using Personal
-                                    Shopper!</h5>
-                            </center>
-
-                        </div>
-                        <div class="text-center">
-                            <a href="/customer/register" class="btn btn-d-signup">Sign
-                                Up</a>
-                        </div>
-                    </div>
-                </form>
-            </div>
+                    {{--<div class="formFrame  div-form-get-quote" id="diwali-couponcode2">--}}
+                        {{--<div class="row">--}}
+                            {{--<center>--}}
+                                {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/request-sent.svg" alt="" >--}}
+                                {{--<h6 class="header5 p-color-blue">Request Sent!</h6>--}}
+                                {{--<h5 class="header5 p-color-cement">Just One More Step To start <br>using Personal--}}
+                                    {{--Shopper!</h5>--}}
+                            {{--</center>--}}
+                            {{--Request--}}
+                        {{--</div>--}}
+                        {{--<div class="text-center">--}}
+                            {{--<a href="/customer/register" class="btn btn-d-signup">Sign--}}
+                                {{--Up</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</form>--}}
+            {{--</div>--}}
         </div>
     </section>
 
@@ -191,8 +201,8 @@
             <br>
             <div class="row text-center">
                 <br/>
-                <div class="col-sm-2" style=" width: 20%;">
-                    <div class="panel ps-img-rounded">
+                <div class="col-sm-3">
+                    <div class="panel">
                         <center>
                             <br/>
                             <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-product.svg" alt="">
@@ -209,8 +219,8 @@
                         </center>
                     </div>
                 </div>
-                <div class="col-sm-2" style=" width: 20%;">
-                    <div class="panel ps-img-rounded">
+                <div class="col-sm-3">
+                    <div class="panel">
                         <br/>
                         <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/form-fill-up.png" alt="" style="height: 65px;">
                         <br/>
@@ -225,8 +235,8 @@
 
                     </div>
                 </div>
-                <div class="col-sm-2" style=" width: 20%;">
-                    <div class="panel ps-img-rounded">
+                <div class="col-sm-3">
+                    <div class="panel">
                         <br>
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pay-receive.svg" alt="">
                         <br/>
@@ -240,8 +250,8 @@
 
                     </div>
                 </div>
-                <div class="col-sm-2" style=" width: 20%;">
-                    <div class="panel ps-img-rounded"><br>
+                <div class="col-sm-3">
+                    <div class="panel"><br>
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" style="height: 70px" alt="">
                         <br>
                         <br/>
@@ -255,8 +265,8 @@
 
                     </div>
                 </div>
-                <div class="col-sm-2" style=" width: 20%;">
-                    <div class="panel ps-img-rounded"><br>
+                <div class="col-sm-3">
+                    <div class="panel"><br>
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
                         <br>
                         <br/>
@@ -290,8 +300,8 @@
             <br>
             <div class="row text-center">
                 <br/>
-                <div class="col-sm-2" style=" width: 20%;">
-                    <div class="panel ps-img-rounded">
+                <div class="col-sm-3">
+                    <div class="panel">
                         <center>
                             <br/>
                             <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-product.svg" alt="">
@@ -306,8 +316,8 @@
                         </center>
                     </div>
                 </div>
-                <div class="col-sm-2" style=" width: 20%;">
-                    <div class="panel ps-img-rounded">
+                <div class="col-sm-3">
+                    <div class="panel">
                         <br/>
                         <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/form-fill-up.png" alt="" style="height: 65px;">
                         <br/>
@@ -322,8 +332,8 @@
 
                     </div>
                 </div>
-                <div class="col-sm-2" style=" width: 20%;">
-                    <div class="panel ps-img-rounded">
+                <div class="col-sm-3">
+                    <div class="panel">
                         <br>
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pay-receive.svg" alt="">
                         <br/>
@@ -338,7 +348,7 @@
 
                     </div>
                 </div>
-                <div class="col-sm-2" style=" width: 20%;">
+                <div class="col-sm-3">
                     <div class="panel ps-img-rounded"><br>
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" style="height: 70px" alt="">
                         <br>
@@ -354,7 +364,7 @@
 
                     </div>
                 </div>
-                <div class="col-sm-2" style=" width: 20%;">
+                <div class="col-sm-3">
                     <div class="panel ps-img-rounded"><br>
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
                         <br>

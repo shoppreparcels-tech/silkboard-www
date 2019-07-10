@@ -286,6 +286,7 @@
                     var domesticShipmentRange = $("input[name='domestic']:checked").val();
                     var internationalShipmentRange =  $("input[name='International']:checked").val();
                     var token = $('input[name=_token]').val();
+                    var mailtrain_type = 'become-partner';
                     jQuery.ajax({
                         url: 'seller',
                         type: "POST",
@@ -300,6 +301,7 @@
                             Countries: Countries,
                             domesticShipmentRange: domesticShipmentRange,
                             internationalShipmentRange: internationalShipmentRange,
+                            mailtrain_type: mailtrain_type,
                         },
                         success: function (data) {
                             // $("input[name='message']").text('Thank you for submitting');
