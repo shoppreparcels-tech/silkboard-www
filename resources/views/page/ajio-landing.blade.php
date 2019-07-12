@@ -5,22 +5,7 @@
 @section('keywords', 'ajio international Shipping, ship india')
 
 @section('css_style')
-    {{--<meta property="og:title" content="Shop online Amazon.in products & Ship Internationally with ShoppRe" />--}}
-    {{--<meta property="og:type" content="website" />--}}
-    {{--<meta property="og:url" content="https://www.shoppre.com/amazon-india-shop-international-shipping" />--}}
-    {{--<meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />--}}
-    {{--<meta property="og:image:width" content="2506">--}}
-    {{--<meta property="og:image:height" content="1312">--}}
-    {{--<meta property="og:image:alt" content="shoppre international shipping india" />--}}
-    {{--<meta property="og:description" content="Ship your purchases from Amazon India to Worldwide with ShoppRe, at an affordable shipping cost." />--}}
-    {{--<meta property="og:site_name" content="shoppre" />--}}
-
-    {{--<meta name="twitter:card" content="summary_large_image" />--}}
-    {{--<meta name="twitter:site" content="go_shoppre" />--}}
-    {{--<meta name="twitter:title" content="Amazon.in International Shipping from India " />--}}
-    {{--<meta name="twitter:description" content="Shop in Amazon.in and ship your packages from India to USA, UK, UAE, Canada at a cheap courier cost." />--}}
-    {{--<meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />--}}
-    {{--<meta name="twitter:image:alt" content="shoppre international shipping" />--}}
+    <link rel="canonical" href="https://www.shoppre.com/ajio-online-shopping-international-shipping" />
     <style>
         .bg-ics-landing-page .container > div {margin-bottom: 3em}
         .d-header-text {font-size: 40px;font-weight: 900}
@@ -44,7 +29,7 @@
         <div class="container">
             <br>
             <br>
-            <h1 class="f-s-36 f-c-white f-w-8">Shop and Ship your porducts from Ajio.com</h1>
+            <h1 class="f-s-36 f-c-white f-w-8">Shop and Ship your porducts from AJIO.com</h1>
             <p class="f-s-22 f-c-white">Own a Free Virtual Shipping Address and Ship Internationally at Low Rates</p>
             <br>
             <p class="f-s-22 f-c-white">Place your order in AJIO Store with your ShoppRe Indian Address.</p>
@@ -73,7 +58,7 @@
                 {{--</div>--}}
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://clnk.in/i19o" title="AJIO" target="_blank">AJIO.com 👉AJIO HANDPICKED SALE 9th - 12th July | Shop & Ship with us Worldwide.</a>
+                        <a href="https://clnk.in/i19o" title="AJIO" target="_blank">AJIO.com 👉WEEKEND BINGE SALE 12th - 14th July | Shop & Ship with us Worldwide.</a>
                     </marquee>
                 </div>
             </div>
@@ -185,7 +170,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned of your documents</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-specific Discount</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery with online tracking</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery</span></li>
 
                         </ul>
                     </div>
@@ -197,7 +182,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Wallet Cashback</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Package Return Services</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>International Courier Service</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Personalized Product Recommendations</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Product Recommendations</span></li>
                         </ul>
                     </div>
                 </div>
@@ -301,44 +286,12 @@
             </div>
             <br/><br/>
             <center>
-                <a href="https://www.shoppre.com/personal-shopper">Place Your Ajio Order Now!</a>
+                <a href="https://www.shoppre.com/customer/login">Place Your AJIO Order Now!</a>
             </center>
             <br/><br/>
         </div>
     </section>
-    {{--<section>--}}
-        {{--<div class="container" style="background-color: #fff;padding: 20px;">--}}
-            {{--<h1 class="header2 p-color-cement-dark font-weight-900">Frequently Asked Questions: </h1>--}}
-            {{--<ul style="text-decoration: none;list-style: none">--}}
-                {{--<li>--}}
-                    {{--<h3 class="header4 p-color-cement-dark font-weight-900">How do I order an amazon product and get it delivered to UAE?</h3>--}}
-                    {{--<p class="header5 p-color-cement ">Go online and shop on Amazon.in and reach out to us, sign up on ShoppRe--}}
-                        {{--Dashboard & make your request to ship it to UAE. You'll be guided by our--}}
-                        {{--Support as to how to take it from there. </p>--}}
-                {{--</li>--}}
-                {{--<li>--}}
-                    {{--<h3 class="header4 p-color-cement-dark font-weight-900">Can I buy from amazon INDIA and ship to US?</h3>--}}
-                    {{--<p class="header5 p-color-cement ">Of course you can. You can shop from Amazon.in and get us to--}}
-                        {{--ship to the USA. We ship to 220+ countries around the world.</p>--}}
-                {{--</li>--}}
-                {{--<li>--}}
-                    {{--<h3 class="header4 p-color-cement-dark font-weight-900">How do I buy from India online Stores and Ship to UK?</h3>--}}
-                    {{--<p class="header5 p-color-cement ">You can <a href="{{route('stores1')}}">shop from any Indian online store</a>, ship your purchases to us;--}}
-                        {{--and make a request to ship it internationally to your location in UK.--}}
-                        {{--For more info; contact our Support. </p>--}}
-                {{--</li>--}}
-                {{--<li>--}}
-                    {{--<h3 class="header4 p-color-cement-dark font-weight-900">Can I order different books on Amazon.in and get them delivered in single shipment to save money?</h3>--}}
-                    {{--<p class="header5 p-color-cement ">Of course. We strive to make the <a href="{{route('pricing')}}">shipping costs</a> of our customers as low as possible. So,--}}
-                        {{--we'd be behind you 100% in this matter as our main service that allows you save up is our--}}
-                        {{--Package Consolidation. You can make use of our 20-day FREE storage--}}
-                        {{--for collecting your books as well. </p>--}}
-                {{--</li>--}}
-            {{--</ul>--}}
-        {{--</div>--}}
-        {{--<br>--}}
-        {{--<br>--}}
-    {{--</section>--}}
+
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">

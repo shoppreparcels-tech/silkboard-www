@@ -436,6 +436,11 @@ class PageController extends Controller
         return view('page.first-shipment');
     }
 
+    public function myntraUsa()
+    {
+        return view('page.myntra-usa');
+    }
+
     public function medicine()
     {
         return view('page.medicine-landing');

@@ -95,6 +95,7 @@
         /*.header .container{padding-bottom: 50px}*/
         .box-ifs {/*margin-left: 70px*/}
         .box-ifs p {font-weight: 900;}
+        .no-margin { margin: 0px }
         #image1 {margin-top: -94px;}
         #image1 img {/*margin-top: 80px;*/margin-left: 60px;}
         #image1 h3 {margin-top: 60px;}
@@ -150,8 +151,8 @@
     <section>
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="https://clnk.in/i19o" title="Ajio" target="_blank">1. Ajio.com 👉Ajio Handpicked Sale 9th - 12th July</a> |
-                <a href="https://www.myntra.com/" title="Myntra" target="_blank">2. Myntra 👉End Of Season Sale July</a> |
+                <a href="https://clnk.in/i19o" title="Ajio" target="_blank">1. Ajio.com 👉Weekend Binge Sale 12th - 14th July</a> |
+                <a href="https://www.myntra.com/" title="Myntra" target="_blank">2. Myntra 👉End Of Season Sale</a> |
                 <a href="https://clnk.in/i19e" title="tatacliq.com" target="_blank">3. Tatacliq.com 👉EOSS 18th June - 14th July</a>
             </marquee>
         </div>
@@ -311,7 +312,7 @@
         <div class="container">
             <center>
                 <a href="/indian-virtual-address">
-                    <div class="btn header6 btn-get-assisted p-color-white">
+                    <div class="btn header6 btn-get-assisted p-color-white no-margin">
                         <center>
                             Get a Free Virtual Address
                         </center>
@@ -397,80 +398,6 @@
         </div>
     </section>
 
-
-
-    {{--<section>--}}
-    {{--<div class="container" style="margin-top: 50px;margin-bottom: 50px;">--}}
-    {{--<img class="img-responsive " src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-and-ship-reviews.png" alt="shoppre reviews">--}}
-
-    {{--</div>--}}
-    {{--</section>--}}
-
-    <section>
-        <div class="container ifs-container-review">
-            <a href="{{route('reviews')}}">
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="col-md-3 col-lg-3 col-sm-2 col-xs-2 div-review1">
-                        <center>4.7</center>
-
-                    </div>
-                    <div class="col-md-9 col-lg-9 col-sm-10 col-xs-10 div-ifs-shoppre-reviw">
-                        <input class="rating rated" style="margin:10px 0 0 0 !important;" value="5" id="courier_rating">
-                        <p class="header6" style="color: green; margin:-8px 0 0 12px;">968 reviews </p>
-                        <center>
-                            {{--<img class="img-responsive " src="img/images/reviews_shoppre.svg">--}}
-                        </center>
-                    </div>
-
-                </div>
-            </a>
-            <a href="https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dshoppre%26oq%3Dshoppre%26aqs%3Dchrome..69i57j69i60l5.4478j0j7%26sourceid%3Dchrome%26ie%3DUTF-8&q=EgRqM4IPGPOnwt4FIhkA8aeDSz69D7l29hCwOCHBNiJdzO_qD5TRMgFy#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 div-ifs-google-reviews">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                        <img class="img-responsive img-courier-review-g"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/svg/google-reviews-shipping-service-bengaluru.svg">
-                        <p class="header6" style="color: #e85151;">Reviews</p>
-                    </div>
-
-                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                        <img class="img-responsive " style="margin-top: 5px;" src="{{env('AWS_CLOUD_FRONT')}}/img/images/google-rating-shipping-service-bengaluru.png">
-                    </div>
-                </div>
-            </a>
-            <a href="https://www.facebook.com/goshoppre/reviews/?ref=page_internal">
-                <div class="col-lg-5 col-md-5  col-sm-12 col-xs-12">
-                    <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-xs-4">
-                        <img class="img-responsive img-courier-review-f"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-reviews-shipping-service.png">
-                        <p class="header6" style="color: #507dbc; line-height: 30px">Reviews</p>
-                    </div>
-
-                    <div class="col-lg-7 col-md-7 col-sm-8 col-xs-8">
-                        <img class="img-responsive img-facebook-r" style="margin-top: -15px;"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-rating-shipping-service.png">
-                    </div>
-                </div>
-            </a>
-
-        </div>
-    </section>
-    <section style="background-color: #FFFBBE;">
-        <div class="container-fluid" style="padding-left: 12%;padding-right: 18%;">
-            <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">
-                <p class="header1 p-color-black p-h-margin-customer"><font color="red">R</font>efer & Earn</p>
-                <br>
-                <h4>Get an instant reward of ₹500 in your ShoppRe wallet just by referring the referral code to a friend.</h4>
-                <h4>Referral gets ₹500 credited to their ShoppRe wallet post the shipment done by the referee.</h4>
-                <br>
-                <a href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank" class="btn-s-r btn-b-r btn ">Join Our Referral Network</a>
-                <br>
-            </div>
-            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12" >
-                <img class="offer-img-d" src="{{asset('img/images/earn-with-us.png')}}"
-                     alt="earn with us" style="width: 450px;">
-            </div>
-        </div>
-    </section>
     <section style="background-color: #fafafb; ">
         <div class="container">
             <div class="col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
@@ -983,34 +910,6 @@
         {{--mobile view--}}
     </section>
 
-
-    <section class="section-seller">
-        <div class="container">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive img-shipments1" src="{{env('AWS_CLOUD_FRONT')}}/img/images/seller-shipping-shoppre.png"
-                     alt="seller shipping on shoppre">
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <h1 class="header1 p-color-cement-dark p-seller">Are you an ambitious Seller?
-                    Save up more on shipping.</h1> <br>
-                <p class="header3 p-color-cement seller-p">
-                    <span class="header2"> Start Your 30-Day FREE Trial </span> to see for yourself; how much you can
-                    save to help your business!</p>
-                <div class="col-md-12">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="/sellers-shipping">
-                            <div class="btn-request-cal-back header6">
-                                <center>
-                                    Request Callback
-                                </center>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="content-oes">
         <div class="container">
             <h1>SHOP & SHIP from India to Worldwide with ShoppRe!</h1>
@@ -1058,7 +957,6 @@
         <br>
         <br>
     </section>
-
 
 @endsection
 

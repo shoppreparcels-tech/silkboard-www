@@ -27,7 +27,7 @@
                         <div class="col-md-8 col-sm-offset-2">
                             <span class="f-s-15 font-weight-900 f-c-d-greay">Use the form below to rate your shipment and suggestions on the ShoppRe.com™ Shipping Services.
                                 Your feedback goes directly to the people responsible for the Shipment.
-                                And for every shipment you will be credited with <span class="f-c-red f-s-16">50 Loyalty Points</span> for giving valuable feedback.
+                                And for every shipment you will be credited with <span class="f-c-red f-s-16">₹100 Cashback</span> to your ShoppRe Wallet for giving valuable feedback.</span>
                             </p>
                             <br>
                             <div class="form-group">

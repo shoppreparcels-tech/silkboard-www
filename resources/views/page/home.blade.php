@@ -174,6 +174,12 @@
     </script>
 
     <style>
+        .cord-header-size {
+            font-size: 16px;
+        }
+        .cord-height {
+            height:160px;
+        }
         .fuid-padding {
             padding-left: 5%;
             padding-right: 5%
@@ -210,7 +216,7 @@
         }
 
         .h-div {
-            height: 50px;
+            height: 40px;
             overflow: hidden
         }
 
@@ -313,7 +319,7 @@
 
         @media only screen and (max-width: 600px) {
             #img-p {
-                display: none
+                display: none;
             }
 
             .mobile-pickup-block {
@@ -347,7 +353,7 @@
             }
 
             .des-div {
-                height: 115px;
+                height: 140px;
                 overflow: hidden
             }
 
@@ -428,7 +434,7 @@
                             </center>
                         </div>
                         <div class="col-md-10 col-xs-10 pad-0-15">
-                            <h1 class="f-s-36 f-c-white f-w-8 ">
+                            <h1 class="f-s-32 f-c-white f-w-8 ">
                                 International Shipping from India starting at just <span
                                         class="p-color-red">*₹566</span>!
                                 {{--International Shipping from India <span class="f-c-yellow" id="country"></span>--}}
@@ -439,7 +445,7 @@
                     <div class="col-md-12 col-xs-12 no-pad h-s-a" style="margin-bottom: 20px;"><br>
                         <div class="col-md-4 col-xs-4 pad-r-5 ">
                             <a class="f-s-18 f-c-white" href="/shop-from-india-ship-worldwide">
-                                <div class="col-xs-12 col-md-12 pad-0-40 div-s-br ">
+                                <div class="col-xs-12 col-md-12 pad-0-20 div-s-br cord-height">
                                     <h5 class="f-s-18 f-c-white txt-a-c"> Shop from India
                                         & <br> Ship Worldwide <br></h5>
                                     <center>
@@ -451,7 +457,7 @@
                         </div>
                         <div class="col-md-4 col-xs-4 pad-0-10">
                             <a class="f-s-18 f-c-white" href="/personal-shopper-india">
-                                <div class="col-xs-12 col-md-12 pad-0-40 div-s-br">
+                                <div class="col-xs-12 col-md-12 pad-0-20 div-s-br cord-height">
                                     <h5 class="f-s-18 f-c-white txt-a-c"> Personal Shopper <br>
                                         (Assisted Purchase) <br></h5>
                                     <center>
@@ -463,9 +469,9 @@
                         </div>
                         <div class="col-md-4 col-xs-4 pad-l-5">
                             <a class="f-s-18 f-c-white" href="{{route('schedulePickup.Index')}}">
-                                <div class="col-xs-12 col-md-12 pad-0-40 div-s-br ">
+                                <div class="col-xs-12 col-md-12 pad-0-20 div-s-br cord-height">
                                     <h5 class="f-s-18 f-c-white txt-a-c">Best Courier Service
-                                        <br>(Schedule A Pickup)<br></h5>
+                                        <br>(Schedule Pickup)<br></h5>
                                     <center>
                                         <img src="{{asset('img/images/arrow-home.png')}}" class="pad-t-20  "
                                              alt="International Courier">
@@ -475,13 +481,13 @@
                         </div>
 
                     </div>
-                    {{--<div>--}}
-                    {{--<marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
-                    {{--<span class="f-s-16 f-c-red f-w-9"><a href="https://www.flipkart.com/fashion-ffd-june-2019-store" target="_blank">Shop from Flipkart.com "Fashion Days" Sale</a> & Get ₹200 cashback on your Shipment.</span><br>--}}
-                    {{--<a href="https://ship.shoppre.com/month-end-exclusive-shipping-offer/" title="Month End Offer" target="_blank" class="f-s-16 f-c-red f-w-9">Month End Cashback On International Shipping 👉--}}
-                    {{--Use Code: MEND20, valid up to 30th June 2019.</a>--}}
-                    {{--</marquee>--}}
-                    {{--</div>--}}
+
+                    <div>
+                    <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
+                        <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
+                            Upcoming: 👉<a class="f-c-white" style="text-decoration: underline" href="https://ship.shoppre.com/amazon-india-prime-day-sale-offers-deals-shoppers-shopping/" target="_blank">Amazon.in Prime Day Sale 15-16 July</a> </p>
+                    </marquee>
+                    </div>
                     {{--<span class="f-s-16 f-c-red f-w-9">"Wardrobe Refresh Sale" Biggest Fashion Sale Ever from Amazon.in & Get ₹200 cashback on your amazon.in shipment</span><br>--}}
                     {{--< style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
 
@@ -489,15 +495,15 @@
                 </div>
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
-                        <div class="col-md-12 col-xs-12 pad-20">
+                        <div class="col-md-12 col-xs-12">
                             <a href="/first-time-international-shipment-offer" target="_blank"><img
                                         src="https://d2njzkuk16ywue.cloudfront.net/cdn/200inr-shipping-offer-india-shoppre.png" class="img-f-w offer-img-d"
                                         alt="first time international shipment offer"></a>
                             <a href="/first-time-international-shipment-offer" target="_blank"><img
                                         src="https://d2njzkuk16ywue.cloudfront.net/cdn/200inr-shipping-offer-india.png"
                                         class="img-f-w offer-img-m" alt="first international shipping discount"></a>
-                            <center><a href="{{route('customer.login')}}"
-                                       class="btn btn-s-r btn-b-r btn-a-l m-t-20 offer-img-m">Sign up for Free</a>
+                            <center class="pad-b-10"><a href="{{route('customer.login')}}"
+                                       class="btn btn-s-r btn-b-r btn-a-l m-t-20 offer-img-m ">Sign up for Free</a>
                             </center>
                         </div>
                         <div class="col-md-12 col-xs-12 no-padd">
@@ -515,7 +521,7 @@
                         <form class="register-form h-sign-up" id="form_register" role="form" method="POST"
                               action="{{ route('customer.register.submit') }}">
                             {{ csrf_field() }}
-                            <div class="col-md-6 col-xs-6 pad-20">
+                            <div class="col-md-6 col-xs-6 pad-15">
                                 <input id="firstname" name="firstname" type="input" class="txt-l-br txt-f-w txt-b-r txt-pad m-t-10 f-s-16" autocomplete="off"
                                        placeholder=" Enter your Name" required>
                                 <input name="email" type="email" class="txt-f-w txt-b-r txt-l-br txt-pad m-t-10 f-s-16"
@@ -525,13 +531,13 @@
                                        placeholder=" Password" required>
                                 {{--<a href="" class="btn btn-s-r btn-b-r btn-a-l m-t-20">Sign up for Free</a>--}}
                                 <button type="submit" class="btn btn-s-r btn-b-r btn-l m-t-20">Sign Up Free</button>
-                                <p class="f-s-14 f-c-blue m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
-                                    Upcoming: 👉<a class="f-c-blue" style="text-decoration: underline" href="https://ship.shoppre.com/amazon-india-prime-day-sale-offers-deals-shoppers-shopping/" target="_blank">Amazon.in Prime Day Sale 15-16 July</a> </p>
+                                {{--<p class="f-s-14 f-c-blue m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>--}}
+                                    {{--Upcoming: 👉<a class="f-c-blue" style="text-decoration: underline" href="https://ship.shoppre.com/amazon-india-prime-day-sale-offers-deals-shoppers-shopping/" target="_blank">Amazon.in Prime Day Sale 15-16 July</a> </p>--}}
                             </div>
                             <div class="col-md-6 col-xs-6 no-pad ">
                                 <center>
                                     {{--<img src="https://www.shoppre.com/img/images/priyamani-new.png" width="290" height="293"--}}
-                                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/priyamani-new.png" width="290" height="293"
+                                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/priyamani-new.png" width="250" height="293"
                                          class="img-responsive" alt="priyamani shoppre">
                                 </center>
                             </div>
@@ -560,7 +566,7 @@
                         <a href="https://ship.shoppre.com/refer-and-earn-with-us/" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">REFER A FRIEND</h4></div>
+                            <div class="h-div"><h4 class="cord-header-size f-c-white">REFER A FRIEND</h4></div>
                         </div>
                         <div class="des-div"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">1st July - 31st July</span></p>
@@ -581,7 +587,7 @@
                         <a href="https://clnk.in/i19e" title="Click to Know Highlights" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">CLIQ FASHION</h4></div>
+                            <div class="h-div"><h4 class="cord-header-size f-c-white">CLIQ FASHION</h4></div>
                         </div>
                         <div class="des-div"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">18th June - 14th July</span></p>
@@ -602,10 +608,10 @@
                         <a href="https://clnk.in/i19o" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">AJIO HANDPICKED SALE</h4></div>
+                            <div class="h-div"><h4 class="cord-header-size f-c-white">WEEKEND BINGE</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">9th - 12th July</span> | 60-80% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">12th - 14th July</span> | Min. 50% Off</p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Ajio.com</p>
                             <br>
@@ -623,7 +629,7 @@
                         <a href="https://clnk.in/i4Fx" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div"><h4 class="f-s-20 f-c-white">END OF SEASON SALE</h4></div>
+                            <div class="h-div"><h4 class="cord-header-size f-c-white">END OF SEASON</h4></div>
                         </div>
                         <div class="des-div"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">40-80% Off</span></span></p>
@@ -649,8 +655,8 @@
     <section>
         <div class="container">
             {{--<div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">--}}
-            <center><br>
-                <h1 class="header1 p-color-cement-dark div-margin">About Us </h1>
+            <center>
+                <h1 class="header1 p-color-cement-dark ">About Us </h1>
             </center>
             {{--</div>--}}
 
