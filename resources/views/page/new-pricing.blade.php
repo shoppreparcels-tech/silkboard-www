@@ -11,7 +11,7 @@
         .btn span.glyphicon {opacity: 0;}
         .btn.active span.glyphicon {opacity: 1;}
         .l-pad{padding-left: 10px}
-        .div-b-price{border-radius: 3px;border: 1px solid #edeef0;background-color: #fbfbfc;}
+        .div-b-price{border-radius: 3px;border: 1px solid #C0C0C0;background-color: #fbfbfc;}
         .div-p-price{box-shadow: 0 2px 3px rgba(232, 81, 81, 0.1);border-radius: 3px;border: 1px solid #ffe19a;background-color: #fff7e5;}
         .div-b-b{border-bottom: 1px solid rgba(146, 156, 165, 0.2);padding-bottom: 20px}
         .btn-terms{border-radius: 30px;background-color: #929ca5;color: #fff}
@@ -22,6 +22,10 @@
         .new-pricing .select-control {float: left;width: 89px;height: 40px;font-size: 13px;font-weight: 400;font-style: italic;border-left: 0;border-radius: 20px;background-color: #fafafb;border: none;}
         .sidebar-nav-fixed{width:13%}.fixed-div{position: fixed;}
          #volumetric-dis{display: none}
+         .margin01{margin: 6px;}
+         .margin02{margin: 4px;}
+         .m-b-5{margin-bottom: 5px;}
+
 
 
         @media only screen and (max-width: 600px) {
@@ -287,11 +291,10 @@
                                 {{--<input id="phone" name="phone" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off">--}}
                             {{--</div>--}}
                             {{--<div class=" col-md-offset-4 col-md-4 col-xs-12 no-pad"><br>--}}
-                            <center>
-                                <button class="btn btn-b-r btn-s-r btn-xl btn-h-40" >Get An Estimate</button>
-                            </center>
-
-                            {{--</div>--}}
+                            {{-- <center>--}}
+                                 <button class="btn btn-b-r btn-s-r btn-xl btn-h-40" >Get An Estimate</button>
+                            {{--  </center>--}}
+                             {{--</div>--}}
                         </div>
                     </form>
                     <br>
@@ -309,10 +312,11 @@
                     <div class="col-md-12 col-xs-12 no-pad display-none"  id="pricing-panel">
                         <div class="col-md-6 col-xs-12 no-pad">
                             <br>
-                            <div class="col-xs-12 col-md-12 div-b-price pad-10">
+                            <div class="col-xs-12 col-md-12 div-b-price pad-10 ">
                                 <div class="col-xs-12 col-md-12 no-pad">
-                                    <h14 class=" f-s-14 f-c-d-greay pull-left"><span class="p-color-red">*</span> Basic
-                                        Estimate
+                                    <h14 class=" f-s-14 f-c-d-greay pull-left"><span class="p-color-red">*</span> <b>Basic
+                                        Estimate</b> &nbsp;
+                                        <hr class="pad01">
                                         <a href="#" class="tooltipkey" title="The shipping cost for your courier is
                                                  estimated to the maximum accuracy, based on our pricing policies and
                                                      is based upon whichever is greater for your package;
@@ -320,57 +324,82 @@
                                             <i class="fa fa-question-circle-o"></i></a></h14>
                                     <h14 class="f-c-d-greay pull-right">Deliver in 3-5 Days</h14>
                                 </div>
-                                <div class="col-xs-12 col-md-12 no-pad">
-                                    <div class="col-md-6 col-xs-6 pull-left no-pad">
-                                        <h2 class="f-s-30 f-c-blue">₹<span id="customer-price-tag"></span></h2>
-                                    </div>
-                                    {{--<div class="col-md-3 col-xs-3 pull-left pad-t-20">--}}
-                                        <h4 class="f-s-14 f-c-l-gray"><strike>₹<span id="customer_total_price"></span></strike></h4>
+                                <div class="col-xs-12 col-md-12 no-pad margin01 ">
+                                    {{-- <div class="col-md-6 col-xs-6 pull-left no-pad">--}}
+                                         <span class="f-s-30 f-c-blue">₹<span id="customer-price-tag"></span> &nbsp;&nbsp;</span>
+                                    {{-- </div>--}}
+                                     {{--<div class="col-md-3 col-xs-3 pull-left pad-t-20">--}}
+                                        <span class="font-14 f-c-l-gray font-14"><strike>₹<span id="customer_total_price"></span></strike> &nbsp;&nbsp;</span>
                                     {{--</div>--}}
                                     {{--<div class="col-md-3 col-xs-3 pull-left pad-t-20">--}}
-                                        <h4 class="f-s-14 f-c-red">50% OFF </h4>
+                                        <span class="font-14 f-c-red font-14">50% OFF </span>
                                     {{--</div>--}}
 
                                 </div>
-                                <div class="col-xs-12 col-md-12 no-pad">
-                                    <a href="{{route('member.plan')}}">Sign up for
-                                        Free</a>
+                                <div class="col-xs-12 col-md-12 no-pad margin02">
+                                    <p><a  class="f-c-red txt-u-l" href="{{route('member.plan')}}">Sign up for
+                                            Free</a>
+                                        <span class="f-c-l-gray" >& get ₹200 instant discount today !</span></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-xs-12 pad-l-10">
                             <br>
-                            <div class="col-xs-12 col-md-12 div-p-price pad-10">
-                                <div class="col-xs-12 col-md-12 no-pad">
-                                    <h14 class=" f-s-14 f-c-d-greay pull-left"><span class="p-color-red">*</span>
-                                        Premium Estimate
-                                    </h14>
-                                    <h14 class=" f-s-14 f-c-d-greay pull-right"><span class="p-color-red">*</span> SAVE
-                                        UP MORE!
-                                    </h14>
+                            <div class="col-xs-12 col-md-12 div-p-price pad-10 ">
+                                <div class="col-xs-8 col-md-8 no-pad">
+                                    <div class="col-xs-12 col-md-12 no-pad">
+                                        <h14 class=" f-s-14 .f-c-d-Black pull-left">
+                                            <b>Premium Estimate</b>
+                                            <span class="p-color-red">*</span>  &nbsp;
+                                            <hr class="pad01">
+                                        </h14>
+                                        {{--  <img src="{{asset('img/piggy-bank.svg')}}" alt="piggy-bank">
+                                          <h14 class=" f-s-14 f-c-d-greay pull-right">
 
+                                              <span class="p-color-red">*</span> SAVE
+                                              UP MORE!
+                                          </h14>
+                                        --}}
+
+                                    </div>
+                                    <div class="col-xs-12 col-md-12 no-pad m-t-10 m-b-5 margin03">
+                                       {{-- <div class="col-md-6 col-xs-6 pull-left no-pad">--}}
+                                            <span class="f-s-30 f-c-blue">₹<span id="member-price-tag"></span>&nbsp;&nbsp;&nbsp;</span>
+                                        {{-- </div>--}}
+                                        {{-- <div class="col-md-3 col-xs-3 pull-left pad-t-20">--}}
+                                            <span class="font-14 f-c-l-gray " ><strike>₹<span id="member_total_price"></span></strike>&nbsp;&nbsp;&nbsp;</span>
+                                        {{--  </div>--}}
+                                        {{--  <div class="col-md-3 col-xs-3 pull-left pad-t-20">--}}
+                                            <span class="font-14 f-c-red font-14">50% OFF </span>
+                                        {{--  </div>--}}
+                                    </div>
+                                    <div class="col-xs-12 col-md-12 no-pad margin-16 ">
+                                        <p class="f-c-l-gray pull-left">
+                                            {{--<span class="p-color-red">*</span>--}}
+                                            Membership Benefits
+                                            <a href="#" class="tooltipkey" title="The shipping cost for your courier is
+                                                     estimated to the maximum accuracy, based on our pricing policies and
+                                                         is based upon whichever is greater for your package;
+                                                     either its volumetric weight or the actual weight">
+                                                <i class="fa fa-question-circle-o"></i></a></p>
+                                    </div>
                                 </div>
-                                <div class="col-xs-12 col-md-12 no-pad">
-                                    <div class="col-md-6 col-xs-6 pull-left no-pad">
-                                        <h2 class="f-s-30 f-c-blue">₹<span id="member-price-tag"></span></h2>
-                                    </div>
-                                    <div class="col-md-3 col-xs-3 pull-left pad-t-20">
-                                        <h4 class="f-s-14 f-c-l-gray"><strike>₹<span id="member_total_price"></span></strike></h4>
-                                    </div>
-                                    <div class="col-md-3 col-xs-3 pull-left pad-t-20">
-                                        <h4 class="f-s-14 f-c-red">50% OFF </h4>
-                                    </div>
-
+                                <div class="col-xs-4 col-md-4 no-pad txt-a-c">
+                                    <img src="{{asset('img/piggy-bank.svg')}}" alt="piggy-bank">
+                                    <h4 class="f-c-red ">SAVE UP MORE!</h4>
                                 </div>
-                                <div class="col-xs-12 col-md-12 no-pad  ">
-                                    <h14 class="f-s-14 f-c-d-greay pull-left"><span class="p-color-red">*</span>
-                                        Membership Benefits
-                                        <a href="#" class="tooltipkey" title="The shipping cost for your courier is
-                                                 estimated to the maximum accuracy, based on our pricing policies and
-                                                     is based upon whichever is greater for your package;
-                                                 either its volumetric weight or the actual weight">
-                                            <i class="fa fa-question-circle-o"></i></a></h14>
-
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-12 no-pad">
+                            <br>
+                            <div class="col-xs-12 col-md-12 div-b-price pad-10">
+                                <div class="col-xs-12 col-md-12 no-pad m-5">
+                                   <h4 class="font-18 f-c-l-black "><b>Want to Ship Rakhi Abroad?</b></h4>
+                                </div>
+                                <div class="col-xs-12 col-md-12 no-pad m-5">
+                                    <a class="btn btn-b-b btn-s-b " href="https://ship.shoppre.com/how-to-send-rakhi-online-from-india-international-delivery/" target="_blank">
+                                        Check Rakhi Rates
+                                    </a>
                                 </div>
                             </div>
                         </div>

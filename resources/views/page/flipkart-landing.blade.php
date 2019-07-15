@@ -65,24 +65,24 @@
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/smart-desh-ka-smartphone-8j38-93hd-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/the-big-shopping-days-store" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-                                <h2>Smart Desh Ka Smartphone</h2>
+                                <h2>Big Shopping Days</h2>
                                 <br>
-                                <p>Xiaomi</p>
-                                <p>Redmi 4A, 5A & 6A</p>
+                                <p>50-80% Off</p>
+                                <p>15-18 July</p>
                                 <p>Explore Now</p>
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/mobiles/~pixel-3a-series/pr?sid=tyy%2C4io&otracker=hp_bannerads_4_1.bannerAdCard.BANNERADS_Google_ZIENC13V9HAR" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/rakhi-gifts-store" title="Click Here to Shop" target="_blank">
                     <div class="ps">
-                        <h2>Google Pixel 3a</h2>
+                        <h2>Rakhi & Rakhi Sets</h2>
                         <br>
-                        <p>Realme</p>
-                        <p>4 GB RAM | 64 GB ROM</p>
-                        <p>Starting from ₹39,999</p>
+                        <p>Buy Rakhi Online for Sister & Brother</p>
+                        <p>Religious, Bracelet, Silver & more</p>
+                        <p>Starting from ₹34/-</p>
                     </div>
                     </a>
                 </div>

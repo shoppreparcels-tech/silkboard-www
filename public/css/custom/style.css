@@ -53,6 +53,8 @@ body {
     font-weight: 800;
 }
 
+.f-c-d-Black{color: #000000;}
+
 .expire, .head_color_ex, .mendatory_fields {
     color: red
 }
@@ -8317,3 +8319,26 @@ section.cguide_warning {
 
 }
 
+.pad01{
+margin-top: 5px;
+margin-bottom: -6px;
+border: 0;
+border-top: 1px solid #0c0c0c;
+}
+
+.margin-16{
+    margin-bottom: -16px;
+}
+.m-5{
+    margin: 5px;
+}
+.margin03{
+margin-bottom: 11px !important;
+margin-top: 25px !important;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-18{
+    font-size: 18px;
+}

@@ -116,12 +116,12 @@
                         </div></a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/lino-perros?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0" target="_blank""><div class="ps">
-                        <h2>Lino Perros</h2>
+                    <a href="https://www.myntra.com/rakhi" target="_blank"><div class="ps">
+                        <h2>Myntra Rakhi</h2>
                         <br>
-                        <p>MIN. 30% OFF</p>
-                        <p>Solid Handheld Bags, Wallet & more.</p>
-                        <p>May 2019</p>
+                        <p>Handcrafted Rakhi</p>
+                        <p>Price Starts from ₹244/-</p>
+                        <p>July 2019</p>
                     </div>
                     </a>
                 </div>

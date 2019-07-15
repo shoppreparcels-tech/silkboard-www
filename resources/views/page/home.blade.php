@@ -485,7 +485,7 @@
                     <div>
                     <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
                         <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
-                            Upcoming: 👉<a class="f-c-white" style="text-decoration: underline" href="https://ship.shoppre.com/amazon-india-prime-day-sale-offers-deals-shoppers-shopping/" target="_blank">Amazon.in Prime Day Sale 15-16 July</a> </p>
+                            Live : 👉<a class="f-c-white" style="text-decoration: underline" href="https://ship.shoppre.com/amazon-india-prime-day-sale-offers-deals-shoppers-shopping/" target="_blank">Amazon.in Prime Day Sale 15-16 July</a> </p>
                     </marquee>
                     </div>
                     {{--<span class="f-s-16 f-c-red f-w-9">"Wardrobe Refresh Sale" Biggest Fashion Sale Ever from Amazon.in & Get ₹200 cashback on your amazon.in shipment</span><br>--}}
@@ -584,17 +584,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://clnk.in/i19e" title="Click to Know Highlights" target="_blank">
+                        <a href="https://ship.shoppre.com/how-to-send-rakhi-online-from-india-international-delivery/" title="Click to Know Highlights" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div"><h4 class="cord-header-size f-c-white">CLIQ FASHION</h4></div>
+                            <div class="h-div"><h4 class="cord-header-size f-c-white">RAKSHA BANDHAN</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">18th June - 14th July</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">15th July - 25th August</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Tatacliq.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shipping Price <span class="f-s-16 f-c-red f-w-9">Starts from ₹316/-</span> T&C*</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Men's Apparel, Women's Footwear, Formal Watches & more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Send RAKHI's & RAKHI GIFTS to your Brother/Sister from INDIA to Worldwide.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -605,17 +605,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://clnk.in/i19o" title="Know More" target="_blank">
+                        <a href="https://clnk.in/i7Ch" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="cord-header-size f-c-white">WEEKEND BINGE</h4></div>
+                            <div class="h-div"><h4 class="cord-header-size f-c-white">BIG SHOPPING DAYS</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">12th - 14th July</span> | Min. 50% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">15th - 18th July</span> | 50-80% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Ajio.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Flipkart.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">1,50,000+ Products From Top Brands. 100% Handpicked & more. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Blockbuster deals and offers on apparel, footwear, beauty, toys, baby care & more. </p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
@@ -626,17 +626,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://clnk.in/i4Fx" title="Click for Offer Details" target="_blank">
+                        <a href="https://clnk.in/i19o" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div"><h4 class="cord-header-size f-c-white">END OF SEASON</h4></div>
+                            <div class="h-div"><h4 class="cord-header-size f-c-white">SLAY IN STYLE ALL MONSOON</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">40-80% Off</span></span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Min. 50% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Myntra.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Ajio.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Casual Wear, Ethic Wear, Footwear, Watches, Handbags, Jewellery & more!</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">50% Off on 500+ Brands. Casual Wear, Ethic Wear, Footwear, Watches & more.</p>
                         </div>
                         {{--<div>--}}
                             {{--<h2 class="f-s-16 f-c-d-greay">--}}
