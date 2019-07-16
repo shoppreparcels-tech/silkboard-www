@@ -8353,3 +8353,19 @@ margin-top: 25px !important;
 .font-22{
     font-size: 25px;
 }
+.txt-align-c{
+    text-align: center;
+}
+.margin-b-10{
+    margin-bottom: 10px;
+}
+.pad-10{
+    padding: 10px;
+}
+.border-1px{
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.padd-left-0{
+    padding-left: 0px !important;
+}

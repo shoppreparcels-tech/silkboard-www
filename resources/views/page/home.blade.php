@@ -485,7 +485,7 @@
                     <div>
                     <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
                         <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
-                            Live : 👉<a class="f-c-white" style="text-decoration: underline" href="https://ship.shoppre.com/amazon-india-prime-day-sale-offers-deals-shoppers-shopping/" target="_blank">Amazon.in Prime Day Sale 15-16 July</a> </p>
+                            Live : 👉<a class="f-c-white" style="text-decoration: underline" href="https://www.flipkart.com/the-big-shopping-days-store" target="_blank">Flipkart.com Big Shopping Days Sale 15-18 July</a> </p>
                     </marquee>
                     </div>
                     {{--<span class="f-s-16 f-c-red f-w-9">"Wardrobe Refresh Sale" Biggest Fashion Sale Ever from Amazon.in & Get ₹200 cashback on your amazon.in shipment</span><br>--}}
@@ -629,7 +629,7 @@
                         <a href="https://clnk.in/i19o" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div"><h4 class="cord-header-size f-c-white">SLAY IN STYLE ALL MONSOON</h4></div>
+                            <div class="h-div"><h4 class="cord-header-size f-c-white">MONSOON MADNESS</h4></div>
                         </div>
                         <div class="des-div"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Min. 50% Off</span></p>
