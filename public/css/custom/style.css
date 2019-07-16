@@ -8332,6 +8332,11 @@ border-top: 1px solid #0c0c0c;
 .m-5{
     margin: 5px;
 }
+
+.custom-font{
+    font-size: 14px !important;
+}
+
 .margin03{
 margin-bottom: 11px !important;
 margin-top: 25px !important;
@@ -8341,4 +8346,10 @@ margin-top: 25px !important;
 }
 .font-18{
     font-size: 18px;
+}
+.font-25{
+    font-size: 25px;
+}
+.font-22{
+    font-size: 25px;
 }

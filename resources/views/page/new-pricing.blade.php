@@ -322,22 +322,22 @@
                                                      is based upon whichever is greater for your package;
                                                  either its volumetric weight or the actual weight">
                                             <i class="fa fa-question-circle-o"></i></a></h14>
-                                    <h14 class="f-c-d-greay pull-right">Deliver in 3-5 Days</h14>
+                                    <h14 class="f-c-d-greay pull-right">Deliver in 3-6 Days</h14>
                                 </div>
                                 <div class="col-xs-12 col-md-12 no-pad margin01 ">
                                     {{-- <div class="col-md-6 col-xs-6 pull-left no-pad">--}}
-                                         <span class="f-s-30 f-c-blue">₹<span id="customer-price-tag"></span> &nbsp;&nbsp;</span>
+                                         <span class="f-c-blue font-25">₹<span id="customer-price-tag"></span> &nbsp;&nbsp;</span>
                                     {{-- </div>--}}
                                      {{--<div class="col-md-3 col-xs-3 pull-left pad-t-20">--}}
-                                        <span class="font-14 f-c-l-gray font-14"><strike>₹<span id="customer_total_price"></span></strike> &nbsp;&nbsp;</span>
+                                        <span class="font-14 f-c-l-gray font-22"><strike>₹<span id="customer_total_price"></span></strike> &nbsp;&nbsp;</span>
                                     {{--</div>--}}
                                     {{--<div class="col-md-3 col-xs-3 pull-left pad-t-20">--}}
-                                        <span class="font-14 f-c-red font-14">50% OFF </span>
+                                        <span class="font-14 f-c-red font-18">50% OFF </span>
                                     {{--</div>--}}
 
                                 </div>
                                 <div class="col-xs-12 col-md-12 no-pad margin02">
-                                    <p><a  class="f-c-red txt-u-l" href="{{route('member.plan')}}">Sign up for
+                                    <p><a  class="f-c-red txt-u-l" href="{{route('customer.register')}}" target="_blank">Sign up for
                                             Free</a>
                                         <span class="f-c-l-gray" >& get ₹200 instant discount today !</span></p>
                                 </div>
@@ -346,7 +346,7 @@
                         <div class="col-md-6 col-xs-12 pad-l-10">
                             <br>
                             <div class="col-xs-12 col-md-12 div-p-price pad-10 ">
-                                <div class="col-xs-8 col-md-8 no-pad">
+                                <div class="col-xs-10 col-md-10 no-pad">
                                     <div class="col-xs-12 col-md-12 no-pad">
                                         <h14 class=" f-s-14 .f-c-d-Black pull-left">
                                             <b>Premium Estimate</b>
@@ -364,13 +364,13 @@
                                     </div>
                                     <div class="col-xs-12 col-md-12 no-pad m-t-10 m-b-5 margin03">
                                        {{-- <div class="col-md-6 col-xs-6 pull-left no-pad">--}}
-                                            <span class="f-s-30 f-c-blue">₹<span id="member-price-tag"></span>&nbsp;&nbsp;&nbsp;</span>
+                                            <span class="f-c-blue font-25">₹<span id="member-price-tag"></span>&nbsp;&nbsp;&nbsp;</span>
                                         {{-- </div>--}}
                                         {{-- <div class="col-md-3 col-xs-3 pull-left pad-t-20">--}}
-                                            <span class="font-14 f-c-l-gray " ><strike>₹<span id="member_total_price"></span></strike>&nbsp;&nbsp;&nbsp;</span>
+                                            <span class="f-c-l-gray font-22" ><strike>₹<span id="member_total_price"></span></strike>&nbsp;&nbsp;&nbsp;</span>
                                         {{--  </div>--}}
                                         {{--  <div class="col-md-3 col-xs-3 pull-left pad-t-20">--}}
-                                            <span class="font-14 f-c-red font-14">50% OFF </span>
+                                            <span class="f-c-red font-18">55% OFF </span>
                                         {{--  </div>--}}
                                     </div>
                                     <div class="col-xs-12 col-md-12 no-pad margin-16 ">
@@ -384,9 +384,9 @@
                                                 <i class="fa fa-question-circle-o"></i></a></p>
                                     </div>
                                 </div>
-                                <div class="col-xs-4 col-md-4 no-pad txt-a-c">
+                                <div class="col-xs-2 col-md-2 no-pad txt-a-c">
                                     <img src="{{asset('img/piggy-bank.svg')}}" alt="piggy-bank">
-                                    <h4 class="f-c-red ">SAVE UP MORE!</h4>
+                                    <h4 class="f-c-red custom-font">SAVE UP MORE!</h4>
                                 </div>
                             </div>
                         </div>
