@@ -571,15 +571,11 @@
                         <div class="des-div"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">1st July - 31st July</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Bring Your Buddy Onboard</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Earn ₹500/-</span> on each Referral</p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Refer it to everyone you know & earn money on every successful referral. </p>
                         </div>
-                        {{--<div>--}}
-                            {{--<h2 class="f-s-16 f-c-d-greay">--}}
-                                {{--Shop Honor from Amazon.in India : <span class="p-color-blue">Ship to your doorstep </span>--}}
-                            {{--</h2>--}}
-                        {{--</div>--}}
+
                         </div>
                         </a>
                     </div>
@@ -596,11 +592,7 @@
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Send RAKHI's & RAKHI GIFTS to your Brother/Sister from INDIA to Worldwide.</p>
                         </div>
-                        {{--<div>--}}
-                            {{--<h2 class="f-s-16 f-c-d-greay">--}}
-                                {{--<img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">New York	, USA</span>--}}
-                            {{--</h2>--}}
-                        {{--</div>--}}
+
                     </div>
                         </a>
                     </div>
@@ -617,32 +609,24 @@
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Blockbuster deals and offers on apparel, footwear, beauty, toys, baby care & more. </p>
                         </div>
-                        {{--<div>--}}
-                            {{--<h2 class="f-s-16 f-c-d-greay">--}}
-                                {{--<img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Texas, USA</span>--}}
-                            {{--</h2>--}}
-                        {{--</div>--}}
+
                     </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://clnk.in/i19o" title="Click for Offer Details" target="_blank">
+                        <a href="https://www.myntra.com" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div"><h4 class="cord-header-size f-c-white">MONSOON MADNESS</h4></div>
+                            <div class="h-div"><h4 class="cord-header-size f-c-white">BLOCKBUSTER SALE</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Min. 50% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">40-50% Off</span> | 18th - 21st July</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Ajio.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Myntra.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">50% Off on 500+ Brands. Casual Wear, Ethic Wear, Footwear, Watches & more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop for Top Apparels, Footwear, Beauty, Sports. Explore More!</p>
                         </div>
-                        {{--<div>--}}
-                            {{--<h2 class="f-s-16 f-c-d-greay">--}}
-                                {{--<img src="{{asset('/img/location.svg')}}" width="20" height="20" alt=""> Destination : <span class="p-color-blue">Illinois, USA</span>--}}
-                            {{--</h2>--}}
-                        {{--</div>--}}
+
                     </div>
                         </a>
                     </div>

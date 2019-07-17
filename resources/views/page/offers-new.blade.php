@@ -78,7 +78,21 @@
                                 </a>
                             </div>
                         </div>
-                                           {{--<div class="item">--}}
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="https://ship.shoppre.com/how-to-send-rakhi-online-from-india-international-delivery/" target="_blank">
+                                    <img src="{{asset('img/images/send-rakhi-international-delivery.png')}}" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank">
+                                    <img src="{{asset('img/images/refer-earn-shoppre-shopper-shopping.png')}}" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
+                        {{--<div class="item">--}}
                             {{--<div class="pad15">--}}
                                 {{--<a href="https://ship.shoppre.com/month-end-exclusive-shipping-offer/" target="_blank">--}}
                                     {{--<img src="{{asset('img/images/month-end-shipping-offer-india.png')}}" class="boxofScroll"/>--}}
@@ -89,13 +103,6 @@
                             <div class="pad15">
                                 <a href="/shop-ship" target="_blank">
                                     <img src="{{asset('img/images/shop-from-india-ship-to-usa.png')}}" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="/refer-a-friend" target="_blank">
-                                    <img src="{{asset('img/images/refer-freind-offer.png')}}" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
@@ -216,7 +223,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">End of Season Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Blockbuster Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
@@ -230,7 +237,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Monsoon Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Monsoon Madness</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Min. 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
@@ -243,10 +250,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Prime Day</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">15th - 16th July</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Amazon fashion</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Upto 70% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://ship.shoppre.com/amazon-india-prime-day-sale-offers-deals-shoppers-shopping/" target="_blank">
+                                <a href="https://www.amazon.in/b?node=1983518031&pf_rd_p=5938a6f9-725b-47d7-bc20-ecd0596319e4&pf_rd_r=3808Z48N2V40H0X0FDT7" target="_blank">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>

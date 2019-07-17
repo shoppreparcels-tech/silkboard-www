@@ -152,8 +152,8 @@
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                 <a href="https://clnk.in/i7Ch" title="Flipkart" target="_blank">1. Flipkart.com 👉Big Shopping Days Sale 15th - 18th July</a> |
-                <a href="https://www.myntra.com/" title="Myntra" target="_blank">2. Myntra 👉End of Season Sale July</a> |
-                <a href="https://clnk.in/i19o" title="ajio.com" target="_blank">3. Ajio.com 👉Monsoon Sale</a>
+                <a href="https://www.myntra.com/" title="Myntra" target="_blank">2. Myntra 👉Blockbuster Sale 18th - 21st July</a> |
+                <a href="https://clnk.in/i19o" title="ajio.com" target="_blank">3. Ajio.com 👉Monsoon Madness</a>
             </marquee>
         </div>
         <div class="container" id="how-it-works">
@@ -186,7 +186,6 @@
                     </center>
                     <img class="img-responsive img-ifs-v_addres "
                          src="{{env('AWS_CLOUD_FRONT')}}/img/images/virtual-address-india.jpg" alt="get a free virtual address">
-
                 </div>
                 <div class="" id="text1">
                     <h3 class="header4 p-color-cement-dark p-ifs-margin-h"

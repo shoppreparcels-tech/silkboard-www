@@ -390,28 +390,6 @@
 
     </section>
 
-    <section style="margin-bottom: 50px">
-        <div class="container" style="margin-top: 62px;">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive img-shipments" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-tailor.png">
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <h1 class="header1  p-color-cement-dark">Are you a Seller? <br>
-                    Save more on shipping.</h1>
-                <p class="header2 p-color-cement"><span class="header2 p-color-blue"> Start your FREE 30 Day Trial</span>
-                    to know how much you can save monthly on regular shipping</p>
-                <div class="col-md-12">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="/sellers-shipping"
-                           class="btn btn-request-cal-back">Request Callback</a>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="/" class="btn btn-courier-know">Know More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">
