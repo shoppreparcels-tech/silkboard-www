@@ -184,8 +184,14 @@
     <loc>https://www.shoppre.com/myntra-online-shopping-shipping-from-india</loc>
     <changefreq>daily</changefreq>
     <priority>0.60</priority>
-</url><url>
+</url>
+<url>
     <loc>https://www.shoppre.com/myntra-international-shipping-to-usa</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/send-rakhi-gifts-online-worldwide-at-cheap-rates</loc>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
 </url>

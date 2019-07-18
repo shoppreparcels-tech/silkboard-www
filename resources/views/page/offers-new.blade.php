@@ -157,7 +157,7 @@
             <div>
 
                 <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                    <a href="https://ship.shoppre.com/how-to-send-rakhi-online-from-india-international-delivery/"
+                    <a href="https://www.shoppre.com/send-rakhi-gifts-online-worldwide-at-cheap-rates"
                        title="Rakhi" target="_blank">Send Rakhi Online from India 👉 <span class="f-s-16 f-c-red f-w-9">Shipping Price Starts from  ₹316/-</span> T&C* (15th July - 25th August 2019)</a>
                     </marquee>
             </div>

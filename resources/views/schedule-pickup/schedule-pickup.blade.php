@@ -766,7 +766,7 @@
                         <div class="f-s-24 f-c-d-gray f-w-8 txt-align-c margin-b-10">General Information</div>
                             <center>
                         <div class="f-s-18 f-c-d-gray f-w-8 margin03"> <a href="http://shoppretracking.aftership.com" target="_blank">Track your shipment</a></div>
-                        <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="https://ship.shoppre.com/how-to-send-rakhi-online-from-india-international-delivery/" target="_blank"> Check special RAKHI rates </a></div>
+                        <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="https://www.shoppre.com/send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank"> Check special RAKHI rates </a></div>
                         <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="https://ship.shoppre.com/refer-and-earn-with-us/"target="_blank">Earn ₹500/- on each Referral</a></div>
                                 <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="https://ship.shoppre.com/prohibited-items-what-you-cannot-ship-internationally-from-india/"target="_blank">Restricted and Prohibited Items
                                     </a></div>

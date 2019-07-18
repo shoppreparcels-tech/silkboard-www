@@ -397,7 +397,7 @@
                                    <h4 class="font-18 f-c-l-black "><b>Want to Ship Rakhi Abroad?</b></h4>
                                 </div>
                                 <div class="col-xs-12 col-md-12 no-pad m-5">
-                                    <a class="btn btn-b-b btn-s-b " href="https://ship.shoppre.com/how-to-send-rakhi-online-from-india-international-delivery/" target="_blank">
+                                    <a class="btn btn-b-b btn-s-b " href="send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank">
                                         Check Rakhi Rates
                                     </a>
                                 </div>

@@ -1,12 +1,12 @@
 @extends('layout')
 
-@section('title', 'First International Shipment Cashback | Discount • ShoppRe.com™')
-@section('description', 'Get 50% Discount on your First-time international shipment from India. Additionally get 80% lesser shipping cost with our package consolidation services.')
-@section('keywords', 'free shipment process, cashback, shipment, consolidation, repackaging')
+@section('title', 'Rakhi International Courier from India | USA, Canada, Australia')
+@section('description', '')
+@section('keywords', 'how to send rakhi online, send rakhi within usa free shipping, raksha bandhan, rakhi courier india')
 
 @section('css_style')
 
-    <link rel="canonical" href="https://www.shoppre.com/first-time-international-shipment-offer" />
+    <link rel="canonical" href="https://www.shoppre.com/send-rakhi-gifts-online-worldwide-at-cheap-rates" />
 
     <style>
       .first-time-shipment {background-color: #11273b;height: 813px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;padding-top: 60px;}
@@ -45,7 +45,7 @@
       .select2-container--default .select2-selection--single {background-color: #fff !important;border: none !important;border-radius: 4px !important;height: 40px !important;padding-top: 5px!important;}
       .select2-container--default .select2-selection--single .select2-selection__arrow b {margin-top: 4px !important;}
       @media only screen and (max-width: 600px) {
-          .first-time-shipment {height: 896px;}
+          .first-time-shipment {height: 651px;}
           .textbox-email {width: 330px;}
           .div-snow{display: none;}
           .div-newyear{display: none;}
@@ -62,22 +62,22 @@
     <section class="first-time-shipment">
         <div class="container no-padding">
            <div class="col-md-3 div-snow">
-               <img src="{{asset('img/images/shoppre-rakhi-left.png')}}" alt="" class="img-responsive img-rakhi-left">
+               <img src="{{asset('img/images/shoppre-rakhi-left.png')}}" alt="rakhi usa" class="img-responsive img-rakhi-left">
            </div>
            <div class="col-md-6 col-xs-12 no-padding">
                <center>
-                   <img src="{{asset('img/images/shoppre-rakhi-left.png')}}" alt="" class="img-new-year"><br>
-                   <a href="{{route('customer.register')}}"><img src="{{asset('img/images/tape_signup.svg')}}" alt="" > </a> <br>
+                   {{--<img src="{{asset('img/images/shoppre-rakhi-left.png')}}" alt="send rakhi online" class="img-new-year"><br>--}}
+                   <img src="{{asset('img/images/tape_signup.svg')}}" alt="signup shoppre">  <br>
                </center>
                <center>
-                   <h18 class="f-s-50 f-c-white  f-w-9">50% Discount</h18>
-                   <p class="f-s-36 f-c-white f-w-9 ">on your first shipment </p>
-                   <img src="{{asset('img/images/f-s-t-coupon.png')}}" alt="" > <br><br>
-                   <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE</a>
+                   <h18 class="f-s-50 f-c-white  f-w-9">Celebrate Happiness</h18>
+                   <p class="f-s-36 f-c-white f-w-9 ">Send Rakhi & Gifts </p>
+                   <img src="{{asset('img/images/send-rakhi-from-india-shoppre.png')}}" alt="cheapest way to send rakhi to usa" > <br><br>
+                   <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-r btn-a-l" target="_blank">Sign UP FREE</a>
                    <br>
                    <br>
                    <br>
-                   <p class="f-s-10 f-c-l-gray f-w-8">From 1st July to 31st July 2019</p>
+                   <p class="f-s-10 f-c-l-gray f-w-8">From 15th July to 25th August 2019</p>
 
                </center>
            </div>
@@ -91,12 +91,12 @@
         <div class="container fst-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Good News Again! This offer is valid on all our services!</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Thank Your Sibling With Rakhi & Gifts. Send Love through ShoppRe.</h2>
                 </div>
-                <div class="col-md-2 col-xs-12 marg-whatsapp">
+                <div class="col-md-4 col-xs-12">
                     <div class="">
-                        <a href="https://wa.me/917338208403?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank">
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/whatsapp-icon.png" alt="" class="img-25">
+                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Can%20i%20Send%20Rakhi,%20Gifts%20and%20Sweets%20from%20India?" target="_blank">
+                            <img src="/img/images/whatsapp-icon.png" alt="shoppre rakhi" class="img-25">
                             <span class="font-16">+91-7338208403</span>
                         </a>
                     </div>
@@ -156,107 +156,106 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                            Switzerland
-                        </div>
-                        <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                            Starts from ₹1306/-
-                        </div>
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-switzerland-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
-                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">Send Rakhi to Swiss from India</span>
-                            </a>
-                        </div>
-                    </div>
+                           <div class="col-md-12 col-xs-12 no-pad UAE-div1">
+                               Switzerland
+                           </div>
+                           <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
+                               Starts from ₹1306/-
+                           </div>
+                           <div class="col-md-12 col-xs-12 no-pad">
+                               <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-switzerland-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
+                                   <i class="fa fa-plane" aria-hidden="true"></i>
+                                   </span>
+                                   <span class="elementor-icon-list-text txt-u-l">Send Rakhi to Swiss from India</span>
+                               </a>
+                           </div>
+                       </div>
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                            UK
-                        </div>
-                        <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                            Starts from ₹1306/-
-                        </div>
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-uk-europe-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
-                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">Send Rakhi to UK from India</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                   <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                       <div class="col-md-12 col-xs-12 no-pad UAE-div1">
+                           UK
+                       </div>
+                       <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
+                           Starts from ₹1306/-
+                       </div>
+                       <div class="col-md-12 col-xs-12 no-pad">
+                           <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-uk-europe-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                               <span class="elementor-icon-list-text txt-u-l">Send Rakhi to UK from India</span>
+                           </a>
+                       </div>
+                   </div>
+               </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                            Germany
-                        </div>
-                        <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                            Starts from ₹1306/-
-                        </div>
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-germany-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
-                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">Send Rakhi to DEU from India</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                   <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                       <div class="col-md-12 col-xs-12 no-pad UAE-div1">
+                           Germany
+                       </div>
+                       <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
+                           Starts from ₹1306/-
+                       </div>
+                       <div class="col-md-12 col-xs-12 no-pad">
+                           <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-germany-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                               <span class="elementor-icon-list-text txt-u-l">Send Rakhi to DEU from India</span>
+                           </a>
+                       </div>
+                   </div>
+               </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                            Canada
-                        </div>
-                        <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                            Starts from ₹1344/-
-                        </div>
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-canada-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
-                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">Send Rakhi to CA from India</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                   <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                       <div class="col-md-12 col-xs-12 no-pad UAE-div1">
+                           Canada
+                       </div>
+                       <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
+                           Starts from ₹1344/-
+                       </div>
+                       <div class="col-md-12 col-xs-12 no-pad">
+                           <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-canada-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                               <span class="elementor-icon-list-text txt-u-l">Send Rakhi to CA from India</span>
+                           </a>
+                       </div>
+                   </div>
+               </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                            Japan
-                        </div>
-                        <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                            Starts from ₹1413/-
-                        </div>
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-japan-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
-                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">Send Rakhi to Japan from India</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                   <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                       <div class="col-md-12 col-xs-12 no-pad UAE-div1">
+                           Japan
+                       </div>
+                       <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
+                           Starts from ₹1413/-
+                       </div>
+                       <div class="col-md-12 col-xs-12 no-pad">
+                           <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-japan-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                               <span class="elementor-icon-list-text txt-u-l">Send Rakhi to Japan from India</span>
+                           </a>
+                       </div>
+                   </div>
+               </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                            Mauritius
-                        </div>
-                        <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                            Starts from ₹1837/-
-                        </div>
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-mauritius-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
-                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">Send Rakhi to MU from India</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
+                   <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                       <div class="col-md-12 col-xs-12 no-pad UAE-div1">
+                           Mauritius
+                       </div>
+                       <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
+                           Starts from ₹1837/-
+                       </div>
+                       <div class="col-md-12 col-xs-12 no-pad">
+                           <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-mauritius-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                               <span class="elementor-icon-list-text txt-u-l">Send Rakhi to MU from India</span>
+                           </a>
+                       </div>
+                   </div>
+               </div>
             </div>
             <div class="mar-t-25">
                 <div class="txt-center">
@@ -266,39 +265,41 @@
                             </a>
                         </button>
                         <button type="button" class="btn btn-success bord-rad-5 margin-r-10">
-                            <a href="https://wa.me/917338208403?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
+                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Can%20i%20Send%20Rakhi,%20Gifts%20and%20Sweets%20from%20India?" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
                             <p class="btn-md">Message Us On WhatsApp</p>
                             </a>
                         </button>
                 </div>
             </div>
-            <div class=" col-md-12 no-pad"><br>
-                <h4 class="f-s-18 f-c-l-gray f-w-9">Haven't made a shipment with us yet? What're you waiting for?!</h4>
-                <br>
-                <p class="header4 p-color-cement">Pick & choose your favorites from 1000+ Indian online stores and get us to ship your purchases overseas,
-                    or come to us for an international courier; if it's your first shipment with us - you can avail a <strong> 50% Discount UP TO ₹200/- </strong> on
-                    top of the savings you make because our consolidation services.
-                </p>
-                <h6 class="f-s-16 f-c-gray f-w-8">Don't put it on hold - ship with us already! </h6><br>
+            {{--<div class=" col-md-12 no-pad"><br>--}}
+                {{--<h4 class="f-s-18 f-c-l-gray f-w-9">Haven't made a shipment with us yet? What're you waiting for?!</h4>--}}
+                {{--<br>--}}
+                {{--<p class="header4 p-color-cement">Pick & choose your favorites from 1000+ Indian online stores and get us to ship your purchases overseas,--}}
+                    {{--or come to us for an international courier; if it's your first shipment with us - you can avail a <strong> 50% Discount UP TO ₹200/- </strong> on--}}
+                    {{--top of the savings you make because our consolidation services.--}}
+                {{--</p>--}}
+                {{--<h6 class="f-s-16 f-c-gray f-w-8">Don't put it on hold - ship with us already! </h6><br>--}}
 
-                <div class="offerDesc">
-                    <h4 style="text-decoration: underline">Terms and Conditions:</h4>
-                    <ul>
-                        <li>Get 50% Discount. </li>
-                        <li>Offer Code: <b>FRST50</b></li>
-                        <li>Maximum amount that can be availed by a customer is ₹200/-.</li>
-                        <li>This offer cannot be clubbed with any other offer.</li>
-                        <li>This Coupon is Valid Upto 31-July-2019</li>
-                        <li>A customer can avail this offer only once during the offer period.</li>
-                        <li>This offer is applicable only for International Shipments.</li>
-                        <li>Clearance charges is applicable for Special items</li>
-                        <p class="f-s-16 f-c-blue f-w-8">(liquids, semi liquids/cosmetics, medicines, oils, homemade food items).</p>
+                {{--<div class="offerDesc">--}}
+                    {{--<h4 style="text-decoration: underline">Terms and Conditions:</h4>--}}
+                    {{--<ul>--}}
+                        {{--<li>Get 50% Discount. </li>--}}
+                        {{--<li>Offer Code: <b>FRST50</b></li>--}}
+                        {{--<li>Maximum amount that can be availed by a customer is ₹200/-.</li>--}}
+                        {{--<li>This offer cannot be clubbed with any other offer.</li>--}}
+                        {{--<li>This Coupon is Valid Upto 31-July-2019</li>--}}
+                        {{--<li>A customer can avail this offer only once during the offer period.</li>--}}
+                        {{--<li>This offer is applicable only for International Shipments.</li>--}}
+                        {{--<li>Clearance charges is applicable for Special items</li>--}}
+                        {{--<p class="f-s-16 f-c-blue f-w-8">(liquids, semi liquids/cosmetics, medicines, oils, homemade food items).</p>--}}
 
-                    </ul>
-                </div>
+                    {{--</ul>--}}
+                {{--</div>--}}
                 <br>
+            <br>
+            <br>
                 <div>
-                <center><a href="{{route('customer.register')}}" class="btn btn-s-r btn-a-l btn-b-r">Sign Up Now!</a></center>
+                <center><a href="{{route('customer.register')}}" class="btn btn-s-r btn-a-l btn-b-r" target="_blank">Sign Up Now for FREE!</a></center>
                 </div>
 
             </div>
@@ -362,7 +363,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-7338208403" class="header2 p-color-white">+91 73382 08403</a>
 
                 </div>
 
@@ -377,7 +378,6 @@
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
                         </i>Live Chat</p>
-                    {{--<a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#" class="header2 p-color-white">Chat Now</a>--}}
                     <a href="{{Constant::CHATURL}}" target="_blank"
                        class="header2 p-color-white">Chat Now</a>
 
@@ -408,7 +408,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-7338208403" class="header2 p-color-white">+91 73382 08403</a>
 
                 </div>
 
