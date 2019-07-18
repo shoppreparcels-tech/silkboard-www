@@ -2370,7 +2370,7 @@ footer .bottom {
 }
 
 .bottom .terms {
-    text-align: right
+    text-align: right;
 }
 
 .bottom .terms span {
@@ -8368,4 +8368,58 @@ margin-top: 25px !important;
 }
 .padd-left-0{
     padding-left: 0px !important;
+}
+.UAE-div1{
+    color: #507dbc;
+    font-size: 56px;
+    font-family: roboto,Sans-serif;
+    font-weight: 600;
+    margin-top: -35px;
+}
+.Rakhi-mid-div{
+    color: #f7657d;
+    font-family: roboto,Sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: -25px;
+}
+.mar-t-25{
+    margin-top: 25px;
+}
+.bord-rad-5{
+    border-radius: 5px;
+}
+.txt-center{
+    text-align: center;
+}
+.margin-r-10{
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+.margin-b-15{
+    margin-bottom: 15px;
+}
+.btn-md{
+    color: black;
+    font-size: 15px;
+}
+.img-25{
+    width: 25px;
+    height: 25px;
+}
+.div-snow .img-rakhi-left{
+    width: 334px;
+    height: 247px;
+    margin-left: -3px; !important;
+}
+.refer-earn-img{
+    width: 348px;
+    height: 296px;
+}
+.marg-whatsapp{
+    margin-left: 16.3333%;
+    margin-top: 20px;
+}
+.font-16{
+    font-size: 16px;
 }

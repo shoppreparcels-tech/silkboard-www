@@ -1021,8 +1021,10 @@
                 <br>
             </div>
             <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-                <img class="offer-img-d" src="https://d2njzkuk16ywue.cloudfront.net/cdn/earn-with-us.png"
-                     alt="earn with us" style="width: 450px;">
+                <img class="offer-img-d refer-earn-img" src="{{asset('img/images/shoppre-earn-graphic.png')}}"
+                     alt="earn with us">
+
+                {{--shoppre-earn-graphic.png--}}
             </div>
         </div>
     </section>

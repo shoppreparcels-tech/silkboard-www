@@ -653,6 +653,7 @@ Route::get('/ajio-online-shopping-international-shipping', 'PageController@ajioI
 Route::get('/jaypore-international-shipping-from-india', 'PageController@jayporeIndex')->name('jaypore');
 Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
 Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
+Route::get('/send-rakhi-gifts-online-worldwide-at-cheap-rates', 'PageController@rakhiGift')->name('rakhi-Gift');
 Route::get('/myntra-international-shipping-to-usa', 'PageController@myntraUsa')->name('myntra-usa');
 Route::get('/best-international-relocation-packers-movers', 'PageController@packers')->name('packers-movers');
 Route::get('/international-shipping-gift-cards-vouchers', 'PageController@voucher')->name('voucher');
