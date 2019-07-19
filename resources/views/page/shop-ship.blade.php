@@ -94,9 +94,9 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="https://clnk.in/i7Ch" title="Flipkart" target="_blank">1. Flipkart.com 👉Big Shopping Days Sale 15th - 18th July</a> |
-                            <a href="https://www.myntra.com/" title="Myntra" target="_blank">2. Myntra 👉Blockbuster Sale 18th - 21st July</a> |
-                            <a href="https://clnk.in/i19o" title="ajio.com" target="_blank">3. Ajio.com 👉Monsoon Madness</a>
+                            <a href="https://www.amazon.in/rakhis-rakhi-hampers/b?ie=UTF8&node=5143508031" title="Amazon" target="_blank">1. Amazon.in 👉The Rakhi Store</a> |
+                            <a href="https://www.myntra.com/" title="Myntra" target="_blank">2. Myntra 👉Blockbuster Sale 18th-21st July</a> |
+                            <a href="https://clnk.in/i19o" title="ajio.com" target="_blank">3. Ajio.com 👉Ajio Manina Sale 18th-21st July</a>
                         </marquee>
                     </div>
                     <center>

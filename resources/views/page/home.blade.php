@@ -597,17 +597,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://clnk.in/i7Ch" title="Know More" target="_blank">
+                        <a href="https://linksredirect.com/?pub_id=54240CL48886&subid=rakhi-shoppre&source=linkkit&url=https%3A%2F%2Fwww.amazon.in%2Frakhis-rakhi-hampers%2Fb%3Fie%3DUTF8%26node%3D5143508031" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="cord-header-size f-c-white">BIG SHOPPING DAYS</h4></div>
+                            <div class="h-div"><h4 class="cord-header-size f-c-white">THE RAKHI STORE</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">15th - 18th July</span> | 50-80% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">25th August</span> | Upto 70% Off</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Flipkart.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Amazon.in</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Blockbuster deals and offers on apparel, footwear, beauty, toys, baby care & more. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from wide selection of designer, premium, gold, silver and kids’ Rakhis. </p>
                         </div>
 
                     </div>

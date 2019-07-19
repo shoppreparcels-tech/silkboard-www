@@ -167,10 +167,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Shopping Days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">15th - 18th July</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Deals of the day</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Shop Now</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/" target="_blank">
+                                <a href="https://www.flipkart.com/offers-store" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
                             </div>
@@ -237,8 +237,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Monsoon Madness</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Min. 50% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">AJIO MANIA SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">50-90% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>

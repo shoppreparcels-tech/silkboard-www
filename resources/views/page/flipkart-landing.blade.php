@@ -65,12 +65,12 @@
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/the-big-shopping-days-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/realme-x-8p0t-2kys-store?otracker=hp_banner_1_5.bannerX3.BANNER_GIPVMTU8EFQ3&fm=neo%2Fmerchandising&iid=M_8e9543b1-891b-4eae-8a32-746d2359578e_5.GIPVMTU8EFQ3&ppt=hp&ppn=hp&ssid=5qpi06jzo00000001563513304792" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-                                <h2>Big Shopping Days</h2>
+                                <h2>realme x</h2>
                                 <br>
-                                <p>50-80% Off</p>
-                                <p>15-18 July</p>
+                                <p>Sale on Wednesday, 12PM</p>
+                                <p>48+5MP AI Rear Camera</p>
                                 <p>Explore Now</p>
                         </div>
                     </a>
