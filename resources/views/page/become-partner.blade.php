@@ -7,20 +7,7 @@
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/seller-partner"/>
     <style>
-        .div-option{
-            height: 30px;
-            padding-top: 5px;
-        }
-        @media only screen and (max-width: 600px) {
-            .div-option{
-                height: auto;
-                padding-top: 0px;
-                margin-bottom: 20px;
-            }
-            .mobile-pad{
-                padding: 0px;
-            }
-        }
+        .div-option{height:30px;padding-top:5px}@media only screen and (max-width:600px){.div-option{height:auto;padding-top:0;margin-bottom:20px}.mobile-pad{padding:0}}
     </style>
 @endsection
 @section('content')
@@ -263,68 +250,6 @@
 
 @section('js_script')
     <script>
-        $(document).ready(function () {
-            $("#succesBlock").hide();
-            $("#seller_lp").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    $('#schedule_load').show();
-                    var name = $("input[name='Name']").val();
-                    var email = $("input[name='email']").val();
-                    var businessName = $("input[name='businssName']").val();
-                    var websiteLink = $("input[name='webSite']").val();
-                    var contact_no = $("input[name='contactNumber']").val();
-                    var businessType = $('#businessType option:selected').text();
-                    var Countries = $('#Countries option:selected').text();
-                    var domesticShipmentRange = $("input[name='domestic']:checked").val();
-                    var internationalShipmentRange =  $("input[name='International']:checked").val();
-                    var token = $('input[name=_token]').val();
-                    var mailtrain_type = 'become-partner';
-                    jQuery.ajax({
-                        url: 'seller',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            email: email,
-                            name: name,
-                            businessType: businessType,
-                            businessName: businessName,
-                            websiteLink: websiteLink,
-                            contact_no: contact_no,
-                            Countries: Countries,
-                            domesticShipmentRange: domesticShipmentRange,
-                            internationalShipmentRange: internationalShipmentRange,
-                            mailtrain_type: mailtrain_type,
-                        },
-                        success: function (data) {
-                            // $("input[name='message']").text('Thank you for submitting');
-                            $("#message").text("Thank you for submitting");
-                            $("#succesBlock").show();
-                            $("input[name='Name']").val('');
-                            $("input[name='businessType']").val('');
-                            $("input[name='email']").val('');
-                            $("input[name='businssName']").val('');
-                            $("input[name='webSite']").val('');
-                            $("input[name='contactNumber']").val('');
-                            $('#schedule_load').hide();
-                        }
-                    })
-                }
-            });
-
-        });
-    </script>
-
-    <script>
-        $(document).ready(function () {
-            $('.countries').select2();
-        });
+        $(document).ready(function(){$("#succesBlock").hide(),$("#seller_lp").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){$("#schedule_load").show();var n=$("input[name='Name']").val(),a=$("input[name='email']").val(),t=$("input[name='businssName']").val(),i=$("input[name='webSite']").val(),s=$("input[name='contactNumber']").val(),u=$("#businessType option:selected").text(),l=$("#Countries option:selected").text(),m=$("input[name='domestic']:checked").val(),c=$("input[name='International']:checked").val(),o=$("input[name=_token]").val();jQuery.ajax({url:"seller",type:"POST",data:{_token:o,email:a,name:n,businessType:u,businessName:t,websiteLink:i,contact_no:s,Countries:l,domesticShipmentRange:m,internationalShipmentRange:c,mailtrain_type:"become-partner"},success:function(e){$("#message").text("Thank you for submitting"),$("#succesBlock").show(),$("input[name='Name']").val(""),$("input[name='businessType']").val(""),$("input[name='email']").val(""),$("input[name='businssName']").val(""),$("input[name='webSite']").val(""),$("input[name='contactNumber']").val(""),$("#schedule_load").hide()}})}}),$(".countries").select2()});
     </script>
 @endsection

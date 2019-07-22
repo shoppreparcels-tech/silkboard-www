@@ -2,21 +2,7 @@
 
 @section('css_style')
 <style type="text/css">
-    .editbtn{
-        display: inline-block !important;
-        background: none !important;
-        width: auto !important;
-        float: none !important;
-        padding: 0 5px 0 !important;
-    }
-    h5{
-        font-size: 16px;
-        margin: 0 0 10px;
-    }
-    p{
-        font-size: 14px;
-        margin: 5px 0;
-    }
+    .editbtn{display:inline-block!important;background:0 0!important;width:auto!important;float:none!important;padding:0 5px 0!important}h5{font-size:16px;margin:0 0 10px}p{font-size:14px;margin:5px 0}
 </style>
 @endsection
 
@@ -547,10 +533,6 @@
 
 @section('js_script')
 <script type="text/javascript">
-    $('.slide_trigger').click(function(e) {
-        e.preventDefault();
-        var target = $(this).attr('data-target');
-        $('#'+target).slideToggle();
-    });
+    $(".slide_trigger").click(function(t){t.preventDefault();var e=$(this).attr("data-target");$("#"+e).slideToggle()});
 </script>
 @endsection

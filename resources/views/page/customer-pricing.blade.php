@@ -611,6 +611,9 @@
 
 @section('js_script')
     <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('js/select2.min.js')}}"></script>
+    <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('js/validate.min.js')}}"></script>
     <script type="text/javascript">
         /* Magnific Popup */
         $(document).ready(function () {
@@ -625,20 +628,9 @@
                     $.magnificPopup.close();
                 });
             });
-        });
-    </script>
-    <!-- Select2 -->
-    <script src="{{asset('js/select2.min.js')}}"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(".select2").select2();
-        });
-    </script>
 
-    <!-- Owl Carousel -->
-    <script src="{{asset('js/owl.carousel.min.js')}}"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
+            $(".select2").select2();
+
             $('.testimons').owlCarousel({
                 loop: true,
                 margin: 10,
@@ -662,13 +654,7 @@
                     }
                 }
             });
-        });
-    </script>
 
-
-    <script src="{{asset('js/validate.min.js')}}"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
             $("#shipping").validate({
                 rules:
                     {
@@ -776,8 +762,6 @@
                     return false;
                 }
             });
-
         });
     </script>
-
 @endsection

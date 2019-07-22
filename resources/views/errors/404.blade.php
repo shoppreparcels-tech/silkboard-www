@@ -3,17 +3,9 @@
 @section('title', '404 Page Not Found')
 @section('css_style')
     <style>
-        .section_err{padding-bottom:50px;background-color: #102436;padding-top: 10%;}
-        .section_err div{padding-bottom: 50px}
-        .section_err div img{align-content: center}
-        @media only screen and (max-width: 600px) {
-            .section_err div img{width: 100%}
-        }
+        .section_err{padding-bottom:50px;background-color:#102436;padding-top:10%}.section_err div{padding-bottom:50px}.section_err div img{align-content:center}@media only screen and (max-width:600px){.section_err div img{width:100%}}
     </style>
-
 @endsection
-
-
 
 @section('content')
     <section class="section_err">

@@ -4,7 +4,6 @@
 @section('description', 'How we are doing? Regarding your most recent shipment received through Shoppre.com, please leave your feedback, suggestion and provide us more information.')
 @section('keywords', 'shipment, suggestion, feedback, information, form')
 @section('css_style')
-    <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
     <meta name="robots" content="noindex,nofollow"/>
 @endsection
 @section('content')
@@ -131,13 +130,4 @@
         </div>
         </font>
     </section>
-@endsection
-@section('js_script')
-    <!-- Select2 -->
-    <script src="{{asset('js/select2.min.js')}}"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".select2").select2();
-        });
-    </script>
 @endsection

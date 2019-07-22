@@ -165,30 +165,7 @@
 
 @section('js_script')
 <script type="text/javascript">
-    $('.slide_trigger').click(function(e) {
-        e.preventDefault();
-        var target = $(this).attr('data-target');
-        $('#'+target).slideToggle();
-    });
-
-    $(document).ready(function () {
-
-        $('#example').DataTable({
-            "order": [[ 0, "desc" ]]
-        });
-
-        $('#outer_div').on('click', '#btn_delete_package', function () {
-            var pack_id = $(this).attr("data-package_id");
-            console.log(pack_id);
-            $('#hdn_pack_id').val(pack_id);
-            $('#myModal').modal('open');
-            // $('#myModal').show();
-        });
-
-        $('#btn_cancel_popup').click(function () {
-            $('#myModal').modal('close');
-        });
-    });
+    $(".slide_trigger").click(function(a){a.preventDefault();var e=$(this).attr("data-target");$("#"+e).slideToggle()}),$(document).ready(function(){$("#example").DataTable({order:[[0,"desc"]]}),$("#outer_div").on("click","#btn_delete_package",function(){var a=$(this).attr("data-package_id");console.log(a),$("#hdn_pack_id").val(a),$("#myModal").modal("open")}),$("#btn_cancel_popup").click(function(){$("#myModal").modal("close")})});
 
 </script>
 @endsection

@@ -86,31 +86,8 @@
 @endsection
 
 @section('js_script')
-    <script>
-        function onSignIn(googleUser) {
-            // Useful data for your client-side scripts:
-            var profile = googleUser.getBasicProfile();
-            window.location = 'https://www.shoppre.com?email=' + profile.getEmail() + '&name=' + profile.getGivenName()
-        };
-    </script>
     <script src="{{asset('js/validate.min.js')}}"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#form_login").validate({
-                rules:
-                    {
-                        email: {required: true, email: true},
-                        password: {required: true},
-                    },
-                messages:
-                    {
-                        email: {
-                            required: "Enter email address",
-                            email: "Your email must be in the format of name@domain.com"
-                        },
-                        password: {required: "Enter your password"},
-                    },
-            });
-        });
+    <script>
+        function onSignIn(e){let i=e.getBasicProfile();window.location="https://www.shoppre.com?email="+i.getEmail()+"&name="+i.getGivenName()}$(document).ready(function(){$("#form_login").validate({rules:{email:{required:!0,email:!0},password:{required:!0}},messages:{email:{required:"Enter email address",email:"Your email must be in the format of name@domain.com"},password:{required:"Enter your password"}}})});
     </script>
 @endsection

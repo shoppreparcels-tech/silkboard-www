@@ -29,19 +29,7 @@
     <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 
     <style>
-        .ligth-background{background-color: #fafafb}
-         .header .container p a{color: #E9C46A }
-        .rating-xl {font-size: 23px;}
-        .form-control {height: 41px;}
-         label {float: left;margin-left: 4px;}
-        .r-img {width: 100%;}
-        .img-circle {padding-top: 9px;}
-        .img-circle p{text-transform: uppercase;color: #fff;font-size: 25px;}
-        .rating-container .filled-stars {color: #E9C46A !important; }
-        @media only screen and (max-width: 1024px) {
-            .rating-xl {font-size: 16px;text-align: center;}
-        }
-
+        .ligth-background{background-color:#fafafb}.header .container p a{color:#e9c46a}.rating-xl{font-size:23px}.form-control{height:41px}label{float:left;margin-left:4px}.r-img{width:100%}.img-circle{padding-top:9px}.img-circle p{text-transform:uppercase;color:#fff;font-size:25px}.rating-container .filled-stars{color:#e9c46a!important}@media only screen and (max-width:1024px){.rating-xl{font-size:16px;text-align:center}}
     </style>
 
     <script type="application/ld+json">
@@ -273,66 +261,6 @@
 
 @section('js_script')
     <script>
-        $("a[href^='#']").click(function(e) {
-            e.preventDefault();
-
-            var position = $($(this).attr("href")).offset().top;
-
-            $("body, html").animate({
-                scrollTop: position
-            }, /* speed */ 1000);
-        });
+        $("a[href^='#']").click(function(e){e.preventDefault();let t=$($(this).attr("href")).offset().top;$("body, html").animate({scrollTop:t},1e3)}),$(document).ready(function(){$(document).on("click","#btn-more",function(){let e=$(this).data("id");$("#btn-more").html("Loading...."),$.ajax({url:"/more-reviews",method:"POST",data:{id:e,_token:"{{csrf_token()}}"},success:function(e){console.log(e),""!=e?($("#remove-row").remove(),$("#reviews-more").append(e)):$("#btn-more").html("No Data")}})})}),$(".rated").rating({size:"lg",min:0,max:5,step:1,displayOnly:!0,showClear:!1,showCaption:!1}),$("#input-rate").rating({size:"lg",min:0,max:5,step:1,showClear:!1,showCaption:!1});
     </script>
-
-    <script>
-        $(".rated").rating({
-            'size': 'lg',
-            'min': 0,
-            'max': 5,
-            'step': 1,
-            'displayOnly': true,
-            'showClear': false,
-            'showCaption': false
-        });
-
-        $("#input-rate").rating({
-            'size': 'lg',
-            'min': 0,
-            'max': 5,
-            'step': 1,
-            'showClear': false,
-            'showCaption': false
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $(document).on('click', '#btn-more', function () {
-                var id = $(this).data('id');
-                $("#btn-more").html("Loading....");
-                $.ajax({
-                    url: '/more-reviews',
-                    method: "POST",
-                    data: {
-                        id: id,
-                        _token: "{{csrf_token()}}"
-                    },
-                    success: function (data) {
-                        console.log(data);
-                        debugger;
-                        if (data != '') {
-                            $('#remove-row').remove();
-                            $('#reviews-more').append(data);
-                        }
-                        else {
-                            $('#btn-more').html("No Data");
-                        }
-                    }
-                });
-            });
-        });
-    </script>
-
-
-
-
 @endsection

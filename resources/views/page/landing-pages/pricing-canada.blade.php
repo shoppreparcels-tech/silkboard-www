@@ -65,33 +65,6 @@
 </script>
 
     <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-canada-per-kg" />
-
-    <style>
-        .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
-        .d-header-text {font-size: 40px;font-weight: 900}
-        .d-header-text1 {font-family: Montserrat -Italic;font-style: italic;line-height: 26px;margin-top: 25px}
-        .box-steps p {line-height: 1;}
-        .box-steps p span {font-size: 22px;font-weight: 900;}
-        #packing:hover{display: none}
-        .seo-sec {background-color: #fff}
-        .seo-sec a {text-decoration: underline}
-        .ul-seo ul li{list-style: none;}
-        .ul-seo li {font-size: 16px;font-weight: 600;color: #677582}
-
-
-        table th, td{border: 2px solid #fdf699 !important; border-radius: 4px !important;}
-        table th, td h1{color:#11273b;font-weight: 800; font-size: 20px}
-        table th, td span{color:#929ca5;font-weight: 800; font-size: 16px}
-        table th, td p{color:#507dbc;font-weight: 800; font-size: 16px}
-        .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 580px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 75px; }
-        @media only screen and (max-width: 600px) {
-            .bg-ics-l-p{height: 680px}
-            table th, td h1{font-weight: 700; font-size: 15px}
-            table th, td span{font-weight: 600; font-size: 13px}
-            table th, td p{font-weight: 600; font-size: 13px}
-        }
-    </style>
-
 @endsection
 @section('content')
 
@@ -174,28 +147,6 @@
                     {{csrf_field()}}
                     <div class="formFrame " id="diwali-couponcode1">
                         <h1 class="header2 p-color-blue" style="margin-bottom: 30px">Request a Callback</h1>
-                        {{--<div class="form-group">--}}
-                            {{--<label>Full Name <span class="p-color-red">*</span></label>--}}
-                            {{--<input type="text" name="Name" class="form-control"--}}
-                                   {{--placeholder="Enter Here" required>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group">--}}
-                            {{--<label>Contact Number<span class="p-color-red">*</span></label>--}}
-                            {{--<input type="text" name="ContactNumber" class="form-control"--}}
-                                   {{--placeholder="Enter a Valid Phone number" required>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group">--}}
-                            {{--<label>E-Mail ID<span class="p-color-red">*</span></label>--}}
-                            {{--<input type="email" name="email" class="form-control"--}}
-                                   {{--placeholder="Enter a valid E-mail ID" required>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group text-center">--}}
-                            {{--<button type="submit" name="btnActivate" class="btn btn-d-activate-coupon"> GET A FREE QUOTE--}}
-                            {{--</button>--}}
-                            {{--<button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r"> GET A FREE QUOTE--}}
-                            {{--</button>--}}
-                        {{--</div>--}}
-
                         <div class="form-group">
                             {{--<a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">--}}
                             <img src="/img/images/christmas-contact.png" alt="">
@@ -394,48 +345,12 @@
             </div>
         </div>
     </section>
-
+@endsection
 @section('js_script')
     <script>
-        $(document).ready(function () {
-            $("#ics_lp").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    debugger;
-                    var email = $("input[name='email']").val();
-                    var name = $("input[name='Name']").val();
-                    var contact_no = $("input[name='ContactNumber']").val();
-                    var token = $('input[name=_token]').val();
-                    jQuery.ajax({
-                        url: 'api-pricing-canada',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            email: email,
-                            name: name,
-                            contact_no: contact_no,
-                        },
-                        success: function (data) {
-                            console.log(data);
-                            $('#diwali-couponcode1').hide();
-                            // $('#diwali-couponcode2').css('display','block');
-                            $('#diwali-couponcode2').slideDown();
-                        }
-                    })
-                }
-            });
-
-        });
+        $(document).ready(function(){$("#ics_lp").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(a){var e=$("input[name='email']").val(),n=$("input[name='Name']").val(),i=$("input[name='ContactNumber']").val(),o=$("input[name=_token]").val();jQuery.ajax({url:"api-pricing-canada",type:"POST",data:{_token:o,email:e,name:n,contact_no:i},success:function(a){console.log(a),$("#diwali-couponcode1").hide(),$("#diwali-couponcode2").slideDown()}})}})});
     </script>
+@endsection
 
-@endsection
-@endsection
 
 

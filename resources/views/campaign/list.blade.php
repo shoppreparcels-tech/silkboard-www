@@ -4,7 +4,6 @@
 @section('description', 'Need to Schedule a package pickup online? Schedule your parcel quickly with Shoppre from your home or office and we will deliver for you within 2-5 business days.')
 @section('keywords', 'terms and conditions, set of rules and guidelines user must agree, following guidelines, website, mobile app')
 @section('css_style')
-    <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/star-rating.min.css')}}" rel="stylesheet"/>
     <meta name="robots" content="noindex,nofollow"/>
 @endsection
@@ -79,16 +78,4 @@
             </div>
         </font>
     </section>
-@endsection
-
-@section('js_script')
-    <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
-    <script type="text/javascript">
-        /* Magnific Popup */
-        $(document).ready(function () {
-            $('#example').DataTable({
-                "order": [[ 0, "desc" ]]
-            });
-        });
-    </script>
 @endsection

@@ -5,45 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <style media="all" type="text/css">
-        @media only screen and (max-device-width: 480px) {
-            table[class=body] .content,
-            table[class=body] .wrapper {
-                padding: 0px !important;
-            }
-            table[class=body] .container {
-                padding: 0 !important;
-                width: 100% !important;
-            }
-        }
-        @media only screen and (max-width: 620px) {
-            table[class=body] h1,
-            table[class=body] h2,
-            table[class=body] h3,
-            table[class=body] h4 {
-                font-weight: 600 !important;
-            }
-            table[class=body] h1 {
-                font-size: 22px !important;
-            }
-            table[class=body] h2 {
-                font-size: 18px !important;
-            }
-            table[class=body] h3 {
-                font-size: 16px !important;
-            }
-            table[class=body] .content,
-            table[class=body] .wrapper {
-                padding: 10px !important;
-            }
-            table[class=body] .container {
-                padding: 10px !important;
-                width: 100% !important;
-            }
-            table[class=body] .btn table,
-            table[class=body] .btn a {
-                width: 100% !important;
-            }
-        }
+        @media only screen and (max-device-width:480px){table[class=body] .content,table[class=body] .wrapper{padding:0!important}table[class=body] .container{padding:0!important;width:100%!important}}@media only screen and (max-width:620px){table[class=body] h1,table[class=body] h2,table[class=body] h3,table[class=body] h4{font-weight:600!important}table[class=body] h1{font-size:22px!important}table[class=body] h2{font-size:18px!important}table[class=body] h3{font-size:16px!important}table[class=body] .content,table[class=body] .wrapper{padding:10px!important}table[class=body] .container{padding:10px!important;width:100%!important}table[class=body] .btn a,table[class=body] .btn table{width:100%!important}}
     </style>
 </head>
 

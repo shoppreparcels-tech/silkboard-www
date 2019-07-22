@@ -23,45 +23,24 @@
     <meta name="twitter:image:alt" content="ShoppRe International Parcel Forwarding from India" />
 
     <style>
-        .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
-        .d-header-text {font-size: 40px;font-weight: 900}
-        .d-header-text1 {font-family: Montserrat -Italic;font-style: italic;line-height: 26px;margin-top: 25px}
-        .box-steps p {line-height: 1;}
-        .box-steps p span {font-size: 22px;font-weight: 900;}
-        .flipkart-h1{font-size: 25px}
-        .christmas-service .shopandship,.ps,.ic, h2{font-size: 22px;font-weight: 500;color: rgba(255, 255, 255, 0.6);}
-        .christmas-service .shopandship,.ps,.ic, p{color: #ffffff;font-size: 16px;font-weight: 600;}
-        .btn-grab-offer{width: 180px;height: 40px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 60px;background-color: #e85151;color: #fff;transition: 0.6s}
-        .btn-grab-offer:hover{color: #fff;background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);}
-
-        #packing:hover{display: none}
+        .bg-ics-landing-page .container>div{padding:20px;margin-bottom:3em}.d-header-text{font-size:40px;font-weight:900}.d-header-text1{font-family:Montserrat -Italic;font-style:italic;line-height:26px;margin-top:25px}.box-steps p{line-height:1}.box-steps p span{font-size:22px;font-weight:900}.flipkart-h1{font-size:25px}.christmas-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.christmas-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}#packing:hover{display:none}
     </style>
 
 @endsection
 @section('content')
-
     <section class="bg-ics-landing-page">
         <div class="container">
             <center>
                 <h1 class="p-color-white header-spacing d-header-text">Flipkart International Shipping From India</h1>
-
             </center>
-
         </div>
     </section>
-
-
     <section class="">
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - JULY 2019 Sales</h2>
                 </div>
-            {{--<div style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
-                {{--<a href="https://www.flipkart.com/flipstart-days-store" title="flipkart.com" target="_blank">Flipstart Days 1st - 3rd June.</a>--}}
-                     {{--</a>Shop from Flipkart and Ship with ShoppRe Worldwide.--}}
-
-        {{--</div>--}}
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
@@ -379,7 +358,7 @@
             </div>
         </div>
     </section>
-
+@endsection
 @section('js_script')
 
     <script type='text/javascript'>
@@ -390,22 +369,17 @@
             s.async = true;s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv1.js';
             document.getElementsByTagName('body')[0].appendChild(s);
         }());
-    </script>
 
-    <script>
         $(document).ready(function () {
-             $('#packing').mouseover(function () {
-                 $("#packing").css({"display": "none"});
-                 $("#packed").css({"display": "block"});
-             });
+            $('#packing').mouseover(function () {
+                $("#packing").css({"display": "none"});
+                $("#packed").css({"display": "block"});
+            });
             $("#packed").mouseout(function () {
                 $("#packing").css({"display": "block" ,"transition":"0.2s"});
                 $("#packed").css({"display": "none"});
-            })
-        })
-    </script>
-    <script>
-        $(document).ready(function () {
+            });
+
             $("#ics_lp").validate({
                 rules:
                     {
@@ -440,10 +414,6 @@
                 }
             });
 
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
             $("#ics-box2").hover(function () {
                 $("#ics-box2").css({
                     "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
@@ -480,10 +450,9 @@
                 $('#number3').css({"color": "#677582"})
 
             });
-
         });
     </script>
 @endsection
-@endsection
+
 
 

@@ -751,13 +751,6 @@
 @endsection
 @section('js_script')
   <script type="text/javascript">
-    $(document).ready(function () {
-      $("#btn_proforma_invoice").click(function () {
-        $('#myModal').modal('open');
-      });
-      $('#btn_cancel_popup').click(function () {
-        $('#myModal').modal('close');
-      });
-    });
+      $(document).ready(function(){$("#btn_proforma_invoice").click(function(){$("#myModal").modal("open")}),$("#btn_cancel_popup").click(function(){$("#myModal").modal("close")})});
   </script>
 @endsection

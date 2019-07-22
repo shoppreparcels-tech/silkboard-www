@@ -452,8 +452,11 @@
 @endsection
 
 @section('js_script')
-
+  <!-- Owl Carousel -->
+  <script src="{{asset('js/owl.carousel.min.js')}}"></script>
   <script src="{{asset('js/validate.min.js')}}"></script>
+  <script src="{{asset('js/select2.min.js')}}"></script>
+  <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
   <script type="text/javascript">
     $(document).ready(function(){
       $( "#shipping" ).validate({
@@ -507,75 +510,74 @@
                 }
             }
       });
-    });
-  </script>
 
+        $('.testimons').owlCarousel({
+            loop:true,
+            margin:10,
+            responsiveClass:true,
+            navText: '',
+            autoplay: true,
+            autoplayTimeout: 8500,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true
+                },
+                600:{
+                    items:1,
+                    nav:true
+                },
+                1000:{
+                    items:1,
+                    nav:true,
+                    loop:true
+                }
+            }
+        });
 
-  <!-- Owl Carousel -->
-  <script src="{{asset('js/owl.carousel.min.js')}}"></script>
-  <script type="text/javascript">
-    $( document ).ready(function() {
-      $('.testimons').owlCarousel({
-          loop:true,
-          margin:10,
-          responsiveClass:true,
-          navText: '',
-          autoplay: true,
-          autoplayTimeout: 8500,
-          responsive:{
-              0:{
-                  items:1,
-                  nav:true
-              },
-              600:{
-                  items:1,
-                  nav:true
-              },
-              1000:{
-                  items:1,
-                  nav:true,
-                  loop:true
-              }
-          }
-      });
-    });
-  </script>
+        $(".select2").select2();
 
-  <!-- Select2 -->
-  <script src="{{asset('js/select2.min.js')}}"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $(".select2").select2();
+        $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+            disableOn: 700,
+            type: 'iframe',
+            mainClass: 'mfp-fade',
+            removalDelay: 160,
+            preloader: false,
+
+            fixedContentPos: false
+        });
+
+        // End of the document ready
     });
 
     $("#select_iso").change(function(){
-      if ($(this).val().length != 0) {
-        window.location = "/country/"+$(this).val();
-      }
+        if ($(this).val().length != 0) {
+            window.location = "/country/"+$(this).val();
+        }
     });
 
     $("#xchange_calc select").change(function(){
-      var country_from = $("#country_from").val();
-      var country_to = $("#country_to").val();
-      var token = $('input[name=_token]').val();
+        var country_from = $("#country_from").val();
+        var country_to = $("#country_to").val();
+        var token = $('input[name=_token]').val();
 
-      $(".xchange_rate #calc_load").show();
-      jQuery.ajax({
-          url: '/calculate/exchange-rate',
-          type : "POST",
-          data:{ _token:token, country_from:country_from, country_to:country_to},
-          success: function(data) {
-            $(".xchange_rate #calc_load").hide();
-            if (data.error) {
-              $('.xchange_rate #calc_error').css('display', 'block').text('We can not process this request! Try again later.');
-            }else{
-              $(".xchange_rate #xchange_display").html("1 "+data.from_curr+" = "+data.rate+" "+data.to_curr);
-              $(".xchange_rate #rate_input").val(data.rate);
-              $(".xchange_rate #rate_from").val(1);
-              $(".xchange_rate #rate_to").val(data.rate);
+        $(".xchange_rate #calc_load").show();
+        jQuery.ajax({
+            url: '/calculate/exchange-rate',
+            type : "POST",
+            data:{ _token:token, country_from:country_from, country_to:country_to},
+            success: function(data) {
+                $(".xchange_rate #calc_load").hide();
+                if (data.error) {
+                    $('.xchange_rate #calc_error').css('display', 'block').text('We can not process this request! Try again later.');
+                }else{
+                    $(".xchange_rate #xchange_display").html("1 "+data.from_curr+" = "+data.rate+" "+data.to_curr);
+                    $(".xchange_rate #rate_input").val(data.rate);
+                    $(".xchange_rate #rate_from").val(1);
+                    $(".xchange_rate #rate_to").val(data.rate);
+                }
             }
-          }
-      });
+        });
     });
 
     $(document).on('keyup', '.xchange_rate #rate_from', function() {
@@ -594,33 +596,16 @@
         $(".xchange_rate #rate_from").val(rate_from.toFixed(3));
     });
 
-  </script>
-  <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-
-        fixedContentPos: false
-      });
-    });
-  </script>
-    <script>
-      $(document).ready(function () {
-        $("#form-weight").validate({
-          rules:
-              {
-                  email: {required: true}
-              },
-          messages:
-              {
-                  // email: {required: 'Please enter your email id'}
-              },
-          submitHandler: function (form) {
+    $("#form-weight").validate({
+        rules:
+            {
+                email: {required: true}
+            },
+        messages:
+            {
+                // email: {required: 'Please enter your email id'}
+            },
+        submitHandler: function (form) {
             var country = $("select[name='Mcountry']").val();
             var email = $("input[name='Memail']").val();
             var name = $("input[name='MName']").val();
@@ -628,23 +613,23 @@
             var weight = $("input[name='Mweight']").val();
             var token = $('input[name=_token]').val();
             jQuery.ajax({
-              url: '/api-pricing-calculator',
-              type: "POST",
-              data: {
-                  _token: token,
-                  name: name,
-                  weight: weight,
-                  email: email,
-                  country: country,
-                  contact_no: contact_no,
+                url: '/api-pricing-calculator',
+                type: "POST",
+                data: {
+                    _token: token,
+                    name: name,
+                    weight: weight,
+                    email: email,
+                    country: country,
+                    contact_no: contact_no,
 
-              },
-              success: function (data) {
-                  $('#moreWeight').modal('hide')
-              }
+                },
+                success: function (data) {
+                    $('#moreWeight').modal('hide')
+                }
             })
-          }
-        });
-      });
-    </script>
+        }
+    });
+
+  </script>
 @endsection

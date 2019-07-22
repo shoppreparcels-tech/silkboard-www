@@ -26,15 +26,8 @@
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/custom/New_style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
 
-    {{--<link rel="stylesheet" href="{{asset('css/custom/ics.css')}} ">--}}
-    {{--<link rel="stylesheet" href="{{asset('css/custom/ifs.css')}}">--}}
-    {{--<link rel="stylesheet" href="{{asset('css/custom/offers.css')}}">--}}
-    {{--<link rel="stylesheet" href="{{asset('css/custom/diwali.css')}}">--}}
-    {{--<link rel="stylesheet" href="{{asset('css/intlTelInput.css')}}">--}}
-    {{--<link rel="stylesheet" href="{{asset('css/custom/faq.css')}}">--}}
-    {{--<link rel="stylesheet" href="{{asset('css/custom/stores-new.css')}}">--}}
-
     <link rel="stylesheet" href="{{asset('css/custom/style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/landing-page.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
     <link rel="stylesheet" href="{{asset('css/custom/style-frame.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
     <link rel="stylesheet" href="{{asset('css/custom/signup.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
     <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
@@ -61,34 +54,32 @@
 
 @yield('schema_markup')
 
-<!--mailchimp RM-->
-    <script id="mcjs">!function (c, h, i, m, p) {
-            m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
-        }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/8f7212d51aa9533c4788ccf05/2a914120f0c71f0c8738d91cf.js");</script>
-    <!--mailchimp RM-->
     <link rel="manifest" href="/manifest.json" />
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-    <script>
+<!--mailchimp RM-->
+    <script id="mcjs">
+        !function (c, h, i, m, p) {
+            m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
+        }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/8f7212d51aa9533c4788ccf05/2a914120f0c71f0c8738d91cf.js");
+
+        <!-- one signal -->
         var OneSignal = window.OneSignal || [];
         OneSignal.push(function() {
             OneSignal.init({
                 appId: "16b3fb8b-ebf8-4bcf-8f46-b8e124634065",
             });
         });
-    </script>
-<!-- End one signal -->
+        <!-- End one signal -->
 
-<!-- Start branch -->
-    <script>
+        <!-- Start branch -->
         // load Branch
         (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent logEvent disableTracking".split(" "), 0);
         // init Branch
         branch.init('key_live_dpUiXdx8wJuDUbRMgEpMBefpuBcQCx32');
-    </script>
-<!-- End Branch -->
+    <!-- End Branch -->
 
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
+        <!-- Google Tag Manager -->
+     (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
                 'gtm.start':
@@ -100,8 +91,9 @@
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-NRL4B6X');</script>
+        })(window, document, 'script', 'dataLayer', 'GTM-NRL4B6X');
     <!-- End Google Tag Manager -->
+    </script>
 
 </head>
 <body class="body">
@@ -113,30 +105,6 @@
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<script>
-    if (!localStorage.referer) {
-        localStorage.referer = "<?php echo isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'no-referrer'  ?>";
-        localStorage.first_visit = window.location.href;
-    }
-    if (window.location.href.indexOf('?') !== -1 ) {
-        let queryParam = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-        console.log('query param', queryParam);
-        if (queryParam.length === 4) {
-            if (!localStorage.utm_campaign && queryParam[0].split('=')[0] === 'utm_campaign') {
-                localStorage.utm_campaign = queryParam[0].split('=')[1];
-            }
-            if (!localStorage.utm_source && queryParam[1].split('=')[0] === 'utm_source') {
-                localStorage.utm_source = queryParam[1].split('=')[1];
-            }
-            if (!localStorage.utm_medium && queryParam[2].split('=')[0] === 'utm_medium') {
-                localStorage.utm_medium = queryParam[2].split('=')[1];
-            }
-            if (!localStorage.gcl_id && queryParam[3].split('=')[0] === 'gclid') {
-                localStorage.gcl_id = queryParam[3].split('=')[1];
-            }
-        }
-    }
-</script>
 @include('partials._header')
 <div class="container">
     <!-- Modal -->
@@ -175,9 +143,31 @@
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/star-rating.min.js" type="text/javascript"></script>
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/select2.min.js"></script>
 
-
-<!-- Angular Script -->
 <script>
+
+    if (!localStorage.referer) {
+        localStorage.referer = "<?php echo isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'no-referrer'  ?>";
+        localStorage.first_visit = window.location.href;
+    }
+    if (window.location.href.indexOf('?') !== -1 ) {
+        let queryParam = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+        console.log('query param', queryParam);
+        if (queryParam.length === 4) {
+            if (!localStorage.utm_campaign && queryParam[0].split('=')[0] === 'utm_campaign') {
+                localStorage.utm_campaign = queryParam[0].split('=')[1];
+            }
+            if (!localStorage.utm_source && queryParam[1].split('=')[0] === 'utm_source') {
+                localStorage.utm_source = queryParam[1].split('=')[1];
+            }
+            if (!localStorage.utm_medium && queryParam[2].split('=')[0] === 'utm_medium') {
+                localStorage.utm_medium = queryParam[2].split('=')[1];
+            }
+            if (!localStorage.gcl_id && queryParam[3].split('=')[0] === 'gclid') {
+                localStorage.gcl_id = queryParam[3].split('=')[1];
+            }
+        }
+    }
+
     angular.module('shoppre', ['ui.bootstrap']);
     function IndexController($scope, $http) {
         $scope.Faqs = {
@@ -223,12 +213,9 @@
 
     }
 
-
     angular.module('shoppre')
         .controller('IndexController', IndexController);
 
-</script>
-<script type="text/javascript">
     $(window).on('load', function () {
         if (!localStorage.offer) {
             setTimeout(function () {
@@ -237,9 +224,6 @@
             }, 30000);
         }
     });
-
-</script>
-<script>
     var input = document.querySelector("#phone");
     window.intlTelInput(input, {
         // allowDropdown: false,
@@ -264,14 +248,12 @@
         // separateDialCode: true,
         utilsScript: "build/js/utils.js",
     });
-</script>
-<script type="text/javascript">
+
     jQuery(function () {
         jQuery("a.bla-1").YouTubePopUp();
         jQuery("a.bla-2").YouTubePopUp({autoplay: 0}); // Disable autoplay
     });
-</script>
-<script>
+
     (function ($) {
         $.fn.YouTubePopUp = function (options) {
             var YouTubePopUpOptions = $.extend({
@@ -337,8 +319,6 @@
 
     }(jQuery));
 
-</script>
-<script>
     $(document).ready(function () {
         $("#btnClosePopup").click(function () {
             localStorage.popupClose = "close";
@@ -361,11 +341,7 @@
             localStorage.popupClose = "close";
             $('#myModal').modal('show');
         }
-    });
 
-</script>
-<script>
-    $(document).ready(function () {
         $('.inc-value').click(function () {
             var x = parseFloat($(this).parent().find('input[type="text"]').val());
             x = x + 0.5;
@@ -388,71 +364,42 @@
                 $(this).parent().find('input[type="text"]').val(x);
             }
         });
-    });
 
-</script>
-<script type="text/javascript">
-    $(document).ready(function () {
         var progress_val = $("#progress_val").val();
         $('.progress_bar').data("animated", false).textProgress(progress_val);
-    });
-</script>
-<script type="text/javascript">
-    $(function () {
+
+        $("ul#liticker").liScroll({travelocity: 0.05});
+
         $('.tooltipkey').tooltip({
             'html': true
-        })
-    })
-</script>
-<!-- li-Scroller -->
-<script src="{{asset('js/liscroller.1.0.js')}}"></script>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $("ul#liticker").liScroll({travelocity: 0.05});
-    });
-</script>
-@include('chat-script')
-
-<script>
-    if (window.location.href == "https://www.shoppre.com/campaign/flyer/616") {
-        if (!localStorage.newsUrlVisit) {
-            // console.log("News Enter");
-            localStorage.newsUrlVisit = window.location.href;
-            // var coupon_news = "KOR-BLR-N";
-            var url = window.location.href;
-            storecustomer(localStorage.newsUrlVisit, coupon_news);
-        }
-    }
-
-    function storecustomer(url, coupon) {
-        $.ajax({
-            url: '/api/campaign/newaspaper',
-            type: "POST",
-            data: {
-                url: url,
-                coupon: coupon
-            },
-            success: function (data) {
-                console.log(data);
-            }
         });
-    }
 
-</script>
-<script type="text/JavaScript">
-    window.zESettings = {
-        webWidget: {
-            position: {
-                horizontal: 'right',
-                vertical: 'bottom'
+        if (window.location.href == "https://www.shoppre.com/campaign/flyer/616") {
+            if (!localStorage.newsUrlVisit) {
+                // console.log("News Enter");
+                localStorage.newsUrlVisit = window.location.href;
+                // var coupon_news = "KOR-BLR-N";
+                var url = window.location.href;
+                storecustomer(localStorage.newsUrlVisit, coupon_news);
             }
         }
-    };
-</script>
 
-<script type="text/javascript">
-    $(document).ready(function () {
+        function storecustomer(url, coupon) {
+            $.ajax({
+                url: '/api/campaign/newaspaper',
+                type: "POST",
+                data: {
+                    url: url,
+                    coupon: coupon
+                },
+                success: function (data) {
+                    console.log(data);
+                }
+            });
+        }
+
+        $(".select2").select2();
+
         //rotation speed and timer
         var speed = 5000;
         var run = setInterval(rotate, speed);
@@ -511,44 +458,10 @@
             });
         }
 
-    });
+        function rotate() {
+            $('#next').click();
+        }
 
-    function rotate() {
-        $('#next').click();
-    }
-</script>
-
-<script>
-    $(".rated").rating({
-        'size': 'xs',
-        'min': 0,
-        'max': 5,
-        'step': 1,
-        'displayOnly': true,
-        'showClear': false,
-        'showCaption': false
-    });
-
-    $("#input-rate").rating({
-        'size': 'sm',
-        'min': 0,
-        'max': 5,
-        'step': 1,
-        'showClear': false,
-        'showCaption': false
-    });
-</script>
-<!-- Select2 -->
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $(".select2").select2();
-    });
-</script>
-
-
-<script>
-    $(document).ready(function () {
         $("#subscribe").validate({
             rules:
                 {
@@ -576,36 +489,6 @@
             }
         });
 
-    });
-</script>
-
-<!-- start Mixpanel -->
-    <script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
-        0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
-        for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
-        MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
-    mixpanel.init("d11e1c2848289284d206db2942112c27");</script>
-<!-- end Mixpanel -->
-
-{{--this block is required --}}
-{{--<script>--}}
-{{--$(document).ready(function(){--}}
-{{--$(".dropdown").hover(--}}
-{{--function() {--}}
-{{--$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");--}}
-{{--$(this).toggleClass('open');--}}
-{{--},--}}
-{{--function() {--}}
-{{--$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");--}}
-{{--$(this).toggleClass('open');--}}
-{{--}--}}
-{{--);--}}
-{{--});--}}
-{{--</script>--}}
-{{--this block is required --}}
-
-<script>
-    $(document).ready(function () {
         var submitIcon = $('.searchbox-icon');
         var inputBox = $('.searchbox-input');
         var searchBox = $('.searchbox');
@@ -634,7 +517,59 @@
                 $('.searchbox-input').val('');
             }
         });
+
+        setInterval(function () {
+            $('#offer').animate({Color: 'red'}, 300)
+                .animate({Color: 'green'}, 300);
+        }, 1000);
+
+        $('#packing').mouseover(function () {
+            $("#packing").css({"display": "none"});
+            $("#packed").css({"display": "block"});
+        });
+
+        $("#packed").mouseout(function () {
+            $("#packing").css({"display": "block" ,"transition":"0.2s"});
+            $("#packed").css({"display": "none"});
+        })
+        // End of Document ready
     });
+
+    window.zESettings = {
+        webWidget: {
+            position: {
+                horizontal: 'right',
+                vertical: 'bottom'
+            }
+        }
+    };
+
+    $(".rated").rating({
+        'size': 'xs',
+        'min': 0,
+        'max': 5,
+        'step': 1,
+        'displayOnly': true,
+        'showClear': false,
+        'showCaption': false
+    });
+
+    $("#input-rate").rating({
+        'size': 'sm',
+        'min': 0,
+        'max': 5,
+        'step': 1,
+        'showClear': false,
+        'showCaption': false
+    });
+
+    <!-- start Mixpanel -->
+    (function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
+        0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+        for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+        MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
+    mixpanel.init("d11e1c2848289284d206db2942112c27");
+<!-- end Mixpanel -->
 
     function buttonUp() {
         var inputVal = $('.searchbox-input').val();
@@ -646,25 +581,6 @@
             $('.searchbox-icon').css('display', 'block');
         }
     }
-
-    $(document).ready(function () {
-        setInterval(function () {
-            $('#offer').animate({Color: 'red'}, 300)
-                .animate({Color: 'green'}, 300);
-        }, 1000);
-
-    });
-
-    $(document).ready(function () {
-        $('#packing').mouseover(function () {
-            $("#packing").css({"display": "none"});
-            $("#packed").css({"display": "block"});
-        });
-        $("#packed").mouseout(function () {
-            $("#packing").css({"display": "block" ,"transition":"0.2s"});
-            $("#packed").css({"display": "none"});
-        })
-    })
 
 </script>
 

@@ -142,65 +142,6 @@
 
 @section('js_script')
     <script>
-        $(document).ready(function () {
-            $("#vidConslidate").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    debugger;
-                    var name = $("input[name='name']").val();
-                    var email = $("input[name='email']").val();
-                    var phone = $("input[name='phone']").val();
-                    var token = $('input[name=_token]').val();
-                    jQuery.ajax({
-                        url: 'apiVideoConsolidation',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            name: name,
-                            email: email,
-                            phone: phone,
-                        },
-                        success: function (data) {
-                            console.log(data);
-                            window.location.replace("https://www.shoppre.com/customer/register");
-                        }
-                    })
-                }
-            });
-
-        });
-    </script>
-    <script>
-        var input = document.querySelector("#phone");
-        window.intlTelInput(input, {
-            // allowDropdown: false,
-            // autoHideDialCode: false,
-            // autoPlaceholder: "off",
-            // dropdownContainer: document.body,
-            // excludeCountries: ["us"],
-            // formatOnDisplay: false,
-            // geoIpLookup: function(callback) {
-            //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
-            //     var countryCode = (resp && resp.country) ? resp.country : "";
-            //     callback(countryCode);
-            //   });
-            // },
-            // hiddenInput: "full_number",
-            // initialCountry: "auto",
-            // localizedCountries: { 'de': 'Deutschland' },
-            // nationalMode: false,
-            // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-            // placeholderNumberType: "MOBILE",
-            // preferredCountries: ['cn', 'jp'],
-            // separateDialCode: true,
-            utilsScript: "build/js/utils.js",
-        });
+        $(document).ready(function(){$("#vidConslidate").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var n=$("input[name='name']").val(),i=$("input[name='email']").val(),t=$("input[name='phone']").val(),a=$("input[name=_token]").val();jQuery.ajax({url:"apiVideoConsolidation",type:"POST",data:{_token:a,name:n,email:i,phone:t},success:function(e){console.log(e),window.location.replace("https://www.shoppre.com/customer/register")}})}})});var input=document.querySelector("#phone");window.intlTelInput(input,{utilsScript:"build/js/utils.js"});
     </script>
 @endsection

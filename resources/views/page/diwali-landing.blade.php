@@ -314,40 +314,6 @@
 
 @section('js_script')
     <script>
-        $(document).ready(function () {
-            $("#diwali_coupon").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    var email = $("input[name='email']").val();
-                    var name = $("input[name='Name']").val();
-                    var contact_no = $("input[name='ContactNumber']").val();
-                    var token = $('input[name=_token]').val();
-                    jQuery.ajax({
-                        url: 'diwali-offer',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            email: email,
-                            name: name,
-                            contact_no: contact_no,
-                        },
-                        success: function (data) {
-                            console.log(data);
-                            $('#diwali-couponcode1').hide();
-                            // $('#diwali-couponcode2').css('display','block');
-                            $('#diwali-couponcode2').slideDown();
-                        }
-                    })
-                }
-            });
-
-        });
+        $(document).ready(function(){$("#diwali_coupon").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var a=$("input[name='email']").val(),n=$("input[name='Name']").val(),i=$("input[name='ContactNumber']").val(),o=$("input[name=_token]").val();jQuery.ajax({url:"diwali-offer",type:"POST",data:{_token:o,email:a,name:n,contact_no:i},success:function(e){console.log(e),$("#diwali-couponcode1").hide(),$("#diwali-couponcode2").slideDown()}})}})});
     </script>
 @endsection

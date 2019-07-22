@@ -21,20 +21,6 @@
                           @if (session('error'))
                               <div class="alert alert-danger">{{ session('error') }}</div>
                           @endif
-
-                          {{--<div class="col s12">--}}
-                              {{--<form method="get" action="{{route('admin.shipping')}}">--}}
-                                  {{--{{csrf_field()}}--}}
-                                  {{--<div class="input-field col s10">--}}
-                                      {{--<input type="text" name="search" class="validate" value="{{Request::get('search')}}">--}}
-                                      {{--<label class="">Search Shipments</label>--}}
-                                  {{--</div>--}}
-                                  {{--<div class="input-field col s2">--}}
-                                      {{--<button type="submit" class="btn btn-large waves-effect waves-light green lighten-2">Search</button>--}}
-                                  {{--</div>--}}
-                              {{--</form>--}}
-                          {{--</div>--}}
-
                           <div class="projects scroll">
                             <div class="projects-table">
                               <table id="example" class="display" cellspacing="0" width="100%">

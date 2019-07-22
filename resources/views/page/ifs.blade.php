@@ -92,39 +92,7 @@
     </script>
 
     <style>
-        /*.header .container{padding-bottom: 50px}*/
-        .box-ifs {/*margin-left: 70px*/}
-        .box-ifs p {font-weight: 900;}
-        .no-margin { margin: 0px }
-        #image1 {margin-top: -94px;}
-        #image1 img {/*margin-top: 80px;*/margin-left: 60px;}
-        #image1 h3 {margin-top: 60px;}
-        #how-it-works div {margin: 77px 0 13px 0;}
-        #text1 {padding: 0;display: none;}
-        #step-register {text-align: center;font-weight: 900;}
-        #step2 {margin-left: 70px}
-        #image2 {display: none;margin-top: -94px;}
-        #image2 h3 {margin-top: 60px;}
-        #image2 img {margin-top: 16px;margin-left: 40px;}
-        #image3 {display: none;margin-top: -94px;}
-        #image3 img{margin-top: 30px;margin-left: 45px;}
-        #image3 h3 {margin-top: 60px;}
-        #mobile-image2 {width: 80%;display: none;}
-        #mobile-image3 {width: 80%;display: none;}
-        .step-font-weight{font-weight: 900;line-height: 1;}
-        .p-shoper-section{padding-top: 100px;}
-        .register-free{border-radius: 12px;background-color: #e85151;transition: 0.6s;padding: 10px 50px 10px;;color: #fff;}
-        .register-free:hover{background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);color: #fff}
-        .register-free:focus{background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);color: #fff}
-        .div-play-btn{padding-top: 20px;}
-        .div-play-btn img{width: 40px;margin-top: -10px;}
-        .div-play-btn a span{margin-top: 5px}
-        .ifs-bg-img{background-image: url("../../img/images/international-courier-from-india.png");height: 470px;width: 100%;background-position: inherit;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;padding-bottom: 4%;}
-        @media only screen and (max-width: 600px) {
-            .register-free {padding: 10px 9px 10px;}
-            .div-play-btn{padding-top: 10px;}
-            .offer-img-d{display: none}
-        }
+        .box-ifs p{font-weight:900}.no-margin{margin:0}#image1{margin-top:-94px}#image1 img{margin-left:60px}#image1 h3{margin-top:60px}#how-it-works div{margin:77px 0 13px 0}#text1{padding:0;display:none}#step-register{text-align:center;font-weight:900}#step2{margin-left:70px}#image2{display:none;margin-top:-94px}#image2 h3{margin-top:60px}#image2 img{margin-top:16px;margin-left:40px}#image3{display:none;margin-top:-94px}#image3 img{margin-top:30px;margin-left:45px}#image3 h3{margin-top:60px}#mobile-image2{width:80%;display:none}#mobile-image3{width:80%;display:none}.step-font-weight{font-weight:900;line-height:1}.p-shoper-section{padding-top:100px}.register-free{border-radius:12px;background-color:#e85151;transition:.6s;padding:10px 50px 10px;color:#fff}.register-free:hover{background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6);color:#fff}.register-free:focus{background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6);color:#fff}.div-play-btn{padding-top:20px}.div-play-btn img{width:40px;margin-top:-10px}.div-play-btn a span{margin-top:5px}.ifs-bg-img{background-image:url(../../img/images/international-courier-from-india.png);height:470px;width:100%;background-position:inherit;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px;padding-bottom:4%}@media only screen and (max-width:600px){.register-free{padding:10px 9px 10px}.div-play-btn{padding-top:10px}.offer-img-d{display:none}}
     </style>
 @endsection
 
@@ -152,8 +120,8 @@
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                 <a href="https://www.amazon.in/rakhis-rakhi-hampers/b?ie=UTF8&node=5143508031" title="Amazon" target="_blank">1. Amazon.in 👉The Rakhi Store</a> |
-                <a href="https://www.myntra.com/" title="Myntra" target="_blank">2. Myntra 👉Blockbuster Sale 18th-21st July</a> |
-                <a href="https://clnk.in/i19o" title="ajio.com" target="_blank">3. Ajio.com 👉Ajio Manina Sale 18th-21st July</a>
+                <a href="https://www.myntra.com/" title="Myntra" target="_blank">2. Myntra 👉End of Season Sale </a> |
+                <a href="https://clnk.in/i19o" title="ajio.com" target="_blank">3. Ajio.com 👉Style Splash</a>
             </marquee>
         </div>
         <div class="container" id="how-it-works">
@@ -962,173 +930,6 @@
 @section('js_script')
 
     <script>
-        $(document).ready(function () {
-            $('.div-step1').hover(function () {
-                    $('#image1').show();
-                    $("#text1").hide();
-                    $("#step1").css({'border-color': 'red'})
-                    $("#number1").css({'color': 'red'})
-
-                },
-                function () {
-                    $('#image1').show();
-                    $("#text1").hide();
-                    $("#step1").css({'border-color': '#929ca5'})
-                    $("#number1").css({'color': '#929ca5'})
-                    $(".div-step1").css({'height': '400px', 'width': '634px'})
-                });
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('.div-step2').hover(function () {
-                    $('#image2').show();
-                    $("#text2").hide();
-                    $("#step2").css({'border-color': 'red'})
-                    $("#number2").css({'color': 'red'})
-                    $(".div-step1").css({'height': '400px', 'width': '228px', 'background-color': '#fafafb'})
-                    $("#step1").css({'border-color': '#929ca5'})
-                    $('#image1').hide();
-                    $("#text1").show();
-                    $("#step1").css({'margin-left': '70px'})
-                    $("#step3").css({'margin-left': '70px'})
-                    /*background-color: #fafafb;*/
-                },
-                function () {
-                    $('#image2').hide();
-                    $("#text2").show();
-                    $("#step2").css({'border-color': '#929ca5'})
-                    $("#number2").css({'color': '#929ca5'})
-                    $(".div-step1").css({'height': '400px', 'width': '679px', 'background-color': '#ffffff'})
-                    $("#step1").css({'border-color': 'red'})
-                    $('#image1').show();
-                    $("#text1").hide();
-                    $("#step1").css({'margin-left': '0'})
-                    $("#step3").css({'margin-left': '70px'})
-                    $(".div-step1").css({'height': '400px', 'width': '634px'})
-                });
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('.div-step3').hover(function () {
-                    $('#image3').show();
-                    $("#text3").hide();
-                    $("#step3").css({'border-color': 'red'})
-                    $("#number3").css({'color': 'red'})
-                    $(".div-step1").css({'height': '400px', 'width': '228px', 'background-color': '#fafafb'})
-                    $("#div-container").css({'background-color': '#ffffff'})
-                    $("#step1").css({'border-color': '#929ca5'})
-                    $('#image1').hide();
-                    $("#text1").show();
-                    $("#step1").css({'margin-left': '70px'})
-                    $("#step2").css({'margin-left': '70px'})
-                },
-                function () {
-                    $('#image3').hide();
-                    $("#text3").show();
-                    $("#step3").css({'border-color': '#929ca5'})
-                    $("#number3").css({'color': '#929ca5'})
-                    $(".div-step1").css({'height': '400px', 'width': '679px', 'background-color': '#ffffff'})
-                    $("#step1").css({'border-color': 'red'})
-                    $('#image1').show();
-                    $("#text1").hide();
-                    $("#step1").css({'margin-left': '0'})
-                    $("#step2").css({'margin-left': '70px'})
-                    $(".div-step1").css({'height': '400px', 'width': '634px'})
-                });
-        });
-    </script>
-
-    <script>
-        $(document).ready(function () {
-            $('#mobile-step1').hover(function () {
-                    $('#mobile-image1').show();
-                    $("#mobile-image2").hide();
-                    $("#mobile-image3").hide();
-                },
-                function () {
-                    $('#mobile-image1').show();
-                    $("#mobile-image2").hide();
-                    $("#mobile-image3").hide();
-                });
-        });
-    </script>
-
-    <script>
-        $(document).ready(function () {
-            $('#mobile-step2').hover(function () {
-                    $('#mobile-image1').hide();
-                    $("#mobile-image2").show();
-                    $("#mobile-image3").hide();
-                    $("#m-number2").css({'color': 'red'})
-                    $("#m-number3").css({'color': '#929ca5'})
-                    $("#m-number1").css({'color': '#929ca5'})
-                    $("#mobile-step2").css({'border-color': 'red'})
-                    $("#mobile-step1").css({'border-color': '#929ca5'})
-                    $("#mobile-step3").css({'border-color': '#929ca5'})
-                },
-                function () {
-                    $('#mobile-image1').show();
-                    $("#mobile-image2").hide();
-                    $("#mobile-image3").hide();
-                    $("#m-number2").css({'color': '#929ca5'})
-                    $("#m-number3").css({'color': '#929ca5'})
-                    $("#m-number1").css({'color': 'red'})
-                    $("#mobile-step2").css({'border-color': '#929ca5'})
-                    $("#mobile-step1").css({'border-color': 'red'})
-                    $("#mobile-step3").css({'border-color': '#929ca5'})
-
-                });
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('#mobile-step3').hover(function () {
-                    $('#mobile-image1').hide();
-                    $("#mobile-image2").hide();
-                    $("#mobile-image3").show();
-                    $("#m-number2").css({'color': '#929ca5'})
-                    $("#m-number3").css({'color': 'red'})
-                    $("#m-number1").css({'color': '#929ca5'})
-                    $("#mobile-step3").css({'border-color': 'red'})
-                    $("#mobile-step1").css({'border-color': '#929ca5'})
-                    $("#mobile-step2").css({'border-color': '#929ca5'})
-                },
-                function () {
-                    $('#mobile-image1').show();
-                    $("#mobile-image2").hide();
-                    $("#mobile-image3").hide();
-                    $("#m-number2").css({'color': '#929ca5'})
-                    $("#m-number3").css({'color': '#929ca5'})
-                    $("#m-number1").css({'color': 'red'})
-                    $("#mobile-step2").css({'border-color': '#929ca5'})
-                    $("#mobile-step1").css({'border-color': 'red'})
-                    $("#mobile-step3").css({'border-color': '#929ca5'})
-
-                });
-        });
-    </script>
-
-    <script>
-        $(document).ready(function () {
-            $("div.ifs-tab-menu>div.list-group>a").hover(function (e) {
-                e.preventDefault();
-                $(this).siblings('a.active').removeClass("active");
-                $(this).addClass("active");
-                var index = $(this).index();
-                $("div.ifs-tab>div.ifs-tab-content").removeClass("active");
-                $("div.ifs-tab>div.ifs-tab-content").eq(index).addClass("active");
-            });
-        });
-    </script>
-    <script>
-        $(".panel-heading").parent('.panel').hover(
-            function () {
-                $(this).children('.collapse').collapse('show');
-            }, function () {
-                $(this).children('.collapse').collapse('hide');
-            }
-        );
+        $(document).ready(function(){$(".div-step1").hover(function(){$("#image1").show(),$("#text1").hide(),$("#step1").css({"border-color":"red"}),$("#number1").css({color:"red"})},function(){$("#image1").show(),$("#text1").hide(),$("#step1").css({"border-color":"#929ca5"}),$("#number1").css({color:"#929ca5"}),$(".div-step1").css({height:"400px",width:"634px"})}),$(".div-step2").hover(function(){$("#image2").show(),$("#text2").hide(),$("#step2").css({"border-color":"red"}),$("#number2").css({color:"red"}),$(".div-step1").css({height:"400px",width:"228px","background-color":"#fafafb"}),$("#step1").css({"border-color":"#929ca5"}),$("#image1").hide(),$("#text1").show(),$("#step1").css({"margin-left":"70px"}),$("#step3").css({"margin-left":"70px"})},function(){$("#image2").hide(),$("#text2").show(),$("#step2").css({"border-color":"#929ca5"}),$("#number2").css({color:"#929ca5"}),$(".div-step1").css({height:"400px",width:"679px","background-color":"#ffffff"}),$("#step1").css({"border-color":"red"}),$("#image1").show(),$("#text1").hide(),$("#step1").css({"margin-left":"0"}),$("#step3").css({"margin-left":"70px"}),$(".div-step1").css({height:"400px",width:"634px"})}),$(".div-step3").hover(function(){$("#image3").show(),$("#text3").hide(),$("#step3").css({"border-color":"red"}),$("#number3").css({color:"red"}),$(".div-step1").css({height:"400px",width:"228px","background-color":"#fafafb"}),$("#div-container").css({"background-color":"#ffffff"}),$("#step1").css({"border-color":"#929ca5"}),$("#image1").hide(),$("#text1").show(),$("#step1").css({"margin-left":"70px"}),$("#step2").css({"margin-left":"70px"})},function(){$("#image3").hide(),$("#text3").show(),$("#step3").css({"border-color":"#929ca5"}),$("#number3").css({color:"#929ca5"}),$(".div-step1").css({height:"400px",width:"679px","background-color":"#ffffff"}),$("#step1").css({"border-color":"red"}),$("#image1").show(),$("#text1").hide(),$("#step1").css({"margin-left":"0"}),$("#step2").css({"margin-left":"70px"}),$(".div-step1").css({height:"400px",width:"634px"})}),$("#mobile-step1").hover(function(){$("#mobile-image1").show(),$("#mobile-image2").hide(),$("#mobile-image3").hide()},function(){$("#mobile-image1").show(),$("#mobile-image2").hide(),$("#mobile-image3").hide()}),$("#mobile-step2").hover(function(){$("#mobile-image1").hide(),$("#mobile-image2").show(),$("#mobile-image3").hide(),$("#m-number2").css({color:"red"}),$("#m-number3").css({color:"#929ca5"}),$("#m-number1").css({color:"#929ca5"}),$("#mobile-step2").css({"border-color":"red"}),$("#mobile-step1").css({"border-color":"#929ca5"}),$("#mobile-step3").css({"border-color":"#929ca5"})},function(){$("#mobile-image1").show(),$("#mobile-image2").hide(),$("#mobile-image3").hide(),$("#m-number2").css({color:"#929ca5"}),$("#m-number3").css({color:"#929ca5"}),$("#m-number1").css({color:"red"}),$("#mobile-step2").css({"border-color":"#929ca5"}),$("#mobile-step1").css({"border-color":"red"}),$("#mobile-step3").css({"border-color":"#929ca5"})}),$("#mobile-step3").hover(function(){$("#mobile-image1").hide(),$("#mobile-image2").hide(),$("#mobile-image3").show(),$("#m-number2").css({color:"#929ca5"}),$("#m-number3").css({color:"red"}),$("#m-number1").css({color:"#929ca5"}),$("#mobile-step3").css({"border-color":"red"}),$("#mobile-step1").css({"border-color":"#929ca5"}),$("#mobile-step2").css({"border-color":"#929ca5"})},function(){$("#mobile-image1").show(),$("#mobile-image2").hide(),$("#mobile-image3").hide(),$("#m-number2").css({color:"#929ca5"}),$("#m-number3").css({color:"#929ca5"}),$("#m-number1").css({color:"red"}),$("#mobile-step2").css({"border-color":"#929ca5"}),$("#mobile-step1").css({"border-color":"red"}),$("#mobile-step3").css({"border-color":"#929ca5"})}),$("div.ifs-tab-menu>div.list-group>a").hover(function(e){e.preventDefault(),$(this).siblings("a.active").removeClass("active"),$(this).addClass("active");var o=$(this).index();$("div.ifs-tab>div.ifs-tab-content").removeClass("active"),$("div.ifs-tab>div.ifs-tab-content").eq(o).addClass("active")})}),$(".panel-heading").parent(".panel").hover(function(){$(this).children(".collapse").collapse("show")},function(){$(this).children(".collapse").collapse("hide")});
     </script>
 @endsection

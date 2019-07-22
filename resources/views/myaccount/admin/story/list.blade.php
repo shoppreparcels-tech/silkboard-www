@@ -97,14 +97,6 @@
 
 @section('js_script')
   <script>
-    $('#outer_div').on('click', '#btn_delete_story', function () {
-      var story_id = $(this).attr("data-story_id");
-      console.log(story_id);
-      $('#hdn_story_id').val(story_id);
-      $('#myModal').modal('open');
-    });
-    $('#btn_cancel_popup').click(function () {
-      $('#myModal').modal('close');
-    });
+      $("#outer_div").on("click","#btn_delete_story",function(){var o=$(this).attr("data-story_id");console.log(o),$("#hdn_story_id").val(o),$("#myModal").modal("open")}),$("#btn_cancel_popup").click(function(){$("#myModal").modal("close")});
   </script>
 @endsection

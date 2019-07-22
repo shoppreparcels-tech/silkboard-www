@@ -9,52 +9,7 @@
     <link rel="canonical" href="https://www.shoppre.com/first-time-international-shipment-offer" />
 
     <style>
-      .first-time-shipment {background-color: #11273b;height: 813px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;padding-top: 60px;}
-      .first-time-shipment .div-snow{padding-top: 146px;}
-      .first-time-shipment .div-snow img{position: absolute;}
-      .first-time-shipment .div-snow img{margin-left: -18px; position: absolute;}
-      .first-time-shipment .div-newyear{padding-top: 206px;}
-      .first-time-shipment .div-newyear img{margin-left: -12px; position: absolute;}
-      .textbox-email{width: 358px;height: 50px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);border-radius: 25px!important;background-color: #ffffff;border: 0;padding-left:9% }
-      .btn-grab-offer{width: 180px;height: 40px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 60px;background-color: #e85151;color: #fff;transition: 0.6s}
-      .btn-grab-offer:hover{color: #fff;background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);}
-      .fst-service{box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 15px;background-color: #fafafb;margin-top: -360px;padding: 20px}
-      .fst-service .c-image{padding: 20px}
-      .fst-service .shopandship{padding:20px; box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);border-radius: 8px;border: 1px solid #5a5b5d26}
-      .fst-service .ps{padding:20px; box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);;border-radius: 8px;border: 1px solid #5a5b5d26}
-      .fst-service .ic{padding:20px; box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);;border-radius: 8px;border: 1px solid #5a5b5d26}
-      .fst-service .shopandship:hover{border: 1px solid #507dbc}
-      .fst-service .ps:hover{border: 1px solid #507dbc}
-      .fst-service .ic:hover{border: 1px solid #507dbc}
-
-      .fst-service .shopandship,.ps,.ic, h2{font-size: 22px;font-weight: 500;color: rgba(255, 255, 255, 0.6);}
-      .fst-service .shopandship,.ps,.ic, p{color: #ffffff;font-size: 16px;font-weight: 600;}
-      .fst-service .btn-chris-place-order{padding: 13px 50px;color:#fff; width: 300px;height: 50px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 30px;background-color: #e85151;}
-      .chris-benefits{padding-top: 30px}
-      .chris-benefits ul{text-decoration: none;list-style: none;}
-      .chris-benefits ul li{color: #224464;font-family: Montserrat, sans-serif;font-size: 15px;font-weight: 400;text-align: left;padding-top: 15px;}
-      .chris-benefits ul li img{margin-top: 9px;}
-      .text-center div{ padding-top: 20px}
-      .img-new-year{display: none}
-      .chris-benefits .panel{box-shadow: 0 2px 10px rgba(0,0,0,.05) !important;}
-      .chris-benefits .panel ul li span{margin-left: 15px;}
-      .leter-space{letter-spacing: 1px;}
-      #contact-support{padding-bottom: 30px;}
-
-      .select-control {float: left;width: 90px !important;height: 40px !important;font-size: 13px;font-weight: 400;    font-style: italic;border-left: 0;border-radius: 3px;background-color: #fafafb;border: none;}
-      .select2-container--default .select2-selection--single {background-color: #fff !important;border: none !important;border-radius: 4px !important;height: 40px !important;padding-top: 5px!important;}
-      .select2-container--default .select2-selection--single .select2-selection__arrow b {margin-top: 4px !important;}
-      @media only screen and (max-width: 600px) {
-          .first-time-shipment {height: 896px;}
-          .textbox-email {width: 330px;}
-          .div-snow{display: none;}
-          .div-newyear{display: none;}
-          .fst-service {margin-top: -260px;}
-          .c-image{display: none}
-          .txt-align{text-align: center}
-          .img-new-year{display: block;width: 240px;}
-          .chris-benefits ul li{font-size: 16px}
-      }
+        .first-time-shipment{background-color:#11273b;height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;padding-top:60px}.first-time-shipment .div-snow{padding-top:146px}.first-time-shipment .div-snow img{position:absolute}.first-time-shipment .div-snow img{margin-left:-18px;position:absolute}.first-time-shipment .div-newyear{padding-top:206px}.first-time-shipment .div-newyear img{margin-left:-12px;position:absolute}.textbox-email{width:358px;height:50px;box-shadow:0 1px 2px rgba(0,0,0,.2);border-radius:25px!important;background-color:#fff;border:0;padding-left:9%}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}.fst-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-360px;padding:20px}.fst-service .c-image{padding:20px}.fst-service .shopandship{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;border:1px solid #5a5b5d26}.fst-service .ps{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;border:1px solid #5a5b5d26}.fst-service .ic{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;border:1px solid #5a5b5d26}.fst-service .shopandship:hover{border:1px solid #507dbc}.fst-service .ps:hover{border:1px solid #507dbc}.fst-service .ic:hover{border:1px solid #507dbc}.fst-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.fst-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.fst-service .btn-chris-place-order{padding:13px 50px;color:#fff;width:300px;height:50px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:30px;background-color:#e85151}.chris-benefits{padding-top:30px}.chris-benefits ul{text-decoration:none;list-style:none}.chris-benefits ul li{color:#224464;font-family:Montserrat,sans-serif;font-size:15px;font-weight:400;text-align:left;padding-top:15px}.chris-benefits ul li img{margin-top:9px}.text-center div{padding-top:20px}.img-new-year{display:none}.chris-benefits .panel{box-shadow:0 2px 10px rgba(0,0,0,.05)!important}.chris-benefits .panel ul li span{margin-left:15px}.leter-space{letter-spacing:1px}#contact-support{padding-bottom:30px}.select-control{float:left;width:90px!important;height:40px!important;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:3px;background-color:#fafafb;border:none}.select2-container--default .select2-selection--single{background-color:#fff!important;border:none!important;border-radius:4px!important;height:40px!important;padding-top:5px!important}.select2-container--default .select2-selection--single .select2-selection__arrow b{margin-top:4px!important}@media only screen and (max-width:600px){.first-time-shipment{height:896px}.textbox-email{width:330px}.div-snow{display:none}.div-newyear{display:none}.fst-service{margin-top:-260px}.c-image{display:none}.txt-align{text-align:center}.img-new-year{display:block;width:240px}.chris-benefits ul li{font-size:16px}}
     </style>
 
 @endsection
@@ -300,42 +255,6 @@
 
 @section('js_script')
     <script>
-        $(document).ready(function () {
-            $("#diwali_coupon").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    debugger;
-                    var email = $("input[name='email']").val();
-                    var pnumber = $("input[name='pnumber']").val();
-                    var cnumber = $("[name='country_code']").val();
-                    var token = $('input[name=_token]').val();
-                    jQuery.ajax({
-                        url: 'new-year-offer',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            email: email,
-                            pnumber: pnumber,
-                            cnumber: cnumber,
-                        },
-                        success: function (data) {
-                            var url= "{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?email=" + email + "&c_code="+ cnumber +"&PN="+ pnumber ;
-                            console.log(data);
-                            // window.open(url);
-                            window.location.href = url;
-
-                        }
-                    })
-                }
-            });
-
-        });
+        $(document).ready(function(){$("#diwali_coupon").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var n=$("input[name='email']").val(),a=$("input[name='pnumber']").val(),o=$("[name='country_code']").val(),u=$("input[name=_token]").val();jQuery.ajax({url:"new-year-offer",type:"POST",data:{_token:u,email:n,pnumber:a,cnumber:o},success:function(e){var u="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?email="+n+"&c_code="+o+"&PN="+a;console.log(e),window.location.href=u}})}})});
     </script>
 @endsection

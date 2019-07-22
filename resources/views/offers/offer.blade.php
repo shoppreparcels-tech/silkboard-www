@@ -5,8 +5,6 @@
 @section('keywords', 'shipment, suggestion, feedback, information, form')
 @section('robots', 'noindex, nofollow')
 @section('css_style')
-    <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
-    <link href="{{asset('css/star-rating.min.css')}}" rel="stylesheet"/>
 @endsection
 @section('content')
             <div class="coupon_cashback">
@@ -19,33 +17,4 @@
                     <p>Use Promo Code: <span class="promo">{{$coupon_code}}</span>  to avail 10% Cashback</p>
                 </div>
             </div>
-@endsection
-@section('js_script')
-    <script src="{{asset('js/star-rating.min.js')}}" type="text/javascript"></script>
-    <script>
-        $(".rated").rating({
-            'size': 'md',
-            'min': 0,
-            'max': 5,
-            'step': 2,
-            'showClear': false,
-            'showCaption': false
-        });
-
-        $("#input-rate").rating({
-            'size': 'md',
-            'min': 0,
-            'max': 5,
-            'step': 2,
-            'showClear': false,
-            'showCaption': false
-        });
-    </script>
-    <!-- Select2 -->
-    <script src="{{asset('js/select2.min.js')}}"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(".select2").select2();
-        });
-    </script>
 @endsection

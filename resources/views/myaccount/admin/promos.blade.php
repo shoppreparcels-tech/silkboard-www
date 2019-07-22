@@ -187,14 +187,6 @@
 @endsection
 @section('js_script')
 <script type="text/javascript">
-    $('.datetimepicker').datetimepicker({
-        timepicker:false,
-        format:'Y-m-d'
-    });
-    $('.slide_trigger').click(function(e) {
-        e.preventDefault();
-        var target = $(this).attr('data-target');
-        $('#slidedown_'+target).slideToggle();
-    });
+    $(".datetimepicker").datetimepicker({timepicker:!1,format:"Y-m-d"}),$(".slide_trigger").click(function(e){e.preventDefault();var t=$(this).attr("data-target");$("#slidedown_"+t).slideToggle()});
 </script>
 @endsection

@@ -32,89 +32,10 @@
     <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 
     <style>
-        .box {
-            width: 20%;
-            margin: 0 auto;
-            background: rgba(255, 255, 255, 0.2);
-            padding: 35px;
-            border: 2px solid #fff;
-            border-radius: 20px/50px;
-            background-clip: padding-box;
-            text-align: center;
-        }
-
-        .button {
-            font-size: 1em;
-            padding: 10px;
-            color: #fff;
-            border: 2px solid orange;
-            border-radius: 20px/50px;
-            text-decoration: none;
-            cursor: pointer;
-            transition: all 0.3s ease-out;
-        }
-
-        .button:hover {
-            background: orange;
-        }
-
-        .overlay {
-            position: fixed;
-            z-index: 999;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: rgba(0.6, 0.5, 0.6, 0.7);
-            transition: opacity 500ms;
-            visibility: visible;
-            opacity: 1;
-        }
-
-        .overlay:target {
-            visibility: hidden;
-            opacity: 0;
-            display: none
-        }
-
-        .popup {
-            margin: 70px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 5px;
-            width: 40%;
-            position: relative;
-            transition: all 5s ease-in-out;
-        }
-
-        .popup h2 {
-            margin-top: 0;
-            color: #333;
-            font-family: Tahoma, Arial, sans-serif;
-        }
-
-        .popup .close {
-            position: absolute;
-            top: 20px;
-            right: 30px;
-            transition: all 200ms;
-            font-size: 30px;
-            font-weight: bold;
-            text-decoration: none;
-            color: #333;
-        }
-
-        .popup .close:hover {
-            color: orange;
-        }
-
-        .popup .content {
-            max-height: 30%;
-            overflow: auto;
-        }
+        .box{width:20%;margin:0 auto;background:rgba(255,255,255,.2);padding:35px;border:2px solid #fff;border-radius:20px/50px;background-clip:padding-box;text-align:center}.button{font-size:1em;padding:10px;color:#fff;border:2px solid orange;border-radius:20px/50px;text-decoration:none;cursor:pointer;transition:all .3s ease-out}.button:hover{background:orange}.overlay{position:fixed;z-index:999;top:0;bottom:0;left:0;right:0;background:rgba(.6,.5,.6,.7);transition:opacity .5s;visibility:visible;opacity:1}.overlay:target{visibility:hidden;opacity:0;display:none}.popup{margin:70px auto;padding:20px;background:#fff;border-radius:5px;width:40%;position:relative;transition:all 5s ease-in-out}.popup h2{margin-top:0;color:#333;font-family:Tahoma,Arial,sans-serif}.popup .close{position:absolute;top:20px;right:30px;transition:all .2s;font-size:30px;font-weight:700;text-decoration:none;color:#333}.popup .close:hover{color:orange}.popup .content{max-height:30%;overflow:auto}.padding-bottom{padding-bottom:10px;padding-left:0;padding-right:0}#customers{font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;border-collapse:collapse;width:100%}.tr-hide{display:none}.tr-hide1{display:none}.tr-hide2{display:none}#customers td,#customers th{border:1px solid #ddd;padding:8px;text-align:center}#customers tr:nth-child(odd){background-color:#fafafb}#customers tr:hover{background-color:#fff}#customers th{padding-top:12px;padding-bottom:12px;color:#11273b}div.shop-ship-menu{padding-right:0;padding-left:0;padding-bottom:0}div.shop-ship-menu div.list-group{margin-bottom:0}div.shop-ship-menu div.list-group>a{margin-bottom:0}div.shop-ship-menu div.list-group>a .fa,div.shop-ship-menu div.list-group>a .glyphicon{color:#5a55a3}div.shop-ship-menu div.list-group>a:first-child{border-top-right-radius:0;-moz-border-top-right-radius:0}div.shop-ship-menu div.list-group>a:last-child{border-bottom-right-radius:0;-moz-border-bottom-right-radius:0}div.shop-ship-menu div.list-group>a.active,div.shop-ship-menu div.list-group>a.active .fa,div.shop-ship-menu div.list-group>a.active .glyphicon{background-color:#11273b;color:#fff}div.shop-ship-menu div.list-group>a:hover{color:#fff}div.shop-ship-menu div.list-group>a.active:after{content:'';position:absolute;top:100%;right:50%;border-left:0;border-bottom:13px solid transparent;border-top:13px solid #11273b;border-left:10px solid transparent;border-right:10px solid transparent}div.shop-ship-tab div.shop-ship-tab-content:not(.active){display:none}.list-group-item1{position:relative;display:block;padding:15px 15px;margin-bottom:-1px;background-color:#11273b;border:1px solid #ddd;border:none!important;color:#677582}.courier-membership-plans div{border:1px solid rgba(146,156,165,.2)}.div-backgroud-price-cal{background-color:#fafafb;padding-top:5px;padding-bottom:5px;padding-left:0;padding-right:0}.div-backgroud-price-cal1{background-color:#fff;padding-top:5px;padding-bottom:5px;padding-left:0;padding-right:0}#courier-membership-plans{display:none}.how-to-calculate .modal-content{border-radius:0!important}
     </style>
 
-    <script type='application/ld+json'>
+<script type='application/ld+json'>
 {
   "@context": "http://www.schema.org",
   "@type": "Website",
@@ -136,162 +57,7 @@
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
   ]
 }
-
-
-
-    </script>
-    <style>
-        .padding-bottom {
-            padding-bottom: 10px;
-            padding-left: 0;
-            padding-right: 0;
-        }
-
-        #customers {
-            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        .tr-hide {
-            display: none;
-        }
-
-        .tr-hide1 {
-            display: none;
-        }
-
-        .tr-hide2 {
-            display: none;
-        }
-
-        #customers td, #customers th {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: center;
-        }
-
-        #customers tr:nth-child(odd) {
-            background-color: #fafafb;
-        }
-
-        #customers tr:hover {
-            background-color: #fff;
-        }
-
-        #customers th {
-            padding-top: 12px;
-            padding-bottom: 12px; /*background-color: #4CAF50;*/
-            color: #11273b;
-        }
-
-        {{--table--}}
-        div.shop-ship {
-            z-index: 10;
-            background-color: #11273b;
-            color: #fff;
-            padding: 0 !important;
-            border-radius: 4px;
-            -moz-border-radius: 4px;
-            margin-top: 20px;
-            filter: alpha(opacity=97);
-        }
-
-        div.shop-ship-menu {
-            padding-right: 0;
-            padding-left: 0;
-            padding-bottom: 0;
-        }
-
-        div.shop-ship-menu div.list-group {
-            margin-bottom: 0;
-        }
-
-        div.shop-ship-menu div.list-group > a {
-            margin-bottom: 0;
-        }
-
-        div.shop-ship-menu div.list-group > a .glyphicon, div.shop-ship-menu div.list-group > a .fa {
-            color: #5A55A3;
-        }
-
-        div.shop-ship-menu div.list-group > a:first-child {
-            border-top-right-radius: 0;
-            -moz-border-top-right-radius: 0;
-        }
-
-        div.shop-ship-menu div.list-group > a:last-child {
-            border-bottom-right-radius: 0;
-            -moz-border-bottom-right-radius: 0;
-        }
-
-        div.shop-ship-menu div.list-group > a.active,
-        div.shop-ship-menu div.list-group > a.active .glyphicon,
-        div.shop-ship-menu div.list-group > a.active .fa {
-            background-color: #11273b; /*background-image: #5A55A3;*/
-            color: #ffffff;
-        }
-
-        div.shop-ship-menu div.list-group > a:hover {
-            color: #ffffff;
-        }
-
-        div.shop-ship-menu div.list-group > a.active:after {
-            content: '';
-            position: absolute; /*left: 100%;top: 50%;*/
-            top: 100%;
-            right: 50%; /*margin-top: -13px;*/
-            border-left: 0;
-            border-bottom: 13px solid transparent;
-            border-top: 13px solid #11273b;
-            border-left: 10px solid transparent;
-            border-right: 10px solid transparent;
-        }
-
-        div.shop-ship-tab div.shop-ship-tab-content:not(.active) {
-            display: none;
-        }
-
-        .list-group-item1 {
-            position: relative;
-            display: block;
-            padding: 15px 15px;
-            margin-bottom: -1px;
-            background-color: #11273b;
-            border: 1px solid #ddd;
-            border: none !important;
-            color: #677582;
-        }
-
-        .courier-membership-plans div {
-            border: 1px solid rgba(146, 156, 165, 0.2);
-        }
-
-        .div-backgroud-price-cal {
-            background-color: #fafafb;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            padding-left: 0;
-            padding-right: 0;
-        }
-
-        .div-backgroud-price-cal1 {
-            background-color: #ffffff;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            padding-left: 0;
-            padding-right: 0;
-        }
-
-        #courier-membership-plans {
-            display: none;
-        }
-
-        .how-to-calculate .modal-content {
-            border-radius: 0px !important;
-        }
-    </style>
-
+</script>
 @endsection
 
 @section('content')
@@ -438,16 +204,6 @@
                                                 </select>
                                             </div>
                                             <div class="col-md-5 col-sm-12 ">
-                                                {{--<p class="header7 p-country-guide ">--}}
-                                                {{--<a href="{{route('cguide.index')}}" class="tooltipkey" title="We ship to 220+ countries! Want to find out if your country is one of them? Check out the specific discounts we offer--}}
-                                                {{--for each country as well while you're at it!">--}}
-                                                {{--<i class="fa fa-question-circle-o"></i>--}}
-                                                {{--</a>--}}
-                                                {{--Country Guide--}}
-                                                {{--<a href="https://www.shoppre.com/offers/flames-shopping-season-sale-india-shipping-offer/" target="_blank"><span--}}
-                                                {{--class="header7 p-color-red price-cal-country">Offers</span></a>--}}
-                                                {{--</p>--}}
-
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-xs-12 padding-bottom">
@@ -648,21 +404,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        {{--<div class="col-xs-12 col-md-12 padding-bottom">--}}
-                                        {{--<label class="header6 control-label ">Your E-mail Address</label>--}}
-                                        {{--<div class="col-sm-10 no-padding">--}}
-                                        {{--<input type="text" class="form-control" name="email"--}}
-                                        {{--placeholder="Enter a valid E-mail Id">--}}
-                                        {{--</div>--}}
-                                        {{--</div>--}}
-                                        {{--<div class="col-md-12 col-xs-12 no-padding">--}}
-                                        {{--<label class=" col-md-12 no-padding header6 control-label">Contact--}}
-                                        {{--Number</label>--}}
-                                        {{--<div class="col-sm-10 no-padding">--}}
-                                        {{--<input type="text" class="form-control" name="mobile"--}}
-                                        {{--placeholder="Enter a valid Phone Number">--}}
-                                        {{--</div>--}}
-                                        {{--</div>--}}
                                         <div class="col-xs-12 col-md-12 padding-bottom div-pric-cal-estimate">
                                             <div class="col-sm-12 no-padding">
                                                 <button type="submit"
@@ -893,16 +634,6 @@
                                                 </select>
                                             </div>
                                             <div class="col-md-5 col-sm-12 ">
-                                                {{--<p class="header7 p-country-guide ">--}}
-                                                {{--<a href="#" class="tooltipkey" title="We ship to 220+ countries! Want to find out if your country is one of them? Check out the specific discounts we offer--}}
-                                                {{--for each country as well while you're at it!">--}}
-                                                {{--<i class="fa fa-question-circle-o"></i>--}}
-                                                {{--</a>--}}
-                                                {{--Country Guide <a--}}
-                                                {{--href="https://www.shoppre.com/offers/flames-shopping-season-sale-india-shipping-offer/"--}}
-                                                {{--target="_blank"><span--}}
-                                                {{--class="header7 p-color-red price-cal-country">Offers</span></a>--}}
-                                                {{--</p>--}}
 
                                             </div>
                                         </div>
@@ -3912,91 +3643,6 @@
     <script src="{{env('AWS_CLOUD_FRONT')}}/js/validate.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function (){
-
-            // This Code is Required for OTP Validation
-
-        //     let isSubscribed = localStorage.subscribed;
-        //     console.log('Localstorage', localStorage.subscribed)
-        //     if(isSubscribed == 'yes') {
-        //         $('#popup1').css('display','none');
-        //     }
-        //
-        //     $("#subscribe-user").validate({
-        //         rules:
-        //             {
-        //                 countryCode: {required: true},
-        //                 mobileNumber: {required: true},
-        //             },
-        //         messages:
-        //             {
-        //                 countryCode: {required: "Country code required"},
-        //                 mobileNumber: {required: "Mobile number required."},
-        //             },
-        //         submitHandler: function (form) {
-        //             var countryCode = $("select[name='countryCode']").val();
-        //             var mobileNumber = $("input[name='mobileNumber']").val();
-        //             var token = $('input[name=_token]').val();
-        //             console.log(mobileNumber);
-        //
-        //             // $("#calc_load").show();
-        //             jQuery.ajax({
-        //                 url: '/user/subscribe',
-        //                 type: "POST",
-        //                 data: {
-        //                     _token: token,
-        //                     country_code: countryCode,
-        //                     mobile_number: mobileNumber,
-        //                 },
-        //                 success: function (res) {
-        //                     console.log('Subscribed User', res);
-        //                     if(res.message == 'Success') {
-        //                         $('.form-suscribe-user').css('display','none');
-        //                         $('.from-verify-otp').css('display','block');
-        //                         $('#otpMobileNumber').val(mobileNumber);
-        //                     }
-        //                 }
-        //             });
-        //             return false;
-        //         }
-        //     });
-        //
-        //     $("#verify-otp").validate({
-        //         rules:
-        //             {
-        //                 otp: {required: true},
-        //             },
-        //         messages:
-        //             {
-        //                 otp: {required: "Otp is required."},
-        //             },
-        //         submitHandler: function (form) {
-        //             var otp = $("input[name='otp']").val();
-        //             var hdnMobileNumber = $("input[name='hdnMobileNumber']").val();
-        //             var token = $('input[name=_token]').val();
-        //             // $("#calc_load").show();
-        //             jQuery.ajax({
-        //                 url: '/otp/verfiy',
-        //                 type: "POST",
-        //                 data: {
-        //                     _token: token,
-        //                     otp: otp,
-        //                     mobile_number: hdnMobileNumber,
-        //                 },
-        //                 success: function (res) {
-        //                     console.log('Otp verify', res);
-        //                     if(res.message == 'Success') {
-        //                         $('#lblWrongOtp').text(' ');
-        //                         $('#popup1').css('display','none');
-        //                         localStorage.subscribed = 'yes';
-        //                     } else {
-        //                         $('#lblWrongOtp').text('Please Enter the correct Otp');
-        //                     }
-        //                 }
-        //             });
-        //             return false;
-        //         }
-        //     });
-
             $("#shipping").validate({
                 rules:
                     {
@@ -4140,11 +3786,6 @@
                                     actual_amount = price.amount;
                                     discount = price.discount;
                                     html += ' <tr> ' +
-                                        // '<td>' + price.partner_name+ '</td>' +
-                                        // ' <td class="bg-white">' +
-                                        // ' <span>' + price.time + '</span> Business Days' +
-                                        // ' <span class="text-red">**</span>' +
-                                        // ' </td>' +
                                         '<td>' +
                                         ' <h1 class="header1" style="color: #507dbc;"><i class="fa fa-rupee"></i> <span>' + ((100 - price.discount) / 100) * price.amount + '</span>' +
                                         ' </td>' +
@@ -4263,10 +3904,28 @@
                     return false;
                 }
             });
-        });
-    </script>
 
-    <script>
+            $("div.shop-ship-menu>div.list-group>a").click(function (e) {
+                debugger;
+                e.preventDefault();
+                $(this).siblings('a.active').removeClass("active");
+                $(this).addClass("active");
+                var index = $(this).index();
+                $("div.shop-ship-tab>div.shop-ship-tab-content").removeClass("active");
+                $("div.shop-ship-tab>div.shop-ship-tab-content").eq(index).addClass("active");
+                if (index === 1) {
+                    $('#courier-membership-plans').css('margin-bottom', '50px');
+                    $('#courier-membership-plans').show();
+                    $('#shop-membership-plans').hide();
+                }
+                else {
+                    $('#courier-membership-plans').hide();
+                    $('#shop-membership-plans').show();
+                }
+
+            });
+        });
+
         $('.tabgroup > div').hide();
         $('.tabgroup > div:first-of-type').show();
         $('.tabs a').click(function (e) {
@@ -4281,8 +3940,6 @@
             $(target).show();
         });
 
-    </script>
-    <script>
         function openCal(cityName) {
             var i;
             var x = document.getElementsByClassName("cal");
@@ -4291,8 +3948,7 @@
             }
             document.getElementById(cityName).style.display = "block";
         }
-    </script>
-    <script>
+
         $('#view-more-feature, #view-more-feature1, #view-more-feature2, #view-more-feature3').click(function () {
             $("#view-more-plans").slideDown();
             $("#view-more-plans1").slideDown();
@@ -4398,29 +4054,4 @@
 
 
         });
-
-    </script>
-    <script>
-        $(document).ready(function () {
-            $("div.shop-ship-menu>div.list-group>a").click(function (e) {
-                debugger;
-                e.preventDefault();
-                $(this).siblings('a.active').removeClass("active");
-                $(this).addClass("active");
-                var index = $(this).index();
-                $("div.shop-ship-tab>div.shop-ship-tab-content").removeClass("active");
-                $("div.shop-ship-tab>div.shop-ship-tab-content").eq(index).addClass("active");
-                if (index === 1) {
-                    $('#courier-membership-plans').css('margin-bottom', '50px');
-                    $('#courier-membership-plans').show();
-                    $('#shop-membership-plans').hide();
-                }
-                else {
-                    $('#courier-membership-plans').hide();
-                    $('#shop-membership-plans').show();
-                }
-
-            });
-        });
-    </script>
 @endsection

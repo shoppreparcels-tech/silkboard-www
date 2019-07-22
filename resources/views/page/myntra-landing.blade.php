@@ -56,49 +56,11 @@
 </script>
 
     <style>
-        .bg-myntra {background-image: url(../../img/images/overlay1.png);width: 100%;background-position: center;background-repeat: no-repeat;
-            background-size: cover;
-            background-color: #fafafb;
-            padding-top: 60px;
-        }
-        .bg-ics-landing-page .container > div {margin-bottom: 3em}
-        .d-header-text {font-size: 40px;font-weight: 900}
-        .d-header-text1 {font-family: Montserrat -Italic;font-style: italic;line-height: 26px;margin-top: 25px}
-        .christmas-service {box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 15px;background-color: #fafafb;margin-top: -190px;padding: 20px;}
-        .shopandship {
-            padding: 20px;
-            box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);
-            border-radius: 8px;
-            background-image: linear-gradient(228deg, #ff7c5b 0%, #e8517a 100%);
-        }
-        .ps {
-            padding: 20px;
-            box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);
-            border-radius: 8px;
-            background-image: linear-gradient(228deg, #4df696 0%, #50bc70 100%);
-        }
-        .ic {
-            padding: 20px;
-            box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);
-            border-radius: 8px;
-            background-image: linear-gradient(229deg, #27cbff 0%, #2aa1d5 100%);
-        }
-        .box-steps p {line-height: 1;}
-        .box-steps p span {font-size: 22px;font-weight: 900;}
-        .flipkart-h1{font-size: 25px}
-
-        .myntra-service{box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 15px;background-color: #fafafb;margin-top: -150px;padding: 20px;}
-        .myntra-service .shopandship,.ps,.ic, h2{font-size: 22px;font-weight: 500;color: rgba(255, 255, 255, 0.6);}
-        .myntra-service .shopandship,.ps,.ic, p{color: #ffffff;font-size: 16px;font-weight: 600;}
-        .btn-grab-offer{width: 180px;height: 40px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 60px;background-color: #e85151;color: #fff;transition: 0.6s}
-        .btn-grab-offer:hover{color: #fff;background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);}
-
-        #packing:hover{display: none}
+        .bg-myntra{background-image:url(../../img/images/overlay1.png);width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.bg-ics-landing-page .container>div{margin-bottom:3em}.d-header-text{font-size:40px;font-weight:900}.d-header-text1{font-family:Montserrat -Italic;font-style:italic;line-height:26px;margin-top:25px}.christmas-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-190px;padding:20px}.shopandship{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#ff7c5b 0,#e8517a 100%)}.ps{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#4df696 0,#50bc70 100%)}.ic{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(229deg,#27cbff 0,#2aa1d5 100%)}.box-steps p{line-height:1}.box-steps p span{font-size:22px;font-weight:900}.flipkart-h1{font-size:25px}.myntra-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-150px;padding:20px}.ic,.myntra-service .shopandship,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.ic,.myntra-service .shopandship,.ps,p{color:#fff;font-size:16px;font-weight:600}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}#packing:hover{display:none}
     </style>
 
 @endsection
 @section('content')
-
     <section class="bg-myntra">
         <div class="container">
             <center>
@@ -107,11 +69,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com" target="_blank"><div class="shopandship ">
-                            <h2>Blockbuster Sale</h2>
+                    <a href="https://www.myntra.com/women-apparel" target="_blank"><div class="shopandship ">
+                            <h2>W MYNTRA FOR HER</h2>
                             <br/>
                             <p>40-80% Off</p>
-                            <p>18th - 21st July</p>
+                            <p>Price Starts from ₹139/-</p>
                             <p>Explore Now</p>
                         </div></a>
                 </div>
@@ -152,7 +114,7 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">Shop from Myntra.com "Blockbuster Sale"</a></span> & Get ₹200 discount on your First Shipment.
+                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">Shop from Myntra.com "End of Season Sale"</a></span> & Get ₹200 discount on your First Shipment.
                             </marquee>
                    <center>
                        <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">
@@ -432,110 +394,12 @@
             </div>
         </div>
     </section>
-
+@endsection
 @section('js_script')
     <script type='text/javascript'>
-        var pubID = '54240CL48886';
-
-        (function(d, t) {
-            var s = document.createElement('script');s.type = 'text/javascript';
-            s.async = true;s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv1.js';
-            document.getElementsByTagName('body')[0].appendChild(s);
-        }());
-    </script>
-
-    <script>
-        $(document).ready(function () {
-             $('#packing').mouseover(function () {
-                 $("#packing").css({"display": "none"});
-                 $("#packed").css({"display": "block"});
-             });
-            $("#packed").mouseout(function () {
-                $("#packing").css({"display": "block" ,"transition":"0.2s"});
-                $("#packed").css({"display": "none"});
-            })
-        })
-    </script>
-    <script>
-        $(document).ready(function () {
-            $("#ics_lp").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    debugger;
-                    var email = $("input[name='email']").val();
-                    var name = $("input[name='Name']").val();
-                    var contact_no = $("input[name='ContactNumber']").val();
-                    var token = $('input[name=_token]').val();
-                    jQuery.ajax({
-                        url: 'send-international-courier-from-india',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            email: email,
-                            name: name,
-                            contact_no: contact_no,
-                        },
-                        success: function (data) {
-                            console.log(data);
-                            $('#diwali-couponcode1').hide();
-                            // $('#diwali-couponcode2').css('display','block');
-                            $('#diwali-couponcode2').slideDown();
-                        }
-                    })
-                }
-            });
-
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $("#ics-box2").hover(function () {
-                $("#ics-box2").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box1").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number2').css({"color": "red"})
-                $('#number1').css({"color": "#677582"})
-            }, function () {
-                $("#ics-box1").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box2").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number1').css({"color": "red"})
-                $('#number2').css({"color": "#677582"})
-
-            });
-            $("#ics-box3").hover(function () {
-                $("#ics-box3").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box1").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number3').css({"color": "red"})
-                $('#number1').css({"color": "#677582"})
-            }, function () {
-                $("#ics-box1").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box3").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number1').css({"color": "red"})
-                $('#number3').css({"color": "#677582"})
-
-            });
-
-        });
+        var pubID="54240CL48886";!function(t,c){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src=("https:"==document.location.protocol?"https://cdn0.cuelinks.com/js/":"http://cdn0.cuelinks.com/js/")+"cuelinksv1.js",document.getElementsByTagName("body")[0].appendChild(e)}();
     </script>
 @endsection
-@endsection
+
 
 

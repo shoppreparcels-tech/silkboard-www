@@ -7,35 +7,7 @@
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator"/>
     <style>
-        .container-fluid{padding-left: 10%;padding-right: 10%}
-        .btn span.glyphicon {opacity: 0;}
-        .btn.active span.glyphicon {opacity: 1;}
-        .l-pad{padding-left: 10px}
-        .div-b-price{border-radius: 3px;border: 1px solid #C0C0C0;background-color: #fbfbfc;}
-        .div-p-price{box-shadow: 0 2px 3px rgba(232, 81, 81, 0.1);border-radius: 3px;border: 1px solid #ffe19a;background-color: #fff7e5;}
-        .div-b-b{border-bottom: 1px solid rgba(146, 156, 165, 0.2);padding-bottom: 20px}
-        .btn-terms{border-radius: 30px;background-color: #929ca5;color: #fff}
-        .div-c-guide{border-radius: 3px;border: 1px solid rgba(233, 196, 106, 0.2);background-color: #fff7e4;}
-        .btn-enable{display: none}
-        .btn-disabled{display: inline-block}
-        .btn-puls-pad{padding: 6px 8px;}
-        .new-pricing .select-control {float: left;width: 89px;height: 40px;font-size: 13px;font-weight: 400;font-style: italic;border-left: 0;border-radius: 20px;background-color: #fafafb;border: none;}
-        .sidebar-nav-fixed{width:13%}.fixed-div{position: fixed;}
-         #volumetric-dis{display: none}
-         .margin01{margin: 6px;}
-         .margin02{margin: 4px;}
-         .m-b-5{margin-bottom: 5px;}
-
-
-
-        @media only screen and (max-width: 600px) {
-            .l-pad{padding-left: 0px}
-            .container-fluid{padding-left: 1%;padding-right: 1%}
-            .btn-enable{display: inline-block}
-            .btn-disabled{display: none}
-            .btn-puls-pad{padding: 6px 6px;}
-        }
-
+        .container-fluid{padding-left:10%;padding-right:10%}.btn span.glyphicon{opacity:0}.btn.active span.glyphicon{opacity:1}.l-pad{padding-left:10px}.div-b-price{border-radius:3px;border:1px solid silver;background-color:#fbfbfc}.div-p-price{box-shadow:0 2px 3px rgba(232,81,81,.1);border-radius:3px;border:1px solid #ffe19a;background-color:#fff7e5}.div-b-b{border-bottom:1px solid rgba(146,156,165,.2);padding-bottom:20px}.btn-terms{border-radius:30px;background-color:#929ca5;color:#fff}.div-c-guide{border-radius:3px;border:1px solid rgba(233,196,106,.2);background-color:#fff7e4}.btn-enable{display:none}.btn-disabled{display:inline-block}.btn-puls-pad{padding:6px 8px}.new-pricing .select-control{float:left;width:89px;height:40px;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:20px;background-color:#fafafb;border:none}.sidebar-nav-fixed{width:13%}.fixed-div{position:fixed}#volumetric-dis{display:none}.margin01{margin:6px}.margin02{margin:4px}.m-b-5{margin-bottom:5px}@media only screen and (max-width:600px){.l-pad{padding-left:0}.container-fluid{padding-left:1%;padding-right:1%}.btn-enable{display:inline-block}.btn-disabled{display:none}.btn-puls-pad{padding:6px 6px}}
     </style>
 @endsection
 
@@ -316,15 +288,16 @@
                                 <div class="col-xs-12 col-md-12 no-pad">
                                     <h14 class=" f-s-14 f-c-d-greay pull-left"><span class="p-color-red">*</span> <b>Basic
                                         Estimate</b> &nbsp;
-                                        <hr class="pad01">
                                         <a href="#" class="tooltipkey" title="The shipping cost for your courier is
                                                  estimated to the maximum accuracy, based on our pricing policies and
                                                      is based upon whichever is greater for your package;
                                                  either its volumetric weight or the actual weight">
-                                            <i class="fa fa-question-circle-o"></i></a></h14>
+                                            <i class="fa fa-question-circle-o"></i></a>
+                                        <hr class="pad01">
+                                    </h14>
                                     <h14 class="f-c-d-greay pull-right">Deliver in 3-6 Days</h14>
                                 </div>
-                                <div class="col-xs-12 col-md-12 no-pad margin01 ">
+                                <div class="col-xs-12 col-md-12 no-pad  margin03 ">
                                     {{-- <div class="col-md-6 col-xs-6 pull-left no-pad">--}}
                                          <span class="f-c-blue font-25">₹<span id="customer-price-tag"></span> &nbsp;&nbsp;</span>
                                     {{-- </div>--}}
@@ -345,7 +318,7 @@
                         </div>
                         <div class="col-md-6 col-xs-12 pad-l-10">
                             <br>
-                            <div class="col-xs-12 col-md-12 div-p-price pad-10 ">
+                            <div class="col-xs-12 col-md-12 div-p-price pad-10" style="height: 141px">
                                 <div class="col-xs-10 col-md-10 no-pad">
                                     <div class="col-xs-12 col-md-12 no-pad">
                                         <h14 class=" f-s-14 .f-c-d-Black pull-left">
@@ -1266,6 +1239,8 @@
 
 @section('js_script')
     <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('js/select2.min.js')}}"></script>
+    <script src="{{asset('js/validate.min.js')}}"></script>
     <script type="text/javascript">
         /* Magnific Popup */
         $(document).ready(function () {
@@ -1280,18 +1255,9 @@
                     $.magnificPopup.close();
                 });
             });
-        });
-    </script>
-    <!-- Select2 -->
-    <script src="{{asset('js/select2.min.js')}}"></script>
-    <script src="{{asset('js/validate.min.js')}}"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
+
             $(".select2").select2();
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
+
             if ($(window).width() >600) {
                 $('#volumetric_weight').attr("checked",true)
                 $("#volumetric-dis").css({'display':'block'})
@@ -1301,6 +1267,7 @@
                 $('#volumetric_weight').attr("checked",false)
                 $("#volumetric-dis").css({'display':'none'})
             }
+
             $('#volumetric_weight').change(function() {
                 if(this.checked) {
                     $("#volumetric-dis").css({'display':'block'})
@@ -1309,25 +1276,7 @@
                 }
 
             });
-        });
 
-        $('.tabgroup > div').hide();
-        $('.tabgroup > div:first-of-type').show();
-        $('.tabs a').click(function (e) {
-            e.preventDefault();
-            var $this = $(this),
-                tabgroup = '#' + $this.parents('.tabs').data('tabgroup'),
-                others = $this.closest('li').siblings().children('a'),
-                target = $this.attr('href');
-            others.removeClass('active');
-            $this.addClass('active');
-            $(tabgroup).children('div').hide();
-            $(target).show();
-        });
-    </script>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
             $("#getRates").click(function(e) {
                 e.preventDefault();
                 let country = $("select[name='country']").val();
@@ -1354,7 +1303,7 @@
                                 ' <tr> ' +
                                 ' <td class="bg-white">' + p.weight + '</td>' +
                                 '<td>' +
-                                    '<i class="fa fa-rupee"></i> <span>' + p.customerRate + '</span>' +
+                                '<i class="fa fa-rupee"></i> <span>' + p.customerRate + '</span>' +
                                 ' </td>' +
                                 ' </tr>' +
                                 '</tbody>';
@@ -1375,10 +1324,8 @@
                     }
                 });
 
-            })
+            });
 
-        });
-        $(document).ready(function () {
             $("#shipping").validate({
                 rules:
                     {
@@ -1432,10 +1379,6 @@
                 }
             });
 
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
             $("#form-weight").validate({
                 rules:
                     {
@@ -1474,7 +1417,21 @@
                 }
             });
 
+            // End Document ready
+        });
+
+        $('.tabgroup > div').hide();
+        $('.tabgroup > div:first-of-type').show();
+        $('.tabs a').click(function (e) {
+            e.preventDefault();
+            var $this = $(this),
+                tabgroup = '#' + $this.parents('.tabs').data('tabgroup'),
+                others = $this.closest('li').siblings().children('a'),
+                target = $this.attr('href');
+            others.removeClass('active');
+            $this.addClass('active');
+            $(tabgroup).children('div').hide();
+            $(target).show();
         });
     </script>
-
 @endsection

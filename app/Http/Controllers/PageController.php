@@ -443,6 +443,10 @@ class PageController extends Controller
     {
         return view('page.myntra-usa');
     }
+    public function flipkartUsa()
+    {
+        return view('page.flipkart-usa');
+    }
 
     public function medicine()
     {

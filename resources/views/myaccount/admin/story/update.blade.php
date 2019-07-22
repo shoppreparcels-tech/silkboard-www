@@ -3,16 +3,7 @@
 <!--CSS for tooltip-->
 
 <style CSS>
-  .material-tooltip > .backdrop {
-    background-color:#fe9611 ;
-    display: block !important;
-  }
-  .material-tooltip > span {
-    outline-width: 20px;
-    line-height: 50px;
-    font-size: 15px;
-    color: black;
-  }
+  .material-tooltip>.backdrop{background-color:#fe9611;display:block!important}.material-tooltip>span{outline-width:20px;line-height:50px;font-size:15px;color:#000}
 </style>
 
 @section('content')
@@ -111,25 +102,6 @@
 @section('js_script')
   <script src="{{asset('js/tinymce/tinymce.min.js')}}"></script>
   <script>
-    tinymce.init({
-      selector: "textarea.tinymce", theme: "modern", height: 300,
-      plugins: [
-        "advlist autolink link image lists charmap print preview hr anchor pagebreak",
-        "searchreplace visualblocks visualchars insertdatetime media nonbreaking",
-        "table contextmenu directionality emoticons paste textcolor responsivefilemanager"
-      ],
-      fontsize_formats: "8pt 10pt 12pt 14pt 18pt 24pt 36pt",
-      toolbar1: "undo redo | styleselect fontsizeselect | bold italic underline | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | table",
-      toolbar2: " link unlink | media responsivefilemanager | forecolor backcolor  | preview code",
-      image_advtab: true ,
-      external_filemanager_path:"/filemanager/",
-      filemanager_title:"Upload Manager" ,
-      upload_dir: '/uploads/incoming/',
-      external_plugins: { "filemanager" : "{{asset('filemanager/plugin.min.js')}}"},
-      content_css: ["{{asset('css/style.css')}}"],
-      convert_urls: false,
-      relative_urls: false,
-
-    });
+      tinymce.init({selector:"textarea.tinymce",theme:"modern",height:300,plugins:["advlist autolink link image lists charmap print preview hr anchor pagebreak","searchreplace visualblocks visualchars insertdatetime media nonbreaking","table contextmenu directionality emoticons paste textcolor responsivefilemanager"],fontsize_formats:"8pt 10pt 12pt 14pt 18pt 24pt 36pt",toolbar1:"undo redo | styleselect fontsizeselect | bold italic underline | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | table",toolbar2:" link unlink | media responsivefilemanager | forecolor backcolor  | preview code",image_advtab:!0,external_filemanager_path:"/filemanager/",filemanager_title:"Upload Manager",upload_dir:"/uploads/incoming/",external_plugins:{filemanager:"{{asset('filemanager/plugin.min.js')}}"},content_css:["{{asset('css/style.css')}}"],convert_urls:!1,relative_urls:!1});
   </script>
 @endsection

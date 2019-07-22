@@ -6,29 +6,6 @@
 @section('keywords', '')
 
 @section('css_style')
-    <style>
-        .c-f-padding{padding-left: 4%;padding-right: 4%;}
-        .ps-section {background-color: #11273b;}
-        .ps-section .container > div {padding: 20px;margin-bottom: 0em}
-        .ps-section .container > div h1 {font-weight: 900;}
-        .ps-section .container > #img-shopping{padding-top: 158px}
-        .ps-section .container > #img-shopping img {width: 596px;height: 365px;}
-        .h-req-assist{margin-bottom: 30px}
-        .product-courier span{font-weight: 900;}
-
-        .vid-h-w{height: 400px; width: 100%}
-        .div-b-l-w ul li{list-style: none; color:#929ca5; font-weight: 700;font-size: 16px; }
-        .img-d-s{display: block}
-        .img-m-s{display: none}
-        @media only screen and (max-width: 600px) {
-            .ps-section .container > div {padding: 10px;margin-bottom: 0em}
-            .vid-h-w{height: 300px; width: 100%}
-            .img-d-s{display: none}
-            .img-m-s{display: block}
-        }
-
-    </style>
-
 @endsection
 @section('content')
     <section class="ps-section" id="personal-shopper">
@@ -249,42 +226,7 @@
 
 @section('js_script')
     <script>
-        $(document).ready(function () {
-            $("#personal_shopper").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    debugger;
-                    var email = $("input[name='email']").val();
-                    var name = $("input[name='Name']").val();
-                    var contact_no = $("input[name='ContactNumber']").val();
-                    var token = $('input[name=_token]').val();
-                    jQuery.ajax({
-                        url: 'personal-shopper-india',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            email: email,
-                            name: name,
-                            contact_no: contact_no,
-                        },
-                        success: function (data) {
-                            console.log(data);
-                            $('#diwali-couponcode1').hide();
-                            // $('#diwali-couponcode2').css('display','block');
-                            $('#diwali-couponcode2').slideDown();
-                        }
-                    })
-                }
-            });
-
-        });
+        $(document).ready(function(){$("#personal_shopper").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var a=$("input[name='email']").val(),n=$("input[name='Name']").val(),o=$("input[name='ContactNumber']").val(),i=$("input[name=_token]").val();jQuery.ajax({url:"personal-shopper-india",type:"POST",data:{_token:i,email:a,name:n,contact_no:o},success:function(e){console.log(e),$("#diwali-couponcode1").hide(),$("#diwali-couponcode2").slideDown()}})}})});
     </script>
 
 @endsection

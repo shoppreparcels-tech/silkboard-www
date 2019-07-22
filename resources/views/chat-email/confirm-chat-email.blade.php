@@ -4,7 +4,6 @@
 @section('description', 'Thank you for your Feedback.')
 
 @section('css_style')
-    <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
     <meta name="robots" content="noindex,nofollow"/>
 @endsection
 

@@ -93,11 +93,7 @@
             @endforeach
             <div id="remove-row">
                 <center>
-                    {{ $shipments->appends(Request::except('page'))->links() }} {{-- For Pagination--}}
-
-                    {{--<button class="btn-more-review header5" id="btn-more" data-id="">--}}
-                        {{--Load More--}}
-                    {{--</button>--}}
+                    {{ $shipments->appends(Request::except('page'))->links() }}
                 </center>
             </div>
         </div>

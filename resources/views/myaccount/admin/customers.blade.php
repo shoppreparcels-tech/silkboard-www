@@ -84,16 +84,6 @@
                 </div>
             </div>
         </div>
-    </div><!-- Content Area -->
-
-{{--@endsection--}}
-{{--@section('js_script')--}}
-    {{--<script type="text/javascript">--}}
-        {{--/* Magnific Popup */--}}
-        {{--$(document).ready(function () {--}}
-            {{--$('#example').DataTable({--}}
-                {{--"order": [[ 0, "desc" ]]--}}
-            {{--});--}}
-        {{--});--}}
-    {{--</script>--}}
+    </div>
+    <!-- Content Area -->
 @endsection

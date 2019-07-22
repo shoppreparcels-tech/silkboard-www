@@ -6,30 +6,7 @@
 
 @section('css_style')
     <style>
-        .container-fluid{padding-left: 10%;padding-right: 10%}
-
-        .btn span.glyphicon {opacity: 0;}
-        .btn.active span.glyphicon {opacity: 1;}
-        .l-pad{padding-left: 10px}
-        .div-b-price{border-radius: 3px;border: 1px solid #edeef0;background-color: #fbfbfc;}
-        .div-p-price{box-shadow: 0 2px 3px rgba(232, 81, 81, 0.1);border-radius: 3px;border: 1px solid #ffe19a;background-color: #fff7e5;}
-        .div-b-b{border-bottom: 1px solid rgba(146, 156, 165, 0.2);padding-bottom: 20px}
-        .btn-terms{border-radius: 30px;background-color: #929ca5;color: #fff}
-        .div-c-guide{border-radius: 3px;border: 1px solid rgba(233, 196, 106, 0.2);background-color: #fff7e4;}
-        .btn-enable{display: none}
-        .btn-disabled{display: inline-block}
-        .btn-puls-pad{padding: 6px 8px;}
-        .new-pricing .select-control {float: left;width: 89px;height: 40px;font-size: 13px;font-weight: 400;font-style: italic;border-left: 0;border-radius: 20px;background-color: #fafafb;border: none;}
-        .sidebar-nav-fixed{width:13%}.fixed-div{position: fixed;}
-
-        @media only screen and (max-width: 600px) {
-            .l-pad{padding-left: 0px}
-            .container-fluid{padding-left: 1%;padding-right: 1%}
-            .btn-enable{display: inline-block}
-            .btn-disabled{display: none}
-            .btn-puls-pad{padding: 6px 6px;}
-        }
-
+        .container-fluid{padding-left:10%;padding-right:10%}.btn span.glyphicon{opacity:0}.btn.active span.glyphicon{opacity:1}.l-pad{padding-left:10px}.div-b-price{border-radius:3px;border:1px solid #edeef0;background-color:#fbfbfc}.div-p-price{box-shadow:0 2px 3px rgba(232,81,81,.1);border-radius:3px;border:1px solid #ffe19a;background-color:#fff7e5}.div-b-b{border-bottom:1px solid rgba(146,156,165,.2);padding-bottom:20px}.btn-terms{border-radius:30px;background-color:#929ca5;color:#fff}.div-c-guide{border-radius:3px;border:1px solid rgba(233,196,106,.2);background-color:#fff7e4}.btn-enable{display:none}.btn-disabled{display:inline-block}.btn-puls-pad{padding:6px 8px}.new-pricing .select-control{float:left;width:89px;height:40px;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:20px;background-color:#fafafb;border:none}.sidebar-nav-fixed{width:13%}.fixed-div{position:fixed}@media only screen and (max-width:600px){.l-pad{padding-left:0}.container-fluid{padding-left:1%;padding-right:1%}.btn-enable{display:inline-block}.btn-disabled{display:none}.btn-puls-pad{padding:6px 6px}}
     </style>
 @endsection
 
@@ -1163,29 +1140,9 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $(".select2").select2();
-        });
-    </script>
-    <script>
-        $('.tabgroup > div').hide();
-        $('.tabgroup > div:first-of-type').show();
-        $('.tabs a').click(function (e) {
-            e.preventDefault();
-            var $this = $(this),
-                tabgroup = '#' + $this.parents('.tabs').data('tabgroup'),
-                others = $this.closest('li').siblings().children('a'),
-                target = $this.attr('href');
-            others.removeClass('active');
-            $this.addClass('active');
-            $(tabgroup).children('div').hide();
-            $(target).show();
-        });
 
-    </script>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
             let data =[{"frompin": "560049","topin": "600012","length": "12","width": "12","height":
-                        "12","weight": "1","invoiceVal": "1000"}];
+                    "12","weight": "1","invoiceVal": "1000"}];
             jQuery.ajax({
                 // url: 'http://instanttechlabs.com/shipr/api/web/v1/rates/getrates?access-token=JiQBEoIagsKk1wnCRWVGzUFsuvK7g3td&data= {"frompin": "560049","topin": "600012","length": "12","width": "12","height": "12","weight": "1","invoiceVal": "1000"}',
                 url : 'api-domestic',
@@ -1229,7 +1186,7 @@
                                 ' <tr> ' +
                                 ' <td class="bg-white">' + p.weight + '</td>' +
                                 '<td>' +
-                                    '<i class="fa fa-rupee"></i> <span>' + p.customerRate + '</span>' +
+                                '<i class="fa fa-rupee"></i> <span>' + p.customerRate + '</span>' +
                                 ' </td>' +
                                 ' </tr>' +
                                 '</tbody>';
@@ -1249,99 +1206,109 @@
                         $('#ratesModel').modal('show')
                     }
                 });
+            });
 
-            })
+            $("#shipping").validate({
+                rules:
+                    {
+                        country: {required: true},
+                        weight: {required: true},
+                        unit: {required: true},
+                    },
+                messages:
+                    {
+                        country: {required: "Please select country"},
+                        weight: {required: "Please enter weight to calculate."},
+                        unit: {required: "Please select unit of weight."},
+                    },
+                submitHandler: function (form) {
+                    var country = $("select[name='country']").val();
+                    var weight = $("input[name='weight']").val();
+                    var weight_unit = $("input[name='weight_unit']:checked").val();
+                    var measurement_unit = $("input[name='measurement_unit']:checked").val();
+                    var package_type = $("input[name='package_type']:checked").val();
+                    var length = $("input[name='length']").val();
+                    var width = $("input[name='width']").val();
+                    var height = $("input[name='height']").val();
+                    console.log('country ' + country + '\n weight ' + weight + '\n weight_unit ' + weight_unit + '\n type ' + package_type + ' \n measurement_unit ' + measurement_unit + '\n length ' + length + '\n width ' + width + '\n height ' + height);
+                    jQuery.ajax({
+                        url: 'https://courier.shoppre.com/api/pricing?all=true&country=' + country + '&type=' + package_type + '&weight=' + weight,
+                        type: 'get',
+                        success: function ({prices}) {
+                            console.log(prices[0].customerRate);
+                            let customer_price = prices[0].customerRate;
+                            let member_price = (customer_price * 95) / 100;
+                            console.log(member_price);
+                            $('#customer-price-tag').text(Math.round(customer_price));
+                            $('#member-price-tag').text(Math.round(member_price));
+                            $('#customer_total_price').text(Math.round(customer_price * 2));
+                            $('#member_total_price').text(Math.round(member_price * 2));
+                            $('#pricing-panel').slideDown();
+                            $('#addImge').hide();
+                        }
+                    });
+                    return false;
+                }
+            });
 
-        });
-        $(document).ready(function () {
-                $("#shipping").validate({
-                    rules:
-                        {
-                            country: {required: true},
-                            weight: {required: true},
-                            unit: {required: true},
-                        },
-                    messages:
-                        {
-                            country: {required: "Please select country"},
-                            weight: {required: "Please enter weight to calculate."},
-                            unit: {required: "Please select unit of weight."},
-                        },
-                    submitHandler: function (form) {
-                        var country = $("select[name='country']").val();
-                        var weight = $("input[name='weight']").val();
-                        var weight_unit = $("input[name='weight_unit']:checked").val();
-                        var measurement_unit = $("input[name='measurement_unit']:checked").val();
-                        var package_type = $("input[name='package_type']:checked").val();
-                        var length = $("input[name='length']").val();
-                        var width = $("input[name='width']").val();
-                        var height = $("input[name='height']").val();
-                        console.log('country ' + country + '\n weight ' + weight + '\n weight_unit ' + weight_unit + '\n type ' + package_type + ' \n measurement_unit ' + measurement_unit + '\n length ' + length + '\n width ' + width + '\n height ' + height);
-                        jQuery.ajax({
-                            url: 'https://courier.shoppre.com/api/pricing?all=true&country=' + country + '&type=' + package_type + '&weight=' + weight,
-                            type: 'get',
-                            success: function ({prices}) {
-                                console.log(prices[0].customerRate);
-                                let customer_price = prices[0].customerRate;
-                                let member_price = (customer_price * 95) / 100;
-                                console.log(member_price);
-                                $('#customer-price-tag').text(Math.round(customer_price));
-                                $('#member-price-tag').text(Math.round(member_price));
-                                $('#customer_total_price').text(Math.round(customer_price * 2));
-                                $('#member_total_price').text(Math.round(member_price * 2));
-                                $('#pricing-panel').slideDown();
-                                $('#addImge').hide();
-                            }
-                        });
-                        return false;
-                    }
-                });
+            $("#form_quote").validate({
+                rules:
+                    {
+                        state: {required: true},
+                        city: {required: true},
+                        pin: {required: true},
+                        type: {required: true},
+                        weight: {required: true},
+                        unit: {required: true},
+                        email: {required: true, email: true},
+                    },
+                messages:
+                    {
+                        state: {required: "Please select state"},
+                        city: {required: "Please enter city"},
+                        pin: {required: "Please enter PIN"},
+                        weight: {required: "Enter package weight."},
+                        email: {required: "Enter your email address to contact."},
+                    },
+                submitHandler: function (form) {
+                    $("#quote_load").show();
+                    jQuery.ajax({
+                        url: '/qoute/submit',
+                        type: "POST",
+                        data: $("#form_quote").serialize(),
 
-                $("#form_quote").validate({
-                    rules:
-                        {
-                            state: {required: true},
-                            city: {required: true},
-                            pin: {required: true},
-                            type: {required: true},
-                            weight: {required: true},
-                            unit: {required: true},
-                            email: {required: true, email: true},
+                        success: function (data) {
+                            $('#form_quote')[0].reset();
+                            $("#quote_load").hide();
+                            $("#quote_submit").hide();
+                            $("#quote_result").show();
                         },
-                    messages:
-                        {
-                            state: {required: "Please select state"},
-                            city: {required: "Please enter city"},
-                            pin: {required: "Please enter PIN"},
-                            weight: {required: "Enter package weight."},
-                            email: {required: "Enter your email address to contact."},
-                        },
-                    submitHandler: function (form) {
-                        $("#quote_load").show();
-                        jQuery.ajax({
-                            url: '/qoute/submit',
-                            type: "POST",
-                            data: $("#form_quote").serialize(),
+                        error: function (xhr, ajaxOptions, thrownError) {
+                            $('#form_quote')[0].reset();
+                            $("#quote_load").hide();
+                            $("#quote_error").show();
+                            $("#quote_submit").hide();
+                            /*console.log(xhr.responseText);*/
+                        }
+                    });
+                    return false;
+                }
+            });
 
-                            success: function (data) {
-                                $('#form_quote')[0].reset();
-                                $("#quote_load").hide();
-                                $("#quote_submit").hide();
-                                $("#quote_result").show();
-                            },
-                            error: function (xhr, ajaxOptions, thrownError) {
-                                $('#form_quote')[0].reset();
-                                $("#quote_load").hide();
-                                $("#quote_error").show();
-                                $("#quote_submit").hide();
-                                /*console.log(xhr.responseText);*/
-                            }
-                        });
-                        return false;
-                    }
-                });
+            $('.tabgroup > div').hide();
+            $('.tabgroup > div:first-of-type').show();
+            $('.tabs a').click(function (e) {
+                e.preventDefault();
+                var $this = $(this),
+                    tabgroup = '#' + $this.parents('.tabs').data('tabgroup'),
+                    others = $this.closest('li').siblings().children('a'),
+                    target = $this.attr('href');
+                others.removeClass('active');
+                $this.addClass('active');
+                $(tabgroup).children('div').hide();
+                $(target).show();
+            });
 
         });
     </script>
-
 @endsection

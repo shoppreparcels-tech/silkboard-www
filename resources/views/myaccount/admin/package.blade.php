@@ -2,17 +2,7 @@
 
 @section('css_style')
 <style type="text/css">
-    .btn-floating i{
-        font-size: 10px;
-        line-height: 0;
-    }
-    .btn-floating.halfway-fab {
-        right: -10px;
-        bottom: -20px;
-        width: 25px;
-        height: 25px;
-        line-height: 24px;
-    }
+    .btn-floating i{font-size:10px;line-height:0}.btn-floating.halfway-fab{right:-10px;bottom:-20px;width:25px;height:25px;line-height:24px}
 </style>
 @endsection
 
@@ -646,14 +636,6 @@
 
 @section('js_script')
 <script type="text/javascript">
-    jQuery('.datetimepicker').datetimepicker({
-        timepicker:false,
-        scrollMonth: false,
-        scrollInput: false,
-        format:'Y-m-d'
-    });
-    $(document).ready(function(){
-        $('.materialboxed').materialbox();
-    });
+    jQuery(".datetimepicker").datetimepicker({timepicker:!1,scrollMonth:!1,scrollInput:!1,format:"Y-m-d"}),$(document).ready(function(){$(".materialboxed").materialbox()});
 </script>
 @endsection

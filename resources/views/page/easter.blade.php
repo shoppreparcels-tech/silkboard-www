@@ -46,24 +46,6 @@
                                 <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/christmas-contact.png" alt="">
                             </a>
                         </div>
-                        {{--<div class="form-group">--}}
-                            {{--<label>Full Name</label>--}}
-                            {{--<input type="text" name="Name" class="form-control"--}}
-                                   {{--placeholder="Enter the Name Here" required>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group">--}}
-                            {{--<label>Contact Number</label>--}}
-                            {{--<input type="text" name="ContactNumber" class="form-control"--}}
-                                   {{--placeholder="Enter a Valid Phone number" required>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group">--}}
-                            {{--<label>E-Mail ID</label>--}}
-                            {{--<input type="email" name="email" class="form-control"--}}
-                                   {{--placeholder="Enter a valid E-mail ID" required>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group text-center">--}}
-                            {{--<button type="submit" name="btnActivate" class="btn btn-s-r btn-b-r btn-l">Enquiry Now</button>--}}
-                        {{--</div>--}}
                         <div class="form-group text-center div-align-items-l">
                             {{--<button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r">--}}
                             <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>
@@ -124,48 +106,6 @@
                 </center>
             </div>
             <div class=" col-md-12 offer-description">
-                {{--<label class="f-s-16 f-c-d-gray">How would you feel if you could shower your spirit with hues of colors & delicious desi treats even if you aren't home this Holi?</label>--}}
-
-                {{--<label class="f-s-16 f-c-gray">Then Why DELAY Re? USE ShoppRe! Your One-stop solution for all Shopping & Shipping Problems!</label>--}}
-                {{--<br>--}}
-
-                {{--<label class="f-s-22 f-c-d-greay">Shop & Ship from 1000+ Indian online stores ‘Including :</label>--}}
-                {{--<div class="row" style="padding-right:10px;padding-left: 30px">--}}
-                    {{--<center>--}}
-                        {{--<div class="col-md-1 col-md-offset-2 d-stores-box col-xs-6 col-xs-offset-2 ">--}}
-                            {{--<center class="d-online-stores">--}}
-                                {{--<img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/flipkart-logo.png" alt="FlipKart"/>--}}
-                            {{--</center>--}}
-
-                        {{--</div>--}}
-                        {{--<div class="col-md-1  d-stores-box col-xs-6">--}}
-                            {{--<center class="d-online-stores">--}}
-                                {{--<img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon_logo_RGB.png" alt="Amazon"/>--}}
-                            {{--</center>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-md-1  d-stores-box col-xs-4">--}}
-                            {{--<center class="d-online-stores">--}}
-                                {{--<img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1.png"--}}
-                                     {{--alt="Jabong"/>--}}
-                            {{--</center>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-md-1  d-stores-box col-xs-4">--}}
-                            {{--<center class="d-online-stores">--}}
-                                {{--<img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/myntra.png" alt="SnapDeal"/>--}}
-                            {{--</center>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-md-1  d-stores-box col-xs-4">--}}
-                            {{--<center class="d-online-stores">--}}
-                                {{--<img class="shoppingKart"--}}
-                                     {{--src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1(1).png" alt="Myntra"/>--}}
-                            {{--</center>--}}
-                        {{--</div>--}}
-
-                    {{--</center>--}}
-                {{--</div>--}}
-                {{--<br>--}}
-                {{--<p class="f-s-16 f-c-gray f-w-4 l-h-2 ">Shop around in 1000+ Indian stores to help make your 2019 Holi extra special,--}}
-                    {{--and get us to ship to your destination at the <a href="{{route('pricing')}}">cheapest of shipping rates</a>. </p>--}}
                 <h1 class="f-s-18 f-c-d-greay f-w-7">“LET EVERYTHING YOU DO BE DONE IN LOVE”</h1>
                 <p class="f-s-16 f-c-gray">Easter is a great time to send someone, you know something lovely. So, how about surprising your loved ones by sending them a perfect gift overseas this easter?
                 </p>
@@ -303,41 +243,6 @@
 
 @section('js_script')
     <script>
-        $(document).ready(function () {
-            $("#diwali_coupon").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    debugger;
-                    var email = $("input[name='email']").val();
-                    var name = $("input[name='Name']").val();
-                    var contact_no = $("input[name='ContactNumber']").val();
-                    var token = $('input[name=_token]').val();
-                    jQuery.ajax({
-                        url: 'valentines-cashback',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            email: email,
-                            name: name,
-                            contact_no: contact_no,
-                        },
-                        success: function (data) {
-                            console.log(data);
-                            $('#diwali-couponcode1').hide();
-                            // $('#diwali-couponcode2').css('display','block');
-                            $('#diwali-couponcode2').slideDown();
-                        }
-                    })
-                }
-            });
-
-        });
+        $(document).ready(function(){$("#diwali_coupon").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(a){var e=$("input[name='email']").val(),n=$("input[name='Name']").val(),i=$("input[name='ContactNumber']").val(),o=$("input[name=_token]").val();jQuery.ajax({url:"valentines-cashback",type:"POST",data:{_token:o,email:e,name:n,contact_no:i},success:function(a){console.log(a),$("#diwali-couponcode1").hide(),$("#diwali-couponcode2").slideDown()}})}})});
     </script>
 @endsection

@@ -75,6 +75,7 @@
 @endsection
 
 @section('js_script')
+<script src="{{asset('js/tinymce/tinymce.min.js')}}"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         $("input[name='title']").on("change paste keyup", function() {
@@ -92,15 +93,13 @@
                 ;
         }
     });
-</script>
-<script src="{{asset('js/tinymce/tinymce.min.js')}}"></script>
-<script>
+
     tinymce.init({
         selector: "textarea.tinymce", theme: "modern", height: 500,
         plugins: [
-         "advlist autolink link image lists charmap print preview hr anchor pagebreak",
-         "searchreplace visualblocks visualchars insertdatetime media nonbreaking",
-         "table contextmenu directionality emoticons paste textcolor responsivefilemanager"
+            "advlist autolink link image lists charmap print preview hr anchor pagebreak",
+            "searchreplace visualblocks visualchars insertdatetime media nonbreaking",
+            "table contextmenu directionality emoticons paste textcolor responsivefilemanager"
         ],
         fontsize_formats: "8pt 10pt 12pt 14pt 18pt 24pt 36pt",
         toolbar1: "undo redo | styleselect fontsizeselect | bold italic underline | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | table",

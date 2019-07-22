@@ -19,31 +19,7 @@
     <meta property="og:site_name" content="ShoppRe"/>
 
     <style>
-        .bg-img{background-image: url("../../img/images/personal-shopper-shopping-concierge-from-india.png"); height: 813px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}        .ps-main{background-color: #fafafb;}
-        .ps-mainidiv{box-shadow: 0 2px 3px rgba(17, 39, 59, 0.1); border-radius: 3px; background-color: #ffffff;padding:20px}
-        .ps-des-div{ margin-top:50px; box-shadow: 0 2px 3px rgba(17, 39, 59, 0.1);border-radius: 3px;background-color: #ffffff;}
-        .ps-p-b{width: 253px;height: 22px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);border-radius: 0 0 3px 3px;background-color: #507dbc;}
-
-        .s-p-card{height:220px; padding-top: 30px;padding-bottom: 30px}
-        .s-p-s-b1{background-color:#FAC9CA}
-        .s-p-s-b2{background-color: #FBDBDB;}
-        .s-p-s-b3{background-color: #FDE4E4;}
-        .s-p-s-b4{background-color: #FDF2F3;}
-
-        .ps-s-b1{background-color: rgba(80, 125, 188, 0.3);}
-        .ps-s-b2{box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);background-color: rgba(80, 125, 188, 0.2);}
-        .ps-s-b3{background-color: rgba(80, 125, 188, 0.15);}
-        .ps-s-b4{box-shadow: 0 0 6px rgba(80, 125, 188, 0.08);border-radius: 3px;background-color: rgba(80, 125, 188, 0.07);}
-        .img-center{display: block;margin-left: auto;margin-right: auto;margin-top:20px }
-        .seo-sec  ul li{font-size: 16px;color: #677582;font-weight: 600 ;list-style:none}
-        @media only screen and (max-width: 600px) {
-            .xs-li-m{margin-left: 25px;}
-            .h4 {font-size: 12px;}
-            .s-p-card{height:359px;}
-            .btn-xl{width: 250px;}
-            .div-align-items-r{text-align: center;}
-            .div-align-items-l{text-align: left;}
-        }
+        .bg-img{background-image:url(../../img/images/personal-shopper-shopping-concierge-from-india.png);height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.ps-main{background-color:#fafafb}.ps-mainidiv{box-shadow:0 2px 3px rgba(17,39,59,.1);border-radius:3px;background-color:#fff;padding:20px}.ps-des-div{margin-top:50px;box-shadow:0 2px 3px rgba(17,39,59,.1);border-radius:3px;background-color:#fff}.ps-p-b{width:253px;height:22px;box-shadow:0 2px 3px rgba(0,0,0,.16);border-radius:0 0 3px 3px;background-color:#507dbc}.s-p-card{height:220px;padding-top:30px;padding-bottom:30px}.s-p-s-b1{background-color:#fac9ca}.s-p-s-b2{background-color:#fbdbdb}.s-p-s-b3{background-color:#fde4e4}.s-p-s-b4{background-color:#fdf2f3}.ps-s-b1{background-color:rgba(80,125,188,.3)}.ps-s-b2{box-shadow:0 0 6px rgba(80,125,188,.08);background-color:rgba(80,125,188,.2)}.ps-s-b3{background-color:rgba(80,125,188,.15)}.ps-s-b4{box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:3px;background-color:rgba(80,125,188,.07)}.img-center{display:block;margin-left:auto;margin-right:auto;margin-top:20px}.seo-sec ul li{font-size:16px;color:#677582;font-weight:600;list-style:none}@media only screen and (max-width:600px){.xs-li-m{margin-left:25px}.h4{font-size:12px}.s-p-card{height:359px}.btn-xl{width:250px}.div-align-items-r{text-align:center}.div-align-items-l{text-align:left}}
     </style>
 
 @endsection

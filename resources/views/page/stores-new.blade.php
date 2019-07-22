@@ -280,11 +280,6 @@
                         </div>
                     </div>
                     <div class="seller_tab">
-                        {{-- <ul class="nav nav-tabs nav-justified" role="tablist">
-                           <li role="presentation" class="active"><a href="#web" aria-controls="web" role="tab" data-toggle="tab">Top Website Sellers</a></li>
-                           <li role="presentation"><a href="#fb" aria-controls="fb" role="tab" data-toggle="tab">Top FB/Instagram Sellers</a></li>
-                           <li role="presentation"><a href="#featured" aria-controls="featured" role="tab" data-toggle="tab">Shoppre Featured Sellers</a></li>
-                         </ul>--}}
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane fade in active" id="web">
                                 @foreach($webs as $web)
@@ -491,13 +486,7 @@
 
 @section('js_script')
     <script type='text/javascript'>
-        var pubID = '54240CL48886';
-
-        (function(d, t) {
-            var s = document.createElement('script');s.type = 'text/javascript';
-            s.async = true;s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv1.js';
-            document.getElementsByTagName('body')[0].appendChild(s);
-        }());
+        var pubID="54240CL48886";!function(t,c){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src=("https:"==document.location.protocol?"https://cdn0.cuelinks.com/js/":"http://cdn0.cuelinks.com/js/")+"cuelinksv1.js",document.getElementsByTagName("body")[0].appendChild(e)}();
     </script>
 
     <script type="text/javascript" src="{{asset('js/store.js')}}"></script>

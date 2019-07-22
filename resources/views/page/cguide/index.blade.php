@@ -65,14 +65,6 @@
   <!-- Select2 -->
   <script src="{{asset('js/select2.min.js')}}"></script>
   <script type="text/javascript">
-    $(document).ready(function() {
-      $(".select2").select2();
-    });
-
-    $("#select_iso").change(function(){
-      if ($(this).val().length != 0) {
-        window.location = "/country/"+$(this).val();
-      }
-    });
+      $(document).ready(function(){$(".select2").select2()}),$("#select_iso").change(function(){0!=$(this).val().length&&(window.location="/country/"+$(this).val())});
   </script>
 @endsection

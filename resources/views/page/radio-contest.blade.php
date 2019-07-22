@@ -7,17 +7,7 @@
 
 @section('css_style')
     <style>
-        .ps-section {background-color: #11273b;height: 500px}
-        .ps-section .container > div {padding: 20px;margin-bottom: 3em}
-        .ps-section .container > div h1 {font-weight: 900;}
-        .ps-section .container > #img-shopping  {padding-top: 150px}
-        .ps-section .container > #img-shopping img {width: 596px;height: 365px;}
-        .h-req-assist{margin-bottom: 30px}
-        .product-courier span{font-weight: 900;}
-        .btn-activate-coupon{height: 50px;width: 50%;border-radius: 30px;color: #fff;background-color: #e85151;transition: 0.6s;}
-        .txt-caps{text-transform: uppercase}
-
-
+        .ps-section{background-color:#11273b;height:500px}.ps-section .container>div{padding:20px;margin-bottom:3em}.ps-section .container>div h1{font-weight:900}.ps-section .container>#img-shopping{padding-top:150px}.ps-section .container>#img-shopping img{width:596px;height:365px}.h-req-assist{margin-bottom:30px}.product-courier span{font-weight:900}.btn-activate-coupon{height:50px;width:50%;border-radius:30px;color:#fff;background-color:#e85151;transition:.6s}.txt-caps{text-transform:uppercase}
     </style>
 
 @endsection
@@ -226,47 +216,6 @@
                         }
                     })
                 }
-            });
-
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $("#ics-box2").hover(function () {
-                $("#ics-box2").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box1").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number2').css({"color": "red"})
-                $('#number1').css({"color": "#677582"})
-            }, function () {
-                $("#ics-box1").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box2").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number1').css({"color": "red"})
-                $('#number2').css({"color": "#677582"})
-
-            });
-            $("#ics-box3").hover(function () {
-                $("#ics-box3").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box1").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number3').css({"color": "red"})
-                $('#number1').css({"color": "#677582"})
-            }, function () {
-                $("#ics-box1").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box3").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number1').css({"color": "red"})
-                $('#number3').css({"color": "#677582"})
-
             });
 
         });

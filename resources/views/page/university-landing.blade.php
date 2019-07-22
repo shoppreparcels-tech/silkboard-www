@@ -7,48 +7,7 @@
 
 @section('css_style')
     <style>
-      .bg-christmas-landing-page {background-image: url("../../img/images/bk_university.png");height: 813px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
-      .bg-christmas-landing-page .div-snow{padding-top: 221px;}
-      .bg-christmas-landing-page .div-snow img{position: absolute;}
-      .bg-christmas-landing-page .div-newyear{padding-top: 202px;}
-      .bg-christmas-landing-page .div-newyear img{margin-left: -70px;position: absolute;}
-      .textbox-email{width: 358px;height: 50px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);border-radius: 25px!important;background-color: #ffffff;border: 0;padding-left:9% }
-      .btn-grab-offer{width: 180px;height: 40px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 60px;background-color: #e85151;color: #fff;transition: 0.6s}
-      .btn-grab-offer:hover{color: #fff;background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);}
-      .christmas-service{box-shadow: 0 0 10px rgba(17, 39, 59, 0.1);border-radius: 15px;background-color: #fff;margin-top: -360px;padding: 20px}
-      .christmas-service .c-image{padding: 20px}
-      .christmas-service .un-offers{padding: 20px;border-top: 1px solid rgba(146, 156, 165, 0.2);}
-      .btn-chris-place-order{padding: 13px 50px;color:#fff; width: 300px;height: 50px;box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);border-radius: 30px;background-color: #e85151;}
-      .chris-benefits{padding-top: 30px ;background-color: #fafafb;}
-      .chris-benefits ul{text-decoration: none;list-style: none;}
-      .chris-benefits ul li{color: #224464;font-family: Bahnschrift;font-size: 18px;font-weight: 400;text-align: left;padding-top: 15px;}
-      .chris-benefits ul li img{margin-top: 9px;}
-      .chris-benefits .ps-img-rounded {    height: 340px;}
-      .chris-benefits .ps-img-rounded span {font-size: 22px;color: #11273b;}
-      .text-center div{ padding-top: 20px}
-      .img-new-year{display: none}
-      .chris-benefits .panel{box-shadow: 0 2px 10px rgba(0,0,0,.05) !important;border-radius: 15px}
-      .chris-benefits .u-benifits .panel{box-shadow: 0 2px 10px rgba(0,0,0,.05) !important;border-radius: 15px; padding-left: 25px}
-      .chris-benefits .panel ul li span{margin-left: 15px;}
-      #contact-support{padding-bottom: 30px;}
-      .chris-benefits div table {font-family: arial, sans-serif;border-collapse: collapse;width: 100%; border-radius: 1em;}
-      .chris-benefits div table th {text-align: left;padding:20px;background-color: #929ca5;color: #fff;font-size: 18px;}
-      .chris-benefits div table td {text-align: left;padding: 20px;background-color: #fff; font-size: 18px}
-      .chris-benefits div table tr:nth-child(even) {background-color: #fafafb;}
-
-      .div-table{overflow: scroll}
-      @media only screen and (max-width: 600px) {
-          .textbox-email {width: 330px;}
-          .div-snow{display: none;}
-          .div-newyear{display: none;}
-          .christmas-service {margin-top: -200px;}
-          .c-image{display: none}
-          .txt-align{text-align: center}
-          .img-new-year{display: block;margin-left: 35px;}
-          .chris-benefits ul li{font-size: 16px;}
-          .chris-benefits div table th{padding: 0px;}
-          .div-content{padding-top: 0px;}
-      }
+        .bg-christmas-landing-page{background-image:url(../../img/images/bk_university.png);height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.bg-christmas-landing-page .div-snow{padding-top:221px}.bg-christmas-landing-page .div-snow img{position:absolute}.bg-christmas-landing-page .div-newyear{padding-top:202px}.bg-christmas-landing-page .div-newyear img{margin-left:-70px;position:absolute}.textbox-email{width:358px;height:50px;box-shadow:0 1px 2px rgba(0,0,0,.2);border-radius:25px!important;background-color:#fff;border:0;padding-left:9%}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}.christmas-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fff;margin-top:-360px;padding:20px}.christmas-service .c-image{padding:20px}.christmas-service .un-offers{padding:20px;border-top:1px solid rgba(146,156,165,.2)}.btn-chris-place-order{padding:13px 50px;color:#fff;width:300px;height:50px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:30px;background-color:#e85151}.chris-benefits{padding-top:30px;background-color:#fafafb}.chris-benefits ul{text-decoration:none;list-style:none}.chris-benefits ul li{color:#224464;font-family:Bahnschrift;font-size:18px;font-weight:400;text-align:left;padding-top:15px}.chris-benefits ul li img{margin-top:9px}.chris-benefits .ps-img-rounded{height:340px}.chris-benefits .ps-img-rounded span{font-size:22px;color:#11273b}.text-center div{padding-top:20px}.img-new-year{display:none}.chris-benefits .panel{box-shadow:0 2px 10px rgba(0,0,0,.05)!important;border-radius:15px}.chris-benefits .u-benifits .panel{box-shadow:0 2px 10px rgba(0,0,0,.05)!important;border-radius:15px;padding-left:25px}.chris-benefits .panel ul li span{margin-left:15px}#contact-support{padding-bottom:30px}.chris-benefits div table{font-family:arial,sans-serif;border-collapse:collapse;width:100%;border-radius:1em}.chris-benefits div table th{text-align:left;padding:20px;background-color:#929ca5;color:#fff;font-size:18px}.chris-benefits div table td{text-align:left;padding:20px;background-color:#fff;font-size:18px}.chris-benefits div table tr:nth-child(even){background-color:#fafafb}.div-table{overflow:scroll}@media only screen and (max-width:600px){.textbox-email{width:330px}.div-snow{display:none}.div-newyear{display:none}.christmas-service{margin-top:-200px}.c-image{display:none}.txt-align{text-align:center}.img-new-year{display:block;margin-left:35px}.chris-benefits ul li{font-size:16px}.chris-benefits div table th{padding:0}.div-content{padding-top:0}}
     </style>
 
 @endsection
@@ -379,66 +338,7 @@
 
 @section('js_script')
     <script>
-        $(document).ready(function () {
-            $("#diwali_coupon").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    debugger;
-                    var email = $("input[name='email']").val();
-                    var phone = $("input[name='ContactNumber']").val();
-                    var token = $('input[name=_token]').val();
-                    var mailtrain_type = 'university';
-                    jQuery.ajax({
-                        url: 'university',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            email: email,
-                            phone: phone,
-                            mailtrain_type: mailtrain_type,
-                        },
-                        success: function (data) {
-                            console.log(data);
-                            window.location.replace("https://www.shoppre.com/customer/register");
-                        }
-                    })
-                }
-            });
-
-        });
-    </script>
-    <script>
-        var input = document.querySelector("#phone");
-        window.intlTelInput(input, {
-            // allowDropdown: false,
-            // autoHideDialCode: false,
-            // autoPlaceholder: "off",
-            // dropdownContainer: document.body,
-            // excludeCountries: ["us"],
-            // formatOnDisplay: false,
-            // geoIpLookup: function(callback) {
-            //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
-            //     var countryCode = (resp && resp.country) ? resp.country : "";
-            //     callback(countryCode);
-            //   });
-            // },
-            // hiddenInput: "full_number",
-            // initialCountry: "auto",
-            // localizedCountries: { 'de': 'Deutschland' },
-            // nationalMode: false,
-            // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-            // placeholderNumberType: "MOBILE",
-            // preferredCountries: ['cn', 'jp'],
-            // separateDialCode: true,
-            utilsScript: "build/js/utils.js",
-        });
+        $(document).ready(function(){$("#diwali_coupon").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var t=$("input[name='email']").val(),n=$("input[name='ContactNumber']").val(),i=$("input[name=_token]").val();jQuery.ajax({url:"university",type:"POST",data:{_token:i,email:t,phone:n,mailtrain_type:"university"},success:function(e){console.log(e),window.location.replace("https://www.shoppre.com/customer/register")}})}})});var input=document.querySelector("#phone");window.intlTelInput(input,{utilsScript:"build/js/utils.js"});
     </script>
 @endsection
 

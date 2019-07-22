@@ -41,22 +41,7 @@
 </script>
 
     <style>
-        .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
-        .d-header-text {font-size: 40px;font-weight: 900}
-        .d-header-text1 {font-family: Montserrat -Italic;font-style: italic;line-height: 26px;margin-top: 25px}
-        .box-steps p {line-height: 1;}
-        .box-steps p span {font-size: 22px;font-weight: 900;}
-        #packing:hover{display: none}
-        .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 580px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 75px;        }
-        .seo {background-color: #ffffff}
-        .seo h1{font-size: 20px;color: #11273b;font-weight: 800}
-        .seo p{font-size: 16px;color: #677582;font-weight: 600 }
-        .seo  ul li{font-size: 16px;color: #677582;font-weight: 600 ;list-style:none}
-        @media only screen and (max-width: 600px) {
-            .bg-ics-l-p{height: 680px}
-            .seo h1{font-size: 18px;}
-            .seo p{font-size: 14px;}
-        }
+        .bg-ics-landing-page .container>div{padding:20px;margin-bottom:3em}.d-header-text{font-size:40px;font-weight:900}.d-header-text1{font-family:Montserrat -Italic;font-style:italic;line-height:26px;margin-top:25px}.box-steps p{line-height:1}.box-steps p span{font-size:22px;font-weight:900}#packing:hover{display:none}.bg-ics-l-p{background-image:url(../../img/images/overlay1.png);height:580px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:75px}.seo{background-color:#fff}.seo h1{font-size:20px;color:#11273b;font-weight:800}.seo p{font-size:16px;color:#677582;font-weight:600}.seo ul li{font-size:16px;color:#677582;font-weight:600;list-style:none}@media only screen and (max-width:600px){.bg-ics-l-p{height:680px}.seo h1{font-size:18px}.seo p{font-size:14px}}
     </style>
 
 @endsection
@@ -97,29 +82,6 @@
                     {{csrf_field()}}
                     <div class="formFrame " id="diwali-couponcode1">
                         <h1 class="header2 p-color-blue" style="margin-bottom: 30px">Request A Callback</h1>
-                        {{--<div class="form-group">--}}
-                            {{--<label>Full Name <span class="p-color-red">*</span></label>--}}
-                            {{--<input type="text" name="Name" class="form-control"--}}
-                                   {{--placeholder="Enter Here" required>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group">--}}
-                            {{--<label>Contact Number<span class="p-color-red">*</span></label>--}}
-                            {{--<input type="text" name="ContactNumber" class="form-control"--}}
-                                   {{--placeholder="Enter a Valid Phone number" required>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group">--}}
-                            {{--<label>E-Mail ID<span class="p-color-red">*</span></label>--}}
-                            {{--<input type="email" name="email" class="form-control"--}}
-                                   {{--placeholder="Enter a valid E-mail ID" required>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group text-center">--}}
-
-                        {{--<div class="form-group">--}}
-                            {{--<a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">--}}
-                            {{--<img src="/img/images/christmas-contact.png" alt="">--}}
-                            {{--</a>--}}
-                        {{--</div>--}}
-
                         <div class="form-group text-center div-align-items-l">
                             {{--<button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r">--}}
                             <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>
@@ -380,87 +342,12 @@
             </div>
         </div>
     </section>
-
+@endsection
 @section('js_script')
     <script>
-        $(document).ready(function () {
-            $("#ics_lp").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    debugger;
-                    var email = $("input[name='email']").val();
-                    var name = $("input[name='Name']").val();
-                    var contact_no = $("input[name='ContactNumber']").val();
-                    var token = $('input[name=_token]').val();
-                    jQuery.ajax({
-                        url: 'parcel-forwarding',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            email: email,
-                            name: name,
-                            contact_no: contact_no,
-                        },
-                        success: function (data) {
-                            console.log(data);
-                            $('#diwali-couponcode1').hide();
-                            $('#diwali-couponcode2').slideDown();
-                        }
-                    })
-                }
-            });
-
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $("#ics-box2").hover(function () {
-                $("#ics-box2").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box1").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number2').css({"color": "red"})
-                $('#number1').css({"color": "#677582"})
-            }, function () {
-                $("#ics-box1").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box2").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number1').css({"color": "red"})
-                $('#number2').css({"color": "#677582"})
-
-            });
-            $("#ics-box3").hover(function () {
-                $("#ics-box3").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box1").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number3').css({"color": "red"})
-                $('#number1').css({"color": "#677582"})
-            }, function () {
-                $("#ics-box1").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box3").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number1').css({"color": "red"})
-                $('#number3').css({"color": "#677582"})
-
-            });
-
-        });
+        $(document).ready(function(){$("#ics_lp").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(o){var c=$("input[name='email']").val(),s=$("input[name='Name']").val(),n=$("input[name='ContactNumber']").val(),f=$("input[name=_token]").val();jQuery.ajax({url:"parcel-forwarding",type:"POST",data:{_token:f,email:c,name:s,contact_no:n},success:function(o){console.log(o),$("#diwali-couponcode1").hide(),$("#diwali-couponcode2").slideDown()}})}}),$("#ics-box2").hover(function(){$("#ics-box2").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box1").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number2").css({color:"red"}),$("#number1").css({color:"#677582"})},function(){$("#ics-box1").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box2").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number1").css({color:"red"}),$("#number2").css({color:"#677582"})}),$("#ics-box3").hover(function(){$("#ics-box3").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box1").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number3").css({color:"red"}),$("#number1").css({color:"#677582"})},function(){$("#ics-box1").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box3").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number1").css({color:"red"}),$("#number3").css({color:"#677582"})})});
     </script>
 @endsection
-@endsection
+
 
 

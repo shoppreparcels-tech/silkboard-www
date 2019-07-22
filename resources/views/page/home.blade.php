@@ -174,201 +174,7 @@
     </script>
 
     <style>
-        .cord-header-size {
-            font-size: 16px;
-        }
-        .cord-height {
-            height:160px;
-        }
-        .fuid-padding {
-            padding-left: 5%;
-            padding-right: 5%
-        }
-
-        .div-shop-ship1 > div {
-            padding-top: 10px;
-            padding-bottom: 10px
-        }
-
-        .div-shop-ship1 > div > p {
-            text-align: center
-        }
-
-        .div-main .div-add {
-            position: fixed;
-            margin-top: 20%;
-            z-index: 1
-        }
-
-        .div-main .div-add1 {
-            position: relative;
-            float: right
-        }
-
-        .div-h-offer {
-            border-radius: 15px;
-            background-color: #ffffff;
-            padding: 20px
-        }
-
-        .div-h-offer > div {
-            padding-top: 10px;
-        }
-
-        .h-div {
-            height: 40px;
-            overflow: hidden
-        }
-
-        .img-div {
-            padding-top: 10px;
-            overflow: hidden
-        }
-
-        .des-div {
-            height: 150px;
-            overflow: hidden
-        }
-
-        .div-s-br {
-            border-radius: 3px;
-            border: 1px solid #677582;
-        }
-
-        .h-s-a > div > a > div:hover {
-            background-color: #507dbc;
-            color: #ffffff;
-            transition: 0.3s
-        }
-
-        .h-s-a a:hover {
-            background-color: #507dbc;
-            color: #ffffff
-        }
-
-        .vid-s-img {
-            width: 100%
-        }
-
-        .h-sign-up {
-            display: block
-        }
-
-        .pad-0-40 {
-            padding: 40px
-        }
-
-        .pad-0-10 {
-            padding-right: 5px;
-            padding-left: 5px;
-        }
-
-        .pad-0-15 {
-            padding-right: 15px;
-            padding-left: 15px;
-        }
-
-        .offer-img-m {
-            display: none
-        }
-
-        .offer-img-d {
-            display: block
-        }
-
-        .pad-l-d {
-            padding: 0;
-        }
-
-        .seo-hyperlinks {
-        }
-
-        .seo-hyperlinks ul {
-            list-style: none;
-        }
-
-        .seo-hyperlinks ul li {
-            font-size: 14px;
-            color: #677582;
-            margin-top: 5px;
-        }
-
-        .seo-hyperlinks ul li a {
-            color: #677582;
-        }
-
-        @media only screen and (max-width: 1024px) {
-            .div-add {
-                display: none;
-            }
-
-            .mobile-pickup-block {
-                display: none;
-            }
-        }
-
-        @media only screen and (max-width: 1280px) {
-            .div-add {
-                display: none;
-            }
-
-            .mobile-pickup-block {
-                display: none;
-            }
-        }
-
-        @media only screen and (max-width: 600px) {
-            #img-p {
-                display: none;
-            }
-
-            .mobile-pickup-block {
-                display: block;
-            }
-
-            .h-sign-up {
-                display: none
-            }
-
-            .pad-0-40 {
-                padding: 5px
-            }
-
-            .pad-0-10 {
-                padding-right: 5px;
-                padding-left: 5px;
-            }
-
-            .offer-img-m {
-                display: block
-            }
-
-            .offer-img-d {
-                display: none
-            }
-
-            .fuid-padding {
-                padding-left: 3%;
-                padding-right: 3%;
-            }
-
-            .des-div {
-                height: 140px;
-                overflow: hidden
-            }
-
-            .vid-s-img {
-                width: 30%
-            }
-
-            .pad-0-15 {
-                padding: 0
-            }
-
-            .pad-l-d {
-                padding-left: 10%;
-            }
-        }
+        .cord-header-size{font-size:16px}.cord-height{height:160px}.fuid-padding{padding-left:5%;padding-right:5%}.div-shop-ship1>div{padding-top:10px;padding-bottom:10px}.div-shop-ship1>div>p{text-align:center}.div-main .div-add{position:fixed;margin-top:20%;z-index:1}.div-main .div-add1{position:relative;float:right}.div-h-offer{border-radius:15px;background-color:#fff;padding:20px}.div-h-offer>div{padding-top:10px}.h-div{height:40px;overflow:hidden}.img-div{padding-top:10px;overflow:hidden}.des-div{height:150px;overflow:hidden}.div-s-br{border-radius:3px;border:1px solid #677582}.h-s-a>div>a>div:hover{background-color:#507dbc;color:#fff;transition:.3s}.h-s-a a:hover{background-color:#507dbc;color:#fff}.vid-s-img{width:100%}.h-sign-up{display:block}.pad-0-40{padding:40px}.pad-0-10{padding-right:5px;padding-left:5px}.pad-0-15{padding-right:15px;padding-left:15px}.offer-img-m{display:none}.offer-img-d{display:block}.pad-l-d{padding:0}.seo-hyperlinks ul{list-style:none}.seo-hyperlinks ul li{font-size:14px;color:#677582;margin-top:5px}.seo-hyperlinks ul li a{color:#677582}@media only screen and (max-width:1024px){.div-add{display:none}.mobile-pickup-block{display:none}}@media only screen and (max-width:1280px){.div-add{display:none}.mobile-pickup-block{display:none}}@media only screen and (max-width:600px){#img-p{display:none}.mobile-pickup-block{display:block}.h-sign-up{display:none}.pad-0-40{padding:5px}.pad-0-10{padding-right:5px;padding-left:5px}.offer-img-m{display:block}.offer-img-d{display:none}.fuid-padding{padding-left:3%;padding-right:3%}.des-div{height:140px;overflow:hidden}.vid-s-img{width:30%}.pad-0-15{padding:0}.pad-l-d{padding-left:10%}}
     </style>
 
 @endsection
@@ -412,13 +218,6 @@
 
             </div>
         </div>
-        {{--<div class="div-add no-padding pull-right"><a href="https://www.shoppre.com/offers/republic-day-special-offer-from-shoppre/"><img src="{{asset('/img/offers-image/republic_day.png')}}" alt="new year offer" class="pull-right"></a></div>--}}
-        {{--header menu code avail in meena sublime text--}}
-
-        {{--<div class="container">--}}
-        {{--<marquee class="f-s-16 f-c-red f-w-9">Dear Customers, Kindly note that - On account of the Republic Day Holiday, we have suspended our services on the 26th January, 2019. Happy Republic Day!</marquee>--}}
-        {{--</div>--}}
-
 
         <div class="container-fluid c-f-p m-t-30 "><br><br>
             <div class="col-md-12 col-xs-12 pad-t-20">
@@ -482,12 +281,12 @@
 
                     </div>
 
-                    <div>
-                    <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
-                        <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
-                            Live : 👉<a class="f-c-white" style="text-decoration: underline" href="https://www.myntra.com/" target="_blank">Myntra.com BLOCKBUSTER Sale 18-21 July</a> </p>
-                    </marquee>
-                    </div>
+                    {{--<div>--}}
+                    {{--<marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">--}}
+                        {{--<p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>--}}
+                            {{--Live : 👉<a class="f-c-white" style="text-decoration: underline" href="https://www.myntra.com/" target="_blank">Myntra.com BLOCKBUSTER Sale 18-21 July</a> </p>--}}
+                    {{--</marquee>--}}
+                    {{--</div>--}}
                     {{--<span class="f-s-16 f-c-red f-w-9">"Wardrobe Refresh Sale" Biggest Fashion Sale Ever from Amazon.in & Get ₹200 cashback on your amazon.in shipment</span><br>--}}
                     {{--< style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
 
@@ -614,17 +413,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.myntra.com" title="Click for Offer Details" target="_blank">
+                        <a href="https://www.myntra.com/women-apparel" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div"><h4 class="cord-header-size f-c-white">BLOCKBUSTER SALE</h4></div>
+                            <div class="h-div"><h4 class="cord-header-size f-c-white">W MYNTRA FOR HER</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">40-50% Off</span> | 18th - 21st July</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">40-70% Off</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Myntra.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop for Top Apparels, Footwear, Beauty, Sports. Explore More!</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop for Tops, Dresses, Kurtas, Sarees, Jeans. Explore More!</p>
                         </div>
 
                     </div>
@@ -1322,29 +1121,9 @@
         </div>
 
     </section>
-    {{--<section>--}}
-    {{--<div class="container div-got-top">--}}
-    {{--<a href="#" style="float: right">--}}
-    {{--<img class="img-goto-top" id="back-to-top" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/gototop.svg"--}}
-    {{--alt="gototop shipping">--}}
-    {{--</a>--}}
-    {{--</div>--}}
-
-    {{--</section>--}}
 @endsection
 
 @section('js_script')
-
-    {{--<script type='text/javascript'>--}}
-        {{--var pubID = '54240CL48886';--}}
-
-        {{--(function(d, t) {--}}
-            {{--var s = document.createElement('script');s.type = 'text/javascript';--}}
-            {{--s.async = true;s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv1.js';--}}
-            {{--document.getElementsByTagName('body')[0].appendChild(s);--}}
-        {{--}());--}}
-    {{--</script>--}}
-
     <script>
         $(document).ready(function () {
             let html = '';
@@ -1354,63 +1133,6 @@
             let i = 0;
             let itmes = 0;
             let imgUrl = 'https://cdn.shoppre.com/shoppre/';
-
-            // jQuery.ajax({
-            //     url: 'https://parcel.shoppre.com/api/www/shipments',
-            //     type: "GET",
-            //     async: false,
-            //     success: function (res) {
-            //         res.shipment.forEach(x => {
-            //
-            //             // console.log(x.Packages[0].Store.name);<img class="img-circle"  src='+"https://cdn.shoppre.com/shoppre/-"+item.object +'>
-            //             // shipmentItem='';
-            //             if (i === 3) i = 0;
-            //             itmes = 0;
-            //             shipmentItem = '';
-            //             price = '';
-            //             x.Packages.forEach(p => {
-            //                 p.PackageItems.forEach(item => {
-            //                     if (itmes < 1) {
-            //                         shipmentItem = '';
-            //
-            //                         shipmentItem += item.name + ',';
-            //                         price += item.price_amount;
-            //                         imgUrl = +item.object;
-            //                         html += '<div class="col-md-3 col-xs-12">' +
-            //                             '<div class="row pad-5 ' + color[i] + ' ">' +
-            //                             '<div class="h-div"><h4 class="f-s-20 f-c-white"> ' + item.name + '</h4></div>' +
-            //                             // '<center> ' +
-            //                             // '<div class="pad-t-5"><div class="circle-image "><img class="img-circle"></div></div>' +
-            //                             // '</center>' +
-            //                             '</div>';
-            //                         // console.log(item.name);
-            //                         //console.log(item.price_amount);
-            //                         //console.log(item.object);
-            //                     }
-            //                     itmes += 1;
-            //                 });
-            //             });
-            //             html += ' <div class="des-div"><br>' +
-            //                 '<p class="f-s-16 f-c-l-gray f-w-7">' + shipmentItem + ' From ' + x.Packages[0].Store.name + ' India to ' + x.Country.name + ' through DHL service provider ' + '</p>' +
-            //                 '</div>' +
-            //                 '<div>' +
-            //                 '<h2 class="f-s-16 f-c-d-greay">' +
-            //                 '<img src="/img/svg/ic_weight.svg" alt=""> Weight : <span class="p-color-blue">' + x.weight + ' Kg</span>' +
-            //                 '</h2>' +
-            //                 '<h2 class="f-s-16 f-c-d-greay">' +
-            //                 // '<img src="/img/svg/ic_rupee.svg" alt="">Total Charge:<span class="p-color-blue"> '+ x.value_amount + '</span>' +
-            //                 '</h2>' +
-            //                 '</div>' +
-            //                 '</div>';
-            //             i++;
-            //         });
-            //         html += '<div class="next_button"></div>\n' +
-            //             '<div class="prev_button"></div>';
-            //         $('#shippingCard').html(html);
-            //     }
-            // })
-        });
-        $(document).ready(function () {
 
             if ($(window).width() <= 600) {
                 $('.slider_four_in_line').EasySlides({
@@ -1430,15 +1152,8 @@
                 });
             }
 
-        });
-
-
-    </script>
-    <script>
-        $(document).ready(function () {
             $('[data-toggle="popover"]').popover();
-        });
-        $(document).ready(function () {
+
             var id = '#dialog';
             var maskHeight = $(document).height();
             var maskWidth = $(window).width();
@@ -1465,10 +1180,8 @@
                 $(this).hide();
                 $('.window').hide();
             });
-
         });
-    </script>
-    <script>
+
         if ($('#back-to-top').length) {
             var scrollTrigger = 100, // px
                 backToTop = function () {
@@ -1495,59 +1208,13 @@
                 }, 2000);
             });
         }
-    </script>
-    {{--<script>--}}
-    {{--$.getJSON("https://jsonip.com?callback=?", function(data) {--}}
-    {{--$.getJSON("https://ipapi.co/"+data.ip+"/json/", function(res){--}}
 
-    {{--var countryName = res.country_name;--}}
-    {{--var country = res.country;--}}
-    {{--var destination = '';--}}
-    {{--var destination_country = 'United Arab Emirates';--}}
-    {{--var d_country = 'AE';--}}
-
-    {{--if (country =='IN') {--}}
-    {{--country= d_country ;--}}
-    {{--}--}}
-    {{--if (countryName != 'India') {--}}
-    {{--var destination = 'to ' + countryName;--}}
-    {{--destination_country = countryName;--}}
-    {{--}--}}
-    {{--var weight = 0.5;--}}
-    {{--var unit = 'kg';--}}
-    {{--var type = 'nondoc';--}}
-    {{--var box_scale = '';--}}
-    {{--var length = '';--}}
-    {{--var width = '';--}}
-    {{--var height = '';--}}
-    {{--var queryParams = 'all=true&country=' + country + '&type=' + type + '&weight=' + weight;--}}
-    {{--queryParams += '&length=' + length + '&width=' + width + '&height=' + height;--}}
-    {{--queryParams += '&scale=' + '' + '&unit=' + unit;--}}
-    {{--jQuery.ajax({--}}
-    {{--url: 'https://courier.shoppre.com/api/pricing?' + queryParams,--}}
-    {{--type: 'get',--}}
-    {{--success: function (res) {--}}
-
-    {{--if (res.error == "1") {--}}
-    {{--} else {--}}
-    {{--var final_price = "";--}}
-    {{--$('#prices').text(res.prices[0].customerRate);--}}
-    {{--$("#country").text(destination);--}}
-    {{--}--}}
-    {{--}--}}
-    {{--});--}}
-    {{--});--}}
-    {{--// alert("Your IP address is :- " + data.ip);--}}
-    {{--});--}}
-    {{--</script>--}}
-
-    <script>
         var input = document.querySelector("#phone");
         window.intlTelInput(input, {
             hiddenInput: "full_number",
             utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.0/js/utils.js",
         });
-    </script>
+       </script>
 @endsection
 
 

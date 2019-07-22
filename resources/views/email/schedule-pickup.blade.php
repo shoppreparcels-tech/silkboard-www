@@ -4,53 +4,7 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <style media="all" type="text/css">
-        @media only screen and (max-device-width: 480px) {
-            table[class=body] .content,
-            table[class=body] .wrapper {
-                padding: 0px !important;
-            }
-
-            table[class=body] .container {
-                padding: 0 !important;
-                width: 100% !important;
-            }
-        }
-
-        @media only screen and (max-width: 620px) {
-            table[class=body] h1,
-            table[class=body] h2,
-            table[class=body] h3,
-            table[class=body] h4 {
-                font-weight: 600 !important;
-            }
-
-            table[class=body] h1 {
-                font-size: 22px !important;
-            }
-
-            table[class=body] h2 {
-                font-size: 18px !important;
-            }
-
-            table[class=body] h3 {
-                font-size: 16px !important;
-            }
-
-            table[class=body] .content,
-            table[class=body] .wrapper {
-                padding: 10px !important;
-            }
-
-            table[class=body] .container {
-                padding: 10px !important;
-                width: 100% !important;
-            }
-
-            table[class=body] .btn table,
-            table[class=body] .btn a {
-                width: 100% !important;
-            }
-        }
+        @media only screen and (max-device-width:480px){table[class=body] .content,table[class=body] .wrapper{padding:0!important}table[class=body] .container{padding:0!important;width:100%!important}}@media only screen and (max-width:620px){table[class=body] h1,table[class=body] h2,table[class=body] h3,table[class=body] h4{font-weight:600!important}table[class=body] h1{font-size:22px!important}table[class=body] h2{font-size:18px!important}table[class=body] h3{font-size:16px!important}table[class=body] .content,table[class=body] .wrapper{padding:10px!important}table[class=body] .container{padding:10px!important;width:100%!important}table[class=body] .btn a,table[class=body] .btn table{width:100%!important}}
     </style>
 </head>
 
@@ -94,12 +48,6 @@
                             valign="top">
                             <table style="box-sizing: border-box; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;"
                                    width="100%">
-                                <tr>
-                                    <td>
-                                        <p>
-                                            **********************************************************************************************************************************************************************</p>
-                                    </td>
-                                </tr>
                                 <tr>
                                     <td valign="top">
                                         {{--<p style="color: #1f2533;"><font size="5"> Dear {{$data->first_name}} {{$data->last_name}},</font></p>--}}
@@ -183,12 +131,6 @@
                                     <td class="padder-md"
                                         style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top; padding: 20px; "
                                         valign="top">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>
-                                            **********************************************************************************************************************************************************************</p>
                                     </td>
                                 </tr>
                             </table>

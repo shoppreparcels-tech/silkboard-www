@@ -57,21 +57,6 @@
                         @endif
                     </center>
                 </div>
-                {{--<div class="col-md-7 col-md-offset-1 package_photos">--}}
-                    {{--<div class="row">--}}
-                        {{--<h4>Item Photos That Customer Purchased</h4>--}}
-                        {{--@foreach($packages as $package)--}}
-                            {{--@foreach($package->photos as $package_photo)--}}
-                                {{--@php--}}
-                                    {{--$photourl = "/uploads/packages/standard/$package_photo->package_id/$package_photo->name";--}}
-                                {{--@endphp--}}
-                                {{--<div class="col-md-4">--}}
-                                    {{--<img src="{{asset($photourl)}}" alt="">--}}
-                                {{--</div>--}}
-                            {{--@endforeach--}}
-                        {{--@endforeach--}}
-                    {{--</div>--}}
-                {{--</div>--}}
             </div>
             <div class="row top_seller_heading">
                 <div class="col-md-12">

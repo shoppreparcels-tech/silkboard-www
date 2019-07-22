@@ -204,15 +204,6 @@
                     <li><a href="{{route('pricing')}}">Shipping Rates</a></li>
                     <li><a href="{{route('contact')}}">Support</a></li>
                     <li><a href="https://www.shoppre.com/seller-partner" target="_blank">Seller Partner</a></li>
-                    {{--<li>--}}
-                        {{--<div class="container-search">--}}
-                            {{--<form class="searchbox" action="https://ship.shoppre.com">--}}
-                                {{--<input type="search" placeholder="Search......" name="s"  class="searchbox-input" onkeyup="buttonUp();" required>--}}
-                                {{--<input type="submit" class="searchbox-submit">--}}
-                                {{--<span class="searchbox-icon"><i class="fa fa-search" aria-hidden="true"></i></span>--}}
-                            {{--</form>--}}
-                        {{--</div>--}}
-                    {{--</li>--}}
                 </ul>
                 <div id="ajax_login_block" style="display: none">
                 <ul class="nav navbar-nav navbar-right " id="header-ul" >

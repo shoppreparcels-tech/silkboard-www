@@ -72,13 +72,6 @@
 
 @section('js_script')
     <script type="text/javascript">
-
-        $(document).ready(function () {
-
-            $('#example').DataTable({
-                "order": [[ 0, "desc" ]]
-            });
-        });
-
+        $(document).ready(function(){$("#example").DataTable({order:[[0,"desc"]]})});
     </script>
 @endsection

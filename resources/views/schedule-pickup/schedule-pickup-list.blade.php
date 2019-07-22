@@ -82,51 +82,6 @@
 @section('js_script')
     <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
     <script type="text/javascript">
-        /* Magnific Popup */
-        $(document).ready(function () {
-            $('#example').DataTable({
-                "order": [[0, "desc"]]
-            });
-
-            $(".btnEdit").click(function () {
-                // this will query for the clicked toggle
-                var $toggle = $(this);
-
-                // build the target form id
-                var id = "#txt_asana_" + $toggle.data('id');
-
-                $(id).css("width", "400px");
-                $(id).toggle();
-                $(id).focus();
-            });
-
-            $('.txtAsanaLink').keypress(function (e) {
-                var key = e.which;
-                if (key == 13)  // the enter key code
-                {
-                    $("#calc_load").show();
-                    var asana_url = $(this).val();
-                    var pickup_id = $(this).data('id');
-                    // build the target form id
-                    // alert('Shipment id:'+pickup_id+'Value:'+inputVal);
-                    jQuery.ajax({
-                        url: '/schedule-pickup/asana-tracking',
-                        type: "POST",
-                        data: {
-                            pickup_id: pickup_id,
-                            asana_url: asana_url,
-                        },
-                        success: function (res) {
-                            $("#calc_load").hide();
-                            if (res.error == "1") {
-                                alert('Error !');
-                            } else {
-                                $("#txt_asana_" + pickup_id).hide();
-                            }
-                        }
-                    });
-                }
-            });
-        });
+        $(document).ready(function(){$("#example").DataTable({order:[[0,"desc"]]}),$(".btnEdit").click(function(){var a="#txt_asana_"+$(this).data("id");$(a).css("width","400px"),$(a).toggle(),$(a).focus()}),$(".txtAsanaLink").keypress(function(a){if(13==a.which){$("#calc_load").show();var t=$(this).val(),c=$(this).data("id");jQuery.ajax({url:"/schedule-pickup/asana-tracking",type:"POST",data:{pickup_id:c,asana_url:t},success:function(a){$("#calc_load").hide(),"1"==a.error?alert("Error !"):$("#txt_asana_"+c).hide()}})}})});
     </script>
 @endsection

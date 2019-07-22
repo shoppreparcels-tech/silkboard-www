@@ -46,7 +46,7 @@
         <div class="container fst-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Myntra.com shopping from the USA
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart.com shopping from the USA
                     </h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
@@ -94,42 +94,35 @@
             </div>
 
             <div class=" col-md-12 no-pad"><br>
-                <h4 class="f-s-18 f-c-gray f-w-9">A lot more convenient and cheaper alternative for Myntra online shopping form the USA</h4>
+                <h4 class="f-s-18 f-c-gray f-w-9">Flipkart USA- Shopping from USA made easy and affordable</h4>
                 <br>
-                <p class="header4 p-color-cement">Myntra is the pre-eminent e-commerce shopping website in terms of fashion. It has become an enormous brand,
-                    not only in India but also abroad. It is a one-stop destination for shopaholics worldwide, because of its variety of options in clothes,
-                    footwear, accessories, and many more.
+                <p class="header4 p-color-cement">If you are looking for Flipkart shopping from the USA then you have landed at the right place. Flipkart does not offer international shipping. But we do.
                 </p>
                 <br>
-                <h4 class="f-s-18 f-c-gray f-w-9">Does Myntra ship clothes to the USA?</h4>
+                <h4 class="f-s-18 f-c-gray f-w-9">Love doing Flipkart shopping from USA?</h4>
                 <br>
-                <p class="header4 p-color-cement">Unfortunately, <a href="https://www.shoppre.com/myntra-online-shopping-shipping-from-india">Myntra international shipping to the USA</a> is still not a thing, but there is a
-                    website that offers all the perks. Shopppre.com is your knight in shining armor. ShoppRe.com is a shipping website that makes international online
-                    shopping shipping cost-efficient and hassle-free.
+                <p class="header4 p-color-cement">We are sure you do. With a wide range of fashion clothing, home appliances, electronics, and much more, everyone is bound to shop from this humongous e-commerce website. And with all the sales and discounts it offers are like the cherry on the top. So do all the Flipkart shopping from USA with us.
                 </p>
                 <br>
-                <h4 class="f-s-18 f-c-gray f-w-9">Why shop from Myntra?</h4>
+                <h4 class="f-s-18 f-c-gray f-w-9">Does Flipkart ship to USA?</h4>
                 <br>
-                <p class="header4 p-color-cement">I am sure you cannot find anyone who hasn’t heard about the giant shopping website.
-                    Almost everyone acknowledges it as a foremost shopping destination.
-
-                    It has some over the top range of latest fashion clothing. It also has an ample range of clothes for men, so wait no more and start Myntra online shopping for men.
-                    Myntra Kurti sale, Myntra sale women tops, Myntra sale women footwear are some of the favorites among many sales on Myntra.
+                <p class="header4 p-color-cement">Flipkart does not ship to the USA. So it makes it difficult for all the NRIs/PIOs to shop from Flipkart because it does not do Flipkart international shipping.
+                    Therefore. ShoppRe is the holy grail for all the NRI/PIOs to shop from Flipkart while in the USA. You can easily shop for anything you want.
                 </p>
                 <br>
-                <h4 class="f-s-18 f-c-gray f-w-9">How to do you shop from Myntra as an international customer?</h4>
+                <h4 class="f-s-18 f-c-gray f-w-9">So, how can NRIs/PIOs do Flipkart international shipping?</h4>
                 <br>
-                <p class="header4 p-color-cement">If you are still puzzled about how you can order from Myntra as an NRI/PIO, and get your package shipped at your doorsteps abroad.
-                    Then fret no more, here are some easy peasy steps that you can follow and shop for your beloved brands and products.
+                <p class="header4 p-color-cement">There is a way that you can shop from flipkart USA shopping very easily and expeditiously. You can shop from flipkart through ShoppRe.com and easily ship all of your shopping to the USA.
+                    Here the easy steps for shopping
                 </p>
                 <br>
                 <ul class="header4 p-color-cement">
                     <li>First, you have to Sign-Up at ShoppRe.com, if you haven’t already. Then you will receive a free virtual Indian shipping address,
                         that you can use while shopping from Indian shopping websites.
                     </li>
-                    <li>Go to Myntra and shop like crazy for all your favorite products. While billing out, choose the cash on delivery option. Also,
+                    <li>Go to Flipkart and shop like crazy for all your favorite products. While billing out, choose the cash on delivery option. Also,
                         add the <a href="indian-virtual-address" target="_blank">virtual Indian shipping address</a> that was given to you by ShoppRe.</li>
-                    <li>Your shipment from Myntra will arrive at our warehouse, and we will pay for it.</li>
+                    <li>Your shipment from Flipkart will arrive at our warehouse, and we will pay for it.</li>
                     <li>Once all of your order arrives, we repackage it like one and send them to your actual delivery address in the US at 80% less shipping cost.
                     </li>
                     <li>Then you have to make a shipping request for your order. We will dispatch it within 24 hours, once we receive your request to ship.
@@ -151,21 +144,20 @@
                 <br>
 
                 <div class="offerDesc">
-                    <h4 style="text-decoration: underline" class="f-c-blue">Upcoming Myntra sales, you’ve got to know about:</h4>
-                    <p class="header4 p-color-cement">With all the buzz in town about Myntra and its elaborate range of designer and branded collection,
-                        it also comes up with considerable sales and discounts. It is a time of sheer exuberance for all thrifty shoppers. Keep an eye for its biggest and most happening sales because they are yet to arrive.
+                    <h4 style="text-decoration: underline" class="f-c-blue">All about the upcoming Flipkart sales</h4>
+                    <p class="header4 p-color-cement">Besides being one of the leading shopping sites in India it also launches some long-awaited sales. The Flipkart sales are huge and offer humongous discounts on major brands. So do all the shopping during the sales and save extra cash while doing Flipkart shopping from USA. Flipkart often launches many sales now and then, however, some of the big sales are listed down below that you cannot afford to miss.
                     </p>
                     <br>
                     <ul>
-                        <li>Myntra Independence Day Sale, 13th to 15th August 2019</li>
-                        <li>Myntra Big Billion Days Sale, September 2019</b></li>
-                        <li>Myntra Diwali Sale, 25th to 27th October 2019</li>
-                        <li>End of Season Sale, After 15th November</li>
+                        <li>Flipkart Freedom Sale 10th to 12th August</li>
+                        <li>Flipkart Big Billion Day Sale 29th September to 2nd October.</b></li>
+                        <li>Flipkart Diwali Sale 27th October.</li>
+                        <li>Flipkart Big Shopping Days 6th to 8th December</li>
                     </ul>
                 </div>
                 <br>
                 <div>
-                <center><a href="https://clnk.in/i4Fx" target="_blank" class="btn btn-s-r btn-a-l btn-b-r">Shop Myntra.com</a></center>
+                <center><a href="#" target="_blank" class="btn btn-s-r btn-a-l btn-b-r">Shop flipkart.com</a></center>
                 </div>
 
             </div>
@@ -297,4 +289,46 @@
         </div>
         <br>
     </section>
+@endsection
+
+@section('js_script')
+    <script>
+        $(document).ready(function () {
+            $("#diwali_coupon").validate({
+                rules:
+                    {
+                        email: {required: true}
+                    },
+                messages:
+                    {
+                        // email: {required: 'Please enter your email id'}
+                    },
+                submitHandler: function (form) {
+                    debugger;
+                    var email = $("input[name='email']").val();
+                    var pnumber = $("input[name='pnumber']").val();
+                    var cnumber = $("[name='country_code']").val();
+                    var token = $('input[name=_token]').val();
+                    jQuery.ajax({
+                        url: 'new-year-offer',
+                        type: "POST",
+                        data: {
+                            _token: token,
+                            email: email,
+                            pnumber: pnumber,
+                            cnumber: cnumber,
+                        },
+                        success: function (data) {
+                            var url= "{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?email=" + email + "&c_code="+ cnumber +"&PN="+ pnumber ;
+                            console.log(data);
+                            // window.open(url);
+                            window.location.href = url;
+
+                        }
+                    })
+                }
+            });
+
+        });
+    </script>
 @endsection

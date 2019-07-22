@@ -44,10 +44,6 @@
 </section>
 
 @section('content')
-{{--<div style="text-align: center">--}}
-{{--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdL11DQD_pOS2tBNXWaI0d8ryZ4DD0foA-Z7ZR0f0hUG3qpSg/viewform?embedded=true" width="900" height=2000 frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>--}}
-{{--</div>--}}
-
 <div class="row form-group footer-section" style="padding-bottom: 20px;">
     <div style="padding-top: 10px" class="col-md-1 col-sm-8 col-sm-offset-2 col-md-offset-3 text-center"> <button type="submit" name="btnActivate" class="btn btn-l btn-b-r btn-s-r font-weight-900">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdL11DQD_pOS2tBNXWaI0d8ryZ4DD0foA-Z7ZR0f0hUG3qpSg/viewform" target="_blank">Click to Fill the Form</a></button></div>
@@ -57,20 +53,4 @@
     <div style="padding-top: 10px" class="col-md-1 col-sm-8 col-sm-offset-2 col-md-offset-1 text-center"> <button type="submit" name="btnActivate" class="btn btn-s-b btn-a-l btn-b-g font-weight-900">
             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20ShippingSolution" target="_blank">Message us on WhatsApp</></button></div>
 </div>
-
-        {{--<div class="form-group text-center div-align-items-l">--}}
-            {{--<a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>--}}
-        {{--</div>--}}
-
-
-        {{--<div class="form-group text-center div-align-items-l">--}}
-            {{--<a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20ParcelForwarding%20Quote%20from%20India" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>--}}
-        {{--</div>--}}
-
-
-
-
-
-
-
 @endsection

@@ -64,21 +64,6 @@
                     <li>Package Forwarding from Indian Shopping Sites</li>
                     <br>
                 </ul>
-                {{--<h1 class="f-s-18 f-c-d-greay f-w-7">Love is in the air and it is time to pull out all the stops and get the hopeless romantic in you out and about!</h1>--}}
-                {{--<p class="f-s-16 f-c-gray">Celebrate this Valentine’s day with the magnificent beauty of Indian products and the versatility of Indian online shops.</p>--}}
-
-                {{--<h1 class="f-s-18 f-c-d-greay f-w-7">Looking for the perfect Valentine’s day gift to send overseas?</h1>--}}
-                {{--<p class="f-s-16 f-c-gray"><a href="{{route('stores1')}}">Indian online shops</a> for sure will help you get the best gift for your loved one this year,--}}
-                    {{--and make this one the most memorable ever! Online shopping from India is the best bet when it comes to--}}
-                    {{--Valentine’s day gifts, in terms of price and quality.--}}
-                {{--</p>--}}
-
-                {{--<h1 class="f-s-18 f-c-d-greay f-w-7">How does online shopping & international shipping from india work though?</h1>--}}
-                {{--<p class="f-s-16 f-c-gray">Since the most Indian online shops don’t offer international shipping; you  have to--}}
-                    {{--consider <a href="{{route('forwarding')}}">parcel forwarding from India</a> by a third party as your best option.--}}
-                {{--</p>--}}
-
-
                 <br>
 
                 <div class="offerDesc">

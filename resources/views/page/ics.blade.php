@@ -8,24 +8,7 @@
 
     <link rel="canonical" href="https://www.shoppre.com/international-courier-shipping-services-india" />
     <style>
-        .div-padding-bottom{background-image: url("../../img/images/international-courier-from-india.png");height: 470px;width: 100%;background-position: inherit;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;padding-bottom: 4%;}
-        .div-padding-bottom .btn-a{margin-left: 25px;padding: 10px;border-radius: 30px;background-color: #e85151;color: #ffffff;font-size: 16px;}
-        .div-padding-bottom .btn-b{margin-left: 25px;padding: 10px;border-radius: 30px;background-color: #507dbc;color: #ffffff;font-size: 16px;}
-        .div-padding-bottom .btn-a:hover{color: #fff;background-color: #C83B3B;-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.6);}
-        .seo-sec{background-color: #fafafb}
-        .seo-sec a{text-decoration: underline}
-        .ul-seo{list-style: none;}
-        .ul-seo li{ font-size: 16px; font-weight: 600; color: #677582}
-        @media only screen and (max-width: 600px) {
-            .div-padding-bottom .btn-a{margin-left: 0px}
-        }
-
-        @media  only screen and (max-width: 600px) {
-            table th, td h1{font-weight: 700;font-size: 15px;}
-            table th, td span{font-weight: 600; font-size: 10px}
-            table th, td p{font-weight: 600; font-size: 10px}
-        }
-
+        .div-padding-bottom{background-image:url(../../img/images/international-courier-from-india.png);height:470px;width:100%;background-position:inherit;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px;padding-bottom:4%}.div-padding-bottom .btn-a{margin-left:25px;padding:10px;border-radius:30px;background-color:#e85151;color:#fff;font-size:16px}.div-padding-bottom .btn-b{margin-left:25px;padding:10px;border-radius:30px;background-color:#507dbc;color:#fff;font-size:16px}.div-padding-bottom .btn-a:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}.seo-sec{background-color:#fafafb}.seo-sec a{text-decoration:underline}.ul-seo{list-style:none}.ul-seo li{font-size:16px;font-weight:600;color:#677582}@media only screen and (max-width:600px){.div-padding-bottom .btn-a{margin-left:0}}@media only screen and (max-width:600px){table th,td h1{font-weight:700;font-size:15px}table th,td span{font-weight:600;font-size:10px}table th,td p{font-weight:600;font-size:10px}}
     </style>
 
     <script type="application/ld+json">
@@ -567,39 +550,12 @@
         <br>
     </section>
         <br>
-    </section>
-
+@endsection
 @section('js_script')
     <script>
-        $(document).ready(function () {
-            $("#ics-box2").hover(function () {
-                $("#ics-box2").css({"box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"});
-                $("#ics-box1").css({"box-shadow": "none"," background-color":"#ffffff"});
-                $('#number2').css({"color":"red"})
-                $('#number1').css({"color":"#677582"})
-            }, function () {
-                $("#ics-box1").css({"box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"});
-                $("#ics-box2").css({"box-shadow": "none"," background-color":"#ffffff"});
-                $('#number1').css({"color":"red"})
-                $('#number2').css({"color":"#677582"})
-
-            });
-            $("#ics-box3").hover(function () {
-                $("#ics-box3").css({"box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"});
-                $("#ics-box1").css({"box-shadow": "none"," background-color":"#ffffff"});
-                $('#number3').css({"color":"red"})
-                $('#number1').css({"color":"#677582"})
-            }, function () {
-                $("#ics-box1").css({"box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"});
-                $("#ics-box3").css({"box-shadow": "none"," background-color":"#ffffff"});
-                $('#number1').css({"color":"red"})
-                $('#number3').css({"color":"#677582"})
-
-            });
-
-        });
+        $(document).ready(function(){$("#ics-box2").hover(function(){$("#ics-box2").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box1").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number2").css({color:"red"}),$("#number1").css({color:"#677582"})},function(){$("#ics-box1").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box2").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number1").css({color:"red"}),$("#number2").css({color:"#677582"})}),$("#ics-box3").hover(function(){$("#ics-box3").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box1").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number3").css({color:"red"}),$("#number1").css({color:"#677582"})},function(){$("#ics-box1").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box3").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number1").css({color:"red"}),$("#number3").css({color:"#677582"})})});
     </script>
 
 @endsection
 
-@endsection
+

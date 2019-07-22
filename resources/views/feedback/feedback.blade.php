@@ -5,7 +5,6 @@
 @section('keywords', 'shipment, suggestion, feedback form, parcel delivery')
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/feedback" />
-    <link href="{{asset('css/select2.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/star-rating.min.css')}}" rel="stylesheet"/>
 @endsection
 @section('content')
@@ -198,13 +197,6 @@
             'step' : 2,
             'showClear' : false,
             'showCaption' : false
-        });
-    </script>
-    <!-- Select2 -->
-    <script src="{{asset('js/select2.min.js')}}"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".select2").select2();
         });
     </script>
 @endsection

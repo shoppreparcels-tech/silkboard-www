@@ -655,6 +655,7 @@ Route::get('/first-time-international-shipment-offer', 'PageController@firstTime
 Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
 Route::get('/send-rakhi-gifts-online-worldwide-at-cheap-rates', 'PageController@rakhiGift')->name('rakhi-Gift');
 Route::get('/myntra-international-shipping-to-usa', 'PageController@myntraUsa')->name('myntra-usa');
+Route::get('/flipkart-usa-shopping', 'PageController@flipkartUsa')->name('flipkart-usa');
 Route::get('/best-international-relocation-packers-movers', 'PageController@packers')->name('packers-movers');
 Route::get('/international-shipping-gift-cards-vouchers', 'PageController@voucher')->name('voucher');
 Route::get('/medicine-international-courier-from-india', 'PageController@medicine')->name('medicine');

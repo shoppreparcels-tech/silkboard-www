@@ -7,14 +7,7 @@
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/shop-ship"/>
     <style>
-        .bg-diwali-lp{background-image: url(../../img/images/overlay1.png);height: 900px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 60px;}
-        .select-control {float: left;width: 90px !important;height: 40px !important;font-size: 13px;font-weight: 400;    font-style: italic;border-left: 0;border-radius: 3px;background-color: #fafafb;border: none;}
-        .select2-container--default .select2-selection--single {background-color: #fff !important;border: none !important;border-radius: 4px !important;height: 40px !important;padding-top: 5px!important;}
-        .select2-container--default .select2-selection--single .select2-selection__arrow b {margin-top: 4px !important;}
-        @media only screen and (max-width: 600px) {
-            .bg-diwali-lp{    height: 700px;}
-        }
-
+        .bg-diwali-lp{background-image:url(../../img/images/overlay1.png);height:900px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.select-control{float:left;width:90px!important;height:40px!important;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:3px;background-color:#fafafb;border:none}.select2-container--default .select2-selection--single{background-color:#fff!important;border:none!important;border-radius:4px!important;height:40px!important;padding-top:5px!important}.select2-container--default .select2-selection--single .select2-selection__arrow b{margin-top:4px!important}@media only screen and (max-width:600px){.bg-diwali-lp{height:700px}}
     </style>
 @endsection
 @section('content')
@@ -44,31 +37,6 @@
             </div>
 
             <div class="col-md-5 col-md-offset-4 col-xs-12 diwali-form-img">
-                {{--<form action=""  method="post" id="diwali_coupon">--}}
-                    {{--{{csrf_field()}}--}}
-                    {{--<div class="" id="diwali-couponcode1">--}}
-                        {{--<br>--}}
-                        {{--<div class="form-group">--}}
-                            {{--<input type="email" name="email" class="b-r-3 txt-xl txt-shadow txt-pad"--}}
-                                   {{--placeholder="Enter Valid E-mail ID" required>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group">--}}
-                            {{--<select class="select2 select-control" name="country_code" >--}}
-                                {{--<option value="91">IN(+91)</option>--}}
-                                {{--@foreach($countries as $country)--}}
-                                    {{--<option value="{{$country->phone_code}}">{{$country->iso}}(+{{$country->phone_code}})--}}
-                                    {{--</option>--}}
-                                {{--@endforeach--}}
-                            {{--</select>--}}
-                            {{--<input type="text" name="pnumber" class="b-r-3 txt-l txt-shadow txt-pad" pattern="^[0-9]"--}}
-                                   {{--placeholder="Phone Number / Whatsapp" required>--}}
-
-                        {{--</div>--}}
-                        {{--<div class="col-md-10 col-md-offset-2 col-xs-9 col-xs-offset-3 form-group">--}}
-                            {{--<button type="submit" name="btnActivate" class="btn btn-l btn-b-r btn-s-r font-weight-900">Sign Up Free</button>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</form>--}}
                 <br>
                 <br>
                    <div class="form-group text-center">
@@ -95,8 +63,8 @@
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                             <a href="https://www.amazon.in/rakhis-rakhi-hampers/b?ie=UTF8&node=5143508031" title="Amazon" target="_blank">1. Amazon.in 👉The Rakhi Store</a> |
-                            <a href="https://www.myntra.com/" title="Myntra" target="_blank">2. Myntra 👉Blockbuster Sale 18th-21st July</a> |
-                            <a href="https://clnk.in/i19o" title="ajio.com" target="_blank">3. Ajio.com 👉Ajio Manina Sale 18th-21st July</a>
+                            <a href="https://www.myntra.com/" title="Myntra" target="_blank">2. Myntra 👉End of Season Sale </a> |
+                            <a href="https://clnk.in/i19o" title="ajio.com" target="_blank">3. Ajio.com 👉STYLE SPLASH</a>
                         </marquee>
                     </div>
                     <center>
@@ -345,46 +313,4 @@
             </div>
         </div>
     </section>
-@endsection
-
-@section('js_script')
-    <script>
-        $(document).ready(function () {
-            $("#diwali_coupon").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    debugger;
-                    var email = $("input[name='email']").val();
-                    var pnumber = $("input[name='pnumber']").val();
-                    var cnumber = $("[name='country_code']").val();
-                    var token = $('input[name=_token]').val();
-                    jQuery.ajax({
-                        url: 'shop-ship',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            email: email,
-                            pnumber: pnumber,
-                            cnumber: cnumber,
-                        },
-                        success: function (data) {
-                            var url= "{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register?email=" + email + "&c_code="+ cnumber +"&PN="+ pnumber ;
-                            console.log(data);
-                            // window.open(url);
-                            window.location.href = url;
-
-                        }
-                    })
-                }
-            });
-
-        });
-    </script>
 @endsection

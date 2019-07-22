@@ -3,17 +3,7 @@
 <!--CSS for tooltip-->
 
 <style CSS>
-    .material-tooltip > .backdrop {
-        background-color:#fe9611 ;
-        display: block !important;
-    }
-    .material-tooltip > span {
-        outline-width: 20px;
-        line-height: 50px;
-        font-size: 15px;
-        color: black;
-    }
-
+    .material-tooltip>.backdrop{background-color:#fe9611;display:block!important}.material-tooltip>span{outline-width:20px;line-height:50px;font-size:15px;color:#000}
 </style>
 
 @section('content')
@@ -187,16 +177,6 @@
 
 @section('js_script')
 <script type="text/javascript">
-    jQuery('.datetimepicker').datetimepicker({
-        timepicker:false,
-        scrollMonth: false,
-        scrollInput: false,
-        format:'Y-m-d'
-    });
-    $(document).ready(function(){
-        $('.tooltipped').tooltip({delay: 50});
-
-    });
-
+    jQuery(".datetimepicker").datetimepicker({timepicker:!1,scrollMonth:!1,scrollInput:!1,format:"Y-m-d"}),$(document).ready(function(){$(".tooltipped").tooltip({delay:50})});
 </script>
 @endsection

@@ -726,68 +726,6 @@
     <script src="https://pixlcore.com/demos/webcamjs/webcam.min.js"></script>
     <!-- Configure a few settings and attach camera -->
     <script type="text/javascript">
-        jQuery('.datetimepicker').datetimepicker({
-            timepicker:false,
-            scrollMonth: false,
-            scrollInput: false,
-            format:'Y-m-d'
-        });
-        $(document).ready(function(){
-            $('.materialboxed').materialbox();
-            $('#outer_div').on('click', '#btn_edit_item', function () {
-                var item_id = $(this).attr("data-itemid");
-                var token = $('input[name=_token]').val();
-                console.log(item_id);
-                jQuery.ajax({
-                    url: '/admin/get-item',
-                    type: "POST",
-                    data: {
-                        _token: token,
-                        item_id: item_id
-                    },
-                    success: function (data) {
-                        console.log(data.item);
-                        if (data.error == "1") {
-                            console.log('error');
-                            alert('error,try again');
-                        }
-                        else {
-                            $('#ship_oldcost').text(data.amount);
-                            $('#hdn_itemid').val(item_id);
-                            $('#txt_item_name').val(data.item.item);
-                            $('#txt_item_category_id').val(data.item.item_category_id);
-                            $('#txt_item_quantity').val(data.item.quantity);
-
-                            $('#txt_item_price').val(data.item.price);
-                            $('#myModal').modal('open');
-                        }
-                    }
-                });
-
-                // $('#myModal').show();
-            });
-
-            $('#btn_cancel_popup').click(function () {
-                $('#myModal').modal('close');
-            });
-        });
-
-        Webcam.set({
-            width: 320,
-            height: 240,
-            image_format: 'jpeg',
-            jpeg_quality: 90
-        });
-        Webcam.attach( '#my_camera' );
-
-        function take_snapshot() {
-            // take snapshot and get image data
-            Webcam.snap( function(data_uri) {
-                // display results in page
-                document.getElementById('package_image').value  = data_uri;
-                document.getElementById('results').innerHTML =
-                    '<img id="img" src="'+data_uri+'"/>';
-            } );
-        }
+        function take_snapshot(){Webcam.snap(function(t){document.getElementById("package_image").value=t,document.getElementById("results").innerHTML='<img id="img" src="'+t+'"/>'})}jQuery(".datetimepicker").datetimepicker({timepicker:!1,scrollMonth:!1,scrollInput:!1,format:"Y-m-d"}),$(document).ready(function(){$(".materialboxed").materialbox(),$("#outer_div").on("click","#btn_edit_item",function(){var t=$(this).attr("data-itemid"),e=$("input[name=_token]").val();console.log(t),jQuery.ajax({url:"/admin/get-item",type:"POST",data:{_token:e,item_id:t},success:function(e){console.log(e.item),"1"==e.error?(console.log("error"),alert("error,try again")):($("#ship_oldcost").text(e.amount),$("#hdn_itemid").val(t),$("#txt_item_name").val(e.item.item),$("#txt_item_category_id").val(e.item.item_category_id),$("#txt_item_quantity").val(e.item.quantity),$("#txt_item_price").val(e.item.price),$("#myModal").modal("open"))}})}),$("#btn_cancel_popup").click(function(){$("#myModal").modal("close")})}),Webcam.set({width:320,height:240,image_format:"jpeg",jpeg_quality:90}),Webcam.attach("#my_camera");
     </script>
 @endsection

@@ -17,17 +17,6 @@
 
     <section class="bg-valentain">
         <div class="container">
-            {{--<div class="col-md-12">--}}
-                {{--<a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">--}}
-                    {{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">--}}
-                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/christmas-contact.png" alt="">--}}
-                {{--</a>--}}
-                {{--<a href="tel:+91-8277919191" class="d-contact-img pull-right">--}}
-                    {{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">--}}
-                    {{--<img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/christmas-contact.png" alt="">--}}
-                {{--</a>--}}
-            {{--</div>--}}
-
             <div class="col-sm-7 col-xs-12">
                 <h1 class="f-s-45 f-c-white f-w-8 l-h-1">Ship LOVE from India</h1>
                 <h1 class="f-s-26 f-c-white f-w-9 l-h-1">SAVE UPTO <span class="f-c-yellow">80%</span> | Fast & Affordable.</h1>
@@ -288,41 +277,6 @@
 
 @section('js_script')
     <script>
-        $(document).ready(function () {
-            $("#diwali_coupon").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    debugger;
-                    var email = $("input[name='email']").val();
-                    var name = $("input[name='Name']").val();
-                    var contact_no = $("input[name='ContactNumber']").val();
-                    var token = $('input[name=_token]').val();
-                    jQuery.ajax({
-                        url: 'valentines-cashback',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            email: email,
-                            name: name,
-                            contact_no: contact_no,
-                        },
-                        success: function (data) {
-                            console.log(data);
-                            $('#diwali-couponcode1').hide();
-                            // $('#diwali-couponcode2').css('display','block');
-                            $('#diwali-couponcode2').slideDown();
-                        }
-                    })
-                }
-            });
-
-        });
+        $(document).ready(function(){$("#diwali_coupon").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(a){var e=$("input[name='email']").val(),n=$("input[name='Name']").val(),i=$("input[name='ContactNumber']").val(),o=$("input[name=_token]").val();jQuery.ajax({url:"valentines-cashback",type:"POST",data:{_token:o,email:e,name:n,contact_no:i},success:function(a){console.log(a),$("#diwali-couponcode1").hide(),$("#diwali-couponcode2").slideDown()}})}})});
     </script>
 @endsection

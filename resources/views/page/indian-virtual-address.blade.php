@@ -7,19 +7,8 @@
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/indian-virtual-address" />
     <style>
-        .bg-ics-landing-page .container > div {padding: 20px;margin-bottom: 3em}
-        .d-header-text {font-size: 40px;font-weight: 900}
-        .d-header-text1 {font-family: Montserrat -Italic;font-style: italic;line-height: 26px;margin-top: 25px}
-        .box-steps p {line-height: 1;}
-        .box-steps p span {font-size: 22px;font-weight: 900;}
-        #packing:hover{display: none}
-        .bg-ics-l-p{background-image: url(../../img/images/overlay1.png); height: 480px;width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #fafafb;padding-top: 80px;        }
-        @media only screen and (max-width: 600px) {
-            .bg-ics-l-p{height: 680px}
-        }
+        .bg-ics-landing-page .container>div{padding:20px;margin-bottom:3em}.d-header-text{font-size:40px;font-weight:900}.d-header-text1{font-family:Montserrat -Italic;font-style:italic;line-height:26px;margin-top:25px}.box-steps p{line-height:1}.box-steps p span{font-size:22px;font-weight:900}#packing:hover{display:none}.bg-ics-l-p{background-image:url(../../img/images/overlay1.png);height:480px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:80px}@media only screen and (max-width:600px){.bg-ics-l-p{height:680px}}
     </style>
-
-
 @endsection
 
 @section('content')

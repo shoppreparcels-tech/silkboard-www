@@ -30,16 +30,7 @@
     <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 
     <style>
-        .MultiCarousel {float: left;overflow: hidden;padding: 15px;width: 100%;position: relative;}
-        .MultiCarousel .MultiCarousel-inner {transition: 1s ease all;float: left;}
-        .MultiCarousel .MultiCarousel-inner .item {float: left;}
-        .MultiCarousel .MultiCarousel-inner .item > div {text-align: center;padding: 10px;margin: 0px;background: #f1f1f1;color: #666;}
-        .MultiCarousel .leftLst, .MultiCarousel .rightLst {position: absolute;border-radius: 50%;top: calc(50% - 20px);}
-        .MultiCarousel .leftLst {left: 0;}
-        .MultiCarousel .rightLst {right: 0;}
-        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {pointer-events: none;background: #ccc;}
-        .delivery img {width: 100%}
-        .text-transform-u {text-transform: uppercase}
+        .MultiCarousel{float:left;overflow:hidden;padding:15px;width:100%;position:relative}.MultiCarousel .MultiCarousel-inner{transition:1s ease all;float:left}.MultiCarousel .MultiCarousel-inner .item{float:left}.MultiCarousel .MultiCarousel-inner .item>div{text-align:center;padding:10px;margin:0;background:#f1f1f1;color:#666}.MultiCarousel .leftLst,.MultiCarousel .rightLst{position:absolute;border-radius:50%;top:calc(50% - 20px)}.MultiCarousel .leftLst{left:0}.MultiCarousel .rightLst{right:0}.MultiCarousel .leftLst.over,.MultiCarousel .rightLst.over{pointer-events:none;background:#ccc}.delivery img{width:100%}.text-transform-u{text-transform:uppercase}
     </style>
 @endsection
 
@@ -111,45 +102,6 @@
                     <button class="btn btn-primary rightLst">></button>
                 </div>
             </div>
-
-            {{--<div class="row">--}}
-                {{--<div class="MultiCarousel" data-items="1,2,3,4" data-slide="1" id="MultiCarousel" data-interval="1000">--}}
-                    {{--<div class="MultiCarousel-inner">--}}
-                        {{--<div class="item">--}}
-                            {{--<div class="pad15">--}}
-                                {{--<a href="{{route('schedulePickup.Index')}}" target="_blank">--}}
-                                    {{--<img src="{{asset('img/images/courier-from-india-to-usa.png')}}" class="boxofScroll"/>--}}
-                                {{--</a>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                        {{--<div class="item">--}}
-                            {{--<div class="pad15">--}}
-                                {{--<a href="/international-parcel-forwarding-india-online-shopping" target="_blank">--}}
-                                    {{--<img src="{{asset('img/images/parcel-forwarding-offer.png')}}" class="boxofScroll"/>--}}
-                                {{--</a>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                        {{--<div class="item">--}}
-                            {{--<div class="pad15">--}}
-                                {{--<a href="/personal-shopper-india" target="_blank">--}}
-                                    {{--<img src="{{asset('img/images/personal-shopper-offer.png')}}" class="boxofScroll"/>--}}
-                                {{--</a>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                        {{--<div class="item">--}}
-                            {{--<div class="pad15">--}}
-                                {{--<a href="/refer-a-friend" target="_blank">--}}
-                                    {{--<img src="{{asset('img/images/refer-freind-offer.png')}}" class="boxofScroll"/>--}}
-                                {{--</a>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<button class="btn btn-primary leftLst"><</button>--}}
-                    {{--<button class="btn btn-primary rightLst">></button>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-
-
         </div>
         <div class="container">
             <br/>
@@ -168,7 +120,7 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Deals of the day</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Shop Now</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">Upto 65% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.flipkart.com/offers-store" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
@@ -223,7 +175,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Blockbuster Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">End Of Season Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
@@ -237,8 +189,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">AJIO MANIA SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-90% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Style Splash</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Min. 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>
@@ -250,10 +202,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Amazon fashion</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Upto 70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Budget Finds</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Under ₹499</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.amazon.in/b?node=1983518031&pf_rd_p=5938a6f9-725b-47d7-bc20-ecd0596319e4&pf_rd_r=3808Z48N2V40H0X0FDT7" target="_blank">
+                                <a href="https://www.amazon.in/b?node=17097545031&pf_rd_p=fa180c8f-c40b-405d-8fc6-8fc43fae1da9&pf_rd_r=ATY0ACPGQ98XXFC3MWQ4" target="_blank">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>
@@ -445,123 +397,7 @@
 
 
 @section('js_script')
-
     <script type='text/javascript'>
-        var pubID = '54240CL48886';
-
-        (function(d, t) {
-            var s = document.createElement('script');s.type = 'text/javascript';
-            s.async = true;s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv1.js';
-            document.getElementsByTagName('body')[0].appendChild(s);
-        }());
-    </script>
-    <script>
-        $(document).ready(function () {
-            var itemsMainDiv = ('.MultiCarousel');
-            var itemsDiv = ('.MultiCarousel-inner');
-            var itemWidth = "";
-
-            $('.leftLst, .rightLst').click(function () {
-                var condition = $(this).hasClass("leftLst");
-                condition ? click(0, this) : click(1, this);
-                // if (condition)
-                //     click(0, this);
-                // else
-                //     click(1, this)
-            });
-
-            ResCarouselSize();
-
-            $(window).resize(function () {
-                ResCarouselSize();
-            });
-
-            //this function define the size of the items
-            function ResCarouselSize() {
-                debugger;
-                var incno = 0;
-                var dataItems = ("data-items");
-                var itemClass = ('.item');
-                var id = 0;
-                var btnParentSb = '';
-                var itemsSplit = '';
-                var sampwidth = $(itemsMainDiv).width();
-                var bodyWidth = $('body').width();
-                $(itemsDiv).each(function () {
-                    id = id + 1;
-                    var itemNumbers = $(this).find(itemClass).length;
-                    btnParentSb = $(this).parent().attr(dataItems);
-                    itemsSplit = btnParentSb.split(',');
-                    $(this).parent().attr("id", "MultiCarousel" + id);
-
-
-                    if (bodyWidth >= 1200) {
-                        incno = itemsSplit[3];
-                        itemWidth = sampwidth / incno;
-                    }
-                    else if (bodyWidth >= 992) {
-                        incno = itemsSplit[2];
-                        itemWidth = sampwidth / incno;
-                    }
-                    else if (bodyWidth >= 768) {
-                        incno = itemsSplit[1];
-                        itemWidth = sampwidth / incno;
-                    }
-                    else {
-                        incno = itemsSplit[0];
-                        itemWidth = sampwidth / incno;
-                    }
-                    // itemWidth=330;
-                    $(this).css({'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers});
-                    // $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth});
-                    $(this).find(itemClass).each(function () {
-                        $(this).outerWidth(itemWidth);
-                    });
-
-                    $(".leftLst").addClass("over");
-                    $(".rightLst").removeClass("over");
-
-                });
-            }
-
-
-            //this function used to move the items
-            function ResCarousel(e, el, s) {
-                var leftBtn = ('.leftLst');
-                var rightBtn = ('.rightLst');
-                var translateXval = '';
-                var divStyle = $(el + ' ' + itemsDiv).css('transform');
-                var values = divStyle.match(/-?[\d\.]+/g);
-                var xds = Math.abs(values[4]);
-                if (e == 0) {
-                    translateXval = parseInt(xds) - parseInt(itemWidth * s);
-                    $(el + ' ' + rightBtn).removeClass("over");
-
-                    if (translateXval <= itemWidth / 2) {
-                        translateXval = 0;
-                        $(el + ' ' + leftBtn).addClass("over");
-                    }
-                }
-                else if (e == 1) {
-                    var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
-                    translateXval = parseInt(xds) + parseInt(itemWidth * s);
-                    $(el + ' ' + leftBtn).removeClass("over");
-
-                    if (translateXval >= itemsCondition - itemWidth / 2) {
-                        translateXval = itemsCondition;
-                        $(el + ' ' + rightBtn).addClass("over");
-                    }
-                }
-                $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
-            }
-
-            //It is used to get some elements from btn
-            function click(ell, ee) {
-                var Parent = "#" + $(ee).parent().attr("id");
-                var slide = $(Parent).attr("data-slide");
-                ResCarousel(ell, Parent, slide);
-            }
-
-        });
+        var pubID="54240CL48886";!function(t,s){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src=("https:"==document.location.protocol?"https://cdn0.cuelinks.com/js/":"http://cdn0.cuelinks.com/js/")+"cuelinksv1.js",document.getElementsByTagName("body")[0].appendChild(e)}(),$(document).ready(function(){var t=".MultiCarousel",s=".MultiCarousel-inner",e="";function a(){var a=0,i=0,r="",n="",o=$(t).width(),c=$("body").width();$(s).each(function(){i+=1;var t=$(this).find(".item").length;r=$(this).parent().attr("data-items"),n=r.split(","),$(this).parent().attr("id","MultiCarousel"+i),c>=1200?(a=n[3],e=o/a):c>=992?(a=n[2],e=o/a):c>=768?(a=n[1],e=o/a):(a=n[0],e=o/a),$(this).css({transform:"translateX(0px)",width:e*t}),$(this).find(".item").each(function(){$(this).outerWidth(e)}),$(".leftLst").addClass("over"),$(".rightLst").removeClass("over")})}function i(t,a){var i="#"+$(a).parent().attr("id");!function(t,a,i){var r="",n=$(a+" "+s).css("transform").match(/-?[\d\.]+/g),o=Math.abs(n[4]);if(0==t)r=parseInt(o)-parseInt(e*i),$(a+" .rightLst").removeClass("over"),r<=e/2&&(r=0,$(a+" .leftLst").addClass("over"));else if(1==t){var c=$(a).find(s).width()-$(a).width();r=parseInt(o)+parseInt(e*i),$(a+" .leftLst").removeClass("over"),r>=c-e/2&&(r=c,$(a+" .rightLst").addClass("over"))}$(a+" "+s).css("transform","translateX("+-r+"px)")}(t,i,$(i).attr("data-slide"))}$(".leftLst, .rightLst").click(function(){i($(this).hasClass("leftLst")?0:1,this)}),a(),$(window).resize(function(){a()})});
     </script>
 @endsection

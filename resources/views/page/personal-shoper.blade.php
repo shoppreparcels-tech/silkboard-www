@@ -9,16 +9,7 @@
 
     <link rel="canonical" href="https://www.shoppre.com/personal-shopper-india" />
     <style>
-        .ps-section {background-color: #11273b;height: 1000px}
-        .ps-section .container > div {padding: 20px;margin-bottom: 0em}
-        .ps-section .container > div h1 {font-weight: 900;}
-        .ps-section .container > #img-shopping{padding-top: 158px}
-        .ps-section .container > #img-shopping img {width: 596px;height: 365px;}
-        .h-req-assist{margin-bottom: 30px}
-        .product-courier span{font-weight: 900;}
-        @media only screen and (max-width: 600px) {
-            .ps-section .container > div {padding: 10px;margin-bottom: 0em}
-        }
+        .ps-section{background-color:#11273b;height:1000px}.ps-section .container>div{padding:20px;margin-bottom:0}.ps-section .container>div h1{font-weight:900}.ps-section .container>#img-shopping{padding-top:158px}.ps-section .container>#img-shopping img{width:596px;height:365px}.h-req-assist{margin-bottom:30px}.product-courier span{font-weight:900}@media only screen and (max-width:600px){.ps-section .container>div{padding:10px;margin-bottom:0}}
     </style>
 
 @endsection
@@ -33,14 +24,6 @@
                     Shop From India, Ship Worldwide
                 </h1>
             </div>
-            {{--<div class="col-md-4 col-xs-12 div-align-items-r">--}}
-                {{--<a href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20interested,%20In%20Assisted%20Shopping%20from%20Indian%20Stores" title="Click for WhatsApp" target="_blank" class="d-contact-img-desktop">--}}
-                    {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">--}}
-                {{--</a>--}}
-                {{--<a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Personal%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="d-contact-img">--}}
-                    {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">--}}
-                {{--</a>--}}
-            {{--</div>--}}
         </div>
 
         <div class="container">
@@ -83,11 +66,6 @@
                 </div>
                 {{--</div>--}}
                 <div class="col-md-12 col-xs-12 div-btn-padding">
-                    {{--<a href="https://www.youtube.com/watch?v=q5R63gFUREk" target="_blank">--}}
-                        {{--<div class="btn header6 btn-ifs-l-assisted">--}}
-                            {{--Personal Shopper - Watch Video--}}
-                        {{--</div>--}}
-                    {{--</a>--}}
                     <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Assisted%20Purchase%20Service" style="color:white" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
                 </div>
             </div>
@@ -140,52 +118,6 @@
                 </iframe>
                 {{--<h4 class="f-s-16 f-c-l-gray txt-a-c">One-stop Solution For All your Shopping & Shipping Needs from India | ShoppRe.com</h4>--}}
             </div>
-            {{--<div class=" col-md-5 col-sm-5 col-xs-12">--}}
-                {{--<h1 class="header2 p-color-blue h-req-assist">Request Free Assistance</h1>--}}
-                {{--<form action="" method="post " id="personal_shopper">--}}
-                    {{--{{csrf_field()}}--}}
-                    {{--<div class="formFrame div-form-get-quote" id="diwali-couponcode1">--}}
-                        {{--<div class="form-group">--}}
-                            {{--<label>Full Name <span class="p-color-red">*</span></label>--}}
-                            {{--<input type="text" name="Name" class="form-control"--}}
-                                   {{--placeholder="Enter your Name Here" required>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group">--}}
-                            {{--<label>Contact Number<span class="p-color-red">*</span></label>--}}
-                            {{--<input type="text" name="ContactNumber" class="form-control"--}}
-                                   {{--placeholder="Enter Phone number with Country Code" required>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group">--}}
-                            {{--<label>E-Mail ID<span class="p-color-red">*</span></label>--}}
-                            {{--<input type="email" name="email" class="form-control"--}}
-                                   {{--placeholder="Enter a valid E-mail ID" required>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group text-center">--}}
-                            {{--<br>--}}
-                            {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-a-l btn-b-g">Request Assistance</button>--}}
-                        {{--</div>--}}
-                        {{--<div class="form-group text-center div-align-items-l">--}}
-                            {{--<a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r" style="color:white">Call: +91-8277919191</a><br><br>--}}
-                            {{--<a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Assisted%20Purchase%20Service" style="color:white" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>--}}
-                        {{--</div>--}}
-
-                    {{--<div class="formFrame  div-form-get-quote" id="diwali-couponcode2">--}}
-                        {{--<div class="row">--}}
-                            {{--<center>--}}
-                                {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/request-sent.svg" alt="" >--}}
-                                {{--<h6 class="header5 p-color-blue">Request Sent!</h6>--}}
-                                {{--<h5 class="header5 p-color-cement">Just One More Step To start <br>using Personal--}}
-                                    {{--Shopper!</h5>--}}
-                            {{--</center>--}}
-                            {{--Request--}}
-                        {{--</div>--}}
-                        {{--<div class="text-center">--}}
-                            {{--<a href="/customer/register" class="btn btn-d-signup">Sign--}}
-                                {{--Up</a>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</form>--}}
-            {{--</div>--}}
         </div>
     </section>
 
@@ -473,88 +405,6 @@
             </div>
         </div>
     </section>
-@endsection
-
-@section('js_script')
-    <script>
-        $(document).ready(function () {
-            $("#personal_shopper").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    debugger;
-                    var email = $("input[name='email']").val();
-                    var name = $("input[name='Name']").val();
-                    var contact_no = $("input[name='ContactNumber']").val();
-                    var token = $('input[name=_token]').val();
-                    jQuery.ajax({
-                        url: 'personal-shopper-india',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            email: email,
-                            name: name,
-                            contact_no: contact_no,
-                        },
-                        success: function (data) {
-                            console.log(data);
-                            $('#diwali-couponcode1').hide();
-                            // $('#diwali-couponcode2').css('display','block');
-                            $('#diwali-couponcode2').slideDown();
-                        }
-                    })
-                }
-            });
-
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $("#ics-box2").hover(function () {
-                $("#ics-box2").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box1").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number2').css({"color": "red"})
-                $('#number1').css({"color": "#677582"})
-            }, function () {
-                $("#ics-box1").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box2").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number1').css({"color": "red"})
-                $('#number2').css({"color": "#677582"})
-
-            });
-            $("#ics-box3").hover(function () {
-                $("#ics-box3").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box1").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number3').css({"color": "red"})
-                $('#number1').css({"color": "#677582"})
-            }, function () {
-                $("#ics-box1").css({
-                    "box-shadow": "0 -1px 30px rgba(103, 117, 130, 0.17)",
-                    " background-color": "#ffffff"
-                });
-                $("#ics-box3").css({"box-shadow": "none", " background-color": "#ffffff"});
-                $('#number1').css({"color": "red"})
-                $('#number3').css({"color": "#677582"})
-
-            });
-
-        });
-    </script>
 @endsection
 
 

@@ -194,10 +194,6 @@
 
 @section('js_script')
 <script type="text/javascript">
-    $('.slide_trigger').click(function(e) {
-        e.preventDefault();
-        var target = $(this).attr('data-target');
-        $('#slidedown_'+target).slideToggle();
-    });
+    $(".slide_trigger").click(function(t){t.preventDefault();var e=$(this).attr("data-target");$("#slidedown_"+e).slideToggle()});
 </script>
 @endsection
