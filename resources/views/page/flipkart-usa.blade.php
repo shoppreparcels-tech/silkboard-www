@@ -1,12 +1,12 @@
 @extends('layout')
 
-@section('title', 'Myntra USA Online Shopping | Ship From India | ShoppRe.com')
-@section('description', 'Shop Myntra With Your ShoppRe Address and Ship your favorite products from India to the USA. Myntra online shopping and shipping made easy by ShoppRe.')
-@section('keywords', 'myntra usa, international delivery, myntra ship clothes to the US, quora, ecommerce')
+@section('title', 'FLIPKART USA Shipping | Shop from India Online | ShoppRe.com')
+@section('description', 'Shop Flipkart in India and Ship to USA through ShoppRe International shipping services. Save up to 80% on shipping, delivered to your doorsteps within 3-6 days')
+@section('keywords', 'shop from india to usa, shop online india international shipping')
 
 @section('css_style')
 
-    <link rel="canonical" href="https://www.shoppre.com/myntra-international-shipping-to-usa" />
+    <link rel="canonical" href="https://www.shoppre.com/flipkart-usa-shopping" />
 
     <style>
         .first-time-shipment{background-color:#11273b;height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;padding-top:60px}.first-time-shipment .div-snow{padding-top:146px}.first-time-shipment .div-snow img{position:absolute}.first-time-shipment .div-snow img{margin-left:-18px;position:absolute}.first-time-shipment .div-newyear{padding-top:206px}.first-time-shipment .div-newyear img{margin-left:-12px;position:absolute}.textbox-email{width:358px;height:50px;box-shadow:0 1px 2px rgba(0,0,0,.2);border-radius:25px!important;background-color:#fff;border:0;padding-left:9%}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}.fst-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-360px;padding:20px}.fst-service .c-image{padding:20px}.fst-service .shopandship{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;border:1px solid #5a5b5d26}.fst-service .ps{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;border:1px solid #5a5b5d26}.fst-service .ic{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;border:1px solid #5a5b5d26}.fst-service .shopandship:hover{border:1px solid #507dbc}.fst-service .ps:hover{border:1px solid #507dbc}.fst-service .ic:hover{border:1px solid #507dbc}.fst-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.fst-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.fst-service .btn-chris-place-order{padding:13px 50px;color:#fff;width:300px;height:50px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:30px;background-color:#e85151}.chris-benefits{padding-top:30px}.chris-benefits ul{text-decoration:none;list-style:none}.chris-benefits ul li{color:#224464;font-family:Montserrat,sans-serif;font-size:15px;font-weight:400;text-align:left;padding-top:15px}.chris-benefits ul li img{margin-top:9px}.text-center div{padding-top:20px}.img-new-year{display:none}.chris-benefits .panel{box-shadow:0 2px 10px rgba(0,0,0,.05)!important}.chris-benefits .panel ul li span{margin-left:15px}.leter-space{letter-spacing:1px}#contact-support{padding-bottom:30px}.select-control{float:left;width:90px!important;height:40px!important;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:3px;background-color:#fafafb;border:none}.select2-container--default .select2-selection--single{background-color:#fff!important;border:none!important;border-radius:4px!important;height:40px!important;padding-top:5px!important}.select2-container--default .select2-selection--single .select2-selection__arrow b{margin-top:4px!important}@media only screen and (max-width:600px){.first-time-shipment{height:896px}.textbox-email{width:330px}.div-snow{display:none}.div-newyear{display:none}.fst-service{margin-top:-260px}.c-image{display:none}.txt-align{text-align:center}.img-new-year{display:block;width:240px}.chris-benefits ul li{font-size:16px}}
@@ -26,13 +26,13 @@
                </center>
                <center>
                    <h18 class="f-s-50 f-c-white  f-w-9">50% Discount</h18>
-                   <p class="f-s-36 f-c-white f-w-9 ">on your first Myntra shipment </p>
+                   <p class="f-s-32 f-c-white f-w-9 ">on your first FLIPKART shipment </p>
                    <img src="{{asset('img/images/f-s-t-coupon.png')}}" alt="" > <br><br>
                    <a href="{{route('customer.register')}}" target="_blank" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE</a>
                    <br>
                    <br>
                    <br>
-                   <p class="f-s-10 f-c-l-gray f-w-8">Shop Myntra from India and Ship to your door-step anywhere in the USA</p>
+                   <p class="f-s-10 f-c-l-gray f-w-8">Shop Flipkart from India and Ship to your door-step anywhere in the USA</p>
 
                </center>
            </div>
@@ -46,11 +46,11 @@
         <div class="container fst-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart.com shopping from the USA
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart USA - Shopping from USA made Easy and Affordable!
                     </h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
-                    <a href="https://api.whatsapp.com/send?phone=917338208403&text=Can%20I%20Shop%20Myntra%20from%20India%20and%20Ship%20to%20USA?" target="_blank" class="c-image">
+                    <a href="https://api.whatsapp.com/send?phone=917338208403&text=Can%20I%20Shop%20FLIPKART%20from%20India%20and%20Ship%20to%20USA?" target="_blank" class="c-image">
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
                     </a>
                 </div>
@@ -60,7 +60,7 @@
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                         <div class="col-md-6 col-xs-6 no-pad">
                             <h2 class="f-s-16 f-c-blue txt-a-l f-w-9"><a href="{{route('ifs.index')}}">Shop & Ship</a></h2>
-                            <p class="f-s-12 f-c-l-gray txt-a-l">Shop Your Favourite Product from Myntra Store; Get It to ShoppRe Virtual Address; We'll Ship to Your Doorsteps!</p>
+                            <p class="f-s-12 f-c-l-gray txt-a-l">Shop Your Favourite Product from Flipkart Store; Get It to ShoppRe Virtual Address; We'll Ship to Your Doorsteps!</p>
                         </div>
                         <div class="col-md-6 col-xs-6 no-pad">
                             <br>
@@ -73,7 +73,7 @@
                     <div class=" col-sm-12 col-xs-12 col-md-12 ps">
                         <div class="col-md-6 col-xs-6 no-pad">
                             <h2 class="f-s-16 f-c-blue txt-a-l f-w-9"><a href="{{route('personalShopper')}}">Personal Shopper</a></h2>
-                            <p class="f-s-12 f-c-l-gray txt-a-l">Payment Hassles at Checkout at Myntra?<br> No Worries, Let Us Know What You Need; We'll Shop for You!</p>
+                            <p class="f-s-12 f-c-l-gray txt-a-l">Payment Hassles at Checkout at Flipkart?<br> No Worries, Let Us Know What You Need; We'll Shop for You!</p>
                         </div>
                         <div class="col-md-6 col-xs-6 no-pad">
                             <img src="{{asset('img/images/f-s-t-ps.svg')}}" alt="" class="img-responsive">
@@ -94,7 +94,6 @@
             </div>
 
             <div class=" col-md-12 no-pad"><br>
-                <h4 class="f-s-18 f-c-gray f-w-9">Flipkart USA- Shopping from USA made easy and affordable</h4>
                 <br>
                 <p class="header4 p-color-cement">If you are looking for Flipkart shopping from the USA then you have landed at the right place. Flipkart does not offer international shipping. But we do.
                 </p>
@@ -112,7 +111,7 @@
                 <br>
                 <h4 class="f-s-18 f-c-gray f-w-9">So, how can NRIs/PIOs do Flipkart international shipping?</h4>
                 <br>
-                <p class="header4 p-color-cement">There is a way that you can shop from flipkart USA shopping very easily and expeditiously. You can shop from flipkart through ShoppRe.com and easily ship all of your shopping to the USA.
+                <p class="header4 p-color-cement">There is a way that you can shop from Flipkart USA shopping very easily and expeditiously. You can shop from flipkart through ShoppRe.com and easily ship all of your shopping to the USA.
                     Here the easy steps for shopping
                 </p>
                 <br>
@@ -131,21 +130,9 @@
 
                 </ul>
                 <br>
-                <h4 class="f-s-18 f-c-gray f-w-9">Why choose us?</h4>
-                <br>
-                <p class="header4 p-color-cement">We offer all kinds of <a href="https://www.shoppre.com/international-parcel-forwarding-india-online-shopping" target="_blank">parcel forwarding</a> and
-                    <a href="https://www.shoppre.com/international-courier-shipping-services-india" target="_blank">courier services</a> with 60-80% cheaper shipping rates anywhere in the world.
-                    We also store, repackage, consolidate, and ship the orders in a very efficient manner. All of this results in full customer gratification.
-                    <br> <br>
-                    While shopping with ShoppRe, you can rest assured. Once you place the order, we take over. Believing customers to be our priority, we take the utmost care of your shipment so that you receive it intact.
-                    So experience stress-free shopping and shipping with shoppre.com and shop for all your favorites.
-
-                </p>
-                <br>
-
                 <div class="offerDesc">
                     <h4 style="text-decoration: underline" class="f-c-blue">All about the upcoming Flipkart sales</h4>
-                    <p class="header4 p-color-cement">Besides being one of the leading shopping sites in India it also launches some long-awaited sales. The Flipkart sales are huge and offer humongous discounts on major brands. So do all the shopping during the sales and save extra cash while doing Flipkart shopping from USA. Flipkart often launches many sales now and then, however, some of the big sales are listed down below that you cannot afford to miss.
+                    <p class="header4 p-color-cement">Besides being one of the <a href="indian-online-stores" target="_blank">leading shopping sites in India</a> it also launches some long-awaited sales. The Flipkart sales are huge and offer humongous discounts on major brands. So do all the shopping during the sales and save extra cash while doing Flipkart shopping from USA. Flipkart often launches many sales now and then, however, some of the big sales are listed down below that you cannot afford to miss.
                     </p>
                     <br>
                     <ul>
@@ -157,7 +144,7 @@
                 </div>
                 <br>
                 <div>
-                <center><a href="#" target="_blank" class="btn btn-s-r btn-a-l btn-b-r">Shop flipkart.com</a></center>
+                <center><a href="https://www.flipkart.com/" target="_blank" class="btn btn-s-r btn-a-l btn-b-r">Shop Flipkart.com</a></center>
                 </div>
 
             </div>
@@ -184,7 +171,7 @@
                         <ul>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Affordable Rates</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Myntra Shipping Address</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Flipkart Shipping Address</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-discount</span></li>
 
                         </ul>
@@ -220,7 +207,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
 
                 </div>
 
@@ -235,7 +222,6 @@
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
                         </i>Live Chat</p>
-                    {{--<a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#" class="header2 p-color-white">Chat Now</a>--}}
                     <a href="{{Constant::CHATURL}}" target="_blank"
                        class="header2 p-color-white">Chat Now</a>
 
@@ -266,7 +252,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
 
                 </div>
 

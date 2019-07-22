@@ -21,7 +21,6 @@
            </div>
            <div class="col-md-6 col-xs-12 no-padding">
                <center>
-                   {{--<img src="{{asset('img/images/shoppre-rakhi-left.png')}}" alt="send rakhi online" class="img-new-year"><br>--}}
                    <img src="{{asset('img/images/tape_signup.svg')}}" alt="signup shoppre">  <br>
                </center>
                <center>
@@ -32,7 +31,7 @@
                    <br>
                    <br>
                    <br>
-                   <p class="f-s-10 f-c-l-gray f-w-8">From 15th July to 25th August 2019</p>
+                   <p class="f-s-15 f-c-l-gray f-w-8">From 15th July to 25th August 2019</p>
 
                </center>
            </div>
@@ -234,13 +233,15 @@
                 <h4 class="f-s-18 f-c-gray f-w-9">Send rakhi and gifts for your brother to USA or anywhere in the world for this raksha bandhan and show him your love with our international rakhi delivery.</h4>
                 <br>
                 <p class="header4 p-color-cement">Nostalgia hits us on Raksha Bandhan about all those sweet childhood memories with our siblings. They have a special place in our hearts. No matter how much they annoy us, we still love them and care about them deeply. But time plays its part and we get separated from them. Sometimes they reside on the other side of the planet. But we still try to cherish those memories during raksha bandhan in our ways and send rakhis to them.
-                    But usually when we try to send rakhi to the USA or anywhere abroad, the process of custom is very tiring and the duties imposed on our package are exorbitant. But those days of despair are long gone because ShoppRe-the number one online international shipping portal is here to save the day! We do international rakhi delivery very efficiently.
+                    But usually when we try to send rakhi to the USA or anywhere abroad, the process of custom is very tiring and the duties imposed on our package are exorbitant. But those days of despair are long gone because ShoppRe-the number one
+                    <a href="/" target="_blank">online international shipping portal</a> is here to save the day! We do international rakhi delivery very efficiently.
                 </p>
                 <br>
                 <h4 class="f-s-18 f-c-gray f-w-9">How to send rakhi online from India for raksha bandhan?</h4>
                 <br>
-                <p class="header4 p-color-cement">With us, you can easily ship your rakhis and gifts with lots of love to the USA or anywhere abroad without much anxiety. We do all that for you. You just have to sign up on Shoppre and request a pickup and then we take it from there. You get informed on every step of the process so that you can easily track it.
-                    You can choose rakhis and rakhi gifts for your brother from the plethora of rakhis and gift options suggested on our website or from any Indian Stores. From funky to traditional, you will find every type of rakhi you are looking for. We also offer uncomparable shipping rates that are as low as 80%. So you can send rakhi to the USA at cheap prices.
+                <p class="header4 p-color-cement">With us, you can easily ship your rakhis and gifts with lots of love to the USA or anywhere abroad without much anxiety. We do all that for you. You just have to Sign-up on ShoppRe and request a pickup and then we take it from there. You get informed on every step of the process so that you can easily track it.
+                    You can choose rakhis and rakhi gifts for your brother from the plethora of rakhis and gift options suggested on our website or from any Indian Stores. From funky to traditional, you will find every type of rakhi you are looking for. We also offer uncomparable shipping rates that are as low as 80%. So you can send rakhi to
+                    <a href="https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg" target="_blank">the USA at cheap prices</a>.
                 </p>
                 <br>
             <br>

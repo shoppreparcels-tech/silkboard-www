@@ -26,7 +26,7 @@
                </center>
                <center>
                    <h18 class="f-s-50 f-c-white  f-w-9">50% Discount</h18>
-                   <p class="f-s-36 f-c-white f-w-9 ">on your first Myntra shipment </p>
+                   <p class="f-s-32 f-c-white f-w-9 ">on your first MYNTRA shipment </p>
                    <img src="{{asset('img/images/f-s-t-coupon.png')}}" alt="" > <br><br>
                    <a href="{{route('customer.register')}}" target="_blank" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE</a>
                    <br>
