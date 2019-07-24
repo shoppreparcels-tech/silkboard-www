@@ -7,7 +7,7 @@
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/customer/register"/>
     <script src="{{asset('js/utils.js')}}"></script>
-    <link rel="stylesheet" href="{{asset('css/intlTelInput.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/intlTelInput.css')}}?{{Config::get('app.last_commit_hash')}}">
     <script src="{{asset('js/intlTelInput.js')}}"></script>
     <script type='application/ld+json'>
   {

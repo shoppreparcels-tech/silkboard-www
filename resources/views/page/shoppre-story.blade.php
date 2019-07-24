@@ -7,7 +7,7 @@
 @section('content')
     <section class="page_head">
         <div class="pagebanner">
-            <img src="img/banner1.jpg" width="100%">
+            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/banner1.jpg" width="100%">
             <div class="banner-cap">
                 <h2>Shoppre <span class="text-orange">Stories</span></h2>
             </div>

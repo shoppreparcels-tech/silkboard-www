@@ -220,7 +220,7 @@
                                     <h4 class="header6 p-color-cement-dark">1 lbs = 0.4536 Kg (1 Kg = 2.2046 lbs) </h4>
 
                                     <h6 class="header7">Courier Sample:</h6>
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/parcelsample.png" alt="">
+                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/parcelsample.png" alt="">
                                 </div>
                                 <div class="row">
                                     <br>
@@ -243,7 +243,7 @@
                                                     </center>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/vol_calc.png" style="width: 100%;" alt="">
+                                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/vol_calc.png" style="width: 100%;" alt="">
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close
@@ -286,7 +286,7 @@
                                     </div>
                                     <div class="col-md-4 col-sm-4 col-xs-6">
                                         <img class="img-responsive pull-right"
-                                             src="{{env('AWS_CLOUD_FRONT')}}/img/images/m-benefits.png" alt="">
+                                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/img/images/m-benefits.png" alt="">
                                     </div>
                                 </div>
                                 <div class="div-estimat-amount-devider"></div>
@@ -384,7 +384,7 @@
                             <section class="cguide_blocks">
                                 @if(!empty($guide->forbidden))
                                     <article>
-                                        <h2><img src="{{asset('img/cguide_box3.png')}}"> PRODUCTS YOU CAN'T SHIP INTERNATIONALY TO {{strtoupper($country->name)}}</h2>
+                                        <h2><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/cguide_box3.png"> PRODUCTS YOU CAN'T SHIP INTERNATIONALY TO {{strtoupper($country->name)}}</h2>
                                         <div class="col-md-8">
                                             {!! $guide->forbidden !!}
                                         </div>
@@ -408,7 +408,7 @@
                                 <section class="cguide_blocks">
                                     @if(!empty($guide->transits))
                                         <article>
-                                            <h2><img src="{{asset('img/cguide_box2.png')}}"> PACKAGE TRANSIT TIMES</h2>
+                                            <h2><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/cguide_box2.png"> PACKAGE TRANSIT TIMES</h2>
                                             <div class="col-md-8">
                                                 {!! $guide->transits !!}
                                             </div>
@@ -500,7 +500,7 @@
             <center>
                 <p class="header-ifs-p">
                     <a class="bla-1" href="https://www.youtube.com/watch?v=eFop4beZmOk">
-                        <img class="btn-vid-img" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/btn.svg">
+                        <img class="btn-vid-img" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/btn.svg">
                     </a>
                 </p>
                 <h1 class="header1 p-color-cement-dark">Ship from India to United Status</h1>
@@ -513,7 +513,7 @@
                     <center>
                         <h5 class="header5 p-color-cement-dark">Browse Indian Stores</h5>
                     </center>
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/c-shoping-online-indian-stores.png" alt="">
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/c-shoping-online-indian-stores.png" alt="">
                 </div>
 
             </div>
@@ -522,7 +522,7 @@
                     <center>
                         <h5 class="header5 p-color-cement-dark">Send Courier</h5>
                     </center>
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/c-g-courier.png" alt="">
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/c-g-courier.png" alt="">
                 </div>
             </div>
             <div class="col-md-4 col-xs-12">
@@ -530,7 +530,7 @@
                     <center>
                         <h5 class="header5 p-color-cement-dark">Personal Shopper</h5>
                     </center>
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/c-g-shoping.png" alt="">
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/c-g-shoping.png" alt="">
                 </div>
             </div>
 

@@ -80,7 +80,7 @@
                     <div class="col-md-1 col-md-offset-2 d-stores-box col-xs-6 col-xs-offset-2 ">
                         <center class="d-online-stores">
                             <a href="{{route('flipkart.landing')}}" target="_blank">
-                            <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/flipkart-logo.png" alt="FlipKart"/>
+                            <img class="shoppingKart" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/flipkart-logo.png" alt="FlipKart"/>
                             </a>
                         </center>
 
@@ -88,20 +88,20 @@
                     <div class="col-md-1  d-stores-box col-xs-6">
                         <center class="d-online-stores">
                             <a href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" target="_blank">
-                            <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon_logo_RGB.png" alt="Amazon"/>
+                            <img class="shoppingKart" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/amazon_logo_RGB.png" alt="Amazon"/>
                             </a>
                         </center>
                     </div>
                     {{--<div class="col-md-1  d-stores-box col-xs-4">--}}
                         {{--<center class="d-online-stores">--}}
-                            {{--<img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1.png"--}}
+                            {{--<img class="shoppingKart" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/Jabong-com-925660222-1939026-1.png"--}}
                                  {{--alt="Jabong"/>--}}
                         {{--</center>--}}
                     {{--</div>--}}
                     <div class="col-md-1  d-stores-box col-xs-4">
                         <center class="d-online-stores">
                             <a href="https://ship.shoppre.com/online-stores-india/snapdeal-international-delivery-shopping-from-india/" target="_blank">
-                            <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/myntra.png" alt="Myntra"/>
+                            <img class="shoppingKart" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/myntra.png" alt="Myntra"/>
                             </a>
                         </center>
                     </div>
@@ -109,7 +109,7 @@
                         <center class="d-online-stores">
                             <a href="{{route('myntra.landing')}}" target="_blank">
                             <img class="shoppingKart"
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1(1).png" alt="Myntra"/>
+                                 src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/Jabong-com-925660222-1939026-1(1).png" alt="Myntra"/>
                             </a>
                         </center>
                     </div>
@@ -178,7 +178,7 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <br/><br/>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step1.svg" alt="">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/d-step1.svg" alt="">
                         <br/><br/>
                         <h1 class="header3 p-color-cement">STEP 1</h1>
                         <br/>
@@ -190,7 +190,7 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <br/><br/>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step2.svg" alt="">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/d-step2.svg" alt="">
                         <br/><br/>
                         <h1 class="header3 p-color-cement">STEP 2</h1>
                         <br>
@@ -202,7 +202,7 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <br/><br/>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" alt="">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/d-step3.svg" alt="">
                         <br/><br/>
                         <h1 class="header3 p-color-cement">STEP 3</h1>
                         <br>
@@ -236,7 +236,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="div-phone">
                         <center>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Didn't find the answer you need? Contact us!</p>
                         </center>
                     </div>
@@ -274,14 +274,14 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 " style="display: none">
                     <div class="div-phone">
                         <center>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Contact Our <br>Support Team </p>
                         </center>
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="d-contact-div">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
                         <p class="header6 p-color-white " style="margin-left: 51px;margin-top: -36px;">Contact Our <br>Support
                             Team </p>
                     </div>

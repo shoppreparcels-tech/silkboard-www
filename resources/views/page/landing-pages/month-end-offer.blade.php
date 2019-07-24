@@ -22,7 +22,7 @@
        <div class="container pad-t-20">
            <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad ">
                <div class="col-xs-12 col-md-12 no-pad">
-                   <img src="{{asset('img/images/month-end-offer.png')}}" class="img-f-w" alt="">
+                   <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/month-end-offer.png" class="img-f-w" alt="">
                </div>
            </div>
            <div class="col-md-12 col-xs-12">

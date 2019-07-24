@@ -33,7 +33,7 @@
                </h1>
                <p class="header-ifs-p">
                    <a class="bla-1" href="https://youtu.be/q5R63gFUREk">
-                       <img class="btn-vid-img" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/btn.svg">
+                       <img class="btn-vid-img" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/btn.svg">
                    </a>
                </p>
            </center>
@@ -53,8 +53,8 @@
                <p class="f-s-9 f-c-gray">If you are overseas and want to shop from India, occasionally you would have to go through some hassles in the process. Either your international cards won't be accepted or order won't go through on account of you not having Indian credentials mostly.</p>
                <p class="f-s-9 f-c-gray">This is where our <a href="personal-shopper-india">Personal Shopper</a> comes in to play. All you have to do is, let us know what you are intending to buy, and we'll buy it for you!</p>
                <h6 class="f-s-12 f-c-d-gray f-w-8">How Does a Personal Shopper Help?</h6>
-               <p class="f-s-9 f-c-gray"><img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/dot.svg" alt=""/><span class="f-c-d-gray"> We’ll Pay For You:</span> You can place your order on your own, and get it delivered to us; we’ll pay for it on your behalf.</p>
-               <p class="f-s-9 f-c-gray"><img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/dot.svg" alt=""/><span class="f-c-d-gray">We’ll Shop For You:</span> All you have to do is, let us know what you intend         to buy; we’ll make the purchase for you.</p>
+               <p class="f-s-9 f-c-gray"><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/dot.svg" alt=""/><span class="f-c-d-gray"> We’ll Pay For You:</span> You can place your order on your own, and get it delivered to us; we’ll pay for it on your behalf.</p>
+               <p class="f-s-9 f-c-gray"><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/img/svg/dot.svg" alt=""/><span class="f-c-d-gray">We’ll Shop For You:</span> All you have to do is, let us know what you intend         to buy; we’ll make the purchase for you.</p>
            </div>
        </div>
        <div class="container">
@@ -67,7 +67,7 @@
                        <h class="f-s-20 f-c-red">Self Purchased</h><br/><span class="f-c-gray f-s-15">( Paying For You )<br><span class="f-s-1 f-c-red">Service Charges: 10%</span>
                    </center><br/>
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b1">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/shop-product.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/img/svg/shop-product.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 1</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">Shop Products</h7>
@@ -80,7 +80,7 @@
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b2">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/form-fill-up.png" alt="" style="height: 85px;"/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/img/form-fill-up.png" alt="" style="height: 85px;"/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 2</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">Fill up Shoppre Order Form</h7>
@@ -93,7 +93,7 @@
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b3">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/pay-receive.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/img/svg/pay-receive.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 3</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">COD, Pay & Receive</h7>
@@ -101,7 +101,7 @@
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b4">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/save80.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/img/svg/save80.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 4</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">Make a Ship Request</h7>
@@ -112,7 +112,7 @@
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b4">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/d-step3.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/img/svg/d-step3.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 5</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">You Pay, We'll Dispatch</h7>
@@ -131,7 +131,7 @@
                        <h class="f-s-20 f-c-blue">Assisted Purchase </h><br/><span class="f-c-gray f-s-15">( Shopping For You )<br><span class="f-s-1 f-c-blue">Service Charges: 07%</span>
                    </center><br/>
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b1">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/shop-product.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/img/svg/shop-product.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 1</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">Search Products</h7>
@@ -141,7 +141,7 @@
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b2">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/form-fill-up.png" alt="" style="height: 85px"/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/img/form-fill-up.png" alt="" style="height: 85px"/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 2</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">Fill up Shoppre Order Form</h7>
@@ -152,7 +152,7 @@
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b3">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/pay-receive.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/img/svg/pay-receive.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 3</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">We Do The Shopping</h7>
@@ -163,7 +163,7 @@
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b4">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/save80.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/img/svg/save80.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 4</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">Make a Ship Request</h7>
@@ -174,7 +174,7 @@
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b4">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/svg/d-step3.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/img/svg/d-step3.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 5</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">You Pay, We'll Dispatch</h7>

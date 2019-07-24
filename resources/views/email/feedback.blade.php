@@ -21,7 +21,7 @@
                     <table style="box-sizing: border-box; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
                         <tr>
                             <td class="align-center" style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top; text-align: center;" valign="top" align="center">
-                                <a href="https://www.shoppre.com" style="box-sizing: border-box; color: #4173A9; text-decoration: none;"><img src="https://www.shoppre.com/img/logo.png" height="50" alt="Shoppre" style="-ms-interpolation-mode: bicubic; max-width: 100%;"></a>
+                                <a href="https://www.shoppre.com" style="box-sizing: border-box; color: #4173A9; text-decoration: none;"><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/logo.png" height="50" alt="Shoppre" style="-ms-interpolation-mode: bicubic; max-width: 100%;"></a>
                             </td>
                         </tr>
                     </table>

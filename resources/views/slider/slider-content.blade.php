@@ -10,7 +10,7 @@
         <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
                 background-color: #000000; top: 0px; left: 0px;width: 100%;height:100%;">
         </div>
-        <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+        <div style="position: absolute; display: block; background: url(..{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/loading.gif) no-repeat center center;
                 top: 0px; left: 0px;width: 100%;height:100%;">
         </div>
     </div>
@@ -19,33 +19,33 @@
     <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1400px; height: 380px; overflow: hidden;">
         <div>
             <a href="https://www.shoppre.com/offers/ganesh-chaturthi-shipping-offers-from-india/" target="_blank">
-                <img u="image" src="/img/slider-images/img/landscape/ganesh_chaturthi_wishes.jpg"
+                <img u="image" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/slider-images/img/landscape/ganesh_chaturthi_wishes.jpg"
                      alt="international-shipping-shoppre"/>
             </a>
         </div>
 
         <div>
             <a href="https://www.shoppre.com/offers/ganesh-chaturthi-shipping-offers-from-india/" target="_blank">
-                <img u="image" src="/img/slider-images/img/landscape/Ganesh Chaturthi_Home Page Slider.jpg"
+                <img u="image" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/slider-images/img/landscape/Ganesh Chaturthi_Home Page Slider.jpg"
                      alt="international-shipping-shoppre"/>
             </a>
         </div>
 
         <div>
             <a href="http://bit.ly/save-on-international-shipping" target="_blank">
-                <img u="image" src="/img/slider-images/img/landscape/international-shipping-shoppre.png"
+                <img u="image" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/slider-images/img/landscape/international-shipping-shoppre.png"
                      alt="international-shipping-shoppre"/>
             </a>
         </div>
         <div>
             <a href="https://www.shoppre.com/schedule-pickup?hp-slider-pickup" target="_blank">
-                <img u="image" src="/img/slider-images/img/landscape/pickup-from-india.png"
+                <img u="image" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/slider-images/img/landscape/pickup-from-india.png"
                      alt="pickup Courier from india shoppre"/>
             </a>
         </div>
         <div>
             <a href="https://www.shoppre.com/locker?homeslider" target="_blank">
-            <img u="image" src="/img/slider-images/img/landscape/indian-local-virtual-shipping-address.jpg"
+            <img u="image" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/slider-images/img/landscape/indian-local-virtual-shipping-address.jpg"
                  alt="international shipping addres in india"/>
             </a>
         </div>
@@ -61,7 +61,7 @@
         .jssorb05 .dn           (mousedown)
         */
         .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
-            background: url(../img/slider-images/img/landscape/b05.png) no-repeat;
+            background: url({{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/slider-images/img/landscape/b05.png) no-repeat;
             overflow: hidden;
             cursor: pointer;
         }
@@ -103,7 +103,7 @@
             position: absolute;
             cursor: pointer;
             display: block;
-            background: url(../img/slider-images/img/landscape/a12.png) no-repeat;
+            background: url({{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/slider-images/img/landscape/a12.png) no-repeat;
             overflow: hidden;
         }
 

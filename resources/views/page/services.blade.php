@@ -42,7 +42,7 @@
 
     <section class="page_head">
         <div class="pagebanner">
-          <img src="img/banner1.jpg" width="100%">
+          <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/banner1.jpg" width="100%">
           <div class="banner-cap">
             <h2>Shoppre <span class="text-orange">Services</span></h2>
           </div>
@@ -58,7 +58,7 @@
       <div class="container">
         <div class="col-md-4">
           <div class="imgbox">
-            <img src="img/services2.png">
+            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/services2.png">
             <h3>Shop and Ship</h3>
             <p>Always wanted to get products from India?</p>
           </div>
@@ -72,7 +72,7 @@
             <div class="infobox">
               <h4>GIFT YOUR LOVED ONES LIVING OUTSIDE INDIA</h4>
               <p>Simply sign up and buy your favorite product from ANY Indian website, and gift your near and dear ones outside India!</p>
-              <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-shoppre">Sign up for free</a>
+              <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register" class="btn btn-shoppre">Sign up for free</a>
             </div>
             <div class="infobox">
               <h4>SHOPPRE’S UPFRONT SHIPPING RATES. 60-80% DISCOUNTED CARRIER RATES</h4>
@@ -91,7 +91,7 @@
       <div class="container">
         <div class="col-md-4">
           <div class="imgbox">
-            <img src="img/services1.png">
+            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/services1.png">
             <h3>PERSONAL SHOPPER</h3>
             <p>Your International credit card or mode of payment isn't accepted by some Indian Portals?</p>
           </div>
@@ -105,7 +105,7 @@
             <div class="infobox">
               <h4>GIFT YOUR LOVED ONES LIVING IN INDIA</h4>
               <p>Simply sign up and use Shoppre’s Personal Shopper to buy your favorite product from ANY Indian website, and gift your loved ones in India!</p>
-              <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-shoppre">Sign up for free</a>
+              <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register" class="btn btn-shoppre">Sign up for free</a>
             </div>
         </div>
       </div>
@@ -114,7 +114,7 @@
       <div class="container">
         <div class="col-md-4">
           <div class="imgbox">
-            <img src="img/services3.png">
+            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/services3.png">
             <h3>Shopping guide</h3>
             <p>Dont’t know where to shop the product that you need from?</p>
           </div>

@@ -34,7 +34,7 @@
 
                 {{--<div class="row">--}}
                 <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card no-padding">
-                    <img class="img " src="{{env('AWS_CLOUD_FRONT')}}/img/svg/international-credit-card-shopping.svg"
+                    <img class="img " src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/international-credit-card-shopping.svg"
                          alt="international credit card shopping">
                 </div>
                 <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card no-padding">
@@ -45,7 +45,7 @@
 
 
                 <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card no-padding">
-                    <img class="img" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indian-phone-number.svg" alt="indian number">
+                    <img class="img" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/indian-phone-number.svg" alt="indian number">
                 </div>
                 <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card no-padding">
                     <h4 class="header6 p-color-cement">Don't have an Indian phone number
@@ -53,7 +53,7 @@
                     </h4>
                 </div>
                 <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card no-padding">
-                    <img class="img" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indian-address-shopping.svg"
+                    <img class="img" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/indian-address-shopping.svg"
                          alt="indian address for shopping">
 
                 </div>
@@ -62,7 +62,7 @@
                     </h4>
                 </div>
                 <div class="col-sm-12 col-xs-12 no-padding" id="img-shopping-mobile">
-                    <img class="img-responsive " src="{{env('AWS_CLOUD_FRONT')}}/img/images/image06_v2.png">
+                    <img class="img-responsive " src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/image06_v2.png">
                 </div>
                 {{--</div>--}}
                 <div class="col-md-12 col-xs-12 div-btn-padding">
@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="col-md-7 col-lg-7 col-sm-7 col-xs-12 no-padding " id="img-shopping" >
-                <img class=" " src="{{env('AWS_CLOUD_FRONT')}}/img/images/psp.png"
+                <img class=" " src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/psp.png"
                      alt="personal shopper service in india">
             </div>
         </div>
@@ -89,14 +89,14 @@
                 <br>
                 <h5 class="header5 p-color-cement-dark">How Does a Personal Shopper Help?</h5>
                 <p class="header5 p-color-cement">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/dot.svg" alt="">
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/dot.svg" alt="">
                     <span class="p-color-cement-dark">We’ll Pay For You:</span> You can place your order on your own,
                     and get
                     it delivered to us; we’ll pay for it on your behalf.International Credit card / Paypal.
 
                 </p>
                 <p class="header5 p-color-cement">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/dot.svg" alt="">
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/dot.svg" alt="">
                     <span class="p-color-cement-dark"> We’ll Shop For You:</span> All you have to do is, let us know
                     what you intend to buy; we’ll make the purchase for you.
                 </p>
@@ -137,7 +137,7 @@
                     <div class="panel">
                         <center>
                             <br/>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-product.svg" alt="">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/shop-product.svg" alt="">
                             <br/>
                             <br/>
                             <span class="p-color-blue">Step 1</span>
@@ -170,7 +170,7 @@
                 <div class="col-sm-3">
                     <div class="panel">
                         <br>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pay-receive.svg" alt="">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/pay-receive.svg" alt="">
                         <br/>
                         <br/>
                         <span class="p-color-blue">Step 3</span>
@@ -184,7 +184,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="panel"><br>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" style="height: 70px" alt="">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/save80.svg" style="height: 70px" alt="">
                         <br>
                         <br/>
                         <span class="p-color-blue" >Step 4</span>
@@ -199,7 +199,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="panel"><br>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/d-step3.svg" style="height: 70px" alt="">
                         <br>
                         <br/>
                         <span class="p-color-blue" >Step 5</span>
@@ -236,7 +236,7 @@
                     <div class="panel">
                         <center>
                             <br/>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-product.svg" alt="">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/shop-product.svg" alt="">
                             <br/>
                             <br/>
                             <span class="p-color-blue" >Step 1</span>
@@ -267,7 +267,7 @@
                 <div class="col-sm-3">
                     <div class="panel">
                         <br>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pay-receive.svg" alt="">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/pay-receive.svg" alt="">
                         <br/>
                         <br/>
                         <span class="p-color-blue" >Step 3</span>
@@ -282,7 +282,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="panel ps-img-rounded"><br>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" style="height: 70px" alt="">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/save80.svg" style="height: 70px" alt="">
                         <br>
                         <br/>
                         <span class="p-color-blue" >Step 4</span>
@@ -298,7 +298,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="panel ps-img-rounded"><br>
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/d-step3.svg" style="height: 70px" alt="">
                         <br>
                         <br/>
                         <span class="p-color-blue" >Step 5</span>
@@ -328,7 +328,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="div-phone">
                         <center>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Didn't find the answer you need? Contact us!</p>
                         </center>
                     </div>
@@ -367,14 +367,14 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 " style="display: none">
                     <div class="div-phone">
                         <center>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Contact Our <br>Support Team </p>
                         </center>
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="d-contact-div">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
                         <p class="header6 p-color-white " style="margin-left: 51px;margin-top: -36px;">Contact Our <br>Support
                             Team </p>
                     </div>

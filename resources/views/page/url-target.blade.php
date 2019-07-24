@@ -34,7 +34,7 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <a class="navbar-brand" href="https://www.shoppre.com">
-                <img src="https://www.shoppre.com/img/logo.png">
+                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/logo.png">
             </a>
         </div>
         </div><!-- /.container-fluid -->
@@ -122,7 +122,7 @@
                         <h5>Kilogram/Pound Conversion</h5>
                         <p>1 lbs = 0.4536 Kg <span>(1 Kg = 2.2046 lbs)</span></p>
                         <h5>Parcel Sample :</h5>
-                        <img src="{{asset('img/parcelsample.png')}}">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/parcelsample.png">
                     </div>
                 </div>
                 <div class="col-md-5 cal_padding">
@@ -302,7 +302,7 @@
             <h3 class="htag_align">Send your home made items to {{ucfirst(trans($destination))}}</h3>
             <div style=" height: 295px;">
                 <div class="col-md-6">
-                    <img src="img/homemade.jpg">
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/homemade.jpg">
                 </div>
                 <div class="col-md-6">
                     <h4>Shop online from india.ship worldwide</h4>
@@ -333,7 +333,7 @@
                         and dispatch it safely to your preferred destination anywhere around the globe.</p>
                 </div>
                 <div class="col-md-6">
-                    <img style=" height: 490px;" src="img/branded-food-items.jpg">
+                    <img style=" height: 490px;" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/branded-food-items.jpg">
                 </div>
             </div>
         </section>
@@ -343,7 +343,7 @@
             <h3 class="htag_align">Send liquid/semi-liquid to {{ucfirst(trans($destination))}}</h3>
             <div style=" height: 490px;">
                 <div class="col-md-5">
-                    <img style=" height: 490px;" src="img/liquid.jpg">
+                    <img style=" height: 490px;" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/liquid.jpg">
                 </div>
                 <div class="col-md-5">
                     <h4>Ship liquid/semi-liquid items to worldwide</h4>
@@ -359,7 +359,7 @@
             <h3 class="htag_align">Use Personal Shopper Service To Purchse Your Items</h3>
             <div class="container">
                 <div class="col-md-4">
-                    <img src="img/services1.png">
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/services1.png">
                 </div>
                 <div class="col-md-8 ">
                     <h4>YOUR PERSONAL SHOPPER</h4>
@@ -398,7 +398,7 @@
                 <p>We repack individual shipments for free and help in reducing wasted space<br> which will allow
                     you to save over 20% on shipping charges.</p>
                 <div class="col-sm-6 repack_box border">
-                    <img src="{{asset('img/repackage.png')}}">
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/repackage.png">
                     <h4>We only repack goods which :</h4>
                     <ul>
                         <li>Require added protection and security if it is inadequately packed for international
@@ -415,7 +415,7 @@
                     </ul>
                 </div>
                 <div class="col-sm-6 repack_box">
-                    <img src="{{asset('img/repack_ex.png')}}" style="width: 380px;">
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/repack_ex.png" style="width: 380px;">
                     <h4>Repack example :</h4>
                     <ul>
                         <li>Package from a store was shipped to the warehouse in a box 25x11x11 inches, representing
@@ -441,7 +441,7 @@
                 <div class="serv_sec">
                     <h4>Shipping Directly from most sellers</h4>
                     <div class="example">
-                        <img src="{{asset('img/consolid1.png')}}">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/consolid1.png">
                     </div>
                     <p class="result"><strong>Shipping each item abroad separately :<br>
                             Total Shipping Cost $60</strong></p>
@@ -451,7 +451,7 @@
                 <div class="serv_sec">
                     <h4>shipping through <a href="{{route('home')}}" class="text-orange">Shoppre.com</a></h4>
                     <div class="example">
-                        <img src="{{asset('img/consolid2.png')}}" style="max-width: 78%;">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/consolid2.png" style="max-width: 78%;">
                     </div>
                     <p class="result"><strong>Shipping all the items in ONE package:<br>
                             Total Shipping Costs : $15</strong></p>
@@ -513,9 +513,9 @@
             <div class="col-sm-10">
                 <div class="parcel_logs">
                     <h3>Ship your Parcel through Shoppre’s trusted Courier Partners</h3>
-                    <img src="{{asset('img/dhl.png')}}">
-                    <img src="{{asset('img/fedex.png')}}">
-                    <img src="{{asset('img/dtdc.png')}}">
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/dhl.png">
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/fedex.png">
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/dtdc.png">
                     <h4>Shoppre receives and ships over INR 10,00,000 worth in eCommerce purchases monthly!</h4>
                 </div>
             </div>

@@ -19,7 +19,6 @@
 
     <section class="bg-valentain">
         <div class="container">
-
             <div class="col-sm-7 col-xs-12">
                 <h1 class="f-s-45 f-c-white f-w-8 l-h-1">Send Holi Gifts Worldwide</h1>
                 <h1 class="f-s-26 f-c-white f-w-9 l-h-1">SAVE UPTO <span class="f-c-yellow">80%</span> | Shop & Courier from India</h1>
@@ -68,7 +67,7 @@
 
                     <div class="formFrame" id="diwali-couponcode2">
                         <div class="">
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-congratulation.png" alt="" style="width: 100%">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/d-congratulation.png" alt="" style="width: 100%">
                         </div>
                         <div class="">
                             <center>
@@ -121,30 +120,30 @@
                     <center>
                         <div class="col-md-1 col-md-offset-2 d-stores-box col-xs-6 col-xs-offset-2 ">
                             <center class="d-online-stores">
-                                <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/flipkart-logo.png" alt="FlipKart"/>
+                                <img class="shoppingKart" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/flipkart-logo.png" alt="FlipKart"/>
                             </center>
 
                         </div>
                         <div class="col-md-1  d-stores-box col-xs-6">
                             <center class="d-online-stores">
-                                <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon_logo_RGB.png" alt="Amazon"/>
+                                <img class="shoppingKart" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/amazon_logo_RGB.png" alt="Amazon"/>
                             </center>
                         </div>
                         <div class="col-md-1  d-stores-box col-xs-4">
                             <center class="d-online-stores">
-                                <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1.png"
+                                <img class="shoppingKart" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/Jabong-com-925660222-1939026-1.png"
                                      alt="Jabong"/>
                             </center>
                         </div>
                         <div class="col-md-1  d-stores-box col-xs-4">
                             <center class="d-online-stores">
-                                <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/myntra.png" alt="SnapDeal"/>
+                                <img class="shoppingKart" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/myntra.png" alt="SnapDeal"/>
                             </center>
                         </div>
                         <div class="col-md-1  d-stores-box col-xs-4">
                             <center class="d-online-stores">
                                 <img class="shoppingKart"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1(1).png" alt="Myntra"/>
+                                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/Jabong-com-925660222-1939026-1(1).png" alt="Myntra"/>
                             </center>
                         </div>
 
@@ -196,7 +195,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="div-phone">
                         <center>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Didn't find the answer you need? Contact us!</p>
                         </center>
                     </div>
@@ -234,14 +233,14 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 " style="display: none">
                     <div class="div-phone">
                         <center>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Contact Our <br>Support Team </p>
                         </center>
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="d-contact-div">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
                         <p class="header6 p-color-white " style="margin-left: 51px;margin-top: -36px;">Contact Our <br>Support
                             Team </p>
                     </div>

@@ -248,7 +248,7 @@
                                     <h5 class="f-s-18 f-c-white txt-a-c"> Shop from India
                                         & <br> Ship Worldwide <br></h5>
                                     <center>
-                                        <img src="{{asset('img/images/arrow-home.png')}}" class="pad-t-20  "
+                                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/arrow-home.png" class="pad-t-20  "
                                              alt="Ship Worldwide">
                                     </center>
                                 </div>
@@ -260,7 +260,7 @@
                                     <h5 class="f-s-18 f-c-white txt-a-c"> Personal Shopper <br>
                                         (Assisted Purchase) <br></h5>
                                     <center>
-                                        <img src="{{asset('img/images/arrow-home.png')}}" class="pad-t-20"
+                                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/arrow-home.png" class="pad-t-20"
                                              alt="Personal Shopper">
                                     </center>
                                 </div>
@@ -272,7 +272,7 @@
                                     <h5 class="f-s-18 f-c-white txt-a-c">Best Courier Service
                                         <br>(Schedule Pickup)<br></h5>
                                     <center>
-                                        <img src="{{asset('img/images/arrow-home.png')}}" class="pad-t-20  "
+                                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/arrow-home.png" class="pad-t-20  "
                                              alt="International Courier">
                                     </center>
                                 </div>
@@ -468,7 +468,7 @@
                         <center>
                             <a href="{{route('stores1')}}">
                                 <img class="img-benifits img-responsive"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-from-indian-online-stores.svg"
+                                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/shop-from-indian-online-stores.svg"
                                      alt="shop from indian online stores shoppre">
                                 <p class="online-text">&nbsp;1000+</p>
                                 <p class="online-text-words">Shop From Indian <br>Online Stores </p>
@@ -479,7 +479,7 @@
                         <center>
                             <a href="{{route('countryList')}}">
                                 <img class="img-benifits img-responsive"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ship-worldwide-from-india.svg"
+                                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/ship-worldwide-from-india.svg"
                                      alt="ship to 220 countries worldwide">
                                 <p class="online-text">&nbsp;220+</p>
                                 <p class="online-text-words">Ship to Countries <br>Around the World </p>
@@ -490,7 +490,7 @@
                         <center>
                             <a href="{{route('dhl.index')}}">
                                 <img class="img-benifits img-responsive"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/3-6-days-delivery-worldwide.svg"
+                                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/3-6-days-delivery-worldwide.svg"
                                      alt="3 to 6 days worldwide delivery">
                                 <p class="online-text">&nbsp;3-6 Days</p>
                                 <p class="online-text-words">Worldwide Average <br> Delivery Time </p>
@@ -501,7 +501,7 @@
                         <center>
                             <a href="https://www.shoppre.com/member/select/plan">
                                 <img class="img-benifits img-responsive"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save-upto-80-shipping.svg"
+                                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/save-upto-80-shipping.svg"
                                      alt="save up to 80% on international shipping">
                                 <p class="online-text" style="margin-left: -1px;">Save Up to 80%</p>
                                 <p class="online-text-words">By Storing, Consolidating <br>& Repackaging! </p>
@@ -527,7 +527,7 @@
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                 <center>
                     <img class="img-shop-ship img-responsive"
-                         src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-india-and-ship-internationally.svg"
+                         src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/shop-india-and-ship-internationally.svg"
                          alt="shop india and ship internationally">
 
                     <p class="header3 p-color-red ">Shop & Ship</p>
@@ -551,7 +551,7 @@
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                 <center>
                     <img class="img-shop-ship img-responsive"
-                         src="{{env('AWS_CLOUD_FRONT')}}/img/svg/schedule-a-pickup-courier.svg"
+                         src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/schedule-a-pickup-courier.svg"
                          alt="schedule a pickup courier">
                     <div class="ship-left-border">
                         <p class="header3 p-courier-h">ShoppRe Courier
@@ -587,7 +587,7 @@
                 <div class=" col-xs-3 div-stores-img">
                     <center class="online-stores">
                         <a href="{{route('flipkart.landing')}}"><img class="img-responsive img-stores"
-                                                                     src="{{env('AWS_CLOUD_FRONT')}}/img/stores/flipkart-international-shopping.png"
+                                                                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/stores/flipkart-international-shopping.png"
                                                                      alt="flipkart.com international delivery shipping"></a>
                     </center>
                 </div>
@@ -595,7 +595,7 @@
                     <center class="online-stores">
                         <a href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" target="_blank">
                             <img class="img-responsive img-stores"
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/stores/amazon-india-shopping.png"
+                                 src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/stores/amazon-india-shopping.png"
                                  alt="amazon.in international delivery shipping">
                         </a>
                     </center>
@@ -604,7 +604,7 @@
                     <center class="online-stores">
                         <a href="/ajio-online-shopping-international-shipping">
                             <img class="img-responsive img-stores"
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/stores/ajio-online-shopping.png"
+                                 src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/stores/ajio-online-shopping.png"
                                  alt="ajio.com free delivery shipping">
                         </a>
                     </center>
@@ -612,14 +612,14 @@
                 <div class=" col-xs-3  div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/jabong-online-fashion-shopping.png"
+                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/stores/jabong-online-fashion-shopping.png"
                              alt="jabong.com shipping international">
                     </center>
                 </div>
                 <div class="  col-xs-3  div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/homeshop-18-shopping-company.png"
+                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/stores/homeshop-18-shopping-company.png"
                              alt="homeshop18.com best deal shopping shipping">
                     </center>
                 </div>
@@ -627,7 +627,7 @@
                     <center class="online-stores">
                         <a href="https://ship.shoppre.com/online-stores-india/snapdeal-international-delivery-shopping-from-india/" target="_blank">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/snapdeal-indian-e-commerce-company.png"
+                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/stores/snapdeal-indian-e-commerce-company.png"
                              alt="snapdeal.com indian e-commerce company">
                         </a>
                     </center>
@@ -636,7 +636,7 @@
                     <center class="online-stores">
                         <a href="{{route('myntra.landing')}}">
                             <img class="img-responsive img-stores"
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/stores/myntra-express-delivery-globe.png"
+                                 src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/stores/myntra-express-delivery-globe.png"
                                  alt="myntra.com fashion express delivery globe">
                         </a>
                     </center>
@@ -644,7 +644,7 @@
                 <div class=" col-xs-3 div-stores-img" id="hidestore">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/ebay-india-multinational-e-commerce.png"
+                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/stores/ebay-india-multinational-e-commerce.png"
                              alt="ebay.in online shopping site in india">
                     </center>
                 </div>
@@ -652,7 +652,7 @@
                     <center class="online-stores">
                         <a href="/limeroad-shopping-international-shipping">
                             <img class="img-responsive img-stores"
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/stores/limeroad-online-shopping-offers.png"
+                                 src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/stores/limeroad-online-shopping-offers.png"
                                  alt="limeroad.com shipping from india">
                         </a>
                     </center>
@@ -660,7 +660,7 @@
                 <div class="col-xs-3 div-stores-img" id="store-hide">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/infibeam-latest-deals-shopping.png"
+                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/stores/infibeam-latest-deals-shopping.png"
                              alt="infibeam.com latest deals on shopping">
                     </center>
                 </div>
@@ -688,14 +688,14 @@
                         <div class="col-md-3  div-inner-review">
                             <div class="row div-img-row" id="reviews-img">
                                 <img class=" img-review img-circle"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/034-woman-8.svg">
+                                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/034-woman-8.svg">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Jigyasa Singh</p>
                                 <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USA</p>
-                                <img class="img-stars" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/stars.svg">
+                                <img class="img-stars" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/stars.svg">
                             </div>
                             <div class="row" id="reviews">
                                 <i class="quots-t ">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_up.svg">
+                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/qoute_up.svg">
                                 </i>
                             </div>
                             <div class="row" id="reviews">
@@ -707,21 +707,21 @@
                             </div>
                             <div class="row" id="reviews">
                           <span class="quots-b">
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_down.svg">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/qoute_down.svg">
                           </span>
                             </div>
                         </div>
                         <div class="col-md-3 div-inner-review">
                             <div class="row div-img-row" id="reviews-img">
                                 <img class=" img-review img-circle"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/040-man-11.svg">
+                                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/040-man-11.svg">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Sudeep Sagar</p>
                                 <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UAE</p>
-                                <img class="img-stars" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/stars.svg">
+                                <img class="img-stars" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/stars.svg">
                             </div>
                             <div class="row" id="reviews">
                                 <i class="quots-t ">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_up.svg">
+                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/qoute_up.svg">
                                 </i>
                             </div>
                             <div class="row" id="reviews">
@@ -733,21 +733,21 @@
                             </div>
                             <div class="row" id="reviews">
                               <span class="quots-b">
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_down.svg">
+                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/qoute_down.svg">
                               </span>
                             </div>
                         </div>
                         <div class="col-md-3 div-inner-review">
                             <div class="row div-img-row" id="reviews-img">
                                 <img class=" img-review img-circle"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/001-man.svg">
+                                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/001-man.svg">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Anirudh Lal</p>
                                 <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;India</p>
-                                <img class="img-stars" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/stars.svg">
+                                <img class="img-stars" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/stars.svg">
                             </div>
                             <div class="row">
                                 <i class="quots-t " id="reviews">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_up.svg">
+                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/qoute_up.svg">
                                 </i>
                             </div>
                             <div class="row" id="reviews">
@@ -758,7 +758,7 @@
                             </div>
                             <div class="row" id="reviews">
                                   <span class="quots-b">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_down.svg">
+                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/qoute_down.svg">
                                   </span>
                             </div>
                         </div>
@@ -775,14 +775,14 @@
                        target="_blank">
                         <div class="row div-img-row">
                             <img class="img-google-logo "
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/svg/google-reviews-shipping-service-bengaluru.svg"
+                                 src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/google-reviews-shipping-service-bengaluru.svg"
                                  alt="google reviews cheap international shipping from india">
                             <p class="p-google-review">Reviews</p>
                         </div>
                         <div class="row" style="padding-left: 4px ;margin-top: -20px;">
                             <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
                                target="_blank">
-                                <img src="{{asset('img/images/google-rating-shipping-service-bengaluru.png')}}"
+                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/google-rating-shipping-service-bengaluru.png"
                                      alt="google rating cheap international shipping from india">
                             </a>
                         </div>
@@ -792,14 +792,14 @@
                         <div class="row">
                             <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
                                 <img class="img-facebook-logo"
-                                     src="{{asset('img/images/facebook-reviews-shipping-service.png')}}"
+                                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/facebook-reviews-shipping-service.png"
                                      alt="facebook goshoppre reviews international parcel delivery">
                                 <p class="p-facebook-review">Reviews</p>
                             </a>
                         </div>
                         <div class="row">
                             <img class="img-facebook-r"
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-rating-shipping-service.png"
+                                 src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/facebook-rating-shipping-service.png"
                                  alt="facebook goshoppre rating international parcel delivery from india">
                         </div>
                     </a>
@@ -820,7 +820,7 @@
                 <br>
             </div>
             <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-                <img class="offer-img-d refer-earn-img" src="{{asset('img/images/shoppre-earn-graphic.png')}}"
+                <img class="offer-img-d refer-earn-img" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/shoppre-earn-graphic.png"
                      alt="earn with us">
 
                 {{--shoppre-earn-graphic.png--}}
@@ -846,20 +846,20 @@
         <div class="container">
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding ">
                 <img class="img-payment-methods"
-                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/credit-debit-card-courier-shipping.svg"
+                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/credit-debit-card-courier-shipping.svg"
                      alt="credit debit card courier from india">
             </div>
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding">
                 <img class="img-payment-methods"
-                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wire-transfer.svg" alt="wire transfer pay online shipping">
+                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/wire-transfer.svg" alt="wire transfer pay online shipping">
             </div>
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding">
-                <img class="img-payment-methods" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paypal-pay-online.svg"
+                <img class="img-payment-methods" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/paypal-pay-online.svg"
                      alt="paypal online courier parcel">
             </div>
             <div class="col-md-3 col-lg-3 slider_four_in_linecol-sm-3 col-xs-6 no-padding">
                 <img class="img-payment-methods"
-                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paytm-payment-system-and-digital-wallet.svg"
+                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/paytm-payment-system-and-digital-wallet.svg"
                      alt="paytm e-commerce digital wallet ">
             </div>
         </div>
@@ -876,85 +876,85 @@
                 <div class=" col-xs-3 div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/india_today_grey.jpg" alt="india todya"
-                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/india_today.jpg')"
-                             onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/india_today_grey.jpg')">
+                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/india_today_grey.jpg" alt="india todya"
+                             onmouseover="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/india_today.jpg')"
+                             onmouseout="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/india_today_grey.jpg')">
 
                     </center>
                 </div>
                 <div class="col-xs-3   div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/khaleej_time_grey.jpg" alt="khaleej times"
-                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/khaleej_time.jpg')"
-                             onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/khaleej_time_grey.jpg')">
+                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/khaleej_time_grey.jpg" alt="khaleej times"
+                             onmouseover="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/khaleej_time.jpg')"
+                             onmouseout="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/khaleej_time_grey.jpg')">
 
                     </center>
                 </div>
                 <div class="col-xs-3  div-stores-img">
                     <center class="online-stores">
-                        <img class="img-responsive img-stores" src="{{env('AWS_CLOUD_FRONT')}}/img/media/exam_grey.jpg"
+                        <img class="img-responsive img-stores" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/exam_grey.jpg"
                              alt="exame"
-                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/exam.jpg')"
-                             onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/exam_grey.jpg')">
+                             onmouseover="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/exam.jpg')"
+                             onmouseout="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/exam_grey.jpg')">
                     </center>
                 </div>
                 <div class=" col-xs-3  div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/euro_press_grey.jpg" alt="Europress"
-                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/euro_press.jpg')"
-                             onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/euro_press_grey.jpg')">
+                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/euro_press_grey.jpg" alt="Europress"
+                             onmouseover="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/euro_press.jpg')"
+                             onmouseout="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/euro_press_grey.jpg')">
                     </center>
                 </div>
                 <div class="  col-xs-3  div-stores-img">
                     <center class="online-stores">
-                        <img class="img-responsive img-stores" src="{{env('AWS_CLOUD_FRONT')}}/img/media/yahoo_grey.jpg"
+                        <img class="img-responsive img-stores" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/yahoo_grey.jpg"
                              alt="yahoo finance"
-                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/yahoo.jpg')"
-                             onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/yahoo_grey.jpg')">
+                             onmouseover="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/yahoo.jpg')"
+                             onmouseout="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/yahoo_grey.jpg')">
                     </center>
                 </div>
                 <div class="col-xs-3 div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/malayala_grey.jpg" alt="malayala manorama"
-                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/malayala.jpg')"
-                             onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/malayala_grey.jpg')">
+                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/malayala_grey.jpg" alt="malayala manorama"
+                             onmouseover="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/malayala.jpg')"
+                             onmouseout="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/malayala_grey.jpg')">
                     </center>
                 </div>
                 <div class="col-xs-2 div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/business_standard_grey.jpg"
+                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/business_standard_grey.jpg"
                              alt="business standard"
-                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/business_standard.jpg')"
-                             onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/business_standard_grey.jpg')">
+                             onmouseover="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/business_standard.jpg')"
+                             onmouseout="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/business_standard_grey.jpg')">
                     </center>
                 </div>
                 <div class=" col-xs-3 div-stores-img" id="hidestore">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/markets_inside_grey.jpg" alt="markets insider"
-                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/markets_inside.jpg')"
-                             onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/markets_inside_grey.jpg')">
+                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/markets_inside_grey.jpg" alt="markets insider"
+                             onmouseover="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/markets_inside.jpg')"
+                             onmouseout="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/markets_inside_grey.jpg')">
                     </center>
                 </div>
                 <div class="col-xs-3 div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/the_week_grey.jpg" alt="the week magazine"
-                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/the_week.jpg')"
-                             onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/the_week_grey.jpg')">
+                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/the_week_grey.jpg" alt="the week magazine"
+                             onmouseover="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/the_week.jpg')"
+                             onmouseout="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/the_week_grey.jpg')">
                     </center>
                 </div>
                 <div class="col-xs-3 div-stores-img" id="store-hide">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/business_today_grey.jpg"
+                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/business_today_grey.jpg"
                              alt="Business Today Magazine"
-                             onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/business_today.jpg')"
-                             onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/business_today_grey.jpg')">
+                             onmouseover="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/business_today.jpg')"
+                             onmouseout="$(this).attr('src','{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/media/business_today_grey.jpg')">
                     </center>
                 </div>
             </center>

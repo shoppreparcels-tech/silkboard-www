@@ -49,6 +49,11 @@ class NodeController extends Controller
             $trans->wallet_id = $balance->id;
             $trans->amount = $request->amount;
             $trans->description = $request->description;
+
+            if (!empty($request->created_by)) {
+                $trans->created_by = $request->created_by;
+            }
+
             $trans->save();
         }
 

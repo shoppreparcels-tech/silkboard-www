@@ -57,7 +57,7 @@
           <h3>REPACKING SERVICE</h3>
           <p>We repack individual shipments for free and help in reducing wasted space<br> which will allow you to  save over 20% on shipping charges.</p>
           <div class="col-sm-6 repack_box border">
-            <img src="{{asset('img/repackage.png')}}">
+            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/repackage.png">
             <h4>We only repack goods which :</h4>
             <ul>
               <li>Require added protection and security if it is inadequately  packed for  international shipping.</li>
@@ -67,7 +67,7 @@
             </ul>
           </div>
           <div class="col-sm-6 repack_box">
-            <img src="{{asset('img/repack_ex.png')}}" style="width: 380px;">
+            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/repack_ex.png" style="width: 380px;">
             <h4>Repack example :</h4>
             <ul>
               <li>Package from a store was shipped to the warehouse in a box 25x11x11 inches, representing a volumetric weight of 10kg.</li>
@@ -88,7 +88,7 @@
               <div class="serv_sec">
                 <h4>Shipping Directly from most sellers</h4>
                 <div class="example">
-                  <img src="{{asset('img/consolid1.png')}}">
+                  <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/consolid1.png">
                 </div>
                 <p class="result"><strong>Shipping each item abroad separately :<br>
                 Total Shipping Cost $60</strong></p>
@@ -98,7 +98,7 @@
               <div class="serv_sec">
                 <h4>shipping through <a href="{{route('home')}}" class="text-orange">ShoppRe.com</a></h4>
                 <div class="example">
-                  <img src="{{asset('img/consolid2.png')}}" style="max-width: 78%;">
+                  <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/consolid2.png" style="max-width: 78%;">
                 </div>
                 <p class="result"><strong>Shipping all the items in ONE package:<br>
                 Total Shipping Costs : $15</strong></p>

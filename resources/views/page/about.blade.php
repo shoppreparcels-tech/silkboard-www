@@ -98,7 +98,7 @@
       <div class="container">
           <div class="row">
               <div class="col-md-6 story-image">
-                  <img class="img-responsive" src="{{asset('img/images/about-image.png')}}" alt="ShoppRe About Us">
+                  <img class="img-responsive" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/about-image.png" alt="ShoppRe About Us">
               </div>
               <div class="col-md-6 story-text">
                   <h3 class="header2">The Story Behind</h3>
@@ -138,7 +138,7 @@
                   </p>
               </div>
               <div class="col-md-5 vision-image">
-                  <img class="img-responsive" src="{{asset('img/images/vision-image.png')}}" alt="">
+                  <img class="img-responsive" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/vision-image.png" alt="">
               </div>
           </div>
       </div>

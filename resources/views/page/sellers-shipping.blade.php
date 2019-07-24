@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
 
     <link rel="shortcut icon" href="https://www.shoppre.com/img/favicon.png">
-    <link rel="icon" type="image/png" href="https://www.shoppre.com/img/favicon.png" sizes="60x60">
+    <link rel="icon" type="image/png" href="{{env('AWS_CLOUD_FRONT')}}/img/favicon.png" sizes="60x60">
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
     <style>
@@ -27,7 +27,7 @@
 <section style="margin-bottom: 50px">
     <div class="container" style="margin-top: 62px;">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <img class="img-responsive img-shipments" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-tailor.png">
+            <img class="img-responsive img-shipments" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ics-tailor.png">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h1 class="f-s-24 font-weight-900 f-c-d-greay">Are you a Seller or an young Entrepreneur or an upcoming organization

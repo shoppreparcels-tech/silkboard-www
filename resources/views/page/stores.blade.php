@@ -12,7 +12,7 @@
 
 	 <section class="page_head">
         <div class="pagebanner">
-          <img src="{{asset('img/banner.jpg')}}" width="100%">
+          <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/banner.jpg')}}" width="100%">
           <div class="banner-cap">
             <h2>Brands</h2>
             <h2 class="text-orange">Browse Categories</h2>

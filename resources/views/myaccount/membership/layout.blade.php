@@ -30,22 +30,22 @@
     <script src="{{asset('js/jquery.ajax-cross-origin.min.js')}}"></script>
 
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('css/custom/New_style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/custom/New_style.css')}}?{{Config::get('app.last_commit_hash')}}">
     {{--<link rel="stylesheet" href="{{asset('css/select2.min.css')}}" >--}}
     {{--<link rel="stylesheet" href="{{asset('css/star-rating.min.css')}}" >--}}
 
-    <link rel="stylesheet" href="{{asset('css/custom/ics.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/ifs.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/offers.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/diwali.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/stores-new.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/style.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/faq.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/style-frame.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/custom/signup.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/custom/ics.css')}}?{{Config::get('app.last_commit_hash')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/ifs.css')}}?{{Config::get('app.last_commit_hash')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/offers.css')}}?{{Config::get('app.last_commit_hash')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/diwali.css')}}?{{Config::get('app.last_commit_hash')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/stores-new.css')}}?{{Config::get('app.last_commit_hash')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/style.css')}}?{{Config::get('app.last_commit_hash')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/faq.css')}}?{{Config::get('app.last_commit_hash')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/style-frame.css')}}?{{Config::get('app.last_commit_hash')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/signup.css')}}?{{Config::get('app.last_commit_hash')}}">
 
-    <link rel="stylesheet" href="{{asset('css/demo.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
-    <link rel="stylesheet" href="{{asset('css/intlTelInput.css')}}?<?php echo date('l jS \of F Y h:i:s A'); ?> ">
+    <link rel="stylesheet" href="{{asset('css/demo.css')}}?{{Config::get('app.last_commit_hash')}}">
+    <link rel="stylesheet" href="{{asset('css/intlTelInput.css')}}?{{Config::get('app.last_commit_hash')}}">
 
 
     {{--<link rel="stylesheet" href="https://d2njzkuk16ywue.cloudfront.net/cdn/css/bootstrap.min.css" >--}}

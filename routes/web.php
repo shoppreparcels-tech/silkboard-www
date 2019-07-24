@@ -653,9 +653,11 @@ Route::get('/ajio-online-shopping-international-shipping', 'PageController@ajioI
 Route::get('/jaypore-international-shipping-from-india', 'PageController@jayporeIndex')->name('jaypore');
 Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
 Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
-Route::get('/send-rakhi-gifts-online-worldwide-at-cheap-rates', 'PageController@rakhiGift')->name('rakhi-Gift');
+Route::get('/send-rakhi-gifts-online-worldwide-at-cheap-rates', 'PageController@rakhiGift')->name('send-rakhi-gifts-online-worldwide-at-cheap-rates');
+Route::get('/send-onam-courier-from-india', 'PageController@onamGift')->name('onam-gifts');
 Route::get('/myntra-international-shipping-to-usa', 'PageController@myntraUsa')->name('myntra-usa');
 Route::get('/flipkart-usa-shopping', 'PageController@flipkartUsa')->name('flipkart-usa');
+Route::get('/jabong-usa-shipping-from-india', 'PageController@jabongUsa')->name('jabong-usa');
 Route::get('/best-international-relocation-packers-movers', 'PageController@packers')->name('packers-movers');
 Route::get('/international-shipping-gift-cards-vouchers', 'PageController@voucher')->name('voucher');
 Route::get('/medicine-international-courier-from-india', 'PageController@medicine')->name('medicine');

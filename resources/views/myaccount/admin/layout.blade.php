@@ -36,8 +36,6 @@
   @yield('content')
   <script src="{{asset('js/jquery.min.js')}}"></script>
   <script src="{{asset('js/bootstrap.min.js')}}"></script>
-  <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-  <script src="https://cdn.datatables.net/1.10.16/js/dataTables.jqueryui.min.js"></script>
   <script src="{{asset('admin_asset/js/materialize.min.js')}}"></script>
   <script src="{{asset('admin_asset/js/script.js')}}" type="text/javascript"></script>
   <script src="{{asset('admin_asset/js/isotope.js')}}"></script>

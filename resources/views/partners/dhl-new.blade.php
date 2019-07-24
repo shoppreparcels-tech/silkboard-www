@@ -19,7 +19,7 @@
     <section class="shipping-partner">
         <div class="container shipments-information">
             <div class="col-md-2 col-xs-12">
-                <img src="{{asset('img/dhl.png')}}" alt="">
+                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/dhl.png" alt="">
             </div>
             <div class="col-md-10 col-xs-12">
                 <div>
@@ -69,8 +69,8 @@
                                     <h6 class="header6 p-color-cement">Delivered in {{$delivery_days}} days</h6>
                                 </div>
                                 <div class="col-md-7 col-xs-8">
-                                    <h2 class="header4 p-color-cement"> <img src="{{asset('/img/svg/ic_weight.svg')}}" alt=""> Weight : <span class="p-color-blue"> {{$shipment->weight}} kg</span></h2>
-                                    <h2 class="header4 p-color-cement"><img src="{{asset('/img/svg/ic_rupee.svg')}}" alt=""> Total Charge:<span class="p-color-blue">INR {{$shipment->final_amount}}</span></h2>
+                                    <h2 class="header4 p-color-cement"> <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/ic_weight.svg" alt=""> Weight : <span class="p-color-blue"> {{$shipment->weight}} kg</span></h2>
+                                    <h2 class="header4 p-color-cement"><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/ic_rupee.svg" alt=""> Total Charge:<span class="p-color-blue">INR {{$shipment->final_amount}}</span></h2>
                                 </div>
                             </div>
                        </a>
@@ -83,8 +83,8 @@
                                     <h6 class="header6 p-color-cement">Delivered in {{$delivery_days}}  days</h6>
                                 </div>
                                 <div class="col-md-7 col-xs-8">
-                                    <h2 class="header4 p-color-cement"> <img src="{{asset('/img/svg/ic_weight.svg')}}" alt=""> Weight : <span class="p-color-blue"> {{$shipment->weight}} kg</span></h2>
-                                    <h2 class="header4 p-color-cement"><img src="{{asset('/img/svg/ic_rupee.svg')}}" alt=""> Total Charge:<span class="p-color-blue">{{$shipment->final_amount}}</span></h2>
+                                    <h2 class="header4 p-color-cement"> <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/ic_weight.svg" alt=""> Weight : <span class="p-color-blue"> {{$shipment->weight}} kg</span></h2>
+                                    <h2 class="header4 p-color-cement"><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/ic_rupee.svg" alt=""> Total Charge:<span class="p-color-blue">{{$shipment->final_amount}}</span></h2>
                                 </div>
                             </div>
                         </a>
@@ -106,18 +106,18 @@
                     <div class="col-sm-4">
                         <div class="panel ">
                             <ul>
-                                <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Shipped form India to United States</span></li>
-                                <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Shipped form India to United States</span></li>
-                                <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Shipped form India to United States</span></li>
+                                <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Shipped form India to United States</span></li>
+                                <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Shipped form India to United States</span></li>
+                                <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Shipped form India to United States</span></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="panel ">
                             <ul>
-                                <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Shipped form India to United States</span></li>
-                                <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Shipped form India to United States</span></li>
-                                <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Shipped form India to United States</span></li>
+                                <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Shipped form India to United States</span></li>
+                                <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Shipped form India to United States</span></li>
+                                <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Shipped form India to United States</span></li>
 
                             </ul>
                         </div>
@@ -125,9 +125,9 @@
                     <div class="col-sm-4">
                         <div class="panel ">
                             <ul>
-                                <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Shipped form India to United States</span></li>
-                                <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Shipped form India to United States</span></li>
-                                <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Shipped form India to United States</span></li>
+                                <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Shipped form India to United States</span></li>
+                                <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Shipped form India to United States</span></li>
+                                <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Shipped form India to United States</span></li>
                             </ul>
                         </div>
                     </div>

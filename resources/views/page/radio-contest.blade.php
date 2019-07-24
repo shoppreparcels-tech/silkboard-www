@@ -16,10 +16,10 @@
         <div class="container">
             <div class="col-md-12">
                 <a href="tel:+91-80 4094 4077" class="pull-right d-contact-img-desktop">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/d-contact-img1.png" alt="">
                 </a>
                 <a href="tel:+91-80 4094 4077" class="d-contact-img pull-right">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/d-contact-img2.png" alt="">
                 </a>
             </div>
         </div>
@@ -69,7 +69,7 @@
                     <div class="formFrame  div-form-get-quote" id="diwali-couponcode2">
                         <div class="row">
                             <center>
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/request-sent.svg" alt="" >
+                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/request-sent.svg" alt="" >
                                 <h6 class="header5 p-color-blue">Request Sent!</h6>
                                 <h5 class="header5 p-color-cement">Just One More Step To start <br>using Coupon Code!</h5>
                             </center>
@@ -90,7 +90,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="div-phone">
                         <center>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Didn't find the answer you need? Contact us!</p>
                         </center>
                     </div>
@@ -128,14 +128,14 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 " style="display: none">
                     <div class="div-phone">
                         <center>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Contact Our <br>Support Team </p>
                         </center>
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="d-contact-div">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
                         <p class="header6 p-color-white " style="margin-left: 51px;margin-top: -36px;">Contact Our <br>Support
                             Team </p>
                     </div>

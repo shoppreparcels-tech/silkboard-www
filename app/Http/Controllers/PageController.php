@@ -447,6 +447,14 @@ class PageController extends Controller
     {
         return view('page.flipkart-usa');
     }
+    public function jabongUsa()
+    {
+        return view('page.jabong-usa');
+    }
+    public function onamGift()
+    {
+        return view('page.onam-gifts');
+    }
 
     public function medicine()
     {

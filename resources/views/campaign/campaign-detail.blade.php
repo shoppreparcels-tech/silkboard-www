@@ -13,7 +13,7 @@
                 </div>
                 @if(!empty($campaign_detail->image))
                     <a href="{{$campaign_detail->image != null ? $campaign_detail->hyper_link : ' '}}" target="_blank">
-                        <img src="/img/campaigns/{{$campaign_detail->image}}" alt="Avatar" style="width:100%;height:350px">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/campaigns/{{$campaign_detail->image}}" alt="Avatar" style="width:100%;height:350px">
                     </a>
                 @endif
                 @if(!empty($campaign_detail->coupon_code))

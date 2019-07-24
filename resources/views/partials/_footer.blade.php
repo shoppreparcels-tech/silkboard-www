@@ -4,7 +4,7 @@
             <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 pad-5 ">
                 <a itemprop="url" href="{{route('home')}}">
                     <img itemprop="logo" class="s-img-footer"
-                         src="{{asset('/img/images/shoppre-logo.png')}}"
+                         src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/shoppre-logo.png"
                          alt="shoppre.com - your global shipping partner from india">
                 </a>
                 <div itemscope itemtype="http://schema.org/PostalAddress">
@@ -17,18 +17,18 @@
                         <span itemprop="addressCountry"> India</span></p>
                     <span itemprop="telephone">
                         <a class="footer-a footer-social-media" href="tel:+91-8040944077">
-                            <img class="pad-t-10" src="{{asset('img/images/shipping-phone-number.png')}}"
+                            <img class="pad-t-10" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/shipping-phone-number.png"
                                  alt="Shoppre customer care">
                         </a>
                     </span><br>
                     <span itemprop="telephone">
                         <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team;" target="_blank">
-                            <img class="pad-t-10" src="{{asset('img/images/shipping-whatsapp.png')}}"
+                            <img class="pad-t-10" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/shipping-whatsapp.png"
                                  alt="Shoppre contact number">
                         </a>
                     </span><br>
                     <a href="mailto:support@shoppre.com footer-social-media">
-                        <img class="pad-t-10" src="{{asset('img/images/shiping-support-mail.png')}}"
+                        <img class="pad-t-10" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/shiping-support-mail.png"
                              alt="Shoppre email">
                     </a>
 
@@ -37,20 +37,20 @@
                             <a itemprop="url" class="footer-a"
                                href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw">
                                 <img class="img-connect"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-youtube-video.svg"
+                                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/shoppre-youtube-video.svg"
                                      alt="shoppre youtube video">
                             </a>
                             <a itemprop="url" class="footer-a" href="https://www.facebook.com/goshoppre/">
                                 <img class="img-connect"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/go-shoppre-faceboook.svg"
+                                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/go-shoppre-faceboook.svg"
                                      alt="goshoppre facebook">
                             </a>
                             <a itemprop="url" class="footer-a" href="https://twitter.com/Go_Shoppre">
-                                <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-twitter.svg"
+                                <img class="img-connect" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/shoppre-twitter.svg"
                                      alt="@Go_Shoppre twitter">
                             </a>
                             <a itemprop="url" class="footer-a" href="https://www.instagram.com/shoppre_official">
-                                <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-instagram.svg"
+                                <img class="img-connect" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/shoppre-instagram.svg"
                                      alt="shoppre instagram">
                             </a>
                         </li>

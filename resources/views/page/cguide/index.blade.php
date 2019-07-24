@@ -13,7 +13,7 @@
 
 	<section class="page_head">
     <div class="pagebanner">
-      <img src="{{asset('img/banner2.jpg')}}" width="100%">
+      <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/banner2.jpg" width="100%">
       <div class="banner-cap">
         <h2>Shoppre delivers to <span class="text-orange">220+</span></h2>
         <h2><span class="text-orange">countries</span> around the globe!</h2>

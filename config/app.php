@@ -1,5 +1,5 @@
 <?php
-
+config(['last_commit_hash' => '111']);
 return [
 
     /*
@@ -50,7 +50,7 @@ return [
     | your application so that it is used when running Artisan tasks.
     |
     */
-
+    'last_commit_hash' => '111',
     'url' => env(env('PREFIX'). "www." . env('DOMAIN'), 'http://localhost'),
 
     /*

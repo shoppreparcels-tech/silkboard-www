@@ -8,7 +8,7 @@
 
 	<section class="page_head">
     <div class="pagebanner">
-      <img src="{{asset('img/banner1.jpg')}}" width="100%">
+      <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/banner1.jpg" width="100%">
       <div class="banner-cap">
         <h2>{{$page->title}}</h2>
       </div>

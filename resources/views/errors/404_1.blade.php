@@ -6,7 +6,7 @@
 
 	<section class="page_head">
 	    <div class="pagebanner">
-	      <img src="{{asset('img/banner1.jpg')}}" width="100%">
+	      <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/banner1.jpg" width="100%">
 	      <div class="banner-cap">
 	        <h2>Error <span class="text-orange"> Page Not Found</span></h2>
 	      </div>
@@ -16,7 +16,7 @@
 		<div class="container">
 		  <div class="row">
 		    <div class="col-md-12">
-		    <img src="{{asset('img/404.png')}}" width="100%">
+		    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/404.png" width="100%">
 		    <a href="{{route('home')}}" class="btn btn-shoppre">Go To Home Page</a>
 		    </div>
 		  </div>

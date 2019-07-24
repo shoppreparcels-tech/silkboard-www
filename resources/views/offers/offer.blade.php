@@ -11,7 +11,7 @@
                 <div class="container-fluid">
                     <h3>Join us and ship Worldwide</h3>
                 </div>
-                <img src="/img/how.jpg" alt="Avatar" style="width:100%;">
+                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/how.jpg" alt="Avatar" style="width:100%;">
                 <div class="left-space">
                     <h2><b>10% Cashback</b></h2>
                     <p>Use Promo Code: <span class="promo">{{$coupon_code}}</span>  to avail 10% Cashback</p>

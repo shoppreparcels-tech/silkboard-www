@@ -70,7 +70,7 @@
             <br>
             <center>
                 <a href="{{route('customer.register')}}">
-                    <img src="{{asset('img/images/schedule-pickup-courier-from-india-shoppre.png')}}"
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/schedule-pickup-courier-from-india-shoppre.png')}}"
                          alt="schedule-pickup-courier-from-india-shoppre" class="img-responsive">
                 </a>
             </center>
@@ -455,7 +455,7 @@
                                 <h4 class="header6 p-color-cement-dark">1 lbs = 0.4536 Kg (1 Kg = 2.2046 lbs) </h4>
 
                                 <h6 class="header7">Courier Sample:</h6>
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/parcelsample.png" alt="">
+                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/parcelsample.png" alt="">
                             </div>
                             <div class="row">
                                 <br>
@@ -481,7 +481,7 @@
                                         </center>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/vol_calc.png" style="width: 100%;"
+                                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/vol_calc.png" style="width: 100%;"
                                              alt="">
                                     </div>
                                     <div class="modal-footer">
@@ -522,7 +522,7 @@
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-6">
                                     <img class="img-responsive pull-right"
-                                         src="{{env('AWS_CLOUD_FRONT')}}/img/images/m-benefits.png"
+                                         src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/m-benefits.png"
                                          alt="">
                                 </div>
 
@@ -903,7 +903,7 @@
                                 <h4 class="header6 p-color-cement-dark">1 lbs = 0.4536 Kg (1 Kg = 2.2046 lbs) </h4>
 
                                 <h6 class="header7">Courier Sample:</h6>
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/parcelsample.png" alt="">
+                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/parcelsample.png" alt="">
                             </div>
                             <div class="row">
                                 <br>
@@ -1005,7 +1005,7 @@
                         <tr>
                             <th class="col-md-4 col-xs-6"><h3 class="header3 p-color-cement-dark">Features</h3></th>
                             <th class="col-md-4 col-xs-6">
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indivdual.svg" alt=""> <br>
+                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/indivdual.svg" alt=""> <br>
                                 <h1 class="header1 p-mem-plans-box">Free</h1>
                                 <h6 class="header6 text-forever">LIFELONG</h6>
                             </th>
@@ -1299,7 +1299,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                 <center>
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indivdual.svg" alt="">
+                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/indivdual.svg" alt="">
                                     <h6 class="header6 p-mem-plans-box">For Individual Shoppers</h6>
                                     <h1 class="header1 p-mem-plans-box membership-text-margin">
                                         Free</h1>
@@ -1411,7 +1411,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                 <center>
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/seller.svg" alt="">
+                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/seller.svg" alt="">
                                     <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
                                     <h1 class="header1 p-mem-plans-box membership-text-margin">
                                         ₹700/-</h1>
@@ -1523,7 +1523,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                 <center>
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wholseller.svg" alt="">
+                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/wholseller.svg" alt="">
                                     <h6 class="header6 p-mem-plans-box">For Wholesalers</h6>
                                     <h1 class="header1 p-mem-plans-box membership-text-margin">
                                         ₹1599/-</h1>
@@ -1862,7 +1862,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                 <center>
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indivdual.svg" alt="">
+                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/indivdual.svg" alt="">
                                     <h6 class="header6 p-mem-plans-box">For Individual Shoppers</h6>
                                     <h1 class="header1 p-mem-plans-box membership-text-margin">
                                         Free</h1>
@@ -1974,7 +1974,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                 <center>
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/seller.svg" alt="">
+                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/seller.svg" alt="">
                                     <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
                                     <h1 class="header1 p-mem-plans-box membership-text-margin">
                                         ₹6750/- </h1>
@@ -2085,7 +2085,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 no-padding div-monthly-plans">
                                 <center>
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wholseller.svg" alt="">
+                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/wholseller.svg" alt="">
                                     <h6 class="header6 p-mem-plans-box">For Wholesalers</h6>
                                     <h1 class="header1 p-mem-plans-box membership-text-margin">
                                         ₹19188/-</h1>
@@ -2212,7 +2212,7 @@
                                 <tr>
                                     <th class="col-xs-5"><h1 class="header1">Features</h1></th>
                                     <th col="col-xs-7">
-                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indivdual.svg" alt=""> <br>
+                                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/indivdual.svg" alt=""> <br>
                                         <h6 class="header6 p-mem-plans-box">For Individual Shoppers</h6>
                                         <h1 class="header1 p-mem-plans-box membership-text-margin">Free</h1>
                                         <h6 class="header6 text-forever">LIFELONG</h6>
@@ -2437,7 +2437,7 @@
                                 <tr>
                                     <th class="col-xs-5"><h1 class="header1">Features</h1></th>
                                     <th col="col-xs-7">
-                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/seller.svg" alt="">
+                                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/seller.svg" alt="">
                                         <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
                                         <h1 class="header1 p-mem-plans-box membership-text-margin">₹700/-</h1>
                                         <h6 class="header6 text-forever ">PER MONTH</h6>
@@ -2659,7 +2659,7 @@
                                 <tr>
                                     <th class="col-xs-5"><h1 class="header1">Features</h1></th>
                                     <th col="col-xs-7">
-                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wholseller.svg" alt="">
+                                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/wholseller.svg" alt="">
                                         <h6 class="header6 p-mem-plans-box">For Wholesalers</h6>
                                         <h1 class="header1 p-mem-plans-box membership-text-margin">₹1599/-</h1>
                                         <h6 class="header6 text-forever">PER MONTH</h6>
@@ -2883,7 +2883,7 @@
                                 <tr>
                                     <th class="col-xs-5"><h1 class="header1"> Features</h1></th>
                                     <th col="col-xs-7">
-                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indivdual.svg" alt=""> <br>
+                                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/indivdual.svg" alt=""> <br>
                                         <h6 class="header6 p-mem-plans-box">For Individual Shoppers</h6>
                                         <h1 class="header1 p-mem-plans-box membership-text-margin">Free</h1>
                                         <h6 class="header6 text-forever">LIFELONG</h6>
@@ -3108,7 +3108,7 @@
                                 <tr>
                                     <th class="col-xs-5"><h1 class="header1"> Features</h1></th>
                                     <th col="col-xs-7">
-                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/seller.svg" alt="">
+                                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/seller.svg" alt="">
                                         <h6 class="header6 p-mem-plans-box">For Global Sellers</h6>
                                         <h1 class="header1 p-mem-plans-box membership-text-margin">₹6750/-</h1>
                                         <h6 class="header6 text-forever ">PER YEAR</h6>
@@ -3330,7 +3330,7 @@
                                 <tr>
                                     <th class="col-xs-5"><h1 class="header1"> Features</h1></th>
                                     <th col="col-xs-7">
-                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wholseller.svg" alt="">
+                                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/wholseller.svg" alt="">
                                         <h6 class="header6 p-mem-plans-box">For Wholesalers</h6>
                                         <h1 class="header1 p-mem-plans-box membership-text-margin">₹19188/-</h1>
                                         <h6 class="header6 text-forever">PER YEAR</h6>
@@ -3589,20 +3589,20 @@
         <div class="container">
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding ">
                 <img class="img-payment-methods"
-                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/credit-debit-card-courier-shipping.svg"
+                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/credit-debit-card-courier-shipping.svg"
                      alt="credit debit card courier from india">
             </div>
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding">
                 <img class="img-payment-methods"
-                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wire-transfer.svg" alt="wire transfer pay online shipping">
+                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/wire-transfer.svg" alt="wire transfer pay online shipping">
             </div>
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding">
-                <img class="img-payment-methods" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paypal-pay-online.svg"
+                <img class="img-payment-methods" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/paypal-pay-online.svg"
                      alt="paypal online courier parcel">
             </div>
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding">
                 <img class="img-payment-methods"
-                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paytm-payment-system-and-digital-wallet.svg"
+                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/paytm-payment-system-and-digital-wallet.svg"
                      alt="paytm e-commerce digital wallet ">
             </div>
         </div>

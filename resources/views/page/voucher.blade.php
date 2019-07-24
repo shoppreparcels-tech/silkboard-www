@@ -33,13 +33,13 @@
                 <div class="col-md-12 col-xs-12">
 
                     <div class="col-md-3 col-xs-12 col-sm-3 div-snow ">
-                        <img src="{{asset('img/images/f-t-s-priyamani.png')}}" alt="" class="img-responsive">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/f-t-s-priyamani.png" alt="" class="img-responsive">
                     </div>
                     <div class="col-md-6 col-xs-12 col-sm-6"><br><br>
-                        <img src="{{asset('img/images/flipkart-international-shipping-voucher.png')}}" alt="" style="width:100%;">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/flipkart-international-shipping-voucher.png" alt="" style="width:100%;">
                     </div>
                     <div class="col-md-3 col-xs-12 col-sm-3 div-newyear">
-                        <img src="{{asset('img/images/f-s-t-courierbox.png')}}" alt="" class="img-responsive">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/f-s-t-courierbox.png" alt="" class="img-responsive">
                     </div>
                     <br>
                 </div>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
                     <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/christmas-contact.png" alt="">
                     </a>
                 </div>
             </div>
@@ -68,7 +68,7 @@
                         <div class="col-md-6 col-xs-6 no-pad">
                             <br>
                             <br>
-                            <img src="{{asset('img/images/f-s-t-s-s.svg')}}" alt="" class="img-responsive">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/f-s-t-s-s.svg" alt="" class="img-responsive">
                         </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                             <p class="f-s-12 f-c-l-gray txt-a-l">Payment Hassles at Checkout?<br> No Worries, Let Us Know What You Need; We'll Shop for You!</p>
                         </div>
                         <div class="col-md-6 col-xs-6 no-pad">
-                            <img src="{{asset('img/images/f-s-t-ps.svg')}}" alt="" class="img-responsive">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/f-s-t-ps.svg" alt="" class="img-responsive">
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                             <p class="f-s-12 f-c-l-gray  txt-a-l">Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
                         </div>
                         <div class="col-md-6 col-xs-6 no-pad">
-                            <img src="{{asset('img/images/f-s-t-ic.png')}}" alt="" class="img-responsive">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/f-s-t-ic.png" alt="" class="img-responsive">
                         </div>
                     </div>
                 </div>
@@ -112,20 +112,20 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Personal Shopper</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>20-Day Free Storage</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Consolidation</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Repackaging</span></li>
+                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Personal Shopper</span></li>
+                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>20-Day Free Storage</span></li>
+                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Consolidation</span></li>
+                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Repackaging</span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Affordable Rates</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned Copies Documents</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-discount</span></li>
+                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>
+                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
+                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Scanned Copies Documents</span></li>
+                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Country-discount</span></li>
 
                         </ul>
                     </div>
@@ -133,10 +133,10 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Photo Updates</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Wallet Cashback</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Package Return Services</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Product Recommendations</span></li>
+                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Photo Updates</span></li>
+                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Wallet Cashback</span></li>
+                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Package Return Services</span></li>
+                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Product Recommendations</span></li>
                         </ul>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="div-phone">
                         <center>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Didn't find the answer you need? Contact us!</p>
                         </center>
                     </div>
@@ -187,14 +187,14 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 " style="display: none">
                     <div class="div-phone">
                         <center>
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Contact Our <br>Support Team </p>
                         </center>
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="d-contact-div">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
                         <p class="header6 p-color-white " style="margin-left: 51px;margin-top: -36px;">Contact Our <br>Support
                             Team </p>
                     </div>

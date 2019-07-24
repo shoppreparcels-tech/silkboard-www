@@ -58,7 +58,7 @@
 
     <section class="page_head">
         <div class="pagebanner">
-            <img src="{{asset('img/banner1.jpg')}}" width="100%">
+            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/banner1.jpg" width="100%">
             <div class="banner-cap">
                 <h2>How <span class="text-orange">SHOPPRE</span> works</h2>
             </div>
@@ -81,7 +81,7 @@
                         <div class="story-block story-left">
                             <div class="item_content">
                                 <h3>join</h3>
-                                <strong>Simply <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register>SIGN UP
+                                <strong>Simply <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register">SIGN UP
                                         FOR FREE</a> and receive your own Personal Locker with a Virtual Indian Shipping
                                     Address!</strong>
                                 <p>Access thousands of Indian Online Stores and get your favorite products from
@@ -89,7 +89,7 @@
                                 <p>Shoppre takes the worry of International Shipping out of you!</p>
                             </div>
                             <div class="item_img" style="top: 19%;">
-                                <img src="{{asset('img/how1.png')}}">
+                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/how1.png">
                             </div>
                             <span class="story-arrow"></span>
                             <span class="h-line"></span>
@@ -108,7 +108,7 @@
                                     shipping discounts!</p>
                             </div>
                             <div class="item_img">
-                                <img src="{{asset('img/how2.png')}}">
+                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/how2.png">
                             </div>
                             <span class="story-arrow"></span>
                             <span class="h-line"></span>
@@ -128,7 +128,7 @@
                                     cost to your country.</p>
                             </div>
                             <div class="item_img">
-                                <img src="{{asset('img/how3.png')}}">
+                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/how3.png">
                             </div>
                             <span class="story-arrow"></span>
                             <span class="h-line"></span>
@@ -148,7 +148,7 @@
                                     Credit Card!</p>
                             </div>
                             <div class="item_img">
-                                <img src="{{asset('img/how4.png')}}">
+                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/how4.png">
                             </div>
                             <span class="story-arrow"></span>
                             <span class="h-line"></span>
@@ -178,7 +178,7 @@
                                         options</a>.</p>
                             </div>
                             <div class="item_img" style="top: 23%;">
-                                <img src="{{asset('img/how5.png')}}">
+                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/how5.png">
                             </div>
                             <span class="story-arrow"></span>
                             <span class="h-line"></span>
@@ -203,7 +203,7 @@
                                     to 80%!</p>
                             </div>
                             <div class="item_img right" style="top: 23%;">
-                                <img src="{{asset('img/how6.png')}}">
+                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/how6.png">
                             </div>
                             <span class="story-arrow"></span>
                             <span class="h-line"></span>
@@ -221,7 +221,7 @@
                     <h3>So what are you waiting for? Shopp <span class="text-orange">re</span>! Open your big box of
                         happiness today!</h3>
                     <p>All you need is a membership to get your Indian Shipping Address immediately!</p>
-                    <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn btn-shoppre">sign up for
+                    <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register" class="btn btn-shoppre">sign up for
                         free</a>
                 </div>
             </div>

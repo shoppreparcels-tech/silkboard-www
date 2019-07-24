@@ -15,7 +15,7 @@
 
     <section class="page_head">
         <div class="pagebanner">
-            <img src="{{asset('img/banner.jpg')}}" width="100%">
+            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/banner.jpg" width="100%">
             <div class="banner-cap">
                 <h2>PRICING</h2>
                 <h2>THAT <span class="text-orange">NEVER</span> BUSTS YOUR WALLET</h2>
@@ -214,9 +214,8 @@
                     <h5>Kilogram/Pound Conversion</h5>
                     <p>1 lbs = 0.4536 Kg <span>(1 Kg = 2.2046 lbs)</span></p>
                     <h5>Parcel Sample :</h5>
-                    <img src="{{asset('img/parcelsample.png')}}">
+                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/parcelsample.png">
                 </div>
-
             </div>
             <div class="col-md-5">
                 <div class="getquote block">
