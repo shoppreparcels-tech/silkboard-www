@@ -63,7 +63,7 @@
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                             <a href="https://www.amazon.in/rakhis-rakhi-hampers/b?ie=UTF8&node=5143508031" title="Amazon" target="_blank">1. Amazon.in 👉The Rakhi Store</a> |
-                            <a href="https://www.myntra.com/" title="Myntra" target="_blank">2. Myntra 👉End of Season Sale </a> |
+                            <a href="https://www.myntra.com/" title="Myntra" target="_blank">2. Myntra 👉W Myntra For Her </a> |
                             <a href="https://clnk.in/i19o" title="ajio.com" target="_blank">3. Ajio.com 👉STYLE SPLASH</a>
                         </marquee>
                     </div>

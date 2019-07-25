@@ -120,7 +120,7 @@
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                 <a href="https://www.amazon.in/rakhis-rakhi-hampers/b?ie=UTF8&node=5143508031" title="Amazon" target="_blank">1. Amazon.in 👉The Rakhi Store</a> |
-                <a href="https://www.myntra.com/" title="Myntra" target="_blank">2. Myntra 👉End of Season Sale </a> |
+                <a href="https://www.myntra.com/" title="Myntra" target="_blank">2. Myntra 👉W Myntra For Her </a> |
                 <a href="https://clnk.in/i19o" title="ajio.com" target="_blank">3. Ajio.com 👉Style Splash</a>
             </marquee>
         </div>
@@ -923,6 +923,21 @@
         </div>
         <br>
         <br>
+        <div class="container">
+            <center>
+                <h3 class="header2 p-color-cement-dark font-weight-900">Want more information about each of our services? Download Our brochure for Free! </h3>
+                <br>
+                <a href="http://bit.ly/shoppre-brochure" target="_blank">
+                    <div class="btn header6 btn-get-assisted p-color-white no-margin">
+                        <center>
+                            Download Here
+                        </center>
+                    </div>
+                </a>
+            </center>
+            <br>
+            <br>
+        </div>
     </section>
 
 @endsection

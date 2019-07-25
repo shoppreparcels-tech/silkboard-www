@@ -451,6 +451,10 @@ class PageController extends Controller
     {
         return view('page.jabong-usa');
     }
+    public function ajioUsa()
+    {
+        return view('page.ajio-usa');
+    }
     public function onamGift()
     {
         return view('page.onam-gifts');

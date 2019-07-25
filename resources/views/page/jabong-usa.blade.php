@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Jabong USA Online Shopping | Ship From India | ShoppRe.com')
-@section('description', 'Shop Myntra With Your ShoppRe Address and Ship your favorite products from India to the USA. Myntra online shopping and shipping made easy by ShoppRe.')
-@section('keywords', 'myntra usa, international delivery, myntra ship clothes to the US, quora, ecommerce')
+@section('title', 'Jabong USA International Shipping from India to USA | ShoppRe')
+@section('description', 'Shop Jabong in USA With Your ShoppRe Virtual Address and Ship your favorite Indian fashion and lifestyle products from India to the USA. Sign Up Now!')
+@section('keywords', 'jabong usa, jabong international delivery, indian fashion, lifestyle products')
 
 @section('css_style')
 
@@ -26,7 +26,7 @@
                </center>
                <center>
                    <h18 class="f-s-50 f-c-white  f-w-9">50% Discount</h18>
-                   <p class="f-s-36 f-c-white f-w-9 ">on your first Jabong shipment </p>
+                   <p class="f-s-32 f-c-white f-w-9 ">on your first JABONG.com shipment </p>
                    <img src="{{asset('img/images/f-s-t-coupon.png')}}" alt="" > <br><br>
                    <a href="{{route('customer.register')}}" target="_blank" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE</a>
                    <br>
@@ -50,8 +50,8 @@
                     </h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
-                    <a href="https://api.whatsapp.com/send?phone=917338208403&text=Can%20I%20Shop%20Myntra%20from%20India%20and%20Ship%20to%20USA?" target="_blank" class="c-image">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
+                    <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20Jabong%20from%20India%20and%20Ship%20to%20USA?" target="_blank" class="c-image">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9880393291-shop-ship-contact-number.png" alt="shop and ship number shoppre">
                     </a>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                         <div class="col-md-6 col-xs-6 no-pad">
                             <h2 class="f-s-16 f-c-blue txt-a-l f-w-9"><a href="{{route('ifs.index')}}">Shop & Ship</a></h2>
-                            <p class="f-s-12 f-c-l-gray txt-a-l">Shop Your Favourite Product from Myntra Store; Get It to ShoppRe Virtual Address; We'll Ship to Your Doorsteps!</p>
+                            <p class="f-s-12 f-c-l-gray txt-a-l">Shop Your Favourite Product from Jabong Store; Get It to ShoppRe Virtual Address; We'll Ship to Your Doorsteps!</p>
                         </div>
                         <div class="col-md-6 col-xs-6 no-pad">
                             <br>
@@ -73,7 +73,7 @@
                     <div class=" col-sm-12 col-xs-12 col-md-12 ps">
                         <div class="col-md-6 col-xs-6 no-pad">
                             <h2 class="f-s-16 f-c-blue txt-a-l f-w-9"><a href="{{route('personalShopper')}}">Personal Shopper</a></h2>
-                            <p class="f-s-12 f-c-l-gray txt-a-l">Payment Hassles at Checkout at Myntra?<br> No Worries, Let Us Know What You Need; We'll Shop for You!</p>
+                            <p class="f-s-12 f-c-l-gray txt-a-l">Payment Hassles at Checkout at Jabong?<br> No Worries, Let Us Know What You Need; We'll Shop for You!</p>
                         </div>
                         <div class="col-md-6 col-xs-6 no-pad">
                             <img src="{{asset('img/images/f-s-t-ps.svg')}}" alt="" class="img-responsive">
@@ -103,7 +103,9 @@
                 <br>
                 <h4 class="f-s-18 f-c-gray f-w-9">All about Jabong USA shipping</h4>
                 <br>
-                <p class="header4 p-color-cement">Jabong is India's largest shopping portal and sells an extensive range of fashion and lifestyle merchandise. While it is widely loved in India, it also receives the same zest all over the world. Many NRIs/PIOs want to shop from Jabong, but it does not ship to the USA. However, we here at ShoppRe, cater to all those calls and do package forwarding for all of your shopping goods.
+                <p class="header4 p-color-cement">Jabong is India's largest shopping portal and sells an extensive range of fashion and lifestyle merchandise. While it is widely loved in India, it also receives the same zest all over the world.
+                    Many NRIs/PIOs want to shop from Jabong, but it does not ship to the USA. However, we here at ShoppRe, cater to all those calls and do
+                    <a href="/international-parcel-forwarding-india-online-shopping" target="_blank">package forwarding</a> for all of your shopping goods.
                 </p>
                 <br>
                 <h4 class="f-s-18 f-c-gray f-w-9">Does jabong accept international cards?</h4>
@@ -148,7 +150,7 @@
                 </div>
                 <br>
                 <div>
-                <center><a href="#" target="_blank" class="btn btn-s-r btn-a-l btn-b-r">Shop Jabong.com</a></center>
+                <center><a href="https://www.jabong.com/" target="_blank" class="btn btn-s-r btn-a-l btn-b-r">Shop Jabong.com</a></center>
                 </div>
             </div>
         </div>
@@ -174,7 +176,7 @@
                         <ul>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Affordable Rates</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Myntra Shipping Address</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Jabong Shipping Address</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-discount</span></li>
 
                         </ul>
@@ -210,7 +212,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
 
                 </div>
 
@@ -225,7 +227,6 @@
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
                         </i>Live Chat</p>
-                    {{--<a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#" class="header2 p-color-white">Chat Now</a>--}}
                     <a href="{{Constant::CHATURL}}" target="_blank"
                        class="header2 p-color-white">Chat Now</a>
 
@@ -256,7 +257,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
 
                 </div>
 

@@ -50,8 +50,7 @@
                 <div class="col-md-4 col-xs-12">
                     <div class="">
                         <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Can%20i%20Send%20Rakhi,%20Gifts%20and%20Sweets%20from%20India?" target="_blank">
-                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/images/whatsapp-icon.png" alt="shoppre rakhi" class="img-25">
-                            <span class="font-16">+91-7338208403</span>
+                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/7338208403-personal-shopper-number.png" alt="shoppre rakhi" >
                         </a>
                     </div>
                 </div>

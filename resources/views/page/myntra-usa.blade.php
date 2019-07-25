@@ -26,7 +26,7 @@
                </center>
                <center>
                    <h18 class="f-s-50 f-c-white  f-w-9">50% Discount</h18>
-                   <p class="f-s-32 f-c-white f-w-9 ">on your first MYNTRA shipment </p>
+                   <p class="f-s-30 f-c-white f-w-9 ">on your first MYNTRA.com shipment </p>
                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/f-s-t-coupon.png" alt="" > <br><br>
                    <a href="{{route('customer.register')}}" target="_blank" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE</a>
                    <br>
@@ -50,8 +50,8 @@
                     </h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
-                    <a href="https://api.whatsapp.com/send?phone=917338208403&text=Can%20I%20Shop%20Myntra%20from%20India%20and%20Ship%20to%20USA?" target="_blank" class="c-image">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/christmas-contact.png" alt="">
+                    <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20Myntra%20from%20India%20and%20Ship%20to%20USA?" target="_blank" class="c-image">
+                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/9880393291-shop-ship-contact-number.png" alt="">
                     </a>
                 </div>
             </div>
@@ -228,7 +228,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
 
                 </div>
 
@@ -243,7 +243,6 @@
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
                         </i>Live Chat</p>
-                    {{--<a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#" class="header2 p-color-white">Chat Now</a>--}}
                     <a href="{{Constant::CHATURL}}" target="_blank"
                        class="header2 p-color-white">Chat Now</a>
 
@@ -274,7 +273,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
 
                 </div>
 

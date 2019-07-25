@@ -658,6 +658,7 @@ Route::get('/send-onam-courier-from-india', 'PageController@onamGift')->name('on
 Route::get('/myntra-international-shipping-to-usa', 'PageController@myntraUsa')->name('myntra-usa');
 Route::get('/flipkart-usa-shopping', 'PageController@flipkartUsa')->name('flipkart-usa');
 Route::get('/jabong-usa-shipping-from-india', 'PageController@jabongUsa')->name('jabong-usa');
+Route::get('/trends-ajio-usa-shipping-from-india', 'PageController@ajioUsa')->name('ajio-usa');
 Route::get('/best-international-relocation-packers-movers', 'PageController@packers')->name('packers-movers');
 Route::get('/international-shipping-gift-cards-vouchers', 'PageController@voucher')->name('voucher');
 Route::get('/medicine-international-courier-from-india', 'PageController@medicine')->name('medicine');

@@ -292,7 +292,7 @@
                 <ul class="nav-ul">
                     <ul class="nav-ul">
                         <li class="li"><a itemprop="url" class=""
-                                          href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-usa-from-india/" target="_blank">Rakhi Online Shopping India</a></li>
+                                          href="send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank">Rakhi Online Shopping India</a></li>
                         <li class="li"><a itemprop="url" class=""
                                           href="/personal-shopper-online-shopping-from-india-shipping">AMAZON.IN Great Indian Sale</a></li>
                         <li class="li"><a itemprop="url" class=""
