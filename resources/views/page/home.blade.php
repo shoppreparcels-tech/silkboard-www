@@ -7,12 +7,6 @@
 @section('css_style')
     <meta name="robots" content="index">
     <link rel="canonical" href="https://www.shoppre.com"/>
-    <!-- Owl Carousel -->
-    {{--<link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/owl.carousel.min.css">--}}
-    <!-- Magnific Popup -->
-    {{--<link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/magnific-popup.css">--}}
-    {{--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>--}}
-
     <link rel="stylesheet" href="{{asset('css/custom/shipment-sliders.css')}}">
     <script src="{{asset('js/shipments-slides.js')}}"></script>
 
@@ -44,8 +38,8 @@
 {
     "@context": "http://schema.org",
     "@type": "WebPage",
-    "name": "International Shipping, Shopping from India, Parcel Delivery, Courier Services, ShoppRe",
-    "description": "ShoppRe leading provider of parcel delivery, international courier, shipping & consolidation company from India.
+    "name": "International Shipping, Online Shopping from India, Parcel Delivery, Courier Services, ShoppRe",
+    "description": "ShoppRe leading provider of parcel delivery, international courier, shipping and consolidation company from India.
      Shipping your items to worldwide & reaches within 3-6 working days, save 60-80% on shipping cost",
     "image": {
         "@type": "ImageObject",
@@ -56,7 +50,7 @@
     "url": "https://www.shoppre.com/",
     "mainEntityOfPage": "https://www.shoppre.com",
     "inLanguage": "en_IN",
-    "headline": "International Shipping: Parcel Delivery & Courier Services | ShoppRe India",
+    "headline": "International Shipping: Parcel Delivery and Courier Services | ShoppRe India",
     "keywords": "International Shipping From India, Shipping Partner, Parcel Delivery, Courier Services",
     "copyrightYear": "2019",
     "author": {
@@ -65,7 +59,6 @@
         "url": "https://www.shoppre.com",
         "sameAs": ["https://twitter.com/Go_Shoppre",
         "https://www.facebook.com/goshoppre",
-        "https://plus.google.com/+SHOPPRECOM",
         "https://www.linkedin.com/company/shoppre.com",
         "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
         "https://www.instagram.com/shoppre_official",
@@ -89,8 +82,8 @@
         },
         "location": {
             "@type": "Place",
-            "name": "ShoppRe.com - Your Global Shipping Partner From INDIA",
-            "hasMap": "https://goo.gl/maps/uzk2WnBF7U62",
+            "name": "ShoppRe.com - Safe & Secure International Courier Services",
+            "hasMap": "https://g.page/shoppre",
             "telephone": "+91 80409 44077",
             "geo": {
                 "@type": "GeoCoordinates",
@@ -137,7 +130,6 @@
  "sameAs": [
     "https://www.facebook.com/goshoppre",
     "https://twitter.com/Go_Shoppre",
-    "https://plus.google.com/+SHOPPRECOM",
     "https://www.instagram.com/shoppre_official",
     "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
     "https://www.linkedin.com/company/shoppre.com",
@@ -145,7 +137,6 @@
     "https://play.google.com/store/apps/details?id=com.shoppre.play",
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
  ]}
-
 
     </script>
 
@@ -161,7 +152,6 @@
     "sameAs": [
     "https://www.facebook.com/goshoppre/",
     "https://twitter.com/Go_Shoppre",
-    "https://plus.google.com/+SHOPPRECOM",
     "https://www.instagram.com/shoppre_official",
     "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
     "https://www.linkedin.com/company/shoppre.com",
@@ -236,8 +226,6 @@
                             <h1 class="f-s-32 f-c-white f-w-8 ">
                                 International Shipping from India starting at just <span
                                         class="p-color-red">*₹566</span>!
-                                {{--International Shipping from India <span class="f-c-yellow" id="country"></span>--}}
-                                {{--starting at just <span class="p-color-red">*₹<span id="prices"></span></span><span style="color: #ffffff">!</span>--}}
                             </h1>
                         </div>
                     </div>
@@ -287,10 +275,6 @@
                             {{--Live : 👉<a class="f-c-white" style="text-decoration: underline" href="https://www.myntra.com/" target="_blank">Myntra.com BLOCKBUSTER Sale 18-21 July</a> </p>--}}
                     {{--</marquee>--}}
                     {{--</div>--}}
-                    {{--<span class="f-s-16 f-c-red f-w-9">"Wardrobe Refresh Sale" Biggest Fashion Sale Ever from Amazon.in & Get ₹200 cashback on your amazon.in shipment</span><br>--}}
-                    {{--< style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
-
-                    {{--</>--}}
                 </div>
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
@@ -335,7 +319,6 @@
                             </div>
                             <div class="col-md-6 col-xs-6 no-pad ">
                                 <center>
-                                    {{--<img src="https://www.shoppre.com/img/images/priyamani-new.png" width="290" height="293"--}}
                                     <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/priyamani-new.png" width="250" height="293"
                                          class="img-responsive" alt="priyamani shoppre">
                                 </center>
@@ -446,12 +429,6 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                 <center>
                     <p class="header2 p-color-cement" style="text-align: center">Our trusted partners DHL, DTDC
-                        {{--<span class="p-color-red"><a href="{{route('dhl.index')}}">DHL</a></span>,--}}
-                        {{--<span class="p-color-red">--}}
-                            {{--<a href="{{route('dtdc.index')}}">--}}
-                                {{--DTDC--}}
-                            {{--</a>--}}
-                        {{--</span>--}}
                         &
                         more help us sail smooth all the way to
                         your destination, wherever it is! </p>

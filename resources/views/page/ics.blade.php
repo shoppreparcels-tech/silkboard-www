@@ -61,8 +61,8 @@
     },
     "location": {
     "@type": "Place",
-    "name": "Send Courier from India to USA, UAE & Worldwide - ShoppRe.com",
-    "hasMap": "https://goo.gl/maps/ousk7hQJDM52",
+    "name": "Send Courier from India to USA, UAE and Worldwide - ShoppRe.com",
+    "hasMap": "https://g.page/InternationalCourier",
     "telephone": "+918277919191"
    				 }
     	 }

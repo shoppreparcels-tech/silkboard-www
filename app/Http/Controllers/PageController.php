@@ -455,6 +455,10 @@ class PageController extends Controller
     {
         return view('page.ajio-usa');
     }
+    public function amznUsa()
+    {
+        return view('page.amzn-usa');
+    }
     public function onamGift()
     {
         return view('page.onam-gifts');

@@ -63,7 +63,7 @@
                     <li class="li"><a itemprop="url" class="footer-a" href="{{route('about')}}">About Us</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="{{route('faq')}}">Shipping FAQ</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="https://ship.shoppre.com/franchise-with-shoppre/" target="_blank">Franchise</a></li>
-                    <li class="li"><a itemprop="url" class="footer-a" href="{{route('cguide.index')}}" target="_blank">Country Guides</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="https://ship.shoppre.com/prohibited-items-what-you-cannot-ship-internationally-from-india/" target="_blank">Prohibited Items</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="/terms-and-conditions">Terms & Conditions</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="/privacy-policy">Privacy Policy</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>

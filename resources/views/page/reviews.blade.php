@@ -48,20 +48,19 @@
   "sameAs": [
     "https://www.facebook.com/goshoppre",
     "https://twitter.com/Go_Shoppre",
-    "https://plus.google.com/+SHOPPRECOM",
     "https://www.instagram.com/shoppre_official",
     "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
     "https://www.linkedin.com/company/shoppre.com",
     "https://in.pinterest.com/shoppre",
-    "https://goo.gl/maps/UkSfQL4hFB52",
+    "https://g.page/shoppre",
     "https://play.google.com/store/apps/details?id=com.shoppre.play",
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
   ],
   "aggregateRating": {
     "@type" : "AggregateRating",
     "bestRating": "5",
-    "ratingValue" : "4.7",
-    "reviewCount" : "158",
+    "ratingValue" : "4.6",
+    "reviewCount" : "202",
     "worstRating" : 2.0
   }
 }
