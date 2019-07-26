@@ -2,11 +2,11 @@
 
 @section('title', 'Onam Courier from India | USA, Canada, Australia')
 @section('description', '')
-@section('keywords', 'how to send rakhi online, send rakhi within usa free shipping, raksha bandhan, rakhi courier india')
+@section('keywords', '')
 
 @section('css_style')
 
-    <link rel="canonical" href="https://www.shoppre.com/send-rakhi-gifts-online-worldwide-at-cheap-rates" />
+    <link rel="canonical" href="https://www.shoppre.com/kerala-onam-online-shopping-guide-from-india" />
 
     <style>
         .first-time-shipment{background-color:#11273b;height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;padding-top:60px}.first-time-shipment .div-snow{padding-top:146px}.first-time-shipment .div-snow img{position:absolute}.first-time-shipment .div-snow img{margin-left:-3px;position:absolute}.first-time-shipment .div-newyear{padding-top:206px}.first-time-shipment .div-newyear img{margin-left:-12px;position:absolute}.textbox-email{width:358px;height:50px;box-shadow:0 1px 2px rgba(0,0,0,.2);border-radius:25px!important;background-color:#fff;border:0;padding-left:9%}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}.fst-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-360px;padding:20px}.fst-service .c-image{padding:20px}.fst-service .shopandship{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;border:1px solid #5a5b5d26}.fst-service .ps{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;border:1px solid #5a5b5d26}.fst-service .ic{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;border:1px solid #5a5b5d26}.fst-service .shopandship:hover{border:1px solid #507dbc}.fst-service .ps:hover{border:1px solid #507dbc}.fst-service .ic:hover{border:1px solid #507dbc}.fst-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.fst-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.fst-service .btn-chris-place-order{padding:13px 50px;color:#fff;width:300px;height:50px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:30px;background-color:#e85151}.chris-benefits{padding-top:30px}.chris-benefits ul{text-decoration:none;list-style:none}.chris-benefits ul li{color:#224464;font-family:Montserrat,sans-serif;font-size:15px;font-weight:400;text-align:left;padding-top:15px}.chris-benefits ul li img{margin-top:9px}.text-center div{padding-top:20px}.img-new-year{display:none}.chris-benefits .panel{box-shadow:0 2px 10px rgba(0,0,0,.05)!important}.chris-benefits .panel ul li span{margin-left:15px}.leter-space{letter-spacing:1px}#contact-support{padding-bottom:30px}.select-control{float:left;width:90px!important;height:40px!important;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:3px;background-color:#fafafb;border:none}.select2-container--default .select2-selection--single{background-color:#fff!important;border:none!important;border-radius:4px!important;height:40px!important;padding-top:5px!important}.select2-container--default .select2-selection--single .select2-selection__arrow b{margin-top:4px!important}@media only screen and (max-width:600px){.first-time-shipment{height:651px}.textbox-email{width:330px}.div-snow{display:none}.div-newyear{display:none}.fst-service{margin-top:-260px}.c-image{display:none}.txt-align{text-align:center}.img-new-year{display:block;width:240px}.chris-benefits ul li{font-size:16px}}
@@ -17,7 +17,7 @@
     <section class="first-time-shipment">
         <div class="container no-padding">
            <div class="col-md-3 div-snow">
-               <img src="{{asset('img/images/shoppre-rakhi-left.png')}}" alt="rakhi usa" class="img-responsive img-rakhi-left">
+               <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-t-s-priyamani.png" alt="priyamani  " class="img-responsive">
            </div>
            <div class="col-md-6 col-xs-12 no-padding">
                <center>
@@ -26,13 +26,13 @@
                </center>
                <center>
                    <h18 class="f-s-50 f-c-white  f-w-9">Celebrate Happiness</h18>
-                   <p class="f-s-36 f-c-white f-w-9 ">Send Rakhi & Gifts </p>
+                   <p class="f-s-36 f-c-white f-w-9 ">Send Onam-Rakhi & Gifts </p>
                    <img src="{{asset('img/images/send-rakhi-from-india-shoppre.png')}}" alt="cheapest way to send rakhi to usa" > <br><br>
                    <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-r btn-a-l" target="_blank">Sign UP FREE</a>
                    <br>
                    <br>
                    <br>
-                   <p class="f-s-10 f-c-l-gray f-w-8">From 15th July to 25th August 2019</p>
+                   <p class="f-s-10 f-c-l-gray f-w-8">From 1st September to 13th September 2019</p>
 
                </center>
            </div>
@@ -46,13 +46,13 @@
         <div class="container fst-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Thank Your Sibling With Rakhi & Gifts. Send Love through ShoppRe.</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Onam Gifts, Dress. Send Love through ShoppRe.</h2>
                 </div>
                 <div class="col-md-4 col-xs-12">
                     <div class="">
                         <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Can%20i%20Send%20Rakhi,%20Gifts%20and%20Sweets%20from%20India?" target="_blank">
-                            <img src="/img/images/whatsapp-icon.png" alt="shoppre rakhi" class="img-25">
-                            <span class="font-16">+91-7338208403</span>
+                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/9880393291-shop-ship-contact-number.png" >
+                            {{--<span class="font-16">+91-7338208403</span>--}}
                         </a>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
             <div class="row text-center">
                 <div class="col-sm-12 col-xs-12 col-md-4">
                     <div class="shopandship onam-prod-pic" >
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/pattu-pavadai-girls-onam-dress.png" alt="signup shoppre" >
+                            <img src="{{asset('img/images/pattu-pavadai-girls-onam-dress.png')}}" alt="signup shoppre" >
                         <div class="no-pad Rakhi-mid-div mar-t-10">
                             Pattu Pavadai
                         </div>
@@ -74,7 +74,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="shopandship onam-prod-pic" >
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/women-cotton-saree-with-blouse-kerala-saree-for-onam.png" alt="signup shoppre" >
+                            <img src="{{asset('img/images/women-cotton-saree-with-blouse-kerala-saree-for-onam.png')}}" alt="signup shoppre" >
                         <div class="no-pad Rakhi-mid-div mar-t-10">
                             Kerala Kasavu Sarees
                         </div>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="shopandship onam-prod-pic" >
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/balaramapurami-unakkupaavu-handloom-women-saree-kerala.png" alt="signup shoppre" >
+                            <img src="{{asset('img/images/balaramapurami-unakkupaavu-handloom-women-saree-kerala.png')}}" alt="signup shoppre" >
                         <div class="no-pad Rakhi-mid-div mar-t-10">
                             Balaramapuram Saree
                         </div>
@@ -102,7 +102,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="shopandship onam-prod-pic" >
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/black-kara-double-mundu-kerala-traditional-dress-for-men.png" alt="signup shoppre" >
+                            <img src="{{asset('img/images/black-kara-double-mundu-kerala-traditional-dress-for-men.png')}}" alt="signup shoppre" >
                         <div class="no-pad Rakhi-mid-div mar-t-10">
                             Black Kara Double Mundu
                         </div>
@@ -116,7 +116,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="shopandship onam-prod-pic" >
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/onapudava-off-white-dhoti-kasavu-for-men-kerala.png" alt="signup shoppre" >
+                            <img src="{{asset('img/images/onapudava-off-white-dhoti-kasavu-for-men-kerala.png')}}" alt="signup shoppre" >
                         <div class="no-pad Rakhi-mid-div mar-t-10">
                             Golden Double Dothi
                         </div>
@@ -130,7 +130,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="shopandship onam-prod-pic" >
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/kerala-indian-state-onam-fancy-dress-costume-for-boys.png" alt="signup shoppre" >
+                            <img src="{{asset('img/images/kerala-indian-state-onam-fancy-dress-costume-for-boys.png')}}" alt="signup shoppre" >
                         <div class="no-pad Rakhi-mid-div mar-t-10">
                             Aranmula Kannadi
                         </div>
@@ -147,11 +147,11 @@
                 <div class="txt-center">
                         <button type="button" class="btn btn-warning bord-rad-5 margin-r-10">
                             <a href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
-                            <p class="btn-md">View Rates for Other Countries</p>
+                            <p class="btn-md">Estimate Shipping Rate</p>
                             </a>
                         </button>
                         <button type="button" class="btn btn-success bord-rad-5 margin-r-10">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Can%20i%20Send%20Rakhi,%20Gifts%20and%20Sweets%20from%20India?" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
+                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Can%20i%20Send%20Onam,%20Gifts%20and%20Sweets%20from%20India?" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
                             <p class="btn-md">Message Us On WhatsApp</p>
                             </a>
                         </button>
@@ -159,21 +159,116 @@
             </div>
             <div class=" col-md-12 no-pad"><br>
                 <center>
-                <h2 class="p-color-cement-dark font-weight-900 ">Send Rakhi and gifts to your brother in the USA for Raksha Bandhan</h2>
+                    <h2 class="p-color-cement-dark font-weight-900 ">Onam shopping guide with the best trend and style from India</h2>
                 </center>
                 <br>
-                <h4 class="f-s-18 f-c-gray f-w-9">Send rakhi and gifts for your brother to USA or anywhere in the world for this raksha bandhan and show him your love with our international rakhi delivery.</h4>
+                <ul>
+                    <li>
+                        <a href="#What_is_Onam"> <h4 class="f-s-18 f-c-gray f-w-9">What is Onam and how to do Onam shopping?</h4> </a>
+                    </li>
+                    <li>
+                        <a href="#How_to_shop"> <h4 class="f-s-18 f-c-gray f-w-9">How to shop for Onam from abroad?</h4></a>
+                    </li>
+                    <li>
+                        <a href="#How_to_save">  <h4 class="f-s-18 f-c-gray f-w-9">How to save some extra cash on shopping for Onam?</h4></a>
+                    </li>
+                    <li>
+                        <a href="#What_to_purchase"> <h4 class="f-s-18 f-c-gray f-w-9">What to purchase for your daughter for Onam?</h4></a>
+                    </li>
+                    <li>
+                        <a href="#Indecisive_about"> <h4 class="f-s-18 f-c-gray f-w-9">Indecisive about what to wear on Onam for women?</h4></a>
+                    </li>
+                    <li>
+                        <a href="#How_to_shop_Balaramapuram"> <h4 class="f-s-18 f-c-gray f-w-9">How to shop Balaramapuram Kaithari sarees from India?</h4></a>
+                    </li>
+                    <li>
+                        <a href="#What_should_men"> <h4 class="f-s-18 f-c-gray f-w-9">What should men wear for Onam?</h4></a>
+                    </li>
+                </ul>
                 <br>
-                <p class="header4 p-color-cement">Nostalgia hits us on Raksha Bandhan about all those sweet childhood memories with our siblings. They have a special place in our hearts. No matter how much they annoy us, we still love them and care about them deeply. But time plays its part and we get separated from them. Sometimes they reside on the other side of the planet. But we still try to cherish those memories during raksha bandhan in our ways and send rakhis to them.
-                    But usually when we try to send rakhi to the USA or anywhere abroad, the process of custom is very tiring and the duties imposed on our package are exorbitant. But those days of despair are long gone because ShoppRe-the number one online international shipping portal is here to save the day! We do international rakhi delivery very efficiently.
-                </p>
+                <div id="What_is_Onam">
+                    <h2  {{--class="f-s-18 f-c-gray f-w-9"--}} class="p-color-cement-dark font-weight-900 ">What is Onam and how to do Onam shopping?</h2><br>
+                    <p class="header4 p-color-cement">
+                        Onam is one main crop harvesting festival of Kerala. It is also celebrated with the same vigor and vitality outside India as well.
+                        This prominent festival is full of folk dance, music, vigorous games, grand processions, elaborately adorned Pookalam, delicious Onam sadya, thrilling Snake boat race, and unique Kaikottikali dance.
+                        And we have curated the latest trends for Onam shopping in this article.
+                    </p>
+                </div>
                 <br>
-                <h4 class="f-s-18 f-c-gray f-w-9">How to send rakhi online from India for raksha bandhan?</h4>
-                <br>
-                <p class="header4 p-color-cement">With us, you can easily ship your rakhis and gifts with lots of love to the USA or anywhere abroad without much anxiety. We do all that for you. You just have to sign up on Shoppre and request a pickup and then we take it from there. You get informed on every step of the process so that you can easily track it.
-                    You can choose rakhis and rakhi gifts for your brother from the plethora of rakhis and gift options suggested on our website or from any Indian Stores. From funky to traditional, you will find every type of rakhi you are looking for. We also offer uncomparable shipping rates that are as low as 80%. So you can send rakhi to the USA at cheap prices.
-                </p>
-                <br>
+                <div id="How_to_shop">
+                    <h2 class="p-color-cement-dark font-weight-900 ">How to shop for Onam from abroad?</h2>
+                    <br>
+                    <p class="header4 p-color-cement">
+                        To celebrate this festival of love, dignity, reverence, and dharma, you do not need to do much. You can easily do Onam special online shopping from the comfort of your home. Shop for beautiful traditional festive attire for you and your family online through ShoppRe.
+                        Despite where in the world you are, we will deliver your package to you within 3-6 days.
+                        And if, you have no idea what to purchase, then sit back and continue reading because here is a complete guide for Onam shopping online.
+                    </p>
+                    <br>
+                    <h2 class="p-color-cement-dark font-weight-900 ">Here the easy steps you can follow to do international Onam shopping</h2>
+                    <ul>
+                        <li class="onam-list">Sign up at ShoppRe.com and you will get a virtual address.</li>
+                        <li class="onam-list">Shop for these traditional festive wears from any Indian website</li>
+                        <li class="onam-list">Provide the virtual address given by ShoppRe.com at the time of checking out using COD option.</li>
+                        <li class="onam-list">We will collect your order and pay for it.</li>
+                        <li class="onam-list">Once we receive all of your order we will ship it after you request it to ship.</li>
+                        <li class="onam-list">Then we pack and ship the consolidated package at your address abroad. And you receive it within 3-6 days.</li>
+                    </ul>
+                </div>
+                <div id="How_to_save">
+                    <h2  {{--class="f-s-18 f-c-gray f-w-9"--}} class="p-color-cement-dark font-weight-900 ">How to save some extra cash on shopping for Onam?</h2><br>
+                    <p class="header4 p-color-cement">
+                        You can save so much with Onam online shopping offers at various websites.
+                        There are wondrous discounts going on at the original price of the products so shop save some cash.
+                        You can even save some more if you choose to shop in groups.
+                        We offer a fantastic rebate at shipping to everyone who shops in a group or community.
+                        Avail all the benefits and save as much as you can while shopping for all your festive essentials.
+                        And 80% less shipping charges are always there with ShoppRe.
+                    </p>
+                </div>
+                <div id="What_to_purchase">
+                    <h2  {{--class="f-s-18 f-c-gray f-w-9"--}} class="p-color-cement-dark font-weight-900 ">What to purchase for your daughter for Onam?</h2><br>
+                    <p class="header4 p-color-cement">
+                        Give your daughter an ethnic attire that she can flaunt.
+                        A complete look with Kasavu work blouse and tissue check Pavadai will make your princess look regal in every aspect.
+                        She will love and adore this ethnic way of dressing on special occasions.
+                        If modern with a hint of ethnicity is your desire for your little girl.
+                        Then what you need is something different.
+                        Shop from this wide range of super gorgeous and cute collection of kids girls Kerala ethnic off white frocks with a golden border or Kasavu and designer borders.
+                    </p>
+                </div>
+                <div id="Indecisive_about">
+                    <h2  {{--class="f-s-18 f-c-gray f-w-9"--}} class="p-color-cement-dark font-weight-900 ">Indecisive about what to wear on Onam for women?</h2><br>
+                    <p class="header4 p-color-cement">
+                        A traditional Kasavu saree from Kerala is a no brainer to celebrate Onam ostentatiously from an array of Kerala sarees online.
+                        These Kerala sarees spell elegance and grandeur of grand festivals like Onam.
+                        The simple and magnificent cream saree with glittering golden border is a heart-stealing delight to wear.
+                        Don't miss the opportunity to get these gorgeous Kerala sarees online at a discount never seen before.
+                        These sarees have a spiritual appeal and a look that oozes placidness so do onam sarees shopping.
+                    </p>
+                </div>
+                <div id="How_to_shop_Balaramapuram">
+                    <h2  {{--class="f-s-18 f-c-gray f-w-9"--}} class="p-color-cement-dark font-weight-900 ">How to shop Balaramapuram Kaithari sarees from India?</h2><br>
+                    <p class="header4 p-color-cement">
+                        Another option is the Balaramapuram Kaithari for Onam saree.
+                        These sarees are a handwoven piece of art.
+                        Their unique style of weaving coupled with the unique weft processing makes the fabric fine and comfortable to wear.
+                        Exclusive cotton fabric with pure Zari work border endows it with six yards of luxury.
+                        You can shop for these beauties through ShoppRe and get them delivered at your doorstep.
+                        We offer amazing discounts on shipping worldwide.
+                        These sarees are best for onam sarees online shopping.
+                    </p>
+                </div>
+                <div id="What_should_men">
+                    <h2  {{--class="f-s-18 f-c-gray f-w-9"--}} class="p-color-cement-dark font-weight-900 ">What should men wear for Onam?</h2><br>
+                    <p class="header4 p-color-cement">
+                        Finding the perfect attire for Onam was never this easy.
+                        Go for a simple dhoti with a golden border and a plain white shirt.
+                        Here simplicity is the key.
+                        Celebrate the opulence of Onam in this traditional look with pride and joy.
+                        Shop these exclusive dhotis at rebate going on right now for your Onam shopping online.
+                    </p>
+                </div>
+
             <br>
             <br>
                 <div>

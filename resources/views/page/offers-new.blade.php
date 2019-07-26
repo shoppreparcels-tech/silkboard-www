@@ -182,8 +182,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Style Splash</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Min. 50% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Bag Days</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>
@@ -195,10 +195,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Budget Finds</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Under ₹499</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">kids carnival</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up to 70% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.amazon.in/b?node=17097545031&pf_rd_p=fa180c8f-c40b-405d-8fc6-8fc43fae1da9&pf_rd_r=ATY0ACPGQ98XXFC3MWQ4" target="_blank">
+                                <a href="https://www.amazon.in/b?node=15606769031&pf_rd_p=01f443be-aa4f-4c0b-81ce-7c471b980054&pf_rd_r=AN8FTF73D555JASA4E0M" target="_blank">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>

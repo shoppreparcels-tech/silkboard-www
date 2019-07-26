@@ -69,11 +69,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/women-apparel" target="_blank"><div class="shopandship ">
-                            <h2>W MYNTRA FOR HER</h2>
+                    <a href="https://www.myntra.com/myntra-fashion-store" target="_blank"><div class="shopandship ">
+                            <h2>Big Clearance Sale</h2>
                             <br/>
-                            <p>40-80% Off</p>
-                            <p>Price Starts from ₹139/-</p>
+                            <p>50-80% Off</p>
+                            <p>27th - 30th July</p>
                             <p>Explore Now</p>
                         </div></a>
                 </div>

@@ -396,17 +396,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.myntra.com/women-apparel" title="Click for Offer Details" target="_blank">
+                        <a href="https://www.myntra.com/myntra-fashion-store" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div"><h4 class="cord-header-size f-c-white">W MYNTRA FOR HER</h4></div>
+                            <div class="h-div"><h4 class="cord-header-size f-c-white">BIG CLEARANCE SALE</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">40-70% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">50-80% Off</span> | 27th - 30th July</p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Myntra.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop for Tops, Dresses, Kurtas, Sarees, Jeans. Explore More!</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop for Tops, Dresses, Kurtas, Sarees, Jeans, Headphones. Explore More!</p>
                         </div>
 
                     </div>

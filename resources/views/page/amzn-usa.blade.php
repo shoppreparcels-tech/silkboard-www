@@ -17,17 +17,17 @@
     <section class="first-time-shipment">
         <div class="container no-padding">
            <div class="col-md-3 div-snow">
-               <img src="{{asset('img/images/f-t-s-priyamani.png')}}" alt="" class="img-responsive">
+               <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-t-s-priyamani.png" alt="amazon usa india" class="img-responsive">
            </div>
            <div class="col-md-6 col-xs-12 no-padding">
                <center>
-                   <img src="{{asset('img/images/f-t-s-priyamani.png')}}" alt="" class="img-new-year"><br>
-                   <a href="{{route('customer.register')}}"><img src="{{asset('img/images/tape_signup.svg')}}" alt="" > </a> <br>
+                   <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-t-s-priyamani.png" alt="priyamani" class="img-new-year"><br>
+                   <a href="{{route('customer.register')}}"><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/tape_signup.svg" alt="" > </a> <br>
                </center>
                <center>
                    <h18 class="f-s-50 f-c-white  f-w-9">50% Discount</h18>
                    <p class="f-s-34 f-c-white f-w-9 ">on your first Amazon.in shipment </p>
-                   <img src="{{asset('img/images/f-s-t-coupon.png')}}" alt="" > <br><br>
+                   <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-s-t-coupon.png" alt="" > <br><br>
                    <a href="{{route('customer.register')}}" target="_blank" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE</a>
                    <br>
                    <br>
@@ -37,7 +37,7 @@
                </center>
            </div>
             <div class="col-md-3 div-newyear">
-                <img src="{{asset('img/images/f-s-t-courierbox.png')}}" alt="" class="img-responsive">
+                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-s-t-courierbox.png" alt="" class="img-responsive">
             </div>
 
         </div>
