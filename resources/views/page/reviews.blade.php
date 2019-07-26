@@ -94,7 +94,7 @@
                 <center>
                     <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
                        target="_blank" title="Click Here to Rate & Review Us on Google">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/reviews/review-google.png" class="r-img" alt="Google Reviews">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/reviews/review-google.png" class="r-img" alt="Google Reviews">
                     </a>
                 </center>
             </div>
@@ -103,7 +103,7 @@
             <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
                 <center>
                     <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank" title="Click Here to Recommend Us on Facebook">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/reviews/review-facebook.png" class="r-img" alt="Facebook Reviews">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/reviews/review-facebook.png" class="r-img" alt="Facebook Reviews">
                     </a>
                 </center>
             </div>
@@ -112,7 +112,7 @@
             <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 ">
                 <center>
                     <a href="#reviews">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/reviews/review-shoppre.png" class="r-img" alt="Shoppre Reviews">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/reviews/review-shoppre.png" class="r-img" alt="Shoppre Reviews">
                     </a>
                 </center>
 
@@ -206,12 +206,12 @@
                                                 <br><span style="color:#677582 ">{{$review->name}}</span> </p>
                                         </div>
                                         <div class="col-md-4 col-lg-4 col-sm-3 col-xs-3 pull-right">
-                                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/rating-star.png" style="margin-top: 11px" alt="">
+                                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/rating-star.png" style="margin-top: 11px" alt="">
                                         </div>
                                     </div>
                                     <div class="row">
                                         <i class="quots-t ">
-                                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/qoute_up.svg" alt="">
+                                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_up.svg" alt="">
                                         </i>
                                     </div>
                                     <div class="row">
@@ -219,7 +219,7 @@
                                     </div>
                                     <div class="row">
                                       <span class="quots-b">
-                                         <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/qoute_down.svg" alt="">
+                                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/qoute_down.svg" alt="">
                                       </span>
                                     </div>
                                 </div>

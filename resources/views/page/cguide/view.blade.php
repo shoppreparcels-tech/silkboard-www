@@ -45,19 +45,19 @@
     <div class="container">
       <ul>
         <li>
-          <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/cguide_ico1.png">
+          <img src="{{env('AWS_CLOUD_FRONT')}}/img/cguide_ico1.png">
           <strong>Shipping Costs</strong>
         </li>
         <li>
-          <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/cguide_ico2.png">
+          <img src="{{env('AWS_CLOUD_FRONT')}}/img/cguide_ico2.png">
           <strong>Duties & Taxes</strong>
         </li>
         <li>
-          <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/cguide_ico3.png'">
+          <img src="{{env('AWS_CLOUD_FRONT')}}/img/cguide_ico3.png'">
           <strong>Prohibited Items</strong>
         </li>
         <li>
-          <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/cguide_ico4.png">
+          <img src="{{env('AWS_CLOUD_FRONT')}}/img/cguide_ico4.png">
           <strong>Transit Times</strong>
         </li>
       </ul>
@@ -268,7 +268,7 @@
 
       @if(!empty($guide->dutytax))
       <article>
-        <h2><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/cguide_box1.png"> Duties and Taxes</h2>
+        <h2><img src="{{env('AWS_CLOUD_FRONT')}}/img/cguide_box1.png"> Duties and Taxes</h2>
         <div class="col-md-8">
           {!! $guide->dutytax !!}
         </div>
@@ -286,7 +286,7 @@
 
       @if(!empty($guide->transits))
       <article>
-        <h2><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/cguide_box2.png"> PACKAGE TRANSIT TIMES</h2>
+        <h2><img src="{{env('AWS_CLOUD_FRONT')}}/img/cguide_box2.png"> PACKAGE TRANSIT TIMES</h2>
         <div class="col-md-8">
           {!! $guide->transits !!}
         </div>
@@ -304,7 +304,7 @@
 
       @if(!empty($guide->forbidden))
       <article>
-        <h2><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/cguide_box3.png"> PRODUCTS YOU CAN'T SHIP INTERNATIONALY TO {{strtoupper($country->name)}}</h2>
+        <h2><img src="{{env('AWS_CLOUD_FRONT')}}/img/cguide_box3.png"> PRODUCTS YOU CAN'T SHIP INTERNATIONALY TO {{strtoupper($country->name)}}</h2>
         <div class="col-md-8">
           {!! $guide->forbidden !!}
         </div>

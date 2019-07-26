@@ -12,7 +12,7 @@
         <div class="container schedule-container">
             <div class="tab-pane" role="tabpanel" id="complete">
                 <div class="img_align">
-                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/success1.png" class="img_size" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/success1.png" class="img_size" alt="">
                     <h3>Your pickup request completed Successfully.</h3>
                     <h4>For Confirmation or any Query please call us at <a href="tel:+91-8277919191">+91-8277919191</a></h4>
                     <a href="{{route('home')}}" class="btn btn-primary btn-info-full next-step3">

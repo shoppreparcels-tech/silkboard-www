@@ -42,7 +42,7 @@
 
     <section class="page_head">
         <div class="pagebanner">
-          <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/banner1.jpg" width="100%">
+          <img src="{{env('AWS_CLOUD_FRONT')}}/img/banner1.jpg" width="100%">
           <div class="banner-cap">
             <h2>Shoppre <span class="text-orange">Services</span></h2>
           </div>
@@ -58,7 +58,7 @@
       <div class="container">
         <div class="col-md-4">
           <div class="imgbox">
-            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/services2.png">
+            <img src="{{env('AWS_CLOUD_FRONT')}}/img/services2.png">
             <h3>Shop and Ship</h3>
             <p>Always wanted to get products from India?</p>
           </div>
@@ -91,7 +91,7 @@
       <div class="container">
         <div class="col-md-4">
           <div class="imgbox">
-            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/services1.png">
+            <img src="{{env('AWS_CLOUD_FRONT')}}/img/services1.png">
             <h3>PERSONAL SHOPPER</h3>
             <p>Your International credit card or mode of payment isn't accepted by some Indian Portals?</p>
           </div>
@@ -114,7 +114,7 @@
       <div class="container">
         <div class="col-md-4">
           <div class="imgbox">
-            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/services3.png">
+            <img src="{{env('AWS_CLOUD_FRONT')}}/img/services3.png">
             <h3>Shopping guide</h3>
             <p>Dont’t know where to shop the product that you need from?</p>
           </div>

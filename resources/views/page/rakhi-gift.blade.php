@@ -17,16 +17,16 @@
     <section class="first-time-shipment">
         <div class="container no-padding">
            <div class="col-md-3 div-snow">
-               <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/shoppre-rakhi-left.png" alt="rakhi usa" class="img-responsive img-rakhi-left">
+               <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shoppre-rakhi-left.png" alt="rakhi usa" class="img-responsive img-rakhi-left">
            </div>
            <div class="col-md-6 col-xs-12 no-padding">
                <center>
-                   <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/tape_signup.svg" alt="signup shoppre">  <br>
+                   <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/tape_signup.svg" alt="signup shoppre">  <br>
                </center>
                <center>
                    <h18 class="f-s-50 f-c-white  f-w-9">Celebrate Happiness</h18>
                    <p class="f-s-36 f-c-white f-w-9 ">Send Rakhi & Gifts </p>
-                   <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/send-rakhi-from-india-shoppre.png" alt="cheapest way to send rakhi to usa" > <br><br>
+                   <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/send-rakhi-from-india-shoppre.png" alt="cheapest way to send rakhi to usa" > <br><br>
                    <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-r btn-a-l" target="_blank">Sign UP FREE</a>
                    <br>
                    <br>
@@ -36,7 +36,7 @@
                </center>
            </div>
             <div class="col-md-3 div-newyear">
-                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/f-s-t-courierbox.png" alt="" class="img-responsive">
+                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-s-t-courierbox.png" alt="" class="img-responsive">
             </div>
 
         </div>
@@ -50,7 +50,7 @@
                 <div class="col-md-4 col-xs-12">
                     <div class="">
                         <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Can%20i%20Send%20Rakhi,%20Gifts%20and%20Sweets%20from%20India?" target="_blank">
-                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/7338208403-personal-shopper-number.png" alt="shoppre rakhi" >
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/7338208403-personal-shopper-number.png" alt="shoppre rakhi" >
                         </a>
                     </div>
                 </div>
@@ -261,20 +261,20 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Personal Shopper</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>20-Day Free Storage</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Consolidation</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Repackaging</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personal Shopper</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>20-Day Free Storage</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Consolidation</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Repackaging</span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Scanned Copies Document-couriers</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Country-discount</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Scanned Copies Document-couriers</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Country-discount</span></li>
 
                         </ul>
                     </div>
@@ -282,10 +282,10 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Photo Updates</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Wallet Cashback</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Package Return Services</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Product Recommendations</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Photo Updates</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Wallet Cashback</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Package Return Services</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Product Recommendations</span></li>
                         </ul>
                     </div>
                 </div>
@@ -300,7 +300,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="div-phone">
                         <center>
-                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Didn't find the answer you need? Contact us!</p>
                         </center>
                     </div>
@@ -337,14 +337,14 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 " style="display: none">
                     <div class="div-phone">
                         <center>
-                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Contact Our <br>Support Team </p>
                         </center>
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="d-contact-div">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                         <p class="header6 p-color-white " style="margin-left: 51px;margin-top: -36px;">Contact Our <br>Support
                             Team </p>
                     </div>

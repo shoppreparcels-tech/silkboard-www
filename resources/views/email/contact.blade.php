@@ -43,7 +43,7 @@
                                     <tbody><tr>
                                         <td valign="top" width="100" style="background-color:#1f2533;">
                                             <a href="#" style="text-decoration:none;color:#1f2533;font-weight:bold" target="_blank">
-                                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/logo.png" style="display:block;background-color:#1f2533;color:#010101;padding:10px;padding-left:30px;width: 100%;" alt="" border="0" class="CToWUd">
+                                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/logo.png" style="display:block;background-color:#1f2533;color:#010101;padding:10px;padding-left:30px;width: 100%;" alt="" border="0" class="CToWUd">
                                             </a>
                                         </td>
                                         <td valign="top" width="300" style="background-color:#1f2533;color:#fff;font-size:12px;text-align:right;padding:30px 10px 15px 20px">All Rights Reserved. Copyright © <a href="#" style="text-decoration:none;color:#fff;font-weight:bold" target="_blank">Shoppre.com</a>

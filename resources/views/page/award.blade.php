@@ -62,7 +62,7 @@
         <div class="pattern-image"></div>
         <div class="container">
             <div class="circle">
-                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/awards.png" class="award">
+                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/awards.png" class="award">
                 <h1>ShoppRe   </h1>
                 <h1>Awards 2018 Is On   </h1>
             </div><!-- /.circle -->
@@ -77,7 +77,7 @@
                         <div class="col-sm-12  col-md-7 col-sm-push-2 text-center animatedParent">
                             <div class="col-sm-6">
                                 <div class="white-lft animated bounceInLeft">
-                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/001-man.svg" class="img-illustrator">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/001-man.svg" class="img-illustrator">
                                     <div class="ic-award">
                                         the best<br/>
                                         <span>sellout</span>
@@ -87,7 +87,7 @@
                             </div><!-- /.col-sm-6 -->
                             <div class="col-sm-6">
                                 <div class="white-rgt animated bounceInRight">
-                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/001-man.svg" class="img-illustrator">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/001-man.svg" class="img-illustrator">
                                     <div class="ic-award">
                                         the up & coming<br/>
                                         <span>seller</span>
@@ -109,7 +109,7 @@
                         <div class="col-sm-12  col-md-7 col-sm-push-2 text-center animatedParent">
                             <div class="col-sm-6">
                                 <div class="white-lft animated bounceInLeft">
-                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/001-man.svg" class="img-illustrator">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/001-man.svg" class="img-illustrator">
                                     <div class="ic-award">
                                        Uprising<br/>
                                         <span>partner</span>
@@ -119,7 +119,7 @@
                             </div><!-- /.col-sm-6 -->
                             <div class="col-sm-6">
                                 <div class="white-rgt animated bounceInRight">
-                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/001-man.svg" class="img-illustrator">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/001-man.svg" class="img-illustrator">
                                     <div class="ic-award">
                                         most trusted<br/>
                                         <span>courier</span>
@@ -141,13 +141,13 @@
 
                 <div class="col-sm-4">
                     <div class="box-yllw text-center animated fadeInDownShort">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ic_award_01.png" class="img-space-top">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/ic_award_01.png" class="img-space-top">
                         <div class="fav-ic-award">
                             the best<br/>
                             <span> SHIPPER</span>
                         </div>
                         <div class="divider40"></div>
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/001-man.svg" class="img-space img-illustrator">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/001-man.svg" class="img-space img-illustrator">
 
                         <p>Ateeq Sachina<br/>
                             <span>India</span></p>
@@ -156,13 +156,13 @@
 
                 <div class="col-sm-4">
                     <div class="box-prple text-center animated fadeInUpShort">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ic_award_01.png" class="img-space-top">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/ic_award_01.png" class="img-space-top">
                         <div class="fav-ic-award">
                             SUPREME<br/>
                             <span>SHIPPER</span>
                         </div>
                         <div class="divider40"></div>
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/034-woman-8.svg" class="img-space img-illustrator">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/034-woman-8.svg" class="img-space img-illustrator">
 
                         <p>Angela Thunder<br/>
                             <span>Hawaii</span></p>
@@ -171,13 +171,13 @@
 
                 <div class="col-sm-4">
                     <div class="box-sky text-center animated fadeInDownShort">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ic_award_01.png" class="img-space-top">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/ic_award_01.png" class="img-space-top">
                         <div class="fav-ic-award">
                             THE BEST<br/>
                             <span>PERSONAL SHOPPER</span>
                         </div>
                         {{--<div class="divider10"></div>--}}
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/javier.png" class="img-space">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/javier.png" class="img-space">
                         <p class="img-space-p"> Javier Fisherman<br/>
                             <span>Bolivia</span></p>
                     </div><!-- /.box-sky -->
@@ -186,13 +186,13 @@
                 <div class="divider100"></div>
                 <div class="col-sm-4 col-sm-offset-4">
                     <div class="box-yllw text-center animated fadeInDownShort">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ic_award_01.png" class="img-space-top">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/ic_award_01.png" class="img-space-top">
                         <div class="fav-ic-award">
                             ETHNIC<br/>
                             <span> SHIPPER</span>
                         </div>
                         {{--<div class="divider40"></div>--}}
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/anupama.png" class="img-space">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/anupama.png" class="img-space">
                         <p class="img-space-p">Anupama Madhavan<br/>
                             <span>UAE</span></p>
                     </div><!-- /.box-yllw -->
@@ -202,13 +202,13 @@
 
                 <div class="col-sm-4">
                     <div class="box-pnk text-center animated fadeInUpShort">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ic_award_01.png" class="img-space-top">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/ic_award_01.png" class="img-space-top">
                         <div class="fav-ic-award">
                             AWARD FOR<br/>
                             <span>SOCIAL CAUSE</span>
                         </div>
                         {{--<div class="divider40"></div>--}}
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/israel.png" class="img-space">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/israel.png" class="img-space">
 
                         <p class="img-space-p">Israel<br/>
                             <span>Nigeria</span></p>
@@ -217,13 +217,13 @@
 
                 <div class="col-sm-4">
                     <div class="box-drk text-center animated fadeInDownShort">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ic_award_01.png" class="img-space-top">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/ic_award_01.png" class="img-space-top">
                         <div class="fav-ic-award">
                             FAVOURITE<br/>
                             <span>SHIPPER</span>
                         </div>
                         {{--<div class="divider40"></div>--}}
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/sheefa.png" class="img-space">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/sheefa.png" class="img-space">
                         <p class="img-space-p">Sheefa Krishna Kumar<br/>
                             <span>UAE</span></p>
                     </div><!-- /.box-dark -->
@@ -231,13 +231,13 @@
 
                 <div class="col-sm-4">
                     <div class="box-violt text-center animated fadeInUpShort">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ic_award_01.png" class="img-space-top">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/ic_award_01.png" class="img-space-top">
                         <div class="fav-ic-award">
                             EPIC<br/>
                             <span>SHIPPER</span>
                         </div>
                         <div class="divider40"></div>
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/034-woman-8.svg" class="img-space img-illustrator">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/034-woman-8.svg" class="img-space img-illustrator">
 
                         <p>Asuka<br/>
                             <span> Japan</span></p>
@@ -249,13 +249,13 @@
                 <div class="divider100"></div>
                 <div class="col-sm-4">
                     <div class="box-sky text-center animated fadeInDownShort">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ic_award_01.png" class="img-space-top">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/ic_award_01.png" class="img-space-top">
                         <div class="fav-ic-award">
                             THE BEST<br/>
                             <span>SELLER</span>
                         </div>
                         <div class="divider10"></div>
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/001-man.svg" class="img-space img-illustrator">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/001-man.svg" class="img-space img-illustrator">
 
                         <p> Abhinav Mishra<br/>
                             <span>USA</span></p>
@@ -264,14 +264,13 @@
 
                 <div class="col-sm-4 col-sm-offset-4">
                     <div class="box-pnk text-center animated fadeInUpShort">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ic_award_01.png" class="img-space-top img-illustrator">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/ic_award_01.png" class="img-space-top img-illustrator">
                         <div class="fav-ic-award">
                             up & coming<br/>
                             <span>SELLER</span>
                         </div>
                         <div class="divider40"></div>
-                        <img src="{{asset('/img/svg/034-woman-8.svg')}}" class="img-space img-illustrator">
-
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/034-woman-8.svg" class="img-space img-illustrator">
                         <p>Shilpa Pandey<br/>
                             <span>India</span></p>
                     </div><!-- /.box-pnk -->
@@ -291,7 +290,7 @@
                         <div class="col-sm-3 no-pad">
                             <div class="white-box text-center animated bounceIn">
                                 <div class="middle">
-                                  <span><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chart1.png" class="award-img">
+                                  <span><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chart1.png" class="award-img">
                                     <p>Indian Stores</p> </span>
                                 </div><!-- /.middle -->
                             </div><!-- /.white-box -->
@@ -301,7 +300,7 @@
                         <div class="col-sm-3 no-pad">
                             <div class="white-box text-center animated bounceIn">
                                 <div class="middle">
-                                    <span><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chart2.png" class="award-img">
+                                    <span><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chart2.png" class="award-img">
                                     <p>Product Categories</p>
                                     </span>
                                 </div><!-- /.middle -->
@@ -312,7 +311,7 @@
                         <div class="col-sm-3 no-pad">
                             <div class="white-box text-center animated bounceIn">
                                 <div class="middle">
-                                    <span><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chart3.png" class="award-img">
+                                    <span><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chart3.png" class="award-img">
                                         <p>Countries We're Popular In</p>
                                     </span>
                                 </div><!-- /.middle -->
@@ -323,7 +322,7 @@
                             <div class="white-box text-center animated bounceIn">
                                 <div class="middle">
 {{--                                    <span><img src="{{asset('img/images/pie-chart.png')}}">--}}
-                                    <span><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chart4.png" class="award-img">
+                                    <span><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chart4.png" class="award-img">
                                          <p>International Couriers</p>
                                     </span>
                                 </div><!-- /.middle -->
@@ -336,7 +335,7 @@
                     <div class="review-panel animatedParent">
 
                         <div class="rvw-lft fl animated bounceInLeft">
-                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ic_smile_01.png" class="zoomoutheader">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/ic_smile_01.png" class="zoomoutheader">
                             <div class="divider40"></div>
                             <p>"Working with Shoppre help me to reach
                                 products for my business that otherwise would
@@ -346,7 +345,7 @@
                         </div>
 
                         <div class="rvw-mid fl animated bounceInDown">
-                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ic_smile_02.png" class="zoomoutheader">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/ic_smile_02.png" class="zoomoutheader">
                             <div class="divider40"></div>
                             <p>"It's a wonderful site.. great help for NRI s like me who love to shop from Indian traders...
                                 easy management of website... very good response via what's app...and very nice delivery
@@ -356,7 +355,7 @@
                         </div>
 
                         <div class="rvw-rgt fl animated bounceInRight">
-                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ic_smile_03.png" class="zoomoutheader">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/ic_smile_03.png" class="zoomoutheader">
                             <div class="divider40"></div>
                             <p>"Amazing and very fast service.They told me it would reach within 5 working days but it actually reached within 3 working days."<br/>
                             <div class="divider10"></div>

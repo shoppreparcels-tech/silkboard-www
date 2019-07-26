@@ -13,7 +13,7 @@
         <div class="container no-pad">
             <div class="col-md-12 col-xs-12 no-pad">
                 <div class="col-md-6 col-xs-12 pad-t-20">
-                    <img class="pull-right img-m-s" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/drop-shipping-mobile.png"
+                    <img class="pull-right img-m-s" src="{{env('AWS_CLOUD_FRONT')}}/img/images/drop-shipping-mobile.png"
                          alt="personal shopper service in india">
                     <div class="pad-t-20">
                         <br><br><br>
@@ -25,11 +25,11 @@
                         <a href="{{route('member.plan')}}" class="btn btn-s-r btn-a-l btn-b-r">Start Your FREE Trial</a>
 
                     </div>
-                    <img class="pull-right display-none" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/drop-shipping-mobile.png"
+                    <img class="pull-right display-none" src="{{env('AWS_CLOUD_FRONT')}}/img/images/drop-shipping-mobile.png"
                          alt="personal shopper service in india">
                 </div>
                 <div class="col-md-6 col-xs-12 no-pad ">
-                    <img class="pull-right img-d-s" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/drop-shipping-desktop.png"
+                    <img class="pull-right img-d-s" src="{{env('AWS_CLOUD_FRONT')}}/img/images/drop-shipping-desktop.png"
                          alt="personal shopper service in india">
 
                 </div>
@@ -51,7 +51,7 @@
             <div class="col-md-12 col-xs-12 pad-t-20">
                 <div class="col-md-3 col-xs-6 pad-20">
                     <div class="div-b-w-s">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/div-ship-stores-1.png" alt="" class="img-f-w">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/div-ship-stores-1.png" alt="" class="img-f-w">
                     </div>
                     <div class="col-xs-12 col-md-12 div-b-w-s no-pad">
                         <div class="col-md-6 col-xs-6">
@@ -66,7 +66,7 @@
                 </div>
                 <div class="col-md-3 col-xs-6 pad-20">
                     <div class="div-b-w-s">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/div-ship-stores-2.png" alt="" class="img-f-w">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/div-ship-stores-2.png" alt="" class="img-f-w">
                     </div>
                     <div class="col-xs-12 col-md-12 div-b-w-s no-pad">
                         <div class="col-md-6 col-xs-6">
@@ -81,7 +81,7 @@
                 </div>
                 <div class="col-md-3 col-xs-6 pad-20">
                     <div class="div-b-w-s">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/div-ship-stores-3.png" alt="" class="img-f-w">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/div-ship-stores-3.png" alt="" class="img-f-w">
                     </div>
                     <div class="col-xs-12 col-md-12 div-b-w-s no-pad">
                         <div class="col-md-6 col-xs-6">
@@ -96,7 +96,7 @@
                 </div>
                 <div class="col-md-3 col-xs-6 pad-20">
                     <div class="div-b-w-s">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/div-ship-stores-4.png" alt="" class="img-f-w">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/div-ship-stores-4.png" alt="" class="img-f-w">
                     </div>
                     <div class="col-xs-12 col-md-12 div-b-w-s no-pad">
                         <div class="col-md-6 col-xs-6">
@@ -113,7 +113,7 @@
             <div class="col-md-12 col-xs-12 pad-t-20">
                 <div class="col-md-3 col-xs-6 pad-20">
                     <div class="div-b-w-s">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/div-ship-stores-1.png" alt="" class="img-f-w">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/div-ship-stores-1.png" alt="" class="img-f-w">
                     </div>
                     <div class="col-xs-12 col-md-12 div-b-w-s no-pad">
                         <div class="col-md-6 col-xs-6">
@@ -128,7 +128,7 @@
                 </div>
                 <div class="col-md-3 col-xs-6 pad-20">
                     <div class="div-b-w-s">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/div-ship-stores-2.png" alt="" class="img-f-w">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/div-ship-stores-2.png" alt="" class="img-f-w">
                     </div>
                     <div class="col-xs-12 col-md-12 div-b-w-s no-pad">
                         <div class="col-md-6 col-xs-6">
@@ -143,7 +143,7 @@
                 </div>
                 <div class="col-md-3 col-xs-6 pad-20">
                     <div class="div-b-w-s">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/div-ship-stores-3.png" alt="" class="img-f-w">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/div-ship-stores-3.png" alt="" class="img-f-w">
                     </div>
                     <div class="col-xs-12 col-md-12 div-b-w-s no-pad">
                         <div class="col-md-6 col-xs-6">
@@ -158,7 +158,7 @@
                 </div>
                 <div class="col-md-3 col-xs-6 pad-20">
                     <div class="div-b-w-s">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/div-ship-stores-4.png" alt="" class="img-f-w">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/div-ship-stores-4.png" alt="" class="img-f-w">
                     </div>
                     <div class="col-xs-12 col-md-12 div-b-w-s no-pad">
                         <div class="col-md-6 col-xs-6">
@@ -207,8 +207,8 @@
     </section>
     <section>
         <div class="container-fluid">
-            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/drop-shipping-process-d.png" alt="" class="img-f-w img-d-s">
-            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/drop-shipping-process-m.png" alt="" class="img-f-w img-m-s">
+            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/drop-shipping-process-d.png" alt="" class="img-f-w img-d-s">
+            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/drop-shipping-process-m.png" alt="" class="img-f-w img-m-s">
         </div>
     </section>
     <section class="div-b-f-w">

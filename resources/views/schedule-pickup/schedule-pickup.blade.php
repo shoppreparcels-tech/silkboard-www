@@ -10,7 +10,7 @@
     <meta property="og:title" content="Schedule A Package Pickup with ShoppRe.com"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://www.shoppre.com/schedule-pickup"/>
-    <meta property="og:image" content="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/schedule-pickup-package-in-india.jpg"/>
+    <meta property="og:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-package-in-india.jpg"/>
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="628">
     <meta property="og:image:alt" content="ShoppRe online shipping and international courier from India"/>
@@ -23,7 +23,7 @@
     <meta name="twitter:title" content="Schedule A Package Pickup with ShoppRe.com"/>
     <meta name="twitter:description"
           content="Need to Schedule a package pickup online? Schedule your parcel quickly with ShoppRe from your home or office and we will deliver for you within 3-6 business days."/>
-    <meta name="twitter:image" content="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/schedule-pickup-package-in-india.jpg"/>
+    <meta name="twitter:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-package-in-india.jpg"/>
     <meta name="twitter:image:alt" content="ShoppRe online shipping and international courier from India"/>
     <meta name="twitter:app:country" content="IN"/>
     <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
@@ -152,7 +152,7 @@
             </div>
             <div class="col-md-6 col-xs-12 "><br>
                 <a href="{{route('first-shipment')}}">
-                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/schedule-pickup-courier-from-india-shoppre.png"
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"
                          alt="schedule-pickup-courier-from-india-shoppre" class="img-responsive">
                 </a>
             </div>
@@ -267,7 +267,7 @@
                             <div class="form-group">
                                 <label>Map Location:</label>
                                 <a target="_blank" id="drop-off-location-url">
-                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/map-icon.png" alt="" style="height: 50px;width: 50px">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/map-icon.png" alt="" style="height: 50px;width: 50px">
                                 </a>
                                 <div class="clearfix"></div>
                             </div>

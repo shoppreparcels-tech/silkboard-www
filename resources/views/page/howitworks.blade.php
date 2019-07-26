@@ -58,7 +58,7 @@
 
     <section class="page_head">
         <div class="pagebanner">
-            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/banner1.jpg" width="100%">
+            <img src="{{env('AWS_CLOUD_FRONT')}}/img/banner1.jpg" width="100%">
             <div class="banner-cap">
                 <h2>How <span class="text-orange">SHOPPRE</span> works</h2>
             </div>
@@ -89,7 +89,7 @@
                                 <p>Shoppre takes the worry of International Shipping out of you!</p>
                             </div>
                             <div class="item_img" style="top: 19%;">
-                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/how1.png">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/how1.png">
                             </div>
                             <span class="story-arrow"></span>
                             <span class="h-line"></span>
@@ -108,7 +108,7 @@
                                     shipping discounts!</p>
                             </div>
                             <div class="item_img">
-                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/how2.png">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/how2.png">
                             </div>
                             <span class="story-arrow"></span>
                             <span class="h-line"></span>
@@ -128,7 +128,7 @@
                                     cost to your country.</p>
                             </div>
                             <div class="item_img">
-                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/how3.png">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/how3.png">
                             </div>
                             <span class="story-arrow"></span>
                             <span class="h-line"></span>
@@ -148,7 +148,7 @@
                                     Credit Card!</p>
                             </div>
                             <div class="item_img">
-                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/how4.png">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/how4.png">
                             </div>
                             <span class="story-arrow"></span>
                             <span class="h-line"></span>
@@ -178,7 +178,7 @@
                                         options</a>.</p>
                             </div>
                             <div class="item_img" style="top: 23%;">
-                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/how5.png">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/how5.png">
                             </div>
                             <span class="story-arrow"></span>
                             <span class="h-line"></span>
@@ -203,7 +203,7 @@
                                     to 80%!</p>
                             </div>
                             <div class="item_img right" style="top: 23%;">
-                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/how6.png">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/how6.png">
                             </div>
                             <span class="story-arrow"></span>
                             <span class="h-line"></span>

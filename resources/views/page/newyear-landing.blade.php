@@ -7,7 +7,7 @@
 
 @section('css_style')
     <style>
-        .bg-christmas-landing-page{background-image:url({{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/background_newyear.png);height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.bg-christmas-landing-page .div-snow{padding-top:189px}.bg-christmas-landing-page .div-snow img{position:absolute}.bg-christmas-landing-page .div-newyear{padding-top:155px}.bg-christmas-landing-page .div-newyear img{margin-left:-139px;position:absolute}.textbox-email{width:358px;height:50px;box-shadow:0 1px 2px rgba(0,0,0,.2);border-radius:25px!important;background-color:#fff;border:0;padding-left:9%}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}.christmas-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-360px;padding:20px}.christmas-service .c-image{padding:20px}.christmas-service .shopandship{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#ff7c5b 0,#e8517a 100%)}.christmas-service .ps{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#4df696 0,#50bc70 100%)}.christmas-service .ic{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(229deg,#27cbff 0,#2aa1d5 100%)}.christmas-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.christmas-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.christmas-service .btn-chris-place-order{padding:13px 50px;color:#fff;width:300px;height:50px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:30px;background-color:#e85151}.chris-benefits{padding-top:30px}.chris-benefits ul{text-decoration:none;list-style:none}.chris-benefits ul li{color:#224464;font-family:Bahnschrift;font-size:18px;font-weight:400;text-align:left;padding-top:15px}.chris-benefits ul li img{margin-top:9px}.text-center div{padding-top:20px}.img-new-year{display:none}.chris-benefits .panel{box-shadow:0 2px 10px rgba(0,0,0,.05)!important}.chris-benefits .panel ul li span{margin-left:15px}.leter-space{letter-spacing:1px}#contact-support{padding-bottom:30px}.select-control{float:left;width:90px!important;height:40px!important;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:3px;background-color:#fafafb;border:none}.select2-container--default .select2-selection--single{background-color:#fff!important;border:none!important;border-radius:4px!important;height:40px!important;padding-top:5px!important}.select2-container--default .select2-selection--single .select2-selection__arrow b{margin-top:4px!important}@media only screen and (max-width:600px){.textbox-email{width:330px}.div-snow{display:none}.div-newyear{display:none}.christmas-service{margin-top:-260px}.c-image{display:none}.txt-align{text-align:center}.img-new-year{display:block;width:240px}.chris-benefits ul li{font-size:16px}}
+        .bg-christmas-landing-page{background-image:url({{env('AWS_CLOUD_FRONT')}}/img/images/background_newyear.png);height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.bg-christmas-landing-page .div-snow{padding-top:189px}.bg-christmas-landing-page .div-snow img{position:absolute}.bg-christmas-landing-page .div-newyear{padding-top:155px}.bg-christmas-landing-page .div-newyear img{margin-left:-139px;position:absolute}.textbox-email{width:358px;height:50px;box-shadow:0 1px 2px rgba(0,0,0,.2);border-radius:25px!important;background-color:#fff;border:0;padding-left:9%}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}.christmas-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-360px;padding:20px}.christmas-service .c-image{padding:20px}.christmas-service .shopandship{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#ff7c5b 0,#e8517a 100%)}.christmas-service .ps{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#4df696 0,#50bc70 100%)}.christmas-service .ic{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(229deg,#27cbff 0,#2aa1d5 100%)}.christmas-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.christmas-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.christmas-service .btn-chris-place-order{padding:13px 50px;color:#fff;width:300px;height:50px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:30px;background-color:#e85151}.chris-benefits{padding-top:30px}.chris-benefits ul{text-decoration:none;list-style:none}.chris-benefits ul li{color:#224464;font-family:Bahnschrift;font-size:18px;font-weight:400;text-align:left;padding-top:15px}.chris-benefits ul li img{margin-top:9px}.text-center div{padding-top:20px}.img-new-year{display:none}.chris-benefits .panel{box-shadow:0 2px 10px rgba(0,0,0,.05)!important}.chris-benefits .panel ul li span{margin-left:15px}.leter-space{letter-spacing:1px}#contact-support{padding-bottom:30px}.select-control{float:left;width:90px!important;height:40px!important;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:3px;background-color:#fafafb;border:none}.select2-container--default .select2-selection--single{background-color:#fff!important;border:none!important;border-radius:4px!important;height:40px!important;padding-top:5px!important}.select2-container--default .select2-selection--single .select2-selection__arrow b{margin-top:4px!important}@media only screen and (max-width:600px){.textbox-email{width:330px}.div-snow{display:none}.div-newyear{display:none}.christmas-service{margin-top:-260px}.c-image{display:none}.txt-align{text-align:center}.img-new-year{display:block;width:240px}.chris-benefits ul li{font-size:16px}}
     </style>
 
 @endsection
@@ -15,11 +15,11 @@
     <section class="bg-christmas-landing-page">
         <div class="container no-padding">
            <div class="col-md-2 div-snow">
-               <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/snowman.png" alt="">
+               <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/snowman.png" alt="">
            </div>
            <div class="col-md-8 col-xs-12 no-padding">
                <center>
-                   <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/newyear_image.png" alt="" class="img-new-year">
+                   <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/newyear_image.png" alt="" class="img-new-year">
                    <h18 class="f-s-18 f-c-yellow font-weight-900">Save upto 80% on international shipping + Get an additional 19% for this New Year!</h18>
                    <h1 class="p-color-white header-spacing header1 ">Shop From India, Ship Worldwide </h1>
                    <h2 class="header2 p-color-white header-spacing font-weight-900">Shipping Starts from ₹690/-</h2>
@@ -56,7 +56,7 @@
                </center>
            </div>
             <div class="col-md-2 div-newyear">
-                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/newyear_image.png" alt="">
+                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/newyear_image.png" alt="">
             </div>
         </div>
     </section>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
                     <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/christmas-contact.png" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
                     </a>
                 </div>
             </div>
@@ -133,20 +133,20 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Personal Shopper</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>20-Day Free Storage</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Consolidation</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Repackaging</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personal Shopper</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>20-Day Free Storage</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Consolidation</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Repackaging</span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Scanned Copies for Document-couriers</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Country-discount</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Scanned Copies for Document-couriers</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Country-discount</span></li>
 
                         </ul>
                     </div>
@@ -154,10 +154,10 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Photo Updates</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Wallet Cashback</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Package Return Services</span></li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/chris-circle.png" alt=""><span>Product Recommendations</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Photo Updates</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Wallet Cashback</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Package Return Services</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Product Recommendations</span></li>
                         </ul>
                     </div>
                 </div>
@@ -175,7 +175,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="div-phone">
                         <center>
-                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Didn't find the answer you need? Contact us!</p>
                         </center>
                     </div>
@@ -213,14 +213,14 @@
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 " style="display: none">
                     <div class="div-phone">
                         <center>
-                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                             <p class="header6 p-color-white ">Contact Our <br>Support Team </p>
                         </center>
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10 ">
                     <div class="d-contact-div">
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/phone.svg" id="phone">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/phone.svg" id="phone">
                         <p class="header6 p-color-white " style="margin-left: 51px;margin-top: -36px;">Contact Our <br>Support
                             Team </p>
                     </div>

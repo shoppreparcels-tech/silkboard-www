@@ -11,7 +11,7 @@
     <section class="section_err">
         <div class="container">
             <center>
-                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdnimg/images/404_1.png" alt="">
+                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/404_1.png" alt="">
                 <h6 class="header6 p-color-cement">it looks like youre lost... </h6> <br>
                 <h2 class="header4 p-color-cement">Page you're looking is not found.</h2>
                 <h2 class="header4 p-color-cement">You're always Welcome to explore <a href="{{route('home')}}" class="p-color-blue">ShoppRe! Home</a> </h2>

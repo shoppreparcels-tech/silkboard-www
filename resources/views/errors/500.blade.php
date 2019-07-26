@@ -6,7 +6,7 @@
 
     <section class="page_head">
         <div class="pagebanner">
-            <img src="{{asset('img/banner1.jpg')}}" width="100%">
+            <img src="{{env('AWS_CLOUD_FRONT')}}/img/banner1.jpg" width="100%">
             <div class="banner-cap">
                 <h2>Unexpected <span class="text-orange"> Error</span></h2>
             </div>

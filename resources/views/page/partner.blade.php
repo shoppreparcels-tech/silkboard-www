@@ -6,7 +6,7 @@
 
     <section class="page_head">
         <div class="pagebanner">
-          <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/banner1.jpg" width="100%">
+          <img src="{{env('AWS_CLOUD_FRONT')}}/img/banner1.jpg" width="100%">
           <div class="banner-cap">
             <h2>Become A <span class="text-orange">Partner</span></h2>
           </div>
@@ -17,7 +17,7 @@
         <div class="col-sm-10 col-sm-offset-1">
           <div class="col-md-6">
             <div class="blox">
-              <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/ico1.png">
+              <img src="{{env('AWS_CLOUD_FRONT')}}/img/ico1.png">
               <div class="content">
                 <h3>Grow Your Business</h3>
                 <p>Partner with Shoppre and benefit from global eCommerce growth</p>
@@ -26,7 +26,7 @@
           </div>
           <div class="col-md-6">
             <div class="blox">
-              <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/ico2.png">
+              <img src="{{env('AWS_CLOUD_FRONT')}}/img/ico2.png">
               <div class="content">
                 <h3>Simple Integration</h3>
                 <p>With our tools for success — banners, links & landing pages</p>
@@ -35,7 +35,7 @@
           </div>
           <div class="col-md-6">
             <div class="blox">
-              <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/ico3.png">
+              <img src="{{env('AWS_CLOUD_FRONT')}}/img/ico3.png">
               <div class="content">
                 <h3>Broaden Your Reach</h3>
                 <p>Gain access to global shoppers in 220+ countries</p>
@@ -44,7 +44,7 @@
           </div>
           <div class="col-md-6">
             <div class="blox">
-              <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/ico4.png">
+              <img src="{{env('AWS_CLOUD_FRONT')}}/img/ico4.png">
               <div class="content">
                 <h3>Contact Us</h3>
                 <p>And increase your profits today!</p>

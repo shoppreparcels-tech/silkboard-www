@@ -16,10 +16,10 @@
         <div class="container">
             <div class="col-md-12">
                 <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">
-                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/d-contact-img1.png" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">
                 </a>
                 <a href="tel:+91-8277919191" class="d-contact-img pull-right">
-                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/d-contact-img2.png" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">
                 </a>
             </div>
 

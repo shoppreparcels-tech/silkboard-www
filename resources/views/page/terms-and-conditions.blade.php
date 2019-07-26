@@ -11,7 +11,7 @@
 
     <section class="page_head">
         <div class="pagebanner">
-          <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/banner1.jpg" width="100%">
+          <img src="{{env('AWS_CLOUD_FRONT')}}/img/banner1.jpg" width="100%">
           <div class="banner-cap">
             <h2><span>Our Terms And Conditions</span></h2>
           </div>

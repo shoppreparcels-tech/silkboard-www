@@ -77,7 +77,7 @@
             <center>
                 <p class="header-ifs-p">
                     <a class="bla-1" href="https://www.youtube.com/watch?v=lQi4Io_WH70">
-                        <img class="btn-vid-img" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/btn.svg">
+                        <img class="btn-vid-img" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/btn.svg">
                     </a>
                 </p>
                 <h1 class="header1  p-color-white">ShoppRe Courier</h1>
@@ -199,7 +199,7 @@
                     </div>
                     <div>
                         <center>
-                            <img class="img-responsive img-process" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/pic_up.svg">
+                            <img class="img-responsive img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pic_up.svg">
                             <h2 class="header3 p-color-cement-dark">Schedule a Pickup</h2>
                             <p class="header5 p-color-cement">
                                 After getting your FREE estimate, fill in the order form accordingly and submit it to schedule your pickup.
@@ -217,7 +217,7 @@
                     </div>
                     <div>
                         <center>
-                            <img class="img-responsive  img-process" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/shipments.svg">
+                            <img class="img-responsive  img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shipments.svg">
                             <h2 class="header3 p-color-cement-dark">We’ll Pick It Up</h2>
                             <p class="header5 p-color-cement">
                                 Within 48 hours of you making the request, we’ll come to your doorsteps to pickup your package(s).
@@ -235,7 +235,7 @@
                     </div>
                     <div>
                         <center>
-                            <img class="img-process" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/deliver_package.svg">
+                            <img class="img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/deliver_package.svg">
                             <h2 class="header3 p-color-cement-dark">Dispatch in 24 Hours</h2>
                             <p class="header5 p-color-cement">
                                 We’ll complete the documentation & dispatch your package(s) to one of our courier partners as soon as possible.
@@ -275,12 +275,12 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 div-ifs-google-reviews">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                         <img class="img-responsive img-courier-review-g"
-                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/google-reviews-shipping-service-bengaluru.svg">
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/svg/google-reviews-shipping-service-bengaluru.svg">
                         <p class="header6" style="color: #e85151;">Reviews</p>
                     </div>
 
                     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                        <img class="img-responsive " style="margin-top: 5px;" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/google-rating-shipping-service-bengaluru.png">
+                        <img class="img-responsive " style="margin-top: 5px;" src="{{env('AWS_CLOUD_FRONT')}}/img/images/google-rating-shipping-service-bengaluru.png">
                     </div>
                 </div>
             </a>
@@ -288,13 +288,13 @@
                 <div class="col-lg-5 col-md-5  col-sm-12 col-xs-12">
                     <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-xs-4">
                         <img class="img-responsive img-courier-review-f"
-                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/facebook-reviews-shipping-service.png">
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-reviews-shipping-service.png">
                         <p class="header6" style="color: #507dbc; line-height: 30px">Reviews</p>
                     </div>
 
                     <div class="col-lg-7 col-md-7 col-sm-8 col-xs-8">
                         <img class="img-responsive img-facebook-r" style="margin-top: -15px;"
-                             src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/facebook-rating-shipping-service.png">
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-rating-shipping-service.png">
                     </div>
                 </div>
             </a>
@@ -311,8 +311,8 @@
                 </h1>
             </center>
             <div class="col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ics-box-packing.png" alt="" id="packing">
-                <img class="img-responsive" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ics-box-packed.png" alt="" id="packed" style="display: none">
+                <img class="img-responsive" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-box-packing.png" alt="" id="packing">
+                <img class="img-responsive" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-box-packed.png" alt="" id="packed" style="display: none">
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 " style="padding-top: 50px">
                 <div class="row no-padding">
@@ -326,21 +326,21 @@
                 <div class=" col-md-12 col-xs-12 div-ics-prodcts">
                     <div class="col-md-6 col-xs-6 no-padding">
                         <ul>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/Ellipse.svg" alt="">Medicine</li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/Ellipse.svg" alt=""> Documents</li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/Ellipse.svg" alt=""> Sports Equipment</li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/Ellipse.svg" alt=""> Homemade foods</li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/Ellipse.svg" alt=""> Artwork</li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/Ellipse.svg" alt=""> Artificial Jewellery</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Medicine</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Documents</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Sports Equipment</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Homemade foods</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Artwork</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt=""> Artificial Jewellery</li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-xs-6 no-padding">
                         <ul style="text-decoration: none; list-style: none">
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/Ellipse.svg" alt="">Corporate Gifts</li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/Ellipse.svg" alt="">Children's Toys</li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/Ellipse.svg" alt="">Handicraft </li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/Ellipse.svg" alt="">Mobile/Cell Phones</li>
-                            <li><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/Ellipse.svg" alt="">Religious Items</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Corporate Gifts</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Children's Toys</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Handicraft </li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Mobile/Cell Phones</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" alt="">Religious Items</li>
                             <li>& Many More Products</li>
                         </ul>
                     </div>
@@ -360,7 +360,7 @@
                 <br/>
                 <div class="col-sm-3">
                     <div class="panel "><br>
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/d-step3.svg" style="height: 70px" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" style="height: 70px" alt="">
                         <h1 class="header5 p-color-cement">Door-to-Door Delivery</h1>
                         <br/>
 
@@ -369,7 +369,7 @@
                 <div class="col-sm-3">
                     <div class="panel ">
                         <br>
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/save80.svg" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" alt="">
                         <br/>
                         <h1 class="header5 p-color-cement">Country-specific Discount</h1>
                         <br>
@@ -378,7 +378,7 @@
                 <div class="col-sm-3">
                     <div class="panel">
                         <br/>
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/support24.svg" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/support24.svg" alt="">
                         <br/>
                         <h1 class="header5 p-color-cement">24/7 Support</h1>
                         <br>
@@ -387,7 +387,7 @@
                 <div class="col-sm-3">
                     <div class="panel">
                         <br/>
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/ics-time.svg" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ics-time.svg" alt="">
                         <br/>
                         <h1 class="header5 p-color-cement">24-hour Dispatch</h1>
 
@@ -401,7 +401,7 @@
     <section>
         <div class="container">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive img-shipments" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/back.png">
+                <img class="img-responsive img-shipments" src="{{env('AWS_CLOUD_FRONT')}}/img/images/back.png">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="header1 p-color-cement-dark p-seller">Are you an ambitious Seller?

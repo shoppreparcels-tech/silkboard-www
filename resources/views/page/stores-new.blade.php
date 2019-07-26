@@ -108,7 +108,7 @@
                 <div class="col-sm-4 padding-top-bottom-100">
                     <div class=" img-rounded">
                         <p class="p-color-cement padding-bottom-15" style="font-weight: 900">STEP 1</p>
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/d-step1.svg" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step1.svg" alt="">
                         <h4>Your FREE Shipping Address</h4>
                         <p class="description-p  p-color-cement">#181, 2nd Cross Rd,7th Main, Koramangala<br>
                             1st Block, Bengaluru-560034,<br>
@@ -117,7 +117,7 @@
                     </div>
                     <div class=" img-rounded" style="display: none">
                         <p class="p-color-cement padding-bottom-15" style="font-weight: 900">STEP 1</p>
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/d-step1.svg" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step1.svg" alt="">
                         <h4>Get a FREE Virtual Address</h4>
                         <p class="description-p  p-color-cement">Sign up to get a FREE virtual address along with a
                             personal
@@ -129,7 +129,7 @@
                 <div class="col-sm-4 border-bottom-red padding-top-bottom-100 ">
                     <div class="img-rounded">
                         <p class=" p-color-cement padding-bottom-15">STEP 2</p>
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/d-step2.svg" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step2.svg" alt="">
                         <h4>Shop Around</h4>
                         <p class=" description-p  p-color-cement">Purchase from 1000+ online stores
                             and add virtual locker address as delivery address
@@ -139,7 +139,7 @@
                 <div class="col-sm-4 padding-top-bottom-100 " id="mobile-step2">
                     <div class="img-rounded">
                         <p class=" p-color-cement padding-bottom-15">STEP 2</p>
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/d-step2.svg" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step2.svg" alt="">
                         <h4>Shop Around</h4>
                         <p class=" description-p  p-color-cement">Purchase from 1000+ online stores
                             and add virtual locker address as delivery address
@@ -149,7 +149,7 @@
                 <div class="col-sm-4 padding-top-bottom-100 no-border-inmobile">
                     <div class=" img-rounded">
                         <p class=" p-color-cement padding-bottom-15" style="font-weight: 900">STEP 3</p>
-                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/d-step3.svg" alt="">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" alt="">
                         <h4>@ Your Doorsteps</h4>
                         <p class="  description-p p-color-cement">
                             We will ship your products from you your doorsteps in

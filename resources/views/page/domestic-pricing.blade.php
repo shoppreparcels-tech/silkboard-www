@@ -161,7 +161,7 @@
                         <br>
                         <center>
                             <a href="{{route('customer.register')}}">
-                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/schedule-pickup-courier-from-india-shoppre.png"
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"
                                      alt="schedule-pickup-courier-from-india-shoppre" class="img-responsive">
                             </a>
                         </center>
@@ -342,13 +342,13 @@
                         </div>
                         <div class="col-md-12 col-xs-12 no-pad">
                             <center>
-                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/c-box.png" class="img-responsive" alt="">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/c-box.png" class="img-responsive" alt="">
                             </center>
                         </div>
 
                         <div class="col-md-12 col-xs-12 no-pad"><br>
                             <center>
-                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/measurement.png" class="img-responsive" alt="">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/measurement.png" class="img-responsive" alt="">
                             </center>
                         </div>
                     </div>
@@ -397,7 +397,7 @@
                                             <h14 class="f-s-18 f-c-d-greay">Features</h14>
                                         </th>
                                         <th class="col-md-4 col-xs-5 no-pad">
-                                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/m-premium.png" style="width: 100%" class=""
+                                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/m-premium.png" style="width: 100%" class=""
                                                  alt=""> <br>
                                         </th>
                                         <th class="col-md-4 col-xs-5 no-pad">
@@ -731,7 +731,7 @@
                                             <h14 class="f-s-18 f-c-d-greay">Features</h14>
                                         </th>
                                         <th class="col-md-4 col-xs-5 no-pad">
-                                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/m-premium.png" style="width: 100%" class=""
+                                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/m-premium.png" style="width: 100%" class=""
                                                  alt=""> <br>
                                         </th>
                                         <th class="col-md-4 col-xs-5 no-pad">

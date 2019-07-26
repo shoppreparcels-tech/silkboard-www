@@ -137,7 +137,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-4">
-                                <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/campaigns/{{$campaign->image}}" width="180" height="180" alt="">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/campaigns/{{$campaign->image}}" width="180" height="180" alt="">
                             </div>
                         </div>
 

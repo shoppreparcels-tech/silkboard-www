@@ -189,7 +189,7 @@
                                     <h3>{{$customer->name}}</h3>
                                     <i>{{$customer->email}}</i>
                                     <span>
-                                        <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/profile.png">
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/profile.png">
                                     </span>
                                 </div>
                                 <h4>{{$customer->locker}}</h4>

@@ -28,7 +28,7 @@
     <section>
         <div class="container" style="margin-top: 62px;">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img class="img-responsive img-shipments" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/ics-tailor.png">
+                <img class="img-responsive img-shipments" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-tailor.png">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="f-s-24 font-weight-900 f-c-d-greay">Are you a Seller or an young Entrepreneur or an upcoming organization
@@ -202,7 +202,7 @@
                                 <h6 class="advertisement-text">Exciting Offers</h6>
                                 <div class="col-md-12 col-xs-12 no-pad" >
                                     <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20ShoppRe%20Team;%20I'm%20Seller%20Need%20Information%20On%20Pricing" target="_blank" title="Click To Message Us on WhatsApp">
-                                        <img style="width: 300px; height: auto; margin-bottom: 20px" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/seller-and-ecommerce-partnership-shipping-courier.png">
+                                        <img style="width: 300px; height: auto; margin-bottom: 20px" src="{{env('AWS_CLOUD_FRONT')}}/img/images/seller-and-ecommerce-partnership-shipping-courier.png">
                                     </a>
 
                                 </div>

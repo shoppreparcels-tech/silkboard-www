@@ -60,7 +60,7 @@
             <div class="row text-center">
                 <div class="col-sm-12 col-xs-12 col-md-4">
                     <div class="shopandship onam-prod-pic" >
-                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/pattu-pavadai-girls-onam-dress.png" alt="signup shoppre" >
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/pattu-pavadai-girls-onam-dress.png" alt="signup shoppre" >
                         <div class="no-pad Rakhi-mid-div mar-t-10">
                             Pattu Pavadai
                         </div>
@@ -74,7 +74,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="shopandship onam-prod-pic" >
-                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/women-cotton-saree-with-blouse-kerala-saree-for-onam.png" alt="signup shoppre" >
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/women-cotton-saree-with-blouse-kerala-saree-for-onam.png" alt="signup shoppre" >
                         <div class="no-pad Rakhi-mid-div mar-t-10">
                             Kerala Kasavu Sarees
                         </div>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="shopandship onam-prod-pic" >
-                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/balaramapurami-unakkupaavu-handloom-women-saree-kerala.png" alt="signup shoppre" >
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/balaramapurami-unakkupaavu-handloom-women-saree-kerala.png" alt="signup shoppre" >
                         <div class="no-pad Rakhi-mid-div mar-t-10">
                             Balaramapuram Saree
                         </div>
@@ -102,7 +102,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="shopandship onam-prod-pic" >
-                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/black-kara-double-mundu-kerala-traditional-dress-for-men.png" alt="signup shoppre" >
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/black-kara-double-mundu-kerala-traditional-dress-for-men.png" alt="signup shoppre" >
                         <div class="no-pad Rakhi-mid-div mar-t-10">
                             Black Kara Double Mundu
                         </div>
@@ -116,7 +116,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="shopandship onam-prod-pic" >
-                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/onapudava-off-white-dhoti-kasavu-for-men-kerala.png" alt="signup shoppre" >
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/onapudava-off-white-dhoti-kasavu-for-men-kerala.png" alt="signup shoppre" >
                         <div class="no-pad Rakhi-mid-div mar-t-10">
                             Golden Double Dothi
                         </div>
@@ -130,7 +130,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="shopandship onam-prod-pic" >
-                            <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/kerala-indian-state-onam-fancy-dress-costume-for-boys.png" alt="signup shoppre" >
+                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/kerala-indian-state-onam-fancy-dress-costume-for-boys.png" alt="signup shoppre" >
                         <div class="no-pad Rakhi-mid-div mar-t-10">
                             Aranmula Kannadi
                         </div>

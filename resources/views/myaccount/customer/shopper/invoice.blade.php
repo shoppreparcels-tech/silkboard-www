@@ -93,7 +93,7 @@
                     <table>
                         <tr>
                             <td class="title">
-                                <img src="{{asset('img/logo.png')}}" style="width:100%; max-width:200px;">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/logo.png" style="width:100%; max-width:200px;">
                             </td>
                             <td style="text-align:right;">
                                 Order Number : {{$order->reference_number}}<br>

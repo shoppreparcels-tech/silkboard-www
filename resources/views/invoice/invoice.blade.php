@@ -28,7 +28,7 @@
 
   <div id="customer">
 
-     <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/logo.png" style="width: 212px;margin-left: 11px;" alt="Shoppre.com">
+     <img src="{{env('AWS_CLOUD_FRONT')}}/img/logo.png" style="width: 212px;margin-left: 11px;" alt="Shoppre.com">
 
   </div>
   <table id="items">

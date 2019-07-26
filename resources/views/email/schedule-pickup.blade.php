@@ -33,7 +33,7 @@
                                 valign="top" align="center">
                                 <a href="https://www.shoppre.com"
                                    style="box-sizing: border-box; color: #4173A9; text-decoration: none;"><img
-                                            src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/logo.png" height="50" alt="Shoppre"
+                                            src="{{env('AWS_CLOUD_FRONT')}}/img/logo.png" height="50" alt="Shoppre"
                                             style="-ms-interpolation-mode: bicubic; max-width: 100%;"></a>
                             </td>
                         </tr>

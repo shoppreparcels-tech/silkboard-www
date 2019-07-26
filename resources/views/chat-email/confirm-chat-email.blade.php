@@ -12,7 +12,7 @@
         <div class="container schedule-container">
             <div class="tab-pane" role="tabpanel" id="complete">
                 <div class="img_align">
-                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/success1.png" class="img_size" alt="">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/success1.png" class="img_size" alt="">
                     <h3>Email Sent Successfully.</h3>
                     <a href="{{route('home')}}" class="btn btn-primary btn-info-full next-step3">
                         Go To Home

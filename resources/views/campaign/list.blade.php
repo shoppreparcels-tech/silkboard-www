@@ -64,7 +64,7 @@
                                 <td>{{$campaign->coupon_code}}</td>
                                 <td>{{$campaign->begin_date}}</td>
                                 <td>{{$campaign->end_date}}</td>
-                                <td><img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/campaigns/{{$campaign->image}}" width="100" height="100" alt=""></td>
+                                <td><img src="{{env('AWS_CLOUD_FRONT')}}/img/campaigns/{{$campaign->image}}" width="100" height="100" alt=""></td>
                                 <td><a href="https://pulse.shoppre.com/dashboard/322?id={{$campaign->id}}" target="_blank" class="btn btn-shoppre">View</a></td>
                                 <td><a href="https://pulse.shoppre.com/dashboard/322?id={{$campaign->github_issue_id}}" target="_blank" class="btn btn-shoppre">View</a></td>
                                 <td><a href="{{route('campaignEdit',['id'=>$campaign->id])}}" class="btn btn-shoppre">Edit</a></td>
