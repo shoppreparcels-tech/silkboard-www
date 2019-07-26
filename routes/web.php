@@ -654,7 +654,7 @@ Route::get('/jaypore-international-shipping-from-india', 'PageController@jaypore
 Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
 Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
 Route::get('/send-rakhi-gifts-online-worldwide-at-cheap-rates', 'PageController@rakhiGift')->name('send-rakhi-gifts-online-worldwide-at-cheap-rates');
-Route::get('/send-onam-courier-from-india', 'PageController@onamGift')->name('onam-gifts');
+Route::get('/kerala-onam-online-shopping-guide-from-india', 'PageController@onamGift')->name('onam-gifts');
 Route::get('/myntra-international-shipping-to-usa', 'PageController@myntraUsa')->name('myntra-usa');
 Route::get('/flipkart-usa-shopping', 'PageController@flipkartUsa')->name('flipkart-usa');
 Route::get('/jabong-usa-shipping-from-india', 'PageController@jabongUsa')->name('jabong-usa');

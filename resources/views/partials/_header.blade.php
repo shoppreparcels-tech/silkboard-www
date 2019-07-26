@@ -29,8 +29,8 @@
                     </ul>
                 </div>
                 <a class="navbar-brand" href="{{route('home')}}">
-                    <img id="logo-desktop" class="logo" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/images/logo@2x.png" alt="ShoppRe">
-                    <img  id="logo-mobile" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/logo94.png" alt="ShoppRe">
+                    <img id="logo-desktop" class="logo" src="{{env('AWS_CLOUD_FRONT')}}/img/images/shoppre-logo.png" alt="ShoppRe">
+                    <img  id="logo-mobile" src="{{env('AWS_CLOUD_FRONT')}}/img/logo94.png" alt="ShoppRe">
                 </a>
             </div>
 
@@ -58,22 +58,22 @@
                                             <a class="footer-a"
                                                href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw">
                                                 <img class="img-connect"
-                                                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/shoppre-youtube-video.svg"
+                                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-youtube-video.svg"
                                                      alt="shoppre youtube video">
                                             </a>
                                             <a class="footer-a" href="https://www.facebook.com/goshoppre/">
                                                 <img class="img-connect"
-                                                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/go-shoppre-faceboook.svg"
+                                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/go-shoppre-faceboook.svg"
                                                      alt="goshoppre facebook">
                                             </a>
                                             <a class="footer-a" href="https://twitter.com/Go_Shoppre">
-                                                <img class="img-connect" src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/shoppre-twitter.svg"
+                                                <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-twitter.svg"
                                                      alt="@Go_Shoppre twitter">
                                             </a>
                                             <a class="footer-a"
                                                href="https://www.instagram.com/shoppre_official/?hl=en">
                                                 <img class="img-connect"
-                                                     src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/shoppre-instagram.svg"
+                                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-instagram.svg"
                                                      alt="shoppre_officia instagram">
                                             </a>
                                         </li>
@@ -195,7 +195,7 @@
                                         <a href="/seller-partner" class="mega-menu-hyperlinks" target="_blank">Know More</a>
                                     </div>
 
-                                    <img src="{{env('CDN_IMAGE_URL')}}/shoppre.com/cdn/img/svg/ic_plane.svg" alt="">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ic_plane.svg" alt="">
                                 </ul>
                             </li>
                         </ul>
