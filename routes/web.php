@@ -660,6 +660,7 @@ Route::get('/flipkart-usa-shopping', 'PageController@flipkartUsa')->name('flipka
 Route::get('/jabong-usa-shipping-from-india', 'PageController@jabongUsa')->name('jabong-usa');
 Route::get('/trends-ajio-usa-shipping-from-india', 'PageController@ajioUsa')->name('ajio-usa');
 Route::get('/shop-from-amazon-india-and-ship-to-usa', 'PageController@amznUsa')->name('amzn-usa');
+Route::get('/jaypore-shopping-usa', 'PageController@jayporeUsa')->name('jaypore-usa');
 Route::get('/best-international-relocation-packers-movers', 'PageController@packers')->name('packers-movers');
 Route::get('/international-shipping-gift-cards-vouchers', 'PageController@voucher')->name('voucher');
 Route::get('/medicine-international-courier-from-india', 'PageController@medicine')->name('medicine');

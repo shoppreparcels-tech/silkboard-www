@@ -48,7 +48,7 @@
 <url>
     <loc>https://www.shoppre.com/first-time-international-shipment-offer</loc>
     <changefreq>daily</changefreq>
-    <priority>0.90</priority>
+    <priority>0.80</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/best-international-relocation-packers-movers</loc>
@@ -151,6 +151,11 @@
     <priority>0.80</priority>
 </url>
 <url>
+    <loc>https://www.shoppre.com/kerala-onam-online-shopping-guide-from-india</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+</url>
+<url>
     <loc>https://www.shoppre.com/month-end-offer-shipping-worldwide</loc>
     <changefreq>daily</changefreq>
 <priority>0.70</priority>
@@ -179,6 +184,11 @@
     <loc>https://www.shoppre.com/jaypore-international-shipping-from-india</loc>
     <changefreq>daily</changefreq>
     <priority>0.60</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/jaypore-shopping-usa</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/indian-virtual-address</loc>

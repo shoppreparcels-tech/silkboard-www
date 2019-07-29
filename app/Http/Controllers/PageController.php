@@ -459,6 +459,10 @@ class PageController extends Controller
     {
         return view('page.amzn-usa');
     }
+    public function jayporeUsa()
+    {
+        return view('page.jaypore-usa');
+    }
     public function onamGift()
     {
         return view('page.onam-gifts');

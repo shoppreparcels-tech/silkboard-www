@@ -1,11 +1,10 @@
 @extends('layout')
 
-@section('title', 'Onam Courier from India | USA, Canada, Australia')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'Onam Shopping Kerala Saree Online and Ethnic Wear for Men, Kids')
+@section('description', 'Kerala Onam online shopping ethnic wear for Women Saree, Men Dhoti, Kids Pattu Pavadai. Shop in India and get amazing discounts on Shipping Worldwide')
+@section('keywords', 'onam saree online, kerala kasavu saree, balaramapuram kaithari, men wear')
 
 @section('css_style')
-
     <link rel="canonical" href="https://www.shoppre.com/kerala-onam-online-shopping-guide-from-india" />
 
     <style>
@@ -32,7 +31,7 @@
                    <br>
                    <br>
                    <br>
-                   <p class="f-s-10 f-c-l-gray f-w-8">From 1st September to 13th September 2019</p>
+                   <p class="f-s-15 f-c-l-gray f-w-8">From 1st September to 13th September 2019</p>
 
                </center>
            </div>
@@ -46,7 +45,7 @@
         <div class="container fst-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Onam Gifts, Dress. Send Love through ShoppRe.</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Onam Sarees, Dress, Gifts & Send Love through ShoppRe.com</h2>
                 </div>
                 <div class="col-md-4 col-xs-12">
                     <div class="">
@@ -65,7 +64,7 @@
                             Pattu Pavadai
                         </div>
                         <div class="check-price-padd">
-                            <a href="#" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="http://www.malabarshopping.com/kids-collections/check-pattu-pavadai" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-f-w btn-h-40">Check Price</button>
                                 </span>
                             </a>
@@ -79,7 +78,7 @@
                             Kerala Kasavu Sarees
                         </div>
                         <div class="check-price-padd">
-                            <a href="#" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.mirraw.com/store/kerala-sarees" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-f-w btn-h-40">Check Price</button>
                                 </span>
                             </a>
@@ -93,7 +92,7 @@
                             Balaramapuram Saree
                         </div>
                         <div class="check-price-padd">
-                            <a href="#" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.amazon.in/s?k=balaramapuram+saree&i=apparel&ref=nb_sb_noss" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-f-w btn-h-40">Check Price</button>
                                 </span>
                             </a>
@@ -107,7 +106,7 @@
                             Black Kara Double Mundu
                         </div>
                         <div class="check-price-padd">
-                            <a href="#" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://keralaspecial.in/product/black-kara-double-mundu/" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-f-w btn-h-40">Check Price</button>
                                 </span>
                             </a>
@@ -121,7 +120,7 @@
                             Golden Double Dothi
                         </div>
                         <div class="check-price-padd">
-                            <a href="#" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://onapudava.com/collections/dhothi/products/dhothi-hd214" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-f-w btn-h-40">Check Price</button>
                                 </span>
                             </a>
@@ -132,10 +131,10 @@
                     <div class="shopandship onam-prod-pic" >
                             <img src="{{asset('img/images/kerala-indian-state-onam-fancy-dress-costume-for-boys.png')}}" alt="signup shoppre" >
                         <div class="no-pad Rakhi-mid-div mar-t-10">
-                            Aranmula Kannadi
+                            Onam Dress For Boys
                         </div>
                         <div class="check-price-padd">
-                            <a href="#" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.hopscotch.in/product/680445/BookMyCostume--Kerala-Indian-State-Onam-Fancy-Dress-Costume-For-Boys-" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-f-w btn-h-40">Check Price</button>
                                 </span>
                             </a>
@@ -170,7 +169,7 @@
                         <a href="#How_to_shop"> <h4 class="f-s-18 f-c-gray f-w-9">How to shop for Onam from abroad?</h4></a>
                     </li>
                     <li>
-                        <a href="#How_to_save">  <h4 class="f-s-18 f-c-gray f-w-9">How to save some extra cash on shopping for Onam?</h4></a>
+                        <a href="#How_to_save">  <h4 class="f-s-18 f-c-gray f-w-9" >How to save some extra cash on shopping for Onam?</h4></a>
                     </li>
                     <li>
                         <a href="#What_to_purchase"> <h4 class="f-s-18 f-c-gray f-w-9">What to purchase for your daughter for Onam?</h4></a>
