@@ -269,12 +269,14 @@
 
                     </div>
 
-                    {{--<div>--}}
-                    {{--<marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">--}}
-                        {{--<p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>--}}
-                            {{--Live : 👉<a class="f-c-white" style="text-decoration: underline" href="https://www.myntra.com/" target="_blank">Myntra.com BLOCKBUSTER Sale 18-21 July</a> </p>--}}
-                    {{--</marquee>--}}
-                    {{--</div>--}}
+                    <div>
+                    <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
+                        <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
+                        Phoolo ka taaro ka sabka kehna hai, ek hazaro me meri behna hai… this song holds the true meaning of <span class="p-color-red" style="font-size: 14px">रक्षाबंधन का त्यौहार</span>,
+                            so send your Rakhi with us 👉 <a href="http://bit.ly/courier-rakhis" target="_blank">http://bit.ly/courier-rakhis</a></p>
+                    </marquee>
+                        </p>
+                    </div>
                 </div>
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
@@ -389,24 +391,24 @@
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Amazon.in</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from wide selection of designer, premium, gold, silver and kids’ Rakhis. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from wide selection of designer, premium and kids’ Rakhis online. </p>
                         </div>
 
                     </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.myntra.com/myntra-fashion-store" title="Click for Offer Details" target="_blank">
+                        <a href="https://www.flipkart.com/rakhi-gifts-store" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div"><h4 class="cord-header-size f-c-white">BIG CLEARANCE SALE</h4></div>
+                            <div class="h-div"><h4 class="cord-header-size f-c-white">रक्षाबंधन का त्यौहार</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">50-80% Off</span> | 27th - 30th July</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Under ₹149/-</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Myntra.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Flipkart.com</p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop for Tops, Dresses, Kurtas, Sarees, Jeans, Headphones. Explore More!</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Buy Kids, Rudrakash, Religious, Bracelet, Religious, Lumba, Bhaiya Bhabhi Rakhis</p>
                         </div>
 
                     </div>

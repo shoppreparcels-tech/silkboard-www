@@ -2,7 +2,7 @@
 
 @section('title', 'Best Shopping International Shipping from India | Personal Shopper')
 @section('description', 'Shopping now made easy with ShoppRe personal shopper. Hire one of our experts to shop for you and get shipped your packages doorstep worldwide. Sign Up today!')
-@section('keywords', 'nri shopping, personal shopper, virtual shipping address, online shopping from usa to india')
+@section('keywords', 'personal shopper, virtual shipping address, online shopping from usa to india')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/personal-shopper-online-shopping-from-india-shipping" />
@@ -18,7 +18,7 @@
 @section('content')
     <section class="div-b-l-w pad-20" >
        <div class="container pad-t-20">
-           <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad ">
+           <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad " style="margin-top: 25px;">
                <div class="col-xs-12 col-md-12 no-pad">
                    <iframe class="vid-h-w" id="video" src="https://www.youtube.com/embed/q5R63gFUREk" frameborder="0"
                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -30,17 +30,17 @@
                <h1 class="f-s-26 f-c-d-greay f-w-9">How Relevant Is Our Personal Shopper?</h1>
                <h1 class="f-s-22 f-c-d-greay"> While the market happens to be the whole world, shopping also becomes a more-than-one-person job</h1>
                <div class="col-md-12 col-xs-12 no-pad">
-                   <form action="" method="post" id="vidPs">
+                   {{--<form action="" method="post" id="vidPs">--}}
                        <div class="col-md-4 col-xs-12 pad-r-10 pad-b-20"><br>
-                           <input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="Name" name="name">
-                           <div><br></div>
-                           <input id="phone" name="phone" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off"> <br/>
-                           <input type="Email" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="jhon@email.com" name="email">
-                           <div class="col-xs-12 col-md-12 pad-t-20">
-                               <button type='submit' class="btn btn-s-r btn-b-r btn-l">Sign up FREE</button>
+                           {{--<input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="Name" name="name">--}}
+                           {{--<div><br></div>--}}
+                           {{--<input id="phone" name="phone" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off"> <br/>--}}
+                           {{--<input type="Email" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="jhon@email.com" name="email">--}}
+                           {{--<div class="col-xs-12 col-md-12 pad-t-20">--}}
+                               <a href="/customer/register" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Sign up for FREE</a>
                            </div>
                        </div>
-                   </form>
+                   {{--</form>--}}
                </div>
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">
                    Personal Shopper - the phrase indicates a person who'd run around the shops & do the shopping for you; either standing by your side

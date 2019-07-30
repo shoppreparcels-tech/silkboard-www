@@ -18,7 +18,7 @@
 @section('content')
     <section class="div-b-l-w pad-20" >
        <div class="container pad-t-20">
-           <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad ">
+           <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad " style="margin-top: 25px;">
                <div class="col-xs-12 col-md-12 no-pad">
                    <iframe class="vid-h-w" id="video" src="https://www.youtube.com/embed/eFop4beZmOk" frameborder="0"
                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -115,7 +115,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/chris-circle.png" alt=""><span>Affordable Rates</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/chris-circle.png" alt=""><span>Document Couriers</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/chris-circle.png" alt=""><span>Country-specific</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/chris-circle.png" alt=""><span>Country-specific Discount</span></li>
 
                         </ul>
                     </div>

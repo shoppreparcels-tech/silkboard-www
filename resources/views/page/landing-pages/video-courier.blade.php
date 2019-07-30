@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'The best & affordable international courier services in India')
-@section('description', 'Ship your items from Anywhere in India to Worldwide. The cheapest and best way to send parcels overseas. Schedule Courier Pickup Online | Watch Video')
-@section('keywords', 'courier india to usa, sending parcel from india, international courier')
+@section('title', 'Best and Affordable ShoppRe Courier - THE ONE TO BEAT')
+@section('description', 'Ship your items from Anywhere in India to Anywhere Worldwide. The best and affordable way to send parcels overseas. Schedule Courier Pickup online today!')
+@section('keywords', 'courier charges, send parcels overseas, international courier services')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/best-affordable-international-courier-services-in-india" />
@@ -18,7 +18,7 @@
 @section('content')
     <section class="div-b-l-w pad-20" >
        <div class="container pad-t-20">
-           <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad ">
+           <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad " style="margin-top: 25px;">
                <div class="col-xs-12 col-md-12 no-pad">
                    <iframe class="vid-h-w" id="video" src="https://www.youtube.com/embed/lQi4Io_WH70" frameborder="0"
                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -28,21 +28,21 @@
            </div>
            <div class="col-md-12 col-xs-12">
                <h1 class="f-s-22 f-c-d-greay">Schedule Pickup: Ship your items from Anywhere in India to Worldwide</h1>
-               <h1 class="f-s-30 f-c-d-greay f-w-9">ShoppRe Courier - the one to beat</h1>
-               <p class="f-s-18 f-c-d-greay f-w-6">Among ShoppRe’s top-notch logistics solutions, ShoppRe Courier is growing up to be one of the best &
+               <h1 class="f-s-30 f-c-d-greay f-w-9">ShoppRe Courier - THE ONE TO BEAT</h1>
+               <p class="f-s-18 f-c-d-greay f-w-6">Among ShoppRe’s top-notch logistics solutions, ShoppRe Courier is growing up to be one of the best and
                    affordable international courier services in india.</p>
                <div class="col-md-12 col-xs-12 no-pad">
-                   <form action="" method="post" id="vidCourier">
-                       <div class="col-md-4 col-xs-12 pad-r-10 pad-b-20"><br>
-                           <input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="Name" name="name">
-                           <div><br></div>
-                           <input id="phone" name="phone" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off"> <br/>
-                           <input type="Email" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="jhon@email.com" name="email">
-                           <div class="col-xs-12 col-md-12 pad-t-20">
-                               <button type='submit' class="btn btn-s-r btn-b-r btn-l">Sign up FREE</button>
-                           </div>
-                       </div>
-                   </form>
+                   {{--<form action="" method="post" id="vidCourier">--}}
+                       {{--<div class="col-md-4 col-xs-12 pad-r-10 pad-b-20"><br>--}}
+                           {{--<input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="Name" name="name">--}}
+                           {{--<div><br></div>--}}
+                           {{--<input id="phone" name="phone" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off"> <br/>--}}
+                           {{--<input type="Email" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="jhon@email.com" name="email">--}}
+                           {{--<div class="col-xs-12 col-md-12 pad-t-20">--}}
+                               {{--<button type='submit' class="btn btn-s-r btn-b-r btn-l">Sign up FREE</button>--}}
+                           {{--</div>--}}
+                       {{--</div>--}}
+                   {{--</form>--}}
                </div>
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">
                    Indians are a traditional bunch and they always make it a point to follow tradition at the least in cultural/ethnic celebrations.
@@ -56,27 +56,27 @@
                </p>
                <h1 class="f-s-18 f-c-d-greay f-w-8 txt-a-l">To book our courier services, all you have to do is;</h1>
                <ul>
-                   <li>1. <a href="/schedule-pickup">Schedule a Pickup</a> from ANYWHERE in India; our experts will come to your door to pick it up,</li>
+                   <li>1. <a href="/schedule-pickup">Schedule your package Pickup</a> from ANYWHERE in India; our experts will come to your door to pick it up,</li>
                    <li>2. We jump through hoops to dispatch your package off to your destination in just 48 hours,</li>
                    <li>3. One of our efficient & appropriate courier partners will get the package to its destination in just 3-6 days, ANYWHERE in the world,</li>
 
                </ul>
-               <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">thus making us the most cheap & reliable international courier of all.</p>
+               <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">thus making us the most cheap and reliable international courier of all.</p>
                <h1 class="f-s-18 f-c-d-greay f-w-8 txt-a-l">What else do we offer?</h1>
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">Our broad range of services are categorized into three. Apart from ShoppRe Courier, we also have;</p>
                <ul>
-                   <li>Shop & Ship - for effortless online shopping with international shipping options.</li>
-                   <li>Personal Shopper - services including doing the shopping for you & forwarding your purchases as a whole.</li>
+                   <li>A. Shop & Ship - for effortless online shopping with international shipping options.</li>
+                   <li>B. Personal Shopper - services including doing the shopping for you & forwarding your purchases as a whole.</li>
 
                </ul>
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">
                    In a nutshell, International shipping from India has never been more dependable & smoother!
                </p>
                <br>
-               <h1 class="f-s-24 f-c-d-greay f-w-8 txt-a-l">Frequently Asked Questions:</h1>
+               <h1 class="f-s-22 f-c-d-greay f-w-8 txt-a-l">Frequently Asked Questions:</h1>
                <h1 class="f-s-18 f-c-d-greay f-w-8 txt-a-l">What do you charge for a courier from India to USA per kg.?</h1>
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">
-                   Our international courier charges start from just Rs.690/-. Check out our <a href="{{route('pricing')}}">Shipping Calculator</a> for a FREE estimate on your particular courier needs.
+                   Our international courier charges to the USA start from just Rs.1449/-. Check out our <a href="{{route('pricing')}}">Shipping Calculator</a> for a FREE estimate on your particular courier needs.
                </p>
 
                <h1 class="f-s-18 f-c-d-greay f-w-8 txt-a-l">How to send a courier from India to Abu Dhabi?</h1>
