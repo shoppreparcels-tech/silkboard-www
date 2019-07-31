@@ -39,7 +39,7 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - JULY 2019 Sales</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - AUGUST 2019 Sales</h2>
                 </div>
             </div>
             <div class="row text-center">

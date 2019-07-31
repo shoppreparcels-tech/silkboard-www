@@ -62,8 +62,8 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="https://www.myntra.com/" title="Myntra" target="_blank">1. Myntra 👉Big Clearance Sale(50-80% Off) </a> |
-                            <a href="https://clnk.in/i19o" title="ajio.com" target="_blank">2. Ajio.com 👉Big Bag Days(40-80% Off)</a> |
+                            <a href="https://www.flipkart.com/flipstart-days-store" title="flipkart" target="_blank">1. Flipkart 👉Flipstart Days(40-80% Off) </a> |
+                            <a href="https://www.myntra.com" title="myntra" target="_blank">2. Myntra 👉Maxessorize Sale(40-80% Off)</a> |
                             <a href="https://www.amazon.in/rakhis-rakhi-hampers/b?ie=UTF8&node=5143508031" title="Amazon" target="_blank">3. Amazon.in 👉The Rakhi Store</a>
                         </marquee>
                     </div>

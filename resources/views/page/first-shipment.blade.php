@@ -32,7 +32,8 @@
                    <br>
                    <br>
                    <br>
-                   <p class="f-s-10 f-c-l-gray f-w-8">From 1st July to 31st July 2019</p>
+                   <br>
+                   <p class="f-s-15 f-c-l-gray f-w-8">From 1st July to 31st August 2019</p>
 
                </center>
            </div>
@@ -46,10 +47,10 @@
         <div class="container fst-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Good News Again! This offer is valid on all our services!</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">First Time Shipping Offer is Valid on all Our services!</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
-                    <a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">
+                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=How%20to%20redeem%20First%20Time%20Shipping%20Offer(FRST50)?" target="_blank" class="c-image">
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
                     </a>
                 </div>
@@ -108,7 +109,7 @@
                         <li>Offer Code: <b>FRST50</b></li>
                         <li>Maximum amount that can be availed by a customer is ₹200/-.</li>
                         <li>This offer cannot be clubbed with any other offer.</li>
-                        <li>This Coupon is Valid Upto 31-July-2019</li>
+                        <li>This Coupon is Valid Upto 31-August-2019</li>
                         <li>A customer can avail this offer only once during the offer period.</li>
                         <li>This offer is applicable only for International Shipments.</li>
                         <li>Clearance charges is applicable for Special items</li>
@@ -146,7 +147,7 @@
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Scanned Copies Document-couriers</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Scanned Copies Document</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Country-discount</span></li>
 
                         </ul>
