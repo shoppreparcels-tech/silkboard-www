@@ -6,6 +6,23 @@
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/online-shopping-and-international-shipping-sit-back-relax-shop-from-india" />
+
+<script type="application/ld+json">
+    {
+  "@context": "http://schema.org",
+  "@type": "VideoObject",
+  "name": "Introducing online shopping from India",
+  "description": " You might wonder How to shop online in India from Abroad? Answer is here; ShoppRe is introducing online shopping in India and international shipping to
+  your country with door to door delivery facility. You can shop from the best online shopping sites in India for clothes, books, mobiles, watches, shoes, handbags, jewelry,
+  home & decor, cosmetics & beauty products, car parts & accessories and more.",
+  "thumbnailUrl": "https://i.ytimg.com/vi/Zf77ljCx9Ik/default.jpg",
+  "uploadDate": "2017-08-08T08:47:16.000Z",
+  "duration": "PT2M13S",
+  "embedUrl": "https://www.youtube.com/embed/Zf77ljCx9Ik",
+  "interactionCount": "12013"
+   }
+</script>
+
     <style>
         .vid-h-w{height: 560px; width: 100%}
         .div-b-l-w ul li{list-style: none; color:#929ca5; font-weight: 700;font-size: 18px; }
@@ -18,6 +35,8 @@
 @section('content')
     <section class="div-b-l-w pad-20" >
        <div class="container pad-t-20">
+           <br>
+           <center><h1 class="f-s-30 f-c-d-greay f-w-9">Introducing Online Shopping from India with International Shipping</h1></center>
            <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad " style="margin-top: 26px;">
                <div class="col-xs-12 col-md-12 no-pad">
                    <iframe class="vid-h-w" id="video" src="https://www.youtube.com/embed/Zf77ljCx9Ik" frameborder="0"
@@ -60,7 +79,7 @@
                        <br>
                        <h1 class="f-s-21 f-c-d-greay f-w-8 txt-a-l">Shop Online And Ship From India at the Cheapest Rates!</h1>
                        <br>
-                       <a href="/customer/register" target="_blank" class="btn btn-s-r btn-b-r btn-l">Sign Up for FREE</a>
+                       <a href="/customer/register" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Sign Up for FREE</a>
                </center>
        </div>
 

@@ -45,7 +45,7 @@
                 {{--</div>--}}
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://clnk.in/i19o" title="AJIO" target="_blank">AJIO.com 👉BIG BAG DAYS (40-80% Off) | Shop & Ship with us Worldwide.</a>
+                        <a href="https://www.ajio.com/shop/sale" title="AJIO" target="_blank">AJIO.com August Sale | Shop & Ship with us Worldwide.</a>
                     </marquee>
                 </div>
             </div>

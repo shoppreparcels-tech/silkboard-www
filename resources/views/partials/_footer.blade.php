@@ -108,7 +108,7 @@
             <center><br>
                 <p class="f-s-16 f-c-l-gray f-w-8">Ship with <span class="f-c-red glyphicon glyphicon-heart"></span> &nbsp;from India
                     <a class="footer-a pull-left" href="/" itemprop="url">© 2019, All Rights Reserved - by ShoppRe.com™</a>
-                    <span class="f-s-14 f-c-l-gray f-w-8 pull-right"><a href="https://github.com/shoppre" target="_blank">API</a></span>
+                    <span class="f-s-14 f-c-l-gray f-w-8 pull-right"><a href="https://github.com/shoppre" target="_blank">Pricing API for Sellers</a></span>
                 </p>
             </center>
         </div>

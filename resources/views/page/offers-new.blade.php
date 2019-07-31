@@ -98,7 +98,7 @@
         </div>
         <div class="container">
             <br/>
-            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (July-2019 Sale):</h3>
+            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (AUGUST-2019 Sale):</h3>
             <div>
 
                 <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
@@ -112,10 +112,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Deals of the day</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Upto 65% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">flipstart days</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">1st-3rd August</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/offers-store" target="_blank">
+                                <a href="https://www.flipkart.com/flipstart-days-store" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
                             </div>
@@ -126,10 +126,10 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">End of season Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Min. 50% Off</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">Upto 80% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.limeroad.com/shopping-offers/?src=shoppre" target="_blank">
+                                <a href="https://www.limeroad.com/sale?src=shoppre" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a5173241735.png')}}"/>
                                 </a>
                             </div>
@@ -195,10 +195,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">kids carnival</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up to 70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Freedom Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">8th-11th August</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.amazon.in/b?node=15606769031&pf_rd_p=01f443be-aa4f-4c0b-81ce-7c471b980054&pf_rd_r=AN8FTF73D555JASA4E0M" target="_blank">
+                                <a href="https://www.amazon.in/b?node=5731634031&pf_rd_p=0c5515a4-9dfe-446d-9105-438cf8b094be&pf_rd_r=Z6B10G3X5T91XAFKANDR" target="_blank">
                                   <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
                                 </a>
                             </div>
