@@ -217,7 +217,7 @@
                             <center>
                                 <a class="bla-1"
                                    href="https://www.youtube.com/watch?v=vb99LF4U1ew" target="_blank" title="Click to Play Video">
-                                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/priya-shoppre-youtube.png" class="vid-s-img"
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/priya-shoppre-youtube.png" class="vid-s-img"
                                          alt="shoppre">
                                 </a>
                             </center>
@@ -281,11 +281,10 @@
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
                         <div class="col-md-12 col-xs-12">
-                            <a href="/first-time-international-shipment-offer" target="_blank"><img
-                                        src="https://d2njzkuk16ywue.cloudfront.net/cdn/200inr-shipping-offer-india-shoppre.png" class="img-f-w offer-img-d"
+                            <a href="/first-time-international-shipment-offer" target="_blank">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india-shoppre.png" class="img-f-w offer-img-d"
                                         alt="first time international shipment offer"></a>
                             <a href="/send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank"><img
-                                        {{--src="https://d2njzkuk16ywue.cloudfront.net/cdn/200inr-shipping-offer-india.png"--}}
                                         src="{{env('AWS_CLOUD_FRONT')}}/img/images/rakhi-india-shipping-worldwide.png"
                                         class="img-f-w offer-img-m" title="Click Here for Rakhi Courier Rates" alt="mobile rakhi international shipping discount"></a>
                             <center class="pad-b-10"><a href="{{route('customer.login')}}"
@@ -322,7 +321,7 @@
                             </div>
                             <div class="col-md-6 col-xs-6 no-pad ">
                                 <center>
-                                    <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/priyamani-new.png" width="250" height="293"
+                                    <img  src="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-new.png"  width="250" height="293"
                                          class="img-responsive" alt="priyamani shoppre">
                                 </center>
                             </div>
