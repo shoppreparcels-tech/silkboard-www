@@ -220,7 +220,7 @@
 
         <div class="container">
             <center>
-                <h1 class="header1  p-color-cement-dark">ShoppRe Courier Process</h1>
+                <h1 class="header1  p-color-cement-dark">ShoppRe International Medicine Courier Process</h1>
                 <p class="header3 p-color-cement">Schedule a Pickup from any part of India. We’ll come to your doorsteps,
                     get your package & ship it off to the destination in 24 hours.</p>
             </center>

@@ -186,7 +186,7 @@
             </div>
 
             <center style="margin-top: 50px;">
-                <h1 class="header1  p-color-cement-dark">How Does Our Courier Work?</h1>
+                <h1 class="header1  p-color-cement-dark">How Does ShoppRe Courier Work?</h1>
                 <p class="header2 p-color-cement">Schedule a Pickup from ANY part of India; we’ll come to your doorsteps,<br> get your package & ship it off to the destination in 24 hours.</p>
             </center>
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
@@ -250,57 +250,69 @@
             </div>
 
         </div>
+        </div>
 
     </section>
 
     <section>
+
         <div class="container">
-            <a href="{{route('reviews')}}">
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="col-md-3 col-lg-3 col-sm-2 col-xs-2 div-review1">
-                        <center>4.7</center>
+            <br>
+            <br>
+            <center>
+                <a href="/send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank">
+                    {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"--}}
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/raksha-bandhan-india-shoppre.png" title="Click Here for Rakhi Shipping Rates"
+                         alt="rakhi-courier-from-india-shoppre" class="img-responsive">
+                </a>
+            </center>
+            {{--<a href="{{route('reviews')}}">--}}
+                {{--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">--}}
+                    {{--<div class="col-md-3 col-lg-3 col-sm-2 col-xs-2 div-review1">--}}
+                        {{--<center>4.6</center>--}}
 
-                    </div>
-                    <div class="col-md-9 col-lg-9 col-sm-10 col-xs-10 div-ifs-shoppre-reviw">
-                        <input class="rating rated" style="margin:10px 0 0 0 !important;" value="5" id="courier_rating">
-                        <p class="header6" style="color: green; margin:-8px 0 0 12px;">968 reviews </p>
-                        <center>
+                    {{--</div>--}}
+                    {{--<div class="col-md-9 col-lg-9 col-sm-10 col-xs-10 div-ifs-shoppre-reviw">--}}
+                        {{--<input class="rating rated" style="margin:10px 0 0 0 !important;" value="5" id="courier_rating">--}}
+                        {{--<p class="header6" style="color: green; margin:-8px 0 0 12px;">968 reviews </p>--}}
+                        {{--<center>--}}
                             {{--<img class="img-responsive " src="img/images/reviews_shoppre.svg">--}}
-                        </center>
-                    </div>
+                        {{--</center>--}}
+                    {{--</div>--}}
 
-                </div>
-            </a>
-            <a href="https://goo.gl/maps/VPThiDHc1uk">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 div-ifs-google-reviews">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                        <img class="img-responsive img-courier-review-g"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/svg/google-reviews-shipping-service-bengaluru.svg">
-                        <p class="header6" style="color: #e85151;">Reviews</p>
-                    </div>
+                {{--</div>--}}
+            {{--</a>--}}
+            {{--<a href="https://goo.gl/maps/VPThiDHc1uk">--}}
+                {{--<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 div-ifs-google-reviews">--}}
+                    {{--<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">--}}
+                        {{--<img class="img-responsive img-courier-review-g"--}}
+                             {{--src="{{env('AWS_CLOUD_FRONT')}}/img/svg/google-reviews-shipping-service-bengaluru.svg">--}}
+                        {{--<p class="header6" style="color: #e85151;">Reviews</p>--}}
+                    {{--</div>--}}
 
-                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                        <img class="img-responsive " style="margin-top: 5px;" src="{{env('AWS_CLOUD_FRONT')}}/img/images/google-rating-shipping-service-bengaluru.png">
-                    </div>
-                </div>
-            </a>
-            <a href="https://www.facebook.com/goshoppre/reviews/?ref=page_internal">
-                <div class="col-lg-5 col-md-5  col-sm-12 col-xs-12">
-                    <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-xs-4">
-                        <img class="img-responsive img-courier-review-f"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-reviews-shipping-service.png">
-                        <p class="header6" style="color: #507dbc; line-height: 30px">Reviews</p>
-                    </div>
+                    {{--<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">--}}
+                        {{--<img class="img-responsive " style="margin-top: 5px;" src="{{env('AWS_CLOUD_FRONT')}}/img/images/google-rating-shipping-service-bengaluru.png">--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</a>--}}
+            {{--<a href="https://www.facebook.com/goshoppre/reviews/?ref=page_internal">--}}
+                {{--<div class="col-lg-5 col-md-5  col-sm-12 col-xs-12">--}}
+                    {{--<div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-xs-4">--}}
+                        {{--<img class="img-responsive img-courier-review-f"--}}
+                             {{--src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-reviews-shipping-service.png">--}}
+                        {{--<p class="header6" style="color: #507dbc; line-height: 30px">Reviews</p>--}}
+                    {{--</div>--}}
 
-                    <div class="col-lg-7 col-md-7 col-sm-8 col-xs-8">
-                        <img class="img-responsive img-facebook-r" style="margin-top: -15px;"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-rating-shipping-service.png">
-                    </div>
-                </div>
-            </a>
+                    {{--<div class="col-lg-7 col-md-7 col-sm-8 col-xs-8">--}}
+                        {{--<img class="img-responsive img-facebook-r" style="margin-top: -15px;"--}}
+                             {{--src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-rating-shipping-service.png">--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</a>--}}
 
         </div>
     </section>
+
     <section class="product-courier ">
         <div class="container no-padding div-ics-border-btm">
 

@@ -157,6 +157,7 @@
                     </p>
                     <br>
                     <ul>
+                        <li>Myntra Maxessorize Sale, 1st to 2nd August 2019</li>
                         <li>Myntra Independence Day Sale, 13th to 15th August 2019</li>
                         <li>Myntra Big Billion Days Sale, September 2019</li>
                         <li>Myntra Diwali Sale, 25th to 27th October 2019</li>

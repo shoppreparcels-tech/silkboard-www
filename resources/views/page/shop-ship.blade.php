@@ -127,7 +127,7 @@
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                    class="startsValidValue"> 31st July 2019</span></p>
+                                    class="startsValidValue"> 31st August 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
@@ -213,7 +213,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="/customer/register" class="btn btn-s-r btn-a-l btn-b-r" target="_blank">Sign Up for Free</a>
+                    <a href="/customer/register" class="btn btn-s-b btn-b-g" target="_blank">Sign Up for FREE</a>
                 </div>
                 <br/><br/>
             </div>

@@ -203,7 +203,7 @@
                     <li><a href="{{route('offers-new.index')}}">Offers <sup class="p-color-red" style="font-size: 8px" id="offer">New</sup> </a></li>
                     <li><a href="{{route('pricing')}}">Shipping Rates</a></li>
                     <li><a href="{{route('contact')}}">Support</a></li>
-                    <li><a href="https://www.shoppre.com/seller-partner" target="_blank">Seller Partner</a></li>
+                    <li><a href="https://www.shoppre.com/seller-partner">Seller Partner</a></li>
                 </ul>
                 <div id="ajax_login_block" style="display: none">
                 <ul class="nav navbar-nav navbar-right " id="header-ul" >

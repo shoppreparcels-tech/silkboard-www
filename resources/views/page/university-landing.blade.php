@@ -55,9 +55,9 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Have Some Documents to Send Abroad?</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
-                    <a href="tel:+91-8277919191" class="c-image">
+                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=I%20want%20to%20courier%20documents%20from%20India" target="_blank" class="c-image">
 
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png')}}" alt="contact shoppre">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="contact shoppre">
                     </a>
                 </div>
             </div>
@@ -149,7 +149,7 @@
                 <br>
                 <div class="row text-center">
                     <center>
-                        <h1 class="header1  p-color-cement-dark">How It Works</h1>
+                        <h1 class="header1  p-color-cement-dark">How It Works (Documents Shipping International)</h1>
                     </center>
                     <br/><br/>
                     <div class="col-sm-4">
@@ -230,7 +230,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Scanned of your documents</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Country-specific</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Country-specific discount</span></li>
 
                         </ul>
                     </div>
