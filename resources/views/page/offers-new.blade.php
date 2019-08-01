@@ -56,6 +56,13 @@
                     <div class="MultiCarousel-inner">
                         <div class="item">
                             <div class="pad15">
+                                <a href="send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/send-rakhi-international-delivery.png" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
                                 <a href="https://www.shoppre.com/university-offer" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/students-shipping-offer.png" class="boxofScroll"/>
                                 </a>
@@ -66,13 +73,6 @@
                             <div class="pad15">
                                 <a href="/first-time-international-shipment-offer" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/International-shipping-offers.png" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="https://ship.shoppre.com/how-to-send-rakhi-online-from-india-international-delivery/" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/send-rakhi-international-delivery.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
@@ -182,8 +182,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Bag Days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">PAYDAY Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">1st-4th AUG</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>

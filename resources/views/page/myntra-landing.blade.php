@@ -5,7 +5,7 @@
 @section('keywords', 'Myntra International Shipping, Online Fashion Store, ship usa, how to shop')
 
 @section('css_style')
-    <meta property="og:title" content="Shop online from Myntra fashion store & Ship Internationally with Shoppre" />
+    <meta property="og:title" content="Shop online from Myntra fashion store and Ship Internationally with Shoppre" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.shoppre.com/myntra-online-shopping-shipping-from-india" />
     <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
@@ -161,7 +161,7 @@
                 <center>
                     <h4 class="p-color-cement-dark flipkart-h1">International Credit/Debit Cards Giving You Trouble?</h4>
                     <h5 class="header5 p-color-cement">No worries! Our <a href="/personal-shopper-shopping-concierge-from-india">Personal Shopper </a>will swoop in & take care of it all for you!</h5> <br>
-                    <a href="https://clnk.in/itIM" class="btn btn-s-r btn-b-r btn-a-l" target="_blank">Go Shop Myntra Now!</a>
+                    <a href="/personal-shopper-india" class="btn btn-s-r btn-b-r btn-a-l" target="_blank">Assisted Purchase Service</a>
                 </center>
             </div>
         </div>
@@ -192,7 +192,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Scanned of your documents</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Country-specific Discount</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>3-6 days delivery with online tracking</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>3-6 days delivery with tracking</span></li>
 
                         </ul>
                     </div>
@@ -204,7 +204,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Wallet Cashback</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Package Return Services</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>International Courier Service</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personalized Product Recommendations</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Product Recommendations</span></li>
                         </ul>
                     </div>
                 </div>
@@ -218,7 +218,7 @@
             <center>
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Well, what's the wait? Sign Up with us now for a lifetime of effortless shopping!</h1>
                 <br>
-                <a href="{{route('customer.register')}}" class="btn btn-b-r btn-s-r btn-a-l" target="_blank">Sign Up for Free</a>
+                <a href="{{route('customer.register')}}" class="btn btn-s-b btn-b-g" target="_blank">Sign Up for FREE</a>
 
             </center>
         </div>

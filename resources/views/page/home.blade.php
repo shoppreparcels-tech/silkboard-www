@@ -284,11 +284,12 @@
                             <a href="/first-time-international-shipment-offer" target="_blank"><img
                                         src="https://d2njzkuk16ywue.cloudfront.net/cdn/200inr-shipping-offer-india-shoppre.png" class="img-f-w offer-img-d"
                                         alt="first time international shipment offer"></a>
-                            <a href="/first-time-international-shipment-offer" target="_blank"><img
-                                        src="https://d2njzkuk16ywue.cloudfront.net/cdn/200inr-shipping-offer-india.png"
-                                        class="img-f-w offer-img-m" alt="first international shipping discount"></a>
+                            <a href="/send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank"><img
+                                        {{--src="https://d2njzkuk16ywue.cloudfront.net/cdn/200inr-shipping-offer-india.png"--}}
+                                        src="{{env('AWS_CLOUD_FRONT')}}/img/images/rakhi-india-shipping-worldwide.png"
+                                        class="img-f-w offer-img-m" title="Click Here for Rakhi Courier Rates" alt="mobile rakhi international shipping discount"></a>
                             <center class="pad-b-10"><a href="{{route('customer.login')}}"
-                                       class="btn btn-s-r btn-b-r btn-a-l m-t-20 offer-img-m ">Sign up for Free</a>
+                                       class="btn btn-s-g btn-b-g btn-a-l m-t-20 offer-img-m clrwhite">Sign Up for FREE</a>
                             </center>
                         </div>
                         <div class="col-md-12 col-xs-12 no-padd">
@@ -315,7 +316,7 @@
                                        class="txt-f-w txt-b-r txt-l-br txt-pad m-t-10 f-s-16" autocomplete="off"
                                        placeholder=" Password" required>
                                 {{--<a href="" class="btn btn-s-r btn-b-r btn-a-l m-t-20">Sign up for Free</a>--}}
-                                <button type="submit" class="btn btn-s-r btn-b-r btn-l m-t-20">Sign Up Free</button>
+                                <button type="submit" class="btn btn-s-b btn-b-g btn-l m-t-20">Sign Up FREE</button>
                                 {{--<p class="f-s-14 f-c-blue m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>--}}
                                     {{--Upcoming: 👉<a class="f-c-blue" style="text-decoration: underline" href="https://ship.shoppre.com/amazon-india-prime-day-sale-offers-deals-shoppers-shopping/" target="_blank">Amazon.in Prime Day Sale 15-16 July</a> </p>--}}
                             </div>
@@ -353,7 +354,7 @@
                             <div class="h-div"><h4 class="cord-header-size f-c-white">REFER A FRIEND</h4></div>
                         </div>
                         <div class="des-div"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">1st July - 31st July</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">1st July - 31st August</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Earn ₹500/-</span> on each Referral</p>
                             <br>
@@ -1067,19 +1068,19 @@
                 <ul class="nav-ul">
                     <li class="li"><a itemprop="url" class="" href="/shop-from-india-ship-worldwide"> Shop in India,
                             Ship Worldwide</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/myntra-online-shopping-shipping-from-india">Myntra
+                    <li class="li"><a itemprop="url" class="" href="/myntra-international-shipping-to-usa">Myntra
                             Shopping from USA</a></li>
-                    <li class="li"><a itemprop="url" class="" href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/">Amazon.in
+                    <li class="li"><a itemprop="url" class="" href="/shop-from-amazon-india-and-ship-to-usa">Amazon.in
                             Shopping from USA</a></li>
                     <li class="li"><a itemprop="url" class="" href="/limeroad-shopping-international-shipping">Limeroad
                             Shopping from USA</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/flipkart-shopping-with-shoppre-from-india">Flipkart
+                    <li class="li"><a itemprop="url" class="" href="/flipkart-usa-shopping">Flipkart
                             Shopping from USA</a></li>
                     <li class="li"><a itemprop="url" class="" href="/etsy-international-shipping-from-india">Etsy
                             Shopping from USA</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/ajio-online-shopping-international-shipping">AJIO
+                    <li class="li"><a itemprop="url" class="" href="/trends-ajio-usa-shipping-from-india">AJIO
                             Shopping from USA</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/jaypore-international-shipping-from-india">Jaypore
+                    <li class="li"><a itemprop="url" class="" href="/jaypore-shopping-usa">Jaypore
                             Shopping from USA</a></li>
                 </ul>
             </div>
@@ -1093,8 +1094,7 @@
                 <h1 class="f-s-26 f-c-d-greay f-w-8"><span class="f-c-red">S</span>ign Up & Start Shipping from <br>India
                     to Worldwide</h1>
                 <br>
-                <a href="{{route('customer.register')}}" target="_blank" class="btn-s-r btn-b-r btn ">Sign up for
-                    FREE</a>
+                <a href="{{route('customer.register')}}" target="_blank" class="btn btn-s-b btn-b-g">Create a Free ShoppRe account</a>
                 <br><br><br>
             </center>
         </div>

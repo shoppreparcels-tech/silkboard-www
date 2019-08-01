@@ -275,9 +275,10 @@
                         <br>
                         <br>
                         <center>
-                            <a href="{{route('customer.register')}}">
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"
-                                     alt="schedule-pickup-courier-from-india-shoppre" class="img-responsive">
+                            <a href="/send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank">
+                                {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"--}}
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/raksha-bandhan-india-shoppre.png" title="Click Here for Rakhi Shipping Rates"
+                                     alt="rakhi-schedule-pickup-courier-from-india-shoppre" class="img-responsive">
                             </a>
                         </center>
                     </div>

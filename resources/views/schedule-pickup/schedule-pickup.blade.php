@@ -150,9 +150,10 @@
                     </span></h3>
             </div>
             <div class="col-md-6 col-xs-12 "><br>
-                <a href="{{route('first-shipment')}}">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"
-                         alt="schedule-pickup-courier-from-india-shoppre" class="img-responsive">
+                <a href="/send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank">
+                    {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"--}}
+                    <img src="https://s3.ap-south-1.amazonaws.com/shoppre.com/cdn/img/images/raksha-bandhan-india-shoppre.png"
+                         alt="schedule-pickup-rakhi-courier-from-india-shoppre" title="Click Here for Rakhi Shipping Rates" class="img-responsive">
                 </a>
             </div>
         </div>

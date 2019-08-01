@@ -116,7 +116,7 @@
                     </p>
                     <br>
                     <ul>
-                        <li>Amazon Super Value Day Sale - 1st to 7th August</li>
+                        <li>Amazon Super Value Day Sale - 4th to 6th August</li>
                         <li>Amazon great Indian Sale - 9th to 12th August</li>
                         <li>Amazon Independence Day Sale - 13th to15th August</li>
                         <li>Amazon Great Indian Festival Sale - 29th September to 4th October</li>
