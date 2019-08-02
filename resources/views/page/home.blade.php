@@ -164,7 +164,7 @@
     </script>
 
     <style>
-        .cord-header-size{font-size:16px}.cord-height{height:160px}.fuid-padding{padding-left:5%;padding-right:5%}.div-shop-ship1>div{padding-top:10px;padding-bottom:10px}.div-shop-ship1>div>p{text-align:center}.div-main .div-add{position:fixed;margin-top:20%;z-index:1}.div-main .div-add1{position:relative;float:right}.div-h-offer{border-radius:15px;background-color:#fff;padding:20px}.div-h-offer>div{padding-top:10px}.h-div{height:40px;overflow:hidden}.img-div{padding-top:10px;overflow:hidden}.des-div{height:150px;overflow:hidden}.div-s-br{border-radius:3px;border:1px solid #677582}.h-s-a>div>a>div:hover{background-color:#507dbc;color:#fff;transition:.3s}.h-s-a a:hover{background-color:#507dbc;color:#fff}.vid-s-img{width:100%}.h-sign-up{display:block}.pad-0-40{padding:40px}.pad-0-10{padding-right:5px;padding-left:5px}.pad-0-15{padding-right:15px;padding-left:15px}.offer-img-m{display:none}.offer-img-d{display:block}.pad-l-d{padding:0}.seo-hyperlinks ul{list-style:none}.seo-hyperlinks ul li{font-size:14px;color:#677582;margin-top:5px}.seo-hyperlinks ul li a{color:#677582}@media only screen and (max-width:1024px){.div-add{display:none}.mobile-pickup-block{display:none}}@media only screen and (max-width:1280px){.div-add{display:none}.mobile-pickup-block{display:none}}@media only screen and (max-width:600px){#img-p{display:none}.mobile-pickup-block{display:block}.h-sign-up{display:none}.pad-0-40{padding:5px}.pad-0-10{padding-right:5px;padding-left:5px}.offer-img-m{display:block}.offer-img-d{display:none}.fuid-padding{padding-left:3%;padding-right:3%}.des-div{height:140px;overflow:hidden}.vid-s-img{width:30%}.pad-0-15{padding:0}.pad-l-d{padding-left:10%}}
+        .cord-header-size{font-size:16px}.cord-height{height:160px}.fuid-padding{padding-left:5%;padding-right:5%}.div-shop-ship1>div{padding-top:10px;padding-bottom:10px}.div-shop-ship1>div>p{text-align:center}.div-main .div-add{position:fixed;margin-top:20%;z-index:1}.div-main .div-add1{position:relative;float:right}.div-h-offer{border-radius:15px;background-color:#fff;padding:20px}.div-h-offer>div{padding-top:10px}.h-div{height:40px;overflow:hidden}.img-div{padding-top:10px;overflow:hidden}.des-div{height:150px;overflow:hidden}.des-div-rakhi{height:210px;overflow:hidden}.div-s-br{border-radius:3px;border:1px solid #677582}.h-s-a>div>a>div:hover{background-color:#507dbc;color:#fff;transition:.3s}.h-s-a a:hover{background-color:#507dbc;color:#fff}.vid-s-img{width:100%}.h-sign-up{display:block}.pad-0-40{padding:40px}.pad-0-10{padding-right:5px;padding-left:5px}.pad-0-15{padding-right:15px;padding-left:15px}.offer-img-m{display:none}.offer-img-d{display:block}.pad-l-d{padding:0}.seo-hyperlinks ul{list-style:none}.seo-hyperlinks ul li{font-size:14px;color:#677582;margin-top:5px}.seo-hyperlinks ul li a{color:#677582}@media only screen and (max-width:1024px){.div-add{display:none}.mobile-pickup-block{display:none}}@media only screen and (max-width:1280px){.div-add{display:none}.mobile-pickup-block{display:none}}@media only screen and (max-width:600px){#img-p{display:none}.mobile-pickup-block{display:block}.h-sign-up{display:none}.pad-0-40{padding:5px}.pad-0-10{padding-right:5px;padding-left:5px}.offer-img-m{display:block}.offer-img-d{display:none}.fuid-padding{padding-left:3%;padding-right:3%}.des-div{height:140px;overflow:hidden}.vid-s-img{width:30%}.pad-0-15{padding:0}.pad-l-d{padding-left:10%}}
     </style>
 
 @endsection
@@ -352,7 +352,7 @@
                         <div class="pad-5 bgr-c-gl">
                             <div class="h-div"><h4 class="cord-header-size f-c-white">REFER A FRIEND</h4></div>
                         </div>
-                        <div class="des-div"><br>
+                        <div class="des-div-rakhi"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">1st July - 31st August</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Earn ₹500/-</span> on each Referral</p>
@@ -369,7 +369,7 @@
                         <div class="pad-5 bgr-c-bl">
                             <div class="h-div"><h4 class="cord-header-size f-c-white">RAKSHA BANDHAN</h4></div>
                         </div>
-                        <div class="des-div"><br>
+                        <div class="des-div-rakhi"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">15th July - 25th August</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Shipping Price <span class="f-s-16 f-c-red f-w-9">Starts from ₹316/-</span> T&C*</p>
@@ -386,11 +386,11 @@
                         <div class="pad-5 bgr-c-gr">
                             <div class="h-div"><h4 class="cord-header-size f-c-white">THE RAKHI STORE</h4></div>
                         </div>
-                        <div class="des-div"><br>
+                        <div class="des-div-rakhi"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">25th August</span> | Upto 70% Off</p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Amazon.in</p>
-                            <br>
+                            <br><br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Shop from wide selection of designer, premium and kids’ Rakhis online. </p>
                         </div>
 
@@ -403,11 +403,11 @@
                         <div class="pad-5 bgr-c-br">
                             <div class="h-div"><h4 class="cord-header-size f-c-white">रक्षाबंधन का त्यौहार</h4></div>
                         </div>
-                        <div class="des-div"><br>
+                        <div class="des-div-rakhi"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Under ₹149/-</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Flipkart.com</p>
-                            <br>
+                            <br><br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Buy Kids, Rudrakash, Religious, Bracelet, Religious, Lumba, Bhaiya Bhabhi Rakhis</p>
                         </div>
 

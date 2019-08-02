@@ -26,6 +26,46 @@
 
 @section('content')
     <section class="heading-section">
+        <div class="modal fade" id="terms" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close panel-success" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h5 class="text-success text-center text-u-l">Terms & Conditions For Personal Shopper</h5><br>
+                                <ol>
+                                    <p><span class="font-bold">1.&nbsp;</span><span>The entire payment, which includes the cost of the order + the Personal Shopper service cost, needs to be cleared BEFORE Shoppre makes the purchase for you.</span>
+                                        <span>The Personal Shopper service cost is non-refundable for a successfully placed order, irrespective of whether the order is edited/cancelled at a later stage.</span>
+                                        <span>However, the rest of the amount shall be credited to Shoppre wallet within 24 hours in such a case.</span></p><br>
+                                    <p><span class="font-bold">2.&nbsp;</span><span>We accept payment through netbanking/credit card/Paypal/Paytm/wire transfer.</span></p><br>
+                                    <p><span class="font-bold">3.&nbsp;</span><span>All Personal Shopper orders will be delivered to your Shoppre shipping address.</span></p><br>
+                                    <p><span class="font-bold">4.&nbsp;</span><span>The Personal Shopper order can be edited or cancelled before you make the payment to Shoppre. You can also cancel your order post the payment, provided we haven’t already made the purchase on your behalf.</span>
+                                        <span>The money will be credited to your Shoppre wallet within 24 hours, which can then be used for your future Shoppre orders.</span></p><br>
+                                    <p><span class="font-bold">5.&nbsp;</span><span>To edit or cancel your order pre-payment, click on Personal Shopper > Order Form.</span></p><br>
+                                    <p><span class="font-bold">6.&nbsp;</span><span>To cancel your order post-payment, access your Order History to view the list of your recent orders. If we haven’t processed the purchase on your behalf, the option to Cancel will be available</span></p><br>
+                                    <p><span class="font-bold">7.&nbsp;</span><span>In case you want to cancel the order after Shoppre has made the purchase, please get in touch with the seller regarding its return policy.</span>
+                                        <span>If the return is permitted by the seller, intimate us that the order is to be returned when it arrives at your Shoppre address.</span>
+                                        <span>In such a case, a cost of Rs. 400, in addition to the return shipping cost (if any) needs to be incurred by the customer.</span>
+                                        <span>Once the seller receives the order and issues a refund, the same shall be duly credited to your Shoppre wallet and can be used for your future orders</span></p><br>
+                                    <p><span class="font-bold">8.&nbsp;</span><span>An e-mail notification shall be sent out to you once your order reaches your Shoppre address. You can also request for any additional photographs of the package for an additional cost.</span></p><br>
+                                    <p><span class="font-bold">9.&nbsp;</span><span>Shoppre reserves the right to make any additions/changes in these terms and conditions at any given point of time. Keep checking this page for updates.</span></p>
+                                    <p><span class="font-bold">10.&nbsp;</span><span>There is No return policy or Cancellation for Personal Shopper order from ShoppRe.Because most of the indian online store dont have Return policy service.</span>
+                                        <span>Personal Shopper Cancellation is not allowed, not unless we received damage or incorrect item.</span></p><br>
+                                    <p><span class="font-bold">11.&nbsp;</span><span>For Self Purchase the Return or Cancellation Charges for each item will be INR 400.</span></p><br>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" style="background: darkgoldenrod;color: black;">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
        <div class="container">
            <center>
                <h1 class="f-s-36 f-c-white">
@@ -54,7 +94,11 @@
                <p class="f-s-9 f-c-gray">This is where our <a href="personal-shopper-india">Personal Shopper</a> comes in to play. All you have to do is, let us know what you are intending to buy, and we'll buy it for you!</p>
                <h6 class="f-s-12 f-c-d-gray f-w-8">How Does a Personal Shopper Help?</h6>
                <p class="f-s-9 f-c-gray"><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/dot.svg" alt=""/><span class="f-c-d-gray"> We’ll Pay For You:</span> You can place your order on your own, and get it delivered to us; we’ll pay for it on your behalf.</p>
-               <p class="f-s-9 f-c-gray"><img src="{{env('AWS_CLOUD_FRONT')}}/img/img/svg/dot.svg" alt=""/><span class="f-c-d-gray">We’ll Shop For You:</span> All you have to do is, let us know what you intend         to buy; we’ll make the purchase for you.</p>
+               <p class="f-s-9 f-c-gray"><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/dot.svg" alt=""/><span class="f-c-d-gray">We’ll Shop For You:</span> All you have to do is, let us know what you intend         to buy; we’ll make the purchase for you.</p>
+               <br>
+               <p>
+                   <button type="button" class="call-btn" style="background-color: orange;">Terms&Conditions</button>
+               </p>
            </div>
        </div>
        <div class="container">
@@ -67,7 +111,7 @@
                        <h class="f-s-20 f-c-red">Self Purchased</h><br/><span class="f-c-gray f-s-15">( Paying For You )<br><span class="f-s-1 f-c-red">Service Charges: 10%</span>
                    </center><br/>
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b1">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/img/svg/shop-product.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-product.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 1</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">Shop Products</h7>
@@ -80,28 +124,28 @@
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b2">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/img/form-fill-up.png" alt="" style="height: 85px;"/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/form-fill-up.png" alt="" style="height: 85px;"/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 2</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">Fill up Shoppre Order Form</h7>
                            <p class="f-s-9 f-c-gray">
                                Copy the links of the products
                                which you opted for Cash on delivery
-                               and them on Shoppre order form
-                               and Make payment to us.
+                               and paste them on Shoppre order form.
                            </p>
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b3">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/img/svg/pay-receive.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pay-receive.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 3</h14><br/>
-                           <h7 class="f-s-7 uppercase f-c-d-gray">COD, Pay & Receive</h7>
-                           <p class="f-s-9 f-c-gray">We will pay for your order and will receive it at our warehouse.</p>
+                           <h7 class="f-s-7 uppercase f-c-d-gray">Make payment to us</h7>
+                           <p class="f-s-9 f-c-gray">We will pay for your order which you have set for
+                               Cash on Delivery&will receive it at our warehouse.</p>
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b4">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/img/svg/save80.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 4</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">Make a Ship Request</h7>
@@ -112,7 +156,7 @@
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b4">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/img/svg/d-step3.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 5</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">You Pay, We'll Dispatch</h7>
@@ -131,7 +175,7 @@
                        <h class="f-s-20 f-c-blue">Assisted Purchase </h><br/><span class="f-c-gray f-s-15">( Shopping For You )<br><span class="f-s-1 f-c-blue">Service Charges: 07%</span>
                    </center><br/>
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b1">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/img/svg/shop-product.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-product.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 1</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">Search Products</h7>
@@ -141,18 +185,18 @@
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b2">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/img/form-fill-up.png" alt="" style="height: 85px"/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/form-fill-up.png" alt="" style="height: 85px"/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 2</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">Fill up Shoppre Order Form</h7>
                            <p class="f-s-9 f-c-gray">
                                Copy the links of the products you
-                               want to purchase and paste them on shoppre order form and Make payment to us.
+                               want to purchase and paste them on shoppre order form.
                            </p>
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b3">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/img/svg/pay-receive.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pay-receive.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 3</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">We Do The Shopping</h7>
@@ -163,7 +207,7 @@
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b4">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/img/svg/save80.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save80.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 4</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">Make a Ship Request</h7>
@@ -174,7 +218,7 @@
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b4">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/img/svg/d-step3.svg" alt=""/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/d-step3.svg" alt=""/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 5</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">You Pay, We'll Dispatch</h7>
@@ -313,4 +357,25 @@
         <br>
         <br>
     </section>
+@endsection
+
+@section('js_script')
+    <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('js/select2.min.js')}}"></script>
+    <script src="{{asset('js/validate.min.js')}}"></script>
+    <script type="text/javascript">
+        /* Magnific Popup */
+        $(document).ready(function () {
+            $(function () {
+                $.fn.myFunction = function(){
+                    $('#terms').modal('show')
+                };
+
+                $(".call-btn").click(function(){
+                    $.fn.myFunction();
+                });
+            });
+        });
+
+    </script>
 @endsection
