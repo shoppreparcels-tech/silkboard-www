@@ -102,7 +102,7 @@
             <div>
 
                 <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                    <a href="https://www.shoppre.com/send-rakhi-gifts-online-worldwide-at-cheap-rates"
+                    <a href="https://m.shoppre.com/send-rakhi-online-worldwide"
                        title="Rakhi" target="_blank">Send Rakhi Online from India 👉 <span class="f-s-16 f-c-red f-w-9">Shipping Price Starts from  ₹316/-</span> T&C* (15th July - 25th August 2019)</a>
                     </marquee>
             </div>
@@ -112,10 +112,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">flipstart days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">1st-3rd August</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">National Shopping Days</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">8th-10th August</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/flipstart-days-store" target="_blank">
+                                <a href="https://www.flipkart.com/the-bigfreedomsale-store" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
                                 </a>
                             </div>
@@ -182,8 +182,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">PAYDAY Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">1st-4th AUG</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">STYLE Authentics</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Min. 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
                                     <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>
@@ -266,21 +266,6 @@
         </div>
         <br>
 
-        <div class="container text-center">
-            <h3 class="header3 p-color-cement-dark font-weight-900">LIVE Sale:</h3>
-            <p>Fashion Category:</p>
-            <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/38315?pub_id=54240CL48886'></iframe>
-            <br/>
-
-            <br/>
-            <p>Health & Beauty Category:</p>
-            <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/38317?pub_id=54240CL48886'></iframe>
-            <br/>
-            <br/>
-            <p>Others:</p>
-            <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/38318?pub_id=54240CL48886'></iframe>
-            <br/>
-        </div>
     </section>
     <br>
     <br>
@@ -390,7 +375,7 @@
 
 
 @section('js_script')
-    <script type='text/javascript'>
-        var pubID="54240CL48886";!function(t,s){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src=("https:"==document.location.protocol?"https://cdn0.cuelinks.com/js/":"http://cdn0.cuelinks.com/js/")+"cuelinksv1.js",document.getElementsByTagName("body")[0].appendChild(e)}(),$(document).ready(function(){var t=".MultiCarousel",s=".MultiCarousel-inner",e="";function a(){var a=0,i=0,r="",n="",o=$(t).width(),c=$("body").width();$(s).each(function(){i+=1;var t=$(this).find(".item").length;r=$(this).parent().attr("data-items"),n=r.split(","),$(this).parent().attr("id","MultiCarousel"+i),c>=1200?(a=n[3],e=o/a):c>=992?(a=n[2],e=o/a):c>=768?(a=n[1],e=o/a):(a=n[0],e=o/a),$(this).css({transform:"translateX(0px)",width:e*t}),$(this).find(".item").each(function(){$(this).outerWidth(e)}),$(".leftLst").addClass("over"),$(".rightLst").removeClass("over")})}function i(t,a){var i="#"+$(a).parent().attr("id");!function(t,a,i){var r="",n=$(a+" "+s).css("transform").match(/-?[\d\.]+/g),o=Math.abs(n[4]);if(0==t)r=parseInt(o)-parseInt(e*i),$(a+" .rightLst").removeClass("over"),r<=e/2&&(r=0,$(a+" .leftLst").addClass("over"));else if(1==t){var c=$(a).find(s).width()-$(a).width();r=parseInt(o)+parseInt(e*i),$(a+" .leftLst").removeClass("over"),r>=c-e/2&&(r=c,$(a+" .rightLst").addClass("over"))}$(a+" "+s).css("transform","translateX("+-r+"px)")}(t,i,$(i).attr("data-slide"))}$(".leftLst, .rightLst").click(function(){i($(this).hasClass("leftLst")?0:1,this)}),a(),$(window).resize(function(){a()})});
-    </script>
+    {{--<script type='text/javascript'>--}}
+        {{--var pubID="54240CL48886";!function(t,s){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src=("https:"==document.location.protocol?"https://cdn0.cuelinks.com/js/":"http://cdn0.cuelinks.com/js/")+"cuelinksv1.js",document.getElementsByTagName("body")[0].appendChild(e)}(),$(document).ready(function(){var t=".MultiCarousel",s=".MultiCarousel-inner",e="";function a(){var a=0,i=0,r="",n="",o=$(t).width(),c=$("body").width();$(s).each(function(){i+=1;var t=$(this).find(".item").length;r=$(this).parent().attr("data-items"),n=r.split(","),$(this).parent().attr("id","MultiCarousel"+i),c>=1200?(a=n[3],e=o/a):c>=992?(a=n[2],e=o/a):c>=768?(a=n[1],e=o/a):(a=n[0],e=o/a),$(this).css({transform:"translateX(0px)",width:e*t}),$(this).find(".item").each(function(){$(this).outerWidth(e)}),$(".leftLst").addClass("over"),$(".rightLst").removeClass("over")})}function i(t,a){var i="#"+$(a).parent().attr("id");!function(t,a,i){var r="",n=$(a+" "+s).css("transform").match(/-?[\d\.]+/g),o=Math.abs(n[4]);if(0==t)r=parseInt(o)-parseInt(e*i),$(a+" .rightLst").removeClass("over"),r<=e/2&&(r=0,$(a+" .leftLst").addClass("over"));else if(1==t){var c=$(a).find(s).width()-$(a).width();r=parseInt(o)+parseInt(e*i),$(a+" .leftLst").removeClass("over"),r>=c-e/2&&(r=c,$(a+" .rightLst").addClass("over"))}$(a+" "+s).css("transform","translateX("+-r+"px)")}(t,i,$(i).attr("data-slide"))}$(".leftLst, .rightLst").click(function(){i($(this).hasClass("leftLst")?0:1,this)}),a(),$(window).resize(function(){a()})});--}}
+    {{--</script>--}}
 @endsection
