@@ -62,8 +62,8 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="https://www.flipkart.com/flipstart-days-store" title="flipkart" target="_blank">1. Flipkart 👉Flipstart Days(40-80% Off) </a> |
-                            <a href="https://www.myntra.com" title="myntra" target="_blank">2. Myntra 👉Maxessorize Sale(40-80% Off)</a> |
+                            <a href="https://www.flipkart.com/the-bigfreedomsale-store" title="flipkart" target="_blank">1. Flipkart 👉National Shopping Days(10th-11th AUG) </a> |
+                            <a href="https://www.amazon.in/b?node=5731634031&pf_rd_p=fbe2fe92-ff1b-48d3-84b7-f2069f5246fc&pf_rd_r=DVWBFPAQT43H3J107DWQ" title="amazon" target="_blank">2. Freedom Sale 👉8th-11th AUG</a> |
                             <a href="https://www.amazon.in/rakhis-rakhi-hampers/b?ie=UTF8&node=5143508031" title="Amazon" target="_blank">3. Amazon.in 👉The Rakhi Store</a>
                         </marquee>
                     </div>
@@ -71,7 +71,7 @@
                         <h1 class="f-s-20 font-weight-900 f-c-d-greay">Ship What You Love from India & Shop With Your <a href="/indian-virtual-address" target="_blank">
                                 Free ShoppRe Indian Virtual Address‎</a></h1>
                     </center>
-                </div>
+                </div>ho
             </div>
 
             <label class="shop">Shop from <span class="font-weight-900">1000+</span>  Indian online stores ‘Including</label>

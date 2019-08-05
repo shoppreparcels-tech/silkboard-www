@@ -70,10 +70,10 @@
             <div class="row text-center">
                 <div class="col-sm-4">
                     <a href="https://www.myntra.com" target="_blank"><div class="shopandship ">
-                            <h2>Maxessorize Sale</h2>
+                            <h2>End Of Season Sale</h2>
                             <br/>
-                            <p>40-80% Off</p>
-                            <p>1st - 2nd August</p>
+                            <p>Upto 60% Off</p>
+                            <p>Price Starts from ₹399/-</p>
                             <p>Explore Now</p>
                         </div></a>
                 </div>
@@ -114,7 +114,7 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">Shop from Myntra.com "Maxessorize Sale"</a></span> & Get ₹200 discount on your First Shipment.
+                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">Shop from Myntra.com "End Of Season Sale"</a></span> & Get ₹200 discount on your First Shipment.
                             </marquee>
                    <center>
                        <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">

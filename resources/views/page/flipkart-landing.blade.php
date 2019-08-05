@@ -44,12 +44,12 @@
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/fashion-weekend-monsoon-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/the-bigfreedomsale-store" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-                                <h2>Friendship Day</h2>
+                                <h2>National Shopping Days</h2>
                                 <br>
-                                <p>Under ₹999/-</p>
-                                <p>Tshirts, Kurtas & more</p>
+                                <p>8th - 11th AUG</p>
+                                <p>Great Offers</p>
                                 <p>Explore Now</p>
                         </div>
                     </a>

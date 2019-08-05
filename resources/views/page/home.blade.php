@@ -272,8 +272,8 @@
                     <div>
                     <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
                         <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
-                        Phoolo ka taaro ka sabka kehna hai, ek hazaro me meri behna hai… this song holds the true meaning of <span class="p-color-red" style="font-size: 14px">रक्षाबंधन का त्यौहार</span>,
-                            so send your Rakhi with us 👉 <a href="http://bit.ly/courier-rakhis" target="_blank">http://bit.ly/courier-rakhis</a></p>
+                        Send your Rakhi Online Worlwide <span class="p-color-red" style="font-size: 14px">( रक्षाबंधन का त्यौहार )</span>,
+                            starting from ₹316/- 👉 <a href="https://m.shoppre.com/send-rakhi-online-worldwide" target="_blank">Ship Now!</a></p>
                     </marquee>
                         </p>
                     </div>
@@ -372,7 +372,7 @@
                         <div class="des-div-rakhi"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">15th July - 25th August</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shipping Price <span class="f-s-16 f-c-red f-w-9">Starts from ₹316/-</span> T&C*</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shipping <span class="f-s-16 f-c-red f-w-9">Starts from ₹316/-</span> T&C*</p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Send RAKHI's & RAKHI GIFTS to your Brother/Sister from INDIA to Worldwide.</p>
                         </div>
