@@ -71,7 +71,7 @@
                         <h1 class="f-s-20 font-weight-900 f-c-d-greay">Ship What You Love from India & Shop With Your <a href="/indian-virtual-address" target="_blank">
                                 Free ShoppRe Indian Virtual Address‎</a></h1>
                     </center>
-                </div>ho
+                </div>
             </div>
 
             <label class="shop">Shop from <span class="font-weight-900">1000+</span>  Indian online stores ‘Including</label>
