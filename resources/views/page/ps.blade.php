@@ -124,7 +124,7 @@
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card s-p-s-b2">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/form-fill-up.png" alt="" style="height: 85px;"/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/form-fill-up.png" alt="" style="height: 85px;"/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 2</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">Fill up Shoppre Order Form</h7>
@@ -185,7 +185,7 @@
                        </div>
                    </div>
                    <div class="col-md-12 col-xs12 s-p-card ps-s-b2">
-                       <div class="col-md-4 col-xs-12"><img class="img-center" src="{{env('AWS_CLOUD_FRONT')}}/img/form-fill-up.png" alt="" style="height: 85px"/></div>
+                       <div class="col-md-4 col-xs-12"><img class="img-center" src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/form-fill-up.png" alt="" style="height: 85px"/></div>
                        <div class="col-md-8 col-xs-12">
                            <h14 class="f-s-10 uppercase f-c-blue">step 2</h14><br/>
                            <h7 class="f-s-7 uppercase f-c-d-gray">Fill up Shoppre Order Form</h7>
