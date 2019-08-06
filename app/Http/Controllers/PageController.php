@@ -496,6 +496,11 @@ class PageController extends Controller
     public function flipkartIndex()
     {
         return view('page.flipkart-landing');
+
+    }
+    public function flipkartNational()
+    {
+        return view('page.flipkart-national');
     }
 
     public function myntraIndex()
