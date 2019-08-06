@@ -2,7 +2,7 @@
 
 @section('title', 'ShoppRe - Shop Indian Stores & Ship Internationally | Courier Service')
 @section('description', 'Sign Up for Indian Address. Shop your favorite Indian store and Ship Internationally. India&#039;s #1 International Courier, Shipping & Consolidation Company')
-@section('keywords', 'shop and ship, courier service, shoppre, consolidation company, indian store, ship internationally, dhl, dtdc, cheapest package forwarding usa')
+@section('keywords', 'shop and ship, courier service, shoppre, shopree,consolidation company, indian store, ship internationally, dhl, dtdc, cheapest package forwarding usa')
 
 @section('css_style')
     <meta name="robots" content="index">

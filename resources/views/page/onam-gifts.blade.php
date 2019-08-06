@@ -163,25 +163,25 @@
                 <br>
                 <ul>
                     <li>
-                        <a href="#What_is_Onam"> <h4 class="f-s-18 f-c-gray f-w-9">What is Onam and how to do Onam shopping?</h4> </a>
+                        <h4><a href="#What_is_Onam"> What is Onam and how to do Onam shopping?</a></h4>
                     </li>
                     <li>
-                        <a href="#How_to_shop"> <h4 class="f-s-18 f-c-gray f-w-9">How to shop for Onam from abroad?</h4></a>
+                       <h4><a href="#How_to_shop">How to shop for Onam from abroad?</a></h4>
                     </li>
                     <li>
-                        <a href="#How_to_save">  <h4 class="f-s-18 f-c-gray f-w-9" >How to save some extra cash on shopping for Onam?</h4></a>
+                        <h4><a href="#How_to_save">How to save some extra cash on shopping for Onam?</a></h4>
                     </li>
                     <li>
-                        <a href="#What_to_purchase"> <h4 class="f-s-18 f-c-gray f-w-9">What to purchase for your daughter for Onam?</h4></a>
+                        <h4><a href="#What_to_purchase">What to purchase for your daughter for Onam?</a></h4>
                     </li>
                     <li>
-                        <a href="#Indecisive_about"> <h4 class="f-s-18 f-c-gray f-w-9">Indecisive about what to wear on Onam for women?</h4></a>
+                        <h4><a href="#Indecisive_about">Indecisive about what to wear on Onam for women?</a></h4>
                     </li>
                     <li>
-                        <a href="#How_to_shop_Balaramapuram"> <h4 class="f-s-18 f-c-gray f-w-9">How to shop Balaramapuram Kaithari sarees from India?</h4></a>
+                        <h4><a href="#How_to_shop_Balaramapuram">How to shop Balaramapuram Kaithari sarees from India?</a></h4>
                     </li>
                     <li>
-                        <a href="#What_should_men"> <h4 class="f-s-18 f-c-gray f-w-9">What should men wear for Onam?</h4></a>
+                        <h4><a href="#What_should_men">What should men wear for Onam?</a></h4>
                     </li>
                 </ul>
                 <br>

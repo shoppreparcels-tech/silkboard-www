@@ -115,8 +115,8 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">National Shopping Days</h4>
                             <h5 class="header6 p-color-cement font-weight-900">8th-10th August</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/the-bigfreedomsale-store" target="_blank">
-                                    <img src="{{asset('uploads/stores/logo_5996fd9938980.png')}}"/>
+                                <a href="https://www.flipkart.com/flipstart-days-store" target="_blank">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
                                 </a>
                             </div>
                         </div>
@@ -130,7 +130,7 @@
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="https://www.limeroad.com/sale?src=shoppre" target="_blank">
-                                    <img src="{{asset('uploads/stores/logo_59a5173241735.png')}}"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a5173241735.png"/>
                                 </a>
                             </div>
                         </div>
@@ -143,7 +143,7 @@
                             <h5 class="header6 p-color-cement font-weight-900">Upto 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.chumbak.com/sale/ngg/c/" target="_blank">
-                                    <img src="{{asset('uploads/stores/logo_59a68d693f754.png')}}"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a68d693f754.png"/>
                                 </a>
                             </div>
                         </div>
@@ -156,7 +156,7 @@
                             <h5 class="header6 p-color-cement font-weight-900">Up to 65% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://indiacircus.com/sales/clearance-sale.html" target="_blank">
-                                    <img src="{{asset('uploads/stores/logo_59a67ba7cb9ec.png')}}"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a67ba7cb9ec.png"/>
                                 </a>
                             </div>
                         </div>
@@ -172,8 +172,8 @@
                             <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com" target="_blank">
-                                    <img src="{{asset('uploads/stores/logo_5997a62748742.png')}}"/>
+                                <a href="https://www.myntra.com" target="_blank">logo_5997a62748742.png
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5997a62748742.png"/>
                                 </a>
                             </div>
                         </div>
@@ -186,7 +186,7 @@
                             <h5 class="header6 p-color-cement font-weight-900">Min. 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
-                                    <img src="{{asset('uploads/stores/logo_59a51d8ae4946.png')}}"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
                                 </a>
                             </div>
                         </div>
@@ -197,9 +197,9 @@
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Freedom Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">8th-11th August</h5>
-                            <div class="ecomSmallBox">
+                            <div class="ecomSmallBox" style="height: 94px;">
                                 <a href="https://www.amazon.in/b?node=5731634031&pf_rd_p=0c5515a4-9dfe-446d-9105-438cf8b094be&pf_rd_r=Z6B10G3X5T91XAFKANDR" target="_blank">
-                                  <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" style="height:100px"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>
                                 </a>
                             </div>
                         </div>
@@ -212,7 +212,7 @@
                             <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.jabong.com" target="_blank">
-                                    <img src="https://www.shoppre.com/uploads/stores/logo_599691d00e27e.png"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_599691d00e27e.png">
                                 </a>
                             </div>
                         </div>
