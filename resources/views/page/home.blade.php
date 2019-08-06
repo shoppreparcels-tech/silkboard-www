@@ -2,14 +2,11 @@
 
 @section('title', 'ShoppRe - Shop Indian Stores & Ship Internationally | Courier Service')
 @section('description', 'Sign Up for Indian Address. Shop your favorite Indian store and Ship Internationally. India&#039;s #1 International Courier, Shipping & Consolidation Company')
-@section('keywords', 'shop and ship, courier service, shoppre, shopree,consolidation company, indian store, ship internationally, dhl, dtdc, cheapest package forwarding usa')
+@section('keywords', 'shop and ship, courier service, shoppre, shopree, shoppers, consolidation company, indian store, ship internationally, dhl, dtdc, cheapest package forwarding usa')
 
 @section('css_style')
     <meta name="robots" content="index">
     <link rel="canonical" href="https://www.shoppre.com"/>
-    <link rel="stylesheet" href="{{asset('css/custom/shipment-sliders.css')}}">
-    <script src="{{asset('js/shipments-slides.js')}}"></script>
-
     <meta property="og:title" content="Shop and Ship with ShoppRe | International Courier and Consolidation Services"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://www.shoppre.com"/>
@@ -347,68 +344,72 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://ship.shoppre.com/refer-and-earn-with-us/" title="Click to Know More" target="_blank">
+                        <a href="amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div"><h4 class="cord-header-size f-c-white">REFER A FRIEND</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">AMAZON FREEDOM SALE</h4></div>
                         </div>
-                        <div class="des-div-rakhi"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">1st July - 31st August</span></p>
+                        <div class="des-div-rakhi text-center"><br>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">08th - 11th August</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Earn ₹500/-</span> on each Referral</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Amazon.in <span class="f-s-16 f-c-red f-w-9">Freedom Sale</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Refer it to everyone you know & earn money on every successful referral. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Amazon & Ship to your country. <br>Get <span class="f-s-16 f-c-red f-w-9">₹250 cashback</span> on shipment.
+                                <br>Offer Code: IND250 <br>
+                                Valid: 08th-20th August 2019</p>
                         </div>
 
                         </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="send-rakhi-gifts-online-worldwide-at-cheap-rates" title="Click to Know Highlights" target="_blank">
+                        <a href="flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" title="Click to Know Highlights" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div"><h4 class="cord-header-size f-c-white">RAKSHA BANDHAN</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">NATIONAL SHOPPING DAYS</h4></div>
                         </div>
-                        <div class="des-div-rakhi"><br>
+                        <div class="des-div-rakhi text-center"><br>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">08th - 10th August</span></p>
+                            <br>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Flipkart.com <span class="f-s-16 f-c-red f-w-9">National Shopping Days</span></p>
+                            <br>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Flipkart & Ship to your country. <br>Get <span class="f-s-16 f-c-red f-w-9">₹250 cashback</span> on shipment.
+                                <br>Offer Code: IND250 <br>
+                                Valid: 08th-20th August 2019</p>
+                        </div>
+
+                    </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
+                        <a href="send-rakhi-gifts-online-worldwide-at-cheap-rates" title="Know More" target="_blank">
+                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
+                        <div class="pad-5 bgr-c-gr">
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">RAKSHA BANDHAN</h4></div>
+                        </div>
+                        <div class="des-div-rakhi text-center"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">15th July - 25th August</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shipping <span class="f-s-16 f-c-red f-w-9">Starts from ₹316/-</span> T&C*</p>
-                            <br>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shipping <span class="f-s-16 f-c-red f-w-9">Starts from ₹316/-</span></p>
+                            <br><br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Send RAKHI's & RAKHI GIFTS to your Brother/Sister from INDIA to Worldwide.</p>
                         </div>
 
                     </div>
                         </a>
                     </div>
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://linksredirect.com/?pub_id=54240CL48886&subid=rakhi-shoppre&source=linkkit&url=https%3A%2F%2Fwww.amazon.in%2Frakhis-rakhi-hampers%2Fb%3Fie%3DUTF8%26node%3D5143508031" title="Know More" target="_blank">
-                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
-                        <div class="pad-5 bgr-c-gr">
-                            <div class="h-div"><h4 class="cord-header-size f-c-white">THE RAKHI STORE</h4></div>
+                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
+                        <a href="https://www.amazon.in/rakhis-rakhi-hampers/b?ie=UTF8&node=5143508031&tag=cuelinkss14110-21&ascsubtag=20190806clye3sumesu5" title="Click for Offer Details" target="_blank">
+                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
+                        <div class="pad-5 bgr-c-br">
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">रक्षाबंधन का त्यौहार</h4></div>
                         </div>
-                        <div class="des-div-rakhi"><br>
+                        <div class="des-div-rakhi text-center"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">25th August</span> | Upto 70% Off</p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Amazon.in</p>
                             <br><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from wide selection of designer, premium and kids’ Rakhis online. </p>
-                        </div>
-
-                    </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.flipkart.com/rakhi-gifts-store" title="Click for Offer Details" target="_blank">
-                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
-                        <div class="pad-5 bgr-c-br">
-                            <div class="h-div"><h4 class="cord-header-size f-c-white">रक्षाबंधन का त्यौहार</h4></div>
-                        </div>
-                        <div class="des-div-rakhi"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Under ₹149/-</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Flipkart.com</p>
-                            <br><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Buy Kids, Rudrakash, Religious, Bracelet, Religious, Lumba, Bhaiya Bhabhi Rakhis</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from wide selection of designer, premium and kids’ Rakhis online.</p>
                         </div>
 
                     </div>
@@ -1187,11 +1188,11 @@
             });
         }
 
-        var input = document.querySelector("#phone");
-        window.intlTelInput(input, {
-            hiddenInput: "full_number",
-            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.0/js/utils.js",
-        });
+        // var input = document.querySelector("#phone");
+        // window.intlTelInput(input, {
+        //     hiddenInput: "full_number",
+        //     utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.0/js/utils.js",
+        // });
        </script>
 @endsection
 

@@ -502,7 +502,10 @@ class PageController extends Controller
     {
         return view('page.flipkart-national');
     }
-
+    public function amznFreedom()
+    {
+        return view('page.amzn-freedom');
+    }
     public function myntraIndex()
     {
         return view('page.myntra-landing');

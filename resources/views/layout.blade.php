@@ -133,7 +133,7 @@
 @include('partials._footer')
 
 <script src="{{asset('js/utils.js')}}"></script>
-<script src="{{asset('js/intlTelInput.js')}}"></script>
+{{--<script src="{{asset('js/intlTelInput.js')}}"></script>--}}
 <script src="{{asset('js/easyResponsiveTabs.js')}}"></script>
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/bootstrap.min.js"></script>
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/txtProgress.min.js"></script>
@@ -224,8 +224,8 @@
             }, 30000);
         }
     });
-    var input = document.querySelector("#phone");
-    window.intlTelInput(input, {
+    // var input = document.querySelector("#phone");
+    // window.intlTelInput(input, {
         // allowDropdown: false,
         // autoHideDialCode: false,
         // autoPlaceholder: "off",
@@ -246,8 +246,8 @@
         // placeholderNumberType: "MOBILE",
         // preferredCountries: ['cn', 'jp'],
         // separateDialCode: true,
-        utilsScript: "build/js/utils.js",
-    });
+    //     utilsScript: "build/js/utils.js",
+    // });
 
     jQuery(function () {
         jQuery("a.bla-1").YouTubePopUp();

@@ -657,7 +657,8 @@ Route::get('/send-rakhi-gifts-online-worldwide-at-cheap-rates', 'PageController@
 Route::get('/kerala-onam-online-shopping-guide-from-india', 'PageController@onamGift')->name('onam-gifts');
 Route::get('/myntra-international-shipping-to-usa', 'PageController@myntraUsa')->name('myntra-usa');
 Route::get('/flipkart-usa-shopping', 'PageController@flipkartUsa')->name('flipkart-usa');
-Route::get('/flipkart-national-shopping-days-sale', 'PageController@flipkartNational')->name('flipkart-national');
+Route::get('/flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india', 'PageController@flipkartNational')->name('flipkart-national');
+Route::get('/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances', 'PageController@amznFreedom')->name('amzn-freedom');
 Route::get('/jabong-usa-shipping-from-india', 'PageController@jabongUsa')->name('jabong-usa');
 Route::get('/trends-ajio-usa-shipping-from-india', 'PageController@ajioUsa')->name('ajio-usa');
 Route::get('/shop-from-amazon-india-and-ship-to-usa', 'PageController@amznUsa')->name('amzn-usa');
