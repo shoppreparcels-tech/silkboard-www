@@ -506,6 +506,10 @@ class PageController extends Controller
     {
         return view('page.amzn-freedom');
     }
+    public function myntraRight()
+    {
+        return view('page.myntra-right');
+    }
     public function myntraIndex()
     {
         return view('page.myntra-landing');

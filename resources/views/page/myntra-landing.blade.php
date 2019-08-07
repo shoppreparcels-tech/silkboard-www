@@ -69,11 +69,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com" target="_blank"><div class="shopandship ">
-                            <h2>End Of Season Sale</h2>
+                    <a href="https://www.myntra.com/shop/rtf19-prebuzz" target="_blank"><div class="shopandship ">
+                            <h2>Right To Fashion Sale</h2>
                             <br/>
-                            <p>Upto 60% Off</p>
-                            <p>Price Starts from ₹399/-</p>
+                            <p>50 - 80% Off</p>
+                            <p>9th - 12th AUG</p>
                             <p>Explore Now</p>
                         </div></a>
                 </div>
@@ -114,7 +114,7 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">Shop from Myntra.com "End Of Season Sale"</a></span> & Get ₹200 discount on your First Shipment.
+                        <span class="f-s-16 f-c-red f-w-9"><a href="myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping">Shop from Myntra.com "Right to Fashion Sale"</a></span> & Get ₹250 cashback on your International Shipment.
                             </marquee>
                    <center>
                        <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">

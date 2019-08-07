@@ -371,7 +371,7 @@
                         <div class="des-div-rakhi text-center"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">08th - 10th August</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Flipkart.com <span class="f-s-16 f-c-red f-w-9">National Shopping Days</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Flipkart <span class="f-s-16 f-c-red f-w-9">National Shopping Days</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Shop Flipkart & Ship to your country. <br>Get <span class="f-s-16 f-c-red f-w-9">₹250 cashback</span> on shipment.
                                 <br>Offer Code: IND250 <br>
