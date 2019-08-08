@@ -663,9 +663,9 @@
         </div>
         <div class="container">
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-review">
-                <div class="col-md-8 col-lg-8" style="margin-top: 20px">
+                <div class="col-md-12 col-lg-12" style="margin-top: 20px">
                     <div class="row" style="margin-left: -36px">
-                        <div class="col-md-3  div-inner-review">
+                        <div class="col-md-4 ">
                             <div class="row div-img-row" id="reviews-img">
                                 <img class=" img-review img-circle"
                                      src="{{env('AWS_CLOUD_FRONT')}}/img/svg/034-woman-8.svg">
@@ -691,7 +691,7 @@
                           </span>
                             </div>
                         </div>
-                        <div class="col-md-3 div-inner-review">
+                        <div class="col-md-4">
                             <div class="row div-img-row" id="reviews-img">
                                 <img class=" img-review img-circle"
                                      src="{{env('AWS_CLOUD_FRONT')}}/img/svg/040-man-11.svg">
@@ -717,7 +717,7 @@
                               </span>
                             </div>
                         </div>
-                        <div class="col-md-3 div-inner-review">
+                        <div class="col-md-4">
                             <div class="row div-img-row" id="reviews-img">
                                 <img class=" img-review img-circle"
                                      src="{{env('AWS_CLOUD_FRONT')}}/img/svg/001-man.svg">
@@ -750,40 +750,40 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4" style="padding-left: 5px;">
-                    <a href="https://g.page/shoppre?share"
-                       target="_blank">
-                        <div class="row div-img-row">
-                            <img class="img-google-logo "
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/svg/google-reviews-shipping-service-bengaluru.svg"
-                                 alt="google reviews cheap international shipping from india">
-                            <p class="p-google-review">Reviews</p>
-                        </div>
-                        <div class="row" style="padding-left: 4px ;margin-top: -20px;">
-                            <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
-                               target="_blank">
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/google-rating-shipping-service-bengaluru.png"
-                                     alt="google rating cheap international shipping from india">
-                            </a>
-                        </div>
-                    </a>
-                    <div class="row-between-reviews" id="hrline1"></div>
-                    <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
-                        <div class="row">
-                            <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
-                                <img class="img-facebook-logo"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-reviews-shipping-service.png"
-                                     alt="facebook goshoppre reviews international parcel delivery">
-                                <p class="p-facebook-review">Reviews</p>
-                            </a>
-                        </div>
-                        <div class="row">
-                            <img class="img-facebook-r"
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-rating-shipping-service.png"
-                                 alt="facebook goshoppre rating international parcel delivery from india">
-                        </div>
-                    </a>
-                </div>
+{{--                <div class="col-md-4 col-lg-4" style="padding-left: 5px;">--}}
+{{--                    <a href="https://g.page/shoppre?share"--}}
+{{--                       target="_blank">--}}
+{{--                        <div class="row div-img-row">--}}
+{{--                            <img class="img-google-logo "--}}
+{{--                                 src="{{env('AWS_CLOUD_FRONT')}}/img/svg/google-reviews-shipping-service-bengaluru.svg"--}}
+{{--                                 alt="google reviews cheap international shipping from india">--}}
+{{--                            <p class="p-google-review">Reviews</p>--}}
+{{--                        </div>--}}
+{{--                        <div class="row" style="padding-left: 4px ;margin-top: -20px;">--}}
+{{--                            <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"--}}
+{{--                               target="_blank">--}}
+{{--                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/google-rating-shipping-service-bengaluru.png"--}}
+{{--                                     alt="google rating cheap international shipping from india">--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                    </a>--}}
+{{--                    <div class="row-between-reviews" id="hrline1"></div>--}}
+{{--                    <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">--}}
+{{--                        <div class="row">--}}
+{{--                            <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">--}}
+{{--                                <img class="img-facebook-logo"--}}
+{{--                                     src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-reviews-shipping-service.png"--}}
+{{--                                     alt="facebook goshoppre reviews international parcel delivery">--}}
+{{--                                <p class="p-facebook-review">Reviews</p>--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                        <div class="row">--}}
+{{--                            <img class="img-facebook-r"--}}
+{{--                                 src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-rating-shipping-service.png"--}}
+{{--                                 alt="facebook goshoppre rating international parcel delivery from india">--}}
+{{--                        </div>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
             </div>
         </div>
     </section>
@@ -837,7 +837,7 @@
                 <img class="img-payment-methods" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paypal-pay-online.svg"
                      alt="paypal online courier parcel">
             </div>
-            <div class="col-md-3 col-lg-3 slider_four_in_linecol-sm-3 col-xs-6 no-padding">
+            <div class="col-md-3 col-lg-3 slider_four_in_line col-sm-3 col-xs-6 no-padding">
                 <img class="img-payment-methods"
                      src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paytm-payment-system-and-digital-wallet.svg"
                      alt="paytm e-commerce digital wallet ">

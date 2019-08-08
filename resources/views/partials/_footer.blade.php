@@ -57,7 +57,7 @@
                     </ul>
                 </div>
             </div>
-
+{{--            <div class="clearfix"></div>--}}
             <div class="col-md-3 col-lg-3 col-sm-6 col-xs-4 pad-5">
                 <ul class="nav-ul">
                     <li class="li"><a itemprop="url" class="footer-a" href="{{route('about')}}">About Us</a></li>
@@ -71,7 +71,7 @@
                     <li class="li"><a class="footer-a" href="http://shoppretracking.aftership.com" target="_blank">Track Your Shipment</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-8 pad-5">
+            <div class="col-md-3 col-lg-3 col-sm-7 col-xs-8 pad-5">
                 <ul class="nav-ul">
                     <li class="li"><a itemprop="url" class="footer-a" href="{{route('medicine')}}">ShoppRe Medicine Courier</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="/university-offer">ShoppRe Documents Courier</a></li>
@@ -85,7 +85,7 @@
             </div>
 
 
-            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 pad-5">
+            <div class="col-md-3 col-lg-3 col-sm-5 col-xs-12 pad-5">
                 <div class="col-md-12 col-xs-12 div-b-w-s pad-20 ">
                     <form class="" id="subscribe" role="form" method="POST">
                         {{csrf_field()}}
