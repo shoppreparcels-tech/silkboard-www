@@ -68,6 +68,7 @@ class SchedulePickupController extends Controller
         $mobile = $request->mobile;
         $email = $request->user_email;
         $customer = $this->signUpPhp($request->first_name, $email, $phone_code, $mobile);
+        Auth::loginUsingId($customer->id);
         $curl = curl_init();
         $items = array();
         $i = 0;
