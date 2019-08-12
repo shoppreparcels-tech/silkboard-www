@@ -83,7 +83,7 @@
                         <br>
                         <p>Handcrafted Rakhi</p>
                         <p>Price Starts from ₹244/-</p>
-                        <p>July 2019</p>
+                        <p>August 2019</p>
                     </div>
                     </a>
                 </div>

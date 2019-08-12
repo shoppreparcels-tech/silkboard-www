@@ -45,7 +45,7 @@
                 {{--</div>--}}
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://www.ajio.com/shop/sale" title="AJIO" target="_blank">AJIO.com STYLE AUTHENTICS Sale (Min. 50% Off) | Shop & Ship with us Worldwide.</a>
+                        <a href="https://www.ajio.com/" title="AJIO" target="_blank">The AJIO MANIA Sale (50-90% Off) | Shop & Ship with us Worldwide.</a>
                     </marquee>
                 </div>
             </div>

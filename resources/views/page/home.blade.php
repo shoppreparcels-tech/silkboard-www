@@ -344,17 +344,17 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" title="Click to Know More" target="_blank">
+                        <a href="myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">AMAZON FREEDOM SALE</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">RIGHT TO FASHION SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">08th - 11th August</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">08th - 12th August</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Amazon.in <span class="f-s-16 f-c-red f-w-9">Freedom Sale</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Myntra.com</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Amazon & Ship to your country. <br>Get <span class="f-s-16 f-c-red f-w-9">₹250 cashback</span> on shipment.
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Myntra & Ship to your country. <br>Get <span class="f-s-16 f-c-red f-w-9">₹250 cashback</span> on shipment.
                                 <br>Offer Code: IND250 <br>
                                 Valid: 08th-20th August 2019</p>
                         </div>
@@ -363,19 +363,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" title="Click to Know Highlights" target="_blank">
+                        <a href="https://www.flipkart.com/rakhi-gifts-store" title="Click Here" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">NATIONAL SHOPPING DAYS</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">RAKHI STORE 2019</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">08th - 10th August</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Shop Now</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Flipkart <span class="f-s-16 f-c-red f-w-9">National Shopping Days</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Flipkart & Ship to your country. <br>Get <span class="f-s-16 f-c-red f-w-9">₹250 cashback</span> on shipment.
-                                <br>Offer Code: IND250 <br>
-                                Valid: 08th-20th August 2019</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Shop from Flipkart.com</span></p>
+                            <br> <br>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Rakhi from Flipkart & Get Delivered Worldwide with ShoppRe.</p>
                         </div>
 
                     </div>
@@ -385,7 +383,7 @@
                         <a href="send-rakhi-gifts-online-worldwide-at-cheap-rates" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">RAKSHA BANDHAN</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">SEND RAKHI WORLDWIDE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">15th July - 25th August</span></p>
@@ -402,7 +400,7 @@
                         <a href="https://www.amazon.in/rakhis-rakhi-hampers/b?ie=UTF8&node=5143508031&tag=cuelinkss14110-21&ascsubtag=20190806clye3sumesu5" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">रक्षाबंधन का त्यौहार</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">SHOP RAKHI ONLINE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">25th August</span> | Upto 70% Off</p>

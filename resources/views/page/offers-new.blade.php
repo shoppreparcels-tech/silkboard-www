@@ -61,13 +61,13 @@
                                 </a>
                             </div>
                         </div>
-                        {{--<div class="item">
+                        <div class="item">
                             <div class="pad15">
-                                <a href="https://www.shoppre.com/university-offer" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/students-shipping-offer.png" class="boxofScroll"/>
+                                <a href="/offers" target="_blank">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/Offer-Page-340x290.png" class="boxofScroll"/>
                                 </a>
                             </div>
-                        </div>--}}
+                        </div>
                         <div class="item">
                             <div class="pad15">
                                 <a href="/first-time-international-shipment-offer" target="_blank">
@@ -91,8 +91,8 @@
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                <a href="/myntra-online-shopping-shipping-from-india" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/Offer-Page-340x290.png" class="boxofScroll"/>
+                                <a href="https://www.shoppre.com/university-offer" target="_blank">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/students-shipping-offer.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
@@ -118,10 +118,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">National Shopping Days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">8th-10th August</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">TVs & Appliances</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up to 75% Offer</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/flipstart-days-store" target="_blank">
+                                <a href="https://www.flipkart.com/tvs-appliances-independence-day-id-sale-store" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
                                 </a>
                             </div>
@@ -188,8 +188,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">STYLE Authentics</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Min. 50% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">The Ajio Mania Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">8th-12th Aug</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
@@ -201,10 +201,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Freedom Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">8th-11th August</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Raksha Bandhan</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Shop Now</h5>
                             <div class="ecomSmallBox" style="height: 94px;">
-                                <a href="https://www.amazon.in/b?node=5731634031&pf_rd_p=0c5515a4-9dfe-446d-9105-438cf8b094be&pf_rd_r=Z6B10G3X5T91XAFKANDR" target="_blank">
+                                <a href="https://www.amazon.in/b?node=7136124031&pf_rd_p=6ab016fd-a8c4-4a00-b2e8-9bf45e4841b3&pf_rd_r=49KTSG1WT2HHDYK8TCKF" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>
                                 </a>
                             </div>

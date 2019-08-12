@@ -119,10 +119,9 @@
     <section>
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="https://www.flipkart.com/the-bigfreedomsale-store" title="flipkart" target="_blank">1. Flipkart 👉National Shopping Days(10th-11th AUG) </a> |
-                <a href="https://www.amazon.in/b?node=5731634031&pf_rd_p=fbe2fe92-ff1b-48d3-84b7-f2069f5246fc&pf_rd_r=DVWBFPAQT43H3J107DWQ" title="amazon" target="_blank">2. Freedom Sale 👉8th-11th AUG</a> |
-                <a href="https://www.amazon.in/rakhis-rakhi-hampers/b?ie=UTF8&node=5143508031" title="Amazon" target="_blank">3. Amazon.in 👉The Rakhi Store</a> |
-                <a href="myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" title="Amazon" target="_blank">4. Myntra.com 👉Right to Fashion Sale(09th-12th AUG)
+                    <a href="https://www.flipkart.com/tvs-appliances-independence-day-id-sale-store" title="flipkart" target="_blank">1. Flipkart 👉TV & Appliances(Up to 75% Off) </a> |
+                    <a href="https://www.amazon.in/rakhis-rakhi-hampers/b?ie=UTF8&node=5143508031" title="Amazon" target="_blank">2. Amazon.in 👉The Rakhi Store</a> |
+                    <a href="myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" title="Amazon" target="_blank">3. Myntra.com 👉Right to Fashion Sale(09th-12th AUG)</a>
             </marquee>
         </div>
         <div class="container" id="how-it-works">

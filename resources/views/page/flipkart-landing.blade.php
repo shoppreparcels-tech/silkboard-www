@@ -44,12 +44,12 @@
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/the-bigfreedomsale-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/tvs-appliances-independence-day-id-sale-store" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-                                <h2>National Shopping Days</h2>
+                                <h2>TVs & Appliances</h2>
                                 <br>
-                                <p>8th - 11th AUG</p>
-                                <p>Great Offers</p>
+                                <p>11th - 15th AUG</p>
+                                <p>Up to 75% Off</p>
                                 <p>Explore Now</p>
                         </div>
                     </a>
