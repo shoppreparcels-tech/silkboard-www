@@ -61,14 +61,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
+                        {{--<div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/university-offer" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/students-shipping-offer.png" class="boxofScroll"/>
                                 </a>
                             </div>
-                        </div>
-
+                        </div>--}}
                         <div class="item">
                             <div class="pad15">
                                 <a href="/first-time-international-shipment-offer" target="_blank">
@@ -87,6 +86,13 @@
                             <div class="pad15">
                                 <a href="/shop-ship" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="/myntra-online-shopping-shipping-from-india" target="_blank">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/Offer-Page-340x290.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>

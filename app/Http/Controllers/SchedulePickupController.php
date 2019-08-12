@@ -80,6 +80,7 @@ class SchedulePickupController extends Controller
         }
         //-required for node js integration - please dont delete this section
         $data = $request;
+         Auth::loginUsingId($customer->id);
         $data_string = [
             'customer_id' => $customer->id,
             'pickup_first_name' => $first_name,
