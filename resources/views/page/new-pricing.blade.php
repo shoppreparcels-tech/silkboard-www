@@ -1359,10 +1359,8 @@
                             url: 'https://courier.shoppre.com/api/pricing?' + queryParams,
                             type: 'get',
                             success: function ({prices}) {
-                                console.log(prices[0].customerRate);
                                 let customer_price = prices[0].customerRate;
                                 let member_price = (customer_price * 95) / 100;
-                                console.log(member_price);
                                 $('#customer-price-tag').text(Math.round(customer_price));
                                 $('#member-price-tag').text(Math.round(member_price));
                                 $('#customer_total_price').text(Math.round(customer_price * 2));

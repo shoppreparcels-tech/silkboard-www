@@ -467,6 +467,10 @@ class PageController extends Controller
     {
         return view('page.firstcry-usa');
     }
+    public function usaShipping()
+    {
+        return view('page.usa-shipping');
+    }
     public function onamGift()
     {
         return view('page.onam-gifts');

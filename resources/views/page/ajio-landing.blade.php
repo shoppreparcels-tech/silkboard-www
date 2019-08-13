@@ -39,13 +39,9 @@
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>
                 </div>
-                {{--<div style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
-                {{--<a href="https://www.ajio.com/" title="ajio.com" target="_blank">40-80% Off on 1,50,000+ Styles ---}}
-                {{--</a>Shop from AJIO & Ship with us Worldwide, Save 80% on shipping cost.</marquee>--}}
-                {{--</div>--}}
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://www.ajio.com/" title="AJIO" target="_blank">The AJIO MANIA Sale (50-90% Off) | Shop & Ship with us Worldwide.</a>
+                        <a href="https://www.ajio.com/" title="AJIO" target="_blank">FREEDOM SPECAIL Sale | Shop & Ship with us Worldwide.</a>
                     </marquee>
                 </div>
             </div>

@@ -663,6 +663,7 @@ Route::get('/myntra-independence-sale-right-to-fashion-sale-offers-discounts-sho
 Route::get('/jabong-usa-shipping-from-india', 'PageController@jabongUsa')->name('jabong-usa');
 Route::get('/trends-ajio-usa-shipping-from-india', 'PageController@ajioUsa')->name('ajio-usa');
 Route::get('/firstcry-international-shipping-usa', 'PageController@firstcryUsa')->name('firstcry-usa');
+Route::get('/cheap-and-fast-shipping-service-from-india-to-usa', 'PageController@usaShipping')->name('usa-shipping');
 Route::get('/shop-from-amazon-india-and-ship-to-usa', 'PageController@amznUsa')->name('amzn-usa');
 Route::get('/jaypore-shopping-usa', 'PageController@jayporeUsa')->name('jaypore-usa');
 Route::get('/best-international-relocation-packers-movers', 'PageController@packers')->name('packers-movers');

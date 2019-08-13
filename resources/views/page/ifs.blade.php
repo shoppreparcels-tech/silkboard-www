@@ -121,7 +121,7 @@
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                     <a href="https://www.flipkart.com/tvs-appliances-independence-day-id-sale-store" title="flipkart" target="_blank">1. Flipkart 👉TV & Appliances(Up to 75% Off) </a> |
                     <a href="https://www.amazon.in/rakhis-rakhi-hampers/b?ie=UTF8&node=5143508031" title="Amazon" target="_blank">2. Amazon.in 👉The Rakhi Store</a> |
-                    <a href="myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" title="Amazon" target="_blank">3. Myntra.com 👉Right to Fashion Sale(09th-12th AUG)</a>
+                <a href="https://www.myntra.com" title="Amazon" target="_blank">3. Myntra.com 👉A Traditional Tale(Up to 70% Off)</a>
             </marquee>
         </div>
         <div class="container" id="how-it-works">

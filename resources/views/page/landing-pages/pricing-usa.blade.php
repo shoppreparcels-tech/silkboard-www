@@ -146,7 +146,7 @@
                         <h1 class="header2 p-color-blue" >Request a Callback</h1>
                         <div class="form-group">
                             {{--<a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">--}}
-                            <img src="/img/images/christmas-contact.png" alt="">
+                            <img src="/img/images/christmas-contact.png" alt="8277919191">
                             {{--</a>--}}
                         </div>
 

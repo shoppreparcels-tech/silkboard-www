@@ -344,19 +344,19 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" title="Click to Know More" target="_blank">
+                        <a href="https://www.myntra.com" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">RIGHT TO FASHION SALE</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">A TRADITIONAL TALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">08th - 12th August</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up To 60% Off</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Myntra.com</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Myntra & Ship to your country. <br>Get <span class="f-s-16 f-c-red f-w-9">₹250 cashback</span> on shipment.
-                                <br>Offer Code: IND250 <br>
-                                Valid: 08th-20th August 2019</p>
+                            <br>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Myntra & Ship to your country. <br>Get <span class="f-s-16 f-c-red f-w-9">₹200 cashback</span> on shipment.
+
                         </div>
 
                         </div>
