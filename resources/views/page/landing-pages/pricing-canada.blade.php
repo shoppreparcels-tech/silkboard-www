@@ -70,83 +70,84 @@
 
     <section class="bg-ics-l-p">
         <div class="container">
-            <div class="col-md-12">
-                <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">
-                </a>
-                <a href="tel:+91-8277919191" class="d-contact-img pull-right">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">
-                </a>
-            </div>
-
+            {{--<div class="col-md-12">--}}
+                {{--<a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">--}}
+                    {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">--}}
+                {{--</a>--}}
+                {{--<a href="tel:+91-8277919191" class="d-contact-img pull-right">--}}
+                    {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">--}}
+                {{--</a>--}}
+            {{--</div>--}}
+            <h1 class="p-color-white header-spacing d-header-text">International Courier
+                <br></h1>
+            <h1 class="header1 p-color-white header-spacing">To Canada, Starting @₹1594/-</h1>
             <div class="col-sm-7 col-xs-12 no-pad">
+                    <div class="col-md-12 col-xs-12 no-pad">
+                        <table class="table table-bordered txt-a-c">
+                            <tr>
+                                <td class="btn-b-y tbl-br">
+                                    <h1>Pricing</h1>
+                                </td>
+                                <td class="div-b-w-s tbl-br">
+                                    <h1>₹1594</h1>
+                                    <p><span>Per</span> 0.5 Kg</p>
+                                </td>
+                                <td class="div-b-w-s tbl-br">
+                                    <h1>₹1790</h1>
+                                    <p><span>Per</span> 1 Kg</p>
+                                </td>
+                                <td class=" div-b-w-s tbl-br">
+                                    <h1>₹2460</h1>
+                                    <p><span>Per</span> 2 Kg</p>
+                                </td>
+                                <td class="div-b-w-s tbl-br">
+                                    <h1>₹3012</h1>
+                                    <p><span>Per</span> 3 Kg</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="div-b-w-s tbl-br">
+                                    <h1>₹3481</h1>
+                                    <p><span>Per</span> 4 Kg</p>
+                                </td>
+                                <td class="div-b-w-s tbl-br">
+                                    <h1>₹3781</h1>
+                                    <p><span>Per</span> 5 Kg</p>
+                                </td>
+                                <td class="div-b-w-s tbl-br">
+                                    <h1>₹5799</h1>
+                                    <p><span>Per</span> 10 Kg</p>
+                                </td>
+                                <td class="div-b-w-s tbl-br">
+                                    <h1>₹11166</h1>
+                                    <p><span>Per</span> 20 Kg</p>
+                                </td>
+                                <td class="div-b-w-s tbl-br">
+                                    <h1>₹30036</h1>
+                                    <p><span>Per</span> 50 Kg</p>
+                                </td>
+                            </tr>
+                        </table>
 
-                <div class="col-md-12 col-xs-12 no-pad">
-                    <h1 class="p-color-white header-spacing d-header-text">International Courier
-                        <br></h1>
-                    <h1 class="header1 p-color-white header-spacing">To Canada, Starting @₹1594/-</h1>
-                    <table class="table table-bordered txt-a-c">
-                        <tr>
-                            <td class="btn-b-y tbl-br">
-                                <h1>Pricing</h1>
-                            </td>
-                            <td class="div-b-w-s tbl-br">
-                                <h1>₹1594</h1>
-                                 <p><span>Per</span> 0.5 Kg</p>
-                            </td>
-                            <td class="div-b-w-s tbl-br">
-                                <h1>₹1790</h1>
-                                <p><span>Per</span> 1 Kg</p>
-                            </td>
-                            <td class=" div-b-w-s tbl-br">
-                                <h1>₹2460</h1>
-                                <p><span>Per</span> 2 Kg</p>
-                            </td>
-                            <td class="div-b-w-s tbl-br">
-                                <h1>₹3012</h1>
-                                <p><span>Per</span> 3 Kg</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="div-b-w-s tbl-br">
-                                <h1>₹3481</h1>
-                                <p><span>Per</span> 4 Kg</p>
-                            </td>
-                            <td class="div-b-w-s tbl-br">
-                                <h1>₹3781</h1>
-                                <p><span>Per</span> 5 Kg</p>
-                            </td>
-                            <td class="div-b-w-s tbl-br">
-                                <h1>₹5799</h1>
-                                <p><span>Per</span> 10 Kg</p>
-                            </td>
-                            <td class="div-b-w-s tbl-br">
-                                <h1>₹11166</h1>
-                                <p><span>Per</span> 20 Kg</p>
-                            </td>
-                            <td class="div-b-w-s tbl-br">
-                                <h1>₹30036</h1>
-                                <p><span>Per</span> 50 Kg</p>
-                            </td>
-                        </tr>
-                    </table>
+                    </div>
+                    <div class="col-md-12 col-xs-12 no-pad" style="margin-bottom: 14px;">
+                       <center>
+                           <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Schedule Pickup</a>
+                           <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Estimate</a>
+                           <br>
+                       </center>
+                        <br>
+                        <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r btn-f-w">Get ₹200 Discount on your 1st Shipment.</a>
+                    </div>
 
-                </div>
-                <div class="col-md-12 col-xs-12 no-pad">
-                    <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Schedule Pickup</a>
-                    <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Estimate</a>
-                    <br>
-                    <br>
-                    <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r btn-f-w">Avail Your Discount on your First International Shipment. Use Code: FRST50</a>
-                </div>
 
             </div>
 
-            <div class="col-sm-5 col-xs-12" style="padding-top: 50px">
+            <div class="col-sm-5 col-xs-12">
                 <form action="" method="post" id="ics_lp">
                     {{csrf_field()}}
-                    <div class="formFrame " id="diwali-couponcode1">
-                        <h1 class="header2 p-color-blue" style="margin-bottom: 30px">Request a Callback</h1>
+                    <div class="formFrame " id="diwali-couponcode1" style="padding: 10px 20px!important;">
+                        <h1 class="header2 p-color-blue">Request a Callback</h1>
                         <div class="form-group">
                             {{--<a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">--}}
                             <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">

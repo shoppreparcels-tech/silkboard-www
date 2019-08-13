@@ -68,14 +68,14 @@
 @section('content')
     <section class="bg-ics-l-p">
         <div class="container">
-            <div class="col-md-12">
-                <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">
-                </a>
-                <a href="tel:+91-8277919191" class="d-contact-img pull-right">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">
-                </a>
-            </div>
+            {{--<div class="col-md-12">--}}
+                {{--<a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">--}}
+                    {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">--}}
+                {{--</a>--}}
+                {{--<a href="tel:+91-8277919191" class="d-contact-img pull-right">--}}
+                    {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">--}}
+                {{--</a>--}}
+            {{--</div>--}}
             <div class="col-sm-7 col-xs-12 no-pad">
                 <div class="col-md-12 col-xs-12 no-pad">
                     <h1 class="p-color-white header-spacing d-header-text">International Courier To USA
@@ -128,23 +128,22 @@
                     </table>
 
                 </div>
-                <div class="col-md-12 col-xs-12 no-pad">
-                    <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Schedule Pickup</a>
-                    <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Estimate</a>
+                <div class="col-md-12 col-xs-12 no-pad" style="margin-bottom: 14px;">
+                    <center>
+                        <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l">Schedule Pickup</a>
+                        <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Estimate</a>
+                    </center>
                     <br>
-                    <br>
-                    <div class="col-md-8 col-xs-12 no-pad">
-                        <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r btn-f-w f-s-14">*50% off on your first time Shipment, Use Code: FRST50</a>
-                    </div>
+                        <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r btn-f-w f-s-14">₹200 off on your first time Shipment, Use Code: FRST50</a>
                 </div>
 
             </div>
 
-            <div class="col-sm-5 col-xs-12" style="padding-top: 50px">
+            <div class="col-sm-5 col-xs-12" style="padding-top: 130px">
                 <form action="" method="post" id="ics_lp">
                     {{csrf_field()}}
-                    <div class="formFrame " id="diwali-couponcode1">
-                        <h1 class="header2 p-color-blue" style="margin-bottom: 30px">Request a Callback</h1>
+                    <div class="formFrame " id="diwali-couponcode1" style="padding: 10px 20px !important;">
+                        <h1 class="header2 p-color-blue" >Request a Callback</h1>
                         <div class="form-group">
                             {{--<a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">--}}
                             <img src="/img/images/christmas-contact.png" alt="">
