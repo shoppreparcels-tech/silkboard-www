@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="{{asset('css/custom/signup.css')}}?{{Config::get('app.last_commit_hash')}}">
     <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
     <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/select2.min.css">
-    <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/star-rating.min.css">
+    {{--<link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/star-rating.min.css">--}}
 
 
     @yield('css_style')
@@ -140,7 +140,7 @@
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/validate.min.js"></script>
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/angular.min.js"></script>
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/ui-bootstrap-tpls-2.5.0.min.js"></script>
-<script src="{{env('AWS_CLOUD_FRONT')}}/js/star-rating.min.js" type="text/javascript"></script>
+{{--<script src="{{env('AWS_CLOUD_FRONT')}}/js/star-rating.min.js" type="text/javascript"></script>--}}
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/select2.min.js"></script>
 
 <script>
