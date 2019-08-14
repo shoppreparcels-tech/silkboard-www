@@ -46,8 +46,8 @@
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Cheapest way to send parcel to USA from India</h2>
                 </div>
-                <div class="col-md-2 col-md-offset-1 col-xs-12">
-                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20Looking%20for%20Shipping%20Service%20to%20USA%20from%20India" target="_blank" class="c-image">
+                <div class="col-md-2 col-md-offset-1 col-xs-12 text-center">
+                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20Looking%20for%20Shipping%20Service%20to%20USA%20from%20India" target="_blank" title="Click to WhatsApp">
                         <img src="/img/images/christmas-contact.png" alt="shoppre contact number 8277919191">
                     </a>
                 </div>

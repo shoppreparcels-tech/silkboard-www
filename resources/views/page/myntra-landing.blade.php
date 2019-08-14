@@ -70,9 +70,9 @@
             <div class="row text-center">
                 <div class="col-sm-4">
                     <a href="https://www.myntra.com" target="_blank"><div class="shopandship ">
-                            <h2>A Traditional Tale</h2>
+                            <h2>Fashion Parade Sale</h2>
                             <br/>
-                            <p>Up To 70% Off</p>
+                            <p>50-80% Off</p>
                             <p>Men & Women</p>
                             <p>Explore Now</p>
                         </div></a>
@@ -114,7 +114,7 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/">Shop from Myntra.com "A Traditional Tale"</a></span> & Get ₹200 discount on your 1st International Shipment.
+                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/">Shop from Myntra.com "Fashion Parade Sale"</a></span> & Get ₹200 discount on your 1st International Shipment.
                             </marquee>
                    <center>
                        <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">
@@ -309,6 +309,45 @@
             <br/><br/>
         </div>
     </section>
+
+    <section>
+        <div class="container div-ics-border-btm">
+            <div class="col-md-12 col-xs-12 no-pad">
+                <center>
+                    <h1 class="f-s-30 f-c-d-greay">Indian online shopping websites with ShoppRe International delivery</h1>
+                    <p class="f-s-20 f-c-gray">List of the top Indian online shopping websites international delivery through ShoppRe ecommerce
+                        package forwarding services and Festival Deals, Offers and Sale.</p>
+                    </br>
+                </center>
+                <div class=" col-md-12 col-xs-12 div-ics-prodcts">
+                    <div class="col-md-6 col-xs-12 no-padding">
+                        <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="flipkart-shopping-with-shoppre-from-india" target="_blank">Flipkart Online Shopping</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" target="_blank">Amazon.in Online Shopping</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="ajio-online-shopping-international-shipping" target="_blank">AJIO Online Shopping</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="limeroad-shopping-international-shipping" target="_blank">Limeroad Fashion Shopping</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="etsy-international-shipping-from-india" target="_blank">ETSY India Online Shopping</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="jaypore-international-shipping-from-india" target="_blank">Shop from Jaypore Store Online</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-xs-12 no-padding">
+                        <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="https://ship.shoppre.com/products-on-sale-pure-organic-yoga-clothing-and-products-made-in-india/" target="_blank">Yoga Organic Clothing Sale</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="https://ship.shoppre.com/prime-amazon-fashion-wardrobe-refresh-sale-shop-online-from-india/" target="_blank">Fashion Wardrobe Refresh Sale</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="https://ship.shoppre.com/online-shopping-flipkart-flipstart-days-2019-offers-fashion-beauty-headphones-laptops-power-banks-mobile-cases/" target="_blank">Flipstart Days Sale 2019</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" target="_blank">Myntra Right To Fashion Sale</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" target="_blank">Flipkart National Shopping Days</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+    </section>
+
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">

@@ -663,7 +663,10 @@ class PageController extends Controller
     {
         return view('page.landing-pages.pricing-southafrica');
     }
-
+    public function pricingJapan()
+    {
+        return view('page.landing-pages.pricing-japan');
+    }
     public function contactIndex()
     {
         return view('page.contact-new');

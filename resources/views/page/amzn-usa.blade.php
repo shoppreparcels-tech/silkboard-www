@@ -49,8 +49,8 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon India Delivery to USA (India's Largest Online Store‎)
                     </h2>
                 </div>
-                <div class="col-md-2 col-md-offset-1 col-xs-12">
-                    <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20Amazon.in%20from%20India%20and%20Ship%20to%20USA?" target="_blank" class="c-image">
+                <div class="col-md-2 col-md-offset-1 col-xs-12 text-center">
+                    <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20Amazon.in%20from%20India%20and%20Ship%20to%20USA?" target="_blank">
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9880393291-shop-ship-contact-number.png" alt="shop and ship number shoppre">
                     </a>
                 </div>

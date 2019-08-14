@@ -52,53 +52,53 @@
 
     <section class=" ">
         <div class="container christmas-service">
-            <div class="row">
-                <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>
-                </div>
-            </div>
-            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in Sales</h2>
-            <div class="row text-center">
-                <div class="col-sm-4">
+            {{--<div class="row">--}}
+                {{--<div class="col-md-8 col-xs-12">--}}
+                    {{--<h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in Sales</h2>--}}
+            {{--<div class="row text-center">--}}
+                {{--<div class="col-sm-4">--}}
 
-                    <div class="shopandship ">
-                        <a href="https://www.amazon.in/dp/B07QT54G6P?pf_rd_p=e370b40c-f114-436a-af24-b3c3909d9180&pf_rd_r=JVKWQFW1SB33GT29E2TG" target="_blank">
-                        <h2>Redmi 7</h2>
-                        <br/>
-                        <p>Comet  Blue, 5GB RAM, 32GB Storage</p>
-                        <p>₹7,999</p>
-                        <p>June 2019</p>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ps">
-                        <a href="https://www.primevideo.com/region/eu/ref=dv_web_force_root/260-4242713-0952361" target="_blank">
-                        <h2>Just For Prime</h2>
-                        <br>
-                        <p>Up to 70% Off</p>
-                        <p>Extra 10% Off</p>
-                        <p>Bags, Wallet & Luggage</p>
-                    </div></a>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ic">
-                        <a href="https://www.amazon.in/b?node=14907965031&pf_rd_p=37a926b9-479c-4bcf-a5bd-309decaac0a4&pf_rd_r=JVKWQFW1SB33GT29E2TG">
-                        <h2>Women's Clothing</h2>
-                        <br>
-                        <p>Under ₹599</p>
-                        <p>Western Wear, Ethnic Wear </p>
-                        <p>June 2019</p>
-                    </div></a>
-                </div>
-            </div>
+                    {{--<div class="shopandship ">--}}
+                        {{--<a href="https://www.amazon.in/dp/B07QT54G6P?pf_rd_p=e370b40c-f114-436a-af24-b3c3909d9180&pf_rd_r=JVKWQFW1SB33GT29E2TG" target="_blank">--}}
+                        {{--<h2>Redmi 7</h2>--}}
+                        {{--<br/>--}}
+                        {{--<p>Comet  Blue, 5GB RAM, 32GB Storage</p>--}}
+                        {{--<p>₹7,999</p>--}}
+                        {{--<p>June 2019</p>--}}
+                    {{--</div>--}}
+                    {{--</a>--}}
+                {{--</div>--}}
+                {{--<div class="col-sm-4">--}}
+                    {{--<div class="ps">--}}
+                        {{--<a href="https://www.primevideo.com/region/eu/ref=dv_web_force_root/260-4242713-0952361" target="_blank">--}}
+                        {{--<h2>Just For Prime</h2>--}}
+                        {{--<br>--}}
+                        {{--<p>Up to 70% Off</p>--}}
+                        {{--<p>Extra 10% Off</p>--}}
+                        {{--<p>Bags, Wallet & Luggage</p>--}}
+                    {{--</div></a>--}}
+                {{--</div>--}}
+                {{--<div class="col-sm-4">--}}
+                    {{--<div class="ic">--}}
+                        {{--<a href="https://www.amazon.in/b?node=14907965031&pf_rd_p=37a926b9-479c-4bcf-a5bd-309decaac0a4&pf_rd_r=JVKWQFW1SB33GT29E2TG">--}}
+                        {{--<h2>Women's Clothing</h2>--}}
+                        {{--<br>--}}
+                        {{--<p>Under ₹599</p>--}}
+                        {{--<p>Western Wear, Ethnic Wear </p>--}}
+                        {{--<p>June 2019</p>--}}
+                    {{--</div></a>--}}
+                {{--</div>--}}
+            {{--</div>--}}
 
             <div class=" col-md-12 offer-description">
 
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
                         <center>
-                            <a href="https://www.amazon.in/" target="_blank"><img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" alt="amazon.in"></a>
+                            <a href="https://www.amazon.in/" title="Click her to Shop from Amazon.in" target="_blank"><img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" alt="amazon.in"></a>
                         </center>
                     </div>
                 </div>
@@ -177,7 +177,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned of your documents</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-specific Discount</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery, online tracking</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery</span></li>
 
                         </ul>
                     </div>
@@ -212,7 +212,7 @@
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Online shopping with international shipping from India!</h1>
 
                 <br>
-                <a href="{{route('customer.register')}}" class="btn-chris-place-order">Sign Up for Free</a>
+                <a href="{{route('customer.register')}}" class="btn btn-s-b btn-b-g">Create Free account</a>
 
             </center>
         </div>
@@ -308,24 +308,27 @@
             <h1 class="header2 p-color-cement-dark font-weight-900">Frequently Asked Questions: </h1>
             <ul style="text-decoration: none;list-style: none">
                 <li>
-                    <h3 class="header4 p-color-cement-dark font-weight-900">How do I order an amazon product and get it delivered to UAE?</h3>
+                    <h3 class="header4 p-color-cement-dark font-weight-900">1. How do I order an amazon product and get it delivered to UAE?</h3>
                     <p class="header5 p-color-cement ">Go online and shop on Amazon.in and reach out to us, sign up on ShoppRe
                         Dashboard & make your request to <a href="https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg">ship it to UAE</a>. You'll be guided by our
                         Support as to how to take it from there. </p>
                 </li>
+                <br>
                 <li>
-                    <h3 class="header4 p-color-cement-dark font-weight-900">Can I buy from amazon INDIA and ship to US?</h3>
+                    <h3 class="header4 p-color-cement-dark font-weight-900">2. Can I buy from amazon INDIA and ship to US?</h3>
                     <p class="header5 p-color-cement ">Of course you can. You can shop from Amazon.in and get us to
                         ship to the USA. We ship to 220+ countries around the world.</p>
                 </li>
+                <br>
                 <li>
-                    <h3 class="header4 p-color-cement-dark font-weight-900">How do I buy from India online Stores and Ship to UK?</h3>
+                    <h3 class="header4 p-color-cement-dark font-weight-900">3. How do I buy from India online Stores and Ship to UK?</h3>
                     <p class="header5 p-color-cement ">You can <a href="{{route('stores1')}}">shop from any Indian online store</a>, ship your purchases to us;
                         and make a request to ship it internationally to your location in UK.
                         For more info; contact our Support. </p>
                 </li>
+                <br>
                 <li>
-                    <h3 class="header4 p-color-cement-dark font-weight-900">Can I order different books on Amazon.in and get them delivered in single shipment to save money?</h3>
+                    <h3 class="header4 p-color-cement-dark font-weight-900">4. Can I order different books on Amazon.in and get them delivered in single shipment to save money?</h3>
                     <p class="header5 p-color-cement ">Of course. We strive to make the <a href="{{route('pricing')}}">shipping costs</a> of our customers as low as possible. So,
                         we'd be behind you 100% in this matter as our main service that allows you save up is our
                         Package Consolidation. You can make use of our 20-day FREE storage
@@ -351,7 +354,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
 
                 </div>
 
@@ -398,7 +401,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
 
                 </div>
 

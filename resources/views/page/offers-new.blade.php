@@ -64,7 +64,7 @@
                         <div class="item">
                             <div class="pad15">
                                 <a href="/offers" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/Offer-Page-340x290.png" class="boxofScroll"/>
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/ind250-shoppre.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
@@ -174,11 +174,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Right to fashion Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Fashion Parade</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">14th-15th Aug</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" target="_blank">
+                                <a href="https://www.myntra.com/" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5997a62748742.png"/>
                                 </a>
                             </div>
@@ -188,8 +188,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">The Ajio Mania Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">8th-12th Aug</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Freedom Special Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Shop Now</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>

@@ -682,6 +682,7 @@ Route::get('/international-courier-charges-india-to-australia-per-kg', 'PageCont
 Route::get('/international-courier-charges-india-to-singapore-per-kg', 'PageController@pricingSingapore')->name('singaporePerKg');
 Route::get('/international-courier-charges-india-to-germany-per-kg', 'PageController@pricingGermany')->name('germanyPerKg');
 Route::get('/international-courier-charges-india-to-south-africa-per-kg', 'PageController@pricingSouthafrica')->name('southafricaPerKg');
+Route::get('/international-courier-charges-india-to-japan-per-kg', 'PageController@pricingJapan')->name('japanPerKg');
 Route::get('/dropshipping-from-india-and-worldwide-delivery', 'PageController@dropShipping')->name('dropShipping');
 
 

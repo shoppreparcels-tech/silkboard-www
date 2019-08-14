@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Courier Charges Per Kg To South Africa from India | ShoppRe')
-@section('description', 'Cheap Courier charges Per Kg to South Africa. Door-to-door Pickup services anywhere in India. Our prices start from ₹1629. Courier Now!')
-@section('keywords', 'courier charges, durban, south african indians, international shipping from india, cape town, courier services near me')
+@section('title', 'Courier Charges Per Kg To Japan from India | ShoppRe')
+@section('description', '')
+@section('keywords', 'courier services near me')
 
 @section('css_style')
     <script type="application/ld+json">
@@ -10,8 +10,8 @@
   "@context": "http://schema.org",
   "@type": "Organization",
   "name": "ShoppRe.com",
-  "alternateName": "Send International Courier From India to South Africa",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-south-africa-per-kg",
+  "alternateName": "Send International Courier From India to Japan",
+  "url": "https://www.shoppre.com/international-courier-charges-india-to-japan-per-kg",
   "logo": "https://www.shoppre.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
@@ -41,9 +41,9 @@
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
   "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-south-africa-per-kg",
+  "url": "https://www.shoppre.com/international-courier-charges-india-to-japan-per-kg",
   "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
-  "description": "international courier from India to South Africa",
+  "description": "international courier from India to japan",
   "originAddress": {
     "@type": "PostalAddress",
     "streetAddress": "No.181, 1st Floor 2nd Cross Rd, 1st Block Koramangala",
@@ -54,7 +54,7 @@
   },
   "deliveryAddress": {
     "@type": "PostalAddress",
-    "addressCountry": "South Africa"
+    "addressCountry": "Japan"
   },
    "hasDeliveryMethod": {
   "@type": "DeliveryMethod",
@@ -63,7 +63,7 @@
 }
 </script>
 
-<link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-south-africa-per-kg" />
+<link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-japan-per-kg" />
 
 @endsection
 @section('content')
@@ -72,50 +72,50 @@
 
             <div class="col-sm-7 col-xs-12 no-pad">
                 <div class="col-md-12 col-xs-12 no-pad">
-                    <h1 class="p-color-white header-spacing d-header-text">Courier Rates To South Africa
+                    <h1 class="p-color-white header-spacing d-header-text">Courier Rates To Japan
                         <br></h1>
-                    <h1 class="header1 p-color-white header-spacing">Starting from ₹1629/-</h1>
+                    <h1 class="header1 p-color-white header-spacing">Starting from ₹1633/-</h1>
                     <table class="table table-bordered txt-a-c">
                         <tr>
                             <td class="btn-b-y tbl-br">
                                 <h1>Pricing</h1>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1629</h1>
+                                <h1>₹1633</h1>
                                 <p><span>Per</span> 0.5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1812</h1>
+                                <h1>₹1843</h1>
                                 <p><span>Per</span> 1 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹2223</h1>
+                                <h1>₹2491</h1>
                                 <p><span>Per</span> 2 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3062</h1>
+                                <h1>₹3207</h1>
                                 <p><span>Per</span> 3 Kg</p>
                             </td>
                         </tr>
                         <tr>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3629</h1>
+                                <h1>₹3786</h1>
                                 <p><span>Per</span> 4 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹4196</h1>
+                                <h1>₹4014</h1>
                                 <p><span>Per</span> 5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3951</h1>
+                                <h1>₹3448</h1>
                                 <p><span>Per</span> 10 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹8381</h1>
+                                <h1>₹7703</h1>
                                 <p><span>Per</span> 20 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹23664</h1>
+                                <h1>₹21368</h1>
                                 <p><span>Per</span> 50 Kg</p>
                             </td>
                         </tr>
@@ -138,7 +138,7 @@
                     {{csrf_field()}}
                     <div class="formFrame " id="diwali-couponcode1" style="padding: 10px 20px !important;">
                         <h1 class="header2 p-color-blue" >Request a Callback</h1>
-                        <div class="form-group">
+                        <div class="form-group ">
                             {{--<a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">--}}
                             <img src="/img/images/christmas-contact.png" alt="8277919191">
                             {{--</a>--}}
@@ -149,7 +149,7 @@
                             <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>
                             {{--</button>--}}
                             {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
-                            <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Courier%20Quote%20from%20India%20to%20South%20Africa" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
+                            <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Courier%20Quote%20from%20India%20to%20Japan" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
                             {{--</button>--}}
                         </div>
                         <p class="f-s-8 f-c-d-greay f-w-7">We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
@@ -179,68 +179,70 @@
         <div class="container">
             <center>
                 <br>
-                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">International Courier From India to South Africa</span>,
-                    <br>Ship What You Love From India To South Africa</h1>
+                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">International Courier From India to Japan</span>,
+                    <br>easy and best shipping services from india to japan</h1>
             </center>
             <br>
-            <p class="f-s-22 f-c-d-gray">A BETTER AND EASY WAY TO SHIP ALL YOUR STUFFS FROM INDIA TO SOUTH AFRICA
-            </p>
+            <p class="f-s-22 f-c-d-gray">FASTEST AND RELIABLE SHIPPING SERVICES TO JAPAN</p>
             <br>
-            <p class="f-s-18 f-c-gray">Shipping stuff from one country to another has most often been a plague. No more with ShoppRe!  Just sit back and relax while we take
-                care of your shipment from end to end with very cheap shipping charges and with the utmost care and secured. International shipping will no
-                longer be a troublesome nor a hassle process.
+            <p class="f-s-18 f-c-gray">ShoppRe would love to provide fast, cheap, reliable and better quality shipping services to Japan,
+                which is known for its amazing history and also one of the rarest countries filled with lots of cultures, traditions, customs and
+                practices with highly integrated and sophisticated technology.
             </p> <br>
-            <p class="f-s-18 f-c-gray">Need to ship Indian items to South Africa? Have no idea how to proceed? Have many questions shooting on your mind?
-                Finding it difficult to get the answers for all those questions? What are the restricted items?
-                What are the items that are prohibited to ship to South Africa? Can I ship food items? Can I ship this, that? Is it reliable? Is it safe?
-                Do you manage all the custom duties? Worried about courier charges per kg?
-            </p> <br>
-
-            <h2 class="f-s-20 f-c-d-gray f-w-8"> No worries:) ShoppRe has you secured. Find the answers below for all your queries.</h2>
-            <h2 class="f-s-18 f-c-d-gray f-w-8">1. How much does it cost to send a parcel to South Africa?</h2>
-            <p class="f-s-16 f-c-gray">ShoppRe charges its price to all its customers based on both volumetric and actual weight and also
-                provides you with a consolidation facility, wherein, if you have multiple packages, it compiles all the packages and packs into one and
-                then ship through which again you can cut down the cost to its minimal.
+            <p class="f-s-18 f-c-gray">It is quite clear that importing stuff to Japan is a hassle process with lots and lots of procedures and imposed
+                custom duties. But with ShoppRe, your shipping would be made more Easy and Reliable with Package Forwarding, Relocation, Personal Shopper,
+                Freight and Sea Forwarding services by consolidating all your packages that helps you in reducing the per kg cost after providing a 20-day free storage facility.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">2. What is the best and cheap way to courier stuff from India to South Africa?</h2>
-            <p class="f-s-16 f-c-gray">ShoppRe finds a great delight by connecting Indian customers/consumers in South Africa and offers the best,
-                cheap and very reliable costs to the courier with an excellent and unforgettable experience which you would take back from ShoppRe.
+            <h2 class="f-s-20 f-c-d-gray f-w-8"> For all the queries of what can be shipped and what cannot be, go through the following FAQs that would guide and help you in a
+                better understanding of the process and procedures from end to end.</h2> <br>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">1. What is the cheapest and best way to send a package from India to Japan?</h2>
+            <p class="f-s-16 f-c-gray">Well, ShoppRe would be the best answer for this. With ShoppRe You can ship all your stuff with an incredible delight as the ShoppRe’s
+                main objective is connecting back the Indian consumers living abroad back with India and take the Indian online market and small scale sellers reach the global market.
                 <br>
-                It also allows its customers to use the premium service where almost half of the shipping charges would be cut down and
-                would help while doing bulk and regular shipments and for the rest, it provides almost 50% offer depending on the destination country along with the other exciting offers.
+                With the best, shoddy and truly solid shipping rates, You would definitely reclaim your experience with ShoppRe as almost 50% of the shipment costs
+                would be discounted to all the customers alongside the other energizing offers for the first time users, month-end-offers and many more.
 
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">3. What are the prohibited and restricted items to courier from India to South Africa?</h2>
-            <p class="f-s-16 f-c-gray">All the liquid/semi-liquid items are treated as special items and would charge a special clearance fee
-                for the same so as to take an extra care as it would be treated and handled delicately. <br>
-                All the medicines will be required an original prescription and invoice to be shipped. <br>
-                All the harmful materials such as weapons would be prohibited.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">2. Can I ship stuff from Amazon.in/ Flipkart/Myntra to Japan?</h2>
+            <p class="f-s-16 f-c-gray">The answer is no. But ShoppRe allows you to shop from any of your favorite Indian online stores and handles the burden of
+                shipping them to your doorstep by taking care of all the Indian customs while you can just sit back and relax.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">4. Can you shop and ship from Indian online stores with low courier charges per kg?</h2>
-            <p class="f-s-16 f-c-gray"> Absolutely yes! ShoppRe provides you with the benefit of online shopping from your favorite
-                <a href="indian-online-stores" target="_blank">Indian Online Shopping Portals</a> and
-                receives the packages on your behalf (if you do not have an Indian address) by providing you with a virtual address and stores it in a unique locker for
-                20 free days, consolidate it and ship it to your doorstep once the ship request is created. It also provides you with a personal shopper facility where
-                ShoppRe shops for you if you find it unable to place an order when you don't have Indian credentials and Ships it to your
-                doorstep anywhere in South Africa with very low shipping charges.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">3. Can I ship spices to Japan?</h2>
+            <p class="f-s-16 f-c-gray">Absolutely Yes! But not all the items are on the list. Spices like cumin, mustard seeds, coriander, black pepper, clove,
+                etc can be shipped to Japan without any issues but few items like turmeric, saffron, Hing, etc are restricted by the Indian Customs.
+                This would definitely be positive news for all the Indian Restaurant holders in Japan. And also can add that extra Indian flavor and touch to serve the
+                Indian crowd and Japanese crowd as well while they would really love it.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">5. Do ShoppRe provide Parcel Forwarding service to South Africa?</h2>
-            <p class="f-s-16 f-c-gray">Yes! You can not just shop and ship with ShoppRe but can also avail their Package Forwarding Services to South Africa by just
-                signing up with them and getting a virtual address and a unique locker number, Which you can then use in any of the shopping
-                websites as your shipping address to ship all your purchases which will then be shipped to your home country at your designated address anywhere in the South Africa.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">4. Does shipping automotive products be risk-free from India to Japan</h2>
+            <p class="f-s-16 f-c-gray">Yup! Automotive products like Motors, etc.,can be easily shipped while few other items have restrictions
+                to be shipped. However, you can enjoy the benefits of high-quality motors, air-conditioners, and other auto-parts of your vehicles and ship
+                them with ShoppRe to your doorstep with very cheap and affordable rates (with high-quality services)
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">6. What is the best way to ship Jewelry from India to South Africa?</h2>
-            <p class="f-s-16 f-c-gray">ShoppRe is the answer again! With ShoppRe shipping jewelry would never be a hassle process. ShoppRe
-                helps you ship any kind of jewelry except Gold, Silver, Diamond and other precious metals/ornaments in a very reliable and within a short duration of 3-6 working days.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">5. Can ShoppRe ship smart phones from India to Japan?</h2>
+            <p class="f-s-16 f-c-gray">Here we are, in the generation where 5G is gonna enter into our lives very shortly with very sophisticated and advanced services.
+                But how far can we make the best use of the available smartphones is questionable? ShoppRe is here with its best service of shipping the wide variety of
+                smartphones from India to Japan within just 3-6 working days which you would really love it.
             </p> <br>
-            <h2 class="f-s-18 f-c-d-gray f-w-8">7. Does Flipkart/Amazon.in/Club Factory ship to South Africa?</h2>
-            <p class="f-s-16 f-c-gray">Flipkart/Amazon.in/Club Factory does not ship to South Africa unfortunately. However,
-                ShoppRe provides you a platform to shop from these websites and helps you ship it to your doorstep without any hassle within just 3-6 working days.
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">6. Why Should I ship Jewelry from India to Japan?</h2>
+            <p class="f-s-16 f-c-gray">Well, Often, shipping related queries start with ‘CAN I SHIP THIS? HOW DO I SHIP IT? Etc., But here is one such question which you would definitely feel it informative.
+                The reason is very simple. The connection between jewelry and women is so deep that every woman considers her makeover incomplete without embracing some traditional jewelry that adds luster to
+                her entire personality. Whether it's a wedding ceremony or a festival, a woman truly sparkles if adorns cultural ornaments, which India is famous for.
+                ShoppRe helps you ship your favorite Indian fancy/traditional jewelry except precious stones like gold, silver, diamond etc that makes you
+                look extra beautiful and add some astonishing look to the entire event/party at very affordable prices.
+
+            </p> <br>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">7. What else can I ship from India to Japan?</h2>
+            <p class="f-s-16 f-c-gray">Indian handicrafts are one more thing that every person would fall in love with.
+                It not only decorates your room/office but would create you a pleasant working and living atmosphere. Shopping and
+                shipping these handmade and most attractive items depicting different traditions, cultures,  etc.,along with the element of attractiveness,
+                would help and encourage many talented women who are not really in the spotlight.
+
             </p> <br>
 
         </div>
@@ -351,10 +353,10 @@
 
 
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/international-courier-charges-per-kg/from-india-to-finland/" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="international-courier-charges-india-to-south-africa-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">Finland Courier Rates</span>
+                                <span class="elementor-icon-list-text txt-u-l">South Africa Courier Rates</span>
                             </a>
                         </div>
                     </div>

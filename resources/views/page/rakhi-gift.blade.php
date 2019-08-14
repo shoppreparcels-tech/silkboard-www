@@ -47,7 +47,7 @@
                 <div class="col-md-8 col-xs-12 ">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Thank Your Sibling With Rakhi & Gifts. Send Love through ShoppRe.</h2>
                 </div>
-                <div class="col-md-4 col-xs-12">
+                <div class="col-md-4 col-xs-12 text-center">
                     <div class="">
                         <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Can%20i%20Send%20Rakhi,%20Gifts%20and%20Sweets%20from%20India?" target="_blank">
                             <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" alt="shoppre rakhi" >
@@ -246,7 +246,7 @@
             <br>
             <br>
                 <div>
-                <center><a href="{{route('customer.register')}}" class="btn btn-s-r btn-a-l btn-b-r" target="_blank">Sign Up Now for FREE!</a></center>
+                <center><a href="{{route('customer.register')}}" class="btn btn-s-b btn-b-g" target="_blank">Sign Up Now for FREE!</a></center>
                 </div>
 
             </div>
