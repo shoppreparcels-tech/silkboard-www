@@ -659,6 +659,11 @@ class PageController extends Controller
         return view('page.about-new');
     }
 
+    public function pricingSouthafrica()
+    {
+        return view('page.landing-pages.pricing-southafrica');
+    }
+
     public function contactIndex()
     {
         return view('page.contact-new');

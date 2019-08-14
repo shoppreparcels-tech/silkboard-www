@@ -539,6 +539,7 @@ Route::get('/{initial}-{contents}-from-{source}-to-{destination}', 'PageControll
 Route::get('/{initial}-{cprefix}-{cpostfix}-from-{source}-to-{destination}', 'PageController@urlTargetContent')->name('urlTargetContent');
 Route::get('/schedule-pickup/mail', 'SchedulePickupController@mail')->name('schedulePickup.mail');
 
+
 Route::get('/offers', 'PageController@offersIndex')->name('offers-new.index');
 Route::get('/faq-new', 'PageController@faqNew')->name('faq.new');
 Route::get('/indian-online-stores', 'PageController@storeNew')->name('stores1');
@@ -680,6 +681,7 @@ Route::get('/international-courier-charges-india-to-canada-per-kg', 'PageControl
 Route::get('/international-courier-charges-india-to-australia-per-kg', 'PageController@pricingAustralia')->name('australiaPerKg');
 Route::get('/international-courier-charges-india-to-singapore-per-kg', 'PageController@pricingSingapore')->name('singaporePerKg');
 Route::get('/international-courier-charges-india-to-germany-per-kg', 'PageController@pricingGermany')->name('germanyPerKg');
+Route::get('/international-courier-charges-india-to-south-africa-per-kg', 'PageController@pricingSouthafrica')->name('southafricaPerKg');
 Route::get('/dropshipping-from-india-and-worldwide-delivery', 'PageController@dropShipping')->name('dropShipping');
 
 

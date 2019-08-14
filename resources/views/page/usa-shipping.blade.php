@@ -33,7 +33,7 @@
                    <br>
                    <br>
                    <br>
-                   <p class="f-s-10 f-c-l-gray f-w-8">Shop Firstcry from India and Ship to your door-step anywhere in the USA</p>
+                   <p class="f-s-12 f-c-l-gray f-w-8">How to find a cheap and reliable shipping to usa</p>
 
                </center>
            </div>
