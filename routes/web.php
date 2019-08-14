@@ -683,7 +683,11 @@ Route::get('/international-courier-charges-india-to-singapore-per-kg', 'PageCont
 Route::get('/international-courier-charges-india-to-germany-per-kg', 'PageController@pricingGermany')->name('germanyPerKg');
 Route::get('/international-courier-charges-india-to-south-africa-per-kg', 'PageController@pricingSouthafrica')->name('southafricaPerKg');
 Route::get('/international-courier-charges-india-to-japan-per-kg', 'PageController@pricingJapan')->name('japanPerKg');
+Route::get('/international-courier-charges-india-to-new-zealand-per-kg', 'PageController@pricingNewzealand')->name('newzealandPerKg');
 Route::get('/dropshipping-from-india-and-worldwide-delivery', 'PageController@dropShipping')->name('dropShipping');
+
+/*-------- Schema Landing Pages ------*/
+Route::get('/shipping-from-india-to-usa/las-vegas', 'PageController@lasvegasShipping')->name('usa-lasvegas');
 
 
 //Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');

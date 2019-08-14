@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Courier Charges Per Kg To Japan from India | ShoppRe.com')
-@section('description', 'Fast & Best way to send international courier from India to Japan with ShoppRe. Doorstep pickup and delivery with high-quality services. Book a Courier Now.')
-@section('keywords', 'japan courier services near me, best shipping services, ship from india to japan, courier charges per kg ')
+@section('title', 'Courier Charges Per Kg To New Zealand from India | ShoppRe.com')
+@section('description', ' Book a Courier Now.')
+@section('keywords', 'new zealand courier services near me, ship from india to new zealand, courier charges per kg ')
 
 @section('css_style')
     <script type="application/ld+json">
@@ -10,8 +10,8 @@
   "@context": "http://schema.org",
   "@type": "Organization",
   "name": "ShoppRe.com",
-  "alternateName": "Send International Courier From India to Japan",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-japan-per-kg",
+  "alternateName": "Send International Courier From India to New Zealand",
+  "url": "https://www.shoppre.com/international-courier-charges-india-to-new-zealand-per-kg",
   "logo": "https://www.shoppre.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
@@ -30,9 +30,9 @@
   "aggregateRating": {
     "@type" : "AggregateRating",
     "bestRating": "5",
-    "ratingValue" : "4.5",
-    "reviewCount" : "1875",
-    "worstRating" : 3.0
+    "ratingValue" : "4.8",
+    "reviewCount" : "2312",
+    "worstRating" : 3.7
   }
 }
 </script>
@@ -41,9 +41,9 @@
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
   "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-japan-per-kg",
+  "url": "https://www.shoppre.com/international-courier-charges-india-to-new-zealand-per-kg",
   "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
-  "description": "international courier from India to japan",
+  "description": "international courier from India to New Zealand",
   "originAddress": {
     "@type": "PostalAddress",
     "streetAddress": "No.181, 1st Floor 2nd Cross Rd, 1st Block Koramangala",
@@ -54,7 +54,7 @@
   },
   "deliveryAddress": {
     "@type": "PostalAddress",
-    "addressCountry": "Japan"
+    "addressCountry": "New Zealand"
   },
    "hasDeliveryMethod": {
   "@type": "DeliveryMethod",
@@ -63,7 +63,7 @@
 }
 </script>
 
-<link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-japan-per-kg" />
+<link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-new-zealand-per-kg" />
 
 @endsection
 @section('content')
@@ -72,50 +72,50 @@
 
             <div class="col-sm-7 col-xs-12 no-pad">
                 <div class="col-md-12 col-xs-12 no-pad">
-                    <h1 class="p-color-white header-spacing d-header-text">Courier Rates To Japan
+                    <h1 class="p-color-white header-spacing d-header-text">Courier Rates: New Zealand
                         <br></h1>
-                    <h1 class="header1 p-color-white header-spacing">Starting from ₹1633/-</h1>
+                    <h1 class="header1 p-color-white header-spacing">Starting from ₹1661/-</h1>
                     <table class="table table-bordered txt-a-c">
                         <tr>
                             <td class="btn-b-y tbl-br">
                                 <h1>Pricing</h1>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1633</h1>
+                                <h1>₹1661</h1>
                                 <p><span>Per</span> 0.5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1843</h1>
+                                <h1>₹1926</h1>
                                 <p><span>Per</span> 1 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹2491</h1>
+                                <h1>₹2619</h1>
                                 <p><span>Per</span> 2 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3207</h1>
+                                <h1>₹3404</h1>
                                 <p><span>Per</span> 3 Kg</p>
                             </td>
                         </tr>
                         <tr>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3786</h1>
+                                <h1>₹3809</h1>
                                 <p><span>Per</span> 4 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹4014</h1>
+                                <h1>₹3876</h1>
                                 <p><span>Per</span> 5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3448</h1>
+                                <h1>₹3735</h1>
                                 <p><span>Per</span> 10 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹7703</h1>
+                                <h1>₹8010</h1>
                                 <p><span>Per</span> 20 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹21368</h1>
+                                <h1>₹22634</h1>
                                 <p><span>Per</span> 50 Kg</p>
                             </td>
                         </tr>
@@ -149,7 +149,7 @@
                             <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>
                             {{--</button>--}}
                             {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
-                            <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Courier%20Quote%20from%20India%20to%20Japan" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
+                            <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Courier%20Quote%20from%20India%20to%20New%20Zealand" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
                             {{--</button>--}}
                         </div>
                         <p class="f-s-8 f-c-d-greay f-w-7">We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
@@ -179,70 +179,63 @@
         <div class="container">
             <center>
                 <br>
-                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">International Courier From India to Japan</span>,
-                    <br>easy and best shipping services from india to japan</h1>
+                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">International Courier From India to New Zealand</span>,
+                    <br>shipping made easy with shoppre to new zealand</h1>
             </center>
             <br>
-            <p class="f-s-22 f-c-d-gray">FASTEST AND RELIABLE SHIPPING SERVICES TO JAPAN</p>
+            <p class="f-s-22 f-c-d-gray">SHIPPING MADE EASY WITH SHOPPRE TO NEW ZEALAND</p>
             <br>
-            <p class="f-s-18 f-c-gray">ShoppRe would love to provide fast, cheap, reliable and better quality shipping services to Japan,
-                which is known for its amazing history and also one of the rarest countries filled with lots of cultures, traditions, customs and
-                practices with highly integrated and sophisticated technology.
+            <p class="f-s-18 f-c-gray">Warm Greetings from India!! <br>
+                ShoppRe is here to provide astonishing shipping related services to New Zealand which is famous for its National Rugby team, indigenous Maori culture, and its picturesque landscape.
             </p> <br>
-            <p class="f-s-18 f-c-gray">It is quite clear that importing stuff to Japan is a hassle process with lots and lots of procedures and imposed
-                custom duties. But with ShoppRe, your shipping would be made more Easy and Reliable with Package Forwarding, Relocation, Personal Shopper,
-                Freight and Sea Forwarding services by consolidating all your packages that helps you in reducing the per kg cost after providing a 20-day free storage facility.
-            </p> <br>
-
-            <h2 class="f-s-20 f-c-d-gray f-w-8"> For all the queries of what can be shipped and what cannot be, go through the following FAQs that would guide and help you in a
-                better understanding of the process and procedures from end to end.</h2> <br>
-            <h2 class="f-s-18 f-c-d-gray f-w-8">1. What is the cheapest and best way to send a package from India to Japan?</h2>
-            <p class="f-s-16 f-c-gray">Well, ShoppRe would be the best answer for this. With ShoppRe You can ship all your stuff with an incredible delight as the ShoppRe’s
-                main objective is connecting back the Indian consumers living abroad back with India and take the Indian online market and small scale sellers reach the global market.
-                <br>
-                With the best, shoddy and truly solid shipping rates, You would definitely reclaim your experience with ShoppRe as almost 50% of the shipment costs
-                would be discounted to all the customers alongside the other energizing offers for the first time users, month-end-offers and many more.
-
+            <p class="f-s-18 f-c-gray">Want to courier Indian products to New Zealand? Not sure what to buy? Worried about the courier rates? No more worries 🙂
+                ShoppRe has you secured!! Now ship all your couriers with the most reliable, cheap and best courier partners to your doorstep by reducing your per-kg cost to
+                almost half of it (the package weight is inversely proportional to the rates) with the best quality services.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">2. Can I ship stuff from Amazon.in/ Flipkart/Myntra to Japan?</h2>
-            <p class="f-s-16 f-c-gray">The answer is no. But ShoppRe allows you to shop from any of your favorite Indian online stores and handles the burden of
-                shipping them to your doorstep by taking care of all the Indian customs while you can just sit back and relax.
+            <h2 class="f-s-20 f-c-d-gray f-w-8"> Go through the following FAQs for more detailed and clarified information on shipping your shipments with ShoppRe!</h2>
+            <br>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">1. Is ShoppRe a reliable commercial Shipping Company to ship goods to Newzealand?</h2>
+            <p class="f-s-16 f-c-gray">Absolutely yes!! ShoppRe is one of the best Shipping Companies from India on which you can completely rely on for its best
+                quality services, cheap shipping rates, amazing consolidation and relocation services, and its exclusive offers.
+             </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">2. Can I ship household stuff to NEW ZEALAND from India?</h2>
+            <p class="f-s-16 f-c-gray">With ShoppRe You can ship all your household stuff within just 3-6 working days with
+                very cheap and reliable shipping rates and can experience an incredible delight as the ShoppRe’s main objective is to connect back the Indian consumers living abroad with
+                India and take the Indian online market and small scale sellers reach the global market.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">3. Can I ship spices to Japan?</h2>
-            <p class="f-s-16 f-c-gray">Absolutely Yes! But not all the items are on the list. Spices like cumin, mustard seeds, coriander, black pepper, clove,
-                etc can be shipped to Japan without any issues but few items like turmeric, saffron, Hing, etc are restricted by the Indian Customs.
-                This would definitely be positive news for all the Indian Restaurant holders in Japan. And also can add that extra Indian flavor and touch to serve the
-                Indian crowd and Japanese crowd as well while they would really love it.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">3. Can I buy from Amazon.in, Flipkart, Myntra etc., and ship it to New Zealand?</h2>
+            <p class="f-s-16 f-c-gray">Certainly yes! With ShoppRe You can Shop from any of your favorite Indian online stores and ship it to
+                your doorstep with very fast delivery services arriving in just 3-6 working days to your doorstep with the best, shoddy and truly solid shipping rates.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">4. Does shipping automotive products be risk-free from India to Japan</h2>
-            <p class="f-s-16 f-c-gray">Yup! Automotive products like Motors, etc.,can be easily shipped while few other items have restrictions
-                to be shipped. However, you can enjoy the benefits of high-quality motors, air-conditioners, and other auto-parts of your vehicles and ship
-                them with ShoppRe to your doorstep with very cheap and affordable rates (with high-quality services)
-            </p> <br>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">5. Can ShoppRe ship smart phones from India to Japan?</h2>
-            <p class="f-s-16 f-c-gray">Here we are, in the generation where 5G is gonna enter into our lives very shortly with very sophisticated and advanced services.
-                But how far can we make the best use of the available smartphones is questionable? ShoppRe is here with its best service of shipping the wide variety of
-                smartphones from India to Japan within just 3-6 working days which you would really love it.
-            </p> <br>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">6. Why Should I ship Jewelry from India to Japan?</h2>
-            <p class="f-s-16 f-c-gray">Well, Often, shipping related queries start with ‘CAN I SHIP THIS? HOW DO I SHIP IT? Etc., But here is one such question which you would definitely feel it informative.
-                The reason is very simple. The connection between jewelry and women is so deep that every woman considers her makeover incomplete without embracing some traditional jewelry that adds luster to
-                her entire personality. Whether it's a wedding ceremony or a festival, a woman truly sparkles if adorns cultural ornaments, which India is famous for.
-                ShoppRe helps you ship your favorite Indian fancy/traditional jewelry except precious stones like gold, silver, diamond etc that makes you
-                look extra beautiful and add some astonishing look to the entire event/party at very affordable prices.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">4. What is the most affordable way to send document couriers from India to New Zealand?</h2>
+            <p class="f-s-16 f-c-gray">ShoppRe is the answer again because of its speedy delivery services and the most reliable shipping rates
+                along with its best team of employees who constantly aim at customer satisfaction and would help you provide and update all the
+                details regarding your shipment (tracking details) constantly in real-time.
 
             </p> <br>
-            <h2 class="f-s-18 f-c-d-gray f-w-8">7. What else can I ship from India to Japan?</h2>
-            <p class="f-s-16 f-c-gray">Indian handicrafts are one more thing that every person would fall in love with.
-                It not only decorates your room/office but would create you a pleasant working and living atmosphere. Shopping and
-                shipping these handmade and most attractive items depicting different traditions, cultures,  etc.,along with the element of attractiveness,
-                would help and encourage many talented women who are not really in the spotlight.
 
+            <h2 class="f-s-18 f-c-d-gray f-w-8">5. What is the easiest way to ship medicines from India to New Zealand?</h2>
+            <p class="f-s-16 f-c-gray">ShoppRe again!! ShoppRe helps you ship medicines to your doorstep which have original prescription and Invoice by clearing
+                all the Indian Customs by default, but not the destination customs as ShoppRe doesn't have any control over it.
+                Though the medicines have original prescription and Invoice, sometimes it can not be shipped since few Indian medicines
+                like Crocin would be restricted at the destination for which again ShoppRe has no control.
+
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">6. Can I shop and ship Indian Jewellery to New Zealand?</h2>
+            <p class="f-s-16 f-c-gray">Definitely Yes! With ShoppRe, You can shop and ship your favorite Indian Jewellery from Cilory.com, Voylla.com,
+                Jaypore.com and many more except precious stones like gold, silver and diamond ornaments and add that further luster to your entire personality
+                and look little extra beautiful by adding astonishing look to the entire event/party at very affordable prices.
+
+            </p> <br>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">7. Is it affordable to shop and ship garments and Kitchen Linens from India to New Zealand?</h2>
+            <p class="f-s-16 f-c-gray">Well, With ShoppRe You can ship it with the best, shoddy and truly solid shipping rates, through which You would
+                definitely reclaim your experience with us as almost 50% of the shipment costs would be discounted to all the customers alongside the
+                other energizing offers for the first time users, month-end-offers to the existing customers and many more.
             </p> <br>
 
         </div>
@@ -365,10 +358,10 @@
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
 
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/international-courier-charges-per-kg/from-india-to-indonesia/" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="international-courier-charges-india-to-japan-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">Indonesia Courier Rates</span>
+                                <span class="elementor-icon-list-text txt-u-l">Japan Courier Rates</span>
                             </a>
                         </div>
                     </div>

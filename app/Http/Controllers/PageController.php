@@ -535,6 +535,10 @@ class PageController extends Controller
     {
         return view('page.etsy-landing');
     }
+    public function lasvegasShipping()
+    {
+        return view('page.landing-pages.usa-lasvegas');
+    }
 
     public function ifsLandingPage()
     {
@@ -662,6 +666,10 @@ class PageController extends Controller
     public function pricingSouthafrica()
     {
         return view('page.landing-pages.pricing-southafrica');
+    }
+    public function pricingNewzealand()
+    {
+        return view('page.landing-pages.pricing-newzealand');
     }
     public function pricingJapan()
     {
