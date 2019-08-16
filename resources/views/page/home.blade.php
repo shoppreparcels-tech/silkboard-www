@@ -344,18 +344,18 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://www.myntra.com" title="Click to Know More" target="_blank">
+                        <a href="https://www.ajio.com" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">FASHION PARADE SALE</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">EVERYTHING ON SALE‎</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">50-80% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">500+ Hottest Brands</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">14th - 15th August</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Min. 50% Off</span></p>
                             <br>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Myntra & Ship to your country. <br>Get <span class="f-s-16 f-c-red f-w-9">₹200 cashback</span> on shipment.
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop AJIO & Ship to your country. <br>Get <span class="f-s-16 f-c-red f-w-9">₹200 cashback</span> on shipment.
 
                         </div>
 
@@ -363,17 +363,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://www.flipkart.com/rakhi-gifts-store" title="Click Here" target="_blank">
+                        <a href="https://www.jaypore.com/eoss2019" title="Click Here" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">RAKHI STORE 2019</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">THE MONSOON MADNESS SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Shop Now</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up to 60% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Shop from Flipkart.com</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9"><u>Shop Now</u></span></p>
                             <br> <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop Rakhi from Flipkart & Get Delivered Worldwide with ShoppRe.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from Jaypore & Get Delivered Worldwide with ShoppRe.</p>
                         </div>
 
                     </div>

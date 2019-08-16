@@ -1,12 +1,12 @@
 @extends('layout')
 
-@section('title', 'Low-cost shipping from India to Las Vegas, USA | ShoppRe.com')
-@section('description', 'Low-cost and Easy Online Shipping from India to Las Vegas, USA. Pickup, Packaging, Safe & Secure Delivery. Excess baggage, medicine delivery, household item.')
-@section('keywords', 'las vegas courier service, international shipping from india, nevada, package forwarding, shoppree')
+@section('title', 'Cheap shipping from India to Chicago, Illinois | ShoppRe.com')
+@section('description', 'Cheap and Fast Online Shipping from India to Chicago, Illinois, USA. Up to 80% Off Shipping Rates. Safe & Secure Delivery. Get Free Quote Online.')
+@section('keywords', 'chicago courier service, international shopping from india, illinois, package forwarding, shipping services')
 
 @section('css_style')
 
-    <link rel="canonical" href="https://www.shoppre.com/shipping-from-india-to-usa/las-vegas" />
+    <link rel="canonical" href="https://www.shoppre.com/shipping-from-india-to-usa/chicago" />
 
     <style>
         .first-time-shipment{background-color:#11273b;height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;padding-top:60px}
@@ -27,13 +27,13 @@
                </center>
                <center>
                    <h18 class="f-s-50 f-c-white  f-w-9">₹200 Discount</h18>
-                   <p class="f-s-30 f-c-white f-w-9 ">on your First Shipment to LAS VEGAS from India </p>
+                   <p class="f-s-30 f-c-white f-w-9 ">on your First Shipment to CHICAGO from India </p>
                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-s-t-coupon.png" alt="frst50 shoppre" > <br><br>
                    <a href="{{route('customer.register')}}" target="_blank" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE </a>
                    <br>
                    <br>
                    <br>
-                   <p class="f-s-12 f-c-l-gray f-w-8">How to find a cheap and reliable shipping to Las Vegas from India</p>
+                   <p class="f-s-12 f-c-l-gray f-w-8">Looking for a cheap shipping services to Chicago from India?</p>
 
                </center>
            </div>
@@ -44,10 +44,10 @@
         <div class="container fst-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">The most reliable, cheap and fast shipping from India to Las Vegas</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">The most reliable, cheap and fast shipping from India to Chicago</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12 text-center">
-                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20Looking%20for%20Shipping%20Service%20to%20Las%20Vegas,%20USA%20from%20India" target="_blank" title="Click to WhatsApp">
+                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20Looking%20for%20Shipping%20Service%20to%20Chicago,%20USA%20from%20India" target="_blank" title="Click to WhatsApp">
                         <img src="/img/images/christmas-contact.png" alt="shoppre contact number 8277919191">
                     </a>
                 </div>
@@ -55,23 +55,21 @@
 
             <div class=" col-md-12 no-pad"><br>
                 <center>
-                <h2 class="p-color-cement-dark f-w-9 font-30">Low Cost Shipping from India to Las Vegas, USA</h2>
+                <h2 class="p-color-cement-dark f-w-9 font-30">Cheap Shipping from India to Chicago, USA</h2>
                 </center>
-                <h4 class="f-s-20 f-c-gray f-w-9">Choose ShoppRe for international shipping from India to Las Vegas as we offer the cheapest and
-                    the best way to send your courier from India to USA with our trusted courier partners.</h4>
+                <h4 class="f-s-20 f-c-gray f-w-9">Choose ShoppRe for international shipping from India to Chicago as we offer the cheapest and the
+                    best way to send your courier from India to USA with our trusted courier partners.</h4>
                 <br>
-                <p class="header4 p-color-cement">All the NRI/PIOs residing in Las Vegas must miss their home town in India and often think about
-                    online shopping from India just to reconnect with their indigenous roots, culture, heritage, and authenticity. The yearning
-                    for online shopping from India reaches its zenith during the celebratory seasons like Rakhi, Holi, Diwali, Onam,
-                    etc to get some Indian ethnic wear, jewelry, accessories, etc.
+                <p class="header4 p-color-cement">Chicago has become home to thousands of Indians, particularly doctors, engineers, and scientists. More
+                    than 113,000 Indians live in Chicago. Indians have created one of Chicago's most vibrant business communities. They own and operate
+                    everything from small convenience stores, restaurants and shops in the city to multimillion-dollar high-tech and consulting firms in the suburbs.
                 </p>
                 <br>
-                <p class="header4 p-color-cement">But due to massive shipping charges from India, many people just abandon the idea of online
-                    shopping from India and settle for shoddy imitations available in their local markets. But from now on you can shop and ship through
-                    ShoppRe that offers cheap, reliable and fast shipping from India.
+                <p class="header4 p-color-cement">With this great number of Indians comes a great demand in shipping services which is met by ShoppRe's amazing set of
+                    package forwarding and shipping services so that people can do online shopping from India and get the cheapest shipping charges from India for their courier.
                 </p>
                 <br>
-                <h4 class="f-s-20 f-c-gray f-w-9"><i>Here is a special something for your first international courier delivery ₹200/- Off on your first international shipment use code: FRST50</i></h4>
+                <h4 class="f-s-20 f-c-gray f-w-9"><i>Here is a special discount of ₹200/- Off on your first international shipment to Chicago use code: FRST50</i></h4>
                 <br>
                 <br>
 
@@ -86,11 +84,11 @@ contact our support team for assistance.</span>
                             <form class="calc-form ng-pristine ng-valid ng-submitted" id="shipping" novalidate="novalidate">
                                 <input type="hidden" name="_token" value="txUccFXVS9erPpnHxSRGRYb89WomjhaEnx3m5HuQ">
                                 <div class="form-group">
-                                    <label class="col-sm-12">Check your shipping cost from India to Las Vegas</label>
+                                    <label class="col-sm-12">Check your shipping cost from India to Chicago, Illinois</label>
                                     <div class="col-sm-12">
                                         <select class="form-control select2 valid" name="country" aria-required="true">
                                             <option value="226">
-                                                Las Vegas, USA
+                                                Chicago, USA
                                             </option>
                                         </select>
                                     </div>
@@ -168,52 +166,47 @@ contact our support team for assistance.</span>
             <center>
                 <h1 class="p-color-cement-dark f-w-9 font-22">Some other questions that you might have</h1>
             </center>
-            <h2 class="p-color-cement-dark f-w-9 font-18">1. Can you ship wedding sarees from India to Las vegas?</h2>
-            <p class="p-color-cement f-w-9 font-9">Yes, you can ship sarees from India to Las Vegas with our safe and secure shipping service partners DHL and DTDC.
-                And you can even do online shopping for wedding sarees and get them shipped to Las Vegas with our package forwarding service from India.
+            <h2 class="p-color-cement-dark f-w-9 font-18">1. How to send courier from India to Chicago?</h2>
+            <p class="p-color-cement f-w-9 font-9">Just sign up to Shoppre and schedule a pickup, while our experts
+                pick up the package you pay for the low-cost shipping, and with the help of renowned courier services like
+                DHL, DTDC and more you get your package within 3-6 days safe and secure.
 
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">2. How to courier from India to Las Vegas on Relocation?</h2>
-            <p class="p-color-cement f-w-9 font-9">On relocation from India to Las Vegas, just sign up to Shoppre and schedule a pickup,
-                while our experts pick up the package, you pay for the low-cost shipping, and with the help of renowned courier services like DHL and DTDC
-                you get your package within 3-6 days safe and secure.
-            </p>
-            <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">3. What are the courier charges from India to Las Vegas?</h2>
-            <p class="p-color-cement f-w-9 font-9">We have the cheapest way of shipping by offering up to 80% less shipping cost and the international courier to Las Vegas,
-                USA starts at just ₹1449/-.  You can use our shipping cost calculator to know <a href="/international-courier-charges-india-to-usa-per-kg" target="_blank">courier charges from India to USA per kg</a>.
-            </p>
-            <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">4. How to send Rakhi to Las Vegas from India online?</h2>
-            <p class="p-color-cement f-w-9 font-9">Just sign up to Shoppre and schedule a pickup, while our experts pick up the package
-                containing rakhi you pay for the low-cost shipping, and with the help of renowned
-                courier services like DHL and DTDC you get your package delivered safe and secure within 3-6 days at your doorstep.
+            <h2 class="p-color-cement-dark f-w-9 font-18">2. How I can send online rakhi to Chicago from India?</h2>
+            <p class="p-color-cement f-w-9 font-9">You can buy rakhi online from any Indian shopping website through ShoppRe.
+                Just sign up and use the virtual shipping address at the time of check out, and when your package reaches us, you pay low-cost shipping and we
+                ship it to your address abroad and you get your order within 3-6 days.
 
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">5. How we can order online from India to Las Vegas?</h2>
-            <p class="p-color-cement f-w-9 font-9">You can do online shopping in India from any Indian shopping website through ShoppRe.
-                Just sign up and use the virtual shipping address at the time of check out, and when your package reaches us, you pay low-cost shipping and we ship it to your address abroad and you get your order within 3-6 days.
+            <h2 class="p-color-cement-dark f-w-9 font-18">3. Can you send furniture from India to Chicago?</h2>
+            <p class="p-color-cement f-w-9 font-9">Yes, we ship furniture from India to Chicago with our trusted courier partners with 80% low shipping rates
+                and we ensure safe and timely delivery of your package. Thus making Shipping furniture from India to Chicago cost-efficient and hassle-free.
 
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">6. How to send gifts to Las Vegas from India through Amazon.in?</h2>
-            <p class="p-color-cement f-w-9 font-9">You can do that with shoppre's cheap, reliable and fast delivery across the globe.
-                Just sign up and use the virtual shipping address at the time of check out, and when your package reaches us, you pay low-cost shipping
-                and we ship it to the address abroad and it reaches within 3-6 days.
+            <h2 class="p-color-cement-dark f-w-9 font-18">4. How Can you ship jewelry from India to Chicago?</h2>
+            <p class="p-color-cement f-w-9 font-9">Since any form of precious metals is banned to be exported from India,
+                we ship Artificial Jewellery from India to Chicago through our reliable, cheap and fast courier services that will take care of your package.
+
 
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-20 f-c-blue">To send a courier abroad, all you have to do is;</h2>
-            <p class="p-color-cement f-w-9 font-9">1. Schedule a Pickup from ANYWHERE in India; our experts will come to your door to pick it up,
-            </p><br>
-            <p class="p-color-cement f-w-9 font-9">2. We process it while you pay us the shipping cost.
-            </p><br>
-            <p class="p-color-cement f-w-9 font-9">3. And, we jump through hoops to dispatch your package off to your destination in just 48 hours,
-            </p><br>
-            <p class="p-color-cement f-w-9 font-9">4. One of our efficient & appropriate courier partners will get the package to its destination in just   3-6 days, ANYWHERE in the world.
+            <h2 class="p-color-cement-dark f-w-9 font-18">5. Can you ship sarees from India to Chicago?</h2>
+            <p class="p-color-cement f-w-9 font-9">You can ship any type of clothing from India to Chicago, shipping sarees from India to
+                Chicago is possible with reliable, low-cost and fast delivery worldwide within 3-6 days.
             </p>
+            <br>
+            <h2 class="p-color-cement-dark f-w-9 font-18">6. What are the courier charges from India to Chicago?</h2>
+            <p class="p-color-cement f-w-9 font-9">We have the cheapest way of shipping by offering up to 80% less shipping cost and the international courier to Chicago, USA starts at just ₹1449/-.
+                You can use our shipping cost calculator to know courier rates from India to USA per kg.
+
+            </p>
+            <br>
+            <div>
+                <center><a href="/schedule-pickup" target="_blank" class="btn btn-s-b btn-b-r">Schedule a Parcel Pick-up Request</a></center>
+            </div>
             <br>
 
             <div class="row text-center">
@@ -236,7 +229,7 @@ contact our support team for assistance.</span>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Door to door Pickup in India</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>India Shipping Address</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Door to door delivery in USA</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Door to door delivery in Chicago</span></li>
 
                         </ul>
                     </div>
@@ -257,11 +250,12 @@ contact our support team for assistance.</span>
     </section>
     <br>
     <br>
+
     <section>
         <div class="container fst-service" style="margin-top: 1px">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Best Online Shopping Sites from India to Las Vegas, USA</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Best Shopping Sites from India to Chicago, USA</h2>
                 </div>
             </div>
             <div class="row text-center">
@@ -403,6 +397,26 @@ contact our support team for assistance.</span>
     </section>
     <br>
     <br>
+    <section>
+        <div class="container fst-service" style="margin-top: 1px">
+            <div class="row">
+                <div class="col-md-8 col-xs-12">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Related Questions</h2>
+                </div>
+            </div>
+           <ul><li>
+                   <span class="elementor-icon-list-text"><a href="/shipping-from-india-to-usa/las-vegas">What is the best/cheapest way to have a product to Las Vegas, USA from India?</a></span>
+               </li>
+               <li><span class="elementor-icon-list-text"><a href="/">What is the fast and cheap way to ship goods from India to Michigan?</a></span>
+               </li>
+               <li><span class="elementor-icon-list-text"><a href="/shop-from-india-ship-worldwide" target="_blank">How to do online shopping international shipping from india?</a></span>
+               </li>
+           </ul>
+            <br>
+        </div>
+        <br>
+        <br>
+    </section>
 
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">

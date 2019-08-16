@@ -684,10 +684,15 @@ Route::get('/international-courier-charges-india-to-germany-per-kg', 'PageContro
 Route::get('/international-courier-charges-india-to-south-africa-per-kg', 'PageController@pricingSouthafrica')->name('southafricaPerKg');
 Route::get('/international-courier-charges-india-to-japan-per-kg', 'PageController@pricingJapan')->name('japanPerKg');
 Route::get('/international-courier-charges-india-to-new-zealand-per-kg', 'PageController@pricingNewzealand')->name('newzealandPerKg');
+Route::get('/international-courier-charges-india-to-malaysia-per-kg', 'PageController@pricingMalaysia')->name('malaysiaPerKg');
 Route::get('/dropshipping-from-india-and-worldwide-delivery', 'PageController@dropShipping')->name('dropShipping');
 
 /*-------- Schema Landing Pages ------*/
 Route::get('/shipping-from-india-to-usa/las-vegas', 'PageController@lasvegasShipping')->name('usa-lasvegas');
+Route::get('/shipping-from-india-to-usa/chicago', 'PageController@chicagoShipping')->name('usa-chicago');
+Route::get('/shipping-from-india-to-usa/los-angeles', 'PageController@losangelesShipping')->name('usa-losangeles');
+Route::get('/shipping-from-india-to-usa/michigan', 'PageController@michiganShipping')->name('usa-michigan');
+Route::get('/shipping-from-india-to-usa/new-jersey', 'PageController@newjerseyShipping')->name('usa-newjersey');
 
 
 //Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');

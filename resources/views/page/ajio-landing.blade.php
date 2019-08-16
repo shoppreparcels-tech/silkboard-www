@@ -41,7 +41,7 @@
                 </div>
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://www.ajio.com/" title="AJIO" target="_blank">FREEDOM SPECAIL Sale | Shop & Ship with us Worldwide.</a>
+                        <a href="https://www.ajio.com/" title="AJIO" target="_blank">EVERYTHING ON SALE (Min. 50% Off) | Shop Ajio & Ship Worldwide with ShoppRe.</a>
                     </marquee>
                 </div>
             </div>

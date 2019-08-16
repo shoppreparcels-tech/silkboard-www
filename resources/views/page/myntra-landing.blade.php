@@ -69,11 +69,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com" target="_blank"><div class="shopandship ">
-                            <h2>Fashion Parade Sale</h2>
+                    <a href="https://www.myntra.com/womens-western-wear?f=Brand%3AMarks%20%26%20Spencer" target="_blank"><div class="shopandship ">
+                            <h2>Womens Western Wear</h2>
                             <br/>
-                            <p>50-80% Off</p>
-                            <p>Men & Women</p>
+                            <p>Starts from ₹399/-</p>
+                            <p>Tops, Dresses & More</p>
                             <p>Explore Now</p>
                         </div></a>
                 </div>
@@ -114,7 +114,7 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/">Shop from Myntra.com "Fashion Parade Sale"</a></span> & Get ₹200 discount on your 1st International Shipment.
+                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/">Shop from Myntra.com</a></span> & Get ₹200 discount on your 1st International Shipment.
                             </marquee>
                    <center>
                        <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">

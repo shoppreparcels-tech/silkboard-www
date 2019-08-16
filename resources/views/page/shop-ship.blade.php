@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', 'Shop From India | International Shipping to USA, UAE, AUS')
+@section('title', 'Shop from 1000 Indian online stores with your ShoppRe Address')
 @section('description', 'Shop from 1000 Indian online stores with your ShoppRe Address‎. International shipping to USA, UAE, AUS at 80% lower rates on shipping cost. Sign up Free.')
 @section('keywords', 'shop from india, ship to usa, indian online stores, shipping address, uae courier')
 @section('css_style')
@@ -62,9 +62,9 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="https://www.flipkart.com/tvs-appliances-independence-day-id-sale-store" title="flipkart" target="_blank">1. Flipkart 👉TV & Appliances(Up to 75% Off) </a> |
+                            <a href="https://www.jaypore.com/eoss2019" title="flipkart" target="_blank">1. Jaypore 👉Monsoon Madnees Sale(Up to 65% Off) </a> |
                             <a href="https://www.amazon.in/rakhis-rakhi-hampers/b?ie=UTF8&node=5143508031" title="Amazon" target="_blank">2. Amazon.in 👉The Rakhi Store</a> |
-                            <a href="https://www.myntra.com" title="Myntra" target="_blank">3. Myntra.com 👉Fashion Parade Sale(50-80% Off)</a>
+                            <a href="https://www.ajio.com" title="ajio" target="_blank">3. AJIO.com 👉Everything on  Sale(Min. 50% Off)</a>
                         </marquee>
                     </div>
                     <center>
@@ -221,12 +221,54 @@
 
     </section>
 
-    <section>
-        <center>
-            <h2 class="header2 p-color-cement-dark"><strong><a href="https://ship.shoppre.com/online-shopping-from-india-international-shipping-to-usa/" target="_blank">Online Shopping from India to USA</a>;
-                    <a href="https://ship.shoppre.com/online-shopping-from-india-international-shipping-to-uk/" target="_blank">Online Shopping from India to UK</a></strong></h2>
-            <h2 class="header2 p-color-cement-dark"><strong><a href="/personal-shopper-india">Personal Shopper Services from India</a></strong></h2>
-        </center>
+    <section class="chris-benefits">
+        <div class="container" >
+            <center>
+                <h1 class="p-color-cement-dark flipkart-h1 font-weight-900" >Shop from 1000+ Indian online stores with ShoppRe Address</h1>
+            </center>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="panel">
+                        <ul>
+                            <li><span><a href="myntra-online-shopping-shipping-from-india">Myntra Online Fashion Store</a></span></li>
+                            <li><span><a href="flipkart-shopping-with-shoppre-from-india">Flipkart.com Online Shop</a></span></li>
+                            <li><span><a href="amazon-india-shop-international-shipping">Amazon.in Shopping India</a></span></li>
+                            <li><span><a href="jaypore-international-shipping-from-india">Jaypore Handpicked Products</a></span></li>
+                            <li><span><a href="ajio-online-shopping-international-shipping">AJIO Fashion & Lifestyle Brand</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel">
+                        <ul>
+                            <li><span><a href="limeroad-shopping-international-shipping">Limeroad Online Shopping Site</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/suta-online-shopping-india/" target="_blank">Suta Sarees Online Shopping</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/firstcry-baby-products-international-shipping/" target="_blank">FirstCry Baby & Kids Shopping</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/patanjali-ayurved-products-international-delivery/" target="_blank">Patanjali Ayurvedic Shopping</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/snapdeal-international-delivery-shopping-from-india/" target="_blank">Snapdeal Online Shopping</a></span></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel">
+                        <ul>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/shop-pepperfry-online-furniture-international-shipping-india/" target="_blank">Pepperfry Furniture Shopping</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/ishashoppe-organic-yoga-clothing-india-international-shipping/" target="_blank">IshaShoppe Yoga Clothing</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/nykaa-india-beauty-products-international-shipping/" target="_blank">Nykaa Cosmetics Products</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/biba-india-international-shipping/" target="_blank">Biba Ethnic Wear Shopping</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/boodmo-care-spare-parts-international-shipping-from-india/" target="_blank">Boodmo - Spare Parts for CARS</a></span></li>
+                            </ul>
+                    </div>
+                </div>
+                <br/><br/>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="/indian-online-stores" class="btn btn-s-b btn-b-r" target="_blank">List of Indian Online Stores</a>
+        </div>
+        <br/><br/>
+        </div>
     </section>
     <br>
     <br>
@@ -245,7 +287,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8277919191" class="header2 p-color-white">+91 8277 919191</a>
 
                 </div>
 
@@ -291,7 +333,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-8277919191" class="header2 p-color-white">+91 8277 919191</a>
 
                 </div>
 

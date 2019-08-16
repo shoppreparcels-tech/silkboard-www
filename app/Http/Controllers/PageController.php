@@ -540,6 +540,23 @@ class PageController extends Controller
         return view('page.landing-pages.usa-lasvegas');
     }
 
+    public function chicagoShipping()
+    {
+        return view('page.landing-pages.usa-chicago');
+    }
+    public function losangelesShipping()
+    {
+        return view('page.landing-pages.usa-losangeles');
+    }
+    public function michiganShipping()
+    {
+        return view('page.landing-pages.usa-michigan');
+    }
+    public function newjerseyShipping()
+    {
+        return view('page.landing-pages.usa-newjersey');
+    }
+
     public function ifsLandingPage()
     {
         return view('page.personal-shoper');
@@ -667,6 +684,12 @@ class PageController extends Controller
     {
         return view('page.landing-pages.pricing-southafrica');
     }
+
+    public function pricingMalaysia()
+    {
+        return view('page.landing-pages.pricing-malaysia');
+    }
+
     public function pricingNewzealand()
     {
         return view('page.landing-pages.pricing-newzealand');

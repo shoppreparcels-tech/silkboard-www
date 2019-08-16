@@ -44,12 +44,12 @@
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/tvs-appliances-independence-day-id-sale-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/realme-5-new-launch-37s7-store" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-                                <h2>TVs & Appliances</h2>
+                                <h2>Realme 5</h2>
                                 <br>
-                                <p>11th - 15th AUG</p>
-                                <p>Up to 75% Off</p>
+                                <p>Launching on 20th Aug</p>
+                                <p>Buy Realme 5 & Ship Worldwide</p>
                                 <p>Explore Now</p>
                         </div>
                     </a>
