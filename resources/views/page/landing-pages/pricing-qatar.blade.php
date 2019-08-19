@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Courier Charges Per Kg To New Zealand from India | ShoppRe.com')
-@section('description', ' Get Free Courier Charges to New Zealand starting from ₹1661 for 0.5kg. Book a Courier Now from anywhere in India. Courier delivery 3-6 working days.')
-@section('keywords', 'new zealand courier services near me, ship from india to new zealand, courier charges per kg ')
+@section('title', 'Cheap Courier Charges Per Kg to Qatar from India | ShoppRe.com')
+@section('description', 'Cheap Courier charges Per Kg to Qatar from India. Door-to-door Pickup services anywhere in India. Our prices start from ₹1270. Send Courier Today!')
+@section('keywords', 'qatar courier services near me, courier rates from india to qatar middle east, shipping company, cargo parcel, express delivery ')
 
 @section('css_style')
     <script type="application/ld+json">
@@ -10,8 +10,8 @@
   "@context": "http://schema.org",
   "@type": "Organization",
   "name": "ShoppRe.com",
-  "alternateName": "Send International Courier From India to New Zealand",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-new-zealand-per-kg",
+  "alternateName": "Send International Courier From India to Qatar",
+  "url": "https://www.shoppre.com/international-courier-charges-india-to-qatar-per-kg",
   "logo": "https://www.shoppre.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
@@ -31,7 +31,7 @@
     "@type" : "AggregateRating",
     "bestRating": "5",
     "ratingValue" : "4.8",
-    "reviewCount" : "2312",
+    "reviewCount" : "5987",
     "worstRating" : 3.7
   }
 }
@@ -41,9 +41,9 @@
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
   "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-new-zealand-per-kg",
+  "url": "https://www.shoppre.com/international-courier-charges-india-to-qatar-per-kg",
   "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
-  "description": "international courier from India to New Zealand",
+  "description": "international courier from India to Qatar",
   "originAddress": {
     "@type": "PostalAddress",
     "streetAddress": "No.181, 1st Floor 2nd Cross Rd, 1st Block Koramangala",
@@ -54,7 +54,7 @@
   },
   "deliveryAddress": {
     "@type": "PostalAddress",
-    "addressCountry": "New Zealand"
+    "addressCountry": "Qatar"
   },
    "hasDeliveryMethod": {
   "@type": "DeliveryMethod",
@@ -63,7 +63,7 @@
 }
 </script>
 
-<link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-new-zealand-per-kg" />
+<link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-qatar-per-kg" />
 
 @endsection
 @section('content')
@@ -72,50 +72,50 @@
 
             <div class="col-sm-7 col-xs-12 no-pad">
                 <div class="col-md-12 col-xs-12 no-pad">
-                    <h1 class="p-color-white header-spacing d-header-text">Courier Rates: New Zealand
+                    <h1 class="p-color-white header-spacing d-header-text">Courier Rates: India to Qatar
                         <br></h1>
-                    <h1 class="header1 p-color-white header-spacing">Starting from ₹1661/-</h1>
+                    <h1 class="header1 p-color-white header-spacing">Starting from ₹1270/-</h1>
                     <table class="table table-bordered txt-a-c">
                         <tr>
                             <td class="btn-b-y tbl-br">
                                 <h1>Pricing</h1>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1661</h1>
+                                <h1>₹1270</h1>
                                 <p><span>Per</span> 0.5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1926</h1>
+                                <h1>₹1542</h1>
                                 <p><span>Per</span> 1 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹2619</h1>
+                                <h1>₹1992</h1>
                                 <p><span>Per</span> 2 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3404</h1>
+                                <h1>₹2918</h1>
                                 <p><span>Per</span> 3 Kg</p>
                             </td>
                         </tr>
                         <tr>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3809</h1>
+                                <h1>₹3281</h1>
                                 <p><span>Per</span> 4 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3876</h1>
+                                <h1>₹3205</h1>
                                 <p><span>Per</span> 5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3735</h1>
+                                <h1>₹3433</h1>
                                 <p><span>Per</span> 10 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹8010</h1>
+                                <h1>₹7224</h1>
                                 <p><span>Per</span> 20 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹22634</h1>
+                                <h1>₹18419</h1>
                                 <p><span>Per</span> 50 Kg</p>
                             </td>
                         </tr>
@@ -149,7 +149,7 @@
                             <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>
                             {{--</button>--}}
                             {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
-                            <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Courier%20Quote%20from%20India%20to%20New%20Zealand" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
+                            <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Courier%20Quote%20from%20India%20to%20QATAR" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
                             {{--</button>--}}
                         </div>
                         <p class="f-s-8 f-c-d-greay f-w-7">We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
@@ -179,63 +179,60 @@
         <div class="container">
             <center>
                 <br>
-                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">International Courier From India to New Zealand</span>,
-                    <br>shipping made easy with shoppre to new zealand</h1>
+                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">International Courier From India to Qatar</span>,
+                    <br>happy shipping to qatar with shoppre</h1>
             </center>
             <br>
-            <p class="f-s-22 f-c-d-gray">SHIPPING MADE EASY WITH SHOPPRE TO NEW ZEALAND</p>
+            <p class="f-s-22 f-c-d-gray">CHEAP COURIER CHARGES FROM INDIA TO QATAR</p>
             <br>
-            <p class="f-s-18 f-c-gray">Warm Greetings from India!! <br>
-                ShoppRe is here to provide astonishing shipping related services to New Zealand which is famous for its National Rugby team, indigenous Maori culture, and its picturesque landscape.
+            <p class="f-s-18 f-c-gray">We all enjoy it when we receive something. Furthermore, there would have definitely been an event
+                when each one of us had to gift a friend, a commodity to a customer, documents to a business partner, etc., While the transportation
+                procedure isn't constantly smooth, you will have to go searching and comparing information as to which company provides the cheapest, best and fastest delivery services.
             </p> <br>
-            <p class="f-s-18 f-c-gray">Want to courier Indian products to New Zealand? Not sure what to buy? Worried about the courier rates? No more worries 🙂
-                ShoppRe has you secured!! Now ship all your couriers with the most reliable, cheap and best courier partners to your doorstep by reducing your per-kg cost to
-                almost half of it (the package weight is inversely proportional to the rates) with the best quality services.
+            <p class="f-s-18 f-c-gray">But you would absolutely put an end to all the comparisons and research you are doing from quite some time after visiting
+                ShoppRe as it provides best courier services and courier rates by allowing to cut down your courier rates to almost half as the per-kg cost decreases as when the weight of the package increases.
             </p> <br>
 
-            <h2 class="f-s-20 f-c-d-gray f-w-8"> Go through the following FAQs for more detailed and clarified information on shipping your shipments with ShoppRe!</h2>
+            <h2 class="f-s-20 f-c-d-gray f-w-8">To know more about ShoppRe services, go through the following FAQs that often trigger your mind.</h2>
             <br>
-            <h2 class="f-s-18 f-c-d-gray f-w-8">1. Is ShoppRe a reliable commercial Shipping Company to ship goods to Newzealand?</h2>
-            <p class="f-s-16 f-c-gray">Absolutely yes!! ShoppRe is one of the best Shipping Companies from India on which you can completely rely on for its best
-                quality services, cheap shipping rates, amazing consolidation and relocation services, and its exclusive offers.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">1. What is the best courier service providing company to ship internationally? Why should I rely on ShoppRe?</h2>
+            <p class="f-s-16 f-c-gray">ShoppRe doesn’t ask for ANY upfront payment while scheduling your pickup or dropping off the package. And if you are worried
+                about the damage to your goods during the transit, there’s no need to worry as we schedule your couriers with the best courier partners i.e DHL/FedEx, etc.
+                And DHL/FedEx has strict guidelines to ensure the safety of your goods and if by any chance, the damage is made in regards to our fault, then
+                ShoppRe refunds the entire amount (if there are any supporting proofs).
              </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">2. Can I ship household stuff to NEW ZEALAND from India?</h2>
-            <p class="f-s-16 f-c-gray">With ShoppRe You can ship all your household stuff within just 3-6 working days with
-                very cheap and reliable shipping rates and can experience an incredible delight as the ShoppRe’s main objective is to connect back the Indian consumers living abroad with
-                India and take the Indian online market and small scale sellers reach the global market.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">2. How to courier Indian handicrafts cheaply?</h2>
+            <p class="f-s-16 f-c-gray">ShoppRe would be the absolute answer for it as it constantly strives and aims for customer satisfaction and cheap and affordable rates by
+                reducing almost half of its shipping rates and providing exclusive offers along with the best quality services without compromising
+                on any of the things alongside adding the beauty to your entire house/office or any place for that matter with the mesmerizing looks of the Indian handicrafts.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">3. Can I buy from Amazon.in, Flipkart, Myntra etc., and ship it to New Zealand?</h2>
-            <p class="f-s-16 f-c-gray">Certainly yes! With ShoppRe You can Shop from any of your favorite Indian online stores and ship it to
-                your doorstep with very fast delivery services arriving in just 3-6 working days to your doorstep with the best, shoddy and truly solid shipping rates.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">3. Is it possible to ship copper from India to Qatar?</h2>
+            <p class="f-s-16 f-c-gray">Absolutely Yes! ShoppRe helps you ship copper and any other copper-related articles within just 3-6 business days while you can just
+                sit back and enjoy the cheap shipping rates from India with ShoppRe along with a doorstep delivery facility.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">4. What is the most affordable way to send document couriers from India to New Zealand?</h2>
-            <p class="f-s-16 f-c-gray">ShoppRe is the answer again because of its speedy delivery services and the most reliable shipping rates
-                along with its best team of employees who constantly aim at customer satisfaction and would help you provide and update all the
-                details regarding your shipment (tracking details) constantly in real-time.
-
+            <h2 class="f-s-18 f-c-d-gray f-w-8">4. Can I ship water filters to Qatar?</h2>
+            <p class="f-s-16 f-c-gray">Yes, shipping water filters to Qatar can be done through ShoppRe with very low and cheap discounted rates from India to your doorstep in Qatar.
+                Water Filters like Aqua Guard (copper protection), Havells etc.would definitely serve your purpose and make you fall in love with it.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">5. What is the easiest way to ship medicines from India to New Zealand?</h2>
-            <p class="f-s-16 f-c-gray">ShoppRe again!! ShoppRe helps you ship medicines to your doorstep which have original prescription and Invoice by clearing
-                all the Indian Customs by default, but not the destination customs as ShoppRe doesn't have any control over it.
-                Though the medicines have original prescription and Invoice, sometimes it can not be shipped since few Indian medicines
-                like Crocin would be restricted at the destination for which again ShoppRe has no control.
-
+            <h2 class="f-s-18 f-c-d-gray f-w-8">5. Can I buy from Amazon.in, Flipkart, Myntra, etc., and ship it to Qatar?</h2>
+            <p class="f-s-16 f-c-gray">Certainly yes! With ShoppRe You can Shop from any of your favorite Indian online stores and ship it to your
+                doorstep with very fast delivery services arriving in just 3-6 working days to your doorstep with the best, shoddy and truly solid shipping rates.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">6. Can I shop and ship Indian Jewellery to New Zealand?</h2>
-            <p class="f-s-16 f-c-gray">Definitely Yes! With ShoppRe, You can shop and ship your favorite Indian Jewellery from Cilory.com, Voylla.com,
-                Jaypore.com and many more except precious stones like gold, silver and diamond ornaments and add that further luster to your entire personality
-                and look little extra beautiful by adding astonishing look to the entire event/party at very affordable prices.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">6. What is the most affordable way to courier documents from India to Qatar?</h2>
+            <p class="f-s-16 f-c-gray">ShoppRe is the answer again because of its speedy delivery services and the most reliable shipping rates along with its best team of employees who constantly aim at
+                customer satisfaction and would help you provide and update all the details regarding your shipment (tracking details) constantly in real-time.
 
             </p> <br>
-            <h2 class="f-s-18 f-c-d-gray f-w-8">7. Is it affordable to shop and ship garments and Kitchen Linens from India to New Zealand?</h2>
-            <p class="f-s-16 f-c-gray">Well, With ShoppRe You can ship it with the best, shoddy and truly solid shipping rates, through which You would
-                definitely reclaim your experience with us as almost 50% of the shipment costs would be discounted to all the customers alongside the
-                other energizing offers for the first time users, month-end-offers to the existing customers and many more.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">7. How to courier Indian handicrafts cheaply?</h2>
+            <p class="f-s-16 f-c-gray">ShoppRe would be the absolute answer for it as it constantly strives and aims for customer satisfaction with cheap and
+                affordable rates by reducing almost half of its shipping rates and providing exclusive offers along with the best quality services without compromising
+                on any of the things alongside adding the beauty to your entire house/office or any place for that matter with the mesmerizing looks of the
+                Indian handicrafts and creates a very pleasant atmosphere to live and work.
             </p> <br>
 
         </div>
@@ -333,10 +330,10 @@
 
 
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/international-courier-charges-per-kg/from-india-to-uk/" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="international-courier-charges-india-to-new-zealand-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">The UK Courier Rates</span>
+                                <span class="elementor-icon-list-text txt-u-l">New Zealand Courier Rates</span>
                             </a>
                         </div>
                     </div>

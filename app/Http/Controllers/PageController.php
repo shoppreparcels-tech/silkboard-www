@@ -698,6 +698,22 @@ class PageController extends Controller
     {
         return view('page.landing-pages.pricing-japan');
     }
+    public function pricingMauritius()
+    {
+        return view('page.landing-pages.pricing-mauritius');
+    }
+    public function pricingDenmark()
+    {
+        return view('page.landing-pages.pricing-denmark');
+    }
+    public function pricingSwitzerland()
+    {
+        return view('page.landing-pages.pricing-switzerland');
+    }
+    public function pricingQatar()
+    {
+        return view('page.landing-pages.pricing-qatar');
+    }
     public function contactIndex()
     {
         return view('page.contact-new');

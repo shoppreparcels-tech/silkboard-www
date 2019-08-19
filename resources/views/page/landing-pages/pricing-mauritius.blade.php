@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Courier Charges Per Kg To New Zealand from India | ShoppRe.com')
-@section('description', ' Get Free Courier Charges to New Zealand starting from ₹1661 for 0.5kg. Book a Courier Now from anywhere in India. Courier delivery 3-6 working days.')
-@section('keywords', 'new zealand courier services near me, ship from india to new zealand, courier charges per kg ')
+@section('title', 'Courier Charges Per Kg To Mauritius from India | ShoppRe.com')
+@section('description', 'Affordable International courier and Parcel delivery services to Mauritius from India. Book a Courier Now.')
+@section('keywords', 'mauritius courier services near me, cheap parcel delivery to mauritius, courier charges per kg, east africa ')
 
 @section('css_style')
     <script type="application/ld+json">
@@ -10,8 +10,8 @@
   "@context": "http://schema.org",
   "@type": "Organization",
   "name": "ShoppRe.com",
-  "alternateName": "Send International Courier From India to New Zealand",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-new-zealand-per-kg",
+  "alternateName": "Send International Courier From India to Mauritius",
+  "url": "https://www.shoppre.com/international-courier-charges-india-to-mauritius-per-kg",
   "logo": "https://www.shoppre.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
@@ -30,8 +30,8 @@
   "aggregateRating": {
     "@type" : "AggregateRating",
     "bestRating": "5",
-    "ratingValue" : "4.8",
-    "reviewCount" : "2312",
+    "ratingValue" : "4.7",
+    "reviewCount" : "1295",
     "worstRating" : 3.7
   }
 }
@@ -41,9 +41,9 @@
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
   "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-new-zealand-per-kg",
+  "url": "https://www.shoppre.com/international-courier-charges-india-to-mauritius-per-kg",
   "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
-  "description": "international courier from India to New Zealand",
+  "description": "international courier from India to Mauritius",
   "originAddress": {
     "@type": "PostalAddress",
     "streetAddress": "No.181, 1st Floor 2nd Cross Rd, 1st Block Koramangala",
@@ -54,7 +54,7 @@
   },
   "deliveryAddress": {
     "@type": "PostalAddress",
-    "addressCountry": "New Zealand"
+    "addressCountry": "Mauritius"
   },
    "hasDeliveryMethod": {
   "@type": "DeliveryMethod",
@@ -63,7 +63,7 @@
 }
 </script>
 
-<link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-new-zealand-per-kg" />
+<link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-mauritius-per-kg" />
 
 @endsection
 @section('content')
@@ -72,50 +72,50 @@
 
             <div class="col-sm-7 col-xs-12 no-pad">
                 <div class="col-md-12 col-xs-12 no-pad">
-                    <h1 class="p-color-white header-spacing d-header-text">Courier Rates: New Zealand
+                    <h1 class="p-color-white header-spacing d-header-text">Courier Rates: Mauritius
                         <br></h1>
-                    <h1 class="header1 p-color-white header-spacing">Starting from ₹1661/-</h1>
+                    <h1 class="header1 p-color-white header-spacing">Starting from ₹2087/-</h1>
                     <table class="table table-bordered txt-a-c">
                         <tr>
                             <td class="btn-b-y tbl-br">
                                 <h1>Pricing</h1>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1661</h1>
+                                <h1>₹2087</h1>
                                 <p><span>Per</span> 0.5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹1926</h1>
+                                <h1>₹2225</h1>
                                 <p><span>Per</span> 1 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹2619</h1>
+                                <h1>₹2732</h1>
                                 <p><span>Per</span> 2 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3404</h1>
+                                <h1>₹3481</h1>
                                 <p><span>Per</span> 3 Kg</p>
                             </td>
                         </tr>
                         <tr>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3809</h1>
+                                <h1>₹4128</h1>
                                 <p><span>Per</span> 4 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3876</h1>
+                                <h1>₹4772</h1>
                                 <p><span>Per</span> 5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3735</h1>
+                                <h1>₹4345</h1>
                                 <p><span>Per</span> 10 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹8010</h1>
+                                <h1>₹9161</h1>
                                 <p><span>Per</span> 20 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹22634</h1>
+                                <h1>₹26066</h1>
                                 <p><span>Per</span> 50 Kg</p>
                             </td>
                         </tr>
@@ -124,8 +124,8 @@
                 </div>
                 <div class="col-md-12 col-xs-12 no-pad" style="margin-bottom: 14px;">
                     <center>
-                        <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l" title="Create Pickup Request">Schedule Pickup</a>
-                        <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l" title="Shipping Rates">Estimate</a>
+                        <a href="{{route('schedulePickup.Index')}}" class="btn btn-s-r btn-b-r btn-a-l" title="Create Pickup Request to Mauritius">Schedule Pickup</a>
+                        <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l" title="Mauritius Shipping Rates">Estimate</a>
                     </center>
                     <br>
                     <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r btn-f-w f-s-14">₹200 off on your first time Shipment, Use Code: FRST50</a>
@@ -149,7 +149,7 @@
                             <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>
                             {{--</button>--}}
                             {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
-                            <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Courier%20Quote%20from%20India%20to%20New%20Zealand" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
+                            <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Courier%20Quote%20from%20India%20to%20Mauritius" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
                             {{--</button>--}}
                         </div>
                         <p class="f-s-8 f-c-d-greay f-w-7">We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
@@ -179,65 +179,80 @@
         <div class="container">
             <center>
                 <br>
-                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">International Courier From India to New Zealand</span>,
-                    <br>shipping made easy with shoppre to new zealand</h1>
+                <h1 class="f-s-30 f-c-d-gray font-weight-900"> <span class="f-c-blue">International Courier From India to Mauritius</span>,
+                    <br>cheap parcel delivery to mauritius, east africa</h1>
             </center>
             <br>
-            <p class="f-s-22 f-c-d-gray">SHIPPING MADE EASY WITH SHOPPRE TO NEW ZEALAND</p>
+            <p class="f-s-22 f-c-d-gray">SHIPPING MADE EASY WITH SHOPPRE TO MAURITIUS</p>
             <br>
-            <p class="f-s-18 f-c-gray">Warm Greetings from India!! <br>
-                ShoppRe is here to provide astonishing shipping related services to New Zealand which is famous for its National Rugby team, indigenous Maori culture, and its picturesque landscape.
+            <p class="f-s-18 f-c-gray">ShoppRe provides you with the best courier rates to ship your products from
+                the top Indian online sellers with exclusive offers for the first time users and elite discounts on all the special occasions and offers
+                month-end offers and many others that make you overwhelmed. <br>
+                You may now feel that they provide such discounts because their services are not up to the mark. But the answer is absolute NO.
+                They are one of the leading shipping service providers from India with the most affordable, reliable, and also with the best quality services.
             </p> <br>
-            <p class="f-s-18 f-c-gray">Want to courier Indian products to New Zealand? Not sure what to buy? Worried about the courier rates? No more worries 🙂
-                ShoppRe has you secured!! Now ship all your couriers with the most reliable, cheap and best courier partners to your doorstep by reducing your per-kg cost to
-                almost half of it (the package weight is inversely proportional to the rates) with the best quality services.
+            <p class="f-s-18 f-c-gray">They provide shipping services to almost 220 countries in the world from anywhere in India with their package forwarding,
+                relocation, Personal Shopper services and many more with amazing and all-time dedicated employees who continuously strive for the maximum customer
+                satisfaction allowing you to reduce your per-kg cost to almost half with the increase in the weight of the consolidated package.
             </p> <br>
 
-            <h2 class="f-s-20 f-c-d-gray f-w-8"> Go through the following FAQs for more detailed and clarified information on shipping your shipments with ShoppRe!</h2>
+            <h2 class="f-s-20 f-c-d-gray f-w-8">Go through the following FAQs for a clear understanding of the shipping process with ShoppRe.</h2>
             <br>
-            <h2 class="f-s-18 f-c-d-gray f-w-8">1. Is ShoppRe a reliable commercial Shipping Company to ship goods to Newzealand?</h2>
-            <p class="f-s-16 f-c-gray">Absolutely yes!! ShoppRe is one of the best Shipping Companies from India on which you can completely rely on for its best
-                quality services, cheap shipping rates, amazing consolidation and relocation services, and its exclusive offers.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">1. Which shipping service is the cheapest?</h2>
+            <p class="f-s-16 f-c-gray">ShoppRe is one of the best Indian’s high standard companies which provides shipping services from India to more than 220 countries around the globe.
+                And what makes the company stand out in the crowd is not a very complicated thing. The company's main focus is to reconnect with people living abroad back with India.
+                And making the entire process of shipping a burden-free and a cheaper one. <br> <br>
+                So I would definitely suggest you choose ShoppRe because of its cheap and qualitative service.
              </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">2. Can I ship household stuff to NEW ZEALAND from India?</h2>
-            <p class="f-s-16 f-c-gray">With ShoppRe You can ship all your household stuff within just 3-6 working days with
-                very cheap and reliable shipping rates and can experience an incredible delight as the ShoppRe’s main objective is to connect back the Indian consumers living abroad with
-                India and take the Indian online market and small scale sellers reach the global market.
-            </p> <br>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">3. Can I buy from Amazon.in, Flipkart, Myntra etc., and ship it to New Zealand?</h2>
-            <p class="f-s-16 f-c-gray">Certainly yes! With ShoppRe You can Shop from any of your favorite Indian online stores and ship it to
-                your doorstep with very fast delivery services arriving in just 3-6 working days to your doorstep with the best, shoddy and truly solid shipping rates.
-            </p> <br>
-
-            <h2 class="f-s-18 f-c-d-gray f-w-8">4. What is the most affordable way to send document couriers from India to New Zealand?</h2>
-            <p class="f-s-16 f-c-gray">ShoppRe is the answer again because of its speedy delivery services and the most reliable shipping rates
-                along with its best team of employees who constantly aim at customer satisfaction and would help you provide and update all the
-                details regarding your shipment (tracking details) constantly in real-time.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">2. What are the international shipping charges from India to Mauritius?</h2>
+            <p class="f-s-16 f-c-gray">Pricing of international shipping varies from each courier service company. But the charges with ShoppRe is far cheaper compared to other courier service company.
+                The main reason for this could be the consolidation service which ShoppRe provides you by reducing almost half of the shipment cost.
+                <br>
+                And when we are looking for a shipment, we think of both cheap and less time-consuming services. But the majority of the time, we have to either
+                compromise on the time or pay the higher shipping charges. <br>
+                If the shipment cost is cheap, it would either take a lot of time to deliver or it would either be less time consuming with higher Shipping charges.
+                But with ShoppRe, both the cost and the time is taken have a proper match and hence you no need to compromise on both of the essential requirements.
 
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">5. What is the easiest way to ship medicines from India to New Zealand?</h2>
-            <p class="f-s-16 f-c-gray">ShoppRe again!! ShoppRe helps you ship medicines to your doorstep which have original prescription and Invoice by clearing
-                all the Indian Customs by default, but not the destination customs as ShoppRe doesn't have any control over it.
-                Though the medicines have original prescription and Invoice, sometimes it can not be shipped since few Indian medicines
-                like Crocin would be restricted at the destination for which again ShoppRe has no control.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">3. What are Indian shopping sites with international shipping?</h2>
+            <p class="f-s-16 f-c-gray">International shipping has become a hassle process with lots of custom duties both from the sender's destination and the receiver's destination.
+                <br>
+                Majorly, there are no Indian shopping sites with international shipping. But, you can shop from any of the Indian online stores and use ShoppRe to
+                ship your package which is neither a hassle process nor time-consuming and is always a budget-friendly thing which makes you feel that your package is
+                in the safe hands due to the strict guidelines on the protection of the package.
 
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray f-w-8">6. Can I shop and ship Indian Jewellery to New Zealand?</h2>
-            <p class="f-s-16 f-c-gray">Definitely Yes! With ShoppRe, You can shop and ship your favorite Indian Jewellery from Cilory.com, Voylla.com,
-                Jaypore.com and many more except precious stones like gold, silver and diamond ornaments and add that further luster to your entire personality
-                and look little extra beautiful by adding astonishing look to the entire event/party at very affordable prices.
-
-            </p> <br>
-            <h2 class="f-s-18 f-c-d-gray f-w-8">7. Is it affordable to shop and ship garments and Kitchen Linens from India to New Zealand?</h2>
-            <p class="f-s-16 f-c-gray">Well, With ShoppRe You can ship it with the best, shoddy and truly solid shipping rates, through which You would
-                definitely reclaim your experience with us as almost 50% of the shipment costs would be discounted to all the customers alongside the
-                other energizing offers for the first time users, month-end-offers to the existing customers and many more.
+            <h2 class="f-s-18 f-c-d-gray f-w-8">4. Can I ship fragile items to Mauritius?</h2>
+            <p class="f-s-16 f-c-gray">Any kind of goods except those which are in our prohibited and restricted list can be shipped. For any fragile items,
+                you would need to make sure that it has been packed properly as we will not be responsible for any damage caused by inappropriate packaging.
             </p> <br>
 
+            <h2 class="f-s-18 f-c-d-gray f-w-8">5. How to courier Indian handicrafts to Mauritius cheaply?</h2>
+            <p class="f-s-16 f-c-gray">ShoppRe would be the absolute answer for it as it constantly strives and aims for customer satisfaction with cheap and
+                affordable rates by reducing almost half of its shipping rates and providing exclusive offers along with the best quality services without
+                compromising on any of the things alongside adding the beauty to your entire house/office or any place for that matter with the mesmerizing looks
+                of the Indian handicrafts and creates a very pleasant atmosphere to live and work.
+            </p> <br>
+
+            <h2 class="f-s-18 f-c-d-gray f-w-8">6. Are the parcels collected from my home in India for Relocation/Package Forwarding?</h2>
+            <p class="f-s-16 f-c-gray">Yes, ShoppRe collects all your parcel/courier from any address all over India. Even if it is on the 4th floor of a
+                building with a broken elevator, we will try our best to help you during the collection. Just let us know in advance if there is any
+                restriction for the collection to be made. Collection restriction could apply if we hire our trusted partners to complete the collection process.
+            </p> <br>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">7. Can I ship stuff from Amazon.in/ Flipkart/Myntra to SriLanka?</h2>
+            <p class="f-s-16 f-c-gray">The answer is no. But ShoppRe allows you to shop from any of your favorite Indian online stores and handles the burden of
+                shipping them to your doorstep by taking care of all the Indian customs while you can just sit back and relax.
+            </p> <br>
+            <h2 class="f-s-18 f-c-d-gray f-w-8">8. What is the best way to ship Indian Jewelry to Mauritius?</h2>
+            <p class="f-s-16 f-c-gray">ShoppRe understands that the connection between jewelry and women is so deep that every woman considers her makeover incomplete without
+                embracing some traditional jewelry that adds luster to her entire personality. Whether it's a wedding ceremony or a festival, a woman truly sparkles if
+                adorns cultural ornaments, which India is famous for.
+                ShoppRe helps you ship your favorite Indian fancy/traditional jewelry except for precious stones like gold, silver, diamond, etc that makes you look extra
+                beautiful and add some astonishing look to the entire event/party at very affordable prices.
+            </p> <br>
         </div>
         <br>
     </section>
@@ -252,8 +267,6 @@
             <div class="row text-center">
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-
                         <div class="col-md-12 col-xs-12 no-pad">
                             <a href="international-courier-charges-india-to-usa-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                 <i class="fa fa-plane" aria-hidden="true"></i>
@@ -265,8 +278,6 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-
                         <div class="col-md-12 col-xs-12 no-pad">
                             <a href="international-courier-charges-india-to-uae-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                 <i class="fa fa-plane" aria-hidden="true"></i>
@@ -278,8 +289,6 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-
                         <div class="col-md-12 col-xs-12 no-pad">
                             <a href="international-courier-charges-india-to-singapore-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                 <i class="fa fa-plane" aria-hidden="true"></i>
@@ -291,8 +300,6 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-
                         <div class="col-md-12 col-xs-12 no-pad">
                             <a href="international-courier-charges-india-to-germany-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                    <i class="fa fa-plane" aria-hidden="true"></i>
@@ -304,8 +311,6 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-
                         <div class="col-md-12 col-xs-12 no-pad">
                             <a href="international-courier-charges-india-to-canada-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
@@ -317,8 +322,6 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-
                         <div class="col-md-12 col-xs-12 no-pad">
                             <a href="international-courier-charges-india-to-australia-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
@@ -330,8 +333,6 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-
                         <div class="col-md-12 col-xs-12 no-pad">
                             <a href="https://ship.shoppre.com/international-courier-charges-per-kg/from-india-to-uk/" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
@@ -343,8 +344,6 @@
                 </div>
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-
                         <div class="col-md-12 col-xs-12 no-pad">
                             <a href="international-courier-charges-india-to-south-africa-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
@@ -362,6 +361,39 @@
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
                                 <span class="elementor-icon-list-text txt-u-l">Japan Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-new-zealand-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                                   <i class="fa fa-plane" aria-hidden="true"></i>
+                                   </span>
+                                <span class="elementor-icon-list-text txt-u-l">New Zealand Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-qatar-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Qatar Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-malaysia-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Malaysia Courier Rates</span>
                             </a>
                         </div>
                     </div>

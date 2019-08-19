@@ -7,7 +7,7 @@
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/shop-ship"/>
     <style>
-        .bg-diwali-lp{background-image:url(../../img/images/overlay1.png);height:900px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.select-control{float:left;width:90px!important;height:40px!important;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:3px;background-color:#fafafb;border:none}.select2-container--default .select2-selection--single{background-color:#fff!important;border:none!important;border-radius:4px!important;height:40px!important;padding-top:5px!important}.select2-container--default .select2-selection--single .select2-selection__arrow b{margin-top:4px!important}@media only screen and (max-width:600px){.bg-diwali-lp{height:700px}}
+        .bg-diwali-lp{background-image:url(../../img/images/overlay1.png);height:900px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.select-control{float:left;width:90px!important;height:40px!important;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:3px;background-color:#fafafb;border:none}.select2-container--default.select2-selection--single{background-color:#fff!important;border:none!important;border-radius:4px!important;height:40px!important;padding-top:5px!important}.select2-container--default .select2-selection--single .select2-selection__arrow b{margin-top:4px!important}@media only screen and (max-width:600px){.bg-diwali-lp{height:700px}}
     </style>
 @endsection
 @section('content')
@@ -167,6 +167,9 @@
             </div>
         </div>
     </section>
+    <br>
+    <br>
+    <br>
     <section style="background-color: #fafafb; margin-top: 10px">
         <div class="container" style="padding-top: 30px;">
             <center>
@@ -222,13 +225,13 @@
     </section>
 
     <section class="chris-benefits">
-        <div class="container" >
+        <div class="container " >
             <center>
                 <h1 class="p-color-cement-dark flipkart-h1 font-weight-900" >Shop from 1000+ Indian online stores with ShoppRe Address</h1>
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <div class="panel">
+                    <div class="panel boxed outer border-1px">
                         <ul>
                             <li><span><a href="myntra-online-shopping-shipping-from-india">Myntra Online Fashion Store</a></span></li>
                             <li><span><a href="flipkart-shopping-with-shoppre-from-india">Flipkart.com Online Shop</a></span></li>
@@ -239,7 +242,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="panel">
+                    <div class="panel outer border-1px">
                         <ul>
                             <li><span><a href="limeroad-shopping-international-shipping">Limeroad Online Shopping Site</a></span></li>
                             <li><span><a href="https://ship.shoppre.com/online-stores-india/suta-online-shopping-india/" target="_blank">Suta Sarees Online Shopping</a></span></li>
@@ -251,14 +254,14 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="panel">
+                    <div class="panel outer border-1px">
                         <ul>
                             <li><span><a href="https://ship.shoppre.com/online-stores-india/shop-pepperfry-online-furniture-international-shipping-india/" target="_blank">Pepperfry Furniture Shopping</a></span></li>
                             <li><span><a href="https://ship.shoppre.com/online-stores-india/ishashoppe-organic-yoga-clothing-india-international-shipping/" target="_blank">IshaShoppe Yoga Clothing</a></span></li>
                             <li><span><a href="https://ship.shoppre.com/online-stores-india/nykaa-india-beauty-products-international-shipping/" target="_blank">Nykaa Cosmetics Products</a></span></li>
                             <li><span><a href="https://ship.shoppre.com/online-stores-india/biba-india-international-shipping/" target="_blank">Biba Ethnic Wear Shopping</a></span></li>
                             <li><span><a href="https://ship.shoppre.com/online-stores-india/boodmo-care-spare-parts-international-shipping-from-india/" target="_blank">Boodmo - Spare Parts for CARS</a></span></li>
-                            </ul>
+                        </ul>
                     </div>
                 </div>
                 <br/><br/>

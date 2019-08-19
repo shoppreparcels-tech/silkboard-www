@@ -685,6 +685,10 @@ Route::get('/international-courier-charges-india-to-south-africa-per-kg', 'PageC
 Route::get('/international-courier-charges-india-to-japan-per-kg', 'PageController@pricingJapan')->name('japanPerKg');
 Route::get('/international-courier-charges-india-to-new-zealand-per-kg', 'PageController@pricingNewzealand')->name('newzealandPerKg');
 Route::get('/international-courier-charges-india-to-malaysia-per-kg', 'PageController@pricingMalaysia')->name('malaysiaPerKg');
+Route::get('/international-courier-charges-india-to-mauritius-per-kg', 'PageController@pricingMauritius')->name('mauritiusPerKg');
+Route::get('/international-courier-charges-india-to-denmark-per-kg', 'PageController@pricingDenmark')->name('denmarkPerKg');
+Route::get('/international-courier-charges-india-to-switzerland-per-kg', 'PageController@pricingSwitzerland')->name('switzerlandPerKg');
+Route::get('/international-courier-charges-india-to-qatar-per-kg', 'PageController@pricingQatar')->name('qatarPerKg');
 Route::get('/dropshipping-from-india-and-worldwide-delivery', 'PageController@dropShipping')->name('dropShipping');
 
 /*-------- Schema Landing Pages ------*/

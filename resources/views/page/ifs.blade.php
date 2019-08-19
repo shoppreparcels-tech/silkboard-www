@@ -940,6 +940,59 @@
         </div>
     </section>
 
+
+    <section class="chris-benefits">
+        <div class="container " >
+            <center>
+                <h1 class="p-color-cement-dark flipkart-h1 font-weight-900" >List of popular Indian online stores</h1>
+            </center>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="panel boxed outer border-1px">
+                        <ul>
+                            <li><span><a href="myntra-online-shopping-shipping-from-india">Myntra Online Fashion Store</a></span></li>
+                            <li><span><a href="flipkart-shopping-with-shoppre-from-india">Flipkart.com Online Shop</a></span></li>
+                            <li><span><a href="amazon-india-shop-international-shipping">Amazon.in Shopping India</a></span></li>
+                            <li><span><a href="jaypore-international-shipping-from-india">Jaypore Handpicked Products</a></span></li>
+                            <li><span><a href="ajio-online-shopping-international-shipping">AJIO Fashion & Lifestyle Brand</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel outer border-1px">
+                        <ul>
+                            <li><span><a href="limeroad-shopping-international-shipping">Limeroad Online Shopping Site</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/suta-online-shopping-india/" target="_blank">Suta Sarees Online Shopping</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/firstcry-baby-products-international-shipping/" target="_blank">FirstCry Baby & Kids Shopping</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/patanjali-ayurved-products-international-delivery/" target="_blank">Patanjali Ayurvedic Shopping</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/snapdeal-international-delivery-shopping-from-india/" target="_blank">Snapdeal Online Shopping</a></span></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel outer border-1px">
+                        <ul>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/shop-pepperfry-online-furniture-international-shipping-india/" target="_blank">Pepperfry Furniture Shopping</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/ishashoppe-organic-yoga-clothing-india-international-shipping/" target="_blank">IshaShoppe Yoga Clothing</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/nykaa-india-beauty-products-international-shipping/" target="_blank">Nykaa Cosmetics Products</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/biba-india-international-shipping/" target="_blank">Biba Ethnic Wear Shopping</a></span></li>
+                            <li><span><a href="https://ship.shoppre.com/online-stores-india/boodmo-care-spare-parts-international-shipping-from-india/" target="_blank">Boodmo - Spare Parts for CARS</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <br/><br/>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="/indian-online-stores" class="btn btn-s-b btn-b-g" target="_blank">List of Indian Online Stores</a>
+        </div>
+        <br/><br/>
+        </div>
+    </section>
+    <br>
+    <br>
+
 @endsection
 
 @section('js_script')
