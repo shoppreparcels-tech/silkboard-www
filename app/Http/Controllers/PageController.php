@@ -572,6 +572,26 @@ class PageController extends Controller
     {
         return view('page.landing-pages.usa-california');
     }
+    public function virginiaShipping()
+    {
+        return view('page.landing-pages.usa-virginia');
+    }
+    public function washingtonShipping()
+    {
+        return view('page.landing-pages.usa-washington');
+    }
+    public function sanfranciscoShipping()
+    {
+        return view('page.landing-pages.usa-sanfrancisco');
+    }
+    public function illinoisShipping()
+    {
+        return view('page.landing-pages.usa-illinois');
+    }
+    public function georgiaShipping()
+    {
+        return view('page.landing-pages.usa-georgia');
+    }
     public function ifsLandingPage()
     {
         return view('page.personal-shoper');

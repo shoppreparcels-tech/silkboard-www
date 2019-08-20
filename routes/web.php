@@ -707,6 +707,11 @@ Route::get('/shipping-from-india-to-usa/florida', 'PageController@floridaShippin
 Route::get('/shipping-from-india-to-usa/new-york', 'PageController@newyorkShipping')->name('usa-newyork');
 Route::get('/shipping-from-india-to-usa/california', 'PageController@californiaShipping')->name('usa-california');
 Route::get('/shipping-from-india-to-usa/texas', 'PageController@texasShipping')->name('usa-texas');
+Route::get('/shipping-from-india-to-usa/virginia', 'PageController@virginiaShipping')->name('usa-virginia');
+Route::get('/shipping-from-india-to-usa/washington', 'PageController@washingtonShipping')->name('usa-washington');
+Route::get('/shipping-from-india-to-usa/san-francisco', 'PageController@sanfranciscoShipping')->name('usa-sanfrancisco');
+Route::get('/shipping-from-india-to-usa/illinois', 'PageController@illinoisShipping')->name('usa-illinois');
+Route::get('/shipping-from-india-to-usa/georgia', 'PageController@georgiaShipping')->name('usa-georgia');
 
 
 //Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');

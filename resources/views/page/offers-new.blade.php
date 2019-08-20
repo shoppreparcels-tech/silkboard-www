@@ -61,13 +61,13 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="/offers" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/ind250-shoppre.png" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
+{{--                        <div class="item">--}}
+{{--                            <div class="pad15">--}}
+{{--                                <a href="/offers" target="_blank">--}}
+{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/ind250-shoppre.png" class="boxofScroll"/>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                         <div class="item">
                             <div class="pad15">
                                 <a href="/first-time-international-shipment-offer" target="_blank">
@@ -174,11 +174,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Fashion Parade</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">14th-15th Aug</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Lakme Beauty Products</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up to 40% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com/" target="_blank">
+                                <a href="https://www.myntra.com/lakme" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5997a62748742.png"/>
                                 </a>
                             </div>
@@ -188,7 +188,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Freedom Special Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Everything on Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Shop Now</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
@@ -201,10 +201,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Raksha Bandhan</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Fashion Autumn-Winter</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Shop Now</h5>
                             <div class="ecomSmallBox" style="height: 94px;">
-                                <a href="https://www.amazon.in/b?node=7136124031&pf_rd_p=6ab016fd-a8c4-4a00-b2e8-9bf45e4841b3&pf_rd_r=49KTSG1WT2HHDYK8TCKF" target="_blank">
+                                <a href="https://www.amazon.in/b?node=17336463031&pf_rd_p=a06502bf-bc12-4926-b34a-63a9fab57a27&pf_rd_r=TYG62X8D05NJRNTMREJP" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>
                                 </a>
                             </div>
