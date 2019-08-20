@@ -675,6 +675,7 @@ Route::get('/radcon', 'PageController@radioContest')->name('radio');
 Route::get('/radcon-tc', 'PageController@radioTermsConditions')->name('radio.tc');
 Route::get('/seller-partner', 'PageController@seller')->name('seller');
 /*-------- Per KG Landing Pages ------*/
+Route::get('/dropshipping-from-india-and-worldwide-delivery', 'PageController@dropShipping')->name('dropShipping');
 Route::get('/international-courier-charges-india-to-usa-per-kg', 'PageController@pricingUsa')->name('usaPerKg');
 Route::get('/international-courier-charges-india-to-uae-per-kg', 'PageController@pricingUae')->name('uaePerKg');
 Route::get('/international-courier-charges-india-to-canada-per-kg', 'PageController@pricingCanada')->name('canadaPerKg');
@@ -689,7 +690,12 @@ Route::get('/international-courier-charges-india-to-mauritius-per-kg', 'PageCont
 Route::get('/international-courier-charges-india-to-denmark-per-kg', 'PageController@pricingDenmark')->name('denmarkPerKg');
 Route::get('/international-courier-charges-india-to-switzerland-per-kg', 'PageController@pricingSwitzerland')->name('switzerlandPerKg');
 Route::get('/international-courier-charges-india-to-qatar-per-kg', 'PageController@pricingQatar')->name('qatarPerKg');
-Route::get('/dropshipping-from-india-and-worldwide-delivery', 'PageController@dropShipping')->name('dropShipping');
+Route::get('/international-courier-charges-india-to-mexico-per-kg', 'PageController@pricingMexico')->name('mexicoPerKg');
+Route::get('/international-courier-charges-india-to-sri-lanka-per-kg', 'PageController@pricingSrilanka')->name('srilankaPerKg');
+Route::get('/international-courier-charges-india-to-hong-kong-per-kg', 'PageController@pricingHongkong')->name('hongkongPerKg');
+Route::get('/international-courier-charges-india-to-spain-per-kg', 'PageController@pricingSpain')->name('spainPerKg');
+Route::get('/international-courier-charges-india-to-brazil-per-kg', 'PageController@pricingBrazil')->name('brazilPerKg');
+
 
 /*-------- Schema Landing Pages ------*/
 Route::get('/shipping-from-india-to-usa/las-vegas', 'PageController@lasvegasShipping')->name('usa-lasvegas');
