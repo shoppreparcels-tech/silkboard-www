@@ -386,6 +386,26 @@
     <priority>0.70</priority>
 </url>
 <url>
+    <loc>https://www.shoppre.com/shipping-from-india-to-usa/new-york</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/shipping-from-india-to-usa/florida</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/shipping-from-india-to-usa/texas</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/shipping-from-india-to-usa/california</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+</url>
+<url>
   <loc>https://www.shoppre.com/country-guide</loc>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>

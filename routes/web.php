@@ -697,6 +697,10 @@ Route::get('/shipping-from-india-to-usa/chicago', 'PageController@chicagoShippin
 Route::get('/shipping-from-india-to-usa/los-angeles', 'PageController@losangelesShipping')->name('usa-losangeles');
 Route::get('/shipping-from-india-to-usa/michigan', 'PageController@michiganShipping')->name('usa-michigan');
 Route::get('/shipping-from-india-to-usa/new-jersey', 'PageController@newjerseyShipping')->name('usa-newjersey');
+Route::get('/shipping-from-india-to-usa/florida', 'PageController@floridaShipping')->name('usa-florida');
+Route::get('/shipping-from-india-to-usa/new-york', 'PageController@newyorkShipping')->name('usa-newyork');
+Route::get('/shipping-from-india-to-usa/california', 'PageController@californiaShipping')->name('usa-california');
+Route::get('/shipping-from-india-to-usa/texas', 'PageController@texasShipping')->name('usa-texas');
 
 
 //Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
