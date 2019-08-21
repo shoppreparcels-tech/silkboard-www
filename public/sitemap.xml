@@ -51,6 +51,11 @@
     <priority>0.80</priority>
 </url>
 <url>
+    <loc>https://www.shoppre.com/onam-community-shipping-offer</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+</url>
+<url>
     <loc>https://www.shoppre.com/best-international-relocation-packers-movers</loc>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
@@ -473,6 +478,21 @@
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/georgia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/shipping-from-india-to-usa/arizona</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/shipping-from-india-to-usa/pennsylvania</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/shipping-from-india-to-usa/colorado</loc>
     <changefreq>daily</changefreq>
     <priority>0.70</priority>
 </url>

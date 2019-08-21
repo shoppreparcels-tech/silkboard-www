@@ -56,8 +56,8 @@
                     <div class="MultiCarousel-inner">
                         <div class="item">
                             <div class="pad15">
-                                <a href="send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/send-rakhi-international-delivery.png" class="boxofScroll"/>
+                                <a href="/kerala-onam-online-shopping-guide-from-india" target="_blank">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/onam-offer-250.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>
@@ -283,7 +283,7 @@
                     <div class="panel ">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Shopping Days"><span><a
-                                        href="/https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></span></li>
+                                        href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Freedom Sale"><span><a
                                         href="/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Flipstart Days"><span><a
@@ -315,10 +315,12 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
+                                        href="/onam-community-shipping-offer">Onam Community Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="diwali"><span><a
                                         href="/diwali-offer">Diwali Offer</a></span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="new year"><span><a
-                                        href="/new-year-offer">New Year Offer</a></span></li>
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="new year"><span><a--}}
+{{--                                        href="/new-year-offer">New Year Offer</a></span></li>--}}
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="shop ship"><span><a
                                         href="/shop-ship">Shop & Ship Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="student"><span><a

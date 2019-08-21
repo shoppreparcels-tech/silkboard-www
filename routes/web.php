@@ -622,6 +622,7 @@ Route::post('/calculate/exchange-rate', 'CountryGuideController@exchangeCalculat
 Route::get('/indian-virtual-address', 'PageController@indianVirtual')->name('indianVirtual');
 //Route::get('/shop-from-india-ship-worldwide', 'PageController@shopFromIndia')->name('shopFromIndia');
 Route::get('/sellers-shipping', 'PageController@sellerShipping')->name('sellerShipping');
+Route::get('/onam-community-shipping-offer', 'PageController@onamCommunity')->name('onamCommunity');
 
 
 /*-------- landing pages------*/
@@ -686,7 +687,7 @@ Route::get('/international-courier-charges-india-to-south-africa-per-kg', 'PageC
 Route::get('/international-courier-charges-india-to-japan-per-kg', 'PageController@pricingJapan')->name('japanPerKg');
 Route::get('/international-courier-charges-india-to-new-zealand-per-kg', 'PageController@pricingNewzealand')->name('newzealandPerKg');
 Route::get('/international-courier-charges-india-to-malaysia-per-kg', 'PageController@pricingMalaysia')->name('malaysiaPerKg');
-Route::get('/international-courier-charges-india-to-mauritius-per-kg', 'PageController@pricingMauritius')->name('mauritiusPerKg');
+Route::get('/internaticheap-rates-international-shipping-cost-calculatoronal-courier-charges-india-to-mauritius-per-kg', 'PageController@pricingMauritius')->name('mauritiusPerKg');
 Route::get('/international-courier-charges-india-to-denmark-per-kg', 'PageController@pricingDenmark')->name('denmarkPerKg');
 Route::get('/international-courier-charges-india-to-switzerland-per-kg', 'PageController@pricingSwitzerland')->name('switzerlandPerKg');
 Route::get('/international-courier-charges-india-to-qatar-per-kg', 'PageController@pricingQatar')->name('qatarPerKg');
@@ -716,6 +717,9 @@ Route::get('/shipping-from-india-to-usa/washington', 'PageController@washingtonS
 Route::get('/shipping-from-india-to-usa/san-francisco', 'PageController@sanfranciscoShipping')->name('usa-sanfrancisco');
 Route::get('/shipping-from-india-to-usa/illinois', 'PageController@illinoisShipping')->name('usa-illinois');
 Route::get('/shipping-from-india-to-usa/georgia', 'PageController@georgiaShipping')->name('usa-georgia');
+Route::get('/shipping-from-india-to-usa/arizona', 'PageController@arizonaShipping')->name('usa-arizona');
+Route::get('/shipping-from-india-to-usa/pennsylvania', 'PageController@pennsylvaniaShipping')->name('usa-pennsylvania');
+Route::get('/shipping-from-india-to-usa/colorado', 'PageController@coloradoShipping')->name('usa-colorado');
 
 
 //Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');

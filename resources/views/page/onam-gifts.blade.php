@@ -24,14 +24,13 @@
                    <img src="{{asset('img/images/tape_signup.svg')}}" alt="signup shoppre">  <br>
                </center>
                <center>
-                   <h18 class="f-s-50 f-c-white  f-w-9">Celebrate Happiness</h18>
-                   <p class="f-s-36 f-c-white f-w-9 ">Send Onam-Rakhi & Gifts </p>
-                   <img src="{{asset('img/images/send-rakhi-from-india-shoppre.png')}}" alt="cheapest way to send rakhi to usa" > <br><br>
+                   <h18 class="f-s-50 f-c-white  f-w-9">Celebrate ONAM</h18>
+                   <p class="f-s-36 f-c-white f-w-9 ">With ShoppRe.com </p>
+                   <a href="/onam-community-shipping-offer" target="_blank"><img src="{{asset('img/images/onam-250-mobile.png')}}" alt="onam offer india" > <br><br></a>
                    <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-r btn-a-l" target="_blank">Sign UP FREE</a>
                    <br>
                    <br>
-                   <br>
-                   <p class="f-s-15 f-c-l-gray f-w-8">From 1st September to 13th September 2019</p>
+                   <p class="f-s-15 f-c-l-gray f-w-8">25th August to 25th September 2019</p>
 
                </center>
            </div>
@@ -45,9 +44,9 @@
         <div class="container fst-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Onam Sarees, Dress, Gifts & Send Love through ShoppRe.com</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Onam Sarees, Dress, Gifts & more.  Ship with ShoppRe.com</h2>
                 </div>
-                <div class="col-md-4 col-xs-12">
+                <div class="col-md-4 col-xs-12 text-center">
                     <div class="">
                         <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Can%20i%20Send%20Rakhi,%20Gifts%20and%20Sweets%20from%20India?" target="_blank">
                             <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/9880393291-shop-ship-contact-number.png" >
@@ -219,7 +218,7 @@
                         You can save so much with Onam online shopping offers at various websites.
                         There are wondrous discounts going on at the original price of the products so shop save some cash.
                         You can even save some more if you choose to shop in groups.
-                        We offer a fantastic rebate at shipping to everyone who shops in a group or community.
+                        We offer a fantastic rebate at shipping to everyone <a href="onam-community-shipping-offer" target="_blank">who shops in a group or community</a>.
                         Avail all the benefits and save as much as you can while shopping for all your festive essentials.
                         And 80% less shipping charges are always there with ShoppRe.
                     </p>
@@ -273,7 +272,6 @@
                 <div>
                 <center><a href="{{route('customer.register')}}" class="btn btn-s-r btn-a-l btn-b-r" target="_blank">Sign Up Now for FREE!</a></center>
                 </div>
-
             </div>
         </div>
     </section>
@@ -318,7 +316,8 @@
             </div>
         </div>
     </section>
-
+    <br>
+    <br>
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">

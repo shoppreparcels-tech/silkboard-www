@@ -592,6 +592,18 @@ class PageController extends Controller
     {
         return view('page.landing-pages.usa-georgia');
     }
+    public function arizonaShipping()
+    {
+        return view('page.landing-pages.usa-arizona');
+    }
+    public function pennsylvaniaShipping()
+    {
+        return view('page.landing-pages.usa-pennsylvania');
+    }
+    public function coloradoShipping()
+    {
+        return view('page.landing-pages.usa-colorado');
+    }
     public function ifsLandingPage()
     {
         return view('page.personal-shoper');
@@ -780,6 +792,10 @@ class PageController extends Controller
     public function pricingFinland()
     {
         return view('page.landing-pages.pricing-finland');
+    }
+    public function onamCommunity()
+    {
+        return view('page.landing-pages.onam-community-offer');
     }
     public function pricingItaly()
     {

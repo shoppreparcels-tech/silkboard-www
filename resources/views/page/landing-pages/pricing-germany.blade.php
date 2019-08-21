@@ -258,6 +258,237 @@
         </div>
         <br>
     </section>
+    <section>
+        <div class="container fst-service" style="margin-top: 1px; background: seashell;">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <center><h2 class="header2 p-color-cement-dark font-weight-900 txt-align">International courier charges per kg from India</h2></center>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-usa-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                                <i class="fa fa-plane" aria-hidden="true"></i>
+                                </span>
+                                <span class="elementor-icon-list-text txt-u-l">USA Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-mexico-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                                <i class="fa fa-plane" aria-hidden="true"></i>
+                                </span>
+                                <span class="elementor-icon-list-text txt-u-l">Mexico Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-singapore-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                                <i class="fa fa-plane" aria-hidden="true"></i>
+                                </span>
+                                <span class="elementor-icon-list-text txt-u-l">Singapore Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-finland-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                                   <i class="fa fa-plane" aria-hidden="true"></i>
+                                   </span>
+                                <span class="elementor-icon-list-text txt-u-l">Finland Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-canada-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Canada Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-australia-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Australia Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-brazil-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                                   <i class="fa fa-plane" aria-hidden="true"></i>
+                                   </span>
+                                <span class="elementor-icon-list-text txt-u-l">Brazil Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-spain-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Spain Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-belgium-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Belgium Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="/international-courier-charges-india-to-switzerland-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Switzerland Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-south-africa-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">South Africa Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-japan-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Japan Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-new-zealand-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                                   <i class="fa fa-plane" aria-hidden="true"></i>
+                                   </span>
+                                <span class="elementor-icon-list-text txt-u-l">New Zealand Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-qatar-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Qatar Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-malaysia-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Malaysia Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-hong-kong-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                                   <i class="fa fa-plane" aria-hidden="true"></i>
+                                   </span>
+                                <span class="elementor-icon-list-text txt-u-l">Hong Kong Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-sri-lanka-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Sri Lanka Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="international-courier-charges-india-to-uae-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">UAE Courier Rates</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+        <br>
+        </div>
+        <br>
+        <div class="mar-t-25">
+            <div class="txt-center">
+                <button type="button" class="btn btn-warning bord-rad-5 margin-r-10">
+                    <a href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator" title="india shopping sites" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
+                        <p class="btn-md">Indian Online Shopping Stores</p>
+                    </a>
+                </button>
+                <button type="button" class="btn btn-success bord-rad-5 margin-r-10">
+                    <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20from%20India%20and%20Ship%20Worldwide?" title="Message Me on WhatsApp" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
+                        <p class="btn-md">Message Us On WhatsApp</p>
+                    </a>
+                </button>
+            </div>
+        </div>
+        </div>
+        <br>
+    </section>
+    <br>
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">

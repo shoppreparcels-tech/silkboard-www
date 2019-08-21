@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'Become A Partner - Partner With Us - Shoppre Shipping Services')
-@section('description', 'Partner with Shoppre to grow your eCommerce business, with our Free & Premium advertising campaigns. Gaining access to global shoppers in 220+ countries.')
+@section('title', 'Become A Partner - Partner With Us - ShoppRe Shipping Services')
+@section('description', 'Partner with ShoppRe to grow your eCommerce business, with our Free & Premium advertising campaigns. Gaining access to global shoppers in 220+ countries.')
 @section('content')
 
     <section class="page_head">
@@ -20,7 +20,7 @@
               <img src="{{env('AWS_CLOUD_FRONT')}}/img/ico1.png">
               <div class="content">
                 <h3>Grow Your Business</h3>
-                <p>Partner with Shoppre and benefit from global eCommerce growth</p>
+                <p>Partner with ShoppRe and benefit from global eCommerce growth</p>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@
                 <li>Package consolidation, export services, ship notifications, export documents & more</li>
                 <li>We're interested in exploring all partnership opportunities!</li>
               </ul>
-              <div class="btns">                
+              <div class="btns">
                 <a href="#" class="btn btn-green">Join Now</a>
               </div>
             </div>
@@ -80,7 +80,7 @@
                 <li>Partner with the world's #1 package consolidation company</li>
                 <li>Integration is FREE, simple and requires minimal IT resources</li>
               </ul>
-              <div class="btns">              
+              <div class="btns">
                 <a href="#" class="btn btn-green">Join Now </a>
               </div>
             </div>
