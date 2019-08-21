@@ -695,6 +695,10 @@ Route::get('/international-courier-charges-india-to-sri-lanka-per-kg', 'PageCont
 Route::get('/international-courier-charges-india-to-hong-kong-per-kg', 'PageController@pricingHongkong')->name('hongkongPerKg');
 Route::get('/international-courier-charges-india-to-spain-per-kg', 'PageController@pricingSpain')->name('spainPerKg');
 Route::get('/international-courier-charges-india-to-brazil-per-kg', 'PageController@pricingBrazil')->name('brazilPerKg');
+Route::get('/international-courier-charges-india-to-philippines-per-kg', 'PageController@pricingPhilippines')->name('philippinesPerKg');
+Route::get('/international-courier-charges-india-to-belgium-per-kg', 'PageController@pricingBelgium')->name('belgiumPerKg');
+Route::get('/international-courier-charges-india-to-finland-per-kg', 'PageController@pricingFinland')->name('finlandPerKg');
+Route::get('/international-courier-charges-india-to-italy-per-kg', 'PageController@pricingItaly')->name('italyPerKg');
 
 
 /*-------- Schema Landing Pages ------*/

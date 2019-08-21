@@ -82,23 +82,23 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="/shop-ship" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="https://www.shoppre.com/university-offer" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/students-shipping-offer.png" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
+{{--                        <div class="item">--}}
+{{--                            <div class="pad15">--}}
+{{--                                <a href="/shop-ship" target="_blank">--}}
+{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="item">--}}
+{{--                            <div class="pad15">--}}
+{{--                                <a href="https://www.shoppre.com/university-offer" target="_blank">--}}
+{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/students-shipping-offer.png" class="boxofScroll"/>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                     </div>
-                    <button class="btn btn-primary leftLst"><</button>
-                    <button class="btn btn-primary rightLst">></button>
+{{--                    <button class="btn btn-primary leftLst"><</button>--}}
+{{--                    <button class="btn btn-primary rightLst">></button>--}}
                 </div>
             </div>
         </div>
@@ -271,93 +271,70 @@
             <br/>
         </div>
         <br>
-
+        <br>
     </section>
-    <br>
-    <br>
-    <br>
-    <section class="div-b-l-w">
-        <div class="container-fluid c-f-p seo-hyperlinks"><br>
-            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
-                <h4>Sale & Offers</h4>
-                <ul class="nav-ul">
-                    <ul class="nav-ul">
-                        <li class="li"><a itemprop="url" class=""
-                                          href="send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank">Rakhi Online Shopping India</a></li>
-                        <li class="li"><a itemprop="url" class=""
-                                          href="/personal-shopper-online-shopping-from-india-shipping">AMAZON.IN Great Indian Sale</a></li>
-                        <li class="li"><a itemprop="url" class=""
-                                          href="https://ship.shoppre.com/flipkart-the-big-billion-days-sales-offers-deals-online-shopping-with-international-delivery/" target="_blank">
-                                FLIPKART Big Billion Day Sale</a></li>
-                        <li class="li"><a itemprop="url" class="" href="https://ship.shoppre.com/prime-amazon-fashion-wardrobe-refresh-sale-shop-online-from-india/" target="_blank">
-                                Fashion Wardrobe Refresh Sale</a></li>
-                        <li class="li"><a itemprop="url" class=""
-                                          href="https://ship.shoppre.com/online-shopping-flipkart-flipstart-days-2019-offers-fashion-beauty-headphones-laptops-power-banks-mobile-cases/" target="_blank">
-                                Flipkart Flipstart Days</a></li>
-                        <li class="li"><a itemprop="url" class=""
-                                          href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">
-                                Flipkart Big Shopping Days</a></li>
-                        <li class="li"><a itemprop="url" class="" href="https://ship.shoppre.com/products-on-sale-pure-organic-yoga-clothing-and-products-made-in-india/" target="_blank">
-                                Yoga Organic Clothing Sale</a></li>
-                        <li class="li"><a itemprop="url" class="" href="https://www.myntra.com/myntrainsider" target="_blank">
-                                 Myntra End Of Reason Sale</a></li>
-                    </ul>
-                </ul>
-            </div>
-            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
-                <h4>Courier Rates/Kg</h4>
-                <ul class="nav-ul">
-                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-canada-per-kg">Courier from India to Canada</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-germany-per-kg"> Courier from India to Germany</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-singapore-per-kg">Courier from India to Singapore</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-australia-per-kg">Courier from India to Australia</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-usa-per-kg">Courier from India to USA</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/international-courier-charges-india-to-uae-per-kg">Courier from India to UAE</a></li>
-                    <li class="li"><a itemprop="url" class="" href="https://ship.shoppre.com/international-courier-charges-per-kg/from-india-to-finland/" target="_blank">
-                            Courier from India to Finland</a></li>
-                    <li class="li"><a itemprop="url" class="" href="https://ship.shoppre.com/international-courier-charges-per-kg/from-india-to-uk">
-                            Courier from India to The UK</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
-                <h4>Mobile Offers </h4>
-                <ul class="nav-ul">
-                    <li class="li"><a itemprop="url" class="" href="https://www.amazon.in/gp/product/B07HGJJ58K/ref=s9_acss_bw_cg_Top_4a1_w" target="_blank">
-                            Samsung Galaxy M30</a></li>
-                    <li class="li"><a itemprop="url" class="" href="https://www.amazon.in/gp/product/B07JWVNKRL/ref=s9_acss_bw_cg_Top_2b1_w" target="_blank">
-                            Apple iPhone XR</a></li>
-                    <li class="li"><a itemprop="url" class="" href="https://www.flipkart.com/oppo-f11-fluorite-purple-128-gb/p/itmfgb8ft4kfgfe6" target="_blank">
-                            OPPO F11</a></li>
-                    <li class="li"><a itemprop="url" class="" href="https://www.flipkart.com/google-pixel-3-not-pink-128-gb/p/itmfbuyqxkruzg7j" target="_blank">
-                            Google Pixel 3</a></li>
-                    <li class="li"><a itemprop="url" class="" href="https://www.tatacliq.com/nokia-61-64-gb-bluegold-4-gb-ram-dual-sim-4g/p-mp000000003223071" target="_blank">
-                           Nokia 6.1 64 GB</a></li>
-                    <li class="li"><a itemprop="url" class="" href="https://www.amazon.in/Moto-ONE-White-64-GB/dp/B07RFCVTK1" target="_blank">
-                            Moto ONE White 4/64 GB</a></li>
-                    <li class="li"><a itemprop="url" class="" href="https://www.flipkart.com/redmi-note-6-pro-black-64-gb/p/itmfayzxqnzjhtbh" target="_blank">
-                            Redmi Note 6 Pro</a></li>
-                    <li class="li"><a itemprop="url" class="" href="https://www.2gud.com/asus-zenfone-max-pro-m1-black-64-gb/p/itmf5ptrgsbsbuzs" target="_blank">
-                            Asus Zenfone Max Pro M1</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
-                <h4>Top Indian Stores</h4>
-                <ul class="nav-ul">
-                    <li class="li"><a itemprop="url" class="" href="https://ship.shoppre.com/online-stores-india/nykaa-india-beauty-products-international-shipping/" target="_blank">
-                            Nykaa International Shipping</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/myntra-online-shopping-shipping-from-india">Myntra International Shipping</a></li>
-                    <li class="li"><a itemprop="url" class="" href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" target="_blank">Amazon.in International Shipping</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/limeroad-shopping-international-shipping">Limeroad International Delivery</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/flipkart-shopping-with-shoppre-from-india">Flipkart International Shipping</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/etsy-international-shipping-from-india">Etsy International Shipping</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/ajio-online-shopping-international-shipping">AJIO International Shipping</a></li>
-                    <li class="li"><a itemprop="url" class="" href="/jaypore-international-shipping-from-india">Jaypore International Delivery</a></li>
-                </ul>
+    <section class="chris-benefits">
+        <div class="container" >
+            <center>
+                <h1 class="header3 p-color-cement-dark font-weight-900" >Top Festival Offers, Deals & Sale</h1>
+            </center>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Shopping Days"><span><a
+                                        href="/https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Freedom Sale"><span><a
+                                        href="/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Flipstart Days"><span><a
+                                        href="https://ship.shoppre.com/online-shopping-flipkart-flipstart-days-2019-offers-fashion-beauty-headphones-laptops-power-banks-mobile-cases/" target="_blank">Flipkart Flipstart Days</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="National Shopping Days"><span><a
+                                        href="/flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" target="_blank">National Shopping Days</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Right To Fashion"><span> <a
+                                        href="/myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" target="_blank">Myntra Right To Fashion Sale</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Rakhi"><span><a
+                                        href="/send-rakhi-gifts-online-worldwide-at-cheap-rates">Rakhi Online Shopping India</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Yoga Organic Clothing"><span><a
+                                        href="https://ship.shoppre.com/products-on-sale-pure-organic-yoga-clothing-and-products-made-in-india/" target="_blank">Yoga Organic Clothing Sale</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
+                                        href="/kerala-onam-online-shopping-guide-from-india">Onam online shopping</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span><a
+                                        href="https://ship.shoppre.com/8-gorgeously-elegant-sarees-for-every-occasion-to-flaunt-your-curves-craftsvilla-handpicked-for-you/" target="_blank">Sarees Online Shopping</a> </span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span><a
+                                        href="https://ship.shoppre.com/6-amazing-face-moisturizer-for-women-from-india-that-you-dont-want-to-miss/" target="_blank">Face Moisturizer</a></span></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="diwali"><span><a
+                                        href="/diwali-offer">Diwali Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="new year"><span><a
+                                        href="/new-year-offer">New Year Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="shop ship"><span><a
+                                        href="/shop-ship">Shop & Ship Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="student"><span><a
+                                        href="/university-offer">Student Special Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="easter"><span><a
+                                        href="/easter-shopping-from-india-with-international-shipping">Easter Offer</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <br/><br/>
             </div>
         </div>
-
     </section>
-
+    <br>
+    <br>
+    <br>
         <section class="delivery">
         <br>
         <br>
@@ -368,14 +345,17 @@
                 <p class="header1 p-color-cement-dark">Delivering Joy to Your Doorsteps</p>
                 <p class="header2 p-doorstep-des">What Are You Waiting For Re! Just Come Shopp Re!</p>
                 <a href="{{route('customer.register')}}" target="_blank">
-                    <div class="btn-login-doorstep header5 p-color-white">
+                    <br>
+                    <div class="btn btn-s-b btn-b-g">
                         <p>
-                            Sign Up for FREE
+                            Sign Up for FREE Today!
                         </p>
                     </div>
                 </a>
             </center>
         </div>
+            <br>
+            <br>
     </section>
 @endsection
 
