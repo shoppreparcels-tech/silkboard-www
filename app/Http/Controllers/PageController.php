@@ -604,6 +604,14 @@ class PageController extends Controller
     {
         return view('page.landing-pages.usa-colorado');
     }
+    public function alaskaShipping()
+    {
+        return view('page.landing-pages.usa-alaska');
+    }
+    public function delawareShipping()
+    {
+        return view('page.landing-pages.usa-delaware');
+    }
     public function ifsLandingPage()
     {
         return view('page.personal-shoper');

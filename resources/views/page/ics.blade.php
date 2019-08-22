@@ -93,35 +93,35 @@
 
         <div class="container">
             <div class="container div-process">
-                <div class="container">
-                    <div class="col-md-12 col-xs-12 pad-t-20">
-                        <center>
-                            <div class="col-md-4 col-xs-12 pad-20 ">
-                                <a href="/international-courier-charges-india-to-usa-per-kg">Courier Rates from India to USA per kg</a>
-                            </div>
-                            <div class="col-md-4 col-xs-12 pad-20">
-                                <a href="/international-courier-charges-india-to-uae-per-kg">Courier Charges starts from ₹566 UAE</a>
-                            </div>
-                            <div class="col-md-4 col-xs-12  pad-20">
-                                <a href="/international-courier-charges-india-to-canada-per-kg">Courier charges from India to Canada</a>
-                            </div>
-                        </center>
-                    </div>
+{{--                <div class="container">--}}
+{{--                    <div class="col-md-12 col-xs-12 pad-t-20">--}}
+{{--                        <center>--}}
+{{--                            <div class="col-md-4 col-xs-12 pad-20 ">--}}
+{{--                                <a href="/international-courier-charges-india-to-usa-per-kg">Courier Rates from India to USA per kg</a>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-md-4 col-xs-12 pad-20">--}}
+{{--                                <a href="/international-courier-charges-india-to-uae-per-kg">Courier Charges starts from ₹566 UAE</a>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-md-4 col-xs-12  pad-20">--}}
+{{--                                <a href="/international-courier-charges-india-to-canada-per-kg">Courier charges from India to Canada</a>--}}
+{{--                            </div>--}}
+{{--                        </center>--}}
+{{--                    </div>--}}
 
-                    <div class="col-md-12 col-xs-12 no-pad">
-                        <center>
-                            <div class="col-md-4 col-xs-12  pad-20">
-                                <a href="/international-courier-charges-india-to-germany-per-kg">Shipping Rates from india to Germany</a>
-                            </div>
-                            <div class="col-md-4 col-xs-12  pad-20">
-                                <a href="/international-courier-charges-india-to-australia-per-kg">Low Cost Courier Per Kg to Australia</a>
-                            </div>
-                            <div class="col-md-4 col-xs-12 pad-20">
-                                <a href="/international-courier-charges-india-to-singapore-per-kg">Cheapest rates from India to Singapore</a>
-                            </div>
-                        </center>
-                    </div>
-                </div>
+{{--                    <div class="col-md-12 col-xs-12 no-pad">--}}
+{{--                        <center>--}}
+{{--                            <div class="col-md-4 col-xs-12  pad-20">--}}
+{{--                                <a href="/international-courier-charges-india-to-germany-per-kg">Shipping Rates from india to Germany</a>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-md-4 col-xs-12  pad-20">--}}
+{{--                                <a href="/international-courier-charges-india-to-australia-per-kg">Low Cost Courier Per Kg to Australia</a>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-md-4 col-xs-12 pad-20">--}}
+{{--                                <a href="/international-courier-charges-india-to-singapore-per-kg">Cheapest rates from India to Singapore</a>--}}
+{{--                            </div>--}}
+{{--                        </center>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
             <div class="col-md-12 col-xs-12 no-pad">
                 <div class="col-md-12 col-xs-12 no-pad">
@@ -241,75 +241,28 @@
                                 We’ll complete the documentation & dispatch your package(s) to one of our courier partners as soon as possible.
                             </p>
                         </center>
-
                     </div>
                 </div>
                 <center>
                     <a  href="{{route('schedulePickup.Index')}}" class="btn btn-request">Schedule Pickup</a>
                 </center>
             </div>
-
         </div>
         </div>
 
     </section>
 
     <section>
-
         <div class="container">
             <br>
             <br>
             <center>
-                <a href="/send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank">
-                    {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"--}}
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/raksha-bandhan-india-shoppre.png" title="Click Here for Rakhi Shipping Rates"
+                <a href="/first-time-international-shipment-offer" target="_blank">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"
+{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/raksha-bandhan-india-shoppre.png" title="Click Here for Rakhi Shipping Rates"--}}
                          alt="rakhi-courier-from-india-shoppre" class="img-responsive">
                 </a>
             </center>
-            {{--<a href="{{route('reviews')}}">--}}
-                {{--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">--}}
-                    {{--<div class="col-md-3 col-lg-3 col-sm-2 col-xs-2 div-review1">--}}
-                        {{--<center>4.6</center>--}}
-
-                    {{--</div>--}}
-                    {{--<div class="col-md-9 col-lg-9 col-sm-10 col-xs-10 div-ifs-shoppre-reviw">--}}
-                        {{--<input class="rating rated" style="margin:10px 0 0 0 !important;" value="5" id="courier_rating">--}}
-                        {{--<p class="header6" style="color: green; margin:-8px 0 0 12px;">968 reviews </p>--}}
-                        {{--<center>--}}
-                            {{--<img class="img-responsive " src="img/images/reviews_shoppre.svg">--}}
-                        {{--</center>--}}
-                    {{--</div>--}}
-
-                {{--</div>--}}
-            {{--</a>--}}
-            {{--<a href="https://goo.gl/maps/VPThiDHc1uk">--}}
-                {{--<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 div-ifs-google-reviews">--}}
-                    {{--<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">--}}
-                        {{--<img class="img-responsive img-courier-review-g"--}}
-                             {{--src="{{env('AWS_CLOUD_FRONT')}}/img/svg/google-reviews-shipping-service-bengaluru.svg">--}}
-                        {{--<p class="header6" style="color: #e85151;">Reviews</p>--}}
-                    {{--</div>--}}
-
-                    {{--<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">--}}
-                        {{--<img class="img-responsive " style="margin-top: 5px;" src="{{env('AWS_CLOUD_FRONT')}}/img/images/google-rating-shipping-service-bengaluru.png">--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</a>--}}
-            {{--<a href="https://www.facebook.com/goshoppre/reviews/?ref=page_internal">--}}
-                {{--<div class="col-lg-5 col-md-5  col-sm-12 col-xs-12">--}}
-                    {{--<div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-xs-4">--}}
-                        {{--<img class="img-responsive img-courier-review-f"--}}
-                             {{--src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-reviews-shipping-service.png">--}}
-                        {{--<p class="header6" style="color: #507dbc; line-height: 30px">Reviews</p>--}}
-                    {{--</div>--}}
-
-                    {{--<div class="col-lg-7 col-md-7 col-sm-8 col-xs-8">--}}
-                        {{--<img class="img-responsive img-facebook-r" style="margin-top: -15px;"--}}
-                             {{--src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-rating-shipping-service.png">--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</a>--}}
-
         </div>
     </section>
 
@@ -413,6 +366,7 @@
     <section>
         <div class="container">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+{{--                <img class="img-responsive img-shipments" src="{{env('AWS_CLOUD_FRONT')}}/img/images/indian-sellers-shoppre1.png">--}}
                 <img class="img-responsive img-shipments" src="{{env('AWS_CLOUD_FRONT')}}/img/images/back.png">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -529,37 +483,81 @@
                 you’d have to pay an additional clearance fee. <a href="/faq">Learn more</a> about Special Items now.
             </p> <br>
 
-            <h2 class="f-s-18 f-c-d-gray font-weight-900">Now, sit back and relax after <a href="{{route('schedulePickup.Index')}}">Scheduling a Pickup</a> for your courier! ShoppRe will take it from there.</h2>
+            <h2 class="f-s-18 f-c-d-gray font-weight-900">Now, sit back and relax after <a href="{{route('schedulePickup.Index')}}">Scheduling a Pickup</a>
+                for your courier! ShoppRe will take it from there.</h2>
+
+            <br>
+            <div class="row">
+                <h2 class="f-s-22 f-c-d-gray font-weight-900 text-center">International Courier Rates Per Kg</h2>
+                <br>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><span><a
+                                        href="/international-courier-charges-india-to-usa-per-kg" target="_blank">India to USA Courier Rates</a></span></li>
+                            <li><span><a
+                                        href="/international-courier-charges-india-to-uae-per-kg" target="_blank">India to UAE Courier Rates</a></span></li>
+                            <li><span><a
+                                        href="/international-courier-charges-india-to-canada-per-kg" target="_blank">India to Canada Courier Rates</a></span></li>
+                            <li><span><a
+                                        href="/international-courier-charges-india-to-australia-per-kg" target="_blank">India to Australia Courier Rates</a></span></li>
+                            <li><span> <a
+                                        href="/international-courier-charges-india-to-singapore-per-kg" target="_blank">India to Singapore Courier Rates</a></span></li>
+                            <li><span> <a
+                                        href="/international-courier-charges-india-to-germany-per-kg" target="_blank">India to Germany Courier Rates</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><span> <a
+                                        href="/international-courier-charges-india-to-south-africa-per-kg" target="_blank">India to South Africa Courier Rates</a></span></li>
+                            <li><span> <a
+                                        href="/international-courier-charges-india-to-japan-per-kg" target="_blank">India to Japan Courier Rates</a></span></li>
+                            <li><span> <a
+                                        href="/international-courier-charges-india-to-new-zealand-per-kg" target="_blank">India to New Zealand Courier Rates</a></span></li>
+                            <li><span> <a
+                                        href="/international-courier-charges-india-to-malaysia-per-kg" target="_blank">India to Malaysia Courier Rates</a></span></li>
+                            <li><span> <a
+                                        href="/international-courier-charges-india-to-switzerland-per-kg" target="_blank">India to Switzerland Courier Rates</a></span></li>
+                            <li><span> <a
+                                        href="/international-courier-charges-india-to-mauritius-per-kg" target="_blank">India to Mauritius Courier Rates</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><span> <a
+                                        href="/international-courier-charges-india-to-qatar-per-kg" target="_blank">India to Qatar Courier Rates</a></span></li>
+                            <li><span> <a
+                                        href="/international-courier-charges-india-to-denmark-per-kg" target="_blank">India to Denmark Courier Rates</a></span></li>
+                            <li><span> <a
+                                        href="/international-courier-charges-india-to-mexico-per-kg" target="_blank">India to Mexico Courier Rates</a></span></li>
+                            <li><span> <a
+                                        href="/international-courier-charges-india-to-spain-per-kg" target="_blank">India to Spain Courier Rates</a></span></li>
+                            <li><span> <a
+                                        href="/international-courier-charges-india-to-brazil-per-kg" target="_blank">India to Brazil Courier Rates</a></span></li>
+                            <li><span> <a
+                                        href="/international-courier-charges-india-to-belgium-per-kg" target="_blank">India to Belgium Courier Rates</a></span></li>
+                        </ul>
+                    </div>
+                </div>
         </div>
-        <br>
-        <div class="container">
-            <div class="col-md-3 col-sm-3 col-xs-6">
-                <ul class="nav-ul">
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('medicine')}}">Medicine International Courier</a></li>
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="https://www.shoppre.com/university-offer" target="_blank">Documents International Courier</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
-                <ul class="nav-ul">
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('packers-movers')}}">Relocation, Packers & Movers</a></li>
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="{{route('forwarding')}}" target="_blank">Package Forwarding from India</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
-                <ul class="nav-ul">
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/first-time-international-shipment-offer">First Shipment Discount</a></li>
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/international-shipping-gift-cards-vouchers">International Shipping Card</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
-                <ul class="nav-ul">
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/consolidation-service">Consolidation & Repacking</a></li>
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/send-international-courier-from-india">Pack & Send International Courier</a></li>
-                </ul>
+            <div class="container">
+                <center>
+                    <h3 class="header2 p-color-cement-dark font-weight-900">Want more information about each of our services? Download Our brochure for Free! </h3>
+                    <a href="http://bit.ly/shoppre-brochure" target="_blank">
+                        <div class="btn header6 btn-get-assisted p-color-white no-margin">
+                            <center>
+                                Download Here
+                            </center>
+                        </div>
+                    </a>
+                </center>
             </div>
         </div>
-        <br>
-        <br>
     </section>
         <br>
 @endsection

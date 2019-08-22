@@ -478,7 +478,7 @@
             <div class="txt-center">
                 <button type="button" class="btn btn-warning bord-rad-5 margin-r-10">
                     <a href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator" title="india shopping sites" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
-                        <p class="btn-md">Indian Online Shopping Stores</p>
+                        <p class="btn-md">Shipping Cost Calculator</p>
                     </a>
                 </button>
                 <button type="button" class="btn btn-success bord-rad-5 margin-r-10">

@@ -1,12 +1,12 @@
 @extends('layout')
 
-@section('title', 'The most reliable, cheap & fast Shipping service from India to USA')
-@section('description', 'Cheap and fast way to send your courier to USA from India. Get ₹200 Off on your first international shipment. Save 80% on shipping rates. Sign Up Now!')
-@section('keywords', 'usa courier, shipping from india, courier charges, shipping cost, package')
+@section('title', 'Shipping service from India to Alaska, USA | ShoppRe.com')
+@section('description', 'Cheapest International shipping service from India to Alaska, USA. ')
+@section('keywords', 'shipping india to alaska, juneau, export, packages, courier, food delivery ')
 
 @section('css_style')
 
-    <link rel="canonical" href="https://www.shoppre.com/cheap-and-fast-shipping-service-from-india-to-usa" />
+    <link rel="canonical" href="https://www.shoppre.com/shipping-from-india-to-usa/alaska" />
 
     <style>
         .first-time-shipment{background-color:#11273b;height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;padding-top:60px}
@@ -23,17 +23,17 @@
         <div class="container no-padding">
            <div class="col-md-12 col-xs-12 no-padding">
                <center>
-                   <a href="{{route('customer.register')}}"><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/tape_signup.svg" alt="" > </a> <br>
+                   <a href="{{route('customer.register')}}"><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/tape_signup.svg" alt="shoppre signup" > </a> <br>
                </center>
                <center>
                    <h18 class="f-s-50 f-c-white  f-w-9">₹200 Discount</h18>
-                   <p class="f-s-30 f-c-white f-w-9 ">on your First Shipment to USA from India </p>
-                   <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-s-t-coupon.png" alt="" > <br><br>
+                   <p class="f-s-30 f-c-white f-w-9 ">on your First Shipment to ALASKA from India </p>
+                   <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-s-t-coupon.png" alt="frst50 shoppre" > <br><br>
                    <a href="{{route('customer.register')}}" target="_blank" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE </a>
                    <br>
                    <br>
                    <br>
-                   <p class="f-s-12 f-c-l-gray f-w-8">How to find a cheap and reliable shipping to usa</p>
+                   <p class="f-s-12 f-c-l-gray f-w-8">Shipping services to Alaska from India</p>
 
                </center>
            </div>
@@ -44,10 +44,10 @@
         <div class="container fst-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Cheapest way to send parcel to USA from India</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">The most reliable and fast shipping from India to Alaska</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12 text-center">
-                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20Looking%20for%20Shipping%20Service%20to%20USA%20from%20India?" target="_blank" title="Click to WhatsApp">
+                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20Looking%20for%20Shipping%20Service%20to%20Alaska,%20USA%20from%20India" target="_blank" title="Click to WhatsApp">
                         <img src="/img/images/christmas-contact.png" alt="shoppre contact number 8277919191">
                     </a>
                 </div>
@@ -55,22 +55,21 @@
 
             <div class=" col-md-12 no-pad"><br>
                 <center>
-                <h2 class="p-color-cement-dark f-w-9 font-30">International Shipping from India to USA</h2>
+                <h2 class="p-color-cement-dark f-w-9 font-30">Low Cost Shipping from India to Alaska, USA</h2>
                 </center>
-                <h4 class="f-s-20 f-c-gray f-w-9">Choose ShoppRe for international shipping from India to USA as
-                    we offer the cheapest and the best way to send your courier from India to USA with our trusted courier partners.</h4>
+                <h4 class="f-s-20 f-c-gray f-w-9">Choose ShoppRe for international shipping from India to Alaska as we offer the cheapest
+                    and the best way to send your courier from India to USA with our trusted courier partners.
+                </h4>
                 <br>
-                <p class="header4 p-color-cement">Be it package forwarding or courier, ShoppRe offers international shipping from India in an effective manner by offering
-                    FREE 20 days storage service, pickup from your doorstep at your domestic address in India and delivery within 3-6 working days to anywhere in the USA
-                    and 220 + countries while saving up to 80 % on shipping rates.
+                <p class="header4 p-color-cement">There are so many Indian families residing in Alaska. The reason is better infrastructure,
+                    facilities, the standard of living, better career prospects and financial stability. Many people move to pursue their education while others are just working migrants.
+                </p><br>
+                <p class="header4 p-color-cement">Consequently, there is an enormous online shopping from India, which faces many problems like high shipping charges from India,
+                    lost packages, delayed delivery, etc. But we at Shoppre offer you a reliable, fast and low-cost shipping service with our renowned courier partners DHL and DTDC.
+                    So do hassle-free online shopping from India and will deliver it to you within 3-6 days.
                 </p>
                 <br>
-                <p class="header4 p-color-cement">Our sets of services are what sets us apart and make our adversaries run for the hills because we make international
-                    courier delivery cheap, reliable and fast. We have partnered with the renowned courier services like DHL, DTDC and more, for best
-                    courier rates from India to USA and also the fastest courier from India to USA.
-                </p>
-                <br>
-                <h4 class="f-s-20 f-c-gray f-w-9"><i>Here is a special something for your first international courier delivery ₹200/- Off on your first international shipment use code: FRST50</i></h4>
+                <h4 class="f-s-20 f-c-gray f-w-9"><i>Get special discount of ₹200/- Off on your first international shipment to Alaska, use code: FRST50</i></h4>
                 <br>
                 <br>
 
@@ -85,11 +84,11 @@ contact our support team for assistance.</span>
                             <form class="calc-form ng-pristine ng-valid ng-submitted" id="shipping" novalidate="novalidate">
                                 <input type="hidden" name="_token" value="txUccFXVS9erPpnHxSRGRYb89WomjhaEnx3m5HuQ">
                                 <div class="form-group">
-                                    <label class="col-sm-12">Where do you want to send your package?</label>
+                                    <label class="col-sm-12">Check your shipping cost from India to Alaska</label>
                                     <div class="col-sm-12">
                                         <select class="form-control select2 valid" name="country" aria-required="true">
                                             <option value="226">
-                                                United States
+                                                Alaska, USA
                                             </option>
                                         </select>
                                     </div>
@@ -117,18 +116,6 @@ contact our support team for assistance.</span>
                                     <div class="col-sm-6">
                                         <input type="text" class="form-control valid" value="1" id ="weight" name="weight" placeholder="Enter Weight" aria-required="true">
                                     </div>
-                                    {{--<div class="col-sm-6">--}}
-                                        {{--<div class="radio">--}}
-                                            {{--<label class="checkbox-inline">--}}
-                                                {{--<input type="radio" name="unit" value="kg" checked="" aria-required="true" class="valid">Kilograms--}}
-                                            {{--</label>--}}
-                                        {{--</div>--}}
-                                        {{--<div class="radio">--}}
-                                            {{--<label class="checkbox-inline">--}}
-                                                {{--<input type="radio" name="unit" value="lbs" class="valid">Pounds--}}
-                                            {{--</label>--}}
-                                        {{--</div>--}}
-                                    {{--</div>--}}
                                     <div class="clearfix"></div>
                                 </div>
 
@@ -142,8 +129,8 @@ contact our support team for assistance.</span>
                                 <div class="clearfix"></div>
                             </form>
                             <div id="ship_result" class="calc-result" style="display: block;">
-                                <h4 class="text-red margin_cost">ESTIMATED SHIPPING COST*</h4>
-
+                                <br>
+                                <h4 class="text-red margin_cost">Estimated Shipping Cost*</h4>
                                 <div class="result table-responsive text-center">
                                     <table class="table table-bordered table-responsive">
                                         <tbody><tr>
@@ -166,51 +153,9 @@ contact our support team for assistance.</span>
                 </div>
                 <div class="clearfix"></div>
 
-                <h2 class="p-color-cement-dark f-w-9 font-25">Special services provided by us for the ease of shipping from India to USA</h2>
-                <br>
-                <p class="header4 p-color-cement">If you come across some kind of trouble while making your payment with your international card or
-                    an issue arises related to your order, then you can request a personal shopper from shoppre for assisted purchasing.
-                    All you need to do is, fill a form of your order and we buy those items for you, and when you make the shipping request, we will dispatch your order
-                    that you shall receive within 3-6 working days.
-                </p>
-                <br>
-                <p class="header4 p-color-cement">We also have some amazing and super saver membership plans for customers who use our services including personal shopper frequently
-                    or buy bulk international shipments and do bulk shipping from India to USA. You can see the difference in the
-                    <a href="/international-courier-charges-india-to-usa-per-kg">cost of courier from India to USA</a> with these plans.
-                    We have two plans- the basic plan and the premium plan, for both yearly and half-yearly basis. We recommend the premium plan
-                    for huge savings that is up to 80% on shipping rates.
-                </p>
-                <br>
-                <h4 class="f-s-20 f-c-gray f-w-9">ShoppRe International Package Forwarding service includes:</h4>
-                <br>
-                <ul class="header4 p-color-cement">
-                    <li>International shipping from "India"</li>
-                    <li>Repackaging items (if needed) to ensure safe arrival and lower shipping cost</li>
-                    <li>Consolidating several packages to reduce shipping cost</li>
-                    <li>Large international shipping rate discounts from carriers (FEDEX, DHL, DTDC & More).</li>
-                    <li>Shipment insurance & Item storage</li>
-                    <li>Payment via bank transfer, Paypal, credit card, debit card, netbanking & more</li>
-                </ul>
-                <br>
-                <div class="offerDesc">
-                    <h4 style="text-decoration: underline" class="f-c-blue">What do we ship?</h4>
-                    <p class="header4 p-color-cement">Almost anything that falls under the international export & customs guidelines and policies can be shipped through ShoppRe.
-                        The most common items that we ship are;
-                    </p>
-                    <br>
-                    <ul>
-                        <li>Clothing, shoes & accessories</li>
-                        <li>Documents/Letters</li>
-                        <li>Homemade/processed/branded food items</li>
-                        <li>Holiday greetings & gifts</li>
-                    </ul>
-                    <p class="header4 p-color-cement">We are ready to ship anything for you including kids toys, medicine, documents, sports equipment, homemade food, artwork,
-                        artificial jewellery, gifts, cell phones, religious items and many more products.
-                    </p>
-                </div>
                 <br>
                 <div>
-                <center><a href="/customer/register" target="_blank" class="btn btn-s-b btn-b-g">Sign Up for FREE</a></center>
+                <center><a href="/customer/register" target="_blank" class="btn btn-s-b btn-b-g">Sign Up for FREE & Ship with us</a></center>
                 </div>
             </div>
         </div>
@@ -219,126 +164,47 @@ contact our support team for assistance.</span>
     <section class="chris-benefits">
         <div class="container" >
             <center>
-                <h1 class="header1 p-color-cement-dark">Some other questions that you might have</h1>
+                <h1 class="p-color-cement-dark f-w-9 font-22">Some other questions that you might have</h1>
             </center>
-            <h2 class="p-color-cement-dark f-w-9 font-18">1. How long does shipping from India to usa take?</h2>
-            <p class="p-color-cement f-w-9 font-9">Once your package is consolidated, packed and all set at our warehouse,
-                and we receive your request to ship, then it just takes 3-6 working days to ship your package to the USA or ANYWHERE in the world.
+            <h2 class="p-color-cement-dark f-w-9 font-18">1. Can you ship wedding sarees from India to Alaska?</h2>
+            <p class="p-color-cement f-w-9 font-9">Yes, you can ship sarees from India to Alaska with our safe and secure shipping service partners DHL and DTDC. And you can even do
+                online shopping for wedding sarees and get them shipped to Alaska with our package forwarding service from India.
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">2. What are the courier charges from India to usa?</h2>
-            <p class="p-color-cement f-w-9 font-9">We have the cheapest way of shipping by offering up to 80% less shipping cost and the
-                international courier to USA starts at just ₹1449/-. Check here for the best courier rates from India to the USA for your package.
-                <br>
-                You can use our shipping cost calculator to know Shipping charges from india to usa per kg.
+            <h2 class="p-color-cement-dark f-w-9 font-18">2. How to courier from India to Alaska on relocation?</h2>
+            <p class="p-color-cement f-w-9 font-9">On relocation from India to Alaska, sign up to Shoppre and schedule a pickup, while our experts pick up the package, you pay for
+                the low-cost shipping, and with the help of renowned courier services like DHL and DTDC you get your package within 3-6 days safe and secure.
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">3. Can you courier medicines from India to usa?</h2>
-            <p class="p-color-cement f-w-9 font-9">Yes, we courier medicine, ayurvedic medicines and herbs from India to USA starting at just ₹1449/- .
-                For <a href="/medicine-international-courier-from-india" target="_blank">shipping medicines from india to usa</a> you will just need the doctor’s prescription and the commercial bill and we will arrange a pickup at
-                your doorstep for your package. We have partnered with some of the renowned courier services like DHL and DTDC, hence making medicine delivery to the US from India safe and fast.
+            <h2 class="p-color-cement-dark f-w-9 font-18">3. What are the courier charges from India to Alaska?</h2>
+            <p class="p-color-cement f-w-9 font-9">We have the cheapest way of shipping by offering up to 80% less shipping cost and the international courier to Alaska, USA starts at just ₹1449/-.
+                You can use our shipping cost calculator to know courier charges from India to USA per kg.
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">4. Can we send clothes to USA from India?</h2>
-            <p class="p-color-cement f-w-9 font-9">Yes, you can send as many clothes as you want in a package via our international courier
-                delivery services that you can count on for fast and safe courier delivery to the US, making shipping clothes from INDIA to USA easy and efficient.
-
+            <h2 class="p-color-cement-dark f-w-9 font-18">4. How to send Rakhi to Alaska from India online?</h2>
+            <p class="p-color-cement f-w-9 font-9">Sign up to Shoppre and schedule a pickup, while our experts pick up the package containing
+                rakhi you pay for the low-cost shipping, and with the help of renowned
+                courier services like DHL and DTDC, you get your package delivered safely within 3-6 days at your doorstep.
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">5. Can you ship Sarees from India to usa?</h2>
-            <p class="p-color-cement f-w-9 font-9">You can ship any type of clothing from india to usa, shipping sarees from india to usa,
-                shipping used clothes from india to usa or even shipping dresses from india to usa is possible.
+            <h2 class="p-color-cement-dark f-w-9 font-18">5. How we can order online from India to Alaska?</h2>
+            <p class="p-color-cement f-w-9 font-9">You can do online shopping in India from any Indian shopping website through Shoppre.
+                Sign up and use the virtual shipping address at the time of check out, and when your package reaches us, you pay low-cost shipping and we ship
+                it to your address abroad and you get your order within 3-6 days.
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">6. How can we send LED TV from India to usa?</h2>
-            <p class="p-color-cement f-w-9 font-9">Shipping led tv from usa to india is easy with shoppre’s amazing and reliable courier services that offers
-                up to 80% lower shipping cost, making it the best courier rates from India to the USA. We ship items like these
-                that need to be handled with care with our courier partners like DHL and DTDC while offering DHL courier tracking from India to USA and DTDC
-                courier from india to USA tracking for safety.
-
+            <h2 class="p-color-cement-dark f-w-9 font-18">6. How to send gifts to Alaska from India through amazon?</h2>
+            <p class="p-color-cement f-w-9 font-9">You can do that with shoppre's cheap, reliable and fast delivery across the globe.
+                Just sign up and use the virtual shipping address at the time of check out, and when your package reaches us, you pay low-cost shipping and we ship it
+                to the address and it reaches within 3-6 days.
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">7. Can you send Furniture from India to usa?</h2>
-            <p class="p-color-cement f-w-9 font-9">Yes in fact we are shipping heavy items from india to usa with our
-                trusted courier partners that ensure safe and timely delivery of your package. Thus making Shipping furniture from India to USA cost efficient and hassle free.
-
-            </p>
-            <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">8. Can you ship Snacks from India to usa?</h2>
-            <p class="p-color-cement f-w-9 font-9">Yes, we do have food courier service from India to USA. But you cannot
-                send certain items like Perishable Foods, Ghee, rice etc that are prohibited and you cannot ship from India.
-                <br> <br>
-                There are some items that fall under the prohibited items category and we unable to ship prohibited and non-approved restricted items on behalf of our customers.
-            </p>
-            <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">9. How Can you ship Jewelry from India to usa?</h2>
-            <p class="p-color-cement f-w-9 font-9">Since any form of precious metals are banned to be exported from India,
-                we ship Artificial Jewellery from india to usa through our courier services that will take care of your package.
-            </p>
-            <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">10. How Can you ship Mango from India to usa?</h2>
-            <p class="p-color-cement f-w-9 font-9">Once your package is consolidated, packed and all set at our warehouse,
-                and we receive your request to ship, then it just takes 3-6 working days to ship your package to the USA or ANYWHERE in the world. </p>
-            <ul class="header4 p-color-cement"  style="list-style-type: disc;">
-                <li>Sign up at ShoppRe and Get free Virtual Address to ship from India.</li>
-                <li>We Purchase Mango's in India for you.</li>
-                <li>We will deliver mangoes at your doorstep anywhere in the European Countries & USA.</li>
-            </ul>
-
-            <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">11. Can you ship books from India to usa?</h2>
-            <p class="p-color-cement f-w-9 font-9">Yes you can ship books from india to usa or any part of the world through ShoppRe.
-                Your parcel will be taken care of. We make shipping books from india to usa completely hassle free.
-            </p>
-            <br>
-            <h2 class="p-color-cement-dark f-w-9 font-20 f-c-blue">To send a courier abroad, all you have to do is;</h2>
-            <p class="p-color-cement f-w-9 font-9">1. Schedule a Pickup from ANYWHERE in India; our experts will come to your door to pick it up,
-            </p><br>
-            <p class="p-color-cement f-w-9 font-9">2. We process it while you pay us the shipping cost.
-            </p><br>
-            <p class="p-color-cement f-w-9 font-9">3. And, we jump through hoops to dispatch your package off to your destination in just 48 hours,
-            </p><br>
-            <p class="p-color-cement f-w-9 font-9">4. One of our efficient & appropriate courier partners will get the package to its destination in just   3-6 days, ANYWHERE in the world.
-            </p>
-            <br>
-
-            <div class="row text-center">
-                <center>
-                    <h1 class="header1 p-color-cement-dark">ShoppRe Shipping Features & Benefits</h1>
-                </center>
-                <div class="col-sm-4">
-                    <div class="panel ">
-                        <ul>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Home/work delivery services</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>20-day Free, Safe storage</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Delivery as fast as 3-6 day</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Real time online tracking</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="panel ">
-                        <ul>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Door to door Pickup in India</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>India Shipping Address</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Door to door delivery in USA</span></li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="panel ">
-                        <ul>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Photo Updates</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Wallet Cashback</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Commercial courier services</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Online Payment Options </span></li>
-                        </ul>
-                    </div>
-                </div>
-                <br/><br/>
+            <div>
+                <center><a href="/customer/register" target="_blank" class="btn btn-s-b btn-b-g">Sign Up for FREE & Ship with us</a></center>
             </div>
+            <br>
+            <br>
+            {{--<s features>--}}
         </div>
     </section>
     <br>
