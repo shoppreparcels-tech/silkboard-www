@@ -748,40 +748,44 @@
                         </div>
                     </div>
                 </div>
-{{--                <div class="col-md-4 col-lg-4" style="padding-left: 5px;">--}}
-{{--                    <a href="https://g.page/shoppre?share"--}}
-{{--                       target="_blank">--}}
-{{--                        <div class="row div-img-row">--}}
-{{--                            <img class="img-google-logo "--}}
-{{--                                 src="{{env('AWS_CLOUD_FRONT')}}/img/svg/google-reviews-shipping-service-bengaluru.svg"--}}
-{{--                                 alt="google reviews cheap international shipping from india">--}}
-{{--                            <p class="p-google-review">Reviews</p>--}}
-{{--                        </div>--}}
-{{--                        <div class="row" style="padding-left: 4px ;margin-top: -20px;">--}}
-{{--                            <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"--}}
-{{--                               target="_blank">--}}
-{{--                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/google-rating-shipping-service-bengaluru.png"--}}
-{{--                                     alt="google rating cheap international shipping from india">--}}
-{{--                            </a>--}}
-{{--                        </div>--}}
-{{--                    </a>--}}
-{{--                    <div class="row-between-reviews" id="hrline1"></div>--}}
-{{--                    <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">--}}
-{{--                        <div class="row">--}}
-{{--                            <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">--}}
-{{--                                <img class="img-facebook-logo"--}}
-{{--                                     src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-reviews-shipping-service.png"--}}
-{{--                                     alt="facebook goshoppre reviews international parcel delivery">--}}
-{{--                                <p class="p-facebook-review">Reviews</p>--}}
-{{--                            </a>--}}
-{{--                        </div>--}}
-{{--                        <div class="row">--}}
-{{--                            <img class="img-facebook-r"--}}
-{{--                                 src="{{env('AWS_CLOUD_FRONT')}}/img/images/facebook-rating-shipping-service.png"--}}
-{{--                                 alt="facebook goshoppre rating international parcel delivery from india">--}}
-{{--                        </div>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
+            </div>
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 " style="margin-top: 20px; padding: 0px">
+                <div class="col-md-12 col-lg-12 div-review" style="margin-top: 20px ">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row div-img-row" id="reviews-img">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/google.png">
+                                <br>
+                                <p class="p-name" style="font-size: 23px">
+                                    <span>4.5</span>
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 147px;">
+                                </p>
+                                <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,," target="_blank">
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">224 Google Reviews</p>
+                                </a>
+                                <br>
+                                <p style="font-size: 20px; color: #878787 ">Shipping service in Bengaluru, Karnataka</p>
+                            </div >
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row div-img-row" id="reviews-img">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/fb-star.png">
+                                <br>
+                                <div style="background-color: blue; max-width: 86px; border-radius: 20px; height: 40px;">
+                                <p class="p-name" style="font-size: 23px; padding-top: 6px; padding-left: 10px;color: white;">
+                                    <span >4.7</span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                                </div>
+                                <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">68 votes</p>
+                                </a>
+                                <br>
+                                <p style="font-size: 20px; color: #878787; margin-top: -6px ">Shipping service in Bengaluru, Karnataka</p>
+                            </div >
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

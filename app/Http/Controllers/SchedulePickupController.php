@@ -91,7 +91,7 @@ class SchedulePickupController extends Controller
             'pickup_pincode' => $data->pc_pincode,
             'pickup_city' => $data->pc_city,
             'pickup_state' => $data->pc_state,
-            'pickup_mobile' => $data->pc_contact_no,
+            'pickup_mobile' => '+91'.$data->pc_contact_no,
             'pickup_email' => $data->pc_email,
             'package_length' => $data->length,
             'package_width' => $data->width,
@@ -100,12 +100,13 @@ class SchedulePickupController extends Controller
             'destination_first_name' => $data->dc_fname,
             'destination_last_name' => $data->dc_lname,
             'destination_address_line1' => $data->dc_street,
-            'destination_address_line2' => $data->dc_pincode,
+            'destination_address_line2' => '',
+            'destination_pincode' => $data->dc_pincode,
             'destination_city' => $data->dc_city,
             'destination_state' => $data->dc_state,
             'destination_country' => $data->dc_country,
             'destination_phone_code' => $data->dc_phone_code,
-            'destination_mobile' => $data->dc_contact_no,
+            'destination_mobile' => '+'.$data->dc_phone_code.$data->dc_contact_no,
             'comment' => $data->comment,
             'items'=> $items,
         ];
@@ -127,7 +128,7 @@ class SchedulePickupController extends Controller
         // Asana task disabled for temporary
 //         $response = AsanaTaskOperations::createTask($name, $all_details, "S");
 
-          $this->sendEmailPickup($request);
+//          $this->sendEmailPickup($request);
 
 
         $url = env('MIGRATION_PREFIX') ."courier.".env('DOMAIN')."/api/shipments";
