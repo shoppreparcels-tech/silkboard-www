@@ -608,9 +608,21 @@ class PageController extends Controller
     {
         return view('page.landing-pages.usa-alaska');
     }
+    public function alabamaShipping()
+    {
+        return view('page.landing-pages.usa-alabama');
+    }
     public function delawareShipping()
     {
         return view('page.landing-pages.usa-delaware');
+    }
+    public function arkansasShipping()
+    {
+        return view('page.landing-pages.usa-arkansas');
+    }
+    public function hawaiiShipping()
+    {
+        return view('page.landing-pages.usa-hawaii');
     }
     public function ifsLandingPage()
     {

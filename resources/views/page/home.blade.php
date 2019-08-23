@@ -757,11 +757,11 @@
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/google.png">
                                 <br>
                                 <p class="p-name" style="font-size: 23px">
-                                    <span>4.5</span>
+                                    <span>4.6</span>
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 147px;">
                                 </p>
-                                <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,," target="_blank">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">224 Google Reviews</p>
+                                <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">225 Google Reviews</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787 ">Shipping service in Bengaluru, Karnataka</p>
@@ -777,8 +777,8 @@
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </p>
                                 </div>
-                                <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">68 votes</p>
+                                <a href="https://www.facebook.com/pg/goshoppre/reviews" target="_blank">
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">Recommended by 82</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787; margin-top: -6px ">Shipping service in Bengaluru, Karnataka</p>
