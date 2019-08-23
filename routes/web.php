@@ -662,6 +662,7 @@ Route::get('/flipkart-usa-shopping', 'PageController@flipkartUsa')->name('flipka
 Route::get('/flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india', 'PageController@flipkartNational')->name('flipkart-national');
 Route::get('/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances', 'PageController@amznFreedom')->name('amzn-freedom');
 Route::get('/myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping', 'PageController@myntraRight')->name('myntra-right');
+Route::get('/flipkart-big-billion-days-sale-offers-top-brands-stores', 'PageController@flipkartBillion')->name('flipkart-billion');
 Route::get('/jabong-usa-shipping-from-india', 'PageController@jabongUsa')->name('jabong-usa');
 Route::get('/trends-ajio-usa-shipping-from-india', 'PageController@ajioUsa')->name('ajio-usa');
 Route::get('/firstcry-international-shipping-usa', 'PageController@firstcryUsa')->name('firstcry-usa');
@@ -687,7 +688,7 @@ Route::get('/international-courier-charges-india-to-south-africa-per-kg', 'PageC
 Route::get('/international-courier-charges-india-to-japan-per-kg', 'PageController@pricingJapan')->name('japanPerKg');
 Route::get('/international-courier-charges-india-to-new-zealand-per-kg', 'PageController@pricingNewzealand')->name('newzealandPerKg');
 Route::get('/international-courier-charges-india-to-malaysia-per-kg', 'PageController@pricingMalaysia')->name('malaysiaPerKg');
-Route::get('/internaticheap-rates-international-shipping-cost-calculatoronal-courier-charges-india-to-mauritius-per-kg', 'PageController@pricingMauritius')->name('mauritiusPerKg');
+Route::get('/international-courier-charges-india-to-mauritius-per-kg', 'PageController@pricingMauritius')->name('mauritiusPerKg');
 Route::get('/international-courier-charges-india-to-denmark-per-kg', 'PageController@pricingDenmark')->name('denmarkPerKg');
 Route::get('/international-courier-charges-india-to-switzerland-per-kg', 'PageController@pricingSwitzerland')->name('switzerlandPerKg');
 Route::get('/international-courier-charges-india-to-qatar-per-kg', 'PageController@pricingQatar')->name('qatarPerKg');
@@ -700,6 +701,7 @@ Route::get('/international-courier-charges-india-to-philippines-per-kg', 'PageCo
 Route::get('/international-courier-charges-india-to-belgium-per-kg', 'PageController@pricingBelgium')->name('belgiumPerKg');
 Route::get('/international-courier-charges-india-to-finland-per-kg', 'PageController@pricingFinland')->name('finlandPerKg');
 Route::get('/international-courier-charges-india-to-italy-per-kg', 'PageController@pricingItaly')->name('italyPerKg');
+Route::get('/international-courier-charges-india-to-saudi-arabia-per-kg', 'PageController@pricingSaudiarabia')->name('saudiarabiaPerKg');
 
 
 /*-------- Schema Landing Pages ------*/

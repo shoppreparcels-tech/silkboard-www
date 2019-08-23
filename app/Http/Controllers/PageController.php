@@ -518,6 +518,10 @@ class PageController extends Controller
     {
         return view('page.myntra-right');
     }
+    public function flipkartBillion()
+    {
+        return view('page.landing-pages.flipkart-billion');
+    }
     public function myntraIndex()
     {
         return view('page.myntra-landing');
@@ -820,6 +824,10 @@ class PageController extends Controller
     public function pricingItaly()
     {
         return view('page.landing-pages.pricing-italy');
+    }
+    public function pricingSaudiarabia()
+    {
+        return view('page.landing-pages.pricing-saudiarabia');
     }
     public function contactIndex()
     {

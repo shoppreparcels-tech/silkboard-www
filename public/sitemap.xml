@@ -111,19 +111,9 @@
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://www.shoppre.com/countries</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.70</priority>
-</url>
-<url>
   <loc>https://www.shoppre.com/reviews</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.shoppre.com/stories</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.30</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-shipping-services-india</loc>
@@ -411,6 +401,11 @@
     <priority>0.75</priority>
 </url>
 <url>
+    <loc>https://www.shoppre.com/international-courier-charges-india-to-saudi-arabia-per-kg</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+</url>
+<url>
 
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/las-vegas</loc>
     <changefreq>daily</changefreq>
@@ -507,6 +502,21 @@
     <priority>0.70</priority>
 </url>
 <url>
+    <loc>https://www.shoppre.com/shipping-from-india-to-usa/hawaii</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/shipping-from-india-to-usa/arkansas</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/shipping-from-india-to-usa/alabama</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+</url>
+<url>
   <loc>https://www.shoppre.com/country-guide</loc>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -528,6 +538,11 @@
 </url>
 <url>
     <loc>https://www.shoppre.com/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/flipkart-big-billion-days-sale-offers-top-brands-stores</loc>
     <changefreq>daily</changefreq>
     <priority>0.80</priority>
 </url>

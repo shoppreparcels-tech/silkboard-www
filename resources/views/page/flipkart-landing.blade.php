@@ -48,7 +48,7 @@
                         <div class="shopandship ">
                                 <h2>Realme 5</h2>
                                 <br>
-                                <p>Launching on 20th Aug</p>
+                                <p>Starts from ₹999</p>
                                 <p>Buy Realme 5 & Ship Worldwide</p>
                                 <p>Explore Now</p>
                         </div>

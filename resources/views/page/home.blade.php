@@ -266,14 +266,14 @@
 
                     </div>
 
-                    <div>
-                    <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
-                        <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
-                        Send your Rakhi Online Worlwide <span class="p-color-red" style="font-size: 14px">( रक्षाबंधन का त्यौहार )</span>,
-                            starting from ₹316/- 👉 <a href="https://m.shoppre.com/send-rakhi-online-worldwide" target="_blank">Ship Now!</a></p>
-                    </marquee>
-                        </p>
-                    </div>
+{{--                    <div>--}}
+{{--                    <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">--}}
+{{--                        <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>--}}
+{{--                        Send your Rakhi Online Worlwide <span class="p-color-red" style="font-size: 14px">( रक्षाबंधन का त्यौहार )</span>,--}}
+{{--                            starting from ₹316/- 👉 <a href="https://m.shoppre.com/send-rakhi-online-worldwide" target="_blank">Ship Now!</a></p>--}}
+{{--                    </marquee>--}}
+{{--                        </p>--}}
+{{--                    </div>--}}
                 </div>
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
@@ -397,17 +397,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.amazon.in/rakhis-rakhi-hampers/b?ie=UTF8&node=5143508031&tag=cuelinkss14110-21&ascsubtag=20190806clye3sumesu5" title="Click for Offer Details" target="_blank">
+                        <a href="https://www.amazon.in/b?node=14907965031&pf_rd_p=dbb877e1-e3b5-465c-9a2e-dc3be328d853&pf_rd_r=X0FAFPRDSDDE6VE5P62E" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">SHOP RAKHI ONLINE</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">WOMEN'S CLOTHING</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">25th August</span> | Upto 70% Off</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Under ₹599/-</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Store - Amazon.in</p>
                             <br><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from wide selection of designer, premium and kids’ Rakhis online.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from wide selection of tops, dresses, jeans, sarees online.</p>
                         </div>
 
                     </div>
@@ -761,7 +761,7 @@
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 147px;">
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">225 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">226 Google Reviews</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787 ">Shipping service in Bengaluru, Karnataka</p>
