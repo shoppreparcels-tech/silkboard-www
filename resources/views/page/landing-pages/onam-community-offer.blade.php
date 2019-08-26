@@ -126,7 +126,13 @@
 
                 <p class="f-s-20 f-c-d-greay f-w-9">
 {{--                    Here is the list of items that ShoppRe handpicked for you, especially for this Onam. Have a look at it.--}}
-                   Note:  We would also love to update a few items for your reference at the earliest.
+                   Coming Soon:  We would also love to update a few items for your reference at the earliest.
+
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9">
+                    {{--                    Here is the list of items that ShoppRe handpicked for you, especially for this Onam. Have a look at it.--}}
+                    Learn more 👉: <a href="/kerala-onam-online-shopping-guide-from-india">How to shop online for ONAM from abroad?</a>
 
                 </p>
                 <br>

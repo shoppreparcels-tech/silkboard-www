@@ -44,24 +44,24 @@
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/realme-5-new-launch-37s7-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/month-end-mobile-fest-145io34pp-store" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-                                <h2>Realme 5</h2>
+                                <h2>Mobile Fest</h2>
                                 <br>
-                                <p>Starts from ₹999</p>
-                                <p>Buy Realme 5 & Ship Worldwide</p>
+                                <p>26th - 31st Aug</p>
+                                <p>Best Prices on Bestsellers</p>
                                 <p>Explore Now</p>
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/rakhi-gifts-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/fashion-super-saver-2019-store" title="Click Here to Shop" target="_blank">
                     <div class="ps">
-                        <h2>Rakhi & Rakhi Sets</h2>
+                        <h2>40-70% Off </h2>
                         <br>
-                        <p>Buy Rakhi Online for Sister & Brother</p>
-                        <p>Religious, Bracelet, Silver & more</p>
-                        <p>Starting from ₹34/-</p>
+                        <p>Fav Fashion Brands</p>
+                        <p>At Affordable Prices</p>
+                        <p>Under ₹999/-</p>
                     </div>
                     </a>
                 </div>
@@ -271,6 +271,62 @@
             </center>
             <br/><br/>
         </div>
+    </section>
+
+    <section class="chris-benefits">
+        <div class="container" >
+            <center>
+                <h1 class="header3 p-color-cement-dark font-weight-900" >FLIPKART Offers, Deals & Sale</h1>
+            </center>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li>FLIPKART SALE 2019</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big billion Days"><span><a
+                                        href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Big Billion Days Sale 2019</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Shopping Days"><span><a
+                                        href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Flipstart Days"><span><a
+                                        href="https://ship.shoppre.com/online-shopping-flipkart-flipstart-days-2019-offers-fashion-beauty-headphones-laptops-power-banks-mobile-cases/" target="_blank">Flipkart Flipstart Days</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="National Shopping Days"><span><a
+                                        href="/flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" target="_blank">National Shopping Days</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li>TRENDING PRODUCTS</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="puja"><span><a
+                                        href="https://ship.shoppre.com/get-6-essential-puja-articles-for-ganesh-puja-from-india/">Buy Puja Items Online</a></span>
+                            </li><li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Flip Flop"><span><a
+                                        href="https://ship.shoppre.com/6-amazing-and-comfortable-flip-flops-sandals-for-women-you-need-in-your-wardrobe/">Flip Flops for Women</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Yoga Organic Clothing"><span><a
+                                        href="https://ship.shoppre.com/products-on-sale-pure-organic-yoga-clothing-and-products-made-in-india/" target="_blank">Yoga Organic Clothing Sale</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span><a
+                                        href="https://ship.shoppre.com/8-gorgeously-elegant-sarees-for-every-occasion-to-flaunt-your-curves-craftsvilla-handpicked-for-you/" target="_blank">Sarees Online Shopping</a> </span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>  <li>RECOMMENDED STORES</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="myntra"><span><a
+                                        href="/myntra-online-shopping-shipping-from-india">Myntra Online Shopping</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="ajio"><span><a
+                                        href="/ajio-online-shopping-international-shipping">AJIO Online Shopping</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="amazon"><span><a
+                                        href="/amazon-india-shop-international-shipping">Amazon.in Shopping India</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="jaypore"><span><a
+                                        href="/jaypore-international-shipping-from-india">Jaypore Handpicked Products</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <br/><br/>
+            </div>
+        </div>
+        <br>
     </section>
 
     <section class="d-contact-details-section">

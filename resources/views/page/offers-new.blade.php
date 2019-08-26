@@ -56,7 +56,7 @@
                     <div class="MultiCarousel-inner">
                         <div class="item">
                             <div class="pad15">
-                                <a href="/kerala-onam-online-shopping-guide-from-india" target="_blank">
+                                <a href="/onam-community-shipping-offer" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/onam-offer-250.png" class="boxofScroll"/>
                                 </a>
                             </div>
@@ -105,23 +105,23 @@
         <div class="container">
             <br/>
             <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (AUGUST-2019 Sale):</h3>
-            <div>
+{{--            <div>--}}
 
-                <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                    <a href="https://m.shoppre.com/send-rakhi-online-worldwide"
-                       title="Rakhi" target="_blank">Send Rakhi Online from India 👉 <span class="f-s-16 f-c-red f-w-9">Shipping Price Starts from  ₹316/-</span> T&C* (15th July - 25th August 2019)</a>
-                    </marquee>
-            </div>
+{{--                <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
+{{--                    <a href="https://m.shoppre.com/send-rakhi-online-worldwide"--}}
+{{--                       title="Rakhi" target="_blank">Send Rakhi Online from India 👉 <span class="f-s-16 f-c-red f-w-9">Shipping Price Starts from  ₹316/-</span> T&C* (15th July - 25th August 2019)</a>--}}
+{{--                    </marquee>--}}
+{{--            </div>--}}
 
             <br/>
             <div class="row">
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">TVs & Appliances</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up to 75% Offer</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">mobile fest</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">26th-31st Aug</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/tvs-appliances-independence-day-id-sale-store" target="_blank">
+                                <a href="https://www.flipkart.com/month-end-mobile-fest-145io34pp-store" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
                                 </a>
                             </div>
@@ -174,11 +174,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Lakme Beauty Products</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up to 40% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Clearance Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40 - 70% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com/lakme" target="_blank">
+                                <a href="https://www.myntra.com" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5997a62748742.png"/>
                                 </a>
                             </div>
@@ -189,7 +189,7 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Everything on Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Shop Now</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">40 - 90% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
@@ -201,10 +201,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Fashion Autumn-Winter</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Shop Now</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Women fest</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up to 70% Off</h5>
                             <div class="ecomSmallBox" style="height: 94px;">
-                                <a href="https://www.amazon.in/b?node=17336463031&pf_rd_p=a06502bf-bc12-4926-b34a-63a9fab57a27&pf_rd_r=TYG62X8D05NJRNTMREJP" target="_blank">
+                                <a href="https://www.amazon.in/b?node=7459780031&pf_rd_p=341d4532-a5e1-4270-b9ec-a883d1d4289e&pf_rd_r=WYDS7D117DWY888D1X3K" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>
                                 </a>
                             </div>
@@ -282,6 +282,8 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big billion Days"><span><a
+                                        href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Big Billion Days Sale 2019</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Shopping Days"><span><a
                                         href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Freedom Sale"><span><a
@@ -298,7 +300,9 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Rakhi"><span><a
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="puja"><span><a
+                                        href="https://ship.shoppre.com/get-6-essential-puja-articles-for-ganesh-puja-from-india/">Buy Puja Items Online</a></span>
+                            </li><li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Rakhi"><span><a
                                         href="/send-rakhi-gifts-online-worldwide-at-cheap-rates">Rakhi Online Shopping India</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Yoga Organic Clothing"><span><a
                                         href="https://ship.shoppre.com/products-on-sale-pure-organic-yoga-clothing-and-products-made-in-india/" target="_blank">Yoga Organic Clothing Sale</a></span></li>
@@ -327,6 +331,8 @@
                                         href="/university-offer">Student Special Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="easter"><span><a
                                         href="/easter-shopping-from-india-with-international-shipping">Easter Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="new year"><span><a
+                                        href="/new-year-offer" target="_blank">New Year Offer</a></span></li>
                         </ul>
                     </div>
                 </div>

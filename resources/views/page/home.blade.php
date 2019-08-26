@@ -281,9 +281,9 @@
                             <a href="/first-time-international-shipment-offer" target="_blank">
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india-shoppre.png" class="img-f-w offer-img-d"
                                         alt="first time international shipment offer"></a>
-                            <a href="/send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank"><img
-                                        src="{{env('AWS_CLOUD_FRONT')}}/img/images/rakhi-india-shipping-worldwide.png"
-                                        class="img-f-w offer-img-m" title="Click Here for Rakhi Courier Rates" alt="mobile rakhi international shipping discount"></a>
+                            <a href="/first-time-international-shipment-offer" target="_blank"><img
+                                        src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india.png"
+                                        class="img-f-w offer-img-m" title="Click Here" alt="mobile international shipping discount"></a>
                             <center class="pad-b-10"><a href="{{route('customer.login')}}"
                                        class="btn btn-s-g btn-b-g btn-a-l m-t-20 offer-img-m clrwhite">Sign Up for FREE</a>
                             </center>
@@ -380,34 +380,34 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="send-rakhi-gifts-online-worldwide-at-cheap-rates" title="Know More" target="_blank">
+                        <a href="https://www.amazon.in/b?node=7459780031&pf_rd_p=341d4532-a5e1-4270-b9ec-a883d1d4289e&pf_rd_r=7PA8B2HSDMX4A34VDP3P" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">SEND RAKHI WORLDWIDE</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">WONDER WOMEN FEST</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">15th July - 25th August</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">26th - 28th August</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shipping <span class="f-s-16 f-c-red f-w-9">Starts from ₹316/-</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up To 70% Off</span></p>
                             <br><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Send RAKHI's & RAKHI GIFTS to your Brother/Sister from INDIA to Worldwide.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Clothing, Footwear, Watches, Make-Up, Fashion Jewellery, Handbags & more.</p>
                         </div>
 
                     </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.amazon.in/b?node=14907965031&pf_rd_p=dbb877e1-e3b5-465c-9a2e-dc3be328d853&pf_rd_r=X0FAFPRDSDDE6VE5P62E" title="Click for Offer Details" target="_blank">
+                        <a href="https://www.flipkart.com/month-end-mobile-fest-145io34pp-store" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">WOMEN'S CLOTHING</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">MONTH-END MOBILE FEST</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Under ₹599/-</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">26th - 31st August</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Amazon.in</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Flipkart.com</p>
                             <br><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from wide selection of tops, dresses, jeans, sarees online.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from bestsellers online. Top offers realme C2, Redmi 6, Honor 8C & more.</p>
                         </div>
 
                     </div>

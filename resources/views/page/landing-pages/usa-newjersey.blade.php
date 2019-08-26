@@ -224,7 +224,7 @@ contact our support team for assistance.</span>
 
 
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="myntra-international-shipping-to-usa" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="/myntra-international-shipping-to-usa" target="_blank"> <span class="elementor-icon-list-icon">
                                 <i class="fa fa-plane" aria-hidden="true"></i>
                                 </span>
                                 <span class="elementor-icon-list-text txt-u-l">Myntra Shopping from USA</span>
@@ -237,7 +237,7 @@ contact our support team for assistance.</span>
 
 
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="flipkart-usa-shopping" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="/flipkart-usa-shopping" target="_blank"> <span class="elementor-icon-list-icon">
                                 <i class="fa fa-plane" aria-hidden="true"></i>
                                 </span>
                                 <span class="elementor-icon-list-text txt-u-l">Flipkart Shopping from USA</span>
@@ -250,7 +250,7 @@ contact our support team for assistance.</span>
 
 
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="shop-from-amazon-india-and-ship-to-usa" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="/shop-from-amazon-india-and-ship-to-usa" target="_blank"> <span class="elementor-icon-list-icon">
                                 <i class="fa fa-plane" aria-hidden="true"></i>
                                 </span>
                                 <span class="elementor-icon-list-text txt-u-l">Amazon.in Shopping from USA</span>
@@ -263,7 +263,7 @@ contact our support team for assistance.</span>
 
 
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="jabong-usa-shipping-from-india" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="/jabong-usa-shipping-from-india" target="_blank"> <span class="elementor-icon-list-icon">
                                    <i class="fa fa-plane" aria-hidden="true"></i>
                                    </span>
                                 <span class="elementor-icon-list-text txt-u-l">Jabong Shopping from USA</span>
@@ -276,7 +276,7 @@ contact our support team for assistance.</span>
 
 
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="trends-ajio-usa-shipping-from-india" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="/trends-ajio-usa-shipping-from-india" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
                                 <span class="elementor-icon-list-text txt-u-l">AJIO Shopping from USA</span>
@@ -289,7 +289,7 @@ contact our support team for assistance.</span>
 
 
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="jaypore-shopping-usa" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="/jaypore-shopping-usa" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
                                 <span class="elementor-icon-list-text txt-u-l">Jaypore Shopping from USA</span>
@@ -302,7 +302,7 @@ contact our support team for assistance.</span>
 
 
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="limeroad-shopping-international-shipping" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="/limeroad-shopping-international-shipping" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
                                 <span class="elementor-icon-list-text txt-u-l">Limeroad Shopping from India</span>

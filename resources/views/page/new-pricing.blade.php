@@ -275,9 +275,9 @@
                         <br>
                         <br>
                         <center>
-                            <a href="/send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank">
+                            <a href="/onam-community-shipping-offer" target="_blank">
                                 {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"--}}
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/raksha-bandhan-india-shoppre.png" title="Click Here for Rakhi Shipping Rates"
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/onam-dekstop-offer.png" title="Click Here - ONAM"
                                      alt="rakhi-schedule-pickup-courier-from-india-shoppre" class="img-responsive">
                             </a>
                         </center>
@@ -364,19 +364,19 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-xs-12 no-pad">
-                            <br>
-                            <div class="col-xs-12 col-md-12 div-b-price pad-10">
-                                <div class="col-xs-12 col-md-12 no-pad m-5">
-                                   <h4 class="font-18 f-c-l-black "><b>Want to Ship Rakhi Abroad?</b></h4>
-                                </div>
-                                <div class="col-xs-12 col-md-12 no-pad m-5">
-                                    <a class="btn btn-b-b btn-s-b " href="send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank">
-                                        Check Rakhi Rates
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+{{--                        <div class="col-md-6 col-xs-12 no-pad">--}}
+{{--                            <br>--}}
+{{--                            <div class="col-xs-12 col-md-12 div-b-price pad-10">--}}
+{{--                                <div class="col-xs-12 col-md-12 no-pad m-5">--}}
+{{--                                   <h4 class="font-18 f-c-l-black "><b>Want to Ship Rakhi Abroad?</b></h4>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-xs-12 col-md-12 no-pad m-5">--}}
+{{--                                    <a class="btn btn-b-b btn-s-b " href="send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank">--}}
+{{--                                        Check Rakhi Rates--}}
+{{--                                    </a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                         <div class="col-md-12 col-xs-12 div-b-b"></div>
                         <div class="col-md-12 col-xs-12 no-pad ">
                             <br>

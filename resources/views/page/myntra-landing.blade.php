@@ -69,21 +69,21 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/womens-western-wear?f=Brand%3AMarks%20%26%20Spencer" target="_blank"><div class="shopandship ">
+                    <a href="https://www.myntra.com" target="_blank"><div class="shopandship ">
+                            <h2>Clearance Sale</h2>
+                            <br/>
+                            <p>40-70% Off</p>
+                            <p>24th - 26th Aug</p>
+                            <p>Explore Now</p>
+                        </div></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.myntra.com/womens-western-wear?f=Brand%3AMarks%20%26%20Spencer" target="_blank"><div class="ps">
                             <h2>Womens Western Wear</h2>
                             <br/>
                             <p>Starts from ₹399/-</p>
                             <p>Tops, Dresses & More</p>
                             <p>Explore Now</p>
-                        </div></a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="https://www.myntra.com/rakhi" target="_blank"><div class="ps">
-                        <h2>Myntra Rakhi</h2>
-                        <br>
-                        <p>Handcrafted Rakhi</p>
-                        <p>Price Starts from ₹244/-</p>
-                        <p>August 2019</p>
                     </div>
                     </a>
                 </div>
@@ -327,11 +327,13 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="ajio-online-shopping-international-shipping" target="_blank">AJIO Online Shopping</a></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="limeroad-shopping-international-shipping" target="_blank">Limeroad Fashion Shopping</a></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="etsy-international-shipping-from-india" target="_blank">ETSY India Online Shopping</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/jabong-usa-shipping-from-india" target="_blank">Jabong Lifestyle Online Shopping</a></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="jaypore-international-shipping-from-india" target="_blank">Shop from Jaypore Store Online</a></li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-xs-12 no-padding">
                         <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Flipkart Big Billion Day 2019</a></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="https://ship.shoppre.com/products-on-sale-pure-organic-yoga-clothing-and-products-made-in-india/" target="_blank">Yoga Organic Clothing Sale</a></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="https://ship.shoppre.com/prime-amazon-fashion-wardrobe-refresh-sale-shop-online-from-india/" target="_blank">Fashion Wardrobe Refresh Sale</a></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="https://ship.shoppre.com/online-shopping-flipkart-flipstart-days-2019-offers-fashion-beauty-headphones-laptops-power-banks-mobile-cases/" target="_blank">Flipstart Days Sale 2019</a></li>
