@@ -14,6 +14,10 @@
         @media only screen and (max-width: 600px) {
             .bg-valentain {height: 1000px}
         }
+        .left-padder-20
+        {
+            padding-left: 20px;
+        }
      </style>
 
 @endsection
@@ -22,11 +26,11 @@
        <div class="container pad-t-20">
            <br>
            <br>
-{{--           <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad mar-t-25">--}}
-{{--               <div class="col-xs-12 col-md-12 no-pad ">--}}
-{{--                   <img src="/img/images/month-end-offer.png" class="img-f-w" alt="">--}}
-{{--               </div>--}}
-{{--           </div>--}}
+           <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad mar-t-25">
+               <div class="col-xs-12 col-md-12 no-pad ">
+                   <img src="/img/images/flipkart-big-billion-day-sale-india-offer-ship.png" class="img-f-w" alt="flipkart big billion day sale india offer">
+               </div>
+           </div>
 {{--           <div class="col-md-12 col-xs-12 text-center mar-t-10">--}}
 {{--               <br>--}}
 {{--               <p>For any Query Please WhatsApp</p>--}}
@@ -107,7 +111,42 @@
                     Flipkart Big Billion Day Sale, 2019 and shop till they drop meanwhile we will handle the package forwarding efficiently so that your package reaches your doorstep safely within 3-6 days.
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9">The Sixth Edition of Flipkart Big Billion Days Sale 2019</h1>
+                <div class="row left-padder-20">
+                    <div class="col-md-6  border-1px">
+                        <h1 class="f-s-22 f-c-blue f-w-9">Guide on Flipkart Big Billion Days</h1>
+                        <ul>
+                            <li>
+                                <h4><a href="#flipkart-edition">The Sixth Edition of Flipkart Big Billion Days Sale 2019</a></h4>
+                            </li>
+                            <li>
+                                <h4><a href="#flipkart-whatnew">What’s new this Flipkart Big Billion Day Sale, 2019?</a></h4>
+                            </li>
+                            <li>
+                                <h4><a href="#flipkart-free">Get a free ride with all the offers you get during the Big Billion Day Sale</a></h4>
+                            </li>
+                            <li>
+                                <h4><a href="#flipkart-almighty">The Almighty Limited Period Offers</a></h4>
+                            </li>
+                            <li>
+                                <h4><a href="#flipkart-trot">Get hot to trot for the Grand Sale with 10 steps!</a></h4>
+                            </li>
+                            <li>
+                                <h4><a href="#flipkart-itinerary">Your Shopping Itinerary</a></h4>
+                            </li>
+                            <li>
+                                <h4><a href="#flipkart-smartphone">Top smartphone offers on Flipkart Big Billion Day</a></h4>
+                            </li>
+                            <li>
+                                <h4><a href="#flipkart-laptop">Top 10 Laptop to Choose From Flipkart Big Billion Sale</a></h4>
+                            </li>
+                            <li>
+                                <h4><a href="#top-indian">Indian Festival Offers, Deals & Shopping Sale</a></h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-edition">The Sixth Edition of Flipkart Big Billion Days Sale 2019</h1>
                 <br>
                 <p class="header4 p-color-cement">
                     With the advent of the Flipkart Big Billion Days Shopping sale, many people have already started making their wish lists and if you haven't started it yet, then it's
@@ -129,7 +168,7 @@
                     and gloat over the big savings that they made by going the whole hog with their shopping.
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9">SOMETHING DIFFERENT- What’s new this Flipkart Big Billion Day Sale, 2019?</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-whatnew">SOMETHING DIFFERENT- What’s new this Flipkart Big Billion Day Sale, 2019?</h1>
                 <br>
                 <p class="header4 p-color-cement">Flipkart has decided to set the bars higher and take it all up a notch for its customers and give them an unforgettable
                     experience of affordability and availability under a single umbrella that holds more than one million products across 70+ categories with
@@ -207,7 +246,7 @@
                     so that customers can select the precise product to shop.
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9">Get a free ride with all the offers you get during the Big Billion Day Sale</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-free">Get a free ride with all the offers you get during the Big Billion Day Sale</h1>
                 <p class="header4 p-color-cement">Flipkart’s customers will get a second bite at the cherry with these additional benefits only available on
                     Flipkart Big Billion Day Sale 2019. With the festive season in the immediate vicinity, everyone is equipped with their wish lists and what better
                     way to celebrate the beginning of jollification with a bit of shopping during this extravagant affair. So here are some of the EXTRA benefits that you can avail.
@@ -254,7 +293,7 @@
                     lesser price than it is available anywhere else.
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9">The Almighty Limited Period Offers</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-almighty">The Almighty Limited Period Offers</h1>
                 <p class="header4 p-color-cement">The Flipkart big billion shopping day sale just expanded its wings of grandeur with the limited period offers that Flipkart
                     will be exploding now and then to astonish its customers with humongous deals and offers on huge brands and almost every category from fashion to electronics and
                     from home appliances to books.  It is can be an offer you were looking to grab for months so don't miss out on them by logging in now and then! Everything will
@@ -276,7 +315,7 @@
                     </li>
                 </ul>
                 <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9">Get hot to trot for the Grand Sale with 10 steps!</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-trot">Get hot to trot for the Grand Sale with 10 steps!</h1>
                 <p class="header4 p-color-cement">Draw a bead up on your calendar for 29th September because that is the day when the sale begins and the offers unfold, and you would
                     not want to miss it. The sale is huge, offers are humongous, deals are grand, products are enormous and discounts are overwhelming, which can make any sane person go
                     insane. So here are some tips and tricks to get ready for the sale and how you can reap the maximum benefit out of it and stay a step ahead of everyone else.
@@ -330,7 +369,7 @@
                     Flipkart website and app during the sale period to ensure you don’t miss out on any deal.
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9">Your Shopping Itinerary</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-itinerary">Your Shopping Itinerary</h1>
                 <p class="header4 p-color-cement">Considering the festive season, Flipkart has plenty of essential to complete your festive shopping for you and your friends and family that you
                     can purchase during the Flipkart Big Billion Days Shopping Sale on amazing deals and offers across millions of products, in all categories, over 40000 sellers.
                     Flipkart has made this year's sale more special and exuberating. On each day of this grand festive sale, exciting new offers, deals, and discounts on
@@ -405,7 +444,7 @@
                 </p>
                 <br>
 
-                <h1 class="f-s-26 f-c-d-greay f-w-9">Mobiles</h1>
+                <h1 class="f-s-26 f-c-d-greay f-w-9" id="flipkart-smartphone">Mobiles</h1>
                 <p class="header4 p-color-cement">Fancy a new phone? All the good things in life take time, and well you have to wait for this auspicious day too to save a great amount on
                     the most premium of phones out there. Yes! You read it right, Flipkart will offer great discounts on premium smartphones and new launches that you have been eyeing for quite some time.
                 </p>
@@ -470,7 +509,7 @@
                     </table>
                 </div>
                 <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9">Laptops</h1>
+                <h1 class="f-s-26 f-c-d-greay f-w-9" id="flipkart-laptop">Laptops</h1>
                 <p class="header4 p-color-cement">Everyone needs a high performing laptop that fits in their budget for various purposes and Flipkart is
                     here to cater to all those needs by offering humongous discounts on some of the top laptops from major brands. So shop for the laptop that you
                     have always wanted with the latest functionality and features for your work, gaming, music or movie watching requirements.
@@ -657,7 +696,7 @@
     <section class="chris-benefits">
         <div class="container" >
             <center>
-                <h1 class="header3 p-color-cement-dark font-weight-900" >Top Indian Festival Offers, Deals & Shopping Sale</h1>
+                <h1 class="f-s-26 f-c-d-greay f-w-9" id="top-indian" >Top Indian Festival Offers, Deals & Shopping Sale</h1>
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">

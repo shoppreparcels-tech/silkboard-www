@@ -174,11 +174,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Clearance Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">SHOENIVERSE</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40 - 70% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com" target="_blank">
+                                <a href="https://www.myntra.com/footwear?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5997a62748742.png"/>
                                 </a>
                             </div>
