@@ -87,7 +87,7 @@
 
             <div class="col-md-3 col-lg-3 col-sm-5 col-xs-12 pad-5">
                 <div class="col-md-12 col-xs-12 div-b-w-s pad-20 ">
-                    <form class="" id="subscribe" role="form" method="POST">
+                    <form class="" id="subscribe_mail_train" role="form" method="POST">
                         {{csrf_field()}}
                         <h1 class="f-s-26 f-c-d-greay f-w-8 h-l-"><span class="f-c-red">S</span>ubscribe</h1>
                         <p class="f-s-14 f-c-l-gray">Join our Mailing List <br>

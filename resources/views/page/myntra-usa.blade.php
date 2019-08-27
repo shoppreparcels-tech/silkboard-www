@@ -158,7 +158,8 @@
                     <br>
                     <ul>
                         <li>Myntra Maxessorize Sale, 1st to 2nd August 2019</li>
-                        <li>Myntra Independence Day Sale, 13th to 15th August 2019</li>
+                        <li>Myntra Right to Fashion Sale, 09th to 12th August 2019</li>
+                        <li>The Final Clearance Sale, 24th to 26th August 2019</li>
                         <li>Myntra Big Billion Days Sale, September 2019</li>
                         <li>Myntra Diwali Sale, 25th to 27th October 2019</li>
                         <li>End of Season Sale, After 15th November</li>
@@ -213,7 +214,46 @@
             </div>
         </div>
     </section>
-
+    <section>
+        <div class="container div-ics-border-btm">
+            <div class="col-md-12 col-xs-12 no-pad">
+{{--                <center>--}}
+{{--                    <h1 class="f-s-30 f-c-d-greay">Indian online shopping websites with ShoppRe International delivery</h1>--}}
+{{--                    <p class="f-s-20 f-c-gray">List of the top Indian online shopping websites international delivery through ShoppRe ecommerce--}}
+{{--                        package forwarding services and Festival Deals, Offers and Sale.</p>--}}
+{{--                    </br>--}}
+{{--                </center>--}}
+                <div class=" col-md-12 col-xs-12 div-ics-prodcts">
+                    <div class="col-md-6 col-xs-12 no-padding">
+                        <ul>
+                            <li>Top Online Shopping sites in India</li>
+                            <br>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/flipkart-usa-shopping" target="_blank">Flipkart USA Shipping</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/myntra-online-shopping-shipping-from-india" target="_blank">Myntra USA Shipping</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/trends-ajio-usa-shipping-from-india" target="_blank">AJIO USA Shipping</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/shop-from-amazon-india-and-ship-to-usa" target="_blank">Amazon.in USA Delivery</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/firstcry-international-shipping-usa" target="_blank">Firstcry Shipping USA</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/jabong-usa-shipping-from-india" target="_blank">Jabong Lifestyle Shipping</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/jaypore-shopping-usa" target="_blank">Jaypore USA Delivery</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-xs-12 no-padding">
+                        <ul>
+                            <li>Top Shopping Offers and Sale</li>
+                            <br>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Flipkart Big Billion Day 2019</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="https://ship.shoppre.com/prime-amazon-fashion-wardrobe-refresh-sale-shop-online-from-india/" target="_blank">Fashion Wardrobe Refresh Sale</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="https://ship.shoppre.com/online-shopping-flipkart-flipstart-days-2019-offers-fashion-beauty-headphones-laptops-power-banks-mobile-cases/" target="_blank">Flipstart Days Sale 2019</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" target="_blank">Myntra Right To Fashion Sale</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" target="_blank">Flipkart National Shopping Days</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">

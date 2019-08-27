@@ -727,6 +727,11 @@ Route::get('/shipping-from-india-to-usa/delaware', 'PageController@delawareShipp
 Route::get('/shipping-from-india-to-usa/alabama', 'PageController@alabamaShipping')->name('usa-alabama');
 Route::get('/shipping-from-india-to-usa/arkansas', 'PageController@arkansasShipping')->name('usa-arkansas');
 Route::get('/shipping-from-india-to-usa/hawaii', 'PageController@hawaiiShipping')->name('usa-hawaii');
+Route::get('/shipping-from-india-to-usa/detroit', 'PageController@detroitShipping')->name('usa-detroit');
+Route::get('/shipping-from-india-to-usa/austin', 'PageController@austinShipping')->name('usa-austin');
+Route::get('/shipping-from-india-to-usa/connecticut', 'PageController@connecticutShipping')->name('usa-connecticut');
+Route::get('/shipping-from-india-to-usa/north-america', 'PageController@northamericaShipping')->name('usa-northamerica');
+Route::get('/shipping-from-india-to-usa/edison', 'PageController@edisonShipping')->name('usa-edison');
 
 
 //Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');

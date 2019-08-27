@@ -1,12 +1,12 @@
 @extends('layout')
 
-@section('title', 'Learn How to Ship from India to Hawaii, USA | ShoppRe.com')
-@section('description', 'A list of latest queries how to do international shipping from India to Hawaii. Online support. Door delivery. Calculate quick & easy online your shipping costs.')
-@section('keywords', 'shipping from india to hawaii, honolulu, north america, pacific united states, package courier ')
+@section('title', 'International Shipping to Detroit, Michigan from India | ShoppRe.com')
+@section('description', 'With the help of ShoppRe you can ship from India to Detroit. Affordable and reliable services')
+@section('keywords', 'shipping from india to detroit, michigan ')
 
 @section('css_style')
 
-    <link rel="canonical" href="https://www.shoppre.com/shipping-from-india-to-usa/hawaii" />
+    <link rel="canonical" href="https://www.shoppre.com/shipping-from-india-to-usa/detroit" />
 
     <style>
         .first-time-shipment{background-color:#11273b;height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;padding-top:60px}
@@ -27,54 +27,49 @@
                </center>
                <center>
                    <h18 class="f-s-50 f-c-white  f-w-9">₹200 Discount</h18>
-                   <p class="f-s-30 f-c-white f-w-9 ">on your First Shipment to HAWAII from India </p>
+                   <p class="f-s-30 f-c-white f-w-9 ">on your First Shipment to DETROIT from India </p>
                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-s-t-coupon.png" alt="frst50 shoppre" > <br><br>
                    <a href="{{route('customer.register')}}" target="_blank" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE </a>
                    <br>
                    <br>
                    <br>
-                   <p class="f-s-12 f-c-l-gray f-w-8">Shipping services to Hawaii from India</p>
+                   <p class="f-s-12 f-c-l-gray f-w-8">Shipping services to Dtroit from India</p>
 
                </center>
            </div>
-
         </div>
     </section>
     <section >
         <div class="container fst-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">The most reliable and fast shipping from India to Hawaii</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">The most reliable and fast shipping from India to Detroit</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12 text-center">
-                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20Looking%20for%20Shipping%20Service%20to%20Hawaii,%20USA%20from%20India" target="_blank" title="Click to WhatsApp">
+                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20Looking%20for%20Shipping%20Service%20Detroit,%20USA%20from%20India" target="_blank" title="Click to WhatsApp">
                         <img src="/img/images/christmas-contact.png" alt="shoppre contact number 8277919191">
                     </a>
                 </div>
             </div>
-
             <div class=" col-md-12 no-pad"><br>
                 <center>
-                <h2 class="p-color-cement-dark f-w-9 font-30">Low Cost Shipping from India to Hawaii, USA</h2>
+                <h2 class="p-color-cement-dark f-w-9 font-30">Low Cost Shipping from India to Detroit, USA</h2>
                 </center>
-                <h4 class="f-s-20 f-c-gray f-w-9">Choose ShoppRe for international shipping from India to Hawaii as we offer the cheapest
+                <h4 class="f-s-20 f-c-gray f-w-9">Choose ShoppRe for international shipping from India to Detroit as we offer the cheapest
                     and the best way to send your courier from India to USA with our trusted courier partners.
                 </h4>
                 <br>
-                <p class="header4 p-color-cement">There is a vibrant circle of Indian expats in Hawaii, coming from New Delhi, Chennai, Mumbai and all regions
-                    of India to enjoy great weather, sandy beaches, and natural beauty. Many Indians are now calling it home, but still, there are very few local
-                    markets that sell Indian groceries and other items.
+                <p class="header4 p-color-cement">The largest single immigrant group in metro Detroit comes from India. The demand for professionals in the medical fields and
+                    computer technology has fueled an influx of highly educated Indian immigrants to metro Detroit. There are many Immigrants from India, especially professionals in health-care and technology.
                 </p><br>
-                <p class="header4 p-color-cement">So people usually steer towards online shopping from India. You can also do that with the help of ShoppRe that offers the best,
-                    reliable, fast and cheap shipping services from India. Now order anything you like or courier at the cheapest shipping charges from India and get your
-                    package delivered within 3-6 days at your doorstep anywhere in the world.
+                <p class="header4 p-color-cement"> And all of these people reconnect to their Indian cultural roots by doing online shopping from India. You can do that with ShoppRe
+                    and its amazing set of package forwarding and courier services that delivers anywhere in the world within 3-6 days. We have the cheapest shipping charges from India
+                    and offer reliable, fast and good care for your package like our own.
                 </p>
                 <br>
-                <h4 class="f-s-20 f-c-gray f-w-9"><i>Get special discount of ₹200/- Off on your first international shipment to Hawaii, use code: FRST50</i></h4>
+                <h4 class="f-s-20 f-c-gray f-w-9"><i>Get special discount of ₹200/- Off on your first international shipment to Detroit, use code: FRST50</i></h4>
                 <br>
                 <br>
-
-
                 <div class="col-md-6 col-md-offset-3  col-sm-12 col-xs-12 no-pad">
                     <div class="col-md-12 col-sm-12 col-xs-12  no-pad">
                         <div class="calculator cal_block" style="padding: 04px 04px 04px !important; ">
@@ -85,11 +80,11 @@
                             <form class="calc-form ng-pristine ng-valid ng-submitted" id="shipping" novalidate="novalidate">
                                 <input type="hidden" name="_token" value="txUccFXVS9erPpnHxSRGRYb89WomjhaEnx3m5HuQ">
                                 <div class="form-group">
-                                    <label class="col-sm-12">Check your shipping cost from India to Hawaii</label>
+                                    <label class="col-sm-12">Check your shipping cost from India to Detroit</label>
                                     <div class="col-sm-12">
                                         <select class="form-control select2 valid" name="country" aria-required="true">
                                             <option value="226">
-                                                Hawaii, USA
+                                                Detroit, USA
                                             </option>
                                         </select>
                                     </div>
@@ -120,7 +115,6 @@
                                     <div class="clearfix"></div>
                                 </div>
 
-
                                 <div class="clearfix"></div>
                                 <div class="col-sm-12 ">
                                     <button id="getRates" class="btn btn-block btn-shoppre">
@@ -146,7 +140,6 @@
                                         {{--</td>--}}
                                     {{--</tr>--}}
                                 </div>
-
                             </div>
                             <div id="calc_load" style="display: none;"></div>
                         </div>
@@ -167,34 +160,29 @@
             <center>
                 <h1 class="p-color-cement-dark f-w-9 font-22">Some other questions that you might have</h1>
             </center>
-            <h2 class="p-color-cement-dark f-w-9 font-18">1. Can you ship books from India to Hawaii?</h2>
-            <p class="p-color-cement f-w-9 font-9">Just sign up to Shoppre and schedule a pickup, while our experts pick up the package you pay
-                for the low-cost shipping, and with the help of renowned courier services like DHL and DTDC you get your package within 3-6 days safe and secure.
+            <h2 class="p-color-cement-dark f-w-9 font-18">1. Can you courier medicines from India to Detroit?</h2>
+            <p class="p-color-cement f-w-9 font-9">Yes, we courier medicine, ayurvedic medicines and herbs from India to Detroit starting at just ₹1449/-.
+                For shipping medicines from India to Detroit , you will just need the doctor’s prescription and the commercial bill and we will arrange a pick up at your doorstep for your package.
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">2. How to send rakhi from India to Hawaii in 4-5 days?</h2>
-            <p class="p-color-cement f-w-9 font-9">Just sign up to Shoppre and schedule a pick up at your domestic address, while our experts pick up the package containing Rakhi,
-                you pay for up to 80% low-cost shipping, then you get your package delivered to Hawaii within 3-6 days.
+            <h2 class="p-color-cement-dark f-w-9 font-18">2. Can you ship snacks from India to Detroit?</h2>
+            <p class="p-color-cement f-w-9 font-9">Yes, we do have a food courier service from India to Detroit. But you cannot send certain
+                items like Perishable Foods, Ghee, rice, etc that fall under the prohibited item's category.
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">3. How to send courier from India to Hawaii?</h2>
-            <p class="p-color-cement f-w-9 font-9">Sign up to Shoppre and schedule a pickup for your package, while our experts pick up the package, you pay for the low-cost shipping,
-                and with the help of renowned courier services like DHL and DTDC you get your package within 3-6 days safe and secure.
+            <h2 class="p-color-cement-dark f-w-9 font-18">3. Can you ship wedding sarees from India to Detroit?</h2>
+            <p class="p-color-cement f-w-9 font-9">Yes, you can ship sarees from India to Detroit with our safe and secure shipping service partners DHL and DTDC.
+                And you can even do online shopping for wedding sarees and get them shipped to Detroit with our package forwarding service from India.
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">4. How to buy things from India and ship to Hawaii?</h2>
-            <p class="p-color-cement f-w-9 font-9">You can do online shopping in India from any Indian shopping website through Shoppre. Sign up and use the virtual shipping address at
-                the time of check out, and when your package reaches us, you pay low-cost shipping and we ship it to Hawaii, and you get your order within 3-6 days.
+            <h2 class="p-color-cement-dark f-w-9 font-18">4. How to send rakhi to Detroit from India online?</h2>
+            <p class="p-color-cement f-w-9 font-9">Just sign up to Shoppre and schedule a pickup, while our experts pick up the package containing rakhi you pay for the low-cost shipping,
+                and with the help of renowned courier services like DHL and DTDC you get your package delivered safely within 3-6 days at your doorstep.
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">5. How long does shipping from India to Hawaii take?</h2>
-            <p class="p-color-cement f-w-9 font-9">Once your package is consolidated, packed and all set at our warehouse, and we receive your
-                request to ship it, then it just takes 3-6 working days to ship your package to Hawaii or ANYWHERE in the world.
-            </p>
-            <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">6. What are the courier charges from India to Hawaii?</h2>
-            <p class="p-color-cement f-w-9 font-9">We have the cheapest way of shipping by offering up to 80% less shipping cost and the international courier to Hawaii, USA starts at just ₹1449/-.
-                You can use our shipping cost calculator to know courier charges from India to USA per kg.
+            <h2 class="p-color-cement-dark f-w-9 font-18">5. Can you ship books from India to Detroit?</h2>
+            <p class="p-color-cement f-w-9 font-9">Yes, you can ship books from India to Detroit or any part of the world through Shoppre. Your parcel will be taken care of.
+                We make shipping books from India to Detroit completely hassle-free.
             </p>
             <br>
             <div>

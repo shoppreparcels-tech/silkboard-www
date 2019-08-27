@@ -95,12 +95,12 @@ class RegisterController extends Controller
                 $misc->points = $loyalPoints;
                 $misc->save();
 
-                Mail::to($referFriend->email)->send(new ReferEarned('Congratulations! You have 
-		        earned 200 Shoppre Loyalty Points simply because your friend signed up with the referral 
+                Mail::to($referFriend->email)->send(new ReferEarned('Congratulations! You have
+		        earned 200 Shoppre Loyalty Points simply because your friend signed up with the referral
 		        code that you sent!'));
 
-                Mail::to($request->email)->send(new ReferEarned('Congratulations! You have earned 
-		        200 Shoppre Loyalty Points simply because you signed up with the referral code that your 
+                Mail::to($request->email)->send(new ReferEarned('Congratulations! You have earned
+		        200 Shoppre Loyalty Points simply because you signed up with the referral code that your
 		        friend sent!'));
 
             } else {
@@ -377,6 +377,7 @@ class RegisterController extends Controller
         $url = 'https://mailtrain.shoppre.com/api/subscribe/-TG3P-amN?access_token=9f19384da11de72805b86b4640bb64da9efdaff0';
         return $this->curl($url, $data);
     }
+
     public function curl($url, $data)
     {
         $data_string = json_encode($data);

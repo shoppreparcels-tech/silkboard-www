@@ -41,7 +41,6 @@ class SocialAuthController extends Controller
 {
     public function redirectGoogle(Request $req)
     {
-
         $login_as = $req->loginAs;
         $membership_type = $req->session()->get('membership_type');
         $req->session()->put(['continue' => $req->continue]);
@@ -95,7 +94,7 @@ class SocialAuthController extends Controller
                                         $balance->save();
 
                                         $customer_id = $customer->id;
-
+                                        $this->informMailtrain($customer);
                                         $this->signUp($customer);
                                         Authorization::authorizeUser($customer->email);
                                         Mail::to($customer->email)->bcc(['social.shoppre@gmail.com','vismaya.rk@shoppre.com'])
@@ -191,6 +190,16 @@ class SocialAuthController extends Controller
         }
     }
 
+    public function informMailtrain($customer)
+    {
+        $data = array(
+        "EMAIL" => $customer->email,
+        "FIRST_NAME" => $customer->name,
+        "REQUIRE_CONFIRMATION" => "no"
+        );
+        $url = 'https://mailtrain.shoppre.com/api/subscribe/-TG3P-amN?access_token=9f19384da11de72805b86b4640bb64da9efdaff0';
+        return $this->curl($url, $data);
+    }
 
     public function signUp($customer)
     {
@@ -384,6 +393,7 @@ class SocialAuthController extends Controller
 			    $customer_id = $customer->id;
                 $this->signUp($customer);
                 Authorization::authorizeUser($customer->email);
+                 $this->informMailtrain($customer);
                 Mail::to($customer->email)->bcc(['social.shoppre@gmail.com','vismaya.rk@shoppre.com'])
                     ->send(new SignUpWelcomeMail($customer));
 	        }else{

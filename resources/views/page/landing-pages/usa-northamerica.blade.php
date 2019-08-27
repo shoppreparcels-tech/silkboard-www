@@ -1,12 +1,12 @@
 @extends('layout')
 
-@section('title', 'Learn How to Ship from India to Hawaii, USA | ShoppRe.com')
-@section('description', 'A list of latest queries how to do international shipping from India to Hawaii. Online support. Door delivery. Calculate quick & easy online your shipping costs.')
-@section('keywords', 'shipping from india to hawaii, honolulu, north america, pacific united states, package courier ')
+@section('title', 'Cheap Parcel Delivery & International Courier Services to North America | ShoppRe')
+@section('description', 'Cheapest shipping from India to North America. Door-to-door shipping rates for sending packages, clothes, books, suitcases, and more.')
+@section('keywords', 'shipping from india to north america, continent, new york, los angeles, las veges ')
 
 @section('css_style')
 
-    <link rel="canonical" href="https://www.shoppre.com/shipping-from-india-to-usa/hawaii" />
+    <link rel="canonical" href="https://www.shoppre.com/shipping-from-india-to-usa/north-america" />
 
     <style>
         .first-time-shipment{background-color:#11273b;height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;padding-top:60px}
@@ -27,13 +27,13 @@
                </center>
                <center>
                    <h18 class="f-s-50 f-c-white  f-w-9">₹200 Discount</h18>
-                   <p class="f-s-30 f-c-white f-w-9 ">on your First Shipment to HAWAII from India </p>
+                   <p class="f-s-30 f-c-white f-w-9 ">on your First Shipment to NORTH AMERICA from India </p>
                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-s-t-coupon.png" alt="frst50 shoppre" > <br><br>
                    <a href="{{route('customer.register')}}" target="_blank" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE </a>
                    <br>
                    <br>
                    <br>
-                   <p class="f-s-12 f-c-l-gray f-w-8">Shipping services to Hawaii from India</p>
+                   <p class="f-s-12 f-c-l-gray f-w-8">Shipping services to North America from India</p>
 
                </center>
            </div>
@@ -44,10 +44,10 @@
         <div class="container fst-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">The most reliable and fast shipping from India to Hawaii</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">The most reliable and fast shipping from India to North America</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12 text-center">
-                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20Looking%20for%20Shipping%20Service%20to%20Hawaii,%20USA%20from%20India" target="_blank" title="Click to WhatsApp">
+                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20Looking%20for%20Shipping%20Service%20to%20North-America,%20USA%20from%20India" target="_blank" title="Click to WhatsApp">
                         <img src="/img/images/christmas-contact.png" alt="shoppre contact number 8277919191">
                     </a>
                 </div>
@@ -55,22 +55,23 @@
 
             <div class=" col-md-12 no-pad"><br>
                 <center>
-                <h2 class="p-color-cement-dark f-w-9 font-30">Low Cost Shipping from India to Hawaii, USA</h2>
+                <h2 class="p-color-cement-dark f-w-9 font-30">Low Cost Shipping from India to North America</h2>
                 </center>
-                <h4 class="f-s-20 f-c-gray f-w-9">Choose ShoppRe for international shipping from India to Hawaii as we offer the cheapest
+                <br>
+                <h4 class="f-s-20 f-c-gray f-w-9">Choose ShoppRe for international shipping from India to North America as we offer the cheapest
                     and the best way to send your courier from India to USA with our trusted courier partners.
                 </h4>
                 <br>
-                <p class="header4 p-color-cement">There is a vibrant circle of Indian expats in Hawaii, coming from New Delhi, Chennai, Mumbai and all regions
-                    of India to enjoy great weather, sandy beaches, and natural beauty. Many Indians are now calling it home, but still, there are very few local
-                    markets that sell Indian groceries and other items.
+                <p class="header4 p-color-cement">North America is making great strides as a welcoming destination in industries like healthcare,
+                    manufacturing, or financial services and it has attracted many Indians. Companies like Amazon and Uber have been hiring lots of software engineers,
+                    and programmers.  Its flexible immigration policies, cultural diversity, democratic values, career opportunities lure thousands of Indians to stay here.
                 </p><br>
-                <p class="header4 p-color-cement">So people usually steer towards online shopping from India. You can also do that with the help of ShoppRe that offers the best,
-                    reliable, fast and cheap shipping services from India. Now order anything you like or courier at the cheapest shipping charges from India and get your
-                    package delivered within 3-6 days at your doorstep anywhere in the world.
+                <p class="header4 p-color-cement">And thus many do online shopping from India for special occasions or daily essentials.
+                    ShoppRe offers all of them the cheapest shipping charges from India at package forwarding and shipping services. We have a robust,
+                    reliable and fast set of services that takes of the package like our own.
                 </p>
                 <br>
-                <h4 class="f-s-20 f-c-gray f-w-9"><i>Get special discount of ₹200/- Off on your first international shipment to Hawaii, use code: FRST50</i></h4>
+                <h4 class="f-s-20 f-c-gray f-w-9"><i>Get special discount of ₹200/- Off on your first international shipment to North America, use code: FRST50</i></h4>
                 <br>
                 <br>
 
@@ -85,11 +86,11 @@
                             <form class="calc-form ng-pristine ng-valid ng-submitted" id="shipping" novalidate="novalidate">
                                 <input type="hidden" name="_token" value="txUccFXVS9erPpnHxSRGRYb89WomjhaEnx3m5HuQ">
                                 <div class="form-group">
-                                    <label class="col-sm-12">Check your shipping cost from India to Hawaii</label>
+                                    <label class="col-sm-12">Check your shipping cost from India to North America</label>
                                     <div class="col-sm-12">
                                         <select class="form-control select2 valid" name="country" aria-required="true">
                                             <option value="226">
-                                                Hawaii, USA
+                                                North America
                                             </option>
                                         </select>
                                     </div>
@@ -167,34 +168,29 @@
             <center>
                 <h1 class="p-color-cement-dark f-w-9 font-22">Some other questions that you might have</h1>
             </center>
-            <h2 class="p-color-cement-dark f-w-9 font-18">1. Can you ship books from India to Hawaii?</h2>
-            <p class="p-color-cement f-w-9 font-9">Just sign up to Shoppre and schedule a pickup, while our experts pick up the package you pay
-                for the low-cost shipping, and with the help of renowned courier services like DHL and DTDC you get your package within 3-6 days safe and secure.
+            <h2 class="p-color-cement-dark f-w-9 font-18">1. Can you courier medicines from India to North America?</h2>
+            <p class="p-color-cement f-w-9 font-9">Yes, we courier medicine, ayurvedic medicines and herbs from India to North America starting at just ₹1449/-. For shipping medicines from India to North America,
+                you will just need the doctor’s prescription and the commercial bill and we will arrange a pick up at your doorstep for your package
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">2. How to send rakhi from India to Hawaii in 4-5 days?</h2>
-            <p class="p-color-cement f-w-9 font-9">Just sign up to Shoppre and schedule a pick up at your domestic address, while our experts pick up the package containing Rakhi,
-                you pay for up to 80% low-cost shipping, then you get your package delivered to Hawaii within 3-6 days.
+            <h2 class="p-color-cement-dark f-w-9 font-18">2. Can you ship snacks from India to North America?</h2>
+            <p class="p-color-cement f-w-9 font-9">Yes, we do have a food courier service from India to North America. But you cannot send certain items
+                like Perishable Foods, Ghee, rice, etc that fall under the prohibited item's category.
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">3. How to send courier from India to Hawaii?</h2>
-            <p class="p-color-cement f-w-9 font-9">Sign up to Shoppre and schedule a pickup for your package, while our experts pick up the package, you pay for the low-cost shipping,
-                and with the help of renowned courier services like DHL and DTDC you get your package within 3-6 days safe and secure.
+            <h2 class="p-color-cement-dark f-w-9 font-18">3. Can you ship wedding sarees from India to North America?</h2>
+            <p class="p-color-cement f-w-9 font-9">Yes, you can ship sarees from India to North America with our safe and secure shipping service partners DHL and DTDC.
+                And you can even do online shopping for wedding sarees and get them shipped to North America with our package forwarding service from India.
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">4. How to buy things from India and ship to Hawaii?</h2>
-            <p class="p-color-cement f-w-9 font-9">You can do online shopping in India from any Indian shopping website through Shoppre. Sign up and use the virtual shipping address at
-                the time of check out, and when your package reaches us, you pay low-cost shipping and we ship it to Hawaii, and you get your order within 3-6 days.
+            <h2 class="p-color-cement-dark f-w-9 font-18">4. How to send rakhi to North America from India online?</h2>
+            <p class="p-color-cement f-w-9 font-9">Just sign up to Shoppre and schedule a pickup, while our experts pick up the package containing rakhi you pay for the low-cost shipping,
+                and with the help of renowned courier services like DHL and DTDC you get your package delivered safely within 3-6 days at your doorstep.
             </p>
             <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">5. How long does shipping from India to Hawaii take?</h2>
-            <p class="p-color-cement f-w-9 font-9">Once your package is consolidated, packed and all set at our warehouse, and we receive your
-                request to ship it, then it just takes 3-6 working days to ship your package to Hawaii or ANYWHERE in the world.
-            </p>
-            <br>
-            <h2 class="p-color-cement-dark f-w-9 font-18">6. What are the courier charges from India to Hawaii?</h2>
-            <p class="p-color-cement f-w-9 font-9">We have the cheapest way of shipping by offering up to 80% less shipping cost and the international courier to Hawaii, USA starts at just ₹1449/-.
-                You can use our shipping cost calculator to know courier charges from India to USA per kg.
+            <h2 class="p-color-cement-dark f-w-9 font-18">5. Can you ship books from India to North America?</h2>
+            <p class="p-color-cement f-w-9 font-9">Yes, you can ship books from India to North America or any part of the world through ShoppRe. Your parcel will be taken care of.
+                We make shipping books from India to North America completely hassle-free.
             </p>
             <br>
             <div>
@@ -208,20 +204,20 @@
     <br>
     <br>
     <section>
-        <div class="container fst-service" style="margin-top: 1px">
+        <div class="container fst-service" style="margin-top: 1px; background: seashell;">
             <div class="row">
-                <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Best Online Shopping Sites from India to USA</h2>
+                <div class="col-md-12 col-xs-12">
+                    <center><h2 class="header2 p-color-cement-dark font-weight-900 txt-align">International Shipping from India</h2></center>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="/myntra-international-shipping-to-usa" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="/shipping-from-india-to-usa/alaska" target="_blank"> <span class="elementor-icon-list-icon">
                                 <i class="fa fa-plane" aria-hidden="true"></i>
                                 </span>
-                                <span class="elementor-icon-list-text txt-u-l">Myntra Shopping from USA</span>
+                                <span class="elementor-icon-list-text txt-u-l">Alaska</span>
                             </a>
                         </div>
                     </div>
@@ -229,10 +225,10 @@
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="/flipkart-usa-shopping" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="/shipping-from-india-to-usa/chicago" target="_blank"> <span class="elementor-icon-list-icon">
                                 <i class="fa fa-plane" aria-hidden="true"></i>
                                 </span>
-                                <span class="elementor-icon-list-text txt-u-l">Flipkart Shopping from USA</span>
+                                <span class="elementor-icon-list-text txt-u-l">Chicago</span>
                             </a>
                         </div>
                     </div>
@@ -240,10 +236,10 @@
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="/shop-from-amazon-india-and-ship-to-usa" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="/shipping-from-india-to-usa/los-angeles" target="_blank"> <span class="elementor-icon-list-icon">
                                 <i class="fa fa-plane" aria-hidden="true"></i>
                                 </span>
-                                <span class="elementor-icon-list-text txt-u-l">Amazon.in Shopping from USA</span>
+                                <span class="elementor-icon-list-text txt-u-l">Los Angeles</span>
                             </a>
                         </div>
                     </div>
@@ -251,10 +247,10 @@
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="/jabong-usa-shipping-from-india" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="/shipping-from-india-to-usa/michigan" target="_blank"> <span class="elementor-icon-list-icon">
                                    <i class="fa fa-plane" aria-hidden="true"></i>
                                    </span>
-                                <span class="elementor-icon-list-text txt-u-l">Jabong Shopping from USA</span>
+                                <span class="elementor-icon-list-text txt-u-l">Michigan</span>
                             </a>
                         </div>
                     </div>
@@ -262,10 +258,10 @@
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="/trends-ajio-usa-shipping-from-india" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="/shipping-from-india-to-usa/new-jersey" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">AJIO Shopping from USA</span>
+                                <span class="elementor-icon-list-text txt-u-l">New Jersey</span>
                             </a>
                         </div>
                     </div>
@@ -273,10 +269,10 @@
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="/jaypore-shopping-usa" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="/shipping-from-india-to-usa/new-york" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">Jaypore Shopping from USA</span>
+                                <span class="elementor-icon-list-text txt-u-l">New York</span>
                             </a>
                         </div>
                     </div>
@@ -284,10 +280,10 @@
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="/limeroad-shopping-international-shipping" target="_blank"> <span class="elementor-icon-list-icon">
-                               <i class="fa fa-plane" aria-hidden="true"></i>
-                               </span>
-                                <span class="elementor-icon-list-text txt-u-l">Limeroad Shopping from India</span>
+                            <a href="/shipping-from-india-to-usa/florida" target="_blank"> <span class="elementor-icon-list-icon">
+                                   <i class="fa fa-plane" aria-hidden="true"></i>
+                                   </span>
+                                <span class="elementor-icon-list-text txt-u-l">Florida</span>
                             </a>
                         </div>
                     </div>
@@ -295,10 +291,10 @@
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/online-stores-india/nykaa-india-beauty-products-international-shipping/" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="/shipping-from-india-to-usa/texas" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">Nykaa Beauty Shopping</span>
+                                <span class="elementor-icon-list-text txt-u-l">Texas</span>
                             </a>
                         </div>
                     </div>
@@ -306,32 +302,135 @@
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/online-stores-india/biba-india-international-shipping/" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="/shipping-from-india-to-usa/california" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">BIBA.in Shopping from India</span>
+                                <span class="elementor-icon-list-text txt-u-l">California</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="/shipping-from-india-to-usa/delaware" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Delaware</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="/shipping-from-india-to-usa/washington" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Washington</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="/shipping-from-india-to-usa/san-francisco" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">San Francisco</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="/shipping-from-india-to-usa/illinois" target="_blank"> <span class="elementor-icon-list-icon">
+                                   <i class="fa fa-plane" aria-hidden="true"></i>
+                                   </span>
+                                <span class="elementor-icon-list-text txt-u-l">Illinois</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="/shipping-from-india-to-usa/alabama" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Alabama</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="/shipping-from-india-to-usa/georgia" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Georgia</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="/shipping-from-india-to-usa/arizona" target="_blank"> <span class="elementor-icon-list-icon">
+                                   <i class="fa fa-plane" aria-hidden="true"></i>
+                                   </span>
+                                <span class="elementor-icon-list-text txt-u-l">Arizona</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="/shipping-from-india-to-usa/connecticut" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Connecticut</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 col-md-4">
+                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                        <div class="col-md-12 col-xs-12 no-pad">
+                            <a href="/shipping-from-india-to-usa/edison" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                                <span class="elementor-icon-list-text txt-u-l">Edison, Middlesex</span>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
             <br>
-            <div class="mar-t-25">
-                <div class="txt-center">
-                    <button type="button" class="btn btn-warning bord-rad-5 margin-r-10">
-                        <a href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
-                            <p class="btn-md">Indian Online Shopping Stores</p>
-                        </a>
-                    </button>
-                    <button type="button" class="btn btn-success bord-rad-5 margin-r-10">
-                        <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20from%20India%20and%20Ship%20Worldwide?" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
-                            <p class="btn-md">Message Us On WhatsApp</p>
-                        </a>
-                    </button>
-                </div>
-            </div>
+
         </div>
         <br>
+        </div>
+        <br>
+        <div class="mar-t-25">
+            <div class="txt-center">
+                <button type="button" class="btn btn-warning bord-rad-5 margin-r-10">
+                    <a href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator" title="india shopping sites" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
+                        <p class="btn-md">Shipping Cost Calculator</p>
+                    </a>
+                </button>
+                <button type="button" class="btn btn-success bord-rad-5 margin-r-10">
+                    <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20from%20India%20and%20Ship%20Worldwide?" title="Message Me on WhatsApp" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
+                        <p class="btn-md">Message Us On WhatsApp</p>
+                    </a>
+                </button>
+            </div>
+        </div>
+        </div>
         <br>
     </section>
     <br>

@@ -320,6 +320,36 @@
     }(jQuery));
 
     $(document).ready(function () {
+
+    $("#subscribe_mail_train").validate({
+                rules:
+                    {
+                        email: {required: true}
+                    },
+                messages:
+                    {
+                        // email: {required: 'Please enter your email id'}
+                    },
+                submitHandler: function (form) {
+                debugger;
+                    var email = $("input[name='mailtrain_email']").val();
+                    var mailtrain_type = 'footer';
+                    jQuery.ajax({
+                        url: '/mailtrain/subscribe',
+                        type: "POST",
+                        data: {
+                            email: email,
+                            mailtrain_type: mailtrain_type,
+                        },
+                        success: function (data) {
+                            $('#myModal').modal('show');
+                            $('.txt-subscription').val('');
+                        }
+                    })
+                }
+            });
+
+
         $("#btnClosePopup").click(function () {
             localStorage.popupClose = "close";
             $('#myModal').modal('hide');
@@ -461,33 +491,6 @@
         function rotate() {
             $('#next').click();
         }
-
-        $("#subscribe").validate({
-            rules:
-                {
-                    email: {required: true}
-                },
-            messages:
-                {
-                    // email: {required: 'Please enter your email id'}
-                },
-            submitHandler: function (form) {
-                var email = $("input[name='mailtrain_email']").val();
-                var mailtrain_type = 'footer';
-                jQuery.ajax({
-                    url: '/mailtrain/subscribe',
-                    type: "POST",
-                    data: {
-                        email: email,
-                        mailtrain_type: mailtrain_type,
-                    },
-                    success: function (data) {
-                        $('#myModal').modal('show');
-                        $('.txt-subscription').val('');
-                    }
-                })
-            }
-        });
 
         var submitIcon = $('.searchbox-icon');
         var inputBox = $('.searchbox-input');
