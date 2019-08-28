@@ -124,11 +124,36 @@
                 </p>
                 <br>
 
-                <p class="f-s-20 f-c-d-greay f-w-9">
-{{--                    Here is the list of items that ShoppRe handpicked for you, especially for this Onam. Have a look at it.--}}
-                   Coming Soon:  We would also love to update a few items for your reference at the earliest.
+                <h4>Here is the list of items that ShoppRe handpicked for you, especially for this Onam. Have a look at it.</h4>
+                <div class="offerDesc">
+                    <ul>
+                        <li>Pattu Pavadai</li>
+                        <li>Kerala Kasavu Sarees</li>
+                        <li>Balaramapuram Saree</li>
+                        <li>Black Kara Double Mundu</li>
+                        <li>Golden Double Dothi</li>
+                        <li>Onam Dress For Boys</li>
+                        <li>Banana Chips</li>
+                        <li>Copper Pooja Utensils</li>
+                        <li>Instant Payasam Mix</li>
+                        <li>Paper Banana leaves</li>
+                        <li>Onam Flux</li>
+                        <li>Branded pickles</li>
+                        <li>Mahabali costumes</li>
+                        <li>Sarkara Varatti</li>
+                        <li>Instant Sambar Mix</li>
+                        <li>Kathakali masks</li>
+                        <li>Snake boat replica</li>
+                        <li>Hanging Kerala Lamps</li>
+                        <li>Rasam Powder</li>
+                        <li>Handmade Kerala Handbags</li>
+                        <li>Jack Fruit chips</li>
+                        <li>Aranmula Valkannad</li>
+                        <li>Nettipattam & more.</li>
+                    </ul>
 
-                </p>
+                </div>
+
                 <br>
                 <p class="f-s-20 f-c-d-greay f-w-9">
                     {{--                    Here is the list of items that ShoppRe handpicked for you, especially for this Onam. Have a look at it.--}}
@@ -175,9 +200,7 @@
 {{--                    </table>--}}
 {{--                </div>--}}
 
-                <br><br>
-
-
+                <br>
 
 {{--                <br>--}}
 {{--                <h1 class="f-s-18 f-c-d-greay f-w-7">This Offer is applicable for all the ShoppRe Services</h1>--}}
@@ -201,13 +224,80 @@
                         <li>The offer can only be used to pay off your shipping costs.</li>
                         <li>Clearance charges are applicable for shipping Special Items</li>
                     </ul>
-
                 </div>
 
             </div>
         </div>
         <br>
-        <br>
+    </section>
+
+    <section class="chris-benefits">
+        <div class="container" >
+            <center>
+                <h1 class="header3 p-color-cement-dark font-weight-900" >The best Indian Festival deals and offers</h1>
+            </center>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big billion Days"><span><a
+                                        href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Big Billion Days Sale 2019</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Shopping Days"><span><a
+                                        href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Freedom Sale"><span><a
+                                        href="/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Flipstart Days"><span><a
+                                        href="https://ship.shoppre.com/online-shopping-flipkart-flipstart-days-2019-offers-fashion-beauty-headphones-laptops-power-banks-mobile-cases/" target="_blank">Flipkart Flipstart Days</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="National Shopping Days"><span><a
+                                        href="/flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" target="_blank">National Shopping Days</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Right To Fashion"><span> <a
+                                        href="/myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" target="_blank">Myntra Right To Fashion Sale</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
+                                        href="/kerala-onam-online-shopping-guide-from-india">Onam online shopping</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="puja"><span><a
+                                        href="https://ship.shoppre.com/get-6-essential-puja-articles-for-ganesh-puja-from-india/">Buy Puja Items Online</a></span>
+                            </li><li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="kasavu"><span><a
+                                        href="https://ship.shoppre.com/onam-traditional-festive-wear-pure-kerala-kasavu-saree-dress-in-india/">Shop Kerala Kasavu Saree </a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Yoga Organic Clothing"><span><a
+                                        href="https://ship.shoppre.com/products-on-sale-pure-organic-yoga-clothing-and-products-made-in-india/" target="_blank">Yoga Organic Clothing Sale</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="craftsvilla"><span><a
+                                        href="https://ship.shoppre.com/8-gorgeously-elegant-sarees-for-every-occasion-to-flaunt-your-curves-craftsvilla-handpicked-for-you/" target="_blank">Sarees Online Shopping</a> </span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="kurta"><span><a
+                                        href="https://ship.shoppre.com/ahalyaa-kurtas-latest-fashionable-stylish-designer-online-from-myntra/" target="_blank">Women Ahalyaa Kurtas</a></span></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
+                                        href="/onam-community-shipping-offer">Onam Community Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="diwali"><span><a
+                                        href="/diwali-offer">Diwali Offer</a></span></li>
+                            {{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="new year"><span><a--}}
+                            {{--                                        href="/new-year-offer">New Year Offer</a></span></li>--}}
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="shop ship"><span><a
+                                        href="/shop-ship">Shop & Ship Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="student"><span><a
+                                        href="/university-offer">Student Special Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="easter"><span><a
+                                        href="/easter-shopping-from-india-with-international-shipping">Easter Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="new year"><span><a
+                                        href="/new-year-offer" target="_blank">New Year Offer</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <br/><br/>
+            </div>
+        </div>
+        <br> <br>
     </section>
 
 @endsection

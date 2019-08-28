@@ -2,7 +2,7 @@
 
 @section('title', 'AJIO Online Shopping and International Shipping from India | ShoppRe.com')
 @section('description', 'Shop online from Ajio and Ship Internationally with ShoppRe Upto 220+ countries. The fast & cheapest way to ship your package from India. Sign Up Free.')
-@section('keywords', 'ajio international Shipping, ship india')
+@section('keywords', 'ajio international Shipping, ship india, ajio trends online shopping, ajio india, kurta, digital reliance')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/ajio-online-shopping-international-shipping" />
@@ -41,7 +41,7 @@
                 </div>
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://www.ajio.com/" title="AJIO" target="_blank">EVERYTHING ON SALE (Min. 50% Off) | Shop Ajio & Ship Worldwide with ShoppRe.</a>
+                        <a href="https://www.ajio.com/" title="AJIO" target="_blank">EVERYTHING ON SALE (40% - 90% Off) | Shop AJIO & Ship Worldwide with ShoppRe.</a>
                     </marquee>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                     <div class="col-md-12 col-xs-12">
                         <center>
                             <a href="https://www.ajio.com/" title="Shop AJIO & Ship Worldwide through ShoppRe" target="_blank">
-                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/ajio-online-shopping.png" alt="ajio.com">
+                                <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/ajio-online-shopping.png" alt="ajio.com"> </a>
                         </center>
                     </div>
                 </div>
@@ -69,12 +69,11 @@
                 <p class="header4 p-color-cement">Since Ajio doesn't offer international shipping & if you are a global shopper residing out of India; you'd need a reliable courier to ship it to
                 you while taking care of everything since the moment you place the order with the store, or even before.</p> <br>
 
-                <p class="header4 p-color-cement">If you need help with the shopping itself, or paying for your purchases;
-                    <a href="/personal-shopper-online-shopping-from-india-shipping">ShoppRe Personal Shopper</a> will jump in
-                to help you out of the situation. All you have to do is, sit back and relax! Your shipment will be at your door in 3-6 business days no matter wherever in the world you are.</p><br>
-
+                <p class="header4 p-color-cement">If you need help with the shopping itself, or paying for your purchases; <a href="/personal-shopper-online-shopping-from-india-shipping">
+                        ShoppRe Personal Shopper</a> will jump in to help you out of the situation. All you have to do is, sit back and relax!
+                    Your shipment will be at your door in 3-6 business days no matter wherever in the world you are.</p><br>
                 <div class="offerDesc">
-                    <h2 class="header2 p-color-cement font-weight-900">How do we ease up your Ajio - online shopping?</h2>
+                    <h2 class="header2 p-color-cement font-weight-900">How do we ease up your AJIO - online shopping?</h2>
                     <p class="header4 p-color-cement">Our streamlined set of Repackaging & Consolidation services, helps you cut the shipping costs down to 80% lower!
                         And, we make our solutions tailor-made, assisting you with all your needs on <a href="{{route('ifs.index')}}">online shopping from India & shipping it worldwide</a>.  </p>
                     <br>
@@ -82,7 +81,7 @@
                     <p class="header4 p-color-cement">All you have to do is; </p> <br>
 
                     <ul>
-                        <li>Ship your Myntra purchases to the Virtual Address we provide for FREE,</li>
+                        <li>Ship your AJIO purchases to the Virtual Address we provide for FREE,</li>
                         <li>Use our FREE unique personal locker to store them, and finally -</li>
                         <li>Pay the never-before-like shipping cost we charge and,</li>
                         <li>Your shipment will be on it's way to reach you in 3-6 days!</li>
@@ -94,7 +93,7 @@
                     <h4 class="p-color-cement-dark flipkart-h1">Payment Hassles with International Credit/Debit Cards?</h4>
                     <h5 class="header5 p-color-cement">Our Personal Shopper with top-of-the-line shopping concierge services will take
                         care of everything and help you along the way of your Indian shopping experience. </h5> <br>
-                    <a href="https://www.ajio.com/?src=shoppre.com" class="btn-chris-place-order">Go Shopping Now!</a>
+                    <a href="https://www.ajio.com/?src=shoppre.com" class="btn-chris-place-order" target="_blank">Go Shopping Now!</a>
                 </center>
             </div>
             <br>
@@ -119,7 +118,6 @@
                         <h2>International Courier</h2>
                         <br>
                         <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
-
                     </div>
                 </div>
             </div>
@@ -180,7 +178,6 @@
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Buying from AJIO.com from a different country?</h1>
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Well, what's the wait? Sign Up with us now for a lifetime of effortless</h1>
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Online shopping & high-end international shipping services from India!</h1>
-
                 <br>
                 <a href="{{route('customer.register')}}" class="btn-chris-place-order">Sign Up for Free</a>
 
@@ -197,7 +194,7 @@
             </div>
             <br>
             <div class="row text-center">
-                <br/><br/>
+                <br/>
                 <div class="col-sm-3">
                     <div class="panel ps-img-rounded">
                         <center>
@@ -266,12 +263,88 @@
                     </div>
                 </div>
             </div>
-            <br/><br/>
+            <br/>
             <center>
-                <a href="https://www.shoppre.com/customer/login">Place Your AJIO Order Now!</a>
+                <a href="https://www.shoppre.com/customer/login" class="btn btn-s-b btn-b-g">Place Your AJIO Order Now!</a>
             </center>
             <br/><br/>
         </div>
+    </section>
+    <div class="chris-benefits">
+        <div class="container" >
+         <div class="row">
+            <h2 class="f-s-26 f-c-blue font-weight-900 text-center">AJIO Sale, Offers & Top Indian Festival Sale</h2>
+            <br>
+            <div class="col-sm-4 ">
+                <div class="panel">
+                    <ul><li><span class="f-s-22 f-c-d-Blacklack font-weight-900 text-center">AJIO Shopping Collections </span></li>
+                        <li><span><a
+                                    href="https://www.ajio.com/shop/women" target="_blank">Women Fashion Shopping</a></span></li>
+                        <li><span><a
+                                    href="https://www.ajio.com/shop/men" target="_blank">Online Men Fashion Shopping</a></span></li>
+                        <li><span><a
+                                    href="https://www.ajio.com/shop/kids" target="_blank">Online Kids Fashion Shopping</a></span></li>
+                        <li><span><a
+                                    href="https://www.ajio.com/shop/fresh-arrivals" target="_blank">Fresh Arrivals for Men & Women</a></span></li>
+                        <li><span> <a
+                                    href="https://trends.ajio.com/" target="_blank">AJIO Reliance Trends Shopping</a></span></li>
+                        <li><span> <a
+                                    href="https://www.ajio.com/shop/sale" target="_blank">AJIO Clearance Sale & Offers</a></span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel ">
+                    <ul><li><span class="f-s-22 f-c-d-Blacklack font-weight-900 text-center">Indian Festival Sale </span></li>
+                        <li><span> <a
+                                    href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Big Billion Days Sale 2019</a></span></li>
+                        <li><span> <a
+                                    href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></span></li>
+                        <li><span> <a
+                                    href="/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale</a></span></li>
+                        <li><span> <a
+                                    href="https://ship.shoppre.com/online-shopping-flipkart-flipstart-days-2019-offers-fashion-beauty-headphones-laptops-power-banks-mobile-cases/" target="_blank">Flipkart Flipstart Days</a></span></li>
+                        <li><span> <a
+                                    href="/flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" target="_blank">National Shopping Days</a></span></li>
+                        <li><span> <a
+                                    href="/myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" target="_blank">Myntra Right To Fashion Sale</a></span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel ">
+                    <ul><li><span class="f-s-22 f-c-d-Blacklack font-weight-900 text-center">Shop & Ship Indian Stores</span></li>
+                        <li><span> <a
+                                    href="/flipkart-shopping-with-shoppre-from-india" target="_blank">Flipkart Online Shipping</a></span></li>
+                        <li><span> <a
+                                    href="/amazon-india-shop-international-shipping" target="_blank">Amazon.in Online Shipping</a></span></li>
+                        <li><span> <a
+                                    href="/myntra-online-shopping-shipping-from-india" target="_blank">Myntra International Delivery</a></span></li>
+                        <li><span> <a
+                                    href="/jabong-usa-shipping-from-india" target="_blank">Jabong Online Shipping</a></span></li>
+                        <li><span> <a
+                                    href="https://ship.shoppre.com/online-stores-india/nykaa-india-beauty-products-international-shipping/" target="_blank">Nykaa Beauty Shipping </a></span></li>
+                        <li><span> <a
+                                    href="/jaypore-international-shipping-from-india" target="_blank">Shop Jaypore & Ship Worldwide</a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <br>
+        <div class="container">
+            <center>
+                <h3 class="header2 p-color-cement-dark font-weight-900">Want more information about ShoppRe services? Download Our brochure for FREE! </h3>
+                <a href="http://bit.ly/shoppre-brochure" target="_blank">
+                    <div class="btn header6 btn-get-assisted p-color-white no-margin">
+                        <center>
+                            Download Here
+                        </center>
+                    </div>
+                </a>
+            </center>
+        </div>
+        </div>
+    </div>
     </section>
 
     <section class="d-contact-details-section">

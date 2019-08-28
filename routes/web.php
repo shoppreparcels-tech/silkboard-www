@@ -702,6 +702,7 @@ Route::get('/international-courier-charges-india-to-belgium-per-kg', 'PageContro
 Route::get('/international-courier-charges-india-to-finland-per-kg', 'PageController@pricingFinland')->name('finlandPerKg');
 Route::get('/international-courier-charges-india-to-italy-per-kg', 'PageController@pricingItaly')->name('italyPerKg');
 Route::get('/international-courier-charges-india-to-saudi-arabia-per-kg', 'PageController@pricingSaudiarabia')->name('saudiarabiaPerKg');
+Route::get('/international-courier-charges-india-to-nigeria-per-kg', 'PageController@pricingNigeria')->name('nigeriaPerKg');
 
 
 /*-------- Schema Landing Pages ------*/
@@ -732,6 +733,11 @@ Route::get('/shipping-from-india-to-usa/austin', 'PageController@austinShipping'
 Route::get('/shipping-from-india-to-usa/connecticut', 'PageController@connecticutShipping')->name('usa-connecticut');
 Route::get('/shipping-from-india-to-usa/north-america', 'PageController@northamericaShipping')->name('usa-northamerica');
 Route::get('/shipping-from-india-to-usa/edison', 'PageController@edisonShipping')->name('usa-edison');
+Route::get('/shipping-from-india-to-usa/jersey-city', 'PageController@jerseycityShipping')->name('usa-jerseycity');
+Route::get('/shipping-from-india-to-usa/rockland-county', 'PageController@rocklandcountyShipping')->name('usa-rocklandcounty');
+Route::get('/shipping-from-india-to-usa/cupertino', 'PageController@cupertinoShipping')->name('usa-cupertino');
+Route::get('/shipping-from-india-to-usa/palo-alto', 'PageController@paloaltoShipping')->name('usa-paloalto');
+Route::get('/shipping-from-india-to-usa/caribbean', 'PageController@caribbeanShipping')->name('usa-caribbean');
 
 
 //Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');

@@ -648,6 +648,26 @@ class PageController extends Controller
     {
         return view('page.landing-pages.usa-edison');
     }
+    public function jerseycityShipping()
+    {
+        return view('page.landing-pages.usa-jerseycity');
+    }
+    public function rocklandcountyShipping()
+    {
+        return view('page.landing-pages.usa-rocklandcounty');
+    }
+    public function cupertinoShipping()
+    {
+        return view('page.landing-pages.usa-cupertino');
+    }
+    public function paloaltoShipping()
+    {
+        return view('page.landing-pages.usa-paloalto');
+    }
+    public function caribbeanShipping()
+    {
+        return view('page.landing-pages.usa-caribbean');
+    }
     public function ifsLandingPage()
     {
         return view('page.personal-shoper');
@@ -848,6 +868,10 @@ class PageController extends Controller
     public function pricingSaudiarabia()
     {
         return view('page.landing-pages.pricing-saudiarabia');
+    }
+    public function pricingNigeria()
+    {
+        return view('page.landing-pages.pricing-nigeria');
     }
     public function contactIndex()
     {
