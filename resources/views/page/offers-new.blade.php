@@ -201,10 +201,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Women fest</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up to 70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">fab phones fest</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up to 40% Off</h5>
                             <div class="ecomSmallBox" style="height: 94px;">
-                                <a href="https://www.amazon.in/b?node=7459780031&pf_rd_p=341d4532-a5e1-4270-b9ec-a883d1d4289e&pf_rd_r=WYDS7D117DWY888D1X3K" target="_blank">
+                                <a href="https://www.amazon.in/b?node=6294306031&pf_rd_p=e63411fc-9db5-4bac-a707-22dd9dbafc3b&pf_rd_r=BDTYB6JP18HACTJFRG7Q" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>
                                 </a>
                             </div>

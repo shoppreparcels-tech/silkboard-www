@@ -607,6 +607,16 @@
     <priority>0.80</priority>
 </url>
 <url>
+    <loc>https://www.shoppre.com/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/flipstart-days-avail-best-offers-on-flipkart-enjoy-special-discounts-for-the-first-three-days-of-every-month</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+</url>
+<url>
   <loc>https://www.shoppre.com/terms-and-conditions</loc>
   <changefreq>daily</changefreq>
   <priority>0.70</priority>
@@ -1463,21 +1473,6 @@
 </url>
 <url>
   <loc>https://www.shoppre.com/shipping-from-india-to-Zimbabwe</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.shoppre.com/story/friends-studying-uc-berkeley</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.shoppre.com/story/indian-sikh-store-toronto</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.shoppre.com/story/indian-family-maldives</loc>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>

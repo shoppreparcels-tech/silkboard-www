@@ -380,17 +380,17 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://www.amazon.in/b?node=7459780031&pf_rd_p=341d4532-a5e1-4270-b9ec-a883d1d4289e&pf_rd_r=7PA8B2HSDMX4A34VDP3P" title="Know More" target="_blank">
+                        <a href="https://www.amazon.in/b?node=6294306031&pf_rd_p=e63411fc-9db5-4bac-a707-22dd9dbafc3b&pf_rd_r=BDTYB6JP18HACTJFRG7Q" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">WONDER WOMEN FEST</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">FAB PHONES FEST</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">26th - 28th August</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Exciting Offers</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up To 70% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up To 40% Off</span></p>
                             <br><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Clothing, Footwear, Watches, Make-Up, Fashion Jewellery, Handbags & more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Special Open Sale Mi A3, Redmi 7, Redmmi Y3, Poco F1 & more.</p>
                         </div>
 
                     </div>

@@ -48,21 +48,21 @@
 @section('content')
     <section class="bg-ics-l-p">
         <div class="container">
-            <div class="col-md-12">
-                <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">
-                </a>
-                <a href="tel:+91-8277919191" class="d-contact-img pull-right">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">
-                </a>
-            </div>
+{{--            <div class="col-md-12">--}}
+{{--                <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">--}}
+{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">--}}
+{{--                </a>--}}
+{{--                <a href="tel:+91-8277919191" class="d-contact-img pull-right">--}}
+{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">--}}
+{{--                </a>--}}
+{{--            </div>--}}
 
             <div class="col-sm-7 col-xs-12 no-pad">
 
                 <div class="col-md-12 col-xs-12 no-pad">
                     <h1 class="p-color-white header-spacing d-header-text">International Parcel Forwarding: Shipping Packages from India
                         <br></h1>
-                    <h1 class="header1 p-color-white header-spacing">Starting @₹570/-</h1>
+                    <h1 class="header1 p-color-white header-spacing">Starting @₹566/-</h1>
 
                     <p class="p-color-white header5 d-header-text1">Want
                         to ship your packages abroad from India?<br>
@@ -242,8 +242,7 @@
             <h1>How is the shipping costing like?</h1>
             <p>You can <a href="{{route('pricing')}}">see more shipping per kg cost details</a></p> <br>
             <ul>
-                <li>International parcel forwarding from India to USA ( starting from ₹1377 )</li>
-                <br>
+                <li>International parcel forwarding from India to USA ( starting from ₹1449 )</li><br>
                 <li>International parcel forwarding from India to UK ( starting from ₹1478 )</li> <br>
                 <li>International parcel forwarding from India to Australia ( starting from ₹1424 )</li> <br>
                 <li>International parcel forwarding from India to UAE ( starting from ₹538 )</li> <br>

@@ -500,7 +500,6 @@ class PageController extends Controller
     {
         return view('page.jaypore-landing');
     }
-
     public function flipkartIndex()
     {
         return view('page.flipkart-landing');
@@ -526,7 +525,14 @@ class PageController extends Controller
     {
         return view('page.myntra-landing');
     }
-
+    public function amazonGreat()
+    {
+        return view('page.landing-pages.amazon-great');
+    }
+    public function flipkartFlipstart()
+    {
+        return view('page.landing-pages.flipkart-flipstart');
+    }
     public function amazonIndex()
     {
         return view('page.amazon-landing');

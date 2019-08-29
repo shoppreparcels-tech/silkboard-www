@@ -335,9 +335,9 @@
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" target="_blank">Myntra Right To Fashion Sale</a></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Flipkart Big Billion Day 2019</a></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="https://ship.shoppre.com/products-on-sale-pure-organic-yoga-clothing-and-products-made-in-india/" target="_blank">Yoga Organic Clothing Sale</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">Amazon Great Indian Sale 2019</a></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="https://ship.shoppre.com/prime-amazon-fashion-wardrobe-refresh-sale-shop-online-from-india/" target="_blank">Fashion Wardrobe Refresh Sale</a></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="https://ship.shoppre.com/online-shopping-flipkart-flipstart-days-2019-offers-fashion-beauty-headphones-laptops-power-banks-mobile-cases/" target="_blank">Flipstart Days Sale 2019</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/flipstart-days-avail-best-offers-on-flipkart-enjoy-special-discounts-for-the-first-three-days-of-every-month" target="_blank">Flipstart Days Sale 2019</a></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale</a></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" target="_blank">Flipkart National Shopping Days</a></li>
                         </ul>

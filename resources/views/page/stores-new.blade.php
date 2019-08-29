@@ -440,7 +440,7 @@
 
     <section class="content-oes-stores">
        <div class="container">
-           <h1 class="f-s-28">Indian Shopping Sites with International Delivery through ShoppRe.com </h1>
+           <center><h1 class="f-s-32">Indian Shopping Sites with International Delivery through ShoppRe.com </h1></center>
            <h1>Did you know that India has over 1000 shopping portals online? The number is only going up by day. </h1>
 
            <p>The beauty of e-commerce is, it makes the market truly borderless. Indian trends are gaining popularity and global shoppers are noticing Indian Online Stores now more than ever!</p>

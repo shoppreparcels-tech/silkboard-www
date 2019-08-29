@@ -622,7 +622,7 @@ Route::post('/calculate/exchange-rate', 'CountryGuideController@exchangeCalculat
 Route::get('/indian-virtual-address', 'PageController@indianVirtual')->name('indianVirtual');
 //Route::get('/shop-from-india-ship-worldwide', 'PageController@shopFromIndia')->name('shopFromIndia');
 Route::get('/sellers-shipping', 'PageController@sellerShipping')->name('sellerShipping');
-Route::get('/onam-community-shipping-offer', 'PageController@onamCommunity')->name('onamCommunity');
+
 
 
 /*-------- landing pages------*/
@@ -655,14 +655,8 @@ Route::get('/ajio-online-shopping-international-shipping', 'PageController@ajioI
 Route::get('/jaypore-international-shipping-from-india', 'PageController@jayporeIndex')->name('jaypore');
 Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
 Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
-Route::get('/send-rakhi-gifts-online-worldwide-at-cheap-rates', 'PageController@rakhiGift')->name('send-rakhi-gifts-online-worldwide-at-cheap-rates');
-Route::get('/kerala-onam-online-shopping-guide-from-india', 'PageController@onamGift')->name('onam-gifts');
 Route::get('/myntra-international-shipping-to-usa', 'PageController@myntraUsa')->name('myntra-usa');
 Route::get('/flipkart-usa-shopping', 'PageController@flipkartUsa')->name('flipkart-usa');
-Route::get('/flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india', 'PageController@flipkartNational')->name('flipkart-national');
-Route::get('/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances', 'PageController@amznFreedom')->name('amzn-freedom');
-Route::get('/myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping', 'PageController@myntraRight')->name('myntra-right');
-Route::get('/flipkart-big-billion-days-sale-offers-top-brands-stores', 'PageController@flipkartBillion')->name('flipkart-billion');
 Route::get('/jabong-usa-shipping-from-india', 'PageController@jabongUsa')->name('jabong-usa');
 Route::get('/trends-ajio-usa-shipping-from-india', 'PageController@ajioUsa')->name('ajio-usa');
 Route::get('/firstcry-international-shipping-usa', 'PageController@firstcryUsa')->name('firstcry-usa');
@@ -676,6 +670,20 @@ Route::get('/personal-shopper-india', 'PageController@ifsLandingPage')->name('if
 Route::get('/radcon', 'PageController@radioContest')->name('radio');
 Route::get('/radcon-tc', 'PageController@radioTermsConditions')->name('radio.tc');
 Route::get('/seller-partner', 'PageController@seller')->name('seller');
+
+
+/*-------- Festival Sale Landing Pages ------*/
+Route::get('/kerala-onam-online-shopping-guide-from-india', 'PageController@onamGift')->name('onam-gifts');
+Route::get('/onam-community-shipping-offer', 'PageController@onamCommunity')->name('onamCommunity');
+Route::get('/send-rakhi-gifts-online-worldwide-at-cheap-rates', 'PageController@rakhiGift')->name('send-rakhi-gifts-online-worldwide-at-cheap-rates');
+Route::get('/flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india', 'PageController@flipkartNational')->name('flipkart-national');
+Route::get('/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances', 'PageController@amznFreedom')->name('amzn-freedom');
+Route::get('/myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping', 'PageController@myntraRight')->name('myntra-right');
+Route::get('/flipkart-big-billion-days-sale-offers-top-brands-stores', 'PageController@flipkartBillion')->name('flipkart-billion');
+Route::get('/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping', 'PageController@amazonGreat')->name('amazon-great');
+Route::get('/flipstart-days-avail-best-offers-on-flipkart-enjoy-special-discounts-for-the-first-three-days-of-every-month', 'PageController@flipkartFlipstart')->name('flipkart-flipstart');
+
+
 /*-------- Per KG Landing Pages ------*/
 Route::get('/dropshipping-from-india-and-worldwide-delivery', 'PageController@dropShipping')->name('dropShipping');
 Route::get('/international-courier-charges-india-to-usa-per-kg', 'PageController@pricingUsa')->name('usaPerKg');
