@@ -738,6 +738,7 @@ Route::get('/shipping-from-india-to-usa/rockland-county', 'PageController@rockla
 Route::get('/shipping-from-india-to-usa/cupertino', 'PageController@cupertinoShipping')->name('usa-cupertino');
 Route::get('/shipping-from-india-to-usa/palo-alto', 'PageController@paloaltoShipping')->name('usa-paloalto');
 Route::get('/shipping-from-india-to-usa/caribbean', 'PageController@caribbeanShipping')->name('usa-caribbean');
+Route::get('/shipping-from-india-to-usa/east-west-coast', 'PageController@eastwestShipping')->name('usa-eastwest');
 
 
 //Route::get('/international-shipping-calculator', 'PageController@pricing1')->name('pricing1');
