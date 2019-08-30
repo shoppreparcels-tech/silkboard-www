@@ -30,9 +30,9 @@
                   @endif
 
                   @if(url()->current() == route('personal.shopper'))
-                    <li class="active"><a href="{{route('personal.shopper')}}">Personal Shopper</a></li>
+                    <li class="active"><a href="https://parcel.shoppre.com/personalShopper/create">Personal Shopper</a></li>
                   @else
-                    <li><a href="{{route('personal.shopper')}}">Personal Shopper</a></li>
+                    <li><a href="https://parcel.shoppre.com/personalShopper/create">Personal Shopper</a></li>
                   @endif
                   <li><a href="/schedule-pickup?uid={{Auth::user()->id}}">
                       Schedule Pickup</a>

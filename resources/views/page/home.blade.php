@@ -344,18 +344,18 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://www.ajio.com" title="Click to Know More" target="_blank">
+                        <a href="https://www.myntra.com/under-599-store" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">EVERYTHING ON SALE‎</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">Under ₹599 Store</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">500+ Hottest Brands</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">147050+ Items</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Min. 50% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">MYNTRA.COM</span></p>
                             <br>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop AJIO & Ship to your country. <br>Get <span class="f-s-16 f-c-red f-w-9">₹200 cashback</span> on shipment.
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shirts, Kurta, Dresses & more. Shop Myntra & Ship to your country.
 
                         </div>
 
@@ -380,36 +380,35 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://www.amazon.in/b?node=6294306031&pf_rd_p=e63411fc-9db5-4bac-a707-22dd9dbafc3b&pf_rd_r=BDTYB6JP18HACTJFRG7Q" title="Know More" target="_blank">
+                        <a href="/flipstart-days-avail-best-offers-on-flipkart-enjoy-special-discounts-for-the-first-three-days-of-every-month" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">FAB PHONES FEST</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">FLIPSTART DAYS</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Exciting Offers</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">1st - 3rd SEP</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up To 40% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Upto 80% Off</span></p>
                             <br><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Special Open Sale Mi A3, Redmi 7, Redmmi Y3, Poco F1 & more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Enjoy special discounts and offers on fashion, beauty, mobiles & more.</p>
                         </div>
 
                     </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://www.flipkart.com/month-end-mobile-fest-145io34pp-store" title="Click for Offer Details" target="_blank">
+                        <a href="/onam-community-shipping-offer" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">MONTH-END MOBILE FEST</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">ONAM SHIPPING OFFER</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">26th - 31st August</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">25th Aug - 25th Sep</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Store - Flipkart.com</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Discount ₹250/-</p>
                             <br><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from bestsellers online. Top offers realme C2, Redmi 6, Honor 8C & more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Ship your Onam products from India online with ShoppRe. 3-6 Delivery. </p>
                         </div>
-
                     </div>
                         </a>
                     </div>
@@ -1136,7 +1135,7 @@
                     <div class="panel ">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
-                                        href="/onam-community-shipping-offer">Onam Community Offer</a></span></li>
+                                        href="/onam-community-shipping-offer">Onam Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="diwali"><span><a
                                         href="/diwali-offer">Diwali Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="shop ship"><span><a

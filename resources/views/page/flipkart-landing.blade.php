@@ -39,37 +39,37 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - AUGUST 2019 Sales</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - SEPTEMBER 2019 SALE</h2>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/month-end-mobile-fest-145io34pp-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/flipstart-days-store" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-                                <h2>Mobile Fest</h2>
+                                <h2>Flipstart Days</h2>
                                 <br>
-                                <p>26th - 31st Aug</p>
-                                <p>Best Prices on Bestsellers</p>
+                                <p>01st - 03rd Sep</p>
+                                <p>40% - 80% Off</p>
                                 <p>Explore Now</p>
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/fashion-super-saver-2019-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone" title="Click Here to Shop" target="_blank">
                     <div class="ps">
-                        <h2>40-70% Off </h2>
+                        <h2>Flipkart Offers & Deals</h2>
                         <br>
-                        <p>Fav Fashion Brands</p>
-                        <p>At Affordable Prices</p>
-                        <p>Under ₹999/-</p>
+                        <p>Deals of the Day</p>
+                        <p>Mobile, Wardrobes & more</p>
+                        <p>Shop Now</p>
                     </div>
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/sarees/divastri~brand/pr?otracker=categorytree&p%5B%5D=facets.brand%255B%255D%3DDivastri&sid=2oq%2Fc1r%2F3pj%2F7od&nnc=CLRHF1NF70&otracker=bp_browse_announcement_2oq%2Cc1r%2C3pj%2C7od" target="_blank"><div class="ic">
-                            <h2>Divastri Sarees</h2>
+                    <a href="https://www.flipkart.com/women/kurtas-kurtis/pr?sid=2oq%2Cc1r%2C3pj%2Cua6&p%5B%5D=facets.price_range.from%3D399&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.brand%255B%255D%3DAnmi&nnc=WQZSJ5V6VSJL&otracker=bp_browse_announcement_2oq%2Cc1r%2C3pj" target="_blank"><div class="ic">
+                            <h2>Anmi Kurtas & Kurtis</h2>
                             <br>
-                            <p>Women Ethnic Wear</p>
+                            <p>Women Kurta</p>
                             <p>Starting ₹399</p>
                             <p>Explore Now</p>
                         </div></a>
@@ -288,7 +288,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Shopping Days"><span><a
                                         href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Flipstart Days"><span><a
-                                        href="https://ship.shoppre.com/online-shopping-flipkart-flipstart-days-2019-offers-fashion-beauty-headphones-laptops-power-banks-mobile-cases/" target="_blank">Flipkart Flipstart Days</a></span></li>
+                                        href="flipstart-days-avail-best-offers-on-flipkart-enjoy-special-discounts-for-the-first-three-days-of-every-month">Flipkart Flipstart Days</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="National Shopping Days"><span><a
                                         href="/flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" target="_blank">National Shopping Days</a></span></li>
                         </ul>

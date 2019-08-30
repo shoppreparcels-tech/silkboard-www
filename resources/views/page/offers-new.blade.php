@@ -104,7 +104,7 @@
         </div>
         <div class="container">
             <br/>
-            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (AUGUST-2019 Sale):</h3>
+            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (SEPTEMBER-2019 Sale):</h3>
 {{--            <div>--}}
 
 {{--                <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
@@ -118,10 +118,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">mobile fest</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">26th-31st Aug</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Flipstart Days</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">01st-3rd Sep</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/month-end-mobile-fest-145io34pp-store" target="_blank">
+                                <a href="https://www.flipkart.com/flipstart-days-store" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
                                 </a>
                             </div>
@@ -289,7 +289,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Freedom Sale"><span><a
                                         href="/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Flipstart Days"><span><a
-                                        href="https://ship.shoppre.com/online-shopping-flipkart-flipstart-days-2019-offers-fashion-beauty-headphones-laptops-power-banks-mobile-cases/" target="_blank">Flipkart Flipstart Days</a></span></li>
+                                        href="/flipstart-days-avail-best-offers-on-flipkart-enjoy-special-discounts-for-the-first-three-days-of-every-month" target="_blank">Flipkart Flipstart Days</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="National Shopping Days"><span><a
                                         href="/flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" target="_blank">National Shopping Days</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Right To Fashion"><span> <a
