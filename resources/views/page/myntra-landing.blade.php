@@ -69,11 +69,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/footwear?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0" target="_blank"><div class="shopandship ">
-                            <h2>SHOENIVERSE</h2>
+                    <a href="https://www.myntra.com/intl-fest-sep02" target="_blank"><div class="shopandship ">
+                            <h2>Premium League</h2>
                             <br/>
-                            <p>40-70% Off</p>
-                            <p>28th - 29th Aug</p>
+                            <p>Up To 40% Off</p>
+                            <p>Starts from ₹399/-</p>
                             <p>Explore Now</p>
                         </div></a>
                 </div>

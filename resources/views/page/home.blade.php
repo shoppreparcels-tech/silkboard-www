@@ -350,7 +350,7 @@
                             <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">Under ₹599 Store</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">147050+ Items</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">147,050+ Items</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">MYNTRA.COM</span></p>
                             <br>
@@ -363,34 +363,34 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://www.jaypore.com/eoss2019" title="Click Here" target="_blank">
+                        <a href="https://www.amazon.in/b?ie=UTF8&node=4188827031" title="Click Here" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">THE MONSOON MADNESS SALE</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">50%-80% OFF ON FASHION</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up to 60% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Top Brands. Latest Styles</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9"><u>Shop Now</u></span></p>
                             <br> <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from Jaypore & Get Delivered Worldwide with ShoppRe.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from Amazon India & Get Delivered Worldwide with ShoppRe.</p>
                         </div>
 
                     </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="/flipstart-days-avail-best-offers-on-flipkart-enjoy-special-discounts-for-the-first-three-days-of-every-month" title="Know More" target="_blank">
+                        <a href="https://www.ajio.com/shop/women" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">FLIPSTART DAYS</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">PAYDAY SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">1st - 3rd SEP</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">1st - 4th SEP</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Upto 80% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">40% - 80% Off</span></p>
                             <br><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Enjoy special discounts and offers on fashion, beauty, mobiles & more.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">30,000+ Products. Top Brands. Tops & Dresses, Fusion Wear & more.</p>
                         </div>
 
                     </div>
