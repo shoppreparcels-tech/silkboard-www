@@ -46,7 +46,8 @@
                        <br>
                        <br>
                        {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
-                       <a  style="margin-top: 10px;" href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="btn btn-s-b btn-a-l btn-b-g col-xs-12">
+                       <a  style="margin-top: 10px;" href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20Wish%20to%20Shop%20from%20Indian%20Stores"
+                           target="_blank" class="btn btn-s-b btn-a-l btn-b-g col-xs-12">
                            Message us on WhatsApp</a>
                        {{--</button>--}}
                    </div>
@@ -144,22 +145,22 @@
                 <h4 class="header4 p-color-cement"> Buy Products/Brands you Love from any online store in India;
                     Store, Consolidate, Repack & Ship Worldwide in 3-6 days delivery. Package Forwarding from India Made Easy by ShoppRe.com</h4>
                 <br>
-                <p class="header4 p-color-cement">While Indians around the world, not just in
-                    the country; are gearing up to celebrate the holy
-                    season of light taking over the darkness, we have a rather cool offer in store for you to
-                    get yourself and your loved ones ready for the celebrations.</p>
-                <br>
-                <p class="header4 p-color-cement">We offer 50% OFF the <a href="{{route('pricing')}}">shipping costs of
-                    international shipments </a>for up to Rs.200, which you
-                    can avail by using the Coupon Code FRST50  when you checkout. Consider it a little something
-                    from us for this new year and don’t hesitate to shop around for Indian ethnic wear or send
-                    your greetings off to your loved ones abroad.</p> <br>
+{{--                <p class="header4 p-color-cement">While Indians around the world, not just in--}}
+{{--                    the country; are gearing up to celebrate the holy--}}
+{{--                    season of light taking over the darkness, we have a rather cool offer in store for you to--}}
+{{--                    get yourself and your loved ones ready for the celebrations.</p>--}}
 
+                <p class="header4 p-color-cement">We offer 50% OFF the <a href="{{route('pricing')}}">shipping costs of
+                    international shipments </a>for up to Rs.200, which you</p>
+{{--                    can avail by using the Coupon Code FRST50  when you checkout. Consider it a little something--}}
+{{--                    from us for this new year and don’t hesitate to shop around for Indian ethnic wear or send--}}
+{{--                    your greetings off to your loved ones abroad.</p> <br>--}}
+                <br>
                 <div class="offerDesc">
                     <h5 class="f-s-16"> What Else Do You Get Out of Our Offer? </h5>
                     <ul>
                         <li>Store your goods at our facility for 20 days for FREE</li>
-                        <li>Get online Support 24/7</li>
+                        <li>Get online Live Chat</li>
                         <li>Get up to 80% OFF in shipping costs</li>
                         <li>A quick delivery within 3-6 days!</li>
                     </ul>
@@ -167,8 +168,6 @@
             </div>
         </div>
     </section>
-    <br>
-    <br>
     <br>
     <section style="background-color: #fafafb; margin-top: 10px">
         <div class="container" style="padding-top: 30px;">

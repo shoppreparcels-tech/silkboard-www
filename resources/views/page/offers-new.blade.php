@@ -118,10 +118,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Flipstart Days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">01st-3rd Sep</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Top fashion brands</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 70% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/flipstart-days-store" target="_blank">
+                                <a href="https://www.flipkart.com/fashion-weekend-monsoon-store?otracker=hp_banner_1_5.bannerX3.BANNER_W4W2YRUVTOUB&fm=neo%2Fmerchandising&iid=M_a64df555-fbbf-43d8-8f97-de7f171c7b69_5.W4W2YRUVTOUB&ppt=hp&ppn=hp&ssid=vhtga2s6ww0000001567654872075" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
                                 </a>
                             </div>
@@ -158,7 +158,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">EOSS</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Happy Sale Corner</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up to 65% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://indiacircus.com/sales/clearance-sale.html" target="_blank">
@@ -188,8 +188,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">PAYDAY Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40 - 80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">superbrands Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 60% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
@@ -201,10 +201,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Super value day</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up to 35% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">BARGAIN FINDS</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Under ₹400</h5>
                             <div class="ecomSmallBox" style="height: 94px;">
-                                <a href="https://www.amazon.in/b?node=6802110031&pf_rd_p=7d4ecf15-0b9b-415c-96aa-1acf336d43cc&pf_rd_r=P4TY89CSCDTSZMRT46EY" target="_blank">
+                                <a href="https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?pf_rd_p=ade141fd-200c-45ec-9bd8-30551c6d991d&pf_rd_r=6YPQKD4YAE6TMD8Y6DF0" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>
                                 </a>
                             </div>
@@ -310,8 +310,8 @@
                                         href="/kerala-onam-online-shopping-guide-from-india">Onam online shopping</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="sarees"><span><a
                                         href="https://ship.shoppre.com/8-gorgeously-elegant-sarees-for-every-occasion-to-flaunt-your-curves-craftsvilla-handpicked-for-you/" target="_blank">Sarees Online Shopping</a> </span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="moisturizer"><span><a
-                                        href="https://ship.shoppre.com/6-amazing-face-moisturizer-for-women-from-india-that-you-dont-want-to-miss/" target="_blank">Face Moisturizer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Stylish Polka dot dresses"><span><a
+                                        href="https://ship.shoppre.com/buy-modern-fashionable-polka-dot-dresses-from-myntra-ship-internationally/" target="_blank">Stylish Polka Dot Dresses</a></span></li>
 
                         </ul>
                     </div>

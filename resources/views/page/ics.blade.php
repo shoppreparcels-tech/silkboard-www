@@ -184,7 +184,6 @@
                     </table>
                 </div>
             </div>
-
             <center style="margin-top: 50px;">
                 <h1 class="header1  p-color-cement-dark">How Does ShoppRe Courier Work?</h1>
                 <p class="header2 p-color-cement">Schedule a Pickup from ANY part of India; we’ll come to your doorsteps,<br> get your package & ship it off to the destination in 24 hours.</p>
@@ -254,8 +253,6 @@
 
     <section>
         <div class="container">
-            <br>
-            <br>
             <center>
                 <a href="/first-time-international-shipment-offer" target="_blank">
                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"
@@ -268,7 +265,6 @@
 
     <section class="product-courier ">
         <div class="container no-padding div-ics-border-btm">
-
             <center>
                 <h1 class="header1 p-color-cement-dark" >
                     We ship all over the world - To the USA, UAE, UK, Europe, Australia, New Zealand, Canada, Middle East & 200 other
