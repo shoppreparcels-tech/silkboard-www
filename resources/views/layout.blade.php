@@ -142,7 +142,7 @@
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/ui-bootstrap-tpls-2.5.0.min.js"></script>
 {{--<script src="{{env('AWS_CLOUD_FRONT')}}/js/star-rating.min.js" type="text/javascript"></script>--}}
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/select2.min.js"></script>
-
+@include('chat-script')
 <script>
 
     if (!localStorage.referer) {
