@@ -344,18 +344,18 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://www.myntra.com/fusion-wear" title="Click to Know More" target="_blank">
+                        <a href="https://www.myntra.com/shop/women" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">INDIAN AT HEART</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">SHOPPING FOR WOMEN</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up To 70% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Get Up To 40% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">4th - 5th Sep</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Myntra.com</span></p>
                             <br>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shirts, Kurta, Dresses & more. Shop Myntra & Ship to your country.
+                            <p class="f-s-16 f-c-l-gray f-w-7">Choose From 2.3 Lakhs+ Styles. Apparel, Accessories, Heels & more!
 
                         </div>
 
@@ -371,7 +371,7 @@
                         <div class="des-div-rakhi text-center"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Top Brands. Latest Styles</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9"><u>Shop Now</u></span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9"><u>Amazon.in</u></span></p>
                             <br> <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Shop from Amazon India & Get Delivered Worldwide with ShoppRe.</p>
                         </div>
@@ -380,15 +380,15 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://www.ajio.com/shop/women" title="Know More" target="_blank">
+                        <a href="https://www.flipkart.com/fashion-weekend-monsoon-store" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">FESTIVE WINTER 19</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">FASHION TOP BRANDS</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">& SUPERBRANDS SALE</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">From ₹299</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up To 60% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Flipkart.com</span></p>
                             <br><br>
                             <p class="f-s-16 f-c-l-gray f-w-7">30,000+ Products. Top Brands. Tops & Dresses, Fusion Wear & more.</p>
                         </div>
@@ -756,14 +756,14 @@
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/google.png">
                                 <br>
                                 <p class="p-name" style="font-size: 23px">
-                                    <span>4.6</span>
+                                    <span>4.5</span>
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 147px;">
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">226 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">227 Google Reviews</p>
                                 </a>
                                 <br>
-                                <p style="font-size: 20px; color: #878787 ">Shipping service in Bengaluru, Karnataka</p>
+                                <p style="font-size: 20px; color: #878787 ">Shipping and Delivery Service</p>
                             </div >
                         </div>
                         <div class="col-md-6">
@@ -780,7 +780,7 @@
                                     <p class="p-name" style="font-size: 20px; color: #1a0dab">Recommended by 82</p>
                                 </a>
                                 <br>
-                                <p style="font-size: 20px; color: #878787; margin-top: -6px ">Shipping service in Bengaluru, Karnataka</p>
+                                <p style="font-size: 20px; color: #878787; margin-top: -6px ">Packaging Supplies and Service</p>
                             </div >
                         </div>
                     </div>

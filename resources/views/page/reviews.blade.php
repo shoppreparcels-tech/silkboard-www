@@ -60,7 +60,7 @@
     "@type" : "AggregateRating",
     "bestRating": "5",
     "ratingValue" : "4.6",
-    "reviewCount" : "5001",
+    "reviewCount" : "5022",
     "worstRating" : 2.0
   }
 }
@@ -90,33 +90,33 @@
                 @endif
             </center>
 
-            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
-                <center>
-                    <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"
-                       target="_blank" title="Click Here to Rate & Review Us on Google">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/reviews/review-google.png" class="r-img" alt="Google Reviews">
-                    </a>
-                </center>
-            </div>
+{{--            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">--}}
+{{--                <center>--}}
+{{--                    <a href="https://www.google.com/search?q=shoppre&oq=shoppre&aqs=chrome..69i57j69i60l5.4478j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3bae146191401f95:0x1cf2770c1532d7d1,1,,,"--}}
+{{--                       target="_blank" title="Click Here to Rate & Review Us on Google">--}}
+{{--                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/reviews/review-google.png" class="r-img" alt="Google Reviews">--}}
+{{--                    </a>--}}
+{{--                </center>--}}
+{{--            </div>--}}
 
-            <div class="col-xs-12 col-sm-12 div-review-hr"></div>
-            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
-                <center>
-                    <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank" title="Click Here to Recommend Us on Facebook">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/reviews/review-facebook.png" class="r-img" alt="Facebook Reviews">
-                    </a>
-                </center>
-            </div>
+{{--            <div class="col-xs-12 col-sm-12 div-review-hr"></div>--}}
+{{--            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">--}}
+{{--                <center>--}}
+{{--                    <a href="https://www.facebook.com/pg/goshoppre/reviews/?ref=page_internal" target="_blank" title="Click Here to Recommend Us on Facebook">--}}
+{{--                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/reviews/review-facebook.png" class="r-img" alt="Facebook Reviews">--}}
+{{--                    </a>--}}
+{{--                </center>--}}
+{{--            </div>--}}
 
-            <div class="col-xs-12 col-sm-12 div-review-hr"></div>
-            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 ">
-                <center>
-                    <a href="#reviews">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/reviews/review-shoppre.png" class="r-img" alt="Shoppre Reviews">
-                    </a>
-                </center>
+{{--            <div class="col-xs-12 col-sm-12 div-review-hr"></div>--}}
+{{--            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 ">--}}
+{{--                <center>--}}
+{{--                    <a href="#reviews">--}}
+{{--                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/reviews/review-shoppre.png" class="r-img" alt="Shoppre Reviews">--}}
+{{--                    </a>--}}
+{{--                </center>--}}
 
-            </div>
+{{--            </div>--}}
         </div>
     </section>
     <section class="ligth-background">

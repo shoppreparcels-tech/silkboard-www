@@ -44,12 +44,12 @@
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/flipstart-days-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/fashion-weekend-monsoon-store" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-                                <h2>Flipstart Days</h2>
+                                <h2>Fashion Top Brands</h2>
                                 <br>
-                                <p>01st - 03rd Sep</p>
-                                <p>40% - 80% Off</p>
+                                <p>From ₹299</p>
+                                <p>50% - 80% Off</p>
                                 <p>Explore Now</p>
                         </div>
                     </a>

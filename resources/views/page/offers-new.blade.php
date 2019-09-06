@@ -188,8 +188,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">superbrands Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up To 60% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">fashion winter 19</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Shop Now</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
