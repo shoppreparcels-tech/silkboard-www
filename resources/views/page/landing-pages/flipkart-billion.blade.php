@@ -9,6 +9,16 @@
 
     <link rel="canonical" href="https://www.shoppre.com/flipkart-big-billion-days-sale-offers-top-brands-stores" />
 
+    <meta property="og:site_name" content="ShoppRe" />
+    <meta property="og:title" content="Buy from Flipkart Big Billion Days & Ship Worldwide with ShoppRe" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/flipkart-big-billion-days-sale-offers-top-brands-stores" />
+    <meta property="og:image" content="https://www.shoppre.com/img/images/flipkart-big-billion-day-sale-india-offer-ship.png" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
+    <meta property="og:image:alt" content="Flipkart Big Billion Days India Online Shopping" />
+    <meta property="og:description" content="Shop your favorite products during Flipkart Big Billion Days & Ship Internationally with ShoppRe international parcel forwarding service from India." />
+
     <style>
         .div-b-l-w ul li{list-style: none; color:#929ca5; font-weight: 700;font-size: 16px; }
         @media only screen and (max-width: 600px) {

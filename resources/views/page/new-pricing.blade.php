@@ -669,14 +669,19 @@
                                                 </a>
                                             </h6>
                                         </td>
-                                        <td><h6 class="f-s-16 f-c-blue">Within 3 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-blue">4 to 20 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-blue">>20 Days = ₹400</h6>
+                                        <td>
+                                            <h6 class="f-s-16 f-c-blue">Within 3 Days = FREE</h6>
+                                            <h6 class="f-s-16 f-c-blue">4 to 10 Days = FREE</h6>
+                                            <h6 class="f-s-16 f-c-blue">11 to 15 Days = FREE</h6>
+                                            <h6 class="f-s-16 f-c-blue">Above 15 Days = FREE</h6>
+                                            <h6 class="f-s-16 f-c-blue">Opted for taking back the Shipment = FREE</h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-l-gray">Within 3 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-l-gray">4 to 10 Days = ₹100</h6>
-                                            <h6 class="f-s-16 f-c-l-gray">>10 Days = ₹400</h6>
+                                            <h6 class="f-s-16 f-c-gray">Within 3 Days = FREE</h6>
+                                            <h6 class="f-s-16 f-c-gray">4 to 10 Days = ₹100/Package</h6>
+                                            <h6 class="f-s-16 f-c-gray">11 to 15 Days = ₹200/Package</h6>
+                                            <h6 class="f-s-16 f-c-gray">Above 15 Days = ₹400/Package</h6>
+                                            <h6 class="f-s-16 f-c-gray">Opted for taking back the Shipment = ₹400</h6>
                                         </td>
                                     </tr>
 
@@ -690,8 +695,8 @@
                                                 </a>
                                             </h6>
                                         </td>
-                                        <td><h6 class="f-s-16 f-c-l-gray">₹40 Per Page</h6></td>
-                                        <td><h6 class="f-s-16 f-c-blue">₹100 Per Page</h6></td>
+                                        <td><h6 class="f-s-16 f-c-blue">₹40 Per Page</h6></td>
+                                        <td><h6 class="f-s-16 f-c-gray">₹100 Per Page</h6></td>
 
                                     </tr>
                                     <tr class="tr-hide">
@@ -816,12 +821,14 @@
                                             </h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-blue">Assisted Purchase(by Shoppre)= 10% of the item value (Min INR 200)
-                                                Self Shopper(Cash on Delivery)= 7% of the item value (Min INR 200)</h6>
+                                            <h6 class="f-s-16 f-c-blue"> Assisted Purchase(by ShoppRe) = 07% of the item value (Min ₹200)
+                                                <br>
+                                                Self Purchase(Cash on Delivery) = 10% of the item value (Min ₹200)</h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-l-gray">Assisted Purchase(by Shoppre)= 10% of the item value (Min INR 200)
-                                                Self Shopper(Cash on Delivery)= 7% of the item value (Min INR 200)</h6>
+                                            <h6 class="f-s-16 f-c-l-gray">Assisted Purchase(by ShoppRe) = 07% of the item value (Min ₹200)
+                                                <br>
+                                                Self Purchase(Cash on Delivery) = 10% of the item value (Min ₹200)</h6>
                                         </td>
                                     </tr>
                                     <tr class="tr-hide">
@@ -840,7 +847,8 @@
                                     <tr class="tr-hide">
                                         <td>
                                             <h6 class="f-s-16 f-c-d-greay">Receive Parcels
-                                                <a href="#" class="tooltipkey"title="We receive your packages here at our facility, log them into your lockers and account; all this without charging your anything extra!">
+                                                <a href="#" class="tooltipkey"title="We receive your packages here at our facility, log them into your lockers and account;
+                                                all this without charging your anything extra!">
                                                 <i class="fa fa-question-circle-o"></i>
                                                 </a>
                                             </h6>
@@ -850,21 +858,21 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <h14 class="f-s-18 f-c-d-greay">Fee</h14>
+                                            <h14 class="f-s-18 f-c-gray">Half Yearly Fee</h14>
                                         </td>
                                         <td class="pad-20">
                                             <h6 class="f-s-20 f-c-blue f-w-9">₹2500/-</h6>
                                             <a href="{{route('member.register')}}?member=h"
-                                               class="btn btn-b-r btn-s-r btn-a-l btn-disabled ">Start Plan
+                                               class="btn btn-b-r btn-s-r btn-a-l btn-disabled ">TRY IT
                                             </a>
                                             <a href="{{route('member.register')}}?member=h" class="btn-enable ">Start Plan
                                             </a>
 
                                         </td>
                                         <td>
-                                            <h6 class="f-s-20 f-c-blue f-w-9">Free Forever</h6>
+                                            <h6 class="f-s-20 f-c-blue f-w-9">FREE FOREVER</h6>
                                             <a href="{{route('customer.register')}}"
-                                                class="btn btn-b-b btn-s-b btn-a-l btn-disabled  ">Free Signup
+                                                class="btn btn-b-b btn-s-b btn-a-l btn-disabled  ">FREE SIGN-UP
                                             </a>
                                             <a href="{{route('customer.register')}}"
                                                 class="btn-enable ">Free Signup
@@ -1002,14 +1010,19 @@
                                                 </a>
                                             </h6>
                                         </td>
-                                        <td><h6 class="f-s-16 f-c-blue">Within 3 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-blue">4 to 20 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-blue">>20 Days = ₹400</h6>
+                                        <td>
+                                            <h6 class="f-s-16 f-c-blue">Within 3 Days = FREE</h6>
+                                            <h6 class="f-s-16 f-c-blue">4 to 10 Days = FREE</h6>
+                                            <h6 class="f-s-16 f-c-blue">11 to 15 Days = FREE</h6>
+                                            <h6 class="f-s-16 f-c-blue">Above 15 Days = FREE</h6>
+                                            <h6 class="f-s-16 f-c-blue">Opted for taking back the Shipment = FREE</h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-l-gray">Within 3 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-l-gray">4 to 10 Days = ₹100</h6>
-                                            <h6 class="f-s-16 f-c-l-gray">>10 Days = ₹400</h6>
+                                            <h6 class="f-s-16 f-c-gray">Within 3 Days = FREE</h6>
+                                            <h6 class="f-s-16 f-c-gray">4 to 10 Days = ₹100/Package</h6>
+                                            <h6 class="f-s-16 f-c-gray">11 to 15 Days = ₹200/Package</h6>
+                                            <h6 class="f-s-16 f-c-gray">Above 15 Days = ₹400/Package</h6>
+                                            <h6 class="f-s-16 f-c-gray">Opted for taking back the Shipment = ₹400</h6>
                                         </td>
                                     </tr>
 
@@ -1023,8 +1036,8 @@
                                                 </a>
                                             </h6>
                                         </td>
-                                        <td><h6 class="f-s-16 f-c-l-gray">₹40 Per Page</h6></td>
-                                        <td><h6 class="f-s-16 f-c-blue">₹100 Per Page</h6></td>
+                                        <td><h6 class="f-s-16 f-c-blue">₹40 Per Page</h6></td>
+                                        <td><h6 class="f-s-16 f-c-gray">₹100 Per Page</h6></td>
                                     </tr>
                                     <tr class="tr-hide">
                                         <td>
@@ -1148,13 +1161,13 @@
                                             </h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-blue"> Assisted Purchase(by Shoppre)= 10% of the item value (Min INR 200)
+                                            <h6 class="f-s-16 f-c-blue"> Assisted Purchase(by ShoppRe) = 07% of the item value (Min ₹200)
                                                 <br>
-                                                Self Shopper(Cash on Delivery)= 7% of the item value (Min INR 200)</h6>
+                                                Self Purchase(Cash on Delivery) = 10% of the item value (Min ₹200)</h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-l-gray"> Assisted Purchase(by Shoppre)= 10% of the item value (Min INR 200)<br>
-                                                Self Shopper(Cash on Delivery)= 7% of the item value (Min INR 200)</h6>
+                                            <h6 class="f-s-16 f-c-l-gray"> Assisted Purchase(by ShoppRe) = 07% of the item value (Min ₹200)<br>
+                                                Self Purchase(Cash on Delivery) = 10% of the item value (Min ₹200)</h6>
                                         </td>
                                     </tr>
                                     <tr class="tr-hide">
@@ -1183,12 +1196,12 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <h14 class="f-s-18 f-c-d-greay">Fee</h14>
+                                            <h14 class="f-s-18 f-c-gray">Yearly Fee</h14>
                                         </td>
                                         <td class="pad-20">
                                             <h6 class="f-s-20 f-c-blue f-w-9">₹5000/-</h6>
                                             <a href="{{route('member.plan')}}?member=y"
-                                               class="btn btn-b-r btn-s-r btn-a-l btn-disabled ">Start Plan
+                                               class="btn btn-b-r btn-s-r btn-a-l btn-disabled ">TRY IT
                                             </a>
                                             <a href="{{route('member.plan')}}?member=y" class="btn-enable ">Start Plan
                                             </a>
@@ -1196,7 +1209,7 @@
                                         <td>
                                             <h6 class="f-s-20 f-c-blue f-w-9">Free Forever</h6>
                                             <a href="{{route('customer.register')}}?member=b"
-                                               class="btn btn-b-b btn-s-b btn-a-l btn-disabled ">Free Signup
+                                               class="btn btn-b-b btn-s-b btn-a-l btn-disabled ">FREE SIGN-UP
                                             </a>
                                             <a href="{{route('customer.register')}}?member=b"
                                                class="btn-enable ">Free Signup
