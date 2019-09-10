@@ -9,6 +9,16 @@
 
     <link rel="canonical" href="https://www.shoppre.com/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" />
 
+    <meta property="og:site_name" content="ShoppRe" />
+    <meta property="og:title" content="Buy from Amazon GREAT INDIAN FESTIVAL Sale 2019" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" />
+    <meta property="og:image" content="https://www.shoppre.com/img/images/get-best-offers-and-deals-during-the-amazon-great-indian-sale.png" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
+    <meta property="og:image:alt" content="Amazon Great Indian Sale 2019 India Online Shopping" />
+    <meta property="og:description" content="Shop your favorite products during Amazon Great Indian Sale & Ship Internationally with ShoppRe international package forwarding service from India." />
+
     <style>
         .div-b-l-w ul li{list-style: none; color:#929ca5; font-weight: 700;font-size: 16px; }
         @media only screen and (max-width: 600px) {
@@ -33,7 +43,7 @@
            </div>
            <div class="col-md-12 col-xs-12 text-center">
                <h1 class="f-s-26 f-c-d-greay f-w-9">Amazon.in Great Indian Sale 2019</h1>
-           <a href="https://linksredirect.com/?cid=52423&subid=amzn-great-lp&source=linkkit&url=https%3A%2F%2Fwww.amazon.in%2F"
+           <a href="https://linksredirect.com/?cid=52423&subid=2565&source=linkkit&url=https%3A%2F%2Fwww.amazon.in%2Fb%3Fnode%3D3419926031%26pf_rd_p%3D6161983f-ed0b-42e7-9f36-695255d4c21a%26pf_rd_r%3DF4QP7N2SZ1GK2XMK9740"
               target="_blank" class="btn btn-s-b btn-b-r">Buy from Amazon Great Indian Sale</a>
 
            </div>

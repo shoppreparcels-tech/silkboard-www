@@ -678,6 +678,10 @@ class PageController extends Controller
     {
         return view('page.landing-pages.usa-eastwest');
     }
+    public function shopShipjp()
+    {
+        return view('page.landing-pages.shopShipjp');
+    }
     public function ifsLandingPage()
     {
         return view('page.personal-shoper');

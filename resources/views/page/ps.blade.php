@@ -47,15 +47,11 @@
                                         <span>The money will be credited to your Shoppre wallet within 24 hours, which can then be used for your future Shoppre orders.</span></p><br>
                                     <p><span class="font-bold">5.&nbsp;</span><span>To edit or cancel your order pre-payment, click on Personal Shopper > Order Form.</span></p><br>
                                     <p><span class="font-bold">6.&nbsp;</span><span>To cancel your order post-payment, access your Order History to view the list of your recent orders. If we haven’t processed the purchase on your behalf, the option to Cancel will be available</span></p><br>
-                                    <p><span class="font-bold">7.&nbsp;</span><span>In case you want to cancel the order after Shoppre has made the purchase, please get in touch with the seller regarding its return policy.</span>
-                                        <span>If the return is permitted by the seller, intimate us that the order is to be returned when it arrives at your Shoppre address.</span>
-                                        <span>In such a case, a cost of Rs. 400, in addition to the return shipping cost (if any) needs to be incurred by the customer.</span>
-                                        <span>Once the seller receives the order and issues a refund, the same shall be duly credited to your Shoppre wallet and can be used for your future orders</span></p><br>
-                                    <p><span class="font-bold">8.&nbsp;</span><span>An e-mail notification shall be sent out to you once your order reaches your Shoppre address. You can also request for any additional photographs of the package for an additional cost.</span></p><br>
-                                    <p><span class="font-bold">9.&nbsp;</span><span>Shoppre reserves the right to make any additions/changes in these terms and conditions at any given point of time. Keep checking this page for updates.</span></p>
-                                    <p><span class="font-bold">10.&nbsp;</span><span>There is No return policy or Cancellation for Personal Shopper order from ShoppRe.Because most of the indian online store dont have Return policy service.</span>
-                                        <span>Personal Shopper Cancellation is not allowed, not unless we received damage or incorrect item.</span></p><br>
-                                    <p><span class="font-bold">11.&nbsp;</span><span>For Self Purchase the Return or Cancellation Charges for each item will be INR 400.</span></p><br>
+                                    <p><span class="font-bold">7.&nbsp;</span><span>An e-mail notification shall be sent out to you once your order reaches your Shoppre address. You can also request for any additional photographs of the package for an additional cost.</span></p><br>
+                                    <p><span class="font-bold">8.&nbsp;</span><span>Shoppre reserves the right to make any additions/changes in these terms and conditions at any given point of time. Keep checking this page for updates.</span></p>
+                                    <p><span class="font-bold">9.&nbsp;</span><span>There is No return policy or Cancellation for Assisted Purchase order from ShoppRe.Because most of the indian online store dont have Return policy service.</span>
+                                        <span>Assisted Purchase Cancellation is not allowed, not unless we received damage or incorrect item.</span></p><br>
+                                    <p><span class="font-bold">10.&nbsp;</span><span>For Self Purchase the Return or Cancellation Charges for each item will be INR 400.</span></p><br>
                                 </ol>
                             </div>
                         </div>

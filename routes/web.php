@@ -778,6 +778,8 @@ Route::post('/apiVideoPs', 'PageController@apiVideoPs')->name('apiVideoPs');
 Route::post('/apiVideoPriyamani', 'PageController@apiVideoPriyamani')->name('apiVideoPriyamani');
 Route::post('/apiVideoGPepper', 'PageController@apiVideoGPepper')->name('apiVideoGPepper');
 
+Route::get('/ja-jp', 'PageController@shopShipjp')->name('shopShipjp');
+
 Route::post('/api-pricing-calculator', 'PageController@apiPricingCalculator')->name('apiPricingCalculator');
 Route::post('/api-pricing-usa', 'PageController@apiPricingUsa')->name('apiPricingUsa');
 Route::post('/api-pricing-uae', 'PageController@apiPricingUae')->name('apiPricingUae');
