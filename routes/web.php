@@ -684,6 +684,10 @@ Route::get('/amazon-great-indian-festival-sales-offers-prime-members-shopping-de
 Route::get('/flipstart-days-avail-best-offers-on-flipkart-enjoy-special-discounts-for-the-first-three-days-of-every-month', 'PageController@flipkartFlipstart')->name('flipkart-flipstart');
 
 
+/*-------- New Country Guides Landing Pages ------*/
+Route::get('/en-jp', 'PageController@countryJapan')->name('countryJapan');
+
+
 /*-------- Per KG Landing Pages ------*/
 Route::get('/dropshipping-from-india-and-worldwide-delivery', 'PageController@dropShipping')->name('dropShipping');
 Route::get('/international-courier-charges-india-to-usa-per-kg', 'PageController@pricingUsa')->name('usaPerKg');

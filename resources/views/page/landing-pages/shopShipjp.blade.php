@@ -7,7 +7,6 @@
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/ja-jp"/>
     <link rel="alternate" href="https://www.shoppre.com/ja-jp" hreflang="ja-jp" />
-    <meta name="robots" content="noindex" />
 
     <style>
         .bg-diwali-lp{background-image:url(../../img/images/overlay1.png);height:900px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.select-control{float:left;width:90px!important;height:40px!important;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:3px;background-color:#fafafb;border:none}.select2-container--default.select2-selection--single{background-color:#fff!important;border:none!important;border-radius:4px!important;height:40px!important;padding-top:5px!important}.select2-container--default .select2-selection--single .select2-selection__arrow b{margin-top:4px!important}@media only screen and (max-width:600px){.bg-diwali-lp{height:700px}}
@@ -148,9 +147,10 @@
             </div>
             <div class=" col-md-12 offer-description">
                 <h5 class="f-s-20 font-weight-900 f-c-d-greay ">インドからの買い物＆面倒なことがなく日本への送料が80％も安く済みます！</h5> <br>
-                <h4 class="header4 p-color-cement"> あなたが愛する製品やブランドを<a href="/indian-online-stores" target="_blank">インドのオンラインストア</a>から購入できます。そして、保管、整理、再梱包して3~6日以内で日本に出荷いたします。そして我社ShoppRe.comを使えば簡単にインドからのパッケージ転送が可能です。</h4>
+                <h4 class="header4 p-color-cement"> あなたが愛する製品やブランドを<a href="/indian-online-stores" target="_blank">インドのオンラインストア</a>から購入できます。そして、保管、整理、再梱包して3~6日以内で日本に出荷いたします。そして我社ShoppRe.comを使えば簡単にインドからのパッケージ配送が可能です。</h4>
                 <br>
-                <p class="header4 p-color-cement">また、私たちは国際貨物にかかるコストを50％オフにするクーポン提供しています。これはお会計をする際にクーポンコードFRST50を使用することで最大で200ルピーまで割引することが可能です。</p> <br>
+                <p class="header4 p-color-cement">また、私たちは国際貨物にかかるコストを50％オフにするクーポン提供しています。これはお会計をする際ShoppReアカウントでクーポンコードFRST50を使用することで最大で200ルピーまで割引することが可能です。
+                </p> <br>
                 <br>
                 <div class="offerDesc">
                     <h5 class="f-s-16">お客様がこの他に得ることができるものは？</h5>

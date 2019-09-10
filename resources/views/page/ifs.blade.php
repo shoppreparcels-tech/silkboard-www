@@ -117,13 +117,13 @@
     </section>
 
     <section>
-{{--        <div>--}}
-{{--            <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
-{{--                <a href="https://www.jaypore.com/eoss2019" title="flipkart" target="_blank">1. Jaypore 👉Monsoon Madnees Sale(Up to 65% Off) </a> |--}}
-{{--                <a href="https://www.amazon.in/rakhis-rakhi-hampers/b?ie=UTF8&node=5143508031" title="Amazon" target="_blank">2. Amazon.in 👉The Rakhi Store</a> |--}}
-{{--                <a href="https://www.ajio.com" title="ajio" target="_blank">3. AJIO.com 👉Everything on  Sale(Min. 50% Off)</a>--}}
-{{--            </marquee>--}}
-{{--        </div>--}}
+        <div>
+            <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                <a href="https://www.amazon.in/b?node=11034733031&pf_rd_p=2b2bd439-70ae-405d-856f-dfdfc2511ae4&pf_rd_r=050HXF5T2DXKPWR9ECDE" title="Amazon" target="_blank">1. Amazon.in 👉ONAM Store</a> |
+                <a href="https://www.flipkart.com/fashion-weekend-brand-2019-store" title="flipkart" target="_blank">2. Flipkart 👉Fashion From Rs 299 </a> |
+                <a href="https://www.ajio.com" title="ajio" target="_blank">3. AJIO.com 👉Festive Winter 19</a>
+            </marquee>
+        </div>
         <div class="container" id="how-it-works">
             <div>
                 <center>

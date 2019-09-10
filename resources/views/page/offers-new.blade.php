@@ -201,10 +201,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">BARGAIN FINDS</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Under ₹400</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Great Indian Festival</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Coming Soon</h5>
                             <div class="ecomSmallBox" style="height: 94px;">
-                                <a href="https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?pf_rd_p=ade141fd-200c-45ec-9bd8-30551c6d991d&pf_rd_r=6YPQKD4YAE6TMD8Y6DF0" target="_blank">
+                                <a href="https://www.amazon.in/b?node=3419926031&pf_rd_p=f7d3d354-d08c-4102-9b41-86ba899912ed&pf_rd_r=WSTR4FDQCEFV1RG0TDNC" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>
                                 </a>
                             </div>
@@ -282,6 +282,8 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Amazon Great Indian Festival"><span><a
+                                        href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">Great Indian Festival 2019</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big billion Days"><span><a
                                         href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Big Billion Days Sale 2019</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Shopping Days"><span><a
@@ -312,6 +314,8 @@
                                         href="https://ship.shoppre.com/8-gorgeously-elegant-sarees-for-every-occasion-to-flaunt-your-curves-craftsvilla-handpicked-for-you/" target="_blank">Sarees Online Shopping</a> </span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Stylish Polka dot dresses"><span><a
                                         href="https://ship.shoppre.com/buy-modern-fashionable-polka-dot-dresses-from-myntra-ship-internationally/" target="_blank">Stylish Polka Dot Dresses</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="best kurta set for men"><span><a
+                                        href="https://ship.shoppre.com/shop-for-these-stylish-trendy-kurta-sets-for-men-from-best-brands-myntra-india/" target="_blank">Best Kurta Set for Men</a></span></li>
 
                         </ul>
                     </div>
@@ -321,6 +325,8 @@
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
                                         href="/onam-community-shipping-offer">Onam Community Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="frst50"><span><a
+                                        href="/first-time-international-shipment-offer" target="_blank">First Shipment Discount</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="diwali"><span><a
                                         href="/diwali-offer">Diwali Offer</a></span></li>
 {{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="new year"><span><a--}}

@@ -106,7 +106,7 @@
                 <br>
                 <p class="header4 p-color-cement">
                     Because we provide reliable, fast and up to 80% cheap shipping charges from India to any part of the world, there is no need to worry. Everyone can savor the glorious
-                    Flipkart Big Billion Day Sale, 2019 and shop till they drop meanwhile we will handle the package forwarding efficiently so that your package reaches your doorstep safely within 3-6 days.
+                    Amzon Great Indian Festival, 2019 and shop till they drop meanwhile we will handle the package forwarding efficiently so that your package reaches your doorstep safely within 3-6 days.
                 </p>
                 <br>
                 <div class="row left-padder-20">
@@ -186,7 +186,7 @@
                             <h4 class="header4 p-color-cement"><a href="/customer/register" target="_blank">Sign up at ShoppRe.com</a>, and you will get a virtual address.</h4>
                         </li>
                         <li>
-                            <h4 class="header4 p-color-cement">Shop from Flipkart.com for everything you want.</h4>
+                            <h4 class="header4 p-color-cement">Shop from AMAZON.in for everything you want.</h4>
                         </li>
                         <li>
                             <h4 class="header4 p-color-cement">Provide the virtual address given by ShoppRe.com at the time of checking out.</h4>

@@ -80,8 +80,7 @@
                         <div class="calculator cal_block" style="padding: 04px 04px 04px !important; ">
                             <center><h3 class="text-red">International Shipping Calculator</h3></center>
 
-                            <span id="calc_error" style="display: none;">Sorry! No delivery options available in requested country. Please
-contact our support team for assistance.</span>
+                            <span id="calc_error" style="display: none;">Sorry! No delivery options available in requested country. Please contact our support team for assistance.</span>
                             <form class="calc-form ng-pristine ng-valid ng-submitted" id="shipping" novalidate="novalidate">
                                 <input type="hidden" name="_token" value="txUccFXVS9erPpnHxSRGRYb89WomjhaEnx3m5HuQ">
                                 <div class="form-group">
