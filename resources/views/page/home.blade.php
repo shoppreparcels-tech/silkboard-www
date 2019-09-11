@@ -266,14 +266,14 @@
 
                     </div>
 
-{{--                    <div>--}}
-{{--                    <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">--}}
-{{--                        <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>--}}
-{{--                        Send your Rakhi Online Worlwide <span class="p-color-red" style="font-size: 14px">( रक्षाबंधन का त्यौहार )</span>,--}}
-{{--                            starting from ₹316/- 👉 <a href="https://m.shoppre.com/send-rakhi-online-worldwide" target="_blank">Ship Now!</a></p>--}}
-{{--                    </marquee>--}}
-{{--                        </p>--}}
-{{--                    </div>--}}
+                    <div>
+                    <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
+                        <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
+                            Special <span class="p-color-red" style="font-size: 14px">ONAM Offer</span> awaits you‎ ,
+                            get ₹250 discount on shipping. Use Coupon Code: ONM250. T&C Apply.</p>
+                    </marquee>
+                        </p>
+                    </div>
                 </div>
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">

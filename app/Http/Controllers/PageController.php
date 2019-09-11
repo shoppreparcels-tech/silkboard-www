@@ -686,6 +686,10 @@ class PageController extends Controller
     {
         return view('page.landing-pages.country-japan');
     }
+    public function countryUsa()
+    {
+        return view('page.landing-pages.country-usa');
+    }
     public function ifsLandingPage()
     {
         return view('page.personal-shoper');

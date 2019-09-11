@@ -1,24 +1,12 @@
 @extends('layout')
 
-
-@section('title', 'Shop from India and Ship to Japan - ShoppRe Japan')
-@section('description', 'Sign Up for Package Shipping services from India to Japan. Now easy to Shop from any India online shopping sites, international shipping with ShoppRe.
-         Latest Clothes, Shoes, Handbags, Jewellery, Smartphones, Luggage, Toys & Games.')
-@section('keywords', 'japan shipping, online shopping india, package delivery,  shipping cost, international courier')
+@section('title', 'Online Shipping from India to the USA - ShoppRe USA')
+@section('description', '')
+@section('keywords', '')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/en-jp"/>
-    <link rel="alternate" href="https://www.shoppre.com/en-jp" hreflang="en-jp" />
-
-{{--    <meta property="og:site_name" content="ShoppRe" />--}}
-{{--    <meta property="og:title" content="Buy from Amazon GREAT INDIAN FESTIVAL Sale 2019" />--}}
-{{--    <meta property="og:type" content="website" />--}}
-{{--    <meta property="og:url" content="https://www.shoppre.com/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" />--}}
-{{--    <meta property="og:image" content="https://www.shoppre.com/img/images/get-best-offers-and-deals-during-the-amazon-great-indian-sale.png" />--}}
-{{--    <meta property="og:image:width" content="1200">--}}
-{{--    <meta property="og:image:height" content="628">--}}
-{{--    <meta property="og:image:alt" content="Amazon Great Indian Sale 2019 India Online Shopping" />--}}
-{{--    <meta property="og:description" content="Shop your favorite products during Amazon Great Indian Sale & Ship Internationally with ShoppRe international package forwarding service from India." />--}}
+    <link rel="canonical" href="https://www.shoppre.com/en-us"/>
+    <link rel="alternate" href="https://www.shoppre.com/en-us" hreflang="en-us" />
 
     <style>
         .div-b-l-w ul li{list-style: none; color:#929ca5; font-weight: 700;font-size: 16px; }
@@ -41,24 +29,23 @@
                 <div class="col-md-7 col-xs-12 no-pad">
                     <div class="col-md-12 col-xs-12 no-pad">
                         <div class="col-md-12 col-xs-12">
-                            <h1 class="f-s-32 f-c-white f-w-8 ">
-                               Shop from any online stores in India. <br> We deliver to you anywhere in <span
-                                    class="p-color-red">Japan</span>
+                            <h1 class="f-s-30 f-c-white f-w-8 ">
+                                No Second Thoughts on Shopping <br> from India; We deliver to you in the <span
+                                    class="p-color-red">USA</span>
                             </h1>
 
-                            <p class="f-s-20 f-c-gray f-w-9">Follow these easy steps to shop and ship from India to Japan:</p>
+                            <p class="f-s-20 f-c-gray f-w-9">Shopping from India is a no-brainer from now on!</p>
                             <br>
                             <br>
                             <p class="f-s-22 f-c-white f-w-9"><span
-                                    class="p-color-yellow">STEP 1:</span> Sign up with ShoppRe & receive your FREE Personal Locker with a Virtual Indian Shipping Address.
+                                    class="p-color-yellow">From Amazon.in & Myntra to Jabong & Chumbak; </span> shop around as much as you want,
                                 <br>
                                 <br>
                             <p class="f-s-22 f-c-white f-w-9"><span
-                                    class="p-color-yellow">STEP 2:</span> Use your ShoppRe Address to shop from ANY Indian Shopping Website.
+                                    class="p-color-yellow">And ship'em to a virtual address we provide;</span> store them in a unique locker for 20 days for FREE;
                                 <br>
                                 <br>
-                            <p class="f-s-22 f-c-white f-w-9"><span
-                                    class="p-color-yellow">STEP 3:</span> Your purchases arrive at ShoppRe Warehouse, then can be delivered to you in 3-6 days.
+                            <p class="f-s-22 f-c-white f-w-9">We'll ship it all to you as one in just <span class="p-color-yellow">3-6 days!</span>
                                 <br>
                                 <br>
                             <p class="f-s-22 f-c-white f-w-9 ">
@@ -80,11 +67,11 @@
                         <form class="calc-form ng-pristine ng-valid ng-submitted" id="shipping" novalidate="novalidate">
                             <input type="hidden" name="_token" value="txUccFXVS9erPpnHxSRGRYb89WomjhaEnx3m5HuQ">
                             <div class="form-group">
-                                <label class="col-sm-12">Check your shipping cost from India to Japan</label>
+                                <label class="col-sm-12">Check your shipping cost from India to the USA</label>
                                 <div class="col-sm-12">
                                     <p class="form-control select2 valid" name="country" aria-required="true">
                                         <option value="226">
-                                             Japan
+                                            United States
                                         </option>
                                     </p>
                                 </div>
@@ -161,10 +148,10 @@
             </div>
             <div class=" col-md-12 pad-25">
                 <p class="f-s-26 f-c-gray f-w-9 text-center">
-                    <strong>SHOP FROM INDIA AND SHIP TO JAPAN EASILY</strong>
+                    <strong>SHOP FROM INDIA AND SHIP TO THE USA</strong>
                 </p>
                 <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">WE OFFER THE EASIEST AND CHEAPEST WAY FOR SHIPPING FROM INDIA TO JAPAN. HAVE A LOOK!</p>
+                <p class="f-s-30 f-c-d-greay f-w-9">A complete guide for shipping from India to the USA</p>
                 <br>
 {{--                <div class="row left-padder-20">--}}
 {{--                    <div class="col-md-6  border-1px">--}}
@@ -185,209 +172,267 @@
 {{--                        </ul>--}}
 {{--                    </div>--}}
 {{--                </div>--}}
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-grandeur">SHIPPING FROM INDIA TO JAPAN</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-grandeur">Who is ShoppRe & How Do We Offer to Help? </h1>
 
                 <p class="header4 p-color-cement">
-                    India and Japan have a healthy relationship and a long history of friendship rooted in spiritual affinity and strong cultural and civilizational ties.
+                    ShoppRe is an international shipping & consolidation company operating out of Bangalore, India. We strive to
+                    help our customers ship packages from ANY part of India to ANYWHERE in the world at the cheapest rates possible.
                 </p>
                 <br>
-                <p class="header4 p-color-cement">
-                    And we at ShoppRe help people in <a href="/ja-jp" target="_blank">Japan buy Indian goods</a> and ensures that the process of shipping from India to Japan is easy, secure, cheap and hassle-free.
-                </p>
-                <br>
-                <p class="header4 p-color-cement">
-                    Whether it is a package that needs to be forwarded or a courier that has been sent from India, we can handle it all. So go ahead and shop from all your
-                    coveted websites, even from those that don’t offer international shipping. Because we will deliver your order to you anywhere in Japan at your doorstep.
-                </p>
-                <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-nri">SHIPPING RATE CALCULATOR</h1>
-
-                <p class="header4 p-color-cement">Avail the cheapest shipping rates that you’ll find nowhere, and save some bucks. We offer up to 60-80% low shipping cost for shipping from India to Japan.
-                    You can calculate International shipping charges for Japan here.
-                </p>
-                <br>
-                <div class="clearfix"></div>
-                <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-nri">PACKAGE DELIVERY TIME</h1>
-
-                <p class="header4 p-color-cement">At ShoppRe, you don’t have to worry about a thing and especially the delivery of your package because we offer the FASTEST delivery
-                    that is within 3-6 DAYS. Yes! If you make shipping from India to Japan with us, this is how fast your package will be delivered.
-                    And it is possible as we have partnered with the leading courier companies like DHL, DTDC, etc. and we also take care of your package as if our own and make sure damage-free and hassle-free delivery at your doorstep.
-                </p>
-                <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-prime">PROHIBITED ITEMS IN JAPAN</h1>
-                <p class="header4 p-color-cement">Like any other country, Japan also has some prohibited items that cannot be shipped here.
-                    So make sure to check the <a href="http://www.customs.go.jp/english/summary/prohibit.htm" target="_blank">official Japanese list of prohibited goods for import</a>. <br>
-                    Moreover, we also have a list of <a href="https://ship.shoppre.com/prohibited-items-what-you-cannot-ship-internationally-from-india/" target="_blank">prohibited items that you cannot ship internationally from India</a>, make sure that your items don’t fall in either of these categories.
-
-                </p>
-                <br>
-                <div class="row left-padder-20">
-                        <ul>
-                            <p class="f-s-20 f-c-black f-w-9">Some of the prohibited items include:-</p>
-                            <li>
-                                <h4>Counterfeit items, such as fake designer shoes, branded clothing, purses and bags, watches, pirated CDs and DVDs, perfumes and illegally recreated electronics
-                                </h4>
-                            </li>
-                            <li>
-                                <h4>Firearms, bullets and ammunition, swords, daggers, non-kitchen knives (only kitchen knives are allowed)</h4>
-                            </li>
-                            <li>
-                                <h4>Awakening and psychotropic drugs and other illegal stimulants</h4>
-                            </li>
-                            <li>
-                                <h4>Marijuana, narcotics, opium, poppy straw</h4>
-                            </li>
-                            <li>
-                                <h4>Unroasted coffee beans</h4>
-                            </li>
-                            <li>
-                                <h4>Beans, except canned-beans</h4>
-                            </li>
-                            <li>
-                                <h4>Pet food or chews</h4>
-                            </li>
-                            <li>
-                                <h4>Fresh, dried or frozen fruits</h4>
-                            </li>
-                            <li>
-                                <h4>Quinoa</h4>
-                            </li>
-                            <li>
-                                <h4>Hay</h4>
-                            </li>
-                            <li>
-                                <h4>Potpourri</h4>
-                            </li>
-                            <li>
-                                <h4>Lottery Tickets</h4>
-                            </li>
-                            <li>
-                                <h4>Tobacco</h4>
-                            </li>
-                            <li>
-                                <h4>Bacon</h4>
-                            </li>
-                            <li>
-                                <h4>Feathers</h4>
-                            </li>
-                            <li>
-                                <h4>Fish Meal</h4>
-                            </li>
-                            <li>
-                                <h4>Raw-wool & Leather</h4>
-                            </li>
-                        </ul>
+                <p class="f-s-20 f-c-black f-w-9" >When do we come in?</p>
+                <div class="row left-padder-20 outer border-1px">
+                    <ul>
+                        <li>
+                            <h4>International shoppers who are curious about our culture & trends place orders for Indian products on Indian online shops</h4>
+                        </li>
+                        <li>
+                            <h4>People who live outside India, wants to shop Indian goods online, but the stores don’t ship to their country </h4>
+                        </li>
+                        <li>
+                            <h4>People from India with friends/family abroad want to send care packages or holiday greetings abroad </h4>
+                        </li>
+                        <li>
+                            <h4>Tourists & cross-country travelers need a reliable mail & package forwarding service </h4>
+                        </li>
+                        <li>
+                            <h4>Long-haul truckers and contract workers need to send mail & packages to multiple addresses in India or abroad</h4>
+                        </li>
+                        <li>
+                            <h4>Indians with offices/homes in multiple countries need to ship off their belongings/commercial packages to different locations </h4>
+                        </li>
+                        <li>
+                            <h4>Indians who frequently travel internationally for work or pleasure need to ship their cargo beforehand/afterwards </h4>
+                        </li>
+                        <li>
+                            <h4>Charities or church groups doing missions abroad need to ship donations & supplies internationally </h4>
+                        </li>
+                    </ul>
                 </div>
                 <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-shopper">EASY SHOPPING AND SHIPPING FROM INDIAN SHOPPING WEBSITES</h1>
-                <p class="f-s-20 f-c-gray f-w-9">Follow these easy steps to shop and ship from India to Japan:
+                <p class="header4 p-color-cement">These many & more scenarios when our customer base looks for a reliable shipping option; for all which we're ready with tailor-made solutions.
                 </p>
-                <div class="row left-padder-20">
-                    <ol>
-                        <li>
-                            <h4>Sign up at ShoppRe.com, if you haven’t already, and you will get a virtual address</h4>
-                        </li>
-                        <li>
-                            <h4>Shop from your favorite online shopping portal from India for everything from clothes, accessories, makeup to kitchen appliances,
-                                electronics, home furnishing and a lot more.</h4>
-                        </li>
-                        <li>
-                            <h4>Provide the virtual address given by ShoppRe.com at the time of checking out using the COD option.</h4>
-                        </li>
-                        <li>
-                            <h4>We will collect your order and pay for it.</h4>
-                        </li>
-                        <li>
-                            <h4>Once we receive all of your order we will ship it after you request it to ship.</h4>
-                        </li>
-                        <li>
-                            <h4>Then we pack and ship the consolidated package at your address abroad. And you receive it within 3-6 days.</h4>
-                        </li>
-                    </ol>
-                </div>
-                <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-attractive">TOP INDIAN SHOPPING PORTALS TO SHOP WITH SHOPPRE ADDRESS</h1>
-{{--                <p class="f-s-20 f-c-d-greay f-w-9 txt-italic">1. Amazon Swiggy Cashback Offer</p>--}}
-                <p class="header4 p-color-cement">Now you have easy access to shop from 1000+ Indian online stores with ShoppRe Address. Here is a list of some of the best online Indian shopping websites
-                    that you can shop from, and ship your order at your doorstep in Japan, through us. So browse through these online portals and shop for all your favorites products
-                    from your favorite websites.
+                <p class="header4 p-color-cement">Have a package to send abroad? Have a chat with our friendly Support team. We're looking forward to hearing from you!
                 </p>
                 <br>
-                <p class="header4 p-color-cement">With ShoppRe, you can avail of the best deals and offers online during the grand sales from almost any online store, even those that won’t
-                    ship to a Japanese address. So, join in and be part of our community and start buying the hottest picks for the season and ship them at your doorstep to Japan today!
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-nri">Send Packages Abroad With Our Expert Package Consolidation & Shipping Services </h1>
+                <p class="header4 p-color-cement">Do you miss Indian products & would like to flaunt your ethnicity once in a while? Shop online and get our
+                    Shop&Ship services to ship your bags to wherever in the world you want.
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-blue f-w-9">HOW TO SEND COURIER FROM INDIA TO JAPAN?</h1>
-                <p class="header4 p-color-cement">If you want to send a simple <a href="/international-courier-charges-india-to-japan-per-kg" target="_blank">courier to Japan from ANY part of India</a>, then we can help with it too. We offer door to door courier to Japan from any part of India and ship from India to Japan with the cheapest shipping charges for sending a courier to Japan.
+                <p class="header4 p-color-cement">Miss your family & friends who stays abroad, especially on holidays? ShoppRe Courier will take care of everything
+                    if you wish to send them your greetings or care packages.
                 </p>
                 <br>
-                <p class="f-s-20 f-c-gray f-w-9">To send a courier abroad, all you have to do is follow these steps:</p>
+                <p class="header4 p-color-cement">All you have to do is; just ship your packages to your Personal Locker at ShoppRe and we’ll take it from there right until
+                    dispatching it to one of our courier partners. Our expert packers will efficiently repackage all your packages into one shipment to
+                    get the lowest shipping rates for you. Since the majority of Indian shopping sites don’t offer to ship internationally,
+                    you can get us to forward your purchases for you or your loved ones.
+                </p>
                 <br>
+                <p class="header4 p-color-cement">You can also track your packages/shipment in real time and you'll get e-mail alerts in addition, after it reaches our warehouse.
+                    We’ll receive your purchases and hold them for FREE for a period of 20 days. Once you make a Ship Request; our experts get to work and we move on to consolidation.
+                    Our Package Consolidation service is what saves our customers up to 80% in shipping costs each time they ship with us.
+                </p>
+                <br>
+                <p class="header4 p-color-cement">Why do it all on your own and pay way too much at your local couriers while spending the next days hoping it clears customs?
+                    That is what we're here for! Sit back and relax; we'll take good care of your package.
+                </p>
+                <br>
+
+
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-nri">Travelling much? We can ship your couriers while you're on the move </h1>
+                <p class="header4 p-color-cement">Indians who travel often and need mail/packages delivered to multiple addresses can ship all their packages
+                    to a unique locker and we’ll store them for FREE up to 20 days. We’ll forward those items anywhere inside or outside India when they make a ship request.
+                    Our package consolidation and repackaging services will ensure they get the lowest shipping rates as possible.
+                </p>
+                <br>
+                 <p class="f-s-20 f-c-gray f-w-9">Who can benefit from our services?</p>
+                    <ul class="header4 p-color-cement">
+                        <li>
+                            <h4>Long-distance hikers, cross country travelers, and people who travel frequently across India for work.</h4>
+                        </li>
+                        <li>
+                            <h4>Long-haul truckers and contract workers who are on the move.</h4>
+                        </li>
+                        <li>
+                            <h4>People with homes/offices in multiple countries/cities</h4>
+                        </li>
+                        <li>
+                            <h4>Indians who travel internationally for work/leisure</h4>
+                        </li>
+                    </ul>
+                <p class="header4 p-color-cement">People usually come to us with their peculiar shipping needs and we never hesitate to go above and beyond for them.</p>
+                <br>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-shopper">Love celebrating Indian holidays, but missing home? </h1>
+                <p class="header4 p-color-cement">Indians are a traditional bunch and no matter where in the world they are, holidays get to them. Through ShoppRe, Indians can
+                    shop authentic Indian products and Indians here can send their holiday greetings and more off to their family and friends who reside in the US.
+                </p>
                 <ul class="header4 p-color-cement">
-                    <li> Schedule a Pickup from ANYWHERE in India; our experts will come to your door to pick it up,
+                    <li>
+                        <h4>Shop and Ship - allows you to avail all the season offers running on Indian online shops while shopping on any holiday/cultural
+                            festival and in turn grants our own discounts in shipping rates</h4>
+                    </li>
+                    <li>
+                        <h4>ShoppRe Courier - lets you send hampers, gifts, holiday special packages and more off to your loved ones in the USA.</h4>
+                    </li>
+                </ul>
+
+                <br>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-attractive">What items you cannot send to the USA?</h1>
+                <p class="header4 p-color-cement">The US Customs and import laws are quite tough on what goods can be imported along with several restrictions
+                    in place on items that it is worth familiarizing yourself with.
+                    Please make sure to visit the official US Customs page for restricted and prohibited items before booking a delivery,
+                    to avoid any additional fees or delays to your courier/parcel. You can also contact the U.S. Customs and Border Protection office for additional information on what you can
+                    and can’t send to the United States. You can also check our list of prohibited items here, to ensure that your items don’t fall under this category.
+                </p>
+                <br>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-attractive">How much will it cost to send a package from India to the USA?</h1>
+                <p class="header4 p-color-cement">Shipping to the USA starts at as little as ₹1449/- with us. By placing your order through us, you get up to 60-80% low shipping rates,
+                    this means that you always pay the lowest price possible for your deliveries to the USA. Your shipment will be delivered by the best courier companies in the
+                    market like DHL, DTDC, etc. You can check for the shipping cost through our shipping cost calculator.
+                </p>
+                <br>
+                <h1 class="f-s-26 f-c-blue f-w-9">How do to shop from India and get your package delivered in the USA?</h1>
+                <p class="header4 p-color-cement">To shop from your favorite Indian websites and get your package delivered at your doorstep in the USA, follow these easy steps:
+                </p>
+                <br>
+                <ol class="header4 p-color-cement">
+                    <li> Sign up at ShoppRe.com, and you will get a virtual address.
+                    </li>
+                    <li>Shop from your favorite online shopping portal from India and shop for everything you want from clothes, accessories,
+                        footwear, bags to electronics, home appliances, mobile phones and much more.
+                    </li>
+                    <li>Provide the virtual address given by ShoppRe.com at the time of checking out using the COD option.
+                    </li>
+                    <li>We will collect your order and pay for it.
+                    </li>
+                    <li>Once we receive all of your order we will ship it after you request it to ship.
+                    </li>
+                    <li>Then we pack and ship the consolidated package at your address abroad. And you receive it within 3-6 days.
+                    </li>
+                </ol>
+                <br>
+
+                <h1 class="f-s-26 f-c-blue f-w-9">How to send a parcel/courier to the USA?</h1>
+                <p class="header4 p-color-cement">Send courier to the USA from India with us and avail the cheapest shipping rates. To send a courier abroad, all you have to do is follow these steps:
+                </p>
+                <br>
+                <ol class="header4 p-color-cement">
+                    <li>Schedule a Pickup from ANYWHERE in India; our experts will come to your door to pick it up,
                     </li>
                     <li>We process it while you pay us the shipping cost.
                     </li>
                     <li>And, we jump through hoops to dispatch your package off to your destination in just 48 hours,
                     </li>
-                    <li>One of our efficient & appropriate courier partners will get the package to its destination in just 3-6 days, ANYWHERE in Japan.
+                    <li>One of our efficient & appropriate courier partners will get the package to its destination in just 3-6 days, ANYWHERE in the USA.
+                    </li>
+                </ol>
+                <br>
+
+                <h1 class="f-s-26 f-c-blue f-w-9">How to Package Your Goods to send to the USA?</h1>
+                <p class="header4 p-color-cement">Your packages will be handled many times when they are loaded and off-loaded from vehicles and aircraft and
+                    they may have boxes placed on top of them and experience jerk while transportation. We suggest that you ensure your items are packaged safely, here are some tips:
+                </p>
+                <br>
+                <ul class="header4 p-color-cement">
+                    <li>Always use a strong rigid box.
+                    </li>
+                    <li>You can use a double-lined box if the package exceeds 10 kg and a triple lined box if it exceeds 30 kg.
+                    </li>
+                    <li>You should wrap each item separately.
+                    </li>
+                    <li>Whenever you send a parcel containing fragile items, use a double-corrugated cardboard box for the outer packaging.
+                    </li>
+                    <li>For internal packaging, use bubble-wrap and wrap your items individually. Remember to fill any remaining space left in the box with any left-over bubble wrap, newspaper or foam.
                     </li>
                 </ul>
+
                 <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-mobile">SAVE MORE ON SHIPPING USING SHOPPRE’S PREMIUM MEMBERSHIP</h1>
-                <p class="header4 p-color-cement">Why spend an exorbitant amount on international shipping from India to Japan every year when you can make great savings?
-                    Great idea, isn't it? Yes, and we have made it possible with our “PREMIUM MEMBERSHIP” plan.
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-mobile">When will you receive your package?</h1>
+                <p class="header4 p-color-cement">ShoppRe understands its customers and their need for urgent parcel delivery,
+                    keeping that in mind we offer the fastest courier services from India to the USA that delivers within 3-6 working days.
                 </p>
                 <br>
-                <p class="header4 p-color-cement">Membership Plans are specifically designed for customers who use our services including
-                    <a href="/personal-shopper-india" target="_blank">Personal Shopper </a> frequently or
-                    for bulk international shipments. You can see the obvious difference in costs here and save up to 80% on your shipping to Japan today!
-                </p>
-                <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-mobile">WE DELIVER IN EVERY CITY IN JAPAN</h1>
-                <p class="header4 p-color-cement">Yes, you heard it right, we will deliver your package in every city in Japan quickly at your doorstep whether
-                    you live in Hokkaido, Tohoku, Kanto, Chubu, Kinki, Chugoku, Shikoku or Kyushu-Okinawa. Thus you can trust us and make shipping from India to Japan with us.
-                    Some of the cities where we deliver are-
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-mobile">Where do we ship in the USA?</h1>
+                <p class="header4 p-color-cement">We can ship your package in every state of the USA within 3-6 working days at your doorstep. Some of the cities where we deliver are-
                 </p>
                 <br>
                 <div >
                     <table style="width: 100%;text-align: center;">
                         <tr>
-                            <td>Tokyo</td> <td>Kyoto</td>
+                            <td>Alabama</td> <td>Montana</td>
                         </tr>
                         <tr>
-                            <td>Fukuoka</td> <td>Sendal</td>
+                            <td>Alaska</td> <td>Nebraska</td>
                         </tr>
                         <tr>
-                            <td>Sapporo</td> <td>Yokohama</td>
+                            <td>Arizona</td> <td>Nevada</td>
                         </tr>
                         <tr>
-                            <td>Hiroshima</td> <td>Fukuoka</td>
+                            <td>Arkansas</td> <td>New Hampshire</td>
                         </tr>
                         <tr>
-                            <td>Sagamihara</td> <td>Sakai</td>
+                            <td>California</td> <td>New Jersey</td>
                         </tr>
                         <tr>
-                            <td>Himeji</td> <td>Hamamatsu</td>
+                            <td>Colorado</td> <td>New Mexico</td>
                         </tr>
                         <tr>
-                            <td>Matsudo</td> <td>Okayama</td>
+                            <td>Connecticut</td> <td>New York</td>
                         </tr>
                         <tr>
-                            <td>Nagoya</td> <td>Saltama</td>
+                            <td>Delaware</td> <td>North Carolina</td>
                         </tr>
                         <tr>
-                            <td>Nara</td> <td>Kitakyushu</td>
+                            <td>Florida</td> <td>North Dakota</td>
                         </tr>
                         <tr>
-                            <td>Osaka</td> <td>Shizuoka</td>
+                            <td>Georgia</td> <td>Ohio</td>
                         </tr>
                         <tr>
-                            <td>Chiba</td> <td>Niigata</td>
+                            <td>Hawaii</td> <td>Oklahoma</td>
                         </tr>
                         <tr>
-                            <td>Kobe</td> <td>Kumamoto</td>
+                            <td>Idaho</td> <td>Oregon</td>
+                        </tr>
+                        <tr>
+                            <td>Illinois</td> <td>Pennsylvania</td>
+                        </tr>
+                        <tr>
+                            <td>Indiana</td> <td>Rhode Island</td>
+                        </tr>
+                        <tr>
+                            <td>Iowa</td> <td>South Carolina</td>
+                        </tr>
+                        <tr>
+                            <td>Kansas</td> <td>South Dakota</td>
+                        </tr>
+                        <tr>
+                            <td>Kentucky</td> <td>Tennessee</td>
+                        </tr>
+                        <tr>
+                            <td>Louisiana</td> <td>Texas</td>
+                        </tr>
+                        <tr>
+                            <td>Maine</td> <td>Utah</td>
+                        </tr>
+                        <tr>
+                            <td>Maryland</td> <td>Vermont</td>
+                        </tr>
+                        <tr>
+                            <td>Massachusetts</td> <td>Virginia</td>
+                        </tr>
+                        <tr>
+                            <td>Michigan</td> <td>Washington</td>
+                        </tr>
+                        <tr>
+                            <td>Minnesota</td> <td>West Virginia</td>
+                        </tr>
+                        <tr>
+                            <td>Mississippi</td> <td>Wisconsin</td>
+                        </tr>
+                        <tr>
+                            <td>Missouri</td> <td>Wyoming</td>
                         </tr>
                     </table>
                 </div>
@@ -487,7 +532,7 @@
 
             // submitHandler: function (form) {
             $("#getRates").click(function(e) {
-                var country = 'JP';
+                var country = 'US';
                 var weight = $('#weight').val();
                 var weight_unit = 'kg'; //  $("input[name='unit']:checked").val();
                 var measurement_unit = $("input[name='measurement_unit']:checked").val();

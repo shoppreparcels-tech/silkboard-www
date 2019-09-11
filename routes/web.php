@@ -686,6 +686,7 @@ Route::get('/flipstart-days-avail-best-offers-on-flipkart-enjoy-special-discount
 
 /*-------- New Country Guides Landing Pages ------*/
 Route::get('/en-jp', 'PageController@countryJapan')->name('countryJapan');
+Route::get('/en-us', 'PageController@countryUsa')->name('countryUsa');
 
 
 /*-------- Per KG Landing Pages ------*/
