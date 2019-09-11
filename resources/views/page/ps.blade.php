@@ -52,6 +52,11 @@
                                     <p><span class="font-bold">9.&nbsp;</span><span>There is No return policy or Cancellation for Assisted Purchase order from ShoppRe.Because most of the indian online store dont have Return policy service.</span>
                                         <span>Assisted Purchase Cancellation is not allowed, not unless we received damage or incorrect item.</span></p><br>
                                     <p><span class="font-bold">10.&nbsp;</span><span>For Self Purchase the Return or Cancellation Charges for each item will be INR 400.</span></p><br>
+                                    <p><span class="font-bold">11.&nbsp;</span><span>We are in no way responsible for the genuineness of the e-commerce website from which customers requests us to buy. The onus to choose the right vendor lies on the customer.</span></p><br>
+                                    <p><span class="font-bold">12.&nbsp;</span><span>We do not take responsibility if the item is fake/not up to the expectation of the customer/or if the item differs from the image shown in the e-commerce portal.</span></p><br>
+                                    <p><span class="font-bold">13.&nbsp;</span>In an exceptional situation(item damaged/incorrect item/item not received etc), where we are forced to return the item to the e-commerce vendor,<span></span>
+                                        <span>we will follow the return policy as per the e-commerce vendor. In case the vendor do not have a refund policy, we would not be able to return the same.</span>
+                                        <span>In case the return policy exists, the refund would be initiated once we receive the refund from the e-commerce portal. This may take from 7 days to 3 months.</span></p><br>
                                 </ol>
                             </div>
                         </div>
