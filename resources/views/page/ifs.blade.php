@@ -121,7 +121,7 @@
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                 <a href="https://www.amazon.in/b?node=11034733031&pf_rd_p=2b2bd439-70ae-405d-856f-dfdfc2511ae4&pf_rd_r=050HXF5T2DXKPWR9ECDE" title="Amazon" target="_blank">1. Amazon.in 👉ONAM Store</a> |
                 <a href="https://www.flipkart.com/fashion-weekend-brand-2019-store" title="flipkart" target="_blank">2. Flipkart 👉Fashion From Rs 299 </a> |
-                <a href="https://www.ajio.com" title="ajio" target="_blank">3. AJIO.com 👉Festive Winter 19</a>
+                <a href="https://www.ajio.com" title="ajio" target="_blank">3. AJIO.com 👉Weekend Binge Sale</a>
             </marquee>
         </div>
         <div class="container" id="how-it-works">

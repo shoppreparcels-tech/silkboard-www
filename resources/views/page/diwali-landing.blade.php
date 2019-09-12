@@ -12,14 +12,16 @@
 
     <section class="bg-diwali-landing-page">
         <div class="container">
-            <div class="col-md-12" style="padding:20px;margin-bottom: 3em">
-                <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">
-                </a>
-                <a href="tel:+91-8277919191" class="d-contact-img pull-right">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">
-                </a>
-            </div>
+{{--            <div class="col-md-12" style="padding:20px;margin-bottom: 3em">--}}
+{{--                <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">--}}
+{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">--}}
+{{--                </a>--}}
+{{--                <a href="tel:+91-8277919191" class="d-contact-img pull-right">--}}
+{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">--}}
+{{--                </a>--}}
+{{--            </div>--}}
+            <br>
+            <br>
 
             <div class="col-sm-7 col-xs-12">
                 <h1 class="header1 p-color-white header-spacing">SAVE UPTO
@@ -127,19 +129,19 @@
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                    class="startsValidValue"> 15th SEP 2019</span></p>
+                                    class="startsValidValue"> NA</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                    class="startsValidValue"> 30th OCT 2019</span></p>
+                                    class="startsValidValue"> NA</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">COUPON CODE :<span
-                                    class="startsValidValue"> DIWL15</span></p>
+                                    class="startsValidValue"> NA</span></p>
                         </center>
 
                     </div>
@@ -240,13 +242,13 @@
 
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
-                        <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
+                        <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
                     <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
                 <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align ">
-                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
+                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i> SUPPORT EMAIL</p>
                     <a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>
 
                 </div>
@@ -255,7 +257,7 @@
                     class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details pull-right contact-text-align">
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
-                        </i>Live Chat</p>
+                        </i> Live Chat</p>
                     <a href="{{Constant::CHATURL}}" target="_blank"
                        class="header2 p-color-white">Chat Now</a>
 
@@ -285,13 +287,13 @@
 
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
-                        <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
+                        <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
                     <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
                 <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align " style="color: #fdf699">
-                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
+                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i> SUPPORT EMAIL</p>
                     <a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>
 
                 </div>
@@ -300,7 +302,7 @@
                      style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
-                        </i>Live Chat</p>
+                        </i> Live Chat</p>
                     {{--<a href="http://v2.zopim.com/widget/livechat.html?key=WMWUM4as7ltiMKHbRXiFRw3imdMiLtAV"--}}
                        {{--class="header2 p-color-white">Chat Now</a>--}}
 

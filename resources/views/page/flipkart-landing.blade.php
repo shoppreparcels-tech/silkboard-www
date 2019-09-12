@@ -31,7 +31,7 @@
     <section class="bg-ics-landing-page">
         <div class="container">
             <center>
-                <h1 class="p-color-white header-spacing d-header-text">Flipkart International Shipping From India</h1>
+                <h1 class="p-color-white header-spacing d-header-text">FLIPKART International Shipping From India</h1>
             </center>
         </div>
     </section>
@@ -39,7 +39,8 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart - SEPTEMBER 2019 SALE</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - SEPTEMBER 2019 SALE
+                        <br> [ 👉 <a href="/flipkart-big-billion-days-sale-offers-top-brands-stores">The Big Billion Day Sale</a> 29th Sep to 04th OCT ]</h2>
                 </div>
             </div>
             <div class="row text-center">
@@ -276,7 +277,7 @@
     <section class="chris-benefits">
         <div class="container" >
             <center>
-                <h1 class="header3 p-color-cement-dark font-weight-900" >FLIPKART Offers, Deals & Sale</h1>
+                <h1 class="p-color-cement-dark font-weight-900" >FLIPKART Offers, Deals & Sale</h1>
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">

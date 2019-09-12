@@ -363,15 +363,15 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://www.amazon.in/b?node=11034733031&pf_rd_p=2b2bd439-70ae-405d-856f-dfdfc2511ae4&pf_rd_r=050HXF5T2DXKPWR9ECDE" title="Click Here" target="_blank">
+                        <a href="https://www.amazon.in/b?ie=UTF8&node=12597663031&pf_rd_p=de5e0973-d170-491f-b99b-c99fa3b20896&pf_rd_r=GJAD54830KF6FVX3MKAF" title="Click Here" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">ONAM STORE FOR SHOPPING</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">HOME FESTIVE SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Top Brands. Latest Styles</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">STARTING ₹75/-</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9"><u>Amazon.in Onam Shopping</u></span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9"><u>12th - 15th Sep</u></span></p>
                             <br> <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Shop from Amazon India & Get Delivered Worldwide with ShoppRe.</p>
                         </div>
@@ -760,7 +760,7 @@
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 147px;">
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">227 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">228 Google Reviews</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787 ">Shipping and Delivery Service</p>

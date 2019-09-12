@@ -50,8 +50,8 @@
 {{--           </div>--}}
            <div class="col-md-12 col-xs-12 text-center">
                <h1 class="f-s-26 f-c-d-greay f-w-9">Flipkart Big Billion Days Sale 2019</h1>
-           <a href="https://api.whatsapp.com/send?phone=917338208403&text=Flipkart%20Big%20Billion%20Day%20Sale"
-              target="_blank" class="btn btn-s-b btn-b-g">WhatsApp ShoppRe.com</a>
+           <a href="https://www.flipkart.com/big-billion-days-store"
+              target="_blank" class="btn btn-s-b btn-b-b">The Big Billion Days - Check Offer</a>
 
            </div>
        </div>
@@ -69,13 +69,13 @@
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                        class="startsValidValue"> 02nd Oct 2019</span></p>
+                                        class="startsValidValue"> 04th Oct 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
-                            <p class="startsvalid">NOTE :<span
-                                        class="startsValidValue"> Date may change</span></p>
+                            <p class="startsvalid">STORE :<span
+                                        class="startsValidValue"> flipkart.com</span></p>
                         </center>
 
                     </div>
@@ -83,7 +83,7 @@
             </div>
             <div class=" col-md-12 pad-25">
                 <p class="f-s-20 f-c-gray f-w-9">
-                    <strong>Get ready to save big on your next shopping spree with Flipkart during the Big Billion Days Sale, 2019, happening from 29th September to 2nd October,
+                    <strong>Get ready to save big on your next shopping spree with Flipkart during the Big Billion Days Sale, 2019, happening from 29th September to 4th October,
                         with all the amazing offers, great deals and huge discounts on some of the hottest brands of fashion, phones, electronics, home appliances and other categories sitewide</strong>
                 </p>
 {{--                <h1 class="f-s-18 f-c-d-greay f-w-7">This Offer is applicable for all the ShoppRe Services</h1>--}}
@@ -332,7 +332,7 @@
                 </p>
                 <br>
                 <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">1. Remember the date:</strong> Mark it on your calendar or set an alarm for it, do anything you
-                    have to do but do not forget it. It is very crucial to remember the date of the Flipkart big billion days Sale- 29th September to 2nd October. So this time
+                    have to do but do not forget it. It is very crucial to remember the date of the Flipkart big billion days Sale- 29th September to 4th October. So this time
                     we will get full FIVE days of happy shopping and to avoid all confusion of shopping during the sale, Flipkart has decided to divide its
                     offers for various categories across these dates. So make sure to check them out too regularly.
                 </p>
@@ -398,32 +398,32 @@
                         </tr>
                         <tr>
                             <td>
-                                29th Sep - 2nd October 2019
+                                29th Sep - 4th October 2019
                             </td>
                             <td>Fashion, TV & Appliances</td>
                         </tr>
                         <tr>
                             <td>
-                                30th Sep - 2nd October 2019
+                                30th Sep - 4th October 2019
                             </td>
                             <td>Mobile Phones, Computers & Electronics</td>
                         </tr>
                         <tr>
                             <td>
-                                30th Sep - 2nd October 2019
+                                30th Sep - 4th October 2019
                             </td>
                             <td>All Categories on Flipkart</td>
                         </tr>
                         <tr>
                             <td>
-                                1st Oct - 2nd October 2019
+                                1st Oct - 4th October 2019
                             </td>
                             <td>All Categories</td>
                         </tr>
                     </table>
                 </div>
                 <br>
-                <p class="f-s-20 f-c-l-gray f-w-9">29th Sep – 2nd October: Offers on Fashion, TV’s  & Appliances</p>
+                <p class="f-s-20 f-c-l-gray f-w-9">29th Sep – 4th October: Offers on Fashion, TV’s  & Appliances</p>
                 <br>
                 <p class="header4 p-color-cement">The sale will begin with fantastic offers and discounts on Fashion apparel & accessories, Beauty, Television & Appliances,
                     and other similar categories on major products from top brands will be up for grabs at massive discounts.
@@ -440,7 +440,7 @@
                     This sale is offering the best possible discount on mobile phones that you will ever find anywhere else. Other deals like No Cost EMI,
                     Mobile protection service and buyback guarantee are just like the cherry on the top along with already present massive discounts on them.
                 </p>
-                <br><p class="f-s-20 f-c-l-gray f-w-9">30th Sep - 2nd October: Offers on Electronics & Computers</p>
+                <br><p class="f-s-20 f-c-l-gray f-w-9">30th Sep - 4th October: Offers on Electronics & Computers</p>
                 <br>
                 <p class="header4 p-color-cement">You will not be able to resist these sweet deals on electronics and computers and then you will end up buying one more laptop for
                     yourself. This year’s Flipkart Big Billion Day Sale is offering huge deals and discounts on laptops, speakers, sounders, digital cameras, tablets,
@@ -712,8 +712,8 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Shopping Days"><span><a
-                                        href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Amazon.in Great Indian Festival"><span><a
+                                        href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">Amazon.in Great Indian Festival</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Freedom Sale"><span><a
                                         href="/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Flipstart Days"><span><a
@@ -768,3 +768,8 @@
 
 @endsection
 
+@section('js_script')
+    <script type='text/javascript'>
+        var pubID="54240CL48886";!function(t,s){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src=("https:"==document.location.protocol?"https://cdn0.cuelinks.com/js/":"http://cdn0.cuelinks.com/js/")+"cuelinksv1.js",document.getElementsByTagName("body")[0].appendChild(e)}(),$(document).ready(function(){var t=".MultiCarousel",s=".MultiCarousel-inner",e="";function a(){var a=0,i=0,r="",n="",o=$(t).width(),c=$("body").width();$(s).each(function(){i+=1;var t=$(this).find(".item").length;r=$(this).parent().attr("data-items"),n=r.split(","),$(this).parent().attr("id","MultiCarousel"+i),c>=1200?(a=n[3],e=o/a):c>=992?(a=n[2],e=o/a):c>=768?(a=n[1],e=o/a):(a=n[0],e=o/a),$(this).css({transform:"translateX(0px)",width:e*t}),$(this).find(".item").each(function(){$(this).outerWidth(e)}),$(".leftLst").addClass("over"),$(".rightLst").removeClass("over")})}function i(t,a){var i="#"+$(a).parent().attr("id");!function(t,a,i){var r="",n=$(a+" "+s).css("transform").match(/-?[\d\.]+/g),o=Math.abs(n[4]);if(0==t)r=parseInt(o)-parseInt(e*i),$(a+" .rightLst").removeClass("over"),r<=e/2&&(r=0,$(a+" .leftLst").addClass("over"));else if(1==t){var c=$(a).find(s).width()-$(a).width();r=parseInt(o)+parseInt(e*i),$(a+" .leftLst").removeClass("over"),r>=c-e/2&&(r=c,$(a+" .rightLst").addClass("over"))}$(a+" "+s).css("transform","translateX("+-r+"px)")}(t,i,$(i).attr("data-slide"))}$(".leftLst, .rightLst").click(function(){i($(this).hasClass("leftLst")?0:1,this)}),a(),$(window).resize(function(){a()})});
+    </script>
+@endsection
