@@ -22,7 +22,7 @@
                         </a>
                     </span><br>
                     <span itemprop="telephone">
-                        <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team;" target="_blank">
+                        <a href="http://bit.ly/shopr-fot-919191" target="_blank">
                             <img class="pad-t-10" src="{{env('AWS_CLOUD_FRONT')}}/img/images/shipping-whatsapp.png"
                                  alt="Shoppre contact number">
                         </a>

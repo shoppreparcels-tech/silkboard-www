@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', 'Flipkart FLIPSTART Days Shopping [1st - 3rd September 2019]')
+@section('title', 'Flipkart FLIPSTART Days Shopping [1st - 3rd October 2019]')
 @section('description', 'Learn the easy steps you can follow to avail Offers, tremendous discounts during Flipkart Flipstart Days and International shipping services from India.')
 @section('keywords', 'flipkart, flipstart days, online shopping, international shipping, offers, sale, deals, discounts')
 
@@ -32,7 +32,7 @@
                </div>
            </div>
            <div class="col-md-12 col-xs-12 text-center">
-               <h1 class="f-s-26 f-c-d-greay f-w-9">Flipkart Flipstart Day Sale: 1st September to 3rd September 2019</h1>
+               <h1 class="f-s-26 f-c-d-greay f-w-9">Flipkart Flipstart Day Sale: 1st October to 3rd October 2019</h1>
            <a href="https://clnk.in/jt4J"
               target="_blank" class="btn btn-s-b btn-b-r">Visit Flipkart Flipstart Days</a>
            </div>
@@ -45,13 +45,13 @@
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                        class="startsValidValue"> 01st Sep 2019</span></p>
+                                        class="startsValidValue"> 01st Oct 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                        class="startsValidValue"> 03rd Sep 2019</span></p>
+                                        class="startsValidValue"> 03rd Oct 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
@@ -65,7 +65,7 @@
             </div>
             <div class=" col-md-12 pad-25">
                 <p class="f-s-20 f-c-gray f-w-9">
-                    <strong>The monthly Flipkart Flipstart Day Sale is back for September, and it is occurring from 1st September to 3rd September only on everyone’s
+                    <strong>The monthly Flipkart Flipstart Day Sale is back for October, and it is occurring from 1st October to 3rd October only on everyone’s
                         favorite online shopping portal, Flipkart, with exclusive offers on all your desired product categories like apparel, fashion, beauty, footwear,
                         accessories, sports, home furnishing, electronics, TVs, ACs, mobile phones, cameras, baby care and a lot more.</strong>
                 </p>  <br>

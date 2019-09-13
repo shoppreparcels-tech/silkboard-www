@@ -29,15 +29,15 @@
                                 <ol>
                                     <p><span class="font-bold">1.&nbsp;</span><span>The entire payment, which includes the cost of the order + the Personal Shopper service cost, needs to be cleared BEFORE Shoppre makes the purchase for you.</span>
                                         <span>The Personal Shopper service cost is non-refundable for a successfully placed order, irrespective of whether the order is edited/cancelled at a later stage.</span>
-                                        <span>However, the rest of the amount shall be credited to Shoppre wallet within 24 hours in such a case.</span></p><br>
+                                        <span>However, the rest of the amount shall be credited to ShoppRe wallet within 24 hours in such a case.</span></p><br>
                                     <p><span class="font-bold">2.&nbsp;</span><span>We accept payment through netbanking/credit card/Paypal/Paytm/wire transfer.</span></p><br>
-                                    <p><span class="font-bold">3.&nbsp;</span><span>All Personal Shopper orders will be delivered to your Shoppre shipping address.</span></p><br>
-                                    <p><span class="font-bold">4.&nbsp;</span><span>The Personal Shopper order can be edited or cancelled before you make the payment to Shoppre. You can also cancel your order post the payment, provided we haven’t already made the purchase on your behalf.</span>
-                                        <span>The money will be credited to your Shoppre wallet within 24 hours, which can then be used for your future Shoppre orders.</span></p><br>
+                                    <p><span class="font-bold">3.&nbsp;</span><span>All Personal Shopper orders will be delivered to your ShoppRe shipping address.</span></p><br>
+                                    <p><span class="font-bold">4.&nbsp;</span><span>The Personal Shopper order can be edited or cancelled before you make the payment to ShoppRe. You can also cancel your order post the payment, provided we haven’t already made the purchase on your behalf.</span>
+                                        <span>The money will be credited to your ShoppRe wallet within 24 hours, which can then be used for your future ShoppRe orders.</span></p><br>
                                     <p><span class="font-bold">5.&nbsp;</span><span>To edit or cancel your order pre-payment, click on Personal Shopper > Order Form.</span></p><br>
                                     <p><span class="font-bold">6.&nbsp;</span><span>To cancel your order post-payment, access your Order History to view the list of your recent orders. If we haven’t processed the purchase on your behalf, the option to Cancel will be available</span></p><br>
                                     <p><span class="font-bold">7.&nbsp;</span><span>An e-mail notification shall be sent out to you once your order reaches your Shoppre address. You can also request for any additional photographs of the package for an additional cost.</span></p><br>
-                                    <p><span class="font-bold">8.&nbsp;</span><span>Shoppre reserves the right to make any additions/changes in these terms and conditions at any given point of time. Keep checking this page for updates.</span></p>
+                                    <p><span class="font-bold">8.&nbsp;</span><span>ShoppRe reserves the right to make any additions/changes in these terms and conditions at any given point of time. Keep checking this page for updates.</span></p>
                                     <p><span class="font-bold">9.&nbsp;</span><span>There is No return policy or Cancellation for Assisted Purchase order from ShoppRe.Because most of the indian online store dont have Return policy service.</span>
                                         <span>Assisted Purchase Cancellation is not allowed, not unless we received damage or incorrect item.</span></p><br>
                                     <p><span class="font-bold">10.&nbsp;</span><span>For Self Purchase the Return or Cancellation Charges for each item will be INR 400.</span></p><br>
@@ -107,7 +107,7 @@
                 </div>
                 {{--</div>--}}
                 <div class="col-md-12 col-xs-12 div-btn-padding">
-                    <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Assisted%20Purchase%20Service" style="color:white" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
+                    <a href="http://bit.ly/ps-lp-8403" style="color:white" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
                 </div>
             </div>
             <div class="col-md-7 col-lg-7 col-sm-7 col-xs-12 no-padding " id="img-shopping" >

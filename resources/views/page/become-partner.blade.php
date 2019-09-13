@@ -201,7 +201,7 @@
                             <div class="col-md-12 col-xs-12 no-pad  ">
                                 <h6 class="advertisement-text">Exciting Offers</h6>
                                 <div class="col-md-12 col-xs-12 no-pad" >
-                                    <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20ShoppRe%20Team;%20I'm%20Seller%20Need%20Information%20On%20Pricing" target="_blank" title="Click To Message Us on WhatsApp">
+                                    <a href="http://bit.ly/shpr-seller" target="_blank" title="Click To Message Us on WhatsApp">
                                         <img style="width: 300px; height: auto; margin-bottom: 20px" src="{{env('AWS_CLOUD_FRONT')}}/img/images/shoppre-b2c-b2b-c2c.png">
                                     </a>
 

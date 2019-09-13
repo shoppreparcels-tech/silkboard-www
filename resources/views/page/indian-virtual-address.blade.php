@@ -15,10 +15,10 @@
     <section class="bg-ics-l-p">
         <div class="container">
             <div class="col-md-12">
-                <a href="https://api.whatsapp.com/send?phone=919880393291&text=Welcome%20to%20ShoppRe.com" target="_blank" class="pull-right d-contact-img-desktop">
+                <a href="http://bit.ly/2kIoiD6" target="_blank" class="pull-right d-contact-img-desktop">
                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9880393291-shop-ship-contact-number.png" alt="">
                 </a>
-                <a href="https://api.whatsapp.com/send?phone=919880393291&text=Welcome%20to%20ShoppRe.com" target="_blank" class="d-contact-img pull-right">
+                <a href="http://bit.ly/2kIoiD6" target="_blank" class="d-contact-img pull-right">
                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9880393291-shop-ship-contact-number.png" alt="">
                 </a>
             </div>

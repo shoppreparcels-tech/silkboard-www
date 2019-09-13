@@ -46,7 +46,7 @@
                        <br>
                        <br>
                        {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
-                       <a  style="margin-top: 10px;" href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20Wish%20to%20Shop%20from%20Indian%20Stores"
+                       <a  style="margin-top: 10px;" href="http://bit.ly/shpr-ipfs"
                            target="_blank" class="btn btn-s-b btn-a-l btn-b-g col-xs-12">
                            Message us on WhatsApp</a>
                        {{--</button>--}}

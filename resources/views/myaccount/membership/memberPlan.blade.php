@@ -1,10 +1,11 @@
 @extends('myaccount.membership.layout')
 
-@section('title', 'Start saving UP TO 80% on Shipping Rates | ShoppRe Membership Plans')
+@section('title', 'Start saving UP TO 80% on Shipping Rates | ShoppRe Membership Plan')
 @section('description', 'Maximize your international shipping discount With our Premium Membership, specifically designed for customers who use our services including Personal Shopper or for bulk international shipments.')
 @section('keywords', 'personal shopper, shoppre membership plans, bulk international shipments, shipping rates')
 
 @section('css_style')
+    <meta name="robots" content="noindex">
     <link rel="canonical" href="https://www.shoppre.com/member/select/plan"/>
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
@@ -48,15 +49,16 @@
         <div class="row text-center">
             <img class="img-responsive" src="{{asset('img/member/progress1.png')}}"  style='height:60px;display:inline !important' alt="Member Plan"></a>
         </div>
+
         <div class="col-md-12 col-xs-12"><br>
             <div class="col-md-12 col-xs-12 div-b-w-s no-pad">
                 <div class="col-xs-12 col-md-12 no-pad">
                     <center>
-                        <h2 class="f-s-24 f-c-d-greay">Membership Plans</h2>
+                        <h3 class="f-s-24 f-c-d-greay">Membership Plans</h3>
                         <p class="f-s-16 f-c-l-gray">Membership Plans are specifically designed for customers who
                             use our services
                             including Personal Shopper frequently or for bulk international shipments. You can see
-                            the obvious difference in costs from our <a href="{{route('pricing')}}">International Shipping Calculator</a>.</p>  <br>
+                            the obvious difference in costs from our International Shipping Calculator.</p>  <br>
                     </center>
                 </div>
                 <div class="wrapper">
@@ -76,7 +78,7 @@
                                         <h14 class="f-s-18 f-c-d-greay">Features</h14>
                                     </th>
                                     <th class="col-md-4 col-xs-5 no-pad">
-                                        <img src="{{asset('img/images/m-premium.png')}}" style="width: 100%" class=""
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/m_premium.png" style="width: 100%" class=""
                                              alt=""> <br>
                                     </th>
                                     <th class="col-md-4 col-xs-5 no-pad">
@@ -97,7 +99,7 @@
                                                 <i class="fa fa-question-circle-o"></i></a></h6>
                                     </td>
                                     <td><h6 class="f-s-16 f-c-blue">Free</h6></td>
-                                    <td><h6 class="f-s-16 f-c-l-gray">₹100</h6></td>
+                                    <td><h6 class="f-s-16 f-c-l-gray">₹50</h6></td>
 
                                 </tr>
                                 <tr>
@@ -198,14 +200,19 @@
                                             </a>
                                         </h6>
                                     </td>
-                                    <td><h6 class="f-s-16 f-c-blue">Within 3 Days = FREE</h6>
-                                        <h6 class="f-s-16 f-c-blue">4 to 20 Days = FREE</h6>
-                                        <h6 class="f-s-16 f-c-blue">>20 Days = ₹400</h6>
+                                    <td>
+                                        <h6 class="f-s-16 f-c-blue">Within 3 Days = FREE</h6>
+                                        <h6 class="f-s-16 f-c-blue">4 to 10 Days = FREE</h6>
+                                        <h6 class="f-s-16 f-c-blue">11 to 15 Days = FREE</h6>
+                                        <h6 class="f-s-16 f-c-blue">Above 15 Days = FREE</h6>
+                                        <h6 class="f-s-16 f-c-blue">Opted for taking back the Shipment = FREE</h6>
                                     </td>
                                     <td>
-                                        <h6 class="f-s-16 f-c-l-gray">Within 3 Days = FREE</h6>
-                                        <h6 class="f-s-16 f-c-l-gray">4 to 10 Days = ₹100</h6>
-                                        <h6 class="f-s-16 f-c-l-gray">>10 Days = ₹400</h6>
+                                        <h6 class="f-s-16 f-c-gray">Within 3 Days = FREE</h6>
+                                        <h6 class="f-s-16 f-c-gray">4 to 10 Days = ₹100/Package</h6>
+                                        <h6 class="f-s-16 f-c-gray">11 to 15 Days = ₹200/Package</h6>
+                                        <h6 class="f-s-16 f-c-gray">Above 15 Days = ₹400/Package</h6>
+                                        <h6 class="f-s-16 f-c-gray">Opted for taking back the Shipment = ₹400</h6>
                                     </td>
                                 </tr>
 
@@ -219,8 +226,9 @@
                                             </a>
                                         </h6>
                                     </td>
-                                    <td><h6 class="f-s-16 f-c-blue">₹100 Per Page</h6></td>
-                                    <td><h6 class="f-s-16 f-c-l-gray">₹40 Per Page</h6></td>
+                                    <td><h6 class="f-s-16 f-c-blue">₹40 Per Page</h6></td>
+                                    <td><h6 class="f-s-16 f-c-gray">₹100 Per Page</h6></td>
+
                                 </tr>
                                 <tr class="tr-hide">
                                     <td>
@@ -240,7 +248,7 @@
                                 <tr class="tr-hide">
                                     <td>
                                         <h6 class="f-s-16 f-c-d-greay">Shipping Addresses<a
-                                                    href="#" class="tooltipkey" title=" Add multiple destination addresses in your address book.
+                                                href="#" class="tooltipkey" title=" Add multiple destination addresses in your address book.
                                                     Choose the address to which you wish to send every time you create a ship request.">
                                                 <i class="fa fa-question-circle-o"></i>
                                             </a>
@@ -272,19 +280,19 @@
                                         <h6 class="f-s-16 f-c-blue">5 - 10 Kg -> ₹3009</h6>
                                         <h6 class="f-s-16 f-c-blue">10 - 15 Kg -> ₹5369</h6>
                                         <h6 class="f-s-16 f-c-blue">Above 15 Kg -> ₹7729</h6>
-                                        <span class="f-s-10 f-c-blue">*Weight in Kg per shipment</span>
+                                        <span class="f-s-12 f-c-blue">*Weight in Kg per shipment</span>
                                     </td>
                                     <td>
                                         <h6 class="f-s-16 f-c-l-gray">0.5 - 5 Kg -> ₹1392.4 </h6>
                                         <h6 class="f-s-16 f-c-l-gray">5 - 10 Kg -> ₹3009</h6>
                                         <h6 class="f-s-16 f-c-l-gray">10 - 15 Kg -> ₹5369</h6>
                                         <h6 class="f-s-16 f-c-l-gray">Above 15 Kg -> ₹7729</h6>
-                                        <span class="f-s-10 f-c-l-gray">*Weight in Kg per shipment</span>
+                                        <span class="f-s-12 f-c-l-gray">*Weight in Kg per shipment</span>
                                     </td>
                                 </tr>
                                 <tr class="tr-hide">
                                     <td>
-                                        <h6 class="f-s-16 f-c-d-greay">Electronics/Branded Food Items/Powder items Clearance charge
+                                        <h6 class="f-s-16 f-c-d-greay">Electronics/Branded Food Items/Powder items Clearance charges Applicable only for Dubai and Singapore
                                             <a href="#" class="tooltipkey"
                                                title="Any Package which requires Special Handling
                                                          will be prompted to you via email. All liquids/
@@ -344,10 +352,14 @@
                                         </h6>
                                     </td>
                                     <td>
-                                        <h6 class="f-s-16 f-c-blue"> 7% of the item value <br> (Min ₹200)</h6>
+                                        <h6 class="f-s-16 f-c-blue"> Assisted Purchase(by ShoppRe) = 07% of the item value (Min ₹200)
+                                            <br>
+                                            Self Purchase(Cash on Delivery) = 10% of the item value (Min ₹200)</h6>
                                     </td>
                                     <td>
-                                        <h6 class="f-s-16 f-c-l-gray"> 7% of the item value <br> (Min ₹200)</h6>
+                                        <h6 class="f-s-16 f-c-l-gray">Assisted Purchase(by ShoppRe) = 07% of the item value (Min ₹200)
+                                            <br>
+                                            Self Purchase(Cash on Delivery) = 10% of the item value (Min ₹200)</h6>
                                     </td>
                                 </tr>
                                 <tr class="tr-hide">
@@ -366,7 +378,8 @@
                                 <tr class="tr-hide">
                                     <td>
                                         <h6 class="f-s-16 f-c-d-greay">Receive Parcels
-                                            <a href="#" class="tooltipkey"title="We receive your packages here at our facility, log them into your lockers and account; all this without charging your anything extra!">
+                                            <a href="#" class="tooltipkey"title="We receive your packages here at our facility, log them into your lockers and account;
+                                                all this without charging your anything extra!">
                                                 <i class="fa fa-question-circle-o"></i>
                                             </a>
                                         </h6>
@@ -376,24 +389,24 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <h14 class="f-s-18 f-c-d-greay">Monthly Fee</h14>
+                                        <h14 class="f-s-18 f-c-gray">Half Yearly Fee</h14>
                                     </td>
                                     <td class="pad-20">
-                                        <h6 class="f-s-26 f-c-blue f-w-9">₹2500/-</h6>
-                                        <a href="{{route('member.register')}}?memberType=h"
-                                           class="btn btn-b-r btn-s-r btn-a-l btn-disabled btn-m-plan">Start Plan
+                                        <h6 class="f-s-20 f-c-blue f-w-9">₹2500/-</h6>
+                                        <a href="{{route('member.register')}}?member=h"
+                                           class="btn btn-b-r btn-s-r btn-a-l btn-disabled ">TRY IT
                                         </a>
-                                        <a href="{{route('member.register')}}?memberType=h" class="btn btn-enable btn-m-plan">Start Plan
+                                        <a href="{{route('member.register')}}?member=h" class="btn-enable ">Start Plan
                                         </a>
 
                                     </td>
                                     <td>
-                                        <h6 class="f-s-26 f-c-blue f-w-9">Free Forever</h6>
+                                        <h6 class="f-s-20 f-c-blue f-w-9">FREE FOREVER</h6>
                                         <a href="{{route('customer.register')}}"
-                                           class="btn btn-b-b btn-s-b btn-a-l btn-disabled btn-m-plan">Free Signup
+                                           class="btn btn-b-b btn-s-b btn-a-l btn-disabled  ">FREE SIGN-UP
                                         </a>
                                         <a href="{{route('customer.register')}}"
-                                           class="btn-enable btn-m-plan">Free Signup
+                                           class="btn-enable ">Free Signup
                                         </a>
                                     </td>
                                 </tr>
@@ -406,7 +419,7 @@
                                         <h14 class="f-s-18 f-c-d-greay">Features</h14>
                                     </th>
                                     <th class="col-md-4 col-xs-5 no-pad">
-                                        <img src="{{asset('img/images/m-premium.png')}}" style="width: 100%" class=""
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/m-premium.png" style="width: 100%" class=""
                                              alt=""> <br>
                                     </th>
                                     <th class="col-md-4 col-xs-5 no-pad">
@@ -427,7 +440,7 @@
                                                 <i class="fa fa-question-circle-o"></i></a></h6>
                                     </td>
                                     <td><h6 class="f-s-16 f-c-blue">Free</h6></td>
-                                    <td><h6 class="f-s-16 f-c-l-gray">₹100</h6></td>
+                                    <td><h6 class="f-s-16 f-c-l-gray">₹50</h6></td>
 
                                 </tr>
                                 <tr>
@@ -528,14 +541,19 @@
                                             </a>
                                         </h6>
                                     </td>
-                                    <td><h6 class="f-s-16 f-c-blue">Within 3 Days = FREE</h6>
-                                        <h6 class="f-s-16 f-c-blue">4 to 20 Days = FREE</h6>
-                                        <h6 class="f-s-16 f-c-blue">>20 Days = ₹400</h6>
+                                    <td>
+                                        <h6 class="f-s-16 f-c-blue">Within 3 Days = FREE</h6>
+                                        <h6 class="f-s-16 f-c-blue">4 to 10 Days = FREE</h6>
+                                        <h6 class="f-s-16 f-c-blue">11 to 15 Days = FREE</h6>
+                                        <h6 class="f-s-16 f-c-blue">Above 15 Days = FREE</h6>
+                                        <h6 class="f-s-16 f-c-blue">Opted for taking back the Shipment = FREE</h6>
                                     </td>
                                     <td>
-                                        <h6 class="f-s-16 f-c-l-gray">Within 3 Days = FREE</h6>
-                                        <h6 class="f-s-16 f-c-l-gray">4 to 10 Days = ₹100</h6>
-                                        <h6 class="f-s-16 f-c-l-gray">>10 Days = ₹400</h6>
+                                        <h6 class="f-s-16 f-c-gray">Within 3 Days = FREE</h6>
+                                        <h6 class="f-s-16 f-c-gray">4 to 10 Days = ₹100/Package</h6>
+                                        <h6 class="f-s-16 f-c-gray">11 to 15 Days = ₹200/Package</h6>
+                                        <h6 class="f-s-16 f-c-gray">Above 15 Days = ₹400/Package</h6>
+                                        <h6 class="f-s-16 f-c-gray">Opted for taking back the Shipment = ₹400</h6>
                                     </td>
                                 </tr>
 
@@ -549,8 +567,8 @@
                                             </a>
                                         </h6>
                                     </td>
-                                    <td><h6 class="f-s-16 f-c-blue">₹100 Per Page</h6></td>
-                                    <td><h6 class="f-s-16 f-c-l-gray">₹40 Per Page</h6></td>
+                                    <td><h6 class="f-s-16 f-c-blue">₹40 Per Page</h6></td>
+                                    <td><h6 class="f-s-16 f-c-gray">₹100 Per Page</h6></td>
                                 </tr>
                                 <tr class="tr-hide">
                                     <td>
@@ -570,7 +588,7 @@
                                 <tr class="tr-hide">
                                     <td>
                                         <h6 class="f-s-16 f-c-d-greay">Shipping Addresses<a
-                                                    href="#" class="tooltipkey" title=" Add multiple destination addresses in your address book.
+                                                href="#" class="tooltipkey" title=" Add multiple destination addresses in your address book.
                                                     Choose the address to which you wish to send every time you create a ship request.">
                                                 <i class="fa fa-question-circle-o"></i>
                                             </a>
@@ -578,6 +596,31 @@
                                     </td>
                                     <td><h6 class="p-color-cement header6">Unlimited</h6></td>
                                     <td><h6 class="p-color-cement header6">Upto 5 addresses</h6></td>
+                                </tr>
+                                <tr class="tr-hide">
+                                    <td>
+                                        <h6 class="f-s-16 f-c-d-greay">Electronics/Branded Food Items/Powder items Clearance charges Applicable only for Dubai and Singapore
+                                            <a href="#" class="tooltipkey"
+                                               title="Any Package which requires Special Handling
+                                                         will be prompted to you via email. All liquids/
+                                                         semi-liquids/ homemade food/ medicines/ ayurvedic
+                                                         products/ dangerous goods like nail polish,  etc.
+                                                         will incur a customs clearance charge.The costs might
+                                                         not be limited to the given cost for all cases (for
+                                                         eg, in cases of shipping heavy weight objects or
+                                                         heavy volume dangerous goods such as paints, etc.) -
+                                                         costs could vary, and will keep you posted via
+                                                         email. ">
+                                                <i class="fa fa-question-circle-o"></i>
+                                            </a>
+                                        </h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="f-s-16 f-c-blue">₹ 200/- </h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="f-s-16 f-c-l-gray">₹ 500/- </h6>
+                                    </td>
                                 </tr>
                                 <tr class="tr-hide">
                                     <td>
@@ -602,39 +645,14 @@
                                         <h6 class="f-s-16 f-c-blue">5 - 10 Kg -> ₹3009</h6>
                                         <h6 class="f-s-16 f-c-blue">10 - 15 Kg -> ₹5369</h6>
                                         <h6 class="f-s-16 f-c-blue">Above 15 Kg -> ₹7729</h6>
-                                        <span class="f-s-10 f-c-blue">*Weight in Kg per shipment</span>
+                                        <span class="f-s-12 f-c-blue">*Weight in Kg per shipment</span>
                                     </td>
                                     <td>
                                         <h6 class="f-s-16 f-c-l-gray">0.5 - 5 Kg -> ₹1392.4 </h6>
                                         <h6 class="f-s-16 f-c-l-gray">5 - 10 Kg -> ₹3009</h6>
                                         <h6 class="f-s-16 f-c-l-gray">10 - 15 Kg -> ₹5369</h6>
                                         <h6 class="f-s-16 f-c-l-gray">Above 15 Kg -> ₹7729</h6>
-                                        <span class="f-s-10 f-c-l-gray">*Weight in Kg per shipment</span>
-                                    </td>
-                                </tr>
-                                <tr class="tr-hide">
-                                    <td>
-                                        <h6 class="f-s-16 f-c-d-greay">Electronics/Branded Food Items/Powder items Clearance charge
-                                            <a href="#" class="tooltipkey"
-                                               title="Any Package which requires Special Handling
-                                                         will be prompted to you via email. All liquids/
-                                                         semi-liquids/ homemade food/ medicines/ ayurvedic
-                                                         products/ dangerous goods like nail polish,  etc.
-                                                         will incur a customs clearance charge.The costs might
-                                                         not be limited to the given cost for all cases (for
-                                                         eg, in cases of shipping heavy weight objects or
-                                                         heavy volume dangerous goods such as paints, etc.) -
-                                                         costs could vary, and will keep you posted via
-                                                         email. ">
-                                                <i class="fa fa-question-circle-o"></i>
-                                            </a>
-                                        </h6>
-                                    </td>
-                                    <td>
-                                        <h6 class="f-s-16 f-c-blue">₹ 200/- </h6>
-                                    </td>
-                                    <td>
-                                        <h6 class="f-s-16 f-c-l-gray">₹ 500/- </h6>
+                                        <span class="f-s-12 f-c-l-gray">*Weight in Kg per shipment</span>
                                     </td>
                                 </tr>
                                 <tr class="tr-hide">
@@ -674,10 +692,13 @@
                                         </h6>
                                     </td>
                                     <td>
-                                        <h6 class="f-s-16 f-c-blue"> 7% of the item value <br> (Min ₹200)</h6>
+                                        <h6 class="f-s-16 f-c-blue"> Assisted Purchase(by ShoppRe) = 07% of the item value (Min ₹200)
+                                            <br>
+                                            Self Purchase(Cash on Delivery) = 10% of the item value (Min ₹200)</h6>
                                     </td>
                                     <td>
-                                        <h6 class="f-s-16 f-c-l-gray"> 7% of the item value <br> (Min ₹200)</h6>
+                                        <h6 class="f-s-16 f-c-l-gray"> Assisted Purchase(by ShoppRe) = 07% of the item value (Min ₹200)<br>
+                                            Self Purchase(Cash on Delivery) = 10% of the item value (Min ₹200)</h6>
                                     </td>
                                 </tr>
                                 <tr class="tr-hide">
@@ -706,23 +727,23 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <h14 class="f-s-18 f-c-d-greay">Monthly Fee</h14>
+                                        <h14 class="f-s-18 f-c-gray">Yearly Fee</h14>
                                     </td>
                                     <td class="pad-20">
-                                        <h6 class="f-s-26 f-c-blue f-w-9">₹5000/-</h6>
-                                        <a href="{{route('member.register')}}?memberType=y"
-                                           class="btn btn-b-r btn-s-r btn-a-l btn-disabled btn-m-plan">Start Plan
+                                        <h6 class="f-s-20 f-c-blue f-w-9">₹5000/-</h6>
+                                        <a href="{{route('member.plan')}}?member=y"
+                                           class="btn btn-b-r btn-s-r btn-a-l btn-disabled ">TRY IT
                                         </a>
-                                        <a href="{{route('member.register')}}?memberType=y" class="btn-enable btn-m-planb">Start Plan
+                                        <a href="{{route('member.plan')}}?member=y" class="btn-enable ">Start Plan
                                         </a>
                                     </td>
                                     <td>
-                                        <h6 class="f-s-26 f-c-blue f-w-9">Free Forever</h6>
-                                        <a href="{{route('customer.register')}}"
-                                           class="btn btn-b-b btn-s-b btn-a-l btn-disabled btn-m-plan">GFree Signup
+                                        <h6 class="f-s-20 f-c-blue f-w-9">Free Forever</h6>
+                                        <a href="{{route('customer.register')}}?member=b"
+                                           class="btn btn-b-b btn-s-b btn-a-l btn-disabled ">FREE SIGN-UP
                                         </a>
-                                        <a href="{{route('customer.register')}}"
-                                           class="btn-enable btn-m-plan">Free Signup
+                                        <a href="{{route('customer.register')}}?member=b"
+                                           class="btn-enable ">Free Signup
                                         </a>
                                     </td>
                                 </tr>
@@ -734,6 +755,15 @@
             </div>
         </div>
     </div>
+    </div>
+    <div class="container-fluid c-f-p">
+        <center><br>
+            <h1 class="f-s-26 f-c-d-greay f-w-8"><span class="f-c-red">S</span>ign Up & Start Shipping from <br>India
+                to Worldwide</h1>
+            <br>
+{{--            <a href="{{route('customer.register')}}" target="_blank" class="btn btn-s-b btn-b-g">Create a Free ShoppRe account</a>--}}
+{{--            <br><br><br>--}}
+        </center>
     </div>
 
 
