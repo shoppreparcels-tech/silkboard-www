@@ -78,11 +78,11 @@
                         </div></a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/womens-western-wear?f=Brand%3AMarks%20%26%20Spencer" target="_blank"><div class="ps">
-                            <h2>Womens Western Wear</h2>
+                    <a href="https://www.myntra.com/saree-fest-sep19" target="_blank"><div class="ps">
+                            <h2>Traditional Tales</h2>
                             <br/>
-                            <p>Starts from ₹399/-</p>
-                            <p>Tops, Dresses & More</p>
+                            <p>Starts from ₹349/-</p>
+                            <p>Sarees & Blouse</p>
                             <p>Explore Now</p>
                     </div>
                     </a>

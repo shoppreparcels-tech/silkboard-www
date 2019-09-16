@@ -344,18 +344,18 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://www.myntra.com/shop/women" title="Click to Know More" target="_blank">
+                        <a href="https://www.myntra.com/saree-fest-sep19" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">SHOPPING FOR WOMEN</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">TRADITIONAL TALES</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Get Up To 40% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Min. 30% Off</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Myntra.com</span></p>
                             <br>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Choose From 2.3 Lakhs+ Styles. Apparel, Accessories, Heels & more!
+                            <p class="f-s-16 f-c-l-gray f-w-7">Buy Sarees & Blouse for Women Online from Myntra & Ship Worldwide!
 
                         </div>
 
@@ -363,15 +363,15 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://www.amazon.in/b?ie=UTF8&node=12597663031&pf_rd_p=de5e0973-d170-491f-b99b-c99fa3b20896&pf_rd_r=GJAD54830KF6FVX3MKAF" title="Click Here" target="_blank">
+                        <a href="https://www.amazon.in/b?node=16402646031&pf_rd_p=e5ab9f0e-3946-44f5-a5b7-d9bc3aef3942&pf_rd_r=HGV1ZWP8RPBC1R8WEYSM" title="Click Here" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">HOME FESTIVE SALE</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">CLOTHING SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">STARTING ₹75/-</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">50% - 70% OFF</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9"><u>12th - 15th Sep</u></span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9"><u>Vero Moda & More</u></span></p>
                             <br> <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Shop from Amazon India & Get Delivered Worldwide with ShoppRe.</p>
                         </div>
@@ -1099,8 +1099,8 @@
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big billion Days"><span><a
                                         href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Big Billion Days Sale 2019</a></span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Shopping Days"><span><a
-                                        href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Great Indian"><span><a
+                                        href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">Amazon.in Great Indian Festival</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Freedom Sale"><span><a
                                         href="/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Flipstart Days"><span><a
