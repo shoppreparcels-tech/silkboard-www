@@ -81,6 +81,7 @@
                     <li class="li"><a itemprop="url" class="footer-a" href="/seller-partner" >ShoppRe for Sellers Shipping<sup class="p-color-red" style="font-size: 8px" id="offer">New</sup></a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="https://ship.shoppre.com/seller/" target="_blank">ShoppRe eCommerce Solution</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="https://ship.shoppre.com/international-commercial-shipping-services-india/" target="_blank">Commercial/Bulk Shipments</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="/countries" target="_blank">Countries Shipping Information</a></li>
                 </ul>
             </div>
 

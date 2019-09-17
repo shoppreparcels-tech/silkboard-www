@@ -106,7 +106,7 @@
                       Not willing to give in to the heavily pricey outlets abroad to express or satisfy their quintessentially Indian souls - there came the thought of making an exquisitely reliable one themselves.
                       <br> Having known a huge society full of Indians who would love a better way to access Indian goods; it was a no-brainer to infer that they won’t be the only ones around the world with the same dilemma.
                       <br>Hours of apprehension and uncountable deliberated thoughts gave birth to ShoppRe, which has now extended up to a level to help people deal with all the
-                      issues faced with the International Shipping. It's proving itself being one of the best International shipping solutions.
+                      issues faced with the International Shipping. It's proving itself being one of <a href="/">the best International shipping solutions</a>.
                   </p>
               </div>
           </div>
@@ -151,7 +151,7 @@
               {{--<button class="btn signup-btn" href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register>Sign Up for FREE</button>--}}
 
               <a href="https://www.shoppre.com/customer/register" target="_blank">
-                  <div class="btn-login-doorstep header5 p-color-white">
+                  <div class="btn-login-doorstep header5 p-color-white" style="background-color: #4285f4">
                       <p>
                           Sign Up for FREE
                       </p>

@@ -27,10 +27,8 @@
                <center>
                    <h18 class="f-s-50 f-c-white  f-w-9">50% Discount</h18>
                    <p class="f-s-36 f-c-white f-w-9 ">on your first shipment </p>
-                   <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-s-t-coupon.png" alt="" > <br><br>
-                   <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE</a>
-                   <br>
-                   <br>
+                   <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-s-t-coupon.png" alt="first india" > <br><br>
+                   <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-r btn-a-l " style="background-color: #4285f4">Sign UP FREE</a>
                    <br>
                    <br>
                    <p class="f-s-15 f-c-l-gray f-w-8">{ 1st SEP to 30th SEP 2019 }</p>
@@ -50,7 +48,7 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">First Time Shipping Offer is Valid on all Our services!</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
-                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=How%20to%20redeem%20First%20Time%20Shipping%20Offer(FRST50)?" target="_blank" class="c-image">
+                    <a href="http://bit.ly/shpr-frst50" target="_blank" class="c-image">
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
                     </a>
                 </div>
@@ -119,7 +117,7 @@
                 </div>
                 <br>
                 <div>
-                <center><a href="{{route('customer.register')}}" class="btn btn-s-r btn-a-l btn-b-r">Sign Up Now!</a></center>
+                <center><a href="{{route('customer.register')}}" class="btn btn-s-r btn-a-l btn-b-r" style="background-color: #0b8043">Sign Up Now & Sip With Us!</a></center>
                 </div>
 
             </div>
@@ -128,9 +126,8 @@
     <section class="chris-benefits">
         <div class="container" >
             <center>
-                <h1 class="header1 p-color-cement-dark">Featured Services & Benefits</h1>
+                <h1 class="header1 p-color-cement-dark">ShoppRe Services & Benefits</h1>
             </center>
-            <br>
             <div class="row text-center">
                 <div class="col-sm-4">
                     <div class="panel ">
@@ -167,6 +164,8 @@
             </div>
         </div>
     </section>
+    <br>
+    <br>
 
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
@@ -182,13 +181,13 @@
 
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
-                        <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                        <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
                 <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align ">
-                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
+                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i> SUPPORT EMAIL</p>
                     <a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>
 
                 </div>
@@ -197,7 +196,7 @@
                     class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details pull-right contact-text-align">
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
-                        </i>Live Chat</p>
+                        </i> Live Chat</p>
                     {{--<a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#" class="header2 p-color-white">Chat Now</a>--}}
                     <a href="{{Constant::CHATURL}}" target="_blank"
                        class="header2 p-color-white">Chat Now</a>
@@ -228,12 +227,12 @@
 
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
-                        <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                        <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
+                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
                 </div>
 
                 <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align " style="color: #fdf699">
-                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
+                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i> SUPPORT EMAIL</p>
                     <a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>
                 </div>
 
@@ -241,7 +240,7 @@
                      style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
-                        </i>Live Chat</p>
+                        </i> Live Chat</p>
                     <a href="{{Constant::CHATURL}}" target="_blank"
                        class="header2 p-color-white">Chat Now</a>
 

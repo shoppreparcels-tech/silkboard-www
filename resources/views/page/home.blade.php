@@ -344,18 +344,18 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://www.myntra.com/saree-fest-sep19" title="Click to Know More" target="_blank">
+                        <a href="https://www.myntra.com/shop/mbe-sep19-men" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">TRADITIONAL TALES</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">👸 BEAUTY EDIT</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Min. 30% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up To 50% Off</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Myntra.com</span></p>
                             <br>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Buy Sarees & Blouse for Women Online from Myntra & Ship Worldwide!
+                            <p class="f-s-16 f-c-l-gray f-w-7">18,000+ Styles, Buy Online from Myntra & Ship Worldwide!
 
                         </div>
 
@@ -465,18 +465,18 @@
                     </div>
                     <div class="col-md-3 col-md-3 col-lg-3 col-sm-6 col-xs-6">
                         <center>
-                            <a href="{{route('dhl.index')}}">
+
                                 <img class="img-benifits img-responsive"
                                      src="{{env('AWS_CLOUD_FRONT')}}/img/svg/3-6-days-delivery-worldwide.svg"
                                      alt="3 to 6 days worldwide delivery">
                                 <p class="online-text">&nbsp;3-6 Days</p>
                                 <p class="online-text-words">Worldwide Average <br> Delivery Time </p>
-                            </a>
+
                         </center>
                     </div>
                     <div class="col-md-3 col-md-3 col-lg-3 col-sm-6 col-xs-6">
                         <center>
-                            <a href="https://www.shoppre.com/member/select/plan">
+                            <a href="/shop-from-india-ship-worldwide" target="_blank">
                                 <img class="img-benifits img-responsive"
                                      src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save-upto-80-shipping.svg"
                                      alt="save up to 80% on international shipping">
@@ -570,7 +570,7 @@
                 </div>
                 <div class="col-xs-3   div-stores-img">
                     <center class="online-stores">
-                        <a href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" target="_blank">
+                        <a href="/amazon-india-shop-international-shipping" target="_blank">
                             <img class="img-responsive img-stores"
                                  src="{{env('AWS_CLOUD_FRONT')}}/img/stores/amazon-india-shopping.png"
                                  alt="amazon.in international delivery shipping">
@@ -760,7 +760,7 @@
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 147px;">
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">229 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">230 Google Reviews</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787 ">Shipping and Delivery Service</p>

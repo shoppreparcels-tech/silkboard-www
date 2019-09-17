@@ -65,7 +65,7 @@
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                             <a href="https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?pf_rd_p=7ae8bb23-c2d2-4277-a4e5-a651d0266ae5&pf_rd_r=6HPFAKQ3FSDG80C9MA7A" title="Amazon" target="_blank">1. Amazon.in 👉BARGAIN FINDS(Under ₹400)</a> |
                             <a href="https://www.flipkart.com/fashion-weekend-brand-2019-store" title="flipkart" target="_blank">2. Flipkart 👉Fashion From Rs 299 </a> |
-                            <a href="https://www.ajio.com" title="ajio" target="_blank">3. AJIO.com 👉HOT & NEW: FIRST TIME ON DISCOUNT</a>
+                            <a href="https://www.ajio.com" title="ajio" target="_blank">3. AJIO.com 👉NEW SEASON STYLES: FIRST TIME ON DISCOUNT</a>
                         </marquee>
                     </div>
                     <center>

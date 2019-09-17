@@ -44,7 +44,7 @@
 
             </p>
             <div class="col-md-12 col-xs-12 no-pad">
-                <a href="/customer/register" class="btn btn-s-r btn-b-r btn-a-l">Create My Free Address</a>
+                <a href="/customer/register" class="btn btn-s-r btn-b-b btn-a-l" target="_blank">Create My Free Address</a>
                 {{--<a href="/indian-online-stores" class="btn btn-l btn-s-b btn-b-b btn-a-l">Indian Stores List</a>--}}
             </div>
         </div>
@@ -52,46 +52,46 @@
 
     <section class=" ">
         <div class="container christmas-service">
-            {{--<div class="row">--}}
-                {{--<div class="col-md-8 col-xs-12">--}}
-                    {{--<h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            {{--<h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in Sales</h2>--}}
-            {{--<div class="row text-center">--}}
-                {{--<div class="col-sm-4">--}}
+            <div class="row">
+                <div class="col-md-8 col-xs-12">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>
+                </div>
+            </div>
+            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in Sales, Offers & More</h2>
+            <div class="row text-center">
+                <div class="col-sm-4">
 
-                    {{--<div class="shopandship ">--}}
-                        {{--<a href="https://www.amazon.in/dp/B07QT54G6P?pf_rd_p=e370b40c-f114-436a-af24-b3c3909d9180&pf_rd_r=JVKWQFW1SB33GT29E2TG" target="_blank">--}}
-                        {{--<h2>Redmi 7</h2>--}}
-                        {{--<br/>--}}
-                        {{--<p>Comet  Blue, 5GB RAM, 32GB Storage</p>--}}
-                        {{--<p>₹7,999</p>--}}
-                        {{--<p>June 2019</p>--}}
-                    {{--</div>--}}
-                    {{--</a>--}}
-                {{--</div>--}}
-                {{--<div class="col-sm-4">--}}
-                    {{--<div class="ps">--}}
-                        {{--<a href="https://www.primevideo.com/region/eu/ref=dv_web_force_root/260-4242713-0952361" target="_blank">--}}
-                        {{--<h2>Just For Prime</h2>--}}
-                        {{--<br>--}}
-                        {{--<p>Up to 70% Off</p>--}}
-                        {{--<p>Extra 10% Off</p>--}}
-                        {{--<p>Bags, Wallet & Luggage</p>--}}
-                    {{--</div></a>--}}
-                {{--</div>--}}
-                {{--<div class="col-sm-4">--}}
-                    {{--<div class="ic">--}}
-                        {{--<a href="https://www.amazon.in/b?node=14907965031&pf_rd_p=37a926b9-479c-4bcf-a5bd-309decaac0a4&pf_rd_r=JVKWQFW1SB33GT29E2TG">--}}
-                        {{--<h2>Women's Clothing</h2>--}}
-                        {{--<br>--}}
-                        {{--<p>Under ₹599</p>--}}
-                        {{--<p>Western Wear, Ethnic Wear </p>--}}
-                        {{--<p>June 2019</p>--}}
-                    {{--</div></a>--}}
-                {{--</div>--}}
-            {{--</div>--}}
+                    <div class="shopandship ">
+                        <a href="https://www.amazon.in/b?node=3419926031&pf_rd_p=ed079d3f-67e6-4d46-9c6b-f3417d93306d&pf_rd_r=A2RE4J8QJ2XZVD4CGHDR" target="_blank">
+                        <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">GREAT INDIAN FESTIVAL</h2>
+                        <br/>
+                        <p>29th SEP - 04th OCT</p><br>
+                        <p>👉 Explore More</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ps">
+                        <a href="https://www.amazon.in/gp/goldbox?ref_=nav_topnav_deals" target="_blank">
+                        <h2>TODAY's DEALS</h2>
+                        <br>
+                        <p>Great Savings💰</p>
+                            <br>
+                        <p>Every Day. Shop from Deal of the Day</p>
+                    </div></a>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ic">
+                        <a href="https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?pf_rd_p=7ae8bb23-c2d2-4277-a4e5-a651d0266ae5&pf_rd_r=7ESE2NPQ9X117ZSGFYT0" target="_blank">
+                        <h2>BARGAIN FINDS</h2>
+                        <br>
+                        <p>Under ₹400</p>
+                            <br>
+                        <p>Men's, Women's, Kids & More </p>
+
+                    </div></a>
+                </div>
+            </div>
 
             <div class=" col-md-12 offer-description">
 
@@ -519,7 +519,22 @@
 
         });
     </script>
+
+    <script type='text/javascript'>
+        var cId = '52423';
+
+        (function(d, t) {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv2.js';
+            document.getElementsByTagName('body')[0].appendChild(s);
+        }());
+    </script>
+
 @endsection
+
+
 @endsection
 
 

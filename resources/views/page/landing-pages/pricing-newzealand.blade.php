@@ -219,7 +219,7 @@
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">5. What is the easiest way to ship medicines from India to New Zealand?</h2>
-            <p class="f-s-16 f-c-gray">ShoppRe again!! ShoppRe helps you ship medicines to your doorstep which have original prescription and Invoice by clearing
+            <p class="f-s-16 f-c-gray">ShoppRe again!! ShoppRe helps you <a href="medicine-international-courier-from-india" target="_blank">ship medicines to your doorstep</a> which have original prescription and Invoice by clearing
                 all the Indian Customs by default, but not the destination customs as ShoppRe doesn't have any control over it.
                 Though the medicines have original prescription and Invoice, sometimes it can not be shipped since few Indian medicines
                 like Crocin would be restricted at the destination for which again ShoppRe has no control.
@@ -227,7 +227,7 @@
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">6. Can I shop and ship Indian Jewellery to New Zealand?</h2>
-            <p class="f-s-16 f-c-gray">Definitely Yes! With ShoppRe, You can shop and ship your favorite Indian Jewellery from Cilory.com, Voylla.com,
+            <p class="f-s-16 f-c-gray">Definitely Yes! With ShoppRe, You can <a href="/shop-from-india-ship-worldwide">shop and ship your favorite Indian Jewellery</a> from Cilory.com, Voylla.com,
                 Jaypore.com and many more except precious stones like gold, silver and diamond ornaments and add that further luster to your entire personality
                 and look little extra beautiful by adding astonishing look to the entire event/party at very affordable prices.
 

@@ -2,10 +2,12 @@
 
 @section('title', 'ShoppRe - Shipping Partner | Seller & Ecommerce Logistics Solutions ')
 @section('description', 'ShoppRe for You: eCommerce Logistics and Shipping Solutions. Multiple Shipping Partners for Sellers.')
-@section('keywords', 'seller, ecommerce shipping solutions india, marketplace')
+@section('keywords', 'seller, ecommerce shipping solutions india, marketplace, b2b, b2c')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/seller-partner"/>
+    <link rel="shortcut icon" href="https://www.shoppre.com/img/favicon.png">
+    <link rel="icon" type="image/png" href="https://www.shoppre.com/img/favicon.png" sizes="60x60">
     <style>
         .div-option{height:30px;padding-top:5px}@media only screen and (max-width:600px){.div-option{height:auto;padding-top:0;margin-bottom:20px}.mobile-pad{padding:0}}
     </style>
@@ -21,7 +23,6 @@
                 </center>
                 <br>
                 <br>
-
             </div>
         </div>
     </main>
@@ -188,7 +189,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12 col-xs-12 no-pad" style="margin-bottom: 20px">
-                                        <button type="submit" class="btn btn-s-r btn-b-r m-t-20 btn-l">Submit</button>
+                                        <button type="submit" class="btn btn-s-r btn-b-r m-t-20 btn-l" style="background-color: #4285f4">Submit</button>
                                         <br>
                                         <br>
                                         <div id='succesBlock'style="background-color:green;text-align: center"><label id="message" style="color:white"></label></div>
@@ -244,9 +245,11 @@
             </div>
         </div>
         <div id="schedule_load"></div>
-
+        <br>
+        <br>
+        <br>
     </section>
-
+@endsection
 
 @section('js_script')
     <script>

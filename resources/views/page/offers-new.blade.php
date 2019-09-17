@@ -174,11 +174,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">KURTAS</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Shop Now</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">beauty edit</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 50% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com/women-kurtas-kurtis-suits?f=Categories%3AKurtas%3A%3ATechnique%3ABlock%20Print" target="_blank">
+                                <a href="https://www.myntra.com/shop/mbe-sep19-men" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5997a62748742.png"/>
                                 </a>
                             </div>
@@ -188,7 +188,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">HOT & NEW</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">new season style</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Extra 15% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">
@@ -202,7 +202,7 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Great Indian Festival</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Coming Soon</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">29th SEP - 04th OCT</h5>
                             <div class="ecomSmallBox" style="height: 94px;">
                                 <a href="https://www.amazon.in/b?node=3419926031&pf_rd_p=f7d3d354-d08c-4102-9b41-86ba899912ed&pf_rd_r=WSTR4FDQCEFV1RG0TDNC" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>
@@ -219,6 +219,116 @@
                             <div class="ecomSmallBox">
                                 <a href="https://www.jabong.com" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_599691d00e27e.png">
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Diwali Lighting</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Starting ₹199</h5>
+                            <div class="ecomSmallBox">
+                                <a href="https://www.snapdeal.com/products/seasonal-lighting?sort=plrty&q=Type_s%3ADiwali%20Lights%5ELED%20Strips%5ERotating%20Light%5EString%20Lights%7ChpsaScore_tf1%3A1%7C" target="_blank">
+                                    <p class="header3 p-color-cement-dark font-weight-900">SNAPDEAL</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">the super stylish</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 60% Off</h5>
+                            <div class="ecomSmallBox">
+                                <a href="https://www.jaypore.com/eoss2019" target="_blank">
+                                    <p class="header3 p-color-cement-dark font-weight-900">JAYPORE</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Furniture Mania Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">20th September</h5>
+                            <div class="ecomSmallBox" >
+                                <a href="https://www.pepperfry.com" target="_blank">
+                                    <p class="header3 p-color-cement-dark font-weight-900">PEPPERFRY</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">party mode on!</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 50% Off</h5>
+                            <div class="ecomSmallBox">
+                                <a href="https://www.firstcry.com/boutique/party-mode-on-%7C-6m-10y/19838?ref2=homepage" target="_blank">
+                                    <p class="header3 p-color-cement-dark font-weight-900">FIRSTCRY</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Beauty Bonanza</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Daily Dose Of Amazing Offers</h5>
+                            <div class="ecomSmallBox">
+                                <a href="https://www.nykaa.com/offers.html?root=nav_1" target="_blank">
+                                    <p class="header3 p-color-cement-dark font-weight-900">NYKAA</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">dark blooms</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Shop By Story</h5>
+                            <div class="ecomSmallBox">
+                                <a href="https://www.tatacliq.com/wear-the-stories-you-love" target="_blank">
+                                    <p class="header3 p-color-cement-dark font-weight-900">TATACLIQ</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">handpicked giftables</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Festiva Season</h5>
+                            <div class="ecomSmallBox" >
+                                <a href="https://www.fabindia.com/collection/gifting-ideas" target="_blank">
+                                    <p class="header3 p-color-cement-dark font-weight-900">FABINDIA</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">globaldesi</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">New Arrivals</h5>
+                            <div class="ecomSmallBox">
+                                <a href="https://www.shoppersstop.com/brand/global%20desi?sort=newArrival-desc&q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3AGLOBAL+DESI&startRange=&endRange=&icid=newlaunch|homepg|1-1|globaldesi" target="_blank">
+                                    <p class="header3 p-color-cement-dark font-weight-900">SHOPPERSSTOP</p>
                                 </a>
                             </div>
                         </div>
@@ -276,7 +386,7 @@
     <section class="chris-benefits">
         <div class="container" >
             <center>
-                <h1 class="header3 p-color-cement-dark font-weight-900" >Top Festival Offers, Deals & Sale</h1>
+                <h1 class="header2 p-color-cement-dark font-weight-900" >Top Festival Offers, Deals & Sale</h1>
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">

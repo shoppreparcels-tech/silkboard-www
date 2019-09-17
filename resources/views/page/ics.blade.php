@@ -184,7 +184,8 @@
                     </table>
                 </div>
             </div>
-            <center style="margin-top: 50px;">
+
+            <center style="margin-top: 350px;">
                 <h1 class="header1  p-color-cement-dark">How Does ShoppRe Courier Work?</h1>
                 <p class="header2 p-color-cement">Schedule a Pickup from ANY part of India; we’ll come to your doorsteps,<br> get your package & ship it off to the destination in 24 hours.</p>
             </center>
@@ -199,7 +200,7 @@
                     <div>
                         <center>
                             <img class="img-responsive img-process" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/pic_up.svg">
-                            <h2 class="header3 p-color-cement-dark">Schedule a Pickup</h2>
+                            <h2 class="header3 p-color-cement-dark" >Schedule a Pickup</h2>
                             <p class="header5 p-color-cement">
                                 After getting your FREE estimate, fill in the order form accordingly and submit it to schedule your pickup.
                             </p>
@@ -243,7 +244,7 @@
                     </div>
                 </div>
                 <center>
-                    <a  href="{{route('schedulePickup.Index')}}" class="btn btn-request">Schedule Pickup</a>
+                    <a  href="{{route('schedulePickup.Index')}}" class="btn header6 btn-get-assisted" style="background-color: #4285f4" target="_blank">Schedule Pickup</a>
                 </center>
             </div>
         </div>
@@ -252,11 +253,10 @@
     </section>
 
     <section>
-        <div class="container">
+        <div class="container" style="margin-top: 30px;">
             <center>
                 <a href="/first-time-international-shipment-offer" target="_blank">
                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"
-{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/raksha-bandhan-india-shoppre.png" title="Click Here for Rakhi Shipping Rates"--}}
                          alt="rakhi-courier-from-india-shoppre" class="img-responsive">
                 </a>
             </center>
@@ -541,11 +541,12 @@
                     </div>
                 </div>
         </div>
+            <br>
             <div class="container">
                 <center>
                     <h3 class="header2 p-color-cement-dark font-weight-900">Want more information about each of our services? Download Our brochure for Free! </h3>
                     <a href="http://bit.ly/shoppre-brochure" target="_blank">
-                        <div class="btn header6 btn-get-assisted p-color-white no-margin">
+                        <div class="btn header6 btn-get-assisted p-color-white no-margin" style="background-color: #0b8043">
                             <center>
                                 Download Here
                             </center>

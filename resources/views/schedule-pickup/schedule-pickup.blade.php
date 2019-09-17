@@ -550,7 +550,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-4 col-sm-offset-4">
-                            <button type="submit" class="btn btn-block btn-shoppre">Confirm Pickup</button>
+                            <button type="submit" class="btn btn-block btn-shoppre" style="background-color: #4285f4!important">Confirm Pickup</button>
                         </div>
                     </div>
                     <div class="clearfix"></div>

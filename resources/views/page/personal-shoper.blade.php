@@ -143,17 +143,8 @@
                 </p>
                 <br>
                 <p>
-                    <button type="button" class="call-btn" style="height: 30px; border-radius: 0px; background-color: orange;">Terms&Conditions</button>
+                    <button type="button" class="call-btn" style="height: 25px; border-radius: 0px; background-color: orange;">Terms & Conditions</button>
                 </p>
-                <div class="col-md-12 col-xs-12 div-btn-padding" style="margin-top: 15px;">
-                    <center>
-                    <a href="https://www.shoppre.com/personal-shopper" target="_blank">
-                        <div class="btn header6 btn-ifs-l-assisted">
-                            Shop For Me
-                        </div>
-                    </a>
-                    </center>
-                </div>
             </div>
 
 
@@ -163,6 +154,16 @@
                 </iframe>
                 {{--<h4 class="f-s-16 f-c-l-gray txt-a-c">One-stop Solution For All your Shopping & Shipping Needs from India | ShoppRe.com</h4>--}}
             </div>
+            <div class="col-md-12 col-xs-12 div-btn-padding margin-b-15" >
+                <center>
+                    <a href="http://bit.ly/vidya-shoppre" target="_blank">
+                        <div class="btn header6 btn-get-assisted p-color-white" style="background-color: #4285f4!important">
+                            👉 Know More (How it Works)
+                        </div>
+                    </a>
+                </center>
+            </div>
+
         </div>
     </section>
 

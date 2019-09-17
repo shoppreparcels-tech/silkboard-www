@@ -110,7 +110,7 @@
                     <h1 class="header1 p-color-white">Shop Indian Stores <span> & Ship Globally</span></h1>
                     <p class="header2 p-color-white header-ifs-p1">Ship your purchases to us; we'll store, consolidate,
                         <br> repackage & ship them to WHEREVER you are! </p>
-                    <a href="/customer/register" class="register-free">Sign Up & Receive FREE Virtual Address</a>
+                    <a href="/customer/register" class="btn btn-s-b btn-b-g" target="_blank">Sign Up & Receive FREE Virtual Address</a>
                 </center>
             </div>
         </div>
@@ -121,7 +121,7 @@
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                 <a href="https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?pf_rd_p=7ae8bb23-c2d2-4277-a4e5-a651d0266ae5&pf_rd_r=6HPFAKQ3FSDG80C9MA7A" title="Amazon" target="_blank">1. Amazon.in 👉BARGAIN FINDS(Under ₹400)</a> |
                 <a href="https://www.flipkart.com/fashion-weekend-brand-2019-store" title="flipkart" target="_blank">2. Flipkart 👉Fashion From Rs 299 </a> |
-                <a href="https://www.ajio.com" title="ajio" target="_blank">3. AJIO.com 👉HOT & NEW: FIRST TIME ON DISCOUNT</a>
+                <a href="https://www.ajio.com" title="ajio" target="_blank">3. AJIO.com 👉NEW SEASON STYLES: FIRST TIME ON DISCOUNT</a>
             </marquee>
         </div>
         <div class="container" id="how-it-works">
@@ -278,8 +278,8 @@
         <br>
         <div class="container">
             <center>
-                <a href="/indian-virtual-address">
-                    <div class="btn header6 btn-get-assisted p-color-white no-margin">
+                <a href="/customer/register">
+                    <div class="btn header6 btn-get-assisted p-color-white no-margin" style="background-color: #4285f4!important">
                         <center>
                             Get a Free Virtual Address
                         </center>
@@ -288,82 +288,83 @@
             </center>
         </div>
     </section>
+    <br>
+    <br>
+{{--    <section style="background-color: #fafafb;" id="personal-shopper">--}}
+{{--        <div class="container section-3">--}}
+{{--            <center>--}}
+{{--                <h1 class="header1 p-color-cement-dark">Personal Shopper</h1>--}}
+{{--                <h3 class="header2 p-color-cement">Payment hassles at checkout? No worries! <br>Hire one of our experts--}}
+{{--                    to shop for you! </h3>--}}
+{{--            </center>--}}
+{{--        </div>--}}
 
-    <section style="background-color: #fafafb;" id="personal-shopper">
-        <div class="container section-3">
-            <center>
-                <h1 class="header1 p-color-cement-dark">Personal Shopper</h1>
-                <h3 class="header2 p-color-cement">Payment hassles at checkout? No worries! <br>Hire one of our experts
-                    to shop for you! </h3>
-            </center>
-        </div>
-
-        <div class="container">
-            <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 p-shoper-section">
-                <div class="row">
-                    <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
-                        <img class="img " src="{{env('AWS_CLOUD_FRONT')}}/img/svg/international-credit-card-shopping.svg"
-                             alt="international credit card shopping">
-                    </div>
-                    <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
-                        <h4 class="header6 p-color-cement-dark">Store does't accept your <br> International card/Debit
-                            Card?
-                        </h4>
-                    </div>
-
-
-                    <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
-                        <img class="img" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indian-phone-number.svg" alt="indian number">
-                    </div>
-                    <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
-                        <h4 class="header6 p-color-cement-dark">Don't have an Indian phone number
-                            to <br> verify your order?
-                        </h4>
-                    </div>
-                    <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">
-                        <img class="img" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indian-address-shopping.svg"
-                             alt="indian address for shopping">
-
-                    </div>
-                    <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">
-                        <h4 class="header6 p-color-cement-dark">Don't have an Indian address?
-                        </h4>
-                    </div>
-                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 img-ifs-card div-play-btn" >
-                        <p>
-                            <a class="bla-1" href="https://www.youtube.com/watch?v=eFop4beZmOk">
-                                <img class="" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/btn.svg" style="">
-                            </a>
-                            <a class="bla-1" href="https://www.youtube.com/watch?v=eFop4beZmOk">
-                                <span class="p-color-cement-dark header6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Watch Video</span>
-                            </a>
-
-                        </p>
-                    </div>
-                    <div class="col-sm-12 col-xs-12" id="img-shopping-mobile">
-                        <img class="img-responsive " src="{{env('AWS_CLOUD_FRONT')}}/img/images/image06_v2.png">
-                    </div>
-                </div>
-                <div class="row">
-                    <center>
-                        <a href="https://www.shoppre.com/personal-shopper">
-                            <div class="btn header6 btn-get-assisted p-color-white">
-                                Buy For Me
-                            </div>
-                        </a>
-                    </center>
-
-                </div>
+{{--        <div class="container">--}}
+{{--            <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 p-shoper-section">--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">--}}
+{{--                        <img class="img " src="{{env('AWS_CLOUD_FRONT')}}/img/svg/international-credit-card-shopping.svg"--}}
+{{--                             alt="international credit card shopping">--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">--}}
+{{--                        <h4 class="header6 p-color-cement-dark">Store does't accept your <br> International card/Debit--}}
+{{--                            Card?--}}
+{{--                        </h4>--}}
+{{--                    </div>--}}
 
 
-            </div>
-            <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 " id="img-shopping">
-                <img class=" img-priyamani-shopping" src="{{env('AWS_CLOUD_FRONT')}}/img/images/personal-shopper-service.png"
-                     alt="personal shopper service in india">
-            </div>
+{{--                    <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">--}}
+{{--                        <img class="img" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indian-phone-number.svg" alt="indian number">--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">--}}
+{{--                        <h4 class="header6 p-color-cement-dark">Don't have an Indian phone number--}}
+{{--                            to <br> verify your order?--}}
+{{--                        </h4>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 img-ifs-card ">--}}
+{{--                        <img class="img" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/indian-address-shopping.svg"--}}
+{{--                             alt="indian address for shopping">--}}
 
-        </div>
-    </section>
+{{--                    </div>--}}
+{{--                    <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 img-ifs-card">--}}
+{{--                        <h4 class="header6 p-color-cement-dark">Don't have an Indian address?--}}
+{{--                        </h4>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 img-ifs-card div-play-btn" >--}}
+{{--                        <p>--}}
+{{--                            <a class="bla-1" href="https://www.youtube.com/watch?v=eFop4beZmOk">--}}
+{{--                                <img class="" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/btn.svg" style="">--}}
+{{--                            </a>--}}
+{{--                            <a class="bla-1" href="https://www.youtube.com/watch?v=eFop4beZmOk">--}}
+{{--                                <span class="p-color-cement-dark header6"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Watch Video</span>--}}
+{{--                            </a>--}}
+
+{{--                        </p>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-sm-12 col-xs-12" id="img-shopping-mobile">--}}
+{{--                        <img class="img-responsive " src="{{env('AWS_CLOUD_FRONT')}}/img/images/image06_v2.png">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="row">--}}
+{{--                    <center>--}}
+{{--                        <a href="https://www.shoppre.com/personal-shopper">--}}
+{{--                            <div class="btn header6 btn-get-assisted p-color-white">--}}
+{{--                                Buy For Me--}}
+{{--                            </div>--}}
+{{--                        </a>--}}
+{{--                    </center>--}}
+
+{{--                </div>--}}
+
+
+{{--            </div>--}}
+{{--            <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 " id="img-shopping">--}}
+{{--                <img class=" img-priyamani-shopping" src="{{env('AWS_CLOUD_FRONT')}}/img/images/personal-shopper-service.png"--}}
+{{--                     alt="personal shopper service in india">--}}
+{{--            </div>--}}
+
+{{--        </div>--}}
+{{--    </section>--}}
 
     <section style="background-color: #fafafb; ">
         <div class="container">
@@ -879,7 +880,7 @@
 
     <section class="content-oes">
         <div class="container">
-            <h1>SHOP & SHIP from India to Worldwide with ShoppRe!</h1>
+            <h3 class="header2 p-color-cement-dark font-weight-900">SHOP & SHIP from India to Worldwide with ShoppRe!</h3>
 
             <p>E-commerce industry has revolutionized our shopping experience and we extend the same with presenting
                 ShoppRe as <a href="{{route('home')}}"> the best package forwarding company</a> for shipping international purchases . Hence ‘Shop and Ship’! </p>
@@ -928,7 +929,7 @@
                 <h3 class="header2 p-color-cement-dark font-weight-900">Want more information about each of our services? Download Our brochure for Free! </h3>
                 <br>
                 <a href="http://bit.ly/shoppre-brochure" target="_blank">
-                    <div class="btn header6 btn-get-assisted p-color-white no-margin">
+                    <div class="btn header6 btn-get-assisted p-color-white no-margin" style="background-color: #0b8043!important">
                         <center>
                             Download Here
                         </center>
@@ -985,7 +986,7 @@
             </div>
         </div>
         <div class="text-center">
-            <a href="/indian-online-stores" class="btn btn-s-b btn-b-g" target="_blank">List of Indian Online Stores</a>
+            <a href="/indian-online-stores" class="btn btn-s-b btn-b-r" target="_blank">List of Indian Online Stores</a>
         </div>
         <br/><br/>
         </div>

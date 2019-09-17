@@ -195,7 +195,7 @@
                     <div class="no-padding address-details">
                         <h4>Locations</h4>
                         <span class="under-line"><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/line.png"></span>
-                        <h5>BANGALORE - INDIA</h5>
+                        <h5><a href="https://g.page/shoppre?share" target="_blank">BANGALORE - INDIA</a></h5>
                         <p> IndianShoppre LLP,
                             First Floor, <br>No. 181, 2nd Cross Road,
                             7th Main, Koramangala 1st Block, Bengaluru - 560034,

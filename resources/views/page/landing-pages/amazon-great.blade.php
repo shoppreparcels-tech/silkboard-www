@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', 'Amazon Great Indian Sale October 2019 | ShoppRe Online Shopping')
+@section('title', '29th SEP - 4th OCT, Amazon Great Indian Festival 2019 | ShoppRe.com')
 @section('description', 'Shopping for Amazon.in Great Indian Sale. ShoppRe will deliver your package to you within 3-6 days at up to 80% low shipping rates, Worldwide.')
 @section('keywords', 'amazon.in, great indian sale, offers today, upcoming sale, online shopping, festival, mobiles, clothes, cashback, pay')
 
@@ -56,7 +56,7 @@
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                        class="startsValidValue"> 01st Oct 2019</span></p>
+                                        class="startsValidValue"> 29th Sep 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
@@ -67,8 +67,8 @@
                     </div>
                     <div class="col-md-3">
                         <center>
-                            <p class="startsvalid">NOTE :<span
-                                        class="startsValidValue"> Date may change</span></p>
+                            <p class="startsvalid">STORE :<span
+                                        class="startsValidValue"> Amazon.in</span></p>
                         </center>
 
                     </div>
@@ -582,8 +582,8 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Shopping Days"><span><a
-                                        href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Billion Days"><span><a
+                                        href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Flipkart Big Billion Days</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Freedom Sale"><span><a
                                         href="/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Flipstart Days"><span><a

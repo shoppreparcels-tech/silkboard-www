@@ -188,7 +188,7 @@
             <p class="f-s-18 f-c-gray">For an individual, entrepreneur, small business or multinational corporation, the main challenges of international shipments remains same.
             </p> <br>
             <p class="f-s-18 f-c-gray">What if all your risk and burden of shipping your favourite and very needy products are handled by someone else? Yes! You heard me right.
-                ShoppRe handles all your burden of international shipping and makes it a hassle free process by delivering it to your doorstep where you
+                ShoppRe handles all your burden of <a href="/">international shipping and makes it a hassle free</a> process by delivering it to your doorstep where you
                 can just sit back and relax while enjoying the Indian touch at Brazil.
             </p> <br>
 
@@ -222,7 +222,7 @@
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">6. What is the best way to ship clothing accessories from India?</h2>
-            <p class="f-s-16 f-c-gray">Shipping clothing accessories that you admire most from the Indian shopping sites, would be now more easily accessible through
+            <p class="f-s-16 f-c-gray">Shipping clothing accessories that you admire most from the <a href="/indian-online-stores">Indian shopping sites</a>, would be now more easily accessible through
                 ShoppRe as it allows you to shop and ship it to our address and then ships it to your doorstep within just 3-6 business days as many of the
                 Indian shopping sites do not provide you global shipping. Now you no need to compromise on both the shipping rates and your favourite clothing accessories.
 

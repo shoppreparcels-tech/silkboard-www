@@ -69,17 +69,17 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/intl-fest-sep02" target="_blank"><div class="shopandship ">
-                            <h2>Premium League</h2>
+                    <a href="https://www.myntra.com/shop/mbe-sep19-women" target="_blank"><div class="shopandship ">
+                            <h2>👸 BEAUTY EDIT</h2>
                             <br/>
-                            <p>Up To 40% Off</p>
-                            <p>Starts from ₹399/-</p>
-                            <p>Explore Now</p>
+                            <p>Up To 50% Off</p>
+                            <p>18th - 19th SEP</p>
+                            <p>👉 Explore Now</p>
                         </div></a>
                 </div>
                 <div class="col-sm-4">
                     <a href="https://www.myntra.com/saree-fest-sep19" target="_blank"><div class="ps">
-                            <h2>Traditional Tales</h2>
+                            <h2>🥻 Traditional Tales</h2>
                             <br/>
                             <p>Starts from ₹349/-</p>
                             <p>Sarees & Blouse</p>

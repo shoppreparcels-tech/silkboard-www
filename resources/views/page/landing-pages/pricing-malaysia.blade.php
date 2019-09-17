@@ -5,6 +5,8 @@
 @section('keywords', 'courier charges malaysia, indians, international shipping from india, kuala lumpur, courier services near me, send parcel, delivery charges')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-malaysia-per-kg" />
+
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -62,8 +64,6 @@
   }
 }
 </script>
-
-<link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-malaysia-per-kg" />
 
 @endsection
 @section('content')
@@ -206,8 +206,8 @@
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">2. How safe and reliable is it to ship garments from India to Malaysia?</h2>
-            <p class="f-s-16 f-c-gray">Shipping garments from India to Malaysia through ShoppRe is one of the best resolution as it is one of the leading Shipping Companies from
-                India on which you can completely rely on for its best quality services, cheap shipping rates, amazing consolidation and relocation services, and exclusive offers.
+            <p class="f-s-16 f-c-gray">Shipping garments from India to Malaysia through ShoppRe is one of the best resolution as it is one of the
+                <a href="/" target="_blank">leading Shipping Companies from India</a> on which you can completely rely on for its best quality services, cheap shipping rates, amazing consolidation and relocation services, and exclusive offers.
             </p> <br>
 
             <h2 class="f-s-18 f-c-d-gray f-w-8">3. Do you accept fragile items?</h2>

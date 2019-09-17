@@ -29,11 +29,11 @@
                        <br>
                        <ul>
                            <li><a href="{{route('pricing')}}">Shipping Costs</a></li>
-                           <li>Duties and taxes</li>
-                           <li>Restricted & prohibited items</li>
-                           <li>Current exchange rates</li>
-                           <li><a href="http://shoppretracking.aftership.com/" target="_blank">Typical transit times</a></li>
-                           <li>Country alerts</li>
+                           <li>Duties and Taxes</li>
+                           <li>Restricted & Prohibited Items</li>
+                           <li>Current Exchange Rates</li>
+                           <li><a href="http://shoppretracking.aftership.com/" target="_blank">Typical Transit Times</a></li>
+                           <li>Country Alerts</li>
                        </ul>
                    </div>
                     <div class="col-md-6 div-country">

@@ -439,7 +439,7 @@
                             <br>
                             <div class="col-md-6 col-xs-12 no-pad">
                                 <div class="col-md-6 col-xs-6 no-pad">
-                                    <a href="{{route('member.plan')}}">
+                                    <a href="customer/register">
                                         <button class="btn btn-s-r btn-b-r btn-f-w btn-h-40">Get Virtual Address</button></a>
                                 </div>
                                 <div class="col-md-6 col-xs-6 ">
@@ -512,7 +512,8 @@
                         <br>
                         <a href="/countries" class="f-s-14 f-c-blue">Currency Conversion</a><br><br>
                         <a href="/faq" class="f-s-14 f-c-blue">Duties and taxes</a><br><br>
-                        <a href="/faq" class="f-s-14 f-c-blue">Restricted & prohibited items</a><br><br>
+                        <a href="https://ship.shoppre.com/prohibited-items-what-you-cannot-ship-internationally-from-india/" class="f-s-14 f-c-blue" target="_blank">
+                            Restricted & prohibited items</a><br><br>
                         <a href="/sellers-shipping" class="f-s-14 f-c-blue">Premium Plans for Sellers</a><br><br>
                     </div>
                 </div>

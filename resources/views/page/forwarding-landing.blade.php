@@ -87,7 +87,7 @@
                             <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>
                             {{--</button>--}}
                             {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
-                            <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20ParcelForwarding%20Quote%20from%20India" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
+                            <a href="http://bit.ly/shpr-parcel" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
                             {{--</button>--}}
                         </div>
                         </div>
@@ -168,7 +168,7 @@
                 pay for them, store them, pack it and find a place to courier them.
             </p> <br>
             <p>Worry no more! We have all this covered for you! ShoppRe.com provides a first class International Parcel Forwarding
-                Service from India allowing those who reside outside India to purchase their favorite products from India and get
+                    Service from India allowing those who reside outside India to purchase their favorite products from India and get
                 it shipped to their doorsteps at an optimized rate and in a hassle-free manner in 3-6 days.
             </p>
             <h1>How we achieve this?</h1>
