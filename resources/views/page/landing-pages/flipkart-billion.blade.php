@@ -423,7 +423,7 @@
                     </table>
                 </div>
                 <br>
-                <p class="f-s-20 f-c-l-gray f-w-9">29th Sep – 4th October: Offers on Fashion, TV’s  & Appliances</p>
+                <p class="f-s-20 f-c-l-gray f-w-9">29th Sep – 4th October: <a href="https://www.flipkart.com/tvs-and-appliances-the-big-billion-days-store" target="_blank">Offers on Fashion, TV’s  & Appliances</a></p>
                 <br>
                 <p class="header4 p-color-cement">The sale will begin with fantastic offers and discounts on Fashion apparel & accessories, Beauty, Television & Appliances,
                     and other similar categories on major products from top brands will be up for grabs at massive discounts.
@@ -432,7 +432,7 @@
                     appliances that will make everyone go crazy with more than 38,000 products from 500 brands. And the Oh so sweet NO Cost EMI offer will also be available on all of these so that you can shop your heart out!
 
                 </p>
-                <br><p class="f-s-20 f-c-l-gray f-w-9">30th September: Offers on Mobiles phones</p>
+                <br><p class="f-s-20 f-c-l-gray f-w-9">30th September: <a href="https://www.flipkart.com/mobiles-tbbd19-sneak-peek-store" target="_blank">Offers on Mobiles phones</a></p>
                 <br>
                 <p class="header4 p-color-cement">TDays of you contemplating over that mobile phone, you want to get your hands on, are over.
                     The second day of the grand Flipkart Big Billion Day Sale 2019 is here and it the harbinger of good news for all those who want to purchase a new handset.
@@ -440,7 +440,7 @@
                     This sale is offering the best possible discount on mobile phones that you will ever find anywhere else. Other deals like No Cost EMI,
                     Mobile protection service and buyback guarantee are just like the cherry on the top along with already present massive discounts on them.
                 </p>
-                <br><p class="f-s-20 f-c-l-gray f-w-9">30th Sep - 4th October: Offers on Electronics & Computers</p>
+                <br><p class="f-s-20 f-c-l-gray f-w-9">30th Sep - 4th October: <a href="https://www.flipkart.com/electronics-big-billion-days-store" target="_blank">Offers on Electronics & Accessories</a></p>
                 <br>
                 <p class="header4 p-color-cement">You will not be able to resist these sweet deals on electronics and computers and then you will end up buying one more laptop for
                     yourself. This year’s Flipkart Big Billion Day Sale is offering huge deals and discounts on laptops, speakers, sounders, digital cameras, tablets,

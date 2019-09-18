@@ -5,6 +5,13 @@
 @section('keywords', 'qatar courier services near me, courier rates from india to qatar middle east, shipping company, cargo parcel, express delivery ')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-qatar-per-kg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-qatar-per-kg"/>
+    <meta property="og:title" content="Qatar - ShoppRe™ Online‎ Courier Service | Best Price Safe and Secure‎‎" />
+    <meta property="og:description" content="We serve at your doorstep. Affordable International courier to Qatar from India. Easy Online Shipping. Tracking. Schedule Parcel Pickup. 3-6 Days Delivery." />
+
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -62,9 +69,6 @@
   }
 }
 </script>
-
-<link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-qatar-per-kg" />
-
 @endsection
 @section('content')
     <section class="bg-ics-l-p">

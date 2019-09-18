@@ -5,6 +5,12 @@
 @section('keywords', 'easy shipping, courier from india to germany, international shipping to europe, valentines day gifts')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-germany-per-kg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-germany-per-kg"/>
+    <meta property="og:title" content="Safe International Courier Services to Germany - ShoppRe India" />
+    <meta property="og:description" content="Best Discount on Courier Services to Germany. Get a quote and create a shipment online in seconds. Save 80% on shipping. Book Now! " />
 
     <script type="application/ld+json">
 {
@@ -63,9 +69,8 @@
   }
 }
 </script>
-
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-germany-per-kg" />
 @endsection
+
 @section('content')
     <section class="bg-ics-l-p">
         <div class="container">

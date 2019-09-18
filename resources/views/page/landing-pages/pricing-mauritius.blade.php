@@ -5,6 +5,13 @@
 @section('keywords', 'mauritius courier services near me, cheap parcel delivery to mauritius, courier charges per kg, east africa ')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-mauritius-per-kg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-mauritius-per-kg"/>
+    <meta property="og:title" content="Fast Courier from India to Mauritius - Get Free Quote‎ Online | 📞 +91-8277-919191‎‎" />
+    <meta property="og:description" content="Enjoy the benefits of ShoppRe international courier services from India to Mauritius tailored to your needs. Sign up now & ship for up to 50% OFF*" />
+
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -62,8 +69,6 @@
   }
 }
 </script>
-
-<link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-mauritius-per-kg" />
 
 @endsection
 @section('content')

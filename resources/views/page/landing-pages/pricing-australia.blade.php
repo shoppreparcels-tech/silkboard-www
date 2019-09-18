@@ -5,6 +5,12 @@
 @section('keywords', 'international courier charges, per kg rates, shipping from india, cheapest rates, ship some goods')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg"/>
+    <meta property="og:title" content="Reliable, Stress-Free Shipping‎ - ShoppRe India to Australia Courier" />
+    <meta property="og:description" content="Special courier rates from India to Australia. Corporate Relocation. Office Relocation. International Relocation. Seller Shipping." />
 
     <script type="application/ld+json">
 {
@@ -63,8 +69,8 @@
   }
 }
 </script>
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg" />
 @endsection
+
 @section('content')
 
     <section class="bg-ics-l-p">

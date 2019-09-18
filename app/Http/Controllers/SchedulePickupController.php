@@ -97,6 +97,7 @@ class SchedulePickupController extends Controller
             'package_width' => $data->width,
             'package_height' => $data->height,
             'package_weight' => $data->package_weight,
+            'number_of_packages' => $data->no_of_packages,
             'destination_first_name' => $data->dc_fname,
             'destination_last_name' => $data->dc_lname,
             'destination_address_line1' => $data->dc_street,

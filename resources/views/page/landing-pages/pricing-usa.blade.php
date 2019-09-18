@@ -5,6 +5,13 @@
 @section('keywords', 'courier charges to usa, international shipping from india')
 
 @section('css_style')
+
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg"/>
+    <meta property="og:title" content="Guaranteed Lowest Prices to USA from India - ShoppRe International Courier" />
+    <meta property="og:description" content="Best Discount on Courier Services to the USA. Door-to-Door pick-up anywhere in India. Ship household goods, food products, clothes, shoes, books & more." />
+
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -63,7 +70,7 @@
 }
 </script>
 
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg" />
+
 @endsection
 @section('content')
     <section class="bg-ics-l-p">

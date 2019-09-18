@@ -5,6 +5,13 @@
 @section('keywords', 'japan courier services near me, best shipping services, ship from india to japan, courier charges per kg ')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-japan-per-kg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-japan-per-kg"/>
+    <meta property="og:title" content="Cheap Courier India to Japan | New User Code : FRST50‎" />
+    <meta property="og:description" content="The Cheapest Rates Online here. Sign up and book your parcel courier to Japna from India. Save up to 80% on ShippingNow‎" />
+
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -63,7 +70,6 @@
 }
 </script>
 
-<link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-japan-per-kg" />
 
 @endsection
 @section('content')

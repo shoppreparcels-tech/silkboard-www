@@ -5,6 +5,13 @@
 @section('keywords', 'mexico courier services near me, cheap ship from india, mexico charges per kg, northern europe, dk')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-mexico-per-kg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-mexico-per-kg"/>
+    <meta property="og:title" content="India to Mexico - Instant Online Courier Quote‎ | 📞 +91-8277-919191‎‎" />
+    <meta property="og:description" content="Ship your parcel to Mexico from anywhere in India with ShoppRe. Avoid expensive Shipping Costs‎. Book Now!" />
+
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -62,8 +69,6 @@
   }
 }
 </script>
-
-<link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-mexico-per-kg" />
 
 @endsection
 @section('content')

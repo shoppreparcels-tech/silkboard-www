@@ -364,6 +364,22 @@
                     <div class="col-sm-12">
                         <div class="col-sm-3">
                             <div class="form-group label-align">
+                                <label>No Of Boxes<span class="mendatory_fields">*</span> :</label>
+                                <div class="row">
+                                    <div
+                                        class="col-sm-12 div-price-cal-length-padding">
+                                        <h6 class="header7 p-color-cement">(in number)</h6>
+                                        <div class="col-sm-12 no-padding ">
+                                            <input type="number" min="1" class="form-control"
+                                                   pattern="^\d*(\.\d{0,2})?$" style="height: 40px"
+                                                   name="no_of_packages" required placeholder="Enter No of Boxes">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group label-align">
                                 <label>Weight Of Package<span class="mendatory_fields">*</span> :</label>
                                 <div class="row">
                                     <div
@@ -378,14 +394,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-9">
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-sm-12">
                             <div class="form-group label-align">
                                 <label>Size Of The Package If You Are Aware( Optional )<a
-                                            href="#" class="tooltipkey" title="volumetric">
+                                        href="#" class="tooltipkey" title="volumetric">
                                         <i class="fa fa-question-circle-o"></i></a> :</label>
                                 <div class="row">
                                     <div
-                                            class="col-md-3 col-sm-4 col-xs-9 div-price-cal-length-padding" >
+                                        class="col-md-3 col-sm-4 col-xs-9 div-price-cal-length-padding" >
                                         <h6 class="header7 p-color-cement">Length (in cm)</h6>
                                         <div class="col-sm-12 no-padding  div-price-cal-length">
                     <span id="aminus"
@@ -397,7 +415,7 @@
                                         </div>
                                     </div>
                                     <div
-                                            class="col-md-3 col-sm-4 col-xs-9 div-price-cal-length-padding">
+                                        class="col-md-3 col-sm-4 col-xs-9 div-price-cal-length-padding">
                                         <h6 class="header7 p-color-cement">Width (in cm)</h6>
                                         <div class="col-sm-12 no-padding div-price-cal-length">
                     <span id="aminus"
@@ -409,7 +427,7 @@
                                         </div>
                                     </div>
                                     <div
-                                            class="col-md-3 col-sm-4 col-xs-9 div-price-cal-length-padding">
+                                        class="col-md-3 col-sm-4 col-xs-9 div-price-cal-length-padding">
                                         <h6 class="header7 p-color-cement">Height (in cm)</h6>
                                         <div class="col-sm-12 no-padding  div-price-cal-length">
                     <span class="btn btn-puls-minus dec-value no-padding"

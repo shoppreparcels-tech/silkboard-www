@@ -6,6 +6,13 @@
 
 @section('css_style')
 
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg"/>
+    <meta property="og:title" content="Courier to UAE - Starting from ₹566 - ShoppRe Express Courier" />
+    <meta property="og:description" content="Courier Per Kg Rates to UAE from India. Door-to-Door pick-up service anywhere in India. Courier household goods, branded food, clothes, shoes, books & more." />
+
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -65,7 +72,7 @@
 }
 </script>
 
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg" />
+
 @endsection
 @section('content')
     <section class="bg-ics-l-p">

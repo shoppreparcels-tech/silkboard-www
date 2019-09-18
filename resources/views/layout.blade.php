@@ -42,7 +42,7 @@
         .modal-pop-content{background-color: #507dbc;}
         .modal-pop-content .no-padding p{color: rgb(255, 214, 146);font-size: 16px}
     </style>
-    <link rel="publisher" href="https://plus.google.com/101070316798366909776/">
+
     <meta name="google-play-app" content="app-id=com.shoppre.play"/>
     <meta property="fb:app_id" content="1819630241632764"/>
     <meta property="al:android:url" content="https://www.shoppre.com/"/>\

@@ -5,6 +5,12 @@
 @section('keywords', 'canada courier, package shipping, shipping rates, send documents to WES Canada, ship extra luggage')
 
 @section('css_style')
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-canada-per-kg"/>
+    <meta property="og:title" content="Cheap Courier Service from India to Canada - ShoppRe International" />
+    <meta property="og:description" content="Special courier rates from India to Canada. ShoppRe international courier - Easy Online Shipping. Tracking. Quick Schedule Parcel Pickup Online. 3-6 Days Delivery." />
+
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-canada-per-kg" />
 
     <script type="application/ld+json">
 {
@@ -63,8 +69,6 @@
   }
 }
 </script>
-
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-canada-per-kg" />
 @endsection
 @section('content')
 

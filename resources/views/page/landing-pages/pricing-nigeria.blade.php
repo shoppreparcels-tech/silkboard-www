@@ -7,6 +7,11 @@
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-nigeria-per-kg" />
 
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-nigeria-per-kg"/>
+    <meta property="og:title" content="India to Nigeria - International Courier Quote | 📞 +91-8277-919191‎‎" />
+    <meta property="og:description" content="Special courier rates from India to Nigeria. ShoppRe international courier - Easy Online Shipping. Tracking. Schedule Package Pickup. 3-6 Days Delivery" />
+
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",

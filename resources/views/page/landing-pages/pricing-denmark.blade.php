@@ -5,6 +5,13 @@
 @section('keywords', 'denmark courier services near me, cheap ship from india, denmark charges per kg, northern europe, dk')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-denmark-per-kg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-denmark-per-kg"/>
+    <meta property="og:title" content="India to Denmark - ShoppRe™ Online‎ Courier Service | Safe & Secure‎"/>
+    <meta property="og:description" content="Get your Free Quote to send a courier to Denmark from India with ShoppRe™. We offer express delivery, economic couriers using DHL, DTDC, FedEx & other partners." />
+
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -62,8 +69,6 @@
   }
 }
 </script>
-
-<link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-denmark-per-kg" />
 
 @endsection
 @section('content')

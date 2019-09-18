@@ -7,6 +7,11 @@
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-malaysia-per-kg" />
 
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-malaysia-per-kg"/>
+    <meta property="og:title" content="Courier to Malaysia | Book Online with ShoppRe™ | New User Code : FRST50" />
+    <meta property="og:description" content="Book Cheap package courier to Malaysia at ShoppRe. Online tracking, schedule and best deals on India to Malaysia courier." />
+
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -32,13 +37,14 @@
   "aggregateRating": {
     "@type" : "AggregateRating",
     "bestRating": "5",
-    "ratingValue" : "4.5",
+    "ratingValue" : "4.7",
     "reviewCount" : "1038",
     "worstRating" : 3.0
   }
 }
 </script>
-    <script type="application/ld+json">
+
+<script type="application/ld+json">
 {
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
