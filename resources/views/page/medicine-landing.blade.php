@@ -68,7 +68,7 @@
                         <div class="form-group text-center">
                             {{--<button type="submit" name="btnActivate" class="btn btn-d-activate-coupon"> GET A FREE QUOTE--}}
                             {{--</button>--}}
-                            <button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r"> GET A FREE QUOTE
+                            <button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-g" style="background-color: #4285f4"> GET A FREE QUOTE
                             </button>
                         </div>
                     </div>

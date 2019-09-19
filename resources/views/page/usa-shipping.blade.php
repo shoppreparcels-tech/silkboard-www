@@ -8,6 +8,11 @@
 
     <link rel="canonical" href="https://www.shoppre.com/cheap-and-fast-shipping-service-from-india-to-usa" />
 
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/cheap-and-fast-shipping-service-from-india-to-usa"/>
+    <meta property="og:title" content="Cheap & Fast Shipping | India to USA - ShoppRe International Courier" />
+    <meta property="og:description" content="Cheap & Fast Courier Services to the USA. Door-to-Door pick-up anywhere in India. Ship household goods, food products, clothes, shoes, books & more." />
+
     <style>
         .first-time-shipment{background-color:#11273b;height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;padding-top:60px}
         .first-time-shipment .div-snow{padding-top:146px}
@@ -47,7 +52,7 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Cheapest way to send parcel to USA from India</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12 text-center">
-                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=I%27m%20Looking%20for%20Shipping%20Service%20to%20USA%20from%20India?" target="_blank" title="Click to WhatsApp">
+                    <a href="http://bit.ly/shpr-fast" target="_blank" title="Click to WhatsApp">
                         <img src="/img/images/christmas-contact.png" alt="shoppre contact number 8277919191">
                     </a>
                 </div>
@@ -61,7 +66,7 @@
                     we offer the cheapest and the best way to send your courier from India to USA with our trusted courier partners.</h4>
                 <br>
                 <p class="header4 p-color-cement">Be it package forwarding or courier, ShoppRe offers international shipping from India in an effective manner by offering
-                    FREE 20 days storage service, pickup from your doorstep at your domestic address in India and delivery within 3-6 working days to anywhere in the USA
+                    FREE 20 days storage service, <a href="/schedule-pickup" target="_blank">pickup from your doorstep</a> at your domestic address in India and delivery within 3-6 working days to anywhere in the USA
                     and 220 + countries while saving up to 80 % on shipping rates.
                 </p>
                 <br>
@@ -187,14 +192,16 @@ contact our support team for assistance.</span>
                     <li>International shipping from "India"</li>
                     <li>Repackaging items (if needed) to ensure safe arrival and lower shipping cost</li>
                     <li>Consolidating several packages to reduce shipping cost</li>
-                    <li>Large international shipping rate discounts from carriers (FEDEX, DHL, DTDC & More).</li>
+                    <li>Large international shipping rate discounts from carriers (Aipex, DHL, DTDC & More).</li>
                     <li>Shipment insurance & Item storage</li>
                     <li>Payment via bank transfer, Paypal, credit card, debit card, netbanking & more</li>
                 </ul>
                 <br>
                 <div class="offerDesc">
                     <h4 style="text-decoration: underline" class="f-c-blue">What do we ship?</h4>
-                    <p class="header4 p-color-cement">Almost anything that falls under the international export & customs guidelines and policies can be shipped through ShoppRe.
+                    <p class="header4 p-color-cement">Almost anything that falls under the international
+                        <a href="https://ship.shoppre.com/prohibited-items-what-you-cannot-ship-internationally-from-india/" target="_blank">export & customs guidelines and policies</a>
+                        can be shipped through ShoppRe.
                         The most common items that we ship are;
                     </p>
                     <br>
@@ -228,7 +235,7 @@ contact our support team for assistance.</span>
             <br>
             <h2 class="p-color-cement-dark f-w-9 font-18">2. What are the courier charges from India to usa?</h2>
             <p class="p-color-cement f-w-9 font-9">We have the cheapest way of shipping by offering up to 80% less shipping cost and the
-                international courier to USA starts at just ₹1449/-. Check here for the best courier rates from India to the USA for your package.
+                international courier to USA starts at just ₹1449/-. Check here for <a href="/international-courier-charges-india-to-usa-per-kg" target="_blank">the best courier rates from India to the USA</a> for your package.
                 <br>
                 You can use our shipping cost calculator to know Shipping charges from india to usa per kg.
             </p>
@@ -472,7 +479,7 @@ contact our support team for assistance.</span>
             <div class="mar-t-25">
                 <div class="txt-center">
                     <button type="button" class="btn btn-warning bord-rad-5 margin-r-10">
-                        <a href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
+                        <a href="https://www.shoppre.com/indian-online-stores" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
                             <p class="btn-md">Indian Online Shopping Stores</p>
                         </a>
                     </button>

@@ -61,7 +61,7 @@
                 <h2 class="p-color-cement-dark f-w-9 font-30">Amazon international shipping from India to USA made easy & affordable</h2>
                 </center>
                 <br>
-                <p class="header4 p-color-cement">You can do Amazon online shopping India and get it shipped to the USA or ANYWHERE in the world with ShoppRe,
+                <p class="header4 p-color-cement">You can do <i>Amazon online shopping India</i> and get it shipped to the USA or ANYWHERE in the world with ShoppRe,
                     hence making amazon international shipping from India to the USA.
                 </p>
                 <br>
@@ -69,14 +69,14 @@
                 <br>
                 <p class="header4 p-color-cement">Amazon has a myriad of products and offers everything from fashion, home decor, electronics, home appliances to stationery items.
                     It is indeed a one-stop destination for all the online shoppers all over the world.
-                    People do Amazon online shopping India like crazy since it is this popular and you can also make amazon international delivery from India to USA with us.
+                    People do Amazon <a href="/shop-from-india-ship-worldwide">online shopping India</a> like crazy since it is this popular and you can also make amazon international delivery from India to USA with us.
                 </p>
                 <br>
                 <p class="header4 p-color-cement">Well, if you reside in the USA and crave to shop from this exclusive website from India, then amazon international shipping from India to USA is feasible through us.
                     Not only possible but also easy, affordable and hassle-free through our supreme consolidation, repackaging and package forwarding services.
                 </p>
                 <br>
-                <h4 class="f-s-18 f-c-gray f-w-9">Does Amazon India do International Shipping?</h4>
+                <h4 class="f-s-18 f-c-gray f-w-9">Does <a href="/amazon-india-shop-international-shipping">Amazon India do International Shipping?</a></h4>
                 <br>
                 <p class="header4 p-color-cement">Amazon.in does not offer amazon international shipping from India to USA. It ships the products internationally with Amazon Global only,
                     with shipping rates and fees depending on the delivering country.
@@ -118,7 +118,7 @@
                     <ul>
                         <li>Amazon Super Value Day Sale - 4th to 6th August</li>
                         <li>Amazon great Indian Sale - 9th to 12th August</li>
-                        <li>Amazon Independence Day Sale - 13th to15th August</li>
+                        <li>Amazon Independence Day Sale - 13th to 15th August</li>
                         <li>Amazon Great Indian Festival Sale - 29th September to 4th October</li>
                         <li>Amazon Diwali Sale - 27th October</li>
                         <li>Amazon Christmas Sale - 23rd to 25th December</li>
@@ -126,7 +126,7 @@
                 </div>
                 <br>
                 <div>
-                <center><a href="https://www.amazon.in" target="_blank" class="btn btn-s-r btn-a-l btn-b-r">Shop Amazon.in</a></center>
+                <center><a href="https://www.amazon.in" target="_blank" class="btn btn-s-r btn-a-l btn-b-g">Shop from Amazon.in</a></center>
                 </div>
                 <br>
             </div>
@@ -135,7 +135,7 @@
                 And not only this, you can also track your order until it reaches you and be informed and relaxed at every step of the process.
             </p>
             <br>
-            <p class="header4 p-color-cement">Our package forwarding services give complete gratification for amazon international shipping from India to USA and also worldwide.
+            <p class="header4 p-color-cement">Our package forwarding services give complete gratification for <strong>amazon international shipping from India to USA</strong> and also worldwide.
                 Because we handle your packages as if our own, and send them to your address unharmed. <br>
                 Therefore, once you start shopping and shipping through our dependable services and save a lot in the process, you won't be able to back up. We aim to make
                 amazon online shopping India a completely tangible experience for people all over the world.
@@ -188,7 +188,8 @@
             </div>
         </div>
     </section>
-
+    <br>
+    <br>
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">

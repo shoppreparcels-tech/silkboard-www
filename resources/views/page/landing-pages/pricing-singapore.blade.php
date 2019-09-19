@@ -10,7 +10,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-singapore-per-kg"/>
     <meta property="og:title" content="Fast Courier Services to Singapore from India - ShoppRe .com" />
-    <meta property="og:description" content="India to Singapore Courier Charges per kg.‎ The Cheapest way to ship to UAE offering safe, secure and high quality packing and 3-6 days delivery." />
+    <meta property="og:description" content="India to Singapore Courier Charges per kg. The Cheapest way to ship to Singapore offering safe, secure and high quality packing and 3-6 days delivery." />
 
     <script type="application/ld+json">
 {

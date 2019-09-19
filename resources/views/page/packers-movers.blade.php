@@ -16,24 +16,23 @@
 @section('content')
     <section class="bg-ics-l-p">
         <div class="container">
-            <div class="col-md-12">
-                <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">
-                </a>
-                <a href="tel:+91-8277919191" class="d-contact-img pull-right">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">
-                </a>
-            </div>
+{{--            <div class="col-md-12">--}}
+{{--                <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">--}}
+{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">--}}
+{{--                </a>--}}
+{{--                <a href="tel:+91-8277919191" class="d-contact-img pull-right">--}}
+{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">--}}
+{{--                </a>--}}
+{{--            </div>--}}
 
             <div class="col-sm-7 col-xs-12 no-pad">
 
                 <div class="col-md-12 col-xs-12 no-pad">
                     <h1 class="p-color-white header-spacing d-header-text">International Relocation Services, Packers & Movers from India
                         </h1>
-                    <h1 class="header1 p-color-white header-spacing">Starting @₹695/-</h1>
+{{--                    <h1 class="header1 p-color-white header-spacing">Starting @₹695/-</h1>--}}
 
-                    <p class="p-color-white header5 d-header-text1">Want
-                        to courier something abroad from India?<br>
+                    <p class="p-color-white header5 d-header-text1">Relocation services to help you relocate from India.<br>
                         We ship to 220+ countries & our trusted courier partners DHL,<br> DTDC & more help us sail smooth
                         all the way to your<br> destination.</p>
                     <br>
@@ -62,7 +61,7 @@
                         <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>
                         {{--</button>--}}
                         {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
-                        <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Relocation%20Quote%20from%20India" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
+                        <a href="http://bit.ly/shpr-relocation" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
                         {{--</button>--}}
                       </div>
                     </div>
@@ -95,7 +94,7 @@
 
             <center>
                 <h1 class="f-c-d-greay f-s-30 f-w-8" >
-                    Are you relocating to another country or moving from India?<br>
+                    <i>Are you relocating to another country or moving from India?</i><br>
                     We Ship to the USA, UAE, UK, Europe, Australia, New Zealand, Canada, Middle East & 220+
                     countries.
                 </h1>
@@ -109,7 +108,7 @@
                     <center>
                         <h2 class="f-c-d-greay f-s-22 f-w-8 ">Can I Ship Household Items from India?</h2>
                         <p class="f-c-l-gray f-s-18 f-w-8">Our comprehensive services support to relocating individuals, families and employees globally.
-                            We do ship all the Residential and Corporate items specialising in packing and moving services.
+                            We do ship all the <strong class="f-s-18 f-c-blue">Residential and Corporate items</strong> specialising in packing and moving services.
                             Save Upto 80% on International Moving Costs.</p>
                     </center>
                 </div>

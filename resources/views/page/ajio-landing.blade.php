@@ -41,7 +41,7 @@
                 </div>
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://www.ajio.com/" title="AJIO" target="_blank">NEW SEASON STYLE: FIRST TIME ON DISCOUNT | Shop AJIO & Ship Worldwide with ShoppRe.</a>
+                        <a href="https://www.ajio.com" title="AJIO" target="_blank">👉 FESTIVE SALE (40-80% Off) 19th - 30th SEP | Shop AJIO & Ship Worldwide with ShoppRe.</a>
                     </marquee>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                     <h4 class="p-color-cement-dark flipkart-h1">Payment Hassles with International Credit/Debit Cards?</h4>
                     <h5 class="header5 p-color-cement">Our Personal Shopper with top-of-the-line shopping concierge services will take
                         care of everything and help you along the way of your Indian shopping experience. </h5> <br>
-                    <a href="https://www.ajio.com/?src=shoppre.com" class="btn-chris-place-order" target="_blank">Go Shopping Now!</a>
+                    <a href="https://www.ajio.com/?src=shoppre.com" class="btn-chris-place-order" target="_blank">Shop from AJIO Now!</a>
                 </center>
             </div>
             <br>
@@ -179,7 +179,7 @@
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Well, what's the wait? Sign Up with us now for a lifetime of effortless</h1>
                 <h1 class="flipkart-h1 p-color-cement-dark font-weight-900">Online shopping & high-end international shipping services from India!</h1>
                 <br>
-                <a href="{{route('customer.register')}}" class="btn-chris-place-order">Sign Up for Free</a>
+                <a href="{{route('customer.register')}}" class="btn-chris-place-order" style="background-color: #507DBC">Sign Up for Free</a>
 
             </center>
         </div>
@@ -335,7 +335,7 @@
             <center>
                 <h3 class="header2 p-color-cement-dark font-weight-900">Want more information about ShoppRe services? Download Our brochure for FREE! </h3>
                 <a href="http://bit.ly/shoppre-brochure" target="_blank">
-                    <div class="btn header6 btn-get-assisted p-color-white no-margin">
+                    <div class="btn header6 btn-get-assisted p-color-white no-margin" style="background-color: #4285f4">
                         <center>
                             Download Here
                         </center>

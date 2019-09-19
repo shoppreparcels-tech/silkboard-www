@@ -127,26 +127,26 @@
                 </center>
                 <form method="post" action="{{route('reviews.submit')}}">
                     {{csrf_field()}}
-                    <div class="row margin-bottom-div">
-                        <div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4 col-sm-12 col-xs-12">
-                            <div class="form-group rating-star-left-margin">
-                                <div class="rating-star rating-xl">
-                                    <input id="input-rate" type="text" class="rating" name="rating" required>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="row margin-bottom-div">--}}
+{{--                        <div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4 col-sm-12 col-xs-12">--}}
+{{--                            <div class="form-group rating-star-left-margin">--}}
+{{--                                <div class="rating-star rating-xl">--}}
+{{--                                    <input id="input-rate" type="text" class="rating" name="rating" required>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                     <div class="row">
                         <div class="col-md-4 col-lg-4 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <label>Your Name <span class="mendatory_fields">*</span></label>
+                                <label>Your Name <span class="mandatory_fields">*</span></label>
                                 <input id="input-rate" type="text" name="person" placeholder="Enter name" required
                                        class="form-control"/>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <label>Country <span class="mendatory_fields">*</span></label>
+                                <label>Country <span class="mandatory_fields">*</span></label>
                                 <select class="form-control" name="country_id" required>
                                     <option value="">Select Country</option>
                                     @foreach($countries as $country)
@@ -159,7 +159,7 @@
                     <div class="row">
                         <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <label>Comment <span class="mendatory_fields">*</span></label>
+                                <label>Comment <span class="mandatory_fields">*</span></label>
                                 <textarea class="form-control" rows="4" name="review" placeholder="enter comment" required >
                                     </textarea>
                             </div>
@@ -246,7 +246,7 @@
                     Delivering Joy to Your Doorsteps</p>
                 <p class="header2 p-doorstep-des">You've got no reason to wait around any longer, just come ShoppRe!</p>
                 <a href="https://www.shoppre.com/customer/register" target="_blank">
-                    <div class="btn-signup-review header5 p-color-white">
+                    <div class="btn-signup-review header5 p-color-white" style="background-color: #1AAFD0">
                         <p>
                             Sign Up for FREE
                         </p>

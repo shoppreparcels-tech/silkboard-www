@@ -266,14 +266,14 @@
 
                     </div>
 
-                    <div>
-                    <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
-                        <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
-                            Special <span class="p-color-red" style="font-size: 14px">ONAM Offer</span> awaits you‎ ,
-                            get ₹250 discount on shipping. Use Coupon Code: ONM250. T&C Apply.</p>
-                    </marquee>
-                        </p>
-                    </div>
+{{--                    <div>--}}
+{{--                    <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">--}}
+{{--                        <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>--}}
+{{--                            Special <span class="p-color-red" style="font-size: 14px">ONAM Offer</span> awaits you‎ ,--}}
+{{--                            get ₹250 discount on shipping. Use Coupon Code: ONM250. T&C Apply.</p>--}}
+{{--                    </marquee>--}}
+{{--                        </p>--}}
+{{--                    </div>--}}
                 </div>
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
@@ -344,18 +344,18 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://www.myntra.com/shop/mbe-sep19-men" title="Click to Know More" target="_blank">
+                        <a href="https://www.myntra.com/handpicked-styles?f=Brand%3AAKS%3A%3ACategories%3ALehenga%20Choli%2CSarees%2CSkirts%3A%3AGender%3Amen%20women%2Cwomen" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">👸 BEAUTY EDIT</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">HANDPICKED STYLES</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up To 50% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Starting from ₹714</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Myntra.com</span></p>
                             <br>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">18,000+ Styles, Buy Online from Myntra & Ship Worldwide!
+                            <p class="f-s-16 f-c-l-gray f-w-7">Maxi Skirt, Lehenga Choli, Saree & more. Buy from Myntra & Ship Worldwide!
 
                         </div>
 
@@ -371,7 +371,7 @@
                         <div class="des-div-rakhi text-center"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">50% - 70% OFF</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9"><u>Vero Moda & More</u></span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Amazon.in</span></p>
                             <br> <br>
                             <p class="f-s-16 f-c-l-gray f-w-7">Shop from Amazon India & Get Delivered Worldwide with ShoppRe.</p>
                         </div>
@@ -400,14 +400,14 @@
                         <a href="/onam-community-shipping-offer" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">ONAM SHIPPING OFFER</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">FESTIVE SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">25th Aug - 25th Sep</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">40% - 80% OFF</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Discount ₹250/-</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">AJIO.com</span></p>
                             <br><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Ship your Onam products from India online with ShoppRe. 3-6 Delivery. </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Tops & Dresses, Fusion Wear, Heels & Flats, Bags & Belts, Indie Sarees </p>
                         </div>
                     </div>
                         </a>
@@ -760,7 +760,7 @@
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 147px;">
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">230 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">231 Google Reviews</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787 ">Shipping and Delivery Service</p>
