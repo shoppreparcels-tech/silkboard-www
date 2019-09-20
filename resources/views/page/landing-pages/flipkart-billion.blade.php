@@ -38,7 +38,7 @@
            <br>
            <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad mar-t-25">
                <div class="col-xs-12 col-md-12 no-pad ">
-                   <img src="/img/images/flipkart-big-billion-day-sale-india-offer-ship.png" class="img-f-w" alt="flipkart big billion day sale india offer">
+                   <img src="/img/images/flipkart-big-billion-day-sale-india-offer-shipping.png" class="img-f-w" alt="flipkart big billion day sale india offer">
                </div>
            </div>
 {{--           <div class="col-md-12 col-xs-12 text-center mar-t-10">--}}
@@ -49,7 +49,8 @@
 
 {{--           </div>--}}
            <div class="col-md-12 col-xs-12 text-center">
-               <h1 class="f-s-26 f-c-d-greay f-w-9">Flipkart Big Billion Days Sale 2019</h1>
+               <h1 class="f-s-26 f-c-d-greay f-w-9">Flipkart Big Billion Days Sale 2019: Offers & Discounts</h1>
+               <br>
            <a href="https://www.flipkart.com/big-billion-days-store"
               target="_blank" class="btn btn-s-b btn-b-b">The Big Billion Days - Check Offer</a>
 
@@ -84,7 +85,8 @@
             <div class=" col-md-12 pad-25">
                 <p class="f-s-20 f-c-gray f-w-9">
                     <strong>Get ready to save big on your next shopping spree with Flipkart during the Big Billion Days Sale, 2019, happening from 29th September to 4th October,
-                        with all the amazing offers, great deals and huge discounts on some of the hottest brands of fashion, phones, electronics, home appliances and other categories sitewide</strong>
+                        with amazing deals on some of the hottest brands of fashion, phones, electronics, home appliances and other categories sitewide.
+                    </strong>
                 </p>
 {{--                <h1 class="f-s-18 f-c-d-greay f-w-7">This Offer is applicable for all the ShoppRe Services</h1>--}}
 {{--                <ul class="f-s-18 f-c-d-greay f-w-7">--}}
@@ -95,59 +97,48 @@
 {{--                </ul>--}}
                 <br>
                 <p class="header4 p-color-cement">
-                    As it marks the beginning of the festive season in India with all the exhilaration and excitement, the Flipkart Big Billion Day Shopping Sale is the most anticipated
-                    sale of the year that brings to its customers some of the hottest deals on almost everything on their website and the Flipkart app.
+                    As the festive season in India is in the immediate vicinity with all exhilaration and excitement, the <strong><i>Flipkart Big Billion Day Shopping Sale, 2019</i></strong> is
+                    the most anticipated sale of the year that brings to its customers some of the hottest deals on almost everything on their website and the Flipkart app.
                 </p>
                 <br>
-                <p class="header4 p-color-cement">
-                    According to Sachin Bansal, head of e-commerce, Flipkart & Chairman – Myntra, “India shops the most during this time of the year. With over 75% of traffic coming via
-                    mobile, we expect this sale to be the biggest shopping event of the year. Bigger and better as compared to last year, we have worked towards ensuring a
-                    seamless shopping experience for our customers.”
-                </p>
-                <br>
-                <p class="header4 p-color-cement">
-                    He added, “Considering the sale will feature fantastic deals across millions of products in all categories from over 40,000 sellers, we aim to give our consumers nothing
-                    less than 5 days to shop to their heart's content”
-                </p>
-                <br>
-                <p class="header4 p-color-cement">
-                    The giant e-commerce company Flipkart, this year is hell-bent on giving unprecedented deals to its users in every corner of India. And we at ShoppRe are yearning for all the
-                    NRI/PIOs to do Flipkart online shopping from India and make hay while the sun shines without agonizing about
-                    <a href="/flipkart-shopping-with-shoppre-from-india" target="_blank">Flipkart international shipping services from India</a>
-                </p>
-                <br>
-                <p class="header4 p-color-cement">
-                    Because we provide reliable, fast and up to 80% cheap shipping charges from India to any part of the world, there is no need to worry. Everyone can savor the glorious
-                    Flipkart Big Billion Day Sale, 2019 and shop till they drop meanwhile we will handle the package forwarding efficiently so that your package reaches your doorstep safely within 3-6 days.
-                </p>
+
                 <br>
                 <div class="row left-padder-20">
                     <div class="col-md-6  border-1px">
-                        <h1 class="f-s-22 f-c-blue f-w-9">Guide on Flipkart Big Billion Days</h1>
+                        <h1 class="f-s-22 f-c-blue f-w-9">Guide on Flipkart Big Billion Days 2019</h1>
                         <ul>
                             <li>
-                                <h4><a href="#flipkart-edition">The Sixth Edition of Flipkart Big Billion Days Sale 2019</a></h4>
+                                <h4><a href="#flipkart-cost">How much will it cost to ship from Flipkart, India?</a></h4>
                             </li>
                             <li>
-                                <h4><a href="#flipkart-whatnew">What’s new this Flipkart Big Billion Day Sale, 2019?</a></h4>
+                                <h4><a href="#flipkart-nri">How can NRI/PIOs shop during Flipkart Big Billion Days Sale, 2019 from India?</a></h4>
                             </li>
                             <li>
-                                <h4><a href="#flipkart-free">Get a free ride with all the offers you get during the Big Billion Day Sale</a></h4>
+                                <h4><a href="#flipkart-sixth">The Sixth Edition of Flipkart Big Billion Days Sale 2019</a></h4>
                             </li>
                             <li>
-                                <h4><a href="#flipkart-almighty">The Almighty Limited Period Offers</a></h4>
+                                <h4><a href="#flipkart-itinerary">Your shopping itinerary for the Big Billion Days Sale</a></h4>
                             </li>
                             <li>
-                                <h4><a href="#flipkart-trot">Get hot to trot for the Grand Sale with 10 steps!</a></h4>
+                                <h4><a href="#flipkart-mobile">Offers on Mobile Phones</a></h4>
                             </li>
                             <li>
-                                <h4><a href="#flipkart-itinerary">Your Shopping Itinerary</a></h4>
+                                <h4><a href="#flipkart-fashion">Fashion Products</a></h4>
                             </li>
                             <li>
-                                <h4><a href="#flipkart-smartphone">Top smartphone offers on Flipkart Big Billion Day</a></h4>
+                                <h4><a href="#flipkart-beauty">Beauty, Toys, Baby care and more</a></h4>
                             </li>
                             <li>
-                                <h4><a href="#flipkart-laptop">Top 10 Laptop to Choose From Flipkart Big Billion Sale</a></h4>
+                                <h4><a href="#flipkart-essentials">Home Essentials and Furniture</a></h4>
+                            </li>
+                            <li>
+                                <h4><a href="#flipkart-brands">Flipkart’s own Brands</a></h4>
+                            </li>
+                            <li>
+                                <h4><a href="#flipkart-electronics">Electronics and Accessories</a></h4>
+                            </li>
+                            <li>
+                                <h4><a href="#flipkart-tv">TV and Appliances</a></h4>
                             </li>
                             <li>
                                 <h4><a href="#top-indian">Indian Festival Offers, Deals & Shopping Sale</a></h4>
@@ -156,12 +147,75 @@
                     </div>
                 </div>
                 <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-edition">The Sixth Edition of Flipkart Big Billion Days Sale 2019</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-edition">A moment of great importance for NRIs/PIOs during the Flipkart Big Billion Day Sale, 2019</h1>
                 <br>
                 <p class="header4 p-color-cement">
-                    With the advent of the Flipkart Big Billion Days Shopping sale, many people have already started making their wish lists and if you haven't started it yet, then it's
-                    high time you started it. It the most anticipated sale of the year in India and once it is live online you will discover the plethora of deals
-                    and offers on millions of products across 70+ categories site-wide, that will be up at great discounts.
+                    The giant e-commerce company Flipkart, this year is hell-bent on giving unprecedented deals to its users in every corner of India and abroad.
+                    And we at ShoppRe are yearning for all the <strong>NRIs/PIOs</strong> to do <strong>Flipkart online shopping</strong> from India and make hay while the sun shines without agonizing about
+                    <a href="/flipkart-shopping-with-shoppre-from-india" target="_blank"> Flipkart international shipping services from India</a>.
+                </p>
+                <br>
+                <p class="header4 p-color-cement">
+                    Because we provide <i>reliable, fast and</i> up to <strong><i>80% cheap shipping charges from India</i></strong> to any part of the world, there is no need to worry. Everyone can savor the
+                    glorious Flipkart Big Billion Day Sale, 2019 and shop till they drop, meanwhile we will handle the package forwarding efficiently so that your package reaches
+                    your doorstep safely <strong>within 3-6 days</strong>.  We have partnered with the best courier companies in the market like <i>DHL, DTDC,</i> etc to ensure damage free and timely delivery which you can easily track.
+                </p>
+                <br>
+                <p class="header4 p-color-cement">
+                    Without fretting about shipping, you can shop for everything from Flipkart that you usually don’t have access to at your local stores abroad, and celebrate <i>Diwali</i>
+                    in its full glory! So flaunt that gorgeous lehenga or take swirls in embroidered anarkalis during the festive season and don ethnic jewelry.
+                    Adorn your home with traditional diyas and decor straight from India and get all set for <i>Laxmi Puja</i> with everything at your fingertips.
+                </p>
+                <br>
+                <h1 class="f-s-22 f-c-gray f-w-9" id="flipkart-cost">How much will it cost to ship from Flipkart, India?</h1>
+                <p class="header4 p-color-cement">
+                    Avail humongous discounts during the Flipkart Big Billion Days Sale along with the cheapest shipping in the world with the
+                    promise of hassle free delivery at your doorstep. You can check the <strong>shipping cost for your country</strong> through our
+                    <a href="{{route('pricing')}}" target="_blank">shipping cost calculator</a>.
+                </p>
+                <br>
+                <h1 class="f-s-22 f-c-gray f-w-9" id="amzn-grandeur">When Will you receive your package(📦)?</h1>
+
+                <p class="header4 p-color-cement">
+                    ShoppRe understands its customers and their need for urgent delivery during the busy festive season, keeping that in mind we offer the fastest courier services from India
+                    that delivers within 3-6 working days.
+                </p>
+                <br>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-nri">How can NRI/PIOs shop during Flipkart Big Billion Days Sale, 2019 from India?</h1>
+                <div class="row left-padder-20">
+                    <ol>
+                        <li>
+                            <h4 class="header4 p-color-cement"><a href="/customer/register" target="_blank"><u>Sign up at ShoppRe.com</u></a>, and you will get a virtual address.</h4>
+                        </li>
+                        <li>
+                            <h4 class="header4 p-color-cement">Shop from flipkart.com for everything you want from clothing, accessories, footwear, bags, electronics, beauty, toy, smart devices,
+                                mobile phones & much more.
+                            </h4>
+                        </li>
+                        <li>
+                            <h4 class="header4 p-color-cement">Provide the virtual address given by ShoppRe.com at the time of checking out using COD option.</h4>
+                        </li>
+                        <li>
+                            <h4 class="header4 p-color-cement">We will collect your order and pay for it.</h4>
+                        </li>
+                        <li>
+                            <h4 class="header4 p-color-cement">Once we receive all of your order we will ship it after you request it to ship.
+                            </h4>
+                        </li>
+                        <li>
+                            <h4 class="header4 p-color-cement">Then we pack and ship the consolidated package at your address abroad. And you receive it within 3-6 working days.
+                            </h4>
+                        </li>
+
+                    </ol>
+                </div>
+                <br>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-sixth">The Sixth Edition of Flipkart Big Billion Days Sale 2019</h1>
+                <br>
+                <p class="header4 p-color-cement">
+                    With the advent of the <i>Flipkart Big Billion Days Shopping sale</i>, many people have already started making their wish lists, and if you haven't started it yet,
+                    then it's high time you did, because once it is live, you will discover the plethora of deals and offers on <strong><i>5 lakh+ products</i></strong> from
+                    <strong>10,000+ brands</strong> across <strong>70+ categories</strong> site-wide, that will be up for grabs at great discounts.
                 </p>
                 <br>
                 <p class="header4 p-color-cement">
@@ -171,219 +225,18 @@
                 </p>
                 <br>
                 <p class="header4 p-color-cement">
-                    Flipkart is aiming to add approximately 2 million new shoppers at its platform
-                    this year and it expects its annual sales to be over $1 billion, this is how huge this giant eçommerce company is.
-                    <br>
-                    The mega sale will surpass every expectation and give its users a cause for celebration through online shopping and a chance to be an ultimate buyer
-                    and gloat over the big savings that they made by going the whole hog with their shopping.
+                    This year, Flipkart is aiming to add approximately <i>2 million</i> <a href="/personal-shopper-india" target="_blank">new shoppers at its platform</a>, and it expects its annual sales to be over <strong>$1 billion</strong>,
+                    this is how huge this giant eçommerce company is.
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-whatnew">SOMETHING DIFFERENT- What’s new this Flipkart Big Billion Day Sale, 2019?</h1>
-                <br>
-                <p class="header4 p-color-cement">Flipkart has decided to set the bars higher and take it all up a notch for its customers and give them an unforgettable
-                    experience of affordability and availability under a single umbrella that holds more than one million products across 70+ categories with
-                    easy access to over 40,000 registered sellers pan India.
+                <p class="header4 p-color-cement">
+                    The mega sale will surpass every expectation and give its users a cause for celebration through online shopping and a chance to be an ultimate buyer and
+                    gloat over the big savings that they made by going the whole hog with their shopping.
                 </p>
                 <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">FOUR Extra days Extravaganza</p>
-                <br>
-                <p class="header4 p-color-cement">Yayyyyy!!!!! Flipkart is giving us all shopaholics FOUR extra days to shop during the sale this year, so make use of every
-                    single day of the sale and shop for all your favorite products. There will be many striking new things in the sale this year as
-                    Flipkart announced, so buckle up because there is a lot more to come.
-                </p>
-                <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">State of the art technology for a peachy shopping experience</p>
-                <br>
-                <p class="header4 p-color-cement">Flipkart has also upgraded and introduced robot-based sortation technology and automated guided vehicles (AVGs) to
-                    improve its supply chain operations and enhance the overall user experience with quicker delivery.
-                </p>
-                <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">No Cost EMI offers for the ritzy shopper in you.</p>
-                <br>
-                <p class="header4 p-color-cement">Indulge yourself in the luxury of shopping relentlessly with the NO Cost EMI for credit and debit cardholders of
-                    HDFC and Bajaj Finserv EMI card holders. Also get zero processing charges and interest fee EMIs on HDFC, SBI, ICICI, Citibank, Kotak Mahindra,
-                    Indian Overseas, Deutsche, Yes Bank, Axis Bank or any other bank debit or credit cards, so shop for all the expensive brands that you have always
-                    wished for because Flipkart Big Billion Day Shopping Sale is making dreams come true!
-                </p>
-                <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">A special delight for all the HDFC credit/debit cardholders.</p>
-                <br>
-                <p class="header4 p-color-cement">HDFC has surprised its users with the extra delightful offer of getting an EXTRA 10% off on a minimum purchase of
-                    ₹4,999/- during the Flipkart Big Billion Day Shopping Sale. You can get maximum cashback of ₹2,500/- on your shopping with your HDFC card. Amazing!
-                </p>
-                <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">Myntra has also joined the party this year!</p>
-                <br>
-                <p class="header4 p-color-cement">Love to shop from Myntra? Well, then you have hit the jackpot. Flipkart and Myntra have partnered up for the sale
-                    and now you will get the chance to shop for Myntra’s exclusive selection at great discounts during the sale only on the app. So hurry!
-                </p>
-                <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">Tips and Tricks- Learn from the best!
-                </p>
-                <br>
-                <p class="header4 p-color-cement">Your inbox will receive plenty of daily updates for the sale and tips on how to save more with a lot more going on.
-                    Get interesting tricks, information, contest alerts, giveaways, gift ideas, shopping tips, fashion guide, season’s hottest picks, details of
-                    offers and much more straight in your inbox. Everything will come your way served on a platter, that you will just have to pick to devour.
-                </p>
-                <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">What are the odds of winning BIG twice per day?
-                </p>
-                <br>
-                <p class="header4 p-color-cement">Flipkart Big Billion Day Sale 2019 will make sure no one leaves empty-handed by hosting two outrageous Quiz per day.
-                    You can win attractive prizes like Flipkart gift vouchers, smartphones, Bluetooth speakers, televisions, headphones, and Google Home.
-                </p>
-                <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">Flipkart Hagglebot- For all the bargaining experts!
-                </p>
-                <br>
-                <p class="header4 p-color-cement">If you are an expert at bargaining and you are good at getting the deal you want then the Flipkart
-                    Haggle bot is just the thing for you. You can negotiate and bargain the prices of two new products that will be released each
-                    day of the Flipkart Big Billion Day Sale 2019 directly using your voice. You can even be crowned as a ‘Boss’ of the day based on your ability to drive a good bargain.
-                </p>
-                <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">The amazing image search feature.
-                </p>
-                <br>
-                <p class="header4 p-color-cement">Flipkart has launched some amazingly cool features on its mobile app like the Image Search and Flipkart Ping features.
-                    They are worth dying for and make your shopping experiences all the more fun, thrilling and exciting.
-                </p>
-                <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">The Ultimate Buying Guides.
-                </p>
-                <br>
-                <p class="header4 p-color-cement">To help its customers to make deliberate decisions for shopping during the profuse offers and discounts,
-                    Flipkart is bringing product buying guides that will zero in on all the characteristics of a product category and its features,
-                    so that customers can select the precise product to shop.
-                </p>
-                <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-free">Get a free ride with all the offers you get during the Big Billion Day Sale</h1>
-                <p class="header4 p-color-cement">Flipkart’s customers will get a second bite at the cherry with these additional benefits only available on
-                    Flipkart Big Billion Day Sale 2019. With the festive season in the immediate vicinity, everyone is equipped with their wish lists and what better
-                    way to celebrate the beginning of jollification with a bit of shopping during this extravagant affair. So here are some of the EXTRA benefits that you can avail.
-                </p>
-                <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">1. Fast Delivery</p>
-                <br>
-                <p class="header4 p-color-cement">Flipkart offers a fixed day delivery option for its users for the ease of shopping. If you need a product to be delivered within a
-                    specific time, you can select the duration, date, and time on the product details page to get fast delivery on your address without worrying about the late delivery of your goods.
-                </p>
-                <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">2. Easy Returns</p>
-                <br>
-                <p class="header4 p-color-cement">The easy and hassle-free return policy is one of the highlights of shopping with Flipkart. You can easily return the products
-                    that you shopped for within the given period whatever the reason may be.
-                </p>
-                <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">3. Extended warranty period</p>
-                <br>
-                <p class="header4 p-color-cement">Who doesn't want their electronic products to be protected under a good warranty period? It is a safe step and all of us want it! Flipkart
-                    had heeded to our grievances and has generously provided the manufacturer's warranty on electronics for an assured purchase. So no reason to worry and
-                    get going with the early Diwali shopping for all the electronics we want during the big billion days.
-                </p>
-                <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">4. Free Installation and Demo</p>
-                <br>
-                <p class="header4 p-color-cement">The main issue while purchasing a TV or an AC online is the installation, we often give it a thought that who would install them in our
-                    homes after the delivery is made. But Flipkart takes care of its customers till the end, it offers FREE and EASY installation and demo for all the products.
-                </p>
-                <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">5. Buyback guarantee on mobile phones</p>
-                <br>
-                <p class="header4 p-color-cement">If the resale value of your phone is hindering you to get a new phone then Flipkart ensures you get the guaranteed price for your phone
-                    even if the price of your phone drops with time. Yes, you will still get the guaranteed price for it under the buyback guarantee on mobile phones
-                    that are bought from Flipkart. You can easily avail of the buyback guarantee policy by selecting it while purchasing your choice. Then just place
-                    your order and make payment to complete your order.
-                </p>
-                <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">6. Complete mobile protection service</p>
-                <br>
-                <p class="header4 p-color-cement">To protect your phone from theft, accidental damage, breakdown, repair reimbursement, or liquid damage,
-                    all you need to do is avail the complete mobile protection service on Flipkart. And the already sweet deal just became sweeter with the
-                    discounted price during the Flipkart Big Billion Day Sale 2019 which makes it worth grabbing, so go get a new phone during the sale at a
-                    lesser price than it is available anywhere else.
-                </p>
-                <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-almighty">The Almighty Limited Period Offers</h1>
-                <p class="header4 p-color-cement">The Flipkart big billion shopping day sale just expanded its wings of grandeur with the limited period offers that Flipkart
-                    will be exploding now and then to astonish its customers with humongous deals and offers on huge brands and almost every category from fashion to electronics and
-                    from home appliances to books.  It is can be an offer you were looking to grab for months so don't miss out on them by logging in now and then! Everything will
-                    fall under this colossal umbrella of great and amazing offers.
-                </p>
-                <br>
-                <ul class="header4 p-color-cement">
-                    <li><strong>Crazy Deals:</strong> These superb deals will be available on select products only and will refresh every 8 hours during the Big Billion Days sale.
-                    </li>
-                    <br>
-                    <li><strong>Maha Price Drop:</strong> Flipkart will offer an extra discount (over regular discounts) of up to 20 % for a limited period only. It is very easy to miss this deal because not
-                        only you but many people will want to grab this amazing discount. So we suggest you better hurry!
-                    </li>
-                    <br>
-                    <li><strong>Rush Hour:</strong> During the first 2 hours of the sale, customers can avail of rush hour deals on select products.
-                    </li>
-                    <br>
-                    <li><strong>Flash Sale:</strong> A new deal will be unveiled every hour, so now you can get 120 deals in 120 hours.
-                    </li>
-                </ul>
-                <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-trot">Get hot to trot for the Grand Sale with 10 steps!</h1>
-                <p class="header4 p-color-cement">Draw a bead up on your calendar for 29th September because that is the day when the sale begins and the offers unfold, and you would
-                    not want to miss it. The sale is huge, offers are humongous, deals are grand, products are enormous and discounts are overwhelming, which can make any sane person go
-                    insane. So here are some tips and tricks to get ready for the sale and how you can reap the maximum benefit out of it and stay a step ahead of everyone else.
-                </p>
-                <br>
-                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">1. Remember the date:</strong> Mark it on your calendar or set an alarm for it, do anything you
-                    have to do but do not forget it. It is very crucial to remember the date of the Flipkart big billion days Sale- 29th September to 4th October. So this time
-                    we will get full FIVE days of happy shopping and to avoid all confusion of shopping during the sale, Flipkart has decided to divide its
-                    offers for various categories across these dates. So make sure to check them out too regularly.
-                </p>
-                <br>
-                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">2. Download the app to get started:</strong> There are many benefits of downloading the Flipkart app like
-                    you can shop anytime from anywhere. Using the app is no herculean task it's rather a user-friendly for the ease of shopping even for a not so tech-savvy person.
-                    Plus all the Flipkart Big Billion Day Sale 2019 deals will be just a click away from you and you can shop on the go for anything you want.
-                </p>
-                <br>
-                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">3. Register on Flipkart:</strong> If you are not registered on Flipkart, please do so before the
-                    sale begins and make sure that you enter a valid email ID and an active mobile number while registering.
-
-                </p>
-                <br>
-                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">4. Research well about the products and the offers:</strong> Take your time to research the product
-                    that you want and make sure that you are on board with purchasing the product at one go without having any second thoughts about it. Also,
-                    get to know about the offers and deals that Flipkart big billion days sale will offer concerning each category, and then finalize what you
-                    want to purchase by making a wishlist of those items.
-                </p>
-                <br>
-                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">5. Get ready with your wishlist:</strong> Once the sale is live all the top deals will be
-                    gone like a streak of lightning so you better be ready with what you want already in your cart so that you just have to click buy when it is put on the sale.
-                    People will ride hell for leather to get the deal of the day and to avoid that rush we recommend you get ready beforehand with all the products already in your cart.
-                </p>
-                <br>
-                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">6. Save/Update your address:</strong> Add and save all the address you might
-                    use for product deliveries and make sure you enter the correct pin code while saving addresses to ensure faster checkouts during the sale and that you don't miss a deal in any case.
-                </p>
-                <br>
-                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">7. Save your card details:</strong> For faster checkouts, we recommend you to save your card details
-                    beforehand, and set it as the default payment method for availing various benefits on it.
-                </p>
-                <br>
-                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">8. Apply for cashless credit on Flipkart:</strong> If you don't own a credit card then you
-                    can use Flipkart Cardless Credit Scheme for shopping, by submitting your PAN card and Aadhar card details. And once you are approved for it,
-                    you will see the amount that you are eligible for, depending on your credit score, and the maximum cashless limit is ₹60,000
-                </p>
-                <br>
-                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">9. Be in good network zone:</strong> Avoid areas of low connectivity during the sale because it
-                    might be the only thing hindering you from getting the deal you want and then you would regret it always. So make sure to be where there is good connectivity to avail maximum benefits of the sale.
-                </p>
-                <br>
-                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">10. Keep abreast:</strong> Many breathtaking limited-period offers will also be a part of the sale so you must keep an eye on the
-                    Flipkart website and app during the sale period to ensure you don’t miss out on any deal.
-                </p>
-                <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-itinerary">Your Shopping Itinerary</h1>
-                <p class="header4 p-color-cement">Considering the festive season, Flipkart has plenty of essential to complete your festive shopping for you and your friends and family that you
-                    can purchase during the Flipkart Big Billion Days Shopping Sale on amazing deals and offers across millions of products, in all categories, over 40000 sellers.
-                    Flipkart has made this year's sale more special and exuberating. On each day of this grand festive sale, exciting new offers, deals, and discounts on
-                    different product categories will be unlocked.
+                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-itinerary">Your shopping itinerary for the Big Billion Days Sale</h1>
+                <p class="header4 p-color-cement">Flipkart has made this year's sale <i>more special and exuberating</i>. On each day of this grand festive sale,
+                    exciting new offers, deals, and discounts on different product categories will be unlocked.
                 </p>
                 <br>
                 <div >
@@ -393,81 +246,59 @@
                                 Flipkart Big Billion Sale Date
                             </th>
                             <th style="text-align: center;">
+                                Category
+                            </th>
+                            <th style="text-align: center;">
                                 Offers on Categories
                             </th>
                         </tr>
                         <tr>
-                            <td>
-                                29th Sep - 4th October 2019
-                            </td>
-                            <td>Fashion, TV & Appliances</td>
+                            <td>30th Sep - 4th October 2019</td> <td>Mobile Phones</td> <td>Lowest Prices of the Year</td>
                         </tr>
                         <tr>
-                            <td>
-                                30th Sep - 4th October 2019
-                            </td>
-                            <td>Mobile Phones, Computers & Electronics</td>
+                            <td>29th Sep - 4th October 2019</td> <td>Clothing, Footwear </td> <td>Up to 90% Off</td>
                         </tr>
                         <tr>
-                            <td>
-                                30th Sep - 4th October 2019
-                            </td>
-                            <td>All Categories on Flipkart</td>
+                            <td>29th Sep - 4th October 2019</td> <td>Toys, Beauty & Baby Care </td> <td>From ₹49/-</td>
                         </tr>
                         <tr>
-                            <td>
-                                1st Oct - 4th October 2019
-                            </td>
-                            <td>All Categories</td>
+                            <td>29th Sep - 4th October 2019</td> <td>Home & Furniture</td> <td>50 - 90% Off</td>
+                        </tr>
+                        <tr>
+                            <td>30th Sep - 4th October 2019</td> <td>Electronics</td> <td>Up to 90% Off</td>
+                        </tr>
+                        <tr>
+                            <td>29th Sep - 4th October 2019</td> <td>TVs & Appliances</td> <td>Up to 75% Off</td>
+                        </tr>
+                        <tr>
+                            <td>29th Sep - 4th October 2019</td> <td>Laptops</td> <td>Best Offers</td>
+                        </tr>
+                        <tr>
+                            <td>29th Sep - 4th October 20199</td> <td>Grocery</td> <td>₹1/- Deals</td>
                         </tr>
                     </table>
                 </div>
                 <br>
-                <p class="f-s-20 f-c-l-gray f-w-9">29th Sep – 4th October: <a href="https://www.flipkart.com/tvs-and-appliances-the-big-billion-days-store" target="_blank">Offers on Fashion, TV’s  & Appliances</a></p>
-                <br>
-                <p class="header4 p-color-cement">The sale will begin with fantastic offers and discounts on Fashion apparel & accessories, Beauty, Television & Appliances,
-                    and other similar categories on major products from top brands will be up for grabs at massive discounts.
-                    <br> <br>
-                    It is estimated that during the Flipkart Big Billion Day Shopping Sale, there will be up to 80% off on TVs and
-                    appliances that will make everyone go crazy with more than 38,000 products from 500 brands. And the Oh so sweet NO Cost EMI offer will also be available on all of these so that you can shop your heart out!
-
-                </p>
-                <br><p class="f-s-20 f-c-l-gray f-w-9">30th September: <a href="https://www.flipkart.com/mobiles-tbbd19-sneak-peek-store" target="_blank">Offers on Mobiles phones</a></p>
-                <br>
-                <p class="header4 p-color-cement">TDays of you contemplating over that mobile phone, you want to get your hands on, are over.
-                    The second day of the grand Flipkart Big Billion Day Sale 2019 is here and it the harbinger of good news for all those who want to purchase a new handset.
-                    <br> <br>
-                    This sale is offering the best possible discount on mobile phones that you will ever find anywhere else. Other deals like No Cost EMI,
-                    Mobile protection service and buyback guarantee are just like the cherry on the top along with already present massive discounts on them.
-                </p>
-                <br><p class="f-s-20 f-c-l-gray f-w-9">30th Sep - 4th October: <a href="https://www.flipkart.com/electronics-big-billion-days-store" target="_blank">Offers on Electronics & Accessories</a></p>
-                <br>
-                <p class="header4 p-color-cement">You will not be able to resist these sweet deals on electronics and computers and then you will end up buying one more laptop for
-                    yourself. This year’s Flipkart Big Billion Day Sale is offering huge deals and discounts on laptops, speakers, sounders, digital cameras, tablets,
-                    and a lot more. So now you can also get all the cool gadgets that you can boast of.
-                </p>
-                <br><p class="f-s-20 f-c-l-gray f-w-9">1st Oct - 2nd Oct: Offers on All Categories</p>
-                <br>
-                <p class="header4 p-color-cement">These are the days when the rush will be at its peak because now all the categories with the myriad of
-                    products are on sale, and everyone is hustling to get the best deal on their shopping. So you must check all the boxes and make sure that you
-                    are ready with all the products you want in your cart and your address is saved along with your card details, this will make it easy for you to shop and you will not miss a deal.
+                <p class="header4 p-color-cement">These are the days when the rush will be at its peak because now all the categories with the myriad of products are on sale,
+                    and everyone is hustling to get the best deal on their shopping. So you must check all the boxes and make sure that you are ready with all
+                    the products you want in your cart and your address is saved along with your card details, this will make it easy for you to shop and you will not miss a deal
                 </p>
                 <br>
 
-                <h1 class="f-s-26 f-c-d-greay f-w-9" id="flipkart-smartphone">Mobiles</h1>
-                <p class="header4 p-color-cement">Fancy a new phone? All the good things in life take time, and well you have to wait for this auspicious day too to save a great amount on
-                    the most premium of phones out there. Yes! You read it right, Flipkart will offer great discounts on premium smartphones and new launches that you have been eyeing for quite some time.
+                <h1 class="f-s-26 f-c-d-greay f-w-9" id="flipkart-mobile">Offers on Mobile Phones</h1>
+                <p class="header4 p-color-cement">Days of you contemplating over that <strong>mobile phone</strong> you want to get your hands on, are over. The second day of the
+                    grand <i>Flipkart Big Billion Day Sale 2019</i> is the harbinger of good news for all those who want to purchase a new handset.
                 </p>
                 <br>
-                <p class="header4 p-color-cement">Flipkart will be your go-to-online store to buy a new smartphone at the cheapest price during the sale, so you better hurry before it is gone.
+                <p class="header4 p-color-cement">All good things take time, and so these <strong>lowest price offers</strong> on best mobile phones. Yes! You read it right, Flipkart will offer great
+                    discounts on <i>premium smartphones, best sellers and new launches</i> that you have been eyeing for quite some time, and to make the deal sweeter,
+                    there are always offers like the No Cost EMI on mobile phones with zero purchasing fee and a 0% interest, Mobile protection service,
+                    buyback guarantee and the fabulous exchange offers are just like the cherry on the top.
                 </p>
                 <br>
-                <p class="header4 p-color-cement">Everyone these days wants the latest phone with better camera quality for a great selfie to post on Instagram and Flipkart is the best shopping portal
-                    to get a phone like that at enormous discounts. This year’s sale will also set the bars high by offering excellent discounts and offers on all the famous and reputed smartphone brands.
-                </p>
-                <br>
-                <p class="header4 p-color-cement">You can choose your mobile from these huge brands like Samsung, Apple, Xiaomi, Nokia, HTC, Motorola, Asus, LG, and Sony. There’s a wide range of
-                    best selling phones such as Redmi Note 7 Pro, Vivo V9, Honor 9, etc, that are up for grabs too on offers that you will relish. Check out the amazing offers here.
+                <p class="header4 p-color-cement">You can choose your mobile from these huge brands like <i>Samsung, Apple, Xiaomi, Nokia, HTC, Motorola, Asus, LG, and Sony</i>.
+                    There’s a wide range of best selling phones such as <i>Redmi Note 7 Pro, Vivo V9, Honor 9</i>, etc, that are up for grabs too on offers that you will relish.
+                    Check out the amazing offers here.
                 </p>
                 <br>
                 <div >
@@ -484,219 +315,383 @@
                             </th>
                         </tr>
                         <tr>
-                            <td>Realme 3</td> <td>10,999</td> <td>8,999</td>
+                            <td>Moto One Action</td> <td>16,999</td> <td>11,999</td>
                         </tr>
                         <tr>
-                            <td>Redmi Note 7</td> <td>14,999</td> <td>11,999</td>
+                            <td>Infinix Smart 3 Plus</td> <td>7,999</td> <td>5,499</td>
                         </tr>
                         <tr>
-                            <td>Vivo V15 Pro</td> <td>32,990</td> <td>28,990</td>
+                            <td>Samsung S9 Plus</td> <td>70,000</td> <td>34,999</td>
                         </tr>
                         <tr>
-                            <td>Samsung Galaxy A30</td> <td>18,000</td> <td>16,990</td>
+                            <td>Realme 3 Pro</td> <td>15,999</td> <td>11,999</td>
                         </tr>
                         <tr>
-                            <td>Lenovo A5</td> <td>6,999</td> <td>6,499</td>
+                            <td>Moto One Vision</td> <td>22,999</td> <td>14,999</td>
                         </tr>
                         <tr>
-                            <td>Infinix Hot S3X</td> <td>10,999</td> <td>6,999</td>
+                            <td>Redmi Note 7S</td> <td>11,999</td> <td>8,999</td>
                         </tr>
                         <tr>
-                            <td>Asus ZenFone Max M1</td> <td>8,999</td> <td>7,499</td>
+                            <td>Realme 5</td> <td>10,999</td> <td>8,999</td>
                         </tr>
                         <tr>
-                            <td>Oppo F11 Pro</td> <td>28,990</td> <td>24,990</td>
-                        </tr>
-                        <tr>
-                            <td>Honor 10 Lite</td> <td>16,999</td> <td>12,999</td>
-                        </tr>
-                        <tr>
-                            <td>Google Pixel 3</td> <td>80,000</td> <td>80,000</td>
-                        </tr>
-                        <tr>
-                            <td>Apple iPhone XS Max</td> <td>1,25,500</td> <td>1,23,500</td>
+                            <td>Asus 6Z</td> <td>35,999</td> <td>27,999</td>
                         </tr>
                     </table>
                 </div>
                 <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9" id="flipkart-laptop">Laptops</h1>
-                <p class="header4 p-color-cement">Everyone needs a high performing laptop that fits in their budget for various purposes and Flipkart is
-                    here to cater to all those needs by offering humongous discounts on some of the top laptops from major brands. So shop for the laptop that you
-                    have always wanted with the latest functionality and features for your work, gaming, music or movie watching requirements.
+                <center> <a href="https://www.flipkart.com/mobiles-tbbd19-sneak-peek-store" target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Mobiles & Tablets</a></center>
+                <br>
+                <h1 class="f-s-26 f-c-d-greay f-w-9" id="flipkart-electronics">Electronics and Accessories</h1>
+                <p class="header4 p-color-cement">You will not be able to resist these sweet deals on <strong><i>electronics and accessories</i></strong> and then you will end up buying one more laptop for yourself.
+                    This year’s Flipkart Big Billion Day Sale is offering huge deals and discounts on <i>laptops, speakers, sounders, digital cameras, tablets</i>, and a lot more.
+                    So now you can also get all the cool gadgets that you can boast of.
                 </p>
                 <br>
-                <p class="header4 p-color-cement">Top brands like HP, Acer, Lenovo, Apple, Asus, Dell, etc. will be up during the sale and check these amazing offers on laptops.
+                <p class="header4 p-color-cement">Get the hottest deals on electronics and accessories during the Sale at <strong>up to 90% off</strong> on various categories.</p>
+                <br>
+                <p class="header4 p-color-cement">Everyone needs a high performing laptop that fits in their budget for various purposes and Flipkart is here to cater to all those needs by offering <strong>up to
+                        50% off</strong> on some of the top laptops from major brands like <i>HP, Acer, Lenovo, Apple, Asus, Dell, etc</i>. will be up during the sale and check these amazing offers on laptops.</p>
+                <br>
+                <p class="header4 p-color-cement">Get brand new <strong>headphones and speakers at up to 75% off</strong> this season and groove on the rhythm with party <i>speakers, bluetooth headphones,
+                        true wireless headphones, wired headphones and more.</i>
                 </p>
                 <br>
-                <div >
-                    <table style="width: 100%;text-align: center;">
-                        <tr >
-                            <th style="text-align: center;" height="50">
-                                Offers on Laptops
-                            </th>
-                            <th style="text-align: center;">
-                                MRP (₹)
-                            </th>
-                            <th style="text-align: center;">
-                                Sale Price (₹)
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>HP 15 APU Dual Core A4</td> <td>26,531</td> <td>21,490</td>
-                        </tr>
-                        <tr>
-                            <td>Dell Inspiron 15 3567 Core i3 7th Gen</td> <td>34,999</td> <td>30,790</td>
-                        </tr>
-                        <tr>
-                            <td>Lenovo Ideapad 330 Core i5 8th Gen</td> <td>49,146</td> <td>41,990</td>
-                        </tr>
-                        <tr>
-                            <td>Acer Swift 3 Core i5 8th Gen</td> <td>71,799</td> <td>52,999</td>
-                        </tr>
-                        <tr>
-                            <td>Asus VivoBook Core i3 8th Gen</td> <td>62,990</td> <td>44,990</td>
-                        </tr>
-                        <tr>
-                            <td>i-Life ZED Series Atom Quad Core</td> <td>13,199</td> <td>8,990</td>
-                        </tr>
-                        <tr>
-                            <td>Asus ZenFone Max M1</td> <td>8,999</td> <td>7,499</td>
-                        </tr>
-                        <tr>
-                            <td>Apple MacBook Air Core i5 5th Gen</td> <td>84,900</td> <td>72,990</td>
-                        </tr>
-                        <tr>
-                            <td>Apple Macbook Pro Core i5 8th Gen</td> <td>1,69,900</td> <td>1,59,990</td>
-                        </tr>
-                        <tr>
-                            <td>Microsoft Surface Go Pentium Gold</td> <td>50,999</td> <td>49,999</td>
-                        </tr>
-                    </table>
-                </div>
-                <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9">Tablets</h1>
-                <p class="header4 p-color-cement">Tablets are the new-gens favorite toy and Flipkart being an altruist, is offering us jaw-dropping discounts on them. They are preferred as a smarter and more
-                    portable alternative to desktops and laptops. You can expect great deals on brands like Apple, Lenovo, Microsoft, Samsung, Micromax, iBall, Datawind, Honor, Alcatel, Swipe, etc.
+                <p class="header4 p-color-cement">If you don’t want something big, then maybe a <strong>new mobile back cover for your phone</strong> at a low price will make you in the festive shopping mood.
+                    You can also shop for various personal and health care devices starting at just ₹249, along with
+                    <strong>fast charging power banks, smart wearable devices, pen drives, memory cards, tablets, gaming consoles and more</strong>.
                 </p>
                 <br>
-                <div >
-                    <table style="width: 100%;text-align: center;">
-                        <tr >
-                            <th style="text-align: center;" height="50">
-                                Offers on Tablets
-                            </th>
-                            <th style="text-align: center;">
-                                MRP (₹)
-                            </th>
-                            <th style="text-align: center;">
-                                Sale Price (₹)
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>Samsung Galaxy Tab S3</td> <td>26,531</td> <td>21,490</td>
-                        </tr>
-                        <tr>
-                            <td>Lenovo Tab 4 8 Plus</td> <td>20,000</td> <td>16,141</td>
-                        </tr>
-                        <tr>
-                            <td>Honor MediaPad T3 10</td> <td>15,999</td> <td>13,999</td>
-                        </tr>
-                        <tr>
-                            <td>iBall Slide Enzo V8</td> <td>9,499</td> <td>6,999</td>
-                        </tr>
-                        <tr>
-                            <td>Alcatel A3 10</td> <td>11,999</td> <td>10,999</td>
-                        </tr>
-                        <tr>
-                            <td>Micromax Canvas Tab P701</td> <td>7,599</td> <td>5,190</td>
-                        </tr>
-                        <tr>
-                            <td>Apple iPad Pro</td> <td>71,900</td> <td>-</td>
-                        </tr>
-                    </table>
-                </div>
-                <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9">Cameras</h1>
-                <p class="header4 p-color-cement">Mad about photography? Well, Flipkart is granting your wish and bringing in some of the heaviest deals on
-                    high-end DSLR cameras, tripods, and other accessories. You can shop for a myriad of branded cameras like Sony, Canon, Nikon, GoPro, Polaroid, Fujifilm, Pentax, etc.</p>
-                <br>
-                <p class="header4 p-color-cement">Capture every moment and store in your memory lane in the best way possible with all these amazing cameras that are usually very
-                    expensive but during the Flipkart Big Billion Day Sale 2019, they will be available at prices so low that you will have to check thrice if it is real.
+                <p class="header4 p-color-cement">Mad about <strong>photography</strong>? Well, Flipkart is granting your wish and bringing in some of the heaviest deals on high-end <strong><i>DSLR cameras,
+                            tripods, and other accessories</i></strong>. You can shop for a myriad of branded cameras like Sony, Canon, Nikon, GoPro, Polaroid, Fujifilm, Pentax, etc. at up to 80% off.
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9">TVs</h1>
-                <p class="header4 p-color-cement">Watch the latest season of your favorite show on a big ultra HD LED TV screen. Sounds like a dream huh? No its not, with these enormous
-                    discounts on all kinds of television sets from LG, Samsung, Sony, and other reputed brands, go and get yourself a branded LED TV or a
-                    Plasma TV from all the major brands like BPL, LG, Sony, Micromax, Onida, JVC, Panasonic, VU, Samsung, etc.
+                <center> <a href="https://www.flipkart.com/electronics-big-billion-days-store" target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Electronics & Accessories (Up To 90% Off)</a></center>
+                <br>
+                <h1 class="f-s-26 f-c-d-greay f-w-9" id="flipkart-tv">TV and Appliances</h1>
+                <p class="header4 p-color-cement">The festive season is hectic for a lot of us with so much shopping to do in much less time. But don't worry now you will get the same warranty on
+                    home appliances as you get in your local market, maybe better. Offers like No cost EMI, cardless credits, exchange offers, 3 years complete appliance protection,
+                    open box delivery and 30 days exchange policy are driving all of us crazy.
                 </p>
                 <br>
-                <p class="header4 p-color-cement">Experience the whole cinematic ambiance in your living room with these high end and state of the art technology in TVs with features
-                    like full-HD and high-quality resolution, Android OS, built-in WiFi, varied screen types, Digital Dolby sound system, voice control remote, built-in Chromecast, etc.
+                <p class="header4 p-color-cement">What if I told you, you could get a 43 inch Tv at the price of a 32 inch? Sounds like a dream huh? No its not, with up to ₹25,000 off
+                    on exchange and complete appliance protection, Flipkart is making it possible on all kinds of television sets from all the major brands
+                    like <i>LG, Sony, Micromax, Onida, JVC, Panasonic, VU, Samsung, etc.</i>
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9">Fashion Products</h1>
-                <p class="header4 p-color-cement">Its a call to the hidden fashion freak in you and it should not go in vain, because now Flipkart is giving us all
-                    enough reasons to shop for whatever it is in our heart and a lot more during the Flipkart big billion days sale 2019. Shop for the festive
-                    season and awestruck everyone with your style and glam with the latest collection of fashion on display during the sale.
+                <p class="header4 p-color-cement">Shop with Flipkart for double door refrigerators at the price of single door refrigerators, fully automatic washing machine at the
+                    price of <i>semi automatic washing machine, split AC</i> at the price of window AC and a lot more.
                 </p>
                 <br>
-                <p class="header4 p-color-cement">Flipkart is back with amazing offers on casual outfits, party wear, formal wear, intimate wear, footwear, bags, makeup,
-                    beauty, grooming tools, and other fashion apparel and accessories. Get a wardrobe makeover with everyone’s favorite brands like Vero Moda, Only, Forever
-                    21, Arrow, Park Avenue, Woodland, Parx, Nike, Adidas, Puma, Reebok, Redtape, Revlon, Mac, etc.
+                <p class="header4 p-color-cement">Also avail unbeatable deals on <strong>home and kitchen appliances</strong> this festive season with one and only flipkart and get 10,000,
+                    4 star rated products at 30-70% off.
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9">Home Appliances</h1>
-                <p class="header4 p-color-cement">The festive season is hectic for a lot of us with so much shopping to do in much less time. But don't worry now you will
-                    get the same warranty on home appliances as you get in your local market, maybe better. So don't worry and shop with Flipkart for
-                    power-saving refrigerators, rapidly-cooling ACs, resourceful washing machines and convenient & hassle-free kitchen appliances, at mind-boggling discounts.
+                <center> <a href="https://www.flipkart.com/tvs-and-appliances-the-big-billion-days-store" target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">TVs & Appliances (Up To 75% Off)</a></center>
+                <br>
+                <h1 class="f-s-26 f-c-d-greay f-w-9" id="flipkart-fashion">Fashion Products</h1>
+                <p class="header4 p-color-cement">Its a call to the hidden fashion freak in you and it should not go in vain, because now Flipkart is giving us all enough reasons to shop
+                    for whatever it is in our heart and a lot more during the <i>Flipkart big billion days sale 2019</i>. Shop for the festive season and awestruck everyone with your style
+                    and glam with the latest collection of fashion on display during the sale.
                 </p>
                 <br>
-                <p class="header4 p-color-cement">You will not be able to think of any reason not to shop from Flipkart because it is also offering many great offers
-                    like replacement guarantee, free product installation, extended warranty, free at-home repair service, exchange offers, cashback offers, etc.
-                    You can shop from leading electronics brands LG, BPL, Haier, Samsung, Philips, Godrej, Whirlpool, Daikin, Hitachi, Carrier, etc.
+                <p class="header4 p-color-cement">Flipkart is back with up to 90% off , plus with an <strong>EXTRA 10% off on 29th September</strong>, on casual outfits, party wear, formal wear,
+                    intimate wear, footwear, bags, makeup, beauty, grooming tools, and other fashion apparel and accessories. Get a wardrobe makeover with everyone’s
+                    favorite brands like <strong><i>Vero Moda, Only, Forever 21, Arrow, Park Avenue, Woodland, Parx, Nike, Adidas, Puma, Reebok, Redtape, Revlon, Mac, etc.</i></strong>
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9">Home and Furniture Products</h1>
-                <p class="header4 p-color-cement">This Diwali your home will also ask for new bed sheets, drapes, blankets, and cushions, home accents,
-                    kitchenware, and tableware, etc, and you can get these products at huge discounts during The Big Billion Days sale from Flipkart.
-                    There will be astonishing offers at home and office decor and immense savings with eye-catching deals on millions of products on the Home and Furniture category.
+                <center> <a href="https://www.flipkart.com/fashion-bbd19-sneak-peak-store" target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Fashion Capital (Up To 90% Off)</a></center>
+                <br>
+                <h1 class="f-s-26 f-c-d-greay f-w-9" id="flipkart-essentials">Home Essentials and Furniture</h1>
+                <p class="header4 p-color-cement">This <i>Diwali your home</i> will also ask for new bed sheets, drapes, blankets, and cushions, home accents, kitchenware, and tableware, etc,
+                    and you can get these products at up to <strong>50-90% off</strong> during The Big Billion Days sale from Flipkart. There will be astonishing offers and
+                    immense savings with eye-catching deals on millions of products like at home and office decor, household and tools, furnishings and decor, furniture range and a
+                    lot more on brands like <strong><i>Pigeon, bombay dyeing, flipkart perfect homes, philips, hindware, hometown, prestige, milton, etc.</i></strong>
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9">Books and Media</h1>
-                <p class="header4 p-color-cement">Books are mankind's best friend but not everyone can afford the luxury of a good friend like that. Flipkart big billion day sale is
-                    giving us all a chance to make massive saving on bestselling books, educational and professional books, reference books, fiction & non-fiction novels,
-                    self-help books, hobbies & interest books, encyclopaedias, religious & spiritual books, autobiographies & biographies, philosophy books, family and
-                    relationship books and sample examination papers.
+                <center> <a href="https://www.flipkart.com/home-furniture-big-billion-days-store" target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Home & Furniture (Up To 50-90% Off)</a></center>
+                <br>
+                <h1 class="f-s-26 f-c-d-greay f-w-9" id="flipkart-beauty">Beauty, Toys, Baby care and more starts at just ₹49</h1>
+                <p class="header4 p-color-cement">Stack up your inventory with all the essentials because all the <strong> beauty, toys and baby care products</strong> will be at an <strong>extra 15% off</strong> on
+                    29th September. And can you believe it all starts at just ₹49? Shop like crazy and save huge during these fabulous deals for all the beauty products
+                    that you desired. Get glowing this festive season and treat yourself with all the <i>skincare and makeup from 10,000+ brands.</i>
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-d-greay f-w-9">Auto and Sports Products</h1>
-                <p class="header4 p-color-cement">The extravagant sale will offer us all splendid offers in the sports, exercise & fitness, Car & Bike Accessories, Car Electronics & Appliances, Helmets & Riding Gear,
-                    and Health & Nutrition category too. You can shop for team sports equipment, Yoga Mats, Dumbbells, Home Gyms and Treadmills to Car & bike covers, charger,
-                    Bluetooth Device, Helmets, and Riding Gear, Health & Energy Drinks, Protein Supplements, Health Food & Snacks, and Vitamin Supplements and a lot more.
+                <center> <a href="https://www.flipkart.com/bgm-big-billion-days-store" target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Beauty, Toys & more</a></center>
+                <br>
+                <h1 class="f-s-26 f-c-d-greay f-w-9" id="flipkart-brands">Flipkart’s own Brands</h1>
+                <p class="header4 p-color-cement">If you are a Flipkart fan and always shop for Flipkart brands, then don’t miss this chance to shop from the exclusive <strong>14 brands,
+                        350+ categories and 2Lakh+ products</strong> at <strong>up to 50-90% off</strong>. Deals like these are just a rare occurrence, we suggest you don't miss on them and purchase all the things that you want.
+                </p>
+                <br>
+                <p class="header4 p-color-cement">You can shop for <i>ACs, refrigerators, power banks, space saving furniture, induction cooktops, auto accessories, washing machines,
+                        microwaves, dining sets, living room furniture, premium furniture, bean bags, smart TVs, memory cards, earphones, trimmers, home essentials, kitchen essentials,
+                        hand tools, home decor, lamps, wall shelves and a lot more from Flipkart’s own brand.</i>
+                </p>
+                <br>
+                <center> <a href="https://www.flipkart.com/private-label-intrigue-bbd-store" target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Flipkart Brands (Up To 50-90% Off)</a></center>
+                <br>
+                <h1 class="f-s-26 f-c-d-greay f-w-9">2GUD “Desh ka style bazaar”</h1>
+                <p class="header4 p-color-cement">Get set to get a fashion and lifestyle makeover with <strong>1 lakh+ products</strong> because there is <strong><i>up to 85% off</i></strong> on them. If you have been following
+                    this brand are a regular user of it then, you must celebrate more due to this massive discount that Flipkart is gifting all of us. Transform your
+                    shopping experience into something exorbitantly exiting and divine with the Flipkart Big Billion Day Sale this year.
                 </p>
                 <br>
                 <h1 class="f-s-26 f-c-d-greay f-w-9">Grocery</h1>
-                <p class="header4 p-color-cement">Local supermarkets are boring and dull but Flipkart’s online grocery store can be your go-to store to shop for all household items
-                    along with groceries at discounted rates. You can choose from a wide array of fresh staples for daily meals, delicious snacks, and beverages, dairy products,
-                    gourmet & specialty Foods, premium-quality packaged food, home-care products, personal hygiene products, or baby care products.
+                <p class="header4 p-color-cement">Local supermarkets are boring and dull but <strong>Flipkart’s online grocery store</strong> can be your go-to store to shop for all household
+                    items along with groceries at up to 90% off. You can choose from a wide array of fresh staples for <i>daily meals, delicious snacks,
+                        and beverages, dairy products, gourmet & specialty Foods, premium-quality packaged food, home-care products, personal hygiene products, or baby care products.</i>
+                </p>
+                <br>
+                <h1 class="f-s-26 f-c-d-greay f-w-9">Products that represent our rich culture</h1>
+                <p class="header4 p-color-cement">Flipkart as a true philanthropist, has generously teamed up with the rural, small scale and extremely talented true artisans of India,
+                    who are not well recognised instead of their incredible craftsmanship. But that is all going to change because Flipkart is giving them a
+                    platform to showcase their work and talent and earn their livelihood by an initiative called <strong>Flipkart Samarth</strong>.
+                </p>
+                <br>
+                <p class="header4 p-color-cement">And you can also become a part of this initiative by purchasing items with beautiful artforms
+                    of block printing, handloom, weaves, hand embroidery on <strong>jackets, bandanas, caps, dupattas, shawls, handbags, clutches, cushion covers, table runners, serveware,
+                        office supplies, photo frames, etc.</strong>
+                </p>
+                <br>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-whatnew">
+                        Flipkart Plus members get 4 hours early access before everyone.
+
+                </h1>
+                <br>
+                <p class="header4 p-color-cement">
+                    Flipkart is everyone's one-stop destination for buying almost anything like <i>footwear, clothes, electronics, accessories, books, bags, stationery, lifestyle products, personal care items,
+                        and much more</i>. The sale features many novel and attractive offers like <strong>No Cost EMI on credit/debit cards, 10% off for HDFC cardholders, exchange offers,
+                        buyback guarantees</strong> and much more along with enormous discounts on all products.
+                </p>
+                <br>
+                <p class="header4 p-color-cement">
+                    According to Sachin Bansal, head of e-commerce, Flipkart & Chairman, <strong><i>“India shops the most during this time of the year. With over 75% of traffic coming via mobile,
+                            we expect this sale to be the biggest shopping event of the year. Bigger and better as compared to last year, we have worked towards ensuring a
+                            seamless shopping experience for our customers.”</i></strong>
+                </p>
+                <br>
+                <p class="header4 p-color-cement">
+                    He added, <strong><i>"Considering the sale will feature fantastic deals across millions of products in all categories from over 40,000 sellers, we aim to give our consumers nothing
+                            less than 5 days to shop to their heart's content."</i></strong>
+                </p>
+                <br>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-whatnew">SOMETHING DIFFERENT- What’s new this Flipkart Big Billion Day Sale, 2019?</h1>
+                <br>
+                <p class="header4 p-color-cement">Flipkart has decided to set the bars higher and take it all up a notch for its customers and give them an unforgettable
+                    experience of affordability and availability under a single umbrella that holds <strong>more than one million products across 70+ categories</strong> with
+                    easy access to over <strong>40,000 registered sellers pan India</strong>.
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9 txt-italic"><u>FIVE Extra days Extravaganza</u></p>
+                <br>
+                <p class="header4 p-color-cement">Yayyyyy!!!!! Flipkart is giving us all shopaholics <strong>FIVE extra days</strong> to shop during the sale this year, so make use of every single day
+                    of the sale and shop for all your favorite products.
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9 txt-italic"><u>State of the art technology for a peachy shopping experience</u></p>
+                <br>
+                <p class="header4 p-color-cement">Flipkart has also upgraded and introduced <strong>robot-based sortation technology</strong> and <strong>automated guided vehicles (AVGs)</strong> to improve its supply
+                    chain operations and enhance the overall user experience with <strong>quicker delivery</strong>.
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9 txt-italic"><u>No Cost EMI offers for the ritzy shopper in you.</u></p>
+                <br>
+                <p class="header4 p-color-cement">Indulge yourself in the luxury of shopping relentlessly with the <strong>NO Cost EMI</strong> for credit and debit cardholders of
+                    <i>HDFC and Bajaj Finserv EMI card holders</i>. Also get <strong>zero processing charges</strong> and interest fee EMIs. So shop for all the expensive brands that you
+                    have always wished for because Flipkart Big Billion Day Shopping Sale is making dreams come true!
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9 txt-italic"><u>A special delight for all the Axis bank and ICICI credit/debit cardholders.</u></p>
+                <br>
+                <p class="header4 p-color-cement">Axis bank and ICICI bank have surprised its users with the extra delightful offer of getting an EXTRA 10% off. Amazing!
+
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9 txt-italic"><u>Shop Now Pay later</u></p>
+                <br>
+                <p class="header4 p-color-cement">Don’t have any card? Don’t worry, Flipkart is giving <strong>cardless credits</strong> at instant approval to its users up to <strong>₹1 lakh</strong> which
+                    they can use to shop during the sale and avail <strong>No cost EMI and 0% interest</strong>.
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9 txt-italic"><u>Tips and Tricks- Learn from the best!</u></p>
+                <br>
+                <p class="header4 p-color-cement">Your inbox will receive plenty of <strong>daily updates</strong> for the sale and tips on how to <strong>save more</strong> with a lot more going on. Get <strong>interesting tricks,
+                        information, contest alerts, giveaways, gift ideas, shopping tips, fashion guide, season’s hottest picks, details of offers</strong> and much more straight in your inbox.
+                    Everything will come your way served on a platter, that you will just have to pick to devour.
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9 txt-italic"><u>What are the odds of winning BIG twice per day?</u></p>
+                <br>
+                <p class="header4 p-color-cement"><i>Flipkart Big Billion Day Sale 2019</i> will make sure no one leaves empty-handed by hosting two outrageous <strong>Quiz per day</strong>.
+                    You can win attractive prizes like <strong>Flipkart gift vouchers, smartphones, Bluetooth speakers, televisions, headphones, and Google Home</strong>.
+
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9 txt-italic"><u>Fly for FREE with Flipkart</u></p>
+                <br>
+                <p class="header4 p-color-cement">Flipkart is generously giving up to ₹25,000 off on flight bookings. You can avail this offer by using supercoins for flight bookings.
+
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9 txt-italic"><u>Flipkart Hagglebot- For all the bargaining experts!</u></p>
+                <br>
+                <p class="header4 p-color-cement">You can <strong>negotiate and bargain</strong> the prices of two new products that will be released each day of the <i>Flipkart Big Billion Day Sale 2019</i>
+                    directly using your voice. You can even be crowned as a ‘<strong>Boss</strong>’ of the day based on your ability to drive a good bargain.
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9 txt-italic"><u>The amazing image search feature.</u></p>
+                <br>
+                <p class="header4 p-color-cement">Flipkart has launched some amazingly cool features on its mobile app like <thestrong>Image Search and Flipkart Ping features</thestrong>
+                    That make your shopping experiences all the more fun, thrilling and exciting.
+
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9 txt-italic"><u>Buy more to save more</u></p>
+                <br>
+                <p class="header4 p-color-cement">You can save much more with combo deals. You can get an <strong>EXTRA 15%</strong> off, if you buy any 3 items or you shop for
+                    <strong>₹1,999</strong> or more. You can get an <strong>EXTRA 20% off</strong>, if you buy any 4 items or you shop for <strong>₹2,499</strong> or above.
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9 txt-italic"><u>Never before, never after</u></p>
+                <br>
+                <p class="header4 p-color-cement">Flipkart will be launching <strong>limited edition and new launches</strong> which you have never seen before and never will. So you better
+                    brace yourself for this epic release.
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9 txt-italic"><u>Free gifts for everyone</u></p>
+                <br>
+                <p class="header4 p-color-cement">Love gifts? Here is one for you from flipkart with love! All you have to do is shop from Flipkart during the grand sale,
+                    and voila! You are entitled to get a <strong>mystery box</strong> with a <strong>FREE gift</strong> inside it.
+                </p>
+                <br>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-free">Get a free ride with all the offers you get during the Big Billion Day Sale</h1>
+                <p class="header4 p-color-cement">What better way to celebrate the beginning of jollification with a bit of shopping during this extravagant affair? So
+                    here are some of the <strong>EXTRA benefits</strong> that you can avail.
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9">1. Fast Delivery</p>
+                <br>
+                <p class="header4 p-color-cement">Flipkart offers a <strong>fixed day delivery option</strong> for its users for the ease of shopping if you need a product to be delivered within a specific time.
+
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9">2. Easy Returns</p>
+                <br>
+                <p class="header4 p-color-cement">The <strong>easy and hassle-free return policy</strong> is one of the highlights of shopping with Flipkart. You can easily return the
+                    products that you shopped for within the given period whatever the reason may be.
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9">3. Extended warranty period</p>
+                <br>
+                <p class="header4 p-color-cement">Flipkart had heeded to our grievances and has generously provided the <strong>manufacturer's warranty on electronics</strong> for an assured purchase.
+
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9">4. Free Installation and Demo</p>
+                <br>
+                <p class="header4 p-color-cement">The main issue while purchasing <astrong> TV or an AC</astrong> online is the installation, we often give it a thought that who would install them in our
+                    homes after the delivery is made. But Flipkart takes care of its customers till the end, it offers <strong>FREE and EASY installation and demo</strong> for all the products.
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9">5. Buyback guarantee on mobile phones</p>
+                <br>
+                <p class="header4 p-color-cement">Yes, you will still get the <strong>guaranteed price</strong> for your phone under the <strong>buyback guarantee on mobile phones</strong> that are bought from Flipkart.
+
+                </p>
+                <br>
+                <p class="f-s-20 f-c-d-greay f-w-9">6. Complete mobile protection service</p>
+                <br>
+                <p class="header4 p-color-cement">To protect your phone from <strong>theft, accidental damage, breakdown, repair reimbursement, or liquid damage</strong>, all you need to
+                    do is avail the <strong>complete mobile protection service on Flipkart</strong>.
+                </p>
+                <br>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-almighty">The Almighty Limited Period Offers</h1>
+                <p class="header4 p-color-cement">The <i>Flipkart big billion shopping day sale</i> just expanded its wings of grandeur with the <strong>limited period offers</strong> that Flipkart will be
+                    exploding now and then to astonish its customers with humongous deals and offers on huge brands. Everything will fall under this colossal umbrella of great and amazing offers.
+                </p>
+                <br>
+                <ul class="header4 p-color-cement">
+                    <li><strong>Crazy Deals:</strong> These superb deals will be available on select products only at <strong><i>12 AM, 8 AM and 4 PM.</i></strong>
+                    </li>
+                    <br>
+                    <li><strong>Maha Price Drop:</strong> Flipkart will offer an <strong>extra discount (over regular discounts) of up to 20 % for a limited period only</strong>. So we suggest you better hurry!
+                    </li>
+                    <br>
+                    <li><strong>Rush Hour:</strong> During the first 2 hours of the sale i.e., <strong>12 AM to 2 AM</strong>, customers can avail of rush hour deals on select products.
+                    </li>
+                    <br>
+                    <li><strong>Flash Sale:</strong> A <strong>new deal will be unveiled every hour</strong>, so now you can get 120 deals in 120 hours.
+                    </li>
+                </ul>
+                <br>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="flipkart-trot">Get hot to trot for the Grand Sale with 10 steps!</h1>
+                <p class="header4 p-color-cement"><i>The sale is huge, offers are humongous, deals are grand, products are enormous and discounts are overwhelming, which can make any sane person go insane.</i>
+                    <br>
+                    So here are <strong>some tips and tricks</strong> to get ready for the sale and how you can reap the maximum benefit out of it and stay a step ahead of everyone else.
+                </p>
+                <br>
+                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">1. Remember the date:</strong> Draw a bead up on your calendar for <strong>29th September</strong>
+                    because that is the day when the sale begins and the offers unfold.
+                </p>
+                <br>
+                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">2. Download the app to get started:</strong> Using the Flipkart app is no herculean task it's
+                    rather user-friendly for the ease of shopping even for a not so tech-savvy person. Plus all the Flipkart Big Billion Day Sale 2019 deals will be just a click
+                    away from you and you can shop on the go for anything you want.
+                </p>
+                <br>
+                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">3. Register on Flipkart:</strong> If you are not registered on Flipkart, please do so
+                    before the sale begins and make sure that you enter a <strong>valid email ID and an active mobile number while registering</strong>.
+                </p>
+                <br>
+                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">4. Research well about the products and the offers:</strong> Take your time to
+                    <strong>research the product</strong> that you want and make sure that you are on board with purchasing the product at one go without having any second thoughts about it.
+                </p>
+                <br>
+                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">5. Get ready with your wishlist:</strong> Once the sale is live all the top deals
+                    will be gone like a streak of lightning so you better be ready. People will ride hell for leather to get the deal of the day and to avoid that rush we
+                    recommend you <strong>get ready beforehand</strong> with all the <strong>products already in your cart</strong>.
+                </p>
+                <br>
+                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">6. Save/Update your address:</strong> Add and save all the address you
+                    might use for product deliveries and make sure you enter the correct pin code while saving addresses to ensure <strong>faster checkouts</strong> during the sale and that you don't miss a deal in any case.
+                </p>
+                <br>
+                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">7. Save your card details:</strong> For faster checkouts,
+                    we recommend you to save your card details beforehand, and set it as the default payment method for availing various benefits on it.
+                </p>
+                <br>
+                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">8. Apply for cashless credit on Flipkart:</strong> If you don't own a credit card then
+                    you can use <strong>Flipkart Cardless Credit Scheme</strong> for shopping, by submitting your PAN card and Aadhar card details and the maximum cashless limit is ₹1 lakh.
+                </p>
+                <br>
+                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">9. Be in good network zone:</strong> Avoid areas of low connectivity
+                    during the sale because it might be the only thing hindering you from getting the deal you want and then you would regret it always.
+                    So make sure to be where there is <strong>good connectivity to avail maximum benefits of the sale</strong>.
+                </p>
+                <br>
+                <p class="header4 p-color-cement"><strong class="f-s-20 f-c-d-greay f-w-9 txt-italic">10. Keep abreast:</strong> Many breathtaking limited-period offers will also be a part of
+                    the sale so you must <strong>keep an eye on the Flipkart website and app</strong> during the sale period to ensure you don’t miss out on any deal.
                 </p>
                 <br>
 
                 <br>
-{{--                <div class="offerDesc">--}}
-{{--                    <h4>Onam Offer: Terms & Conditions</h4>--}}
-{{--                    <ul>--}}
-{{--                        <li>Discount: ₹250/-</li>--}}
-{{--                        <li> This offer cannot be clubbed with any other. </li>--}}
-{{--                        <li>Use Coupon: ONM250 </li>--}}
-{{--                        <li>The offer would only be active during 25th Aug to 25th Sep 2019 .</li>--}}
-{{--                        <li>Applicable only for Onam related products</li>--}}
-{{--                        <li>This offer is applicable only for international shipments.</li>--}}
-{{--                        <li>The offer can only be used to pay off your shipping costs.</li>--}}
-{{--                        <li>Clearance charges are applicable for shipping Special Items</li>--}}
-{{--                    </ul>--}}
+                <div class="offerDesc">
+                    <h4>Note</h4>
+                    <ul>
+                        <li>Some the products can't be shipped internationally - <a href="https://ship.shoppre.com/prohibited-items-what-you-cannot-ship-internationally-from-india/" target="_blank">Know more</a></li>
+                        {{--                        <li>Discount: ₹250/-</li>--}}
+                        {{--                        <li> This offer cannot be clubbed with any other. </li>--}}
+                        {{--                        <li>Use Coupon: ONM250 </li>--}}
+                        {{--                        <li>The offer would only be active during 25th Aug to 25th Sep 2019 .</li>--}}
+                        {{--                        <li>Applicable only for Onam related products</li>--}}
+                        {{--                        <li>This offer is applicable only for international shipments.</li>--}}
+                        {{--                        <li>The offer can only be used to pay off your shipping costs.</li>--}}
+                        <li>Clearance charges are applicable for shipping Special Items</li>
+                    </ul>
 
-{{--                </div>--}}
+                </div>
 
             </div>
         </div>
