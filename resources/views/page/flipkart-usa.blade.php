@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'FLIPKART USA Shipping | Shop from India Online | ShoppRe.com')
+@section('title', 'Does Flipkart ship to USA? | Use your ShoppRe Address for Delivery')
 @section('description', 'Shop Flipkart in India and Ship to USA through ShoppRe International shipping services. Save up to 80% on shipping, delivered to your doorsteps within 3-6 days')
 @section('keywords', 'shop from india to usa, shop online india international shipping')
 

@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Flipkart International Shipping From India | Shop & Ship with ShoppRe')
+@section('title', 'Flipkart International Shipping from India | Shop & Ship with ShoppRe')
 @section('description', 'Shop products online from Flipkart India & ship internationally at reasonable shipping costs. Sign Up for Free & get an Indian virtual shipping address.')
 @section('keywords', 'How to buy in Flipkart, shopping, shipping, ecommerce, online store, packages, offers')
 

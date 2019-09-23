@@ -174,11 +174,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">beauty edit</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up To 50% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">big fashion days</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 80% Discount</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com/shop/mbe-sep19-men" target="_blank">
+                                <a href="https://www.myntra.com/growth/bfd19-homepage" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5997a62748742.png"/>
                                 </a>
                             </div>
@@ -256,8 +256,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Furniture Mania Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">20th September</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Diwali Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 50% Off</h5>
                             <div class="ecomSmallBox" >
                                 <a href="https://www.pepperfry.com" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">PEPPERFRY</p>
@@ -269,10 +269,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">party mode on!</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up To 50% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">fashion week</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.firstcry.com/boutique/party-mode-on-%7C-6m-10y/19838?ref2=homepage" target="_blank">
+                                <a href="https://www.firstcry.com/featuredoffer?cpid=218&c=TOP10FW&ref2=rbanner_fashion_4_23sep2019" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">FIRSTCRY</p>
                                 </a>
                             </div>

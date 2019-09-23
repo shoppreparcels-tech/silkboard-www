@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'ShoppRe Courier - International Shipping Services from India | Global Shipping Made Easy')
-@section('description', 'One-stop destination for all your shipping needs; domestic & international courier. The cheapest way to send parcels overseas. Save up to 80% on shipping costs.')
-@section('keywords', 'courier service, international package, schedule a pickup, ship internationally')
+@section('title', 'ShoppRe Courier: International Courier Services in India | Safe & Secure')
+@section('description', 'One-stop destination for all your international courier services. The cheapest way to send packages overseas. Save up to 80% on shipping costs. Try ShoppRe.')
+@section('keywords', 'courier service, international package, schedule a pickup, ship internationally, parcel forwarding, ship a product')
 
 @section('css_style')
 

@@ -107,7 +107,7 @@
                         </a>
 
                     </p>
-                    <h1 class="header1 p-color-white">Shop Indian Stores <span> & Ship Globally</span></h1>
+                    <h1 class="header1 p-color-white">Shop Indian Stores <span> & Ship Worldwide</span></h1>
                     <p class="header2 p-color-white header-ifs-p1">Ship your purchases to us; we'll store, consolidate,
                         <br> repackage & ship them to WHEREVER you are! </p>
                     <a href="/customer/register" class="btn btn-s-b btn-b-g" target="_blank">Sign Up & Receive FREE Virtual Address</a>
@@ -905,7 +905,7 @@
             <p>We consolidate the packages in your Locker into one after you make a Ship Request; which,
                 saves you from shipping them in individually - making us the cheapest parcel forwarding company in
                 the whole country! Our Package Consolidation hence aids in making
-                <a href="{{route('stores1')}}">shopping from Indian stores</a> & shipping globally reasonably affordable.</p>
+                Online Shopping International Shipping from India reasonably at affordable cost.</p>
 
             <h1>Finding it difficult to shop on stores?</h1>
 
@@ -920,6 +920,62 @@
                 can virtually shop around in India relieved - as international shipping
                 from India is not a tough task anymore!</p>
 
+
+            <br>
+            <div class="row">
+                <h2 class="f-s-22 f-c-d-gray font-weight-900 text-center" style="color: #4285f4">ShoppRe International shopping and shipping made easy</h2>
+                <br>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><span>Shop from India to USA</span></li>
+
+                            <li><span>Shop from India to UAE</span></li>
+
+                            <li><span>Shop from India to Canada</span></li>
+
+                            <li><span>Shop from India to Australia</span></li>
+
+                            <li><span>Shop from India to Singapore</span></li>
+
+                            <li><span>Shop from India to Germany</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><span>Shop from India to South Africa</span></li>
+
+                            <li><span>Shop from India to Japan</span></li>
+
+                            <li><span>Shop from India to New Zealand</span></li>
+
+                            <li><span>Shop from India to Malaysia</span></li>
+
+                            <li><span>Shop from India to to Switzerland</span></li>
+
+                            <li><span>Shop from India to to Mauritius</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><span>Shop from India to Qatar</span></li>
+
+                            <li><span>Shop from India to Dubai</span></li>
+
+                            <li><span>Shop from India to Saudi Arabia</span></li>
+
+                            <li><span>Shop from India to Spain</span></li>
+
+                            <li><span>Shop from India to Brazil</span></li>
+
+                            <li><span>Shop from India to Mexico</span></li>
+                        </ul>
+                    </div>
+                </div>
 
         </div>
         <br>

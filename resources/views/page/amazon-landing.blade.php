@@ -1,11 +1,11 @@
 @extends('layout')
 
-@section('title', 'Amazon.in Online Shopping International Shipping India | ShoppRe')
-@section('description', 'Shop online from Amazon India and Ship Internationally with ShoppRe Upto 220+ countries. The fast & cheapest way to ship your package from India. Sign Up Free.')
-@section('keywords', 'Amazon International Shipping, great indian sale, ship india')
+@section('title', 'Does Amazon.in ship internationally? use ShoppRe to Shop Amazon')
+@section('description', 'Shop online from Amazon India and Ship internationally with ShoppRe Indian Address. The fast & cheapest way to ship your purchases from India. Sign Up Free.')
+@section('keywords', 'amazon international shipping, great indian sale, india online stores')
 
 @section('css_style')
-    <link rel="canonical" href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" />
+    <link rel="canonical" href="https://www.shoppre.com/amazon-india-shop-international-shipping" />
 
     <meta property="og:title" content="Shop online Amazon.in products & Ship Internationally with ShoppRe" />
     <meta property="og:type" content="website" />
@@ -34,7 +34,7 @@
         <div class="container">
             <br>
             <br>
-            <h1 class="f-s-36 f-c-white f-w-8">Shop & Ship your purachses from Amazon.in</h1>
+            <h1 class="f-s-36 f-c-white f-w-8">Shop & Ship your purchases from Amazon.in</h1>
             <p class="f-s-22 f-c-white">Own a Free Virtual Shipping Address and Ship Internationally at Low Rates</p>
             <br>
             <p class="f-s-22 f-c-white">Place your order in Amazon India Store with your ShoppRe Indian Address.</p>

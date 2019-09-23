@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Shop Myntra Online & Ship Internationally From India | ShoppRe.com')
-@section('description', 'Online Shopping from Myntra and Ship to US, UAE, Australia address & Upto 220+ countries. The cheapest way to courier your package from India. Sign Up for Free.')
-@section('keywords', 'Myntra International Shipping, Online Fashion Store, ship usa, how to shop')
+@section('title', 'Myntra online Shopping International Shipping from India with ShoppRe')
+@section('description', 'Online Shopping from Myntra India and Ship to US, UAE, Australia address & Upto 220+ countries. The cheapest way to courier your package from India. Sign Up for Free.')
+@section('keywords', 'myntra international shipping, online fashion store, ship usa, how to shop, big fashion days')
 
 @section('css_style')
     <meta property="og:title" content="Shop online from Myntra fashion store and Ship Internationally with Shoppre" />
@@ -69,11 +69,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/shop/mbe-sep19-women" target="_blank"><div class="shopandship ">
-                            <h2>👸 BEAUTY EDIT</h2>
+                    <a href="https://www.myntra.com/growth/bfd19-homepage" target="_blank"><div class="shopandship ">
+                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">🛍️ BIG FASHION DAYS</h2>
                             <br/>
-                            <p>Up To 50% Off</p>
-                            <p>18th - 19th SEP</p>
+                            <p>Up To 80% Discount</p>
+                            <p>29th SEP - 04th OCT</p>
                             <p>👉 Explore Now</p>
                         </div></a>
                 </div>
