@@ -88,7 +88,7 @@
                                 <div class="panel-body">
                                     <form action="" method="post" id="form-weight">
                                         <div class="col-md-12 col-xs-12 pad-r-10 pad-b-20"><br>
-                                            Name:<input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="MName" placeholder="Enter your name" required>
+                                            Full Name:<input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="MName" placeholder="Enter your name" required>
                                             Phone Number: <input id="phone" name="MContactNumber" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off" required>
                                             Email:<input type="Email" name="Memail" class="txt-f-w txt-shadow txt-pad" autocomplete="off"   placeholder="jhon@email.com" required>
                                             Which Country to Ship:
@@ -100,7 +100,7 @@
                                             </select>
                                             Weight<input type="number" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="Mweight" placeholder="Enter your Weight" required>
                                             <div class="col-xs-12 col-md-12 pad-t-20">
-                                                <button type='submit' class="btn btn-s-r btn-b-r btn-l">Get a quote</button>
+                                                <button type='submit' class="btn btn-s-r btn-b-r btn-l">Get a Free Quote</button>
                                             </div>
                                         </div>
                                     </form>
@@ -275,10 +275,9 @@
                         <br>
                         <br>
                         <center>
-                            <a href="/onam-community-shipping-offer" target="_blank">
-                                {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"--}}
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/onam-dekstop-offer.png" title="Click Here - ONAM"
-                                     alt="rakhi-schedule-pickup-courier-from-india-shoppre" class="img-responsive">
+                            <a href="/first-time-international-shipment-offer" target="_blank">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"
+                                     alt="frst50 shipping offer" class="img-responsive">
                             </a>
                         </center>
                     </div>

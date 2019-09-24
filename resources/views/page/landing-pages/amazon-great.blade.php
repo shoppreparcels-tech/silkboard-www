@@ -42,7 +42,7 @@
                </div>
            </div>
            <div class="col-md-12 col-xs-12 text-center">
-               <h1 class="f-s-26 f-c-d-greay f-w-9">Amazon Great Indian Festival Sale 2019: 29th September to 4th October</h1>
+               <h1 class="f-s-26 f-c-d-greay f-w-9">Shop Amazon.in Great Indian Festival & Ship <span class="f-s-26 f-c-red f-w-9">@Cheap-Cost Internationally</span></h1>
            <a href="https://linksredirect.com/?cid=52423&subid=2565&source=linkkit&url=https%3A%2F%2Fwww.amazon.in%2Fb%3Fnode%3D3419926031%26pf_rd_p%3D6161983f-ed0b-42e7-9f36-695255d4c21a%26pf_rd_r%3DF4QP7N2SZ1GK2XMK9740"
               target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Buy from Amazon Great Indian Sale</a>
 

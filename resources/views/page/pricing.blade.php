@@ -52,7 +52,7 @@
     "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
     "https://www.linkedin.com/company/shoppre.com",
     "https://in.pinterest.com/shoppre",
-    "https://goo.gl/maps/uuZy4tMs8582",
+    "https://g.page/shoppre?share",
     "https://play.google.com/store/apps/details?id=com.shoppre.play",
     "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
   ]

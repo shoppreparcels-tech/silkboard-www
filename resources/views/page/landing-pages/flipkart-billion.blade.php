@@ -49,7 +49,7 @@
 
 {{--           </div>--}}
            <div class="col-md-12 col-xs-12 text-center">
-               <h1 class="f-s-26 f-c-d-greay f-w-9">Flipkart Big Billion Days Sale 2019: Offers & Discounts</h1>
+               <h1 class="f-s-26 f-c-d-greay f-w-9">Shop Flipkart Big Billion & Ship <span class="f-s-26 f-c-red f-w-9">@Cheap-Cost Internationally</span>, Door-to-door Delivery</h1>
                <br>
            <a href="https://www.flipkart.com/big-billion-days-store"
               target="_blank" class="btn btn-s-b btn-b-b">The Big Billion Days - Check Offer</a>

@@ -525,6 +525,10 @@ class PageController extends Controller
     {
         return view('page.myntra-landing');
     }
+    public function bigfashionMyntra()
+    {
+        return view('page.landing-pages.bigfashion-myntra');
+    }
     public function amazonGreat()
     {
         return view('page.landing-pages.amazon-great');

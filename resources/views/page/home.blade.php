@@ -344,18 +344,18 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://www.myntra.com/handpicked-styles?f=Brand%3AAKS%3A%3ACategories%3ALehenga%20Choli%2CSarees%2CSkirts%3A%3AGender%3Amen%20women%2Cwomen" title="Click to Know More" target="_blank">
+                        <a href="https://www.myntra.com/zaveri-sep19-bd" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">HANDPICKED STYLES</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">ZAVERI PEARLS</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Starting from ₹714</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Starting from ₹399</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Myntra.com</span></p>
                             <br>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Maxi Skirt, Lehenga Choli, Saree & more. Buy from Myntra & Ship Worldwide!
+                            <p class="f-s-16 f-c-l-gray f-w-7">Drop Earrings, Jewellery Set & more. Buy from Myntra & Ship Worldwide!
 
                         </div>
 
@@ -760,7 +760,7 @@
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 147px;">
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">235 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">237 Google Reviews</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787 ">Shipping and Delivery Service</p>

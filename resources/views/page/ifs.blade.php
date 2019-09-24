@@ -953,9 +953,9 @@
 
                             <li><span>Shop from India to Malaysia</span></li>
 
-                            <li><span>Shop from India to to Switzerland</span></li>
+                            <li><span>Shop from India to Switzerland</span></li>
 
-                            <li><span>Shop from India to to Mauritius</span></li>
+                            <li><span>Shop from India to Mauritius</span></li>
                         </ul>
                     </div>
                 </div>

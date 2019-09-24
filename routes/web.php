@@ -682,6 +682,7 @@ Route::get('/myntra-independence-sale-right-to-fashion-sale-offers-discounts-sho
 Route::get('/flipkart-big-billion-days-sale-offers-top-brands-stores', 'PageController@flipkartBillion')->name('flipkart-billion');
 Route::get('/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping', 'PageController@amazonGreat')->name('amazon-great');
 Route::get('/flipstart-days-avail-best-offers-on-flipkart-enjoy-special-discounts-for-the-first-three-days-of-every-month', 'PageController@flipkartFlipstart')->name('flipkart-flipstart');
+Route::get('/myntra-big-fashion-days-sale-shop-online-india', 'PageController@bigfashionMyntra')->name('bigfashion-myntra');
 
 
 /*-------- New Country Guides Landing Pages ------*/

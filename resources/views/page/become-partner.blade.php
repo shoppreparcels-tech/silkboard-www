@@ -19,7 +19,7 @@
                 <center>
                     <h1 class="f-s-36 f-c-white f-w-8">Seller & Ecommerce Partnership</h1>
                     <p class="f-s-20 f-c-l-gray ">ShoppRe.com Your Global Shipping Partner. Ship your products
-                        Internationally starting at Rs. 500/-.<br> ✅Online Seller ✅Social Seller ✅eCommerce Seller ✅Amazon FBA Seller</p>
+                        Internationally starting at ₹500/-.<br> ✅Online Seller ✅Social Seller ✅eCommerce Seller ✅Amazon FBA Seller</p>
                 </center>
                 <br>
                 <br>
@@ -27,7 +27,7 @@
         </div>
     </main>
     <section>
-        <div class="container" style="margin-top: 62px;">
+        <div class="container" style="margin-top: 30px;">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <img class="img-responsive img-shipments" src="{{env('AWS_CLOUD_FRONT')}}/img/images/ics-tailor.png">
             </div>
@@ -223,9 +223,9 @@
                 <div class=" col-md-12 col-xs-12 div-ics-prodcts">
                     <div class="col-md-6 col-xs-12 no-padding">
                         <ul>
+                            <li>👨‍💻 Dashboard</li>
                             <li>🚚 Door to Door Pickup Services</li>
                             <li>✅ Customs Clearance & Paperwork</li>
-                            <li>📒 No Account Creation Hassless</li>
                             <li>💲 Low Cost for Higher Kgs</li>
                             <li>📦 Package Return Services</li>
                             <li>💳 Multiple Payment Options</li>
@@ -244,10 +244,14 @@
                 </div>
             </div>
         </div>
-        <div id="schedule_load"></div>
         <br>
-        <br>
-        <br>
+        <center> <a href="http://bit.ly/shpr-seller" target="_blank">
+                <div class="btn header6 btn-get-assisted p-color-white no-margin" style="background-color: #25D366">
+                    <center>
+                        WhatsApp Here
+                    </center>
+                </div>
+            </a></center>
     </section>
 @endsection
 
