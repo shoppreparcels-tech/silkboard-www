@@ -118,10 +118,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Top fashion brands</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up To 70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Billion Days Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 90% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.flipkart.com/fashion-weekend-monsoon-store?otracker=hp_banner_1_5.bannerX3.BANNER_W4W2YRUVTOUB&fm=neo%2Fmerchandising&iid=M_a64df555-fbbf-43d8-8f97-de7f171c7b69_5.W4W2YRUVTOUB&ppt=hp&ppn=hp&ssid=vhtga2s6ww0000001567654872075" target="_blank">
+                                <a href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
                                 </a>
                             </div>
@@ -178,7 +178,7 @@
                             <h5 class="header6 p-color-cement font-weight-900">Up To 80% Discount</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com/growth/bfd19-homepage" target="_blank">
+                                <a href="/myntra-big-fashion-days-sale-shop-online-india" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5997a62748742.png"/>
                                 </a>
                             </div>
@@ -204,7 +204,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Great Indian Festival</h4>
                             <h5 class="header6 p-color-cement font-weight-900">29th SEP - 04th OCT</h5>
                             <div class="ecomSmallBox" style="height: 94px;">
-                                <a href="https://www.amazon.in/b?node=3419926031&pf_rd_p=f7d3d354-d08c-4102-9b41-86ba899912ed&pf_rd_r=WSTR4FDQCEFV1RG0TDNC" target="_blank">
+                                <a href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>
                                 </a>
                             </div>

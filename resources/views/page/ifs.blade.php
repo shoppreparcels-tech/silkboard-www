@@ -119,9 +119,10 @@
     <section>
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?pf_rd_p=7ae8bb23-c2d2-4277-a4e5-a651d0266ae5&pf_rd_r=6HPFAKQ3FSDG80C9MA7A" title="Amazon" target="_blank">1. Amazon.in 👉BARGAIN FINDS(Under ₹400)</a> |
-                <a href="https://www.flipkart.com/fashion-weekend-brand-2019-store" title="flipkart" target="_blank">2. Flipkart 👉Fashion From Rs 299 </a> |
-                <a href="https://www.ajio.com" title="ajio" target="_blank">3. AJIO.com 👉FESTIVE SALE: 40-80% OFF</a>
+                <a href="https://www.amazon.in/b?node=3419926031&pf_rd_p=86b570f4-7fdc-444c-86fb-e4daf032f742&pf_rd_r=M6HA0X2998QBR444DC2Y" title="Amazon" target="_blank">1. Amazon.in 👉Great Indian Festival</a> |
+                <a href="https://clnk.in/jC3o" title="flipkart" target="_blank">2. Flipkart.com 👉Big Billion Days </a> |
+                <a href="https://clnk.in/jC2G" title="ajio" target="_blank">3. Myntra.com 👉Big Fashion Days</a> |
+                <a href="https://www.ajio.com" title="ajio" target="_blank">4. AJIO.com 👉FESTIVE SALE: 40-80% OFF</a>
             </marquee>
         </div>
         <div class="container" id="how-it-works">
@@ -928,7 +929,7 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><span>Shop from India to USA</span></li>
+                            <li><span><a href="https://www.shoppre.com/en-us">Shop from India to USA</a></span></li>
 
                             <li><span>Shop from India to UAE</span></li>
 
@@ -947,7 +948,7 @@
                         <ul>
                             <li><span>Shop from India to South Africa</span></li>
 
-                            <li><span>Shop from India to Japan</span></li>
+                            <li><span><a href="https://www.shoppre.com/en-jp">Shop from India to Japan</a></span></li>
 
                             <li><span>Shop from India to New Zealand</span></li>
 

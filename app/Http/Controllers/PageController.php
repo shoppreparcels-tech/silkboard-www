@@ -476,6 +476,10 @@ class PageController extends Controller
         return view('page.onam-gifts');
     }
 
+    public function diwaliOffer() {
+        return view('page.landing-pages.diwali');
+    }
+
     public function medicine()
     {
         return view('page.medicine-landing');
