@@ -56,8 +56,8 @@
                     <div class="MultiCarousel-inner">
                         <div class="item">
                             <div class="pad15">
-                                <a href="/onam-community-shipping-offer" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/onam-offer-250.png" class="boxofScroll"/>
+                                <a href="/diwali-offer" target="_blank">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-offer-shipping-2019.png" class="boxofScroll"/>
                                 </a>
                             </div>
                         </div>

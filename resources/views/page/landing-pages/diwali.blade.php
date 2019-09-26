@@ -5,6 +5,8 @@
 @section('keywords', 'onam saree online, kerala kasavu saree, balaramapuram kaithari, men wear')
 
 @section('css_style')
+    <meta name="robots" content="noindex" />
+
     <link rel="canonical" href="https://www.shoppre.com/kerala-onam-online-shopping-guide-from-india" />
 
     <style>
@@ -102,7 +104,7 @@
                     <div class="shopandship onam-prod-pic" >
                             <img class="img-product" src="{{asset('img/images/women-cotton-saree-with-blouse-kerala-saree-for-onam.png')}}" alt="signup shoppre">
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
-                            Kerala Kasavu Sarees
+                            Kerala Kasavu
                         </div>
                         <div class="check-price-padd">
                             <a href="https://www.mirraw.com/store/kerala-sarees" target="_blank"> <span class="elementor-icon-list-icon">

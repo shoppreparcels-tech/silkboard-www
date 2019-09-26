@@ -4,9 +4,9 @@
 @section('description', 'Sign Up & receive your own Personal Locker with Virtual Indian Shipping Address. Buy product from any Indian stores; Store, Consolidate, Repack & Ship worldwide')
 @section('keywords', 'how does shoppre works, our personal shoppre service, ship your packages, multiple indian stores, ship from india')
 
-
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/how-it-works" />
+
     <meta property="og:title" content="How Does ShoppRe Works and How to Shop & Ship from India"/>
     <meta property="og:type" content="website"/>
     <meta property="og:description"
@@ -37,7 +37,8 @@
   "alternateName": "How Does ShoppRe Works, How to Shop and Ship from India",
   "url": "https://www.shoppre.com/how-it-works/",
   "image": "https://www.shoppre.com/img/logo.png",
-  "description": "Sign Up for Free & receive your own Personal Locker with Virtual Indian Shipping Address. Buy your favorite product from any Indian stores; Store your purchases up to 20 days of free storage, Consolidate, Repack & Ship worldwide from India.",
+  "description": "Sign Up for Free & receive your own Personal Locker with Virtual Indian Shipping Address.
+               Buy your favorite product from any Indian stores; Store your purchases up to 20 days of free storage, Consolidate, Repack & Ship worldwide from India.",
     "sameAs": [
     "https://www.facebook.com/goshoppre/",
     "https://twitter.com/Go_Shoppre",
@@ -52,8 +53,8 @@
   ]
 }
     </script>
-
 @endsection
+
 @section('content')
 
     <section class="page_head">
@@ -102,8 +103,8 @@
                         <div class="story-block story-right">
                             <div class="item_content">
                                 <h3>explore</h3>
-                                <strong><a href="{{route('stores')}}">Browse</a> through Shoppre’s exhaustive list of
-                                    Top Indian Online Stores to know where to shop your favorite product from!</strong>
+                                <strong>Browse through Shoppre’s exhaustive list of
+                                    <a href="{{route('stores1')}}">Top Indian Online Stores</a> to know where to shop your favorite product from!</strong>
                                 <p>Savings Tip: Simply SIGN UP and get access to Shoppre's featured stores and special
                                     shipping discounts!</p>
                             </div>
@@ -143,7 +144,7 @@
                                 <h3>AVAIL BENEFITS</h3>
                                 <strong>In case any shopping Portal doesn’t accept your International Credit Card, or in
                                     case of any difficulties to shop from Indian Stores, don’t worry!</strong>
-                                <p>Our <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/personal-shopper">Personal
+                                <p>Our <a href="/personal-shopper-shopping-concierge-from-india" target="_blank">Personal
                                         Shopper</a> Service will purchase the items for you using our Indian Local
                                     Credit Card!</p>
                             </div>
@@ -173,9 +174,8 @@
                                 <p>Savings Tip: <br>
                                     - Let us know which packages to consolidate to ensure you get the biggest savings on
                                     shipping costs.<br>
-                                    - Request extra packaging material, fragile stickers and a variety of other <a
-                                        href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/shipping-preferences">packing
-                                        options</a>.</p>
+                                    - Request extra packaging material, fragile stickers and a variety of other
+                                        packing options.</p>
                             </div>
                             <div class="item_img" style="top: 23%;">
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/how5.png">
@@ -196,7 +196,7 @@
                                     is dispatched! Most Shoppre members worldwide receive their packages in just 2 to 5
                                     days!</strong>
                                 <p>Enjoy the special discounted rates that we get with our trusted courier partners like
-                                    DHL, FedEx and more, thanks to our bulk volume of shipment.</p>
+                                    DHL, FedEx and more, thanks to our bulk volume of shipment.</p> <br>
                                 <p>Savings Tip:<br>
                                     We give you 20 days of FREE Storage! Simply wait until you have multiple packages in
                                     your suite and we will consolidate your packages into one shipment and save you up
@@ -218,7 +218,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3>So what are you waiting for? Shopp <span class="text-orange">re</span>! Open your big box of
+                    <h3>So what are you waiting for? Shopp <span class="text-orange">Re</span>! Open your big box of
                         happiness today!</h3>
                     <p>All you need is a membership to get your Indian Shipping Address immediately!</p>
                     <a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register" class="btn btn-shoppre">sign up for

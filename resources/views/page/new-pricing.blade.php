@@ -275,9 +275,10 @@
                         <br>
                         <br>
                         <center>
-                            <a href="/first-time-international-shipment-offer" target="_blank">
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"
-                                     alt="frst50 shipping offer" class="img-responsive">
+                            <a href="/diwali-offer" target="_blank">
+{{--                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png" --}}
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-2019-offer-shipping.png"
+                                     alt="diwali shipping offer" class="img-responsive">
                             </a>
                         </center>
                     </div>

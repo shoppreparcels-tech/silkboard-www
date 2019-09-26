@@ -150,9 +150,11 @@
                     </span></h3>
             </div>
             <div class="col-md-6 col-xs-12 "><br>
-                <a href="/first-time-international-shipment-offer" target="_blank">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"
-                         alt="shoppre offer" title="Click Here" class="img-responsive">
+                <br>
+                <a href="/diwali-offer" target="_blank">
+{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"--}}
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-2019-offer-shipping.png"
+                         alt="shoppre diwali offer" title="Click Here" class="img-responsive">
                 </a>
             </div>
         </div>

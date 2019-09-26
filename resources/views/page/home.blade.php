@@ -278,12 +278,12 @@
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
                         <div class="col-md-12 col-xs-12">
-                            <a href="/first-time-international-shipment-offer" target="_blank">
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india-shoppre.png" class="img-f-w offer-img-d"
-                                        alt="first time international shipment offer"></a>
-                            <a href="/first-time-international-shipment-offer" target="_blank"><img
-                                        src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india.png"
-                                        class="img-f-w offer-img-m" title="Click Here" alt="mobile international shipping discount"></a>
+                            <a href="/diwali-offer" target="_blank">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-2019-offer-shipping.png" class="img-f-w offer-img-d"
+                                        alt="diwali shipment offer"></a>
+                            <a href="/diwali-offer" target="_blank"><img
+                                        src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-2019-shipping-cashback.png"
+                                        class="img-f-w offer-img-m" title="Click Here" alt="diwali international shipping discount"></a>
                             <center class="pad-b-10"><a href="{{route('customer.login')}}"
                                        class="btn btn-s-g btn-b-g btn-a-l m-t-20 offer-img-m clrwhite">Sign Up for FREE</a>
                             </center>
