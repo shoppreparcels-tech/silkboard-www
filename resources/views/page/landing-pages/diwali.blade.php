@@ -125,10 +125,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
                             <img class="img-product m-t-img" src="{{asset('img/diwali/soanpapdi.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Soan Papdi <br>(200 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹150 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
@@ -142,10 +142,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <img class="img-product m-t-img" src="{{asset('img/diwali/kajukatli.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Kaju Katli <br>(250 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹245 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
@@ -159,10 +159,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <img class="img-product m-t-img" src="{{asset('img/diwali/besanladdu.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Besan Laddu <br>(250 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹145 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
@@ -176,10 +176,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <img class="img-product m-t-img " src="{{asset('img/diwali/DoodhBurfi.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Doodh Burfi <br>(250 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹145 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
@@ -193,10 +193,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <img class="img-product m-t-img " src="{{asset('img/diwali/raisins.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Raisins <br>(250 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹140 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
@@ -210,10 +210,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <img class="img-product m-t-img " src="{{asset('img/diwali/pistachios.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Pista <br>(200 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹140 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
@@ -227,10 +227,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <img class="img-product m-t-img " src="{{asset('img/diwali/mamrabadam.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Mamra Badam <br>(200 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹640 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
@@ -244,10 +244,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <img class="img-product m-t-img " src="{{asset('img/diwali/cashewnutssalt.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Cashew <br>(200 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹280 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
@@ -261,10 +261,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <img class="img-product m-t-img " src="{{asset('img/diwali/SohanPapdi.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Sohan Papdi <br>(250 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹85 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
@@ -278,10 +278,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <img class="img-product m-t-img " src="{{asset('img/diwali/Doodh_Peda.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Doodh Peda <br>(250 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹145 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
@@ -295,10 +295,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <img class="img-product m-t-img " src="{{asset('img/diwali/Dalmoth.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Dalmoth <br>(100 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹46 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
@@ -312,10 +312,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <img class="img-product m-t-img " src="{{asset('img/diwali/Chow_Chow.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Chow Chow <br>(100 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹42 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
@@ -329,10 +329,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <img class="img-product m-t-img " src="{{asset('img/diwali/PISTA_BISCUITS.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Pista Biscuits <br>(150 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹55 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
@@ -346,10 +346,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <img class="img-product m-t-img " src="{{asset('img/diwali/JEERA_BISCUITS.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Jeera Biscuits <br>(150 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹52 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
@@ -363,10 +363,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <img class="img-product m-t-img " src="{{asset('img/diwali/PISTA_STICK.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Pista Stick <br>(150 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹125 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
@@ -380,10 +380,10 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <img class="img-product m-t-img " src="{{asset('img/diwali/MASALA_BISCUITS.jpg')}}" alt="signup shoppre">
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             Masala Biscuits <br>(150 grams)
                         </div>
-                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 5px !important;font-weight: normal">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
                             ₹52 + Shipping Charges
                         </div>
                         <div class="check-price-padd">
