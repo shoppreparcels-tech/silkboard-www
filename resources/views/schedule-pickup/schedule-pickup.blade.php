@@ -276,7 +276,7 @@
                     </div>
                     </br>
                     <div class="pickup-address">
-                        <h4 class="head-align"><u> PICK-UP ADDRESS :</u></h4>
+                                                <h4 class="head-align"><u> PICK-UP ADDRESS :</u></h4>
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
