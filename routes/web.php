@@ -675,6 +675,7 @@ Route::get('/seller-partner', 'PageController@seller')->name('seller');
 /*-------- Festival Sale Landing Pages ------*/
 Route::get('/kerala-onam-online-shopping-guide-from-india', 'PageController@onamGift')->name('onam-gifts');
 Route::get('/indian-diwali-sweets-dryfruits-internatioanl-delivery', 'PageController@diwaliOffer')->name('diwali-offer');
+Route::get('/indian-diwali-sweets-dryfruits-free-internatioanl-delivery', 'PageController@diwaliFree')->name('diwali-free');
 Route::get('/onam-community-shipping-offer', 'PageController@onamCommunity')->name('onamCommunity');
 Route::get('/send-rakhi-gifts-online-worldwide-at-cheap-rates', 'PageController@rakhiGift')->name('send-rakhi-gifts-online-worldwide-at-cheap-rates');
 Route::get('/flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india', 'PageController@flipkartNational')->name('flipkart-national');

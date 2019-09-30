@@ -410,6 +410,7 @@ class PageController extends Controller
         return view('page.diwali-landing');
     }
 
+
     public function christmas()
     {
         return view('page.christmas-landing');
@@ -478,6 +479,9 @@ class PageController extends Controller
 
     public function diwaliOffer() {
         return view('page.landing-pages.diwali');
+    }
+    public function diwaliFree() {
+        return view('page.landing-pages.diwali-free');
     }
 
     public function medicine()
@@ -2128,7 +2132,7 @@ class PageController extends Controller
         $commnet = "Contact page: Email: ".$request->email."\n Contact No: ".$request->phone."\n Reason: ".$request->reason."\n Locker No: ".$request->locker."\n Query: ".$request->locker;
         AsanaTaskOperations::createTask($request->firstname, $commnet, "E");
 
-        Mail::to("Leads@shoppre.com")->bcc('aloak@shoppre.com')->send(new ContactEnquiry($request));
+        Mail::to("marketing@shoppre.com")->bcc('aloak@shoppre.com')->send(new ContactEnquiry($request));
         return view('page.confirm-contact-us');
     }
 
@@ -2255,7 +2259,7 @@ class PageController extends Controller
         $email= $request->email;
 //        $commnet = "Enquiry from pricing calculator page Pickup Location pin-code : ". $pincodeF."\n Destination pin-code : ".$pincodeT."\n contact number : ".$contact;
 //        AsanaTaskOperations::createTask($email, $commnet, "E");
-        $mail = Mail::to("Leads@shoppre.com")->send(new GetQuote($request));
+        $mail = Mail::to("marketing@shoppre.com")->send(new GetQuote($request));
         return response()->json(['mail' => $mail]);
     }
 

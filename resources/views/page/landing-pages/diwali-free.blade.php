@@ -1,12 +1,12 @@
 @extends('layout')
 
-@section('title', 'Indian sweets online international delivery | Celebrate with ShoppRe')
+@section('title', 'Indian Sweets FREE International Delivery | ShoppRe.com')
 @section('description', '')
-@section('keywords', 'sweets, diwali, dry fruits, shipping from india, international delivery, usa, uk, singapore, australia, canada')
+@section('keywords', 'free shiiping from india, indian sweets')
 
 @section('css_style')
 
-    <link rel="canonical" href="https://www.shoppre.com/indian-diwali-sweets-dryfruits-internatioanl-delivery" />
+    <link rel="canonical" href="https://www.shoppre.com/indian-diwali-sweets-dryfruits-free-internatioanl-delivery" />
 
     <style>
         .zoom {
@@ -83,7 +83,7 @@
 @section('content')
     <section class="first-time-shipment header-section" style="padding-top: 50px !important;">
         <div class="container no-padding banner">
-                <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>FRETTED ABOUT SHIPPING INDIAN SWEETS ABROAD?</i></p>
+                <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>Indian Sweets: FREE International Shipping from India</i></p>
                 <div class="col-md-6 col-xs-12" style="padding-top: 7%">
                    <center> <p class="m-t-sm f-s-30">Why Worries Re, <span style="font-family: Bahnschrift">Just ShoppRe!</span></p></center>
                     <p class="f-c-white m-t-sm f-s-18 text-center">
@@ -100,7 +100,7 @@
 {{--                        <h18 class="f-s-50 f-c-white  f-w-9">Celebrate Diwali</h18>--}}
 {{--                        <p class="f-s-36 f-c-white f-w-9 ">With ShoppRe.com </p>--}}
                         <br>
-                        <img src="{{asset('img/diwali/diwali-offer.png')}}" alt="Diwali offer india" > <br><br>
+                        <img src="{{asset('img/diwali/diwali-shipping-cashback-sweets-free-shipping.png')}}" alt="Diwali offer Free shipping from india" > <br><br>
 {{--                        <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-g btn-a-l" target="_blank">Sign UP FREE</a>--}}
                         <br>
                         <br>
@@ -108,14 +108,14 @@
                 </div>
             </div>
         <div class="image-banner">
-            <img src="{{asset('img/diwali/diwali-sweets-shop-ship.png')}}" alt="buy sweets from india" style="height: 430px; width: 100%;">
+            <img src="{{asset('img/diwali/diwali-sweets-free-shipping-from-india.png')}}" alt="" style="height: 430px; width: 100%;">
         </div>
     </section>
     <section >
         <div class="container fst-service" style="margin-top: 36px;">
             <div class="row">
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Diwali Sweets, Gifts & more.  Ship with ShoppRe.com</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Diwali Sweets, Snacks & more.  Ship for FREE with us!</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center margin-tp">
                     <p class="no-pad Rakhi-mid-div mar-t-10 f-s-16 txt-center">(Click on BUY NOW & you will be redirected to WhatsApp)</p>
@@ -135,10 +135,11 @@
                             Soan Papdi <br>(200 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹150 + Shipping Charges
+                            ₹1800 <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Soan%20Papdi(200g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha:%20Buy%20for%20me%20Soan%20Papdi(200g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -152,10 +153,12 @@
                             Kaju Katli <br>(250 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹245 + Shipping Charges
+                            ₹1895
+                            <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Kaju%20Katli(250g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Kaju%20Katli(250g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -169,10 +172,12 @@
                             Besan Laddu <br>(250 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹145 + Shipping Charges
+                            ₹1795
+                            <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Besan%20Laddu(250g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Besan%20Laddu(250g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -186,10 +191,12 @@
                             Doodh Burfi <br>(250 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹145 + Shipping Charges
+                            ₹1795
+                            <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Doodh%20Burfi(250g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Doodh%20Burfi(250g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -203,10 +210,12 @@
                             Raisins <br>(250 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹140 + Shipping Charges
+                            ₹1790
+                            <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Raisins(250g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Raisins(250g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -220,10 +229,12 @@
                             Pista <br>(200 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹140 + Shipping Charges
+                            ₹1790
+                            <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Pista(200g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Pista(200g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -237,10 +248,12 @@
                             Mamra Badam <br>(200 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹640 + Shipping Charges
+                            ₹2290
+                            <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Mamra%20Badam(200g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Mamra%20Badam(200g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -254,10 +267,12 @@
                             Cashew <br>(200 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹280 + Shipping Charges
+                            ₹1930
+                            <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Cashew(200g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Cashew(200g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -271,10 +286,11 @@
                             Sohan Papdi <br>(250 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹85 + Shipping Charges
+                            ₹1735 <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Sohan%20Papdi(250g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Sohan%20Papdi(250g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -288,10 +304,11 @@
                             Doodh Peda <br>(250 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹145 + Shipping Charges
+                            ₹1795 <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Doodh%20Peda(250g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Doodh%20Peda(250g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -305,10 +322,11 @@
                             Dalmoth <br>(100 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹46 + Shipping Charges
+                            ₹1696 <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Dalmoth(100g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Dalmoth(100g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -322,10 +340,11 @@
                             Chow Chow <br>(100 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹42 + Shipping Charges
+                            ₹1692 <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Chow%20Chow(100g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Chow%20Chow(100g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -339,10 +358,11 @@
                             Pista Biscuits <br>(150 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹55 + Shipping Charges
+                            ₹1705 <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Pista%20Biscuits(150g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Pista%20Biscuits(150g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -356,10 +376,11 @@
                             Jeera Biscuits <br>(150 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹52 + Shipping Charges
+                            ₹1702 <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Jeera%20Biscuits(150g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Jeera%20Biscuits(150g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -373,10 +394,11 @@
                             Pista Stick <br>(150 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹125 + Shipping Charges
+                            ₹1775 <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Pista%20Stick(150g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Pista%20Stick(150g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -390,10 +412,11 @@
                             Masala Biscuits <br>(150 grams)
                         </div>
                         <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">
-                            ₹52 + Shipping Charges
+                            ₹1702 <br>
+                            <span class="f-s-16 f-c-gray">Free Shipping</span>
                         </div>
                         <div class="check-price-padd">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Masala%20Biscuits(150g)" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Masala%20Biscuits(150g)" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -409,7 +432,7 @@
                             </a>
                         </button>
                         <button type="button" class="btn btn-success bord-rad-5 margin-r-10">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Can%20i%20Send%20Diwali,%20Gifts%20and%20Sweets%20from%20India?" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
+                            <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Can%20i%20Send%20Diwali,%20Gifts%20and%20Sweets%20from%20India?" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
                             <p class="btn-md">Message Us On WhatsApp</p>
                             </a>
                         </button>
@@ -593,7 +616,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-7338208403" class="header2 p-color-white">+91 73382 08403</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 9148357733</a>
 
                 </div>
 
@@ -638,7 +661,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-7338208403" class="header2 p-color-white">+91 73382 08403</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 9148357733</a>
 
                 </div>
 
