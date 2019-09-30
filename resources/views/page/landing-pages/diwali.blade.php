@@ -14,6 +14,10 @@
             margin: 0 auto;
         }
 
+        .underline-color  {
+            text-decoration: underline red;
+        }
+
         .img-product {
             width: 216px;
         }
@@ -43,7 +47,7 @@
             }
 
             .header-section {
-                height: 654px !important;
+                height: 450px !important;
             }
 
             .m-t-img {
@@ -79,24 +83,24 @@
 @section('content')
     <section class="first-time-shipment header-section" style="padding-top: 50px !important;">
         <div class="container no-padding banner">
-                <p class="f-s-28 f-c-white f-w-9 text-center">FRETTED TO SHIP INDIAN SWEETS ABROAD ?</p>
+                <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>FRETTED ABOUT SHIPPING INDIAN SWEETS ABROAD?</i></p>
                 <div class="col-md-6 col-xs-12" style="padding-top: 7%">
-                    <p class="m-t-sm f-s-30">WHY WORRIES RE, <span style="font-family: Bahnschrift">JUST SHOPPRE!</span></p>
-                    <p class="f-c-white m-t-sm f-s-18">
-                        Whether you are in quest of indian sweets for this Diwali or haeded to a party or jsut gaving on
-                        some Indian snacks, ShoppRe is here to ship your favourite and delicious sweets to your doorstep
-                        & add some extra vibrancy to your Diwali.
+                   <center> <p class="m-t-sm f-s-30">Why Worries Re, <span style="font-family: Bahnschrift">Just ShoppRe!</span></p></center>
+                    <p class="f-c-white m-t-sm f-s-18 text-center">
+                        If you are in the quest for Indian sweets and snacks this Diwali for gifting purposes or just getting them for yourselves,
+                        then ShoppRe is here to ship all your favorite <span class="underline-color">Sweets & Snacks</span> at your doorsteps to add extra vibrancy to your Diwali (🪔)
                     </p>
                 </div>
                 <div class="col-md-6 col-xs-12 no-padding">
+{{--                    <center>--}}
+{{--                        <img src="{{asset('img/images/tape_signup.svg')}}" alt="signup shoppre">  <br>--}}
+{{--                    </center>--}}
+                    <br>
                     <center>
-                        <img src="{{asset('img/images/tape_signup.svg')}}" alt="signup shoppre">  <br>
-                    </center>
-                    <center>
-                        <h18 class="f-s-50 f-c-white  f-w-9">Celebrate Diwali</h18>
-                        <p class="f-s-36 f-c-white f-w-9 ">With ShoppRe.com </p>
+{{--                        <h18 class="f-s-50 f-c-white  f-w-9">Celebrate Diwali</h18>--}}
+{{--                        <p class="f-s-36 f-c-white f-w-9 ">With ShoppRe.com </p>--}}
                         <img src="{{asset('img/diwali/diwali-offer.png')}}" alt="Diwali offer india" > <br><br>
-                        <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-r btn-a-l" target="_blank">Sign UP FREE</a>
+{{--                        <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-g btn-a-l" target="_blank">Sign UP FREE</a>--}}
                         <br>
                         <br>
                     </center>
@@ -113,12 +117,13 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Diwali Sweets, Gifts & more.  Ship with ShoppRe.com</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center">
-                    <div class="">
-                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20I%20Love%20to%20Send%20Diwali,%20Gifts%20and%20Sweets%20from%20India" target="_blank">
-                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >
-                            {{--<span class="font-16">+91-7338208403</span>--}}
-                        </a>
-                    </div>
+                    <p class="no-pad Rakhi-mid-div mar-t-10 f-s-16 txt-center">(Click on BUY NOW & you will be redirected to WhatsApp)</p>
+{{--                    <div class="">--}}
+{{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20I%20Love%20to%20Send%20Diwali,%20Gifts%20and%20Sweets%20from%20India" target="_blank">--}}
+{{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
+{{--                            <span class="font-16">+91-7338208403</span>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
                 </div>
             </div>
             <div class="row text-center">

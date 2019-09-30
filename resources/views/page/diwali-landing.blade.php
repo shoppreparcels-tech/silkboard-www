@@ -79,7 +79,7 @@
                 </center>
             </div>
             <div class=" col-md-12 offer-description">
-                <h4 class="f-s-24 f-c-blue f-w-9"> Our Grand Diwali Offer Is Here! Hurry Up & Take Advantage!</h4>
+                <h4 class="f-s-24 f-c-blue f-w-9"> Our Grand 🪔Diwali Offer Is Here! Hurry Up & Take Advantage!</h4>
                 <br>
                 <p class="header4 p-color-cement">While Indians around the world, not just in
                     the country; are gearing up to celebrate the holy

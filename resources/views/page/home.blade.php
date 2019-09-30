@@ -336,7 +336,7 @@
         <div class="container-fluid fuid-padding pad-t`-40"><br><br>
             <div class="col-md-2 col-xs-12 pad-l-d">
                 <center>
-                    <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">Upcoming <br>
+                    <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">LIVE <br>
                         <span class="f-s-45 f-w-8 f-c-green "> Sale</span></h1>
                     <h4 class="f-s-18 f-c-l-gray txt-a-l">Grab The<br> Running Offers from<br> Indian Stores</h4>
                 </center>

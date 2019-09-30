@@ -31,7 +31,7 @@
                    <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-r btn-a-l " style="background-color: #4285f4">Sign UP FREE</a>
                    <br>
                    <br>
-                   <p class="f-s-15 f-c-l-gray f-w-8">{ 1st SEP to 30th SEP 2019 }</p>
+                   <p class="f-s-15 f-c-l-gray f-w-8">{ 1st OCT to 31st OCT 2019 }</p>
 
                </center>
            </div>
