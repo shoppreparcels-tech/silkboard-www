@@ -118,7 +118,7 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Diwali Sweets, Snacks & more.  Ship for FREE with us!</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center margin-tp">
-                    <p class="no-pad Rakhi-mid-div mar-t-10 f-s-16 txt-center">(Click on BUY NOW & you will be redirected to WhatsApp)</p>
+                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Click on BUY NOW & you will be redirected to WhatsApp)</p>
 {{--                    <div class="">--}}
 {{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20I%20Love%20to%20Send%20Diwali,%20Gifts%20and%20Sweets%20from%20India" target="_blank">--}}
 {{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
