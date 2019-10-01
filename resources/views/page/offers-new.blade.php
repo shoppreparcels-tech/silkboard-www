@@ -188,7 +188,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">FESTIVE SALE</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">PAYDAY SALE</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">

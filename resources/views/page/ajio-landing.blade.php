@@ -41,7 +41,7 @@
                 </div>
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://www.ajio.com" title="AJIO" target="_blank">👉 FESTIVE SALE (40-80% Off) 19th - 30th SEP | Shop AJIO & Ship Worldwide with ShoppRe.</a>
+                        <a href="https://www.ajio.com" title="AJIO" target="_blank">👉 PAYDAY SALE (40-80% Off) 01st Oct - 03rd Oct | Shop AJIO & Ship Worldwide with ShoppRe.</a>
                     </marquee>
                 </div>
             </div>
