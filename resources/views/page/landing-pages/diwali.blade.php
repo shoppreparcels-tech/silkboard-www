@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'Indian sweets online international delivery | Celebrate with ShoppRe')
-@section('description', '')
+@section('title', 'Indian Sweets Online International Delivery | 5% Off')
+@section('description', 'Buy sweets from India and get them delivered at your doorstep.')
 @section('keywords', 'sweets, diwali, dry fruits, shipping from india, international delivery, usa, uk, singapore, australia, canada')
 
 @section('css_style')
@@ -115,10 +115,11 @@
         <div class="container fst-service" style="margin-top: 36px;">
             <div class="row">
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Diwali Sweets, Gifts & more.  Ship with ShoppRe.com</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Diwali Sweets, Gifts & more from India & Ship with ShoppRe</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center margin-tp">
-                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Click on BUY NOW & you will be redirected to WhatsApp)</p>
+                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Online Chat or Click on BUY NOW &
+                        <br>you will be redirected to WhatsApp)</p>
 {{--                    <div class="">--}}
 {{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20I%20Love%20to%20Send%20Diwali,%20Gifts%20and%20Sweets%20from%20India" target="_blank">--}}
 {{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
@@ -139,7 +140,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Soan%20Papdi(200g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -156,7 +157,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Kaju%20Katli(250g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -173,7 +174,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Besan%20Laddu(250g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -190,7 +191,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Doodh%20Burfi(250g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -207,7 +208,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Raisins(250g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -224,7 +225,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Pista(200g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -241,7 +242,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Mamra%20Badam(200g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -258,7 +259,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Cashew(200g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -275,7 +276,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Sohan%20Papdi(250g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -292,7 +293,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Doodh%20Peda(250g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -309,7 +310,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Dalmoth(100g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -326,7 +327,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Chow%20Chow(100g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -343,7 +344,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Pista%20Biscuits(150g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -360,7 +361,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Jeera%20Biscuits(150g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -377,7 +378,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Pista%20Stick(150g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -394,188 +395,137 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Masala%20Biscuits(150g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="mar-t-25">
-                <div class="txt-center">
-                        <button type="button" class="btn btn-warning bord-rad-5 margin-r-10">
-                            <a href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
-                            <p class="btn-md">Estimate Shipping Rate</p>
-                            </a>
-                        </button>
-                        <button type="button" class="btn btn-success bord-rad-5 margin-r-10">
-                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Can%20i%20Send%20Diwali,%20Gifts%20and%20Sweets%20from%20India?" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
-                            <p class="btn-md">Message Us On WhatsApp</p>
-                            </a>
-                        </button>
-                </div>
-            </div>
-{{--            <div class=" col-md-12 no-pad"><br>--}}
-{{--                <center>--}}
-{{--                    <h2 class="p-color-cement-dark font-weight-900 ">Onam shopping guide with the best trend and style from India</h2>--}}
-{{--                </center>--}}
-{{--                <br>--}}
-{{--                <ul>--}}
-{{--                    <li>--}}
-{{--                        <h4><a href="#What_is_Onam"> What is Onam and how to do Onam shopping?</a></h4>--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                       <h4><a href="#How_to_shop">How to shop for Onam from abroad?</a></h4>--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <h4><a href="#How_to_save">How to save some extra cash on shopping for Onam?</a></h4>--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <h4><a href="#What_to_purchase">What to purchase for your daughter for Onam?</a></h4>--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <h4><a href="#Indecisive_about">Indecisive about what to wear on Onam for women?</a></h4>--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <h4><a href="#How_to_shop_Balaramapuram">How to shop Balaramapuram Kaithari sarees from India?</a></h4>--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <h4><a href="#What_should_men">What should men wear for Onam?</a></h4>--}}
-{{--                    </li>--}}
-{{--                </ul>--}}
-{{--                <br>--}}
-{{--                <div id="What_is_Onam">--}}
-{{--                    <h2  --}}{{--class="f-s-18 f-c-gray f-w-9"--}}{{-- class="p-color-cement-dark font-weight-900 ">What is Onam and how to do Onam shopping?</h2><br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        Onam is one main crop harvesting festival of Kerala. It is also celebrated with the same vigor and vitality outside India as well.--}}
-{{--                        This prominent festival is full of folk dance, music, vigorous games, grand processions, elaborately adorned Pookalam, delicious Onam sadya, thrilling Snake boat race, and unique Kaikottikali dance.--}}
-{{--                        And we have curated the latest trends for Onam shopping in this article.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-{{--                <br>--}}
-{{--                <div id="How_to_shop">--}}
-{{--                    <h2 class="p-color-cement-dark font-weight-900 ">How to shop for Onam from abroad?</h2>--}}
-{{--                    <br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        To celebrate this festival of love, dignity, reverence, and dharma, you do not need to do much. You can easily do Onam special online shopping from the comfort of your home. Shop for beautiful traditional festive attire for you and your family online through ShoppRe.--}}
-{{--                        Despite where in the world you are, we will deliver your package to you within 3-6 days.--}}
-{{--                        And if, you have no idea what to purchase, then sit back and continue reading because here is a complete guide for Onam shopping online.--}}
-{{--                    </p>--}}
-{{--                    <br>--}}
-{{--                    <h2 class="p-color-cement-dark font-weight-900 ">Here the easy steps you can follow to do international Onam shopping</h2>--}}
-{{--                    <ul>--}}
-{{--                        <li class="onam-list">Sign up at ShoppRe.com and you will get a virtual address.</li>--}}
-{{--                        <li class="onam-list">Shop for these traditional festive wears from any Indian website</li>--}}
-{{--                        <li class="onam-list">Provide the virtual address given by ShoppRe.com at the time of checking out using COD option.</li>--}}
-{{--                        <li class="onam-list">We will collect your order and pay for it.</li>--}}
-{{--                        <li class="onam-list">Once we receive all of your order we will ship it after you request it to ship.</li>--}}
-{{--                        <li class="onam-list">Then we pack and ship the consolidated package at your address abroad. And you receive it within 3-6 days.</li>--}}
-{{--                    </ul>--}}
-{{--                </div>--}}
-{{--                <div id="How_to_save">--}}
-{{--                    <h2  --}}{{--class="f-s-18 f-c-gray f-w-9"--}}{{-- class="p-color-cement-dark font-weight-900 ">How to save some extra cash on shopping for Onam?</h2><br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        You can save so much with Onam online shopping offers at various websites.--}}
-{{--                        There are wondrous discounts going on at the original price of the products so shop save some cash.--}}
-{{--                        You can even save some more if you choose to shop in groups.--}}
-{{--                        We offer a fantastic rebate at shipping to everyone <a href="onam-community-shipping-offer" target="_blank">who shops in a group or community</a>.--}}
-{{--                        Avail all the benefits and save as much as you can while shopping for all your festive essentials.--}}
-{{--                        And 80% less shipping charges are always there with ShoppRe.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-{{--                <div id="What_to_purchase">--}}
-{{--                    <h2  --}}{{--class="f-s-18 f-c-gray f-w-9"--}}{{-- class="p-color-cement-dark font-weight-900 ">What to purchase for your daughter for Onam?</h2><br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        Give your daughter an ethnic attire that she can flaunt.--}}
-{{--                        A complete look with Kasavu work blouse and tissue check Pavadai will make your princess look regal in every aspect.--}}
-{{--                        She will love and adore this ethnic way of dressing on special occasions.--}}
-{{--                        If modern with a hint of ethnicity is your desire for your little girl.--}}
-{{--                        Then what you need is something different.--}}
-{{--                        Shop from this wide range of super gorgeous and cute collection of kids girls Kerala ethnic off white frocks with a golden border or Kasavu and designer borders.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-{{--                <div id="Indecisive_about">--}}
-{{--                    <h2  --}}{{--class="f-s-18 f-c-gray f-w-9"--}}{{-- class="p-color-cement-dark font-weight-900 ">Indecisive about what to wear on Onam for women?</h2><br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        A traditional Kasavu saree from Kerala is a no brainer to celebrate Onam ostentatiously from an array of Kerala sarees online.--}}
-{{--                        These Kerala sarees spell elegance and grandeur of grand festivals like Onam.--}}
-{{--                        The simple and magnificent cream saree with glittering golden border is a heart-stealing delight to wear.--}}
-{{--                        Don't miss the opportunity to get these gorgeous Kerala sarees online at a discount never seen before.--}}
-{{--                        These sarees have a spiritual appeal and a look that oozes placidness so do onam sarees shopping.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-{{--                <div id="How_to_shop_Balaramapuram">--}}
-{{--                    <h2  --}}{{--class="f-s-18 f-c-gray f-w-9"--}}{{-- class="p-color-cement-dark font-weight-900 ">How to shop Balaramapuram Kaithari sarees from India?</h2><br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        Another option is the Balaramapuram Kaithari for Onam saree.--}}
-{{--                        These sarees are a handwoven piece of art.--}}
-{{--                        Their unique style of weaving coupled with the unique weft processing makes the fabric fine and comfortable to wear.--}}
-{{--                        Exclusive cotton fabric with pure Zari work border endows it with six yards of luxury.--}}
-{{--                        You can shop for these beauties through ShoppRe and get them delivered at your doorstep.--}}
-{{--                        We offer amazing discounts on shipping worldwide.--}}
-{{--                        These sarees are best for onam sarees online shopping.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-{{--                <div id="What_should_men">--}}
-{{--                    <h2  --}}{{--class="f-s-18 f-c-gray f-w-9"--}}{{-- class="p-color-cement-dark font-weight-900 ">What should men wear for Onam?</h2><br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        Finding the perfect attire for Onam was never this easy.--}}
-{{--                        Go for a simple dhoti with a golden border and a plain white shirt.--}}
-{{--                        Here simplicity is the key.--}}
-{{--                        Celebrate the opulence of Onam in this traditional look with pride and joy.--}}
-{{--                        Shop these exclusive dhotis at rebate going on right now for your Onam shopping online.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-
-{{--            <br>--}}
-{{--            <br>--}}
-{{--                <div>--}}
-{{--                <center><a href="{{route('customer.register')}}" class="btn btn-s-r btn-a-l btn-b-r" target="_blank">Sign Up Now for FREE!</a></center>--}}
+{{--            <div class="mar-t-25">--}}
+{{--                <div class="txt-center">--}}
+{{--                        <button type="button" class="btn btn-warning bord-rad-5 margin-r-10">--}}
+{{--                            <a href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">--}}
+{{--                            <p class="btn-md">Estimate Shipping Rate</p>--}}
+{{--                            </a>--}}
+{{--                        </button>--}}
+{{--                        <button type="button" class="btn btn-success bord-rad-5 margin-r-10">--}}
+{{--                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Can%20i%20Send%20Diwali,%20Gifts%20and%20Sweets%20from%20India?" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">--}}
+{{--                            <p class="btn-md">Message Us On WhatsApp</p>--}}
+{{--                            </a>--}}
+{{--                        </button>--}}
 {{--                </div>--}}
 {{--            </div>--}}
-{{--        </div>--}}
-    </section>
-    <section class="chris-benefits">
-        <div class="container" >
-            <center>
-                <h2 class="header1 p-color-cement-dark font-30">Featured Services & Benefits</h2>
-            </center>
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <div class="panel ">
-                        <ul>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Personal Shopper</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>20-Day Free Storage</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Consolidation</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Repackaging</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="panel ">
-                        <ul>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Affordable Rates</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned Copies Document-couriers</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-discount</span></li>
+{{--            <div class=" col-md-12 no-pad"><br>--}}
+            <br>
+            <br>
+                <center>
+                    <h2 class="p-color-cement-dark font-weight-900 ">Diwali Jamboree all over the world | Send Sweets abroad from India with ShoppRe
+                    </h2>
+                </center>
+                <br>
+                    <p class="header4 p-color-cement">
+                        Waking up from the hustling noise, crackers, and children playing is the testament of preparations going on in every Indian house for Diwali celebrations.
+                        And every Indian feels the same zeal and happiness for this grand festival of <i>hope, light, and prosperity</i> that marks the triumph of virtue over vice.
+                    </p> <br>
+                    <p class="header4 p-color-cement">
+                        It doesn't matter where in the world we are, Indians always find a way to celebrate Diwali and many major countries like the USA, Australia, Canada, etc also
+                        celebrate Diwali lavishly. And amidst this merriment, there is this little package of Indian sweets swathed in love that is
+                        sent from home that brings a smile on the face of an Indian far from home. </p> <br>
+                <p class="header4 p-color-cement">
+                        So buy <strong>Indian sweet online from India</strong> and send it to your family and friends within 3-8 days, anywhere in the world with ShoppRe, and enjoy up to 80% low shipping rates.
+                        You can easily order sweets for yourself or even buy sweets from India and get them delivered at your doorstep worldwide.
 
-                        </ul>
-                    </div>
+                    </p>
+            <br>
+                <div id="How_to_save">
+                    <h2  class="f-s-20 f-c-blue f-w-9" class="p-color-cement-dark font-weight-900 ">Online indian sweets delivery in USA</h2>
+                    <p class="header4 p-color-cement">
+                        The splendor of the Diwali celebration is such that even the white house has been celebrating it for so many years now. The revelry of the Indian diaspora
+                        is at its zenith and it begins long before Diwali with fairs, parties, lights, visits to temples to pay their obeisance to the gods, and various vivacious rituals.
+                        We do online Indian sweets delivery in USA to complete your celebrations.
+                    </p>
                 </div>
-                <div class="col-sm-4">
-                    <div class="panel ">
-                        <ul>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Photo Updates</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Wallet Cashback</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Package Return Services</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Product Recommendations</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <br/><br/>
+            <br>
+            <div id="How_to_save">
+                <h2  class="f-s-20 f-c-blue f-w-9" class="p-color-cement-dark font-weight-900 ">Export sweets from India to Australia</h2>
+                <p class="header4 p-color-cement">
+                    Many cultural and traditional celebrations mark the advent of the Diwali festival in all cities of Australia like Melbourne and Sydney where its thriving
+                    Indian population fills the air with jovial activities. There are long rows of oil lamps outside houses to welcome the Hindu gods and celebrate this auspicious
+                    festival of light and delight. You can order Indian sweets online Australia with us.
+                </p>
             </div>
-        </div>
+            <br>
+            <div id="How_to_save">
+                <h2  class="f-s-20 f-c-blue f-w-9" class="p-color-cement-dark font-weight-900 ">Indian sweets online international delivery Canada</h2>
+                <p class="header4 p-color-cement">
+                    Many Canadians celebrate this festival of lights with full vigor and zeal, and this joyous festival attracts plenty of media and public attention.
+                    You can order Indian sweets online from Canada with us to serve during corporate Diwali dinners, carnivals or gatherings with elaborate firework displays
+                    hosted by various community groups, businesses, schools, and associations to celebrate Diwali.
+                </p>
+            </div>
+            <br>
+            <div id="How_to_save">
+                <h2  class="f-s-20 f-c-blue f-w-9" class="p-color-cement-dark font-weight-900 ">Send Sweets to Malaysia Online</h2>
+                <p class="header4 p-color-cement">
+                    Diwali in Malaysia is celebrated by people of all races and cultures inhabiting there. It is also a public holiday so the Indian diaspora can
+                    celebrate this grand festival of light and prosperity with all the pomp and gaiety that they used to do while their time in India.
+                    Get a chance to take a trip back memory lane and order Indian sweets online from Malaysia with ShoppRe.
+                </p>
+            </div>
+            <br>
+            <div id="How_to_save">
+                <h2  class="f-s-20 f-c-blue f-w-9" class="p-color-cement-dark font-weight-900 ">Order Indian Mithai Online in Singapore from India </h2>
+                <p class="header4 p-color-cement">
+                    Little India in Singapore is the kernel of Diwali celebrations. People get into the spirit of the festival of lights and discover vibrant Indian culture through it.
+                    Serangoon Road is lit with lights, and you can see fireworks, candles being lit, beautiful rangoli decorations and liveliness of people in the night market.
+                    Buy Indian sweets online from Singapore and add more joy to celebrations.
+                </p>
+            </div>
+            <br>
     </section>
+{{--    <section class="chris-benefits">--}}
+{{--        <div class="container" >--}}
+{{--            <center>--}}
+{{--                <h2 class="header1 p-color-cement-dark font-30">Featured Services & Benefits</h2>--}}
+{{--            </center>--}}
+{{--            <div class="row text-center">--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="panel ">--}}
+{{--                        <ul>--}}
+{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Personal Shopper</span></li>--}}
+{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>20-Day Free Storage</span></li>--}}
+{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Consolidation</span></li>--}}
+{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Repackaging</span></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="panel ">--}}
+{{--                        <ul>--}}
+{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Affordable Rates</span></li>--}}
+{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>--}}
+{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned Copies Document-couriers</span></li>--}}
+{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-discount</span></li>--}}
+
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="panel ">--}}
+{{--                        <ul>--}}
+{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Photo Updates</span></li>--}}
+{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Wallet Cashback</span></li>--}}
+{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Package Return Services</span></li>--}}
+{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Product Recommendations</span></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <br/><br/>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
+    <br>
     <br>
     <br>
     <section class="d-contact-details-section">

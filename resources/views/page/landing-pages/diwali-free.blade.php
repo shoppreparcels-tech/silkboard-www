@@ -118,7 +118,8 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Diwali Sweets, Snacks & more.  Ship for FREE with us!</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center margin-tp">
-                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Click on BUY NOW & you will be redirected to WhatsApp)</p>
+                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Online Chat or Click on BUY NOW &
+                        <br>you will be redirected to WhatsApp)</p>
 {{--                    <div class="">--}}
 {{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20I%20Love%20to%20Send%20Diwali,%20Gifts%20and%20Sweets%20from%20India" target="_blank">--}}
 {{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
@@ -140,7 +141,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha:%20Buy%20for%20me%20Soan%20Papdi(200g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -159,7 +160,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Kaju%20Katli(250g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -178,7 +179,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Besan%20Laddu(250g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -197,7 +198,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Doodh%20Burfi(250g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -216,7 +217,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Raisins(250g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -235,7 +236,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Pista(200g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -254,7 +255,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Mamra%20Badam(200g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -273,7 +274,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Cashew(200g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -291,7 +292,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Sohan%20Papdi(250g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -309,7 +310,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Doodh%20Peda(250g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -327,7 +328,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Dalmoth(100g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -345,7 +346,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Chow%20Chow(100g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -363,7 +364,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Pista%20Biscuits(150g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -381,7 +382,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Jeera%20Biscuits(150g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -399,7 +400,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Pista%20Stick(150g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
@@ -417,7 +418,7 @@
                         </div>
                         <div class="check-price-padd">
                             <a href="https://api.whatsapp.com/send?phone=919148357733&text=Hi%20Pratheeksha;%20Buy%20for%20me%20Masala%20Biscuits(150g)" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-r btn-h-40">Buy Now</button>
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>

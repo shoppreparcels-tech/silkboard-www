@@ -1,14 +1,14 @@
 @extends('layout')
 
-@section('title', 'Contact Support | Customer Care 24*7 | Shipping FAQ - ShoppRe.com')
+@section('title', 'Contact Support | Customer Care 24*7 | Shipping FAQ - ShoppRe')
 @section('description', 'Have any questions or concerns? About your Purchase, Tracking, Payment, Returns & Shipping services. Contact Our Customer Service at +91-8277919191.')
 @section('keywords', 'about your package, shipping services, helpline number, start live chat, shipping faq, team shoppre, 8277919191')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/contact" />
-    <meta property="og:title" content="Customer Support ShoppRe | International Courier & Consolidation Services"/>
+    <meta property="og:title" content="Customer Support ShoppRe.com | Call: +91-8277919191"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:description" content="Have any questions or concerns? about your purchase or shipping services. Contact our customer care or chat specialists & FAQ resources are available 24*7"/>
+    <meta property="og:description" content="Have any questions or concerns? about your purchase or shipping services. Contact our customer care or online chat specialists & FAQ resources are available 24*7"/>
     <meta property="og:url" content="https://www.shoppre.com/contact"/>
     <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
     <meta property="og:site_name" content="ShoppRe"/>
