@@ -66,7 +66,7 @@
                             <a href="https://www.amazon.in/b?node=3419926031&pf_rd_p=86b570f4-7fdc-444c-86fb-e4daf032f742&pf_rd_r=M6HA0X2998QBR444DC2Y" title="Amazon" target="_blank">1. Amazon.in 👉Great Indian Festival</a> |
                             <a href="https://clnk.in/jC3o" title="flipkart" target="_blank">2. Flipkart.com 👉Big Billion Days </a> |
                             <a href="https://clnk.in/jC2G" title="ajio" target="_blank">3. Myntra.com 👉Big Fashion Days</a> |
-                            <a href="https://www.ajio.com" title="ajio" target="_blank">4. AJIO.com 👉PAYDAY SALE: 40-80% OFF</a>
+                            <a href="https://www.ajio.com" title="ajio" target="_blank">4. AJIO.com 👉100 DAYS OF NEW: 40-80% OFF</a>
                         </marquee>
                     </div>
                     <center>

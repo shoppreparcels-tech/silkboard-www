@@ -104,7 +104,7 @@
         </div>
         <div class="container">
             <br/>
-            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (SEPTEMBER-2019 Sale):</h3>
+            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (OCTOBER-2019 Sale):</h3>
 {{--            <div>--}}
 
 {{--                <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
@@ -188,7 +188,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">PAYDAY SALE</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">100 DAYS OF NEW</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.ajio.com" target="_blank">

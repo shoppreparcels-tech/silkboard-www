@@ -39,7 +39,7 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - SEPTEMBER 2019 SALE
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - OCTOBER 2019 SALE
                         <br> [ 👉 <a href="/flipkart-big-billion-days-sale-offers-top-brands-stores">The Big Billion Day Sale</a> 29th Sep to 04th OCT ]</h2>
                 </div>
             </div>
