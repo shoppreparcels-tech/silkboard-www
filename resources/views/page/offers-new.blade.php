@@ -115,19 +115,19 @@
 
             <br/>
             <div class="row">
-                <div class="col-md-3 col-xs-12">
-                    <center>
-                        <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Billion Days Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up To 90% Off</h5>
-                            <div class="ecomSmallBox">
-                                <a href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
-                                </a>
-                            </div>
-                        </div>
-                    </center>
-                </div>
+{{--                <div class="col-md-3 col-xs-12">--}}
+{{--                    <center>--}}
+{{--                        <div class="EcomBox">--}}
+{{--                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Billion Days Sale</h4>--}}
+{{--                            <h5 class="header6 p-color-cement font-weight-900">Up To 90% Off</h5>--}}
+{{--                            <div class="ecomSmallBox">--}}
+{{--                                <a href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">--}}
+{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </center>--}}
+{{--                </div>--}}
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
@@ -168,23 +168,6 @@
                         </div>
                     </center>
                 </div>
-            </div>
-            <br/>
-            <div class="row">
-                <div class="col-md-3 col-xs-12">
-                    <center>
-                        <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">big fashion days</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up To 80% Discount</h5>
-                            <br>
-                            <div class="ecomSmallBox">
-                                <a href="/myntra-big-fashion-days-sale-shop-online-india" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5997a62748742.png"/>
-                                </a>
-                            </div>
-                        </div>
-                    </center>
-                </div>
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
@@ -198,19 +181,37 @@
                         </div>
                     </center>
                 </div>
-                <div class="col-md-3 col-xs-12">
-                    <center>
-                        <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Great Indian Festival</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">29th SEP - 04th OCT</h5>
-                            <div class="ecomSmallBox" style="height: 94px;">
-                                <a href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>
-                                </a>
-                            </div>
-                        </div>
-                    </center>
-                </div>
+            </div>
+            <br/>
+            <div class="row">
+{{--                <div class="col-md-3 col-xs-12">--}}
+{{--                    <center>--}}
+{{--                        <div class="EcomBox">--}}
+{{--                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">big fashion days</h4>--}}
+{{--                            <h5 class="header6 p-color-cement font-weight-900">Up To 80% Discount</h5>--}}
+{{--                            <br>--}}
+{{--                            <div class="ecomSmallBox">--}}
+{{--                                <a href="/myntra-big-fashion-days-sale-shop-online-india" target="_blank">--}}
+{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5997a62748742.png"/>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </center>--}}
+{{--                </div>--}}
+
+{{--                <div class="col-md-3 col-xs-12">--}}
+{{--                    <center>--}}
+{{--                        <div class="EcomBox">--}}
+{{--                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Great Indian Festival</h4>--}}
+{{--                            <h5 class="header6 p-color-cement font-weight-900">29th SEP - 04th OCT</h5>--}}
+{{--                            <div class="ecomSmallBox" style="height: 94px;">--}}
+{{--                                <a href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">--}}
+{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </center>--}}
+{{--                </div>--}}
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
@@ -224,9 +225,6 @@
                         </div>
                     </center>
                 </div>
-            </div>
-            <br>
-            <div class="row">
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
@@ -266,6 +264,9 @@
                         </div>
                     </center>
                 </div>
+            </div>
+            <br>
+            <div class="row">
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
@@ -279,9 +280,6 @@
                         </div>
                     </center>
                 </div>
-            </div>
-            <br>
-            <div class="row">
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
@@ -321,6 +319,9 @@
                         </div>
                     </center>
                 </div>
+            </div>
+            <br>
+            <div class="row">
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">

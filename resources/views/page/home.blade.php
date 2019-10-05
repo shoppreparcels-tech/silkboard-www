@@ -165,7 +165,6 @@
     </style>
 
 @endsection
-
 @section('content')
     <main class="div-main" role="main">
         <div id="myModal-offer" class="modal fade" role="dialog">
@@ -332,97 +331,97 @@
     <!-- Main container -->
 
     <!-- latest shipments details-->
-    <section>
-        <div class="container-fluid fuid-padding pad-t`-40"><br><br>
-            <div class="col-md-2 col-xs-12 pad-l-d">
-                <center>
-                    <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">LIVE <br>
-                        <span class="f-s-45 f-w-8 f-c-green "> Sale</span></h1>
-                    <h4 class="f-s-18 f-c-l-gray txt-a-l">Grab The<br> Running Offers from<br> Indian Stores</h4>
-                </center>
-            </div>
-            <div class="col-md-10 col-xs-12 pad-b-30">
-                <div class="slider" id="shippingCard">
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://clnk.in/jC2G" title="Click to Know More" target="_blank">
-                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
-                        <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">BIG FASHION DAYS</h4></div>
-                        </div>
-                        <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Up To 80% Discount</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">29th Sep - 04th Oct</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Myntra.com</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Myntra's Big Fashion Days</span> & Ship @Cheap-Cost Internationally</p>
-                        </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://linksredirect.com/?cid=52423&subid=hpage&source=linkkit&url=https%3A%2F%2Fwww.amazon.in%2Fb%3Fnode%3D3419926031%26pf_rd_p%3D86b570f4-7fdc-444c-86fb-e4daf032f742%26pf_rd_r%3D5HZ9Z0NGQNCK508N7EG2" title="Click Here" target="_blank">
-                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
-                        <div class="pad-5 bgr-c-bl">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">GREAT INDIAN FESTIVAL</h4></div>
-                        </div>
-                        <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40% - 90% OFF</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">29th Sep - 04th Oct</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Amazon.in</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Amazon Great Indian Festival</span> & Get Delivered Worldwide with us.</p>
-                        </div>
+{{--    <section>--}}
+{{--        <div class="container-fluid fuid-padding pad-t`-40"><br><br>--}}
+{{--            <div class="col-md-2 col-xs-12 pad-l-d">--}}
+{{--                <center>--}}
+{{--                    <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">LIVE <br>--}}
+{{--                        <span class="f-s-45 f-w-8 f-c-green "> Sale</span></h1>--}}
+{{--                    <h4 class="f-s-18 f-c-l-gray txt-a-l">Grab The<br> Running Offers from<br> Indian Stores</h4>--}}
+{{--                </center>--}}
+{{--            </div>--}}
+{{--            <div class="col-md-10 col-xs-12 pad-b-30">--}}
+{{--                <div class="slider" id="shippingCard">--}}
+{{--                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">--}}
+{{--                        <a href="https://clnk.in/jC2G" title="Click to Know More" target="_blank">--}}
+{{--                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >--}}
+{{--                        <div class="pad-5 bgr-c-gl">--}}
+{{--                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">BIG FASHION DAYS</h4></div>--}}
+{{--                        </div>--}}
+{{--                        <div class="des-div-rakhi text-center"><br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Up To 80% Discount</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">29th Sep - 04th Oct</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Myntra.com</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Myntra's Big Fashion Days</span> & Ship @Cheap-Cost Internationally</p>--}}
+{{--                        </div>--}}
+{{--                        </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">--}}
+{{--                        <a href="https://linksredirect.com/?cid=52423&subid=hpage&source=linkkit&url=https%3A%2F%2Fwww.amazon.in%2Fb%3Fnode%3D3419926031%26pf_rd_p%3D86b570f4-7fdc-444c-86fb-e4daf032f742%26pf_rd_r%3D5HZ9Z0NGQNCK508N7EG2" title="Click Here" target="_blank">--}}
+{{--                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">--}}
+{{--                        <div class="pad-5 bgr-c-bl">--}}
+{{--                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">GREAT INDIAN FESTIVAL</h4></div>--}}
+{{--                        </div>--}}
+{{--                        <div class="des-div-rakhi text-center"><br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40% - 90% OFF</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">29th Sep - 04th Oct</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Amazon.in</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Amazon Great Indian Festival</span> & Get Delivered Worldwide with us.</p>--}}
+{{--                        </div>--}}
 
-                    </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://clnk.in/jC3o" title="Know More" target="_blank">
-                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
-                        <div class="pad-5 bgr-c-gr">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">THE BIG BILLION DAYS</h4></div>
-                        </div>
-                        <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">From ₹49 or Up to 90% Off</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">29th Sep - 04th Oct</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Flipkart.com</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9"> Billion</span> & Ship @Cheap-Cost Internationally, Door-to-door Delivery.</p>
-                        </div>
+{{--                    </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">--}}
+{{--                        <a href="https://clnk.in/jC3o" title="Know More" target="_blank">--}}
+{{--                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">--}}
+{{--                        <div class="pad-5 bgr-c-gr">--}}
+{{--                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">THE BIG BILLION DAYS</h4></div>--}}
+{{--                        </div>--}}
+{{--                        <div class="des-div-rakhi text-center"><br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">From ₹49 or Up to 90% Off</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">29th Sep - 04th Oct</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Flipkart.com</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9"> Billion</span> & Ship @Cheap-Cost Internationally, Door-to-door Delivery.</p>--}}
+{{--                        </div>--}}
 
-                    </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://clnk.in/jC3y" title="Click for Offer Details" target="_blank">
-                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
-                        <div class="pad-5 bgr-c-br">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">100 DAYS OF NEW</h4></div>
-                        </div>
-                        <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Extra 24% OFF*</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">SHOP</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">AJIO.com</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Tops & Dresses, Fusion Wear, Heels & Flats, Bags & Belts, Indie Sarees </p>
-                        </div>
-                    </div>
-                        </a>
-                    </div>
-                    </div>
-                </div>
-                <br>
-            </div>
-        </div>
-    </section>
+{{--                    </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">--}}
+{{--                        <a href="https://clnk.in/jC3y" title="Click for Offer Details" target="_blank">--}}
+{{--                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">--}}
+{{--                        <div class="pad-5 bgr-c-br">--}}
+{{--                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">FESTIVE SALE</h4></div>--}}
+{{--                        </div>--}}
+{{--                        <div class="des-div-rakhi text-center"><br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40% - 80% OFF</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">19th Sep - 30th Sep</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">AJIO.com</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7">Tops & Dresses, Fusion Wear, Heels & Flats, Bags & Belts, Indie Sarees </p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <br>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
     <section>
         <div class="container">
             {{--<div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">--}}
