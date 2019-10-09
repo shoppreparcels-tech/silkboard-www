@@ -40,17 +40,17 @@
             <div class="row">
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - OCTOBER 2019 SALE
-                        <br> [ 👉 <a href="/flipkart-big-billion-days-sale-offers-top-brands-stores">The Big Billion Day Sale</a> 29th Sep to 04th OCT ]</h2>
+                        <br> [ 👉 <a href="https://www.flipkart.com/big-diwali-sale-store" target="_blank">Big Diwali Sale</a> 12th to 16th OCT ]</h2>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/fashion-weekend-monsoon-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/fashion-weekend-brand-2019-store" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-                                <h2>Fashion Top Brands</h2>
+                                <h2>Get Festive Ready</h2>
                                 <br>
-                                <p>From ₹299</p>
-                                <p>50% - 80% Off</p>
+                                <p>T-shirts, Kurtas, Watches..,</p>
+                                <p>Up To 70% Off</p>
                                 <p>Explore Now</p>
                         </div>
                     </a>

@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', '29th SEP - 4th OCT, Amazon Great Indian Festival 2019 | ShoppRe.com')
+@section('title', '13th - 17th OCT, Amazon Great Indian Festival 2019 | ShoppRe.com')
 @section('description', 'Shopping for Amazon.in Great Indian Sale. ShoppRe will deliver your package to you within 3-6 days at up to 80% low shipping rates, Worldwide.')
 @section('keywords', 'amazon.in, great indian sale, offers today, upcoming sale, online shopping, festival, mobiles, clothes, cashback, pay')
 
@@ -56,13 +56,13 @@
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                        class="startsValidValue"> 29th Sep 2019</span></p>
+                                        class="startsValidValue"> 13th Oct 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                        class="startsValidValue"> 04th Oct 2019</span></p>
+                                        class="startsValidValue"> 17th Oct 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
@@ -76,24 +76,24 @@
             </div>
             <div class=" col-md-12 pad-25">
                 <p class="f-s-26 f-c-gray f-w-9 text-center">
-                    <strong>Amazon Great Indian Sale 2019: 1st to 4th October 2019</strong>
+                    <strong>Amazon Great Indian Sale 2019: 13th to 17th October 2019</strong>
                 </p>
                                 <br>
                 <p class="header4 p-color-cement">
                     The six day extravaganza will bring with it, blockbuster deals, exciting offers and amazing discounts that everyone is eager to avail for the festive season shopping.
                     <a href="https://www.amazon.in/b?node=3419926031&pf_rd_p=8e899768-4b0c-49ba-ba35-67cf18c0e0ec&pf_rd_r=7C04YS7872BK443RS4H0"><i>The Amazon Great Indian Festival Sale</i></a>
-                    will be happening from <strong>29th September to 4th October 2019</strong>, so you can mark your calendar for the dates and clear your schedule,
+                    will be happening from <strong>13th to 17th October 2019</strong>, so you can mark your calendar for the dates and clear your schedule,
                     for it is the biggest Sale of the year.
                 </p>
                 <br>
                 <p class="f-s-20 f-c-d-greay f-w-9">
-                    The Sale starts early exclusively for prime members- from 12 noon, 28th September.
+                    The Sale starts early exclusively for prime members- from 12 noon, 12th October.
                 </p>
                 <br>
                 <p class="header4 p-color-cement">
                     You better buckle up for this thrill ride as Amazon is back with the grand sale and superb offers once again this year for its customers, so shop without giving it a second
                     thought for many categories like <i>fashion, apparel, electronics, mobile phones, laptops, home appliances, and many more</i> from the best national and international brands,
-                    during the epic Amazon Great Indian Sale 2019 for six whole days. <br>
+                    during the epic Amazon Great Indian Sale 2019 for five whole days. <br>
                     It will be like a grand festival in itself where users can shop whatever their hearts desire at cheap prices that are affordable.
                 </p>
                 <br>

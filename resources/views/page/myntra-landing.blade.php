@@ -69,11 +69,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/growth/bfd19-homepage" target="_blank"><div class="shopandship ">
-                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">🛍️ BIG FASHION DAYS</h2>
+                    <a href="https://www.myntra.com/shop/fashionutsav-prebuzz-oct19" target="_blank"><div class="shopandship ">
+                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">🛍️ FASHIONOTSAV</h2>
                             <br/>
-                            <p>Up To 80% Discount</p>
-                            <p>29th SEP - 04th OCT</p>
+                            <p>50 - 80% Off</p>
+                            <p>12th - 15th OCT</p>
                             <p>👉 Explore Now</p>
                         </div></a>
                 </div>
@@ -114,7 +114,7 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/">Shop from Myntra.com</a></span> & Get ₹200 discount on your 1st International Shipment.
+                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">Shop from Myntra.com</a></span> & Get ₹200 discount on your 1st International Shipment.
                             </marquee>
                    <center>
                        <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">

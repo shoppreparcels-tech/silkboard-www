@@ -47,6 +47,7 @@
             </div>
         </div>
     </section>
+
     <section class="delivery">
         <div class="container">
             <br>
@@ -105,29 +106,21 @@
         <div class="container">
             <br/>
             <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (OCTOBER-2019 Sale):</h3>
-{{--            <div>--}}
-
-{{--                <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
-{{--                    <a href="https://m.shoppre.com/send-rakhi-online-worldwide"--}}
-{{--                       title="Rakhi" target="_blank">Send Rakhi Online from India 👉 <span class="f-s-16 f-c-red f-w-9">Shipping Price Starts from  ₹316/-</span> T&C* (15th July - 25th August 2019)</a>--}}
-{{--                    </marquee>--}}
-{{--            </div>--}}
-
             <br/>
             <div class="row">
-{{--                <div class="col-md-3 col-xs-12">--}}
-{{--                    <center>--}}
-{{--                        <div class="EcomBox">--}}
-{{--                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Billion Days Sale</h4>--}}
-{{--                            <h5 class="header6 p-color-cement font-weight-900">Up To 90% Off</h5>--}}
-{{--                            <div class="ecomSmallBox">--}}
-{{--                                <a href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">--}}
-{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>--}}
-{{--                                </a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </center>--}}
-{{--                </div>--}}
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Diwali Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">12th - 16th OCT</h5>
+                            <div class="ecomSmallBox">
+                                <a href="https://www.flipkart.com/big-diwali-sale-store" target="_blank">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
@@ -168,6 +161,9 @@
                         </div>
                     </center>
                 </div>
+            </div>
+            <br/>
+            <div class="row">
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
@@ -181,37 +177,34 @@
                         </div>
                     </center>
                 </div>
-            </div>
-            <br/>
-            <div class="row">
-{{--                <div class="col-md-3 col-xs-12">--}}
-{{--                    <center>--}}
-{{--                        <div class="EcomBox">--}}
-{{--                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">big fashion days</h4>--}}
-{{--                            <h5 class="header6 p-color-cement font-weight-900">Up To 80% Discount</h5>--}}
-{{--                            <br>--}}
-{{--                            <div class="ecomSmallBox">--}}
-{{--                                <a href="/myntra-big-fashion-days-sale-shop-online-india" target="_blank">--}}
-{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5997a62748742.png"/>--}}
-{{--                                </a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </center>--}}
-{{--                </div>--}}
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">fashionotsav</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">12th - 15th OCT</h5>
+                            <br>
+                            <div class="ecomSmallBox">
+                                <a href="https://www.myntra.com/shop/fashionutsav-prebuzz-oct19" target="_blank">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5997a62748742.png"/>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
 
-{{--                <div class="col-md-3 col-xs-12">--}}
-{{--                    <center>--}}
-{{--                        <div class="EcomBox">--}}
-{{--                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Great Indian Festival</h4>--}}
-{{--                            <h5 class="header6 p-color-cement font-weight-900">29th SEP - 04th OCT</h5>--}}
-{{--                            <div class="ecomSmallBox" style="height: 94px;">--}}
-{{--                                <a href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">--}}
-{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>--}}
-{{--                                </a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </center>--}}
-{{--                </div>--}}
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Great Indian Festival</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">13th - 17th OCT</h5>
+                            <div class="ecomSmallBox" style="height: 94px;">
+                                <a href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
@@ -228,10 +221,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Diwali Lighting</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Starting ₹199</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Diwali Gifting Store</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Starting ₹499</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.snapdeal.com/products/seasonal-lighting?sort=plrty&q=Type_s%3ADiwali%20Lights%5ELED%20Strips%5ERotating%20Light%5EString%20Lights%7ChpsaScore_tf1%3A1%7C" target="_blank">
+                                <a href="https://www.snapdeal.com/offers/diwali-gifts" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">SNAPDEAL</p>
                                 </a>
                             </div>
@@ -254,23 +247,20 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Diwali Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Mega Diwali Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up To 50% Off</h5>
                             <div class="ecomSmallBox" >
-                                <a href="https://www.pepperfry.com" target="_blank">
+                                <a href="https://www.pepperfry.com/furniture-sale.html" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">PEPPERFRY</p>
                                 </a>
                             </div>
                         </div>
                     </center>
                 </div>
-            </div>
-            <br>
-            <div class="row">
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">fashion week</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Diwali Carnival</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.firstcry.com/featuredoffer?cpid=218&c=TOP10FW&ref2=rbanner_fashion_4_23sep2019" target="_blank">
@@ -280,6 +270,10 @@
                         </div>
                     </center>
                 </div>
+            </div>
+            <br>
+            <div class="row">
+
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
@@ -319,9 +313,6 @@
                         </div>
                     </center>
                 </div>
-            </div>
-            <br>
-            <div class="row">
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
@@ -336,7 +327,9 @@
                     </center>
                 </div>
             </div>
-        </div>
+            </div>
+            <br>
+
         <div class="container" style=" border-bottom: 1px solid rgba(146, 156, 165, 0.2);display: none">
             <br/>
             <h3 class="header3 p-color-cement-dark font-weight-900">ShoppRe Deals</h3>
