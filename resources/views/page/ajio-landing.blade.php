@@ -41,7 +41,7 @@
                 </div>
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://www.ajio.com" title="AJIO" target="_blank">👉 100 DAYS OF NEW (40-80% Off) | Shop AJIO & Ship Worldwide with ShoppRe.</a>
+                        <a href="https://www.ajio.com" title="AJIO" target="_blank">👉 SPARKLING SALE (50-90% Off) | Shop AJIO & Ship Worldwide with ShoppRe.</a>
                     </marquee>
                 </div>
             </div>

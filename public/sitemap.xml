@@ -101,6 +101,11 @@
 <priority>0.85</priority>
 </url>
 <url>
+<loc>https://www.shoppre.com/flipkart-online-shopping</loc>
+<changefreq>daily</changefreq>
+<priority>0.82</priority>
+</url>
+<url>
   <loc>https://www.shoppre.com/dhl</loc>
   <changefreq>daily</changefreq>
   <priority>0.60</priority>

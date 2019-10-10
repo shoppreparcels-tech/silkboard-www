@@ -632,17 +632,20 @@ Route::get('/2018-annual-awards-international-shipping-shopping', 'PageControlle
 Route::post('/mailtrain/subscribe', 'PageController@createMailTrainSubscriber')->name('mailtrain.subscribe');
 
 //Route::get('/about-new', 'PageController@aboutIndex')->name('about-new.index');
-
+/*--------Offer landing pages------*/
 Route::get('/diwali-offer', 'PageController@diwali')->name('diwali');
 Route::get('/month-end-offer-shipping-worldwide', 'PageController@monthEndOffer')->name('monthEndOffer');
 Route::get('/send-valentines-day-gifts-international-shipping', 'PageController@valentines')->name('valentines');
 Route::get('/holi-india-shopping-with-international-delivery', 'PageController@holi')->name('holi');
 Route::get('/easter-shopping-from-india-with-international-shipping', 'PageController@easter')->name('easter');
 Route::get('/shop-ship', 'PageController@shopShipIndex')->name('shopship');
-Route::get('/personal-shopper-shopping-concierge-from-india', 'PageController@personalShopper')->name('personalShopper');
 Route::get('/christmas-offer', 'PageController@christmas')->name('christmas');
 Route::get('/new-year-offer', 'PageController@newyear')->name('newyear');
 Route::get('/university-offer', 'PageController@university')->name('university');
+Route::get('/radcon', 'PageController@radioContest')->name('radio');
+Route::get('/radcon-tc', 'PageController@radioTermsConditions')->name('radio.tc');
+
+Route::get('/personal-shopper-shopping-concierge-from-india', 'PageController@personalShopper')->name('personalShopper');
 Route::get('/flipkart-shopping-with-shoppre-from-india', 'PageController@flipkartIndex')->name('flipkart.landing');
 Route::get('/myntra-online-shopping-shipping-from-india', 'PageController@myntraIndex')->name('myntra.landing');
 Route::get('/amazon-india-shop-international-shipping', 'PageController@amazonIndex')->name('amazon.landing');
@@ -667,9 +670,10 @@ Route::get('/best-international-relocation-packers-movers', 'PageController@pack
 Route::get('/international-shipping-gift-cards-vouchers', 'PageController@voucher')->name('voucher');
 Route::get('/medicine-international-courier-from-india', 'PageController@medicine')->name('medicine');
 Route::get('/personal-shopper-india', 'PageController@ifsLandingPage')->name('ifs.landing');
-Route::get('/radcon', 'PageController@radioContest')->name('radio');
-Route::get('/radcon-tc', 'PageController@radioTermsConditions')->name('radio.tc');
 Route::get('/seller-partner', 'PageController@seller')->name('seller');
+
+/*-------- Ecommerce Product Landing Pages ------*/
+Route::get('/flipkart-online-shopping', 'PageController@flipkartProduct')->name('flipkart-product');
 
 
 /*-------- Festival Sale Landing Pages ------*/

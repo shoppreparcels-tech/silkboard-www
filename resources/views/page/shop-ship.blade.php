@@ -65,8 +65,8 @@
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                             <a href="https://www.amazon.in/b?node=3419926031&pf_rd_p=86b570f4-7fdc-444c-86fb-e4daf032f742&pf_rd_r=M6HA0X2998QBR444DC2Y" title="Amazon" target="_blank">1. Amazon.in 👉Great Indian Festival</a> |
                             <a href="https://clnk.in/jMQP" title="flipkart" target="_blank">2. Flipkart.com 👉Big Diwali Sale </a> |
-                            <a href="https://www.myntra.com/shop/fashionutsav-prebuzz-oct19?utm_source=cuelinks&utm_medium=affiliate&utm_campaign=CL_54240-52423" title="ajio" target="_blank">3. Myntra.com 👉Fashionotsav</a> |
-                            <a href="https://www.ajio.com" title="ajio" target="_blank">4. AJIO.com 👉100 Days of New</a>
+                            <a href="https://clnk.in/jNlv" title="ajio" target="_blank">3. Myntra.com 👉Fashionotsav</a> |
+                            <a href="https://clnk.in/jC3y" title="ajio" target="_blank">4. AJIO.com 👉SPARKLING SALE</a>
                         </marquee>
                     </div>
                     <center>

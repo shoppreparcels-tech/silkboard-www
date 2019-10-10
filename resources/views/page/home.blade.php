@@ -335,7 +335,7 @@
         <div class="container-fluid fuid-padding pad-t`-40"><br><br>
             <div class="col-md-2 col-xs-12 pad-l-d">
                 <center>
-                    <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">LIVE <br>
+                    <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">Diwali<br>
                         <span class="f-s-45 f-w-8 f-c-green "> Sale</span></h1>
                     <h4 class="f-s-18 f-c-l-gray txt-a-l">Grab The<br> Running Offers from<br> Indian Stores</h4>
                 </center>
@@ -343,19 +343,19 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://clnk.in/jMP2" title="Click to Know More" target="_blank">
+                        <a href="https://clnk.in/jNlv" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">FESTIVE FARVOUR</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">FASHIONOTSAV</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Min. 40% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">50-80% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Fusion Wear For Women</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">12th - 15th OCT</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Myntra.com</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Myntra's Fashion Store</span> & Ship @Cheap-Cost Internationally</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Myntra Fashionotsav</span> & Ship @Cheap-Cost Internationally</p>
                         </div>
                         </div>
                         </a>
@@ -367,7 +367,7 @@
                             <div class="h-div text-center"><h4 class="cord-header-size f-c-white">DIWALI MELA</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40% - 90% OFF</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40-90% OFF</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Finest Festive Collection</span></p>
                             <br>
@@ -380,15 +380,15 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://clnk.in/jMP7" title="Know More" target="_blank">
+                        <a href="/flipkart-online-shopping" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">GET FESTIVE READY</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">BIG DIWALI SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Up to 70% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Up to 80% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">T-shirts, Kurtas, Watches..,</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">12th - 16th OCT</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Flipkart.com</span></p>
                             <br>
@@ -402,12 +402,12 @@
                         <a href="https://clnk.in/jC3y" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">100 DAYS OF NEW</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">SPARKLING SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Extra 24% OFF*</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">50-90% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">SHOP</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">10th - 16th OCT</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">AJIO.com</span></p>
                             <br>
@@ -1101,16 +1101,16 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big billion Days"><span><a
-                                        href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Big Billion Days Sale 2019</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Diwali Sale"><span><a
+                                        href="/flipkart-online-shopping" target="_blank">Flipkart Big Diwali Sale 2019</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Great Indian"><span><a
                                         href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">Amazon.in Great Indian Festival</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Freedom Sale"><span><a
                                         href="/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Flipstart Days"><span><a
                                         href="/flipstart-days-avail-best-offers-on-flipkart-enjoy-special-discounts-for-the-first-three-days-of-every-month" target="_blank">Flipkart Flipstart Days</a></span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="National Shopping Days"><span><a
-                                        href="/flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" target="_blank">National Shopping Days</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big billion Days"><span><a
+                                        href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Big Billion Days Sale</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Right To Fashion"><span> <a
                                         href="/myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" target="_blank">Myntra Right To Fashion Sale</a></span></li>
                         </ul>
@@ -1138,10 +1138,10 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
-                                        href="/onam-community-shipping-offer">Onam Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="diwali"><span><a
                                         href="/diwali-offer">Diwali Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
+                                        href="/onam-community-shipping-offer">Onam Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="shop ship"><span><a
                                         href="/shop-ship">Shop & Ship Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="student"><span><a

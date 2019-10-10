@@ -40,7 +40,7 @@
             <div class="row">
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - OCTOBER 2019 SALE
-                        <br> [ 👉 <a href="https://www.flipkart.com/big-diwali-sale-store" target="_blank">Big Diwali Sale</a> 12th to 16th OCT ]</h2>
+                        <br> [ 👉 <a href="/flipkart-online-shopping" target="_blank">Big Diwali Sale</a> 12th to 16th OCT ]</h2>
                 </div>
             </div>
             <div class="row text-center">
@@ -284,10 +284,12 @@
                     <div class="panel ">
                         <ul>
                             <li>FLIPKART SALE 2019</li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Diwali Sale"><span><a
+                                        href="/flipkart-online-shopping" target="_blank">Big Diwali Sale 2019</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big billion Days"><span><a
                                         href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Big Billion Days Sale 2019</a></span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Shopping Days"><span><a
-                                        href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></span></li>
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Shopping Days"><span><a--}}
+{{--                                        href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></span></li>--}}
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Flipstart Days"><span><a
                                         href="flipstart-days-avail-best-offers-on-flipkart-enjoy-special-discounts-for-the-first-three-days-of-every-month">Flipkart Flipstart Days</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="National Shopping Days"><span><a
