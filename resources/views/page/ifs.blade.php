@@ -119,10 +119,10 @@
     <section>
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="https://www.amazon.in/b?node=3419926031&pf_rd_p=86b570f4-7fdc-444c-86fb-e4daf032f742&pf_rd_r=M6HA0X2998QBR444DC2Y" title="Amazon" target="_blank">1. Amazon.in 👉Great Indian Festival</a> |
-                <a href="https://clnk.in/jC3o" title="flipkart" target="_blank">2. Flipkart.com 👉Big Diwali Sale </a> |
-                <a href="https://clnk.in/jNlv" title="myntra" target="_blank">3. Myntra.com 👉FASHIONOTSAV</a> |
-                <a href="https://clnk.in/jC3y" title="ajio" target="_blank">4. AJIO.com 👉SPARKLING SALE</a>
+                <a href="/amazon-online-shopping" title="Amazon" target="_blank">1. Amazon.in 👉Great Indian Festival</a> |
+                <a href="/flipkart-online-shopping" title="flipkart" target="_blank">2. Flipkart.com 👉Big Diwali Sale </a> |
+                <a href="/myntra-online-shopping" title="myntra" target="_blank">3. Myntra.com 👉FASHIONOTSAV</a> |
+                <a href="/ajio-online-shopping" title="ajio" target="_blank">4. AJIO.com 👉SPARKLING SALE</a>
             </marquee>
         </div>
         <div class="container" id="how-it-works">
@@ -882,7 +882,7 @@
         <div class="container">
             <center>
                 <p class="header1 p-color-cement-dark div-margin">Your Favorite Online Stores</p>
-                <p class="header2 p-color-cement ">Browse through popular onlien Indian stores, take your pick, shop & get it
+                <p class="header2 p-color-cement ">Browse through popular online Indian stores, take your pick, shop & get it
                     delivered to your virtual address; we'll ship it to your destination abroad!</p>
             </center>
         </div>

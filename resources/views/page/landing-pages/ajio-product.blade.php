@@ -1,12 +1,12 @@
 @extends('layout')
 
-@section('title', 'Flipkart Big Diwali Sale | Cheap Online Shopping from India')
-@section('description', 'Big Diwali Sale 2019 Dates and Offers. Shopping from Flipkart India online and get ₹250 cashback on Shipping with ShoppRe. ')
-@section('keywords', 'diwali sale, flipkart usa, shipping from india')
+@section('title', 'AJIO | Online Shopping from India')
+@section('description', 'Online Shopping from AJIO Fashion and Lifestyle from India.')
+@section('keywords', 'ajio, trends, shipping, online shopping')
 
 @section('css_style')
 
-    <link rel="canonical" href="https://www.shoppre.com/flipkart-online-shopping" />
+    <link rel="canonical" href="https://www.shoppre.com/ajio-online-shopping" />
 
     <style>
         .zoom {
@@ -83,7 +83,7 @@
 @section('content')
     <section class="first-time-shipment header-section" style="padding-top: 50px !important;">
         <div class="container no-padding banner">
-                <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>Flipkart Big Diwali Sale Your Favourite Shopping Festival</i></p>
+                <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>AJIO Sparkling Sale Your Favourite Fashion & Lifestyle from India</i></p>
                 <div class="col-md-6 col-xs-12" style="padding-top: 7%">
                    <center> <p class="m-t-sm f-s-30">Why Worries Re, <span style="font-family: Bahnschrift">Just ShoppRe!</span></p></center>
                     <p class="f-c-white m-t-sm f-s-18 text-center">
@@ -104,14 +104,14 @@
                 </div>
             </div>
         <div class="image-banner">
-            <img src="{{asset('img/product/india-flipkart-big-diwali-sale-2019.png')}}" alt="flipkart big diwali sale" style="height: 430px; width: 100%;">
+            <img src="{{asset('img/product/ajio-online-shopping-india.png')}}" alt="ajio sale" style="height: 430px; width: 100%;">
         </div>
     </section>
     <section >
         <div class="container fst-service" style="margin-top: 36px;">
             <div class="row">
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Big Diwali Sale. Shop Flipkart & Ship Globally with ShoppRe.</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Sparkling Sale(10-16 Oct). Shop AJIO & Ship Globally with ShoppRe.</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center margin-tp">
                     <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Click on Online Chat for Live Support
@@ -127,7 +127,7 @@
             <div class="row text-center">
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
-                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/375/534/image/6bbf1e164c668785.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/h14/h54/14224117825566/10102019-D-WHP-Stores-trends-upto70.jpg" >
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Soan Papdi <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -135,8 +135,8 @@
 {{--                            ₹150 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNmD" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://trends.ajio.com/shop/trends" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
@@ -144,7 +144,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/375/534/image/6c76ed069da93dae.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/h83/hcc/14224117891102/10102019-D-WHP-Stores-ajio-5080.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Kaju Katli <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -152,8 +152,8 @@
 {{--                            ₹245 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.flipkart.com/mens-footwear/pr?count=40&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&sid=osp%2Fcil&p%5B%5D=facets.brand%255B%255D%3DPuma&p%5B%5D=facets.brand%255B%255D%3DProvogue&p%5B%5D=facets.brand%255B%255D%3DNike&p%5B%5D=facets.brand%255B%255D%3DVans&p%5B%5D=facets.brand%255B%255D%3DFila&p%5B%5D=facets.brand%255B%255D%3DWoodland&p%5B%5D=facets.brand%255B%255D%3DBata&p%5B%5D=facets.brand%255B%255D%3DLee%2BCooper&p%5B%5D=facets.brand%255B%255D%3DNewport&p%5B%5D=facets.brand%255B%255D%3DLevi%2527s&p%5B%5D=facets.brand%255B%255D%3DLotto&p%5B%5D=facets.brand%255B%255D%3DUnited%2BColors%2Bof%2BBenetton&p%5B%5D=facets.brand%255B%255D%3DSwiss%2BMilitary&p%5B%5D=facets.brand%255B%255D%3DPeter%2BEngland%2BPE&p%5B%5D=facets.brand%255B%255D%3DCarlton%2BLondon%2BMr.CL&p%5B%5D=facets.brand%255B%255D%3DMr.CL&p%5B%5D=facets.brand%255B%255D%3DPower&p%5B%5D=facets.brand%255B%255D%3DHush%2BPuppies&p%5B%5D=facets.brand%255B%255D%3DSkechers&p%5B%5D=facets.brand%255B%255D%3DIndigo%2BNation&p%5B%5D=facets.brand%255B%255D%3DMetronaut&p%5B%5D=facets.brand%255B%255D%3DU.S.%2BPolo%2BAssn&p%5B%5D=facets.brand%255B%255D%3DSlazenger&p%5B%5D=facets.brand%255B%255D%3DArrow&p%5B%5D=facets.brand%255B%255D%3DDC&p%5B%5D=facets.brand%255B%255D%3DLi-Ning&p%5B%5D=facets.brand%255B%255D%3DCrocs&p%5B%5D=facets.brand%255B%255D%3DAsics&p%5B%5D=facets.brand%255B%255D%3DAsics%2BTIGER&p%5B%5D=facets.brand%255B%255D%3DV%2BDot%2BVan%2BHeusen&p%5B%5D=facets.brand%255B%255D%3DWoods&p%5B%5D=facets.brand%255B%255D%3DFlying%2BMachine&p%5B%5D=facets.brand%255B%255D%3DClarks&p%5B%5D=facets.brand%255B%255D%3DRed%2BChief&p%5B%5D=facets.brand%255B%255D%3DNorth%2BStar&p%5B%5D=facets.brand%255B%255D%3DErke&p%5B%5D=facets.brand%255B%255D%3DConverse&p%5B%5D=facets.brand%255B%255D%3DJack%2B%2526%2BJones&p%5B%5D=facets.brand%255B%255D%3DFRANCO%2BLEONE&p%5B%5D=facets.brand%255B%255D%3DFranco%2BLeone&p%5B%5D=facets.brand%255B%255D%3DBond%2BStreet%2BBy%2BRed%2BTape&p%5B%5D=facets.brand%255B%255D%3DSan%2BFrissco&p%5B%5D=facets.brand%255B%255D%3DRed%2BTape&p%5B%5D=facets.brand%255B%255D%3DYonex&p%5B%5D=facets.brand%255B%255D%3DRuosh&p%5B%5D=facets.brand%255B%255D%3DVector%2BX&p%5B%5D=facets.brand%255B%255D%3DNivia&p%5B%5D=facets.brand%255B%255D%3DUnder%2BArmour&p%5B%5D=facets.brand%255B%255D%3DKenneth%2BCole&p%5B%5D=facets.brand%255B%255D%3DMizuno&p%5B%5D=facets.brand%255B%255D%3DNew%2BBalance&p%5B%5D=facets.brand%255B%255D%3DTOMS&p%5B%5D=facets.brand%255B%255D%3DKnotty%2BDerby&p%5B%5D=facets.brand%255B%255D%3DCall%2BIt%2BSpring&p%5B%5D=facets.brand%255B%255D%3DCarlton%2BLondon&p%5B%5D=facets.brand%255B%255D%3DSanta%2BMonica&p%5B%5D=facets.brand%255B%255D%3DQuiksilver&p%5B%5D=facets.brand%255B%255D%3DALDO&p%5B%5D=facets.brand%255B%255D%3DSuperdry&p%5B%5D=facets.brand%255B%255D%3DDiesel&p%5B%5D=facets.brand%255B%255D%3DWildcraft&p%5B%5D=facets.brand%255B%255D%3DBritish%2BKnights&p%5B%5D=facets.brand%255B%255D%3DPavers%2BEngland&p%5B%5D=facets.brand%255B%255D%3DVersace%2B19.69%2BItalia&p%5B%5D=facets.brand%255B%255D%3DScholl&p%5B%5D=facets.brand%255B%255D%3DBacca%2BBucci&p%5B%5D=facets.brand%255B%255D%3DAllen%2BCooper&p%5B%5D=facets.brand%255B%255D%3DVan%2BHeusen&p%5B%5D=facets.brand%255B%255D%3DADIDAS&p%5B%5D=facets.brand%255B%255D%3DADIDAS%2BNEO&p%5B%5D=facets.brand%255B%255D%3DADIDAS%2BORIGINALS&p%5B%5D=facets.brand%255B%255D%3DREEBOK&p%5B%5D=facets.brand%255B%255D%3DAllen%2BSolly&p%5B%5D=facets.brand%255B%255D%3DEd%2BHardy&p%5B%5D=facets.brand%255B%255D%3DStylar&p%5B%5D=facets.brand%255B%255D%3DKiller&p%5B%5D=facets.brand%255B%255D%3DLAWMAN%2BPG3&p%5B%5D=facets.brand%255B%255D%3DA-HA%2BBy%2BLiberty&p%5B%5D=facets.brand%255B%255D%3DCoolers%2B%2528By%2BLiberty%2529&p%5B%5D=facets.brand%255B%255D%3DGliders%2Bby%2BLiberty&p%5B%5D=facets.brand%255B%255D%3DForce%2B10%2BBy%2BLiberty&p%5B%5D=facets.brand%255B%255D%3DLiberty&p%5B%5D=facets.brand%255B%255D%3DDucati&p%5B%5D=facets.brand%255B%255D%3DPark%2BAvenue&p%5B%5D=facets.brand%255B%255D%3DParx&p%5B%5D=facets.brand%255B%255D%3DTommy%2BHilfiger&p%5B%5D=facets.brand%255B%255D%3DAeropostale&p%5B%5D=facets.brand%255B%255D%3DRaymond&p%5B%5D=facets.brand%255B%255D%3DA-GEAR&p%5B%5D=facets.brand%255B%255D%3DThe%2BNorth%2BFace&p%5B%5D=facets.brand%255B%255D%3DSparx&p%5B%5D=facets.brand%255B%255D%3DCampus&p%5B%5D=facets.brand%255B%255D%3DLancer&p%5B%5D=facets.brand%255B%255D%3DAsian&p%5B%5D=facets.brand%255B%255D%3DREEBOK%2BCLASSICS&p%5B%5D=facets.brand%255B%255D%3DFrench%2BConnection&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.discount_range_v1%255B%255D%3D40%2525%2Bor%2Bmore&otracker=clp_banner_2_8.bannerX3.BANNER_fashion-diwali-combat-sneak-peak-store_NINQ608TIVJ3&fm=neo%2Fmerchandising&iid=M_a26afc31-12b6-41a3-bc41-1c4f8e265953_8.NINQ608TIVJ3&ssid=zj6zl67vi80000001570700113859" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://www.ajio.com/shop/women" target="_blank">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
@@ -161,7 +161,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/375/534/image/cd65f25e8523878b.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/ha3/h3d/14224117956638/10102019-D-WHP-Stores-indie-upto80-bigtile.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Besan Laddu <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -169,8 +169,8 @@
 {{--                            ₹145 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNmN" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://www.ajio.com/shop/indie" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/375/534/image/200acb2509367cb4.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/hd8/he4/14224119005214/10102019-D-WHP-BestOfBrands-projecteve-upto70.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Doodh Burfi <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -186,8 +186,8 @@
 {{--                            ₹145 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNmO" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://www.ajio.com/s/up-to-70-percent-off-3748-55561" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
@@ -195,7 +195,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/375/534/image/357e30aac2d7ff2f.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/hb1/hb9/14224119070750/10102019-D-WHP-BestOfBrands-accessorize-upto60.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Raisins <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -203,8 +203,8 @@
 {{--                            ₹140 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNmP" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://www.ajio.com/s/up-to-60-percent-off-3748-55562" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
@@ -212,7 +212,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/375/534/image/7d3acd04f252d5e0.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/hfc/hf8/14224119463966/10102019-D-WHP-BestOfBrands-diwaah-upto60.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Pista <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -220,8 +220,8 @@
 {{--                            ₹140 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNmR" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://www.ajio.com/s/up-to-60-percent-off-3748-55563" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
@@ -229,7 +229,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/375/534/image/347d0321a81c4004.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/he4/h75/14210335866910/10102019-D-KHP-Girls-Bestofbrands-Nautinati-min50.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Mamra Badam <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -237,8 +237,8 @@
 {{--                            ₹640 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNmS" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://www.ajio.com/s/min-50-percent-off-3734-66671" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
@@ -246,7 +246,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/375/534/image/846175119d280eae.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/hf0/hbf/14210335997982/10102019-D-KHP-Girls-Bestofbrands-UCB-30-60.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Cashew <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -254,8 +254,8 @@
 {{--                            ₹280 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNmY" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://www.ajio.com/s/30-to-60-percent-off-3734-88891" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
@@ -263,7 +263,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/375/534/image/045da0d11c6eafd9.jpg?q=90" alt="signup shoppre">
+                        <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/h7d/hdf/14224112975902/10102019-D-MHP-Stores-indie-upto80.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Sohan Papdi <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -271,8 +271,8 @@
 {{--                            ₹85 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNm2" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://www.ajio.com/s/indie-men" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
@@ -280,7 +280,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/375/534/image/9c90327cf28dc6d3.jpg" alt="signup shoppre">
+                        <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/hbd/h18/14210349301790/10102019-D-MHP-BestOfBrands-AllenSolly-upto50.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Doodh Peda <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -288,8 +288,8 @@
 {{--                            ₹145 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNm4" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://www.ajio.com/s/allen-solly-up-to-50-percent-off-3747-33331" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
@@ -297,7 +297,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/375/534/image/a27e4c416fca1b6c.jpg" alt="signup shoppre">
+                        <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/h18/hd4/14210349629470/10102019-D-MHP-BestOfBrands-Mufti-min50.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Dalmoth <br>(100 grams)--}}
 {{--                        </div>--}}
@@ -305,8 +305,8 @@
 {{--                            ₹46 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNm3" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://www.ajio.com/s/mufti-min-50-percent-off-3747-33332" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
@@ -314,7 +314,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/375/534/image/273c264cb042247c.jpg" alt="signup shoppre">
+                        <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/h4d/h81/14224112648222/10102019-D-MHP-BestOfBrands-DCShoes-min40.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Chow Chow <br>(100 grams)--}}
 {{--                        </div>--}}
@@ -322,8 +322,8 @@
 {{--                            ₹42 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNna" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://www.ajio.com/s/dc-shoes-min-40-percent-off-3747-33331" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
@@ -331,7 +331,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/250/266/image/08d567cfadbb3a74.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/hb0/h1c/14018001305630/24092019-D-IHP-bestofbrands-loomlegacy.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Pista Biscuits <br>(150 grams)--}}
 {{--                        </div>--}}
@@ -339,8 +339,8 @@
 {{--                            ₹55 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNni" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://www.ajio.com/s/loom-legacy-3731-66671" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
@@ -348,7 +348,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/250/266/image/cef0d665b504714f.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/h68/hf3/14018001109022/24092019-D-IHP-bestofbrands-prettywoman.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Jeera Biscuits <br>(150 grams)--}}
 {{--                        </div>--}}
@@ -356,8 +356,8 @@
 {{--                            ₹52 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNno" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://www.ajio.com/s/pretty-woman-3731-66671" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
@@ -365,7 +365,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/250/266/image/039e954523eb5aa9.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/h95/h61/14018001240094/24092019-D-IHP-bestofbrands-pursu.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Pista Stick <br>(150 grams)--}}
 {{--                        </div>--}}
@@ -373,8 +373,8 @@
 {{--                            ₹125 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNnu" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://www.ajio.com/s/pursu-3731-66671" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
@@ -382,7 +382,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/250/266/image/1605e9c959f669c8.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/hed/h37/14019149103134/24092019-D-IHP-fromaroundtheworld-turkey.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Masala Biscuits <br>(150 grams)--}}
 {{--                        </div>--}}
@@ -390,137 +390,67 @@
 {{--                            ₹52 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNns" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                            <a href="https://www.ajio.com/c/turkey-collection-3696-51851" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/h05/h16/14224064217118/10102019-D-SHP-tile-Bestofbrands-Globaldesi-min50.jpg">
+
+                        <div class="check-price-padd">
+                            <a href="https://www.ajio.com/s/min-50-percent-off-3727-44445" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/h68/h4c/14224061988894/10102019-D-SHP-tile-Bestofbrands-AJIO-Min60.jpg">
+
+                        <div class="check-price-padd">
+                            <a href="https://www.ajio.com/s/min-60-percent-off-3727-44442" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/h13/hfa/14224064413726/10102019-D-SHP-tile-Bestofbrands-indiepicks-min50.jpg">
+
+                        <div class="check-price-padd">
+                            <a href="https://www.ajio.com/s/min-50-percent-off-3727-44447" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/hf1/hb7/14224064610334/10102019-D-SHP-tile-Bestofbrands-UFO-under499.jpg">
+
+                        <div class="check-price-padd">
+                            <a href="https://www.ajio.com/s/under-rs-499-3727-44442" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                 </span>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-{{--            <div class="mar-t-25">--}}
-{{--                <div class="txt-center">--}}
-{{--                        <button type="button" class="btn btn-warning bord-rad-5 margin-r-10">--}}
-{{--                            <a href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">--}}
-{{--                            <p class="btn-md">Estimate Shipping Rate</p>--}}
-{{--                            </a>--}}
-{{--                        </button>--}}
-{{--                        <button type="button" class="btn btn-success bord-rad-5 margin-r-10">--}}
-{{--                            <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20Can%20i%20Send%20Diwali,%20Gifts%20and%20Sweets%20from%20India?" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">--}}
-{{--                            <p class="btn-md">Message Us On WhatsApp</p>--}}
-{{--                            </a>--}}
-{{--                        </button>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class=" col-md-12 no-pad"><br>--}}
-            <br>
-            <br>
-{{--                <center>--}}
-{{--                    <h2 class="p-color-cement-dark font-weight-900 ">Diwali Jamboree all over the world | Send Sweets abroad from India with ShoppRe--}}
-{{--                    </h2>--}}
-{{--                </center>--}}
-{{--                <br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        Waking up from the hustling noise, crackers, and children playing is the testament of preparations going on in every Indian house for Diwali celebrations.--}}
-{{--                        And every Indian feels the same zeal and happiness for this grand festival of <i>hope, light, and prosperity</i> that marks the triumph of virtue over vice.--}}
-{{--                    </p> <br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        It doesn't matter where in the world we are, Indians always find a way to celebrate Diwali and many major countries like the USA, Australia, Canada, etc also--}}
-{{--                        celebrate Diwali lavishly. And amidst this merriment, there is this little package of Indian sweets swathed in love that is--}}
-{{--                        sent from home that brings a smile on the face of an Indian far from home. </p> <br>--}}
-{{--                <p class="header4 p-color-cement">--}}
-{{--                        So buy <strong>Indian sweet online from India</strong> and send it to your family and friends within 3-8 days, anywhere in the world with ShoppRe, and enjoy up to 80% low shipping rates.--}}
-{{--                        You can easily order sweets for yourself or even buy sweets from India and get them delivered at your doorstep worldwide.--}}
 
-{{--                    </p>--}}
-{{--            <br>--}}
-{{--                <div id="How_to_save">--}}
-{{--                    <h2  class="f-s-20 f-c-blue f-w-9" class="p-color-cement-dark font-weight-900 ">Online indian sweets delivery in USA</h2>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        The splendor of the Diwali celebration is such that even the white house has been celebrating it for so many years now. The revelry of the Indian diaspora--}}
-{{--                        is at its zenith and it begins long before Diwali with fairs, parties, lights, visits to temples to pay their obeisance to the gods, and various vivacious rituals.--}}
-{{--                        We do online Indian sweets delivery in USA to complete your celebrations.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-{{--            <br>--}}
-{{--            <div id="How_to_save">--}}
-{{--                <h2  class="f-s-20 f-c-blue f-w-9" class="p-color-cement-dark font-weight-900 ">Export sweets from India to Australia</h2>--}}
-{{--                <p class="header4 p-color-cement">--}}
-{{--                    Many cultural and traditional celebrations mark the advent of the Diwali festival in all cities of Australia like Melbourne and Sydney where its thriving--}}
-{{--                    Indian population fills the air with jovial activities. There are long rows of oil lamps outside houses to welcome the Hindu gods and celebrate this auspicious--}}
-{{--                    festival of light and delight. You can order Indian sweets online Australia with us.--}}
-{{--                </p>--}}
-{{--            </div>--}}
-{{--            <br>--}}
-{{--            <div id="How_to_save">--}}
-{{--                <h2  class="f-s-20 f-c-blue f-w-9" class="p-color-cement-dark font-weight-900 ">Indian sweets online international delivery Canada</h2>--}}
-{{--                <p class="header4 p-color-cement">--}}
-{{--                    Many Canadians celebrate this festival of lights with full vigor and zeal, and this joyous festival attracts plenty of media and public attention.--}}
-{{--                    You can order Indian sweets online from Canada with us to serve during corporate Diwali dinners, carnivals or gatherings with elaborate firework displays--}}
-{{--                    hosted by various community groups, businesses, schools, and associations to celebrate Diwali.--}}
-{{--                </p>--}}
-{{--            </div>--}}
-{{--            <br>--}}
-{{--            <div id="How_to_save">--}}
-{{--                <h2  class="f-s-20 f-c-blue f-w-9" class="p-color-cement-dark font-weight-900 ">Send Sweets to Malaysia Online</h2>--}}
-{{--                <p class="header4 p-color-cement">--}}
-{{--                    Diwali in Malaysia is celebrated by people of all races and cultures inhabiting there. It is also a public holiday so the Indian diaspora can--}}
-{{--                    celebrate this grand festival of light and prosperity with all the pomp and gaiety that they used to do while their time in India.--}}
-{{--                    Get a chance to take a trip back memory lane and order Indian sweets online from Malaysia with ShoppRe.--}}
-{{--                </p>--}}
-{{--            </div>--}}
-{{--            <br>--}}
-{{--            <div id="How_to_save">--}}
-{{--                <h2  class="f-s-20 f-c-blue f-w-9" class="p-color-cement-dark font-weight-900 ">Order Indian Mithai Online in Singapore from India </h2>--}}
-{{--                <p class="header4 p-color-cement">--}}
-{{--                    Little India in Singapore is the kernel of Diwali celebrations. People get into the spirit of the festival of lights and discover vibrant Indian culture through it.--}}
-{{--                    Serangoon Road is lit with lights, and you can see fireworks, candles being lit, beautiful rangoli decorations and liveliness of people in the night market.--}}
-{{--                    Buy Indian sweets online from Singapore and add more joy to celebrations.--}}
-{{--                </p>--}}
-{{--            </div>--}}
+            <br>
+            <br>
             <br>
     </section>
-{{--    <section class="chris-benefits">--}}
-{{--        <div class="container" >--}}
-{{--            <center>--}}
-{{--                <h2 class="header1 p-color-cement-dark font-30">Featured Services & Benefits</h2>--}}
-{{--            </center>--}}
-{{--            <div class="row text-center">--}}
-{{--                <div class="col-sm-4">--}}
-{{--                    <div class="panel ">--}}
-{{--                        <ul>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Personal Shopper</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>20-Day Free Storage</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Consolidation</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Repackaging</span></li>--}}
-{{--                        </ul>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="col-sm-4">--}}
-{{--                    <div class="panel ">--}}
-{{--                        <ul>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Affordable Rates</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned Copies Document-couriers</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-discount</span></li>--}}
-
-{{--                        </ul>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="col-sm-4">--}}
-{{--                    <div class="panel ">--}}
-{{--                        <ul>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Photo Updates</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Wallet Cashback</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Package Return Services</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Product Recommendations</span></li>--}}
-{{--                        </ul>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <br/><br/>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </section>--}}
     <br>
     <br>
     <br>
@@ -609,5 +539,17 @@
     </section>
 @endsection
 
-{{--@section('js_script')--}}
-{{--@endsection--}}
+@section('js_script')
+    <script type='text/javascript'>
+        var cId = '52423';
+
+        (function(d, t) {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv2.js';
+            document.getElementsByTagName('body')[0].appendChild(s);
+        }());
+    </script>
+
+@endsection

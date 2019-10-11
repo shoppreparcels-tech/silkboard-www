@@ -167,10 +167,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">100 DAYS OF NEW</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">SPARKING SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">50-90% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.ajio.com" target="_blank">
+                                <a href="/ajio-online-shopping">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
                                 </a>
                             </div>
@@ -184,7 +184,7 @@
                             <h5 class="header6 p-color-cement font-weight-900">12th - 15th OCT</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.myntra.com/shop/fashionutsav-prebuzz-oct19" target="_blank">
+                                <a href="/myntra-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5997a62748742.png"/>
                                 </a>
                             </div>
@@ -198,7 +198,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Great Indian Festival</h4>
                             <h5 class="header6 p-color-cement font-weight-900">13th - 17th OCT</h5>
                             <div class="ecomSmallBox" style="height: 94px;">
-                                <a href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">
+                                <a href="/amazon-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>
                                 </a>
                             </div>

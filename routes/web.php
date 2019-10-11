@@ -674,6 +674,9 @@ Route::get('/seller-partner', 'PageController@seller')->name('seller');
 
 /*-------- Ecommerce Product Landing Pages ------*/
 Route::get('/flipkart-online-shopping', 'PageController@flipkartProduct')->name('flipkart-product');
+Route::get('/ajio-online-shopping', 'PageController@ajioProduct')->name('ajio-product');
+Route::get('/myntra-online-shopping', 'PageController@myntraProduct')->name('myntra-product');
+Route::get('/amazon-online-shopping', 'PageController@amazonProduct')->name('amazon-product');
 
 
 /*-------- Festival Sale Landing Pages ------*/

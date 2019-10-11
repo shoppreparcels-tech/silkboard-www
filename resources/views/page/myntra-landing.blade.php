@@ -69,7 +69,7 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/shop/fashionutsav-prebuzz-oct19" target="_blank"><div class="shopandship ">
+                    <a href="/myntra-online-shopping" target="_blank"><div class="shopandship ">
                             <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">🛍️ FASHIONOTSAV</h2>
                             <br/>
                             <p>50 - 80% Off</p>

@@ -343,7 +343,7 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://clnk.in/jNlv" title="Click to Know More" target="_blank">
+                        <a href="/myntra-online-shopping" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
                             <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">FASHIONOTSAV</h4></div>
@@ -361,7 +361,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://linksredirect.com/?cid=52423&source=linkkit&url=https%3A%2F%2Fwww.amazon.in%2Fb%3Fnode%3D18313145031%26pf_rd_p%3D39257e5a-c1f7-45fb-bd5f-da17625aae5e%26pf_rd_r%3DF43B97B82F2TS5XCNWDP" title="Click Here" target="_blank">
+                        <a href="/amazon-online-shopping" title="Click Here" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
                             <div class="h-div text-center"><h4 class="cord-header-size f-c-white">DIWALI MELA</h4></div>
@@ -399,7 +399,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="https://clnk.in/jC3y" title="Click for Offer Details" target="_blank">
+                        <a href="/ajio-online-shopping" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
                             <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">SPARKLING SALE</h4></div>
@@ -411,7 +411,7 @@
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">AJIO.com</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Tops & Dresses, Fusion Wear, Heels & Flats, Bags & Belts, Indie Sarees </p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9"> AJIO Sparkling Sale</span> & Ship Internationally with us.</p>
                         </div>
                     </div>
                         </a>

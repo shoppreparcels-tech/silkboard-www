@@ -477,8 +477,22 @@ class PageController extends Controller
         return view('page.onam-gifts');
     }
 
-    public function flipkartProduct() {
+    public function flipkartProduct()
+    {
         return view('page.landing-pages.flipkart-product');
+    }
+
+    public function ajioProduct()
+    {
+        return view('page.landing-pages.ajio-product');
+    }
+    public function myntraProduct()
+    {
+        return view('page.landing-pages.myntra-product');
+    }
+    public function amazonProduct()
+    {
+        return view('page.landing-pages.amazon-product');
     }
 
     public function diwaliOffer() {
