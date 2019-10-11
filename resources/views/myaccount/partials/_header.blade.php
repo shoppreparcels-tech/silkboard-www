@@ -70,11 +70,11 @@
         <ul class="nav navbar-nav navbar-right">
           @if(Auth::guard('customer')->check())
 
-            @if(url()->current() == route('customer.settkerala-onam-online-shopping-guide-from-indiaings'))
-              <li class="active"><a href="{{route('customer.settings')}}">Account Settings </a></li>
-            @else
-              <li><a href="{{route('customer.settings')}}"><i class="fa fa-user"></i> Account Settings</a></li>
-            @endif
+            {{--@if(url()->current() == route('customer.settkerala-onam-online-shopping-guide-from-indiaings'))--}}
+              {{--<li class="active"><a href="{{route('customer.settings')}}"> <i class="fa fa-user"></i>Account Settings </a></li>--}}
+            {{--@else--}}
+              {{--<li><a href="{{route('customer.settings')}}"><i class="fa fa-user"></i> Account Settings</a></li>--}}
+            {{--@endif--}}
             <li>
               <select name="" id="regions" class="form-control top-align">
                 <option value="">Bangalore</option>
