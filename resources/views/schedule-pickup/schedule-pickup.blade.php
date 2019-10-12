@@ -579,13 +579,12 @@
     </section>
     <div id="schedule_load"></div>
     <div class="seo-sec">
-{{--        <center>--}}
+
         <div class="container">
             <div class="col-md-12 col-xs-12 m-t-20 margin-b-10 no-pad">
                     <div class="col-md-6 col-xs-12 pad-10 padd-left-0">
                         <div class="outer border-1px">
                         <br>
-{{--                        <div class="col-xs-12 col-md-12 div-b-price pad-10 ">--}}
                             <span>
                           <div class="f-s-24 f-c-d-gray f-w-8 txt-align-c margin-b-10">Contact Information</div>
                                 <center>
@@ -593,25 +592,24 @@
                           <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"> Customer Support: <a href="tel:+91-9148357733">+91-91483-57733</a> : 9AM-11PM IST</div>
                           <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10">Seller Support: <a href="tel:+91-9880329134 ">+91-98803-29134</a> : 9AM-7PM IST</div>
                                     <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10">Complaints: <a href="tel:+91-9880329134 ">+91-98803-29134</a> : 9AM-7PM IST</div>
-                                    </center>
+                              </center>
                             </span>
-{{--                        </div>--}}
+
                         </div>
                     </div>
                     <div class="col-md-6 col-xs-12 pad-l-10 pad-10">
                         <div class="outer border-1px">
                         <br>
-{{--                        <div class="col-xs-12 col-md-12 div-b-price pad-10 ">--}}
+
                         <div class="f-s-24 f-c-d-gray f-w-8 txt-align-c margin-b-10">General Information</div>
                             <center>
                         <div class="f-s-18 f-c-d-gray f-w-8 margin03"> <a href="http://shoppretracking.aftership.com" target="_blank">Track your shipment</a></div>
                         <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="/diwali-offer" target="_blank"> Diwali Shipping Offer </a></div>
-                        <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="https://ship.shoppre.com/refer-and-earn-with-us/"target="_blank">Earn ₹500/- on each Referral</a></div>
-                                <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="https://ship.shoppre.com/prohibited-items-what-you-cannot-ship-internationally-from-india/"target="_blank">Restricted and Prohibited Items
-                                    </a></div>
+                         <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank">Earn ₹500/- on each Referral</a></div>
+                          <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="https://ship.shoppre.com/prohibited-items-what-you-cannot-ship-internationally-from-india/" target="_blank">Restricted and Prohibited Items</a></div>
                             </center>
-                        </div>
-            </div>
+                            </div>
+                    </div>
             </div>
         <div class="container">
             <center>

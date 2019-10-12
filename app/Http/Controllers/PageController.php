@@ -502,7 +502,10 @@ class PageController extends Controller
     public function diwaliFree() {
         return view('page.landing-pages.diwali-free');
     }
-
+    public function dropoffLocation()
+    {
+        return view('page.landing-pages.dropoff-location');
+    }
     public function medicine()
     {
         return view('page.medicine-landing');

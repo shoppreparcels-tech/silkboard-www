@@ -644,6 +644,8 @@ Route::get('/new-year-offer', 'PageController@newyear')->name('newyear');
 Route::get('/university-offer', 'PageController@university')->name('university');
 Route::get('/radcon', 'PageController@radioContest')->name('radio');
 Route::get('/radcon-tc', 'PageController@radioTermsConditions')->name('radio.tc');
+Route::get('/shipping/drop-off-location', 'PageController@dropoffLocation')->name('dropoffLocation');
+
 
 Route::get('/personal-shopper-shopping-concierge-from-india', 'PageController@personalShopper')->name('personalShopper');
 Route::get('/flipkart-shopping-with-shoppre-from-india', 'PageController@flipkartIndex')->name('flipkart.landing');
