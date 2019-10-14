@@ -494,6 +494,10 @@ class PageController extends Controller
     {
         return view('page.landing-pages.amazon-product');
     }
+    public function limeroadProduct()
+    {
+        return view('page.landing-pages.limeroad-product');
+    }
 
     public function diwaliOffer() {
         return view('page.landing-pages.diwali');

@@ -124,11 +124,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">End of season Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Upto 80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Best Shopping Offers</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Diwali Spree</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://www.limeroad.com/sale?src=shoppre" target="_blank">
+                                <a href="/limeroad-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a5173241735.png"/>
                                 </a>
                             </div>

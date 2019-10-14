@@ -1,10 +1,12 @@
 @extends('layout')
 
 @section('title', 'Limeroad Shipping to USA | Online Shopping India | ShoppRe.com')
-@section('description', '')
-@section('keywords', '')
+@section('description', 'Online shopping from Limeroad Indian and Shipping to USA)
+@section('keywords', 'usa, online shopping, trendy fashion, shop latest')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/limeroad-shopping-international-shipping" />
+
     <style>
         .bg-limeroad-landing-page{background-image:url(../../img/images/overlay1.png);height:560px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.bg-limeroad-landing-page .container>div{margin-bottom:3em}.d-header-text{font-size:40px;font-weight:900}.d-header-text1{font-family:Montserrat -Italic;font-style:italic;line-height:26px;margin-top:25px}.christmas-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-121px;padding:20px}.box-steps p{line-height:1}.box-steps p span{font-size:22px;font-weight:900}.flipkart-h1{font-size:25px}.christmas-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.christmas-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}#packing:hover{display:none}@media only screen and (max-width:600px){.bg-limeroad-landing-page{height:628px}}
     </style>
@@ -91,7 +93,7 @@
                 <center>
                     <h4 class="p-color-cement-dark flipkart-h1">Payment Hassles with International Credit/Debit Cards?</h4>
                     <h5 class="header5 p-color-cement">No worries! Our Personal Shopper will swoop in & take care of it all for you!</h5> <br>
-                    <a href="https://www.limeroad.com/?src=shoppre.com" class="btn-chris-place-order" target="_blank">Go Shopping Now!</a>
+                    <a href="/limeroad-online-shopping" class="btn-chris-place-order" target="_blank">Go Shopping Now!</a>
                 </center>
             </div>
             <br>

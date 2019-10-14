@@ -567,16 +567,17 @@
             <center>
                 <div class=" col-xs-3 div-stores-img">
                     <center class="online-stores">
-                        <a href="{{route('flipkart.landing')}}"><img class="img-responsive img-stores"
-                                                                     src="{{env('AWS_CLOUD_FRONT')}}/img/stores/flipkart-international-shopping.png"
-                                                                     alt="flipkart.com international delivery shipping"></a>
+                        <a href="{{route('flipkart.landing')}}">
+                            <img class="img-responsive img-stores"
+                            src="{{env('AWS_CLOUD_FRONT')}}/img/product/flipkart-online-shipping.png"
+                             alt="flipkart.com international delivery shipping"></a>
                     </center>
                 </div>
                 <div class="col-xs-3   div-stores-img">
                     <center class="online-stores">
                         <a href="/amazon-india-shop-international-shipping" target="_blank">
                             <img class="img-responsive img-stores"
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/stores/amazon-india-shopping.png"
+                                 src="{{env('AWS_CLOUD_FRONT')}}/img/product/amazon-india-shoppre.png"
                                  alt="amazon.in international delivery shipping">
                         </a>
                     </center>
@@ -600,7 +601,7 @@
                 <div class="  col-xs-3  div-stores-img">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/homeshop-18-shopping-company.png"
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/product/first-cry-shopping.png"
                              alt="homeshop18.com best deal shopping shipping">
                     </center>
                 </div>
@@ -625,13 +626,13 @@
                 <div class=" col-xs-3 div-stores-img" id="hidestore">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/ebay-india-multinational-e-commerce.png"
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/product/tata-cliq.png"
                              alt="ebay.in online shopping site in india">
                     </center>
                 </div>
                 <div class="col-xs-3 div-stores-img">
                     <center class="online-stores">
-                        <a href="/limeroad-shopping-international-shipping">
+                        <a href="/limeroad-online-shopping">
                             <img class="img-responsive img-stores"
                                  src="{{env('AWS_CLOUD_FRONT')}}/img/stores/limeroad-online-shopping-offers.png"
                                  alt="limeroad.com shipping from india">
@@ -641,7 +642,7 @@
                 <div class="col-xs-3 div-stores-img" id="store-hide">
                     <center class="online-stores">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/infibeam-latest-deals-shopping.png"
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/product/nykaa-india.png"
                              alt="infibeam.com latest deals on shopping">
                     </center>
                 </div>

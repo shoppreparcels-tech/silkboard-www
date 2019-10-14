@@ -679,6 +679,7 @@ Route::get('/flipkart-online-shopping', 'PageController@flipkartProduct')->name(
 Route::get('/ajio-online-shopping', 'PageController@ajioProduct')->name('ajio-product');
 Route::get('/myntra-online-shopping', 'PageController@myntraProduct')->name('myntra-product');
 Route::get('/amazon-online-shopping', 'PageController@amazonProduct')->name('amazon-product');
+Route::get('/limeroad-online-shopping', 'PageController@limeroadProduct')->name('limeroad-product');
 
 
 /*-------- Festival Sale Landing Pages ------*/
