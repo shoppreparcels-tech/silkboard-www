@@ -131,6 +131,21 @@
     <priority>0.72</priority>
 </url>
 <url>
+    <loc>https://www.shoppre.com/nykaa-online-shopping</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.72</priority>
+</url>
+<url>
+<loc>https://www.shoppre.com/firstcry-online-shopping</loc>
+<changefreq>daily</changefreq>
+<priority>0.72</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/tatacliq-online-shopping</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.72</priority>
+</url>
+<url>
   <loc>https://www.shoppre.com/dhl</loc>
   <changefreq>daily</changefreq>
   <priority>0.60</priority>

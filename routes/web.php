@@ -644,7 +644,7 @@ Route::get('/new-year-offer', 'PageController@newyear')->name('newyear');
 Route::get('/university-offer', 'PageController@university')->name('university');
 Route::get('/radcon', 'PageController@radioContest')->name('radio');
 Route::get('/radcon-tc', 'PageController@radioTermsConditions')->name('radio.tc');
-Route::get('/shipping/drop-off-location', 'PageController@dropoffLocation')->name('dropoffLocation');
+Route::get('pag', 'PageController@dropoffLocation')->name('dropoffLocation');
 
 
 Route::get('/personal-shopper-shopping-concierge-from-india', 'PageController@personalShopper')->name('personalShopper');
@@ -680,6 +680,9 @@ Route::get('/ajio-online-shopping', 'PageController@ajioProduct')->name('ajio-pr
 Route::get('/myntra-online-shopping', 'PageController@myntraProduct')->name('myntra-product');
 Route::get('/amazon-online-shopping', 'PageController@amazonProduct')->name('amazon-product');
 Route::get('/limeroad-online-shopping', 'PageController@limeroadProduct')->name('limeroad-product');
+Route::get('/nykaa-online-shopping', 'PageController@nykaaProduct')->name('nykaa-product');
+Route::get('/firstcry-online-shopping', 'PageController@firstcryProduct')->name('firstcry-product');
+Route::get('/tatacliq-online-shopping', 'PageController@tatacliqProduct')->name('tatacliq-product');
 
 
 /*-------- Festival Sale Landing Pages ------*/

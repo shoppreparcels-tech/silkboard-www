@@ -498,6 +498,18 @@ class PageController extends Controller
     {
         return view('page.landing-pages.limeroad-product');
     }
+    public function nykaaProduct()
+    {
+        return view('page.landing-pages.nykaa-product');
+    }
+    public function firstcryProduct()
+    {
+        return view('page.landing-pages.firstcry-product');
+    }
+    public function tatacliqProduct()
+    {
+        return view('page.landing-pages.tatacliq-product');
+    }
 
     public function diwaliOffer() {
         return view('page.landing-pages.diwali');

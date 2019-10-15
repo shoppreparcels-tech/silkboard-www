@@ -217,7 +217,10 @@
                             </div>
                         </div>
                     </center>
+                    <br>
                 </div>
+
+
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
@@ -263,7 +266,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Diwali Carnival</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.firstcry.com/featuredoffer?cpid=218&c=TOP10FW&ref2=rbanner_fashion_4_23sep2019" target="_blank">
+                                <a href="/firstcry-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">FIRSTCRY</p>
                                 </a>
                             </div>
@@ -280,7 +283,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Beauty Bonanza</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Daily Dose Of Amazing Offers</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.nykaa.com/offers.html?root=nav_1" target="_blank">
+                                <a href="/nykaa-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">NYKAA</p>
                                 </a>
                             </div>
@@ -293,7 +296,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">dark blooms</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Shop By Story</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.tatacliq.com/wear-the-stories-you-love" target="_blank">
+                                <a href="/tatacliq-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">TATACLIQ</p>
                                 </a>
                             </div>

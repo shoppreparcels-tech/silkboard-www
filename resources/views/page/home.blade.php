@@ -600,9 +600,11 @@
                 </div>
                 <div class="  col-xs-3  div-stores-img">
                     <center class="online-stores">
+                        <a href="/firstcry-online-shopping">
                         <img class="img-responsive img-stores"
                              src="{{env('AWS_CLOUD_FRONT')}}/img/product/first-cry-shopping.png"
-                             alt="homeshop18.com best deal shopping shipping">
+                             alt="firstcry best deal shopping shipping">
+                        </a>
                     </center>
                 </div>
                 <div class="col-xs-3 div-stores-img">
@@ -625,9 +627,11 @@
                 </div>
                 <div class=" col-xs-3 div-stores-img" id="hidestore">
                     <center class="online-stores">
+                        <a href="/tatacliq-online-shopping">
                         <img class="img-responsive img-stores"
                              src="{{env('AWS_CLOUD_FRONT')}}/img/product/tata-cliq.png"
-                             alt="ebay.in online shopping site in india">
+                             alt="tatacliq online shopping site in india">
+                        </a>
                     </center>
                 </div>
                 <div class="col-xs-3 div-stores-img">
@@ -641,9 +645,11 @@
                 </div>
                 <div class="col-xs-3 div-stores-img" id="store-hide">
                     <center class="online-stores">
+                        <a href="/nykaa-online-shopping">
                         <img class="img-responsive img-stores"
                              src="{{env('AWS_CLOUD_FRONT')}}/img/product/nykaa-india.png"
-                             alt="infibeam.com latest deals on shopping">
+                             alt="nykaa">
+                        </a>
                     </center>
                 </div>
             </center>
