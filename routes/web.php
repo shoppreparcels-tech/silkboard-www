@@ -683,6 +683,8 @@ Route::get('/limeroad-online-shopping', 'PageController@limeroadProduct')->name(
 Route::get('/nykaa-online-shopping', 'PageController@nykaaProduct')->name('nykaa-product');
 Route::get('/firstcry-online-shopping', 'PageController@firstcryProduct')->name('firstcry-product');
 Route::get('/tatacliq-online-shopping', 'PageController@tatacliqProduct')->name('tatacliq-product');
+Route::get('/lifestylestores-online-shopping', 'PageController@lifestylestoresProduct')->name('lifestylestores-product');
+Route::get('/pepperfry-online-shopping', 'PageController@pepperfryProduct')->name('pepperfry-product');
 
 
 /*-------- Festival Sale Landing Pages ------*/

@@ -510,6 +510,14 @@ class PageController extends Controller
     {
         return view('page.landing-pages.tatacliq-product');
     }
+    public function lifestylestoresProduct()
+    {
+        return view('page.landing-pages.lifestylestores-product');
+    }
+    public function pepperfryProduct()
+    {
+        return view('page.landing-pages.pepperfry-product');
+    }
 
     public function diwaliOffer() {
         return view('page.landing-pages.diwali');

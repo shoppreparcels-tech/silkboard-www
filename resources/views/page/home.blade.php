@@ -166,11 +166,18 @@
         }
 
         .box-margin-top {
-            margin-top: 17%;
+            margin-top: 18%;
+
         }
 
         .cord-height {
             height: 160px
+        }
+
+        .arrow-box {
+            position: absolute;
+            bottom: 25%;
+            right: 40%;
         }
 
         .fuid-padding {
@@ -364,7 +371,7 @@
                 right: 32%;
             }
             .box-margin-top {
-                margin-top: 20%;
+                margin-top: 35%;
             }
         }
     </style>
@@ -425,7 +432,7 @@
                         </div>
                         <div class="col-md-10 col-xs-10 pad-0-15">
                             <h1 class="f-s-32 f-c-white f-w-8">
-                                International Shipping from India starting at just <span
+                                International Shipping from INDIA starting at just <span
                                         class="p-color-red">*₹566</span>!
                             </h1>
                         </div>
@@ -564,7 +571,7 @@
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Myntra.com</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Myntra Fashionotsav</span> & Ship @Cheap-Cost Internationally</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Myntra</span> & Ship @Cheap-Cost Internationally</p>
                         </div>
                         </div>
                         </a>
@@ -778,7 +785,7 @@
                     <center class="online-stores">
                         <a href="{{route('flipkart.landing')}}">
                             <img class="img-responsive img-stores"
-                            src="{{env('AWS_CLOUD_FRONT')}}/img/product/flipkart-online-shipping.png"
+                            src="{{env('AWS_CLOUD_FRONT')}}/img/product/flipkart-online-shipping-india.png"
                              alt="flipkart.com international delivery shipping"></a>
                     </center>
                 </div>
@@ -802,9 +809,11 @@
                 </div>
                 <div class=" col-xs-3  div-stores-img">
                     <center class="online-stores">
+                        <a href="/lifestylestores-online-shopping">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/jabong-online-fashion-shopping.png"
-                             alt="jabong.com shipping international">
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/product/lifestyle-store-india.png"
+                             alt="lifestyle shipping international">
+                        </a>
                     </center>
                 </div>
                 <div class="  col-xs-3  div-stores-img">

@@ -253,7 +253,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Mega Diwali Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up To 50% Off</h5>
                             <div class="ecomSmallBox" >
-                                <a href="https://www.pepperfry.com/furniture-sale.html" target="_blank">
+                                <a href="/pepperfry-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">PEPPERFRY</p>
                                 </a>
                             </div>
@@ -319,11 +319,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">globaldesi</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">New Arrivals</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">DIL SE DIWALI</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Half Price Sale‎</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.shoppersstop.com/brand/global%20desi?sort=newArrival-desc&q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3AGLOBAL+DESI&startRange=&endRange=&icid=newlaunch|homepg|1-1|globaldesi" target="_blank">
-                                    <p class="header3 p-color-cement-dark font-weight-900">SHOPPERSSTOP</p>
+                                <a href="/lifestylestores-online-shopping" target="_blank">
+                                    <p class="header3 p-color-cement-dark font-weight-900">Lifestyle</p>
                                 </a>
                             </div>
                         </div>
