@@ -161,7 +161,212 @@
     </script>
 
     <style>
-        .cord-header-size{font-size:16px}.cord-height{height:160px}.fuid-padding{padding-left:5%;padding-right:5%}.div-shop-ship1>div{padding-top:10px;padding-bottom:10px}.div-shop-ship1>div>p{text-align:center}.div-main .div-add{position:fixed;margin-top:20%;z-index:1}.div-main .div-add1{position:relative;float:right}.div-h-offer{border-radius:15px;background-color:#fff;padding:20px}.div-h-offer>div{padding-top:10px}.h-div{height:40px;overflow:hidden}.img-div{padding-top:10px;overflow:hidden}.des-div{height:150px;overflow:hidden}.des-div-rakhi{height:210px;overflow:hidden}.div-s-br{border-radius:3px;border:1px solid #677582}.h-s-a>div>a>div:hover{background-color:#507dbc;color:#fff;transition:.3s}.h-s-a a:hover{background-color:#507dbc;color:#fff}.vid-s-img{width:100%}.h-sign-up{display:block}.pad-0-40{padding:40px}.pad-0-10{padding-right:5px;padding-left:5px}.pad-0-15{padding-right:15px;padding-left:15px}.offer-img-m{display:none}.offer-img-d{display:block}.pad-l-d{padding:0}.seo-hyperlinks ul{list-style:none}.seo-hyperlinks ul li{font-size:14px;color:#677582;margin-top:5px}.seo-hyperlinks ul li a{color:#677582}@media only screen and (max-width:1024px){.div-add{display:none}.mobile-pickup-block{display:none}}@media only screen and (max-width:1280px){.div-add{display:none}.mobile-pickup-block{display:none}}@media only screen and (max-width:600px){#img-p{display:none}.mobile-pickup-block{display:block}.h-sign-up{display:none}.pad-0-40{padding:5px}.pad-0-10{padding-right:5px;padding-left:5px}.offer-img-m{display:block}.offer-img-d{display:none}.fuid-padding{padding-left:3%;padding-right:3%}.des-div{height:140px;overflow:hidden}.vid-s-img{width:30%}.pad-0-15{padding:0}.pad-l-d{padding-left:10%}}
+        .cord-header-size {
+            font-size: 16px
+        }
+
+        .box-margin-top {
+            margin-top: 17%;
+        }
+
+        .cord-height {
+            height: 160px
+        }
+
+        .fuid-padding {
+            padding-left: 5%;
+            padding-right: 5%
+        }
+
+        .div-shop-ship1>div {
+            padding-top: 10px;
+            padding-bottom: 10px
+        }
+
+        .div-shop-ship1>div>p {
+            text-align: center
+        }
+
+        .div-main .div-add {
+            position: fixed;
+            margin-top: 20%;
+            z-index: 1
+        }
+
+        .div-main .div-add1 {
+            position: relative;
+            float: right
+        }
+
+        .div-h-offer {
+            border-radius: 15px;
+            background-color: #fff;
+            padding: 20px
+        }
+
+        .div-h-offer>div {
+            padding-top: 10px
+        }
+
+        .h-div {
+            height: 40px;
+            overflow: hidden
+        }
+
+        .img-div {
+            padding-top: 10px;
+            overflow: hidden
+        }
+
+        .des-div {
+            height: 150px;
+            overflow: hidden
+        }
+
+        .des-div-rakhi {
+            height: 210px;
+            overflow: hidden
+        }
+
+        .div-s-br {
+            border-radius: 3px;
+            border: 1px solid #677582
+        }
+
+        .h-s-a>div>a>div:hover {
+            background-color: #507dbc;
+            color: #fff;
+            transition: .3s
+        }
+
+        .h-s-a a:hover {
+            background-color: #507dbc;
+            color: #fff
+        }
+
+        .vid-s-img {
+            width: 100%
+        }
+
+        .h-sign-up {
+            display: block
+        }
+
+        .pad-0-40 {
+            padding: 40px
+        }
+
+        .pad-0-10 {
+            padding-right: 5px;
+            padding-left: 5px
+        }
+
+        .pad-0-15 {
+            padding-right: 15px;
+            padding-left: 15px
+        }
+
+        .offer-img-m {
+            display: none
+        }
+
+        .offer-img-d {
+            display: block
+        }
+
+        .pad-l-d {
+            padding: 0
+        }
+
+        .seo-hyperlinks ul {
+            list-style: none
+        }
+
+        .seo-hyperlinks ul li {
+            font-size: 14px;
+            color: #677582;
+            margin-top: 5px
+        }
+
+        .seo-hyperlinks ul li a {
+            color: #677582
+        }
+
+        @media only screen and (max-width:1024px) {
+            .div-add {
+                display: none
+            }
+            .mobile-pickup-block {
+                display: none
+            }
+            .arrow-box {
+                position: absolute;
+                bottom: 28px;
+                right: 42%;
+            }
+            .box-margin-top {
+                margin-top: 15%;
+            }
+        }
+
+        @media only screen and (max-width:1280px) {
+            .div-add {
+                display: none
+            }
+            .mobile-pickup-block {
+                display: none
+            }
+        }
+
+        @media only screen and (max-width:600px) {
+            #img-p {
+                display: none
+            }
+            .mobile-pickup-block {
+                display: block
+            }
+            .h-sign-up {
+                display: none
+            }
+            .pad-0-40 {
+                padding: 5px
+            }
+            .pad-0-10 {
+                padding-right: 5px;
+                padding-left: 5px
+            }
+            .offer-img-m {
+                display: block
+            }
+            .offer-img-d {
+                display: none
+            }
+            .fuid-padding {
+                padding-left: 3%;
+                padding-right: 3%
+            }
+            .des-div {
+                height: 140px;
+                overflow: hidden
+            }
+            .vid-s-img {
+                width: 30%
+            }
+            .pad-0-15 {
+                padding: 0
+            }
+            .pad-l-d {
+                padding-left: 10%
+            }
+            .arrow-box {
+                position: absolute;
+                bottom: 28px;
+                right: 32%;
+            }
+            .box-margin-top {
+                margin-top: 20%;
+            }
+        }
     </style>
 
 @endsection
@@ -219,7 +424,7 @@
                             </center>
                         </div>
                         <div class="col-md-10 col-xs-10 pad-0-15">
-                            <h1 class="f-s-32 f-c-white f-w-8 ">
+                            <h1 class="f-s-32 f-c-white f-w-8">
                                 International Shipping from India starting at just <span
                                         class="p-color-red">*₹566</span>!
                             </h1>
@@ -229,10 +434,11 @@
                         <div class="col-md-4 col-xs-4 pad-r-5 ">
                             <a class="f-s-18 f-c-white" href="/shop-from-india-ship-worldwide">
                                 <div class="col-xs-12 col-md-12 pad-0-20 div-s-br cord-height">
-                                    <h5 class="f-s-18 f-c-white txt-a-c"> Shop from India
-                                        & <br> Ship Worldwide <br></h5>
+                                    <h5 class="f-s-18 f-c-white txt-a-c box-margin-top"> Shop from India
+                                        <br> & <br> Ship Worldwide <br></h5>
                                     <center>
-                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/arrow-home.png" class="pad-t-20  "
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/arrow-home.png"
+                                             class="pad-t-20 arrow-box"
                                              alt="Ship Worldwide">
                                     </center>
                                 </div>
@@ -241,10 +447,12 @@
                         <div class="col-md-4 col-xs-4 pad-0-10">
                             <a class="f-s-18 f-c-white" href="/personal-shopper-india">
                                 <div class="col-xs-12 col-md-12 pad-0-20 div-s-br cord-height">
-                                    <h5 class="f-s-18 f-c-white txt-a-c"> Personal Shopper <br>
-                                        (Assisted Purchase) <br></h5>
+                                    <h5 class="f-s-18 f-c-white txt-a-c box-margin-top"> Personal Shopper <br>
+                                        (Assisted Purchase) <br>
+                                    </h5>
                                     <center>
-                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/arrow-home.png" class="pad-t-20"
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/arrow-home.png"
+                                             class="pad-t-20 arrow-box"
                                              alt="Personal Shopper">
                                     </center>
                                 </div>
@@ -253,10 +461,11 @@
                         <div class="col-md-4 col-xs-4 pad-l-5">
                             <a class="f-s-18 f-c-white" href="{{route('schedulePickup.Index')}}">
                                 <div class="col-xs-12 col-md-12 pad-0-20 div-s-br cord-height">
-                                    <h5 class="f-s-18 f-c-white txt-a-c">Best Courier Service
+                                    <h5 class="f-s-18 f-c-white txt-a-c box-margin-top">Best Courier Service
                                         <br>(Schedule Pickup)<br></h5>
                                     <center>
-                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/arrow-home.png" class="pad-t-20  "
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/arrow-home.png"
+                                             class="pad-t-20 arrow-box"
                                              alt="International Courier">
                                     </center>
                                 </div>
