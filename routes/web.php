@@ -565,6 +565,8 @@ Route::get('/dtdc/shipment/{id}', 'ShippingPartnerController@dtdcShipmentDetail'
 /*-------- shoppre story ------*/
 Route::get('/stories', 'StoryController@index')->name('story.index');
 Route::get('/story/{slug}', 'StoryController@view')->name('story.detail');
+Route::get('/cuelink', 'cuelinkController@index')->name('cuelink');
+
 
 /*-------- Country Specific ------*/
 Route::get('/country-specific', 'PageController@getCountry')->name('home.country-specific');
@@ -815,6 +817,8 @@ Route::post('/api-domestic', 'PageController@apiDomesticPricing')->name('apiPric
 
 Route::get('/{slug}', 'PageController@viewPage')->name('page');
 /*-------- landing pages------*/
+
+
 
 
 

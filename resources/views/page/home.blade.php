@@ -441,7 +441,7 @@
                         <div class="col-md-4 col-xs-4 pad-r-5 ">
                             <a class="f-s-18 f-c-white" href="/shop-from-india-ship-worldwide">
                                 <div class="col-xs-12 col-md-12 pad-0-20 div-s-br cord-height">
-                                    <h5 class="f-s-18 f-c-white txt-a-c box-margin-top"> Shop from India
+                                    <h5 class="f-s-18 f-c-white txt-a-c box-margin-top"> Shop from INDIA
                                         <br> & <br> Ship Worldwide <br></h5>
                                     <center>
                                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/arrow-home.png"
