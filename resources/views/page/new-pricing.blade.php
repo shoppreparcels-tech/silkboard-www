@@ -277,7 +277,7 @@
                         <center>
                             <a href="/diwali-offer" target="_blank">
 {{--                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png" --}}
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-2019-offer-shipping.png"
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-offer-d-new-shipping.png"
                                      alt="diwali shipping offer" class="img-responsive">
                             </a>
                         </center>

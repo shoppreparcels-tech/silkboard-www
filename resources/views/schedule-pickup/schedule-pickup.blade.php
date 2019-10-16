@@ -153,7 +153,7 @@
                 <br>
                 <a href="/diwali-offer" target="_blank">
 {{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"--}}
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-2019-offer-shipping.png"
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-offer-d-new-shipping.png"
                          alt="shoppre diwali offer" title="Click Here" class="img-responsive">
                 </a>
             </div>

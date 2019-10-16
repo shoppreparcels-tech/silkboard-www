@@ -278,7 +278,7 @@
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
                         <div class="col-md-12 col-xs-12">
                             <a href="/diwali-offer" target="_blank">
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-2019-offer-shipping.png" class="img-f-w offer-img-d"
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-offer-d-new-shipping.png" class="img-f-w offer-img-d"
                                         alt="diwali shipment offer"></a>
                             <a href="/diwali-offer" target="_blank"><img
                                         src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-2019-shipping-cashback.png"
