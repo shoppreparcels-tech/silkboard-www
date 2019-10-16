@@ -70,19 +70,19 @@
             <div class="row text-center">
                 <div class="col-sm-4">
                     <a href="/myntra-online-shopping" target="_blank"><div class="shopandship ">
-                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">🛍️ FASHIONOTSAV</h2>
+                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">🥻 TRADITIONAL TALES</h2>
                             <br/>
-                            <p>50 - 80% Off</p>
-                            <p>12th - 15th OCT</p>
+                            <p>Min. 30% Off</p>
+                            <p>Traditional Sarees</p>
                             <p>👉 Explore Now</p>
                         </div></a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/saree-fest-sep19" target="_blank"><div class="ps">
-                            <h2>🥻 Traditional Tales</h2>
+                    <a href="https://www.myntra.com/sports-shoes?f=Gender%3Amen%2Cmen%20women" target="_blank"><div class="ps">
+                            <h2>👟 Sport Shoes</h2>
                             <br/>
-                            <p>Starts from ₹349/-</p>
-                            <p>Sarees & Blouse</p>
+                            <p>Up To 60% Off</p>
+                            <p>Sports Shoes For Men And Women</p>
                             <p>Explore Now</p>
                     </div>
                     </a>

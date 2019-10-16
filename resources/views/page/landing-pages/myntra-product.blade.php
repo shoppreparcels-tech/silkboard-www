@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Myntra (Fashionotsav 12-15 Oct) | Online Shopping from India')
+@section('title', 'Myntra | Online Shopping from India')
 @section('description', 'Shopping For Apparel, Accessories, Footwear & More At the Comfort Of Your Home')
 @section('keywords', 'men, women, sale, india, shopping')
 
@@ -316,9 +316,10 @@
 
 @endsection
 @section('content')
+
     <section class="first-time-shipment header-section" style="padding-top: 50px !important;">
         <div class="container no-padding banner">
-            <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>MYNTRA FASHIONOTSAV</i></p>
+            <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>MYNTRA Online Fashion Store</i></p>
             <div class="col-md-6 col-xs-12" style="padding-top: 7%">
                 <center><p class="m-t-sm f-s-30">Why Worries Re, <span
                             style="font-family: Bahnschrift">Just ShoppRe!</span></p></center>
@@ -349,25 +350,79 @@
         </div>
     </section>
     <section>
-        <div class="container fst-service" style="margin-top: 36px;">
+        <div class="container fst-service" style="margin-top: 25px;">
             <div class="row">
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Myntra Fashionotsav (12-15 Oct). Ship worldwide with us.</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Myntra Fashion Store. Ship worldwide with ShoppRe.</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center margin-tp">
-                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Click on Online Chat
-                        for Live Support
-                        <br> Right side Bottom of the page)</p>
-                    {{--                    <div class="">--}}
-                    {{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20I%20Love%20to%20Send%20Diwali,%20Gifts%20and%20Sweets%20from%20India" target="_blank">--}}
-                    {{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
-                    {{--                            <span class="font-16">+91-7338208403</span>--}}
-                    {{--                        </a>--}}
-                    {{--                    </div>--}}
+{{--                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Click on Online Chat--}}
+{{--                        for Live Support--}}
+{{--                        <br> Right side Bottom of the page)</p>--}}
+                                        <div class="">
+                                            <a href="http://bit.ly/shpr-ipfs" target="_blank">
+                                                <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >
+                                                <span class="font-16"></span>
+                                            </a>
+                                        </div>
                 </div>
             </div>
 
             <div class="row text-center">
+                <p class="f-s-22 f-c-l-gray f-w-7"><span class="f-s-22 f-c-red f-w-9">Traditional Tales <a href="https://www.myntra.com/saree-fest-sep19?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank">
+                            👉 (Min. 30% OFF)</a></span></p>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <img class="img-product m-t-img"
+                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7999577/2018/12/13/ed7d8c67-78ba-4358-b151-491618dd11861544696232082-Saree-mall-Orange--Navy-Blue-Embellished-Saree-2861544696231-1.jpg">
+                        <div class="check-price-padd">
+                            <a href="https://www.myntra.com/sarees/saree-mall/saree-mall-orange--navy-blue-embellished-saree/7999577/buy" target="_blank"> <span
+                                    class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right">
+                        <img class="img-product m-t-img"
+                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/6984149/2018/7/19/afbbdfd3-fd72-48d9-82ab-e07400ef045a1532000677681-Shaily-Maroon-Banarasi-Silk-Embellished-Saree-1791532000677484-1.jpg">
+                        <div class="check-price-padd">
+                            <a href="https://www.myntra.com/sarees/shaily/shaily-maroon-pure-silk-woven-design-banarasi-saree/6984149/buy" target="_blank">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right">
+                        <img class="img-product m-t-img"
+                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2325845/2017/12/11/11512997037580-Ishin-Bhagalpuri-Art-Silk-Orange--Blue-Printed-Womens-SareeSari-3591512997037498-1.jpg">
+                        <div class="check-price-padd">
+                            <a href="https://www.myntra.com/sarees/ishin/ishin-orange--blue-art-silk-woven-design-bhagalpuri-saree/2325845/buy"
+                               target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right">
+                        <img class="img-product m-t-img "
+                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/10196519/2019/7/22/2f3bb290-b27b-4ce4-a06c-3fe5a06571191563778764952-The-Chennai-Silks---Pure-Kanjivaram-Silk-Saree-4401563778763-1.jpg">
+                        <div class="check-price-padd">
+                            <a href="https://www.myntra.com/sarees/the-chennai-silks/the-chennai-silks-classicate-olive-green-woven-design-pure-silk-kanjeevaram-saree/10196519/buy"
+                               target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
                         <img class="img-product m-t-img"
@@ -419,6 +474,8 @@
                         </div>
                     </div>
                 </div>
+
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right">
                         <img class="img-product m-t-img "

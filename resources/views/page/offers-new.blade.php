@@ -180,8 +180,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">fashionotsav</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">12th - 15th OCT</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Traditional Tales</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Min. 30% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">
