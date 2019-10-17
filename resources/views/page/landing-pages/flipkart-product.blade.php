@@ -1,12 +1,13 @@
 @extends('layout')
 
-@section('title', 'Flipkart Big Diwali Sale | Cheap Online Shopping from India')
+@section('title', 'Flipkart Offer & Sale | Cheap Online Shopping from India')
 @section('description', 'Big Diwali Sale 2019 Dates and Offers. Shopping from Flipkart India online and get ₹250 cashback on Shipping with ShoppRe. ')
 @section('keywords', 'diwali sale, flipkart usa, shipping from india')
 
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/flipkart-online-shopping" />
+    <meta name="robots" content="nofollow" />
 
     <style>
         .zoom {
@@ -81,53 +82,53 @@
 
 @endsection
 @section('content')
-    <section class="first-time-shipment header-section" style="padding-top: 50px !important;">
-        <div class="container no-padding banner">
-                <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>Flipkart Big Diwali Sale Your Favourite Shopping Festival</i></p>
-                <div class="col-md-6 col-xs-12" style="padding-top: 7%">
-                   <center> <p class="m-t-sm f-s-30">Why Worries Re, <span style="font-family: Bahnschrift">Just ShoppRe!</span></p></center>
-                    <p class="f-c-white m-t-sm f-s-18 text-center">
-                        If you are in the quest for Indian Fashion & Lifestyle this Diwali for gifting purposes or just getting them for yourselves,
-                        then ShoppRe is here to ship all your favorite <span class="underline-color">Shopping & Shipping</span> at your doorsteps to add extra vibrancy to your Diwali (🪔)
-                    </p>
-                </div>
-                <div class="col-md-6 col-xs-12 no-padding">
+{{--    <section class="first-time-shipment header-section" style="padding-top: 50px !important;">--}}
+{{--        <div class="container no-padding banner">--}}
+{{--                <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>Flipkart Big Diwali Sale Your Favourite Shopping Festival</i></p>--}}
+{{--                <div class="col-md-6 col-xs-12" style="padding-top: 7%">--}}
+{{--                   <center> <p class="m-t-sm f-s-30">Why Worries Re, <span style="font-family: Bahnschrift">Just ShoppRe!</span></p></center>--}}
+{{--                    <p class="f-c-white m-t-sm f-s-18 text-center">--}}
+{{--                        If you are in the quest for Indian Fashion & Lifestyle this Diwali for gifting purposes or just getting them for yourselves,--}}
+{{--                        then ShoppRe is here to ship all your favorite <span class="underline-color">Shopping & Shipping</span> at your doorsteps to add extra vibrancy to your Diwali (🪔)--}}
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--                <div class="col-md-6 col-xs-12 no-padding">--}}
 {{--                    <center>--}}
 {{--                        <img src="{{asset('img/images/tape_signup.svg')}}" alt="signup shoppre">  <br>--}}
 {{--                    </center>--}}
-                    <br>
-                    <center>
-                        <img src="{{asset('img/diwali/diwali-offer.png')}}" alt="Diwali offer india" > <br><br>
+{{--                    <br>--}}
+{{--                    <center>--}}
+{{--                        <img src="{{asset('img/diwali/diwali-offer.png')}}" alt="Diwali offer india" > <br><br>--}}
 {{--                        <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-g btn-a-l" target="_blank">Sign UP FREE</a>--}}
 
-                    </center>
-                </div>
-            </div>
-        <div class="image-banner">
-            <img src="{{asset('img/product/india-flipkart-big-diwali-sale-2019.png')}}" alt="flipkart big diwali sale" style="height: 430px; width: 100%;">
-        </div>
-    </section>
+{{--                    </center>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        <div class="image-banner">--}}
+{{--            <img src="{{asset('img/product/india-flipkart-big-diwali-sale-2019.png')}}" alt="flipkart big diwali sale" style="height: 430px; width: 100%;">--}}
+{{--        </div>--}}
+{{--    </section>--}}
     <section >
         <div class="container fst-service" style="margin-top: 36px;">
             <div class="row">
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Big Diwali Sale. Shop Flipkart & Ship Globally with ShoppRe.</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Flipkart & Ship Globally with ShoppRe.</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center margin-tp">
-                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Click on Online Chat for Live Support
-                        <br> Right side Bottom of the page)</p>
-{{--                    <div class="">--}}
-{{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20I%20Love%20to%20Send%20Diwali,%20Gifts%20and%20Sweets%20from%20India" target="_blank">--}}
-{{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
-{{--                            <span class="font-16">+91-7338208403</span>--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
+{{--                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Click on Online Chat for Live Support--}}
+{{--                        <br> Right side Bottom of the page)</p>--}}
+                    <div class="">
+                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%27m%20Looking%20for%20Flipkart%20Shopping" target="_blank">
+                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >
+                            <span class="font-16"></span>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
-                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/375/534/image/6bbf1e164c668785.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/image/612/612/jyeq64w0/book/5/4/0/you-are-the-best-wife-original-imafgkyugczdayt8.jpeg?q=70">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Soan Papdi <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -135,7 +136,7 @@
 {{--                            ₹150 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNmD" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://clnk.in/jQ5k" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -144,7 +145,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/375/534/image/6c76ed069da93dae.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/image/612/612/jed4sy80/book/3/0/5/life-is-what-you-make-it-original-imaf32hgmtznjbdc.jpeg?q=70">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Kaju Katli <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -152,7 +153,7 @@
 {{--                            ₹245 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.flipkart.com/mens-footwear/pr?count=40&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&sid=osp%2Fcil&p%5B%5D=facets.brand%255B%255D%3DPuma&p%5B%5D=facets.brand%255B%255D%3DProvogue&p%5B%5D=facets.brand%255B%255D%3DNike&p%5B%5D=facets.brand%255B%255D%3DVans&p%5B%5D=facets.brand%255B%255D%3DFila&p%5B%5D=facets.brand%255B%255D%3DWoodland&p%5B%5D=facets.brand%255B%255D%3DBata&p%5B%5D=facets.brand%255B%255D%3DLee%2BCooper&p%5B%5D=facets.brand%255B%255D%3DNewport&p%5B%5D=facets.brand%255B%255D%3DLevi%2527s&p%5B%5D=facets.brand%255B%255D%3DLotto&p%5B%5D=facets.brand%255B%255D%3DUnited%2BColors%2Bof%2BBenetton&p%5B%5D=facets.brand%255B%255D%3DSwiss%2BMilitary&p%5B%5D=facets.brand%255B%255D%3DPeter%2BEngland%2BPE&p%5B%5D=facets.brand%255B%255D%3DCarlton%2BLondon%2BMr.CL&p%5B%5D=facets.brand%255B%255D%3DMr.CL&p%5B%5D=facets.brand%255B%255D%3DPower&p%5B%5D=facets.brand%255B%255D%3DHush%2BPuppies&p%5B%5D=facets.brand%255B%255D%3DSkechers&p%5B%5D=facets.brand%255B%255D%3DIndigo%2BNation&p%5B%5D=facets.brand%255B%255D%3DMetronaut&p%5B%5D=facets.brand%255B%255D%3DU.S.%2BPolo%2BAssn&p%5B%5D=facets.brand%255B%255D%3DSlazenger&p%5B%5D=facets.brand%255B%255D%3DArrow&p%5B%5D=facets.brand%255B%255D%3DDC&p%5B%5D=facets.brand%255B%255D%3DLi-Ning&p%5B%5D=facets.brand%255B%255D%3DCrocs&p%5B%5D=facets.brand%255B%255D%3DAsics&p%5B%5D=facets.brand%255B%255D%3DAsics%2BTIGER&p%5B%5D=facets.brand%255B%255D%3DV%2BDot%2BVan%2BHeusen&p%5B%5D=facets.brand%255B%255D%3DWoods&p%5B%5D=facets.brand%255B%255D%3DFlying%2BMachine&p%5B%5D=facets.brand%255B%255D%3DClarks&p%5B%5D=facets.brand%255B%255D%3DRed%2BChief&p%5B%5D=facets.brand%255B%255D%3DNorth%2BStar&p%5B%5D=facets.brand%255B%255D%3DErke&p%5B%5D=facets.brand%255B%255D%3DConverse&p%5B%5D=facets.brand%255B%255D%3DJack%2B%2526%2BJones&p%5B%5D=facets.brand%255B%255D%3DFRANCO%2BLEONE&p%5B%5D=facets.brand%255B%255D%3DFranco%2BLeone&p%5B%5D=facets.brand%255B%255D%3DBond%2BStreet%2BBy%2BRed%2BTape&p%5B%5D=facets.brand%255B%255D%3DSan%2BFrissco&p%5B%5D=facets.brand%255B%255D%3DRed%2BTape&p%5B%5D=facets.brand%255B%255D%3DYonex&p%5B%5D=facets.brand%255B%255D%3DRuosh&p%5B%5D=facets.brand%255B%255D%3DVector%2BX&p%5B%5D=facets.brand%255B%255D%3DNivia&p%5B%5D=facets.brand%255B%255D%3DUnder%2BArmour&p%5B%5D=facets.brand%255B%255D%3DKenneth%2BCole&p%5B%5D=facets.brand%255B%255D%3DMizuno&p%5B%5D=facets.brand%255B%255D%3DNew%2BBalance&p%5B%5D=facets.brand%255B%255D%3DTOMS&p%5B%5D=facets.brand%255B%255D%3DKnotty%2BDerby&p%5B%5D=facets.brand%255B%255D%3DCall%2BIt%2BSpring&p%5B%5D=facets.brand%255B%255D%3DCarlton%2BLondon&p%5B%5D=facets.brand%255B%255D%3DSanta%2BMonica&p%5B%5D=facets.brand%255B%255D%3DQuiksilver&p%5B%5D=facets.brand%255B%255D%3DALDO&p%5B%5D=facets.brand%255B%255D%3DSuperdry&p%5B%5D=facets.brand%255B%255D%3DDiesel&p%5B%5D=facets.brand%255B%255D%3DWildcraft&p%5B%5D=facets.brand%255B%255D%3DBritish%2BKnights&p%5B%5D=facets.brand%255B%255D%3DPavers%2BEngland&p%5B%5D=facets.brand%255B%255D%3DVersace%2B19.69%2BItalia&p%5B%5D=facets.brand%255B%255D%3DScholl&p%5B%5D=facets.brand%255B%255D%3DBacca%2BBucci&p%5B%5D=facets.brand%255B%255D%3DAllen%2BCooper&p%5B%5D=facets.brand%255B%255D%3DVan%2BHeusen&p%5B%5D=facets.brand%255B%255D%3DADIDAS&p%5B%5D=facets.brand%255B%255D%3DADIDAS%2BNEO&p%5B%5D=facets.brand%255B%255D%3DADIDAS%2BORIGINALS&p%5B%5D=facets.brand%255B%255D%3DREEBOK&p%5B%5D=facets.brand%255B%255D%3DAllen%2BSolly&p%5B%5D=facets.brand%255B%255D%3DEd%2BHardy&p%5B%5D=facets.brand%255B%255D%3DStylar&p%5B%5D=facets.brand%255B%255D%3DKiller&p%5B%5D=facets.brand%255B%255D%3DLAWMAN%2BPG3&p%5B%5D=facets.brand%255B%255D%3DA-HA%2BBy%2BLiberty&p%5B%5D=facets.brand%255B%255D%3DCoolers%2B%2528By%2BLiberty%2529&p%5B%5D=facets.brand%255B%255D%3DGliders%2Bby%2BLiberty&p%5B%5D=facets.brand%255B%255D%3DForce%2B10%2BBy%2BLiberty&p%5B%5D=facets.brand%255B%255D%3DLiberty&p%5B%5D=facets.brand%255B%255D%3DDucati&p%5B%5D=facets.brand%255B%255D%3DPark%2BAvenue&p%5B%5D=facets.brand%255B%255D%3DParx&p%5B%5D=facets.brand%255B%255D%3DTommy%2BHilfiger&p%5B%5D=facets.brand%255B%255D%3DAeropostale&p%5B%5D=facets.brand%255B%255D%3DRaymond&p%5B%5D=facets.brand%255B%255D%3DA-GEAR&p%5B%5D=facets.brand%255B%255D%3DThe%2BNorth%2BFace&p%5B%5D=facets.brand%255B%255D%3DSparx&p%5B%5D=facets.brand%255B%255D%3DCampus&p%5B%5D=facets.brand%255B%255D%3DLancer&p%5B%5D=facets.brand%255B%255D%3DAsian&p%5B%5D=facets.brand%255B%255D%3DREEBOK%2BCLASSICS&p%5B%5D=facets.brand%255B%255D%3DFrench%2BConnection&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.discount_range_v1%255B%255D%3D40%2525%2Bor%2Bmore&otracker=clp_banner_2_8.bannerX3.BANNER_fashion-diwali-combat-sneak-peak-store_NINQ608TIVJ3&fm=neo%2Fmerchandising&iid=M_a26afc31-12b6-41a3-bc41-1c4f8e265953_8.NINQ608TIVJ3&ssid=zj6zl67vi80000001570700113859" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://clnk.in/jQ5m" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -161,7 +162,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/375/534/image/cd65f25e8523878b.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/image/612/612/k1mgu4w0/book/2/9/5/life-s-amazing-secrets-original-imaf76z4ah5wfree.jpeg?q=70">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Besan Laddu <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -169,7 +170,7 @@
 {{--                            ₹145 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNmN" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://clnk.in/jQ5n" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -178,7 +179,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/375/534/image/200acb2509367cb4.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/image/612/612/k0plpjk0/book/4/7/8/turning-points-a-journey-through-challanges-original-imaezet6hsayhzqh.jpeg?q=70">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Doodh Burfi <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -186,7 +187,7 @@
 {{--                            ₹145 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jNmO" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://clnk.in/jQ5p" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -609,5 +610,16 @@
     </section>
 @endsection
 
-{{--@section('js_script')--}}
-{{--@endsection--}}
+@section('js_script')
+    <script type="text/javascript">
+        var cId =  "52423";
+
+        (function(d, t) {
+            var s = document.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://cdn0.cuelinks.com/js/" : "http://cdn0.cuelinks.com/js/")  + "cuelinksv2.js";
+            document.getElementsByTagName("body")[0].appendChild(s);
+        }());
+    </script>
+@endsection

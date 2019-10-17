@@ -78,11 +78,11 @@
                         </div></a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/sports-shoes?f=Gender%3Amen%2Cmen%20women" target="_blank"><div class="ps">
-                            <h2>👟 Sport Shoes</h2>
+                    <a href="https://www.myntra.com/" target="_blank"><div class="ps">
+                            <h2>👨 MANTASTIC</h2>
                             <br/>
-                            <p>Up To 60% Off</p>
-                            <p>Sports Shoes For Men And Women</p>
+                            <p>40-70% Off</p>
+                            <p>17th - 18th Oct</p>
                             <p>Explore Now</p>
                     </div>
                     </a>

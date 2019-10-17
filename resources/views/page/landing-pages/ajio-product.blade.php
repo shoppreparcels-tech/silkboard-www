@@ -111,17 +111,17 @@
         <div class="container fst-service" style="margin-top: 36px;">
             <div class="row">
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Sparkling Sale(10-16 Oct). Shop AJIO & Ship Globally with ShoppRe.</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Sparkling Sale(10-21 Oct). Shop AJIO & Ship Globally with ShoppRe.</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center margin-tp">
-                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Click on Online Chat for Live Support
-                        <br> Right side Bottom of the page)</p>
-{{--                    <div class="">--}}
-{{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20I%20Love%20to%20Send%20Diwali,%20Gifts%20and%20Sweets%20from%20India" target="_blank">--}}
-{{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
-{{--                            <span class="font-16">+91-7338208403</span>--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
+{{--                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Click on Online Chat for Live Support--}}
+{{--                        <br> Right side Bottom of the page)</p>--}}
+                    <div class="">
+                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20AJIO%20International%20Shipping" target="_blank">
+                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >
+                            <span class="font-16"></span>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="row text-center">
