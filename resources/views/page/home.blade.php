@@ -357,7 +357,7 @@
                 overflow: hidden
             }
             .vid-s-img {
-                width: 30%
+                width: 88%;
             }
             .pad-0-15 {
                 padding: 0
