@@ -329,6 +329,12 @@
             #img-p {
                 display: none
             }
+            .m-l-content {
+                margin-left: 45px;
+            }
+            .f-s-19 {
+                font-size: 19px;
+            }
             .mobile-pickup-block {
                 display: block
             }
@@ -357,7 +363,7 @@
                 overflow: hidden
             }
             .vid-s-img {
-                width: 88%;
+                width: 85px;
             }
             .pad-0-15 {
                 padding: 0
@@ -431,7 +437,7 @@
                             </center>
                         </div>
                         <div class="col-md-10 col-xs-10 pad-0-15">
-                            <h1 class="f-s-32 f-c-white f-w-8">
+                            <h1 class="f-s-19 f-s-30 f-c-white f-w-8 m-l-content">
                                 International Shipping from INDIA starting at just <span
                                         class="p-color-red">*₹566</span>!
                             </h1>
