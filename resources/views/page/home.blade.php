@@ -580,12 +580,12 @@
                         <a href="/amazon-online-shopping" title="Click Here" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">AMAZON GREAT INDIAN FESTIVAL</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">DIWALI MELA</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40-90% OFF</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Festive Store</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">13th - 17th OCT</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Gifts for your Loved Ones</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Amazon.in</span></p>
                             <br>
@@ -596,15 +596,15 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://clnk.in/jQ44" title="Know More" target="_blank">
+                        <a href="/flipkart-online-shopping" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">STOCK CLEARANCE SALE</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">BIG DIWALI SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Up to 80% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Shop While It Lasts</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">21st - 25th OCT</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Flipkart.com</span></p>
                             <br>
@@ -827,9 +827,9 @@
                 </div>
                 <div class="col-xs-3 div-stores-img">
                     <center class="online-stores">
-                        <a href="https://ship.shoppre.com/online-stores-india/snapdeal-international-delivery-shopping-from-india/" target="_blank">
+                        <a href="/fabindia-online-shopping" target="_blank">
                         <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/stores/snapdeal-indian-e-commerce-company.png"
+                             src="{{env('AWS_CLOUD_FRONT')}}/img/product/fabindia-india-shoppre.png"
                              alt="snapdeal.com indian e-commerce company">
                         </a>
                     </center>
@@ -989,7 +989,7 @@
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 147px;">
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">242 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">243 Google Reviews</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787 ">Shipping and Delivery Service</p>

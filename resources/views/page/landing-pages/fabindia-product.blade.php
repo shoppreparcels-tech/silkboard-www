@@ -1,12 +1,13 @@
 @extends('layout')
 
-@section('title', 'Amazon Great Indian Sale | Diwali Mela | ShoppRe')
+@section('title', 'Fabindia Online Shopping from India | ShoppRe')
 @section('description', '')
 @section('keywords', '')
 
 @section('css_style')
 
-    <link rel="canonical" href="https://www.shoppre.com/amazon-online-shopping" />
+    <link rel="canonical" href="https://www.shoppre.com/fabindia-online-shopping" />
+    <meta name="robots" content="nofollow" />
 
     <style>
         .zoom {
@@ -84,8 +85,7 @@
 
 {{--    <section class="first-time-shipment header-section" style="padding-top: 50px !important;">--}}
 {{--        <div class="container no-padding banner">--}}
-{{--                <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>Amazon Great Indian Sale--}}
-{{--                        <br> Your Favourite Shopping Festival</i></p>--}}
+{{--                <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>Flipkart Big Diwali Sale Your Favourite Shopping Festival</i></p>--}}
 {{--                <div class="col-md-6 col-xs-12" style="padding-top: 7%">--}}
 {{--                   <center> <p class="m-t-sm f-s-30">Why Worries Re, <span style="font-family: Bahnschrift">Just ShoppRe!</span></p></center>--}}
 {{--                    <p class="f-c-white m-t-sm f-s-18 text-center">--}}
@@ -102,21 +102,20 @@
 {{--                </div>--}}
 {{--            </div>--}}
 {{--        <div class="image-banner">--}}
-{{--            <img src="{{asset('img/product/amazon-online-shopping-india.png')}}" alt="mazon great festival" style="height: 430px; width: 100%;">--}}
+{{--            <img src="{{asset('img/product/india-flipkart-big-diwali-sale-2019.png')}}" alt="flipkart big diwali sale" style="height: 430px; width: 100%;">--}}
 {{--        </div>--}}
 {{--    </section>--}}
+
 
     <section >
         <div class="container fst-service" style="margin-top: 36px;">
             <div class="row">
-                <br>
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop from Amazon India & Ship Globally with Your ShoppRe Address.</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop your Fabindia Traditions with ShoppRe Address for worldwide delivery!</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center margin-tp">
-
                     <div class="">
-                        <a href="http://bit.ly/shpr-ipfs" target="_blank">
+                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20Fabindia" target="_blank">
                             <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >
                             <span class="font-16"></span>
                         </a>
@@ -126,7 +125,7 @@
             <div class="row text-center">
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
-                            <img class="img-product m-t-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2019/Diwali/W2/PBpage/Teaser/2kurti.jpg" alt="signup shoppre">
+                            <img class="img-product m-t-img" src="https://www.fabindia.com/file/general/rajwada-fea-20.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Soan Papdi <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -134,7 +133,7 @@
 {{--                            ₹150 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/s?i=apparel&bbn=1968253031&rh=n%3A1571271031%2Cn%3A%211571272031%2Cn%3A1953602031%2Cn%3A1968253031%2Cn%3A1968255031%2Cp_n_feature_nineteen_browse-bin%3A14852585031&s=price-asc-rank&dc&fst=as%3Aoff&pf_rd_i=15390370031&pf_rd_i=15390370031&pf_rd_m=A1K21FY43GMZF8&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=2f1c8e59-9e56-4065-b083-049d4c8cd373&pf_rd_p=7f8405f5-470a-412c-bd78-ebc5c141f12f&pf_rd_r=KNWQ6SDRPXH38HEQEJHJ&pf_rd_r=P6WZF1RYN8MEPZAH6J7Q&pf_rd_s=merchandised-search-10&pf_rd_s=merchandised-search-10&pf_rd_t=101&pf_rd_t=101&qid=1568199411&rnid=1968253031&ref=sr_nr_n_2" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/collection/rajwada" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -143,7 +142,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2019/Diwali/W2/PBpage/Teaser/4top.jpg">
+                            <img class="img-product m-t-img" src="https://www.fabindia.com/file/general/kids_fea-20.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Kaju Katli <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -151,7 +150,7 @@
 {{--                            ₹245 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/s?i=fashion&bbn=16491484031&rh=n%3A6648217031%2Cn%3A%216648222031%2Cn%3A%216648224031%2Cn%3A16491484031%2Cn%3A7459780031%2Cn%3A1953602031%2Cn%3A11400137031%2Cn%3A1968542031%2Cn%3A1968543031&dc&field-pct-off-with-tax=00-&fst=as%3Aoff&pf_rd_i=15390370031&pf_rd_i=15390370031&pf_rd_i=16491484031&pf_rd_m=A1K21FY43GMZF8&pf_rd_m=A1K21FY43GMZF8&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=2f1c8e59-9e56-4065-b083-049d4c8cd373&pf_rd_p=7f8405f5-470a-412c-bd78-ebc5c141f12f&pf_rd_p=c2a34733-b7f0-49d5-8501-2c217c198c97&pf_rd_r=D8TTRFK2J96S6GKFCYRK&pf_rd_r=KNWQ6SDRPXH38HEQEJHJ&pf_rd_r=P6WZF1RYN8MEPZAH6J7Q&pf_rd_s=merchandised-search-10&pf_rd_s=merchandised-search-10&pf_rd_s=merchandised-search-4&pf_rd_t=101&pf_rd_t=101&pf_rd_t=101&qid=1569696762&rnid=1968542031&ref=sr_nr_n_1" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/shop/kids-clothing" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -160,7 +159,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2019/Diwali/W2/PBpage/Teaser/1ma.jpg">
+                            <img class="img-product m-t-img" src="https://www.fabindia.com/file/general/beauty_20-sep.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Besan Laddu <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -168,7 +167,7 @@
 {{--                            ₹145 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/s?i=fashion&bbn=16491484031&rh=n%3A6648217031%2Cn%3A%216648222031%2Cn%3A%216648224031%2Cn%3A16491484031%2Cn%3A7459781031%2Cn%3A1968024031%2Cn%3A1968093031&dc&fst=as%3Aoff&pf_rd_i=15390370031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=7f8405f5-470a-412c-bd78-ebc5c141f12f&pf_rd_r=P6WZF1RYN8MEPZAH6J7Q&pf_rd_s=merchandised-search-10&pf_rd_t=101&qid=1570454768&rnid=1968024031&ref=sr_nr_n_2" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/shop/beauty" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -177,7 +176,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2019/Diwali/W2/PBpage/Teaser/3shoe.jpg">
+                            <img class="img-product m-t-img " src="https://www.fabindia.com/file/general/featured-home-05.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Doodh Burfi <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -185,16 +184,19 @@
 {{--                            ₹145 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/s?bbn=1983518031&rh=n%3A1571283031%2Cn%3A%211571284031%2Cn%3A1983396031%2Cn%3A1983518031%2Cp_n_feature_nineteen_browse-bin%3A14917613031&dc&fst=as%3Aoff&pf_rd_i=15390370031&pf_rd_i=15390370031&pf_rd_m=A1K21FY43GMZF8&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=2f1c8e59-9e56-4065-b083-049d4c8cd373&pf_rd_p=7f8405f5-470a-412c-bd78-ebc5c141f12f&pf_rd_r=KEVSKMJVV967729CXG54&pf_rd_r=P6WZF1RYN8MEPZAH6J7Q&pf_rd_s=merchandised-search-10&pf_rd_s=merchandised-search-10&pf_rd_t=101&pf_rd_t=101&qid=1568611902&rnid=11301362031&ref=lp_1983518031_nr_p_n_feature_nineteen_1" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/home/floor-coverings" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
                     </div>
                 </div>
+
+
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/Collectibles/festive/19/SBB-02.png">
+                            <img class="img-product m-t-img " src="https://www.fabindia.com/file/general/bagru-05-02-19.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Raisins <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -202,7 +204,7 @@
 {{--                            ₹140 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/stores/Idalia/Homepage/page/F6AA8FD5-3B91-4BC1-BD72-3AEA0C44A9E6/ref=s9_acss_bw_cg_Saoffer_2b1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-5&pf_rd_r=0J12E8FQCVB6295JQB5B&pf_rd_t=101&pf_rd_p=5cebb16c-432b-498e-b843-9331120e9f24&pf_rd_i=17930511031" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/searchresults?&N=4266776796+1969843981&Nrpp=12&Ntl=en&suppressResults=false&searchType=guided&type=search" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -211,7 +213,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonSaheli/Store-Page_Tile06_440x300.png">
+                            <img class="img-product m-t-img " src="https://www.fabindia.com/file/general/ikat-14-09.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Pista <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -219,7 +221,7 @@
 {{--                            ₹140 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/s?me=A2NSKXH2V2MAQH&marketplaceID=A21TJRUUN4KGV&pf_rd_i=17930511031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=5cebb16c-432b-498e-b843-9331120e9f24&pf_rd_r=0J12E8FQCVB6295JQB5B&pf_rd_s=merchandised-search-5&pf_rd_t=101&ref=s9_acss_bw_cg_Saoffer_3b1_w" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/collection/ikat" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -228,7 +230,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/Collectibles/festive/19/SBB-04.png">
+                            <img class="img-product m-t-img " src="https://www.fabindia.com/file/general/ajrakh-14-09.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Mamra Badam <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -236,7 +238,7 @@
 {{--                            ₹640 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/s?me=A2A8XXNVMUD6OI&marketplaceID=A21TJRUUN4KGV&pf_rd_i=17930511031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=5cebb16c-432b-498e-b843-9331120e9f24&pf_rd_r=0J12E8FQCVB6295JQB5B&pf_rd_s=merchandised-search-5&pf_rd_t=101&ref=s9_acss_bw_cg_Saoffer_2d1_w" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/ajrakh" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -245,7 +247,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/cross-site/03Store-Page_Brand-03_440x300.png">
+                            <img class="img-product m-t-img " src="https://www.fabindia.com/file/general/kalamkari-14-09.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Cashew <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -253,16 +255,18 @@
 {{--                            ₹280 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/s?me=AZK73YKMHJHEO&marketplaceID=A21TJRUUN4KGV&pf_rd_i=17930511031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=234083b3-f214-42c5-a918-5d4dddabcbbd&pf_rd_r=0J12E8FQCVB6295JQB5B&pf_rd_s=merchandised-search-7&pf_rd_t=101&ref=s9_acss_bw_cg_Saoffer_2c1_w" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/collection/kalamkari" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/cross-site/giftsforher.png">
+                        <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v3570366801719470605/products/10601638GR.f.101019.jpg&height=475&width=475">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Sohan Papdi <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -270,7 +274,7 @@
 {{--                            ₹85 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/gcx/Gifts-for-Women/gfhz/ref=s9_acss_bw_cg_Saoffer_2a1_w?categoryId=adult-female&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-20&pf_rd_r=NZ18P58W19A3QZ6ZJD95&pf_rd_t=101&pf_rd_p=a2eb4ebf-8c38-48d3-a869-227d0c1bdac9&pf_rd_i=18313145031" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/cotton-silk-printed-3-piece-salwar-set-10601638" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -279,7 +283,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/cross-site/giftsforhim.png">
+                        <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v1715398361353474220/products/10601726PK.f.101019.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Doodh Peda <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -287,7 +291,7 @@
 {{--                            ₹145 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/gcx/Gifts-for-Men/gfhz/ref=s9_acss_bw_cg_Saoffer_2b1_w?categoryId=adult-male&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-20&pf_rd_r=NZ18P58W19A3QZ6ZJD95&pf_rd_t=101&pf_rd_p=a2eb4ebf-8c38-48d3-a869-227d0c1bdac9&pf_rd_i=18313145031" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/cotton-silk-embroidered-3-piece-salwar-set-10601726" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -296,7 +300,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/cross-site/Festivegifts.png">
+                        <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v3284507737676926631/products/10603027RD.f.101019.jpg&height=475&width=475">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Dalmoth <br>(100 grams)--}}
 {{--                        </div>--}}
@@ -304,7 +308,7 @@
 {{--                            ₹46 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/gcx/Diwali/gfhz/ref=s9_acss_bw_cg_Saoffer_2c1_w?pf_rd_i=18313145031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=a2eb4ebf-8c38-48d3-a869-227d0c1bdac9&pf_rd_r=NZ18P58W19A3QZ6ZJD95&pf_rd_s=merchandised-search-20&pf_rd_t=101" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/cotton-silk-printed-3-piece-lehenga-set-10603027" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -313,7 +317,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/cross-site/6-4-v2.png">
+                        <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v2950624480551734451/products/10604295BG.f.160919.jpg&height=475&width=475">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Chow Chow <br>(100 grams)--}}
 {{--                        </div>--}}
@@ -321,16 +325,19 @@
 {{--                            ₹42 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/gcx/Home-Decor/gfhz/ref=cg_GF_F_1_4a1_w/ref=s9_acss_bw_cg_Saoffer_2d1_w?categoryId=home-decor&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=top-slot-1&pf_rd_r=G5D20776ZSSWJW8YM58D&pf_rd_t=0&pf_rd_p=6d4d7a98-f396-412f-9675-927455d2d9c9&pf_rd_i=gf-landing&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-20&pf_rd_r=NZ18P58W19A3QZ6ZJD95&pf_rd_t=101&pf_rd_p=a2eb4ebf-8c38-48d3-a869-227d0c1bdac9&pf_rd_i=18313145031" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/cotton-mull-printed-dress-10604295" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
                     </div>
                 </div>
+
+
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Consumables/Jupiter/Wave2/Teaser/SBC/4._CB451243403_.jpg">
+                            <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v4808284174724938338/products/10569276OG.f.101019.jpg&height=475&width=475">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Pista Biscuits <br>(150 grams)--}}
 {{--                        </div>--}}
@@ -338,7 +345,7 @@
 {{--                            ₹55 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/s?bbn=1374407031&rh=n%3A1355016031%2Cn%3A%211355017031%2Cn%3A1374407031%2Cp_85%3A10440599031&pf_rd_i=17940186031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=10a82d46-be1a-4764-98f8-683c0bd3da54&pf_rd_r=JMDPAPVTMCV5Z9RJ2ZWS&pf_rd_s=merchandised-search-14&pf_rd_t=101&ref=s9_acss_bw_cg_catoffer_2b1_w" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/cotton-nagri-printed-long-kurta-10569276" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -347,7 +354,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Consumables/Jupiter/Wave2/Teaser/SBC/5._CB451243403_.jpg">
+                            <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v7297449218362919995/products/10598377RD.f.160919.jpg&height=475&width=475">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Jeera Biscuits <br>(150 grams)--}}
 {{--                        </div>--}}
@@ -355,7 +362,7 @@
 {{--                            ₹52 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/s?bbn=1374357031&rh=n%3A1355016031%2Cn%3A%211355017031%2Cn%3A1374357031%2Cp_85%3A10440599031&pf_rd_i=17940186031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=10a82d46-be1a-4764-98f8-683c0bd3da54&pf_rd_r=JMDPAPVTMCV5Z9RJ2ZWS&pf_rd_s=merchandised-search-14&pf_rd_t=101&ref=s9_acss_bw_cg_catoffer_2d1_w" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/cotton-nagri-long-kurta-10598377" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -364,7 +371,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Consumables/Jupiter/Wave2/Teaser/SBC/hygiene._CB451243036_.jpg">
+                            <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v75518612086058097/products/10627611RD.f.160919.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Pista Stick <br>(150 grams)--}}
 {{--                        </div>--}}
@@ -372,7 +379,7 @@
 {{--                            ₹125 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/s?bbn=1374606031&rh=n%3A1350384031%2Cn%3A%211350385031%2Cn%3A1374594031%2Cn%3A1374606031%2Cp_85%3A10440599031&pf_rd_i=17940186031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=10a82d46-be1a-4764-98f8-683c0bd3da54&pf_rd_r=JMDPAPVTMCV5Z9RJ2ZWS&pf_rd_s=merchandised-search-14&pf_rd_t=101&ref=s9_acss_bw_cg_catoffer_2e1_w" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/silk-printed-nehru-jacket-10627611" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -381,7 +388,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Consumables/Jupiter/Wave2/Teaser/SBC/2._CB451243400_.jpg">
+                            <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v2165143706740720453/products/10600768RD.f.300819.jpg&height=475&width=475">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Masala Biscuits <br>(150 grams)--}}
 {{--                        </div>--}}
@@ -389,7 +396,7 @@
 {{--                            ₹52 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/s?bbn=1374305031&rh=n%3A1355016031%2Cn%3A%211355017031%2Cn%3A1374305031%2Cp_85%3A10440599031&pf_rd_i=17940186031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=10a82d46-be1a-4764-98f8-683c0bd3da54&pf_rd_r=JMDPAPVTMCV5Z9RJ2ZWS&pf_rd_s=merchandised-search-14&pf_rd_t=101&ref=s9_acss_bw_cg_catoffer_2c1_w" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/cotton-striped-bush-shirt-10600768" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -397,9 +404,10 @@
                     </div>
                 </div>
 
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonBrands/Diwali19/Wave2/Teaser/DE_Skin_440x460_2._CB451600375_.jpg">
+                        <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v601868288391546149/products/10532263PC.f.020119.jpg&height=475&width=475">
                         {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
                         {{--                            Pista Biscuits <br>(150 grams)--}}
                         {{--                        </div>--}}
@@ -407,7 +415,7 @@
                         {{--                            ₹55 + Shipping Charges--}}
                         {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Jup19_3b1_w?node=16676078031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-12&pf_rd_r=E7C7YT7SWQ9JGSJ40KSY&pf_rd_t=101&pf_rd_p=0e8283a7-2827-46b6-85da-f106dabda759&pf_rd_i=15390370031" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/rose-and-basil-face-pack-100gms-pc" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -416,7 +424,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2019/Diwali/PBpage/Diwaliessentials/Handbags._CB1198675309_.jpg">
+                        <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v8220625651466038399/products/10524316PC.f.020119.jpg">
                         {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
                         {{--                            Jeera Biscuits <br>(150 grams)--}}
                         {{--                        </div>--}}
@@ -424,7 +432,7 @@
                         {{--                            ₹52 + Shipping Charges--}}
                         {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/s?i=fashion&bbn=16491484031&rh=n%3A6648217031%2Cn%3A%216648222031%2Cn%3A%216648224031%2Cn%3A16491484031%2Cn%3A7459780031%2Cn%3A1983338031&dc&field-pct-off-with-tax=60-&fst=as%3Aoff&pf_rd_i=15390370031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=0e8283a7-2827-46b6-85da-f106dabda759&pf_rd_r=E7C7YT7SWQ9JGSJ40KSY&pf_rd_s=merchandised-search-12&pf_rd_t=101&qid=1568197385&rnid=7459780031&ref=sr_nr_n_3" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/avacado-face-wash-120ml-10524316pc" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -433,7 +441,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2019/Diwali/PBpage/Diwaliessentials/Watches._CB1198675309_.jpg">
+                        <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v1469727172052455094/products/10495697PC.f.020119.jpg&height=475&width=475">
                         {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
                         {{--                            Pista Stick <br>(150 grams)--}}
                         {{--                        </div>--}}
@@ -441,7 +449,7 @@
                         {{--                            ₹125 + Shipping Charges--}}
                         {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/Men-Brands-4-selected-Watches/s?bbn=2563504031&rh=n%3A1350387031%2Cn%3A%211350388031%2Cn%3A2563504031%2Cp_89%3AAntonella+Rossi%7CBRITTON%7CElfin%7CGully+by+Timex&hidden-keywords=-sponsored&pf_rd_i=15390370031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=0e8283a7-2827-46b6-85da-f106dabda759&pf_rd_r=E7C7YT7SWQ9JGSJ40KSY&pf_rd_s=merchandised-search-12&pf_rd_t=101&ref=s9_acss_bw_cg_Jup19_3c1_w" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/orange-neroli-bathing-bar" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -450,7 +458,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonBrands/Diwali19/Wave2/Teaser/440x460_2._CB451550225_.jpg">
+                        <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v3794563954448430109/products/10503310PC.f.020119.jpg&height=475&width=475">
                         {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
                         {{--                            Masala Biscuits <br>(150 grams)--}}
                         {{--                        </div>--}}
@@ -458,7 +466,7 @@
                         {{--                            ₹52 + Shipping Charges--}}
                         {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/s?i=kitchen&bbn=1380442031&rh=n%3A976442031%2Cn%3A976443031%2Cn%3A1380442031%2Cp_89%3AAmazon+Brand+-+Solimo%7CAmazonBasics%7CFab+Theory%7CHOME+ATTIRE&hidden-keywords=-sponsored&pf_rd_i=15390370031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=0e8283a7-2827-46b6-85da-f106dabda759&pf_rd_r=E7C7YT7SWQ9JGSJ40KSY&pf_rd_s=merchandised-search-12&pf_rd_t=101&qid=1568237496&rnid=10440598031&ref=sr_nr_p_85_1" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/rose-bathing-bar" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -466,19 +474,15 @@
                     </div>
                 </div>
 
-                {{-- last 2---}}
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/SellerTiles/Products/seller-tProducts_w2-copy_25._CB450506374_.jpg">
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            Pista Biscuits <br>(150 grams)--}}
-                        {{--                        </div>--}}
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            ₹55 + Shipping Charges--}}
-                        {{--                        </div>--}}
+                        <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v621908878015830628/products/10576117OF.f.191118.jpg&height=475&width=475">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
+                            Black Tea
+                        </div>
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/gp/product/B07VRD9CVV/ref=s9_acss_bw_cg_SellingP_6a1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-2&pf_rd_r=XJ1AFW1VDF9P672YX6MA&pf_rd_t=101&pf_rd_p=5c32d766-c512-4cb6-9388-67cadfea41e0&pf_rd_i=18978977031" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/black-darjeeling-apurva-tea-125gms-10576117" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -487,15 +491,12 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/SellerTiles/Products/seller-tProducts_w2-copy_5._CB450506375_.jpg">
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            Jeera Biscuits <br>(150 grams)--}}
-                        {{--                        </div>--}}
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            ₹52 + Shipping Charges--}}
-                        {{--                        </div>--}}
+                        <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v2486662241410616033/products/10576113OF.f.271118.jpg&height=475&width=475">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
+                            Flavoured Tea
+                        </div>
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/gp/product/B07BCCFBKZ/ref=s9_acss_bw_cg_SellingP_8c1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-2&pf_rd_r=XJ1AFW1VDF9P672YX6MA&pf_rd_t=101&pf_rd_p=5c32d766-c512-4cb6-9388-67cadfea41e0&pf_rd_i=18978977031" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/mountain-dew-darjeeling-premium-tea-bags-10576113" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -504,15 +505,12 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/SellerTiles/Products/seller-tProducts_w2-copy_27._CB450506374_.jpg">
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            Pista Stick <br>(150 grams)--}}
-                        {{--                        </div>--}}
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            ₹125 + Shipping Charges--}}
-                        {{--                        </div>--}}
+                        <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v4593365424478927117/products/10576508OF.f.271118.jpg&height=475&width=475">
+                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
+                            Green Tea
+                        </div>
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/gp/product/B07XG5V5F7/ref=s9_acss_bw_cg_SellingP_6c1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-2&pf_rd_r=XJ1AFW1VDF9P672YX6MA&pf_rd_t=101&pf_rd_p=5c32d766-c512-4cb6-9388-67cadfea41e0&pf_rd_i=18978977031" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/tulsi-green-tea-bags-10576508" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -521,15 +519,13 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/SellerTiles/Products/seller-tProducts_w2-copy7._CB450506368_.jpg">
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            Masala Biscuits <br>(150 grams)--}}
-                        {{--                        </div>--}}
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            ₹52 + Shipping Charges--}}
-                        {{--                        </div>--}}
+                        <img class="img-product m-t-img " src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v7225664636748965277/products/10576543OF.f.271118.jpg&height=475&width=475">
+                                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
+                                                    Infusion Tea
+                                                </div>
+
                         <div class="check-price-padd">
-                            <a href="https://www.amazon.in/gp/product/B07BLXLY4T/ref=s9_acss_bw_cg_SellingP_2d1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-2&pf_rd_r=XJ1AFW1VDF9P672YX6MA&pf_rd_t=101&pf_rd_p=5c32d766-c512-4cb6-9388-67cadfea41e0&pf_rd_i=18978977031" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.fabindia.com/tulsi-ginger-infusion-tea-10576543" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -537,124 +533,12 @@
                     </div>
                 </div>
 
-                {{-- last 1---}}
-
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/SellerTiles/Products/seller-tProducts_w2-copy_36._CB450506369_.jpg">
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            Pista Biscuits <br>(150 grams)--}}
-                        {{--                        </div>--}}
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            ₹55 + Shipping Charges--}}
-                        {{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.amazon.in/gp/product/B075724BVF/ref=s9_acss_bw_cg_SellingP_8b1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-2&pf_rd_r=XJ1AFW1VDF9P672YX6MA&pf_rd_t=101&pf_rd_p=5c32d766-c512-4cb6-9388-67cadfea41e0&pf_rd_i=18978977031" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/SellerTiles/Products/seller-tProducts_w2-copy_21._CB450506374_.jpg">
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            Jeera Biscuits <br>(150 grams)--}}
-                        {{--                        </div>--}}
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            ₹52 + Shipping Charges--}}
-                        {{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.amazon.in/gp/product/B07S7DMG1R/ref=s9_acss_bw_cg_SellingP_4d1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-2&pf_rd_r=XJ1AFW1VDF9P672YX6MA&pf_rd_t=101&pf_rd_p=5c32d766-c512-4cb6-9388-67cadfea41e0&pf_rd_i=18978977031" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/SellerTiles/Products/seller-tProducts_w2-copy._CB450506372_.jpg">
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            Pista Stick <br>(150 grams)--}}
-                        {{--                        </div>--}}
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            ₹125 + Shipping Charges--}}
-                        {{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/SellerTiles/Products/seller-tProducts_w2-copy._CB450506372_.jpg" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/SellerTiles/Products/seller-tProducts_w2-copy_20._CB450506374_.jpg">
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            Masala Biscuits <br>(150 grams)--}}
-                        {{--                        </div>--}}
-                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-                        {{--                            ₹52 + Shipping Charges--}}
-                        {{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.amazon.in/gp/product/B07R5PKDLQ/ref=s9_acss_bw_cg_SellingP_4c1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-2&pf_rd_r=XJ1AFW1VDF9P672YX6MA&pf_rd_t=101&pf_rd_p=5c32d766-c512-4cb6-9388-67cadfea41e0&pf_rd_i=18978977031" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
             </div>
-        </div>
             <br>
-
             <br>
+            </div>
     </section>
-{{--    <section class="chris-benefits">--}}
-{{--        <div class="container" >--}}
-{{--            <center>--}}
-{{--                <h2 class="header1 p-color-cement-dark font-30">Featured Services & Benefits</h2>--}}
-{{--            </center>--}}
-{{--            <div class="row text-center">--}}
-{{--                <div class="col-sm-4">--}}
-{{--                    <div class="panel ">--}}
-{{--                        <ul>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Personal Shopper</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>20-Day Free Storage</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Consolidation</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Repackaging</span></li>--}}
-{{--                        </ul>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="col-sm-4">--}}
-{{--                    <div class="panel ">--}}
-{{--                        <ul>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Affordable Rates</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned Copies Document-couriers</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-discount</span></li>--}}
-
-{{--                        </ul>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="col-sm-4">--}}
-{{--                    <div class="panel ">--}}
-{{--                        <ul>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Photo Updates</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Wallet Cashback</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Package Return Services</span></li>--}}
-{{--                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Product Recommendations</span></li>--}}
-{{--                        </ul>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <br/><br/>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </section>--}}
     <br>
     <br>
     <br>

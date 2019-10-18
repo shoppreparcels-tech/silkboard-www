@@ -82,41 +82,39 @@
 
 @endsection
 @section('content')
-{{--    <section class="first-time-shipment header-section" style="padding-top: 50px !important;">--}}
-{{--        <div class="container no-padding banner">--}}
-{{--                <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>Flipkart Big Diwali Sale Your Favourite Shopping Festival</i></p>--}}
-{{--                <div class="col-md-6 col-xs-12" style="padding-top: 7%">--}}
-{{--                   <center> <p class="m-t-sm f-s-30">Why Worries Re, <span style="font-family: Bahnschrift">Just ShoppRe!</span></p></center>--}}
-{{--                    <p class="f-c-white m-t-sm f-s-18 text-center">--}}
-{{--                        If you are in the quest for Indian Fashion & Lifestyle this Diwali for gifting purposes or just getting them for yourselves,--}}
-{{--                        then ShoppRe is here to ship all your favorite <span class="underline-color">Shopping & Shipping</span> at your doorsteps to add extra vibrancy to your Diwali (🪔)--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-{{--                <div class="col-md-6 col-xs-12 no-padding">--}}
-{{--                    <center>--}}
-{{--                        <img src="{{asset('img/images/tape_signup.svg')}}" alt="signup shoppre">  <br>--}}
-{{--                    </center>--}}
-{{--                    <br>--}}
-{{--                    <center>--}}
-{{--                        <img src="{{asset('img/diwali/diwali-offer.png')}}" alt="Diwali offer india" > <br><br>--}}
-{{--                        <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-g btn-a-l" target="_blank">Sign UP FREE</a>--}}
+    <section class="first-time-shipment header-section" style="padding-top: 50px !important;">
+        <div class="container no-padding banner">
+                <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>Flipkart Big Diwali Sale Your Favourite Shopping Festival</i></p>
+                <div class="col-md-6 col-xs-12" style="padding-top: 7%">
+                   <center> <p class="m-t-sm f-s-30">Why Worries Re, <span style="font-family: Bahnschrift">Just ShoppRe!</span></p></center>
+                    <p class="f-c-white m-t-sm f-s-18 text-center">
+                        If you are in the quest for Indian Fashion & Lifestyle this Diwali for gifting purposes or just getting them for yourselves,
+                        then ShoppRe is here to ship all your favorite <span class="underline-color">Shopping & Shipping</span> at your doorsteps to add extra vibrancy to your Diwali (🪔)
+                    </p>
+                </div>
+                <div class="col-md-6 col-xs-12 no-padding">
+                    <center>
+                        <img src="{{asset('img/images/tape_signup.svg')}}" alt="signup shoppre">  <br>
+                    </center>
+                    <br>
+                    <center>
+                        <img src="{{asset('img/diwali/diwali-offer.png')}}" alt="Diwali offer india" > <br><br>
+                        <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-g btn-a-l" target="_blank">Sign UP FREE</a>
 
-{{--                    </center>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        <div class="image-banner">--}}
-{{--            <img src="{{asset('img/product/india-flipkart-big-diwali-sale-2019.png')}}" alt="flipkart big diwali sale" style="height: 430px; width: 100%;">--}}
-{{--        </div>--}}
-{{--    </section>--}}
+                    </center>
+                </div>
+            </div>
+        <div class="image-banner">
+            <img src="{{asset('img/product/flipkart-big-diwali-sale-2019-oct25.png')}}" alt="flipkart big diwali sale" style="height: 430px; width: 100%;">
+        </div>
+    </section>
     <section >
         <div class="container fst-service" style="margin-top: 36px;">
             <div class="row">
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Flipkart & Ship Globally with ShoppRe.</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Flipkart Big Diwwali Sale (21st - 25th OCT) & Ship Globally with your ShoppRe India Address.</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center margin-tp">
-{{--                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Click on Online Chat for Live Support--}}
-{{--                        <br> Right side Bottom of the page)</p>--}}
                     <div class="">
                         <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%27m%20Looking%20for%20Flipkart%20Shopping" target="_blank">
                             <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >
@@ -126,9 +124,10 @@
                 </div>
             </div>
             <div class="row text-center">
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
-                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/image/612/612/jyeq64w0/book/5/4/0/you-are-the-best-wife-original-imafgkyugczdayt8.jpeg?q=70">
+                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/690/906/image/868ce3212a86f917.jpg?q=90">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Soan Papdi <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -136,7 +135,7 @@
 {{--                            ₹150 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jQ5k" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.flipkart.com/womens-clothing/ethnic-wear/~cs-2pbecw5flg/pr?sid=2oq%2Cc1r%2C3pj&collection-tab-name=Ethnic+Wear&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -145,7 +144,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/image/612/612/jed4sy80/book/3/0/5/life-is-what-you-make-it-original-imaf32hgmtznjbdc.jpeg?q=70">
+                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/690/906/image/43b291df798bebda.jpg?q=90">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Kaju Katli <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -153,7 +152,7 @@
 {{--                            ₹245 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jQ5m" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.flipkart.com/womens-clothing/western-wear/pr?sid=2oq%2Cc1r%2Cha6&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&p%5B%5D=facets.brand%255B%255D%3DVero%2BModa&p%5B%5D=facets.brand%255B%255D%3DVan%2BHeusen&p%5B%5D=facets.brand%255B%255D%3DOnly&p%5B%5D=facets.brand%255B%255D%3DGAP&p%5B%5D=facets.brand%255B%255D%3DGap&p%5B%5D=facets.brand%255B%255D%3DTommy%2BHilfiger&p%5B%5D=facets.brand%255B%255D%3DUnited%2BColors%2Bof%2BBenetton&p%5B%5D=facets.brand%255B%255D%3DMadame&p%5B%5D=facets.brand%255B%255D%3DKazo&p%5B%5D=facets.brand%255B%255D%3DKAZO&p%5B%5D=facets.brand%255B%255D%3DMARKS%2B%2526%2BSPENCER&p%5B%5D=facets.brand%255B%255D%3DAvirate&p%5B%5D=facets.brand%255B%255D%3DInsua&p%5B%5D=facets.brand%255B%255D%3DAllen%2BSolly&p%5B%5D=facets.brand%255B%255D%3DDressberry&p%5B%5D=facets.brand%255B%255D%3DDOROTHY%2BPERKINS&p%5B%5D=facets.brand%255B%255D%3DLee&p%5B%5D=facets.brand%255B%255D%3DPepe%2BJeans&p%5B%5D=facets.brand%255B%255D%3DNUSH&p%5B%5D=facets.brand%255B%255D%3DWrangler&p%5B%5D=facets.brand%255B%255D%3DAeropostale&p%5B%5D=facets.brand%255B%255D%3DU.S.%2BPolo%2BAssn&p%5B%5D=facets.brand%255B%255D%3DChemistry&p%5B%5D=facets.brand%255B%255D%3DPark%2BAvenue&p%5B%5D=facets.brand%255B%255D%3DMADAME&p%5B%5D=facets.brand%255B%255D%3DDenizen&p%5B%5D=facets.brand%255B%255D%3DArrow&p%5B%5D=facets.brand%255B%255D%3DU.S.%2BPolo%2BAssn.&p%5B%5D=facets.brand%255B%255D%3DForever%2B21&p%5B%5D=facets.brand%255B%255D%3DFOREVER%2B21&p%5B%5D=facets.serviceability%5B%5D%3Dtrue" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -162,7 +161,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/image/612/612/k1mgu4w0/book/2/9/5/life-s-amazing-secrets-original-imaf76z4ah5wfree.jpeg?q=70">
+                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/690/906/image/35eccd58c03fab6a.jpg?q=90">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Besan Laddu <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -170,7 +169,7 @@
 {{--                            ₹145 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jQ5n" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.flipkart.com/kids-clothing/~kids-tshirts-tops/pr?sid=2oq%2Cmpf&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3D500" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -179,7 +178,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/image/612/612/k0plpjk0/book/4/7/8/turning-points-a-journey-through-challanges-original-imaezet6hsayhzqh.jpeg?q=70">
+                            <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/690/906/image/c7afc4abed30cf37.jpg?q=90">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Doodh Burfi <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -187,13 +186,85 @@
 {{--                            ₹145 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://clnk.in/jQ5p" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.flipkart.com/mens-clothing/~men-clothings/pr?sid=2oq%2Cs9b&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DArrow&p%5B%5D=facets.brand%255B%255D%3DArrow%2BSport&p%5B%5D=facets.brand%255B%255D%3DJack%2B%2526%2BJones&p%5B%5D=facets.brand%255B%255D%3DWrangler&p%5B%5D=facets.brand%255B%255D%3DSpykar&p%5B%5D=facets.brand%255B%255D%3DKiller&p%5B%5D=facets.brand%255B%255D%3DParx&p%5B%5D=facets.brand%255B%255D%3DFlying%2BMachine&p%5B%5D=facets.brand%255B%255D%3DLee" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
                         </div>
                     </div>
                 </div>
+
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/690/906/image/c94f524b684e2263.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Soan Papdi <br>(200 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹150 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.flipkart.com/fashion-w-wedding19-store" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/690/906/image/e67fabd4bdc4f931.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Kaju Katli <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹245 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.flipkart.com/fashion-gifting19-store" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/690/906/image/787886b2191e3656.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Besan Laddu <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹145 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.flipkart.com/fashion-winter19-store" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/690/906/image/0bbd5f56b181e8dd.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Doodh Burfi <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹145 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.flipkart.com/fashion-sports-bbd19-store" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/375/534/image/357e30aac2d7ff2f.jpg" alt="signup shoppre">
@@ -398,7 +469,87 @@
                         </div>
                     </div>
                 </div>
+
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/image/612/612/jyeq64w0/book/5/4/0/you-are-the-best-wife-original-imafgkyugczdayt8.jpeg?q=70">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Soan Papdi <br>(200 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹150 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://clnk.in/jQ5k" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/image/612/612/jed4sy80/book/3/0/5/life-is-what-you-make-it-original-imaf32hgmtznjbdc.jpeg?q=70">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Kaju Katli <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹245 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://clnk.in/jQ5m" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/image/612/612/k1mgu4w0/book/2/9/5/life-s-amazing-secrets-original-imaf76z4ah5wfree.jpeg?q=70">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Besan Laddu <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹145 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://clnk.in/jQ5n" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/image/612/612/k0plpjk0/book/4/7/8/turning-points-a-journey-through-challanges-original-imaezet6hsayhzqh.jpeg?q=70">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Doodh Burfi <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹145 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://clnk.in/jQ5p" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
+
+
+
+
+
+
+
 {{--            <div class="mar-t-25">--}}
 {{--                <div class="txt-center">--}}
 {{--                        <button type="button" class="btn btn-warning bord-rad-5 margin-r-10">--}}

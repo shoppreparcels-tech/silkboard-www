@@ -62,10 +62,10 @@
                 <div class="col-sm-4">
 
                     <div class="shopandship ">
-                        <a href="https://www.amazon.in/b?node=3419926031&pf_rd_p=ed079d3f-67e6-4d46-9c6b-f3417d93306d&pf_rd_r=A2RE4J8QJ2XZVD4CGHDR" target="_blank">
+                        <a href="/amazon-online-shopping" target="_blank">
                         <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">GREAT INDIAN FESTIVAL</h2>
                         <br/>
-                        <p>13th - 17th OCT</p><br>
+                        <p>Great Deals on Top Brands‎</p><br>
                         <p>👉 Explore More</p>
                     </div>
                     </a>
@@ -98,7 +98,8 @@
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
                         <center>
-                            <a href="https://www.amazon.in/" title="Click her to Shop from Amazon.in" target="_blank"><img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/amazon-india-shopping.png" alt="amazon.in"></a>
+                            <a href="https://www.amazon.in/" title="Click her to Shop from Amazon.in" target="_blank">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/product/amazon-india-shoppre.png" alt="amazon.in"></a>
                         </center>
                     </div>
                 </div>

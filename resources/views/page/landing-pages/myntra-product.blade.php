@@ -7,6 +7,7 @@
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/myntra-online-shopping"/>
+    <meta name="robots" content="nofollow" />
 
     <style>
         .zoom {

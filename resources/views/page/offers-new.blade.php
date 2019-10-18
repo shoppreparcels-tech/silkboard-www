@@ -111,10 +111,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Stock Clearance Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Upto 80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big diwali Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">21st - 25th OCT</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://clnk.in/jQ44" target="_blank">
+                                <a href="/flipkart-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
                                 </a>
                             </div>
@@ -196,7 +196,7 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Great Indian Festival</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">13th - 17th OCT</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">Upcoming Launches</h5>
                             <div class="ecomSmallBox" style="height: 94px;">
                                 <a href="/amazon-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>
@@ -306,10 +306,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">handpicked giftables</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Fabindia Traditions</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Festiva Season</h5>
                             <div class="ecomSmallBox" >
-                                <a href="https://www.fabindia.com/collection/gifting-ideas" target="_blank">
+                                <a href="/fabindia-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">FABINDIA</p>
                                 </a>
                             </div>
