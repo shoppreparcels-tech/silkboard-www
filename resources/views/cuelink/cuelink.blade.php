@@ -18,7 +18,7 @@
 
     <br>
     <br>
-    <center><h1> <a href="{{$url}}" > Click here to place or View the order</a></h1></center>
+    <center><h1> <a href="{{$url}}" target="_blank"> Click here to place or View the order</a></h1></center>
 
     <br>
     <br>
