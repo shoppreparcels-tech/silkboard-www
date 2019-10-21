@@ -10,7 +10,21 @@
         .bg-christmas-landing-page{background-image:url({{env('AWS_CLOUD_FRONT')}}/img/images/bk_university.png);height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.bg-christmas-landing-page .div-snow{padding-top:221px}.bg-christmas-landing-page .div-snow img{position:absolute}.bg-christmas-landing-page .div-newyear{padding-top:202px}.bg-christmas-landing-page .div-newyear img{margin-left:-70px;position:absolute}.textbox-email{width:358px;height:50px;box-shadow:0 1px 2px rgba(0,0,0,.2);border-radius:25px!important;background-color:#fff;border:0;padding-left:9%}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}.christmas-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fff;margin-top:-360px;padding:20px}.christmas-service .c-image{padding:20px}.christmas-service .un-offers{padding:20px;border-top:1px solid rgba(146,156,165,.2)}.btn-chris-place-order{padding:13px 50px;color:#fff;width:300px;height:50px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:30px;background-color:#e85151}.chris-benefits{padding-top:30px;background-color:#fafafb}.chris-benefits ul{text-decoration:none;list-style:none}.chris-benefits ul li{color:#224464;font-family:Bahnschrift;font-size:18px;font-weight:400;text-align:left;padding-top:15px}.chris-benefits ul li img{margin-top:9px}.chris-benefits .ps-img-rounded{height:340px}.chris-benefits .ps-img-rounded span{font-size:22px;color:#11273b}.text-center div{padding-top:20px}.img-new-year{display:none}.chris-benefits .panel{box-shadow:0 2px 10px rgba(0,0,0,.05)!important;border-radius:15px}.chris-benefits .u-benifits .panel{box-shadow:0 2px 10px rgba(0,0,0,.05)!important;border-radius:15px;padding-left:25px}.chris-benefits .panel ul li span{margin-left:15px}#contact-support{padding-bottom:30px}.chris-benefits div table{font-family:arial,sans-serif;border-collapse:collapse;width:100%;border-radius:1em}.chris-benefits div table th{text-align:left;padding:20px;background-color:#929ca5;color:#fff;font-size:18px}.chris-benefits div table td{text-align:left;padding:20px;background-color:#fff;font-size:18px}.chris-benefits div table tr:nth-child(even){background-color:#fafafb}.div-table{overflow:scroll}@media only screen and (max-width:600px){.textbox-email{width:330px}.div-snow{display:none}.div-newyear{display:none}.christmas-service{margin-top:-200px}.c-image{display:none}.txt-align{text-align:center}.img-new-year{display:block;margin-left:35px}.chris-benefits ul li{font-size:16px}.chris-benefits div table th{padding:0}.div-content{padding-top:0}}
     </style>
 
+    <link rel="canonical" href="https://www.shoppre.com/university-offer" />
+
+    <meta property="og:title" content="ShoppRe - Student Offer on Document Shipping "/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/university-offer"/>
+    <meta property="og:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/student-courier-any-document-abroad.png')}}"/>
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
+    <meta property="og:image:alt" content="ShoppRe Student Offer" />
+    <meta property="og:description" content="Best Discount On Student Document Courier Service - International Shipping at Lowest Price"/>
+    <meta property="og:site_name" content="ShoppRe International Shipping"/>
+
 @endsection
+
+
 @section('content')
     <section class="bg-christmas-landing-page">
         <div class="container no-padding">

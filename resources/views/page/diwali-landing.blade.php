@@ -7,7 +7,16 @@
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/diwali-offer" />
 
+    <meta property="og:title" content="ShoppRe - Grand Diwali Offer 2019"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/diwali-offer"/>
+    <meta property="og:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-offer-shipping-2019.png')}}"/>
+    <meta property="og:image:alt" content="ShoppRe Diwali Offer" />
+    <meta property="og:description" content="SAVE Up To 80% + ₹250 Cashback Offer on Shipping costs for international shipments. Celebrate DIWALI with ShoppRe. "/>
+    <meta property="og:site_name" content="ShoppRe"/>
+
 @endsection
+
 @section('content')
 
     <section class="bg-diwali-landing-page">

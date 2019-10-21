@@ -8,11 +8,22 @@
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/personal-shopper-india" />
+
+    <meta property="og:title" content="ShoppRe -  Assisted Purchase"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/personal-shopper-india"/>
+    <meta property="og:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/psp.png')}}"/>
+    <meta property="og:image:alt" content="ShoppRe Shopping Assistance" />
+    <meta property="og:description" content="All you have to do is, let us know what you are intending to buy, and we'll buy it for you & ship to your country."/>
+    <meta property="og:site_name" content="ShoppRe"/>
+
     <style>
         .ps-section{background-color:#11273b;height:1000px}.ps-section .container>div{padding:20px;margin-bottom:0}.ps-section .container>div h1{font-weight:900}.ps-section .container>#img-shopping{padding-top:158px}.ps-section .container>#img-shopping img{width:596px;height:365px}.h-req-assist{margin-bottom:30px}.product-courier span{font-weight:900}@media only screen and (max-width:600px){.ps-section .container>div{padding:10px;margin-bottom:0}}
     </style>
 
 @endsection
+
+
 @section('content')
     <section class="ps-section" id="personal-shopper">
         <div class="modal fade" id="terms" role="dialog">

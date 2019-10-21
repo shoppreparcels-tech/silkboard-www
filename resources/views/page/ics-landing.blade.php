@@ -5,7 +5,19 @@
 @section('keywords', 'international courier, cargo services, shipping, delivery, schedule a pickup, package, food, books, documents, gifts')
 
 @section('css_style')
+
     <link rel="canonical" href="https://www.shoppre.com/send-international-courier-from-india" />
+
+    <meta property="og:title" content="International Courier Starting from ₹566 | ShoppRe"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/send-international-courier-from-india"/>
+    <meta property="og:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/international-courier-services-india.png')}}"/>
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
+    <meta property="og:image:alt" content="ShoppRe Courier" />
+    <meta property="og:description" content="Best international courier and cargo services - Special International Courier Rates for you."/>
+    <meta property="og:site_name" content="ShoppRe International Courier Services in India"/>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -36,11 +48,13 @@
   }
 }
 </script>
+
     <style>
         .bg-ics-landing-page .container>div{padding:20px;margin-bottom:3em}.d-header-text{font-size:40px;font-weight:900}.d-header-text1{font-family:Montserrat -Italic;font-style:italic;line-height:26px;margin-top:25px}.box-steps p{line-height:1}.box-steps p span{font-size:22px;font-weight:900}.seo-sec a{text-decoration:underline}#packing:hover{display:none}.bg-ics-l-p{background-image:url(../../img/images/overlay1.png);height:580px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:75px}@media only screen and (max-width:600px){.bg-ics-l-p{height:680px}}@media only screen and (max-width:600px){table th,td h1{font-weight:700;font-size:15px}table th,td span{font-weight:600;font-size:10px}table th,td p{font-weight:600;font-size:10px}}
     </style>
 
 @endsection
+
 @section('content')
     <section class="bg-ics-l-p">
         <div class="container">

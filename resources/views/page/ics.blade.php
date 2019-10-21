@@ -5,11 +5,21 @@
 @section('keywords', 'courier service, international package, schedule a pickup, ship internationally, parcel forwarding, ship a product')
 
 @section('css_style')
-
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-shipping-services-india" />
     <style>
         .div-padding-bottom{background-image:url(../../img/images/international-courier-from-india.png);height:470px;width:100%;background-position:inherit;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px;padding-bottom:4%}.div-padding-bottom .btn-a{margin-left:25px;padding:10px;border-radius:30px;background-color:#e85151;color:#fff;font-size:16px}.div-padding-bottom .btn-b{margin-left:25px;padding:10px;border-radius:30px;background-color:#507dbc;color:#fff;font-size:16px}.div-padding-bottom .btn-a:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}.seo-sec{background-color:#fafafb}.seo-sec a{text-decoration:underline}.ul-seo{list-style:none}.ul-seo li{font-size:16px;font-weight:600;color:#677582}@media only screen and (max-width:600px){.div-padding-bottom .btn-a{margin-left:0}}@media only screen and (max-width:600px){table th,td h1{font-weight:700;font-size:15px}table th,td span{font-weight:600;font-size:10px}table th,td p{font-weight:600;font-size:10px}}
     </style>
+
+    <link rel="canonical" href="https://www.shoppre.com/international-courier-shipping-services-india" />
+
+    <meta property="og:title" content="ShoppRe™ Express International Courier in India "/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/international-courier-shipping-services-india"/>
+    <meta property="og:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/international-courier-services-india.png')}}"/>
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
+    <meta property="og:image:alt" content="ShoppRe Courier" />
+    <meta property="og:description" content="Best Discount On DHL/FedEx/Export - International Courier Services at Lowest Price"/>
+    <meta property="og:site_name" content="ShoppRe International Courier Services in India"/>
 
     <script type="application/ld+json">
     {

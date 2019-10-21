@@ -6,10 +6,19 @@
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/shipping/drop-off-location" />
+
+    <meta property="og:title" content="ShoppRe Drop-off/Pickup. Find a Location Near You" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/international-courier-services-india.png')}}"/>
+    <meta property="og:url" content="https://www.shoppre.com/shipping/drop-off-location" />
+    <meta property="og:description" content="ShoppRe International Shipping Drop-off and Pickup Locations & Services Near You" />
+    <meta property="og:site_name" content="ShoppRe" />
+
     <style>
         .vid-h-w{height: 560px; width: 100%}
         .div-b-l-w ul li{list-style: none; color:#929ca5; font-weight: 700;font-size: 18px; }
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 600px)
+        {
             .vid-h-w{height: 300px; width: 100%}
         }
      </style>

@@ -8,10 +8,24 @@
     <link rel="canonical" href="https://www.shoppre.com/seller-partner"/>
     <link rel="shortcut icon" href="https://www.shoppre.com/img/favicon.png">
     <link rel="icon" type="image/png" href="https://www.shoppre.com/img/favicon.png" sizes="60x60">
+
+    <meta property="og:title" content="ShoppRe - India's #1 International Shipping Solution | Sellers "/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/seller-partner"/>
+    <meta property="og:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/seller-shipping-service.png')}}"/>
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
+    <meta property="og:image:alt" content="ShoppRe Seller" />
+    <meta property="og:description" content="Seller & Ecommerce Partnership. Ship your products Internationally starting at ₹500"/>
+    <meta property="og:site_name" content="ShoppRe International Shipping Seller"/>
+
     <style>
-        .div-option{height:30px;padding-top:5px}@media only screen and (max-width:600px){.div-option{height:auto;padding-top:0;margin-bottom:20px}.mobile-pad{padding:0}}
+        .div-option{height:30px;padding-top:5px}
+        @media only screen and (max-width:600px) {.div-option{height:auto;padding-top:0;margin-bottom:20px}.mobile-pad{padding:0}}
     </style>
+
 @endsection
+
 @section('content')
     <main>
         <div class="header">
