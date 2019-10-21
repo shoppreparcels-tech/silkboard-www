@@ -41,6 +41,15 @@
            </div>
 
            <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad " style="margin-top: 50px;">
+               <h1 class="f-s-22 f-c-d-greay text-center">International Shipping from Kalyan Nagar, Bengaluru, India</h1>
+               <div class="col-xs-12 col-md-12 no-pad">
+                   <iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2032444128113!2d77.64264461482253!3d13.022725490822404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x63147438a9bd88d2!2sShoppRe%20International%20Courier%20Services!5e0!3m2!1sen!2sin!4v1571635239809!5m2!1sen!2sin"
+                           width="1168" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                   <h4 class="f-s-16 f-c-l-gray txt-a-c">ShoppRe International Courier Services</h4>
+               </div>
+           </div>
+
+           <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad " style="margin-top: 50px;">
                <h1 class="f-s-22 f-c-d-greay text-center">International Shipping from Aluva, Kerala, India</h1>
                <div class="col-xs-12 col-md-12 no-pad">
                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.638239920718!2d76.34094701479515!3d10.128668492763024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x77986d2a1f5f489f!2sShoppRe%20-%20International%20Courier%20Services!5e0!3m2!1sen!2sin!4v1570872794050!5m2!1sen!2sin"

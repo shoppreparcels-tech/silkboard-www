@@ -5,9 +5,18 @@
 @section('keywords', 'diwali sale, flipkart usa, shipping from india')
 
 @section('css_style')
-
     <link rel="canonical" href="https://www.shoppre.com/flipkart-online-shopping" />
     <meta name="robots" content="nofollow" />
+
+    <meta property="og:title" content="Flipkart Shopping with ShoppRe International Delivery" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.shoppre.com/flipkart-online-shopping" />
+    <meta property="og:image" content="https://www.shoppre.com/img/product/flipkart-big-diwali-sale-2019-oct25.png" />
+    <meta property="og:image:width" content="3000">
+    <meta property="og:image:height" content="1000">
+    <meta property="og:image:alt" content="ShoppRe Flipkart international shipping" />
+    <meta property="og:description" content="Sign-up for Indian Address. Shop your favorite from Flipkart store and Ship Internationally with ShoppRe." />
+    <meta property="og:site_name" content="ShoppRe" />
 
     <style>
         .zoom {
@@ -112,7 +121,7 @@
         <div class="container fst-service" style="margin-top: 36px;">
             <div class="row">
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Flipkart Big Diwwali Sale (21st - 25th OCT) & Ship Globally with your ShoppRe India Address.</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Flipkart Big Diwali Sale (21st - 25th OCT) & Ship Globally with your ShoppRe India Address.</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center margin-tp">
                     <div class="">

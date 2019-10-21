@@ -7,6 +7,7 @@
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/offers" />
+
     <meta property="og:title" content="ShoppRe Offers, Wallet Cashback & Discounts | ShoppRe.com"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://www.shoppre.com/offers"/>
