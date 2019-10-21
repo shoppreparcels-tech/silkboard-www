@@ -196,7 +196,7 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Great Indian Festival</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Upcoming Launches</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">21st - 25th Oct</h5>
                             <div class="ecomSmallBox" style="height: 94px;">
                                 <a href="/amazon-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>

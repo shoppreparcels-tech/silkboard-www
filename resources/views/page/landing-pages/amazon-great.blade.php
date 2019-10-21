@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', '13th - 17th OCT, Amazon Great Indian Festival 2019 | ShoppRe.com')
+@section('title', '21st - 25th OCT, Amazon Great Indian Festival 2019 | ShoppRe.com')
 @section('description', 'Shopping for Amazon.in Great Indian Sale. ShoppRe will deliver your package to you within 3-6 days at up to 80% low shipping rates, Worldwide.')
 @section('keywords', 'amazon.in, great indian sale, offers today, upcoming sale, online shopping, festival, mobiles, clothes, cashback, pay')
 
@@ -43,7 +43,7 @@
            </div>
            <div class="col-md-12 col-xs-12 text-center">
                <h1 class="f-s-26 f-c-d-greay f-w-9">Shop Amazon.in Great Indian Festival & Ship <span class="f-s-26 f-c-red f-w-9">@Cheap-Cost Internationally</span></h1>
-           <a href="/amazon-online-shopping" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Buy from Amazon Great Indian Sale</a>
+           <a href="/amazon-online-shopping" target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Buy from Amazon Great Indian Sale</a>
 
            </div>
        </div>
@@ -55,13 +55,13 @@
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                        class="startsValidValue"> 13th Oct 2019</span></p>
+                                        class="startsValidValue"> 21st Oct 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                        class="startsValidValue"> 17th Oct 2019</span></p>
+                                        class="startsValidValue"> 25th Oct 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
@@ -75,18 +75,18 @@
             </div>
             <div class=" col-md-12 pad-25">
                 <p class="f-s-26 f-c-gray f-w-9 text-center">
-                    <strong>Amazon Great Indian Sale 2019: 13th to 17th October 2019</strong>
+                    <strong>Amazon Great Indian Sale 2019: 21st to 25th October 2019</strong>
                 </p>
                                 <br>
                 <p class="header4 p-color-cement">
                     The six day extravaganza will bring with it, blockbuster deals, exciting offers and amazing discounts that everyone is eager to avail for the festive season shopping.
                     <a href="https://www.amazon.in/b?node=3419926031&pf_rd_p=8e899768-4b0c-49ba-ba35-67cf18c0e0ec&pf_rd_r=7C04YS7872BK443RS4H0"><i>The Amazon Great Indian Festival Sale</i></a>
-                    will be happening from <strong>13th to 17th October 2019</strong>, so you can mark your calendar for the dates and clear your schedule,
+                    will be happening from <strong>21st to 25th October 2019</strong>, so you can mark your calendar for the dates and clear your schedule,
                     for it is the biggest Sale of the year.
                 </p>
                 <br>
                 <p class="f-s-20 f-c-d-greay f-w-9">
-                    The Sale starts early exclusively for prime members- from 12 noon, 12th October.
+                    The Sale starts early exclusively for prime members- from 12 noon, 20th October.
                 </p>
                 <br>
                 <p class="header4 p-color-cement">
