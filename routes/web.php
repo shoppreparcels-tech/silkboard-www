@@ -566,6 +566,7 @@ Route::get('/dtdc/shipment/{id}', 'ShippingPartnerController@dtdcShipmentDetail'
 Route::get('/stories', 'StoryController@index')->name('story.index');
 Route::get('/story/{slug}', 'StoryController@view')->name('story.detail');
 Route::get('/cuelink', 'cuelinkController@index')->name('cuelink');
+Route::post('/customer-search', 'PageController@searchCreate')->name('customerSearch');
 
 
 /*-------- Country Specific ------*/

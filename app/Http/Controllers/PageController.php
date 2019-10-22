@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\CampaignStatistics;
 use App\City;
+use App\CustomerSearch;
 use App\Mail\EmailChat;
 use App\Mail\EmailSubscriber;
 
@@ -2512,5 +2513,13 @@ class PageController extends Controller
     public function jabongIndex()
     {
         return view('page.jabong-landing');
+    }
+
+    public function searchCreate(Request $request)
+    {
+        $customerSearch = new CustomerSearch;
+        $customerSearch->data = $request->data;
+        $customerSearch->save();
+        return response()->json(['message'=>$request->data]);
     }
 }

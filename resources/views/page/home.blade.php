@@ -486,8 +486,19 @@
                         </div>
 
                     </div>
-
-{{--                    <div>--}}
+                    <center>
+                        <form class="calc-form" id="searchKey">
+                        <div class="">
+                            <div class="search">
+                                <input type="text" class="searchTerm" id="searchText" placeholder="What are you looking for?">
+                                <button type="submit" class="searchButton" >
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                        </form>
+                    </center>
+                    {{--                    <div>--}}
 {{--                    <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">--}}
 {{--                        <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>--}}
 {{--                            Special <span class="p-color-red" style="font-size: 14px">ONAM Offer</span> awaits you‎ ,--}}
@@ -496,6 +507,7 @@
 {{--                        </p>--}}
 {{--                    </div>--}}
                 </div>
+
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
                         <div class="col-md-12 col-xs-12">
@@ -1484,6 +1496,28 @@
                 }, 2000);
             });
         }
+
+        $("#searchKey").validate({
+            submitHandler: function (form) {
+                debugger;
+                var q = $("input[id='searchText']").val();
+                // window.location.href = 'https://www.google.com/search?q='+q;
+
+                var queryParams = 'data='+q;
+
+                $.ajax({
+                        type: 'POST',
+                        url: '/customer-search',
+                        data: {
+                            data: q,
+                        },
+                        success: function () {
+                            var url = 'https://www.google.com/search?q=shoppre '+q;
+                            window.open(url, '_blank');
+                        }
+                    });
+            }
+        });
 
         // var input = document.querySelector("#phone");
         // window.intlTelInput(input, {
