@@ -1,13 +1,23 @@
 @extends('layout')
 
-@section('title', 'Limeroad Online Shopping from India | ShoppRe')
-@section('description', 'Online Fashion Store. Shop Latest & Trendy Fashion for every Occasion in the Material, Style & Length of Your Choice')
-@section('keywords', 'limeroad india, kurtis, shopping online, dresses, kurtis')
+@section('title', 'Limeroad Online Shopping from India | ShoppRe | Shop Now‎')
+@section('description', 'Limeroad Online Fashion Store. Shop Latest & Trendy Fashion from India with your ShoppRe Address for International Shipping, door-to-door delivery.')
+@section('keywords', 'kurta kurtis, limeroad online shopping dresses, women clothing, international shipping')
 
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/limeroad-online-shopping" />
     <meta name="robots" content="nofollow" />
+
+    <meta property="og:title" content="Limeroad: Online Shopping with ShoppRe International Shipping" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/limeroad-online-shopping" />
+    <meta property="og:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg" />
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
+    <meta property="og:image:alt" content="Limeroad international shipping" />
+    <meta property="og:description" content="Shop your Limeroad fashionable apparels, accessories and more with ShoppRe for Internatioanl Shipping." />
+    <meta property="og:site_name" content="ShoppRe" />
 
     <style>
         .zoom {

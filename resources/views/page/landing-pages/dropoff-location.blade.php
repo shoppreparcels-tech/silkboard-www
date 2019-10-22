@@ -25,7 +25,9 @@
 
 @endsection
 
+
 @section('content')
+
     <section class="div-b-l-w pad-20" >
        <div class="container pad-t-20">
            <br>
@@ -69,7 +71,6 @@
 
            <br>
            <br>
-
 
            <div class="col-md-12 col-xs-12">
 

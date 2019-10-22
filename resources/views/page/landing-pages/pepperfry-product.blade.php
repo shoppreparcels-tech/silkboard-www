@@ -1,13 +1,23 @@
 @extends('layout')
 
-@section('title', 'Pepperfry Online Shopping from India | ShoppRe')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'Pepperfry Online Shopping from India | ShoppRe | Shop Now')
+@section('description', 'Online Furniture Shopping from India with ShoppRe International Delivery. Shop Mattresses & Bedding, Home Decor, Furnishings, Homeware and more at best prices.')
+@section('keywords', 'furniture international shipping, wall art, mattresses, gifting, pepperfry india')
 
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/pepperfry-online-shopping" />
     <meta name="robots" content="nofollow" />
+
+    <meta property="og:title" content="Pepperfry: Online Furniture & Décor Shopping with ShoppRe International Shipping" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/pepperfry-online-shopping" />
+    <meta property="og:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg" />
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
+    <meta property="og:image:alt" content="Myntra international shipping" />
+    <meta property="og:description" content="Shop your Pepperfry products with ShoppRe for Internatioanl Shipping from India." />
+    <meta property="og:site_name" content="ShoppRe" />
 
     <style>
         .zoom {

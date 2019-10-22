@@ -8,35 +8,28 @@
 @section('css_style')
 
     <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "name": "ShoppRe.com",
-  "alternateName": "Indian Shopping Sites with International Delivery through ShoppRe",
-  "url": "https://www.shoppre.com/indian-online-stores",
-  "logo": "https://www.shoppre.com/img/logo.png",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+91 8277919191",
-    "contactType": "customer service"
-  },
-  "sameAs": [
-    "https://www.facebook.com/goshoppre",
-    "https://twitter.com/Go_Shoppre",
-    "https://www.instagram.com/shoppre_official",
-    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
-    "https://www.linkedin.com/company/shoppre.com",
-    "https://in.pinterest.com/shoppre"
-  ],
-  "aggregateRating": {
-    "@type" : "AggregateRating",
-    "bestRating": "5",
-    "ratingValue" : "4.7",
-    "reviewCount" : "158",
-    "worstRating" : 3.0
-  }
-}
-</script>
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "ShoppRe.com",
+          "alternateName": "Indian Shopping Sites with International Delivery through ShoppRe",
+          "url": "https://www.shoppre.com/indian-online-stores",
+          "logo": "https://www.shoppre.com/img/logo.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91 8277919191",
+            "contactType": "customer service"
+          },
+          "sameAs": [
+            "https://www.facebook.com/goshoppre",
+            "https://twitter.com/Go_Shoppre",
+            "https://www.instagram.com/shoppre_official",
+            "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+            "https://www.linkedin.com/company/shoppre.com",
+            "https://in.pinterest.com/shoppre"
+          ]
+        }
+    </script>
 
     <link rel="canonical" href="https://www.shoppre.com/indian-online-stores"/>
 
@@ -62,27 +55,7 @@
     <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
     <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 
-    <script type='application/ld+json'>
-{
-  "@context": "http://www.schema.org",
-  "@type": "Website",
-  "name": "ShoppRe Top Indian Shopping Sites",
-  "alternateName": "ShoppRe International Shipping",
-  "url": "https://www.shoppre.com/indian-online-stores",
-  "image": "https://www.shoppre.com/img/logo.png",
-  "description": "Shop from the list of Top Indian Online Shopping Stores, Facebook & Instagram Sellers. Shop as much as you like and Ship in your purchases by combining multiple packages into one and get it shipped to your country, delivered in 3-6 days.",
-    "sameAs": [
-    "https://www.facebook.com/goshoppre/",
-    "https://twitter.com/Go_Shoppre",
-    "https://plus.google.com/+SHOPPRECOM",
-    "https://www.instagram.com/shoppre_official",
-    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
-    "https://www.linkedin.com/company/shoppre.com",
-    "https://in.pinterest.com/shoppre",
-    "https://play.google.com/store/apps/details?id=com.shoppre.play"
-  ]
-}
-</script>
+
 @endsection
 
 @section('content')

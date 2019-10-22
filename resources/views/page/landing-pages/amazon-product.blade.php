@@ -1,12 +1,23 @@
 @extends('layout')
 
-@section('title', 'Amazon Great Indian Sale | Diwali Mela | ShoppRe')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'Amazon.in Online Shopping site in India | Shop Now | ShoppRe')
+@section('description', 'Shop the latest deals across Clothing, Books, Mobiles, Health and Personal Care online at Amazon India store with ShoppRe for International delivery from India.')
+@section('keywords', 'amazon india shopping, amazon international shipping rates, largest online store‎')
 
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/amazon-online-shopping" />
+    <meta name="robots" content="nofollow" />
+
+    <meta property="og:title" content="Amazon.in: Online Shopping with ShoppRe International Delivery" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/amazon-online-shopping" />
+    <meta property="og:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg" />
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
+    <meta property="og:image:alt" content="Amazon international shipping" />
+    <meta property="og:description" content="Amazon India products Internatioanl Delivery with ShoppRe at lower rates." />
+    <meta property="og:site_name" content="ShoppRe" />
 
     <style>
         .zoom {

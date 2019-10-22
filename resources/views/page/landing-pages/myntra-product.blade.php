@@ -1,13 +1,23 @@
 @extends('layout')
 
-@section('title', 'Myntra | Online Shopping from India')
-@section('description', 'Shopping For Apparel, Accessories, Footwear & More At the Comfort Of Your Home')
-@section('keywords', 'men, women, sale, india, shopping')
+@section('title', 'Myntra Fashion Store | Shop Now‎ | Online Shopping from India ')
+@section('description', 'Convenient Shopping for Apparel, Accessories, Footwear, Home Decor & more. Ship your Myntra purchases with your ShoppRe Address at lower rates from India.')
+@section('keywords', 'shoes, clothing, accessories, lifestyle products, women, men, best online fashion store, kids dresses, jumpsuits')
 
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/myntra-online-shopping"/>
     <meta name="robots" content="nofollow" />
+
+    <meta property="og:title" content="Myntra: Online Shopping with ShoppRe International Delivery" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/myntra-online-shopping" />
+    <meta property="og:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg" />
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
+    <meta property="og:image:alt" content="Myntra international shipping" />
+    <meta property="og:description" content="Sign-up for Indian Shipping Address. Shop your Myntra products with ShoppRe for Internatioanl Delivery." />
+    <meta property="og:site_name" content="ShoppRe" />
 
     <style>
         .zoom {

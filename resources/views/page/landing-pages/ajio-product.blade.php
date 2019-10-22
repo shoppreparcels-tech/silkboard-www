@@ -1,13 +1,23 @@
 @extends('layout')
 
-@section('title', 'AJIO | Online Shopping from India')
-@section('description', 'Online Shopping from AJIO Fashion and Lifestyle from India.')
-@section('keywords', 'ajio, trends, shipping, online shopping')
+@section('title', 'AJIO | Sparkling Sale 21st - 24th Oct 2019 | Ship with ShoppRe')
+@section('description', 'AJIO online shopping from India with ShoppRe International Shipping at Lowest Rates. Premium Brands. Stylish Collection. Tops & Dresses, Fusion Wear, Heels & Flats, Bags & Belts,  Sarees.')
+@section('keywords', 'online shopping, ajio shipping, reliance retail, trends, wardrobe, womens tops, ajio offers, sale')
 
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/ajio-online-shopping" />
     <meta name="robots" content="nofollow" />
+
+    <meta property="og:title" content="AJIO Trends: Shopping with ShoppRe International Shipping" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/ajio-online-shopping" />
+    <meta property="og:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg" />
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
+    <meta property="og:image:alt" content="ajio international shipping" />
+    <meta property="og:description" content="Sign-up for Indian Shipping Address. Shop your AJIO products with ShoppRe for Internatioanl Shipping." />
+    <meta property="og:site_name" content="ShoppRe" />
 
     <style>
         .zoom {

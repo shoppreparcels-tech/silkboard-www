@@ -1,13 +1,23 @@
 @extends('layout')
 
-@section('title', 'Lifestyle Online Shopping from India | ShoppRe')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'Lifestyle Shopping India | International Shipping with ShoppRe')
+@section('description', 'Lifestyle Stores. Buy latest fashion apparels, shoes, beauty products online from India for Women, Men & Kids. International shipping with ShoppRe at affordable rates.')
+@section('keywords', 'lifestyle stores, online shopping india, ecommerce shipping solutions')
 
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/lifestylestores-online-shopping" />
     <meta name="robots" content="nofollow" />
+
+    <meta property="og:title" content="Lifestylestores: Online Shopping with ShoppRe International Shipping" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/lifestylestores-online-shopping" />
+    <meta property="og:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg" />
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
+    <meta property="og:image:alt" content="Lifestylestores international shipping" />
+    <meta property="og:description" content="Sign-up for Indian Shipping Address. Shop your Lifestyle products with ShoppRe for Internatioanl Shipping." />
+    <meta property="og:site_name" content="ShoppRe" />
 
     <style>
         .zoom {

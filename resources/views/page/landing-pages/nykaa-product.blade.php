@@ -1,13 +1,23 @@
 @extends('layout')
 
-@section('title', 'Nykaa Online Shopping from India | ShoppRe')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'Online Shopping Nykaa Cosmetics | Beauty Products from India')
+@section('description', 'Indias No.1 Beauty Destination. Buy Beauty, Skin Care & Wellness Brands at Amazing Prices with ShoppRe International Delivery at lower rates from India.')
+@section('keywords', 'cosmetics, beauty products, lipsticks, hair dryers, best products to buy from nykaa, shipping outside india')
 
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/nykaa-online-shopping" />
     <meta name="robots" content="nofollow" />
+
+    <meta property="og:title" content="Nykaa Online Beauty Store: Online Shopping with ShoppRe International Delivery" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/nykaa-online-shopping" />
+    <meta property="og:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg" />
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
+    <meta property="og:image:alt" content="Nykaa international shipping" />
+    <meta property="og:description" content="Shop your favourite cosmetics & beauty products from Nykaa with ShoppRe for Internatioanl Delivery." />
+    <meta property="og:site_name" content="ShoppRe" />
 
     <style>
         .zoom {

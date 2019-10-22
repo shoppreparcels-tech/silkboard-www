@@ -1,13 +1,23 @@
 @extends('layout')
 
-@section('title', 'TATA CLiQ Online Shopping from India | ShoppRe')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'TATA CLiQ Online Shopping - Brands you love at low prices from India')
+@section('description', 'Buy latest Smartphone, Fashion and Lifestyle products from top known brands. Tata Cliq Products delivered to your doorstep with ShoppRe International Shipping.')
+@section('keywords', 'tata cliq, fashion, lifestyle products, international shipping, cheap online shopping ')
 
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/tatacliq-online-shopping" />
     <meta name="robots" content="nofollow" />
+
+    <meta property="og:title" content="Tata CLiQ: Online Shopping with ShoppRe International Shipping" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/tatacliq-online-shopping" />
+    <meta property="og:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg" />
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
+    <meta property="og:image:alt" content="Tatacliq international shipping" />
+    <meta property="og:description" content="Sign-up for Indian Shipping Address. Shop your Tata CLiQ products with ShoppRe for Internatioanl Shipping at lowest price from India." />
+    <meta property="og:site_name" content="ShoppRe" />
 
     <style>
         .zoom {

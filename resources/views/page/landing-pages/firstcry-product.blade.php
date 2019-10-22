@@ -1,13 +1,23 @@
 @extends('layout')
 
 @section('title', 'FIRSTCRY Baby & Kids Products Online Shopping from India')
-@section('description', 'Baby & Kids Products FirstCry. Upto 87% Off‎')
-@section('keywords', '')
+@section('description', 'Buy Seasonal Baby care products, Kids clothing, Gifts and Toys online at Firstcry Shopping store with ShoppRe for International delivery from India.')
+@section('keywords', 'baby products, kids clothing, toys, footwear, diapers, firstcry international shipping')
 
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/firstcry-online-shopping" />
     <meta name="robots" content="nofollow" />
+
+    <meta property="og:title" content="Firstcry: Baby, Kids & Moms Store Online Shopping with ShoppRe International Delivery" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/firstcry-online-shopping" />
+    <meta property="og:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg" />
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
+    <meta property="og:image:alt" content="Firstcry international shipping" />
+    <meta property="og:description" content="Shop Firstcry & Ship with ShoppRe for Internatioanl Delivery. Save up to 80% on shipping" />
+    <meta property="og:site_name" content="ShoppRe" />
 
     <style>
         .zoom {

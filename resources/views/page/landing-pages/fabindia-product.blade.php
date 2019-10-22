@@ -1,13 +1,23 @@
 @extends('layout')
 
-@section('title', 'Fabindia Online Shopping from India | ShoppRe')
-@section('description', '')
-@section('keywords', '')
+@section('title', 'Fabindia Online Shopping International Shipping | ShoppRe')
+@section('description', 'Fabindia Traditional Clothing, Classic Kurtas, Home Linen, Beauty Products Online Shopping from India with ShoppRe International Shipping. Buy Now!')
+@section('keywords', 'kurtas, kurtis, home linen, women shopping, handwoven dupattas, salwars, jhumkas, tops')
 
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/fabindia-online-shopping" />
     <meta name="robots" content="nofollow" />
+
+    <meta property="og:title" content="Fabindia Traditional: Shopping with ShoppRe International Shipping" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/fabindia-online-shopping" />
+    <meta property="og:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg" />
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
+    <meta property="og:image:alt" content="fabindia international shipping" />
+    <meta property="og:description" content="Sign-up for Indian Shipping Address. Shop your Fabindia traditions with ShoppRe for Internatioanl Shipping." />
+    <meta property="og:site_name" content="ShoppRe" />
 
     <style>
         .zoom {
