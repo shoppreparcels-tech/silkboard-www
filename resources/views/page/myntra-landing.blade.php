@@ -70,19 +70,19 @@
             <div class="row text-center">
                 <div class="col-sm-4">
                     <a href="/myntra-online-shopping" target="_blank"><div class="shopandship ">
-                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">🥻 TRADITIONAL TALES</h2>
+                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">The Celebration Is On</h2>
                             <br/>
-                            <p>Min. 30% Off</p>
-                            <p>Traditional Sarees</p>
+                            <p>50-80% Off</p>
+                            <p>Best of Women's & Men's Wear</p>
                             <p>👉 Explore Now</p>
                         </div></a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/" target="_blank"><div class="ps">
-                            <h2>👨 MANTASTIC</h2>
+                    <a href="https://www.myntra.com/saree-fest-sep19?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank"><div class="ps">
+                            <h2>🥻 Traditional Tales</h2>
                             <br/>
-                            <p>40-70% Off</p>
-                            <p>17th - 18th Oct</p>
+                            <p>Min. 30% Off</p>
+                            <p>Traditional Sarees</p>
                             <p>Explore Now</p>
                     </div>
                     </a>

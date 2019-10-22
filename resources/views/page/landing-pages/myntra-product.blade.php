@@ -370,59 +370,8 @@
             </div>
 
             <div class="row text-center">
-                <p class="f-s-22 f-c-l-gray f-w-7"><span class="f-s-22 f-c-red f-w-9">Traditional Tales <a href="https://www.myntra.com/saree-fest-sep19?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank">
-                            👉 (Min. 30% OFF)</a></span></p>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26">
-                        <img class="img-product m-t-img"
-                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7999577/2018/12/13/ed7d8c67-78ba-4358-b151-491618dd11861544696232082-Saree-mall-Orange--Navy-Blue-Embellished-Saree-2861544696231-1.jpg">
-                        <div class="check-price-padd">
-                            <a href="https://www.myntra.com/sarees/saree-mall/saree-mall-orange--navy-blue-embellished-saree/7999577/buy" target="_blank"> <span
-                                    class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right">
-                        <img class="img-product m-t-img"
-                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/6984149/2018/7/19/afbbdfd3-fd72-48d9-82ab-e07400ef045a1532000677681-Shaily-Maroon-Banarasi-Silk-Embellished-Saree-1791532000677484-1.jpg">
-                        <div class="check-price-padd">
-                            <a href="https://www.myntra.com/sarees/shaily/shaily-maroon-pure-silk-woven-design-banarasi-saree/6984149/buy" target="_blank">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right">
-                        <img class="img-product m-t-img"
-                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2325845/2017/12/11/11512997037580-Ishin-Bhagalpuri-Art-Silk-Orange--Blue-Printed-Womens-SareeSari-3591512997037498-1.jpg">
-                        <div class="check-price-padd">
-                            <a href="https://www.myntra.com/sarees/ishin/ishin-orange--blue-art-silk-woven-design-bhagalpuri-saree/2325845/buy"
-                               target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right">
-                        <img class="img-product m-t-img "
-                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/10196519/2019/7/22/2f3bb290-b27b-4ce4-a06c-3fe5a06571191563778764952-The-Chennai-Silks---Pure-Kanjivaram-Silk-Saree-4401563778763-1.jpg">
-                        <div class="check-price-padd">
-                            <a href="https://www.myntra.com/sarees/the-chennai-silks/the-chennai-silks-classicate-olive-green-woven-design-pure-silk-kanjeevaram-saree/10196519/buy"
-                               target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <p class="f-s-22 f-c-l-gray f-w-7"><span class="f-s-22 f-c-red f-w-9">THE CELEBRATION IS ON <a href="https://www.myntra.com" target="_blank">
+                            👉 (50-80% OFF)</a></span></p>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
@@ -639,6 +588,8 @@
                     </div>
                 </div>
             </div>
+
+
             <div class="row text-center">
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right">
@@ -689,6 +640,57 @@
                                target="_blank"> <span class="elementor-icon-list-icon">
                                                     <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
                                                     </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <img class="img-product m-t-img"
+                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7999577/2018/12/13/ed7d8c67-78ba-4358-b151-491618dd11861544696232082-Saree-mall-Orange--Navy-Blue-Embellished-Saree-2861544696231-1.jpg">
+                        <div class="check-price-padd">
+                            <a href="https://www.myntra.com/sarees/saree-mall/saree-mall-orange--navy-blue-embellished-saree/7999577/buy" target="_blank"> <span
+                                    class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right">
+                        <img class="img-product m-t-img"
+                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/6984149/2018/7/19/afbbdfd3-fd72-48d9-82ab-e07400ef045a1532000677681-Shaily-Maroon-Banarasi-Silk-Embellished-Saree-1791532000677484-1.jpg">
+                        <div class="check-price-padd">
+                            <a href="https://www.myntra.com/sarees/shaily/shaily-maroon-pure-silk-woven-design-banarasi-saree/6984149/buy" target="_blank">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right">
+                        <img class="img-product m-t-img"
+                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2325845/2017/12/11/11512997037580-Ishin-Bhagalpuri-Art-Silk-Orange--Blue-Printed-Womens-SareeSari-3591512997037498-1.jpg">
+                        <div class="check-price-padd">
+                            <a href="https://www.myntra.com/sarees/ishin/ishin-orange--blue-art-silk-woven-design-bhagalpuri-saree/2325845/buy"
+                               target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right">
+                        <img class="img-product m-t-img "
+                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/10196519/2019/7/22/2f3bb290-b27b-4ce4-a06c-3fe5a06571191563778764952-The-Chennai-Silks---Pure-Kanjivaram-Silk-Saree-4401563778763-1.jpg">
+                        <div class="check-price-padd">
+                            <a href="https://www.myntra.com/sarees/the-chennai-silks/the-chennai-silks-classicate-olive-green-woven-design-pure-silk-kanjeevaram-saree/10196519/buy"
+                               target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
                             </a>
                         </div>
                     </div>
