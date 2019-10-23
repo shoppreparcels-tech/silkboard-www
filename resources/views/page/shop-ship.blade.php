@@ -1,15 +1,28 @@
 @extends('layout')
 
-
-@section('title', 'Shop from 1000 Indian online stores with your ShoppRe Address')
-@section('description', 'Shop from 1000 Indian online stores with your ShoppRe Address‎. International shipping to USA, UAE, AUS at 80% lower rates on shipping cost. Sign up Free.')
-@section('keywords', 'shop from india, ship to usa, indian online stores, shipping address, uae courier')
+@section('title', 'Online Shopping from India | Hassle Free Worldwide Shipping | ShoppRe')
+@section('description', 'Shop from 1000 Indian online stores with your ShoppRe Address. Hassle Free worldwide shipping from India at 80% lower rates. 3-6 days delivery. Sign up Now!')
+@section('keywords', 'shop from india, ship to usa, indian online stores, shipping address, uae courier, international shopping')
 @section('css_style')
+
     <link rel="canonical" href="https://www.shoppre.com/shop-ship"/>
+
+    <meta property="og:title" content="Online Shopping from India with ShoppRe International Shipping" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/shop-ship" />
+    <meta property="og:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg" />
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
+    <meta property="og:image:alt" content="international shopping" />
+    <meta property="og:description" content="Shop online stores in India with your ShoppRe Address for Internatioanl Delivery." />
+    <meta property="og:site_name" content="ShoppRe" />
+
     <style>
         .bg-diwali-lp{background-image:url(../../img/images/overlay1.png);height:900px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.select-control{float:left;width:90px!important;height:40px!important;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:3px;background-color:#fafafb;border:none}.select2-container--default.select2-selection--single{background-color:#fff!important;border:none!important;border-radius:4px!important;height:40px!important;padding-top:5px!important}.select2-container--default .select2-selection--single .select2-selection__arrow b{margin-top:4px!important}@media only screen and (max-width:600px){.bg-diwali-lp{height:700px}}
     </style>
+
 @endsection
+
 @section('content')
 
     <section class="bg-diwali-lp">
@@ -142,7 +155,7 @@
                 </center>
             </div>
             <div class=" col-md-12 offer-description">
-                <h5 class="f-s-20 font-weight-900 f-c-d-greay ">Shop from India  & Hassle Free Shipping to USA, UAE, AUS, UK at 80% lower rates on shipping cost!</h5> <br>
+                <h5 class="f-s-20 font-weight-900 f-c-d-greay ">Online Shopping from India with your ShoppRe Address & Hassle Free Shipping to USA, UAE, AUS, UK at 80% lower rates on shipping cost!</h5> <br>
                 <h4 class="header4 p-color-cement"> Buy Products/Brands you Love from any online store in India;
                     Store, Consolidate, Repack & Ship Worldwide in 3-6 days delivery. Package Forwarding from India Made Easy by ShoppRe.com</h4>
                 <br>

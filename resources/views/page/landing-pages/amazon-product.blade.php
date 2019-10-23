@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Amazon.in Online Shopping site in India | Shop Now | ShoppRe')
+@section('title', 'Great Indian Festival Sale | Amazon.in Online Shopping from India')
 @section('description', 'Shop the latest deals across Clothing, Books, Mobiles, Health and Personal Care online at Amazon India store with ShoppRe for International delivery from India.')
 @section('keywords', 'amazon india shopping, amazon international shipping rates, largest online store‎')
 

@@ -1,17 +1,28 @@
 @extends('layout')
 
-@section('title', 'Limeroad Shipping to USA | Online Shopping India | ShoppRe.com')
-@section('description', 'Online shopping from Limeroad Indian and Shipping to USA)
-@section('keywords', 'usa, online shopping, trendy fashion, shop latest')
+@section('title', 'Limeroad Shipping to USA | Online Shopping India | ShoppRe')
+@section('description', 'Shop from Limeroad Online Trendy Fashion Store‎ with your ShoppRe Address and Ship worldwide from India at 80% lower rates. 3-6 days delivery.')
+@section('keywords', 'usa, online shopping dresses, trendy fashion, shop latest, limeroad')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/limeroad-shopping-international-shipping" />
+
+    <meta property="og:title" content="Ship Limeroad.com Purchases Internationally with ShoppRe" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/limeroad-shopping-international-shipping" />
+    <meta property="og:image" content="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/0d313277-27f6-4927-851f-8b6ba2b64da7.png" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
+    <meta property="og:image:alt" content="Limeroad international shopping" />
+    <meta property="og:description" content="Shop Limeroad from India & Ship to USA with your ShoppRe Address for Internatioanl Delivery." />
+    <meta property="og:site_name" content="ShoppRe" />
 
     <style>
         .bg-limeroad-landing-page{background-image:url(../../img/images/overlay1.png);height:560px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.bg-limeroad-landing-page .container>div{margin-bottom:3em}.d-header-text{font-size:40px;font-weight:900}.d-header-text1{font-family:Montserrat -Italic;font-style:italic;line-height:26px;margin-top:25px}.christmas-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-121px;padding:20px}.box-steps p{line-height:1}.box-steps p span{font-size:22px;font-weight:900}.flipkart-h1{font-size:25px}.christmas-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.christmas-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}#packing:hover{display:none}@media only screen and (max-width:600px){.bg-limeroad-landing-page{height:628px}}
     </style>
 
 @endsection
+
 @section('content')
 
     <section class="bg-limeroad-landing-page">
@@ -47,7 +58,7 @@
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
                         <center>
-                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/limeroad-online-shopping-offers.png" alt="limeroad.com">
+                            <a href="https://clnk.in/jTBp" target="_blank"><img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/limeroad-online-shopping-offers.png" alt="limeroad.com"></a>
                         </center>
                     </div>
                 </div>

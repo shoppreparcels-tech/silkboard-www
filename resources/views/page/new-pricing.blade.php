@@ -6,9 +6,21 @@
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator"/>
+
+    <meta property="og:title" content="Estimate your shipping costs from India | ShoppRe.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator" />
+    <meta property="og:image" content="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/bd6315a4-c0f4-48fd-8e67-8813e65d5f52.png" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
+    <meta property="og:image:alt" content="international shipping calculator india" />
+    <meta property="og:description" content="Shipping Rate Calculator - Calculate Your Shipping Costs Now & Save Up to 80% on 3-6 Day Shipping from India to your Country." />
+    <meta property="og:site_name" content="ShoppRe" />
+
     <style>
         .container-fluid{padding-left:10%;padding-right:10%}.btn span.glyphicon{opacity:0}.btn.active span.glyphicon{opacity:1}.l-pad{padding-left:10px}.div-b-price{border-radius:3px;border:1px solid silver;background-color:#fbfbfc}.div-p-price{box-shadow:0 2px 3px rgba(232,81,81,.1);border-radius:3px;border:1px solid #ffe19a;background-color:#fff7e5}.div-b-b{border-bottom:1px solid rgba(146,156,165,.2);padding-bottom:20px}.btn-terms{border-radius:30px;background-color:#929ca5;color:#fff}.div-c-guide{border-radius:3px;border:1px solid rgba(233,196,106,.2);background-color:#fff7e4}.btn-enable{display:none}.btn-disabled{display:inline-block}.btn-puls-pad{padding:6px 8px}.new-pricing .select-control{float:left;width:89px;height:40px;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:20px;background-color:#fafafb;border:none}.sidebar-nav-fixed{width:13%}.fixed-div{position:fixed}#volumetric-dis{display:none}.margin01{margin:6px}.margin02{margin:4px}.m-b-5{margin-bottom:5px}@media only screen and (max-width:600px){.l-pad{padding-left:0}.container-fluid{padding-left:1%;padding-right:1%}.btn-enable{display:inline-block}.btn-disabled{display:none}.btn-puls-pad{padding:6px 6px}}
     </style>
+
 @endsection
 
 @section('content')

@@ -8,9 +8,9 @@
     <meta property="og:title" content="Shop online from Myntra fashion store and Ship Internationally with Shoppre" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.shoppre.com/myntra-online-shopping-shipping-from-india" />
-    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
-    <meta property="og:image:width" content="2506">
-    <meta property="og:image:height" content="1312">
+    <meta property="og:image" content="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/9a54ea3d-1fb9-4c29-9145-cdfac0628cb9.png" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
     <meta property="og:image:alt" content="shoppre international shipping india" />
     <meta property="og:description" content="Buy in Myntra and Ship your purchases from India to USA, UK, UAE, Australia & such, at an affordable shipping cost." />
     <meta property="og:site_name" content="shoppre" />
@@ -19,7 +19,7 @@
     <meta name="twitter:site" content="go_shoppre" />
     <meta name="twitter:title" content="Myntra International Shipping from India " />
     <meta name="twitter:description" content="Shop in Myntra and courier your packages from India to USA, UK, UAE, Australia at a cheap courier cost." />
-    <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
+    <meta name="twitter:image" content="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/9a54ea3d-1fb9-4c29-9145-cdfac0628cb9.png" />
     <meta name="twitter:image:alt" content="shoppre international shipping" />
 
 

@@ -1,21 +1,21 @@
 @extends('layout')
 
-@section('title', 'Flipkart Offer & Sale | Cheap Online Shopping from India')
-@section('description', 'Big Diwali Sale 2019 Dates and Offers. Shopping from Flipkart India online and get ₹250 cashback on Shipping with ShoppRe. ')
-@section('keywords', 'diwali sale, flipkart usa, shipping from india')
+@section('title', 'Flipkart.com Online Shop | Big Diwali Sale is Live | ShoppRe')
+@section('description', 'Flipkart Online Shopping (Big Diwali Sale is Live 2019).‎ Shop Flipkart with your ShoppRe Address and Ship Internationally at Lowest rates from India. Buy Now!')
+@section('keywords', 'flipkart usa, shipping from india, shipping rates, international delivery, shopping stores')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/flipkart-online-shopping" />
     <meta name="robots" content="nofollow" />
 
-    <meta property="og:title" content="Flipkart Shopping with ShoppRe International Delivery" />
+    <meta property="og:title" content="Flipkart: Shopping with ShoppRe International Delivery" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://www.shoppre.com/flipkart-online-shopping" />
-    <meta property="og:image" content="https://www.shoppre.com/img/product/flipkart-big-diwali-sale-2019-oct25.png" />
-    <meta property="og:image:width" content="3000">
-    <meta property="og:image:height" content="1000">
+    <meta property="og:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg" />
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
     <meta property="og:image:alt" content="ShoppRe Flipkart international shipping" />
-    <meta property="og:description" content="Sign-up for Indian Address. Shop your favorite from Flipkart store and Ship Internationally with ShoppRe." />
+    <meta property="og:description" content="Shop Flipkart store and Ship Internationally with ShoppRe." />
     <meta property="og:site_name" content="ShoppRe" />
 
     <style>

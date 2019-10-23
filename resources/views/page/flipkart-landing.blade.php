@@ -8,9 +8,9 @@
     <meta property="og:title" content="Shop Online from Flipkart India & Ship Internationally with ShoppRe" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.shoppre.com/flipkart-shopping-with-shoppre-from-india" />
-    <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg" />
-    <meta property="og:image:width" content="2506">
-    <meta property="og:image:height" content="1312">
+    <meta property="og:image" content="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/d48a86ed-0d6c-42f9-9ea5-2d0437231ed6.png" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
     <meta property="og:image:alt" content="shoppre international shipping India" />
     <meta property="og:description" content="Shop your favorite product & brand you love from Flipkart online shopping store and Ship Internationally with ShoppRe. Sign Up for Free." />
     <meta property="og:site_name" content="ShoppRe" />

@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Myntra Fashion Store | Shop Now‎ | Online Shopping from India ')
+@section('title', 'Myntra Fashion Store | Shop Now | Online Shopping from India ')
 @section('description', 'Convenient Shopping for Apparel, Accessories, Footwear, Home Decor & more. Ship your Myntra purchases with your ShoppRe Address at lower rates from India.')
 @section('keywords', 'shoes, clothing, accessories, lifestyle products, women, men, best online fashion store, kids dresses, jumpsuits')
 

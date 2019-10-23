@@ -1,17 +1,18 @@
 @extends('layout')
+
 @section('title', 'Customer Reviews & Ratings | Leave Your Feedback • ShoppRe.com™')
 @section('description', 'Read our latest Reviews & Ratings showcasing the excellent service, ship on time & quality of shipment. Share feedback about your shipping experiences with us.')
 @section('keywords', 'reviews, ratings, customer, shipping, shopping, service, india')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/reviews">
+
     <link href="{{env('AWS_CLOUD_FRONT')}}/css/select2.min.css" rel="stylesheet">
     <link href="{{env('AWS_CLOUD_FRONT')}}/css/star-rating.min.css" rel="stylesheet"/>
 
     <meta property="og:title" content="Customer Reviews & Ratings | ShoppRe.com "/>
     <meta property="og:type" content="website"/>
-    <meta property="og:description"
-          content="Read our latest Review & Ratings showcasing the excellent service, ship on time & quality of shipment. Please share your feedback about your recent shopping and shipping experiences with us."/>
+    <meta property="og:description" content="Read our latest Review & Ratings showcasing the excellent service, ship on time & quality of shipment."/>
     <meta property="og:url" content="https://www.shoppre.com/reviews"/>
     <meta property="og:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
     <meta property="og:site_name" content="ShoppRe.com"/>
@@ -19,8 +20,7 @@
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@Go_Shoppre"/>
     <meta name="twitter:title" content="Customer Reviews & Ratings | ShoppRe.com"/>
-    <meta name="twitter:description"
-          content="Read our latest Review & Ratings showcasing the excellent service, ship on time & quality of shipment. Please share your feedback about your recent shopping and shipping experiences with us."/>
+    <meta name="twitter:description" content="Read our latest Review & Ratings showcasing the ShoppRe excellent service, ship on time & quality of shipment."/>
     <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
 
     <meta name="twitter:app:country" content="IN"/>
@@ -37,7 +37,7 @@
   "@context": "http://schema.org",
   "@type": "Organization",
   "name": "ShoppRe",
-  "alternateName": "International Shipping From India",
+  "alternateName": "International Shipping from India",
   "url": "https://www.shoppre.com/reviews",
   "logo": "https://www.shoppre.com/img/logo.png",
   "contactPoint": {
