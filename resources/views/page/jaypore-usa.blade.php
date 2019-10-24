@@ -10,7 +10,7 @@
 
     <meta property="og:title" content="Ship Jaypore.com Purchases Internationally with ShoppRe" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.shoppre.com/jaypore-usa-shipping-from-india" />
+    <meta property="og:url" content="https://www.shoppre.com/jaypore-shopping-usa" />
     <meta property="og:image" content="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/ab38f071-5880-47d4-b032-60cac4a256a2.png" />
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="628">

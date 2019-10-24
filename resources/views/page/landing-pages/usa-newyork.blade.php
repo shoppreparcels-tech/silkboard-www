@@ -2,11 +2,21 @@
 
 @section('title', 'Fast Shipping service from India to New York, USA | ShoppRe')
 @section('description', 'International shipping service from India to New York. We offer clothes, medicine, furniture shipping, relocation & more. Call Now Or Get Free Quote.')
-@section('keywords', 'international shipping from india, online shopping')
+@section('keywords', 'international shipping from india, online shopping, india to new york')
 
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/shipping-from-india-to-usa/new-york" />
+
+    <meta property="og:title" content="Cheap Shipping from India to New York with ShoppRe"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/shipping-from-india-to-usa/new-york"/>
+    <meta property="og:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}"/>
+    <meta property="og:image:width" content="2160">
+    <meta property="og:image:height" content="1216">
+    <meta property="og:image:alt" content="India to New York" />
+    <meta property="og:description" content="Get Cheap Shipping to New York with ShoppRe Parcel Forwarding and Consolidation service."/>
+    <meta property="og:site_name" content="ShoppRe New York"/>
 
     <style>
         .first-time-shipment{background-color:#11273b;height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;padding-top:60px}
@@ -18,7 +28,10 @@
     </style>
 
 @endsection
+
+
 @section('content')
+
     <section class="first-time-shipment">
         <div class="container no-padding">
            <div class="col-md-12 col-xs-12 no-padding">
@@ -67,7 +80,7 @@
                 <br>
                 <p class="header4 p-color-cement">Consequently, there is an enormous online shopping from India, which faces many problems like high shipping
                     charges from India, lost packages, delayed delivery, etc. But we at ShoppRe offer you a reliable, fast and low-cost shipping service with
-                    our renowned courier partners DHL and DTDC. So do hassle-free online shopping from India and will deliver it to you within 3-6 days.
+                    our renowned courier partners DHL and DTDC. So do hassle-free <a href="/shop-from-india-ship-worldwide">online shopping from India</a> and will deliver it to you within 3-6 days.
                 </p>
                 <br>
                 <h4 class="f-s-20 f-c-gray f-w-9"><i>Here is a special discount of ₹200/- Off on your first international shipment to New Jersey, use code: FRST50</i></h4>
@@ -178,9 +191,9 @@
             </p>
             <br>
             <h2 class="p-color-cement-dark f-w-9 font-18">3. Can you ship wedding sarees from India to New York?</h2>
-            <p class="p-color-cement f-w-9 font-9">Yes, you can ship sarees from India to New York with our safe and secure shipping service partners DHL and DTDC.
+            <p class="p-color-cement f-w-9 font-9">Yes, you can ship sarees from India to New York with our
+                <a href="/international-courier-shipping-services-india" target="_blank">safe and secure shipping service</a> partners DHL and DTDC.
                 And you can even do online shopping for wedding sarees and get them shipped to New York with our package forwarding service from India.
-
             </p>
             <br>
             <h2 class="p-color-cement-dark f-w-9 font-18">4. How to send rakhi to New York from India online?</h2>
@@ -201,135 +214,100 @@
             <br>
             {{--<s features>--}}
         </div>
+
     </section>
     <br>
     <br>
+
     <section>
         <div class="container fst-service" style="margin-top: 1px">
             <div class="row">
-                <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Best Online Shopping Sites from India to New York, USA</h2>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="/myntra-international-shipping-to-usa" target="_blank"> <span class="elementor-icon-list-icon">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
-                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">Myntra Shopping from USA</span>
-                            </a>
+                <div class="row">
+                    <h2 class="f-s-20 f-c-d-gray font-weight-900 text-center" style="color: #4285f4">ShoppRe International parcel delivery to all USA cities, including </h2>
+                    <br>
+                    <div class="col-sm-4">
+                        <div class="panel ">
+                            <ul>
+                                <li><span><a href="/shipping-from-india-to-usa/florida">Florida</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/las-vegas">Las Vegas</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/chicago">Chicago</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/los-angeles">Los Angeles</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/michigan">Michigan</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/new-jersey">New Jersey</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/austin">Austin</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/connecticut">Connecticut</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/north-america">North America</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/edison">Edison</a></span></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="/flipkart-usa-shopping" target="_blank"> <span class="elementor-icon-list-icon">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
-                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">Flipkart Shopping from USA</span>
-                            </a>
+                    <div class="col-sm-4">
+                        <div class="panel ">
+                            <ul>
+                                <li><span><a href="/shipping-from-india-to-usa/texas">Texas</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/california">california</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/virginia">Virginia</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/washington">Washington</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/san-francisco">San Francisco</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/illinois">Illinois</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/alabama">Alabama</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/detroit">Detroit</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/rockland-county">Rockland County</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/cupertino">Cupertino</a></span></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="/shop-from-amazon-india-and-ship-to-usa" target="_blank"> <span class="elementor-icon-list-icon">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
-                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">Amazon.in Shopping from USA</span>
-                            </a>
+                    <div class="col-sm-4">
+                        <div class="panel ">
+                            <ul>
+                                <li><span><a href="/shipping-from-india-to-usa/georgia">Georgia</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/arizona">Arizona</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/pennsylvania">Pennsylvania</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/colorado">Colorado</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/alaska">Alaska</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/delaware">Delaware</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/hawaii">Hawaii</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/arkansas">arkansas</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/palo-alto">Palo Alto</a></span></li>
+                                <li><span><a href="/shipping-from-india-to-usa/caribbean">Caribbean</a></span></li>
+                            </ul>
                         </div>
                     </div>
+
                 </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
 
-
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="/jabong-usa-shipping-from-india" target="_blank"> <span class="elementor-icon-list-icon">
-                                   <i class="fa fa-plane" aria-hidden="true"></i>
-                                   </span>
-                                <span class="elementor-icon-list-text txt-u-l">Jabong Shopping from USA</span>
-                            </a>
+                <div class="row">
+                    <h2 class="f-s-18 f-c-d-gray font-weight-900 text-center" style="color: #4285f4">Get Cheap Shipping to the USA with ShoppRe Parcel Forwarding from online stores in India</h2>
+                    <br>
+                    <div class="col-sm-4">
+                        <div class="panel ">
+                            <ul>
+                                <li><span><a href="/flipkart-online-shopping">Shop online from Flipkart to USA</a></span></li>
+                                <li><span><a href="/ajio-online-shopping">Shop online from AJIO to USA</a></span></li>
+                                <li><span><a href="/myntra-online-shopping">Shop online from Myntra to USA</a></span></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="/trends-ajio-usa-shipping-from-india" target="_blank"> <span class="elementor-icon-list-icon">
-                               <i class="fa fa-plane" aria-hidden="true"></i>
-                               </span>
-                                <span class="elementor-icon-list-text txt-u-l">AJIO Shopping from USA</span>
-                            </a>
+                    <div class="col-sm-4">
+                        <div class="panel ">
+                            <ul>
+                                <li><span><a href="/amazon-online-shopping">Shop online from Amazon.in to USA</a></span></li>
+                                <li><span><a href="/limeroad-online-shopping">Shop online from Limeroad to USA</a></span></li>
+                                <li><span><a href="/nykaa-online-shopping">Shop online from Nykaa to USA</a></span></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="/jaypore-shopping-usa" target="_blank"> <span class="elementor-icon-list-icon">
-                               <i class="fa fa-plane" aria-hidden="true"></i>
-                               </span>
-                                <span class="elementor-icon-list-text txt-u-l">Jaypore Shopping from USA</span>
-                            </a>
+                    <div class="col-sm-4">
+                        <div class="panel ">
+                            <ul>
+                                <li><span><a href="/firstcry-online-shopping">Shop online from Firstcry to USA</a></span></li>
+                                <li><span><a href="/fabindia-online-shopping">Shop online from Fabindia to USA</a></span></li>
+                                <li><span><a href="/tatacliq-online-shopping">Shop online from Tata Cliq to USA</a></span></li>
+                            </ul>
                         </div>
                     </div>
+
                 </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="/limeroad-shopping-international-shipping" target="_blank"> <span class="elementor-icon-list-icon">
-                               <i class="fa fa-plane" aria-hidden="true"></i>
-                               </span>
-                                <span class="elementor-icon-list-text txt-u-l">Limeroad Shopping from India</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/online-stores-india/nykaa-india-beauty-products-international-shipping/" target="_blank"> <span class="elementor-icon-list-icon">
-                               <i class="fa fa-plane" aria-hidden="true"></i>
-                               </span>
-                                <span class="elementor-icon-list-text txt-u-l">Nykaa Beauty Shopping</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/online-stores-india/biba-india-international-shipping/" target="_blank"> <span class="elementor-icon-list-icon">
-                               <i class="fa fa-plane" aria-hidden="true"></i>
-                               </span>
-                                <span class="elementor-icon-list-text txt-u-l">BIBA.in Shopping from India</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
             <div class="mar-t-25">
                 <div class="txt-center">
                     <button type="button" class="btn btn-warning bord-rad-5 margin-r-10">
@@ -338,12 +316,13 @@
                         </a>
                     </button>
                     <button type="button" class="btn btn-success bord-rad-5 margin-r-10">
-                        <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20from%20India%20and%20Ship%20Worldwide?" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
+                        <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20from%20India%20and%20Ship%20to%20NEW-YORK?" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
                             <p class="btn-md">Message Us On WhatsApp</p>
                         </a>
                     </button>
                 </div>
             </div>
+        </div>
         </div>
         <br>
         <br>

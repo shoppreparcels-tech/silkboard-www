@@ -1007,7 +1007,7 @@
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 147px;">
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">245 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">244 Google Reviews</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787 ">Shipping and Delivery Service</p>
@@ -1019,7 +1019,7 @@
                                 <br>
                                 <div style="background-color: blue; max-width: 86px; border-radius: 20px; height: 40px;">
                                 <p class="p-name" style="font-size: 23px; padding-top: 6px; padding-left: 10px;color: white;">
-                                    <span >4.7</span>
+                                    <span >4.6</span>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </p>
                                 </div>

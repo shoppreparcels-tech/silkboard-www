@@ -259,7 +259,7 @@
                         <ul>
                             <li><span><a href="limeroad-shopping-international-shipping">Limeroad Online Shopping Site</a></span></li>
                             <li><span><a href="https://ship.shoppre.com/online-stores-india/suta-online-shopping-india/" target="_blank">Suta Sarees Online Shopping</a></span></li>
-                            <li><span><a href="https://ship.shoppre.com/online-stores-india/firstcry-baby-products-international-shipping/" target="_blank">FirstCry Baby & Kids Shopping</a></span></li>
+                            <li><span><a href="https://www.shoppre.com/firstcry-online-shopping" target="_blank">FirstCry Baby & Kids Shopping</a></span></li>
                             <li><span><a href="https://ship.shoppre.com/online-stores-india/patanjali-ayurved-products-international-delivery/" target="_blank">Patanjali Ayurvedic Shopping</a></span></li>
                             <li><span><a href="https://ship.shoppre.com/online-stores-india/snapdeal-international-delivery-shopping-from-india/" target="_blank">Snapdeal Online Shopping</a></span></li>
 
@@ -269,10 +269,10 @@
                 <div class="col-sm-4">
                     <div class="panel outer border-1px">
                         <ul>
-                            <li><span><a href="https://ship.shoppre.com/online-stores-india/shop-pepperfry-online-furniture-international-shipping-india/" target="_blank">Pepperfry Furniture Shopping</a></span></li>
+                            <li><span><a href="/pepperfry-online-shopping" target="_blank">Pepperfry Furniture Shopping</a></span></li>
                             <li><span><a href="https://ship.shoppre.com/online-stores-india/ishashoppe-organic-yoga-clothing-india-international-shipping/" target="_blank">IshaShoppe Yoga Clothing</a></span></li>
-                            <li><span><a href="https://ship.shoppre.com/online-stores-india/nykaa-india-beauty-products-international-shipping/" target="_blank">Nykaa Cosmetics Products</a></span></li>
-                            <li><span><a href="https://ship.shoppre.com/online-stores-india/biba-india-international-shipping/" target="_blank">Biba Ethnic Wear Shopping</a></span></li>
+                            <li><span><a href="/nykaa-online-shopping" target="_blank">Nykaa Cosmetics Products</a></span></li>
+                            <li><span><a href="/tatacliq-online-shopping" target="_blank">Tata CLiQ Online Shopping</a></span></li>
                             <li><span><a href="https://ship.shoppre.com/online-stores-india/boodmo-care-spare-parts-international-shipping-from-india/" target="_blank">Boodmo - Spare Parts for CARS</a></span></li>
                         </ul>
                     </div>
