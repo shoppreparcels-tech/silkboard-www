@@ -8,6 +8,16 @@
 
     <link rel="canonical" href="https://www.shoppre.com/shipping-from-india-to-usa/palo-alto" />
 
+    <meta property="og:title" content="Best Ship Rates to Palo Alto from India | ShoppRe.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/shipping-from-india-to-usa/palo-alto"/>
+    <meta property="og:image" content="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/1ba59840-c654-4f49-bdb6-6319f9b938be.jpg"/>
+    <meta property="og:image:width" content="1340">
+    <meta property="og:image:height" content="934">
+    <meta property="og:image:alt" content="India to Palo Alto" />
+    <meta property="og:description" content="Lowest shipping rates guaranteed. Savings up to 80% using top carriers to Palo Alto. ShoppRe™ International Shipping"/>
+    <meta property="og:site_name" content="ShoppRe Palo Alto"/>
+
     <style>
         .first-time-shipment{background-color:#11273b;height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;padding-top:60px}
         .first-time-shipment .div-snow{padding-top:146px}

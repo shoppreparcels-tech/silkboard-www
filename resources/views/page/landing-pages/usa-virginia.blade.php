@@ -11,7 +11,7 @@
     <meta property="og:title" content="Easily Send Packages to Virginia with ShoppRe Package Consolidation & Exporting Services"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://www.shoppre.com/shipping-from-india-to-usa/virginia"/>
-    <meta property="og:image" content="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/8ad35835-be15-4543-a2a7-c515bed0e171.jpg"/>
+    <meta property="og:image" content="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/1ba59840-c654-4f49-bdb6-6319f9b938be.jpg"/>
     <meta property="og:image:width" content="1340">
     <meta property="og:image:height" content="934">
     <meta property="og:image:alt" content="India to Virginia" />

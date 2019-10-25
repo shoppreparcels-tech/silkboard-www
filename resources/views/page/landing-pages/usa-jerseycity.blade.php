@@ -8,6 +8,16 @@
 
     <link rel="canonical" href="https://www.shoppre.com/shipping-from-india-to-usa/jersey-city" />
 
+    <meta property="og:title" content="Ship Goods from India to Jersey City | Get ₹200 Off"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/shipping-from-india-to-usa/jersey-city"/>
+    <meta property="og:image" content="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/1ba59840-c654-4f49-bdb6-6319f9b938be.jpg"/>
+    <meta property="og:image:width" content="1340">
+    <meta property="og:image:height" content="934">
+    <meta property="og:image:alt" content="India to Jersey City" />
+    <meta property="og:description" content="Flexible, safe and easy. Trust ShoppRe for Fast International Shipping to Jersey-city of the United States. Get a Quote Today."/>
+    <meta property="og:site_name" content="ShoppRe Jersey City"/>
+
     <style>
         .first-time-shipment{background-color:#11273b;height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;padding-top:60px}
         .first-time-shipment .div-snow{padding-top:146px}

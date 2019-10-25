@@ -8,6 +8,16 @@
 
     <link rel="canonical" href="https://www.shoppre.com/shipping-from-india-to-usa/edison" />
 
+    <meta property="og:title" content="Shipping from India To Edison | Instant Online Quote"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/shipping-from-india-to-usa/edison"/>
+    <meta property="og:image" content="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/1ba59840-c654-4f49-bdb6-6319f9b938be.jpg"/>
+    <meta property="og:image:width" content="1340">
+    <meta property="og:image:height" content="934">
+    <meta property="og:image:alt" content="India to Edison" />
+    <meta property="og:description" content="Easy Online Shipping to Edison from India. Get ₹200 Off on First shipment. ShoppRe™ International Shipping"/>
+    <meta property="og:site_name" content="ShoppRe Edison"/>
+
     <style>
         .first-time-shipment{background-color:#11273b;height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;padding-top:60px}
         .first-time-shipment .div-snow{padding-top:146px}
