@@ -380,8 +380,62 @@
             </div>
 
             <div class="row text-center">
-                <p class="f-s-22 f-c-l-gray f-w-7"><span class="f-s-22 f-c-red f-w-9">THE CELEBRATION IS ON <a href="https://www.myntra.com" target="_blank">
-                            👉 (50-80% OFF)</a></span></p>
+{{--                <p class="f-s-22 f-c-l-gray f-w-7"><span class="f-s-22 f-c-red f-w-9">THE CELEBRATION IS ON <a href="https://www.myntra.com" target="_blank">--}}
+{{--                            👉 (50-80% OFF)</a></span></p>--}}
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <img class="img-product m-t-img"
+                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7719007/2018/11/19/1cac68d7-2389-48c8-b6d0-0a16c7d4236b1542608837264-Libas-Women-Dresses-9261542608836986-1.jpg">
+                        <div class="check-price-padd">
+                            <a href="https://www.myntra.com/dresses/libas/libas-women-black--golden-block-print-maxi-dress/7719007/buy" target="_blank"> <span
+                                    class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right">
+                        <img class="img-product m-t-img"
+                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2477343/2018/2/22/11519301743689-Libas-Women-Green-Woven-Design-Pathani-Kurta-4531519301743438-1.jpg">
+                        <div class="check-price-padd">
+                            <a href="https://www.myntra.com/kurtas/libas/libas-women-green-woven-design-pathani-kurta/2477343/buy" target="_blank">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right">
+                        <img class="img-product m-t-img"
+                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2528325/2018/3/15/11521096428996-Libas-Women-Kurtas-871521096428801-1.jpg">
+                        <div class="check-price-padd">
+                            <a href="https://www.myntra.com/kurtas/libas/libas-women-mustard-yellow--blue-printed-a-line-kurta/2528325/buy"
+                               target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right">
+                        <img class="img-product m-t-img "
+                             src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/8073889/2018/12/14/b4d5056b-eef8-430c-8fc2-d27b083d720c1544774639977-Libas-Women-Blue--Off-White-Solid-Kurta-with-Palazzos--Dupat-1.jpg">
+                        <div class="check-price-padd">
+                            <a href="https://www.myntra.com/kurta-sets/libas/libas-women-blue--off-white-solid-kurta-with-palazzos--dupatta/8073889/buy"
+                               target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Shop Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">

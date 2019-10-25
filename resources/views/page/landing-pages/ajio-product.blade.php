@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'AJIO | Sparkling Sale 21st - 24th Oct 2019 | Ship with ShoppRe')
+@section('title', 'AJIO | BIG BAG DAYS 25th - 31st Oct 2019 | Ship with ShoppRe')
 @section('description', 'AJIO online shopping from India with ShoppRe International Shipping at Lowest Rates. Premium Brands. Stylish Collection. Tops & Dresses, Fusion Wear, Heels & Flats, Bags & Belts,  Sarees.')
 @section('keywords', 'online shopping, ajio shipping, reliance retail, trends, wardrobe, womens tops, ajio offers, sale')
 
@@ -122,7 +122,7 @@
         <div class="container fst-service" style="margin-top: 36px;">
             <div class="row">
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Sparkling Sale(10-24 Oct). Shop AJIO & Ship Globally with ShoppRe.</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Big Bag Days Sale(25-31 Oct). Shop AJIO & Ship Globally with ShoppRe.</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center margin-tp">
 {{--                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Click on Online Chat for Live Support--}}

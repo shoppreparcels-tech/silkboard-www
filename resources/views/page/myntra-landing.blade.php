@@ -23,37 +23,37 @@
     <meta name="twitter:image:alt" content="shoppre international shipping" />
 
 
- <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "name": "Myntra Online Shopping India with ShoppRe",
-  "alternateName": "Myntra International Shipping",
-  "url": "https://www.shoppre.com/myntra-online-shopping-shipping-from-india",
-  "logo": "https://www.shoppre.com/img/logo.png",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+91 8277919191",
-    "contactType": "customer service"
-  },
-  "sameAs": [
-    "https://www.facebook.com/goshoppre",
-    "https://twitter.com/Go_Shoppre",
-    "https://www.instagram.com/shoppre_official",
-    "https://g.page/OnlineShoppingIndia",
-    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
-    "https://www.linkedin.com/company/shoppre.com",
-    "https://in.pinterest.com/shoppre"
-  ],
-  "aggregateRating": {
-    "@type" : "AggregateRating",
-    "bestRating": "5",
-    "ratingValue" : "4.8",
-    "reviewCount" : "4560",
-    "worstRating" : 3.5
-  }
-}
-</script>
+  <script type="application/ld+json">
+            {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "Myntra Online Shopping India with ShoppRe",
+            "alternateName": "Myntra International Shipping",
+            "url": "https://www.shoppre.com/myntra-online-shopping-shipping-from-india",
+            "logo": "https://www.shoppre.com/img/logo.png",
+            "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91 8277919191",
+            "contactType": "customer service"
+            },
+            "sameAs": [
+            "https://www.facebook.com/goshoppre",
+            "https://twitter.com/Go_Shoppre",
+            "https://www.instagram.com/shoppre_official",
+            "https://g.page/OnlineShoppingIndia",
+            "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+            "https://www.linkedin.com/company/shoppre.com",
+            "https://in.pinterest.com/shoppre"
+            ],
+            "aggregateRating": {
+            "@type" : "AggregateRating",
+            "bestRating": "5",
+            "ratingValue" : "4.8",
+            "reviewCount" : "4560",
+            "worstRating" : 3.5
+            }
+            }
+  </script>
 
     <style>
         .bg-myntra{background-image:url(../../img/images/overlay1.png);width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.bg-ics-landing-page .container>div{margin-bottom:3em}.d-header-text{font-size:40px;font-weight:900}.d-header-text1{font-family:Montserrat -Italic;font-style:italic;line-height:26px;margin-top:25px}.christmas-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-190px;padding:20px}.shopandship{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#ff7c5b 0,#e8517a 100%)}.ps{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#4df696 0,#50bc70 100%)}.ic{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(229deg,#27cbff 0,#2aa1d5 100%)}.box-steps p{line-height:1}.box-steps p span{font-size:22px;font-weight:900}.flipkart-h1{font-size:25px}.myntra-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-150px;padding:20px}.ic,.myntra-service .shopandship,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.ic,.myntra-service .shopandship,.ps,p{color:#fff;font-size:16px;font-weight:600}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}#packing:hover{display:none}
@@ -69,11 +69,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="/myntra-online-shopping" target="_blank"><div class="shopandship ">
-                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">The Celebration Is On</h2>
+                    <a href="https://www.myntra.com/libas?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank"><div class="shopandship ">
+                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Styles For Desi Divas</h2>
                             <br/>
-                            <p>50-80% Off</p>
-                            <p>Best of Women's & Men's Wear</p>
+                            <p>30-60% Off</p>
+                            <p>Kurta Set & Dresses</p>
                             <p>👉 Explore Now</p>
                         </div></a>
                 </div>
