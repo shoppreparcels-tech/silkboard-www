@@ -2519,6 +2519,7 @@ class PageController extends Controller
     {
         $customerSearch = new CustomerSearch;
         $customerSearch->data = $request->data;
+        $customerSearch->country = $request->country;
         $customerSearch->save();
         return response()->json(['message'=>$request->data]);
     }

@@ -1499,23 +1499,27 @@
 
         $("#searchKey").validate({
             submitHandler: function (form) {
-                debugger;
                 var q = $("input[id='searchText']").val();
-                // window.location.href = 'https://www.google.com/search?q='+q;
+                var country = '';
 
-                var queryParams = 'data='+q;
-
-                $.ajax({
-                        type: 'POST',
-                        url: '/customer-search',
-                        data: {
-                            data: q,
-                        },
-                        success: function () {
-                            var url = 'https://www.google.com/search?q=shoppre '+q;
-                            window.open(url, '_blank');
+                $.ajax('http://ip-api.com/json')
+                    .then(
+                        function success(response) {
+                            country = response.country;
+                            $.ajax({
+                                type: 'POST',
+                                url: '/customer-search',
+                                data: {
+                                    data: q,
+                                    country: country,
+                                },
+                                success: function () {
+                                    var url = 'https://www.google.com/search?q=shoppre '+q;
+                                    window.open(url, '_blank');
+                                }
+                            });
                         }
-                    });
+                    );
             }
         });
 
