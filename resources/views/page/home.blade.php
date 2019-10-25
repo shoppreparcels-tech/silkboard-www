@@ -1499,35 +1499,25 @@
 
         $("#searchKey").validate({
             submitHandler: function (form) {
+                debugger;
                 var q = $("input[id='searchText']").val();
-                var country = '';
+                // window.location.href = 'https://www.google.com/search?q='+q;
 
-                $.ajax('http://ip-api.com/json')
-                    .then(
-                        function success(response) {
-                            country = response.country;
-                            $.ajax({
-                                type: 'POST',
-                                url: '/customer-search',
-                                data: {
-                                    data: q,
-                                    country: country,
-                                },
-                                success: function () {
-                                    var url = 'https://www.google.com/search?q=shoppre '+q;
-                                    window.open(url, '_blank');
-                                }
-                            });
-                        }
-                    );
+                var queryParams = 'data='+q;
+
+                $.ajax({
+                    type: 'POST',
+                    url: '/customer-search',
+                    data: {
+                        data: q,
+                    },
+                    success: function () {
+                        var url = 'https://www.google.com/search?q=shoppre '+q;
+                        window.open(url, '_blank');
+                    }
+                });
             }
         });
-
-        // var input = document.querySelector("#phone");
-        // window.intlTelInput(input, {
-        //     hiddenInput: "full_number",
-        //     utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.0/js/utils.js",
-        // });
        </script>
 @endsection
 
