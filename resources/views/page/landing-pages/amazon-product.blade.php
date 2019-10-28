@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Great Indian Festival Sale | Amazon.in Online Shopping from India')
+@section('title', 'Amazon Fashion Sale | Amazon.in Online Shopping from India')
 @section('description', 'Shop the latest deals across Clothing, Books, Mobiles, Health and Personal Care online at Amazon India store with ShoppRe for International delivery from India.')
 @section('keywords', 'amazon india shopping, amazon international shipping rates, largest online store‎')
 
@@ -122,7 +122,7 @@
             <div class="row">
                 <br>
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop from Amazon Great Indian Festival - Diwali Special Sale (21st - 25th Oct) & Ship Globally with Your ShoppRe Address.</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop from Amazon.in India & Ship Globally with Your ShoppRe Address.</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center margin-tp">
 

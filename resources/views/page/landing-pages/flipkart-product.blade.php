@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'Flipkart.com Online Shop | Big Diwali Sale is Live | ShoppRe')
-@section('description', 'Flipkart Online Shopping (Big Diwali Sale is Live 2019).‎ Shop Flipkart with your ShoppRe Address and Ship Internationally at Lowest rates from India. Buy Now!')
+@section('title', 'Flipkart.com Online Shop | Offers & Sale | ShoppRe')
+@section('description', 'Flipkart Online Shopping.Shop Flipkart with your ShoppRe Address and Ship Internationally at Lowest rates from India. Buy Now!')
 @section('keywords', 'flipkart usa, shipping from india, shipping rates, international delivery, shopping stores')
 
 @section('css_style')
@@ -93,22 +93,22 @@
 @section('content')
     <section class="first-time-shipment header-section" style="padding-top: 50px !important;">
         <div class="container no-padding banner">
-                <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>Flipkart Big Diwali Sale Your Favourite Shopping Festival</i></p>
+                <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>Flipkart - Shop Online with Best Offers‎</i></p>
                 <div class="col-md-6 col-xs-12" style="padding-top: 7%">
                    <center> <p class="m-t-sm f-s-30">Why Worries Re, <span style="font-family: Bahnschrift">Just ShoppRe!</span></p></center>
                     <p class="f-c-white m-t-sm f-s-18 text-center">
-                        If you are in the quest for Indian Fashion & Lifestyle this Diwali for gifting purposes or just getting them for yourselves,
-                        then ShoppRe is here to ship all your favorite <span class="underline-color">Shopping & Shipping</span> at your doorsteps to add extra vibrancy to your Diwali (🪔)
+                        If you are in the quest for Indian Fashion & Lifestyle for gifting purposes or just getting them for yourselves,
+                        then ShoppRe is here to ship all your favorite <span class="underline-color">Shopping & Shipping</span> at your doorsteps, Worldwide.
                     </p>
                 </div>
                 <div class="col-md-6 col-xs-12 no-padding">
-                    <center>
-                        <img src="{{asset('img/images/tape_signup.svg')}}" alt="signup shoppre">  <br>
-                    </center>
+{{--                    <center>--}}
+{{--                        <img src="{{asset('img/images/tape_signup.svg')}}" alt="signup shoppre">  <br>--}}
+{{--                    </center>--}}
                     <br>
                     <center>
                         <img src="{{asset('img/diwali/diwali-offer.png')}}" alt="Diwali offer india" > <br><br>
-                        <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-g btn-a-l" target="_blank">Sign UP FREE</a>
+{{--                        <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-g btn-a-l" target="_blank">Sign UP FREE</a>--}}
 
                     </center>
                 </div>
@@ -121,7 +121,7 @@
         <div class="container fst-service" style="margin-top: 36px;">
             <div class="row">
                 <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Flipkart Big Diwali Sale (21st - 25th OCT) & Ship Globally with your ShoppRe India Address.</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Flipkart & Ship Globally with your ShoppRe India Address.</h2>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center margin-tp">
                     <div class="">

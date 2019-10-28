@@ -63,9 +63,9 @@
 
                     <div class="shopandship ">
                         <a href="/amazon-online-shopping" target="_blank">
-                        <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">GREAT INDIAN FESTIVAL</h2>
+                        <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon Fashion</h2>
                         <br/>
-                        <p>21st - 25th OCT</p><br>
+                        <p>From ₹299</p><br>
                         <p>👉 Explore More</p>
                     </div>
                     </a>

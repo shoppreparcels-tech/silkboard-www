@@ -112,10 +112,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big diwali Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">21st - 25th OCT</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Mobile Festive Bonanza</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">26st - 29th OCT</h5>
                             <div class="ecomSmallBox">
-                                <a href="/flipkart-online-shopping" target="_blank">
+                                <a href="https://clnk.in/jUGL" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
                                 </a>
                             </div>
@@ -196,10 +196,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Great Indian Festival</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">21st - 25th Oct</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Women's Fashion</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">From ₹204</h5>
                             <div class="ecomSmallBox" style="height: 94px;">
-                                <a href="/amazon-online-shopping" target="_blank">
+                                <a href="https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?category=/womens&pf_rd_p=7ae8bb23-c2d2-4277-a4e5-a651d0266ae5&pf_rd_r=D3WCEHYAFQ5RNK2HREDV" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>
                                 </a>
                             </div>

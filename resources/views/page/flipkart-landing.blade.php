@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Flipkart International Shipping from India | Shop & Ship with ShoppRe')
+@section('title', 'Flipkart International Shipping from India | Shop with ShoppRe')
 @section('description', 'Shop products online from Flipkart India & ship internationally at reasonable shipping costs. Sign Up for Free & get an Indian virtual shipping address.')
 @section('keywords', 'How to buy in Flipkart, shopping, shipping, ecommerce, online store, packages, offers')
 
@@ -40,7 +40,7 @@
             <div class="row">
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - OCTOBER 2019 SALE
-                        <br> [ 👉 <a href="flipkart-online-shopping" target="_blank">Big Diwali Sale(21st - 25th OCT)</a> Up To 80% Off ]</h2>
+{{--                        <br> [ 👉 <a href="flipkart-online-shopping" target="_blank">Big Diwali Sale(21st - 25th OCT)</a> Up To 80% Off ]</h2>--}}
                 </div>
             </div>
             <div class="row text-center">
