@@ -132,6 +132,8 @@
             </div>
         </div>
     </section>
+
+
     <section class="sellers">
         <div class="container">
             <div class="row">
@@ -447,9 +449,10 @@
     <p>Now shop from Jabong, SnapDeal or any other <a href="https://www.shoppre.com/sellers-shipping">Indian online seller</a> among the many without a doubt;
         we have made international shipping and, shopping for that matter, tons easier!</p>
     <p>We ship to 220+ countries including the USA, UK, Australia & UAE.</p>
-</div>
+
+    </div>
         <br>
-        <div>
+        <div class="txt-center">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- Stores Page - 970*250 -->
             <ins class="adsbygoogle"

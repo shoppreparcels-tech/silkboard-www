@@ -328,55 +328,69 @@
 @endsection
 @section('content')
 
-    <section class="first-time-shipment header-section" style="padding-top: 50px !important;">
-        <div class="container no-padding banner">
-            <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>MYNTRA Online Fashion Store</i></p>
-            <div class="col-md-6 col-xs-12" style="padding-top: 7%">
-                <center><p class="m-t-sm f-s-30">Why Worries Re, <span
-                            style="font-family: Bahnschrift">Just ShoppRe!</span></p></center>
-                <p class="f-c-white m-t-sm f-s-18 text-center">
-                    If you are in the quest for Indian Fashion & Lifestyle this Diwali for gifting purposes or just
-                    getting them for yourselves,
-                    then ShoppRe is here to ship all your favorite <span
-                        class="underline-color">Shopping & Shipping</span> at your doorsteps to add extra vibrancy to
-                    your Diwali (🪔)
-                </p>
-                <br>
+        <main>
+            <div class="header">
+                <div class="container"><br><br><br>
+                    <center>
+                        <h1 class="f-s-36 f-c-white f-w-8">MYNTRA Online Shopping</h1>
+                        <p class="f-s-20 f-c-l-gray ">Shop Myntra Fashon Store With Your ShoppRe Address for International Delivery from India.<br></p>
+                        <br>
+                    </center>
+                    <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="/diwali-offer" target="_blank">Diwali Offer</a> :
+                            Get ₹250 Cashback on Shipping Myntra Products Internationally. T&C*</i></p>
+                    <br>
+                    <br>
+                </div>
             </div>
-            <div class="col-md-6 col-xs-12 no-padding">
-                {{--                    <center>--}}
-                {{--                        <img src="{{asset('img/images/tape_signup.svg')}}" alt="signup shoppre">  <br>--}}
-                {{--                    </center>--}}
-                <br>
-                <center>
-                    <img src="{{asset('img/diwali/diwali-offer.png')}}" alt="Diwali offer india"> <br><br>
-                    {{--                        <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-g btn-a-l" target="_blank">Sign UP FREE</a>--}}
+        </main>
+{{--        <div class="container no-padding banner">--}}
+{{--            <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>MYNTRA Online Fashion Store</i></p>--}}
+{{--            <div class="col-md-6 col-xs-12" style="padding-top: 7%">--}}
+{{--                <center><p class="m-t-sm f-s-30">Why Worries Re, <span--}}
+{{--                            style="font-family: Bahnschrift">Just ShoppRe!</span></p></center>--}}
+{{--                <p class="f-c-white m-t-sm f-s-18 text-center">--}}
+{{--                    If you are in the quest for Indian Fashion & Lifestyle this Diwali for gifting purposes or just--}}
+{{--                    getting them for yourselves,--}}
+{{--                    then ShoppRe is here to ship all your favorite <span--}}
+{{--                        class="underline-color">Shopping & Shipping</span> at your doorsteps to add extra vibrancy to--}}
+{{--                    your Diwali (🪔)--}}
+{{--                </p>--}}
+{{--                <br>--}}
+{{--            </div>--}}
+{{--            <div class="col-md-6 col-xs-12 no-padding">--}}
+{{--                                    <center>--}}
+{{--                                        <img src="{{asset('img/images/tape_signup.svg')}}" alt="signup shoppre">  <br>--}}
+{{--                                    </center>--}}
+{{--                <br>--}}
+{{--                <center>--}}
+{{--                    <img src="{{asset('img/diwali/diwali-offer.png')}}" alt="Diwali offer india"> <br><br>--}}
+{{--                                            <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-g btn-a-l" target="_blank">Sign UP FREE</a>--}}
 
-                </center>
-            </div>
-        </div>
-        <div class="image-banner">
-            <img src="{{asset('img/product/myntra-online-shopping-india.png')}}" alt="myntra sale"
-                 style="height: 430px; width: 100%;">
-        </div>
+{{--                </center>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="image-banner">--}}
+{{--            <img src="{{asset('img/product/myntra-online-shopping-india.png')}}" alt="myntra sale"--}}
+{{--                 style="height: 430px; width: 100%;">--}}
+{{--        </div>--}}
     </section>
+
+
     <section>
-        <div class="container fst-service" style="margin-top: 25px;">
+        <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
-                <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Myntra Fashion Store. Ship worldwide with ShoppRe.</h2>
+                <div class="">
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">October 2019 Sale: /
+                        Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
-                <div class="col-md-4 col-xs-12 text-center margin-tp">
-{{--                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Click on Online Chat--}}
-{{--                        for Live Support--}}
-{{--                        <br> Right side Bottom of the page)</p>--}}
-                                        <div class="">
-                                            <a href="http://bit.ly/shpr-ipfs" target="_blank">
-                                                <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >
-                                                <span class="font-16"></span>
-                                            </a>
-                                        </div>
-                </div>
+                {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
+                {{--                    <div class="">--}}
+                {{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20AJIO%20International%20Shipping" target="_blank">--}}
+                {{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
+                {{--                            <span class="font-16"></span>--}}
+                {{--                        </a>--}}
+                {{--                    </div>--}}
+                {{--                </div>--}}
             </div>
 
             <div class="row text-center">

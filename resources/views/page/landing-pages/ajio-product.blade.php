@@ -97,7 +97,7 @@
             <div class="container"><br><br><br>
                 <center>
                     <h1 class="f-s-36 f-c-white f-w-8">AJIO Online Shopping</h1>
-                    <p class="f-s-20 f-c-l-gray ">Shop AJIO With Your ShoppRe Adress for International Delivery from India.<br></p>
+                    <p class="f-s-20 f-c-l-gray ">Shop AJIO With Your ShoppRe Address for International Delivery from India.<br></p>
                     <br>
                 </center>
                 <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="/diwali-offer" target="_blank">Diwali Offer</a> :

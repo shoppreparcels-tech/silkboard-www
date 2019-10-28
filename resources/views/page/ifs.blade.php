@@ -121,7 +121,7 @@
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                 <a href="/limeroad-online-shopping" title="Amazon" target="_blank">1. Limeroad.com 👉Best Shopping Offers</a> |
                 <a href="/fabindia-online-shopping" title="flipkart" target="_blank">2. Fabindia.com 👉Festive Vibes </a> |
-                <a href="/myntra-online-shopping" title="myntra" target="_blank">3. Myntra.com 👉Styles For Desi Divas</a> |
+                <a href="/amazon-online-shopping" title="amazon" target="_blank">3. Amazon.in 👉Festive Fashion</a> |
                 <a href="/ajio-online-shopping" title="ajio" target="_blank">4. AJIO.com 👉Big Bag Days</a>
             </marquee>
         </div>
