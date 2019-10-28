@@ -59,10 +59,9 @@
 @endsection
 
 @section('content')
-    <div class="container">
-        <br><br><br>
-    </div>
+
     <section class="b-heading-section">
+        <br>
         <div class="container">
             <div class="row padding-bottom">
                 <center>
@@ -448,9 +447,19 @@
     <p>Now shop from Jabong, SnapDeal or any other <a href="https://www.shoppre.com/sellers-shipping">Indian online seller</a> among the many without a doubt;
         we have made international shipping and, shopping for that matter, tons easier!</p>
     <p>We ship to 220+ countries including the USA, UK, Australia & UAE.</p>
-
-
 </div>
+        <br>
+        <div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Stores Page - 970*250 -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:970px;height:250px"
+                 data-ad-client="ca-pub-6813554619790449"
+                 data-ad-slot="6491081495"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
 <br>
 <br>
 </section>
@@ -458,9 +467,18 @@
 @endsection
 
 @section('js_script')
-    <script type='text/javascript'>
-        var pubID="54240CL48886";!function(t,c){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src=("https:"==document.location.protocol?"https://cdn0.cuelinks.com/js/":"http://cdn0.cuelinks.com/js/")+"cuelinksv1.js",document.getElementsByTagName("body")[0].appendChild(e)}();
+    <script type="text/javascript">
+        var cId =  "52423";
+
+        (function(d, t) {
+            var s = document.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://cdn0.cuelinks.com/js/" : "http://cdn0.cuelinks.com/js/")  + "cuelinksv2.js";
+            document.getElementsByTagName("body")[0].appendChild(s);
+        }());
     </script>
 
     <script type="text/javascript" src="{{asset('js/store.js')}}"></script>
+
 @endsection

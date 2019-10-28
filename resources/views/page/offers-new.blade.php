@@ -113,7 +113,7 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Mobile Festive Bonanza</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">26st - 29th OCT</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">26th - 29th OCT</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://clnk.in/jUGL" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
