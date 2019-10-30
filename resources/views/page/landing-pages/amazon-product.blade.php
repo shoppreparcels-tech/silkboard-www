@@ -333,19 +333,26 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2019/Diwali/W2/PBpage/Teaser/4top.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Kaju Katli <br>(250 grams)--}}
+
+                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-format="fluid"
+                             data-ad-layout-key="+16+rz-i-q+3f"
+                             data-ad-client="ca-pub-6813554619790449"
+                             data-ad-slot="3549540616"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+
+{{--                            <img class="img-product m-t-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2019/Diwali/W2/PBpage/Teaser/4top.jpg">--}}
+
+{{--                        <div class="check-price-padd">--}}
+{{--                            <a href="https://www.amazon.in/s?i=fashion&bbn=16491484031&rh=n%3A6648217031%2Cn%3A%216648222031%2Cn%3A%216648224031%2Cn%3A16491484031%2Cn%3A7459780031%2Cn%3A1953602031%2Cn%3A11400137031%2Cn%3A1968542031%2Cn%3A1968543031&dc&field-pct-off-with-tax=00-&fst=as%3Aoff&pf_rd_i=15390370031&pf_rd_i=15390370031&pf_rd_i=16491484031&pf_rd_m=A1K21FY43GMZF8&pf_rd_m=A1K21FY43GMZF8&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=2f1c8e59-9e56-4065-b083-049d4c8cd373&pf_rd_p=7f8405f5-470a-412c-bd78-ebc5c141f12f&pf_rd_p=c2a34733-b7f0-49d5-8501-2c217c198c97&pf_rd_r=D8TTRFK2J96S6GKFCYRK&pf_rd_r=KNWQ6SDRPXH38HEQEJHJ&pf_rd_r=P6WZF1RYN8MEPZAH6J7Q&pf_rd_s=merchandised-search-10&pf_rd_s=merchandised-search-10&pf_rd_s=merchandised-search-4&pf_rd_t=101&pf_rd_t=101&pf_rd_t=101&qid=1569696762&rnid=1968542031&ref=sr_nr_n_1" target="_blank"> <span class="elementor-icon-list-icon">--}}
+{{--                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>--}}
+{{--                                </span>--}}
+{{--                            </a>--}}
 {{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹245 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.amazon.in/s?i=fashion&bbn=16491484031&rh=n%3A6648217031%2Cn%3A%216648222031%2Cn%3A%216648224031%2Cn%3A16491484031%2Cn%3A7459780031%2Cn%3A1953602031%2Cn%3A11400137031%2Cn%3A1968542031%2Cn%3A1968543031&dc&field-pct-off-with-tax=00-&fst=as%3Aoff&pf_rd_i=15390370031&pf_rd_i=15390370031&pf_rd_i=16491484031&pf_rd_m=A1K21FY43GMZF8&pf_rd_m=A1K21FY43GMZF8&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=2f1c8e59-9e56-4065-b083-049d4c8cd373&pf_rd_p=7f8405f5-470a-412c-bd78-ebc5c141f12f&pf_rd_p=c2a34733-b7f0-49d5-8501-2c217c198c97&pf_rd_r=D8TTRFK2J96S6GKFCYRK&pf_rd_r=KNWQ6SDRPXH38HEQEJHJ&pf_rd_r=P6WZF1RYN8MEPZAH6J7Q&pf_rd_s=merchandised-search-10&pf_rd_s=merchandised-search-10&pf_rd_s=merchandised-search-4&pf_rd_t=101&pf_rd_t=101&pf_rd_t=101&qid=1569696762&rnid=1968542031&ref=sr_nr_n_1" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
-                            </a>
-                        </div>
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
