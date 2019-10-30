@@ -91,7 +91,23 @@
     </style>
 
 @endsection
+
 @section('content')
+    <main>
+        <div class="header">
+            <div class="container"><br><br><br>
+                <center>
+                    <h1 class="f-s-36 f-c-white f-w-8">Tata CLiQ Online Shopping</h1>
+                    <p class="f-s-20 f-c-l-gray ">Shop Tata CLiQ With Your ShoppRe Address for International Shipping from India.<br></p>
+                    <br>
+                </center>
+                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="/diwali-offer" target="_blank">Diwali Offer</a> :
+                        Get ₹250 Cashback on Shipping Tata CLiQ Products Internationally. T&C*</i></p>
+                <br>
+                <br>
+            </div>
+        </div>
+    </main>
 
 {{--    <section class="first-time-shipment header-section" style="padding-top: 50px !important;">--}}
 {{--        <div class="container no-padding banner">--}}
@@ -118,19 +134,22 @@
 
 
     <section >
-        <div class="container fst-service" style="margin-top: 36px;">
+        <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
-                <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop your Tata Cliq favorites with ShoppRe for worldwide delivery!</h2>
+                <div class="">
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">October 2019 Sale /
+                        Below are the Recommended & Recently Shipped Products!</h2>
+{{--                    <span class="f-s-25 f-c-red f-w-9">Big Bag Days (25-31 Oct)</span>--}}
                 </div>
-                <div class="col-md-4 col-xs-12 text-center margin-tp">
-                    <div class="">
-                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20TATA-CLiQ" target="_blank">
-                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >
-                            <span class="font-16"></span>
-                        </a>
-                    </div>
-                </div>
+
+{{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
+{{--                    <div class="">--}}
+{{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20TATA-CLiQ" target="_blank">--}}
+{{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
+{{--                            <span class="font-16"></span>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
             <div class="row text-center">
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
@@ -482,9 +501,135 @@
             <br>
             </div>
     </section>
-    <br>
-    <br>
-    <br>
+
+    <section class="delivery" style="background-color: #f2f6fb;">
+        <div class="container">
+            <br/>
+            <h3 class="header3 p-color-cement-dark font-weight-900 txt-center">Indian Shopping Sites Offers & Sale:</h3>
+            <br/>
+            <div class="row">
+            <br/>
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Beauty Bonanza</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Daily Dose Of Amazing Offers</h5>
+                            <div class="ecomSmallBox">
+                                <a href="/nykaa-online-shopping" target="_blank">
+                                    <p class="header3 p-color-cement-dark font-weight-900">NYKAA</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Dil Se Diwali</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Half Price Sale</h5>
+                            <div class="ecomSmallBox">
+                                <a href="/lifestylestores-online-shopping" target="_blank">
+                                    <p class="header3 p-color-cement-dark font-weight-900">LIFESTYLE</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Fabindia Traditions</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Festiva Season</h5>
+                            <div class="ecomSmallBox" >
+                                <a href="/fabindia-online-shopping" target="_blank">
+                                    <p class="header3 p-color-cement-dark font-weight-900">FABINDIA</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">DIWALI CARNIVAL</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
+                            <div class="ecomSmallBox">
+                                <a href="/firstcry-online-shopping" target="_blank">
+                                    <p class="header3 p-color-cement-dark font-weight-900">FIRSTCRY</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+                <br>
+                <div class="row">
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox">
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Women's Westernwear</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
+                            <div class="ecomSmallBox">
+                                <a href="https://www.shoppersstop.com/women-westernwear/c-A2060" target="_blank">
+                                    <p class="header5 p-color-cement-dark font-weight-900">SHOPPERS STOP</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+
+                    <div class="col-md-3 col-xs-12">
+                        <center>
+                            <div class="EcomBox">
+                                <h4 class="header4 p-color-blue text-transform-u font-weight-900">Celebration Wear</h4>
+                                <h5 class="header6 p-color-cement font-weight-900">Indian Wedding, Ethnic & more</h5>
+                                <div class="ecomSmallBox">
+                                    <a href="https://www.manyavar.com/" target="_blank">
+                                        <p class="header3 p-color-cement-dark font-weight-900">MANYAVAR</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="col-md-3 col-xs-12">
+                        <center>
+                            <div class="EcomBox">
+                                <h4 class="header4 p-color-blue text-transform-u font-weight-900">MensXP MUD</h4>
+                                <h5 class="header6 p-color-cement font-weight-900">From ₹600</h5>
+                                <div class="ecomSmallBox">
+                                    <a href="https://shop.mensxp.com/all-brands/beauty-brands/mensxp-mud" target="_blank">
+                                        <p class="header3 p-color-cement-dark font-weight-900">MENSXP</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="col-md-3 col-xs-12">
+                        <center>
+                            <div class="EcomBox">
+                                <h4 class="header4 p-color-blue text-transform-u font-weight-900">Shirts & Trousers</h4>
+                                <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
+                                <div class="ecomSmallBox">
+                                    <a href="https://paytmmall.com/Mens_Shirts_Trousers_Flat_50_Off_Flat_20_Cashback-llpid-202578" target="_blank">
+                                        <p class="header3 p-color-cement-dark font-weight-900">PAYTM MALL</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+
+
+
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">

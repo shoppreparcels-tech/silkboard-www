@@ -15,7 +15,7 @@
     <meta property="og:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg" />
     <meta property="og:image:width" content="2160">
     <meta property="og:image:height" content="1216">
-    <meta property="og:image:alt" content="Myntra international shipping" />
+    <meta property="og:image:alt" content="pepperfry international shipping" />
     <meta property="og:description" content="Shop your Pepperfry products with ShoppRe for Internatioanl Shipping from India." />
     <meta property="og:site_name" content="ShoppRe" />
 
@@ -91,7 +91,23 @@
     </style>
 
 @endsection
+
 @section('content')
+    <main>
+        <div class="header">
+            <div class="container"><br><br><br>
+                <center>
+                    <h1 class="f-s-36 f-c-white f-w-8">Pepperfry Online Shopping</h1>
+                    <p class="f-s-20 f-c-l-gray ">Shop Pepperfry With Your ShoppRe Address for International Delivery from India.<br></p>
+                    <br>
+                </center>
+                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="/diwali-offer" target="_blank">Diwali Offer</a> :
+                        Get ₹250 Cashback on Shipping Pepperfry Products Internationally. T&C*</i></p>
+                <br>
+                <br>
+            </div>
+        </div>
+    </main>
 
 {{--    <section class="first-time-shipment header-section" style="padding-top: 50px !important;">--}}
 {{--        <div class="container no-padding banner">--}}
@@ -118,19 +134,20 @@
 
 
     <section >
-        <div class="container fst-service" style="margin-top: 36px;">
+        <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
-                <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop from pepperfry with ShoppRe for worldwide delivery!</h2>
+                <div class="">
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">October 2019 Sale: <span class="f-s-25 f-c-red f-w-9">Mega Diwali Sale (Upto 50% Off‎)</span> /
+                        Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
-                <div class="col-md-4 col-xs-12 text-center margin-tp">
-                    <div class="">
-                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20Pepperfry" target="_blank">
-                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >
-                            <span class="font-16"></span>
-                        </a>
-                    </div>
-                </div>
+{{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
+{{--                    <div class="">--}}
+{{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20Pepperfry" target="_blank">--}}
+{{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
+{{--                            <span class="font-16"></span>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
             <div class="row text-center">
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">

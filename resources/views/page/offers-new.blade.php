@@ -112,7 +112,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Mobile Festive Bonanza</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Mobiles Festive Offers</h4>
                             <h5 class="header6 p-color-cement font-weight-900">30th - 31st OCT</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://clnk.in/jUGL" target="_blank">
@@ -139,7 +139,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">End of Season Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">October Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Upto 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.chumbak.com/sale/ngg/c/" target="_blank">
@@ -296,7 +296,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">dark blooms</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Dark Blooms</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Shop By Story</h5>
                             <div class="ecomSmallBox">
                                 <a href="/tatacliq-online-shopping" target="_blank">
@@ -323,10 +323,10 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">DIL SE DIWALI</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Half Price Sale‎</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">Half Price Sale</h5>
                             <div class="ecomSmallBox">
                                 <a href="/lifestylestores-online-shopping" target="_blank">
-                                    <p class="header3 p-color-cement-dark font-weight-900">Lifestyle</p>
+                                    <p class="header3 p-color-cement-dark font-weight-900">LIFESTYLE</p>
                                 </a>
                             </div>
                         </div>
