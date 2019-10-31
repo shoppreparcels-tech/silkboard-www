@@ -136,7 +136,7 @@
                     at an <a href="{{route('pricing')}}">affordable shipping cost</a>. Since Myntra (or its parent site Flipkart) doesn't offer to ship
                     internationally, customers have no other choice but to look for alternative shipping options.</p> <br>
                 <p class="header4 p-color-cement">We’re a shipping & consolidation company that specializes in domestic & international logistic solutions.
-                    We handle over ₹1,000,000 worth of E-Commerce shipments and 2000 Courier pickup requests a month! A potential customer can shop
+                    We handle over ₹2,000,000 worth of E-Commerce shipments and 5000 Courier pickup requests a month! A potential customer can shop
                     from 1000+ <a href="{{route('stores1')}}">desi/Indian online stores</a> and, we ship those packages/couriers off to 220+ countries around the world. Our vision has
                     always been to be of help to the Global Indian Community, and their need to shop authentic products from India,
                     and help them ship it all in at a reasonable cost. </p> <br>

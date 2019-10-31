@@ -39,17 +39,17 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - OCTOBER 2019 SALE
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - NOVEMBER 2019 SALE
 {{--                        <br> [ 👉 <a href="flipkart-online-shopping" target="_blank">Big Diwali Sale(21st - 25th OCT)</a> Up To 80% Off ]</h2>--}}
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/fashion-weekend-brand-2019-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://www.flipkart.com/fashion-autumnwinter-main-store" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
-                                <h2>Get Festive Ready</h2>
+                                <h2>Top Brands On Discount</h2>
                                 <br>
-                                <p>T-shirts, Kurtas, Watches..,</p>
+                                <p>T-shirts, Kurtas, Shoes & more</p>
                                 <p>Up To 70% Off</p>
                                 <p>Explore Now</p>
                         </div>

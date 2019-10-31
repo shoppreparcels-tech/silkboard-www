@@ -56,13 +56,13 @@
             <div class="row">
                 <div class="MultiCarousel" data-items="1,2,3,4" data-slide="1" id="MultiCarousel" data-interval="1000">
                     <div class="MultiCarousel-inner">
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="/diwali-offer" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-offer-shipping-2019.png" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
+{{--                        <div class="item">--}}
+{{--                            <div class="pad15">--}}
+{{--                                <a href="/diwali-offer" target="_blank">--}}
+{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-offer-shipping-2019.png" class="boxofScroll"/>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 {{--                        <div class="item">--}}
 {{--                            <div class="pad15">--}}
 {{--                                <a href="/offers" target="_blank">--}}
@@ -84,13 +84,13 @@
                                 </a>
                             </div>
                         </div>
-{{--                        <div class="item">--}}
-{{--                            <div class="pad15">--}}
-{{--                                <a href="/shop-ship" target="_blank">--}}
-{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>--}}
-{{--                                </a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="/shop-ship" target="_blank">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
                         <div class="item">
                             <div class="pad15">
                                 <a href="https://www.shoppre.com/university-offer" target="_blank">
@@ -106,16 +106,16 @@
         </div>
         <div class="container">
             <br/>
-            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (OCTOBER-2019 Sale):</h3>
+            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (November 2019 Sale):</h3>
             <br/>
             <div class="row">
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Mobiles Festive Offers</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">30th - 31st OCT</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">TOP BRANDS ON DISCOUNT</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up to 70% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://clnk.in/jUGL" target="_blank">
+                                <a href="https://clnk.in/jVpD" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
                                 </a>
                             </div>
@@ -125,8 +125,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Best Shopping Offers</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Diwali Spree</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">flat store</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">100K + Products on Sale</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/limeroad-online-shopping" target="_blank">
@@ -139,7 +139,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">October Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">November Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Upto 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.chumbak.com/sale/ngg/c/" target="_blank">
@@ -168,7 +168,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Bag Days</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">New Arrivals</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping">
@@ -227,10 +227,10 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Diwali Gifting Store</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Starting ₹499</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Men Fashion</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.snapdeal.com/offers/diwali-gifts" target="_blank">
+                                <a href="https://clnk.in/jVqr" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">SNAPDEAL</p>
                                 </a>
                             </div>
@@ -253,7 +253,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Mega Diwali Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">FEATURED COLLECTIONS</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up To 50% Off</h5>
                             <div class="ecomSmallBox" >
                                 <a href="/pepperfry-online-shopping" target="_blank">
@@ -266,7 +266,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Diwali Carnival</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">FOLK TALE</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/firstcry-online-shopping" target="_blank">
@@ -322,7 +322,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">DIL SE DIWALI</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">INSPIRATION</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Half Price Sale</h5>
                             <div class="ecomSmallBox">
                                 <a href="/lifestylestores-online-shopping" target="_blank">

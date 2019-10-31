@@ -511,12 +511,12 @@
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
                         <div class="col-md-12 col-xs-12">
-                            <a href="/diwali-offer" target="_blank">
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-offer-d-new-shipping.png" class="img-f-w offer-img-d"
-                                        alt="diwali shipment offer"></a>
-                            <a href="/diwali-offer" target="_blank"><img
-                                        src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-2019-shipping-cashback.png"
-                                        class="img-f-w offer-img-m" title="Click Here" alt="diwali international shipping discount"></a>
+                            <a href="/first-time-international-shipment-offer" target="_blank">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india-shoppre.png" class="img-f-w offer-img-d"
+                                        alt="frst50 shipment offer"></a>
+                            <a href="/first-time-international-shipment-offer" target="_blank"><img
+                                        src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india.png"
+                                        class="img-f-w offer-img-m" title="Click Here" alt="first time international shipping discount"></a>
                             <center class="pad-b-10"><a href="{{route('customer.login')}}"
                                        class="btn btn-s-g btn-b-g btn-a-l m-t-20 offer-img-m clrwhite">Sign Up for FREE</a>
                             </center>
@@ -614,15 +614,15 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://clnk.in/jUGE" title="Know More" target="_blank">
+                        <a href="https://clnk.in/jVpD" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">HOME FURNISHING</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">TOP BRANDS ON DISCOUNT</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">From ₹349</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Up to 70% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">From bed linen, curtains, cushions</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">T-shirts, Kurtas, Shoes & more</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Flipkart.com</span></p>
                             <br>
@@ -633,19 +633,19 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="/ajio-online-shopping" title="Click for Offer Details" target="_blank">
+                        <a href="/limeroad-online-shopping" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">BIG BAG DAYS</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">FASHION CLOTHING</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40-80% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">45k+ Styles to discover</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">25th - 31st OCT</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Womens, Mens & Kids Wear</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">AJIO.com</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Limeroad.com</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9"> AJIO Big Bag Days</span> & Ship Internationally with us.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9"> Limeroad Products</span> & Ship Internationally with us.</p>
                         </div>
                     </div>
                         </a>
@@ -1009,7 +1009,7 @@
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 147px;">
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">246 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">247 Google Reviews</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787 ">Shipping and Delivery Service</p>

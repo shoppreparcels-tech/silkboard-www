@@ -287,10 +287,10 @@
                         <br>
                         <br>
                         <center>
-                            <a href="/diwali-offer" target="_blank">
+                            <a href="/first-time-international-shipment-offer" target="_blank">
 {{--                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png" --}}
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-offer-d-new-shipping.png"
-                                     alt="diwali shipping offer" class="img-responsive">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india-shoppre.png"
+                                     alt="shipping offer from india" class="img-responsive">
                             </a>
                         </center>
                     </div>

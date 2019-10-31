@@ -151,10 +151,10 @@
             </div>
             <div class="col-md-6 col-xs-12 "><br>
                 <br>
-                <a href="/diwali-offer" target="_blank">
+                <a href="/first-time-international-shipment-offer" target="_blank">
 {{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"--}}
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/diwali-offer-d-new-shipping.png"
-                         alt="shoppre diwali offer" title="Click Here" class="img-responsive">
+                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india-shoppre.png"
+                         alt="shoppre offer" title="Click Here" class="img-responsive">
                 </a>
             </div>
         </div>
@@ -603,8 +603,8 @@
 
                         <div class="f-s-24 f-c-d-gray f-w-8 txt-align-c margin-b-10">General Information</div>
                             <center>
-                        <div class="f-s-18 f-c-d-gray f-w-8 margin03"> <a href="http://shoppretracking.aftership.com" target="_blank">Track your shipment</a></div>
-                        <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="/diwali-offer" target="_blank"> Diwali Shipping Offer </a></div>
+                        <div class="f-s-18 f-c-d-gray f-w-8 margin03"> <a href="http://shoppretracking.aftership.com" target="_blank">Track your shipment online</a></div>
+                        <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="/offers" target="_blank"> International shipping offers</a></div>
                          <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank">Earn ₹500/- on each Referral</a></div>
                           <div class="f-s-18 f-c-d-gray f-w-8 margin-b-10"><a href="https://ship.shoppre.com/prohibited-items-what-you-cannot-ship-internationally-from-india/" target="_blank">Restricted and Prohibited Items</a></div>
                             </center>
