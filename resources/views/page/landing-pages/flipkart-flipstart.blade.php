@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', 'Flipkart FLIPSTART Days Shopping [1st - 3rd October 2019]')
+@section('title', 'Flipkart FLIPSTART Days Shopping [1st - 3rd November 2019]')
 @section('description', 'Learn the easy steps you can follow to avail Offers, tremendous discounts during Flipkart Flipstart Days and International shipping services from India.')
 @section('keywords', 'flipkart, flipstart days, online shopping, international shipping, offers, sale, deals, discounts')
 
@@ -23,35 +23,38 @@
 @endsection
 @section('content')
     <section class="div-b-l-w pad-20" >
-       <div class="container pad-t-20">
+
+            <div class="container pad-t-20">
            <br>
            <br>
-           <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad mar-t-25">
-               <div class="col-xs-12 col-md-12 no-pad ">
-                   <img src="/img/images/get-best-offers-and-deals-during-the-flipstart-days-event-on-flipkart.png" class="img-f-w" alt="flipkart flipstart days sale india offer">
-               </div>
-           </div>
+{{--           <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad mar-t-25">--}}
+{{--               <div class="col-xs-12 col-md-12 no-pad ">--}}
+{{--                   <img src="/img/images/get-best-offers-and-deals-during-the-flipstart-days-event-on-flipkart.png" class="img-f-w" alt="flipkart flipstart days sale india offer">--}}
+{{--               </div>--}}
+{{--           </div>--}}
            <div class="col-md-12 col-xs-12 text-center">
-               <h1 class="f-s-26 f-c-d-greay f-w-9">Flipkart Flipstart Day Sale: 1st October to 3rd October 2019</h1>
-           <a href="https://clnk.in/jt4J"
+               <h1 class="f-s-26 f-c-d-greay f-w-9">Flipkart Flipstart Day Sale: 1st November to 3rd November 2019</h1>
+           <a href="https://clnk.in/jVoR"
               target="_blank" class="btn btn-s-b btn-b-r">Visit Flipkart Flipstart Days</a>
            </div>
        </div>
     </section>
+
+
     <section >
-        <div class=" container shopContainer no-padding" style="margin-top: 0px;">
+        <div class=" container shopContainer no-padding" style="margin-top: 2px;">
             <div class="col-md-12 rowdetails">
                 <center>
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                        class="startsValidValue"> 01st Oct 2019</span></p>
+                                        class="startsValidValue"> 01st Nov 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                        class="startsValidValue"> 03rd Oct 2019</span></p>
+                                        class="startsValidValue"> 03rd Nov 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
@@ -65,7 +68,7 @@
             </div>
             <div class=" col-md-12 pad-25">
                 <p class="f-s-20 f-c-gray f-w-9">
-                    <strong>The monthly Flipkart Flipstart Day Sale is back for October, and it is occurring from 1st October to 3rd October only on everyone’s
+                    <strong>The monthly Flipkart Flipstart Day Sale is back for November, and it is occurring from 1st November to 3rd November only on everyone’s
                         favorite online shopping portal, Flipkart, with exclusive offers on all your desired product categories like apparel, fashion, beauty, footwear,
                         accessories, sports, home furnishing, electronics, TVs, ACs, mobile phones, cameras, baby care and a lot more.</strong>
                 </p>  <br>

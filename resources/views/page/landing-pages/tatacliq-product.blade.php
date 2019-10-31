@@ -101,8 +101,8 @@
                     <p class="f-s-20 f-c-l-gray ">Shop Tata CLiQ With Your ShoppRe Address for International Shipping from India.<br></p>
                     <br>
                 </center>
-                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="/diwali-offer" target="_blank">Diwali Offer</a> :
-                        Get ₹250 Cashback on Shipping Tata CLiQ Products Internationally. T&C*</i></p>
+                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="https://www.shoppre.com/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
+                        Get ₹200 Discount on Shipping Tata CLiQ Products Internationally. T&C*</i></p>
                 <br>
                 <br>
             </div>
@@ -137,7 +137,7 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">October 2019 Sale /
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale /
                         Below are the Recommended & Recently Shipped Products!</h2>
 {{--                    <span class="f-s-25 f-c-red f-w-9">Big Bag Days (25-31 Oct)</span>--}}
                 </div>

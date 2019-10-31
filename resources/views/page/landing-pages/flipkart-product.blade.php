@@ -99,8 +99,8 @@
                     <p class="f-s-20 f-c-l-gray ">Shop Flipkart With Your ShoppRe Address for International Delivery from India.<br></p>
                     <br>
                 </center>
-                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="/diwali-offer" target="_blank">Diwali Offer</a> :
-                        Get ₹250 Cashback on Shipping Flipkart.com Products Internationally. T&C*</i></p>
+                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
+                        Get ₹200 Discount on Shipping Flipkart.com Products Internationally. T&C*</i></p>
                 <br>
                 <br>
             </div>
@@ -139,7 +139,7 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">October 2019 Sale: <span class="f-s-25 f-c-red f-w-9">Winter Wear Upto 70% Off</span> /
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale: <span class="f-s-25 f-c-red f-w-9">Winter Wear Upto 70% Off</span> /
                         Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
                 {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
