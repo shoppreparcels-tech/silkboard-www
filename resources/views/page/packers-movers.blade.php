@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'International Relocation Services, Packers & Movers from India | ShoppRe')
+@section('title', 'International Relocation Services, Packers Movers from India')
 @section('description', 'Get a Free Quote. We do ship all the Residential and Corporate items specialising in packing and moving services. Save Upto 80% on International Moving Costs.')
 @section('keywords', 'international relocation, packers, movers from india, shipping, virtual address, household packing, door pickup services, free shipment process, consolidation, repackaging')
 
@@ -45,7 +45,7 @@
 
             </div>
 
-            <div class="col-sm-5 col-xs-12" style="padding-top: 50px">
+            <div class="col-sm-5 col-xs-12" style="padding-top: 50px" >
                 <form action="" method="post" id="ics_lp">
                     {{csrf_field()}}
                     <div class="formFrame" id="diwali-couponcode1">
@@ -58,12 +58,16 @@
 
                     <div class="form-group text-center div-align-items-l">
                         {{--<button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r">--}}
-                        <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>
+{{--                        <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>--}}
                         {{--</button>--}}
                         {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
                         <a href="http://bit.ly/shpr-relocation" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
                         {{--</button>--}}
-                      </div>
+                        <br>
+                        <br>
+                        <a href="https://www.surveymonkey.com/r/C7X2268" target="_blank" class="btn btn-s-b btn-a-l btn-b-r">Request A Free Quote Today!</a>
+                    </div>
+
                     </div>
 
                     <div class="formFrame  div-form-get-quote" id="diwali-couponcode2">
@@ -395,6 +399,13 @@
     </section>
 @endsection
 @section('js_script')
+
+    <script>(function (t, e, s, o) {
+            var n, a, c;
+            t.SMCX = t.SMCX || [], e.getElementById(o) || (n = e.getElementsByTagName(s), a = n[n.length - 1], c = e.createElement(s), c.type = "text/javascript", c.async = !0, c.id = o, c.src = ["https:" === location.protocol ? "https://" : "http://", "widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd5lqUcpAZtddD7j_2B2IRQwlnWWrmf4OENw0MNm7JsllDL.js"].join(""), a.parentNode.insertBefore(c, a))
+        })(window, document, "script", "smcx-sdk");</script>
+
+
     <script>
         $(document).ready(function(){$("#ics_lp").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(o){var c=$("input[name='email']").val(),n=$("input[name='Name']").val(),s=$("input[name='ContactNumber']").val(),f=$("input[name=_token]").val();jQuery.ajax({url:"send-international-courier-from-india",type:"POST",data:{_token:f,email:c,name:n,contact_no:s},success:function(o){console.log(o),$("#diwali-couponcode1").hide(),$("#diwali-couponcode2").slideDown()}})}}),$("#ics-box2").hover(function(){$("#ics-box2").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box1").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number2").css({color:"red"}),$("#number1").css({color:"#677582"})},function(){$("#ics-box1").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box2").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number1").css({color:"red"}),$("#number2").css({color:"#677582"})}),$("#ics-box3").hover(function(){$("#ics-box3").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box1").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number3").css({color:"red"}),$("#number1").css({color:"#677582"})},function(){$("#ics-box1").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box3").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number1").css({color:"red"}),$("#number3").css({color:"#677582"})})});
     </script>

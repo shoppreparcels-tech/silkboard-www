@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'International Medicine Courier | Ayurveda Herbs Shipping | ShoppRe')
+@section('title', 'International Medicine Courier | Ayurveda Herbs Shipping')
 @section('description', 'Send Medicines & Ayurvedic Herbs from India. Offering Door to door Pickup & Packing. Hassle Free Shipping Worldwide, 3-6 days delivery. Cheapest & Reliable‎.')
 @section('keywords', 'medicine courier, fast shipping services, herbs, homeopathy, pills, capsules, ayurvedic courier to usa')
 
@@ -15,14 +15,14 @@
 @section('content')
     <section class="bg-ics-l-p">
         <div class="container">
-            <div class="col-md-12">
-                <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">
-                </a>
-                <a href="tel:+91-8277919191" class="d-contact-img pull-right">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">
-                </a>
-            </div>
+{{--            <div class="col-md-12">--}}
+{{--                <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">--}}
+{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">--}}
+{{--                </a>--}}
+{{--                <a href="tel:+91-8277919191" class="d-contact-img pull-right">--}}
+{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">--}}
+{{--                </a>--}}
+{{--            </div>--}}
 
             <div class="col-sm-7 col-xs-12 no-pad">
 
@@ -45,49 +45,52 @@
 
             </div>
 
-            <div class="col-sm-5 col-xs-12" style="padding-top: 50px">
+            <div class="col-sm-5 col-xs-12" style="padding-top: 25px">
                 <form action="" method="post" id="ics_lp">
                     {{csrf_field()}}
                     <div class="formFrame div-form-get-quote" id="diwali-couponcode1">
                         <h1 class="header2 p-color-blue" style="margin-bottom: 30px">Request a Callback</h1>
                         <div class="form-group">
-                            <label>Full Name <span class="p-color-red">*</span></label>
-                            <input type="text" name="Name" class="form-control"
-                                   placeholder="Enter Your Full Name Here" required>
+                            <center> <a href="https://www.surveymonkey.com/r/CJB6PLL" target="_blank" class="btn btn-s-r btn-a-l btn-b-g" style="background-color: #4285f4">
+                                    GET A FREE QUOTE TODAY</a></center>
+{{--                            <label>Full Name <span class="p-color-red">*</span></label>--}}
+{{--                            <input type="text" name="Name" class="form-control"--}}
+{{--                                   placeholder="Enter Your Full Name Here" required>--}}
                         </div>
-                        <div class="form-group">
-                            <label>Contact Number<span class="p-color-red">*</span></label>
-                            <input type="text" name="ContactNumber" class="form-control"
-                                   placeholder="Enter a Valid Phone number" required>
-                        </div>
-                        <div class="form-group">
-                            <label>E-Mail ID<span class="p-color-red">*</span></label>
-                            <input type="email" name="email" class="form-control"
-                                   placeholder="Enter a valid E-mail ID" required>
-                        </div>
+                        <br>
+{{--                        <div class="form-group">--}}
+{{--                            <label>Contact Number<span class="p-color-red">*</span></label>--}}
+{{--                            <input type="text" name="ContactNumber" class="form-control"--}}
+{{--                                   placeholder="Enter a Valid Phone number" required>--}}
+{{--                        </div>--}}
+{{--                        <div class="form-group">--}}
+{{--                            <label>E-Mail ID<span class="p-color-red">*</span></label>--}}
+{{--                            <input type="email" name="email" class="form-control"--}}
+{{--                                   placeholder="Enter a valid E-mail ID" required>--}}
+{{--                        </div>--}}
                         <div class="form-group text-center">
                             {{--<button type="submit" name="btnActivate" class="btn btn-d-activate-coupon"> GET A FREE QUOTE--}}
                             {{--</button>--}}
-                            <button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-g" style="background-color: #4285f4"> GET A FREE QUOTE
-                            </button>
+                            <a href="http://bit.ly/shpr-relocation" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
+
                         </div>
                     </div>
 
-                    <div class="formFrame  div-form-get-quote" id="diwali-couponcode2">
-                        <h1 class="header2 p-color-blue">Get a Quote</h1>
-                        <div class="row">
-                            <center>
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/request-sent.svg" alt="">
-                                <h6 class="header5 p-color-blue">Request Sent!</h6>
-                                <h5 class="header5 p-color-cement">Just One More Step To start <br>scheduling your
-                                    courier</h5>
-                            </center>
+{{--                    <div class="formFrame  div-form-get-quote" id="diwali-couponcode2">--}}
+{{--                        <h1 class="header2 p-color-blue">Get a Quote</h1>--}}
+{{--                        <div class="row">--}}
+{{--                            <center>--}}
+{{--                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/request-sent.svg" alt="">--}}
+{{--                                <h6 class="header5 p-color-blue">Request Sent!</h6>--}}
+{{--                                <h5 class="header5 p-color-cement">Just One More Step To start <br>scheduling your--}}
+{{--                                    courier</h5>--}}
+{{--                            </center>--}}
 
-                        </div>
-                        <div class="text-center">
-                            <a href="{{route('customer.register')}}" class="btn btn-s-r btn-a-l btn-b-r">Sign Up</a>
-                        </div>
-                    </div>
+{{--                        </div>--}}
+{{--                        <div class="text-center">--}}
+{{--                            <a href="{{route('customer.register')}}" class="btn btn-s-r btn-a-l btn-b-r">Sign Up</a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                 </form>
             </div>
         </div>
@@ -410,7 +413,16 @@
         </div>
     </section>
 @endsection
+
 @section('js_script')
+
+    <script>
+        (function (t, e, s, o) {
+            var n, a, c;
+            t.SMCX = t.SMCX || [], e.getElementById(o) || (n = e.getElementsByTagName(s), a = n[n.length - 1], c = e.createElement(s), c.type = "text/javascript", c.async = !0, c.id = o, c.src = ["https:" === location.protocol ? "https://" : "http://", "widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd5lqUcpAZtddD7j_2B2IRQwllXfc1Z9E523rP88f0VFNBv.js"].join(""), a.parentNode.insertBefore(c, a))
+        })(window, document, "script", "smcx-sdk");
+    </script>
+
     <script>
         $(document).ready(function(){$("#ics_lp").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(o){var c=$("input[name='email']").val(),n=$("input[name='Name']").val(),s=$("input[name='ContactNumber']").val(),f=$("input[name=_token]").val();jQuery.ajax({url:"medicine",type:"POST",data:{_token:f,email:c,name:n,contact_no:s,mailtrain_type:"medicine"},success:function(o){console.log(o),$("#diwali-couponcode1").hide(),$("#diwali-couponcode2").slideDown()}})}}),$("#ics-box2").hover(function(){$("#ics-box2").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box1").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number2").css({color:"red"}),$("#number1").css({color:"#677582"})},function(){$("#ics-box1").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box2").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number1").css({color:"red"}),$("#number2").css({color:"#677582"})}),$("#ics-box3").hover(function(){$("#ics-box3").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box1").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number3").css({color:"red"}),$("#number1").css({color:"#677582"})},function(){$("#ics-box1").css({"box-shadow":"0 -1px 30px rgba(103, 117, 130, 0.17)"," background-color":"#ffffff"}),$("#ics-box3").css({"box-shadow":"none"," background-color":"#ffffff"}),$("#number1").css({color:"red"}),$("#number3").css({color:"#677582"})})});
     </script>
