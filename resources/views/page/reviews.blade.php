@@ -33,45 +33,75 @@
     </style>
 
     <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "name": "ShoppRe",
-  "alternateName": "International Shipping from India",
-  "url": "https://www.shoppre.com/reviews",
-  "logo": "https://www.shoppre.com/img/logo.png",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+91 80409 44077",
-    "contactType": "customer service"
-  },
-  "sameAs": [
-    "https://www.facebook.com/goshoppre",
-    "https://twitter.com/Go_Shoppre",
-    "https://www.instagram.com/shoppre_official",
-    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
-    "https://www.linkedin.com/company/shoppre.com",
-    "https://in.pinterest.com/shoppre",
-    "https://g.page/shoppre",
-    "https://play.google.com/store/apps/details?id=com.shoppre.play",
-    "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
-  ],
-  "aggregateRating": {
-    "@type" : "AggregateRating",
-    "bestRating": "5",
-    "ratingValue" : "4.6",
-    "reviewCount" : "5022",
-    "worstRating" : 2.0
-  }
-}
-</script>
+        {
+          "@context": "http://schema.org",
+              "@type": "Organization",
+              "name": "ShoppRe",
+              "alternateName": "International Shipping from India",
+              "url": "https://www.shoppre.com/reviews",
+              "logo": "https://www.shoppre.com/img/logo.png",
+          "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91 80409 44077",
+                "contactType": "customer service"
+            },
+          "sameAs": [
+                "https://www.facebook.com/goshoppre",
+                "https://twitter.com/Go_Shoppre",
+                "https://www.instagram.com/shoppre_official",
+                "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+                "https://www.linkedin.com/company/shoppre.com",
+                "https://in.pinterest.com/shoppre",
+                "https://g.page/shoppre",
+                "https://github.com/shoppre",
+                "https://cheap-fast-international-shipping-from-india.business.site"
+          ]
+        }
+    </script>
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "image": [
+            "https://www.shoppre.com/img/images/shoppre-logo.png"
+           ],
+          "@id": "https://www.shoppre.com",
+          "name": "ShoppRe online shopping international shipping from india",
+          "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "No.181, 1st Floor 2nd Cross Rd, 1st Block Koramangala",
+                "addressLocality": "Bengaluru",
+                "addressRegion": "KA",
+                "postalCode": "560034",
+                "addressCountry": "India"
+          },
+          "review": {
+            "@type": "Review",
+            "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "4",
+                  "bestRating": "5"
+                },
+            "author": {
+                  "@type": "Person",
+                  "name": "Gabor R"
+                }
+          },
+          "url": "https://www.shoppre.com/reviews",
+          "telephone": "+918277919191"
+        }
+      </script>
 
 @endsection
+
 @section('content')
-    <div class="container">
-        <br><br><br>
-    </div>
+{{--    <div class="container">--}}
+{{--        <br><br><br>--}}
+{{--    </div>--}}
     <section class="header">
+        <br>
+        <br>
         <div class="container header-padder-top">
             <center>
                 <p class="header1 p-color-white">Customer Reviews</p>
@@ -82,6 +112,7 @@
             </center>
         </div>
     </section>
+
     <section>
         <div class="container section-social-reviews">
             <center>

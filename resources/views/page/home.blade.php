@@ -633,19 +633,19 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="/limeroad-online-shopping" title="Click for Offer Details" target="_blank">
+                        <a href="/ajio-online-shopping" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">FASHION CLOTHING</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">HANDPICKED SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">45k+ Styles to discover</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Up To 80% Off</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Womens, Mens & Kids Wear</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Limeroad.com</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">AJIO.com</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9"> Limeroad Products</span> & Ship Internationally with us.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9">AJIO Products</span> & Ship Internationally with us.</p>
                         </div>
                     </div>
                         </a>

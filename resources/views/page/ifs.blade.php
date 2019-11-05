@@ -31,64 +31,64 @@
     <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 
     <script type="application/ld+json">
-    {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "name": "Shop Indian Stores and Ship Internationally",
-    "description": "Online Shopping in India and International Shipping from India",
-    "image": {
-    "@type": "ImageObject",
-    "url": "https://www.shoppre.com/img/logo.png",
-    "width": "878",
-    "height": "264"
-    },
-    "url": "https://www.shoppre.com/shop-from-india-ship-worldwide",
-    "mainEntityOfPage": "https://www.shoppre.com/shop-from-india-ship-worldwide",
-    "inLanguage": "en_IN",
-    "headline": "Shop from any Indian stores and Ship Worldwide through ShoppRe",
-    "keywords": "online shopping in India, parcel forwarding from india, shopping from Indian stores, best package forwarding company",
-    "copyrightYear": "2019",
-    "author": {
-    "@type": "Organization",
-    "name": "ShoppRe",
-    "url": "https://www.shoppre.com",
-    "sameAs": ["https://twitter.com/Go_Shoppre",
-    "https://www.facebook.com/goshoppre",
-    "https://www.linkedin.com/company/shoppre.com",
-    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
-    "https://www.instagram.com/shoppre_official",
-    "https://www.shoppre.com/shop-ship",
-    "https://www.shoppre.com/personal-shopper-shopping-concierge-from-india",
-    "https://www.shoppre.com/indian-online-stores",
-    "https://www.pinterest.com/shoppre"],
-    "image": {
-    "@type": "ImageObject",
-    "url": "https://www.shoppre.com/img/logo.png",
-    "height": "264",
-    "width": "878"
-    },
-    "telephone": "+91 80409 44077",
-    "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "#181, Room No:2, 1st Floor, 2nd Cross Rd,1st Block Koramangala",
-    "addressLocality": "Bengaluru",
-    "addressRegion": "Karnataka",
-    "postalCode": "560034",
-    "addressCountry": "IN"
-    },
-    "location": {
-    "@type": "Place",
-    "name": "Shop from ANY Indian Store, Ship Worldwide - ShoppRe.com",
-    "hasMap": "https://g.page/OnlineShoppingIndia",
-    "telephone": "+918277919191",
-    "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "12.9258297",
-    "longitude": "77.6355631"
-    }
-    }
-    }
-    }
+            {
+            "@context": "http://schema.org",
+            "@type": "WebPage",
+                "name": "Shop Indian Stores and Ship Internationally",
+                "description": "Online Shopping in India and International Shipping from India",
+            "image": {
+            "@type": "ImageObject",
+                "url": "https://www.shoppre.com/img/logo.png",
+                "width": "878",
+                "height": "264"
+            },
+            "url": "https://www.shoppre.com/shop-from-india-ship-worldwide",
+            "mainEntityOfPage": "https://www.shoppre.com/shop-from-india-ship-worldwide",
+            "inLanguage": "en_IN",
+            "headline": "Shop from any Indian stores and Ship Worldwide through ShoppRe",
+            "keywords": "online shopping in India, parcel forwarding from india, shopping from Indian stores, best package forwarding company",
+            "copyrightYear": "2019",
+            "author": {
+            "@type": "Organization",
+                    "name": "ShoppRe",
+                    "url": "https://www.shoppre.com",
+                    "sameAs": ["https://twitter.com/Go_Shoppre",
+                    "https://www.facebook.com/goshoppre",
+                    "https://www.linkedin.com/company/shoppre.com",
+                    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+                    "https://www.instagram.com/shoppre_official",
+                    "https://www.shoppre.com/shop-ship",
+                    "https://www.shoppre.com/personal-shopper-shopping-concierge-from-india",
+                    "https://www.shoppre.com/indian-online-stores",
+                    "https://www.pinterest.com/shoppre"],
+            "image": {
+            "@type": "ImageObject",
+                "url": "https://www.shoppre.com/img/logo.png",
+                "height": "264",
+                "width": "878"
+            },
+            "telephone": "+91 80409 44077",
+            "address": {
+            "@type": "PostalAddress",
+                "streetAddress": "#181, Room No:2, 1st Floor, 2nd Cross Rd,1st Block Koramangala",
+                "addressLocality": "Bengaluru",
+                "addressRegion": "Karnataka",
+                "postalCode": "560034",
+                "addressCountry": "IN"
+            },
+            "location": {
+            "@type": "Place",
+                "name": "Shop from ANY Indian Store, Ship Worldwide - ShoppRe.com",
+                "hasMap": "https://g.page/OnlineShoppingIndia",
+                "telephone": "+918277919191",
+            "geo": {
+            "@type": "GeoCoordinates",
+                "latitude": "12.9258297",
+                "longitude": "77.6355631"
+                }
+             }
+            }
+            }
     </script>
 
     <style>
@@ -117,14 +117,14 @@
     </section>
 
     <section>
-{{--        <div>--}}
-{{--            <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
-{{--                <a href="/limeroad-online-shopping" title="Amazon" target="_blank">1. Limeroad.com 👉Best Shopping Offers</a> |--}}
-{{--                <a href="/fabindia-online-shopping" title="flipkart" target="_blank">2. Fabindia.com 👉Festive Vibes </a> |--}}
-{{--                <a href="/amazon-online-shopping" title="amazon" target="_blank">3. Amazon.in 👉Festive Fashion</a> |--}}
-{{--                <a href="/ajio-online-shopping" title="ajio" target="_blank">4. AJIO.com 👉Big Bag Days</a>--}}
-{{--            </marquee>--}}
-{{--        </div>--}}
+        <div>
+            <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉Handpicked Sale (Up To 80% Off)</a> |
+                <a href="/fabindia-online-shopping" title="flipkart" target="_blank">2. Fabindia.com 👉Festive Vibes </a> |
+                <a href="/amazon-online-shopping" title="amazon" target="_blank">3. Amazon.in 👉Festive Fashion</a> |
+                <a href="/limeroad-online-shopping" title="ajio" target="_blank">4. Limeroad.com 👉Best Shopping Offers</a>
+            </marquee>
+        </div>
         <div class="container" id="how-it-works">
             <div>
                 <center>

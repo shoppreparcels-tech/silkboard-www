@@ -74,14 +74,14 @@
         <div class=" container shopContainer no-padding">
             <div class="col-md-12" style="padding:20px;">
                 <div class="col-md-10">
-{{--                    <div>--}}
-{{--                        <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
-{{--                            <a href="/limeroad-online-shopping" title="Amazon" target="_blank">1. Limeroad.com 👉Best Shopping Offers</a> |--}}
-{{--                            <a href="/fabindia-online-shopping" title="flipkart" target="_blank">2. Fabindia.com 👉Festive Vibes </a> |--}}
-{{--                            <a href="/amazon-online-shopping" title="amazon" target="_blank">3. Amazon.in 👉Festive Fashion</a> |--}}
-{{--                            <a href="/ajio-online-shopping" title="ajio" target="_blank">4. AJIO.com 👉Big Bag Days</a>--}}
-{{--                        </marquee>--}}
-{{--                    </div>--}}
+                    <div>
+                        <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                            <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉Handpicked Sale (Up To 80% Off)</a> |
+                            <a href="/fabindia-online-shopping" title="flipkart" target="_blank">2. Fabindia.com 👉Festive Vibes </a> |
+                            <a href="/amazon-online-shopping" title="amazon" target="_blank">3. Amazon.in 👉Festive Fashion</a> |
+                            <a href="/limeroad-online-shopping" title="ajio" target="_blank">4. Limeroad.com 👉Best Shopping Offers</a>
+                        </marquee>
+                    </div>
                     <center>
                         <h1 class="f-s-20 font-weight-900 f-c-d-greay">Ship What You Love from India & Shop With Your <a href="/indian-virtual-address" target="_blank">
                                 Free ShoppRe Indian Virtual Address‎</a></h1>
