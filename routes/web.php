@@ -689,6 +689,7 @@ Route::get('/tatacliq-online-shopping', 'PageController@tatacliqProduct')->name(
 Route::get('/lifestylestores-online-shopping', 'PageController@lifestylestoresProduct')->name('lifestylestores-product');
 Route::get('/pepperfry-online-shopping', 'PageController@pepperfryProduct')->name('pepperfry-product');
 Route::get('/fabindia-online-shopping', 'PageController@fabindiaProduct')->name('fabindia-product');
+Route::get('/shoppersstop-online-shopping', 'PageController@shoppersstopProduct')->name('shoppersstop-product');
 
 
 /*-------- Festival Sale Landing Pages ------*/

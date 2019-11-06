@@ -523,6 +523,10 @@ class PageController extends Controller
     {
         return view('page.landing-pages.fabindia-product');
     }
+    public function shoppersstopProduct()
+    {
+        return view('page.landing-pages.shoppersstop-product');
+    }
 
     public function diwaliOffer() {
         return view('page.landing-pages.diwali');
