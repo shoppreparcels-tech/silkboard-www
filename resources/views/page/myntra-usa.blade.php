@@ -36,13 +36,12 @@
                </center>
                <center>
                    <h18 class="f-s-50 f-c-white  f-w-9">50% Discount</h18>
-                   <p class="f-s-30 f-c-white f-w-9 ">on your first MYNTRA.com shipment </p>
+                   <p class="f-s-30 f-c-white f-w-9 ">on your first MYNTRA.com international shipment to USA </p>
                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-s-t-coupon.png" alt="" > <br><br>
                    <a href="{{route('customer.register')}}" target="_blank" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE</a>
                    <br>
                    <br>
-                   <br>
-                   <p class="f-s-10 f-c-l-gray f-w-8">Shop Myntra from India and Ship to your door-step anywhere in the USA</p>
+                   <p class="f-s-20 f-c-l-gray f-w-8">Shop Myntra from India and Ship to your door-step anywhere in the USA</p>
 
                </center>
            </div>

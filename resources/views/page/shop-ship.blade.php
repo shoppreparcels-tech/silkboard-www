@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Online Shopping from India | Hassle Free Worldwide Shipping | ShoppRe')
+@section('title', 'Online Shopping from India | Hassle Free Worldwide Shipping')
 @section('description', 'Shop from 1000 Indian online stores with your ShoppRe Address. Hassle Free worldwide shipping from India at 80% lower rates. 3-6 days delivery. Sign up Now!')
 @section('keywords', 'shop from india, ship to usa, indian online stores, shipping address, uae courier, international shopping')
 @section('css_style')

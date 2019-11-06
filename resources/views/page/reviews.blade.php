@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Customer Reviews & Ratings | Leave Your Feedback • ShoppRe.com™')
+@section('title', 'ShoppRe.com Official | Customer Reviews & Ratings | ⭐4.8/5')
 @section('description', 'Read our latest Reviews & Ratings showcasing the excellent service, ship on time & quality of shipment. Share feedback about your shipping experiences with us.')
 @section('keywords', 'reviews, ratings, customer, shipping, shopping, service, india')
 
@@ -10,7 +10,7 @@
     <link href="{{env('AWS_CLOUD_FRONT')}}/css/select2.min.css" rel="stylesheet">
     <link href="{{env('AWS_CLOUD_FRONT')}}/css/star-rating.min.css" rel="stylesheet"/>
 
-    <meta property="og:title" content="Customer Reviews & Ratings | ShoppRe.com "/>
+    <meta property="og:title" content="ShoppRe.com Reviews and Feedback"/>
     <meta property="og:type" content="website"/>
     <meta property="og:description" content="Read our latest Review & Ratings showcasing the excellent service, ship on time & quality of shipment."/>
     <meta property="og:url" content="https://www.shoppre.com/reviews"/>
@@ -104,7 +104,7 @@
         <br>
         <div class="container header-padder-top">
             <center>
-                <p class="header1 p-color-white">Customer Reviews</p>
+                <p class="header1 p-color-white">Customer Reviews & Ratings</p>
                 <p class="header2 p-color-cement header-margin-bottom">Our customers love our top-rated
                     service and how easy & worry-free<br> we make <a href="{{route('ifs.index')}}">shopping and shipping
                         from INDIA!</a>
@@ -150,6 +150,7 @@
 {{--            </div>--}}
         </div>
     </section>
+
     <section class="ligth-background">
         <div class="container">
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 div-submit-review">

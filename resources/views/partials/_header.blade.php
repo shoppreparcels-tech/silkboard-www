@@ -85,7 +85,7 @@
                                 <ul class="about-menu-links">
                                     <li><a class="header6 p-color-cement-dark" href="https://medium.com/@shoppre" target="_blank">What's New</a></li>
                                     <li><a class="header6 p-color-cement-dark" href="{{route('about')}}">About Our Company</a></li>
-                                    <li><a class="header6 p-color-cement-dark" href="{{route('story.index')}}">Our Story</a></li>
+{{--                                    <li><a class="header6 p-color-cement-dark" href="{{route('story.index')}}">Our Story</a></li>--}}
                                     <li><a class="header6 p-color-cement-dark" href="https://www.linkedin.com/company/shoppre.com/" >Our Team</a>
                                     <li><a class="header6 p-color-cement-dark" href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank">Refer & Earn</a></li>
                                     <li><a class="header6 p-color-cement-dark" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" >Careers</a></li>
@@ -200,8 +200,8 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="{{route('offers-new.index')}}">Offers <sup class="p-color-red" style="font-size: 8px" id="offer">New</sup> </a></li>
-                    <li><a href="{{route('pricing')}}">Shipping Rates</a></li>
+                    <li><a href="{{route('offers-new.index')}}">Offers </a></li>
+                    <li><a href="{{route('pricing')}}">Shipping Rates <sup class="p-color-red" style="font-size: 8px" id="offer">New</sup></a></li>
                     <li><a href="{{route('contact')}}">Support</a></li>
                     <li><a href="https://www.shoppre.com/seller-partner">Seller Partner</a></li>
                 </ul>

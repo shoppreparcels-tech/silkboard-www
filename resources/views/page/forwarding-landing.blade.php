@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title', 'International Parcel Forwarding | Shipping Packages from Indian E-commerce Stores')
-@section('description', 'Want to courier abroad from India? We ship to 2220 countries. Send homemade food, sweets, utensils, cloths, books. Special Discounts rates for bulk shipments.')
+@section('description', 'Want to courier abroad from India? We ship to 220 countries. Send homemade food, sweets, utensils, cloths, books. Special Discounts rates for bulk shipments.')
 @section('keywords', 'international courier, cargo services, shipping, delivery, schedule a pickup')
 
 @section('css_style')
@@ -12,7 +12,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Organization",
-  "name": "ShoppRe Package Forwarding",
+  "name": "ShoppRe Package Forwarding from India",
   "alternateName": "International Package Forwarding India",
   "url": "https://www.shoppre.com/international-parcel-forwarding-india-online-shopping",
   "logo": "https://www.shoppre.com/img/logo.png",
@@ -25,7 +25,7 @@
     "https://www.facebook.com/goshoppre",
     "https://twitter.com/Go_Shoppre",
     "https://www.instagram.com/shoppre_official",
-    "https://g.page/ParcelForwarding",
+    "https://g.page/shoppre-shipping?share",
     "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
     "https://www.linkedin.com/company/shoppre.com",
     "https://in.pinterest.com/shoppre"
@@ -45,6 +45,8 @@
     </style>
 
 @endsection
+
+
 @section('content')
     <section class="bg-ics-l-p">
         <div class="container">
