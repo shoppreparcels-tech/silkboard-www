@@ -424,7 +424,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="sarees"><span><a
                                         href="https://ship.shoppre.com/8-gorgeously-elegant-sarees-for-every-occasion-to-flaunt-your-curves-craftsvilla-handpicked-for-you/" target="_blank">Sarees Online Shopping</a> </span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Stylish Polka dot dresses"><span><a
-                                        href="https://ship.shoppre.com/buy-modern-fashionable-polka-dot-dresses-from-myntra-ship-internationally/" target="_blank">Stylish Polka Dot Dresses</a></span></li>
+                                        href="/myntra-women-maxi-dresses-international-shipping" target="_blank">Maxi Dresses for Women</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="best kurta set for men"><span><a
                                         href="https://ship.shoppre.com/shop-for-these-stylish-trendy-kurta-sets-for-men-from-best-brands-myntra-india/" target="_blank">Best Kurta Set for Men</a></span></li>
 

@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'International Courier from India to Singapore | Starting from ₹939')
+@section('title', 'International Courier from India to Singapore | From ₹939')
 @section('description', 'Fast and Reliable Shipping from India to Singapore. Ship household stuff, medicine, food items, docs. Save 60% on Shipping Rates. Call 08277919191 for Pick up.')
 @section('keywords', 'courier from india to singapore, ship household stuff, packers and movers company, Shop & Ship services')
 

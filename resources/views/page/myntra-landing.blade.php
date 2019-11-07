@@ -5,6 +5,9 @@
 @section('keywords', 'myntra international shipping, online fashion store, ship usa, how to shop, big fashion days')
 
 @section('css_style')
+
+    <link rel="canonical" href="https://www.shoppre.com/myntra-online-shopping-shipping-from-india"/>
+
     <meta property="og:title" content="Shop online from Myntra fashion store and Ship Internationally with Shoppre" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.shoppre.com/myntra-online-shopping-shipping-from-india" />

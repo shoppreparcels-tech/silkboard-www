@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'International Courier Rates | Calculate Your Shipping Cost | ShoppRe')
-@section('description', 'Calculate your shipping costs from India to anywhere in the world. FREE international courier rates estimation for 220+ countries. Save up to 75% on shipping.')
+@section('title', 'International Courier Rates - Calculate Shipping Cost from India')
+@section('description', 'Calculate your shipping costs from India to anywhere in the world. FREE international courier rates estimation for 220+ countries. Save up to 80% on shipping.')
 @section('keywords', 'calculate your shipping costs, courier charges, shipping rates, shipping calculator, international package')
 
 @section('css_style')
@@ -95,14 +95,14 @@
                         <div class="modal-body">
                             <div class="panel panel-success">
                                 <div class="panel-heading">
-                                    <h4 class="modal-title f-w-8"> For more than 70 Kg we will be providing spot rates which are extremely competitive</h4>
+                                    <h4 class="modal-title f-w-8"> For more than 70 Kg we will be providing Spot Rates which are extremely competitive.</h4>
                                 </div>
                                 <div class="panel-body">
                                     <form action="" method="post" id="form-weight">
                                         <div class="col-md-12 col-xs-12 pad-r-10 pad-b-20"><br>
                                             Full Name:<input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="MName" placeholder="Enter your name" required>
-                                            Phone Number: <input id="phone" name="MContactNumber" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off" required>
-                                            Email:<input type="Email" name="Memail" class="txt-f-w txt-shadow txt-pad" autocomplete="off"   placeholder="jhon@email.com" required>
+                                            Phone Number: <input id="phone" name="MContactNumber" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="Enter a valid Phone/WhatsApp Number with Country Code" required>
+                                            Email:<input type="Email" name="Memail" class="txt-f-w txt-shadow txt-pad" autocomplete="off"   placeholder="Enter a valid Email ID" required>
                                             Which Country to Ship:
                                             <select class="form-control select-control b-r" name="Mcountry" required>
                                                 <option value="">Select Country</option>
@@ -110,7 +110,7 @@
                                                     <option value="{{$country->name}}" {{$country->id == 226 ? 'selected' : ""}}>{{$country->name}}</option>
                                                 @endforeach
                                             </select>
-                                            Weight<input type="number" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="Mweight" placeholder="Enter your Weight" required>
+                                            Weight in Kgs:<input type="number" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="Mweight" placeholder="Enter your Total Shipment Weight" required>
                                             <div class="col-xs-12 col-md-12 pad-t-20">
                                                 <button type='submit' class="btn btn-s-r btn-b-r btn-l">Get a Free Quote</button>
                                             </div>

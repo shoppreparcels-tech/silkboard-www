@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'International Courier Charges ₹566 from India to UAE | ShoppRe.com')
+@section('title', 'Cheap International Courier Charges India to UAE | ShoppRe')
 @section('description', 'Send international courier from India to UAE at ₹570. Courier Smartphones, Gifts, Documents, Sweets, Medicines, Clothes & more. Call us & Get Free Quote Today.')
 @section('keywords', 'send international courier, india to uae, shipping rates, parcel forwarding, online shopping from india ')
 
