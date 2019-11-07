@@ -40,17 +40,17 @@
             <div class="row">
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - NOVEMBER 2019 SALE
-{{--                        <br> [ 👉 <a href="flipkart-online-shopping" target="_blank">Big Diwali Sale(21st - 25th OCT)</a> Up To 80% Off ]</h2>--}}
+                        <br> [ 👉 <a href="https://clnk.in/jWEU" target="_blank">Style Your Winter</a> From ₹499 ]</h2>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/fashion-autumnwinter-main-store" title="Click Here to Shop" target="_blank">
+                    <a href="https://clnk.in/jWEU" title="Click Here to Shop" target="_blank">
                         <div class="shopandship ">
                                 <h2>Top Brands On Discount</h2>
                                 <br>
-                                <p>T-shirts, Kurtas, Shoes & more</p>
-                                <p>Up To 70% Off</p>
+                                <p>Levi's, Flying Machine & more</p>
+                                <p>From ₹499</p>
                                 <p>Explore Now</p>
                         </div>
                     </a>

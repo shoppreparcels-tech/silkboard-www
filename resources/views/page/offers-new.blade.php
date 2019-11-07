@@ -113,9 +113,9 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">TOP BRANDS ON DISCOUNT</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up to 70% Off</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">From ₹499</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://clnk.in/jVpD" target="_blank">
+                                <a href="https://clnk.in/jWEU" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
                                 </a>
                             </div>
@@ -168,8 +168,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Handpicked sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up To 80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">WEEKEND BINGE SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 30% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
@@ -211,11 +211,12 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">The Real Deals</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Fat Indian wedding</h4>
                             <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.jabong.com" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_599691d00e27e.png">
+                                <a href="https://clnk.in/jWEW" target="_blank">
+                                    <p class="header3 p-color-cement-dark font-weight-900">SHOPPERSSTOP</p>
+{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_599691d00e27e.png">--}}
                                 </a>
                             </div>
                         </div>

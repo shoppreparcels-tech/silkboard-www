@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'AJIO | Handpicked Sale November 2019 | Ship with ShoppRe')
+@section('title', 'AJIO | WEEKEND BINGE Sale November 2019 | Ship with ShoppRe')
 @section('description', 'AJIO online shopping from India with ShoppRe International Shipping at Lowest Rates. Premium Brands. Stylish Collection. Tops & Dresses, Fusion Wear, Heels & Flats, Bags & Belts,  Sarees.')
 @section('keywords', 'online shopping, ajio shipping, reliance retail, trends, wardrobe, womens tops, ajio offers, sale')
 
@@ -115,7 +115,7 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019: <span class="f-s-25 f-c-red f-w-9">Handpicked Sale (Up To 80% Off)</span> /
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019: <span class="f-s-25 f-c-red f-w-9">WEEKEND BINGE Sale (Up To 30% Off)</span> /
                         Below are the Recommended & Recently Shipped Products!</h2>
 
                 </div>

@@ -76,8 +76,8 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉Handpicked Sale (Up To 80% Off)</a> |
-                            <a href="/fabindia-online-shopping" title="flipkart" target="_blank">2. Fabindia.com 👉Festive Vibes </a> |
+                            <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉Weekend Binge Sale (Up To 30% Off)</a> |
+                            <a href="https://clnk.in/jWEU" title="flipkart" target="_blank">2. Flipkart.com 👉Style Your Winter </a> |
                             <a href="/amazon-online-shopping" title="amazon" target="_blank">3. Amazon.in 👉Festive Fashion</a> |
                             <a href="/limeroad-online-shopping" title="ajio" target="_blank">4. Limeroad.com 👉Best Shopping Offers</a>
                         </marquee>
