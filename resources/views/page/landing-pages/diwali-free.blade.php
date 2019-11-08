@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Indian Sweets FREE International Delivery | ShoppRe.com')
-@section('description', '')
-@section('keywords', 'free shiiping from india, indian sweets')
+@section('title', 'Indian Sweets FREE International Delivery from India')
+@section('description', 'Indian sweets international delivery - Buy Quality Sweets, Dryfruits, Namkeens, Snacks for gifting, festival celebration, weeding, birthday parties. Shop Now!')
+@section('keywords', 'free shipping from india, indian sweets, dryfruits, namkeen, desserts, snacks')
 
 @section('css_style')
 
@@ -80,53 +80,74 @@
     </style>
 
 @endsection
+
 @section('content')
-    <section class="first-time-shipment header-section" style="padding-top: 50px !important;">
-        <div class="container no-padding banner">
-                <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>Indian Sweets: FREE International Shipping from India</i></p>
-                <div class="col-md-6 col-xs-12" style="padding-top: 7%">
-                   <center> <p class="m-t-sm f-s-30">Why Worries Re, <span style="font-family: Bahnschrift">Just ShoppRe!</span></p></center>
-                    <p class="f-c-white m-t-sm f-s-18 text-center">
-                        If you are in the quest for Indian sweets and snacks this Diwali for gifting purposes or just getting them for yourselves,
-                        then ShoppRe is here to ship all your favorite <span class="underline-color">Sweets & Snacks</span> at your doorsteps to add extra vibrancy to your Diwali (🪔)
-                    </p>
-                </div>
-                <div class="col-md-6 col-xs-12 no-padding">
+    <main>
+        <div class="header">
+            <div class="container"><br><br><br>
+                <center>
+                    <h1 class="f-s-36 f-c-white f-w-8">INDIAN SWEETS Free International Delivery</h1>
+                    <p class="f-s-20 f-c-l-gray ">Shop Branded Sweets & Namkeen With Your ShoppRe Address for International Delivery from India.<br></p>
+                    <br>
+                </center>
+                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe First Time Shipping Offer</a> :
+                        Get ₹200 Discount - Use Code: FRST50. T&C*</i></p>
+                <br>
+                <br>
+            </div>
+        </div>
+    </main>
+{{--    <section class="first-time-shipment header-section" style="padding-top: 50px !important;">--}}
+{{--        <div class="container no-padding banner">--}}
+{{--                <p class="f-s-28 f-c-white f-w-9 text-center" style="background-color: #4285f4"><i>Indian Sweets: FREE International Shipping from India</i></p>--}}
+{{--                <div class="col-md-6 col-xs-12" style="padding-top: 7%">--}}
+{{--                   <center> <p class="m-t-sm f-s-30">Why Worries Re, <span style="font-family: Bahnschrift">Just ShoppRe!</span></p></center>--}}
+{{--                    <p class="f-c-white m-t-sm f-s-18 text-center">--}}
+{{--                        If you are in the quest for Indian sweets and snacks this Diwali for gifting purposes or just getting them for yourselves,--}}
+{{--                        then ShoppRe is here to ship all your favorite <span class="underline-color">Sweets & Snacks</span> at your doorsteps to add extra vibrancy to your Diwali (🪔)--}}
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--                <div class="col-md-6 col-xs-12 no-padding">--}}
 {{--                    <center>--}}
 {{--                        <img src="{{asset('img/images/tape_signup.svg')}}" alt="signup shoppre">  <br>--}}
 {{--                    </center>--}}
-                    <br>
-                    <center>
+{{--                    <br>--}}
+{{--                    <center>--}}
 {{--                        <h18 class="f-s-50 f-c-white  f-w-9">Celebrate Diwali</h18>--}}
 {{--                        <p class="f-s-36 f-c-white f-w-9 ">With ShoppRe.com </p>--}}
-                        <br>
-                        <img src="{{asset('img/diwali/diwali-shipping-cashback-sweets-free-shipping.png')}}" alt="Diwali offer Free shipping from india" > <br><br>
+{{--                        <br>--}}
+{{--                        <img src="{{asset('img/diwali/diwali-shipping-cashback-sweets-free-shipping.png')}}" alt="Diwali offer Free shipping from india" > <br><br>--}}
 {{--                        <a href="{{route('customer.register')}}" class="btn btn-s-r btn-b-g btn-a-l" target="_blank">Sign UP FREE</a>--}}
-                        <br>
-                        <br>
-                    </center>
-                </div>
-            </div>
-        <div class="image-banner">
-            <img src="{{asset('img/diwali/diwali-sweets-free-shipping-from-india.png')}}" alt="" style="height: 430px; width: 100%;">
-        </div>
-    </section>
+{{--                        <br>--}}
+{{--                        <br>--}}
+{{--                    </center>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        <div class="image-banner">--}}
+{{--            <img src="{{asset('img/diwali/diwali-sweets-free-shipping-from-india.png')}}" alt="" style="height: 430px; width: 100%;">--}}
+{{--        </div>--}}
+{{--    </section>--}}
+
+
     <section >
-        <div class="container fst-service" style="margin-top: 36px;">
+        <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
-                <div class="col-md-8 col-xs-12 ">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Shop Diwali Sweets, Snacks & more.  Ship for FREE with us!</h2>
+                <div class="">
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">
+                        Below are the Recommended & Recently Shipped Indian Sweets & Namkeens From India</h2>
+{{--                    November 2019: <span class="f-s-25 f-c-red f-w-9">WEEKEND BINGE Sale (Up To 30% Off)</span>--}}
+
                 </div>
-                <div class="col-md-4 col-xs-12 text-center margin-tp">
-                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Online Chat or Click on BUY NOW &
-                        <br>you will be redirected to WhatsApp)</p>
+{{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
+{{--                    <p class="no-pad Rakhi-mid-div f-s-16 txt-center" style="margin-top: 10px;">(Online Chat or Click on BUY NOW &--}}
+{{--                        <br>you will be redirected to WhatsApp)</p>--}}
 {{--                    <div class="">--}}
 {{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Pratheeksha;%20I%20Love%20to%20Send%20Diwali,%20Gifts%20and%20Sweets%20from%20India" target="_blank">--}}
 {{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
 {{--                            <span class="font-16">+91-7338208403</span>--}}
 {{--                        </a>--}}
 {{--                    </div>--}}
-                </div>
+{{--                </div>--}}
             </div>
             <div class="row text-center">
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
@@ -439,125 +460,7 @@
                         </button>
                 </div>
             </div>
-{{--            <div class=" col-md-12 no-pad"><br>--}}
-{{--                <center>--}}
-{{--                    <h2 class="p-color-cement-dark font-weight-900 ">Onam shopping guide with the best trend and style from India</h2>--}}
-{{--                </center>--}}
-{{--                <br>--}}
-{{--                <ul>--}}
-{{--                    <li>--}}
-{{--                        <h4><a href="#What_is_Onam"> What is Onam and how to do Onam shopping?</a></h4>--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                       <h4><a href="#How_to_shop">How to shop for Onam from abroad?</a></h4>--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <h4><a href="#How_to_save">How to save some extra cash on shopping for Onam?</a></h4>--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <h4><a href="#What_to_purchase">What to purchase for your daughter for Onam?</a></h4>--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <h4><a href="#Indecisive_about">Indecisive about what to wear on Onam for women?</a></h4>--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <h4><a href="#How_to_shop_Balaramapuram">How to shop Balaramapuram Kaithari sarees from India?</a></h4>--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <h4><a href="#What_should_men">What should men wear for Onam?</a></h4>--}}
-{{--                    </li>--}}
-{{--                </ul>--}}
-{{--                <br>--}}
-{{--                <div id="What_is_Onam">--}}
-{{--                    <h2  --}}{{--class="f-s-18 f-c-gray f-w-9"--}}{{-- class="p-color-cement-dark font-weight-900 ">What is Onam and how to do Onam shopping?</h2><br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        Onam is one main crop harvesting festival of Kerala. It is also celebrated with the same vigor and vitality outside India as well.--}}
-{{--                        This prominent festival is full of folk dance, music, vigorous games, grand processions, elaborately adorned Pookalam, delicious Onam sadya, thrilling Snake boat race, and unique Kaikottikali dance.--}}
-{{--                        And we have curated the latest trends for Onam shopping in this article.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-{{--                <br>--}}
-{{--                <div id="How_to_shop">--}}
-{{--                    <h2 class="p-color-cement-dark font-weight-900 ">How to shop for Onam from abroad?</h2>--}}
-{{--                    <br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        To celebrate this festival of love, dignity, reverence, and dharma, you do not need to do much. You can easily do Onam special online shopping from the comfort of your home. Shop for beautiful traditional festive attire for you and your family online through ShoppRe.--}}
-{{--                        Despite where in the world you are, we will deliver your package to you within 3-6 days.--}}
-{{--                        And if, you have no idea what to purchase, then sit back and continue reading because here is a complete guide for Onam shopping online.--}}
-{{--                    </p>--}}
-{{--                    <br>--}}
-{{--                    <h2 class="p-color-cement-dark font-weight-900 ">Here the easy steps you can follow to do international Onam shopping</h2>--}}
-{{--                    <ul>--}}
-{{--                        <li class="onam-list">Sign up at ShoppRe.com and you will get a virtual address.</li>--}}
-{{--                        <li class="onam-list">Shop for these traditional festive wears from any Indian website</li>--}}
-{{--                        <li class="onam-list">Provide the virtual address given by ShoppRe.com at the time of checking out using COD option.</li>--}}
-{{--                        <li class="onam-list">We will collect your order and pay for it.</li>--}}
-{{--                        <li class="onam-list">Once we receive all of your order we will ship it after you request it to ship.</li>--}}
-{{--                        <li class="onam-list">Then we pack and ship the consolidated package at your address abroad. And you receive it within 3-6 days.</li>--}}
-{{--                    </ul>--}}
-{{--                </div>--}}
-{{--                <div id="How_to_save">--}}
-{{--                    <h2  --}}{{--class="f-s-18 f-c-gray f-w-9"--}}{{-- class="p-color-cement-dark font-weight-900 ">How to save some extra cash on shopping for Onam?</h2><br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        You can save so much with Onam online shopping offers at various websites.--}}
-{{--                        There are wondrous discounts going on at the original price of the products so shop save some cash.--}}
-{{--                        You can even save some more if you choose to shop in groups.--}}
-{{--                        We offer a fantastic rebate at shipping to everyone <a href="onam-community-shipping-offer" target="_blank">who shops in a group or community</a>.--}}
-{{--                        Avail all the benefits and save as much as you can while shopping for all your festive essentials.--}}
-{{--                        And 80% less shipping charges are always there with ShoppRe.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-{{--                <div id="What_to_purchase">--}}
-{{--                    <h2  --}}{{--class="f-s-18 f-c-gray f-w-9"--}}{{-- class="p-color-cement-dark font-weight-900 ">What to purchase for your daughter for Onam?</h2><br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        Give your daughter an ethnic attire that she can flaunt.--}}
-{{--                        A complete look with Kasavu work blouse and tissue check Pavadai will make your princess look regal in every aspect.--}}
-{{--                        She will love and adore this ethnic way of dressing on special occasions.--}}
-{{--                        If modern with a hint of ethnicity is your desire for your little girl.--}}
-{{--                        Then what you need is something different.--}}
-{{--                        Shop from this wide range of super gorgeous and cute collection of kids girls Kerala ethnic off white frocks with a golden border or Kasavu and designer borders.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-{{--                <div id="Indecisive_about">--}}
-{{--                    <h2  --}}{{--class="f-s-18 f-c-gray f-w-9"--}}{{-- class="p-color-cement-dark font-weight-900 ">Indecisive about what to wear on Onam for women?</h2><br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        A traditional Kasavu saree from Kerala is a no brainer to celebrate Onam ostentatiously from an array of Kerala sarees online.--}}
-{{--                        These Kerala sarees spell elegance and grandeur of grand festivals like Onam.--}}
-{{--                        The simple and magnificent cream saree with glittering golden border is a heart-stealing delight to wear.--}}
-{{--                        Don't miss the opportunity to get these gorgeous Kerala sarees online at a discount never seen before.--}}
-{{--                        These sarees have a spiritual appeal and a look that oozes placidness so do onam sarees shopping.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-{{--                <div id="How_to_shop_Balaramapuram">--}}
-{{--                    <h2  --}}{{--class="f-s-18 f-c-gray f-w-9"--}}{{-- class="p-color-cement-dark font-weight-900 ">How to shop Balaramapuram Kaithari sarees from India?</h2><br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        Another option is the Balaramapuram Kaithari for Onam saree.--}}
-{{--                        These sarees are a handwoven piece of art.--}}
-{{--                        Their unique style of weaving coupled with the unique weft processing makes the fabric fine and comfortable to wear.--}}
-{{--                        Exclusive cotton fabric with pure Zari work border endows it with six yards of luxury.--}}
-{{--                        You can shop for these beauties through ShoppRe and get them delivered at your doorstep.--}}
-{{--                        We offer amazing discounts on shipping worldwide.--}}
-{{--                        These sarees are best for onam sarees online shopping.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-{{--                <div id="What_should_men">--}}
-{{--                    <h2  --}}{{--class="f-s-18 f-c-gray f-w-9"--}}{{-- class="p-color-cement-dark font-weight-900 ">What should men wear for Onam?</h2><br>--}}
-{{--                    <p class="header4 p-color-cement">--}}
-{{--                        Finding the perfect attire for Onam was never this easy.--}}
-{{--                        Go for a simple dhoti with a golden border and a plain white shirt.--}}
-{{--                        Here simplicity is the key.--}}
-{{--                        Celebrate the opulence of Onam in this traditional look with pride and joy.--}}
-{{--                        Shop these exclusive dhotis at rebate going on right now for your Onam shopping online.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-
-{{--            <br>--}}
-{{--            <br>--}}
-{{--                <div>--}}
-{{--                <center><a href="{{route('customer.register')}}" class="btn btn-s-r btn-a-l btn-b-r" target="_blank">Sign Up Now for FREE!</a></center>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
+        </div>
     </section>
     <section class="chris-benefits">
         <div class="container" >
@@ -602,6 +505,7 @@
     </section>
     <br>
     <br>
+
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">

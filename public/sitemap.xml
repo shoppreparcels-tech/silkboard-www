@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
@@ -91,9 +91,9 @@
     <priority>0.70</priority>
 </url>
 <url>
-<loc>https://www.shoppre.com/diwali-offer</loc>
-<changefreq>daily</changefreq>
-<priority>0.78</priority>
+    <loc>https://www.shoppre.com/diwali-offer</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.78</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/send-international-courier-from-india</loc>
@@ -101,19 +101,24 @@
     <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.shoppre.com/indian-diwali-sweets-dryfruits-internatioanl-delivery</loc>
-<changefreq>daily</changefreq>
-<priority>0.85</priority>
+    <loc>https://www.shoppre.com/indian-diwali-sweets-dryfruits-internatioanl-delivery</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
 </url>
 <url>
-<loc>https://www.shoppre.com/flipkart-online-shopping</loc>
-<changefreq>daily</changefreq>
-<priority>0.82</priority>
+    <loc>https://www.shoppre.com/indian-diwali-sweets-dryfruits-free-internatioanl-delivery</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
 </url>
 <url>
-<loc>https://www.shoppre.com/ajio-online-shopping</loc>
-<changefreq>daily</changefreq>
-<priority>0.82</priority>
+    <loc>https://www.shoppre.com/flipkart-online-shopping</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.82</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/ajio-online-shopping</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.82</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/myntra-online-shopping</loc>
@@ -151,9 +156,9 @@
     <priority>0.72</priority>
 </url>
 <url>
-<loc>https://www.shoppre.com/pepperfry-online-shopping</loc>
-<changefreq>daily</changefreq>
-<priority>0.72</priority>
+    <loc>https://www.shoppre.com/pepperfry-online-shopping</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.72</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/fabindia-online-shopping</loc>
@@ -176,9 +181,9 @@
   <priority>0.60</priority>
 </url>
 <url>
-<loc>https://www.shoppre.com/personal-shopper-shopping-concierge-from-india</loc>
-<changefreq>daily</changefreq>
-<priority>0.90</priority>
+    <loc>https://www.shoppre.com/personal-shopper-shopping-concierge-from-india</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
 </url>
 <url>
   <loc>https://www.shoppre.com/dtdc</loc>
@@ -670,6 +675,11 @@
   <loc>https://www.shoppre.com/country-guide</loc>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
+</url>
+<url>
+    <loc>https://www.shoppre.com/countries</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.50</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/ja-jp</loc>

@@ -1009,7 +1009,7 @@
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 147px;">
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">250 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">251 Google Reviews</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787 ">Shipping and Delivery Service</p>
@@ -1368,8 +1368,8 @@
                                         href="https://ship.shoppre.com/get-6-essential-puja-articles-for-ganesh-puja-from-india/">Buy Puja Items Online</a></span>
                             </li><li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="haircare"><span><a
                                         href="https://ship.shoppre.com/six-hairstyling-products-that-you-need-in-your-life-for-the-studly-look-strawberrynet/" target="_blank">Haircare & Styling Products</a></span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Yoga Organic Clothing"><span><a
-                                        href="https://ship.shoppre.com/products-on-sale-pure-organic-yoga-clothing-and-products-made-in-india/" target="_blank">Yoga Organic Clothing Sale</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="sweets delivery"><span><a
+                                        href="/indian-diwali-sweets-dryfruits-free-internatioanl-delivery" target="_blank">Indian Sweets Shopping</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="maxi dresses"><span><a
                                         href="/myntra-women-maxi-dresses-international-shipping">Maxi Dresses for Women</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="craftsvilla"><span><a
@@ -1383,18 +1383,18 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="diwali"><span><a
-                                        href="/diwali-offer">Diwali Offer</a></span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
-                                        href="/onam-community-shipping-offer">Onam Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="new year"><span><a
+                                        href="/new-year-offer" target="_blank">New Year Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="shop ship"><span><a
                                         href="/shop-ship">Shop & Ship Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="student"><span><a
                                         href="/university-offer">Student Special Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="easter"><span><a
-                                        href="/easter-shopping-from-india-with-international-shipping">Easter Offer</a></span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="new year"><span><a
-                                        href="/new-year-offer" target="_blank">New Year Offer</a></span></li>
+                                        href="/send-valentines-day-gifts-international-shipping">Valentine’s Day Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
+                                        href="/onam-community-shipping-offer">Onam Shipping Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="diwali"><span><a
+                                        href="/diwali-offer">Diwali Shipping Offer</a></span></li>
                         </ul>
                     </div>
                 </div>

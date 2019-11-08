@@ -80,6 +80,7 @@
     </style>
 
 @endsection
+
 @section('content')
     <section class="first-time-shipment header-section" style="padding-top: 50px !important;">
         <div class="container no-padding banner">

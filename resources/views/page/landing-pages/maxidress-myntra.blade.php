@@ -226,7 +226,7 @@
                         <a href="https://www.myntra.com/dresses/nayo/nayo-women-black-solid-maxi-dress/7723403/buy" target="_blank">
                             <img class="img-product m-t-img" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7723403/2018/11/12/b6938891-c168-444c-ab87-2ee2230af79f1542013784945-Nayo-Women-Dresses-5761542013784748-1.jpg">
                             <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
-                                ₹1299/-
+                                ₹999/-
                             </div>
                         </a>
                     </div>

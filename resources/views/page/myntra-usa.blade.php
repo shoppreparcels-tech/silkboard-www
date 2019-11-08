@@ -129,7 +129,7 @@
                 <h4 class="f-s-18 f-c-gray f-w-9">How to do you shop from Myntra as an international customer?</h4>
                 <br>
                 <p class="header4 p-color-cement">If you are still puzzled about how you can order from Myntra as an NRI/PIO, and get your package shipped at your doorsteps abroad.
-                    Then fret no more, here are some easy peasy steps that you can follow and shop for your beloved brands and products.
+                    Then fret no more, here are some easy peasy steps that you can follow and <u><a href="/myntra-online-shopping" target="_blank">shop for your beloved brands and products</a></u>.
                 </p>
                 <br>
                 <ul class="header4 p-color-cement">

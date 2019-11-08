@@ -110,7 +110,7 @@
                 <br>
                 <h4 class="f-s-18 f-c-gray f-w-9">Love doing Flipkart shopping from USA?</h4>
                 <br>
-                <p class="header4 p-color-cement">We are sure you do. With a wide range of fashion clothing, home appliances, electronics, and much more, everyone is bound to shop from this humongous e-commerce website. And with all the sales and discounts it offers are like the cherry on the top. So do all the Flipkart shopping from USA with us.
+                <p class="header4 p-color-cement">We are sure you do. With a wide range of fashion clothing, home appliances, electronics, and much more, everyone is bound to shop from this humongous e-commerce website. And with all the sales and discounts it offers are like the cherry on the top. So do all the <b>Flipkart shopping from USA</b> with us.
                 </p>
                 <br>
                 <h4 class="f-s-18 f-c-gray f-w-9">Does Flipkart ship to USA?</h4>
@@ -154,7 +154,7 @@
                 </div>
                 <br>
                 <div>
-                <center><a href="https://www.flipkart.com/" target="_blank" class="btn btn-s-r btn-a-l btn-b-r">Shop Flipkart.com</a></center>
+                <center><a href="/flipkart-online-shopping" target="_blank" class="btn btn-s-r btn-a-l btn-b-r">Shop Flipkart.com</a></center>
                 </div>
 
             </div>
@@ -163,26 +163,34 @@
     <section class="chris-benefits">
         <div class="container" >
             <center>
-                <h1 class="header1 p-color-cement-dark">Featured Services & Benefits</h1>
+                <h1 class="header1 p-color-cement-dark">Top Indian Stores Shipping To The USA with ShoppRe</h1>
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personal Shopper</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>20-Day Free Storage</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Consolidation</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Repackaging</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/myntra-international-shipping-to-usa">Myntra Online Fashion Store</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/shop-from-amazon-india-and-ship-to-usa">Amazon.in Online Shopping</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/trends-ajio-usa-shipping-from-india">AJIO Fashion Trends</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/fabindia-online-shopping">Fabindia Handcrafted Products‎</a></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Flipkart Shipping Address</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Country-discount</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/firstcry-international-shipping-usa">Baby & Kids Online Shopping</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/jaypore-shopping-usa">Jaypore Handpicked Products</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/pepperfry-online-shopping">Pepperfry Home Decor</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/nykaa-online-shopping">Nykaa Online Beauty Store</a></span></li>
 
                         </ul>
                     </div>
@@ -190,10 +198,14 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Photo Updates</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Wallet Cashback</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Package Return Services</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Product Recommendations</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/limeroad-online-shopping">Limeroad Fashion Clothing</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/lifestylestores-online-shopping">Lifestyle Stores Shopping</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/tatacliq-online-shopping">Tata CLiQ Online Shopping</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/myntra-women-maxi-dresses-international-shipping">Maxi Dresses For Women</a></span></li>
                         </ul>
                     </div>
                 </div>
@@ -201,7 +213,9 @@
             </div>
         </div>
     </section>
-
+    <br>
+    <br>
+    <br>
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">
@@ -287,44 +301,6 @@
     </section>
 @endsection
 
-@section('js_script')
-    <script>
-        $(document).ready(function () {
-            $("#diwali_coupon").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    debugger;
-                    var email = $("input[name='email']").val();
-                    var pnumber = $("input[name='pnumber']").val();
-                    var cnumber = $("[name='country_code']").val();
-                    var token = $('input[name=_token]').val();
-                    jQuery.ajax({
-                        url: 'new-year-offer',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            email: email,
-                            pnumber: pnumber,
-                            cnumber: cnumber,
-                        },
-                        success: function (data) {
-                            var url= "{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?email=" + email + "&c_code="+ cnumber +"&PN="+ pnumber ;
-                            console.log(data);
-                            // window.open(url);
-                            window.location.href = url;
+{{--@section('js_script')--}}
 
-                        }
-                    })
-                }
-            });
-
-        });
-    </script>
-@endsection
+{{--@endsection--}}
