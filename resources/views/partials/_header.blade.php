@@ -1,7 +1,6 @@
 <!-- Start Header section-->
-
-<header class="nav-h-shadow s-header-fixed " role="banner">
-    <div class="container-fluid c-f-p ">
+<header class="nav-h-shadow s-header-fixed" role="banner">
+    <div class="container-fluid c-f-p">
         <nav class="navbar navbar-inverse">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle x collapsed" data-toggle="collapse"
@@ -38,7 +37,7 @@
                 <ul class="nav navbar-nav">
                     <li class="dropdown mega-dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
-                        <ul class="dropdown-menu mega-dropdown-menu-about mega-menu-padding-left">
+                        <ul class="dropdown-menu mega-dropdown-menu-about mega-menu-padding-left menu-content-service">
                             <li class="col-md-7 col-sm-7" style="padding-left: 0px;padding-right: 0px">
                                 <ul>
                                     <li class="dropdown-header mega-menu-header-text">
@@ -96,7 +95,7 @@
                     </li>
                     <li class="dropdown mega-dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
-                        <ul class="dropdown-menu mega-dropdown-menu mega-menu-padding-left">
+                        <ul class="dropdown-menu mega-dropdown-menu mega-menu-padding-left menu-content-service">
                             <li class="col-sm-3">
                                 <ul>
                                     <li class="dropdown-header mega-menu-header-text">
@@ -200,10 +199,20 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="{{route('offers-new.index')}}">Offers </a></li>
+                    <li><a href="{{route('offers-new.index')}}" class="shoppre-offers">Offers </a></li>
                     <li><a href="{{route('pricing')}}">Shipping Rates <sup class="p-color-red" style="font-size: 8px" id="offer">New</sup></a></li>
-                    <li><a href="{{route('contact')}}">Support</a></li>
-                    <li><a href="https://www.shoppre.com/seller-partner">Seller Partner</a></li>
+                    <li><a href="{{route('contact')}}" class="shoppre-support">Support</a></li>
+                    <li><a href="https://www.shoppre.com/seller-partner" class="shoppre-partner">Seller Partner</a></li>
+                    <li>
+                        <div class="dropdown ddl-more-option">
+                            <button class="dropbtn">More <span class="caret"></span></button>
+                            <div class="dropdown-content">
+                                <a href="{{route('offers-new.index')}}">Offers</a>
+                                <a href="{{route('contact')}}">Support</a>
+                                <a href="https://www.shoppre.com/seller-partner">Seller Partner</a>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
                 <div id="ajax_login_block" style="display: none">
                 <ul class="nav navbar-nav navbar-right " id="header-ul" >
