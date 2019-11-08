@@ -1009,7 +1009,7 @@
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 147px;">
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">251 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">252 Google Reviews</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787 ">Shipping and Delivery Service</p>
@@ -1374,8 +1374,8 @@
                                         href="/myntra-women-maxi-dresses-international-shipping">Maxi Dresses for Women</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="craftsvilla"><span><a
                                         href="https://ship.shoppre.com/8-gorgeously-elegant-sarees-for-every-occasion-to-flaunt-your-curves-craftsvilla-handpicked-for-you/" target="_blank">Sarees Online Shopping</a> </span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="smartphone"><span><a
-                                        href="https://ship.shoppre.com/best-smartphones-the-top-6-latest-mobile-phones-in-india-for-2019/" target="_blank">Best Smartphones 2019</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="rakhi"><span><a
+                                        href="/send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank">Send Rakhi & Gifts 2020</a></span></li>
 
                         </ul>
                     </div>

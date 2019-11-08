@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'Rakhi International Courier from India | USA, Canada, Australia')
-@section('description', '')
+@section('title', 'International Rakhi Delivery from India, Cheap Shipping Cost')
+@section('description', 'International Rakhi Delivery from India. Send with gifts to your brother or sister for Raksha Bandhan at cheap rates. Save Up to 80% on 3-6 day shipping.')
 @section('keywords', 'how to send rakhi online, send rakhi within usa free shipping, raksha bandhan, rakhi courier india')
 
 @section('css_style')
@@ -13,6 +13,7 @@
     </style>
 
 @endsection
+
 @section('content')
     <section class="first-time-shipment">
         <div class="container no-padding">
@@ -31,7 +32,7 @@
                    <br>
                    <br>
                    <br>
-                   <p class="f-s-15 f-c-l-gray f-w-8">From 15th July to 25th August 2019</p>
+{{--                   <p class="f-s-15 f-c-l-gray f-w-8">From 15th July to 25th August 2019</p>--}}
 
                </center>
            </div>
@@ -41,6 +42,7 @@
 
         </div>
     </section>
+
     <section >
         <div class="container fst-service">
             <div class="row">
@@ -62,10 +64,11 @@
                             UAE
                         </div>
                         <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                            Starts from ₹316/-
+                            Starts from ₹566/-
                         </div>
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-uae-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+{{--                                    <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-uae-from-india/" target="_blank"> <span class="elementor-icon-list-icon">--}}
                                 <i class="fa fa-plane" aria-hidden="true"></i>
                                 </span>
                                 <span class="elementor-icon-list-text txt-u-l">Send Rakhi to UAE from India</span>
@@ -79,10 +82,11 @@
                             USA
                         </div>
                         <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                            Starts from ₹1199/-
+                            Starts from ₹1449/-
                         </div>
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-usa-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
+{{--                            <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-usa-from-india/" target="_blank">--}}
+                                <a href="https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                 <i class="fa fa-plane" aria-hidden="true"></i>
                                 </span>
                                 <span class="elementor-icon-list-text txt-u-l">Send Rakhi to USA from India</span>
@@ -96,10 +100,11 @@
                             Australia
                         </div>
                         <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                            Starts from ₹1199/-
+                            Starts from ₹1499/-
                         </div>
                         <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-australia-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
+{{--                            <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-australia-from-india/" target="_blank">--}}
+                            <a href="https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                 <i class="fa fa-plane" aria-hidden="true"></i>
                                 </span>
                                 <span class="elementor-icon-list-text txt-u-l">Send Rakhi to AUS from India</span>
@@ -113,10 +118,11 @@
                                Switzerland
                            </div>
                            <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                               Starts from ₹1306/-
+                               Starts from ₹1556/-
                            </div>
                            <div class="col-md-12 col-xs-12 no-pad">
-                               <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-switzerland-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
+{{--                               <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-switzerland-from-india/" target="_blank">--}}
+                               <a href="https://www.shoppre.com/international-courier-charges-india-to-switzerland-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                    <i class="fa fa-plane" aria-hidden="true"></i>
                                    </span>
                                    <span class="elementor-icon-list-text txt-u-l">Send Rakhi to Swiss from India</span>
@@ -127,16 +133,17 @@
                 <div class="col-sm-4 col-xs-12 col-md-4">
                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                           UK
+                           Singapore
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                           Starts from ₹1306/-
+                           Starts from ₹939/-
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad">
-                           <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-uk-europe-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
+{{--                           <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-uk-europe-from-india/" target="_blank">--}}
+                           <a href="https://www.shoppre.com/international-courier-charges-india-to-singapore-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
-                               <span class="elementor-icon-list-text txt-u-l">Send Rakhi to UK from India</span>
+                               <span class="elementor-icon-list-text txt-u-l">Send Rakhi to SG from India</span>
                            </a>
                        </div>
                    </div>
@@ -144,16 +151,17 @@
                 <div class="col-sm-4 col-xs-12 col-md-4">
                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                           Germany
+                           Malaysia
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                           Starts from ₹1306/-
+                           Starts from ₹1661/-
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad">
-                           <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-germany-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
+{{--                           <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-germany-from-india/" target="_blank">--}}
+                                   <a href="https://www.shoppre.com/international-courier-charges-india-to-malaysia-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
-                               <span class="elementor-icon-list-text txt-u-l">Send Rakhi to DEU from India</span>
+                               <span class="elementor-icon-list-text txt-u-l">Send Rakhi to MY from India</span>
                            </a>
                        </div>
                    </div>
@@ -164,10 +172,11 @@
                            Canada
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                           Starts from ₹1344/-
+                           Starts from ₹1594/-
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad">
-                           <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-canada-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
+{{--                           <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-canada-from-india/" target="_blank">--}}
+                               <a href="https://www.shoppre.com/international-courier-charges-india-to-canada-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
                                <span class="elementor-icon-list-text txt-u-l">Send Rakhi to CA from India</span>
@@ -178,16 +187,17 @@
                 <div class="col-sm-4 col-xs-12 col-md-4">
                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                           Japan
+                           Mexico
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                           Starts from ₹1413/-
+                           Starts from ₹1448/-
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad">
-                           <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-japan-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
+{{--                           <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-japan-from-india/" target="_blank"> --}}
+                               <a href="https://www.shoppre.com/international-courier-charges-india-to-mexico-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
-                               <span class="elementor-icon-list-text txt-u-l">Send Rakhi to Japan from India</span>
+                               <span class="elementor-icon-list-text txt-u-l">Send Rakhi to Mexico from India</span>
                            </a>
                        </div>
                    </div>
@@ -195,16 +205,17 @@
                 <div class="col-sm-4 col-xs-12 col-md-4">
                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                           Mauritius
+                           S.Arabia
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                           Starts from ₹1837/-
+                           Starts from ₹1517/-
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad">
-                           <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-mauritius-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
+{{--                           <a href="https://ship.shoppre.com/cheapest-way-to-send-rakhi-to-mauritius-from-india/" target="_blank">--}}
+                           <a href="https://www.shoppre.com/international-courier-charges-india-to-saudi-arabia-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
-                               <span class="elementor-icon-list-text txt-u-l">Send Rakhi to MU from India</span>
+                               <span class="elementor-icon-list-text txt-u-l">Send Rakhi to SA from India</span>
                            </a>
                        </div>
                    </div>
@@ -240,7 +251,7 @@
                 <br>
                 <p class="header4 p-color-cement">With us, you can easily ship your rakhis and gifts with lots of love to the USA or anywhere abroad without much anxiety. We do all that for you. You just have to Sign-up on ShoppRe and request a pickup and then we take it from there. You get informed on every step of the process so that you can easily track it.
                     You can choose rakhis and rakhi gifts for your brother from the plethora of rakhis and gift options suggested on our website or from any Indian Stores. From funky to traditional, you will find every type of rakhi you are looking for. We also offer uncomparable shipping rates that are as low as 80%. So you can send rakhi to
-                    <a href="https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg" target="_blank">the USA at cheap prices</a>.
+                    <a href="/cheap-and-fast-shipping-service-from-india-to-usa" target="_blank">the USA at cheap rates</a>.
                 </p>
                 <br>
             <br>
@@ -255,7 +266,7 @@
     <section class="chris-benefits">
         <div class="container" >
             <center>
-                <h2 class="header1 p-color-cement-dark font-30">Featured Services & Benefits</h2>
+                <h2 class="header1 p-color-cement-dark font-30">ShoppRe Services & Benefits</h2>
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
@@ -293,6 +304,61 @@
             </div>
         </div>
     </section>
+
+    <section class="chris-benefits">
+
+        <div class="container" >
+            <center>
+                <h1 class="header1 p-color-cement-dark">Shop Indian Stores and Ship Worldwide with ShoppRe</h1>
+            </center>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/myntra-online-shopping">Myntra Online Fashion Store</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/amazon-online-shopping">Amazon.in Online Shopping</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/ajio-online-shopping">AJIO Fashion Trends</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/fabindia-online-shopping">Fabindia Handcrafted Products‎</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/firstcry-online-shopping">Baby & Kids Online Shopping</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/flipkart-online-shopping">Online Shopping Flipkart</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/pepperfry-online-shopping">Pepperfry Home Decor</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/nykaa-online-shopping">Nykaa Online Beauty Store</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/limeroad-online-shopping">Limeroad Fashion Clothing</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/lifestylestores-online-shopping">Lifestyle Stores Shopping</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/tatacliq-online-shopping">Tata CLiQ Online Shopping</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" ><span><a
+                                        href="/shoppersstop-online-shopping">Shoppers Stop Shopping</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <br/><br/>
+            </div>
+        </div>
+    </section>
+    <br><br>
 `
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">

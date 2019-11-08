@@ -531,6 +531,10 @@ class PageController extends Controller
     {
         return view('page.landing-pages.maxidress-myntra');
     }
+    public function kurtisMyntra()
+    {
+        return view('page.landing-pages.kurtis-myntra');
+    }
 
     public function diwaliOffer() {
         return view('page.landing-pages.diwali');

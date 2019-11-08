@@ -693,6 +693,7 @@ Route::get('/shoppersstop-online-shopping', 'PageController@shoppersstopProduct'
 
 /*-------- Ecommerce Category Product Landing Pages ------*/
 Route::get('/myntra-women-maxi-dresses-international-shipping', 'PageController@maxidressMyntra')->name('maxidress-myntra');
+Route::get('/myntra-women-kurta-kurtis-international-shipping', 'PageController@kurtisMyntra')->name('kurtis-myntra');
 
 
 /*-------- Festival Sale Landing Pages ------*/
