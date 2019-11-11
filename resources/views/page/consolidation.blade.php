@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'What is Package Consolidation & How to Save on Shipping Costs? - ShoppRe.com')
+@section('title', 'What is Package Consolidation & How to Save on Shipping Costs?')
 @section('description', 'ShoppRe package consolidation service helps in combining your packages purchased from multiple Indian stores into one shipment and saving upto 60-80% on shipping costs.')
 @section('keywords', 'shoppre, consolidation service, save on shipping costs, multiple stores, combine packages')
 
@@ -29,21 +29,18 @@
   "@context": "http://www.schema.org",
   "@type": "Website",
   "name": "ShoppRe",
-  "alternateName": "What Is ShoppRe Package Consolidation",
+  "alternateName": "ShoppRe Package Consolidation",
   "url": "https://www.shoppre.com/consolidation-service",
   "image": "https://www.shoppre.com/img/logo.png",
-  "description": "ShoppRe package consolidation service helps in combining your packages purchased from multiple Indian stores into one shipment and saving upto 60-80% on international and domestic shipping costs.",
+  "description": "ShoppRe package consolidation service helps in combining your packages purchased from multiple Indian stores into one shipment. Saving upto 80% on international shipping costs.",
     "sameAs": [
     "https://www.facebook.com/goshoppre/",
     "https://twitter.com/Go_Shoppre",
-    "https://plus.google.com/+SHOPPRECOM",
     "https://www.instagram.com/shoppre_official",
     "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
     "https://www.linkedin.com/company/shoppre.com",
     "https://in.pinterest.com/shoppre",
-    "https://goo.gl/maps/uuZy4tMs8582",
-    "https://play.google.com/store/apps/details?id=com.shoppre.play",
-    "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
+    "https://play.google.com/store/apps/details?id=com.shoppre.play"
   ]
 }
 </script>
@@ -63,7 +60,7 @@
               <li>Require added protection and security if it is inadequately  packed for  international shipping.</li>
               <li>Have high volumetric weight than the actual weight.</li>
               <li>We will repack each package to reduce the  weight, which will reduce your  shipping cost .Original package contents are not compromised by repackaging.</li>
-              <li>If you don't wish for your shipments to be repacked, you can set that preference in <a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/shipping-preferences" class="text-orange">your account</a>.</li>
+              <li>If you don't wish for your shipments to be repacked, you can set that preference in your account.</li>
             </ul>
           </div>
           <div class="col-sm-6 repack_box">
@@ -79,7 +76,7 @@
     </section>
     <section class="price_service">
         <div class="container">
-            <h2>Shoppre's consolidation service</h2>
+            <h2>ShoppRe's consolidation service</h2>
             <!-- <h3>which helps you save on international shipping rates!</h3> -->
             <p>Combine your packages from multiple stores to one tracking number,<br>
             and save upto 60% - 80% on shipping rates!</p>

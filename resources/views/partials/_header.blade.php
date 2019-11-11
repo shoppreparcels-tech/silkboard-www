@@ -171,7 +171,7 @@
                                     </li>
                                     <div class="">
                                         <p class="header6 p-color-cement">Have you always been a fan of Indian products & brands? Shop from
-                                            <span style="color:#e056ef">Amazon India, Flipkart, Myntra, Jabong</span>
+                                            <span style="color:#e056ef">Amazon India, Flipkart, Myntra, AJIO</span>
                                             & more, and we’ll get it to your address abroad.</p>
                                         <a href="{{route('stores1')}}" class="mega-menu-hyperlinks" >
                                             Browse Stores

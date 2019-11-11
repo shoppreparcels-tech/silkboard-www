@@ -34,7 +34,7 @@
             {
             "@context": "http://schema.org",
             "@type": "WebPage",
-                "name": "Shop Indian Stores and Ship Internationally",
+                "name": "Shop Indian Stores and Ship Worldwide",
                 "description": "Online Shopping in India and International Shipping from India",
             "image": {
             "@type": "ImageObject",
@@ -60,6 +60,7 @@
                     "https://www.shoppre.com/shop-ship",
                     "https://www.shoppre.com/personal-shopper-shopping-concierge-from-india",
                     "https://www.shoppre.com/indian-online-stores",
+                    "https://www.google.com/maps?cid=13915328524053812211",
                     "https://www.pinterest.com/shoppre"],
             "image": {
             "@type": "ImageObject",
@@ -78,7 +79,7 @@
             },
             "location": {
             "@type": "Place",
-                "name": "Shop from ANY Indian Store, Ship Worldwide - ShoppRe.com",
+                "name": "ShoppRe - Online Shopping India International Shipping",
                 "hasMap": "https://g.page/OnlineShoppingIndia",
                 "telephone": "+918277919191",
             "geo": {

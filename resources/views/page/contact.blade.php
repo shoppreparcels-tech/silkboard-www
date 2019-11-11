@@ -54,11 +54,11 @@
       },
       "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "12.9257998",
-    "longitude": "77.635445"
+    "latitude": "12.925785",
+    "longitude": "77.635567"
      },
-      "description": "International Shipping, Domestic Courier Service and Parcel Forwarding India",
-      "name": "ShoppRe.com - Your Global Shipping Partner From INDIA",
+      "description": "International Shipping, Courier Service and Parcel Forwarding India",
+      "name": "Cheap & Fast International Shipping from India - ShoppRe.com",
       "telephone": "080 4094 4077",
       "openingHoursSpecification": [
     {
@@ -72,8 +72,8 @@
         "Saturday",
         "Sunday"
       ],
-      "opens": "00:00",
-      "closes": "23:59"
+      "opens": "08:00",
+      "closes": "22:30"
     }
    ]
  }

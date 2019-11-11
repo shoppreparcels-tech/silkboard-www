@@ -181,6 +181,11 @@
     <priority>0.69</priority>
 </url>
 <url>
+    <loc>https://www.shoppre.com/wedding-sarees-women-clothing-international-shipping</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.69</priority>
+</url>
+<url>
   <loc>https://www.shoppre.com/dhl</loc>
   <changefreq>daily</changefreq>
   <priority>0.60</priority>
@@ -1594,7 +1599,7 @@
 <url>
   <loc>https://www.shoppre.com/consolidation-service</loc>
   <changefreq>daily</changefreq>
-  <priority>0.71</priority>
+  <priority>0.51</priority>
 </url>
 
 </urlset>
