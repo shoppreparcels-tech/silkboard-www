@@ -67,7 +67,7 @@
                     <li class="li"><a itemprop="url" class="footer-a" href="/terms-and-conditions">Terms & Conditions</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="/privacy-policy">Privacy Policy</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>
-                    <li class="li"><a class="footer-a" href="{{route('reviews')}}">Customer Reviews</a></li>
+                    <li class="li"><a class="footer-a" href="{{route('reviews')}}">ShoppRe Reviews</a></li>
                     <li class="li"><a class="footer-a" href="http://shoppretracking.aftership.com" target="_blank">Track Your Shipment</a></li>
                 </ul>
             </div>

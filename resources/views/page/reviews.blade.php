@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'ShoppRe.com Official | Customer Reviews & Ratings | ⭐4.8/5')
+@section('title', 'ShoppRe.com Official | Customer Reviews & Ratings | 4.8/5')
 @section('description', 'Read our latest Reviews & Ratings showcasing the excellent service, ship on time & quality of shipment. Share feedback about your shipping experiences with us.')
 @section('keywords', 'reviews, ratings, customer, shipping, shopping, service, india')
 
