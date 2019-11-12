@@ -1,11 +1,33 @@
 @extends('layout')
 
-@section('title', 'Best Shopping International Shipping from India | Personal Shopper')
-@section('description', 'Shopping now made easy with ShoppRe personal shopper. Hire one of our experts to shop for you and get shipped your packages doorstep worldwide. Sign Up today!')
-@section('keywords', 'personal shopper, virtual shipping address, online shopping from usa to india')
+@section('title', 'Best Shopping International Shipping from India | Shopper')
+@section('description', 'Shopping now made easy with ShoppRe Personal Shopper. Hire one of our experts to shop for you and get shipped your packages doorstep worldwide. Shop Now!')
+@section('keywords', 'personal shopper, virtual shipping address, online shopping from usa to india, assisted purchase, shopping concierge')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/personal-shopper-online-shopping-from-india-shipping" />
+
+    <script type="application/ld+json">
+        {
+         "@context": "https://schema.org",
+            "@type": "VideoObject",
+                "name": "Introducing Personal Shopper to Shop from India",
+                "description": "Hire one of our experts to shop for you. From your favorite Online Stores in India. Ship to over 220 destinations with Lowest economy shipping prices.",
+            "thumbnailUrl": [
+                "https://i.ytimg.com/vi/q5R63gFUREk/default.jpg"
+                  ],
+            "uploadDate": "2018-11-19T12:30:02.000Z",
+            "duration": "PT30S",
+                "contentUrl": "https://www.shoppre.com/personal-shopper-online-shopping-from-india-shipping",
+                "embedUrl": "https://www.youtube.com/embed/q5R63gFUREk",
+            "interactionStatistic": {
+                "@type": "InteractionCounter",
+                    "interactionType": { "@type": "http://schema.org/WatchAction" },
+                    "userInteractionCount": 669
+                }
+        }
+    </script>
+
     <style>
         .vid-h-w{height: 560px; width: 100%}
         .div-b-l-w ul li{list-style: none; color:#929ca5; font-weight: 700;font-size: 18px; }
@@ -68,7 +90,7 @@
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">
                    What our Personal Shoppers exist for, is to make the whole process of <a href="/shop-from-india-ship-worldwide">online shopping with international shipping</a> as easy & smooth as possible.
                </p> <br>
-               <h1 class="f-s-20 f-c-d-greay f-w-8 txt-a-l">Here's how we operate;</h1>
+               <h1 class="f-s-22 f-c-blue f-w-8 txt-a-l">Here's how we operate;</h1>
                <ul>
                    <li>1. You'd have to Sign Up with ShoppRe</li>
                    <br>
@@ -88,40 +110,80 @@
                    Personal Shoppers are the expert help you sure need.
                </p><br><br>
            </div>
-           <br>
-           <br>
        </div>
     </section>
-    <br>
-<section>
-    <div class="container">
-        <div class="col-md-3 col-sm-3 col-xs-6">
-            <ul class="nav-ul">
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="/amazon-india-shop-international-shipping">Amazon.in International Delivery</a></li>
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="/flipkart-shopping-with-shoppre-from-india">Flipkart.com International Delivery</a></li>
-            </ul>
-        </div>
-        <div class="col-md-3 col-sm-3 col-xs-6">
-            <ul class="nav-ul">
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="/myntra-online-shopping-shipping-from-india">Myntra.com International Delivery</a></li>
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="/ajio-online-shopping-international-shipping">Ajio.com International Delivery</a></li>
-            </ul>
-        </div>
-        <div class="col-md-3 col-sm-3 col-xs-6">
-            <ul class="nav-ul">
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="/jaypore-international-shipping-from-india">Jaypore.com International Delivery</a></li>
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="/limeroad-shopping-international-shipping">Limeroad International Delivery</a></li>
-            </ul>
-        </div>
-        <div class="col-md-3 col-sm-3 col-xs-6">
-            <ul class="nav-ul">
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="/etsy-international-shipping-from-india">Etsy.com International Delivery</a></li>
-                <li class="li"><a class="f-s-14 f-c-l-gray" href="/personal-shopper-india">Onlline Shopping Concierge Service</a></li>
-            </ul>
-        </div>
-    </div>
-</section>
+    <section class="chris-benefits">
+        <div class="container" >
+            <center>
+                <h1 class="f-s-26 f-c-blue f-w-8 txt-center">Top Indian Festivals Offers, Deals & Sale</h1>
+            </center>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Amazon Great Indian Festival"><span><a
+                                        href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">Great Indian Festival 2019</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big billion Days"><span><a
+                                        href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Big Billion Days Sale 2019</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Shopping Days"><span><a
+                                        href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Freedom Sale"><span><a
+                                        href="/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Flipstart Days"><span><a
+                                        href="/flipstart-days-avail-best-offers-on-flipkart-enjoy-special-discounts-for-the-first-three-days-of-every-month" target="_blank">Flipkart Flipstart Days</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="National Shopping Days"><span><a
+                                        href="/flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" target="_blank">National Shopping Days</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Right To Fashion"><span> <a
+                                        href="/myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" target="_blank">Myntra Right To Fashion Sale</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="puja"><span><a
+                                        href="https://ship.shoppre.com/get-6-essential-puja-articles-for-ganesh-puja-from-india/">Buy Puja Items Online</a></span>
+                            </li><li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Rakhi"><span><a
+                                        href="/send-rakhi-gifts-online-worldwide-at-cheap-rates">Rakhi Shipping fromIndia</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="kurta Clothing"><span><a
+                                        href="/myntra-women-kurta-kurtis-international-shipping" target="_blank">Women Kurta Shopping</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
+                                        href="/kerala-onam-online-shopping-guide-from-india">Onam online shopping</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="sarees"><span><a
+                                        href="/wedding-sarees-women-clothing-international-shipping" target="_blank">Sarees Online Shopping</a> </span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Stylish Polka dot dresses"><span><a
+                                        href="/myntra-women-maxi-dresses-international-shipping" target="_blank">Maxi Dresses for Women</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="best kurta set for men"><span><a
+                                        href="https://ship.shoppre.com/shop-for-these-stylish-trendy-kurta-sets-for-men-from-best-brands-myntra-india/" target="_blank">Best Kurta Set for Men</a></span></li>
 
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel ">
+                        <ul>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="new year"><span><a
+                                        href="/new-year-offer" target="_blank">New Year Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="frst50"><span><a
+                                        href="/first-time-international-shipment-offer" target="_blank">First Shipment Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="diwali"><span><a
+                                        href="/diwali-offer">Diwali Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="shop ship"><span><a
+                                        href="/shop-ship">Shop & Ship Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="student"><span><a
+                                        href="/university-offer">Student Special Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="easter"><span><a
+                                        href="/easter-shopping-from-india-with-international-shipping">Easter Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
+                                        href="/onam-community-shipping-offer">Onam Community Offer</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <br/><br/>
+            </div>
+        </div>
+    </section>
+    <br>
     <br>
     <br>
 @endsection

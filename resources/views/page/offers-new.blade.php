@@ -422,7 +422,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
                                         href="/kerala-onam-online-shopping-guide-from-india">Onam online shopping</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="sarees"><span><a
-                                        href="https://ship.shoppre.com/8-gorgeously-elegant-sarees-for-every-occasion-to-flaunt-your-curves-craftsvilla-handpicked-for-you/" target="_blank">Sarees Online Shopping</a> </span></li>
+                                        href="/wedding-sarees-women-clothing-international-shipping" target="_blank">Sarees Online Shopping</a> </span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Stylish Polka dot dresses"><span><a
                                         href="/myntra-women-maxi-dresses-international-shipping" target="_blank">Maxi Dresses for Women</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="best kurta set for men"><span><a

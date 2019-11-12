@@ -1,63 +1,73 @@
 @extends('layout')
 
-
-@section('title', 'New Year Offer - ShoppRe.com')
+@section('title', '2020 New Year Offer - ShoppRe.com International Shipping')
 @section('description', '')
-@section('keywords', '')
+@section('keywords', '2020, shipping offer, new year, discount, cashback, india, shoppre')
 
 @section('css_style')
+
+    <link rel="canonical" href="https://www.shoppre.com/new-year-offer" />
+
     <style>
-        .bg-christmas-landing-page{background-image:url({{env('AWS_CLOUD_FRONT')}}/img/images/background_newyear.png);height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.bg-christmas-landing-page .div-snow{padding-top:189px}.bg-christmas-landing-page .div-snow img{position:absolute}.bg-christmas-landing-page .div-newyear{padding-top:155px}.bg-christmas-landing-page .div-newyear img{margin-left:-139px;position:absolute}.textbox-email{width:358px;height:50px;box-shadow:0 1px 2px rgba(0,0,0,.2);border-radius:25px!important;background-color:#fff;border:0;padding-left:9%}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}.christmas-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-360px;padding:20px}.christmas-service .c-image{padding:20px}.christmas-service .shopandship{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#ff7c5b 0,#e8517a 100%)}.christmas-service .ps{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#4df696 0,#50bc70 100%)}.christmas-service .ic{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(229deg,#27cbff 0,#2aa1d5 100%)}.christmas-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.christmas-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.christmas-service .btn-chris-place-order{padding:13px 50px;color:#fff;width:300px;height:50px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:30px;background-color:#e85151}.chris-benefits{padding-top:30px}.chris-benefits ul{text-decoration:none;list-style:none}.chris-benefits ul li{color:#224464;font-family:Bahnschrift;font-size:18px;font-weight:400;text-align:left;padding-top:15px}.chris-benefits ul li img{margin-top:9px}.text-center div{padding-top:20px}.img-new-year{display:none}.chris-benefits .panel{box-shadow:0 2px 10px rgba(0,0,0,.05)!important}.chris-benefits .panel ul li span{margin-left:15px}.leter-space{letter-spacing:1px}#contact-support{padding-bottom:30px}.select-control{float:left;width:90px!important;height:40px!important;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:3px;background-color:#fafafb;border:none}.select2-container--default .select2-selection--single{background-color:#fff!important;border:none!important;border-radius:4px!important;height:40px!important;padding-top:5px!important}.select2-container--default .select2-selection--single .select2-selection__arrow b{margin-top:4px!important}@media only screen and (max-width:600px){.textbox-email{width:330px}.div-snow{display:none}.div-newyear{display:none}.christmas-service{margin-top:-260px}.c-image{display:none}.txt-align{text-align:center}.img-new-year{display:block;width:240px}.chris-benefits ul li{font-size:16px}}
+        .bg-christmas-landing-page{background-image:url({{env('AWS_CLOUD_FRONT')}}/img/images/background_newyear.png);height:813px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.bg-christmas-landing-page .div-snow{padding-top:189px}.bg-christmas-landing-page .div-snow img{position:absolute}.bg-christmas-landing-page .div-newyear{padding-top:155px}.bg-christmas-landing-page .div-newyear img{margin-left:-139px;position:absolute}.textbox-email{width:358px;height:50px;box-shadow:0 1px 2px rgba(0,0,0,.2);border-radius:25px!important;background-color:#fff;border:0;padding-left:9%}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}.christmas-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-360px;padding:20px}.christmas-service .c-image{padding:20px}.christmas-service .shopandship{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#ff7c5b 0,#e8517a 100%)}.christmas-service .ps{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#4df696 0,#50bc70 100%)}.christmas-service .ic{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(229deg,#27cbff 0,#2aa1d5 100%)}.christmas-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.christmas-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.christmas-service .btn-chris-place-order{padding:13px 50px;color:#fff;width:300px;height:50px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:30px;background-color:#e85151}.chris-benefits{padding-top:30px}.chris-benefits ul{text-decoration:none;list-style:none}.chris-benefits ul li{color:#224464;font-family:Bahnschrift;font-size:18px;font-weight:400;text-align:left;padding-top:15px}.chris-benefits ul li img{margin-top:9px}.text-center div{padding-top:20px}.img-new-year{display:none}.chris-benefits .panel{box-shadow:0 2px 10px rgba(0,0,0,.05)!important}.chris-benefits .panel ul li span{margin-left:15px}.leter-space{letter-spacing:1px}#contact-support{padding-bottom:30px}.select-control{float:left;width:90px!important;height:40px!important;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:3px;background-color:#fafafb;border:none}.select2-container--default .select2-selection--single{background-color:#fff!important;border:none!important;border-radius:4px!important;height:40px!important;padding-top:5px!important}.select2-container--default .select2-selection--single .select2-selection__arrow b{margin-top:4px!important}@media only screen and (max-width:600px){.textbox-email{width:330px}.div-snow{display:none}.div-newyear{display:none}.christmas-service{margin-top:-410px}.c-image{display:none}.txt-align{text-align:center}.img-new-year{display:block;width:240px}.chris-benefits ul li{font-size:16px}}
     </style>
 
 @endsection
+
 @section('content')
     <section class="bg-christmas-landing-page">
         <div class="container no-padding">
            <div class="col-md-2 div-snow">
-               <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/snowman.png" alt="">
+{{--               <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/snowman.png" alt="">--}}
            </div>
            <div class="col-md-8 col-xs-12 no-padding">
                <center>
-                   <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/newyear_image.png" alt="" class="img-new-year">
+{{--                   <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/newyear_image.png" alt="" class="img-new-year">--}}
+                   <br>
                    <h18 class="f-s-18 f-c-yellow font-weight-900">Save upto 80% on international shipping + Get an additional 19% for this New Year!</h18>
                    <h1 class="p-color-white header-spacing header1 ">Shop From India, Ship Worldwide </h1>
                    <h2 class="header2 p-color-white header-spacing font-weight-900">Shipping Starts from ₹690/-</h2>
-                   <form action=""  method="post" id="diwali_coupon">
-                       {{csrf_field()}}
-                       <div class="" id="diwali-couponcode1">
-                           <br>
-                           <div class="form-group">
-                               <input type="email" name="email" class="b-r-3 txt-xl txt-shadow txt-pad"
-                                      placeholder="Enter a valid E-mail ID" required>
-                           </div>
-                           <div class="form-group">
 
-                               <select class="select2 select-control" name="country_code" >
-                                   <option value="91">IN(+91)</option>
-                                   @foreach($countries as $country)
-                                       <option value="{{$country->phone_code}}">{{$country->iso}}(+{{$country->phone_code}})
-                                       </option>
-                                   @endforeach
-                               </select>
-                                {{--<input type="number" name="email" class="b-r-3 txt-m txt-shadow txt-pad"--}}
-                                          {{--placeholder="Enter a valid E-mail ID" required>--}}
-                               <input type="text" name="pnumber" class="b-r-3 txt-l txt-shadow txt-pad" pattern="^[0-9]"
-                                      placeholder="Phone Number" required>
+{{--                   <form action=""  method="post" id="diwali_coupon">--}}
+{{--                       {{csrf_field()}}--}}
+{{--                       <div class="" id="diwali-couponcode1">--}}
+{{--                           <br>--}}
+{{--                           <div class="form-group">--}}
+{{--                               <input type="email" name="email" class="b-r-3 txt-xl txt-shadow txt-pad"--}}
+{{--                                      placeholder="Enter a valid E-mail ID" required>--}}
+{{--                           </div>--}}
+{{--                           <div class="form-group">--}}
 
-                           </div>
+{{--                               <select class="select2 select-control" name="country_code" >--}}
+{{--                                   <option value="91">IN(+91)</option>--}}
+{{--                                   @foreach($countries as $country)--}}
+{{--                                       <option value="{{$country->phone_code}}">{{$country->iso}}(+{{$country->phone_code}})--}}
+{{--                                       </option>--}}
+{{--                                   @endforeach--}}
+{{--                               </select>--}}
+{{--                                --}}{{--<input type="number" name="email" class="b-r-3 txt-m txt-shadow txt-pad"--}}
+{{--                                          --}}{{--placeholder="Enter a valid E-mail ID" required>--}}
+{{--                               <input type="text" name="pnumber" class="b-r-3 txt-l txt-shadow txt-pad" pattern="^[0-9]"--}}
+{{--                                      placeholder="Phone Number" required>--}}
+
+{{--                           </div>--}}
+
+                   <br>
+                   <br>
+                   <br>
                            <div class="col-md-12 form-group text-center">
-                               <button type="submit" name="btnActivate" class="btn btn-l btn-b-r btn-s-r font-weight-900">Grab the Offer!</button>
+                               <a href="/offers" class="btn btn-l btn-b-r btn-s-r font-weight-900" target="_blank">Grab the Offer!</a>
                            </div>
-                       </div>
-                       <br>
-                   </form>
-                   <h7 class="header7 leter-space f-c-white">*From 27th Dec to 06th Jan 2019</h7>
+{{--                       </div>--}}
+{{--                       <br>--}}
+{{--                   </form>--}}
+
+                   <h7 class="header7 leter-space f-c-white">*From 27th Dec to 06th Jan 2020</h7>
                </center>
            </div>
-            <div class="col-md-2 div-newyear">
-                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/newyear_image.png" alt="">
-            </div>
+{{--            <div class="col-md-2 div-newyear">--}}
+{{--                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/newyear_image.png" alt="">--}}
+{{--            </div>--}}
         </div>
     </section>
     <section >
@@ -87,7 +97,6 @@
                         <br>
                         <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You!</p>
 
-
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -95,7 +104,6 @@
                         <h2>International Courier</h2>
                         <br>
                         <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
-
                     </div>
                 </div>
             </div>
@@ -103,12 +111,12 @@
             <div class=" col-md-12 offer-description">
                 <h4 class="header4 p-color-cement">Why Not Make Use of the Year End Sales & Get Ready for the New Year's?</h4>
                 <br>
-                <p class="header4 p-color-cement">2018 is on its last stretch and everyone's busy running around with their last-year resolutions! Let us get ready for another year with an open heart and clean baggage. We're here to help you be a new 'You' for the New Year's.</p>
+                <p class="header4 p-color-cement">2019 is on its last stretch and everyone's busy running around with their last-year resolutions! Let us get ready for another year with an open heart and clean baggage. We're here to help you be a new 'You' for the New Year's.</p>
                 <br>
                 <p class="header4 p-color-cement">Here's how; you get an <a href="{{route('pricing')}}">80% lesser shipping cost</a> with our top-of-the-line package consolidation services on top of which, you can avail a sweet 19% OFF - a little something from us to start off your New Year with.</p> <br>
 
                 <div class="offerDesc">
-                    <h5> What Else Do You Get Out of Our Offer? </h5><br>
+                    <h4> What Else Do You Get Out of Our Offer? </h4>
                     <ul>
                         <li>A FREE Indian Virtual Address to ship your packages to </li>
                         <li>Get online Support 24/7</li>
@@ -117,7 +125,7 @@
                 </div>
                 <br>
                 <div>
-                <center><a href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?src=sny2019" class="btn-chris-place-order">Go Shopping Now!</a></center>
+                <center><a href="/customer/register" class="btn-chris-place-order" target="_blank">Get Started Now!</a></center>
                 </div>
 
             </div>
@@ -145,7 +153,7 @@
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Scanned Copies for Document-couriers</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Scanned Copies </span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Country-discount</span></li>
 
                         </ul>
@@ -168,7 +176,7 @@
             </div>
         </div>
     </section>
-
+    <br><br><br>
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">
@@ -256,7 +264,7 @@
 @endsection
 
 @section('js_script')
-    <script>
-        $(document).ready(function(){$("#diwali_coupon").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var n=$("input[name='email']").val(),a=$("input[name='pnumber']").val(),o=$("[name='country_code']").val(),u=$("input[name=_token]").val();jQuery.ajax({url:"new-year-offer",type:"POST",data:{_token:u,email:n,pnumber:a,cnumber:o},success:function(e){var u="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?email="+n+"&c_code="+o+"&PN="+a;console.log(e),window.location.href=u}})}})});
-    </script>
+{{--    <script>--}}
+{{--        $(document).ready(function(){$("#diwali_coupon").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var n=$("input[name='email']").val(),a=$("input[name='pnumber']").val(),o=$("[name='country_code']").val(),u=$("input[name=_token]").val();jQuery.ajax({url:"new-year-offer",type:"POST",data:{_token:u,email:n,pnumber:a,cnumber:o},success:function(e){var u="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?email="+n+"&c_code="+o+"&PN="+a;console.log(e),window.location.href=u}})}})});--}}
+{{--    </script>--}}
 @endsection
