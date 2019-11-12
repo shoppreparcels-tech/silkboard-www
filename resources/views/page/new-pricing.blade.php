@@ -154,9 +154,9 @@
                                     @endforeach
                                 </select>
                             </div>
-                            <div class="col-md-6 col-xs-12 l-pad pad-t-10">
-                                <a class="f-s-14 f-c-blue cursor-type-p" data-toggle="modal" data-target="#ratesModel" id="getRates">View Rates up to 10 Kg</a>
-                            </div>
+{{--                            <div class="col-md-6 col-xs-12 l-pad pad-t-10">--}}
+{{--                                <a class="f-s-14 f-c-blue cursor-type-p" data-toggle="modal" data-target="#ratesModel" id="getRates">View Rates up to 10 Kg</a>--}}
+{{--                            </div>--}}
                         </div>
                         <div class="col-md-12 col-xs-12 no-pad">
                             <div class="col-md-6 col-xs-12 col-sm-6 no-pad">
