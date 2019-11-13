@@ -131,6 +131,7 @@
                         <li>Amazon Independence Day Sale - 13th to 15th August</li>
                         <li>Amazon Great Indian Festival Sale - 29th September to 4th October</li>
                         <li>Amazon Diwali Sale - 21st to 25th October</li>
+                        <li>Kid's Carnival - 9th to 14th November</li>
                         <li>Amazon Christmas Sale - 23rd to 25th December</li>
                     </ul>
                 </div>

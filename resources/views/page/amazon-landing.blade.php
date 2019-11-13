@@ -62,10 +62,10 @@
                 <div class="col-sm-4">
 
                     <div class="shopandship ">
-                        <a href="/amazon-online-shopping" target="_blank">
-                        <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon Fashion</h2>
+                        <a href="https://amzn.clnk.in/boW" target="_blank">
+                        <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Kids Carnival</h2>
                         <br/>
-                        <p>From ₹299</p><br>
+                        <p>Up to 70% Off</p><br>
                         <p>👉 Explore More</p>
                     </div>
                     </a>

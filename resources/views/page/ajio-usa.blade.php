@@ -117,7 +117,7 @@
                     <h4 style="text-decoration: underline" class="f-c-blue">Upcoming AJIO Sales</h4>
                     <br>
                     <ul>
-                        <li>Ajio Style Splash Sale (Min. 50% Off) - July 2019.</li>
+                        <li>AJIO November Steal (Min. 40% Off) - November 2019.</li>
                     </ul>
                 </div>
                 <br>
@@ -168,6 +168,9 @@
             </div>
         </div>
     </section>
+    <br>
+    <br>
+    <br>
 
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">

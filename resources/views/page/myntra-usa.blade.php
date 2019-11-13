@@ -171,6 +171,7 @@
                         <li>The Final Clearance Sale, 24th to 26th August 2019</li>
                         <li>Myntra Big Billion Days Sale, September 2019</li>
                         <li>Myntra Diwali Sale, 25th to 27th October 2019</li>
+                        <li><a href="https://clnk.in/jXZz" target="_blank">Just Kidding(40-70% Off) 13th - 14th November 2019</a> </li>
                         <li>End of Season Sale, After 15th November</li>
                     </ul>
                 </div>

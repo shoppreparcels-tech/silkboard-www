@@ -27,7 +27,7 @@
 
 
   <script type="application/ld+json">
-            {
+        {
             "@context": "http://schema.org",
             "@type": "Organization",
             "name": "Myntra Online Shopping India with ShoppRe",
@@ -38,7 +38,7 @@
             "@type": "ContactPoint",
             "telephone": "+91 8277919191",
             "contactType": "customer service"
-            },
+        },
             "sameAs": [
             "https://www.facebook.com/goshoppre",
             "https://twitter.com/Go_Shoppre",
@@ -47,7 +47,7 @@
             "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
             "https://www.linkedin.com/company/shoppre.com",
             "https://in.pinterest.com/shoppre"
-            ],
+        ],
             "aggregateRating": {
             "@type" : "AggregateRating",
             "bestRating": "5",
@@ -55,7 +55,7 @@
             "reviewCount" : "4560",
             "worstRating" : 3.5
             }
-            }
+        }
   </script>
 
     <style>
@@ -117,8 +117,7 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <span class="f-s-16 f-c-red f-w-9"><a href="https://www.myntra.com/men-apparel?f=Categories%3ATshirts&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0"
-                                                              target="_blank">Shop from Myntra.com (Simplici-Tee Up to 50% Off)</a></span> & Get ₹200 discount on your 1st International Shipment.
+                        <span class="f-s-16 f-c-red f-w-9"><a href="https://clnk.in/jXZz"target="_blank">New Sale 👉Just Kidding(40-70% Off) </a></span> & Get ₹200 discount on your 1st International Shipment.
                             </marquee>
                    <center>
                        <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">

@@ -32,131 +32,131 @@
     <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 
     <script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "name": "International Shipping, Online Shopping from India, Parcel Delivery, Courier Services, ShoppRe",
-    "description": "ShoppRe leading provider of parcel delivery, international courier, shipping and consolidation company from India.
-     Shipping your items to worldwide & reaches within 3-6 working days, save 60-80% on shipping cost",
-    "image": {
-        "@type": "ImageObject",
-        "url": "https://www.shoppre.com/img/logo.png",
-        "width": "878",
-        "height": "264"
-    },
-    "url": "https://www.shoppre.com/",
-    "mainEntityOfPage": "https://www.shoppre.com",
-    "inLanguage": "en_IN",
-    "headline": "International Shipping: Parcel Delivery and Courier Services | ShoppRe India",
-    "keywords": "International Shipping From India, Shipping Partner, Parcel Delivery, Courier Services",
-    "copyrightYear": "2019",
-    "author": {
-        "@type": "Organization",
-        "name": "ShoppRe",
-        "url": "https://www.shoppre.com",
-        "sameAs": ["https://twitter.com/Go_Shoppre",
-        "https://www.facebook.com/goshoppre",
-        "https://www.linkedin.com/company/shoppre.com",
-        "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
-        "https://www.instagram.com/shoppre_official",
-        "https://www.pinterest.com/shoppre",
-        "https://play.google.com/store/apps/details?id=com.shoppre.play",
-         "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"],
-        "image": {
-            "@type": "ImageObject",
-            "url": "https://www.shoppre.com/img/logo.png",
-            "height": "264",
-            "width": "878"
-        },
-        "telephone": "+91 80409 44077",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "#181, 1st Floor, 2nd Cross Rd,1st Block Koramangala",
-            "addressLocality": "Bengaluru",
-            "addressRegion": "Karnataka",
-            "postalCode": "560034",
-            "addressCountry": "IN"
-        },
-        "location": {
-            "@type": "Place",
-            "name": "ShoppRe.com - Safe & Secure International Courier Services",
-            "hasMap": "https://g.page/shoppre",
-            "telephone": "+91 80409 44077",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "12.9257998",
-                "longitude": "77.6332563"
-                   }
-            }
-       }
-  }
+        {
+            "@context": "http://schema.org",
+            "@type": "WebPage",
+            "name": "International Shipping, Online Shopping from India, Parcel Delivery, Courier Services, ShoppRe",
+            "description": "ShoppRe leading provider of parcel delivery, international courier, shipping and consolidation company from India.
+             Shipping your items to worldwide & reaches within 3-6 working days, save 60-80% on shipping cost",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://www.shoppre.com/img/logo.png",
+                "width": "878",
+                "height": "264"
+            },
+            "url": "https://www.shoppre.com/",
+            "mainEntityOfPage": "https://www.shoppre.com",
+            "inLanguage": "en_IN",
+            "headline": "International Shipping: Parcel Delivery and Courier Services | ShoppRe India",
+            "keywords": "International Shipping From India, Shipping Partner, Parcel Delivery, Courier Services",
+            "copyrightYear": "2019",
+            "author": {
+                "@type": "Organization",
+                "name": "ShoppRe",
+                "url": "https://www.shoppre.com",
+                "sameAs": ["https://twitter.com/Go_Shoppre",
+                "https://www.facebook.com/goshoppre",
+                "https://www.linkedin.com/company/shoppre.com",
+                "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+                "https://www.instagram.com/shoppre_official",
+                "https://www.pinterest.com/shoppre",
+                "https://play.google.com/store/apps/details?id=com.shoppre.play",
+                 "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"],
+                "image": {
+                    "@type": "ImageObject",
+                    "url": "https://www.shoppre.com/img/logo.png",
+                    "height": "264",
+                    "width": "878"
+                },
+                "telephone": "+91 80409 44077",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "#181, 1st Floor, 2nd Cross Rd,1st Block Koramangala",
+                    "addressLocality": "Bengaluru",
+                    "addressRegion": "Karnataka",
+                    "postalCode": "560034",
+                    "addressCountry": "IN"
+                },
+                "location": {
+                    "@type": "Place",
+                    "name": "ShoppRe.com - Safe & Secure International Courier Services",
+                    "hasMap": "https://g.page/shoppre",
+                    "telephone": "+91 80409 44077",
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "12.9257998",
+                        "longitude": "77.6332563"
+                           }
+                    }
+               }
+          }
 
     </script>
 
     <script type="application/ld+json">
- { "@context": "http://schema.org",
- "@type": "Organization",
- "name": "ShoppRe",
- "legalName" : "IndianShoppre LLP",
- "url": "https://www.shoppre.com",
- "logo": "https://www.shoppre.com/img/logo.png",
- "foundingDate": "2016",
- "founders": [
- {
- "@type": "Person",
- "name": "Saira Asif Hassan"
- },
- {
- "@type": "Person",
- "name": "Nikkitha Shanker"
- } ],
- "address": {
- "@type": "PostalAddress",
- "streetAddress": "No.181, 1st Floor, 2nd Cross Rd, 1st Block Koramangala",
- "addressLocality": "Bengaluru",
- "addressRegion": "Karnataka",
- "postalCode": "560034",
- "addressCountry": "IN"
- },
- "contactPoint": {
- "@type": "ContactPoint",
- "contactType": "customer support",
- "telephone": "[+918040944077]",
- "email": "support@shoppre.com"
- },
- "sameAs": [
-    "https://www.facebook.com/goshoppre",
-    "https://twitter.com/Go_Shoppre",
-    "https://www.instagram.com/shoppre_official",
-    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
-    "https://www.linkedin.com/company/shoppre.com",
-    "https://in.pinterest.com/shoppre",
-    "https://play.google.com/store/apps/details?id=com.shoppre.play",
-    "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
- ]}
+         { "@context": "http://schema.org",
+             "@type": "Organization",
+             "name": "ShoppRe",
+             "legalName" : "IndianShoppre LLP",
+             "url": "https://www.shoppre.com",
+             "logo": "https://www.shoppre.com/img/logo.png",
+             "foundingDate": "2016",
+             "founders": [
+         {
+             "@type": "Person",
+             "name": "Saira Asif Hassan"
+         },
+         {
+             "@type": "Person",
+             "name": "Nikkitha Shanker"
+         } ],
+         "address": {
+         "@type": "PostalAddress",
+             "streetAddress": "No.181, 1st Floor, 2nd Cross Rd, 1st Block Koramangala",
+             "addressLocality": "Bengaluru",
+             "addressRegion": "Karnataka",
+             "postalCode": "560034",
+             "addressCountry": "IN"
+         },
+         "contactPoint": {
+             "@type": "ContactPoint",
+             "contactType": "customer support",
+             "telephone": "[+918040944077]",
+             "email": "support@shoppre.com"
+         },
+         "sameAs": [
+            "https://www.facebook.com/goshoppre",
+            "https://twitter.com/Go_Shoppre",
+            "https://www.instagram.com/shoppre_official",
+            "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+            "https://www.linkedin.com/company/shoppre.com",
+            "https://in.pinterest.com/shoppre",
+            "https://play.google.com/store/apps/details?id=com.shoppre.play",
+            "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
+         ]}
 
     </script>
 
     <script type='application/ld+json'>
-{
-  "@context": "http://www.schema.org",
-  "@type": "Website",
-  "name": "ShoppRe",
-  "alternateName": "International Shipping From India, ShoppRe.com",
-  "url": "https://www.shoppre.com",
-  "image": "https://www.shoppre.com/img/logo.png",
-  "description": "ShoppRe leading provider of shop and ship, courier and parcel delivery company in India. Shipping your items to worldwide & reaches within 3-6 working days, save 60-80% on shipping cost.",
-    "sameAs": [
-    "https://www.facebook.com/goshoppre/",
-    "https://twitter.com/Go_Shoppre",
-    "https://www.instagram.com/shoppre_official",
-    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
-    "https://www.linkedin.com/company/shoppre.com",
-    "https://in.pinterest.com/shoppre",
-    "https://play.google.com/store/apps/details?id=com.shoppre.play",
-    "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
-  ]
-}
+        {
+          "@context": "http://www.schema.org",
+          "@type": "Website",
+              "name": "ShoppRe",
+              "alternateName": "International Shipping from India",
+              "url": "https://www.shoppre.com",
+              "image": "https://www.shoppre.com/img/logo.png",
+              "description": "ShoppRe leading provider of shop and ship, courier and parcel delivery company in India. Shipping your items to worldwide & reaches within 3-6 working days, save 60-80% on shipping cost.",
+                 "sameAs": [
+                "https://www.facebook.com/goshoppre/",
+                "https://twitter.com/Go_Shoppre",
+                "https://www.instagram.com/shoppre_official",
+                "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+                "https://www.linkedin.com/company/shoppre.com",
+                "https://in.pinterest.com/shoppre",
+                "https://play.google.com/store/apps/details?id=com.shoppre.play",
+                "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
+          ]
+        }
 
     </script>
 
@@ -383,6 +383,7 @@
     </style>
 
 @endsection
+
 @section('content')
     <main class="div-main" role="main">
         <div id="myModal-offer" class="modal fade" role="dialog">
@@ -577,15 +578,15 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://clnk.in/jXwL" title="Click to Know More" target="_blank">
+                        <a href="https://clnk.in/jXZz" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">BAGS TO BRAG</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">JUST KIDDING</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Min. 40% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40-70% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Handbags, Wallet, Clutches</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">A Sale For Your Li'l Ones!</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Myntra.com</span></p>
                             <br>
@@ -595,15 +596,15 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="/amazon-online-shopping" title="Click Here" target="_blank">
+                        <a href="https://amzn.clnk.in/boW" title="Click Here" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">FESTIVE FASHION</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">KID'S CARNIVAL</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Up to 70% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Amazon Fashion</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">9th - 14th Nov</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Amazon.in</span></p>
                             <br>
