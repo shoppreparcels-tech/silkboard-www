@@ -1,11 +1,34 @@
 @extends('layout')
 
-@section('title', 'Best and Affordable ShoppRe Courier - THE ONE TO BEAT')
+@section('title', 'Best and Affordable ShoppRe Courier India - THE ONE TO BEAT')
 @section('description', 'Ship your items from Anywhere in India to Anywhere Worldwide. The best and affordable way to send parcels overseas. Schedule Courier Pickup online today!')
 @section('keywords', 'courier charges, send parcels overseas, international courier services')
 
 @section('css_style')
+
     <link rel="canonical" href="https://www.shoppre.com/best-affordable-international-courier-services-in-india" />
+
+    <script type="application/ld+json">
+        {
+         "@context": "https://schema.org",
+            "@type": "VideoObject",
+                "name": "Courier Pickup From ANYWHERE in India",
+                "description": "ShoppRe Courier is a fine-tuned courier service that allows you to schedule a pickup from anywhere in India, and to get us to ship it off to anywhere in the world within 48 hours.",
+            "thumbnailUrl": [
+                "https://i.ytimg.com/vi/lQi4Io_WH70/default.jpg"
+                  ],
+            "uploadDate": "2018-11-21T07:30:00.000Z",
+            "duration": "PT20S",
+                "contentUrl": "https://www.shoppre.com/best-affordable-international-courier-services-in-india",
+                "embedUrl": "https://www.youtube.com/embed/lQi4Io_WH70",
+            "interactionStatistic": {
+                "@type": "InteractionCounter",
+                    "interactionType": { "@type": "http://schema.org/WatchAction" },
+                    "userInteractionCount": 681
+                }
+        }
+    </script>
+
     <style>
         .vid-h-w{height: 560px; width: 100%}
         .div-b-l-w ul li{list-style: none; color:#929ca5; font-weight: 700;font-size: 18px; }
@@ -15,11 +38,12 @@
      </style>
 
 @endsection
+
 @section('content')
     <section class="div-b-l-w pad-20" >
        <div class="container pad-t-20">
            <br>
-           <center><h1 class="f-s-30 f-c-d-greay f-w-9">Cheapest International Courier Services in India</h1></center>
+           <center><h1 class="f-s-30 f-c-d-greay f-w-9">Affordable International Courier Services in India</h1></center>
            <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad " style="margin-top: 25px;">
                <div class="col-xs-12 col-md-12 no-pad">
                    <iframe class="vid-h-w" id="video" src="https://www.youtube.com/embed/lQi4Io_WH70" frameborder="0"
@@ -67,15 +91,15 @@
                <h1 class="f-s-18 f-c-d-greay f-w-8 txt-a-l">What else do we offer?</h1>
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">Our broad range of services are categorized into three. Apart from ShoppRe Courier, we also have;</p>
                <ul>
-                   <li>A. Shop & Ship - for effortless online shopping with international shipping options.</li>
-                   <li>B. Personal Shopper - services including doing the shopping for you & forwarding your purchases as a whole.</li>
+                   <li>A. <span class="f-c-blue">Shop & Ship</span> - for effortless online shopping with international shipping options.</li>
+                   <li>B. <span class="f-c-blue">Personal Shopper</span> - services including doing the shopping for you & forwarding your purchases as a whole.</li>
 
                </ul>
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">
                    In a nutshell, International shipping from India has never been more dependable & smoother!
                </p>
                <br>
-               <h1 class="f-s-22 f-c-d-greay f-w-8 txt-a-l">Frequently Asked Questions:</h1>
+               <h1 class="f-s-22 f-c-d-greay f-w-8 txt-a-l txt-u-l">Frequently Asked Questions:</h1>
                <h1 class="f-s-18 f-c-d-greay f-w-8 txt-a-l">What do you charge for a courier from India to USA per kg.?</h1>
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">
                    Our international courier charges to the USA start from just Rs.1449/-. Check out our <a href="{{route('pricing')}}">Shipping Calculator</a> for a FREE estimate on your particular courier needs.
@@ -96,11 +120,11 @@
                </p> <br>
                <p class="f-s-18 f-c-l-gray f-w-6 txt-a-l">
                    Hesitate no more, <a href="{{route('ifs.index')}}">Shop From India & Ship Worldwide</a> with ShoppRe from now on!
-               </p> <br>
+               </p> <br> <br>
 
            </div>
            <div class="row text-center">
-               <div class="col-sm-4 col-xs-12 col-md-4">
+               <div class="col-sm-4 col-xs-12 col-md-4 outer border-1px">
                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
                            UAE
@@ -109,7 +133,7 @@
                            Starts from ₹566/-
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad">
-                           <a href="https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                           <a href="/international-courier-charges-india-to-uae-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                 <i class="fa fa-plane" aria-hidden="true"></i>
                                 </span>
                                <span class="elementor-icon-list-text txt-u-l">Send Courier to UAE from India</span>
@@ -117,7 +141,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-sm-4 col-xs-12 col-md-4">
+               <div class="col-sm-4 col-xs-12 col-md-4 outer border-1px">
                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
                            USA
@@ -126,7 +150,7 @@
                            Starts from ₹1449/-
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad">
-                           <a href="https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                           <a href="/international-courier-charges-india-to-usa-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                 <i class="fa fa-plane" aria-hidden="true"></i>
                                 </span>
                                <span class="elementor-icon-list-text txt-u-l">Send Courier to USA from India</span>
@@ -134,7 +158,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-sm-4 col-xs-12 col-md-4">
+               <div class="col-sm-4 col-xs-12 col-md-4 outer border-1px">
                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
                            Australia
@@ -143,7 +167,7 @@
                            Starts from ₹1499/-
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad">
-                           <a href="https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                           <a href="/international-courier-charges-india-to-australia-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                 <i class="fa fa-plane" aria-hidden="true"></i>
                                 </span>
                                <span class="elementor-icon-list-text txt-u-l">Send Courier to Australia from India</span>
@@ -151,7 +175,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-sm-4 col-xs-12 col-md-4">
+               <div class="col-sm-4 col-xs-12 col-md-4 outer border-1px">
                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
                            Singapore
@@ -160,7 +184,7 @@
                            Starts from ₹939/-
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad">
-                           <a href="https://www.shoppre.com/international-courier-charges-india-to-singapore-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                           <a href="/international-courier-charges-india-to-singapore-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                    <i class="fa fa-plane" aria-hidden="true"></i>
                                    </span>
                                <span class="elementor-icon-list-text txt-u-l">Send Courier to Singapore from India</span>
@@ -168,24 +192,24 @@
                        </div>
                    </div>
                </div>
-               <div class="col-sm-4 col-xs-12 col-md-4">
+               <div class="col-sm-4 col-xs-12 col-md-4 outer border-1px">
                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                           UK
+                           Mexico
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                           Starts from ₹1566/-
+                           Starts from ₹1448/-
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad">
-                           <a href="https://ship.shoppre.com/international-courier-charges-per-kg/from-india-to-uk/" target="_blank"> <span class="elementor-icon-list-icon">
+                           <a href="/international-courier-charges-india-to-mexico-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
-                               <span class="elementor-icon-list-text txt-u-l">Send Courier to UK from India</span>
+                               <span class="elementor-icon-list-text txt-u-l">Send Courier to Mexico from India</span>
                            </a>
                        </div>
                    </div>
                </div>
-               <div class="col-sm-4 col-xs-12 col-md-4">
+               <div class="col-sm-4 col-xs-12 col-md-4 outer border-1px">
                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
                            Germany
@@ -194,7 +218,7 @@
                            Starts from ₹1566/-
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad">
-                           <a href="https://www.shoppre.com/international-courier-charges-india-to-germany-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                           <a href="/international-courier-charges-india-to-germany-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
                                <span class="elementor-icon-list-text txt-u-l">Send Courier to Germany from India</span>
@@ -202,7 +226,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-sm-4 col-xs-12 col-md-4">
+               <div class="col-sm-4 col-xs-12 col-md-4 outer border-1px">
                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
                            Canada
@@ -211,7 +235,7 @@
                            Starts from ₹1594/-
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad">
-                           <a href="https://www.shoppre.com/international-courier-charges-india-to-canada-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                           <a href="/international-courier-charges-india-to-canada-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
                                <span class="elementor-icon-list-text txt-u-l">Send Courier to Canada from India</span>
@@ -219,54 +243,84 @@
                        </div>
                    </div>
                </div>
-               <div class="col-sm-4 col-xs-12 col-md-4">
+               <div class="col-sm-4 col-xs-12 col-md-4 outer border-1px">
                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                           Finland
-                       </div>
-                       <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
-                           Starts from ₹1609/-
-                       </div>
-                       <div class="col-md-12 col-xs-12 no-pad">
-                           <a href="https://ship.shoppre.com/international-courier-charges-per-kg/from-india-to-finland/" target="_blank"> <span class="elementor-icon-list-icon">
-                               <i class="fa fa-plane" aria-hidden="true"></i>
-                               </span>
-                               <span class="elementor-icon-list-text txt-u-l">Send Courier to Finland from India</span>
-                           </a>
-                       </div>
-                   </div>
-               </div>
-               <div class="col-sm-4 col-xs-12 col-md-4">
-                   <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                       <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                           Indonesia
+                           Malaysia
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
                            Starts from ₹1661/-
                        </div>
                        <div class="col-md-12 col-xs-12 no-pad">
-                           <a href="https://ship.shoppre.com/international-courier-charges-per-kg/from-india-to-indonesia/" target="_blank"> <span class="elementor-icon-list-icon">
+                           <a href="/international-courier-charges-india-to-malaysia-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
                                <i class="fa fa-plane" aria-hidden="true"></i>
                                </span>
-                               <span class="elementor-icon-list-text txt-u-l">Send Courier to Indonesia from India</span>
+                               <span class="elementor-icon-list-text txt-u-l">Send Courier to Malaysia from India</span>
+                           </a>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-sm-4 col-xs-12 col-md-4 outer border-1px">
+                   <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
+                       <div class="col-md-12 col-xs-12 no-pad UAE-div1">
+                           Japan
+                       </div>
+                       <div class="col-md-12 col-xs-12 no-pad Rakhi-mid-div">
+                           Starts from ₹1633/-
+                       </div>
+                       <div class="col-md-12 col-xs-12 no-pad">
+                           <a href="/international-courier-charges-india-to-japan-per-kg" target="_blank"> <span class="elementor-icon-list-icon">
+                               <i class="fa fa-plane" aria-hidden="true"></i>
+                               </span>
+                               <span class="elementor-icon-list-text txt-u-l">Send Courier to Japan from India</span>
                            </a>
                        </div>
                    </div>
                </div>
            </div>
+
            <br>
            <br>
           <center><a href="{{route('pricing')}}" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Calculate Estimated Charges & Delivery Time</a></center>
        </div>
         <br>
         <br>
+        <br>
+            <div class="container txt-center ">
+                <div class="col-md-3 col-sm-3 col-xs-6 outer border-1px">
+                    <ul class="nav-ul">
+                        <li class="li"><a class="f-s-14 f-c-l-gray" href="/priyamani-ad-launch-parcel-forwarding-service-from-india" target="_blank">Package Forwarding</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6 outer border-1px">
+                    <ul class="nav-ul">
+                        <li class="li"><a class="f-s-14 f-c-l-gray" href="/personal-shopper-online-shopping-from-india-shipping" target="_blank">Personal Shopper </a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6 outer border-1px">
+                    <ul class="nav-ul">
+                        <li class="li"><a class="f-s-14 f-c-l-gray" href="/package-consolidation-international-shipping" target="_blank">Consolidation</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6 outer border-1px">
+                    <ul class="nav-ul">
+                        <li class="li"><a class="f-s-14 f-c-l-gray" href="/online-shopping-and-international-shipping-sit-back-relax-shop-from-india" target="_blank">Online Shopping</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        <br><br>
     </section>
+
+
 
 
  @endsection
 
-@section('js_script')
-    <script>
-        $(document).ready(function(){$("#vidCourier").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var n=$("input[name='name']").val(),i=$("input[name='email']").val(),t=$("input[name='phone']").val(),a=$("input[name=_token]").val();jQuery.ajax({url:"apiVideoCourier",type:"POST",data:{_token:a,name:n,email:i,phone:t},success:function(e){console.log(e),window.location.replace("https://www.shoppre.com/customer/register")}})}})});var input=document.querySelector("#phone");window.intlTelInput(input,{utilsScript:"build/js/utils.js"});
-    </script>
-@endsection
+{{--@section('js_script')--}}
+{{--    <script>--}}
+{{--        $(document).ready(function(){$("#vidCourier").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var n=$("input[name='name']").val(),i=$("input[name='email']").val(),t=$("input[name='phone']").val(),a=$("input[name=_token]").val();jQuery.ajax({url:"apiVideoCourier",type:"POST",data:{_token:a,name:n,email:i,phone:t},success:function(e){console.log(e),window.location.replace("https://www.shoppre.com/customer/register")}})}})});var input=document.querySelector("#phone");window.intlTelInput(input,{utilsScript:"build/js/utils.js"});--}}
+{{--    </script>--}}
+{{--@endsection--}}

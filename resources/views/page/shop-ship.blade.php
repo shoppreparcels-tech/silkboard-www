@@ -171,12 +171,16 @@
 {{--                    your greetings off to your loved ones abroad.</p> <br>--}}
                 <br>
                 <div class="offerDesc">
-                    <h5 class="f-s-16"> What Else Do You Get Out of Our Offer? </h5>
+                    <h5 class="f-s-20"> What Else Do You Get Out of ShoppRe Offer? </h5>
                     <ul>
                         <li>Store your goods at our facility for 20 days for FREE</li>
-                        <li>Get online Live Chat</li>
+                        <li>Get online support (Live Chat or Call, WhatsApp)</li>
                         <li>Get up to 80% OFF in shipping costs</li>
-                        <li>A quick delivery within 3-6 days!</li>
+                        <li>A fast delivery within 3-6 days!</li>
+                        <li>Access to thousands of Online stores in India</li>
+                        <li>Personal ShoppRe shipping address</li>
+                        <li>Discounted Rates with DHL, FedEx & more</li>
+                        <li>Door-to-door package tracking</li>
                     </ul>
                 </div>
             </div>
@@ -302,13 +306,13 @@
 
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
-                        <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
+                        <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
                     <a href="tel:+91-8277919191" class="header2 p-color-white">+91 8277 919191</a>
 
                 </div>
 
                 <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align ">
-                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
+                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i> SUPPORT EMAIL</p>
                     <a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>
 
                 </div>
@@ -317,7 +321,7 @@
                     class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details pull-right contact-text-align">
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
-                        </i>Live Chat</p>
+                        </i> Live Chat</p>
                     {{--<a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#" class="header2 p-color-white">Chat Now</a>--}}
                     <a href="{{Constant::CHATURL}}" target="_blank"
                        class="header2 p-color-white">Chat Now</a>
@@ -348,13 +352,13 @@
 
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
-                        <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
+                        <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
                     <a href="tel:+91-8277919191" class="header2 p-color-white">+91 8277 919191</a>
 
                 </div>
 
                 <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align " style="color: #fdf699">
-                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
+                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i> SUPPORT EMAIL</p>
                     <a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>
 
                 </div>
@@ -363,7 +367,7 @@
                      style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
-                        </i>Live Chat</p>
+                        </i> Live Chat</p>
                     <a href="{{Constant::CHATURL}}" target="_blank"
                        class="header2 p-color-white">Chat Now</a>
 

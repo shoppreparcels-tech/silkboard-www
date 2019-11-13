@@ -111,6 +111,30 @@
                </p><br><br>
            </div>
        </div>
+        <div class="container txt-center ">
+            <div class="col-md-3 col-sm-3 col-xs-6 outer border-1px">
+                <ul class="nav-ul">
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/priyamani-ad-launch-parcel-forwarding-service-from-india" target="_blank">Package Forwarding</a></li>
+
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 outer border-1px">
+                <ul class="nav-ul">
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/best-affordable-international-courier-services-in-india" target="_blank">Courier Service</a></li>
+
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 outer border-1px">
+                <ul class="nav-ul">
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/package-consolidation-international-shipping" target="_blank">Consolidation</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 outer border-1px">
+                <ul class="nav-ul">
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/online-shopping-and-international-shipping-sit-back-relax-shop-from-india" target="_blank">Online Shopping</a></li>
+                </ul>
+            </div>
+        </div>
     </section>
     <section class="chris-benefits">
         <div class="container" >
@@ -189,7 +213,7 @@
 @endsection
 
 @section('js_script')
-    <script>
-        $(document).ready(function(){$("#vidPs").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var n=$("input[name='name']").val(),t=$("input[name='email']").val(),a=$("input[name='phone']").val(),i=$("input[name=_token]").val();jQuery.ajax({url:"apiVideoPs",type:"POST",data:{_token:i,name:n,email:t,phone:a},success:function(e){console.log(e),window.location.replace("https://www.shoppre.com/customer/register")}})}})});var input=document.querySelector("#phone");window.intlTelInput(input,{utilsScript:"build/js/utils.js"});
-    </script>
+{{--    <script>--}}
+{{--        $(document).ready(function(){$("#vidPs").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var n=$("input[name='name']").val(),t=$("input[name='email']").val(),a=$("input[name='phone']").val(),i=$("input[name=_token]").val();jQuery.ajax({url:"apiVideoPs",type:"POST",data:{_token:i,name:n,email:t,phone:a},success:function(e){console.log(e),window.location.replace("https://www.shoppre.com/customer/register")}})}})});var input=document.querySelector("#phone");window.intlTelInput(input,{utilsScript:"build/js/utils.js"});--}}
+{{--    </script>--}}
 @endsection

@@ -166,6 +166,30 @@
            <br>
        </div>
 
+        <div class="container txt-center ">
+            <div class="col-md-3 col-sm-3 col-xs-6 outer border-1px">
+                <ul class="nav-ul">
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/best-affordable-international-courier-services-in-india" target="_blank">Courier Service</a></li>
+
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 outer border-1px">
+                <ul class="nav-ul">
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/personal-shopper-online-shopping-from-india-shipping" target="_blank">Personal Shopper </a></li>
+
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 outer border-1px">
+                <ul class="nav-ul">
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/package-consolidation-international-shipping" target="_blank">Consolidation</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 outer border-1px">
+                <ul class="nav-ul">
+                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/online-shopping-and-international-shipping-sit-back-relax-shop-from-india" target="_blank">Online Shopping</a></li>
+                </ul>
+            </div>
+        </div>
 
     </section>
     <br>

@@ -1,11 +1,33 @@
 @extends('layout')
 
-@section('title', 'How Does Package Consolidation Help You? Saving 80% on shipping costs')
+@section('title', 'How Package Consolidation Help You? | Save 80% on Shipping')
 @section('description', 'Packages from multiple Indian online stores consolidated and ship to you as one package. Help you saving international shipping costs up to 80%')
 @section('keywords', 'shipping costs, package consolidation, shipment, smart shoppers')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/package-consolidation-international-shipping" />
+
+    <script type="application/ld+json">
+        {
+         "@context": "https://schema.org",
+            "@type": "VideoObject",
+                "name": "How To Save Shipping Cost From Package Consolidation",
+                "description": "Consolidating your multiple packages into one shipment has the potential to save a big chunk of your international shipping costs up to 80%",
+            "thumbnailUrl": [
+                "https://i.ytimg.com/vi/eFop4beZmOk/default.jpg"
+                  ],
+            "uploadDate": "2018-11-20T07:30:01.000Z",
+            "duration": "PT40S",
+                "contentUrl": "https://www.shoppre.com/package-consolidation-international-shipping",
+                "embedUrl": "https://www.youtube.com/embed/eFop4beZmOk",
+            "interactionStatistic": {
+                "@type": "InteractionCounter",
+                    "interactionType": { "@type": "http://schema.org/WatchAction" },
+                    "userInteractionCount": 751
+                }
+        }
+    </script>
+
     <style>
         .vid-h-w{height: 560px; width: 100%}
         .div-b-l-w ul li{list-style: none; color:#929ca5; font-weight: 700;font-size: 16px; }
@@ -49,7 +71,8 @@
 {{--               </form>--}}
            </div>
 
-
+           <div class="clearfix"></div>
+           <br>
            <p class="f-s-16 f-c-l-gray f-w-6 txt-a-l">
 
                Package consolidation services has risen as an extremely relevant shipping solution and ShoppRe is taking the lead in India! With
@@ -98,8 +121,72 @@
     <section class="chris-benefits">
         <div class="container" >
             <center>
-                <h1 class="header1 p-color-cement-dark">Featured Services & Benefits</h1>
+                <h1 class="f-s-24 f-c-blue f-w-8 txt-center">ShoppRe Receives & Ships over <span class="f-c-red">₹25,00,000/-</span> worth in eCommerce Purchases monthly!</h1>
             </center>
+            <br>
+            <div class="row">
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox outer border-1px">
+                            <h1 class="f-s-26 f-c-red f-w-8">1000+</h1>
+                            <h5 class="header6 p-color-cement font-weight-900">Fan of Indian products & brands?
+                                <br>
+                                Shop from 1000 Indian Stores</h5>
+                            <div class="ecomSmallBox">
+                                <a href="/indian-online-stores" target="_blank">
+                                    <p class="header4 p-color-blue font-weight-900 txt-u-l">#browseStores</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox outer border-1px">
+                            <h1 class="f-s-26 f-c-red f-w-8">220+</h1>
+                            <h5 class="header6 p-color-cement font-weight-900">Offers delivery to over 220 countries.
+                                <br>
+                                With world-class customer service</h5>
+                            <div class="ecomSmallBox">
+                                <a href="/countries" target="_blank">
+                                    <p class="header4 p-color-blue font-weight-900 txt-u-l">#worldwideDelivery</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox outer border-1px">
+                            <h1 class="f-s-26 f-c-red f-w-8">3-6 Days</h1>
+                            <h5 class="header6 p-color-cement font-weight-900">3-6 days door-to-door safe package
+                                <br>
+                                delivery with online tracking</h5>
+                            <div class="ecomSmallBox" >
+                                <a href="/shop-from-india-ship-worldwide" target="_blank">
+                                    <p class="header4 p-color-blue font-weight-900 txt-u-l">#transitTimes</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox outer border-1px">
+                            <h1 class="f-s-26 f-c-red f-w-8">60-80%</h1>
+                            <h5 class="header6 p-color-cement font-weight-900">Save by Storage, Consolidation
+                                <br>
+                                & Repackaging. Discounted Rates.</h5>
+                            <div class="ecomSmallBox">
+                                <a href="/cheap-rates-international-shipping-cost-calculator" target="_blank">
+                                    <p class="header4 p-color-blue font-weight-900 txt-u-l">#cheapRates</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
             <br>
             <div class="row text-center">
                 <div class="col-sm-4">
@@ -117,7 +204,7 @@
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/chris-circle.png" alt=""><span>Affordable Rates</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/chris-circle.png" alt=""><span>Document Couriers</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/chris-circle.png" alt=""><span>Personal shipping address</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/chris-circle.png" alt=""><span>Country-specific Discount</span></li>
 
                         </ul>
@@ -129,7 +216,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/chris-circle.png" alt=""><span>Photo Updates</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/chris-circle.png" alt=""><span>Wallet Cashback</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/chris-circle.png" alt=""><span>Package Return Services</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/chris-circle.png" alt=""><span> Product Recommendations</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/chris-circle.png" alt=""><span>Sales tax-free shopping</span></li>
                         </ul>
                     </div>
                 </div>
@@ -139,12 +226,13 @@
         <br>
         <br>
         <br>
+        <br>
     </section>
 
 @endsection
 
-@section('js_script')
-    <script>
-        $(document).ready(function(){$("#vidConslidate").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var n=$("input[name='name']").val(),i=$("input[name='email']").val(),t=$("input[name='phone']").val(),a=$("input[name=_token]").val();jQuery.ajax({url:"apiVideoConsolidation",type:"POST",data:{_token:a,name:n,email:i,phone:t},success:function(e){console.log(e),window.location.replace("https://www.shoppre.com/customer/register")}})}})});var input=document.querySelector("#phone");window.intlTelInput(input,{utilsScript:"build/js/utils.js"});
-    </script>
-@endsection
+{{--@section('js_script')--}}
+{{--    <script>--}}
+{{--        $(document).ready(function(){$("#vidConslidate").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var n=$("input[name='name']").val(),i=$("input[name='email']").val(),t=$("input[name='phone']").val(),a=$("input[name=_token]").val();jQuery.ajax({url:"apiVideoConsolidation",type:"POST",data:{_token:a,name:n,email:i,phone:t},success:function(e){console.log(e),window.location.replace("https://www.shoppre.com/customer/register")}})}})});var input=document.querySelector("#phone");window.intlTelInput(input,{utilsScript:"build/js/utils.js"});--}}
+{{--    </script>--}}
+{{--@endsection--}}
