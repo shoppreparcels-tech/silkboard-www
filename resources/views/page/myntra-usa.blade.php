@@ -171,8 +171,8 @@
                         <li>The Final Clearance Sale, 24th to 26th August 2019</li>
                         <li>Myntra Big Billion Days Sale, September 2019</li>
                         <li>Myntra Diwali Sale, 25th to 27th October 2019</li>
-                        <li><a href="https://clnk.in/jXZz" target="_blank">Just Kidding(40-70% Off) 13th - 14th November 2019</a> </li>
-                        <li>End of Season Sale, After 15th November</li>
+                        <li>Just Kidding(40-70% Off) 13th - 14th November 2019 </li>
+                        <li><a href="https://clnk.in/jYmH" target="_blank">Mid Season Sale, 16th to 19th November 2019</a></li>
                     </ul>
                 </div>
                 <br>
@@ -223,16 +223,18 @@
                 <br/><br/>
             </div>
         </div>
+
     </section>
+
     <section>
         <div class="container div-ics-border-btm">
             <div class="col-md-12 col-xs-12 no-pad">
-{{--                <center>--}}
-{{--                    <h1 class="f-s-30 f-c-d-greay">Indian online shopping websites with ShoppRe International delivery</h1>--}}
-{{--                    <p class="f-s-20 f-c-gray">List of the top Indian online shopping websites international delivery through ShoppRe ecommerce--}}
-{{--                        package forwarding services and Festival Deals, Offers and Sale.</p>--}}
-{{--                    </br>--}}
-{{--                </center>--}}
+                {{--                <center>--}}
+                {{--                    <h1 class="f-s-30 f-c-d-greay">Indian online shopping websites with ShoppRe International delivery</h1>--}}
+                {{--                    <p class="f-s-20 f-c-gray">List of the top Indian online shopping websites international delivery through ShoppRe ecommerce--}}
+                {{--                        package forwarding services and Festival Deals, Offers and Sale.</p>--}}
+                {{--                    </br>--}}
+                {{--                </center>--}}
                 <div class=" col-md-12 col-xs-12 div-ics-prodcts">
                     <div class="col-md-6 col-xs-12 no-padding">
                         <ul>
@@ -260,10 +262,14 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" target="_blank">Flipkart National Shopping Days</a></li>
                         </ul>
                     </div>
+
                 </div>
             </div>
         </div>
+
     </section>
+
+
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">

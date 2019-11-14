@@ -63,6 +63,7 @@
     </style>
 
 @endsection
+
 @section('content')
     <section class="bg-myntra">
         <div class="container">
@@ -111,13 +112,12 @@
         <br>
     </section>
 
-
     <section class=" ">
         <div class="container myntra-service">
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <span class="f-s-16 f-c-red f-w-9"><a href="https://clnk.in/jXZz"target="_blank">New Sale 👉Just Kidding(40-70% Off) </a></span> & Get ₹200 discount on your 1st International Shipment.
+                        <span class="f-s-16 f-c-red f-w-9"><a href="https://clnk.in/jYmH"target="_blank">New Sale 👉MID SEASON(50-80% Off) </a></span> & Get ₹200 discount on your 1st International Shipment.
                             </marquee>
                    <center>
                        <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">

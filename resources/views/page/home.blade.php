@@ -448,7 +448,7 @@
                         <div class="col-md-4 col-xs-4 pad-r-5 ">
                             <a class="f-s-18 f-c-white" href="/shop-from-india-ship-worldwide">
                                 <div class="col-xs-12 col-md-12 pad-0-20 div-s-br cord-height">
-                                    <h5 class="f-s-18 f-c-white txt-a-c box-margin-top"> Shop from INDIA
+                                    <h5 class="f-s-18 f-c-white txt-a-c box-margin-top">Shop from INDIA
                                         <br> & <br> Ship Worldwide <br></h5>
                                     <center>
                                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/arrow-home.png"
@@ -578,15 +578,15 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://clnk.in/jXZz" title="Click to Know More" target="_blank">
+                        <a href="/myntra-online-shopping" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">JUST KIDDING</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">MID SEASON SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40-70% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">50-80% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">A Sale For Your Li'l Ones!</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">16th-19th Nov</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Myntra.com</span></p>
                             <br>

@@ -181,8 +181,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Styl For Desi Divas</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">30-60% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Mid Season sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">
