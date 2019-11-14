@@ -41,7 +41,7 @@
                 </div>
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://www.ajio.com" title="AJIO" target="_blank">👉 NOVEMBER STEAL! (Min. 40% Off) | Shop AJIO & Ship Worldwide with ShoppRe.</a>
+                        <a href="https://www.ajio.com" title="AJIO" target="_blank">👉 MID SEASON Sale (40-80% Off) | Shop AJIO & Ship Worldwide with ShoppRe.</a>
                     </marquee>
                 </div>
             </div>

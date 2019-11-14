@@ -118,6 +118,7 @@
                     <br>
                     <ul>
                         <li>AJIO November Steal (Min. 40% Off) - November 2019.</li>
+                        <li><a href="/ajio-online-shopping" target="_blank">MID SEASON Sale (40-80% Off) - November 2019.</a></li>
                     </ul>
                 </div>
                 <br>
@@ -127,6 +128,7 @@
             </div>
         </div>
     </section>
+
     <section class="chris-benefits">
         <div class="container" >
             <center>
@@ -257,44 +259,6 @@
     </section>
 @endsection
 
-@section('js_script')
-    <script>
-        $(document).ready(function () {
-            $("#diwali_coupon").validate({
-                rules:
-                    {
-                        email: {required: true}
-                    },
-                messages:
-                    {
-                        // email: {required: 'Please enter your email id'}
-                    },
-                submitHandler: function (form) {
-                    debugger;
-                    var email = $("input[name='email']").val();
-                    var pnumber = $("input[name='pnumber']").val();
-                    var cnumber = $("[name='country_code']").val();
-                    var token = $('input[name=_token]').val();
-                    jQuery.ajax({
-                        url: 'new-year-offer',
-                        type: "POST",
-                        data: {
-                            _token: token,
-                            email: email,
-                            pnumber: pnumber,
-                            cnumber: cnumber,
-                        },
-                        success: function (data) {
-                            var url= "{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/register?email=" + email + "&c_code="+ cnumber +"&PN="+ pnumber ;
-                            console.log(data);
-                            // window.open(url);
-                            window.location.href = url;
-
-                        }
-                    })
-                }
-            });
-
-        });
-    </script>
-@endsection
+{{--@section('js_script')--}}
+{{--   --}}
+{{--@endsection--}}
