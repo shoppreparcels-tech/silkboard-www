@@ -112,6 +112,9 @@
                     <p class="header2 p-color-white header-ifs-p1">Ship your purchases to us; we'll store, consolidate,
                         <br> repackage & ship them to WHEREVER you are! </p>
                     <a href="/customer/register" class="btn btn-s-b btn-b-g" target="_blank">Sign Up & Receive FREE Virtual Address</a>
+                    <br>
+                    <br>
+                    <span class="f-s-16 f-c-yellow f-w-9">shoppreParcels.com</span>
                 </center>
             </div>
         </div>

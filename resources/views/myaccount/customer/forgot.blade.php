@@ -1,6 +1,11 @@
 @extends('myaccount.layout')
 
-@section('title', '- Forgot Password')
+@section('title', 'ShoppRe - Forgot Password')
+
+@section('css_style')
+    <meta name="robots" content="noindex,noodp,noydir,follow,noarchive,nosnippet" />
+
+@endsection
 
 @section('content')
 

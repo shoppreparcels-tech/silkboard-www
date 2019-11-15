@@ -42,7 +42,7 @@
 @section('content')
     <section class="div-b-l-w pad-20" >
        <div class="container pad-t-20">
-           <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad " style="margin-top: 25px;">
+           <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad " style="margin-top: 50px;">
                <div class="col-xs-12 col-md-12 no-pad">
                    <iframe class="vid-h-w" id="video" src="https://www.youtube.com/embed/vb99LF4U1ew" frameborder="0"
                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -194,36 +194,131 @@
     </section>
     <br>
 
-<section>
-    <div class="container ">
-        <h1 class="f-s-18 f-c-d-greay f-w-8 txt-center">Shopping websites with ShoppRe hassle-free International Delivery from India</h1>
-        <div class="row txt-center">
-            <div class="col-sm-4">
+    <section class="container">
+        <h1 class="f-s-26 f-c-d-greay f-w-8 txt-center">ShoppRe hassle-free International Delivery from India</h1>
+        <div class="container-fluid c-f-p seo-hyperlinks"><br>
+            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
                 <ul class="nav-ul">
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/amazon-india-shop-international-shipping" target="_blank">Amazon.in International Delivery</a></li>
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/flipkart-shopping-with-shoppre-from-india">Flipkart.com International Delivery</a></li>
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/myntra-online-shopping-shipping-from-india">Myntra.com International Delivery</a></li>
+                    <ul class="nav-ul">
+                        <h1 class="f-s-16 f-c-greay f-w-8">ShoppRe Shopping</h1>
+                        <li class="li"><a itemprop="url" class=""
+                                          href="/flipkart-shopping-with-shoppre-from-india">Flipkart Shopping Store</a></li>
+                        <li class="li"><a itemprop="url" class=""
+                                          href="/myntra-online-shopping-shipping-from-india">Myntra Online Fashion Store</a></li>
+                        <li class="li"><a itemprop="url" class=""
+                                          href="/ajio-online-shopping-international-shipping">AJIO.com Fashion Trends</a></li>
+                        <li class="li"><a itemprop="url" class=""
+                                          href="/amazon-india-shop-international-shipping">Amazon.in Online Shopping</a></li>
+                        <li class="li"><a itemprop="url" class=""
+                                          href="/firstcry-international-shipping-usa">Baby & Kids Online Shopping</a></li>
+                        <li class="li"><a itemprop="url" class=""
+                                          href="/nykaa-online-shopping">Nykaa Online Beauty Store</a></li>
+                        <li class="li"><a itemprop="url" class=""
+                                          href="/limeroad-online-shopping">Limeroad Fashion Clothing</a></li>
+                        <li class="li"><a itemprop="url" class=""
+                                          href="/pepperfry-online-shopping">Pepperfry Home Decor</a></li>
+                    </ul>
                 </ul>
             </div>
+            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
+                <ul class="nav-ul">
+                    <h1 class="f-s-16 f-c-greay f-w-8">ShoppRe Courier</h1>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/international-courier-charges-india-to-canada-per-kg">Courier from India to Canada</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/international-courier-charges-india-to-germany-per-kg"> Courier from India to Germany</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/international-courier-charges-india-to-singapore-per-kg">Courier from India to Singapore</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/international-courier-charges-india-to-australia-per-kg">Courier from India to Australia</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/international-courier-charges-india-to-saudi-arabia-per-kg">Courier India to Saudi Arabia</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/international-courier-charges-india-to-singapore-per-kg">Courier from India to Singapore</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/international-courier-charges-india-to-mexico-per-kg">Courier from India to Mexico</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/international-courier-charges-india-to-mauritius-per-kg">Courier from India to Mauritius</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
+                <ul class="nav-ul">
+                    <h1 class="f-s-16 f-c-greay f-w-8">ShoppRe Shipping</h1>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/international-courier-charges-india-to-denmark-per-kg">Shipping from India to Denmark</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/international-courier-charges-india-to-italy-per-kg">Shipping from India to Italy</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/international-courier-charges-india-to-finland-per-kg">Shipping from India to Finland</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/international-courier-charges-india-to-new-zealand-per-kg">Shipping India to New Zealand</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/international-courier-charges-india-to-qatar-per-kg">Shipping from India to Qatar</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/cheap-and-fast-shipping-service-from-india-to-usa">Shipping United States from India</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/international-courier-charges-india-to-brazil-per-kg">Shipping Brazil from India</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/international-courier-charges-india-to-belgium-per-kg">Shipping Belgium from India</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6 no-pad div-align-items-l">
+                <ul class="nav-ul">
+                    <h1 class="f-s-16 f-c-greay f-w-8">ShoppRe Offers</h1>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/shop-ship"> Shop in India, Ship Worldwide</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/new-year-offer">2020 New Year Offer</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/first-time-international-shipment-offer">First Shipment Discount</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/university-offer">Student Special Offer</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/easter-shopping-from-india-with-international-shipping">Easter Shipping Offer</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/onam-community-shipping-offer">Onam Community Offer</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/diwali-offer">Diwali Shipping Offer</a></li>
+                    <li class="li"><a itemprop="url" class=""
+                                      href="/send-rakhi-gifts-online-worldwide-at-cheap-rates">Rakhi Shipping Offer</a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <br>
+    </section>
 
-            <div class="col-sm-4">
-                <ul class="nav-ul">
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/ajio-online-shopping-international-shipping">AJIO.com International Delivery</a></li>
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/limeroad-online-shopping">Limeroad International Shipping</a></li>
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/tatacliq-online-shopping">TataCliq International Shipping</a></li>
-                </ul>
-            </div>
 
-            <div class="col-sm-4">
-                <ul class="nav-ul">
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/firstcry-online-shopping">Firstcry International Delivery</a></li>
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/nykaa-online-shopping">Nykaa International Delivery</a></li>
-                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/fabindia-online-shopping">FabIndia International Delivery</a></li>
-                </ul>
-            </div>
-    </div>
-    </div>
-</section>
+{{--<section>--}}
+{{--    <div class="container ">--}}
+{{--        <h1 class="f-s-18 f-c-d-greay f-w-8 txt-center">Shopping websites with ShoppRe hassle-free International Delivery from India</h1>--}}
+{{--        <div class="row txt-center">--}}
+{{--            <div class="col-sm-4">--}}
+{{--                <ul class="nav-ul">--}}
+{{--                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/amazon-india-shop-international-shipping" target="_blank">Amazon.in International Delivery</a></li>--}}
+{{--                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/flipkart-shopping-with-shoppre-from-india">Flipkart.com International Delivery</a></li>--}}
+{{--                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/myntra-online-shopping-shipping-from-india">Myntra.com International Delivery</a></li>--}}
+{{--                </ul>--}}
+{{--            </div>--}}
+
+{{--            <div class="col-sm-4">--}}
+{{--                <ul class="nav-ul">--}}
+{{--                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/ajio-online-shopping-international-shipping">AJIO.com International Delivery</a></li>--}}
+{{--                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/limeroad-online-shopping">Limeroad International Shipping</a></li>--}}
+{{--                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/tatacliq-online-shopping">TataCliq International Shipping</a></li>--}}
+{{--                </ul>--}}
+{{--            </div>--}}
+
+{{--            <div class="col-sm-4">--}}
+{{--                <ul class="nav-ul">--}}
+{{--                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/firstcry-online-shopping">Firstcry International Delivery</a></li>--}}
+{{--                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/nykaa-online-shopping">Nykaa International Delivery</a></li>--}}
+{{--                    <li class="li"><a class="f-s-14 f-c-l-gray" href="/fabindia-online-shopping">FabIndia International Delivery</a></li>--}}
+{{--                </ul>--}}
+{{--            </div>--}}
+{{--    </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
     <br>
     <br>
 @endsection

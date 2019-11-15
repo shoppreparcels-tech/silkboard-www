@@ -137,7 +137,7 @@
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>24/7 Customer Support</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Scanned of your documents</span></li>
                             <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>Country-specific Discount</span></li>
-                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery, online tracking</span></li>
+                            <li><img src="{{asset('img/images/chris-circle.png')}}" alt=""><span>3-6 days delivery</span></li>
 
                         </ul>
                     </div>
@@ -255,6 +255,8 @@
                 <a href="https://www.shoppre.com/personal-shopper">Shop Limeroad For Me!</a>
             </center>
             <br/>
+            <br>
+            <br>
         </div>
     </section>
     {{--<section>--}}
@@ -304,13 +306,13 @@
 
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
-                        <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
+                        <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
                     <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
                 <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align ">
-                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
+                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i> SUPPORT EMAIL</p>
                     <a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>
 
                 </div>
@@ -323,7 +325,7 @@
                     {{--<a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#"--}}
                        {{--class="header2 p-color-white">Chat Now</a>--}}
                     <a href="https://lc.chat/now/10584982/"
-                       target="_blank" class="header2 p-color-white">Chat Now</a>
+                       target="_blank" class="header2 p-color-white"> Chat Now</a>
 
                 </div>
             </div>
@@ -351,13 +353,13 @@
 
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
-                        <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
+                        <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
                     <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
 
                 </div>
 
                 <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align " style="color: #fdf699">
-                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
+                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i> SUPPORT EMAIL</p>
                     <a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>
 
                 </div>
@@ -366,7 +368,7 @@
                      style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
-                        </i>Live Chat</p>
+                        </i> Live Chat</p>
                     <a href="https://lc.chat/now/10584982/"
                        class="header2 p-color-white">Chat Now</a>
 

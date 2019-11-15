@@ -99,9 +99,9 @@
                             <li class="col-sm-3">
                                 <ul>
                                     <li class="dropdown-header mega-menu-header-text">
-                                        SHOP & SHIP
+                                        Shop & Ship
                                         <div class="div-header-devider"></div>
-                                    </li>
+                                    </li><span class="f-s-10 f-c-blue f-w-9">(shoppreparcels.com)</span>
                                     <div class="">
                                         <p class="header6 p-color-cement">
                                             Shop from any Indian online store; we offer worldwide shipping services along with;</p>
@@ -137,7 +137,7 @@
                                     <li class="dropdown-header mega-menu-header-text">
                                         Courier
                                         <div class="div-header-devider"></div>
-                                    </li>
+                                    </li><span class="f-s-10 f-c-blue f-w-9">(shopprecouriers.com)</span>
                                     <div class="mega-menu-international">
                                             {{--<a href="#" style="padding-left: 0px;">--}}
                                             <h6 class="header6 p-color-cement"><strong>Domestic</strong></h6>
