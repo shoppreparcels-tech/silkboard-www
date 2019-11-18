@@ -596,7 +596,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://www.amazon.in/b?node=20307559031&pf_rd_p=0c4bba91-1e2c-480f-8bf9-2623b519e715&pf_rd_r=C1HSSBAHS03F7Q60DBT6" title="Click Here" target="_blank">
+                        <a href="/amazon-online-shopping" title="Click Here" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
                             <div class="h-div text-center"><h4 class="cord-header-size f-c-white">AMAZON FASHION</h4></div>

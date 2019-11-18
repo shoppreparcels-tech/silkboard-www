@@ -62,7 +62,7 @@
                 <div class="col-sm-4">
 
                     <div class="shopandship ">
-                        <a href="https://www.amazon.in/b?node=20307559031&pf_rd_p=0c4bba91-1e2c-480f-8bf9-2623b519e715&pf_rd_r=C1HSSBAHS03F7Q60DBT6" target="_blank">
+                        <a href="/amazon-online-shopping" target="_blank">
                         <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Wedding Store</h2>
                         <br/>
                         <p>Fashion | Beauty</p><br>

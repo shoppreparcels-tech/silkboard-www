@@ -196,7 +196,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Festive Fashion</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Wedding Store</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up to 70% Off</h5>
 {{--                            <div class="ecomSmallBox" style="height: 94px;">--}}
                             <div class="ecomSmallBox">
@@ -214,7 +214,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">Big Fat Indian wedding</h4>
                             <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://clnk.in/jWEW" target="_blank">
+                                <a href="/shoppersstop-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">SHOPPERSSTOP</p>
 {{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_599691d00e27e.png">--}}
                                 </a>
