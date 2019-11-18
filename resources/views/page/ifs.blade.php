@@ -124,9 +124,9 @@
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                 <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉Mid Season Sale (40-80% Off)</a> |
-                <a href="https://clnk.in/jXZz" title="myntra" target="_blank">2. Myntra.com 👉Just Kidding </a> |
-                <a href="/amazon-online-shopping" title="amazon" target="_blank">3. Amazon.in 👉Festive Fashion</a> |
-                <a href="/limeroad-online-shopping" title="ajio" target="_blank">4. Limeroad.com 👉Best Shopping Offers</a>
+                <a href="/myntra-online-shopping" title="myntra" target="_blank">2. Myntra.com 👉Mid Season Sale (50-80% Off) </a>
+{{--                <a href="/amazon-online-shopping" title="amazon" target="_blank">3. Amazon.in 👉Festive Fashion</a> |--}}
+{{--                <a href="/limeroad-online-shopping" title="ajio" target="_blank">4. Limeroad.com 👉Best Shopping Offers</a>--}}
             </marquee>
         </div>
         <div class="container" id="how-it-works">
