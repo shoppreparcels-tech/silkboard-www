@@ -473,7 +473,7 @@
                             </a>
                         </div>
                         <div class="col-md-4 col-xs-4 pad-l-5">
-                            <a class="f-s-18 f-c-white" href="{{route('schedulePickup.Index')}}">
+                            <a class="f-s-18 f-c-white" id="btn-pickup-schedule" href="{{route('schedulePickup.Index')}}">
                                 <div class="col-xs-12 col-md-12 pad-0-20 div-s-br cord-height">
                                     <h5 class="f-s-18 f-c-white txt-a-c box-margin-top">Best Courier Service
                                         <br>(Schedule Pickup)<br></h5>
@@ -1499,6 +1499,14 @@
                 }, 2000);
             });
         }
+
+        mixpanel.track_links("#btn-pickup-schedule", "Click pickup link Home Page", {
+            "referrer": document.referrer
+        });
+
+        // $('#btn-pickup-schedule').click(function () {
+        //     console.log('Redirect to home page');
+        // })
 
         $("#searchKey").validate({
             submitHandler: function (form) {
