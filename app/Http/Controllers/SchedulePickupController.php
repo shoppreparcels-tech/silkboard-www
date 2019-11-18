@@ -129,7 +129,7 @@ class SchedulePickupController extends Controller
         // Asana task disabled for temporary
 //         $response = AsanaTaskOperations::createTask($name, $all_details, "S");
 
-//          $this->sendEmailPickup($request);
+          $this->sendEmailPickup($request);
 
 
         $url = env('MIGRATION_PREFIX') ."courier.".env('DOMAIN')."/api/shipments";
