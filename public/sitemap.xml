@@ -42,7 +42,7 @@
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping/drop-off-location</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.60</priority>
 </url>
 <url>
@@ -57,8 +57,8 @@
 </url>
 <url>
     <loc>https://www.shoppre.com/onam-community-shipping-offer</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.80</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/best-international-relocation-packers-movers</loc>
@@ -92,8 +92,8 @@
 </url>
 <url>
     <loc>https://www.shoppre.com/diwali-offer</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.78</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/send-international-courier-from-india</loc>
@@ -102,13 +102,13 @@
 </url>
 <url>
     <loc>https://www.shoppre.com/indian-diwali-sweets-dryfruits-internatioanl-delivery</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.65</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/indian-diwali-sweets-dryfruits-free-internatioanl-delivery</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.75</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/flipkart-online-shopping</loc>
@@ -171,6 +171,11 @@
     <priority>0.72</priority>
 </url>
 <url>
+    <loc>https://www.shoppre.com/chumbak-online-shopping</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.72</priority>
+</url>
+<url>
     <loc>https://www.shoppre.com/myntra-women-maxi-dresses-international-shipping</loc>
     <changefreq>daily</changefreq>
     <priority>0.70</priority>
@@ -187,7 +192,7 @@
 </url>
 <url>
   <loc>https://www.shoppre.com/dhl</loc>
-  <changefreq>daily</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.60</priority>
 </url>
 <url>
@@ -197,7 +202,7 @@
 </url>
 <url>
   <loc>https://www.shoppre.com/dtdc</loc>
-  <changefreq>daily</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.60</priority>
 </url>
 <url>
@@ -222,8 +227,8 @@
 </url>
 <url>
     <loc>https://www.shoppre.com/holi-india-shopping-with-international-delivery</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.70</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.60</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/flipkart-usa-shopping</loc>
@@ -247,8 +252,8 @@
 </url>
 <url>
     <loc>https://www.shoppre.com/dropshipping-from-india-and-worldwide-delivery</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.80</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/kerala-onam-online-shopping-guide-from-india</loc>
@@ -257,8 +262,8 @@
 </url>
 <url>
     <loc>https://www.shoppre.com/month-end-offer-shipping-worldwide</loc>
-    <changefreq>daily</changefreq>
-<priority>0.70</priority>
+    <changefreq>weekly</changefreq>
+<priority>0.60</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/send-valentines-day-gifts-international-shipping</loc>
@@ -382,293 +387,293 @@
 </url>
 <url>
 <loc>https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.80</priority>
 </url>
 <url>
 <loc>https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.80</priority>
 </url>
 <url>
 <loc>https://www.shoppre.com/international-courier-charges-india-to-canada-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.80</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.80</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-singapore-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.80</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-germany-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.80</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-south-africa-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.79</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-japan-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-new-zealand-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-malaysia-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-switzerland-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-mauritius-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-qatar-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-denmark-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-mexico-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-sri-lanka-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-hong-kong-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-spain-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-brazil-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-philippines-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-belgium-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-finland-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-italy-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-saudi-arabia-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/international-courier-charges-india-to-nigeria-per-kg</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.75</priority>
 </url>
 <url>
 
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/las-vegas</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/chicago</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/los-angeles</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/michigan</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/new-jersey</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/new-york</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/florida</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/texas</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/california</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/virginia</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/washington</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/san-francisco</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/illinois</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/georgia</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/arizona</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/pennsylvania</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/colorado</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/alaska</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/delaware</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/hawaii</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/arkansas</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/alabama</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/detroit</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/austin</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/connecticut</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/north-america</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/edison</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/jersey-city</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/rockland-county</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/cupertino</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/palo-alto</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/caribbean</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/east-west-coast</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.70</priority>
 </url>
 <url>
@@ -683,12 +688,12 @@
 </url>
 <url>
   <loc>https://www.shoppre.com/country-guide</loc>
-  <changefreq>daily</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.50</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/countries</loc>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.50</priority>
 </url>
 <url>
@@ -738,23 +743,23 @@
 </url>
 <url>
   <loc>https://www.shoppre.com/terms-and-conditions</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.70</priority>
+  <changefreq>weekly</changefreq>
+  <priority>0.50</priority>
 </url>
 <url>
   <loc>https://www.shoppre.com/privacy-policy</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.70</priority>
+  <changefreq>weekly</changefreq>
+  <priority>0.50</priority>
 </url>
 <url>
   <loc>https://www.shoppre.com/refund-and-cancellation-policy</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.70</priority>
+  <changefreq>weekly</changefreq>
+  <priority>0.50</priority>
 </url>
 <url>
   <loc>https://www.shoppre.com/how-it-works</loc>
   <changefreq>daily</changefreq>
-  <priority>0.74</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.shoppre.com/shipping-from-india-to-Afghanistan</loc>

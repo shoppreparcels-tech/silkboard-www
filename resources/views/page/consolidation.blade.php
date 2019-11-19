@@ -25,25 +25,25 @@
     <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 
     <script type='application/ld+json'>
-{
-  "@context": "http://www.schema.org",
-  "@type": "Website",
-  "name": "ShoppRe",
-  "alternateName": "ShoppRe Package Consolidation",
-  "url": "https://www.shoppre.com/consolidation-service",
-  "image": "https://www.shoppre.com/img/logo.png",
-  "description": "ShoppRe package consolidation service helps in combining your packages purchased from multiple Indian stores into one shipment. Saving upto 80% on international shipping costs.",
-    "sameAs": [
-    "https://www.facebook.com/goshoppre/",
-    "https://twitter.com/Go_Shoppre",
-    "https://www.instagram.com/shoppre_official",
-    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
-    "https://www.linkedin.com/company/shoppre.com",
-    "https://in.pinterest.com/shoppre",
-    "https://play.google.com/store/apps/details?id=com.shoppre.play"
-  ]
-}
-</script>
+            {
+              "@context": "http://www.schema.org",
+              "@type": "Website",
+              "name": "ShoppRe",
+              "alternateName": "ShoppRe Package Consolidation",
+              "url": "https://www.shoppre.com/consolidation-service",
+              "image": "https://www.shoppre.com/img/logo.png",
+              "description": "ShoppRe package consolidation service helps in combining your packages purchased from multiple Indian stores into one shipment. Saving upto 80% on international shipping costs.",
+                "sameAs": [
+                "https://www.facebook.com/goshoppre/",
+                "https://twitter.com/Go_Shoppre",
+                "https://www.instagram.com/shoppre_official",
+                "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+                "https://www.linkedin.com/company/shoppre.com",
+                "https://in.pinterest.com/shoppre",
+                "https://play.google.com/store/apps/details?id=com.shoppre.play"
+              ]
+            }
+       </script>
 @endsection
 
 @section('content')
@@ -74,6 +74,7 @@
           </div>
       </div>
     </section>
+
     <section class="price_service">
         <div class="container">
             <h2>ShoppRe's consolidation service</h2>

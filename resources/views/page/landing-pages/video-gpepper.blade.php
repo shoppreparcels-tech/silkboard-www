@@ -271,6 +271,7 @@
             </center>
         </div>
     </section>
+
 @endsection
 
 @section('js_script')

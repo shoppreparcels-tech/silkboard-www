@@ -690,6 +690,7 @@ Route::get('/lifestylestores-online-shopping', 'PageController@lifestylestoresPr
 Route::get('/pepperfry-online-shopping', 'PageController@pepperfryProduct')->name('pepperfry-product');
 Route::get('/fabindia-online-shopping', 'PageController@fabindiaProduct')->name('fabindia-product');
 Route::get('/shoppersstop-online-shopping', 'PageController@shoppersstopProduct')->name('shoppersstop-product');
+Route::get('/chumbak-online-shopping', 'PageController@chumbakProduct')->name('chumbak-product');
 
 /*-------- Ecommerce Category Product Landing Pages ------*/
 Route::get('/myntra-women-maxi-dresses-international-shipping', 'PageController@maxidressMyntra')->name('maxidress-myntra');

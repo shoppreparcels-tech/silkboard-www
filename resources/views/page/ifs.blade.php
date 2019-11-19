@@ -892,20 +892,20 @@
         </div>
         <div class="container div-store-padding">
             <center>
-                <img     width=" 100%" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/069b1d2d-ebba-47bb-ab43-c76f422fcee3.png" alt="Top Indian online Stores international shipping">
+                <img width="100%" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/069b1d2d-ebba-47bb-ab43-c76f422fcee3.png" alt="Top Indian online Stores international shipping">
             </center>
         </div>
         <br>
         <div class="container pad-b-30">
             <center>
-                <a href="{{route('stores1')}}" class="f-s-18 f-c-d-gray font-weight-900 text-center" style="color: #4285f4" style="margin-top: -26px">List of Top Indian
+                <a href="{{route('stores1')}}" target="_blank" class="f-s-18 f-c-d-gray font-weight-900 text-center" style="color: #4285f4" style="margin-top: -26px">List of Top Indian
                     Stores</a>
             </center>
         </div>
     </section>
     <section class="content-oes">
         <div class="container">
-            <h3 class="header2 p-color-cement-dark font-weight-900">SHOP & SHIP from India to Worldwide with ShoppRe!</h3>
+            <h4 class="header2 p-color-blue font-weight-900">SHOP & SHIP from India to Worldwide with ShoppRe!</h4>
 
             <p>E-commerce industry has revolutionized our shopping experience and we extend the same with presenting
                 ShoppRe as <a href="{{route('home')}}"> the best package forwarding company</a> for shipping international purchases . Hence ‘Shop and Ship’! </p>
@@ -1045,7 +1045,7 @@
                     <div class="panel outer border-1px">
                         <ul>
                             <li><span><a href="limeroad-shopping-international-shipping">Limeroad Online Shopping Site</a></span></li>
-                            <li><span><a href="https://ship.shoppre.com/online-stores-india/suta-online-shopping-india/" target="_blank">Suta Sarees Online Shopping</a></span></li>
+                            <li><span><a href="/chumbak-online-shopping" target="_blank">Chumbak Online Shopping</a></span></li>
                             <li><span><a href="https://www.shoppre.com/firstcry-online-shopping" target="_blank">FirstCry Baby & Kids Shopping</a></span></li>
                             <li><span><a href="https://ship.shoppre.com/online-stores-india/patanjali-ayurved-products-international-delivery/" target="_blank">Patanjali Ayurvedic Shopping</a></span></li>
                             <li><span><a href="https://ship.shoppre.com/online-stores-india/snapdeal-international-delivery-shopping-from-india/" target="_blank">Snapdeal Online Shopping</a></span></li>

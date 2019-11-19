@@ -139,10 +139,11 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale: <span class="f-s-25 f-c-red f-w-9">Winter Wear Upto 70% Off</span> /
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale /
                         Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
                 {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
+{{--                <span class="f-s-25 f-c-red f-w-9">Winter Wear Upto 70% Off</span>--}}
                 {{--                    <div class="">--}}
                 {{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20AJIO%20International%20Shipping" target="_blank">--}}
                 {{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
@@ -659,10 +660,88 @@
 {{--                    Serangoon Road is lit with lights, and you can see fireworks, candles being lit, beautiful rangoli decorations and liveliness of people in the night market.--}}
 {{--                    Buy Indian sweets online from Singapore and add more joy to celebrations.--}}
 {{--                </p>--}}
-{{--            </div>--}}
+            </div>
             <br>
     </section>
-{{--    <section class="chris-benefits">--}}
+
+    <section class="chris-benefits">
+        <div class="container" >
+            <center>
+                <h1 class="f-s-24 f-c-blue f-w-8 txt-center">ShoppRe Receives & Ships over <span class="f-c-red">₹25,00,000/-</span> worth FLIPKART Purchases monthly!</h1>
+            </center>
+            <br>
+            <div class="row">
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox outer border-1px">
+                            <h1 class="f-s-26 f-c-red f-w-8">40+</h1>
+                            <h5 class="header6 p-color-cement font-weight-900">Fan of Flipkart.com Online Shop?
+                                <br>
+                                Shop from 40+ categories </h5>
+                            <div class="ecomSmallBox">
+                                <a href="/flipkart-shopping-with-shoppre-from-india" target="_blank">
+                                    <p class="header4 p-color-blue font-weight-900 txt-u-l">#flipkartStore</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox outer border-1px">
+                            <h1 class="f-s-26 f-c-red f-w-8">220+</h1>
+                            <h5 class="header6 p-color-cement font-weight-900">Offers delivery to over 220 countries.
+                                <br>
+                                With world-class customer service</h5>
+                            <div class="ecomSmallBox">
+                                <a href="/countries" target="_blank">
+                                    <p class="header4 p-color-blue font-weight-900 txt-u-l">#worldwideDelivery</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox outer border-1px">
+                            <h1 class="f-s-26 f-c-red f-w-8">3-6 Days</h1>
+                            <h5 class="header6 p-color-cement font-weight-900">3-6 days door-to-door safe package
+                                <br>
+                                delivery with online tracking</h5>
+                            <div class="ecomSmallBox" >
+                                <a href="/shop-from-india-ship-worldwide" target="_blank">
+                                    <p class="header4 p-color-blue font-weight-900 txt-u-l">#transitTimes</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <center>
+                        <div class="EcomBox outer border-1px">
+                            <h1 class="f-s-26 f-c-red f-w-8">60-80%</h1>
+                            <h5 class="header6 p-color-cement font-weight-900">Save by Storage, Consolidation
+                                <br>
+                                & Repackaging. Discounted Rates.</h5>
+                            <div class="ecomSmallBox">
+                                <a href="/cheap-rates-international-shipping-cost-calculator" target="_blank">
+                                    <p class="header4 p-color-blue font-weight-900 txt-u-l">#cheapRates</p>
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br>
+        <br>
+    </section>
+
+
+
+    {{--    <section class="chris-benefits">--}}
 {{--        <div class="container" >--}}
 {{--            <center>--}}
 {{--                <h2 class="header1 p-color-cement-dark font-30">Featured Services & Benefits</h2>--}}
@@ -743,6 +822,7 @@
             </div>
         </div>
     </section>
+
     <section class="d-contact-section-desktop">
         <div class="container " id="contact-support">
             <div class="row" id="d-contcat">
@@ -789,6 +869,7 @@
         </div>
         <br>
     </section>
+
 @endsection
 
 @section('js_script')

@@ -84,53 +84,54 @@
                     </div>
                     <center>
                         <h1 class="f-s-20 font-weight-900 f-c-d-greay">Ship What You Love from India & Shop With Your <a href="/indian-virtual-address" target="_blank">
-                                Free ShoppRe Indian Virtual Address‎</a></h1>
+                                Free ShoppRe Indian Virtual Address</a></h1>
                     </center>
                 </div>
             </div>
 
-            <label class="shop">Shop from <span class="font-weight-900">1000+</span>  Indian online stores ‘Including</label>
-            <div class="row" style="padding-right:10px;padding-left: 30px">
+            <label class="shop txt-u-l f-s-20 f-c-gray" >Shop from 1000+  Indian online stores</label>
+            <div class="container div-store-padding">
                 <center>
-                    <div class="col-md-1 col-md-offset-2 d-stores-box col-xs-6 col-xs-offset-2 ">
-                        <center class="d-online-stores">
-                            <a href="{{route('flipkart.landing')}}" target="_blank">
-                            <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/flipkart-logo.png" alt="FlipKart"/>
-                            </a>
-                        </center>
-
-                    </div>
-                    <div class="col-md-1  d-stores-box col-xs-6">
-                        <center class="d-online-stores">
-                            <a href="/amazon-india-shop-international-shipping" target="_blank">
-                            <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon_logo_RGB.png" alt="Amazon"/>
-                            </a>
-                        </center>
-                    </div>
-                    {{--<div class="col-md-1  d-stores-box col-xs-4">--}}
-                        {{--<center class="d-online-stores">--}}
-                            {{--<img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1.png"--}}
-                                 {{--alt="Jabong"/>--}}
-                        {{--</center>--}}
-                    {{--</div>--}}
-                    <div class="col-md-1  d-stores-box col-xs-4">
-                        <center class="d-online-stores">
-                            <a href="https://ship.shoppre.com/online-stores-india/snapdeal-international-delivery-shopping-from-india/" target="_blank">
-                            <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/myntra.png" alt="Myntra"/>
-                            </a>
-                        </center>
-                    </div>
-                    <div class="col-md-1  d-stores-box col-xs-4">
-                        <center class="d-online-stores">
-                            <a href="{{route('myntra.landing')}}" target="_blank">
-                            <img class="shoppingKart"
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1(1).png" alt="Myntra"/>
-                            </a>
-                        </center>
-                    </div>
-
+                    <img width="100%" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/069b1d2d-ebba-47bb-ab43-c76f422fcee3.png"
+                         alt="Top Indian online Stores international shipping">
                 </center>
             </div>
+
+{{--            <div class="row" style="padding-right:10px;padding-left: 30px">--}}
+{{--                <center>--}}
+{{--                    <div class="col-md-1 col-md-offset-2 d-stores-box col-xs-6 col-xs-offset-2 ">--}}
+{{--                        <center class="d-online-stores">--}}
+{{--                            <a href="{{route('flipkart.landing')}}" target="_blank">--}}
+{{--                            <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/flipkart-logo.png" alt="FlipKart"/>--}}
+{{--                            </a>--}}
+{{--                        </center>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-1  d-stores-box col-xs-6">--}}
+{{--                        <center class="d-online-stores">--}}
+{{--                            <a href="/amazon-india-shop-international-shipping" target="_blank">--}}
+{{--                            <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon_logo_RGB.png" alt="Amazon"/>--}}
+{{--                            </a>--}}
+{{--                        </center>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-1  d-stores-box col-xs-4">--}}
+{{--                        <center class="d-online-stores">--}}
+{{--                            <a href="https://ship.shoppre.com/online-stores-india/snapdeal-international-delivery-shopping-from-india/" target="_blank">--}}
+{{--                            <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/myntra.png" alt="Myntra"/>--}}
+{{--                            </a>--}}
+{{--                        </center>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-1  d-stores-box col-xs-4">--}}
+{{--                        <center class="d-online-stores">--}}
+{{--                            <a href="{{route('myntra.landing')}}" target="_blank">--}}
+{{--                            <img class="shoppingKart"--}}
+{{--                                 src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1(1).png" alt="Myntra"/>--}}
+{{--                            </a>--}}
+{{--                        </center>--}}
+{{--                    </div>--}}
+
+{{--                </center>--}}
+{{--            </div>--}}
+
             <div class="col-md-12 rowdetails">
                 <center>
                     <div class="col-md-3 col-md-offset-1">
@@ -262,7 +263,7 @@
                     <div class="panel outer border-1px">
                         <ul>
                             <li><span><a href="limeroad-shopping-international-shipping">Limeroad Online Shopping Site</a></span></li>
-                            <li><span><a href="https://ship.shoppre.com/online-stores-india/suta-online-shopping-india/" target="_blank">Suta Sarees Online Shopping</a></span></li>
+                            <li><span><a href="/chumbak-online-shopping" target="_blank">Chumbak Online Shopping</a></span></li>
                             <li><span><a href="https://www.shoppre.com/firstcry-online-shopping" target="_blank">FirstCry Baby & Kids Shopping</a></span></li>
                             <li><span><a href="https://ship.shoppre.com/online-stores-india/patanjali-ayurved-products-international-delivery/" target="_blank">Patanjali Ayurvedic Shopping</a></span></li>
                             <li><span><a href="https://ship.shoppre.com/online-stores-india/snapdeal-international-delivery-shopping-from-india/" target="_blank">Snapdeal Online Shopping</a></span></li>

@@ -142,7 +142,7 @@
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">November Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Upto 50% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://www.chumbak.com/sale/ngg/c/" target="_blank">
+                                <a href="/chumbak-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a68d693f754.png"/>
                                 </a>
                             </div>
@@ -224,14 +224,13 @@
                     <br>
                 </div>
 
-
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Men Fashion</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Weeding Store</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Upto 80% Off</h5>
                             <div class="ecomSmallBox">
-                                <a href="https://clnk.in/jVqr" target="_blank">
+                                <a href="https://clnk.in/jZre" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">SNAPDEAL</p>
                                 </a>
                             </div>

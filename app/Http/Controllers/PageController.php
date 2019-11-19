@@ -527,6 +527,10 @@ class PageController extends Controller
     {
         return view('page.landing-pages.shoppersstop-product');
     }
+    public function chumbakProduct()
+    {
+        return view('page.landing-pages.chumbak-product');
+    }
     public function maxidressMyntra()
     {
         return view('page.landing-pages.maxidress-myntra');
