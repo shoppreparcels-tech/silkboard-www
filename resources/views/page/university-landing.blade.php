@@ -62,6 +62,7 @@
 
         </div>
     </section>
+
     <section >
         <div class="container christmas-service">
             <div class="row">
@@ -355,6 +356,9 @@
     <script>
         $(document).ready(function(){$("#diwali_coupon").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var t=$("input[name='email']").val(),n=$("input[name='ContactNumber']").val(),i=$("input[name=_token]").val();jQuery.ajax({url:"university",type:"POST",data:{_token:i,email:t,phone:n,mailtrain_type:"university"},success:function(e){console.log(e),window.location.replace("https://www.shoppre.com/customer/register")}})}})});var input=document.querySelector("#phone");window.intlTelInput(input,{utilsScript:"build/js/utils.js"});
     </script>
+
+    <script>(function(t,e,s,o){var n,a,c;t.SMCX=t.SMCX||[],e.getElementById(o)||(n=e.getElementsByTagName(s),a=n[n.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=o,c.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2BMiS1nNDyC7u_2FxT97yjYpqYx53jE3qnjxKHH4l8BSWc.js"].join(""),a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script>
+
 @endsection
 
 

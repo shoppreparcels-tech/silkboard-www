@@ -87,14 +87,14 @@
 {{--                                    <li><a class="header6 p-color-cement-dark" href="{{route('story.index')}}">Our Story</a></li>--}}
                                     <li><a class="header6 p-color-cement-dark" href="https://www.linkedin.com/company/shoppre.com/" >Our Team</a>
                                     <li><a class="header6 p-color-cement-dark" href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank">Refer & Earn</a></li>
-                                    <li><a class="header6 p-color-cement-dark" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" >Careers</a></li>
+                                    <li><a class="header6 p-color-cement-dark" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>
                                     <li><a class="header6 p-color-cement-dark" href="{{route('award.index')}}">Awards</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
                     <li class="dropdown mega-dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="btn-home-page-service-menu">Services <span class="caret"></span></a>
                         <ul class="dropdown-menu mega-dropdown-menu mega-menu-padding-left menu-content-service">
                             <li class="col-sm-3">
                                 <ul>
@@ -108,14 +108,14 @@
                                     </div>
 
                                     <div class="div-megamenu-hover-effects">
-                                        <a class="mega-menu-hyperlinks" href="{{route('indianVirtual')}}">A FREE Local, Virtual Address</a>
+                                        <a class="mega-menu-hyperlinks" href="{{route('indianVirtual')}}" target="_blank">A FREE Local, Virtual Address</a>
 
                                         <p class="header6 p-color-cement" style="margin-top: 10px">We’ll receive your package at our facility, store it till all your packages arrive,
                                             and consolidate & ship them off to your destination abroad.</p>
                                     </div>
 
                                     <div class="div-megamenu-hover-effects">
-                                        <a href="/personal-shopper-shopping-concierge-from-india" class="mega-menu-hyperlinks">
+                                        <a href="/personal-shopper-shopping-concierge-from-india" target="_blank" class="mega-menu-hyperlinks">
                                             Personal Shopper
                                         </a>
 
@@ -135,21 +135,21 @@
                             <li class="col-sm-3">
                                 <ul>
                                     <li class="dropdown-header mega-menu-header-text">
-                                        Courier
+                                        Courier Service
                                         <div class="div-header-devider"></div>
                                     </li><span class="f-s-10 f-c-blue f-w-9">(shopprecouriers.com)</span>
                                     <div class="mega-menu-international">
                                             {{--<a href="#" style="padding-left: 0px;">--}}
-                                            <h6 class="header6 p-color-cement"><strong>Domestic</strong></h6>
+{{--                                            <h6 class="header6 p-color-cement"><strong>Domestic</strong></h6>--}}
                                             {{--</a>--}}
 
-                                        <p class="header6 p-color-cement">
-                                            Door-to-door courier service within India made easy, at affordable rates!
-                                        </p>
-                                        <a class="mega-menu-hyperlinks" href="{{route('schedulePickup.Index')}}">
-                                            Schedule a Pickup
-                                        </a>
-                                    </div>
+{{--                                        <p class="header6 p-color-cement">--}}
+{{--                                            Door-to-door courier service within India made easy, at affordable rates!--}}
+{{--                                        </p>--}}
+{{--                                        <a class="mega-menu-hyperlinks" href="{{route('schedulePickup.Index')}}">--}}
+{{--                                            Schedule a Pickup--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
                                     <div class="mega-menu-international">
 
                                         {{--<a href="#" style="padding-left: 0px; margin-top: 20px">--}}
@@ -157,7 +157,7 @@
                                         {{--</a>--}}
 
                                         <p class="header6 p-color-cement">We’ll come to you, pick up the courier and ship it to anywhere in the world.</p>
-                                        <a href="{{route('schedulePickup.Index')}}" class="mega-menu-hyperlinks">Schedule a Pickup
+                                        <a id="btn-service-schedule-pickup" href="{{route('schedulePickup.Index')}}" class="mega-menu-hyperlinks">Schedule a Pickup
                                         </a>
                                     </div>
 
@@ -173,12 +173,12 @@
                                         <p class="header6 p-color-cement">Have you always been a fan of Indian products & brands? Shop from
                                             <span style="color:#e056ef">Amazon India, Flipkart, Myntra, AJIO</span>
                                             & more, and we’ll get it to your address abroad.</p>
-                                        <a href="{{route('stores1')}}" class="mega-menu-hyperlinks" >
+                                        <a href="{{route('stores1')}}" class="mega-menu-hyperlinks" target="_blank">
                                             Browse Stores
                                         </a>
                                         <p class="header6  p-color-cement" style="margin-top: 20px">Are you a store owner from India? Enlist your store with us & let our customers shop from you!
                                         </p>
-                                        <a href="{{route('stores1')}}" class="mega-menu-hyperlinks" >Enlist Your Store</a>
+                                        <a href="{{route('stores1')}}" target="_blank" class="mega-menu-hyperlinks" >Enlist Your Store</a>
                                     </div>
 
                                 </ul>
@@ -245,3 +245,25 @@
         </nav>
     </div>
 </header>
+
+
+{{--@section('js_script')--}}
+    {{--@include('../partials/mixpanel')--}}
+    {{--<script type="text/javascript">--}}
+        {{--$(document).ready(function() {--}}
+            {{--debugger;--}}
+            {{--$("#btn-home-page-service-menu").click(function (e) {--}}
+                {{--e.preventDefault();--}}
+                {{--mixpanel.track_links("#btn-home-page-service-menu", "Click Home Page Service menu", {--}}
+                    {{--"referrer": document.referrer--}}
+                {{--})--}}
+            {{--});--}}
+            {{--$("#btn-service-schedule-pickup").click(function (e) {--}}
+                {{--e.preventDefault();--}}
+                {{--mixpanel.track_links("#btn-service-schedule-pickup", "Click Home Page Service menu schedule pickup", {--}}
+                    {{--"referrer": document.referrer--}}
+                {{--})--}}
+            {{--});--}}
+        {{--});--}}
+    {{--</script>--}}
+{{--@endsection--}}

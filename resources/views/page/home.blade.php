@@ -1478,6 +1478,22 @@
             });
         });
 
+        $("#btn-home-page-service-menu").click(function (e) {
+            debugger;
+            e.preventDefault();
+            mixpanel.track_links("#btn-home-page-service-menu", "Click Home Page Service menu", {
+                "referrer": document.referrer
+            })
+        });
+
+        $("#btn-service-schedule-pickup").click(function (e) {
+            debugger;
+            e.preventDefault();
+            mixpanel.track_links("#btn-service-schedule-pickup", "Click Home Page Service menu schedule pickup", {
+                "referrer": document.referrer
+            })
+        });
+
         if ($('#back-to-top').length) {
             var scrollTrigger = 100, // px
                 backToTop = function () {
@@ -1531,7 +1547,7 @@
                     }
                 });
             }
-        });
+        });0
        </script>
 @endsection
 
