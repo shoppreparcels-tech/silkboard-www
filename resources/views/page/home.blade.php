@@ -1415,7 +1415,12 @@
 @endsection
 
 @section('js_script')
+    @include('../partials/mixpanel')
     <script>
+        mixpanel.track_links("#btn-pickup-schedule", "Click pickup link Home Page", {
+            "referrer": document.referrer
+        });
+
         $(document).ready(function () {
             let html = '';
             let shipmentItem = '';
@@ -1500,9 +1505,7 @@
             });
         }
 
-        mixpanel.track_links("#btn-pickup-schedule", "Click pickup link Home Page", {
-            "referrer": document.referrer
-        });
+
 
         // $('#btn-pickup-schedule').click(function () {
         //     console.log('Redirect to home page');
