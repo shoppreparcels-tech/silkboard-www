@@ -142,15 +142,45 @@
 {{--                    <span class="f-s-25 f-c-red f-w-9">Big Bag Days (25-31 Oct)</span>--}}
                 </div>
 
-{{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
-{{--                    <div class="">--}}
-{{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20TATA-CLiQ" target="_blank">--}}
-{{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
-{{--                            <span class="font-16"></span>--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
             </div>
+            <div class="row text-center">
+                <div class="col-sm-4 col-xs-6 col-md-3">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <a href="https://www.tatacliq.com/marriage-of-colours-women?&icid2=week:tsb:tmain:hmp:m10:mulb:best:01:R10:clp:bx:001" target="_blank">
+                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16645511184414.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <a href="https://www.tatacliq.com/marriage-of-colours-men?&icid2=week:tsb:tmain:hmp:m11:mulb:best:02:R10:clp:bx:001" target="_blank">
+                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16645510922270.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <a href="https://www.tatacliq.com/dark-blooms?&icid2=shopl:ofc:tmain:hmp:m01:mulb:best:02:R46:clp:bx:001" target="_blank">
+                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16645509611550.jpg">
+                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 45px !important;font-weight: normal">
+                            For HIM | For HER <br>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <a href="https://www.tatacliq.com/watches/c-msh15/page-1?q=%3Arelevance%3Acategory%3AMSH15%3Acategory%3AMSH15%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Agender%3AMen%3Astrapmaterial%3AGenuine+Leather&icid2=week:tsb:tmain:hmp:m15:mulb:best:04:R10:clp:bx:001" target="_blank">
+                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16645511053342.jpg">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
             <div class="row text-center">
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">

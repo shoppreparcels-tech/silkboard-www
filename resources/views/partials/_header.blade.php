@@ -247,23 +247,6 @@
 </header>
 
 
-{{--@section('js_script')--}}
-    {{--@include('../partials/mixpanel')--}}
-    {{--<script type="text/javascript">--}}
-        {{--$(document).ready(function() {--}}
-            {{--debugger;--}}
-            {{--$("#btn-home-page-service-menu").click(function (e) {--}}
-                {{--e.preventDefault();--}}
-                {{--mixpanel.track_links("#btn-home-page-service-menu", "Click Home Page Service menu", {--}}
-                    {{--"referrer": document.referrer--}}
-                {{--})--}}
-            {{--});--}}
-            {{--$("#btn-service-schedule-pickup").click(function (e) {--}}
-                {{--e.preventDefault();--}}
-                {{--mixpanel.track_links("#btn-service-schedule-pickup", "Click Home Page Service menu schedule pickup", {--}}
-                    {{--"referrer": document.referrer--}}
-                {{--})--}}
-            {{--});--}}
-        {{--});--}}
-    {{--</script>--}}
-{{--@endsection--}}
+@section('js_script')
+    @include('../partials/mixpanel')
+@endsection

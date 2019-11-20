@@ -387,8 +387,8 @@
             </div>
 
             <div class="row text-center">
-                <p class="f-s-20"><span class="f-c-red f-w-9">Mid Season Sale 16th-19th Nov <a href="https://www.myntra.com" target="_blank">
-                            👉 (40-80% OFF)</a></span></p>
+{{--                <p class="f-s-20"><span class="f-c-red f-w-9">Mid Season Sale 16th-19th Nov <a href="https://www.myntra.com" target="_blank">--}}
+{{--                            👉 (40-80% OFF)</a></span></p>--}}
                 <br>
                     <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Myntra Women's Fashion</h2>
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">

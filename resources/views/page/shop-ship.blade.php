@@ -77,7 +77,7 @@
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                             <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉Mid Season Sale (40-80% Off)</a> |
-                            <a href="/myntra-online-shopping" title="myntra" target="_blank">2. Myntra.com 👉Mid Season Sale (50-80% Off) </a> |
+                            <a href="/tatacliq-online-shopping" title="clia" target="_blank">2. Tatacliq.com 👉Marriage Of Colors </a> |
                             <a href="/amazon-online-shopping" title="amazon" target="_blank">3. Amazon.in 👉Wedding Fashion</a> |
                             <a href="/shoppersstop-online-shopping" title="shopper" target="_blank">4. Shoppersstop.com 👉Wedding Scenes</a>
                         </marquee>

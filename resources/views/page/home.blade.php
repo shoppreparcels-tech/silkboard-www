@@ -578,37 +578,37 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="/myntra-online-shopping" title="Click to Know More" target="_blank">
+                        <a href="/shoppersstop-online-shopping" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">MID SEASON SALE</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">WEDDING SCENES</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">50-80% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">30-50% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">16th-19th Nov</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">19th-30th Nov</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Myntra.com</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Shoppersstop.com</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Myntra</span> & Ship @Cheap-Cost Internationally</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Shoppers Stop</span> & Ship @Cheap-Cost Internationally</p>
                         </div>
                         </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="/amazon-online-shopping" title="Click Here" target="_blank">
+                        <a href="/tatacliq-online-shopping" title="Click Here" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">AMAZON FASHION</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">MARRIAGE OF COLORS</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Wedding Store</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">On The Radar</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Fashion | Beauty</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Wedding Season</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Amazon.in</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Tatacliq.com</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Amazon India</span> & Get Delivered Worldwide with us.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Tata CLiQ </span> & Get Delivered Worldwide with us.</p>
                         </div>
 
                     </div>
