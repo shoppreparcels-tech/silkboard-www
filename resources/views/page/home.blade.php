@@ -1421,6 +1421,8 @@
             "referrer": document.referrer
         });
 
+        mixpanel.track("home_page_visitors");
+
         $(document).ready(function () {
             let html = '';
             let shipmentItem = '';
