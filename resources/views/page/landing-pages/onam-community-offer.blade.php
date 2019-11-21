@@ -22,7 +22,7 @@
        <div class="container pad-t-20">
            <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad mar-t-25">
                <div class="col-xs-12 col-md-12 no-pad ">
-                   <img src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/85ac3ae6-18e8-40f3-9643-ffeaedebdd80.jpg" class="img-f-w" alt="">
+                   <img src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/85ac3ae6-18e8-40f3-9643-ffeaedebdd80.jpg" class="img-f-w" alt="onam">
                </div>
            </div>
            <div class="col-md-12 col-xs-12 text-center mar-t-10">

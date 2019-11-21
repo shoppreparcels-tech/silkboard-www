@@ -29,11 +29,11 @@
     <section class="bg-christmas-landing-page">
         <div class="container no-padding">
            <div class="col-md-2 div-snow">
-               <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/plane_earth.png')}}" alt="">
+{{--               <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/plane_earth.png')}}" alt="">--}}
            </div>
            <div class="col-md-8 col-xs-12" >
                <center>
-                   <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/plane_earth.png')}}" alt="" class="img-new-year">
+{{--                   <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/plane_earth.png')}}" alt="" class="img-new-year">--}}
                    <h2 class="p-color-yellow header-spacing header2 ">Student Special Offer <br> Save Upto 50% Off On Shipping Costs!</h2>
                    <h1 class="header1 p-color-white header-spacing font-weight-900">Courier Any Document Abroad</h1>
                    <h2 class="header2 p-color-white font-weight-900">Starting from ₹553/-</h2> <br>
@@ -42,22 +42,25 @@
                        <div class="col-md-offset-3 col-md-6 col-xs-12 no-pad" id="diwali-couponcode1">
                           <center>
                               <div class="form-group">
-                                  <input type="email" name="email" class="txt-f-w txt-shadow txt-pad"
-                                         placeholder="Enter a valid E-mail ID" required> <br><br>
+{{--                                  <input type="email" name="email" class="txt-f-w txt-shadow txt-pad"--}}
+{{--                                         placeholder="Enter a valid E-mail ID" required> --}}
+                                  <br><br>
                                   {{--<input type="number" name="PhoneNumberPhoneNumber" class="textbox-email"--}}
                                   {{--placeholder="Enter a valid PhoneNumber" required>--}}
-                                  <input id="phone" name="ContactNumber" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="Enter a valid Phone/WhatsApp Number" required>
+{{--                                  <input id="phone" name="ContactNumber" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="Enter a valid Phone/WhatsApp Number" required>--}}
                               </div>
                               <div class="form-group text-center">
-                                  <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900" onclick="">Enquiry For FREE</button>
+                                  <a href="https://www.surveymonkey.com/r/2S2WXHL" target="_blank"
+                                     class="btn btn-chris-place-order    font-weight-900">Enquiry Now & Get FREE Quote</a>
                               </div>
+                              <h5 class=" p-color-white txt-italic ">Just 2 Minutes to Fill the Form</h5> <br>
                           </center>
                        </div>
                    </form>
                </center>
            </div>
             <div class="col-md-2 div-newyear">
-                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/graphic_parsal.png')}}" alt="">
+{{--                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/graphic_parsal.png')}}" alt="">--}}
             </div>
 
         </div>
@@ -70,7 +73,7 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Have Some Documents to Send Abroad?</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
-                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=I%20want%20to%20courier%20documents%20from%20India" target="_blank" class="c-image">
+                    <a href="https://www.surveymonkey.com/r/2S2WXHL" target="_blank" class="c-image">
 
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="contact shoppre">
                     </a>
@@ -167,6 +170,7 @@
                         <h1 class="header1  p-color-cement-dark">How It Works (Documents Shipping International)</h1>
                     </center>
                     <br/><br/>
+
                     <div class="col-sm-4">
                         <div class="panel ps-img-rounded">
                             <center>
@@ -181,6 +185,7 @@
                             </center>
                         </div>
                     </div>
+
                     <div class="col-sm-4">
                         <div class="panel ps-img-rounded">
                             <br>
@@ -197,6 +202,7 @@
 
                         </div>
                     </div>
+
                     <div class="col-sm-4">
                         <div class="panel ps-img-rounded">
                             <br/>
@@ -214,7 +220,6 @@
 
                         </div>
                     </div>
-
 
                 </div>
                 <br/><br/>
@@ -353,9 +358,9 @@
 @endsection
 
 @section('js_script')
-    <script>
-        $(document).ready(function(){$("#diwali_coupon").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var t=$("input[name='email']").val(),n=$("input[name='ContactNumber']").val(),i=$("input[name=_token]").val();jQuery.ajax({url:"university",type:"POST",data:{_token:i,email:t,phone:n,mailtrain_type:"university"},success:function(e){console.log(e),window.location.replace("https://www.shoppre.com/customer/register")}})}})});var input=document.querySelector("#phone");window.intlTelInput(input,{utilsScript:"build/js/utils.js"});
-    </script>
+{{--    <script>--}}
+{{--        $(document).ready(function(){$("#diwali_coupon").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var t=$("input[name='email']").val(),n=$("input[name='ContactNumber']").val(),i=$("input[name=_token]").val();jQuery.ajax({url:"university",type:"POST",data:{_token:i,email:t,phone:n,mailtrain_type:"university"},success:function(e){console.log(e),window.location.replace("https://www.shoppre.com/customer/register")}})}})});var input=document.querySelector("#phone");window.intlTelInput(input,{utilsScript:"build/js/utils.js"});--}}
+{{--    </script>--}}
 
     <script>(function(t,e,s,o){var n,a,c;t.SMCX=t.SMCX||[],e.getElementById(o)||(n=e.getElementsByTagName(s),a=n[n.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=o,c.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd_2BMiS1nNDyC7u_2FxT97yjYpqYx53jE3qnjxKHH4l8BSWc.js"].join(""),a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script>
 

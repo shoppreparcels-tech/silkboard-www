@@ -184,6 +184,10 @@
                         <li>Door-to-door package tracking</li>
                     </ul>
                 </div>
+                <br>
+                <div class="offerDesc">
+                    <img src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/2f93b692-f0c0-41ad-ac42-e7f637e072c7.png" class="img-f-w" alt="parcel india">
+                </div>
             </div>
         </div>
     </section>

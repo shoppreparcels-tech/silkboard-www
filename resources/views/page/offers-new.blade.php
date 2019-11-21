@@ -93,7 +93,7 @@
                         </div>
                         <div class="item">
                             <div class="pad15">
-                                <a href="https://www.shoppre.com/university-offer" target="_blank">
+                                <a href="/university-offer" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/students-shipping-offer.png" class="boxofScroll"/>
                                 </a>
                             </div>

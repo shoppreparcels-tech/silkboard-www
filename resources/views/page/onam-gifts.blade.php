@@ -16,7 +16,7 @@
     <section class="first-time-shipment">
         <div class="container no-padding">
            <div class="col-md-3 div-snow">
-               <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-t-s-priyamani.png" alt="priyamani  " class="img-responsive">
+               <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-t-s-priyamani.png" alt="priyamani" class="img-responsive">
            </div>
            <div class="col-md-6 col-xs-12 no-padding">
                <center>

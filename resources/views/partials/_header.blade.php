@@ -202,7 +202,7 @@
                     <li><a href="{{route('offers-new.index')}}" class="shoppre-offers">Offers </a></li>
                     <li><a href="{{route('pricing')}}">Shipping Rates <sup class="p-color-red" style="font-size: 8px" id="offer">New</sup></a></li>
                     <li><a href="{{route('contact')}}" class="shoppre-support">Support</a></li>
-                    <li><a href="https://www.shoppre.com/seller-partner" class="shoppre-partner">Seller Partner</a></li>
+                    <li><a href="/seller-partner" class="shoppre-partner">Seller Partner</a></li>
                     <li>
                         <div class="dropdown ddl-more-option">
                             <button class="dropbtn">More <span class="caret"></span></button>
