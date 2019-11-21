@@ -13,61 +13,61 @@
     <meta property="og:description" content="Special courier rates from India to Australia. Corporate Relocation. Office Relocation. International Relocation. Seller Shipping." />
 
     <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "name": "ShoppRe.com",
-  "alternateName": "Send International Courier From India to Australia",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg",
-  "logo": "https://www.shoppre.com/img/logo.png",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+91 8277919191",
-    "contactType": "customer service"
-  },
-  "sameAs": [
-    "https://www.facebook.com/goshoppre",
-    "https://twitter.com/Go_Shoppre",
-    "https://www.instagram.com/shoppre_official",
-    "https://g.page/InternationalCourier",
-    "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
-    "https://www.linkedin.com/company/shoppre.com",
-    "https://in.pinterest.com/shoppre"
-  ],
-  "aggregateRating": {
-    "@type" : "AggregateRating",
-    "bestRating": "5",
-    "ratingValue" : "4.8",
-    "reviewCount" : "2000",
-    "worstRating" : 3.0
-  }
-}
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "ShoppRe.com",
+          "alternateName": "Send International Courier From India to Australia",
+          "url": "https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg",
+          "logo": "https://www.shoppre.com/img/logo.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91 8277919191",
+            "contactType": "customer service"
+          },
+          "sameAs": [
+            "https://www.facebook.com/goshoppre",
+            "https://twitter.com/Go_Shoppre",
+            "https://www.instagram.com/shoppre_official",
+            "https://g.page/InternationalCourier",
+            "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
+            "https://www.linkedin.com/company/shoppre.com",
+            "https://in.pinterest.com/shoppre"
+          ],
+          "aggregateRating": {
+            "@type" : "AggregateRating",
+            "bestRating": "5",
+            "ratingValue" : "4.8",
+            "reviewCount" : "2000",
+            "worstRating" : 3.0
+          }
+        }
 </script>
-    <script type="application/ld+json">
-{
-  "@context": "http://www.schema.org",
-  "@type": "ParcelDelivery",
-  "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg",
-  "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
-  "description": "international courier from India to Australia",
-  "originAddress": {
-    "@type": "PostalAddress",
-    "streetAddress": "No.181, 1st Floor 2nd Cross Rd, 1st Block Koramangala",
-    "addressLocality": "Bengaluru",
-    "addressRegion": "Karnataka",
-    "postalCode": "560034",
-    "addressCountry": "India"
-  },
-  "deliveryAddress": {
-    "@type": "PostalAddress",
-    "addressCountry": "Australia"
-  },
-   "hasDeliveryMethod": {
-  "@type": "DeliveryMethod",
-  "name": "DHL, FedExExpress"
-  }
-}
+<script type="application/ld+json">
+    {
+      "@context": "http://www.schema.org",
+      "@type": "ParcelDelivery",
+      "name": "ShoppRe",
+      "url": "https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg",
+      "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
+      "description": "international courier from India to Australia",
+      "originAddress": {
+        "@type": "PostalAddress",
+        "streetAddress": "No.181, 1st Floor 2nd Cross Rd, 1st Block Koramangala",
+        "addressLocality": "Bengaluru",
+        "addressRegion": "Karnataka",
+        "postalCode": "560034",
+        "addressCountry": "India"
+      },
+      "deliveryAddress": {
+        "@type": "PostalAddress",
+        "addressCountry": "Australia"
+      },
+       "hasDeliveryMethod": {
+      "@type": "DeliveryMethod",
+      "name": "DHL, FedExExpress"
+      }
+    }
 </script>
 @endsection
 
@@ -122,7 +122,7 @@
                                 <p><span>Per</span> 5 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹3951</h1>
+                                <h1>₹4702</h1>
                                 <p><span>Per</span> 10 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">

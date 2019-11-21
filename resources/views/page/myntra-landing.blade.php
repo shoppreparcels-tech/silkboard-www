@@ -121,7 +121,7 @@
 {{--                            </marquee>--}}
                    <center>
                        <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">
-                           <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/myntra-express-delivery-globe.png" alt="Myntra.com"></a>
+                           <img src="{{env('AWS_CLOUD_FRONT')}}/img/stores/myntra-express-delivery-globe.png" alt="Myntra.com"></a>
                    </center>
                 </div>
             </div>

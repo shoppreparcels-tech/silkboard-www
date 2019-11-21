@@ -27,6 +27,7 @@
     </style>
 
 @endsection
+
 @section('content')
     <section class="bg-ics-landing-page">
         <div class="container">
@@ -51,7 +52,7 @@
                                 <br>
                                 <p>Levi's, Flying Machine & more</p>
                                 <p>From ₹499</p>
-                                <p>Explore Now</p>
+                                <p>👉 Explore Now</p>
                         </div>
                     </a>
                 </div>
@@ -62,7 +63,7 @@
                         <br>
                         <p>Deals of the Day</p>
                         <p>Mobile, Wardrobes & more</p>
-                        <p>Shop Now</p>
+                        <p>👉 Shop Now</p>
                     </div>
                     </a>
                 </div>
@@ -72,7 +73,7 @@
                             <br>
                             <p>Women Kurta</p>
                             <p>Starting ₹399</p>
-                            <p>Explore Now</p>
+                            <p>👉 Explore Now</p>
                         </div></a>
                 </div>
             </div>
