@@ -41,7 +41,7 @@
                 </div>
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="https://www.ajio.com" title="AJIO" target="_blank">👉 MID SEASON Sale (40-80% Off) | Shop AJIO & Ship Worldwide with ShoppRe.</a>
+                        <a href="https://www.ajio.com" title="AJIO" target="_blank">👉 No Ifs and Buts Sale‎ (Flat 50% Off) | Shop AJIO & Ship Worldwide with ShoppRe.</a>
                     </marquee>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                     <div class="col-md-12 col-xs-12">
                         <center>
                             <a href="https://www.ajio.com/" title="Shop AJIO & Ship Worldwide through ShoppRe" target="_blank">
-                                <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/ajio-online-shopping.png" alt="ajio.com"> </a>
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/stores/ajio-online-shopping.png" alt="ajio.com"> </a>
                         </center>
                     </div>
                 </div>

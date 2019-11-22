@@ -118,7 +118,7 @@
                     <br>
                     <ul>
                         <li>AJIO November Steal (Min. 40% Off) - November 2019.</li>
-                        <li><a href="/ajio-online-shopping" target="_blank">MID SEASON Sale (40-80% Off) - November 2019.</a></li>
+                        <li><a href="/ajio-online-shopping" target="_blank">No Ifs and Buts Sale‎ (Flat 50% Off) - 22-24 November 2019.</a></li>
                     </ul>
                 </div>
                 <br>

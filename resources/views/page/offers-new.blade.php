@@ -168,8 +168,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Mid Season sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">No Ifs and Buts Sale‎</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
@@ -181,8 +181,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Mid Season sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">GRAND GARAGE SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">50-70% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">
