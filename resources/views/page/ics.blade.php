@@ -448,49 +448,78 @@
             <br>
             <p class="f-s-16 f-c-gray">More to the point, International shipping from India - may it be package forwarding or courier - has been made extremely easy by these key set of our services.</p> <br>
 
+            <div itemscope itemtype="https://schema.org/FAQPage">
             <h2 class="f-s-22 f-c-d-gray font-weight-900">We know what you’re thinking….</h2>
             <p class="f-c-d-greay font-weight-900" style="font-style: italic">These are some questions frequently asked by our customers.</p>
             <br>
-            <h2 class="f-s-18 f-c-d-gray font-weight-900">Can I send documents to the USA through ShoppRe Courier?</h2>
-            <p class="f-s-16 f-c-gray">Yes you can. We specialize in securely sending <a href="university-offer">university documents overseas</a> now that studying abroad is more of a common option.
+
+            <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h2 itemprop="name" class="f-s-18 f-c-d-gray font-weight-900">Can I send documents to the USA through ShoppRe Courier?</h2>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text" class="f-s-16 f-c-gray">Yes you can. We specialize in securely sending <a href="university-offer">university documents overseas</a> now that studying abroad is more of a common option.
                 If you have any such document to courier, you can avail our Student Special Offer discount price,
                 starting at just Rs.553!
-            </p> <br>
+            </p>
+            </div>
+            </div><br>
 
-            <h2 class="f-s-18 f-c-d-gray font-weight-900">How to send a courier from India to Abu Dhabi?</h2>
-            <p class="f-s-16 f-c-gray">ShoppRe Courier specializes in sending couriers from ANYWHERE in India to all around the world,
+            <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h2 itemprop="name" class="f-s-18 f-c-d-gray font-weight-900">How to send a courier from India to Abu Dhabi?</h2>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text" class="f-s-16 f-c-gray">ShoppRe Courier specializes in sending couriers from ANYWHERE in India to all around the world,
                 including to Abu Dhabi. You can <a href="/schedule-pickup">Schedule a Pickup</a> on our website & we offer
-                door-to-door courier services that spans out in just 3-6 days.</p> <br>
+                door-to-door courier services that spans out in just 3-6 days.</p>
+            </div>
+            </div><br>
 
-            <h2 class="f-s-18 f-c-d-gray font-weight-900">What do you charge for a courier from India to USA per kg.?</h2>
-            <p class="f-s-16 f-c-gray">Our international courier charges start from just Rs.690/-. Check out our <a
-                        href="{{route('pricing')}}">Shipping Cost Calculator</a> for a FREE estimate of your particular courier needs.</p> <br>
+            <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h2 itemprop="name" class="f-s-18 f-c-d-gray font-weight-900">What do you charge for a courier from India to USA per kg.?</h2>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text" class="f-s-16 f-c-gray">Our international courier charges start from just Rs.690/-. Check out our <a
+            href="{{route('pricing')}}">Shipping Cost Calculator</a> for a FREE estimate of your particular courier needs.</p>
+            </div>
+            </div><br>
 
-            <h2 class="f-s-18 f-c-d-gray font-weight-900">Can I use ShoppRe Courier for parcel forwarding?</h2>
-            <p class="f-s-16 f-c-gray">ShoppRe has a more specified service called Shop & Ship for all package forwarding needs including
+            <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h2 itemprop="name" class="f-s-18 f-c-d-gray font-weight-900">Can I use ShoppRe Courier for parcel forwarding?</h2>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text" class="f-s-16 f-c-gray">ShoppRe has a more specified service called Shop & Ship for all package forwarding needs including
                 Personal Shopper services. When you sign up with us, you get a FREE virtual shipping address along with a personal
                 locker at our warehouse for you to safely store your purchases while you go <a href="{{route('stores1')}}">shopping on Indian online stores.</a>
                 At the end of the day, our customers can be rest assured that we offer the best possible
-                international shipping rates, all thanks to our Package Consolidation.</p> <br>
+                international shipping rates, all thanks to our Package Consolidation.</p>
+            </div></div><br>
 
-            <h2 class="f-s-18 f-c-d-gray font-weight-900">Could I send a Rakhi to my brother in Canada using Amazon?</h2>
-            <p class="f-s-16 f-c-gray">Unfortunately amazon.in doesn’t offer to ship internationally. So,
+            <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h2 itemprop="name" class="f-s-18 f-c-d-gray font-weight-900">Could I send a Rakhi to my brother in Canada using Amazon?</h2>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text" class="f-s-16 f-c-gray">Unfortunately amazon.in doesn’t offer to ship internationally. So,
                 what you can do is <a href="/amazon-india-shop-international-shipping">shop from Amazon</a> & sign up with us for FREE and use our Shop & Ship/Personal Shopper
                 service to forward the Rakhi to Canada. Check out our international shipping
-                calculator now for a FREE estimate.</p> <br>
+                calculator now for a FREE estimate.</p>
+             </div></div><br>
 
-            <h2 class="f-s-18 f-c-d-gray font-weight-900">What is the cheapest way to ship a product from India to China?</h2>
-            <p class="f-s-16 f-c-gray">ShoppRe’s Shop&Ship and Package Consolidation will enable you to save up to 80%
+
+            <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h2 itemprop="name" class="f-s-18 f-c-d-gray font-weight-900">What is the cheapest way to ship a product from India to China?</h2>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text" class="f-s-16 f-c-gray">ShoppRe’s Shop&Ship and Package Consolidation will enable you to save up to 80%
                 of your shipping costs; hence it is evident that we offer the <a href="{{route('pricing')}}">best shipping rates from India</a>, to anywhere
                 in the world, including China. Our pricing is estimated after deducting a certain country-specific discount,
-                depending on the country.</p> <br>
+                depending on the country.</p>
+            </div></div><br>
 
-            <h2 class="f-s-18 f-c-d-gray font-weight-900">Can we send gifts online from India to Qatar?</h2>
-            <p class="f-s-16 f-c-gray">Of course you can.
+
+            <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h2 itemprop="name" class="f-s-18 f-c-d-gray font-weight-900">Can we send gifts online from India to Qatar?</h2>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <p itemprop="text" class="f-s-16 f-c-gray">Of course you can.
                 But, you’d have to check if your courier falls under the category of restricted items. If that’s the case;
                 we wouldn’t be able to help you. And if the courier comes under ‘Special Items’ such as liquids/fluids,
                 you’d have to pay an additional clearance fee. <a href="/faq">Learn more</a> about Special Items now.
-            </p> <br>
+                </p>
+            </div></div> <br>
+            </div>
 
             <h2 class="f-s-18 f-c-d-gray font-weight-900">Now, sit back and relax after <a href="{{route('schedulePickup.Index')}}">Scheduling a Pickup</a>
                 for your courier! ShoppRe will take it from there.</h2>

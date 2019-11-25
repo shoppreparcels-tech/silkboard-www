@@ -47,18 +47,45 @@
             "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
             "https://www.linkedin.com/company/shoppre.com",
             "https://in.pinterest.com/shoppre"
-        ],
-            "aggregateRating": {
-            "@type" : "AggregateRating",
-            "bestRating": "5",
-            "ratingValue" : "4.8",
-            "reviewCount" : "4560",
-            "worstRating" : 3.5
-            }
+        ]
         }
   </script>
 
-    <style>
+  <script type="application/ld+json">
+         {
+           "@context" : "http://schema.org",
+           "@type" : "Review",
+               "name" : "Myntra online shopping",
+               "url" : "https://www.shoppre.com/myntra-online-shopping-shipping-from-india",
+               "image" : "https://www.shoppre.com/img/stores/myntra-express-delivery-globe.png",
+               "author" : "Mahil Sageer",
+               "reviewBody" : "I really wanted to gift my cousin in Australia for his birthday...but unfortunately neither did amazon nor did myntra do international shipping...Thanks to Shoppre, I was able to send all my purchases in ONE package!! Great Job!👍",
+               "reviewRating" : {
+           "@type" : "Rating",
+           "ratingValue" : "5"
+         },
+         "itemReviewed" : {
+         "@type" : "LocalBusiness",
+               "name" : "Myntra International shipping from india online shopping",
+               "priceRange" : "₹ 3062 (Myntra India to Australia for 3kg)",
+               "image" : "https://www.shoppre.com/img/stores/myntra-express-delivery-globe.png",
+               "address" : {
+         "@type" : "PostalAddress",
+               "streetAddress" : "No.181, 1st Floor 2nd Cross Rd, 1st Block Koramangala",
+               "addressLocality" : "Bengaluru",
+               "addressRegion" : "Karnataka",
+               "postalCode" : "560034",
+               "telephone" : "+91-8277919191",
+               "addressCountry" : {
+         "@type" : "Country",
+         "name" : "India"
+                    }
+                 }
+             }
+         }
+      </script>
+
+  <style>
         .bg-myntra{background-image:url(../../img/images/overlay1.png);width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.bg-ics-landing-page .container>div{margin-bottom:3em}.d-header-text{font-size:40px;font-weight:900}.d-header-text1{font-family:Montserrat -Italic;font-style:italic;line-height:26px;margin-top:25px}.christmas-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-190px;padding:20px}.shopandship{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#ff7c5b 0,#e8517a 100%)}.ps{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#4df696 0,#50bc70 100%)}.ic{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(229deg,#27cbff 0,#2aa1d5 100%)}.box-steps p{line-height:1}.box-steps p span{font-size:22px;font-weight:900}.flipkart-h1{font-size:25px}.myntra-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-150px;padding:20px}.ic,.myntra-service .shopandship,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.ic,.myntra-service .shopandship,.ps,p{color:#fff;font-size:16px;font-weight:600}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}#packing:hover{display:none}
     </style>
 
@@ -225,6 +252,7 @@
 
             </center>
         </div>
+
     </section>
     <section class="product-courier ">
         <div class="container div-ics-border-btm">
@@ -323,26 +351,26 @@
                     </br>
                 </center>
                 <div class=" col-md-12 col-xs-12 div-ics-prodcts">
-                    <div class="col-md-6 col-xs-12 no-padding">
+                    <div class="col-md-6 col-xs-12 txt-center">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="flipkart-shopping-with-shoppre-from-india" target="_blank">Flipkart Online Shopping</a></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" target="_blank">Amazon.in Online Shopping</a></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="ajio-online-shopping-international-shipping" target="_blank">AJIO Online Shopping</a></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="limeroad-shopping-international-shipping" target="_blank">Limeroad Fashion Shopping</a></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="etsy-international-shipping-from-india" target="_blank">ETSY India Online Shopping</a></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/jabong-usa-shipping-from-india" target="_blank">Jabong Lifestyle Online Shopping</a></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="jaypore-international-shipping-from-india" target="_blank">Shop from Jaypore Store Online</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/amazon-india-shop-international-shipping" target="_blank">Amazon.in Online Shopping</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/ajio-online-shopping-international-shipping" target="_blank">AJIO.com Online Shopping</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/limeroad-shopping-international-shipping" target="_blank">Limeroad Fashion Shopping</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/firstcry-online-shopping" target="_blank">Firstcry.com Online Shopping</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/fabindia-online-shopping" target="_blank">FabIndia Online Shopping</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/nykaa-online-shopping" target="_blank">Nykaa Online Beauty Store</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-6 col-xs-12 no-padding">
+                    <div class="col-md-6 col-xs-12 txt-center">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" target="_blank">Myntra Right To Fashion Sale</a></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Flipkart Big Billion Day 2019</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Flipkart Big Billion Days 2019</a></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">Amazon Great Indian Sale 2019</a></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="https://ship.shoppre.com/prime-amazon-fashion-wardrobe-refresh-sale-shop-online-from-india/" target="_blank">Fashion Wardrobe Refresh Sale</a></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/flipstart-days-avail-best-offers-on-flipkart-enjoy-special-discounts-for-the-first-three-days-of-every-month" target="_blank">Flipstart Days Sale 2019</a></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale</a></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" target="_blank">Flipkart National Shopping Days</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/flipstart-days-avail-best-offers-on-flipkart-enjoy-special-discounts-for-the-first-three-days-of-every-month" target="_blank">Flipkart Flipstart Days Sale 2019</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale 2019</a></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" target="_blank">National Shopping Days 2019</a></li>
                         </ul>
                     </div>
                 </div>
@@ -350,6 +378,7 @@
             <br>
             <br>
             <br>
+
         </div>
     </section>
 

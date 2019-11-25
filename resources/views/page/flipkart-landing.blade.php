@@ -26,6 +26,15 @@
         .bg-ics-landing-page .container>div{padding:20px;margin-bottom:3em}.d-header-text{font-size:40px;font-weight:900}.d-header-text1{font-family:Montserrat -Italic;font-style:italic;line-height:26px;margin-top:25px}.box-steps p{line-height:1}.box-steps p span{font-size:22px;font-weight:900}.flipkart-h1{font-size:25px}.christmas-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.christmas-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}#packing:hover{display:none}
     </style>
 
+    <div itemscope itemtype="http://schema.org/Organization">
+        <span itemprop="name">Flipkart Shopping from India</span>
+        <div itemprop="address" itemscope itemtype="schema.org/PostalAddress">
+            <span itemprop="streetAddress">No.181, 1st Floor 2nd Cross Rd, 1st Block Koramangal</span>
+            <span itemprop="addressLocality">Bangalore</span>
+            <span itemprop="addressRegion">Karanataka, india</span> <span itemprop="postalCode">560034</span> </div>
+           <span itemprop="member" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">Virginia S</span>
+
 @endsection
 
 @section('content')
@@ -84,8 +93,17 @@
                     <div class="col-md-12 col-xs-12">
                         <center>
                             <a href="https://clnk.in/itIp" title="Shop Flipkart & Ship Worldwide through ShoppRe" target="_blank">
-                                <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/flipkart-international-shopping.png" alt="flipkart.com">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/stores/flipkart-international-shopping.png" alt="flipkart.com">
                             </a>
+                                    <div itemscope="" itemtype="http://data-vocabulary.org/Review-aggregate">
+                                        <span itemprop="itemreviewed">Flipkart International Shipping with ShoppRe.com</span>
+                                        <span itemprop="rating" itemscope="" itemtype="http://data-vocabulary.org/Rating">
+                                         <span itemprop="average">4.5</span> out of <span itemprop="best">5</span></span> based on <span itemprop="votes">3700</span> ratings.
+                                    </div>
+
+                                    <p class="p-name" style="font-size: 18px"> <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 100px;"> <br></p>
+                                    <p class="p-name" style="font-size: 18px; color: #1a0dab">Total Products Shipped from Flipkart: +5600 </p>
+
                         </center>
                     </div>
                 </div>
@@ -323,7 +341,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="amazon"><span><a
                                         href="/amazon-india-shop-international-shipping">Amazon.in Shopping India</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="jaypore"><span><a
-                                        href="/jaypore-international-shipping-from-india">Jaypore Handpicked Products</a></span></li>
+                                        href="/chumbak-online-shopping">Chumbak Online Shopping</a></span></li>
                         </ul>
                     </div>
                 </div>
@@ -419,6 +437,7 @@
         </div>
     </section>
 @endsection
+
 @section('js_script')
 
     <script type='text/javascript'>

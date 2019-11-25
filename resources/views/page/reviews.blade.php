@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'ShoppRe.com Official | Customer Reviews & Ratings | 4.8/5')
+@section('title', 'ShoppRe.com - India | Customer Reviews & Ratings | 4.8/5')
 @section('description', 'Read our latest Reviews & Ratings showcasing the excellent service, ship on time & quality of shipment. Share feedback about your shipping experiences with us.')
 @section('keywords', 'reviews, ratings, customer, shipping, shopping, service, india')
 
@@ -91,6 +91,39 @@
           "url": "https://www.shoppre.com/reviews",
           "telephone": "+918277919191"
         }
+      </script>
+
+    <script type="application/ld+json">
+         {
+           "@context" : "http://schema.org",
+               "@type" : "Review",
+               "name" : "ShoppRe Reviews",
+               "url" : "https://www.shoppre.com/reviews",
+               "image" : "https://www.shoppre.com/img/images/shoppre-logo.png",
+               "author" : "Gabor R",
+               "reviewBody" : "Absolutely fantastic service, very kind and polite customer service and support! Although the transaction didn't take place, the team went to great lengths to get a refund from the seller, which I received. The rates are also very competitive. Shoppre is highly recommended for anyone.",
+               "reviewRating" : {
+           "@type" : "Rating",
+           "ratingValue" : "5"
+                           },
+           "itemReviewed" : {
+               "@type" : "Organization",
+               "name" : "Best International Shipping Companies in India",
+               "image" : "https://www.shoppre.com/img/images/shoppre-logo.png",
+               "address" : {
+               "@type" : "PostalAddress",
+               "streetAddress" : "No.181, 1st Floor 2nd Cross Rd, 1st Block Koramangala",
+               "addressLocality" : "Bengaluru",
+               "addressRegion" : "Karnataka",
+               "postalCode" : "560034",
+               "telephone" : "+91-8277919191",
+               "addressCountry" : {
+           "@type" : "Country",
+           "name" : "India"
+        		 }
+        	 }
+         	}
+         }
       </script>
 
 @endsection
@@ -291,6 +324,19 @@
 @endsection
 
 @section('js_script')
+
+    <script src="https://apis.google.com/js/platform.js?onload=renderBadge" async defer></script>
+
+    <script>
+        window.renderBadge = function() {
+            var ratingBadgeContainer = document.createElement("div");
+            document.body.appendChild(ratingBadgeContainer);
+            window.gapi.load('ratingbadge', function() {
+                window.gapi.ratingbadge.render(ratingBadgeContainer, {"merchant_id": 131040432});
+            });
+        }
+    </script>
+
     <script>
         $("a[href^='#']").click(function(e){e.preventDefault();let t=$($(this).attr("href")).offset().top;$("body, html").animate({scrollTop:t},1e3)}),$(document).ready(function(){$(document).on("click","#btn-more",function(){let e=$(this).data("id");$("#btn-more").html("Loading...."),$.ajax({url:"/more-reviews",method:"POST",data:{id:e,_token:"{{csrf_token()}}"},success:function(e){console.log(e),""!=e?($("#remove-row").remove(),$("#reviews-more").append(e)):$("#btn-more").html("No Data")}})})}),$(".rated").rating({size:"lg",min:0,max:5,step:1,displayOnly:!0,showClear:!1,showCaption:!1}),$("#input-rate").rating({size:"lg",min:0,max:5,step:1,showClear:!1,showCaption:!1});
     </script>

@@ -304,42 +304,63 @@
             <br/>
         </div>
     </section>
-    <section>
+
+    <section itemscope itemtype="https://schema.org/FAQPage">
         <div class="container" style="background-color: #fff;padding: 20px;">
             <h1 class="header2 p-color-cement-dark font-weight-900">Frequently Asked Questions: </h1>
             <ul style="text-decoration: none;list-style: none">
                 <li>
-                    <h3 class="header4 p-color-cement-dark font-weight-900">1. How do I order an amazon product and get it delivered to UAE?</h3>
-                    <p class="header5 p-color-cement ">Go online and shop on Amazon.in and reach out to us, sign up on ShoppRe
+                    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <h3  itemprop="name" class="header4 p-color-cement-dark font-weight-900">1. How do I order an amazon product and get it delivered to UAE?</h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text" class="header5 p-color-cement ">Go online and shop on Amazon.in and reach out to us, sign up on ShoppRe
                         Dashboard & make your request to <a href="https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg">ship it to UAE</a>. You'll be guided by our
                         Support as to how to take it from there. </p>
+                    </div>
+                    </div>
                 </li>
                 <br>
+
                 <li>
-                    <h3 class="header4 p-color-cement-dark font-weight-900">2. Can I buy from amazon INDIA and ship to US?</h3>
-                    <p class="header5 p-color-cement ">Of course you can. You can shop from Amazon.in and get us to
+                    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <h3 itemprop="name"  class="header4 p-color-cement-dark font-weight-900">2. Can I buy from amazon INDIA and ship to US?</h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text" class="header5 p-color-cement ">Of course you can. You can shop from Amazon.in and get us to
                         ship to the USA. We ship to 220+ countries around the world.</p>
+                    </div>
+                    </div>
                 </li>
+
                 <br>
                 <li>
-                    <h3 class="header4 p-color-cement-dark font-weight-900">3. How do I buy from India online Stores and Ship to UK?</h3>
-                    <p class="header5 p-color-cement ">You can <a href="{{route('stores1')}}">shop from any Indian online store</a>, ship your purchases to us;
+                    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <h3 itemprop="name"  class="header4 p-color-cement-dark font-weight-900">3. How do I buy from India online Stores and Ship to UK?</h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text" class="header5 p-color-cement ">You can <a href="{{route('stores1')}}">shop from any Indian online store</a>, ship your purchases to us;
                         and make a request to ship it internationally to your location in UK.
                         For more info; contact our Support. </p>
+                    </div>
+                    </div>
                 </li>
+
                 <br>
                 <li>
-                    <h3 class="header4 p-color-cement-dark font-weight-900">4. Can I order different books on Amazon.in and get them delivered in single shipment to save money?</h3>
-                    <p class="header5 p-color-cement ">Of course. We strive to make the <a href="{{route('pricing')}}">shipping costs</a> of our customers as low as possible. So,
+                    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <h3 itemprop="name"  class="header4 p-color-cement-dark font-weight-900">4. Can I order different books on Amazon.in and get them delivered in single shipment to save money?</h3>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text" class="header5 p-color-cement ">Of course. We strive to make the <a href="{{route('pricing')}}">shipping costs</a> of our customers as low as possible. So,
                         we'd be behind you 100% in this matter as our main service that allows you save up is our
                         Package Consolidation. You can make use of our 20-day FREE storage
                         for collecting your books as well. </p>
+                    </div>
+                    </div>
                 </li>
             </ul>
         </div>
         <br>
         <br>
     </section>
+
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">
