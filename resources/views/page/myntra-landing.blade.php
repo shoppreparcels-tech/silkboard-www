@@ -73,11 +73,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://www.myntra.com/libas?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank"><div class="shopandship ">
-                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Styles For Desi Divas</h2>
+                    <a href="/myntra-online-shopping" target="_blank"><div class="shopandship ">
+                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Comic Con India</h2>
                             <br/>
                             <p>30-60% Off</p>
-                            <p>Kurta Set & Dresses</p>
+                            <p>25th - 27th Nov</p>
                             <p>👉 Explore Now</p>
                         </div></a>
                 </div>

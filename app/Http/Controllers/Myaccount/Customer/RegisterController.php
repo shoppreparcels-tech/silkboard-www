@@ -215,8 +215,10 @@ class RegisterController extends Controller
         else
         {
             return redirect(route('customer.login'))
-                ->with('message', 'You need to confirm your account.
-	    We have sent you an activation code, please check your email.');
+                ->with(['message' => 'You need to confirm your account.
+	    We have sent you an activation code, please check your email.',
+                    'customer_id' => $customer->id
+                    ]);
         }
     }
 

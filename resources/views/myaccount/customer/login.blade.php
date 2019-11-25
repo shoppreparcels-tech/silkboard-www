@@ -35,6 +35,7 @@
             {{ session('error_message') }}
           </div>
         @endif
+          <input type="hidden" name="continue" value="{{session('customer_id')}}" id="mixpanel_customer_id">
         <form class="login-form" id="form_login" role="form" method="POST"
               action="{{ route('customer.login.submit') }}">
         {{--<div class="col-md-12 col-xs-12 divider">--}}
@@ -119,9 +120,13 @@
 @endsection
 
 @section('js_script')
+    @include('../partials/mixpanel')
   <script src="{{asset('js/validate.min.js')}}"></script>
   <script type="text/javascript">
     $(document).ready(function () {
+        const customer_id = $('#mixpanel_customer_id').val();
+        console.log('mixpanel customer id', customer_id);
+        mixpanel.identify(customer_id);
       // $("#form_login").validate({
       //   rules:
       //     {

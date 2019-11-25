@@ -23,6 +23,7 @@
     </style>
 
 @endsection
+
 @section('content')
     <section class="first-time-shipment">
         <div class="container no-padding">
@@ -172,7 +173,8 @@
                         <li>Myntra Big Billion Days Sale, September 2019</li>
                         <li>Myntra Diwali Sale, 25th to 27th October 2019</li>
                         <li>Just Kidding(40-70% Off) 13th - 14th November 2019 </li>
-                        <li><a href="https://clnk.in/jYmH" target="_blank">Mid Season Sale, 16th to 19th November 2019</a></li>
+                        <li>Mid Season Sale, 16th to 19th November 2019</li>
+                        <li><a href="https://clnk.in/j0Iw" target="_blank">Comic Con India, 25th to 27th November 2019</a></li>
                     </ul>
                 </div>
                 <br>

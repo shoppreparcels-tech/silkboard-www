@@ -615,19 +615,19 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="/chumbak-online-shopping" title="Know More" target="_blank">
+                        <a href="/myntra-online-shopping" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">CHUMBAK</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">COMIC CON INDIA</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Starts from ₹499</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Fashion Accessories, Decor & more</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">25th - 27th Nov</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Chumbak.com</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Myntra.com</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9">Chumbak</span> & Ship @Cheap-Cost Internationally, Door-to-door Delivery.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9">Myntra</span> & Ship @Cheap-Cost Internationally, Door-to-door Delivery.</p>
                         </div>
 
                     </div>
@@ -637,12 +637,12 @@
                         <a href="/ajio-online-shopping" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">NO IFS AND BUTS SALE</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">WEEKDAY THERAPY!</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Flat 50% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Min 40% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">22nd-24th Nov</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Most-wanted Styles Of The Season</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">AJIO.com</span></p>
                             <br>

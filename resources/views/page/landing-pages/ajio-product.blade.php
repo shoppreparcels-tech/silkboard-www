@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'AJIO | No Ifs and Buts Sale (50% Off) | Ship with ShoppRe')
+@section('title', 'AJIO | WEEKDAY THERAPY Sale (Min. 40% Off) | Ship with ShoppRe')
 @section('description', 'AJIO online shopping from India with ShoppRe International Shipping at Lowest Rates. Premium Brands. Stylish Collection. Tops & Dresses, Fusion Wear, Heels & Flats, Bags & Belts,  Sarees.')
 @section('keywords', 'online shopping, ajio shipping, reliance retail, trends, wardrobe, womens tops, ajio offers, sale')
 
@@ -115,7 +115,7 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019: <span class="f-s-25 f-c-red f-w-9">No Ifs and Buts Sale‎ (Flat 50% Off)</span> /
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019: <span class="f-s-25 f-c-red f-w-9">WEEKDAY THERAPY (Min. 40% Off)</span> /
                         Below are the Recommended & Recently Shipped Products!</h2>
 
                 </div>
@@ -214,6 +214,52 @@
                         </div>
                     </div>
 
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26">
+                            <a href="https://www.ajio.com/s/up-to-50-percent-off-3776-52011" target="_blank">
+                                <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/hf8/hf8/14537566519326/14112019-D-WHP-BestOfBrands-people-upto50.jpg">
+                                {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
+                                {{--                                    Up to 70% Off--}}
+                                {{--                                </div>--}}
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                            <a href="https://www.ajio.com/s/up-to-40-percent-off-3769-48191" target="_blank">
+                                <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/hd1/hcd/14537566584862/14112019-D-WHP-BestOfBrands-levis-upto40.jpg">
+                                {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
+                                {{--                                    Up to 60% Off--}}
+                                {{--                                </div>--}}
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                            <a href="https://www.ajio.com/s/up-to-40-percent-off-3782-50131" target="_blank">
+                                <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/hac/hd1/14537557934110/14112019-D-WHP-BestOfBrands-ethnicity-upto40.jpg">
+                                {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
+                                {{--                                    Up to 60% Off--}}
+                                {{--                                </div>--}}
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                            <a href="https://www.ajio.com/s/min-30-percent-off-3782-50131" target="_blank">
+                                <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/h4a/h8c/14537558425630/14112019-D-WHP-BestOfBrands-baggit-min30.jpg">
+                                {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
+                                {{--                                    Up to 60% Off--}}
+                                {{--                                </div>--}}
+                            </a>
+                        </div>
+                    </div>
+
+
+
                 </div>
 
                 <div class="row text-center">
@@ -306,6 +352,51 @@
                             </a>
                         </div>
                     </div>
+
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26">
+                            <a href="https://www.ajio.com/s/up-to-50-percent-off-3782-63191" target="_blank">
+                                <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/h12/hec/14539619991582/14112019-D-MHP-BestOfBrands-Skult-upto50.jpg">
+                                {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
+                                {{--                                    Up to 70% Off--}}
+                                {{--                                </div>--}}
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                            <a href="https://www.ajio.com/s/up-to-60-percent-off-3782-63193" target="_blank">
+                                <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/hd1/hd4/14539613011998/14112019-D-MHP-BestOfBrands-IndianTerrain-upto60.jpg">
+                                {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
+                                {{--                                    Up to 60% Off--}}
+                                {{--                                </div>--}}
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                            <a href="https://www.ajio.com/s/min-40-percent-off-3782-63192" target="_blank">
+                                <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/hdb/h79/14539612880926/14112019-D-MHP-BestOfBrands-FlyingMachine-min40.jpg">
+                                {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
+                                {{--                                    Up to 60% Off--}}
+                                {{--                                </div>--}}
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                            <a href="https://www.ajio.com/s/up-to-60-percent-off-3782-63191" target="_blank">
+                                <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/h75/h88/14539612225566/14112019-D-MHP-BestOfBrands-Nike-upto60.jpg">
+                                {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
+                                {{--                                    Up to 60% Off--}}
+                                {{--                                </div>--}}
+                            </a>
+                        </div>
+                    </div>
+
 
                 </div>
 

@@ -387,12 +387,51 @@
             </div>
 
             <div class="row text-center">
-{{--                <p class="f-s-20"><span class="f-c-red f-w-9">Mid Season Sale 16th-19th Nov <a href="https://www.myntra.com" target="_blank">--}}
-{{--                            👉 (40-80% OFF)</a></span></p>--}}
+                <p class="f-s-20"><span class="f-c-red f-w-9">COMIC CON INDIA <a href="https://clnk.in/j0Iw" target="_blank">
+                            👉 (25th - 27th Nov)</a></span></p>
                 <br>
                     <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Myntra Women's Fashion</h2>
+
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26">
+                            <a href="https://www.myntra.com/aw-19?f=Brand%3AADIDAS%2CADIDAS%20Originals" target="_blank">
+                                <img class="img-product m-t-img" src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2019/11/21/9ac33d6d-d0eb-40b5-9db2-d8ed69b6d3d31574335017891-Adidas_AHPMB_AR.jpg">
+
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26">
+                            <a href="https://www.myntra.com/mmb-ext-brands?f=Categories%3ABlazers%2CCoats%2CJackets%2CShawl%2CShrug%2CStoles%2CSweaters%2CSweatshirts&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0%3A%3APrice%3A424.0_1499.0_424.0%20TO%201499.0" target="_blank">
+                                <img class="img-product m-t-img" src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2019/11/21/4ca32f54-9eab-4cff-bd5b-0ba12ff0d5b41574333105382-Winterwear_AHPMB_BF.jpg">
+
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26">
+                            <a href="https://www.myntra.com/aksvishd?f=Categories%3AKurta%20Sets%2CKurtas&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0" target="_blank">
+                                <img class="img-product m-t-img" src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2019/11/21/4dfd494f-37a2-4710-b785-f8b755f9a40e1574334420564-Aks--Vishudh_AHPMB_B.jpg">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26">
+                            <a href="https://www.myntra.com/db-14nov" target="_blank">
+                                <img class="img-product m-t-img" src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2019/11/21/a55c1503-63c8-4541-a7b8-4130e5a87ab41574331290773-Nov-19-25-Dressberry_Brand-in-focus.jpg">
+                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
+                                    Indo Era
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26 no-padding-right">
                             <a href="https://www.myntra.com/kurta-sets/indo-era/indo-era-women-beige--pink-yoke-design-kurta-with-palazzos--dupatta/8969717/buy" target="_blank">
                                 <img class="img-product m-t-img" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/8969717/2019/3/28/e448c9a1-3a0f-40e7-b267-1bf44a44ba501553778956208-Indo-Era-Beige-Solid-Straight-Kurta-Sets-9801553778954623-1.jpg">
                                 <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
@@ -401,6 +440,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <a href="https://www.myntra.com/kurtas/vishudh/vishudh-women-black--gold-toned-printed-straight-kurta/2110558/buy" target="_blank">
@@ -411,6 +451,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <a href="https://www.myntra.com/tops/ives/ives-women-olive-green-solid-shirt-style-top/8375271/buy" target="_blank">
@@ -421,6 +462,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <a href="https://www.myntra.com/dresses/inddus/inddus-women-off-white--brown-printed-maxi-dress/8628381/buy" target="_blank">
@@ -431,6 +473,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26">
                             <a href="https://www.myntra.com/kurtas/vaamsi/vaamsi-women-pink--white-printed-straight-kurta/9861569/buy" target="_blank">
@@ -441,6 +484,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <a href="https://www.myntra.com/kurta-sets/libas/libas-women-beige--golden-printed-kurta-with-palazzos--dupatta/10356383/buy" target="_blank">
@@ -451,6 +495,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <a href="https://www.myntra.com/kurta-sets/nayo/nayo-women-burgundy--mustard-yellow-printed-kurta-with-palazzos/7723448/buy" target="_blank">
@@ -461,6 +506,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <a href="https://www.myntra.com/kurtas/aks/aks-women-green--brown-printed-straight-kurta/9269643/buy" target="_blank">
@@ -475,6 +521,41 @@
 
             <div class="row text-center">
                 <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Myntra Men's Fashion</h2>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <a href="https://www.myntra.com/aw-19?f=Brand%3AEcko%20Unltd" target="_blank">
+                            <img class="img-product m-t-img" src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2019/11/21/c6e618b9-7d01-4411-8f1e-3acb6cd519981574334717170-ecko-AHPMB_BF.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.myntra.com/aw-19?f=Brand%3ALevis%3A%3AGender%3Amen%2Cmen%20women" target="_blank">
+                            <img class="img-product m-t-img" src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2019/11/21/7035acdf-2674-4fb0-b4db-dbbb27aa742e1574334324671-levis-new-arrivals.jpg">
+
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.myntra.com/men-footwear?f=Brand%3APark%20Avenue" target="_blank">
+                            <img class="img-product m-t-img" src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2019/11/21/9933dfda-208a-4758-9a21-df9cb92d7efa1574332481404-Park-Avenue_AHPMB_BF.jpg">
+
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.myntra.com/mens-apparel-campus%20sutra?f=Categories%3AJackets%2CSweatshirts&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0" target="_blank">
+                            <img class="img-product m-t-img " src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2019/11/21/422c9579-6a34-460b-923b-c7c8ecd5c3961574334473228-CS-WW.jpg">
+                        </a>
+                    </div>
+                </div>
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
                         <a href="https://www.myntra.com/sherwani/hangup/hangup-men-black-solid-sherwani-with-maroon-solid-dhoti-pants/8889029/buy" target="_blank">
@@ -485,6 +566,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <a href="https://www.myntra.com/shirts/hancock/hancock-men-white-slim-fit-solid-formal-shirt/7460073/buy" target="_blank">
@@ -495,6 +577,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <a href="https://www.myntra.com/kurta-sets/sojanya/sojanya-men-maroon-printed-kurta-churidar-with-jacket/10650068/buy" target="_blank">
@@ -505,6 +588,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <a href="https://www.myntra.com/shirts/roadster/roadster-men-grey--black-regular-fit-printed-casual-shirt/1364626/buy" target="_blank">
@@ -515,6 +599,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
                         <a href="https://www.myntra.com/hrx-justin-141119?f=Gender%3Amen%2Cmen%20women" target="_blank">
@@ -525,6 +610,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <a href="https://www.myntra.com/hrx-by-hrithik-roshan?f=Categories%3ASweatshirts%3A%3AGender%3Amen%2Cmen%20women" target="_blank">
@@ -535,6 +621,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <a href="https://www.myntra.com/hrx-by-hrithik-roshan?f=Categories%3AJackets%3A%3AGender%3Amen%20women%2Cwomen" target="_blank">
@@ -545,6 +632,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <a href="https://www.myntra.com/hrx-by-hrithik-roshan?f=Categories%3ASweatshirts%3A%3AGender%3Amen%20women%2Cwomen" target="_blank">
