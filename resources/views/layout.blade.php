@@ -143,6 +143,7 @@
 {{--<script src="{{env('AWS_CLOUD_FRONT')}}/js/star-rating.min.js" type="text/javascript"></script>--}}
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/select2.min.js"></script>
 @include('chat-script')
+@include('./partials/segment')
 <script>
 
     if (!localStorage.referer) {
@@ -349,7 +350,11 @@
                 }
             });
 
-
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
         $("#btnClosePopup").click(function () {
             localStorage.popupClose = "close";
             $('#myModal').modal('hide');
