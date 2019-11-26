@@ -139,150 +139,74 @@
                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale:
                         Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
-{{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
-{{--                    <div class="">--}}
-{{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20Firstcry" target="_blank">--}}
-{{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
-{{--                            <span class="font-16"></span>--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
+
             </div>
             <div class="row text-center">
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
-                            <img class="img-product m-t-img" src="https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/20189.webp">
+                        <a href="https://www.firstcry.com/sweat-shirts-and-jackets/6/267?scat=267@~2057~2059~2060~2086~10883~10884~10888@@@@@@@@@1@0@20@@@@@@@@@@&sort=bestseller&ref2=fh_dsk_unit_4_jackets" target="_blank">
+                            <img class="img-product m-t-img" src="https://cdn.firstcry.com/brainbees/images/n/jackets-1.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Soan Papdi <br>(200 grams)--}}
 {{--                        </div>--}}
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            ₹150 + Shipping Charges--}}
 {{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.firstcry.com/boutique/celebrations-ahead-%7C-3m-10y/20189" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
                             </a>
-                        </div>
+
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/20188.webp">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Kaju Katli <br>(250 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹245 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.firstcry.com/boutique/ethnic-gala-%7C-3m-10y/20188" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
+                        <a href="https://www.firstcry.com/sweat-shirts-and-jackets/6/267?scat=267@~2055@@@@@@@@@1@0@20@@@@@@@@@@&sort=bestseller&ref2=fh_dsk_unit_sweatshirts_4" target="_blank">
+                            <img class="img-product m-t-img" src="https://cdn.firstcry.com/brainbees/images/n/sweatshirts-2.jpg">
+
                             </a>
-                        </div>
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/20179.webp">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Besan Laddu <br>(250 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹145 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.firstcry.com/boutique/crawlers-fun-time-%7C-infant/20179" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
-                            </a>
-                        </div>
+                        <a href="https://www.firstcry.com/caps-gloves-and-mittens/6/22?scat=22&sort=bestseller&ref2=dsk_unit_winter_caps" target="_blank">
+                            <img class="img-product m-t-img" src="https://cdn.firstcry.com/brainbees/images/n/02_Caps_Gloves.jpg">
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/20187.webp">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Doodh Burfi <br>(250 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹145 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.firstcry.com/boutique/she-loves-lazy-days-%7C-3m-6y/20187" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
+                        <a href="https://www.firstcry.com/sweaters/6/219?scat=219&sort=bestseller&ref2=fh_dsk_unit_winter_sweaters_4" target="_blank">
+                            <img class="img-product m-t-img " src="https://cdn.firstcry.com/brainbees/images/n/sweaters-3.jpg">
+{
                             </a>
-                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.firstcry.com/tops-and-t-shirts/6/26?scat=26@@@@~10404@@@@@@1@0@20@@@@@@@@@@&sort=bestseller&ref2=dsk_unit_winter_full_tees" target="_blank">
+                            <img class="img-product m-t-img " src="https://cdn.firstcry.com/brainbees/images/n/01_Full_Sleeves_Tees.jpg">
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://cdn.firstcry.com/brainbees/images/n/indo-western-store_01.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Raisins <br>(250 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹140 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.firstcry.com/topoffers?moid=6472&c=ETHNIC35&ref2=fh_diwali_indo_dsk" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
-                            </a>
-                        </div>
+                        <a href="https://www.firstcry.com/innerwear-and-thermals/6/163?scat=163@~2090@@@@@@@@@1@0@20@@@@@@@@@@&sort=bestseller&mrp=0-199&Ref2=fh_thermals" target="_blank">
+                            <img class="img-product m-t-img " src="https://cdn.firstcry.com/brainbees/images/n/desktop_unit_thermals_03.jpg">
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://cdn.firstcry.com/brainbees/images/n/dhoti-kurta-store_02.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Pista <br>(200 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹140 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.firstcry.com/topoffers?moid=6471&c=ETHNIC35&ref2=fh_diwali_dhotik_dsk" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
-                            </a>
-                        </div>
+                        <a href="https://www.firstcry.com/shorts-skirts-and-jeans/6/221?scat=221@@@@@@@@@@1@0@20@@@@@@@@@@&sort=bestseller&mrp=0-299&ref2=fh_bottoms" target="_blank">
+                            <img class="img-product m-t-img " src="https://cdn.firstcry.com/brainbees/images/n/desktop_unit_bottoms_04.jpg">
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://cdn.firstcry.com/brainbees/images/n/salwar-suit-store_03.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Mamra Badam <br>(200 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹640 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.firstcry.com/topoffers?moid=6474&c=ETHNIC35&ref2=fh_diwali_salwarsuits_dsk" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://cdn.firstcry.com/brainbees/images/n/jackets-1.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Cashew <br>(200 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹280 + Shipping Charges--}}
-{{--                        </div>--}}
-                        <div class="check-price-padd">
-                            <a href="https://www.firstcry.com/sweat-shirts-and-jackets/6/267?scat=267@~2057~2059~2060~2086~10883~10884~10888@@@@@@@@@1@0@20@@@@@@@@@@&sort=bestseller&ref2=fh_dsk_unit_4_jackets" target="_blank"> <span class="elementor-icon-list-icon">
-                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
-                                </span>
-                            </a>
-                        </div>
+                        <a href="https://www.firstcry.com/nightwear/6/165?scat=165&mrp=0-399&sort=bestseller&ref2=fh_nigtwear" target="_blank">
+                            <img class="img-product m-t-img " src="https://cdn.firstcry.com/brainbees/images/n/desktop_unit_nightwear_05.jpg">
+                        </a>
                     </div>
                 </div>
 
@@ -356,6 +280,7 @@
                     </div>
 
                 </div>
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <img class="img-product m-t-img " src="https://cdn.fcglcdn.com/brainbees/images/carters/autumn-styles.jpg">
@@ -424,6 +349,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <img class="img-product m-t-img " src="https://cdn.fcglcdn.com/brainbees/images/products/219x265/760184a.jpg">
@@ -494,11 +420,41 @@
                 </div>
             </div>
             <br>
-            <br>
             </div>
-    </section>
+        </section>
+
+        <div class="container div-ics-border-btm">
+            <div class="col-md-12 col-xs-12 no-pad">
+                <div class=" col-md-12 col-xs-12 div-ics-prodcts">
+                    <br>
+                    <p class="f-s-20 f-c-gray txt-center">India Shopping, Global Shipping with ShoppRe.com</p>
+                    <div class="col-md-6 col-xs-12 ">
+                        <ul>
+                            <li><a href="/flipkart-online-shopping">Flipkart.com Online Shop</a></li>
+                            <br>
+                            <li><a href="/ajio-online-shopping">AJIO Trends Online Shop</a></li><br>
+                            <li><a href="/myntra-online-shopping">Myntra Online Fashion Store</a></li><br>
+                            <li><a href="/amazon-online-shopping">Shop Online on Amazon.in</a></li><br>
+                            <li><a href="/limeroad-online-shopping">LimeRoad Online Shopping</a></li><br>
+                            <li><a href="/nykaa-online-shopping">Nykaa Online Beauty Store</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-xs-12 ">
+                        <ul>
+                            <li><a href="/tatacliq-online-shopping">Tata CLiQ Online Shopping</a></li><br>
+                            <li><a href="/lifestylestores-online-shopping">Lifestyle Online Clothing</a></li><br>
+                            <li><a href="/pepperfry-online-shopping">Pepperfry Furniture Store</a></li><br>
+                            <li><a href="/fabindia-online-shopping">Fabindia Traditional Wear</a></li><br>
+                            <li><a href="/shoppersstop-online-shopping">Shoppers Stop Apparel</a></li><br>
+                            <li><a href="/chumbak-online-shopping">Chumbak.com Online Shop</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     <br>
     <br>
+
     <br>
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
@@ -515,7 +471,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-7338208403" class="header2 p-color-white">+91 73382 08403</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 
@@ -537,6 +493,7 @@
             </div>
         </div>
     </section>
+
     <section class="d-contact-section-desktop">
         <div class="container " id="contact-support">
             <div class="row" id="d-contcat">
@@ -560,7 +517,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-7338208403" class="header2 p-color-white">+91 73382 08403</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 
@@ -583,6 +540,7 @@
         </div>
         <br>
     </section>
+
 @endsection
 
 @section('js_script')

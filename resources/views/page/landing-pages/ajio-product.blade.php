@@ -492,6 +492,34 @@
             <br>
             <br>
         </div>
+        <div class="container div-ics-border-btm">
+            <div class="col-md-12 col-xs-12 no-pad">
+                <div class=" col-md-12 col-xs-12 div-ics-prodcts">
+                    <br>
+                    <p class="f-s-20 f-c-gray txt-center">Best online shops with ShoppRe Worldwide shipping from India</p>
+                    <div class="col-md-6 col-xs-12 ">
+                        <ul>
+                            <li><a href="/flipkart-online-shopping">Flipkart.com Online Shop</a></li><br>
+                            <li><a href="/firstcry-online-shopping">Firstcry Online Shopping</a></li><br>
+                            <li><a href="/myntra-online-shopping">Myntra Online Fashion Store</a></li><br>
+                            <li><a href="/amazon-online-shopping">Shop Online on Amazon.in</a></li><br>
+                            <li><a href="/limeroad-online-shopping">LimeRoad Online Shopping</a></li><br>
+                            <li><a href="/nykaa-online-shopping">Nykaa Online Beauty Store</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-xs-12 ">
+                        <ul>
+                            <li><a href="/tatacliq-online-shopping">Tata CLiQ Online Shopping</a></li><br>
+                            <li><a href="/lifestylestores-online-shopping">Lifestyle Online Clothing</a></li><br>
+                            <li><a href="/pepperfry-online-shopping">Pepperfry Furniture Store</a></li><br>
+                            <li><a href="/fabindia-online-shopping">Fabindia Traditional Wear</a></li><br>
+                            <li><a href="/shoppersstop-online-shopping">Shoppers Stop Apparel</a></li><br>
+                            <li><a href="/chumbak-online-shopping">Chumbak.com Online Shop</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <br>
     <br>
@@ -511,7 +539,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-7338208403" class="header2 p-color-white">+91 73382 08403</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 
@@ -556,7 +584,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-7338208403" class="header2 p-color-white">+91 73382 08403</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 

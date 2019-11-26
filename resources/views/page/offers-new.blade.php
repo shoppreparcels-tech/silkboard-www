@@ -413,7 +413,7 @@
                     <div class="panel ">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="puja"><span><a
-                                        href="https://ship.shoppre.com/get-6-essential-puja-articles-for-ganesh-puja-from-india/">Buy Puja Items Online</a></span>
+                                        href="/pepperfry-online-shopping">Furniture Shopping in India</a></span>
                             </li><li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Rakhi"><span><a
                                         href="/send-rakhi-gifts-online-worldwide-at-cheap-rates">Rakhi Online Shopping India</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="kurta Clothing"><span><a
@@ -425,7 +425,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Stylish Polka dot dresses"><span><a
                                         href="/myntra-women-maxi-dresses-international-shipping" target="_blank">Maxi Dresses for Women</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="best kurta set for men"><span><a
-                                        href="https://ship.shoppre.com/shop-for-these-stylish-trendy-kurta-sets-for-men-from-best-brands-myntra-india/" target="_blank">Best Kurta Set for Men</a></span></li>
+                                        href="/firstcry-online-shopping" target="_blank">Baby & Kids Shopping</a></span></li>
 
                         </ul>
                     </div>
@@ -433,8 +433,8 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
-                                        href="/onam-community-shipping-offer">Onam Community Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="new year"><span><a
+                                        href="/new-year-offer" target="_blank">New Year Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="frst50"><span><a
                                         href="/first-time-international-shipment-offer" target="_blank">First Shipment Discount</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="diwali"><span><a
@@ -447,8 +447,8 @@
                                         href="/university-offer">Student Special Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="easter"><span><a
                                         href="/easter-shopping-from-india-with-international-shipping">Easter Offer</a></span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="new year"><span><a
-                                        href="/new-year-offer" target="_blank">New Year Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
+                                        href="/onam-community-shipping-offer">Onam Community Offer</a></span></li>
                         </ul>
                     </div>
                 </div>
