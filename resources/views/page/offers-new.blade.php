@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'ShoppRe Offers, Wallet Cashback, Discounts & Ecommerce Sale | ShoppRe.com')
+@section('title', 'ShoppRe Offers, Wallet Cashback, Discounts & Ecommerce Sale')
 @section('description', 'Running & upcoming ShoppRe offers, discount, cashback and ecommerce sale on Personal Shopper, International Courier and Parcel Forwarding from India.')
 @section('keywords', 'cashback, discounts, coupons, promo codes, vouchers, shopping, shipping, ecommerce deals, wallet')
 
@@ -112,7 +112,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">TOP BRANDS ON DISCOUNT</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">TOP BRANDS</h4>
                             <h5 class="header6 p-color-cement font-weight-900">From ₹499</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://clnk.in/jWEU" target="_blank">

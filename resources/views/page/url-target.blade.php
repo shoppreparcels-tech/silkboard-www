@@ -3,30 +3,26 @@
 @section('title', $title )
 @section('description', $description)
 @section('keywords', $keywords)
+
 @section('css_style')
-   <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "name" : "Shoppre",
-  "url": "https://www.shoppre.com/",
-  "alternateName": "shoppre.com",
-  "logo": "https://www.shoppre.com/img/logo.png",
-  "sameAs" : [
-  "https://www.facebook.com/goshoppre/",
-  "https://twitter.com/Go_Shoppre",
-  "https://plus.google.com/+SHOPPRECOM",
-  "https://www.instagram.com/shoppre_official"
-  ],
-  "aggregateRating": {
-    "@type" : "AggregateRating",
-    "bestRating": "5",
-    "ratingValue" : "4.9",
-    "reviewCount" : "10",
-    "worstRating" : 3.5
-  }
-}
-</script>
+
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name" : "International shipping from india",
+          "url": "https://www.shoppre.com",
+          "alternateName": "ShoppRe.com",
+          "logo": "https://www.shoppre.com/img/logo.png",
+          "sameAs" : [
+            "https://www.facebook.com/goshoppre/",
+            "https://twitter.com/Go_Shoppre",
+            "https://www.linkedin.com/company/shoppre.com",
+            "https://www.instagram.com/shoppre_official"
+                     ]
+          }
+    </script>
+
 @endsection
 
 @section('content')
@@ -39,42 +35,38 @@
         </div>
         </div><!-- /.container-fluid -->
     </nav>
-    <div class="container-fluid content_space">
 
         <div id="contentQuickLinks" class="noPrint">
             <p class="quicLinksJumpTo">
-                Goto:
+                Services: 👉
             </p>
             <ul class="quickLinks quickLinksWidth">
-                <li class="quickLinksItem"><a class="link" href="#non-document">
-                        Non-Document</a>|
+                <li class="quickLinksItem"><a class="link" href="/online-shopping-and-international-shipping-sit-back-relax-shop-from-india" target="_blank">
+                        Online Shopping from India</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link" href="#document">
-                        Document</a>|
+{{--                <li class="quickLinksItem"><a class="link" href="#document">--}}
+{{--                        Document</a>|--}}
+{{--                </li>--}}
+{{--                <li class="quickLinksItem"><a class="link" href="#branded_food_items">--}}
+{{--                        Branded & Packaged Food</a>|--}}
                 </li>
-                <li class="quickLinksItem"><a class="link" href="#home_made_products">
-                        Home Made Food Items</a>|
+                <li class="quickLinksItem"><a class="link" href="/priyamani-ad-launch-parcel-forwarding-service-from-india" target="_blank">
+                        Package Forwarding</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link" href="#branded_food_items">
-                        Branded & Packaged Food</a>|
+                <li class="quickLinksItem"><a class="link" href="/personal-shopper-shopping-concierge-from-india" target="_blank">
+                        Assisted Shopping</a>|
+                <li class="quickLinksItem"><a class="link" href="https://www.shoppre.com/schedule-pickup" target="_blank">
+                        Courier Pick-up</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link" href="#liquid">
-                        Liquid</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link" href="#schedule-pickup">
-                        Pickups</a>|
+                <li class="quickLinksItem"><a class="link" href="/best-international-relocation-packers-movers" target="_blank">
+                        Relocation Services</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link" href="#personal-shopper">
-                        Personal Shopper</a>|
-                </li>
-                <li class="quickLinksItem"><a class="link" href="#locker-facility">
-                        Locker Facility</a>|
-                </li>
-                <li class="quickLinksItem"><a class="link" href="#consolidation">
+                <li class="quickLinksItem"><a class="link" href="/package-consolidation-international-shipping" target="_blank">
                         Consolidation & Repackaging</a>|
                 </li>
-                <li class="quickLinksItem"><a class="link" href="#restricted-items">
-                        Restricted Items</a>
+                <li class="quickLinksItem"><a class="link" href="/shop-from-india-ship-worldwide" target="_blank">
+                        International Shipping & Shopping</a>
                 </li>
             </ul>
         </div>
@@ -365,13 +357,13 @@
                     <h4>YOUR PERSONAL SHOPPER</h4>
                     <p>Simply provide us the product and Seller details, our Personal Shopper will purchase the item
                         on your behalf, using our Indian Local Card!</p>
-                    <a href="https://www.shoppre.com/personal-shopper" class="btn btn-shoppre">Learn more
+                    <a href="https://www.shoppre.com/personal-shopper-india" target="_blank" class="btn btn-shoppre">Learn more
                         about Personal Shopper </a>
 
                     <h4>GIFT YOUR LOVED ONES LIVING IN INDIA</h4>
                     <p>Simply sign up and use Shoppre’s Personal Shopper to buy your favorite product from ANY
                         Indian website, and gift your loved ones in India!</p>
-                    <a href="https://www.shoppre.com/customer/register" class="btn btn-shoppre">Sign up for free</a>
+                    <a href="https://www.shoppre.com/customer/register" target="_blank" class="btn btn-shoppre">Sign up for free</a>
                 </div>
             </div>
         </section>
@@ -379,9 +371,9 @@
     <div id="locker-facility">
         <section class="service-sec yellow">
             <div class="container locker_fonts">
-                <h2>Free storage upto 20 days</h2>
+                <h2>FREE storage upto 20 days</h2>
                 <p>
-                    Shoppre has created a brand by itself by specializing as an exclusive international courier service
+                    ShoppRe has created a brand by itself by specializing as an exclusive international courier service
                     provider for you to hold your items in their locker facility.<br>
                     In an effort to maximise consolidation, we will store your packages for 20 days for free. That gives
                     you time to shop and ship your items to our warehouse,Allowing for more packages to be consolidated
@@ -408,9 +400,8 @@
                         <li>We will repack each package to reduce the weight, which will reduce your shipping cost
                             .Original package contents are not compromised by repackaging.
                         </li>
-                        <li>If you don't wish for your shipments to be repacked, you can set that preference in <a
-                                    href="{{env('PREFIX')}}myaccount.{{env('DOMAIN')}}/shipping-preferences"
-                                    class="text-orange">your account</a>.
+                        <li>If you don't wish for your shipments to be repacked, you can set that preference in
+                            your account.
                         </li>
                     </ul>
                 </div>
@@ -449,7 +440,7 @@
             </div>
             <div class="col-sm-6">
                 <div class="serv_sec">
-                    <h4>shipping through <a href="{{route('home')}}" class="text-orange">Shoppre.com</a></h4>
+                    <h4>shipping through <a href="{{route('home')}}" class="text-orange">ShoppRe.com</a></h4>
                     <div class="example">
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/consolid2.png" style="max-width: 78%;">
                     </div>
@@ -465,7 +456,7 @@
                         rate.<br><span class="text-orange">But when you consolidate, you pay for the first half kilo
                             only once!</span>
                     </h4>
-                    <p>Enjoy Shoppre's special discount rates with our trusted courier partners like DHL, FedEx,
+                    <p>Enjoy ShoppRe's special discount rates with our trusted courier partners like DHL,
                         DTDC, etc.<br>thanks to our bulk shipment every month!</p>
                 </div>
             </div>
@@ -506,21 +497,90 @@
                     box addresses, etc.).
                 </p>
             </div>
-        </section>
-    </div>
-    <section class="timeline1">
-        <div class="container">
-            <div class="col-sm-10">
-                <div class="parcel_logs">
-                    <h3>Ship your Parcel through Shoppre’s trusted Courier Partners</h3>
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/dhl.png">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/fedex.png">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/dtdc.png">
-                    <h4>Shoppre receives and ships over INR 10,00,000 worth in eCommerce purchases monthly!</h4>
+            <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad " style="margin-top: 50px;">
+                <h1 class="f-s-22 f-c-d-greay text-center">Cheap and Fast International Shipping from India</h1>
+                <div class="col-xs-12 col-md-12 txt-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.719140890176!2d77.63333951482157!3d12.925764390885917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc11d2d90e91693f3!2sCheap%20%26%20Fast%20International%20Shipping%20from%20India%20-%20ShoppRe.com!5e0!3m2!1sen!2sin!4v1572942278596!5m2!1sen!2sin"
+                            width="1168" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    <h4 class="f-s-16 f-c-l-gray txt-a-c">ShoppRe - International Shipping Services</h4>
                 </div>
             </div>
-        </div>
-    </section>
+            <br>
+        </section>
+        <br>
+    </div>
+{{--    <section class="timeline1">--}}
+{{--        <div class="container">--}}
+{{--            <div class="col-sm-10">--}}
+{{--                <div class="parcel_logs">--}}
+{{--                    <h3>Ship your Parcel through ShoppRe’s trusted International Shipping & Delivery Partners</h3>--}}
+{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/dhl.png">--}}
+{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/fedex.png">--}}
+{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/dtdc.png">--}}
+{{--                    <section class="delivery txt-center" >--}}
+{{--                        <div class="container">--}}
+{{--                            <br/>--}}
+{{--                            <h3 class="header3 p-color-cement-dark font-weight-900 txt-center">Ship your Parcel through ShoppRe’s trusted International Shipping & Delivery Partners--}}
+{{--                            </h3>--}}
+{{--                            <br/>--}}
+{{--                            <div class="row">--}}
+{{--                                <br/>--}}
+{{--                                <div class="col-md-3 col-xs-12">--}}
+{{--                                    <center>--}}
+{{--                                        <div class="EcomBox">--}}
+
+{{--                                            <div class="ecomSmallBox">--}}
+
+{{--                                                    <p class="header3 p-color-cement-dark font-weight-900">DHL</p>--}}
+
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </center>--}}
+{{--                                </div>--}}
+
+{{--                                <div class="col-md-3 col-xs-12">--}}
+{{--                                    <center>--}}
+{{--                                        <div class="EcomBox">--}}
+
+{{--                                            <div class="ecomSmallBox">--}}
+
+{{--                                                    <p class="header3 p-color-cement-dark font-weight-900">DTDC</p>--}}
+
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </center>--}}
+{{--                                </div>--}}
+
+{{--                                <div class="col-md-3 col-xs-12">--}}
+{{--                                    <center>--}}
+{{--                                        <div class="EcomBox">--}}
+
+{{--                                            <div class="ecomSmallBox" >--}}
+
+{{--                                                    <p class="header3 p-color-cement-dark font-weight-900">Aramex</p>--}}
+
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </center>--}}
+{{--                                </div>--}}
+
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </section>--}}
+{{--                    <br>--}}
+{{--                    <br>--}}
+{{--                    <h2 >ShoppRe receives and ships over ₹30,00,000 worth in eCommerce purchases monthly!</h2>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
+    <br>
+
+    <center>    <div id="JdBadge" data-s1="b2" data-s2="Y3RyY3QlNDAlNDAlNDAwODBQWFg4MCUyQlhYODAlMkIxNzA4MjIxMDQ2MTAlMkJTNEY0"></div>
+        <div id="JdBadgeDest"></div><script type="text/javascript" src="https://www.justdial.com/Jd-Widget"></script>
+    </center>
+
+
 @endsection
 
 @section('js_script')
