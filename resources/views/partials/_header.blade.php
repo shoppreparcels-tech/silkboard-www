@@ -10,6 +10,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <div class="navbar-header-login-ajax-mobile" style="display: none">
+                    <ul class="navbar-right">
+                        <li>
+                            <a href="{{route('customer.locker')}}" id="btn_login">
+                                <i class="fa fa-user" style="padding-right: 8px;font-size: 20px;"></i><span id="ajax_customer_username-mobile"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="navbar-header-login">
                     <ul class="navbar-right">
                         @if (Auth::check())
@@ -160,7 +169,7 @@
                                         <a id="btn-service-schedule-pickup" href="{{route('schedulePickup.Index')}}" class="mega-menu-hyperlinks">Schedule a Pickup
                                         </a>
                                     </div>
-
+                                    </div>
                                 </ul>
                             </li>
                             <li class="col-sm-3">

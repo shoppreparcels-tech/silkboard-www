@@ -47,13 +47,15 @@ class SchedulePickupController extends Controller
 
     public function submit(Request $request)
     {
-      $status_code = $this->pickupApi($request);
-        $authorise_url = Authorization::authorizeCourierUser($request->user_email);
-        return redirect($authorise_url);
+        $user = $this->pickupApi($request);
+        $authorise_url = Authorization::authorizeCourierUser($user->email);
+//        return redirect($authorise_url);
+        return response()->json(['redirection_url'=> $authorise_url]);
     }
 
     public function pickupApi($request)
     {
+        $customer_id = Auth::id();
         $customer_name = explode(" ",$request->first_name);
         $first_name = '';
         $last_name = '';
@@ -64,40 +66,50 @@ class SchedulePickupController extends Controller
         else {
             $first_name = $customer_name[0];
         }
+
+        $name = $request->first_name;
         $phone_code = $request->phone_code;
         $mobile = $request->mobile;
         $email = $request->user_email;
-        $customer = $this->signUpPhp($request->first_name, $email, $phone_code, $mobile);
-        Auth::loginUsingId($customer->id);
+        if ($customer_id)
+        {
+            $user = Customer::where('id', $customer_id)->first();
+            $this->signUp($user);
+        } else {
+            $user = $this->signUpPhp($name, $email, $phone_code, $mobile);
+        }
+
+        Auth::loginUsingId($user->id);
         $curl = curl_init();
         $items = array();
         $i = 0;
-        foreach ($request->name as $key => $name) {
-            $items[$i]['name'] = $name;
-            $items[$i]['quantity'] = (int)$request->quantity[$i];
-            $items[$i]['price'] = (float)$request->amount[$i];
+        foreach ($request->items as $item ) {
+            $items[$i]['name'] = $item['name'];
+            $items[$i]['quantity'] = (int)$item['quantity'];
+            $items[$i]['price'] = (float)$item['price'];
             $i++;
         }
         //-required for node js integration - please dont delete this section
         $data = $request;
-         Auth::loginUsingId($customer->id);
+         Auth::loginUsingId($user->id);
+
         $data_string = [
-            'customer_id' => $customer->id,
-            'pickup_first_name' => $first_name,
-            'pickup_last_name' => $last_name,
+            'customer_id' => $user->id,
+            'pickup_first_name' => $data->pc_fname,
+            'pickup_last_name' => $data->pc_lname,
             'type' => $data->type,
-            'drop_off_id' => $data->drop_off_location_id,
+            'drop_off_id' => ((int)$data->drop_off_location_id) == 0 ? null: (int)$data->drop_off_location_id,
             'pickup_address' => $data->pc_street,
             'pickup_pincode' => $data->pc_pincode,
             'pickup_city' => $data->pc_city,
             'pickup_state' => $data->pc_state,
             'pickup_mobile' => '+91'.$data->pc_contact_no,
             'pickup_email' => $data->pc_email,
-            'package_length' => $data->length,
-            'package_width' => $data->width,
-            'package_height' => $data->height,
-            'package_weight' => $data->package_weight,
-            'number_of_packages' => $data->no_of_packages,
+            'package_length' => (float)$data->length,
+            'package_width' => (float)$data->width,
+            'package_height' => (float)$data->height,
+            'package_weight' => (float)$data->package_weight,
+            'number_of_packages' => (int)$data->no_of_packages,
             'destination_first_name' => $data->dc_fname,
             'destination_last_name' => $data->dc_lname,
             'destination_address_line1' => $data->dc_street,
@@ -105,24 +117,25 @@ class SchedulePickupController extends Controller
             'destination_pincode' => $data->dc_pincode,
             'destination_city' => $data->dc_city,
             'destination_state' => $data->dc_state,
-            'destination_country' => $data->dc_country,
+            'destination_country' => (int)$data->dc_country,
             'destination_phone_code' => $data->dc_phone_code,
             'destination_mobile' => '+'.$data->dc_phone_code.$data->dc_contact_no,
             'comment' => $data->comment,
             'items'=> $items,
         ];
 
-        $size_of_package = $data->length.'*'.$data->width.'*'.$data->height;
-        $name = $data->pc_fname.' '.$data->pc_lname;
-        $details = "Phone Number - ".$data->pc_contact_no.',Email -'.$data->pc_email;
-        $pc_details = "\nPickup Details - ".$data->pc_fname."  ".$data->pc_lname." , ".$data->pc_street.
-            " , ".$data->pc_city." , ".$data->pc_state." , ".$data->pc_pincode." , ".$data->pc_contact_no." , ".$data->pc_email;
-        $dc_details = "\nDestination Details - ".$data->dc_fname."  ".$data->dc_lname." , ".$data->dc_street.
-            " , ".$data->dc_city." , ".$data->dc_state." , ".$data->dc_country." , ".$data->dc_pincode." , ".$data->dc_phone_code.
-            " - ".$data->dc_contact_no;
-        $package_details = "\nWeight - ".$data->package_weight."kg, Size - ".$size_of_package;
-        $package_items_details = "\nPickup Items- ".json_encode($items);
-        $all_details = $details.$pc_details.$dc_details.$package_details.$package_items_details;
+//        $size_of_package = $data->length.'*'.$data->width.'*'.$data->height;
+//        $name = $data->pc_fname.' '.$data->pc_lname;
+//        $details = "Phone Number - ".$data->pc_contact_no.',Email -'.$data->pc_email;
+//        $pc_details = "\nPickup Details - ".$data->pc_fname."  ".$data->pc_lname." , ".$data->pc_street.
+//            " , ".$data->pc_city." , ".$data->pc_state." , ".$data->pc_pincode." , ".$data->pc_contact_no." , ".$data->pc_email;
+//        $dc_details = "\nDestination Details - ".$data->dc_fname."  ".$data->dc_lname." , ".$data->dc_street.
+//            " , ".$data->dc_city." , ".$data->dc_state." , ".$data->dc_country." , ".$data->dc_pincode." , ".$data->dc_phone_code.
+//            " - ".$data->dc_contact_no;
+//        $package_details = "\nWeight - ".$data->package_weight."kg, Size - ".$size_of_package;
+//        $package_items_details = "\nPickup Items- ";
+//        $package_items_details = "\nPickup Items- ".json_encode($items);
+//        $all_details = $details.$pc_details.$dc_details.$package_details.$package_items_details;
 //        $response = AsanaTaskOperations::createTask($name, $all_details, "S");
 //        $phpArray = json_decode($response,true);
 
@@ -162,8 +175,7 @@ class SchedulePickupController extends Controller
         if ($err) {
             echo "cURL Error #:" . $err;
         } else {
-            return $httpcode;
-//            return $httpcode;
+            return $user;
         }
     }
 
@@ -178,10 +190,10 @@ class SchedulePickupController extends Controller
 
         $customer = new Customer;
 
-        $douplicate = Customer::where('email', $email)->first();
+        $duplicate = Customer::where('email', $email)->first();
 
-        if (!empty($douplicate)){
-            $customer = $douplicate;
+        if (!empty($duplicate)){
+            $customer = $duplicate;
         }
         else {
             $phone = $phone_code.$mobile;
@@ -243,8 +255,8 @@ class SchedulePickupController extends Controller
 
             $this->sendEmailVerification($email);
         }
-              $this->signUp($customer);
-        return $customer;
+            $this->signUp($customer);
+            return $customer;
 //            $status = MailChimp::signUpSubscriber($name,$email);
 
 //            $status = $this->informMailtrain($customer);

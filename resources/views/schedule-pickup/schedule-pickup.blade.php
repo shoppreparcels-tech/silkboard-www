@@ -32,13 +32,43 @@
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
-        .signup-blox{background:#fff;width:70%;margin:0 auto;border:1px solid rgba(0,0,0,.5);border-radius:10px}.address-line{font-size:12px;color:gray}.box{width:20%;margin:0 auto;background:rgba(255,255,255,.2);padding:35px;border:2px solid #fff;border-radius:20px/50px;background-clip:padding-box;text-align:center}.address-color{color:#000}.btn-close-popup{float:right;background:#e85151;border-radius:36px;width:20px;text-align:center;cursor:pointer}.button{font-size:1em;padding:10px;color:#fff;border:2px solid orange;border-radius:20px/50px;text-decoration:none;cursor:pointer;transition:all .3s ease-out}.button:hover{background:orange}.address-book{cursor:pointer}.overlay{position:fixed;z-index:999;top:-25px;bottom:0;left:0;right:0;background:rgba(.6,.5,.6,.7);transition:opacity .5s;visibility:visible;opacity:1}.overlay:target{visibility:hidden;opacity:0;display:none}.signup-heading{font-size:20px;font-weight:600;text-align:center;color:#d78419;margin-bottom:20px}.popup{margin:70px auto;padding:20px;background:#fff;border-radius:5px;width:40%;position:relative;transition:all 5s ease-in-out}.popup h2{margin-top:0;color:#333;font-family:Tahoma,Arial,sans-serif}.popup .close{position:absolute;top:20px;right:30px;transition:all .2s;font-size:30px;font-weight:700;text-decoration:none;color:#333}.popup .close:hover{color:orange}.address-block{display:none;margin-bottom:3%}.card{box-shadow:0 4px 8px 0 rgba(0,0,0,.2);transition:.3s}.card:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,.2)}.container{padding:2px 16px}.popup .content{max-height:30%;overflow:auto}.seo-sec{background-color:#fafafb}.seo-sec a{text-decoration:underline}.ul-seo ul li{list-style:none}.ul-seo li{font-size:16px;font-weight:600;color:#677582}
+        .chk-terms-left-margin{margin-left: 6%;}.signup-blox{background:#fff;width:70%;margin:0 auto;border:1px solid rgba(0,0,0,.5);border-radius:10px}.address-line{font-size:12px;color:gray}.box{width:20%;margin:0 auto;background:rgba(255,255,255,.2);padding:35px;border:2px solid #fff;border-radius:20px/50px;background-clip:padding-box;text-align:center}.address-color{color:#000}.btn-close-popup{float:right;background:#e85151;border-radius:36px;width:20px;text-align:center;cursor:pointer}.button{font-size:1em;padding:10px;color:#fff;border:2px solid orange;border-radius:20px/50px;text-decoration:none;cursor:pointer;transition:all .3s ease-out}.button:hover{background:orange}.address-book{cursor:pointer}.overlay{position:fixed;z-index:999;top:-25px;bottom:0;left:0;right:0;background:rgba(.6,.5,.6,.7);transition:opacity .5s;visibility:visible;opacity:1}.overlay:target{visibility:hidden;opacity:0;display:none}.signup-heading{font-size:20px;font-weight:600;text-align:center;color:#d78419;margin-bottom:20px}.popup{margin:70px auto;padding:20px;background:#fff;border-radius:5px;width:40%;position:relative;transition:all 5s ease-in-out}.popup h2{margin-top:0;color:#333;font-family:Tahoma,Arial,sans-serif}.popup .close{position:absolute;top:20px;right:30px;transition:all .2s;font-size:30px;font-weight:700;text-decoration:none;color:#333}.popup .close:hover{color:orange}.address-block{display:none;margin-bottom:3%}.card{box-shadow:0 4px 8px 0 rgba(0,0,0,.2);transition:.3s}.card:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,.2)}.container{padding:2px 16px}.popup .content{max-height:30%;overflow:auto}.popup-terms-conditions .content{max-height:30%;overflow:auto}.seo-sec{background-color:#fafafb}.seo-sec a{text-decoration:underline}.ul-seo ul li{list-style:none}.ul-seo li{font-size:16px;font-weight:600;color:#677582}
+        @media only screen and (max-width:600px) {
+            .btn-m-accept-terms-condition {
+                width: 38% !important;
+                margin-top: 15px !important;
+            }
+            .terms-block-mobile {
+                width: 92%;
+                height: 627px;
+                margin-top: 27px;
+                overflow-y: scroll;
+            }
+            .terms-content-box {
+                height: 450px;
+                overflow-y: scroll;
+            }
+            .chk-terms-left-margin {
+                margin-left: 4%;
+            }
+            .signup-blox {
+                width: 100% !important;
+            }
+            .popup {
+                width: 93% !important;
+                margin: 38px auto !important;
+            }
+        }
     </style>
 @endsection
 @section('content')
     <div class="container">
         <br><br><br><br>
     </div>
+
+    <!-- Terms and Conditions  -->
+    @include('../partials/pickup-terms-and-conditions')
+
     <!-- This code is required -->
     <div id="popup1" class="overlay" style="display: none">
         <div class="popup">
@@ -182,10 +212,10 @@
             </div>
 
             <div class="schedule-container">
-                <form class="form-horizontal self_form" id="self_form" method="post"
-                      action="{{route('schedulePickup.submit')}}" enctype="multipart/form-data" autocomplete="off">
+                <form class="form-horizontal self_form1" id="self_form">
+                    {{--<form class="form-horizontal self_form" id="self_form" method="post"--}}
+                          {{--action="{{route('schedulePickup.submit')}}" enctype="multipart/form-data" autocomplete="off">--}}
                     {{ csrf_field() }}
-
                     <h4 class="head-align"><u>YOUR CONTACT DETAILS :</u></h4>
                     <div class="row">
                         <div class="col-sm-6">
@@ -204,7 +234,7 @@
                                 <label class="control-label">Phone Number<span class="mendatory_fields">*</span></label>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <select class="form-control" name="phone_code" id="phone_code">
+                                        <select class="form-control select2" name="phone_code" id="phone_code">
                                             <option value="91">India(+91)</option>
                                             @foreach($countries as $country)
                                                 <option value="{{$country->phone_code}}">{{$country->name}}
@@ -540,7 +570,7 @@
                                 <label class="control-label ">Phone <span class="mendatory_fields">*</span> </label>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <select class="form-control" name="dc_phone_code" id="dc_phone_code" required>
+                                        <select class="form-control select2" name="dc_phone_code" id="dc_phone_code" required>
                                             <option value="">Country Code</option>
                                             @foreach($countries as $country)
                                                 <option value="{{$country->phone_code}}" {{$country->phone_code == 91 ? 'disabled': ''}}>{{$country->name}}
@@ -684,8 +714,481 @@
     <script src="{{asset('js/validate.min.js')}}"></script>
     <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
     <script src="{{env('AWS_CLOUD_FRONT')}}/js/select2.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $(".select2").select2();$("#self_form").validate({ignore:":not(:visible)"});var e="";jQuery.ajax({url:"drop-off",type:"GET",success:function(a){e=a.data,$.each(a.data,function(e,a){$("#ddl-location").append($("<option></option>").val(a.id).html(a.name))})}}),$("#ddl-location").change(function(){var a=Number($("#ddl-location option:selected").index());if(console.log("Index",a),0!==a){var s=e[a-1].address,o=e[a-1].city,l=e[a-1].state,t=e[a-1].pincode,n=e[a-1].location,i=s+" "+o+", "+l+" - "+t;$("#address-drop-off-location").text(i),$("#drop-off-address").removeClass("hide"),$("#drop-off-map-location").removeClass("hide"),$("a#drop-off-location-url").prop("href",n)}else $("#drop-off-address").addClass("hide"),$("#drop-off-map-location").addClass("hide")});$("#ddl-service-type").change(function(){"dropoff"===$("#ddl-service-type").val()?($("#drop-off-location").removeClass("hide"),$(".pickup-address").css("display","none")):($("#drop-off-location").addClass("hide"),$("#drop-off-address").addClass("hide"),$(".pickup-address").css("display","block"))}),$.ajaxSetup({headers:{"X-CSRF-TOKEN":$('meta[name="csrf-token"]').attr("content")}}),$("#utm_campaign").val(localStorage.myaccount_utm_campaign),$("#utm_medium").val(localStorage.myaccount_utm_medium),$("#utm_source").val(localStorage.myaccount_utm_source),$("#gcl_id").val(localStorage.myaccount_gcl_id),$("#referer").val(localStorage.myaccount_referer),$('input[name="other"]').click(function(){this.checked?$(".other_item_box").css("display","block"):$(".other_item_box").css("display","none")}),$("#btn-signup-block").click(function(){console.log("btn-signup"),$(".login-blox").css("display","none"),$(".signup-blox").css("display","block")}),$("#btn-login-block").click(function(){console.log("btn-signup"),$(".login-blox").css("display","block"),$(".signup-blox").css("display","none")}),$("#inputplus").click(function(e){e.preventDefault();var a=$("#self_form ol li:last").attr("data-olli");++a,$("#self_form ol").append('<li style="margin-top: 10px;" id="selfol_li'+a+'" data-olli="'+a+'"><div class="col-sm-5 col-xs-12"><label>Item Name</label><input type="text" class="form-control self_url" name="name['+a+']" required  placeholder="eg: t-shirt"></div><div class="col-sm-2 col-xs-4">   <label>Quantity</label><input type="number" class="form-control self_amt" name="quantity['+a+']" placeholder="eg.2"  data-rule-number="true" data-rule-min="1" required></div><div class="col-sm-2 col-xs-4"><label>Price</label><input type="number" class="form-control self_qty" placeholder="eg..0.00"  name="amount['+a+']"  data-rule-digits="true" data-rule-min="1" required></div><div class="col-sm-1 col-xs-1" style="padding-top: 20px;margin-left: -10px;">   <a style="font-size: 28px;" href="#" class="remove" data-litarget="'+a+'"><i class="fa fa-trash" aria-hidden="true"></i></a></div><div class="clearfix"></div></li>')}),$(document).on("click","#self_form .remove",function(e){e.preventDefault();var a=$(this).attr("data-litarget");$("#selfol_li"+a).remove()}),$("#form_login").validate({rules:{email:{required:!0},password:{required:!0}},messages:{email:{required:"Please Enter First Name"},passwords:{required:"Please Enter Last Name"}},submitHandler:function(e){let a=$("input[name='email']").val(),s=$("input[name='password']").val();$("input[name=_token]").val();return console.log("email",a),console.log("password",s),jQuery.ajax({url:"ajax/login",type:"POST",data:{email:a,password:s},success:function(e){console.log("Login",e),"success"===e.status?($("#popup1").css("display","none"),$("#normal_login_block").css("display","none"),$("#ajax_login_block").css("display","block"),$("#ajax_customer_username").text(e.name)):"wrong_password"===e.status?$("#lblLoginStatus").css("color","red").text("Email and password does not match"):"not_exist"===e.status?$("#lblLoginStatus").css("color","red").text("This Email not registered"):"email_not_verified"===e.status&&$("#lblLoginStatus").css("color","red").text("Please Verify your email ID")}}),!1}}),$("#form_signup_ajax").validate({rules:{signup_email:{required:!0},name:{required:!0},country_code:{required:!0},phone:{required:!0},password:{required:!0}},messages:{signup_email:{required:"Please Enter Email"},name:{required:"Please Enter Name"},country_code:{required:"Please Select Country Code"},dc_phone_code:{required:"Please Select Country Code"},phone:{required:"Please Enter Mobile"},password:{required:"Please Enter Password"}},submitHandler:function(e){let a=$("input[name='signup_email']").val(),s=$("input[name='name']").val(),o=$("select[name='country_code']").val(),l=$("input[name='phone']").val(),t=$("input[name='password']").val();$("input[name=_token]").val();return console.log("name",s),console.log("password",t),jQuery.ajax({url:"ajax/signup",type:"POST",data:{email:a,name:s,country_code:o,phone:l,password:t},success:function(e){"success"===e.status?($("#lblLoginStatus").css("color","darkgreen").text("Please verify your email ID and Try login"),$(".login-blox").css("display","block"),$(".signup-blox").css("display","none")):"duplicate"===e.status&&$("#lblSignupStatus").css("color","red").text("This Email id already registered")}}),!1}}),$("#btn-close-popup-login").click(function(){$("#popup1").css("display","none")}),$("#address-book").click(function(){$(".address-block").slideToggle("slow")}),$(".btn-destination-address").click(function(){const e=$(this).attr("data-id");jQuery.ajax({url:"schedule-pickup/ajax/destination-address",type:"POST",data:{id:e},success:function(e){console.log("Address Data",e),"success"===e.status&&($("input[name='dc_fname']").val(e.address.first_name),$("input[name='dc_lname']").val(e.address.last_name),$("input[name='dc_street']").val(e.address.line1+e.address.line2),$("input[name='dc_pincode']").val(e.address.pincode),$("input[name='dc_state']").val(e.address.state),$("input[name='dc_city']").val(e.address.city),$("input[name='dc_contact_no']").val(e.address.phone),$("#dc_country").val(e.address.country),$("#dc_phone_code").val(e.address.country_code))}})})}),$("#self_form").on("submit",function(){console.log("Pickup form submitted"),!0===$("#self_form").valid()&&$("#schedule_load").show()});
-    </script>
+    {{--<script type="text/javascript">--}}
+        {{--$(document).ready(function(){--}}
+            {{--$(".select2").select2();$("#self_form").validate({ignore:":not(:visible)"});var e="";jQuery.ajax({url:"drop-off",type:"GET",success:function(a){e=a.data,$.each(a.data,function(e,a){$("#ddl-location").append($("<option></option>").val(a.id).html(a.name))})}}),$("#ddl-location").change(function(){var a=Number($("#ddl-location option:selected").index());if(console.log("Index",a),0!==a){var s=e[a-1].address,o=e[a-1].city,l=e[a-1].state,t=e[a-1].pincode,n=e[a-1].location,i=s+" "+o+", "+l+" - "+t;$("#address-drop-off-location").text(i),$("#drop-off-address").removeClass("hide"),$("#drop-off-map-location").removeClass("hide"),$("a#drop-off-location-url").prop("href",n)}else $("#drop-off-address").addClass("hide"),$("#drop-off-map-location").addClass("hide")});$("#ddl-service-type").change(function(){"dropoff"===$("#ddl-service-type").val()?($("#drop-off-location").removeClass("hide"),$(".pickup-address").css("display","none")):($("#drop-off-location").addClass("hide"),$("#drop-off-address").addClass("hide"),$(".pickup-address").css("display","block"))}),$.ajaxSetup({headers:{"X-CSRF-TOKEN":$('meta[name="csrf-token"]').attr("content")}}),$("#utm_campaign").val(localStorage.myaccount_utm_campaign),$("#utm_medium").val(localStorage.myaccount_utm_medium),$("#utm_source").val(localStorage.myaccount_utm_source),$("#gcl_id").val(localStorage.myaccount_gcl_id),$("#referer").val(localStorage.myaccount_referer),$('input[name="other"]').click(function(){this.checked?$(".other_item_box").css("display","block"):$(".other_item_box").css("display","none")}),$("#btn-signup-block").click(function(){console.log("btn-signup"),$(".login-blox").css("display","none"),$(".signup-blox").css("display","block")}),$("#btn-login-block").click(function(){console.log("btn-signup"),$(".login-blox").css("display","block"),$(".signup-blox").css("display","none")}),$("#inputplus").click(function(e){e.preventDefault();var a=$("#self_form ol li:last").attr("data-olli");++a,$("#self_form ol").append('<li style="margin-top: 10px;" id="selfol_li'+a+'" data-olli="'+a+'"><div class="col-sm-5 col-xs-12"><label>Item Name</label><input type="text" class="form-control self_url" name="name['+a+']" required  placeholder="eg: t-shirt"></div><div class="col-sm-2 col-xs-4">   <label>Quantity</label><input type="number" class="form-control self_amt" name="quantity['+a+']" placeholder="eg.2"  data-rule-number="true" data-rule-min="1" required></div><div class="col-sm-2 col-xs-4"><label>Price</label><input type="number" class="form-control self_qty" placeholder="eg..0.00"  name="amount['+a+']"  data-rule-digits="true" data-rule-min="1" required></div><div class="col-sm-1 col-xs-1" style="padding-top: 20px;margin-left: -10px;">   <a style="font-size: 28px;" href="#" class="remove" data-litarget="'+a+'"><i class="fa fa-trash" aria-hidden="true"></i></a></div><div class="clearfix"></div></li>')}),$(document).on("click","#self_form .remove",function(e){e.preventDefault();var a=$(this).attr("data-litarget");$("#selfol_li"+a).remove()}),$("#form_login").validate({rules:{email:{required:!0},password:{required:!0}},messages:{email:{required:"Please Enter First Name"},passwords:{required:"Please Enter Last Name"}},submitHandler:function(e){let a=$("input[name='email']").val(),s=$("input[name='password']").val();$("input[name=_token]").val();return console.log("email",a),console.log("password",s),jQuery.ajax({url:"ajax/login",type:"POST",data:{email:a,password:s},success:function(e){console.log("Login",e),"success"===e.status?($("#popup1").css("display","none"),$("#normal_login_block").css("display","none"),$("#ajax_login_block").css("display","block"),$("#ajax_customer_username").text(e.name)):"wrong_password"===e.status?$("#lblLoginStatus").css("color","red").text("Email and password does not match"):"not_exist"===e.status?$("#lblLoginStatus").css("color","red").text("This Email not registered"):"email_not_verified"===e.status&&$("#lblLoginStatus").css("color","red").text("Please Verify your email ID")}}),!1}}),$("#form_signup_ajax").validate({rules:{signup_email:{required:!0},name:{required:!0},country_code:{required:!0},phone:{required:!0},password:{required:!0}},messages:{signup_email:{required:"Please Enter Email"},name:{required:"Please Enter Name"},country_code:{required:"Please Select Country Code"},dc_phone_code:{required:"Please Select Country Code"},phone:{required:"Please Enter Mobile"},password:{required:"Please Enter Password"}},submitHandler:function(e){let a=$("input[name='signup_email']").val(),s=$("input[name='name']").val(),o=$("select[name='country_code']").val(),l=$("input[name='phone']").val(),t=$("input[name='password']").val();$("input[name=_token]").val();return console.log("name",s),console.log("password",t),jQuery.ajax({url:"ajax/signup",type:"POST",data:{email:a,name:s,country_code:o,phone:l,password:t},success:function(e){"success"===e.status?($("#lblLoginStatus").css("color","darkgreen").text("Please verify your email ID and Try login"),$(".login-blox").css("display","block"),$(".signup-blox").css("display","none")):"duplicate"===e.status&&$("#lblSignupStatus").css("color","red").text("This Email id already registered")}}),!1}}),$("#btn-close-popup-login").click(function(){$("#popup1").css("display","none")}),$("#address-book").click(function(){$(".address-block").slideToggle("slow")}),$(".btn-destination-address").click(function(){const e=$(this).attr("data-id");jQuery.ajax({url:"schedule-pickup/ajax/destination-address",type:"POST",data:{id:e},success:function(e){console.log("Address Data",e),"success"===e.status&&($("input[name='dc_fname']").val(e.address.first_name),$("input[name='dc_lname']").val(e.address.last_name),$("input[name='dc_street']").val(e.address.line1+e.address.line2),$("input[name='dc_pincode']").val(e.address.pincode),$("input[name='dc_state']").val(e.address.state),$("input[name='dc_city']").val(e.address.city),$("input[name='dc_contact_no']").val(e.address.phone),$("#dc_country").val(e.address.country),$("#dc_phone_code").val(e.address.country_code))}})})}),$("#self_form").on("submit",function(){console.log("Pickup form submitted"),!0===$("#self_form").valid()&&$("#schedule_load").show()});--}}
+    {{--</script>--}}
+
+            <script>
+                $(document).ready(function () {
+                    $(".select2").select2();
+                    // $("#self_form").validate({ignore:":not(:visible)"});
+                    var locations = '';
+                    jQuery.ajax({
+                        url: 'drop-off',
+                        type: "GET",
+                        success: function (res) {
+                            locations = res.data;
+                            $.each(res.data, function (data, value) {
+                                $("#ddl-location").append($("<option></option>").val(value.id).html(value.name));
+                            })
+                        }
+                    });
+                    $("#ddl-location").change(function () {
+                        var index = Number($("#ddl-location option:selected").index());
+                        console.log('Index', index);
+                        if (index !== 0) {
+                            var address = locations[index - 1].address;
+                            var city = locations[index - 1].city;
+                            var state = locations[index - 1].state;
+                            var pincode = locations[index - 1].pincode;
+                            var location = locations[index - 1].location;
+                            var completeAddress = address + ' ' + city + ', ' + state + ' - ' + pincode;
+                            $('#address-drop-off-location').text(completeAddress);
+                            $('#drop-off-address').removeClass("hide");
+                            $('#drop-off-map-location').removeClass("hide");
+                            $("a#drop-off-location-url").prop("href", location);
+                        } else {
+                            $('#drop-off-address').addClass("hide");
+                            $('#drop-off-map-location').addClass("hide");
+                        }
+                    });
+                    var service = '';
+                    $('#ddl-service-type').change(function () {
+                        service = $('#ddl-service-type').val();
+                        if (service === 'dropoff') {
+                            $('#drop-off-location').removeClass("hide");
+                            $('.pickup-address').css('display', 'none');
+                        } else {
+                            $('#drop-off-location').addClass("hide");
+                            $('#drop-off-address').addClass("hide");
+                            $('.pickup-address').css('display', 'block');
+                        }
+                    });
+
+                    $.ajaxSetup({
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                        }
+                    });
+
+                    $('#utm_campaign').val(localStorage.myaccount_utm_campaign);
+                    $('#utm_medium').val(localStorage.myaccount_utm_medium);
+                    $('#utm_source').val(localStorage.myaccount_utm_source);
+                    $('#gcl_id').val(localStorage.myaccount_gcl_id);
+                    $('#referer').val(localStorage.myaccount_referer);
+                    $('input[name="other"]').click(function () {
+                        if (this.checked) {
+                            $(".other_item_box").css("display", "block");
+                        }
+                        else {
+                            $(".other_item_box").css("display", "none");
+                        }
+                    });
+                    $('#btn-signup-block').click(function () {
+                        console.log('btn-signup');
+                        $('.login-blox').css('display', 'none');
+                        $('.signup-blox').css('display', 'block');
+                    });
+                    $('#btn-login-block').click(function () {
+                        console.log('btn-signup');
+                        $('.login-blox').css('display', 'block');
+                        $('.signup-blox').css('display', 'none');
+                    });
+                    $("#inputplus").click(function (e) {
+                        e.preventDefault();
+                        var i = $("#self_form ol li:last").attr('data-olli');
+                        ++i;
+                        $("#self_form ol").append('<li style="margin-top: 10px;" id="selfol_li' + i + '" data-olli="' + i + '">' +
+                            '<div class="col-sm-5 col-xs-5">' +
+                            '<label>Item Name</label>' +
+                            '<input type="text" class="form-control self_url" name="name[' + i + ']" required  placeholder="eg: t-shirt">' +
+                            '</div>' +
+                            '<div class="col-sm-2 col-xs-3">' +
+                            '   <label>Quantity</label>' +
+                            '<input type="number" class="form-control self_amt" name="quantity[' + i + ']" placeholder="eg.2"  data-rule-number="true" data-rule-min="1" required>' +
+                            '</div>' +
+                            '<div class="col-sm-2">' +
+                            '<label>Price</label>' +
+                            '<input type="number" class="form-control self_qty" placeholder="eg..0.00"  name="amount[' + i + ']"  data-rule-digits="true" data-rule-min="1" required>' +
+                            '</div>' +
+                            '<div class="col-sm-1 col-xs-1" style="padding-top: 20px;margin-left: -10px;">' +
+                            '   <a style="font-size: 28px;" href="#" class="remove" data-litarget="' + i + '"><i class="fa fa-trash" aria-hidden="true"></i></a>' +
+                            '</div>' +
+                            '<div class="clearfix"></div>' +
+                            '</li>');
+                    });
+
+                    $(document).on("click", "#self_form .remove", function (e) {
+                        e.preventDefault();
+                        var i = $(this).attr('data-litarget');
+                        $('#selfol_li' + i).remove();
+                    });
+
+                    // Submit form using javascript AJAX with login Enabled
+
+                    $("#self_form").validate({
+                        rules:
+                            {
+                                first_name: {required: true},
+                                last_name: {required: true},
+                                user_email: {required: true},
+                                phone_code: {required: true},
+                                drop_off_location_id: {required: true},
+                                type: {required: true},
+                                mobile: {required: true},
+                                no_of_packages: {required: true},
+                                package_weight: {required: true},
+                                length:{ required: true},
+                                width:{ required: true},
+                                height:{ required: true},
+                                package_items: {required: true},
+                                payment_option: {required: true},
+                                pc_fname: {required: true},
+                                pc_lname: {required: true},
+                                pc_street: {required: true},
+                                pc_pincode: {required: true},
+                                pc_city: {required: true},
+                                pc_state: {required: true},
+                                pc_contact_no: {required: true},
+                                dc_fname: {required: true},
+                                dc_lname: {required: true},
+                                dc_street: {required: true},
+                                dc_city: {required: true},
+                                dc_country: {required: true},
+                                dc_pincode: {required: true},
+                                dc_phone_code: {required: true},
+                                dc_contact_no: {required: true}
+                            },
+                        messages:
+                            {
+                                first_name: {required: 'Please Enter First Name'},
+                                last_name: {required: 'Please Enter Last Name'},
+                                user_email: {required: 'Please Enter Email'},
+                                type: {required: 'Please Select Service Type'},
+                                drop_off_location_id: {required: 'Please Select Drop Off Location'},
+                                phone_code: {required: 'Select Phone Code'},
+                                length: {required: 'Select Phone Code'},
+                                width: {required: 'Select Phone Code'},
+                                height: {required: 'Select Phone Code'},
+                                mobile: {required: 'Please Enter Mobile No.'},
+                                no_of_packages: {required: 'Please Enter No of Packages'},
+                                package_weight: {required: 'Please Enter Package Weight'},
+                                package_items: {required: 'Please Enter Package Items'},
+                                payment_option: {required: 'Please Select Payment Option'},
+                                pc_fname: {required: 'Please Enter First Name'},
+                                pc_lname: {required: 'Please Enter Last Name'},
+                                pc_street: {required: 'Please Enter The Street'},
+                                pc_state: {required: 'Please Enter The Street'},
+                                pc_pincode: {required: 'Please Enter Pincode'},
+                                pc_city: {required: 'Please Enter City'},
+                                pc_contact_no: {required: 'Please Enter Contact Number '},
+                                dc_fname: {required: 'Please Enter First Name'},
+                                dc_lname: {required: 'Please Enter Last Name'},
+                                dc_street: {required: 'Please Enter Street'},
+                                dc_city: {required: 'Please Enter City'},
+                                dc_country: {required: 'Please Select Country'},
+                                dc_pincode: {required: 'Please Enter Pincode'},
+                                dc_phone_code: {required: 'Select Phone Code'},
+                                dc_contact_no: {required: 'Please Enter Contact Number'}
+                            },
+                        submitHandler: function (form) {
+                            var f_name = $("input[name='first_name']").val();
+                            var l_name = $("input[name='last_name']").val();
+                            var email = $("input[name='user_email']").val();
+                            var length= $("input[name='length']").val();
+                            var width = $("input[name='width']").val();
+                            var height = $("input[name='height']").val();
+                            var phone_code = $("select[name='phone_code']").val();
+                            var type = $("select[name='type']").val();
+                            var drop_off_location_id = $("select[name='drop_off_location_id']").val();
+                            console.log('drop_off_location_id', drop_off_location_id);
+                            var mobile = $("input[name='mobile']").val();
+                            var no_of_packages = $("input[name='no_of_packages']").val();
+                            var package_weight = $("input[name='package_weight']").val();
+                            var package_size = $("input[name='size_of_package']").val();
+                            var package_items = $("input[name='package_items']").val();
+                            var home_made = $("input[name='home_made']:checked").val();
+                            var branded_food_item = $("input[name='branded_food_items']:checked").val();
+                            var liquid_items = $("input[name='liquid_items']:checked").val();
+                            var medicine_items = $("input[name='medicine_items']:checked").val();
+                            var electronics = $("input[name='electronics']:checked").val();
+                            var other = $("input[name='other']:checked").val();
+                            var other_items = $("input[name='other_items']").val();
+                            var pay_option = $("input[name='payment_option']:checked").val();
+                            var pc_fname = $("input[name='pc_fname']").val();
+                            var pc_lname = $("input[name='pc_lname']").val();
+                            var pc_street = $("input[name='pc_street']").val();
+                            var pc_pincode = $("input[name='pc_pincode']").val();
+                            var pc_city = $("input[name='pc_city']").val();
+                            var pc_state = $("select[name='pc_state']").val();
+                            var pc_contact_no = $("input[name='pc_contact_no']").val();
+                            var pc_email = $("input[name='pc_email']").val();
+                            var dc_fname = $("input[name='dc_fname']").val();
+                            var dc_lname = $("input[name='dc_lname']").val();
+                            var dc_street = $("input[name='dc_street']").val();
+                            var dc_state = $("input[name='dc_state']").val();
+                            var dc_city = $("input[name='dc_city']").val();
+                            var dc_country = $("select[name='dc_country']").val();
+                            var dc_pincode = $("input[name='dc_pincode']").val();
+                            var dc_phone_code = $("select[name='dc_phone_code']").val();
+                            var dc_contact_no = $("input[name='dc_contact_no']").val();
+                            var comment = $("input[name='comment']").val();
+                            var itemlist = [];
+                            var i= 0;
+                            $.each($('.self_url'), function() {
+                                var prd =  $(this).val();
+                                const n = "";
+                                var qty = Number($('input[name="quantity[' + i + ']"]').val());
+                                var amt = Number($('input[name="amount[' + i + ']"]').val());
+                                itemlist.push({
+                                    name: prd,
+                                    quantity: qty,
+                                    price: amt
+                                });
+                                i++;
+                            });
+                            // alert(email);
+                            var token = $('input[name=_token]').val();
+                            console.log('Schedule Pickup form submitted');
+                        $("#schedule_load").show();
+                            if (localStorage.termsaccept) {
+                            jQuery.ajax({
+                                url: 'check/authenticate',
+                                type: "GET",
+                                success: function (res) {
+                                    console.log('Auth', res);
+                                    if (res.status === 'authenticated') {
+                                        delete window.localStorage["termsaccept"];
+                                        jQuery.ajax({
+                                            url: 'schedule-pickup/submit',
+                                            type: "POST",
+                                            data: {
+                                                first_name: f_name,
+                                                last_name: l_name,
+                                                user_email: email,
+                                                phone_code: phone_code,
+                                                mobile: mobile,
+                                                no_of_packages: no_of_packages,
+                                                size_of_package: package_size,
+                                                package_weight: package_weight,
+                                                length: length,
+                                                width: width,
+                                                height: height,
+                                                type: type,
+                                                drop_off_location_id: drop_off_location_id,
+                                                package_items: package_items,
+                                                home_made: home_made,
+                                                branded_food_item: branded_food_item,
+                                                liquid_items: liquid_items,
+                                                medicine_items: medicine_items,
+                                                electronics: electronics,
+                                                other: other,
+                                                other_items: other_items,
+                                                payment_option: pay_option,
+                                                pc_fname: pc_fname,
+                                                pc_lname: pc_lname,
+                                                pc_street: pc_street,
+                                                pc_city: pc_city,
+                                                pc_pincode: pc_pincode,
+                                                pc_state: pc_state,
+                                                pc_contact_no: pc_contact_no,
+                                                pc_email: pc_email,
+                                                dc_fname: dc_fname,
+                                                dc_lname: dc_lname,
+                                                dc_street: dc_street,
+                                                dc_city: dc_city,
+                                                dc_state: dc_state,
+                                                dc_country: dc_country,
+                                                dc_pincode: dc_pincode,
+                                                dc_phone_code: dc_phone_code,
+                                                dc_contact_no: dc_contact_no,
+                                                comment: comment,
+                                                items: itemlist
+                                            },
+                                            success: function (data) {
+                                                console.log('response', data);
+                                                $("#schedule_load").hide();
+                                                debugger;
+                                                window.location.href = data.redirection_url;
+                                                // $('#scheduleModel').modal('show');
+                                                // $('#popup1').css('display', 'block');
+                                                // window.location.href = "https://www.shoppre.com/schedule-pickup/confirm";
+                                                console.log(data);
+                                            }
+                                        });
+                                    }
+                                    else if (res.status === 'unauthenticated') {
+                                        $("#schedule_load").hide();
+                                        $("#popup1").css('display', 'block');
+                                    }
+                                }
+                            });
+                        } else {
+                                $("#terms-popup").css('display', 'block');
+                        }
+
+                            return false;
+                        }
+                    });
+
+                    $('#btn-term-condition-continue').click(function () {
+                        const isAccepted = $('#chk_terms').is(":checked");
+                        console.log('terms', isAccepted);
+                        localStorage.termsaccept = isAccepted;
+                        jQuery.ajax({
+                            url: 'check/authenticate',
+                            type: "GET",
+                            success: function (res) {
+                                console.log('Auth', res);
+                                if (res.status === 'authenticated') {
+                                    $("#terms-popup").css('display', 'none');
+                                    $("#schedule_load").hide();
+                                }
+                                else if (res.status === 'unauthenticated') {
+                                    $("#schedule_load").hide();
+                                    $("#popup1").css('display', 'block');
+                                }
+                            }
+                        });
+                    });
+
+                    $("#form_login").validate({
+                        rules:
+                            {
+                                email: {required: true},
+                                password: {required: true},
+                            },
+                        messages:
+                            {
+                                email: {required: 'Please Enter First Name'},
+                                passwords: {required: 'Please Enter Last Name'},
+                            },
+                        submitHandler: function (form) {
+                            let email = $("input[name='email']").val();
+                            let password = $("input[name='password']").val();
+                            let token = $('input[name=_token]').val();
+                            console.log('email', email);
+                            console.log('password', password);
+                            jQuery.ajax({
+                                url: 'ajax/login',
+                                type: "POST",
+                                data: {
+                                    email: email,
+                                    password: password,
+                                },
+                                success: function (res) {
+                                    console.log('Login', res);
+                                    if (res.status === 'success') {
+                                        $('#popup1').css('display', 'none');
+                                        $('#normal_login_block').css('display', 'none');
+                                        $('.navbar-header-login-ajax-mobile').css('display', 'block');
+                                        $('.navbar-header-login').css('display', 'none');
+                                        $('#ajax_login_block').css('display', 'block');
+                                        $('#ajax_customer_username').text(res.name);
+                                        $('#ajax_customer_username-mobile').text(res.name);
+                                        $("#terms-popup").css('display', 'none');
+                                    } else if (res.status === 'wrong_password') {
+                                        $('#lblLoginStatus').css('color', 'red').text('Email and password does not match');
+                                    } else if (res.status === 'not_exist') {
+                                        $('#lblLoginStatus').css('color', 'red').text('This Email not registered');
+                                    } else if (res.status === 'email_not_verified') {
+                                        $('#lblLoginStatus').css('color', 'red').text('Please Verify your email ID');
+                                    }
+                                }
+                            });
+                            return false;
+                        }
+                    });
+                    $('#form_signup_ajax').validate({
+                        rules:
+                            {
+                                signup_email: {required: true},
+                                name: {required: true},
+                                country_code: {required: true},
+                                phone: {required: true},
+                                password: {required: true},
+                            },
+                        messages:
+                            {
+                                signup_email: {required: 'Please Enter Email'},
+                                name: {required: 'Please Enter Name'},
+                                country_code: {required: 'Please Select Country Code'},
+                                phone: {required: 'Please Enter Mobile'},
+                                password: {required: 'Please Enter Password'},
+                            },
+                        submitHandler: function (form) {
+                            let email = $("input[name='signup_email']").val();
+                            let name = $("input[name='name']").val();
+                            let country_code = $("select[name='country_code']").val();
+                            let phone = $("input[name='phone']").val();
+                            let password = $("input[name='password']").val();
+                            let token = $('input[name=_token]').val();
+                            console.log('name', name);
+                            console.log('password', password);
+                            jQuery.ajax({
+                                url: 'ajax/signup',
+                                type: "POST",
+                                data: {
+                                    email: email,
+                                    name: name,
+                                    country_code: country_code,
+                                    phone: phone,
+                                    password: password,
+                                },
+                                success: function (data) {
+                                    if (data.status === 'success') {
+                                        $('#lblLoginStatus').css('color', 'darkgreen').text('Please verify your email ID and Try login');
+                                        $('.login-blox').css('display', 'block');
+                                        $('.signup-blox').css('display', 'none');
+                                    } else if (data.status === 'duplicate') {
+                                        $('#lblSignupStatus').css('color', 'red').text('This Email id already registered');
+                                    }
+                                }
+                            });
+                            return false;
+                        }
+                    });
+                    $('#btn-close-popup-login').click(function () {
+                        $('#popup1').css('display', 'none');
+                    });
+                    $('#address-book').click(function () {
+                        $('.address-block').slideToggle("slow");
+                    });
+                    $('.btn-destination-address').click(function () {
+                        const address_id = $(this).attr('data-id');
+                        jQuery.ajax({
+                            url: 'schedule-pickup/ajax/destination-address',
+                            type: "POST",
+                            data: {
+                                id: address_id
+                            },
+                            success: function (data) {
+                                console.log('Address Data', data);
+                                if (data.status === 'success') {
+                                    $("input[name='dc_fname']").val(data.address.first_name);
+                                    $("input[name='dc_lname']").val(data.address.last_name);
+                                    $("input[name='dc_street']").val(data.address.line1 + data.address.line2);
+                                    $("input[name='dc_pincode']").val(data.address.pincode);
+                                    $("input[name='dc_state']").val(data.address.state);
+                                    $("input[name='dc_city']").val(data.address.city);
+                                    $("input[name='dc_contact_no']").val(data.address.phone);
+                                    $("#dc_country").val(data.address.country);
+                                    $("#dc_phone_code").val(data.address.country_code);
+                                }
+                            }
+                        });
+                    });
+                });
+
+                // For submitting form using javascript and laravel controller function using form action
+
+                // $('#self_form').on('submit', function () {
+                //     console.log('Pickup form submitted');
+                //     var validationStatus = $("#self_form").valid();
+                //     if (validationStatus === true) {
+                //         $('#schedule_load').show();
+                //     }
+                // });
+            </script>
 @endsection

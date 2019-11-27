@@ -485,9 +485,14 @@ Route::get('/about', 'PageController@about')->name('about');
 /* For sentry testing Breaking the url */
 
 Route::get('/sentry-break', 'PageController@breakSentry')->name('sentry-break');
+
+/* For Schedule Pickup Ajax Urls */
+
 Route::post('/ajax/login', 'PageController@ajaxLogin')->name('ajaxLogin');
-Route::post('/ajax/signup', 'PageController@ajaxSignup')->name('ajaxLogin');
+Route::post('/ajax/signup', 'PageController@ajaxSignup')->name('ajaxSignup');
 Route::get('/check/authenticate', 'PageController@checkAuthenticate')->name('user.check.authenticate');
+
+/* For Shoppre public website Urls */
 
 Route::get('/partner', 'PageController@partner')->name('partner');
 Route::get('/faq', 'PageController@faq')->name('faq');

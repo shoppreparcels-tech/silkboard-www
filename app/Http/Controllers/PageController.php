@@ -47,9 +47,9 @@ class PageController extends Controller
     public function checkAuthenticate(Request $request) {
         $auth_status = Auth::check();
         if ($auth_status) {
-            return response(['status' => 'authenticated', 'description'=>'User is logged in']);
+            return response()->json(['status' => 'authenticated', 'description'=>'User is logged in']);
         }
-        return response(['status' => 'unauthenticated', 'description'=>'User is not logged in']);
+        return response()->json(['status' => 'unauthenticated', 'description'=>'User is not logged in']);
     }
 
     public function ajaxLogin(Request $request) {
@@ -58,18 +58,18 @@ class PageController extends Controller
             if ($customer->email_verify == 'yes') {
                 if (Auth::guard('customer')->attempt(['email'=>$request->email, 'password'=>$request->password])) {
                     $request->session()->save();
-                    return response(['status' => 'success', 'name'=>$customer->name,'email'=>$customer->email], Response::HTTP_OK);
+                    return response()->json(['status' => 'success', 'name'=>$customer->name,'email'=>$customer->email], Response::HTTP_OK);
                 }
                 else {
-                    return response(['status' => 'wrong_password', 'description'=>'Wrong password']);
+                    return response()->json(['status' => 'wrong_password', 'description'=>'Wrong password']);
                 }
             }
             else {
-                return response(['status' => 'email_not_verified', 'description'=>'Email Is not verified']);
+                return response()->json(['status' => 'email_not_verified', 'description'=>'Email Is not verified']);
             }
         }
         else {
-            return response(['status' => 'not_exist', 'description'=>'User not exist']);
+            return response()->json(['status' => 'not_exist', 'description'=>'User not exist']);
         }
     }
 

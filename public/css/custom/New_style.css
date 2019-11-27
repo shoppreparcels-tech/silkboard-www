@@ -131,6 +131,17 @@ body {
     color: #929ca5
 }
 
+.navbar-header-login-ajax-mobile>ul>li {
+    font-size: 14px;
+    float: right;
+    padding-left: 7px;
+    margin-top: 8px
+}
+
+.navbar-header-login-ajax-mobile>ul>li>a {
+    color: #929ca5
+}
+
 .new-menu-register {
     margin-top: 10px;
     height: 30px;
