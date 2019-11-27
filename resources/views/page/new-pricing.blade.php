@@ -758,17 +758,51 @@
                                             </h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-blue">0.5 - 5 Kg -> ₹1392.4 </h6>
-                                            <h6 class="f-s-16 f-c-blue">5 - 10 Kg -> ₹3009</h6>
-                                            <h6 class="f-s-16 f-c-blue">10 - 15 Kg -> ₹5369</h6>
-                                            <h6 class="f-s-16 f-c-blue">Above 15 Kg -> ₹7729</h6>
+                                            <h6 class="f-s-16 f-c-blue">0.5 - 5 Kg -> ₹1400 </h6>
+                                            <h6 class="f-s-16 f-c-blue">5 - 10 Kg -> ₹3100</h6>
+                                            <h6 class="f-s-16 f-c-blue">10 - 15 Kg -> ₹5400</h6>
+                                            <h6 class="f-s-16 f-c-blue">Above 15 Kg -> ₹7800</h6>
                                             <span class="f-s-12 f-c-blue">*Weight in Kg per shipment</span>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-l-gray">0.5 - 5 Kg -> ₹1392.4 </h6>
-                                            <h6 class="f-s-16 f-c-l-gray">5 - 10 Kg -> ₹3009</h6>
-                                            <h6 class="f-s-16 f-c-l-gray">10 - 15 Kg -> ₹5369</h6>
-                                            <h6 class="f-s-16 f-c-l-gray">Above 15 Kg -> ₹7729</h6>
+                                            <h6 class="f-s-16 f-c-l-gray">0.5 - 5 Kg -> ₹1400 </h6>
+                                            <h6 class="f-s-16 f-c-l-gray">5 - 10 Kg -> ₹3100</h6>
+                                            <h6 class="f-s-16 f-c-l-gray">10 - 15 Kg -> ₹5400</h6>
+                                            <h6 class="f-s-16 f-c-l-gray">Above 15 Kg -> ₹7800</h6>
+                                            <span class="f-s-12 f-c-l-gray">*Weight in Kg per shipment</span>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="tr-hide">
+                                        <td>
+                                            <h6 class="f-s-16 f-c-d-greay">Liquid/Semi liquid Clearance Charges for <br> UAE and Singapore
+                                                <a href="#" class="tooltipkey"
+                                                   title="Any Package which requires Special Handling
+                                                         will be prompted to you via email. All liquids/
+                                                         semi-liquids/ homemade food/ medicines/ ayurvedic
+                                                         products/ dangerous goods like nail polish,  etc.
+                                                         will incur a customs clearance charge.The costs might
+                                                         not be limited to the given cost for all cases (for
+                                                         eg, in cases of shipping heavy weight objects or
+                                                         heavy volume dangerous goods such as paints, etc.) -
+                                                         costs could vary, and will keep you posted via
+                                                         email. ">
+                                                    <i class="fa fa-question-circle-o"></i>
+                                                </a>
+                                            </h6>
+                                        </td>
+                                        <td>
+                                            <h6 class="f-s-16 f-c-blue">0.5 - 5 Kg -> ₹3100 </h6>
+                                            <h6 class="f-s-16 f-c-blue">5 - 10 Kg -> ₹5400</h6>
+                                            <h6 class="f-s-16 f-c-blue">10 - 15 Kg -> ₹7800</h6>
+                                            <h6 class="f-s-16 f-c-blue">Above 15 Kg -> ₹9999</h6>
+                                            <span class="f-s-12 f-c-blue">*Weight in Kg per shipment</span>
+                                        </td>
+                                        <td>
+                                            <h6 class="f-s-16 f-c-l-gray">0.5 - 5 Kg -> ₹3100 </h6>
+                                            <h6 class="f-s-16 f-c-l-gray">5 - 10 Kg -> ₹5400</h6>
+                                            <h6 class="f-s-16 f-c-l-gray">10 - 15 Kg -> ₹7800</h6>
+                                            <h6 class="f-s-16 f-c-l-gray">Above 15 Kg -> ₹9999</h6>
                                             <span class="f-s-12 f-c-l-gray">*Weight in Kg per shipment</span>
                                         </td>
                                     </tr>
