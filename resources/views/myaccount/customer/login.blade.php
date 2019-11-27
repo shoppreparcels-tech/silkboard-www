@@ -121,12 +121,18 @@
 
 @section('js_script')
     @include('../partials/mixpanel')
+    @include('../partials/segment')
   <script src="{{asset('js/validate.min.js')}}"></script>
   <script type="text/javascript">
     $(document).ready(function () {
         const customer_id = $('#mixpanel_customer_id').val();
         console.log('mixpanel customer id', customer_id);
-        mixpanel.identify(customer_id);
+        if (customer_id) {
+            console.log('if customer id', customer_id);
+            mixpanel.identify(customer_id);
+            analytics.identify(customer_id);
+        }
+
       // $("#form_login").validate({
       //   rules:
       //     {
