@@ -1344,7 +1344,7 @@
                 <h1 class="f-s-26 f-c-d-greay f-w-9" id="top-indian" >Top Indian Festival Offers, Deals & Shopping Sale</h1>
             </center>
             <div class="row text-center">
-                <div class="col-sm-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="panel ">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Diwali Sale"><span><a
@@ -1362,7 +1362,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="panel ">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="puja"><span><a
@@ -1381,7 +1381,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="panel ">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="new year"><span><a
@@ -1412,6 +1412,7 @@
                 <br><br><br>
             </center>
         </div>
+    </section>
 @endsection
 
 @section('js_script')
