@@ -49,8 +49,8 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - NOVEMBER 2019 SALE
-                        <br> [ 👉 <a href="https://clnk.in/jWEU" target="_blank">Style Your Winter</a> From ₹499 ]</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - DECEMBER 2019 SALE
+                        <br> [ 👉 <a href="https://clnk.in/j1sC" target="_blank">Big Shopping Days</a> 30-80% OFF ]</h2>
                 </div>
             </div>
             <div class="row text-center">

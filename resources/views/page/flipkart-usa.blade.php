@@ -149,7 +149,7 @@
                         <li>Flipkart Freedom Sale 10th to 12th August</li>
                         <li>Flipkart Big Billion Day Sale 29th September to 2nd October.</b></li>
                         <li>Flipkart Diwali Sale 21st to 25th October.</li>
-                        <li>Flipkart Big Shopping Days 6th to 8th December</li>
+                        <li><a href="https://clnk.in/j1sC" target="_blank">Flipkart Big Shopping Days 1st to 5th December</a></li>
                     </ul>
                 </div>
                 <br>

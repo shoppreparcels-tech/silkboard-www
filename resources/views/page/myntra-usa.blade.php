@@ -174,7 +174,8 @@
                         <li>Myntra Diwali Sale, 25th to 27th October 2019</li>
                         <li>Just Kidding(40-70% Off) 13th - 14th November 2019 </li>
                         <li>Mid Season Sale, 16th to 19th November 2019</li>
-                        <li><a href="https://clnk.in/j0Iw" target="_blank">Comic Con India, 25th to 27th November 2019</a></li>
+                        <li>Comic Con India, 25th to 27th November 2019</li>
+                        <li><a href="/myntra-online-shopping" target="_blank">BLACK FRIDAY SALE, 29th Nov to 1st December 2019</a></li>
                     </ul>
                 </div>
                 <br>

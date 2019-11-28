@@ -565,7 +565,7 @@
     </main>
     <!-- Main container -->
 
-    <!-- latest shipments details-->
+    <!-- latest shopping sale details-->
     <section>
         <div class="container-fluid fuid-padding pad-t`-40"><br><br>
             <div class="col-md-2 col-xs-12 pad-l-d">
@@ -578,37 +578,37 @@
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="/shoppersstop-online-shopping" title="Click to Know More" target="_blank">
+                        <a href="/flipkart-online-shopping" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">WEDDING SCENES</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">BIG SHOPPING DAYS</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">30-50% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">50-80% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">19th-30th Nov</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">1ST- 5TH DEC</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Shoppersstop.com</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Flipkart.com</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Shoppers Stop</span> & Ship @Cheap-Cost Internationally</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Flipkart</span> & Ship @Cheap-Cost Internationally.</p>
                         </div>
                         </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="/tatacliq-online-shopping" title="Click Here" target="_blank">
+                        <a href="https://amzn.clnk.in/c8U" title="Click Here" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">MARRIAGE OF COLORS</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">WONDER WOMEN FEST</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">On The Radar</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Up To 70% OFF</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Wedding Season</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">28th - 30TH NOV</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Tatacliq.com</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Amazon.in</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Tata CLiQ </span> & Get Delivered Worldwide with us.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Amazon India</span> & Get Delivered Worldwide with us.</p>
                         </div>
 
                     </div>
@@ -618,12 +618,12 @@
                         <a href="/myntra-online-shopping" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">COMIC CON INDIA</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">BLACK FRIDAY SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Starts from ₹499</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40-70% OFF</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">25th - 27th Nov</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">29th NOV - 1ST DEC</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Myntra.com</span></p>
                             <br>
@@ -637,12 +637,12 @@
                         <a href="/ajio-online-shopping" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">WEEKDAY THERAPY!</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">WEEKEND BINGE SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Min 40% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">20-30% OFF</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Most-wanted Styles Of The Season</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">28th - 30TH NOV</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">AJIO.com</span></p>
                             <br>

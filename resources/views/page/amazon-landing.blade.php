@@ -67,8 +67,9 @@
                         <br/>
                         <p>Fashion | Beauty</p><br>
                         <p>👉 Explore More</p>
+                        </a>
                     </div>
-                    </a>
+
                 </div>
                 <div class="col-sm-4">
                     <div class="ps">
@@ -78,7 +79,9 @@
                         <p>Great Savings💰</p>
                             <br>
                         <p>Every Day. Shop from Deal of the Day</p>
-                    </div></a>
+                        </a>
+                    </div>
+
                 </div>
                 <div class="col-sm-4">
                     <div class="ic">
@@ -88,8 +91,8 @@
                         <p>Under ₹400</p>
                             <br>
                         <p>Men's, Women's, Kids & More </p>
-
-                    </div></a>
+                        </a>
+                    </div>
                 </div>
             </div>
 

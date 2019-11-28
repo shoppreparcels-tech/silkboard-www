@@ -100,11 +100,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="/myntra-online-shopping" target="_blank"><div class="shopandship ">
-                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Comic Con India</h2>
+                    <a href="https://clnk.in/j1sN" target="_blank"><div class="shopandship ">
+                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">BLACK FRIDAY SALE</h2>
                             <br/>
-                            <p>30-60% Off</p>
-                            <p>25th - 27th Nov</p>
+                            <p>40-70% Off</p>
+                            <p>29th Nov - 1st Dec</p>
                             <p>👉 Explore Now</p>
                         </div></a>
                 </div>
