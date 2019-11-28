@@ -136,7 +136,8 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale: <span class="f-s-25 f-c-red f-w-9">Beauty Bonanza</span> /
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">
+                        <span class="f-s-25 f-c-red f-w-9"> Pink Friday Sale ( Nov 29th - 2nd Dec )</span> /
                         Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
 {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
@@ -149,6 +150,148 @@
 {{--                </div>--}}
             </div>
             <div class="row text-center">
+
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <img class="img-product m-t-img" src="https://images-static.nykaa.com/tr:w-200,c-at_max/uploads/618ed275-c774-47ed-b866-79a680c961f1.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Soan Papdi <br>(200 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹150 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.nykaa.com/brands/wella-professionals/c/998?transaction_id=4105412d762d807859d3a7ee08cedd69&intcmp=hp,featured_brands,2,wella-professionals" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img" src="https://images-static.nykaa.com/tr:w-200,c-at_max/uploads/5549a1e6-b307-4e11-8a30-c6d4138d658e.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Kaju Katli <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹245 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.nykaa.com/brands/algotherm/c/9852?transaction_id=e954088e609d2bb2a744ff6b3d70a6f3&intcmp=hp,featured_brands,3,algotherm" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img" src="https://images-static.nykaa.com/tr:w-200,c-at_max/uploads/7376f826-f32f-4d73-9da4-2b8d0fce4c6b.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Besan Laddu <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹145 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.nykaa.com/brands/revlon/c/589?transaction_id=ffc205d6127c691575cd87b670057b4d&intcmp=hp,featured_brands,4,revlon" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img " src="https://images-static.nykaa.com/tr:w-200,c-at_max/uploads/9f3954ba-7de1-428f-bca4-f4902ec548cc.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Doodh Burfi <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹145 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.nykaa.com/brands/rimmel/c/1075?transaction_id=8dcb40413e0b0217a04c52cd5e451608&intcmp=hp,featured_brands,5,rimmel-london" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <img class="img-product m-t-img" src="https://images-static.nykaa.com/tr:w-200,c-at_max/uploads/0db53f2c-ea63-4d85-8480-aa0eb41bceb8.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Soan Papdi <br>(200 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹150 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.nykaa.com/brands/physicians-formula/c/10665?transaction_id=0da561f993e8be180c35a279540e087c&intcmp=hp,featured_brands,6,physicians-formula" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img" src="https://images-static.nykaa.com/tr:w-200,c-at_max/uploads/59c38847-a37b-4b9e-9f90-7b62eccec72d.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Kaju Katli <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹245 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.nykaa.com/brands/chambor/c/1821?transaction_id=c2b8eaf72ae894bf84e8b16058c8c550&intcmp=hp,featured_brands,7,chambor" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img" src="https://images-static.nykaa.com/tr:w-200,c-at_max/uploads/9b55af49-7de5-4166-a7f3-be2738e8af4c.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Besan Laddu <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹145 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.nykaa.com/brands/st-botanica/c/2529?transaction_id=39fa71129f7a4435385aba8cd66f4a46&intcmp=hp,featured_brands,8,st-botanica" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img " src="https://images-static.nykaa.com/tr:w-200,c-at_max/uploads/3bf41a7b-ff0e-4445-9bf1-6a01ea868f43.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Doodh Burfi <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹145 + Shipping Charges--}}
+                        {{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.nykaa.com/wellness/c/671?transaction_id=f4af879917a778e4497a4a10ef881dad&intcmp=hp,featured_brands,1,wellness" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
                             <img class="img-product m-t-img" src="https://images-static.nykaa.com/tr:w-265,c-at_max/uploads/3cae70e8-789f-4d43-8c37-0595bdc69a9e.png">
