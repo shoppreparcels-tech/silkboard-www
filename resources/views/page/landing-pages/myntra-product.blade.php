@@ -645,36 +645,57 @@
                 </div>
             </div>
         </div>
-        <div class="container div-ics-border-btm">
-            <div class="col-md-12 col-xs-12 no-pad">
-                <div class=" col-md-12 col-xs-12 div-ics-prodcts">
-                    <br>
-                    <p class="f-s-20 f-c-gray txt-center">Shop India Stores & Ship Globally with ShoppRe.com</p>
-                    <div class="col-md-6 col-xs-12 ">
-                        <ul>
-                            <li><a href="/flipkart-online-shopping">Flipkart.com Online Shop</a></li><br>
-                            <li><a href="/ajio-online-shopping">AJIO Trends Online Shop</a></li><br>
-                            <li><a href="/firstcry-online-shopping">Baby & Kids Shopping Store</a></li><br>
-                            <li><a href="/amazon-online-shopping">Shop Online on Amazon.in</a></li><br>
-                            <li><a href="/limeroad-online-shopping">LimeRoad Online Shopping</a></li><br>
-                            <li><a href="/nykaa-online-shopping">Nykaa Online Beauty Store</a></li>
-                        </ul>
+    </section>
+        <section class="chris-benefits">
+            <div class="container " >
+                <center>
+                    <h1 class="p-color-cement-dark flipkart-h1 font-weight-900">Shop India Stores & Ship Globally with ShoppRe.com</h1>
+                </center>
+                <div class="row text-center">
+                    <div class="col-sm-4">
+                        <div class="panel boxed outer border-1px">
+                            <ul>
+                                <li><span><a href="/myntra-online-shopping-shipping-from-india">Myntra Online Fashion Store</a></span></li>
+                                <li><span><a href="/flipkart-online-shopping">Flipkart.com Online Shop</a></span></li>
+                                <li><span><a href="/amazon-online-shopping">Amazon.in Shopping India</a></span></li>
+                                <li><span><a href="/jaypore-international-shipping-from-india">Jaypore Handpicked Products</a></span></li>
+                                <li><span><a href="/ajio-online-shopping">AJIO Fashion & Lifestyle Brand</a></span></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-xs-12 ">
-                        <ul>
-                            <li><a href="/tatacliq-online-shopping">Tata CLiQ Online Shopping</a></li><br>
-                            <li><a href="/lifestylestores-online-shopping">Lifestyle Online Clothing</a></li><br>
-                            <li><a href="/pepperfry-online-shopping">Pepperfry Furniture Store</a></li><br>
-                            <li><a href="/fabindia-online-shopping">Fabindia Traditional Wear</a></li><br>
-                            <li><a href="/shoppersstop-online-shopping">Shoppers Stop Apparel</a></li><br>
-                            <li><a href="/chumbak-online-shopping">Chumbak.com Online Shop</a></li>
-                        </ul>
+                    <div class="col-sm-4">
+                        <div class="panel outer border-1px">
+                            <ul>
+                                <li><span><a href="/limeroad-shopping-international-shipping">Limeroad Online Shopping Site</a></span></li>
+                                <li><span><a href="/chumbak-online-shopping" target="_blank">Chumbak Online Shopping</a></span></li>
+                                <li><span><a href="/firstcry-online-shopping" target="_blank">FirstCry Baby & Kids Shopping</a></span></li>
+                                <li><span><a href="/fabindia-online-shopping" target="_blank">Fabindia Traditional Wear</a></span></li>
+                                <li><span><a href="/lifestylestores-online-shopping" target="_blank">Lifestylestores Shopping India</a></span></li>
+
+                            </ul>
+                        </div>
                     </div>
+                    <div class="col-sm-4">
+                        <div class="panel outer border-1px">
+                            <ul>
+                                <li><span><a href="/pepperfry-online-shopping" target="_blank">Pepperfry Furniture Shopping</a></span></li>
+                                <li><span><a href="/shoppersstop-online-shopping" target="_blank">Shoppers Stop Latest Trends‎</a></span></li>
+                                <li><span><a href="/nykaa-online-shopping" target="_blank">Nykaa Online Beauty Store</a></span></li>
+                                <li><span><a href="/tatacliq-online-shopping" target="_blank">Tata CLiQ Online Shopping</a></span></li>
+                                <li><span><a href="https://clnk.in/j1Oo" target="_blank">Biba Ethnic Wear for Ladies</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br/><br/>
                 </div>
             </div>
-        </div>
-    </section>
-
+            <div class="text-center">
+                <br>
+                <a href="/indian-online-stores" class="btn btn-s-b btn-b-r" target="_blank">Indian online shopping sites</a>
+            </div>
+            <br/>
+            </div>
+        </section>
     <br>
     <br>
     <br>

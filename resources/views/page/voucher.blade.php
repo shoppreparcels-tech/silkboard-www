@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'International Shipping Voucher, Gift Cards, Coupons 2019 | ShoppRe')
+@section('title', 'International Shipping Voucher, Gift Cards, Coupons 2020')
 @section('description', 'Shop the ShoppRe International shipping card worth ₹600 on Flipkart.com and Save up to 80% Off Shipping Rates. Shop from India & Ship Worldwide.')
 @section('keywords', 'coupon codes, deals, discounts, free shipping, voucher, gift cards, offers, promo')
 
@@ -23,6 +23,7 @@
     </style>
 
 @endsection
+
 @section('content')
     <section class="first-time-shipment">
         <div class="container no-padding">
@@ -38,7 +39,7 @@
         <div class="container fst-service">
             <div class="row">
                 <div class="col-md-12 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">ShoppRe International Shipping Cards worth INR-600 is now available on Flipkart for INR-499/- ONLY!</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">ShoppRe International Shipping Cards worth ₹600 is now available on Flipkart for ₹499/- ONLY!</h2>
                 </div>
                 <div class="col-md-12 col-xs-12">
 
@@ -117,8 +118,7 @@
             <center>
                 <h1 class="header1 p-color-cement-dark">Featured Services & Benefits</h1>
             </center>
-            <br>
-            <div class="row text-center">
+            <div class="row text-center outer border-1px">
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
@@ -133,8 +133,8 @@
                     <div class="panel ">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Scanned Copies Documents</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Customer Support</span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Add 25+ Address</span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Country-discount</span></li>
 
                         </ul>
@@ -154,7 +154,58 @@
             </div>
         </div>
     </section>
+    <br>
+    <section class="chris-benefits">
+        <div class="container " >
+            <center>
+                <h1 class="p-color-cement-dark flipkart-h1 font-weight-900" >ShoppRe India Online Shopping International Shipping</h1>
+            </center>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="panel boxed outer border-1px">
+                        <ul>
+                            <li><span><a href="myntra-online-shopping-shipping-from-india">Myntra Online Fashion Store</a></span></li>
+                            <li><span><a href="flipkart-shopping-with-shoppre-from-india">Flipkart.com Online Shop</a></span></li>
+                            <li><span><a href="amazon-india-shop-international-shipping">Amazon.in Shopping India</a></span></li>
+                            <li><span><a href="jaypore-international-shipping-from-india">Jaypore Handpicked Products</a></span></li>
+                            <li><span><a href="ajio-online-shopping-international-shipping">AJIO Fashion & Lifestyle Brand</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel outer border-1px">
+                        <ul>
+                            <li><span><a href="limeroad-shopping-international-shipping">Limeroad Online Shopping Site</a></span></li>
+                            <li><span><a href="/chumbak-online-shopping" target="_blank">Chumbak Online Shopping</a></span></li>
+                            <li><span><a href="/firstcry-online-shopping" target="_blank">FirstCry Baby & Kids Shopping</a></span></li>
+                            <li><span><a href="/fabindia-online-shopping" target="_blank">Fabindia Handmade Products‎</a></span></li>
+                            <li><span><a href="/lifestylestores-online-shopping" target="_blank">Lifestylestores Shopping India</a></span></li>
 
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel outer border-1px">
+                        <ul>
+                            <li><span><a href="/pepperfry-online-shopping" target="_blank">Pepperfry Furniture Shopping</a></span></li>
+                            <li><span><a href="/shoppersstop-online-shopping" target="_blank">Shoppers Stop Latest Trends‎</a></span></li>
+                            <li><span><a href="/nykaa-online-shopping" target="_blank">Nykaa Cosmetics Products</a></span></li>
+                            <li><span><a href="/tatacliq-online-shopping" target="_blank">Tata CLiQ Online Shopping</a></span></li>
+                            <li><span><a href="https://clnk.in/j1Oo" target="_blank">Biba Ethnic Wear for Ladies</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <br/><br/>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="/indian-online-stores" class="btn btn-s-b btn-b-r" target="_blank">Indian online shopping sites</a>
+        </div>
+        <br/><br/>
+        </div>
+    </section>
+    <br>
+    <br>
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">
@@ -170,7 +221,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 
@@ -214,7 +265,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 

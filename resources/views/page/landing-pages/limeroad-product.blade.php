@@ -139,25 +139,25 @@
                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale: <span class="f-s-25 f-c-red f-w-9">Women & Men Fashion Clothing</span> /
                         Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
-{{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
-{{--                    <div class="">--}}
-{{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20Limeroad" target="_blank">--}}
-{{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
-{{--                            <span class="font-16"></span>--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
+                {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
+                {{--                    <div class="">--}}
+                {{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20Limeroad" target="_blank">--}}
+                {{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
+                {{--                            <span class="font-16"></span>--}}
+                {{--                        </a>--}}
+                {{--                    </div>--}}
+                {{--                </div>--}}
             </div>
             <div class="row text-center">
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
-                            <img class="img-product m-t-img" src="https://img1.junaroad.com/uiproducts/14766978/pri_175_p-1517398361.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Soan Papdi <br>(200 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹150 + Shipping Charges--}}
-{{--                        </div>--}}
+                        <img class="img-product m-t-img" src="https://img1.junaroad.com/uiproducts/14766978/pri_175_p-1517398361.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Soan Papdi <br>(200 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹150 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/mustard-poly-crepe-napra-p14766978" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -168,13 +168,13 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://img0.junaroad.com/uiproducts/16239840/pri_175_p-1558005090.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Kaju Katli <br>(250 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹245 + Shipping Charges--}}
-{{--                        </div>--}}
+                        <img class="img-product m-t-img" src="https://img0.junaroad.com/uiproducts/16239840/pri_175_p-1558005090.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Kaju Katli <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹245 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/brown-rayon-jaipur-prints-p16239840" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -185,13 +185,13 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://img1.junaroad.com/uiproducts/16399471/pri_175_p-1562238784.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Besan Laddu <br>(250 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹145 + Shipping Charges--}}
-{{--                        </div>--}}
+                        <img class="img-product m-t-img" src="https://img1.junaroad.com/uiproducts/16399471/pri_175_p-1562238784.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Besan Laddu <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹145 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/offwhite-cotton-aasi-house-of-nayo-p16399471" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -202,13 +202,13 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://img2.junaroad.com/uiproducts/16250375/pri_175_p-1556707098.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Doodh Burfi <br>(250 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹145 + Shipping Charges--}}
-{{--                        </div>--}}
+                        <img class="img-product m-t-img " src="https://img2.junaroad.com/uiproducts/16250375/pri_175_p-1556707098.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Doodh Burfi <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹145 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/brown-crepe-janasya-p16250375" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -219,13 +219,13 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://img2.junaroad.com/uiproducts/16572104/pri_175_p-1568295902.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Raisins <br>(250 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹140 + Shipping Charges--}}
-{{--                        </div>--}}
+                        <img class="img-product m-t-img " src="https://img2.junaroad.com/uiproducts/16572104/pri_175_p-1568295902.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Raisins <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹140 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/turquoise-art-silk-pagazo-p16572104" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -236,13 +236,13 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://img0.junaroad.com/uiproducts/16333792/pri_175_p-1559827002.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Pista <br>(200 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹140 + Shipping Charges--}}
-{{--                        </div>--}}
+                        <img class="img-product m-t-img " src="https://img0.junaroad.com/uiproducts/16333792/pri_175_p-1559827002.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Pista <br>(200 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹140 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/brown-art-silk-aloki-p16333792" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -253,13 +253,13 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://img1.junaroad.com/uiproducts/16523695/pri_175_p-1566298016.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Mamra Badam <br>(200 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹640 + Shipping Charges--}}
-{{--                        </div>--}}
+                        <img class="img-product m-t-img " src="https://img1.junaroad.com/uiproducts/16523695/pri_175_p-1566298016.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Mamra Badam <br>(200 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹640 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/pink-chanderi-swaron-p16523695" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -270,13 +270,13 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://img0.junaroad.com/uiproducts/16571700/pri_175_p-1568284821.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Cashew <br>(200 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹280 + Shipping Charges--}}
-{{--                        </div>--}}
+                        <img class="img-product m-t-img " src="https://img0.junaroad.com/uiproducts/16571700/pri_175_p-1568284821.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Cashew <br>(200 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹280 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/purple-silk-blend-aloki-p16571700" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -288,12 +288,12 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <img class="img-product m-t-img " src="https://img0.junaroad.com/uiproducts/16445478/pri_175_p-1563963379.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Sohan Papdi <br>(250 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹85 + Shipping Charges--}}
-{{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Sohan Papdi <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹85 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/neutral-cotton-blend-benstoke-p16445478" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -305,12 +305,12 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <img class="img-product m-t-img " src="https://img1.junaroad.com/uiproducts/16585062/pri_175_p-1569066391.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Doodh Peda <br>(250 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹145 + Shipping Charges--}}
-{{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Doodh Peda <br>(250 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹145 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/white-silk-blend-tag-7-p16585062" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -322,12 +322,12 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <img class="img-product m-t-img " src="https://img1.junaroad.com/uiproducts/16638299/pri_175_p-1570187312.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Dalmoth <br>(100 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹46 + Shipping Charges--}}
-{{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Dalmoth <br>(100 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹46 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/navy-blue-cotton-blend-ruf-tuf-p16638299  " target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -339,12 +339,12 @@
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <img class="img-product m-t-img " src="https://img0.junaroad.com/uiproducts/14599809/pri_175_p-1514035458.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Chow Chow <br>(100 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹42 + Shipping Charges--}}
-{{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Chow Chow <br>(100 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹42 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/beige-cotton-urbano-fashion-p14599809" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -355,13 +355,13 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://img0.junaroad.com/uiproducts/16610103/pri_175_p-1569421625.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Pista Biscuits <br>(150 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹55 + Shipping Charges--}}
-{{--                        </div>--}}
+                        <img class="img-product m-t-img " src="https://img0.junaroad.com/uiproducts/16610103/pri_175_p-1569421625.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Pista Biscuits <br>(150 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹55 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/beige-null-maybelline-p16610103" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -372,13 +372,13 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://img0.junaroad.com/uiproducts/16598835/pri_175_p-1568973862.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Jeera Biscuits <br>(150 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹52 + Shipping Charges--}}
-{{--                        </div>--}}
+                        <img class="img-product m-t-img " src="https://img0.junaroad.com/uiproducts/16598835/pri_175_p-1568973862.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Jeera Biscuits <br>(150 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹52 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/multi-na-l-oreal-p16598835" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -389,13 +389,13 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://img0.junaroad.com/uiproducts/16377167/pri_175_p-1568984557.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Pista Stick <br>(150 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹125 + Shipping Charges--}}
-{{--                        </div>--}}
+                        <img class="img-product m-t-img " src="https://img0.junaroad.com/uiproducts/16377167/pri_175_p-1568984557.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Pista Stick <br>(150 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹125 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/gold-miss-rose-miss-rose-p16377167" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -406,13 +406,13 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://img0.junaroad.com/uiproducts/16186169/pri_175_p-1554816034.jpg">
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            Masala Biscuits <br>(150 grams)--}}
-{{--                        </div>--}}
-{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
-{{--                            ₹52 + Shipping Charges--}}
-{{--                        </div>--}}
+                        <img class="img-product m-t-img " src="https://img0.junaroad.com/uiproducts/16186169/pri_175_p-1554816034.jpg">
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            Masala Biscuits <br>(150 grams)--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+                        {{--                            ₹52 + Shipping Charges--}}
+                        {{--                        </div>--}}
                         <div class="check-price-padd">
                             <a href="https://www.limeroad.com/multi-miss-rose-miss-rose-p16186169" target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
@@ -492,11 +492,62 @@
             </div>
             <br>
             <br>
+        </div>
+
+    </section>
+    <section class="chris-benefits">
+        <div class="container " >
+            <center>
+                <h1 class="p-color-cement-dark flipkart-h1 font-weight-900" >Cheap Online Shopping Worldwide Shipping from INDIA</h1>
+            </center>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="panel boxed outer border-1px">
+                        <ul>
+                            <li><span><a href="myntra-online-shopping-shipping-from-india">Myntra Online Fashion Store</a></span></li>
+                            <li><span><a href="flipkart-shopping-with-shoppre-from-india">Flipkart.com Online Shop</a></span></li>
+                            <li><span><a href="amazon-india-shop-international-shipping">Amazon.in Shopping India</a></span></li>
+                            <li><span><a href="jaypore-international-shipping-from-india">Jaypore Handpicked Products</a></span></li>
+                            <li><span><a href="ajio-online-shopping-international-shipping">AJIO Fashion & Lifestyle Brand</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel outer border-1px">
+                        <ul>
+                            <li><span><a href="limeroad-shopping-international-shipping">Limeroad Online Shopping Site</a></span></li>
+                            <li><span><a href="/chumbak-online-shopping" target="_blank">Chumbak Online Shopping</a></span></li>
+                            <li><span><a href="/firstcry-online-shopping" target="_blank">FirstCry Baby & Kids Shopping</a></span></li>
+                            <li><span><a href="/fabindia-online-shopping" target="_blank">Fabindia Handmade Products‎</a></span></li>
+                            <li><span><a href="/lifestylestores-online-shopping" target="_blank">Lifestylestores Shopping India</a></span></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel outer border-1px">
+                        <ul>
+                            <li><span><a href="/pepperfry-online-shopping" target="_blank">Pepperfry Furniture Shopping</a></span></li>
+                            <li><span><a href="/shoppersstop-online-shopping" target="_blank">Shoppers Stop Latest Trends‎</a></span></li>
+                            <li><span><a href="/nykaa-online-shopping" target="_blank">Nykaa Cosmetics Products</a></span></li>
+                            <li><span><a href="/tatacliq-online-shopping" target="_blank">Tata CLiQ Online Shopping</a></span></li>
+                            <li><span><a href="https://clnk.in/j1Oo" target="_blank">Biba Ethnic Wear for Ladies</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <br/><br/>
             </div>
+        </div>
+        <div class="text-center">
+            <a href="/indian-online-stores" class="btn btn-s-b btn-b-r" target="_blank">Indian online shopping sites</a>
+        </div>
+        <br/><br/>
+        </div>
     </section>
     <br>
     <br>
     <br>
+
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">
@@ -512,7 +563,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-7338208403" class="header2 p-color-white">+91 73382 08403</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 
@@ -557,7 +608,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-7338208403" class="header2 p-color-white">+91 73382 08403</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 

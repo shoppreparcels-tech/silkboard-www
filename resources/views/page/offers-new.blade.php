@@ -106,7 +106,7 @@
         </div>
         <div class="container">
             <br/>
-            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (November 2019 Sale):</h3>
+            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (December 2019 Sale):</h3>
             <br/>
             <div class="row">
                 <div class="col-md-3 col-xs-12">

@@ -143,7 +143,7 @@
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                    class="startsValidValue"> 30th NOV 2019</span></p>
+                                    class="startsValidValue"> 31st DEC 2019</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
