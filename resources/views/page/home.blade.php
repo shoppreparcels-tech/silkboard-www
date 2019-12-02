@@ -635,7 +635,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="/lifestylestores-online-shopping" title="Click for Offer Details" target="_blank">
+                        <a href="/ajio-online-shopping" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
                             <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">PAYDAY SALE</h4></div>
