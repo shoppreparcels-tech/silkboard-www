@@ -238,8 +238,8 @@ class SchedulePickupController extends Controller
             $balance->amount = 0;
             $balance->save();
 
-            Mail::to($customer->email)->bcc(['social.shoppre@gmail.com','vismaya.rk@shoppre.com'])
-                ->send(new SignUpWelcomeMail($customer));
+//            Mail::to($customer->email)->bcc(['social.shoppre@gmail.com','vismaya.rk@shoppre.com'])
+//                ->send(new SignUpWelcomeMail($customer));  // Moved to the email verification
 
             $this->sendEmailVerification($email);
         }

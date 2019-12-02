@@ -184,18 +184,18 @@ class RegisterController extends Controller
         $balance->save();
 
 //      MailChimp::getInterest();
-        $status = MailChimp::signUpSubscriber($name,$request->email);
+//        $status = MailChimp::signUpSubscriber($name,$request->email);  // Moved to verify email
 
 
 //      $status_ask = $this->informToAsk($customer);
-        $status = $this->informMailtrain($customer);
+//        $status = $this->informMailtrain($customer);    // Moved to verify email
         $this->sendEmailVerification($request->email);
 
         $this->signUp($customer);
         Authorization::authorizeUser($customer->email);
 
-        Mail::to($customer->email)->bcc(['social.shoppre@gmail.com','vismaya.rk@shoppre.com'])
-            ->send(new SignUpWelcomeMail($customer));
+//        Mail::to($customer->email)->bcc(['social.shoppre@gmail.com','vismaya.rk@shoppre.com'])
+//            ->send(new SignUpWelcomeMail($customer));   // Moved to the verification Email
 
         if ($membership_type === 'y' || $membership_type == 'h') {
             if (Auth::guard('customer')->attempt(['email'=>$request->email, 'password'=>$request->password])) {
@@ -411,13 +411,17 @@ class RegisterController extends Controller
 
     public function verifyEmail(Request $request)
     {
-        if (isset($request->email)) {
+       if (isset($request->email)) {
             $customer = Customer::where('email', $request->email)->first();
             if ($customer->email_verify !== 'yes') {
                 if ($request->token == $customer->email_token) {
-
+                    $statusMailChimp = MailChimp::signUpSubscriber($customer->name,$customer->email);
+                    $statusMailtrain = $this->informMailtrain($customer);
                     Customer::where('email', $request->email)
                         ->update(['email_token' => null, 'email_verify' => 'yes']);
+
+                    Mail::to($customer->email)->bcc(['social.shoppre@gmail.com','vismaya.rk@shoppre.com'])
+                        ->send(new SignUpWelcomeMail($customer));
 
                     return redirect(route('customer.login'))
                         ->with('message', 'Email address verified successfully. Please login to continue.');

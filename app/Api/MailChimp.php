@@ -107,7 +107,7 @@ class MailChimp
     public static function signUpSubscriber($name, $email) {
         $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
         $auth = base64_encode( 'user:'.$apikey );
-        $listId ='f995a1fef9';
+        $listId ='43d34f0675';
         $data = array(
             'apikey'        => $apikey,
             'email_address' => $email,
@@ -133,7 +133,8 @@ class MailChimp
 
 //           var_dump($result);
             return response()->json([
-                'message' => 'success'
+                'message' => 'success',
+                "result" => $result,
             ]);
         }
         catch(\Exception $e)
