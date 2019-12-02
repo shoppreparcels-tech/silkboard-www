@@ -387,8 +387,8 @@
             </div>
 
             <div class="row text-center">
-                <p class="f-s-20"><span class="f-c-red f-w-9">BLACK FRIDAY SALE <a href="https://clnk.in/j1sN" target="_blank">
-                            👉 (29th Nov - 1st Dec)</a></span></p>
+                <p class="f-s-20"><span class="f-c-red f-w-9">CYBER MONDAY SALE <a href="https://www.myntra.com/" target="_blank">
+                            👉 (40-70% OFF)</a></span></p>
                 <br>
                     <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Myntra Women's Fashion</h2>
 

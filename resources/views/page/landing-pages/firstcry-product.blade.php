@@ -136,7 +136,7 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale:
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">December 2019 Sale:
                         Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
 

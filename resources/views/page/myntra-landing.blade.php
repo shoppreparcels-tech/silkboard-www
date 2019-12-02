@@ -101,10 +101,10 @@
             <div class="row text-center">
                 <div class="col-sm-4">
                     <a href="https://clnk.in/j1sN" target="_blank"><div class="shopandship ">
-                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">BLACK FRIDAY SALE</h2>
+                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">CYBER MONDAY SALE</h2>
                             <br/>
                             <p>40-70% Off</p>
-                            <p>29th Nov - 1st Dec</p>
+                            <p>2nd Dec</p>
                             <p>👉 Explore Now</p>
                         </div></a>
                 </div>
