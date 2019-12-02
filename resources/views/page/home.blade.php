@@ -538,6 +538,7 @@
                               action="{{ route('customer.register.submit') }}">
                             {{ csrf_field() }}
                             <div class="col-md-6 col-xs-6 pad-15">
+                                <input type="hidden" name="is_prime" value="1">
                                 <input id="firstname" name="firstname" type="input" class="txt-l-br txt-f-w txt-b-r txt-pad m-t-10 f-s-16" autocomplete="off"
                                        placeholder=" Enter your Name" required>
                                 <input name="email" type="email" class="txt-f-w txt-b-r txt-l-br txt-pad m-t-10 f-s-16"

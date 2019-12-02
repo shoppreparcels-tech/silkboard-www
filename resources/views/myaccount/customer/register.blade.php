@@ -878,6 +878,7 @@
                         <div class="col-xs-12 col-md-12 email-id">
                             <center>
                                 <input type="hidden" name="continue" value="">
+                                <input type="hidden" name="is_prime" value="1">
                                 <div class="form-group">
                                     <input type="email" class="txt-login-register" placeholder="jhon@gmail.com"
                                            id="signup-email" name="email"

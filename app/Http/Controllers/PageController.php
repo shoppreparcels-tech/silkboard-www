@@ -74,6 +74,7 @@ class PageController extends Controller
     }
 
     public function ajaxSignup(Request $request) {
+        return response()->json(["status" => "Inavlid request"]);
         $douplicate = Customer::where('email', $request->email)->first();
         if (!empty($douplicate)){
             return response()->json(['status'=>'duplicate', 'description'=>'This email id already registered.']);

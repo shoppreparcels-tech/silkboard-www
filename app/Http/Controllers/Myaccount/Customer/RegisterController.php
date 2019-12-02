@@ -44,144 +44,146 @@ class RegisterController extends Controller
 
     public function submitRegister(Request $request)
     {
+        if ($request->is_prime) {
 //      $membership_type = $request->session()->get('membership_type');
-        $membership_type = $request->member;
-        $rules = array(
+            $membership_type = $request->member;
+            $rules = array(
 //            'title' => 'required|max:250',
 //            'firstname' => 'required|max:250',
 //            'lastname' => 'required|max:250',
 //            'email' => 'required|email|max:250|unique:customers',
-            'password' => 'required|min:6',
-        );
+                'password' => 'required|min:6',
+            );
 
-        $this->validate($request, $rules);
+            $this->validate($request, $rules);
 
-        if (!empty($request->full_number)) {
-            $request->phone = $request->full_number;
-        }
+            if (!empty($request->full_number)) {
+                $request->phone = $request->full_number;
+            }
 
-        $douplicate = Customer::where('email', $request->email)->first();
-        if (!empty($douplicate)){
-            return redirect()->back()->with('error_message', 'This email id already registered.');
-        }
-        $loyalPoints = 0;
-        if (!empty($request->refferal)) {
-            $reffer = RefferCode::where('friend', $request->email)
-                ->where('code', $request->refferal)->first();
-            if (!empty($reffer)) {
-                $loyalPoints = 200;
-                $firendId = LoyaltyPoint::where('customer_id', $reffer->customer_id)->first()->id;
+            $douplicate = Customer::where('email', $request->email)->first();
+            if (!empty($douplicate)) {
+                return redirect()->back()->with('error_message', 'This email id already registered.');
+            }
+            $loyalPoints = 0;
+            if (!empty($request->refferal)) {
+                $reffer = RefferCode::where('friend', $request->email)
+                    ->where('code', $request->refferal)->first();
+                if (!empty($reffer)) {
+                    $loyalPoints = 200;
+                    $firendId = LoyaltyPoint::where('customer_id', $reffer->customer_id)->first()->id;
 
-                $friend = LoyaltyPoint::find($firendId);
-                $friend->points += $loyalPoints;
-                $friend->total += $loyalPoints;
+                    $friend = LoyaltyPoint::find($firendId);
+                    $friend->points += $loyalPoints;
+                    $friend->total += $loyalPoints;
 
-                if ($friend->total < 1000) {
-                    $friend->level = 1;
-                } elseif ($friend->total >= 1000 && $friend->total < 6000) {
-                    $friend->level = 2;
-                } elseif ($friend->total >= 6000 && $friend->total < 26000) {
-                    $friend->level = 3;
-                } elseif ($friend->total >= 26000) {
-                    $friend->level = 4;
-                }
+                    if ($friend->total < 1000) {
+                        $friend->level = 1;
+                    } elseif ($friend->total >= 1000 && $friend->total < 6000) {
+                        $friend->level = 2;
+                    } elseif ($friend->total >= 6000 && $friend->total < 26000) {
+                        $friend->level = 3;
+                    } elseif ($friend->total >= 26000) {
+                        $friend->level = 4;
+                    }
 
-                $friend->save();
+                    $friend->save();
 
-                $referFriend = Customer::find($reffer->customer_id);
-                $misc = new LoyaltyMisc;
-                $misc->customer_id = $reffer->customer_id;
-                $misc->info = 'Your friend signed up with the referral code that you sent';
-                $misc->points = $loyalPoints;
-                $misc->save();
+                    $referFriend = Customer::find($reffer->customer_id);
+                    $misc = new LoyaltyMisc;
+                    $misc->customer_id = $reffer->customer_id;
+                    $misc->info = 'Your friend signed up with the referral code that you sent';
+                    $misc->points = $loyalPoints;
+                    $misc->save();
 
-                Mail::to($referFriend->email)->send(new ReferEarned('Congratulations! You have
+                    Mail::to($referFriend->email)->send(new ReferEarned('Congratulations! You have
 		        earned 200 Shoppre Loyalty Points simply because your friend signed up with the referral
 		        code that you sent!'));
 
-                Mail::to($request->email)->send(new ReferEarned('Congratulations! You have earned
+                    Mail::to($request->email)->send(new ReferEarned('Congratulations! You have earned
 		        200 Shoppre Loyalty Points simply because you signed up with the referral code that your
 		        friend sent!'));
 
-            } else {
-                return redirect()->back()->with('error_message', 'You may entered an invalid refferal code.
+                } else {
+                    return redirect()->back()->with('error_message', 'You may entered an invalid refferal code.
 	    		 Try with another or proceed without.');
+                }
             }
-        }
 
-        $customer = new Customer;
+            $customer = new Customer;
 
-        if (!empty($request->referrer)) {
-            $customer->referred_customer_id = base64_decode($request->referrer);
-            $referrer = Customer::where('id', $customer->referred_customer_id)
-                ->select('name', 'email')->first();
-            Mail::to($referrer->email)
-                ->send(new ReferralSuccess(['referrer' => $referrer, 'customer' => $customer]));
-        }
+            if (!empty($request->referrer)) {
+                $customer->referred_customer_id = base64_decode($request->referrer);
+                $referrer = Customer::where('id', $customer->referred_customer_id)
+                    ->select('name', 'email')->first();
+                Mail::to($referrer->email)
+                    ->send(new ReferralSuccess(['referrer' => $referrer, 'customer' => $customer]));
+            }
 
-        $name = "";
-        if (!empty($request->title)) {
-            $name .= $request->title . ". ";
-        }
-        $name .= $request->firstname . " " . $request->lastname;
+            $name = "";
+            if (!empty($request->title)) {
+                $name .= $request->title . ". ";
+            }
+            $name .= $request->firstname . " " . $request->lastname;
 
-        $customer->name = $name;
-        $customer->email = $request->email;
-        $customer->phone = $request->phone;
-        $customer->country_code = $request->country_code;
-        $customer->utm_campaign = $request->utm_campaign;
-        $customer->utm_source = $request->utm_source;
-        $customer->utm_medium = $request->utm_medium;
-        $customer->gcl_id = $request->gcl_id;
-        $customer->referer = $request->referer;
-        $customer->first_visit = $request->first_visit;
-        $customer->membership_type = 'b';
+            $customer->name = $name;
+            $customer->email = $request->email;
+            $customer->phone = $request->phone;
+            $customer->is_prime = $request->is_prime;
+            $customer->country_code = $request->country_code;
+            $customer->utm_campaign = $request->utm_campaign;
+            $customer->utm_source = $request->utm_source;
+            $customer->utm_medium = $request->utm_medium;
+            $customer->gcl_id = $request->gcl_id;
+            $customer->referer = $request->referer;
+            $customer->first_visit = $request->first_visit;
+            $customer->membership_type = 'b';
 //      $customer->medium = $request->continue;
-        $customer->password = bcrypt($request->password);
-        if (!empty($request->referrer)) {
-            $customer->referred_customer_id = base64_decode($request->referrer);
-            $referrer = Customer::where('id', base64_decode($request->referrer))
-                ->select('name', 'email')->first();
-            Mail::to($referrer->email)
-                ->send(new ReferralSuccess(['referrer' => $referrer, 'customer' => $customer]));
-        }
+            $customer->password = bcrypt($request->password);
+            if (!empty($request->referrer)) {
+                $customer->referred_customer_id = base64_decode($request->referrer);
+                $referrer = Customer::where('id', base64_decode($request->referrer))
+                    ->select('name', 'email')->first();
+                Mail::to($referrer->email)
+                    ->send(new ReferralSuccess(['referrer' => $referrer, 'customer' => $customer]));
+            }
 
-        do {
-            $code = 'SHPR' . rand(10, 99) . "-" . rand(100, 999);
-            $user_code = Customer::where('locker', $code)->get();
-        } while (!$user_code->isEmpty());
+            do {
+                $code = 'SHPR' . rand(10, 99) . "-" . rand(100, 999);
+                $user_code = Customer::where('locker', $code)->get();
+            } while (!$user_code->isEmpty());
 
-        $customer->locker = $code;
-        $commnet = "New Sign up " . $request->email . "\n contact No: +" . $request->country_code.$request->phone;
-        AsanaTaskOperations::createTask($name, $commnet, "R");
+            $customer->locker = $code;
+            $commnet = "New Sign up " . $request->email . "\n contact No: +" . $request->country_code . $request->phone;
+            AsanaTaskOperations::createTask($name, $commnet, "R");
 
-        $customer->save();
+            $customer->save();
 
-        $contact = new CustomerContact;
-        $contact->customer_id = $customer->id;
-        $contact->save();
+            $contact = new CustomerContact;
+            $contact->customer_id = $customer->id;
+            $contact->save();
 
-        $loyalty = new LoyaltyPoint;
-        $loyalty->customer_id = $customer->id;
-        $loyalty->level = 1;
-        $loyalty->points = $loyalPoints;
-        $loyalty->total = $loyalPoints;
-        $loyalty->save();
+            $loyalty = new LoyaltyPoint;
+            $loyalty->customer_id = $customer->id;
+            $loyalty->level = 1;
+            $loyalty->points = $loyalPoints;
+            $loyalty->total = $loyalPoints;
+            $loyalty->save();
 
-        $misc = new LoyaltyMisc;
-        $misc->customer_id = $customer->id;
-        $misc->info = 'Signed up with the referral code that your friend sent';
-        $misc->points = $loyalPoints;
-        $misc->save();
+            $misc = new LoyaltyMisc;
+            $misc->customer_id = $customer->id;
+            $misc->info = 'Signed up with the referral code that your friend sent';
+            $misc->points = $loyalPoints;
+            $misc->save();
 
-        $setting = new ShippingPreference;
-        $setting->customer_id = $customer->id;
-        $setting->save();
+            $setting = new ShippingPreference;
+            $setting->customer_id = $customer->id;
+            $setting->save();
 
-        $balance = new ShopperBalance;
-        $balance->customer_id = $customer->id;
-        $balance->amount = 0;
-        $balance->save();
+            $balance = new ShopperBalance;
+            $balance->customer_id = $customer->id;
+            $balance->amount = 0;
+            $balance->save();
 
 //      MailChimp::getInterest();
 //        $status = MailChimp::signUpSubscriber($name,$request->email);  // Moved to verify email
@@ -189,36 +191,35 @@ class RegisterController extends Controller
 
 //      $status_ask = $this->informToAsk($customer);
 //        $status = $this->informMailtrain($customer);    // Moved to verify email
-        $this->sendEmailVerification($request->email);
+            $this->sendEmailVerification($request->email);
 
-        $this->signUp($customer);
-        Authorization::authorizeUser($customer->email);
+
+            $this->signUp($customer);
+            Authorization::authorizeUser($customer->email);
 
 //        Mail::to($customer->email)->bcc(['social.shoppre@gmail.com','vismaya.rk@shoppre.com'])
 //            ->send(new SignUpWelcomeMail($customer));   // Moved to the verification Email
 
-        if ($membership_type === 'y' || $membership_type == 'h') {
-            if (Auth::guard('customer')->attempt(['email'=>$request->email, 'password'=>$request->password])) {
-                $customer_id = Auth::id();
-                $request->session()->put(['membership_type' => $membership_type]);
-                return redirect(route('member.pay',['directSignup' =>'You need to confirm your account.
+            if ($membership_type === 'y' || $membership_type == 'h') {
+                if (Auth::guard('customer')->attempt(['email' => $request->email, 'password' => $request->password])) {
+                    $customer_id = Auth::id();
+                    $request->session()->put(['membership_type' => $membership_type]);
+                    return redirect(route('member.pay', ['directSignup' => 'You need to confirm your account.
             We have sent you an activation code, Please check your email after payment.']));
+                }
             }
-        }
 
-        if ($request->continue)
-        {
-            return redirect(route('customer.login',['continue' => 'mi']))
-                ->with('message', 'You need to confirm your account.
+            if ($request->continue) {
+                return redirect(route('customer.login', ['continue' => 'mi']))
+                    ->with('message', 'You need to confirm your account.
 	    We have sent you an activation code, please check your email.');
-        }
-        else
-        {
-            return redirect(route('customer.login'))
-                ->with(['message' => 'You need to confirm your account.
+            } else {
+                return redirect(route('customer.login'))
+                    ->with(['message' => 'You need to confirm your account.
 	    We have sent you an activation code, please check your email.',
-                    'customer_id' => $customer->id
+                        'customer_id' => $customer->id
                     ]);
+            }
         }
     }
 
@@ -419,8 +420,8 @@ class RegisterController extends Controller
                     $statusMailtrain = $this->informMailtrain($customer);
                     Customer::where('email', $request->email)
                         ->update(['email_token' => null, 'email_verify' => 'yes']);
+                    Mail::to($customer->email)->bcc(['social.shoppre@gmail.com'])
 
-                    Mail::to($customer->email)->bcc(['social.shoppre@gmail.com','vismaya.rk@shoppre.com'])
                         ->send(new SignUpWelcomeMail($customer));
 
                     return redirect(route('customer.login'))
