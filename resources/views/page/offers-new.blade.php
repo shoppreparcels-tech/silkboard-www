@@ -181,11 +181,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">CYBER MONDAY SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-70% OFF</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">THE BIG BEAUTY SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 50% OFF</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://clnk.in/j1sN" target="_blank">
+                                <a href="https://clnk.in/j3s4" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5997a62748742.png"/>
                                 </a>
                             </div>

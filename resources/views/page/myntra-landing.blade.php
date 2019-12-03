@@ -100,11 +100,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://clnk.in/j1sN" target="_blank"><div class="shopandship ">
-                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">CYBER MONDAY SALE</h2>
+                    <a href="https://clnk.in/j3s4" target="_blank"><div class="shopandship ">
+                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">THE BIG BEAUTY SALE</h2>
                             <br/>
-                            <p>40-70% Off</p>
-                            <p>2nd Dec</p>
+                            <p>Up To 50% Off</p>
+                            <p>3rd - 4th Dec</p>
                             <p>👉 Explore Now</p>
                         </div></a>
                 </div>

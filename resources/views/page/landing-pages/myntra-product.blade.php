@@ -387,8 +387,8 @@
             </div>
 
             <div class="row text-center">
-                <p class="f-s-20"><span class="f-c-red f-w-9">CYBER MONDAY SALE <a href="https://www.myntra.com/" target="_blank">
-                            👉 (40-70% OFF)</a></span></p>
+                <p class="f-s-20"><span class="f-c-red f-w-9">THE BIG BEAUTY SALE <a href="https://www.myntra.com/" target="_blank">
+                            👉 (Up To 50% OFF)</a></span></p>
                 <br>
                     <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Myntra Women's Fashion</h2>
 
