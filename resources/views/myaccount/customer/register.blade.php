@@ -893,11 +893,13 @@
                             <input type="hidden" name="utm_medium" value="" id="utm_medium">
                             <input type="hidden" name="gcl_id" value="" id="gcl_id">
                             <input type="hidden" name="referer" value="" id="referer">
+                            <input type="hidden" name="captcha_site_key" value="{{env('CAPTCHA_SITE_KEY')}}" id="captcha_site_key">
                             <input type="hidden" name="first_visit" value="" id="first_visit">
                             <center>
                                 <input type="hidden" name="continue" value="">
+                                <input type="hidden" id = "captcha_token" name="captcha_token" value="">
                                 <div class="form-group">
-                                    <input type="text" class="txt-login-register" name="firstname"
+                                    <input type="text" class="txt-login-register" name="firstname" id="firstname"
                                            value="{{ old('firstname') }}"
                                            placeholder="First Name *" required>
                                 </div>
@@ -913,7 +915,7 @@
                             <center>
                                 <div class="form-group {{ $errors->has('password') ? 'has-error' : '' }}">
                                     <input type="password" class="txt-login-register" placeholder="Password *"
-                                           name="password" required>
+                                           name="password"  id="password" required>
                                 </div>
                             </center>
                         </div>
@@ -988,6 +990,10 @@
             $('#gcl_id').val(localStorage.utm_campaign !== undefined ? localStorage.gcl_id : 'no-gcl-id');
             $('#referer').val(localStorage.referer);
             $('#first_visit').val(localStorage.first_visit);
+            if (localStorage.memberyesNo === "true") {
+                $('#First-section').hide();
+                $('#Sign-up1').show();
+            }
         });
         $(document).ready(function () {
             $('#btn-email').click(function () {
@@ -1000,6 +1006,10 @@
                     $('#signin-name').show();
                     $('#signup-header').text('Complete Sign Up');
                 }
+            });
+
+            $('#Sign-up').click(function () {
+                localStorage.memberyesNo = true;
             });
 
             // $('#utm_campaign').val(localStorage.utm_campaign !== undefined ? localStorage.utm_campaign : 'no-utm-campaign');
@@ -1048,37 +1058,16 @@
                     && /[a-z]/.test(value) // has a lowercase letter
                     && /\d/.test(value) // has a digit
             });
+        });
+    </script>
 
-            // $("#form_register").validate({
-            //     rules:
-            //         {
-            //             // title: {required: true},
-            //             firstname: {required: true, alpha: true},
-            //             // lastname: {required: true},
-            //             country_code: {required: true},
-            //             phone: {required: true},
-            //             email: {required: true, email: true},
-            //             password: {required: true, minlength: 8, pwcheck: true},
-            //             // password_confirmation: {required: true, equalTo: "input[name='password']"}
-            //         },
-            //     messages:
-            //         {
-            //             firstname: {required: "Your firstname required"},
-            //             // lastname: {required: "Your lastname required"},
-            //             email: {
-            //                 required: "Please enter email address",
-            //                 email: "Your email address must be in the format of name@domain.com"
-            //             },
-            //             password: {
-            //                 required: "Please enter your password",
-            //                 pwcheck: "Please enter a strong password with alphabets and digits."
-            //             },
-            //             password_confirmation: {
-            //                 required: "Password confirmation required",
-            //                 // equalTo: "Password confirmation not matching"
-            //             },
-            //         },
-            // });
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lc-wsUUAAAAAMsUxAMTWE0xuO6oSMVmVt50k9bf"></script>
+    <script>
+        grecaptcha.ready(function() {
+            const captcha_site_key = $('#captcha_site_key').val();
+            grecaptcha.execute(captcha_site_key, {action: 'homepage'}).then(function(token) {
+            document.getElementById('captcha_token').value = token;
+            });
         });
     </script>
 @endsection

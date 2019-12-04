@@ -43,7 +43,6 @@
                         <a href="https://twitter.com/Go_Shoppre" target="_blank"><i class="fa fa-twitter-square"></i></a>
                         <a href="https://www.instagram.com/shoppre_official/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
                         <a href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw" target="_blank"><i class="fa fa-youtube"></i></a>
-                        <a href="https://goo.gl/jTfUjf" target="_blank" class="footer-google-logo"><img src="{{asset('img/playstore.png')}}"></a>
                     </div>
                 </div>
                 <div class="clearfix"></div>

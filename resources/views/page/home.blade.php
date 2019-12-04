@@ -161,6 +161,17 @@
     </script>
 
     <style>
+        .grecaptcha-badge {
+            width: 70px !important;
+            overflow: hidden !important;
+            transition: all 0.3s ease !important;
+            left: 4px !important;
+        }
+
+        .grecaptcha-badge:hover {
+            width: 256px !important;
+        }
+
         .cord-header-size {
             font-size: 16px
         }
@@ -536,22 +547,23 @@
                         </div>
                         <form class="register-form h-sign-up" id="form_register" role="form" method="POST"
                               action="{{ route('customer.register.submit') }}">
-                            {{ csrf_field() }}
-                            <div class="col-md-6 col-xs-6 pad-15">
-                                <input type="hidden" name="is_prime" value="1">
-                                <input id="firstname" name="firstname" type="input" class="txt-l-br txt-f-w txt-b-r txt-pad m-t-10 f-s-16" autocomplete="off"
-                                       placeholder=" Enter your Name" required>
-                                <input name="email" type="email" class="txt-f-w txt-b-r txt-l-br txt-pad m-t-10 f-s-16"
-                                       autocomplete="off" placeholder=" Enter your Email id" required>
-                                <input name="password" type="password"
-                                       class="txt-f-w txt-b-r txt-l-br txt-pad m-t-10 f-s-16" autocomplete="off"
-                                       placeholder=" Password" required>
+                            {{--{{ csrf_field() }}--}}
+                            {{--<div class="col-md-6 col-xs-6 pad-15">--}}
+                                {{--<input type="hidden" name="is_prime" value="1">--}}
+                                {{--<input type="hidden" id = "captua" name="captcha_token" value="">--}}
+                                {{--<input id="firstname" name="firstname" type="input" class="txt-l-br txt-f-w txt-b-r txt-pad m-t-10 f-s-16" autocomplete="off"--}}
+                                       {{--placeholder=" Enter your Name" required>--}}
+                                {{--<input name="email" type="email" class="txt-f-w txt-b-r txt-l-br txt-pad m-t-10 f-s-16"--}}
+                                       {{--autocomplete="off" placeholder=" Enter your Email id" required>--}}
+                                {{--<input name="password" type="password"--}}
+                                       {{--class="txt-f-w txt-b-r txt-l-br txt-pad m-t-10 f-s-16" autocomplete="off"--}}
+                                       {{--placeholder=" Password" required>--}}
                                 {{--<a href="" class="btn btn-s-r btn-b-r btn-a-l m-t-20">Sign up for Free</a>--}}
-                                <button type="submit" class="btn btn-s-b btn-b-g btn-l m-t-20">Sign Up FREE</button>
+                                {{--<button type="submit" class="btn btn-s-b btn-b-g btn-l m-t-20">Sign Up FREE</button>--}}
                                 {{--<p class="f-s-14 f-c-blue m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>--}}
                                     {{--Upcoming: 👉<a class="f-c-blue" style="text-decoration: underline" href="https://ship.shoppre.com/amazon-india-prime-day-sale-offers-deals-shoppers-shopping/" target="_blank">Amazon.in Prime Day Sale 15-16 July</a> </p>--}}
-                            </div>
-                            <div class="col-md-6 col-xs-6 no-pad ">
+                            {{--</div>--}}
+                            <div class="col-md-12 col-xs-6 no-pad ">
                                 <center>
                                     <img  src="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-new.png"  width="250" height="293"
                                          class="img-responsive" alt="priyamani shoppre">
@@ -1552,8 +1564,9 @@
                     }
                 });
             }
-        });0
+        });
        </script>
+
 @endsection
 
 

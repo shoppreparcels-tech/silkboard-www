@@ -41,10 +41,46 @@ class RegisterController extends Controller
         return view('myaccount.customer.register')->with(['countries'=>$countries,'states'=>$states]);;
     }
 
+    public function verifyCaptcha($token) {
+//        $apikey = '6LfYz8UUAAAAABEMeoOGBJ43aoSqiqhOP8sgVROf';
+        $apikey =  env('CAPTCHA_SECRET_KEY');
+        $data = array(
+            'secret' => $apikey,
+            'response' => $token,
+        );
+
+        $json_data = '';
+
+        try {
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify?secret='.$apikey.'&response='.$token);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+            curl_setopt($ch, CURLOPT_USERAGENT, 'PHP-MCAPI/2.0');
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+            curl_setopt($ch, CURLOPT_POST, true);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);
+
+            $result = curl_exec($ch);
+
+//           var_dump($result);
+            return $result;
+        }
+        catch(\Exception $e)
+        {
+            return response()->json([
+                'message' => 'error'
+            ]);
+        }
+    }
+
 
     public function submitRegister(Request $request)
     {
-        if ($request->is_prime) {
+        $captcharesponse = $this->verifyCaptcha($request->captcha_token);
+        $jsonDecode = json_decode($captcharesponse, true);
+        if ($jsonDecode['success']) {
 //      $membership_type = $request->session()->get('membership_type');
             $membership_type = $request->member;
             $rules = array(
@@ -191,6 +227,7 @@ class RegisterController extends Controller
 
 //      $status_ask = $this->informToAsk($customer);
 //        $status = $this->informMailtrain($customer);    // Moved to verify email
+
             $this->sendEmailVerification($request->email);
 
 
@@ -220,6 +257,8 @@ class RegisterController extends Controller
                         'customer_id' => $customer->id
                     ]);
             }
+        } else {
+            return redirect()->back()->with('error_message', 'Invalid Captcha');
         }
     }
 
