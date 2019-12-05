@@ -100,11 +100,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://clnk.in/j3s4" target="_blank"><div class="shopandship ">
-                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">THE BIG BEAUTY SALE</h2>
+                    <a href="https://clnk.in/j4cX" target="_blank"><div class="shopandship ">
+                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">SASSAFRAS</h2>
                             <br/>
-                            <p>Up To 50% Off</p>
-                            <p>3rd - 4th Dec</p>
+                            <p>Min. 40% Off</p>
+                            <p>Crafted For The Stylish</p>
                             <p>👉 Explore Now</p>
                         </div></a>
                 </div>

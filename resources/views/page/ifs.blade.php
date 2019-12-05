@@ -123,8 +123,8 @@
     <section>
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉PAYDAY SALE</a> |
-                <a href="https://clnk.in/j3s4" title="clia" target="_blank">2. Myntra.com 👉THE BIG BEAUTY SALE </a> |
+                <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉AJIO MANIA SALE</a> |
+                <a href="https://clnk.in/j4cX" title="clia" target="_blank">2. Myntra.com 👉SASSAFRAS </a> |
                 <a href="/amazon-online-shopping" title="amazon" target="_blank">3. Amazon.in 👉WEDDING FASHION</a> |
                 <a href="/flipkart-online-shopping" title="flipkart" target="_blank">4. Flipkart.com 👉BIG SHOPPING DAYS</a>
             </marquee>

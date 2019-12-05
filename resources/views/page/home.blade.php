@@ -629,15 +629,15 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="https://clnk.in/j3s4" title="Know More" target="_blank">
+                        <a href="https://clnk.in/j4cX" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">THE BIG BEAUTY SALE</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">SASSAFRAS</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Up To 50% OFF</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Min. 40% OFF</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">3rd - 4th DEC</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Crafted For The Stylish</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Myntra.com</span></p>
                             <br>
@@ -651,16 +651,16 @@
                         <a href="/ajio-online-shopping" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">PAYDAY SALE</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">AJIO MANIA SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40-80% OFF</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">50-90% OFF</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">1st - 4th DEC</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">5th - 9th DEC</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">AJIO.com</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9">AJIO</span> & Ship Internationally with us.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9">AJIO Products</span> & Ship Internationally with us.</p>
                         </div>
                     </div>
                         </a>
