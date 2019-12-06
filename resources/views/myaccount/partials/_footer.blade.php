@@ -15,25 +15,25 @@
                 <div class="col-sm-3">
                     <ul class="foot_menu">
                         <li><a href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>
-                        <li><a href="{{route('services')}}">ShoppRe Services</a></li>
-                        <li><a href="https://ship.shoppre.com/refer-and-earn-with-us/">Refer & Earn</a></li>
-                        <li><a href="{{route('stores')}}">Indian Online Stores</a></li>
-                        <li><a href="https://www.shoppre.com/seller-partner">Become a Partner</a></li>
-                        <li><a href="{{route('reviews')}}">ShoppRe Reviews</a></li>
-                        <li><a href="{{route('personal.shopper')}}">How Personal Shopper Works</a></li>
-                        <li><a href="{{route('pricing')}}">Shipping and Pricing for your country</a></li>
+                        <li><a href="/priyamani-ad-launch-parcel-forwarding-service-from-india" target="_blank">ShoppRe Ad Launch</a></li>
+                        <li><a href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank">Refer & Earn</a></li>
+                        <li><a href="{{route('stores1')}}" target="_blank">Indian Online Stores</a></li>
+                        <li><a href="https://www.shoppre.com/seller-partner" target="_blank">Become a Partner</a></li>
+                        <li><a href="{{route('reviews')}}" target="_blank">ShoppRe Reviews</a></li>
+                        <li><a href="/personal-shopper-india">How Personal Shopper Works</a></li>
+                        <li><a href="{{route('pricing')}}" target="_blank">Shipping and Pricing for your country</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
                     <ul class="foot_menu">
-                        <li><a href="{{route('about')}}">About ShoppRe</a></li>
-                        <li><a href="{{route('feedback.Index')}}">Feedback</a></li>
-                        <li><a href="{{route('contact')}}">Contact us</a></li>
-                        <li><a href="{{route('termsAndConditions')}}">Terms & Conditions</a></li>
-                        <li><a href="{{route('privacyPolicy')}}">Privacy Policy</a></li>
-                        <li><a href="{{route('refundAndCancellation')}}">Refund & Cancellation Policy</a>
-                        <li><a href="http://shoppretracking.aftership.com/">Track Your Shipment</a></li>
-                        <li><a href="https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch">Install ShoppRe Chrome Extension</a></li>
+                        <li><a href="{{route('about')}}" target="_blank">About ShoppRe</a></li>
+                        <li><a href="{{route('feedback.Index')}}" target="_blank">Feedback</a></li>
+                        <li><a href="{{route('contact')}}" target="_blank">Contact us</a></li>
+                        <li><a href="https://www.shoppre.com/shop-from-india-ship-worldwide" target="_blank">Shopping and Shipping</a></li>
+                        <li><a href="https://www.shopprecouriers.com/" target="_blank">Courier & Parcel Delivery</a></li>
+                        <li><a href="{{route('refundAndCancellation')}}" target="_blank">Refund & Cancellation Policy</a>
+                        <li><a href="http://shoppretracking.aftership.com/" target="_blank">Track Your Shipment</a></li>
+                        <li><a href="https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch" target="_blank">Install ShoppRe Chrome Extension</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2">

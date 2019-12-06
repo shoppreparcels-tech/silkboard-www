@@ -1,14 +1,19 @@
 @extends('layout')
 
 
-@section('title', 'Christmas 2018 Offer')
+@section('title', 'Christmas 2019 Offer')
 @section('description', '')
 @section('keywords', '')
 
 @section('css_style')
+    <meta name="robots" content="noindex">
+
+    <link rel="canonical" href="https://www.shoppre.com/christmas"/>
+
     <style>
         .christmas-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.christmas-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}
     </style>
+
 @endsection
 @section('content')
     <section class="bg-christmas-landing-page">

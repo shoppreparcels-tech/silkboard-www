@@ -79,7 +79,7 @@
                             <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉AJIO MANIA SALE</a> |
                             <a href="https://clnk.in/j4cX" title="clia" target="_blank">2. Myntra.com 👉SASSAFRAS </a> |
                             <a href="/amazon-online-shopping" title="amazon" target="_blank">3. Amazon.in 👉WEDDING FASHION</a> |
-                            <a href="/flipkart-online-shopping" title="flipkart" target="_blank">4. Flipkart.com 👉BIG SHOPPING DAYS</a>
+                            <a href="https://clnk.in/j4yW" title="flipkart" target="_blank">4. Flipkart.com 👉WINTER WEAR</a>
                         </marquee>
                     </div>
                     <center>
