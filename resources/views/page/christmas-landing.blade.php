@@ -1,20 +1,19 @@
 @extends('layout')
 
 
-@section('title', 'Christmas 2019 Offer')
+@section('title', 'Christmas Offer 2019 | 80% OFF Xmas Shipping | ShoppRe.com')
 @section('description', '')
-@section('keywords', '')
+@section('keywords', 'xmas, christmas offers, 2019, gifts, shopping, holidays, international shipping')
 
 @section('css_style')
-    <meta name="robots" content="noindex">
-
-    <link rel="canonical" href="https://www.shoppre.com/christmas"/>
+    <link rel="canonical" href="https://www.shoppre.com/christmas-offer"/>
 
     <style>
         .christmas-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.christmas-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}
     </style>
 
 @endsection
+
 @section('content')
     <section class="bg-christmas-landing-page">
         <div class="container no-padding">
@@ -39,7 +38,7 @@
                             </div>
                         </div>
                     </form>
-                    <h3 class="header4" style="color: #8eadc8;">*From 10th Dec to 26th Dec 2018</h3>
+                    <h3 class="header4" style="color: #8eadc8;">*From 10th Dec to 26th Dec 2019</h3>
                 </center>
             </div>
             <div class="col-md-2 div-newyear">
@@ -54,7 +53,7 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Good News Again! This offer is valid on all our services!</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
-                    <a href="tel:+91-80 4094 4077" class="c-image">
+                    <a href="tel:+91-8277919191" class="c-image">
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
                     </a>
                 </div>
@@ -95,7 +94,7 @@
                 </p> <br>
 
                 <div class="offerDesc">
-                    <h5> What Else Do You Get Out of Our Offer? </h5><br>
+                    <h3> What Else Do You Get Out of Our Offer? </h3><br>
                     <ul>
                         <li>A FREE Indian Virtual Address to ship your packages to </li>
                         <li>Get online Support 24/7</li>
@@ -104,54 +103,54 @@
                 </div>
                 <br>
                 <div>
-                <center><a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register class="btn-chris-place-order">Go Shopping Now!</a></center>
+                <center><a href="{{env('PREFIX')}}www.{{env('DOMAIN')}}/customer/register" class="btn-chris-place-order">Go Sign-Up Now!</a></center>
                 </div>
 
             </div>
         </div>
     </section>
-    <section class="chris-benefits">
-        <div class="container" >
-            <center>
-                <h1 class="header1 p-color-cement-dark">Featured Services & Benefits</h1>
-            </center>
-            <br>
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <div class="panel ">
-                        <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personal Shopper</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>20-Day Free Storage</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Consolidation</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Repackaging</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="panel ">
-                        <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Scanned of your documents in the courier</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Country-specific</span></li>
+{{--    <section class="chris-benefits">--}}
+{{--        <div class="container" >--}}
+{{--            <center>--}}
+{{--                <h1 class="header1 p-color-cement-dark">Featured Services & Benefits</h1>--}}
+{{--            </center>--}}
+{{--            <br>--}}
+{{--            <div class="row text-center">--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="panel ">--}}
+{{--                        <ul>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personal Shopper</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>20-Day Free Storage</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Consolidation</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Repackaging</span></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="panel ">--}}
+{{--                        <ul>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Scanned of your documents in the courier</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Country-specific</span></li>--}}
 
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="panel ">
-                        <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Photo Updates</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Wallet Cashback</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Package Return Services</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personalized Product Recommendations</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <br/><br/>
-            </div>
-        </div>
-    </section>
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="panel ">--}}
+{{--                        <ul>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Photo Updates</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Wallet Cashback</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Package Return Services</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personalized Product Recommendations</span></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <br/><br/>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">

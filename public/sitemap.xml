@@ -96,6 +96,11 @@
     <priority>0.70</priority>
 </url>
 <url>
+    <loc>https://www.shoppre.com/christmas-offer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+</url>
+<url>
     <loc>https://www.shoppre.com/send-international-courier-from-india</loc>
     <changefreq>daily</changefreq>
     <priority>0.80</priority>

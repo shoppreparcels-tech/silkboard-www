@@ -9,35 +9,34 @@
     <script src="{{asset('js/utils.js')}}"></script>
     <link rel="stylesheet" href="{{asset('css/intlTelInput.css')}}?{{Config::get('app.last_commit_hash')}}">
     <script src="{{asset('js/intlTelInput.js')}}"></script>
+
     <script type='application/ld+json'>
-  {
-    "@context": "http://www.schema.org",
-    "@type": "WebSite",
-    "name": "ShoppRe.com",
-    "alternateName": "IndianShoppre LLP",
-    "url": "https://www.shoppre.com/"
-  }
-
-
+      {
+        "@context": "http://www.schema.org",
+        "@type": "WebSite",
+        "name": "ShoppRe.com",
+        "alternateName": "IndianShoppre LLP",
+        "url": "https://www.shoppre.com"
+      }
     </script>
+
     <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "name": "ShoppRe - International Shipping From India",
-    "url": "https://www.shoppre.com",
-    "sameAs": [
-      "https://www.facebook.com/goshoppre/",
-      "https://www.instagram.com/shoppre_official/",
-      "https://twitter.com/Go_Shoppre",
-      "https://plus.google.com/+SHOPPRECOM",
-      "https://www.linkedin.com/company/shoppre.com",
-      "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw"
-    ]
-  }
-
-
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "ShoppRe - International Shipping From India",
+        "url": "https://www.shoppre.com",
+        "sameAs": [
+          "https://www.facebook.com/goshoppre/",
+          "https://www.instagram.com/shoppre_official/",
+          "https://twitter.com/Go_Shoppre",
+          "https://plus.google.com/+SHOPPRECOM",
+          "https://www.linkedin.com/company/shoppre.com",
+          "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw"
+        ]
+      }
     </script>
+
     <link rel="stylesheet" href="{{asset('css/custom')}}/ics.css">
     <style>
         /*label:after {transition-property: all !important;font-size: 0.8rem;transform: none;}*/
@@ -122,6 +121,7 @@
                             class="f-c-red">B</span>enefits</h1> <br>
                     <img src="{{asset('img/images/member-plans-register.png')}}" class="img-f-w" alt="">
                 </div>
+
             </div>
         </div>
         <br>
