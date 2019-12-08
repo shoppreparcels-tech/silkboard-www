@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', 'Christmas 2018 Offer')
+@section('title', 'Christmas 2019 Offer - Shop And Ship Ready Made Sarees From India')
 @section('description', '')
 @section('keywords', '')
 
