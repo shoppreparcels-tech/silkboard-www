@@ -4779,7 +4779,7 @@ p {
 }
 
 .bg-christmas-landing-page .div-snow {
-    padding-top: 189px
+    padding-top: 156px
 }
 
 .bg-christmas-landing-page .div-snow img {
@@ -4787,7 +4787,12 @@ p {
 }
 
 .bg-christmas-landing-page .div-newyear {
-    padding-top: 173px
+    padding-top: 139px
+}
+
+.outer-points {
+    border: 2px solid lightgray;
+    padding: 17px;
 }
 
 .textbox-email {
@@ -4804,7 +4809,7 @@ p {
     box-shadow: 0 0 10px rgba(17, 39, 59, .1);
     border-radius: 15px;
     background-color: #fafafb;
-    margin-top: -360px;
+    margin-top: -395px;
     padding: 20px
 }
 

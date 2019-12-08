@@ -418,6 +418,11 @@ class PageController extends Controller
         return view('page.christmas-landing');
     }
 
+    public function readyMadeSarees()
+    {
+        return view('page.sarees-from-india');
+    }
+
     public function newyear()
     {
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();

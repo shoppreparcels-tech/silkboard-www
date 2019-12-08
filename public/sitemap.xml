@@ -21,10 +21,15 @@
   <priority>0.50</priority>
 </url>
 <url>
-  <loc>https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator</loc>
+  <loc>https://www.shoppre.com/ready-made-sarees-from-india</loc>
   <changefreq>daily</changefreq>
   <priority>0.90</priority>
 </url>
+    <url>
+        <loc>https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.90</priority>
+    </url>
 <url>
   <loc>https://www.shoppre.com/contact</loc>
   <changefreq>daily</changefreq>

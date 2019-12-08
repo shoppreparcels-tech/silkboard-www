@@ -8,7 +8,6 @@
     <link rel="canonical" href="https://www.shoppre.com/faq" />
 @endsection
 @section('content')
-
   <section class="page_head">
       <div class="pagebanner">
         <img src="{{env('AWS_CLOUD_FRONT')}}/img/banner1.jpg" width="100%">

@@ -496,7 +496,6 @@
                                 </div>
                             </a>
                         </div>
-
                     </div>
                     <center>
                         <form class="calc-form" id="searchKey">
