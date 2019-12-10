@@ -6,11 +6,11 @@
 
 @section('css_style')
 
-    <link rel="canonical" href="https://www.shoppre.com/send-international-courier-from-india" />
+    <link rel="canonical" href="https://www.shopprecouriers.com/send-international-courier-from-india" />
 
     <meta property="og:title" content="International Courier Starting from ₹566 | ShoppRe"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://www.shoppre.com/send-international-courier-from-india"/>
+    <meta property="og:url" content="https://www.shopprecouriers.com/send-international-courier-from-india"/>
     <meta property="og:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/international-courier-services-india.png')}}"/>
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="628">
@@ -24,8 +24,8 @@
   "@type": "Organization",
   "name": "ShoppRe.com",
   "alternateName": "Send International Courier From India",
-  "url": "https://www.shoppre.com/send-international-courier-from-india",
-  "logo": "https://www.shoppre.com/img/logo.png",
+  "url": "https://www.shopprecouriers.com/send-international-courier-from-india",
+  "logo": "https://www.shopprecouriers.com/img/images/shoppre-logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91 8277919191",
@@ -640,7 +640,7 @@
                     </a>
                 </button>
                 <button type="button" class="btn btn-success bord-rad-5 margin-r-10">
-                    <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20from%20India%20and%20Ship%20Worldwide?" title="Message Me on WhatsApp" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
+                    <a href="https://api.whatsapp.com/send?phone=918277919191&text=Can%20I%20Send%20Courier%20from%20India%20and%20Ship%20Worldwide?" title="Message Me on WhatsApp" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
                         <p class="btn-md">Message Us On WhatsApp</p>
                     </a>
                 </button>
@@ -665,7 +665,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91-91483 57733</a>
+                    <a href="tel:+91-8277919191" class="header2 p-color-white">+91-8277919191</a>
 
                 </div>
 
@@ -713,7 +713,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-89148357733" class="header2 p-color-white">+91 91483 57733</a>
+                    <a href="tel:+91-8277919191" class="header2 p-color-white">+91 8277919191</a>
 
                 </div>
 

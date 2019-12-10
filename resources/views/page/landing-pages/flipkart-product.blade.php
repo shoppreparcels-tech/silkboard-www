@@ -139,7 +139,7 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">December 2019 Sale <span class="f-s-25 f-c-red f-w-9"></span> /
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">BOSS Up To 80% Off (11th - 15th DEC)</span> /
                         Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
                 {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
@@ -819,7 +819,7 @@
                     <div class="panel boxed outer border-1px">
                         <ul>
                             <li><span><a href="/myntra-online-shopping">Myntra Online Fashion Store</a></span></li>
-                            <li><span><a href="/flipkart-online-shopping">Flipkart.com Online Shop</a></span></li>
+                            <li><span><a href="/flipkart-shopping-with-shoppre-from-india">Flipkart.com Online Shop</a></span></li>
                             <li><span><a href="/amazon-online-shopping">Amazon.in Shopping India</a></span></li>
                             <li><span><a href="/jaypore-international-shipping-from-india">Jaypore Handpicked Products</a></span></li>
                             <li><span><a href="/ajio-online-shopping">AJIO Fashion & Lifestyle Brand</a></span></li>

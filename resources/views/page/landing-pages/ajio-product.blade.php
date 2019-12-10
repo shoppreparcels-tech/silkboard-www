@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'AJIO | AJIO MANIA SALE (50-90% Off) | Ship with ShoppRe')
+@section('title', 'AJIO | SALE (50-90% Off) | Ship with ShoppRe')
 @section('description', 'AJIO online shopping from India with ShoppRe International Shipping at Lowest Rates. Premium Brands. Stylish Collection. Tops & Dresses, Fusion Wear, Heels & Flats, Bags & Belts,  Sarees.')
 @section('keywords', 'online shopping, ajio shipping, reliance retail, trends, wardrobe, womens tops, ajio offers, sale')
 
@@ -115,7 +115,7 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">AJIO MANIA SALE (5-9 DEC 2019)</span> /
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">NEW STYLES TO LOVE (Up To 50% OFF)</span> /
                         Below are the Recommended & Recently Shipped Products!</h2>
 
                 </div>
