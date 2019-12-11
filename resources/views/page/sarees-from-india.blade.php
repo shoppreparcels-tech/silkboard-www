@@ -2,10 +2,11 @@
 
 
 @section('title', 'Readymade Sarees from India | Sarees International Shipping')
-@section('description', '')
-@section('keywords', 'readmade sarees, online shopping, international shipping')
+@section('description', 'International Shipping: Shop Readymade Sarees from any Online stores in Inida. Ship Saree Online with ShoppRe Address to your doorstep 3-6 days delivery.')
+@section('keywords', 'readmade sarees, online shopping, international shipping, sequinned blouse, petticoat')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/ready-made-sarees-from-india" />
     <style>
         .christmas-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.christmas-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}
         @media only screen and (max-width: 600px) {
@@ -59,7 +60,7 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Good News Again! This offer is valid on all our services!</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Readymade Sarees Online Shopping from India to Your Country.</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
                     <a href="tel:+91-9148357733" class="c-image">
@@ -67,12 +68,13 @@
                     </a>
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <p style="color: #11273b;font-size: 15px; !important;">All of us are Indians at heart to whichever corner of the world we go. It is for occasions like Christmas, New Year, Diwali etc that we get a chance to wear our favorite ethnic dresses and bring out the true Indianness within us!
                     </p>
                     <br>
-                    <p style="color: #11273b;font-size: 15px; !important;">Here are some handpicked readymade sarees from our in house fashionistas which will get you ready for any party this season! Buy these from India and get it shipped to your doorstep through ShoppRe.com saving 60 to 80% on the International Shipping Cost! Chat with us here to know more.	</p>
+                    <p style="color: #11273b;font-size: 15px; !important;">Here are some handpicked readymade sarees from our in house fashionistas which will get you ready for any party this season! Buy these from India and get it shipped to your doorstep through ShoppRe.com saving 60 to 80% on the International Shipping Cost!	</p>
                 </div>
             </div>
             <br>
@@ -100,9 +102,8 @@
                         sleeves, concealed zip closure.
                         <br>
                         <br>
-                        Shop this beauty from Myntra and ship to USA or ANYWHERE in the world
-                        through
-                        <a href="https://www.shoppre.com">ShoppRe.com</a>.
+                        Shop this beauty from <a href="https://www.shoppre.com/myntra-international-shipping-to-usa" target="_blank">Myntra and ship to USA</a> or ANYWHERE in the world
+                        through ShoppRe.
                     </p>
                 </div>
             </div>
@@ -126,8 +127,8 @@
                         <br>
                         <br>
                         Wear this popular bollywood look available on Myntra.com and ship to USA or ANYWHERE
-                        in the world through <a href="https://www.shoppre.com" target="_blank">ShoppRe.com</a>. Shoppre provides
-                        a Virtual Shipping Address in India to shop on ANY Indian online stores.
+                        in the world through ShoppRe. ShopRe provides
+                        a <a href="/indian-virtual-address" target="_blank">Virtual Shipping Address in India</a> to shop on ANY Indian online stores.
                     </p>
                 </div>
                 <div class="col-md-4 col-xs-12 col-sm-6 image-align-center-mobile heading-hide" style="text-align: right">
@@ -166,10 +167,8 @@
                         trendy in comparison to the others at your party.
                         <br>
                         <br>
-                        Hurry! <a href="https://www.shoppre.com">ShoppRe.com</a> can help you get
-                        this from Myntra and ship to USA or ANYWHERE in the world in 3 to 6 days! Check the
-                        prices <a href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator"
-                                  target="_blank">here
+                        Hurry! ShoppRe.com can help you get
+                        this from Myntra and ship to USA or ANYWHERE in the world in 3 to 6 days!
                         </a>.
                     </p>
                 </div>
@@ -190,11 +189,11 @@
                         <br>
 
                         Thinking that International shipping is expensive?
-                        <a href="https://www.shoppre.com">ShoppRe.com's</a> storage, consolidation
+                        ShoppRe.com's storage, consolidation
                         and repackaging process can save costs upto 60 to 80%.
-                        <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team;"
-                           target="_blank">Chat with us to know more.
-                        </a>
+{{--                        <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team;"--}}
+{{--                           target="_blank">Chat with us to know more.--}}
+{{--                        </a>--}}
 
                     </p>
                 </div>
@@ -244,7 +243,7 @@
                         cut dana, beads and thread work in floral jaal.
                         <br>
                         <br>
-                        Did you know that <a href="https://www.shoppre.com" target="_blank">ShoppRe.com</a> gives you a virtual address in India - you could store FREE
+                        Did you know that ShoppRe gives you a virtual address in India - you could store FREE
                         of cost for 20 days all the items you purchase from different online stores.
                         Finally we consolidate and ship from India to USA or anywhere in the world!
                     </p>
@@ -309,7 +308,7 @@
                         <ol>
                             <li>
                                 <a href="https://www.shoppre.com/customer/register?continue=" target="_blank">
-                                    Signup
+                                    Sign-up
                                 </a>
                                 with ShoppRe and receive a FREE VIRTUAL INDIAN SHIPPING ADDRESS
                             </li>
@@ -392,52 +391,103 @@
 {{--            </div>--}}
         </div>
     </section>
+{{--    <section class="chris-benefits">--}}
+{{--        <div class="container" >--}}
+{{--            <center>--}}
+{{--                <h1 class="header1 p-color-cement-dark">Featured Services & Benefits</h1>--}}
+{{--            </center>--}}
+{{--            <br>--}}
+{{--            <div class="row text-center">--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="panel ">--}}
+{{--                        <ul>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personal Shopper</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>20-Day Free Storage</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Consolidation</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Repackaging</span></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="panel ">--}}
+{{--                        <ul>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Scanned of your documents in the courier</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Country-specific</span></li>--}}
+
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="panel ">--}}
+{{--                        <ul>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Photo Updates</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Wallet Cashback</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Package Return Services</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personalized Product Recommendations</span></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <br/><br/>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <center>--}}
+{{--        <div class="fb-comments" data-href="https://www.shoppre.com" data-width="1000" data-numposts="5"></div>--}}
+{{--        </center>--}}
+{{--    </section>--}}
     <section class="chris-benefits">
-        <div class="container" >
+        <div class="container " >
             <center>
-                <h1 class="header1 p-color-cement-dark">Featured Services & Benefits</h1>
+                <h1 class="f-s-24 f-c-dark f-w-8 txt-center">Best online shops with ShoppRe, Cheap Package Forwarding from India</h1>
             </center>
-            <br>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <div class="panel ">
+                    <div class="panel boxed outer border-1px">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personal Shopper</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>20-Day Free Storage</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Consolidation</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Repackaging</span></li>
+                            <li><span><a href="/myntra-online-shopping">Myntra Online Fashion Store</a></span></li>
+                            <li><span><a href="/flipkart-online-shopping">Flipkart.com Online Shop</a></span></li>
+                            <li><span><a href="/amazon-india-shop-international-shipping">Amazon.in Shopping India</a></span></li>
+                            <li><span><a href="/jaypore-international-shipping-from-india">Jaypore Handpicked Products</a></span></li>
+                            <li><span><a href="/ajio-online-shopping">AJIO Fashion & Lifestyle Brand</a></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="panel ">
+                    <div class="panel outer border-1px">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Scanned of your documents in the courier</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Country-specific</span></li>
+                            <li><span><a href="/limeroad-shopping-international-shipping">Limeroad Online Shopping Site</a></span></li>
+                            <li><span><a href="/chumbak-online-shopping" target="_blank">Chumbak Online Shopping</a></span></li>
+                            <li><span><a href="/firstcry-online-shopping" target="_blank">FirstCry Baby & Kids Shopping</a></span></li>
+                            <li><span><a href="/fabindia-online-shopping" target="_blank">Fabindia Traditional Wear</a></span></li>
+                            <li><span><a href="/lifestylestores-online-shopping" target="_blank">Lifestylestores Shopping India</a></span></li>
 
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="panel ">
+                    <div class="panel outer border-1px">
                         <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Photo Updates</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Wallet Cashback</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Package Return Services</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personalized Product Recommendations</span></li>
+                            <li><span><a href="/pepperfry-online-shopping" target="_blank">Pepperfry Furniture Shopping</a></span></li>
+                            <li><span><a href="/shoppersstop-online-shopping" target="_blank">Shoppers Stop Latest Trends‎</a></span></li>
+                            <li><span><a href="/nykaa-online-shopping" target="_blank">Nykaa Online Beauty Store</a></span></li>
+                            <li><span><a href="/tatacliq-online-shopping" target="_blank">Tata CLiQ Online Shopping</a></span></li>
+                            <li><span><a href="https://clnk.in/j1Oo" target="_blank">Biba Ethnic Wear for Ladies</a></span></li>
                         </ul>
                     </div>
                 </div>
                 <br/><br/>
             </div>
         </div>
-        <center>
-        <div class="fb-comments" data-href="https://www.shoppre.com" data-width="1000" data-numposts="5"></div>
-        </center>
+        <div class="text-center">
+            <br>
+            <a href="/indian-online-stores" class="btn btn-s-b btn-b-r" target="_blank">Indian online shopping sites</a>
+        </div>
+        <br/>
+        </div>
     </section>
-
+    <br>
+    <br>
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">

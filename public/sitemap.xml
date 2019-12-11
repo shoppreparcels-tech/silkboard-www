@@ -22,17 +22,17 @@
 </url>
 <url>
   <loc>https://www.shoppre.com/ready-made-sarees-from-india</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.90</priority>
+  <changefreq>weekly</changefreq>
+  <priority>0.70</priority>
 </url>
-    <url>
-        <loc>https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.90</priority>
-    </url>
+<url>
+    <loc>https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+</url>
 <url>
   <loc>https://www.shoppre.com/contact</loc>
-  <changefreq>daily</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.60</priority>
 </url>
 <url>
