@@ -644,6 +644,7 @@ Route::get('/easter-shopping-from-india-with-international-shipping', 'PageContr
 Route::get('/shop-ship', 'PageController@shopShipIndex')->name('shopship');
 Route::get('/christmas-offer', 'PageController@christmas')->name('christmas');
 Route::get('/ready-made-sarees-from-india', 'PageController@readyMadeSarees')->name('ready-made-sarees-from-india');
+Route::get('/books-from-india', 'PageController@booksFromIndia')->name('books-from-india');
 Route::get('/new-year-offer', 'PageController@newyear')->name('newyear');
 Route::get('/university-offer', 'PageController@university')->name('university');
 Route::get('/radcon', 'PageController@radioContest')->name('radio');
