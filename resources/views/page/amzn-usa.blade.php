@@ -60,7 +60,7 @@
                     </h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12 text-center">
-                    <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20Amazon.in%20from%20India%20and%20Ship%20to%20USA?" target="_blank">
+                    <a href="https://api.whatsapp.com/send?phone=919148357733&text=Can%20I%20Shop%20Amazon.in%20from%20India%20and%20Ship%20to%20USA?" target="_blank">
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9880393291-shop-ship-contact-number.png" alt="shop and ship number shoppre">
                     </a>
                 </div>
@@ -132,6 +132,7 @@
                         <li>Amazon Great Indian Festival Sale - 29th September to 4th October</li>
                         <li>Amazon Diwali Sale - 21st to 25th October</li>
                         <li>Kid's Carnival - 9th to 14th November</li>
+                        <li><a href="https://amzn.clnk.in/etu" target="_blank">Wardrobe Refresh Sale</a> - 15th to 19th December</li>
                         <li>Amazon Christmas Sale - 23rd to 25th December</li>
                     </ul>
                 </div>
@@ -216,7 +217,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 
@@ -261,7 +262,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 

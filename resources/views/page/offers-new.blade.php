@@ -168,8 +168,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">AJIO MANIA SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-90% OFF</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">WEEKEND BINGE SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Min. 40% OFF</h5>
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
@@ -181,11 +181,11 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">SASSAFRAS</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Min. 40% OFF</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">CUZ IT'S COLD</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Extra. 10% OFF</h5>
                             <br>
                             <div class="ecomSmallBox">
-                                <a href="https://clnk.in/j3s4" target="_blank">
+                                <a href="https://clnk.in/j6w5" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5997a62748742.png"/>
                                 </a>
                             </div>
@@ -196,8 +196,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Wedding Store</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up to 70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">WARDROBE REFRESH SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up to 80% Off</h5>
 {{--                            <div class="ecomSmallBox" style="height: 94px;">--}}
                             <div class="ecomSmallBox">
                             <a href="/amazon-online-shopping" target="_blank">
@@ -296,8 +296,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Dark Blooms</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Shop By Story</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">End Of Season Sale</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">25-80% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/tatacliq-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">TATACLIQ</p>

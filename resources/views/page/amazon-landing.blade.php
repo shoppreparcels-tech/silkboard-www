@@ -63,9 +63,9 @@
 
                     <div class="shopandship ">
                         <a href="/amazon-online-shopping" target="_blank">
-                        <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Wedding Store</h2>
+                        <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Wardrobe Refresh Sale</h2>
                         <br/>
-                        <p>Fashion | Beauty</p><br>
+                        <p>15th - 19th Dec</p><br>
                         <p>👉 Explore More</p>
                         </a>
                     </div>

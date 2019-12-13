@@ -64,6 +64,7 @@
                     </a>
                 </div>
             </div>
+
             <div class="row text-center">
                 <div class="col-sm-4 col-xs-12 col-md-4">
                     <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
@@ -89,24 +90,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 ic">
-                        <div class="col-md-6 col-xs-6 no-pad">
-                            <h2 class="f-s-16 f-c-blue  txt-a-l f-w-9"><a href="{{route('ics.index')}}">International Courier</a></h2>
-                            <p class="f-s-12 f-c-l-gray  txt-a-l">Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
-                        </div>
-                        <div class="col-md-6 col-xs-6 no-pad">
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-s-t-ic.png" alt="" class="img-responsive">
-                        </div>
-                    </div>
-                </div>
+{{--                <div class="col-sm-4 col-xs-12 col-md-4">--}}
+{{--                    <div class="col-sm-12 col-xs-12 col-md-12 ic">--}}
+{{--                        <div class="col-md-6 col-xs-6 no-pad">--}}
+{{--                            <h2 class="f-s-16 f-c-blue  txt-a-l f-w-9"><a href="{{route('ics.index')}}">International Courier</a></h2>--}}
+{{--                            <p class="f-s-12 f-c-l-gray  txt-a-l">Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-md-6 col-xs-6 no-pad">--}}
+{{--                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-s-t-ic.png" alt="" class="img-responsive">--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
 
             <div class=" col-md-12 no-pad"><br>
                 <h4 class="f-s-18 f-c-l-gray f-w-9">Haven't made a shipment with us yet? What're you waiting for?!</h4>
                 <br>
-                <p class="header4 p-color-cement">Pick & choose your favorites from 1000+ Indian online stores and get us to ship your purchases overseas,
-                    or come to us for an international courier; if it's your first shipment with us - you can avail a <strong> 50% Discount UP TO ₹200/- </strong> on
+                <p class="header4 p-color-cement">Pick & choose your favorites from 1000+ Indian online stores and get us to ship your purchases overseas; if it's your first shipment with us - you can avail a <strong> 50% Discount UP TO ₹200/- </strong> on
                     top of the savings you make because our consolidation services.
                 </p>
                 <h6 class="f-s-16 f-c-gray f-w-8">Don't put it on hold - ship with us already! </h6><br>
@@ -193,7 +193,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
-                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 
@@ -239,7 +239,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
-                    <a href="tel:+91-8040944077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
                 </div>
 
                 <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align " style="color: #fdf699">

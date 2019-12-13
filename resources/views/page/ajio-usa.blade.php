@@ -62,7 +62,7 @@
                     </h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12 text-center">
-                    <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20AJIO%20from%20India%20and%20Ship%20to%20USA?" target="_blank">
+                    <a href="https://api.whatsapp.com/send?phone=919148357733&text=Can%20I%20Shop%20AJIO%20from%20India%20and%20Ship%20to%20USA?" target="_blank">
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9880393291-shop-ship-contact-number.png" alt="shop and ship number shoppre">
                     </a>
                 </div>
@@ -121,7 +121,8 @@
                         <li>No Ifs and Buts Sale‎ (Flat 50% Off) - 22-24 November 2019</li>
                         <li>WEEKDAY THERAPY (Min. 40% Off) - (25th-27th) November 2019</li>
                         <li>PAYDAY SALE (40-80% Off) - (1st-4th) December 2019.</li>
-                        <li><a href="/ajio-online-shopping" target="_blank">AJIO MANIA SALE (50-90% Off) - (5th-9th) December 2019.</a></li>
+                        <li>AJIO MANIA SALE (50-90% Off) - (5th-9th) December 2019.</li>
+                        <li><a href="/ajio-online-shopping" target="_blank">WEEKEND BINGE SALE (Min 40% Off) - (12th-16th) December 2019.</a></li>
                     </ul>
                 </div>
                 <br>
@@ -192,7 +193,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 
@@ -237,7 +238,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 

@@ -76,9 +76,10 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉NEW STYLES TO LOVE </a> |
-                            <a href="https://clnk.in/j4cX" title="clia" target="_blank">2. Myntra.com 👉SASSAFRAS </a> |
-                            <a href="/flipkart-online-shopping" title="flipkart" target="_blank">3. Flipkart.com 👉BOSS</a>
+                            <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉WEEKEND BINGE SALE </a> |
+                            <a href="https://clnk.in/j6w5" title="clia" target="_blank">2. Myntra.com 👉CUZ IT'S COLD </a> |
+                            <a href="/flipkart-online-shopping" title="flipkart" target="_blank">3. Flipkart.com 👉BOSS</a> |
+                            <a href="/amazon-online-shopping" title="amazon" target="_blank">4. Amazon.in 👉WARDROBE REFRESH SALE</a>
                         </marquee>
                     </div>
                     <center>

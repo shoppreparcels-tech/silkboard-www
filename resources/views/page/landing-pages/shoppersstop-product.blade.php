@@ -172,7 +172,7 @@
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <a href="https://www.shoppersstop.com/brand/biba?icid=weddingstore|wsddingstorepg|3-1|biba" target="_blank">
-                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h1f/he6/13719587684382/BIBA_4-tab_wedding.jpg">
+                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h38/h34/13917631479838/IMARA_4wid-20191205.jpg.jpg">
                             {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
                             {{--                                Up to 60% Off--}}
                             {{--                            </div>--}}
@@ -182,8 +182,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/brand/w?icid=weddingstore|wsddingstorepg|3-2|w" target="_blank">
-                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h98/hbe/13719588208670/W_4-tab_wedding.jpg">
+                        <a href="https://www.shoppersstop.com/women-indianwear/c-A2010?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ALibas%3Abrands%3ALIBAS%3Abrands%3AGERUA&text=&startRange=&endRange=&showType=&icid=createyourownethnicstyles|homepg|3-4|libasgerua" target="_blank">
+                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h5c/hd9/13910721953822/Libas-Gerua_4wid-20191205.jpg">
                             {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
                             {{--                                Up to 60% Off--}}
                             {{--                            </div>--}}
@@ -193,8 +193,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/brand/indya?icid=weddingstore|wsddingstorepg|3-3|indya" target="_blank">
-                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/hd6/h53/13719589290014/indya_4-tab_wedding.jpg">
+                        <a href="https://www.shoppersstop.com/brand/kashish?icid=createyourownethnicstyles|homepg|3-2|kashish" target="_blank">
+                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/ha8/h13/13910716743710/Kashish_4wid-20191205.jpg">
                             {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
                             {{--                                Up to 60% Off--}}
                             {{--                            </div>--}}
@@ -204,8 +204,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/brand/varanga?icid=weddingstore|wsddingstorepg|3-4|varanga" target="_blank">
-                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h76/hac/13738612260894/4-tab_wedding-varnaga.jpg">
+                        <a href="https://www.shoppersstop.com/brand/ishin?icid=createyourownethnicstyles|homepg|3-3|ishin" target="_blank">
+                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/hf8/hb5/13910719528990/Ishin_4wid-20191205.jpg">
                             {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
                             {{--                                Up to 60% Off--}}
                             {{--                            </div>--}}
@@ -221,8 +221,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 ">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.shoppersstop.com/brand/celio?sort=discount-desc&q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3ACELIO&startRange=&endRange=&icid=versatilestylesyoulllove|menpg|2-1|celio" target="_blank">
-                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/hb8/h4a/13495537369118/4-tab_Celio.jpg">
+                        <a href="https://www.shoppersstop.com/men-clothing/c-A1010?q=%3AtopRated%3AinStockFlag%3Atrue%3Al3category%3AJeans&text=&startRange=&endRange=&showType=&icid=gocasualinstyle|menpg|3-1|jeans" target="_blank">
+                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/h4a/he8/13850563182622/4wid_1-jeans.jpg">
 {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
 {{--                                Up to 70% Off--}}
 {{--                            </div>--}}
@@ -232,8 +232,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/men-clothing/c-A1010?sort=categoryRelevance&q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AU.S.%2BPOLO%2BASSN.%3Abrands%3AU.S.%2BPOLO%2BASSN.%2BDENIM%3AallPromotions%3AUS%2BPolo%2BFlat%2B30%2525%2BOff%2BSCM001527710&startRange=&endRange=" target="_blank">
-                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/he8/had/13495538188318/4-tab_Us-polo.jpg">
+                        <a href="https://www.shoppersstop.com/men-clothing/c-A1010?q=%3AtopRated%3AinStockFlag%3Atrue%3Al3category%3AShirts&text=&startRange=&endRange=&showType=&icid=gocasualinstyle|menpg|3-2|shirts" target="_blank">
+                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/h27/h12/13850573340702/4wid_2-shirt.jpg">
 {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
 {{--                                Up to 60% Off--}}
 {{--                            </div>--}}
@@ -243,8 +243,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/men-clothing/c-A1010?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AJACK%2BAND%2BJONES&text=&startRange=&endRange=&showType=&icid=versatilestylesyoulllove|menpg|2-3|jack&jones" target="_blank">
-                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/ha9/hcd/13495539925022/4-tab_J%26J.jpg">
+                        <a href="https://www.shoppersstop.com/men-clothing/c-A1010?q=%3AtopRated%3AinStockFlag%3Atrue%3Al3category%3AT-shirts&text=&startRange=&endRange=&showType=&icid=gocasualinstyle|menpg|3-3|t-shirt" target="_blank">
+                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/h25/h86/13850580189214/4wid_3-t-shirt.jpg">
 {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
 {{--                                Up to 60% Off--}}
 {{--                            </div>--}}
@@ -254,8 +254,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/brand/UNITED-COLORS-OF-BENETTON?q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3AUNITED%2BCOLORS%2BOF%2BBENETTON%3Al1category%3AMen&text=&startRange=&endRange=&showType=&icid=versatilestylesyoulllove|menpg|2-4|ucb" target="_blank">
-                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/hdd/h2b/13495540088862/4-tab_UCB.jpg">
+                        <a href="https://www.shoppersstop.com/men-clothing/c-A1010?q=%3AtopRated%3AinStockFlag%3Atrue%3Al3category%3ACargos%2B%2526%2BTrousers&text=&startRange=&endRange=&showType=&icid=gocasualinstyle|menpg|3-4|cargos&trousers" target="_blank">
+                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h38/h0f/13850594181150/4wid_4-cargous%26traouers.jpg">
 {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
 {{--                                Up to 70% Off--}}
 {{--                            </div>--}}
