@@ -522,9 +522,11 @@
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
                         <div class="col-md-12 col-xs-12">
-                            <a href="/first-time-international-shipment-offer" target="_blank">
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india-shoppre.png" class="img-f-w offer-img-d"
-                                        alt="frst50 shipment offer"></a>
+                            <a href="/christmas-offer" target="_blank">
+{{--                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india-shoppre.png" class="img-f-w offer-img-d"--}}
+{{--                                        alt="frst50 shipment offer"></a>--}}
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-2019-offer.png" class="img-f-w offer-img-d"
+                                     alt="frst50 shipment offer"></a>
                             <a href="/first-time-international-shipment-offer" target="_blank"><img
                                         src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india.png"
                                         class="img-f-w offer-img-m" title="Click Here" alt="first time international shipping discount"></a>

@@ -72,6 +72,13 @@
 {{--                        </div>--}}
                         <div class="item">
                             <div class="pad15">
+                                <a href="/christmas-offer" target="_blank">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-2019.png" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
                                 <a href="/first-time-international-shipment-offer" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/International-shipping-offers.png" class="boxofScroll"/>
                                 </a>
@@ -84,13 +91,14 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="/shop-ship" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
+
+{{--                        <div class="item">--}}
+{{--                            <div class="pad15">--}}
+{{--                                <a href="/shop-ship" target="_blank">--}}
+{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                         <div class="item">
                             <div class="pad15">
                                 <a href="/university-offer" target="_blank">

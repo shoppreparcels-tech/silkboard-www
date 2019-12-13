@@ -2,7 +2,7 @@
 
 
 @section('title', 'Christmas Offer 2019 | 80% OFF Xmas Shipping | ShoppRe.com')
-@section('description', '')
+@section('description', 'Save on Christmas with 15% Cashback on your international shipping rates. Use Coupon Code: PCRS15.')
 @section('keywords', 'xmas, christmas offers, 2019, gifts, shopping, holidays, international shipping')
 
 @section('css_style')
@@ -38,7 +38,7 @@
                             </div>
                         </div>
                     </form>
-                    <h3 class="header4" style="color: #8eadc8;">*From 10th Dec to 26th Dec 2019</h3>
+                    <h3 class="header4" style="color: #8eadc8;">*From 11th Dec to 26th Dec 2019</h3>
                 </center>
             </div>
             <div class="col-md-2 div-newyear">
@@ -50,45 +50,48 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Good News Again! This offer is valid on all our services!</h2>
+{{--                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Good News Again! This offer is valid on all our services!</h2>        --}}
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Christmas 2019 | 15% Cashback Xmas | Use Code: PCRS15</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
-                    <a href="tel:+91-8277919191" class="c-image">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
+                    <a href="tel:+91-9148357733" class="c-image">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9148357733-support-number.png" alt="">
                     </a>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <div class="shopandship ">
-                        <h2>Shop & Ship</h2>
-                        <br/>
-                        <p>Shop From Any Indian Store; Get It to a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ps">
-                        <h2>Personal Shopper</h2>
-                        <br>
-                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You!</p>
+{{--            <div class="row text-center">--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="shopandship ">--}}
+{{--                        <h2>Shop & Ship</h2>--}}
+{{--                        <br/>--}}
+{{--                        <p>Shop From Any Indian Store; Get It to a FREE Indian Virtual Address; We'll Ship It to Your Doorsteps!</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="ps">--}}
+{{--                        <h2>Personal Shopper</h2>--}}
+{{--                        <br>--}}
+{{--                        <p>Payment Hassles at Checkout? No Worries, Let Us Know What You Need; We'll Shop for You!</p>--}}
 
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ic">
-                        <h2>International Courier</h2>
-                        <br>
-                        <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="ic">--}}
+{{--                        <h2>International Courier</h2>--}}
+{{--                        <br>--}}
+{{--                        <p>Schedule a Pickup For Your Courier From Anywhere in India; We ship to 220+ countries!</p>--}}
 
-                    </div>
-                </div>
-            </div>
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
             <div class=" col-md-12 offer-description">
                 <h5 class="header5 p-color-cement">OFFER DESCRIPTION: <span class="p-color-blue">Shop from India & Ship to USA, UK, UAE, Australia, Canada & 220+ Countries</span></h5> <br>
                 <h4 class="header4 p-color-cement"> Ho Ho Ho! Let Us Swoop Down the Chimney This Christmas to Bring You Sheer Joy!</h4>
                 <br>
-                <p class="header4 p-color-cement">While the whole world is lighting Christmas trees, going Christmas shopping, or decorating their homes with the best of Christmas villages; we'd love it if you would like us to be a part of it all! May it be Christmas shopping to grab a hold of all the CRAZY sale prices or sending your greetings off to a loved one abroad who might be missing home more than ever now; we're here for you with the best shipping costs you can get from the Indian market.</p>
+                <p class="header4 p-color-cement">While the whole world is lighting Christmas trees, going Christmas shopping, or decorating their homes with the best of Christmas villages; we'd love it if you would like us to be a part of it all! May it be Christmas shopping to grab a hold of all the
+                    CRAZY sale prices or sending your greetings off to a loved one abroad who might be missing home more than ever now; we're here for you
+                    <a href="{{route('pricing')}}" target="_blank">with the best shipping costs</a> you can get from the Indian market.</p>
                 <br>
                 <p class="header4 p-color-cement">You get an 80% lesser shipping cost with our top-of-the-line package consolidation services on top of which, you can avail a sweet 15% OFF as a Christmas Gift from us.
                 </p> <br>
@@ -96,10 +99,26 @@
                 <div class="offerDesc">
                     <h3> What Else Do You Get Out of Our Offer? </h3><br>
                     <ul>
-                        <li>A FREE Indian Virtual Address to ship your packages to </li>
-                        <li>Get online Support 24/7</li>
+                        <li>A FREE Indian Virtual Address </li>
+                        <li>20 days of free package storage</li>
+                        <li>No Extra Fee to receive packages</li>
                         <li>A quick delivery within 3-6 days!</li>
+                        <li>Discounted rates with DHL, FedEx & more.</li>
+                        <li>Save up to 80% on shipping consolidated packages.</li>
                     </ul>
+                </div>
+                <br>
+                <div class="offerDesc">
+                    <h4>Christmas Offer: Terms & Conditions: </h4><br>
+                    <ul>
+                        <li>Cashback: 15%</li>
+                        <li>Use Coupon: PCRS15</li>
+                        <li>This offer cannot be clubbed with any other.</li>
+                        <li>Maximum amount that can be availed by a Package Forwarding customer is ₹250/-.</li>
+                        <li>The offer would only be active during (11th to 26th Dec 2019)</li>
+                        <li>Clearance charges are applicable for shipping Special Items.</li>
+                    </ul>
+                    <br>
                 </div>
                 <br>
                 <div>
@@ -167,7 +186,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 
@@ -213,7 +232,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-80 4094 4077" class="header2 p-color-white">+91 80 4094 4077</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 

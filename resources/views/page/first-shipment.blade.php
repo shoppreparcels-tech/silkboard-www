@@ -56,7 +56,7 @@
         <div class="container fst-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">First Time Shipping Offer is Valid on all Our services!</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">First Time Shipping Offer is Valid on all Our below services!</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
                     <a href="http://bit.ly/shpr-frst50" target="_blank" class="c-image">

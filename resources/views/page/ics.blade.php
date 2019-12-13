@@ -268,8 +268,8 @@
     <section>
         <div class="container" style="margin-top: 30px;">
             <center>
-                <a href="/first-time-international-shipment-offer" target="_blank">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"
+                <a href="https://www.shopprecouriers.com/first-time-international-courier-offer" target="_blank">
+                    <img src="https://www.shopprecouriers.com/img/images/international-courier-offer.png"
                          alt="rakhi-courier-from-india-shoppre" class="img-responsive">
                 </a>
             </center>

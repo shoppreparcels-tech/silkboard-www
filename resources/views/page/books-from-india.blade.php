@@ -1,11 +1,12 @@
 @extends('layout')
 
 
-@section('title', 'Books from India | Books International Shipping')
-@section('description', '')
-@section('keywords', 'Books, online shopping, international shipping')
+@section('title', 'Top 10 popular books purchased from India in 2019 | ShoppRe')
+@section('description', 'Books International Shipping: These are the top 10 popular books purchased from India by our customers across the globe. Shop and Ship with ShoppRe saving of 60 to 80% on the shipping cost. ')
+@section('keywords', 'books international shipping, novel 2019, the alchemist, amar chitra katha, shoe dog, the subtle art of not giving a f*ck')
 
 @section('css_style')
+    <link rel="canonical" href="https://www.shoppre.com/top-10-popular-books-purchased-from-india-in-2019"/>
     <style>
         .christmas-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.christmas-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}
         @media only screen and (max-width: 600px) {
@@ -47,7 +48,7 @@
                             </div>
                         </div>
                     </form>
-                    <h3 class="header4" style="color: #8eadc8;">*From 9th Dec to 26th Dec 2019</h3>
+                    <h3 class="header4" style="color: #8eadc8;">*From 11th Dec to 26th Dec 2019</h3>
                 </center>
             </div>
             <div class="col-md-2 div-newyear">
@@ -59,7 +60,7 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Good News Again! This offer is valid on all our services!</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Top 10 popular books purchased from India by our customers.</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
                     <a href="tel:+91-9148357733" class="c-image">
@@ -71,7 +72,7 @@
                 <div class="col-md-12 col-xs-12">
                     <p style="color: #11273b;font-size: 15px; !important;">
                         As we come to the end of 2019, these are the popular books purchased from India by our customers across the globe.
-                        One of the main reasons for the purchase is the books are cheaper in India. The other reason is that Shoppre's
+                        One of the main reasons for the purchase is the books are cheaper in India. The other reason is that ShoppRe's
                         consolidation and repackaging gives a saving of 60 to 80% on the shipping cost. So here is the popular list of 2019.
                     </p>
                     <br>
@@ -104,7 +105,7 @@
                         <div class="col-md-7 col-xs-7">
                             <a href="https://www.amazon.in/Alchemist-Paulo-Coelho/dp/8172234988" target="_blank"> Amazon.in </a> - 4.7/5
                             <br>
-                            <a href="https://www.flipkart.com/alchemist/p/itmfc9jxsc7dckfm?pid=9788172234980&lid=LSTBOK9788172234980APLOXW&marketplace=FLIPKART&cmpid=content_book_8965229628_gmc_pla&tgi=sem,1,G,11214002,u,,,395332127672,,,,c,,,,,,,&ef_id=EAIaIQobChMInv64hOun5gIVBqyWCh1ExQMeEAQYAyABEgJ3vPD_BwE:G:s&s_kwcid=AL!739!3!395332127672!!!u!295092701166!&gclid=EAIaIQobChMInv64hOun5gIVBqyWCh1ExQMeEAQYAyABEgJ3vPD_BwE" target="_blank">
+                            <a href="https://www.flipkart.com/alchemist/p/itmfc9jxsc7dckfm?pid=9788172234980" target="_blank">
                                 Flipkart
                             </a> - 4.6/5
                             <br>
@@ -117,11 +118,14 @@
                             <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary:
                             </p>
                         </div>
-                        <div class="col-md-7 col-xs-7">
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
                             Paulo Coelho's enchanting novel has inspired a devoted following around the world.
                             This story, dazzling in its powerful simplicity and inspiring wisdom, is about an
                             Andalusian shepherd boy named Santiago who travels from his homeland in Spain to
                             the Egyptian desert in search of a treasure buried in the Pyramids.
+                            <br>
+                            Buy the Alchemist at low prices from India at Amazon.in and use <a href="https://www.shoppre.com" target="_blank">ShoppRe's Virtual Address</a>
+                            to ship these books internationally from India.
                         </div>
                     </div>
                     <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
@@ -133,12 +137,7 @@
                         <div class="col-md-7 col-xs-7">
                                 Cashback of Flat Rs.50 back on minimum order of Rs.50 using Amazon Pay UPI.
                         </div>
-                        <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
-                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">
-                                Buy the Alchemist at low prices from India at Amazon.in and use <a href="https://www.shoppre.com" target="_blank">ShoppRe's</a>
-                                Virtual Address to ship the books to
-                            </p>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -167,10 +166,10 @@
                             </p>
                         </div>
                         <div class="col-md-7 col-xs-7">
-                            <a href="https://www.amazon.in/Power-Your-Subconscious-Mind/dp/8180320952/ref=sr_1_5?keywords=The+Power+of+Your+Subconscious+Mind&qid=1575863489&s=books&sr=1-5" target="_blank">
+                            <a href="https://www.amazon.in/Power-Your-Subconscious-Mind/dp/8180320952" target="_blank">
                                 Amazon.in </a> - 4.5/5
                             <br>
-                            <a href="https://www.flipkart.com/power-your-subconscious-mind/p/itmfc599jmcfhhwm?pid=9788192910963&lid=LSTBOK9788192910963MJHFLY&marketplace=FLIPKART&cmpid=content_book_8965229628_gmc_pla&tgi=sem,1,G,11214002,u,,,395332127672,,,,c,,,,,,,&ef_id=EAIaIQobChMIsvyNx8Wq5gIV2DUrCh1QFQYyEAYYASABEgKByPD_BwE:G:s&s_kwcid=AL!739!3!395332127672!!!u!295092701166!&gclid=EAIaIQobChMIsvyNx8Wq5gIV2DUrCh1QFQYyEAYYASABEgKByPD_BwE">
+                            <a href="https://www.flipkart.com/power-your-subconscious-mind/p/itmfc599jmcfhhwm">
                                 Flipkart
                             </a> - 4.5/5
                             <br>
@@ -183,7 +182,7 @@
                             <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary:
                             </p>
                         </div>
-                        <div class="col-md-7 col-xs-7">
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
                             Featured as one of the best selling books on Amazon Bookstore,
                             The Power of Your Subconscious Mind has been selling many millions
                             of copies since its original publication. It is one of the most brilliant
@@ -201,8 +200,7 @@
                         </div>
                         <div class="col-md-7 col-xs-7">
                             <b>A.</b> 5% Instant discount with HSBC Cashback card. <br>
-                            <b>B.</b> It is available on The <a href="https://www.amazon.in/Power-Your-Subconscious-Mind/dp/8180320952/ref=sr_1_5?keywords=The+Power+of+Your+Subconscious+Mind&qid=1575863489&s=books&sr=1-5" target="_blank">
-                                Amazon Indian </a> bookstore for INR 195/-
+                            <b>B.</b> It is available on The Amazon Indian bookstore for INR 195/-
                         </div>
                     </div>
                 </div>
@@ -232,7 +230,7 @@
                             </p>
                         </div>
                         <div class="col-md-7 col-xs-7">
-                            <a href="https://www.amazon.in/Ultimate-Collection-210-Single-Special/dp/9385874020/ref=asc_df_9385874020/?tag=googleshopdes-21&linkCode=df0&hvadid=396987816603&hvpos=1o1&hvnetw=g&hvrand=8900346653638154927&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007768&hvtargid=pla-730582302690&psc=1" target="_blank">
+                            <a href="https://www.amazon.in/Ultimate-Collection-210-Single-Special/dp/9385874020/" target="_blank">
                                 Amazon.in </a> - 4.6/5
                             <br>
                         </div>
@@ -243,15 +241,15 @@
                             <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary:
                             </p>
                         </div>
-                        <div class="col-md-7 col-xs-7">
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
                             Get more than 200 Indian stories in one box!
                             The Ultimate Collection is a treasure chest of English stories from Amar Chitra Katha
                             like Mahabharata, Valmiki’s Ramayana, Akbar Birbal stories, Stories of Shiva, Tales of Krishna,
                             Sons of Rama and much more.
                             <br>
                             Voted as one of the favourite children’s collections of books,
-                            they are equally read by adults across the globe
-                            Shoppre helps you purchase items from different e-commerce portals and
+                            they are equally read by adults across the globe. <br>
+                            ShoppRe helps you purchase items from different e-commerce portals and
                             gives you a FREE 20 days storage period within which you can purchase as many
                             things as you want and finally consolidate and ship to your doorstep across the globe.
                         </div>
@@ -296,7 +294,7 @@
                             <a href="https://www.amazon.in/Zero-One-Start-Build-Future/dp/0753555190" target="_blank">
                                 Amazon.in </a> - 4.3/5
                             <br>
-                            <a href="https://www.flipkart.com/zero-one-notes-start-ups-build-future/p/itmfbxa8ceukq7ve?pid=9780753555194&lid=LSTBOK9780753555194XPG41K&marketplace=FLIPKART&srno=s_1_1&otracker=search&otracker1=search&fm=SEARCH&iid=e01da852-40d8-42f4-ad03-e28e72be2725.9780753555194.SEARCH&ppt=sp&ppn=sp&ssid=8pyyziqhxc0000001575968362506&qH=35897f01573ccb67" target="_blank">
+                            <a href="https://www.flipkart.com/zero-one-notes-start-ups-build-future/p/itmb6e3199efc61c" target="_blank">
                                 Flipkart
                             </a> - 4.4/5
                             <br>
@@ -309,16 +307,14 @@
                             <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary of 0 to 1:
                             </p>
                         </div>
-                        <div class="col-md-7 col-xs-7">
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
                             The next Bill Gates will not build an operating system.
                             The next Larry Page or Sergey Brin won’t make a search engine.
                             If you are copying these guys, you aren’t learning from them.
                             It’s easier to copy a model than to make something new:
                             doing what we already know how to do takes the world from 1 to n,
-                            adding more of something familiar. Every new creation goes from 0 to 1
+                            adding more of something familiar. <br> Every new creation goes from 0 to 1
                             <br>
-                            Shoppre helps you get this to your doorstep in 3 to 6 days. Check the prices
-                            <a href="https://www.shoppre.com/pricing" target="_blank"> here </a>
                         </div>
                     </div>
                 </div>
@@ -351,7 +347,7 @@
                             <a href="https://www.amazon.in/Shoe-Dog-Phil-Knight/dp/1471146715" target="_blank">
                                 Amazon.in </a> - 4.6/5
                             <br>
-                            <a href="https://www.flipkart.com/shoe-dog/p/itmfcysgcpg6hshv?pid=9781471146725&lid=LSTBOK9781471146725GQCZ0L&marketplace=FLIPKART&srno=s_1_1&otracker=search&otracker1=search&fm=SEARCH&iid=a41f497a-1aa0-443d-ba31-13fd9f39872a.9781471146725.SEARCH&ppt=sp&ppn=sp&ssid=d6ren7sv1c0000001575869676762&qH=8696e7b9e89aa33f" target="_blank">
+                            <a href="https://www.flipkart.com/shoe-dog-memoir-creator-nike/p/itmfcysgcpg6hshv" target="_blank">
                                 Flipkart
                             </a> - 4.6/5
                             <br>
@@ -364,7 +360,7 @@
                             <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary of Shoe Dog:
                             </p>
                         </div>
-                        <div class="col-md-7 col-xs-7">
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
                             The shoe dog book by Phil knight (also popularly searched as dog shoes)
                             is rated one of the most popular reads this year. In 1962, fresh out of
                             business school, Phil Knight borrowed $50 from his father and created a
@@ -418,8 +414,8 @@
                             <a href="https://www.amazon.in/Educated-Memoir-Tara-Westover/dp/0525528059" target="_blank">
                                 Amazon.in </a> -  4.6/5
                             <br>
-                            <a href="https://www.flipkart.com/educated-international-bestselling-memoir-paperback-import-1-nov-2018/p/itmfee267ph7zhhr?pid=9788099511027&lid=LSTBOK9788099511027RZLCXO&marketplace=FLIPKART&srno=s_1_2&otracker=search&otracker1=search&fm=SEARCH&iid=b7c276ea-3e0a-45e3-b709-9d9782ad9251.9788099511027.SEARCH&ppt=sp&ppn=sp&ssid=28b7rrymzk0000001575870513575&qH=3e4d7fd4f895fe6e">
-                                Flipkart</a> -
+                            <a href="https://www.flipkart.com/educated-international-bestselling-memoir-paperback-import-1-nov-2018/p/itmfee267ph7zhhr" target="_blank">
+                                Flipkart</a> - Not Yet
                             <br>
                             Goodreads - 4.5/5
                         </div>
@@ -430,7 +426,7 @@
                             <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary of 0 to 1:
                             </p>
                         </div>
-                        <div class="col-md-7 col-xs-7">
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
                             <b>#1 NEW YORK TIMES BESTSELLER •</b>
                             <i> “An unforgettable memoir about a young girl who, kept out of school,
                             leaves her survivalist family and goes on to earn a PhD from Cambridge University.”</i>
@@ -481,10 +477,10 @@
                             </p>
                         </div>
                         <div class="col-md-7 col-xs-7">
-                            <a href="https://www.amazon.in/Educated-Memoir-Tara-Westover/dp/0525528059" target="_blank">
+                            <a href="https://www.amazon.in/Pillars-Earth-Kingsbridge-Novels/dp/1509848495" target="_blank">
                                 Amazon.in </a> -  4.6/5
                             <br>
-                            <a href="https://www.flipkart.com/educated-international-bestselling-memoir-paperback-import-1-nov-2018/p/itmfee267ph7zhhr?pid=9788099511027&lid=LSTBOK9788099511027RZLCXO&marketplace=FLIPKART&srno=s_1_2&otracker=search&otracker1=search&fm=SEARCH&iid=b7c276ea-3e0a-45e3-b709-9d9782ad9251.9788099511027.SEARCH&ppt=sp&ppn=sp&ssid=28b7rrymzk0000001575870513575&qH=3e4d7fd4f895fe6e">
+                            <a href="https://www.flipkart.com/the-pillars-of-the-earth/p/itmfcyp9pftzjmwc" target="_blank">
                                 Flipkart</a> -
                             <br>
                             Goodreads - 4.5/5
@@ -496,7 +492,7 @@
                             <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary of 0 to 1:
                             </p>
                         </div>
-                        <div class="col-md-7 col-xs-7">
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
                             <b>#1 NEW YORK TIMES BESTSELLER •</b>
                             <i> “An unforgettable memoir about a young girl who, kept out of school,
                                 leaves her survivalist family and goes on to earn a PhD from Cambridge University.”</i>
@@ -559,7 +555,7 @@
                             <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Jeff Keller says in this book:
                             </p>
                         </div>
-                        <div class="col-md-7 col-xs-7">
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
                             Take active steps to turn your dreams into reality. Soon, you will be energized and see new possibilities.
                             You will be able to counter adversities and develop talents unique to you. Your relationships will improve,
                             both at work and in your personal life.
@@ -616,7 +612,7 @@
                             <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary:
                             </p>
                         </div>
-                        <div class="col-md-7 col-xs-7">
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
                             A superstar blogger cuts through the crap to show us how
                             to stop trying to be “positive” all the time so that we can truly become better, happier people
                             For decades, we’ve been told that positive thinking is the key to a happy, rich life.
@@ -661,10 +657,10 @@
                             </p>
                         </div>
                         <div class="col-md-7 col-xs-7">
-                            <a href="https://www.amazon.in/Subtle-Art-Not-Giving/dp/0062641549" target="_blank">
+                            <a href="https://www.amazon.in/Monk-Who-Sold-His-Ferrari/dp/817992162X" target="_blank">
                                 Amazon.in </a> -  4.4/5
                             <br>
-                            <a href="https://www.flipkart.com/monk-sold-his-ferrari/p/itmfc7hkcke9bnyh">
+                            <a href="https://www.flipkart.com/monk-sold-his-ferrari/p/itmfc7hkcke9bnyh" target="_blank">
                                 Flipkart</a> - 4.5/5
                             <br>
                             Goodreads - 4/5
@@ -676,7 +672,7 @@
                             <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary:
                             </p>
                         </div>
-                        <div class="col-md-7 col-xs-7">
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
                             A superstar blogger cuts through the crap to show us how
                             to stop trying to be “positive” all the time so that we can truly become better, happier people
                             For decades, we’ve been told that positive thinking is the key to a happy, rich life.
@@ -700,55 +696,55 @@
 
             <br>
             <br>
-            <div class="outer-points">
-                <div class="row">
-                    <div class="col-md-12 col-xs-12">
-                        <h4 class="header4 p-color-cement-dark font-weight-900 txt-align">
-                            All of us love to shop our favorite things from India and ship
-                            to our doorsteps.
+{{--            <div class="outer-points">--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col-md-12 col-xs-12">--}}
+{{--                        <h4 class="header4 p-color-cement-dark font-weight-900 txt-align">--}}
+{{--                            All of us love to shop our favorite things from India and ship--}}
+{{--                            to our doorsteps.--}}
 
-                            <br>
-                            This is where ShoppRe comes in to the picture. Here are the steps:
-                        </h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <ol>
-                            <li>
-                                <a href="https://www.shoppre.com/customer/register?continue=" target="_blank">
-                                    Signup
-                                </a>
-                                with ShoppRe and receive a FREE VIRTUAL INDIAN SHIPPING ADDRESS
-                            </li>
-                            <li>
-                                Use this address to shop from
-                                <a href="https://www.shoppre.com/indian-online-stores" target="_blank">
-                                    ANY Indian online store
-                                </a>
-                            </li>
-                            <li>
-                                We will notify you once all the items arrive and will be stored in your locker
-                            </li>
-                            <li>
-                                Create a ship request once all your items have arrived and we consolidate and repack
-                                them and sharing the payment details. See
-                                <a href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator"
-                                   target="_blank">
-                                    pricing details here.
-                                </a>
-                            </li>
-                            <li>
-                                You can make the payment online with your International Card and your package will
-                                be dispatched to your doorstep in 3 to 6 days!
-                            </li>
-                        </ol>
-                        <p style="color: #000;">
-                            What are you waiting for re? Just ShoppRe!
-                        </p>
-                    </div>
-                </div>
-            </div>
+{{--                            <br>--}}
+{{--                            This is where ShoppRe comes in to the picture. Here are the steps:--}}
+{{--                        </h4>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col-md-12">--}}
+{{--                        <ol>--}}
+{{--                            <li>--}}
+{{--                                <a href="https://www.shoppre.com/customer/register?continue=" target="_blank">--}}
+{{--                                    Signup--}}
+{{--                                </a>--}}
+{{--                                with ShoppRe and receive a FREE VIRTUAL INDIAN SHIPPING ADDRESS--}}
+{{--                            </li>--}}
+{{--                            <li>--}}
+{{--                                Use this address to shop from--}}
+{{--                                <a href="https://www.shoppre.com/indian-online-stores" target="_blank">--}}
+{{--                                    ANY Indian online store--}}
+{{--                                </a>--}}
+{{--                            </li>--}}
+{{--                            <li>--}}
+{{--                                We will notify you once all the items arrive and will be stored in your locker--}}
+{{--                            </li>--}}
+{{--                            <li>--}}
+{{--                                Create a ship request once all your items have arrived and we consolidate and repack--}}
+{{--                                them and sharing the payment details. See--}}
+{{--                                <a href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator"--}}
+{{--                                   target="_blank">--}}
+{{--                                    pricing details here.--}}
+{{--                                </a>--}}
+{{--                            </li>--}}
+{{--                            <li>--}}
+{{--                                You can make the payment online with your International Card and your package will--}}
+{{--                                be dispatched to your doorstep in 3 to 6 days!--}}
+{{--                            </li>--}}
+{{--                        </ol>--}}
+{{--                        <p style="color: #000;">--}}
+{{--                            What are you waiting for re? Just ShoppRe!--}}
+{{--                        </p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
 {{--            <div class="row text-center">--}}
 {{--                <div class="col-sm-4">--}}
@@ -800,52 +796,52 @@
 {{--            </div>--}}
         </div>
     </section>
-    <section class="chris-benefits">
-        <div class="container" >
-            <center>
-                <h1 class="header1 p-color-cement-dark">Featured Services & Benefits</h1>
-            </center>
-            <br>
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <div class="panel ">
-                        <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personal Shopper</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>20-Day Free Storage</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Consolidation</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Repackaging</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="panel ">
-                        <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Scanned of your documents in the courier</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Country-specific</span></li>
+{{--    <section class="chris-benefits">--}}
+{{--        <div class="container" >--}}
+{{--            <center>--}}
+{{--                <h1 class="header1 p-color-cement-dark">Featured Services & Benefits</h1>--}}
+{{--            </center>--}}
+{{--            <br>--}}
+{{--            <div class="row text-center">--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="panel ">--}}
+{{--                        <ul>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personal Shopper</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>20-Day Free Storage</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Consolidation</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Repackaging</span></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="panel ">--}}
+{{--                        <ul>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Affordable Rates</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>24/7 Customer Support</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Scanned of your documents in the courier</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Country-specific</span></li>--}}
 
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="panel ">
-                        <ul>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Photo Updates</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Wallet Cashback</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Package Return Services</span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personalized Product Recommendations</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <br/><br/>
-            </div>
-        </div>
-        <center>
-        <div class="fb-comments" data-href="https://www.shoppre.com" data-width="1000" data-numposts="5"></div>
-        </center>
-    </section>
-
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="panel ">--}}
+{{--                        <ul>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Photo Updates</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Wallet Cashback</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Package Return Services</span></li>--}}
+{{--                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt=""><span>Personalized Product Recommendations</span></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <br/><br/>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <center>--}}
+{{--        <div class="fb-comments" data-href="https://www.shoppre.com" data-width="1000" data-numposts="5"></div>--}}
+{{--        </center>--}}
+{{--    </section>--}}
+    <br><br>
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
             <div class="col-md-12">
@@ -934,15 +930,6 @@
 @endsection
 
 @section('js_script')
-
-
-
-    <script>
-        $(document).ready(function(){$("#diwali_coupon").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var t=$("input[name='email']").val(),i=$("input[name=_token]").val();jQuery.ajax({url:"christmas",type:"POST",data:{_token:i,email:t},success:function(e){console.log(e),window.location.replace("https://www.shoppre.com/customer/register")}})}})});var snowStorm=function(e,t){this.autoStart=!0,this.excludeMobile=!0,this.flakesMax=128,this.flakesMaxActive=64,this.animationInterval=50,this.useGPU=!0,this.className=null,this.excludeMobile=!0,this.flakeBottom=null,this.followMouse=!1,this.snowColor="#fff",this.snowCharacter="&bull;",this.snowStick=!0,this.targetElement=null,this.useMeltEffect=!0,this.useTwinkleEffect=!1,this.usePositionFixed=!1,this.usePixelPosition=!1,this.freezeOnBlur=!0,this.flakeLeftOffset=0,this.flakeRightOffset=0,this.flakeWidth=8,this.flakeHeight=8,this.vMaxX=5,this.vMaxY=4,this.zIndex=0;var i,s=this,n=navigator.userAgent.match(/msie/i),l=navigator.userAgent.match(/msie 6/i),o=navigator.userAgent.match(/mobile|opera m(ob|in)/i),a=n&&"BackCompat"===t.compatMode||l,r=null,m=null,f=null,h=null,u=null,c=null,d=null,v=1,p=!1,y=!1,k=function(){try{t.createElement("div").style.opacity="0.5"}catch(e){return!1}return!0}(),g=!1,x=t.createDocumentFragment();function w(e,t){return isNaN(t)&&(t=0),Math.random()*e+t}function F(){e.setTimeout(function(){s.start(!0)},20),s.events.remove(n?t:e,"mousemove",F)}return i=function(){var i;var n,l=e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||function(t){e.setTimeout(t,6e3/(s.animationInterval||20))};function o(e){return void 0!==n.style[e]?e:null}i=l?function(){return l.apply(e,arguments)}:null,n=t.createElement("div");var a={transform:{ie:o("-ms-transform"),moz:o("MozTransform"),opera:o("OTransform"),webkit:o("webkitTransform"),w3:o("transform"),prop:null},getAnimationFrame:i};return a.transform.prop=a.transform.w3||a.transform.moz||a.transform.webkit||a.transform.ie||a.transform.opera,n=null,a}(),this.timer=null,this.flakes=[],this.disabled=!1,this.active=!1,this.meltFrameCount=20,this.meltFrames=[],this.setXY=function(e,t,i){if(!e)return!1;s.usePixelPosition||y?(e.style.left=t-s.flakeWidth+"px",e.style.top=i-s.flakeHeight+"px"):a?(e.style.right=100-t/r*100+"%",e.style.top=Math.min(i,u-s.flakeHeight)+"px"):s.flakeBottom?(e.style.right=100-t/r*100+"%",e.style.top=Math.min(i,u-s.flakeHeight)+"px"):(e.style.right=100-t/r*100+"%",e.style.bottom=100-i/f*100+"%")},this.events=function(){var t=!e.addEventListener&&e.attachEvent,i=Array.prototype.slice,s={add:t?"attachEvent":"addEventListener",remove:t?"detachEvent":"removeEventListener"};function n(e){var s=i.call(e),n=s.length;return t?(s[1]="on"+s[1],n>3&&s.pop()):3===n&&s.push(!1),s}function l(e,i){var n=e.shift(),l=[s[i]];t?n[l](e[0],e[1]):n[l].apply(n,e)}return{add:function(){l(n(arguments),"add")},remove:function(){l(n(arguments),"remove")}}}(),this.randomizeWind=function(){var e,t;if(t=w(s.vMaxX,.2),c=1===parseInt(w(2),10)?-1*t:t,d=w(s.vMaxY,.2),this.flakes)for(e=0;e<this.flakes.length;e++)this.flakes[e].active&&this.flakes[e].setVelocities()},this.scrollHandler=function(){var i;if(h=s.flakeBottom?0:parseInt(e.scrollY||t.documentElement.scrollTop||(a?t.body.scrollTop:0),10),isNaN(h)&&(h=0),!p&&!s.flakeBottom&&s.flakes)for(i=0;i<s.flakes.length;i++)0===s.flakes[i].active&&s.flakes[i].stick()},this.resizeHandler=function(){e.innerWidth||e.innerHeight?(r=e.innerWidth-16-s.flakeRightOffset,f=s.flakeBottom||e.innerHeight):(r=(t.documentElement.clientWidth||t.body.clientWidth||t.body.scrollWidth)-(n?0:8)-s.flakeRightOffset,f=s.flakeBottom||t.documentElement.clientHeight||t.body.clientHeight||t.body.scrollHeight),u=t.body.offsetHeight,m=parseInt(r/2,10)},this.resizeHandlerAlt=function(){r=s.targetElement.offsetWidth-s.flakeRightOffset,f=s.flakeBottom||s.targetElement.offsetHeight,m=parseInt(r/2,10),u=t.body.offsetHeight},this.freeze=function(){if(s.disabled)return!1;s.disabled=1,s.timer=null},this.resume=function(){if(!s.disabled)return!1;s.disabled=0,s.timerInit()},this.toggleSnow=function(){s.flakes.length?(s.active=!s.active,s.active?(s.show(),s.resume()):(s.stop(),s.freeze())):s.start()},this.stop=function(){var i;for(this.freeze(),i=0;i<this.flakes.length;i++)this.flakes[i].o.style.display="none";s.events.remove(e,"scroll",s.scrollHandler),s.events.remove(e,"resize",s.resizeHandler),s.freezeOnBlur&&(n?(s.events.remove(t,"focusout",s.freeze),s.events.remove(t,"focusin",s.resume)):(s.events.remove(e,"blur",s.freeze),s.events.remove(e,"focus",s.resume)))},this.show=function(){var e;for(e=0;e<this.flakes.length;e++)this.flakes[e].o.style.display="block"},this.SnowFlake=function(e,n,l){var o=this;this.type=e,this.x=n||parseInt(w(r-20),10),this.y=isNaN(l)?-w(f)-12:l,this.vX=null,this.vY=null,this.vAmpTypes=[1,1.2,1.4,1.6,1.8],this.vAmp=this.vAmpTypes[this.type]||1,this.melting=!1,this.meltFrameCount=s.meltFrameCount,this.meltFrames=s.meltFrames,this.meltFrame=0,this.twinkleFrame=0,this.active=1,this.fontSize=10+this.type/5*10,this.o=t.createElement("div"),this.o.innerHTML=s.snowCharacter,s.className&&this.o.setAttribute("class",s.className),this.o.style.color=s.snowColor,this.o.style.position=p?"fixed":"absolute",s.useGPU&&i.transform.prop&&(this.o.style[i.transform.prop]="translate3d(0px, 0px, 0px)"),this.o.style.width=s.flakeWidth+"px",this.o.style.height=s.flakeHeight+"px",this.o.style.fontFamily="arial,verdana",this.o.style.cursor="default",this.o.style.overflow="hidden",this.o.style.fontWeight="normal",this.o.style.zIndex=s.zIndex,x.appendChild(this.o),this.refresh=function(){if(isNaN(o.x)||isNaN(o.y))return!1;s.setXY(o.o,o.x,o.y)},this.stick=function(){a||s.targetElement!==t.documentElement&&s.targetElement!==t.body?o.o.style.top=f+h-s.flakeHeight+"px":s.flakeBottom?o.o.style.top=s.flakeBottom+"px":(o.o.style.display="none",o.o.style.bottom="0%",o.o.style.position="fixed",o.o.style.display="block")},this.vCheck=function(){o.vX>=0&&o.vX<.2?o.vX=.2:o.vX<0&&o.vX>-.2&&(o.vX=-.2),o.vY>=0&&o.vY<.2&&(o.vY=.2)},this.move=function(){var e=o.vX*v;o.x+=e,o.y+=o.vY*o.vAmp,o.x>=r||r-o.x<s.flakeWidth?o.x=0:e<0&&o.x-s.flakeLeftOffset<-s.flakeWidth&&(o.x=r-s.flakeWidth-1),o.refresh(),f+h-o.y+s.flakeHeight<s.flakeHeight?(o.active=0,s.snowStick?o.stick():o.recycle()):(s.useMeltEffect&&o.active&&o.type<3&&!o.melting&&Math.random()>.998&&(o.melting=!0,o.melt()),s.useTwinkleEffect&&(o.twinkleFrame<0?Math.random()>.97&&(o.twinkleFrame=parseInt(8*Math.random(),10)):(o.twinkleFrame--,k?o.o.style.opacity=o.twinkleFrame&&o.twinkleFrame%2==0?0:1:o.o.style.visibility=o.twinkleFrame&&o.twinkleFrame%2==0?"hidden":"visible")))},this.animate=function(){o.move()},this.setVelocities=function(){o.vX=c+w(.12*s.vMaxX,.1),o.vY=d+w(.12*s.vMaxY,.1)},this.setOpacity=function(e,t){if(!k)return!1;e.style.opacity=t},this.melt=function(){s.useMeltEffect&&o.melting&&o.meltFrame<o.meltFrameCount?(o.setOpacity(o.o,o.meltFrames[o.meltFrame]),o.o.style.fontSize=o.fontSize-o.fontSize*(o.meltFrame/o.meltFrameCount)+"px",o.o.style.lineHeight=s.flakeHeight+2+.75*s.flakeHeight*(o.meltFrame/o.meltFrameCount)+"px",o.meltFrame++):o.recycle()},this.recycle=function(){o.o.style.display="none",o.o.style.position=p?"fixed":"absolute",o.o.style.bottom="auto",o.setVelocities(),o.vCheck(),o.meltFrame=0,o.melting=!1,o.setOpacity(o.o,1),o.o.style.padding="0px",o.o.style.margin="0px",o.o.style.fontSize=o.fontSize+"px",o.o.style.lineHeight=s.flakeHeight+2+"px",o.o.style.textAlign="center",o.o.style.verticalAlign="baseline",o.x=parseInt(w(r-s.flakeWidth-20),10),o.y=parseInt(-1*w(f),10)-s.flakeHeight,o.refresh(),o.o.style.display="block",o.active=1},this.recycle(),this.refresh()},this.snow=function(){var e,t,n=0,l=null;for(e=0,t=s.flakes.length;e<t;e++)1===s.flakes[e].active&&(s.flakes[e].move(),n++),s.flakes[e].melting&&s.flakes[e].melt();n<s.flakesMaxActive&&0===(l=s.flakes[parseInt(w(s.flakes.length),10)]).active&&(l.melting=!0),s.timer&&i.getAnimationFrame(s.snow)},this.mouseMove=function(e){if(!s.followMouse)return!0;var t=parseInt(e.clientX,10);v=t<m?t/m*2-2:(t-=m)/m*2},this.createSnow=function(e,t){var i;for(i=0;i<e;i++)s.flakes[s.flakes.length]=new s.SnowFlake(parseInt(w(6),10)),(t||i>s.flakesMaxActive)&&(s.flakes[s.flakes.length-1].active=-1);s.targetElement.appendChild(x)},this.timerInit=function(){s.timer=!0,s.snow()},this.init=function(){var i;for(i=0;i<s.meltFrameCount;i++)s.meltFrames.push(1-i/s.meltFrameCount);s.randomizeWind(),s.createSnow(s.flakesMax),s.events.add(e,"resize",s.resizeHandler),s.events.add(e,"scroll",s.scrollHandler),s.freezeOnBlur&&(n?(s.events.add(t,"focusout",s.freeze),s.events.add(t,"focusin",s.resume)):(s.events.add(e,"blur",s.freeze),s.events.add(e,"focus",s.resume))),s.resizeHandler(),s.scrollHandler(),s.followMouse&&s.events.add(n?t:e,"mousemove",s.mouseMove),s.animationInterval=Math.max(20,s.animationInterval),s.timerInit()},this.start=function(i){if(g){if(i)return!0}else g=!0;if("string"==typeof s.targetElement){var n=s.targetElement;if(s.targetElement=t.getElementById(n),!s.targetElement)throw new Error('Snowstorm: Unable to get targetElement "'+n+'"')}if(s.targetElement||(s.targetElement=t.body||t.documentElement),s.targetElement!==t.documentElement&&s.targetElement!==t.body&&(s.resizeHandler=s.resizeHandlerAlt,s.usePixelPosition=!0),s.resizeHandler(),s.usePositionFixed=s.usePositionFixed&&!a&&!s.flakeBottom,e.getComputedStyle)try{y="relative"===e.getComputedStyle(s.targetElement,null).getPropertyValue("position")}catch(e){y=!1}p=s.usePositionFixed,r&&f&&!s.disabled&&(s.init(),s.active=!0)},s.autoStart&&s.events.add(e,"load",function t(){s.excludeMobile&&o||F(),s.events.remove(e,"load",t)},!1),this}(window,document);
-    </script>
-@endsection
-
-@section('js_script')
     <script type='text/javascript'>
         var cId = '52423';
 
@@ -955,4 +942,7 @@
         }());
     </script>
 
+    <script>
+        $(document).ready(function(){$("#diwali_coupon").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){var t=$("input[name='email']").val(),i=$("input[name=_token]").val();jQuery.ajax({url:"christmas",type:"POST",data:{_token:i,email:t},success:function(e){console.log(e),window.location.replace("https://www.shoppre.com/customer/register")}})}})});var snowStorm=function(e,t){this.autoStart=!0,this.excludeMobile=!0,this.flakesMax=128,this.flakesMaxActive=64,this.animationInterval=50,this.useGPU=!0,this.className=null,this.excludeMobile=!0,this.flakeBottom=null,this.followMouse=!1,this.snowColor="#fff",this.snowCharacter="&bull;",this.snowStick=!0,this.targetElement=null,this.useMeltEffect=!0,this.useTwinkleEffect=!1,this.usePositionFixed=!1,this.usePixelPosition=!1,this.freezeOnBlur=!0,this.flakeLeftOffset=0,this.flakeRightOffset=0,this.flakeWidth=8,this.flakeHeight=8,this.vMaxX=5,this.vMaxY=4,this.zIndex=0;var i,s=this,n=navigator.userAgent.match(/msie/i),l=navigator.userAgent.match(/msie 6/i),o=navigator.userAgent.match(/mobile|opera m(ob|in)/i),a=n&&"BackCompat"===t.compatMode||l,r=null,m=null,f=null,h=null,u=null,c=null,d=null,v=1,p=!1,y=!1,k=function(){try{t.createElement("div").style.opacity="0.5"}catch(e){return!1}return!0}(),g=!1,x=t.createDocumentFragment();function w(e,t){return isNaN(t)&&(t=0),Math.random()*e+t}function F(){e.setTimeout(function(){s.start(!0)},20),s.events.remove(n?t:e,"mousemove",F)}return i=function(){var i;var n,l=e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||function(t){e.setTimeout(t,6e3/(s.animationInterval||20))};function o(e){return void 0!==n.style[e]?e:null}i=l?function(){return l.apply(e,arguments)}:null,n=t.createElement("div");var a={transform:{ie:o("-ms-transform"),moz:o("MozTransform"),opera:o("OTransform"),webkit:o("webkitTransform"),w3:o("transform"),prop:null},getAnimationFrame:i};return a.transform.prop=a.transform.w3||a.transform.moz||a.transform.webkit||a.transform.ie||a.transform.opera,n=null,a}(),this.timer=null,this.flakes=[],this.disabled=!1,this.active=!1,this.meltFrameCount=20,this.meltFrames=[],this.setXY=function(e,t,i){if(!e)return!1;s.usePixelPosition||y?(e.style.left=t-s.flakeWidth+"px",e.style.top=i-s.flakeHeight+"px"):a?(e.style.right=100-t/r*100+"%",e.style.top=Math.min(i,u-s.flakeHeight)+"px"):s.flakeBottom?(e.style.right=100-t/r*100+"%",e.style.top=Math.min(i,u-s.flakeHeight)+"px"):(e.style.right=100-t/r*100+"%",e.style.bottom=100-i/f*100+"%")},this.events=function(){var t=!e.addEventListener&&e.attachEvent,i=Array.prototype.slice,s={add:t?"attachEvent":"addEventListener",remove:t?"detachEvent":"removeEventListener"};function n(e){var s=i.call(e),n=s.length;return t?(s[1]="on"+s[1],n>3&&s.pop()):3===n&&s.push(!1),s}function l(e,i){var n=e.shift(),l=[s[i]];t?n[l](e[0],e[1]):n[l].apply(n,e)}return{add:function(){l(n(arguments),"add")},remove:function(){l(n(arguments),"remove")}}}(),this.randomizeWind=function(){var e,t;if(t=w(s.vMaxX,.2),c=1===parseInt(w(2),10)?-1*t:t,d=w(s.vMaxY,.2),this.flakes)for(e=0;e<this.flakes.length;e++)this.flakes[e].active&&this.flakes[e].setVelocities()},this.scrollHandler=function(){var i;if(h=s.flakeBottom?0:parseInt(e.scrollY||t.documentElement.scrollTop||(a?t.body.scrollTop:0),10),isNaN(h)&&(h=0),!p&&!s.flakeBottom&&s.flakes)for(i=0;i<s.flakes.length;i++)0===s.flakes[i].active&&s.flakes[i].stick()},this.resizeHandler=function(){e.innerWidth||e.innerHeight?(r=e.innerWidth-16-s.flakeRightOffset,f=s.flakeBottom||e.innerHeight):(r=(t.documentElement.clientWidth||t.body.clientWidth||t.body.scrollWidth)-(n?0:8)-s.flakeRightOffset,f=s.flakeBottom||t.documentElement.clientHeight||t.body.clientHeight||t.body.scrollHeight),u=t.body.offsetHeight,m=parseInt(r/2,10)},this.resizeHandlerAlt=function(){r=s.targetElement.offsetWidth-s.flakeRightOffset,f=s.flakeBottom||s.targetElement.offsetHeight,m=parseInt(r/2,10),u=t.body.offsetHeight},this.freeze=function(){if(s.disabled)return!1;s.disabled=1,s.timer=null},this.resume=function(){if(!s.disabled)return!1;s.disabled=0,s.timerInit()},this.toggleSnow=function(){s.flakes.length?(s.active=!s.active,s.active?(s.show(),s.resume()):(s.stop(),s.freeze())):s.start()},this.stop=function(){var i;for(this.freeze(),i=0;i<this.flakes.length;i++)this.flakes[i].o.style.display="none";s.events.remove(e,"scroll",s.scrollHandler),s.events.remove(e,"resize",s.resizeHandler),s.freezeOnBlur&&(n?(s.events.remove(t,"focusout",s.freeze),s.events.remove(t,"focusin",s.resume)):(s.events.remove(e,"blur",s.freeze),s.events.remove(e,"focus",s.resume)))},this.show=function(){var e;for(e=0;e<this.flakes.length;e++)this.flakes[e].o.style.display="block"},this.SnowFlake=function(e,n,l){var o=this;this.type=e,this.x=n||parseInt(w(r-20),10),this.y=isNaN(l)?-w(f)-12:l,this.vX=null,this.vY=null,this.vAmpTypes=[1,1.2,1.4,1.6,1.8],this.vAmp=this.vAmpTypes[this.type]||1,this.melting=!1,this.meltFrameCount=s.meltFrameCount,this.meltFrames=s.meltFrames,this.meltFrame=0,this.twinkleFrame=0,this.active=1,this.fontSize=10+this.type/5*10,this.o=t.createElement("div"),this.o.innerHTML=s.snowCharacter,s.className&&this.o.setAttribute("class",s.className),this.o.style.color=s.snowColor,this.o.style.position=p?"fixed":"absolute",s.useGPU&&i.transform.prop&&(this.o.style[i.transform.prop]="translate3d(0px, 0px, 0px)"),this.o.style.width=s.flakeWidth+"px",this.o.style.height=s.flakeHeight+"px",this.o.style.fontFamily="arial,verdana",this.o.style.cursor="default",this.o.style.overflow="hidden",this.o.style.fontWeight="normal",this.o.style.zIndex=s.zIndex,x.appendChild(this.o),this.refresh=function(){if(isNaN(o.x)||isNaN(o.y))return!1;s.setXY(o.o,o.x,o.y)},this.stick=function(){a||s.targetElement!==t.documentElement&&s.targetElement!==t.body?o.o.style.top=f+h-s.flakeHeight+"px":s.flakeBottom?o.o.style.top=s.flakeBottom+"px":(o.o.style.display="none",o.o.style.bottom="0%",o.o.style.position="fixed",o.o.style.display="block")},this.vCheck=function(){o.vX>=0&&o.vX<.2?o.vX=.2:o.vX<0&&o.vX>-.2&&(o.vX=-.2),o.vY>=0&&o.vY<.2&&(o.vY=.2)},this.move=function(){var e=o.vX*v;o.x+=e,o.y+=o.vY*o.vAmp,o.x>=r||r-o.x<s.flakeWidth?o.x=0:e<0&&o.x-s.flakeLeftOffset<-s.flakeWidth&&(o.x=r-s.flakeWidth-1),o.refresh(),f+h-o.y+s.flakeHeight<s.flakeHeight?(o.active=0,s.snowStick?o.stick():o.recycle()):(s.useMeltEffect&&o.active&&o.type<3&&!o.melting&&Math.random()>.998&&(o.melting=!0,o.melt()),s.useTwinkleEffect&&(o.twinkleFrame<0?Math.random()>.97&&(o.twinkleFrame=parseInt(8*Math.random(),10)):(o.twinkleFrame--,k?o.o.style.opacity=o.twinkleFrame&&o.twinkleFrame%2==0?0:1:o.o.style.visibility=o.twinkleFrame&&o.twinkleFrame%2==0?"hidden":"visible")))},this.animate=function(){o.move()},this.setVelocities=function(){o.vX=c+w(.12*s.vMaxX,.1),o.vY=d+w(.12*s.vMaxY,.1)},this.setOpacity=function(e,t){if(!k)return!1;e.style.opacity=t},this.melt=function(){s.useMeltEffect&&o.melting&&o.meltFrame<o.meltFrameCount?(o.setOpacity(o.o,o.meltFrames[o.meltFrame]),o.o.style.fontSize=o.fontSize-o.fontSize*(o.meltFrame/o.meltFrameCount)+"px",o.o.style.lineHeight=s.flakeHeight+2+.75*s.flakeHeight*(o.meltFrame/o.meltFrameCount)+"px",o.meltFrame++):o.recycle()},this.recycle=function(){o.o.style.display="none",o.o.style.position=p?"fixed":"absolute",o.o.style.bottom="auto",o.setVelocities(),o.vCheck(),o.meltFrame=0,o.melting=!1,o.setOpacity(o.o,1),o.o.style.padding="0px",o.o.style.margin="0px",o.o.style.fontSize=o.fontSize+"px",o.o.style.lineHeight=s.flakeHeight+2+"px",o.o.style.textAlign="center",o.o.style.verticalAlign="baseline",o.x=parseInt(w(r-s.flakeWidth-20),10),o.y=parseInt(-1*w(f),10)-s.flakeHeight,o.refresh(),o.o.style.display="block",o.active=1},this.recycle(),this.refresh()},this.snow=function(){var e,t,n=0,l=null;for(e=0,t=s.flakes.length;e<t;e++)1===s.flakes[e].active&&(s.flakes[e].move(),n++),s.flakes[e].melting&&s.flakes[e].melt();n<s.flakesMaxActive&&0===(l=s.flakes[parseInt(w(s.flakes.length),10)]).active&&(l.melting=!0),s.timer&&i.getAnimationFrame(s.snow)},this.mouseMove=function(e){if(!s.followMouse)return!0;var t=parseInt(e.clientX,10);v=t<m?t/m*2-2:(t-=m)/m*2},this.createSnow=function(e,t){var i;for(i=0;i<e;i++)s.flakes[s.flakes.length]=new s.SnowFlake(parseInt(w(6),10)),(t||i>s.flakesMaxActive)&&(s.flakes[s.flakes.length-1].active=-1);s.targetElement.appendChild(x)},this.timerInit=function(){s.timer=!0,s.snow()},this.init=function(){var i;for(i=0;i<s.meltFrameCount;i++)s.meltFrames.push(1-i/s.meltFrameCount);s.randomizeWind(),s.createSnow(s.flakesMax),s.events.add(e,"resize",s.resizeHandler),s.events.add(e,"scroll",s.scrollHandler),s.freezeOnBlur&&(n?(s.events.add(t,"focusout",s.freeze),s.events.add(t,"focusin",s.resume)):(s.events.add(e,"blur",s.freeze),s.events.add(e,"focus",s.resume))),s.resizeHandler(),s.scrollHandler(),s.followMouse&&s.events.add(n?t:e,"mousemove",s.mouseMove),s.animationInterval=Math.max(20,s.animationInterval),s.timerInit()},this.start=function(i){if(g){if(i)return!0}else g=!0;if("string"==typeof s.targetElement){var n=s.targetElement;if(s.targetElement=t.getElementById(n),!s.targetElement)throw new Error('Snowstorm: Unable to get targetElement "'+n+'"')}if(s.targetElement||(s.targetElement=t.body||t.documentElement),s.targetElement!==t.documentElement&&s.targetElement!==t.body&&(s.resizeHandler=s.resizeHandlerAlt,s.usePixelPosition=!0),s.resizeHandler(),s.usePositionFixed=s.usePositionFixed&&!a&&!s.flakeBottom,e.getComputedStyle)try{y="relative"===e.getComputedStyle(s.targetElement,null).getPropertyValue("position")}catch(e){y=!1}p=s.usePositionFixed,r&&f&&!s.disabled&&(s.init(),s.active=!0)},s.autoStart&&s.events.add(e,"load",function t(){s.excludeMobile&&o||F(),s.events.remove(e,"load",t)},!1),this}(window,document);
+    </script>
 @endsection
