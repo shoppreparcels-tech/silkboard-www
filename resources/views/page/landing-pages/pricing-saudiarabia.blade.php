@@ -5,7 +5,7 @@
 @section('keywords', 'sa, courier india to saudi arabia, middle east, riyadh')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-saudi-arabia-per-kg" />
+    <link rel="canonical" href="https://www.shopprecouriers.com/international-courier-charges-india-to-saudi-arabia-per-kg" />
 
     <script type="application/ld+json">
 {
@@ -13,8 +13,8 @@
   "@type": "Organization",
   "name": "ShoppRe.com",
   "alternateName": "Send International Courier From India to Saudi Arabia",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-saudi-arabia-per-kg",
-  "logo": "https://www.shoppre.com/img/logo.png",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-saudi-arabia-per-kg",
+  "logo": "https://www.shopprecouriers.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91 8277919191",
@@ -43,8 +43,8 @@
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
   "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-saudi-arabia-per-kg",
-  "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-saudi-arabia-per-kg",
+  "image": "https://www.shopprecouriers.com/img/images/schedule-pickup-package-in-india.jpg",
   "description": "international courier from India to Saudi Arabia",
   "originAddress": {
     "@type": "PostalAddress",

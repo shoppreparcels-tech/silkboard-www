@@ -6,20 +6,20 @@
 
 @section('css_style')
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-canada-per-kg"/>
+    <meta property="og:url" content="https://www.shopprecouriers.com/international-courier-charges-india-to-canada-per-kg"/>
     <meta property="og:title" content="Cheap Courier Service from India to Canada - ShoppRe International" />
     <meta property="og:description" content="Special courier rates from India to Canada. ShoppRe international courier - Easy Online Shipping. Tracking. Quick Schedule Parcel Pickup Online. 3-6 Days Delivery." />
 
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-canada-per-kg" />
+    <link rel="canonical" href="https://www.shopprecouriers.com/international-courier-charges-india-to-canada-per-kg" />
 
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Organization",
-  "name": "ShoppRe.com",
+  "name": "ShoppRe Canada",
   "alternateName": "Send International Courier From India to Canada",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-canada-per-kg",
-  "logo": "https://www.shoppre.com/img/logo.png",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-canada-per-kg",
+  "logo": "https://www.shopprecouriers.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91 8277919191",
@@ -47,9 +47,9 @@
 {
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
-  "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-canada-per-kg",
-  "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
+  "name": "ShoppRe Canada",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-canada-per-kg",
+  "image": "https://www.shopprecouriers.com/img/images/schedule-pickup-package-in-india.jpg",
   "description": "international courier from India to Canada",
   "originAddress": {
     "@type": "PostalAddress",

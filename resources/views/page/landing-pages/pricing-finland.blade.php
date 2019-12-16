@@ -5,16 +5,16 @@
 @section('keywords', 'fi, india to finland, parcel delivery, europe, helsinki, republic of finland, express delivery ')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-finland-per-kg" />
+    <link rel="canonical" href="https://www.shopprecouriers.com/international-courier-charges-india-to-finland-per-kg" />
 
     <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Organization",
-  "name": "ShoppRe.com",
+  "name": "ShoppRe Finland",
   "alternateName": "Send International Courier From India to Finland",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-finland-per-kg",
-  "logo": "https://www.shoppre.com/img/logo.png",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-finland-per-kg",
+  "logo": "https://www.shopprecouriers.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91 8277919191",
@@ -42,9 +42,9 @@
 {
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
-  "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-finland-per-kg",
-  "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
+  "name": "ShoppRe Finland",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-finland-per-kg",
+  "image": "https://www.shopprecouriers.com/img/images/schedule-pickup-package-in-india.jpg",
   "description": "international courier from India to Finland",
   "originAddress": {
     "@type": "PostalAddress",

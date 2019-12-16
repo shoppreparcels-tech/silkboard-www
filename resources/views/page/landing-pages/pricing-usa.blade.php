@@ -6,9 +6,9 @@
 
 @section('css_style')
 
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg" />
+    <link rel="canonical" href="https://www.shopprecouriers.com/international-courier-charges-india-to-usa-per-kg" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg"/>
+    <meta property="og:url" content="https://www.shopprecouriers.com/international-courier-charges-india-to-usa-per-kg"/>
     <meta property="og:title" content="Guaranteed Lowest Prices to USA from India - ShoppRe International Courier" />
     <meta property="og:description" content="Best Discount on Courier Services to the USA. Door-to-Door pick-up anywhere in India. Ship household goods, food products, clothes, shoes, books & more." />
 
@@ -16,9 +16,9 @@
 {
   "@context": "http://schema.org",
   "@type": "Organization",
-  "name": "ShoppRe.com",
+  "name": "ShoppRe Couriers",
   "alternateName": "Send International Courier From India to USA",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-usa-per-kg",
   "logo": "https://www.shoppre.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
@@ -47,9 +47,9 @@
 {
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
-  "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg",
-  "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
+  "name": "ShoppRe International Courier USA",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-usa-per-kg",
+  "image": "https://www.shopprecouriers.com/img/images/schedule-pickup-package-in-india.jpg",
   "description": "international courier from India to USA",
   "originAddress": {
     "@type": "PostalAddress",

@@ -5,10 +5,10 @@
 @section('keywords', 'mauritius courier services near me, cheap parcel delivery to mauritius, courier charges per kg, east africa ')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-mauritius-per-kg" />
+    <link rel="canonical" href="https://www.shopprecouriers.com/international-courier-charges-india-to-mauritius-per-kg" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-mauritius-per-kg"/>
+    <meta property="og:url" content="https://www.shopprecouriers.com/international-courier-charges-india-to-mauritius-per-kg"/>
     <meta property="og:title" content="Fast Courier from India to Mauritius - Get Free Quote‎ Online | 📞 +91-8277-919191‎‎" />
     <meta property="og:description" content="Enjoy the benefits of ShoppRe international courier services from India to Mauritius tailored to your needs. Sign up now & ship for up to 50% OFF*" />
 
@@ -18,8 +18,8 @@
   "@type": "Organization",
   "name": "ShoppRe.com",
   "alternateName": "Send International Courier From India to Mauritius",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-mauritius-per-kg",
-  "logo": "https://www.shoppre.com/img/logo.png",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-mauritius-per-kg",
+  "logo": "https://www.shopprecouriers.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91 8277919191",
@@ -48,8 +48,8 @@
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
   "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-mauritius-per-kg",
-  "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-mauritius-per-kg",
+  "image": "https://www.shopprecouriers.com/img/images/schedule-pickup-package-in-india.jpg",
   "description": "international courier from India to Mauritius",
   "originAddress": {
     "@type": "PostalAddress",

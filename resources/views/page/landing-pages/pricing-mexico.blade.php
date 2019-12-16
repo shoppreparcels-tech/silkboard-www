@@ -5,10 +5,10 @@
 @section('keywords', 'mexico courier services near me, cheap ship from india, mexico charges per kg, northern europe, dk')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-mexico-per-kg" />
+    <link rel="canonical" href="https://www.shopprecouriers.com/international-courier-charges-india-to-mexico-per-kg" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-mexico-per-kg"/>
+    <meta property="og:url" content="https://www.shopprecouriers.com/international-courier-charges-india-to-mexico-per-kg"/>
     <meta property="og:title" content="India to Mexico - Instant Online Courier Quote‎ | 📞 +91-8277-919191‎‎" />
     <meta property="og:description" content="Ship your parcel to Mexico from anywhere in India with ShoppRe. Avoid expensive Shipping Costs‎. Book Now!" />
 
@@ -18,8 +18,8 @@
   "@type": "Organization",
   "name": "ShoppRe.com",
   "alternateName": "Send International Courier From India to Mexico",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-mexico-per-kg",
-  "logo": "https://www.shoppre.com/img/logo.png",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-mexico-per-kg",
+  "logo": "https://www.shopprecouriers.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91 8277919191",
@@ -48,8 +48,8 @@
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
   "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-mexico-per-kg",
-  "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-mexico-per-kg",
+  "image": "https://www.shopprecouriers.com/img/images/schedule-pickup-package-in-india.jpg",
   "description": "international courier from India to Mexico",
   "originAddress": {
     "@type": "PostalAddress",

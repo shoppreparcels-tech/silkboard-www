@@ -11,8 +11,8 @@
   "@type": "Organization",
   "name": "ShoppRe.com",
   "alternateName": "Send International Courier From India to South Africa",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-south-africa-per-kg",
-  "logo": "https://www.shoppre.com/img/logo.png",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-south-africa-per-kg",
+  "logo": "https://www.shopprecouriers.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91 8277919191",
@@ -41,8 +41,8 @@
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
   "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-south-africa-per-kg",
-  "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-south-africa-per-kg",
+  "image": "https://www.shopprecouriers.com/img/images/schedule-pickup-package-in-india.jpg",
   "description": "international courier from India to South Africa",
   "originAddress": {
     "@type": "PostalAddress",
@@ -63,7 +63,7 @@
 }
 </script>
 
-<link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-south-africa-per-kg" />
+<link rel="canonical" href="https://www.shopprecouriers.com/international-courier-charges-india-to-south-africa-per-kg" />
 
 @endsection
 @section('content')

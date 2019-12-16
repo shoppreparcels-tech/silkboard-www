@@ -5,10 +5,10 @@
 @section('keywords', 'japan courier services near me, best shipping services, ship from india to japan, courier charges per kg ')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-japan-per-kg" />
+    <link rel="canonical" href="https://www.shopprecouriers.com/international-courier-charges-india-to-japan-per-kg" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-japan-per-kg"/>
+    <meta property="og:url" content="https://www.shopprecouriers.com/international-courier-charges-india-to-japan-per-kg"/>
     <meta property="og:title" content="Cheap Courier India to Japan | New User Code : FRST50‎" />
     <meta property="og:description" content="The Cheapest Rates Online here. Sign up and book your parcel courier to Japna from India. Save up to 80% on ShippingNow‎" />
 
@@ -18,8 +18,8 @@
   "@type": "Organization",
   "name": "ShoppRe.com",
   "alternateName": "Send International Courier From India to Japan",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-japan-per-kg",
-  "logo": "https://www.shoppre.com/img/logo.png",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-japan-per-kg",
+  "logo": "https://www.shopprecouriers.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91 8277919191",
@@ -48,8 +48,8 @@
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
   "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-japan-per-kg",
-  "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-japan-per-kg",
+  "image": "https://www.shopprecouriers.com/img/images/schedule-pickup-package-in-india.jpg",
   "description": "international courier from India to japan",
   "originAddress": {
     "@type": "PostalAddress",

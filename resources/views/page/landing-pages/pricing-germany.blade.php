@@ -5,10 +5,10 @@
 @section('keywords', 'easy shipping, courier from india to germany, international shipping to europe, valentines day gifts')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-germany-per-kg" />
+    <link rel="canonical" href="https://www.shopprecouriers.com/international-courier-charges-india-to-germany-per-kg" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-germany-per-kg"/>
+    <meta property="og:url" content="https://www.shopprecouriers.com/international-courier-charges-india-to-germany-per-kg"/>
     <meta property="og:title" content="Safe International Courier Services to Germany - ShoppRe India" />
     <meta property="og:description" content="Best Discount on Courier Services to Germany. Get a quote and create a shipment online in seconds. Save 80% on shipping. Book Now! " />
 
@@ -16,10 +16,10 @@
 {
   "@context": "http://schema.org",
   "@type": "Organization",
-  "name": "ShoppRe.com",
+  "name": "ShoppRe Germany",
   "alternateName": "Send International Courier From India to Germany",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-germany-per-kg",
-  "logo": "https://www.shoppre.com/img/logo.png",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-germany-per-kg",
+  "logo": "https://www.shopprecouriers.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91 8277919191",
@@ -47,9 +47,9 @@
 {
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
-  "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-germany-per-kg",
-  "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
+  "name": "ShoppRe Germany",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-germany-per-kg",
+  "image": "https://www.shopprecouriers.com/img/images/schedule-pickup-package-in-india.jpg",
   "description": "international courier from India to Germany",
   "originAddress": {
     "@type": "PostalAddress",

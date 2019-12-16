@@ -31,7 +31,7 @@
                             <td class="align-center"
                                 style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; vertical-align: top; text-align: center;"
                                 valign="top" align="center">
-                                <a href="https://www.shoppre.com"
+                                <a href="https://www.shopprecouriers.com"
                                    style="box-sizing: border-box; color: #4173A9; text-decoration: none;"><img
                                             src="{{env('AWS_CLOUD_FRONT')}}/img/logo.png" height="50" alt="Shoppre"
                                             style="-ms-interpolation-mode: bicubic; max-width: 100%;"></a>
@@ -54,13 +54,13 @@
                                         <p style="color: #1f2533;"><font size="5"> Dear {{$data->first_name}} {{$data->last_name}},</font></p>
 
                                         <p style="font-size: 16px;color: #1f2533;">
-                                            Thank you for reaching out to Shoppre!
+                                            Thank you for reaching out to ShoppRe Couriers!
                                             <br><br>We have received your pick up request. Please note that our team
                                             is working on the same and will connect with you shortly.
                                             <br><br>
                                             Our working hours are from 9:00 AM to 7:00 PM Indian Standard Time,
                                             Monday through Saturday.If you have any queries write to us at
-                                            support@shoppre.com.
+                                            support@shopprecouriers.com.
                                         </p>
                                     </td>
                                 </tr>
@@ -109,11 +109,10 @@
                                         <p style="font-size: 16px;color: #1f2533;">
                                             Thank you and have a great day ahead! <br>
                                             <br>
-                                            Best regards,<br>
-                                            Your Team at Shoppre <br><br>
+                                            Best Regards,<br>
+                                            Team ShoppReCouriers <br><br>
                                             Note: This is a system alert message. Please do not reply to this email <br>
-                                            +91 80 4049 4077 | <span
-                                                    style="color: dodgerblue">support@shoppre.com</span> | #181, 1st
+                                            +91 8277-919191 | <span style="color: dodgerblue">support@shopprecouriers.com</span> | #181, 1st
                                             Floor, 2nd Cross Rd, 1st Block Koramangala, Bengaluru, Karnataka 560034
                                         </p>
                                     </td>
@@ -145,9 +144,9 @@
                                 style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; vertical-align: top; font-size: 12px; color: #999999; text-align: center; padding: 20px 0;"
                                 valign="top" align="center">
                                 <p style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: normal; margin: 0; margin-bottom: 15px; color: #999999; font-size: 12px;">
-                                    <a href="https://www.shoppre.com"
+                                    <a href="https://www.shopprecouriers.com/?src=email-SchedulePickup-form" target="_blank"
                                        style="box-sizing: border-box; text-decoration: none; color: #999999; font-size: 12px;">Visit
-                                        Shoppre.com</a>
+                                        shoppreCouriers.com</a>
                                 </p>
                             </td>
                         </tr>

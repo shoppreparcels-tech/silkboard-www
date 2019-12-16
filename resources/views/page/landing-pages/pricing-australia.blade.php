@@ -5,10 +5,10 @@
 @section('keywords', 'international courier charges, per kg rates, shipping from india, cheapest rates, ship some goods')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg" />
+    <link rel="canonical" href="https://www.shopprecouriers.com/international-courier-charges-india-to-australia-per-kg" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg"/>
+    <meta property="og:url" content="https://www.shopprecouriers.com/international-courier-charges-india-to-australia-per-kg"/>
     <meta property="og:title" content="Reliable, Stress-Free Shipping‎ - ShoppRe India to Australia Courier" />
     <meta property="og:description" content="Special courier rates from India to Australia. Corporate Relocation. Office Relocation. International Relocation. Seller Shipping." />
 
@@ -16,10 +16,10 @@
         {
           "@context": "http://schema.org",
           "@type": "Organization",
-          "name": "ShoppRe.com",
+          "name": "ShoppRe Australia",
           "alternateName": "Send International Courier From India to Australia",
-          "url": "https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg",
-          "logo": "https://www.shoppre.com/img/logo.png",
+          "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-australia-per-kg",
+          "logo": "https://www.shopprecouriers.com/img/logo.png",
           "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+91 8277919191",
@@ -47,9 +47,9 @@
     {
       "@context": "http://www.schema.org",
       "@type": "ParcelDelivery",
-      "name": "ShoppRe",
-      "url": "https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg",
-      "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
+      "name": "ShoppRe Australia",
+      "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-australia-per-kg",
+      "image": "https://www.shopprecouriers.com/img/images/schedule-pickup-package-in-india.jpg",
       "description": "international courier from India to Australia",
       "originAddress": {
         "@type": "PostalAddress",

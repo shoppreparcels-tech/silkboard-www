@@ -5,11 +5,12 @@
 @section('keywords', 'package india, parcel service, schedule pickup, send food, courier services near me, delivery items, shipping rates')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/schedule-pickup"/>
+    <link rel="canonical" href="https://www.shopprecouriers.com/schedule-pickup"/>
+
     <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/select2.min.css">
     <meta property="og:title" content="Schedule A Package Pickup with ShoppRe.com"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://www.shoppre.com/schedule-pickup"/>
+    <meta property="og:url" content="https://www.shopprecouriers.com/schedule-pickup"/>
     <meta property="og:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-package-in-india.jpg"/>
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="628">
@@ -25,10 +26,7 @@
           content="Need to Schedule a package pickup online? Schedule your parcel quickly with ShoppRe from your home or office and we will deliver for you within 3-6 business days."/>
     <meta name="twitter:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-package-in-india.jpg"/>
     <meta name="twitter:image:alt" content="ShoppRe online shipping and international courier from India"/>
-    <meta name="twitter:app:country" content="IN"/>
-    <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
-    <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
-    <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
+
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>

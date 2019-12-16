@@ -6,10 +6,10 @@
 
 @section('css_style')
 
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg" />
+    <link rel="canonical" href="https://www.shopprecouriers.com/international-courier-charges-india-to-uae-per-kg" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg"/>
+    <meta property="og:url" content="https://www.shopprecouriers.com/international-courier-charges-india-to-uae-per-kg"/>
     <meta property="og:title" content="Courier to UAE - Starting from ₹566 - ShoppRe Express Courier" />
     <meta property="og:description" content="Courier Per Kg Rates to UAE from India. Door-to-Door pick-up service anywhere in India. Courier household goods, branded food, clothes, shoes, books & more." />
 
@@ -19,8 +19,8 @@
   "@type": "Organization",
   "name": "ShoppRe.com",
   "alternateName": "Send International Courier From India to UAE",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg",
-  "logo": "https://www.shoppre.com/img/logo.png",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-uae-per-kg",
+  "logo": "https://www.shopprecouriers.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91 8277919191",
@@ -50,8 +50,8 @@
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
   "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg",
-  "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-uae-per-kg",
+  "image": "https://www.shopprecouriers.com/img/images/schedule-pickup-package-in-india.jpg",
   "description": "international courier from India to UAE",
   "originAddress": {
     "@type": "PostalAddress",

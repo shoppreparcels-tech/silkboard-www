@@ -1,14 +1,14 @@
 @extends('layout')
 
-@section('title', 'Cheap Courier Charges Per Kg To Denmark from India | ShoppRe.com')
+@section('title', 'Cheap Courier Charges Per Kg To Denmark from India')
 @section('description', 'Affordable International courier and Parcel delivery services to Denmark from India. Book a Courier Now.')
 @section('keywords', 'denmark courier services near me, cheap ship from india, denmark charges per kg, northern europe, dk')
 
 @section('css_style')
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-charges-india-to-denmark-per-kg" />
+    <link rel="canonical" href="https://www.shopprecouriers.com/international-courier-charges-india-to-denmark-per-kg" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.shoppre.com/international-courier-charges-india-to-denmark-per-kg"/>
+    <meta property="og:url" content="https://www.shopprecouriers.com/international-courier-charges-india-to-denmark-per-kg"/>
     <meta property="og:title" content="India to Denmark - ShoppRe™ Online‎ Courier Service | Safe & Secure‎"/>
     <meta property="og:description" content="Get your Free Quote to send a courier to Denmark from India with ShoppRe™. We offer express delivery, economic couriers using DHL, DTDC, FedEx & other partners." />
 
@@ -16,10 +16,10 @@
 {
   "@context": "http://schema.org",
   "@type": "Organization",
-  "name": "ShoppRe.com",
+  "name": "ShoppRe Denmark",
   "alternateName": "Send International Courier From India to Denmark",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-denmark-per-kg",
-  "logo": "https://www.shoppre.com/img/logo.png",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-denmark-per-kg",
+  "logo": "https://www.shopprecouriers.com/img/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91 8277919191",
@@ -47,9 +47,9 @@
 {
   "@context": "http://www.schema.org",
   "@type": "ParcelDelivery",
-  "name": "ShoppRe",
-  "url": "https://www.shoppre.com/international-courier-charges-india-to-denmark-per-kg",
-  "image": "https://www.shoppre.com/img/images/schedule-pickup-package-in-india.jpg",
+  "name": "ShoppRe Denmark",
+  "url": "https://www.shopprecouriers.com/international-courier-charges-india-to-denmark-per-kg",
+  "image": "https://www.shopprecouriers.com/img/images/schedule-pickup-package-in-india.jpg",
   "description": "international courier from India to Denmark",
   "originAddress": {
     "@type": "PostalAddress",

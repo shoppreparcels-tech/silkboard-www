@@ -6,7 +6,7 @@
 
 @section('css_style')
 
-    <link rel="canonical" href="https://www.shoppre.com/best-affordable-international-courier-services-in-india" />
+    <link rel="canonical" href="https://www.shopprecouriers.com/best-affordable-international-courier-services-in-india" />
 
     <script type="application/ld+json">
         {
@@ -19,7 +19,7 @@
                   ],
             "uploadDate": "2018-11-21T07:30:00.000Z",
             "duration": "PT20S",
-                "contentUrl": "https://www.shoppre.com/best-affordable-international-courier-services-in-india",
+                "contentUrl": "https://www.shopprecouriers.com/best-affordable-international-courier-services-in-india",
                 "embedUrl": "https://www.youtube.com/embed/lQi4Io_WH70",
             "interactionStatistic": {
                 "@type": "InteractionCounter",

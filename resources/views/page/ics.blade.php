@@ -9,15 +9,15 @@
         .div-padding-bottom{background-image:url(../../img/images/international-courier-from-india.png);height:470px;width:100%;background-position:inherit;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px;padding-bottom:4%}.div-padding-bottom .btn-a{margin-left:25px;padding:10px;border-radius:30px;background-color:#e85151;color:#fff;font-size:16px}.div-padding-bottom .btn-b{margin-left:25px;padding:10px;border-radius:30px;background-color:#507dbc;color:#fff;font-size:16px}.div-padding-bottom .btn-a:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}.seo-sec{background-color:#fafafb}.seo-sec a{text-decoration:underline}.ul-seo{list-style:none}.ul-seo li{font-size:16px;font-weight:600;color:#677582}@media only screen and (max-width:600px){.div-padding-bottom .btn-a{margin-left:0}}@media only screen and (max-width:600px){table th,td h1{font-weight:700;font-size:15px}table th,td span{font-weight:600;font-size:10px}table th,td p{font-weight:600;font-size:10px}}
     </style>
 
-    <link rel="canonical" href="https://www.shoppre.com/international-courier-shipping-services-india" />
+    <link rel="canonical" href="https://www.shopprecouriers.com/international-courier-shipping-services-india" />
 
     <meta property="og:title" content="ShoppRe™ Express International Courier in India "/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://www.shoppre.com/international-courier-shipping-services-india"/>
+    <meta property="og:url" content="https://www.shopprecouriers.com/international-courier-shipping-services-india"/>
     <meta property="og:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/international-courier-services-india.png')}}"/>
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="628">
-    <meta property="og:image:alt" content="ShoppRe Courier" />
+    <meta property="og:image:alt" content="ShoppRe Couriers" />
     <meta property="og:description" content="Best Discount On DHL/FedEx/Export - International Courier Services at Lowest Price"/>
     <meta property="og:site_name" content="ShoppRe International Courier Services in India"/>
 
@@ -26,15 +26,15 @@
         "@context": "http://schema.org",
         "@type": "WebPage",
         "name": "Best International Courier Service in India",
-        "description": "ShoppRe Courier is on a steady pace to becoming the best affordable international courier service in india.",
+        "description": "ShoppRe Couriers is on a steady pace to becoming the best affordable international courier service in india.",
         "image": {
         "@type": "ImageObject",
-        "url": "https://www.shoppre.com/img/logo.png",
+        "url": "https://www.shopprecouriers.com/img/logo.png",
         "width": "878",
         "height": "264"
         },
-        "url": "https://www.shoppre.com/international-courier-shipping-services-india",
-        "mainEntityOfPage": "https://www.shoppre.com/international-courier-shipping-services-india",
+        "url": "https://www.shopprecouriers.com/international-courier-shipping-services-india",
+        "mainEntityOfPage": "https://www.shopprecouriers.com/international-courier-shipping-services-india",
         "inLanguage": "en_IN",
         "headline": "The cheapest international courier service from India",
         "keywords": "send courier from India, ship to usa, courier charges, global shipping made easy, international shipping, parcel delivery services",
@@ -42,18 +42,16 @@
         "author": {
     "@type": "Organization",
         "name": "ShoppRe",
-        "url": "https://www.shoppre.com",
+        "url": "https://www.shopprecouriers.com",
         "sameAs": ["https://twitter.com/Go_Shoppre",
         "https://www.facebook.com/goshoppre",
         "https://www.linkedin.com/company/shoppre.com",
         "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
         "https://www.instagram.com/shoppre_official",
-        "https://www.shoppre.com/shop-ship",
-        "https://www.shoppre.com/personal-shopper-shopping-concierge-from-india",
-        "https://www.shoppre.com/send-international-courier-from-india",
-        "https://www.shoppre.com/medicine-international-courier-from-india",
-        "https://www.shoppre.com/best-affordable-international-courier-services-in-india",
-        "https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg"],
+        "https://www.shopprecouriers.com/send-international-courier-from-india",
+        "https://www.shopprecouriers.com/medicine-international-courier-from-india",
+        "https://www.shopprecouriers.com/best-affordable-international-courier-services-in-india",
+        "https://www.shopprecouriers.com/international-courier-charges-india-to-usa-per-kg"],
         "image": {
     "@type": "ImageObject",
         "url": "https://www.shoppre.com/img/logo.png",
