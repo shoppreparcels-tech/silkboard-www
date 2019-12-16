@@ -176,7 +176,7 @@
                         <li>Mid Season Sale, 16th to 19th November 2019</li>
                         <li>Comic Con India, 25th to 27th November 2019</li>
                         <li>BLACK FRIDAY SALE, 29th Nov to 1st December 2019</li>
-                        <li>THE BIG BEAUTY SALE, 03rd Dec to 4th December 2019</li>
+                        <li><a href="/myntra-online-shopping">END OF REASON SALE</a>, 22nd to 25th December 2019</li>
                     </ul>
                 </div>
                 <br>

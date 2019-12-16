@@ -51,11 +51,6 @@
     <priority>0.60</priority>
 </url>
 <url>
-  <loc>https://www.shoppre.com/schedule-pickup</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
     <loc>https://www.shoppre.com/first-time-international-shipment-offer</loc>
     <changefreq>daily</changefreq>
     <priority>0.80</priority>
@@ -66,19 +61,9 @@
     <priority>0.70</priority>
 </url>
 <url>
-    <loc>https://www.shoppre.com/best-international-relocation-packers-movers</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-</url>
-<url>
     <loc>https://www.shoppre.com/international-shipping-gift-cards-vouchers</loc>
     <changefreq>daily</changefreq>
     <priority>0.70</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/medicine-international-courier-from-india</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/personal-shopper-india</loc>
@@ -219,11 +204,6 @@
   <loc>https://www.shoppre.com/reviews</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-shipping-services-india</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/flipkart-shopping-with-shoppre-from-india</loc>
@@ -371,11 +351,6 @@
      <priority>0.50</priority>
 </url>
 <url>
-<loc>https://www.shoppre.com/best-affordable-international-courier-services-in-india</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.80</priority>
-</url>
-    <url>
 <loc>https://www.shoppre.com/package-consolidation-international-shipping</loc>
     <changefreq>daily</changefreq>
     <priority>0.80</priority>
@@ -396,132 +371,6 @@
     <priority>0.70</priority>
 </url>
 <url>
-<loc>https://www.shoppre.com/international-courier-charges-india-to-usa-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.shoppre.com/international-courier-charges-india-to-uae-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.shoppre.com/international-courier-charges-india-to-canada-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-australia-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-singapore-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-germany-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-south-africa-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.79</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-japan-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-new-zealand-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-malaysia-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-switzerland-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-mauritius-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-qatar-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-denmark-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-mexico-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-sri-lanka-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-hong-kong-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-spain-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-brazil-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-philippines-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-belgium-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-finland-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-italy-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-saudi-arabia-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-    <loc>https://www.shoppre.com/international-courier-charges-india-to-nigeria-per-kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-</url>
-<url>
-
     <loc>https://www.shoppre.com/shipping-from-india-to-usa/las-vegas</loc>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>

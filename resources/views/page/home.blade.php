@@ -604,7 +604,7 @@
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Flipkart.com</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Flipkart BOSS</span> & Ship @Cheap-Cost Internationally.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Flipkart Sale</span> & Ship @Cheap-Cost Internationally.</p>
                         </div>
                         </div>
                         </a>
