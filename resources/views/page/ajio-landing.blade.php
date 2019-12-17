@@ -41,7 +41,7 @@
                 </div>
                 <div>
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <a href="/ajio-online-shopping" title="AJIO" target="_blank">👉 WEEKEND BINGE SALE (Min. 40% OFF) | Shop AJIO & Ship Worldwide with ShoppRe.</a>
+                        <a href="/ajio-online-shopping" title="AJIO" target="_blank">👉AN INDULGENT DECEMBER (Min. 40% OFF) | Shop AJIO & Ship Worldwide with ShoppRe.</a>
 
                     </marquee>
                 </div>
