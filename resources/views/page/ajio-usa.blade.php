@@ -122,7 +122,8 @@
                         <li>WEEKDAY THERAPY (Min. 40% Off) - (25th-27th) November 2019</li>
                         <li>PAYDAY SALE (40-80% Off) - (1st-4th) December 2019.</li>
                         <li>AJIO MANIA SALE (50-90% Off) - (5th-9th) December 2019.</li>
-                        <li><a href="/ajio-online-shopping" target="_blank">WEEKEND BINGE SALE (Min 40% Off) - (12th-16th) December 2019.</a></li>
+                        <li>WEEKEND BINGE SALE (Min 40% Off) - (12th-16th) December 2019.</li>
+                        <li><a href="/ajio-online-shopping" target="_blank">EPIC BLOWOUT SALE (Flat 55% OFF) - (19th-22nd) December 2019.</a></li>
                     </ul>
                 </div>
                 <br>

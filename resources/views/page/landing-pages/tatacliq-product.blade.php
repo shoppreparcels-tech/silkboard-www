@@ -137,7 +137,7 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">End Of Season Sale (25-80% Off)</span> /
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9"></span>
                         Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
 
@@ -161,10 +161,10 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.tatacliq.com/dark-blooms?&icid2=shopl:ofc:tmain:hmp:m01:mulb:best:02:R46:clp:bx:001" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16645509611550.jpg">
+                        <a href="https://www.tatacliq.com/the-party-starter?&icid2=week:ofc:tmain:hmp:m12:mulb:best:03:R27:clp:bx:100" target="_blank">
+                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16911996551198.jpg">
                             <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 45px !important;font-weight: normal">
-                            For HIM | For HER <br>
+                            For HIM <br>
                         </div>
                         </a>
                     </div>
@@ -172,8 +172,11 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.tatacliq.com/watches/c-msh15/page-1?q=%3Arelevance%3Acategory%3AMSH15%3Acategory%3AMSH15%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Agender%3AMen%3Astrapmaterial%3AGenuine+Leather&icid2=week:tsb:tmain:hmp:m15:mulb:best:04:R10:clp:bx:001" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16645511053342.jpg">
+                        <a href="https://www.tatacliq.com/a-hint-of-glam?&icid2=week:ofc:tmain:hmp:m01:mulb:best:04:R27:clp:bx:100" target="_blank">
+                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16911996420126.jpg">
+                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 45px !important;font-weight: normal">
+                                For HER <br>
+                            </div>
                         </a>
                     </div>
                 </div>

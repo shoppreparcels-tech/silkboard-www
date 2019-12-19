@@ -123,8 +123,8 @@
     <section>
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉AN INDULGENT DECEMBER </a> |
-                <a href="/myntra-online-shopping" title="clia" target="_blank">2. Myntra.com 👉CUZ IT'S COLD </a> |
+                <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉EPIC BLOWOUT SALE </a> |
+                <a href="/myntra-online-shopping" title="clia" target="_blank">2. Myntra.com 👉END OF REASON SALE </a> |
                 <a href="/flipkart-online-shopping" title="flipkart" target="_blank">3. Flipkart.com 👉YEAR END SALE</a> |
                 <a href="/amazon-online-shopping" title="amazon" target="_blank">4. Amazon.in 👉WARDROBE REFRESH SALE</a>
             </marquee>
