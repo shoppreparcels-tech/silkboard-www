@@ -114,7 +114,7 @@
             <div class="row">
                 <div class="">
                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">👉 <a
-                                href="https://amzn.clnk.in/etu" target="_blank">WARDROBE REFRESH SALE</a> (15th - 19th DEC)</span> /
+                                href="https://www.amazon.in/b?node=14311960031&pf_rd_p=bb50f3aa-98bf-40e9-8de1-e7ebdb809949&pf_rd_r=9R2JZVMBPYGC3X0CYBWJ" target="_blank">END OF SEASON SALE</a> (FOOTWEAR - Under ₹599)</span> /
                         Below are the Recommended & Recently Shipped Products!</h2>
 {{--                    <span class="f-s-25 f-c-red f-w-9">Big Bag Days (25-31 Oct)</span>--}}
                 </div>
