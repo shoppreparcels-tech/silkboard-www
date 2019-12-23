@@ -106,8 +106,8 @@
 }
 
 .c-f-p {
-    padding-left: 5%;
-    padding-right: 5%
+    padding-left: 5% !important;
+    padding-right: 5% !important;
 }
 
 .nav-bar-b-pad {

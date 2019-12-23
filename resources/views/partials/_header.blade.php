@@ -12,6 +12,7 @@
                 </button>
                 <div class="navbar-header-login">
                     <ul class="navbar-right">
+
                         @if (Auth::check())
                             <li>
                                 <a href="{{route('customer.locker')}}" id="btn_login">
@@ -32,7 +33,6 @@
                     <img  id="logo-mobile" src="{{env('AWS_CLOUD_FRONT')}}/img/logo94.png" alt="ShoppRe">
                 </a>
             </div>
-
             <div class="collapse navbar-collapse js-navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="dropdown mega-dropdown">
@@ -203,6 +203,18 @@
                     <li><a href="{{route('pricing')}}">Shipping Rates <sup class="p-color-red" style="font-size: 8px" id="offer">New</sup></a></li>
                     <li><a href="{{route('contact')}}" class="shoppre-support">Support</a></li>
                     <li><a href="/seller-partner" class="shoppre-partner">Seller Partner</a></li>
+                    @if (Request::route()->getName() !== 'home')
+                    <li class="search-nav-prev" style="padding-top: inherit; width: 180px;">
+                        <form class="calc-form" id="searchBarNavInner">
+                            <div class="search">
+                            <input type="text" class="border-radius-10" id="searchTextNavInner"  style="width: 100%; padding-left: 10px;" placeholder="Looking for?">
+                                <button type="submit" class="searchButton search-icon-header ">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </li>
+                    @endif
                     <li>
                         <div class="dropdown ddl-more-option">
                             <button class="dropbtn">More <span class="caret"></span></button>
@@ -242,6 +254,18 @@
                 </ul>
                 </div>
             </div><!-- /.nav-collapse -->
+            <div class="col-md-12 col-xs-12 col-lg-12 out-of-nav no-in-ipad" style="display: none">
+                <div style="padding-top: inherit;" >
+                    <form class="calc-form" id="searchBarNavOuter">
+                        <div class="search">
+                            <input type="text" class="border-radius-10" id="searchTextNavOuter"  style="width: 100%; padding-left: 10px;" placeholder="What are you looking for ?">
+                            <button type="submit" class="searchButton search-icon-header-hidden">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </nav>
     </div>
 </header>

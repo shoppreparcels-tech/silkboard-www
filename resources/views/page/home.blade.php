@@ -435,8 +435,26 @@
             </div>
         </div>
 
-        <div class="container-fluid c-f-p m-t-30 "><br><br>
+        <div class="container-fluid c-f-p m-t-30 homepage-search-mobile-hide show-in-ipad"><br><br>
             <div class="col-md-12 col-xs-12 pad-t-20">
+                <div class="col-md-6 col-xs-12 no-pad">
+                    <div class="col-md-12 col-xs-12 no-pad">
+                        <form class="calc-form" id="searchBarHome">
+                            <div class="search">
+                                <input type="text" class="searchTerm border-radius-10" id="searchTextBoxHome"  placeholder="Search for Myntra Shipping, Shopping Assistant, Courier Rates & more">
+                                <button type="submit" class="searchButton search-icon-home" >
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid c-f-p  "><br><br>
+            <div class="col-md-12 col-xs-12 ">
                 <div class="col-md-6 col-xs-12 no-pad">
                     <div class="col-md-12 col-xs-12 no-pad">
                         <div class="col-md-2 col-xs-2 pad-t-20">
@@ -497,18 +515,18 @@
                             </a>
                         </div>
                     </div>
-                    <center>
-                        <form class="calc-form" id="searchKey">
-                        <div class="">
-                            <div class="search">
-                                <input type="text" class="searchTerm" id="searchText" placeholder="What are you looking for?">
-                                <button type="submit" class="searchButton" >
-                                    <i class="fa fa-search"></i>
-                                </button>
-                            </div>
-                        </div>
-                        </form>
-                    </center>
+{{--                    <center>--}}
+{{--                        <form class="calc-form" id="searchKey">--}}
+{{--                        <div class="">--}}
+{{--                            <div class="search">--}}
+{{--                                <input type="text" class="searchTerm" id="searchText" placeholder="What are you looking for?">--}}
+{{--                                <button type="submit" class="searchButton" >--}}
+{{--                                    <i class="fa fa-search"></i>--}}
+{{--                                </button>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        </form>--}}
+{{--                    </center>--}}
                     {{--                    <div>--}}
 {{--                    <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">--}}
 {{--                        <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>--}}
@@ -657,7 +675,7 @@
                         <div class="des-div-rakhi text-center"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Flat 55% OFF</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">19th - 22nd Dec</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">19th - 25th Dec</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">AJIO.com</span></p>
                             <br>
@@ -1545,27 +1563,27 @@
         //     console.log('Redirect to home page');
         // })
 
-        $("#searchKey").validate({
-            submitHandler: function (form) {
-                debugger;
-                var q = $("input[id='searchText']").val();
-                // window.location.href = 'https://www.google.com/search?q='+q;
-
-                var queryParams = 'data='+q;
-
-                $.ajax({
-                    type: 'POST',
-                    url: '/customer-search',
-                    data: {
-                        data: q,
-                    },
-                    success: function () {
-                        var url = 'https://www.google.com/search?q=shoppre '+q;
-                        window.open(url, '_blank');
-                    }
-                });
-            }
-        });
+        // $(".searchBar").validate({
+        //     submitHandler: function (form) {
+        //         debugger;
+        //         var q = $("input[id='searchText']").val();
+        //         // window.location.href = 'https://www.google.com/search?q='+q;
+        //
+        //         var queryParams = 'data='+q;
+        //
+        //         $.ajax({
+        //             type: 'POST',
+        //             url: '/customer-search',
+        //             data: {
+        //                 data: q,
+        //             },
+        //             success: function () {
+        //                 var url = 'https://www.google.com/search?q=shoppre '+q;
+        //                 window.open(url, '_blank');
+        //             }
+        //         });
+        //     }
+        // });
        </script>
 
 @endsection

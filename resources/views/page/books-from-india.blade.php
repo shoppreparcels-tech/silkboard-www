@@ -16,7 +16,7 @@
             .heading-hide{
                 display: none !important;
             }
-            .heading-mobile{
+            .hide-desktop{
                 display: block !important;
             }
         }
@@ -82,7 +82,7 @@
 
             <div class="row">
                 <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align heading-mobile" style="display: none;">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
                         1. The Alchemist - by Paulo Coelho
                     </h2>
                     <div class="onam-prod-pic p-b-26">
@@ -145,7 +145,7 @@
 
             <div class="row">
                 <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align heading-mobile" style="display: none;">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
                         2. The Power of Your Subconscious Mind - by Joseph Murphy
                     </h2>
                     <div class="onam-prod-pic p-b-26">
@@ -209,7 +209,7 @@
 
             <div class="row">
                 <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align heading-mobile" style="display: none;">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
                         3. Amar Chitra Katha - Ultimate Collection
                     </h2>
                     <div class="onam-prod-pic p-b-26">
@@ -270,7 +270,7 @@
 
             <div class="row">
                 <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align heading-mobile" style="display: none;">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
                         4. Zero to One: Note on Start Ups, or How to Build the Future - by Peter Thiel
                     </h2>
                     <div class="onam-prod-pic p-b-26">
@@ -323,7 +323,7 @@
 
             <div class="row">
                 <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align heading-mobile" style="display: none;">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
                         5. Shoe Dog  - Phil Knight - A memoir by the creator of Nike
                     </h2>
                     <div class="onam-prod-pic p-b-26">
@@ -390,7 +390,7 @@
 
             <div class="row">
                 <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align heading-mobile" style="display: none;">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
                         6. Educated - by Tara Westover
                     </h2>
                     <div class="onam-prod-pic p-b-26">
@@ -456,7 +456,7 @@
 
             <div class="row">
                 <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align heading-mobile" style="display: none;">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
                         7. The Pillars of the Earth - by Ken Follett
                     </h2>
                     <div class="onam-prod-pic p-b-26">
@@ -522,7 +522,7 @@
 
             <div class="row">
                 <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align heading-mobile" style="display: none;">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
                         8. Attitude is Everything - by Jeff Keller
                     </h2>
                     <div class="onam-prod-pic p-b-26">
@@ -579,7 +579,7 @@
 
             <div class="row">
                 <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align heading-mobile" style="display: none;">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
                         9. The Subtle Art of Not Giving a F*ck - by Mark Manson
                     </h2>
                     <div class="onam-prod-pic p-b-26">
@@ -636,7 +636,7 @@
 
             <div class="row">
                 <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align heading-mobile" style="display: none;">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
                         10. The Monk Who Sold his Ferrari - by Robin Sharma
                     </h2>
                     <div class="onam-prod-pic p-b-26">

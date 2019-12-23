@@ -128,6 +128,12 @@
     </div>
 </div>
 
+<!-- This div is required for mobile view -->
+<div class="show-mobile" style="margin-top: 10%; display: none;">
+    <h4 >
+    </h4>
+</div>
+
 @yield('content')
 
 @include('partials._footer')
@@ -322,7 +328,85 @@
 
     $(document).ready(function () {
 
-    $("#subscribe_mail_train").validate({
+        // $(".searchBar").validate({
+        //     submitHandler: function (form) {
+        //         debugger;
+        //         var q = $(".searchText").val();
+        //
+        //         debugger;
+        //         // window.location.href = 'https://www.google.com/search?q='+q;
+        //
+        //         var queryParams = 'data='+q;
+        //
+        //         $.ajax({
+        //             type: 'POST',
+        //             url: '/customer-search',
+        //             data: {
+        //                 data: q,
+        //             },
+        //             success: function () {
+        //                 var url = 'https://www.google.com/search?q=shoppre '+q;
+        //                 window.open(url, '_blank');
+        //             }
+        //         });
+        //     }
+        // });
+
+        $("#searchBarHome").validate({
+            submitHandler: function (form) {
+                var q = $("#searchTextBoxHome").val();
+// window.location.href = 'https://www.google.com/search?q='+q;
+
+                var queryParams = 'data='+q;
+
+                searchSave(q);
+            }
+        });
+
+        $("#searchBarNavOuter").validate({
+            submitHandler: function (form) {
+                var q = $("#searchTextNavOuter").val();
+
+
+// window.location.href = 'https://www.google.com/search?q='+q;
+
+                var queryParams = 'data='+q;
+
+                searchSave(q);
+            }
+        });
+
+
+        $("#searchBarNavInner").validate({
+            submitHandler: function (form) {
+
+                var q = $("#searchTextNavInner").val();
+
+
+// window.location.href = 'https://www.google.com/search?q='+q;
+
+                var queryParams = 'data='+q;
+
+                searchSave(q);
+            }
+        });
+
+        function searchSave(q) {
+            $.ajax({
+                type: 'POST',
+                url: '/customer-search',
+                data: {
+                    data: q,
+                },
+                success: function (res) {
+                    var url = 'https://www.google.com/search?q=shoppre '+q;
+                    window.open(url, '_blank');
+                }
+            });
+        }
+
+
+        $("#subscribe_mail_train").validate({
                 rules:
                     {
                         email: {required: true}

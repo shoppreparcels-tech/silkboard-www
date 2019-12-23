@@ -625,6 +625,52 @@ header::after {
     color: #677582
 }
 
+.border-radius-10{
+    border-radius: 10px;
+}
+
+.search-icon-header{
+    position:absolute;
+    right: 6px;
+    top: 0px;
+    border:none;
+    height: 0px;
+    width:20px;
+    border-radius:100%;
+    outline:none;
+    text-align:center;
+    font-weight:bold;
+    padding:0px;
+}
+.search-icon-header-hidden{
+    position:absolute;
+    right: 23px;
+    top: -1px;
+    border:none;
+    height: 0px;
+    width:20px;
+    border-radius:100%;
+    outline:none;
+    text-align:center;
+    font-weight:bold;
+    padding:0px;
+}
+
+.search-icon-home{
+    position:absolute;
+    right: 8px;
+    top: 1px;
+    border:none;
+    height:20px;
+    width:20px;
+    border-radius:100%;
+    outline:none;
+    text-align:center;
+    font-weight:bold;
+    padding:0px;
+    font-size: 22px;
+}
+
 .p-color-blue {
     color: #507dbc
 }
@@ -5715,6 +5761,8 @@ stroes-ul li a:hover {
     }
 }
 
+
+
 @media only screen and (max-width:736px) {
     #header-ul {
         display: none
@@ -8236,5 +8284,53 @@ stroes-ul li a:hover {
     .diwali-form-img {
         padding-right: 0;
         padding-left: 0
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .show-mobile{
+        display: block !important;
+    }
+    .homepage-search-mobile-hide{
+        display: none !important;
+    }
+    .out-of-nav{
+        display: block !important;
+    }
+    .search-nav-prev {
+        display: none !important;
+    }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    .show-mobile{
+        display: block !important;
+        margin-top: 7% !important;
+    }
+    .out-of-nav {
+        display: block ;
+    }
+    .search-nav-prev {
+        display: none !important;
+    }
+    .no-in-ipad{
+        display: none !important;
+    }
+}
+
+
+@media only screen
+and (device-width : 375px)
+and (device-height : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+    .show-mobile{
+        display: block !important;
+
+    }
+    .search-nav-prev {
+        display: none !important;
     }
 }

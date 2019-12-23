@@ -999,6 +999,10 @@ class PageController extends Controller
 //        print json_encode('hi');exit;
         return view('page.offers-new');
     }
+    public function shoppreFaq()
+    {
+        return view('page.shoppre-faq');
+    }
 
     public function pricing1()
     {
@@ -2548,8 +2552,10 @@ class PageController extends Controller
 
     public function searchCreate(Request $request)
     {
+        $customerId = Auth::id();
         $customerSearch = new CustomerSearch;
         $customerSearch->data = $request->data;
+        $customerSearch->customer_id = $customerId;
         $customerSearch->save();
         return response()->json(['message'=>$request->data]);
     }
