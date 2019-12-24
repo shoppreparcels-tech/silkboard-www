@@ -149,7 +149,7 @@
 {{--                                        <a class="mega-menu-hyperlinks" href="{{route('schedulePickup.Index')}}">--}}
 {{--                                            Schedule a Pickup--}}
 {{--                                        </a>--}}
-{{--                                    </div>--}}
+                                    </div>
                                     <div class="mega-menu-international">
 
                                         {{--<a href="#" style="padding-left: 0px; margin-top: 20px">--}}
@@ -160,7 +160,6 @@
                                         <a id="btn-service-schedule-pickup" href="{{route('schedulePickup.Index')}}" class="mega-menu-hyperlinks">Schedule a Pickup
                                         </a>
                                     </div>
-
                                 </ul>
                             </li>
                             <li class="col-sm-3">

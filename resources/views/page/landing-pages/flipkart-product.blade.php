@@ -139,7 +139,7 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">YEAR END SALE (21st - 23rd Dec 2019)</span> /
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">FAVE FASHION BRANDS (40-70% Off)</span> /
                         Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
                 {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}

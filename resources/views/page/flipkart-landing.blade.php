@@ -50,7 +50,7 @@
             <div class="row">
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - DECEMBER 2019 SALE
-                        <br> [ 👉 <a href="https://clnk.in/j7fY" target="_blank">YEAR END SALE</a> 21st - 23rd DEC]</h2>
+                        <br> [ 👉 <a href="https://clnk.in/jMP7" target="_blank">FAVE FASHION BRANDS</a> 40-70% Off]</h2>
                 </div>
             </div>
             <div class="row text-center">

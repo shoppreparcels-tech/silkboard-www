@@ -1,5 +1,10 @@
 
 /* Dropdown Button */
+.c-f-p {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
 .dropbtn {
     background-color: #11273b!important;
     padding: 9px;
