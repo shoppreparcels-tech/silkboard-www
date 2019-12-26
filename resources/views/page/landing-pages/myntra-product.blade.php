@@ -387,7 +387,7 @@
             </div>
 
             <div class="row text-center">
-                <p class="f-s-20"><span class="f-c-red f-w-9">END OF REASON SALE (22nd - 25th DEC) <a href="https://clnk.in/j7gj" target="_blank">
+                <p class="f-s-20"><span class="f-c-red f-w-9">Holiday Hangover Sale (24 Hours Only!) <a href="https://www.myntra.com/" target="_blank">
                             👉 (50-80% OFF)</a></span></p>
                 <br>
                     <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Myntra Women's Fashion</h2>
