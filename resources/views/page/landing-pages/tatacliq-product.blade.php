@@ -137,8 +137,9 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9"></span>
-                        Below are the Recommended & Recently Shipped Products!</h2>
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9"><a
+                                href="https://www.tatacliq.com/end-of-season-sale?&icid2=eoss:boc:tmain:hmp:m00:mulb:best:01:R18:them:Bx:001" target="_blank">End Of Season Sale - Up To 75% OFF</a></span>
+                        / Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
 
             </div>
@@ -161,10 +162,10 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.tatacliq.com/the-party-starter?&icid2=week:ofc:tmain:hmp:m12:mulb:best:03:R27:clp:bx:100" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16911996551198.jpg">
+                        <a href="https://www.tatacliq.com/time-to-party?&icid2=week:ofc:tmain:hmp:m01:mulb:best:01:R39:clp:bx:100" target="_blank">
+                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16957910089758.jpg">
                             <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 45px !important;font-weight: normal">
-                            For HIM <br>
+                            For Party <br>
                         </div>
                         </a>
                     </div>
@@ -172,10 +173,10 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.tatacliq.com/a-hint-of-glam?&icid2=week:ofc:tmain:hmp:m01:mulb:best:04:R27:clp:bx:100" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16911996420126.jpg">
+                        <a href="https://www.tatacliq.com/women-dresses?&icid2=week:ofc:tmain:hmp:m01:mulb:best:02:R39:clp:bx:100" target="_blank">
+                            <img class="img-product m-t-img" src="https://assets.tatacliq.com/medias/sys_master/managed/16957909958686.jpg">
                             <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 45px !important;font-weight: normal">
-                                For HER <br>
+                                Festive <br>
                             </div>
                         </a>
                     </div>
@@ -677,7 +678,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-7338208403" class="header2 p-color-white">+91 73382 08403</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 
@@ -722,7 +723,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-7338208403" class="header2 p-color-white">+91 73382 08403</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 

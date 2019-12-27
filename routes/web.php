@@ -7,7 +7,8 @@ Route::get('/clear-cache', function() {
     $exitCode = Artisan::call('cache:clear');
     // return what you want
 });
-
+Route::get('/access/oauth', 'Myaccount\Admin\LoginController@loginWithShoppre')->name('shoppre.login');
+Route::get('/generate/virtualCode', 'Myaccount\Admin\LoginController@generateVirtualCode')->name('shoppre.generateVirtualCode');
 
 Route::prefix('admin')->group(function(){
     /*---- Admin Login -------*/

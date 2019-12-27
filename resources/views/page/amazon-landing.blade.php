@@ -63,9 +63,9 @@
 
                     <div class="shopandship ">
                         <a href="/amazon-online-shopping" target="_blank">
-                        <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">END OF SEASON SALE</h2>
+                        <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">WONDER WOMEN FEST</h2>
                         <br/>
-                        <p>The Christmas Special - 70% OFF</p><br>
+                        <p>Up To 70% OFF</p><br>
                         <p>👉 Explore More</p>
                         </a>
                     </div>

@@ -77,9 +77,9 @@
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                             <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉BIG BAG DAYS </a> |
-                            <a href="/myntra-online-shopping" title="clia" target="_blank">2. Myntra.com 👉Holiday Hangover Sale </a> |
-                            <a href="/flipkart-online-shopping" title="flipkart" target="_blank">3. Flipkart.com 👉FAVE FASHION BRANDS</a> |
-                            <a href="/amazon-online-shopping" title="amazon" target="_blank">4. Amazon.in 👉THE CHRISTMAS SPECIAL</a>
+                            <a href="/myntra-online-shopping" title="clia" target="_blank">2. Myntra.com 👉ETHNIC STYLES </a> |
+{{--                            <a href="/flipkart-online-shopping" title="flipkart" target="_blank">3. Flipkart.com 👉FAVE FASHION BRANDS</a> |--}}
+                            <a href="/amazon-online-shopping" title="amazon" target="_blank">3. Amazon.in 👉WONDER WOMEN FEST</a>
                         </marquee>
                     </div>
                     <center>

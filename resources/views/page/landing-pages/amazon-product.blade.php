@@ -114,7 +114,7 @@
             <div class="row">
                 <div class="">
                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">👉 <a
-                                href="https://amzn.clnk.in/fZZ" target="_blank">The Christmas Special</a> (Up To 70% OFF)</span> /
+                                href="https://www.amazon.in/b?node=18238166031" target="_blank">WONDER WOMEN FEST</a> (Up To 70% OFF)</span> /
                         Below are the Recommended & Recently Shipped Products!</h2>
 {{--                    <span class="f-s-25 f-c-red f-w-9">Big Bag Days (25-31 Oct)</span>--}}
                 </div>

@@ -20,6 +20,67 @@ class Authorization
         $this->data = $request;
     }
 
+    public static function codeToToken($auth_code) {
+        $url = env('MIGRATION_PREFIX') . "login.".env('DOMAIN')."/oauth/token";
+
+        $curl = curl_init();
+
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "POST",
+            CURLOPT_POSTFIELDS => "code=".$auth_code,
+            CURLOPT_HTTPHEADER => array(
+                "content-type: application/x-www-form-urlencoded",
+            ),
+        ));
+
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+        curl_close($curl);
+
+        if ($err) {
+            echo "cURL Error #:" . $err;
+        } else {
+
+            return json_decode($response);
+        }
+    }
+
+    public static function tokenToUserInfo($access_token) {
+        $url = env('MIGRATION_PREFIX') . "login.".env('DOMAIN')."/api/users/me?access_token=".$access_token;
+
+        $curl = curl_init();
+
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "GET",
+            CURLOPT_HTTPHEADER => array(
+                "content-type: application/json",
+            ),
+        ));
+
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+        curl_close($curl);
+
+        if ($err) {
+            echo "cURL Error #:" . $err;
+        } else {
+
+            return json_decode($response);
+        }
+    }
+
     public static function authorizeUser($email)
     {
         $OPS =  2;
@@ -60,6 +121,7 @@ class Authorization
             return $response;
         }
     }
+
     public static function authorizeCourierUser($email)
     {
         $Courier =  6;
@@ -228,5 +290,32 @@ class Authorization
         } else {
             return $httpcode;
         }
+    }
+
+    public static function fetchUser($id, $token)
+    {
+        $curl = curl_init();
+//        $data_string = [
+//            'id' => $id,
+//        ];
+//        $url = env('MIGRATION_PREFIX')."login.".env('DOMAIN')."/api/users/me/fetch";
+        $url = env('MIGRATION_PREFIX') . "login.".env('DOMAIN')."/api/users/me/fetch?access_token=".$token.'&customer_id='.$id;
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "GET",
+            CURLOPT_HTTPHEADER => array(
+                "content-type: application/json",
+            ),
+        ));
+
+        $response = curl_exec($curl);
+
+        curl_close($curl);
+        return $response;
     }
 }

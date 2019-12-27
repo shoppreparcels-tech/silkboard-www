@@ -149,10 +149,9 @@
             </div>
             <div class="col-md-6 col-xs-12 "><br>
                 <br>
-                <a href="https://www.shopprecouriers.com/christmas-offer" target="_blank">
-{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/schedule-pickup-courier-from-india-shoppre.png"--}}
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-2019-offer-ccrs.png"
-                         alt="shoppre offer" title="Click Here" class="img-responsive">
+                <a href="https://www.shopprecouriers.com/first-time-international-courier-offer" target="_blank">
+                    <img src="https://www.shopprecouriers.com/img/images/international-courier-offer.png"
+                         alt="couier offer" title="Click Here" class="img-responsive">
                 </a>
             </div>
         </div>

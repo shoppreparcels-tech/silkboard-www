@@ -70,13 +70,13 @@
 {{--                                </a>--}}
 {{--                            </div>--}}
 {{--                        </div>--}}
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="/christmas-offer" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-2019.png" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
+{{--                        <div class="item">--}}
+{{--                            <div class="pad15">--}}
+{{--                                <a href="/christmas-offer" target="_blank">--}}
+{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-2019.png" class="boxofScroll"/>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                         <div class="item">
                             <div class="pad15">
                                 <a href="/first-time-international-shipment-offer" target="_blank">
@@ -91,14 +91,13 @@
                                 </a>
                             </div>
                         </div>
-
-{{--                        <div class="item">--}}
-{{--                            <div class="pad15">--}}
-{{--                                <a href="/shop-ship" target="_blank">--}}
-{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>--}}
-{{--                                </a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="/shop-ship" target="_blank">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
                         <div class="item">
                             <div class="pad15">
                                 <a href="/university-offer" target="_blank">
@@ -120,8 +119,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">FAVE FASHION BRANDS</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">WINTER WEAR</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 70% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
@@ -189,8 +188,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Holiday Hangover Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-80% OFF</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">ETHNIC STYLES</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Min. 50% OFF</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">
@@ -204,7 +203,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Amazon Fashion</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">WONDER WOMEN FEST</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up to 70% Off</h5>
 {{--                            <div class="ecomSmallBox" style="height: 94px;">--}}
                             <div class="ecomSmallBox">
