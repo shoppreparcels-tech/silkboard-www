@@ -8,11 +8,11 @@
       <div class="container">
         <h2>Refer A Friend - Get *Free International Shipping on Your Next Shipment.</h2>
         <div class="content">
-          <img src="{{asset('img/refferafriend.jpg')}}" width="100%">
+          <img src="{{asset('img/images/refer-now-and-earn-india.png')}}" width="100%">
           <div class="reffer_form">
             <form class="form-horizontal" method="post" id="reffer_friend">
             	{{csrf_field()}}
-				<h4>Invite people to <strong>ShoppRe.com </strong> by Sharing your personal referral link:</h4>
+				<h4>Invite people to <strong>ShoppRe.com </strong> by Sharing your Personal Referral Link:</h4>
 				<div class="input-group">
 					<div class="input-group-addon"><i class="fa fa-link"></i></div>
 					<input type="text" class="form-control friend_email" id="txt_referrer_url"
@@ -49,7 +49,7 @@
 					<li>Your earnings through referral will be credited to your ShoppRe Wallet</li>
 					<li>How ShoppRe Loyalty Points Works? - <a href="/loyalty-points">Click Here</a></li>
 				</ul>
-				<p>For any queries contact us at <a href="tel:+91-8277919191">+91-8277919191</a> or Live <a href="http://v2.zopim.com/widget/livechat.html?key=WMWUM4as7ltiMKHbRXiFRw3imdMiLtAV" target="_blank">Chat With Us</a></p>
+				<p>For any queries contact us at <a href="tel:+91-8277919191">+91-8277919191</a> or Live <a href="https://tawk.to/chat/58dab24ff97dd14875f5a8a9/default" target="_blank">Chat With Us</a></p>
             </form>
             <div class="clearfix"></div>
             <div class="ajaxloader"></div>

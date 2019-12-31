@@ -49,8 +49,8 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - DECEMBER 2019 SALE
-                        <br> [ 👉 <a href="https://clnk.in/jMP7" target="_blank">FAVE FASHION BRANDS</a> 40-70% Off]</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - JAN 2020 SALE
+                        <br> [ 👉 <a href="https://clnk.in/kbnS" target="_blank">FLIPSTART DAYS</a> 30-75% Off]</h2>
                 </div>
             </div>
             <div class="row text-center">
@@ -98,11 +98,11 @@
                                     <div itemscope="" itemtype="http://data-vocabulary.org/Review-aggregate">
                                         <span itemprop="itemreviewed">Flipkart International Shipping with ShoppRe.com</span>
                                         <span itemprop="rating" itemscope="" itemtype="http://data-vocabulary.org/Rating">
-                                         <span itemprop="average">4.5</span> out of <span itemprop="best">5</span></span> based on <span itemprop="votes">3700</span> ratings.
+                                         <span itemprop="average">4.5</span> out of <span itemprop="best">5</span></span> based on <span itemprop="votes">3900</span> ratings.
                                     </div>
 
                                     <p class="p-name" style="font-size: 18px"> <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 100px;"> <br></p>
-                                    <p class="p-name" style="font-size: 18px; color: #1a0dab">Total Products Shipped from Flipkart: +5600 </p>
+                                    <p class="p-name" style="font-size: 18px; color: #1a0dab">Total Products Shipped from Flipkart: +5800 </p>
 
                         </center>
                     </div>

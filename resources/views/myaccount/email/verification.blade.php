@@ -11,9 +11,9 @@
    <tr>
       <td valign="middle">
          <p>Hi <span><a target="_blank" href="mailto:{{$email}}">{{$name}}</a>!</span></p>
-         <p>Greetings from Shoppre!</p>
+         <p>Greetings from ShoppRe!</p>
          <br>
-         <p>You have recently registered with Shoppre using this email address.</p>
+         <p>You have recently registered with ShoppRe using this email address.</p>
          <p>We are glad to have you as a registered user. In order to complete the account setup,
             we request you to activate your newly created user account.
          </p>

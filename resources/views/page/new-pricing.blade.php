@@ -644,8 +644,8 @@
                                         </td>
                                         <td>
                                             <h6 class="f-s-16 f-c-blue">0 - 5 kg = ₹100</h6>
-                                            <h6 class="f-s-16 f-c-blue">0 - 10 kg = ₹300</h6>
-                                            <h6 class="f-s-16 f-c-blue">0 - 40 kg = ₹500</h6>
+                                            <h6 class="f-s-16 f-c-blue">5.5 - 10 kg = ₹300</h6>
+                                            <h6 class="f-s-16 f-c-blue">10.5 - 40 kg = ₹500</h6>
                                             <h6 class="f-s-16 f-c-blue">Above 40 kg = ₹800</h6>
 
                                         </td>
@@ -683,11 +683,11 @@
                                             </h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-blue">Within 3 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-blue">4 to 10 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-blue">11 to 15 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-blue">Above 15 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-blue">Opted for taking back the Shipment = FREE</h6>
+                                            <h6 class="f-s-16 f-c-blue">FREE</h6>
+{{--                                            <h6 class="f-s-16 f-c-blue">4 to 10 Days = FREE</h6>--}}
+{{--                                            <h6 class="f-s-16 f-c-blue">11 to 15 Days = FREE</h6>--}}
+{{--                                            <h6 class="f-s-16 f-c-blue">Above 15 Days = FREE</h6>--}}
+{{--                                            <h6 class="f-s-16 f-c-blue">Opted for taking back the Shipment = FREE</h6>--}}
                                         </td>
                                         <td>
                                             <h6 class="f-s-16 f-c-gray">Within 3 Days = FREE</h6>
@@ -759,15 +759,15 @@
                                         </td>
                                         <td>
                                             <h6 class="f-s-16 f-c-blue">0.5 - 5 Kg -> ₹1400 </h6>
-                                            <h6 class="f-s-16 f-c-blue">5 - 10 Kg -> ₹3100</h6>
-                                            <h6 class="f-s-16 f-c-blue">10 - 15 Kg -> ₹5400</h6>
+                                            <h6 class="f-s-16 f-c-blue">5.5 - 10 Kg -> ₹3100</h6>
+                                            <h6 class="f-s-16 f-c-blue">10.5 - 15 Kg -> ₹5400</h6>
                                             <h6 class="f-s-16 f-c-blue">Above 15 Kg -> ₹7800</h6>
                                             <span class="f-s-12 f-c-blue">*Weight in Kg per shipment</span>
                                         </td>
                                         <td>
                                             <h6 class="f-s-16 f-c-l-gray">0.5 - 5 Kg -> ₹1400 </h6>
-                                            <h6 class="f-s-16 f-c-l-gray">5 - 10 Kg -> ₹3100</h6>
-                                            <h6 class="f-s-16 f-c-l-gray">10 - 15 Kg -> ₹5400</h6>
+                                            <h6 class="f-s-16 f-c-l-gray">5.5 - 10 Kg -> ₹3100</h6>
+                                            <h6 class="f-s-16 f-c-l-gray">10.5 - 15 Kg -> ₹5400</h6>
                                             <h6 class="f-s-16 f-c-l-gray">Above 15 Kg -> ₹7800</h6>
                                             <span class="f-s-12 f-c-l-gray">*Weight in Kg per shipment</span>
                                         </td>
@@ -793,15 +793,15 @@
                                         </td>
                                         <td>
                                             <h6 class="f-s-16 f-c-blue">0.5 - 5 Kg -> ₹3100 </h6>
-                                            <h6 class="f-s-16 f-c-blue">5 - 10 Kg -> ₹5400</h6>
-                                            <h6 class="f-s-16 f-c-blue">10 - 15 Kg -> ₹7800</h6>
+                                            <h6 class="f-s-16 f-c-blue">5.5 - 10 Kg -> ₹5400</h6>
+                                            <h6 class="f-s-16 f-c-blue">10.5 - 15 Kg -> ₹7800</h6>
                                             <h6 class="f-s-16 f-c-blue">Above 15 Kg -> ₹9999</h6>
                                             <span class="f-s-12 f-c-blue">*Weight in Kg per shipment</span>
                                         </td>
                                         <td>
                                             <h6 class="f-s-16 f-c-l-gray">0.5 - 5 Kg -> ₹3100 </h6>
-                                            <h6 class="f-s-16 f-c-l-gray">5 - 10 Kg -> ₹5400</h6>
-                                            <h6 class="f-s-16 f-c-l-gray">10 - 15 Kg -> ₹7800</h6>
+                                            <h6 class="f-s-16 f-c-l-gray">5.5 - 10 Kg -> ₹5400</h6>
+                                            <h6 class="f-s-16 f-c-l-gray">10.5 - 15 Kg -> ₹7800</h6>
                                             <h6 class="f-s-16 f-c-l-gray">Above 15 Kg -> ₹9999</h6>
                                             <span class="f-s-12 f-c-l-gray">*Weight in Kg per shipment</span>
                                         </td>
@@ -868,13 +868,13 @@
                                             </h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-blue"> Assisted Purchase(by ShoppRe) = 07% of the item value (Min ₹200)
-                                                <br>
+                                            <h6 class="f-s-16 f-c-blue"> Assisted Purchase(by ShoppRe) = 7% of the item value (Min ₹200)
+                                                <br><br>
                                                 Self Purchase(Cash on Delivery) = 10% of the item value (Min ₹200)</h6>
                                         </td>
                                         <td>
                                             <h6 class="f-s-16 f-c-l-gray">Assisted Purchase(by ShoppRe) = 07% of the item value (Min ₹200)
-                                                <br>
+                                                <br><br>
                                                 Self Purchase(Cash on Delivery) = 10% of the item value (Min ₹200)</h6>
                                         </td>
                                     </tr>
@@ -1019,8 +1019,8 @@
                                         </td>
                                         <td>
                                             <h6 class="f-s-16 f-c-blue">0 - 5 kg = ₹100</h6>
-                                            <h6 class="f-s-16 f-c-blue">0 - 10 kg = ₹300</h6>
-                                            <h6 class="f-s-16 f-c-blue">0 - 40 kg = ₹500</h6>
+                                            <h6 class="f-s-16 f-c-blue">5.5 - 10 kg = ₹300</h6>
+                                            <h6 class="f-s-16 f-c-blue">10.5 - 40 kg = ₹500</h6>
                                             <h6 class="f-s-16 f-c-blue">Above 40 kg = ₹800</h6>
 
                                         </td>
@@ -1058,11 +1058,11 @@
                                             </h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-blue">Within 3 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-blue">4 to 10 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-blue">11 to 15 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-blue">Above 15 Days = FREE</h6>
-                                            <h6 class="f-s-16 f-c-blue">Opted for taking back the Shipment = FREE</h6>
+                                            <h6 class="f-s-16 f-c-blue">FREE</h6>
+{{--                                            <h6 class="f-s-16 f-c-blue">4 to 10 Days = FREE</h6>--}}
+{{--                                            <h6 class="f-s-16 f-c-blue">11 to 15 Days = FREE</h6>--}}
+{{--                                            <h6 class="f-s-16 f-c-blue">Above 15 Days = FREE</h6>--}}
+{{--                                            <h6 class="f-s-16 f-c-blue">Opted for taking back the Shipment = FREE</h6>--}}
                                         </td>
                                         <td>
                                             <h6 class="f-s-16 f-c-gray">Within 3 Days = FREE</h6>
@@ -1158,15 +1158,15 @@
                                         </td>
                                         <td>
                                             <h6 class="f-s-16 f-c-blue">0.5 - 5 Kg -> ₹1392.4 </h6>
-                                            <h6 class="f-s-16 f-c-blue">5 - 10 Kg -> ₹3009</h6>
-                                            <h6 class="f-s-16 f-c-blue">10 - 15 Kg -> ₹5369</h6>
+                                            <h6 class="f-s-16 f-c-blue">5.5 - 10 Kg -> ₹3009</h6>
+                                            <h6 class="f-s-16 f-c-blue">10.5 - 15 Kg -> ₹5369</h6>
                                             <h6 class="f-s-16 f-c-blue">Above 15 Kg -> ₹7729</h6>
                                             <span class="f-s-12 f-c-blue">*Weight in Kg per shipment</span>
                                         </td>
                                         <td>
                                             <h6 class="f-s-16 f-c-l-gray">0.5 - 5 Kg -> ₹1392.4 </h6>
-                                            <h6 class="f-s-16 f-c-l-gray">5 - 10 Kg -> ₹3009</h6>
-                                            <h6 class="f-s-16 f-c-l-gray">10 - 15 Kg -> ₹5369</h6>
+                                            <h6 class="f-s-16 f-c-l-gray">5.5 - 10 Kg -> ₹3009</h6>
+                                            <h6 class="f-s-16 f-c-l-gray">10.5 - 15 Kg -> ₹5369</h6>
                                             <h6 class="f-s-16 f-c-l-gray">Above 15 Kg -> ₹7729</h6>
                                             <span class="f-s-12 f-c-l-gray">*Weight in Kg per shipment</span>
                                         </td>
@@ -1208,12 +1208,13 @@
                                             </h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-blue"> Assisted Purchase(by ShoppRe) = 07% of the item value (Min ₹200)
-                                                <br>
+                                            <h6 class="f-s-16 f-c-blue"> Assisted Purchase(by ShoppRe) = 7% of the item value (Min ₹200)
+                                                <br> <br>
                                                 Self Purchase(Cash on Delivery) = 10% of the item value (Min ₹200)</h6>
                                         </td>
                                         <td>
-                                            <h6 class="f-s-16 f-c-l-gray"> Assisted Purchase(by ShoppRe) = 07% of the item value (Min ₹200)<br>
+                                            <h6 class="f-s-16 f-c-l-gray"> Assisted Purchase(by ShoppRe) = 7% of the item value (Min ₹200)<br>
+                                                <br>
                                                 Self Purchase(Cash on Delivery) = 10% of the item value (Min ₹200)</h6>
                                         </td>
                                     </tr>

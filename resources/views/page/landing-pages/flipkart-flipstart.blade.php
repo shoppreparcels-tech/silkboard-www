@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', 'Flipkart FLIPSTART Days Shopping [1st - 3rd November 2019]')
+@section('title', 'Flipkart FLIPSTART Days Shopping [01st - 03rd Jan 2020]')
 @section('description', 'Learn the easy steps you can follow to avail Offers, tremendous discounts during Flipkart Flipstart Days and International shipping services from India.')
 @section('keywords', 'flipkart, flipstart days, online shopping, international shipping, offers, sale, deals, discounts')
 
@@ -33,7 +33,7 @@
 {{--               </div>--}}
 {{--           </div>--}}
            <div class="col-md-12 col-xs-12 text-center">
-               <h1 class="f-s-26 f-c-d-greay f-w-9">Flipkart Flipstart Day Sale: 1st November to 3rd November 2019</h1>
+               <h1 class="f-s-26 f-c-d-greay f-w-9">Flipkart Flipstart Day Sale: 01st - 03rd Jan 2020</h1>
            <a href="https://clnk.in/jVoR"
               target="_blank" class="btn btn-s-b btn-b-r">Visit Flipkart Flipstart Days</a>
            </div>
@@ -48,13 +48,13 @@
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                        class="startsValidValue"> 01st Nov 2019</span></p>
+                                        class="startsValidValue"> 01st JAN 2020</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                        class="startsValidValue"> 03rd Nov 2019</span></p>
+                                        class="startsValidValue"> 03rd JAN 2020</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
@@ -80,7 +80,7 @@
                 <br>
                                 <div class="row left-padder-20">
                                     <div class="col-md-6  border-1px">
-                                        <h1 class="f-s-22 f-c-blue f-w-9">Guide on Flipkart FLIPSTART Days Sale 2019</h1>
+                                        <h1 class="f-s-22 f-c-blue f-w-9">Guide on Flipkart FLIPSTART Days Sale 2020</h1>
                                         <ul>
                                             <li>
                                                 <h4><a href="#flipstart-sale">Flipkart Flipstart Day Sale: Flipstart Day Offers</a></h4>
@@ -277,7 +277,7 @@
                 <h1 class="f-s-26 f-c-blue f-w-9" id="flipstart-other">Other Offers during the Flipkart Flipstart day sale</h1>
                 <br>
                 <p class="header4 p-color-cement">Flipkart’s customers will get a second bite at the cherry with these additional benefits only available on
-                    Flipkart Flipstart Day Sale 2019. With the festive season in the immediate vicinity, everyone is equipped with their wish lists and what better
+                    Flipkart Flipstart Day Sale 2020. With the festive season in the immediate vicinity, everyone is equipped with their wish lists and what better
                     way to celebrate the beginning of jollification with a bit of shopping during this extravagant affair. So here are some of the EXTRA benefits that you can avail.
                 </p>  <br>
                 <p class="f-s-20 f-c-d-greay f-w-9">1. Fast Delivery</p>
@@ -309,7 +309,7 @@
                 <br>
                 <p class="header4 p-color-cement">To protect your phone from theft, accidental damage, breakdown, repair reimbursement, or liquid damage,
                     all you need to do is avail the complete mobile protection service on Flipkart. And the already sweet deal just became sweeter with the
-                    discounted price during the Flipkart Flipstart Days 2019 which makes it worth grabbing, so go get a new phone during the sale at a
+                    discounted price during the Flipkart Flipstart Days 2020 which makes it worth grabbing, so go get a new phone during the sale at a
                     lesser price than it is available anywhere else.
                 </p>
                 <br>
@@ -347,7 +347,7 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Freedom Sale"><span><a
                                         href="/amazon-india-freedom-sale-online-shopping-offers-on-fashion-mobile-phones-home-kitchen-appliances" target="_blank">Amazon.in Freedom Sale</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="amazon great"><span><a
-                                        href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">Amazon Great Indian Sale 2019</a></span></li>
+                                        href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">Amazon Great Indian Sale 2020</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="National Shopping Days"><span><a
                                         href="/flipkart-national-shopping-days-sale-big-freemdom-online-shopping-india" target="_blank">National Shopping Days</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Right To Fashion"><span> <a
@@ -359,7 +359,7 @@
                     <div class="panel ">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Rakhi"><span><a
-                                        href="https://ship.shoppre.com/best-smartphones-the-top-6-latest-mobile-phones-in-india-for-2019/" target="_blank">Best Smartphones 2019</a></span></li>
+                                        href="https://ship.shoppre.com/best-smartphones-the-top-6-latest-mobile-phones-in-india-for-2019/" target="_blank">Best Smartphones 2020</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Yoga Organic Clothing"><span><a
                                         href="https://ship.shoppre.com/products-on-sale-pure-organic-yoga-clothing-and-products-made-in-india/" target="_blank">Yoga Organic Clothing Sale</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a

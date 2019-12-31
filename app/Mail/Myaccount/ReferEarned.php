@@ -30,7 +30,7 @@ class ReferEarned extends Mailable
     {
         $from_mail = 'no-reply@cp.shoppre.com';
         $from_name = 'Shoppre';
-        $subject = 'Congratulations! You have earned Shoppre Loyalty Points';
+        $subject = 'Congratulations! You have earned ShoppRe Loyalty Points';
 
         return $this->view('myaccount.email.refer_earned')
                     ->from($from_mail, $from_name)

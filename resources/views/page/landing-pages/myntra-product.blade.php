@@ -387,8 +387,7 @@
             </div>
 
             <div class="row text-center">
-                <p class="f-s-20"><span class="f-c-red f-w-9">ETHNIC STYLES (Min. 50% Off) <a href="https://clnk.in/kaAa" target="_blank">
-                            </a></span></p>
+                <p class="f-s-20"><span class="f-c-red f-w-9"><a href="https://www.myntra.com/fusion-wear?rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0" target="_blank">Redefining Elegance(50-70% OFF) Women's Wear</a></span></p>
                 <br>
                     <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Myntra Women's Fashion</h2>
 
