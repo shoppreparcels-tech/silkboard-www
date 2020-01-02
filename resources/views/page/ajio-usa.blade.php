@@ -124,7 +124,8 @@
                         <li>AJIO MANIA SALE (50-90% Off) - (5th-9th) December 2019.</li>
                         <li>WEEKEND BINGE SALE (Min 40% Off) - (12th-16th) December 2019.</li>
                         <li>EPIC BLOWOUT SALE (Flat 55% OFF) - (19th-25th) December 2019.</li>
-                        <li><a href="/ajio-online-shopping" target="_blank">BIG BAG DAYS (40-80% OFF) - (25th Dec 2019 - 1st Jan 2020)</a></li>
+                        <li>BIG BAG DAYS (40-80% OFF) - (25th Dec 2019 - 1st Jan 2020)</li>
+                        <li><a href="/ajio-online-shopping" target="_blank">PAYDAY SALE (40-80% OFF) - (2nd Jan 2020 - 5th Jan 2020)</a></li>
                     </ul>
                 </div>
                 <br>

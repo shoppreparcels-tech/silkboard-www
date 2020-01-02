@@ -146,7 +146,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">December Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">January Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Upto 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/chumbak-online-shopping" target="_blank">
@@ -175,7 +175,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">BIG BAG DAYS</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">PAY DAY SALE</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-80% OFF</h5>
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping">

@@ -670,12 +670,12 @@
                         <a href="/ajio-online-shopping" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">BIG BAG DAYS</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">PAY DAY SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40-80% OFF</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">26th Dec - 1st Jan</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">2nd - 5th Jan</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">AJIO.com</span></p>
                             <br>
@@ -1410,7 +1410,6 @@
                                         href="https://ship.shoppre.com/8-gorgeously-elegant-sarees-for-every-occasion-to-flaunt-your-curves-craftsvilla-handpicked-for-you/" target="_blank">Sarees Online Shopping</a> </span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="rakhi"><span><a
                                         href="/send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank">Send Rakhi & Gifts 2020</a></span></li>
-
                         </ul>
                     </div>
                 </div>
@@ -1418,7 +1417,7 @@
                     <div class="panel ">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="new year"><span><a
-                                        href="/new-year-offer" target="_blank">New Year Offer</a></span></li>
+                                        href="https://www.shopprecouriers.com/first-time-international-courier-offer" target="_blank">Courier Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="shop ship"><span><a
                                         href="/shop-ship">Shop & Ship Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="student"><span><a
