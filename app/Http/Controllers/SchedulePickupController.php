@@ -208,8 +208,16 @@ class SchedulePickupController extends Controller
 
             $customer->locker = $code;
             $commnet = "New Sign up " . $email . "\n contact No: +" . $phone_code.$phone;
-//            AsanaTaskOperations::createTask($name, $commnet, "R");
 
+            $c = $this->signUpAPI($customer);
+
+            $customer->id = $c['response']->id;
+
+//            if ($c->code == 201)
+
+
+//            $customer->is_courier_migrated = 2;
+            // - Saving to PHP
             $customer->save();
 
             $contact = new CustomerContact;
@@ -238,16 +246,10 @@ class SchedulePickupController extends Controller
             $balance->amount = 0;
             $balance->save();
 
-//            Mail::to($customer->email)->bcc(['social.shoppre@gmail.com','vismaya.rk@shoppre.com'])
-//                ->send(new SignUpWelcomeMail($customer));  // Moved to the email verification
-
             $this->sendEmailVerification($email);
         }
-              $this->signUp($customer);
-        return $customer;
-//            $status = MailChimp::signUpSubscriber($name,$email);
 
-//            $status = $this->informMailtrain($customer);
+        return $customer;
     }
 
     public function sendEmailVerification($email)
@@ -264,71 +266,6 @@ class SchedulePickupController extends Controller
         $customer->where('email', $email)->update(['email_token' => $token]);
         return $token;
     }
-    public function signUp($customer)
-    {
-        $status = $this->signUpAPI($customer);
-//        $curl = curl_init();
-//        $name = $customer->name;
-//        $name = str_replace("Mr. ","",$name);
-//        $name = str_replace("Ms. ","",$name);
-//        $name = str_replace("Mrs. ","",$name);
-//        $splitName = explode(' ', $name, 3); // Restricts it to only 3 values, for names like Billy Bob Jones
-//
-//        $first_name = $splitName[0];
-//        $middle_name = !empty($splitName[1]) ? $splitName[1] : '';
-//        $last_name = !empty($splitName[2]) ? $splitName[2] : '';
-//        $data_string = [
-//            'id' => $customer->id,
-//            'salutation' => '',
-//            'first_name' => $first_name,
-//            'last_name' => $middle_name.' '.$last_name,
-//            'email' => $customer->email,
-//            'phone' => $customer->phone,
-//            'virtual_address_code' => $customer->locker,
-//            'hooks' => false
-//        ];
-//
-//        $url = env('MIGRATION_PREFIX') ."courier.".env('DOMAIN')."/api/users/public/register";
-//        curl_setopt_array($curl, array(
-//            CURLOPT_URL => $url,
-//            CURLOPT_RETURNTRANSFER => true,
-//            CURLOPT_HEADER  => true,
-//            CURLOPT_ENCODING => "",
-//            CURLOPT_MAXREDIRS => 10,
-//            CURLOPT_TIMEOUT => 30,
-//            CURLOPT_FOLLOWLOCATION => true,
-//            CURLOPT_AUTOREFERER    => true,
-//            CURLOPT_CONNECTTIMEOUT => 120,
-//            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-//            CURLOPT_CUSTOMREQUEST => "POST",
-//            CURLOPT_POSTFIELDS => json_encode($data_string),
-//            CURLOPT_HTTPHEADER => array(
-//                "cache-control: no-cache",
-//                "content-type: application/json",
-//                "postman-token: abea44b9-1858-235d-ef6d-a7d67e8130da"
-//            ),
-//        ));
-//
-//        $response = curl_exec($curl);
-//        $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
-//        $err = curl_error($curl);
-//
-//        curl_close($curl);
-//
-//        $customer = Customer::find($customer->id);
-//
-//        if ($httpcode == 201)
-//        {
-//            $customer->is_courier_migrated = 2;
-//            $customer->save();
-//        }
-//
-//        if ($err) {
-//            echo "cURL Error #:" . $err;
-//        } else {
-//            return $httpcode;
-//        }
-    }
 
     public function signUpAPI($user)
     {
@@ -339,7 +276,6 @@ class SchedulePickupController extends Controller
         $middle_name = !empty($splitName[1]) ? $splitName[1] : '';
         $last_name = !empty($splitName[2]) ? $splitName[2] : '';
         $data_string = [
-            'id' => $user->id,
             'salutation' => '',
             'first_name' => $first_name,
             'last_name' => $middle_name.' '.$last_name,
@@ -349,6 +285,7 @@ class SchedulePickupController extends Controller
             'hooks' => false,
             'domain' => 'courier',
         ];
+
         $url = env('MIGRATION_PREFIX') ."login.".env('DOMAIN')."/api/users/register";
         curl_setopt_array($curl, array(
             CURLOPT_URL => $url,
@@ -371,21 +308,20 @@ class SchedulePickupController extends Controller
         ));
 
         $response = curl_exec($curl);
+        $header_size = curl_getinfo($curl, CURLINFO_HEADER_SIZE);
+        $header = substr($response, 0, $header_size);
+        $body = substr($response, $header_size);
+
         $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
         $err = curl_error($curl);
         curl_close($curl);
 
-        if ($httpcode == 201)
-        {
-            $customer = Customer::find($user->id);
-            $customer->is_courier_migrated = 2;
-            $customer->save();
-        }
+
 
         if ($err) {
             echo "cURL Error #:" . $err;
         } else {
-            return $httpcode;
+            return [ 'response' => json_decode($body), 'code' => $httpcode ];
         }
     }
 
