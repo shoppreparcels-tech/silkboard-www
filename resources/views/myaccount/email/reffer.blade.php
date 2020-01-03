@@ -6,7 +6,7 @@
          <p>Greetings from ShoppRe.com!</p>
          <p>{{$customer}} referred you to <a href="{{route('home')}}">ShoppRe.com</a></p>
          <p>1. Now unlock your hinderance to shopping from unlimited websites from India.</p>
-          <p>Sending International Courier from India to Worldwide.</p>
+          <p>2. Sending International Courier from India to Worldwide.</p>
          <p><strong>Ship What You LOVE From INDIA</strong></p>
          <blockquote style="font-size: 18px;font-style: italic;">{{$friendmsg}}</blockquote>
          <p>Simply Sign-up with the Referral Code below and Earn.</p>

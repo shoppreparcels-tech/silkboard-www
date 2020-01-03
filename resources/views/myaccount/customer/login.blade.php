@@ -85,7 +85,7 @@
             <button type="submit" class="btn btn-s-r btn-b-r btn-l">Sign In</button>
           </center>
         </div>
-
+            @if (env('NODE_LOGIN') === 'no')
         <div class="col-md-12 col-xs-12 pad-t-20 ">
             <center>
                 <div class="col-md-6 col-xs-6 img-google-pluse ">
@@ -96,6 +96,22 @@
                 </div>
             </center>
         </div>
+            @endif
+        @if (env('NODE_LOGIN') === 'yes')
+        <div class="col-md-12 col-xs-12 pad-t-20 ">
+            <center>
+                <div class="col-md-6 col-xs-6 img-google-pluse ">
+                    <a href="{{env('PREFIX')}}login.{{env('DOMAIN')}}/api/oauth/google?login_type=www_login" class="pull-right">
+                        <img src="{{asset('img/google-plus-logo-button.png')}}" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 col-xs-6 img-facebook-pluse">
+                    <a href="{{route('customer.social.facebook')}}?continue={{$continue}}" class="pull-left"><img src="{{asset('img/facebook-logo-button.svg')}}" alt=""></a>
+                </div>
+            </center>
+        </div>
+        @endif
+
         </form>
         <div class="col-md-12 col-xs-12 pad-t-20">
           <div class="col-md-7 col-xs-7 no-padding">

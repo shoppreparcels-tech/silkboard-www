@@ -36,6 +36,7 @@ class RegisterController extends Controller
 
     public function register()
     {
+        return redirect(env('PREFIX').'login.'.env('DOMAIN').'/signup');
         $countries = Country::orderBy('name','asc')->get();
         $states = States::orderBy('name','asc')->get();
         return view('myaccount.customer.register')->with(['countries'=>$countries,'states'=>$states]);;

@@ -17,6 +17,7 @@ class LoginController extends Controller
 
 	public function login(Request $req)
 	{
+        return redirect(env('PREFIX').'login.'.env('DOMAIN').'/signin');
 		$campaign = DB::table('campaigns')
             ->select('image')
             ->whereRaw('CURRENT_DATE <=end_date')
