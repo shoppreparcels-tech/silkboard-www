@@ -1065,11 +1065,10 @@
     <section style="background-color: #FFFBBE;">
         <div class="container-fluid" style="padding-left: 12%;padding-right: 18%;">
             <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">
-                <p class="header1 p-color-black p-h-margin-customer"><font color="red">R</font>efer & Earn</p>
+                <p class="header1 p-color-black p-h-margin-customer"><font color="red">₹500</font> to your Wallet</p>
                 <br>
-                <h4 >Get an instant reward of ₹500 in your ShoppRe Wallet just by referring the referral code to a
-                    friend.</h4>
-                <h4>Referral gets ₹500 credited to their ShoppRe Wallet post the shipment done by the Referee.</h4>
+                <h4 >Click on the link below and send the Referral code to your Family & Friends.</h4>
+                <h4>The Referrer gets ₹500 to their wallets as soon as the Referee makes the 1st shipment!</h4>
                 <br>
                 <a href="https://www.shoppre.com/refer-a-friend" target="_blank" class="btn-s-r btn-b-r btn ">Join Our Referral Network</a>
                 <br>
