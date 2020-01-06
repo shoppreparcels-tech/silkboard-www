@@ -61,7 +61,7 @@
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12 text-center">
                     <a href="https://api.whatsapp.com/send?phone=919148357733&text=Can%20I%20Shop%20Amazon.in%20from%20India%20and%20Ship%20to%20USA?" target="_blank">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9880393291-shop-ship-contact-number.png" alt="shop and ship number shoppre">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9148357733-support-number.png" alt="shop and ship number shoppre">
                     </a>
                 </div>
             </div>
@@ -115,7 +115,7 @@
                 </ul>
                 <br>
                 <div class="offerDesc">
-                    <h4 style="text-decoration: underline" class="f-c-blue">Upcoming 2019 Amazon India Sales</h4>
+                    <h4 style="text-decoration: underline" class="f-c-blue">Upcoming 2019-2020 Amazon India Sales</h4>
                     <p class="header5 p-color-cement">Amazon sales are the best. Everyone waits for them promptly because it helps us to save so much.
                         From humongous discounts to amazing cashback offers, amazon never falls short to surprise its customers.
                     </p>
@@ -132,8 +132,9 @@
                         <li>Amazon Great Indian Festival Sale - 29th September to 4th October</li>
                         <li>Amazon Diwali Sale - 21st to 25th October</li>
                         <li>Kid's Carnival - 9th to 14th November</li>
-                        <li><a href="https://amzn.clnk.in/etu" target="_blank">Wardrobe Refresh Sale</a> - 15th to 19th December</li>
+                        <li>Wardrobe Refresh Sale - 15th to 19th December</li>
                         <li>Amazon Christmas Sale - 23rd to 25th December</li>
+                        <li><a href="/amazon-online-shopping" target="_blank">END OF SEASON SALE</a> - January 2020</li>
                     </ul>
                 </div>
                 <br>

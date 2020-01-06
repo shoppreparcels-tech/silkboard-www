@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12 text-center">
                     <a href="https://api.whatsapp.com/send?phone=919148357733&text=Can%20I%20Shop%20AJIO%20from%20India%20and%20Ship%20to%20USA?" target="_blank">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9880393291-shop-ship-contact-number.png" alt="shop and ship number shoppre">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9148357733-support-number.png" alt="shop and ship number shoppre">
                     </a>
                 </div>
             </div>
@@ -114,7 +114,7 @@
                 </ul>
                 <br>
                 <div class="offerDesc">
-                    <h4 style="text-decoration: underline" class="f-c-blue">Upcoming AJIO Sales</h4>
+                    <h4 style="text-decoration: underline" class="f-c-blue">Upcoming 2020 AJIO Sales</h4>
                     <br>
                     <ul>
                         <li>AJIO November Steal (Min. 40% Off) - November 2019.</li>
@@ -125,7 +125,8 @@
                         <li>WEEKEND BINGE SALE (Min 40% Off) - (12th-16th) December 2019.</li>
                         <li>EPIC BLOWOUT SALE (Flat 55% OFF) - (19th-25th) December 2019.</li>
                         <li>BIG BAG DAYS (40-80% OFF) - (25th Dec 2019 - 1st Jan 2020)</li>
-                        <li><a href="/ajio-online-shopping" target="_blank">PAYDAY SALE (40-80% OFF) - (2nd Jan 2020 - 5th Jan 2020)</a></li>
+                        <li>PAYDAY SALE (40-80% OFF) - (2nd Jan 2020 - 5th Jan 2020)</li>
+                        <li><a href="/ajio-online-shopping" target="_blank">THE AJIO MANIA SALE (50-80% OFF) - (Starts from 9th Jan 2020)</a></li>
                     </ul>
                 </div>
                 <br>

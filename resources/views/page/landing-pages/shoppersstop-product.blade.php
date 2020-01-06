@@ -123,12 +123,12 @@
             {{--Women's Fashion --}}
             <div class="row text-center">
                 <h2 class="f-s-22 p-color-cement-dark font-weight-900 ">Women's Fashion</h2>
-                <p  class="f-s-20 f-c-red f-w-9">ETHNIC SWAG FOR WEDDING SCENES</p>
+                <p  class="f-s-20 f-c-red f-w-9">KEEP IT COOL AND CASUAL</p>
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.shoppersstop.com/women-indianwear-sarees/c-A201050?icid=weddingstore|wsddingstorepg|6-1|sarees" target="_blank">
-                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/h68/h82/13719594958878/4-tab_wedding-pg_Sarees.jpg">
+                        <a href="https://www.shoppersstop.com/women-westernwear/c-A2060?q=%3Adiscount-desc%3AinStockFlag%3Atrue%3Abrands%3AKRAUS&text=&startRange=&endRange=&showType=&icid=keepitcoolandcasual|homepg|2-1|kraus" target="_blank">
+                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/hfc/ha2/14126120075294/4-tab_Home-lp_1-krauses.jpg">
 {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
 {{--                                Up to 70% Off--}}
 {{--                            </div>--}}
@@ -138,8 +138,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/women-indianwear-salwar-churidar-suits/c-A201020?icid=weddingstore|wsddingstorepg|6-2|salwarchuridarsuit" target="_blank">
-                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/h25/hcd/13719595024414/4-tab_wedding-pg_SALWAR-%26-CHURIDAR-SUITS.jpg">
+                        <a href="https://www.shoppersstop.com/women-westernwear/c-A2060?sort=discount-desc&q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ALATIN%2BQUARTERS&startRange=&endRange=&icid=keepitcoolandcasual|homepg|2-2|latinquarters" target="_blank">
+                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/h4d/h23/14125414711326/4-tab_Home-lp_2-latinquarter.jpg">
 {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
 {{--                                    Up to 60% Off--}}
 {{--                            </div>--}}
@@ -149,8 +149,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/women-indianwear-lehenga-cholis/c-A201080?icid=weddingstore|wsddingstorepg|6-3|lehengacholis" target="_blank">
-                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/h3b/hd1/13719595188254/4-tab_wedding-pg_LEHENGA-CHOLIS.jpg">
+                        <a href="https://www.shoppersstop.com/women-westernwear/c-A2060?q=%3Adiscount-desc%3AinStockFlag%3Atrue%3Abrands%3A109F%3Abrands%3AFUSION%2BBEATS&text=&startRange=&endRange=&showType=&icid=keepitcoolandcasual|homepg|2-3|109F&fusionbets" target="_blank">
+                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/hc4/h6f/14126117945374/4-tab_Home-lp_3-fusionbets109f.jpg">
 {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
 {{--                                Up to 60% Off--}}
 {{--                            </div>--}}
@@ -160,8 +160,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/women-indianwear-kurtas/c-A201010?icid=weddingstore|wsddingstorepg|6-4|kurta" target="_blank">
-                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/hb9/he4/13731136995358/4-tab_wedding-pg_Kurta-20190511.jpg">
+                        <a href="https://www.shoppersstop.com/women-westernwear/c-A2060?q=%3Adiscount-desc%3AinStockFlag%3Atrue%3Abrands%3ALIFE&text=&startRange=&endRange=&showType=&icid=keepitcoolandcasual|homepg|2-4|life" target="_blank">
+                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h6d/h5d/14126119780382/4-tab_Home-lp_4-life.jpg">
 {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
 {{--                                Up to 60% Off--}}
 {{--                            </div>--}}
@@ -171,8 +171,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/brand/biba?icid=weddingstore|wsddingstorepg|3-1|biba" target="_blank">
-                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h38/h34/13917631479838/IMARA_4wid-20191205.jpg.jpg">
+                        <a href="https://www.shoppersstop.com/brand/imara?icid=createyourownethnicstyles|homepg|3-1|imara" target="_blank">
+                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/hd6/h36/14003367641118/IMARA_4wid-20191205.jpg.jpg">
                             {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
                             {{--                                Up to 60% Off--}}
                             {{--                            </div>--}}
@@ -265,8 +265,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/men-clothing/c-A1010?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AVAN%2BHEUSEN&text=&startRange=&endRange=&icid=weddingstore|wsddingstorepg|5-1|vanheusen" target="_blank">
-                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h3a/hd0/13736722169886/4-tab_wedding-pg_5-vanhusen.jpg">
+                        <a href="https://www.shoppersstop.com/brand/puma?q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3APUMA%3AallPromotions%3AFlat%2B50%2525%2BOff&text=&startRange=&endRange=&showType=&brandPageId=&linkText=&icid=musthavebrands|homepg|6-2|puma" target="_blank">
+                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/hec/h09/14103685070878/4wid_Puma-20191227.jpg">
                             {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
                             {{--                                Up to 70% Off--}}
                             {{--                            </div>--}}
@@ -276,8 +276,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/men-clothing/c-A1010?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ABLACKBERRYS&text=&startRange=&endRange=&icid=weddingstore|wsddingstorepg|5-2|blackberry" target="_blank">
-                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h1c/h53/13736745140254/4-tab_wedding-pg_6-blackberry.jpg">
+                        <a href="https://www.shoppersstop.com/men-clothing/c-A1010?sort=categoryRelevance&q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AJACK%2BAND%2BJONES&startRange=&endRange=&cid=musthavebrands|homepg|6-3|jack&jones" target="_blank">
+                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h77/h9d/14128763043870/4wid_Jack-and-jones-20191231.jpg">
                             {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
                             {{--                                Up to 70% Off--}}
                             {{--                            </div>--}}
@@ -287,8 +287,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/men-clothing/c-A1010?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ACOLOR%2BPLUS&text=&startRange=&endRange=&icid=weddingstore|wsddingstorepg|5-2|colourplus" target="_blank">
-                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h00/h4d/13736761557022/4-tab_wedding-pg_7-clolurplus.jpg">
+                        <a href="https://www.shoppersstop.com/brand/skechers?sort=topRated&q=%3AcategoryRelevance%3AinStockFlag%3Atrue%3Abrands%3ASKECHERS&startRange=&endRange=&icid=musthavebrands|homepg|6-4|skechers" target="_blank">
+                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h83/h73/14103686053918/4wid_Skechers-20191227.jpg">
                             {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
                             {{--                                Up to 70% Off--}}
                             {{--                            </div>--}}
@@ -298,8 +298,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://sslimages.shoppersstop.com/sys-master/root/h7b/h18/13719593943070/4-tab_wedding-pg_4ahncock.jpg" target="_blank">
-                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h7b/h18/13719593943070/4-tab_wedding-pg_4ahncock.jpg">
+                        <a href="https://www.shoppersstop.com/men-clothing/c-A1010?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3AUNITED%2BCOLORS%2BOF%2BBENETTON%3AallPromotions%3AFlat%2B30%2525%2BOff&text=&startRange=&endRange=&showType=&icid=musthavebrands|homepg|6-1|ucb" target="_blank">
+                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h0f/hb9/14128674373662/4wid_4-ucb-20191231.jpg">
                             {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
                             {{--                                Up to 70% Off--}}
                             {{--                            </div>--}}
@@ -727,6 +727,57 @@
             <br>
 
             <br>
+    </section>
+
+    <section class="chris-benefits">
+        <div class="container " >
+            <center>
+                <h1 class="p-color-cement-dark flipkart-h1 font-weight-900">Shop India Stores Online Ship Globally with ShoppRe.com</h1>
+            </center>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="panel boxed outer border-1px">
+                        <ul>
+                            <li><span><a href="/myntra-online-shopping-shipping-from-india">Myntra Online Fashion Store</a></span></li>
+                            <li><span><a href="/flipkart-online-shopping">Flipkart.com Online Shop</a></span></li>
+                            <li><span><a href="/amazon-online-shopping">Amazon.in Shopping India</a></span></li>
+                            <li><span><a href="/jaypore-international-shipping-from-india">Jaypore Handpicked Products</a></span></li>
+                            <li><span><a href="/ajio-online-shopping">AJIO Fashion & Lifestyle Brand</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel outer border-1px">
+                        <ul>
+                            <li><span><a href="/limeroad-shopping-international-shipping">Limeroad Online Shopping Site</a></span></li>
+                            <li><span><a href="/chumbak-online-shopping" target="_blank">Chumbak Online Shopping</a></span></li>
+                            <li><span><a href="/firstcry-online-shopping" target="_blank">FirstCry Baby & Kids Shopping</a></span></li>
+                            <li><span><a href="/fabindia-online-shopping" target="_blank">Fabindia Traditional Wear</a></span></li>
+                            <li><span><a href="/lifestylestores-online-shopping" target="_blank">Lifestylestores Shopping India</a></span></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel outer border-1px">
+                        <ul>
+                            <li><span><a href="/pepperfry-online-shopping" target="_blank">Pepperfry Furniture Shopping</a></span></li>
+                            <li><span><a href="/myntra-women-kurta-kurtis-international-shipping" target="_blank">Women Kurta Shopping</a></span></li>
+                            <li><span><a href="/nykaa-online-shopping" target="_blank">Nykaa Online Beauty Store</a></span></li>
+                            <li><span><a href="/tatacliq-online-shopping" target="_blank">Tata CLiQ Online Shopping</a></span></li>
+                            <li><span><a href="https://clnk.in/j1Oo" target="_blank">Biba Ethnic Wear for Ladies</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <br/><br/>
+            </div>
+        </div>
+        <div class="text-center">
+            <br>
+            <a href="/indian-online-stores" class="btn btn-s-b btn-b-r" target="_blank">Indian online shopping sites</a>
+        </div>
+        <br/>
+        </div>
     </section>
     <br>
     <br>

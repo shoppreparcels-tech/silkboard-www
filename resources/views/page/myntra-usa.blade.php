@@ -60,8 +60,8 @@
                     </h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12 text-center">
-                    <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20Myntra%20from%20India%20and%20Ship%20to%20USA?" target="_blank" title="Text on WhatsApp Now">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9880393291-shop-ship-contact-number.png" alt="">
+                    <a href="https://api.whatsapp.com/send?phone=919148357733&text=Can%20I%20Shop%20Myntra%20from%20India%20and%20Ship%20to%20USA?" target="_blank" title="Text on WhatsApp Now">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9148357733-support-number.png" alt="9148357733">
                     </a>
                 </div>
             </div>
@@ -161,7 +161,7 @@
                 <br>
 
                 <div class="offerDesc">
-                    <h4 style="text-decoration: underline" class="f-c-blue">Upcoming Myntra sales, you’ve got to know about:</h4>
+                    <h4 style="text-decoration: underline" class="f-c-blue">Upcoming 2020 Myntra sales, you’ve got to know about:</h4>
                     <p class="header4 p-color-cement">With all the buzz in town about Myntra and its elaborate range of designer and branded collection,
                         it also comes up with considerable sales and discounts. It is a time of sheer exuberance for all thrifty shoppers. Keep an eye for its biggest and most happening sales because they are yet to arrive.
                     </p>
@@ -176,7 +176,8 @@
                         <li>Mid Season Sale, 16th to 19th November 2019</li>
                         <li>Comic Con India, 25th to 27th November 2019</li>
                         <li>BLACK FRIDAY SALE, 29th Nov to 1st December 2019</li>
-                        <li><a href="/myntra-online-shopping">END OF REASON SALE</a>, 22nd to 25th December 2019</li>
+                        <li>END OF REASON SALE, 22nd to 25th December 2019</li>
+                        <li><a href="/myntra-online-shopping">GRAND CLEARANCE SALE</a>, 9th to 12th January 2020</li>
                     </ul>
                 </div>
                 <br>
@@ -289,7 +290,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 
@@ -334,7 +335,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 

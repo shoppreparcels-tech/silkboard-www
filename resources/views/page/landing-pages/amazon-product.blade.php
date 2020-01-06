@@ -114,7 +114,7 @@
             <div class="row">
                 <div class="">
                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">👉 <a
-                                href="https://www.amazon.in/b?node=18238166031" target="_blank">WONDER WOMEN FEST</a> (Up To 70% OFF)</span> /
+                                href="https://www.amazon.in/b?node=6648217031" target="_blank">END OF SEASON SALE</a> (Up To 70% OFF)</span> /
                         Below are the Recommended & Recently Shipped Products!</h2>
 {{--                    <span class="f-s-25 f-c-red f-w-9">Big Bag Days (25-31 Oct)</span>--}}
                 </div>
@@ -127,10 +127,10 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.amazon.in/s?i=apparel&bbn=1968253031&rh=n%3A1571271031%2Cn%3A1571272031%2Cn%3A1953602031%2Cn%3A1968253031&s=popularity-rank&dc&fst=as%3Aoff&pf_rd_i=20307559031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=4ca362c9-069b-42f5-97f4-ff1f1b9d1e38&pf_rd_r=PVCS0YF1YGJ9Z6FWA4FF&pf_rd_s=merchandised-search-2&qid=1573627704&ref=sr_st_popularity-rank" target="_blank">
-                            <img class="img-product m-t-img" src="https://m.media-amazon.com/images/G/31/img19/Fashion/Wed/women/SBC/Wedding-women-final-05._SY530_QL85_.jpg">
+                        <a href="https://www.amazon.in/b/ref=QANav11CTA_en_IN_1?pf_rd_r=6EZY1PTD6SJR5KZE5V97&pf_rd_p=18ea9e98-d8d0-4a06-b3d6-68cc49876ec1&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-6&pf_rd_t=&pf_rd_i=6648217031&node=1953602031" target="_blank">
+                            <img class="img-product m-t-img" src="https://m.media-amazon.com/images/G/31/img19/Fashion/JANFLIP19/SBC/SBC_New-year_7._SY530_QL85_.jpg">
                             <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
-                                Clothing
+                                Up to 70% Off
                             </div>
                         </a>
                     </div>
@@ -138,10 +138,10 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.amazon.in/b/ref=QANav11CTA_en_IN_2?pf_rd_r=2A06XEEXZF941YTB9MJ0&pf_rd_p=4ca362c9-069b-42f5-97f4-ff1f1b9d1e38&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-2&pf_rd_t=&pf_rd_i=20307559031&ie=UTF8&node=1983578031" target="_blank">
-                            <img class="img-product m-t-img" src="https://m.media-amazon.com/images/G/31/img19/Fashion/Wed/women/SBC/Wedding-women-final-06._SY530_QL85_.jpg">
+                        <a href="https://www.amazon.in/b/ref=QANav11CTA_en_IN_2?pf_rd_r=6EZY1PTD6SJR5KZE5V97&pf_rd_p=18ea9e98-d8d0-4a06-b3d6-68cc49876ec1&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-6&pf_rd_t=&pf_rd_i=6648217031&node=1983578031" target="_blank">
+                            <img class="img-product m-t-img" src="https://m.media-amazon.com/images/G/31/img19/Fashion/JANFLIP19/SBC/SBC_New-year_8._SY530_QL85_.jpg">
                             <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
-                                    Footwear
+                                Up to 70% Off
                             </div>
                         </a>
                     </div>
@@ -149,10 +149,10 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.amazon.in/b/ref=QANav11CTA_en_IN_5?pf_rd_r=2A06XEEXZF941YTB9MJ0&pf_rd_p=4ca362c9-069b-42f5-97f4-ff1f1b9d1e38&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-2&pf_rd_t=&pf_rd_i=20307559031&ie=UTF8&node=1983338031" target="_blank">
-                            <img class="img-product m-t-img" src="https://m.media-amazon.com/images/G/31/img19/Fashion/Wed/women/SBC/Wedding-women-final-09._SY530_QL85_.jpg">
+                        <a href="https://www.amazon.in/b/ref=QANav11CTA_en_IN_6?pf_rd_r=6EZY1PTD6SJR5KZE5V97&pf_rd_p=18ea9e98-d8d0-4a06-b3d6-68cc49876ec1&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-6&pf_rd_t=&pf_rd_i=6648217031&node=1983338031" target="_blank">
+                            <img class="img-product m-t-img" src="https://m.media-amazon.com/images/G/31/img19/Fashion/JANFLIP19/SBC/SBC_New-year_12._SY530_QL85_.jpg">
                             <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
-                                Handbags
+                                Up to 70% Off
                             </div>
                         </a>
                     </div>
@@ -160,10 +160,10 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.amazon.in/b/ref=QANav11CTA_en_IN_6?pf_rd_r=2A06XEEXZF941YTB9MJ0&pf_rd_p=4ca362c9-069b-42f5-97f4-ff1f1b9d1e38&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-2&pf_rd_t=&pf_rd_i=20307559031&ie=UTF8&node=6172354031" target="_blank">
-                            <img class="img-product m-t-img " src="https://m.media-amazon.com/images/G/31/img19/Fashion/Wed/women/SBC/Wedding-women-final-10._SY530_QL85_.jpg">
+                        <a href="https://www.amazon.in/b/ref=QANav11CTA_en_IN_5?pf_rd_r=6EZY1PTD6SJR5KZE5V97&pf_rd_p=18ea9e98-d8d0-4a06-b3d6-68cc49876ec1&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-6&pf_rd_t=&pf_rd_i=6648217031&node=1374357031" target="_blank">
+                            <img class="img-product m-t-img " src="https://m.media-amazon.com/images/G/31/img19/Fashion/JANFLIP19/SBC/SBC_New-year_11._SY530_QL85_.jpg">
                             <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
-                                D.Boutique
+                                Up to 30% Off
                             </div>
                         </a>
                     </div>
@@ -220,10 +220,10 @@
                 <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Men's Fashion</h2>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.amazon.in/s/ref=QANav11CTA_en_IN_1?pf_rd_r=B34Z70VYMEF3R9KR0J5X&pf_rd_p=2348dde2-a12d-46f9-815b-131415db4ca7&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-2&pf_rd_t=&pf_rd_i=20307558031&i=apparel&rh=n%3A1571271031%2Cn%3A1571272031%2Cn%3A1968024031%2Cn%3A1968248031&s=popularity-rank&qid=1573545006&ref=sr_st_popularity-rank" target="_blank">
-                            <img class="img-product m-t-img" src="https://m.media-amazon.com/images/G/31/img19/Fashion/Wed/men/sbc/Wedding-men-final-04._SY530_QL85_.jpg">
+                        <a href="https://www.amazon.in/b/ref=QANav11CTA_en_IN_1?pf_rd_r=6EZY1PTD6SJR5KZE5V97&pf_rd_p=f2c91085-b709-4dcb-87ca-b78c4f05a577&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-5&pf_rd_t=&pf_rd_i=6648217031&node=1968024031" target="_blank">
+                            <img class="img-product m-t-img" src="https://m.media-amazon.com/images/G/31/img19/Fashion/JANFLIP19/SBC/SBC_New-year_1._SY530_QL85_.jpg">
                             <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
-                                Ethnic Clothing
+                                Up to 70% Off
                             </div>
                         </a>
                     </div>
@@ -231,10 +231,10 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.amazon.in/b/ref=QANav11CTA_en_IN_2?pf_rd_r=B34Z70VYMEF3R9KR0J5X&pf_rd_p=2348dde2-a12d-46f9-815b-131415db4ca7&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-2&pf_rd_t=&pf_rd_i=20307558031&node=16237231031" target="_blank">
-                            <img class="img-product m-t-img" src="https://m.media-amazon.com/images/G/31/img19/Fashion/Wed/men/sbc/Wedding-men-final-05._SY530_QL85_.jpg">
+                        <a href="https://www.amazon.in/b/ref=QANav11CTA_en_IN_6?pf_rd_r=6EZY1PTD6SJR5KZE5V97&pf_rd_p=f2c91085-b709-4dcb-87ca-b78c4f05a577&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-5&pf_rd_t=&pf_rd_i=6648217031&node=12456568031&ie=UTF8" target="_blank">
+                            <img class="img-product m-t-img" src="https://m.media-amazon.com/images/G/31/img19/Fashion/JANFLIP19/SBC/SBC_New-year_6._SY530_QL85_.jpg">
                             <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
-                                PartyFormals
+                                Up to 70% Off
                             </div>
                         </a>
                     </div>
@@ -242,8 +242,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.amazon.in/s/ref=QANav11CTA_en_IN_6?pf_rd_r=B34Z70VYMEF3R9KR0J5X&pf_rd_p=2348dde2-a12d-46f9-815b-131415db4ca7&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-2&pf_rd_t=&pf_rd_i=20307558031&i=apparel&rh=n%3A1571271031%2Cn%3A1571272031%2Cn%3A1968024031%2Cn%3A1968248031%2Cn%3A5229862031&s=popularity-rank" target="_blank">
-                            <img class="img-product m-t-img" src="https://m.media-amazon.com/images/G/31/img19/Fashion/Wed/men/sbc/Wedding-men-final-09._SY530_QL85_.jpg">
+                        <a href="https://www.amazon.in/b/ref=winterwear/ref=QANav11CTA_en_IN_5?pf_rd_r=6EZY1PTD6SJR5KZE5V97&pf_rd_p=f2c91085-b709-4dcb-87ca-b78c4f05a577&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-5&pf_rd_t=&pf_rd_i=6648217031&node=15671689031" target="_blank">
+                            <img class="img-product m-t-img" src="https://m.media-amazon.com/images/G/31/img19/Fashion/JANFLIP19/SBC/WinterwearMen._SY530_QL85_.jpg">
                             <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
                                 Up to 60% Off
                             </div>
@@ -253,8 +253,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.amazon.in/b/ref=QANav11CTA_en_IN_3?pf_rd_r=B34Z70VYMEF3R9KR0J5X&pf_rd_p=2348dde2-a12d-46f9-815b-131415db4ca7&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-2&pf_rd_t=&pf_rd_i=20307558031&node=20135196031" target="_blank">
-                            <img class="img-product m-t-img " src="https://m.media-amazon.com/images/G/31/img19/Fashion/Wed/men/sbc/Wedding-men-final-06._SY530_QL85_.jpg">
+                        <a href="https://www.amazon.in/b/ref=QANav11CTA_en_IN_2?pf_rd_r=7J9VBR981AMSFEBG2XV1&pf_rd_p=f2c91085-b709-4dcb-87ca-b78c4f05a577&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-5&pf_rd_t=&pf_rd_i=6648217031&ie=UTF8&node=1983518031" target="_blank">
+                            <img class="img-product m-t-img " src="https://m.media-amazon.com/images/G/31/img19/Fashion/JANFLIP19/SBC/SBC_New-year_2._SY530_QL85_.jpg">
                             <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
                                 Up to 70% Off
                             </div>

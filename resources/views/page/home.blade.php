@@ -7,6 +7,7 @@
 @section('css_style')
     <meta name="robots" content="index">
     <link rel="canonical" href="https://www.shoppre.com"/>
+
     <meta property="og:title" content="Shop and Ship with ShoppRe | International Courier and Consolidation Services"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://www.shoppre.com"/>
@@ -14,8 +15,7 @@
     <meta property="og:image:width" content="2506">
     <meta property="og:image:height" content="1312">
     <meta property="og:image:alt" content="ShoppRe international shipping and parcel forwarding from India"/>
-    <meta property="og:description"
-          content="Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India's #1 international courier, shipping, consolidation and parcel forwarding company."/>
+    <meta property="og:description" content="Signup for Indian Address. Shop your favorite Indian store and Ship Internationally. India's #1 international courier, shipping, consolidation and parcel forwarding company."/>
     <meta property="og:site_name" content="ShoppRe"/>
 
     <meta name="twitter:card" content="summary_large_image"/>
@@ -26,10 +26,6 @@
     <meta name="twitter:image" content="https://www.shoppre.com/img/shoppre-international-shipping-partner-india.jpg"/>
     <meta name="twitter:image:alt" content="ShoppRe International Parcel Forwarding from India"/>
 
-    <meta name="twitter:app:country" content="IN"/>
-    <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
-    <meta name="twitter:app:id:googleplay" content="com.shoppre.play"/>
-    <meta name="twitter:app:url:googleplay" content="https://www.shoppre.com/"/>
 
     <script type="application/ld+json">
         {
@@ -49,7 +45,7 @@
             "inLanguage": "en_IN",
             "headline": "International Shipping: Parcel Delivery and Courier Services | ShoppRe India",
             "keywords": "International Shipping From India, Shipping Partner, Parcel Delivery, Courier Services",
-            "copyrightYear": "2019",
+            "copyrightYear": "2020",
             "author": {
                 "@type": "Organization",
                 "name": "ShoppRe",
@@ -59,9 +55,8 @@
                 "https://www.linkedin.com/company/shoppre.com",
                 "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
                 "https://www.instagram.com/shoppre_official",
-                "https://www.pinterest.com/shoppre",
-                "https://play.google.com/store/apps/details?id=com.shoppre.play",
-                 "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"],
+                "https://www.pinterest.com/shoppre"
+                  ],
                 "image": {
                     "@type": "ImageObject",
                     "url": "https://www.shoppre.com/img/logo.png",
@@ -130,10 +125,8 @@
             "https://www.instagram.com/shoppre_official",
             "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
             "https://www.linkedin.com/company/shoppre.com",
-            "https://in.pinterest.com/shoppre",
-            "https://play.google.com/store/apps/details?id=com.shoppre.play",
-            "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
-         ]}
+            "https://in.pinterest.com/shoppre"
+                     ]}
 
     </script>
 
@@ -152,10 +145,8 @@
                 "https://www.instagram.com/shoppre_official",
                 "https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw",
                 "https://www.linkedin.com/company/shoppre.com",
-                "https://in.pinterest.com/shoppre",
-                "https://play.google.com/store/apps/details?id=com.shoppre.play",
-                "https://chrome.google.com/webstore/detail/shoppre-international-shi/kplnmmemlcfmbhbjegagmiiiphghdpch"
-          ]
+                "https://in.pinterest.com/shoppre"
+                 ]
         }
 
     </script>
@@ -613,10 +604,10 @@
                         <a href="/flipkart-online-shopping" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">FLIPSTART DAYS</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">WINTER TOP BRANDS</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">35-80% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40-80% Off</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Clothes, Footwear & Accessories</span></p>
                             <br>
@@ -632,16 +623,16 @@
                         <a href="/amazon-online-shopping" title="Click Here" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">WONDER WOMEN FEST</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">END OF SEASON SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Up To 70% Off</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Fashion, Beauty, Accessories</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">New Year, New You</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Amazon.in</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Amazon India</span> & Get Delivered Worldwide with us.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Amazon Fashion India</span> & Get Delivered Worldwide with us.</p>
                         </div>
 
                     </div>
@@ -651,12 +642,12 @@
                         <a href="/myntra-online-shopping" title="Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">ETHNIC STYLES</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">GRAND CLEARANCE SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">50-70% OFF</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Redefining Elegance</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">9th - 12th JAN</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Myntra.com</span></p>
                             <br>
@@ -670,12 +661,12 @@
                         <a href="/ajio-online-shopping" title="Click for Offer Details" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
                         <div class="pad-5 bgr-c-br">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">PAY DAY SALE</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">THE AJIO MANIA SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40-80% OFF</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">50-80% OFF</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">2nd - 5th Jan</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Starts 9th JAN</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">AJIO.com</span></p>
                             <br>
@@ -1043,7 +1034,7 @@
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 147px;">
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">253 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">270 Google Reviews</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787 ">Shipping and Delivery Service</p>
@@ -1055,12 +1046,12 @@
                                 <br>
                                 <div style="background-color: blue; max-width: 86px; border-radius: 20px; height: 40px;">
                                 <p class="p-name" style="font-size: 23px; padding-top: 6px; padding-left: 10px;color: white;">
-                                    <span >4.6</span>
+                                    <span >4.7</span>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </p>
                                 </div>
                                 <a href="https://www.facebook.com/pg/goshoppre/reviews" target="_blank">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">Recommended by 82</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">Recommended by 95</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787; margin-top: -6px ">Packaging Supplies and Service</p>
@@ -1381,7 +1372,7 @@
                     <div class="panel ">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Diwali Sale"><span><a
-                                        href="/flipkart-online-shopping" target="_blank">Flipkart Big Diwali Sale 2020</a></span></li>
+                                        href="/flipkart-online-shopping" target="_blank">Flipkart Shopping Sale 2020</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Great Indian"><span><a
                                         href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">Amazon.in Great Indian Festival</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Freedom Sale"><span><a
@@ -1399,15 +1390,15 @@
                     <div class="panel ">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="puja"><span><a
-                                        href="https://ship.shoppre.com/get-6-essential-puja-articles-for-ganesh-puja-from-india/">Buy Puja Items Online</a></span>
+                                        href="/myntra-women-kurta-kurtis-international-shipping">Women Kurta Shopping</a></span>
                             </li><li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="haircare"><span><a
-                                        href="https://ship.shoppre.com/six-hairstyling-products-that-you-need-in-your-life-for-the-studly-look-strawberrynet/" target="_blank">Haircare & Styling Products</a></span></li>
+                                        href="/pepperfry-online-shopping" target="_blank">Furniture Shopping in India</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="sweets delivery"><span><a
                                         href="/indian-diwali-sweets-dryfruits-free-internatioanl-delivery" target="_blank">Indian Sweets Shopping</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="maxi dresses"><span><a
                                         href="/myntra-women-maxi-dresses-international-shipping">Maxi Dresses for Women</a></span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="craftsvilla"><span><a
-                                        href="https://ship.shoppre.com/8-gorgeously-elegant-sarees-for-every-occasion-to-flaunt-your-curves-craftsvilla-handpicked-for-you/" target="_blank">Sarees Online Shopping</a> </span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="saree india"><span><a
+                                        href="/wedding-sarees-women-clothing-international-shipping" target="_blank">Sarees Online Shopping</a> </span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="rakhi"><span><a
                                         href="/send-rakhi-gifts-online-worldwide-at-cheap-rates" target="_blank">Send Rakhi & Gifts 2020</a></span></li>
                         </ul>

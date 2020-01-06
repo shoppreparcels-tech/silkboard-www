@@ -60,8 +60,8 @@
                     </h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12 text-center">
-                    <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20FLIPKART%20from%20India%20and%20Ship%20to%20USA?" target="_blank">
-                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9880393291-shop-ship-contact-number.png" alt="shop and ship number shoppre">
+                    <a href="https://api.whatsapp.com/send?phone=919148357733&text=Can%20I%20Shop%20FLIPKART%20from%20India%20and%20Ship%20to%20USA?" target="_blank">
+                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9148357733-support-number.png" alt="shop and ship number shoppre">
                     </a>
                 </div>
             </div>
@@ -150,7 +150,8 @@
                         <li>Flipkart Big Billion Day Sale 29th September to 2nd October.</li>
                         <li>Flipkart Diwali Sale 21st to 25th October.</li>
                         <li>BOSS Up To 80% Off  11th to 15th December</li>
-                        <li><a href="/flipkart-online-shopping" target="_blank">YEAR END SALE 21st to 23th December</a></li>
+                        <li>YEAR END SALE 21st to 23th December</li>
+                        <li><a href="/flipkart-online-shopping" target="_blank">WINTER TOP BRANDS - 2020 January</a></li>
                     </ul>
                 </div>
                 <br>
@@ -232,7 +233,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 
@@ -277,7 +278,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 

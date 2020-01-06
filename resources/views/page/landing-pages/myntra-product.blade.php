@@ -387,7 +387,7 @@
             </div>
 
             <div class="row text-center">
-                <p class="f-s-20"><span class="f-c-red f-w-9"><a href="https://www.myntra.com/fusion-wear?rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0" target="_blank">Redefining Elegance(50-70% OFF) Women's Wear</a></span></p>
+                <p class="f-s-20"><span class="f-c-red f-w-9"><a href="https://clnk.in/j1sN" target="_blank">Grand Clearance Sale (50-80% OFF) 9-12 Jan 2020</a></span></p>
                 <br>
                     <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Myntra Women's Fashion</h2>
 
@@ -628,6 +628,7 @@
             </div>
         </div>
     </section>
+
         <section class="chris-benefits">
             <div class="container " >
                 <center>

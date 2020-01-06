@@ -42,7 +42,7 @@
                    <br>
                    <br>
 
-                   <p class="f-s-15 f-c-l-gray f-w-8">{ 1st JAN to 30th JAN 2020 }</p>
+                   <p class="f-s-15 f-c-l-gray f-w-8">{ 1st JAN to 31st JAN 2020 }</p>
 
                </center>
            </div>
@@ -118,7 +118,7 @@
                         <li>Offer Code: <b>FRST50</b></li>
                         <li>Maximum amount that can be availed by a customer is ₹200/-.</li>
                         <li>This offer cannot be clubbed with any other offer.</li>
-                        <li>This Coupon is Valid Upto 30-January-2020</li>
+                        <li>This Coupon is Valid Upto 31-January-2020</li>
                         <li>A customer can avail this offer only once during the offer period.</li>
                         <li>This offer is applicable only for International Shipments.</li>
                         <li>Clearance charges is applicable for Special items</li>
