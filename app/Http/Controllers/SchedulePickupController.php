@@ -27,13 +27,13 @@ use App\Address;
 
 class SchedulePickupController extends Controller
 {
-   public function getDestinationAddressAjax(Request $request) {
-       $address = Address::where('id', $request->id)->first();
-       if (!empty($address)) {
-           return response()->json(['status'=>'success','address'=>$address]);
-       }
-       return response()->json(['status'=>'not_found','address'=>$address]);
-   }
+    public function getDestinationAddressAjax(Request $request) {
+        $address = Address::where('id', $request->id)->first();
+        if (!empty($address)) {
+            return response()->json(['status'=>'success','address'=>$address]);
+        }
+        return response()->json(['status'=>'not_found','address'=>$address]);
+    }
 
     public function asanaTracking(Request $request) {
 
@@ -47,7 +47,7 @@ class SchedulePickupController extends Controller
 
     public function submit(Request $request)
     {
-      $status_code = $this->pickupApi($request);
+        $status_code = $this->pickupApi($request);
         $authorise_url = Authorization::authorizeCourierUser($request->user_email);
         return redirect($authorise_url);
     }
@@ -68,7 +68,6 @@ class SchedulePickupController extends Controller
         $mobile = $request->mobile;
         $email = $request->user_email;
         $customer = $this->signUpPhp($request->first_name, $email, $phone_code, $mobile);
-        Auth::loginUsingId($customer->id);
         $curl = curl_init();
         $items = array();
         $i = 0;
@@ -78,9 +77,7 @@ class SchedulePickupController extends Controller
             $items[$i]['price'] = (float)$request->amount[$i];
             $i++;
         }
-        //-required for node js integration - please dont delete this section
         $data = $request;
-         Auth::loginUsingId($customer->id);
         $data_string = [
             'customer_id' => $customer->id,
             'pickup_first_name' => $first_name,
@@ -111,25 +108,7 @@ class SchedulePickupController extends Controller
             'comment' => $data->comment,
             'items'=> $items,
         ];
-
-        $size_of_package = $data->length.'*'.$data->width.'*'.$data->height;
-        $name = $data->pc_fname.' '.$data->pc_lname;
-        $details = "Phone Number - ".$data->pc_contact_no.',Email -'.$data->pc_email;
-        $pc_details = "\nPickup Details - ".$data->pc_fname."  ".$data->pc_lname." , ".$data->pc_street.
-            " , ".$data->pc_city." , ".$data->pc_state." , ".$data->pc_pincode." , ".$data->pc_contact_no." , ".$data->pc_email;
-        $dc_details = "\nDestination Details - ".$data->dc_fname."  ".$data->dc_lname." , ".$data->dc_street.
-            " , ".$data->dc_city." , ".$data->dc_state." , ".$data->dc_country." , ".$data->dc_pincode." , ".$data->dc_phone_code.
-            " - ".$data->dc_contact_no;
-        $package_details = "\nWeight - ".$data->package_weight."kg, Size - ".$size_of_package;
-        $package_items_details = "\nPickup Items- ".json_encode($items);
-        $all_details = $details.$pc_details.$dc_details.$package_details.$package_items_details;
-//        $response = AsanaTaskOperations::createTask($name, $all_details, "S");
-//        $phpArray = json_decode($response,true);
-
-        // Asana task disabled for temporary
-//         $response = AsanaTaskOperations::createTask($name, $all_details, "S");
-
-          $this->sendEmailPickup($request);
+        $this->sendEmailPickup($request);
 
 
         $url = env('MIGRATION_PREFIX') ."courier.".env('DOMAIN')."/api/shipments";
@@ -212,41 +191,6 @@ class SchedulePickupController extends Controller
             $c = $this->signUpAPI($customer);
 
             $customer->id = $c['response']->id;
-
-//            if ($c->code == 201)
-
-
-//            $customer->is_courier_migrated = 2;
-            // - Saving to PHP
-            $customer->save();
-
-            $contact = new CustomerContact;
-            $contact->customer_id = $customer->id;
-            $contact->save();
-
-            $loyalty = new LoyaltyPoint;
-            $loyalty->customer_id = $customer->id;
-            $loyalty->level = 1;
-            $loyalty->points = $loyalPoints;
-            $loyalty->total = $loyalPoints;
-            $loyalty->save();
-
-            $misc = new LoyaltyMisc;
-            $misc->customer_id = $customer->id;
-            $misc->info = 'Signed up with the referral code that your friend sent';
-            $misc->points = $loyalPoints;
-            $misc->save();
-
-            $setting = new ShippingPreference;
-            $setting->customer_id = $customer->id;
-            $setting->save();
-
-            $balance = new ShopperBalance;
-            $balance->customer_id = $customer->id;
-            $balance->amount = 0;
-            $balance->save();
-
-            $this->sendEmailVerification($email);
         }
 
         return $customer;
@@ -368,9 +312,9 @@ class SchedulePickupController extends Controller
         }
         return view('schedule-pickup.schedule-pickup')
             ->with([
-            'countries'=>$countries,
+                'countries'=>$countries,
 //            'states'=>$states,
-            'pickup_address'=>$pickup_address,
+                'pickup_address'=>$pickup_address,
 //            'destination_addresses'=>$destination_addresses
             ]);
     }
@@ -379,12 +323,12 @@ class SchedulePickupController extends Controller
     {
         if(!empty($schedule_package->pc_email)) {
             Mail::to($schedule_package->user_email)
-                ->bcc(['support@shoppre.com',$schedule_package->pc_email])
+                ->bcc(['support@shopprecouriers.com',$schedule_package->pc_email])
                 ->send(new EmailSchedulePickup($schedule_package));
         }
         else {
             Mail::to($schedule_package->user_email)
-                ->bcc(['support@shoppre.com'])
+                ->bcc(['support@shopprecouriers.com'])
                 ->send(new EmailSchedulePickup($schedule_package));
         }
     }

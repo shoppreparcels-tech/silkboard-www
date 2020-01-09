@@ -448,6 +448,14 @@ class PageController extends Controller
     {
         return view('page.first-shipment');
     }
+    public function leadE5()
+    {
+        return view('page.leads-e5');
+    }
+    public function domesticEmail()
+    {
+        return view('page.domestic-email');
+    }
     public function rakhiGift()
     {
         return view('page.rakhi-gift');

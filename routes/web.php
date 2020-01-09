@@ -666,6 +666,10 @@ Route::get('/shop-online-fashion-jabong-india-ship-internationally', 'PageContro
 Route::get('/ajio-online-shopping-international-shipping', 'PageController@ajioIndex')->name('ajio');
 Route::get('/jaypore-international-shipping-from-india', 'PageController@jayporeIndex')->name('jaypore');
 Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
+
+Route::get('/leads-e5', 'PageController@leadE5')->name('leads-e5');
+Route::get('/domestic-email', 'PageController@domesticEmail')->name('domesticEmail');
+
 //Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');
 Route::get('/myntra-international-shipping-to-usa', 'PageController@myntraUsa')->name('myntra-usa');
 Route::get('/flipkart-usa-shopping', 'PageController@flipkartUsa')->name('flipkart-usa');
