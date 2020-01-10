@@ -359,6 +359,8 @@ Route::get('/shipping/request/cancel/{order_id}', 'Myaccount\Customer\ShippingCo
 
 /*-------- Reffer A Friend --------*/
 Route::get('/refer-a-friend', 'Myaccount\Customer\ProfileController@refferAfriend')->name('customer.reffer.view');
+Route::get('/refer-friend', 'Nodeapi\NodeController@refferAfriend')->name('node.reffer.view');
+Route::get('/refer-a-friends', 'Nodeapi\NodeController@redirectReferFriend')->name('node.reffer.send');
 Route::post('/reffer-submit', 'Myaccount\Customer\ProfileController@refferSubmit')->name('customer.reffer.submit');
 
 /*-------- Loyalty Points ---------*/
@@ -513,6 +515,7 @@ Route::get('/reviews', 'PageController@reviews')->name('reviews');
 Route::post('/more-reviews', 'PageController@moreReviews')->name('more.reviews');
 Route::post('/reviews/submit', 'PageController@submitReview')->name('reviews.submit');
 Route::post('/more-reviews', 'PageController@moreReviews')->name('morereviews');
+Route::get('/wow/{name}/{email}/{phone_code}/{mobile}', 'SchedulePickupController@signUpPhp')->name('asignUpPhp');
 
 /*------ Schedule Pickup ---------*/
 

@@ -149,4 +149,48 @@ class NodeController extends Controller
         Mail::to($req->email)->send(new EmailVerification($customer));
         return response()->json(['message' => 'sent']);
     }
+
+    public function refferAfriend(Request $req)
+    {
+        $customerExists = Customer::where('email', $req->email)->first();
+        if (!$customerExists) {
+
+            $customer = new Customer;
+            $customer->name = $req->first_name;
+            $customer->email = $req->email;
+            $customer->id = $req->id;
+            $customer->save();
+
+            $loyalty = new LoyaltyPoint;
+            $loyalty->customer_id = $req->id;
+            $loyalty->level = 1;
+            $loyalty->points = 0;
+            $loyalty->total = 0;
+            $loyalty->save();
+
+            $setting = new ShippingPreference;
+            $setting->customer_id = $req->id;
+            $setting->save();
+
+            $balance = new ShopperBalance;
+            $balance->customer_id = $req->id;
+            $balance->amount = 0;
+            $balance->save();
+        }
+
+        Auth::guard('customer')->loginUsingId($req->id);
+        Auth::loginUsingId($req->id);
+
+        //todo redirect to same place he started
+//        return redirect('myaccount.customer.reffer');
+        return redirect(route('node.reffer.send'));
+//        return view('myaccount.customer.reffer');
+    }
+
+    public function redirectReferFriend(Request $req)
+    {
+        return view('myaccount.customer.reffer');
+    }
+
+
 }

@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', '21st - 25th OCT, Amazon Great Indian Festival 2019 | ShoppRe.com')
+@section('title', '19th - 22nd JAN, Amazon Great Indian SALE 2020 | ShoppRe.com')
 @section('description', 'Shopping for Amazon.in Great Indian Sale. ShoppRe will deliver your package to you within 3-6 days at up to 80% low shipping rates, Worldwide.')
 @section('keywords', 'amazon.in, great indian sale, offers today, upcoming sale, online shopping, festival, mobiles, clothes, cashback, pay')
 
@@ -10,13 +10,13 @@
     <link rel="canonical" href="https://www.shoppre.com/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" />
 
     <meta property="og:site_name" content="ShoppRe" />
-    <meta property="og:title" content="Buy from Amazon GREAT INDIAN FESTIVAL Sale 2019 | Ship Worldwide - @ShoppRe" />
+    <meta property="og:title" content="Buy from Amazon GREAT INDIAN Sale 2020 | Ship Worldwide - @ShoppRe" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.shoppre.com/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" />
     <meta property="og:image" content="https://www.shoppre.com/img/images/get-best-offers-and-deals-during-the-amazon-great-indian-sale.png" />
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="628">
-    <meta property="og:image:alt" content="Amazon Great Indian Sale 2019 India Online Shopping" />
+    <meta property="og:image:alt" content="Amazon Great Indian Sale 2020 India Online Shopping" />
     <meta property="og:description" content="Shop your favorite products during Amazon Great Indian Sale & Ship Internationally with ShoppRe international package forwarding service from India." />
 
     <style>
@@ -42,7 +42,7 @@
                </div>
            </div>
            <div class="col-md-12 col-xs-12 text-center">
-               <h1 class="f-s-26 f-c-d-greay f-w-9">Shop Amazon.in Great Indian Festival & Ship <span class="f-s-26 f-c-red f-w-9">@Cheap-Cost Internationally</span></h1>
+               <h1 class="f-s-26 f-c-d-greay f-w-9">Shop Amazon.in Great Indian Sale & Ship <span class="f-s-26 f-c-red f-w-9">@Cheap-Cost Internationally</span></h1>
            <a href="/amazon-online-shopping" target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Buy from Amazon Great Indian Sale</a>
 
            </div>
@@ -55,13 +55,13 @@
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                        class="startsValidValue"> 21st Oct 2019</span></p>
+                                        class="startsValidValue"> 19th Jan 2020</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                        class="startsValidValue"> 25th Oct 2019</span></p>
+                                        class="startsValidValue"> 22nd Jan 2020</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
@@ -75,13 +75,13 @@
             </div>
             <div class=" col-md-12 pad-25">
                 <p class="f-s-26 f-c-gray f-w-9 text-center">
-                    <strong>Amazon Great Indian Sale 2019: 21st to 25th October 2019</strong>
+                    <strong>Amazon Great Indian Sale 2020: 19th to 22nd January 2020</strong>
                 </p>
                                 <br>
                 <p class="header4 p-color-cement">
                     The six day extravaganza will bring with it, blockbuster deals, exciting offers and amazing discounts that everyone is eager to avail for the festive season shopping.
                     <a href="https://www.amazon.in/b?node=3419926031&pf_rd_p=8e899768-4b0c-49ba-ba35-67cf18c0e0ec&pf_rd_r=7C04YS7872BK443RS4H0"><i>The Amazon Great Indian Festival Sale</i></a>
-                    will be happening from <strong>21st to 25th October 2019</strong>, so you can mark your calendar for the dates and clear your schedule,
+                    will be happening from <strong>19th to 22nd January 2020</strong>, so you can mark your calendar for the dates and clear your schedule,
                     for it is the biggest Sale of the year.
                 </p>
                 <br>
@@ -92,25 +92,25 @@
                 <p class="header4 p-color-cement">
                     You better buckle up for this thrill ride as Amazon is back with the grand sale and superb offers once again this year for its customers, so shop without giving it a second
                     thought for many categories like <i>fashion, apparel, electronics, mobile phones, laptops, home appliances, and many more</i> from the best national and international brands,
-                    during the epic Amazon Great Indian Sale 2019 for five whole days. <br>
+                    during the epic Amazon Great Indian Sale 2020 for five whole days. <br>
                     It will be like a grand festival in itself where users can shop whatever their hearts desire at cheap prices that are affordable.
                 </p>
                 <br>
                 <div class="row left-padder-20">
                     <div class="col-md-6  border-1px">
-                        <h1 class="f-s-22 f-c-blue f-w-9">Table of Amazon Great Indian Sale 2019</h1>
+                        <h1 class="f-s-22 f-c-blue f-w-9">Table of Amazon Great Indian Sale 2020</h1>
                         <ul>
                             <li>
                                 <h4><a href="#amzn-worldwide">Shop from India & ship WORLDWIDE, during Amazon Great Indian Festival Sale</a></h4>
                             </li>
                             <li>
-                                <h4><a href="#amzn-nri">How can NRI/PIOs shop during Amazon Great Indian Sale, 2019 from India?</a></h4>
+                                <h4><a href="#amzn-nri">How can NRI/PIOs shop during Amazon Great Indian Sale, 2020 from India?</a></h4>
                             </li>
                             <li>
                                 <h4><a href="#amzn-category">Category Wise Offers?</a></h4>
                             </li>
                             <li>
-                                <h4><a href="#amzn-grandeur">Grandeur of Amazon Great Indian Sale 2019</a></h4>
+                                <h4><a href="#amzn-grandeur">Grandeur of Amazon Great Indian Sale 2020</a></h4>
                             </li>
                             <li>
                                 <h4><a href="#amzn-mobile">Mobile Phones</a></h4>
@@ -150,7 +150,7 @@
                 </div>
                 <br>
                 <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-worldwide">Shop from India and ship WORLDWIDE, during the Amazon Great Indian Festival Sale, 2019</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-worldwide">Shop from India and ship WORLDWIDE, during the Amazon Great Indian Festival Sale, 2020</h1>
                 <br>
                 <p class="header4 p-color-cement">
                     Since the festive season is approaching, both Indians and NRIs are looking forward to this sale for their <strong>Diwali shopping</strong>. We recommend you not to miss this great opportunity
@@ -167,7 +167,7 @@
                 <h1 class="f-s-22 f-c-gray f-w-9" id="amzn-grandeur">Shipping Cost Calculator</h1>
 
                 <p class="header4 p-color-cement">
-                    Avail humongous discounts during the Amazon great Indian Festival Sale along with the cheapest shipping in the world with the promise of hassle free delivery at your doorstep.
+                    Avail humongous discounts during the Amazon great Indian Sale along with the cheapest shipping in the world with the promise of hassle free delivery at your doorstep.
                     You can check the <strong>shipping cost for your country</strong> through our <a href="/cheap-rates-international-shipping-cost-calculator" target="_blank">shipping cost calculator</a>.
                 </p>
                 <h1 class="f-s-22 f-c-gray f-w-9" id="amzn-grandeur">Will you receive your package(📦) on time?</h1>
@@ -177,13 +177,13 @@
                     that delivers within 3-6 working days.
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-nri">How can NRI/PIOs shop during Amazon Great Indian Sale, 2019 from India?</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-nri">How can NRI/PIOs shop during Amazon Great Indian Sale, 2020 from India?</h1>
                 <br>
                 <p class="header4 p-color-cement">Celebrate this glorious <i>Amazon Great Indian Festival sale</i> while being outside India as well, do effortless
                     <a href="/amazon-india-shop-international-shipping">amazon international shopping</a> from the convenience of your home without breaking a sweat and fretting about the shipping and delivery.
                 </p>
                 <br>
-                <p class="f-s-20 f-c-d-greay f-w-9">Here are some easy steps you can follow to do international shopping from India for Amazon Great Indian Sale,2019:-</p>
+                <p class="f-s-20 f-c-d-greay f-w-9">Here are some easy steps you can follow to do international shopping from India for Amazon Great Indian Sale,2020:-</p>
                 <div class="row left-padder-20">
                     <ol>
                         <li>
@@ -215,17 +215,17 @@
                     <a href="/shop-from-india-ship-worldwide" target="_blank">shopping from anywhere in the world</a>.
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-grandeur">The Grandeur of Amazon Great Indian Festival Sale 2019</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-grandeur">The Grandeur of Amazon Great Indian Sale 2020</h1>
                 <br>
                 <p class="header4 p-color-cement">
-                    The <i>Amazon Great Indian Festival sale, 2019</i> brings along myriad of <strong>mind-blowing deals</strong> and <strong>fascinating offers</strong> on <strong>more than 1 million products</strong> from diverse categories.
+                    The <i>Amazon Great Indian Festival sale, 2020</i> brings along myriad of <strong>mind-blowing deals</strong> and <strong>fascinating offers</strong> on <strong>more than 1 million products</strong> from diverse categories.
                     Don't hold yourself back from getting anything you want even from a faraway land because prices are going to take a steep fall this year and you can
                     fulfill your long lasting desires for shopping for anything extra that you want.
                     <i>Experience the liberty to shop through this grand sale with <strong>ShoppRe</strong> and our <strong><a
                                 href="/international-parcel-forwarding-india-online-shopping" target="_blank">reliable package forwarding services</a></strong>.</i>
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-category">Category wise offers for the Great Indian Festival Sale, 2019</h1>  <br>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-category">Category wise offers for the Great Indian Festival Sale, 2020</h1>  <br>
                 <p class="header4 p-color-cement">You may be short on cash or your wish list may not fit into your budget, but with such jaw dropping offers budget is not really an issue.
                     Have a quick glance at these great offers on various categories and start planning ahead of time for availing numerous benefits of the sale.
 
@@ -245,19 +245,19 @@
                             <td>Mobile</td> <td>Up to 40% off + exchange offers + no cost EMI plans</td>
                         </tr>
                         <tr>
-                            <td>Electronics & Accessories</td> <td>Starting at just ₹99/-</td>
+                            <td>Electronics & Accessories</td> <td>Starting at just ₹99</td>
                         </tr>
                         <tr>
-                            <td>Fashion</td> <td>Up to 90% off on top brands</td>
+                            <td>Amazon Fashion</td> <td>Up to 80%</td>
                         </tr>
                         <tr>
-                            <td>Home & Kitchen products</td> <td>Up to 80% off</td>
+                            <td>Home & Kitchen products</td> <td>Starting ₹89</td>
                         </tr>
                         <tr>
-                            <td>TV & Appliances</td> <td>Up to 75% off</td>
+                            <td>TV & Appliances</td> <td>Starting ₹4,749</td>
                         </tr>
                         <tr>
-                            <td>Daily Essentials</td> <td>Lowest prices of the year</td>
+                            <td>Daily Essentials</td> <td>Starting ₹99</td>
                         </tr>
                         <tr>
                             <td>Books, Hobbies, Games & Toys</td> <td>Up to 70% off</td>
@@ -266,7 +266,7 @@
                             <td>Amazon Echo, Fire TV & Kindle</td> <td>Up to 45% off</td>
                         </tr>
                         <tr>
-                            <td>Amazon Brand</td> <td>Up to 80% off</td>
+                            <td>Amazon Brand</td> <td>Up to 60% off</td>
                         </tr>
                         <tr>
                             <td>Small Indian businesses</td> <td>Up to 70% off</td>
@@ -279,9 +279,9 @@
                     lets you enjoy shopping even when you are on a tight budget. <i>Premium mobile phones, branded wrist watch and big-budget electronics will be up for grabs with astounding offers.</i>
                 </p>
                 <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-mobile">Amazon Great Indian Sale Offers 2019: Mobile Phones</h1>
-                <p class="header4 p-color-cement"><strong>Mobile Phones</strong> are the most coveted items during the festive season and keeping this in mind the Amazon Great Indian Festival Sale 2019
-                    will bring bumper offers and discounts on many premium, best selling and budget smartphones of the year 2019 from the top brands like
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-mobile">Amazon Great Indian Sale Offers 2020: Mobile Phones</h1>
+                <p class="header4 p-color-cement"><strong>Mobile Phones</strong> are the most coveted items during the festive season and keeping this in mind the Amazon Great Indian Sale 2020
+                    will bring bumper offers and discounts on many premium, best selling and budget smartphones of the year 2020 from the top brands like
                     <i>Motorola, Sony, Samsung, Lenovo, Nokia, Vivo, Honor, Oneplus, HTC, Apple, Xiaomi, etc</i>. along with great offers on several mobile phone accessories along with <strong>15+ new launches</strong>.
                 </p>
                 <br>
@@ -295,26 +295,26 @@
                 </p>
                 <br>
                 <div class="row left-padder-20">
-                    <p class="f-s-20 f-c-d-greay f-w-9"><i>Some of the Latest launches in Mobile Phones</i></p>
+                    <p class="f-s-20 f-c-d-greay f-w-9"><i>Great Offers on bestsellers</i></p>
                     <ul>
                         <li>
-                            <h4 class="header4 p-color-cement"><strong>OnePlus 7T</strong> - For the ultimate smooth application</h4>
+                            <h4 class="header4 p-color-cement"><strong>OnePlus 7T</strong> - Uncompromised Flagship</h4>
                         </li>
                         <li>
-                            <h4 class="header4 p-color-cement"><strong>Samsung Galaxy M30s</strong> - For beast like performance with 6,000 mAH battery</h4>
+                            <h4 class="header4 p-color-cement"><strong>Samsung Galaxy M30s</strong> - Monstrous 6000mAh battery</h4>
                         </li>
                         <li>
-                            <h4 class="header4 p-color-cement"><strong>Vivo U10</strong> - Turbo charging with 18W</h4>
+                            <h4 class="header4 p-color-cement"><strong>Vivo U20</strong> - Unstoppable performance</h4>
                         </li>
                         <li>
-                            <h4 class="header4 p-color-cement"><strong>Samsung Galaxy M10s</strong> - Great visuals with affordable AMOLED display</h4>
+                            <h4 class="header4 p-color-cement"><strong>Redmi Note 8 Pro</strong> - Mid-range smartphone camera*</h4>
                         </li>
                     </ul>
                 </div>
-                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Wearable_1a1_w?node=18064992031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-9&pf_rd_r=M85QDBM8AB6419DD6CA6&pf_rd_t=101&pf_rd_p=0562b8b9-4bc5-40a5-8b1e-c6e9ca795d72&pf_rd_i=3419926031"
+                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Wearable_1a1_w?node=20577753031"
                             target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Latest Smartphones (Up To 40% Off)</a></center>
                 <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-electronics">Amazon Great Indian Festival Sale Offers: Electronics & Accessories</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-electronics">Amazon Great Indian Sale Offers: Electronics & Accessories</h1>
                 <p class="header4 p-color-cement">Laptops are the need of the hour, but due to their soaring prices it burdens our pockets to buy the best laptops and their
                     accessories, but during the auspicious occasion of Indian festivities, Amazon has graced us all with the Amazon Great India Sale which will allow
                     all of us to buy great laptops, accessories and computers at cheap prices with <strong>up to Rs.40,000 off</strong> with exchange offers.
@@ -329,7 +329,7 @@
                 </p>
                 <br>
                 <p class="header4 p-color-cement">Photography is the hype of the season and if you are really into it then why not make it a career? What? Don't
-                    have the budget for those types of cameras? Well, that's not a problem anymore because Amazon Great Indian Festival Sale is bringing a wide
+                    have the budget for those types of cameras? Well, that's not a problem anymore because Amazon Great Indian Sale is bringing a wide
                     range of <i>digital cameras, Point & Shoot cameras, Digital SLRs, lenses, camera accessories, and camcorders from brands like Canon, Nikon, Sony, Pentax, Fujifilm, Panasonic, etc.</i>
                 </p>
                 <br>
@@ -352,28 +352,28 @@
                 </div>
                 <br>
                 <div class="row left-padder-20">
-                    <p class="f-s-20 f-c-d-greay f-w-9"><i>New Launches in Electronics</i></p>
+                    <p class="f-s-20 f-c-d-greay f-w-9"><i>Upcoming Launches of 2020</i></p>
                     <ul>
                         <li>
-                            <h4 class="header4 p-color-cement"><strong>Lenovo i3 thin and light laptop</strong> - <i>integrated graphics and dolby audio</i></h4>
+                            <h4 class="header4 p-color-cement"><strong>Lenovo S340 i3 10th Gen Laptop</strong></h4>
                         </li>
                         <li>
-                            <h4 class="header4 p-color-cement"><strong>Polaroid instant camera</strong> - <i>capture memories beautifully</i></h4>
+                            <h4 class="header4 p-color-cement"><strong>Honor Band 5i (Meteorite Black)</strong></h4>
                         </li>
                         <li>
-                            <h4 class="header4 p-color-cement"><strong>Playfit 53 fitness tracker</strong> - <i>with heart rate monitor</i></h4>
+                            <h4 class="header4 p-color-cement"><strong>boAt Stone 1400 Mini Speaker</strong></h4>
                         </li>
                         <li>
-                            <h4 class="header4 p-color-cement"><strong>Infinity by Harman bluetooth speaker</strong> - <i>waterproof with up to 10hrs non stop music</i></h4>
+                            <h4 class="header4 p-color-cement"><strong>HyperX Alloy Gaming Keyboard</strong> </h4>
                         </li>
                     </ul>
                 </div>
-                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_cat_1b1_w?node=15429737031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-10&pf_rd_r=GTDXY2GP71770TPJSH1G&pf_rd_t=101&pf_rd_p=1982a47d-c4cb-469a-b311-dae697de4a1f&pf_rd_i=3419926031"
+                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Wearable_1a1_w?node=14045406031"
                             target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Electronics & Accessories (Starting ₹99)</a></center>
                 <br>
                 <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-television">Amazon Great Indian Festival Sale Offers: Televisions and Appliances</h1>
                 <p class="header4 p-color-cement">Get ready to binge watch all episodes of your favorite TV series in Ultra HD widescreen with the best cinematic experience with the
-                    latest TVs of 2019 that you can get at mind-blowing discounts only at the Amazon Great India Sale.
+                    latest TVs of 2020 that you can get at mind-blowing discounts only at the Amazon Great India Sale.
                 </p>
                 <br>
                 <p class="header4 p-color-cement">You can choose from an impressive and exhaustive selection of <strong><i>LED TVs, 3D TVs, LCD TVs, Smart TVs, Ultra HD TVs, HD Ready TVs,
@@ -430,9 +430,9 @@
                 <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Wearable_1a1_w?node=15430068031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-12&pf_rd_r=WHQFNYRDA4Y9XEH0PZFJ&pf_rd_t=101&pf_rd_p=7129d395-69e4-44fd-a1fd-e35e9ed995a7&pf_rd_i=3419926031"
                             target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">TVs & Appliances(Up To 75% Off)</a></center>
                 <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-fashion">Amazon Great Indian Festival Sale Offers: Fashion</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-fashion">Amazon Great Indian Sale Offers: Fashion</h1>
                 <p class="header4 p-color-cement">Look nothing less than a Bollywood diva and flaunt a gorgeous lehenga from Amazon this Diwali. Hurry! And grab the
-                    best offers with up to <strong>90% off</strong> on fashion accessories and apparel for men, women, and children at Amazon Great India Sale from the
+                    best offers with up to <strong>80% off</strong> on fashion accessories and apparel for men, women, and children at Amazon Great India Sale from the
                     amazing range of ethnic wear, men’s, women’s and kids clothes, shoes, watches, sunglasses, jewellery, etc. <strong>under ₹599.</strong>
 
                 </p>
@@ -480,8 +480,8 @@
                         </li>
                     </ul>
                 </div>
-                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Wearable_1b1_w?node=17777296031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-9&pf_rd_r=TAJWQX26YW7N7M5TXW0S&pf_rd_t=101&pf_rd_p=0562b8b9-4bc5-40a5-8b1e-c6e9ca795d72&pf_rd_i=3419926031"
-                            target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Amazon Fashion (Up To 90% Off)</a></center>
+                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Wearable_1a1_w?node=20577729031"
+                            target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Amazon Fashion (Up To 80% Off)</a></center>
                 <br>
                 <h1 class="f-s-26 f-c-blue f-w-9" id="top-kitchen">Amazon Great Indian Festival Sale Offers: Home & Kitchen Appliances</h1>
                 <p class="header4 p-color-cement">Excited to get up to <strong>80% off</strong> on <strong>5000+ home and kitchen appliances</strong>? Well, we are! With great offers on home and kitchen products,
@@ -527,11 +527,11 @@
                         </li>
                     </ul>
                 </div>
-                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_wearable_1a1_w?node=4916278031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-10&pf_rd_r=TAJWQX26YW7N7M5TXW0S&pf_rd_t=101&pf_rd_p=98f2a7d6-4e40-446d-880c-a29ca817571b&pf_rd_i=3419926031"
+                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Wearable_1b1_w?node=4916278031"
                             target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Home & Kitchen Products (Starting ₹89)</a></center>
                 <br>
 
-                <h1 class="f-s-26 f-c-blue f-w-9" id="top-daily">Amazon Great Indian Festival Sale Offers: Daily Essentials</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="top-daily">Amazon Great Indian Sale Offers: Daily Essentials</h1>
                 <p class="header4 p-color-cement">You need to replenish your pantry this festive season, but going to the market is very exhausting and everyone avoids that
                     during the rush of the festive seasons. One way to shop for these things is through Amazon pantry and during Amazon Great Indian Sale, <i>Amazon Pantry</i>
                     will light up with mind blowing offers and discounts that you can avail and save some cash.
@@ -580,11 +580,11 @@
                         </li>
                     </ul>
                 </div>
-                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Wearable_1a1_w?node=17940186031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-11&pf_rd_r=GTDXY2GP71770TPJSH1G&pf_rd_t=101&pf_rd_p=1345bceb-ef82-4a6e-bbd6-84a07eeb2b19&pf_rd_i=3419926031"
+                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Wearable_1b1_w?node=14419476031"
                             target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Daily Essentials (Starting ₹89)</a></center>
 
                 <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-books">Amazon Great Indian Festival Sale Offers: Books, hobbies, gaming and toys</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-books">Amazon Great Indian Sale Offers: Books, hobbies, gaming and toys</h1>
                 <p class="header4 p-color-cement">Are you into books? Do you like to get lost in them? If yes then, Amazon Great Indian Sale is bringing in some
                     affordable ways to shop for your favorite books and entertainment this festive season and take it up a notch with up to <strong>70% off on books, games and toys</strong>.
                     Amazon is promoting books to ensure that the youth is attracted to reading more and more entertaining novels and self-help work of their choice.
@@ -612,7 +612,7 @@
                         </li>
                     </ul>
                 </div>
-                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Wearable_1b1_w?node=6628733031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-11&pf_rd_r=GTDXY2GP71770TPJSH1G&pf_rd_t=101&pf_rd_p=1345bceb-ef82-4a6e-bbd6-84a07eeb2b19&pf_rd_i=3419926031"
+                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Wearable_1b1_w?node=6628733031"
                             target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Books, Gaming & Toys (Up To 70% Off)</a></center>
                 <br>
 
@@ -653,10 +653,10 @@
                         </li>
                     </ul>
                 </div>
-                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Wearable_1b1_w?node=18039422031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-12&pf_rd_r=GTDXY2GP71770TPJSH1G&pf_rd_t=101&pf_rd_p=7129d395-69e4-44fd-a1fd-e35e9ed995a7&pf_rd_i=3419926031"
+                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Wearable_1a1_w?node=18643103031"
                             target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">Amazon Devices (Up To 45% Off)</a></center>
                 <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="top-brand">Amazon Great Indian Festival Sale Offers: Amazon brands and more</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="top-brand">Amazon Great Indian Sale Offers: Amazon brands and more</h1>
                 <p class="header4 p-color-cement">If you are a diehard fan of <i>Amazon products</i> and often shop for their brands then a whopping <strong>80% discount</strong> on all of
                     the products will be enough to make your day. You can choose from a wide range of <strong>11,000+ products</strong> like comforter, sports shoes, pressure cooker,
                     electronic accessories, tissues and much more from top rated premium quality products on massive discounts during the Amazon Great Indian sale.
@@ -701,11 +701,11 @@
                         </li>
                     </ul>
                 </div>
-                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Wearable_1a1_w?node=15390370031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-13&pf_rd_r=GTDXY2GP71770TPJSH1G&pf_rd_t=101&pf_rd_p=d971bfdb-99a3-4666-bb4e-8ad4c8871fc5&pf_rd_i=3419926031"
+                <center> <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_Wearable_1b1_w?node=15390370031"
                             target="_blank" class="btn btn-s-b btn-b-g" style="background-color: #4285f4!important;">(Up To 80% Off) on Amazon Brands</a></center>
 
                 <br>
-                <h1 class="f-s-26 f-c-blue f-w-9" id="top-business">Amazon Great Indian Festival Sale Offers: Unique products from Small Businesses</h1>
+                <h1 class="f-s-26 f-c-blue f-w-9" id="top-business">Amazon Great Indian Sale Offers: Unique products from Small Businesses</h1>
                 <p class="header4 p-color-cement">Amazon is calling forth all the small scale businesses in India with skilled artisans to showcase their products on
                     this platform. And we get a chance to appreciate their skill by buying these beautifully handcrafted products from Amazon during the
                     sale at <strong>up to 70% off</strong> from amazon karigar, amazon launchpad, amazon saheli, etc.
@@ -749,7 +749,7 @@
                 <p class="f-s-20 f-c-d-greay f-w-9 txt-italic">2. Amazon Discount coupons</p>
                 <br>
                 <p class="header4 p-color-cement">You can easily <strong>collect discount coupons</strong> ranging from <strong>10% to 50% off</strong> on 7 lakh+ products from the official
-                    website of Amazon here, and can redeem during the Amazon Great Indian Sale 2019 and save a few bucks on your shopping.
+                    website of Amazon here, and can redeem during the Amazon Great Indian Sale 2020 and save a few bucks on your shopping.
                 </p>
                 <br>
                 <p class="f-s-20 f-c-d-greay f-w-9 txt-italic">3. Exchange offer </p>

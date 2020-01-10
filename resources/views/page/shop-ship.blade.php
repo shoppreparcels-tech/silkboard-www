@@ -35,7 +35,7 @@
                     <h2 class="f-c-yellow header-spacing f-s-36 font-weight-900">Shop in India, Ship
                         Worldwide</h2>
                     <h1 class="f-s-20 p-color-white header-spacing font-weight-900">Starting from
-                        <span class="p-color-yellow">₹549/-</span>
+                        <span class="p-color-yellow">₹566/-</span>
                         <span class="offerprice">690/-</span>
                     </h1>
                     <div class="col-md-4 col-md-offset-4 col-xs-12 div-diwali-coupon">
@@ -78,6 +78,7 @@
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                             <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉THE AJIO MANIA SALE </a> |
                             <a href="/myntra-online-shopping" title="clia" target="_blank">2. Myntra.com 👉GRAND CLEARANCE SALE (50-80% OFF) </a> |
+                            <a href="{{route('amazon-great')}}" title="clia" target="_blank">3. Amazon.in 👉GREAT INDIAN SALE (19th to 22nd Jan) </a>
                         </marquee>
                     </div>
                     <center>
