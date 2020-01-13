@@ -70,6 +70,7 @@
 }
 </script>
 @endsection
+
 @section('content')
 
     <section class="bg-ics-l-p">
@@ -82,11 +83,12 @@
                     {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">--}}
                 {{--</a>--}}
             {{--</div>--}}
-            <h1 class="p-color-white header-spacing d-header-text">International Courier
-                <br></h1>
-            <h1 class="header1 p-color-white header-spacing">To Canada, Starting @₹1594/-</h1>
+
             <div class="col-sm-7 col-xs-12 no-pad">
                     <div class="col-md-12 col-xs-12 no-pad">
+                        <h1 class="p-color-white header-spacing d-header-text">International Courier
+                            <br></h1>
+                        <h1 class="header1 p-color-white header-spacing">To Canada, Starting @₹1594/-</h1>
                         <table class="table table-bordered txt-a-c">
                             <tr>
                                 <td class="btn-b-y tbl-br">
@@ -127,7 +129,7 @@
                                     <p><span>Per</span> 20 Kg</p>
                                 </td>
                                 <td class="div-b-w-s tbl-br">
-                                    <h1>₹30036</h1>
+                                    <h1>₹34448</h1>
                                     <p><span>Per</span> 50 Kg</p>
                                 </td>
                             </tr>
@@ -141,7 +143,8 @@
                            <br>
                        </center>
                         <br>
-                        <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r btn-f-w">Get ₹200 Discount on your 1st Shipment.</a>
+                        <a href="https://www.shopprecouriers.com/first-time-international-courier-offer"
+                           target="_blank" class="btn btn-s-r btn-b-r btn-f-w">Get ₹200 Discount on your 1st Shipment.</a>
                     </div>
 
 
@@ -151,23 +154,32 @@
                 <form action="" method="post" id="ics_lp">
                     {{csrf_field()}}
                     <div class="formFrame " id="diwali-couponcode1" style="padding: 10px 20px!important;">
-                        <h1 class="header2 p-color-blue">Request a Callback</h1>
+                        <h1 class="header2 p-color-blue">Request A Callback/WhatsApp</h1>
                         <div class="form-group">
                             {{--<a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">--}}
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
-                            {{--</a>--}}
+
+                            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                            <script>
+                                hbspt.forms.create({
+                                    portalId: "4601740",
+                                    formId: "7a993c25-94c8-48a2-9f21-e01e3b951ede"
+                                });
+                            </script>
+
+{{--                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">--}}
+
                         </div>
 
-                        <div class="form-group text-center div-align-items-l">
-                            {{--<button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r">--}}
-                            <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>
-                            {{--</button>--}}
-                            {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
-                            <a href="http://bit.ly/shpr-perkg" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
-                            {{--</button>--}}
-                        </div>
+{{--                        <div class="form-group text-center div-align-items-l">--}}
+{{--                            --}}{{--  deactiveold  <button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r">--}}
+{{--                            <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>--}}
+{{--                            --}}{{--deactiveold </button>--}}
+{{--                            --}}{{--<button deactiveold type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
+{{--                            <a href="http://bit.ly/shpr-perkg" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>--}}
+{{--                            --}}{{-- deactiveold </button>--}}
+{{--                        </div>--}}
 
-                        <p class="f-s-8 f-c-d-greay f-w-7">We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
+{{--                        <p class="f-s-8 f-c-d-greay f-w-7">We respect your privacy very much and you'll only be contacted as per relevance by us.</p>--}}
                     </div>
 
                     <div class="formFrame  div-form-get-quote" id="diwali-couponcode2">

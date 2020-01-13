@@ -142,7 +142,8 @@
                     <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Estimate</a>
                     <br>
                     <br>
-                    <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r btn-f-w">Flat ₹200/- Off On Your First International Shipment. Use Code: FRST50</a>
+                    <a href="https://www.shopprecouriers.com/first-time-international-courier-offer"  target="_blank"
+                       class="btn btn-s-r btn-b-r btn-f-w">Flat ₹200/- Off On Your First International Shipment. Use Code: DIS200</a>
                 </div>
 
             </div>

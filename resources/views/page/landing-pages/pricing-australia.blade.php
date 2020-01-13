@@ -142,7 +142,7 @@
                     <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l">Estimate</a>
                     <br>
                     <br>
-                    <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r btn-f-w">Avail Your Discount on your First International Shipment. Use Code: FRST50</a>
+                    <a href="https://www.shopprecouriers.com/first-time-international-courier-offer" target="_blank" class="btn btn-s-r btn-b-r btn-f-w">Avail Your Discount on your First International Shipment. Use Code: DIS200</a>
                 </div>
 
             </div>
@@ -154,6 +154,7 @@
                         <h1 class="header2 p-color-blue" style="margin-bottom: 30px">Request a Callback</h1>
                         <div class="form-group">
                             {{--<a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">--}}
+
                             <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
                             {{--</a>--}}
                         </div>

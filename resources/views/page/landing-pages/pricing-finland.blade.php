@@ -128,7 +128,8 @@
                         <a href="{{route('pricing')}}" class="btn btn-l btn-s-b btn-b-b btn-a-l" title="Shipping Rates Finland">Estimate</a>
                     </center>
                     <br>
-                    <a href="/first-time-international-shipment-offer" class="btn btn-s-r btn-b-r btn-f-w f-s-14">₹200 off on your first time Shipment, Use Code: FRST50</a>
+                    <a href="https://www.shopprecouriers.com/first-time-international-courier-offer"  target="_blank"
+                       class="btn btn-s-r btn-b-r btn-f-w f-s-14">₹200 off on your first time Shipment, Use Code: DIS200</a>
                 </div>
 
             </div>

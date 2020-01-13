@@ -28,6 +28,9 @@
         .underline-color  {
             text-decoration: underline red;
         }
+        .img-shopperstop-offer {
+            display: none;
+        }
 
         .img-product {
             width: 216px;
@@ -52,11 +55,24 @@
             height: 480px !important;
         }
 
+        @media screen and (device-aspect-ratio: 40/71) {
+            .img-mobile-view {
+                width: 300px;
+            }
+        }
+
         @media only screen and (max-width:600px) {
             .img-product {
                 width: 120px !important;
             }
 
+            .img-mobile-view {
+                display: block !important;
+            }
+
+            .img-desktop-view {
+                display: none !important;
+            }
             .header-section {
                 height: 450px !important;
             }
@@ -113,18 +129,23 @@
     <section >
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
-                <div class="">
-{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale /--}}
+                <div>
+                    <a href="https://www.shoppersstop.com/" target="_blank">
+                        <img class="img-desktop-view" src="https://sslimages.shoppersstop.com/sys-master/root/h0c/h35/14208912130078/banner_00_2000x600_kurta_EN_2000W_20200108.jpg" width="1100px"></a>
+                    <center>
+                    <img class="img-mobile-view img-shopperstop-offer" src="https://sslimages.shoppersstop.com/sys-master/root/h0f/h9a/14204476850206/banner_04_640x728_eoss_EN_640W_20200109.jpg" width="350px" ></a>
+                    </center>
+                    {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale /--}}
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
 {{--                    <span class="f-s-25 f-c-red f-w-9">Big Bag Days (25-31 Oct)</span>--}}
                 </div>
+
             </div>
 
             {{--Women's Fashion --}}
             <div class="row text-center">
                 <h2 class="f-s-22 p-color-cement-dark font-weight-900 ">Women's Fashion</h2>
-                <p  class="f-s-20 f-c-red f-w-9">KEEP IT COOL AND CASUAL</p>
-
+{{--                <p  class="f-s-20 f-c-red f-w-9">KEEP IT COOL AND CASUAL</p>--}}
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
                         <a href="https://www.shoppersstop.com/women-westernwear/c-A2060?q=%3Adiscount-desc%3AinStockFlag%3Atrue%3Abrands%3AKRAUS&text=&startRange=&endRange=&showType=&icid=keepitcoolandcasual|homepg|2-1|kraus" target="_blank">
