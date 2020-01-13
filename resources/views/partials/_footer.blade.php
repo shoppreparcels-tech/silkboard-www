@@ -69,6 +69,7 @@
                     <li class="li"><a itemprop="url" class="footer-a" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>
                     <li class="li"><a class="footer-a" href="{{route('reviews')}}">ShoppRe Reviews</a></li>
                     <li class="li"><a class="footer-a" href="http://shoppretracking.aftership.com" target="_blank">Track Your Shipment</a></li>
+                    <li class="li"><a class="footer-a" href="https://expeditions.shoppre.com" target="_blank">Expeditions</a></li>
                 </ul>
             </div>
             <div class="col-md-3 col-lg-3 col-sm-7 col-xs-8 pad-5">
