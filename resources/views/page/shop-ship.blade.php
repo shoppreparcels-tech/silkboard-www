@@ -76,9 +76,9 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉THE AJIO MANIA SALE </a> |
-                            <a href="/myntra-online-shopping" title="clia" target="_blank">2. Myntra.com 👉GRAND CLEARANCE SALE (50-80% OFF) </a> |
-                            <a href="{{route('amazon-great')}}" title="clia" target="_blank">3. Amazon.in 👉GREAT INDIAN SALE (19th to 22nd Jan) </a>
+                            <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉MAKE IT A STYLISH</a> |
+                            <a href="/myntra-online-shopping" title="clia" target="_blank">2. Myntra.com 👉END OF SEASON SALE</a>
+{{--                            <a href="{{route('amazon-great')}}" title="clia" target="_blank">3. Amazon.in 👉GREAT INDIAN SALE (19th to 22nd Jan) </a>--}}
                         </marquee>
                     </div>
                     <center>

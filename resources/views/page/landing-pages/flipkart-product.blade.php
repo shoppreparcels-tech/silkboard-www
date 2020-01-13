@@ -140,7 +140,7 @@
             <div class="row">
                 <div class="">
                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">👉<span class="f-s-25 f-c-red f-w-9"><a
-                                href="https://clnk.in/kcyU" target="_blank">WINTER TOP BRANDS(40-80% Off)</a></span> /
+                                href="https://www.flipkart.com/fashion-trendy-ikfc4-store" target="_blank">STYLE YOUR WINTER(40-80% Off)</a></span> /
                         Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
                 {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}

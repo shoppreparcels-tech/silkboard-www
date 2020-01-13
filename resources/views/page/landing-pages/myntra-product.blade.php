@@ -387,7 +387,7 @@
             </div>
 
             <div class="row text-center">
-                <p class="f-s-20"><span class="f-c-red f-w-9"><a href="https://clnk.in/j1sN" target="_blank">Grand Clearance Sale (50-80% OFF) 9-12 Jan 2020</a></span></p>
+                <p class="f-s-20"><span class="f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">END OF SEASON SALE(40-80% OFF)</a></span></p>
                 <br>
                     <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Myntra Women's Fashion</h2>
 

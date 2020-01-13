@@ -1,12 +1,12 @@
 @extends('layout')
 
-@section('title', 'First International Shipment Cashback | Discount • ShoppRe.com™')
-@section('description', 'Get 50% Discount on your First-time international shipment from India. Additionally get 80% lesser shipping cost with our package consolidation services.')
-@section('keywords', 'free shipment process, cashback, shipment, consolidation, repackaging')
+@section('title', '')
+@section('description', '')
+@section('keywords', '')
 
 @section('css_style')
+    <meta name="robots" content="noindex">
 
-    <link rel="canonical" href="https://www.shoppre.com/first-time-international-shipment-offer" />
 
     <meta property="og:title" content="International Shipment on ShoppRe" />
     <meta property="og:type" content="website" />

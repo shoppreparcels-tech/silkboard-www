@@ -100,11 +100,11 @@
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
-                    <a href="https://clnk.in/j1sN" target="_blank"><div class="shopandship ">
-                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Grand Clearance Sale</h2>
+                    <a href="https://www.myntra.com/" target="_blank"><div class="shopandship ">
+                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">End Of Season Sale</h2>
                             <br/>
-                            <p>50-80% Off (9-12 Jan)</p>
-                            <p>Crafted For The Stylish</p>
+                            <p>40-70% Off</p>
+                            <p>Apparel, Accessories, & more!</p>
                             <p>👉 Explore Now</p>
                         </div></a>
                 </div>
@@ -144,7 +144,7 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <span class="f-s-16 f-c-red f-w-9"><a href="/myntra-online-shopping" target="_blank">Grand Clearance Sale(50-80% OFF) </a></span> & Get ₹200 discount on your 1st International Shipment.
+                        <span class="f-s-16 f-c-red f-w-9"><a href="/myntra-online-shopping" target="_blank">End Of Season Sale(40-70% OFF) </a></span> & Get ₹200 discount on your 1st International Shipment.
                             </marquee>
                    <center>
                        <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">

@@ -114,7 +114,7 @@
             <div class="row">
                 <div class="">
                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">👉 <a
-                                href="https://www.amazon.in/b?node=6648217031" target="_blank">END OF SEASON SALE</a> (Up To 70% OFF)</span> /
+                                href="https://www.amazon.in/b?node=6648217031" target="_blank">New Year, New You</a> (Up To 70% OFF)</span> /
                         Below are the Recommended & Recently Shipped Products!</h2>
 {{--                    <span class="f-s-25 f-c-red f-w-9">Big Bag Days (25-31 Oct)</span>--}}
                 </div>

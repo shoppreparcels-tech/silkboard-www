@@ -50,7 +50,7 @@
             <div class="row">
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - JAN 2020 SALE
-                        <br> [ 👉 <a href="https://clnk.in/kcyU" target="_blank">WINTER TOP BRANDS</a> 40-85% Off]</h2>
+                        <br> [ 👉 <a href="https://www.flipkart.com/fashion-trendy-ikfc4-store" target="_blank">STYLE YOUR WINTER</a> From ₹499]</h2>
                 </div>
             </div>
             <div class="row text-center">
