@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'Myntra Independence Sale - Right To Fashion Sale: 9th to 12th August')
-@section('description', 'Myntra Right to Fashion sale is for every Indian with extraordinary offers and discounts available. Myntra online shipping from India through ShoppRe.')
+@section('title', 'Myntra Republic Day Sale - Right To Fashion Sale: 18ty to 21st January')
+@section('description', 'Myntra Right to Fashion sale is for every Indian with extraordinary offers and discounts available. Myntra online shipping from India through ShoppRe')
 @section('keywords', 'right to fashion sale, myntra, online shopping, international shipping, top 10 online shopping sites')
 
 @section('css_style')
@@ -25,7 +25,7 @@
                     <a href="{{route('customer.register')}}"><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/tape_signup.svg" alt="" > </a> <br>
                 </center>
                 <center>
-                    <h18 class="f-s-50 f-c-white  f-w-9">₹250 Cashback</h18>
+                    <h18 class="f-s-50 f-c-white  f-w-9">₹200 Cashback</h18>
                     <p class="f-s-28 f-c-white f-w-9 ">on your MYNTRA international shipment </p> <br>
                     {{--<img src="{{env('AWS_CLOUD_FRONT')}}/img/images/f-s-t-coupon.png" alt="" > <br><br>--}}
                     <a href="{{route('customer.register')}}" target="_blank" class="btn btn-s-r btn-b-r btn-a-l ">Sign UP FREE</a>
@@ -33,8 +33,8 @@
                     <br>
                     <br>
                     <p class="f-s-15 f-c-l-gray f-w-8">Shop during Myntra Right To Fashion Sale and Ship to your country</p>
-                    <p class="f-s-12 f-c-l-gray f-w-8">Offer Code for Shipping: IND250</p>
-                    <p class="f-s-12 f-c-l-gray f-w-8">Valid: 08th - 20th August 2019</p>
+                    <p class="f-s-12 f-c-l-gray f-w-8">Get ₹200 Cashback on International Shipping </p>
+                    <p class="f-s-12 f-c-l-gray f-w-8">Valid: 22nd - 29th January 2020</p>
 
 
                 </center>
@@ -49,11 +49,11 @@
         <div class="container fst-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Myntra.com Right To Fashion Sale ( From 9th to 12th August 2019 )
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Myntra.com Right To Fashion Sale ( From 18th to 21st January 2020 )
                     </h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
-                    <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20MYNTRA%20Right%20To%20Fashion%20Sale%20from%20India%20and%20Ship%20Worldwide?" target="_blank" class="c-image">
+                    <a href="https://api.whatsapp.com/send?phone=919148357733&text=Can%20I%20Shop%20MYNTRA%20Right%20To%20Fashion%20Sale%20from%20India%20and%20Ship%20Worldwide?" target="_blank" class="c-image">
                         <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/9880393291-shop-ship-contact-number.png" alt="shop and ship number shoppre">
                     </a>
                 </div>
@@ -61,11 +61,11 @@
             <div class=" col-md-12 no-pad">
                 <br>
                 <p class="header4 p-color-cement">
-                    <strong>Myntra right to fashion sale: 9th to 12th august, 2019- Get amazing offers and discounts up to 50-80% to celebrate the 73rd Independence Day of India.</strong>
+                    <strong>Myntra right to fashion sale: 18th to 21st January 2020 - Get amazing offers and discounts up to 50-80% to celebrate the Republic Day of India.</strong>
                     <br><br>
                     It is the right time to turn over a new leaf in your life with the astounding Right to fashion sale from Myntra, and become one with the newest fashion trends in the world by
                     unleashing the fashionista in you. With Myntra being the biggest online fashion shopping store in India, it is bound to give some jaw-dropping deals and offers during the
-                    Sale that will be happening from 9th to 12th August on the occasion of 73rd independence day.
+                    Sale that will be happening from 18th to 21st January 2020 on the occasion of Republic Day of India.
                     <br><br>
                     It has made every fashion buff exhilarate with enthusiasm by offering a whopping 50%- 80% off on 1 lakh+ styles sitewide on some prime national and international brands,
                     hence giving them one more reason for Myntra online shopping from India, not that they need one though!
@@ -73,7 +73,7 @@
                 <br>
                 <ul>
                     <li>
-                        <h4><a href="#myntra-fashion">Offers during the myntra right to fashion sale, 2019</a></h4>
+                        <h4><a href="#myntra-fashion">Offers during the myntra right to fashion sale, 2020</a></h4>
                     </li>
                     <li>
                         <h4><a href="#myntra-category">Offers during the myntra fashion sale-category wise</a></h4>
@@ -91,7 +91,7 @@
                 </p><br>
                 <p class="header4 p-color-cement">
                     But since Myntra does not make international shipping yet, all the NRI/PIOs can avail <a
-                            href="/myntra-online-shopping-shipping-from-india" target="_blank">Myntra international shipping</a> during this magnificent independence day sale on
+                            href="/myntra-online-shopping-shipping-from-india" target="_blank">Myntra international shipping</a> during this magnificent republic day sale on
                     Myntra India through ShoppRe’s reliable, fast, safe, secure and cheap international shipping services from India.
                 </p><br>
                 <p class="header4 p-color-cement">
@@ -116,11 +116,11 @@
                     </li>
                 </ul>
                 <br>
-                <h4 class="f-s-18 f-c-blue f-w-9" id="#myntra-fashion">Offers during the myntra right to fashion sale, 2019</h4>
+                <h4 class="f-s-18 f-c-blue f-w-9" id="#myntra-fashion">Offers during the myntra right to fashion sale, 2020</h4>
                 <br>
                 <p class="header4 p-color-cement">To embark you on your journey of shopping and get you started for your shopping bonanza
                     Myntra just made the sale sweeter with some insane and maddening offers. So transform your old self and indulge in the fashion realm by
-                    treating yourself with all the feasts that Myntra has to offer this independence day.
+                    treating yourself with all the feasts that Myntra has to offer this Republic Day of India.
                 </p>
                 <br>
                 <p class="header4 p-color-cement">
@@ -230,7 +230,7 @@
                 </p>
                 <br>
                 <p class="header4 p-color-cement">
-                    So fulfill all your dreams of wearing branded clothes and accessories this independence day and feel the freedom to shop more and more with these exclusive offers and deals.
+                    So fulfill all your dreams of wearing branded clothes and accessories this republic day and feel the freedom to shop more and more with these exclusive offers and deals.
                 </p>
                 <br>
                 <div >
@@ -295,177 +295,181 @@
                 </p>
             </div>
             <br>
+            <br>
             <div>
-                <center><a href="https://www.myntra.com/shop/rtf19-prebuzz" target="_blank" class="btn btn-s-r btn-a-l btn-b-r">Shop Myntra Right To Fashion Sale</a></center>
+                <center><a href="https://www.myntra.com/shop/rtf20-prebuzz" target="_blank" class="btn btn-s-r btn-a-l btn-b-r">Shop Myntra Right To Fashion Sale</a></center>
             </div>
+            <br>
         </div>
 
         <br>
         <br>
     </section>
+    <br>
+    <br>
 
-    <section>
-        <div class="container fst-service" style="margin-top: 1px">
-            <div class="row">
-                <div class="col-md-8 col-xs-12">
-                        <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Best Online Shopping Sites in India</h2>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                            AJIO
-                        </div>
+{{--    <section>--}}
+{{--        <div class="container fst-service" style="margin-top: 1px">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-md-8 col-xs-12">--}}
+{{--                        <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Best Online Shopping Sites in India</h2>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="row text-center">--}}
+{{--                <div class="col-sm-4 col-xs-12 col-md-4">--}}
+{{--                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">--}}
+{{--                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">--}}
+{{--                            AJIO--}}
+{{--                        </div>--}}
 
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="ajio-online-shopping-international-shipping" target="_blank"> <span class="elementor-icon-list-icon">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
-                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">AJIO Online Shopping from India</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                            FLIPKART
-                        </div>
+{{--                        <div class="col-md-12 col-xs-12 no-pad">--}}
+{{--                            <a href="ajio-online-shopping-international-shipping" target="_blank"> <span class="elementor-icon-list-icon">--}}
+{{--                                <i class="fa fa-plane" aria-hidden="true"></i>--}}
+{{--                                </span>--}}
+{{--                                <span class="elementor-icon-list-text txt-u-l">AJIO Online Shopping from India</span>--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4 col-xs-12 col-md-4">--}}
+{{--                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">--}}
+{{--                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">--}}
+{{--                            FLIPKART--}}
+{{--                        </div>--}}
 
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="flipkart-shopping-with-shoppre-from-india" target="_blank"> <span class="elementor-icon-list-icon">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
-                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">Flipkart Online Shopping from India</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                            AMAZON
-                        </div>
+{{--                        <div class="col-md-12 col-xs-12 no-pad">--}}
+{{--                            <a href="flipkart-shopping-with-shoppre-from-india" target="_blank"> <span class="elementor-icon-list-icon">--}}
+{{--                                <i class="fa fa-plane" aria-hidden="true"></i>--}}
+{{--                                </span>--}}
+{{--                                <span class="elementor-icon-list-text txt-u-l">Flipkart Online Shopping from India</span>--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4 col-xs-12 col-md-4">--}}
+{{--                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">--}}
+{{--                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">--}}
+{{--                            AMAZON--}}
+{{--                        </div>--}}
 
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" target="_blank"> <span class="elementor-icon-list-icon">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
-                                </span>
-                                <span class="elementor-icon-list-text txt-u-l">Amazon.in India Online Shopping</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                            SNAPDEAL
-                        </div>
+{{--                        <div class="col-md-12 col-xs-12 no-pad">--}}
+{{--                            <a href="https://ship.shoppre.com/shopping-from-amazon-in-india-shipping-worldwide/" target="_blank"> <span class="elementor-icon-list-icon">--}}
+{{--                                <i class="fa fa-plane" aria-hidden="true"></i>--}}
+{{--                                </span>--}}
+{{--                                <span class="elementor-icon-list-text txt-u-l">Amazon.in India Online Shopping</span>--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4 col-xs-12 col-md-4">--}}
+{{--                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">--}}
+{{--                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">--}}
+{{--                            SNAPDEAL--}}
+{{--                        </div>--}}
 
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/online-stores-india/snapdeal-international-delivery-shopping-from-india/" target="_blank"> <span class="elementor-icon-list-icon">
-                                   <i class="fa fa-plane" aria-hidden="true"></i>
-                                   </span>
-                                <span class="elementor-icon-list-text txt-u-l">Snapdeal Shopping from India</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                            JAYPORE
-                        </div>
+{{--                        <div class="col-md-12 col-xs-12 no-pad">--}}
+{{--                            <a href="https://ship.shoppre.com/online-stores-india/snapdeal-international-delivery-shopping-from-india/" target="_blank"> <span class="elementor-icon-list-icon">--}}
+{{--                                   <i class="fa fa-plane" aria-hidden="true"></i>--}}
+{{--                                   </span>--}}
+{{--                                <span class="elementor-icon-list-text txt-u-l">Snapdeal Shopping from India</span>--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4 col-xs-12 col-md-4">--}}
+{{--                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">--}}
+{{--                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">--}}
+{{--                            JAYPORE--}}
+{{--                        </div>--}}
 
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="jaypore-international-shipping-from-india" target="_blank"> <span class="elementor-icon-list-icon">
-                               <i class="fa fa-plane" aria-hidden="true"></i>
-                               </span>
-                                <span class="elementor-icon-list-text txt-u-l">Jaypore Shopping from India</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                            MYNTRA
-                        </div>
+{{--                        <div class="col-md-12 col-xs-12 no-pad">--}}
+{{--                            <a href="jaypore-international-shipping-from-india" target="_blank"> <span class="elementor-icon-list-icon">--}}
+{{--                               <i class="fa fa-plane" aria-hidden="true"></i>--}}
+{{--                               </span>--}}
+{{--                                <span class="elementor-icon-list-text txt-u-l">Jaypore Shopping from India</span>--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4 col-xs-12 col-md-4">--}}
+{{--                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">--}}
+{{--                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">--}}
+{{--                            MYNTRA--}}
+{{--                        </div>--}}
 
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="myntra-online-shopping-shipping-from-india" target="_blank"> <span class="elementor-icon-list-icon">
-                               <i class="fa fa-plane" aria-hidden="true"></i>
-                               </span>
-                                <span class="elementor-icon-list-text txt-u-l">Myntra Shopping from India</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                            LIMEROAD
-                        </div>
+{{--                        <div class="col-md-12 col-xs-12 no-pad">--}}
+{{--                            <a href="myntra-online-shopping-shipping-from-india" target="_blank"> <span class="elementor-icon-list-icon">--}}
+{{--                               <i class="fa fa-plane" aria-hidden="true"></i>--}}
+{{--                               </span>--}}
+{{--                                <span class="elementor-icon-list-text txt-u-l">Myntra Shopping from India</span>--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4 col-xs-12 col-md-4">--}}
+{{--                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">--}}
+{{--                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">--}}
+{{--                            LIMEROAD--}}
+{{--                        </div>--}}
 
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="limeroad-shopping-international-shipping" target="_blank"> <span class="elementor-icon-list-icon">
-                               <i class="fa fa-plane" aria-hidden="true"></i>
-                               </span>
-                                <span class="elementor-icon-list-text txt-u-l">Limeroad Shopping from India</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                            NYKAA
-                        </div>
+{{--                        <div class="col-md-12 col-xs-12 no-pad">--}}
+{{--                            <a href="limeroad-shopping-international-shipping" target="_blank"> <span class="elementor-icon-list-icon">--}}
+{{--                               <i class="fa fa-plane" aria-hidden="true"></i>--}}
+{{--                               </span>--}}
+{{--                                <span class="elementor-icon-list-text txt-u-l">Limeroad Shopping from India</span>--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4 col-xs-12 col-md-4">--}}
+{{--                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">--}}
+{{--                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">--}}
+{{--                            NYKAA--}}
+{{--                        </div>--}}
 
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/online-stores-india/nykaa-india-beauty-products-international-shipping/" target="_blank"> <span class="elementor-icon-list-icon">
-                               <i class="fa fa-plane" aria-hidden="true"></i>
-                               </span>
-                                <span class="elementor-icon-list-text txt-u-l">Nykaa Beauty Shopping</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-12 col-md-4">
-                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">
-                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">
-                            BIBA
-                        </div>
+{{--                        <div class="col-md-12 col-xs-12 no-pad">--}}
+{{--                            <a href="https://ship.shoppre.com/online-stores-india/nykaa-india-beauty-products-international-shipping/" target="_blank"> <span class="elementor-icon-list-icon">--}}
+{{--                               <i class="fa fa-plane" aria-hidden="true"></i>--}}
+{{--                               </span>--}}
+{{--                                <span class="elementor-icon-list-text txt-u-l">Nykaa Beauty Shopping</span>--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4 col-xs-12 col-md-4">--}}
+{{--                    <div class="col-sm-12 col-xs-12 col-md-12 shopandship">--}}
+{{--                        <div class="col-md-12 col-xs-12 no-pad UAE-div1">--}}
+{{--                            BIBA--}}
+{{--                        </div>--}}
 
-                        <div class="col-md-12 col-xs-12 no-pad">
-                            <a href="https://ship.shoppre.com/online-stores-india/biba-india-international-shipping/" target="_blank"> <span class="elementor-icon-list-icon">
-                               <i class="fa fa-plane" aria-hidden="true"></i>
-                               </span>
-                                <span class="elementor-icon-list-text txt-u-l">BIBA.in Shopping from India</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mar-t-25">
-                <div class="txt-center">
-                    <button type="button" class="btn btn-warning bord-rad-5 margin-r-10">
-                        <a href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
-                            <p class="btn-md">Indian Online Shopping Stores</p>
-                        </a>
-                    </button>
-                    <button type="button" class="btn btn-success bord-rad-5 margin-r-10">
-                        <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20from%20India%20and%20Ship%20Worldwide?" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">
-                            <p class="btn-md">Message Us On WhatsApp</p>
-                        </a>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-    </section>
+{{--                        <div class="col-md-12 col-xs-12 no-pad">--}}
+{{--                            <a href="https://ship.shoppre.com/online-stores-india/biba-india-international-shipping/" target="_blank"> <span class="elementor-icon-list-icon">--}}
+{{--                               <i class="fa fa-plane" aria-hidden="true"></i>--}}
+{{--                               </span>--}}
+{{--                                <span class="elementor-icon-list-text txt-u-l">BIBA.in Shopping from India</span>--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="mar-t-25">--}}
+{{--                <div class="txt-center">--}}
+{{--                    <button type="button" class="btn btn-warning bord-rad-5 margin-r-10">--}}
+{{--                        <a href="https://www.shoppre.com/cheap-rates-international-shipping-cost-calculator" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">--}}
+{{--                            <p class="btn-md">Indian Online Shopping Stores</p>--}}
+{{--                        </a>--}}
+{{--                    </button>--}}
+{{--                    <button type="button" class="btn btn-success bord-rad-5 margin-r-10">--}}
+{{--                        <a href="https://api.whatsapp.com/send?phone=919880393291&text=Can%20I%20Shop%20from%20India%20and%20Ship%20Worldwide?" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" target="_blank" role="button">--}}
+{{--                            <p class="btn-md">Message Us On WhatsApp</p>--}}
+{{--                        </a>--}}
+{{--                    </button>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <br>--}}
+{{--        <br>--}}
+{{--    </section>--}}
 
     <section class="d-contact-details-section">
         <div class="container " id="contact-support">
@@ -482,7 +486,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 
@@ -527,7 +531,7 @@
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
-                    <a href="tel:+91-9880393291" class="header2 p-color-white">+91 98803 93291</a>
+                    <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 

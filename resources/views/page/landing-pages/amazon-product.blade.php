@@ -24,6 +24,9 @@
             transition: transform .2s; /* Animation */
             margin: 0 auto;
         }
+        .img-shopperstop-offer {
+            display: none;
+        }
 
         .underline-color  {
             text-decoration: underline red;
@@ -52,9 +55,22 @@
             height: 480px !important;
         }
 
+        @media screen and (device-aspect-ratio: 40/71) {
+            .img-mobile-view {
+                width: 300px;
+            }
+        }
+
         @media only screen and (max-width:600px) {
             .img-product {
                 width: 120px !important;
+            }
+            .img-mobile-view {
+                display: block !important;
+            }
+
+            .img-desktop-view {
+                display: none !important;
             }
 
             .header-section {
@@ -113,9 +129,17 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">👉 <a
-                                href="https://www.amazon.in/b?node=6648217031" target="_blank">New Year, New You</a> (Up To 70% OFF)</span> /
-                        Below are the Recommended & Recently Shipped Products!</h2>
+
+                    <a href="https://www.amazon.in/b?node=5731634031" target="_blank">
+                        <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/10e9b096-782c-4a4e-8eb7-e26834ac6ace.png" width="1100px"></a>
+                    <center>
+                        <a href="https://www.amazon.in/b?node=5731634031" target="_blank">
+                            <img class="img-mobile-view img-shopperstop-offer" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/321df62a-6299-4fe4-8dce-ad89457308f1.png" width="350px" ></a>
+                    </center>
+{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">👉 <a--}}
+{{--                                href="https://www.amazon.in/b?node=6648217031" target="_blank">New Year, New You</a> (Up To 70% OFF)</span> /--}}
+{{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
+
 {{--                    <span class="f-s-25 f-c-red f-w-9">Big Bag Days (25-31 Oct)</span>--}}
                 </div>
 

@@ -123,9 +123,11 @@
     <section>
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="/ajio-online-shopping" title="Amazon" target="_blank">1. AJIO.com 👉MAKE IT A STYLISH</a> |
-                <a href="/myntra-online-shopping" title="clia" target="_blank">2. Myntra.com 👉END OF SEASON SALE</a>
-{{--                <a href="{{route('amazon-great')}}" title="clia" target="_blank">3. Amazon.in 👉GREAT INDIAN SALE (19th to 22nd Jan) </a>--}}
+
+                <a href="/myntra-online-shopping-shipping-from-india" title="myntra" target="_blank">1. 👉RIGHT TO FASHION SALE (18-21 Jan) </a> |
+                <a href="/flipkart-shopping-with-shoppre-from-india" title="flipkart" target="_blank">2. 👉THE REPUBLIC DAY SALE(19-22 Jan)</a> |
+                <a href="/amazon-india-shop-international-shipping" title="amazon" target="_blank">3. 👉GREAT INDIAN SALE(19-22 Jan)</a>
+
             </marquee>
         </div>
         <div class="container" id="how-it-works">

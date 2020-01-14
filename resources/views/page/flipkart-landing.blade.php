@@ -24,6 +24,31 @@
 
     <style>
         .bg-ics-landing-page .container>div{padding:20px;margin-bottom:3em}.d-header-text{font-size:40px;font-weight:900}.d-header-text1{font-family:Montserrat -Italic;font-style:italic;line-height:26px;margin-top:25px}.box-steps p{line-height:1}.box-steps p span{font-size:22px;font-weight:900}.flipkart-h1{font-size:25px}.christmas-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.christmas-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}#packing:hover{display:none}
+
+        .img-shopperstop-offer {
+            display: none;
+        }
+
+        @media screen and (device-aspect-ratio: 40/71) {
+            .img-mobile-view {
+                width: 300px;
+            }
+        }
+
+
+        @media only screen and (max-width:600px) {
+            .img-product {
+                width: 120px !important;
+            }
+
+            .img-mobile-view {
+                display: block !important;
+            }
+
+            .img-desktop-view {
+                display: none !important;
+            }
+        }
     </style>
 
     <div itemscope itemtype="http://schema.org/Organization">
@@ -50,51 +75,58 @@
             <div class="row">
                 <div class="col-md-8 col-xs-12">
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - JAN 2020 SALE
-                        <br> [ 👉 <a href="https://www.flipkart.com/fashion-trendy-ikfc4-store" target="_blank">STYLE YOUR WINTER</a> From ₹499]</h2>
+{{--                        <br> [ 👉 <a href="https://www.flipkart.com/fashion-trendy-ikfc4-store" target="_blank">STYLE YOUR WINTER</a> From ₹499]</h2>--}}
+
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <a href="https://clnk.in/jWEU" title="Click Here to Shop" target="_blank">
-                        <div class="shopandship ">
-                                <h2>Top Brands On Discount</h2>
-                                <br>
-                                <p>Levi's, Flying Machine & more</p>
-                                <p>From ₹499</p>
-                                <p>👉 Explore Now</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone" title="Click Here to Shop" target="_blank">
-                    <div class="ps">
-                        <h2>Flipkart Offers & Deals</h2>
-                        <br>
-                        <p>Deals of the Day</p>
-                        <p>Mobile, Wardrobes & more</p>
-                        <p>👉 Shop Now</p>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="https://www.flipkart.com/women/kurtas-kurtis/pr?sid=2oq%2Cc1r%2C3pj%2Cua6&p%5B%5D=facets.price_range.from%3D399&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.brand%255B%255D%3DAnmi&nnc=WQZSJ5V6VSJL&otracker=bp_browse_announcement_2oq%2Cc1r%2C3pj" target="_blank"><div class="ic">
-                            <h2>Anmi Kurtas & Kurtis</h2>
-                            <br>
-                            <p>Women Kurta</p>
-                            <p>Starting ₹399</p>
-                            <p>👉 Explore Now</p>
-                        </div></a>
-                </div>
-            </div>
+             <a href="https://www.flipkart.com/republic-day-sale-store" target="_blank">
+                        <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/466affe4-49b1-4bd1-9758-e44240913dd9.png" width="1100px"></a>
+                    <center>
+                        <a href="https://www.flipkart.com/republic-day-sale-store" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer" src="https://rukminim1.flixcart.com/flap/750/534/image/fa3d4db97c1cce1b.jpg" width="300px" ></a>
+                    </center>
+{{--            <div class="row text-center">--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <a href="https://clnk.in/jWEU" title="Click Here to Shop" target="_blank">--}}
+{{--                        <div class="shopandship ">--}}
+{{--                                <h2>Top Brands On Discount</h2>--}}
+{{--                                <br>--}}
+{{--                                <p>Levi's, Flying Machine & more</p>--}}
+{{--                                <p>From ₹499</p>--}}
+{{--                                <p>👉 Explore Now</p>--}}
+{{--                        </div>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <a href="https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone" title="Click Here to Shop" target="_blank">--}}
+{{--                    <div class="ps">--}}
+{{--                        <h2>Flipkart Offers & Deals</h2>--}}
+{{--                        <br>--}}
+{{--                        <p>Deals of the Day</p>--}}
+{{--                        <p>Mobile, Wardrobes & more</p>--}}
+{{--                        <p>👉 Shop Now</p>--}}
+{{--                    </div>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <a href="https://www.flipkart.com/women/kurtas-kurtis/pr?sid=2oq%2Cc1r%2C3pj%2Cua6&p%5B%5D=facets.price_range.from%3D399&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.brand%255B%255D%3DAnmi&nnc=WQZSJ5V6VSJL&otracker=bp_browse_announcement_2oq%2Cc1r%2C3pj" target="_blank"><div class="ic">--}}
+{{--                            <h2>Anmi Kurtas & Kurtis</h2>--}}
+{{--                            <br>--}}
+{{--                            <p>Women Kurta</p>--}}
+{{--                            <p>Starting ₹399</p>--}}
+{{--                            <p>👉 Explore Now</p>--}}
+{{--                        </div></a>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
             <div class=" col-md-12 offer-description">
 
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
                         <center>
-                            <a href="https://clnk.in/itIp" title="Shop Flipkart & Ship Worldwide through ShoppRe" target="_blank">
+{{--                            <a href="https://clnk.in/itIp" title="Shop Flipkart & Ship Worldwide through ShoppRe" target="_blank">--}}
                                 <img src="{{env('AWS_CLOUD_FRONT')}}/img/stores/flipkart-international-shopping.png" alt="flipkart.com">
-                            </a>
+{{--                            </a>--}}
                                     <div itemscope="" itemtype="http://data-vocabulary.org/Review-aggregate">
                                         <span itemprop="itemreviewed">Flipkart International Shipping with ShoppRe.com</span>
                                         <span itemprop="rating" itemscope="" itemtype="http://data-vocabulary.org/Rating">

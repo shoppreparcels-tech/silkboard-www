@@ -25,6 +25,32 @@
     <meta name="twitter:image:alt" content="shoppre international shipping" />
     <style>
         .bg-amazon-landing-page{background-image:url(../../img/images/overlay1.png);height:560px;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.bg-amazon-landing-page .container>div{margin-bottom:3em}.d-header-text{font-size:40px;font-weight:900}.d-header-text1{font-family:Montserrat -Italic;font-style:italic;line-height:26px;margin-top:25px}.christmas-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-121px;padding:20px}.box-steps p{line-height:1}.box-steps p span{font-size:22px;font-weight:900}.flipkart-h1{font-size:25px}.christmas-service .shopandship,.ic,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.christmas-service .shopandship,.ic,.ps,p{color:#fff;font-size:16px;font-weight:600}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}#packing:hover{display:none}@media only screen and (max-width:600px){.bg-amazon-landing-page{height:628px}}
+
+        .img-shopperstop-offer {
+            display: none;
+        }
+
+        @media screen and (device-aspect-ratio: 40/71) {
+            .img-mobile-view {
+                width: 300px;
+            }
+        }
+
+
+        @media only screen and (max-width:600px) {
+            .img-product {
+                width: 120px !important;
+            }
+
+            .img-mobile-view {
+                display: block !important;
+            }
+
+            .img-desktop-view {
+                display: none !important;
+            }
+        }
+
     </style>
 
 @endsection
@@ -57,43 +83,49 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>
                 </div>
             </div>
-            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in Sales, Offers & More</h2>
+            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in GREAT INDIAN SALE (19th-22nd JAN)</h2>
             <div class="row text-center">
-                <div class="col-sm-4">
+                <a href="https://www.amazon.in/b?node=5731634031" target="_blank">
+                    <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/10e9b096-782c-4a4e-8eb7-e26834ac6ace.png" width="1100px"></a>
+                <center>
+                    <a href="https://www.amazon.in/b?node=5731634031" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/321df62a-6299-4fe4-8dce-ad89457308f1.png" width="310px" ></a>
+                </center>
+{{--                <div class="col-sm-4">--}}
 
-                    <div class="shopandship ">
-                        <a href="/amazon-online-shopping" target="_blank">
-                        <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">GREAT INDIAN SALE</h2>
-                        <br/>
-                        <p>19th - 22nd JAN</p><br>
-                        <p>👉 Explore More</p>
-                        </a>
-                    </div>
+{{--                    <div class="shopandship ">--}}
+{{--                        <a href="/amazon-online-shopping" target="_blank">--}}
+{{--                        <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">GREAT INDIAN SALE</h2>--}}
+{{--                        <br/>--}}
+{{--                        <p>19th - 22nd JAN</p><br>--}}
+{{--                        <p>👉 Explore More</p>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
 
-                </div>
-                <div class="col-sm-4">
-                    <div class="ps">
-                        <a href="https://www.amazon.in/gp/goldbox?ref_=nav_topnav_deals" target="_blank">
-                        <h2>TODAY's DEALS</h2>
-                        <br>
-                        <p>Great Savings💰</p>
-                            <br>
-                        <p>Every Day. Shop from Deal of the Day</p>
-                        </a>
-                    </div>
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="ps">--}}
+{{--                        <a href="https://www.amazon.in/gp/goldbox?ref_=nav_topnav_deals" target="_blank">--}}
+{{--                        <h2>TODAY's DEALS</h2>--}}
+{{--                        <br>--}}
+{{--                        <p>Great Savings💰</p>--}}
+{{--                            <br>--}}
+{{--                        <p>Every Day. Shop from Deal of the Day</p>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
 
-                </div>
-                <div class="col-sm-4">
-                    <div class="ic">
-                        <a href="https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?pf_rd_p=7ae8bb23-c2d2-4277-a4e5-a651d0266ae5&pf_rd_r=7ESE2NPQ9X117ZSGFYT0" target="_blank">
-                        <h2>BARGAIN FINDS</h2>
-                        <br>
-                        <p>Under ₹400</p>
-                            <br>
-                        <p>Men's, Women's, Kids & More </p>
-                        </a>
-                    </div>
-                </div>
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <div class="ic">--}}
+{{--                        <a href="https://www.amazon.in/Low-Price-With-Free-Shipping/bbp?pf_rd_p=7ae8bb23-c2d2-4277-a4e5-a651d0266ae5&pf_rd_r=7ESE2NPQ9X117ZSGFYT0" target="_blank">--}}
+{{--                        <h2>BARGAIN FINDS</h2>--}}
+{{--                        <br>--}}
+{{--                        <p>Under ₹400</p>--}}
+{{--                            <br>--}}
+{{--                        <p>Men's, Women's, Kids & More </p>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
 
             <div class=" col-md-12 offer-description">

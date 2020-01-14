@@ -24,7 +24,9 @@
             transition: transform .2s; /* Animation */
             margin: 0 auto;
         }
-
+        .img-shopperstop-offer {
+            display: none;
+        }
         .underline-color  {
             text-decoration: underline red;
         }
@@ -51,12 +53,23 @@
         .header-section {
             height: 480px !important;
         }
+        @media screen and (device-aspect-ratio: 40/71) {
+            .img-mobile-view {
+                width: 300px;
+            }
+        }
 
         @media only screen and (max-width:600px) {
             .img-product {
                 width: 120px !important;
             }
+            .img-mobile-view {
+                display: block !important;
+            }
 
+            .img-desktop-view {
+                display: none !important;
+            }
             .header-section {
                 height: 450px !important;
             }
@@ -137,9 +150,15 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9"><a
-                                href="https://www.tatacliq.com/end-of-season-sale?&icid2=eoss:boc:tmain:hmp:m00:mulb:best:01:R18:them:Bx:001" target="_blank">End Of Season Sale - Up To 75% OFF</a></span>
-                        / Below are the Recommended & Recently Shipped Products!</h2>
+                    <center>
+                        <a href="https://www.tatacliq.com/womens-clothing-western-wear-dresses/c-msh1016100?q=%3Arelevance%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH11A00015%3Abrand%3AMBH11B10350%3Abrand%3AMBH11A00006%3Abrand%3AMBH11A00050%3Abrand%3AMBH11A00166%3Abrand%3AMBH11A00001%3Abrand%3AMBH11B10366%3Abrand%3AMBH11B10546&icid2=hero:hbr:clp:wom:m1016100:mulb:best:01:R2:clp:bx:001" target="_blank">
+                            <img class="img-desktop-view" src="//assets.tatacliq.com/medias/sys_master/images/16778509451294.jpg" width="1100px"></a>
+                        <a href="https://www.tatacliq.com/womens-clothing-western-wear-dresses/c-msh1016100?q=%3Arelevance%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3Acategory%3AMSH1016100%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH11A00015%3Abrand%3AMBH11B10350%3Abrand%3AMBH11A00006%3Abrand%3AMBH11A00050%3Abrand%3AMBH11A00166%3Abrand%3AMBH11A00001%3Abrand%3AMBH11B10366%3Abrand%3AMBH11B10546&icid2=hero:hbr:clp:wom:m1016100:mulb:best:01:R2:clp:bx:001" target="_blank">
+                            <img class="img-mobile-view img-shopperstop-offer" src="https://assets.tatacliq.com/medias/sys_master/images/16775707918366.jpg" width="310px" ></a>
+                    </center>
+{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9"><a--}}
+{{--                                href="https://www.tatacliq.com/end-of-season-sale?&icid2=eoss:boc:tmain:hmp:m00:mulb:best:01:R18:them:Bx:001" target="_blank">End Of Season Sale - Up To 75% OFF</a></span>--}}
+{{--                        / Below are the Recommended & Recently Shipped Products!</h2>--}}
                 </div>
 
             </div>

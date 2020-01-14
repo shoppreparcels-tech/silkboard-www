@@ -25,6 +25,10 @@
             margin: 0 auto;
         }
 
+        .img-shopperstop-offer {
+            display: none;
+        }
+
         .underline-color  {
             text-decoration: underline red;
         }
@@ -52,9 +56,23 @@
             height: 480px !important;
         }
 
+        @media screen and (device-aspect-ratio: 40/71) {
+            .img-mobile-view {
+                width: 300px;
+            }
+        }
+
         @media only screen and (max-width:600px) {
             .img-product {
                 width: 120px !important;
+            }
+
+            .img-mobile-view {
+                display: block !important;
+            }
+
+            .img-desktop-view {
+                display: none !important;
             }
 
             .header-section {
@@ -135,10 +153,16 @@
     <section >
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
-                <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">January 2020 Sale: <span class="f-s-25 f-c-red f-w-9">Women & Men Fashion Clothing</span> /
-                        Below are the Recommended & Recently Shipped Products!</h2>
-                </div>
+                <center>
+                <a href="https://www.limeroad.com/shopping-offers" target="_blank">
+                    <img class="img-desktop-view" src="https://img0.junaroad.com/images/banners/b2g1_14Jan2019.jpg" width="1100px"></a>
+                    <a href="https://www.limeroad.com/shopping-offers" target="_blank">
+                    <img class="img-mobile-view img-shopperstop-offer" src="https://img0.junaroad.com/images/banners/b2g1_14Jan2019.jpg" width="310px" ></a>
+                </center>
+{{--                <div class="">--}}
+{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">January 2020 Sale: <span class="f-s-25 f-c-red f-w-9">Women & Men Fashion Clothing</span> /--}}
+{{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
+{{--                </div>--}}
                 {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
                 {{--                    <div class="">--}}
                 {{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20Limeroad" target="_blank">--}}

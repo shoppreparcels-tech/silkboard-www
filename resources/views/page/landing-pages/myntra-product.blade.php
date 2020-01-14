@@ -25,6 +25,9 @@
             margin: 0 auto;
         }
 
+        .img-shopperstop-offer {
+            display: none;
+        }
         .underline-color {
             text-decoration: underline red;
         }
@@ -285,9 +288,23 @@
             margin-top: 4px !important
         }
 
+        @media screen and (device-aspect-ratio: 40/71) {
+            .img-mobile-view {
+                width: 300px;
+            }
+        }
+
         @media only screen and (max-width: 600px) {
             .first-time-shipment {
                 height: 651px
+            }
+
+            .img-mobile-view {
+                display: block !important;
+            }
+
+            .img-desktop-view {
+                display: none !important;
             }
 
             .textbox-email {
@@ -380,14 +397,22 @@
     <section>
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
-                <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">
-                        Below are the Recommended & Recently Shipped Products from Myntra India!</h2>
-                </div>
+                <a href="https://www.myntra.com/shop/rtf20-prebuzz" target="_blank">
+                    <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/b99183ce-7da5-4739-ac62-d36652d8861e.png" width="1100px"></a>
+                <center>
+                    <a href="https://www.myntra.com/shop/rtf20-prebuzz" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer"
+                             src="//assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/banners/2020/1/14/f8f55036-8aa7-4a9c-8174-f8370e968cc81578981937131-Untitled-5_01_01.jpG" width="350px" ></a>
+                </center>
+{{--                <div class="">--}}
+{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}
+{{--                        Below are the Recommended & Recently Shipped Products from Myntra India!</h2>--}}
+{{--                </div>--}}
             </div>
 
             <div class="row text-center">
-                <p class="f-s-20"><span class="f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">END OF SEASON SALE(40-80% OFF)</a></span></p>
+{{--                <p class="f-s-20"><span class="f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">END OF SEASON SALE(40-80% OFF)</a></span></p>--}}
+
                 <br>
                     <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Myntra Women's Fashion</h2>
 

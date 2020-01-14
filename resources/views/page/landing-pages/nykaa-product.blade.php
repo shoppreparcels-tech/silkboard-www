@@ -25,6 +25,10 @@
             margin: 0 auto;
         }
 
+        .img-shopperstop-offer {
+            display: none;
+        }
+
         .underline-color  {
             text-decoration: underline red;
         }
@@ -52,11 +56,24 @@
             height: 480px !important;
         }
 
+        @media screen and (device-aspect-ratio: 40/71) {
+            .img-mobile-view {
+                width: 300px;
+            }
+        }
+
         @media only screen and (max-width:600px) {
             .img-product {
                 width: 120px !important;
             }
 
+            .img-mobile-view {
+                display: block !important;
+            }
+
+            .img-desktop-view {
+                display: none !important;
+            }
             .header-section {
                 height: 450px !important;
             }
@@ -136,9 +153,15 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">
-                        <span class="f-s-25 f-c-red f-w-9"> Beauty Bonanza (January 2020 )</span> /
-                        Below are the Recommended & Recently Shipped Products!</h2>
+                    <center>
+                    <a href="https://www.nykaa.com/brands//c/669?transaction_id=f2ef29fe6dc3c46c3816c14a387d6ee8" target="_blank">
+                        <img class="img-desktop-view" src="https://images-static.nykaa.com/uploads/584e04b6-cf8f-44bf-bb2e-0829a20e38fb.jpg" width="1100px"></a>
+                        <a href="https://www.nykaa.com/brands//c/669?transaction_id=f2ef29fe6dc3c46c3816c14a387d6ee8" target="_blank">
+                            <img class="img-mobile-view img-shopperstop-offer" src="https://images-static.nykaa.com/uploads/d424503f-6c10-43a3-aff0-2084b0f8216a.jpg" width="290px" ></a>
+                    </center>
+{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}
+{{--                        <span class="f-s-25 f-c-red f-w-9"> Beauty Bonanza (January 2020 )</span> /--}}
+{{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
                 </div>
 {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
 {{--                    <div class="">--}}

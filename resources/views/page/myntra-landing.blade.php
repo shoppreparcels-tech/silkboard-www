@@ -87,6 +87,32 @@
 
   <style>
         .bg-myntra{background-image:url(../../img/images/overlay1.png);width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;background-color:#fafafb;padding-top:60px}.bg-ics-landing-page .container>div{margin-bottom:3em}.d-header-text{font-size:40px;font-weight:900}.d-header-text1{font-family:Montserrat -Italic;font-style:italic;line-height:26px;margin-top:25px}.christmas-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-190px;padding:20px}.shopandship{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#ff7c5b 0,#e8517a 100%)}.ps{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(228deg,#4df696 0,#50bc70 100%)}.ic{padding:20px;box-shadow:0 0 6px rgba(80,125,188,.08);border-radius:8px;background-image:linear-gradient(229deg,#27cbff 0,#2aa1d5 100%)}.box-steps p{line-height:1}.box-steps p span{font-size:22px;font-weight:900}.flipkart-h1{font-size:25px}.myntra-service{box-shadow:0 0 10px rgba(17,39,59,.1);border-radius:15px;background-color:#fafafb;margin-top:-150px;padding:20px}.ic,.myntra-service .shopandship,.ps,h2{font-size:22px;font-weight:500;color:rgba(255,255,255,.6)}.ic,.myntra-service .shopandship,.ps,p{color:#fff;font-size:16px;font-weight:600}.btn-grab-offer{width:180px;height:40px;box-shadow:0 2px 3px rgba(0,0,0,.2);border-radius:60px;background-color:#e85151;color:#fff;transition:.6s}.btn-grab-offer:hover{color:#fff;background-color:#c83b3b;-webkit-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);-moz-box-shadow:0 5px 20px 0 rgba(0,0,0,.6);box-shadow:0 5px 20px 0 rgba(0,0,0,.6)}#packing:hover{display:none}
+
+        .img-shopperstop-offer {
+            display: none;
+        }
+
+        @media screen and (device-aspect-ratio: 40/71) {
+            .img-mobile-view {
+                width: 300px;
+            }
+        }
+
+
+        @media only screen and (max-width:600px) {
+            .img-product {
+                width: 120px !important;
+            }
+
+            .img-mobile-view {
+                display: block !important;
+            }
+
+            .img-desktop-view {
+                display: none !important;
+            }
+        }
+
     </style>
 
 @endsection
@@ -99,33 +125,41 @@
 
             </center>
             <div class="row text-center">
-                <div class="col-sm-4">
-                    <a href="https://www.myntra.com/" target="_blank"><div class="shopandship ">
-                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">End Of Season Sale</h2>
-                            <br/>
-                            <p>40-70% Off</p>
-                            <p>Apparel, Accessories, & more!</p>
-                            <p>👉 Explore Now</p>
-                        </div></a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="https://www.myntra.com/saree-fest-sep19?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank"><div class="ps">
-                            <h2>🥻 Traditional Tales</h2>
-                            <br/>
-                            <p>Min. 30% Off</p>
-                            <p>Traditional Sarees</p>
-                            <p>Explore Now</p>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="https://www.myntra.com/mww-all?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank"><div class="ic">
-                            <h2>A Formal Affair</h2>
-                            <br>
-                            <p>Men's Workwear At </p>
-                            <p>UP TO 50% OFF</p>
-                            <p>Starting from ₹227/-</p></div></a>
-                    </div>
+                <a href="https://www.myntra.com/shop/rtf20-prebuzz" target="_blank">
+                    <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/b99183ce-7da5-4739-ac62-d36652d8861e.png" width="1100px"></a>
+                <center>
+                    <a href="https://www.myntra.com/shop/rtf20-prebuzz" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer"
+                             src="//assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/banners/2020/1/14/f8f55036-8aa7-4a9c-8174-f8370e968cc81578981937131-Untitled-5_01_01.jpG" width="310px" ></a>
+                </center>
+{{--                <div class="col-sm-4">--}}
+{{--                    <a href="https://www.myntra.com/" target="_blank"><div class="shopandship ">--}}
+{{--                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">End Of Season Sale</h2>--}}
+{{--                            <br/>--}}
+{{--                            <p>40-70% Off</p>--}}
+{{--                            <p>Apparel, Accessories, & more!</p>--}}
+{{--                            <p>👉 Explore Now</p>--}}
+{{--                        </div></a>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <a href="https://www.myntra.com/saree-fest-sep19?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank"><div class="ps">--}}
+{{--                            <h2>🥻 Traditional Tales</h2>--}}
+{{--                            <br/>--}}
+{{--                            <p>Min. 30% Off</p>--}}
+{{--                            <p>Traditional Sarees</p>--}}
+{{--                            <p>Explore Now</p>--}}
+{{--                    </div>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
+{{--                <div class="col-sm-4">--}}
+{{--                    <a href="https://www.myntra.com/mww-all?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank"><div class="ic">--}}
+{{--                            <h2>A Formal Affair</h2>--}}
+{{--                            <br>--}}
+{{--                            <p>Men's Workwear At </p>--}}
+{{--                            <p>UP TO 50% OFF</p>--}}
+{{--                            <p>Starting from ₹227/-</p></div></a>--}}
+{{--                    </div>--}}
+
                 </div>
             </div>
         </div>
@@ -143,9 +177,11 @@
         <div class="container myntra-service">
             <div class="row">
                 <div class="col-md-12 col-xs-12">
-                    <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                        <span class="f-s-16 f-c-red f-w-9"><a href="/myntra-online-shopping" target="_blank">End Of Season Sale(40-70% OFF) </a></span> & Get ₹200 discount on your 1st International Shipment.
-                            </marquee>
+
+{{--                    <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">--}}
+{{--                        <span class="f-s-16 f-c-red f-w-9"><a href="/myntra-online-shopping" target="_blank">End Of Season Sale(40-70% OFF) </a></span> & Get ₹200 discount on your 1st International Shipment.--}}
+{{--                            </marquee>--}}
+
                    <center>
                        <a href="https://clnk.in/itIM" title="Shop Myntra & Ship Internationally" target="_blank">
                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/stores/myntra-express-delivery-globe.png" alt="Myntra.com"></a>

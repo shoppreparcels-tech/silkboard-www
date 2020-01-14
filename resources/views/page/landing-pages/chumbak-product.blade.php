@@ -15,6 +15,10 @@
             margin: 0 auto;
         }
 
+        .img-shopperstop-offer {
+            display: none;
+        }
+
         .underline-color  {
             text-decoration: underline red;
         }
@@ -42,9 +46,23 @@
             height: 480px !important;
         }
 
+        @media screen and (device-aspect-ratio: 40/71) {
+            .img-mobile-view {
+                width: 300px;
+            }
+        }
+
         @media only screen and (max-width:600px) {
             .img-product {
                 width: 120px !important;
+            }
+
+            .img-mobile-view {
+                display: block !important;
+            }
+
+            .img-desktop-view {
+                display: none !important;
             }
 
             .header-section {
@@ -103,11 +121,17 @@
     <section >
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
-                <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 /
-                        Below are the Recommended & Recently Shipped Products!</h2>
+                <a href="https://www.chumbak.com/sale/ngg/c/" target="_blank">
+                    <img class="img-desktop-view" src="https://images.prismic.io/chumbakapp/e233d11c-95b4-4816-80e9-b248cd1858f9_page-banner-fashion-Desktop.jpg" width="1100px"></a>
+                <center>
+                    <a href="https://www.chumbak.com/sale/ngg/c/" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer" src="https://images.prismic.io/chumbakapp/fbeaf52d-d80e-4241-8c15-cef9020348e5_page-banner-fashion-Mobile.jpg" width="320px" ></a>
+                </center>
+{{--                <div class="">--}}
+{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 /--}}
+{{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
 
-                </div>
+{{--                </div>--}}
             </div>
 
             <div class="row text-center">

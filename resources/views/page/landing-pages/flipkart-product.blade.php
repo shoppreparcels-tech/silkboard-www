@@ -27,6 +27,9 @@
         .underline-color  {
             text-decoration: underline red;
         }
+        .img-shopperstop-offer {
+            display: none;
+        }
 
         .img-product {
             width: 216px;
@@ -51,9 +54,23 @@
             height: 480px !important;
         }
 
+        @media screen and (device-aspect-ratio: 40/71) {
+            .img-mobile-view {
+                width: 300px;
+            }
+        }
+
         @media only screen and (max-width:600px) {
             .img-product {
                 width: 120px !important;
+            }
+
+            .img-mobile-view {
+                display: block !important;
+            }
+
+            .img-desktop-view {
+                display: none !important;
             }
 
             .header-section {
@@ -138,11 +155,18 @@
     <section >
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
-                <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">👉<span class="f-s-25 f-c-red f-w-9"><a
-                                href="https://www.flipkart.com/fashion-trendy-ikfc4-store" target="_blank">STYLE YOUR WINTER(40-80% Off)</a></span> /
-                        Below are the Recommended & Recently Shipped Products!</h2>
-                </div>
+
+
+                    <a href="https://www.flipkart.com/republic-day-sale-store" target="_blank">
+                        <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/466affe4-49b1-4bd1-9758-e44240913dd9.png" width="1100px"></a>
+                    <center>
+                        <a href="https://www.flipkart.com/republic-day-sale-store" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer" src="https://rukminim1.flixcart.com/flap/750/534/image/fa3d4db97c1cce1b.jpg" width="350px" ></a>
+                    </center>
+{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">👉<span class="f-s-25 f-c-red f-w-9"><a--}}
+{{--                                href="https://www.flipkart.com/fashion-trendy-ikfc4-store" target="_blank">STYLE YOUR WINTER(40-80% Off)</a></span> /--}}
+{{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
+
                 {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
 {{--                <span class="f-s-25 f-c-red f-w-9">Winter Wear Upto 70% Off</span>--}}
                 {{--                    <div class="">--}}

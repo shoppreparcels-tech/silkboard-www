@@ -37,8 +37,9 @@
            <br>
            <br>
            <div class="col-md-12 col-xs-12 div-b-w-s  b-r no-pad mar-t-25">
-               <div class="col-xs-12 col-md-12 no-pad ">
-                   <img src="/img/images/get-best-offers-and-deals-during-the-amazon-great-indian-sale.png" class="img-f-w" alt="amazon great indian sale india offer">
+               <div class="col-xs-12 col-md-12 no-pad "><a href="https://www.amazon.in/b?node=5731634031" target="_blank">
+                   <img src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/10e9b096-782c-4a4e-8eb7-e26834ac6ace.png" class="img-f-w" alt="amazon great indian sale india offer">
+{{--                   <img src="/img/images/get-best-offers-and-deals-during-the-amazon-great-indian-sale.png" class="img-f-w" alt="amazon great indian sale india offer">--}}</a>
                </div>
            </div>
            <div class="col-md-12 col-xs-12 text-center">

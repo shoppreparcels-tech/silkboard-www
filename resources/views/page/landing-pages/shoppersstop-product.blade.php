@@ -133,6 +133,7 @@
                     <a href="https://www.shoppersstop.com/" target="_blank">
                         <img class="img-desktop-view" src="https://sslimages.shoppersstop.com/sys-master/root/h0c/h35/14208912130078/banner_00_2000x600_kurta_EN_2000W_20200108.jpg" width="1100px"></a>
                     <center>
+                        <a href="https://www.shoppersstop.com/" target="_blank">
                     <img class="img-mobile-view img-shopperstop-offer" src="https://sslimages.shoppersstop.com/sys-master/root/h0f/h9a/14204476850206/banner_04_640x728_eoss_EN_640W_20200109.jpg" width="350px" ></a>
                     </center>
                     {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale /--}}

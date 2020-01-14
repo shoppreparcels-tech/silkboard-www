@@ -25,6 +25,10 @@
             margin: 0 auto;
         }
 
+        .img-shopperstop-offer {
+            display: none;
+        }
+
         .underline-color  {
             text-decoration: underline red;
         }
@@ -51,12 +55,22 @@
         .header-section {
             height: 480px !important;
         }
-
+        @media screen and (device-aspect-ratio: 40/71) {
+            .img-mobile-view {
+                width: 300px;
+            }
+        }
         @media only screen and (max-width:600px) {
             .img-product {
                 width: 120px !important;
             }
+            .img-mobile-view {
+                display: block !important;
+            }
 
+            .img-desktop-view {
+                display: none !important;
+            }
             .header-section {
                 height: 450px !important;
             }
@@ -136,8 +150,14 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">January 2020 Sale: <span class="f-s-25 f-c-red f-w-9">Festive Vibes</span> /
-                        Below are the Recommended & Recently Shipped Products!</h2>
+                    <center>
+                        <a href="https://www.fabindia.com/collection/indigo-red" target="_blank">
+                            <img class="img-desktop-view" src="https://www.fabindia.com/file/general/red-desktop-06-12.jpg" width="1100px"></a>
+                        <a href="https://www.fabindia.com/collection/indigo-red" target="_blank">
+                            <img class="img-mobile-view img-shopperstop-offer" src="https://www.fabindia.com/file/v544680516243712770/collections/strip_06-12-19.jpg" width="310px" ></a>
+                    </center>
+{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">January 2020 Sale: <span class="f-s-25 f-c-red f-w-9">Festive Vibes</span> /--}}
+{{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
                 </div>
 {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
 {{--                    <div class="">--}}

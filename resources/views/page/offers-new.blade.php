@@ -119,8 +119,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">WINTER TOP BRANDS</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up To 85% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">THE REPUBLIC DAY SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 80% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
@@ -147,7 +147,7 @@
                     <center>
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">January Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Upto 50% Off</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 70% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/chumbak-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a68d693f754.png"/>
@@ -159,7 +159,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Festive Sale Corner</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">End Of Season Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up to 65% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://indiacircus.com/sales/clearance-sale.html" target="_blank">
@@ -188,8 +188,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">END OF SEASON SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-70% OFF</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">RIGHT TO FASHION SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">
@@ -203,8 +203,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">END OF SEASON SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up to 70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">GREAT INDIAN SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up to 80% Off</h5>
 {{--                            <div class="ecomSmallBox" style="height: 94px;">--}}
                             <div class="ecomSmallBox">
                             <a href="/amazon-online-shopping" target="_blank">
