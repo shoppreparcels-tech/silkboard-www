@@ -15,6 +15,7 @@ class MemberController extends Controller
 {
     public function memberRegister(Request $req)
     {
+        return redirect(env('PREFIX').'login.'.env('DOMAIN').'/signup');
         $countries = Country::orderBy('name','asc')->get();
         $states = States::orderBy('name','asc')->get();
         $memberType = $req->member;
@@ -79,6 +80,7 @@ class MemberController extends Controller
     }
 
     public function memberPlan(Request $req) {
-        return view('myaccount.membership.memberPlan');
+        return redirect(env('PREFIX').'login.'.env('DOMAIN').'/signup');
+//        return view('myaccount.membership.memberPlan');
     }
 }
