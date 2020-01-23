@@ -48,8 +48,13 @@ class SchedulePickupController extends Controller
     public function submit(Request $request)
     {
         $status_code = $this->pickupApi($request);
-        $authorise_url = Authorization::authorizeCourierUser($request->user_email);
-        return redirect($authorise_url);
+        if ($status_code === 201) {
+            $message = "You need to confirm your account. We have sent you an activation email Please check your email";
+        } else {
+            $message = 'success';
+        }
+        $url = env('MIGRATION_PREFIX') . "login.".env('DOMAIN')."/signin?client_id=courier&message=".$message;
+        return redirect($url);
     }
 
     public function pickupApi($request)
@@ -139,10 +144,9 @@ class SchedulePickupController extends Controller
         curl_close($curl);
 
         if ($err) {
-            echo "cURL Error #:" . $err;
+            return $customer->status_code;
         } else {
-            return $httpcode;
-//            return $httpcode;
+            return $customer->status_code;
         }
     }
 
@@ -179,18 +183,19 @@ class SchedulePickupController extends Controller
             $customer->referer = 'no-referer';
             $customer->first_visit = 'no-first_visit';
             $customer->membership_type = 'b';
-            $customer->password = bcrypt('Easy@2020');
-            do {
-                $code = 'SHPR' . rand(10, 99) . "-" . rand(100, 999);
-                $user_code = Customer::where('locker', $code)->get();
-            } while (!$user_code->isEmpty());
+            $customer->password = $name;
+//            do {
+//                $code = 'SHPR' . rand(10, 99) . "-" . rand(100, 999);
+//                $user_code = Customer::where('locker', $code)->get();
+//            } while (!$user_code->isEmpty());
 
-            $customer->locker = $code;
+//            $customer->locker = $code;
             $commnet = "New Sign up " . $email . "\n contact No: +" . $phone_code.$phone;
 
             $c = $this->signUpAPI($customer);
 
             $customer->id = $c['response']->id;
+            $customer->status_code = $c['code'];
         }
 
         return $customer;

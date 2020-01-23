@@ -115,7 +115,8 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">EPIC BLOWOUT (FLAT 55% OFF)</span> /
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">THE EVERYTHING-ON-SALE (40-80% OFF)</span> /
+
                         Below are the Recommended & Recently Shipped Products!</h2>
 
                 </div>

@@ -131,7 +131,7 @@ class Authorization
             'app_id' => $Courier,
         ];
 
-        $url = env('MIGRATION_PREFIX') . "login.".env('DOMAIN')."/api/authorise";
+        $url = env('MIGRATION_PREFIX') . "login.".env('DOMAIN')."/signin?client_id=courier";
 
         $curl = curl_init();
 
