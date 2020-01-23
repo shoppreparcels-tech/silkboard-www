@@ -61,6 +61,11 @@
     <priority>0.70</priority>
 </url>
 <url>
+    <loc>https://www.shoppre.com/republic-day-shipping-offer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.50</priority>
+</url>
+<url>
     <loc>https://www.shoppre.com/international-shipping-gift-cards-vouchers</loc>
     <changefreq>daily</changefreq>
     <priority>0.70</priority>

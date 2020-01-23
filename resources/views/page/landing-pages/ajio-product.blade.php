@@ -25,6 +25,10 @@
             margin: 0 auto;
         }
 
+        .img-shopperstop-offer {
+            display: none;
+        }
+
         .underline-color  {
             text-decoration: underline red;
         }
@@ -52,9 +56,24 @@
             height: 480px !important;
         }
 
+        @media screen and (device-aspect-ratio: 40/71) {
+            .img-mobile-view {
+                width: 300px;
+            }
+        }
+
+
         @media only screen and (max-width:600px) {
             .img-product {
                 width: 120px !important;
+            }
+
+            .img-mobile-view {
+                display: block !important;
+            }
+
+            .img-desktop-view {
+                display: none !important;
             }
 
             .header-section {
@@ -115,9 +134,17 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">THE EVERYTHING-ON-SALE (40-80% OFF)</span> /
+{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">THE EVERYTHING-ON-SALE (40-80% OFF)</span> /--}}
 
-                        Below are the Recommended & Recently Shipped Products!</h2>
+{{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
+                    <center>
+                    <a href="https://www.ajio.com/shop/women" target="_blank">
+                        <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/e08e0c41-fd6c-4508-bb5d-e8e65d4a20e9.png" width="1100px"></a>
+                        </center>
+                    <center>
+                        <a href="https://www.ajio.com/shop/women" target="_blank">
+                            <img class="img-mobile-view img-shopperstop-offer" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/cfd4933b-82b8-4ff9-990b-f806070a1051.png" width="300px" ></a>
+                    </center>
 
                 </div>
             </div>

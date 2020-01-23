@@ -79,6 +79,13 @@
 {{--                        </div>--}}
                         <div class="item">
                             <div class="pad15">
+                                <a href="{{route('republicDay')}}" target="_blank">
+                                    <img src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/d6b40a1e-3713-4e38-a934-38531650cfb9.png" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
                                 <a href="/first-time-international-shipment-offer" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/International-shipping-offers.png" class="boxofScroll"/>
                                 </a>
@@ -91,13 +98,14 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="/shop-ship" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
+
+{{--                        <div class="item">--}}
+{{--                            <div class="pad15">--}}
+{{--                                <a href="/shop-ship" target="_blank">--}}
+{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                         <div class="item">
                             <div class="pad15">
                                 <a href="/university-offer" target="_blank">
@@ -119,8 +127,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">THE REPUBLIC DAY SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up To 80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Footwear SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">From ₹199</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
@@ -175,7 +183,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">MAKE IT A STYLISH</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">THE EVERYTHING-ON-SALE</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-80% OFF</h5>
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping">
@@ -188,8 +196,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">RIGHT TO FASHION SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">END of season SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 60% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">
@@ -203,8 +211,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">GREAT INDIAN SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up to 80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">fashion republic SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 70% Off</h5>
 {{--                            <div class="ecomSmallBox" style="height: 94px;">--}}
                             <div class="ecomSmallBox">
                             <a href="/amazon-online-shopping" target="_blank">
@@ -290,8 +298,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Beauty Bonanza</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Daily Dose Of Amazing Offers</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">REPUBLIC DAY SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 40% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/nykaa-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">NYKAA</p>
@@ -400,9 +408,9 @@
                     <div class="panel ">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Amazon Great Indian Festival"><span><a
-                                        href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">Great Indian Festival 2019</a></span></li>
+                                        href="/amazon-great-indian-festival-sales-offers-prime-members-shopping-deals-shipping" target="_blank">Great Indian Festival 2020</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big billion Days"><span><a
-                                        href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Big Billion Days Sale 2019</a></span></li>
+                                        href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Big Billion Days Sale 2020</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Big Shopping Days"><span><a
                                         href="https://ship.shoppre.com/the-biggest-season-sale-flipkart-big-shopping-days-15-may-19-may/" target="_blank">Big Shopping Days</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="Freedom Sale"><span><a

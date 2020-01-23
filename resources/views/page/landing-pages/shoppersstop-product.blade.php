@@ -130,11 +130,13 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div>
-                    <a href="https://www.shoppersstop.com/" target="_blank">
-                        <img class="img-desktop-view" src="https://sslimages.shoppersstop.com/sys-master/root/h0c/h35/14208912130078/banner_00_2000x600_kurta_EN_2000W_20200108.jpg" width="1100px"></a>
                     <center>
-                        <a href="https://www.shoppersstop.com/" target="_blank">
-                    <img class="img-mobile-view img-shopperstop-offer" src="https://sslimages.shoppersstop.com/sys-master/root/h0f/h9a/14204476850206/banner_04_640x728_eoss_EN_640W_20200109.jpg" width="350px" ></a>
+                    <a href="https://www.shoppersstop.com/promotions?icid=eoss|homepg|1-1|offerpg" target="_blank">
+                        <img class="img-desktop-view" src="https://sslimages.shoppersstop.com/sys-master/root/h9d/h2b/14273511686174/banner_00_2000x600_eoss_EN_2000W_20200122.jpg" width="1100px"></a>
+                        </center>
+                        <center>
+                        <a href="https://www.shoppersstop.com/promotions?icid=eoss|homepg|1-1|offerpg" target="_blank">
+                    <img class="img-mobile-view img-shopperstop-offer" src="https://sslimages.shoppersstop.com/sys-master/root/h8c/h28/14273511751710/banner_04_640x728_eoss_EN_640W_20200122.jpg" width="310px" ></a>
                     </center>
                     {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale /--}}
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
@@ -149,8 +151,8 @@
 {{--                <p  class="f-s-20 f-c-red f-w-9">KEEP IT COOL AND CASUAL</p>--}}
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.shoppersstop.com/women-westernwear/c-A2060?q=%3Adiscount-desc%3AinStockFlag%3Atrue%3Abrands%3AKRAUS&text=&startRange=&endRange=&showType=&icid=keepitcoolandcasual|homepg|2-1|kraus" target="_blank">
-                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/hfc/ha2/14126120075294/4-tab_Home-lp_1-krauses.jpg">
+                        <a href="https://www.shoppersstop.com/brand/biba?icid=createyourownethnicstyles|homepg|3-1|biba" target="_blank">
+                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/hbe/h83/14268519415838/4wid_Biba-2020.jpg">
 {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
 {{--                                Up to 70% Off--}}
 {{--                            </div>--}}
@@ -160,8 +162,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/women-westernwear/c-A2060?sort=discount-desc&q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ALATIN%2BQUARTERS&startRange=&endRange=&icid=keepitcoolandcasual|homepg|2-2|latinquarters" target="_blank">
-                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/h4d/h23/14125414711326/4-tab_Home-lp_2-latinquarter.jpg">
+                        <a href="https://www.shoppersstop.com/brand/kashish?icid=createyourownethnicstyles|homepg|3-2|kashish" target="_blank">
+                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/h28/hb0/14268517679134/Kashish_4wid-2020.jpg">
 {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
 {{--                                    Up to 60% Off--}}
 {{--                            </div>--}}
@@ -171,11 +173,55 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/women-westernwear/c-A2060?q=%3Adiscount-desc%3AinStockFlag%3Atrue%3Abrands%3A109F%3Abrands%3AFUSION%2BBEATS&text=&startRange=&endRange=&showType=&icid=keepitcoolandcasual|homepg|2-3|109F&fusionbets" target="_blank">
-                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/hc4/h6f/14126117945374/4-tab_Home-lp_3-fusionbets109f.jpg">
+                        <a href="https://www.shoppersstop.com/brand/ishin?icid=createyourownethnicstyles|homepg|3-3|ishin" target="_blank">
+                            <img class="img-product m-t-img" src="https://sslimages.shoppersstop.com/sys-master/root/h55/h80/14268519514142/Ishin_4wid-20191205.jpg.jpg">
 {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
 {{--                                Up to 60% Off--}}
 {{--                            </div>--}}
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.shoppersstop.com/women-indianwear/c-A2010?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ALibas%3Abrands%3ALIBAS%3Abrands%3AGERUA&text=&startRange=&endRange=&showType=&icid=createyourownethnicstyles|homepg|3-4|libasgerua" target="_blank">
+                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/hff/h7f/14268519546910/Libas-Gerua_4wid-20191205.jpg.jpg">
+{{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
+{{--                                Up to 60% Off--}}
+{{--                            </div>--}}
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.shoppersstop.com/women-westernwear/c-A2060?q=%3Adiscount-desc%3AinStockFlag%3Atrue%3Abrands%3AKRAUS&text=&startRange=&endRange=&showType=&icid=keepitcoolandcasual|homepg|2-1|kraus" target="_blank">
+                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/hfc/ha2/14126120075294/4-tab_Home-lp_1-krauses.jpg">
+                            {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
+                            {{--                                Up to 60% Off--}}
+                            {{--                            </div>--}}
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.shoppersstop.com/women-westernwear/c-A2060?sort=discount-desc&q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ALATIN%2BQUARTERS&startRange=&endRange=&icid=keepitcoolandcasual|homepg|2-2|latinquarters" target="_blank">
+                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h53/h8f/14181035376670/4-tab_Home-lp_2-latinquarter.jpg.jpg">
+                            {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
+                            {{--                                Up to 60% Off--}}
+                            {{--                            </div>--}}
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.shoppersstop.com/women-westernwear/c-A2060?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3A109F%3Abrands%3AFUSION%2BBEATS&text=&startRange=&endRange=&showType=&icid=keepitcoolandcasual|homepg|2-3|andglobaldesi" target="_blank">
+                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/ha9/h44/14268537307166/4-tab_Home-lp_3-109F-Fusionbets.jpg">
+                            {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
+                            {{--                                Up to 60% Off--}}
+                            {{--                            </div>--}}
                         </a>
                     </div>
                 </div>
@@ -184,50 +230,6 @@
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                         <a href="https://www.shoppersstop.com/women-westernwear/c-A2060?q=%3Adiscount-desc%3AinStockFlag%3Atrue%3Abrands%3ALIFE&text=&startRange=&endRange=&showType=&icid=keepitcoolandcasual|homepg|2-4|life" target="_blank">
                             <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h6d/h5d/14126119780382/4-tab_Home-lp_4-life.jpg">
-{{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
-{{--                                Up to 60% Off--}}
-{{--                            </div>--}}
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/brand/imara?icid=createyourownethnicstyles|homepg|3-1|imara" target="_blank">
-                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/hd6/h36/14003367641118/IMARA_4wid-20191205.jpg.jpg">
-                            {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
-                            {{--                                Up to 60% Off--}}
-                            {{--                            </div>--}}
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/women-indianwear/c-A2010?q=%3AtopRated%3AinStockFlag%3Atrue%3Abrands%3ALibas%3Abrands%3ALIBAS%3Abrands%3AGERUA&text=&startRange=&endRange=&showType=&icid=createyourownethnicstyles|homepg|3-4|libasgerua" target="_blank">
-                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/h5c/hd9/13910721953822/Libas-Gerua_4wid-20191205.jpg">
-                            {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
-                            {{--                                Up to 60% Off--}}
-                            {{--                            </div>--}}
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/brand/kashish?icid=createyourownethnicstyles|homepg|3-2|kashish" target="_blank">
-                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/ha8/h13/13910716743710/Kashish_4wid-20191205.jpg">
-                            {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
-                            {{--                                Up to 60% Off--}}
-                            {{--                            </div>--}}
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.shoppersstop.com/brand/ishin?icid=createyourownethnicstyles|homepg|3-3|ishin" target="_blank">
-                            <img class="img-product m-t-img " src="https://sslimages.shoppersstop.com/sys-master/root/hf8/hb5/13910719528990/Ishin_4wid-20191205.jpg">
                             {{--                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
                             {{--                                Up to 60% Off--}}
                             {{--                            </div>--}}

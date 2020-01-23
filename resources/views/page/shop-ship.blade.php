@@ -76,9 +76,9 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="/myntra-online-shopping-shipping-from-india" title="myntra" target="_blank">1. 👉RIGHT TO FASHION SALE (18-21 Jan) </a> |
-                            <a href="/flipkart-shopping-with-shoppre-from-india" title="flipkart" target="_blank">2. 👉THE REPUBLIC DAY SALE(19-22 Jan)</a> |
-                            <a href="/amazon-india-shop-international-shipping" title="amazon" target="_blank">3. 👉GREAT INDIAN SALE(19-22 Jan)</a>
+                            <a href="/amazon-online-shopping" title="myntra" target="_blank">1. 👉FASHION REPUBLIC SALE </a> |
+                            <a href="/flipkart-online-shopping" title="flipkart" target="_blank">2. 👉FOOTWEAR SALE</a> |
+                            <a href="/ajio-online-shopping" title="ajio" target="_blank">3. 👉THE EVERYTHING-ON-SALE</a>
                         </marquee>
                     </div>
                     <center>

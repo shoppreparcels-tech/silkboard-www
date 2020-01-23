@@ -83,13 +83,15 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>
                 </div>
             </div>
-            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in GREAT INDIAN SALE (19th-22nd JAN)</h2>
+            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in Fashion Republic SALE (23rd-26th JAN)</h2>
             <div class="row text-center">
-                <a href="https://www.amazon.in/b?node=5731634031" target="_blank">
-                    <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/10e9b096-782c-4a4e-8eb7-e26834ac6ace.png" width="1100px"></a>
                 <center>
-                    <a href="https://www.amazon.in/b?node=5731634031" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/321df62a-6299-4fe4-8dce-ad89457308f1.png" width="310px" ></a>
+                <a href="https://amzn.clnk.in/lp2" target="_blank">
+                    <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/5b616e7d-2aa7-4603-8a8b-65dcee5f9400.png" width="1100px"></a>
+                    </center>
+                <center>
+                    <a href="https://amzn.clnk.in/lp2" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/8e13ef85-3099-4778-be71-dd115fe96851.png" width="310px" ></a>
                 </center>
 {{--                <div class="col-sm-4">--}}
 

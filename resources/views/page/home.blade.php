@@ -531,11 +531,11 @@
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
                         <div class="col-md-12 col-xs-12">
-                            <a href="{{route('first-shipment')}}" target="_blank">
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india-shoppre.png" class="img-f-w offer-img-d"
-                                        alt="frst50 shipment offer"></a>
-{{--                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-2019-offer.png" class="img-f-w offer-img-d"--}}
-{{--                                     alt="frst50 shipment offer"></a>--}}
+                            <a href="{{route('republicDay')}}" target="_blank">
+{{--                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india-shoppre.png" class="img-f-w offer-img-d"--}}
+{{--                                        alt="frst50 shipment offer"></a>--}}
+                                <img src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/fddfed76-25b5-40d4-8359-1014508be1b0.png" class="img-f-w offer-img-d"
+                                     alt="republic day offer"></a>
                             <a href="/first-time-international-shipment-offer" target="_blank"><img
                                         src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india.png"
                                         class="img-f-w offer-img-m" title="Click Here" alt="first time international shipping discount"></a>
@@ -604,17 +604,17 @@
                         <a href="/flipkart-shopping-with-shoppre-from-india" title="Click to Know More" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
                         <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">THE REPUBLIC DAY SALE</h4></div>
+                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">FOOTWEAR</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">19th - 22nd JAN</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Flat, Heels & More</span></p>
 
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up To 80% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">From ₹199</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Flipkart.com</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Flipkart Republic Day Sale</span> & Ship @Cheap-Cost Internationally.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Flipkart India</span> & Ship @Cheap-Cost Internationally.</p>
                         </div>
                         </div>
                         </a>
@@ -624,16 +624,16 @@
                         <a href="/amazon-india-shop-international-shipping" title="Click Here" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">GREAT INDIAN SALE</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">FASHION REPUBLIC SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">19th - 22nd JAN</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">23rd - 26th JAN</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up To 80% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up To 70% Off</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Amazon.in</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Amazon.in Great Indian Sale</span> & Get Delivered Worldwide with us.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Amazon Fashion Republic Sale</span> & Get Delivered Worldwide with us.</p>
                         </div>
 
                     </div>
@@ -644,12 +644,12 @@
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
                         <div class="pad-5 bgr-c-gr">
 
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">RIGHT TO FASHION SALE</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">END OF SEASON SALE</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">18th - 21st JAN</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Ethnic Elegance</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">50-80% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up To 60% Off</span></p>
 
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Myntra.com</span></p>
@@ -660,23 +660,24 @@
                     </div>
                         </a>
                     </div>
+
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                        <a href="/ajio-online-shopping" title="Click for Offer Details" target="_blank">
-                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
-                        <div class="pad-5 bgr-c-br">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">THE EVERYTHING-ON-SALE</h4></div>
+                            <a href="/nykaa-online-shopping" title="Click for Offer Details" target="_blank">
+                            <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
+                            <div class="pad-5 bgr-c-br">
+                                <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">REPUBLIC DAY SALE</h4></div>
+                            </div>
+                            <div class="des-div-rakhi text-center"><br>
+                                <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Live Free. Live Beautiful.</span></p>
+                                <br>
+                                <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up To 40% Off</span></p>
+                                <br>
+                                <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Nykaa.com</span></p>
+                                <br>
+                                <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9">Nykaa Beauty Products</span> & Ship Internationally with us.</p>
                         </div>
-                        <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9"> 2,00,000+ Styles </span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">40-80% Off</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">AJIO.com</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9">AJIO Products</span> & Ship Internationally with us.</p>
-                        </div>
-                    </div>
-                        </a>
+                    </div
+                            </a>
                     </div>
                     </div>
                 </div>

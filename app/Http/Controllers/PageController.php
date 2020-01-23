@@ -985,6 +985,10 @@ class PageController extends Controller
     {
         return view('page.landing-pages.onam-community-offer');
     }
+    public function republicDay()
+    {
+        return view('page.landing-pages.republic-day-offer');
+    }
     public function pricingItaly()
     {
         return view('page.landing-pages.pricing-italy');

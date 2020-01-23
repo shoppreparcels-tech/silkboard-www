@@ -125,12 +125,12 @@
 
             </center>
             <div class="row text-center">
-                <a href="https://www.myntra.com/shop/rtf20-prebuzz" target="_blank">
-                    <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/b99183ce-7da5-4739-ac62-d36652d8861e.png" width="1100px"></a>
+                <a href="https://clnk.in/khNu" target="_blank">
+                    <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/c87a1df2-60ee-4961-804d-914abf24bd9a.png" width="1100px"></a>
                 <center>
-                    <a href="https://www.myntra.com/shop/rtf20-prebuzz" target="_blank">
+                    <a href="https://clnk.in/khNu" target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="//assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/banners/2020/1/14/f8f55036-8aa7-4a9c-8174-f8370e968cc81578981937131-Untitled-5_01_01.jpG" width="310px" ></a>
+                             src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/72e4897f-40d0-45de-a20c-67bb5faecf0e.png" width="310px" ></a>
                 </center>
 {{--                <div class="col-sm-4">--}}
 {{--                    <a href="https://www.myntra.com/" target="_blank"><div class="shopandship ">--}}

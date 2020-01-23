@@ -79,11 +79,13 @@
 
                 </div>
             </div>
-             <a href="https://www.flipkart.com/republic-day-sale-store" target="_blank">
-                        <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/466affe4-49b1-4bd1-9758-e44240913dd9.png" width="1100px"></a>
+            <center>
+             <a href="https://clnk.in/khMO" target="_blank">
+                        <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/e4312f01-1444-477e-bab1-ed2bb30fe4b4.png" width="1100px"></a>
+                </center>
                     <center>
-                        <a href="https://www.flipkart.com/republic-day-sale-store" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer" src="https://rukminim1.flixcart.com/flap/750/534/image/fa3d4db97c1cce1b.jpg" width="300px" ></a>
+                        <a href="https://clnk.in/khMO" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/ebda85c9-c19d-40b7-aa26-ac24b2ef5506.png" width="300px" ></a>
                     </center>
 {{--            <div class="row text-center">--}}
 {{--                <div class="col-sm-4">--}}
