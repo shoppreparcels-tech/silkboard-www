@@ -78,7 +78,7 @@
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                             <a href="/amazon-online-shopping" title="myntra" target="_blank">1. 👉FASHION REPUBLIC SALE </a> |
                             <a href="/flipkart-online-shopping" title="flipkart" target="_blank">2. 👉FOOTWEAR SALE</a> |
-                            <a href="/ajio-online-shopping" title="ajio" target="_blank">3. 👉THE EVERYTHING-ON-SALE</a>
+                            <a href="/ajio-online-shopping" title="ajio" target="_blank">3. 👉REPUBLIC DAY SALE</a>
                         </marquee>
                     </div>
                     <center>
