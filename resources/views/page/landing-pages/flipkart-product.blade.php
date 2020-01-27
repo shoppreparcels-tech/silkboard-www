@@ -156,12 +156,12 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <center>
-                    <a href="https://clnk.in/khMO" target="_blank">
-                        <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/e4312f01-1444-477e-bab1-ed2bb30fe4b4.png" width="1100px"></a>
+                    <a href="https://clnk.in/kivY" target="_blank">
+                        <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/36a3c672-f8e1-4196-b6fc-58b5dce50851.png" width="1100px"></a>
                 </center>
                 <center>
-                    <a href="https://clnk.in/khMO" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/ebda85c9-c19d-40b7-aa26-ac24b2ef5506.png" width="300px" ></a>
+                    <a href="https://clnk.in/kivY" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/2c5e1f40-68fb-4c08-8f34-02e02753cc26.png" width="300px" ></a>
                 </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">👉<span class="f-s-25 f-c-red f-w-9"><a--}}
 {{--                                href="https://www.flipkart.com/fashion-trendy-ikfc4-store" target="_blank">STYLE YOUR WINTER(40-80% Off)</a></span> /--}}

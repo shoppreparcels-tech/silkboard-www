@@ -126,11 +126,11 @@
             </center>
             <div class="row text-center">
                 <a href="https://clnk.in/khNu" target="_blank">
-                    <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/c87a1df2-60ee-4961-804d-914abf24bd9a.png" width="1100px"></a>
+                    <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/a0add492-d243-4a1b-8df2-db8870d9877e.png" width="1100px"></a>
                 <center>
                     <a href="https://clnk.in/khNu" target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/72e4897f-40d0-45de-a20c-67bb5faecf0e.png" width="310px" ></a>
+                             src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/2acf41b5-9489-49ff-b288-ac3a2f82cdbf.png" width="310px" ></a>
                 </center>
 {{--                <div class="col-sm-4">--}}
 {{--                    <a href="https://www.myntra.com/" target="_blank"><div class="shopandship ">--}}

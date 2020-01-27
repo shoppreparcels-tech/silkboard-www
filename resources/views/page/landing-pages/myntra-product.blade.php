@@ -399,12 +399,12 @@
             <div class="row">
                 <center>
                 <a href="https://clnk.in/khNu" target="_blank">
-                    <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/c87a1df2-60ee-4961-804d-914abf24bd9a.png" width="1100px"></a>
+                    <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/0bf7889d-3024-453e-9507-6d9485aebfce.png" width="1100px"></a>
                     </center>
                 <center>
                     <a href="https://clnk.in/khNu" target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/72e4897f-40d0-45de-a20c-67bb5faecf0e.png" width="350px" ></a>
+                             src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/2acf41b5-9489-49ff-b288-ac3a2f82cdbf.png" width="350px" ></a>
                 </center>
 {{--                <div class="">--}}
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}

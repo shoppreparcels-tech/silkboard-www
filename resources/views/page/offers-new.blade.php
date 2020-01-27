@@ -127,8 +127,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Footwear SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">From ₹199</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Fashion Weekend SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
@@ -183,8 +183,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">REPUBLIC DAY SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-80% OFF</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">BIG BAG DAY SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-70% OFF</h5>
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
@@ -196,8 +196,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">END of season SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up To 60% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">REPUBLIC DAY SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 80% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">
@@ -211,7 +211,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">fashion republic SALE</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">END OF SEASON SALE</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up To 70% Off</h5>
 {{--                            <div class="ecomSmallBox" style="height: 94px;">--}}
                             <div class="ecomSmallBox">
