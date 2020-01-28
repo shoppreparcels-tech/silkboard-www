@@ -398,13 +398,13 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <center>
-                <a href="https://clnk.in/khNu" target="_blank">
-                    <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/0bf7889d-3024-453e-9507-6d9485aebfce.png" width="1100px"></a>
+                <a href="https://www.myntra.com/" target="_blank">
+                    <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/6ec40ab7-a57d-4596-a8fe-bc6f9f42c45b.png" width="1100px"></a>
                     </center>
                 <center>
-                    <a href="https://clnk.in/khNu" target="_blank">
+                    <a href="https://www.myntra.com/" target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/2acf41b5-9489-49ff-b288-ac3a2f82cdbf.png" width="350px" ></a>
+                             src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/00c540df-2c8b-4241-92ca-fe1223d10e3c.png" width="350px" ></a>
                 </center>
 {{--                <div class="">--}}
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}
