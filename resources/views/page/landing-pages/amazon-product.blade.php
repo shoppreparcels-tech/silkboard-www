@@ -132,11 +132,11 @@
 
                     <center>
                         <a href="https://amzn.clnk.in/lZU" target="_blank">
-                            <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/ff23f2e8-5a3e-4081-8175-4f23a2851e89.png" width="1100px"></a>
+                            <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/9ce374fe-ae48-46cc-bba3-00d655de71ca.png" width="1100px"></a>
                     </center>
                     <center>
                         <a href="https://amzn.clnk.in/lZU" target="_blank">
-                            <img class="img-mobile-view img-shopperstop-offer" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/89ebb5a6-fd84-4d11-a553-0d28c8b1f489.png" width="310px" ></a>
+                            <img class="img-mobile-view img-shopperstop-offer" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/ed53dfdf-4490-4d2e-a4c2-41aedf610f6b.png" width="310px" ></a>
                     </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">👉 <a--}}
 {{--                                href="https://www.amazon.in/b?node=6648217031" target="_blank">New Year, New You</a> (Up To 70% OFF)</span> /--}}
@@ -146,6 +146,114 @@
                 </div>
 
             </div>
+
+
+            {{--How to prevent Coronavirus? --}}
+            <div class="row text-center">
+                <h2 class="f-s-35 p-color-cement-dark font-weight-900 ">How to prevent Coronavirus?</h2>
+                <p class="p-color-blue">WHO also advises: Wearing a mask may stop an individual from directly
+                    <a href="https://bit.ly/38LXXY2" target="_blank">touching their mouth and nose</a>, which is a common way that viruses and germs enter the body.
+                  Buy these below suggested Face mask from Amazon.in and Ship from India to China or any country worldwide.
+                </p>
+
+                <br>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <a href="https://www.amazon.in/Dettol-Shield-Carbon-Activated-Air-Pollution/dp/B07JD4ZXYT/" target="_blank">
+                            <img class="img-product m-t-img" src="https://images-na.ssl-images-amazon.com/images/I/61Vsisu8wFL._SL1000_.jpg">
+                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
+                                Carbon Activated Mask, Pack of 5
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.amazon.in/Honeywell-Pollution-Foldable-Exhalation-Valve/dp/B01I9PVOPW/" target="_blank">
+                            <img class="img-product m-t-img" src="https://images-na.ssl-images-amazon.com/images/I/61enD1szCcL._SL1500_.jpg">
+                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
+                                Easy Exhalation Valve, Box of 5
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.amazon.in/Dettol-Anti-Pollution-Cambridge-Basic/dp/B07JP51P2S" target="_blank">
+                            <img class="img-product m-t-img" src="https://images-na.ssl-images-amazon.com/images/I/61gC5hNVUOL._SL1000_.jpg">
+                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
+                                Dettol Anti Pollution Mask N95
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.amazon.in/Honeywell-D7002-BU10-IND-Anti-Pollution-Foldable-Face/dp/B01AJI0QF6/" target="_blank">
+                            <img class="img-product m-t-img " src="https://images-na.ssl-images-amazon.com/images/I/6174Xdh4q8L._SL1500_.jpg">
+                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
+                                Honeywell Face Mask Pack of 10
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.amazon.in/Honeywell-Pollution-Foldable-Exhalation-Printed/dp/B01I9PVHA4/" target="_blank">
+                            <img class="img-product m-t-img " src="https://images-na.ssl-images-amazon.com/images/I/61ACK9RYzsL._SL1500_.jpg">
+                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
+                                2.5 Anti Pollution Face Mask
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.amazon.in/Bodyguard-Reusable-Pollution-Activated-Carbon/dp/B07KG19762" target="_blank">
+                            <img class="img-product m-t-img " src="https://images-na.ssl-images-amazon.com/images/I/816VSmIHxPL._SL1500_.jpg">
+                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
+                                Anti Pollution Face Mask
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.amazon.in/Aastha-Non-Woven-Fabric-Layers-Disposable/dp/B07NTHK4P1/" target="_blank">
+                            <img class="img-product m-t-img " src="https://images-na.ssl-images-amazon.com/images/I/81fktlB6arL._SL1500_.jpg">
+                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
+                                Face Mask - 100 Pieces
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <a href="https://www.amazon.in/dp/B00JB1ARMK/" target="_blank">
+                            <img class="img-product m-t-img" src="https://images-na.ssl-images-amazon.com/images/I/617th8a2LoL._SL1000_.jpg">
+                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
+                                Filtra Petit Ladies 3-Ply Ear Loop
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <br>
+            <hr style="border-top: 2px solid #beadad !important;">
+
+            <br>
 
             {{--Women's Fashion --}}
             <div class="row text-center">

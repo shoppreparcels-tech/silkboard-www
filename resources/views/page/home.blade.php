@@ -621,19 +621,19 @@
                     </div>
                     <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
 
-                        <a href="/amazon-india-shop-international-shipping" title="Click Here" target="_blank">
+                        <a href="/amazon-online-shopping" title="Click Here" target="_blank">
                         <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
                         <div class="pad-5 bgr-c-bl">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">END OF SEASON SALE</h4></div>
+                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">SPECIAL CAMPAIGN</h4></div>
                         </div>
                         <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Clothing, Footwear & more</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Worried about Coronavirus Spread?</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Up To 70% Off</span></p>
+                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Buy Low-cost Face Mask</span></p>
                             <br>
                             <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Amazon.in</span></p>
                             <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Amazon Fashion Sale</span> & Get Delivered Worldwide with us.</p>
+                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Amazon India</span> & Get Delivered Worldwide with us.</p>
                         </div>
 
                     </div>

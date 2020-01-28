@@ -215,7 +215,7 @@
                             <h5 class="header6 p-color-cement font-weight-900">Up To 70% Off</h5>
 {{--                            <div class="ecomSmallBox" style="height: 94px;">--}}
                             <div class="ecomSmallBox">
-                            <a href="/amazon-online-shopping" target="_blank">
+                            <a href="/amazon-india-shop-international-shipping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">AMAZON.in</p>
 {{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon-india-shopping.png"/>--}}
                                 </a>
