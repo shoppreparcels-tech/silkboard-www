@@ -131,12 +131,13 @@
                 <div class="">
 
                     <center>
-                        <a href="https://amzn.clnk.in/lZU" target="_blank">
-                            <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/9ce374fe-ae48-46cc-bba3-00d655de71ca.png" width="1100px"></a>
+{{--                        <a href="https://amzn.clnk.in/lZU" target="_blank">--}}
+                            <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/9ce374fe-ae48-46cc-bba3-00d655de71ca.png" width="1100px">
+
                     </center>
                     <center>
-                        <a href="https://amzn.clnk.in/lZU" target="_blank">
-                            <img class="img-mobile-view img-shopperstop-offer" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/ed53dfdf-4490-4d2e-a4c2-41aedf610f6b.png" width="310px" ></a>
+{{--                        <a href="https://amzn.clnk.in/lZU" target="_blank">--}}
+                            <img class="img-mobile-view img-shopperstop-offer" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/ed53dfdf-4490-4d2e-a4c2-41aedf610f6b.png" width="310px">
                     </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">👉 <a--}}
 {{--                                href="https://www.amazon.in/b?node=6648217031" target="_blank">New Year, New You</a> (Up To 70% OFF)</span> /--}}

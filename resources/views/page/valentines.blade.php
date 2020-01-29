@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Send Valentines Day Gifts | Ship LOVE from India | Save Upto 80% | Fast & Affordable')
+@section('title', 'Send Valentines Day Gifts | International Gifts Delivery from India ')
 @section('description', 'Looking for the perfect Valentine’s day gift to send overseas? Get us to ship it to your destination at the cheapest of shipping rates, taking just 3-6 days.')
-@section('keywords', 'valentines, shipping, shopping, gifts, indian online shops, international shipping')
+@section('keywords', 'valentine shopping, gift delivery, indian online shops, international shipping, love, personalized')
 
 @section('css_style')
 
@@ -11,8 +11,6 @@
 
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://www.shoppre.com/img/images/priyamani-shoppre-online-shopping-in-india.jpg" />
-    <meta property="og:image:width" content="2160">
-    <meta property="og:image:height" content="1216">
     <meta property="og:site_name" content="ShoppRe" />
 
     <style>
@@ -365,11 +363,10 @@
             </div>
             <div class="container"><br><br><br>
                 <center>
-                    <h1 class="f-s-36 f-c-white f-w-8">Valentine day gifts Online Shopping</h1>
+                    <h1 class="f-s-36 f-c-white f-w-8">Valentine Day Gifts Online Shopping</h1>
                     <br>
                 </center>
-                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
-                        Get ₹200 Discount on Shipping valentine Products Internationally. T&C*</i></p>
+                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i>Send Personalised - Shop Online Valentine Gifts in India | International Gifts Delivery through ShoppRe. </i></p>
                 <br>
                 <br>
             </div>
@@ -502,11 +499,11 @@
                 {{--                <p class="f-s-20"><span class="f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">END OF SEASON SALE(40-80% OFF)</a></span></p>--}}
 
                 <br>
-                <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Valentine Love Cards</h2>
+                <h2 class="f-s-20 p-color-cement-dark font-weight-900"><u>Valentine Love Cards</u></h2>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2uFOPFB" target="_blank">
+                        <a href="https://clnk.in/kiVR" target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://rukminim1.flixcart.com/image/416/416/k2urhjk0/card/z/z/s/48-set-of-48-love-cards-for-explosion-box-or-other-diy-love-original-imafm3g5yagrgkpm.jpeg?q=70" />
@@ -773,7 +770,7 @@
                 </div>
 
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Valentine Gift Sets</h2>
+                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 "><u>Valentine Gift Sets</u></h2>
                 </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
@@ -1041,7 +1038,7 @@
                 </div>
 
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Valentine Cushions</h2>
+                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 "><u>Valentine Cushions</u></h2>
                 </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
@@ -1303,7 +1300,7 @@
                 </div>
 
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Valentine Keychains</h2>
+                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 "><u>Valentine Keychains</u></h2>
                 </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
@@ -1565,7 +1562,7 @@
                 </div>
 
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Valentine Teddy Bears</h2>
+                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 "><u>Valentine Teddy Bears</u></h2>
                 </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
@@ -1826,7 +1823,7 @@
                 </div>
 
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Valentine Special Gifts For Her</h2>
+                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 "><u>Valentine Special Gifts For Her</u></h2>
                 </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
@@ -1959,7 +1956,7 @@
                 </div>
 
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Valentine Special Gifts For Him</h2>
+                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 "><u>Valentine Special Gifts For Him</u></h2>
                 </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
@@ -2224,19 +2221,19 @@
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                        class="startsValidValue"> 1th Feb 2019</span></p>
+                                        class="startsValidValue"> 1st Feb 2020</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                        class="startsValidValue"> 17th Feb 2019</span></p>
+                                        class="startsValidValue"> 15th Feb 2020</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">COUPON CODE :<span
-                                        class="startsValidValue"> SFEB14</span></p>
+                                        class="startsValidValue"> LUV2020</span></p>
                         </center>
 
                     </div>
@@ -2255,40 +2252,40 @@
             </div>
 
             <div class=" col-md-12 offer-description">
-                <label class="f-s-22 f-c-d-greay">Shop & Ship from 1000+ Indian online stores ‘Including :</label>
-                <div class="row" style="padding-right:10px;padding-left: 30px">
-                    <center>
-                        <div class="col-md-1 col-md-offset-2 d-stores-box col-xs-6 col-xs-offset-2 ">
-                            <center class="d-online-stores">
-                                <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/flipkart-logo.png" alt="FlipKart"/>
-                            </center>
+                <label class="f-s-28 f-c-d-greay">Shop & Ship from 1000+ Indian online stores:</label>
+{{--                <div class="row" style="padding-right:10px;padding-left: 30px">--}}
+{{--                    <center>--}}
+{{--                        <div class="col-md-1 col-md-offset-2 d-stores-box col-xs-6 col-xs-offset-2 ">--}}
+{{--                            <center class="d-online-stores">--}}
+{{--                                <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/flipkart-logo.png" alt="FlipKart"/>--}}
+{{--                            </center>--}}
 
-                        </div>
-                        <div class="col-md-1  d-stores-box col-xs-6">
-                            <center class="d-online-stores">
-                                <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon_logo_RGB.png" alt="Amazon"/>
-                            </center>
-                        </div>
-                        <div class="col-md-1  d-stores-box col-xs-4">
-                            <center class="d-online-stores">
-                                <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1.png"
-                                     alt="Jabong"/>
-                            </center>
-                        </div>
-                        <div class="col-md-1  d-stores-box col-xs-4">
-                            <center class="d-online-stores">
-                                <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/myntra.png" alt="SnapDeal"/>
-                            </center>
-                        </div>
-                        <div class="col-md-1  d-stores-box col-xs-4">
-                            <center class="d-online-stores">
-                                <img class="shoppingKart"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1(1).png" alt="Myntra"/>
-                            </center>
-                        </div>
+{{--                        </div>--}}
+{{--                        <div class="col-md-1  d-stores-box col-xs-6">--}}
+{{--                            <center class="d-online-stores">--}}
+{{--                                <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/amazon_logo_RGB.png" alt="Amazon"/>--}}
+{{--                            </center>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-md-1  d-stores-box col-xs-4">--}}
+{{--                            <center class="d-online-stores">--}}
+{{--                                <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1.png"--}}
+{{--                                     alt="Jabong"/>--}}
+{{--                            </center>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-md-1  d-stores-box col-xs-4">--}}
+{{--                            <center class="d-online-stores">--}}
+{{--                                <img class="shoppingKart" src="{{env('AWS_CLOUD_FRONT')}}/img/images/myntra.png" alt="SnapDeal"/>--}}
+{{--                            </center>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-md-1  d-stores-box col-xs-4">--}}
+{{--                            <center class="d-online-stores">--}}
+{{--                                <img class="shoppingKart"--}}
+{{--                                     src="{{env('AWS_CLOUD_FRONT')}}/img/images/Jabong-com-925660222-1939026-1(1).png" alt="Myntra"/>--}}
+{{--                            </center>--}}
+{{--                        </div>--}}
 
-                    </center>
-                </div>
+{{--                    </center>--}}
+{{--                </div>--}}
                 <br>
                 <p class="f-s-16 f-c-gray f-w-4 l-h-2 ">Shop around in 1000+ Indian stores to help make your Valentines' extra special this year,
                     and get us to ship it to you at the cheapest of shipping rates as fast as it can reach you!   </p>
@@ -2322,9 +2319,10 @@
                     <h5>Cashback: Terms & Conditions</h5>
                     <ul>
                         <li>15% Cashback upto INR 250/-</li>
-                        <li> This offer cannot be clubbed with any other. </li>
-                        <li> The cashback goes to your Wallet. (Use Coupon: SFEB14 when you check-out).</li>
-                        <li>The cashback would only be active during 1st Feb to 17th Feb 2019 .</li>
+                        <li>This offer cannot be clubbed with any other. </li>
+                        <li>The cashback goes to your Wallet. (Use Coupon: LUV2020 when you check-out).</li>
+                        <li>The cashback would only be active during 1st Feb to 15th Feb 2020.</li>
+                        <li>The <shipment></shipment> should contain items related to Valentine's.</li>
                         <li>This cashback is applicable only for international shipments.</li>
                         <li>The cashback can only be used to pay off your shipping costs.</li>
                         <li>Clearance charges are applicable for shipping Special Items - liquids & semi liquids such as cosmetics, medicines, oils & homemade food.</li>
