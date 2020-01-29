@@ -183,7 +183,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
-                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/420/474/image/09d58f64b81b7b15.jpg">
+                            <img class="img-product m-t-img flipkart-product-img"
+                                 src="https://rukminim1.flixcart.com/image/416/416/k2jbyq80/mask-respirator/t/g/s/halfmask-1-grapple-deals-original-imafhvfktdxquhru.jpeg?q=70">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Soan Papdi <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -191,7 +192,7 @@
 {{--                            ₹150 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.flipkart.com/mens-clothing/~top-brands-mens-clothing-min-60-percentage-off/pr?sid=2oq%2Cs9b" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.flipkart.com/grapple-deals-bike-riding-cycling-anti-pollution-dust-sun-protection-half-face-cover-mask-men-women-halfmask-1/p/itm7c891792771ee">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -200,7 +201,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/420/474/image/ad5bb76e356b05bf.jpg">
+                            <img class="img-product m-t-img flipkart-product-img"
+                                 src="https://rukminim1.flixcart.com/image/416/416/k2w6xe80/mask-respirator/u/x/e/be-bpm-302-be-safe-forever-original-imafm4gzcsccfjbg.jpeg?q=70">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Kaju Katli <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -208,7 +210,7 @@
 {{--                            ₹245 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.flipkart.com/womens-clothing/ethnic-wear/pr?sid=2oq%2Cc1r%2C3pj&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.flipkart.com/safe-forever-n95-anti-pollution-face-mask-activated-carbon-men-women-pack-3-be-bpm-302-respirator/p/itm246aec9cf61f9">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -217,7 +219,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/420/474/image/2c3c0cedfea0c21e.jpg">
+                            <img class="img-product m-t-img flipkart-product-img"
+                                 src="https://rukminim1.flixcart.com/image/416/416/jz30nm80/mask-respirator/q/t/b/skull-face-mask-1pc-anti-pollution-dust-sun-tashkurst-original-imafhmxpcr4g5j3w.jpeg?q=70">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Besan Laddu <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -225,7 +228,8 @@
 {{--                            ₹145 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.flipkart.com/womens-clothing/~cs-8ffi6o3ikj/pr?sid=2oq%2Cc1r" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.flipkart.com/tashkurst-face-bike-riding-dust-protection-anti-pollution-mask-half-cover-men-women-kids-3pc-respirator/p/itmfhnbdjgqkjurx"
+                               target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -234,7 +238,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/420/474/image/01b5bb989c2afcc8.jpg">
+                            <img class="img-product m-t-img flipkart-product-img"
+                                 src="https://rukminim1.flixcart.com/image/416/416/jtd98y80/mask-respirator/y/y/a/face-mask-aadya-shoppings-original-imafeqaxgygqhqqk.jpeg?q=70">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Doodh Burfi <br>(250 grams)--}}
 {{--                        </div>--}}
@@ -242,7 +247,7 @@
 {{--                            ₹145 + Shipping Charges--}}
 {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.flipkart.com/kids-clothing/pr?sid=2oq%2Cmpf&p%5B%5D=facets.discount_range_v1%255B%255D%3D60%2525%2Bor%2Bmore" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.flipkart.com/aadya-shoppings-face-mask-mask-respirator/p/itmfeqdygvwpbzgj">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>

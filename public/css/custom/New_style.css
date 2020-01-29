@@ -5237,10 +5237,30 @@ stroes-ul li a:hover {
         transform: scale(1)
     }
 }
+@media only screen and (max-width:1440px){
+    .flipkart-product-img{
+        width: 216px;
+        height: 243.25px;
+    }
+    .home-live-sale-img{
+        width: 216px;
+        height: 130px;
+    }
+
+}
+
 
 @media only screen and (max-width:1024px) {
     .header6 {
         font-size: 11px
+    }
+    .home-live-sale-img{
+        width: 216px;
+        height: 130px;
+    }
+    .flipkart-product-img{
+        width: 216px;
+        height: 168.92px;
     }
     .container-search {
         display: none
@@ -5398,6 +5418,10 @@ stroes-ul li a:hover {
         display: block;
         padding: 3px 3px
     }
+    .home-live-sale-img{
+        width: 216px;
+        height: 130px;
+    }
     .vday-img{
         width: 216px;
         height: 150px;
@@ -5492,6 +5516,10 @@ stroes-ul li a:hover {
     .menu-content-service {
         height: 430px !important;
         overflow: scroll !important;
+    }
+    .flipkart-product-img{
+        width: 150px;
+        height: 168.92px;
     }
     .vday-img{
         width: 216px;
@@ -6241,6 +6269,10 @@ stroes-ul li a:hover {
     .vday-product-div{
         width: 145px;
         height: 305px;
+    }
+    .home-live-sale-img{
+        width: 100%;
+        height: 180px;
     }
     .vday-img{
         width: 216px;
@@ -7079,6 +7111,18 @@ stroes-ul li a:hover {
 @media only screen and (max-width:568px) {
     .div-main-row {
         margin-left: 12px
+    }
+    .flipkart-product-img{
+        width: 120px;
+        height: 135.14px;
+    }
+    .home-live-sale-img{
+        width: 100%;
+        height: 250px;
+    }
+    .home-live-sale-div{
+        box-shadow: none !important;
+        margin-bottom: 8%;
     }
     .vday-product-div{
         width: 170.5px;

@@ -377,12 +377,11 @@
     <section>
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
-                <a href="https://www.myntra.com/shop/rtf20-prebuzz" target="_blank">
-                    <img class="img-desktop-view" src="/img/images/vday1.jpg" width="100%"></a>
+                    <img class="img-desktop-view" src="/img/images/vday1.jpg" width="100%">
                 <center>
                     <a href="https://www.myntra.com/shop/rtf20-prebuzz" target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="//assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/banners/2020/1/14/f8f55036-8aa7-4a9c-8174-f8370e968cc81578981937131-Untitled-5_01_01.jpG" width="350px" ></a>
+                             src="/img/images/slider.jpg" width="350px" ></a>
                 </center>
                 <div class="">
                     <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">
@@ -2322,7 +2321,7 @@
                         <li>This offer cannot be clubbed with any other. </li>
                         <li>The cashback goes to your Wallet. (Use Coupon: LUV2020 when you check-out).</li>
                         <li>The cashback would only be active during 1st Feb to 15th Feb 2020.</li>
-                        <li>The <shipment></shipment> should contain items related to Valentine's.</li>
+                        <li>The shipment should contain items related to Valentine's.</li>
                         <li>This cashback is applicable only for international shipments.</li>
                         <li>The cashback can only be used to pay off your shipping costs.</li>
                         <li>Clearance charges are applicable for shipping Special Items - liquids & semi liquids such as cosmetics, medicines, oils & homemade food.</li>

@@ -600,85 +600,208 @@
             </div>
             <div class="col-md-10 col-xs-12 pad-b-30">
                 <div class="slider" id="shippingCard">
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
+{{--                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">--}}
+{{--                        <a href="/flipkart-shopping-with-shoppre-from-india" title="Click to Know More" target="_blank">--}}
+{{--                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >--}}
+{{--                        <div class="pad-5 bgr-c-gl">--}}
+{{--                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">FASHION WEEKEND SALE</h4></div>--}}
+{{--                        </div>--}}
+{{--                        <div class="des-div-rakhi text-center"><br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40-70% Off</span></p>--}}
+
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Puma, W, Vero Moda</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Flipkart.com</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Flipkart India</span> & Ship @Cheap-Cost Internationally.</p>--}}
+{{--                        </div>--}}
+{{--                        </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">--}}
+
+{{--                        <a href="/amazon-online-shopping" title="Click Here" target="_blank">--}}
+{{--                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">--}}
+{{--                        <div class="pad-5 bgr-c-bl">--}}
+{{--                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">SPECIAL CAMPAIGN</h4></div>--}}
+{{--                        </div>--}}
+{{--                        <div class="des-div-rakhi text-center"><br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Worried about Coronavirus Spread?</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Buy Low-cost Face Mask</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Amazon.in</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Amazon India</span> & Get Delivered Worldwide with us.</p>--}}
+{{--                        </div>--}}
+
+{{--                    </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">--}}
+{{--                        <a href="/myntra-online-shopping-shipping-from-india" title="Know More" target="_blank">--}}
+{{--                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">--}}
+{{--                        <div class="pad-5 bgr-c-gr">--}}
+
+{{--                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">END OF SEASON SALE</h4></div>--}}
+{{--                        </div>--}}
+{{--                        <div class="des-div-rakhi text-center"><br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Min. 50% Off</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Explore</span></p>--}}
+
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Myntra.com</span></p>--}}
+{{--                            <br>--}}
+{{--                            <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9">Myntra</span> & Ship @Cheap-Cost Internationally, Door-to-door Delivery.</p>--}}
+{{--                        </div>--}}
+
+{{--                    </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">--}}
+{{--                            <a href="/ajio-online-shopping" title="Click for Offer Details" target="_blank">--}}
+{{--                            <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">--}}
+{{--                            <div class="pad-5 bgr-c-br">--}}
+{{--                                <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">BIG BAG DAYS</h4></div>--}}
+{{--                            </div>--}}
+{{--                            <div class="des-div-rakhi text-center"><br>--}}
+{{--                                <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">27th - 29th JAN</span></p>--}}
+{{--                                <br>--}}
+{{--                                <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">40-70% Off</span></p>--}}
+{{--                                <br>--}}
+{{--                                <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">AJIO.com</span></p>--}}
+{{--                                <br>--}}
+{{--                                <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9">AJIO Products</span> & Ship Internationally with us.</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                            </a>--}}
+{{--                    </div>--}}
+
+                    <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
                         <a href="/flipkart-shopping-with-shoppre-from-india" title="Click to Know More" target="_blank">
-                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >
-                        <div class="pad-5 bgr-c-gl">
-                            <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">FASHION WEEKEND SALE</h4></div>
-                        </div>
-                        <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">40-70% Off</span></p>
-
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Puma, W, Vero Moda</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Flipkart.com</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Flipkart India</span> & Ship @Cheap-Cost Internationally.</p>
-                        </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-
-                        <a href="/amazon-online-shopping" title="Click Here" target="_blank">
-                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #507dbc;">
-                        <div class="pad-5 bgr-c-bl">
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">SPECIAL CAMPAIGN</h4></div>
-                        </div>
-                        <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Worried about Coronavirus Spread?</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Buy Low-cost Face Mask</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Amazon.in</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop from <span class="f-s-16 f-c-blue f-w-9">Amazon India</span> & Get Delivered Worldwide with us.</p>
-                        </div>
-
-                    </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">
-                        <a href="/myntra-online-shopping-shipping-from-india" title="Know More" target="_blank">
-                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #44b773;">
-                        <div class="pad-5 bgr-c-gr">
-
-                            <div class="h-div text-center"><h4 class="cord-header-size f-c-white">END OF SEASON SALE</h4></div>
-                        </div>
-                        <div class="des-div-rakhi text-center"><br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">Min. 50% Off</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">Explore</span></p>
-
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">Myntra.com</span></p>
-                            <br>
-                            <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9">Myntra</span> & Ship @Cheap-Cost Internationally, Door-to-door Delivery.</p>
-                        </div>
-
-                    </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;">
-                            <a href="/ajio-online-shopping" title="Click for Offer Details" target="_blank">
-                            <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e85151;">
-                            <div class="pad-5 bgr-c-br">
-                                <div class="h-div  text-center"><h4 class="cord-header-size f-c-white">BIG BAG DAYS</h4></div>
+                            <div style="text-align: left;">
+                                <div style="padding-top: 0px;">
+                                    <img class="img-product m-t-img border-radius-10 home-live-sale-img"
+                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/b6c4f0ae-e6ad-45b8-afad-79d22ca81ef2.png" />
+                                </div>
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Fashion Weekend Sale
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+{{--                                            <i class="fa fa-inr" aria-hidden="true"></i>--}}
+                                            40-70% Off
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Flipkart.com
+{{--                                    <span style="color: #347b4c;">--}}
+{{--                                            4-5 days--}}
+{{--                                        </span>--}}
+                                </div>
                             </div>
-                            <div class="des-div-rakhi text-center"><br>
-                                <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-blue f-w-9">27th - 29th JAN</span></p>
-                                <br>
-                                <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-red f-w-9">40-70% Off</span></p>
-                                <br>
-                                <p class="f-s-16 f-c-l-gray f-w-7"><span class="f-s-16 f-c-black f-w-9">AJIO.com</span></p>
-                                <br>
-                                <p class="f-s-16 f-c-l-gray f-w-7">Shop <span class="f-s-16 f-c-blue f-w-9">AJIO Products</span> & Ship Internationally with us.</p>
-                        </div>
+                        </a>
                     </div>
-                            </a>
+                    <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
+                        <a href="/myntra-online-shopping-shipping-from-india" title="Click to Know More" target="_blank">
+                            <div style="text-align: left;">
+                                <div style="padding-top: 0px;">
+                                    <img class="img-product m-t-img border-radius-10 home-live-sale-img"
+                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/840d77be-4ff3-47b8-b4c4-d482407fe3a1.png" />
+                                </div>
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    End Of Season Sale
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+{{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
+                                            Min. 50% Off
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Myntra.com
+{{--                                    <span style="color: #347b4c;">--}}
+{{--                                            4-5 days--}}
+{{--                                        </span>--}}
+                                </div>
+                            </div>
+                        </a>
                     </div>
+                    <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
+                        <a href="/amazon-india-shop-international-shipping" title="Click to Know More" target="_blank">
+                            <div style="text-align: left;">
+                                <div style="padding-top: 0px;">
+                                    <img class="img-product m-t-img border-radius-10 home-live-sale-img"
+                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/f0d5c959-04d0-4f74-9bfa-04db508f1ce5.png" />
+                                </div>
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                   End Of Season Sale
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+{{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
+                                        Up To 70% Off
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Amazon.in
+{{--                                    <span style="color: #347b4c;">--}}
+{{--                                            4-5 days--}}
+{{--                                        </span>--}}
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
+                        <a href="/ajio-online-shopping" title="Click to Know More" target="_blank">
+                            <div style="text-align: left;">
+                                <div style="padding-top: 0px;">
+                                    <img class="img-product m-t-img border-radius-10 home-live-sale-img"
+                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/a4230abc-3698-483d-b3c2-cb2edea71299.png" />
+                                </div>
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Big Bag Days
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+{{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
+                                            40-70% Off
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    AJIO.com
+{{--                                    <span style="color: #347b4c;">--}}
+{{--                                            4-5 days--}}
+{{--                                        </span>--}}
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <br>
