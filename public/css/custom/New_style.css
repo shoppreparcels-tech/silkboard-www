@@ -625,6 +625,11 @@ header::after {
     color: #677582
 }
 
+.vday-img{
+    width: 216px;
+    height: 198px;
+}
+
 .border-radius-10{
     border-radius: 10px;
 }
@@ -4434,6 +4439,13 @@ div.ifs-tab div.ifs-tab-content:not(.active) {
     padding-left: 0;
     padding-right: 0
 }
+.shopContainer-valentaine {
+    box-shadow: 0 0 10px rgba(17, 39, 59, .1);
+    border-radius: 15px;
+    background-color: #fff;
+    padding-left: 0;
+    padding-right: 0
+}
 
 .saveupto {
     width: 337px;
@@ -5386,6 +5398,10 @@ stroes-ul li a:hover {
         display: block;
         padding: 3px 3px
     }
+    .vday-img{
+        width: 216px;
+        height: 150px;
+    }
     .logo {
         margin-left: -22px
     }
@@ -5476,6 +5492,10 @@ stroes-ul li a:hover {
     .menu-content-service {
         height: 430px !important;
         overflow: scroll !important;
+    }
+    .vday-img{
+        width: 216px;
+        height: 216px;
     }
     .navbar-brand img {
         height: 50px;
@@ -5767,6 +5787,10 @@ stroes-ul li a:hover {
     #header-ul {
         display: none
     }
+    .vday-img{
+        width: 216px;
+        height: 130px;
+    }
     .p-ifs-img4 {
         margin-top: 0
     }
@@ -5898,6 +5922,10 @@ stroes-ul li a:hover {
         width: 500px;
         margin-left: 81px
     }
+    .vday-img{
+        width: 216px;
+        height: 130px;
+    }
     .p-ifs-img4 {
         margin-top: 0
     }
@@ -5949,6 +5977,10 @@ stroes-ul li a:hover {
 @media only screen and (max-width:684px) {
     .header1 {
         font-size: 25px
+    }
+    .vday-img{
+        width: 216px;
+        height: 130px;
     }
     .header2 {
         font-size: 18px
@@ -6023,6 +6055,10 @@ stroes-ul li a:hover {
 @media only screen and (max-width:667px) {
     .header1 {
         font-size: 25px
+    }
+    .vday-img{
+        width: 216px;
+        height: 130px;
     }
     .header2 {
         font-size: 18px
@@ -6118,6 +6154,14 @@ stroes-ul li a:hover {
         width: 151px;
         height: 52px
     }
+    .vday-product-div{
+        width: 145px;
+        height: 305px;
+    }
+    .vday-img{
+        width: 216px;
+        height: 130px;
+    }
     .div-stores-img {
         width: 189px;
         height: 154px
@@ -6131,6 +6175,14 @@ stroes-ul li a:hover {
     .navbar-brand img {
         width: 184px;
         height: 55px
+    }
+    .vday-product-div{
+        width: 145px;
+        height: 305px;
+    }
+    .vday-img{
+        width: 216px;
+        height: 130px;
     }
     .navbar-toggle {
         padding: 16px 0;
@@ -6185,6 +6237,14 @@ stroes-ul li a:hover {
     }
     .register-free {
         padding: 10px 25px 10px
+    }
+    .vday-product-div{
+        width: 145px;
+        height: 305px;
+    }
+    .vday-img{
+        width: 216px;
+        height: 130px;
     }
     .logo {
         width: 83px;
@@ -7020,6 +7080,14 @@ stroes-ul li a:hover {
     .div-main-row {
         margin-left: 12px
     }
+    .vday-product-div{
+        width: 170.5px;
+        height: 305px;
+    }
+    .vday-img{
+        width: 216px;
+        height: 130px;
+    }
     .div-priyamani-mobile-img {
         width: 234px;
         margin-top: -374px
@@ -7175,6 +7243,10 @@ stroes-ul li a:hover {
     .navbar-header-login>ul>li {
         display: block;
         margin-top: 10px
+    }
+    .vday-img{
+        width: 216px;
+        height: 130px;
     }
     .navbar-brand img {
         width: 140px
