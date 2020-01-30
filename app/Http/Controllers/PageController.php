@@ -839,6 +839,11 @@ class PageController extends Controller
     {
         return view('page.valentines');
     }
+
+    public function faceMask()
+    {
+        return view('page.face-mask');
+    }
     public function monthEndOffer()
     {
         return view('page.landing-pages.month-end-offer');
