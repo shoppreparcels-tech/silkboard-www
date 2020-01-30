@@ -139,11 +139,11 @@
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
                     <center>
                     <a href="https://www.ajio.com" target="_blank">
-                        <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/0bf7889d-3024-453e-9507-6d9485aebfce.png" width="1100px"></a>
+                        <img class="img-desktop-view" src="https://assets.ajio.com/medias/sys_master/images/images/h9f/hd6/15339701534750/30012020-D-WHP-TopBanner-payday-4070extra20.jpg" width="1100px"></a>
                         </center>
                     <center>
                         <a href="https://www.ajio.com/shop/women" target="_blank">
-                            <img class="img-mobile-view img-shopperstop-offer" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/62489912-8c85-4468-89db-44f17eff6ed1.png" width="300px" ></a>
+                            <img class="img-mobile-view img-shopperstop-offer" src="https://assets.ajio.com/medias/sys_master/images/images/h64/he6/15339704287262/30012020-M-WHP-TopBanner-payday-4070extra20.jpg" width="300px" ></a>
                     </center>
 
                 </div>

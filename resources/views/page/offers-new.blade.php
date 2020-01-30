@@ -77,13 +77,13 @@
 {{--                                </a>--}}
 {{--                            </div>--}}
 {{--                        </div>--}}
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="{{route('republicDay')}}" target="_blank">
-                                    <img src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/d6b40a1e-3713-4e38-a934-38531650cfb9.png" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
+{{--                        <div class="item">--}}
+{{--                            <div class="pad15">--}}
+{{--                                <a href="{{route('republicDay')}}" target="_blank">--}}
+{{--                                    <img src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/d6b40a1e-3713-4e38-a934-38531650cfb9.png" class="boxofScroll"/>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                         <div class="item">
                             <div class="pad15">
                                 <a href="/first-time-international-shipment-offer" target="_blank">
@@ -99,13 +99,13 @@
                             </div>
                         </div>
 
-{{--                        <div class="item">--}}
-{{--                            <div class="pad15">--}}
-{{--                                <a href="/shop-ship" target="_blank">--}}
-{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>--}}
-{{--                                </a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="/shop-ship" target="_blank">
+                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
                         <div class="item">
                             <div class="pad15">
                                 <a href="/university-offer" target="_blank">
@@ -127,8 +127,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Fashion Weekend SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">FLIPSTART DAYS</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
@@ -183,8 +183,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">BIG BAG DAY SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-70% OFF</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">PAYDAY SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-80% OFF</h5>
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
@@ -196,8 +196,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">END OF SEASON SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Min. 50% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Bags to Brag</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">50-70% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">

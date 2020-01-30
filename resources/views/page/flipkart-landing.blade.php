@@ -80,12 +80,12 @@
                 </div>
             </div>
             <center>
-             <a href="https://clnk.in/kivY" target="_blank">
-                        <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/36a3c672-f8e1-4196-b6fc-58b5dce50851.png" width="1100px"></a>
+             <a href="https://www.flipkart.com/flipstart-days-store" target="_blank">
+                        <img class="img-desktop-view" src="https://rukminim1.flixcart.com/flap/1800/1800/image/f3b8b6eba1b30d77.jpg?q=80" width="1100px"></a>
                 </center>
                     <center>
-                        <a href="https://clnk.in/kivY" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/2c5e1f40-68fb-4c08-8f34-02e02753cc26.png" width="300px" ></a>
+                        <a href="https://www.flipkart.com/flipstart-days-store" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer" src="https://rukminim1.flixcart.com/flap/1800/1800/image/f3b8b6eba1b30d77.jpg?q=80" width="300px" ></a>
                     </center>
 {{--            <div class="row text-center">--}}
 {{--                <div class="col-sm-4">--}}

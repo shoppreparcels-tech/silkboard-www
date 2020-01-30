@@ -159,6 +159,10 @@
             left: 4px !important;
         }
 
+        .img-sale{
+            width: 216px; height: 130px;
+        }
+
         .grecaptcha-badge:hover {
             width: 256px !important;
         }
@@ -531,11 +535,11 @@
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>
                     <div class="col-md-12 col-xs-12 div-b-w-s pad-t-20">
                         <div class="col-md-12 col-xs-12">
-                            <a href="{{route('republicDay')}}" target="_blank">
-{{--                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india-shoppre.png" class="img-f-w offer-img-d"--}}
-{{--                                        alt="frst50 shipment offer"></a>--}}
-                                <img src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/fddfed76-25b5-40d4-8359-1014508be1b0.png" class="img-f-w offer-img-d"
-                                     alt="republic day offer"></a>
+                            <a href="{{route('first-shipment')}}" target="_blank">
+                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india-shoppre.png" class="img-f-w offer-img-d"
+                                        alt="frst50 shipment offer"></a>
+{{--                                <img src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/fddfed76-25b5-40d4-8359-1014508be1b0.png" class="img-f-w offer-img-d"--}}
+{{--                                     alt="republic day offer">--}}
                             <a href="/first-time-international-shipment-offer" target="_blank"><img
                                         src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india.png"
                                         class="img-f-w offer-img-m" title="Click Here" alt="first time international shipping discount"></a>
@@ -684,19 +688,19 @@
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 home-live-sale-img"
-                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/b6c4f0ae-e6ad-45b8-afad-79d22ca81ef2.png" />
+                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/44f41592-3783-4b35-8e64-7f5eaacb29cd.png" />
                                 </div>
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    Fashion Weekend Sale
+                                    FLIPSTART DAYS
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i>--}}
-                                            40-70% Off
+                                            40-80% Off
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -720,7 +724,7 @@
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    End Of Season Sale
+                                    END OF SEASON SALE
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
@@ -751,7 +755,7 @@
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                   End Of Season Sale
+                                   END OF SEASON SALE
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
@@ -776,20 +780,20 @@
                         <a href="/ajio-online-shopping" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
-                                    <img class="img-product m-t-img border-radius-10 home-live-sale-img"
-                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/a4230abc-3698-483d-b3c2-cb2edea71299.png" />
+                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
+                                         src="https://assets.ajio.com/medias/sys_master/images/images/h64/he6/15339704287262/30012020-M-WHP-TopBanner-payday-4070extra20.jpg" />
                                 </div>
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    Big Bag Days
+                                    PAYDAY SALE
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                            40-70% Off
+                                            40-80% Off
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;

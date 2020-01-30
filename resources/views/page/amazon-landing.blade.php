@@ -87,11 +87,11 @@
             <div class="row text-center">
                 <center>
                 <a href="https://amzn.clnk.in/lZU" target="_blank">
-                    <img class="img-desktop-view" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/ff23f2e8-5a3e-4081-8175-4f23a2851e89.png" width="1100px"></a>
+                    <img class="img-desktop-view" src="https://m.media-amazon.com/images/G/31/img19/Fashion/JANFLIP19/NW-flip_Header_PC._SX3000_QL85_.jpg" width="1100px"></a>
                     </center>
                 <center>
                     <a href="https://amzn.clnk.in/lZU" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer" src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/89ebb5a6-fd84-4d11-a553-0d28c8b1f489.png" width="310px" ></a>
+                        <img class="img-mobile-view img-shopperstop-offer" src="https://m.media-amazon.com/images/G/31/img19/Fashion/JANFLIP19/Header_1._SY1500_QL85_.jpg" width="310px" ></a>
                 </center>
 {{--                <div class="col-sm-4">--}}
 

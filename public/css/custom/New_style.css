@@ -5255,8 +5255,8 @@ stroes-ul li a:hover {
         font-size: 11px
     }
     .home-live-sale-img{
-        width: 216px;
-        height: 130px;
+        width: 216px !important;
+        height: 130px !important;
     }
     .flipkart-product-img{
         width: 216px;
@@ -5419,8 +5419,8 @@ stroes-ul li a:hover {
         padding: 3px 3px
     }
     .home-live-sale-img{
-        width: 216px;
-        height: 130px;
+        width: 216px !important;
+        height: 130px !important;
     }
     .vday-img{
         width: 216px;
@@ -7117,8 +7117,8 @@ stroes-ul li a:hover {
         height: 135.14px;
     }
     .home-live-sale-img{
-        width: 100%;
-        height: 250px;
+        width: 100% !important;
+        height: 250px !important;
     }
     .home-live-sale-div{
         box-shadow: none !important;

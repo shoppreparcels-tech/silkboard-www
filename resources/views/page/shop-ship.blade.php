@@ -77,8 +77,8 @@
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                             <a href="/amazon-online-shopping" title="myntra" target="_blank">1. 👉END OF SEASON SALE </a> |
-                            <a href="/flipkart-online-shopping" title="flipkart" target="_blank">2. 👉FASHION WEEKEND SALE</a> |
-                            <a href="/ajio-online-shopping" title="ajio" target="_blank">3. 👉BIG BAG DAY SALE</a>
+                            <a href="/flipkart-online-shopping" title="flipkart" target="_blank">2. 👉FLIPSTART DAYS</a> |
+                            <a href="/ajio-online-shopping" title="ajio" target="_blank">3. 👉PAYDAY SALE</a>
                         </marquee>
                     </div>
                     <center>

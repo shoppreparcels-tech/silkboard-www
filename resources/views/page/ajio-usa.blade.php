@@ -128,7 +128,8 @@
                         <li>PAYDAY SALE (40-80% OFF) - (2nd Jan 2020 - 5th Jan 2020)</li>
                         <li>THE AJIO MANIA SALE (50-90% OFF) - (9-12 Jan 2020)</li>
                         <li>REPUBLIC DAY SALE (40-80% OFF) - (24-26 Jan 2020)</li>
-                        <li><a href="/ajio-online-shopping" target="_blank">BIG BAG DAYS (40-80% OFF) - (27th - 29th Jan 2020)</a></li>
+                        <li>BIG BAG DAYS (40-80% OFF) - (27th - 29th Jan 2020)</li>
+                        <li><a href="/ajio-online-shopping" target="_blank">PAY DAY SALE (40-80% OFF) - (30th JAN - 02nd FEB 2020)</a></li>
                     </ul>
                 </div>
                 <br>
