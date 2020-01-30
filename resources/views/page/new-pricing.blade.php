@@ -580,7 +580,7 @@
                                                    package, not per item. ">
                                                 <i class="fa fa-question-circle-o"></i></a></h6>
                                         </td>
-                                        <td><h6 class="f-s-16 f-c-blue">Free</h6></td>
+                                        <td><h6 class="f-s-16 f-c-blue">₹10</h6></td>
                                         <td><h6 class="f-s-16 f-c-l-gray">₹50</h6></td>
 
                                     </tr>
@@ -595,7 +595,7 @@
                                                     <i class="fa fa-question-circle-o"></i></a>
                                             </h6>
                                         </td>
-                                        <td><h6 class="f-s-16 f-c-blue">₹10 per photo</h6></td>
+                                        <td><h6 class="f-s-16 f-c-blue">₹5 per photo</h6></td>
                                         <td><h6 class="f-s-16 f-c-l-gray">₹20 per photo</h6></td>
 
                                     </tr>
