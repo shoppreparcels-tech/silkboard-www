@@ -160,7 +160,8 @@
         }
 
         .img-sale{
-            width: 216px; height: 130px;
+            width: 216px;
+            height: 130px;
         }
 
         .grecaptcha-badge:hover {
@@ -687,7 +688,7 @@
                         <a href="/flipkart-shopping-with-shoppre-from-india" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
-                                    <img class="img-product m-t-img border-radius-10 home-live-sale-img"
+                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
                                          src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/44f41592-3783-4b35-8e64-7f5eaacb29cd.png" />
                                 </div>
                                 <div style="color: #000;font-size: 14px;
@@ -718,7 +719,7 @@
                         <a href="/myntra-online-shopping-shipping-from-india" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
-                                    <img class="img-product m-t-img border-radius-10 home-live-sale-img"
+                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
                                          src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/840d77be-4ff3-47b8-b4c4-d482407fe3a1.png" />
                                 </div>
                                 <div style="color: #000;font-size: 14px;
@@ -746,29 +747,29 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
-                        <a href="/amazon-india-shop-international-shipping" title="Click to Know More" target="_blank">
+                        <a href="/face-mask-international-shipping" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
-                                    <img class="img-product m-t-img border-radius-10 home-live-sale-img"
-                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/f0d5c959-04d0-4f74-9bfa-04db508f1ce5.png" />
+                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
+                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/fffaacee-91af-463d-9e5b-2db994ea4bce.png" />
                                 </div>
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                   END OF SEASON SALE
+                                   SPECIAL FACE MASK
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                        Up To 70% Off
+                                        Start from <i class="fa fa-inr" aria-hidden="true"></i> 52
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
                                                 color: #181818;font-size: 14px;font-family: Lato;
                                                 text-align: left;">
-                                    Amazon.in
+                                    ShoppRe.com
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}

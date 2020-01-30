@@ -371,7 +371,7 @@
     </main>
 
 
-    <section>
+
         <br>
             <div class="row" style="margin-top: 2%">
                     <img class="img-desktop-view"
@@ -380,16 +380,16 @@
                 <center>
                         <img class="img-mobile-view img-shopperstop-offer"
                              src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/39cae6fc-ebe9-4040-a560-6af6f21b3545.png"
-                             width="350px" style="margin-top: 3%;">
+                             width="100%" style="margin-top: 3%;">
                 </center>
 {{--                <div class="">--}}
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}
 {{--                        Below are the Recommended & Recently Shipped Gifts! </h2>--}}
 {{--                </div>--}}
             </div>
+    <section>
+
         <div class="container fst-service" style="margin-top: 0px;">
-
-
 
             <div class="row text-center">
 
@@ -502,23 +502,23 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.amazon.in/Newnik-Disposable-Earloop-Protection-Masks/dp/B071GYTBWR/"
+                        <a href="https://www.amazon.in/Dettol-Anti-Pollution-Cambridge-Basic/dp/B07JP51P2S"
                            target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://images-na.ssl-images-amazon.com/images/I/91w3BEfFILL._SL1500_.jpg" />
+                                     src="https://images-na.ssl-images-amazon.com/images/I/61gC5hNVUOL._SL1000_.jpg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    Mask 3Ply -100 Pcs
+                                   N95 Dettol Mask
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i>
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 329
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -620,7 +620,7 @@
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i>
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 250
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -909,7 +909,7 @@
                 </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
                         <a href="https://www.amazon.in/3M-9332-Pollution-Mask-Aura/dp/B01LZF2RQM/"
                            target="_blank">
                             <div style="padding-top: 0px;">

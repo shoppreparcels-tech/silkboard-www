@@ -77,13 +77,13 @@
 {{--                                </a>--}}
 {{--                            </div>--}}
 {{--                        </div>--}}
-{{--                        <div class="item">--}}
-{{--                            <div class="pad15">--}}
-{{--                                <a href="{{route('republicDay')}}" target="_blank">--}}
-{{--                                    <img src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/d6b40a1e-3713-4e38-a934-38531650cfb9.png" class="boxofScroll"/>--}}
-{{--                                </a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="{{route('valentines')}}" target="_blank">
+                                    <img src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/5a139c20-b51d-4b5f-8f1f-72821a2524a3.png" class="boxofScroll"/>
+                                </a>
+                            </div>
+                        </div>
                         <div class="item">
                             <div class="pad15">
                                 <a href="/first-time-international-shipment-offer" target="_blank">
@@ -99,13 +99,13 @@
                             </div>
                         </div>
 
-                        <div class="item">
-                            <div class="pad15">
-                                <a href="/shop-ship" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>
-                                </a>
-                            </div>
-                        </div>
+{{--                        <div class="item">--}}
+{{--                            <div class="pad15">--}}
+{{--                                <a href="/shop-ship" target="_blank">--}}
+{{--                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                         <div class="item">
                             <div class="pad15">
                                 <a href="/university-offer" target="_blank">

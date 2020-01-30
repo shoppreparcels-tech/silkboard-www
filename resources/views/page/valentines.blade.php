@@ -361,138 +361,141 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
 
             </div>
-            <div class="container"><br><br><br>
-                <center>
-                    <h1 class="f-s-36 f-c-white f-w-8">Valentine Day Gifts Online Shopping</h1>
-                    <br>
-                </center>
-                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i>Send Personalised - Shop Online Valentine Gifts in India | International Gifts Delivery through ShoppRe. </i></p>
-                <br>
-                <br>
+            <div class="container"><br><br>
+{{--                <center>--}}
+{{--                    <h1 class="f-s-36 f-c-white f-w-8">Valentine Day Gifts Online Shopping</h1>--}}
+{{--                    <br>--}}
+{{--                </center>--}}
+{{--                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i>Send Personalised - Shop Online Valentine Gifts in India | International Gifts Delivery through ShoppRe. </i></p>--}}
+
             </div>
         </div>
     </main>
 
 
+
+
+            <div class="row">
+                    <img class="img-desktop-view"
+                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/4374ee3c-fe09-49e3-8940-4e8e543a9c53.png"
+                         width="100%">
+                <center>
+                        <img class="img-mobile-view img-shopperstop-offer"
+                             src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/5a139c20-b51d-4b5f-8f1f-72821a2524a3.png"
+                             width="100%" >
+                </center>
+{{--                <div class="">--}}
+{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}
+{{--                        Below are the Recommended & Recently Shipped Gifts! </h2>--}}
+{{--                </div>--}}
+            </div>
     <section>
         <div class="container fst-service" style="margin-top: 0px;">
-            <div class="row">
-                    <img class="img-desktop-view" src="/img/images/vday1.jpg" width="100%">
-                <center>
-                    <a href="https://www.myntra.com/shop/rtf20-prebuzz" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer"
-                             src="/img/images/slider.jpg" width="350px" ></a>
-                </center>
-                <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">
-                        Below are the Recommended & Recently Shipped Gifts! </h2>
-                </div>
-            </div>
 
 
             <!-- Jssor Slider Begin -->
             <!-- You can move inline styles to css file or css block. -->
-            <div class="" style="margin-top: 20px;padding-bottom: 0px;">
-                <center>
-                    <div id="slider1_container" class="valentine-slider"
-                    >
+{{--            <div class="" style="margin-top: 20px;padding-bottom: 0px;">--}}
+{{--                <center>--}}
+{{--                    <div id="slider1_container" class="valentine-slider"--}}
+{{--                    >--}}
 
-                        <!-- Loading Screen -->
-                        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
-                            <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
-                background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
-                            </div>
-                            <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
-                top: 0px; left: 0px;width: 100%;height:100%;">
-                            </div>
-                        </div>
+{{--                        <!-- Loading Screen -->--}}
+{{--                        <div u="loading" style="position: absolute; top: 0px; left: 0px;">--}}
+{{--                            <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;--}}
+{{--                background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">--}}
+{{--                            </div>--}}
+{{--                            <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;--}}
+{{--                top: 0px; left: 0px;width: 100%;height:100%;">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
-                        <!-- Slides Container -->
-                        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 809px; height: 150px; overflow: hidden;">
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                            <div><img u="image" src="/img/images/slider.jpg" /></div>
-                        </div>
+{{--                        <!-- Slides Container -->--}}
+{{--                        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 809px; height: 150px; overflow: hidden;">--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                            <div><img u="image" src="/img/images/slider.jpg" /></div>--}}
+{{--                        </div>--}}
 
-                        <!-- Bullet Navigator Skin Begin -->
-                        <style>
-                            /* jssor slider bullet navigator skin 03 css */
-                            /*
-                            .jssorb03 div           (normal)
-                            .jssorb03 div:hover     (normal mouseover)
-                            .jssorb03 .av           (active)
-                            .jssorb03 .av:hover     (active mouseover)
-                            .jssorb03 .dn           (mousedown)
-                            */
-                            .jssorb03 div, .jssorb03 div:hover, .jssorb03 .av
-                            {
-                                background: url(../img/b03.png) no-repeat;
-                                overflow:hidden;
-                                cursor: pointer;
-                            }
-                            .jssorb03 div { background-position: -5px -4px; }
-                            .jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }
-                            .jssorb03 .av { background-position: -65px -4px; }
-                            .jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px; }
-                        </style>
-                        <!-- bullet navigator container -->
-                    {{--                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 4px; right: 6px;">--}}
-                    {{--                    <!-- bullet navigator item prototype -->--}}
-                    {{--                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px;"><div u="numbertemplate"></div></div>--}}
-                    {{--                </div>--}}
-                    <!-- Bullet Navigator Skin End -->
+{{--                        <!-- Bullet Navigator Skin Begin -->--}}
+{{--                        <style>--}}
+{{--                            /* jssor slider bullet navigator skin 03 css */--}}
+{{--                            /*--}}
+{{--                            .jssorb03 div           (normal)--}}
+{{--                            .jssorb03 div:hover     (normal mouseover)--}}
+{{--                            .jssorb03 .av           (active)--}}
+{{--                            .jssorb03 .av:hover     (active mouseover)--}}
+{{--                            .jssorb03 .dn           (mousedown)--}}
+{{--                            */--}}
+{{--                            .jssorb03 div, .jssorb03 div:hover, .jssorb03 .av--}}
+{{--                            {--}}
+{{--                                background: url(../img/b03.png) no-repeat;--}}
+{{--                                overflow:hidden;--}}
+{{--                                cursor: pointer;--}}
+{{--                            }--}}
+{{--                            .jssorb03 div { background-position: -5px -4px; }--}}
+{{--                            .jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }--}}
+{{--                            .jssorb03 .av { background-position: -65px -4px; }--}}
+{{--                            .jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px; }--}}
+{{--                        </style>--}}
+{{--                        <!-- bullet navigator container -->--}}
+{{--                    --}}{{--                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 4px; right: 6px;">--}}
+{{--                    --}}{{--                    <!-- bullet navigator item prototype -->--}}
+{{--                    --}}{{--                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px;"><div u="numbertemplate"></div></div>--}}
+{{--                    --}}{{--                </div>--}}
+{{--                    <!-- Bullet Navigator Skin End -->--}}
 
-                        <!-- Arrow Navigator Skin Begin -->
-                        <style>
-                            /* jssor slider arrow navigator skin 03 css */
-                            /*
-                            .jssora03l              (normal)
-                            .jssora03r              (normal)
-                            .jssora03l:hover        (normal mouseover)
-                            .jssora03r:hover        (normal mouseover)
-                            .jssora03ldn            (mousedown)
-                            .jssora03rdn            (mousedown)
-                            */
-                            .jssora03l, .jssora03r, .jssora03ldn, .jssora03rdn
-                            {
-                                position: absolute;
-                                cursor: pointer;
-                                display: block;
-                                background: url(../img/a03.png) no-repeat;
-                                overflow:hidden;
-                            }
-                            .jssora03l { background-position: -3px -33px; }
-                            .jssora03r { background-position: -63px -33px; }
-                            .jssora03l:hover { background-position: -123px -33px; }
-                            .jssora03r:hover { background-position: -183px -33px; }
-                            .jssora03ldn { background-position: -243px -33px; }
-                            .jssora03rdn { background-position: -303px -33px; }
-                        </style>
-                        <!-- Arrow Left -->
-                        <span u="arrowleft" class="jssora03l" style="width: 55px; height: 55px; top: 123px; left: 8px;">
-        </span>
-                        <!-- Arrow Right -->
-                        <span u="arrowright" class="jssora03r" style="width: 55px; height: 55px; top: 123px; right: 8px">
-        </span>
-                        <!-- Arrow Navigator Skin End -->
-                        <a style="display: none" href="http://www.jssor.com">jQuery Slider</a>
-                    </div>
-                    <!-- Jssor Slider End -->
-                </center>
-            </div>
+{{--                        <!-- Arrow Navigator Skin Begin -->--}}
+{{--                        <style>--}}
+{{--                            /* jssor slider arrow navigator skin 03 css */--}}
+{{--                            /*--}}
+{{--                            .jssora03l              (normal)--}}
+{{--                            .jssora03r              (normal)--}}
+{{--                            .jssora03l:hover        (normal mouseover)--}}
+{{--                            .jssora03r:hover        (normal mouseover)--}}
+{{--                            .jssora03ldn            (mousedown)--}}
+{{--                            .jssora03rdn            (mousedown)--}}
+{{--                            */--}}
+{{--                            .jssora03l, .jssora03r, .jssora03ldn, .jssora03rdn--}}
+{{--                            {--}}
+{{--                                position: absolute;--}}
+{{--                                cursor: pointer;--}}
+{{--                                display: block;--}}
+{{--                                background: url(../img/a03.png) no-repeat;--}}
+{{--                                overflow:hidden;--}}
+{{--                            }--}}
+{{--                            .jssora03l { background-position: -3px -33px; }--}}
+{{--                            .jssora03r { background-position: -63px -33px; }--}}
+{{--                            .jssora03l:hover { background-position: -123px -33px; }--}}
+{{--                            .jssora03r:hover { background-position: -183px -33px; }--}}
+{{--                            .jssora03ldn { background-position: -243px -33px; }--}}
+{{--                            .jssora03rdn { background-position: -303px -33px; }--}}
+{{--                        </style>--}}
+{{--                        <!-- Arrow Left -->--}}
+{{--                        <span u="arrowleft" class="jssora03l" style="width: 55px; height: 55px; top: 123px; left: 8px;">--}}
+{{--        </span>--}}
+{{--                        <!-- Arrow Right -->--}}
+{{--                        <span u="arrowright" class="jssora03r" style="width: 55px; height: 55px; top: 123px; right: 8px">--}}
+{{--        </span>--}}
+{{--                        <!-- Arrow Navigator Skin End -->--}}
+{{--                        <a style="display: none" href="http://www.jssor.com">jQuery Slider</a>--}}
+{{--                    </div>--}}
+{{--                    <!-- Jssor Slider End -->--}}
+{{--                </center>--}}
+{{--            </div>--}}
 
             <div class="row text-center">
                 {{--                <p class="f-s-20"><span class="f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">END OF SEASON SALE(40-80% OFF)</a></span></p>--}}
@@ -502,10 +505,11 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://clnk.in/kiVR" target="_blank">
+                        <a href="https://www.flipkart.com/oddclick-set-48-love-cards-explosion-box-other-diy-greeting-3x3-inches-card/p/itmcca6f66ee6950"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/k2urhjk0/card/z/z/s/48-set-of-48-love-cards-for-explosion-box-or-other-diy-love-original-imafm3g5yagrgkpm.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/k2urhjk0/card/z/z/s/48-set-of-48-love-cards-for-explosion-box-or-other-diy-love-original-imafm3g5yagrgkpm.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -535,10 +539,10 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/38T3mgj" target="_blank">
+                        <a href="https://www.flipkart.com/saugat-traders-love-sweetheart-scroll-card-greeting/p/itmekzc6xbcgwgsz" target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jr2dpjk0/valentine-gift-set/u/b/z/st0004196-saugat-traders-original-imaezgrzgqmkwfcr.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jr2dpjk0/valentine-gift-set/u/b/z/st0004196-saugat-traders-original-imaezgrzgqmkwfcr.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -568,10 +572,11 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/3aKCCjv" target="_blank">
+                        <a href="https://www.flipkart.com/oddclick-set-10-love-you-never-ending-surprise-greeting-cards-girlfriend-boyfriend-card/p/itm04bffa6f0fd1a"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/k572gsw0/card/n/5/d/10-pinklovenecard-8030-greeting-oddclick-original-imafnxprgzjjm4v8.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/k572gsw0/card/n/5/d/10-pinklovenecard-8030-greeting-oddclick-original-imafnxprgzjjm4v8.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -601,10 +606,10 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2RYP9Ym" target="_blank">
+                        <a href="https://www.flipkart.com/crafted-passion-explosion-box-valentine-s-day-birthday-anniversary-gift-any-occasion-greeting-card/p/itmf98z2xfbaqhpj" target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jnj7iq80/card/n/4/z/1-cwp000001-greeting-crafted-with-passion-original-imafa7a8kamajdsz.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jnj7iq80/card/n/4/z/1-cwp000001-greeting-crafted-with-passion-original-imafa7a8kamajdsz.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -638,10 +643,11 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/37tsRo4" target="_blank">
+                        <a href="https://www.flipkart.com/paperica-romantic-handmade-explosion-box-bonding-gift-love-occasions-him-her-greeting-card/p/itmffbjpubmsx9vq"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/ju4em4w0/card/c/v/v/1-eb-p-27-greeting-paperica-original-imaffbfksf5gjndd.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/ju4em4w0/card/c/v/v/1-eb-p-27-greeting-paperica-original-imaffbfksf5gjndd.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -671,10 +677,11 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/36tGrXb" target="_blank">
+                        <a href="https://www.flipkart.com/rmantra-handmade-you-my-love-3d-card-valentine-day-greeting/p/itmffgybpgmxhcyy"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jcatwnk0/card/m/m/z/1-cl009-greeting-rmantra-original-imafffqdthaagqra.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jcatwnk0/card/m/m/z/1-cl009-greeting-rmantra-original-imafffqdthaagqra.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -704,7 +711,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/2Rvrz6s" target="_blank">
+                        <a href="https://www.amazon.in/TIED-RIBBONS-Tri-Cycle-Greeting-Valentines/dp/B01A0G1OTO/"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/7120AF-BJ5L._SL1500_.jpg" />
@@ -737,7 +745,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/3aKWOSy" target="_blank">
+                        <a href="https://www.amazon.in/Urvi-Creations-Valentines-Boyfriend-Multicolour/dp/B07NCQLB7L/"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/81qZHtjukbL._SL1500_.jpg" />
@@ -774,7 +783,7 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/37wtZHs" target="_blank">
+                        <a href="https://www.giftcart.com/personalised-message-in-bottle-gifts.html" target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://www.giftcart.com/pub/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/0/0/0004.jpg" />
@@ -807,10 +816,11 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2RzT12R" target="_blank">
+                        <a href="https://www.flipkart.com/golden-rose-artificial-flower-gift-set/p/itm03c39993fdee4"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jy4q3680/valentine-gift-set/m/j/z/24k-gold-foil-plated-rose-wedding-decoration-artificial-golden-original-imafgfnhyhcxxbfg.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jy4q3680/valentine-gift-set/m/j/z/24k-gold-foil-plated-rose-wedding-decoration-artificial-golden-original-imafgfnhyhcxxbfg.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -840,10 +850,11 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2Rx8pge" target="_blank">
+                        <a href="https://www.flipkart.com/stylin-soft-toy-message-pills-showpiece-artificial-flower-gift-set/p/itmfd3cckgr9naut"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jr9iwsw0/valentine-gift-set/2/e/b/gift-set-stylin-original-imafdfgtszzreynx.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jr9iwsw0/valentine-gift-set/2/e/b/gift-set-stylin-original-imafdfgtszzreynx.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -873,10 +884,11 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2O5wY21" target="_blank">
+                        <a href="https://www.flipkart.com/me-you-message-pills-gift-set/p/itmfbv7hyh4t3nfa"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jpodaq80/valentine-gift-set/k/g/y/message-pill-bottle-tiny-message-in-bottle-surprise-message-in-original-imafbuzhsvggduzz.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jpodaq80/valentine-gift-set/k/g/y/message-pill-bottle-tiny-message-in-bottle-surprise-message-in-original-imafbuzhsvggduzz.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -906,10 +918,11 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2tVhoit" target="_blank">
+                        <a href="https://www.flipkart.com/tied-ribbons-showpiece-gift-set/p/itmff64d453zazvg"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jbxyxzk0/valentine-gift-set/q/x/z/couple-showpiece-with-quoted-wooden-photo-frame-valentine-gift-original-imaff64dnnxvhk99.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jbxyxzk0/valentine-gift-set/q/x/z/couple-showpiece-with-quoted-wooden-photo-frame-valentine-gift-original-imaff64dnnxvhk99.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -939,10 +952,11 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/317ogpe" target="_blank">
+                        <a href="https://www.flipkart.com/tied-ribbons-greeting-card-gift-set/p/itmff8e8ezezkcac"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jc0ttow0-1/valentine-gift-set/z/w/s/valentines-day-best-gift-for-husband-hubby-him-boyfriend-original-imaeq6y84s5x8mfm.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jc0ttow0-1/valentine-gift-set/z/w/s/valentines-day-best-gift-for-husband-hubby-him-boyfriend-original-imaeq6y84s5x8mfm.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -972,10 +986,11 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2RyMC8b" target="_blank">
+                        <a href="https://www.flipkart.com/me-you-jewelry-message-pills-candle-gift-set/p/itmcdc24858a3854"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/k2krekw0/valentine-gift-set/f/j/t/iz19bracelet5msg3candlemn-box-01-me-you-original-imafhw9hymv4temb.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/k2krekw0/valentine-gift-set/f/j/t/iz19bracelet5msg3candlemn-box-01-me-you-original-imafhw9hymv4temb.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -1005,10 +1020,11 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="http://bit.ly/2GsSqK7" target="_blank">
+                        <a href="https://www.flipkart.com/tied-ribbons-artificial-flower-gift-set/p/itmfdygn5a9tg58z"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jr58l8w0/valentine-gift-set/c/r/m/valentine-gifts-for-girlfriend-wife-her-gift-box-swan-pendent-original-imafdygznhhgbxpv.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jr58l8w0/valentine-gift-set/c/r/m/valentine-gifts-for-girlfriend-wife-her-gift-box-swan-pendent-original-imafdygznhhgbxpv.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -1042,10 +1058,11 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/37xs2KN" target="_blank">
+                        <a href="https://www.flipkart.com/indigifts-cushion-greeting-card-gift-set/p/itmfc9pd53x4ggeu"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jq6y0sw0/valentine-gift-set/r/r/h/valentine-day-gifts-romantic-gift-for-girlfriend-boyfriend-wife-original-imafc9pdcchahub6.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jq6y0sw0/valentine-gift-set/r/r/h/valentine-day-gifts-romantic-gift-for-girlfriend-boyfriend-wife-original-imafc9pdcchahub6.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -1074,10 +1091,11 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/36tDB4y" target="_blank">
+                        <a href="https://www.flipkart.com/stybuzz-abstract-cushions-cover/p/itme7dehqahhmvjt"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/cushion-pillow-cover/z/z/b/jc01070-jc01070-stybuzz-original-imae3mrswwp9hbfq.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/cushion-pillow-cover/z/z/b/jc01070-jc01070-stybuzz-original-imae3mrswwp9hbfq.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -1106,10 +1124,11 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2RuwjZN" target="_blank">
+                        <a href="https://www.flipkart.com/oddclick-printed-cushions-pillows-cover/p/itmfdy589yhhzdnx"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jr83gy80/cushion-pillow-cover/8/x/f/happy-valentines-day-valentines-love-gift-for-every-day-with-you-original-imafd2jztggzzd6j.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jr83gy80/cushion-pillow-cover/8/x/f/happy-valentines-day-valentines-love-gift-for-every-day-with-you-original-imafd2jztggzzd6j.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -1138,10 +1157,11 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2RSw8Xl" target="_blank">
+                        <a href="https://www.flipkart.com/me-you-microfibre-sequin-printed-cushion-decorative-pack-1/p/itmfhcufc9ryzkx6"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jwqpocw0/pillow/h/f/h/iz19magiccu16golden-010-iz19magiccu16goldenmn-010-me-you-original-imaffgryprye8kdj.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jwqpocw0/pillow/h/f/h/iz19magiccu16golden-010-iz19magiccu16goldenmn-010-me-you-original-imaffgryprye8kdj.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -1171,7 +1191,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/37x55rh" target="_blank">
+                        <a href="https://www.amazon.in/indibni-Indigifts-Printed-Cushion-Filler/dp/B01AL19HA6"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/71dMI7hRyzL._SL1100_.jpg" />
@@ -1203,10 +1224,11 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2RzZoDj" target="_blank">
+                        <a href="https://www.flipkart.com/stybuzz-3d-printed-cushions-cover/p/itmeeumfdnf7bh8z"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/cushion-pillow-cover/2/t/3/stfc00200-stfc00200-stybuzz-original-imaeeujhsfmfzrp4.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/cushion-pillow-cover/2/t/3/stfc00200-stfc00200-stybuzz-original-imaeeujhsfmfzrp4.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -1235,10 +1257,11 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2t2tUw3" target="_blank">
+                        <a href="https://www.flipkart.com/indigifts-cushion-greeting-card-gift-set/p/itmfc9pbfdvbgrh3"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jq6y0sw0/valentine-gift-set/d/v/s/valentine-day-gifts-romantic-gift-for-girlfriend-boyfriend-wife-original-imafc9pbbzhjamhh.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jq6y0sw0/valentine-gift-set/d/v/s/valentine-day-gifts-romantic-gift-for-girlfriend-boyfriend-wife-original-imafc9pbbzhjamhh.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -1267,10 +1290,11 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2tYBMz7" target="_blank">
+                        <a href="https://www.flipkart.com/me-you-microfibre-sequin-printed-cushion-decorative-pack-1/p/itmfhcwpsa97842t"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jwqpocw0/pillow/z/y/b/golden-mermaid-sequin-cushion-cover-iz19magiccu16golden-015-original-imaffgtqftqaq4vq.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jwqpocw0/pillow/z/y/b/golden-mermaid-sequin-cushion-cover-iz19magiccu16golden-015-original-imaffgtqftqaq4vq.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -1304,7 +1328,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/3aSnNMa" target="_blank">
+                        <a href="https://www.chumbak.com/go-where-you-feel-keychain/vpxJ"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://media.chumbak.com/media/catalog/product/image/500x625/8/9/8907605061509_top_5.jpg" />
@@ -1336,7 +1361,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/2U8ZN1n" target="_blank">
+                        <a href="https://www.amazon.in/Anishop-Valentine-Foreever-Couple-Keychain/dp/B01BVLKJVG" target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/61KfUX-k49L._SL1100_.jpg" />
@@ -1368,7 +1393,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/3aNMLw2" target="_blank">
+                        <a href="https://www.amazon.in/Asier-Designer-Pocket-Clock-Keychain/dp/B018QMZJJK/"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/41cRJHH8MKL.jpg" />
@@ -1400,7 +1426,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/3aNvS4z" target="_blank">
+                        <a href="https://www.amazon.in/AeroStark%C2%AE-Stainless-Valentine-Specials-Boyfriend/dp/B083F1XXC4/"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/41IAzegck6L._SX450_.jpg" />
@@ -1433,7 +1460,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/30YZwPO" target="_blank">
+                        <a href="https://www.amazon.in/Three-Shades-Kissing-Valentine-Quality/dp/B07CGS18F6/"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/71ydT1xGEfL._SL1500_.jpg" />
@@ -1465,7 +1493,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/2O2y4vq" target="_blank">
+                        <a href="https://www.amazon.in/dp/B07N2TPXZB/" target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/61QfN5U30UL._SL1500_.jpg" />
@@ -1497,7 +1525,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/3aKQg6h" target="_blank">
+                        <a href="https://www.amazon.in/dp/B079CGKRHV/"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/71wvRjpIQLL._SL1500_.jpg" />
@@ -1529,7 +1558,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/311UXV6" target="_blank">
+                        <a href="https://www.amazon.in/AKV-Bazaar-Valentines-Keychain-Keyrings/dp/B07ND1S2KN/"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/61sfMn3uSDL._SL1200_.jpg" />
@@ -1566,10 +1596,11 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2tNS4Lo" target="_blank">
+                        <a href="https://www.flipkart.com/dimpy-stuff-couple-bear-20-cm/p/itmdchzqdcjyuauu"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jnamvm80/stuffed-toy/h/x/e/couple-bear-20-dimpy-stuff-original-imafaygshec42mv9.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jnamvm80/stuffed-toy/h/x/e/couple-bear-20-dimpy-stuff-original-imafaygshec42mv9.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -1598,10 +1629,11 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/310IbpD" target="_blank">
+                        <a href="https://www.flipkart.com/dimpy-stuff-bear-w-cap-20-cm/p/itmf3qxrw6v9pzap"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jfoac280/stuffed-toy/v/z/e/dimpy-bear-w-cap-20-dimpy-stuff-original-imaf432nhxagrwzv.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jfoac280/stuffed-toy/v/z/e/dimpy-bear-w-cap-20-dimpy-stuff-original-imaf432nhxagrwzv.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -1630,10 +1662,11 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2uITvKT" target="_blank">
+                        <a href="https://www.flipkart.com/me-you-romantic-gifts-surprise-cycle-teddy-wife-girlfriend-fiance-valentine-s-day-birthday-anniversary-karwa-chauth-any-special-occasion-iz18twrcyph-002-16-cm/p/itmfbksg5ppy5nzm"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jpbic280/stuffed-toy/s/p/k/romantic-gifts-surprise-cycle-teddy-for-wife-girlfriend-fiance-original-imafbhv79dhtcsgs.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jpbic280/stuffed-toy/s/p/k/romantic-gifts-surprise-cycle-teddy-for-wife-girlfriend-fiance-original-imafbhv79dhtcsgs.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -1662,7 +1695,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/2TZzWZz" target="_blank">
+                        <a href="https://www.amazon.in/HANUMANT-Lovable-Huggable-Birthday-Valentine/dp/B084279ZBM/"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/51JFYS8BsOL._SL1100_.jpg" />
@@ -1694,7 +1728,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2O46zS8" target="_blank">
+                        <a href="https://www.archiesonline.com/shop-online/soft-toys/teddy-bears/valentines-day-beige-teddy-bear/53701"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://static.archiesonline.com/public/images/product/large/8907089555938-(B).jpg" />
@@ -1726,7 +1761,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/38IyKhg" target="_blank">
+                        <a href="https://www.archiesonline.com/shop-online/combos-&-hampers/soft-toy-hampers/adorable-valentines-day-gif-hamper/65147"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://static.archiesonline.com/public/images/product/large/VAL19-031.jpg" />
@@ -1790,10 +1826,11 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2t4ZF7V" target="_blank">
+                        <a href="https://www.flipkart.com/milliardaire-stile-di-vita-artificial-flower-soft-toy-gift-set/p/itmf78nyjthyzg4x"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/jjq18y80/valentine-gift-set/k/u/e/unique-valentine-day-gift-milliardaire-stile-di-vita-original-imaf77ng4gscfc3g.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/jjq18y80/valentine-gift-set/k/u/e/unique-valentine-day-gift-milliardaire-stile-di-vita-original-imaf77ng4gscfc3g.jpeg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -1827,7 +1864,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/36wGBNp" target="_blank">
+                        <a href="https://www.amazon.in/Bagclan-Valentine-Embroided-Handbag-Shoulder/dp/B083ZZB1N5/"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/71uzcG9Na1L._UL1500_.jpg" />
@@ -1859,7 +1897,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/3aNOCRw" target="_blank">
+                        <a href="https://www.amazon.in/Typify-Womens-Leatherette-Handbag-College/dp/B07N8VNVHP/"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/61appNpX7IL._UL1280_.jpg" />
@@ -1891,7 +1930,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/36BvaUG" target="_blank">
+                        <a href="https://www.amazon.in/Bagclan-Valentine-Pocket-Handbag-Shoulder/dp/B083ZZHH5P/"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/71tmQkzzazL._UL1500_.jpg" />
@@ -1923,7 +1963,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/31b6S2Z" target="_blank">
+                        <a href="https://www.myntra.com/wallets/allen-solly/allen-solly-women-red-solid-three-fold-wallet/8362339/buy" target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/8362339/2019/1/8/e6fca798-0f27-46f9-be29-06a543a91d871546921271109-Allen-Solly-Women-Red-Solid-Three-Fold-Wallet-81015469212705-1.jpg" />
@@ -1960,7 +2000,8 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/2RwtdVm" target="_blank">
+                        <a href="https://www.myntra.com/wallets/calvin-klein/calvin-klein-men-black-solid-leather-two-fold-wallet/11122526/buy"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/11122526/2020/1/7/d50594e4-ce87-40bc-83c9-5efe16a222a61578379755965-Calvin-Klein-Men-Black-Solid-Two-Fold-Wallet-215157837975513-1.jpg" />
@@ -1992,7 +2033,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="http://bit.ly/38D1lEK" target="_blank">
+                        <a href="https://www.myntra.com/wallets/roadster/roadster-men-brown-textured-genuine-leather-zip-around-wallet/11281684/buy"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/11281684/2020/1/24/53d86749-6e39-4df6-8963-f54badd043b01579866338382-Roadster-Men-Wallets-2261579866336635-1.jpg" />
@@ -2024,7 +2066,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/3154Hhk" target="_blank">
+                        <a href="https://www.amazon.in/Urban-Forest-Spencer-Leather-Wallet/dp/B07B3QB65J/ref=asc_df_B07B3QB65J/"
+                           target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/81O0PQjAFOL._UL1500_.jpg" />
@@ -2039,7 +2082,7 @@
                                                 <span style="font-size: 14px;font-weight: bold;
                                                              padding-top: 5px;color: #337ab7;;
                                                              display: inline-block;">
-                                                   <i class="fa fa-inr" aria-hidden="true"></i> 1119
+                                                   <i class="fa fa-inr" aria-hidden="true"></i> 1199
                                                 </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -2056,7 +2099,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://amzn.to/2S1Z7Z0" target="_blank">
+                        <a href="https://www.amazon.in/Bullfinch-Brown-Wallet-Wrist-Watch/dp/B07SR9BQNV/ref=asc_df_B07SR9BQNV/" target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
                                      src="https://images-na.ssl-images-amazon.com/images/I/71VGD2wA5pL._SL1500_.jpg" />
@@ -2071,7 +2114,7 @@
                                                 <span style="font-size: 14px;font-weight: bold;
                                                              padding-top: 5px;color: #337ab7;;
                                                              display: inline-block;">
-                                                   <i class="fa fa-inr" aria-hidden="true"></i>
+                                                   <i class="fa fa-inr" aria-hidden="true"></i> 540
                                                 </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
