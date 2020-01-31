@@ -725,20 +725,20 @@
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    END OF SEASON SALE
+                                    VALENTINE'S DAY GIFTS
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                            Min. 50% Off
+                                           Start from <i class="fa fa-inr" aria-hidden="true"></i> 69
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
                                                 color: #181818;font-size: 14px;font-family: Lato;
                                                 text-align: left;">
-                                    Myntra.com
+                                    <i class="fa fa-inr" aria-hidden="true"></i> 250 Cashback on Shipping
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}
@@ -751,7 +751,7 @@
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/fffaacee-91af-463d-9e5b-2db994ea4bce.png" />
+                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/a99ba55a-3755-4664-b422-b1c425acf8d2.png" />
                                 </div>
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
@@ -769,7 +769,7 @@
                                 <div style="display: block;padding: 0 0 0 0;
                                                 color: #181818;font-size: 14px;font-family: Lato;
                                                 text-align: left;">
-                                    ShoppRe.com
+                                    <i class="fa fa-inr" aria-hidden="true"></i> 200 Discount on Shipping
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}
