@@ -502,7 +502,12 @@
                 <marquee behavior="alternate" width="" height="30px" height="100px">
                     <span class="f-s-20">**Check <a href="#terms">Terms & Conditions</a> Before Placing The Orders**</span>
                 </marquee>
-                <h2 class="f-s-20 p-color-cement-dark font-weight-900"><u>Valentine Love Cards</u></h2>
+{{--                <i class="glyphicon glyphicon-heart-empty" style="color: #ff5d5d"></i>--}}
+                <h2 class="f-s-20 p-color-cement-dark font-weight-900">
+                    <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                    &nbsp; Valentine Love Cards &nbsp;
+                    <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                </h2>
 
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
@@ -780,7 +785,12 @@
                 </div>
 
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 "><u>Valentine Gift Sets</u></h2>
+
+                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">
+                        <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                        &nbsp; Valentine Gift Sets &nbsp;
+                        <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                    </h2>
                 </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
@@ -1055,7 +1065,11 @@
                 </div>
 
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 "><u>Valentine Cushions</u></h2>
+                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">
+                        <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                        &nbsp; Valentine Cushions &nbsp;
+                        <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                    </h2>
                 </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
@@ -1325,7 +1339,11 @@
                 </div>
 
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 "><u>Valentine Keychains</u></h2>
+                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">
+                        <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                        &nbsp; Valentine Keychains &nbsp;
+                        <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                    </h2>
                 </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
@@ -1593,7 +1611,11 @@
                 </div>
 
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 "><u>Valentine Teddy Bears</u></h2>
+                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">
+                        <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                        &nbsp; Valentine Teddy Bears &nbsp;
+                        <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                    </h2>
                 </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
@@ -1861,7 +1883,11 @@
                 </div>
 
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 "><u>Valentine Special Gifts For Her</u></h2>
+                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">
+                        <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                        &nbsp; Valentine Special Gifts For Her &nbsp;
+                        <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                    </h2>
                 </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
@@ -1997,7 +2023,11 @@
                 </div>
 
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 "><u>Valentine Special Gifts For Him</u></h2>
+                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">
+                        <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                        &nbsp; Valentine Special Gifts For Him &nbsp;
+                        <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                    </h2>
                 </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">

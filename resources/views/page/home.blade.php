@@ -691,7 +691,7 @@
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
                                          src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/44f41592-3783-4b35-8e64-7f5eaacb29cd.png" />
                                 </div>
-                                <div style="color: #000;font-size: 14px;
+                                <div style="    margin-top: 5px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
                                     FLIPSTART DAYS
@@ -722,7 +722,7 @@
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
                                          src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/bd60951c-bf55-4b9c-8ef5-4ea9bc291879.png" />
                                 </div>
-                                <div style="color: #000;font-size: 14px;
+                                <div style="    color: #000;font-size: 14px;margin-top: 5px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
                                     VALENTINE'S DAY GIFTS
@@ -753,7 +753,7 @@
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
                                          src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/a99ba55a-3755-4664-b422-b1c425acf8d2.png" />
                                 </div>
-                                <div style="color: #000;font-size: 14px;
+                                <div style="    margin-top: 5px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
                                    SPECIAL FACE MASK
@@ -784,7 +784,7 @@
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
                                          src="https://assets.ajio.com/medias/sys_master/images/images/h64/he6/15339704287262/30012020-M-WHP-TopBanner-payday-4070extra20.jpg" />
                                 </div>
-                                <div style="color: #000;font-size: 14px;
+                                <div style="    margin-top: 5px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
                                     PAYDAY SALE

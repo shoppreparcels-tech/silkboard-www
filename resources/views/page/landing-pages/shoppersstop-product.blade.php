@@ -132,11 +132,16 @@
                 <div>
                     <center>
                     <a href="https://www.shoppersstop.com/promotions?icid=eoss|homepg|1-1|offerpg" target="_blank">
-                        <img class="img-desktop-view" src="https://sslimages.shoppersstop.com/sys-master/root/h9d/h2b/14273511686174/banner_00_2000x600_eoss_EN_2000W_20200122.jpg" width="1100px"></a>
+                        <img class="img-desktop-view"
+                             src="https://sslimages.shoppersstop.com/sys-master/root/h6f/hca/14330303676446/banner_00_2000x600_eoss_EN_2000W_20200130.jpg"
+                             width="1100px"
+                        ></a>
                         </center>
                         <center>
                         <a href="https://www.shoppersstop.com/promotions?icid=eoss|homepg|1-1|offerpg" target="_blank">
-                    <img class="img-mobile-view img-shopperstop-offer" src="https://sslimages.shoppersstop.com/sys-master/root/h8c/h28/14273511751710/banner_04_640x728_eoss_EN_640W_20200122.jpg" width="310px" ></a>
+                    <img class="img-mobile-view img-shopperstop-offer"
+                         src="https://sslimages.shoppersstop.com/sys-master/root/h5f/hc7/14330303741982/banner_04_640x728_eoss_EN_640W_20200130.jpg"
+                         width="310px" ></a>
                     </center>
                     {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale /--}}
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}

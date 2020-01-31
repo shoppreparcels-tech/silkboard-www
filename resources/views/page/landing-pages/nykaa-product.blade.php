@@ -154,10 +154,14 @@
             <div class="row">
                 <div class="">
                     <center>
-                    <a href="https://www.nykaa.com/offers.html?transaction_id=210b8973887996b2e048072a2da7be18&intcmp=hp,focus_banner,1,republic-day-sale" target="_blank">
-                        <img class="img-desktop-view" src="https://images-static.nykaa.com/uploads/55d379ad-01d1-4588-924b-283f2992401f.jpg" width="1100px"></a>
-                        <a href="https://www.nykaa.com/offers.html?transaction_id=210b8973887996b2e048072a2da7be18&intcmp=hp,focus_banner,1,republic-day-sale" target="_blank">
-                            <img class="img-mobile-view img-shopperstop-offer" src="https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/dd3614e7-ba06-46ed-b569-e239a2af45fd.jpg" width="370px" ></a>
+                    <a href="https://www.nykaa.com/makeup-focus" target="_blank">
+                        <img class="img-desktop-view"
+                             src="https://images-static.nykaa.com/uploads/240c7bd1-3a2f-4945-8d4d-e3e592f091cb.jpg"
+                             width="1100px"></a>
+                        <a href="https://www.nykaa.com/makeup-focus" target="_blank">
+                            <img class="img-mobile-view img-shopperstop-offer"
+                                 src="https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/c00ea99e-afb0-43e1-aef5-fd5405ed77d5.jpg"
+                                 width="370px" ></a>
                     </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}
 {{--                        <span class="f-s-25 f-c-red f-w-9"> Beauty Bonanza (January 2020 )</span> /--}}
