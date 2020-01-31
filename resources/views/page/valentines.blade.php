@@ -499,9 +499,11 @@
 
             <div class="row text-center">
                 {{--                <p class="f-s-20"><span class="f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">END OF SEASON SALE(40-80% OFF)</a></span></p>--}}
-
-                <br>
+                <marquee behavior="alternate" width="" height="30px" height="100px">
+                    <span class="f-s-20">**Check <a href="#terms">Terms & Conditions</a> Before Placing The Orders**</span>
+                </marquee>
                 <h2 class="f-s-20 p-color-cement-dark font-weight-900"><u>Valentine Love Cards</u></h2>
+
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
@@ -2357,14 +2359,14 @@
                 <p class="f-s-16 f-c-gray">Send Valentine’s day gifts to USA, UK, UAE, Australia or anywhere around the world, we’ll be here to help you through it.</p>
                 <br>
 
-                <div class="offerDesc">
+                <div class="offerDesc" id="terms">
                     <h5>Cashback: Terms & Conditions</h5>
                     <ul>
                         <li>15% Cashback upto INR 250/-</li>
                         <li>This offer cannot be clubbed with any other. </li>
                         <li>The cashback goes to your Wallet. (Use Coupon: LUV2020 when you check-out).</li>
                         <li>The cashback would only be active during 1st Feb to 15th Feb 2020.</li>
-                        <li>The shipment should contain items related to Valentine's.</li>
+                        <li>The shipment should contain items related to above categories to Valentine's.</li>
                         <li>This cashback is applicable only for international shipments.</li>
                         <li>The cashback can only be used to pay off your shipping costs.</li>
                         <li>Clearance charges are applicable for shipping Special Items - liquids & semi liquids such as cosmetics, medicines, oils & homemade food.</li>

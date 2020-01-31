@@ -398,13 +398,17 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <center>
-                <a href="https://www.myntra.com/handbags-jan30" target="_blank">
-                    <img class="img-desktop-view" src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/1/29/0ca8cb75-5387-4312-9ff2-ee45cae6fcba1580311432525-Desktop-big-bag.jpg" width="1100px"></a>
+                <a href="https://www.myntra.com/myntra-fashion-store?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0" target="_blank">
+                    <img class="img-desktop-view"
+                         src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/1/29/5bee74f7-a8f6-4383-b77f-9afa31e861ee1580302243821-980x400.jpg"
+{{--                         width="1100px"--}}
+                    ></a>
                     </center>
                 <center>
-                    <a href="https://www.myntra.com/revp-flat30" target="_blank">
+                    <a href="https://www.myntra.com/payday-sale" target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/banners/2019/9/3/0e77c249-8822-4772-869a-4293fe7283721567496983394-desktop-deal.jpG" width="350px" ></a>
+                             src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/1/29/5bee74f7-a8f6-4383-b77f-9afa31e861ee1580302243821-980x400.jpg"
+                             width="350px" ></a>
                 </center>
 {{--                <div class="">--}}
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}

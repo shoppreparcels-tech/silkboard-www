@@ -716,11 +716,11 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
-                        <a href="/myntra-online-shopping-shipping-from-india" title="Click to Know More" target="_blank">
+                        <a href="/send-valentines-day-gifts-international-shipping" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/840d77be-4ff3-47b8-b4c4-d482407fe3a1.png" />
+                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/bd60951c-bf55-4b9c-8ef5-4ea9bc291879.png" />
                                 </div>
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
