@@ -288,7 +288,7 @@
                         <br>
                         <center>
                             <a href="{{route('republicDay')}}" target="_blank">
-                                <img src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/fddfed76-25b5-40d4-8359-1014508be1b0.png"
+                                <img src="https://www.shoppre.com/img/images/200inr-shipping-offer-india-shoppre.png"
 {{--                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india-shoppre.png"--}}
                                      alt="shipping offer from india" class="img-responsive">
                             </a>
