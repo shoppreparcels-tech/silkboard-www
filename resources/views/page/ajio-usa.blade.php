@@ -117,19 +117,20 @@
                     <h4 style="text-decoration: underline" class="f-c-blue">Upcoming 2020 AJIO Sales</h4>
                     <br>
                     <ul>
-                        <li>AJIO November Steal (Min. 40% Off) - November 2019.</li>
-                        <li>No Ifs and Buts Sale‎ (Flat 50% Off) - 22-24 November 2019</li>
-                        <li>WEEKDAY THERAPY (Min. 40% Off) - (25th-27th) November 2019</li>
-                        <li>PAYDAY SALE (40-80% Off) - (1st-4th) December 2019.</li>
-                        <li>AJIO MANIA SALE (50-90% Off) - (5th-9th) December 2019.</li>
-                        <li>WEEKEND BINGE SALE (Min 40% Off) - (12th-16th) December 2019.</li>
-                        <li>EPIC BLOWOUT SALE (Flat 55% OFF) - (19th-25th) December 2019.</li>
-                        <li>BIG BAG DAYS (40-80% OFF) - (25th Dec 2019 - 1st Jan 2020)</li>
+{{--                        <li>AJIO November Steal (Min. 40% Off) - November 2019.</li>--}}
+{{--                        <li>No Ifs and Buts Sale‎ (Flat 50% Off) - 22-24 November 2019</li>--}}
+{{--                        <li>WEEKDAY THERAPY (Min. 40% Off) - (25th-27th) November 2019</li>--}}
+{{--                        <li>PAYDAY SALE (40-80% Off) - (1st-4th) December 2019.</li>--}}
+{{--                        <li>AJIO MANIA SALE (50-90% Off) - (5th-9th) December 2019.</li>--}}
+{{--                        <li>WEEKEND BINGE SALE (Min 40% Off) - (12th-16th) December 2019.</li>--}}
+{{--                        <li>EPIC BLOWOUT SALE (Flat 55% OFF) - (19th-25th) December 2019.</li>--}}
+{{--                        <li>BIG BAG DAYS (40-80% OFF) - (25th Dec 2019 - 1st Jan 2020)</li>--}}
                         <li>PAYDAY SALE (40-80% OFF) - (2nd Jan 2020 - 5th Jan 2020)</li>
                         <li>THE AJIO MANIA SALE (50-90% OFF) - (9-12 Jan 2020)</li>
                         <li>REPUBLIC DAY SALE (40-80% OFF) - (24-26 Jan 2020)</li>
                         <li>BIG BAG DAYS (40-80% OFF) - (27th - 29th Jan 2020)</li>
-                        <li><a href="/ajio-online-shopping" target="_blank">PAY DAY SALE (40-80% OFF) - (30th JAN - 02nd FEB 2020)</a></li>
+                        <li>PAY DAY SALE (40-80% OFF) - (30th JAN - 02nd FEB 2020)</li>
+                        <li><a href="/ajio-online-shopping" target="_blank">UPGRADE YOUR WARDROBE (40-80% OFF) - (FEB 2020)</a></li>
                     </ul>
                 </div>
                 <br>

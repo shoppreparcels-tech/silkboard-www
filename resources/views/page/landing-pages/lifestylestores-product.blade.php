@@ -136,7 +136,7 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">January 2020 Sale: The Pay Yay Weekend /
+                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">February 2020 Sale: The Pay Yay Weekend /
                         Below are the Recommended & Recently Shipped Products!</h2>
 {{--                    : <span class="f-s-25 f-c-red f-w-9">Dil Se Diwali</span>--}}
                 </div>

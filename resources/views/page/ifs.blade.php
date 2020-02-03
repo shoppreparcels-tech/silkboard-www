@@ -123,9 +123,9 @@
     <section>
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="/amazon-online-shopping" title="myntra" target="_blank">1. 👉END OF SEASON SALE </a> |
+                <a href="/amazon-online-shopping" title="myntra" target="_blank">1. 👉TRADITIONAL TALES</a> |
                 <a href="/flipkart-online-shopping" title="flipkart" target="_blank">2. 👉FLIPSTART DAYS</a> |
-                <a href="/ajio-online-shopping" title="ajio" target="_blank">3. 👉PAYDAY SALE</a>
+                <a href="/ajio-online-shopping" title="ajio" target="_blank">3. 👉UPGRADE YOUR WARDROBE</a>
             </marquee>
         </div>
         <div class="container" id="how-it-works">

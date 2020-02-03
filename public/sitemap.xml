@@ -268,7 +268,7 @@
 <url>
     <loc>https://www.shoppre.com/ajio-online-shopping-international-shipping</loc>
     <changefreq>daily</changefreq>
-    <priority>0.70</priority>
+    <priority>0.90</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/trends-ajio-usa-shipping-from-india</loc>
@@ -283,7 +283,7 @@
 <url>
     <loc>https://www.shoppre.com/jaypore-shopping-usa</loc>
     <changefreq>daily</changefreq>
-    <priority>0.70</priority>
+    <priority>0.60</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/indian-virtual-address</loc>
@@ -298,7 +298,7 @@
 <url>
     <loc>https://www.shoppre.com/amazon-india-shop-international-shipping</loc>
     <changefreq>daily</changefreq>
-    <priority>0.60</priority>
+    <priority>0.90</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/shop-from-amazon-india-and-ship-to-usa</loc>
@@ -308,12 +308,12 @@
 <url>
     <loc>https://www.shoppre.com/myntra-online-shopping-shipping-from-india</loc>
     <changefreq>daily</changefreq>
-    <priority>0.60</priority>
+    <priority>0.90</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/face-mask-international-shipping</loc>
     <changefreq>daily</changefreq>
-    <priority>0.90</priority>
+    <priority>0.50</priority>
 </url>
 <url>
     <loc>https://www.shoppre.com/myntra-international-shipping-to-usa</loc>

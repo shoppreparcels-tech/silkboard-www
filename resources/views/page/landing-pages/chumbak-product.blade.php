@@ -122,10 +122,10 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <a href="https://www.chumbak.com/sale/ngg/c/" target="_blank">
-                    <img class="img-desktop-view" src="https://images.prismic.io/chumbakapp/e233d11c-95b4-4816-80e9-b248cd1858f9_page-banner-fashion-Desktop.jpg" width="1100px"></a>
+                    <img class="img-desktop-view" src="https://images.prismic.io/chumbakapp/d56e773f-e2c8-449a-b6ed-66f1aaecfaf4_Updated-3.jpg?auto=compress,format" width="1100px"></a>
                 <center>
                     <a href="https://www.chumbak.com/sale/ngg/c/" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer" src="https://images.prismic.io/chumbakapp/fbeaf52d-d80e-4241-8c15-cef9020348e5_page-banner-fashion-Mobile.jpg" width="320px" ></a>
+                        <img class="img-mobile-view img-shopperstop-offer" src="https://images.prismic.io/chumbakapp/eee99a9d-f74d-492e-8b7d-9664ae3c9837_Updated-4.jpg?auto=compress,format" width="320px" ></a>
                 </center>
 {{--                <div class="">--}}
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 /--}}

@@ -747,29 +747,29 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
-                        <a href="/face-mask-international-shipping" title="Click to Know More" target="_blank">
+                        <a href="/myntra-online-shopping-shipping-from-india" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/a99ba55a-3755-4664-b422-b1c425acf8d2.png" />
+                                         src="//assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/2/2/0ba763df-a321-4aaa-82bc-40a537640dc41580656159224-Sari-Fest.jpg" />
                                 </div>
                                 <div style="    margin-top: 5px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                   SPECIAL FACE MASK
+                                   TRADITIONAL TALES
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                        Start from <i class="fa fa-inr" aria-hidden="true"></i> 52
+                                        Min. 50% Off
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
                                                 color: #181818;font-size: 14px;font-family: Lato;
                                                 text-align: left;">
-                                    <i class="fa fa-inr" aria-hidden="true"></i> 200 Discount on Shipping
+                                    Myntra.com
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}
@@ -782,12 +782,12 @@
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://assets.ajio.com/medias/sys_master/images/images/h64/he6/15339704287262/30012020-M-WHP-TopBanner-payday-4070extra20.jpg" />
+                                         src="https://assets.ajio.com/medias/sys_master/images/images/h52/h32/15389088219166/03022020-M-WHP-Topbanner-40to80off.jpg" />
                                 </div>
                                 <div style="    margin-top: 5px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    PAYDAY SALE
+                                    UPGRADE YOUR WARDROBE
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;

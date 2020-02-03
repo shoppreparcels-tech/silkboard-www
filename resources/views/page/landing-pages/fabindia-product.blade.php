@@ -151,10 +151,10 @@
             <div class="row">
                 <div class="">
                     <center>
-                        <a href="https://www.fabindia.com/collection/indigo-red" target="_blank">
-                            <img class="img-desktop-view" src="https://www.fabindia.com/file/general/red-desktop-06-12.jpg" width="1100px"></a>
-                        <a href="https://www.fabindia.com/collection/indigo-red" target="_blank">
-                            <img class="img-mobile-view img-shopperstop-offer" src="https://www.fabindia.com/file/v544680516243712770/collections/strip_06-12-19.jpg" width="310px" ></a>
+                        <a href="https://www.fabindia.com/collection/chikankari" target="_blank">
+                            <img class="img-desktop-view" src="https://www.fabindia.com/file/general/indian-spring_31-01.jpg" width="1100px"></a>
+                        <a href="https://www.fabindia.com/collection/chikankari" target="_blank">
+                            <img class="img-mobile-view img-shopperstop-offer" src="https://www.fabindia.com//file/general/mob-chikan.jpg" width="310px" ></a>
                     </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">January 2020 Sale: <span class="f-s-25 f-c-red f-w-9">Festive Vibes</span> /--}}
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}

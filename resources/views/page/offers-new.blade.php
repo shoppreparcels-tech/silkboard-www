@@ -121,7 +121,7 @@
         </div>
         <div class="container">
             <br/>
-            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (January 2020 Sale):</h3>
+            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (February 2020 Sale):</h3>
             <br/>
             <div class="row">
                 <div class="col-md-3 col-xs-12">
@@ -154,7 +154,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">January Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">February Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up To 70% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/chumbak-online-shopping" target="_blank">
@@ -183,7 +183,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">PAYDAY SALE</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">UPGRADE YOUR WARDROBE</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-80% OFF</h5>
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping">
@@ -196,8 +196,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Bags to Brag</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">TRADITIONAL TALES</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Min. 50% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">
