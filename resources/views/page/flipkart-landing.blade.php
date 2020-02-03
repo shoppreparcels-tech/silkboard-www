@@ -80,13 +80,13 @@
                 </div>
             </div>
             <center>
-             <a href="https://www.flipkart.com/flipstart-days-store" target="_blank">
-                        <img class="img-desktop-view" src="https://rukminim1.flixcart.com/flap/1800/1800/image/f3b8b6eba1b30d77.jpg?q=80" width="1100px"></a>
+                    <a href="https://www.flipkart.com/valentines-day-gifts-store" target="_blank">
+                        <img class="img-desktop-view" src="https://rukminim1.flixcart.com/flap/3600/3600/image/5c67bd95c36816f9.jpg?q=80" width="1100px"></a>
                 </center>
-                    <center>
-                        <a href="https://www.flipkart.com/flipstart-days-store" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer" src="https://rukminim1.flixcart.com/flap/1800/1800/image/f3b8b6eba1b30d77.jpg?q=80" width="300px" ></a>
-                    </center>
+                <center>
+                    <a href="https://www.flipkart.com/valentines-day-gifts-store" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer" src="https://rukminim1.flixcart.com/flap/360/80/image/2a56b6250eeae5de.jpg?q=80" width="300px" ></a>
+                </center>
 {{--            <div class="row text-center">--}}
 {{--                <div class="col-sm-4">--}}
 {{--                    <a href="https://clnk.in/jWEU" title="Click Here to Shop" target="_blank">--}}

@@ -685,29 +685,29 @@
 {{--                    </div>--}}
 
                     <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
-                        <a href="/flipkart-shopping-with-shoppre-from-india" title="Click to Know More" target="_blank">
+                        <a href="/amazon-online-shopping" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/44f41592-3783-4b35-8e64-7f5eaacb29cd.png" />
+                                         src="https://m.media-amazon.com/images/G/31/img20/Jewellery/Feb/VDay/TopBanner-FJ/1-Top-banner._SY900_QL85_.jpg" />
                                 </div>
                                 <div style="    margin-top: 5px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    FLIPSTART DAYS
+                                    SHOP YOUR HEART OUT
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
-{{--                                            <i class="fa fa-inr" aria-hidden="true"></i>--}}
-                                            40-80% Off
+                                            Gifts Under <i class="fa fa-inr" aria-hidden="true"></i>599
+
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
                                                 color: #181818;font-size: 14px;font-family: Lato;
                                                 text-align: left;">
-                                    Flipkart.com
+                                   Amazon.in
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}

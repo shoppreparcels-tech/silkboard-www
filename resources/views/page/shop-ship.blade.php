@@ -76,8 +76,8 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="/amazon-online-shopping" title="myntra" target="_blank">1. 👉TRADITIONAL TALES</a> |
-                            <a href="/flipkart-online-shopping" title="flipkart" target="_blank">2. 👉FLIPSTART DAYS</a> |
+                            <a href="/myntra-online-shopping" title="myntra" target="_blank">1. 👉TRADITIONAL TALES</a> |
+                            <a href="/flipkart-online-shopping" title="flipkart" target="_blank">2. 👉VALENTINE'S DAYS</a> |
                             <a href="/ajio-online-shopping" title="ajio" target="_blank">3. 👉UPGRADE YOUR WARDROBE</a>
                         </marquee>
                     </div>

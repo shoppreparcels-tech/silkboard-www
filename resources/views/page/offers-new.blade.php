@@ -127,8 +127,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">FLIPSTART DAYS</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Valentines DAY</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">From ₹99</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
