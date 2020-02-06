@@ -100,17 +100,17 @@
                                 <div class="panel-body">
                                     <form action="" method="post" id="form-weight">
                                         <div class="col-md-12 col-xs-12 pad-r-10 pad-b-20"><br>
-                                            Full Name:<input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="MName" placeholder="Enter your name" required>
-                                            Phone Number: <input id="phone" name="MContactNumber" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="Enter a valid Phone/WhatsApp Number with Country Code" required>
-                                            Email:<input type="Email" name="Memail" class="txt-f-w txt-shadow txt-pad" autocomplete="off"   placeholder="Enter a valid Email ID" required>
-                                            Which Country to Ship:
-                                            <select class="form-control select-control b-r" name="Mcountry" required>
+                                            <span class="f-s-16 f-c-blue f-w-9">Full Name:</span><input type="text" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="MName" placeholder="Enter your name" style="margin-bottom: 20px;" required>
+                                            <span class="f-s-16 f-c-blue f-w-9">Phone Number:</span> <input  style="margin-bottom: 20px;" id="phone" name="MContactNumber" type="tel" class="txt-f-w txt-shadow txt-pad" autocomplete="off" placeholder="Enter a valid Phone/WhatsApp Number with Country Code" required>
+                                            <span class="f-s-16 f-c-blue f-w-9">Email Id:</span><input  style="margin-bottom: 20px;" type="Email" name="Memail" class="txt-f-w txt-shadow txt-pad" autocomplete="off"   placeholder="Enter a valid Email ID" required>
+                                            <span class="f-s-16 f-c-blue f-w-9">Which Country to Ship:</span>
+                                            <select class="form-control select-control b-r" name="Mcountry"  style="margin-bottom: 20px;" required>
                                                 <option value="">Select Country</option>
                                                 @foreach($countries as $country)
                                                     <option value="{{$country->name}}" {{$country->id == 226 ? 'selected' : ""}}>{{$country->name}}</option>
                                                 @endforeach
                                             </select>
-                                            Weight in Kgs:<input type="number" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="Mweight" placeholder="Enter your Total Shipment Weight" required>
+                                            <span class="f-s-16 f-c-blue f-w-9">Weight in Kgs:</span><input type="number" class="txt-f-w txt-shadow txt-pad" autocomplete="off" name="Mweight" placeholder="Enter your Total Shipment Weight" required>
                                             <div class="col-xs-12 col-md-12 pad-t-20">
                                                 <button type='submit' class="btn btn-s-r btn-b-r btn-l">Get a Free Quote</button>
                                             </div>

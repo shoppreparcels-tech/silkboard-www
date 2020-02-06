@@ -462,8 +462,8 @@
                                         href="/shop-ship">Shop & Ship Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="student"><span><a
                                         href="/university-offer">Student Special Offer</a></span></li>
-                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="easter"><span><a
-                                        href="/easter-shopping-from-india-with-international-shipping">Easter Offer</a></span></li>
+                            <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="valentine"><span><a
+                                        href="/send-valentines-day-gifts-international-shipping">Valentine's Offer</a></span></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/images/chris-circle.png" alt="onam"><span><a
                                         href="/onam-community-shipping-offer">Onam Community Offer</a></span></li>
                         </ul>

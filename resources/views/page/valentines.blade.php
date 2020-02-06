@@ -2022,6 +2022,139 @@
                     </div>
                 </div>
 
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.chumbak.com/orchid-embroidered-tote-bag-tan/QWbp/"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://media.chumbak.com/media/catalog/product/8/9/8907605078750_top.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                        padding-top: 0px !important;text-align: left;
+                                                        text-decoration: none;">
+                                    Orchid Embroidered Tote Bag
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                                <span style="font-size: 14px;font-weight: bold;
+                                                             padding-top: 5px;color: #337ab7;;
+                                                             display: inline-block;">
+                                                   <i class="fa fa-inr" aria-hidden="true"></i> 1995
+                                                </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                        color: #181818;font-size: 14px;font-family: Lato;
+                                                        text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                                    4-6 days
+                                                </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/Mammon-Womens-Leather-Handbag-3L-bib-Cream/dp/B07XKNS6FF?source=ps-sl-shoppingads-lpcontext&psc=1"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/71bdgYfofhL._UL1500_.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                        padding-top: 0px !important;text-align: left;
+                                                        text-decoration: none;">
+                                    PU Leather Handbag Combo
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                                <span style="font-size: 14px;font-weight: bold;
+                                                             padding-top: 5px;color: #337ab7;;
+                                                             display: inline-block;">
+                                                   <i class="fa fa-inr" aria-hidden="true"></i> 699
+                                                </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                        color: #181818;font-size: 14px;font-family: Lato;
+                                                        text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                                    4-5 days
+                                                </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.fastrack.in/product/fastrack-blue-shoulder-bag-for-girls-a0904pbl01"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://staticimg.titan.co.in/Fastrack/Catalog/A0904PBL01_1.jpg?pView=pdp" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                        padding-top: 0px !important;text-align: left;
+                                                        text-decoration: none;">
+                                    Blue PU Shoulder Bag
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                                <span style="font-size: 14px;font-weight: bold;
+                                                             padding-top: 5px;color: #337ab7;;
+                                                             display: inline-block;">
+                                                   <i class="fa fa-inr" aria-hidden="true"></i> 1995
+                                                </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                        color: #181818;font-size: 14px;font-family: Lato;
+                                                        text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                                    3-6 days
+                                                </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/Justawesome-Womens-Handbag-Grey-Ja0001/dp/B06XQY8XZ8?source=ps-sl-shoppingads-lpcontext&psc=1" target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/61mp0tNDrQL._UL1200_.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                        padding-top: 0px !important;text-align: left;
+                                                        text-decoration: none;">
+                                    JustAwesome Leather Handbag
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                                <span style="font-size: 14px;font-weight: bold;
+                                                             padding-top: 5px;color: #337ab7;;
+                                                             display: inline-block;">
+                                                   <i class="fa fa-inr" aria-hidden="true"></i> 1299
+                                                </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                        color: #181818;font-size: 14px;font-family: Lato;
+                                                        text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                                    4-5 days
+                                                </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </di
+
+
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">
                         <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
@@ -2162,128 +2295,139 @@
                     </div>
                 </div>
 
-            </div>
-
-            <div class="row text-center">
-                {{--                <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Valentine day gift for Him</h2>--}}
-
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <hr>
-                </div>
-
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.myntra.com/2289170" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.myntassets.com/assets/images/banners/2019/12/7/74019ae7-6fce-496f-a09e-f78fb67713261575661210919-Roadster-.png">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/Adidas-Ftwwht-Running-Shoes-11-B43732/dp/B07F3G2D6R?source=ps-sl-shoppingads-lpcontext&psc=1"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/91FYT5FQluL._UL1500_.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                    padding-top: 0px !important;text-align: left;
+                                                    text-decoration: none;">
+                                    Adidas Men's Running Shoes
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                            <span style="font-size: 14px;font-weight: bold;
+                                                         padding-top: 5px;color: #337ab7;;
+                                                         display: inline-block;">
+                                               <i class="fa fa-inr" aria-hidden="true"></i> 3149
+                                            </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                    color: #181818;font-size: 14px;font-family: Lato;
+                                                    text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                                3-6 days
+                                            </span>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
-
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.myntra.com/10472772" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.myntassets.com/assets/images/banners/2019/12/7/89f027ba-c551-4044-a975-2be5adac15e61575661203036-H-M_M.png">
-
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.flipkart.com/woodland-outdoors-men/p/itmf3yypehgxrzhd"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://rukminim1.flixcart.com/image/880/1056/shoe/k/p/j/g-4092ws-40-woodland-camel-original-imaeqkdupcv6uecg.jpeg?q=50" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                    padding-top: 0px !important;text-align: left;
+                                                    text-decoration: none;">
+                                    Woodland Outdoors For Men
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                            <span style="font-size: 14px;font-weight: bold;
+                                                         padding-top: 5px;color: #337ab7;;
+                                                         display: inline-block;">
+                                               <i class="fa fa-inr" aria-hidden="true"></i> 3695
+                                            </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                    color: #181818;font-size: 14px;font-family: Lato;
+                                                    text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                                4-6 days
+                                            </span>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
-
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.myntra.com/10646226" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.myntassets.com/assets/images/banners/2019/12/7/a28edc66-0975-4a59-94e0-5bf28fefb2051575661203416-Allen_M.png">
-
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/Fastrack-Trendies-Analog-Black-Watch-38048PP01/dp/B079VV74QP?source=ps-sl-shoppingads-lpcontext&psc=1"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/91ONXhNdVPL._UL1500_.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                    padding-top: 0px !important;text-align: left;
+                                                    text-decoration: none;">
+                                    Fastrack Analog Watch
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                            <span style="font-size: 14px;font-weight: bold;
+                                                         padding-top: 5px;color: #337ab7;;
+                                                         display: inline-block;">
+                                               <i class="fa fa-inr" aria-hidden="true"></i> 1560
+                                            </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                    color: #181818;font-size: 14px;font-family: Lato;
+                                                    text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                                2-4 days
+                                            </span>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
-
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.myntra.com/9682069" target="_blank">
-                            <img class="img-product m-t-img " src="https://assets.myntassets.com/assets/images/banners/2019/12/7/73cf29e8-c0b0-4867-944b-977a18de12b51575661203088-GAP_M.png">
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.myntra.com/wrogn201912hero" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.myntassets.com/assets/images/banners/2019/12/11/4cb92405-0c44-47a3-a762-b86da2a618441576065682731-Wrogn.png">
-
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.myntra.com/hrx-herolook-dec19-eors" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.myntassets.com/assets/images/banners/2019/12/7/823c28b8-c958-4a79-8232-a63a4d55788b1575726970932-HRX.png">
-
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.myntra.com/it-dhoni-aw19" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.myntassets.com/assets/images/banners/2019/12/7/0b761a21-1ab9-4874-a9df-563676191f421575726970902-Indian-Terrain.png">
-
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.myntra.com/6794737" target="_blank">
-                            <img class="img-product m-t-img " src="https://assets.myntassets.com/assets/images/banners/2019/12/7/623b689a-17ed-4a1c-a141-f5896d0c6c2b1575726970839-Skult.png">
-
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.myntra.com/hrx-justin-141119?f=Gender%3Amen%2Cmen%20women" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9298137/2019/9/11/ab51e30a-fb56-4d82-adb7-465b2134fbdb1568184237811-HRX-by-Hrithik-Roshan-Men-Jackets-9821568184236145-1.jpg">
-                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
-                                HRX Jackets
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/Urban-Tribe-Liters-Separate-Compartment/dp/B07KLXZP2V" target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/71wuhWS4V4L._SL1500_.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                    padding-top: 0px !important;text-align: left;
+                                                    text-decoration: none;">
+                                    Gym Bag with Shoe Camo
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                            <span style="font-size: 14px;font-weight: bold;
+                                                         padding-top: 5px;color: #337ab7;;
+                                                         display: inline-block;">
+                                               <i class="fa fa-inr" aria-hidden="true"></i> 1151
+                                            </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                    color: #181818;font-size: 14px;font-family: Lato;
+                                                    text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                                2-5 days
+                                            </span>
+                                </div>
                             </div>
                         </a>
                     </div>
                 </div>
 
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.myntra.com/hrx-by-hrithik-roshan?f=Categories%3ASweatshirts%3A%3AGender%3Amen%2Cmen%20women" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9445519/2019/7/10/f07075b8-7bfa-4b48-9296-4470f2483ff81562759794838-HRX-by-Hrithik-Roshan-Men-Sweatshirts-8021562759793334-1.jpg">
-                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
-                                HRX Sweatshirts
-                            </div>
-                        </a>
-                    </div>
-                </div>
 
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.myntra.com/hrx-by-hrithik-roshan?f=Categories%3AJackets%3A%3AGender%3Amen%20women%2Cwomen" target="_blank">
-                            <img class="img-product m-t-img" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9965771/2019/9/2/30592c23-ed33-47b8-9099-3cdb028d18411567407784876-HRX-by-Hrithik-Roshan-Women-Jackets-311567407783577-1.jpg">
-                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
-                                HRX Jackets
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.myntra.com/hrx-by-hrithik-roshan?f=Categories%3ASweatshirts%3A%3AGender%3Amen%20women%2Cwomen" target="_blank">
-                            <img class="img-product m-t-img " src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/4653848/2018/11/6/55b3f7c7-48fc-47a9-b0d0-243b389df9d71541507599052-HRX-by-Hrithik-Roshan-Women-Olive-Green-Solid-Hooded-Sweatshirt-7571541507598843-1.jpg">
-                            <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">
-                                HRX Sweatshirts
-                            </div>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -2326,7 +2470,7 @@
             </div>
 
             <div class=" col-md-12 offer-description">
-                <label class="f-s-28 f-c-d-greay">Shop & Ship from 1000+ Indian online stores:</label>
+                <label class="f-s-28 f-c-d-greay">International Valentine's Day Gift Delivery - International Shipping</label>
 {{--                <div class="row" style="padding-right:10px;padding-left: 30px">--}}
 {{--                    <center>--}}
 {{--                        <div class="col-md-1 col-md-offset-2 d-stores-box col-xs-6 col-xs-offset-2 ">--}}

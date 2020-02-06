@@ -666,7 +666,7 @@ Route::get('/etsy-international-shipping-from-india', 'PageController@etsyIndex'
 Route::get('/limeroad-shopping-international-shipping', 'PageController@limeroadIndex')->name('limeroad.landing');
 Route::get('/send-international-courier-from-india', 'PageController@icsLandingPage')->name('ics.landing');
 Route::get('/international-parcel-forwarding-india-online-shopping', 'PageController@parcelForwarding')->name('forwarding');
-Route::get('/shop-online-fashion-jabong-india-ship-internationally', 'PageController@jabongIndex')->name('jabong.landing');
+//Route::get('/shop-online-fashion-jabong-india-ship-internationally', 'PageController@jabongIndex')->name('jabong.landing');
 Route::get('/ajio-online-shopping-international-shipping', 'PageController@ajioIndex')->name('ajio');
 Route::get('/jaypore-international-shipping-from-india', 'PageController@jayporeIndex')->name('jaypore');
 Route::get('/first-time-international-shipment-offer', 'PageController@firstTimeShipment')->name('first-shipment');

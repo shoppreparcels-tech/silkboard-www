@@ -1167,7 +1167,7 @@
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
 
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">279 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">281 Google Reviews</p>
 
                                 </a>
                                 <br>
@@ -1185,7 +1185,7 @@
                                 </p>
                                 </div>
                                 <a href="https://www.facebook.com/pg/goshoppre/reviews" target="_blank">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">Recommended by 97</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">Recommended by 98</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787; margin-top: -6px ">Packaging Supplies and Service</p>

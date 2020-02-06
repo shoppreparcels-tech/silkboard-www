@@ -1,8 +1,8 @@
 @extends('layout')
 
 @section('title', 'Online Shipping from India to the USA - ShoppRe USA')
-@section('description', '')
-@section('keywords', '')
+@section('description', 'A Complete Guide to Shopping from India to USA. What You need to know in 2020. International shipping and orders trends for Indian products.')
+@section('keywords', 'from India to United States, how to shop, package forwarding service, cheapest shipping rates')
 
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/en-us"/>
@@ -38,7 +38,7 @@
                             <br>
                             <br>
                             <p class="f-s-22 f-c-white f-w-9"><span
-                                    class="p-color-yellow">From Amazon.in & Myntra to Jabong & Chumbak; </span> shop around as much as you want,
+                                    class="p-color-yellow">From Amazon.in & Flipkart to Myntra & Chumbak; </span> shop around as much as you want,
                                 <br>
                                 <br>
                             <p class="f-s-22 f-c-white f-w-9"><span
@@ -49,7 +49,7 @@
                                 <br>
                                 <br>
                             <p class="f-s-22 f-c-white f-w-9 ">
-                                <a href="{{route('customer.register')}}" target="_blank" class="btn btn-danger" style="background-color: #B72B33; background-color: #B72B33; color: #fff; padding: 15px 40px; border-radius: 5px; text-decoration: none; width: 60%; margin: auto; margin-top: 20px; display: block; text-align: center; font-weight: 700; font-size: 20px;">Free SignUp</a>
+                                <a href="{{route('customer.register')}}" target="_blank" class="btn btn-danger" style="background-color: #B72B33; background-color: #B72B33; color: #fff; padding: 15px 40px; border-radius: 5px; text-decoration: none; width: 74%; margin: auto; margin-top: 20px; display: block; text-align: center; font-weight: 700; font-size: 20px;">Free SignUp</a>
                             </p>
                             <br>
                             <br>
@@ -134,7 +134,7 @@
                     <div class="col-md-4 col-sm-4 no-pad">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                        class="startsValidValue"> 31st Oct 2019</span></p>
+                                        class="startsValidValue"> 31st March 2020</span></p>
                         </center>
                     </div>
                     <div class="col-md-4 col-sm-4 no-pad">
@@ -223,7 +223,7 @@
                     if you wish to send them your greetings or care packages.
                 </p>
                 <br>
-                <p class="header4 p-color-cement">All you have to do is; just ship your packages to your Personal Locker at ShoppRe and we’ll take it from there right until
+                <p class="header4 p-color-cement">All you have to do is; just ship your packages to <a href="{{route('pslandingpage')}}">your Personal Locker at ShoppRe</a> and we’ll take it from there right until
                     dispatching it to one of our courier partners. Our expert packers will efficiently repackage all your packages into one shipment to
                     get the lowest shipping rates for you. Since the majority of Indian shopping sites don’t offer to ship internationally,
                     you can get us to forward your purchases for you or your loved ones.
@@ -243,7 +243,7 @@
                 <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-nri">Travelling much? We can ship your couriers while you're on the move </h1>
                 <p class="header4 p-color-cement">Indians who travel often and need mail/packages delivered to multiple addresses can ship all their packages
                     to a unique locker and we’ll store them for FREE up to 20 days. We’ll forward those items anywhere inside or outside India when they make a ship request.
-                    Our package consolidation and repackaging services will ensure they get the lowest shipping rates as possible.
+                    Our package consolidation and repackaging services will ensure they get the <a href="{{route('pricing')}}">lowest shipping rates to USA</a>.
                 </p>
                 <br>
                  <p class="f-s-20 f-c-gray f-w-9">Who can benefit from our services?</p>
@@ -350,7 +350,8 @@
                 <br>
                 <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-mobile">When will you receive your package?</h1>
                 <p class="header4 p-color-cement">ShoppRe understands its customers and their need for urgent parcel delivery,
-                    keeping that in mind we offer the fastest courier services from India to the USA that delivers within 3-6 working days.
+                    keeping that in mind we offer the fastest <a href="https://www.shopprecouriers.com/international-courier-charges-india-to-usa-per-kg" target="_blank">
+                        courier services from India to the USA</a> that delivers within 3-6 working days.
                 </p>
                 <br>
                 <h1 class="f-s-26 f-c-blue f-w-9" id="amzn-mobile">Where do we ship in the USA?</h1>

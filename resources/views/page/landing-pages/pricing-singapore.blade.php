@@ -75,14 +75,14 @@
 
     <section class="bg-ics-l-p">
         <div class="container">
-            <div class="col-md-12">
-                <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">
-                </a>
-                <a href="tel:+91-8277919191" class="d-contact-img pull-right">
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">
-                </a>
-            </div>
+{{--            <div class="col-md-12">--}}
+{{--                <a href="tel:+91-8277919191" class="pull-right d-contact-img-desktop">--}}
+{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img1.png" alt="">--}}
+{{--                </a>--}}
+{{--                <a href="tel:+91-8277919191" class="d-contact-img pull-right">--}}
+{{--                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-contact-img2.png" alt="">--}}
+{{--                </a>--}}
+{{--            </div>--}}
 
             <div class="col-sm-7 col-xs-12 no-pad">
 
@@ -154,21 +154,29 @@
                     <div class="formFrame " id="diwali-couponcode1">
                         <h1 class="header2 p-color-blue" style="margin-bottom: 30px">Request a Callback</h1>
                         <div class="form-group">
-                            {{--<a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">--}}
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">
-                            {{--</a>--}}
+{{--                            --}}{{--<a href="https://wa.me/918277919191?text=I'm%20interested%20in%20Shopping%20and%20Shipping%20from%20India%20" target="_blank" class="c-image">--}}
+{{--                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/christmas-contact.png" alt="">--}}
+{{--                            --}}{{--</a>--}}
+                            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                            <script>
+                                hbspt.forms.create({
+                                    portalId: "4601740",
+                                    formId: "7a993c25-94c8-48a2-9f21-e01e3b951ede"
+                                });
+                            </script>
                         </div>
 
-                        <div class="form-group text-center div-align-items-l">
-                            {{--<button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r">--}}
-                            <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>
-                            {{--</button>--}}
-                            {{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
-                            <a href="http://bit.ly/shpr-perkg" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
-                            {{--</button>--}}
-                        </div>
+{{--                        <div class="form-group text-center div-align-items-l">--}}
+{{--                            --}}{{--<button type="submit" name="btnActivate" class="btn btn-s-r btn-l btn-b-r">--}}
+{{--                            <a href="tel:+91-8277919191" class="btn btn-s-r btn-a-l btn-b-r">Call: +91-8277919191</a>--}}
+{{--                            --}}{{--</button>--}}
+{{--                            --}}{{--<button type="submit" name="btnActivate" class="btn btn-s-b btn-l btn-b-g">--}}
+{{--                            <a href="http://bit.ly/shpr-perkg" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>--}}
+{{--                            --}}{{--</button>--}}
+{{--                        </div>--}}
 
-                        <p class="f-s-8 f-c-d-greay f-w-7">Your contact information will not be shared with any third party. We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
+{{--                        <p class="f-s-8 f-c-d-greay f-w-7">Your contact information will not be shared with any third party. We respect your privacy very much and you'll only be contacted as per relevance by us.</p>--}}
+{{--                   --}}
                     </div>
 
                     <div class="formFrame  div-form-get-quote" id="diwali-couponcode2">

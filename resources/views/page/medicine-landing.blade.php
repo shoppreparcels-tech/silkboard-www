@@ -71,7 +71,8 @@
                         <div class="form-group text-center">
                             {{--<button type="submit" name="btnActivate" class="btn btn-d-activate-coupon"> GET A FREE QUOTE--}}
                             {{--</button>--}}
-                            <a href="http://bit.ly/shpr-relocation" target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
+                            <a href="https://api.whatsapp.com/send?phone=918277919191&text=Hi%20ShoppRe%20Team,%20%20I%27m%20looking%20for%20Medicine%20Courier%20Quote%20from%20India"
+                               target="_blank" class="btn btn-s-b btn-a-l btn-b-g">Message us on WhatsApp</a>
 
                         </div>
                     </div>

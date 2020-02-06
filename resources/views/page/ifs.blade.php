@@ -4,26 +4,25 @@
 @section('description', 'ShoppRe Online Shopping International Shipping from India allows you to shop any Indian Stores & delivery package to your doorstep. Save 80% in shipping costs.')
 @section('keywords', 'shop and ship, personal shopper, free international shipping, package consolidation, ship from india to usa, shop from india to uae')
 
-
 @section('css_style')
     <link rel="canonical" href="https://www.shoppre.com/shop-from-india-ship-worldwide" />
 
-    <meta property="og:title" content="Shop from India and Ship Worldwide with ShoppRe.com"/>
+    <meta property="og:title" content="Shop from India, Ship Worldwide - ShoppRe.com"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://www.shoppre.com/shop-from-india-ship-worldwide"/>
     <meta property="og:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}"/>
     <meta property="og:image:width" content="2160">
     <meta property="og:image:height" content="1216">
-    <meta property="og:image:alt" content="ShoppRe online shopping and parcel forwarding from India" />
-    <meta property="og:description" content="ShoppRe an online shopping site in India and international shipping service that allows you to shop from India, and delivery to your doorstep with 20-day Free storage and consolidation services."/>
+    <meta property="og:image:alt" content="ShoppRe online shopping from India" />
+    <meta property="og:description" content="Have you been missing shopping from India. Worry no more Re, Just ShoppRe!"/>
     <meta property="og:site_name" content="ShoppRe: Online Shopping Site in India"/>
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="Go_Shoppre" />
-    <meta name="twitter:title" content="Shop from India and Ship Worldwide with ShoppRe.com" />
-    <meta name="twitter:description" content="ShoppRe an online shopping site in India and international shipping service that allows you to shop from India, and delivery to your doorstep with 20-day Free storage and consolidation services." />
+    <meta name="twitter:title" content="Buy in India, Ship Globally with ShoppRe.com" />
+    <meta name="twitter:description" content="Learn How to Buy Products From any Online Stores in India and Ship to Your country Worldwide. Fast, Reliable & Affordable" />
     <meta name="twitter:image" content="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-shoppre-online-shopping-in-india.jpg')}}" />
-    <meta name="twitter:image:alt" content="ShoppRe online shopping and parcel forwarding from India"/>
+    <meta name="twitter:image:alt" content="ShoppRe online package forwarding from India"/>
 
     <meta name="twitter:app:country" content="IN"/>
     <meta name="twitter:app:name:googleplay" content="ShoppRe - International Shipping from India"/>
@@ -60,7 +59,6 @@
                     "https://www.shoppre.com/shop-ship",
                     "https://www.shoppre.com/personal-shopper-shopping-concierge-from-india",
                     "https://www.shoppre.com/indian-online-stores",
-                    "https://www.google.com/maps?cid=13915328524053812211",
                     "https://www.pinterest.com/shoppre"],
             "image": {
             "@type": "ImageObject",
@@ -80,8 +78,8 @@
             "location": {
             "@type": "Place",
                 "name": "ShoppRe - Online Shopping India International Shipping",
-                "hasMap": "https://g.page/OnlineShoppingIndia",
-                "telephone": "+918277919191",
+                "hasMap": "https://g.page/shoppre",
+                "telephone": "+919148357733",
             "geo": {
             "@type": "GeoCoordinates",
                 "latitude": "12.9258297",

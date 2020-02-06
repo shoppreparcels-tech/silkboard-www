@@ -2562,10 +2562,10 @@ class PageController extends Controller
         return view('page.forwarding-landing');
     }
 
-    public function jabongIndex()
-    {
-        return view('page.jabong-landing');
-    }
+//    public function jabongIndex()
+//    {
+//        return view('page.jabong-landing');
+//    }
 
     public function searchCreate(Request $request)
     {
