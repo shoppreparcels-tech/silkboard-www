@@ -374,13 +374,18 @@
 
         <br>
             <div class="row" style="margin-top: 2%">
+                <marquee behavior="alternate" width="" height="30px" height="100px">
+
+                    <span class="f-s-20">* <a href="#terms">ALERT</a>: Due to Export Ban from GOVT. Of India. We are unable to Export Face Mask & Sanitizer.
+                        For more deatils chat online. Before placing the Order.*</span>
+                </marquee>
                     <img class="img-desktop-view"
                          src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/e959c827-8ad9-4429-a4d4-19eee741e798.png"
                          width="100%">
                 <center>
                         <img class="img-mobile-view img-shopperstop-offer"
                              src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/39cae6fc-ebe9-4040-a560-6af6f21b3545.png"
-                             width="100%" style="margin-top: 3%;">
+                             width="100%" style="margin-top: 2%;">
                 </center>
 {{--                <div class="">--}}
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}
@@ -392,7 +397,6 @@
         <div class="container fst-service" style="margin-top: 0px;">
 
             <div class="row text-center">
-
                 <br>
                 <h2 class="f-s-20 p-color-cement-dark font-weight-900"><u>
                        Special Campaign<span class="f-s-20 f-c-blue f-w-9"> ( Coronavirus )</span> Latest Shipped Face Mask Across The Globe

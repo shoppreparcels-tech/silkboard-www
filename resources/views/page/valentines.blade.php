@@ -2152,16 +2152,16 @@
                             </div>
                         </a>
                     </div>
-                </di
-
-
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">
-                        <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
-                        &nbsp; Valentine Special Gifts For Him &nbsp;
-                        <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
-                    </h2>
                 </div>
+
+
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">
+                            <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                            &nbsp; Valentine Special Gifts For Him &nbsp;
+                            <i class="glyphicon glyphicon-heart" style="color: #ff5d5d; font-size: x-large;"></i>
+                        </h2>
+                    </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
@@ -2430,6 +2430,7 @@
 
             </div>
         </div>
+            </div>
     </section>
     <br>
     <section >
