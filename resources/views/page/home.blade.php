@@ -689,7 +689,7 @@
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://m.media-amazon.com/images/G/31/img20/Jewellery/Feb/VDay/TopBanner-FJ/1-Top-banner._SY900_QL85_.jpg" />
+                                         src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/ValentinesDay/header/Main_Header_Mobile_1._CB425558904_.gif" />
                                 </div>
                                 <div style="    margin-top: 5px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
@@ -700,7 +700,7 @@
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
-                                            Gifts Under <i class="fa fa-inr" aria-hidden="true"></i>599
+                                            From <i class="fa fa-inr" aria-hidden="true"></i>299
 
                                         </span>
                                 </div>
@@ -732,7 +732,7 @@
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                           Start from <i class="fa fa-inr" aria-hidden="true"></i> 69
+                                           Start from <i class="fa fa-inr" aria-hidden="true"></i>69
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -782,19 +782,19 @@
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://assets.ajio.com/medias/sys_master/images/images/h52/h32/15389088219166/03022020-M-WHP-Topbanner-40to80off.jpg" />
+                                         src="https://assets.ajio.com/medias/sys_master/images/images/h29/hc1/15420792930334/07022020-M-NoIfsAndButsSale-Topbanner-flat60.jpg" />
                                 </div>
                                 <div style="    margin-top: 5px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    UPGRADE YOUR WARDROBE
+                                    NO IFs & BUTs SALE
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                            40-80% Off
+                                            Flat 60% Off
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;

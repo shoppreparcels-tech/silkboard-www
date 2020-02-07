@@ -131,13 +131,13 @@
                 <div class="">
 
                     <center>
-                        <a href="https://www.amazon.in/b/ref=QAHzEditorial_en_IN_2?pf_rd_r=GHPT9XHH1D07YQKWHBC0&pf_rd_p=274f9734-64ac-4bfd-9511-c1a7da6a937a&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=mobile-hybrid-4&pf_rd_t=30901&pf_rd_i=6648217031&node=4206152031" target="_blank">
-                            <img class="img-desktop-view" src="https://m.media-amazon.com/images/G/31/img20/Jewellery/Feb/VDay/Under599/3-Gifts-under-599._CB423841119_.jpg" width="1000px">
+                        <a href="https://www.amazon.in/gcx/Valentine's-Day/gfhz/events/ref=QAHeroV_en_IN?pf_rd_r=P9GKPMQVY2TS227K8SS0&pf_rd_p=fd0bd932-c324-42bb-81aa-db5c7ffd4a09&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-17&pf_rd_t=&pf_rd_i=4206152031&categoryId=valentines-day-2" target="_blank">
+                            <img class="img-desktop-view" src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/ValentinesDay/header/Main_Header_PC_1._CB425558904_.gif" width="1000px">
 
                     </center>
                     <center>
-                        <a href="https://www.amazon.in/b/ref=QAHzEditorial_en_IN_2?pf_rd_r=GHPT9XHH1D07YQKWHBC0&pf_rd_p=274f9734-64ac-4bfd-9511-c1a7da6a937a&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=mobile-hybrid-4&pf_rd_t=30901&pf_rd_i=6648217031&node=4206152031" target="_blank">
-                            <img class="img-mobile-view img-shopperstop-offer" src="https://m.media-amazon.com/images/G/31/img20/Jewellery/Feb/VDay/TopBanner-FJ/1-Top-banner._SY900_QL85_.jpg" width="310px">
+                        <a href="https://www.amazon.in/gcx/Valentine's-Day/gfhz/events/ref=QAHeroV_en_IN?pf_rd_r=P9GKPMQVY2TS227K8SS0&pf_rd_p=fd0bd932-c324-42bb-81aa-db5c7ffd4a09&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-17&pf_rd_t=&pf_rd_i=4206152031&categoryId=valentines-day-2" target="_blank">
+                            <img class="img-mobile-view img-shopperstop-offer" src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/ValentinesDay/header/Main_Header_Mobile_1._CB425558904_.gif" width="310px">
                     </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">👉 <a--}}
 {{--                                href="https://www.amazon.in/b?node=6648217031" target="_blank">New Year, New You</a> (Up To 70% OFF)</span> /--}}

@@ -160,8 +160,8 @@
                         <img class="img-desktop-view" src="https://rukminim1.flixcart.com/flap/3600/3600/image/5c67bd95c36816f9.jpg?q=80" width="1100px"></a>
                 </center>
                 <center>
-                    <a href="https://www.flipkart.com/valentines-day-gifts-store" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer" src="https://rukminim1.flixcart.com/flap/360/80/image/2a56b6250eeae5de.jpg?q=80" width="300px" ></a>
+                    <a href="https://www.flipkart.com/valentines-day-2020-store" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer" src="https://rukminim1.flixcart.com/flap/640/284/image/0588d513b418c388.jpg?q=90" width="300px" ></a>
                 </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">👉<span class="f-s-25 f-c-red f-w-9"><a--}}
 {{--                                href="https://www.flipkart.com/fashion-trendy-ikfc4-store" target="_blank">STYLE YOUR WINTER(40-80% Off)</a></span> /--}}
