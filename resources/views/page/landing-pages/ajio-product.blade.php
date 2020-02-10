@@ -139,11 +139,13 @@
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
                     <center>
                     <a href="https://www.ajio.com" target="_blank">
-                        <img class="img-desktop-view" src="https://assets.ajio.com/medias/sys_master/images/images/h98/h18/15420791160862/07022020-D-NoIfsAndButsSale-Topbanner-flat60.jpg" width="1100px"></a>
+
+                        <img class="img-desktop-view" src="https://assets.ajio.com/medias/sys_master/images/images/h21/hc8/15394394865694/04022020-D-WHP-Topbanner-40to80off.jpg" width="1100px"></a>
                         </center>
                     <center>
                         <a href="https://www.ajio.com/shop/women" target="_blank">
-                            <img class="img-mobile-view img-shopperstop-offer" src="https://assets.ajio.com/medias/sys_master/images/images/h29/hc1/15420792930334/07022020-M-NoIfsAndButsSale-Topbanner-flat60.jpg" width="300px" ></a>
+                            <img class="img-mobile-view img-shopperstop-offer" src="https://assets.ajio.com/medias/sys_master/images/images/hf4/h3b/15394394931230/04022020-M-WHP-Topbanner-40to80off.jpg" width="300px" ></a>
+
                     </center>
 
                 </div>

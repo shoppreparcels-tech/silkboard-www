@@ -782,7 +782,8 @@
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://assets.ajio.com/medias/sys_master/images/images/h29/hc1/15420792930334/07022020-M-NoIfsAndButsSale-Topbanner-flat60.jpg" />
+                                         src="https://assets.ajio.com/medias/sys_master/images/images/hf4/h3b/15394394931230/04022020-M-WHP-Topbanner-40to80off.jpg" />
+
                                 </div>
                                 <div style="    margin-top: 5px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
