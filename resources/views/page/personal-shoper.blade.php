@@ -533,9 +533,15 @@
     <script type="text/javascript">
         /* Magnific Popup */
         $(document).ready(function () {
+            let urlParams = new URLSearchParams(location.search);
+            const popup= urlParams.has('popup');
+
+            if(popup) {
+                $('#terms').modal('show');
+            }
             $(function () {
             $.fn.myFunction = function(){
-                $('#terms').modal('show')
+                $('#terms').modal('show');
             };
 
             $(".call-btn").click(function(){
