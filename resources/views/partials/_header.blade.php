@@ -86,7 +86,8 @@
                                     <li><a class="header6 p-color-cement-dark" href="{{route('about')}}">About Our Company</a></li>
 {{--                                    <li><a class="header6 p-color-cement-dark" href="{{route('story.index')}}">Our Story</a></li>--}}
                                     <li><a class="header6 p-color-cement-dark" href="https://www.linkedin.com/company/shoppre.com/" >Our Team</a>
-                                    <li><a class="header6 p-color-cement-dark" href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank">Refer & Earn</a></li>
+                                    <li><a class="header6 p-color-cement-dark" href="https://nikkithashanker.com/?ref=s.com" target="_blank">Nikkitha Shanker</a></li>
+{{--                                    <li><a class="header6 p-color-cement-dark" href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank">Refer & Earn</a></li>--}}
                                     <li><a class="header6 p-color-cement-dark" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>
                                     <li><a class="header6 p-color-cement-dark" href="{{route('award.index')}}">Awards</a></li>
                                 </ul>

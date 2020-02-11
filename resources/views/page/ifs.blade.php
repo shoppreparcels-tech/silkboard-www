@@ -124,9 +124,8 @@
 
                 <a href="/flipkart-online-shopping" title="flipkart" target="_blank">1. 👉Flipkart VALENTINE'S DAYS</a> |
                 <a href="/amazon-online-shopping" title="flipkart" target="_blank">2. 👉Amazon VALENTINE'S DAYS</a> |
-                <a href="/myntra-online-shopping" title="myntra" target="_blank">3. 👉TRADITIONAL TALES</a> |
+                <a href="/myntra-online-shopping" title="myntra" target="_blank">3. 👉ALL's FAIR IN LOVE &SALES</a> |
                 <a href="/ajio-online-shopping" title="ajio" target="_blank">3. 👉UPGRADE YOUR WARDROBE</a>
-
             </marquee>
         </div>
         <div class="container" id="how-it-works">

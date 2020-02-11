@@ -751,19 +751,19 @@
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="//assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/2/2/0ba763df-a321-4aaa-82bc-40a537640dc41580656159224-Sari-Fest.jpg" />
+                                         src="//assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/2/10/a3438eec-ab8f-4729-8bdb-00ab6b8fec241581325391913-v-day-3MST.png" />
                                 </div>
                                 <div style="    margin-top: 5px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                   TRADITIONAL TALES
+                                   ALL's FAIR IN LOVE &SALES!
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                        Min. 50% Off
+                                        40-70% Off
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;

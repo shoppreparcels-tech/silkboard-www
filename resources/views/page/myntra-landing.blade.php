@@ -125,14 +125,14 @@
 
             </center>
             <div class="row text-center">
-                <a href="https://www.myntra.com/saree?rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0" target="_blank">
+                <a href="https://www.myntra.com/shop/val20-home" target="_blank">
                     <img class="img-desktop-view"
-                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/2/2/dd0bd592-0432-4c44-ab63-6cb8ec09fe381580656159191-Desktop--2-.jpg"
+                         src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/2/11/19703087-cd64-441f-8d96-9e5bcb3b5d531581392996665-V-day-GIF.gif"
                          width="800px"></a>
                 <center>
-                    <a href="https://www.myntra.com/saree?rf=Discount%20Range%3A50.0_100.0_50.0%20TO%20100.0" target="_blank">
+                    <a href="https://www.myntra.com/shop/val20-home" target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/2/2/0ba763df-a321-4aaa-82bc-40a537640dc41580656159224-Sari-Fest.jpg" width="310px" ></a>
+                             src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/2/11/19703087-cd64-441f-8d96-9e5bcb3b5d531581392996665-V-day-GIF.gif" width="310px" ></a>
                 </center>
 {{--                <div class="col-sm-4">--}}
 {{--                    <a href="https://www.myntra.com/" target="_blank"><div class="shopandship ">--}}

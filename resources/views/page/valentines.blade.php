@@ -2534,8 +2534,72 @@
                 <p class="f-s-16 f-c-gray">Send Valentine’s day gifts to USA, UK, UAE, Australia or anywhere around the world, we’ll be here to help you through it.</p>
                 <br>
 
+                <h1 class="f-s-28 f-c-d-greay f-w-7">How to send valentines day gifts from India to elsewhere?</h1>
+                <h2 class="f-s-22 f-c-d-greay txt-u-l f-w-7">Valentine’s Festive Week:</h2>
+                <p class="f-s-16 f-c-gray">As Valentine's festive week has already begun, your special someone might have been waiting to rip open the valentines day presents.
+                    This is challenging for people who live abroad. If only 12 am video calls had special powers to transfer gifts, there would have been no trouble.
+                    Especially when you don't have an Indian address, it's highly likely that you must have to depend on your relatives/friends.</p>
+
+                <h2 class="f-s-22 f-c-d-greay txt-u-l f-w-7">Payment Solution for International Customers:</h2>
+                <p class="f-s-16 f-c-gray">When most of the online stores do not accept your credit card credentials, the disappointment hits hard.
+                    On top of that, your choices are unconditionally limited to the heavily-priced foreign products. When your nostalgic-self craves for Indian brands,
+                    the tabs you open don't seem to provide you with the results that you have been looking for. And even if you do end up with an online store
+                    that does international shopping & shipping, chances are your shipping costs outweigh the cost of your purchases.</p>
+
+                <h2 class="f-s-22 f-c-d-greay txt-u-l f-w-7">Shop with ShoppRe at your favorite Indian Stores :</h2>
+                <p class="f-s-16 f-c-gray">That was when I was introduced to ShoppRe by one of my friends. When I browsed the website, I felt like someone has been
+                    hearing my laments the whole time. This international shipping online service lets you shop via 1000+ Indian Online Stores (including Amazon, Flipkart, Myntra, LimeRoad and so on)
+                    and lets you send valentines gifts from India.
+                    <br> <br>
+                    Once I signed up for free, I was given a personal locker where I can stuff my gift preferences from India. The best part is that there is a special province for
+                    purchase that no other international shipping websites provide.
+                </p>
+
+                <h2 class="f-s-22 f-c-d-greay txt-u-l f-w-7">Worry-free Personal Shopper:</h2>
+                <p class="f-s-16 f-c-gray">The Personal Shopper at ShoppRe pays for your personalized gifts and thereby resolving the conflicts during the online transactions.
+                    For the time being, they receive your orders at their facility. Post the payment and shipping confirmation, ShoppRe transports the gifts to the doorstep of your loved ones within 3-6 days.
+                    <br> <br>
+                    As they gather your gifts and deliver, you would save up to 80% of the shipping costs. Meanwhile, to sooth your anxiousness, you will be
+                    updated with the whereabouts and pictures of your personalised gifts every now and then. ShoppRe, the Santa in disguise brings long-distance relationships and happiness a lot closer to this valentine O' clock.
+                </p>
+                <br>
+                <h1 class="f-s-28 f-c-d-greay f-w-7">Are there any cheap international shipping services available in India for this valentines spree?</h1>
+                <p class="f-s-16 f-c-gray">East or west, the discount on shipping cost is nowhere to be seen. And, somehow all the offers on advertisements have a different
+                    story to narrate at the Terms and Conditions section.
+                    <br> <br>
+                    What could be worse than such click baits? Having grown tired of toggling between websites, I came across ShoppRe where I was guaranteed the save of money.
+                </p>
+
+                <h2 class="f-s-22 f-c-d-greay txt-u-l f-w-7">Save up to 80% on Shipping:</h2>
+                <p class="f-s-16 f-c-gray">If you are looking for cheaper options, you can surf the options available at ShoppRe. While shopping for your favourite Indian brands,
+                    you can save up to 80% of shipping charges at this International Online Shipping Service.
+                    <br> <br>
+                    From collecting your orders until delivering them to your valentine, you can track the order status. Apparently, they have a specific warehouse at
+                    Bangalore where they accumulate the orders and ship it to the destination on the date you schedule.
+                    <br> <br>
+                    Also, you can access the picture of your deliverables beforehand to confirm if it matches your orders. Most importantly, your Valentine's gifts from India
+                    will ding the doorbell on the right time.
+                </p>
+
+                <h1 class="f-s-28 f-c-d-greay f-w-7">Where can I buy trending Indian Valentine's Gifts from Abroad?</h1>
+                <p class="f-s-16 f-c-gray">If your special someone is a native of India, they might have been too attached to the fragrance of the home town.
+                    They might have been missing the ambiance of their house for very long.
+                    <br> <br>
+                    So the better choice for valentines gift is to present something they would least expect. Surprise them by bringing the Indian aura to your special person.
+                    Now, you might not have a clue about any Indian brand or any authentic Indian stores. If such is the case, visit ShoppRe for once.
+                </p>
+                <h2 class="f-s-22 f-c-d-greay txt-u-l f-w-7">One Account for Indian Stores and Abroad:</h2>
+                <p class="f-s-16 f-c-gray">The website supports shipping from about 1000+ Indian Online Stores to 220+ countries. Apart from the vastness of shopping options from India,
+                    the real fruit is the cheapest shipping costs.
+                    <br> <br>
+                    You can sign up for free and make your purchases from anywhere. ShoppRe internationally ships your personalized gifts to the destination in no time.
+                    <br> <br>
+                    Moreover, they have an online bot that helps you throughout the process. At any time, you can track the whereabouts of the package.
+                    <br> <br>
+
+
                 <div class="offerDesc" id="terms">
-                    <h5>Cashback: Terms & Conditions</h5>
+                    <p class="f-s-18 f-c-red">Cashback: Terms & Conditions</p>
                     <ul>
                         <li>15% Cashback upto INR 250/-</li>
                         <li>This offer cannot be clubbed with any other. </li>

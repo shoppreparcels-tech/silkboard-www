@@ -844,6 +844,10 @@ class PageController extends Controller
     {
         return view('page.face-mask');
     }
+    public function surgicalMask()
+    {
+        return view('page.surgical-mask');
+    }
     public function monthEndOffer()
     {
         return view('page.landing-pages.month-end-offer');
@@ -2562,10 +2566,10 @@ class PageController extends Controller
         return view('page.forwarding-landing');
     }
 
-//    public function jabongIndex()
-//    {
-//        return view('page.jabong-landing');
-//    }
+        //    public function jabongIndex()
+        //    {
+        //        return view('page.jabong-landing');
+        //    }
 
     public function searchCreate(Request $request)
     {
