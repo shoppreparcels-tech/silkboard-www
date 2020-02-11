@@ -788,14 +788,14 @@
                                 <div style="    margin-top: 5px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    NO IFs & BUTs SALE
+                                    UPGRADE YOUR WARDROBE
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                            Flat 60% Off
+                                            40-80% Off
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
