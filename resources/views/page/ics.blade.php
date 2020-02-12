@@ -142,8 +142,8 @@
                         <tr>
                             <td class="btn-b-y tbl-br">
                                 <h4>Pricing</h4>
-                                <p><span>90</span>Kg Above</p>
-                                <p>Including GST & Surcharge</p>
+                                <p>For Above</p>
+                                <p>70 Kg</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
                                 <h1>₹440</h1>
@@ -151,46 +151,46 @@
                                 <p>Australia</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹450</h1>
+                                <h1>₹550</h1>
                                 <p><span>Per</span> 1 Kg</p>
                                 <p>USA</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹450</h1>
+                                <h1>₹600</h1>
                                 <p><span>Per</span> 1 Kg</p>
                                 <p>Canada</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
-                                <h1>₹480</h1>
+                                <h1>₹450</h1>
                                 <p><span>Per</span> 1 Kg</p>
                                 <p>UK</p>
                             </td>
                         </tr>
                         <tr>
                             <td class="btn-b-y tbl-br">
-                                <h4>Pricing</h4>
-                                <p><span>25</span>Kg</p>
-                                <p>Excluding GST</p>
-                            </td>
-                            <td class="div-b-w-s tbl-br">
-                                <h1>₹380</h1>
-                                <p><span>Per</span> 1 Kg</p>
-                                <p>Australia</p>
-                            </td>
-                            <td class="div-b-w-s tbl-br">
-                                <h1>₹450</h1>
-                                <p><span>Per</span> 1 Kg</p>
-                                <p>USA</p>
-                            </td>
-                            <td class="div-b-w-s tbl-br">
-                                <h1>₹270</h1>
-                                <p><span>Per</span> 1 Kg</p>
-                                <p>UAE</p>
+                                <h4>Inclusive</h4>
+                                <p>Surcharge</p>
+                                <p>& GST</p>
                             </td>
                             <td class="div-b-w-s tbl-br">
                                 <h1>₹340</h1>
                                 <p><span>Per</span> 1 Kg</p>
-                                <p>UK</p>
+                                <p>Malaysia</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹320</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>Singapore</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹450</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>Germany</p>
+                            </td>
+                            <td class="div-b-w-s tbl-br">
+                                <h1>₹320</h1>
+                                <p><span>Per</span> 1 Kg</p>
+                                <p>UAE</p>
                             </td>
                         </tr>
                     </table>

@@ -1,8 +1,8 @@
 @extends('layout')
 
-@section('title', 'Face Mask International Shipping | CoronaVirus ')
+@section('title', 'How to buy Best Surgical Face Mask in India | International Shipping ')
 @section('description', '')
-@section('keywords', 'coronavirus, face mask, diagnosis, china virus, wuhan city, sars, ')
+@section('keywords', 'surgical mask, disposable face mask, gloves, 3 ply, 2 ply, respirator mask, coronavirus, face mask, diagnosis, china virus, wuhan city, sars ')
 
 @section('css_style')
 
@@ -353,74 +353,49 @@
 
 @section('content')
 
-    <main>
-        <div class="header">
-{{--            <div class="col-md-12 col-sm-12 col-xs-12">--}}
 
-{{--            </div>--}}
-{{--            <div class="container"><br><br><br>--}}
-{{--                <center>--}}
-{{--                    <h1 class="f-s-36 f-c-white f-w-8">Face Mask Online Shopping</h1>--}}
-{{--                    <br>--}}
-{{--                </center>--}}
-{{--                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i>Send Personalised - Shop Online Valentine Gifts in India | International Gifts Delivery through ShoppRe. </i></p>--}}
-{{--                <br>--}}
-{{--                <br>--}}
-{{--            </div>--}}
-        </div>
-    </main>
-
-
-
-        <br>
-            <div class="row" style="margin-top: 2%">
-                <marquee behavior="alternate" width="" height="30px" height="100px">
-
-                    <span class="f-s-20">* <a href="#terms">ALERT</a>: Due to Export Ban from GOVT. Of India. We are unable to Export Face Mask & Sanitizer.
-                        For more deatils chat online. Before placing the Order.*</span>
-                </marquee>
-                    <img class="img-desktop-view"
-                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/e959c827-8ad9-4429-a4d4-19eee741e798.png"
-                         width="100%">
-                <center>
-                        <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/39cae6fc-ebe9-4040-a560-6af6f21b3545.png"
-                             width="100%" style="margin-top: 2%;">
-                </center>
-{{--                <div class="">--}}
-{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}
-{{--                        Below are the Recommended & Recently Shipped Gifts! </h2>--}}
-{{--                </div>--}}
-            </div>
+    <div class="row" style="margin-top: 3%">
+        <img class="img-desktop-view"
+             src="https://mcusercontent.com/8f7212d51aa9533c4788ccf05/images/c5b63a21-e9ef-47a4-b301-db05a72bb8f8.png"
+             width="100%">
+        <center>
+            <img class="img-mobile-view img-shopperstop-offer"
+                 src="https://mcusercontent.com/8f7212d51aa9533c4788ccf05/images/af5053de-3c0c-48c0-b55f-3254604fa95c.png"
+                 width="90%" style="margin-top:6%;">
+        </center>
+        {{--                <div class="">--}}
+        {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}
+        {{--                        Below are the Recommended & Recently Shipped Gifts! </h2>--}}
+        {{--                </div>--}}
+    </div>
     <section>
 
         <div class="container fst-service" style="margin-top: 0px;">
 
             <div class="row text-center">
-                <br>
                 <h2 class="f-s-20 p-color-cement-dark font-weight-900"><u>
-                       Special Campaign<span class="f-s-20 f-c-blue f-w-9"> ( Coronavirus )</span> Latest Shipped Face Mask Across The Globe
+                        Special Campaign<span class="f-s-20 f-c-blue f-w-9"> ( Virus & Anti Air Pollution )</span>
                     </u></h2>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.amazon.in/Honeywell-Pollution-Foldable-Exhalation-Valve/dp/B01I9PVOPW/"
+                        <a href="https://www.amazon.in/Disposable-Face-Mask-Elastic-Blue/dp/B07MKD5PYX"
                            target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://images-na.ssl-images-amazon.com/images/I/61H7bUkdnSL._SL1500_.jpg" />
+                                     src="https://images-na.ssl-images-amazon.com/images/I/516r59TKI8L._SL1053_.jpg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                     Anti Pollution Face Mask
+                                    Disposable 2 Ply Face Mask
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 553
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 800
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -438,23 +413,57 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.amazon.in/Filtra-4-Ply-Loop-Surgical-Face/dp/B00IIIKZK6/"
+                        <a href="https://www.amazon.in/dp/B084FXVL31/ref=sspa_dk_hqp_detail_aax_0"
                            target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://images-na.ssl-images-amazon.com/images/I/61P-uE0k9sL._SL1000_.jpg" />
+                                     src="https://images-na.ssl-images-amazon.com/images/I/71vunNEphJL._SL1500_.jpg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    Surgical Face Mask
+                                    Glider Disposable Style 2 Ply
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 299
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 799
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                            3-6 days
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.flipkart.com/mop-n-me-disposable-3-ply-air-pollution-blue-face-mask-pack-50-mnm-mask-green-mask/p/itm196322817c5d5"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://rukminim1.flixcart.com/image/416/416/k63xle80/mask-respirator/9/k/v/mnm-mask-green-mop-n-me-original-imafz5m4bf4wuqdh.jpeg?q=70" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Disposable 3 Ply - Pack of 50
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 350
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -472,159 +481,23 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.amazon.in/Purell-Hand-Sanitizer-Jelly-Carrier/dp/B075QFQM1H/"
+                        <a href="https://pinkblue.in/romsons-dispo-mask.html"
                            target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://images-na.ssl-images-amazon.com/images/I/41ked%2BPOubL.jpg" />
+                                     src="https://d11eqtcd4tfmzx.cloudfront.net/pub/media/catalog/product/cache/1/image/1000x1000/e9c3970ab036de70892d86c6d221abfe/r/o/romsons_dispo_mask.jpg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    Purell Hand Sanitizer
+                                    Romsons Dispo Mask
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 352
-                                        </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                            4-5 days
-                                        </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.amazon.in/Dettol-Anti-Pollution-Cambridge-Basic/dp/B07JP51P2S"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://images-na.ssl-images-amazon.com/images/I/61gC5hNVUOL._SL1000_.jpg" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                padding-top: 0px !important;text-align: left;
-                                                text-decoration: none;">
-                                   N95 Dettol Mask
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                        <span style="font-size: 14px;font-weight: bold;
-                                                     padding-top: 5px;color: #337ab7;;
-                                                     display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 329
-                                        </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                            3-4 days
-                                        </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.amazon.in/dp/B07SRYFGXD"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://images-na.ssl-images-amazon.com/images/I/71gWubYDTDL._SL1500_.jpg" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                padding-top: 0px !important;text-align: left;
-                                                text-decoration: none;">
-                                    Hygienic Wet Wipes
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                        <span style="font-size: 14px;font-weight: bold;
-                                                     padding-top: 5px;color: #337ab7;;
-                                                     display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 110
-                                        </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                            2-3 days
-                                        </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.amazon.in/NUVO-MEDSURG-Disposable-Face-Elastic/dp/B07C7CGWM1/"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://images-na.ssl-images-amazon.com/images/I/715oemW7LvL._SL1055_.jpg" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                padding-top: 0px !important;text-align: left;
-                                                text-decoration: none;">
-                                    Disposable Filter Mask
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                        <span style="font-size: 14px;font-weight: bold;
-                                                     padding-top: 5px;color: #337ab7;;
-                                                     display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 399
-                                        </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                            7-8 days
-                                        </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.amazon.in/dp/B00JB1ARMK/"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://images-na.ssl-images-amazon.com/images/I/61OWpIsQpFL._SL1000_.jpg" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                padding-top: 0px !important;text-align: left;
-                                                text-decoration: none;">
-                                    3-Ply Ear Loop Mask, 100 Pcs
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                        <span style="font-size: 14px;font-weight: bold;
-                                                     padding-top: 5px;color: #337ab7;;
-                                                     display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 250
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 138
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -640,442 +513,240 @@
                     </div>
                 </div>
 
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.amazon.in/dp/B00IIIL05A"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://images-na.ssl-images-amazon.com/images/I/617nqAETaGL._SL1000_.jpg" />
+                        <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                            <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                                <a href="https://www.dentbay.com/blossom-3-ply-earloop-face-mask.html"
+                                   target="_blank">
+                                    <div style="padding-top: 0px;">
+                                        <img class="img-product m-t-img border-radius-10 vday-img"
+                                             src="https://www.dentbay.com/pub/media/catalog/product/cache/image/e9c3970ab036de70892d86c6d221abfe/p/i/pink-3ply.jpg" />
+                                    </div>
+                                    <div style="text-align: left;margin-left: 10%;">
+                                        <div style="color: #000;font-size: 14px;
+                                                        padding-top: 0px !important;text-align: left;
+                                                        text-decoration: none;">
+                                            Blossom 3 Ply Face Mask
+                                        </div>
+                                        <div style="padding-top: 0px !important;">
+                                                <span style="font-size: 14px;font-weight: bold;
+                                                             padding-top: 5px;color: #337ab7;;
+                                                             display: inline-block;">
+                                                    <i class="fa fa-inr" aria-hidden="true"></i> 225
+                                                </span>
+                                        </div>
+                                        <div style="display: block;padding: 0 0 0 0;
+                                                        color: #181818;font-size: 14px;font-family: Lato;
+                                                        text-align: left;">
+                                            Earliest Delivery:
+                                            <span style="color: #347b4c;">
+                                                    2-5 days
+                                                </span>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                padding-top: 0px !important;text-align: left;
-                                                text-decoration: none;">
-                                    Surgical Face Mask, 50 Pcs
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                        <span style="font-size: 14px;font-weight: bold;
-                                                     padding-top: 5px;color: #337ab7;;
-                                                     display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 299
-                                        </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                            4-5 days
-                                        </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                        </div>
 
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://vitalticks.in/green-guava-premium-elastic-face-mask-4ply.html"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://vitalticks.in/pub/media/catalog/product/cache/a741282e2e77597504b5eed1936d8886/m/a/maskpremium.png" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                padding-top: 0px !important;text-align: left;
-                                                text-decoration: none;">
-                                    4PLY Premium Face Mask
+                                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                                        <a href="https://www.medilord.com/Face-Mask-"
+                                           target="_blank">
+                                            <div style="padding-top: 0px;">
+                                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                                     src="https://www.medilord.com/image/cache/catalog/Medilord/Blossom/Blossom%20Face%20Mask%203%20Ply%20(2)-750x750.jpg" />
+                                            </div>
+                                            <div style="text-align: left;margin-left: 10%;">
+                                                <div style="color: #000;font-size: 14px;
+                                                                padding-top: 0px !important;text-align: left;
+                                                                text-decoration: none;">
+                                                    Blossom Face Mask 3 Ply
+                                                </div>
+                                                <div style="padding-top: 0px !important;">
+                                                        <span style="font-size: 14px;font-weight: bold;
+                                                                     padding-top: 5px;color: #337ab7;;
+                                                                     display: inline-block;">
+                                                            <i class="fa fa-inr" aria-hidden="true"></i> 210
+                                                        </span>
+                                                </div>
+                                                <div style="display: block;padding: 0 0 0 0;
+                                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                                text-align: left;">
+                                                    Earliest Delivery:
+                                                    <span style="color: #347b4c;">
+                                                            5-8 days
+                                                        </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div style="padding-top: 0px !important;">
-                                        <span style="font-size: 14px;font-weight: bold;
-                                                     padding-top: 5px;color: #337ab7;;
-                                                     display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 250
-                                        </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                             4-6 days
-                                        </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
 
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.seniority.in/anti-dust-and-pollution-face-mask-pack-of-3-bodyguard-pdp"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://assets.seniority.in/media/catalog/product/cache/926507dc7f93631a094422215b778fe0/b/o/bodyguard_pm_2.5_anti_dust_pollution_sen017-fsp231_1_.jpg" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                padding-top: 0px !important;text-align: left;
-                                                text-decoration: none;">
-                                   Anti Dust Face Mask
+                                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                                        <a href="https://www.industrybuying.com/surgical-mask-safeshield-MED.SUR.10549580/"
+                                           target="_blank">
+                                            <div style="padding-top: 0px;">
+                                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                                     src="//static6.industrybuying.com/products/medical-supplies-equipment/medical-consumables/surgical-mask/MED.SUR.10549580.jpg" />
+                                            </div>
+                                            <div style="text-align: left;margin-left: 10%;">
+                                                <div style="color: #000;font-size: 14px;
+                                                                padding-top: 0px !important;text-align: left;
+                                                                text-decoration: none;">
+                                                    2-Ply Ear Loop Mask
+                                                </div>
+                                                <div style="padding-top: 0px !important;">
+                                                        <span style="font-size: 14px;font-weight: bold;
+                                                                     padding-top: 5px;color: #337ab7;;
+                                                                     display: inline-block;">
+                                                            <i class="fa fa-inr" aria-hidden="true"></i> 590
+                                                        </span>
+                                                </div>
+                                                <div style="display: block;padding: 0 0 0 0;
+                                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                                text-align: left;">
+                                                    Earliest Delivery:
+                                                    <span style="color: #347b4c;">
+                                                            4-7 days
+                                                        </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div style="padding-top: 0px !important;">
-                                        <span style="font-size: 14px;font-weight: bold;
-                                                     padding-top: 5px;color: #337ab7;;
-                                                     display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 270
-                                        </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                            5-6 days
-                                        </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
 
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.shein.in/Solid-Mouth-Mask-1pc-p-675508-cat-1962.html"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://img.ltwebstatic.com/images2_pi/2019/08/06/156507325949237198_thumbnail_600x799.webp" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                padding-top: 0px !important;text-align: left;
-                                                text-decoration: none;">
-                                    Solid Mouth Mask 1pc
+                                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                                        <a href="https://www.industrybuying.com/surgical-mask-max-plus-MED.SUR.14640203/"
+                                           target="_blank">
+                                            <div style="padding-top: 0px;">
+                                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                                     src="//static6.industrybuying.com/products/medical-supplies-equipment/medical-consumables/surgical-mask/MED.SUR.14640203.jpg" />
+                                            </div>
+                                            <div style="text-align: left;margin-left: 10%;">
+                                                <div style="color: #000;font-size: 14px;
+                                                                padding-top: 0px !important;text-align: left;
+                                                                text-decoration: none;">
+                                                    2 Ply Surgical Face Mask
+                                                </div>
+                                                <div style="padding-top: 0px !important;">
+                                                        <span style="font-size: 14px;font-weight: bold;
+                                                                     padding-top: 5px;color: #337ab7;;
+                                                                     display: inline-block;">
+                                                            <i class="fa fa-inr" aria-hidden="true"></i> 934
+                                                        </span>
+                                                </div>
+                                                <div style="display: block;padding: 0 0 0 0;
+                                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                                text-align: left;">
+                                                    Earliest Delivery:
+                                                    <span style="color: #347b4c;">
+                                                            4-7 days
+                                                        </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div style="padding-top: 0px !important;">
-                                        <span style="font-size: 14px;font-weight: bold;
-                                                     padding-top: 5px;color: #337ab7;;
-                                                     display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 121
-                                        </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                            4-5 days
-                                        </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </section>
 
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.libraltraders.com/ld-premium-3-ply-face-mask-elastic-loop-100-pk.html"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://www.libraltraders.com/pub/media/catalog/product/cache/1/image/1000x1320/e9c3970ab036de70892d86c6d221abfe/l/d/ld-face-mask.jpg" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                padding-top: 0px !important;text-align: left;
-                                                text-decoration: none;">
-                                    3 Ply Elastic Loop 100/pk
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                        <span style="font-size: 14px;font-weight: bold;
-                                                     padding-top: 5px;color: #337ab7;;
-                                                     display: inline-block;">
-                                           <i class="fa fa-inr" aria-hidden="true"></i> 245
-                                        </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                            5-6 days
-                                        </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+    <section>
 
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.ninthavenue.com/products/unisex-antidust-solid-black-white-star-cotton-earloop-face-mouth-mask-muffle-2pcs"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://cdn.shopify.com/s/files/1/1653/1839/products/513XVvOUCdL_1024x1024.jpg" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                    padding-top: 0px !important;text-align: left;
-                                                    text-decoration: none;">
-                                    Unisex Anti Dust Face Mask
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                            <span style="font-size: 14px;font-weight: bold;
-                                                         padding-top: 5px;color: #337ab7;;
-                                                         display: inline-block;">
-                                                <i class="fa fa-inr" aria-hidden="true"></i> 1,926
-                                            </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                    color: #181818;font-size: 14px;font-family: Lato;
-                                                    text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
+        <div class="container christmas">
+            <label class="f-s-24 f-c-d-greay"> Does Surgical Mask help protect you from Coronavirus?</label>
+            <p class="f-s-16 f-c-gray f-w-4 "><b>"Coronavirus: Death Toll Exceeds 1100+!"</b> The news headlines and panic vibes of Coronavirus are still alive everywhere.
+                Ever since the deadly outbreak happened, the doctors have been advising various precautionary methods to prevent the spread. <br><br>Since coronavirus is an airborne disease,
+                the most important custom is to maintain respiratory hygiene. Thus, equipping a mask would minimize the risk of direct contact with the virus. Not only does this apply
+                for the people who are uninfected but also for those who are suffering from the disease. <br><br>As surgical face masks would trap the infected individual's expiratory droplets
+                (while sneezing and coughing), you can ensure the family/public health by wearing one.
+            </p>
 
-                                            </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+            <h1 class="f-s-20 f-c-d-greay f-w-7">Where to buy Surgical Face Masks?</h1>
+            <p class="f-s-16 f-c-gray f-w-4">Due to the increased demand for masks, China is facing a shortage of supplies. Hence, recently the Indian government has removed the ban
+                on shipping certain masks and gloves abroad. <br><br>Thus, if the face mask is not available at the nearby convenience stores or pharmacies, you can always make use of
+                <a href="/" target="_blank">international shipping services online</a>.
+            </p>
 
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.1mg.com/otc/smart-air-filters-n99-pollution-mask-with-valvebra-otc468729"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://res.cloudinary.com/du8msdgbj/image/upload/l_watermark_346,w_690,h_700/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/v1537350016/eltyupx7aoyf8lb1dfsc.png" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                    padding-top: 0px !important;text-align: left;
-                                                    text-decoration: none;">
-                                    N99 Smart Air Filters Musk
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                            <span style="font-size: 14px;font-weight: bold;
-                                                         padding-top: 5px;color: #337ab7;;
-                                                         display: inline-block;">
-                                                <i class="fa fa-inr" aria-hidden="true"></i> 190
-                                            </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                    color: #181818;font-size: 14px;font-family: Lato;
-                                                    text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                                1-2 days
-                                            </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+            <h3 class="f-s-20 f-c-d-greay f-w-7">What are the options available?</h3>
+            <p class="f-s-16 f-c-gray f-w-4">You might have come across the product labels that read 2 ply or 3 ply surgical masks. But what is the <strong>difference between 2 ply and 3 ply face masks?</strong>
+                The only difference is with the number of layers. In 2 ply masks, there are two layers that are designed to create a potential barrier to filter bacteria. In 3 ply masks,
+                you can find an additional outer layer that keeps you away from the fluids and blood contact.
+            </p>
 
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.amazon.in/Bodyguard-Reusable-Pollution-Activated-Carbon/dp/B07KG19762"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://images-na.ssl-images-amazon.com/images/I/816VSmIHxPL._SL1500_.jpg" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                    padding-top: 0px !important;text-align: left;
-                                                    text-decoration: none;">
-                                    Reusable Face Mask
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                            <span style="font-size: 14px;font-weight: bold;
-                                                         padding-top: 5px;color: #337ab7;;
-                                                         display: inline-block;">
-                                               <i class="fa fa-inr" aria-hidden="true"></i> 225
-                                            </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                    color: #181818;font-size: 14px;font-family: Lato;
-                                                    text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                                3-4 days
-                                            </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+            <h3 class="f-s-20 f-c-d-greay f-w-7">ShoppRe and Surgical Mask Shopping Online in India:</h3>
+            <p class="f-s-16 f-c-gray f-w-4">As this is a period of a medical emergency, ShoppRe offers 24*7 support for you to shop for surgical face masks online from anywhere.
+                All you have to do is to sign up for free. Surf on the Surgical Mask, Gloves and other necessary utilities from India.<br><br> Make your choice and place the order.
+                Once you have done that, you will be receiving your orders in no time. Typically, it takes 3 to 6 days for delivery.
+            </p>
 
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.amazon.in/3M-9332-Pollution-Mask-Aura/dp/B01LZF2RQM/"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://images-na.ssl-images-amazon.com/images/I/61jgtSSLhJL._SL1000_.jpg" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                    padding-top: 0px !important;text-align: left;
-                                                    text-decoration: none;">
-                                    N99 Pollution Mask Aura
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                            <span style="font-size: 14px;font-weight: bold;
-                                                         padding-top: 5px;color: #337ab7;;
-                                                         display: inline-block;">
-                                               <i class="fa fa-inr" aria-hidden="true"></i> 243
-                                            </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                    color: #181818;font-size: 14px;font-family: Lato;
-                                                    text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                                2-3 days
-                                            </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+            <h3 class="f-s-20 f-c-d-greay f-w-7">Just Pay During Shipping Confirmation:</h3>
+            <p class="f-s-16 f-c-gray f-w-4">Of course, the purchase of foreign products can become hectic during money transactions. Also, in such cases, you are bound to
+                fill up loads of forms that actually feel like homework. <br><br>However, you won't be facing such difficulties at this international shipping service.
+                That is because you get to meet <a href="/personal-shopper-india" target="_blank"> Mr.Personal Shopper</a>. <br><br>This fella bot will pay for your purchase. Once your orders arrive at ShoppRe, you will be updated with the status.
+                You can check for the pictures of the deliverables and confirm the shipping. Post your payment, the orders will be shipped to your doorstep.
+            </p>
 
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.flipkart.com/orthosys-100-pcs-disposable-face-mask-respirator/p/itmer27n7kbwkchc"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/mask-respirator/n/7/b/100-pcs-disposable-face-mask-and-respirator-orthosys-original-imaer2yzuwn32hzp.jpeg" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                    padding-top: 0px !important;text-align: left;
-                                                    text-decoration: none;">
-                                    100 Pcs Disposable Face Mask
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                            <span style="font-size: 14px;font-weight: bold;
-                                                         padding-top: 5px;color: #337ab7;;
-                                                         display: inline-block;">
-                                               <i class="fa fa-inr" aria-hidden="true"></i> 103
-                                            </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                    color: #181818;font-size: 14px;font-family: Lato;
-                                                    text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                                3-4 days
-                                            </span>
-                                </div>
-                            </div>
-                        </a>
+            <h3 class="f-s-20 f-c-d-greay f-w-7">"International Shipping for Surgical Face Masks": Does it sound way too far or Do you feel burdened about the budget?</h3>
+            <p class="f-s-16 f-c-gray f-w-4">Pocket-friendly international shipping service seems far away from reality. And because ShoppRe provides impressive international shipping service online,
+                you might have doubts about the pricing. <br><br>But It's not what you presume. Here is the fact. ShoppRe does massive shipping of products from India to elsewhere.
+                Thereby <strong>cutting shipping costs up to 80%</strong>. Now shop at your place without a worry about the hefty
+                <a href="{{route('pricing')}}" target="_blank">shipping price</a>.
+            </p>
+            <br>
+            <div>
+                <p class="f-s-22 f-c-blue f-w-7">Additional Precautionary Tips:</p>
+                <ul>
+                    <li>
+                        <h4 class="header4 p-color-cement f-w-4"><strong>Can you reuse the surgical face mask?</strong> - Never make a mistake of reusing the surgical masks.
+                            They are disposable masks that just serve one time. So how often do you have to change? You can keep it on for a period of 8 hours.
+                        </h4>
+                    </li>
+                    <li>
+                        <h4 class="header4 p-color-cement f-w-4">Take your time while <strong>washing your hands</strong>. Preferably, for at least 20 seconds. Every time you cough or sneeze,
+                            make sure to thoroughly wash your hands.</h4>
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <p class="f-s-22 f-c-green f-w-7">Conclusion:</p>
+            <p class="f-s-16 f-c-gray f-w-4">When stepping out has become hazardous, you can rely on this international shipping service. You will definitely not be facing issues
+                like product unavailability or distance. Face Mask has somehow topped the shopping list of every house. And during your time at ShoppRe, you can experience the concern,
+                this shipping service provides. Be on your couch and place your order. Let ShoppRe lend a hand to fight away coronavirus by offering the best international shipping service
+                at the cheapest shipping fare.
+            </p>
+
+        </div>
+        <br>
+        <div class="container">
+            <div itemscope itemtype="https://schema.org/FAQPage">
+                <p class="f-c-red f-s-20" style="font-style: italic">Latest Questions & Frequently asked by our customers:</p>
+                <br>
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <p itemprop="name" class="f-s-18 f-c-gray">Can I ship N95 Mask?</p>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text" class="f-s-16 f-c-gray f-w-4">Unfortunately, you cannot make a purchase on N95 masks. The Government of India has prohibited the export of N95 Face Masks.
+                            starting at just Rs.553!
+                        </p>
                     </div>
                 </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.1mg.com/otc/1mile-disposable-3-ply-face-mask-blue-regular-otc515765"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://res.cloudinary.com/du8msdgbj/image/upload/l_watermark_346,w_690,h_700/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/v1559892258/mnj32m5chdfel8wty3np.png" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                    padding-top: 0px !important;text-align: left;
-                                                    text-decoration: none;">
-                                    1Mile Disposable 3 Ply Face Mask
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                            <span style="font-size: 14px;font-weight: bold;
-                                                         padding-top: 5px;color: #337ab7;;
-                                                         display: inline-block;">
-                                               <i class="fa fa-inr" aria-hidden="true"></i> 525
-                                            </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                    color: #181818;font-size: 14px;font-family: Lato;
-                                                    text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                                4-5 days
-                                            </span>
-                                </div>
-                            </div>
-                        </a>
+                <br>
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <p itemprop="name" class="f-s-18 f-c-gray">Can I ship a 4 ply mask?</p>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text" class="f-s-16 f-c-gray f-w-4">No, this option is not available either because 4 ply or 8 ply masks are on the list of banned export goods. However, 2 ply and 3 ply masks are available for shipping.
+                        </p>
                     </div>
                 </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.moglix.com/love4ride-2-pcs-black-cotton-anti-pollution-bike-face-mask-set/mp/msne5n8e1zjgkl"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://img.moglimg.com/p/oqIVnBTM01GOQ.jpg" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                    padding-top: 0px !important;text-align: left;
-                                                    text-decoration: none;">
-                                    Love4ride 2 Pcs Face Mask Set
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                            <span style="font-size: 14px;font-weight: bold;
-                                                         padding-top: 5px;color: #337ab7;;
-                                                         display: inline-block;">
-                                               <i class="fa fa-inr" aria-hidden="true"></i> 52
-                                            </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                    color: #181818;font-size: 14px;font-family: Lato;
-                                                    text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                                4-7 days
-                                            </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.amazon.in/NUVO-MEDSURG-Disposable-Face-Elastic/dp/B07B1XWQB9"
-                           target="_blank">
-                            <div style="padding-top: 0px;">
-                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://images-na.ssl-images-amazon.com/images/I/61oAhJPuz5L._SL1053_.jpg" />
-                            </div>
-                            <div style="text-align: left;margin-left: 10%;">
-                                <div style="color: #000;font-size: 14px;
-                                                    padding-top: 0px !important;text-align: left;
-                                                    text-decoration: none;">
-                                    3 Ply With Elastic Mask (100 Pcs)
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                            <span style="font-size: 14px;font-weight: bold;
-                                                         padding-top: 5px;color: #337ab7;;
-                                                         display: inline-block;">
-                                               <i class="fa fa-inr" aria-hidden="true"></i> 449
-                                            </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                    color: #181818;font-size: 14px;font-family: Lato;
-                                                    text-align: left;">
-                                    Earliest Delivery:
-                                    <span style="color: #347b4c;">
-                                                5-6 days
-                                            </span>
-                                </div>
-                            </div>
-                        </a>
+                <br>
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <p itemprop="name" class="f-s-18 f-c-gray ">Can I ship face masks manufactured in China?</p>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text" class="f-s-16 f-c-gray f-w-4">No, you can only order the products that have description in English and that are manufactured from India.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -1086,7 +757,7 @@
     <section class="chris-benefits">
         <div class="container " >
             <center>
-                <h1 class="p-color-cement-dark flipkart-h1 font-weight-900">Shop India Stores & Ship Globally with ShoppRe.com</h1>
+                <h1 class="p-color-cement-dark font-weight-900" style="font-size: 28px;">Shop India Stores & Ship Worldwide with ShoppRe.com</h1>
             </center>
             <div class="row text-center">
                 <div class="col-sm-4">
@@ -1150,19 +821,19 @@
 
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align">
                     <p class="header7">
-                        <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
+                        <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
                     <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 
                 <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details contact-text-align ">
-                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
+                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i> SUPPORT EMAIL</p>
                     <a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>
 
                 </div>
 
                 <div
-                        class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details pull-right contact-text-align">
+                    class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12 contact-details pull-right contact-text-align">
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
                         </i>Live Chat</p>
@@ -1197,13 +868,13 @@
 
                 <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align" style="color: #fdf699">
                     <p class="header7">
-                        <i class="fa fa-phone" aria-hidden="true"></i>Call us</p>
+                        <i class="fa fa-phone" aria-hidden="true"></i> Call us</p>
                     <a href="tel:+91-9148357733" class="header2 p-color-white">+91 91483 57733</a>
 
                 </div>
 
                 <div class="col-md-3 col-md-3 col-lg-3 col-sm-12 col-xs-12  contact-text-align " style="color: #fdf699">
-                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i>SUPPORT EMAIL</p>
+                    <p class="header7"><i class="fa fa-envelope" aria-hidden="true"></i> SUPPORT EMAIL</p>
                     <a href="mailto:support@shoppre.com" class="header2 p-color-white">support@shoppre.com</a>
 
                 </div>
@@ -1212,7 +883,7 @@
                      style="color: #fdf699">
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
-                        </i>Live Chat</p>
+                        </i> Live Chat</p>
                     <a href="{{Constant::CHATURL}}" target="_blank"
                        class="header2 p-color-white">Chat Now</a>
 
@@ -1236,65 +907,6 @@
             document.getElementsByTagName('body')[0].appendChild(s);
         }());
     </script>
-    <script type="text/javascript" src="../js/jssor.js"></script>
-    <script type="text/javascript" src="../js/jssor.slider.js"></script>
-    <script>
-        jQuery(document).ready(function ($) {
-            var options = {
-                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
-                $AutoPlaySteps: 4,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
-                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
-                $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
 
-                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
-                $SlideDuration: 160,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
-                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
-                $SlideWidth: 200,                                   //[Optional] Width of every slide in pixels, default value is width of 'slides' container
-                //$SlideHeight: 150,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
-                $SlideSpacing: 3, 					                //[Optional] Space between each slide in pixels, default value is 0
-                $DisplayPieces: 5,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
-                $ParkingPosition: 0,                              //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
-                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
-                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
-                $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
-
-                $BulletNavigatorOptions: {                                //[Optional] Options to specify and enable navigator or not
-                    $Class: $JssorBulletNavigator$,                       //[Required] Class to create navigator instance
-                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
-                    $AutoCenter: 0,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
-                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
-                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
-                    $SpacingX: 0,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
-                    $SpacingY: 0,                                   //[Optional] Vertical space between each item in pixel, default value is 0
-                    $Orientation: 1                                 //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
-                },
-
-                $ArrowNavigatorOptions: {
-                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
-                    $ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
-                    $AutoCenter: 2,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
-                    $Steps: 4                                       //[Optional] Steps to go for each navigation request, default value is 1
-                }
-            };
-
-            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
-
-            //responsive code begin
-            //you can remove responsive code if you don't want the slider scales while window resizes
-            function ScaleSlider() {
-                var bodyWidth = document.body.clientWidth;
-                if (bodyWidth)
-                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 809));
-                else
-                    window.setTimeout(ScaleSlider, 30);
-            }
-            ScaleSlider();
-
-            $(window).bind("load", ScaleSlider);
-            $(window).bind("resize", ScaleSlider);
-            $(window).bind("orientationchange", ScaleSlider);
-            //responsive code end
-        });
-    </script>
 
 @endsection

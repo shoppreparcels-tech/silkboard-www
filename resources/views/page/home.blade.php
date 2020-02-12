@@ -685,16 +685,16 @@
 {{--                    </div>--}}
 
                     <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
-                        <a href="/amazon-online-shopping" title="Click to Know More" target="_blank">
+                        <a href="/face-mask-international-shipping" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/ValentinesDay/header/Main_Header_Mobile_1._CB425558904_.gif" />
+                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/a99ba55a-3755-4664-b422-b1c425acf8d2.png" />
                                 </div>
                                 <div style="    margin-top: 5px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    SHOP YOUR HEART OUT
+                                    FACE MASK LOW PRICES
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
@@ -707,7 +707,7 @@
                                 <div style="display: block;padding: 0 0 0 0;
                                                 color: #181818;font-size: 14px;font-family: Lato;
                                                 text-align: left;">
-                                   Amazon.in
+                                   ShoppRe.com
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}
@@ -1168,7 +1168,7 @@
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
 
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">281 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">282 Google Reviews</p>
 
                                 </a>
                                 <br>
@@ -1186,7 +1186,7 @@
                                 </p>
                                 </div>
                                 <a href="https://www.facebook.com/pg/goshoppre/reviews" target="_blank">
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">Recommended by 98</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">Recommended by 100</p>
                                 </a>
                                 <br>
                                 <p style="font-size: 20px; color: #878787; margin-top: -6px ">Packaging Supplies and Service</p>
