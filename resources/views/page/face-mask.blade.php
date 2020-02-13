@@ -513,141 +513,282 @@
                     </div>
                 </div>
 
-                        <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                            <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                                <a href="https://www.dentbay.com/blossom-3-ply-earloop-face-mask.html"
-                                   target="_blank">
-                                    <div style="padding-top: 0px;">
-                                        <img class="img-product m-t-img border-radius-10 vday-img"
-                                             src="https://www.dentbay.com/pub/media/catalog/product/cache/image/e9c3970ab036de70892d86c6d221abfe/p/i/pink-3ply.jpg" />
-                                    </div>
-                                    <div style="text-align: left;margin-left: 10%;">
-                                        <div style="color: #000;font-size: 14px;
-                                                        padding-top: 0px !important;text-align: left;
-                                                        text-decoration: none;">
-                                            Blossom 3 Ply Face Mask
-                                        </div>
-                                        <div style="padding-top: 0px !important;">
-                                                <span style="font-size: 14px;font-weight: bold;
-                                                             padding-top: 5px;color: #337ab7;;
-                                                             display: inline-block;">
-                                                    <i class="fa fa-inr" aria-hidden="true"></i> 225
-                                                </span>
-                                        </div>
-                                        <div style="display: block;padding: 0 0 0 0;
-                                                        color: #181818;font-size: 14px;font-family: Lato;
-                                                        text-align: left;">
-                                            Earliest Delivery:
-                                            <span style="color: #347b4c;">
-                                                    2-5 days
-                                                </span>
-                                        </div>
-                                    </div>
-                                </a>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://otbliss.com/face-mask-premium-fluid-resistant.html"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://otbliss.com/pub/media/catalog/product/cache/ec19c9f8db37af49cbf92829c2885eff/m/a/mask_box_copy.jpg" />
                             </div>
-                        </div>
-
-                                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                                        <a href="https://www.medilord.com/Face-Mask-"
-                                           target="_blank">
-                                            <div style="padding-top: 0px;">
-                                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                                     src="https://www.medilord.com/image/cache/catalog/Medilord/Blossom/Blossom%20Face%20Mask%203%20Ply%20(2)-750x750.jpg" />
-                                            </div>
-                                            <div style="text-align: left;margin-left: 10%;">
-                                                <div style="color: #000;font-size: 14px;
-                                                                padding-top: 0px !important;text-align: left;
-                                                                text-decoration: none;">
-                                                    Blossom Face Mask 3 Ply
-                                                </div>
-                                                <div style="padding-top: 0px !important;">
-                                                        <span style="font-size: 14px;font-weight: bold;
-                                                                     padding-top: 5px;color: #337ab7;;
-                                                                     display: inline-block;">
-                                                            <i class="fa fa-inr" aria-hidden="true"></i> 210
-                                                        </span>
-                                                </div>
-                                                <div style="display: block;padding: 0 0 0 0;
-                                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                                text-align: left;">
-                                                    Earliest Delivery:
-                                                    <span style="color: #347b4c;">
-                                                            5-8 days
-                                                        </span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    3 Ply Face Mask - Fluid Resistant
                                 </div>
-
-                                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                                        <a href="https://www.industrybuying.com/surgical-mask-safeshield-MED.SUR.10549580/"
-                                           target="_blank">
-                                            <div style="padding-top: 0px;">
-                                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                                     src="//static6.industrybuying.com/products/medical-supplies-equipment/medical-consumables/surgical-mask/MED.SUR.10549580.jpg" />
-                                            </div>
-                                            <div style="text-align: left;margin-left: 10%;">
-                                                <div style="color: #000;font-size: 14px;
-                                                                padding-top: 0px !important;text-align: left;
-                                                                text-decoration: none;">
-                                                    2-Ply Ear Loop Mask
-                                                </div>
-                                                <div style="padding-top: 0px !important;">
-                                                        <span style="font-size: 14px;font-weight: bold;
-                                                                     padding-top: 5px;color: #337ab7;;
-                                                                     display: inline-block;">
-                                                            <i class="fa fa-inr" aria-hidden="true"></i> 590
-                                                        </span>
-                                                </div>
-                                                <div style="display: block;padding: 0 0 0 0;
-                                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                                text-align: left;">
-                                                    Earliest Delivery:
-                                                    <span style="color: #347b4c;">
-                                                            4-7 days
-                                                        </span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 1200
+                                        </span>
                                 </div>
-
-                                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                                        <a href="https://www.industrybuying.com/surgical-mask-max-plus-MED.SUR.14640203/"
-                                           target="_blank">
-                                            <div style="padding-top: 0px;">
-                                                <img class="img-product m-t-img border-radius-10 vday-img"
-                                                     src="//static6.industrybuying.com/products/medical-supplies-equipment/medical-consumables/surgical-mask/MED.SUR.14640203.jpg" />
-                                            </div>
-                                            <div style="text-align: left;margin-left: 10%;">
-                                                <div style="color: #000;font-size: 14px;
-                                                                padding-top: 0px !important;text-align: left;
-                                                                text-decoration: none;">
-                                                    2 Ply Surgical Face Mask
-                                                </div>
-                                                <div style="padding-top: 0px !important;">
-                                                        <span style="font-size: 14px;font-weight: bold;
-                                                                     padding-top: 5px;color: #337ab7;;
-                                                                     display: inline-block;">
-                                                            <i class="fa fa-inr" aria-hidden="true"></i> 934
-                                                        </span>
-                                                </div>
-                                                <div style="display: block;padding: 0 0 0 0;
-                                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                                text-align: left;">
-                                                    Earliest Delivery:
-                                                    <span style="color: #347b4c;">
-                                                            4-7 days
-                                                        </span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                            7-9 days
+                                        </span>
                                 </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.medilord.com/Face-Mask-"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://www.medilord.com/image/cache/catalog/Medilord/Blossom/Blossom%20Face%20Mask%203%20Ply%20(2)-750x750.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Blossom Face Mask 3 Ply
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 210
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                            5-8 days
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.industrybuying.com/surgical-mask-safeshield-MED.SUR.10549580/"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="//static6.industrybuying.com/products/medical-supplies-equipment/medical-consumables/surgical-mask/MED.SUR.10549580.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    2-Ply Ear Loop Mask
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 590
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                            4-7 days
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.industrybuying.com/surgical-mask-max-plus-MED.SUR.14640203/"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="//static6.industrybuying.com/products/medical-supplies-equipment/medical-consumables/surgical-mask/MED.SUR.14640203.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    2 Ply Surgical Face Mask
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 934
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                            4-7 days
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.snapdeal.com/product/vkare-disposable-face-mask-50/1672755717"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://n3.sdlcdn.com/imgs/a/i/0/Vkare-Disposable-Face-Mask-50-SDL935170834-1-c3db7.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    2 Ply Face Mask - 50pcs
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 950
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                            9-11 days
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.snapdeal.com/product/maxpluss-3ply-surgical-face-mask/619311638656#bcrumbSearch:3ply|bcrumbLabelId:46101962"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://n2.sdlcdn.com/imgs/f/i/z/maxpluss-3Ply-Surgical-Face-Mask-SDL980509008-2-b3b4c.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Maxpluss 3Ply - 50 pcs
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 1950
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                            8-11 days
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.shopclues.com/disposable-elastic-3-ply-surgical-mask-pack-of-50-mask-148961758.html"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://cdn.shopclues.com/images1/thumbnails/104780/280/1/148961758-104780639-1580887579.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    3-Ply Ear Loop Mask
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 379
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                            4-6 days
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.shopclues.com/pack-of-1000-surgical-face-mask-118808414.html"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://cdn.shopclues.com/images/thumbnails/70449/280/1/11880841448100threequarter21494664840.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Pack of 1000 Surgical Face Mask
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 2977
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                            6-8 days
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
             </div>
         </div>
         <br>
@@ -729,7 +870,6 @@
                     <p itemprop="name" class="f-s-18 f-c-gray">Can I ship N95 Mask?</p>
                     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                         <p itemprop="text" class="f-s-16 f-c-gray f-w-4">Unfortunately, you cannot make a purchase on N95 masks. The Government of India has prohibited the export of N95 Face Masks.
-                            starting at just Rs.553!
                         </p>
                     </div>
                 </div>
