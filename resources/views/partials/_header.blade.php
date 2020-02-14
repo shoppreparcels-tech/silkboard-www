@@ -35,65 +35,65 @@
             </div>
             <div class="collapse navbar-collapse js-navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="dropdown mega-dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
-                        <ul class="dropdown-menu mega-dropdown-menu-about mega-menu-padding-left menu-content-service">
-                            <li class="col-md-7 col-sm-7" style="padding-left: 0px;padding-right: 0px">
-                                <ul>
-                                    <li class="dropdown-header mega-menu-header-text">
-                                        About ShoppRe
-                                        <div class="div-header-devider"></div>
-                                    </li>
-                                    <p class="header6 p-color-cement " style="text-align: left;">
-                                        As an international shipping solution, we bear each customer and their needs close to heart and treat every package as if it were our own.
-                                        <br><br>
-                                        What we strive for is getting a better deal for our customers in shipping packages
-                                        off to ANYWHERE in the world without worrying about even the most trivial
-                                        of mishaps and most importantly, an undesirable range of shipping costs.
-                                    </p>
+{{--                    <li class="dropdown mega-dropdown">--}}
+{{--                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>--}}
+{{--                        <ul class="dropdown-menu mega-dropdown-menu-about mega-menu-padding-left menu-content-service">--}}
+{{--                            <li class="col-md-7 col-sm-7" style="padding-left: 0px;padding-right: 0px">--}}
+{{--                                <ul>--}}
+{{--                                    <li class="dropdown-header mega-menu-header-text">--}}
+{{--                                        About ShoppRe--}}
+{{--                                        <div class="div-header-devider"></div>--}}
+{{--                                    </li>--}}
+{{--                                    <p class="header6 p-color-cement " style="text-align: left;">--}}
+{{--                                        As an international shipping solution, we bear each customer and their needs close to heart and treat every package as if it were our own.--}}
+{{--                                        <br><br>--}}
+{{--                                        What we strive for is getting a better deal for our customers in shipping packages--}}
+{{--                                        off to ANYWHERE in the world without worrying about even the most trivial--}}
+{{--                                        of mishaps and most importantly, an undesirable range of shipping costs.--}}
+{{--                                    </p>--}}
 
-                                    <ul style="text-decoration: none; list-style: none;">
-                                        <li>
-                                            <a class="footer-a"
-                                               href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw">
-                                                <img class="img-connect"
-                                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-youtube-video.svg"
-                                                     alt="shoppre youtube video">
-                                            </a>
-                                            <a class="footer-a" href="https://www.facebook.com/goshoppre/">
-                                                <img class="img-connect"
-                                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/go-shoppre-faceboook.svg"
-                                                     alt="goshoppre facebook">
-                                            </a>
-                                            <a class="footer-a" href="https://twitter.com/Go_Shoppre">
-                                                <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-twitter.svg"
-                                                     alt="@Go_Shoppre twitter">
-                                            </a>
-                                            <a class="footer-a"
-                                               href="https://www.instagram.com/shoppre_official/?hl=en">
-                                                <img class="img-connect"
-                                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-instagram.svg"
-                                                     alt="shoppre_officia instagram">
-                                            </a>
-                                        </li>
-                                    </ul>
+{{--                                    <ul style="text-decoration: none; list-style: none;">--}}
+{{--                                        <li>--}}
+{{--                                            <a class="footer-a"--}}
+{{--                                               href="https://www.youtube.com/channel/UCCBP1ybWY9spoleKqMgAQaw">--}}
+{{--                                                <img class="img-connect"--}}
+{{--                                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-youtube-video.svg"--}}
+{{--                                                     alt="shoppre youtube video">--}}
+{{--                                            </a>--}}
+{{--                                            <a class="footer-a" href="https://www.facebook.com/goshoppre/">--}}
+{{--                                                <img class="img-connect"--}}
+{{--                                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/go-shoppre-faceboook.svg"--}}
+{{--                                                     alt="goshoppre facebook">--}}
+{{--                                            </a>--}}
+{{--                                            <a class="footer-a" href="https://twitter.com/Go_Shoppre">--}}
+{{--                                                <img class="img-connect" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-twitter.svg"--}}
+{{--                                                     alt="@Go_Shoppre twitter">--}}
+{{--                                            </a>--}}
+{{--                                            <a class="footer-a"--}}
+{{--                                               href="https://www.instagram.com/shoppre_official/?hl=en">--}}
+{{--                                                <img class="img-connect"--}}
+{{--                                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shoppre-instagram.svg"--}}
+{{--                                                     alt="shoppre_officia instagram">--}}
+{{--                                            </a>--}}
+{{--                                        </li>--}}
+{{--                                    </ul>--}}
 
-                                </ul>
-                            </li>
-                            <li class="col-md-5 col-sm-5" style="margin-top: 20px">
-                                <ul class="about-menu-links">
-                                    <li><a class="header6 p-color-cement-dark" href="https://medium.com/@shoppre" target="_blank">What's New</a></li>
-                                    <li><a class="header6 p-color-cement-dark" href="{{route('about')}}">About Our Company</a></li>
+{{--                                </ul>--}}
+{{--                            </li>--}}
+{{--                            <li class="col-md-5 col-sm-5" style="margin-top: 20px">--}}
+{{--                                <ul class="about-menu-links">--}}
+{{--                                    <li><a class="header6 p-color-cement-dark" href="https://medium.com/@shoppre" target="_blank">What's New</a></li>--}}
+{{--                                    <li><a class="header6 p-color-cement-dark" href="{{route('about')}}">About Our Company</a></li>--}}
 {{--                                    <li><a class="header6 p-color-cement-dark" href="{{route('story.index')}}">Our Story</a></li>--}}
-                                    <li><a class="header6 p-color-cement-dark" href="https://www.linkedin.com/company/shoppre.com/" >Our Team</a>
-                                    <li><a class="header6 p-color-cement-dark" href="https://nikkithashanker.com/?ref=s.com" target="_blank">Nikkitha Shanker</a></li>
+{{--                                    <li><a class="header6 p-color-cement-dark" href="https://www.linkedin.com/company/shoppre.com/" >Our Team</a>--}}
+{{--                                    <li><a class="header6 p-color-cement-dark" href="https://nikkithashanker.com/?ref=s.com" target="_blank">Nikkitha Shanker</a></li>--}}
 {{--                                    <li><a class="header6 p-color-cement-dark" href="https://ship.shoppre.com/refer-and-earn-with-us/" target="_blank">Refer & Earn</a></li>--}}
-                                    <li><a class="header6 p-color-cement-dark" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>
-                                    <li><a class="header6 p-color-cement-dark" href="{{route('award.index')}}">Awards</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
+{{--                                    <li><a class="header6 p-color-cement-dark" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>--}}
+{{--                                    <li><a class="header6 p-color-cement-dark" href="{{route('award.index')}}">Awards</a></li>--}}
+{{--                                </ul>--}}
+{{--                            </li>--}}
+{{--                        </ul>--}}
+{{--                    </li>--}}
                     <li class="dropdown mega-dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="btn-home-page-service-menu">Services <span class="caret"></span></a>
                         <ul class="dropdown-menu mega-dropdown-menu mega-menu-padding-left menu-content-service">
@@ -200,9 +200,10 @@
                         </ul>
                     </li>
                     <li><a href="{{route('offers-new.index')}}" class="shoppre-offers">Offers </a></li>
-                    <li><a href="{{route('pricing')}}">Shipping Rates <sup class="p-color-red" style="font-size: 8px" id="offer">New</sup></a></li>
-                    <li><a href="{{route('contact')}}" class="shoppre-support">Support</a></li>
-                    <li><a href="/seller-partner" class="shoppre-partner">Seller Partner</a></li>
+                    <li><a href="{{route('pricing')}}">Shipping Rates</a></li>
+                    <li><a href="{{route('Shipchinamask')}}">Face Mask <sup class="p-color-red" style="font-size: 8px" id="offer">Buy</sup></a></li>
+{{--                    <li><a href="{{route('contact')}}" class="shoppre-support">Support</a></li>--}}
+                    <li><a href="https://www.shopprecouriers.com/seller-courier-partner" target="_blank" class="shoppre-partner">Seller Partner</a></li>
                     @if (Request::route()->getName() !== 'home')
                     <li class="search-nav-prev" style="padding-top: inherit; width: 180px;">
                         <form class="calc-form" id="searchBarNavInner">

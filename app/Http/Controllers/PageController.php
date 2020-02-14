@@ -785,6 +785,10 @@ class PageController extends Controller
     {
         return view('page.landing-pages.shopShipjp');
     }
+    public function shipChinamask()
+    {
+        return view('page.landing-pages.shipChinamask');
+    }
     public function countryJapan()
     {
         return view('page.landing-pages.country-japan');

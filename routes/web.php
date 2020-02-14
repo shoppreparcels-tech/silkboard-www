@@ -829,6 +829,8 @@ Route::post('/apiVideoGPepper', 'PageController@apiVideoGPepper')->name('apiVide
 
 Route::get('/ja-jp', 'PageController@shopShipjp')->name('shopShipjp');
 
+Route::get('/外科口罩能帮助您预防冠状病毒吗', 'PageController@Shipchinamask')->name('Shipchinamask');
+
 Route::post('/api-pricing-calculator', 'PageController@apiPricingCalculator')->name('apiPricingCalculator');
 Route::post('/api-pricing-usa', 'PageController@apiPricingUsa')->name('apiPricingUsa');
 Route::post('/api-pricing-uae', 'PageController@apiPricingUae')->name('apiPricingUae');
