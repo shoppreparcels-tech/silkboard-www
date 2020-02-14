@@ -81,11 +81,11 @@
             </div>
             <center>
                     <a href="https://www.flipkart.com/valentines-day-gifts-store" target="_blank">
-                        <img class="img-desktop-view" src="https://rukminim1.flixcart.com/flap/3600/3600/image/5c67bd95c36816f9.jpg?q=80" width="1100px"></a>
+                        <img class="img-desktop-view" src="https://rukminim1.flixcart.com/flap/1800/1800/image/b62ecf75d1e2fefa.jpg?q=80" width="1100px"></a>
                 </center>
                 <center>
                     <a href="https://www.flipkart.com/valentines-day-2020-store" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer" src="https://rukminim1.flixcart.com/flap/640/284/image/0588d513b418c388.jpg" width="250px" ></a>
+                        <img class="img-mobile-view img-shopperstop-offer" src="https://rukminim1.flixcart.com/flap/360/140/image/c9bf69aec16a47a2.jpg" width="250px" ></a>
                 </center>
 {{--            <div class="row text-center">--}}
 {{--                <div class="col-sm-4">--}}

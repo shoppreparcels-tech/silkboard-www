@@ -1,14 +1,19 @@
 @extends('layout')
 
 @section('title', 'How to buy Best Surgical Face Mask in India | International Shipping ')
-@section('description', '')
-@section('keywords', 'surgical mask, disposable face mask, gloves, 3 ply, 2 ply, respirator mask, coronavirus, face mask, diagnosis, china virus, wuhan city, sars ')
+@section('description', 'Surgical Mask Shopping Online from India for Low Prices. Ship to your country with ShoppRe Cheap International Shipping Rates. Sign up for Free.')
+@section('keywords', 'surgical mask, disposable face mask, gloves, 3 ply, 2 ply, n95, respirator mask, coronavirus, face mask, diagnosis, china virus, wuhan city, sars, washing your hands ')
 
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/face-mask-international-shipping"/>
     <meta name="robots" content="nofollow" />
 
+    <meta property="og:title" content="Online shopping for Face Masks | ShoppRe.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.shoppre.com/face-mask-international-shipping"/>
+    <meta property="og:image" content="https://mcusercontent.com/8f7212d51aa9533c4788ccf05/images/a4ce8394-213d-4003-89c6-165a38f814b6.png"/>
+    <meta property="og:description" content="Shop Face Mask from any Indian Website & Ship Worldwide. Best Rates, Fastest Processing, Free Sign-up!"/>
 
     <style>
 
@@ -784,11 +789,6 @@
                         </a>
                     </div>
                 </div>
-
-
-
-
-
             </div>
         </div>
         <br>
@@ -799,7 +799,7 @@
 
         <div class="container christmas">
             <label class="f-s-24 f-c-d-greay"> Does Surgical Mask help protect you from Coronavirus?</label>
-            <p class="f-s-16 f-c-gray f-w-4 "><b>"Coronavirus: Death Toll Exceeds 1100+!"</b> The news headlines and panic vibes of Coronavirus are still alive everywhere.
+            <p class="f-s-16 f-c-gray f-w-4 "><b>"Coronavirus: Death Toll Exceeds 1500+!"</b> The news headlines and panic vibes of Coronavirus are still alive everywhere.
                 Ever since the deadly outbreak happened, the doctors have been advising various precautionary methods to prevent the spread. <br><br>Since coronavirus is an airborne disease,
                 the most important custom is to maintain respiratory hygiene. Thus, equipping a mask would minimize the risk of direct contact with the virus. Not only does this apply
                 for the people who are uninfected but also for those who are suffering from the disease. <br><br>As surgical face masks would trap the infected individual's expiratory droplets

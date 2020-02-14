@@ -782,20 +782,20 @@
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://assets.ajio.com/medias/sys_master/images/images/hf4/h3b/15394394931230/04022020-M-WHP-Topbanner-40to80off.jpg" />
+                                         src="https://assets.ajio.com/medias/sys_master/images/images/had/h65/15489348141086/14022020-M-FinalClearanceSale-Topbanner-Flat60.jpg" />
 
                                 </div>
                                 <div style="    margin-top: 5px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    UPGRADE YOUR WARDROBE
+                                    FINAL CLEARANCE SALE
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                            40-80% Off
+                                            Flat 60% Off
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;

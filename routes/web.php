@@ -231,6 +231,7 @@ Route::prefix('admin')->group(function(){
 });
 
 
+Route::get('/shipping-rates', 'PageController@shippingRate')->name('shipping.rate');
 Route::get('/shop-from-india-ship-worldwide', 'PageController@ifsIndex')->name('ifs.index');
 
 /* ---------- Get drop-off locations ---------*/

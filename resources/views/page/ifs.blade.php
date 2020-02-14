@@ -121,8 +121,8 @@
     <section>
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="/flipkart-online-shopping" title="flipkart" target="_blank">1. 👉Flipkart VALENTINE'S DAYS</a> |
-                <a href="/amazon-online-shopping" title="flipkart" target="_blank">2. 👉Amazon VALENTINE'S DAYS</a>
+                <a href="/face-mask-international-shipping" title="flipkart" target="_blank">1. 👉FACE MASK SHOPPING</a> |
+                <a href="/amazon-online-shopping" title="flipkart" target="_blank">2. 👉VALENTINE'S DAYS</a>
             </marquee>
         </div>
         <div class="container" id="how-it-works">

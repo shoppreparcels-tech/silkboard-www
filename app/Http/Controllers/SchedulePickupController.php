@@ -49,9 +49,9 @@ class SchedulePickupController extends Controller
     {
         $status_code = $this->pickupApi($request);
         if ($status_code === 201) {
-            $message = "You need to confirm your account. We have sent you an activation email Please check your email";
+            $message = "Pickup Request Received. You need to confirm your account. We have sent you an activation email Please check your Email";
         } else {
-            $message = 'success';
+            $message = 'Pickup Request Received. Please login to Continue';
         }
         $url = env('MIGRATION_PREFIX') . "login.".env('DOMAIN')."/signin?client_id=courier&message=".$message;
         return redirect($url);
@@ -191,13 +191,12 @@ class SchedulePickupController extends Controller
 
 //            $customer->locker = $code;
             $commnet = "New Sign up " . $email . "\n contact No: +" . $phone_code.$phone;
-
-            $c = $this->signUpAPI($customer);
-
-            $customer->id = $c['response']->id;
-            $customer->status_code = $c['code'];
         }
 
+        $c = $this->signUpAPI($customer);
+
+        $customer->id = $c['response']->id;
+        $customer->status_code = $c['code'];
         return $customer;
     }
 

@@ -140,11 +140,13 @@
                     <center>
                     <a href="https://www.ajio.com" target="_blank">
 
-                        <img class="img-desktop-view" src="https://assets.ajio.com/medias/sys_master/images/images/h21/hc8/15394394865694/04022020-D-WHP-Topbanner-40to80off.jpg" width="1100px"></a>
+                        <img class="img-desktop-view"
+                             src="https://assets.ajio.com/medias/sys_master/images/images/h2b/h01/15489345912862/14022020-D-FinalClearanceSale-Topbanner-Flat60.jpg" width="1100px"></a>
                         </center>
                     <center>
                         <a href="https://www.ajio.com/shop/women" target="_blank">
-                            <img class="img-mobile-view img-shopperstop-offer" src="https://assets.ajio.com/medias/sys_master/images/images/hf4/h3b/15394394931230/04022020-M-WHP-Topbanner-40to80off.jpg" width="300px" ></a>
+                            <img class="img-mobile-view img-shopperstop-offer"
+                                 src="https://assets.ajio.com/medias/sys_master/images/images/had/h65/15489348141086/14022020-M-FinalClearanceSale-Topbanner-Flat60.jpg" width="300px" ></a>
 
                     </center>
 

@@ -41,6 +41,7 @@ use App\Api\MailChimp;
 use App\Mail\Myaccount\ReferEarned;
 use App\Mail\Myaccount\ReferralSuccess;
 use Illuminate\Http\Response;
+use function MongoDB\BSON\toJSON;
 
 class PageController extends Controller
 {
@@ -2570,6 +2571,60 @@ class PageController extends Controller
         //    {
         //        return view('page.jabong-landing');
         //    }
+
+    public function shippingRate(Request $request)
+    {
+        $curl = curl_init();
+
+        $response = $this->fetchPricing($request);
+
+        return response()->json(['prices'=> json_decode($response)]);
+    }
+
+    public function fetchPricing($request) {
+        $ascii = base64_decode( $request->data );
+        $ascii = json_decode($ascii);
+
+
+        $query = http_build_query([
+            'all' => 'true',
+            'country' => $ascii->country,
+            'type' => $ascii->type,
+            'weight' => $ascii->weight,
+            'length' => $ascii->length,
+            'width' => $ascii->width,
+            'height' => $ascii->height,
+            'scale' => $ascii->scale,
+            'unit' => $ascii->unit,
+        ]);
+
+        $url = env('MIGRATION_PREFIX') ."logistics.".env('DOMAIN')."/api/pricing?".$query;
+
+        $curl = curl_init();
+
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "GET",
+            CURLOPT_HTTPHEADER => array(
+                "content-type: application/json",
+            ),
+        ));
+
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+        curl_close($curl);
+
+        if ($err) {
+            echo "cURL Error #:" . $err;
+        } else {
+            return $response;
+        }
+    }
 
     public function searchCreate(Request $request)
     {

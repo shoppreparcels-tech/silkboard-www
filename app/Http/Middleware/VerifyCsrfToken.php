@@ -34,5 +34,6 @@ class VerifyCsrfToken extends BaseVerifier
         '/mailtrain/subscribe',
         '/customer/register',
         '/customer-search',
+        '/reffer-submit',
     ];
 }
