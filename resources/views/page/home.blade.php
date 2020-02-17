@@ -716,29 +716,31 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
-                        <a href="/send-valentines-day-gifts-international-shipping" title="Click to Know More" target="_blank">
+                        <a href="/amazon-india-shop-international-shipping" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/bd60951c-bf55-4b9c-8ef5-4ea9bc291879.png" />
+                                         src="https://m.media-amazon.com/images/G/31/img20/Fashion/XCM_Flip_FEB/XCM_01._SY1200_QL85_.jpg" />
                                 </div>
                                 <div style="    color: #000;font-size: 14px;margin-top: 5px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    VALENTINE'S DAY GIFTS
+                                   HAR PAL FASHIONABLE
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                           Start from <i class="fa fa-inr" aria-hidden="true"></i>69
+{{--                                           Start from <i class="fa fa-inr" aria-hidden="true"></i>69--}}
+                                            UPTO 70% Off
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
                                                 color: #181818;font-size: 14px;font-family: Lato;
                                                 text-align: left;">
-                                    <i class="fa fa-inr" aria-hidden="true"></i> 250 Cashback on Shipping
+{{--                                    <i class="fa fa-inr" aria-hidden="true"></i>--}}
+                                    Amazon.in
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}
@@ -751,19 +753,19 @@
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="//assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/2/10/a3438eec-ab8f-4729-8bdb-00ab6b8fec241581325391913-v-day-3MST.png" />
+                                         src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/2/16/4384278d-61b2-409e-9460-5a54da1fa3551581857972804-Nayo_App_Banner.jpg" />
                                 </div>
                                 <div style="    margin-top: 5px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                   ALL's FAIR IN LOVE &SALES!
+                                   STEAL THE SHOW
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                        40-70% Off
+                                        Min 30% Off
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -782,20 +784,20 @@
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://assets.ajio.com/medias/sys_master/images/images/had/h65/15489348141086/14022020-M-FinalClearanceSale-Topbanner-Flat60.jpg" />
+                                         src="https://assets.ajio.com/medias/sys_master/images/images/h66/h80/15535664136222/17022020-M-WHP-TopBanner-4070extra20.jpg" />
 
                                 </div>
                                 <div style="    margin-top: 5px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    FINAL CLEARANCE SALE
+                                    SEASON’s MOST WANTED STYLE
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                            Flat 60% Off
+                                            40-70% Off
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;

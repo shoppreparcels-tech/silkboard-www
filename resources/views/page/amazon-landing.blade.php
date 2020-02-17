@@ -83,15 +83,19 @@
                     <h2 class="header2 p-color-cement-dark font-weight-900 txt-align"></h2>
                 </div>
             </div>
-            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in Fashion End Of Season Sale</h2>
+            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in HAR PAL FASHIONABLE</h2>
             <div class="row text-center">
                 <center>
                 <a href="https://amzn.clnk.in/lZU" target="_blank">
-                    <img class="img-desktop-view" src="https://m.media-amazon.com/images/G/31/img19/Fashion/JANFLIP19/NW-flip_Header_PC._SX3000_QL85_.jpg" width="1100px"></a>
+                    <img class="img-desktop-view"
+                         src="https://m.media-amazon.com/images/G/31/img20/Fashion/XCM_Flip_FEB/XCM-Header-PC_01._SX3000_QL85_.jpg"
+                         width="1100px"></a>
                     </center>
                 <center>
                     <a href="https://amzn.clnk.in/lZU" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer" src="https://m.media-amazon.com/images/G/31/img19/Fashion/JANFLIP19/Header_1._SY1500_QL85_.jpg" width="310px" ></a>
+                        <img class="img-mobile-view img-shopperstop-offer"
+                             src="https://m.media-amazon.com/images/G/31/img20/Fashion/XCM_Flip_FEB/XCM_01._SY1200_QL85_.jpg"
+                             width="310px" ></a>
                 </center>
 {{--                <div class="col-sm-4">--}}
 

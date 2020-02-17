@@ -156,12 +156,17 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <center>
-                    <a href="https://www.flipkart.com/fashion-valentine-store" target="_blank">
-                        <img class="img-desktop-view" src="https://rukminim1.flixcart.com/flap/1800/1800/image/b62ecf75d1e2fefa.jpg?q=80" width="1100px"></a>
+                    <a href="https://www.flipkart.com/offers-list/mensfashion?screen=dynamic&pk=themeViews%3DLS-RD20-Jan-MenFashion%3Ada%2CLS-RD20-Jan-MenFashion%3Add~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&param=778878&otracker=hp_banner_1_6.bannerX3.BANNER_FVA6YAN8K2RM&fm=neo%2Fmerchandising&iid=M_2895c065-5e73-49aa-a718-c38ba037e71b_6.FVA6YAN8K2RM&ppt=hp&ppn=hp&ssid=us1ond00a80000001581918347843" target="_blank">
+                        <img class="img-desktop-view"
+                             src="https://rukminim1.flixcart.com/flap/480/480/image/af2926cf02a3c3c9.jpg?q=50"
+{{--                             width="1100px"--}}
+                             style="height: 300px;width: 700px;"></a>
                 </center>
                 <center>
-                    <a href="https://www.flipkart.com/fashion-valentine-store" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer" src="https://rukminim1.flixcart.com/flap/360/140/image/c9bf69aec16a47a2.jpg" width="300px" ></a>
+                    <a href="https://www.flipkart.com/offers-list/mensfashion?screen=dynamic&pk=themeViews%3DLS-RD20-Jan-MenFashion%3Ada%2CLS-RD20-Jan-MenFashion%3Add~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&param=778878&otracker=hp_banner_1_6.bannerX3.BANNER_FVA6YAN8K2RM&fm=neo%2Fmerchandising&iid=M_2895c065-5e73-49aa-a718-c38ba037e71b_6.FVA6YAN8K2RM&ppt=hp&ppn=hp&ssid=us1ond00a80000001581918347843" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer"
+                             src="https://rukminim1.flixcart.com/flap/480/480/image/af2926cf02a3c3c9.jpg?q=50"
+                             width="300px" ></a>
                 </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">👉<span class="f-s-25 f-c-red f-w-9"><a--}}
 {{--                                href="https://www.flipkart.com/fashion-trendy-ikfc4-store" target="_blank">STYLE YOUR WINTER(40-80% Off)</a></span> /--}}

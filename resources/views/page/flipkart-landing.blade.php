@@ -74,18 +74,24 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - JAN 2020 SALE
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - FEB 2020 SALE
 {{--                        <br> [ 👉 <a href="https://www.flipkart.com/fashion-trendy-ikfc4-store" target="_blank">STYLE YOUR WINTER</a> From ₹499]</h2>--}}
 
                 </div>
             </div>
             <center>
-                    <a href="https://www.flipkart.com/valentines-day-gifts-store" target="_blank">
-                        <img class="img-desktop-view" src="https://rukminim1.flixcart.com/flap/1800/1800/image/b62ecf75d1e2fefa.jpg?q=80" width="1100px"></a>
+                    <a href="https://www.flipkart.com/offers-list/mensfashion?screen=dynamic&pk=themeViews%3DLS-RD20-Jan-MenFashion%3Ada%2CLS-RD20-Jan-MenFashion%3Add~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&param=778878&otracker=hp_banner_1_6.bannerX3.BANNER_FVA6YAN8K2RM&fm=neo%2Fmerchandising&iid=M_2895c065-5e73-49aa-a718-c38ba037e71b_6.FVA6YAN8K2RM&ppt=hp&ppn=hp&ssid=us1ond00a80000001581918347843"
+                       target="_blank">
+                        <img class="img-desktop-view"
+                             src="https://rukminim1.flixcart.com/flap/480/480/image/af2926cf02a3c3c9.jpg?q=50"
+{{--                             width="1100px"--}}
+                            style="height: 300px;width: 700px;"></a>
                 </center>
                 <center>
-                    <a href="https://www.flipkart.com/valentines-day-2020-store" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer" src="https://rukminim1.flixcart.com/flap/360/140/image/c9bf69aec16a47a2.jpg" width="250px" ></a>
+                    <a href="https://www.flipkart.com/offers-list/mensfashion?screen=dynamic&pk=themeViews%3DLS-RD20-Jan-MenFashion%3Ada%2CLS-RD20-Jan-MenFashion%3Add~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&param=778878&otracker=hp_banner_1_6.bannerX3.BANNER_FVA6YAN8K2RM&fm=neo%2Fmerchandising&iid=M_2895c065-5e73-49aa-a718-c38ba037e71b_6.FVA6YAN8K2RM&ppt=hp&ppn=hp&ssid=us1ond00a80000001581918347843" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer"
+                             src="https://rukminim1.flixcart.com/flap/480/480/image/af2926cf02a3c3c9.jpg?q=50"
+                             width="250px" ></a>
                 </center>
 {{--            <div class="row text-center">--}}
 {{--                <div class="col-sm-4">--}}

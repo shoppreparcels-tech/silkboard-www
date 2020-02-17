@@ -122,7 +122,8 @@
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
                 <a href="/face-mask-international-shipping" title="flipkart" target="_blank">1. 👉FACE MASK SHOPPING</a> |
-                <a href="/amazon-online-shopping" title="flipkart" target="_blank">2. 👉VALENTINE'S DAYS</a>
+                <a href="/amazon-online-shopping" title="Amazon" target="_blank">2. 👉HAR PAL FASHIONABLE</a>
+                <a href="/ajio-online-shopping" title="Ajio" target="_blank">2. 👉SEASON’s MOST WANTED STYLE</a>
             </marquee>
         </div>
         <div class="container" id="how-it-works">

@@ -138,15 +138,15 @@
 
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
                     <center>
-                    <a href="https://www.ajio.com" target="_blank">
+                    <a href="https://www.ajio.com/s/women20-seasons-most-wanted-style-3877-94512" target="_blank">
 
                         <img class="img-desktop-view"
-                             src="https://assets.ajio.com/medias/sys_master/images/images/h2b/h01/15489345912862/14022020-D-FinalClearanceSale-Topbanner-Flat60.jpg" width="1100px"></a>
+                             src="https://assets.ajio.com/medias/sys_master/images/images/h0a/h47/15534958411806/17022020-D-WHP-TopBanner-4070extra20.jpg" width="1100px"></a>
                         </center>
                     <center>
-                        <a href="https://www.ajio.com/shop/women" target="_blank">
+                        <a href="https://www.ajio.com/s/women20-seasons-most-wanted-style-3877-94512" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.ajio.com/medias/sys_master/images/images/had/h65/15489348141086/14022020-M-FinalClearanceSale-Topbanner-Flat60.jpg" width="300px" ></a>
+                                 src="https://assets.ajio.com/medias/sys_master/images/images/h66/h80/15535664136222/17022020-M-WHP-TopBanner-4070extra20.jpg" width="300px" ></a>
 
                     </center>
 

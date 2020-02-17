@@ -398,17 +398,17 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <center>
-                <a href="https://www.myntra.com/shop/val20-home" target="_blank">
+                <a href="https://www.myntra.com/nayo?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank">
                     <img class="img-desktop-view"
-                         src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/2/11/19703087-cd64-441f-8d96-9e5bcb3b5d531581392996665-V-day-GIF.gif"
+                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/2/16/95b019fb-287a-4301-b727-5a49790571961581857972833-Nayo_Desk_Banner.jpg"
                          width="800px"
 {{--                         width="1100px"--}}
                     ></a>
                     </center>
                 <center>
-                    <a href="https://www.myntra.com/shop/val20-home" target="_blank">
+                    <a href="https://www.myntra.com/nayo?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/2/11/19703087-cd64-441f-8d96-9e5bcb3b5d531581392996665-V-day-GIF.gif"
+                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/2/16/4384278d-61b2-409e-9460-5a54da1fa3551581857972804-Nayo_App_Banner.jpg"
                              width="350px" ></a>
                 </center>
 {{--                <div class="">--}}
