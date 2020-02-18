@@ -361,11 +361,11 @@
 
     <div class="row" style="margin-top: 3%">
         <img class="img-desktop-view"
-             src="https://mcusercontent.com/8f7212d51aa9533c4788ccf05/images/c5b63a21-e9ef-47a4-b301-db05a72bb8f8.png"
+             src="https://mcusercontent.com/8f7212d51aa9533c4788ccf05/images/b7b06c24-a311-4c3b-a102-6f22facd1bcc.jpg"
              width="100%">
         <center>
             <img class="img-mobile-view img-shopperstop-offer"
-                 src="https://mcusercontent.com/8f7212d51aa9533c4788ccf05/images/af5053de-3c0c-48c0-b55f-3254604fa95c.png"
+                 src="https://mcusercontent.com/8f7212d51aa9533c4788ccf05/images/548fc28f-0531-4024-bdc3-a4189a6a2553.jpg"
                  width="90%" style="margin-top:6%;">
         </center>
         {{--                <div class="">--}}

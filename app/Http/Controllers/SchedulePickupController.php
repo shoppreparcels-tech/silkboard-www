@@ -76,11 +76,16 @@ class SchedulePickupController extends Controller
         $curl = curl_init();
         $items = array();
         $i = 0;
+        $items_data = '';
+        $newline = '
+        ';
         foreach ($request->name as $key => $name) {
             $items[$i]['name'] = $name;
             $items[$i]['quantity'] = (int)$request->quantity[$i];
             $items[$i]['price'] = (float)$request->amount[$i];
             $i++;
+
+            $items_data = $items_data.' item '.$i.'= Name-'.$name. ', Quantity-'.$request->quantity[$i-1].', Price-'. $request->amount[$i-1].$newline;
         }
         $data = $request;
         $data_string = [
@@ -113,6 +118,9 @@ class SchedulePickupController extends Controller
             'comment' => $data->comment,
             'items'=> $items,
         ];
+
+        $request->items = $items_data;
+
         $this->sendEmailPickup($request);
 
 

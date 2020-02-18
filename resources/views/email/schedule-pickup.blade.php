@@ -75,7 +75,7 @@
                                                 <th>Mobile Number</th>
                                                 <th>Package Dimentions</th>
                                                 <th>Package Items</th>
-                                                <th>Special Items</th>
+                                                {{--<th>Special Items</th>--}}
                                                 <th>Package Weight</th>
                                             </tr>
                                             </thead>
@@ -85,16 +85,18 @@
                                                     {{$data->pc_fname}} {{$data->pc_lname}}<br>
                                                     {{$data->pc_street}},{{$data->pc_city}},<br>
                                                     {{$data->pc_state}}-{{$data->pc_pincode}}
+                                                    {{$data->pc_contact_no}}
                                                 </td>
                                                 <td>
                                                     {{$data->dc_fname}} {{$data->dc_lname}}<br>
                                                     {{$data->dc_street}},{{$data->dc_city}},<br>
                                                     {{$data->dc_state}}-{{$data->dc_pincode}}
+                                                    {{$data->dc_phone_code}}-{{$data->dc_contact_no}}
                                                 </td>
-                                                <td>{{$data->mobile}}</td>
-                                                <td>{{$data->size_of_package}}</td>
-                                                <td><p>{{$data->package_items}}</p></td>
-                                                <td><p>{{$data->special_items}}</p></td>
+                                                <td>{{$data->phone_code}}-{{$data->mobile}}</td>
+                                                <td>L {{$data->length}} - W {{$data->width}} - H {{$data->height}}</td>
+                                                <td><p>{{json_encode($data->items)}}</p></td>
+                                                {{--<td><p>{{$data->special_items}}</p></td>--}}
                                                 <td>{{$data->package_weight}} kg.</td>
                                             </tr>
                                             </tbody>
