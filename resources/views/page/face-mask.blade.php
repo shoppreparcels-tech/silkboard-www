@@ -789,6 +789,142 @@
                         </a>
                     </div>
                 </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/dp/B016PV1UWY"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/71EjafoAeJL._SL1500_.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Origami Soft Toilet Tissue
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 549
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                            2-3 days
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/Amazon-Brand-Solimo-Bathroom-Tissue/dp/B07GVZFN92"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/71m-Gpu0spL._SL1500_.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Solimo 3 Ply Toilet Paper
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 281
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                            2-3 days
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/Amazon-Brand-Presto-Toilet-Tissue/dp/B0797GJWX3"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/91BX3OIhmKL._SL1500_.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Presto! 3 Ply Toilet Paper
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 257
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                            2-3 days
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.flipkart.com/diem-ply-soft-toilet-tissue-paper-rolls-100-sheets-pack-6-roll/p/itm2a31f37901794"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img border-radius-10 vday-img"
+                                     src="https://rukminim1.flixcart.com/image/416/416/k2jbyq80/toilet-paper-roll/g/g/y/ply-soft-toilet-tissue-paper-rolls-100-sheets-pack-of-6-6-100-original-imafhvbcmmpj8zj9.jpeg?q=70" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Diem Ply Soft Tissue Paper Rolls
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 220
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Earliest Delivery:
+                                    <span style="color: #347b4c;">
+                                            3-4 days
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         <br>
