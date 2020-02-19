@@ -141,13 +141,13 @@
                     <div class="col-md-4 col-sm-4 no-pad">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                        class="startsValidValue"> 01st Sep 2019</span></p>
+                                        class="startsValidValue"> 20th JAN 2020</span></p>
                         </center>
                     </div>
                     <div class="col-md-4 col-sm-4 no-pad">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                        class="startsValidValue"> 31st Oct 2019</span></p>
+                                        class="startsValidValue"> 31st MARCH 2020</span></p>
                         </center>
                     </div>
                     <div class="col-md-4 col-sm-4 no-pad">

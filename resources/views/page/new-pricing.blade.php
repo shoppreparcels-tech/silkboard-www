@@ -287,7 +287,7 @@
                         <br>
                         <br>
                         <center>
-                            <a href="{{route('republicDay')}}" target="_blank">
+                            <a href="{{route('first-shipment')}}" target="_blank">
                                 <img src="https://www.shoppre.com/img/images/200inr-shipping-offer-india-shoppre.png"
 {{--                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/200inr-shipping-offer-india-shoppre.png"--}}
                                      alt="shipping offer from india" class="img-responsive">
