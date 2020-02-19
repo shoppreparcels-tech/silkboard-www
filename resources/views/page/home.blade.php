@@ -160,8 +160,8 @@
         }
 
         .img-sale{
-            width: 216px;
-            height: 130px;
+            width: 200px;
+            height: 150px;
         }
 
         .grecaptcha-badge:hover {
@@ -691,7 +691,7 @@
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
                                          src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/a99ba55a-3755-4664-b422-b1c425acf8d2.png" />
                                 </div>
-                                <div style="    margin-top: 5px;color: #000;font-size: 14px;
+                                <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
                                     FACE MASK LOW PRICES
@@ -722,7 +722,7 @@
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
                                          src="https://m.media-amazon.com/images/G/31/img20/Fashion/XCM_Flip_FEB/XCM_01._SY1200_QL85_.jpg" />
                                 </div>
-                                <div style="    color: #000;font-size: 14px;margin-top: 5px;
+                                <div style="    color: #000;font-size: 14px;margin-top: 10px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
                                    HAR PAL FASHIONABLE
@@ -755,7 +755,7 @@
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
                                          src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/2/16/4384278d-61b2-409e-9460-5a54da1fa3551581857972804-Nayo_App_Banner.jpg" />
                                 </div>
-                                <div style="    margin-top: 5px;color: #000;font-size: 14px;
+                                <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
                                    STEAL THE SHOW
@@ -787,7 +787,7 @@
                                          src="https://assets.ajio.com/medias/sys_master/images/images/h66/h80/15535664136222/17022020-M-WHP-TopBanner-4070extra20.jpg" />
 
                                 </div>
-                                <div style="    margin-top: 5px;color: #000;font-size: 14px;
+                                <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
                                     SEASON’s MOST WANTED STYLE

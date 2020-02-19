@@ -105,6 +105,16 @@
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
 
+
+<div id="fb-root">
+
+    </div>
+        <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=651881328327888&autoLogAppEvents=1">
+
+    </script>
+
+
 @include('partials._header')
 <div class="container">
     <!-- Modal -->
