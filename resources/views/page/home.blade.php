@@ -1639,13 +1639,13 @@
 @endsection
 
 @section('js_script')
-    @include('../partials/mixpanel')
+{{--    @include('../partials/mixpanel')--}}
     <script>
-        mixpanel.track_links("#btn-pickup-schedule", "Click pickup link Home Page", {
-            "referrer": document.referrer
-        });
-
-        mixpanel.track("home_page_visitors");
+        // mixpanel.track_links("#btn-pickup-schedule", "Click pickup link Home Page", {
+        //     "referrer": document.referrer
+        // });
+        //
+        // mixpanel.track("home_page_visitors");
 
         $(document).ready(function () {
             let html = '';
@@ -1704,21 +1704,21 @@
             });
         });
 
-        $("#btn-home-page-service-menu").click(function (e) {
-            debugger;
-            e.preventDefault();
-            mixpanel.track_links("#btn-home-page-service-menu", "Click Home Page Service menu", {
-                "referrer": document.referrer
-            })
-        });
-
-        $("#btn-service-schedule-pickup").click(function (e) {
-            debugger;
-            e.preventDefault();
-            mixpanel.track_links("#btn-service-schedule-pickup", "Click Home Page Service menu schedule pickup", {
-                "referrer": document.referrer
-            })
-        });
+        // $("#btn-home-page-service-menu").click(function (e) {
+        //     debugger;
+        //     e.preventDefault();
+        //     mixpanel.track_links("#btn-home-page-service-menu", "Click Home Page Service menu", {
+        //         "referrer": document.referrer
+        //     })
+        // });
+        //
+        // $("#btn-service-schedule-pickup").click(function (e) {
+        //     debugger;
+        //     e.preventDefault();
+        //     mixpanel.track_links("#btn-service-schedule-pickup", "Click Home Page Service menu schedule pickup", {
+        //         "referrer": document.referrer
+        //     })
+        // });
 
         if ($('#back-to-top').length) {
             var scrollTrigger = 100, // px
