@@ -25,6 +25,10 @@
             margin: 0 auto;
         }
 
+        .img-shopperstop-offer {
+            display: none;
+        }
+
         .underline-color  {
             text-decoration: underline red;
         }
@@ -55,6 +59,14 @@
         @media only screen and (max-width:600px) {
             .img-product {
                 width: 120px !important;
+            }
+
+            .img-mobile-view {
+                display: block !important;
+            }
+
+            .img-desktop-view {
+                display: none !important;
             }
 
             .header-section {
@@ -100,7 +112,9 @@
                     <p class="f-s-20 f-c-l-gray ">Shop FirstCry With Your ShoppRe Address for International Shipping from India.<br></p>
                     <br>
                 </center>
-                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
+{{--                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611">--}}
+                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #e9c46a">
+                    <i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
                         Get ₹200 Discount on Shipping FirstCry Products Internationally. T&C*</i></p>
                 <br>
                 <br>
@@ -141,12 +155,30 @@
                 </div>
 
             </div>
+            <div class="row">
+                <center>
+                    <a href="https://www.firstcry.com/topoffers?moid=6938&c=SPRING40&ref2=SpringLaunch40_Off_combo0_d_20Feb20_SPRING40" target="_blank">
+                        <img class="img-desktop-view"
+                             src="https://cdn.fcglcdn.com/brainbees/banners/hp_2020217171720.webp"
+                             {{--                         width="800px"--}}
+                             width="1100px"
+                        ></a>
+                </center>
+                <center>
+                    <a href="https://www.firstcry.com/topoffers?moid=6938&c=SPRING40&ref2=SpringLaunch40_Off_combo0_d_20Feb20_SPRING40" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer"
+                             src="https://cdn.fcglcdn.com/brainbees/banners/mobile/mobile_default_the_99-_store_2020217171728.webp"
+                             width="350px" ></a>
+                </center>
+            </div>
             <div class="row text-center">
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <a href="https://www.firstcry.com/sweat-shirts-and-jackets/6/267?scat=267@~2057~2059~2086~10888@@@@@@@@@1@0@20@@@@@@@@@@&sort=bestseller&mrp=0-599&ref2=FH_Fashion_Desktop_units_jackets_28_11_19" target="_blank">
-                            <img class="img-product m-t-img" src="https://cdn.fcglcdn.com/brainbees/images/cattemplate/jackets_21_11_19_02.jpg">
+                        <a href="https://www.firstcry.com/babyhug/babyhug-half-sleeves-tee-and-shorts-car-print-peach-blue/3179571/product-detail"
+                           target="_blank">
+                            <img class="img-product m-t-img"
+                                 src="https://cdn.fcglcdn.com/brainbees/images/products/438X531/3179571a.jpg">
 {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
 {{--                            Soan Papdi <br>(200 grams)--}}
 {{--                        </div>--}}
@@ -159,53 +191,56 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.firstcry.com/sweat-shirts-and-jackets/6/267?scat=267@~2055@@@@@@@@@1@0@20@@@@@@@@@@&sort=Bestseller&mrp=0-499&ref2=FH_Fashion_Desktop_units_sweatshirts_28_11_19" target="_blank">
-                            <img class="img-product m-t-img" src="https://cdn.fcglcdn.com/brainbees/images/cattemplate/sweatshirts_21_11_19_01.jpg">
+                        <a href="https://www.firstcry.com/mini-taurus/mini-taurus-half-sleeves-t-shirt-with-shorts-elephant-print-red/3351370/product-detail" target="_blank">
+                            <img class="img-product m-t-img"
+                                 src="https://cdn.fcglcdn.com/brainbees/images/products/438x531/3351370a.jpg">
 
                             </a>
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.firstcry.com/topoffers?moid=6484&sort=bestseller&discount=40-70&ref2=FH_Fashion_Desktop_units_international_fashion_28_11_19" target="_blank">
-                            <img class="img-product m-t-img" src="https://cdn.fcglcdn.com/brainbees/images/cattemplate/internaional_fashion_21_11_19_01.jpg">
+                        <a href="https://www.firstcry.com/dear-to-dad/dear-to-dad-half-sleeve-handsome-text-printed-tee-and-shorts-red/2761281/product-detail" target="_blank">
+                            <img class="img-product m-t-img"
+                                 src="https://cdn.fcglcdn.com/brainbees/images/products/438x531/2761281a.jpg">
                         </a>
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.firstcry.com/searchresult?sale=6&brandid=0&searchstring=brand@~22~163~238@@@1@0@20@@@@@@@@@@@@@@@@&sort=bestseller&ref2=FH_Fashion_Desktop_units_Winter_essentials_28_11_19" target="_blank">
-                            <img class="img-product m-t-img " src="https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_essentials_21_11_19_03.jpg">
-{
+                        <a href="https://www.firstcry.com/toffyhouse/toffyhouse-half-sleeves-tee-with-shorts-and-suspender-blue-red/3334116/product-detail" target="_blank">
+                            <img class="img-product m-t-img "
+                                 src="https://cdn.fcglcdn.com/brainbees/images/products/438x531/3334116a.jpg">
                             </a>
                     </div>
                 </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.firstcry.com/topoffers?moid=6658&sort=newarrivals&c=WINFRO&ref2=FH_Fashion_Desktop_units_winter_frocks_28_11_19" target="_blank">
-                            <img class="img-product m-t-img " src="https://cdn.fcglcdn.com/brainbees/images/cattemplate/405_538_winter_frocks_261119_01.jpg">
+                        <a href="https://www.firstcry.com/jb-club/jb-club-tiger-print-half-sleeves-hoodie-with-shorts-orange/3294307/product-detail" target="_blank">
+                            <img class="img-product m-t-img "
+                                 src="https://cdn.fcglcdn.com/brainbees/images/products/438x531/3294307a.jpg">
                         </a>
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.firstcry.com/topoffers?moid=6657&sort=bestseller&c=BODYSUIT&ref2=FH_Fashion_Desktop_units_Bodysuits_28_11_19" target="_blank">
-                            <img class="img-product m-t-img " src="https://cdn.fcglcdn.com/brainbees/images/cattemplate/bodysuits.jpg">
+                        <a href="https://www.firstcry.com/zero/tango-half-sleeves-tee-and-shorts-space-print-red/3206249/product-detail" target="_blank">
+                            <img class="img-product m-t-img " src="https://cdn.fcglcdn.com/brainbees/images/products/438x531/3206249a.jpg">
                         </a>
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.firstcry.com/shorts-skirts-and-jeans/6/221?scat=221@@@@@@@@@@1@0@20@@@@@@@@@@&sort=bestseller&mrp=0-299&ref2=fh_bottoms" target="_blank">
-                            <img class="img-product m-t-img " src="https://cdn.firstcry.com/brainbees/images/n/desktop_unit_bottoms_04.jpg">
+                        <a href="https://www.firstcry.com/lazy-bones/lazy-bones-half-sleeves-tee-and-lounge-pant-santa-claus-print-navy-blue-grey/3356420/product-detail" target="_blank">
+                            <img class="img-product m-t-img " src="https://cdn.fcglcdn.com/brainbees/images/products/438x531/3356420a.jpg">
                         </a>
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <a href="https://www.firstcry.com/nightwear/6/165?scat=165&mrp=0-399&sort=bestseller&ref2=fh_nigtwear" target="_blank">
-                            <img class="img-product m-t-img " src="https://cdn.firstcry.com/brainbees/images/n/desktop_unit_nightwear_05.jpg">
+                        <a href="https://www.firstcry.com/mini-taurus/mini-taurus-half-sleeves-tee-and-checks-shorts-gentleman-print-white-navy-blue/3351375/product-detail" target="_blank">
+                            <img class="img-product m-t-img " src="https://cdn.fcglcdn.com/brainbees/images/products/438x531/3351375a.jpg">
                         </a>
                     </div>
                 </div>

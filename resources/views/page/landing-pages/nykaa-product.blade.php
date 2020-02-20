@@ -117,7 +117,9 @@
                     <p class="f-s-20 f-c-l-gray ">Shop Nykaa With Your ShoppRe Address for International Delivery from India.<br></p>
                     <br>
                 </center>
-                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="https://www.shoppre.com/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
+{{--                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611">--}}
+                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #e9c46a">
+                    <i><a href="https://www.shoppre.com/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
                         Get ₹200 Discount on Shipping Nykaa Cosmetic & Beauty Products Internationally. T&C*</i></p>
                 <br>
                 <br>
@@ -154,13 +156,13 @@
             <div class="row">
                 <div class="">
                     <center>
-                    <a href="https://www.nykaa.com/makeup-focus" target="_blank">
+                    <a href="https://www.nykaa.com/skin-care-products-sale-online" target="_blank">
                         <img class="img-desktop-view"
-                             src="https://images-static.nykaa.com/uploads/240c7bd1-3a2f-4945-8d4d-e3e592f091cb.jpg"
+                             src="https://images-static.nykaa.com/uploads/1aef399c-a848-4f78-8de7-9a8f2808d4c0.jpg"
                              width="1100px"></a>
-                        <a href="https://www.nykaa.com/makeup-focus" target="_blank">
+                        <a href="https://www.nykaa.com/skin-care-products-sale-online" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/c00ea99e-afb0-43e1-aef5-fd5405ed77d5.jpg"
+                                 src="https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/5f01b177-08a8-4878-98d3-1472b8aea5f7.jpg"
                                  width="370px" ></a>
                     </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}

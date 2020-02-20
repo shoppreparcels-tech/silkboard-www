@@ -151,6 +151,16 @@
 
     </script>
 
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
+
+    <script>
+        window.addEventListener("load", function(event) {
+            lazyload();
+        });
+    </script>
+
+{{--    lazyload" src="/img/images/load.gif"  data-src="/img/svg/shipments.svg"--}}
+
     <style>
         .grecaptcha-badge {
             width: 70px !important;
@@ -580,8 +590,10 @@
                             {{--</div>--}}
                             <div class="col-md-12 col-xs-6 no-pad ">
                                 <center>
-                                    <img  src="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-new.png"  width="250" height="293"
-                                         class="img-responsive" alt="priyamani shoppre">
+                                    <img  data-src="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-new.png"
+                                          src="/img/images/load.gif"
+                                          width="250" height="293"
+                                         class="img-responsive lazyload" alt="priyamani shoppre">
                                 </center>
                             </div>
                         </form>
@@ -688,8 +700,9 @@
                         <a href="/face-mask-international-shipping" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
-                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/a99ba55a-3755-4664-b422-b1c425acf8d2.png" />
+                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
+                                         src="/img/images/load.gif"
+                                         data-src="https://gallery.mailchimp.com/8f7212d51aa9533c4788ccf05/images/a99ba55a-3755-4664-b422-b1c425acf8d2.png" />
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
@@ -719,8 +732,9 @@
                         <a href="/amazon-india-shop-international-shipping" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
-                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://m.media-amazon.com/images/G/31/img20/Fashion/XCM_Flip_FEB/XCM_01._SY1200_QL85_.jpg" />
+                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
+                                         src="/img/images/load.gif"
+                                         data-src="https://m.media-amazon.com/images/G/31/img20/Fashion/XCM_Flip_FEB/XCM_01._SY1200_QL85_.jpg" />
                                 </div>
                                 <div style="    color: #000;font-size: 14px;margin-top: 10px;
                                                 padding-top: 0px !important;text-align: left;
@@ -752,21 +766,29 @@
                         <a href="/myntra-online-shopping-shipping-from-india" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
-                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/2/16/4384278d-61b2-409e-9460-5a54da1fa3551581857972804-Nayo_App_Banner.jpg" />
+                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
+                                         src="/img/images/load.gif"
+                                         data-src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/2/19/2fc2dbc7-db8b-4c87-a37e-00dfb457280e1582132959617-3rd-MST--3-.jpg" />
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                   STEAL THE SHOW
+                                   Myntra's Birthday Bash
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                        Min 30% Off
+                                        50-80% Off
                                         </span>
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #000000;;
+                                                     display: inline-block;">
+{{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
+                                        (21st-23rd FEB)
+                                        </span>
+
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
                                                 color: #181818;font-size: 14px;font-family: Lato;
@@ -783,8 +805,9 @@
                         <a href="/ajio-online-shopping" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
-                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img"
-                                         src="https://assets.ajio.com/medias/sys_master/images/images/h66/h80/15535664136222/17022020-M-WHP-TopBanner-4070extra20.jpg" />
+                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
+                                         src="/img/images/load.gif"
+                                         data-src="https://assets.ajio.com/medias/sys_master/images/images/h66/h80/15535664136222/17022020-M-WHP-TopBanner-4070extra20.jpg" />
 
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
@@ -844,8 +867,9 @@
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 ">
                         <center>
                             <a href="{{route('stores1')}}">
-                                <img class="img-benifits img-responsive"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-from-indian-online-stores.svg"
+                                <img class="img-benifits img-responsive lazyload"
+                                     src="/img/images/load.gif"
+                                     data-src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-from-indian-online-stores.svg"
                                      alt="shop from indian online stores shoppre">
                                 <p class="online-text">&nbsp;1000+</p>
                                 <p class="online-text-words">Shop From Indian <br>Online Stores </p>
@@ -855,8 +879,9 @@
                     <div class="col-md-3 col-md-3 col-lg-3 col-sm-6 col-xs-6">
                         <center>
                             <a href="{{route('countryList')}}">
-                                <img class="img-benifits img-responsive"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ship-worldwide-from-india.svg"
+                                <img class="img-benifits img-responsive lazyload"
+                                     src="/img/images/load.gif"
+                                     data-src="{{env('AWS_CLOUD_FRONT')}}/img/svg/ship-worldwide-from-india.svg"
                                      alt="ship to 220 countries worldwide">
                                 <p class="online-text">&nbsp;220+</p>
                                 <p class="online-text-words">Ship to Countries <br>Around the World </p>
@@ -866,8 +891,9 @@
                     <div class="col-md-3 col-md-3 col-lg-3 col-sm-6 col-xs-6">
                         <center>
 
-                                <img class="img-benifits img-responsive"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/3-6-days-delivery-worldwide.svg"
+                                <img class="img-benifits img-responsive lazyload"
+                                     src="/img/images/load.gif"
+                                     data-src="{{env('AWS_CLOUD_FRONT')}}/img/svg/3-6-days-delivery-worldwide.svg"
                                      alt="3 to 6 days worldwide delivery">
                                 <p class="online-text">&nbsp;3-6 Days</p>
                                 <p class="online-text-words">Worldwide Average <br> Delivery Time </p>
@@ -877,8 +903,9 @@
                     <div class="col-md-3 col-md-3 col-lg-3 col-sm-6 col-xs-6">
                         <center>
                             <a href="/shop-from-india-ship-worldwide" target="_blank">
-                                <img class="img-benifits img-responsive"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save-upto-80-shipping.svg"
+                                <img class="img-benifits img-responsive lazyload"
+                                     src="/img/images/load.gif"
+                                     data-src="{{env('AWS_CLOUD_FRONT')}}/img/svg/save-upto-80-shipping.svg"
                                      alt="save up to 80% on international shipping">
                                 <p class="online-text" style="margin-left: -1px;">Save Up to 80%</p>
                                 <p class="online-text-words">By Storing, Consolidating <br>& Repackaging! </p>
@@ -903,8 +930,9 @@
             {{--<div class="container">--}}
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                 <center>
-                    <img class="img-shop-ship img-responsive"
-                         src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-india-and-ship-internationally.svg"
+                    <img class="img-shop-ship img-responsive lazyload"
+                         src="/img/images/load.gif"
+                         data-src="{{env('AWS_CLOUD_FRONT')}}/img/svg/shop-india-and-ship-internationally.svg"
                          alt="shop india and ship internationally">
 
                     <p class="header3 p-color-red ">Shop & Ship</p>
@@ -927,8 +955,9 @@
             <div class="col-xs-12 col-sm-12" id="hrline"></div>
             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                 <center>
-                    <img class="img-shop-ship img-responsive"
-                         src="{{env('AWS_CLOUD_FRONT')}}/img/svg/schedule-a-pickup-courier.svg"
+                    <img class="img-shop-ship img-responsive lazyload"
+                         src="/img/images/load.gif"
+                         data-src="{{env('AWS_CLOUD_FRONT')}}/img/svg/schedule-a-pickup-courier.svg"
                          alt="schedule a pickup courier">
                     <div class="ship-left-border">
                         <p class="header3 p-courier-h">ShoppRe Courier
@@ -964,16 +993,18 @@
                 <div class=" col-xs-3 div-stores-img">
                     <center class="online-stores">
                         <a href="{{route('flipkart.landing')}}">
-                            <img class="img-responsive img-stores"
-                            src="{{env('AWS_CLOUD_FRONT')}}/img/product/flipkart-online-shipping-india.png"
-                             alt="flipkart.com international delivery shipping"></a>
+                            <img class="img-responsive img-stores lazyload"
+                                 src="/img/images/load.gif"
+                                 data-src="{{env('AWS_CLOUD_FRONT')}}/img/product/flipkart-online-shipping-india.png"
+                                 alt="flipkart.com international delivery shipping"></a>
                     </center>
                 </div>
                 <div class="col-xs-3   div-stores-img">
                     <center class="online-stores">
                         <a href="/amazon-india-shop-international-shipping" target="_blank">
-                            <img class="img-responsive img-stores"
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/product/amazon-india-shoppre.png"
+                            <img class="img-responsive img-stores lazyload"
+                                 src="/img/images/load.gif"
+                                 data-src="{{env('AWS_CLOUD_FRONT')}}/img/product/amazon-india-shoppre.png"
                                  alt="amazon.in international delivery shipping">
                         </a>
                     </center>
@@ -981,17 +1012,19 @@
                 <div class="col-xs-3  div-stores-img">
                     <center class="online-stores">
                         <a href="/ajio-online-shopping-international-shipping">
-                            <img class="img-responsive img-stores"
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/stores/ajio-online-shopping.png"
+                            <img class="img-responsive img-stores lazyload"
+                                 src="/img/images/load.gif"
+                                 data-src="{{env('AWS_CLOUD_FRONT')}}/img/stores/ajio-online-shopping.png"
                                  alt="ajio.com free delivery shipping">
                         </a>
                     </center>
                 </div>
                 <div class=" col-xs-3  div-stores-img">
                     <center class="online-stores">
-                        <a href="/lifestylestores-online-shopping">
-                        <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/product/lifestyle-store-india.png"
+                        <a href="/lifestylestores-online-shopping ">
+                        <img class="img-responsive img-stores lazyload"
+                             src="/img/images/load.gif"
+                             data-src="{{env('AWS_CLOUD_FRONT')}}/img/product/lifestyle-store-india.png"
                              alt="lifestyle shipping international">
                         </a>
                     </center>
@@ -999,8 +1032,9 @@
                 <div class="  col-xs-3  div-stores-img">
                     <center class="online-stores">
                         <a href="/firstcry-online-shopping">
-                        <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/product/first-cry-shopping.png"
+                        <img class="img-responsive img-stores lazyload"
+                             src="/img/images/load.gif"
+                             data-src="{{env('AWS_CLOUD_FRONT')}}/img/product/first-cry-shopping.png"
                              alt="firstcry best deal shopping shipping">
                         </a>
                     </center>
@@ -1008,8 +1042,9 @@
                 <div class="col-xs-3 div-stores-img">
                     <center class="online-stores">
                         <a href="/fabindia-online-shopping" target="_blank">
-                        <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/product/fabindia-india-shoppre.png"
+                        <img class="img-responsive img-stores lazyload"
+                             src="/img/images/load.gif"
+                             data-src="{{env('AWS_CLOUD_FRONT')}}/img/product/fabindia-india-shoppre.png"
                              alt="snapdeal.com indian e-commerce company">
                         </a>
                     </center>
@@ -1017,8 +1052,9 @@
                 <div class="col-xs-2 div-stores-img">
                     <center class="online-stores">
                         <a href="{{route('myntra.landing')}}">
-                            <img class="img-responsive img-stores"
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/stores/myntra-express-delivery-globe.png"
+                            <img class="img-responsive img-stores lazyload"
+                                 src="/img/images/load.gif"
+                                 data-src="{{env('AWS_CLOUD_FRONT')}}/img/stores/myntra-express-delivery-globe.png"
                                  alt="myntra.com fashion express delivery globe">
                         </a>
                     </center>
@@ -1026,8 +1062,9 @@
                 <div class=" col-xs-3 div-stores-img" id="hidestore">
                     <center class="online-stores">
                         <a href="/tatacliq-online-shopping">
-                        <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/product/tata-cliq.png"
+                        <img class="img-responsive img-stores lazyload"
+                             src="/img/images/load.gif"
+                             data-src="{{env('AWS_CLOUD_FRONT')}}/img/product/tata-cliq.png"
                              alt="tatacliq online shopping site in india">
                         </a>
                     </center>
@@ -1035,8 +1072,9 @@
                 <div class="col-xs-3 div-stores-img">
                     <center class="online-stores">
                         <a href="/limeroad-shopping-international-shipping">
-                            <img class="img-responsive img-stores"
-                                 src="{{env('AWS_CLOUD_FRONT')}}/img/stores/limeroad-online-shopping-offers.png"
+                            <img class="img-responsive img-stores lazyload"
+                                 src="/img/images/load.gif"
+                                 data-src="{{env('AWS_CLOUD_FRONT')}}/img/stores/limeroad-online-shopping-offers.png"
                                  alt="limeroad.com shipping from india">
                         </a>
                     </center>
@@ -1044,8 +1082,9 @@
                 <div class="col-xs-3 div-stores-img" id="store-hide">
                     <center class="online-stores">
                         <a href="/nykaa-online-shopping">
-                        <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/product/nykaa-india.png"
+                        <img class="img-responsive img-stores lazyload"
+                             src="/img/images/load.gif"
+                             data-src="{{env('AWS_CLOUD_FRONT')}}/img/product/nykaa-india.png"
                              alt="nykaa">
                         </a>
                     </center>
@@ -1073,8 +1112,9 @@
                     <div class="row" style="margin-left: -36px">
                         <div class="col-md-4 ">
                             <div class="row div-img-row" id="reviews-img">
-                                <img class=" img-review img-circle"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/034-woman-8.svg">
+                                <img class=" img-review img-circle lazyload"
+                                     src="/img/images/load.gif"
+                                     data-src="{{env('AWS_CLOUD_FRONT')}}/img/svg/034-woman-8.svg">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Jigyasa Singh</p>
                                 <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USA</p>
                                 <img class="img-stars" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/stars.svg">
@@ -1099,8 +1139,9 @@
                         </div>
                         <div class="col-md-4">
                             <div class="row div-img-row" id="reviews-img">
-                                <img class=" img-review img-circle"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/040-man-11.svg">
+                                <img class=" img-review img-circle lazyload"
+                                     src="/img/images/load.gif"
+                                     data-src="{{env('AWS_CLOUD_FRONT')}}/img/svg/040-man-11.svg">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Sudeep Sagar</p>
                                 <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UAE</p>
                                 <img class="img-stars" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/stars.svg">
@@ -1125,8 +1166,9 @@
                         </div>
                         <div class="col-md-4">
                             <div class="row div-img-row" id="reviews-img">
-                                <img class=" img-review img-circle"
-                                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/001-man.svg">
+                                <img class=" img-review img-circle lazyload"
+                                     src="/img/images/load.gif"
+                                     data-src="{{env('AWS_CLOUD_FRONT')}}/img/svg/001-man.svg">
                                 <p class="p-name">&nbsp;&nbsp;&nbsp;&nbsp;Anirudh Lal</p>
                                 <p class="p-name1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;India</p>
                                 <img class="img-stars" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/stars.svg">
@@ -1162,7 +1204,9 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="row div-img-row" id="reviews-img">
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/google.png">
+                                <img class="lazyload"
+                                     src="/img/images/load.gif"
+                                        data-src="{{env('AWS_CLOUD_FRONT')}}/img/images/google.png">
                                 <br>
                                 <p class="p-name" style="font-size: 23px">
                                     <span>4.5</span>
@@ -1179,7 +1223,8 @@
                         </div>
                         <div class="col-md-6">
                             <div class="row div-img-row" id="reviews-img">
-                                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/fb-star.png">
+                                <img class="lazyload" src="/img/images/load.gif"
+                                     data-src="{{env('AWS_CLOUD_FRONT')}}/img/images/fb-star.png">
                                 <br>
                                 <div style="background-color: blue; max-width: 86px; border-radius: 20px; height: 40px;">
                                 <p class="p-name" style="font-size: 23px; padding-top: 6px; padding-left: 10px;color: white;">
@@ -1211,7 +1256,9 @@
                 <br>
             </div>
             <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-                <img class="offer-img-d refer-earn-img" src="{{env('AWS_CLOUD_FRONT')}}/img/images/shoppre-earn-graphic.png"
+                <img class="offer-img-d refer-earn-img lazyload"
+                     src="/img/images/load.gif"
+                     data-src="{{env('AWS_CLOUD_FRONT')}}/img/images/shoppre-earn-graphic.png"
                      alt="earn with us">
 
                 {{--shoppre-earn-graphic.png--}}
@@ -1236,21 +1283,26 @@
         </div>
         <div class="container">
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding ">
-                <img class="img-payment-methods"
-                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/credit-debit-card-courier-shipping.svg"
+                <img class="img-payment-methods lazyload"
+                     src="/img/images/load.gif"
+                     data-src="{{env('AWS_CLOUD_FRONT')}}/img/svg/credit-debit-card-courier-shipping.svg"
                      alt="credit debit card courier from india">
             </div>
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding">
-                <img class="img-payment-methods"
-                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wire-transfer.svg" alt="wire transfer pay online shipping">
+                <img class="img-payment-methods lazyload"
+                     src="/img/images/load.gif"
+                     data-src="{{env('AWS_CLOUD_FRONT')}}/img/svg/wire-transfer.svg" alt="wire transfer pay online shipping">
             </div>
             <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6 no-padding">
-                <img class="img-payment-methods" src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paypal-pay-online.svg"
+                <img class="img-payment-methods lazyload"
+                     src="/img/images/load.gif"
+                     data-src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paypal-pay-online.svg"
                      alt="paypal online courier parcel">
             </div>
             <div class="col-md-3 col-lg-3 slider_four_in_line col-sm-3 col-xs-6 no-padding">
-                <img class="img-payment-methods"
-                     src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paytm-payment-system-and-digital-wallet.svg"
+                <img class="img-payment-methods lazyload"
+                     src="/img/images/load.gif"
+                     data-src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paytm-payment-system-and-digital-wallet.svg"
                      alt="paytm e-commerce digital wallet ">
             </div>
         </div>
@@ -1266,8 +1318,9 @@
             <center>
                 <div class=" col-xs-3 div-stores-img">
                     <center class="online-stores">
-                        <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/india_today_grey.jpg" alt="india todya"
+                        <img class="img-responsive img-stores lazyload"
+                             src="/img/images/load.gif"
+                             data-src="{{env('AWS_CLOUD_FRONT')}}/img/media/india_today_grey.jpg" alt="india todya"
                              onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/india_today.jpg')"
                              onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/india_today_grey.jpg')">
 
@@ -1275,8 +1328,9 @@
                 </div>
                 <div class="col-xs-3   div-stores-img">
                     <center class="online-stores">
-                        <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/khaleej_time_grey.jpg" alt="khaleej times"
+                        <img class="img-responsive img-stores lazyload"
+                             src="/img/images/load.gif"
+                             data-src="{{env('AWS_CLOUD_FRONT')}}/img/media/khaleej_time_grey.jpg" alt="khaleej times"
                              onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/khaleej_time.jpg')"
                              onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/khaleej_time_grey.jpg')">
 
@@ -1284,7 +1338,9 @@
                 </div>
                 <div class="col-xs-3  div-stores-img">
                     <center class="online-stores">
-                        <img class="img-responsive img-stores" src="{{env('AWS_CLOUD_FRONT')}}/img/media/exam_grey.jpg"
+                        <img class="img-responsive img-stores lazyload"
+                             src="/img/images/load.gif"
+                             data-src="{{env('AWS_CLOUD_FRONT')}}/img/media/exam_grey.jpg"
                              alt="exame"
                              onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/exam.jpg')"
                              onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/exam_grey.jpg')">
@@ -1292,15 +1348,18 @@
                 </div>
                 <div class=" col-xs-3  div-stores-img">
                     <center class="online-stores">
-                        <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/euro_press_grey.jpg" alt="Europress"
+                        <img class="img-responsive img-stores lazyload"
+                             src="/img/images/load.gif"
+                             data-src="{{env('AWS_CLOUD_FRONT')}}/img/media/euro_press_grey.jpg" alt="Europress"
                              onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/euro_press.jpg')"
                              onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/euro_press_grey.jpg')">
                     </center>
                 </div>
                 <div class="  col-xs-3  div-stores-img">
                     <center class="online-stores">
-                        <img class="img-responsive img-stores" src="{{env('AWS_CLOUD_FRONT')}}/img/media/yahoo_grey.jpg"
+                        <img class="img-responsive img-stores lazyload"
+                             src="/img/images/load.gif"
+                             data-src="{{env('AWS_CLOUD_FRONT')}}/img/media/yahoo_grey.jpg"
                              alt="yahoo finance"
                              onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/yahoo.jpg')"
                              onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/yahoo_grey.jpg')">
@@ -1308,16 +1367,18 @@
                 </div>
                 <div class="col-xs-3 div-stores-img">
                     <center class="online-stores">
-                        <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/malayala_grey.jpg" alt="malayala manorama"
+                        <img class="img-responsive img-stores lazyload"
+                             src="/img/images/load.gif"
+                             data-src="{{env('AWS_CLOUD_FRONT')}}/img/media/malayala_grey.jpg" alt="malayala manorama"
                              onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/malayala.jpg')"
                              onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/malayala_grey.jpg')">
                     </center>
                 </div>
                 <div class="col-xs-2 div-stores-img">
                     <center class="online-stores">
-                        <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/business_standard_grey.jpg"
+                        <img class="img-responsive img-stores lazyload"
+                             src="/img/images/load.gif"
+                             data-src="{{env('AWS_CLOUD_FRONT')}}/img/media/business_standard_grey.jpg"
                              alt="business standard"
                              onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/business_standard.jpg')"
                              onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/business_standard_grey.jpg')">
@@ -1325,24 +1386,27 @@
                 </div>
                 <div class=" col-xs-3 div-stores-img" id="hidestore">
                     <center class="online-stores">
-                        <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/markets_inside_grey.jpg" alt="markets insider"
+                        <img class="img-responsive img-stores lazyload"
+                             src="/img/images/load.gif"
+                             data-src="{{env('AWS_CLOUD_FRONT')}}/img/media/markets_inside_grey.jpg" alt="markets insider"
                              onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/markets_inside.jpg')"
                              onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/markets_inside_grey.jpg')">
                     </center>
                 </div>
                 <div class="col-xs-3 div-stores-img">
                     <center class="online-stores">
-                        <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/the_week_grey.jpg" alt="the week magazine"
+                        <img class="img-responsive img-stores lazyload "
+                             src="/img/images/load.gif"
+                             data-src="{{env('AWS_CLOUD_FRONT')}}/img/media/the_week_grey.jpg" alt="the week magazine"
                              onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/the_week.jpg')"
                              onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/the_week_grey.jpg')">
                     </center>
                 </div>
                 <div class="col-xs-3 div-stores-img" id="store-hide">
                     <center class="online-stores">
-                        <img class="img-responsive img-stores"
-                             src="{{env('AWS_CLOUD_FRONT')}}/img/media/business_today_grey.jpg"
+                        <img class="img-responsive img-stores lazyload"
+                             src="/img/images/load.gif"
+                             data-src="{{env('AWS_CLOUD_FRONT')}}/img/media/business_today_grey.jpg"
                              alt="Business Today Magazine"
                              onmouseover="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/business_today.jpg')"
                              onmouseout="$(this).attr('src','{{env('AWS_CLOUD_FRONT')}}/img/media/business_today_grey.jpg')">

@@ -25,6 +25,10 @@
             margin: 0 auto;
         }
 
+        .img-shopperstop-offer {
+            display: none;
+        }
+
         .underline-color  {
             text-decoration: underline red;
         }
@@ -57,6 +61,14 @@
                 width: 120px !important;
             }
 
+            .img-mobile-view {
+                display: block !important;
+            }
+
+            .img-desktop-view {
+                display: none !important;
+            }
+
             .header-section {
                 height: 450px !important;
             }
@@ -77,6 +89,7 @@
                 padding-bottom: 26px !important;
             }
         }
+
 
         @media only screen
         and (min-width: 1024px)
@@ -100,7 +113,9 @@
                     <p class="f-s-20 f-c-l-gray ">Shop Lifestyle With Your ShoppRe Address for International Shipping from India.<br></p>
                     <br>
                 </center>
-                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
+{{--                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611">--}}
+                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #e9c46a">
+                    <i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
                         Get ₹200 Discount on Shipping Lifestyle Products Internationally. T&C*</i></p>
                 <br>
                 <br>
@@ -140,6 +155,7 @@
                         Below are the Recommended & Recently Shipped Products!</h2>
 {{--                    : <span class="f-s-25 f-c-red f-w-9">Dil Se Diwali</span>--}}
                 </div>
+
 {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
 {{--                    <div class="">--}}
 {{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20lifestylestores.com" target="_blank">--}}
@@ -148,6 +164,22 @@
 {{--                        </a>--}}
 {{--                    </div>--}}
 {{--                </div>--}}
+            </div>
+            <div class="row">
+                <center>
+                    <a href="https://www.lifestylestores.com/in/en/c/women?q=badge.title.en%3ANew%3AmanufacturerName.en%3AMelange&v=1" target="_blank">
+                        <img class="img-desktop-view"
+                             src="https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/HP_LS_Desktop_2-19FEB20200.gif"
+                             {{--                         width="800px"--}}
+                             width="1100px"
+                        ></a>
+                </center>
+                <center>
+                    <a href="https://www.lifestylestores.com/in/en/c/women?q=badge.title.en%3ANew%3AmanufacturerName.en%3AMelange&v=1" target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer"
+                             src="https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/HP_LS_Mobile_2-19FEB20200.gif"
+                             width="350px" ></a>
+                </center>
             </div>
 
 

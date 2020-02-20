@@ -195,8 +195,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">STEAL THE SHOW</h4>
-                            <h5 class="header6 p-color-cement font-weight-900"> Min 30% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Myntra's Birthday Bash</h4>
+                            <h5 class="header6 p-color-cement font-weight-900"> 50-80% Off</h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">
@@ -280,8 +280,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">FOLK TALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">GET TRENDY THIS SPRING</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/firstcry-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">FIRSTCRY</p>
@@ -297,7 +297,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">THE MAKEUP SALE</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">THE SKINCARE SALE</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up To 35% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/nykaa-online-shopping" target="_blank">
@@ -310,8 +310,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">End Of Season Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">25-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">FESTIVE FLAUNT</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/tatacliq-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">TATACLIQ</p>

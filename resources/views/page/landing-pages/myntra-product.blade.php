@@ -354,7 +354,9 @@
                         <p class="f-s-20 f-c-l-gray ">Shop Myntra Fashon Store With Your ShoppRe Address for International Delivery from India.<br></p>
                         <br>
                     </center>
-                    <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
+{{--                    <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611">--}}
+                    <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #e9c46a">
+                        <i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
                             Get ₹200 Discount on Shipping Myntra Products Internationally. T&C*</i></p>
                     <br>
                     <br>
@@ -398,17 +400,17 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <center>
-                <a href="https://www.myntra.com/nayo?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank">
+                <a href="https://www.myntra.com/shop/fnd20-prebuzz" target="_blank">
                     <img class="img-desktop-view"
-                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/2/16/95b019fb-287a-4301-b727-5a49790571961581857972833-Nayo_Desk_Banner.jpg"
-                         width="800px"
-{{--                         width="1100px"--}}
+                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/2/19/40a41396-74ab-4a88-a8d6-ec4c06e5a5e71582124489947-DK.jpg"
+{{--                         width="800px"--}}
+                         width="1100px"
                     ></a>
                     </center>
                 <center>
-                    <a href="https://www.myntra.com/nayo?rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank">
+                    <a href="https://www.myntra.com/shop/fnd20-prebuzz" target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/2/16/4384278d-61b2-409e-9460-5a54da1fa3551581857972804-Nayo_App_Banner.jpg"
+                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/2/19/2fc2dbc7-db8b-4c87-a37e-00dfb457280e1582132959617-3rd-MST--3-.jpg"
                              width="350px" ></a>
                 </center>
 {{--                <div class="">--}}

@@ -114,8 +114,12 @@
                     <p class="f-s-20 f-c-l-gray ">Shop Fabindiaa With Your ShoppRe Address for International Delivery from India.<br></p>
                     <br>
                 </center>
-                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
-                        Get ₹200 Discount on Shipping Fabindia Products Internationally. T&C*</i></p>
+{{--                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611">--}}
+                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #e9c46a">
+                    <i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
+                        Get ₹200 Discount on Shipping Fabindia Products Internationally. T&C*
+                    </i>
+                </p>
                 <br>
                 <br>
             </div>
@@ -151,10 +155,14 @@
             <div class="row">
                 <div class="">
                     <center>
-                        <a href="https://www.fabindia.com/collection/chikankari" target="_blank">
-                            <img class="img-desktop-view" src="https://www.fabindia.com/file/general/indian-spring_31-01.jpg" width="1100px"></a>
-                        <a href="https://www.fabindia.com/collection/chikankari" target="_blank">
-                            <img class="img-mobile-view img-shopperstop-offer" src="https://www.fabindia.com//file/general/mob-chikan.jpg" width="310px" ></a>
+                        <a href="https://www.fabindia.com/clothing/women-dupattas" target="_blank">
+                            <img class="img-desktop-view"
+                                 src="https://www.fabindia.com/file/general/dupatta-des-19-02-10.jpg"
+                                 width="1100px"></a>
+                        <a href="https://www.fabindia.com/clothing/women-dupattas" target="_blank">
+                            <img class="img-mobile-view img-shopperstop-offer"
+                                 src="https://www.fabindia.com//file/general/mob-dupatta-19-02-20.jpg"
+                                 width="310px" ></a>
                     </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">January 2020 Sale: <span class="f-s-25 f-c-red f-w-9">Festive Vibes</span> /--}}
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}

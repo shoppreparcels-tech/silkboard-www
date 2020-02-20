@@ -118,7 +118,9 @@
                     <p class="f-s-20 f-c-l-gray ">Shop Limeroad With Your ShoppRe Address for International Shipping from India.<br></p>
                     <br>
                 </center>
-                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
+{{--                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611">--}}
+                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #e9c46a">
+                    <i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
                         Get ₹200 Discount on Shipping Limeroad Products Internationally. T&C*</i></p>
                 <br>
                 <br>
