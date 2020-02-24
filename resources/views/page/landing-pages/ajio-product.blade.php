@@ -140,15 +140,17 @@
 
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
                     <center>
-                    <a href="https://www.ajio.com/s/women20-seasons-most-wanted-style-3877-94512" target="_blank">
+                    <a href="https://www.ajio.com/s/women-min-60-percent-off-3884-78612" target="_blank">
 
                         <img class="img-desktop-view"
-                             src="https://assets.ajio.com/medias/sys_master/images/images/h0a/h47/15534958411806/17022020-D-WHP-TopBanner-4070extra20.jpg" width="1100px"></a>
+                             src="https://assets.ajio.com/medias/sys_master/images/images/he0/h28/15619043786782/24022020-D-WHP-BANNER1-P1-indiedays-min60.jpg"
+                             width="1100px"></a>
                         </center>
                     <center>
-                        <a href="https://www.ajio.com/s/women20-seasons-most-wanted-style-3877-94512" target="_blank">
+                        <a href="https://www.ajio.com/s/women-min-60-percent-off-3884-78612" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.ajio.com/medias/sys_master/images/images/h66/h80/15535664136222/17022020-M-WHP-TopBanner-4070extra20.jpg" width="300px" ></a>
+                                 src="https://assets.ajio.com/medias/sys_master/images/images/hd2/hca/15619043819550/24022020-M-WHP-BANNER1-P1-indiedays-min60.jpg"
+                                 width="300px" ></a>
 
                     </center>
 

@@ -86,15 +86,15 @@
             <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in HAR PAL FASHIONABLE</h2>
             <div class="row text-center">
                 <center>
-                <a href="https://amzn.clnk.in/lZU" target="_blank">
+                <a href="https://www.amazon.in/b?node=1953602031&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739&pf_rd_r=7BH440747EZKJYAFKCJM" target="_blank">
                     <img class="img-desktop-view"
-                         src="https://m.media-amazon.com/images/G/31/img20/Fashion/XCM_Flip_FEB/XCM-Header-PC_01._SX3000_QL85_.jpg"
+                         src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/XCM/WA-PC._SX3000_QL85_.jpg"
                          width="1100px"></a>
                     </center>
                 <center>
-                    <a href="https://amzn.clnk.in/lZU" target="_blank">
+                    <a href="https://www.amazon.in/b?node=1953602031&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739&pf_rd_r=7BH440747EZKJYAFKCJM" target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://m.media-amazon.com/images/G/31/img20/Fashion/XCM_Flip_FEB/XCM_01._SY1200_QL85_.jpg"
+                             src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/XCM/WA._SY1200_QL85_.jpg"
                              width="310px" ></a>
                 </center>
 {{--                <div class="col-sm-4">--}}

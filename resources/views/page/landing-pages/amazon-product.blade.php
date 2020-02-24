@@ -131,16 +131,16 @@
                 <div class="">
 
                     <center>
-                        <a href="https://www.amazon.in/gcx/Valentine's-Day/gfhz/events/ref=QAHeroV_en_IN?pf_rd_r=P9GKPMQVY2TS227K8SS0&pf_rd_p=fd0bd932-c324-42bb-81aa-db5c7ffd4a09&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-17&pf_rd_t=&pf_rd_i=4206152031&categoryId=valentines-day-2" target="_blank">
+                        <a href="https://www.amazon.in/b?node=1953602031&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739&pf_rd_r=7BH440747EZKJYAFKCJM" target="_blank">
                             <img class="img-desktop-view"
-                                 src="https://m.media-amazon.com/images/G/31/img20/Fashion/XCM_Flip_FEB/XCM-Header-PC_01._SX3000_QL85_.jpg"
+                                 src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/XCM/WA-PC._SX3000_QL85_.jpg"
                                  width="1000px">
 
                     </center>
                     <center>
-                        <a href="https://www.amazon.in/gcx/Valentine's-Day/gfhz/events/ref=QAHeroV_en_IN?pf_rd_r=P9GKPMQVY2TS227K8SS0&pf_rd_p=fd0bd932-c324-42bb-81aa-db5c7ffd4a09&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-17&pf_rd_t=&pf_rd_i=4206152031&categoryId=valentines-day-2" target="_blank">
+                        <a href="https://www.amazon.in/b?node=1953602031&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739&pf_rd_r=7BH440747EZKJYAFKCJM" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://m.media-amazon.com/images/G/31/img20/Fashion/XCM_Flip_FEB/XCM_01._SY1200_QL85_.jpg"
+                                 src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/XCM/WA._SY1200_QL85_.jpg"
                                  width="310px">
                     </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">👉 <a--}}

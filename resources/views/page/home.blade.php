@@ -734,7 +734,7 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="https://m.media-amazon.com/images/G/31/img20/Fashion/XCM_Flip_FEB/XCM_01._SY1200_QL85_.jpg" />
+                                         data-src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/XCM/WA._SY1200_QL85_.jpg" />
                                 </div>
                                 <div style="    color: #000;font-size: 14px;margin-top: 10px;
                                                 padding-top: 0px !important;text-align: left;
@@ -768,26 +768,26 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/2/19/2fc2dbc7-db8b-4c87-a37e-00dfb457280e1582132959617-3rd-MST--3-.jpg" />
+                                         data-src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/2/20/5b25a582-2082-4988-9a4a-c1b6e5d81fe21582178984197-Square-Feb-20-H-N---App-Square-Banner--Brand-Day-.jpg" />
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                   Myntra's Birthday Bash
+                                   Summer Styles
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                        50-80% Off
+                                        Update Your Wardrobe
                                         </span>
-                                        <span style="font-size: 14px;font-weight: bold;
-                                                     padding-top: 5px;color: #000000;;
-                                                     display: inline-block;">
+{{--                                        <span style="font-size: 14px;font-weight: bold;--}}
+{{--                                                     padding-top: 5px;color: #000000;;--}}
+{{--                                                     display: inline-block;">--}}
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                        (21st-23rd FEB)
-                                        </span>
+{{--                                        HERE & NOW--}}
+{{--                                        </span>--}}
 
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -807,21 +807,26 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="https://assets.ajio.com/medias/sys_master/images/images/h66/h80/15535664136222/17022020-M-WHP-TopBanner-4070extra20.jpg" />
+                                         data-src="https://assets.ajio.com/medias/sys_master/images/images/hd2/hca/15619043819550/24022020-M-WHP-BANNER1-P1-indiedays-min60.jpg" />
 
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    SEASON’s MOST WANTED STYLE
+                                    INDIE DAYS
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                            40-70% Off
+                                            MIN 60% Off
                                         </span>
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                         padding-top: 5px;color: #000000;;
+                                                         display: inline-block;">
+                                            (24-26th FEB)
+                                            </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
                                                 color: #181818;font-size: 14px;font-family: Lato;
