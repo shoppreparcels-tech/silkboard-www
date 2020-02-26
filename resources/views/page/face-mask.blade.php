@@ -1019,6 +1019,15 @@
                 </div>
                 <br>
                 <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <p itemprop="name" class="f-s-18 f-c-gray">Is it possible to ship 100k surgical masks to Singapore?</p>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text" class="f-s-16 f-c-gray f-w-4">
+                            Yes, You can ship a quantity of <a href="https://www.shoppreparcels.com/shipping-100k-surgical-face-masks-to-singapore-from-india/ " target="_blank">1,00,000 2 ply and 3 ply surgical masks</a> to Singapore from India.
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
                     <p itemprop="name" class="f-s-18 f-c-gray ">Can I ship face masks manufactured in China?</p>
                     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                         <p itemprop="text" class="f-s-16 f-c-gray f-w-4">No, you can only order the products that have description in English and that are manufactured from India.
@@ -1174,17 +1183,17 @@
 @endsection
 
 @section('js_script')
-    <script type='text/javascript'>
-        var cId = '52423';
+{{--    <script type='text/javascript'>--}}
+{{--        var cId = '52423';--}}
 
-        (function (d, t) {
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/') + 'cuelinksv2.js';
-            document.getElementsByTagName('body')[0].appendChild(s);
-        }());
-    </script>
+{{--        (function (d, t) {--}}
+{{--            var s = document.createElement('script');--}}
+{{--            s.type = 'text/javascript';--}}
+{{--            s.async = true;--}}
+{{--            s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/') + 'cuelinksv2.js';--}}
+{{--            document.getElementsByTagName('body')[0].appendChild(s);--}}
+{{--        }());--}}
+{{--    </script>--}}
 
 
 @endsection

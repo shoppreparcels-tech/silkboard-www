@@ -157,12 +157,12 @@
                     <center>
                         <a href="https://www.fabindia.com/clothing/women-dupattas" target="_blank">
                             <img class="img-desktop-view"
-                                 src="https://www.fabindia.com/file/general/dupatta-des-19-02-10.jpg"
+                                 src="http://cdn.shoppre.com/shoppre/public/fabindia.png"
                                  width="1100px"></a>
                         <a href="https://www.fabindia.com/clothing/women-dupattas" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://www.fabindia.com//file/general/mob-dupatta-19-02-20.jpg"
-                                 width="310px" ></a>
+                                 src="http://cdn.shoppre.com/shoppre/public/fabindiaMobile.png"
+                                 width="350px" ></a>
                     </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">January 2020 Sale: <span class="f-s-25 f-c-red f-w-9">Festive Vibes</span> /--}}
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
