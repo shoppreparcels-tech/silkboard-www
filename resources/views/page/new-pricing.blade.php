@@ -1411,32 +1411,16 @@
                     var width = $("input[name='width']").val();
                     var height = $("input[name='height']").val();
 
+                    // console.log('country ' + country + '\n weight ' + weight + '\n weight_unit ' + weight_unit + '\n type ' + package_type + ' \n measurement_unit ' + measurement_unit + '\n length ' + length + '\n width ' + width + '\n height ' + height);
                     if (weight<=70){
-                        // var queryParams = 'all=true&country=' + country + '&type=' + package_type + '&weight=' + weight;
-                        // queryParams += '&length=' + length + '&width=' + width + '&height=' + height;
-                        // queryParams += '&scale=' + measurement_unit + '&unit=' + weight_unit;
-                        var data = {
-                            weight: weight,
-                            type: package_type,
-                            country: country,
-                            length: length,
-                            width: width,
-                            height: height,
-                            scale: measurement_unit,
-                            unit: weight_unit,
-                        };
-                        const a = btoa(JSON.stringify(data));
-
+                        var queryParams = 'all=true&country=' + country + '&type=' + package_type + '&weight=' + weight;
+                        queryParams += '&length=' + length + '&width=' + width + '&height=' + height;
+                        queryParams += '&scale=' + measurement_unit + '&unit=' + weight_unit;
                         jQuery.ajax({
-                            // url: 'https://courier.shoppre.com/api/pricing?' + queryParams,
-                            url: 'shipping-rates',
+                            url: 'https://courier.shoppre.com/api/pricing?' + queryParams,
                             type: 'get',
-                            data: {
-                                data: a,
-
-                            },
-                            success: function (data) {
-                                let customer_price = data.prices.prices[0].customerRate;
+                            success: function ({prices}) {
+                                let customer_price = prices[0].customerRate;
                                 let member_price = (customer_price * 95) / 100;
                                 $('#customer-price-tag').text(Math.round(customer_price));
                                 $('#member-price-tag').text(Math.round(member_price));
@@ -1444,9 +1428,6 @@
                                 $('#member_total_price').text(Math.round(member_price * 2));
                                 $('#pricing-panel').slideDown();
                                 $('#addImge').hide();
-                            },
-                            error: function (err) {
-                                console.log("AJAX error in request: " + JSON.stringify(err, null, 2));
                             }
                         });
                         return false;
