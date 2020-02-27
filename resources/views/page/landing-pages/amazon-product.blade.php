@@ -111,14 +111,18 @@
 @section('content')
     <main>
         <div class="header">
-            <div class="container"><br><br><br>
+            <div class="container"><br><br>
                 <center>
                     <h1 class="f-s-36 f-c-white f-w-8">Amazon.in Online Shopping</h1>
                     <p class="f-s-20 f-c-l-gray ">Shop Amazon.in With Your ShoppRe Address for International Delivery from India.<br></p>
                     <br>
                 </center>
-                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611"><i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
-                        Get ₹200 Discount on Shipping Amazon.in Products Internationally. T&C*</i></p>
+                <p class="f-c-white f-w-9 text-center" >
+                    <i>
+                        <a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
+                        Get ₹200 Discount on Shipping Amazon.in Products Internationally. T&C*
+                    </i>
+                </p>
                 <br>
                 <br>
             </div>

@@ -125,14 +125,14 @@
 
             </center>
             <div class="row text-center">
-                <a href="https://www.myntra.com/hn-bif-women-nov19?extra_search_param=pinProductsCsv%3A10498010&p=2" target="_blank">
+                <a href="https://www.myntra.com/shop/cls-feb20-prebuzz" target="_blank">
                     <img class="img-desktop-view"
-                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/2/20/c4d9936d-14ca-42ad-ae4b-4333ebfc4d1f1582179020304-Square-Desktop-Feb-20-H-N---Desktop-Square-Banner.jpg"
+                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/2/25/8fa87e30-a8c2-464a-900b-48470de2cac31582647307203-prebuzz-msb--1-.jpg"
                          width="1000px"></a>
                 <center>
-                    <a href="https://www.myntra.com/hn-bif-women-nov19?extra_search_param=pinProductsCsv%3A10498010&p=2" target="_blank">
+                    <a href="https://www.myntra.com/shop/cls-feb20-prebuzz" target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/2/20/5b25a582-2082-4988-9a4a-c1b6e5d81fe21582178984197-Square-Feb-20-H-N---App-Square-Banner--Brand-Day-.jpg"
+                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/2/26/11b32e61-4012-42d9-8489-a355781dd71d1582718202009-prebuzz-msb.jpg"
                              width="350px" ></a>
                 </center>
 {{--                <div class="col-sm-4">--}}

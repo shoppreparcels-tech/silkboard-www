@@ -115,14 +115,14 @@
 @section('content')
     <main>
         <div class="header">
-            <div class="container"><br><br><br>
+            <div class="container"><br><br>
                 <center>
                     <h1 class="f-s-36 f-c-white f-w-8">AJIO Online Shopping</h1>
                     <p class="f-s-20 f-c-l-gray ">Shop AJIO.com With Your ShoppRe Address for International Delivery from India.<br></p>
                     <br>
                 </center>
 {{--                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611">--}}
-                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #e9c46a">
+                <p class="f-c-white f-w-9 text-center">
                     <i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
                         Get ₹200 Discount on Shipping AJIO Products Internationally. T&C*</i></p>
                 <br>
@@ -140,16 +140,16 @@
 
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
                     <center>
-                    <a href="https://www.ajio.com/s/women-min-60-percent-off-3884-78612" target="_blank">
+                    <a href="https://www.ajio.com/s/shop-big-mega60-3874-5926-1123" target="_blank">
 
                         <img class="img-desktop-view"
-                             src="https://assets.ajio.com/medias/sys_master/images/images/he0/h28/15619043786782/24022020-D-WHP-BANNER1-P1-indiedays-min60.jpg"
+                             src="https://assets.ajio.com/medias/sys_master/images/images/h8f/ha4/15657544155166/27022020-D-SHP-topbanner-epicblowoutsale-flat60.jpg"
                              width="1100px"></a>
                         </center>
                     <center>
-                        <a href="https://www.ajio.com/s/women-min-60-percent-off-3884-78612" target="_blank">
+                        <a href="https://www.ajio.com/s/shop-big-mega60-3874-5926-1123" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.ajio.com/medias/sys_master/images/images/hd2/hca/15619043819550/24022020-M-WHP-BANNER1-P1-indiedays-min60.jpg"
+                                 src="https://assets.ajio.com/medias/sys_master/images/images/h49/hc9/15657893003294/27022020-M-SHP-topbanner-epicblowoutsale-flat60.jpg"
                                  width="300px" ></a>
 
                     </center>

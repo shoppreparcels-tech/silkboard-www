@@ -108,14 +108,14 @@
 @section('content')
     <main>
         <div class="header">
-            <div class="container"><br><br><br>
+            <div class="container"><br><br>
                 <center>
                     <h1 class="f-s-36 f-c-white f-w-8">Tata CLiQ Online Shopping</h1>
                     <p class="f-s-20 f-c-l-gray ">Shop Tata CLiQ With Your ShoppRe Address for International Shipping from India.<br></p>
                     <br>
                 </center>
 {{--                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611">--}}
-                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #e9c46a">
+                <p class="f-c-white f-w-9 text-center" >
                     <i><a href="https://www.shoppre.com/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
                         Get ₹200 Discount on Shipping Tata CLiQ Products Internationally. T&C*</i></p>
                 <br>
@@ -153,13 +153,13 @@
             <div class="row">
                 <div class="">
                     <center>
-                        <a href="https://www.tatacliq.com/womens-clothing/c-msh10?q=%3Arelevance%3Acategory%3AMSH10%3Acategory%3AMSH10%3Acategory%3AMSH10%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH11A00006%3AdiscountAll%3ADiscounted+Items%3AdiscountFlag%3A50%25+-+70%25&icid2=hero:hbr:clp:wom:m10:a00006:best:01:R2:clp:bx:001" target="_blank">
+                        <a href="https://www.tatacliq.com/womens-day-offers" target="_blank">
                             <img class="img-desktop-view"
-                                 src="https://assets.tatacliq.com/medias/sys_master/images/17265101635614.jpg"
+                                 src="https://assets.tatacliq.com/medias/sys_master/images/26397831790622.jpg"
                                  width="1100px"></a>
-                        <a href="https://www.tatacliq.com/womens-clothing/c-msh10?q=%3Arelevance%3Acategory%3AMSH10%3Acategory%3AMSH10%3Acategory%3AMSH10%3AinStockFlag%3Atrue%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH11A00006%3AdiscountAll%3ADiscounted+Items%3AdiscountFlag%3A50%25+-+70%25&icid2=hero:hbr:clp:wom:m10:a00006:best:01:R2:clp:bx:001" target="_blank">
+                        <a href="https://www.tatacliq.com/womens-day-offers" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.tatacliq.com/medias/sys_master/images/17265100521502.jpg"
+                                 src="https://assets.tatacliq.com/medias/sys_master/images/26402925150238.jpg"
                                  width="310px" ></a>
                     </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9"><a--}}

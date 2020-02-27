@@ -28,9 +28,7 @@
         .img-shopperstop-offer {
             display: none;
         }
-        .underline-color {
-            text-decoration: underline red;
-        }
+
 
         .img-product {
             width: 216px;
@@ -40,42 +38,23 @@
             transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
         }
 
-        .banner {
-            display: none;
-        }
-
-        .image-banner {
-            display: block;
-        }
 
         .p-b-26 {
             padding-bottom: 26px !important;
         }
 
-        .header-section {
-            height: 480px !important;
-        }
+
 
         @media only screen and (max-width: 600px) {
             .img-product {
                 width: 120px !important;
             }
 
-            .header-section {
-                height: 450px !important;
-            }
 
             .m-t-img {
                 margin-top: 0px !important;
             }
 
-            .banner {
-                display: block;
-            }
-
-            .image-banner {
-                display: none;
-            }
 
             .p-b-26 {
                 padding-bottom: 26px !important;
@@ -89,16 +68,6 @@
             .img-product {
                 width: 150px !important;
             }
-        }
-
-        .first-time-shipment {
-            background-color: #11273b;
-            height: 813px;
-            width: 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            padding-top: 60px
         }
 
         .first-time-shipment .div-snow {
@@ -121,16 +90,6 @@
         .first-time-shipment .div-newyear img {
             margin-left: -12px;
             position: absolute
-        }
-
-        .textbox-email {
-            width: 358px;
-            height: 50px;
-            box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
-            border-radius: 25px !important;
-            background-color: #fff;
-            border: 0;
-            padding-left: 9%
         }
 
         .btn-grab-offer {
@@ -243,10 +202,6 @@
             padding-top: 20px
         }
 
-        .img-new-year {
-            display: none
-        }
-
         .chris-benefits .panel {
             box-shadow: 0 2px 10px rgba(0, 0, 0, .05) !important
         }
@@ -255,26 +210,10 @@
             margin-left: 15px
         }
 
-        .leter-space {
-            letter-spacing: 1px
-        }
-
         #contact-support {
             padding-bottom: 30px
         }
 
-        .select-control {
-            float: left;
-            width: 90px !important;
-            height: 40px !important;
-            font-size: 13px;
-            font-weight: 400;
-            font-style: italic;
-            border-left: 0;
-            border-radius: 3px;
-            background-color: #fafafb;
-            border: none
-        }
 
         .select2-container--default .select2-selection--single {
             background-color: #fff !important;
@@ -295,10 +234,6 @@
         }
 
         @media only screen and (max-width: 600px) {
-            .first-time-shipment {
-                height: 651px
-            }
-
             .img-mobile-view {
                 display: block !important;
             }
@@ -307,33 +242,8 @@
                 display: none !important;
             }
 
-            .textbox-email {
-                width: 330px
-            }
-
-            .div-snow {
-                display: none
-            }
-
-            .div-newyear {
-                display: none
-            }
-
             .fst-service {
                 margin-top: -260px
-            }
-
-            .c-image {
-                display: none
-            }
-
-            .txt-align {
-                text-align: center
-            }
-
-            .img-new-year {
-                display: block;
-                width: 240px
             }
 
             .chris-benefits ul li {
@@ -348,14 +258,14 @@
 
         <main>
             <div class="header">
-                <div class="container"><br><br><br>
+                <div class="container"><br><br>
                     <center>
                         <h1 class="f-s-36 f-c-white f-w-8">MYNTRA Online Shopping</h1>
                         <p class="f-s-20 f-c-l-gray ">Shop Myntra Fashon Store With Your ShoppRe Address for International Delivery from India.<br></p>
                         <br>
                     </center>
 {{--                    <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611">--}}
-                    <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #e9c46a">
+                    <p class="f-c-white f-w-9 text-center" >
                         <i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
                             Get ₹200 Discount on Shipping Myntra Products Internationally. T&C*</i></p>
                     <br>
@@ -400,17 +310,17 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <center>
-                <a href="https://www.myntra.com/hn-bif-women-nov19?extra_search_param=pinProductsCsv%3A10498010&p=2" target="_blank">
+                <a href="https://www.myntra.com/shop/cls-feb20-prebuzz" target="_blank">
                     <img class="img-desktop-view"
-                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/2/20/c4d9936d-14ca-42ad-ae4b-4333ebfc4d1f1582179020304-Square-Desktop-Feb-20-H-N---Desktop-Square-Banner.jpg"
+                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/2/25/8fa87e30-a8c2-464a-900b-48470de2cac31582647307203-prebuzz-msb--1-.jpg"
 {{--                         width="800px"--}}
                          width="1100px"
                     ></a>
                     </center>
                 <center>
-                    <a href="https://www.myntra.com/hn-bif-women-nov19?extra_search_param=pinProductsCsv%3A10498010&p=2" target="_blank">
+                    <a href="https://www.myntra.com/shop/cls-feb20-prebuzz" target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/2/20/5b25a582-2082-4988-9a4a-c1b6e5d81fe21582178984197-Square-Feb-20-H-N---App-Square-Banner--Brand-Day-.jpg"
+                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/2/26/11b32e61-4012-42d9-8489-a355781dd71d1582718202009-prebuzz-msb.jpg"
                              width="350px" ></a>
                 </center>
 {{--                <div class="">--}}

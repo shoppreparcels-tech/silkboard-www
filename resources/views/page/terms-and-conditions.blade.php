@@ -120,12 +120,15 @@
 
              <ul class="policy-paragraph">
                 <li>
-                    Shoppre.com will not provide services to any of the following countries/regions:
+                    Shoppre.com will not provide services to the following countries/regions:
                 </li>
              </ul>
              <ol class="policy-paragraph">
                 <li>Cuba</li>
                 <li>Iran</li>
+                <li>Iraq</li>
+                <li>Turkey</li>
+                <li>Morocco</li>
                 <li>Myanmar</li>
                 <li>North Korea</li>
                 <li>Sudan</li>

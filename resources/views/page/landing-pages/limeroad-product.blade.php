@@ -112,14 +112,14 @@
 @section('content')
     <main>
         <div class="header">
-            <div class="container"><br><br><br>
+            <div class="container"><br><br>
                 <center>
                     <h1 class="f-s-36 f-c-white f-w-8">LIMEROAD Online Shopping</h1>
                     <p class="f-s-20 f-c-l-gray ">Shop Limeroad With Your ShoppRe Address for International Shipping from India.<br></p>
                     <br>
                 </center>
 {{--                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #fe9611">--}}
-                <p class="f-s-20 f-c-white f-w-9 text-center" style="background-color: #e9c46a">
+                <p class="f-s-20 f-c-white f-w-9 text-center">
                     <i><a href="/first-time-international-shipment-offer" target="_blank">ShoppRe Offer</a> :
                         Get ₹200 Discount on Shipping Limeroad Products Internationally. T&C*</i></p>
                 <br>
@@ -157,9 +157,13 @@
             <div class="row">
                 <center>
                 <a href="https://www.limeroad.com/shopping-offers" target="_blank">
-                    <img class="img-desktop-view" src="https://img0.junaroad.com/images/banners/b2g1_14Jan2019.jpg" width="1100px"></a>
+                    <img class="img-desktop-view"
+                         src="http://img1.junaroad.com//assets/images/mobileNotif/1487922743212.jpg"
+                         width="1100px"></a>
                     <a href="https://www.limeroad.com/shopping-offers" target="_blank">
-                    <img class="img-mobile-view img-shopperstop-offer" src="https://img0.junaroad.com/images/banners/b2g1_14Jan2019.jpg" width="310px" ></a>
+                    <img class="img-mobile-view img-shopperstop-offer"
+                         src="http://img1.junaroad.com//assets/images/mobileNotif/1487937410009.jpg"
+                         width="310px" ></a>
                 </center>
 {{--                <div class="">--}}
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">January 2020 Sale: <span class="f-s-25 f-c-red f-w-9">Women & Men Fashion Clothing</span> /--}}

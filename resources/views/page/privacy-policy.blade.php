@@ -24,7 +24,7 @@
         <div class="col-md-12">
         	<h1>PRIVACY NOTICE AND PRIVACY POLICY</h1>
             <p class="policy-paragraph">
-            	This Privacy Policy describes the ways that Shoppre.com collects, uses, protects, transfers, and discloses information that you provide to us, that we collect, or that we receive through our website, located at www.Shoppre.com (the "Website"). This Privacy Policy was last updated on July 11th, 2017.
+            	This Privacy Policy describes the ways that Shoppre.com collects, uses, protects, transfers, and discloses information that you provide to us, that we collect, or that we receive through our website, located at www.Shoppre.com (the "Website"). This Privacy Policy was last updated on January 30th, 2020.
             </p>
 
             <h3>Philosophy</h3>
