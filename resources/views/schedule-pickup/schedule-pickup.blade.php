@@ -29,6 +29,8 @@
 
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script src="{{env('AWS_CLOUD_FRONT')}}/js/angular.min.js"></script>
+
     <style>
         .signup-blox{background:#fff;width:70%;margin:0 auto;border:1px solid rgba(0,0,0,.5);border-radius:10px}.address-line{font-size:12px;color:gray}.box{width:20%;margin:0 auto;background:rgba(255,255,255,.2);padding:35px;border:2px solid #fff;border-radius:20px/50px;background-clip:padding-box;text-align:center}.address-color{color:#000}.btn-close-popup{float:right;background:#e85151;border-radius:36px;width:20px;text-align:center;cursor:pointer}.button{font-size:1em;padding:10px;color:#fff;border:2px solid orange;border-radius:20px/50px;text-decoration:none;cursor:pointer;transition:all .3s ease-out}.button:hover{background:orange}.address-book{cursor:pointer}.overlay{position:fixed;z-index:999;top:-25px;bottom:0;left:0;right:0;background:rgba(.6,.5,.6,.7);transition:opacity .5s;visibility:visible;opacity:1}.overlay:target{visibility:hidden;opacity:0;display:none}.signup-heading{font-size:20px;font-weight:600;text-align:center;color:#d78419;margin-bottom:20px}.popup{margin:70px auto;padding:20px;background:#fff;border-radius:5px;width:40%;position:relative;transition:all 5s ease-in-out}.popup h2{margin-top:0;color:#333;font-family:Tahoma,Arial,sans-serif}.popup .close{position:absolute;top:20px;right:30px;transition:all .2s;font-size:30px;font-weight:700;text-decoration:none;color:#333}.popup .close:hover{color:orange}.address-block{display:none;margin-bottom:3%}.card{box-shadow:0 4px 8px 0 rgba(0,0,0,.2);transition:.3s}.card:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,.2)}.container{padding:2px 16px}.popup .content{max-height:30%;overflow:auto}.seo-sec{background-color:#fafafb}.seo-sec a{text-decoration:underline}.ul-seo ul li{list-style:none}.ul-seo li{font-size:16px;font-weight:600;color:#677582}
     </style>
@@ -149,10 +151,10 @@
             </div>
             <div class="col-md-6 col-xs-12 "><br>
                 <br>
-                <a href="https://www.shopprecouriers.com/first-time-international-courier-offer" target="_blank">
-                    <img src="https://www.shopprecouriers.com/img/images/international-courier-offer.png"
-                         alt="couier offer" title="Click Here" class="img-responsive">
-                </a>
+{{--                <a href="https://www.shopprecouriers.com/first-time-international-courier-offer" target="_blank">--}}
+{{--                    <img src="https://www.shopprecouriers.com/img/images/international-courier-offer.png"--}}
+{{--                         alt="couier offer" title="Click Here" class="img-responsive">--}}
+{{--                </a>--}}
             </div>
         </div>
         <div class="container ">

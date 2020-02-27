@@ -24,14 +24,14 @@
     {{--    <script src="{{asset('js/jquery.ajax-cross-origin.min.js')}}"></script>--}}
 
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('css/custom/New_style.css')}}?v={{Config::get('app.last_commit_hash')}}">
+{{--    <link rel="stylesheet" href="{{asset('css/custom/New_style.css')}}?v={{Config::get('app.last_commit_hash')}}">--}}
 
     <link rel="stylesheet" href="{{asset('css/custom/style.css')}}?{{Config::get('app.last_commit_hash')}}">
-    <link rel="stylesheet" href="{{asset('css/landing-page.css')}}?{{Config::get('app.last_commit_hash')}}">
-    <link rel="stylesheet" href="{{asset('css/custom/style-frame.css')}}?{{Config::get('app.last_commit_hash')}}">
+{{--    <link rel="stylesheet" href="{{asset('css/landing-page.css')}}?{{Config::get('app.last_commit_hash')}}">--}}
+{{--    <link rel="stylesheet" href="{{asset('css/custom/style-frame.css')}}?{{Config::get('app.last_commit_hash')}}">--}}
     {{--<link rel="stylesheet" href="{{asset('css/custom/signup.css')}}?{{Config::get('app.last_commit_hash')}}">--}}
-    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/select2.min.css">
+{{--    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">--}}
+{{--    <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/select2.min.css">--}}
     {{--<link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/star-rating.min.css">--}}
 
 
@@ -148,16 +148,16 @@
 
 @include('partials._footer')
 
-<script src="{{asset('js/utils.js')}}"></script>
+<script async src="{{asset('js/utils.js')}}"></script>
 {{--<script src="{{asset('js/intlTelInput.js')}}"></script>--}}
-<script src="{{asset('js/easyResponsiveTabs.js')}}"></script>
-<script src="{{env('AWS_CLOUD_FRONT')}}/js/bootstrap.min.js"></script>
-<script src="{{env('AWS_CLOUD_FRONT')}}/js/txtProgress.min.js"></script>
-<script src="{{env('AWS_CLOUD_FRONT')}}/js/validate.min.js"></script>
+<script async src="{{asset('js/easyResponsiveTabs.js')}}"></script>
+<script async src="{{env('AWS_CLOUD_FRONT')}}/js/bootstrap.min.js"></script>
+<script async src="{{env('AWS_CLOUD_FRONT')}}/js/txtProgress.min.js"></script>
+<script async src="{{env('AWS_CLOUD_FRONT')}}/js/validate.min.js"></script>
 <script src="{{env('AWS_CLOUD_FRONT')}}/js/angular.min.js"></script>
-<script src="{{env('AWS_CLOUD_FRONT')}}/js/ui-bootstrap-tpls-2.5.0.min.js"></script>
+<script async src="{{env('AWS_CLOUD_FRONT')}}/js/ui-bootstrap-tpls-2.5.0.min.js"></script>
 {{--<script src="{{env('AWS_CLOUD_FRONT')}}/js/star-rating.min.js" type="text/javascript"></script>--}}
-<script src="{{env('AWS_CLOUD_FRONT')}}/js/select2.min.js"></script>
+<script async src="{{env('AWS_CLOUD_FRONT')}}/js/select2.min.js"></script>
 @include('chat-script')
 @include('./partials/segment')
 <script>

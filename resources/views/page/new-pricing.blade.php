@@ -17,6 +17,8 @@
     <meta property="og:description" content="Shipping Rate Calculator - Calculate Your Shipping Costs Now & Save Up to 80% on 3-6 Day Shipping from India to your Country." />
     <meta property="og:site_name" content="ShoppRe" />
 
+    <script src="{{env('AWS_CLOUD_FRONT')}}/js/angular.min.js"></script>
+
     <style>
         .container-fluid{padding-left:10%;padding-right:10%}.btn span.glyphicon{opacity:0}.btn.active span.glyphicon{opacity:1}.l-pad{padding-left:10px}.div-b-price{border-radius:3px;border:1px solid silver;background-color:#fbfbfc}.div-p-price{box-shadow:0 2px 3px rgba(232,81,81,.1);border-radius:3px;border:1px solid #ffe19a;background-color:#fff7e5}.div-b-b{border-bottom:1px solid rgba(146,156,165,.2);padding-bottom:20px}.btn-terms{border-radius:30px;background-color:#929ca5;color:#fff}.div-c-guide{border-radius:3px;border:1px solid rgba(233,196,106,.2);background-color:#fff7e4}.btn-enable{display:none}.btn-disabled{display:inline-block}.btn-puls-pad{padding:6px 8px}.new-pricing .select-control{float:left;width:89px;height:40px;font-size:13px;font-weight:400;font-style:italic;border-left:0;border-radius:20px;background-color:#fafafb;border:none}.sidebar-nav-fixed{width:13%}.fixed-div{position:fixed}#volumetric-dis{display:none}.margin01{margin:6px}.margin02{margin:4px}.m-b-5{margin-bottom:5px}@media only screen and (max-width:600px){.l-pad{padding-left:0}.container-fluid{padding-left:1%;padding-right:1%}.btn-enable{display:inline-block}.btn-disabled{display:none}.btn-puls-pad{padding:6px 6px}}
     </style>
