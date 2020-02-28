@@ -80,18 +80,19 @@
                 </div>
             </div>
             <center>
-                    <a href="https://www.flipkart.com/offers-list/mensfashion?screen=dynamic&pk=themeViews%3DLS-RD20-Jan-MenFashion%3Ada%2CLS-RD20-Jan-MenFashion%3Add~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&param=778878&otracker=hp_banner_1_6.bannerX3.BANNER_FVA6YAN8K2RM&fm=neo%2Fmerchandising&iid=M_2895c065-5e73-49aa-a718-c38ba037e71b_6.FVA6YAN8K2RM&ppt=hp&ppn=hp&ssid=us1ond00a80000001581918347843"
+                    <a href="https://www.flipkart.com/flipstart-days-store?otracker=hp_bannerads_2_1.bannerAdCard.BANNERADS_3SG7WGV8IDRY"
                        target="_blank">
                         <img class="img-desktop-view"
-                             src="https://rukminim1.flixcart.com/flap/480/480/image/af2926cf02a3c3c9.jpg?q=50"
+                             src="https://rukminim1.flixcart.com/flap/1800/1800/image/70daf16107c90070.jpg?q=80"
 {{--                             width="1100px"--}}
-                            style="height: 300px;width: 700px;"></a>
+                            style="height: 250px;width: 700px;"></a>
                 </center>
                 <center>
-                    <a href="https://www.flipkart.com/offers-list/mensfashion?screen=dynamic&pk=themeViews%3DLS-RD20-Jan-MenFashion%3Ada%2CLS-RD20-Jan-MenFashion%3Add~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&param=778878&otracker=hp_banner_1_6.bannerX3.BANNER_FVA6YAN8K2RM&fm=neo%2Fmerchandising&iid=M_2895c065-5e73-49aa-a718-c38ba037e71b_6.FVA6YAN8K2RM&ppt=hp&ppn=hp&ssid=us1ond00a80000001581918347843" target="_blank">
+                    <a href="https://www.flipkart.com/flipstart-days-store?otracker=hp_bannerads_2_1.bannerAdCard.BANNERADS_3SG7WGV8IDRY"
+                       target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://rukminim1.flixcart.com/flap/480/480/image/af2926cf02a3c3c9.jpg?q=50"
-                             width="250px" ></a>
+                             src="https://rukminim1.flixcart.com/flap/750/534/image/451e940dd6084c93.jpg?q=90"
+                             width="300px" ></a>
                 </center>
 {{--            <div class="row text-center">--}}
 {{--                <div class="col-sm-4">--}}

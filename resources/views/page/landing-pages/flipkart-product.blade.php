@@ -110,7 +110,8 @@
 @section('content')
     <main>
         <div class="header">
-            <div class="container"><br><br>
+            <div class="container"><br>
+                <br>
                 <center>
                         <h1 class="f-s-36 f-c-white f-w-8">FLIPKART Online Shopping</h1>
                     <p class="f-s-20 f-c-l-gray ">Shop Flipkart With Your ShoppRe Address for International Delivery from India.<br></p>

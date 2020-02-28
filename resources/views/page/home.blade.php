@@ -673,12 +673,12 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="http://cdn.shoppre.com/shoppre/public/amazonSale.jpg" />
+                                         data-src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/Optimus2020/Holi/mobile/English/Header.jpg" />
                                 </div>
                                 <div style="    color: #000;font-size: 14px;margin-top: 10px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                   HAR PAL FASHIONABLE
+                                   COLOUR YOUR HAPPINESS
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
@@ -686,7 +686,7 @@
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
 {{--                                           Start from <i class="fa fa-inr" aria-hidden="true"></i>69--}}
-                                            UPTO 70% Off
+                                            28th Feb - 10th Mar
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;

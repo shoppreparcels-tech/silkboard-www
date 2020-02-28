@@ -126,8 +126,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">MANdatory monday</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up to 80% off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">FLIPSTART DAYS</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">1st - 3rd March</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
@@ -212,8 +212,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">HAR PAL FASHIONABLE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up To 70% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900"> COLOUR YOUR HAPPINESS</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">28th Feb - 10th Mar</h5>
 {{--                            <div class="ecomSmallBox" style="height: 94px;">--}}
                             <div class="ecomSmallBox">
                             <a href="/amazon-india-shop-international-shipping" target="_blank">

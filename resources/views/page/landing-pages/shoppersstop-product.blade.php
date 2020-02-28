@@ -133,16 +133,16 @@
             <div class="row">
                 <div>
                     <center>
-                    <a href="https://www.shoppersstop.com/promotions?icid=eoss|homepg|1-1|offerpg" target="_blank">
+                    <a href="https://www.shoppersstop.com/search/?sort=newArrival-desc&q=s20launch%3Arelevance%3AinStockFlag%3Atrue%3Al1category%3AAll&startRange=&endRange=&icid=newcollection|homepg|1-1|s20launch" target="_blank">
                         <img class="img-desktop-view"
-                             src="https://sslimages.shoppersstop.com/sys-master/root/h6f/hca/14330303676446/banner_00_2000x600_eoss_EN_2000W_20200130.jpg"
+                             src="https://sslimages.shoppersstop.com/sys-master/root/h6e/h0d/14466811396126/banner_2000x600_newcollection_2000W_20200128.jpg.jpg"
                              width="1100px"
                         ></a>
                         </center>
                         <center>
-                        <a href="https://www.shoppersstop.com/promotions?icid=eoss|homepg|1-1|offerpg" target="_blank">
+                        <a href="https://www.shoppersstop.com/search/?sort=newArrival-desc&q=s20launch%3Arelevance%3AinStockFlag%3Atrue%3Al1category%3AAll&startRange=&endRange=&icid=newcollection|homepg|1-1|s20launch" target="_blank">
                     <img class="img-mobile-view img-shopperstop-offer"
-                         src="https://sslimages.shoppersstop.com/sys-master/root/h5f/hc7/14330303741982/banner_04_640x728_eoss_EN_640W_20200130.jpg"
+                         src="https://sslimages.shoppersstop.com/sys-master/root/h6e/h0d/14466811396126/banner_2000x600_newcollection_2000W_20200128.jpg.jpg"
                          width="310px" ></a>
                     </center>
                     {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale /--}}

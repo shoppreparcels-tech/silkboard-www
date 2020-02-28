@@ -86,15 +86,17 @@
             <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Amazon.in HAR PAL FASHIONABLE</h2>
             <div class="row text-center">
                 <center>
-                <a href="https://www.amazon.in/b?node=1953602031&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739&pf_rd_r=7BH440747EZKJYAFKCJM" target="_blank">
+                <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_HoliLett_2c1_w?node=20913932031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-3&pf_rd_r=ZC01PXSNQCY098C8CFE9&pf_rd_t=101&pf_rd_p=edafaf4a-6878-449a-bc83-afefeb6b62f4&pf_rd_i=5788258031"
+                   target="_blank">
                     <img class="img-desktop-view"
-                         src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/XCM/WA-PC._SX3000_QL85_.jpg"
+                         src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/Optimus2020/Holi/Desktop/English/Header-Desktop-3.jpg"
                          width="1100px"></a>
                     </center>
                 <center>
-                    <a href="https://www.amazon.in/b?node=1953602031&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739&pf_rd_r=7BH440747EZKJYAFKCJM" target="_blank">
+                    <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_HoliLett_2c1_w?node=20913932031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-3&pf_rd_r=ZC01PXSNQCY098C8CFE9&pf_rd_t=101&pf_rd_p=edafaf4a-6878-449a-bc83-afefeb6b62f4&pf_rd_i=5788258031"
+                       target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/XCM/WA._SY1200_QL85_.jpg"
+                             src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/Optimus2020/Holi/mobile/English/Header.jpg"
                              width="310px" ></a>
                 </center>
 {{--                <div class="col-sm-4">--}}
