@@ -641,7 +641,7 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="http://cdn.shoppre.com/shoppre/public/faceMask.png" />
+                                         data-src="http://cdn.shoppre.com/shoppre/public/faceMask1.png" />
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
