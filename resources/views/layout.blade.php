@@ -19,8 +19,8 @@
     <!-- Style -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="manifest" href="/manifest.json"/>
-    <link href="{{env('AWS_CLOUD_FRONT')}}/css/txtProgress.min.css" rel="stylesheet">
-    <script src="{{env('AWS_CLOUD_FRONT')}}/js/jquery.min.js"></script>
+    <link href="{{asset('css/txtProgress.min.css')}}" rel="stylesheet">
+    <script src="{{asset('js/jquery.min.js')}}"></script>
     {{--    <script src="{{asset('js/jquery.ajax-cross-origin.min.js')}}"></script>--}}
 
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="{{asset('css/custom/style-frame.css')}}?{{Config::get('app.last_commit_hash')}}">
     {{--<link rel="stylesheet" href="{{asset('css/custom/signup.css')}}?{{Config::get('app.last_commit_hash')}}">--}}
     <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/select2.min.css">
+    <link rel="stylesheet" href="{{asset('/css/select2.min.css'}}>
     {{--<link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/star-rating.min.css">--}}
 
 
