@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="{{asset('css/custom/style-frame.css')}}?{{Config::get('app.last_commit_hash')}}">
     {{--<link rel="stylesheet" href="{{asset('css/custom/signup.css')}}?{{Config::get('app.last_commit_hash')}}">--}}
     <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/select2.min.css'}}">
+    <link rel="stylesheet" href="{{asset('/css/select2.min.css')}}">
     {{--<link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/star-rating.min.css">--}}
 
 
