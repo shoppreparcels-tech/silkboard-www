@@ -1534,8 +1534,6 @@
                     });
                 }
             });
-
-            // End Document ready
         });
 
         $('.tabgroup > div').hide();
