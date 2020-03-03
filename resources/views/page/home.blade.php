@@ -151,7 +151,7 @@
 
     </script>
 
-    <script async src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
 
     <script>
         window.addEventListener("load", function(event) {
@@ -162,10 +162,24 @@
 {{--    lazyload" src="/img/images/load.gif"  data-src="/img/svg/shipments.svg"--}}
 
     <style>
+        .grecaptcha-badge {
+            width: 70px !important;
+            overflow: hidden !important;
+            transition: all 0.3s ease !important;
+            left: 4px !important;
+        }
 
         .img-sale{
             width: 200px;
             height: 150px;
+        }
+
+        .grecaptcha-badge:hover {
+            width: 256px !important;
+        }
+
+        .cord-header-size {
+            font-size: 16px
         }
 
         .box-margin-top {
@@ -208,8 +222,34 @@
             float: right
         }
 
+        .div-h-offer {
+            border-radius: 15px;
+            background-color: #fff;
+            padding: 20px
+        }
+
         .div-h-offer>div {
             padding-top: 10px
+        }
+
+        .h-div {
+            height: 40px;
+            overflow: hidden
+        }
+
+        .img-div {
+            padding-top: 10px;
+            overflow: hidden
+        }
+
+        .des-div {
+            height: 150px;
+            overflow: hidden
+        }
+
+        .des-div-rakhi {
+            height: 210px;
+            overflow: hidden
         }
 
         .div-s-br {
@@ -236,6 +276,9 @@
             display: block
         }
 
+        .pad-0-40 {
+            padding: 40px
+        }
 
         .pad-0-10 {
             padding-right: 5px;
@@ -274,7 +317,12 @@
         }
 
         @media only screen and (max-width:1024px) {
-
+            .div-add {
+                display: none
+            }
+            .mobile-pickup-block {
+                display: none
+            }
             .arrow-box {
                 position: absolute;
                 bottom: 28px;
@@ -286,22 +334,33 @@
         }
 
         @media only screen and (max-width:1280px) {
-
+            .div-add {
+                display: none
+            }
+            .mobile-pickup-block {
+                display: none
+            }
         }
 
         @media only screen and (max-width:600px) {
-
+            #img-p {
+                display: none
+            }
             .m-l-content {
                 margin-left: 45px;
             }
             .f-s-19 {
                 font-size: 19px;
             }
-
+            .mobile-pickup-block {
+                display: block
+            }
             .h-sign-up {
                 display: none
             }
-
+            .pad-0-40 {
+                padding: 5px
+            }
             .pad-0-10 {
                 padding-right: 5px;
                 padding-left: 5px
@@ -316,7 +375,10 @@
                 padding-left: 3%;
                 padding-right: 3%
             }
-
+            .des-div {
+                height: 140px;
+                overflow: hidden
+            }
             .vid-s-img {
                 width: 85px;
             }
@@ -528,8 +590,7 @@
                             {{--</div>--}}
                             <div class="col-md-12 col-xs-6 no-pad ">
                                 <center>
-{{--                                    <img  data-src="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-new.png"--}}
-                                    <img  data-src="http://cdn.shoppre.com/shoppre/public/priyamani-new.png"
+                                    <img  data-src="{{env('AWS_CLOUD_FRONT')}}/img/images/priyamani-new.png"
                                           src="/img/images/load.gif"
                                           width="250" height="293"
                                          class="img-responsive lazyload" alt="priyamani shoppre">
@@ -707,7 +768,7 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="http://cdn.shoppre.com/shoppre/public/myntraSale.jpg" />
+                                         data-src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/2/26/11b32e61-4012-42d9-8489-a355781dd71d1582718202009-prebuzz-msb.jpg" />
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
@@ -746,7 +807,7 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="http://cdn.shoppre.com/shoppre/public/ajioSale.jpg" />
+                                         data-src="https://assets.ajio.com/medias/sys_master/images/images/h49/hc9/15657893003294/27022020-M-SHP-topbanner-epicblowoutsale-flat60.jpg" />
 
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;

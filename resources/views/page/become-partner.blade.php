@@ -272,7 +272,127 @@
 @endsection
 
 @section('js_script')
+    <script src="{{env('AWS_CLOUD_FRONT')}}/js/select2.min.js"></script>
     <script>
-        $(document).ready(function(){$("#succesBlock").hide(),$("#seller_lp").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(e){$("#schedule_load").show();var n=$("input[name='Name']").val(),a=$("input[name='email']").val(),t=$("input[name='businssName']").val(),i=$("input[name='webSite']").val(),s=$("input[name='contactNumber']").val(),u=$("#businessType option:selected").text(),l=$("#Countries option:selected").text(),m=$("input[name='domestic']:checked").val(),c=$("input[name='International']:checked").val(),o=$("input[name=_token]").val();jQuery.ajax({url:"seller",type:"POST",data:{_token:o,email:a,name:n,businessType:u,businessName:t,websiteLink:i,contact_no:s,Countries:l,domesticShipmentRange:m,internationalShipmentRange:c,mailtrain_type:"become-partner"},success:function(e){$("#message").text("Thank you for submitting"),$("#succesBlock").show(),$("input[name='Name']").val(""),$("input[name='businessType']").val(""),$("input[name='email']").val(""),$("input[name='businssName']").val(""),$("input[name='webSite']").val(""),$("input[name='contactNumber']").val(""),$("#schedule_load").hide()}})}}),$(".countries").select2()});
+        $(document).ready(function() {
+            $("#succesBlock").hide();
+
+            $("#seller_lp").validate({
+            rules: {
+                email: {
+                    required: !0
+                }
+            },
+            messages: {},
+            submitHandler: function(e) {
+                $("#schedule_load").show();
+                var n = $("input[name='Name']").val(),
+                    a = $("input[name='email']").val(),
+                    t = $("input[name='businssName']").val(),
+                    i = $("input[name='webSite']").val(),
+                    s = $("input[name='contactNumber']").val(),
+                    u = $("#businessType option:selected").text(),
+                    l = $("#Countries option:selected").text(),
+                    m = $("input[name='domestic']:checked").val(),
+                    c = $("input[name='International']:checked").val(),
+                    o = $("input[name=_token]").val();
+                jQuery.ajax({
+                    url: "seller",
+                    type: "POST",
+                    data: {
+                        _token: o,
+                        email: a,
+                        name: n,
+                        businessType: u,
+                        businessName: t,
+                        websiteLink: i,
+                        contact_no: s,
+                        Countries: l,
+                        domesticShipmentRange: m,
+                        internationalShipmentRange: c,
+                        mailtrain_type: "become-partner"
+                    },
+                    success: function(e) {
+                        $("#message").text("Thank you for submitting"), $("#succesBlock").show(), $("input[name='Name']").val(""), $("input[name='businessType']").val(""), $("input[name='email']").val(""), $("input[name='businssName']").val(""), $("input[name='webSite']").val(""), $("input[name='contactNumber']").val(""), $("#schedule_load").hide()
+                    }
+                });
+
+                const leadObject = {
+                    customer: {
+                        name: n,
+                        email: a,
+                        phone: s,
+                    },
+                    form_info: {
+                        form_id: 1,
+                    },
+                    lead_meta: [
+                        {
+                          attribute: 'name',
+                          value: n,
+                        },
+                        {
+                            attribute: 'email',
+                            value: a
+                        },
+                        {
+                          attribute: 'phone',
+                          value: s
+                        },
+                        {
+                            attribute: 'business_type',
+                            value: u
+                        },
+                        {
+                            attribute: 'business_name',
+                            value: t
+                        },
+                        {
+                            attribute: 'website_link',
+                            value: i,
+                        },
+                        {
+                            attribute: 'countries',
+                            value: l,
+                        },
+                        {
+                            attribute: 'domestic_shipment_range',
+                            value: m,
+                        },
+                        {
+                            attribute: 'international_shipment_ange',
+                            value: c,
+                        }
+                    ]
+                };
+
+                const url = window.location.href;
+                const arr = url.split("/");
+                const prefix = arr[0]+'//';
+                const subDomain = arr[2].split('.')[0];
+                const domain = arr[2].split('.')[1]+'.'+arr[2].split('.')[2];
+                let leadsSubDomain = '';
+                if (subDomain === 'www') {
+                    leadsSubDomain = 'leads';
+                } else {
+                    leadsSubDomain = 'staging-leads'
+                }
+                const leadsDomain = prefix + leadsSubDomain+'.'+ domain;
+
+                jQuery.ajax({
+                    url: leadsDomain+"/api/leads",
+                    crossDomain: true,
+                    headers: {
+                        'Access-Control-Allow-Origin': '*'
+                    },
+                    type: "POST",
+                    data: { lead: JSON.stringify(leadObject) },
+                    success: function(res) {
+                    }
+                });
+            }
+            });
+            $(".countries").select2();
+        });
     </script>
 @endsection

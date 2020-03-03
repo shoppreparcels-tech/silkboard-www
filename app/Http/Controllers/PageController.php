@@ -1390,6 +1390,7 @@ class PageController extends Controller
         $json_data = json_encode($data);
         mailChimpTaskOperations::createList($list_id, $auth, $json_data);
         $this->MailTrainSubscriber($req, $name);
+        return response()->json(["status" => "success", "data" => $data]);
     }
     public function apiVideoConsolidation(Request $req)
     {
