@@ -126,8 +126,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">FLIPSTART DAYS</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">1st - 3rd March</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Kurtas, Sarees & More</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
@@ -182,9 +182,9 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">EPIC BLOWOUT SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">FLAT 60% Off</h5>
-                            <h5 class="header6 p-color-cement font-weight-900">27th FEB-1st MAR</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">PAYDAY SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-80% Off</h5>
+{{--                            <h5 class="header6 p-color-cement font-weight-900">2nd - 4th MAR</h5>--}}
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
@@ -196,9 +196,9 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">GRAND CLEARENCE SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900"> 50-80% Off </h5>
-                            <h5 class="header6 p-color-cement font-weight-900"> 29th Feb - 3rd March </h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">TRENDY ETHNIC WEAR</h4>
+                            <h5 class="header6 p-color-cement font-weight-900"> Styles for this summer </h5>
+{{--                            <h5 class="header6 p-color-cement font-weight-900">  </h5>--}}
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">

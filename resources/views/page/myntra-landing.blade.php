@@ -125,14 +125,14 @@
 
             </center>
             <div class="row text-center">
-                <a href="https://www.myntra.com/shop/cls-feb20-prebuzz" target="_blank">
+                <a href="https://www.myntra.com/house-of-pataudi?f=Gender%3Amen%20women%2Cwomen&sort=new" target="_blank">
                     <img class="img-desktop-view"
-                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/2/25/8fa87e30-a8c2-464a-900b-48470de2cac31582647307203-prebuzz-msb--1-.jpg"
+                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/2/28/b47684c3-7ff3-4a28-9a44-9d688c1954931582884109947-Square-Desktop-Mar-20-HoP---Desktop-Square-Banner.jpg"
                          width="1000px"></a>
                 <center>
-                    <a href="https://www.myntra.com/shop/cls-feb20-prebuzz" target="_blank">
+                    <a href="https://www.myntra.com/house-of-pataudi?f=Gender%3Amen%20women%2Cwomen&sort=new" target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/2/26/11b32e61-4012-42d9-8489-a355781dd71d1582718202009-prebuzz-msb.jpg"
+                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/2/28/035f319f-cce7-413f-8449-559ba03bdc361582884081221-Square-Mar-20-HoP---App-Square-Banner--Brand-Day-.jpg"
                              width="350px" ></a>
                 </center>
 {{--                <div class="col-sm-4">--}}

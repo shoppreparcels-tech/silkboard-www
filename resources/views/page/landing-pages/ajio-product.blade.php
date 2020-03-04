@@ -140,16 +140,16 @@
 
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
                     <center>
-                    <a href="https://www.ajio.com/s/shop-big-mega60-3874-5926-1123" target="_blank">
+                    <a href="https://www.ajio.com/s/shp-nail-the-sale--3891-56661" target="_blank">
 
                         <img class="img-desktop-view"
-                             src="https://assets.ajio.com/medias/sys_master/images/images/h8f/ha4/15657544155166/27022020-D-SHP-topbanner-epicblowoutsale-flat60.jpg"
+                             src="https://assets.ajio.com/medias/sys_master/images/images/hcc/hd9/15720955183134/02032020-D-SHP-topbanner-paydaysale-40-80extra20.jpg"
                              width="1100px"></a>
                         </center>
                     <center>
-                        <a href="https://www.ajio.com/s/shop-big-mega60-3874-5926-1123" target="_blank">
+                        <a href="https://www.ajio.com/s/shp-nail-the-sale--3891-56661" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.ajio.com/medias/sys_master/images/images/h49/hc9/15657893003294/27022020-M-SHP-topbanner-epicblowoutsale-flat60.jpg"
+                                 src="https://assets.ajio.com/medias/sys_master/images/images/hd5/h31/15720955707422/02032020-M-WHP-TopBanner-payday-4080extra20.jpg"
                                  width="300px" ></a>
 
                     </center>

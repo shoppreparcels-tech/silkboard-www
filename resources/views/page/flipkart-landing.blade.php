@@ -80,18 +80,18 @@
                 </div>
             </div>
             <center>
-                    <a href="https://www.flipkart.com/flipstart-days-store?otracker=hp_bannerads_2_1.bannerAdCard.BANNERADS_3SG7WGV8IDRY"
+                    <a href="https://www.flipkart.com/womens-clothing/ethnic-wear/pr?sid=2oq%2Cc1r%2C3pj&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&otracker=clp_banner_3_2.bannerX3.BANNER_womens-clothing-store_JVH3BBO62QYP&fm=neo%2Fmerchandising&iid=M_1e6c6ce7-bf5d-44cb-b110-532260ec6e30_2.JVH3BBO62QYP&ssid=575oeoi8hc0000001583311306060"
                        target="_blank">
                         <img class="img-desktop-view"
-                             src="https://rukminim1.flixcart.com/flap/1800/1800/image/70daf16107c90070.jpg?q=80"
+                             src="https://rukminim1.flixcart.com/flap/480/480/image/a11dad25799ccba0.jpg?q=50"
 {{--                             width="1100px"--}}
                             style="height: 250px;width: 700px;"></a>
                 </center>
                 <center>
-                    <a href="https://www.flipkart.com/flipstart-days-store?otracker=hp_bannerads_2_1.bannerAdCard.BANNERADS_3SG7WGV8IDRY"
+                    <a href="https://www.flipkart.com/womens-clothing/ethnic-wear/pr?sid=2oq%2Cc1r%2C3pj&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&otracker=clp_banner_3_2.bannerX3.BANNER_womens-clothing-store_JVH3BBO62QYP&fm=neo%2Fmerchandising&iid=M_1e6c6ce7-bf5d-44cb-b110-532260ec6e30_2.JVH3BBO62QYP&ssid=575oeoi8hc0000001583311306060"
                        target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://rukminim1.flixcart.com/flap/750/534/image/451e940dd6084c93.jpg?q=90"
+                             src="https://rukminim1.flixcart.com/flap/480/480/image/a11dad25799ccba0.jpg?q=50"
                              width="300px" ></a>
                 </center>
 {{--            <div class="row text-center">--}}

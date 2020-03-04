@@ -768,19 +768,19 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/2/26/11b32e61-4012-42d9-8489-a355781dd71d1582718202009-prebuzz-msb.jpg" />
+                                         data-src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/2/28/035f319f-cce7-413f-8449-559ba03bdc361582884081221-Square-Mar-20-HoP---App-Square-Banner--Brand-Day-.jpg" />
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                   GRAND CLEARENCE SALE
+                                    TRENDY ETHNIC WEAR
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                        50-80% Off
+                                        Styles for this summer
                                         </span>
 {{--                                        <span style="font-size: 14px;font-weight: bold;--}}
 {{--                                                     padding-top: 5px;color: #000000;;--}}
@@ -793,7 +793,7 @@
                                 <div style="display: block;padding: 0 0 0 0;
                                                 color: #181818;font-size: 14px;font-family: Lato;
                                                 text-align: left;">
-                                    Myntra.com (29th Feb - 3rd March)
+                                    Myntra.com
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}
@@ -807,20 +807,20 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="https://assets.ajio.com/medias/sys_master/images/images/h49/hc9/15657893003294/27022020-M-SHP-topbanner-epicblowoutsale-flat60.jpg" />
+                                         data-src="https://assets.ajio.com/medias/sys_master/images/images/hd5/h31/15720955707422/02032020-M-WHP-TopBanner-payday-4080extra20.jpg" />
 
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    EPIC BLOWOUT SALE
+                                    PAYDAY SALE
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                            FLAT 60% Off
+                                            40-80% Off
                                         </span>
                                         <span style="font-size: 14px;font-weight: bold;
                                                          padding-top: 5px;color: #000000;;
@@ -831,7 +831,7 @@
                                 <div style="display: block;padding: 0 0 0 0;
                                                 color: #181818;font-size: 14px;font-family: Lato;
                                                 text-align: left;">
-                                    AJIO.com (27th FEB-1st MAR)
+                                    AJIO.com
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}

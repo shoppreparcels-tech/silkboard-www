@@ -434,7 +434,7 @@
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 799
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 2,499.00
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -456,7 +456,7 @@
                            target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://rukminim1.flixcart.com/image/416/416/k63xle80/mask-respirator/9/k/v/mnm-mask-green-mop-n-me-original-imafz5m4bf4wuqdh.jpeg?q=70" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/k6nxrbk0/mask-respirator/3/p/p/m14-mop-n-me-original-imafpfzn38dwz3c5.jpeg?q=70" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -468,7 +468,7 @@
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 350
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 1,429
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -554,11 +554,11 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.medilord.com/Face-Mask-"
+                        <a href="https://www.flipkart.com/sj-stocks-surgical-face-mask-10-pieces-shaping/p/itmc25fbea8e1eb1?pid=FSKFZNSPPHDNCGCF&lid=LSTFSKFZNSPPHDNCGCFSFVARJ&marketplace=FLIPKART&fm=productRecommendation%2Fsimilar&iid=R%3As%3Bp%3AFSKESKWYSTFHACGU%3Bl%3ALSTFSKESKWYSTFHACGUJJ37GP%3Bpt%3App%3Buid%3A52170964-2313-01ab-f854-0e8fe7b362ab%3B.FSKFZNSPPHDNCGCF.LSTFSKFZNSPPHDNCGCFSFVARJ&ppt=pp&ppn=pp&ssid=ap34o1v7cw0000001583305695588&otracker=pp_reco_Similar%2BProducts_1_32.productCard.PMU_HORIZONTAL_Similar%2BProducts_FSKFZNSPPHDNCGCF.LSTFSKFZNSPPHDNCGCFSFVARJ_productRecommendation%2Fsimilar_0&otracker1=pp_reco_PINNED_productRecommendation%2Fsimilar_Similar%2BProducts_GRID_productCard_cc_1_NA_view-all&cid=FSKFZNSPPHDNCGCF.LSTFSKFZNSPPHDNCGCFSFVARJ"
                            target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="https://www.medilord.com/image/cache/catalog/Medilord/Blossom/Blossom%20Face%20Mask%203%20Ply%20(2)-750x750.jpg" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/k66sh3k0/face-shaping-mask/g/c/f/surgical-face-mask-10-pieces-mask-sj-stocks-original-imafzzrjj3pafhw7.jpeg?q=70" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -588,17 +588,17 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.industrybuying.com/surgical-mask-safeshield-MED.SUR.10549580/"
+                        <a href="https://www.flipkart.com/om-face-mask-disposable-2-ply-elastic-shaping/p/itmeskwyh5nzzzwg?pid=FSKESKWYSTFHACGU&lid=LSTFSKESKWYSTFHACGUJJ37GP&marketplace=FLIPKART&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_0_5_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_0_5_na_na_na&fm=SEARCH&iid=b1cab310-910f-4c4d-8e31-79536dab756e.FSKESKWYSTFHACGU.SEARCH&ppt=sp&ppn=sp&ssid=ap34o1v7cw0000001583305695588&qH=2cf2ea20ceeeb02c"
                            target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="//static6.industrybuying.com/products/medical-supplies-equipment/medical-consumables/surgical-mask/MED.SUR.10549580.jpg" />
+                                     src="https://rukminim1.flixcart.com/image/416/416/j8ddbbk0-1/face-shaping-mask/y/3/m/face-mask-disposable-3-ply-with-elastic-om-original-imaeyekhgc2bn92k.jpeg?q=70    " />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    2-Ply Ear Loop Mask
+                                   2 ply Elastic Face Shaping Mask
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
@@ -622,23 +622,23 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.industrybuying.com/surgical-mask-max-plus-MED.SUR.14640203/"
+                        <a href="https://www.amazon.in/Nesba-care-Disposable-Surgical-Face/dp/B07QLM3MB7/ref=pd_vtp_328_2/259-1668873-7453237?_encoding=UTF8&pd_rd_i=B07QLM3MB7&pd_rd_r=afbddaea-3f95-4e96-a2eb-cf37d854ad07&pd_rd_w=z5jce&pd_rd_wg=6fxiQ&pf_rd_p=6846093d-b717-478e-876f-7bb6ac0954c3&pf_rd_r=Z6V7J8J5WR2JPD9A1GPC&psc=1&refRID=Z6V7J8J5WR2JPD9A1GPC"
                            target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img border-radius-10 vday-img"
-                                     src="//static6.industrybuying.com/products/medical-supplies-equipment/medical-consumables/surgical-mask/MED.SUR.14640203.jpg" />
+                                     src="https://images-na.ssl-images-amazon.com/images/I/31AOcE1KuAL.jpg" />
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    2 Ply Surgical Face Mask
+                                    Surgical Face Mask 3 Ply 100 Pcs
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 934
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 2,900.00
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -935,7 +935,7 @@
 
         <div class="container christmas">
             <label class="f-s-24 f-c-d-greay"> Does Surgical Mask help protect you from Coronavirus?</label>
-            <p class="f-s-16 f-c-gray f-w-4 "><b>"Coronavirus: Death Toll Exceeds 1500+!"</b> The news headlines and panic vibes of Coronavirus are still alive everywhere.
+            <p class="f-s-16 f-c-gray f-w-4 "><b>"Coronavirus: Death Toll Exceeds 2500+!"</b> The news headlines and panic vibes of Coronavirus are still alive everywhere.
                 Ever since the deadly outbreak happened, the doctors have been advising various precautionary methods to prevent the spread. <br><br>Since coronavirus is an airborne disease,
                 the most important custom is to maintain respiratory hygiene. Thus, equipping a mask would minimize the risk of direct contact with the virus. Not only does this apply
                 for the people who are uninfected but also for those who are suffering from the disease. <br><br>As surgical face masks would trap the infected individual's expiratory droplets
