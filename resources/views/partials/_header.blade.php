@@ -201,7 +201,10 @@
                     </li>
                     <li><a href="{{route('offers-new.index')}}" class="shoppre-offers">Offers </a></li>
                     <li><a href="{{route('pricing')}}">Shipping Rates</a></li>
-                    <li><a href="{{route('Shipchinamask')}}">Face Mask <sup class="p-color-red" style="font-size: 8px" id="offer">Buy</sup></a></li>
+                    <li><a href="{{route('ajio-product')}}"><span style="color: #f9c030;" id="offer">Holi Special</span>
+{{--                            <sup class="p-color-red" style="font-size: 8px" id="offer">Buy</sup>--}}
+                        </a>
+                    </li>
 {{--                    <li><a href="{{route('contact')}}" class="shoppre-support">Support</a></li>--}}
                     <li><a href="https://www.shopprecouriers.com/seller-courier-partner" target="_blank" class="shoppre-partner">Seller Partner</a></li>
                     @if (Request::route()->getName() !== 'home')

@@ -140,16 +140,16 @@
 
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
                     <center>
-                    <a href="https://www.ajio.com/s/shp-nail-the-sale--3891-56661" target="_blank">
+                    <a href="https://www.ajio.com/s/shop-big-mega60-3874-5926-1123" target="_blank">
 
                         <img class="img-desktop-view"
-                             src="https://assets.ajio.com/medias/sys_master/images/images/hcc/hd9/15720955183134/02032020-D-SHP-topbanner-paydaysale-40-80extra20.jpg"
+                             src="https://assets.ajio.com/medias/sys_master/images/images/hb4/h43/15746397700126/05032020-D-SHP-topbanner-holispecial-flat60.jpg"
                              width="1100px"></a>
                         </center>
                     <center>
-                        <a href="https://www.ajio.com/s/shp-nail-the-sale--3891-56661" target="_blank">
+                        <a href="https://www.ajio.com/s/shop-big-mega60-3874-5926-1123" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.ajio.com/medias/sys_master/images/images/hd5/h31/15720955707422/02032020-M-WHP-TopBanner-payday-4080extra20.jpg"
+                                 src="https://assets.ajio.com/medias/sys_master/images/images/haa/hfc/15746852913182/05032020-M-SHP-topbanner-holispecial-flat60.jpg"
                                  width="300px" ></a>
 
                     </center>
@@ -164,8 +164,9 @@
 
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26">
-                            <a href="https://www.ajio.com/s/wedding-closet-3777-54091" target="_blank">
-                                <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/hbb/hbb/14537556819998/14112019-D-WHP-Stores-weddingcloset.jpg">
+                            <a href="https://www.ajio.com/s/shirts-3894-48681" target="_blank">
+                                <img class="img-product m-t-img"
+                                     src="https://assets.ajio.com/medias/sys_master/images/images/h3a/h66/15744082018334/5032020-D-WHP-AJIOOWN-shirts.jpg">
 {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
 {{--                                    Up to 70% Off--}}
 {{--                                </div>--}}
@@ -175,8 +176,9 @@
 
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <a href="https://www.ajio.com/s/women-winter-wear-3621-51391" target="_blank">
-                                <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/h35/hfc/14912091684894/26122019-D-WHP-Stores-winterwear.jpg">
+                            <a href="https://www.ajio.com/s/ethnic-essentials-3894-48681" target="_blank">
+                                <img class="img-product m-t-img"
+                                     src="https://assets.ajio.com/medias/sys_master/images/images/h61/h91/15744082083870/5032020-D-WHP-AJIOOWN-ethnicessentials.jpg">
 {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
 {{--                                    Up to 60% Off--}}
 {{--                                </div>--}}
@@ -186,8 +188,9 @@
 
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <a href="https://www.ajio.com/s/ethnicwear-3775-52361" target="_blank">
-                                <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/h47/h34/14851462856734/11122019-D-WHP-AJIOOWN-ethnicwear.jpg">
+                            <a href="https://www.ajio.com/s/flats-3894-48681" target="_blank">
+                                <img class="img-product m-t-img"
+                                     src="https://assets.ajio.com/medias/sys_master/images/images/hdf/hb8/15744084508702/5032020-D-WHP-AJIOOWN-flats.jpg">
 {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
 {{--                                    Up to 60% Off--}}
 {{--                                </div>--}}
@@ -197,8 +200,9 @@
 
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <a href="https://www.ajio.com/s/min-50-percent-off-3782-50132" target="_blank">
-                                <img class="img-product m-t-img " src="https://assets.ajio.com/medias/sys_master/images/images/h39/h4c/14537557999646/14112019-D-WHP-BestOfBrands-jaipurkurti-min50.jpg">
+                            <a href="https://www.ajio.com/s/dresses-3894-48681" target="_blank">
+                                <img class="img-product m-t-img "
+                                     src="https://assets.ajio.com/medias/sys_master/images/images/h4f/he7/15744084672542/5032020-D-WHP-AJIOOWN-dresses.jpg">
 {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
 {{--                                    Up to 60% Off--}}
 {{--                                </div>--}}
@@ -303,8 +307,9 @@
 
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26">
-                            <a href="https://www.ajio.com/s/wedding-closet-3777-75132" target="_blank">
-                                <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/hd5/hae/14909648797726/26122019-D-MHP-Stores-weddingcloset.jpg">
+                            <a href="https://www.ajio.com/s/t-shirts-and-shirts-3873-56181" target="_blank">
+                                <img class="img-product m-t-img"
+                                     src="https://assets.ajio.com/medias/sys_master/images/images/hb6/h6b/15746391015454/05032020-D-MHP-AJIOOWN-TshirtsAndShirts.jpg">
                                 {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
                                 {{--                                    Up to 70% Off--}}
                                 {{--                                </div>--}}
@@ -314,8 +319,9 @@
 
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <a href="https://www.ajio.com/s/winter-wear-3728-77781" target="_blank">
-                                <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/h93/hf0/14909649780766/26122019-D-MHP-AJIOOWN-winterwear.jpg">
+                            <a href="https://www.ajio.com/s/footwear-3676-77781" target="_blank">
+                                <img class="img-product m-t-img"
+                                     src="https://assets.ajio.com/medias/sys_master/images/images/h6e/hfd/15746391146526/05032020-D-MHP-AJIOOWN-footwear.jpg">
                                 {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
                                 {{--                                    Up to 60% Off--}}
                                 {{--                                </div>--}}
@@ -325,8 +331,9 @@
 
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                            <a href="https://www.ajio.com/s/t-shirts-and-shirts-3719-44441" target="_blank">
-                                <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/ha6/h3d/14909649977374/26122019-D-MHP-AJIOOWN-tshirtsandshirts.jpg">
+                            <a href="https://www.ajio.com/s/jeans-and-trousers-3845-30971" target="_blank">
+                                <img class="img-product m-t-img"
+                                     src="https://assets.ajio.com/medias/sys_master/images/images/hf6/hef/15746391867422/05032020-D-MHP-AJIOOWN-JeansAndTrousers.jpg">
                                 {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
                                 {{--                                    Up to 60% Off--}}
                                 {{--                                </div>--}}
@@ -337,7 +344,8 @@
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
                             <a href="https://www.ajio.com/s/men-plus-size-3824-46451" target="_blank">
-                                <img class="img-product m-t-img" src="https://assets.ajio.com/medias/sys_master/images/images/h5f/hf6/15020514213918/27122019-D-MHP-AJIOOWN-plus.jpg">
+                                <img class="img-product m-t-img"
+                                     src="https://assets.ajio.com/medias/sys_master/images/images/h54/h8c/15746392195102/05032020-D-MHP-AJIOOWN-AJIOPlus.jpg">
                                 {{--                                <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 10px !important;font-weight: normal">--}}
                                 {{--                                    Up to 60% Off--}}
                                 {{--                                </div>--}}

@@ -121,9 +121,9 @@
     <section>
         <div>
             <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                <a href="/face-mask-international-shipping" title="flipkart" target="_blank">1. 👉FACE MASK SHOPPING</a> |
-                <a href="/myntra-online-shopping" title="Amazon" target="_blank">2. 👉TRENDY ETHNIC WEAR</a> |
-                <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉PAYDAY SALE</a>
+                <a href="/face-mask-international-shipping" title="Flipkart" target="_blank">1. 👉FACE MASK SHOPPING</a> |
+                <a href="/myntra-online-shopping" title="Myntra" target="_blank">2. 👉MYNTRA FOR HER</a> |
+                <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉THE HOLI SPECIAL SALE</a>
             </marquee>
         </div>
         <div class="container" id="how-it-works">

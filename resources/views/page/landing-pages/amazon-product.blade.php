@@ -138,7 +138,7 @@
                         <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_HoliLett_2c1_w?node=20913932031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-3&pf_rd_r=ZC01PXSNQCY098C8CFE9&pf_rd_t=101&pf_rd_p=edafaf4a-6878-449a-bc83-afefeb6b62f4&pf_rd_i=5788258031"
                            target="_blank">
                             <img class="img-desktop-view"
-                                 src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/Optimus2020/Holi/Desktop/English/Header-Desktop-3.jpg"
+                                 src="http://cdn.shoppre.com/shoppre/public/holiAmazon.png"
                                  width="1000px">
 
                     </center>
@@ -146,7 +146,7 @@
                         <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_HoliLett_2c1_w?node=20913932031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-3&pf_rd_r=ZC01PXSNQCY098C8CFE9&pf_rd_t=101&pf_rd_p=edafaf4a-6878-449a-bc83-afefeb6b62f4&pf_rd_i=5788258031"
                            target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/Optimus2020/Holi/mobile/English/Header.jpg"
+                                 src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Holi/GW/Mob/Eng/Holi_GW_MobileHero_v2_1242x450._CB422532812_SY300_FMwebp_.jpg"
                                  width="310px">
                     </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">👉 <a--}}
