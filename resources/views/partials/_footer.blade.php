@@ -1,4 +1,4 @@
-<footer itemscope itemtype="http://schema.org/Organization">
+<footer itemscope itemtype="https://schema.org/Organization">
     <div class="container-fluid c-f-p nav-h-shadow">
         <div class="col-md-12 col-xs-12 pad-t-40">
             <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12 pad-5 ">
@@ -7,7 +7,7 @@
                          src="{{env('AWS_CLOUD_FRONT')}}/img/images/shoppre-logo.png"
                          alt="shoppre.com - your global shipping partner from india">
                 </a>
-                <div itemscope itemtype="http://schema.org/PostalAddress">
+                <div itemscope itemtype="https://schema.org/PostalAddress">
                     <p itemprop="streetAddress" class="footer-text-s f-c-l-gray pad-t-10">IndianShoppre LLP,<br>
                         <span> No. 181, 2nd Cross Road, 7th Main,</span> <br>
                         <span itemprop="streetAddress">Koramangala 1st Block,</span><br>
@@ -22,7 +22,7 @@
                         </a>
                     </span><br>
                     <span itemprop="telephone">
-                        <a href="http://bit.ly/shopr-fot-919191" target="_blank">
+                        <a href="https://bit.ly/shopr-fot-919191" target="_blank">
                             <img class="pad-t-10" src="{{env('AWS_CLOUD_FRONT')}}/img/images/shipping-whatsapp.png"
                                  alt="Shoppre contact number">
                         </a>
@@ -68,7 +68,7 @@
                     <li class="li"><a itemprop="url" class="footer-a" href="/privacy-policy">Privacy Policy</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="https://www.indeedjobs.com/shopprecom/_hl/en_IN" target="_blank">Careers</a></li>
                     <li class="li"><a class="footer-a" href="{{route('reviews')}}">ShoppRe Reviews</a></li>
-                    <li class="li"><a class="footer-a" href="http://shoppretracking.aftership.com" target="_blank">Track Your Shipment</a></li>
+                    <li class="li"><a class="footer-a" href="https://shoppretracking.aftership.com" target="_blank">Track Your Shipment</a></li>
                     <li class="li"><a class="footer-a" href="https://expeditions.shoppre.com" target="_blank">Expeditions</a></li>
                 </ul>
             </div>
