@@ -768,12 +768,12 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/3/3/a7d35c28-4074-417a-9b13-157f92c565861583228700749-MFH-Prebuzz_01.jpg" />
+                                         data-src="http://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/3/9/6eeba5f0-1af4-489f-9995-4616c42dad3b1583693409012-mainbann.jpg" />
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    MYNTRA FOR HER
+                                    SPLASH SALE
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
@@ -807,20 +807,20 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="https://assets.ajio.com/medias/sys_master/images/images/haa/hfc/15746852913182/05032020-M-SHP-topbanner-holispecial-flat60.jpg" />
+                                         data-src="https://assets.ajio.com/medias/sys_master/images/images/h53/h72/15800341364766/09032020-M-SHP-topbanner-colursofyou-40-70plusextra25.jpg" />
 
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    PAYDAY SALE
+                                    COLOURS OF YOU
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                            40-80% Off
+                                            40-70% Off
                                         </span>
                                         <span style="font-size: 14px;font-weight: bold;
                                                          padding-top: 5px;color: #000000;;

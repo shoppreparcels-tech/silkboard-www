@@ -154,6 +154,15 @@
 
     <section >
         <div class="container fst-service" style="margin-top: 0px;">
+            <div>
+                <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                    <span title="Flipkart">
+                        Dear Customer, Before Purchasing the products from LIMEROAD.
+                        Please check with our Customer Support. We are ffacing issue in purchasing
+                        the products, delivery, payment & more.
+                    </span>
+                </marquee>
+            </div>
             <div class="row">
                 <center>
                 <a href="https://www.limeroad.com/shopping-offers" target="_blank">

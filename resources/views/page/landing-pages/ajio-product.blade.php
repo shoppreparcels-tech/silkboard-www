@@ -140,16 +140,15 @@
 
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
                     <center>
-                    <a href="https://www.ajio.com/s/shop-big-mega60-3874-5926-1123" target="_blank">
-
+                    <a href="https://www.ajio.com/s/40-to-70-percent-off-3898-78813" target="_blank">
                         <img class="img-desktop-view"
-                             src="https://assets.ajio.com/medias/sys_master/images/images/hb4/h43/15746397700126/05032020-D-SHP-topbanner-holispecial-flat60.jpg"
+                             src="https://assets.ajio.com/medias/sys_master/images/images/hbd/h09/15800341299230/09032020-D-SHP-topbanner-colursofyou-40-70plusextra20.jpg"
                              width="1100px"></a>
                         </center>
                     <center>
-                        <a href="https://www.ajio.com/s/shop-big-mega60-3874-5926-1123" target="_blank">
+                        <a href="https://www.ajio.com/s/40-to-70-percent-off-3898-78813" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.ajio.com/medias/sys_master/images/images/haa/hfc/15746852913182/05032020-M-SHP-topbanner-holispecial-flat60.jpg"
+                                 src="https://assets.ajio.com/medias/sys_master/images/images/h53/h72/15800341364766/09032020-M-SHP-topbanner-colursofyou-40-70plusextra25.jpg"
                                  width="300px" ></a>
 
                     </center>

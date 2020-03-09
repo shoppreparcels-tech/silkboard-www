@@ -91,19 +91,19 @@
                     <div class="col-md-3 col-md-offset-1">
                         <center>
                             <p class="startsvalid">STARTS FROM :<span
-                                    class="startsValidValue"> 18th Mar 2019</span></p>
+                                    class="startsValidValue"> N/A</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">VALID TILL :<span
-                                    class="startsValidValue"> 26th Mar 2019</span></p>
+                                    class="startsValidValue"> N/A</span></p>
                         </center>
                     </div>
                     <div class="col-md-3">
                         <center>
                             <p class="startsvalid">COUPON CODE :<span
-                                    class="startsValidValue"> SHOLI20</span></p>
+                                    class="startsValidValue"> N/A</span></p>
                         </center>
 
                     </div>
@@ -150,7 +150,7 @@
                     </center>
                 </div>
                 <br>
-                <p class="f-s-16 f-c-gray f-w-4 l-h-2 ">Shop around in 1000+ Indian stores to help make your 2019 Holi extra special,
+                <p class="f-s-16 f-c-gray f-w-4 l-h-2 ">Shop around in 1000+ Indian stores to help make your 2020 Holi extra special,
                     and get us to ship to your destination at the <a href="{{route('pricing')}}">cheapest of shipping rates</a>. </p>
 
 
@@ -159,7 +159,7 @@
                     Toys and more. Send Holi gifts from India to Worldwide by using ShoppRe&#39;s <a href="\international-parcel-forwarding-india-online-shopping">international parcel
                         forwarding services</a>.</p>
 
-                <h1 class="f-s-18 f-c-d-greay f-w-7">Holi 2019: Holi Gift Ideas for Family and Friends and Enjoy Hassle Free Delivery to Abroad</h1>
+                <h1 class="f-s-18 f-c-d-greay f-w-7">Holi 2020: Holi Gift Ideas for Family and Friends and Enjoy Hassle Free Delivery to Abroad</h1>
                 <p class="f-s-16 f-c-gray">Greet your family, friends or dear ones  for the Holi wishes by sending them Gujiyas,
                     Sonpapdi, Kaju Katri, Dry Fruits or Namkeen along with different shades of Gulal.
                 </p>
@@ -170,21 +170,20 @@
                 </p>
                 <br>
 
-                <div class="offerDesc">
-                    <h5>Cashback: Terms & Conditions</h5>
-                    <ul>
-                        <li>20% Cashback upto INR 250/-</li>
-                        <li> This offer cannot be clubbed with any other. </li>
-                        <li> The cashback goes to your Wallet. </li>
-                        <li>Use Coupon: <strong>SHOLI20</strong> when you check-out.</li>
-                        <li>Valid from 18th Mar to 26th Mar 2019 .</li>
-                        <li>This cashback is applicable only for international shipments.</li>
-                        <li>The cashback can only be used to pay off your shipping costs.</li>
-                        <li>Clearance charges are applicable for shipping Special Items - liquids & semi liquids such as cosmetics, medicines, oils & homemade food.</li>
-                        <br>
-                    </ul>
-
-                </div>
+{{--                <div class="offerDesc">--}}
+{{--                    <h5>Cashback: Terms & Conditions</h5>--}}
+{{--                    <ul>--}}
+{{--                        <li>20% Cashback upto INR 250/-</li>--}}
+{{--                        <li> This offer cannot be clubbed with any other. </li>--}}
+{{--                        <li> The cashback goes to your Wallet. </li>--}}
+{{--                        <li>Use Coupon: <strong>SHOLI20</strong> when you check-out.</li>--}}
+{{--                        <li>Valid from 18th Mar to 26th Mar 2019 .</li>--}}
+{{--                        <li>This cashback is applicable only for international shipments.</li>--}}
+{{--                        <li>The cashback can only be used to pay off your shipping costs.</li>--}}
+{{--                        <li>Clearance charges are applicable for shipping Special Items - liquids & semi liquids such as cosmetics, medicines, oils & homemade food.</li>--}}
+{{--                        <br>--}}
+{{--                    </ul>--}}
+{{--                </div>--}}
             </div>
         </div>
     </section>

@@ -159,18 +159,18 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <center>
-                    <a href="https://www.flipkart.com/womens-clothing/ethnic-wear/pr?sid=2oq%2Cc1r%2C3pj&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&otracker=clp_banner_3_2.bannerX3.BANNER_womens-clothing-store_JVH3BBO62QYP&fm=neo%2Fmerchandising&iid=M_1e6c6ce7-bf5d-44cb-b110-532260ec6e30_2.JVH3BBO62QYP&ssid=575oeoi8hc0000001583311306060"
+                    <a href="https://www.flipkart.com/offers-list/mensfashion?screen=dynamic&pk=themeViews%3DLS-Payday-jan20-MenFashion%3Ada%2CLS-Payday-jan20-MenFashion%3Add%7EwidgetType%3DdealCard%7EcontentType%3Dneo&wid=2.dealCard.OMU&otracker=hp_bannerads_4_2.bannerAdCard.BANNERADS_83HREE8XKO60"
                        target="_blank">
                         <img class="img-desktop-view"
-                             src="https://rukminim1.flixcart.com/flap/480/480/image/a11dad25799ccba0.jpg?q=50"
+                             src="https://rukminim1.flixcart.com/flap/1688/280/image/1427ad4dff4dc819.jpg?q=50"
 {{--                             width="1100px"--}}
-                             style="height: 285px;width: 550px;"></a>
+                             style="width: 100%;"></a>
                 </center>
                 <center>
-                    <a href="https://www.flipkart.com/womens-clothing/ethnic-wear/pr?sid=2oq%2Cc1r%2C3pj&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.discount_range_v1%255B%255D%3D50%2525%2Bor%2Bmore&otracker=clp_banner_3_2.bannerX3.BANNER_womens-clothing-store_JVH3BBO62QYP&fm=neo%2Fmerchandising&iid=M_1e6c6ce7-bf5d-44cb-b110-532260ec6e30_2.JVH3BBO62QYP&ssid=575oeoi8hc0000001583311306060"
+                    <a href="https://www.flipkart.com/offers-list/mensfashion?screen=dynamic&pk=themeViews%3DLS-Payday-jan20-MenFashion%3Ada%2CLS-Payday-jan20-MenFashion%3Add%7EwidgetType%3DdealCard%7EcontentType%3Dneo&wid=2.dealCard.OMU&otracker=hp_bannerads_4_2.bannerAdCard.BANNERADS_83HREE8XKO60"
                        target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://rukminim1.flixcart.com/flap/480/480/image/a11dad25799ccba0.jpg?q=50"
+                             src="https://rukminim1.flixcart.com/flap/1079/480/image/c885b469c0d865f5.jpg?q=90"
                              width="300px" ></a>
                 </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">👉<span class="f-s-25 f-c-red f-w-9"><a--}}

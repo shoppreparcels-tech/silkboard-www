@@ -56,6 +56,15 @@
             <div class=" col-md-12 offer-description">
 
                 <div class="row">
+                    <div>
+                        <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
+                            <span title="Flipkart">
+                                Dear Customer, Before Purchasing the products from LIMEROAD.
+                                Please check with our Customer Support. We are ffacing issue in purchasing
+                                the products, delivery, payment & more.
+                            </span>
+                        </marquee>
+                    </div>
                     <div class="col-md-12 col-xs-12">
                         <center>
                             <a href="https://clnk.in/jTBp" target="_blank"><img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/stores/limeroad-online-shopping-offers.png" alt="limeroad.com"></a>

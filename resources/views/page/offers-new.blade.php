@@ -120,13 +120,13 @@
         </div>
         <div class="container">
             <br/>
-            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (February 2020 Sale):</h3>
+            <h3 class="header3 p-color-cement-dark font-weight-900">Indian Shopping Sites (March 2020 Sale):</h3>
             <br/>
             <div class="row">
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Kurtas, Sarees & More</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">MANdatory</h4>
                             <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-online-shopping" target="_blank">
@@ -182,9 +182,9 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">THE HOLI SPECIAL SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Flat 60% Off</h5>
-                            <h5 class="header6 p-color-cement font-weight-900">5 - 8th MAR</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">COLOURS OF YOU</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
+{{--                            <h5 class="header6 p-color-cement font-weight-900">5 - 8th MAR</h5>--}}
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
@@ -196,9 +196,9 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">MYNTRA FOR HER</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">SPLASH SALE</h4>
                             <h5 class="header6 p-color-cement font-weight-900"> 40-70% Off </h5>
-                            <h5 class="header6 p-color-cement font-weight-900"> 6th - 8th March </h5>
+                            <h5 class="header6 p-color-cement font-weight-900"> Play HOLI in Style </h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">

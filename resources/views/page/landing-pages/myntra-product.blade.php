@@ -310,17 +310,17 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <center>
-                <a href="https://www.myntra.com/shop/mfh20-prebuzz" target="_blank">
+                <a href="https://www.myntra.com/myntra-fashion-store?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0" target="_blank">
                     <img class="img-desktop-view"
-                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/3/4/d0619203-0729-4183-8cac-92abd72410711583313380218-DK-Main-Banner.jpg"
+                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/3/8/21d390d7-210c-4a11-9aed-7a1d3fb283d81583670244872-Desktop-strip.jpg"
 {{--                         width="800px"--}}
                          width="1100px"
                     ></a>
                     </center>
                 <center>
-                    <a href="https://www.myntra.com/shop/mfh20-prebuzz" target="_blank">
+                    <a href="https://www.myntra.com/myntra-fashion-store?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0" target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/3/3/a7d35c28-4074-417a-9b13-157f92c565861583228700749-MFH-Prebuzz_01.jpg"
+                             src="http://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/3/9/6eeba5f0-1af4-489f-9995-4616c42dad3b1583693409012-mainbann.jpg"
                              width="350px" ></a>
                 </center>
 {{--                <div class="">--}}
