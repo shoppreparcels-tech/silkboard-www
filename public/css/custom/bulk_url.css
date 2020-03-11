@@ -1,0 +1,410 @@
+.sign-up-in-bulkurl-button{
+    padding-left: 2%;
+    padding-right: 2%;
+    background: #7ACCD7CC 0% 0% no-repeat padding-box;
+    box-shadow: 0.94px 6px 7px #00000054;
+    border: 3px solid #000000;
+    border-radius: 23px;
+    opacity: 1;
+    line-height: 2;
+    color: #ffffff;
+}
+.restric-pad{
+    padding: 0 34%;
+}
+.consolidation-image {
+    height: 357px;
+    width: 90%;
+}
+.chargers-design{
+    background: #aef7df !important;
+    color: #000 !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+}
+.values{
+    color: #050909;
+    font-weight: 800;
+    font-size: 16px;
+}
+.cal_block_new{
+    position:relative;
+    display:block;
+    margin:16px auto;
+    background:#fff;
+    padding:20px 40px 8px;
+    border-radius:10px;
+    box-shadow:3px 3px 15px #ccc
+}
+.destination-place-dropdown{
+    background: #FAFAFB 0% 0% no-repeat padding-box;
+    box-shadow: 1px 9px 8px #00000026;
+    border: 1px solid #323439;
+    border-radius: 10px !important;
+    opacity: 1;
+}
+.weigh-inputbox{
+    width: 140px;
+    height: 35px;
+    background: #FAFAFB 0% 0% no-repeat padding-box;
+    box-shadow: 2px 10px 10px #00000026;
+    border: 1px solid #323439;
+    border-radius: 10px;
+    padding-left: 5%;
+}
+.know-more-button{
+    padding-left: 15%;
+    padding-right: 15%;
+    background: #7ACCD7CC 0% 0% no-repeat padding-box;
+    border: 3px solid #7ACCD7CC;
+    border-radius: 23px;
+    line-height: 2;
+    color: #ffffff;
+}
+.option-color{
+    color: #5C5C5F;
+}
+
+.size-input{
+    width: 40px !important;
+    height: 40px !important;
+    background: #FAFAFB 0% 0% no-repeat padding-box !important;
+    box-shadow: 1px 9px 8px #00000026 !important;
+    border: 1px solid #323439 !important;
+    border-radius: 10px !important;
+    opacity: 1 !important;
+    padding-left: 35% !important;
+}
+.parcel-img{
+    margin-top: 10%;
+    width: 216px;
+    height: 120px;
+}
+.button-shipping-rate{
+    width: 345px;
+    height: 50px;
+    background: #7ACCC8 0% 0% no-repeat padding-box;
+    box-shadow: 1px 9px 8px #00000026;
+    border: 5px solid #F2F3F4;
+    border-radius: 10px;
+    opacity: 1;
+    cursor: pointer;
+}
+.text-in-button{
+    text-align: center;
+    letter-spacing: 0;
+    color: #FAFAFB;
+    font-weight: 600;
+}
+.non-doc-pricing-box{
+    width: 100%;
+    height: 40px;
+    border: 3px solid #7ACCD7;
+    border-radius: 10px;
+    opacity: 1;
+    margin-bottom: 2%;
+    font-weight: 600;
+}
+.service-block{
+    padding: 25px 0 50px;
+    text-align: center;
+}
+.service-section{
+    margin: 20px 0;
+    padding: 15px 0;
+    background: #7ACCC8;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 0 rgba(204,204,204,.5);
+}
+.shipping-directly-section{
+    text-align: center;
+    letter-spacing: 2px;
+    color: #75B2AF;
+    line-height: 40px;
+    opacity: 1;
+    font-weight: 600;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.doc-pricing-box{
+    width: 100%;
+    height: 40px;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    opacity: 1;
+    margin-bottom: 2%;
+}
+.shop-cat-div{
+    width: 355px;
+    border: 3px solid #7ACCD7;
+    border-radius: 30px;
+    opacity: 1;
+    height: 300px;;
+}
+.personal-shopper-img-desktop{
+    width: 55%;
+}
+.personal-shopper-content-section{
+    width: 40%;
+    margin-left: 10%;
+}
+.signup-free{
+    width: 200px;
+    height: 45px;
+    background: #92D9DB 0% 0% no-repeat padding-box;
+    box-shadow: 0.94px 6px 2px #0000003B;
+    border: 3px solid #FAFAFC;
+    border-radius: 25px;
+    opacity: 1;
+}
+.background1{
+    background-image: url('../../../img/images/warehouse1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background01{
+    background-image: linear-gradient(45deg, rgba(9, 29, 38, 0.8), rgba(40, 76, 91, 0.8));
+    height: 100%;position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.background2{
+    background-image: url('../../../img/images/background1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background3{
+    background-image: url('../../../img/images/background1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom -30px;
+}
+.background4{
+    background-image: url('../../../img/images/background4.png');
+    /*background-image: url('https://lh3.googleusercontent.com/-eAMEiPpykEM/Xmc1ku7fmyI/AAAAAAAAAUw/pv-WSiyaP0Ea09I9fhCb-dnfDzyVvdYRQCK8BGAsYHg/s0/weblanding%2Bpage%2Bbackground.png');*/
+    background-repeat: no-repeat;
+    background-position: right 100% bottom 76px;
+    background-size: cover;
+}
+.background5{
+    background-image: url('../../../img/images/background5.png');
+    /*background-image: url('https://lh3.googleusercontent.com/-VlPBCg1Q7Pk/XmdUW2Vp_uI/AAAAAAAAAg4/d6qhp4hBThwVf9rQMRlDkEWdDlEjEtfrACK8BGAsYHg/s0/2020-03-10.png');*/
+    background-repeat: no-repeat;
+    background-position: right 45% bottom 1px;
+    background-size: cover;
+}
+.background6{
+    background-image: url('../../../img/images/background6.png');
+    /*background-image: url('https://lh3.googleusercontent.com/-zon0WkO6FIM/XmdZ3cTvd_I/AAAAAAAAAVM/hgHNzW-KBns1OH763EnREMlYIv3JCKCDACK8BGAsYHg/s0/weblanding%2Bpage%2Bbackground%25282%2529.png');*/
+    background-repeat: no-repeat;
+    background-position: left bottom -155px;
+    background-size: 30%;
+}
+.background7{
+    background-image: url('../../../img/images/background7.png');
+    /*background-image: url('https://lh3.googleusercontent.com/-QUt3_QMkSuA/XmdZ6k8jCrI/AAAAAAAAAVY/VcOw9meoeNgBQv1rsKvInv5avg0Bev9OwCK8BGAsYHg/s0/weblanding%2Bpage%2Bbackground%25283%2529.png');*/
+    background-repeat: no-repeat;
+    background-position: left bottom -155px;
+    background-size: 30%;
+}
+
+.charge-box{
+    border: 3px solid #000101;
+    border-radius: 10px;
+}
+.aditional-charges{
+    margin: 10% 0 5% 0;
+}
+.font-w-600{
+    font-weight: 700;
+}
+.country-drop-down{
+    padding-right: 33%;
+}
+@media only screen and (max-width: 600px) {
+    .pad-10p{
+        padding: 10% 0% 10% 0%
+    }
+    .restric-pad{
+        padding: 0 0 0 0 ;
+    }
+    .non-doc-price{
+        padding-top: 4% !important;
+        padding-left: 3% !important;
+        padding-right: 0% !important;
+        font-weight: 600;
+    }
+    .non-doc-weight{
+        padding-top: 4% !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        font-weight: 600;
+    }
+    .country-drop-down{
+        padding-right: 0%;
+    }
+    .consolidation-image{
+        height: 333px;
+        width: 90%;
+    }
+    .background4{
+        background-image: url('../../../img/images/background4.png');
+        background-repeat: no-repeat;
+        background-position: 0px -473px;
+        background-size: cover;
+    }
+    .cal_block_new_mob{
+        position:relative;
+        display:block;
+        margin:16px auto;
+        background:#fff;
+        padding:20px 20px 8px;
+        border-radius:10px;
+        box-shadow:3px 3px 15px #ccc
+    }
+    .mar-b-10px{
+        margin-bottom: 10px;
+    }
+    .personal-shopper-img{
+        width: 75%;
+        margin-left: 10px;
+    }
+    .personal-shopper-content-section-mob{
+        width: auto;
+        margin-left: 0;
+    }
+    .sectiom-view-mobile-block{
+        display: block !important;
+    }
+    .shop-cat-div-mob{
+        width: auto;
+        border: 3px solid #7ACCD7;
+        border-radius: 30px;
+        opacity: 1;
+    }
+    .button-shipping-rate-mob{
+        margin-left: -10%;
+        width: 120%;
+        cursor: pointer;
+    }
+    .sectiom-view-mobile-none {
+        display: none !important;
+    }
+
+    .pad-l-35{
+        padding-left: 25% !important;
+    }
+
+    .mar-l-0-mobile{
+        margin-left: 0 !important;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .shiping-cal-mob{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+
+    }
+
+    .fst-service {
+        margin-top: -260px
+    }
+
+    .chris-benefits ul li {
+        font-size: 16px
+    }
+}
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 800px) {
+    .consolidation-image{
+        height: 333px;
+        width: 90%;
+    }
+    .non-doc-price{
+        padding-top: 4%;
+        padding-left: 3%;
+        padding-right: 0%;
+        font-weight: 600;
+    }
+    .non-doc-weight{
+        padding-top: 4%;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-weight: 600;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .consolidation-image{
+        height: 333px;
+        width: 90%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1299px) {
+    .consolidation-image{
+        height: 333px;
+        width: 90%;
+    }
+    .shipment-cost-btn{
+        margin: 5% 0% 4% -5%;
+    }
+    .background6{
+        background-image: url('../../../img/images/background6.png');
+        /*background-image: url('https://lh3.googleusercontent.com/-zon0WkO6FIM/XmdZ3cTvd_I/AAAAAAAAAVM/hgHNzW-KBns1OH763EnREMlYIv3JCKCDACK8BGAsYHg/s0/weblanding%2Bpage%2Bbackground%25282%2529.png');*/
+        background-repeat: no-repeat;
+        background-position: left -135px bottom -240px;
+        background-size: 50%;
+    }
+    .background7{
+        background-image: url('../../../img/images/background7.png');
+        /*background-image: url('https://lh3.googleusercontent.com/-QUt3_QMkSuA/XmdZ6k8jCrI/AAAAAAAAAVY/VcOw9meoeNgBQv1rsKvInv5avg0Bev9OwCK8BGAsYHg/s0/weblanding%2Bpage%2Bbackground%25283%2529.png');*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 250%;
+    }
+}
+
+@media (min-width:1200px) {
+
+}
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)   {
+    .consolidation-image{
+        height: 333px;
+        width: 90%;
+    }
+}
+
+@media only screen
+and (min-width: 1300px)
+and (max-width: 1500px)  {
+    .consolidation-image{
+        height: 375px;
+        width: 90%;
+    }
+    .background6{
+        background-image: url('../../../img/images/background6.png');
+        /*background-image: url('https://lh3.googleusercontent.com/-zon0WkO6FIM/XmdZ3cTvd_I/AAAAAAAAAVM/hgHNzW-KBns1OH763EnREMlYIv3JCKCDACK8BGAsYHg/s0/weblanding%2Bpage%2Bbackground%25282%2529.png');*/
+        background-repeat: no-repeat;
+        background-position: left -113px bottom -275px;
+        background-size: 50%;
+    }
+    .background7{
+        background-image: url('../../../img/images/background7.png');
+        /*background-image: url('https://lh3.googleusercontent.com/-QUt3_QMkSuA/XmdZ6k8jCrI/AAAAAAAAAVY/VcOw9meoeNgBQv1rsKvInv5avg0Bev9OwCK8BGAsYHg/s0/weblanding%2Bpage%2Bbackground%25283%2529.png');*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 250%;
+    }
+    .ps-img-mar{
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+}
