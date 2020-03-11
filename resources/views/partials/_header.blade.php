@@ -201,7 +201,7 @@
                     </li>
                     <li><a href="{{route('offers-new.index')}}" class="shoppre-offers">Offers </a></li>
                     <li><a href="{{route('pricing')}}">Shipping Rates</a></li>
-                    <li><a href="{{route('ajio-product')}}"><span style="color: #f9c030;" id="offer">Holi Special</span>
+                    <li><a href="https://www.shoppreparcels.com/shipping-100k-surgical-face-masks-to-singapore-from-india" target="_blank"><span style="color: #f9c030;" id="offer">Face Mask</span>
 {{--                            <sup class="p-color-red" style="font-size: 8px" id="offer">Buy</sup>--}}
                         </a>
                     </li>
