@@ -126,8 +126,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">MANdatory</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">50-80% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Fashion in a budget </h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Under ₹999</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
@@ -153,7 +153,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">February Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">march Sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up to 70% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/chumbak-online-shopping" target="_blank">
@@ -196,9 +196,9 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">SPLASH SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900"> 40-70% Off </h5>
-                            <h5 class="header6 p-color-cement font-weight-900"> Play HOLI in Style </h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">all things summer</h4>
+{{--                            <h5 class="header6 p-color-cement font-weight-900"> 40-70% Off </h5>--}}
+                            <h5 class="header6 p-color-cement font-weight-900"> Launching Spring Summer'20 </h5>
                             <br>
                             <div class="ecomSmallBox">
                                 <a href="/myntra-online-shopping" target="_blank">
@@ -212,8 +212,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900"> COLOUR YOUR HAPPINESS</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">28th Feb - 10th Mar</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900"> brands of the month</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">11-13th Mar</h5>
 {{--                            <div class="ecomSmallBox" style="height: 94px;">--}}
                             <div class="ecomSmallBox">
                             <a href="/amazon-india-shop-international-shipping" target="_blank">

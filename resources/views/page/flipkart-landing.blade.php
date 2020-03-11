@@ -80,18 +80,18 @@
                 </div>
             </div>
             <center>
-                    <a href="https://www.flipkart.com/offers-list/mensfashion?screen=dynamic&pk=themeViews%3DLS-Payday-jan20-MenFashion%3Ada%2CLS-Payday-jan20-MenFashion%3Add%7EwidgetType%3DdealCard%7EcontentType%3Dneo&wid=2.dealCard.OMU&otracker=hp_bannerads_4_2.bannerAdCard.BANNERADS_83HREE8XKO60"
+                    <a href="https://www.flipkart.com/offers-list/fashionunder999?screen=dynamic&pk=themeViews%3DLS-RD20-Jan-under999%3Ada%2CLS-RD20-Jan-under999%3Add~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&otracker=hp_banner_3_6.bannerX3.BANNER_512BIZKY3VQ4&fm=neo%2Fmerchandising&iid=M_31dcd1f2-9e28-4ed5-82a3-11bf0390a40f_6.512BIZKY3VQ4&ppt=hp&ppn=hp&ssid=l8rtt926c00000001583901149805"
                        target="_blank">
                         <img class="img-desktop-view"
-                             src="https://rukminim1.flixcart.com/flap/1688/280/image/1427ad4dff4dc819.jpg?q=50"
+                             src="https://i.pinimg.com/originals/45/2e/69/452e69a8023aa665c079dfbba2c83b2c.png"
 {{--                             width="1100px"--}}
-                            style="width: 100%;"></a>
+                            style="width: 50%;"></a>
                 </center>
                 <center>
-                    <a href="https://www.flipkart.com/fashion-mm-ss-20-store"
+                    <a href="https://www.flipkart.com/offers-list/fashionunder999?screen=dynamic&pk=themeViews%3DLS-RD20-Jan-under999%3Ada%2CLS-RD20-Jan-under999%3Add~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&otracker=hp_banner_3_6.bannerX3.BANNER_512BIZKY3VQ4&fm=neo%2Fmerchandising&iid=M_31dcd1f2-9e28-4ed5-82a3-11bf0390a40f_6.512BIZKY3VQ4&ppt=hp&ppn=hp&ssid=l8rtt926c00000001583901149805"
                        target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://rukminim1.flixcart.com/flap/1079/480/image/c885b469c0d865f5.jpg?q=90"
+                             src="https://i.pinimg.com/originals/45/2e/69/452e69a8023aa665c079dfbba2c83b2c.png"
                              width="300px" ></a>
                 </center>
 {{--            <div class="row text-center">--}}

@@ -734,12 +734,12 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Events/Optimus2020/Holi/mobile/English/Header.jpg" />
+                                         data-src="https://m.media-amazon.com/images/G/31/img2020/fashion/MA2020/ApparelP0/BOTM/March/1._CB420752560_.jpg" />
                                 </div>
                                 <div style="    color: #000;font-size: 14px;margin-top: 10px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                   COLOUR YOUR HAPPINESS
+                                   BRANDS OF THE MONTH
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
@@ -747,7 +747,7 @@
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
 {{--                                           Start from <i class="fa fa-inr" aria-hidden="true"></i>69--}}
-                                            28th Feb - 10th Mar
+                                            11-13th Mar
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -768,19 +768,19 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="http://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/3/9/6eeba5f0-1af4-489f-9995-4616c42dad3b1583693409012-mainbann.jpg" />
+                                         data-src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/3/11/e0572a07-fc47-476d-9132-efa08f3b02761583870630352-final-banner-static.jpeg" />
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    SPLASH SALE
+                                    ALL THINGS SUMMER
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                        40-70 % Off
+                                        Launching Spring Summer '20
                                         </span>
 {{--                                        <span style="font-size: 14px;font-weight: bold;--}}
 {{--                                                     padding-top: 5px;color: #000000;;--}}
