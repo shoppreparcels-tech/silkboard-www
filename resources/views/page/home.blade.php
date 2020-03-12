@@ -697,30 +697,30 @@
 {{--                    </div>--}}
 
                     <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
-                        <a href="/face-mask-international-shipping" title="Click to Know More" target="_blank">
+                        <a href="/tatacliq-online-shopping" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="https://cdn.shoppre.com/shoppre/public/faceMask1.png" />
+                                         data-src="https://assets.tatacliq.com/medias/sys_master/images/26394414088222.jpg" />
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    FACE MASK LOW PRICES
+                                    VIBRANT SUMMER
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
-                                            From <i class="fa fa-inr" aria-hidden="true"></i>299
+                                            Upto 70% off
 
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
                                                 color: #181818;font-size: 14px;font-family: Lato;
                                                 text-align: left;">
-                                   ShoppRe.com
+                                    Tatacliq.com
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}
@@ -734,7 +734,7 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="https://m.media-amazon.com/images/G/31/img2020/fashion/MA2020/ApparelP0/BOTM/March/1._CB420752560_.jpg" />
+                                         data-src="https://cdn.shoppre.com/shoppre/public/harPalFashionable.png" />
                                 </div>
                                 <div style="    color: #000;font-size: 14px;margin-top: 10px;
                                                 padding-top: 0px !important;text-align: left;
@@ -780,7 +780,7 @@
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                        Launching Spring Summer '20
+                                        Spring Summer '20
                                         </span>
 {{--                                        <span style="font-size: 14px;font-weight: bold;--}}
 {{--                                                     padding-top: 5px;color: #000000;;--}}
