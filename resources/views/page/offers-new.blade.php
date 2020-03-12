@@ -98,11 +98,16 @@
                                 </a>
                             </div>
                         </div>
+{{--                        <div class="item">--}}
+{{--                            <div class="pad15">--}}
+{{--                                    <img src="/img/images/savings.png" class="boxofScroll"/>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                         <div class="item">
                             <div class="pad15">
-                                <a href="/shop-ship" target="_blank">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/shop-from-india-ship-to-usa.png" class="boxofScroll"/>
-                                </a>
+{{--                                <a href="/shop-ship" target="_blank">--}}
+                                    <img src="/img/images/MoreSavings.png" class="boxofScroll"/>
+{{--                                </a>--}}
                             </div>
                         </div>
                         <div class="item">

@@ -8,7 +8,7 @@
 
     <script type="application/ld+json">
         {
-          "@context": "http://schema.org",
+          "@context": "https://schema.org",
           "@type": "Organization",
           "name" : "International shipping from india",
           "url": "https://www.shoppre.com",
@@ -64,17 +64,18 @@
                                 padding-left: 25%; padding-right: 25%;
                                 padding-bottom: 30px;text-align: center;
                                 font-weight: 700;font-family: inherit" >
-                                        Ship from {{ucfirst(trans($source))}} to {{ucfirst(trans($destination))}}.
+                                        Shipping from {{ucfirst(trans($source))}} to {{ucfirst(trans($destination))}}.
                                         ShoppRe offers DOOR TO DOOR courier to {{ucfirst(trans($destination))}} from ANY part of
                                         {{ucfirst(trans($source))}}. </p>
                                 </div>
                                 <div style="text-align: center;padding-bottom: 5%">
                                     <a href="{{route('customer.login')}}" target="_blank">
                                         <button type="submit" align="center" class="sign-up-in-bulkurl-button"  style="">
-                                            Sign Up &nbsp;
-                                            <span>
-                                    <i class="fa fa-long-arrow-right"></i>
-                                </span>
+                                            <h4> <b>
+                                                Sign Up &nbsp;
+                                                <i class="fa fa-long-arrow-right"></i>
+                                                </b>
+                                            </h4>
                                         </button>
                                     </a>
                                 </div>
@@ -85,15 +86,20 @@
 
                 <!--Estimate Your Shipping Cost From source To destination-->
                 <div class="col-md-12 col-xs-12 col-sm-12 background3">
+                    <section style="padding: 15px 0 0px;text-align: center;">
+                        <div >
+                            <span style=" text-align: center;font-family: Montserrat-SemiBold;
+                                font-size: 45px; color: #75B2AF;">
+                                Estimate Your Shipping Cost From {{ucfirst(trans($source))}} To {{ucfirst(trans($destination))}}
+                            </span>
+                        </div>
+                    </section>
                     <div>
-                        <div class="container-fluid m-t-10 "><br><br>
-                            <div class="col-md-12 col-xs-12 col-sm-12">
-                                <p style="color: #7ACCD7;font-size: 40px;
-                            text-align: center;
-                            padding-bottom: 30px;
-                            font-weight: 700;font-family: inherit" >
-                                    Estimate Your Shipping Cost From {{ucfirst(trans($source))}} To {{ucfirst(trans($destination))}} </p>
-                            </div>
+                        <div class="container-fluid"><br>
+{{--                            <div class="col-md-12 col-xs-12 col-sm-12">--}}
+{{--                                <span style="padding-bottom: 30px;text-align: center;font-family: Montserrat-SemiBold;font-size: 45px;color: #75B2AF;" >--}}
+{{--                                    Estimate Your Shipping Cost From {{ucfirst(trans($source))}} To {{ucfirst(trans($destination))}} </span>--}}
+{{--                            </div>--}}
                             <div class="col-md-12 col-xs-12 col-sm-12 shiping-cal-mob">
                                 <div class="col-md-5 mar-l-0-mobile" style="margin-left: 7%;">
                                     <div class="col-md-12">
@@ -122,7 +128,7 @@
                                                 <div class="form-group ">
                                                     <div class="col-sm-12">
                                                         <label class="control-label" style="color: #323439;font-family: Montserrat-Medium;
-                                                            font-size: 19px;
+                                                            font-size: 18px;
                                                             width: 388px;height: 32px;
                                                             padding-top: 3%;">
                                                             What is your package type?</label>
@@ -375,7 +381,7 @@
                                 <div style="text-align: center;padding-bottom: 5%">
                                     <a href="{{route('ifs.index')}}" target="_blank">
                                         <button type="submit" align="center" class="know-more-button"  style="">
-                                            Know More
+                                            <h4 style="margin-top: 5px;"><b> Know More</b></h4>
                                         </button>
                                     </a>
                                 </div>
@@ -390,7 +396,7 @@
                     <section class="service-block">
                     <div style="padding-bottom: 2%;">
                         <span style=" text-align: center;font-family: Montserrat-SemiBold;
-                             font-size: 45px; color:#7ACCD7;">
+                             font-size: 45px; color:#75B2AF;">
                             What People Normally Shop Through <b>ShoppRe.com</b>
                         </span>
                     </div>
@@ -415,23 +421,23 @@
                                     <!-- Slides Container -->
                                     <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px; overflow: hidden;">
                                         <div>
-                                            <img u="image" src="https://cdn.shoppre.com/shoppre/public/womenCloth.png" />
+                                            <img u="image" src="/img/images/womenCloth.png" />
                                         </div>
                                         <div>
-                                            <img u="image" src="https://cdn.shoppre.com/shoppre/public/handcraft.png" />
+                                            <img u="image" src="/img/images/handcraft.png" />
                                         </div>
                                         <div>
-                                            <img u="image" src="https://cdn.shoppre.com/shoppre/public/babyProduct.png" />
+                                            <img u="image" src="/img/images/babyProduct.png" />
                                         </div>
                                         <div>
-                                            <img u="image" src="https://cdn.shoppre.com/shoppre/public/worship.png" />
+                                            <img u="image" src="/img/images/worship.png" />
                                         </div>
                                     </div>
 
                                     <!-- Bullet Navigator Skin Begin -->
                                     <style>
                                         .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
-                                            background: url('https://cdn.shoppre.com/shoppre/public/b05.png') no-repeat;
+                                            background: url('/img/images/b05.png') no-repeat;
                                             overflow: hidden;
                                             cursor: pointer;
                                         }
@@ -464,7 +470,7 @@
                                             position: absolute;
                                             cursor: pointer;
                                             display: block;
-                                            background: url('https://cdn.shoppre.com/shoppre/public/a12.png') no-repeat;
+                                            background: url('/img/images/a12.png') no-repeat;
                                             overflow: hidden;
                                         }
 
@@ -554,7 +560,7 @@
                         <div>
                         <span
                         style=" text-align: center;font-family: Montserrat-SemiBold;
-                                font-size: 45px; color:#7ACCD7;">
+                                font-size: 45px; color:#75B2AF;">
                                     Use Personal Shopper Service To Purchase Your Items</b>
                         </span>
                         </div>
@@ -562,7 +568,7 @@
                         <div class="col-md-12">
                             <div class="col-md-5 col-sm-12 col-xs-12">
                                 <div class="mar-b-10px">
-                                    <img class="personal-shopper-img personal-shopper-img-desktop ps-img-mar" src="https://cdn.shoppre.com/shoppre/public/family_shopping.png">
+                                    <img class="personal-shopper-img personal-shopper-img-desktop ps-img-mar" src="/img/images/familyShopping.png">
                                 </div>
                             </div>
                             <div class="col-md-7 col-sm-12 col-xs-12 personal-shopper-content-section personal-shopper-content-section-mob">
@@ -592,7 +598,7 @@
                                     <a href="{{route('ifs.landing')}}" target="_blank">
                                         <button type="submit" class="signup-free">
                                                 <span class="text-in-button">
-                                                    Assisted Purchase
+                                                   <h4> <b> Assisted Purchase </b></h4>
                                                 </span>
                                         </button>
                                     </a>
@@ -611,7 +617,7 @@
 
                                 <div class="col-md-3 charge-box"
                                      style="margin: 5% -3% 2% 5%;
-                                border-right-color: #b8f5ff;
+                                border-right-color: #92d9db;;
                                 border-right-width: 1px;">
                                     <p style="padding-top: 5%">
                                         &nbsp;
@@ -647,10 +653,10 @@
 
                                 <div class="col-md-3 charge-box"
                                      style="margin: 5% -2% 2% 3%;
-                            border-right-color: #b8f5ff;
-                            border-right-width: 1px;
-                            border-left-color: #b8f5ff;
-                            border-left-width: 1px;">
+                                        border-right-color: #92d9db;
+                                        border-right-width: 1px;
+                                        border-left-color: #92d9db;
+                                        border-left-width: 1px">
                                     <p style="padding-top: 5%; font-size: 20px; ">
                                         Additional Charges
                                     </p>
@@ -689,7 +695,7 @@
                                         <a href="https://tawk.to/chat/58dab24ff97dd14875f5a8a9/default" target="_blank">
                                             <button type="submit" class="signup-free">
                                             <span class="text-in-button">
-                                                Live Chat
+                                                <h3 style="margin-top: 5px;"><b>Live Chat</b></h3>
                                             </span>
                                             </button>
                                         </a>
@@ -698,7 +704,7 @@
 
                                 <div class="col-md-3 charge-box"
                                      style="margin: 5% 0% 2% 2%;
-                                    border-left-color: #b8f5ff;
+                                    border-left-color: #92d9db;;
                                     border-left-width: 1px;">
                                     <p style="padding-top: 5%">
                                         &nbsp;
@@ -730,7 +736,9 @@
                         <section class="service-block">
                             <div class="col-md-12 col-xs-12 col-sm-12 ">
                                 <span
-                                        style=" text-align: center;font-family: Montserrat-SemiBold;font-size: 45px; color:#7ACCD7;">
+                                        style=" text-align: center;
+                                        font-family: Montserrat-SemiBold;font-size: 45px;
+                                        color:#75B2AF;">
                             Restricted Items
                         </span>
                             </div>
@@ -745,7 +753,7 @@
                                 <a href="https://ship.shoppre.com/prohibited-items-what-you-cannot-ship-internationally-from-india/" target="_blank">
                                     <button type="submit" class="signup-free">
                                                 <span class="text-in-button">
-                                                   Learn More
+                                                   <h3 style="margin-top: 5px;"><b>Learn More</b></h3>
                                                 </span>
                                     </button>
                                 </a>
