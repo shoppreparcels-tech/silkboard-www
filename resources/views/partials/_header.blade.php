@@ -201,12 +201,8 @@
                     </li>
                     <li><a href="{{route('offers-new.index')}}" class="shoppre-offers">Offers </a></li>
                     <li><a href="{{route('pricing')}}">Shipping Rates</a></li>
-<<<<<<< HEAD
-                    <li><a href="https://www.shoppreparcels.com/shipping-100k-surgical-face-masks-to-singapore-from-india" target="_blank"><span style="color: #f9c030;" id="offer">Face Mask</span>
-=======
                     <li><a href="{{route('myntra.landing')}}" target="_blank">
                             <span style="color: #f9c030;" id="offer">Myntra</span>
->>>>>>> edd15aee8aa59a53ad1bf56f641dbbe517737cc2
 {{--                            <sup class="p-color-red" style="font-size: 8px" id="offer">Buy</sup>--}}
                         </a>
                     </li>
