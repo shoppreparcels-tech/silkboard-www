@@ -155,11 +155,11 @@
                     <center>
                         <a href="https://www.tatacliq.com/womens-day-offers" target="_blank">
                             <img class="img-desktop-view"
-                                 src="https://assets.tatacliq.com/medias/sys_master/images/26397831790622.jpg"
+                                 src="https://assets.tatacliq.com/medias/sys_master/images/17564352020510.jpg"
                                  width="1100px"></a>
                         <a href="https://www.tatacliq.com/womens-day-offers" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.tatacliq.com/medias/sys_master/images/26402925150238.jpg"
+                                 src="https://assets.tatacliq.com/medias/sys_master/images/26394414088222.jpg"
                                  width="310px" ></a>
                     </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9"><a--}}

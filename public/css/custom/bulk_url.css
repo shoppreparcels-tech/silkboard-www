@@ -381,7 +381,11 @@ and (max-device-width : 1024px)   {
 
 @media only screen
 and (min-width: 1300px)
+<<<<<<< HEAD
 and (max-width: 1500px)  {
+=======
+and (max-width: 2000px)  {
+>>>>>>> edd15aee8aa59a53ad1bf56f641dbbe517737cc2
     .consolidation-image{
         height: 375px;
         width: 90%;

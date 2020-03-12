@@ -338,9 +338,15 @@
                                 font-size: 45px; color: #75B2AF;">
                                 Shoppre's consolidation service
                             </span>
+<<<<<<< HEAD
                             <p style="line-height: 25px">Combine your packages from multiple stores to one tracking number,<br>
                                 and save upto 60% - 80% on shipping rates!</p>
                             <p style="font-style: italic;font-size: 15px;">For example:</p>
+=======
+                            <p style="line-height: 25px; font-family: Montserrat;">Combine your packages from multiple stores to one tracking number,<br>
+                                and save upto 60% - 80% on shipping rates!</p>
+                            <p style="font-style: italic;font-size: 15px; font-family: Montserrat">For example:</p>
+>>>>>>> edd15aee8aa59a53ad1bf56f641dbbe517737cc2
                             <div class="col-sm-2" style="padding-top: 10%">
                                 <div class="">
                                     <h4 class="shipping-directly-section">Shipping Directly From Most Sellers</h4>
