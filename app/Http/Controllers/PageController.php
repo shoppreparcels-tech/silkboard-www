@@ -429,6 +429,11 @@ class PageController extends Controller
         return view('page.books-from-india');
     }
 
+    public function indianBooks()
+    {
+        return view('page.indian-books');
+    }
+
     public function newyear()
     {
         $countries = Country::orderBy('name', 'asc')->where('shipping', '1')->get();

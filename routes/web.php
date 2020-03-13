@@ -653,6 +653,7 @@ Route::get('/shop-ship', 'PageController@shopShipIndex')->name('shopship');
 Route::get('/christmas-offer', 'PageController@christmas')->name('christmas');
 Route::get('/ready-made-sarees-from-india', 'PageController@readyMadeSarees')->name('ready-made-sarees-from-india');
 Route::get('/top-10-popular-books-purchased-from-india-in-2019', 'PageController@booksFromIndia')->name('books-from-india');
+Route::get('/online-books-shopping-india-international-shipping', 'PageController@indianBooks')->name('indian-books');
 Route::get('/new-year-offer', 'PageController@newyear')->name('newyear');
 Route::get('/university-offer', 'PageController@university')->name('university');
 Route::get('/radcon', 'PageController@radioContest')->name('radio');

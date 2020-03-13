@@ -105,9 +105,9 @@
 {{--                        </div>--}}
                         <div class="item">
                             <div class="pad15">
-{{--                                <a href="/shop-ship" target="_blank">--}}
+                                <a href="https://www.shoppreparcels.com/offers/ship-more-save-more/" target="_blank">
                                     <img src="/img/images/MoreSavings.png" class="boxofScroll"/>
-{{--                                </a>--}}
+                                </a>
                             </div>
                         </div>
                         <div class="item">

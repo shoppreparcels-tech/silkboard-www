@@ -1285,7 +1285,7 @@
                         <div class="modal-body">
 
                             <div class="thank-you-pop">
-                                <img src="http://goactionstations.co.uk/wp-content/uploads/2017/03/Green-Round-Tick.png" alt="">
+                                <img src="/img/images/GreenRoundTick.png" alt="">
                                 <h1>Thank You!</h1>
                                 <p>Your submission is received and we will contact you soon</p>
                             </div>
@@ -1301,6 +1301,7 @@
                 <div class="col-md-12 col-xs-12 div-b-w-s pad-20">
                     <h1 class="f-s-22 f-c-blue f-w-9">
                         Come to us for the best shipping costs from India!
+
                     </h1> <br>
                     <p class="f-s-16 f-c-l-gray">ShoppRe provides the cheapest shipping rates & FREE international shipping estimates for 220+ countries including
                         the USA, UK, UAE, Australia & more. We estimate the shipping cost based on the destination and the weight of
