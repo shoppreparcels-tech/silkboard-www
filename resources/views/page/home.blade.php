@@ -739,7 +739,7 @@
                                 <div style="    color: #000;font-size: 14px;margin-top: 10px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                   BRANDS OF THE MONTH
+                                  WEAR THE NEW
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
@@ -747,7 +747,7 @@
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
 {{--                                           Start from <i class="fa fa-inr" aria-hidden="true"></i>69--}}
-                                            11-13th Mar
+                                            S/S 2020
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -807,13 +807,13 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="https://assets.ajio.com/medias/sys_master/images/images/h53/h72/15800341364766/09032020-M-SHP-topbanner-colursofyou-40-70plusextra25.jpg" />
+                                         data-src="https://assets.ajio.com/medias/sys_master/images/images/he9/h0e/15902065098782/16032020-M-SHP-topbanner-P1-40-70extra20msite.jpg"/>
 
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    COLOURS OF YOU
+                                    OMG STYLES
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;

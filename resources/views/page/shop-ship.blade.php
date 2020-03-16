@@ -76,9 +76,9 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="https://www.shoppreparcels.com/shipping-100k-surgical-face-masks-to-singapore-from-india/" title="Flipkart" target="_blank">1. 👉FACE MASK SHOPPING</a> |
+                            <a href="https://www.shoppreparcels.com/shipping-100k-surgical-face-masks-to-singapore-from-india/" title="Face Mask" target="_blank">1. 👉FACE MASK SHOPPING</a> |
                             <a href="/myntra-online-shopping" title="Myntra" target="_blank">2. 👉ALL THINGS SUMMER</a> |
-                            <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉COLOURS OF YOU</a>
+                            <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉WEAR THE NEW</a>
                         </marquee>
                     </div>
                     <center>

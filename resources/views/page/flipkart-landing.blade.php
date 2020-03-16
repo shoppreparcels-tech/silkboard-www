@@ -80,18 +80,17 @@
                 </div>
             </div>
             <center>
-                    <a href="https://www.flipkart.com/offers-list/fashionunder999?screen=dynamic&pk=themeViews%3DLS-RD20-Jan-under999%3Ada%2CLS-RD20-Jan-under999%3Add~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&otracker=hp_banner_3_6.bannerX3.BANNER_512BIZKY3VQ4&fm=neo%2Fmerchandising&iid=M_31dcd1f2-9e28-4ed5-82a3-11bf0390a40f_6.512BIZKY3VQ4&ppt=hp&ppn=hp&ssid=l8rtt926c00000001583901149805"
+                    <a href="https://www.flipkart.com/the-big-shopping-days-store?otracker=hp_bannerads_3_1.bannerAdCard.BANNERADS_0ZC92SX88BL0"
                        target="_blank">
                         <img class="img-desktop-view"
-                             src="https://i.pinimg.com/originals/45/2e/69/452e69a8023aa665c079dfbba2c83b2c.png"
-{{--                             width="1100px"--}}
-                            style="width: 50%;"></a>
+                             src="https://rukminim1.flixcart.com/flap/1688/280/image/7efabe96c2d5fc7b.jpg?q=50"
+                             width="1100px"></a>
                 </center>
                 <center>
-                    <a href="https://www.flipkart.com/offers-list/fashionunder999?screen=dynamic&pk=themeViews%3DLS-RD20-Jan-under999%3Ada%2CLS-RD20-Jan-under999%3Add~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU&otracker=hp_banner_3_6.bannerX3.BANNER_512BIZKY3VQ4&fm=neo%2Fmerchandising&iid=M_31dcd1f2-9e28-4ed5-82a3-11bf0390a40f_6.512BIZKY3VQ4&ppt=hp&ppn=hp&ssid=l8rtt926c00000001583901149805"
+                    <a href="https://www.flipkart.com/the-big-shopping-days-store?otracker=hp_bannerads_3_1.bannerAdCard.BANNERADS_0ZC92SX88BL0"
                        target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://i.pinimg.com/originals/45/2e/69/452e69a8023aa665c079dfbba2c83b2c.png"
+                             src="/img/images/flipkartMob.png"
                              width="300px" ></a>
                 </center>
 {{--            <div class="row text-center">--}}

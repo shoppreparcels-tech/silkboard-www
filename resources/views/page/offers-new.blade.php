@@ -277,8 +277,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Fashion in a budget </h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Under ₹999</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">big shopping days </h4>
+                            <h5 class="header6 p-color-cement font-weight-900">19th - 22th March</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
@@ -333,7 +333,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">COLOURS OF YOU</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">the omg styles</h4>
                             <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
 {{--                            <h5 class="header6 p-color-cement font-weight-900">5 - 8th MAR</h5>--}}
                             <div class="ecomSmallBox">
@@ -363,8 +363,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900"> brands of the month</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">11-13th Mar</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900"> wear the new</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">S/S 2020</h5>
 {{--                            <div class="ecomSmallBox" style="height: 94px;">--}}
                             <div class="ecomSmallBox">
                             <a href="/amazon-india-shop-international-shipping" target="_blank">

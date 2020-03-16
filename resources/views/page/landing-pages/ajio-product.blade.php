@@ -140,15 +140,15 @@
 
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
                     <center>
-                    <a href="https://www.ajio.com/s/40-to-70-percent-off-3898-78813" target="_blank">
+                    <a href="https://www.ajio.com/s/nail-the-sale-epic-3904-01593" target="_blank">
                         <img class="img-desktop-view"
-                             src="https://assets.ajio.com/medias/sys_master/images/images/hbd/h09/15800341299230/09032020-D-SHP-topbanner-colursofyou-40-70plusextra20.jpg"
+                             src="https://assets.ajio.com/medias/sys_master/images/images/h60/haf/15902064508958/16032020-D-MHP-TopBanner-40to70extra20.jpg"
                              width="1100px"></a>
                         </center>
                     <center>
-                        <a href="https://www.ajio.com/s/40-to-70-percent-off-3898-78813" target="_blank">
+                        <a href="https://www.ajio.com/s/nail-the-sale-epic-3904-01593" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.ajio.com/medias/sys_master/images/images/h53/h72/15800341364766/09032020-M-SHP-topbanner-colursofyou-40-70plusextra25.jpg"
+                                 src="https://assets.ajio.com/medias/sys_master/images/images/he9/h0e/15902065098782/16032020-M-SHP-topbanner-P1-40-70extra20msite.jpg"
                                  width="300px" ></a>
 
                     </center>
