@@ -233,14 +233,14 @@
 
 
     <div class="row" style="margin-top: 3%">
-{{--        <img class="img-desktop-view"--}}
-{{--             src="https://mcusercontent.com/8f7212d51aa9533c4788ccf05/images/b7b06c24-a311-4c3b-a102-6f22facd1bcc.jpg"--}}
-{{--             width="100%">--}}
-{{--        <center>--}}
-{{--            <img class="img-mobile-view img-shopperstop-offer"--}}
-{{--                 src="https://mcusercontent.com/8f7212d51aa9533c4788ccf05/images/548fc28f-0531-4024-bdc3-a4189a6a2553.jpg"--}}
-{{--                 width="90%" style="margin-top:6%;">--}}
-{{--        </center>--}}
+        <img class="img-desktop-view"
+             src="/img/images/bookDesktop.png"
+             width="100%">
+        <center>
+            <img class="img-mobile-view img-shopperstop-offer"
+                 src="/img/images/bookMob.png"
+                 width="100%" style="margin-top:10%;">
+        </center>
 
     </div>
     <section>
@@ -791,112 +791,92 @@
         <br>
     </section>
 
-{{--    <section>--}}
+    <section>
 
-{{--        <div class="container christmas">--}}
-{{--            <label class="f-s-24 f-c-d-greay"> Does Surgical Mask help protect you from Coronavirus?</label>--}}
-{{--            <p class="f-s-16 f-c-gray f-w-4 "><b>"Coronavirus: Death Toll Exceeds 2500+!"</b> The news headlines and panic vibes of Coronavirus are still alive everywhere.--}}
-{{--                Ever since the deadly outbreak happened, the doctors have been advising various precautionary methods to prevent the spread. <br><br>Since coronavirus is an airborne disease,--}}
-{{--                the most important custom is to maintain respiratory hygiene. Thus, equipping a mask would minimize the risk of direct contact with the virus. Not only does this apply--}}
-{{--                for the people who are uninfected but also for those who are suffering from the disease. <br><br>As surgical face masks would trap the infected individual's expiratory droplets--}}
-{{--                (while sneezing and coughing), you can ensure the family/public health by wearing one.--}}
-{{--            </p>--}}
+        <div class="container christmas">
+            <label class="f-s-24 f-c-d-greay"> Don’t swipe books but turn the real page: Ship books abroad from India </label>
+            <p class="f-s-16 f-c-gray f-w-4 ">Lately, there seems to be nothing much left other than toggling between phone and
+                TV remote. Aren’t we forgetting the nostalgic option? Yes, Books are the best way to kill time. Instead of sticking
+                to online books and virtual reality, give your eyes some real treat with the best Indian author's books and others.
 
-{{--            <h1 class="f-s-20 f-c-d-greay f-w-7">Where to buy Surgical Face Masks?</h1>--}}
-{{--            <p class="f-s-16 f-c-gray f-w-4">Due to the increased demand for masks, China is facing a shortage of supplies. Hence, recently the Indian government has removed the ban--}}
-{{--                on shipping certain masks and gloves abroad. <br><br>Thus, if the face mask is not available at the nearby convenience stores or pharmacies, you can always make use of--}}
-{{--                <a href="/" target="_blank">international shipping services online</a>.--}}
-{{--            </p>--}}
+                <br><br>If you are a book lover, you might already have a list of favourites on your mind. Say, Paulo Coehlo's fantasy novels
+                or Robin Sharma's fiction books and other a-z books! You can find the best selling books from India 2019-2020.
+                Now, it's time to <b>move your favourites to cart and ship it internationally with <a href="/" target="_blank"> ShoppRe.</a></b>
+            </p>
 
-{{--            <h3 class="f-s-20 f-c-d-greay f-w-7">What are the options available?</h3>--}}
-{{--            <p class="f-s-16 f-c-gray f-w-4">You might have come across the product labels that read 2 ply or 3 ply surgical masks. But what is the <strong>difference between 2 ply and 3 ply face masks?</strong>--}}
-{{--                The only difference is with the number of layers. In 2 ply masks, there are two layers that are designed to create a potential barrier to filter bacteria. In 3 ply masks,--}}
-{{--                you can find an additional outer layer that keeps you away from the fluids and blood contact.--}}
-{{--            </p>--}}
+            <h1 class="f-s-20 f-c-d-greay f-w-7">Just name the book you want, you got it!</h1>
+            <p class="f-s-16 f-c-gray f-w-4">So, searching for where to buy books online in India
+                isn't necessarily a difficult task. You would have known the Online Book Shops India.
+                But, product availability is where the problem is. However, with ShoppRe, you can
+                <b>browse plenty of Online Indian Bookstores of new and used books options.</b>
 
-{{--            <h3 class="f-s-20 f-c-d-greay f-w-7">ShoppRe and Surgical Mask Shopping Online in India:</h3>--}}
-{{--            <p class="f-s-16 f-c-gray f-w-4">As this is a period of a medical emergency, ShoppRe offers 24*7 support for you to shop for surgical face masks online from anywhere.--}}
-{{--                All you have to do is to sign up for free. Surf on the Surgical Mask, Gloves and other necessary utilities from India.<br><br> Make your choice and place the order.--}}
-{{--                Once you have done that, you will be receiving your orders in no time. Typically, it takes 3 to 6 days for delivery.--}}
-{{--            </p>--}}
+                <br><br>Select any book that interests you without checking the product availability. All you have to do is to sign up for free and tell
+                us the book you want. Go online books shopping India and the rest is left to <a href="/" target="_blank"> ShoppRe.</a>
+            </p>
 
-{{--            <h3 class="f-s-20 f-c-d-greay f-w-7">Just Pay During Shipping Confirmation:</h3>--}}
-{{--            <p class="f-s-16 f-c-gray f-w-4">Of course, the purchase of foreign products can become hectic during money transactions. Also, in such cases, you are bound to--}}
-{{--                fill up loads of forms that actually feel like homework. <br><br>However, you won't be facing such difficulties at this international shipping service.--}}
-{{--                That is because you get to meet <a href="/personal-shopper-india" target="_blank"> Mr.Personal Shopper</a>. <br><br>This fella bot will pay for your purchase. Once your orders arrive at ShoppRe, you will be updated with the status.--}}
-{{--                You can check for the pictures of the deliverables and confirm the shipping. Post your payment, the orders will be shipped to your doorstep.--}}
-{{--            </p>--}}
+            <h3 class="f-s-20 f-c-d-greay f-w-7">Where to find Cheap International Shipping for Books?</h3>
+            <p class="f-s-16 f-c-gray f-w-4">Never miss the Flipkart Books Sale and Amazon Books sale over
+                the thought of excessive shipping costs. Here, you can <b>save up to 80%</b> with the cheapest way
+                to ship books internationally. For your orders, you will be assigned with a virtual Indian address
+                and a 20-day free personal locker. <br><br>Once your deliverables reach us, all your belongings will be kept
+                safe at your customized locker. Meanwhile, track the order status until it reaches your doorstep.
+                Also, <b> expect the books on your desk within 3-6 days!</b>
+            </p>
 
-{{--            <h3 class="f-s-20 f-c-d-greay f-w-7">"International Shipping for Surgical Face Masks": Does it sound way too far or Do you feel burdened about the budget?</h3>--}}
-{{--            <p class="f-s-16 f-c-gray f-w-4">Pocket-friendly international shipping service seems far away from reality. And because ShoppRe provides impressive international shipping service online,--}}
-{{--                you might have doubts about the pricing. <br><br>But It's not what you presume. Here is the fact. ShoppRe does massive shipping of products from India to elsewhere.--}}
-{{--                Thereby <strong>cutting shipping costs up to 80%</strong>. Now shop at your place without a worry about the hefty--}}
-{{--                <a href="{{route('pricing')}}" target="_blank">shipping price</a>.--}}
-{{--            </p>--}}
-{{--            <br>--}}
-{{--            <div>--}}
-{{--                <p class="f-s-22 f-c-blue f-w-7">Additional Precautionary Tips:</p>--}}
-{{--                <ul>--}}
-{{--                    <li>--}}
-{{--                        <h4 class="header4 p-color-cement f-w-4"><strong>Can you reuse the surgical face mask?</strong> - Never make a mistake of reusing the surgical masks.--}}
-{{--                            They are disposable masks that just serve one time. So how often do you have to change? You can keep it on for a period of 8 hours.--}}
-{{--                        </h4>--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <h4 class="header4 p-color-cement f-w-4">Take your time while <strong>washing your hands</strong>. Preferably, for at least 20 seconds. Every time you cough or sneeze,--}}
-{{--                            make sure to thoroughly wash your hands.</h4>--}}
-{{--                    </li>--}}
-{{--                </ul>--}}
-{{--            </div>--}}
-{{--            <br>--}}
-{{--            <p class="f-s-22 f-c-green f-w-7">Conclusion:</p>--}}
-{{--            <p class="f-s-16 f-c-gray f-w-4">When stepping out has become hazardous, you can rely on this international shipping service. You will definitely not be facing issues--}}
-{{--                like product unavailability or distance. Face Mask has somehow topped the shopping list of every house. And during your time at ShoppRe, you can experience the concern,--}}
-{{--                this shipping service provides. Be on your couch and place your order. Let ShoppRe lend a hand to fight away coronavirus by offering the best international shipping service--}}
-{{--                at the cheapest shipping fare.--}}
-{{--            </p>--}}
+            <h3 class="f-s-20 f-c-d-greay f-w-7">Difficulties with the order? Say Hi to Personal Shopper </h3>
+            <p class="f-s-16 f-c-gray f-w-4">Buy books online with international shipping at ShoppRe.
+                If you are facing difficulties during the payment, or if you have any other problems with your order,
+                Just opt for personal shopper assisted purchase service.
+                <a href="/personal-shopper-india" target="_blank"> The personal shopper </a> will pay for your purchase and
+                it is enough if you make the payment just before the shipping confirmation.
+            </p>
+            <br>
+            <p class="f-s-22 f-c-green f-w-7">Conclusion:</p>
+            <p class="f-s-16 f-c-gray f-w-4">For all the book lovers out there,
+                <a href="/" target="_blank"> ShoppRe.</a> is here to comfort your Online Books Shopping India.
+                Purchasing good books is worth-spending your free time.
+                Who knows? You might end up with the best book to read it over and over again!
+                So shop books online India and ship it to you at the cheapest international shipping cost.
+            </p>
 
-{{--        </div>--}}
-{{--        <br>--}}
-{{--        <div class="container">--}}
-{{--            <div itemscope itemtype="https://schema.org/FAQPage">--}}
-{{--                <p class="f-c-red f-s-20" style="font-style: italic">Latest Questions & Frequently asked by our customers:</p>--}}
-{{--                <br>--}}
-{{--                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">--}}
-{{--                    <p itemprop="name" class="f-s-18 f-c-gray">Can I ship N95 Mask?</p>--}}
-{{--                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">--}}
-{{--                        <p itemprop="text" class="f-s-16 f-c-gray f-w-4">Unfortunately, you cannot make a purchase on N95 masks. The Government of India has prohibited the export of N95 Face Masks.--}}
-{{--                        </p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <br>--}}
-{{--                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">--}}
-{{--                    <p itemprop="name" class="f-s-18 f-c-gray">Can I ship a 4 ply mask?</p>--}}
-{{--                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">--}}
-{{--                        <p itemprop="text" class="f-s-16 f-c-gray f-w-4">No, this option is not available either because 4 ply or 8 ply masks are on the list of banned export goods. However, 2 ply and 3 ply masks are available for shipping.--}}
-{{--                        </p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <br>--}}
-{{--                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">--}}
-{{--                    <p itemprop="name" class="f-s-18 f-c-gray">Is it possible to ship 100k surgical masks to Singapore?</p>--}}
-{{--                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">--}}
-{{--                        <p itemprop="text" class="f-s-16 f-c-gray f-w-4">--}}
-{{--                            Yes, You can ship a quantity of <a href="https://www.shoppreparcels.com/shipping-100k-surgical-face-masks-to-singapore-from-india/ " target="_blank">1,00,000 2 ply and 3 ply surgical masks</a> to Singapore from India.--}}
-{{--                        </p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <br>--}}
-{{--                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">--}}
-{{--                    <p itemprop="name" class="f-s-18 f-c-gray ">Can I ship face masks manufactured in China?</p>--}}
-{{--                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">--}}
-{{--                        <p itemprop="text" class="f-s-16 f-c-gray f-w-4">No, you can only order the products that have description in English and that are manufactured from India.--}}
-{{--                        </p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </section>--}}
+        </div>
+        <br>
+        <div class="container">
+            <div itemscope itemtype="https://schema.org/FAQPage">
+                <p class="f-c-red f-s-20" style="font-style: italic">Latest Questions & Frequently asked by our customers:</p>
+                <br>
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <p itemprop="name" class="f-s-18 f-c-gray">Can I ship books from my house?</p>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text" class="f-s-16 f-c-gray f-w-4">Yes, you can use our international courier option for the shipment.
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <p itemprop="name" class="f-s-18 f-c-gray">Can I purchase and ship from shops that are not listed on ShoppRe?</p>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text" class="f-s-16 f-c-gray f-w-4">
+                            Yes, you can shop from any other online store. Just keep the link of the product available while filling the shipping form.
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <p itemprop="name" class="f-s-18 f-c-gray">How to order books from amazon India and ship to Malaysia</p>
+                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p itemprop="text" class="f-s-16 f-c-gray f-w-4">
+                            Find the book you wanted to order at Amazon.
+                            Visit our website and avail the international shipping service option.
+                            Fill your details such as your malaysia residence, contact information and other essentials.
+                            Confirm your details and now, you are all set to ship books from Amazon India to Malaysia.
+                        </p>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </section>
 
 
     <section class="chris-benefits">
