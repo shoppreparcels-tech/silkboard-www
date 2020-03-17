@@ -382,17 +382,18 @@
         </div>
     </section>
 
-    <section>
-        <div class="container div-ics-border-btm">
-            <div class="col-md-12 col-xs-12 no-pad">
-                <center>
-                    <h1 class="f-s-30 f-c-d-greay">Indian online shopping websites with ShoppRe International delivery</h1>
-                    <p class="f-s-20 f-c-gray">List of the top Indian online shopping websites international delivery through ShoppRe ecommerce
-                        package forwarding services and Festival Deals, Offers and Sale.</p>
-                    </br>
-                </center>
-                <div class=" col-md-12 col-xs-12 div-ics-prodcts">
-                    <div class="col-md-6 col-xs-12 txt-center">
+
+    <section class="chris-benefits">
+        <div class="container" >
+            <center>
+                <h1 class="f-s-30 f-c-d-greay">Indian online shopping websites with ShoppRe International delivery</h1>
+                <p class="f-s-20 f-c-gray">List of the top Indian online shopping websites international delivery through ShoppRe ecommerce
+                    package forwarding services and Festival Deals, Offers and Sale.</p>
+                </br>
+            </center>
+            <div class="row text-center">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="panel ">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="flipkart-shopping-with-shoppre-from-india" target="_blank">Flipkart Online Shopping</a></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/amazon-india-shop-international-shipping" target="_blank">Amazon.in Online Shopping</a></li>
@@ -403,7 +404,9 @@
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/nykaa-online-shopping" target="_blank">Nykaa Online Beauty Store</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-6 col-xs-12 txt-center">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="panel ">
                         <ul>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="myntra-independence-sale-right-to-fashion-sale-offers-discounts-shopping" target="_blank">Myntra Right To Fashion Sale</a></li>
                             <li><img src="{{env('AWS_CLOUD_FRONT')}}/img/svg/Ellipse.svg" > <a href="/flipkart-big-billion-days-sale-offers-top-brands-stores" target="_blank">Flipkart Big Billion Days 2019</a></li>
@@ -415,11 +418,8 @@
                         </ul>
                     </div>
                 </div>
+                <br/><br/>
             </div>
-            <br>
-            <br>
-            <br>
-
         </div>
     </section>
 

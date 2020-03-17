@@ -1,19 +1,19 @@
 @extends('layout')
 
-@section('title', 'How to buy Best book in India | International Shipping ')
-@section('description', 'Book Shopping Online from India for Low Prices. Ship to your country with ShoppRe Cheap International Shipping Rates. Sign up for Free.')
-@section('keywords', 'Indian books,')
+@section('title', 'How to buy Best book in India | International Shipping Cost')
+@section('description', 'Buy the best selling Book online from India for Low Prices. Ship to your country with ShoppRe Cheap International Shipping costs. Easy Book Shopping in India.')
+@section('keywords', 'best selling book, indian author, bookstore, shopping online cost, international shipping, buy popular read books')
 
 @section('css_style')
 
     <link rel="canonical" href="https://www.shoppre.com/online-books-shopping-india-international-shipping"/>
-    <meta name="robots" content="nofollow" />
-
-    <meta property="og:title" content="Online shopping for Books | ShoppRe.com"/>
+    <meta property="og:title" content="Online shopping for Books in India| Cheap Shipping Costs"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://www.shoppre.com/online-books-shopping-india-international-shipping"/>
-    <meta property="og:image" content="https://mcusercontent.com/8f7212d51aa9533c4788ccf05/images/a4ce8394-213d-4003-89c6-165a38f814b6.png"/>
-    <meta property="og:description" content="Shop books from any Indian Website & Ship Worldwide. Best Rates, Fastest Processing, Free Sign-up!"/>
+    <meta property="og:image" content="https://www.shoppre.com/img/images/bookMob.png"/>
+    <meta property="og:description" content="Shop books from any Website in India & Ship books abroad at cheap shipping costs. "/>
+
+
 
     <style>
 
@@ -234,7 +234,7 @@
 
     <div class="row" style="margin-top: 3%">
         <img class="img-desktop-view"
-             src="/img/images/bookDesktop.png"
+             src="/img/images/Book-from-india-desktop.png"
              width="100%">
         <center>
             <img class="img-mobile-view img-shopperstop-offer"
@@ -249,7 +249,7 @@
 
             <div class="row text-center">
                 <h2 class="f-s-20 p-color-cement-dark font-weight-900"><u>
-                        Top Shipping Books From India
+                        <i class="fas fa-book-reader"></i> Top Shipping Books From India<i class="fas fa-book-reader"></i>
                     </u></h2>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
