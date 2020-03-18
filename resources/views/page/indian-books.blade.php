@@ -248,9 +248,143 @@
         <div class="container fst-service" style="margin-top: 0px;">
 
             <div class="row text-center">
-                <h2 class="f-s-20 p-color-cement-dark font-weight-900"><u>
-                        <i class="fas fa-book-reader"></i> Top Shipping Books From India<i class="fas fa-book-reader"></i>
-                    </u></h2>
+                <h2 class="f-s-20 p-color-cement-dark font-weight-900">
+                        <i class="fa fa-book" style="color: #ff5d5d; font-size: x-large;"></i> &nbsp;
+                        Top Shipping Books From India&nbsp;
+                        <i class="fa fa-book" style="color: #ff5d5d; font-size: x-large;"></i>
+                    </h2>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/What-If-Randall-Munroe/dp/1848549563"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img vday-img img-height"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/41rUxcHPy6L._SX324_BO1,204,203,200_.jpg"/>
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    What If ? - by Randall Munroe
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 369
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Rating:
+                                    <span style="color: #347b4c;">
+                                             4.16/5
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/1984-George-Orwell/dp/8192910903"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img vday-img img-height"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/514CVwOrybL._SX333_BO1,204,203,200_.jpg"/>
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    1984 - by George Orwell
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 95
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Rating:
+                                    <span style="color: #347b4c;">
+                                             4.18/5
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/Factfulness-Reasons-Wrong-Things-Better/dp/1473637473/"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img vday-img img-height"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/41I11elZnpL._SX307_BO1,204,203,200_.jpg"/>
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Factfulness - by Hans Rosling
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 177
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Rating:
+                                    <span style="color: #347b4c;">
+                                             4.37/5
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/Bad-Blood-Secrets-Silicon-Startup/dp/1509868089"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img vday-img img-height"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/41a3ILoKeXL._SX328_BO1,204,203,200_.jpg"/>
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Bad Blood - by  John Carreyrou
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 316
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Rating:
+                                    <span style="color: #347b4c;">
+                                             4.45/5
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
@@ -387,6 +521,172 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/Palace-Illusions-Chitra-Banerjee-Divakaruni/dp/1400096200"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img vday-img img-height"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/61I6rrig5TL._SX321_BO1,204,203,200_.jpg"/>
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    The Palace of Illusions - by Chitra Banerjee Divakaruni
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 399
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Rating:
+                                    <span style="color: #347b4c;">
+                                             4.16/5
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/Factfulness-Reasons-Wrong-Things-Better/dp/1473637473/"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img vday-img img-height"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/41I11elZnpL._SX307_BO1,204,203,200_.jpg"/>
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Eleanor & Park - by Rainbow Rowell
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 177
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Rating:
+                                    <span style="color: #347b4c;">
+                                             4.37/5
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/Half-Mother-Novel-Shahnaz-Bashir/dp/9350097885"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img vday-img img-height"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/51AB1ghNNFL._SX326_BO1,204,203,200_.jpg"/>
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    The Half Mother - by Shahnaz Bashir
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 212
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Rating:
+                                    <span style="color: #347b4c;">
+                                             4.06/5
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/Tuesdays-Morrie-Greatest-Lesson-Anniversary/dp/076790592X"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img vday-img img-height"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/51R8ksnd5CL._SX344_BO1,204,203,200_.jpg"/>
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Tuesdays with Morrie - by Mitch Albom
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 225
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Rating:
+                                    <span style="color: #347b4c;">
+                                             4.11/5
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                        <a href="https://www.amazon.in/Dark-Matter-Mind-Blowing-Twisted-Thriller/dp/144729758X"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img vday-img img-height"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/61pxmY0HlbL._SX323_BO1,204,203,200_.jpg"/>
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Dark Matter &nbsp; - &nbsp; by &nbsp; Blake Crouch
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 299
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Rating:
+                                    <span style="color: #347b4c;">
+                                             4.11/5
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
                         <a href="https://www.flipkart.com/educated-international-bestselling-memoir-paperback-import-1-nov-2018/p/itmfee267ph7zhhr"
                            target="_blank">
                             <div style="padding-top: 0px;">
@@ -484,6 +784,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
                         <a href="https://www.amazon.in/Subtle-Art-Not-Giving/dp/0062641549"
@@ -517,7 +818,6 @@
                         </a>
                     </div>
                 </div>
-
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
                         <a href="https://www.amazon.in/Monk-Who-Sold-His-Ferrari/dp/817992162X/"
@@ -617,6 +917,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
                         <a href="https://www.amazon.in/Search-Schrodingers-Cat-Updated/dp/0552125555"
@@ -650,7 +951,6 @@
                         </a>
                     </div>
                 </div>
-
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
                         <a href="https://www.flipkart.com/life-s-amazing-secrets/p/itmf76z4byzrhjcz"
@@ -685,24 +985,24 @@
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.amazon.in/Habits-Highly-Effective-People/dp/1471131823"
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div" style=" height: 100%">
+                        <a href="https://www.amazon.in/We-Should-All-Be-Feminists/dp/0008115273"
                            target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img vday-img img-height"
-                                     src="https://images-na.ssl-images-amazon.com/images/I/51HshB5UNCL._SX313_BO1,204,203,200_.jpg"/>
+                                     src="https://images-na.ssl-images-amazon.com/images/I/41iXPOubV8L._SX331_BO1,204,203,200_.jpg"/>
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    The 7 Habits of Highly Effective People - by R. Stephen Covey
+                                    We Should All Be Feminists - by C Ngozi Adichie
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 432
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 208
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -710,7 +1010,7 @@
                                                 text-align: left;">
                                     Rating:
                                     <span style="color: #347b4c;">
-                                            4.2/5
+                                             4.45/5
                                         </span>
                                 </div>
                             </div>
@@ -718,7 +1018,107 @@
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div" style="height: 100%">
+                        <a href="https://www.amazon.in/If-Truth-Be-Told-Memoir/dp/9351368068"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img vday-img img-height"
+                                     src="https://images-na.ssl-images-amazon.com/images/I/51BubnOQjCL._SX306_BO1,204,203,200_.jpg" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    If Truth Be Told: A Monk's Memoir - by Om Swami
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 963
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Rating:
+                                    <span style="color: #347b4c;">
+                                           4.7/5
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div" style="height: 100%;">
+                        <a href="https://www.flipkart.com/wilson-walkers-principles-techniques-biochemistry-molecular-biology-8th/p/itmf9gktmdgnczvh?pid=9781108716987&affid=salescueli&affExtParam2=CL_54240&affExtParam1=20200318clfga0p83jff"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img vday-img img-height"
+                                     src="https://rukminim1.flixcart.com/image/416/416/jmp79u80/book/9/8/7/wilson-and-walkers-principles-and-techniques-of-biochemistry-and-original-imaf9hmvgtdqfbhg.jpeg?q=70" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Principles And Techniques Of Biochemistry And Molecular Biology
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 730
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Rating:
+                                    <span style="color: #347b4c;">
+                                           4/5
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div" style="height: 100%;">
+                        <a href="https://www.flipkart.com/sapiens-brief-history-humankind/p/itm663668c914320?pid=RBKFP9FUNZWEWFVZ&affid=salescueli&affExtParam2=CL_54240&affExtParam1=20200318clab9swsj3cw"
+                           target="_blank">
+                            <div style="padding-top: 0px;">
+                                <img class="img-product m-t-img vday-img img-height"
+                                     src="https://rukminim1.flixcart.com/image/416/416/k6zda4w0/regionalbooks/f/v/z/sapiens-a-brief-history-of-humankind-original-imafpb3ffhkjvmyn.jpeg?q=70" />
+                            </div>
+                            <div style="text-align: left;margin-left: 10%;">
+                                <div style="color: #000;font-size: 14px;
+                                                padding-top: 0px !important;text-align: left;
+                                                text-decoration: none;">
+                                    Sapiens: A Brief History Of Humankind - by Yuval Noah Harari
+                                </div>
+                                <div style="padding-top: 0px !important;">
+                                        <span style="font-size: 14px;font-weight: bold;
+                                                     padding-top: 5px;color: #337ab7;;
+                                                     display: inline-block;">
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 198
+                                        </span>
+                                </div>
+                                <div style="display: block;padding: 0 0 0 0;
+                                                color: #181818;font-size: 14px;font-family: Lato;
+                                                text-align: left;">
+                                    Rating:
+                                    <span style="color: #347b4c;">
+                                           4/5
+                                        </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div" style="height: 100%;">
                         <a href="https://www.amazon.in/Only-Life-Laxmi-Journey-Heart/dp/9386797046"
                            target="_blank">
                             <div style="padding-top: 0px;">
@@ -729,7 +1129,7 @@
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    The Only Life: Osho, Laxmi and a Journey of the Heart
+                                    The Only Life: Osho, Laxmi and a Journey of the Heart - by Rashid Mazwell
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
@@ -751,24 +1151,24 @@
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
-                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.amazon.in/If-Truth-Be-Told-Memoir/dp/9351368068"
+                    <div class="shopandship onam-prod-pic p-b-26 vday-product-div" style="height: 100%;">
+                        <a href="https://www.amazon.in/Habits-Highly-Effective-People/dp/1471131823"
                            target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img vday-img img-height"
-                                     src="https://images-na.ssl-images-amazon.com/images/I/51BubnOQjCL._SX306_BO1,204,203,200_.jpg" />
+                                     src="https://images-na.ssl-images-amazon.com/images/I/51HshB5UNCL._SX313_BO1,204,203,200_.jpg"/>
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
-                                                text-decoration: none;">
-                                    If Truth Be Told: A Monk's Memoir - by Om Swami
+                                                text-decoration: none; padding-right: 7%">
+                                    The 7 Habits of Highly Effective People - by Stephen &nbsp; R. &nbsp;Covey
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 379
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 432
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -776,13 +1176,16 @@
                                                 text-align: left;">
                                     Rating:
                                     <span style="color: #347b4c;">
-                                           4.7/5
+                                            4.2/5
                                         </span>
                                 </div>
                             </div>
                         </a>
                     </div>
                 </div>
+
+
+
 
 
             </div>
@@ -1023,17 +1426,15 @@
 @endsection
 
 @section('js_script')
-{{--    <script type='text/javascript'>--}}
-{{--        var cId = '52423';--}}
+    <script type='text/javascript'>
+        var cId = '52423';
 
-{{--        (function (d, t) {--}}
-{{--            var s = document.createElement('script');--}}
-{{--            s.type = 'text/javascript';--}}
-{{--            s.async = true;--}}
-{{--            s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/') + 'cuelinksv2.js';--}}
-{{--            document.getElementsByTagName('body')[0].appendChild(s);--}}
-{{--        }());--}}
-{{--    </script>--}}
-
-
+        (function (d, t) {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/') + 'cuelinksv2.js';
+            document.getElementsByTagName('body')[0].appendChild(s);
+        }());
+    </script>
 @endsection
