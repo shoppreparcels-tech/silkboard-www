@@ -234,7 +234,7 @@
 
     <div class="row" style="margin-top: 3%">
         <img class="img-desktop-view"
-             src="/img/images/Book-from-india-desktop.png"
+             src="/img/images/bookDesktopNew.png"
              width="100%">
         <center>
             <img class="img-mobile-view img-shopperstop-offer"
@@ -554,11 +554,12 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 vday-product-div">
-                        <a href="https://www.amazon.in/Factfulness-Reasons-Wrong-Things-Better/dp/1473637473/"
+                        <a href="https://www.flipkart.com/eleanor-park/p/itmbf956a3283d4a"
                            target="_blank">
                             <div style="padding-top: 0px;">
                                 <img class="img-product m-t-img vday-img img-height"
-                                     src="https://images-na.ssl-images-amazon.com/images/I/41I11elZnpL._SX307_BO1,204,203,200_.jpg"/>
+                                     src="https://rukminim1.flixcart.com/image/416/416/jp8ngcw0-1/book/5/4/4/eleanor-park-original-imafbjfra5zs6dnz.jpeg?q=70"/>
+
                             </div>
                             <div style="text-align: left;margin-left: 10%;">
                                 <div style="color: #000;font-size: 14px;
@@ -570,7 +571,7 @@
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
-                                            <i class="fa fa-inr" aria-hidden="true"></i> 177
+                                            <i class="fa fa-inr" aria-hidden="true"></i> 355
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
@@ -578,7 +579,7 @@
                                                 text-align: left;">
                                     Rating:
                                     <span style="color: #347b4c;">
-                                             4.37/5
+                                             4.08/5
                                         </span>
                                 </div>
                             </div>

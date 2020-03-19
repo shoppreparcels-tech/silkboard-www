@@ -80,17 +80,18 @@
                 </div>
             </div>
             <center>
-                    <a href="https://www.flipkart.com/the-big-shopping-days-store?otracker=hp_bannerads_3_1.bannerAdCard.BANNERADS_0ZC92SX88BL0"
+                    <a href="https://www.flipkart.com/lifestyle-big-shopping-days-store"
                        target="_blank">
                         <img class="img-desktop-view"
-                             src="https://rukminim1.flixcart.com/flap/1688/280/image/7efabe96c2d5fc7b.jpg?q=50"
-                             width="1100px"></a>
+                             src="https://rukminim1.flixcart.com/flap/3600/3600/image/cd5329a316ec0b77.jpg?q=80"
+                             width="1100px" style="height: 300px;">
+                    </a>
                 </center>
                 <center>
-                    <a href="https://www.flipkart.com/the-big-shopping-days-store?otracker=hp_bannerads_3_1.bannerAdCard.BANNERADS_0ZC92SX88BL0"
+                    <a href="https://www.flipkart.com/lifestyle-big-shopping-days-store"
                        target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="/img/images/flipkartMob.png"
+                             src="https://rukminim1.flixcart.com/flap/360/160/image/7e7511eff5f1b64f.jpg?q=80"
                              width="300px" ></a>
                 </center>
 {{--            <div class="row text-center">--}}

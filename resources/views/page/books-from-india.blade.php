@@ -24,43 +24,53 @@
 @endsection
 
 @section('content')
-    <div id="fb-root"></div> <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&autoLogAppEvents=1&version=v5.0&appId=651881328327888"></script>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&autoLogAppEvents=1&version=v5.0&appId=651881328327888"></script>
     <section class="bg-christmas-landing-page">
         <div class="container no-padding">
-            <div class="col-md-2 div-snow">
-                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/snowman.png" alt="">
-            </div>
-            <div class="col-md-8 col-xs-12 no-padding">
+{{--            <div class="col-md-2 div-snow" style="display: none">--}}
+{{--                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/snowman.png" alt="">--}}
+{{--            </div>--}}
+            <div class="col-md-12 col-xs-12 no-padding">
                 <center>
                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/santa.png" alt="" class="santa-mobile">
-                    <h1 class="p-color-white header-spacing header1 " style="font-size: 27px">Buy these popular books from India to read through your Christmas break!</h1>
+                    <h1 class="p-color-white header-spacing header1 " style="font-size: 27px">
+                        Buy these popular books from India to read through in 2020</h1>
                     {{--<h2 class="header2 p-color-white">All Set for Christmas Shopping? We can help you out here.</h2>--}}
-                    <h4 class="header4 p-color-cement font-weight-900">Save up to 80% on international shipping + Get an additional 15% for this Christmas!</h4>
-                    <form action=""  method="post" id="diwali_coupon">
-                        {{csrf_field()}}
-                        <div class="" id="diwali-couponcode1">
-                            <div class="form-group">
-                                <input type="email" name="email" class="textbox-email"
-                                       placeholder="Enter a valid E-mail ID" required>
-                            </div>
-                            <div class="form-group text-center">
-                                <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900">Grab the Offer!</button>
-                            </div>
-                        </div>
-                    </form>
-                    <h3 class="header4" style="color: #8eadc8;">*From 11th Dec to 26th Dec 2019</h3>
+                    <h4 class="header4 p-color-cement font-weight-900">
+                        Save up to 80% on international shipping + Get an additional
+                        <i class="fa fa-inr" aria-hidden="true"></i> 200 on first shipment
+                    </h4>
+{{--                    <form action=""  method="post" id="diwali_coupon">--}}
+{{--                        {{csrf_field()}}--}}
+{{--                        <div class="" id="diwali-couponcode1">--}}
+{{--                            <div class="form-group">--}}
+{{--                                <input type="email" name="email" class="textbox-email"--}}
+{{--                                       placeholder="Enter a valid E-mail ID" required>--}}
+{{--                            </div>--}}
+{{--                            <div class="form-group text-center">--}}
+{{--                                <button type="submit" name="btnActivate" class="btn btn-grab-offer font-weight-900">Grab the Offer!</button>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </form>--}}
+{{--                    <h3 class="header4" style="color: #8eadc8;">*From 11th Dec to 26th Dec 2019</h3>--}}
                 </center>
             </div>
-            <div class="col-md-2 div-newyear">
-                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/santa.png" alt="">
-            </div>
+{{--            <div class="col-md-2 div-newyear" style="display: none">--}}
+{{--                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/santa.png" alt="">--}}
+{{--            </div>--}}
         </div>
     </section>
     <section>
-        <div class="container christmas-service">
+        <div class="container christmas-service" style="box-shadow: 0 0 10px rgba(17, 39, 59, .1);
+    border-radius: 15px;
+    background-color: #fafafb;
+    margin-top: -510px;
+    padding: 20px;">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Top 10 popular books purchased from India by our customers.</h2>
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">
+                        Top popular books purchased from India by our customers.</h2>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-xs-12">
                     <a href="tel:+91-9148357733" class="c-image">
@@ -71,9 +81,9 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <p style="color: #11273b;font-size: 15px; !important;">
-                        As we come to the end of 2019, these are the popular books purchased from India by our customers across the globe.
+                        As we are in 2020, these are the popular books purchased from India by our customers across the globe.
                         One of the main reasons for the purchase is the books are cheaper in India. The other reason is that ShoppRe's
-                        consolidation and repackaging gives a saving of 60 to 80% on the shipping cost. So here is the popular list of 2019.
+                        consolidation and repackaging gives a saving of 60 to 80% on the shipping cost. So here is the popular list of 2020.
                     </p>
                     <br>
                 </div>
@@ -688,6 +698,608 @@
                         </div>
                         <div class="col-md-7 col-xs-7">
                             Get GST invoice and save up to 28% on business purchases
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
+                        11. 1984 Paperback - by George Orwell
+                    </h2>
+                    <div class="onam-prod-pic p-b-26">
+                        <a href="" target="_blank">
+                            <img src="https://rukminim1.flixcart.com/image/416/416/jzn0tjk0/book/9/0/1/1984-original-imafjhguc6zyhzkj.jpeg?q=70"
+                                 style="width: 210px">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-xs-12 col-sm-6">
+                    <p class="header2 p-color-cement-dark font-weight-900 txt-align heading-hide">
+                        11. 1984 Paperback - by George Orwell
+                    </p>
+                    <br>
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">Rating:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <a href="https://www.amazon.in/1984-George-Orwell/dp/8192910903" target="_blank">
+                                Amazon.in </a> -  4.5/5
+                            <br>
+                            <a href="https://www.flipkart.com/1984/p/itmfbsy8zb7twxpg" target="_blank">
+                                Flipkart</a> - 4.5/5
+                            <br>
+                            Goodreads - 4.18/5
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
+                            Among the seminal texts of the 20th century, Nineteen Eighty-Four
+                            is a rare work that grows more haunting as its futuristic purgatory becomes
+                            more real. Published in 1949, the book offers political satirist George Orwell's
+                            nightmarish vision of a totalitarian, bureaucratic world and one poor stiff's attempt to find individuality.
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">
+                                Offer :
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            Flat Rs.50 back on min order of Rs.50 using Amazon Pay UPI.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
+                        12. Factfulness: Ten Reasons We're Wrong About The World - And Why Things Are Better Than You Think
+                    </h2>
+                    <div class="onam-prod-pic p-b-26">
+                        <a href="" target="_blank">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/41I11elZnpL._SX307_BO1,204,203,200_.jpg"
+                                 style="width: 210px">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-xs-12 col-sm-6">
+                    <p class="header2 p-color-cement-dark font-weight-900 txt-align heading-hide">
+                        12. Factfulness: Ten Reasons We're Wrong About The World - And Why Things Are Better Than You Think
+                    </p>
+                    <br>
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">Rating:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <a href="https://www.amazon.in/Factfulness-Reasons-Wrong-Things-Better/dp/1473637473" target="_blank">
+                                Amazon.in </a> -  4.6/5
+                            <br>
+                            <a href="https://www.flipkart.com/factfulness/p/itmespg8jwmxfzgc" target="_blank">
+                                Flipkart</a> - 4.5/5
+                            <br>
+                            Goodreads - 4.18/5
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
+                            'A hopeful book about the potential for human progress when we work off facts rather than our inherent biases' -
+                            <span style="color: black"> BARACK OBAMA </span>
+                            <br>
+                            'One of the most important books I've ever read - an indispensable guide to thinking clearly about the world.'
+                            <span style="color: black"> BILL GATES </span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">
+                                Offer :
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            Flat Rs.50 back on min order of Rs.50 using Amazon Pay UPI.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
+                        13. Bad Blood: Secrets and Lies in a Silicon Valley Startup - by John Carreyrou
+                    </h2>
+                    <div class="onam-prod-pic p-b-26">
+                        <a href="" target="_blank">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/41a3ILoKeXL._SX328_BO1,204,203,200_.jpg"
+                                 style="width: 210px">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-xs-12 col-sm-6">
+                    <p class="header2 p-color-cement-dark font-weight-900 txt-align heading-hide">
+                        13. Bad Blood: Secrets and Lies in a Silicon Valley Startup - by John Carreyrou
+                    </p>
+                    <br>
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">Rating:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <a href="https://www.amazon.in/Factfulness-Reasons-Wrong-Things-Better/dp/1473637473" target="_blank">
+                                Amazon.in </a> -  4.8/5
+                            <br>
+                            <a href="https://www.flipkart.com/factfulness/p/itmespg8jwmxfzgc" target="_blank">
+                                Flipkart</a> - 4.5/5
+                            <br>
+                            Goodreads - 4.45/5
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
+                            '5 books I loved in 2018'
+                            <span style="color: black"> Bill Gates </span>
+                            <br>
+                            The full inside story of the breathtaking rise and shocking collapse of a
+                            multibillion-dollar startup, by the prize-winning journalist who first broke
+                            the story and pursued it to the end in the face of pressure and threats from the
+                            CEO and her lawyers
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">
+                                Offer :
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            Flat Rs.50 back on min order of Rs.50 using Amazon Pay UPI.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
+                        14. What If?: Serious Scientific Answers to Absurd Hypothetical Questions - by Randall Munroe
+                    </h2>
+                    <div class="onam-prod-pic p-b-26">
+                        <a href="" target="_blank">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/41rUxcHPy6L._SX324_BO1,204,203,200_.jpg"
+                                 style="width: 210px">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-xs-12 col-sm-6">
+                    <p class="header2 p-color-cement-dark font-weight-900 txt-align heading-hide">
+                        14. What If?: Serious Scientific Answers to Absurd Hypothetical Questions - by Randall Munroe
+                    </p>
+                    <br>
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">Rating:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <a href="https://www.amazon.in/What-If-Randall-Munroe/dp/1848549563" target="_blank">
+                                Amazon.in </a> -  4.5/5
+                            <br>
+                            <a href="https://www.flipkart.com/if-international-edition/p/itmdv7x5bp45hqdc" target="_blank">
+                                Flipkart</a>
+                            <br>
+                            Goodreads - 4.16/5
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
+                            The book features new and never-before-answered questions, along with the most popular answers from the xkcd website.
+                            What If? is an informative feast for xkcd fans and anyone who loves to ponder the hypothetical.
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">
+                                Offer :
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            Flat Rs.50 back on min order of Rs.50 using Amazon Pay UPI.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
+                        15. The Palace of Illusions: A Novel  - by Chitra Banerjee Divakaruni
+                    </h2>
+                    <div class="onam-prod-pic p-b-26">
+                        <a href="" target="_blank">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/61I6rrig5TL._SX321_BO1,204,203,200_.jpg"
+                                 style="width: 210px">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-xs-12 col-sm-6">
+                    <p class="header2 p-color-cement-dark font-weight-900 txt-align heading-hide">
+                        15. The Palace of Illusions: A Novel  - by Chitra Banerjee Divakaruni
+                    </p>
+                    <br>
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">Rating:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <a href="https://www.amazon.in/Palace-Illusions-Chitra-Banerjee-Divakaruni/dp/1400096200" target="_blank">
+                                Amazon.in </a> -  4.5/5
+                            <br>
+                            <a href="https://www.flipkart.com/the-palace-of-illusions/p/itmfgg8me6ehckys" target="_blank">
+                                Flipkart</a> - 4.2/5
+                            <br>
+                            Goodreads - 4.16/5
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
+                            Relevant to today’s war-torn world, The Palace of Illusions takes us back to a
+                            time that is half history, half myth, and wholly magical. Narrated by Panchaali,
+                            the wife of the legendary Pandavas brothers in the Mahabharat, the novel gives us a
+                            new interpretation of this ancient tale.
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">
+                                Offer :
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            Flat Rs.50 back on min order of Rs.50 using Amazon Pay UPI.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
+                        16. Eleanor & Park - by Rainbow Rowell
+                    </h2>
+                    <div class="onam-prod-pic p-b-26">
+                        <a href="" target="_blank">
+                            <img src="https://rukminim1.flixcart.com/image/416/416/jp8ngcw0-1/book/5/4/4/eleanor-park-original-imafbjfra5zs6dnz.jpeg?q=70"
+                                 style="width: 210px">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-xs-12 col-sm-6">
+                    <p class="header2 p-color-cement-dark font-weight-900 txt-align heading-hide">
+                        16. Eleanor & Park - by Rainbow Rowell
+                    </p>
+                    <br>
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">Rating:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <a href="https://www.amazon.in/Eleanor-Park-Rainbow-Rowell/dp/1409120546" target="_blank">
+                                Amazon.in </a> -  4.5/5
+                            <br>
+                            <a href="https://www.flipkart.com/eleanor-park/p/itmbf956a3283d4a" target="_blank">
+                                Flipkart</a> - 4.5/5
+                            <br>
+                            Goodreads - 4.08/5
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
+                            Set over the course of one school year in 1986, Eleanor & Park is funny, sad,
+                            shocking and true - an exquisite nostalgia trip for anyone who has never forgotten their first love.
+                            <br>
+                            'Reminded me not just what it's like to be young and in love, but what it's like to be young and in love with a book' &nbsp;
+                            <span style="color: black"> John Green</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">
+                                Offer :
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            Flat Rs.50 back on min order of Rs.50 using Amazon Pay UPI.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
+                        17. The Half Mother: A Novel - by Shahnaz Bashir
+                    </h2>
+                    <div class="onam-prod-pic p-b-26">
+                        <a href="" target="_blank">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51AB1ghNNFL._SX326_BO1,204,203,200_.jpg"
+                                 style="width: 210px">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-xs-12 col-sm-6">
+                    <p class="header2 p-color-cement-dark font-weight-900 txt-align heading-hide">
+                        17. The Half Mother: A Novel - by Shahnaz Bashir
+                    </p>
+                    <br>
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">Rating:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <a href="https://www.amazon.in/Half-Mother-Novel-Shahnaz-Bashir/dp/9350097885" target="_blank">
+                                Amazon.in </a> -  4.4/5
+                            <br>
+                            <a href="https://www.flipkart.com/the-half-mother/p/itmegmt3quzzrsmx" target="_blank">
+                                Flipkart</a> - 4.3/5
+                            <br>
+                            Goodreads - 4.06/5
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
+                            Kashmir has always been a victim of war, and civilians have been paying the price for a
+                            war that is not even theirs. And in the 1990s, Kashmir's long war had already started to claim lives.
+                            A lot of them went missing and many others lost homes. The Half Mother is a story set in this backdrop.
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">
+                                Offer :
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            Flat Rs.50 back on min order of Rs.50 using Amazon Pay UPI.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
+                        18. Tuesdays with Morrie - by Mitch Albom
+                    </h2>
+                    <div class="onam-prod-pic p-b-26">
+                        <a href="" target="_blank">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51R8ksnd5CL._SX344_BO1,204,203,200_.jpg"
+                                 style="width: 210px">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-xs-12 col-sm-6">
+                    <p class="header2 p-color-cement-dark font-weight-900 txt-align heading-hide">
+                        18. Tuesdays with Morrie - by Mitch Albom
+                    </p>
+                    <br>
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">Rating:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <a href="https://www.amazon.in/Tuesdays-Morrie-Greatest-Lesson-Anniversary/dp/076790592X" target="_blank">
+                                Amazon.in </a> -  4.6/5
+                            <br>
+                            <a href="https://www.flipkart.com/tuesdays-with-morrie/p/itmedfupaxmekqbk" target="_blank">
+                                Flipkart</a> - 4.6/5
+                            <br>
+                            Goodreads - 4.11/5
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
+                            Maybe it was a grandparent, or a teacher, or a colleague.
+                            Someone older, patient and wise, who understood you when you were young and searching,
+                            helped you see the world as a more profound place,
+                            gave you sound advice to help you make your way through it.
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">
+                                Offer :
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            Flat Rs.50 back on min order of Rs.50 using Amazon Pay UPI.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
+                        19. Dark Matter - by Blake Crouch
+                    </h2>
+                    <div class="onam-prod-pic p-b-26">
+                        <a href="" target="_blank">
+                            <img src="https://rukminim1.flixcart.com/image/416/416/jp8ngcw0-1/book/5/8/1/dark-matter-original-imafbj3whzg2yghz.jpeg?q=70"
+                                 style="width: 210px">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-xs-12 col-sm-6">
+                    <p class="header2 p-color-cement-dark font-weight-900 txt-align heading-hide">
+                        19. Dark Matter - by Blake Crouch
+                    </p>
+                    <br>
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">Rating:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <a href="https://www.amazon.in/Dark-Matter-Mind-Blowing-Twisted-Thriller/dp/144729758X" target="_blank">
+                                Amazon.in </a> -  4.4/5
+                            <br>
+                            <a href="https://www.flipkart.com/dark-matter/p/itmfc7kyzykhzmkw" target="_blank">
+                                Flipkart</a> - 4.6/5
+                            <br>
+                            Goodreads - 4.11/5
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
+                            Dark Matter is the kind of book the word "thriller" was coined for - it's a
+                            shooting star through multiple genres, posing fundamental questions about identity and
+                            reality before revealing itself as, at its core, a love story
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">
+                                Offer :
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            Flat Rs.50 back on min order of Rs.50 using Amazon Pay UPI.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+
+            <div class="row">
+                <div class="col-md-3 col-xs-12 col-sm-6 image-align-center-mobile">
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align hide-desktop" style="display: none;">
+                        20. Who Will Cry When You Die? - by Sharma Robin
+                    </h2>
+                    <div class="onam-prod-pic p-b-26">
+                        <a href="" target="_blank">
+                            <img src="https://rukminim1.flixcart.com/image/416/416/jsaocy80/book/3/2/3/who-will-cry-when-you-die-original-imafdw8gnfnvtam5.jpeg?q=70"
+                                 style="width: 210px">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-xs-12 col-sm-6">
+                    <p class="header2 p-color-cement-dark font-weight-900 txt-align heading-hide">
+                        20. Who Will Cry When You Die? - by Sharma Robin
+                    </p>
+                    <br>
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">Rating:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <a href="https://www.amazon.in/Dark-Matter-Mind-Blowing-Twisted-Thriller/dp/144729758X" target="_blank">
+                                Amazon.in </a> -  4.5/5
+                            <br>
+                            <a href="https://www.flipkart.com/cry-you-die/p/itmfc59vf9z9gzhd" target="_blank">
+                                Flipkart</a> - 4.5/5
+                            <br>
+                            Goodreads - 4/5
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;"> Summary:
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7 f-s-16 f-c-l-gray f-w-7">
+                            Is a book that has transformed the lives of thousands. It will be the guiding light that
+                            leads you to a path that takes you on a journey of discovering a new way to live.
+                            This easy-to-read yet wisdom-rich manual is Robin S.
+                            Sharma’s offering that gives you 101 simple solutions to life’s most complex problems.
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-xs-12 col-sm-12" style="margin-top: 2%">
+                        <div class="col-md-4 col-xs-5">
+                            <p style="color: #11273b;font-size: 15px; !important;text-align: justify;">
+                                Offer :
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            Flat Rs.50 back on min order of Rs.50 using Amazon Pay UPI.
                         </div>
                     </div>
                 </div>

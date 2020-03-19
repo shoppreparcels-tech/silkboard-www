@@ -159,19 +159,19 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <center>
-                    <a href="https://www.flipkart.com/the-big-shopping-days-store?otracker=hp_bannerads_3_1.bannerAdCard.BANNERADS_0ZC92SX88BL0"
+                    <a href="https://www.flipkart.com/lifestyle-big-shopping-days-store"
                        target="_blank">
                         <img class="img-desktop-view"
-                             src="https://rukminim1.flixcart.com/flap/1688/280/image/7efabe96c2d5fc7b.jpg?q=50"
-                             width="1100px">
+                             src="https://rukminim1.flixcart.com/flap/3600/3600/image/cd5329a316ec0b77.jpg?q=80"
+                             width="1100px" style="height: 300px;">
 {{--                             style="width: 50%;">--}}
                     </a>
                 </center>
                 <center>
-                    <a href="https://www.flipkart.com/the-big-shopping-days-store?otracker=hp_bannerads_3_1.bannerAdCard.BANNERADS_0ZC92SX88BL0"
+                    <a href="https://www.flipkart.com/lifestyle-big-shopping-days-store"
                        target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="/img/images/flipkartMob.png"
+                             src="https://rukminim1.flixcart.com/flap/360/160/image/7e7511eff5f1b64f.jpg?q=80"
                              width="300px" ></a>
                 </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">👉<span class="f-s-25 f-c-red f-w-9"><a--}}
@@ -614,6 +614,58 @@
                     </div>
                 </div>
 
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <img class="img-product m-t-img"
+                             src="https://rukminim1.flixcart.com/image/200/200/k1b1bbk0/kurta/j/p/w/xxl-18auw11533-210939-w-original-imafj6qc6hegyhh2.jpeg?q=70">
+                        <div class="check-price-padd">
+                            <a href="https://www.flipkart.com/womens-clothing/ethnic-wear/pr?sid=2oq%2Cc1r%2C3pj&p%5B%5D=facets.discount_range_v1%255B%255D%3D60%2525%2Bor%2Bmore&p%5B%5D=facets.brand%255B%255D%3DAnmi&p%5B%5D=facets.brand%255B%255D%3DAurelia&p%5B%5D=facets.brand%255B%255D%3DW&p%5B%5D=facets.brand%255B%255D%3DMelange&p%5B%5D=facets.brand%255B%255D%3DMELANGE&p%5B%5D=facets.brand%255B%255D%3DRangriti&fm=neo%2Fmerchandising&iid=M_9efc642d-f298-4247-a1a6-2cbbf174da05_1.R9OA0S28FJA5&ppt=clp&ppn=offers-store&ssid=ra8jupomds0000001584590660408&otracker=dynamic_omu_infinite_Today%2527s%2BFashion%2BDeals_6_1.dealCard.OMU_INFINITE_Today%2527s%2BFashion%2BDeals_R9OA0S28FJA5&cid=R9OA0S28FJA5"
+                               target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img"
+                             src="https://rukminim1.flixcart.com/image/200/200/k5vcya80/jean/g/3/2/30-nptjnsabtr-blu-arbiter-collection-original-imafzgkmy4yhcyws.jpeg?q=70">
+                        <div class="check-price-padd">
+                            <a href="https://www.flipkart.com/womens-clothing/western-wear/jeans-shorts/jeans/pr?sid=2oq%2Cc1r%2Cha6%2Cuuk%2Cq02&p%5B%5D=facets.brand%255B%255D%3DFlying%2BMachine&sort=popularity&p%5B%5D=facets.brand%255B%255D%3DLevi%2527s&p%5B%5D=facets.brand%255B%255D%3DPepe%2BJeans&p%5B%5D=facets.brand%255B%255D%3DDenizen&p%5B%5D=facets.brand%255B%255D%3DJealous%2B21&p%5B%5D=facets.brand%255B%255D%3DPeople&p%5B%5D=facets.brand%255B%255D%3DKiller&p%5B%5D=facets.brand%255B%255D%3DWrangler&p%5B%5D=facets.brand%255B%255D%3DHerway&p%5B%5D=facets.brand%255B%255D%3DHERE%2526NOW&p%5B%5D=facets.brand%255B%255D%3DLee&p%5B%5D=facets.brand%255B%255D%3DTokyo%2BTalkies&p%5B%5D=facets.brand%255B%255D%3DOnly&p%5B%5D=facets.brand%255B%255D%3DVero%2BModa&p%5B%5D=facets.brand%255B%255D%3DDressberry&p%5B%5D=facets.brand%255B%255D%3DModa%2BRapido&p%5B%5D=facets.brand%255B%255D%3DNumero%2BUno&p%5B%5D=facets.brand%255B%255D%3DGAP&p%5B%5D=facets.brand%255B%255D%3DMast%2B%2526%2BHarbour&p%5B%5D=facets.brand%255B%255D%3DAll%2BAbout%2BYou&p%5B%5D=facets.brand%255B%255D%3DUnited%2BColors%2Bof%2BBenetton&p%5B%5D=facets.brand%255B%255D%3DSpykar&p%5B%5D=facets.brand%255B%255D%3DU.S.%2BPolo%2BAssn&p%5B%5D=facets.brand%255B%255D%3DAllen%2BSolly&p%5B%5D=facets.brand%255B%255D%3DNewport&p%5B%5D=facets.brand%255B%255D%3DU.S.%2BPolo%2BAssn.&p%5B%5D=facets.brand%255B%255D%3DLee%2BCooper&p%5B%5D=facets.brand%255B%255D%3DTommy%2BHilfiger&p%5B%5D=facets.brand%255B%255D%3DFOREVER%2B21&p%5B%5D=facets.brand%255B%255D%3DU.S.POLO%2BASSN.&p%5B%5D=facets.brand%255B%255D%3DMARKS%2B%2526%2BSPENCER&p%5B%5D=facets.brand%255B%255D%3DTOKYO%2BTALKIES&p%5B%5D=facets.brand%255B%255D%3Dlevi%2527s&p%5B%5D=facets.brand%255B%255D%3DJEALOUS%2B21&p%5B%5D=facets.brand%255B%255D%3DGap&p%5B%5D=facets.brand%255B%255D%3DForever%2B21&p%5B%5D=facets.brand%255B%255D%3DU.S.Polo%2BAssn.&p%5B%5D=facets.brand%255B%255D%3DMarks%2B%2526%2BSpencer&p%5B%5D=facets.brand%255B%255D%3Dall%2Babout%2Byou&p%5B%5D=facets.discount_range_v1%255B%255D%3D60%2525%2Bor%2Bmore&fm=neo%2Fmerchandising&iid=bac6735d-db77-4b57-a56e-04f65afdb0e2.1OB2JO8ZNG4N&ppt=dynamic&ppn=dynamic&ssid=ra8jupomds0000001584590660408&otracker=dynamic_omu_Today%252527s%252BFashion%252BDeals_21_Today%252527s%252BFashion%252BDeals_1OB2JO8ZNG4N&cid=1OB2JO8ZNG4N"
+                               target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img"
+                             src="https://rukminim1.flixcart.com/image/200/200/k7285u80/kurta/s/m/d/xxl-8846-blue-libas-original-imafpdmxjtwx2pkj.jpeg?q=70">
+                        <div class="check-price-padd">
+                            <a href="https://www.flipkart.com/womens-clothing/ethnic-wear/pr?sid=2oq%2Cc1r%2C3pj"
+                               target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <img class="img-product m-t-img "
+                             src="https://rukminim1.flixcart.com/image/200/200/k4k7f680/kurta/p/k/s/xl-8765a-green-libas-original-imafneybbfhmjwth.jpeg?q=70">
+                        <div class="check-price-padd">
+                            <a href="https://www.flipkart.com/womens-clothing/ethnic-wear/pr?sid=2oq%2Cc1r%2C3pj&p%5B%5D=facets.discount_range_v1%255B%255D%3D70%2525%2Bor%2Bmore&p%5B%5D=facets.brand%255B%255D%3DLibas&fm=neo%2Fmerchandising&iid=577badb7-f4d3-41b1-8a8c-7e23534af7f4.ZJQ7H4GS9P4A&ppt=dynamic&ppn=dynamic&ssid=9me3qkxeww0000001584591448697&otracker=dynamic_omu_Today%252527s%252BFashion%252BDeals_10_Today%252527s%252BFashion%252BDeals_ZJQ7H4GS9P4A&cid=ZJQ7H4GS9P4A" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
