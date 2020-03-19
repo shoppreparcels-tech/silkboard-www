@@ -333,12 +333,12 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">the omg styles</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">40-70% Off</h5>
-{{--                            <h5 class="header6 p-color-cement font-weight-900">5 - 8th MAR</h5>--}}
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">BIG BAG DAYS</h4>
+                            <h5 class="header6 p-color-cement font-weight-900"> 50-90% Off</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">19-22th March</h5>
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping">
-                                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
+                                    <img style="margin-top: -10%;" src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
                                 </a>
                             </div>
                         </div>
@@ -450,8 +450,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">THE SKINCARE SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up To 35% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">THE BEAUTY CLEARANCE SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 75% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/nykaa-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">NYKAA</p>

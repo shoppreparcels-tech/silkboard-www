@@ -76,9 +76,10 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="https://www.shoppreparcels.com/shipping-100k-surgical-face-masks-to-singapore-from-india/" title="Face Mask" target="_blank">1. 👉FACE MASK SHOPPING</a> |
-                            <a href="/myntra-online-shopping" title="Myntra" target="_blank">2. 👉ALL THINGS SUMMER</a> |
-                            <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉WEAR THE NEW</a>
+                            <a href="/flipkart-online-shopping" title="Flipkart" target="_blank">1. 👉BIG SHOPPING DAYS</a> |
+{{--                            <a href="/myntra-online-shopping" title="Myntra" target="_blank">2. 👉ALL THINGS SUMMER</a> |--}}
+                            <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉BIG BAG DAYS</a> |
+                            <a href="/online-books-shopping-india-international-shipping" title="Ajio" target="_blank">3. 👉THE BOOK PARADISE</a>
                         </marquee>
                     </div>
                     <center>

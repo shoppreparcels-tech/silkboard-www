@@ -201,8 +201,8 @@
                     </li>
                     <li><a href="{{route('offers-new.index')}}" class="shoppre-offers">Offers </a></li>
                     <li><a href="{{route('pricing')}}">Shipping Rates</a></li>
-                    <li><a href="{{route('myntra.landing')}}" target="_blank">
-                            <span style="color: #f9c030;" id="offer">Myntra</span>
+                    <li><a href="{{route('flipkart-product')}}" target="_blank">
+                            <span style="color: #f9c030;" id="offer">Flipkart</span>
 {{--                            <sup class="p-color-red" style="font-size: 8px" id="offer">Buy</sup>--}}
                         </a>
                     </li>

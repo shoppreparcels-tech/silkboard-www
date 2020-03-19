@@ -156,13 +156,13 @@
             <div class="row">
                 <div class="">
                     <center>
-                    <a href="https://www.nykaa.com/skin-care-products-sale-online" target="_blank">
+                    <a href="https://www.nykaa.com/special-gst-offers/c/861" target="_blank">
                         <img class="img-desktop-view"
-                             src="https://images-static.nykaa.com/uploads/1aef399c-a848-4f78-8de7-9a8f2808d4c0.jpg"
+                             src="https://images-static.nykaa.com/tr:w-1140,c-at_max/uploads/b4b92267-2cc3-48f4-b7c1-f1dfe5fa85ad.jpg"
                              width="1100px"></a>
-                        <a href="https://www.nykaa.com/skin-care-products-sale-online" target="_blank">
+                        <a href="https://www.nykaa.com/special-gst-offers/c/861" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://images-static.nykaa.com/tr:w-640,c-at_max/uploads/5f01b177-08a8-4878-98d3-1472b8aea5f7.jpg"
+                                 src="https://images-static.nykaa.com/tr:w-391,c-at_max/uploads/f59d9de1-3fca-4211-b6b5-a7bf059bb119.jpg"
                                  width="370px" ></a>
                     </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}

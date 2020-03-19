@@ -697,30 +697,30 @@
 {{--                    </div>--}}
 
                     <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
-                        <a href="/tatacliq-online-shopping" title="Click to Know More" target="_blank">
+                        <a href="/online-books-shopping-india-international-shipping" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="https://assets.tatacliq.com/medias/sys_master/images/26394414088222.jpg" />
+                                         data-src="/img/images/bookMob.png" />
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    VIBRANT SUMMER
+                                    THE BOOK PARADISE
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
-                                            Upto 70% off
+                                            At Lowest Price
 
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
                                                 color: #181818;font-size: 14px;font-family: Lato;
                                                 text-align: left;">
-                                    Tatacliq.com
+                                    Shoppre.com
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}
@@ -729,17 +729,19 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
-                        <a href="/amazon-india-shop-international-shipping" title="Click to Know More" target="_blank">
+{{--                        <a href="/amazon-india-shop-international-shipping" title="Click to Know More" target="_blank">--}}
+                        <a href="/flipkart-online-shopping" title="Click to Know More" target="_blank">
                             <div style="text-align: left;">
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="/img/images/AmazonHarPalFashionable.png" />
+{{--                                         data-src="/img/images/AmazonHarPalFashionable.png" />--}}
+                                         data-src="https://rukminim1.flixcart.com/flap/360/160/image/7e7511eff5f1b64f.jpg?q=80" />
                                 </div>
                                 <div style="    color: #000;font-size: 14px;margin-top: 10px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                  WEAR THE NEW
+                                  BIG SHOPPING DAYS
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
@@ -747,14 +749,14 @@
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
 {{--                                           Start from <i class="fa fa-inr" aria-hidden="true"></i>69--}}
-                                            S/S 2020
+                                            19 - 22th March
                                         </span>
                                 </div>
                                 <div style="display: block;padding: 0 0 0 0;
                                                 color: #181818;font-size: 14px;font-family: Lato;
                                                 text-align: left;">
 {{--                                    <i class="fa fa-inr" aria-hidden="true"></i>--}}
-                                    Amazon.in
+                                    Flipkart.com
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}
@@ -807,20 +809,20 @@
                                 <div style="padding-top: 0px;">
                                     <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
                                          src="/img/images/load.gif"
-                                         data-src="https://assets.ajio.com/medias/sys_master/images/images/he9/h0e/15902065098782/16032020-M-SHP-topbanner-P1-40-70extra20msite.jpg"/>
+                                         data-src="https://assets.ajio.com/medias/sys_master/images/images/h15/h69/15944611266590/19032020-M-SHP-topbanner-P1-50-90.jpg"/>
 
                                 </div>
                                 <div style="    margin-top: 10px;color: #000;font-size: 14px;
                                                 padding-top: 0px !important;text-align: left;
                                                 text-decoration: none;">
-                                    OMG STYLES
+                                    BIG BAG DAYS
                                 </div>
                                 <div style="padding-top: 0px !important;">
                                         <span style="font-size: 14px;font-weight: bold;
                                                      padding-top: 5px;color: #337ab7;;
                                                      display: inline-block;">
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                            40-70% Off
+                                            19-22th March (50-90% Off)
                                         </span>
                                         <span style="font-size: 14px;font-weight: bold;
                                                          padding-top: 5px;color: #000000;;
