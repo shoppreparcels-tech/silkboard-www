@@ -135,19 +135,21 @@
                 <div class="">
 
                     <center>
-                        <a href="https://www.amazon.in/b?node=1953602031&pf_rd_r=KAPE2JGQ3YGDS224V81J&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739"
+                        <a href="https://www.amazon.in/b?node=1953602031&pf_rd_r=81T2ZSHX14XMXNZJ0MSC&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739"
                            target="_blank">
                             <img class="img-desktop-view"
-                                 src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/newseason/Flip/wa_pc._SX3000_QL85_.jpg"
+                                 src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/BannerFST/PC/11._SX3000_QL85_.jpg"
                                  width="1000px">
+                        </a>
 
                     </center>
                     <center>
-                        <a href="https://www.amazon.in/b?node=1953602031&pf_rd_r=KAPE2JGQ3YGDS224V81J&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739"
+                        <a href="https://www.amazon.in/b?node=1953602031&pf_rd_r=81T2ZSHX14XMXNZJ0MSC&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739"
                            target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/newseason/Flip/WA._SY1500_QL85_.jpg"
+                                 src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/BannerFST/WA-FST._SY1200_QL85_.jpg"
                                  width="310px">
+                        </a>
                     </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">👉 <a--}}
 {{--                                href="https://www.amazon.in/b?node=6648217031" target="_blank">New Year, New You</a> (Up To 70% OFF)</span> /--}}

@@ -951,51 +951,80 @@
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><span><a href="https://www.shoppre.com/en-us">Shop from India to USA</a></span></li>
+                            <li><span><a href="https://www.shoppre.com/en-us" target="_blank">Shop from India to USA</a></span></li>
 
-                            <li><span>Shop from India to UAE</span></li>
+                            <li><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-finland/" target="_blank">
+                                <span>Shop from India to Finland</span></a></li>
 
-                            <li><span>Shop from India to Canada</span></li>
+                            <li><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-nigeria/" target="_blank">
+                                <span>Shop from India to Nigeria</span></a></li>
 
-                            <li><span>Shop from India to Australia</span></li>
+                            <li><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-australia/" target="_blank">
+                                <span>Shop from India to Australia</span>
+                                </a>
+                            </li>
 
-                            <li><span>Shop from India to Singapore</span></li>
+                            <li>
+                                <a href="https://www.shoppreparcels.com/online-shopping-from-india-to-singapore/"target="_blank" >
+                                    <span>Shop from India to Singapore</span></a></li>
 
-                            <li><span>Shop from India to Germany</span></li>
+                            <li><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-canada/" target="_blank">
+                                <span>Shop from India to Canada</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><span>Shop from India to South Africa</span></li>
+                            <li><span><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-malaysia/" target="_blank">
+                                    Shop from India to Malaysia</a></span></li>
 
-                            <li><span><a href="https://www.shoppre.com/en-jp">Shop from India to Japan</a></span></li>
+                            <li><span><a href="https://www.shoppre.com/en-jp" target="_blank">Shop from India to Japan</a></span></li>
 
-                            <li><span>Shop from India to New Zealand</span></li>
+                            <li><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-new-zealand/" target="_blank">
+                                <span>Shop from India to New Zealand</span></a></li>
 
-                            <li><span>Shop from India to Malaysia</span></li>
+                            <li><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-south-africa/" target="_blank">
+                                <span>Shop from India to South Africa</span>
+                                </a>
+                            </li>
 
-                            <li><span>Shop from India to Switzerland</span></li>
+                            <li><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-sri-lanka/" target="_blank">
+                                <span>Shop from India to Sri Lanka</span></a></li>
 
-                            <li><span>Shop from India to Mauritius</span></li>
+                            <li><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-mauritius/" target="_blank">
+                                <span>Shop from India to Mauritius</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="panel ">
                         <ul>
-                            <li><span>Shop from India to Qatar</span></li>
+                            <li><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-hong-kong/" target="_blank">
+                                    <span>Shop from India to Hong Kong</span>
+                                </a>
+                            </li>
 
-                            <li><span>Shop from India to Dubai</span></li>
+                            <li><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-dubai/" target="_blank">
+                                <span>Shop from India to Dubai</span></a></li>
 
-                            <li><span>Shop from India to Saudi Arabia</span></li>
+                            <li><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-kuwait/" target="_blank">
+                                    <span>Shop from India to Kuwait</span>
+                                </a>
+                            </li>
 
-                            <li><span>Shop from India to Spain</span></li>
+                            <li><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-germany/" target="_blank">
+                                <span>Shop from India to Germany</span></a></li>
 
-                            <li><span>Shop from India to Brazil</span></li>
+                            <li><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-saudi-arabia/" target="_blank">
+                                <span>Shop from India to Saudi Arabia</span></a></li>
 
-                            <li><span>Shop from India to Mexico</span></li>
+                            <li><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-philippines/" target="_blank">
+                                <span>Shop from India to Mexico</span></a></li>
                         </ul>
                     </div>
                 </div>

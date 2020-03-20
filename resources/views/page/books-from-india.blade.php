@@ -28,12 +28,14 @@
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&autoLogAppEvents=1&version=v5.0&appId=651881328327888"></script>
     <section class="bg-christmas-landing-page">
         <div class="container no-padding">
+            <div class="container-fluid">
 {{--            <div class="col-md-2 div-snow" style="display: none">--}}
 {{--                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/snowman.png" alt="">--}}
 {{--            </div>--}}
             <div class="col-md-12 col-xs-12 no-padding">
                 <center>
-                    <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/santa.png" alt="" class="santa-mobile">
+                    <img src="https://lh3.googleusercontent.com/-CRwC8ymTGxQ/XnNIkr64obI/AAAAAAAAEc8/Tz0fGBOebEku0m1M7vYe59JYW_CZtfx5ACK8BGAsYHg/s0/2020-03-19.png"
+                         alt="" class="santa-mobile">
                     <h1 class="p-color-white header-spacing header1 " style="font-size: 27px">
                         Buy these popular books from India to read through in 2020</h1>
                     {{--<h2 class="header2 p-color-white">All Set for Christmas Shopping? We can help you out here.</h2>--}}
@@ -59,6 +61,7 @@
 {{--            <div class="col-md-2 div-newyear" style="display: none">--}}
 {{--                <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/santa.png" alt="">--}}
 {{--            </div>--}}
+            </div>
         </div>
     </section>
     <section>
