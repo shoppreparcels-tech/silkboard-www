@@ -19,18 +19,21 @@
     <!-- Style -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="manifest" href="/manifest.json"/>
-    <link href="{{asset('css/txtProgress.min.css')}}" rel="stylesheet">
-    <script src="{{asset('js/jquery.min.js')}}"></script>
+    <link href="{{env('AWS_CLOUD_FRONT')}}/css/txtProgress.min.css" rel="stylesheet">
+    <script src="{{env('AWS_CLOUD_FRONT')}}/js/jquery.min.js"></script>
     {{--    <script src="{{asset('js/jquery.ajax-cross-origin.min.js')}}"></script>--}}
 
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/custom/New_style.css')}}?v={{Config::get('app.last_commit_hash')}}">
 
     <link rel="stylesheet" href="{{asset('css/custom/style.css')}}?{{Config::get('app.last_commit_hash')}}">
+    <link rel="stylesheet" href="{{asset('css/custom/success_popup.css')}}?{{Config::get('app.last_commit_hash')}}">
     <link rel="stylesheet" href="{{asset('css/landing-page.css')}}?{{Config::get('app.last_commit_hash')}}">
     <link rel="stylesheet" href="{{asset('css/custom/style-frame.css')}}?{{Config::get('app.last_commit_hash')}}">
     {{--<link rel="stylesheet" href="{{asset('css/custom/signup.css')}}?{{Config::get('app.last_commit_hash')}}">--}}
     <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
+{{--    <link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/select2.min.css">--}}
+{{--    <link rel="stylesheet" href="{{asset('/css/select2.min.css')}}">--}}
     <link rel="stylesheet" href="{{asset('/css/select2.min.css')}}">
 
     {{--<link rel="stylesheet" href="{{env('AWS_CLOUD_FRONT')}}/css/star-rating.min.css">--}}
@@ -119,24 +122,44 @@
 @include('partials._header')
 <div class="container">
     <!-- Modal -->
-    <div id="myModal" class="modal fade" role="dialog">
+{{--    <div id="" class="modal fade" role="dialog">--}}
+{{--        <div class="modal-dialog">--}}
+{{--            <!-- Modal content-->--}}
+{{--            <div class="modal-content">--}}
+{{--                <div class="modal-header">--}}
+{{--                    <button type="button" class="close" data-dismiss="modal">&times;</button>--}}
+{{--                    <h4 class="modal-title"></h4>--}}
+{{--                </div>--}}
+{{--                <div class="modal-body">--}}
+{{--                    <p class="header1 p-color-cement-dark">Thank you for Subscribing!</p>--}}
+{{--                </div>--}}
+{{--                <div class="modal-footer">--}}
+{{--                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+
+{{--        </div>--}}
+{{--    </div>--}}
+
+    <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
-            <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title"></h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label=""><span>×</span></button>
                 </div>
+
                 <div class="modal-body">
-                    <p class="header1 p-color-cement-dark">Thank you for Subscribing!</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+
+                    <div class="thank-you-pop">
+                        <img src="/img/images/GreenRoundTick.png" alt="">
+                        <h1>Thank You!</h1>
+                        <p>for Subscribing Us!</p>
+                    </div>
                 </div>
             </div>
-
         </div>
     </div>
+
 </div>
 
 <!-- This div is required for mobile view -->

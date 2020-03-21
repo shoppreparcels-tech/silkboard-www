@@ -4826,7 +4826,7 @@ p {
 }
 
 .bg-christmas-landing-page {
-    background-image: url(../../img/images/background_xmas.png);
+    background-image: url(/img/images/bookPageBackGround.png);
     height: 813px;
     width: 100%;
     background-position: center;

@@ -41,6 +41,27 @@
         </div>
     </main>
 
+    <div class="modal fade" id="succesBlock" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label=""><span>×</span></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="thank-you-pop">
+                        <img src="/img/images/ThanksSellers.png"
+                             alt="" style="width: 60%">
+                        <h2><b>Thank You!</b></h2>
+                        <p>For Submitting the details
+                            <br>We will get back to you soon.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <section>
         <div class="container" style="margin-top: 30px;">
@@ -205,12 +226,14 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12 col-xs-12 no-pad" style="margin-bottom: 20px">
-                                        <button type="submit" class="btn btn-s-r btn-b-r m-t-20 btn-l" style="background-color: #4285f4">Submit</button>
+                                        <button type="submit" id="btnSubmit" class="btn btn-s-r btn-b-r m-t-20 btn-l" style="background-color: #4285f4">Submit</button>
                                         <br>
                                         <br>
-                                        <div id='succesBlock'style="background-color:green;text-align: center"><label id="message" style="color:white"></label></div>
-
+{{--                                        <div id='succes-Block'style="background-color:green;text-align: center"><label id="message" style="color:white"></label></div>--}}
                                     </div>
+
+
+
 
                             </form>
                         </div>
@@ -277,6 +300,19 @@
         $(document).ready(function() {
             $("#succesBlock").hide();
 
+            $(document).ready(function () {
+
+                $("#seller_lp").submit(function (e) {
+
+                    //stop submitting the form to see the disabled button effect
+                    e.preventDefault();
+                    //disable the submit button
+                    $("#btnSubmit").attr("disabled", true);
+                    return true;
+
+                });
+            });
+
             $("#seller_lp").validate({
             rules: {
                 email: {
@@ -313,7 +349,7 @@
                         mailtrain_type: "become-partner"
                     },
                     success: function(e) {
-                        $("#message").text("Thank you for submitting"), $("#succesBlock").show(), $("input[name='Name']").val(""), $("input[name='businessType']").val(""), $("input[name='email']").val(""), $("input[name='businssName']").val(""), $("input[name='webSite']").val(""), $("input[name='contactNumber']").val(""), $("#schedule_load").hide()
+                        $('#succesBlock').modal('show'), $("input[name='Name']").val(""), $("input[name='businessType']").val(""), $("input[name='email']").val(""), $("input[name='businssName']").val(""), $("input[name='webSite']").val(""), $("input[name='contactNumber']").val(""), $("#schedule_load").hide()
                     }
                 });
 

@@ -65,20 +65,43 @@
                         <p class="f-s-8 f-c-d-greay f-w-7">We respect your privacy very much and you'll only be contacted as per relevance by us.</p>
                     </div>
 
-                    <div class="formFrame" id="diwali-couponcode2">
-                        <div class="">
-                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-congratulation.png" alt="" style="width: 100%">
-                        </div>
-                        <div class="">
-                            <center>
-                                <h6 class="header5 p-color-blue">Congratulations!</h6>
-                                <h5 class="header5 p-color-cement">Just One More Step To Use <br>Your Cashback!</h5>
-                            </center>
-                        </div>
-                        <div class="text-center">
-                            <a href="{{route('customer.register')}}" class="btn btn-a-l btn-b-r btn-s-r">Sign Up</a>
+
+                    <div class="modal fade" id="diwali-couponcode2" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label=""><span>×</span></button>
+                                </div>
+
+                                <div class="modal-body">
+
+                                    <div class="thank-you-pop">
+                                        <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-congratulation.png" alt="" style="width: 100%">
+                                        <h2><b>Congratulations!</b></h2>
+                                        <p>Just One More Step To Use <b>Your Cashback!</b></p>
+                                        <span class="text-center">
+                                            <a href="{{route('customer.register')}}" class="btn btn-a-l btn-b-r btn-s-r">Sign Up</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+{{--                    <div class="formFrame" id="">--}}
+{{--                        <div class="">--}}
+{{--                            <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/d-congratulation.png" alt="" style="width: 100%">--}}
+{{--                        </div>--}}
+{{--                        <div class="">--}}
+{{--                            <center>--}}
+{{--                                <h6 class="header5 p-color-blue">Congratulations!</h6>--}}
+{{--                                <h5 class="header5 p-color-cement">Just One More Step To Use <br>Your Cashback!</h5>--}}
+{{--                            </center>--}}
+{{--                        </div>--}}
+{{--                        <div class="text-center">--}}
+{{--                            <a href="{{route('customer.register')}}" class="btn btn-a-l btn-b-r btn-s-r">Sign Up</a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                 </form>
             </div>
         </div>
@@ -275,6 +298,6 @@
 
 @section('js_script')
     <script>
-        $(document).ready(function(){$("#diwali_coupon").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(a){var e=$("input[name='email']").val(),n=$("input[name='Name']").val(),i=$("input[name='ContactNumber']").val(),o=$("input[name=_token]").val();jQuery.ajax({url:"valentines-cashback",type:"POST",data:{_token:o,email:e,name:n,contact_no:i},success:function(a){console.log(a),$("#diwali-couponcode1").hide(),$("#diwali-couponcode2").slideDown()}})}})});
+        $(document).ready(function(){$("#diwali_coupon").validate({rules:{email:{required:!0}},messages:{},submitHandler:function(a){var e=$("input[name='email']").val(),n=$("input[name='Name']").val(),i=$("input[name='ContactNumber']").val(),o=$("input[name=_token]").val();jQuery.ajax({url:"valentines-cashback",type:"POST",data:{_token:o,email:e,name:n,contact_no:i},success:function(a){console.log(a),$("#diwali-couponcode1").hide(),$('#diwali-couponcode2').modal('show')}})}})});
     </script>
 @endsection

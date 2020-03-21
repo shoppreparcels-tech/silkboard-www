@@ -34,8 +34,8 @@
 {{--            </div>--}}
             <div class="col-md-12 col-xs-12 no-padding">
                 <center>
-                    <img src="https://lh3.googleusercontent.com/-CRwC8ymTGxQ/XnNIkr64obI/AAAAAAAAEc8/Tz0fGBOebEku0m1M7vYe59JYW_CZtfx5ACK8BGAsYHg/s0/2020-03-19.png"
-                         alt="" class="santa-mobile">
+                    <img src="/img/images/booksMob.png"
+                         alt="" class="santa-mobile" style="height: 130px;">
                     <h1 class="p-color-white header-spacing header1 " style="font-size: 27px">
                         Buy these popular books from India to read through in 2020</h1>
                     {{--<h2 class="header2 p-color-white">All Set for Christmas Shopping? We can help you out here.</h2>--}}

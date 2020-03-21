@@ -1024,7 +1024,7 @@
                                 <span>Shop from India to Saudi Arabia</span></a></li>
 
                             <li><a href="https://www.shoppreparcels.com/online-shopping-from-india-to-philippines/" target="_blank">
-                                <span>Shop from India to Mexico</span></a></li>
+                                <span>Shop from India to Philippines</span></a></li>
                         </ul>
                     </div>
                 </div>
