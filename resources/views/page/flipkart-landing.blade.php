@@ -80,18 +80,18 @@
                 </div>
             </div>
             <center>
-                    <a href="https://www.flipkart.com/lifestyle-big-shopping-days-store"
+                    <a href="https://www.flipkart.com/offers-list/flat50off?screen=dynamic&pk=themeViews%3DLS-RD20-Jan-Flat50%3Ada%2CLS-RD20-Jan-Flat50%3Add%7EwidgetType%3DdealCard%7EcontentType%3Dneo&wid=2.dealCard.OMU&param=988&otracker=hp_bannerads_4_2.bannerAdCard.BANNERADS_2157DFO437YZ"
                        target="_blank">
                         <img class="img-desktop-view"
-                             src="https://rukminim1.flixcart.com/flap/3600/3600/image/cd5329a316ec0b77.jpg?q=80"
-                             width="1100px" style="height: 300px;">
+                             src="https://rukminim1.flixcart.com/flap/1688/280/image/06b2d490411d8614.jpg?q=50"
+                             width="1100px">
                     </a>
                 </center>
                 <center>
-                    <a href="https://www.flipkart.com/lifestyle-big-shopping-days-store"
+                    <a href="https://www.flipkart.com/fashion-ffd-feb-2020-pn-base-store"
                        target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://rukminim1.flixcart.com/flap/360/160/image/7e7511eff5f1b64f.jpg?q=80"
+                             src="https://rukminim1.flixcart.com/flap/1080/480/image/38c8975f76c1e73e.jpg?q=90"
                              width="300px" ></a>
                 </center>
 {{--            <div class="row text-center">--}}

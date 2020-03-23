@@ -156,13 +156,13 @@
             <div class="row">
                 <div class="">
                     <center>
-                    <a href="https://www.nykaa.com/special-gst-offers/c/861" target="_blank">
+                    <a href="https://www.nykaa.com/makeup-focus" target="_blank">
                         <img class="img-desktop-view"
-                             src="https://images-static.nykaa.com/tr:w-1140,c-at_max/uploads/b4b92267-2cc3-48f4-b7c1-f1dfe5fa85ad.jpg"
+                             src="https://images-static.nykaa.com/uploads/6f5fcf6b-fad6-4200-ac9e-97e62e5d40cd.jpg"
                              width="1100px"></a>
-                        <a href="https://www.nykaa.com/special-gst-offers/c/861" target="_blank">
+                        <a href="https://www.nykaa.com/makeup-focus" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://images-static.nykaa.com/tr:w-391,c-at_max/uploads/f59d9de1-3fca-4211-b6b5-a7bf059bb119.jpg"
+                                 src="https://images-static.nykaa.com/tr:w-340,c-at_max/uploads/b9ff5497-e78d-4025-ae35-cb0bc359ff6d.jpg"
                                  width="370px" ></a>
                     </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}

@@ -277,8 +277,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">big shopping days </h4>
-                            <h5 class="header6 p-color-cement font-weight-900">19th - 22th March</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">biggest end of season sale </h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Min 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-online-shopping" target="_blank">
                                     <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_5996fd9938980.png"/>
@@ -335,7 +335,7 @@
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">BIG BAG DAYS</h4>
                             <h5 class="header6 p-color-cement font-weight-900"> 50-90% Off</h5>
-                            <h5 class="header6 p-color-cement font-weight-900">19-22th March</h5>
+                            <h5 class="header6 p-color-cement font-weight-900">23-26th March</h5>
                             <div class="ecomSmallBox">
                                 <a href="/ajio-online-shopping">
                                     <img style="margin-top: -10%;" src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
@@ -450,8 +450,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">THE BEAUTY CLEARANCE SALE</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Up To 75% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">THE makeup SALE</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Up To 30% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/nykaa-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">NYKAA</p>

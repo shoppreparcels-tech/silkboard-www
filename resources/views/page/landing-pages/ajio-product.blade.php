@@ -142,13 +142,13 @@
                     <center>
                     <a href="https://www.ajio.com/s/big-bag-days-3907-62561" target="_blank">
                         <img class="img-desktop-view"
-                             src="https://assets.ajio.com/medias/sys_master/images/images/h50/hef/15944604516382/19032020-D-SHP-topbanner-P1-50-90.jpg"
+                             src="https://assets.ajio.com/medias/sys_master/images/images/h79/h45/16018589843486/23032020-D-SHP-topbanner-P1-50-90.jpg"
                              width="1100px"></a>
                         </center>
                     <center>
                         <a href="https://www.ajio.com/s/big-bag-days-3907-62561" target="_blank">
                             <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.ajio.com/medias/sys_master/images/images/h15/h69/15944611266590/19032020-M-SHP-topbanner-P1-50-90.jpg"
+                                 src="https://assets.ajio.com/medias/sys_master/images/images/he1/h8b/16018587123742/23032020-M-SHP-topbanner-P1-50-90.jpg"
                                  width="300px" ></a>
 
                     </center>

@@ -89,14 +89,14 @@
                 <a href="https://www.amazon.in/b?node=1953602031&pf_rd_r=81T2ZSHX14XMXNZJ0MSC&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739"
                    target="_blank">
                     <img class="img-desktop-view"
-                         src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/BannerFST/PC/11._SX3000_QL85_.jpg"
+                         src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/newseason/Flip/wa_pc._SX3000_QL85_.jpg"
                          width="1100px"></a>
                     </center>
                 <center>
                     <a href="https://www.amazon.in/b?node=1953602031&pf_rd_r=81T2ZSHX14XMXNZJ0MSC&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739"
                        target="_blank">
                         <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/BannerFST/WA-FST._SY1200_QL85_.jpg"
+                             src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/newseason/Flip/WA._SY1500_QL85_.jpg"
                              width="310px" ></a>
                 </center>
 {{--                <div class="col-sm-4">--}}
