@@ -533,14 +533,16 @@
 {{--                        </div>--}}
 {{--                        </form>--}}
 {{--                    </center>--}}
-                    {{--                    <div>--}}
-{{--                    <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">--}}
-{{--                        <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>--}}
-{{--                            Special <span class="p-color-red" style="font-size: 14px">ONAM Offer</span> awaits you‎ ,--}}
-{{--                            get ₹250 discount on shipping. Use Coupon Code: ONM250. T&C Apply.</p>--}}
-{{--                    </marquee>--}}
-{{--                        </p>--}}
-{{--                    </div>--}}
+                    <div>
+                        <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
+                            <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
+                               <span class="p-color-red" style="font-size: 14px">Service Alerts: </span>
+                                Temporary Service Adjustments due to COVID19: 👉
+                                <a href="https://bit.ly/shipment-update" title="COVID-19 Alert">Know More</a>
+                            </p>
+                        </marquee>
+                        </p>
+                    </div>
                 </div>
 
                 <div class="col-md-6 col-xs-12 pad-l-10 "><br>

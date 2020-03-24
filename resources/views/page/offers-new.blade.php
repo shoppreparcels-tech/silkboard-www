@@ -317,7 +317,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">End Of Season Sale</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">SPRING SUMMER SPECIALS</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up to 65% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://indiacircus.com/sales/clearance-sale.html" target="_blank">
@@ -378,8 +378,8 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">The Resolution Sale</h4>
-                            <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">ethnic style</h4>
+                            <h5 class="header6 p-color-cement font-weight-900">Upto 70% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/shoppersstop-online-shopping" target="_blank">
                                     <p class="header3 p-color-cement-dark font-weight-900">SHOPPERSSTOP</p>
@@ -407,7 +407,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">the super stylish</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">the summer of saving sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up To 60% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="https://www.jaypore.com/eoss2019" target="_blank">

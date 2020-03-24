@@ -76,10 +76,11 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="/flipkart-online-shopping" title="Flipkart" target="_blank">1. 👉Biggest End Of Season Sale</a> |
+                            <a href="/https://bit.ly/shipment-update" title="COVID-19 Alert" target="_blank"> 👉Temporary Service Adjustments due to COVID19</a>
+{{--                            <a href="/flipkart-online-shopping" title="Flipkart" target="_blank">2. 👉Biggest End Of Season Sale</a> |--}}
 {{--                            <a href="/myntra-online-shopping" title="Myntra" target="_blank">2. 👉ALL THINGS SUMMER</a> |--}}
-                            <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉BIG BAG DAYS</a> |
-                            <a href="/online-books-shopping-india-international-shipping" title="Ajio" target="_blank">3. 👉THE BOOK PARADISE</a>
+{{--                            <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉BIG BAG DAYS</a> |--}}
+{{--                            <a href="/online-books-shopping-india-international-shipping" title="Ajio" target="_blank">4. 👉THE BOOK PARADISE</a>--}}
                         </marquee>
                     </div>
                     <center>
