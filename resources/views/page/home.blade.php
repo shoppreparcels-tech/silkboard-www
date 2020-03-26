@@ -538,7 +538,7 @@
                             <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
                                <span class="p-color-red" style="font-size: 14px">Service Alerts: </span>
                                 Temporary Service Adjustments due to COVID19: 👉
-                                <a href="https://bit.ly/shipment-update" title="COVID-19 Alert">Know More</a>
+                                <a href="https://bit.ly/shipment-update" title="COVID-19 Alert" target="_blank">Know More</a>
                             </p>
                         </marquee>
                         </p>
@@ -608,17 +608,17 @@
     <!-- Main container -->
 
     <!-- latest shopping sale details-->
-    <section>
-        <div class="container-fluid fuid-padding pad-t`-40"><br><br>
-            <div class="col-md-2 col-xs-12 pad-l-d">
-                <center>
-                    <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">Live<br>
-                        <span class="f-s-45 f-w-8 f-c-green "> Sale</span></h1>
-                    <h4 class="f-s-18 f-c-l-gray txt-a-l">Grab The<br> Running Offers from<br> Indian Stores</h4>
-                </center>
-            </div>
-            <div class="col-md-10 col-xs-12 pad-b-30">
-                <div class="slider" id="shippingCard">
+{{--    <section>--}}
+{{--        <div class="container-fluid fuid-padding pad-t`-40"><br><br>--}}
+{{--            <div class="col-md-2 col-xs-12 pad-l-d">--}}
+{{--                <center>--}}
+{{--                    <h1 class="f-s-26 f-c-d-greay f-w-9 txt-a-l">Live<br>--}}
+{{--                        <span class="f-s-45 f-w-8 f-c-green "> Sale</span></h1>--}}
+{{--                    <h4 class="f-s-18 f-c-l-gray txt-a-l">Grab The<br> Running Offers from<br> Indian Stores</h4>--}}
+{{--                </center>--}}
+{{--            </div>--}}
+{{--            <div class="col-md-10 col-xs-12 pad-b-30">--}}
+{{--                <div class="slider" id="shippingCard">--}}
 {{--                    <div class="col-md-3 col-xs-12" style="box-shadow:none !important;margin-bottom: 10px;">--}}
 {{--                        <a href="/flipkart-shopping-with-shoppre-from-india" title="Click to Know More" target="_blank">--}}
 {{--                        <div class="inner" style="box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);padding-bottom: 1px;border: 1px solid #e9c46a;" >--}}
@@ -698,94 +698,94 @@
 {{--                            </a>--}}
 {{--                    </div>--}}
 
-                    <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
-                        <a href="/online-books-shopping-india-international-shipping" title="Click to Know More" target="_blank">
-                            <div style="text-align: left;">
-                                <div style="padding-top: 0px;">
-                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
-                                         src="/img/images/load.gif"
-                                         data-src="/img/images/bookMob.png" />
-                                </div>
-                                <div style="    margin-top: 10px;color: #000;font-size: 14px;
-                                                padding-top: 0px !important;text-align: left;
-                                                text-decoration: none;">
-                                    THE BOOK PARADISE
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                        <span style="font-size: 14px;font-weight: bold;
-                                                     padding-top: 5px;color: #337ab7;;
-                                                     display: inline-block;">
-                                            At Lowest Price
+{{--                    <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">--}}
+{{--                        <a href="/online-books-shopping-india-international-shipping" title="Click to Know More" target="_blank">--}}
+{{--                            <div style="text-align: left;">--}}
+{{--                                <div style="padding-top: 0px;">--}}
+{{--                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"--}}
+{{--                                         src="/img/images/load.gif"--}}
+{{--                                         data-src="/img/images/bookMob.png" />--}}
+{{--                                </div>--}}
+{{--                                <div style="    margin-top: 10px;color: #000;font-size: 14px;--}}
+{{--                                                padding-top: 0px !important;text-align: left;--}}
+{{--                                                text-decoration: none;">--}}
+{{--                                    THE BOOK PARADISE--}}
+{{--                                </div>--}}
+{{--                                <div style="padding-top: 0px !important;">--}}
+{{--                                        <span style="font-size: 14px;font-weight: bold;--}}
+{{--                                                     padding-top: 5px;color: #337ab7;;--}}
+{{--                                                     display: inline-block;">--}}
+{{--                                            At Lowest Price--}}
 
-                                        </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                text-align: left;">
-                                    Shoppre.com
+{{--                                        </span>--}}
+{{--                                </div>--}}
+{{--                                <div style="display: block;padding: 0 0 0 0;--}}
+{{--                                                color: #181818;font-size: 14px;font-family: Lato;--}}
+{{--                                                text-align: left;">--}}
+{{--                                    Shoppre.com--}}
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
-                        <a href="/amazon-india-shop-international-shipping" title="Click to Know More" target="_blank">
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">--}}
+{{--                        <a href="/amazon-india-shop-international-shipping" title="Click to Know More" target="_blank">--}}
 {{--                        <a href="/flipkart-online-shopping" title="Click to Know More" target="_blank">--}}
-                            <div style="text-align: left;">
-                                <div style="padding-top: 0px;">
-                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
-                                         src="/img/images/load.gif"
-                                         data-src="/img/images/AmazonHarPalFashionable.png" />
+{{--                            <div style="text-align: left;">--}}
+{{--                                <div style="padding-top: 0px;">--}}
+{{--                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"--}}
+{{--                                         src="/img/images/load.gif"--}}
+{{--                                         data-src="/img/images/AmazonHarPalFashionable.png" />--}}
 {{--                                         data-src="https://rukminim1.flixcart.com/flap/360/160/image/7e7511eff5f1b64f.jpg?q=80" />--}}
-                                </div>
-                                <div style="    color: #000;font-size: 14px;margin-top: 10px;
-                                                padding-top: 0px !important;text-align: left;
-                                                text-decoration: none;">
-                                  WEAR THE NEW
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                        <span style="font-size: 14px;font-weight: bold;
-                                                     padding-top: 5px;color: #337ab7;;
-                                                     display: inline-block;">
+{{--                                </div>--}}
+{{--                                <div style="    color: #000;font-size: 14px;margin-top: 10px;--}}
+{{--                                                padding-top: 0px !important;text-align: left;--}}
+{{--                                                text-decoration: none;">--}}
+{{--                                  WEAR THE NEW--}}
+{{--                                </div>--}}
+{{--                                <div style="padding-top: 0px !important;">--}}
+{{--                                        <span style="font-size: 14px;font-weight: bold;--}}
+{{--                                                     padding-top: 5px;color: #337ab7;;--}}
+{{--                                                     display: inline-block;">--}}
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
 {{--                                           Start from <i class="fa fa-inr" aria-hidden="true"></i>69--}}
-                                            S/S 2020
-                                        </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                text-align: left;">
+{{--                                            S/S 2020--}}
+{{--                                        </span>--}}
+{{--                                </div>--}}
+{{--                                <div style="display: block;padding: 0 0 0 0;--}}
+{{--                                                color: #181818;font-size: 14px;font-family: Lato;--}}
+{{--                                                text-align: left;">--}}
 {{--                                    <i class="fa fa-inr" aria-hidden="true"></i>--}}
-                                    Amazon.com
+{{--                                    Amazon.com--}}
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
-                        <a href="/myntra-online-shopping-shipping-from-india" title="Click to Know More" target="_blank">
-                            <div style="text-align: left;">
-                                <div style="padding-top: 0px;">
-                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
-                                         src="/img/images/load.gif"
-                                         data-src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/3/11/e0572a07-fc47-476d-9132-efa08f3b02761583870630352-final-banner-static.jpeg" />
-                                </div>
-                                <div style="    margin-top: 10px;color: #000;font-size: 14px;
-                                                padding-top: 0px !important;text-align: left;
-                                                text-decoration: none;">
-                                    ALL THINGS SUMMER
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                        <span style="font-size: 14px;font-weight: bold;
-                                                     padding-top: 5px;color: #337ab7;;
-                                                     display: inline-block;">
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">--}}
+{{--                        <a href="/myntra-online-shopping-shipping-from-india" title="Click to Know More" target="_blank">--}}
+{{--                            <div style="text-align: left;">--}}
+{{--                                <div style="padding-top: 0px;">--}}
+{{--                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"--}}
+{{--                                         src="/img/images/load.gif"--}}
+{{--                                         data-src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/3/11/e0572a07-fc47-476d-9132-efa08f3b02761583870630352-final-banner-static.jpeg" />--}}
+{{--                                </div>--}}
+{{--                                <div style="    margin-top: 10px;color: #000;font-size: 14px;--}}
+{{--                                                padding-top: 0px !important;text-align: left;--}}
+{{--                                                text-decoration: none;">--}}
+{{--                                    ALL THINGS SUMMER--}}
+{{--                                </div>--}}
+{{--                                <div style="padding-top: 0px !important;">--}}
+{{--                                        <span style="font-size: 14px;font-weight: bold;--}}
+{{--                                                     padding-top: 5px;color: #337ab7;;--}}
+{{--                                                     display: inline-block;">--}}
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                        Spring Summer '20
-                                        </span>
+{{--                                        Spring Summer '20--}}
+{{--                                        </span>--}}
 {{--                                        <span style="font-size: 14px;font-weight: bold;--}}
 {{--                                                     padding-top: 5px;color: #000000;;--}}
 {{--                                                     display: inline-block;">--}}
@@ -793,61 +793,61 @@
 {{--                                        HERE & NOW--}}
 {{--                                        </span>--}}
 
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                text-align: left;">
-                                    Myntra.com
+{{--                                </div>--}}
+{{--                                <div style="display: block;padding: 0 0 0 0;--}}
+{{--                                                color: #181818;font-size: 14px;font-family: Lato;--}}
+{{--                                                text-align: left;">--}}
+{{--                                    Myntra.com--}}
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">
-                        <a href="/ajio-online-shopping" title="Click to Know More" target="_blank">
-                            <div style="text-align: left;">
-                                <div style="padding-top: 0px;">
-                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"
-                                         src="/img/images/load.gif"
-                                         data-src="https://assets.ajio.com/medias/sys_master/images/images/he1/h8b/16018587123742/23032020-M-SHP-topbanner-P1-50-90.jpg"/>
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-md-3 col-xs-12 home-live-sale-div" style="box-shadow:none !important;">--}}
+{{--                        <a href="/ajio-online-shopping" title="Click to Know More" target="_blank">--}}
+{{--                            <div style="text-align: left;">--}}
+{{--                                <div style="padding-top: 0px;">--}}
+{{--                                    <img class="img-product m-t-img border-radius-10 img-sale home-live-sale-img lazyload"--}}
+{{--                                         src="/img/images/load.gif"--}}
+{{--                                         data-src="https://assets.ajio.com/medias/sys_master/images/images/he1/h8b/16018587123742/23032020-M-SHP-topbanner-P1-50-90.jpg"/>--}}
 
-                                </div>
-                                <div style="    margin-top: 10px;color: #000;font-size: 14px;
-                                                padding-top: 0px !important;text-align: left;
-                                                text-decoration: none;">
-                                    BIG BAG DAYS
-                                </div>
-                                <div style="padding-top: 0px !important;">
-                                        <span style="font-size: 14px;font-weight: bold;
-                                                     padding-top: 5px;color: #337ab7;;
-                                                     display: inline-block;">
+{{--                                </div>--}}
+{{--                                <div style="    margin-top: 10px;color: #000;font-size: 14px;--}}
+{{--                                                padding-top: 0px !important;text-align: left;--}}
+{{--                                                text-decoration: none;">--}}
+{{--                                    BIG BAG DAYS--}}
+{{--                                </div>--}}
+{{--                                <div style="padding-top: 0px !important;">--}}
+{{--                                        <span style="font-size: 14px;font-weight: bold;--}}
+{{--                                                     padding-top: 5px;color: #337ab7;;--}}
+{{--                                                     display: inline-block;">--}}
 {{--                                            <i class="fa fa-inr" aria-hidden="true"></i> 199--}}
-                                            23-26th March (50-90% Off)
-                                        </span>
-                                        <span style="font-size: 14px;font-weight: bold;
-                                                         padding-top: 5px;color: #000000;;
-                                                         display: inline-block;">
+{{--                                            23-26th March (50-90% Off)--}}
+{{--                                        </span>--}}
+{{--                                        <span style="font-size: 14px;font-weight: bold;--}}
+{{--                                                         padding-top: 5px;color: #000000;;--}}
+{{--                                                         display: inline-block;">--}}
 
-                                            </span>
-                                </div>
-                                <div style="display: block;padding: 0 0 0 0;
-                                                color: #181818;font-size: 14px;font-family: Lato;
-                                                text-align: left;">
-                                    AJIO.com
+{{--                                            </span>--}}
+{{--                                </div>--}}
+{{--                                <div style="display: block;padding: 0 0 0 0;--}}
+{{--                                                color: #181818;font-size: 14px;font-family: Lato;--}}
+{{--                                                text-align: left;">--}}
+{{--                                    AJIO.com--}}
 {{--                                    <span style="color: #347b4c;">--}}
 {{--                                            4-5 days--}}
 {{--                                        </span>--}}
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <br>
-            </div>
-        </div>
-    </section>
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <br>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
 
     <section>

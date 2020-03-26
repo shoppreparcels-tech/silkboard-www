@@ -165,22 +165,22 @@
 {{--                    </div>--}}
 {{--                </div>--}}
             </div>
-            <div class="row">
-                <center>
-                    <a href="https://www.lifestylestores.com/in/en/c/women?q=badge.title.en%3ANew%3AmanufacturerName.en%3AMelange&v=1" target="_blank">
-                        <img class="img-desktop-view"
-                             src="https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/HP_LS_Desktop_2-19FEB20200.gif"
-                             {{--                         width="800px"--}}
-                             width="1100px"
-                        ></a>
-                </center>
-                <center>
-                    <a href="https://www.lifestylestores.com/in/en/c/women?q=badge.title.en%3ANew%3AmanufacturerName.en%3AMelange&v=1" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/HP_LS_Mobile_2-19FEB20200.gif"
-                             width="350px" ></a>
-                </center>
-            </div>
+{{--            <div class="row">--}}
+{{--                <center>--}}
+{{--                    <a href="https://www.lifestylestores.com/in/en/c/women?q=badge.title.en%3ANew%3AmanufacturerName.en%3AMelange&v=1" target="_blank">--}}
+{{--                        <img class="img-desktop-view"--}}
+{{--                             src="https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/HP_LS_Desktop_2-19FEB20200.gif"--}}
+{{--                             --}}{{--                         width="800px"--}}
+{{--                             width="1100px"--}}
+{{--                        ></a>--}}
+{{--                </center>--}}
+{{--                <center>--}}
+{{--                    <a href="https://www.lifestylestores.com/in/en/c/women?q=badge.title.en%3ANew%3AmanufacturerName.en%3AMelange&v=1" target="_blank">--}}
+{{--                        <img class="img-mobile-view img-shopperstop-offer"--}}
+{{--                             src="https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/HP_LS_Mobile_2-19FEB20200.gif"--}}
+{{--                             width="350px" ></a>--}}
+{{--                </center>--}}
+{{--            </div>--}}
 
 
             <div class="row text-center">

@@ -153,20 +153,20 @@
     <section >
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
-                <div class="">
-                    <center>
-                        <a href="https://www.fabindia.com/clothing/women-dupattas" target="_blank">
-                            <img class="img-desktop-view"
-                                 src="/img/images/fabIndiaDesktop.png"
-                                 width="1100px"></a>
-                        <a href="https://www.fabindia.com/clothing/women-dupattas" target="_blank">
-                            <img class="img-mobile-view img-shopperstop-offer"
-                                 src="/img/images/fabindiaMobile.png"
-                                 width="350px" ></a>
-                    </center>
+{{--                <div class="">--}}
+{{--                    <center>--}}
+{{--                        <a href="https://www.fabindia.com/clothing/women-dupattas" target="_blank">--}}
+{{--                            <img class="img-desktop-view"--}}
+{{--                                 src="/img/images/fabIndiaDesktop.png"--}}
+{{--                                 width="1100px"></a>--}}
+{{--                        <a href="https://www.fabindia.com/clothing/women-dupattas" target="_blank">--}}
+{{--                            <img class="img-mobile-view img-shopperstop-offer"--}}
+{{--                                 src="/img/images/fabindiaMobile.png"--}}
+{{--                                 width="350px" ></a>--}}
+{{--                    </center>--}}
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">January 2020 Sale: <span class="f-s-25 f-c-red f-w-9">Festive Vibes</span> /--}}
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
-                </div>
+{{--                </div>--}}
 {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
 {{--                    <div class="">--}}
 {{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20Fabindia" target="_blank">--}}

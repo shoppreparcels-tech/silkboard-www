@@ -335,9 +335,9 @@
                         <div class="EcomBox">
                             <h4 class="header4 p-color-blue text-transform-u font-weight-900">BIG BAG DAYS</h4>
                             <h5 class="header6 p-color-cement font-weight-900"> 50-90% Off</h5>
-                            <h5 class="header6 p-color-cement font-weight-900">23-26th March</h5>
+{{--                            <h5 class="header6 p-color-cement font-weight-900">23-26th March</h5>--}}
                             <div class="ecomSmallBox">
-                                <a href="/ajio-online-shopping">
+                                <a href="/ajio-online-shopping" target="_blank">
                                     <img style="margin-top: -10%;" src="{{env('AWS_CLOUD_FRONT')}}/img/images/logo_59a51d8ae4946.png"/>
                                 </a>
                             </div>

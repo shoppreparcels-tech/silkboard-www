@@ -124,19 +124,19 @@
                 <h1 class="f-s-36 f-c-white f-w-8">Myntra - International Shipping From India</h1>
 
             </center>
-            <div class="row text-center">
-                <a href="https://www.myntra.com/"
-                   target="_blank">
-                    <img class="img-desktop-view"
-                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/3/10/0dbecf63-b437-4ddc-bd7f-7e1041b36de61583864931647-desktop-banner-newseason.jpg"
-                         width="1000px"></a>
-                <center>
-                    <a href="https://www.myntra.com/shop/new_season"
-                       target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/3/11/e0572a07-fc47-476d-9132-efa08f3b02761583870630352-final-banner-static.jpeg"
-                             width="350px" ></a>
-                </center>
+{{--            <div class="row text-center">--}}
+{{--                <a href="https://www.myntra.com/"--}}
+{{--                   target="_blank">--}}
+{{--                    <img class="img-desktop-view"--}}
+{{--                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/3/10/0dbecf63-b437-4ddc-bd7f-7e1041b36de61583864931647-desktop-banner-newseason.jpg"--}}
+{{--                         width="1000px"></a>--}}
+{{--                <center>--}}
+{{--                    <a href="https://www.myntra.com/shop/new_season"--}}
+{{--                       target="_blank">--}}
+{{--                        <img class="img-mobile-view img-shopperstop-offer"--}}
+{{--                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/3/11/e0572a07-fc47-476d-9132-efa08f3b02761583870630352-final-banner-static.jpeg"--}}
+{{--                             width="350px" ></a>--}}
+{{--                </center>--}}
 {{--                <div class="col-sm-4">--}}
 {{--                    <a href="https://www.myntra.com/" target="_blank"><div class="shopandship ">--}}
 {{--                            <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">End Of Season Sale</h2>--}}
@@ -165,8 +165,8 @@
 {{--                            <p>Starting from ₹227/-</p></div></a>--}}
 {{--                    </div>--}}
 
-                </div>
-            </div>
+{{--                </div>--}}
+{{--            </div>--}}
         </div>
         <br>
         <br>

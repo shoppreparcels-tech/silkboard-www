@@ -79,21 +79,24 @@
 
                 </div>
             </div>
-            <center>
-                    <a href="https://www.flipkart.com/offers-list/flat50off?screen=dynamic&pk=themeViews%3DLS-RD20-Jan-Flat50%3Ada%2CLS-RD20-Jan-Flat50%3Add%7EwidgetType%3DdealCard%7EcontentType%3Dneo&wid=2.dealCard.OMU&param=988&otracker=hp_bannerads_4_2.bannerAdCard.BANNERADS_2157DFO437YZ"
-                       target="_blank">
-                        <img class="img-desktop-view"
-                             src="https://rukminim1.flixcart.com/flap/1688/280/image/06b2d490411d8614.jpg?q=50"
-                             width="1100px">
-                    </a>
-                </center>
-                <center>
-                    <a href="https://www.flipkart.com/fashion-ffd-feb-2020-pn-base-store"
-                       target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://rukminim1.flixcart.com/flap/1080/480/image/38c8975f76c1e73e.jpg?q=90"
-                             width="300px" ></a>
-                </center>
+
+            <!-- hide sales  -->
+
+{{--            <center>--}}
+{{--                    <a href="https://www.flipkart.com/offers-list/flat50off?screen=dynamic&pk=themeViews%3DLS-RD20-Jan-Flat50%3Ada%2CLS-RD20-Jan-Flat50%3Add%7EwidgetType%3DdealCard%7EcontentType%3Dneo&wid=2.dealCard.OMU&param=988&otracker=hp_bannerads_4_2.bannerAdCard.BANNERADS_2157DFO437YZ"--}}
+{{--                       target="_blank">--}}
+{{--                        <img class="img-desktop-view"--}}
+{{--                             src="https://rukminim1.flixcart.com/flap/1688/280/image/06b2d490411d8614.jpg?q=50"--}}
+{{--                             width="1100px">--}}
+{{--                    </a>--}}
+{{--                </center>--}}
+{{--                <center>--}}
+{{--                    <a href="https://www.flipkart.com/fashion-ffd-feb-2020-pn-base-store"--}}
+{{--                       target="_blank">--}}
+{{--                        <img class="img-mobile-view img-shopperstop-offer"--}}
+{{--                             src="https://rukminim1.flixcart.com/flap/1080/480/image/38c8975f76c1e73e.jpg?q=90"--}}
+{{--                             width="300px" ></a>--}}
+{{--                </center>--}}
 {{--            <div class="row text-center">--}}
 {{--                <div class="col-sm-4">--}}
 {{--                    <a href="https://clnk.in/jWEU" title="Click Here to Shop" target="_blank">--}}

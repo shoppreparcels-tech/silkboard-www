@@ -131,24 +131,24 @@
     <section >
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
-                <div>
-                    <center>
-                    <a href="https://www.shoppersstop.com/ethnic-fest?icid=ethnic-fest|homepg|1-2|ethnic-fest" target="_blank">
-                        <img class="img-desktop-view"
-                             src="https://sslimages.shoppersstop.com/sys-master/root/hda/h86/14587953381406/banner_2000x600_Ethnic_2000W_20200309.jpg"
-                             width="1100px"
-                        ></a>
-                        </center>
-                        <center>
-                        <a href="https://www.shoppersstop.com/ethnic-fest?icid=ethnic-fest|homepg|1-2|ethnic-fest" target="_blank">
-                    <img class="img-mobile-view img-shopperstop-offer"
-                         src="https://sslimages.shoppersstop.com/sys-master/root/hcb/hea/14603131682846/banner_04_640x728_Ethenicwear_1EN_640W_2020030.jpg.jpg"
-                         width="310px" ></a>
-                    </center>
-                    {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale /--}}
+{{--                <div>--}}
+{{--                    <center>--}}
+{{--                    <a href="https://www.shoppersstop.com/ethnic-fest?icid=ethnic-fest|homepg|1-2|ethnic-fest" target="_blank">--}}
+{{--                        <img class="img-desktop-view"--}}
+{{--                             src="https://sslimages.shoppersstop.com/sys-master/root/hda/h86/14587953381406/banner_2000x600_Ethnic_2000W_20200309.jpg"--}}
+{{--                             width="1100px"--}}
+{{--                        ></a>--}}
+{{--                        </center>--}}
+{{--                        <center>--}}
+{{--                        <a href="https://www.shoppersstop.com/ethnic-fest?icid=ethnic-fest|homepg|1-2|ethnic-fest" target="_blank">--}}
+{{--                    <img class="img-mobile-view img-shopperstop-offer"--}}
+{{--                         src="https://sslimages.shoppersstop.com/sys-master/root/hcb/hea/14603131682846/banner_04_640x728_Ethenicwear_1EN_640W_2020030.jpg.jpg"--}}
+{{--                         width="310px" ></a>--}}
+{{--                    </center>--}}
+{{--                    --}}{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">November 2019 Sale /--}}
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
 {{--                    <span class="f-s-25 f-c-red f-w-9">Big Bag Days (25-31 Oct)</span>--}}
-                </div>
+{{--                </div>--}}
 
             </div>
 

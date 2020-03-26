@@ -139,19 +139,19 @@
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">THE EVERYTHING-ON-SALE (40-80% OFF)</span> /--}}
 
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
-                    <center>
-                    <a href="https://www.ajio.com/s/big-bag-days-3907-62561" target="_blank">
-                        <img class="img-desktop-view"
-                             src="https://assets.ajio.com/medias/sys_master/images/images/h79/h45/16018589843486/23032020-D-SHP-topbanner-P1-50-90.jpg"
-                             width="1100px"></a>
-                        </center>
-                    <center>
-                        <a href="https://www.ajio.com/s/big-bag-days-3907-62561" target="_blank">
-                            <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://assets.ajio.com/medias/sys_master/images/images/he1/h8b/16018587123742/23032020-M-SHP-topbanner-P1-50-90.jpg"
-                                 width="300px" ></a>
+{{--                    <center>--}}
+{{--                    <a href="https://www.ajio.com/s/big-bag-days-3907-62561" target="_blank">--}}
+{{--                        <img class="img-desktop-view"--}}
+{{--                             src="https://assets.ajio.com/medias/sys_master/images/images/h79/h45/16018589843486/23032020-D-SHP-topbanner-P1-50-90.jpg"--}}
+{{--                             width="1100px"></a>--}}
+{{--                        </center>--}}
+{{--                    <center>--}}
+{{--                        <a href="https://www.ajio.com/s/big-bag-days-3907-62561" target="_blank">--}}
+{{--                            <img class="img-mobile-view img-shopperstop-offer"--}}
+{{--                                 src="https://assets.ajio.com/medias/sys_master/images/images/he1/h8b/16018587123742/23032020-M-SHP-topbanner-P1-50-90.jpg"--}}
+{{--                                 width="300px" ></a>--}}
 
-                    </center>
+{{--                    </center>--}}
 
                 </div>
             </div>

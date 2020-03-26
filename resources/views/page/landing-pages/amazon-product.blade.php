@@ -134,23 +134,23 @@
             <div class="row">
                 <div class="">
 
-                    <center>
-                        <a href="https://www.amazon.in/b?node=1953602031&pf_rd_r=81T2ZSHX14XMXNZJ0MSC&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739"
-                           target="_blank">
-                            <img class="img-desktop-view"
-                                 src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/newseason/Flip/wa_pc._SX3000_QL85_.jpg"
-                                 width="1000px">
-                        </a>
+{{--                    <center>--}}
+{{--                        <a href="https://www.amazon.in/b?node=1953602031&pf_rd_r=81T2ZSHX14XMXNZJ0MSC&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739"--}}
+{{--                           target="_blank">--}}
+{{--                            <img class="img-desktop-view"--}}
+{{--                                 src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/newseason/Flip/wa_pc._SX3000_QL85_.jpg"--}}
+{{--                                 width="1000px">--}}
+{{--                        </a>--}}
 
-                    </center>
-                    <center>
-                        <a href="https://www.amazon.in/b?node=1953602031&pf_rd_r=81T2ZSHX14XMXNZJ0MSC&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739"
-                           target="_blank">
-                            <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/newseason/Flip/WA._SY1500_QL85_.jpg"
-                                 width="310px">
-                        </a>
-                    </center>
+{{--                    </center>--}}
+{{--                    <center>--}}
+{{--                        <a href="https://www.amazon.in/b?node=1953602031&pf_rd_r=81T2ZSHX14XMXNZJ0MSC&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739"--}}
+{{--                           target="_blank">--}}
+{{--                            <img class="img-mobile-view img-shopperstop-offer"--}}
+{{--                                 src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/newseason/Flip/WA._SY1500_QL85_.jpg"--}}
+{{--                                 width="310px">--}}
+{{--                        </a>--}}
+{{--                    </center>--}}
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">👉 <a--}}
 {{--                                href="https://www.amazon.in/b?node=6648217031" target="_blank">New Year, New You</a> (Up To 70% OFF)</span> /--}}
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
@@ -162,14 +162,13 @@
 
 
             {{--How to prevent Coronavirus? --}}
-            <div class="row text-center">
+{{--            <div class="row text-center">--}}
 {{--                <h2 class="f-s-35 p-color-cement-dark font-weight-900 ">How to prevent Coronavirus?</h2>--}}
 {{--                <p class="p-color-blue">WHO also advises: Wearing a mask may stop an individual from directly--}}
 {{--                    <a href="https://bit.ly/38LXXY2" target="_blank">touching their mouth and nose</a>, which is a common way that viruses and germs enter the body.--}}
 {{--                  Buy these below suggested Face mask from Amazon.in and Ship from India to China or any country worldwide.--}}
 {{--                </p>--}}
 
-                <br>
 {{--                <div class="col-sm-4 col-xs-6 col-md-3 zoom">--}}
 {{--                    <div class="shopandship onam-prod-pic p-b-26">--}}
 {{--                        <a href="https://www.amazon.in/Dettol-Shield-Carbon-Activated-Air-Pollution/dp/B07JD4ZXYT/" target="_blank">--}}
@@ -260,11 +259,11 @@
 {{--                    </div>--}}
 {{--                </div>--}}
 
-            </div>
+{{--            </div>--}}
 
 
             <br>
-            <hr style="border-top: 2px solid #beadad !important;">
+{{--            <hr style="border-top: 2px solid #beadad !important;">--}}
 
             <br>
 

@@ -155,22 +155,22 @@
                 </div>
 
             </div>
-            <div class="row">
-                <center>
-                    <a href="https://www.firstcry.com/topoffers?moid=6938&c=SPRING40&ref2=SpringLaunch40_Off_combo0_d_20Feb20_SPRING40" target="_blank">
-                        <img class="img-desktop-view"
-                             src="https://cdn.fcglcdn.com/brainbees/banners/hp_2020217171720.webp"
-                             {{--                         width="800px"--}}
-                             width="1100px"
-                        ></a>
-                </center>
-                <center>
-                    <a href="https://www.firstcry.com/topoffers?moid=6938&c=SPRING40&ref2=SpringLaunch40_Off_combo0_d_20Feb20_SPRING40" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://cdn.fcglcdn.com/brainbees/banners/mobile/mobile_default_the_99-_store_2020217171728.webp"
-                             width="350px" ></a>
-                </center>
-            </div>
+{{--            <div class="row">--}}
+{{--                <center>--}}
+{{--                    <a href="https://www.firstcry.com/topoffers?moid=6938&c=SPRING40&ref2=SpringLaunch40_Off_combo0_d_20Feb20_SPRING40" target="_blank">--}}
+{{--                        <img class="img-desktop-view"--}}
+{{--                             src="https://cdn.fcglcdn.com/brainbees/banners/hp_2020217171720.webp"--}}
+{{--                             --}}{{--                         width="800px"--}}
+{{--                             width="1100px"--}}
+{{--                        ></a>--}}
+{{--                </center>--}}
+{{--                <center>--}}
+{{--                    <a href="https://www.firstcry.com/topoffers?moid=6938&c=SPRING40&ref2=SpringLaunch40_Off_combo0_d_20Feb20_SPRING40" target="_blank">--}}
+{{--                        <img class="img-mobile-view img-shopperstop-offer"--}}
+{{--                             src="https://cdn.fcglcdn.com/brainbees/banners/mobile/mobile_default_the_99-_store_2020217171728.webp"--}}
+{{--                             width="350px" ></a>--}}
+{{--                </center>--}}
+{{--            </div>--}}
             <div class="row text-center">
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">

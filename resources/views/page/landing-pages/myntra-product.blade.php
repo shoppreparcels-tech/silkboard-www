@@ -308,26 +308,26 @@
 
     <section>
         <div class="container fst-service" style="margin-top: 0px;">
-            <div class="row">
-                <center>
-                <a href="https://www.myntra.com/" target="_blank">
-                    <img class="img-desktop-view"
-                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/3/10/0dbecf63-b437-4ddc-bd7f-7e1041b36de61583864931647-desktop-banner-newseason.jpg"
+{{--            <div class="row">--}}
+{{--                <center>--}}
+{{--                <a href="https://www.myntra.com/" target="_blank">--}}
+{{--                    <img class="img-desktop-view"--}}
+{{--                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/3/10/0dbecf63-b437-4ddc-bd7f-7e1041b36de61583864931647-desktop-banner-newseason.jpg"--}}
 {{--                         width="800px"--}}
-                         width="1100px"
-                    ></a>
-                    </center>
-                <center>
-                    <a href="https://www.myntra.com/shop/new_season" target="_blank">
-                        <img class="img-mobile-view img-shopperstop-offer"
-                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/3/11/e0572a07-fc47-476d-9132-efa08f3b02761583870630352-final-banner-static.jpeg"
-                             width="350px" ></a>
-                </center>
+{{--                         width="1100px"--}}
+{{--                    ></a>--}}
+{{--                    </center>--}}
+{{--                <center>--}}
+{{--                    <a href="https://www.myntra.com/shop/new_season" target="_blank">--}}
+{{--                        <img class="img-mobile-view img-shopperstop-offer"--}}
+{{--                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/3/11/e0572a07-fc47-476d-9132-efa08f3b02761583870630352-final-banner-static.jpeg"--}}
+{{--                             width="350px" ></a>--}}
+{{--                </center>--}}
 {{--                <div class="">--}}
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}
 {{--                        Below are the Recommended & Recently Shipped Products from Myntra India!</h2>--}}
 {{--                </div>--}}
-            </div>
+{{--            </div>--}}
 
             <div class="row text-center">
 {{--                <p class="f-s-20"><span class="f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">END OF SEASON SALE(40-80% OFF)</a></span></p>--}}

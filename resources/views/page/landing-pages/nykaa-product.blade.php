@@ -154,21 +154,21 @@
     <section >
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
-                <div class="">
-                    <center>
-                    <a href="https://www.nykaa.com/makeup-focus" target="_blank">
-                        <img class="img-desktop-view"
-                             src="https://images-static.nykaa.com/uploads/6f5fcf6b-fad6-4200-ac9e-97e62e5d40cd.jpg"
-                             width="1100px"></a>
-                        <a href="https://www.nykaa.com/makeup-focus" target="_blank">
-                            <img class="img-mobile-view img-shopperstop-offer"
-                                 src="https://images-static.nykaa.com/tr:w-340,c-at_max/uploads/b9ff5497-e78d-4025-ae35-cb0bc359ff6d.jpg"
-                                 width="370px" ></a>
-                    </center>
+{{--                <div class="">--}}
+{{--                    <center>--}}
+{{--                    <a href="https://www.nykaa.com/makeup-focus" target="_blank">--}}
+{{--                        <img class="img-desktop-view"--}}
+{{--                             src="https://images-static.nykaa.com/uploads/6f5fcf6b-fad6-4200-ac9e-97e62e5d40cd.jpg"--}}
+{{--                             width="1100px"></a>--}}
+{{--                        <a href="https://www.nykaa.com/makeup-focus" target="_blank">--}}
+{{--                            <img class="img-mobile-view img-shopperstop-offer"--}}
+{{--                                 src="https://images-static.nykaa.com/tr:w-340,c-at_max/uploads/b9ff5497-e78d-4025-ae35-cb0bc359ff6d.jpg"--}}
+{{--                                 width="370px" ></a>--}}
+{{--                    </center>--}}
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}
 {{--                        <span class="f-s-25 f-c-red f-w-9"> Beauty Bonanza (January 2020 )</span> /--}}
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
-                </div>
+{{--                </div>--}}
 {{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
 {{--                    <div class="">--}}
 {{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20Nykaa" target="_blank">--}}

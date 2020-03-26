@@ -201,8 +201,8 @@
                     </li>
                     <li><a href="{{route('offers-new.index')}}" class="shoppre-offers">Offers </a></li>
                     <li><a href="{{route('pricing')}}">Shipping Rates</a></li>
-                    <li><a href="{{route('flipkart-product')}}" target="_blank">
-                            <span style="color: #f9c030;" id="offer">Flipkart</span>
+                    <li><a href="https://www.shoppreparcels.com/covid19-note/" target="_blank">
+                            <span style="color: #f9c030;" id="offer">COVID19</span>
 {{--                            <sup class="p-color-red" style="font-size: 8px" id="offer">Buy</sup>--}}
                         </a>
                     </li>
