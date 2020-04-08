@@ -1311,8 +1311,9 @@
             <div class="col-md-3 col-lg-3 slider_four_in_line col-sm-3 col-xs-6 no-padding">
                 <img class="img-payment-methods lazyload"
                      src="/img/images/load.gif"
-                     data-src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paytm-payment-system-and-digital-wallet.svg"
-                     alt="paytm e-commerce digital wallet ">
+{{--                     data-src="{{env('AWS_CLOUD_FRONT')}}/img/svg/paytm-payment-system-and-digital-wallet.svg"--}}
+                     data-src="/img/images/razorpay.svg"
+                     alt="Razorpay">
             </div>
         </div>
     </section>

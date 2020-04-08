@@ -420,6 +420,12 @@
                                 made after 3 PM or on Sundays; the same will be processed the next working day.
                             </h14>
                             <br>
+                            <h14 class="f-s-14 f-c-l-gray">
+                                <span class="f-c-red">***</span> For Electronics related shipping please see the details
+                                <a href="https://www.shoppreparcels.com/shipping-electronics-internationally/" target="_blank">
+                                    here</a>
+                            </h14>
+                            <br>
                             <br>
                             <h14 class="f-s-14 f-c-l-gray">
                                 The charges are not inclusive of the import duty at the receiving country.
