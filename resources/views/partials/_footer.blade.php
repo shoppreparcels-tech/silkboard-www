@@ -61,6 +61,7 @@
             <div class="col-md-3 col-lg-3 col-sm-6 col-xs-4 pad-5">
                 <ul class="nav-ul">
                     <li class="li"><a itemprop="url" class="footer-a" href="{{route('about')}}">About Us</a></li>
+                    <li class="li"><a itemprop="url" class="footer-a" href="{{route('contact')}}">Contact Us</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="{{route('faq')}}">Shipping FAQ</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="https://ship.shoppre.com/franchise-with-shoppre/" target="_blank">Franchise</a></li>
                     <li class="li"><a itemprop="url" class="footer-a" href="https://ship.shoppre.com/prohibited-items-what-you-cannot-ship-internationally-from-india/" target="_blank">Prohibited Items</a></li>
@@ -70,6 +71,7 @@
                     <li class="li"><a class="footer-a" href="{{route('reviews')}}">ShoppRe Reviews</a></li>
                     <li class="li"><a class="footer-a" href="https://shoppretracking.aftership.com" target="_blank">Track Your Shipment</a></li>
                     <li class="li"><a class="footer-a" href="https://expeditions.shoppre.com" target="_blank">Expeditions</a></li>
+
                 </ul>
             </div>
             <div class="col-md-3 col-lg-3 col-sm-7 col-xs-8 pad-5">

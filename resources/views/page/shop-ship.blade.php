@@ -76,7 +76,8 @@
                 <div class="col-md-10">
                     <div>
                         <marquee style="margin-top: 30px;" class="f-s-16 f-c-red f-w-9">
-                            <a href="https://bit.ly/shipment-update" title="COVID-19 Alert" target="_blank"> 👉Temporary Service Adjustments due to COVID19</a>
+                            <a href="https://bit.ly/updates-on-shipping" title="Services Alert" target="_blank">
+                             👉 We are Resuming Our Shipping Services for Non-essential Goods</a>
 {{--                            <a href="/flipkart-online-shopping" title="Flipkart" target="_blank">2. 👉Biggest End Of Season Sale</a> |--}}
 {{--                            <a href="/myntra-online-shopping" title="Myntra" target="_blank">2. 👉ALL THINGS SUMMER</a> |--}}
 {{--                            <a href="/ajio-online-shopping" title="Ajio" target="_blank">3. 👉BIG BAG DAYS</a> |--}}

@@ -42,7 +42,7 @@
                    <br>
                    <br>
 
-                   <p class="f-s-15 f-c-l-gray f-w-8">{ 1st JAN to 31st MARCH 2020 }</p>
+                   <p class="f-s-15 f-c-l-gray f-w-8">{ 1st JAN to  30th May 2020 }</p>
 
                </center>
            </div>

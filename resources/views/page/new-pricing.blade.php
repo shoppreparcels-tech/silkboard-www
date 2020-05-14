@@ -129,6 +129,13 @@
             </div>
 
         </div>
+        <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
+            <p class="f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
+               <span class="p-color-red" style="font-size: 14px">Service Alerts: </span>
+                <span style="color: #11273b">We are Resuming Our Shipping Services for Non-essential Goods : 👉</span>
+                <a href="https://bit.ly/updates-on-shipping" title="Service Alert" target="_blank">Learn More</a>
+            </p>
+        </marquee>
         <div class="container div-b-l-w no-pad" style="padding-bottom: 30px">
             <div class="col-md-9 col-sm-8 col-xs-12">
                 <div class="col-md-12 no-pad">
@@ -138,7 +145,47 @@
                     <br>
                 </div>
                 <div class="col-md-12 col-xs-12 div-b-w-s pad-20">
-                    <form class="calc-form" id="shipping">
+
+                <div class="col-md-12 col-xs-12 no-pad ">
+                                            <lable class="f-c-gray f-s-16 f-w-8">
+                                                Regarding Shipping Rates to Your Destination Country from India.
+                                                Please Chat with Our Customer Support Team
+                                            </lable>
+                                        </div>
+
+                <div style="
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box !important;
+                    display: flex;
+                    justify-content: center;
+                    padding: 18px;
+                    box-sizing: border-box !important;">
+
+                        <a href="https://tawk.to/chat/58dab24ff97dd14875f5a8a9/default" target="_blank"
+                        title="Online Chat (8-22 Hours, IST)"
+                        style="font-weight: bold;
+                        letter-spacing: normal;
+                        line-height: 100%;
+                        text-align: center;
+                        text-decoration: none;
+                        border: 1px solid;
+                        border-radius: 4px;
+                        background-color: #278F1E;
+                        box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 25px 0px;
+                        padding: 18px;
+                        color: #FFFFFF;
+                        font-size: 15px;
+                        display: block;
+                        box-sizing: border-box !important;"
+                        >
+                        Online Chat Now (8-22 IST)
+                        </a>
+                    </div>
+
+                <!-- Commented calculator for COVID-19 -->
+
+                    <!-- <form class="calc-form" id="shipping">
                         {{ csrf_field() }}
                         <div class="col-md-12 col-xs-12 no-pad ">
                             <lable class="f-s-14 f-c-l-gray l-h-3">
@@ -281,7 +328,7 @@
                             {{--  </center>--}}
                              {{--</div>--}}
                         </div>
-                    </form>
+                    </form> -->
                     <br>
 
                     <div class="col-md-12 col-xs-12 no-pad" id="addImge">
