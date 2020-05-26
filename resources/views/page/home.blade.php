@@ -537,8 +537,7 @@
                     <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
                         <p class="f-s-14 f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
                            <span class="p-color-red" style="font-size: 14px">Service Alerts: </span>
-                            We are Resuming Our Shipping Services for Non-essential Goods : 👉
-                            <a href="https://bit.ly/updates-on-shipping" title="Service Alert" target="_blank">Learn More</a>
+                            We are Resuming Our Shipping Services for Non-essential Goods
                         </p>
                     </marquee>
                         </p>
