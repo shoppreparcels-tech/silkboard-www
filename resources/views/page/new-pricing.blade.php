@@ -132,8 +132,7 @@
         <marquee style="margin-top: -20px;" class="f-s-16 f-c-red f-w-9">
             <p class="f-c-white m-t-20"><sup class="p-color-red" style="font-size: 8px" id="offer">New</sup>
                <span class="p-color-red" style="font-size: 14px">Service Alerts: </span>
-                <span style="color: #11273b">We are Resuming Our Shipping Services for Non-essential Goods : 👉</span>
-                <a href="https://bit.ly/updates-on-shipping" title="Service Alert" target="_blank">Learn More</a>
+                <span style="color: #11273b">We are Resuming Our Shipping Services for Non-essential Goods
             </p>
         </marquee>
         <div class="container div-b-l-w no-pad" style="padding-bottom: 30px">
@@ -146,7 +145,7 @@
                 </div>
                 <div class="col-md-12 col-xs-12 div-b-w-s pad-20">
 
-                <div class="col-md-12 col-xs-12 no-pad ">
+               <!-- <div class="col-md-12 col-xs-12 no-pad ">
                                             <lable class="f-c-gray f-s-16 f-w-8">
                                                 Regarding Shipping Rates to Your Destination Country from India.
                                                 Please Chat with Our Customer Support Team
@@ -181,11 +180,11 @@
                         >
                         Online Chat Now (8-22 IST)
                         </a>
-                    </div>
+                    </div> --!>
 
                 <!-- Commented calculator for COVID-19 -->
 
-                    <!-- <form class="calc-form" id="shipping">
+                    <form class="calc-form" id="shipping">
                         {{ csrf_field() }}
                         <div class="col-md-12 col-xs-12 no-pad ">
                             <lable class="f-s-14 f-c-l-gray l-h-3">
@@ -328,7 +327,7 @@
                             {{--  </center>--}}
                              {{--</div>--}}
                         </div>
-                    </form> -->
+                    </form>
                     <br>
 
                     <div class="col-md-12 col-xs-12 no-pad" id="addImge">
@@ -1501,10 +1500,12 @@
                             success: function ({prices}) {
                                 let customer_price = prices[0].customerRate;
                                 let member_price = (customer_price * 95) / 100;
-                                $('#customer-price-tag').text(Math.round(customer_price));
-                                $('#member-price-tag').text(Math.round(member_price));
-                                $('#customer_total_price').text(Math.round(customer_price * 2));
-                                $('#member_total_price').text(Math.round(member_price * 2));
+                                let new_customer_price = (customer_price *105/100);
+                                let new_member_price = (member_price *105/100);
+                                $('#customer-price-tag').text(Math.round(new_customer_price));
+                                $('#member-price-tag').text(Math.round(new_member_price));
+                                $('#customer_total_price').text(Math.round(new_customer_price * 2));
+                                $('#member_total_price').text(Math.round(new_member_price * 2));
                                 $('#pricing-panel').slideDown();
                                 $('#addImge').hide();
                             }
