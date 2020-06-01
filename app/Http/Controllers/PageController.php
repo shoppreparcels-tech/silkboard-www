@@ -111,12 +111,12 @@ class PageController extends Controller
                 $misc->points = $loyalPoints;
                 $misc->save();
 
-                Mail::to($referFriend->email)->send(new ReferEarned('Congratulations! You have 
-		        earned 200 Shoppre Loyalty Points simply because your friend signed up with the referral 
+                Mail::to($referFriend->email)->send(new ReferEarned('Congratulations! You have
+		        earned 200 Shoppre Loyalty Points simply because your friend signed up with the referral
 		        code that you sent!'));
 
-                Mail::to($request->email)->send(new ReferEarned('Congratulations! You have earned 
-		        200 Shoppre Loyalty Points simply because you signed up with the referral code that your 
+                Mail::to($request->email)->send(new ReferEarned('Congratulations! You have earned
+		        200 Shoppre Loyalty Points simply because you signed up with the referral code that your
 		        friend sent!'));
 
             } else {
@@ -1048,9 +1048,13 @@ class PageController extends Controller
 
     public function createSubscriber(Request $req)
     {
-        $id = Auth::id();
-        $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
-        $list_id = '8bb27c3d49';
+
+        //return response()->json(["status" => "success"]);
+        //$id = Auth::id();
+       // $apikey = 'a002efc79844b755621fe6c4d1beefc6-us19';
+        $apikey = '19b6046c27eba9221f61cb9eeaf0306b-us19';
+        //$list_id = '8bb27c3d49';
+        $list_id = '7fb2164678';
         $auth = base64_encode('user:' . $apikey);
         $email = $req->email;
         $data = array(
@@ -1060,35 +1064,8 @@ class PageController extends Controller
         );
 
         $json_data = json_encode($data);
-        $commnet = "Enquiry from footer subscriber email: " . $email;
-        AsanaTaskOperations::createTask($email, $commnet, "E");
-//        mailChimpTaskOperations::createList($list_id, $auth, $json_data);
-
-
-        try {
-            $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, 'https://us19.api.mailchimp.com/3.0/lists/' . $list_id . '/members/');
-            curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json',
-                'Authorization: Basic ' . $auth));
-            curl_setopt($ch, CURLOPT_USERAGENT, 'PHP-MCAPI/2.0');
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-            curl_setopt($ch, CURLOPT_POST, true);
-            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-            curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);
-            $result = curl_exec($ch);
-
-            // this code is required for next iteration
-            return response()->json([
-                'message' => 'success'
-            ]);
-//            $this->sendEmailtoSubscriber($email);
-
-        } catch (Exception $e) {
-            return response()->json([
-                'message' => 'error'
-            ]);
-        }
+        $result = mailChimpTaskOperations::createList($list_id, $auth, $json_data);
+        //return response()->json(["status" => "success", "result" => $result ]);
     }
 
     public function diwaliCoupon(Request $req)
@@ -2486,15 +2463,15 @@ class PageController extends Controller
                 $output .= '<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 " >
                                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 inner-review " >
                                     <div class="row div-img-row" >
-                                        <div class="col-md-1 col-sm-2 col-xs-2 no-padding">                                          
+                                        <div class="col-md-1 col-sm-2 col-xs-2 no-padding">
                                           <div class=" img-review img-circle "style="background-color: ' . $color . ';">
                                             <cneter>
                                                <p>'. $fl .'</p>
                                             </cneter>
-                                           
+
                                           </div>
                                         </div >
-                                        <div class="col-md-6 col-sm-7 col-xs-7" >                                          
+                                        <div class="col-md-6 col-sm-7 col-xs-7" >
                                           <p class="pull-left p-name-font-weight">' . $review->person . ' <br> ' . $review->name . '  </p>
                                         </div >
                                         <div class="col-md-4 col-lg-4 col-sm-3 col-xs-3 pull-right " style="margin-top: 11px" >
@@ -2506,8 +2483,8 @@ class PageController extends Controller
                                             <img src = "img/svg/qoute_up.svg">
                                         </i >
                                     </div >
-                                    <div class="row" >                                              
-                                        <p class=" p-reviews" >' . substr($review->review, '0', '550') . '!</p >                          
+                                    <div class="row" >
+                                        <p class=" p-reviews" >' . substr($review->review, '0', '550') . '!</p >
                                     </div >
                                     <div class="row" >
                                       <span class="quots-b" >

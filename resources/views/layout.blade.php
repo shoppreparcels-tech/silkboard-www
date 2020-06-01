@@ -454,7 +454,7 @@
                     var email = $("input[name='mailtrain_email']").val();
                     var mailtrain_type = 'footer';
                     jQuery.ajax({
-                        url: '/mailtrain/subscribe',
+                        url: '/mailchimp/subscribe',
                         type: "POST",
                         data: {
                             email: email,
@@ -463,6 +463,7 @@
                         success: function (data) {
                             $('#myModal').modal('show');
                             $('.txt-subscription').val('');
+                            console.log("FooterSub: ",data);
                         }
                     })
                 }

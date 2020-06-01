@@ -240,7 +240,8 @@ Route::get('/drop-off', 'PageController@dropOffLocations')->name('pickup.dropOff
 /* ---------- Android app url ---------*/
 Route::get('/android', 'PageController@androidApp')->name('android.app.index');
 
-Route::post('/mailchimp/subscribe', 'Myaccount\Customer\ProfileController@createSubscriber')->name('mailchimp.subscribe');
+Route::post('/mailchimp/subscribe', 'PageController@createSubscriber')->name('mailchimp.subscribe');
+//Route::post('/mailchimp/subscribe', 'Myaccount\Customer\ProfileController@createSubscriber')->name('member-subscribe');
 //Route::get('mailchimp/subscribe', 'Myaccount\Customer\ProfileController@createSubscriber')->name('mailchimp.subscribe');
 
 /*------ Promocode Apply ---------*/

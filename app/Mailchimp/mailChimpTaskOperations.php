@@ -36,10 +36,11 @@ class mailChimpTaskOperations
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
             curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);
             $result = curl_exec($ch);
+            return $result;
 
-            return response()->json([
-                'message' => 'success'
-            ]);
+            //return response()->json([
+             //   'message' => 'success'
+            //]);
 //          $this->sendEmailtoSubscriber($email);
 
         } catch (Exception $e) {
