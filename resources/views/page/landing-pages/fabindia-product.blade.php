@@ -153,30 +153,98 @@
     <section >
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
-{{--                <div class="">--}}
-{{--                    <center>--}}
-{{--                        <a href="https://www.fabindia.com/clothing/women-dupattas" target="_blank">--}}
-{{--                            <img class="img-desktop-view"--}}
-{{--                                 src="/img/images/fabIndiaDesktop.png"--}}
-{{--                                 width="1100px"></a>--}}
-{{--                        <a href="https://www.fabindia.com/clothing/women-dupattas" target="_blank">--}}
-{{--                            <img class="img-mobile-view img-shopperstop-offer"--}}
-{{--                                 src="/img/images/fabindiaMobile.png"--}}
-{{--                                 width="350px" ></a>--}}
-{{--                    </center>--}}
-{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">January 2020 Sale: <span class="f-s-25 f-c-red f-w-9">Festive Vibes</span> /--}}
-{{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
-{{--                </div>--}}
-{{--                <div class="col-md-4 col-xs-12 text-center margin-tp">--}}
-{{--                    <div class="">--}}
-{{--                        <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20Fabindia" target="_blank">--}}
-{{--                            <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >--}}
-{{--                            <span class="font-16"></span>--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
+               <div class="">
+                   <center>
+                       <a href="https://www.fabindia.com/shop/sale" target="_blank">
+                           <img class="img-desktop-view"
+                                src="https://www.fabindia.com/file/general/SALE-BANNER-2new.jpg"
+                                width="1100px"></a>
+                       <a href="https://www.fabindia.com/shop/sale" target="_blank">
+                           <img class="img-mobile-view img-shopperstop-offer"
+                                src="https://www.fabindia.com/file/general/SALE-BANNER-MOB-2.jpg"
+                                width="350px" ></a>
+                   </center>
+                   <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">June 2020 Sale: <span class="f-s-25 f-c-red f-w-9">Festive Vibes</span> /
+                       Below are the Recommended & Recently Shipped Products!</h2>
+               </div>
+             {{--<div class="col-md-4 col-xs-12 text-center margin-tp">
+                   <div class="">
+                       <a href="https://api.whatsapp.com/send?phone=917338208403&text=Hi%20Suresh;%20I%20Love%20to%20Shop%20from%20Fabindia" target="_blank">
+                           <img src="https://d2njzkuk16ywue.cloudfront.net/cdn/img/images/7338208403-personal-shopper-number.png" >
+                           <span class="font-16"></span>
+                       </a>
+                   </div>
+               </div>--}}
             </div>
             <div class="row text-center">
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                            <img class="img-product m-t-img" src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v7480292178110081942/products/10659647FM.f.130520.jpg&height=475&width=475">
+{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+{{--                            Soan Papdi <br>(200 grams)--}}
+{{--                        </div>--}}
+{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+{{--                            ₹150 + Shipping Charges--}}
+{{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.fabindia.com/pleated-set-of-4-plain-non-surgical-mask-10659647" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                            <img class="img-product m-t-img" src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v2853675679194325037/products/10659648FM.f.130520.jpg&height=475&width=475">
+{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+{{--                            Soan Papdi <br>(200 grams)--}}
+{{--                        </div>--}}
+{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+{{--                            ₹150 + Shipping Charges--}}
+{{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.fabindia.com/pleated-set-of-4-printed-non-surgical-mask-10659648" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                            <img class="img-product m-t-img" src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v6541428900304289162/products/10658297FM.f.160420.jpg&height=475&width=475">
+{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+{{--                            Soan Papdi <br>(200 grams)--}}
+{{--                        </div>--}}
+{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+{{--                            ₹150 + Shipping Charges--}}
+{{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.fabindia.com/snug-fit-non-surgical-mask-10658297" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                            <img class="img-product m-t-img" src="https://www.fabindia.com/ccstore/v1/images/?source=/file/v1517017878548771272/products/10658299FM.f.220420.jpg&height=475&width=475">
+{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+{{--                            Soan Papdi <br>(200 grams)--}}
+{{--                        </div>--}}
+{{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
+{{--                            ₹150 + Shipping Charges--}}
+{{--                        </div>--}}
+                        <div class="check-price-padd">
+                            <a href="https://www.fabindia.com/snug-fit-non-surgical-mask-10658299" target="_blank"> <span class="elementor-icon-list-icon">
+                                <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
                             <img class="img-product m-t-img" src="https://www.fabindia.com/file/general/rajwada-fea-20.jpg">

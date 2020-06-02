@@ -308,32 +308,72 @@
 
     <section>
         <div class="container fst-service" style="margin-top: 0px;">
-{{--            <div class="row">--}}
-{{--                <center>--}}
-{{--                <a href="https://www.myntra.com/" target="_blank">--}}
-{{--                    <img class="img-desktop-view"--}}
-{{--                         src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/3/10/0dbecf63-b437-4ddc-bd7f-7e1041b36de61583864931647-desktop-banner-newseason.jpg"--}}
-{{--                         width="800px"--}}
-{{--                         width="1100px"--}}
-{{--                    ></a>--}}
-{{--                    </center>--}}
-{{--                <center>--}}
-{{--                    <a href="https://www.myntra.com/shop/new_season" target="_blank">--}}
-{{--                        <img class="img-mobile-view img-shopperstop-offer"--}}
-{{--                             src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/retaillabs/2020/3/11/e0572a07-fc47-476d-9132-efa08f3b02761583870630352-final-banner-static.jpeg"--}}
-{{--                             width="350px" ></a>--}}
-{{--                </center>--}}
-{{--                <div class="">--}}
-{{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">--}}
-{{--                        Below are the Recommended & Recently Shipped Products from Myntra India!</h2>--}}
-{{--                </div>--}}
-{{--            </div>--}}
+           <div class="row">
+               <center>
+               <a href="https://www.myntra.com/myntra-fashion-store?f=Brand%3ADressBerry%2CSASSAFRAS%3A%3ACategories%3ADresses&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank">
+                   <img class="img-desktop-view"
+                        src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/6/1/1f572ea0-b417-45bb-9333-1cf2074633c31591023061690-DB_Sangria_Desk.jpg"
+                        width="800px"
+                        width="1100px"
+                   ></a>
+                   </center>
+               <center>
+                   <a href="https://www.myntra.com/myntra-fashion-store?rf=Discount+Range%3A30.0_100.0_30.0+TO+100.0&f=Brand%3ADressBerry%2CSASSAFRAS%3A%3ACategories%3ADresses" target="_blank">
+                       <img class="img-mobile-view img-shopperstop-offer"
+                            src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/6/1/c1145cd5-4d9f-4452-96d7-0372596084fd1591019821199-DB-Sangria_App.jpg"
+                            width="350px" ></a>
+               </center>
+               <div class="">
+                   <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center">
+                       Below are the Recommended & Recently Shipped Products from Myntra India!</h2>
+               </div>
+           </div>
 
             <div class="row text-center">
-{{--                <p class="f-s-20"><span class="f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">END OF SEASON SALE(40-80% OFF)</a></span></p>--}}
+              {{-- <p class="f-s-20"><span class="f-c-red f-w-9"><a href="https://www.myntra.com/" target="_blank">END OF SEASON SALE(40-80% OFF)</a></span></p>--}}
 
                 <br>
-                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Myntra Women's Fashion</h2>
+                    <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Cloth Face Mask</h2>
+
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26">
+                            <a href="https://www.myntra.com/outdoor-masks/sera/sera-unisex-2-pcs-3-ply-printed-reusable-outdoor-fabric-masks/11815882/buy" target="_blank">
+                                <img class="img-product m-t-img"
+                                src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11815882/2020/4/27/04710127-322e-47f0-bd99-0c6b7fefbc5e1588000745700Sera1.jpg">
+
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26">
+                            <a href="https://www.myntra.com/outdoor-masks/sera/sera-unisex-2-pcs-3-ply-printed-reusable-outdoor-fabric-masks/11815854/buy" target="_blank">
+                                <img class="img-product m-t-img"
+                                src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11815854/2020/4/27/595b38a7-5376-4b36-93bf-6c5bbdffc75a1587996728138Sera1.jpg">
+
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26">
+                            <a href="https://www.myntra.com/outdoor-masks/bene-kleed/bene-kleed-unisex-3-pcs-5-ply-reusable-outdoor-fashion-masks/11880914/buy" target="_blank">
+                                <img class="img-product m-t-img"
+                                src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11880914/2020/5/27/7ed77b83-bf47-4e18-b792-39be7757ddf61590584931351BeneKleedUnisex3Pcs5-PlyReusableOutdoorFashionMasks1.jpg">
+
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                        <div class="shopandship onam-prod-pic p-b-26">
+                            <a href="https://www.myntra.com/outdoor-masks/pannkh/pannkh-unisex-5-pcs-printed-2-ply-reusable-pleated-fabric-outdoor-mask/11882818/buy" target="_blank">
+                                <img class="img-product m-t-img"
+                                src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/11882818/2020/5/27/4eb07f43-65ac-476c-9f72-4c89d4eeabc91590559286587PannkhUnisex5PcsPrinted2-PlyReusablePleatedFabricOutdoorMask1.jpg">
+
+                            </a>
+                        </div>
+                    </div>
 
                     <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                         <div class="shopandship onam-prod-pic p-b-26">

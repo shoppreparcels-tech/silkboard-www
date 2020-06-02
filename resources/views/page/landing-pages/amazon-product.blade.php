@@ -134,23 +134,23 @@
             <div class="row">
                 <div class="">
 
-{{--                    <center>--}}
-{{--                        <a href="https://www.amazon.in/b?node=1953602031&pf_rd_r=81T2ZSHX14XMXNZJ0MSC&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739"--}}
-{{--                           target="_blank">--}}
-{{--                            <img class="img-desktop-view"--}}
-{{--                                 src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/newseason/Flip/wa_pc._SX3000_QL85_.jpg"--}}
-{{--                                 width="1000px">--}}
-{{--                        </a>--}}
+                   <center>
+                       <a href="https://www.amazon.in/womens-fashion-sale/b?ie=UTF8&node=12621992031"
+                          target="_blank">
+                           <img class="img-desktop-view"
+                                src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Fashion/May_ART/WomensPage/PC/topbanner._V509694744_.jpg"
+                                width="1000px">
+                       </a>
 
-{{--                    </center>--}}
-{{--                    <center>--}}
-{{--                        <a href="https://www.amazon.in/b?node=1953602031&pf_rd_r=81T2ZSHX14XMXNZJ0MSC&pf_rd_p=5a69a4d8-e60d-4d1e-bfc2-f8b0c0507739"--}}
-{{--                           target="_blank">--}}
-{{--                            <img class="img-mobile-view img-shopperstop-offer"--}}
-{{--                                 src="https://m.media-amazon.com/images/G/31/img2020/fashion/WA_2020/newseason/Flip/WA._SY1500_QL85_.jpg"--}}
-{{--                                 width="310px">--}}
-{{--                        </a>--}}
-{{--                    </center>--}}
+                   </center>
+                   <center>
+                       <a href="https://www.amazon.in/womens-fashion-sale/b?ie=UTF8&node=12621992031"
+                          target="_blank">
+                           <img class="img-mobile-view img-shopperstop-offer"
+                                src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Fashion/May_ART/WomensPage/Mobile/topbanner._V509694956_.jpg"
+                                width="310px">
+                       </a>
+                   </center>
 {{--                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">👉 <a--}}
 {{--                                href="https://www.amazon.in/b?node=6648217031" target="_blank">New Year, New You</a> (Up To 70% OFF)</span> /--}}
 {{--                        Below are the Recommended & Recently Shipped Products!</h2>--}}
@@ -266,6 +266,47 @@
 {{--            <hr style="border-top: 2px solid #beadad !important;">--}}
 
             <br>
+
+            <div class="row text-center">
+                <h2 class="f-s-20 p-color-cement-dark font-weight-900 ">Cloth Face Mask</h2>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26">
+                        <a href="https://www.amazon.in/FabAlley-Unisex-Cotton-Face-MSK00022_Multi-Color_Required/dp/B088KZ7V6H" target="_blank">
+                            <img class="img-product m-t-img"
+                            src="https://images-na.ssl-images-amazon.com/images/I/71TjAj3CfFL._UY741_.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.amazon.in/Louis-Philippe-Mens-Cotton-LPMSMRGFT16432_Assorted_Large/dp/B088S2FW1D" target="_blank">
+                            <img class="img-product m-t-img"
+                            src="https://images-na.ssl-images-amazon.com/images/I/619M5nONDBL._UY741_.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.amazon.in/Van-Heusen-Mens-Cotton-VHMSBRGPY32453_Assorted_Free/dp/B088GDM3L6" target="_blank">
+                            <img class="img-product m-t-img"
+                            src="https://images-na.ssl-images-amazon.com/images/I/61y%2B8-DwBzL._UY741_.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-6 col-md-3 zoom">
+                    <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
+                        <a href="https://www.amazon.in/Peter-England-Mens-Cotton-PECLMSKW52031_Assorted_Free/dp/B088V8C91N" target="_blank">
+                            <img class="img-product m-t-img "
+                            src="https://images-na.ssl-images-amazon.com/images/I/613vOOTPNvL._UY741_.jpg">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
             {{--Women's Fashion --}}
             <div class="row text-center">
