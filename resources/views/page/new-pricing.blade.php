@@ -965,7 +965,7 @@
                                             <a href="{{route('member.register')}}?membershipType=H&membershipAmount=2500"
                                                class="btn btn-b-r btn-s-r btn-a-l btn-disabled ">TRY IT
                                             </a>
-                                            <a href="{{route('member.register')}}?member=h" class="btn-enable ">Start Plan
+                                            <a href="{{route('member.register')}}?membershipType=H&membershipAmount=2500" class="btn-enable ">Start Plan
                                             </a>
 
                                         </td>
@@ -1304,7 +1304,7 @@
                                             <a href="{{route('member.plan')}}?membershipType=Y&membershipAmount=5000"
                                                class="btn btn-b-r btn-s-r btn-a-l btn-disabled ">TRY IT
                                             </a>
-                                            <a href="{{route('member.plan')}}?member=y" class="btn-enable ">Start Plan
+                                            <a href="{{route('member.plan')}}?membershipType=Y&membershipAmount=5000" class="btn-enable ">Start Plan
                                             </a>
                                         </td>
                                         <td>
