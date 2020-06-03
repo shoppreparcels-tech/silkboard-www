@@ -274,7 +274,7 @@
 
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26">
-                        <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/420/474/image/7912274dbd765277.jpg">
+                        <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/690/906/image/5eb0ad5874fc9967.jpg?q=90">
                         {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
                         {{--                            Soan Papdi <br>(200 grams)--}}
                         {{--                        </div>--}}
@@ -282,7 +282,8 @@
                         {{--                            ₹150 + Shipping Charges--}}
                         {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.flipkart.com/mobiles/~samsung-galaxy-s9-64gb/pr?sid=tyy,4io" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.flipkart.com/mobiles/~samsung-a50-series/pr?sid=tyy%2C4io&param=58&pageUID=1591173375778"
+                             target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -291,7 +292,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/420/474/image/83d123b5846557b7.jpg">
+                        <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/690/906/image/7e47ad473bfc14a6.jpg?q=90">
                         {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
                         {{--                            Kaju Katli <br>(250 grams)--}}
                         {{--                        </div>--}}
@@ -299,7 +300,8 @@
                         {{--                            ₹245 + Shipping Charges--}}
                         {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.flipkart.com/mobiles/~honor-10-lite/pr?sid=tyy,4io" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.flipkart.com/mobiles/~cs-axw3ei2ufh/pr?sid=tyy%2C4io&sort=recency_desc&param=6875&pageUID=1591173452047"
+                             target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -308,7 +310,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/420/474/image/a158e94f2cf680f8.jpg">
+                        <img class="img-product m-t-img" src="https://rukminim1.flixcart.com/flap/690/906/image/34022cc285b2bf5d.jpg?q=90">
                         {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
                         {{--                            Besan Laddu <br>(250 grams)--}}
                         {{--                        </div>--}}
@@ -316,7 +318,8 @@
                         {{--                            ₹145 + Shipping Charges--}}
                         {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.flipkart.com/mobiles/~samsung-a50-4gb/pr?sid=tyy,4io" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.flipkart.com/mobiles/~cs-gnzor65ydv/pr?sid=tyy%2C4io&collection-tab-name=Redmi+Note+8+Pro&sort=price_asc&param=9322020&pageUID=1591173649493"
+                             target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>
@@ -325,7 +328,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6 col-md-3 zoom">
                     <div class="shopandship onam-prod-pic p-b-26 no-padding-right" >
-                        <img class="img-product m-t-img " src="https://rukminim1.flixcart.com/flap/420/474/image/cac03c8f0f761ab5.jpg">
+                        <img class="img-product m-t-img "
+                        src="https://rukminim1.flixcart.com/flap/690/906/image/29e9bbfd0bedac26.jpg?q=90">
                         {{--                        <div class="no-pad Rakhi-mid-div mar-t-10 f-s-16" style="padding-top: 30px !important;font-weight: normal">--}}
                         {{--                            Doodh Burfi <br>(250 grams)--}}
                         {{--                        </div>--}}
@@ -333,7 +337,8 @@
                         {{--                            ₹145 + Shipping Charges--}}
                         {{--                        </div>--}}
                         <div class="check-price-padd">
-                            <a href="https://www.flipkart.com/mobiles/~pixel-3a-xi/pr?sid=tyy,4io" target="_blank"> <span class="elementor-icon-list-icon">
+                            <a href="https://www.flipkart.com/mobiles/~cs-l1kadxlzls/pr?sid=tyy%2C4io&collection-tab-name=Oppo+F15&pageUID=1591174641908"
+                             target="_blank"> <span class="elementor-icon-list-icon">
                                 <button class="btn btn-s-r btn-b-g btn-h-40">Buy Now</button>
                                 </span>
                             </a>

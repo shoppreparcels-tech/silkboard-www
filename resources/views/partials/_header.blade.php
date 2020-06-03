@@ -157,8 +157,8 @@
                                         <h6 class="header6 p-color-cement"><strong>International</strong></h6>
                                         {{--</a>--}}
 
-                                        <p class="header6 p-color-cement">We’ll come to you, pick up the courier and ship it to anywhere in the world.</p>
-                                        <a id="btn-service-schedule-pickup" href="{{route('schedulePickup.Index')}}" class="mega-menu-hyperlinks">Schedule a Pickup
+                                        <p class="header6 p-color-cement">We’ll come to you111, pick up the courier and ship it to anywhere in the world.</p>
+                                        <a id="btn-service-schedule-pickup" href="https://www.shopprecouriers.com/schedule-pickup" class="mega-menu-hyperlinks">Schedule a Pickup
                                         </a>
                                     </div>
                                 </ul>

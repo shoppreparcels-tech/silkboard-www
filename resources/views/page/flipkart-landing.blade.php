@@ -74,7 +74,7 @@
         <div class="container christmas-service">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - MARCH 2020 SALE
+                    <h2 class="header2 p-color-cement-dark font-weight-900 txt-align">Flipkart India - June 2020 SALE
 {{--                        <br> [ 👉 <a href="https://www.flipkart.com/fashion-trendy-ikfc4-store" target="_blank">STYLE YOUR WINTER</a> From ₹499]</h2>--}}
 
                 </div>
@@ -142,11 +142,11 @@
                                     <div itemscope="" itemtype="http://data-vocabulary.org/Review-aggregate">
                                         <span itemprop="itemreviewed">Flipkart International Shipping with ShoppRe.com</span>
                                         <span itemprop="rating" itemscope="" itemtype="http://data-vocabulary.org/Rating">
-                                         <span itemprop="average">4.5</span> out of <span itemprop="best">5</span></span> based on <span itemprop="votes">3900</span> ratings.
+                                         <span itemprop="average">4.5</span> out of <span itemprop="best">5</span></span> based on <span itemprop="votes">4100</span> ratings.
                                     </div>
 
                                     <p class="p-name" style="font-size: 18px"> <img src="{{env('AWS_CLOUD_FRONT')}}/img/images/star.png" style="width: 100px;"> <br></p>
-                                    <p class="p-name" style="font-size: 18px; color: #1a0dab">Total Products Shipped from Flipkart: +5800 </p>
+                                    <p class="p-name" style="font-size: 18px; color: #1a0dab">Total Products Shipped from Flipkart: +7000 </p>
 
                         </center>
                     </div>

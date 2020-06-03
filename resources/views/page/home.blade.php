@@ -508,7 +508,7 @@
                             </a>
                         </div>
                         <div class="col-md-4 col-xs-4 pad-l-5">
-                            <a class="f-s-18 f-c-white" id="btn-pickup-schedule" href="{{route('schedulePickup.Index')}}">
+                            <a class="f-s-18 f-c-white" id="btn-pickup-schedule" href="https://www.shopprecouriers.com/schedule-pickup">
                                 <div class="col-xs-12 col-md-12 pad-0-20 div-s-br cord-height">
                                     <h5 class="f-s-18 f-c-white txt-a-c box-margin-top">Best Courier Service
                                         <br>(Schedule Pickup)<br></h5>
@@ -975,7 +975,7 @@
                             Need to courier something abroad for a loved one? Worry No More Re! Just Shopp Re!</p>
                     </div>
                     <center>
-                        <a href="{{route('schedulePickup.Index')}}">
+                        <a href="https://www.shopprecouriers.com/schedule-pickup">
                             <div class="btn-our-courier btn-font-size" id="btn-our-courier">
                                 <p>
                                     Schedule a Pickup
@@ -1222,7 +1222,7 @@
                                 </p>
                                 <a href="https://g.page/shoppre?share" target="_blank" title="ShoppRe Google Reviews">
 
-                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">282 Google Reviews</p>
+                                    <p class="p-name" style="font-size: 20px; color: #1a0dab">288 Google Reviews</p>
 
                                 </a>
                                 <br>
@@ -1236,7 +1236,7 @@
                                 <br>
                                 <div style="background-color: blue; max-width: 86px; border-radius: 20px; height: 40px;">
                                 <p class="p-name" style="font-size: 23px; padding-top: 6px; padding-left: 10px;color: white;">
-                                    <span >4.7</span>
+                                    <span >4.61</span>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                 </p>
                                 </div>

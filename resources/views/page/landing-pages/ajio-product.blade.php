@@ -136,9 +136,6 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <div class="">
-                    <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">THE EVERYTHING-ON-SALE (40-80% OFF)</span> /
-
-                        Below are the Recommended & Recently Shipped Products!</h2>
                     <center>
                     <a href="https://www.ajio.com/s/nail-the-sail-3983-76451" target="_blank">
                         <img class="img-desktop-view"
@@ -150,9 +147,12 @@
                             <img class="img-mobile-view img-shopperstop-offer"
                                  src="https://assets.ajio.com/medias/sys_master/images/images/h7a/h43/16720711057438/02062020-M-UNISEX-TopBanner-PaydaySale-40to80Extra20.jpg"
                                  width="300px" ></a>
-
                     </center>
+                    <br>
+                        <h2 class="f-s-18 p-color-cement-dark font-weight-900 txt-center"><span class="f-s-25 f-c-red f-w-9">
 
+                       </span>
+                        Below are the Recommended & Recently Shipped Products!</h2>
                 </div>
             </div>
 
