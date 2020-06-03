@@ -962,7 +962,7 @@
                                         </td>
                                         <td class="pad-20">
                                             <h6 class="f-s-20 f-c-blue f-w-9">₹2500/-</h6>
-                                            <a href="{{route('member.register')}}?member=h"
+                                            <a href="{{route('member.register')}}?membershipType=H&membershipAmount=2500"
                                                class="btn btn-b-r btn-s-r btn-a-l btn-disabled ">TRY IT
                                             </a>
                                             <a href="{{route('member.register')}}?member=h" class="btn-enable ">Start Plan
@@ -1301,7 +1301,7 @@
                                         </td>
                                         <td class="pad-20">
                                             <h6 class="f-s-20 f-c-blue f-w-9">₹5000/-</h6>
-                                            <a href="{{route('member.plan')}}?member=y"
+                                            <a href="{{route('member.plan')}}?membershipType=Y&membershipAmount=5000"
                                                class="btn btn-b-r btn-s-r btn-a-l btn-disabled ">TRY IT
                                             </a>
                                             <a href="{{route('member.plan')}}?member=y" class="btn-enable ">Start Plan
