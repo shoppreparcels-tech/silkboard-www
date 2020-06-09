@@ -49,7 +49,7 @@
 					<li>Your earnings through referral will be credited to your ShoppRe Wallet</li>
 					<li>How ShoppRe Loyalty Points Works? - <a href="/loyalty-points">Click Here</a></li>
 				</ul>
-				<p>For any queries contact us at <a href="tel:+91-8277919191">+91-8277919191</a> or Live <a href="https://tawk.to/chat/58dab24ff97dd14875f5a8a9/default" target="_blank">Chat With Us</a></p>
+				<p>For any queries contact us at <a href="tel:+91-8277919191">+91-8277919191</a> or Live <a onclick="{{Constant::CHATURL}}" href="">Chat With Us</a></p>
             </form>
             <div class="clearfix"></div>
             <div class="ajaxloader"></div>

@@ -443,7 +443,7 @@
                         </i>Live Chat</p>
                     {{--<a href="https://shoppre-international-shipping-courier.zendesk.com/hc/en-us#"--}}
                     {{--class="header2 p-color-white">Chat Now</a>--}}
-                    <a href="{{Constant::CHATURL}}" target="_blank"
+                    <a onclick="{{Constant::CHATURL}}" href=""
                        class="header2 p-color-white">Chat Now</a>
 
                 </div>
@@ -488,7 +488,7 @@
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
                         </i>Live Chat</p>
-                    <a href="{{Constant::CHATURL}}" target="_blank"
+                    <a onclick="{{Constant::CHATURL}}" href=""
                        class="header2 p-color-white">Chat Now</a>
 
                 </div>

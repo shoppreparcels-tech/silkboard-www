@@ -323,7 +323,7 @@
                         <li>The offer can only be used to pay off your shipping costs.</li>
                         <li>You cannot Cancel/Return Products Purchased through Our <a href="/personal-shopper-india" target="_blank">Personal Shopper Service</a> </li>
                         <li>Clearance charges are applicable for shipping Special Items</li>
-                        <li>Please Chat Online with <a href="https://tawk.to/chat/58dab24ff97dd14875f5a8a9/default" target="_blank">ShoppRe Customer Solution Team</a>, before purchasing any products
+                        <li>Please Chat Online with <a onclick="{{Constant::CHATURL}}" href="">ShoppRe Customer Solution Team</a>, before purchasing any products
                             during FLIPSTART DAYS.</li>
                     </ul>
 
@@ -424,7 +424,7 @@
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
                         </i>Live Chat</p>
-                    <a href="{{Constant::CHATURL}}" target="_blank"
+                    <a onclick="{{Constant::CHATURL}}" href=""
                        class="header2 p-color-white">Chat Now</a>
 
                 </div>
@@ -470,7 +470,7 @@
                     <p class="header7">
                         <i class="fa fa-envelope" aria-hidden="true">
                         </i>Live Chat</p>
-                    <a href="{{Constant::CHATURL}}" target="_blank"
+                    <a onclick="{{Constant::CHATURL}}" href=""
                        class="header2 p-color-white">Chat Now</a>
 
                 </div>

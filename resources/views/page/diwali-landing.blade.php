@@ -53,7 +53,7 @@
                            </div>
                        </center>
                         <div class="form-group text-center ">
-                            <a href="https://tawk.to/chat/58dab24ff97dd14875f5a8a9/default" class="btn btn-d-activate-coupon text-white" target="_blank" style="padding: 14px 12px;">
+                            <a onclick="{{Constant::CHATURL}}" href="" class="btn btn-d-activate-coupon text-white" style="padding: 14px 12px;">
                             Chat with us
                             </a>
                         </div>
