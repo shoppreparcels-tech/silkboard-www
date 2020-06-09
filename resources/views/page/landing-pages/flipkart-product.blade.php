@@ -159,22 +159,22 @@
         <div class="container fst-service" style="margin-top: 0px;">
             <div class="row">
                 <!-- Start Hide mobile and desktop view sales offers -->
-{{--                <center>--}}
-{{--                    <a href="https://www.flipkart.com/offers-list/flat50off?screen=dynamic&pk=themeViews%3DLS-RD20-Jan-Flat50%3Ada%2CLS-RD20-Jan-Flat50%3Add%7EwidgetType%3DdealCard%7EcontentType%3Dneo&wid=2.dealCard.OMU&param=988&otracker=hp_bannerads_4_2.bannerAdCard.BANNERADS_2157DFO437YZ"--}}
-{{--                       target="_blank">--}}
-{{--                        <img class="img-desktop-view"--}}
-{{--                             src="https://rukminim1.flixcart.com/flap/1688/280/image/06b2d490411d8614.jpg?q=50"--}}
-{{--                             width="1100px" >--}}
-{{--                             style="width: 50%;">--}}
-{{--                    </a>--}}
-{{--                </center>--}}
-{{--                <center>--}}
-{{--                    <a href="https://www.flipkart.com/fashion-ffd-feb-2020-pn-base-store"--}}
-{{--                       target="_blank">--}}
-{{--                        <img class="img-mobile-view img-shopperstop-offer"--}}
-{{--                             src="https://rukminim1.flixcart.com/flap/1080/480/image/38c8975f76c1e73e.jpg?q=90"--}}
-{{--                             width="300px" ></a>--}}
-{{--                </center>--}}
+                <center>
+                    <a href="https://www.flipkart.com/search?q=under%20699&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"
+                       target="_blank">
+                        <img class="img-desktop-view"
+                             src="https://rukminim1.flixcart.com/flap/1080/480/image/69a92a0715d78b86.jpg?q=90"
+                             width="50%"
+                             >
+                    </a>
+                </center>
+                <center>
+                    <a href="https://www.flipkart.com/fashion-post-covid19-wb-store?param=888&nnc=UCFM1J3WXHF0_AD"
+                       target="_blank">
+                        <img class="img-mobile-view img-shopperstop-offer"
+                             src="https://rukminim1.flixcart.com/flap/1080/480/image/69a92a0715d78b86.jpg?q=90"
+                             width="300px" ></a>
+                </center>
 
                 <!-- End Hide mobile and desktop view sales offers -->
 

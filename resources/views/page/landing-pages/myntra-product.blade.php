@@ -310,17 +310,19 @@
         <div class="container fst-service" style="margin-top: 0px;">
            <div class="row">
                <center>
-               <a href="https://www.myntra.com/myntra-fashion-store?f=Brand%3ADressBerry%2CSASSAFRAS%3A%3ACategories%3ADresses&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0" target="_blank">
+               <a href="https://www.myntra.com/shop/made-in-india-20"
+                    target="_blank">
                    <img class="img-desktop-view"
-                        src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/6/1/1f572ea0-b417-45bb-9333-1cf2074633c31591023061690-DB_Sangria_Desk.jpg"
+                        src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/6/8/a7a78034-16a3-4a37-b265-252cc9bd70281591629761456-MII-desktop-banner.jpg"
                         width="800px"
                         width="1100px"
                    ></a>
                    </center>
                <center>
-                   <a href="https://www.myntra.com/myntra-fashion-store?rf=Discount+Range%3A30.0_100.0_30.0+TO+100.0&f=Brand%3ADressBerry%2CSASSAFRAS%3A%3ACategories%3ADresses" target="_blank">
+                   <a href="https://www.myntra.com/shop/made-in-india-20"
+                            target="_blank">
                        <img class="img-mobile-view img-shopperstop-offer"
-                            src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/6/1/c1145cd5-4d9f-4452-96d7-0372596084fd1591019821199-DB-Sangria_App.jpg"
+                            src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2020/6/8/32fb993e-259f-42dd-a298-ad1b3ae6f83a1591629761496-made-in-india.jpg"
                             width="350px" ></a>
                </center>
                <div class="">

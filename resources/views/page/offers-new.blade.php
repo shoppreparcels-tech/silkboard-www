@@ -277,7 +277,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">flipstart day </h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">under 699 </h4>
                             <h5 class="header6 p-color-cement font-weight-900">1st - 3rd June</h5>
                             <div class="ecomSmallBox">
                                 <a href="/flipkart-online-shopping" target="_blank">
@@ -347,7 +347,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">all things summer</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">Made in india</h4>
 {{--                            <h5 class="header6 p-color-cement font-weight-900"> 40-70% Off </h5>--}}
                             <h5 class="header6 p-color-cement font-weight-900"> Launching Spring Summer'20 </h5>
                             <br>
@@ -450,7 +450,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">THE makeup SALE</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">big on style sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Up To 30% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/nykaa-online-shopping" target="_blank">
@@ -463,7 +463,7 @@
                 <div class="col-md-3 col-xs-12">
                     <center>
                         <div class="EcomBox">
-                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">FESTIVE FLAUNT</h4>
+                            <h4 class="header4 p-color-blue text-transform-u font-weight-900">the cliq cliq sale</h4>
                             <h5 class="header6 p-color-cement font-weight-900">Flat 50% Off</h5>
                             <div class="ecomSmallBox">
                                 <a href="/tatacliq-online-shopping" target="_blank">
